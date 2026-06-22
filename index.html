@@ -24,6 +24,16 @@
   .blob{ filter:blur(70px) }
   @keyframes float{ 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
   .floaty{ animation:float 6.5s ease-in-out infinite }
+  /* menu-scan demo: sweeping beam + per-dish calorie chips */
+  .scan-beam{ position:absolute; left:0; right:0; top:33%; height:2px; z-index:18; opacity:0;
+    background:linear-gradient(90deg,transparent,#6fd3c6 18%,#6fd3c6 82%,transparent);
+    box-shadow:0 0 18px 5px rgba(53,128,118,.6); transition:opacity .5s ease }
+  .kcal-chip{ position:absolute; z-index:16; font:700 8.5px/1 ui-sans-serif,system-ui,sans-serif;
+    color:#fff; background:rgba(46,132,123,.95); padding:2px 6px; border-radius:999px;
+    white-space:nowrap; box-shadow:0 2px 8px rgba(0,0,0,.45);
+    transform:translateY(-50%) scale(.6); opacity:0;
+    transition:opacity .45s ease, transform .55s cubic-bezier(.16,1,.3,1) }
+  .kcal-chip.on{ opacity:1; transform:translateY(-50%) scale(1) }
   /* Lunch card — premium-smooth toggle between neutral and teal "counted" state */
   #lunchCard, #lunchCard .lunch-num, #lunchCard .lunch-label{ transition: background-color .7s cubic-bezier(.16,1,.3,1), box-shadow .7s cubic-bezier(.16,1,.3,1), color .7s cubic-bezier(.16,1,.3,1) }
   #lunchCard.lunch-on{ background:rgba(53,128,118,.10); box-shadow: inset 0 0 0 1px rgba(53,128,118,.35) }
@@ -192,19 +202,30 @@
             <div class="absolute top-2.5 left-1/2 -translate-x-1/2 w-20 h-[22px] bg-black rounded-full z-20"></div>
 
             <!-- scan line -->
-            <div class="absolute left-0 right-0 top-[46%] h-[2px] bg-teal-400 shadow-[0_0_18px_4px_rgba(53,128,118,0.7)] z-10"></div>
+            <div id="scanBeam" class="scan-beam"></div>
 
             <!-- meal kcal badge -->
             <div class="absolute top-12 right-3 z-20 w-[58px] h-[58px] rounded-full bg-cream/95 ring-2 ring-teal-500 grid place-items-center text-center shadow-card">
               <div><p class="text-[8px] text-ink/55 leading-none">Lunch</p><p class="text-base font-extrabold text-teal-600 leading-none">925</p><p class="text-[7px] text-ink/45 leading-none">kcal</p></div>
             </div>
 
-            <!-- dish pills — each pinned (top%) to its own dish line on the sheet -->
-            <span class="absolute z-10 inline-flex items-center gap-1.5 bg-black/80 text-white rounded-full pl-1.5 pr-2 py-1 shadow-card backdrop-blur-sm text-[10.5px] font-semibold" style="top:38%;left:9%;transform:translateY(-50%)"><span>🧀</span> Salade de chèvre <b class="text-gold-400">450</b></span>
-            <span class="absolute z-10 inline-flex items-center gap-1.5 bg-black/80 text-white rounded-full pl-1.5 pr-2 py-1 shadow-card backdrop-blur-sm text-[10.5px] font-semibold" style="top:42%;left:9%;transform:translateY(-50%)"><span>🐌</span> Escargots <b class="text-gold-400">280</b></span>
-            <span class="absolute z-10 inline-flex items-center gap-1.5 bg-black/80 text-white rounded-full pl-1.5 pr-2 py-1 shadow-card backdrop-blur-sm text-[10.5px] font-semibold" style="top:51%;left:9%;transform:translateY(-50%)"><span>🧅</span> Soupe à l'oignon <b class="text-gold-400">430</b></span>
-            <span class="absolute z-10 inline-flex items-center gap-1.5 bg-black/80 text-white rounded-full pl-1.5 pr-2 py-1 shadow-card backdrop-blur-sm text-[10.5px] font-semibold" style="top:62%;left:9%;transform:translateY(-50%)"><span>🍗</span> Poulet rôti <b class="text-gold-400">520</b></span>
-            <span class="absolute z-10 inline-flex items-center gap-1.5 bg-black/80 text-white rounded-full pl-1.5 pr-2 py-1 shadow-card backdrop-blur-sm text-[10.5px] font-semibold" style="top:69%;left:9%;transform:translateY(-50%)"><span>🥩</span> Entrecôte, frites <b class="text-gold-400">850</b></span>
+            <!-- dish kcal chips — appear as the scan beam passes (positions detected per dish) -->
+            <span class="kcal-chip" style="top:37.5%;left:56%">🔥 450</span>
+            <span class="kcal-chip" style="top:40.5%;left:56%">🔥 240</span>
+            <span class="kcal-chip" style="top:44%;left:56%">🔥 280</span>
+            <span class="kcal-chip" style="top:49%;left:56%">🔥 430</span>
+            <span class="kcal-chip" style="top:52%;left:56%">🔥 230</span>
+            <span class="kcal-chip" style="top:54.5%;left:56%">🔥 250</span>
+            <span class="kcal-chip" style="top:60%;left:56%">🔥 520</span>
+            <span class="kcal-chip" style="top:63%;left:56%">🔥 560</span>
+            <span class="kcal-chip" style="top:66%;left:56%">🔥 850</span>
+            <span class="kcal-chip" style="top:72%;left:56%">🔥 120</span>
+            <span class="kcal-chip" style="top:74.5%;left:56%">🔥 260</span>
+            <span class="kcal-chip" style="top:77%;left:56%">🔥 480</span>
+            <span class="kcal-chip" style="top:83%;left:56%">🔥 5</span>
+            <span class="kcal-chip" style="top:85%;left:56%">🔥 120</span>
+            <span class="kcal-chip" style="top:87%;left:56%">🔥 120</span>
+            <span class="kcal-chip" style="top:89.5%;left:56%">🔥 220</span>
 
             <div class="absolute bottom-2 left-1/2 -translate-x-1/2 w-28 h-1 rounded-full bg-white/40 z-20"></div>
           </div>
@@ -415,6 +436,38 @@
         await wait(2200);
         lunch && lunch.classList.remove('lunch-on');
         await tween(1, 0, 1150);
+      }
+    })();
+  })();
+</script>
+<!-- menu-scan animation: beam sweeps; chips reveal as it passes; loops with pauses -->
+<script>
+  (function(){
+    const beam=document.getElementById('scanBeam');
+    const chips=[].slice.call(document.querySelectorAll('.kcal-chip'));
+    if(!beam||!chips.length) return;
+    chips.forEach(c=>c.dataset.y=parseFloat(c.style.top));
+    const TOP=33, BOT=92;
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches){ chips.forEach(c=>c.classList.add('on')); return; }
+    const wait=ms=>new Promise(r=>setTimeout(r,ms));
+    function sweep(dur){ return new Promise(res=>{ let s=null;
+      function f(ts){ s=s||ts; const t=Math.min(1,(ts-s)/dur); const y=TOP+(BOT-TOP)*t;
+        beam.style.top=y+'%';
+        chips.forEach(c=>{ if(parseFloat(c.dataset.y)<=y+1) c.classList.add('on'); });
+        t<1?requestAnimationFrame(f):res(); }
+      requestAnimationFrame(f); }); }
+    (async function loop(){
+      while(true){
+        chips.forEach(c=>c.classList.remove('on'));
+        beam.style.opacity='0'; beam.style.top=TOP+'%';
+        await wait(700);
+        beam.style.opacity='1';
+        await sweep(3200);
+        await wait(450);
+        beam.style.opacity='0';
+        await wait(1900);
+        chips.forEach(c=>c.classList.remove('on'));
+        await wait(900);
       }
     })();
   })();
