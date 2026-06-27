@@ -33,7 +33,7 @@
 
 <main class="max-w-3xl mx-auto px-5 sm:px-8 py-14">
   <h1 class="font-serif text-4xl sm:text-5xl tracking-tight">Privacy Policy</h1>
-  <p class="mt-3 text-ink/55">Last updated: June 2026</p>
+  <p class="mt-3 text-ink/55">Last updated: June 27, 2026</p>
 
   <div class="mt-8 space-y-7 text-[15.5px] leading-relaxed text-ink/80
               [&_h2]:font-serif [&_h2]:text-2xl [&_h2]:text-ink [&_h2]:mt-10 [&_h2]:mb-2 [&_h2]:tracking-tight
@@ -48,7 +48,7 @@
     <p>When you scan a menu or a meal, the image is sent to our AI provider (OpenAI) to recognize dishes and estimate nutrition. The request goes through our own proxy server (Cloudflare), which only relays it to the provider and stores no data of its own. Photos are processed to return results and are not used to identify you. See <a href="https://openai.com/policies/privacy-policy">OpenAI’s privacy policy</a>.</p>
 
     <h2>Shared dish &amp; menu database</h2>
-    <p>To avoid analyzing the same dishes again and again, the structured result of a menu scan — dish names, descriptions, nutrition estimates, prices, and a fingerprint of the printed menu text — is saved to a shared database, so you and other users benefit from menus that have already been scanned. This database contains only information printed on the menu itself. It holds no photos, no location, and no account or device identifiers — nothing that identifies you.</p>
+    <p>To make scanning faster and cheaper, recognised dish names, their descriptions and nutrition estimates, and menu text are saved to a shared database (Google Firebase) and reused for everyone. A dish another person has already scanned can be returned to you instantly without a new AI request. This shared data is anonymous — it is never linked to you or your device, and contains no personal information.</p>
 
     <h2>Approximate location</h2>
     <p>If you grant location access, we use your approximate area to add local context to menus (currency, regional dishes) and to label history entries. You can deny or revoke this in your device Settings at any time; the App keeps working without it.</p>
@@ -57,14 +57,14 @@
     <p>If you connect Apple Health, we read your activity — steps, floors climbed, distance, exercise minutes and active energy — to estimate your activity level and tailor your calorie budget. We also use the device motion sensor (step counter) for the same purpose. This data is processed on your device, is never sold or shared, and is never used for advertising. You can disconnect access anytime in iOS Settings → Health; the App keeps working without it.</p>
 
     <h2>Analytics &amp; tracking</h2>
-    <p>We use Firebase Analytics to understand which features are used, in aggregate and anonymously. We never collect this data until you allow tracking through the App Tracking Transparency (ATT) prompt. If you choose “Ask App Not to Track,” analytics collection stays off. The App also includes the Google AdMob SDK; any advertising identifier (IDFA) is only accessed if you grant tracking permission. We do not link analytics to your identity or share it for cross-app advertising. See <a href="https://firebase.google.com/support/privacy">Firebase/Google privacy</a>.</p>
+    <p>We use Firebase Analytics to understand which features are used, in aggregate and anonymously. We never collect this data until you allow tracking through the App Tracking Transparency (ATT) prompt. If you choose “Ask App Not to Track,” analytics collection stays off. We do not link analytics to your identity or share it for cross-app advertising. See <a href="https://firebase.google.com/support/privacy">Firebase/Google privacy</a>.</p>
 
     <h2>Subscriptions &amp; payments</h2>
     <p>Purchases are handled entirely by Apple through the App Store. We never see or store your payment details.</p>
 
     <h2>How we share data</h2>
     <ul>
-      <li><strong>Service providers</strong> that process data to make the App work: Cloudflare (a proxy that relays scan requests, storing nothing of its own), OpenAI (dish recognition), Google Firebase (analytics, authentication, backup).</li>
+      <li><strong>Service providers</strong> that process data to make the App work: OpenAI (dish recognition), Cloudflare (request proxy), Google Firebase (analytics, authentication, backup, shared dish database).</li>
       <li><strong>Legal &amp; safety:</strong> when required by law, or to detect and prevent fraud, abuse, or security issues.</li>
     </ul>
     <p>Other than the above, we do not share your personal data.</p>
