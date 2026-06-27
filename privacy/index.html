@@ -45,7 +45,7 @@
     <p>Your profile (such as age, height, weight, goals, dietary preferences and allergens), the meals you log, your weight history, and any photos you save are stored on your device. If you sign in with Apple or Google, this data can also be backed up to your private account so it survives a reinstall or new phone. When you do, we receive your email and name (with Apple, this may be a private relay address) solely to attach this backup to your account; we never see your password — sign-in is handled by Apple, Google and Firebase. This information is used only to power the App’s features for you. It is never shared with advertisers or data brokers.</p>
 
     <h2>Menu &amp; food photos</h2>
-    <p>When you scan a menu or a meal, the image is sent to our AI provider (OpenAI) to recognize dishes and estimate nutrition. Photos are processed to return results and are not used to identify you. See <a href="https://openai.com/policies/privacy-policy">OpenAI’s privacy policy</a>.</p>
+    <p>When you scan a menu or a meal, the image is sent to our AI provider (OpenAI) to recognize dishes and estimate nutrition. The request goes through our own proxy server (Cloudflare), which only relays it to the provider and stores no data of its own. Photos are processed to return results and are not used to identify you. See <a href="https://openai.com/policies/privacy-policy">OpenAI’s privacy policy</a>.</p>
 
     <h2>Shared dish &amp; menu database</h2>
     <p>To avoid analyzing the same dishes again and again, the structured result of a menu scan — dish names, descriptions, nutrition estimates, prices, and a fingerprint of the printed menu text — is saved to a shared database, so you and other users benefit from menus that have already been scanned. This database contains only information printed on the menu itself. It holds no photos, no location, and no account or device identifiers — nothing that identifies you.</p>
@@ -64,7 +64,7 @@
 
     <h2>How we share data</h2>
     <ul>
-      <li><strong>Service providers</strong> that process data to make the App work: OpenAI (dish recognition), Google Firebase (analytics, authentication, backup).</li>
+      <li><strong>Service providers</strong> that process data to make the App work: Cloudflare (a proxy that relays scan requests, storing nothing of its own), OpenAI (dish recognition), Google Firebase (analytics, authentication, backup).</li>
       <li><strong>Legal &amp; safety:</strong> when required by law, or to detect and prevent fraud, abuse, or security issues.</li>
     </ul>
     <p>Other than the above, we do not share your personal data.</p>
