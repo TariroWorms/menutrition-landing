@@ -24,6 +24,17 @@
   .blob{ filter:blur(70px) }
   @keyframes float{ 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
   .floaty{ animation:float 6.5s ease-in-out infinite }
+  /* language switcher dropdown */
+  .lang-menu{ position:absolute; right:0; top:100%; margin-top:.6rem; width:13rem;
+    max-height:20rem; overflow-y:auto; background:#F8F6F1; border:1px solid rgba(39,35,32,.10);
+    border-radius:1.1rem; box-shadow:0 26px 70px -28px rgba(39,35,32,.42); padding:.45rem; z-index:60;
+    scrollbar-width:thin; scrollbar-color:rgba(39,35,32,.2) transparent }
+  .lang-menu::-webkit-scrollbar{ width:9px }
+  .lang-menu::-webkit-scrollbar-thumb{ background:rgba(39,35,32,.18); border-radius:9px; border:2.5px solid #F8F6F1 }
+  .lang-item{ display:block; width:100%; text-align:left; padding:.52rem .85rem; border-radius:.7rem;
+    font-size:.9rem; line-height:1.15; color:#241F1B; transition:background-color .15s ease, color .15s ease }
+  .lang-item:hover{ background:rgba(53,128,118,.10); color:#2A6A5F }
+  .lang-item.active{ background:rgba(53,128,118,.08); color:#2A6A5F; font-weight:600 }
   /* menu-scan demo: sweeping beam + per-dish calorie chips */
   .scan-beam{ position:absolute; left:0; right:0; top:33%; height:2px; z-index:18; opacity:0;
     background:linear-gradient(90deg,transparent,#6fd3c6 18%,#6fd3c6 82%,transparent);
@@ -62,28 +73,28 @@
           <span id="langCur">EN</span>
           <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
         </button>
-        <div id="langMenu" class="hidden absolute right-0 top-full mt-2 w-44 max-h-[19rem] overflow-y-auto rounded-2xl bg-paper border border-char/10 shadow-card py-2 z-[60]">
-        <button data-setlang="en" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">English</button>
-        <button data-setlang="de" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Deutsch</button>
-        <button data-setlang="es" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Español</button>
-        <button data-setlang="fr" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Français</button>
-        <button data-setlang="id" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Indonesia</button>
-        <button data-setlang="it" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Italiano</button>
-        <button data-setlang="nl" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Nederlands</button>
-        <button data-setlang="pl" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Polski</button>
-        <button data-setlang="pt" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Português</button>
-        <button data-setlang="sv" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Svenska</button>
-        <button data-setlang="vi" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Tiếng Việt</button>
-        <button data-setlang="tr" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Türkçe</button>
-        <button data-setlang="uk" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Українська</button>
-        <button data-setlang="ru" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">Русский</button>
-        <button data-setlang="ar" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">العربية</button>
-        <button data-setlang="he" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">עברית</button>
-        <button data-setlang="hi" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">हिन्दी</button>
-        <button data-setlang="th" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">ไทย</button>
-        <button data-setlang="zh" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">中文</button>
-        <button data-setlang="ja" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">日本語</button>
-        <button data-setlang="ko" class="w-full text-left px-4 py-1.5 text-sm hover:bg-teal-500/10 hover:text-teal-600 transition">한국어</button>
+        <div id="langMenu" class="lang-menu hidden">
+        <button data-setlang="en" class="lang-item">English</button>
+        <button data-setlang="de" class="lang-item">Deutsch</button>
+        <button data-setlang="es" class="lang-item">Español</button>
+        <button data-setlang="fr" class="lang-item">Français</button>
+        <button data-setlang="id" class="lang-item">Indonesia</button>
+        <button data-setlang="it" class="lang-item">Italiano</button>
+        <button data-setlang="nl" class="lang-item">Nederlands</button>
+        <button data-setlang="pl" class="lang-item">Polski</button>
+        <button data-setlang="pt" class="lang-item">Português</button>
+        <button data-setlang="sv" class="lang-item">Svenska</button>
+        <button data-setlang="vi" class="lang-item">Tiếng Việt</button>
+        <button data-setlang="tr" class="lang-item">Türkçe</button>
+        <button data-setlang="uk" class="lang-item">Українська</button>
+        <button data-setlang="ru" class="lang-item">Русский</button>
+        <button data-setlang="ar" class="lang-item">العربية</button>
+        <button data-setlang="he" class="lang-item">עברית</button>
+        <button data-setlang="hi" class="lang-item">हिन्दी</button>
+        <button data-setlang="th" class="lang-item">ไทย</button>
+        <button data-setlang="zh" class="lang-item">中文</button>
+        <button data-setlang="ja" class="lang-item">日本語</button>
+        <button data-setlang="ko" class="lang-item">한국어</button>
         </div>
       </div>
       <a href="https://apps.apple.com/cy/app/menutrition-meal-calorie-ai/id6767123368" target="_blank" rel="noopener" class="rounded-full bg-char text-paper text-sm font-semibold px-5 py-2.5 hover:-translate-y-0.5 transition shadow-soft" data-i18n="nav_dl">Download</a>
@@ -510,6 +521,7 @@
     document.documentElement.lang = lang;
     const cur = document.getElementById('langCur');
     if (cur) cur.textContent = lang.toUpperCase();
+    document.querySelectorAll('[data-setlang]').forEach(b => b.classList.toggle('active', b.dataset.setlang === lang));
   }
   function pick(){
     const q = new URLSearchParams(location.search).get('lang');
