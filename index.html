@@ -266,6 +266,10 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
 [dir=rtl] .lc-range{direction:rtl}
 [dir=rtl] .lc-range::-webkit-slider-runnable-track{background:linear-gradient(270deg,#2E7A6F var(--p),#E7E2D8 var(--p))}
 .lc.hint .lc-range::-webkit-slider-thumb{animation:thumbPulse 1.2s ease-in-out 2}
+.lc.adj.hint{box-shadow:0 3cqw 7cqw rgba(0,0,0,.28),0 0 0 .8cqw rgba(46,122,111,.55);animation:adjGlow 1.6s ease-in-out infinite}
+@keyframes adjGlow{50%{box-shadow:0 3cqw 7cqw rgba(0,0,0,.28),0 0 0 2cqw rgba(46,122,111,.18)}}
+.lc-hand{position:absolute;bottom:-5.5cqw;width:9cqw;height:9cqw;margin-left:-4.5cqw;font-size:8cqw;line-height:1;pointer-events:none;filter:drop-shadow(0 .6cqw 1cqw rgba(0,0,0,.4));transition:opacity .3s;opacity:0}
+.lc.hint .lc-hand{opacity:1}
 @keyframes thumbPulse{50%{box-shadow:0 0 0 2.5cqw rgba(46,122,111,.25)}}
 .nav-stores{margin:0!important;gap:8px;flex-wrap:nowrap}
 .nav-stores .badge-as img{height:38px}
@@ -863,7 +867,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
   function count(b,to,ms){ var s=null; (function f(ts){ s=s||ts; var p=Math.min(1,(ts-s)/ms); b.textContent=Math.round(to*p); if(p<1) requestAnimationFrame(f); })(performance.now()); requestAnimationFrame(function f2(){}); }
   var running=false;
   window.mnLunchPlay=function(){
-    if(reduce||running) return; running=true;
+    if(running) return; if(reduce){ startDemo(); return; } running=true;
     var chips=visibleChips();
     chips.forEach(function(c){ c.classList.add('wait'); });
     fig.classList.add('pre'); void fig.offsetWidth;
@@ -875,15 +879,37 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
         c.classList.remove('wait'); type(n,txt,22);
         var to=+b.textContent; b.textContent='0'; var s=null;
         (function f(ts){ s=s||ts; var p=Math.min(1,(ts-s)/500); b.textContent=Math.round(to*p); if(p<1) requestAnimationFrame(f); })(performance.now());
-        if(i===chips.length-1) setTimeout(function(){ running=false; var a=fig.querySelector('.lunch-chips:not([hidden]) .adj'); if(a) a.classList.add('hint'); },600);
+        if(i===chips.length-1) setTimeout(function(){ running=false; startDemo(); },500);
       }, d+i*260);
     });
   };
+
+  // Attract attention to the slider: glow + a finger that drags the thumb 50→90→20→50, repeated until touched.
+  var touched=false, demoT=null;
+  function setVal(r,v){ r.value=v; r.dispatchEvent(new Event('input',{bubbles:true})); }
+  function placeHand(r){ var h=r.parentNode.querySelector('.lc-hand'); if(!h) return; var p=(r.value-r.min)/(r.max-r.min);
+    if(getComputedStyle(r).direction==='rtl') p=1-p; h.style.left=(r.offsetLeft+p*r.offsetWidth)+'px'; }
+  function tweenVal(r,a,b,ms){ return new Promise(function(res){ var s=null; (function f(ts){ if(touched) return res(); s=s||ts; var t=Math.min(1,(ts-s)/ms), e=t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2;
+    setVal(r,Math.round((a+(b-a)*e)/5)*5); placeHand(r); t<1?requestAnimationFrame(f):res(); })(performance.now()); }); }
+  function startDemo(){
+    if(touched||reduce) return;
+    var c=fig.querySelector('.lunch-chips:not([hidden]) .adj'); if(!c) return;
+    var r=c.querySelector('.lc-range');
+    if(!c.querySelector('.lc-hand')){ var h=document.createElement('span'); h.className='lc-hand'; h.setAttribute('aria-hidden','true'); h.textContent='👆'; c.appendChild(h); }
+    c.classList.add('hint'); placeHand(r);
+    (async function(){
+      await new Promise(function(x){setTimeout(x,400)});
+      await tweenVal(r,50,90,700); await tweenVal(r,90,20,900); await tweenVal(r,20,50,600);
+      if(!touched) demoT=setTimeout(startDemo,3500);
+    })();
+  }
+  fig.addEventListener('pointerdown',function(e){ if(!e.target.classList.contains('lc-range')) return; touched=true; clearTimeout(demoT);
+    fig.querySelectorAll('.adj.hint').forEach(function(c){ c.classList.remove('hint'); }); },true);
   // slider
   fig.addEventListener('input',function(e){
     var r=e.target; if(!r.classList.contains('lc-range')) return;
     var p=+r.value, chip=r.closest('.lc'), m=chip.querySelector('.m'), b=chip.querySelector('b[data-kc]');
-    r.style.setProperty('--p',p+'%'); chip.classList.remove('hint');
+    r.style.setProperty('--p',p+'%');
     var g=Math.round(+r.dataset.g*p/100), k=Math.round(+r.dataset.k*p/100);
     b.textContent=k;
     if(!m.dataset.tpl) m.dataset.tpl=m.textContent;
