@@ -258,6 +258,9 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
 .lc.wait{opacity:0;transform:translateY(2cqw) scale(.9)}
 .lc-t{display:flex;gap:3cqw;align-items:center;justify-content:space-between}
 .lc .m{display:block;font-weight:600;color:#7a7366;font-size:2.9cqw}
+.lunch-dots{display:flex;justify-content:center;gap:10px;margin-top:16px}
+.lunch-dots button{width:8px;height:8px;border-radius:999px;background:rgba(39,35,32,.22);transition:width .35s ease,background .35s ease;padding:0}
+.lunch-dots button.on{width:24px;background:#0E9C88}
 .lc .kc{display:flex;flex-direction:column;align-items:center;line-height:1}
 .lc .kc small{font-size:2.4cqw;font-weight:700;color:#2E7A6F;opacity:.8;margin-top:.4cqw}
 .lc b{color:#2E7A6F;font-size:4.6cqw;font-weight:800;font-variant-numeric:tabular-nums}
@@ -360,6 +363,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
           <div class="lunch-chips"><div class="lc" style="top:4.6%;left:18.94cqw"><div class="lc-t"><div><span class="n" data-i18n="kb1">Dates</span><span class="m" data-i18n="kb1m">100 g · 75 g carbs</span></div><span class="kc"><b data-kc="280">280</b><small data-i18n="kcal_u">kcal</small></span></div></div><div class="lc" style="top:14.8%;right:2.27cqw"><div class="lc-t"><div><span class="n" data-i18n="kb2">Laban</span><span class="m">250 ml</span></div><span class="kc"><b data-kc="150">150</b><small data-i18n="kcal_u">kcal</small></span></div></div><div class="lc" style="top:22.1%;left:2.27cqw"><div class="lc-t"><div><span class="n" data-i18n="kb3">Vegetable salad</span><span class="m">150 g</span></div><span class="kc"><b data-kc="50">50</b><small data-i18n="kcal_u">kcal</small></span></div></div><div class="lc" style="top:31.4%;left:25.00cqw"><div class="lc-t"><div><span class="n" data-i18n="kb4">Labneh</span><span class="m" data-i18n="kb4m">120 g · 8 g protein</span></div><span class="kc"><b data-kc="150">150</b><small data-i18n="kcal_u">kcal</small></span></div></div><div class="lc" style="top:42.4%;right:2.27cqw"><div class="lc-t"><div><span class="n" data-i18n="kb5">Lentil soup</span><span class="m" data-i18n="kb5m">250 g · 12 g protein</span></div><span class="kc"><b data-kc="180">180</b><small data-i18n="kcal_u">kcal</small></span></div></div><div class="lc" style="top:72.9%;right:2.27cqw"><div class="lc-t"><div><span class="n" data-i18n="kb6">Flatbread</span><span class="m">80 g</span></div><span class="kc"><b data-kc="220">220</b><small data-i18n="kcal_u">kcal</small></span></div></div><div class="lc adj" style="top:85.8%;left:3.03cqw;width:48.48cqw"><div class="lc-t"><div><span class="n" data-i18n="kb7">Chicken kabsa</span><span class="m" data-i18n="kb7m">Ate ½ · 300 g</span></div><span class="kc"><b data-kc="450">450</b><small data-i18n="kcal_u">kcal</small></span></div><input class="lc-range" type="range" min="5" max="100" step="5" value="50" aria-label="Portion eaten" data-g="600" data-k="900"></div></div>
         </div>
       </figure>
+      <div class="lunch-dots" id="lunchDots" role="tablist" aria-label="Examples"><button type="button" role="tab" aria-label="1"></button><button type="button" role="tab" aria-label="2"></button></div>
     </div>
   </div>
 </section>
@@ -874,7 +878,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
   function tweenVal(r,a,b,ms,tk){ return new Promise(function(res){ var s=null; (function f(ts){ if(touched||tk!==token) return res(); s=s||ts;
     var t=Math.min(1,(ts-s)/ms), e=t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2; setVal(r,Math.round((a+(b-a)*e)/5)*5); placeHand(r);
     t<1?requestAnimationFrame(f):res(); })(performance.now()); }); }
-  function show(st){ stages.forEach(function(x){ x.classList.toggle('on',x===st); x.setAttribute('aria-hidden',x===st?'false':'true'); }); }
+  function show(st){ stages.forEach(function(x,i){ x.classList.toggle('on',x===st); x.setAttribute('aria-hidden',x===st?'false':'true'); var d=document.querySelectorAll('#lunchDots button')[i]; if(d){ d.classList.toggle('on',x===st); d.setAttribute('aria-selected',x===st?'true':'false'); } }); }
   async function play(st,tk){
     var chips=[].slice.call(st.querySelectorAll('.lc'));
     var adj=st.querySelector('.adj'), r=adj&&adj.querySelector('.lc-range');
@@ -887,8 +891,8 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
     for(var i=0;i<chips.length;i++){
       if(tk!==token) return;
       (function(c){
-        var n=c.querySelector('.n'), b=c.querySelector('b[data-kc]'), txt=n.textContent, to=+b.textContent, k=0, s=null;
-        c.classList.remove('wait'); n.textContent='';
+        var n=c.querySelector('.n'), b=c.querySelector('b[data-kc]'), txt=n.dataset.full||n.textContent, to=+b.textContent, k=0, s=null;
+        c.classList.remove('wait'); n.dataset.full=txt; n.textContent='';
         (function t(){ if(k<txt.length){ n.textContent=txt.slice(0,++k); setTimeout(t,22); } })();
         b.textContent='0'; (function f(ts){ s=s||ts; var p=Math.min(1,(ts-s)/500); b.textContent=Math.round(to*p); if(p<1) requestAnimationFrame(f); })(performance.now());
       })(chips[i]);
@@ -914,15 +918,26 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
   }
   window.mnLunchLang=function(lang){
     order = lang==='ar' ? stages.slice().reverse() : stages.slice();
+    fig.querySelectorAll('.lc .n').forEach(function(n){ delete n.dataset.full; });
     fig.querySelectorAll('.lc-range').forEach(function(r){ var m=r.closest('.lc').querySelector('.m'); delete m.dataset.tpl; });
   };
-  fig.addEventListener('pointerdown',function(e){ if(!e.target.classList.contains('lc-range')) return; touched=true; clearTimeout(timer); token++;
+  // Visitor drags a slider: pause; 2 s after the last touch the loop moves on to the next scene.
+  var idle=null;
+  function userTouch(){ touched=true; clearTimeout(timer); clearTimeout(idle); token++;
     fig.querySelectorAll('.adj.hint').forEach(function(c){ c.classList.remove('hint'); });
-    fig.querySelectorAll('.lc.wait').forEach(function(c){ c.classList.remove('wait'); }); },true);
+    fig.querySelectorAll('.lc.wait').forEach(function(c){ c.classList.remove('wait'); });
+    fig.querySelectorAll('.lc .n').forEach(function(n){ if(n.dataset.full) n.textContent=n.dataset.full; }); }
+  function resumeSoon(){ clearTimeout(idle); idle=setTimeout(function(){ touched=false; cur=(cur+1)%order.length; loop(); },2000); }
+  fig.addEventListener('pointerdown',function(e){ if(e.target.classList.contains('lc-range')) userTouch(); },true);
+  document.addEventListener('pointerup',function(){ if(touched) resumeSoon(); });
+  fig.addEventListener('change',function(e){ if(e.target.classList.contains('lc-range')&&touched) resumeSoon(); });
+  var dots=[].slice.call(document.querySelectorAll('#lunchDots button'));
+  dots.forEach(function(d,i){ d.addEventListener('click',function(){ clearTimeout(idle); touched=false; cur=order.indexOf(stages[i]); loop(); }); });
   fig.addEventListener('input',function(e){
     var r=e.target; if(!r.classList.contains('lc-range')) return;
     var p=+r.value, chip=r.closest('.lc'), m=chip.querySelector('.m'), b=chip.querySelector('b[data-kc]');
     r.style.setProperty('--p',p+'%');
+    if(e.isTrusted){ if(!touched) userTouch(); resumeSoon(); }
     b.textContent=Math.round(+r.dataset.k*p/100);
     if(!m.dataset.tpl) m.dataset.tpl=m.textContent;
     m.textContent=m.dataset.tpl.replace(/½|النصف/,p+'%').replace(/\d+(?=\s?(g|غ))/,Math.round(+r.dataset.g*p/100));
