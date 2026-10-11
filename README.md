@@ -111,3 +111,12 @@ PY
 - Не переименовывай `index.html` — DigitalOcean отдаёт его как корень сайта.
 - Не удаляй блок `<style id="tw">` в `index.html` — это все стили сайта.
 - Не удаляй `privacy/index.html` — на него ссылается приложение (Privacy Policy в App Store).
+
+## Языковые страницы (/de/, /ru/, /ar/ …)
+`index.html` — единственный источник (английский текст + словарь `I18N`).
+Папки `<язык>/index.html` собираются скриптом, руками их не править:
+```bash
+python3 tools/build_langs.py
+```
+Скрипт переводит текст прямо в HTML, ставит title/description/canonical/hreflang
+для каждого языка и пересобирает `sitemap.xml`. Запускать после любой правки `index.html`.
