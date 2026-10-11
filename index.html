@@ -867,7 +867,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
   function pick(){
     const q = new URLSearchParams(location.search).get('lang');
     if (q && (q === 'en' || I18N[q])) return q;
-    const saved = localStorage.getItem('mn_lang');
+    let saved = null; try { saved = localStorage.getItem('mn_lang'); } catch (e) {}
     if (saved && (saved === 'en' || I18N[saved])) return saved;
     for (const l of (navigator.languages || [navigator.language || 'en'])){
       const p = String(l).slice(0,2).toLowerCase();
@@ -884,7 +884,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
     document.addEventListener('click', () => menu.classList.add('hidden'));
     menu.querySelectorAll('[data-setlang]').forEach(b => b.addEventListener('click', () => {
       lang = b.dataset.setlang;
-      localStorage.setItem('mn_lang', lang);
+      try { localStorage.setItem('mn_lang', lang); } catch (e) {}
       apply(lang);
       menu.classList.add('hidden');
     }));
