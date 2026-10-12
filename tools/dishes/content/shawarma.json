@@ -7,15 +7,15 @@
     "kabsa"
   ],
   "review": {
-    "status": "draft",
-    "facts_checked": false
+    "status": "checked",
+    "facts_checked": true
   },
   "i18n": {
     "en": {
       "name": "Chicken shawarma",
       "origin": "Levant · Middle East",
       "intro": "Shawarma is marinated meat stacked on a vertical spit, roasted slowly and shaved off in thin slices. Chicken shawarma is usually marinated in yogurt, garlic, lemon and warm spices, then rolled in flatbread with garlic sauce, pickles and vegetables — or served as a plate with rice and salad.",
-      "history": "Roasting meat on a vertical spit spread across the Ottoman Empire in the 19th century; Turkish döner kebab is a close relative. The Arabic name shawarma comes from the Turkish çevirme, “turning”. In the Levant the technique met local marinades and sauces, and in the 20th century shawarma became one of the best-loved street foods of the Middle East, later travelling with emigrants to Europe, the Americas and beyond.",
+      "history": "Roasting meat on a vertical spit developed in Ottoman lands, probably in the 19th century; Turkish döner kebab is a close relative. The Arabic name shawarma comes from the Turkish çevirme, “turning”. In the Levant the technique met local marinades and sauces, and over the 20th century shawarma became one of the best-loved street foods of the Middle East, later travelling with emigrants to Europe, the Americas and beyond.",
       "recipe": {
         "servings": 4,
         "time_min": 40,
@@ -71,6 +71,37 @@
         "Чесночный соус (тум) почти целиком из масла — около 100 ккал в столовой ложке. Йогуртовый соус намного легче.",
         "Попросите тарелку с салатом вместо лепёшки: одна пита добавляет 150–180 ккал.",
         "Куриная грудка постнее бедра."
+      ]
+    },
+    "ar": {
+      "name": "شاورما دجاج",
+      "origin": "بلاد الشام · الشرق الأوسط",
+      "intro": "الشاورما لحم متبل يُرصّ على سيخ عمودي ويُشوى ببطء ثم يُقطع شرائح رقيقة. وتُتبَّل شاورما الدجاج عادة باللبن الزبادي والثوم والليمون والتوابل الدافئة، ثم تُلف في الخبز العربي مع صلصة الثوم والمخللات والخضار، أو تُقدَّم صحناً مع الأرز والسلطة.",
+      "history": "تطوّر شوي اللحم على السيخ العمودي في الأراضي العثمانية، على الأرجح في القرن التاسع عشر، والدونر كباب التركي قريب منها. واسم الشاورما مأخوذ من الكلمة التركية «تشويرمه» أي الدوران. وفي بلاد الشام التقت هذه الطريقة بالتتبيلات والصلصات المحلية، وفي القرن العشرين أصبحت الشاورما من أحب أطعمة الشارع في الشرق الأوسط، ثم سافرت مع المهاجرين إلى أوروبا والأمريكتين وغيرها.",
+      "recipe": {
+        "servings": 4,
+        "time_min": 40,
+        "ingredients": [
+          "800 غ أفخاذ دجاج بلا عظم",
+          "150 غ لبن زبادي",
+          "3 فصوص ثوم مهروسة",
+          "عصير ليمونة",
+          "2 ملعقة صغيرة كمون مطحون، 1 ملعقة صغيرة كركم، 1 ملعقة صغيرة بابريكا، نصف ملعقة صغيرة قرفة",
+          "2 ملعقة كبيرة زيت زيتون، ملح",
+          "4 أرغفة خبز عربي",
+          "للتقديم: صلصة الثوم، مخللات، طماطم، خس"
+        ],
+        "steps": [
+          "اخلط الزبادي والثوم وعصير الليمون والبهارات والزيت والملح. غلّف الدجاج بالخليط واتركه ساعتين على الأقل، ويُفضَّل ليلة كاملة.",
+          "افرد الدجاج في صينية واشوِه على 220 °م لمدة 25–30 دقيقة مع التقليب مرة حتى تتحمر أطرافه.",
+          "اتركه 5 دقائق ثم قطّعه شرائح رقيقة.",
+          "سخّن الخبز واحشه بالدجاج والصلصة والمخللات والخضار ولفّه بإحكام."
+        ]
+      },
+      "tips": [
+        "صلصة الثوم (التوم) معظمها زيت، نحو 100 سعرة في الملعقة الكبيرة؛ وصلصة الزبادي أخف بكثير.",
+        "اطلب صحناً مع سلطة بدلاً من السندويش: رغيف الخبز يضيف 150–180 سعرة.",
+        "صدر الدجاج أقل دهناً من الفخذ."
       ]
     }
   },

@@ -7,15 +7,15 @@
     "caesar_salad"
   ],
   "review": {
-    "status": "draft",
-    "facts_checked": false
+    "status": "checked",
+    "facts_checked": true
   },
   "i18n": {
     "en": {
       "name": "Spaghetti all'amatriciana",
       "origin": "Italy · Lazio",
       "intro": "Amatriciana is a pasta of crisp guanciale (cured pork cheek), tomato and grated pecorino romano, with a touch of chilli. It has very few ingredients and a lot of flavour: the rendered pork fat carries the sauce. Bucatini are just as traditional as spaghetti.",
-      "history": "The dish takes its name from Amatrice, a mountain town in Lazio, where shepherds cooked pasta with guanciale and pecorino — that tomato-free version survives as pasta alla gricia. Tomato joined the recipe later, and the dish became a classic of Roman trattorias. The town's official recipe insists on guanciale and pecorino and leaves out onion and garlic. After the 2016 earthquake, restaurants around the world raised money for Amatrice by serving amatriciana.",
+      "history": "The dish takes its name from Amatrice, a mountain town in Lazio. Shepherds there are often said to have cooked pasta with guanciale and pecorino, a tomato-free version close to today's pasta alla gricia. Tomato joined the recipe later, and the dish became a classic of Roman trattorias. The town's official recipe insists on guanciale and pecorino and leaves out onion and garlic. After the 2016 earthquake, restaurants around the world raised money for Amatrice by serving amatriciana.",
       "recipe": {
         "servings": 4,
         "time_min": 25,
@@ -44,7 +44,7 @@
       "name": "Спагетти аматричана",
       "origin": "Италия · Лацио",
       "intro": "Аматричана — паста с хрустящим гуанчале (вяленой свиной щекой), томатами и тёртым пекорино романо, с ноткой чили. Ингредиентов совсем мало, а вкуса много: соус держится на вытопленном свином жире. Буканини здесь так же традиционны, как спагетти.",
-      "history": "Блюдо названо в честь Аматриче — горного городка в Лацио, где пастухи готовили пасту с гуанчале и пекорино; этот вариант без томатов сохранился как паста алла гриша. Томаты в рецепте появились позже, и блюдо стало классикой римских траттори. Официальный рецепт города требует гуанчале и пекорино и запрещает лук и чеснок. После землетрясения 2016 года рестораны по всему миру собирали деньги для Аматриче, продавая аматричану.",
+      "history": "Блюдо названо в честь Аматриче — горного городка в Лацио. Часто рассказывают, что местные пастухи готовили пасту с гуанчале и пекорино без томатов — вариант, близкий к нынешней пасте алла гричя. Томаты в рецепте появились позже, и блюдо стало классикой римских тратторий. Официальный рецепт города требует гуанчале и пекорино и исключает лук и чеснок. После землетрясения 2016 года рестораны по всему миру собирали деньги для Аматриче, подавая аматричану.",
       "recipe": {
         "servings": 4,
         "time_min": 25,
@@ -67,6 +67,35 @@
         "Тарелка 350 г — около 580 ккал; тарелка 250 г с зелёным салатом — около 410.",
         "Гуанчале и пекорино делают блюдо солёным — учитывайте соль в остальной еде за день.",
         "Слейте часть вытопленного жира перед тем, как добавить томаты."
+      ]
+    },
+    "ar": {
+      "name": "سباغيتي أماتريتشانا",
+      "origin": "إيطاليا · لاتسيو",
+      "intro": "الأماتريتشانا معكرونة مع جوانشالي مقرمش (خد خنزير معالَج) وطماطم وجبن بيكورينو رومانو مبشور ولمسة من الفلفل الحار. مكوناتها قليلة جدًا ونكهتها غنية، فدهن اللحم الذائب هو ما يحمل الصلصة. والبوكاتيني تقليدية فيها بقدر السباغيتي.",
+      "history": "يحمل الطبق اسم أماتريتشي، وهي بلدة جبلية في منطقة لاتسيو. ويُقال كثيرًا إن رعاتها كانوا يطهون المعكرونة مع الغوانشالي وجبن البيكورينو دون طماطم، في نسخة قريبة من «باستا ألّا غريتشا» المعروفة اليوم. ثم دخلت الطماطم الوصفة لاحقًا، وأصبح الطبق من كلاسيكيات مطاعم روما الشعبية. وتشترط الوصفة الرسمية للبلدة الغوانشالي والبيكورينو وتستبعد البصل والثوم. وبعد زلزال عام 2016 جمعت مطاعم حول العالم تبرعات لأماتريتشي من خلال تقديم هذا الطبق.",
+      "recipe": {
+        "servings": 4,
+        "time_min": 25,
+        "ingredients": [
+          "320 غ سباغيتي أو بوكاتيني",
+          "150 غ جوانشالي مقطع شرائح",
+          "400 غ طماطم مقشرة مهروسة",
+          "حبة فلفل حار مجفف صغيرة",
+          "60 غ بيكورينو رومانو مبشور",
+          "ملح"
+        ],
+        "steps": [
+          "اقلِ الجوانشالي في مقلاة جافة على نار متوسطة 6–8 دقائق حتى يذوب دهنه وتتقرمش أطرافه. احتفظ ببعض القطع المقرمشة جانبًا.",
+          "أضف الطماطم والفلفل الحار واتركها تغلي بهدوء 10 دقائق. ملّح قليلًا، فالجوانشالي والبيكورينو مالحان أصلًا.",
+          "اسلق المعكرونة حتى تنضج «أل دينتي» ثم قلّبها في الصلصة مع قليل من ماء السلق.",
+          "بعيدًا عن النار أضف البيكورينو وزيّنها بالجوانشالي المحفوظ."
+        ]
+      },
+      "tips": [
+        "طبق 350 غ يعادل نحو 580 سعرة، وطبق 250 غ مع سلطة خضراء نحو 410.",
+        "الجوانشالي والبيكورينو يجعلان الطبق مالحًا، فانتبه للملح في بقية وجبات اليوم.",
+        "تخلّص من جزء من الدهن الذائب قبل إضافة الطماطم."
       ]
     }
   },
