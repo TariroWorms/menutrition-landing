@@ -1,0 +1,220 @@
+#!/usr/bin/env python3
+"""Build dish pages: /dishes/<slug>/ (English) and /<lang>/dishes/<slug>/ for every other language.
+
+Sources (one format for every dish):
+  - the app's dish database           numbers, ingredients, allergens (never edited here)
+  - content/<db_key>.json             names, origin, intro, recipe, tips, history per language
+  - ui.json                           interface words per language
+  - template.html / index_template.html   the page layouts — edit them and rebuild
+Diet labels and allergens come from diets.py (rules over the ingredients), not from hand-written text.
+
+    python3 tools/dishes/build_dishes.py [--db path/to/dish_database.json] [--out dir]
+"""
+import argparse
+import html
+import json
+import re
+from pathlib import Path
+
+from diets import analyse
+
+HERE = Path(__file__).resolve().parent
+SITE = 'https://menutrition.app'
+DB = '/Users/macbookpro13/Desktop/Frankly/MeNutrition/Resources/dish_database.json'
+RTL = {'ar', 'he'}
+LANG_NAMES = {'en': 'English', 'ru': 'Русский', 'de': 'Deutsch', 'es': 'Español', 'fr': 'Français',
+              'it': 'Italiano', 'ar': 'العربية', 'tr': 'Türkçe', 'he': 'עברית', 'uk': 'Українська',
+              'pt': 'Português', 'nl': 'Nederlands', 'pl': 'Polski', 'sv': 'Svenska', 'id': 'Indonesia',
+              'vi': 'Tiếng Việt', 'th': 'ไทย', 'hi': 'हिन्दी', 'zh': '中文', 'ja': '日本語', 'ko': '한국어'}
+EN_INGREDIENT = {'baharat': 'baharat spice mix', 'sour_cream': 'sour cream', 'caesar_dressing': 'Caesar dressing'}
+SCHEMA_DIET = {'vegan': 'VeganDiet', 'vegetarian': 'VegetarianDiet', 'gluten_free': 'GlutenFreeDiet'}
+
+esc = lambda s: html.escape(str(s), quote=True)
+# visible text: brand drawn as one word, read as "Me Nutrition" (same as on the home page)
+brand = lambda s: s.replace('Me Nutrition', '<span class="bn">Me<span class="bn-gap"> </span>Nutrition</span>')
+
+
+def path(lang, slug=None):
+    base = '/' if lang == 'en' else f'/{lang}/'
+    return base + 'dishes/' + (f'{slug}/' if slug else '')
+
+
+def fill(template, values):
+    """{{key}} and {{ui.key}} placeholders; values are already HTML."""
+    def rep(m):
+        key = m.group(1)
+        if key not in values:
+            raise KeyError(f'template placeholder {{{{{key}}}}} has no value')
+        return str(values[key])
+    return re.sub(r'\{\{([\w.]+)\}\}', rep, template)
+
+
+def ingredient_name(key, lang, dictionary):
+    if lang != 'en' and lang in dictionary.get(key, {}):
+        return dictionary[key][lang]
+    return EN_INGREDIENT.get(key, key.replace('_', ' '))
+
+
+def fmt(n):
+    return f'{n:g}'
+
+
+def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
+    t = c['i18n'][lang]
+    U = ui[lang]
+    ing = lambda k: ingredient_name(k, lang, db['ingredients_dictionary'])
+    portion = c['portion_g']
+    kcal_p = round(dish['kcal'] * portion / 100)
+
+    # macros: grams per serving, bar = share of calories
+    kcal_from = {'protein': dish['protein_g'] * 4, 'fat': dish['fat_g'] * 9, 'carbs': dish['carbs_g'] * 4}
+    total = sum(kcal_from.values()) or 1
+    colors = {'protein': '#2E7A6F', 'fat': '#C9A35B', 'carbs': '#8DA7C9'}
+    macros = ''.join(
+        f'<div class="macro"><b>{fmt(round(dish[m + "_g"] * portion / 100))} {esc(U["g"])}</b>'
+        f'<span>{esc(U[m])}</span><em>{fmt(dish[m + "_g"])} {esc(U["g"])} / 100 {esc(U["g"])}</em>'
+        f'<i style="--w:{round(100 * kcal_from[m] / total)}%;--c:{colors[m]}"></i></div>'
+        for m in ('protein', 'fat', 'carbs'))
+
+    # diet labels with their reasons
+    rows = []
+    order = {'yes': 0, 'check': 1, 'no': 2}
+    for lb in sorted(info['labels'], key=lambda l: order[l['status']]):
+        names = U['lbl'][lb['id']]
+        if lb['status'] not in names:
+            continue
+        if lb['items']:
+            why = U['why']['items'].format(items=', '.join(ing(i) for i in lb['items']))
+        elif lb['id'] in ('vegan',):
+            why = U['why']['none_animal']
+        elif lb['id'] == 'vegetarian':
+            why = U['why']['none_meat']
+        elif lb['id'] == 'gluten_free':
+            why = U['why']['no_gluten']
+        elif lb['id'] == 'dairy_free':
+            why = U['why']['no_dairy']
+        elif lb['id'] in ('keto', 'low_carb'):
+            why = U['why']['carbs'].format(carbs=fmt(lb['carbs']))
+        elif lb['id'] == 'high_protein':
+            why = U['why']['protein'].format(protein=fmt(lb['protein']), share=lb['share'])
+        elif lb['id'] == 'no_pork' and lb.get('meat'):
+            why = U['why']['halal_note']
+        else:
+            why = ''
+        icon = {'yes': '✓', 'no': '✕', 'check': '?'}[lb['status']]
+        rows.append(f'<div class="label {lb["status"]}"><div class="ic">{icon}</div><div>'
+                    f'<b>{esc(names[lb["status"]])}</b>' + (f'<span>{esc(why)}</span>' if why else '') + '</div></div>')
+
+    if info['allergens']:
+        allergens = (f'<p class="note">{esc(U["allergens_note"])}</p><div class="chips">'
+                     + ''.join(f'<span class="chip warn">⚠ {esc(U["allergen"][a])}</span>' for a in info['allergens'])
+                     + '</div>')
+    else:
+        allergens = f'<p class="note">{esc(U["allergens_none"])}</p>'
+
+    rel = [contents[k] for k in c.get('related', []) if k in contents and lang in contents[k]['i18n']]
+    related = ''
+    if rel:
+        related = (f'<section><h2>{esc(U["related_h"])}</h2><div class="related">' + ''.join(
+            f'<a href="{path(lang, r["slug"])}"><span class="em">{r["emoji"]}</span><div>{esc(r["i18n"][lang]["name"])}'
+            f'<span>{round(db["dishes"][r["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>'
+            for r in rel) + '</div></section>')
+
+    url = SITE + path(lang, c['slug'])
+    title = U['title'].format(name=t['name'])
+    description = U['meta'].format(name=t['name'], kcal100=round(dish['kcal']), kcalPortion=kcal_p, portion=portion)
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, c["slug"])}" />' for l in langs)
+    hreflang += f'\n<link rel="alternate" hreflang="x-default" href="{SITE + path("en", c["slug"])}" />'
+    r = t['recipe']
+    diets = [f'https://schema.org/{SCHEMA_DIET[lb["id"]]}' for lb in info['labels']
+             if lb['status'] == 'yes' and lb['id'] in SCHEMA_DIET]
+    jsonld = {
+        '@context': 'https://schema.org', '@type': 'Recipe', 'name': t['name'], 'description': t['intro'],
+        'inLanguage': lang, 'url': url, 'recipeCuisine': t['origin'], 'recipeYield': str(r['servings']),
+        'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': r['ingredients'],
+        'recipeInstructions': [{'@type': 'HowToStep', 'text': s} for s in r['steps']],
+        'nutrition': {'@type': 'NutritionInformation', 'servingSize': f'{portion} g',
+                      'calories': f'{kcal_p} kcal',
+                      'proteinContent': f'{round(dish["protein_g"] * portion / 100)} g',
+                      'fatContent': f'{round(dish["fat_g"] * portion / 100)} g',
+                      'carbohydrateContent': f'{round(dish["carbs_g"] * portion / 100)} g'},
+        'author': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE + '/'},
+    }
+    if diets:
+        jsonld['suitableForDiet'] = diets
+
+    values = {
+        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
+        'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
+        'home': '/' if lang == 'en' else f'/{lang}/', 'index': path(lang), 'emoji': c['emoji'],
+        'name': esc(t['name']), 'origin': esc(t['origin']), 'intro': esc(t['intro']),
+        'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
+        'per_portion': esc(U['perPortion'].format(portion=portion)), 'macros': macros,
+        'labels': ''.join(rows), 'allergens': allergens,
+        'ingredients': ''.join(f'<span class="chip">{esc(ing(i))}</span>' for i in dish['ingredients']),
+        'servings': esc(U['servings'].format(n=r['servings'])), 'time': esc(U['time'].format(min=r['time_min'])),
+        'recipe_ingredients': ''.join(f'<li>{esc(x)}</li>' for x in r['ingredients']),
+        'recipe_steps': ''.join(f'<li>{esc(x)}</li>' for x in r['steps']),
+        'tips': ''.join(f'<li>{esc(x)}</li>' for x in t['tips']),
+        'history': esc(t['history']), 'cta_p': brand(esc(U['cta_p'].format(name=t.get('name_inline', t['name'])))),
+        'related': related, 'source': brand(esc(U['source'].format(version=db['version']))),
+        'langs': ''.join(f'<a href="{path(l, c["slug"])}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+    }
+    values.update({f'ui.{k}': esc(v) for k, v in U.items() if isinstance(v, str)})
+    return fill(template, values)
+
+
+def index_page(lang, items, ui, langs, db, template):
+    U = ui[lang]
+    cards = ''.join(
+        f'<a href="{path(lang, c["slug"])}"><span class="em">{c["emoji"]}</span><div>{esc(c["i18n"][lang]["name"])}'
+        f'<span>{esc(c["i18n"][lang]["origin"])} · {round(db["dishes"][c["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>'
+        for c in sorted(items, key=lambda c: c['i18n'][lang]['name']))
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l)}" />' for l in langs)
+    values = {
+        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(U['index_title']),
+        'description': esc(U['index_meta']), 'url': SITE + path(lang), 'hreflang': hreflang,
+        'home': '/' if lang == 'en' else f'/{lang}/', 'cards': cards,
+        'langs': ''.join(f'<a href="{path(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+    }
+    values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+    return fill(template, values)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--db', default=DB)
+    ap.add_argument('--out', default=str(HERE.parent.parent))
+    a = ap.parse_args()
+    out = Path(a.out)
+    db = json.load(open(a.db, encoding='utf-8'))
+    ui = json.load(open(HERE / 'ui.json', encoding='utf-8'))
+    template = (HERE / 'template.html').read_text(encoding='utf-8')
+    style = re.search(r'<style>.*?</style>', template, re.S).group(0)
+    index_tpl = (HERE / 'index_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    contents = {}
+    for f in sorted((HERE / 'content').glob('*.json')):
+        c = json.load(open(f, encoding='utf-8'))
+        assert c['db_key'] in db['dishes'], f'{f.name}: {c["db_key"]} is not in the dish database'
+        contents[c['db_key']] = c
+    langs = [l for l in ui if all(l in c['i18n'] for c in contents.values())]
+
+    pages = []
+    for c in contents.values():
+        dish = db['dishes'][c['db_key']]
+        info = analyse(dish)
+        for lang in langs:
+            p = out / path(lang, c['slug']).strip('/') / 'index.html'
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(dish_page(lang, c, dish, info, ui, contents, langs, db, template), encoding='utf-8')
+            pages.append(p)
+    for lang in langs:
+        p = out / path(lang).strip('/') / 'index.html'
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(index_page(lang, list(contents.values()), ui, langs, db, index_tpl), encoding='utf-8')
+        pages.append(p)
+    print(f'db v{db["version"]}: {len(contents)} dishes × {len(langs)} languages ({", ".join(langs)}) → {len(pages)} pages')
+
+
+if __name__ == '__main__':
+    main()
