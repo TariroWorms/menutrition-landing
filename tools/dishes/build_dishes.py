@@ -191,16 +191,32 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
 
 
 def index_page(lang, items, ui, langs, db, template):
+    """All dishes grouped by country (biggest cuisines first), a country jump list and a search box."""
     U = ui[lang]
-    cards = ''.join(
-        f'<a href="{path(lang, c["slug"])}"><span class="em">{c["emoji"]}</span><div>{esc(c["i18n"][lang]["name"])}'
-        f'<span>{esc(c["i18n"][lang]["origin"])} · {round(db["dishes"][c["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>'
-        for c in sorted(items, key=lambda c: c['i18n'][lang]['name']))
+    groups = {}
+    for c in items:
+        country_en = c['i18n']['en']['origin'].split('·')[0].strip() if 'en' in c['i18n'] else ''
+        groups.setdefault(country_en, []).append(c)
+    order = sorted(groups, key=lambda k: (-len(groups[k]), k))
+    label = lambda k: max((c['i18n'][lang]['origin'].split('·')[0].strip() for c in groups[k]),
+                          key=[c['i18n'][lang]['origin'].split('·')[0].strip() for c in groups[k]].count)
+    anchor = lambda k: re.sub(r'[^a-z0-9]+', '-', k.lower()).strip('-')
+    card = lambda c: (f'<a href="{path(lang, c["slug"])}" data-k="{esc(c["db_key"].replace("_", " "))}"><span class="em">{c["emoji"]}</span>'
+                      f'<div>{esc(c["i18n"][lang]["name"])}<span>{round(db["dishes"][c["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>')
+    html_groups = ''.join(
+        f'<section class="group"><h2 id="{anchor(k)}">{esc(label(k))}<small>{len(groups[k])}</small></h2><div class="related">'
+        + ''.join(card(c) for c in sorted(groups[k], key=lambda c: c['i18n'][lang]['name'])) + '</div></section>'
+        for k in order)
+    chip = lambda k: f'<a href="#{anchor(k)}">{esc(label(k))}<small>{len(groups[k])}</small></a>'
+    top, rest = order[:16], order[16:]
+    countries = ''.join(chip(k) for k in top)
+    if rest:
+        countries += f'<details><summary>{esc(U["more_countries"])} · {len(order)}</summary>' + ''.join(chip(k) for k in sorted(rest, key=label)) + '</details>'
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l)}" />' for l in langs)
     values = {
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(U['index_title']),
         'description': esc(U['index_meta']), 'url': SITE + path(lang), 'hreflang': hreflang,
-        'home': '/' if lang == 'en' else f'/{lang}/', 'cards': cards,
+        'home': '/' if lang == 'en' else f'/{lang}/', 'index': path(lang), 'groups': html_groups, 'countries': countries,
         'langs': ''.join(f'<a href="{path(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
     }
     values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})

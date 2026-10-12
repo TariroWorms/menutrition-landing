@@ -95,6 +95,38 @@ def set_meta(src, attr, name, value):
     return pat.sub(lambda m: m.group(1) + html.escape(value) + m.group(2), src, count=1)
 
 
+# Popular dishes shown on the home page (section #dishes); links lead to the dish pages.
+POPULAR = ['kabsa', 'shawarma', 'pizza_margherita', 'chicken_biryani', 'pad_thai', 'hummus', 'tonkotsu_ramen', 'borscht']
+DISH_INDEX_MIN = 100   # a language gets its own /<lang>/dishes/ link once it has this many dish pages
+
+
+def dish_links(lang):
+    """(href of the dish list, cards HTML) for the home page in this language."""
+    data = {x['w'].replace(' ', '_'): x for x in json.loads((ROOT / 'dishes' / 'search.json').read_text(encoding='utf-8'))}
+    own = lang != 'en' and sum(1 for x in data.values() if lang in x.get('l', [])) >= DISH_INDEX_MIN
+    index = f'/{lang}/dishes/' if own else '/dishes/'
+    ui = json.loads((ROOT / 'tools' / 'dishes' / 'ui.json').read_text(encoding='utf-8'))
+    U = ui.get(lang, ui['en'])
+    cards = []
+    for k in POPULAR:
+        x = data.get(k)
+        if not x or 'u' not in x:
+            continue
+        local = lang in x.get('l', [])
+        href = (f'/{lang}' if local and lang != 'en' else '') + f'/dishes/{x["u"]}/'
+        name = x['n'][lang] if local else x['n']['en']
+        cards.append(f'<a class="dg-card" href="{href}"><span class="em">{x["e"]}</span><span>{html.escape(name)}'
+                     f'<small>{x["k"]} {html.escape(U["kcal"])} / 100 {html.escape(U["g"])}</small></span></a>')
+    return index, '\n'.join(cards)
+
+
+def put_dishes(doc, lang):
+    index, cards = dish_links(lang)
+    doc = re.sub(r'<!-- dishes:start -->.*?<!-- dishes:end -->',
+                 lambda m: f'<!-- dishes:start -->\n{cards}\n<!-- dishes:end -->', doc, flags=re.S)
+    return re.sub(r'href="[^"]*"( class="[^"]*")? data-dishes-link', lambda m: f'href="{index}"{m.group(1) or ""} data-dishes-link', doc)
+
+
 def main():
     path = ROOT / 'index.html'
     src = path.read_text(encoding='utf-8')
@@ -109,6 +141,7 @@ def main():
         src = re.sub(r'<!-- hreflang:start.*?<!-- hreflang:end -->', lambda m: block, src, flags=re.S)
     else:
         src = src.replace('<link rel="canonical"', block + '\n<link rel="canonical"', 1)
+    src = put_dishes(src, 'en')
     path.write_text(src, encoding='utf-8')
 
     p = I18nSpans(src)
@@ -126,7 +159,7 @@ def main():
             out.append(t[key] if kind == 'html' else html.escape(t[key], quote=False))
             pos = e
         out.append(src[pos:])
-        doc = ''.join(out)
+        doc = put_dishes(''.join(out), lang)
 
         # translated placeholders (data-i18n-ph)
         doc = re.sub(r'placeholder="[^"]*"( data-i18n-ph="(\w+)")',
