@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- Dish page template — one file for every dish in every language.
+     Built by tools/dishes/build_dishes.py: Spaghetti al pomodoro placeholders are filled from the dish database,
+     content/<dish>.json and ui.json. Edit here, rebuild, and all dish pages change. -->
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Spaghetti al pomodoro: calories, macros, diets and recipe</title>
+<meta name="description" content="Spaghetti al pomodoro: 120 kcal per 100 g, 360 kcal per 300 g serving. Protein, fat, carbs, allergens, diets, a recipe and the story of the dish." />
+<link rel="canonical" href="https://menutrition.app/dishes/spaghetti-alla-pomodoro/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/spaghetti-alla-pomodoro/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/spaghetti-alla-pomodoro/" />
+<link rel="alternate" hreflang="x-default" href="https://menutrition.app/dishes/spaghetti-alla-pomodoro/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Me Nutrition" />
+<meta property="og:title" content="Spaghetti al pomodoro: calories, macros, diets and recipe" />
+<meta property="og:description" content="Spaghetti al pomodoro: 120 kcal per 100 g, 360 kcal per 300 g serving. Protein, fat, carbs, allergens, diets, a recipe and the story of the dish." />
+<meta property="og:url" content="https://menutrition.app/dishes/spaghetti-alla-pomodoro/" />
+<meta property="og:image" content="https://menutrition.app/og-cover.jpg" />
+<meta name="apple-itunes-app" content="app-id=6767123368" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Recipe", "name": "Spaghetti al pomodoro", "description": "Spaghetti al pomodoro is the most basic and beloved of Italian pastas: spaghetti in a quick sauce of tomatoes cooked with garlic and olive oil, finished with fresh basil. A good version is bright, slightly sweet and fresh rather than heavy. It is served simply, often with nothing more than a final drizzle of oil.", "inLanguage": "en", "url": "https://menutrition.app/dishes/spaghetti-alla-pomodoro/", "recipeCuisine": "Italy", "recipeYield": "4", "totalTime": "PT30M", "recipeIngredient": ["320 g spaghetti", "800 g ripe tomatoes or 2 tins of peeled tomatoes", "2 garlic cloves, lightly crushed", "3 tbsp olive oil", "A handful of basil leaves", "Salt"], "recipeInstructions": [{"@type": "HowToStep", "text": "Warm the oil with the garlic in a wide pan over low heat for 2 minutes."}, {"@type": "HowToStep", "text": "Add the tomatoes, crushing them, season with salt and simmer for 15–20 minutes until thickened. Remove the garlic."}, {"@type": "HowToStep", "text": "Cook the spaghetti until al dente and add it to the sauce with a splash of cooking water."}, {"@type": "HowToStep", "text": "Toss for a minute, tear in the basil and serve."}], "nutrition": {"@type": "NutritionInformation", "servingSize": "300 g", "calories": "360 kcal", "proteinContent": "12 g", "fatContent": "9 g", "carbohydrateContent": "66 g"}, "author": {"@type": "Organization", "name": "Me Nutrition", "url": "https://menutrition.app/"}, "suitableForDiet": ["https://schema.org/VegetarianDiet", "https://schema.org/VeganDiet"]}</script>
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+@media (max-width:520px){.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Download</a>
+</div></header>
+
+<main class="wrap">
+  <nav class="crumbs"><a href="/">Home</a> › <a href="/dishes/">Dishes</a></nav>
+  <h1>🍝 Spaghetti al pomodoro</h1>
+  <div class="origin">Origin: Italy</div>
+
+  <section class="card nut first">
+    <div><div class="big">360<small>kcal</small></div><div class="lbl">per serving · 300 g</div></div>
+    <div><div class="big">120<small>kcal</small></div><div class="lbl">per 100 g</div></div>
+    <div class="macros" style="grid-column:1/-1"><div class="macro"><b>12 g</b><span>Protein</span><em>4 g / 100 g</em><i style="--w:12%;--c:#2E7A6F"></i></div><div class="macro"><b>9 g</b><span>Fat</span><em>3 g / 100 g</em><i style="--w:21%;--c:#C9A35B"></i></div><div class="macro"><b>66 g</b><span>Carbs</span><em>22 g / 100 g</em><i style="--w:67%;--c:#8DA7C9"></i></div></div>
+  </section>
+
+  <p class="intro">Spaghetti al pomodoro is the most basic and beloved of Italian pastas: spaghetti in a quick sauce of tomatoes cooked with garlic and olive oil, finished with fresh basil. A good version is bright, slightly sweet and fresh rather than heavy. It is served simply, often with nothing more than a final drizzle of oil.</p>
+
+  <section>
+    <h2>Diets</h2>
+    <div class="labels"><div class="label yes"><div class="ic">✓</div><div><b>Vegetarian</b><span>no meat or fish in a typical recipe</span></div></div><div class="label yes"><div class="ic">✓</div><div><b>Vegan</b><span>no meat, fish or animal products in a typical recipe</span></div></div><div class="label yes"><div class="ic">✓</div><div><b>No pork</b></div></div><div class="label yes"><div class="ic">✓</div><div><b>No alcohol</b></div></div><div class="label yes"><div class="ic">✓</div><div><b>Dairy-free</b><span>no milk, cheese, butter or yogurt in a typical recipe</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Contains gluten</b><span>because of: spaghetti</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Not keto</b><span>22 g carbs per 100 g</span></div></div></div>
+  </section>
+
+  <section>
+    <h2>Allergens</h2>
+    <p class="note">Contains (in a typical recipe):</p><div class="chips"><span class="chip warn">⚠ Gluten</span></div>
+  </section>
+
+  <section>
+    <h2>What it is made of</h2>
+    <div class="chips"><span class="chip">spaghetti</span><span class="chip">tomato</span><span class="chip">basil</span><span class="chip">garlic</span><span class="chip">olive oil</span></div>
+  </section>
+
+  <section class="card recipe">
+    <h2>Recipe</h2>
+    <div class="meta"><span>4 servings</span><span>30 min</span></div>
+    <h3>Ingredients</h3>
+    <ul><li>320 g spaghetti</li><li>800 g ripe tomatoes or 2 tins of peeled tomatoes</li><li>2 garlic cloves, lightly crushed</li><li>3 tbsp olive oil</li><li>A handful of basil leaves</li><li>Salt</li></ul>
+    <h3>Method</h3>
+    <ol><li>Warm the oil with the garlic in a wide pan over low heat for 2 minutes.</li><li>Add the tomatoes, crushing them, season with salt and simmer for 15–20 minutes until thickened. Remove the garlic.</li><li>Cook the spaghetti until al dente and add it to the sauce with a splash of cooking water.</li><li>Toss for a minute, tear in the basil and serve.</li></ol>
+  </section>
+
+  <section class="tips">
+    <h2>How to make it lighter</h2>
+    <ul><li>This is one of the lightest pastas — the oil is the main extra; 1 tbsp oil ≈ 120 kcal.</li><li>Add roasted vegetables such as peppers or aubergine for a bigger plate without much extra energy.</li><li>Cook the pasta al dente and keep the portion around 80 g dry pasta per person.</li></ul>
+  </section>
+
+  <section class="history">
+    <h2>History</h2>
+    <p>Tomatoes arrived in Europe from the Americas in the sixteenth century, and by the nineteenth century tomato sauce on pasta had become common in southern Italy, especially around Naples. Today spaghetti al pomodoro is a staple of home cooking across Italy.</p>
+  </section>
+
+  <section class="cta">
+    <h2>Count it in one photo</h2>
+    <p>Point your camera at the table — <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> recognises Spaghetti al pomodoro and every other dish, with calories and macros for each. Ate only half? Slide it.</p>
+    <a href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Download on the App Store</a>
+  </section>
+
+  <section><h2>Similar dishes</h2><div class="related"><a href="/dishes/ziti-alla-pomodoro/"><span class="em">🍝</span><div>Ziti al Pomodoro<span>120 kcal / 100 g</span></div></a><a href="/dishes/trofie-alla-pomodoro/"><span class="em">🍝</span><div>Trofie with Tomato Sauce<span>120 kcal / 100 g</span></div></a><a href="/dishes/pappa-al-pomodoro/"><span class="em">🍅</span><div>Pappa al pomodoro<span>95 kcal / 100 g</span></div></a><a href="/dishes/orecchiette-alla-pomodoro/"><span class="em">🍝</span><div>Orecchiette al pomodoro<span>120 kcal / 100 g</span></div></a></div></section>
+
+  <p class="disclaimer">Values are estimates per 100 g for a typical recipe; home and restaurant versions vary. Diets and allergens are worked out from the ingredients of a typical recipe — always check with whoever cooked the dish. Not medical advice. Nutrition data: <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> dish database v13.</p>
+</main>
+
+<footer><div class="wrap">
+  <a href="/">Home</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a>
+  <span class="langs"><a href="/dishes/spaghetti-alla-pomodoro/" hreflang="en">English</a><a href="/ar/dishes/spaghetti-alla-pomodoro/" hreflang="ar">العربية</a></span>
+</div></footer>
+</body>
+</html>
