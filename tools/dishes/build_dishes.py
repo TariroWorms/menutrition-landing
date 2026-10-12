@@ -229,6 +229,7 @@ def main():
             continue
         c['i18n'] = {l: v for l, v in c['i18n'].items() if l in ui}
         contents[c['db_key']] = c
+    all_contents = dict(contents)
     if a.only:
         keep = set(json.load(open(a.only)))
         contents = {k: v for k, v in contents.items() if k in keep}
@@ -252,6 +253,22 @@ def main():
         p.write_text(index_page(lang, [c for c in contents.values() if lang in c['i18n']], ui, langs, db, index_tpl),
                      encoding='utf-8')
         pages.append(p)
+    # search index for the "write what you ate" box on the home page: every dish has numbers,
+    # published dishes also have page links
+    search = []
+    for k, c in sorted(all_contents.items()):
+        d = db['dishes'][k]
+        ml = 'portion_ml' in d
+        item = {'n': {l: t['name'] for l, t in c['i18n'].items()}, 'w': k.replace('_', ' ').lower(),
+                'k': round(d['kcal']), 'p': d['portion_ml'] if ml else c['portion_g'], 'e': c.get('emoji', '')}
+        if ml:
+            item['ml'] = 1
+        if k in contents:
+            item['u'] = c['slug']
+            item['l'] = [l for l in c['i18n'] if l in langs]
+        search.append(item)
+    (out / 'dishes').mkdir(exist_ok=True)
+    (out / 'dishes' / 'search.json').write_text(json.dumps(search, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     urls = [SITE + '/' + str(p.parent.relative_to(out)) + '/' for p in pages]
     (out / 'sitemap-dishes.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sorted(urls)) + '</urlset>\n', encoding='utf-8')
     print(f'db v{db["version"]}: {len(contents)} dishes × {len(langs)} languages ({", ".join(langs)}) → {len(pages)} pages')

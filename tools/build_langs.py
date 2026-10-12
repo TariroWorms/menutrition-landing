@@ -128,6 +128,9 @@ def main():
         out.append(src[pos:])
         doc = ''.join(out)
 
+        # translated placeholders (data-i18n-ph)
+        doc = re.sub(r'placeholder="[^"]*"( data-i18n-ph="(\w+)")',
+                     lambda m: f'placeholder="{html.escape(t.get(m.group(2), ""), quote=True)}"{m.group(1)}' if m.group(2) in t else m.group(0), doc)
         dir_attr = ' dir="rtl"' if lang in RTL else ''
         doc = doc.replace('<html lang="en">', f'<html lang="{lang}"{dir_attr} data-page-lang="{lang}">', 1)
 
