@@ -14,6 +14,7 @@ import argparse
 import html
 import json
 import re
+from dbsource import load_db
 from pathlib import Path
 
 from diets import analyse
@@ -208,12 +209,12 @@ def index_page(lang, items, ui, langs, db, template):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--db', default=DB)
+    ap.add_argument('--db', default=None)
     ap.add_argument('--out', default=str(HERE.parent.parent))
     ap.add_argument('--only', help='JSON list of db_keys to publish (a release batch)')
     a = ap.parse_args()
     out = Path(a.out)
-    db = json.load(open(a.db, encoding='utf-8'))
+    db = load_db(a.db)
     ui = json.load(open(HERE / 'ui.json', encoding='utf-8'))
     template = (HERE / 'template.html').read_text(encoding='utf-8')
     style = re.search(r'<style>.*?</style>', template, re.S).group(0)

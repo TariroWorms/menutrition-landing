@@ -12,6 +12,7 @@ import argparse
 import json
 import re
 import sys
+from dbsource import load_db
 from pathlib import Path
 
 from diets import analyse
@@ -107,7 +108,7 @@ def main():
     ap.add_argument('--langs', default='en,ar')
     ap.add_argument('files', nargs='*')
     a = ap.parse_args()
-    db = json.load(open(DB, encoding='utf-8'))
+    db = load_db()
     dup = json.load(open(HERE / 'duplicates.json', encoding='utf-8'))
     files = a.files or sorted(str(p) for p in (HERE / 'content').glob('*.json'))
     langs = a.langs.split(',')

@@ -5,13 +5,14 @@
 """
 import json
 import sys
+from dbsource import load_db
 from pathlib import Path
 
 from diets import analyse
 from validate import DB
 
 HERE = Path(__file__).resolve().parent
-db = json.load(open(DB, encoding='utf-8'))
+db = load_db()
 dup = json.load(open(HERE / 'duplicates.json', encoding='utf-8'))
 for key in sys.argv[1:]:
     d = db['dishes'].get(key)

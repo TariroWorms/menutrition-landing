@@ -8,6 +8,7 @@ vegetarian/vegan tags that contradict the ingredients, dirty keys.
 import collections
 import json
 import sys
+from dbsource import load_db
 from pathlib import Path
 
 from ingredients import flags
@@ -24,7 +25,7 @@ TITLE = {'gluten': 'глютен', 'dairy': 'молоко', 'eggs': 'яйца', 
 
 
 def main():
-    d = json.load(open(DB))
+    d = load_db(DB if len(sys.argv) > 1 else None)
     rows = collections.defaultdict(list)
     for k, v in sorted(d['dishes'].items()):
         tags = set(v['tags'])
