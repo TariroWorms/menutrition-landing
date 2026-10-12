@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- Dish page template — one file for every dish in every language.
+     Built by tools/dishes/build_dishes.py: Спагетти аматричана placeholders are filled from the dish database,
+     content/<dish>.json and ui.json. Edit here, rebuild, and all dish pages change. -->
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Спагетти аматричана: калории, БЖУ, диеты и рецепт</title>
+<meta name="description" content="Спагетти аматричана: 165 ккал на 100 г, 578 ккал на порцию 350 г. Белки, жиры, углеводы, аллергены, диеты, рецепт и история блюда." />
+<link rel="canonical" href="https://menutrition.app/ru/dishes/spaghetti-alla-amatriciana/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/spaghetti-alla-amatriciana/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/spaghetti-alla-amatriciana/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/spaghetti-alla-amatriciana/" />
+<link rel="alternate" hreflang="x-default" href="https://menutrition.app/dishes/spaghetti-alla-amatriciana/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Me Nutrition" />
+<meta property="og:title" content="Спагетти аматричана: калории, БЖУ, диеты и рецепт" />
+<meta property="og:description" content="Спагетти аматричана: 165 ккал на 100 г, 578 ккал на порцию 350 г. Белки, жиры, углеводы, аллергены, диеты, рецепт и история блюда." />
+<meta property="og:url" content="https://menutrition.app/ru/dishes/spaghetti-alla-amatriciana/" />
+<meta property="og:image" content="https://menutrition.app/og-cover.jpg" />
+<meta name="apple-itunes-app" content="app-id=6767123368" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Recipe", "name": "Спагетти аматричана", "description": "Аматричана — паста с хрустящим гуанчале (вяленой свиной щекой), томатами и тёртым пекорино романо, с ноткой чили. Ингредиентов совсем мало, а вкуса много: соус держится на вытопленном свином жире. Буканини здесь так же традиционны, как спагетти.", "inLanguage": "ru", "url": "https://menutrition.app/ru/dishes/spaghetti-alla-amatriciana/", "recipeCuisine": "Италия · Лацио", "recipeYield": "4", "totalTime": "PT25M", "recipeIngredient": ["320 г спагетти или букатини", "150 г гуанчале, нарезать полосками", "400 г очищенных томатов, размять", "1 небольшой сушёный перец чили", "60 г пекорино романо, натереть", "Соль"], "recipeInstructions": [{"@type": "HowToStep", "text": "Обжарьте гуанчале на сухой сковороде на среднем огне 6–8 минут, пока жир не вытопится, а края не станут хрустящими. Отложите несколько кусочков."}, {"@type": "HowToStep", "text": "Добавьте томаты и чили и тушите 10 минут. Солите осторожно — гуанчале и пекорино уже солёные."}, {"@type": "HowToStep", "text": "Сварите пасту аль денте и перемешайте с соусом, добавив немного воды от варки."}, {"@type": "HowToStep", "text": "Снимите с огня, вмешайте пекорино и посыпьте отложенным гуанчале."}], "nutrition": {"@type": "NutritionInformation", "servingSize": "350 g", "calories": "578 kcal", "proteinContent": "23 g", "fatContent": "21 g", "carbohydrateContent": "88 g"}, "author": {"@type": "Organization", "name": "Me Nutrition", "url": "https://menutrition.app/"}}</script>
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+@media (max-width:520px){.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/ru/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Скачать</a>
+</div></header>
+
+<main class="wrap">
+  <nav class="crumbs"><a href="/ru/">Главная</a> › <a href="/ru/dishes/">Блюда</a></nav>
+  <h1>🍝 Спагетти аматричана</h1>
+  <div class="origin">Откуда: Италия · Лацио</div>
+
+  <section class="card nut first">
+    <div><div class="big">578<small>ккал</small></div><div class="lbl">на порцию · 350 г</div></div>
+    <div><div class="big">165<small>ккал</small></div><div class="lbl">на 100 г</div></div>
+    <div class="macros" style="grid-column:1/-1"><div class="macro"><b>23 г</b><span>Белки</span><em>6.5 г / 100 г</em><i style="--w:14%;--c:#2E7A6F"></i></div><div class="macro"><b>21 г</b><span>Жиры</span><em>6 г / 100 г</em><i style="--w:30%;--c:#C9A35B"></i></div><div class="macro"><b>88 г</b><span>Углеводы</span><em>25 г / 100 г</em><i style="--w:56%;--c:#8DA7C9"></i></div></div>
+  </section>
+
+  <p class="intro">Аматричана — паста с хрустящим гуанчале (вяленой свиной щекой), томатами и тёртым пекорино романо, с ноткой чили. Ингредиентов совсем мало, а вкуса много: соус держится на вытопленном свином жире. Буканини здесь так же традиционны, как спагетти.</p>
+
+  <section>
+    <h2>Диеты</h2>
+    <div class="labels"><div class="label yes"><div class="ic">✓</div><div><b>Без алкоголя</b></div></div><div class="label no"><div class="ic">✕</div><div><b>Не вегетарианское</b><span>из-за: гуанчиале (вяленые свиные щёки)</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Не веганское</b><span>из-за: гуанчиале (вяленые свиные щёки), пекорино</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Со свининой</b><span>из-за: гуанчиале (вяленые свиные щёки)</span></div></div><div class="label no"><div class="ic">✕</div><div><b>С глютеном</b><span>из-за: спагетти</span></div></div><div class="label no"><div class="ic">✕</div><div><b>С молочным</b><span>из-за: пекорино</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Не для кето</b><span>25 г углеводов на 100 г</span></div></div></div>
+  </section>
+
+  <section>
+    <h2>Аллергены</h2>
+    <p class="note">Содержит (в типичном рецепте):</p><div class="chips"><span class="chip warn">⚠ Глютен</span><span class="chip warn">⚠ Молоко</span></div>
+  </section>
+
+  <section>
+    <h2>Из чего готовят</h2>
+    <div class="chips"><span class="chip">спагетти</span><span class="chip">гуанчиале (вяленые свиные щёки)</span><span class="chip">помидор</span><span class="chip">пекорино</span><span class="chip">чили</span></div>
+  </section>
+
+  <section class="card recipe">
+    <h2>Рецепт</h2>
+    <div class="meta"><span>4 порции</span><span>25 мин</span></div>
+    <h3>Ингредиенты</h3>
+    <ul><li>320 г спагетти или букатини</li><li>150 г гуанчале, нарезать полосками</li><li>400 г очищенных томатов, размять</li><li>1 небольшой сушёный перец чили</li><li>60 г пекорино романо, натереть</li><li>Соль</li></ul>
+    <h3>Приготовление</h3>
+    <ol><li>Обжарьте гуанчале на сухой сковороде на среднем огне 6–8 минут, пока жир не вытопится, а края не станут хрустящими. Отложите несколько кусочков.</li><li>Добавьте томаты и чили и тушите 10 минут. Солите осторожно — гуанчале и пекорино уже солёные.</li><li>Сварите пасту аль денте и перемешайте с соусом, добавив немного воды от варки.</li><li>Снимите с огня, вмешайте пекорино и посыпьте отложенным гуанчале.</li></ol>
+  </section>
+
+  <section class="tips">
+    <h2>Как сделать легче</h2>
+    <ul><li>Тарелка 350 г — около 580 ккал; тарелка 250 г с зелёным салатом — около 410.</li><li>Гуанчале и пекорино делают блюдо солёным — учитывайте соль в остальной еде за день.</li><li>Слейте часть вытопленного жира перед тем, как добавить томаты.</li></ul>
+  </section>
+
+  <section class="history">
+    <h2>История</h2>
+    <p>Блюдо названо в честь Аматриче — горного городка в Лацио. Часто рассказывают, что местные пастухи готовили пасту с гуанчале и пекорино без томатов — вариант, близкий к нынешней пасте алла гричя. Томаты в рецепте появились позже, и блюдо стало классикой римских тратторий. Официальный рецепт города требует гуанчале и пекорино и исключает лук и чеснок. После землетрясения 2016 года рестораны по всему миру собирали деньги для Аматриче, подавая аматричану.</p>
+  </section>
+
+  <section class="cta">
+    <h2>Посчитайте одним фото</h2>
+    <p>Наведите камеру на стол — <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> узнает Спагетти аматричана и все остальные блюда и посчитает калории и БЖУ для каждого. Съели половину? Сдвиньте ползунок.</p>
+    <a href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Скачать в App Store</a>
+  </section>
+
+  <section><h2>Похожие блюда</h2><div class="related"><a href="/ru/dishes/caesar-salad/"><span class="em">🥗</span><div>Салат «Цезарь»<span>150 ккал / 100 г</span></div></a><a href="/ru/dishes/kabsa/"><span class="em">🍗</span><div>Кабса с курицей<span>165 ккал / 100 г</span></div></a><a href="/ru/dishes/shawarma/"><span class="em">🌯</span><div>Шаурма с курицей<span>230 ккал / 100 г</span></div></a></div></section>
+
+  <p class="disclaimer">Значения — примерная оценка на 100 г для типичного рецепта; дома и в ресторанах блюдо готовят по-разному. Диеты и аллергены определены по составу типичного рецепта — всегда уточняйте у того, кто готовил. Не является медицинской рекомендацией. Данные о питательности: база блюд <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span>, версия 12.</p>
+</main>
+
+<footer><div class="wrap">
+  <a href="/ru/">Главная</a><a href="/privacy">Конфиденциальность</a><a href="/terms">Условия</a>
+  <span class="langs"><a href="/dishes/spaghetti-alla-amatriciana/" hreflang="en">English</a><a href="/ru/dishes/spaghetti-alla-amatriciana/" hreflang="ru">Русский</a><a href="/ar/dishes/spaghetti-alla-amatriciana/" hreflang="ar">العربية</a></span>
+</div></footer>
+</body>
+</html>

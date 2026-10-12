@@ -210,6 +210,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--db', default=DB)
     ap.add_argument('--out', default=str(HERE.parent.parent))
+    ap.add_argument('--only', help='JSON list of db_keys to publish (a release batch)')
     a = ap.parse_args()
     out = Path(a.out)
     db = json.load(open(a.db, encoding='utf-8'))
@@ -228,6 +229,9 @@ def main():
             continue
         c['i18n'] = {l: v for l, v in c['i18n'].items() if l in ui}
         contents[c['db_key']] = c
+    if a.only:
+        keep = set(json.load(open(a.only)))
+        contents = {k: v for k, v in contents.items() if k in keep}
     if skipped:
         print(f'skipped {len(skipped)} (duplicates or not in the database): {", ".join(skipped[:10])}')
     langs = [l for l in ui if any(l in c['i18n'] for c in contents.values())]
@@ -248,6 +252,8 @@ def main():
         p.write_text(index_page(lang, [c for c in contents.values() if lang in c['i18n']], ui, langs, db, index_tpl),
                      encoding='utf-8')
         pages.append(p)
+    urls = [SITE + '/' + str(p.parent.relative_to(out)) + '/' for p in pages]
+    (out / 'sitemap-dishes.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sorted(urls)) + '</urlset>\n', encoding='utf-8')
     print(f'db v{db["version"]}: {len(contents)} dishes × {len(langs)} languages ({", ".join(langs)}) → {len(pages)} pages')
 
 
