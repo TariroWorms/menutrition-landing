@@ -33,7 +33,7 @@ LEXICON = {
     'pork': r'\bpork\b|bacon|\bham\b|\blard\b|guanciale|pancetta|chorizo|prosciutto',
     'alcohol': r'\bwine\b|\bbeer\b|\brum\b|brandy|\bsake\b|mirin|vodka|cognac|whisk(e)?y|liqueur',
 }
-ALLOW = r'coconut milk|coconut cream|almond milk|oat milk|soy milk|butternut|peanut-free|nut-free|cream of tartar|fish-shaped|egg-free|dairy-free|gluten-free'
+ALLOW = r'rice noodles?|rice vermicelli|glass noodles|rice paper|coconut milk|coconut cream|almond milk|oat milk|soy milk|butternut|peanut-free|nut-free|cream of tartar|fish-shaped|egg-free|dairy-free|gluten-free'
 ARABIC = re.compile(r'[؀-ۿ]')
 
 
@@ -92,6 +92,9 @@ def check(path, db, langs, dup):
         if 'mollusc' in have:
             have.add('shellfish')
         text = re.sub(ALLOW, ' ', text_of(en).lower())
+        # rice/glass/buckwheat-free noodles of the database dish are not wheat
+        if any(re.search(r'rice|glass|vermicelli|sweet_potato|mung|kelp', i) for i in db['dishes'][key]['ingredients']):
+            text = re.sub(r'\bnoodles\b', ' ', text)
         for flag, rx in LEXICON.items():
             m = re.search(rx, text)
             if m and flag not in have:
