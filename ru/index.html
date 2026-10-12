@@ -324,12 +324,13 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
 .lc.hint .lc-hand{opacity:1}
 @keyframes thumbPulse{50%{box-shadow:0 0 0 2.5cqw rgba(46,122,111,.25)}}
 .nav-stores{margin:0!important;gap:8px;flex-wrap:nowrap}
-.nav-stores .badge-as img{height:38px}
+.nav-dl{display:inline-flex;align-items:center;height:38px;padding:0 20px;border-radius:999px;background:#1d1b19;color:#fff;font-size:14.5px;font-weight:600;white-space:nowrap;transition:transform .15s}
+.nav-dl:hover{transform:translateY(-2px)}
 .nav-stores .and-btn{height:38px;padding:0 11px 0 9px;gap:6px;border-radius:7px}
 .nav-stores .and-btn svg{width:21px;height:21px}
 .nav-stores .and-btn small{font-size:8.5px}
 .nav-stores .and-btn b{font-size:14.5px}
-@media (max-width:639px){.nav-stores{gap:6px}.nav-stores .badge-as img{height:32px}.nav-stores .and-btn{display:none}}
+@media (max-width:639px){.nav-stores{gap:6px}.nav-dl{height:34px;padding:0 13px;font-size:13.5px}.nav-stores .and-btn{display:none}}
 </style>
 </head>
 
@@ -377,7 +378,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
         <button data-setlang="ko" class="lang-item">한국어</button>
         </div>
       </div>
-      <div class="stores nav-stores"><a class="badge-as" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener"><img src="../badges/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a><a class="and-btn" href="#android" data-android><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#3DDC84" d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22a11.4 11.4 0 0 0-9.84 0L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span class="tx"><small data-i18n="and_top">Скоро на</small><b>Android</b></span></a></div>
+      <div class="stores nav-stores"><a class="nav-dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener" data-i18n="nav_dl">Скачать</a><a class="and-btn" href="#android" data-android><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#3DDC84" d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22a11.4 11.4 0 0 0-9.84 0L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span class="tx"><small data-i18n="and_top">Скоро на</small><b>Android</b></span></a></div>
     </div>
   </nav>
 </header>
