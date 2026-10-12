@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!-- Dish page template — one file for every dish in every language.
+     Built by tools/dishes/build_dishes.py: Eisbein placeholders are filled from the dish database,
+     content/<dish>.json and ui.json. Edit here, rebuild, and all dish pages change. -->
+<html lang="it" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Eisbein: calorie, macro, diete e ricetta</title>
+<meta name="description" content="Eisbein: 225 kcal per 100 g, 900 kcal per porzione da 400 g. Proteine, grassi, carboidrati, allergeni, diete, una ricetta e la storia del piatto." />
+<link rel="canonical" href="https://menutrition.app/it/dishes/eisbein/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/eisbein/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/eisbein/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/eisbein/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/eisbein/" />
+<link rel="alternate" hreflang="x-default" href="https://menutrition.app/dishes/eisbein/" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Me Nutrition" />
+<meta property="og:title" content="Eisbein: calorie, macro, diete e ricetta" />
+<meta property="og:description" content="Eisbein: 225 kcal per 100 g, 900 kcal per porzione da 400 g. Proteine, grassi, carboidrati, allergeni, diete, una ricetta e la storia del piatto." />
+<meta property="og:url" content="https://menutrition.app/it/dishes/eisbein/" />
+<meta property="og:image" content="https://menutrition.app/og-cover.jpg" />
+<meta name="apple-itunes-app" content="app-id=6767123368" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Recipe", "name": "Eisbein", "description": "L'Eisbein è uno stinco di maiale salmistrato cotto a fuoco lento per ore finché la carne diventa tenerissima sotto la sua cotenna morbida e gelatinosa. A Berlino si serve tradizionalmente con crauti, una montagnetta di purè di piselli e senape piccante per bilanciarne la ricchezza. È un piatto sostanzioso, di solito condiviso o mangiato come unico grande secondo.", "inLanguage": "it", "url": "https://menutrition.app/it/dishes/eisbein/", "recipeCuisine": "Germania · Berlino", "recipeYield": "4", "totalTime": "PT180M", "recipeIngredient": ["2 stinchi di maiale salmistrati (circa 1,5 kg)", "500 g di crauti", "400 g di piselli secchi spezzati, ammollati", "1 cipolla, tagliata a metà", "2 foglie di alloro", "5 grani di pepe", "4 cucchiai di senape", "Sale"], "recipeInstructions": [{"@type": "HowToStep", "text": "Copri gli stinchi d'acqua, aggiungi cipolla, alloro e pepe in grani e fai sobbollire 2,5 ore finché sono teneri."}, {"@type": "HowToStep", "text": "Cuoci i piselli spezzati in acqua pulita per circa 1 ora finché sono morbidi, poi schiacciali in un purè e regola di sale."}, {"@type": "HowToStep", "text": "Scalda i crauti con un mestolo del liquido di cottura per 15 minuti."}, {"@type": "HowToStep", "text": "Togli gli stinchi, elimina se vuoi la cotenna in eccesso e servi con crauti, purè di piselli e senape."}], "nutrition": {"@type": "NutritionInformation", "servingSize": "400 g", "calories": "900 kcal", "proteinContent": "80 g", "fatContent": "56 g", "carbohydrateContent": "16 g"}, "author": {"@type": "Organization", "name": "Me Nutrition", "url": "https://menutrition.app/"}, "suitableForDiet": ["https://schema.org/GlutenFreeDiet"]}</script>
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/it/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><a class="hl" href="/it/dishes/">Piatti</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Scarica</a></nav>
+</div></header>
+
+<main class="wrap">
+  <nav class="crumbs"><a href="/it/">Home</a> › <a href="/it/dishes/">Piatti</a></nav>
+  <h1>🍖 Eisbein</h1>
+  <div class="origin">Origine: Germania · Berlino</div>
+
+  <section class="card nut first">
+    <div><div class="big">900<small>kcal</small></div><div class="lbl">a porzione · 400 g</div></div>
+    <div><div class="big">225<small>kcal</small></div><div class="lbl">per 100 g</div></div>
+    <div class="macros" style="grid-column:1/-1"><div class="macro"><b>80 g</b><span>Proteine</span><em>20 g / 100 g</em><i style="--w:36%;--c:#2E7A6F"></i></div><div class="macro"><b>56 g</b><span>Grassi</span><em>14 g / 100 g</em><i style="--w:57%;--c:#C9A35B"></i></div><div class="macro"><b>16 g</b><span>Carboidrati</span><em>4 g / 100 g</em><i style="--w:7%;--c:#8DA7C9"></i></div></div>
+  </section>
+
+  <p class="intro">L&#x27;Eisbein è uno stinco di maiale salmistrato cotto a fuoco lento per ore finché la carne diventa tenerissima sotto la sua cotenna morbida e gelatinosa. A Berlino si serve tradizionalmente con crauti, una montagnetta di purè di piselli e senape piccante per bilanciarne la ricchezza. È un piatto sostanzioso, di solito condiviso o mangiato come unico grande secondo.</p>
+
+  <section>
+    <h2>Diete</h2>
+    <div class="labels"><div class="label yes"><div class="ic">✓</div><div><b>Senza glutine</b><span>niente frumento, orzo o segale in una ricetta tipica</span></div></div><div class="label yes"><div class="ic">✓</div><div><b>Senza latticini</b><span>niente latte, formaggio, burro o yogurt in una ricetta tipica</span></div></div><div class="label yes"><div class="ic">✓</div><div><b>Adatto alla dieta chetogenica</b><span>4 g di carboidrati per 100 g</span></div></div><div class="label yes"><div class="ic">✓</div><div><b>Ricco di proteine</b><span>20 g di proteine per 100 g — il 36% delle calorie</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Non vegetariano</b><span>per: stinco di maiale</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Non vegano</b><span>per: stinco di maiale</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Contiene maiale</b><span>per: stinco di maiale</span></div></div></div>
+  </section>
+
+  <section>
+    <h2>Allergeni</h2>
+    <p class="note">Contiene (in una ricetta tipica):</p><div class="chips"><span class="chip warn">⚠ Senape</span></div>
+  </section>
+
+  <section>
+    <h2>Di cosa è fatto</h2>
+    <div class="chips"><span class="chip">stinco di maiale</span><span class="chip">crauti</span><span class="chip">senape</span><span class="chip">piselli</span></div>
+  </section>
+
+  <section class="card recipe">
+    <h2>Ricetta</h2>
+    <div class="meta"><span>4 porzioni</span><span>180 min</span></div>
+    <h3>Ingredienti</h3>
+    <ul><li>2 stinchi di maiale salmistrati (circa 1,5 kg)</li><li>500 g di crauti</li><li>400 g di piselli secchi spezzati, ammollati</li><li>1 cipolla, tagliata a metà</li><li>2 foglie di alloro</li><li>5 grani di pepe</li><li>4 cucchiai di senape</li><li>Sale</li></ul>
+    <h3>Procedimento</h3>
+    <ol><li>Copri gli stinchi d&#x27;acqua, aggiungi cipolla, alloro e pepe in grani e fai sobbollire 2,5 ore finché sono teneri.</li><li>Cuoci i piselli spezzati in acqua pulita per circa 1 ora finché sono morbidi, poi schiacciali in un purè e regola di sale.</li><li>Scalda i crauti con un mestolo del liquido di cottura per 15 minuti.</li><li>Togli gli stinchi, elimina se vuoi la cotenna in eccesso e servi con crauti, purè di piselli e senape.</li></ol>
+  </section>
+
+  <section class="tips">
+    <h2>Come renderlo più leggero</h2>
+    <ul><li>Togli la cotenna e il grasso visibile prima di mangiare: lì si concentra la maggior parte del grasso.</li><li>Dividi uno stinco in due persone e riempi il piatto di crauti.</li><li>Limita il purè di piselli a una porzione modesta e aggiungi un&#x27;insalata verde.</li></ul>
+  </section>
+
+  <section class="history">
+    <h2>Storia</h2>
+    <p>L&#x27;Eisbein è una specialità di lunga tradizione di Berlino e della Germania settentrionale e orientale. Il nome viene spesso collegato al fatto che un tempo l&#x27;osso si usava per fare pattini da ghiaccio, ma questa spiegazione non è certa.</p>
+  </section>
+
+  <section class="cta">
+    <h2>Contalo con una foto</h2>
+    <p>Inquadra la tavola: <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> riconosce Eisbein e ogni altro piatto, con calorie e macro per ciascuno. Ne hai mangiato solo metà? Basta far scorrere il cursore.</p>
+    <a href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Scarica dall&#x27;App Store</a>
+  </section>
+
+  <section><h2>Piatti simili</h2><div class="related"><a href="/it/dishes/schweinshaxe/"><span class="em">🍖</span><div>Schweinshaxe (stinco di maiale arrosto)<span>265 kcal / 100 g</span></div></a><a href="/it/dishes/rinderroulade/"><span class="em">🥩</span><div>Rinderrouladen (involtini di manzo tedeschi)<span>180 kcal / 100 g</span></div></a><a href="/it/dishes/bratwurst/"><span class="em">🌭</span><div>Bratwurst<span>270 kcal / 100 g</span></div></a><a href="/it/dishes/weisswurst/"><span class="em">🌭</span><div>Weisswurst<span>200 kcal / 100 g</span></div></a></div></section>
+
+  <p class="disclaimer">I valori sono stime per 100 g di una ricetta tipica; le versioni casalinghe e da ristorante variano. Diete e allergeni sono ricavati dagli ingredienti di una ricetta tipica: chiedi sempre conferma a chi ha cucinato. Non è un consiglio medico. Dati nutrizionali: database dei piatti <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> v13.</p>
+</main>
+
+<footer><div class="wrap">
+  <a href="/it/">Home</a><a href="/privacy">Privacy</a><a href="/terms">Termini</a>
+  <span class="langs"><a href="/dishes/eisbein/" hreflang="en">English</a><a href="/ar/dishes/eisbein/" hreflang="ar">العربية</a><a href="/it/dishes/eisbein/" hreflang="it">Italiano</a><a href="/el/dishes/eisbein/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+</body>
+</html>
