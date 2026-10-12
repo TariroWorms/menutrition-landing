@@ -26,7 +26,7 @@ RTL = {'ar', 'he'}
 LANG_NAMES = {'en': 'English', 'ru': 'Русский', 'de': 'Deutsch', 'es': 'Español', 'fr': 'Français',
               'it': 'Italiano', 'ar': 'العربية', 'tr': 'Türkçe', 'he': 'עברית', 'uk': 'Українська',
               'pt': 'Português', 'nl': 'Nederlands', 'pl': 'Polski', 'sv': 'Svenska', 'id': 'Indonesia',
-              'vi': 'Tiếng Việt', 'th': 'ไทย', 'hi': 'हिन्दी', 'zh': '中文', 'ja': '日本語', 'ko': '한국어'}
+              'vi': 'Tiếng Việt', 'th': 'ไทย', 'hi': 'हिन्दी', 'zh': '中文', 'ja': '日本語', 'ko': '한국어', 'el': 'Ελληνικά'}
 EN_INGREDIENT = {'baharat': 'baharat spice mix', 'sour_cream': 'sour cream', 'caesar_dressing': 'Caesar dressing'}
 SCHEMA_DIET = {'vegan': 'VeganDiet', 'vegetarian': 'VegetarianDiet', 'gluten_free': 'GlutenFreeDiet'}
 
@@ -38,6 +38,11 @@ brand = lambda s: s.replace('Me Nutrition', '<span class="bn">Me<span class="bn-
 def path(lang, slug=None):
     base = '/' if lang == 'en' else f'/{lang}/'
     return base + 'dishes/' + (f'{slug}/' if slug else '')
+
+
+def home(lang):
+    """The home page in this language, or the English one if the site has no home page in it (e.g. Greek)."""
+    return f'/{lang}/' if lang != 'en' and (HERE.parent.parent / lang / 'index.html').exists() else '/'
 
 
 def fill(template, values):
@@ -172,7 +177,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     values = {
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
         'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
-        'home': '/' if lang == 'en' else f'/{lang}/', 'index': path(lang), 'emoji': c['emoji'],
+        'home': home(lang), 'index': path(lang), 'emoji': c['emoji'],
         'name': esc(t['name']), 'origin': esc(t['origin']), 'intro': esc(t['intro']),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
         'per_portion': esc(U['perPortionMl' if ml else 'perPortion'].format(portion=portion)), 'macros': macros,
@@ -216,7 +221,7 @@ def index_page(lang, items, ui, langs, db, template):
     values = {
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(U['index_title']),
         'description': esc(U['index_meta']), 'url': SITE + path(lang), 'hreflang': hreflang,
-        'home': '/' if lang == 'en' else f'/{lang}/', 'index': path(lang), 'groups': html_groups, 'countries': countries,
+        'home': home(lang), 'index': path(lang), 'groups': html_groups, 'countries': countries,
         'langs': ''.join(f'<a href="{path(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
     }
     values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
