@@ -49,10 +49,32 @@ def fill(template, values):
     return re.sub(r'\{\{([\w.]+)\}\}', rep, template)
 
 
+NAMES = {}   # ingredient_names.json: {key: {lang: name}} — fills the gaps of the app's dictionary
+
+
 def ingredient_name(key, lang, dictionary):
+    if lang in NAMES.get(key, {}):
+        return NAMES[key][lang]
     if lang != 'en' and lang in dictionary.get(key, {}):
         return dictionary[key][lang]
     return EN_INGREDIENT.get(key, key.replace('_', ' '))
+
+
+def related_keys(c, contents, db, lang, n=4):
+    """Hand-picked related dishes first, then the same country, then the most shared tags."""
+    me = db['dishes'][c['db_key']]
+    pool = [k for k, o in contents.items() if k != c['db_key'] and lang in o['i18n']]
+    picked = [k for k in c.get('related', []) if k in pool]
+    def score(k):
+        o, d = contents[k], db['dishes'][k]
+        return (bool(c.get('country')) and o.get('country') == c.get('country'),
+                len(set(d['tags']) & set(me['tags'])) + len(set(d['ingredients']) & set(me['ingredients'])))
+    for k in sorted(pool, key=lambda k: (score(k), k), reverse=True):
+        if len(picked) >= n:
+            break
+        if k not in picked and score(k)[1] > 0:
+            picked.append(k)
+    return picked
 
 
 def fmt(n):
@@ -63,7 +85,8 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     t = c['i18n'][lang]
     U = ui[lang]
     ing = lambda k: ingredient_name(k, lang, db['ingredients_dictionary'])
-    portion = c['portion_g']
+    ml = 'portion_ml' in dish
+    portion = dish['portion_ml'] if ml else c['portion_g']
     kcal_p = round(dish['kcal'] * portion / 100)
 
     # macros: grams per serving, bar = share of calories
@@ -112,7 +135,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     else:
         allergens = f'<p class="note">{esc(U["allergens_none"])}</p>'
 
-    rel = [contents[k] for k in c.get('related', []) if k in contents and lang in contents[k]['i18n']]
+    rel = [contents[k] for k in related_keys(c, contents, db, lang)]
     related = ''
     if rel:
         related = (f'<section><h2>{esc(U["related_h"])}</h2><div class="related">' + ''.join(
@@ -123,6 +146,8 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     url = SITE + path(lang, c['slug'])
     title = U['title'].format(name=t['name'])
     description = U['meta'].format(name=t['name'], kcal100=round(dish['kcal']), kcalPortion=kcal_p, portion=portion)
+    if ml:
+        description = description.replace(f'{portion} g', f'{portion} ml').replace(f'{portion} г', f'{portion} мл').replace(f'({portion} غ)', f'({portion} مل)')
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, c["slug"])}" />' for l in langs)
     hreflang += f'\n<link rel="alternate" hreflang="x-default" href="{SITE + path("en", c["slug"])}" />'
     r = t['recipe']
@@ -133,7 +158,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'inLanguage': lang, 'url': url, 'recipeCuisine': t['origin'], 'recipeYield': str(r['servings']),
         'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': r['ingredients'],
         'recipeInstructions': [{'@type': 'HowToStep', 'text': s} for s in r['steps']],
-        'nutrition': {'@type': 'NutritionInformation', 'servingSize': f'{portion} g',
+        'nutrition': {'@type': 'NutritionInformation', 'servingSize': f'{portion} {"ml" if ml else "g"}',
                       'calories': f'{kcal_p} kcal',
                       'proteinContent': f'{round(dish["protein_g"] * portion / 100)} g',
                       'fatContent': f'{round(dish["fat_g"] * portion / 100)} g',
@@ -149,7 +174,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'home': '/' if lang == 'en' else f'/{lang}/', 'index': path(lang), 'emoji': c['emoji'],
         'name': esc(t['name']), 'origin': esc(t['origin']), 'intro': esc(t['intro']),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
-        'per_portion': esc(U['perPortion'].format(portion=portion)), 'macros': macros,
+        'per_portion': esc(U['perPortionMl' if ml else 'perPortion'].format(portion=portion)), 'macros': macros,
         'labels': ''.join(rows), 'allergens': allergens,
         'ingredients': ''.join(f'<span class="chip">{esc(ing(i))}</span>' for i in dish['ingredients']),
         'servings': esc(U['servings'].format(n=r['servings'])), 'time': esc(U['time'].format(min=r['time_min'])),
@@ -192,26 +217,36 @@ def main():
     template = (HERE / 'template.html').read_text(encoding='utf-8')
     style = re.search(r'<style>.*?</style>', template, re.S).group(0)
     index_tpl = (HERE / 'index_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
-    contents = {}
+    NAMES.update(json.load(open(HERE / 'ingredient_names.json', encoding='utf-8'))
+                 if (HERE / 'ingredient_names.json').exists() else {})
+    dup = json.load(open(HERE / 'duplicates.json', encoding='utf-8'))
+    contents, skipped = {}, []
     for f in sorted((HERE / 'content').glob('*.json')):
         c = json.load(open(f, encoding='utf-8'))
-        assert c['db_key'] in db['dishes'], f'{f.name}: {c["db_key"]} is not in the dish database'
+        if c['db_key'] not in db['dishes'] or c['db_key'] in dup or c.get('duplicate_of'):
+            skipped.append(f.name)
+            continue
+        c['i18n'] = {l: v for l, v in c['i18n'].items() if l in ui}
         contents[c['db_key']] = c
-    langs = [l for l in ui if all(l in c['i18n'] for c in contents.values())]
+    if skipped:
+        print(f'skipped {len(skipped)} (duplicates or not in the database): {", ".join(skipped[:10])}')
+    langs = [l for l in ui if any(l in c['i18n'] for c in contents.values())]
 
     pages = []
     for c in contents.values():
         dish = db['dishes'][c['db_key']]
         info = analyse(dish)
-        for lang in langs:
+        dish_langs = [l for l in langs if l in c['i18n']]
+        for lang in dish_langs:
             p = out / path(lang, c['slug']).strip('/') / 'index.html'
             p.parent.mkdir(parents=True, exist_ok=True)
-            p.write_text(dish_page(lang, c, dish, info, ui, contents, langs, db, template), encoding='utf-8')
+            p.write_text(dish_page(lang, c, dish, info, ui, contents, dish_langs, db, template), encoding='utf-8')
             pages.append(p)
     for lang in langs:
         p = out / path(lang).strip('/') / 'index.html'
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(index_page(lang, list(contents.values()), ui, langs, db, index_tpl), encoding='utf-8')
+        p.write_text(index_page(lang, [c for c in contents.values() if lang in c['i18n']], ui, langs, db, index_tpl),
+                     encoding='utf-8')
         pages.append(p)
     print(f'db v{db["version"]}: {len(contents)} dishes × {len(langs)} languages ({", ".join(langs)}) → {len(pages)} pages')
 

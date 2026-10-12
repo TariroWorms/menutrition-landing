@@ -38,15 +38,43 @@
     "index_h": "Dishes of the world",
     "index_p": "Calories, macros, allergens and diets for dishes from around the world — the same numbers Me Nutrition uses when you snap your meal.",
     "lbl": {
-      "vegetarian": {"yes": "Vegetarian", "no": "Not vegetarian", "check": "Vegetarian — check the broth"},
-      "vegan": {"yes": "Vegan", "no": "Not vegan", "check": "Vegan — check the broth"},
-      "no_pork": {"yes": "No pork", "no": "Contains pork", "check": "Pork — check"},
-      "no_alcohol": {"yes": "No alcohol", "no": "Contains alcohol"},
-      "gluten_free": {"yes": "Gluten-free", "no": "Contains gluten"},
-      "dairy_free": {"yes": "Dairy-free", "no": "Contains dairy"},
-      "keto": {"yes": "Keto-friendly", "no": "Not keto"},
-      "low_carb": {"yes": "Low-carb"},
-      "high_protein": {"yes": "High protein"}
+      "vegetarian": {
+        "yes": "Vegetarian",
+        "no": "Not vegetarian",
+        "check": "Vegetarian — check the broth"
+      },
+      "vegan": {
+        "yes": "Vegan",
+        "no": "Not vegan",
+        "check": "Vegan — check the broth"
+      },
+      "no_pork": {
+        "yes": "No pork",
+        "no": "Contains pork",
+        "check": "Pork — check"
+      },
+      "no_alcohol": {
+        "yes": "No alcohol",
+        "no": "Contains alcohol"
+      },
+      "gluten_free": {
+        "yes": "Gluten-free",
+        "no": "Contains gluten"
+      },
+      "dairy_free": {
+        "yes": "Dairy-free",
+        "no": "Contains dairy"
+      },
+      "keto": {
+        "yes": "Keto-friendly",
+        "no": "Not keto"
+      },
+      "low_carb": {
+        "yes": "Low-carb"
+      },
+      "high_protein": {
+        "yes": "High protein"
+      }
     },
     "why": {
       "items": "because of: {items}",
@@ -58,7 +86,23 @@
       "carbs": "{carbs} g carbs per 100 g",
       "protein": "{protein} g protein per 100 g — {share}% of the calories"
     },
-    "allergen": {"gluten": "Gluten", "crustaceans": "Crustaceans", "eggs": "Eggs", "fish": "Fish", "peanuts": "Peanuts", "soy": "Soy", "milk": "Milk", "nuts": "Tree nuts", "celery": "Celery", "mustard": "Mustard", "sesame": "Sesame", "sulphites": "Sulphites", "lupin": "Lupin", "molluscs": "Molluscs"}
+    "allergen": {
+      "gluten": "Gluten",
+      "crustaceans": "Crustaceans",
+      "eggs": "Eggs",
+      "fish": "Fish",
+      "peanuts": "Peanuts",
+      "soy": "Soy",
+      "milk": "Milk",
+      "nuts": "Tree nuts",
+      "celery": "Celery",
+      "mustard": "Mustard",
+      "sesame": "Sesame",
+      "sulphites": "Sulphites",
+      "lupin": "Lupin",
+      "molluscs": "Molluscs"
+    },
+    "perPortionMl": "per serving · {portion} ml"
   },
   "ru": {
     "dishes": "Блюда",
@@ -99,15 +143,43 @@
     "index_h": "Блюда мира",
     "index_p": "Калории, БЖУ, аллергены и диеты для блюд со всего мира — те же цифры, что Me Nutrition использует, когда вы фотографируете еду.",
     "lbl": {
-      "vegetarian": {"yes": "Вегетарианское", "no": "Не вегетарианское", "check": "Вегетарианское — уточните бульон"},
-      "vegan": {"yes": "Веганское", "no": "Не веганское", "check": "Веганское — уточните бульон"},
-      "no_pork": {"yes": "Без свинины", "no": "Со свининой", "check": "Свинина — уточните"},
-      "no_alcohol": {"yes": "Без алкоголя", "no": "С алкоголем"},
-      "gluten_free": {"yes": "Без глютена", "no": "С глютеном"},
-      "dairy_free": {"yes": "Без молочного", "no": "С молочным"},
-      "keto": {"yes": "Подходит для кето", "no": "Не для кето"},
-      "low_carb": {"yes": "Мало углеводов"},
-      "high_protein": {"yes": "Много белка"}
+      "vegetarian": {
+        "yes": "Вегетарианское",
+        "no": "Не вегетарианское",
+        "check": "Вегетарианское — уточните бульон"
+      },
+      "vegan": {
+        "yes": "Веганское",
+        "no": "Не веганское",
+        "check": "Веганское — уточните бульон"
+      },
+      "no_pork": {
+        "yes": "Без свинины",
+        "no": "Со свининой",
+        "check": "Свинина — уточните"
+      },
+      "no_alcohol": {
+        "yes": "Без алкоголя",
+        "no": "С алкоголем"
+      },
+      "gluten_free": {
+        "yes": "Без глютена",
+        "no": "С глютеном"
+      },
+      "dairy_free": {
+        "yes": "Без молочного",
+        "no": "С молочным"
+      },
+      "keto": {
+        "yes": "Подходит для кето",
+        "no": "Не для кето"
+      },
+      "low_carb": {
+        "yes": "Мало углеводов"
+      },
+      "high_protein": {
+        "yes": "Много белка"
+      }
     },
     "why": {
       "items": "из-за: {items}",
@@ -119,6 +191,127 @@
       "carbs": "{carbs} г углеводов на 100 г",
       "protein": "{protein} г белка на 100 г — {share}% калорий"
     },
-    "allergen": {"gluten": "Глютен", "crustaceans": "Ракообразные", "eggs": "Яйца", "fish": "Рыба", "peanuts": "Арахис", "soy": "Соя", "milk": "Молоко", "nuts": "Орехи", "celery": "Сельдерей", "mustard": "Горчица", "sesame": "Кунжут", "sulphites": "Сульфиты", "lupin": "Люпин", "molluscs": "Моллюски"}
+    "allergen": {
+      "gluten": "Глютен",
+      "crustaceans": "Ракообразные",
+      "eggs": "Яйца",
+      "fish": "Рыба",
+      "peanuts": "Арахис",
+      "soy": "Соя",
+      "milk": "Молоко",
+      "nuts": "Орехи",
+      "celery": "Сельдерей",
+      "mustard": "Горчица",
+      "sesame": "Кунжут",
+      "sulphites": "Сульфиты",
+      "lupin": "Люпин",
+      "molluscs": "Моллюски"
+    },
+    "perPortionMl": "на порцию · {portion} мл"
+  },
+  "ar": {
+    "dishes": "الأطباق",
+    "title": "{name}: السعرات الحرارية والقيم الغذائية والأنظمة الغذائية والوصفة",
+    "meta": "{name}: {kcal100} سعرة حرارية لكل 100 غ، و{kcalPortion} سعرة للحصة ({portion} غ). البروتين والدهون والكربوهيدرات ومسببات الحساسية والأنظمة الغذائية والوصفة وتاريخ الطبق.",
+    "origin": "الأصل",
+    "per100": "لكل 100 غ",
+    "perPortion": "للحصة · {portion} غ",
+    "perPortionMl": "للحصة · {portion} مل",
+    "kcal": "سعرة",
+    "protein": "بروتين",
+    "fat": "دهون",
+    "carbs": "كربوهيدرات",
+    "g": "غ",
+    "diets_h": "الأنظمة الغذائية",
+    "allergens_h": "مسببات الحساسية",
+    "allergens_none": "لا تحتوي الوصفة المعتادة على أيٍّ من مسببات الحساسية الرئيسية الأربعة عشر.",
+    "allergens_note": "يحتوي (في الوصفة المعتادة):",
+    "ingredients_h": "المكونات الأساسية",
+    "recipe_h": "الوصفة",
+    "servings": "{n} حصص",
+    "time": "{min} دقيقة",
+    "ingredients_list": "المقادير",
+    "steps": "طريقة التحضير",
+    "history_h": "التاريخ",
+    "tips_h": "كيف تجعله أخف",
+    "related_h": "أطباق مشابهة",
+    "cta_h": "احسبه بصورة واحدة",
+    "cta_p": "وجّه الكاميرا نحو المائدة — يتعرّف Me Nutrition على {name} وعلى كل طبق آخر، ويحسب السعرات والقيم الغذائية لكل منها. أكلت النصف فقط؟ حرّك المؤشر.",
+    "cta_btn": "حمّله من App Store",
+    "disclaimer": "القيم تقديرية لكل 100 غ لوصفة معتادة، وتختلف بين البيت والمطعم. حُدّدت الأنظمة الغذائية ومسببات الحساسية من مكونات الوصفة المعتادة — تأكّد دائمًا ممن أعدّ الطبق. ليست نصيحة طبية.",
+    "source": "بيانات القيم الغذائية: قاعدة أطباق Me Nutrition، الإصدار {version}.",
+    "home": "الرئيسية",
+    "privacy": "الخصوصية",
+    "terms": "الشروط",
+    "download": "تحميل",
+    "index_title": "الأطباق: السعرات والقيم الغذائية والأنظمة الغذائية والوصفات",
+    "index_meta": "السعرات الحرارية لكل 100 غ وللحصة، والبروتين والدهون والكربوهيدرات ومسببات الحساسية والأنظمة الغذائية لأطباق من حول العالم.",
+    "index_h": "أطباق العالم",
+    "index_p": "السعرات والقيم الغذائية ومسببات الحساسية والأنظمة الغذائية لأطباق من حول العالم — الأرقام نفسها التي يستخدمها Me Nutrition عندما تصوّر وجبتك.",
+    "lbl": {
+      "vegetarian": {
+        "yes": "نباتي",
+        "no": "غير نباتي",
+        "check": "نباتي — تحقّق من المرق"
+      },
+      "vegan": {
+        "yes": "نباتي صرف",
+        "no": "ليس نباتيًا صرفًا",
+        "check": "نباتي صرف — تحقّق من المرق"
+      },
+      "no_pork": {
+        "yes": "بدون لحم خنزير",
+        "no": "يحتوي على لحم خنزير",
+        "check": "لحم الخنزير — تحقّق"
+      },
+      "no_alcohol": {
+        "yes": "بدون كحول",
+        "no": "يحتوي على كحول"
+      },
+      "gluten_free": {
+        "yes": "خالٍ من الغلوتين",
+        "no": "يحتوي على الغلوتين"
+      },
+      "dairy_free": {
+        "yes": "خالٍ من الألبان",
+        "no": "يحتوي على الألبان"
+      },
+      "keto": {
+        "yes": "مناسب للكيتو",
+        "no": "غير مناسب للكيتو"
+      },
+      "low_carb": {
+        "yes": "قليل الكربوهيدرات"
+      },
+      "high_protein": {
+        "yes": "غني بالبروتين"
+      }
+    },
+    "why": {
+      "items": "بسبب: {items}",
+      "none_animal": "لا لحوم ولا أسماك ولا منتجات حيوانية في الوصفة المعتادة",
+      "none_meat": "لا لحوم ولا أسماك في الوصفة المعتادة",
+      "halal_note": "ليكون حلالًا يجب أن يكون اللحم مذبوحًا على الطريقة الإسلامية",
+      "no_gluten": "لا قمح ولا شعير ولا جاودار في الوصفة المعتادة",
+      "no_dairy": "لا حليب ولا جبن ولا زبدة ولا لبن في الوصفة المعتادة",
+      "carbs": "{carbs} غ كربوهيدرات لكل 100 غ",
+      "protein": "{protein} غ بروتين لكل 100 غ — {share}% من السعرات"
+    },
+    "allergen": {
+      "gluten": "الغلوتين",
+      "crustaceans": "القشريات",
+      "eggs": "البيض",
+      "fish": "السمك",
+      "peanuts": "الفول السوداني",
+      "soy": "الصويا",
+      "milk": "الحليب",
+      "nuts": "المكسرات",
+      "celery": "الكرفس",
+      "mustard": "الخردل",
+      "sesame": "السمسم",
+      "sulphites": "الكبريتيت",
+      "lupin": "الترمس",
+      "molluscs": "الرخويات"
+    }
   }
 }
