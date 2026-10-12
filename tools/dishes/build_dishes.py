@@ -241,7 +241,9 @@ def main():
     contents, skipped = {}, []
     for f in sorted((HERE / 'content').glob('*.json')):
         c = json.load(open(f, encoding='utf-8'))
-        if c['db_key'] not in db['dishes'] or c['db_key'] in dup or c.get('duplicate_of'):
+        # alcoholic drinks are not published: the site is about food
+        if c['db_key'] not in db['dishes'] or c['db_key'] in dup or c.get('duplicate_of') \
+                or 'alcohol' in db['dishes'][c['db_key']]['tags']:
             skipped.append(f.name)
             continue
         c['i18n'] = {l: v for l, v in c['i18n'].items() if l in ui}

@@ -30,7 +30,6 @@ def analyse(dish):
     allergens = {DB_ALLERGEN[a] for a in dish['allergens'] if a in DB_ALLERGEN}
     allergens |= {FLAG_ALLERGEN[f] for f in F if f in FLAG_ALLERGEN}
     allergen_src = {a: by({f for f, v in FLAG_ALLERGEN.items() if v == a}) for a in allergens}
-    alcohol = 'alcohol' in F or 'alcohol' in dish['allergens'] or 'alcohol' in dish['tags']
 
     labels = []
 
@@ -51,7 +50,7 @@ def analyse(dish):
     else:
         add('vegan', 'no', by(ANIMAL - {'unknown_animal'}))
 
-    # pork and alcohol (what halal and many other diets exclude first)
+    # pork (what halal and many other diets exclude first)
     bad = by({'pork', 'blood'})
     if bad:
         add('no_pork', 'no', bad)
@@ -59,10 +58,7 @@ def analyse(dish):
         add('no_pork', 'check', by({'unknown_meat', 'gelatin'}))
     else:
         add('no_pork', 'yes', meat=bool(F & MEAT))
-    if alcohol:
-        add('no_alcohol', 'no', by({'alcohol'}))
-    else:
-        add('no_alcohol', 'yes')
+    # no alcohol label: the site is about food, so drinks and alcohol are left out altogether
 
     # free-from
     add('gluten_free', 'no' if 'gluten' in allergens else 'yes', allergen_src.get('gluten', []))
