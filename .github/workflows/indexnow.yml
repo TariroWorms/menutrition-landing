@@ -44,9 +44,15 @@ jobs:
           if os.environ.get('ALL') == 'true' or not os.environ.get('BEFORE') or set(os.environ['BEFORE']) == {'0'}:
               urls = [u for f in ('sitemap.xml', 'sitemap-dishes.xml') for u in re.findall(r'<loc>([^<]+)</loc>', open(f).read())]
           else:
-              files = subprocess.run(['git', 'diff', '--name-only', '--diff-filter=AM', os.environ['BEFORE'], 'HEAD'],
-                                     capture_output=True, text=True).stdout.split()
-              urls = [site + '/' + (f[:-len('index.html')]) for f in files if f.endswith('index.html')]
+              # the checkout is shallow: fetch the commit the push started from, so the diff covers every pushed commit
+              subprocess.run(['git', 'fetch', '--depth=1', 'origin', os.environ['BEFORE']], check=False)
+              diff = subprocess.run(['git', 'diff', '--name-only', '--diff-filter=AM', os.environ['BEFORE'], 'HEAD'],
+                                    capture_output=True, text=True)
+              if diff.returncode != 0:   # cannot compare: send everything rather than nothing
+                  print('git diff failed:', diff.stderr.strip())
+                  urls = [u for f in ('sitemap.xml', 'sitemap-dishes.xml') for u in re.findall(r'<loc>([^<]+)</loc>', open(f).read())]
+              else:
+                  urls = [site + '/' + (f[:-len('index.html')]) for f in diff.stdout.split() if f.endswith('index.html')]
           urls = sorted(set(urls))
           print(len(urls), 'URLs')
           for i in range(0, len(urls), 10000):
