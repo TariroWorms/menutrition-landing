@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- "How we count" page (/dishes/how-we-count/ …), texts in method.json. Styles come from template.html. -->
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Как мы считаем калории, диеты и аллергены — Me Nutrition</title>
+<meta name="description" content="Откуда берутся калории и БЖУ на страницах блюд Me Nutrition, как определяются диеты и аллергены и как сделаны тексты и переводы." />
+<link rel="canonical" href="https://menutrition.app/ru/dishes/how-we-count/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/how-we-count/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/how-we-count/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/how-we-count/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/how-we-count/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/how-we-count/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/ru/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>RU</summary><div class="lm"><a href="/dishes/how-we-count/" hreflang="en">English</a><a href="/ru/dishes/how-we-count/" hreflang="ru" class="on">Русский</a><a href="/ar/dishes/how-we-count/" hreflang="ar">العربية</a><a href="/it/dishes/how-we-count/" hreflang="it">Italiano</a><a href="/el/dishes/how-we-count/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/ru/dishes/">Блюда</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Скачать</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/ru/">Главная</a> › <a href="/ru/dishes/">Блюда</a> › Как мы считаем</nav>
+  <h1>Как мы считаем</h1>
+  <p class="intro">На каждой странице блюда есть калории, белки, жиры и углеводы, диеты, аллергены, рецепт и короткая история. Рассказываем, откуда берётся каждая часть и где её пределы.</p>
+  <section><h2>Калории и БЖУ</h2><p>Цифры берутся из базы блюд <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> — тех же данных, которыми пользуется приложение, когда вы фотографируете еду. Для каждого блюда указаны калории, белки, жиры и углеводы на 100 г типичного рецепта, а его основные ингредиенты перечислены на странице.</p><p>«На порцию» — это значение на 100 г, умноженное на типичную порцию этого блюда, которая указана рядом (например, 350 г супа или 250 мл напитка). Значения округлены.</p></section><section><h2>Почему у вас может получиться иначе</h2><p>Одно и то же блюдо никогда не готовят одинаково: больше масла, жирнее соус или порция крупнее — и цифры меняются. Наши данные описывают типичный вариант, а не конкретный ресторан или домашний рецепт. В приложении можно поправить порцию или отметить, что вы съели только половину, — итог пересчитается.</p></section><section><h2>Диеты</h2><p>Пометки не пишутся вручную. Они определяются по постоянным правилам из ингредиентов типичного рецепта, и у каждой пометки указана причина — ингредиенты, которые её определили.</p><ul class="mlist"><li>Вегетарианское — без мяса, рыбы, морепродуктов и желатина.</li><li>Веганское — совсем без продуктов животного происхождения, в том числе молочного, яиц и мёда.</li><li>Без свинины — без свинины и продуктов из неё; для халяль мясо также должно быть забито по правилам халяль.</li><li>Без глютена / без молочного — этих аллергенов нет в типичном рецепте.</li><li>Подходит для кето — не больше 5 г углеводов на 100 г; мало углеводов — до 10 г.</li><li>Много белка — не меньше 10 г белка на 100 г и не меньше 25% калорий из белка.</li><li>«Проверьте» — когда ингредиент может быть разным (например, бульон или желатин), мы так и пишем, а не угадываем.</li></ul></section><section><h2>Аллергены</h2><p>Мы отмечаем 14 основных пищевых аллергенов, принятых в ЕС (глютен, ракообразные, яйца, рыба, арахис, соя, молоко, орехи, сельдерей, горчица, кунжут, сульфиты, люпин и моллюски), если они входят в типичный рецепт.</p><p>Рецепты бывают разными, а следовые количества мы не учитываем, поэтому при аллергии всегда уточняйте у того, кто готовил.</p></section><section><h2>Рецепты, история и переводы</h2><p>Описания, рецепты, советы и истории подготовлены с помощью ИИ и сверены с базой: те же ингредиенты, сходящиеся количества и никаких обещаний для здоровья. Даты и происхождение — только то, что широко задокументировано.</p><p>Переводы на другие языки тоже сделаны с помощью ИИ с английского текста. Если на вашем языке что-то звучит неверно, напишите нам — исправим.</p></section><section><h2>Не медицинский совет</h2><p>Цифры — это оценки для повседневного учёта питания, а не медицинская или диетологическая рекомендация. При лечебных диетах, аллергиях или диабете следуйте советам врача или диетолога.</p></section><section><h2>Нашли ошибку?</h2><p>Напишите на <a href="mailto:support@menutrition.app">support@menutrition.app</a>, указав адрес страницы и что не так, — мы исправим данные и на сайте, и в приложении.</p></section>
+  <p class="disclaimer">База блюд v13 · страница обновлена в октябре 2026</p>
+</main>
+<footer><div class="wrap">
+  <a href="/ru/">Главная</a><a href="/privacy">Конфиденциальность</a><a href="/terms">Условия</a>
+  <span class="langs"><a href="/dishes/how-we-count/" hreflang="en">English</a><a href="/ru/dishes/how-we-count/" hreflang="ru">Русский</a><a href="/ar/dishes/how-we-count/" hreflang="ar">العربية</a><a href="/it/dishes/how-we-count/" hreflang="it">Italiano</a><a href="/el/dishes/how-we-count/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

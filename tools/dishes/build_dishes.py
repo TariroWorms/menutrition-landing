@@ -68,6 +68,7 @@ def fill(template, values):
     return re.sub(r'\{\{([\w.]+)\}\}', rep, template)
 
 
+METHOD_LINK = {}   # filled from method.json in main()
 NAMES = {}   # ingredient_names.json: {key: {lang: name}} — fills the gaps of the app's dictionary
 
 
@@ -202,6 +203,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'tips': ''.join(f'<li>{esc(x)}</li>' for x in t['tips']),
         'history': esc(t['history']), 'cta_p': brand(esc(U['cta_p'].format(name=t.get('name_inline', t['name'])))),
         'related': related, 'source': brand(esc(U['source'].format(version=db['version']))),
+        'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
         'langs': ''.join(f'<a href="{path(l, c["slug"])}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
         'langmenu': lang_menu(lang, langs, lambda l: path(l, c['slug'])),
     }
@@ -236,10 +238,37 @@ def index_page(lang, items, ui, langs, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(U['index_title']),
         'description': esc(U['index_meta']), 'url': SITE + path(lang), 'hreflang': hreflang,
         'home': home(lang), 'index': path(lang), 'groups': html_groups, 'countries': countries,
+        'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
         'langs': ''.join(f'<a href="{path(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
         'langmenu': lang_menu(lang, langs, path),
     }
     values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+    return fill(template, values)
+
+
+METHOD = 'how-we-count'   # /dishes/how-we-count/ — how the numbers, labels and texts are made (method.json)
+
+
+def method_page(lang, M, ui, langs, db, template):
+    U, T = ui[lang], M[lang]
+    sections = ''
+    for sec in T['sections']:
+        sections += f'<section><h2>{esc(sec["h"])}</h2>' + ''.join(f'<p>{brand(esc(x))}</p>' for x in sec['p'])
+        if sec.get('list'):
+            sections += '<ul class="mlist">' + ''.join(f'<li>{esc(x)}</li>' for x in sec['list']) + '</ul>'
+        sections += '</section>'
+    sections = sections.replace('support@menutrition.app', '<a href="mailto:support@menutrition.app">support@menutrition.app</a>')
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, METHOD)}" />' for l in langs)
+    values = {
+        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(T['title']),
+        'description': esc(T['meta']), 'url': SITE + path(lang, METHOD), 'hreflang': hreflang,
+        'home': home(lang), 'index': path(lang), 'sections': sections,
+        'updated': esc(T['updated'].format(version=db['version'])),
+        'langs': ''.join(f'<a href="{path(l, METHOD)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+        'langmenu': lang_menu(lang, langs, lambda l: path(l, METHOD)),
+    }
+    values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+    values.update({f'm.{k}': brand(esc(v)) for k, v in T.items() if isinstance(v, str)})
     return fill(template, values)
 
 
@@ -255,6 +284,10 @@ def main():
     template = (HERE / 'template.html').read_text(encoding='utf-8')
     style = re.search(r'<style>.*?</style>', template, re.S).group(0)
     index_tpl = (HERE / 'index_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    method_tpl = (HERE / 'method_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    M = json.load(open(HERE / 'method.json', encoding='utf-8'))
+    global METHOD_LINK
+    METHOD_LINK = {l: M[l]['link'] for l in M}
     NAMES.update(json.load(open(HERE / 'ingredient_names.json', encoding='utf-8'))
                  if (HERE / 'ingredient_names.json').exists() else {})
     dup = json.load(open(HERE / 'duplicates.json', encoding='utf-8'))
@@ -291,6 +324,11 @@ def main():
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(index_page(lang, [c for c in contents.values() if lang in c['i18n']], ui, langs, db, index_tpl),
                      encoding='utf-8')
+        pages.append(p)
+    for lang in [l for l in langs if l in M]:
+        p = out / path(lang, METHOD).strip('/') / 'index.html'
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(method_page(lang, M, ui, [l for l in langs if l in M], db, method_tpl), encoding='utf-8')
         pages.append(p)
     # search index for the "write what you ate" box on the home page: every dish has numbers,
     # published dishes also have page links

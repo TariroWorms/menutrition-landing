@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- "How we count" page (/dishes/how-we-count/ …), texts in method.json. Styles come from template.html. -->
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{title}} — Me Nutrition</title>
+<meta name="description" content="{{description}}" />
+<link rel="canonical" href="{{url}}" />
+{{hreflang}}
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+{{style}}
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="{{home}}"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav">{{langmenu}}<a class="hl" href="{{index}}">{{ui.dishes}}</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">{{ui.download}}</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="{{home}}">{{ui.home}}</a> › <a href="{{index}}">{{ui.dishes}}</a> › {{m.link}}</nav>
+  <h1>{{m.h1}}</h1>
+  <p class="intro">{{m.intro}}</p>
+  {{sections}}
+  <p class="disclaimer">{{updated}}</p>
+</main>
+<footer><div class="wrap">
+  <a href="{{home}}">{{ui.home}}</a><a href="/privacy">{{ui.privacy}}</a><a href="/terms">{{ui.terms}}</a>
+  <span class="langs">{{langs}}</span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>
