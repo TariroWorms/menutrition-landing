@@ -45,6 +45,19 @@ def home(lang):
     return f'/{lang}/' if lang != 'en' and (HERE.parent.parent / lang / 'index.html').exists() else '/'
 
 
+GLOBE = ('<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" '
+         'stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/>'
+         '<path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>')
+
+
+def lang_menu(lang, langs, href):
+    """Header language switcher: the languages this page exists in."""
+    if len(langs) < 2:
+        return ''
+    items = ''.join(f'<a href="{href(l)}" hreflang="{l}"{" class=\"on\"" if l == lang else ""}>{LANG_NAMES[l]}</a>' for l in langs)
+    return f'<details class="langbox"><summary aria-label="Language">{GLOBE}{lang.upper()}</summary><div class="lm">{items}</div></details>'
+
+
 def fill(template, values):
     """{{key}} and {{ui.key}} placeholders; values are already HTML."""
     def rep(m):
@@ -190,6 +203,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'history': esc(t['history']), 'cta_p': brand(esc(U['cta_p'].format(name=t.get('name_inline', t['name'])))),
         'related': related, 'source': brand(esc(U['source'].format(version=db['version']))),
         'langs': ''.join(f'<a href="{path(l, c["slug"])}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+        'langmenu': lang_menu(lang, langs, lambda l: path(l, c['slug'])),
     }
     values.update({f'ui.{k}': esc(v) for k, v in U.items() if isinstance(v, str)})
     return fill(template, values)
@@ -223,6 +237,7 @@ def index_page(lang, items, ui, langs, db, template):
         'description': esc(U['index_meta']), 'url': SITE + path(lang), 'hreflang': hreflang,
         'home': home(lang), 'index': path(lang), 'groups': html_groups, 'countries': countries,
         'langs': ''.join(f'<a href="{path(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+        'langmenu': lang_menu(lang, langs, path),
     }
     values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
     return fill(template, values)

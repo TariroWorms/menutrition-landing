@@ -89,6 +89,14 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
 footer a{text-decoration:none}
 .langs a{margin-inline-end:10px}
 .hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
 .hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
 .search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
 .search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
@@ -107,7 +115,7 @@ footer a{text-decoration:none}
 <body>
 <header><div class="wrap">
   <a class="brand" href="/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
-  <nav class="hnav"><a class="hl" href="/el/dishes/">Πιάτα</a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>EL</summary><div class="lm"><a href="/dishes/tonno-alla-siciliana/" hreflang="en">English</a><a href="/ar/dishes/tonno-alla-siciliana/" hreflang="ar">العربية</a><a href="/it/dishes/tonno-alla-siciliana/" hreflang="it">Italiano</a><a href="/el/dishes/tonno-alla-siciliana/" hreflang="el" class="on">Ελληνικά</a></div></details><a class="hl" href="/el/dishes/">Πιάτα</a>
   <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Λήψη</a></nav>
 </div></header>
 
@@ -173,5 +181,6 @@ footer a{text-decoration:none}
   <a href="/">Αρχική</a><a href="/privacy">Απόρρητο</a><a href="/terms">Όροι</a>
   <span class="langs"><a href="/dishes/tonno-alla-siciliana/" hreflang="en">English</a><a href="/ar/dishes/tonno-alla-siciliana/" hreflang="ar">العربية</a><a href="/it/dishes/tonno-alla-siciliana/" hreflang="it">Italiano</a><a href="/el/dishes/tonno-alla-siciliana/" hreflang="el">Ελληνικά</a></span>
 </div></footer>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
 </body>
 </html>
