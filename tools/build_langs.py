@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build the 20 language pages (/de/, /ru/, /ar/ …) from index.html.
 
-index.html (English) stays the single source: markup, styles, scripts and the I18N
+index.html (English) stays the single source of markup, styles and scripts; i18n.json holds the
 dictionary. For every language this script writes <lang>/index.html with the text
 already translated in the HTML (search engines see it without running JS), its own
 <title>, description, canonical and Open Graph tags, and the same hreflang block.
@@ -133,7 +133,7 @@ def put_dishes(doc, lang):
 def main():
     path = ROOT / 'index.html'
     src = path.read_text(encoding='utf-8')
-    i18n = json.loads(re.search(r'const I18N = (\{.*?\});\n', src, re.S).group(1))
+    i18n = json.loads((ROOT / 'i18n.json').read_text(encoding='utf-8'))   # all translations; index.html carries none
     langs = ['en'] + list(i18n)
 
     # hreflang block, shared by every page
