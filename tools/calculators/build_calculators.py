@@ -78,7 +78,7 @@ SCRIPT = r'''<script>
        +'<p>'+R.maintain+': <b>'+nf(r50(tdee))+'</b> '+R.kcal_day+'</p><p>'+R.bmr+': <b>'+nf(r50(bmr))+'</b> '+R.kcal_day+'</p>'+(warn?'<p class="warn">'+warn+'</p>':'');}
     else if(kind==='protein-calculator'){if(!(w>25))return;var r=[[0.8,0.8],[1.0,1.2],[1.4,2.0],[1.6,2.0]][+f.elements.goal.value];
       var lo=Math.round(w*r[0]),hi=Math.round(w*r[1]),txt=lo===hi?nf(lo):nf(lo)+'–'+nf(hi);
-      h='<div>'+R.target+'</div><div class="big">'+txt+'<small>'+R.g_day+'</small></div><p>'+R.per_kg.replace('{lo}',nf(r[0],1)).replace('{hi}',nf(r[1],1))+'</p><p>'+R.per_meal.replace('{n}',nf(Math.round(hi/3.5)))+'</p>';}
+      h='<div>'+R.target+'</div><div class="big">'+txt+'<small>'+R.g_day+'</small></div><p>'+(r[0]===r[1]?R.per_kg.replace(/\{lo\}\s*[–-]\s*\{hi\}/,'{lo}'):R.per_kg).replace('{lo}',nf(r[0],1)).replace('{hi}',nf(r[1],1))+'</p><p>'+R.per_meal.replace('{n}',nf(Math.round(hi/3.5)))+'</p>';}
     else{if(!(w>25&&hc>100))return;var m=hc/100,b=w/(m*m),c=b<18.5?0:b<25?1:b<30?2:3,lo=18.5*m*m,hi=24.9*m*m;
       if(units==='i'){lo/=0.45359237;hi/=0.45359237;}
       h='<div>'+R.target+'</div><div class="big">'+nf(b,1)+'</div><p><b>'+R.cats[c]+'</b></p><p>'+R.range.replace('{lo}',nf(lo)).replace('{hi}',nf(hi)).replace('{unit}',units==='m'?R.kg:R.lb)+'</p>';}
