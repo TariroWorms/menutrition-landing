@@ -37,6 +37,7 @@
 <script>
 (function(){
   var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
   var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
   var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
   q.addEventListener('input',function(){
