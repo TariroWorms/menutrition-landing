@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Calculator page (/calculators/<slug>/ …), texts in tools/calculators/calculators.json. Styles: tools/dishes/template.html + features + below. -->
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{title}} — Me Nutrition</title>
+<meta name="description" content="{{description}}" />
+<link rel="canonical" href="{{url}}" />
+{{hreflang}}
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+{{style}}
+<style>
+.fhero{display:grid;gap:24px;align-items:center;margin-top:6px}
+.fshot{display:block;width:100%;max-width:340px;height:auto;margin:6px auto 0;border-radius:28px;box-shadow:0 26px 70px -28px rgba(39,35,32,.45)}
+.steps{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px}
+.steps li{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:18px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.steps .sn{flex:none;width:34px;height:34px;border-radius:50%;background:var(--teal);color:#fff;font-weight:800;display:grid;place-items:center}
+.steps .ie{margin-inline-start:auto;font-size:28px;flex:none}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin-top:10px}
+.faq summary{cursor:pointer;font-weight:700;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";float:right;color:var(--teal);font-weight:800}
+[dir=rtl] .faq summary::after{float:left}
+.faq[open] summary::after{content:"−"}
+.faq p{margin:10px 0 0;color:var(--muted)}
+.calc{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px;margin-top:24px}
+.calc .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:14px}
+.calc label{display:block;font-size:13px;font-weight:700;color:var(--muted);margin-bottom:6px}
+.calc input,.calc select{width:100%;height:46px;border-radius:12px;border:1px solid var(--line);background:#fff;padding:0 12px;font:inherit;font-size:16px;color:var(--ink)}
+.calc .seg{display:flex;gap:6px;flex-wrap:wrap}.calc .seg button{flex:1;height:42px;border-radius:12px;border:1px solid var(--line);background:#fff;font:inherit;font-weight:700;cursor:pointer;color:var(--ink)}
+.calc .seg button.on{background:var(--teal);border-color:var(--teal);color:#fff}
+.calc .go{width:100%;height:50px;border:0;border-radius:999px;background:#1d1b19;color:#fff;font:inherit;font-weight:800;font-size:16px;cursor:pointer;margin-top:4px}
+.calc .two{display:flex;gap:8px}
+.cres{margin-top:18px;padding:18px;border-radius:18px;background:var(--teal-soft);display:none}
+.cres.show{display:block}.cres .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1.1}
+.cres .big small{font-size:16px;margin-inline-start:6px}.cres p{margin:6px 0 0}.cres .warn{color:var(--red);font-weight:600}
+.howp p{margin:0 0 12px}
+.flinks{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-weight:700}
+.flinks a{color:var(--teal);text-decoration:none}
+.fidx a{align-items:flex-start}.fidx a div span{font-weight:500;margin-top:4px}
+@media (min-width:760px){.fhero.has-shot{grid-template-columns:1.1fr .9fr}}
+</style>
+{{jsonld}}
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="{{home}}"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav">{{langmenu}}<a class="hl" href="{{index}}">{{u.calculators}}</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">{{u.download}}</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="{{home}}">{{u.home}}</a> › <a href="{{index}}">{{u.calculators}}</a></nav>
+  <h1><span class="gh">{{emoji}}</span>{{name}}</h1>
+  <p class="intro">{{lead}}</p>
+  {{calc}}
+  <p class="note" style="margin-top:12px">{{u.note}}</p>
+  <section class="fsec howp"><h2>{{u.how_h}}</h2>{{how}}</section>
+  <section class="fsec"><h2>{{u.faq_h}}</h2>{{faq}}</section>
+  <section class="cta"><h2>{{u.cta_h}}</h2><p>{{u.cta_p}}</p><a href="{{store}}" target="_blank" rel="noopener">{{u.cta_btn}}</a></section>
+  <section class="fsec sources"><h2>{{u.sources_h}}</h2><ul class="mlist">{{sources}}</ul></section>
+  <section class="fsec"><h2>{{u.more_h}}</h2>{{more}}<div class="flinks"><a href="{{dishes}}">{{u.dishes_link}}</a><a href="{{guides}}">{{u.guides_link}}</a></div></section>
+</main>
+{{script}}
+<footer><div class="wrap">
+  <a href="{{home}}">{{u.home}}</a><a href="/privacy">{{u.privacy}}</a><a href="/terms">{{u.terms}}</a>
+  <span class="langs">{{langs}}</span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

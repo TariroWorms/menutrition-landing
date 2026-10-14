@@ -109,6 +109,15 @@ def fmt(n):
     return f'{n:g}'
 
 
+def origin_link(lang, c, t):
+    """Origin text; the country part links to its cuisine page when there is one in this language."""
+    cu = CUISINE_BY_COUNTRY.get(c['i18n']['en']['origin'].split('·')[0].strip())
+    if not cu or lang not in CUISINE_LANGS.get(cu, ()):
+        return esc(t['origin'])
+    country, sep, rest = t['origin'].partition('·')
+    return f'<a href="{path(lang, "cuisine/" + cu)}">{esc(country.strip())}</a>' + (f' · {esc(rest.strip())}' if sep else '')
+
+
 def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     t = c['i18n'][lang]
     U = ui[lang]
@@ -206,7 +215,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
         'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
         'home': home(lang), 'index': path(lang), 'emoji': c['emoji'],
-        'name': esc(t['name']), 'origin': esc(t['origin']), 'intro': esc(t['intro']),
+        'name': esc(t['name']), 'origin': origin_link(lang, c, t), 'intro': esc(t['intro']),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
         'per_portion': esc(U['perPortionMl' if ml else 'perPortion'].format(portion=portion)), 'macros': macros,
         'labels': ''.join(rows), 'allergens': allergens,
@@ -225,6 +234,13 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     return fill(template, values)
 
 
+def group_title(lang, country_en, label):
+    cu = CUISINE_BY_COUNTRY.get(country_en)
+    if cu and lang in CUISINE_LANGS.get(cu, ()):
+        return f'<a href="{path(lang, "cuisine/" + cu)}">{esc(label)}</a>'
+    return esc(label)
+
+
 def index_page(lang, items, ui, langs, db, template):
     """All dishes grouped by country (biggest cuisines first), a country jump list and a search box."""
     U = ui[lang]
@@ -239,7 +255,7 @@ def index_page(lang, items, ui, langs, db, template):
     card = lambda c: (f'<a href="{path(lang, c["slug"])}" data-k="{esc(c["db_key"].replace("_", " "))}"><span class="em">{c["emoji"]}</span>'
                       f'<div>{esc(c["i18n"][lang]["name"])}<span>{round(db["dishes"][c["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>')
     html_groups = ''.join(
-        f'<section class="group"><h2 id="{anchor(k)}">{esc(label(k))}<small>{len(groups[k])}</small></h2><div class="related">'
+        f'<section class="group"><h2 id="{anchor(k)}">{group_title(lang, k, label(k))}<small>{len(groups[k])}</small></h2><div class="related">'
         + ''.join(card(c) for c in sorted(groups[k], key=lambda c: c['i18n'][lang]['name'])) + '</div></section>'
         for k in order)
     chip = lambda k: f'<a href="#{anchor(k)}">{esc(label(k))}<small>{len(groups[k])}</small></a>'
@@ -395,6 +411,60 @@ def guides_index(lang, G, ui, langs, contents, db, template):
     return fill(template, values)
 
 
+
+CUISINE_LANGS = {}   # cuisine slug -> languages, filled in main(); dish pages and the dish list link to these
+CUISINE_BY_COUNTRY = {}   # English country (as in "origin") -> cuisine slug
+
+
+def country_of(c):
+    return c['i18n']['en']['origin'].split('·')[0].strip()
+
+
+def cuisine_page(lang, slug, CU, ui, langs, contents, db, template):
+    U, CL, T, meta = ui[lang], CU['_ui'][lang], CU[slug][lang], CU[slug]
+    dl = lambda c: lang if lang in c['i18n'] else 'en'
+    found = [c for c in contents.values() if country_of(c) == meta['match']]
+    d = lambda c: db['dishes'][c['db_key']]
+    card = lambda c, sub: (f'<a href="{path(dl(c), c["slug"])}"><span class="em">{c["emoji"]}</span>'
+                           f'<div>{esc(c["i18n"][dl(c)]["name"])}<span>{sub}</span></div></a>')
+    kcal = lambda c: f'{round(d(c)["kcal"])} {esc(CL["per100"])}'
+    light = sorted(found, key=lambda c: d(c)['kcal'])[:8]
+    heavy = sorted(found, key=lambda c: -d(c)['kcal'])[:8]
+    prot = sorted([c for c in found if any(l['id'] == 'high_protein' for l in analyse(d(c))['labels'])],
+                  key=lambda c: -d(c)['protein_g'])[:8]
+    lists = ''
+    for h, items, sub in ((CL['lightest_h'], light, kcal), (CL['filling_h'], heavy, kcal),
+                          (CL['protein_h'], prot, lambda c: f'{fmt(d(c)["protein_g"])} {esc(CL["protein_g"])}')):
+        if items:
+            lists += f'<section><h2>{esc(h)}</h2><div class="related">{"".join(card(c, sub(c)) for c in items)}</div></section>'
+    veg = sum(any(l['id'] == 'vegetarian' and l['status'] == 'yes' for l in analyse(d(c))['labels']) for c in found)
+    avg = round(sum(d(c)['kcal'] for c in found) / len(found))
+    stats = (f'<div><b>{len(found)}</b><span>{esc(CL["dishes_n"])}</span></div><div><b>{avg}</b><span>{esc(CL["avg"])}</span></div>'
+             f'<div><b>{round(100 * veg / len(found))}%</b><span>{esc(CL["veg"])}</span></div>')
+    allc = ''.join(f'<a class="chip" href="{path(dl(c), c["slug"])}">{c["emoji"]} {esc(c["i18n"][dl(c)]["name"])}</a>'
+                   for c in sorted(found, key=lambda c: c['i18n'][dl(c)]['name']))
+    others = ''.join(f'<a class="chip" href="{path(lang, "cuisine/" + s)}">{CU[s]["emoji"]} {esc(CU[s][lang]["name"])}</a>'
+                     for s in CU['_order'] if s != slug and lang in CU[s])
+    plain = lambda x: re.sub(r'\*\*', '', x)
+    jsonld = json.dumps({'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': plain(T['title']),
+                         'description': plain(T['meta']).replace('{n}', str(len(found))), 'inLanguage': lang,
+                         'url': SITE + path(lang, 'cuisine/' + slug)}, ensure_ascii=False)
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, "cuisine/" + slug)}" />' for l in langs)
+    values = {
+        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(plain(T['title'])),
+        'description': esc(plain(T['meta']).replace('{n}', str(len(found)))), 'url': SITE + path(lang, 'cuisine/' + slug),
+        'hreflang': hreflang, 'home': home(lang), 'index': path(lang), 'jsonld': f'<script type="application/ld+json">{jsonld}</script>',
+        'emoji': meta['emoji'], 'name': esc(T['name']), 'intro': brand(md(T['intro'])), 'tip': brand(md(T['tip'])),
+        'stats': stats, 'lists': lists, 'all_h': esc(CL['all_h'].format(n=len(found))), 'all': allc, 'others': others,
+        'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
+        'langs': ''.join(f'<a href="{path(l, "cuisine/" + slug)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+        'langmenu': lang_menu(lang, langs, lambda l: path(l, 'cuisine/' + slug)),
+    }
+    values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+    values.update({f'c.{k}': esc(v) for k, v in CL.items()})
+    return fill(template, values)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--db', default=None)
@@ -411,6 +481,10 @@ def main():
     M = json.load(open(HERE / 'method.json', encoding='utf-8'))
     G = json.load(open(HERE / 'guides.json', encoding='utf-8'))
     GUIDE_LANGS.update({k: {l for l in v if l in G['_ui'] and l in ui} for k, v in G.items() if not k.startswith('_')})
+    CU = json.load(open(HERE / 'cuisines.json', encoding='utf-8'))
+    CU['_order'] = [k for k in CU if not k.startswith('_')]
+    CUISINE_LANGS.update({k: {l for l in CU[k] if l in CU['_ui'] and l in ui} for k in CU['_order']})
+    CUISINE_BY_COUNTRY.update({CU[k]['match']: k for k in CU['_order']})
     global METHOD_LINK
     METHOD_LINK = {l: M[l]['link'] for l in M}
     NAMES.update(json.load(open(HERE / 'ingredient_names.json', encoding='utf-8'))
@@ -456,6 +530,14 @@ def main():
         p.write_text(method_page(lang, M, ui, [l for l in langs if l in M], db, method_tpl), encoding='utf-8')
         pages.append(p)
     guide_tpl = (HERE / 'guide_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    cu_tpl = (HERE / 'cuisine_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    for slug in CU['_order']:
+        cu_langs = [l for l in langs if l in CUISINE_LANGS[slug]]
+        for lang in cu_langs:
+            p = out / path(lang, 'cuisine/' + slug).strip('/') / 'index.html'
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(cuisine_page(lang, slug, CU, ui, cu_langs, contents, db, cu_tpl), encoding='utf-8')
+            pages.append(p)
     gi_tpl = (HERE / 'guides_index_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
     gi_langs = [l for l in langs if l in G['_ui'] and 'index_h' in G['_ui'][l]]
     for lang in gi_langs:

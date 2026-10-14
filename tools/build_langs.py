@@ -129,6 +129,8 @@ def put_dishes(doc, lang):
     feat = f'/{lang}/features/' if lang != 'en' and (ROOT / lang / 'features' / 'index.html').exists() else '/features/'
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-features-link', lambda m: f'href="{feat}"{m.group(1) or ""} data-features-link', doc)
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-feature-link="([^"]+)"', lambda m: f'href="{feat}{m.group(2)}/"{m.group(1) or ""} data-feature-link="{m.group(2)}"', doc)
+    calc = f'/{lang}/calculators/' if lang != 'en' and (ROOT / lang / 'calculators' / 'index.html').exists() else '/calculators/'
+    doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-calc-link', lambda m: f'href="{calc}"{m.group(1) or ""} data-calc-link', doc)
     guides = f'/{lang}/guides/' if lang != 'en' and (ROOT / lang / 'guides' / 'index.html').exists() else '/guides/'
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-guides-link', lambda m: f'href="{guides}"{m.group(1) or ""} data-guides-link', doc)
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-method-link', lambda m: f'href="{method}"{m.group(1) or ""} data-method-link', doc)

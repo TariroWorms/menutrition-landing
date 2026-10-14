@@ -1,0 +1,232 @@
+{
+  "_order": [
+    "calorie-calculator",
+    "protein-calculator",
+    "bmi-calculator"
+  ],
+  "_meta": {
+    "calorie-calculator": {
+      "emoji": "🔥"
+    },
+    "protein-calculator": {
+      "emoji": "💪"
+    },
+    "bmi-calculator": {
+      "emoji": "⚖️"
+    }
+  },
+  "_ui": {
+    "en": {
+      "calculators": "Calculators",
+      "home": "Home",
+      "download": "Download",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "metric": "Metric (kg, cm)",
+      "imperial": "Imperial (lb, ft)",
+      "sex": "Sex",
+      "male": "Male",
+      "female": "Female",
+      "age": "Age",
+      "years": "years",
+      "height": "Height",
+      "weight": "Weight",
+      "cm": "cm",
+      "kg": "kg",
+      "ft": "ft",
+      "in": "in",
+      "lb": "lb",
+      "activity": "Activity",
+      "calculate": "Calculate",
+      "how_h": "How it is calculated",
+      "faq_h": "Questions",
+      "sources_h": "Sources",
+      "more_h": "More calculators",
+      "note": "Estimates for healthy adults. Not medical advice — if you are pregnant, breastfeeding, under 18 or have a medical condition, ask your doctor or dietitian.",
+      "cta_h": "Track it every day with Me Nutrition",
+      "cta_p": "Snap your meals — the app counts calories and protein against your daily target. 3 days free, then a subscription you can cancel anytime in App Store settings.",
+      "cta_btn": "Download on the App Store",
+      "dishes_link": "Calories for 2,400+ dishes →",
+      "guides_link": "Diets & allergies guide →",
+      "index_title": "Free nutrition calculators: calories, protein, BMI",
+      "index_meta": "Free calculators: daily calories for weight loss or maintenance, daily protein and BMI — with clear explanations of how each is calculated.",
+      "index_h": "Calculators",
+      "index_p": "Quick, free calculators for your daily calories, protein and BMI."
+    }
+  },
+  "calorie-calculator": {
+    "en": {
+      "name": "Calorie calculator",
+      "title": "Calorie calculator: how many calories do I need a day?",
+      "meta": "Free calorie calculator: find how many calories you need a day to lose, maintain or gain weight — based on the Mifflin–St Jeor equation and your activity.",
+      "lead": "Find out how many calories you burn in a day and how much to eat to lose, keep or gain weight.",
+      "form": {
+        "activity_levels": [
+          "Little or no exercise",
+          "Light exercise 1–3 days a week",
+          "Moderate exercise 3–5 days a week",
+          "Hard exercise 6–7 days a week",
+          "Very hard exercise or a physical job"
+        ],
+        "goal": "Goal",
+        "goals": [
+          "Lose weight",
+          "Lose weight slowly",
+          "Keep my weight",
+          "Gain weight"
+        ]
+      },
+      "result": {
+        "target": "Your daily target",
+        "kcal_day": "kcal a day",
+        "maintain": "To keep your weight",
+        "bmr": "At complete rest (BMR)",
+        "pace_lose": "about 0.5 kg (1 lb) a week",
+        "pace_slow": "about 0.25 kg (½ lb) a week",
+        "pace_gain": "a slow, steady gain",
+        "floor": "We don't suggest going below {floor} kcal a day without medical supervision, so the target is set to {floor}."
+      },
+      "how": [
+        "**Basal metabolic rate (BMR)** — the energy your body uses at complete rest — is estimated with the **Mifflin–St Jeor equation**: 10 × weight (kg) + 6.25 × height (cm) − 5 × age, then + 5 for men or − 161 for women.",
+        "BMR is multiplied by an **activity factor** (from 1.2 for little exercise to 1.9 for very hard daily exercise) to estimate the calories you burn in a day — your **maintenance calories**.",
+        "For weight loss we subtract about 500 kcal a day (roughly 0.5 kg or 1 lb a week) or 250 kcal for a gentler pace; for weight gain we add about 300 kcal. _Real results vary: water, hormones and how precisely you track all play a part._"
+      ],
+      "faq": [
+        [
+          "How accurate is a calorie calculator?",
+          "It gives a good starting point, not an exact number. Equations like Mifflin–St Jeor are close for most people but can be off by about 10% either way. Track your weight for 2–3 weeks and adjust the target if it moves faster or slower than expected."
+        ],
+        [
+          "How many calories should I eat to lose weight?",
+          "A deficit of about 500 kcal a day below your maintenance calories usually leads to a loss of about 0.5 kg (1 lb) a week. Slower is easier to keep up and protects muscle."
+        ],
+        [
+          "Is it safe to eat very few calories?",
+          "Very low-calorie diets should only be followed under medical supervision. For most adults that means not going below about 1,200 kcal (women) or 1,500 kcal (men) a day on your own."
+        ],
+        [
+          "Why does my weight change from day to day?",
+          "Day-to-day changes are mostly water, salt and food in your gut. Look at the trend over weeks rather than at a single weigh-in."
+        ]
+      ],
+      "sources": [
+        [
+          "Mifflin MD et al. A new predictive equation for resting energy expenditure. Am J Clin Nutr, 1990",
+          "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+        ],
+        [
+          "NHS — Healthy weight",
+          "https://www.nhs.uk/live-well/healthy-weight/"
+        ]
+      ]
+    }
+  },
+  "protein-calculator": {
+    "en": {
+      "name": "Protein calculator",
+      "title": "Protein calculator: how much protein do I need a day?",
+      "meta": "Free protein calculator: how many grams of protein you need a day based on your weight, age and training — with the ranges used by EFSA, WHO and sports nutrition experts.",
+      "lead": "Work out how many grams of protein you need a day — for everyday health, for older age or if you train.",
+      "form": {
+        "goal": "Your situation",
+        "goals": [
+          "Everyday health, little exercise",
+          "Age 65 or older",
+          "Regular training (strength or endurance)",
+          "Losing weight while training"
+        ]
+      },
+      "result": {
+        "target": "Protein a day",
+        "g_day": "g a day",
+        "per_meal": "About {n} g per meal over 3–4 meals",
+        "per_kg": "{lo}–{hi} g per kg of body weight"
+      },
+      "how": [
+        "For healthy adults, EFSA and the WHO set the population reference intake at about **0.8 g of protein per kg of body weight a day** — enough for nearly everyone who is not very active.",
+        "Expert groups suggest **1.0–1.2 g/kg for adults over 65**, to help keep muscle with age, and the International Society of Sports Nutrition suggests **1.4–2.0 g/kg for people who train regularly**. When losing weight while training, intakes at the upper end of that range help protect muscle.",
+        "The result is a daily range; spreading it over 3–4 meals is a practical way to reach it. _If you have kidney disease, ask your doctor before increasing protein._"
+      ],
+      "faq": [
+        [
+          "Is too much protein harmful?",
+          "For healthy people, intakes up to about 2 g per kg of body weight are generally considered safe. If you have kidney disease, your doctor will advise on a limit."
+        ],
+        [
+          "Which foods are high in protein?",
+          "Meat, poultry, fish, eggs, dairy, tofu, tempeh, beans, lentils, nuts and seeds. Me Nutrition marks dishes with at least 10 g of protein per 100 g and 25% of calories from protein as “High protein”."
+        ],
+        [
+          "Should I use my current weight or my goal weight?",
+          "For most people the current weight is fine. If you have a lot of weight to lose, using a healthy target weight gives a more realistic number."
+        ],
+        [
+          "Do I need protein shakes?",
+          "Not necessarily — most people can reach their target with regular food. Shakes are just a convenient option."
+        ]
+      ],
+      "sources": [
+        [
+          "EFSA — Dietary reference values for protein (2012)",
+          "https://doi.org/10.2903/j.efsa.2012.2557"
+        ],
+        [
+          "Jäger R et al. ISSN position stand: protein and exercise. J Int Soc Sports Nutr, 2017",
+          "https://doi.org/10.1186/s12970-017-0177-8"
+        ]
+      ]
+    }
+  },
+  "bmi-calculator": {
+    "en": {
+      "name": "BMI calculator",
+      "title": "BMI calculator: check your body mass index",
+      "meta": "Free BMI calculator for adults: enter your height and weight to see your body mass index, the WHO category and the healthy weight range for your height.",
+      "lead": "Enter your height and weight to see your body mass index and the healthy weight range for your height.",
+      "form": {},
+      "result": {
+        "target": "Your BMI",
+        "range": "Healthy weight for your height: {lo}–{hi} {unit}",
+        "cats": [
+          "Underweight",
+          "Healthy weight",
+          "Overweight",
+          "Obesity"
+        ]
+      },
+      "how": [
+        "**BMI = weight (kg) ÷ height (m)²**. For adults the WHO uses these ranges: below 18.5 underweight, **18.5–24.9 healthy weight**, 25–29.9 overweight, 30 and above obesity.",
+        "BMI is a quick screening tool, not a diagnosis. **It does not measure body fat directly**: muscular people can have a high BMI, and older people can have a normal BMI with little muscle.",
+        "_Some health services use lower thresholds for people of South Asian, Chinese, other Asian, Middle Eastern, Black African or African-Caribbean background. BMI for children and teenagers is calculated differently, and it does not apply during pregnancy._"
+      ],
+      "faq": [
+        [
+          "What is a healthy BMI?",
+          "For most adults, a BMI from 18.5 to 24.9 is considered a healthy weight."
+        ],
+        [
+          "Is BMI accurate?",
+          "It is a useful first check for most adults, but it doesn't tell muscle from fat. Waist size is another simple measure: a large waist is linked to higher health risks even at a normal BMI."
+        ],
+        [
+          "Can I use it for children?",
+          "No. Children's BMI is compared against growth charts for their age and sex — ask your doctor or use a child-specific tool."
+        ],
+        [
+          "My BMI is high — what should I do?",
+          "A good first step is to talk to your doctor. A small, steady calorie deficit, more movement and tracking what you eat help most people lose weight safely."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Obesity and overweight (fact sheet)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — What is the body mass index (BMI)?",
+          "https://www.nhs.uk/conditions/obesity/"
+        ]
+      ]
+    }
+  }
+}
