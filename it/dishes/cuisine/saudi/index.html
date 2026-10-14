@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- Cuisine page (/dishes/cuisine/<slug>/ …), texts in cuisines.json, dishes from the database. Styles come from template.html. -->
+<html lang="it" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Calorie della cucina saudita: i piatti più leggeri e sazianti — Me Nutrition</title>
+<meta name="description" content="Calorie, proteine e diete (vegetariana, vegana, senza glutine) per 41 piatti della cucina saudita: trova i più leggeri e sazianti." />
+<link rel="canonical" href="https://menutrition.app/it/dishes/cuisine/saudi/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/cuisine/saudi/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/cuisine/saudi/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/cuisine/saudi/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/cuisine/saudi/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/cuisine/saudi/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.origin a{color:inherit}.group h2 a{text-decoration:none}.group h2 a:hover{text-decoration:underline;color:var(--teal)}
+.cstats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.cstats div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;text-align:center}.cstats b{display:block;font-size:28px;color:var(--teal);line-height:1.1}.cstats span{font-size:13px;color:var(--muted);font-weight:600}
+.tipbox{background:var(--gold-soft);border-radius:22px;padding:18px 20px}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Calorie della cucina saudita: i piatti più leggeri e sazianti", "description": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per 41 piatti della cucina saudita: trova i più leggeri e sazianti.", "inLanguage": "it", "url": "https://menutrition.app/it/dishes/cuisine/saudi/"}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/it/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>IT</summary><div class="lm"><a href="/dishes/cuisine/saudi/" hreflang="en">English</a><a href="/ru/dishes/cuisine/saudi/" hreflang="ru">Русский</a><a href="/ar/dishes/cuisine/saudi/" hreflang="ar">العربية</a><a href="/it/dishes/cuisine/saudi/" hreflang="it" class="on">Italiano</a><a href="/el/dishes/cuisine/saudi/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/it/dishes/">Piatti</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Scarica</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/it/">Home</a> › <a href="/it/dishes/">Piatti</a> › Cucine del mondo</nav>
+  <h1><span class="gh">🇸🇦</span>Cucina saudita</h1>
+  <p class="intro">La cucina saudita ruota attorno a riso, carne (soprattutto agnello e pollo), datteri, pane e spezie aromatiche come cardamomo, zafferano e chiodi di garofano. Piatti di riso e carne come kabsa e mandi si servono spesso su grandi vassoi da condividere.</p>
+  <div class="cstats"><div><b>41</b><span>piatti</span></div><div><b>210</b><span>kcal medie per 100 g</span></div><div><b>34%</b><span>vegetariani</span></div></div>
+  <section><h2>I piatti più leggeri</h2><div class="related"><a href="/it/dishes/shorbat-shofan/"><span class="em">🥣</span><div>Shorbat shofan (zuppa d&#x27;avena)<span>70 kcal / 100 g</span></div></a><a href="/it/dishes/margoog/"><span class="em">🍲</span><div>Margoog<span>115 kcal / 100 g</span></div></a><a href="/it/dishes/jareesh/"><span class="em">🥣</span><div>Jareesh con pollo<span>130 kcal / 100 g</span></div></a><a href="/it/dishes/saleeg/"><span class="em">🍚</span><div>Saleeg di pollo<span>130 kcal / 100 g</span></div></a><a href="/it/dishes/qursan/"><span class="em">🍲</span><div>Qursan<span>140 kcal / 100 g</span></div></a><a href="/it/dishes/jareesh-lamb/"><span class="em">🥣</span><div>Jareesh con agnello<span>154 kcal / 100 g</span></div></a><a href="/it/dishes/kabsa-vegetable/"><span class="em">🥕</span><div>Kabsa di verdure<span>155 kcal / 100 g</span></div></a><a href="/it/dishes/saleeg-lamb/"><span class="em">🍚</span><div>Saleeg di agnello<span>162 kcal / 100 g</span></div></a></div></section><section><h2>I piatti più sostanziosi</h2><div class="related"><a href="/it/dishes/mutabbaq/"><span class="em">🥙</span><div>Mutabbaq<span>260 kcal / 100 g</span></div></a><a href="/it/dishes/chicken-shawarma-sandwich-saudi/"><span class="em">🌯</span><div>Shawarma di pollo saudita<span>250 kcal / 100 g</span></div></a><a href="/it/dishes/mixed-grill-riyadh/"><span class="em">🍢</span><div>Grigliata mista (stile Riad)<span>224 kcal / 100 g</span></div></a><a href="/it/dishes/shish-tawook-garlic/"><span class="em">🧄</span><div>Shish tawook con salsa all&#x27;aglio<span>202 kcal / 100 g</span></div></a><a href="/it/dishes/mashawi-hashi/"><span class="em">🍢</span><div>Grigliata mista di cammello (mashawi hashi)<span>200 kcal / 100 g</span></div></a><a href="/it/dishes/mofatah-lamb/"><span class="em">🍖</span><div>Mofatah di agnello<span>200 kcal / 100 g</span></div></a><a href="/it/dishes/kabsa-lamb/"><span class="em">🍖</span><div>Kabsa di agnello<span>195 kcal / 100 g</span></div></a><a href="/it/dishes/mufattah/"><span class="em">🍚</span><div>Mufattah<span>195 kcal / 100 g</span></div></a></div></section><section><h2>I più ricchi di proteine</h2><div class="related"><a href="/it/dishes/mashawi-hashi/"><span class="em">🍢</span><div>Grigliata mista di cammello (mashawi hashi)<span>22 g di proteine / 100 g</span></div></a><a href="/it/dishes/hashi-kofta/"><span class="em">🍢</span><div>Kofta di cammello<span>21 g di proteine / 100 g</span></div></a><a href="/it/dishes/mixed-grill-riyadh/"><span class="em">🍢</span><div>Grigliata mista (stile Riad)<span>20 g di proteine / 100 g</span></div></a><a href="/it/dishes/shish-tawook-garlic/"><span class="em">🧄</span><div>Shish tawook con salsa all&#x27;aglio<span>20 g di proteine / 100 g</span></div></a><a href="/it/dishes/kibda-hamsa/"><span class="em">🍳</span><div>Kibda hamsa (fegato saltato saudita)<span>18 g di proteine / 100 g</span></div></a><a href="/it/dishes/hashi-haneeth/"><span class="em">🍖</span><div>Haneeth di cammello<span>13 g di proteine / 100 g</span></div></a><a href="/it/dishes/madfoon-chicken/"><span class="em">🍗</span><div>Madfoon di pollo<span>13 g di proteine / 100 g</span></div></a><a href="/it/dishes/mufattah/"><span class="em">🍚</span><div>Mufattah<span>13 g di proteine / 100 g</span></div></a></div></section>
+  <section class="gs tipbox"><h2><span class="gi">💡</span>Consiglio</h2><p>Con i vassoi condivisi è difficile valutare la porzione, e <strong>riso e grassi aggiunti</strong> apportano gran parte delle calorie: serviti una quantità misurata e aggiungi un&#x27;insalata.</p></section>
+  <section><h2>Tutti i 41 piatti</h2><div class="chips gl"><a class="chip" href="/it/dishes/aish-abu-laham/">🫓 Aish abu laham (pane saudita con carne)</a><a class="chip" href="/it/dishes/areika/">🍯 Areeka</a><a class="chip" href="/it/dishes/ajwa-dates/">🌴 Datteri Ajwa</a><a class="chip" href="/it/dishes/khalas-dates/">🌴 Datteri khalas</a><a class="chip" href="/it/dishes/sukkari-dates/">🌴 Datteri sukkari</a><a class="chip" href="/it/dishes/foul-tamees/">🫘 Foul con tamees</a><a class="chip" href="/it/dishes/mixed-grill-riyadh/">🍢 Grigliata mista (stile Riad)</a><a class="chip" href="/it/dishes/mashawi-hashi/">🍢 Grigliata mista di cammello (mashawi hashi)</a><a class="chip" href="/it/dishes/hashi-haneeth/">🍖 Haneeth di cammello</a><a class="chip" href="/it/dishes/jareesh-lamb/">🥣 Jareesh con agnello</a><a class="chip" href="/it/dishes/jareesh/">🥣 Jareesh con pollo</a><a class="chip" href="/it/dishes/kabsa-lamb/">🍖 Kabsa di agnello</a><a class="chip" href="/it/dishes/kabsa-hashi/">🍛 Kabsa di cammello (kabsa hashi)</a><a class="chip" href="/it/dishes/kabsa-shrimp/">🍤 Kabsa di gamberi</a><a class="chip" href="/it/dishes/kabsa-fish/">🐟 Kabsa di pesce</a><a class="chip" href="/it/dishes/kabsa/">🍗 Kabsa di pollo</a><a class="chip" href="/it/dishes/kabsa-vegetable/">🥕 Kabsa di verdure</a><a class="chip" href="/it/dishes/kibda-hamsa/">🍳 Kibda hamsa (fegato saltato saudita)</a><a class="chip" href="/it/dishes/kleija/">🍪 Kleija</a><a class="chip" href="/it/dishes/hashi-kofta/">🍢 Kofta di cammello</a><a class="chip" href="/it/dishes/madfoon-chicken/">🍗 Madfoon di pollo</a><a class="chip" href="/it/dishes/madgooga/">🌴 Madgooga</a><a class="chip" href="/it/dishes/margoog/">🍲 Margoog</a><a class="chip" href="/it/dishes/masoub/">🍌 Masoub</a><a class="chip" href="/it/dishes/mathlootha/">🍚 Mathlootha</a><a class="chip" href="/it/dishes/mofatah-lamb/">🍖 Mofatah di agnello</a><a class="chip" href="/it/dishes/mufattah/">🍚 Mufattah</a><a class="chip" href="/it/dishes/mutabbaq/">🥙 Mutabbaq</a><a class="chip" href="/it/dishes/mutabbaq-cheese/">🧀 Mutabbaq al formaggio</a><a class="chip" href="/it/dishes/tamees-bread/">🫓 Pane tamees</a><a class="chip" href="/it/dishes/qursan/">🍲 Qursan</a><a class="chip" href="/it/dishes/ruz-bukhari-chicken/">🍗 Ruz bukhari con pollo</a><a class="chip" href="/it/dishes/saleeg-lamb/">🍚 Saleeg di agnello</a><a class="chip" href="/it/dishes/saleeg/">🍚 Saleeg di pollo</a><a class="chip" href="/it/dishes/samboosa-meat/">🥟 Samboosa di carne</a><a class="chip" href="/it/dishes/samboosa-potato/">🥟 Samboosa di patate</a><a class="chip" href="/it/dishes/samboosa-vegetable/">🥟 Samboosa di verdure</a><a class="chip" href="/it/dishes/chicken-shawarma-sandwich-saudi/">🌯 Shawarma di pollo saudita</a><a class="chip" href="/it/dishes/shish-tawook-garlic/">🧄 Shish tawook con salsa all&#x27;aglio</a><a class="chip" href="/it/dishes/shorbat-shofan/">🥣 Shorbat shofan (zuppa d&#x27;avena)</a><a class="chip" href="/it/dishes/sobia/">🥤 Sobia</a></div></section>
+  <section><h2>Altre cucine</h2><div class="chips gl"><a class="chip" href="/it/dishes/cuisine/italian/">🇮🇹 Cucina italiana</a><a class="chip" href="/it/dishes/cuisine/french/">🇫🇷 Cucina francese</a><a class="chip" href="/it/dishes/cuisine/japanese/">🇯🇵 Cucina giapponese</a><a class="chip" href="/it/dishes/cuisine/turkish/">🇹🇷 Cucina turca</a><a class="chip" href="/it/dishes/cuisine/indian/">🇮🇳 Cucina indiana</a><a class="chip" href="/it/dishes/cuisine/levantine/">🧆 Cucina levantina</a><a class="chip" href="/it/dishes/cuisine/american/">🇺🇸 Cucina americana</a><a class="chip" href="/it/dishes/cuisine/chinese/">🇨🇳 Cucina cinese</a><a class="chip" href="/it/dishes/cuisine/greek/">🇬🇷 Cucina greca</a><a class="chip" href="/it/dishes/cuisine/thai/">🇹🇭 Cucina thailandese</a><a class="chip" href="/it/dishes/cuisine/mexican/">🇲🇽 Cucina messicana</a><a class="chip" href="/it/dishes/cuisine/spanish/">🇪🇸 Cucina spagnola</a><a class="chip" href="/it/dishes/cuisine/swiss/">🇨🇭 Cucina svizzera</a><a class="chip" href="/it/dishes/cuisine/korean/">🇰🇷 Cucina coreana</a><a class="chip" href="/it/dishes/cuisine/lebanese/">🇱🇧 Cucina libanese</a><a class="chip" href="/it/dishes/cuisine/german/">🇩🇪 Cucina tedesca</a><a class="chip" href="/it/dishes/cuisine/vietnamese/">🇻🇳 Cucina vietnamita</a><a class="chip" href="/it/dishes/cuisine/egyptian/">🇪🇬 Cucina egiziana</a><a class="chip" href="/it/dishes/cuisine/gulf/">🍚 Cucina del Golfo</a><a class="chip" href="/it/dishes/cuisine/indonesian/">🇮🇩 Cucina indonesiana</a><a class="chip" href="/it/dishes/cuisine/moroccan/">🇲🇦 Cucina marocchina</a><a class="chip" href="/it/dishes/cuisine/serbian/">🇷🇸 Cucina serba</a><a class="chip" href="/it/dishes/cuisine/portuguese/">🇵🇹 Cucina portoghese</a><a class="chip" href="/it/dishes/cuisine/yemeni/">🇾🇪 Cucina yemenita</a><a class="chip" href="/it/dishes/cuisine/peruvian/">🇵🇪 Cucina peruviana</a><a class="chip" href="/it/dishes/cuisine/persian/">🇮🇷 Cucina persiana</a><a class="chip" href="/it/dishes/cuisine/iraqi/">🇮🇶 Cucina irachena</a><a class="chip" href="/it/dishes/cuisine/austrian/">🇦🇹 Cucina austriaca</a><a class="chip" href="/it/dishes/cuisine/british/">🇬🇧 Cucina britannica</a><a class="chip" href="/it/dishes/cuisine/polish/">🇵🇱 Cucina polacca</a><a class="chip" href="/it/dishes/cuisine/balkan/">🥙 Cucina balcanica</a></div></section>
+  <p class="disclaimer">I valori sono stime per 100 g di una ricetta tipica; le versioni casalinghe e da ristorante variano. Diete e allergeni sono ricavati dagli ingredienti di una ricetta tipica: chiedi sempre conferma a chi ha cucinato. Non è un consiglio medico. <a href="/it/dishes/how-we-count/">Come calcoliamo →</a></p>
+</main>
+<footer><div class="wrap">
+  <a href="/it/">Home</a><a href="/privacy">Privacy</a><a href="/terms">Termini</a>
+  <span class="langs"><a href="/dishes/cuisine/saudi/" hreflang="en">English</a><a href="/ru/dishes/cuisine/saudi/" hreflang="ru">Русский</a><a href="/ar/dishes/cuisine/saudi/" hreflang="ar">العربية</a><a href="/it/dishes/cuisine/saudi/" hreflang="it">Italiano</a><a href="/el/dishes/cuisine/saudi/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

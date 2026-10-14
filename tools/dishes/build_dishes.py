@@ -428,9 +428,11 @@ def cuisine_page(lang, slug, CU, ui, langs, contents, db, template):
     card = lambda c, sub: (f'<a href="{path(dl(c), c["slug"])}"><span class="em">{c["emoji"]}</span>'
                            f'<div>{esc(c["i18n"][dl(c)]["name"])}<span>{sub}</span></div></a>')
     kcal = lambda c: f'{round(d(c)["kcal"])} {esc(CL["per100"])}'
-    light = sorted(found, key=lambda c: d(c)['kcal'])[:8]
-    heavy = sorted(found, key=lambda c: -d(c)['kcal'])[:8]
-    prot = sorted([c for c in found if any(l['id'] == 'high_protein' for l in analyse(d(c))['labels'])],
+    food = [c for c in found if 'drink' not in d(c)['tags']]
+    meals = [c for c in food if not {'dessert', 'sweet', 'snack', 'bread'} & set(d(c)['tags'])]
+    light = sorted(food, key=lambda c: d(c)['kcal'])[:8]
+    heavy = sorted(meals, key=lambda c: -d(c)['kcal'])[:8]
+    prot = sorted([c for c in food if any(l['id'] == 'high_protein' for l in analyse(d(c))['labels'])],
                   key=lambda c: -d(c)['protein_g'])[:8]
     lists = ''
     for h, items, sub in ((CL['lightest_h'], light, kcal), (CL['filling_h'], heavy, kcal),

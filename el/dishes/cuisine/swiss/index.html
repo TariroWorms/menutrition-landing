@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- Cuisine page (/dishes/cuisine/<slug>/ …), texts in cuisines.json, dishes from the database. Styles come from template.html. -->
+<html lang="el" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Θερμίδες ελβετικής κουζίνας: ελαφριά και χορταστικά πιάτα — Me Nutrition</title>
+<meta name="description" content="Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για 60 πιάτα της ελβετικής κουζίνας." />
+<link rel="canonical" href="https://menutrition.app/el/dishes/cuisine/swiss/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/cuisine/swiss/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/cuisine/swiss/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/cuisine/swiss/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/cuisine/swiss/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/cuisine/swiss/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.origin a{color:inherit}.group h2 a{text-decoration:none}.group h2 a:hover{text-decoration:underline;color:var(--teal)}
+.cstats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.cstats div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;text-align:center}.cstats b{display:block;font-size:28px;color:var(--teal);line-height:1.1}.cstats span{font-size:13px;color:var(--muted);font-weight:600}
+.tipbox{background:var(--gold-soft);border-radius:22px;padding:18px 20px}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Θερμίδες ελβετικής κουζίνας: ελαφριά και χορταστικά πιάτα", "description": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για 60 πιάτα της ελβετικής κουζίνας.", "inLanguage": "el", "url": "https://menutrition.app/el/dishes/cuisine/swiss/"}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>EL</summary><div class="lm"><a href="/dishes/cuisine/swiss/" hreflang="en">English</a><a href="/ru/dishes/cuisine/swiss/" hreflang="ru">Русский</a><a href="/ar/dishes/cuisine/swiss/" hreflang="ar">العربية</a><a href="/it/dishes/cuisine/swiss/" hreflang="it">Italiano</a><a href="/el/dishes/cuisine/swiss/" hreflang="el" class="on">Ελληνικά</a></div></details><a class="hl" href="/el/dishes/">Πιάτα</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Λήψη</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/">Αρχική</a> › <a href="/el/dishes/">Πιάτα</a> › Κουζίνες του κόσμου</nav>
+  <h1><span class="gh">🇨🇭</span>Ελβετική κουζίνα</h1>
+  <p class="intro">Η ελβετική κουζίνα αντλεί από τη γερμανική, τη γαλλική και την ιταλική παράδοση, με σημαντικό ρόλο για το τυρί, τα γαλακτοκομικά, τις πατάτες και το ψωμί. Γνωστά πιάτα είναι το φοντί, η ρακλέτ, το ρέστι και το μούσλι.</p>
+  <div class="cstats"><div><b>60</b><span>πιάτα</span></div><div><b>239</b><span>μέσος όρος kcal ανά 100 γρ.</span></div><div><b>62%</b><span>χορτοφαγικά</span></div></div>
+  <section><h2>Τα πιο ελαφριά πιάτα</h2><div class="related"><a href="/el/dishes/basler-mehlsuppe/"><span class="em">🍲</span><div>Μπάζλερ Μέλζουπε (αλευρόσουπα της Βασιλείας)<span>85 kcal / 100 γρ.</span></div></a><a href="/el/dishes/bundner-gerstensuppe/"><span class="em">🍲</span><div>Κριθαρόσουπα του Γκραουμπύντεν<span>95 kcal / 100 γρ.</span></div></a><a href="/el/dishes/filet-perche/"><span class="em">🐟</span><div>Φιλέτα πέρκας (filets de perche)<span>120 kcal / 100 γρ.</span></div></a><a href="/el/dishes/birchermuesli/"><span class="em">🍎</span><div>Μπίρχερμίσλι (ελβετικό μούσλι με μήλο)<span>130 kcal / 100 γρ.</span></div></a><a href="/el/dishes/bircher-muesli/"><span class="em">🥣</span><div>Μούσλι Μπίρχερ από το βράδυ<span>150 kcal / 100 γρ.</span></div></a><a href="/el/dishes/rosti/"><span class="em">🥔</span><div>Ρέστι<span>150 kcal / 100 γρ.</span></div></a><a href="/el/dishes/riz-casimir/"><span class="em">🍛</span><div>Ρι Κασιμίρ<span>160 kcal / 100 γρ.</span></div></a><a href="/el/dishes/fondue-chinoise/"><span class="em">🫕</span><div>Φοντί σινουάζ<span>180 kcal / 100 γρ.</span></div></a></div></section><section><h2>Τα πιο χορταστικά πιάτα</h2><div class="related"><a href="/el/dishes/tete-de-moine-rosette/"><span class="em">🧀</span><div>Ροζέτες Τετ ντε Μουάν<span>350 kcal / 100 γρ.</span></div></a><a href="/el/dishes/croute-fromage-jambon/"><span class="em">🧀</span><div>Κρουτ ο φρομάζ με ζαμπόν<span>310 kcal / 100 γρ.</span></div></a><a href="/el/dishes/macaroni-chalet-jambon/"><span class="em">🧀</span><div>Μακαρόνια σαλέ με ζαμπόν<span>310 kcal / 100 γρ.</span></div></a><a href="/el/dishes/malakoff/"><span class="em">🧀</span><div>Μαλακόφ<span>310 kcal / 100 γρ.</span></div></a><a href="/el/dishes/raclette/"><span class="em">🧀</span><div>Ρακλέτ<span>300 kcal / 100 γρ.</span></div></a><a href="/el/dishes/cordon-bleu/"><span class="em">🍗</span><div>Κορντόν μπλε<span>280 kcal / 100 γρ.</span></div></a><a href="/el/dishes/croute-fromage/"><span class="em">🧀</span><div>Κρουτ ο φρομάζ<span>280 kcal / 100 γρ.</span></div></a><a href="/el/dishes/macaroni-chalet/"><span class="em">🧀</span><div>Μακαρόνια σαλέ<span>280 kcal / 100 γρ.</span></div></a></div></section><section><h2>Τα πλουσιότερα σε πρωτεΐνη</h2><div class="related"><a href="/el/dishes/viande-sechee/"><span class="em">🥩</span><div>Βιάντ σεσέ (αεροξηραμένο μοσχάρι)<span>40 γρ. πρωτεΐνη / 100 γρ.</span></div></a><a href="/el/dishes/tete-de-moine-rosette/"><span class="em">🧀</span><div>Ροζέτες Τετ ντε Μουάν<span>24 γρ. πρωτεΐνη / 100 γρ.</span></div></a><a href="/el/dishes/entrecote-cafe-de-paris/"><span class="em">🥩</span><div>Αντρεκότ Café de Paris<span>23 γρ. πρωτεΐνη / 100 γρ.</span></div></a><a href="/el/dishes/cordon-bleu/"><span class="em">🍗</span><div>Κορντόν μπλε<span>22 γρ. πρωτεΐνη / 100 γρ.</span></div></a><a href="/el/dishes/fondue-bacchus/"><span class="em">🫕</span><div>Φοντί Βάκχος<span>20 γρ. πρωτεΐνη / 100 γρ.</span></div></a><a href="/el/dishes/fondue-chinoise/"><span class="em">🫕</span><div>Φοντί σινουάζ<span>20 γρ. πρωτεΐνη / 100 γρ.</span></div></a><a href="/el/dishes/filet-perche/"><span class="em">🐟</span><div>Φιλέτα πέρκας (filets de perche)<span>18 γρ. πρωτεΐνη / 100 γρ.</span></div></a><a href="/el/dishes/fondue-fribourgeoise/"><span class="em">🧀</span><div>Φοντί του Φριβούργου<span>18 γρ. πρωτεΐνη / 100 γρ.</span></div></a></div></section>
+  <section class="gs tipbox"><h2><span class="gi">💡</span>Συμβουλή</h2><p>Τα πιάτα με λιωμένο τυρί όπως <strong>το φοντί και η ρακλέτ</strong> έχουν πολλές θερμίδες — προσθέστε λαχανικά ή σαλάτα και προσέξτε την ποσότητα ψωμιού και πατάτας.</p></section>
+  <section><h2>Όλα τα πιάτα: 60</h2><div class="chips gl"><a class="chip" href="/el/dishes/alpler-magronen/">🧀 Έλπλερμαγκρόνεν</a><a class="chip" href="/el/dishes/entrecote-cafe-de-paris/">🥩 Αντρεκότ Café de Paris</a><a class="chip" href="/el/dishes/vermicelles/">🌰 Βερμισέλ (γλυκό με πουρέ κάστανου)</a><a class="chip" href="/el/dishes/viande-sechee/">🥩 Βιάντ σεσέ (αεροξηραμένο μοσχάρι)</a><a class="chip" href="/el/dishes/chas-chuechli/">🥧 Ελβετικά ταρτάκια τυριού (Chäs-Chüechli)</a><a class="chip" href="/el/dishes/capuns/">🥬 Καπούνς</a><a class="chip" href="/el/dishes/papet-vaudois-classique/">🥘 Κλασικό παπέ βοντουά</a><a class="chip" href="/el/dishes/cholera-valais/">🥧 Κολέρα (πίτα του Βαλέ)</a><a class="chip" href="/el/dishes/cordon-bleu/">🍗 Κορντόν μπλε</a><a class="chip" href="/el/dishes/bundner-gerstensuppe/">🍲 Κριθαρόσουπα του Γκραουμπύντεν</a><a class="chip" href="/el/dishes/croute-champignons/">🍄 Κρουτ ο σαμπινιόν</a><a class="chip" href="/el/dishes/croute-fromage/">🧀 Κρουτ ο φρομάζ</a><a class="chip" href="/el/dishes/croute-fromage-jambon/">🧀 Κρουτ ο φρομάζ με ζαμπόν</a><a class="chip" href="/el/dishes/longeole/">🌭 Λονζόλ</a><a class="chip" href="/el/dishes/macaroni-chalet/">🧀 Μακαρόνια σαλέ</a><a class="chip" href="/el/dishes/macaroni-chalet-jambon/">🧀 Μακαρόνια σαλέ με ζαμπόν</a><a class="chip" href="/el/dishes/malakoff/">🧀 Μαλακόφ</a><a class="chip" href="/el/dishes/meringue-gruyere/">🍓 Μαρέγκες Γκρυγιέρ με διπλή κρέμα</a><a class="chip" href="/el/dishes/zurich-geschnetzeltes/">🍽️ Μοσχαράκι αλά Ζυρίχη (Γκεσνέτσελτες)</a><a class="chip" href="/el/dishes/bircher-muesli/">🥣 Μούσλι Μπίρχερ από το βράδυ</a><a class="chip" href="/el/dishes/basler-leckerli/">🍪 Μπάζλερ Λέκερλι</a><a class="chip" href="/el/dishes/basler-mehlsuppe/">🍲 Μπάζλερ Μέλζουπε (αλευρόσουπα της Βασιλείας)</a><a class="chip" href="/el/dishes/berner-platte/">🍖 Μπέρνερ Πλάτε</a><a class="chip" href="/el/dishes/biberli/">🍪 Μπίμπερλι</a><a class="chip" href="/el/dishes/birchermuesli/">🍎 Μπίρχερμίσλι (ελβετικό μούσλι με μήλο)</a><a class="chip" href="/el/dishes/nussgipfel/">🥐 Νούσγκιπφελ (ελβετικό κρουασάν με ξηρούς καρπούς)</a><a class="chip" href="/el/dishes/cholera-pie/">🥧 Πίτα Κολέρα</a><a class="chip" href="/el/dishes/papet-vaudois/">🥘 Παπέ βοντουά</a><a class="chip" href="/el/dishes/rosti/">🥔 Ρέστι</a><a class="chip" href="/el/dishes/rosti-appenzeller/">🧀 Ρέστι με άπεντσελερ</a><a class="chip" href="/el/dishes/rosti-emmental/">🧀 Ρέστι με έμενταλ</a><a class="chip" href="/el/dishes/rosti-gruyere/">🧀 Ρέστι με γκρουγιέρ</a><a class="chip" href="/el/dishes/rosti-saucisse/">🌭 Ρέστι με λουκάνικο μοσχαριού</a><a class="chip" href="/el/dishes/rosti-champignons/">🍄 Ρέστι με μανιτάρια</a><a class="chip" href="/el/dishes/rosti-lardons-oeuf/">🍳 Ρέστι με μπέικον και αυγό</a><a class="chip" href="/el/dishes/rosti-speck/">🥓 Ρέστι με σπεκ</a><a class="chip" href="/el/dishes/rosti-tomme/">🧀 Ρέστι με τομ του Βω (Tomme Vaudoise)</a><a class="chip" href="/el/dishes/rueblitorte/">🥕 Ρίμπλιτορτε (ελβετικό κέικ καρότου)</a><a class="chip" href="/el/dishes/raclette/">🧀 Ρακλέτ</a><a class="chip" href="/el/dishes/raclette-du-valais/">🧀 Ρακλέτ ντι Βαλέ</a><a class="chip" href="/el/dishes/riz-casimir/">🍛 Ρι Κασιμίρ</a><a class="chip" href="/el/dishes/tete-de-moine-rosette/">🧀 Ροζέτες Τετ ντε Μουάν</a><a class="chip" href="/el/dishes/saucisson-vaudois/">🌭 Σοσισόν βοντουά με παπέ</a><a class="chip" href="/el/dishes/soupe-chalet/">🥣 Σούπα του σαλέ</a><a class="chip" href="/el/dishes/engadiner-nusstorte/">🥧 Τάρτα καρυδιού του Ένγκαντιν</a><a class="chip" href="/el/dishes/nusstorte/">🥧 Τάρτα καρυδιού του Ένγκαντιν (Bündner Nusstorte)</a><a class="chip" href="/el/dishes/tirggel/">🍪 Τίργκελ</a><a class="chip" href="/el/dishes/zopf/">🍞 Τσοπφ</a><a class="chip" href="/el/dishes/zurcher-geschnetzeltes/">🍽️ Τσούρχερ Γκεσνέτσελτες με ρέστι</a><a class="chip" href="/el/dishes/filet-perche/">🐟 Φιλέτα πέρκας (filets de perche)</a><a class="chip" href="/el/dishes/fondue-bacchus/">🫕 Φοντί Βάκχος</a><a class="chip" href="/el/dishes/fondue-echalotes/">🧀 Φοντί με εσαλότ</a><a class="chip" href="/el/dishes/fondue-champignons/">🍄 Φοντί με μανιτάρια</a><a class="chip" href="/el/dishes/fondue-herbes/">🧀 Φοντί με μυρωδικά</a><a class="chip" href="/el/dishes/fondue-tomate/">🍅 Φοντί με ντομάτα</a><a class="chip" href="/el/dishes/fondue-truffe/">🧀 Φοντί με τρούφα</a><a class="chip" href="/el/dishes/fondue-moitie-moitie/">🧀 Φοντί μουατιέ-μουατιέ</a><a class="chip" href="/el/dishes/fondue-chinoise/">🫕 Φοντί σινουάζ</a><a class="chip" href="/el/dishes/fondue-fribourgeoise/">🧀 Φοντί του Φριβούργου</a><a class="chip" href="/el/dishes/fondue/">🫕 Φοντί τυριών</a></div></section>
+  <section><h2>Άλλες κουζίνες</h2><div class="chips gl"><a class="chip" href="/el/dishes/cuisine/italian/">🇮🇹 Ιταλική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/french/">🇫🇷 Γαλλική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/japanese/">🇯🇵 Ιαπωνική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/turkish/">🇹🇷 Τουρκική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/indian/">🇮🇳 Ινδική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/levantine/">🧆 Κουζίνα του Λεβάντε</a><a class="chip" href="/el/dishes/cuisine/american/">🇺🇸 Αμερικανική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/chinese/">🇨🇳 Κινεζική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/greek/">🇬🇷 Ελληνική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/thai/">🇹🇭 Ταϊλανδέζικη κουζίνα</a><a class="chip" href="/el/dishes/cuisine/mexican/">🇲🇽 Μεξικανική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/spanish/">🇪🇸 Ισπανική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/korean/">🇰🇷 Κορεατική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/lebanese/">🇱🇧 Λιβανέζικη κουζίνα</a><a class="chip" href="/el/dishes/cuisine/saudi/">🇸🇦 Σαουδαραβική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/german/">🇩🇪 Γερμανική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/vietnamese/">🇻🇳 Βιετναμέζικη κουζίνα</a><a class="chip" href="/el/dishes/cuisine/egyptian/">🇪🇬 Αιγυπτιακή κουζίνα</a><a class="chip" href="/el/dishes/cuisine/gulf/">🍚 Κουζίνα του Κόλπου</a><a class="chip" href="/el/dishes/cuisine/indonesian/">🇮🇩 Ινδονησιακή κουζίνα</a><a class="chip" href="/el/dishes/cuisine/moroccan/">🇲🇦 Μαροκινή κουζίνα</a><a class="chip" href="/el/dishes/cuisine/serbian/">🇷🇸 Σερβική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/portuguese/">🇵🇹 Πορτογαλική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/yemeni/">🇾🇪 Υεμενική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/peruvian/">🇵🇪 Περουβιανή κουζίνα</a><a class="chip" href="/el/dishes/cuisine/persian/">🇮🇷 Περσική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/iraqi/">🇮🇶 Ιρακινή κουζίνα</a><a class="chip" href="/el/dishes/cuisine/austrian/">🇦🇹 Αυστριακή κουζίνα</a><a class="chip" href="/el/dishes/cuisine/british/">🇬🇧 Βρετανική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/polish/">🇵🇱 Πολωνική κουζίνα</a><a class="chip" href="/el/dishes/cuisine/balkan/">🥙 Βαλκανική κουζίνα</a></div></section>
+  <p class="disclaimer">Οι τιμές είναι εκτιμήσεις ανά 100 γρ. για μια τυπική συνταγή· οι σπιτικές εκδοχές και του εστιατορίου διαφέρουν. Οι διατροφές και τα αλλεργιογόνα προκύπτουν από τα υλικά μιας τυπικής συνταγής — ρωτήστε πάντα όποιον μαγείρεψε. Δεν αποτελεί ιατρική συμβουλή. <a href="/el/dishes/how-we-count/">Πώς υπολογίζουμε →</a></p>
+</main>
+<footer><div class="wrap">
+  <a href="/">Αρχική</a><a href="/privacy">Απόρρητο</a><a href="/terms">Όροι</a>
+  <span class="langs"><a href="/dishes/cuisine/swiss/" hreflang="en">English</a><a href="/ru/dishes/cuisine/swiss/" hreflang="ru">Русский</a><a href="/ar/dishes/cuisine/swiss/" hreflang="ar">العربية</a><a href="/it/dishes/cuisine/swiss/" hreflang="it">Italiano</a><a href="/el/dishes/cuisine/swiss/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- Cuisine page (/dishes/cuisine/<slug>/ …), texts in cuisines.json, dishes from the database. Styles come from template.html. -->
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>سعرات المطبخ الفرنسي: الأطباق الأخف والأكثر إشباعًا — Me Nutrition</title>
+<meta name="description" content="السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الفرنسي. عدد الأطباق: 154." />
+<link rel="canonical" href="https://menutrition.app/ar/dishes/cuisine/french/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/cuisine/french/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/cuisine/french/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/cuisine/french/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/cuisine/french/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/cuisine/french/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.origin a{color:inherit}.group h2 a{text-decoration:none}.group h2 a:hover{text-decoration:underline;color:var(--teal)}
+.cstats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.cstats div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;text-align:center}.cstats b{display:block;font-size:28px;color:var(--teal);line-height:1.1}.cstats span{font-size:13px;color:var(--muted);font-weight:600}
+.tipbox{background:var(--gold-soft);border-radius:22px;padding:18px 20px}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "سعرات المطبخ الفرنسي: الأطباق الأخف والأكثر إشباعًا", "description": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الفرنسي. عدد الأطباق: 154.", "inLanguage": "ar", "url": "https://menutrition.app/ar/dishes/cuisine/french/"}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/ar/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>AR</summary><div class="lm"><a href="/dishes/cuisine/french/" hreflang="en">English</a><a href="/ru/dishes/cuisine/french/" hreflang="ru">Русский</a><a href="/ar/dishes/cuisine/french/" hreflang="ar" class="on">العربية</a><a href="/it/dishes/cuisine/french/" hreflang="it">Italiano</a><a href="/el/dishes/cuisine/french/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/ar/dishes/">الأطباق</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">تحميل</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/ar/">الرئيسية</a> › <a href="/ar/dishes/">الأطباق</a> › مطابخ العالم</nav>
+  <h1><span class="gh">🇫🇷</span>المطبخ الفرنسي</h1>
+  <p class="intro">يشتهر المطبخ الفرنسي بصلصاته والزبدة والقشدة والخبز والأجبان والمعجنات، ويستخدم تقنيات مثل الطهي البطيء والتحميص والخَبز. وتسير الوجبة الكلاسيكية بترتيب المقبلات (entrée) ثم الطبق الرئيسي (plat) ثم الجبن أو الحلوى.</p>
+  <div class="cstats"><div><b>154</b><span>طبق</span></div><div><b>223</b><span>متوسط السعرات لكل 100 غ</span></div><div><b>44%</b><span>نباتية</span></div></div>
+  <section><h2>أخف الأطباق</h2><div class="related"><a href="/ar/dishes/salade-verte/"><span class="em">🥬</span><div>سلطة خضراء (سالاد فيرت)<span>30 سعرة / 100 غ</span></div></a><a href="/ar/dishes/salade-melee/"><span class="em">🥗</span><div>سلطة مشكّلة (سالاد ميليه)<span>45 سعرة / 100 غ</span></div></a><a href="/ar/dishes/ratatouille-nicoise/"><span class="em">🍆</span><div>راتاتوي نيسواز (على طريقة التيان)<span>60 سعرة / 100 غ</span></div></a><a href="/ar/dishes/ratatouille/"><span class="em">🍆</span><div>راتاتوي<span>65 سعرة / 100 غ</span></div></a><a href="/ar/dishes/potage-crecy/"><span class="em">🥕</span><div>حساء كريسي (شوربة الجزر الفرنسية)<span>80 سعرة / 100 غ</span></div></a><a href="/ar/dishes/soupe-au-pistou/"><span class="em">🥣</span><div>حساء البيستو البروفنسالي<span>80 سعرة / 100 غ</span></div></a><a href="/ar/dishes/soupe-de-poisson/"><span class="em">🐟</span><div>حساء السمك البروفنسالي<span>80 سعرة / 100 غ</span></div></a><a href="/ar/dishes/moules-mariniere/"><span class="em">🦪</span><div>بلح البحر على طريقة البحّارة<span>85 سعرة / 100 غ</span></div></a></div></section><section><h2>أكثر الأطباق إشباعًا</h2><div class="related"><a href="/ar/dishes/foie-gras-terrine/"><span class="em">🦆</span><div>تيرين الفوا غرا<span>460 سعرة / 100 غ</span></div></a><a href="/ar/dishes/foie-gras-poele/"><span class="em">🦆</span><div>فوا غرا مشوّح<span>380 سعرة / 100 غ</span></div></a><a href="/ar/dishes/croque-madame/"><span class="em">🍳</span><div>كروك مدام<span>350 سعرة / 100 غ</span></div></a><a href="/ar/dishes/rillettes-de-porc/"><span class="em">🥖</span><div>ريليت لحم الخنزير<span>350 سعرة / 100 غ</span></div></a><a href="/ar/dishes/saucisse-seche/"><span class="em">🥓</span><div>سوسيس سيش (نقانق مجففة)<span>350 سعرة / 100 غ</span></div></a><a href="/ar/dishes/croque-monsieur/"><span class="em">🥪</span><div>كروك مسيو<span>300 سعرة / 100 غ</span></div></a><a href="/ar/dishes/pate-de-campagne/"><span class="em">🍖</span><div>باتيه دي كامباني (باتيه ريفي)<span>300 سعرة / 100 غ</span></div></a><a href="/ar/dishes/steak-au-poivre/"><span class="em">🥩</span><div>ستيك أو بوافر (ستيك بالفلفل الأسود)<span>300 سعرة / 100 غ</span></div></a></div></section><section><h2>الأغنى بالبروتين</h2><div class="related"><a href="/ar/dishes/escalope-poulet/"><span class="em">🍗</span><div>إسكالوب دجاج<span>28 غ بروتين / 100 غ</span></div></a><a href="/ar/dishes/jambon-cru/"><span class="em">🥓</span><div>جامبون كرو<span>28 غ بروتين / 100 غ</span></div></a><a href="/ar/dishes/escalope-veau/"><span class="em">🥩</span><div>إسكالوب لحم العجل<span>27 غ بروتين / 100 غ</span></div></a><a href="/ar/dishes/steak-cheval/"><span class="em">🥩</span><div>ستيك لحم الحصان<span>27 غ بروتين / 100 غ</span></div></a><a href="/ar/dishes/cote-de-boeuf/"><span class="em">🥩</span><div>كوت دو بوف (ستيك الضلع بالعظم)<span>26 غ بروتين / 100 غ</span></div></a><a href="/ar/dishes/confit-canard/"><span class="em">🦆</span><div>كونفي البط<span>25 غ بروتين / 100 غ</span></div></a><a href="/ar/dishes/entrecote/"><span class="em">🥩</span><div>أنتركوت<span>25 غ بروتين / 100 غ</span></div></a><a href="/ar/dishes/saucisse-seche/"><span class="em">🥓</span><div>سوسيس سيش (نقانق مجففة)<span>25 غ بروتين / 100 غ</span></div></a></div></section>
+  <section class="gs tipbox"><h2><span class="gi">💡</span>نصيحة</h2><p><strong>الزبدة والقشدة والعجين</strong> تضيف سعرات كثيرة إلى العديد من الأطباق الفرنسية، لذا اسأل عن الصلصة وفكّر في الخيارات المشوية أو المسلوقة.</p></section>
+  <section><h2>كل الأطباق: 154</h2><div class="chips gl"><a class="chip" href="/ar/dishes/hachis-parmentier/">🥔 آشي بارمونتييه</a><a class="chip" href="/ar/dishes/lapin-a-la-moutarde/">🐇 أرنب بصلصة الخردل</a><a class="chip" href="/ar/dishes/aligot/">🥔 أليغو</a><a class="chip" href="/ar/dishes/entrecote/">🥩 أنتركوت</a><a class="chip" href="/ar/dishes/escalope-veau-cream/">🍄 إسكالوب العجل بصلصة الكريمة والفطر</a><a class="chip" href="/ar/dishes/escalope-poulet/">🍗 إسكالوب دجاج</a><a class="chip" href="/ar/dishes/escalope-veau/">🥩 إسكالوب لحم العجل</a><a class="chip" href="/ar/dishes/eclair-au-chocolat/">🍫 إكلير بالشوكولاتة</a><a class="chip" href="/ar/dishes/eclair-au-cafe/">☕ إكلير بالقهوة</a><a class="chip" href="/ar/dishes/ile-flottante/">🍮 الجزيرة العائمة (إيل فلوتانت)</a><a class="chip" href="/ar/dishes/flamiche/">🥧 الفلاميش</a><a class="chip" href="/ar/dishes/pate-en-croute/">🥧 باتيه أون كروت</a><a class="chip" href="/ar/dishes/pate-de-campagne/">🍖 باتيه دي كامباني (باتيه ريفي)</a><a class="chip" href="/ar/dishes/paris-brest/">🍩 باريس بريست</a><a class="chip" href="/ar/dishes/bavette-echalotes/">🥩 بافيت بالشالوت (ستيك الخاصرة)</a><a class="chip" href="/ar/dishes/nicoise-pan-bagnat/">🥪 بان بانيا (ساندويتش نيس)</a><a class="chip" href="/ar/dishes/pain-perdu/">🍞 بان بيردو (الخبز الفرنسي المحمّص)</a><a class="chip" href="/ar/dishes/brandade-de-morue/">🐟 براندادة القد المملح</a><a class="chip" href="/ar/dishes/brandade/">🐟 براندادة مخبوزة</a><a class="chip" href="/ar/dishes/profiteroles/">🍨 بروفيترول</a><a class="chip" href="/ar/dishes/duck-a-lorange/">🦆 بط بالبرتقال</a><a class="chip" href="/ar/dishes/planchette-mixte/">🧀 بلانشيت ميكست (لوح لحوم مجففة وأجبان)</a><a class="chip" href="/ar/dishes/blanquette-de-poulet/">🍗 بلانكيت الدجاج</a><a class="chip" href="/ar/dishes/blanquette-de-veau/">🥘 بلانكيت لحم العجل</a><a class="chip" href="/ar/dishes/moules-mariniere/">🦪 بلح البحر على طريقة البحّارة</a><a class="chip" href="/ar/dishes/pot-au-feu/">🍲 بو-أو-فو (لحم بقر مسلوق بالخضار)</a><a class="chip" href="/ar/dishes/bourride/">🐟 بوريد</a><a class="chip" href="/ar/dishes/boeuf-bourguignon/">🍷 بوف بورغينيون</a><a class="chip" href="/ar/dishes/bouillabaisse/">🍲 بويابيس</a><a class="chip" href="/ar/dishes/piperade/">🫑 بيبيراد</a><a class="chip" href="/ar/dishes/petits-fours/">🍬 بيتي فور</a><a class="chip" href="/ar/dishes/pissaladiere/">🧅 بيسالاديير</a><a class="chip" href="/ar/dishes/bisque-de-homard/">🦞 بيسك الكركند</a><a class="chip" href="/ar/dishes/tarte-aux-pommes/">🍎 تارت التفاح الفرنسي</a><a class="chip" href="/ar/dishes/tarte-aux-fraises/">🍓 تارت الفراولة</a><a class="chip" href="/ar/dishes/tarte-au-citron/">🍋 تارت الليمون بالميرينغ</a><a class="chip" href="/ar/dishes/tarte-aux-mirabelles/">🥧 تارت برقوق الميرابيل</a><a class="chip" href="/ar/dishes/tarte-tatin/">🍎 تارت تاتان</a><a class="chip" href="/ar/dishes/tarte-tropezienne/">🍰 تارت تروبيزيان</a><a class="chip" href="/ar/dishes/tarte-flambee/">🍕 تارت فلامبيه (فلامكوخن)</a><a class="chip" href="/ar/dishes/tartiflette/">🥔 تارتيفليت</a><a class="chip" href="/ar/dishes/terrine-de-campagne/">🥩 تيرين الريف الفرنسي</a><a class="chip" href="/ar/dishes/foie-gras-terrine/">🦆 تيرين الفوا غرا</a><a class="chip" href="/ar/dishes/jambon-cru/">🥓 جامبون كرو</a><a class="chip" href="/ar/dishes/tomme-poelee/">🧀 جبن توم مقلي</a><a class="chip" href="/ar/dishes/serac-poele/">🧀 جبن سيراك مقلي مع سلطة</a><a class="chip" href="/ar/dishes/soupe-a-l-oignon/">🧅 حساء البصل الفرنسي</a><a class="chip" href="/ar/dishes/soupe-oignon/">🧅 حساء البصل المغطّى بالجبن</a><a class="chip" href="/ar/dishes/soupe-au-pistou/">🥣 حساء البيستو البروفنسالي</a><a class="chip" href="/ar/dishes/soupe-de-poisson/">🐟 حساء السمك البروفنسالي</a><a class="chip" href="/ar/dishes/veloute-de-champignons/">🍄 حساء الفطر الكريمي (فيلوتيه دو شامبينيون)</a><a class="chip" href="/ar/dishes/potage-parmentier/">🥣 حساء بارمونتييه (شوربة البطاطا والكراث)</a><a class="chip" href="/ar/dishes/potage-crecy/">🥕 حساء كريسي (شوربة الجزر الفرنسية)</a><a class="chip" href="/ar/dishes/escargots/">🐌 حلزون إسكارغو</a><a class="chip" href="/ar/dishes/escargots-bourguignonne/">🐌 حلزون على الطريقة البورغونية</a><a class="chip" href="/ar/dishes/pain-d-epices/">🍞 خبز التوابل الفرنسي (بان ديبيس)</a><a class="chip" href="/ar/dishes/poulet-chasseur/">🍗 دجاج الصياد (بوليه شاسور)</a><a class="chip" href="/ar/dishes/chaud-froid-de-poulet/">🍗 دجاج شو-فروا</a><a class="chip" href="/ar/dishes/poulet-basquaise/">🍗 دجاج على الطريقة الباسكية (بوليه باسكيز)</a><a class="chip" href="/ar/dishes/poulet-roti/">🍗 دجاج مشوي على الطريقة الفرنسية (بوليه روتي)</a><a class="chip" href="/ar/dishes/daube-provencale/">🍲 دوب بروفانسال</a><a class="chip" href="/ar/dishes/boeuf-en-daube/">🥘 دوب لحم البقر البروفنسالي</a><a class="chip" href="/ar/dishes/ratatouille/">🍆 راتاتوي</a><a class="chip" href="/ar/dishes/ratatouille-nicoise/">🍆 راتاتوي نيسواز (على طريقة التيان)</a><a class="chip" href="/ar/dishes/rack-agneau/">🍖 ريش ضأن مشوية</a><a class="chip" href="/ar/dishes/rillettes-de-porc/">🥖 ريليت لحم الخنزير</a><a class="chip" href="/ar/dishes/saint-honore/">🍰 سانت أونوريه</a><a class="chip" href="/ar/dishes/steak-au-poivre/">🥩 ستيك أو بوافر (ستيك بالفلفل الأسود)</a><a class="chip" href="/ar/dishes/steak-tartare/">🥩 ستيك تارتار</a><a class="chip" href="/ar/dishes/steak-cheval/">🥩 ستيك لحم الحصان</a><a class="chip" href="/ar/dishes/steak-frites/">🥩 ستيك مع بطاطس مقلية</a><a class="chip" href="/ar/dishes/salade-de-chevre-chaud/">🥗 سلطة جبن الماعز الدافئ</a><a class="chip" href="/ar/dishes/salade-verte/">🥬 سلطة خضراء (سالاد فيرت)</a><a class="chip" href="/ar/dishes/salade-paysanne/">🥗 سلطة ريفية (سالاد بايزان)</a><a class="chip" href="/ar/dishes/duck-confit-salad/">🥗 سلطة كونفيت البط</a><a class="chip" href="/ar/dishes/salade-landaise/">🥗 سلطة لانديز</a><a class="chip" href="/ar/dishes/salade-lyonnaise/">🥗 سلطة ليونيز</a><a class="chip" href="/ar/dishes/salade-melee/">🥗 سلطة مشكّلة (سالاد ميليه)</a><a class="chip" href="/ar/dishes/nicoise-salad/">🥗 سلطة نيسواز</a><a class="chip" href="/ar/dishes/salade-nicoise/">🥗 سلطة نيسواز</a><a class="chip" href="/ar/dishes/truite-amandine/">🐟 سمك السلمون المرقط باللوز</a><a class="chip" href="/ar/dishes/sole-meuniere/">🐟 سمك موسى مونيير</a><a class="chip" href="/ar/dishes/merguez-sandwich/">🌭 سندويتش ميرغيز</a><a class="chip" href="/ar/dishes/saucisse-seche/">🥓 سوسيس سيش (نقانق مجففة)</a><a class="chip" href="/ar/dishes/souffle-au-fromage/">🧀 سوفليه الجبن</a><a class="chip" href="/ar/dishes/souffle-chocolate/">🍫 سوفليه الشوكولاتة</a><a class="chip" href="/ar/dishes/souffle-cheese/">🧀 سوفليه بالجبن</a><a class="chip" href="/ar/dishes/socca/">🥞 سوكا</a><a class="chip" href="/ar/dishes/charlotte-aux-fraises/">🍓 شارلوت الفراولة</a><a class="chip" href="/ar/dishes/cotes-de-porc/">🥩 شرائح لحم الخنزير بصلصة الخردل</a><a class="chip" href="/ar/dishes/onion-soup-gratinee/">🧅 شوربة البصل الفرنسية بالجبن</a><a class="chip" href="/ar/dishes/choucroute/">🥬 شوكروت</a><a class="chip" href="/ar/dishes/choucroute-garnie/">🥬 شوكروت مزيّن</a><a class="chip" href="/ar/dishes/tomates-farcies/">🍅 طماطم محشوة على الطريقة الفرنسية</a><a class="chip" href="/ar/dishes/gateau-basque/">🍰 غاتو باسك</a><a class="chip" href="/ar/dishes/galette-champignons-fromage/">🍄 غاليت بالفطر والجبن</a><a class="chip" href="/ar/dishes/galette-saucisse/">🌭 غاليت بالنقانق</a><a class="chip" href="/ar/dishes/galette-bretonne/">🥞 غاليت بريتاني</a><a class="chip" href="/ar/dishes/galette-complete/">🍳 غاليت كومبليت</a><a class="chip" href="/ar/dishes/ris-de-veau/">🍖 غدة العجل (ري دو فو)</a><a class="chip" href="/ar/dishes/gratin-de-courgettes/">🥒 غراتان الكوسا</a><a class="chip" href="/ar/dishes/gratin-dauphinois/">🥔 غراتان دوفينوا</a><a class="chip" href="/ar/dishes/gougeres/">🧀 غوجير (كرات الجبن الفرنسية)</a><a class="chip" href="/ar/dishes/far-breton/">🍮 فار بريتون</a><a class="chip" href="/ar/dishes/gigot-d-agneau/">🍖 فخذ خروف مشوي على الطريقة الفرنسية (جيغو دانيو)</a><a class="chip" href="/ar/dishes/flammkuchen/">🍕 فلامكوخن (تارت فلامبيه)</a><a class="chip" href="/ar/dishes/flamiche-aux-poireaux/">🥧 فلاميش الكرّاث</a><a class="chip" href="/ar/dishes/foie-gras-poele/">🦆 فوا غرا مشوّح</a><a class="chip" href="/ar/dishes/vol-au-vent/">🥐 فول أو فان</a><a class="chip" href="/ar/dishes/fondant-au-chocolat/">🍫 فوندان الشوكولاتة</a><a class="chip" href="/ar/dishes/vichyssoise/">🥣 فيشيسواز (حساء الكراث والبطاطا البارد)</a><a class="chip" href="/ar/dishes/filet-mignon-poivre/">🥩 فيليه مينيون بالفلفل</a><a class="chip" href="/ar/dishes/financiers/">🧁 فينانسييه</a><a class="chip" href="/ar/dishes/cassoulet/">🫘 كاسوليه</a><a class="chip" href="/ar/dishes/canele-bordelais/">🧁 كانليه بوردو</a><a class="chip" href="/ar/dishes/croissant/">🥐 كرواسون</a><a class="chip" href="/ar/dishes/cheese-croissant/">🥐 كرواسون بالجبن</a><a class="chip" href="/ar/dishes/mini-croissant/">🥐 كرواسون صغير</a><a class="chip" href="/ar/dishes/croque-forestier/">🍄 كروك فورستييه</a><a class="chip" href="/ar/dishes/croque-madame/">🍳 كروك مدام</a><a class="chip" href="/ar/dishes/croque-monsieur/">🥪 كروك مسيو</a><a class="chip" href="/ar/dishes/croquembouche/">🍮 كروكمبوش</a><a class="chip" href="/ar/dishes/crepe/">🥞 كريب</a><a class="chip" href="/ar/dishes/crepe-nutella-banane/">🍌 كريب بكريمة الشوكولاتة والبندق والموز</a><a class="chip" href="/ar/dishes/crepe-jambon-fromage/">🥞 كريب بلحم الخنزير والجبن</a><a class="chip" href="/ar/dishes/crepes-jambon-fromage/">🥞 كريب بلحم الخنزير والجبن (منزلي)</a><a class="chip" href="/ar/dishes/crepes-suzette/">🍊 كريب سوزيت</a><a class="chip" href="/ar/dishes/creme-brulee/">🍮 كريم بروليه</a><a class="chip" href="/ar/dishes/creme-caramel/">🍮 كريم كراميل</a><a class="chip" href="/ar/dishes/couscous-royal/">🍲 كسكس ملكي</a><a class="chip" href="/ar/dishes/opera-cake/">🍰 كعكة الأوبرا</a><a class="chip" href="/ar/dishes/gateau-au-yaourt/">🍰 كعكة الزبادي الفرنسية</a><a class="chip" href="/ar/dishes/clafoutis-aux-cerises/">🍒 كلافوتي الكرز</a><a class="chip" href="/ar/dishes/clafouti-aux-abricots/">🍑 كلافوتي المشمش</a><a class="chip" href="/ar/dishes/cote-de-boeuf/">🥩 كوت دو بوف (ستيك الضلع بالعظم)</a><a class="chip" href="/ar/dishes/coq-au-vin/">🍷 كوك أو فان</a><a class="chip" href="/ar/dishes/coquilles-saint-jacques/">🐚 كوكيل سان جاك</a><a class="chip" href="/ar/dishes/confit-canard/">🦆 كونفي البط</a><a class="chip" href="/ar/dishes/canard-confit-lentilles/">🦆 كونفي البط مع العدس</a><a class="chip" href="/ar/dishes/kouign-amann/">🥐 كوين أمان</a><a class="chip" href="/ar/dishes/quiche-legumes/">🥧 كيش الخضار</a><a class="chip" href="/ar/dishes/quiche-aux-poireaux/">🥧 كيش الكراث</a><a class="chip" href="/ar/dishes/quiche-lorraine/">🥧 كيش لورين</a><a class="chip" href="/ar/dishes/boeuf-a-la-ficelle/">🥩 لحم البقر على الخيط (بوف آ لا فيسيل)</a><a class="chip" href="/ar/dishes/madeleines/">🧁 مادلين</a><a class="chip" href="/ar/dishes/magret-canard/">🦆 ماغريه البط</a><a class="chip" href="/ar/dishes/macaron-framboise/">🍓 ماكرون بالتوت</a><a class="chip" href="/ar/dishes/macaron-chocolat/">🍫 ماكرون بالشوكولاتة</a><a class="chip" href="/ar/dishes/mousse-au-chocolat/">🍫 موس الشوكولاتة</a><a class="chip" href="/ar/dishes/mousse-chocolat/">🍫 موس الشوكولاتة</a><a class="chip" href="/ar/dishes/mont-blanc-dessert/">🌰 مون بلان</a><a class="chip" href="/ar/dishes/mille-feuille/">🍰 ميل فوي</a><a class="chip" href="/ar/dishes/millefeuille/">🍰 ميل فوي بالكاسترد</a><a class="chip" href="/ar/dishes/navarin-d-agneau/">🍲 نافاران لحم الضأن</a></div></section>
+  <section><h2>مطابخ أخرى</h2><div class="chips gl"><a class="chip" href="/ar/dishes/cuisine/italian/">🇮🇹 المطبخ الإيطالي</a><a class="chip" href="/ar/dishes/cuisine/japanese/">🇯🇵 المطبخ الياباني</a><a class="chip" href="/ar/dishes/cuisine/turkish/">🇹🇷 المطبخ التركي</a><a class="chip" href="/ar/dishes/cuisine/indian/">🇮🇳 المطبخ الهندي</a><a class="chip" href="/ar/dishes/cuisine/levantine/">🧆 المطبخ الشامي</a><a class="chip" href="/ar/dishes/cuisine/american/">🇺🇸 المطبخ الأمريكي</a><a class="chip" href="/ar/dishes/cuisine/chinese/">🇨🇳 المطبخ الصيني</a><a class="chip" href="/ar/dishes/cuisine/greek/">🇬🇷 المطبخ اليوناني</a><a class="chip" href="/ar/dishes/cuisine/thai/">🇹🇭 المطبخ التايلاندي</a><a class="chip" href="/ar/dishes/cuisine/mexican/">🇲🇽 المطبخ المكسيكي</a><a class="chip" href="/ar/dishes/cuisine/spanish/">🇪🇸 المطبخ الإسباني</a><a class="chip" href="/ar/dishes/cuisine/swiss/">🇨🇭 المطبخ السويسري</a><a class="chip" href="/ar/dishes/cuisine/korean/">🇰🇷 المطبخ الكوري</a><a class="chip" href="/ar/dishes/cuisine/lebanese/">🇱🇧 المطبخ اللبناني</a><a class="chip" href="/ar/dishes/cuisine/saudi/">🇸🇦 المطبخ السعودي</a><a class="chip" href="/ar/dishes/cuisine/german/">🇩🇪 المطبخ الألماني</a><a class="chip" href="/ar/dishes/cuisine/vietnamese/">🇻🇳 المطبخ الفيتنامي</a><a class="chip" href="/ar/dishes/cuisine/egyptian/">🇪🇬 المطبخ المصري</a><a class="chip" href="/ar/dishes/cuisine/gulf/">🍚 مطبخ الخليج</a><a class="chip" href="/ar/dishes/cuisine/indonesian/">🇮🇩 المطبخ الإندونيسي</a><a class="chip" href="/ar/dishes/cuisine/moroccan/">🇲🇦 المطبخ المغربي</a><a class="chip" href="/ar/dishes/cuisine/serbian/">🇷🇸 المطبخ الصربي</a><a class="chip" href="/ar/dishes/cuisine/portuguese/">🇵🇹 المطبخ البرتغالي</a><a class="chip" href="/ar/dishes/cuisine/yemeni/">🇾🇪 المطبخ اليمني</a><a class="chip" href="/ar/dishes/cuisine/peruvian/">🇵🇪 المطبخ البيروفي</a><a class="chip" href="/ar/dishes/cuisine/persian/">🇮🇷 المطبخ الفارسي</a><a class="chip" href="/ar/dishes/cuisine/iraqi/">🇮🇶 المطبخ العراقي</a><a class="chip" href="/ar/dishes/cuisine/austrian/">🇦🇹 المطبخ النمساوي</a><a class="chip" href="/ar/dishes/cuisine/british/">🇬🇧 المطبخ البريطاني</a><a class="chip" href="/ar/dishes/cuisine/polish/">🇵🇱 المطبخ البولندي</a><a class="chip" href="/ar/dishes/cuisine/balkan/">🥙 المطبخ البلقاني</a></div></section>
+  <p class="disclaimer">القيم تقديرية لكل 100 غ لوصفة معتادة، وتختلف بين البيت والمطعم. حُدّدت الأنظمة الغذائية ومسببات الحساسية من مكونات الوصفة المعتادة — تأكّد دائمًا ممن أعدّ الطبق. ليست نصيحة طبية. <a href="/ar/dishes/how-we-count/">كيف نحسب →</a></p>
+</main>
+<footer><div class="wrap">
+  <a href="/ar/">الرئيسية</a><a href="/privacy">الخصوصية</a><a href="/terms">الشروط</a>
+  <span class="langs"><a href="/dishes/cuisine/french/" hreflang="en">English</a><a href="/ru/dishes/cuisine/french/" hreflang="ru">Русский</a><a href="/ar/dishes/cuisine/french/" hreflang="ar">العربية</a><a href="/it/dishes/cuisine/french/" hreflang="it">Italiano</a><a href="/el/dishes/cuisine/french/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

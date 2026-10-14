@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- Cuisine page (/dishes/cuisine/<slug>/ …), texts in cuisines.json, dishes from the database. Styles come from template.html. -->
+<html lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Калорийность вьетнамской кухни: самые лёгкие и сытные блюда — Me Nutrition</title>
+<meta name="description" content="Калории, белки и диеты (вегетарианская, веганская, без глютена) для 36 блюд вьетнамской кухни. Найдите самые лёгкие и сытные." />
+<link rel="canonical" href="https://menutrition.app/ru/dishes/cuisine/vietnamese/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/cuisine/vietnamese/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/cuisine/vietnamese/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/cuisine/vietnamese/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/cuisine/vietnamese/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/cuisine/vietnamese/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.origin a{color:inherit}.group h2 a{text-decoration:none}.group h2 a:hover{text-decoration:underline;color:var(--teal)}
+.cstats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}.cstats div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;text-align:center}.cstats b{display:block;font-size:28px;color:var(--teal);line-height:1.1}.cstats span{font-size:13px;color:var(--muted);font-weight:600}
+.tipbox{background:var(--gold-soft);border-radius:22px;padding:18px 20px}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Калорийность вьетнамской кухни: самые лёгкие и сытные блюда", "description": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для 36 блюд вьетнамской кухни. Найдите самые лёгкие и сытные.", "inLanguage": "ru", "url": "https://menutrition.app/ru/dishes/cuisine/vietnamese/"}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/ru/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>RU</summary><div class="lm"><a href="/dishes/cuisine/vietnamese/" hreflang="en">English</a><a href="/ru/dishes/cuisine/vietnamese/" hreflang="ru" class="on">Русский</a><a href="/ar/dishes/cuisine/vietnamese/" hreflang="ar">العربية</a><a href="/it/dishes/cuisine/vietnamese/" hreflang="it">Italiano</a><a href="/el/dishes/cuisine/vietnamese/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/ru/dishes/">Блюда</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Скачать</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/ru/">Главная</a> › <a href="/ru/dishes/">Блюда</a> › Кухни мира</nav>
+  <h1><span class="gh">🇻🇳</span>Вьетнамская кухня</h1>
+  <p class="intro">Вьетнамская кухня опирается на <strong>рис, рисовую лапшу, свежую зелень и рыбный соус</strong>, сочетая солёный, сладкий, кислый и острый вкусы. Типичны супы с лапшой, такие как фо, свежие роллы в рисовой бумаге и мясо на гриле с зеленью и соусами для макания.</p>
+  <div class="cstats"><div><b>36</b><span>блюд</span></div><div><b>157</b><span>ккал на 100 г в среднем</span></div><div><b>17%</b><span>вегетарианских</span></div></div>
+  <section><h2>Самые лёгкие блюда</h2><div class="related"><a href="/dishes/spring-rolls-vietnamese/"><span class="em">🥬</span><div>Vietnamese fresh spring rolls<span>75 ккал / 100 г</span></div></a><a href="/dishes/canh-chua/"><span class="em">🍲</span><div>Canh chua (Vietnamese sour fish soup)<span>80 ккал / 100 г</span></div></a><a href="/dishes/pho-bo/"><span class="em">🍜</span><div>Pho bo (beef pho)<span>95 ккал / 100 г</span></div></a><a href="/dishes/pho-chay/"><span class="em">🍜</span><div>Pho chay (vegan pho)<span>95 ккал / 100 г</span></div></a><a href="/dishes/goi-cuon/"><span class="em">🌯</span><div>Gỏi cuốn (Vietnamese fresh spring rolls)<span>100 ккал / 100 г</span></div></a><a href="/dishes/pho-tai-nam/"><span class="em">🍜</span><div>Pho Tai Nam (Rare Steak and Brisket Pho)<span>100 ккал / 100 г</span></div></a><a href="/dishes/che-ba-mau/"><span class="em">🍧</span><div>Chè ba màu (three-colour dessert)<span>105 ккал / 100 г</span></div></a><a href="/dishes/fresh-spring-rolls/"><span class="em">🥢</span><div>Fresh spring rolls (gỏi cuốn)<span>110 ккал / 100 г</span></div></a></div></section><section><h2>Самые сытные блюда</h2><div class="related"><a href="/dishes/thit-kho-tau/"><span class="em">🥘</span><div>Thit kho tau (Vietnamese caramelised pork and eggs)<span>250 ккал / 100 г</span></div></a><a href="/dishes/cha-gio/"><span class="em">🥢</span><div>Chả giò (Vietnamese fried spring rolls)<span>235 ккал / 100 г</span></div></a><a href="/dishes/banh-mi/"><span class="em">🥖</span><div>Bánh mì<span>230 ккал / 100 г</span></div></a><a href="/dishes/cha-gio-imperial/"><span class="em">🌯</span><div>Imperial rolls (chả giò)<span>230 ккал / 100 г</span></div></a><a href="/dishes/com-tam/"><span class="em">🍚</span><div>Cơm tấm (broken rice with grilled pork)<span>220 ккал / 100 г</span></div></a><a href="/dishes/com-tam-suon/"><span class="em">🍚</span><div>Cơm tấm sườn (broken rice with grilled pork chop)<span>220 ккал / 100 г</span></div></a><a href="/dishes/bo-luc-lac/"><span class="em">🥩</span><div>Bò lúc lắc (shaking beef)<span>200 ккал / 100 г</span></div></a><a href="/dishes/mi-quang/"><span class="em">🍜</span><div>Mì Quảng<span>200 ккал / 100 г</span></div></a></div></section><section><h2>Больше всего белка</h2><div class="related"><a href="/dishes/bo-luc-lac/"><span class="em">🥩</span><div>Bò lúc lắc (shaking beef)<span>20 г белка / 100 г</span></div></a><a href="/dishes/ga-kho-gung/"><span class="em">🍗</span><div>Gà kho gừng (Vietnamese ginger chicken)<span>20 г белка / 100 г</span></div></a><a href="/dishes/ca-kho-to/"><span class="em">🐟</span><div>Cá kho tộ (caramelised catfish)<span>17 г белка / 100 г</span></div></a><a href="/dishes/bo-kho/"><span class="em">🍲</span><div>Bò kho (Vietnamese beef stew)<span>11 г белка / 100 г</span></div></a><a href="/dishes/bun-thit-nuong/"><span class="em">🍜</span><div>Bún thịt nướng<span>11 г белка / 100 г</span></div></a></div></section>
+  <section class="gs tipbox"><h2><span class="gi">💡</span>Совет</h2><p>Свежие роллы и супы на бульоне обычно легче жареных спринг-роллов и блюд со <strong>сладкими соусами</strong>, в которых бывает заметно много сахара. Большая миска супа с лапшой всё равно сытная — в основном за счёт лапши.</p></section>
+  <section><h2>Все блюда: 36</h2><div class="chips gl"><a class="chip" href="/dishes/banh-cuon/">🥟 Bánh cuốn (steamed rice rolls)</a><a class="chip" href="/dishes/banh-mi/">🥖 Bánh mì</a><a class="chip" href="/dishes/banh-mi-chay/">🥖 Bánh mì chay (tofu bánh mì)</a><a class="chip" href="/dishes/banh-xeo/">🥞 Bánh xèo (Vietnamese crispy pancake)</a><a class="chip" href="/dishes/bo-kho/">🍲 Bò kho (Vietnamese beef stew)</a><a class="chip" href="/dishes/bo-luc-lac/">🥩 Bò lúc lắc (shaking beef)</a><a class="chip" href="/dishes/bun-bo-hue/">🍜 Bún bò Huế</a><a class="chip" href="/dishes/bun-bo-nam-bo/">🥗 Bún bò Nam Bộ</a><a class="chip" href="/dishes/bun-cha/">🍜 Bún chả</a><a class="chip" href="/dishes/bun-rieu/">🍜 Bún riêu</a><a class="chip" href="/dishes/bun-thit-nuong/">🍜 Bún thịt nướng</a><a class="chip" href="/dishes/canh-chua/">🍲 Canh chua (Vietnamese sour fish soup)</a><a class="chip" href="/dishes/cao-lau/">🍜 Cao lầu</a><a class="chip" href="/dishes/che/">🍧 Chè (Vietnamese sweet soup)</a><a class="chip" href="/dishes/che-ba-mau/">🍧 Chè ba màu (three-colour dessert)</a><a class="chip" href="/dishes/che-dau-xanh/">🍮 Chè đậu xanh (mung bean sweet soup)</a><a class="chip" href="/dishes/cha-gio/">🥢 Chả giò (Vietnamese fried spring rolls)</a><a class="chip" href="/dishes/ca-kho-to/">🐟 Cá kho tộ (caramelised catfish)</a><a class="chip" href="/dishes/com-tam/">🍚 Cơm tấm (broken rice with grilled pork)</a><a class="chip" href="/dishes/com-tam-suon/">🍚 Cơm tấm sườn (broken rice with grilled pork chop)</a><a class="chip" href="/dishes/fresh-spring-rolls/">🥢 Fresh spring rolls (gỏi cuốn)</a><a class="chip" href="/dishes/ga-kho-gung/">🍗 Gà kho gừng (Vietnamese ginger chicken)</a><a class="chip" href="/dishes/goi-cuon/">🌯 Gỏi cuốn (Vietnamese fresh spring rolls)</a><a class="chip" href="/dishes/cha-gio-imperial/">🌯 Imperial rolls (chả giò)</a><a class="chip" href="/dishes/mi-quang/">🍜 Mì Quảng</a><a class="chip" href="/dishes/pho/">🍜 Pho</a><a class="chip" href="/dishes/pho-tai-nam/">🍜 Pho Tai Nam (Rare Steak and Brisket Pho)</a><a class="chip" href="/dishes/pho-bo/">🍜 Pho bo (beef pho)</a><a class="chip" href="/dishes/pho-chay/">🍜 Pho chay (vegan pho)</a><a class="chip" href="/dishes/pho-ga/">🍜 Pho ga (chicken pho)</a><a class="chip" href="/dishes/pho-tai/">🍜 Pho tai (rare beef pho)</a><a class="chip" href="/dishes/goi-cuon-shrimp/">🍤 Shrimp fresh spring rolls</a><a class="chip" href="/dishes/thit-kho-tau/">🥘 Thit kho tau (Vietnamese caramelised pork and eggs)</a><a class="chip" href="/dishes/vietnamese-coffee-flan/">🍮 Vietnamese Coffee Flan (Bánh Flan Cà Phê)</a><a class="chip" href="/dishes/spring-rolls-vietnamese/">🥬 Vietnamese fresh spring rolls</a><a class="chip" href="/dishes/ca-phe-sua-da/">☕ Vietnamese iced coffee (cà phê sữa đá)</a></div></section>
+  <section><h2>Другие кухни</h2><div class="chips gl"><a class="chip" href="/ru/dishes/cuisine/italian/">🇮🇹 Итальянская кухня</a><a class="chip" href="/ru/dishes/cuisine/french/">🇫🇷 Французская кухня</a><a class="chip" href="/ru/dishes/cuisine/japanese/">🇯🇵 Японская кухня</a><a class="chip" href="/ru/dishes/cuisine/turkish/">🇹🇷 Турецкая кухня</a><a class="chip" href="/ru/dishes/cuisine/indian/">🇮🇳 Индийская кухня</a><a class="chip" href="/ru/dishes/cuisine/levantine/">🧆 Левантийская кухня</a><a class="chip" href="/ru/dishes/cuisine/american/">🇺🇸 Американская кухня</a><a class="chip" href="/ru/dishes/cuisine/chinese/">🇨🇳 Китайская кухня</a><a class="chip" href="/ru/dishes/cuisine/greek/">🇬🇷 Греческая кухня</a><a class="chip" href="/ru/dishes/cuisine/thai/">🇹🇭 Тайская кухня</a><a class="chip" href="/ru/dishes/cuisine/mexican/">🇲🇽 Мексиканская кухня</a><a class="chip" href="/ru/dishes/cuisine/spanish/">🇪🇸 Испанская кухня</a><a class="chip" href="/ru/dishes/cuisine/swiss/">🇨🇭 Швейцарская кухня</a><a class="chip" href="/ru/dishes/cuisine/korean/">🇰🇷 Корейская кухня</a><a class="chip" href="/ru/dishes/cuisine/lebanese/">🇱🇧 Ливанская кухня</a><a class="chip" href="/ru/dishes/cuisine/saudi/">🇸🇦 Саудовская кухня</a><a class="chip" href="/ru/dishes/cuisine/german/">🇩🇪 Немецкая кухня</a><a class="chip" href="/ru/dishes/cuisine/egyptian/">🇪🇬 Египетская кухня</a><a class="chip" href="/ru/dishes/cuisine/gulf/">🍚 Кухня стран Персидского залива</a><a class="chip" href="/ru/dishes/cuisine/indonesian/">🇮🇩 Индонезийская кухня</a><a class="chip" href="/ru/dishes/cuisine/moroccan/">🇲🇦 Марокканская кухня</a><a class="chip" href="/ru/dishes/cuisine/serbian/">🇷🇸 Сербская кухня</a><a class="chip" href="/ru/dishes/cuisine/portuguese/">🇵🇹 Португальская кухня</a><a class="chip" href="/ru/dishes/cuisine/yemeni/">🇾🇪 Йеменская кухня</a><a class="chip" href="/ru/dishes/cuisine/peruvian/">🇵🇪 Перуанская кухня</a><a class="chip" href="/ru/dishes/cuisine/persian/">🇮🇷 Персидская кухня</a><a class="chip" href="/ru/dishes/cuisine/iraqi/">🇮🇶 Иракская кухня</a><a class="chip" href="/ru/dishes/cuisine/austrian/">🇦🇹 Австрийская кухня</a><a class="chip" href="/ru/dishes/cuisine/british/">🇬🇧 Британская кухня</a><a class="chip" href="/ru/dishes/cuisine/polish/">🇵🇱 Польская кухня</a><a class="chip" href="/ru/dishes/cuisine/balkan/">🥙 Балканская кухня</a></div></section>
+  <p class="disclaimer">Значения — примерная оценка на 100 г для типичного рецепта; дома и в ресторанах блюдо готовят по-разному. Диеты и аллергены определены по составу типичного рецепта — всегда уточняйте у того, кто готовил. Не является медицинской рекомендацией. <a href="/ru/dishes/how-we-count/">Как мы считаем →</a></p>
+</main>
+<footer><div class="wrap">
+  <a href="/ru/">Главная</a><a href="/privacy">Конфиденциальность</a><a href="/terms">Условия</a>
+  <span class="langs"><a href="/dishes/cuisine/vietnamese/" hreflang="en">English</a><a href="/ru/dishes/cuisine/vietnamese/" hreflang="ru">Русский</a><a href="/ar/dishes/cuisine/vietnamese/" hreflang="ar">العربية</a><a href="/it/dishes/cuisine/vietnamese/" hreflang="it">Italiano</a><a href="/el/dishes/cuisine/vietnamese/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>
