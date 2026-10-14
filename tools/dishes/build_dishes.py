@@ -68,6 +68,14 @@ def fill(template, values):
     return re.sub(r'\{\{([\w.]+)\}\}', rep, template)
 
 
+# dish page labels / allergens -> diet & allergy guide (/guides/<slug>/), linked when the guide exists in that language
+LABEL_GUIDE = {'vegetarian': 'vegetarian', 'vegan': 'vegan', 'no_pork': 'halal', 'gluten_free': 'gluten-free',
+               'dairy_free': 'dairy-free', 'keto': 'keto', 'low_carb': 'low-carb', 'high_protein': 'high-protein'}
+ALLERGEN_GUIDE = {'gluten': 'gluten-free', 'crustaceans': 'shellfish-allergy', 'eggs': 'egg-allergy', 'fish': 'fish-allergy',
+                  'peanuts': 'peanut-allergy', 'soy': 'soy-allergy', 'milk': 'dairy-free', 'nuts': 'tree-nut-allergy',
+                  'celery': 'celery-allergy', 'mustard': 'mustard-allergy', 'sesame': 'sesame-allergy',
+                  'sulphites': 'sulphite-sensitivity', 'lupin': 'lupin-allergy', 'molluscs': 'mollusc-allergy'}
+GUIDE_LANGS = {}   # slug -> languages it exists in, filled in main()
 METHOD_LINK = {}   # filled from method.json in main()
 NAMES = {}   # ingredient_names.json: {key: {lang: name}} — fills the gaps of the app's dictionary
 
@@ -145,12 +153,18 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         else:
             why = ''
         icon = {'yes': '✓', 'no': '✕', 'check': '?'}[lb['status']]
+        title = esc(names[lb['status']])
+        g = LABEL_GUIDE.get(lb['id'])
+        if g and lang in GUIDE_LANGS.get(g, ()):
+            title = f'<a href="{gpath(lang, g)}">{title}</a>'
         rows.append(f'<div class="label {lb["status"]}"><div class="ic">{icon}</div><div>'
-                    f'<b>{esc(names[lb["status"]])}</b>' + (f'<span>{esc(why)}</span>' if why else '') + '</div></div>')
+                    f'<b>{title}</b>' + (f'<span>{esc(why)}</span>' if why else '') + '</div></div>')
 
     if info['allergens']:
         allergens = (f'<p class="note">{esc(U["allergens_note"])}</p><div class="chips">'
-                     + ''.join(f'<span class="chip warn">⚠ {esc(U["allergen"][a])}</span>' for a in info['allergens'])
+                     + ''.join(f'<a class="chip warn" href="{gpath(lang, ALLERGEN_GUIDE[a])}">⚠ {esc(U["allergen"][a])}</a>'
+                               if lang in GUIDE_LANGS.get(ALLERGEN_GUIDE.get(a), ())
+                               else f'<span class="chip warn">⚠ {esc(U["allergen"][a])}</span>' for a in info['allergens'])
                      + '</div>')
     else:
         allergens = f'<p class="note">{esc(U["allergens_none"])}</p>'
@@ -289,7 +303,8 @@ def guide_dishes(spec, contents, db):
     out = []
     for c in contents.values():
         info = analyse(db['dishes'][c['db_key']])
-        if 'label' in spec and any(l['id'] == spec['label'] and l['status'] == spec['status'] for l in info['labels']):
+        wanted = spec.get('labels') or ([{'label': spec['label'], 'status': spec['status']}] if 'label' in spec else [])
+        if any(l['id'] == w['label'] and l['status'] == w['status'] for w in wanted for l in info['labels']):
             out.append(c)
         elif 'allergen' in spec and spec['allergen'] in info['allergens']:
             out.append(c)
@@ -322,7 +337,7 @@ def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
         k = c['i18n']['en']['origin'].split('·')[0].strip()
         size[k] = size.get(k, 0) + 1
     found.sort(key=lambda c: (dl(c) != lang, -size[c['i18n']['en']['origin'].split('·')[0].strip()], c['i18n'][dl(c)]['name']))
-    head = GU['dishes_suits_h' if 'label' in spec else 'dishes_contains_h'].format(n=len(found))
+    head = GU['dishes_contains_h' if 'allergen' in spec else 'dishes_suits_h'].format(n=len(found))
     cards = ''.join(f'<a class="chip" href="{path(dl(c), c["slug"])}">{c["emoji"]} {esc(c["i18n"][dl(c)]["name"])}</a>'
                     for c in found[:limit])
     more = (f'<p class="note"><a href="{path(lang if sum(lang in c["i18n"] for c in contents.values()) >= 100 else "en")}">{esc(GU["dishes_more"].format(n=len(found) - limit))} →</a></p>'
@@ -351,6 +366,35 @@ def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     return fill(template, values)
 
 
+
+def guides_index(lang, G, ui, langs, contents, db, template):
+    U, GU = ui[lang], G['_ui'][lang]
+    sections = ''
+    for group in ('diets', 'allergies'):
+        cards = ''
+        for slug in G['_order'][group]:
+            if slug not in G or lang not in G[slug]:
+                continue
+            n = len(guide_dishes(G[slug]['match'], contents, db))
+            sub = esc(GU['n_dishes'].format(n=n)) if n else ''
+            cards += (f'<a href="{gpath(lang, slug)}"><span class="em">{G[slug].get("emoji", "")}</span>'
+                      f'<div>{esc(G[slug][lang]["name"])}<span>{sub}</span></div></a>')
+        if cards:
+            sections += f'<section><h2>{esc(GU[group + "_h"])}</h2><div class="related">{cards}</div></section>'
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + gpath(l)}" />' for l in langs)
+    values = {
+        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(GU['index_title']),
+        'description': esc(GU['index_meta']), 'url': SITE + gpath(lang), 'hreflang': hreflang,
+        'home': home(lang), 'index': path(lang), 'sections': sections,
+        'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
+        'langs': ''.join(f'<a href="{gpath(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+        'langmenu': lang_menu(lang, langs, gpath),
+    }
+    values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+    values.update({f'g.{k}': esc(v) for k, v in GU.items()})
+    return fill(template, values)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--db', default=None)
@@ -365,6 +409,8 @@ def main():
     index_tpl = (HERE / 'index_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
     method_tpl = (HERE / 'method_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
     M = json.load(open(HERE / 'method.json', encoding='utf-8'))
+    G = json.load(open(HERE / 'guides.json', encoding='utf-8'))
+    GUIDE_LANGS.update({k: {l for l in v if l in G['_ui'] and l in ui} for k, v in G.items() if not k.startswith('_')})
     global METHOD_LINK
     METHOD_LINK = {l: M[l]['link'] for l in M}
     NAMES.update(json.load(open(HERE / 'ingredient_names.json', encoding='utf-8'))
@@ -410,7 +456,13 @@ def main():
         p.write_text(method_page(lang, M, ui, [l for l in langs if l in M], db, method_tpl), encoding='utf-8')
         pages.append(p)
     guide_tpl = (HERE / 'guide_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
-    G = json.load(open(HERE / 'guides.json', encoding='utf-8'))
+    gi_tpl = (HERE / 'guides_index_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    gi_langs = [l for l in langs if l in G['_ui'] and 'index_h' in G['_ui'][l]]
+    for lang in gi_langs:
+        p = out / gpath(lang).strip('/') / 'index.html'
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(guides_index(lang, G, ui, gi_langs, contents, db, gi_tpl), encoding='utf-8')
+        pages.append(p)
     for slug in [k for k in G if not k.startswith('_')]:
         g_langs = [l for l in langs if l in G[slug] and l in G['_ui']]
         for lang in g_langs:

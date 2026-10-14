@@ -7,7 +7,14 @@
       "dishes_contains_h": "Dishes that contain it: {n}",
       "dishes_more": "and {n} more in the dish list",
       "reviewed": "Written from the sources below; not reviewed by a doctor. Not medical advice.",
-      "urgent_h": "When to get help urgently"
+      "urgent_h": "When to get help urgently",
+      "index_title": "Diets and food allergies: what to eat and what to avoid",
+      "index_meta": "Simple guides to vegetarian, vegan, keto, low-carb, gluten-free, dairy-free and halal eating and to the 14 major food allergens — with dishes that fit.",
+      "index_h": "Diets & allergies",
+      "index_p": "What each diet means, what you can eat and what to avoid, what happens if you break it — and dishes from our database that fit.",
+      "diets_h": "Diets",
+      "allergies_h": "Food allergies",
+      "n_dishes": "{n} dishes"
     },
     "ru": {
       "guides": "Диеты и аллергии",
@@ -16,7 +23,14 @@
       "dishes_contains_h": "Блюда, в которых он есть: {n}",
       "dishes_more": "и ещё {n} в списке блюд",
       "reviewed": "Написано по источникам ниже, врачом не проверялось. Не медицинский совет.",
-      "urgent_h": "Когда срочно нужна помощь"
+      "urgent_h": "Когда срочно нужна помощь",
+      "index_title": "Диеты и пищевые аллергии: что можно есть и чего избегать",
+      "index_meta": "Простые гиды по вегетарианскому, веганскому, кето, низкоуглеводному, безглютеновому, безмолочному и халяль-питанию и по 14 основным аллергенам — с подходящими блюдами.",
+      "index_h": "Диеты и аллергии",
+      "index_p": "Что значит каждая диета, что можно есть и чего избегать, что будет, если её нарушить, — и подходящие блюда из нашей базы.",
+      "diets_h": "Диеты",
+      "allergies_h": "Пищевые аллергии",
+      "n_dishes": "Блюд: {n}"
     }
   },
   "gluten-free": {
@@ -350,6 +364,32 @@
       "⚠️",
       "🚑",
       "📱"
+    ]
+  },
+  "_order": {
+    "diets": [
+      "vegetarian",
+      "vegan",
+      "keto",
+      "low-carb",
+      "high-protein",
+      "gluten-free",
+      "dairy-free",
+      "halal"
+    ],
+    "allergies": [
+      "peanut-allergy",
+      "tree-nut-allergy",
+      "egg-allergy",
+      "fish-allergy",
+      "shellfish-allergy",
+      "mollusc-allergy",
+      "soy-allergy",
+      "sesame-allergy",
+      "mustard-allergy",
+      "celery-allergy",
+      "lupin-allergy",
+      "sulphite-sensitivity"
     ]
   }
 }

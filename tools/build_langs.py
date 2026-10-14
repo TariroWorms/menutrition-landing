@@ -126,6 +126,8 @@ def put_dishes(doc, lang):
                  lambda m: f'<!-- dishes:start -->\n{cards}\n<!-- dishes:end -->', doc, flags=re.S)
     method = f'/{lang}/dishes/how-we-count/' if lang != 'en' and (ROOT / lang / 'dishes' / 'how-we-count' / 'index.html').exists() \
         else '/dishes/how-we-count/'
+    guides = f'/{lang}/guides/' if lang != 'en' and (ROOT / lang / 'guides' / 'index.html').exists() else '/guides/'
+    doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-guides-link', lambda m: f'href="{guides}"{m.group(1) or ""} data-guides-link', doc)
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-method-link', lambda m: f'href="{method}"{m.group(1) or ""} data-method-link', doc)
     return re.sub(r'href="[^"]*"( class="[^"]*")? data-dishes-link', lambda m: f'href="{index}"{m.group(1) or ""} data-dishes-link', doc)
 
