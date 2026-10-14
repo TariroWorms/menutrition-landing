@@ -273,6 +273,12 @@ def method_page(lang, M, ui, langs, db, template):
 
 
 
+def md(x):
+    """Guide texts: **main point** -> bold, _side remark_ -> italic (escaped first)."""
+    x = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', esc(x))
+    return re.sub(r'(?<![\w/])_(.+?)_(?![\w])', r'<em>\1</em>', x)
+
+
 def gpath(lang, slug=None):
     """Diet and allergy guides: /guides/<slug>/, /<lang>/guides/<slug>/."""
     return ('/' if lang == 'en' else f'/{lang}/') + 'guides/' + (f'{slug}/' if slug else '')
@@ -297,17 +303,17 @@ def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     for i, sec in enumerate(T['sections']):
         kind = kinds[i] if i < len(kinds) else 'info'
         icon = f'<span class="gi">{icons[i]}</span>' if i < len(icons) else ''
-        body = ''.join(f'<p>{brand(esc(x))}</p>' for x in sec.get('p', []))
+        body = ''.join(f'<p>{brand(md(x))}</p>' for x in sec.get('p', []))
         if sec.get('list'):
             items = ''
             for x in sec['list']:
                 em, _, rest = x.partition(' ')
                 if len(em) <= 3 and rest:   # leading emoji of the item
-                    items += f'<li><span class="ie">{em}</span><span>{esc(rest)}</span></li>'
+                    items += f'<li><span class="ie">{em}</span><span>{md(rest)}</span></li>'
                 else:
-                    items += f'<li><span>{esc(x)}</span></li>'
+                    items += f'<li><span>{md(x)}</span></li>'
             body += f'<ul class="glist">{items}</ul>'
-        sections += f'<section class="gs {kind}"><h2>{icon}{esc(sec["h"])}</h2>{body}</section>'
+        sections += f'<section class="gs {kind}"><h2>{icon}{brand(esc(sec["h"]))}</h2>{body}</section>'
     found = guide_dishes(spec, contents, db)
     dl = lambda c: lang if lang in c['i18n'] else 'en'   # dish pages not yet in this language: link the English one
     # biggest cuisines first, so the first cards are familiar dishes
@@ -339,8 +345,9 @@ def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     }
     values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
     values.update({f'g.{k}': esc(v) for k, v in GU.items()})
-    values.update({f'm.{k}': esc(v) for k, v in T.items() if isinstance(v, str)})
+    values.update({f'm.{k}': esc(re.sub(r'\*\*|(?<![\w/])_|_(?![\w])', '', v)) for k, v in T.items() if isinstance(v, str)})
     values['emoji'] = G[slug].get('emoji', '')
+    values['m.intro'] = brand(md(T['intro']))
     return fill(template, values)
 
 
