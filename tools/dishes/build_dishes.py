@@ -20,6 +20,7 @@ from pathlib import Path
 from diets import analyse
 
 HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
 SITE = 'https://menutrition.app'
 DB = '/Users/macbookpro13/Desktop/Frankly/MeNutrition/Resources/dish_database.json'
 RTL = {'ar', 'he'}
@@ -265,7 +266,7 @@ def index_page(lang, items, ui, langs, db, template):
         countries += f'<details><summary>{esc(U["more_countries"])} · {len(order)}</summary>' + ''.join(chip(k) for k in sorted(rest, key=label)) + '</details>'
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l)}" />' for l in langs)
     explore = ''.join(f'<a href="{href}">{esc(txt)}</a>' for href, txt in (
-        (gpath(lang), EXPLORE[lang][0]), (('/' if lang == 'en' else f'/{lang}/') + 'calculators/', EXPLORE[lang][1]))
+        (gpath(lang), EXPLORE[lang][0]), (('/' if lang == 'en' or not (ROOT / lang / 'calculators').exists() else f'/{lang}/') + 'calculators/', EXPLORE[lang][1]))
         if lang in EXPLORE)
     values = {
         'explore': explore,
