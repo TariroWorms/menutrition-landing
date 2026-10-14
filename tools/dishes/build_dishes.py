@@ -293,11 +293,21 @@ def guide_dishes(spec, contents, db):
 def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     U, T, GU, spec = ui[lang], G[slug][lang], G['_ui'][lang], G[slug]['match']
     sections = ''
-    for sec in T['sections']:
-        sections += f'<section><h2>{esc(sec["h"])}</h2>' + ''.join(f'<p>{brand(esc(x))}</p>' for x in sec.get('p', []))
+    kinds, icons = G[slug].get('kinds', []), G[slug].get('icons', [])
+    for i, sec in enumerate(T['sections']):
+        kind = kinds[i] if i < len(kinds) else 'info'
+        icon = f'<span class="gi">{icons[i]}</span>' if i < len(icons) else ''
+        body = ''.join(f'<p>{brand(esc(x))}</p>' for x in sec.get('p', []))
         if sec.get('list'):
-            sections += '<ul class="mlist">' + ''.join(f'<li>{esc(x)}</li>' for x in sec['list']) + '</ul>'
-        sections += '</section>'
+            items = ''
+            for x in sec['list']:
+                em, _, rest = x.partition(' ')
+                if len(em) <= 3 and rest:   # leading emoji of the item
+                    items += f'<li><span class="ie">{em}</span><span>{esc(rest)}</span></li>'
+                else:
+                    items += f'<li><span>{esc(x)}</span></li>'
+            body += f'<ul class="glist">{items}</ul>'
+        sections += f'<section class="gs {kind}"><h2>{icon}{esc(sec["h"])}</h2>{body}</section>'
     found = guide_dishes(spec, contents, db)
     dl = lambda c: lang if lang in c['i18n'] else 'en'   # dish pages not yet in this language: link the English one
     # biggest cuisines first, so the first cards are familiar dishes
@@ -330,6 +340,7 @@ def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
     values.update({f'g.{k}': esc(v) for k, v in GU.items()})
     values.update({f'm.{k}': esc(v) for k, v in T.items() if isinstance(v, str)})
+    values['emoji'] = G[slug].get('emoji', '')
     return fill(template, values)
 
 
