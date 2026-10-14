@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- Diet / allergy guide (/guides/<slug>/ …), texts in guides.json. Styles come from template.html. -->
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>الطعام الحلال: ماذا يعني وكيف تتحقق من الأطباق والملصقات — Me Nutrition</title>
+<meta name="description" content="ماذا يعني الطعام الحلال عمليًا، وماذا يمكنك أن تأكل، ولحم الخنزير والكحول المخفيان في الأطباق والملصقات، وعلامات الاعتماد — وأطباق خالية من لحم الخنزير." />
+<link rel="canonical" href="https://menutrition.app/ar/guides/halal/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/guides/halal/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/guides/halal/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/guides/halal/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/guides/halal/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/guides/halal/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "الطعام الحلال: ماذا يعني وكيف تتحقق من الأطباق والملصقات", "description": "ماذا يعني الطعام الحلال عمليًا، وماذا يمكنك أن تأكل، ولحم الخنزير والكحول المخفيان في الأطباق والملصقات، وعلامات الاعتماد — وأطباق خالية من لحم الخنزير.", "inLanguage": "ar", "url": "https://menutrition.app/ar/guides/halal/", "lastReviewed": "2026-10-14", "publisher": {"@type": "Organization", "name": "Me Nutrition", "url": "https://menutrition.app/"}}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/ar/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>AR</summary><div class="lm"><a href="/guides/halal/" hreflang="en">English</a><a href="/ru/guides/halal/" hreflang="ru">Русский</a><a href="/ar/guides/halal/" hreflang="ar" class="on">العربية</a><a href="/it/guides/halal/" hreflang="it">Italiano</a><a href="/el/guides/halal/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/ar/dishes/">الأطباق</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">تحميل</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/ar/">الرئيسية</a> › الأنظمة الغذائية والحساسية › الطعام الحلال</nav>
+  <h1><span class="gh">🍽️</span>الطعام الحلال</h1>
+  <p class="intro">يتبع الطعام الحلال القواعد الغذائية الإسلامية. وفي الممارسة اليومية يعني ذلك <strong>عدم وجود لحم الخنزير أو منتجاته</strong>، ولحومًا من حيوانات ذُبحت بالطريقة الحلال، و<strong>عدم وجود كحول في الطعام</strong>. <em>تختلف المعايير الشخصية، لذا يركّز هذا الدليل على الجانب العملي: قراءة الملصقات وطرح الأسئلة الصحيحة.</em></p>
+  <section class="gs info"><h2><span class="gi">🔬</span>ماذا يعني</h2><p>عند التسوّق أو الأكل خارج المنزل، يتلخّص الحلال غالبًا في ثلاث نقاط للتحقق: <strong>هل يوجد لحم خنزير أو مكوّن مشتق منه، ومن أين يأتي اللحم، وهل يحتوي الطبق على كحول</strong>. أما الأسماك والبيض ومنتجات الألبان والحبوب والفواكه والخضراوات فلا تحتاج عادةً إلى تحقق خاص سوى من المضافات الغذائية والتلوث التبادلي.</p><p>لا يمكن معرفة ما إذا كان اللحم حلالًا بالنظر إلى الطبق — فذلك يعتمد على طريقة ذبح الحيوان، ويؤكّده المورّد أو علامة اعتماد. <strong>الطبق الخالي من لحم الخنزير ليس حلالًا تلقائيًا.</strong></p></section><section class="gs can"><h2><span class="gi">✅</span>ماذا يمكنك أن تأكل</h2><ul class="glist"><li><span class="ie">🥦</span><span><strong>الفواكه والخضراوات والحبوب والفاصوليا والعدس والمكسرات والبذور</strong> في صورتها الطبيعية.</span></li><li><span class="ie">🐟</span><span><strong>الأسماك والبيض ومنتجات الألبان</strong> مثل الحليب والزبادي والزبدة. <em>تُصنع بعض الأجبان بإنفحة حيوانية؛ ابحث عن الإنفحة الميكروبية أو النباتية إذا كان هذا الأمر يهمّك.</em></span></li><li><span class="ie">🥩</span><span><strong>لحم البقر والضأن والماعز والدواجن من جزّار حلال</strong> أو مع علامة اعتماد معترف بها.</span></li><li><span class="ie">🍞</span><span>الخبز والمعجنات والحساء والصلصات المحضّرة دون شحم الخنزير أو مرق الخنزير أو النبيذ.</span></li><li><span class="ie">🏷️</span><span><strong>المنتجات التي تحمل علامة اعتماد حلال</strong> — فقد تحقّقت جهة الاعتماد من المكوّنات ومصادرها وطريقة تصنيع المنتج.</span></li></ul></section><section class="gs avoid"><h2><span class="gi">🚫</span>ما الذي يجب تجنبه</h2><ul class="glist"><li><span class="ie">🥓</span><span><strong>لحم الخنزير بأي شكل</strong>: البيكون والهام والغامون والبانشيتا والبروشوتو وشحم الخنزير ونقانق الخنزير، والسلامي والتشوريزو <em>(عادةً من لحم الخنزير)</em>، وجلد الخنزير المقرمش.</span></li><li><span class="ie">🥟</span><span><strong>أطباق يشيع فيها لحم الخنزير</strong>: الكاربونارا، والكثير من أنواع الزلابية المحشوة مثل البلميني والغيوزا، والتشار سيو، ورامن التونكوتسو، وكرات اللحم المصنوعة من لحم مفروم مختلط، والباتيه، والفطائر والمعجنات المصنوعة بشحم الخنزير.</span></li><li><span class="ie">🍮</span><span><strong>مصادر حيوانية خفية</strong>: الجيلاتين <em>(يُصنع غالبًا من الخنزير — تحقّق مما إذا كان بقريًا أو من السمك أو نباتيًا)</em> في الحلوى والمارشملو والتحليات وبعض أنواع الزبادي؛ والمستحلبات مثل E471 التي قد تأتي من دهون نباتية أو حيوانية؛ ومرق الخنزير في الحساء وصلصات اللحم.</span></li><li><span class="ie">🍷</span><span><strong>الكحول في الطبخ</strong>: صلصات النبيذ مثل كوك أو فان وبورغينيون، والكثير من أطباق الريزوتو، وعجينة القلي بالبيرة، والميرين، وخلاصة الفانيليا <em>(تُصنع بالكحول)</em>، والتيراميسو، وبابا الروم، والحلويات المحتوية على مشروبات كحولية (ليكيور). <strong>الطهي لا يزيل الكحول كله دائمًا.</strong></span></li><li><span class="ie">🍖</span><span><strong>لحوم غير مؤكَّدة المصدر</strong>: لحم البقر أو الضأن أو الدجاج الذي لا يأتي من مورّد حلال.</span></li><li><span class="ie">🍽️</span><span><strong>التلوث التبادلي</strong>: الشوايات والمقالي العميقة وآلات التقطيع والأدوات المشتركة المستخدمة للحم الخنزير — اسأل عن طريقة تحضير الطعام.</span></li><li><span class="ie">🏷️</span><span><strong>علامات الاعتماد</strong>: تختلف المعايير بين جهات الاعتماد، لذا تحقّق من الجهة التي أصدرت العلامة. <em>عندما يكون مصدر أحد المضافات غير واضح، يستطيع المصنّع عادةً إخبارك به.</em></span></li></ul></section><section class="gs app"><h2><span class="gi">📱</span>كيف يساعدك <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span></h2><p>كل طبق في التطبيق وعلى هذا الموقع يعرض وسوم النظام الغذائي، ومنها «خالٍ من الخنزير»، والمسبّبات الرئيسية للحساسية في الوصفة المعتادة، مع المكوّن الذي يحدّد ذلك. <strong>لا يمكن لوسم «خالٍ من الخنزير» أن يؤكّد أن اللحم مذبوح بالطريقة الحلال أو أن الطبق خالٍ من الكحول.</strong> <em>الوصفات تختلف، لذا تأكّد دائمًا ممّن طهى الطبق.</em></p></section>
+  <section><h2>أطباق مناسبة: 1971</h2><div class="chips gl"><a class="chip" href="/ar/dishes/arancini/">🍙 أرانشيني</a><a class="chip" href="/ar/dishes/coniglio-alla-cacciatora/">🍅 أرنب على طريقة الصيادين</a><a class="chip" href="/ar/dishes/affogato/">🍨 أفوغاتو</a><a class="chip" href="/ar/dishes/acquacotta/">🍲 أكواكوتا (حساء توسكاني)</a><a class="chip" href="/ar/dishes/orecchiette-con-cime-di-rapa/">🍝 أوريكيتي باللفت الأخضر</a><a class="chip" href="/ar/dishes/orecchiette-alla-pesto-genovese/">🍝 أوريكيتي بصلصة البيستو الجنوية</a><a class="chip" href="/ar/dishes/orecchiette-alla-pomodoro/">🍝 أوريكيتي بصلصة الطماطم</a><a class="chip" href="/ar/dishes/osso-buco/">🍖 أوسو بوكو</a><a class="chip" href="/ar/dishes/ossobuco-alla-milanese/">🍖 أوسو بوكو على الطريقة الميلانية</a><a class="chip" href="/ar/dishes/espresso/">☕ إسبريسو</a><a class="chip" href="/ar/dishes/double-espresso/">☕ إسبريسو مزدوج (دوبيو)</a><a class="chip" href="/ar/dishes/pappa-al-pomodoro/">🍅 بابا آل بومودورو</a><a class="chip" href="/ar/dishes/baba-al-rum/">🧁 بابا بالروم</a><a class="chip" href="/ar/dishes/pappardelle-alla-funghi/">🍄 بابارديل بالفطر</a><a class="chip" href="/ar/dishes/pappardelle-al-ragu-d-anatra/">🍝 بابارديل بصلصة البط</a><a class="chip" href="/ar/dishes/parmigiana-melanzane/">🍆 بارميجانا الباذنجان</a><a class="chip" href="/ar/dishes/parmigiana-di-zucchine/">🥒 بارميجانا الكوسا</a><a class="chip" href="/ar/dishes/pasta-alla-trapanese/">🍝 باستا ألا ترابانيزي</a><a class="chip" href="/ar/dishes/pasta-norma/">🍝 باستا ألا نورما</a><a class="chip" href="/ar/dishes/pasta-e-ceci/">🥣 باستا إي تشيتشي (معكرونة بالحمص)</a><a class="chip" href="/ar/dishes/pasta-e-fagioli/">🥣 باستا إي فاجولي (معكرونة بالفاصوليا)</a><a class="chip" href="/ar/dishes/paccheri-norma/">🍆 باكيري ألا نورما</a><a class="chip" href="/ar/dishes/panzanella/">🥗 بانزانيلا</a><a class="chip" href="/ar/dishes/panzerotti/">🥟 بانزيروتي</a><a class="chip" href="/ar/dishes/bagna-cauda/">🧄 بانيا كاودا</a><a class="chip" href="/ar/dishes/bruschetta/">🍅 بروسكيتا</a><a class="chip" href="/ar/dishes/bruschetta-pomodoro/">🍅 بروسكيتا بالطماطم</a><a class="chip" href="/ar/dishes/bruschetta-funghi/">🍄 بروسكيتا بالفطر</a><a class="chip" href="/ar/dishes/bresaola-rucola-parmigiano/">🥩 بريساولا مع الجرجير والبارميزان</a><a class="chip" href="/ar/dishes/baccala-alla-vicentina/">🐟 بكالا على الطريقة الفيتشنتينية</a><a class="chip" href="/ar/dishes/baccala-mantecato/">🐟 بكالا مانتيكاتو</a><a class="chip" href="/ar/dishes/baccala-fritto/">🐟 بكالا مقلي</a><a class="chip" href="/ar/dishes/cozze-alla-marinara/">🦪 بلح البحر مارينارا</a><a class="chip" href="/ar/dishes/budino-al-cioccolato/">🍮 بودينو بالشوكولاتة</a><a class="chip" href="/ar/dishes/burrata-pomodorini/">🍅 بوراتا مع الطماطم الكرزية</a><a class="chip" href="/ar/dishes/bucatini-alla-cacio-e-pepe/">🍝 بوكاتيني كاتشو إي بيبي</a><a class="chip" href="/ar/dishes/bomboloni/">🍩 بومبولوني (دونات إيطالية محشوة)</a><a class="chip" href="/ar/dishes/peperonata/">🫑 بيبروناتا</a><a class="chip" href="/ar/dishes/pizza/">🍕 بيتزا</a><a class="chip" href="/ar/dishes/pizza-quattro-formaggi/">🧀 بيتزا أربعة أجبان</a><a class="chip" href="/ar/dishes/pizza-ortolana/">🍕 بيتزا أورتولانا بالخضار</a><a class="chip" href="/ar/dishes/pizza-tonno/">🍕 بيتزا التونة والبصل</a><a class="chip" href="/ar/dishes/pizza-bufalina/">🍕 بيتزا بوفالينا</a><a class="chip" href="/ar/dishes/pizza-frutti-di-mare/">🦐 بيتزا فواكه البحر</a><a class="chip" href="/ar/dishes/pizza-margherita/">🍕 بيتزا مارغريتا</a><a class="chip" href="/ar/dishes/pizza-marinara/">🍕 بيتزا مارينارا</a><a class="chip" href="/ar/dishes/pizza-napoletana/">🍕 بيتزا نابوليتانا بالأنشوجة والكبر</a><a class="chip" href="/ar/dishes/pizzoccheri-della-valtellina/">🍝 بيتسوكيري فالتيلينا</a><a class="chip" href="/ar/dishes/bistecca-alla-fiorentina/">🥩 بيستيكا فيورنتينا (ستيك فلورنسا)</a><a class="chip" href="/ar/dishes/piccata-milanese/">🍋 بيكاتا ميلانيزي (عجل بالليمون)</a><a class="chip" href="/ar/dishes/penne-arrabbiata/">🌶️ بيني أرابياتا</a><a class="chip" href="/ar/dishes/penne-alfredo/">🍝 بيني ألفريدو</a><a class="chip" href="/ar/dishes/penne-alla-ai-quattro-formaggi/">🧀 بيني بالأجبان الأربعة</a><a class="chip" href="/ar/dishes/penne-al-salmone/">🍝 بيني بالسلمون المدخن</a><a class="chip" href="/ar/dishes/penne-alla-vodka/">🍝 بيني بالفودكا</a><a class="chip" href="/ar/dishes/penne-alla-panna/">🍝 بيني بالكريمة (آلا بانا)</a><a class="chip" href="/ar/dishes/penne-norma/">🍆 بيني نورما</a><a class="chip" href="/ar/dishes/tartare-di-tonno/">🐟 تارتار التونة</a><a class="chip" href="/ar/dishes/tagliata-di-manzo/">🥩 تالياتا لحم بقري</a><a class="chip" href="/ar/dishes/tagliatelle-alla-funghi/">🍄 تالياتيلي بالفطر</a></div><p class="note"><a href="/ar/dishes/">و1911 أخرى في قائمة الأطباق →</a></p></section>
+  <section class="sources"><h2>المصادر</h2><ul class="mlist"><li><a href="https://eur-lex.europa.eu/eli/reg/2011/1169/oj" rel="noopener" target="_blank">لائحة الاتحاد الأوروبي 1169/2011 — معلومات الأغذية وقوائم المكوّنات</a></li><li><a href="https://www.food.gov.uk/" rel="noopener" target="_blank">Food Standards Agency (المملكة المتحدة)</a></li><li><a href="https://www.efsa.europa.eu/" rel="noopener" target="_blank">EFSA — الهيئة الأوروبية لسلامة الأغذية (المضافات الغذائية)</a></li></ul></section>
+  <p class="disclaimer">كُتب استنادًا إلى المصادر أدناه، ولم يراجعه طبيب. ليس نصيحة طبية. <a href="/ar/dishes/how-we-count/">كيف نحسب →</a></p>
+</main>
+<footer><div class="wrap">
+  <a href="/ar/">الرئيسية</a><a href="/privacy">الخصوصية</a><a href="/terms">الشروط</a>
+  <span class="langs"><a href="/guides/halal/" hreflang="en">English</a><a href="/ru/guides/halal/" hreflang="ru">Русский</a><a href="/ar/guides/halal/" hreflang="ar">العربية</a><a href="/it/guides/halal/" hreflang="it">Italiano</a><a href="/el/guides/halal/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

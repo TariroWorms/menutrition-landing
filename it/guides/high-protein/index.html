@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- Diet / allergy guide (/guides/<slug>/ …), texts in guides.json. Styles come from template.html. -->
+<html lang="it" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dieta iperproteica: di quante proteine hai bisogno e le fonti migliori — Me Nutrition</title>
+<meta name="description" content="Dieta iperproteica: quante proteine servono agli adulti, a chi ne servono di più, le fonti migliori, cosa limitare e chi deve chiedere al medico — con piatti." />
+<link rel="canonical" href="https://menutrition.app/it/guides/high-protein/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/guides/high-protein/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/guides/high-protein/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/guides/high-protein/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/guides/high-protein/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/guides/high-protein/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "Dieta iperproteica: di quante proteine hai bisogno e le fonti migliori", "description": "Dieta iperproteica: quante proteine servono agli adulti, a chi ne servono di più, le fonti migliori, cosa limitare e chi deve chiedere al medico — con piatti.", "inLanguage": "it", "url": "https://menutrition.app/it/guides/high-protein/", "lastReviewed": "2026-10-14", "publisher": {"@type": "Organization", "name": "Me Nutrition", "url": "https://menutrition.app/"}}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/it/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>IT</summary><div class="lm"><a href="/guides/high-protein/" hreflang="en">English</a><a href="/ru/guides/high-protein/" hreflang="ru">Русский</a><a href="/ar/guides/high-protein/" hreflang="ar">العربية</a><a href="/it/guides/high-protein/" hreflang="it" class="on">Italiano</a><a href="/el/guides/high-protein/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/it/dishes/">Piatti</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Scarica</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/it/">Home</a> › Diete e allergie › Dieta iperproteica</nav>
+  <h1><span class="gh">💪</span>Dieta iperproteica</h1>
+  <p class="intro">Le proteine costruiscono e riparano muscoli, ossa, pelle ed enzimi, e ti saziano più a lungo. Una dieta iperproteica mette <strong>gli alimenti ricchi di proteine al centro di ogni pasto</strong> — spesso per favorire la perdita di peso, l&#x27;allenamento o un invecchiamento in salute. <em>La maggior parte degli adulti in Europa e negli Stati Uniti mangia già più proteine dell&#x27;assunzione di riferimento.</em></p>
+  <section class="gs info"><h2><span class="gi">🔬</span>Cosa significa</h2><p>L&#x27;EFSA e l&#x27;OMS fissano l&#x27;assunzione di riferimento per gli adulti sani a <strong>circa 0,8–0,83 g di proteine per kg di peso corporeo al giorno</strong> — circa 56 g per un adulto di 70 kg. Questo copre il fabbisogno di quasi tutti.</p><p><strong>Alcune persone potrebbero averne bisogno di più</strong>: gli anziani (per aiutare a mantenere i muscoli), chi si allena intensamente e le donne in gravidanza o che allattano. <em>Quanto di più dipende dalla persona — un medico o un dietista può consigliarti.</em></p><p>Su questo sito un piatto è segnato come <strong>ricco di proteine quando ha ≥ 10 g di proteine per 100 g e almeno il 25% delle sue calorie proviene dalle proteine</strong>.</p></section><section class="gs can"><h2><span class="gi">✅</span>Cosa puoi mangiare</h2><ul class="glist"><li><span class="ie">🐟</span><span><strong>Pesce e frutti di mare</strong>, compreso il pesce grasso come salmone o sgombro.</span></li><li><span class="ie">🍗</span><span><strong>Pollame e carne magra</strong> — freschi piuttosto che lavorati.</span></li><li><span class="ie">🥚</span><span><strong>Uova, fiocchi di latte, yogurt greco bianco, skyr e formaggio.</strong></span></li><li><span class="ie">🫘</span><span><strong>Fagioli, lenticchie, ceci, tofu e tempeh</strong> — proteine più fibre.</span></li><li><span class="ie">🌰</span><span>Frutta secca e semi <em>(anche molto calorici, quindi attenzione alla porzione)</em>.</span></li></ul></section><section class="gs avoid"><h2><span class="gi">🚫</span>Cosa limitare</h2><ul class="glist"><li><span class="ie">🌭</span><span><strong>Carne lavorata</strong>: salsicce, bacon, prosciutto, salame — associata al tumore del colon-retto e ricca di sale.</span></li><li><span class="ie">🥩</span><span><strong>Grandi quantità di carne rossa</strong>: gli enti sanitari consigliano di consumarla con moderazione.</span></li><li><span class="ie">🍫</span><span><strong>Barrette e snack proteici</strong> che sono per lo più zucchero o dolcificanti con proteine aggiunte.</span></li><li><span class="ie">🍞</span><span>Eliminare verdura, frutta e cereali integrali per “fare spazio” alle proteine — apportano fibre, che carne, pesce, uova e latticini non contengono, oltre a vitamine e minerali.</span></li></ul></section><section class="gs risk"><h2><span class="gi">⚠️</span>Troppe proteine fanno male?</h2><p>Per le persone sane, mangiare un po&#x27; più di proteine rispetto all&#x27;assunzione di riferimento <strong>non risulta dannoso</strong>. La domanda più importante è da dove provengono: <strong>molta carne lavorata e rossa</strong> è associata al tumore del colon-retto, e le carni grasse aggiungono grassi saturi.</p><p><strong>In caso di malattia renale, assunzioni di proteine molto elevate possono affaticare ulteriormente i reni</strong> e potrebbero accelerarne il declino — per questo i medici a volte limitano le proteine.</p><p>La scomposizione delle proteine produce scorie che lasciano il corpo con le urine, quindi <strong>bevi abbastanza acqua</strong>. Una dieta ricca di carne e povera di vegetali può anche causare <strong>stitichezza</strong> perché contiene troppo poche fibre.</p></section><section class="gs urgent"><h2><span class="gi">🚑</span>Quando consultare un medico</h2><p><strong>Se hai una malattia renale, oppure diabete o pressione alta che interessano i reni, chiedi al tuo medico prima di aumentare le proteine.</strong> Verifica anche se un medico ti ha mai detto di limitare le proteine. Se pensi di usare frullati o integratori proteici in gravidanza o per un bambino, chiedi prima.</p></section><section class="gs app"><h2><span class="gi">📱</span>Come ti aiuta <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span></h2><p>Ogni piatto nell&#x27;app e su questo sito mostra le sue etichette dietetiche, tra cui ricco di proteine, e i principali allergeni di una ricetta tipica, con l&#x27;ingrediente decisivo. <em>Le ricette variano, quindi chiedi sempre conferma a chi ha cucinato il piatto.</em></p></section>
+  <section><h2>Piatti adatti: 585</h2><div class="chips gl"><a class="chip" href="/it/dishes/abbacchio-alla-scottadito/">🍖 Abbacchio alla scottadito</a><a class="chip" href="/it/dishes/antipasto-misto/">🫒 Antipasto misto</a><a class="chip" href="/it/dishes/arista-di-maiale/">🍖 Arista</a><a class="chip" href="/it/dishes/baccala-alla-vicentina/">🐟 Baccalà alla vicentina</a><a class="chip" href="/it/dishes/baccala-fritto/">🐟 Baccalà fritto</a><a class="chip" href="/it/dishes/baccala-mantecato/">🐟 Baccalà mantecato</a><a class="chip" href="/it/dishes/bistecca-alla-fiorentina/">🥩 Bistecca alla fiorentina</a><a class="chip" href="/it/dishes/bollito-misto/">🍖 Bollito misto</a><a class="chip" href="/it/dishes/branzino-al-forno/">🐟 Branzino al forno</a><a class="chip" href="/it/dishes/branzino-alla-griglia/">🐟 Branzino alla griglia</a><a class="chip" href="/it/dishes/bresaola-rucola-parmigiano/">🥩 Bresaola, rucola e parmigiano</a><a class="chip" href="/it/dishes/calamari-fritti/">🦑 Calamari fritti</a><a class="chip" href="/it/dishes/carpaccio-boeuf/">🥩 Carpaccio de bœuf</a><a class="chip" href="/it/dishes/carpaccio/">🥩 Carpaccio di manzo</a><a class="chip" href="/it/dishes/carpaccio-di-manzo/">🥩 Carpaccio di manzo</a><a class="chip" href="/it/dishes/carpaccio-di-polpo/">🐙 Carpaccio di polpo</a><a class="chip" href="/it/dishes/coda-alla-vaccinara/">🍖 Coda alla vaccinara</a><a class="chip" href="/it/dishes/coniglio-alla-cacciatora/">🍅 Coniglio alla cacciatora</a><a class="chip" href="/it/dishes/cotoletta-alla-milanese/">🍖 Cotoletta alla milanese</a><a class="chip" href="/it/dishes/cozze-alla-marinara/">🦪 Cozze alla marinara</a><a class="chip" href="/it/dishes/crudo-di-pesce/">🐟 Crudo di pesce</a><a class="chip" href="/it/dishes/fritto-misto-di-pesce/">🐟 Fritto misto di pesce</a><a class="chip" href="/it/dishes/gamberi-alla-griglia/">🦐 Gamberi alla griglia</a><a class="chip" href="/it/dishes/insalata-di-mare/">🦐 Insalata di mare</a><a class="chip" href="/it/dishes/insalata-di-polpo/">🐙 Insalata di polpo</a><a class="chip" href="/it/dishes/involtini-di-vitello/">🥩 Involtini di vitello</a><a class="chip" href="/it/dishes/orata-al-forno/">🐟 Orata al forno</a><a class="chip" href="/it/dishes/osso-buco/">🍖 Ossobuco</a><a class="chip" href="/it/dishes/ossobuco-alla-milanese/">🍖 Ossobuco alla milanese</a><a class="chip" href="/it/dishes/pesce-spada-alla-griglia/">🐟 Pesce spada alla griglia</a><a class="chip" href="/it/dishes/piccata-milanese/">🍋 Piccata milanese (piccata di vitello)</a><a class="chip" href="/it/dishes/chicken-cacciatore/">🍗 Pollo alla cacciatora</a><a class="chip" href="/it/dishes/pollo-alla-cacciatora/">🍗 Pollo alla cacciatora</a><a class="chip" href="/it/dishes/pollo-alla-diavola/">🌶️ Pollo alla diavola</a><a class="chip" href="/it/dishes/polpette-al-sugo/">🍝 Polpette al sugo</a><a class="chip" href="/it/dishes/porchetta/">🥩 Porchetta</a><a class="chip" href="/it/dishes/saltimbocca/">🥩 Saltimbocca</a><a class="chip" href="/it/dishes/saltimbocca-alla-romana/">🥩 Saltimbocca alla romana</a><a class="chip" href="/it/dishes/sarde-in-saor/">🐟 Sarde in saor</a><a class="chip" href="/it/dishes/scaloppine-ai-funghi/">🍄 Scaloppine ai funghi</a><a class="chip" href="/it/dishes/scaloppine-al-marsala/">🍷 Scaloppine al Marsala</a><a class="chip" href="/it/dishes/scaloppine-al-limone/">🍋 Scaloppine al limone</a><a class="chip" href="/it/dishes/seppia-alla-griglia/">🦑 Seppia alla griglia</a><a class="chip" href="/it/dishes/spezzatino-di-manzo/">🍲 Spezzatino di manzo</a><a class="chip" href="/it/dishes/stracotto-di-manzo/">🍖 Stracotto di manzo</a><a class="chip" href="/it/dishes/tagliata-di-manzo/">🥩 Tagliata di manzo</a><a class="chip" href="/it/dishes/tartare-di-tonno/">🐟 Tartare di tonno</a><a class="chip" href="/it/dishes/tonno-alla-siciliana/">🐟 Tonno alla siciliana</a><a class="chip" href="/it/dishes/trippa-alla-romana/">🍲 Trippa alla romana</a><a class="chip" href="/it/dishes/vitello-tonnato/">🥩 Vitello tonnato</a><a class="chip" href="/it/dishes/duck-a-lorange/">🦆 Anatra all&#x27;arancia</a><a class="chip" href="/it/dishes/canard-confit-lentilles/">🦆 Anatra confit con lenticchie</a><a class="chip" href="/it/dishes/ris-de-veau/">🍖 Animelle di vitello</a><a class="chip" href="/it/dishes/bavette-echalotes/">🥩 Bavette à l&#x27;échalote (bavetta di manzo allo scalogno)</a><a class="chip" href="/it/dishes/steak-au-poivre/">🥩 Bistecca al pepe</a><a class="chip" href="/it/dishes/steak-cheval/">🥩 Bistecca di cavallo</a><a class="chip" href="/it/dishes/blanquette-de-veau/">🥘 Blanquette de veau</a><a class="chip" href="/it/dishes/blanquette-de-poulet/">🍗 Blanquette di pollo</a><a class="chip" href="/it/dishes/boeuf-bourguignon/">🍷 Boeuf bourguignon</a><a class="chip" href="/it/dishes/boeuf-en-daube/">🥘 Boeuf en daube (stufato di manzo provenzale)</a></div><p class="note"><a href="/it/dishes/">e altri 525 nell&#x27;elenco dei piatti →</a></p></section>
+  <section class="sources"><h2>Fonti</h2><ul class="mlist"><li><a href="https://www.efsa.europa.eu/" rel="noopener" target="_blank">EFSA — Valori dietetici di riferimento</a></li><li><a href="https://www.hsph.harvard.edu/nutritionsource/" rel="noopener" target="_blank">Harvard T.H. Chan School of Public Health — The Nutrition Source</a></li><li><a href="https://www.who.int/" rel="noopener" target="_blank">Organizzazione Mondiale della Sanità — Nutrizione</a></li><li><a href="https://www.nhs.uk/live-well/eat-well/" rel="noopener" target="_blank">NHS — Alimentazione sana</a></li></ul></section>
+  <p class="disclaimer">Scritto sulla base delle fonti qui sotto; non rivisto da un medico. Non è un consiglio medico. <a href="/it/dishes/how-we-count/">Come calcoliamo →</a></p>
+</main>
+<footer><div class="wrap">
+  <a href="/it/">Home</a><a href="/privacy">Privacy</a><a href="/terms">Termini</a>
+  <span class="langs"><a href="/guides/high-protein/" hreflang="en">English</a><a href="/ru/guides/high-protein/" hreflang="ru">Русский</a><a href="/ar/guides/high-protein/" hreflang="ar">العربية</a><a href="/it/guides/high-protein/" hreflang="it">Italiano</a><a href="/el/guides/high-protein/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

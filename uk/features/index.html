@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- Feature page (/features/<slug>/ …), texts in tools/features/features.json. Styles come from tools/dishes/template.html + below. -->
+<html lang="uk" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Функції Me Nutrition: ШІ-лічильник калорій за фото — Me Nutrition</title>
+<meta name="description" content="Калорії за фото, сканер меню ресторанів, зважування за фото та калорії на замкненому екрані — що вміє Me Nutrition і як це працює." />
+<link rel="canonical" href="https://menutrition.app/uk/features/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/features/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/features/" />
+<link rel="alternate" hreflang="de" href="https://menutrition.app/de/features/" />
+<link rel="alternate" hreflang="es" href="https://menutrition.app/es/features/" />
+<link rel="alternate" hreflang="fr" href="https://menutrition.app/fr/features/" />
+<link rel="alternate" hreflang="he" href="https://menutrition.app/he/features/" />
+<link rel="alternate" hreflang="hi" href="https://menutrition.app/hi/features/" />
+<link rel="alternate" hreflang="id" href="https://menutrition.app/id/features/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/features/" />
+<link rel="alternate" hreflang="ja" href="https://menutrition.app/ja/features/" />
+<link rel="alternate" hreflang="ko" href="https://menutrition.app/ko/features/" />
+<link rel="alternate" hreflang="nl" href="https://menutrition.app/nl/features/" />
+<link rel="alternate" hreflang="pl" href="https://menutrition.app/pl/features/" />
+<link rel="alternate" hreflang="pt" href="https://menutrition.app/pt/features/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/features/" />
+<link rel="alternate" hreflang="sv" href="https://menutrition.app/sv/features/" />
+<link rel="alternate" hreflang="th" href="https://menutrition.app/th/features/" />
+<link rel="alternate" hreflang="tr" href="https://menutrition.app/tr/features/" />
+<link rel="alternate" hreflang="uk" href="https://menutrition.app/uk/features/" />
+<link rel="alternate" hreflang="vi" href="https://menutrition.app/vi/features/" />
+<link rel="alternate" hreflang="zh" href="https://menutrition.app/zh/features/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<style>
+.fhero{display:grid;gap:24px;align-items:center;margin-top:6px}
+.fshot{display:block;width:100%;max-width:340px;height:auto;margin:6px auto 0;border-radius:28px;box-shadow:0 26px 70px -28px rgba(39,35,32,.45)}
+.steps{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px}
+.steps li{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:18px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.steps .sn{flex:none;width:34px;height:34px;border-radius:50%;background:var(--teal);color:#fff;font-weight:800;display:grid;place-items:center}
+.steps .ie{margin-inline-start:auto;font-size:28px;flex:none}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin-top:10px}
+.faq summary{cursor:pointer;font-weight:700;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";float:right;color:var(--teal);font-weight:800}
+[dir=rtl] .faq summary::after{float:left}
+.faq[open] summary::after{content:"−"}
+.faq p{margin:10px 0 0;color:var(--muted)}
+.flinks{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-weight:700}
+.flinks a{color:var(--teal);text-decoration:none}
+.fidx a{align-items:flex-start}.fidx a div span{font-weight:500;margin-top:4px}
+@media (min-width:760px){.fhero.has-shot{grid-template-columns:1.1fr .9fr}}
+</style>
+
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/uk/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>UK</summary><div class="lm"><a href="/features/" hreflang="en">English</a><a href="/ar/features/" hreflang="ar">العربية</a><a href="/de/features/" hreflang="de">Deutsch</a><a href="/es/features/" hreflang="es">Español</a><a href="/fr/features/" hreflang="fr">Français</a><a href="/he/features/" hreflang="he">עברית</a><a href="/hi/features/" hreflang="hi">हिन्दी</a><a href="/id/features/" hreflang="id">Indonesia</a><a href="/it/features/" hreflang="it">Italiano</a><a href="/ja/features/" hreflang="ja">日本語</a><a href="/ko/features/" hreflang="ko">한국어</a><a href="/nl/features/" hreflang="nl">Nederlands</a><a href="/pl/features/" hreflang="pl">Polski</a><a href="/pt/features/" hreflang="pt">Português</a><a href="/ru/features/" hreflang="ru">Русский</a><a href="/sv/features/" hreflang="sv">Svenska</a><a href="/th/features/" hreflang="th">ไทย</a><a href="/tr/features/" hreflang="tr">Türkçe</a><a href="/uk/features/" hreflang="uk" class="on">Українська</a><a href="/vi/features/" hreflang="vi">Tiếng Việt</a><a href="/zh/features/" hreflang="zh">中文</a></div></details><a class="hl" href="/uk/features/">Функції</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Завантажити</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/uk/">Головна</a> › <a href="/uk/features/">Функції</a></nav>
+  <div class="fhero"><div>
+    <h1><span class="gh">✨</span>Функції</h1>
+    <p class="intro">Усе, що робить <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span>, щоб рахувати калорії було легко.</p>
+  </div></div>
+  
+  
+  
+  <section class="cta"><h2>Спробуйте <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> безкоштовно</h2><p>3 дні безкоштовно, далі підписка — скасувати можна будь-коли в налаштуваннях App Store. Уже на iPhone, Android — незабаром.</p><a href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">Завантажити в App Store</a></section>
+  <section class="fsec"><h2>Інші функції</h2><div class="related fidx"><a href="/uk/features/photo-calories/"><span class="em">📸</span><div>Калорії за фото<span>Сфотографуйте весь стіл — кожна страва з власними калоріями та БЖВ. З’їли половину? Посуньте повзунок.</span></div></a><a href="/uk/features/menu-scanner/"><span class="em">🍽️</span><div>Сканер меню ресторанів<span>Наведіть камеру на меню — калорії з’являться над кожною стравою ще до замовлення.</span></div></a><a href="/uk/features/weight-by-photo/"><span class="em">⚖️</span><div>Зважування за фото<span>Станьте на ваги й сфотографуйте екран: вага запишеться сама, а графік і прогноз до мети оновляться.</span></div></a><a href="/uk/features/lock-screen-calories/"><span class="em">🔒</span><div>Калорії на замкненому екрані<span>Скільки калорій лишилося на сьогодні, видно просто на замкненому екрані та в Dynamic Island — відкривати застосунок не треба.</span></div></a></div><div class="flinks"><a href="/dishes/">Калорії понад 2400 страв →</a><a href="/guides/">Довідник з дієт та алергій →</a></div></section>
+</main>
+<footer><div class="wrap">
+  <a href="/uk/">Головна</a><a href="/privacy">Конфіденційність</a><a href="/terms">Умови</a>
+  <span class="langs"><a href="/features/" hreflang="en">English</a><a href="/ar/features/" hreflang="ar">العربية</a><a href="/de/features/" hreflang="de">Deutsch</a><a href="/es/features/" hreflang="es">Español</a><a href="/fr/features/" hreflang="fr">Français</a><a href="/he/features/" hreflang="he">עברית</a><a href="/hi/features/" hreflang="hi">हिन्दी</a><a href="/id/features/" hreflang="id">Indonesia</a><a href="/it/features/" hreflang="it">Italiano</a><a href="/ja/features/" hreflang="ja">日本語</a><a href="/ko/features/" hreflang="ko">한국어</a><a href="/nl/features/" hreflang="nl">Nederlands</a><a href="/pl/features/" hreflang="pl">Polski</a><a href="/pt/features/" hreflang="pt">Português</a><a href="/ru/features/" hreflang="ru">Русский</a><a href="/sv/features/" hreflang="sv">Svenska</a><a href="/th/features/" hreflang="th">ไทย</a><a href="/tr/features/" hreflang="tr">Türkçe</a><a href="/uk/features/" hreflang="uk">Українська</a><a href="/vi/features/" hreflang="vi">Tiếng Việt</a><a href="/zh/features/" hreflang="zh">中文</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

@@ -108,6 +108,19 @@ footer a{text-decoration:none}
 .countries summary::-webkit-details-marker{display:none}
 .group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
 .empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
 .mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
 .disclaimer a{color:var(--teal);font-weight:600}
 [hidden]{display:none!important}
@@ -136,12 +149,12 @@ footer a{text-decoration:none}
 
   <section>
     <h2>Diets</h2>
-    <div class="labels"><div class="label yes"><div class="ic">✓</div><div><b>Vegetarian</b><span>no meat or fish in a typical recipe</span></div></div><div class="label yes"><div class="ic">✓</div><div><b>No pork</b></div></div><div class="label no"><div class="ic">✕</div><div><b>Not vegan</b><span>because of: semolina custard, butter</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Contains gluten</b><span>because of: phyllo pastry, semolina custard</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Contains dairy</b><span>because of: semolina custard, butter</span></div></div><div class="label no"><div class="ic">✕</div><div><b>Not keto</b><span>42 g carbs per 100 g</span></div></div></div>
+    <div class="labels"><div class="label yes"><div class="ic">✓</div><div><b><a href="/guides/vegetarian/">Vegetarian</a></b><span>no meat or fish in a typical recipe</span></div></div><div class="label yes"><div class="ic">✓</div><div><b><a href="/guides/halal/">No pork</a></b></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/guides/vegan/">Not vegan</a></b><span>because of: semolina custard, butter</span></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/guides/gluten-free/">Contains gluten</a></b><span>because of: phyllo pastry, semolina custard</span></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/guides/dairy-free/">Contains dairy</a></b><span>because of: semolina custard, butter</span></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/guides/keto/">Not keto</a></b><span>42 g carbs per 100 g</span></div></div></div>
   </section>
 
   <section>
     <h2>Allergens</h2>
-    <p class="note">Contains (in a typical recipe):</p><div class="chips"><span class="chip warn">⚠ Gluten</span><span class="chip warn">⚠ Eggs</span><span class="chip warn">⚠ Milk</span></div>
+    <p class="note">Contains (in a typical recipe):</p><div class="chips"><a class="chip warn" href="/guides/gluten-free/">⚠ Gluten</a><a class="chip warn" href="/guides/egg-allergy/">⚠ Eggs</a><a class="chip warn" href="/guides/dairy-free/">⚠ Milk</a></div>
   </section>
 
   <section>

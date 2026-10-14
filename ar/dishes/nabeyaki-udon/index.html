@@ -108,6 +108,19 @@ footer a{text-decoration:none}
 .countries summary::-webkit-details-marker{display:none}
 .group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
 .empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
 .mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
 .disclaimer a{color:var(--teal);font-weight:600}
 [hidden]{display:none!important}
@@ -136,12 +149,12 @@ footer a{text-decoration:none}
 
   <section>
     <h2>الأنظمة الغذائية</h2>
-    <div class="labels"><div class="label yes"><div class="ic">✓</div><div><b>بدون لحم خنزير</b><span>ليكون حلالًا يجب أن يكون اللحم مذبوحًا على الطريقة الإسلامية</span></div></div><div class="label yes"><div class="ic">✓</div><div><b>خالٍ من الألبان</b><span>لا حليب ولا جبن ولا زبدة ولا لبن في الوصفة المعتادة</span></div></div><div class="label no"><div class="ic">✕</div><div><b>غير نباتي</b><span>بسبب: داشي, دجاج, تيمبورا الروبيان</span></div></div><div class="label no"><div class="ic">✕</div><div><b>ليس نباتيًا صرفًا</b><span>بسبب: داشي, دجاج, بيض, تيمبورا الروبيان</span></div></div><div class="label no"><div class="ic">✕</div><div><b>يحتوي على الغلوتين</b><span>بسبب: نودلز أودون, تيمبورا الروبيان</span></div></div><div class="label no"><div class="ic">✕</div><div><b>غير مناسب للكيتو</b><span>20 غ كربوهيدرات لكل 100 غ</span></div></div></div>
+    <div class="labels"><div class="label yes"><div class="ic">✓</div><div><b><a href="/ar/guides/halal/">بدون لحم خنزير</a></b><span>ليكون حلالًا يجب أن يكون اللحم مذبوحًا على الطريقة الإسلامية</span></div></div><div class="label yes"><div class="ic">✓</div><div><b><a href="/ar/guides/dairy-free/">خالٍ من الألبان</a></b><span>لا حليب ولا جبن ولا زبدة ولا لبن في الوصفة المعتادة</span></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/ar/guides/vegetarian/">غير نباتي</a></b><span>بسبب: داشي, دجاج, تيمبورا الروبيان</span></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/ar/guides/vegan/">ليس نباتيًا صرفًا</a></b><span>بسبب: داشي, دجاج, بيض, تيمبورا الروبيان</span></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/ar/guides/gluten-free/">يحتوي على الغلوتين</a></b><span>بسبب: نودلز أودون, تيمبورا الروبيان</span></div></div><div class="label no"><div class="ic">✕</div><div><b><a href="/ar/guides/keto/">غير مناسب للكيتو</a></b><span>20 غ كربوهيدرات لكل 100 غ</span></div></div></div>
   </section>
 
   <section>
     <h2>مسببات الحساسية</h2>
-    <p class="note">يحتوي (في الوصفة المعتادة):</p><div class="chips"><span class="chip warn">⚠ الغلوتين</span><span class="chip warn">⚠ القشريات</span><span class="chip warn">⚠ البيض</span><span class="chip warn">⚠ السمك</span><span class="chip warn">⚠ الصويا</span></div>
+    <p class="note">يحتوي (في الوصفة المعتادة):</p><div class="chips"><a class="chip warn" href="/ar/guides/gluten-free/">⚠ الغلوتين</a><a class="chip warn" href="/ar/guides/shellfish-allergy/">⚠ القشريات</a><a class="chip warn" href="/ar/guides/egg-allergy/">⚠ البيض</a><a class="chip warn" href="/ar/guides/fish-allergy/">⚠ السمك</a><a class="chip warn" href="/ar/guides/soy-allergy/">⚠ الصويا</a></div>
   </section>
 
   <section>

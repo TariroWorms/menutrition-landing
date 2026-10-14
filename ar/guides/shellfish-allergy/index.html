@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!-- Diet / allergy guide (/guides/<slug>/ …), texts in guides.json. Styles come from template.html. -->
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>حساسية القشريات: ما يجب تجنّبه، المصادر الخفية، الحساسية المفرطة — Me Nutrition</title>
+<meta name="description" content="ما هي حساسية القشريات، وأي الأطعمة تحتوي على الروبيان (الجمبري) أو السلطعون أو الكركند، والمصادر الخفية، وعلامات التفاعل، ومتى تطلب المساعدة." />
+<link rel="canonical" href="https://menutrition.app/ar/guides/shellfish-allergy/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/guides/shellfish-allergy/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/guides/shellfish-allergy/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/guides/shellfish-allergy/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/guides/shellfish-allergy/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/guides/shellfish-allergy/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MedicalWebPage", "name": "حساسية القشريات: ما يجب تجنّبه، المصادر الخفية، الحساسية المفرطة", "description": "ما هي حساسية القشريات، وأي الأطعمة تحتوي على الروبيان (الجمبري) أو السلطعون أو الكركند، والمصادر الخفية، وعلامات التفاعل، ومتى تطلب المساعدة.", "inLanguage": "ar", "url": "https://menutrition.app/ar/guides/shellfish-allergy/", "lastReviewed": "2026-10-14", "publisher": {"@type": "Organization", "name": "Me Nutrition", "url": "https://menutrition.app/"}}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/ar/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>AR</summary><div class="lm"><a href="/guides/shellfish-allergy/" hreflang="en">English</a><a href="/ru/guides/shellfish-allergy/" hreflang="ru">Русский</a><a href="/ar/guides/shellfish-allergy/" hreflang="ar" class="on">العربية</a><a href="/it/guides/shellfish-allergy/" hreflang="it">Italiano</a><a href="/el/guides/shellfish-allergy/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/ar/dishes/">الأطباق</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">تحميل</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/ar/">الرئيسية</a> › الأنظمة الغذائية والحساسية › حساسية القشريات (المأكولات البحرية القشرية)</nav>
+  <h1><span class="gh">🦐</span>حساسية القشريات (المأكولات البحرية القشرية)</h1>
+  <p class="intro">حساسية القشريات — الروبيان (الجمبري) بأحجامه، والسلطعون (الكابوريا)، والكركند (جراد البحر)، وكركند المياه العذبة، واللانغوستين — هي <strong>من أكثر أنواع الحساسية الغذائية شيوعًا لدى البالغين</strong>. قد تبدأ في أي عمر، و<strong>غالبًا ما تستمر مدى الحياة</strong>، وقد تسبب تفاعلات شديدة، لذلك يتم التعامل معها <strong>بتجنّب القشريات تمامًا</strong>.</p>
+  <section class="gs info"><h2><span class="gi">🔬</span>ماذا يعني ذلك</h2><p>يخطئ الجهاز المناعي فيعتبر البروتينات الموجودة في لحم القشريات تهديدًا، فيطلق مواد كيميائية مثل الهيستامين. <strong>حتى الكمية الصغيرة قد تثير تفاعلًا</strong> لدى بعض الأشخاص، و_لدى البعض يكفي حتى البخار المتصاعد من طهي القشريات_.</p><p>القشريات والرخويات (الحبار، بلح البحر، المحار) <strong>مجموعتان منفصلتان من مسببات الحساسية</strong>، لكن بعض الأشخاص يتفاعلون مع كلتيهما. أما حساسية السمك فهي حساسية مختلفة تمامًا: الحساسية من أحدهما لا تعني الحساسية من الآخر. يمكن لطبيب الحساسية أن يحدد بالفحوص أي المأكولات البحرية آمنة لك.</p></section><section class="gs can"><h2><span class="gi">✅</span>ما الذي يمكنك تناوله</h2><p>كل ما لا يحتوي على القشريات أو آثار منها. اللحوم الطبيعية والبيض ومنتجات الألبان والحبوب والفواكه والخضروات خالية منها بطبيعتها. أما ما إذا كان السمك والرخويات آمنة لك فيعتمد على نتائج فحوصك — اسأل طبيب الحساسية.</p></section><section class="gs avoid"><h2><span class="gi">🚫</span>ما الذي يجب تجنّبه</h2><ul class="glist"><li><span class="ie">🦐</span><span><strong>القشريات بجميع أشكالها</strong>: الروبيان (الجمبري) الصغير والكبير، السلطعون، الكركند، كركند المياه العذبة، اللانغوستين، السكامبي، الكريل.</span></li><li><span class="ie">🥘</span><span><strong>الأطباق التي تحتوي عليها عادةً</strong>: الباييا، الغامبو، الجامبالايا، البيسك، البويابيس، توم يام، لاكسا، تمبورا الروبيان، هار غاو وغيرها من الديم سام، المعكرونة بثمار البحر والسوشي.</span></li><li><span class="ie">🥫</span><span><strong>مصادر خفية</strong>: معجون الروبيان <em>(بيلاكان، كابي)</em>، الروبيان المجفف، صلصة XO، كثير من معاجين الكاري التايلاندي والسامبال، مرق ونكهات المأكولات البحرية، رقائق الروبيان. <em>أصابع السلطعون (السوريمي) تُصنع أساسًا من السمك لكنها قد تحتوي على السلطعون — تحقّق من الملصق.</em></span></li><li><span class="ie">🏷️</span><span><strong>الملصقات</strong>: في الاتحاد الأوروبي والمملكة المتحدة يجب إبراز القشريات في قائمة المكونات. عبارة «قد يحتوي على قشريات» تعني وجود خطر لوجود آثار منها — وينصح معظم أطباء الحساسية بتجنّب هذه المنتجات.</span></li><li><span class="ie">🍽️</span><span><strong>التلامس المتبادل</strong>: المقالي والشوايات والووك وماء الطهي المشتركة في مطاعم المأكولات البحرية؛ وغالبًا ما تُطهى أطباق السمك بجوار الروبيان. أخبر العاملين بالحساسية في كل مرة.</span></li></ul></section><section class="gs risk"><h2><span class="gi">⚠️</span>ماذا يحدث أثناء التفاعل التحسسي</h2><p>تبدأ الأعراض عادةً خلال دقائق إلى ساعتين: حكة في الفم، شرى (طفح جلدي مثير للحكة)، احمرار، تورّم الشفتين أو الوجه، ألم في البطن، قيء، عطاس أو سيلان الأنف.</p><p>أما التفاعل الشديد — <strong>الحساسية المفرطة (التأق)</strong> — فيؤثر في التنفس أو الدورة الدموية: تورّم اللسان أو الحلق، بحّة في الصوت، أزيز في الصدر، صعوبة في التنفس، شعور بالإغماء، شحوب الجلد أو برودته ورطوبته، انهيار. <strong>قد يتطور بسرعة ويهدد الحياة</strong>.</p><p>إن كان التفاعل السابق خفيفًا، <strong>فهذا لا يعني أن التفاعل التالي سيكون خفيفًا</strong>. <em>نادرًا ما تزول حساسية القشريات، لذا لا تجرّب تناولها مجددًا من دون إشراف طبيب الحساسية.</em></p></section><section class="gs urgent"><h2><span class="gi">🚑</span>متى تطلب المساعدة العاجلة</h2><p>عند ظهور أي علامة من علامات الحساسية المفرطة، <strong>استخدم حاقن الأدرينالين الذاتي</strong> إن كان لديك، و<strong>اتصل بخدمات الطوارئ فورًا حتى لو تحسّنت الأعراض</strong>. استلقِ مع رفع الساقين (أو اجلس إذا كان التنفس صعبًا) ولا تقف فجأة. بعد أي تفاعل، راجع الطبيب لوضع خطة للتعامل مع الحساسية.</p></section><section class="gs app"><h2><span class="gi">📱</span>كيف يساعدك <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span></h2><p>يعرض كل طبق في التطبيق وعلى هذا الموقع مسببات الحساسية الرئيسية في وصفة نموذجية، ومنها القشريات، والمكوّن الذي يحتويها. <em>تختلف الوصفات ولا تشمل المعلومات الآثار الضئيلة، لذا تحقّق دائمًا ممن طهى الطبق.</em></p></section>
+  <section><h2>أطباق تحتوي عليه: 213</h2><div class="chips gl"><a class="chip" href="/ar/dishes/cozze-alla-marinara/">🦪 بلح البحر مارينارا</a><a class="chip" href="/ar/dishes/pizza-frutti-di-mare/">🦐 بيتزا فواكه البحر</a><a class="chip" href="/ar/dishes/gamberi-alla-griglia/">🦐 جمبري مشوي على الطريقة الإيطالية</a><a class="chip" href="/ar/dishes/risotto-seafood/">🦐 ريزوتو المأكولات البحرية</a><a class="chip" href="/ar/dishes/risotto-alla-pescatora/">🦐 ريزوتو بالمأكولات البحرية (ألا بيسكاتورا)</a><a class="chip" href="/ar/dishes/risotto-al-nero-di-seppia/">🦑 ريزوتو بحبر الحبار</a><a class="chip" href="/ar/dishes/pasta-vongole/">🍝 سباغيتي بالمحار (ألي فونغولي)</a><a class="chip" href="/ar/dishes/spaghetti-allo-scoglio/">🍝 سباغيتي بثمار البحر (ألّو سكوليو)</a><a class="chip" href="/ar/dishes/insalata-di-polpo/">🐙 سلطة الأخطبوط (إنسالاتا دي بولبو)</a><a class="chip" href="/ar/dishes/insalata-di-mare/">🦐 سلطة المأكولات البحرية الإيطالية</a><a class="chip" href="/ar/dishes/seppia-alla-griglia/">🦑 سيبيا مشوية (حبّار مشوي)</a><a class="chip" href="/ar/dishes/fritto-misto/">🍤 فريتو ميستو</a><a class="chip" href="/ar/dishes/fritto-misto-di-pesce/">🐟 فريتو ميستو دي بيشي</a><a class="chip" href="/ar/dishes/fregola-con-arselle/">🍲 فريغولا بالمحار</a><a class="chip" href="/ar/dishes/carpaccio-di-polpo/">🐙 كارباتشو الأخطبوط</a><a class="chip" href="/ar/dishes/calamarata-con-calamari/">🦑 كالاماراتا بالحبار</a><a class="chip" href="/ar/dishes/calamarata-alla-vongole/">🍝 كالاماراتا بالمحار</a><a class="chip" href="/ar/dishes/calamari-fritti/">🦑 كاليماري مقلي</a><a class="chip" href="/ar/dishes/linguine-al-granchio/">🦀 لينغويني بالسلطعون</a><a class="chip" href="/ar/dishes/linguine-alla-vongole/">🐚 لينغويني بالمحار (فونغولي)</a><a class="chip" href="/ar/dishes/moules-mariniere/">🦪 بلح البحر على طريقة البحّارة</a><a class="chip" href="/ar/dishes/bouillabaisse/">🍲 بويابيس</a><a class="chip" href="/ar/dishes/bisque-de-homard/">🦞 بيسك الكركند</a><a class="chip" href="/ar/dishes/escargots/">🐌 حلزون إسكارغو</a><a class="chip" href="/ar/dishes/escargots-bourguignonne/">🐌 حلزون على الطريقة البورغونية</a><a class="chip" href="/ar/dishes/coquilles-saint-jacques/">🐚 كوكيل سان جاك</a><a class="chip" href="/ar/dishes/tempura-udon/">🍜 أودون بالتمبورا</a><a class="chip" href="/ar/dishes/uramaki-ebi/">🍣 أوراماكي إيبي تمبورا</a><a class="chip" href="/ar/dishes/ebi-fry/">🍤 إيبي فراي (جمبري مقلي ياباني)</a><a class="chip" href="/ar/dishes/takoyaki/">🐙 تاكوياكي</a><a class="chip" href="/ar/dishes/chawanmushi/">🥚 تشاوانموشي</a><a class="chip" href="/ar/dishes/chirashi/">🍣 تشيراشي</a><a class="chip" href="/ar/dishes/chirashi-don/">🍱 تشيراشي دون</a><a class="chip" href="/ar/dishes/tempura/">🍤 تمبورا</a><a class="chip" href="/ar/dishes/tempura-shrimp/">🍤 تمبورا الروبيان</a><a class="chip" href="/ar/dishes/tendon/">🍤 تندون (أرز بالتمبورا)</a><a class="chip" href="/ar/dishes/tempura-roll/">🍣 رول تمبورا الروبيان</a><a class="chip" href="/ar/dishes/sashimi-octopus/">🐙 ساشيمي الأخطبوط</a><a class="chip" href="/ar/dishes/sashimi-scallop/">🐚 ساشيمي الإسكالوب</a><a class="chip" href="/ar/dishes/sashimi-squid/">🦑 ساشيمي الحبار (إيكا)</a><a class="chip" href="/ar/dishes/sashimi-shrimp/">🍤 ساشيمي الروبيان (إيبي)</a><a class="chip" href="/ar/dishes/sashimi-crab/">🦀 ساشيمي السلطعون</a><a class="chip" href="/ar/dishes/tempura-soba/">🍜 سوبا بالتمبورا</a><a class="chip" href="/ar/dishes/kakiage/">🍤 كاكيآغي</a><a class="chip" href="/ar/dishes/kaisu-don/">🍣 كايسن دون (طبق أرز بالمأكولات البحرية)</a><a class="chip" href="/ar/dishes/kaisendon/">🍣 كايسيندون</a><a class="chip" href="/ar/dishes/nabeyaki-udon/">🍜 نابيياكي أودون</a><a class="chip" href="/ar/dishes/nigiri-ebi/">🍤 نيغيري إيبي (جمبري)</a><a class="chip" href="/ar/dishes/nigiri-octopus/">🐙 نيغيري الأخطبوط (تاكو)</a><a class="chip" href="/ar/dishes/nigiri-scallop/">🍣 نيغيري الإسكالوب (هوتاتي)</a><a class="chip" href="/ar/dishes/nigiri-squid/">🦑 نيغيري الحبار (إيكا)</a><a class="chip" href="/ar/dishes/nigiri-shrimp/">🍤 نيغيري الروبيان</a><a class="chip" href="/ar/dishes/nigiri-crab/">🦀 نيغيري السلطعون</a><a class="chip" href="/ar/dishes/karides-guvec/">🦐 كاريدس غوفيتش (طاجن الجمبري)</a><a class="chip" href="/ar/dishes/midye-dolma/">🦪 ميديه دولما (بلح البحر المحشي)</a><a class="chip" href="/ar/dishes/midye-tava/">🦪 ميديه طاوا (بلح البحر المقلي)</a><a class="chip" href="/ar/dishes/prawn-balchao/">🍤 بالتشاو الروبيان</a><a class="chip" href="/ar/dishes/tandoori-prawns/">🍤 روبيان تندوري</a><a class="chip" href="/ar/dishes/prawn-masala/">🍤 روبيان ماسالا</a><a class="chip" href="/ar/dishes/prawn-curry-goan/">🍛 كاري الروبيان الغواني</a></div><p class="note"><a href="/ar/dishes/">و153 أخرى في قائمة الأطباق →</a></p></section>
+  <section class="sources"><h2>المصادر</h2><ul class="mlist"><li><a href="https://www.nhs.uk/conditions/food-allergy/" rel="noopener" target="_blank">NHS — الحساسية الغذائية</a></li><li><a href="https://www.nhs.uk/conditions/anaphylaxis/" rel="noopener" target="_blank">NHS — الحساسية المفرطة (التأق)</a></li><li><a href="https://www.foodallergy.org/" rel="noopener" target="_blank">FARE — معلومات عن الحساسية الغذائية</a></li><li><a href="https://eur-lex.europa.eu/eli/reg/2011/1169/oj" rel="noopener" target="_blank">لائحة الاتحاد الأوروبي 1169/2011 — وسم مسببات الحساسية</a></li></ul></section>
+  <p class="disclaimer">كُتب استنادًا إلى المصادر أدناه، ولم يراجعه طبيب. ليس نصيحة طبية. <a href="/ar/dishes/how-we-count/">كيف نحسب →</a></p>
+</main>
+<footer><div class="wrap">
+  <a href="/ar/">الرئيسية</a><a href="/privacy">الخصوصية</a><a href="/terms">الشروط</a>
+  <span class="langs"><a href="/guides/shellfish-allergy/" hreflang="en">English</a><a href="/ru/guides/shellfish-allergy/" hreflang="ru">Русский</a><a href="/ar/guides/shellfish-allergy/" hreflang="ar">العربية</a><a href="/it/guides/shellfish-allergy/" hreflang="it">Italiano</a><a href="/el/guides/shellfish-allergy/" hreflang="el">Ελληνικά</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>

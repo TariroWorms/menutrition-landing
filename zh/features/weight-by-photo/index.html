@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- Feature page (/features/<slug>/ …), texts in tools/features/features.json. Styles come from tools/dishes/template.html + below. -->
+<html lang="zh" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>拍照记体重：拍一下体重秤就好 — Me Nutrition</title>
+<meta name="description" content="站上体重秤，拍下显示屏——Me Nutrition 自动记录体重，更新图表和目标预测，关注趋势而不是每天的波动。" />
+<link rel="canonical" href="https://menutrition.app/zh/features/weight-by-photo/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/features/weight-by-photo/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/features/weight-by-photo/" />
+<link rel="alternate" hreflang="de" href="https://menutrition.app/de/features/weight-by-photo/" />
+<link rel="alternate" hreflang="es" href="https://menutrition.app/es/features/weight-by-photo/" />
+<link rel="alternate" hreflang="fr" href="https://menutrition.app/fr/features/weight-by-photo/" />
+<link rel="alternate" hreflang="he" href="https://menutrition.app/he/features/weight-by-photo/" />
+<link rel="alternate" hreflang="hi" href="https://menutrition.app/hi/features/weight-by-photo/" />
+<link rel="alternate" hreflang="id" href="https://menutrition.app/id/features/weight-by-photo/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/features/weight-by-photo/" />
+<link rel="alternate" hreflang="ja" href="https://menutrition.app/ja/features/weight-by-photo/" />
+<link rel="alternate" hreflang="ko" href="https://menutrition.app/ko/features/weight-by-photo/" />
+<link rel="alternate" hreflang="nl" href="https://menutrition.app/nl/features/weight-by-photo/" />
+<link rel="alternate" hreflang="pl" href="https://menutrition.app/pl/features/weight-by-photo/" />
+<link rel="alternate" hreflang="pt" href="https://menutrition.app/pt/features/weight-by-photo/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/features/weight-by-photo/" />
+<link rel="alternate" hreflang="sv" href="https://menutrition.app/sv/features/weight-by-photo/" />
+<link rel="alternate" hreflang="th" href="https://menutrition.app/th/features/weight-by-photo/" />
+<link rel="alternate" hreflang="tr" href="https://menutrition.app/tr/features/weight-by-photo/" />
+<link rel="alternate" hreflang="uk" href="https://menutrition.app/uk/features/weight-by-photo/" />
+<link rel="alternate" hreflang="vi" href="https://menutrition.app/vi/features/weight-by-photo/" />
+<link rel="alternate" hreflang="zh" href="https://menutrition.app/zh/features/weight-by-photo/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<style>
+:root{--paper:#F8F6F1;--card:#fff;--ink:#272320;--muted:rgba(39,35,32,.62);--line:rgba(39,35,32,.1);--teal:#2E7A6F;--teal-soft:rgba(46,122,111,.1);--gold:#B8893A;--gold-soft:rgba(201,163,91,.16);--red:#B5523B;--red-soft:rgba(181,82,59,.1)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 Manrope,system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(248,246,241,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:18px}
+.brand img{width:32px;height:32px;border-radius:22.4%}
+.bn{white-space:nowrap}.bn-gap{font-size:0}.me{color:#C9A35B}.nu{color:#358076}
+.dl{display:inline-flex;align-items:center;height:38px;padding:0 18px;border-radius:999px;background:#1d1b19;color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.crumbs{font-size:14px;color:var(--muted);margin:28px 0 10px}
+.crumbs a{text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1.05;letter-spacing:-.01em;margin:0}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
+.origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
+.intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+section{margin-top:40px}
+.nut.first{margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.nut{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.nut .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1}
+.nut .big small{font-size:16px;font-weight:700;margin-left:4px}
+.nut .lbl{font-size:13px;color:var(--muted);font-weight:600;margin-top:6px}
+.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;padding-top:20px;border-top:1px solid var(--line)}
+.macro b{display:block;font-size:20px}
+.macro span{display:block;font-size:13px;color:var(--muted);font-weight:700}
+.macro em{display:block;font-style:normal;font-size:12px;color:var(--muted)}
+.macro i{display:block;height:6px;border-radius:9px;background:var(--line);margin-top:8px;overflow:hidden}
+.macro i::after{content:"";display:block;height:100%;width:var(--w);background:var(--c)}
+.labels{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.label{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;border-radius:14px;background:var(--card);border:1px solid var(--line)}
+.label .ic{flex:0 0 24px;height:24px;margin-top:2px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px}
+.label.yes .ic{background:var(--teal-soft);color:var(--teal)}
+.label.no .ic{background:var(--red-soft);color:var(--red)}
+.label.check .ic{background:var(--gold-soft);color:var(--gold)}
+.label b{display:block}
+.label b{font-size:15px}.label span{display:block;font-size:13px;line-height:1.4;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600}
+.chip.warn{background:var(--red-soft);border-color:transparent;color:var(--red)}
+.note{font-size:14px;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;gap:16px;font-size:14px;color:var(--muted);font-weight:600;margin-bottom:14px}
+.recipe h3{font-size:16px;margin:18px 0 8px}
+.recipe ul,.recipe ol{margin:0;padding-inline-start:22px}
+.recipe li{margin:6px 0}
+.tips li{margin:8px 0}
+.history p{margin:0}
+.cta{background:#1d1b19;color:#fff;border-radius:28px;padding:28px;text-align:center}
+.cta h2{color:#fff}
+.cta p{color:rgba(255,255,255,.75);margin:0 auto 20px;max-width:520px}
+.cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
+.related .em{font-size:28px;line-height:1}
+.related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
+.disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer a{text-decoration:none}
+.langs a{margin-inline-end:10px}
+.hnav{display:flex;align-items:center;gap:18px}
+.langbox{position:relative}
+.langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
+.langbox summary::-webkit-details-marker{display:none}
+.langbox summary:hover{color:var(--teal)}
+.langbox .lm{position:absolute;top:100%;inset-inline-end:0;margin-top:6px;min-width:170px;padding:6px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 14px 40px -12px rgba(39,35,32,.3);z-index:10}
+.langbox .lm a{display:block;padding:8px 12px;border-radius:10px;font-size:14px;font-weight:600;text-decoration:none}
+.langbox .lm a:hover{background:var(--teal-soft);color:var(--teal)}
+.langbox .lm a.on{color:var(--teal)}
+.hl{font-weight:600;font-size:15px;text-decoration:none;color:var(--muted)}.hl:hover{color:var(--teal)}
+.search{display:block;width:100%;height:52px;margin-top:26px;padding:0 20px;border-radius:999px;border:1px solid var(--line);background:var(--card);font:inherit;font-size:16px;color:var(--ink);outline:none}
+.search:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--teal-soft)}
+.countries{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
+.countries a:hover{border-color:var(--teal);color:var(--teal)}
+.countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
+.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries summary::-webkit-details-marker{display:none}
+.group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
+.empty{color:var(--muted);margin-top:28px}
+.chips.gl a,a.chip{text-decoration:none}a.chip.warn:hover{text-decoration:underline}.label b a{text-decoration:none}.label b a:hover{text-decoration:underline;color:var(--teal)}.chips.gl a:hover{border-color:var(--teal);color:var(--teal)}
+.gh{display:block;font-size:64px;line-height:1;margin-bottom:12px}
+.gi{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:24px;margin-inline-end:12px;vertical-align:middle}
+.gs h2{display:flex;align-items:center}
+.gs strong,.intro strong{color:var(--ink);font-weight:700}.gs em{color:var(--muted)}
+.glist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:8px}
+.glist li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:16px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.glist .ie{font-size:24px;line-height:1.1;flex:none}
+.gs.can .glist li{border-color:rgba(46,122,111,.3);background:#F3F8F6}
+.gs.avoid .glist li{border-color:rgba(181,82,59,.25);background:#FBF3F0}
+.gs.urgent{background:#FBEDEA;border:2px solid #E3A897;border-radius:22px;padding:20px 22px}
+.gs.urgent h2{color:#9C3A24}
+.gs.urgent .gi{background:#fff;border-color:#E3A897}
+.mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
+.disclaimer a{color:var(--teal);font-weight:600}
+[hidden]{display:none!important}
+@media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
+</style>
+<style>
+.fhero{display:grid;gap:24px;align-items:center;margin-top:6px}
+.fshot{display:block;width:100%;max-width:340px;height:auto;margin:6px auto 0;border-radius:28px;box-shadow:0 26px 70px -28px rgba(39,35,32,.45)}
+.steps{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px}
+.steps li{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:18px;background:var(--card);border:1px solid var(--line);line-height:1.45}
+.steps .sn{flex:none;width:34px;height:34px;border-radius:50%;background:var(--teal);color:#fff;font-weight:800;display:grid;place-items:center}
+.steps .ie{margin-inline-start:auto;font-size:28px;flex:none}
+.faq{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin-top:10px}
+.faq summary{cursor:pointer;font-weight:700;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";float:right;color:var(--teal);font-weight:800}
+[dir=rtl] .faq summary::after{float:left}
+.faq[open] summary::after{content:"−"}
+.faq p{margin:10px 0 0;color:var(--muted)}
+.flinks{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-weight:700}
+.flinks a{color:var(--teal);text-decoration:none}
+.fidx a{align-items:flex-start}.fidx a div span{font-weight:500;margin-top:4px}
+@media (min-width:760px){.fhero.has-shot{grid-template-columns:1.1fr .9fr}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "zh", "mainEntity": [{"@type": "Question", "name": "需要智能体重秤吗？", "acceptedAnswer": {"@type": "Answer", "text": "不需要。任何带显示屏的体重秤都可以——只要拍下数字即可。"}}, {"@type": "Question", "name": "多久称一次体重比较好？", "acceptedAnswer": {"@type": "Answer", "text": "每周一次就够了。每天的体重会因水分和盐而上下波动；每周的趋势才能反映真实进展。"}}, {"@type": "Question", "name": "支持磅吗？", "acceptedAnswer": {"@type": "Answer", "text": "支持——公斤和磅都可以。"}}, {"@type": "Question", "name": "为什么我严格控制了热量，体重还是上涨了？", "acceptedAnswer": {"@type": "Answer", "text": "日常的变化主要来自水分、盐和肠道中的食物。所以图表关注的是几周内的趋势，而不是某一次称重。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Me Nutrition", "operatingSystem": "iOS", "applicationCategory": "HealthApplication", "url": "https://menutrition.app/", "downloadUrl": "https://apps.apple.com/app/id6767123368", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/zh/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>ZH</summary><div class="lm"><a href="/features/weight-by-photo/" hreflang="en">English</a><a href="/ar/features/weight-by-photo/" hreflang="ar">العربية</a><a href="/de/features/weight-by-photo/" hreflang="de">Deutsch</a><a href="/es/features/weight-by-photo/" hreflang="es">Español</a><a href="/fr/features/weight-by-photo/" hreflang="fr">Français</a><a href="/he/features/weight-by-photo/" hreflang="he">עברית</a><a href="/hi/features/weight-by-photo/" hreflang="hi">हिन्दी</a><a href="/id/features/weight-by-photo/" hreflang="id">Indonesia</a><a href="/it/features/weight-by-photo/" hreflang="it">Italiano</a><a href="/ja/features/weight-by-photo/" hreflang="ja">日本語</a><a href="/ko/features/weight-by-photo/" hreflang="ko">한국어</a><a href="/nl/features/weight-by-photo/" hreflang="nl">Nederlands</a><a href="/pl/features/weight-by-photo/" hreflang="pl">Polski</a><a href="/pt/features/weight-by-photo/" hreflang="pt">Português</a><a href="/ru/features/weight-by-photo/" hreflang="ru">Русский</a><a href="/sv/features/weight-by-photo/" hreflang="sv">Svenska</a><a href="/th/features/weight-by-photo/" hreflang="th">ไทย</a><a href="/tr/features/weight-by-photo/" hreflang="tr">Türkçe</a><a href="/uk/features/weight-by-photo/" hreflang="uk">Українська</a><a href="/vi/features/weight-by-photo/" hreflang="vi">Tiếng Việt</a><a href="/zh/features/weight-by-photo/" hreflang="zh" class="on">中文</a></div></details><a class="hl" href="/zh/features/">功能</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">下载</a></nav>
+</div></header>
+<main class="wrap">
+  <nav class="crumbs"><a href="/zh/">首页</a> › <a href="/zh/features/">功能</a></nav>
+  <div class="fhero has-shot"><div>
+    <h1><span class="gh">⚖️</span>拍照记体重</h1>
+    <p class="intro">站上体重秤，拍下显示屏：体重自动记录，图表和目标预测随之更新。</p>
+  </div><img class="fshot" src="/shots/scale_kg.webp" width="720" height="900" alt="拍照记体重" loading="lazy"></div>
+  <section class="fsec"><h2>使用方法</h2><ol class="steps"><li><span class="sn">1</span><span><strong>站上体重秤</strong>——任何普通的家用体重秤都可以。</span><span class="ie">⚖️</span></li><li><span class="sn">2</span><span><strong>拍下显示屏</strong>——或者直接输入数字。</span><span class="ie">📸</span></li><li><span class="sn">3</span><span><strong>图表和目标预测随之更新</strong>——每周一次就够了。</span><span class="ie">📈</span></li></ol></section>
+  <section class="fsec"><h2>你将获得</h2><section class="gs can"><ul class="glist"><li><span class="ie">🔢</span><span><strong>无需输入</strong>——数字直接从显示屏照片中读取。</span></li><li><span class="ie">📉</span><span><strong>看趋势，不看每天的波动</strong>——水分和盐会让体重忽高忽低；我们展示它真正的走向。</span></li><li><span class="ie">🎯</span><span><strong>目标预测</strong>——看看你大概何时达到第一个阶段目标和最终目标。</span></li><li><span class="ie">🌍</span><span><strong>公斤或磅</strong>——以你的体重秤显示为准。</span></li><li><span class="ie">💡</span><span><strong>源自用户的建议</strong>——来自马拉加的 Susie 提出了这个想法，我们把它做了出来。</span></li></ul></section></section>
+  <section class="fsec"><h2>常见问题</h2><details class="faq"><summary>需要智能体重秤吗？</summary><p>不需要。任何带显示屏的体重秤都可以——只要拍下数字即可。</p></details><details class="faq"><summary>多久称一次体重比较好？</summary><p>每周一次就够了。每天的体重会因水分和盐而上下波动；每周的趋势才能反映真实进展。</p></details><details class="faq"><summary>支持磅吗？</summary><p>支持——公斤和磅都可以。</p></details><details class="faq"><summary>为什么我严格控制了热量，体重还是上涨了？</summary><p>日常的变化主要来自水分、盐和肠道中的食物。所以图表关注的是几周内的趋势，而不是某一次称重。</p></details></section>
+  <section class="cta"><h2>免费试用 <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span></h2><p>免费试用 3 天，之后为订阅，可随时在 App Store 设置中取消。现已支持 iPhone，Android 版即将推出。</p><a href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">在 App Store 下载</a></section>
+  <section class="fsec"><h2>更多功能</h2><div class="related"><a href="/zh/features/photo-calories/"><span class="em">📸</span><div>拍照识热量</div></a><a href="/zh/features/menu-scanner/"><span class="em">🍽️</span><div>餐厅菜单扫描</div></a><a href="/zh/features/lock-screen-calories/"><span class="em">🔒</span><div>锁定屏幕显示热量</div></a></div><div class="flinks"><a href="/dishes/">查看 2,400 多道菜的热量 →</a><a href="/guides/">饮食与过敏指南 →</a></div></section>
+</main>
+<footer><div class="wrap">
+  <a href="/zh/">首页</a><a href="/privacy">隐私</a><a href="/terms">条款</a>
+  <span class="langs"><a href="/features/weight-by-photo/" hreflang="en">English</a><a href="/ar/features/weight-by-photo/" hreflang="ar">العربية</a><a href="/de/features/weight-by-photo/" hreflang="de">Deutsch</a><a href="/es/features/weight-by-photo/" hreflang="es">Español</a><a href="/fr/features/weight-by-photo/" hreflang="fr">Français</a><a href="/he/features/weight-by-photo/" hreflang="he">עברית</a><a href="/hi/features/weight-by-photo/" hreflang="hi">हिन्दी</a><a href="/id/features/weight-by-photo/" hreflang="id">Indonesia</a><a href="/it/features/weight-by-photo/" hreflang="it">Italiano</a><a href="/ja/features/weight-by-photo/" hreflang="ja">日本語</a><a href="/ko/features/weight-by-photo/" hreflang="ko">한국어</a><a href="/nl/features/weight-by-photo/" hreflang="nl">Nederlands</a><a href="/pl/features/weight-by-photo/" hreflang="pl">Polski</a><a href="/pt/features/weight-by-photo/" hreflang="pt">Português</a><a href="/ru/features/weight-by-photo/" hreflang="ru">Русский</a><a href="/sv/features/weight-by-photo/" hreflang="sv">Svenska</a><a href="/th/features/weight-by-photo/" hreflang="th">ไทย</a><a href="/tr/features/weight-by-photo/" hreflang="tr">Türkçe</a><a href="/uk/features/weight-by-photo/" hreflang="uk">Українська</a><a href="/vi/features/weight-by-photo/" hreflang="vi">Tiếng Việt</a><a href="/zh/features/weight-by-photo/" hreflang="zh">中文</a></span>
+</div></footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  if(!q) return;
+  var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
+  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
+  q.addEventListener('input',function(){
+    var v=norm(q.value.trim()),any=false;
+    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
+    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
+    nav.hidden=!!v;empty.hidden=any;
+  });
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+</body>
+</html>
