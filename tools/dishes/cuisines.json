@@ -1,9 +1,1354 @@
 {
   "_ui": {
-    "en": {"cuisines": "Cuisines", "dishes_n": "dishes", "avg": "average kcal per 100 g", "veg": "vegetarian", "lightest_h": "Lightest dishes", "filling_h": "Most filling dishes", "protein_h": "Highest in protein", "all_h": "All {n} dishes", "other_h": "Other cuisines", "tip_h": "Tip", "per100": "kcal / 100 g", "protein_g": "g protein / 100 g"},
-    "ru": {"cuisines": "Кухни мира", "dishes_n": "блюд", "avg": "ккал на 100 г в среднем", "veg": "вегетарианских", "lightest_h": "Самые лёгкие блюда", "filling_h": "Самые сытные блюда", "protein_h": "Больше всего белка", "all_h": "Все блюда: {n}", "other_h": "Другие кухни", "tip_h": "Совет", "per100": "ккал / 100 г", "protein_g": "г белка / 100 г"},
-    "ar": {"cuisines": "مطابخ العالم", "dishes_n": "طبق", "avg": "متوسط السعرات لكل 100 غ", "veg": "نباتية", "lightest_h": "أخف الأطباق", "filling_h": "أكثر الأطباق إشباعًا", "protein_h": "الأغنى بالبروتين", "all_h": "كل الأطباق: {n}", "other_h": "مطابخ أخرى", "tip_h": "نصيحة", "per100": "سعرة / 100 غ", "protein_g": "غ بروتين / 100 غ"},
-    "it": {"cuisines": "Cucine del mondo", "dishes_n": "piatti", "avg": "kcal medie per 100 g", "veg": "vegetariani", "lightest_h": "I piatti più leggeri", "filling_h": "I piatti più sostanziosi", "protein_h": "I più ricchi di proteine", "all_h": "Tutti i {n} piatti", "other_h": "Altre cucine", "tip_h": "Consiglio", "per100": "kcal / 100 g", "protein_g": "g di proteine / 100 g"},
-    "el": {"cuisines": "Κουζίνες του κόσμου", "dishes_n": "πιάτα", "avg": "μέσος όρος kcal ανά 100 γρ.", "veg": "χορτοφαγικά", "lightest_h": "Τα πιο ελαφριά πιάτα", "filling_h": "Τα πιο χορταστικά πιάτα", "protein_h": "Τα πλουσιότερα σε πρωτεΐνη", "all_h": "Όλα τα πιάτα: {n}", "other_h": "Άλλες κουζίνες", "tip_h": "Συμβουλή", "per100": "kcal / 100 γρ.", "protein_g": "γρ. πρωτεΐνη / 100 γρ."}
+    "en": {
+      "cuisines": "Cuisines",
+      "dishes_n": "dishes",
+      "avg": "average kcal per 100 g",
+      "veg": "vegetarian",
+      "lightest_h": "Lightest dishes",
+      "filling_h": "Most filling dishes",
+      "protein_h": "Highest in protein",
+      "all_h": "All {n} dishes",
+      "other_h": "Other cuisines",
+      "tip_h": "Tip",
+      "per100": "kcal / 100 g",
+      "protein_g": "g protein / 100 g"
+    },
+    "ru": {
+      "cuisines": "Кухни мира",
+      "dishes_n": "блюд",
+      "avg": "ккал на 100 г в среднем",
+      "veg": "вегетарианских",
+      "lightest_h": "Самые лёгкие блюда",
+      "filling_h": "Самые сытные блюда",
+      "protein_h": "Больше всего белка",
+      "all_h": "Все блюда: {n}",
+      "other_h": "Другие кухни",
+      "tip_h": "Совет",
+      "per100": "ккал / 100 г",
+      "protein_g": "г белка / 100 г"
+    },
+    "ar": {
+      "cuisines": "مطابخ العالم",
+      "dishes_n": "طبق",
+      "avg": "متوسط السعرات لكل 100 غ",
+      "veg": "نباتية",
+      "lightest_h": "أخف الأطباق",
+      "filling_h": "أكثر الأطباق إشباعًا",
+      "protein_h": "الأغنى بالبروتين",
+      "all_h": "كل الأطباق: {n}",
+      "other_h": "مطابخ أخرى",
+      "tip_h": "نصيحة",
+      "per100": "سعرة / 100 غ",
+      "protein_g": "غ بروتين / 100 غ"
+    },
+    "it": {
+      "cuisines": "Cucine del mondo",
+      "dishes_n": "piatti",
+      "avg": "kcal medie per 100 g",
+      "veg": "vegetariani",
+      "lightest_h": "I piatti più leggeri",
+      "filling_h": "I piatti più sostanziosi",
+      "protein_h": "I più ricchi di proteine",
+      "all_h": "Tutti i {n} piatti",
+      "other_h": "Altre cucine",
+      "tip_h": "Consiglio",
+      "per100": "kcal / 100 g",
+      "protein_g": "g di proteine / 100 g"
+    },
+    "el": {
+      "cuisines": "Κουζίνες του κόσμου",
+      "dishes_n": "πιάτα",
+      "avg": "μέσος όρος kcal ανά 100 γρ.",
+      "veg": "χορτοφαγικά",
+      "lightest_h": "Τα πιο ελαφριά πιάτα",
+      "filling_h": "Τα πιο χορταστικά πιάτα",
+      "protein_h": "Τα πλουσιότερα σε πρωτεΐνη",
+      "all_h": "Όλα τα πιάτα: {n}",
+      "other_h": "Άλλες κουζίνες",
+      "tip_h": "Συμβουλή",
+      "per100": "kcal / 100 γρ.",
+      "protein_g": "γρ. πρωτεΐνη / 100 γρ."
+    }
+  },
+  "italian": {
+    "match": "Italy",
+    "slug": "italian",
+    "emoji": "🇮🇹",
+    "en": {
+      "name": "Italian food",
+      "title": "Italian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Italian dishes. Find the lightest and most filling options.",
+      "intro": "Italian cooking builds on a few quality ingredients: olive oil, tomatoes, cheese, herbs and wheat in the form of pasta, bread and pizza. Recipes vary strongly by region, and a traditional meal can include an antipasto, a first course (primo) such as pasta or risotto, and a second course (secondo) of meat or fish.",
+      "tip": "Restaurant pasta portions are often large — **the sauce, cheese and oil** can add more calories than the pasta itself."
+    },
+    "ru": {
+      "name": "Итальянская кухня",
+      "title": "Калорийность итальянской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд итальянской кухни. Блюд в каталоге: {n}.",
+      "intro": "Итальянская кухня строится на небольшом наборе качественных продуктов: оливковое масло, томаты, сыр, травы и пшеница — в виде пасты, хлеба и пиццы. Рецепты сильно различаются по регионам, а традиционная трапеза может включать антипасто, первое блюдо (primo) — пасту или ризотто — и второе (secondo) из мяса или рыбы.",
+      "tip": "Порции пасты в ресторанах часто большие — **соус, сыр и масло** могут добавить больше калорий, чем сама паста."
+    },
+    "ar": {
+      "name": "المطبخ الإيطالي",
+      "title": "سعرات المطبخ الإيطالي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الإيطالي. عدد الأطباق: {n}.",
+      "intro": "يعتمد المطبخ الإيطالي على عدد قليل من المكونات الجيدة: زيت الزيتون والطماطم والجبن والأعشاب والقمح على شكل معكرونة وخبز وبيتزا. وتختلف الوصفات كثيرًا من منطقة إلى أخرى، وقد تتضمن الوجبة التقليدية مقبلات (أنتيباستو) وطبقًا أول (بريمو) مثل المعكرونة أو الريزوتو وطبقًا ثانيًا (سيكوندو) من اللحم أو السمك.",
+      "tip": "غالبًا ما تكون حصص المعكرونة في المطاعم كبيرة، وقد **تضيف الصلصة والجبن والزيت** سعرات أكثر من المعكرونة نفسها."
+    },
+    "it": {
+      "name": "Cucina italiana",
+      "title": "Calorie della cucina italiana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina italiana: trova i più leggeri e sazianti.",
+      "intro": "La cucina italiana si basa su pochi ingredienti di qualità: olio d'oliva, pomodori, formaggi, erbe aromatiche e grano sotto forma di pasta, pane e pizza. Le ricette cambiano molto da regione a regione, e un pasto tradizionale può comprendere antipasto, primo (pasta o risotto) e secondo di carne o pesce.",
+      "tip": "Al ristorante le porzioni di pasta sono spesso abbondanti: **sugo, formaggio e olio** possono aggiungere più calorie della pasta stessa."
+    },
+    "el": {
+      "name": "Ιταλική κουζίνα",
+      "title": "Θερμίδες ιταλικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της ιταλικής κουζίνας.",
+      "intro": "Η ιταλική κουζίνα στηρίζεται σε λίγα ποιοτικά υλικά: ελαιόλαδο, ντομάτα, τυρί, μυρωδικά και σιτάρι με τη μορφή ζυμαρικών, ψωμιού και πίτσας. Οι συνταγές διαφέρουν πολύ από περιοχή σε περιοχή, και ένα παραδοσιακό γεύμα μπορεί να περιλαμβάνει antipasto, πρώτο πιάτο (primo) όπως ζυμαρικά ή ριζότο και δεύτερο πιάτο (secondo) με κρέας ή ψάρι.",
+      "tip": "Οι μερίδες ζυμαρικών στα εστιατόρια είναι συχνά μεγάλες — **η σάλτσα, το τυρί και το λάδι** μπορεί να προσθέσουν περισσότερες θερμίδες από τα ίδια τα ζυμαρικά."
+    }
+  },
+  "french": {
+    "match": "France",
+    "slug": "french",
+    "emoji": "🇫🇷",
+    "en": {
+      "name": "French food",
+      "title": "French food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} French dishes. Find the lightest and most filling options.",
+      "intro": "French cuisine is known for its sauces, butter and cream, bread, cheese and pastry, prepared with techniques such as braising, roasting and baking. A classic meal follows the order of starter (entrée), main course (plat) and then cheese or dessert.",
+      "tip": "**Butter, cream and pastry** add a lot of calories to many French dishes — ask about the sauce, and consider grilled or poached options."
+    },
+    "ru": {
+      "name": "Французская кухня",
+      "title": "Калорийность французской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд французской кухни. Блюд в каталоге: {n}.",
+      "intro": "Французская кухня известна соусами, сливочным маслом и сливками, хлебом, сырами и выпечкой, а также техниками тушения, запекания и выпекания. Классическая трапеза идёт в порядке: закуска (entrée), основное блюдо (plat), затем сыр или десерт.",
+      "tip": "**Сливочное масло, сливки и тесто** делают многие французские блюда калорийными — уточняйте, какой соус, и присматривайтесь к блюдам на гриле или припущенным."
+    },
+    "ar": {
+      "name": "المطبخ الفرنسي",
+      "title": "سعرات المطبخ الفرنسي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الفرنسي. عدد الأطباق: {n}.",
+      "intro": "يشتهر المطبخ الفرنسي بصلصاته والزبدة والقشدة والخبز والأجبان والمعجنات، ويستخدم تقنيات مثل الطهي البطيء والتحميص والخَبز. وتسير الوجبة الكلاسيكية بترتيب المقبلات (entrée) ثم الطبق الرئيسي (plat) ثم الجبن أو الحلوى.",
+      "tip": "**الزبدة والقشدة والعجين** تضيف سعرات كثيرة إلى العديد من الأطباق الفرنسية، لذا اسأل عن الصلصة وفكّر في الخيارات المشوية أو المسلوقة."
+    },
+    "it": {
+      "name": "Cucina francese",
+      "title": "Calorie della cucina francese: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina francese: trova i più leggeri e sazianti.",
+      "intro": "La cucina francese è famosa per salse, burro e panna, pane, formaggi e pasticceria, con tecniche come brasatura, arrosto e cottura al forno. Un pasto classico segue l'ordine antipasto (entrée), piatto principale (plat) e poi formaggio o dessert.",
+      "tip": "**Burro, panna e pasta sfoglia** aggiungono molte calorie a tanti piatti francesi: chiedi com'è la salsa e valuta le opzioni alla griglia o in camicia."
+    },
+    "el": {
+      "name": "Γαλλική κουζίνα",
+      "title": "Θερμίδες γαλλικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της γαλλικής κουζίνας.",
+      "intro": "Η γαλλική κουζίνα είναι γνωστή για τις σάλτσες, το βούτυρο και την κρέμα, το ψωμί, τα τυριά και τα αρτοσκευάσματα, με τεχνικές όπως το σιγομαγείρεμα, το ψήσιμο και το φούρνισμα. Ένα κλασικό γεύμα ακολουθεί τη σειρά ορεκτικό (entrée), κυρίως πιάτο (plat) και μετά τυρί ή επιδόρπιο.",
+      "tip": "**Το βούτυρο, η κρέμα και η ζύμη** προσθέτουν πολλές θερμίδες σε πολλά γαλλικά πιάτα — ρωτήστε για τη σάλτσα και προτιμήστε επιλογές ψητές ή ποσέ."
+    }
+  },
+  "japanese": {
+    "match": "Japan",
+    "slug": "japanese",
+    "emoji": "🇯🇵",
+    "en": {
+      "name": "Japanese food",
+      "title": "Japanese food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Japanese dishes. Find the lightest and most filling options.",
+      "intro": "Japanese cuisine centres on rice, fish and seafood, soy products such as tofu and miso, vegetables and seaweed, seasoned with soy sauce, dashi broth and mirin. A traditional meal pairs rice and miso soup with several small side dishes.",
+      "tip": "Fried dishes such as **tempura and katsu** are far more calorie-dense than grilled, steamed or raw options, and sweet sauces like teriyaki add sugar."
+    },
+    "ru": {
+      "name": "Японская кухня",
+      "title": "Калорийность японской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд японской кухни. Блюд в каталоге: {n}.",
+      "intro": "Основа японской кухни — рис, рыба и морепродукты, соевые продукты вроде тофу и мисо, овощи и водоросли, а приправами служат соевый соус, бульон даси и мирин. Традиционная трапеза — это рис и суп мисо с несколькими небольшими закусками.",
+      "tip": "Жареные блюда вроде **темпуры и кацу** гораздо калорийнее, чем блюда на гриле, на пару или сырые, а сладкие соусы вроде терияки добавляют сахар."
+    },
+    "ar": {
+      "name": "المطبخ الياباني",
+      "title": "سعرات المطبخ الياباني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الياباني. عدد الأطباق: {n}.",
+      "intro": "يرتكز المطبخ الياباني على الأرز والسمك والمأكولات البحرية ومنتجات الصويا مثل التوفو والميسو والخضار والطحالب البحرية، ويُتبَّل بصلصة الصويا ومرق الداشي والميرين. وتجمع الوجبة التقليدية بين الأرز وحساء الميسو وعدة أطباق جانبية صغيرة.",
+      "tip": "الأطباق المقلية مثل **التمبورا والكاتسو** أعلى بكثير في السعرات من الخيارات المشوية أو المطهوة على البخار أو النيئة، والصلصات الحلوة مثل الترياكي تضيف السكر."
+    },
+    "it": {
+      "name": "Cucina giapponese",
+      "title": "Calorie della cucina giapponese: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina giapponese: trova i più leggeri e sazianti.",
+      "intro": "La cucina giapponese ruota attorno a riso, pesce e frutti di mare, derivati della soia come tofu e miso, verdure e alghe, insaporiti con salsa di soia, brodo dashi e mirin. Un pasto tradizionale abbina riso e zuppa di miso a diversi piccoli contorni.",
+      "tip": "I fritti come **tempura e katsu** sono molto più calorici delle opzioni alla griglia, al vapore o crude, e le salse dolci come la teriyaki aggiungono zucchero."
+    },
+    "el": {
+      "name": "Ιαπωνική κουζίνα",
+      "title": "Θερμίδες ιαπωνικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της ιαπωνικής κουζίνας.",
+      "intro": "Η ιαπωνική κουζίνα βασίζεται στο ρύζι, τα ψάρια και τα θαλασσινά, προϊόντα σόγιας όπως το τόφου και το μίσο, λαχανικά και φύκια, με καρυκεύματα όπως σάλτσα σόγιας, ζωμό dashi και mirin. Ένα παραδοσιακό γεύμα συνδυάζει ρύζι και σούπα μίσο με διάφορα μικρά συνοδευτικά.",
+      "tip": "Τα τηγανητά πιάτα όπως η **τεμπούρα και το κάτσου** έχουν πολύ περισσότερες θερμίδες από τις ψητές, στον ατμό ή ωμές επιλογές, ενώ γλυκές σάλτσες όπως η τεριγιάκι προσθέτουν ζάχαρη."
+    }
+  },
+  "turkish": {
+    "match": "Turkey",
+    "slug": "turkish",
+    "emoji": "🇹🇷",
+    "en": {
+      "name": "Turkish food",
+      "title": "Turkish food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Turkish dishes. Find the lightest and most filling options.",
+      "intro": "Turkish cuisine combines grilled meats such as kebabs, vegetables cooked in olive oil, yoghurt, bulgur, pulses and bread, with many regional specialities. Meals often start with meze — small cold and hot dishes shared at the table.",
+      "tip": "Meze and bread add up quickly, and vegetables cooked in olive oil (zeytinyağlı) still carry plenty of oil — **grilled kebab with salad** is a filling, protein-rich choice."
+    },
+    "ru": {
+      "name": "Турецкая кухня",
+      "title": "Калорийность турецкой кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд турецкой кухни. Блюд в каталоге: {n}.",
+      "intro": "Турецкая кухня сочетает мясо на гриле, например кебабы, овощи в оливковом масле, йогурт, булгур, бобовые и хлеб, а также множество региональных блюд. Трапеза часто начинается с мезе — небольших холодных и горячих закусок на всех.",
+      "tip": "Мезе и хлеб быстро набирают калории, а овощи в оливковом масле (зейтинягли) содержат немало масла — **кебаб на гриле с салатом** будет сытным и богатым белком вариантом."
+    },
+    "ar": {
+      "name": "المطبخ التركي",
+      "title": "سعرات المطبخ التركي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ التركي. عدد الأطباق: {n}.",
+      "intro": "يجمع المطبخ التركي بين اللحوم المشوية مثل الكباب والخضار المطهوة بزيت الزيتون واللبن والبرغل والبقوليات والخبز، مع أطباق إقليمية كثيرة. وغالبًا ما تبدأ الوجبة بالمزة، وهي أطباق صغيرة باردة وساخنة تُتشارك على المائدة.",
+      "tip": "تتراكم سعرات المزة والخبز بسرعة، والخضار المطهوة بزيت الزيتون (زيتين ياغلي) تحتوي على كمية كبيرة من الزيت، بينما **الكباب المشوي مع السلطة** خيار مُشبع وغني بالبروتين."
+    },
+    "it": {
+      "name": "Cucina turca",
+      "title": "Calorie della cucina turca: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina turca: trova i più leggeri e sazianti.",
+      "intro": "La cucina turca unisce carni alla griglia come i kebab, verdure cotte nell'olio d'oliva, yogurt, bulgur, legumi e pane, con tante specialità regionali. Il pasto inizia spesso con i meze, piccoli piatti freddi e caldi da condividere.",
+      "tip": "Meze e pane si sommano in fretta, e anche le verdure all'olio (zeytinyağlı) contengono parecchio olio: **un kebab alla griglia con insalata** è una scelta saziante e ricca di proteine."
+    },
+    "el": {
+      "name": "Τουρκική κουζίνα",
+      "title": "Θερμίδες τουρκικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της τουρκικής κουζίνας.",
+      "intro": "Η τουρκική κουζίνα συνδυάζει ψητά κρέατα όπως τα κεμπάπ, λαχανικά μαγειρεμένα με ελαιόλαδο, γιαούρτι, πλιγούρι, όσπρια και ψωμί, με πολλές τοπικές σπεσιαλιτέ. Τα γεύματα ξεκινούν συχνά με μεζέδες — μικρά κρύα και ζεστά πιάτα για μοίρασμα.",
+      "tip": "Οι μεζέδες και το ψωμί αθροίζονται γρήγορα, και τα λαχανικά με ελαιόλαδο (zeytinyağlı) έχουν αρκετό λάδι — **το ψητό κεμπάπ με σαλάτα** είναι χορταστική επιλογή, πλούσια σε πρωτεΐνη."
+    }
+  },
+  "indian": {
+    "match": "India",
+    "slug": "indian",
+    "emoji": "🇮🇳",
+    "en": {
+      "name": "Indian food",
+      "title": "Indian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Indian dishes. Find the lightest and most filling options.",
+      "intro": "Indian cuisine varies widely by region and is built on spices, rice, breads such as roti and naan, lentils (dal), vegetables, dairy and, in many areas, meat or fish. Vegetarian dishes play a large role, and a meal often combines several dishes with rice or bread.",
+      "tip": "Curries can contain a lot of **ghee, oil or cream** — dal and tandoori dishes are often lighter, and rice or naan adds noticeably to the total."
+    },
+    "ru": {
+      "name": "Индийская кухня",
+      "title": "Калорийность индийской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд индийской кухни. Блюд в каталоге: {n}.",
+      "intro": "Индийская кухня очень разная в зависимости от региона и строится на специях, рисе, лепёшках вроде роти и наана, чечевице (дал), овощах, молочных продуктах, а во многих районах — на мясе или рыбе. Вегетарианские блюда занимают большое место, а трапеза часто состоит из нескольких блюд с рисом или лепёшками.",
+      "tip": "Карри могут содержать много **топлёного масла (гхи), масла или сливок** — дал и блюда тандури часто легче, а рис или наан заметно увеличивают итог."
+    },
+    "ar": {
+      "name": "المطبخ الهندي",
+      "title": "سعرات المطبخ الهندي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الهندي. عدد الأطباق: {n}.",
+      "intro": "يتنوع المطبخ الهندي كثيرًا بحسب المنطقة، ويقوم على التوابل والأرز والخبز مثل الروتي والنان والعدس (دال) والخضار ومنتجات الألبان، وفي مناطق كثيرة على اللحم أو السمك. وللأطباق النباتية دور كبير، وغالبًا ما تجمع الوجبة عدة أطباق مع الأرز أو الخبز.",
+      "tip": "قد تحتوي أطباق الكاري على كمية كبيرة من **السمن أو الزيت أو القشدة**، بينما يكون الدال وأطباق التندوري أخف غالبًا، ويزيد الأرز أو النان المجموع بشكل ملحوظ."
+    },
+    "it": {
+      "name": "Cucina indiana",
+      "title": "Calorie della cucina indiana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina indiana: trova i più leggeri e sazianti.",
+      "intro": "La cucina indiana cambia molto da regione a regione e si basa su spezie, riso, pani come roti e naan, lenticchie (dal), verdure, latticini e, in molte zone, carne o pesce. I piatti vegetariani hanno un ruolo importante, e un pasto unisce spesso diverse preparazioni con riso o pane.",
+      "tip": "I curry possono contenere molto **ghee, olio o panna**: dal e piatti tandoori sono spesso più leggeri, mentre riso e naan pesano parecchio sul totale."
+    },
+    "el": {
+      "name": "Ινδική κουζίνα",
+      "title": "Θερμίδες ινδικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της ινδικής κουζίνας.",
+      "intro": "Η ινδική κουζίνα διαφέρει πολύ από περιοχή σε περιοχή και στηρίζεται στα μπαχαρικά, το ρύζι, ψωμιά όπως το ρότι και το νάαν, τις φακές (dal), τα λαχανικά, τα γαλακτοκομικά και, σε πολλές περιοχές, το κρέας ή το ψάρι. Τα χορτοφαγικά πιάτα έχουν μεγάλη θέση, και ένα γεύμα συχνά συνδυάζει πολλά πιάτα με ρύζι ή ψωμί.",
+      "tip": "Τα κάρι μπορεί να περιέχουν πολύ **γκι, λάδι ή κρέμα** — το dal και τα πιάτα tandoori είναι συχνά ελαφρύτερα, ενώ το ρύζι ή το νάαν αυξάνουν αισθητά το σύνολο."
+    }
+  },
+  "levantine": {
+    "match": "Levant",
+    "slug": "levantine",
+    "emoji": "🧆",
+    "en": {
+      "name": "Levantine food",
+      "title": "Levantine food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Levantine dishes. Find the lightest and most filling options.",
+      "intro": "Levantine cuisine, shared by Lebanon, Syria, Jordan and Palestine, relies on olive oil, chickpeas, bulgur, fresh herbs, yoghurt, grilled meats and flatbread. Many meals start with mezze such as hummus, tabbouleh and baba ghanoush.",
+      "tip": "Dips and salads get much of their energy from **olive oil and tahini**, and fried items like falafel or kibbeh add more than grilled meat or fresh salads."
+    },
+    "ru": {
+      "name": "Левантийская кухня",
+      "title": "Калорийность левантийской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд левантийской кухни. Блюд в каталоге: {n}.",
+      "intro": "Левантийская кухня, общая для Ливана, Сирии, Иордании и Палестины, опирается на оливковое масло, нут, булгур, свежую зелень, йогурт, мясо на гриле и лепёшки. Многие трапезы начинаются с мезе — хумуса, табуле и бабагануша.",
+      "tip": "Соусы-пасты и салаты получают много калорий из **оливкового масла и тахини**, а жареные фалафель или кеббе добавляют больше, чем мясо на гриле или свежие салаты."
+    },
+    "ar": {
+      "name": "المطبخ الشامي",
+      "title": "سعرات المطبخ الشامي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الشامي. عدد الأطباق: {n}.",
+      "intro": "يعتمد المطبخ الشامي، المشترك بين لبنان وسوريا والأردن وفلسطين، على زيت الزيتون والحمص والبرغل والأعشاب الطازجة واللبن واللحوم المشوية والخبز العربي. وتبدأ وجبات كثيرة بالمازة مثل الحمص والتبولة والبابا غنوج.",
+      "tip": "تأتي معظم سعرات المغمّسات والسلطات من **زيت الزيتون والطحينة**، والمقليات مثل الفلافل أو الكبة تضيف أكثر من اللحوم المشوية أو السلطات الطازجة."
+    },
+    "it": {
+      "name": "Cucina levantina",
+      "title": "Calorie della cucina levantina: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina levantina: trova i più leggeri e sazianti.",
+      "intro": "La cucina levantina, condivisa da Libano, Siria, Giordania e Palestina, si basa su olio d'oliva, ceci, bulgur, erbe fresche, yogurt, carni alla griglia e pane piatto. Molti pasti iniziano con i mezze, come hummus, tabbouleh e baba ghanoush.",
+      "tip": "Salse e insalate prendono gran parte delle calorie da **olio d'oliva e tahina**, e i fritti come falafel o kibbeh pesano più della carne alla griglia o delle insalate fresche."
+    },
+    "el": {
+      "name": "Κουζίνα του Λεβάντε",
+      "title": "Θερμίδες κουζίνας του Λεβάντε: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της κουζίνας του Λεβάντε.",
+      "intro": "Η κουζίνα του Λεβάντε, κοινή σε Λίβανο, Συρία, Ιορδανία και Παλαιστίνη, βασίζεται στο ελαιόλαδο, τα ρεβίθια, το πλιγούρι, τα φρέσκα μυρωδικά, το γιαούρτι, τα ψητά κρέατα και την αραβική πίτα. Πολλά γεύματα ξεκινούν με μεζέδες όπως χούμους, ταμπουλέ και μπάμπα γκανούς.",
+      "tip": "Οι αλοιφές και οι σαλάτες παίρνουν μεγάλο μέρος της ενέργειάς τους από **το ελαιόλαδο και το ταχίνι**, ενώ τηγανητά όπως φαλάφελ ή κίμπε προσθέτουν περισσότερο από τα ψητά κρέατα ή τις φρέσκες σαλάτες."
+    }
+  },
+  "american": {
+    "match": "United States",
+    "slug": "american",
+    "emoji": "🇺🇸",
+    "en": {
+      "name": "American food",
+      "title": "American food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} American dishes. Find the lightest and most filling options.",
+      "intro": "American food blends influences from many immigrant cuisines with strong regional traditions such as barbecue, Southern cooking and Tex-Mex. Well-known dishes include burgers, sandwiches, fried chicken, steaks, salads and baked goods.",
+      "tip": "Restaurant portions are often large, and **sides, sauces and sugary drinks** can add as much as the main dish — count the extras separately."
+    },
+    "ru": {
+      "name": "Американская кухня",
+      "title": "Калорийность американской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд американской кухни. Блюд в каталоге: {n}.",
+      "intro": "Американская кухня сочетает влияние кухонь многих иммигрантов с сильными региональными традициями — барбекю, южной кухней и техасско-мексиканской (Tex-Mex). Среди известных блюд — бургеры, сэндвичи, жареная курица, стейки, салаты и выпечка.",
+      "tip": "Порции в ресторанах часто большие, а **гарниры, соусы и сладкие напитки** могут добавить столько же, сколько основное блюдо, — считайте их отдельно."
+    },
+    "ar": {
+      "name": "المطبخ الأمريكي",
+      "title": "سعرات المطبخ الأمريكي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الأمريكي. عدد الأطباق: {n}.",
+      "intro": "يمزج المطبخ الأمريكي تأثيرات مطابخ المهاجرين الكثيرة مع تقاليد إقليمية قوية مثل الشواء (باربكيو) وطبخ الجنوب والتكس مكس. ومن أشهر أطباقه البرغر والسندويشات والدجاج المقلي وشرائح اللحم والسلطات والمخبوزات.",
+      "tip": "غالبًا ما تكون حصص المطاعم كبيرة، وقد **تضيف الأطباق الجانبية والصلصات والمشروبات المحلّاة** ما يعادل الطبق الرئيسي، لذا احسب الإضافات على حدة."
+    },
+    "it": {
+      "name": "Cucina americana",
+      "title": "Calorie della cucina americana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina americana: trova i più leggeri e sazianti.",
+      "intro": "La cucina americana fonde le influenze di molte cucine degli immigrati con forti tradizioni regionali come il barbecue, la cucina del Sud e il Tex-Mex. Tra i piatti più noti ci sono hamburger, sandwich, pollo fritto, bistecche, insalate e prodotti da forno.",
+      "tip": "Le porzioni al ristorante sono spesso grandi, e **contorni, salse e bibite zuccherate** possono pesare quanto il piatto principale: contali a parte."
+    },
+    "el": {
+      "name": "Αμερικανική κουζίνα",
+      "title": "Θερμίδες αμερικανικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της αμερικανικής κουζίνας.",
+      "intro": "Η αμερικανική κουζίνα συνδυάζει επιρροές από πολλές κουζίνες μεταναστών με έντονες τοπικές παραδόσεις όπως το μπάρμπεκιου, η κουζίνα του Νότου και το Tex-Mex. Γνωστά πιάτα είναι τα μπέργκερ, τα σάντουιτς, το τηγανητό κοτόπουλο, οι μπριζόλες, οι σαλάτες και τα αρτοσκευάσματα.",
+      "tip": "Οι μερίδες στα εστιατόρια είναι συχνά μεγάλες, και **τα συνοδευτικά, οι σάλτσες και τα αναψυκτικά με ζάχαρη** μπορεί να προσθέσουν όσο το κυρίως πιάτο — υπολογίστε τα χωριστά."
+    }
+  },
+  "chinese": {
+    "match": "China",
+    "slug": "chinese",
+    "emoji": "🇨🇳",
+    "en": {
+      "name": "Chinese food",
+      "title": "Chinese food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Chinese dishes. Find the lightest and most filling options.",
+      "intro": "Chinese cuisine has many regional styles, such as Cantonese and Sichuan, using rice, noodles, vegetables, soy, pork, poultry and seafood. Stir-frying, steaming and braising are common, and dishes are typically shared at the table.",
+      "tip": "Steamed dishes are usually lighter than fried or battered ones, and **thick, sweet sauces** add hidden calories — the rice and noodles count too."
+    },
+    "ru": {
+      "name": "Китайская кухня",
+      "title": "Калорийность китайской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд китайской кухни. Блюд в каталоге: {n}.",
+      "intro": "В китайской кухне много региональных стилей, например кантонский и сычуаньский; в ней используют рис, лапшу, овощи, сою, свинину, птицу и морепродукты. Распространены обжаривание в воке, приготовление на пару и тушение, а блюда обычно делят на всех за столом.",
+      "tip": "Блюда на пару обычно легче жареных или в кляре, а **густые сладкие соусы** добавляют скрытые калории — не забывайте учитывать рис и лапшу."
+    },
+    "ar": {
+      "name": "المطبخ الصيني",
+      "title": "سعرات المطبخ الصيني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الصيني. عدد الأطباق: {n}.",
+      "intro": "للمطبخ الصيني أساليب إقليمية كثيرة مثل الكانتوني والسيتشواني، ويستخدم الأرز والنودلز والخضار والصويا ولحم الخنزير والدواجن والمأكولات البحرية. ومن الشائع القلي السريع والطهي على البخار والطهي البطيء، وعادةً ما تُتشارك الأطباق على المائدة.",
+      "tip": "الأطباق المطهوة على البخار أخف عادةً من المقلية أو المغطاة بالعجين، و**الصلصات الكثيفة الحلوة** تضيف سعرات خفية، ولا تنسَ احتساب الأرز والنودلز."
+    },
+    "it": {
+      "name": "Cucina cinese",
+      "title": "Calorie della cucina cinese: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina cinese: trova i più leggeri e sazianti.",
+      "intro": "La cucina cinese ha molti stili regionali, come quello cantonese e del Sichuan, e usa riso, noodle, verdure, soia, maiale, pollame e frutti di mare. Sono comuni la saltatura nel wok, la cottura al vapore e la brasatura, e i piatti si condividono di solito a tavola.",
+      "tip": "I piatti al vapore sono di solito più leggeri di quelli fritti o in pastella, e **le salse dense e dolci** aggiungono calorie nascoste: conta anche riso e noodle."
+    },
+    "el": {
+      "name": "Κινεζική κουζίνα",
+      "title": "Θερμίδες κινεζικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της κινεζικής κουζίνας.",
+      "intro": "Η κινεζική κουζίνα έχει πολλά τοπικά στιλ, όπως το καντονέζικο και του Σετσουάν, και χρησιμοποιεί ρύζι, νουντλς, λαχανικά, σόγια, χοιρινό, πουλερικά και θαλασσινά. Συνηθίζονται το γρήγορο τηγάνισμα στο wok, ο ατμός και το σιγομαγείρεμα, και τα πιάτα συνήθως μοιράζονται στο τραπέζι.",
+      "tip": "Τα πιάτα στον ατμό είναι συνήθως ελαφρύτερα από τα τηγανητά ή πανέ, και **οι πηχτές, γλυκές σάλτσες** προσθέτουν κρυφές θερμίδες — μετρήστε και το ρύζι και τα νουντλς."
+    }
+  },
+  "greek": {
+    "match": "Greece",
+    "slug": "greek",
+    "emoji": "🇬🇷",
+    "en": {
+      "name": "Greek food",
+      "title": "Greek food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Greek dishes. Find the lightest and most filling options.",
+      "intro": "Greek cuisine uses plenty of olive oil, vegetables, legumes, herbs, cheese such as feta, yoghurt, fish and grilled meats. Meals are often shared, with meze, salads and a main dish of meat, fish or vegetables.",
+      "tip": "Olive oil is used generously, so even vegetable dishes (ladera) can be calorie-dense — **grilled fish or souvlaki with salad** is a filling, protein-rich choice."
+    },
+    "ru": {
+      "name": "Греческая кухня",
+      "title": "Калорийность греческой кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд греческой кухни. Блюд в каталоге: {n}.",
+      "intro": "В греческой кухне много оливкового масла, овощей, бобовых, трав, сыра (например, феты), йогурта, рыбы и мяса на гриле. Трапезу часто делят на всех: мезе, салаты и основное блюдо из мяса, рыбы или овощей.",
+      "tip": "Оливкового масла кладут щедро, поэтому даже овощные блюда (ладера) бывают калорийными — **рыба на гриле или сувлаки с салатом** будут сытным и богатым белком выбором."
+    },
+    "ar": {
+      "name": "المطبخ اليوناني",
+      "title": "سعرات المطبخ اليوناني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ اليوناني. عدد الأطباق: {n}.",
+      "intro": "يستخدم المطبخ اليوناني الكثير من زيت الزيتون والخضار والبقوليات والأعشاب والأجبان مثل الفيتا واللبن والسمك واللحوم المشوية. وغالبًا ما تُتشارك الوجبات، مع المزة والسلطات وطبق رئيسي من اللحم أو السمك أو الخضار.",
+      "tip": "يُستخدم زيت الزيتون بسخاء، لذا قد تكون حتى أطباق الخضار (لاديرا) عالية السعرات، بينما **السمك المشوي أو السوفلاكي مع السلطة** خيار مُشبع وغني بالبروتين."
+    },
+    "it": {
+      "name": "Cucina greca",
+      "title": "Calorie della cucina greca: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina greca: trova i più leggeri e sazianti.",
+      "intro": "La cucina greca usa molto olio d'oliva, verdure, legumi, erbe aromatiche, formaggi come la feta, yogurt, pesce e carni alla griglia. I pasti sono spesso condivisi, con meze, insalate e un piatto principale di carne, pesce o verdure.",
+      "tip": "L'olio d'oliva si usa con generosità, quindi anche i piatti di verdure (ladera) possono essere calorici: **pesce alla griglia o souvlaki con insalata** sono una scelta saziante e ricca di proteine."
+    },
+    "el": {
+      "name": "Ελληνική κουζίνα",
+      "title": "Θερμίδες ελληνικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της ελληνικής κουζίνας.",
+      "intro": "Η ελληνική κουζίνα χρησιμοποιεί άφθονο ελαιόλαδο, λαχανικά, όσπρια, μυρωδικά, τυριά όπως η φέτα, γιαούρτι, ψάρια και ψητά κρέατα. Τα γεύματα συχνά μοιράζονται, με μεζέδες, σαλάτες και ένα κυρίως πιάτο με κρέας, ψάρι ή λαχανικά.",
+      "tip": "Το ελαιόλαδο μπαίνει γενναιόδωρα, οπότε ακόμη και τα λαδερά μπορεί να έχουν πολλές θερμίδες — **ψητό ψάρι ή σουβλάκι με σαλάτα** είναι χορταστική επιλογή, πλούσια σε πρωτεΐνη."
+    }
+  },
+  "thai": {
+    "match": "Thailand",
+    "slug": "thai",
+    "emoji": "🇹🇭",
+    "en": {
+      "name": "Thai food",
+      "title": "Thai food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Thai dishes. Find the lightest and most filling options.",
+      "intro": "Thai cuisine balances sweet, sour, salty and spicy flavours using fish sauce, lime, chillies, garlic, lemongrass, coconut milk and fresh herbs. Rice or noodles form the base, and a meal usually combines several shared dishes.",
+      "tip": "**Coconut-milk curries** and fried noodle dishes like pad thai are calorie-dense — clear soups, salads and stir-fried vegetables are usually lighter."
+    },
+    "ru": {
+      "name": "Тайская кухня",
+      "title": "Калорийность тайской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд тайской кухни. Блюд в каталоге: {n}.",
+      "intro": "Тайская кухня балансирует сладкий, кислый, солёный и острый вкусы с помощью рыбного соуса, лайма, перца чили, чеснока, лемонграсса, кокосового молока и свежих трав. Основа — рис или лапша, а трапеза обычно состоит из нескольких общих блюд.",
+      "tip": "**Карри на кокосовом молоке** и жареная лапша вроде пад тай довольно калорийны — прозрачные супы, салаты и обжаренные овощи обычно легче."
+    },
+    "ar": {
+      "name": "المطبخ التايلاندي",
+      "title": "سعرات المطبخ التايلاندي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ التايلاندي. عدد الأطباق: {n}.",
+      "intro": "يوازن المطبخ التايلاندي بين النكهات الحلوة والحامضة والمالحة والحارة باستخدام صلصة السمك والليمون الأخضر والفلفل الحار والثوم وعشبة الليمون وحليب جوز الهند والأعشاب الطازجة. ويشكّل الأرز أو النودلز الأساس، وتجمع الوجبة عادةً عدة أطباق مشتركة.",
+      "tip": "**أطباق الكاري بحليب جوز الهند** والنودلز المقلية مثل باد تاي عالية السعرات، بينما الحساء الصافي والسلطات والخضار المقلية سريعًا أخف عادةً."
+    },
+    "it": {
+      "name": "Cucina thailandese",
+      "title": "Calorie della cucina thailandese: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina thailandese: trova i più leggeri e sazianti.",
+      "intro": "La cucina thailandese bilancia dolce, aspro, salato e piccante con salsa di pesce, lime, peperoncino, aglio, citronella, latte di cocco ed erbe fresche. Riso o noodle sono la base, e un pasto unisce di solito diversi piatti da condividere.",
+      "tip": "**I curry al latte di cocco** e i noodle saltati come il pad thai sono calorici; zuppe in brodo, insalate e verdure saltate sono di solito più leggere."
+    },
+    "el": {
+      "name": "Ταϊλανδέζικη κουζίνα",
+      "title": "Θερμίδες ταϊλανδέζικης κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της ταϊλανδέζικης κουζίνας.",
+      "intro": "Η ταϊλανδέζικη κουζίνα ισορροπεί γλυκές, ξινές, αλμυρές και καυτερές γεύσεις με σάλτσα ψαριού, λάιμ, τσίλι, σκόρδο, λεμονόχορτο, γάλα καρύδας και φρέσκα μυρωδικά. Βάση είναι το ρύζι ή τα νουντλς, και ένα γεύμα συνήθως συνδυάζει πολλά πιάτα για μοίρασμα.",
+      "tip": "**Τα κάρι με γάλα καρύδας** και τα τηγανητά νουντλς όπως το pad thai έχουν πολλές θερμίδες — οι διάφανες σούπες, οι σαλάτες και τα σοταρισμένα λαχανικά είναι συνήθως ελαφρύτερα."
+    }
+  },
+  "mexican": {
+    "match": "Mexico",
+    "slug": "mexican",
+    "emoji": "🇲🇽",
+    "en": {
+      "name": "Mexican food",
+      "title": "Mexican food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Mexican dishes. Find the lightest and most filling options.",
+      "intro": "Mexican cuisine is based on corn, beans and chillies, together with tomatoes, avocado, cheese, meats and fresh herbs. Tortillas are central, used for tacos, enchiladas and quesadillas, and salsas accompany most meals.",
+      "tip": "Cheese, sour cream and fried tortillas add calories quickly — **beans, grilled meat and salsa** make a filling, lighter base."
+    },
+    "ru": {
+      "name": "Мексиканская кухня",
+      "title": "Калорийность мексиканской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд мексиканской кухни. Блюд в каталоге: {n}.",
+      "intro": "Мексиканская кухня основана на кукурузе, фасоли и перце чили, а также томатах, авокадо, сыре, мясе и свежей зелени. Центральное место занимают тортильи — для тако, энчилад и кесадилий, — а к большинству блюд подают сальсу.",
+      "tip": "Сыр, сметана и жареные тортильи быстро добавляют калории — **фасоль, мясо на гриле и сальса** дают сытную и более лёгкую основу."
+    },
+    "ar": {
+      "name": "المطبخ المكسيكي",
+      "title": "سعرات المطبخ المكسيكي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ المكسيكي. عدد الأطباق: {n}.",
+      "intro": "يقوم المطبخ المكسيكي على الذرة والفاصوليا والفلفل الحار، إلى جانب الطماطم والأفوكادو والجبن واللحوم والأعشاب الطازجة. وللتورتيا مكانة أساسية في التاكو والإنتشيلادا والكيساديا، وترافق الصلصات معظم الوجبات.",
+      "tip": "الجبن والقشدة الحامضة والتورتيا المقلية تضيف السعرات بسرعة، بينما **الفاصوليا واللحم المشوي والصلصة** أساس مُشبع وأخف."
+    },
+    "it": {
+      "name": "Cucina messicana",
+      "title": "Calorie della cucina messicana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina messicana: trova i più leggeri e sazianti.",
+      "intro": "La cucina messicana si basa su mais, fagioli e peperoncino, insieme a pomodori, avocado, formaggio, carne ed erbe fresche. Le tortillas sono centrali, per tacos, enchiladas e quesadillas, e le salsas accompagnano quasi ogni pasto.",
+      "tip": "Formaggio, panna acida e tortillas fritte aggiungono calorie in fretta: **fagioli, carne alla griglia e salsa** sono una base saziante e più leggera."
+    },
+    "el": {
+      "name": "Μεξικανική κουζίνα",
+      "title": "Θερμίδες μεξικανικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της μεξικανικής κουζίνας.",
+      "intro": "Η μεξικανική κουζίνα βασίζεται στο καλαμπόκι, τα φασόλια και τις πιπεριές τσίλι, μαζί με ντομάτα, αβοκάντο, τυρί, κρέατα και φρέσκα μυρωδικά. Οι τορτίγιες έχουν κεντρική θέση, για τάκος, εντσιλάδας και κεσαδίγιας, και οι σάλσες συνοδεύουν τα περισσότερα γεύματα.",
+      "tip": "Το τυρί, η ξινή κρέμα και οι τηγανητές τορτίγιες ανεβάζουν γρήγορα τις θερμίδες — **φασόλια, ψητό κρέας και σάλσα** αποτελούν χορταστική και ελαφρύτερη βάση."
+    }
+  },
+  "spanish": {
+    "match": "Spain",
+    "slug": "spanish",
+    "emoji": "🇪🇸",
+    "en": {
+      "name": "Spanish food",
+      "title": "Spanish food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Spanish dishes. Find the lightest and most filling options.",
+      "intro": "Spanish cuisine relies on olive oil, garlic, seafood, pork products such as jamón and chorizo, rice, legumes and vegetables, with strong regional differences. Tapas — small plates shared with drinks — are a popular way to eat.",
+      "tip": "Tapas are small but add up, and fried items and cured meats are calorie-dense — **grilled seafood and vegetable dishes** are usually lighter."
+    },
+    "ru": {
+      "name": "Испанская кухня",
+      "title": "Калорийность испанской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд испанской кухни. Блюд в каталоге: {n}.",
+      "intro": "Испанская кухня опирается на оливковое масло, чеснок, морепродукты, изделия из свинины вроде хамона и чоризо, рис, бобовые и овощи, с заметными региональными различиями. Популярный формат — тапас, небольшие закуски к напиткам на всю компанию.",
+      "tip": "Тапас маленькие, но их калории складываются, а жареное и вяленое мясо калорийны — **морепродукты на гриле и овощные блюда** обычно легче."
+    },
+    "ar": {
+      "name": "المطبخ الإسباني",
+      "title": "سعرات المطبخ الإسباني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الإسباني. عدد الأطباق: {n}.",
+      "intro": "يعتمد المطبخ الإسباني على زيت الزيتون والثوم والمأكولات البحرية ومنتجات لحم الخنزير مثل الخامون والتشوريزو والأرز والبقوليات والخضار، مع اختلافات إقليمية واضحة. والتاباس، وهي أطباق صغيرة تُتشارك مع المشروبات، طريقة شائعة لتناول الطعام.",
+      "tip": "التاباس صغيرة لكن سعراتها تتراكم، والمقليات واللحوم المقددة عالية السعرات، بينما **المأكولات البحرية المشوية وأطباق الخضار** أخف عادةً."
+    },
+    "it": {
+      "name": "Cucina spagnola",
+      "title": "Calorie della cucina spagnola: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina spagnola: trova i più leggeri e sazianti.",
+      "intro": "La cucina spagnola si basa su olio d'oliva, aglio, frutti di mare, salumi di maiale come jamón e chorizo, riso, legumi e verdure, con forti differenze regionali. Le tapas, piccoli piatti da condividere con un drink, sono un modo molto diffuso di mangiare.",
+      "tip": "Le tapas sono piccole ma si sommano, e fritti e salumi sono calorici: **frutti di mare alla griglia e piatti di verdure** sono di solito più leggeri."
+    },
+    "el": {
+      "name": "Ισπανική κουζίνα",
+      "title": "Θερμίδες ισπανικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της ισπανικής κουζίνας.",
+      "intro": "Η ισπανική κουζίνα στηρίζεται στο ελαιόλαδο, το σκόρδο, τα θαλασσινά, τα χοιρινά αλλαντικά όπως το jamón και το chorizo, το ρύζι, τα όσπρια και τα λαχανικά, με έντονες τοπικές διαφορές. Τα τάπας — μικρά πιάτα για μοίρασμα με ένα ποτό — είναι δημοφιλής τρόπος φαγητού.",
+      "tip": "Τα τάπας είναι μικρά αλλά αθροίζονται, και τα τηγανητά και τα αλλαντικά έχουν πολλές θερμίδες — **τα ψητά θαλασσινά και τα πιάτα λαχανικών** είναι συνήθως ελαφρύτερα."
+    }
+  },
+  "swiss": {
+    "match": "Switzerland",
+    "slug": "swiss",
+    "emoji": "🇨🇭",
+    "en": {
+      "name": "Swiss food",
+      "title": "Swiss food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Swiss dishes. Find the lightest and most filling options.",
+      "intro": "Swiss cuisine draws on German, French and Italian traditions, with a strong role for cheese, dairy, potatoes and bread. Well-known dishes include fondue, raclette, rösti and muesli.",
+      "tip": "Melted-cheese dishes like **fondue and raclette** are very calorie-dense — add vegetables or a salad and keep an eye on the bread and potatoes."
+    },
+    "ru": {
+      "name": "Швейцарская кухня",
+      "title": "Калорийность швейцарской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд швейцарской кухни. Блюд в каталоге: {n}.",
+      "intro": "Швейцарская кухня вобрала немецкие, французские и итальянские традиции, и большую роль в ней играют сыр, молочные продукты, картофель и хлеб. Среди известных блюд — фондю, раклет, рёшти и мюсли.",
+      "tip": "Блюда с расплавленным сыром вроде **фондю и раклета** очень калорийны — добавьте овощи или салат и следите за количеством хлеба и картофеля."
+    },
+    "ar": {
+      "name": "المطبخ السويسري",
+      "title": "سعرات المطبخ السويسري: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ السويسري. عدد الأطباق: {n}.",
+      "intro": "يستمد المطبخ السويسري من التقاليد الألمانية والفرنسية والإيطالية، وللجبن ومنتجات الألبان والبطاطس والخبز دور كبير فيه. ومن أشهر أطباقه الفوندو والراكليت والروشتي والموسلي.",
+      "tip": "أطباق الجبن الذائب مثل **الفوندو والراكليت** عالية جدًا بالسعرات، فأضف الخضار أو السلطة وانتبه لكمية الخبز والبطاطس."
+    },
+    "it": {
+      "name": "Cucina svizzera",
+      "title": "Calorie della cucina svizzera: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina svizzera: trova i più leggeri e sazianti.",
+      "intro": "La cucina svizzera attinge alle tradizioni tedesca, francese e italiana, con un ruolo centrale per formaggi, latticini, patate e pane. Tra i piatti più noti ci sono fonduta, raclette, rösti e muesli.",
+      "tip": "I piatti a base di formaggio fuso come **fonduta e raclette** sono molto calorici: aggiungi verdure o un'insalata e tieni d'occhio pane e patate."
+    },
+    "el": {
+      "name": "Ελβετική κουζίνα",
+      "title": "Θερμίδες ελβετικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της ελβετικής κουζίνας.",
+      "intro": "Η ελβετική κουζίνα αντλεί από τη γερμανική, τη γαλλική και την ιταλική παράδοση, με σημαντικό ρόλο για το τυρί, τα γαλακτοκομικά, τις πατάτες και το ψωμί. Γνωστά πιάτα είναι το φοντί, η ρακλέτ, το ρέστι και το μούσλι.",
+      "tip": "Τα πιάτα με λιωμένο τυρί όπως **το φοντί και η ρακλέτ** έχουν πολλές θερμίδες — προσθέστε λαχανικά ή σαλάτα και προσέξτε την ποσότητα ψωμιού και πατάτας."
+    }
+  },
+  "korean": {
+    "match": "South Korea",
+    "slug": "korean",
+    "emoji": "🇰🇷",
+    "en": {
+      "name": "Korean food",
+      "title": "Korean food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Korean dishes. Find the lightest and most filling options.",
+      "intro": "Korean cuisine is built around rice, soups and stews, and many small side dishes (banchan), with kimchi and other fermented foods at its core. Common seasonings include gochujang (chilli paste), soy sauce, garlic and sesame oil.",
+      "tip": "Banchan and soups are often light, while **fried chicken, sweet sauces and rice cakes** add up quickly — lean grilled meat wrapped in lettuce is a protein-rich choice."
+    },
+    "ru": {
+      "name": "Корейская кухня",
+      "title": "Калорийность корейской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд корейской кухни. Блюд в каталоге: {n}.",
+      "intro": "Корейская кухня строится вокруг риса, супов и рагу, а также множества маленьких закусок (панчхан), и её основа — кимчи и другие ферментированные продукты. Частые приправы — кочхуджан (паста из перца чили), соевый соус, чеснок и кунжутное масло.",
+      "tip": "Панчхан и супы часто лёгкие, а **жареная курица, сладкие соусы и рисовые клёцки (ттоки)** быстро набирают калории — нежирное мясо на гриле в листьях салата будет богатым белком выбором."
+    },
+    "ar": {
+      "name": "المطبخ الكوري",
+      "title": "سعرات المطبخ الكوري: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ الكوري. عدد الأطباق: {n}.",
+      "intro": "يتمحور المطبخ الكوري حول الأرز والحساء واليخنات والكثير من الأطباق الجانبية الصغيرة (بانتشان)، ويحتل الكيمتشي والأطعمة المخمّرة الأخرى مكانة أساسية فيه. ومن التوابل الشائعة الغوتشوجانغ (معجون الفلفل الحار) وصلصة الصويا والثوم وزيت السمسم.",
+      "tip": "غالبًا ما تكون أطباق البانتشان والحساء خفيفة، بينما **الدجاج المقلي والصلصات الحلوة وكعك الأرز** تزيد السعرات بسرعة، واللحم المشوي قليل الدهن الملفوف بالخس خيار غني بالبروتين."
+    },
+    "it": {
+      "name": "Cucina coreana",
+      "title": "Calorie della cucina coreana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina coreana: trova i più leggeri e sazianti.",
+      "intro": "La cucina coreana ruota attorno a riso, zuppe e stufati e a tanti piccoli contorni (banchan), con il kimchi e altri cibi fermentati al centro. Tra i condimenti più comuni ci sono gochujang (pasta di peperoncino), salsa di soia, aglio e olio di sesamo.",
+      "tip": "Banchan e zuppe sono spesso leggeri, mentre **pollo fritto, salse dolci e gnocchi di riso (tteok)** si sommano in fretta: la carne magra alla griglia avvolta nella lattuga è una scelta ricca di proteine."
+    },
+    "el": {
+      "name": "Κορεατική κουζίνα",
+      "title": "Θερμίδες κορεατικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της κορεατικής κουζίνας.",
+      "intro": "Η κορεατική κουζίνα βασίζεται στο ρύζι, τις σούπες και τα μαγειρευτά και σε πολλά μικρά συνοδευτικά (banchan), με το κίμτσι και άλλα ζυμωμένα τρόφιμα στον πυρήνα της. Συνηθισμένα καρυκεύματα είναι το γκοτσουτζάνγκ (πάστα τσίλι), η σάλτσα σόγιας, το σκόρδο και το σησαμέλαιο.",
+      "tip": "Τα banchan και οι σούπες είναι συχνά ελαφριά, ενώ **το τηγανητό κοτόπουλο, οι γλυκές σάλτσες και τα κέικ ρυζιού (tteok)** αθροίζονται γρήγορα — το άπαχο ψητό κρέας τυλιγμένο σε μαρούλι είναι επιλογή πλούσια σε πρωτεΐνη."
+    }
+  },
+  "lebanese": {
+    "match": "Lebanon",
+    "slug": "lebanese",
+    "emoji": "🇱🇧",
+    "en": {
+      "name": "Lebanese food",
+      "title": "Lebanese food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Lebanese dishes. Find the lightest and most filling options.",
+      "intro": "Lebanese cuisine is part of the wider Levantine tradition, featuring olive oil, lemon, garlic, fresh herbs, chickpeas, bulgur and grilled meats. A meal often begins with mezze such as hummus, tabbouleh and fattoush, followed by grills.",
+      "tip": "Mezze spreads add up through **olive oil, tahini and bread** — grilled chicken or meat skewers with salad are a filling, protein-rich option."
+    },
+    "ru": {
+      "name": "Ливанская кухня",
+      "title": "Калорийность ливанской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд ливанской кухни. Блюд в каталоге: {n}.",
+      "intro": "Ливанская кухня — часть более широкой левантийской традиции: в ней много оливкового масла, лимона, чеснока, свежей зелени, нута, булгура и мяса на гриле. Трапеза часто начинается с мезе — хумуса, табуле и фаттуша, — за которыми следует мясо на гриле.",
+      "tip": "Мезе быстро набирают калории за счёт **оливкового масла, тахини и лепёшек** — шашлычки из курицы или мяса с салатом будут сытным и богатым белком вариантом."
+    },
+    "ar": {
+      "name": "المطبخ اللبناني",
+      "title": "سعرات المطبخ اللبناني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ اللبناني. عدد الأطباق: {n}.",
+      "intro": "المطبخ اللبناني جزء من التقليد الشامي الأوسع، ويتميز بزيت الزيتون والليمون والثوم والأعشاب الطازجة والحمص والبرغل واللحوم المشوية. وغالبًا ما تبدأ الوجبة بالمازة مثل الحمص والتبولة والفتوش، ثم تأتي المشاوي.",
+      "tip": "تتراكم سعرات المازة بسبب **زيت الزيتون والطحينة والخبز**، بينما أسياخ الدجاج أو اللحم المشوية مع السلطة خيار مُشبع وغني بالبروتين."
+    },
+    "it": {
+      "name": "Cucina libanese",
+      "title": "Calorie della cucina libanese: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina libanese: trova i più leggeri e sazianti.",
+      "intro": "La cucina libanese fa parte della più ampia tradizione levantina, con olio d'oliva, limone, aglio, erbe fresche, ceci, bulgur e carni alla griglia. Il pasto inizia spesso con i mezze, come hummus, tabbouleh e fattoush, seguiti dalle grigliate.",
+      "tip": "I mezze si sommano per via di **olio d'oliva, tahina e pane**: spiedini di pollo o carne alla griglia con insalata sono un'opzione saziante e ricca di proteine."
+    },
+    "el": {
+      "name": "Λιβανέζικη κουζίνα",
+      "title": "Θερμίδες λιβανέζικης κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της λιβανέζικης κουζίνας.",
+      "intro": "Η λιβανέζικη κουζίνα ανήκει στην ευρύτερη παράδοση του Λεβάντε, με ελαιόλαδο, λεμόνι, σκόρδο, φρέσκα μυρωδικά, ρεβίθια, πλιγούρι και ψητά κρέατα. Ένα γεύμα ξεκινά συχνά με μεζέδες όπως χούμους, ταμπουλέ και φατούς, και ακολουθούν τα ψητά.",
+      "tip": "Οι μεζέδες αθροίζονται λόγω **ελαιόλαδου, ταχινιού και ψωμιού** — τα σουβλάκια κοτόπουλου ή κρέατος με σαλάτα είναι χορταστική επιλογή, πλούσια σε πρωτεΐνη."
+    }
+  },
+  "saudi": {
+    "match": "Saudi Arabia",
+    "slug": "saudi",
+    "emoji": "🇸🇦",
+    "en": {
+      "name": "Saudi food",
+      "title": "Saudi food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Saudi dishes. Find the lightest and most filling options.",
+      "intro": "Saudi cuisine centres on rice, meat (especially lamb and chicken), dates, bread and aromatic spices such as cardamom, saffron and cloves. Rice-and-meat dishes like kabsa and mandi are often served on large shared platters.",
+      "tip": "Shared platters make portions hard to judge, and **the rice and added fat** carry much of the energy — serve yourself a measured amount and add salad."
+    },
+    "ru": {
+      "name": "Саудовская кухня",
+      "title": "Калорийность саудовской кухни: лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для блюд саудовской кухни. Блюд в каталоге: {n}.",
+      "intro": "Основа саудовской кухни — рис, мясо (особенно баранина и курица), финики, лепёшки и ароматные специи вроде кардамона, шафрана и гвоздики. Блюда из риса с мясом, например кабса и манди, часто подают на больших общих блюдах.",
+      "tip": "На общих блюдах сложно оценить порцию, а основную часть калорий дают **рис и добавленный жир** — накладывайте себе отмеренное количество и добавляйте салат."
+    },
+    "ar": {
+      "name": "المطبخ السعودي",
+      "title": "سعرات المطبخ السعودي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لأطباق المطبخ السعودي. عدد الأطباق: {n}.",
+      "intro": "يرتكز المطبخ السعودي على الأرز واللحوم (خاصة لحم الضأن والدجاج) والتمر والخبز والتوابل العطرية مثل الهيل والزعفران والقرنفل. وغالبًا ما تُقدَّم أطباق الأرز واللحم مثل الكبسة والمندي في صوانٍ كبيرة مشتركة.",
+      "tip": "تجعل الصواني المشتركة تقدير الحصة صعبًا، ويحمل **الأرز والدهون المضافة** جزءًا كبيرًا من السعرات، لذا اغرف لنفسك كمية محددة وأضف السلطة."
+    },
+    "it": {
+      "name": "Cucina saudita",
+      "title": "Calorie della cucina saudita: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina saudita: trova i più leggeri e sazianti.",
+      "intro": "La cucina saudita ruota attorno a riso, carne (soprattutto agnello e pollo), datteri, pane e spezie aromatiche come cardamomo, zafferano e chiodi di garofano. Piatti di riso e carne come kabsa e mandi si servono spesso su grandi vassoi da condividere.",
+      "tip": "Con i vassoi condivisi è difficile valutare la porzione, e **riso e grassi aggiunti** apportano gran parte delle calorie: serviti una quantità misurata e aggiungi un'insalata."
+    },
+    "el": {
+      "name": "Σαουδαραβική κουζίνα",
+      "title": "Θερμίδες σαουδαραβικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγικά, vegan, χωρίς γλουτένη) για {n} πιάτα της σαουδαραβικής κουζίνας.",
+      "intro": "Η σαουδαραβική κουζίνα βασίζεται στο ρύζι, το κρέας (κυρίως αρνί και κοτόπουλο), τους χουρμάδες, το ψωμί και αρωματικά μπαχαρικά όπως κάρδαμο, σαφράν και γαρίφαλο. Πιάτα με ρύζι και κρέας όπως η kabsa και το mandi σερβίρονται συχνά σε μεγάλες κοινές πιατέλες.",
+      "tip": "Στις κοινές πιατέλες η μερίδα είναι δύσκολο να εκτιμηθεί, και **το ρύζι και το πρόσθετο λίπος** δίνουν μεγάλο μέρος της ενέργειας — σερβιριστείτε μετρημένη ποσότητα και προσθέστε σαλάτα."
+    }
+  },
+  "german": {
+    "match": "Germany",
+    "slug": "german",
+    "emoji": "🇩🇪",
+    "en": {
+      "name": "German food",
+      "title": "German food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} German dishes. Find the lightest and most filling options.",
+      "intro": "German cuisine is built around **pork, potatoes, bread and cabbage**, with regional dishes varying widely from north to south. Sausages, roasts with gravy, dumplings and fermented vegetables such as sauerkraut are common, and bread plays a central role at breakfast and supper.",
+      "tip": "Many classic mains combine fried or roasted meat with a rich sauce and potato sides — **the gravy, breading and fried potatoes** often add as much as the meat itself. Choosing boiled potatoes or a salad as the side helps keep the total down."
+    },
+    "ru": {
+      "name": "Немецкая кухня",
+      "title": "Калорийность немецкой кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд немецкой кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Немецкая кухня строится на **свинине, картофеле, хлебе и капусте**, а региональные блюда сильно различаются между севером и югом. Распространены колбаски, жаркое с подливой, клёцки и квашеные овощи, например квашеная капуста, а хлеб играет главную роль за завтраком и ужином.",
+      "tip": "Многие классические блюда сочетают жареное или запечённое мясо с густым соусом и картофельным гарниром — **подлива, панировка и жареный картофель** часто дают не меньше калорий, чем само мясо. Отварной картофель или салат на гарнир помогут снизить итог."
+    },
+    "ar": {
+      "name": "المطبخ الألماني",
+      "title": "سعرات المطبخ الألماني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ الألماني. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يعتمد المطبخ الألماني على **لحم الخنزير والبطاطس والخبز والملفوف**، وتختلف أطباقه كثيرًا بين الشمال والجنوب. وتنتشر النقانق واللحوم المحمّرة بالمرق والزلابية والخضار المخمّرة مثل الملفوف المخلل (زاوركراوت)، ويحتل الخبز مكانة أساسية في الفطور والعشاء.",
+      "tip": "تجمع أطباق رئيسية كثيرة بين اللحم المقلي أو المحمّر وصلصة غنية وأطباق جانبية من البطاطس، و**المرق والتغليف بالبقسماط والبطاطس المقلية** قد تضيف سعرات بقدر اللحم نفسه. واختيار البطاطس المسلوقة أو السلطة طبقًا جانبيًا يساعد على خفض المجموع."
+    },
+    "it": {
+      "name": "Cucina tedesca",
+      "title": "Calorie della cucina tedesca: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina tedesca. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina tedesca si basa su **maiale, patate, pane e cavolo**, con piatti regionali molto diversi tra nord e sud. Sono comuni salsicce, arrosti con sugo, canederli e verdure fermentate come i crauti, mentre il pane ha un ruolo centrale a colazione e a cena.",
+      "tip": "Molti piatti classici uniscono carne fritta o arrosto a una salsa ricca e contorni di patate: **sugo, impanatura e patate fritte** spesso aggiungono quanto la carne stessa. Se scegli patate lesse o un'insalata come contorno, il totale scende."
+    },
+    "el": {
+      "name": "Γερμανική κουζίνα",
+      "title": "Θερμίδες γερμανικής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της γερμανικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η γερμανική κουζίνα βασίζεται στο **χοιρινό, τις πατάτες, το ψωμί και το λάχανο**, με τοπικά πιάτα που διαφέρουν πολύ από βορρά σε νότο. Συνηθισμένα είναι τα λουκάνικα, τα ψητά με σάλτσα, τα κνέντελ (μπαλάκια ζύμης) και τα ζυμωμένα λαχανικά όπως το ξινολάχανο, ενώ το ψωμί έχει κεντρικό ρόλο στο πρωινό και στο βραδινό.",
+      "tip": "Πολλά κλασικά κυρίως πιάτα συνδυάζουν τηγανητό ή ψητό κρέας με πλούσια σάλτσα και πατάτες — **η σάλτσα, το πανάρισμα και οι τηγανητές πατάτες** συχνά προσθέτουν όσο και το ίδιο το κρέας. Επιλέξτε βραστές πατάτες ή σαλάτα ως συνοδευτικό για να μειώσετε το σύνολο."
+    }
+  },
+  "vietnamese": {
+    "match": "Vietnam",
+    "slug": "vietnamese",
+    "emoji": "🇻🇳",
+    "en": {
+      "name": "Vietnamese food",
+      "title": "Vietnamese food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Vietnamese dishes. Find the lightest and most filling options.",
+      "intro": "Vietnamese cuisine relies on **rice, rice noodles, fresh herbs and fish sauce**, balancing salty, sweet, sour and spicy flavours. Noodle soups such as pho, fresh rice-paper rolls and grilled meats served with herbs and dipping sauces are typical.",
+      "tip": "Fresh rolls and broth-based soups are usually lighter than fried spring rolls or dishes with **sweet dipping sauces**, which can add noticeable sugar. A large bowl of noodle soup is still filling, mostly thanks to the noodles."
+    },
+    "ru": {
+      "name": "Вьетнамская кухня",
+      "title": "Калорийность вьетнамской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд вьетнамской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Вьетнамская кухня опирается на **рис, рисовую лапшу, свежую зелень и рыбный соус**, сочетая солёный, сладкий, кислый и острый вкусы. Типичны супы с лапшой, такие как фо, свежие роллы в рисовой бумаге и мясо на гриле с зеленью и соусами для макания.",
+      "tip": "Свежие роллы и супы на бульоне обычно легче жареных спринг-роллов и блюд со **сладкими соусами**, в которых бывает заметно много сахара. Большая миска супа с лапшой всё равно сытная — в основном за счёт лапши."
+    },
+    "ar": {
+      "name": "المطبخ الفيتنامي",
+      "title": "سعرات المطبخ الفيتنامي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ الفيتنامي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يعتمد المطبخ الفيتنامي على **الأرز ونودلز الأرز والأعشاب الطازجة وصلصة السمك**، ويوازن بين النكهات المالحة والحلوة والحامضة والحارة. ومن أطباقه المعروفة حساء النودلز مثل الفو، واللفائف الطازجة بورق الأرز، واللحوم المشوية التي تُقدَّم مع الأعشاب وصلصات التغميس.",
+      "tip": "اللفائف الطازجة والشوربات القائمة على المرق أخف عادةً من اللفائف المقلية والأطباق المقدَّمة مع **صلصات التغميس الحلوة** التي قد تحتوي على كمية ملحوظة من السكر. ويبقى الطبق الكبير من حساء النودلز مُشبعًا، وذلك بفضل النودلز أساسًا."
+    },
+    "it": {
+      "name": "Cucina vietnamita",
+      "title": "Calorie della cucina vietnamita: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina vietnamita. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina vietnamita si basa su **riso, noodles di riso, erbe fresche e salsa di pesce**, bilanciando sapori salati, dolci, aspri e piccanti. Sono tipiche le zuppe di noodles come il pho, gli involtini freschi di carta di riso e le carni grigliate servite con erbe e salse da intingere.",
+      "tip": "Involtini freschi e zuppe in brodo sono di solito più leggeri degli involtini fritti e dei piatti con **salse dolci**, che possono contenere parecchio zucchero. Una ciotola grande di zuppa di noodles sazia comunque, soprattutto grazie ai noodles."
+    },
+    "el": {
+      "name": "Βιετναμέζικη κουζίνα",
+      "title": "Θερμίδες βιετναμέζικης κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της βιετναμέζικης κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η βιετναμέζικη κουζίνα στηρίζεται στο **ρύζι, τα νουντλς ρυζιού, τα φρέσκα μυρωδικά και τη σάλτσα ψαριού**, ισορροπώντας αλμυρές, γλυκές, ξινές και καυτερές γεύσεις. Χαρακτηριστικές είναι οι σούπες με νουντλς όπως το φο, τα φρέσκα ρολάκια με ρυζόχαρτο και τα ψητά κρέατα που σερβίρονται με μυρωδικά και σάλτσες για βούτηγμα.",
+      "tip": "Τα φρέσκα ρολάκια και οι σούπες με ζωμό είναι συνήθως πιο ελαφριά από τα τηγανητά spring rolls και τα πιάτα με **γλυκές σάλτσες**, που μπορεί να περιέχουν αρκετή ζάχαρη. Ένα μεγάλο μπολ σούπας με νουντλς παραμένει χορταστικό, κυρίως λόγω των νουντλς."
+    }
+  },
+  "egyptian": {
+    "match": "Egypt",
+    "slug": "egyptian",
+    "emoji": "🇪🇬",
+    "en": {
+      "name": "Egyptian food",
+      "title": "Egyptian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Egyptian dishes. Find the lightest and most filling options.",
+      "intro": "Egyptian cuisine is rich in **legumes, bread, rice and vegetables** — fava beans, lentils and chickpeas appear in many everyday dishes. Well-known examples include ful medames, ta'ameya (fava bean falafel) and koshari, a mix of rice, pasta, lentils and tomato sauce.",
+      "tip": "Bean-based dishes provide plenty of protein and fibre, but **koshari and fried foods like ta'ameya** are energy-dense — portion size and fried toppings matter most."
+    },
+    "ru": {
+      "name": "Египетская кухня",
+      "title": "Калорийность египетской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд египетской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Египетская кухня богата **бобовыми, хлебом, рисом и овощами** — бобы фава, чечевица и нут входят во многие повседневные блюда. Среди известных блюд — фуль медамес, тамейя (фалафель из бобов фава) и кошари — смесь риса, макарон, чечевицы и томатного соуса.",
+      "tip": "Блюда из бобовых дают много белка и клетчатки, но **кошари и жареные блюда вроде тамейи** довольно калорийны — важнее всего размер порции и жареные добавки."
+    },
+    "ar": {
+      "name": "المطبخ المصري",
+      "title": "سعرات المطبخ المصري: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ المصري. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يزخر المطبخ المصري بـ**البقوليات والخبز والأرز والخضار**، إذ يدخل الفول والعدس والحمص في كثير من الأطباق اليومية. ومن أشهر أطباقه الفول المدمس والطعمية والكشري، وهو مزيج من الأرز والمعكرونة والعدس وصلصة الطماطم.",
+      "tip": "تمنح أطباق البقوليات كمية جيدة من البروتين والألياف، لكن **الكشري والأطعمة المقلية مثل الطعمية** غنية بالسعرات، لذا فإن حجم الحصة والإضافات المقلية هما الأهم."
+    },
+    "it": {
+      "name": "Cucina egiziana",
+      "title": "Calorie della cucina egiziana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina egiziana. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina egiziana è ricca di **legumi, pane, riso e verdure**: fave, lenticchie e ceci compaiono in molti piatti quotidiani. Tra i più noti ci sono il ful medames, la ta'ameya (falafel di fave) e il koshari, un mix di riso, pasta, lenticchie e salsa di pomodoro.",
+      "tip": "I piatti a base di legumi danno molte proteine e fibre, ma **il koshari e i fritti come la ta'ameya** sono molto calorici: contano soprattutto la porzione e i condimenti fritti."
+    },
+    "el": {
+      "name": "Αιγυπτιακή κουζίνα",
+      "title": "Θερμίδες αιγυπτιακής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της αιγυπτιακής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η αιγυπτιακή κουζίνα είναι πλούσια σε **όσπρια, ψωμί, ρύζι και λαχανικά** — κουκιά, φακές και ρεβίθια υπάρχουν σε πολλά καθημερινά πιάτα. Γνωστά παραδείγματα είναι το φουλ μεντάμες, η ταάμεγια (φαλάφελ από κουκιά) και το κοσάρι, ένα μείγμα από ρύζι, ζυμαρικά, φακές και σάλτσα ντομάτας.",
+      "tip": "Τα πιάτα με όσπρια δίνουν αρκετή πρωτεΐνη και φυτικές ίνες, όμως **το κοσάρι και τα τηγανητά όπως η ταάμεγια** έχουν πολλές θερμίδες — σημασία έχουν κυρίως η μερίδα και τα τηγανητά υλικά."
+    }
+  },
+  "gulf": {
+    "match": "Gulf",
+    "slug": "gulf",
+    "emoji": "🍚",
+    "en": {
+      "name": "Gulf food",
+      "title": "Gulf food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Gulf dishes. Find the lightest and most filling options.",
+      "intro": "Gulf cuisine centres on **spiced rice cooked with meat, chicken or fish**, such as machboos (kabsa), often seasoned with cardamom, saffron, dried lime and baharat. Dates, Arabic coffee, flatbreads and slow-cooked dishes like harees are also common.",
+      "tip": "Rice dishes are often served on generous shared platters, and **the rice absorbs much of the cooking fat** — a smaller portion of rice with more of the meat and salad keeps calories lower."
+    },
+    "ru": {
+      "name": "Кухня стран Персидского залива",
+      "title": "Калорийность кухни стран Залива: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд кухни стран Залива. Найдите самые лёгкие и сытные.",
+      "intro": "Основа кухни стран Персидского залива — **пряный рис, приготовленный с мясом, курицей или рыбой**, например мачбус (кабса), с кардамоном, шафраном, сушёным лаймом и смесью бахарат. Также распространены финики, арабский кофе, лепёшки и томлёные блюда вроде хариса.",
+      "tip": "Рис часто подают на больших общих блюдах, и **он впитывает значительную часть жира** — меньшая порция риса и больше мяса и салата помогут снизить калорийность."
+    },
+    "ar": {
+      "name": "مطبخ الخليج",
+      "title": "سعرات مطبخ الخليج: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق مطبخ الخليج. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يرتكز مطبخ الخليج على **الأرز المتبّل المطبوخ مع اللحم أو الدجاج أو السمك** مثل المجبوس (الكبسة)، ويُتبّل غالبًا بالهيل والزعفران واللومي والبهارات. كما تنتشر التمور والقهوة العربية والخبز والأطباق المطهوة ببطء مثل الهريس.",
+      "tip": "تُقدَّم أطباق الأرز عادةً في صوانٍ كبيرة مشتركة، و**يمتص الأرز جزءًا كبيرًا من دهون الطبخ**، لذا فإن تقليل الأرز والإكثار من اللحم والسلطة يخفض السعرات."
+    },
+    "it": {
+      "name": "Cucina del Golfo",
+      "title": "Calorie della cucina del Golfo: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina del Golfo. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina del Golfo ruota attorno al **riso speziato cotto con carne, pollo o pesce**, come il machboos (kabsa), spesso insaporito con cardamomo, zafferano, lime essiccato e baharat. Sono comuni anche datteri, caffè arabo, pane piatto e piatti a cottura lenta come l'harees.",
+      "tip": "I piatti di riso vengono spesso serviti in grandi vassoi da condividere e **il riso assorbe gran parte del grasso di cottura**: prendi meno riso e più carne e insalata per tenere basse le calorie."
+    },
+    "el": {
+      "name": "Κουζίνα του Κόλπου",
+      "title": "Θερμίδες κουζίνας του Κόλπου: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της κουζίνας του Κόλπου. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η κουζίνα του Κόλπου βασίζεται στο **αρωματικό ρύζι μαγειρεμένο με κρέας, κοτόπουλο ή ψάρι**, όπως το ματσμπούς (καμπσά), συχνά με κάρδαμο, σαφράν, αποξηραμένο λάιμ και μπαχαράτ. Συνηθισμένα είναι επίσης οι χουρμάδες, ο αραβικός καφές, οι πίτες και αργομαγειρεμένα πιάτα όπως το χαρίς.",
+      "tip": "Τα πιάτα ρυζιού σερβίρονται συχνά σε μεγάλες κοινές πιατέλες και **το ρύζι απορροφά μεγάλο μέρος του λίπους μαγειρέματος** — λιγότερο ρύζι και περισσότερο κρέας και σαλάτα κρατούν τις θερμίδες χαμηλότερα."
+    }
+  },
+  "indonesian": {
+    "match": "Indonesia",
+    "slug": "indonesian",
+    "emoji": "🇮🇩",
+    "en": {
+      "name": "Indonesian food",
+      "title": "Indonesian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Indonesian dishes. Find the lightest and most filling options.",
+      "intro": "Indonesian cuisine is based on **rice, coconut, chilli and spice pastes**, with dishes such as nasi goreng, satay, rendang and gado-gado. A typical meal is rice served with several side dishes, often accompanied by sambal.",
+      "tip": "Coconut-milk curries and fried dishes like nasi goreng are calorie-dense, and **peanut sauce** on satay and gado-gado adds a lot too. Grilled items and vegetable sides are usually lighter."
+    },
+    "ru": {
+      "name": "Индонезийская кухня",
+      "title": "Калорийность индонезийской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд индонезийской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Индонезийская кухня основана на **рисе, кокосе, чили и пряных пастах**; среди известных блюд — наси горенг, сатай, ренданг и гадо-гадо. Обычная трапеза — это рис с несколькими дополнительными блюдами, часто с соусом самбал.",
+      "tip": "Карри на кокосовом молоке и жареные блюда вроде наси горенг довольно калорийны; **арахисовый соус** к сатаю и гадо-гадо тоже добавляет немало. Блюда на гриле и овощные гарниры обычно легче."
+    },
+    "ar": {
+      "name": "المطبخ الإندونيسي",
+      "title": "سعرات المطبخ الإندونيسي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ الإندونيسي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يقوم المطبخ الإندونيسي على **الأرز وجوز الهند والفلفل الحار ومعاجين التوابل**، ومن أشهر أطباقه ناسي غورينغ والساتاي والرندانغ وغادو غادو. وتتكون الوجبة عادةً من الأرز مع عدة أطباق جانبية، وغالبًا ما ترافقها صلصة السامبال.",
+      "tip": "أطباق الكاري بحليب جوز الهند والأطباق المقلية مثل ناسي غورينغ غنية بالسعرات، كما أن **صلصة الفول السوداني** في الساتاي وغادو غادو تضيف الكثير. أما المشويات والأطباق الجانبية من الخضار فهي أخف عادةً."
+    },
+    "it": {
+      "name": "Cucina indonesiana",
+      "title": "Calorie della cucina indonesiana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina indonesiana. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina indonesiana si basa su **riso, cocco, peperoncino e paste di spezie**, con piatti come nasi goreng, satay, rendang e gado-gado. Un pasto tipico è riso servito con diversi contorni, spesso accompagnato dal sambal.",
+      "tip": "I curry al latte di cocco e i piatti fritti come il nasi goreng sono molto calorici, e anche **la salsa di arachidi** di satay e gado-gado aggiunge parecchio. Grigliate e contorni di verdure sono di solito più leggeri."
+    },
+    "el": {
+      "name": "Ινδονησιακή κουζίνα",
+      "title": "Θερμίδες ινδονησιακής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της ινδονησιακής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η ινδονησιακή κουζίνα βασίζεται στο **ρύζι, την καρύδα, το τσίλι και τις πάστες μπαχαρικών**, με πιάτα όπως το νάσι γκορένγκ, το σατέ, το ρεντάνγκ και το γκάντο-γκάντο. Ένα τυπικό γεύμα είναι ρύζι με διάφορα συνοδευτικά πιάτα, συχνά μαζί με σάλτσα σάμπαλ.",
+      "tip": "Τα κάρι με γάλα καρύδας και τα τηγανητά πιάτα όπως το νάσι γκορένγκ έχουν πολλές θερμίδες, ενώ και **η σάλτσα φιστικιού** στο σατέ και το γκάντο-γκάντο προσθέτει αρκετές. Τα ψητά και τα συνοδευτικά λαχανικών είναι συνήθως πιο ελαφριά."
+    }
+  },
+  "moroccan": {
+    "match": "Morocco",
+    "slug": "moroccan",
+    "emoji": "🇲🇦",
+    "en": {
+      "name": "Moroccan food",
+      "title": "Moroccan food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Moroccan dishes. Find the lightest and most filling options.",
+      "intro": "Moroccan cuisine combines **couscous, slow-cooked tagines, bread and warm spices** such as cumin, cinnamon, ginger and saffron. Dishes often mix savoury and sweet, for example meat with dried fruit, and harira soup and grilled kebabs are popular.",
+      "tip": "A tagine with lean meat and vegetables can be moderate, but **dried fruit, honey and oil** raise the count, and the bread or couscous served alongside adds more than it seems."
+    },
+    "ru": {
+      "name": "Марокканская кухня",
+      "title": "Калорийность марокканской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд марокканской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Марокканская кухня сочетает **кускус, томлёные тажины, хлеб и тёплые пряности** — кумин, корицу, имбирь и шафран. В блюдах часто соединяются солёное и сладкое, например мясо с сухофруктами; популярны также суп харира и шашлычки на гриле.",
+      "tip": "Тажин с нежирным мясом и овощами может быть умеренным по калориям, но **сухофрукты, мёд и масло** повышают их, а хлеб или кускус на гарнир добавляют больше, чем кажется."
+    },
+    "ar": {
+      "name": "المطبخ المغربي",
+      "title": "سعرات المطبخ المغربي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ المغربي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يجمع المطبخ المغربي بين **الكسكس والطواجن المطهوة ببطء والخبز والتوابل الدافئة** مثل الكمون والقرفة والزنجبيل والزعفران. وكثيرًا ما تمزج الأطباق بين المالح والحلو، كاللحم مع الفواكه المجففة، كما تحظى شوربة الحريرة والمشاوي بشعبية واسعة.",
+      "tip": "قد يكون الطاجين باللحم قليل الدهن والخضار معتدل السعرات، لكن **الفواكه المجففة والعسل والزيت** ترفعها، كما أن الخبز أو الكسكس المرافق يضيف أكثر مما يبدو."
+    },
+    "it": {
+      "name": "Cucina marocchina",
+      "title": "Calorie della cucina marocchina: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina marocchina. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina marocchina unisce **cuscus, tajine a cottura lenta, pane e spezie calde** come cumino, cannella, zenzero e zafferano. Spesso i piatti mescolano dolce e salato, per esempio carne con frutta essiccata, e sono molto amati la zuppa harira e gli spiedini alla griglia.",
+      "tip": "Una tajine con carne magra e verdure può essere moderata, ma **frutta essiccata, miele e olio** fanno salire le calorie, e il pane o il cuscus di accompagnamento aggiungono più di quanto sembri."
+    },
+    "el": {
+      "name": "Μαροκινή κουζίνα",
+      "title": "Θερμίδες μαροκινής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της μαροκινής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η μαροκινή κουζίνα συνδυάζει **κουσκούς, αργομαγειρεμένα ταζίν, ψωμί και ζεστά μπαχαρικά** όπως κύμινο, κανέλα, τζίντζερ και σαφράν. Τα πιάτα συχνά ενώνουν το αλμυρό με το γλυκό, για παράδειγμα κρέας με αποξηραμένα φρούτα, ενώ δημοφιλή είναι η σούπα χαρίρα και τα σουβλάκια στη σχάρα.",
+      "tip": "Ένα ταζίν με άπαχο κρέας και λαχανικά μπορεί να είναι μέτριο σε θερμίδες, όμως **τα αποξηραμένα φρούτα, το μέλι και το λάδι** τις αυξάνουν, και το ψωμί ή το κουσκούς που το συνοδεύουν προσθέτουν περισσότερο απ' ό,τι φαίνεται."
+    }
+  },
+  "serbian": {
+    "match": "Serbia",
+    "slug": "serbian",
+    "emoji": "🇷🇸",
+    "en": {
+      "name": "Serbian food",
+      "title": "Serbian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Serbian dishes. Find the lightest and most filling options.",
+      "intro": "Serbian cuisine features **grilled meats, peppers, cheese and bread**, with dishes such as ćevapi, pljeskavica and stuffed peppers. Ajvar (roasted pepper relish), kajmak (a rich, creamy dairy spread) and burek pastry are everyday favourites.",
+      "tip": "Grilled meat is rich in protein, but **kajmak, burek and bread** add a lot of energy — a fresh salad such as šopska is a lighter side."
+    },
+    "ru": {
+      "name": "Сербская кухня",
+      "title": "Калорийность сербской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд сербской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Сербская кухня — это **мясо на гриле, перцы, сыр и хлеб**: чевапчичи, плескавица, фаршированные перцы. Айвар (паста из печёного перца), каймак (густой сливочный молочный продукт) и бурек — повседневная классика.",
+      "tip": "Мясо на гриле богато белком, но **каймак, бурек и хлеб** добавляют много энергии — лёгким гарниром будет свежий салат, например шопский."
+    },
+    "ar": {
+      "name": "المطبخ الصربي",
+      "title": "سعرات المطبخ الصربي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ الصربي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يتميز المطبخ الصربي بـ**اللحوم المشوية والفلفل والجبن والخبز**، ومن أطباقه تشيفابي وبليسكافيتسا والفلفل المحشي. ويُعد الأيفار (معجون الفلفل المشوي) والكايماك (قشدة كثيفة) والبوريك من الأطعمة اليومية المحبوبة.",
+      "tip": "اللحوم المشوية غنية بالبروتين، لكن **الكايماك والبوريك والخبز** تضيف الكثير من الطاقة، والسلطة الطازجة مثل سلطة الشوبسكا خيار جانبي أخف."
+    },
+    "it": {
+      "name": "Cucina serba",
+      "title": "Calorie della cucina serba: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina serba. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina serba punta su **carne alla griglia, peperoni, formaggio e pane**, con piatti come ćevapi, pljeskavica e peperoni ripieni. L'ajvar (crema di peperoni arrostiti), il kajmak (una crema di latte densa) e il burek sono classici di tutti i giorni.",
+      "tip": "La carne alla griglia è ricca di proteine, ma **kajmak, burek e pane** aggiungono molta energia: un'insalata fresca come la šopska è un contorno più leggero."
+    },
+    "el": {
+      "name": "Σερβική κουζίνα",
+      "title": "Θερμίδες σερβικής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της σερβικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η σερβική κουζίνα έχει στο κέντρο της **ψητά κρέατα, πιπεριές, τυρί και ψωμί**, με πιάτα όπως τα τσεβάπι, η πλιέσκαβιτσα και οι γεμιστές πιπεριές. Το αϊβάρ (αλοιφή από ψητές πιπεριές), το καϊμάκι (παχύ κρεμώδες γαλακτοκομικό) και το μπουρέκι είναι καθημερινές αγαπημένες επιλογές.",
+      "tip": "Τα ψητά κρέατα είναι πλούσια σε πρωτεΐνη, όμως **το καϊμάκι, το μπουρέκι και το ψωμί** προσθέτουν πολλή ενέργεια — μια φρέσκια σαλάτα όπως η σόπσκα είναι πιο ελαφριά συνοδεία."
+    }
+  },
+  "portuguese": {
+    "match": "Portugal",
+    "slug": "portuguese",
+    "emoji": "🇵🇹",
+    "en": {
+      "name": "Portuguese food",
+      "title": "Portuguese food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Portuguese dishes. Find the lightest and most filling options.",
+      "intro": "Portuguese cuisine relies on **fish and seafood, olive oil, garlic and bread**, with salt cod (bacalhau) prepared in many ways. Grilled sardines, caldo verde soup, hearty stews and custard pastries such as pastéis de nata are well known.",
+      "tip": "Grilled fish and soups are generally lighter options, while **cream- or potato-based bakes and pastries** are much richer. Olive oil is used generously, so it adds up."
+    },
+    "ru": {
+      "name": "Португальская кухня",
+      "title": "Калорийность португальской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд португальской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Португальская кухня опирается на **рыбу и морепродукты, оливковое масло, чеснок и хлеб**, а солёную треску (бакальяу) готовят множеством способов. Известны также сардины на гриле, суп калду верде, сытные рагу и пирожные с заварным кремом, такие как паштел-де-ната.",
+      "tip": "Рыба на гриле и супы обычно легче, а **запеканки со сливками или картофелем и выпечка** гораздо калорийнее. Оливкового масла не жалеют, так что оно заметно добавляет к итогу."
+    },
+    "ar": {
+      "name": "المطبخ البرتغالي",
+      "title": "سعرات المطبخ البرتغالي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ البرتغالي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يعتمد المطبخ البرتغالي على **الأسماك والمأكولات البحرية وزيت الزيتون والثوم والخبز**، ويُحضَّر سمك القد المملح (باكالياو) بطرق عديدة. ومن أطباقه المعروفة أيضًا السردين المشوي وشوربة كالدو فيردي واليخنات والمعجنات بالكاسترد مثل باستيل دي ناتا.",
+      "tip": "الأسماك المشوية والشوربات خيارات أخف عادةً، أما **الأطباق المخبوزة بالكريمة أو البطاطس والمعجنات** فهي أغنى بكثير. ويُستخدم زيت الزيتون بسخاء، لذا فإنه يرفع المجموع."
+    },
+    "it": {
+      "name": "Cucina portoghese",
+      "title": "Calorie della cucina portoghese: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina portoghese. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina portoghese si basa su **pesce e frutti di mare, olio d'oliva, aglio e pane**, e il baccalà (bacalhau) si prepara in tantissimi modi. Sono famosi anche le sardine alla griglia, la zuppa caldo verde, gli stufati e i dolci alla crema come i pastéis de nata.",
+      "tip": "Pesce alla griglia e zuppe sono di solito le opzioni più leggere, mentre **i piatti al forno con panna o patate e i dolci** sono molto più ricchi. L'olio d'oliva si usa con generosità, quindi conta."
+    },
+    "el": {
+      "name": "Πορτογαλική κουζίνα",
+      "title": "Θερμίδες πορτογαλικής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της πορτογαλικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η πορτογαλική κουζίνα στηρίζεται στα **ψάρια και θαλασσινά, το ελαιόλαδο, το σκόρδο και το ψωμί**, με τον παστό μπακαλιάρο (bacalhau) να μαγειρεύεται με πολλούς τρόπους. Γνωστές είναι επίσης οι σαρδέλες στη σχάρα, η σούπα κάλντο βέρντε, τα μαγειρευτά και γλυκά με κρέμα όπως τα pastéis de nata.",
+      "tip": "Τα ψητά ψάρια και οι σούπες είναι συνήθως πιο ελαφριές επιλογές, ενώ **τα πιάτα φούρνου με κρέμα ή πατάτες και τα γλυκά** είναι πολύ πιο πλούσια. Το ελαιόλαδο χρησιμοποιείται γενναιόδωρα, οπότε μετράει."
+    }
+  },
+  "yemeni": {
+    "match": "Yemen",
+    "slug": "yemeni",
+    "emoji": "🇾🇪",
+    "en": {
+      "name": "Yemeni food",
+      "title": "Yemeni food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Yemeni dishes. Find the lightest and most filling options.",
+      "intro": "Yemeni cuisine is known for **slow-cooked meats, flatbreads and spiced stews**, seasoned with the hawaij spice blend and served with zhug, a green chilli sauce. Saltah, a meat stew topped with fenugreek froth, and mandi, rice with slow-cooked meat, are signature dishes.",
+      "tip": "Meals are often shared with **plenty of bread or rice**, which makes up much of the calories, and sweet dishes such as bint al-sahn, served with honey and ghee, are especially rich."
+    },
+    "ru": {
+      "name": "Йеменская кухня",
+      "title": "Калорийность йеменской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд йеменской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Йеменская кухня известна **томлёным мясом, лепёшками и пряными рагу**, приправленными смесью хаваидж и соусом схуг из зелёного чили. Фирменные блюда — сальта, мясное рагу с пеной из пажитника, и манди — рис с медленно приготовленным мясом.",
+      "tip": "Едят обычно сообща и с **большим количеством хлеба или риса**, на которые приходится значительная часть калорий, а сладкие блюда вроде бинт ас-сахн с мёдом и топлёным маслом особенно калорийны."
+    },
+    "ar": {
+      "name": "المطبخ اليمني",
+      "title": "سعرات المطبخ اليمني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ اليمني. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يشتهر المطبخ اليمني بـ**اللحوم المطهوة ببطء والخبز واليخنات المتبّلة**، المنكّهة بخلطة الحوايج والمقدَّمة مع السحاوق، وهو صلصة من الفلفل الأخضر الحار. ومن أطباقه المميزة السلتة، وهي يخنة لحم تعلوها رغوة الحلبة، والمندي، وهو أرز مع لحم مطهو ببطء.",
+      "tip": "تُتناول الوجبات غالبًا بشكل جماعي مع **كمية وفيرة من الخبز أو الأرز**، وهي تشكل جزءًا كبيرًا من السعرات، كما أن الأطباق الحلوة مثل بنت الصحن المقدَّمة مع العسل والسمن غنية بشكل خاص."
+    },
+    "it": {
+      "name": "Cucina yemenita",
+      "title": "Calorie della cucina yemenita: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina yemenita. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina yemenita è nota per **carni a cottura lenta, pane piatto e stufati speziati**, insaporiti con la miscela hawaij e serviti con lo zhug, una salsa di peperoncino verde. Piatti simbolo sono la saltah, uno stufato di carne coperto da una spuma di fieno greco, e il mandi, riso con carne cotta lentamente.",
+      "tip": "I pasti si condividono spesso con **tanto pane o riso**, che forniscono gran parte delle calorie, e dolci come il bint al-sahn, servito con miele e burro chiarificato, sono particolarmente ricchi."
+    },
+    "el": {
+      "name": "Υεμενική κουζίνα",
+      "title": "Θερμίδες υεμενικής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της υεμενικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η υεμενική κουζίνα είναι γνωστή για τα **αργομαγειρεμένα κρέατα, τις πίτες και τα μπαχαρένια μαγειρευτά**, αρωματισμένα με το μείγμα χαουάιτζ και σερβιρισμένα με ζουγκ, μια σάλτσα πράσινου τσίλι. Χαρακτηριστικά πιάτα είναι η σάλτα, μαγειρευτό κρέατος με αφρό από τριγωνέλλα, και το μάντι, ρύζι με αργομαγειρεμένο κρέας.",
+      "tip": "Τα γεύματα μοιράζονται συχνά με **άφθονο ψωμί ή ρύζι**, που δίνουν μεγάλο μέρος των θερμίδων, ενώ γλυκά όπως το μπιντ αλ-σαχν, με μέλι και βούτυρο γκι, είναι ιδιαίτερα πλούσια."
+    }
+  },
+  "peruvian": {
+    "match": "Peru",
+    "slug": "peruvian",
+    "emoji": "🇵🇪",
+    "en": {
+      "name": "Peruvian food",
+      "title": "Peruvian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Peruvian dishes. Find the lightest and most filling options.",
+      "intro": "Peruvian cuisine blends Indigenous, Spanish, African and Asian influences, with staples such as **potatoes, corn, ají chillies and fresh fish**. Ceviche, lomo saltado and ají de gallina are among the best-known dishes.",
+      "tip": "Ceviche is light and high in protein, while **lomo saltado often comes with both rice and fries** — skipping one of the two makes a big difference."
+    },
+    "ru": {
+      "name": "Перуанская кухня",
+      "title": "Калорийность перуанской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд перуанской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Перуанская кухня соединяет местные, испанские, африканские и азиатские влияния, а её основу составляют **картофель, кукуруза, перец ахи и свежая рыба**. Среди самых известных блюд — севиче, ломо сальтадо и ахи де гальина.",
+      "tip": "Севиче — лёгкое блюдо с высоким содержанием белка, а **ломо сальтадо часто подают и с рисом, и с картофелем фри** — если отказаться от одного из гарниров, разница будет большой."
+    },
+    "ar": {
+      "name": "المطبخ البيروفي",
+      "title": "سعرات المطبخ البيروفي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ البيروفي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يمزج المطبخ البيروفي بين تأثيرات السكان الأصليين والإسبانية والأفريقية والآسيوية، ومن مكوناته الأساسية **البطاطس والذرة وفلفل الأجي والأسماك الطازجة**. ومن أشهر أطباقه السيفيتشي ولومو سالتادو وأجي دي غاجينا.",
+      "tip": "السيفيتشي خفيف وغني بالبروتين، بينما **يُقدَّم لومو سالتادو غالبًا مع الأرز والبطاطس المقلية معًا**، والاستغناء عن أحدهما يُحدث فرقًا كبيرًا."
+    },
+    "it": {
+      "name": "Cucina peruviana",
+      "title": "Calorie della cucina peruviana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina peruviana. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina peruviana fonde influenze indigene, spagnole, africane e asiatiche, con alimenti base come **patate, mais, peperoncino ají e pesce fresco**. Ceviche, lomo saltado e ají de gallina sono tra i piatti più conosciuti.",
+      "tip": "Il ceviche è leggero e ricco di proteine, mentre **il lomo saltado arriva spesso con riso e patatine fritte insieme**: rinunciare a uno dei due fa una grande differenza."
+    },
+    "el": {
+      "name": "Περουβιανή κουζίνα",
+      "title": "Θερμίδες περουβιανής κουζίνας: ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της περουβιανής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η περουβιανή κουζίνα συνδυάζει γηγενείς, ισπανικές, αφρικανικές και ασιατικές επιρροές, με βασικά υλικά **πατάτες, καλαμπόκι, πιπεριές αχί και φρέσκο ψάρι**. Το σεβίτσε, το λόμο σαλτάδο και το αχί ντε γκαγίνα είναι από τα πιο γνωστά πιάτα.",
+      "tip": "Το σεβίτσε είναι ελαφρύ και πλούσιο σε πρωτεΐνη, ενώ **το λόμο σαλτάδο συχνά σερβίρεται με ρύζι και τηγανητές πατάτες μαζί** — αν παραλείψετε το ένα από τα δύο, η διαφορά είναι μεγάλη."
+    }
+  },
+  "persian": {
+    "match": "Iran",
+    "slug": "persian",
+    "emoji": "🇮🇷",
+    "en": {
+      "name": "Persian food",
+      "title": "Persian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Persian dishes. Find the lightest and most filling options.",
+      "intro": "Persian cuisine centres on **fragrant rice, fresh herbs and slow-cooked stews (khoresh)**, often flavoured with saffron, dried lime and pomegranate. Kebabs served with rice, herb-rich dishes like ghormeh sabzi and tahdig, the crispy rice crust from the bottom of the pot, are typical.",
+      "tip": "Rice portions are usually large and often finished with **butter or oil**, so the rice can outweigh the kebab in calories. Kebab with salad or grilled vegetables is a lighter combination."
+    },
+    "ru": {
+      "name": "Персидская кухня",
+      "title": "Калорийность персидской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд персидской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Персидская кухня строится на **ароматном рисе, свежей зелени и томлёных рагу (хореш)**, часто с шафраном, сушёным лаймом и гранатом. Типичны кебабы с рисом, блюда с обилием зелени, такие как горме сабзи, и тахдиг — хрустящая рисовая корочка со дна кастрюли.",
+      "tip": "Порции риса обычно большие и часто дополнены **сливочным или растительным маслом**, так что рис может дать больше калорий, чем сам кебаб. Кебаб с салатом или овощами на гриле — более лёгкое сочетание."
+    },
+    "ar": {
+      "name": "المطبخ الفارسي",
+      "title": "سعرات المطبخ الفارسي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ الفارسي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يتمحور المطبخ الفارسي حول **الأرز العطري والأعشاب الطازجة واليخنات المطهوة ببطء (الخورش)**، وغالبًا ما يُنكَّه بالزعفران واللومي والرمان. ومن أطباقه المعتادة الكباب مع الأرز، والأطباق الغنية بالأعشاب مثل قورمه سبزي، والتهديغ وهو قشرة الأرز المقرمشة من قاع القدر.",
+      "tip": "حصص الأرز كبيرة عادةً وغالبًا ما تُضاف إليها **الزبدة أو الزيت**، لذا قد يحتوي الأرز على سعرات أكثر من الكباب نفسه. والكباب مع السلطة أو الخضار المشوية مزيج أخف."
+    },
+    "it": {
+      "name": "Cucina persiana",
+      "title": "Calorie della cucina persiana: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina persiana. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina persiana ruota attorno a **riso profumato, erbe fresche e stufati a cottura lenta (khoresh)**, spesso insaporiti con zafferano, lime essiccato e melograno. Sono tipici i kebab con riso, i piatti ricchi di erbe come il ghormeh sabzi e il tahdig, la crosta croccante di riso sul fondo della pentola.",
+      "tip": "Le porzioni di riso sono di solito abbondanti e spesso condite con **burro o olio**, quindi il riso può superare il kebab in calorie. Kebab con insalata o verdure grigliate è un abbinamento più leggero."
+    },
+    "el": {
+      "name": "Περσική κουζίνα",
+      "title": "Θερμίδες περσικής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της περσικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η περσική κουζίνα βασίζεται στο **αρωματικό ρύζι, τα φρέσκα μυρωδικά και τα αργομαγειρεμένα μαγειρευτά (χορές)**, συχνά με σαφράν, αποξηραμένο λάιμ και ρόδι. Χαρακτηριστικά είναι τα κεμπάπ με ρύζι, πιάτα γεμάτα μυρωδικά όπως το γκορμέ σαμπζί και το ταχντίγκ, η τραγανή κρούστα ρυζιού από τον πάτο της κατσαρόλας.",
+      "tip": "Οι μερίδες ρυζιού είναι συνήθως μεγάλες και συχνά τελειώνουν με **βούτυρο ή λάδι**, οπότε το ρύζι μπορεί να έχει περισσότερες θερμίδες από το ίδιο το κεμπάπ. Το κεμπάπ με σαλάτα ή ψητά λαχανικά είναι πιο ελαφρύς συνδυασμός."
+    }
+  },
+  "iraqi": {
+    "match": "Iraq",
+    "slug": "iraqi",
+    "emoji": "🇮🇶",
+    "en": {
+      "name": "Iraqi food",
+      "title": "Iraqi food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Iraqi dishes. Find the lightest and most filling options.",
+      "intro": "Iraqi cuisine is built on **rice, bread, lamb, chicken and legumes**, with spices such as cardamom, cumin and dried lime. Well-known dishes include masgouf (grilled fish), dolma, kubba and quzi (lamb with rice).",
+      "tip": "Many dishes are served with **both rice and bread**, and fried kubba is energy-dense; grilled fish or meat with salad is usually lighter."
+    },
+    "ru": {
+      "name": "Иракская кухня",
+      "title": "Калорийность иракской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд иракской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Иракская кухня основана на **рисе, хлебе, баранине, курице и бобовых**, с пряностями — кардамоном, кумином и сушёным лаймом. Известные блюда — масгуф (рыба, запечённая на огне), долма, кубба и кузи (баранина с рисом).",
+      "tip": "Многие блюда подают **и с рисом, и с хлебом**, а жареная кубба весьма калорийна; рыба или мясо на гриле с салатом обычно легче."
+    },
+    "ar": {
+      "name": "المطبخ العراقي",
+      "title": "سعرات المطبخ العراقي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ العراقي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يقوم المطبخ العراقي على **الأرز والخبز ولحم الضأن والدجاج والبقوليات**، مع توابل مثل الهيل والكمون والنومي البصرة. ومن أشهر أطباقه المسكوف والدولمة والكبة والقوزي (لحم الضأن مع الأرز).",
+      "tip": "تُقدَّم أطباق كثيرة **مع الأرز والخبز معًا**، كما أن الكبة المقلية غنية بالسعرات، أما السمك أو اللحم المشوي مع السلطة فهو أخف عادةً."
+    },
+    "it": {
+      "name": "Cucina irachena",
+      "title": "Calorie della cucina irachena: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina irachena. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina irachena si basa su **riso, pane, agnello, pollo e legumi**, con spezie come cardamomo, cumino e lime essiccato. Tra i piatti più noti ci sono il masgouf (pesce alla brace), la dolma, la kubba e il quzi (agnello con riso).",
+      "tip": "Molti piatti sono serviti **sia con riso sia con pane**, e la kubba fritta è molto calorica; pesce o carne alla griglia con insalata sono di solito più leggeri."
+    },
+    "el": {
+      "name": "Ιρακινή κουζίνα",
+      "title": "Θερμίδες ιρακινής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της ιρακινής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η ιρακινή κουζίνα στηρίζεται στο **ρύζι, το ψωμί, το αρνί, το κοτόπουλο και τα όσπρια**, με μπαχαρικά όπως κάρδαμο, κύμινο και αποξηραμένο λάιμ. Γνωστά πιάτα είναι το μασγκούφ (ψάρι στα κάρβουνα), οι ντολμάδες, η κούμπα και το κούζι (αρνί με ρύζι).",
+      "tip": "Πολλά πιάτα σερβίρονται **και με ρύζι και με ψωμί**, ενώ η τηγανητή κούμπα έχει πολλές θερμίδες· το ψητό ψάρι ή κρέας με σαλάτα είναι συνήθως πιο ελαφρύ."
+    }
+  },
+  "austrian": {
+    "match": "Austria",
+    "slug": "austrian",
+    "emoji": "🇦🇹",
+    "en": {
+      "name": "Austrian food",
+      "title": "Austrian food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Austrian dishes. Find the lightest and most filling options.",
+      "intro": "Austrian cuisine is known for **breaded and roasted meats, dumplings and pastries**, from Wiener schnitzel and Tafelspitz (boiled beef) to goulash. Its coffee-house culture adds cakes and desserts such as apple strudel and Sachertorte.",
+      "tip": "Breaded mains and **cakes with whipped cream** are calorie-heavy, while Tafelspitz and clear broths are leaner choices."
+    },
+    "ru": {
+      "name": "Австрийская кухня",
+      "title": "Калорийность австрийской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд австрийской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Австрийская кухня известна **мясом в панировке и запечённым мясом, клёцками и выпечкой** — от венского шницеля и тафельшпица (отварной говядины) до гуляша. Культура кофеен добавляет торты и десерты вроде яблочного штруделя и торта Захер.",
+      "tip": "Блюда в панировке и **торты со взбитыми сливками** очень калорийны, а тафельшпиц и прозрачные бульоны — более постные варианты."
+    },
+    "ar": {
+      "name": "المطبخ النمساوي",
+      "title": "سعرات المطبخ النمساوي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ النمساوي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يشتهر المطبخ النمساوي بـ**اللحوم المغلفة بالبقسماط والمحمّرة والزلابية والمعجنات**، من شنيتزل فيينا والتافلشبيتس (لحم البقر المسلوق) إلى الغولاش. كما تضيف ثقافة المقاهي الكعك والحلويات مثل شترودل التفاح وكعكة زاخر.",
+      "tip": "الأطباق المغلفة بالبقسماط و**الكعك مع الكريمة المخفوقة** غنية بالسعرات، أما التافلشبيتس والمرق الصافي فهي خيارات أقل دهنًا."
+    },
+    "it": {
+      "name": "Cucina austriaca",
+      "title": "Calorie della cucina austriaca: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina austriaca. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina austriaca è nota per **carni impanate e arrosto, canederli e dolci**, dalla Wiener Schnitzel e dal Tafelspitz (manzo bollito) fino al gulasch. La cultura dei caffè aggiunge torte e dessert come lo strudel di mele e la Sachertorte.",
+      "tip": "I piatti impanati e **le torte con panna montata** sono molto calorici, mentre Tafelspitz e brodi sono scelte più magre."
+    },
+    "el": {
+      "name": "Αυστριακή κουζίνα",
+      "title": "Θερμίδες αυστριακής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της αυστριακής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η αυστριακή κουζίνα είναι γνωστή για τα **πανέ και ψητά κρέατα, τα κνέντελ και τα γλυκά**, από το σνίτσελ της Βιέννης και το ταφελσπιτς (βραστό μοσχάρι) ως το γκούλας. Η κουλτούρα των καφέ προσθέτει κέικ και γλυκά όπως το στρούντελ μήλου και η τούρτα Ζάχερ.",
+      "tip": "Τα πανέ πιάτα και **τα κέικ με σαντιγί** έχουν πολλές θερμίδες, ενώ το ταφελσπιτς και οι σούπες με καθαρό ζωμό είναι πιο άπαχες επιλογές."
+    }
+  },
+  "british": {
+    "match": "United Kingdom",
+    "slug": "british",
+    "emoji": "🇬🇧",
+    "en": {
+      "name": "British food",
+      "title": "British food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} British dishes. Find the lightest and most filling options.",
+      "intro": "British cuisine is based on **meat, potatoes, bread and seasonal vegetables**, with classics like the roast dinner, fish and chips, pies and the full breakfast. Many of the best-known dishes are served in pubs, cafés and takeaways.",
+      "tip": "Fried and pastry dishes such as fish and chips or pies are energy-dense — **the batter, pastry and chips** usually carry most of the calories. A roast with plenty of vegetables is a lighter way to go."
+    },
+    "ru": {
+      "name": "Британская кухня",
+      "title": "Калорийность британской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд британской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Британская кухня основана на **мясе, картофеле, хлебе и сезонных овощах**: это воскресное жаркое, фиш-энд-чипс, пироги и полный английский завтрак. Многие из самых известных блюд подают в пабах, кафе и заведениях навынос.",
+      "tip": "Жареные блюда и выпечка, такие как фиш-энд-чипс или пироги, очень калорийны — **кляр, тесто и картофель фри** обычно дают большую часть калорий. Жаркое с большим количеством овощей — более лёгкий вариант."
+    },
+    "ar": {
+      "name": "المطبخ البريطاني",
+      "title": "سعرات المطبخ البريطاني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ البريطاني. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يعتمد المطبخ البريطاني على **اللحوم والبطاطس والخبز والخضار الموسمية**، ومن أطباقه الكلاسيكية اللحم المحمّر مع الخضار، والسمك والبطاطس المقلية، والفطائر، والفطور الإنجليزي الكامل. وتُقدَّم كثير من أشهر أطباقه في الحانات والمقاهي ومطاعم الوجبات الجاهزة.",
+      "tip": "الأطباق المقلية والفطائر مثل السمك والبطاطس المقلية غنية بالسعرات، و**الخليط المقلي والعجين والبطاطس المقلية** تحمل معظمها عادةً. واللحم المحمّر مع الكثير من الخضار خيار أخف."
+    },
+    "it": {
+      "name": "Cucina britannica",
+      "title": "Calorie della cucina britannica: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina britannica. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina britannica si basa su **carne, patate, pane e verdure di stagione**, con classici come il roast dinner, il fish and chips, i pie e la full breakfast. Molti dei piatti più famosi si trovano nei pub, nei caffè e nei take-away.",
+      "tip": "Fritti e piatti in crosta come fish and chips o pie sono molto calorici: **pastella, impasto e patatine** portano di solito gran parte delle calorie. Un arrosto con tante verdure è una scelta più leggera."
+    },
+    "el": {
+      "name": "Βρετανική κουζίνα",
+      "title": "Θερμίδες βρετανικής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της βρετανικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η βρετανική κουζίνα βασίζεται στο **κρέας, τις πατάτες, το ψωμί και τα εποχικά λαχανικά**, με κλασικά πιάτα όπως το κυριακάτικο ψητό, το fish and chips, τις πίτες και το πλήρες πρωινό. Πολλά από τα πιο γνωστά πιάτα σερβίρονται σε παμπ, καφέ και take-away.",
+      "tip": "Τα τηγανητά και τα πιάτα με ζύμη, όπως το fish and chips ή οι πίτες, έχουν πολλές θερμίδες — **το κουρκούτι, η ζύμη και οι πατάτες** συνήθως δίνουν τις περισσότερες. Ένα ψητό με άφθονα λαχανικά είναι πιο ελαφριά επιλογή."
+    }
+  },
+  "polish": {
+    "match": "Poland",
+    "slug": "polish",
+    "emoji": "🇵🇱",
+    "en": {
+      "name": "Polish food",
+      "title": "Polish food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Polish dishes. Find the lightest and most filling options.",
+      "intro": "Polish cuisine relies on **potatoes, cabbage, beetroot, pork, rye bread and dairy** such as sour cream and twaróg cheese. Pierogi, bigos (hunter's stew) and soups like żurek and barszcz are among the best-known dishes.",
+      "tip": "Soups are often a lighter start, while pierogi and many mains come with **butter, fried onions or sour cream**, which add significantly to the total."
+    },
+    "ru": {
+      "name": "Польская кухня",
+      "title": "Калорийность польской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд польской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Польская кухня опирается на **картофель, капусту, свёклу, свинину, ржаной хлеб и молочные продукты**, такие как сметана и творог. Среди самых известных блюд — пироги (вареники), бигос, супы журек и борщ.",
+      "tip": "Супы часто становятся лёгким началом обеда, а пироги и многие основные блюда подают со **сливочным маслом, жареным луком или сметаной**, что заметно увеличивает калорийность."
+    },
+    "ar": {
+      "name": "المطبخ البولندي",
+      "title": "سعرات المطبخ البولندي: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ البولندي. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "يعتمد المطبخ البولندي على **البطاطس والملفوف والشمندر ولحم الخنزير وخبز الجاودار ومنتجات الألبان** مثل القشدة الحامضة وجبن تفاروغ. ومن أشهر أطباقه البيروغي والبيغوس (يخنة الصياد) وشوربتا جوريك وبارشتش.",
+      "tip": "الشوربات بداية أخف غالبًا، بينما تُقدَّم البيروغي وكثير من الأطباق الرئيسية مع **الزبدة أو البصل المقلي أو القشدة الحامضة**، ما يزيد المجموع بشكل ملحوظ."
+    },
+    "it": {
+      "name": "Cucina polacca",
+      "title": "Calorie della cucina polacca: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina polacca. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina polacca si basa su **patate, cavolo, barbabietola, maiale, pane di segale e latticini** come panna acida e formaggio twaróg. Pierogi, bigos (lo stufato del cacciatore) e le zuppe żurek e barszcz sono tra i piatti più conosciuti.",
+      "tip": "Le zuppe sono spesso un inizio leggero, mentre i pierogi e molti secondi arrivano con **burro, cipolla fritta o panna acida**, che aumentano parecchio il totale."
+    },
+    "el": {
+      "name": "Πολωνική κουζίνα",
+      "title": "Θερμίδες πολωνικής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της πολωνικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η πολωνική κουζίνα στηρίζεται στις **πατάτες, το λάχανο, τα παντζάρια, το χοιρινό, το ψωμί σίκαλης και τα γαλακτοκομικά** όπως η ξινή κρέμα και το τυρί τβαρόγκ. Τα πιερόγκι, το μπίγκος (στιφάδο του κυνηγού) και οι σούπες ζούρεκ και μπαρστς είναι από τα πιο γνωστά πιάτα.",
+      "tip": "Οι σούπες είναι συχνά ένα ελαφρύ ξεκίνημα, ενώ τα πιερόγκι και πολλά κυρίως πιάτα σερβίρονται με **βούτυρο, τηγανητό κρεμμύδι ή ξινή κρέμα**, που αυξάνουν αισθητά το σύνολο."
+    }
+  },
+  "balkan": {
+    "match": "Balkans",
+    "slug": "balkan",
+    "emoji": "🥙",
+    "en": {
+      "name": "Balkan food",
+      "title": "Balkan food calories: lightest and most filling dishes",
+      "meta": "Calories, protein and diet tags (vegetarian, vegan, gluten-free) for {n} Balkan dishes. Find the lightest and most filling options.",
+      "intro": "Balkan cuisine shares **grilled meats, peppers, flaky pastries, cheese and yoghurt** across the region, shaped by Mediterranean, Central European and Ottoman influences. Ćevapi, burek, stuffed peppers, sarma (stuffed cabbage leaves) and fresh salads appear in the kitchens of many countries.",
+      "tip": "Grilled meat with salad makes a protein-rich meal, while **burek and other flaky pastries** are high in fat; cheese and bread on the side add up quickly."
+    },
+    "ru": {
+      "name": "Балканская кухня",
+      "title": "Калорийность балканской кухни: самые лёгкие и сытные блюда",
+      "meta": "Калории, белки и диеты (вегетарианская, веганская, без глютена) для {n} блюд балканской кухни. Найдите самые лёгкие и сытные.",
+      "intro": "Балканскую кухню объединяют **мясо на гриле, перцы, слоёная выпечка, сыр и йогурт**; на неё повлияли средиземноморская, центральноевропейская и османская традиции. Чевапи, бурек, фаршированные перцы, сарма (голубцы в капустных листьях) и свежие салаты встречаются во многих странах региона.",
+      "tip": "Мясо на гриле с салатом — сытная белковая еда, а **бурек и другая слоёная выпечка** содержат много жира; сыр и хлеб на гарнир быстро добавляют калорий."
+    },
+    "ar": {
+      "name": "المطبخ البلقاني",
+      "title": "سعرات المطبخ البلقاني: الأطباق الأخف والأكثر إشباعًا",
+      "meta": "السعرات والبروتين والأنظمة الغذائية (نباتي، نباتي صرف، خالٍ من الغلوتين) لـ {n} من أطباق المطبخ البلقاني. اكتشف الأخف والأكثر إشباعًا.",
+      "intro": "تتشارك دول البلقان في **اللحوم المشوية والفلفل والمعجنات المورّقة والجبن واللبن الزبادي**، وقد تأثر مطبخها بتقاليد البحر المتوسط ووسط أوروبا والعهد العثماني. وتنتشر تشيفابي والبوريك والفلفل المحشي والسارما (ورق الملفوف المحشي) والسلطات الطازجة في مطابخ دول كثيرة بالمنطقة.",
+      "tip": "اللحوم المشوية مع السلطة وجبة غنية بالبروتين، بينما **البوريك والمعجنات المورّقة الأخرى** غنية بالدهون، كما أن الجبن والخبز المرافقين يرفعان السعرات بسرعة."
+    },
+    "it": {
+      "name": "Cucina balcanica",
+      "title": "Calorie della cucina balcanica: i piatti più leggeri e sazianti",
+      "meta": "Calorie, proteine e diete (vegetariana, vegana, senza glutine) per {n} piatti della cucina balcanica. Scopri i più leggeri e sazianti.",
+      "intro": "La cucina balcanica condivide in tutta la regione **carne alla griglia, peperoni, sfoglie salate, formaggio e yogurt**, con influenze mediterranee, centroeuropee e ottomane. Ćevapi, burek, peperoni ripieni, sarma (involtini di foglie di cavolo) e insalate fresche si trovano nelle cucine di molti paesi.",
+      "tip": "Carne alla griglia e insalata sono un pasto ricco di proteine, mentre **il burek e le altre sfoglie** sono ricchi di grassi; formaggio e pane di contorno fanno salire il conto in fretta."
+    },
+    "el": {
+      "name": "Βαλκανική κουζίνα",
+      "title": "Θερμίδες βαλκανικής κουζίνας: τα πιο ελαφριά και χορταστικά πιάτα",
+      "meta": "Θερμίδες, πρωτεΐνη και διατροφές (χορτοφαγική, vegan, χωρίς γλουτένη) για {n} πιάτα της βαλκανικής κουζίνας. Βρείτε τα πιο ελαφριά και χορταστικά.",
+      "intro": "Η βαλκανική κουζίνα μοιράζεται σε όλη την περιοχή **ψητά κρέατα, πιπεριές, φυλλώδεις πίτες, τυρί και γιαούρτι**, με μεσογειακές, κεντροευρωπαϊκές και οθωμανικές επιρροές. Τα τσεβάπι, το μπουρέκι, οι γεμιστές πιπεριές, οι λαχανοντολμάδες (σαρμάδες) και οι φρέσκιες σαλάτες υπάρχουν στις κουζίνες πολλών χωρών.",
+      "tip": "Τα ψητά κρέατα με σαλάτα είναι γεύμα πλούσιο σε πρωτεΐνη, ενώ **το μπουρέκι και οι άλλες φυλλώδεις πίτες** έχουν πολλά λιπαρά· το τυρί και το ψωμί δίπλα ανεβάζουν γρήγορα τις θερμίδες."
+    }
   }
 }
