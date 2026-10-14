@@ -272,6 +272,67 @@ def method_page(lang, M, ui, langs, db, template):
     return fill(template, values)
 
 
+
+def gpath(lang, slug=None):
+    """Diet and allergy guides: /guides/<slug>/, /<lang>/guides/<slug>/."""
+    return ('/' if lang == 'en' else f'/{lang}/') + 'guides/' + (f'{slug}/' if slug else '')
+
+
+def guide_dishes(spec, contents, db):
+    """Dishes of the database a guide links to: those that fit a diet label, or those containing an allergen."""
+    out = []
+    for c in contents.values():
+        info = analyse(db['dishes'][c['db_key']])
+        if 'label' in spec and any(l['id'] == spec['label'] and l['status'] == spec['status'] for l in info['labels']):
+            out.append(c)
+        elif 'allergen' in spec and spec['allergen'] in info['allergens']:
+            out.append(c)
+    return out
+
+
+def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
+    U, T, GU, spec = ui[lang], G[slug][lang], G['_ui'][lang], G[slug]['match']
+    sections = ''
+    for sec in T['sections']:
+        sections += f'<section><h2>{esc(sec["h"])}</h2>' + ''.join(f'<p>{brand(esc(x))}</p>' for x in sec.get('p', []))
+        if sec.get('list'):
+            sections += '<ul class="mlist">' + ''.join(f'<li>{esc(x)}</li>' for x in sec['list']) + '</ul>'
+        sections += '</section>'
+    found = guide_dishes(spec, contents, db)
+    dl = lambda c: lang if lang in c['i18n'] else 'en'   # dish pages not yet in this language: link the English one
+    # biggest cuisines first, so the first cards are familiar dishes
+    size = {}
+    for c in contents.values():
+        k = c['i18n']['en']['origin'].split('·')[0].strip()
+        size[k] = size.get(k, 0) + 1
+    found.sort(key=lambda c: (dl(c) != lang, -size[c['i18n']['en']['origin'].split('·')[0].strip()], c['i18n'][dl(c)]['name']))
+    head = GU['dishes_suits_h' if 'label' in spec else 'dishes_contains_h'].format(n=len(found))
+    cards = ''.join(f'<a class="chip" href="{path(dl(c), c["slug"])}">{c["emoji"]} {esc(c["i18n"][dl(c)]["name"])}</a>'
+                    for c in found[:limit])
+    more = (f'<p class="note"><a href="{path(lang if sum(lang in c["i18n"] for c in contents.values()) >= 100 else "en")}">{esc(GU["dishes_more"].format(n=len(found) - limit))} →</a></p>'
+            if len(found) > limit else '')
+    dishes = f'<section><h2>{esc(head)}</h2><div class="chips gl">{cards}</div>{more}</section>' if found else ''
+    sources = ''.join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in T['sources'])
+    jsonld = json.dumps({'@context': 'https://schema.org', '@type': 'MedicalWebPage', 'name': T['title'],
+                         'description': T['meta'], 'inLanguage': lang, 'url': SITE + gpath(lang, slug),
+                         'lastReviewed': '2026-10-14', 'publisher': {'@type': 'Organization', 'name': 'Me Nutrition',
+                                                                     'url': SITE + '/'}}, ensure_ascii=False)
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + gpath(l, slug)}" />' for l in langs)
+    values = {
+        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(T['title']), 'description': esc(T['meta']),
+        'url': SITE + gpath(lang, slug), 'hreflang': hreflang, 'home': home(lang), 'index': path(lang),
+        'sections': sections, 'dishes': dishes, 'sources': sources,
+        'jsonld': f'<script type="application/ld+json">{jsonld}</script>',
+        'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
+        'langs': ''.join(f'<a href="{gpath(l, slug)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
+        'langmenu': lang_menu(lang, langs, lambda l: gpath(l, slug)),
+    }
+    values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+    values.update({f'g.{k}': esc(v) for k, v in GU.items()})
+    values.update({f'm.{k}': esc(v) for k, v in T.items() if isinstance(v, str)})
+    return fill(template, values)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--db', default=None)
@@ -330,6 +391,15 @@ def main():
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(method_page(lang, M, ui, [l for l in langs if l in M], db, method_tpl), encoding='utf-8')
         pages.append(p)
+    guide_tpl = (HERE / 'guide_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    G = json.load(open(HERE / 'guides.json', encoding='utf-8'))
+    for slug in [k for k in G if not k.startswith('_')]:
+        g_langs = [l for l in langs if l in G[slug] and l in G['_ui']]
+        for lang in g_langs:
+            p = out / gpath(lang, slug).strip('/') / 'index.html'
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(guide_page(lang, slug, G, ui, g_langs, contents, db, guide_tpl), encoding='utf-8')
+            pages.append(p)
     # search index for the "write what you ate" box on the home page: every dish has numbers,
     # published dishes also have page links
     search = []
