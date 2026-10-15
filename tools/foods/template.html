@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Foods: page, category and index templates (build_foods.py). One shared stylesheet, /foods/food.css. -->
+<html lang="{{lang}}" dir="{{dir}}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{{title}} — Me Nutrition</title>
+<meta name="description" content="{{description}}" />
+<link rel="canonical" href="{{url}}" />
+{{robots}}{{hreflang}}
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/foods/food.css?v={{cssv}}" />
+{{jsonld}}
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="{{home}}"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav">{{langmenu}}<a class="hl" href="{{foods_href}}">{{s.foods}}</a><a class="hl" href="{{dishes_href}}">{{ui.dishes}}</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">{{ui.download}}</a></nav>
+</div></header>
+<main class="wrap">
+{{main}}
+</main>
+<footer><div class="wrap">
+  <a href="{{home}}">{{ui.home}}</a><a href="/privacy">{{ui.privacy}}</a><a href="/terms">{{ui.terms}}</a>
+  <span class="langs">{{langs}}</span>
+</div></footer>
+{{script}}
+</body>
+</html>

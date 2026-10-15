@@ -1,0 +1,24 @@
+/* foods only; the rest comes from the dishes stylesheet (copied in by build_foods.py) */
+.fkcal{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.fkcal .big{font-family:'Fraunces',serif;font-size:54px;line-height:1;font-weight:700;color:var(--teal)}
+.fkcal small{font-size:18px;color:var(--muted);font-weight:700}
+.fcat{display:inline-block;margin-top:10px;padding:5px 12px;border-radius:99px;background:var(--gold-soft);font-size:13px;font-weight:700;color:var(--ink);text-decoration:none}
+.wtab{width:100%;border-collapse:collapse;margin-top:14px}
+.wtab th,.wtab td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:start;font-size:15px}
+.wtab th{color:var(--muted);font-size:13px;font-weight:700}
+.wcalc{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:6px}
+.wcalc input{width:130px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;font:inherit;font-size:16px;background:#fff}
+.wcalc b{font-size:20px}
+.more{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:14px}
+.more div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px}
+.more b{display:block;font-size:18px}.more span{font-size:13px;color:var(--muted);font-weight:700}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:22px;font-weight:700}
+.pager a{color:var(--teal)}
+.fsrc{font-size:13px;color:var(--muted);margin-top:22px}
+.catgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-top:18px}
+.catgrid a{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--card);color:var(--ink);text-decoration:none;font-weight:700}
+.catgrid a small{display:block;color:var(--muted);font-weight:600;margin-top:2px}
+.sres{margin-top:12px}.sres a{display:flex;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--card);margin-top:8px;color:var(--ink);text-decoration:none}
+.sres a span{color:var(--muted);white-space:nowrap}
+@media (max-width:520px){.fkcal .big{font-size:44px}.more{grid-template-columns:1fr}}
+@media (max-width:440px){.hnav{gap:10px}.hl{font-size:13px}.dl{padding:0 12px;font-size:13px}}
