@@ -22,7 +22,7 @@ esc, fill, SITE, RTL, LANG_NAMES = bd.esc, bd.fill, bd.SITE, bd.RTL, bd.LANG_NAM
 LANGS = ['en', 'ru', 'ar', 'it', 'el', 'es', 'de']
 DISH_LANGS = {'en', 'ru', 'ar', 'it', 'el'}   # languages the dishes catalogue exists in
 PAGE = 300                 # foods per category page
-COMMA = {'ru', 'it', 'el'}  # decimal comma
+COMMA = {'ru', 'it', 'el', 'es', 'de'}  # decimal comma
 SRC_KEY = {'sr': 'src_sr', 'fd': 'src_fd', 'ciqual': 'src_ciqual'}
 SRC_URL = {'sr': 'https://fdc.nal.usda.gov/', 'fd': 'https://fdc.nal.usda.gov/', 'ciqual': 'https://ciqual.anses.fr/'}
 
