@@ -266,6 +266,7 @@ def index_page(lang, items, ui, langs, db, template):
         countries += f'<details><summary>{esc(U["more_countries"])} · {len(order)}</summary>' + ''.join(chip(k) for k in sorted(rest, key=label)) + '</details>'
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l)}" />' for l in langs)
     explore = ''.join(f'<a href="{href}">{esc(txt)}</a>' for href, txt in (
+        (('/' if lang == 'en' else f'/{lang}/') + 'foods/', EXPLORE[lang][2]),
         (gpath(lang), EXPLORE[lang][0]), (('/' if lang == 'en' or not (ROOT / lang / 'calculators').exists() else f'/{lang}/') + 'calculators/', EXPLORE[lang][1]))
         if lang in EXPLORE)
     values = {
@@ -281,9 +282,9 @@ def index_page(lang, items, ui, langs, db, template):
     return fill(template, values)
 
 
-EXPLORE = {'en': ('Diets & allergies', 'Calorie & protein calculators'), 'ru': ('Диеты и аллергии', 'Калькуляторы калорий и белка'),
-           'ar': ('الحميات والحساسية', 'حاسبات السعرات والبروتين'), 'it': ('Diete e allergie', 'Calcolatori di calorie e proteine'),
-           'el': ('Δίαιτες και αλλεργίες', 'Υπολογιστές θερμίδων και πρωτεΐνης')}   # row under the dishes index intro
+EXPLORE = {'en': ('Diets & allergies', 'Calorie & protein calculators', 'Foods: calories per 100 g'), 'ru': ('Диеты и аллергии', 'Калькуляторы калорий и белка', 'Продукты: калорийность'),
+           'ar': ('الحميات والحساسية', 'حاسبات السعرات والبروتين', 'الأطعمة: السعرات الحرارية'), 'it': ('Diete e allergie', 'Calcolatori di calorie e proteine', 'Alimenti: calorie'),
+           'el': ('Δίαιτες και αλλεργίες', 'Υπολογιστές θερμίδων και πρωτεΐνης', 'Τρόφιμα: θερμίδες')}   # row under the dishes index intro
 METHOD = 'how-we-count'   # /dishes/how-we-count/ — how the numbers, labels and texts are made (method.json)
 
 

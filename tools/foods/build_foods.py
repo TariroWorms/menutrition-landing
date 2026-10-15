@@ -42,19 +42,19 @@ def slugify(s):
 
 
 def related(f, by_cat_token, by_cat, kcals):
-    """Up to 8 foods of the same category: first the ones starting with the same word, then the closest by calories."""
+    """Up to 6 foods of the same category: first the ones starting with the same word, then the closest by calories."""
     out, seen = [], {f['key']}
     for g in sorted(by_cat_token[(f['category'], f['token'])], key=lambda g: abs(g['kcal'] - f['kcal'])):
-        if g['key'] not in seen and len(out) < 8:
+        if g['key'] not in seen and len(out) < 6:
             out.append(g); seen.add(g['key'])
-    if len(out) < 8:
+    if len(out) < 6:
         arr = by_cat[f['category']]
         i = bisect.bisect_left(kcals[f['category']], f['kcal'])
         for d in range(1, len(arr)):
             for j in (i - d, i + d - 1):
-                if 0 <= j < len(arr) and arr[j]['key'] not in seen and len(out) < 8:
+                if 0 <= j < len(arr) and arr[j]['key'] not in seen and len(out) < 6:
                     out.append(arr[j]); seen.add(arr[j]['key'])
-            if len(out) >= 8:
+            if len(out) >= 6:
                 break
     return out
 
@@ -121,7 +121,7 @@ class Builder:
                 more += f'<div><b>{n1(f[key]) if key != "sodium_mg" else nf(lang, f[key], 0)} {esc(unit)}</b><span>{esc(label)}</span></div>'
         more_html = f'<section><h2>{esc(s["more_h"])}</h2><div class="more">{more}</div></section>' if more else ''
         rel_html = ''.join(
-            f'<a href="{fpath(lang, g["slug"])}"><span class="em">🍽️</span><div>{esc(g["names"][lang])}'
+            f'<a href="{fpath(lang, g["slug"])}"><div>{esc(g["names"][lang])}'
             f'<span>{nf(lang, g["kcal"], 0)} {esc(u["kcal"])} / 100 {esc(u["g"])}</span></div></a>' for g in rel)
         cat = f['category']
         main = f'''{self.crumbs(lang, name, cat)}
@@ -135,7 +135,7 @@ class Builder:
   <p class="fsrc" style="margin-top:8px">{esc(s["split_h"])}: {esc(s["split_p"].format(p=pct["protein"], f=pct["fat"], c=pct["carbs"]))}</p>
   <section>
     <h2>{esc(s["weight_h"])}</h2>
-    <div class="wcalc"><label for="w">{esc(s["weight_lbl"])}</label><input id="w" type="number" inputmode="decimal" min="0" max="5000" value="100" data-k="{k}" data-lang="{lang}"><b id="wr">{esc(s["weight_res"].format(n=nf(lang, k, 0)))}</b></div>
+    <div class="wcalc"><label for="w">{esc(s["weight_lbl"])}</label><input id="w" type="number" inputmode="decimal" min="0" max="5000" value="100" data-k="{k}" data-t="{esc(s["weight_res"])}"><b id="wr">{esc(s["weight_res"].format(n=nf(lang, k, 0)))}</b></div>
     <table class="wtab"><thead><tr><th>{esc(s["weight_col"])}</th><th>{esc(s["kcal_col"])}</th></tr></thead><tbody>{rows}</tbody></table>
   </section>
   {more_html}
@@ -143,8 +143,7 @@ class Builder:
   <p class="note" style="margin-top:12px"><a href="{fpath(lang, cat)}">{esc(s["cat_all"].format(cat=s["cats"][cat]))} →</a></p></section>
   <section class="card cta"><h2>{esc(s["snap_h"])}</h2><p>{esc(s["snap_p"])}</p><a class="btn" href="https://apps.apple.com/app/id6767123368" target="_blank" rel="noopener">{esc(u["cta_btn"])}</a></section>
   <p class="fsrc">{esc(s["source"])}: <a href="{SRC_URL[f["src"]]}" rel="noopener" target="_blank">{esc(s[SRC_KEY[f["src"]]])}</a>. {esc(s["note"])}</p>'''
-        script = '''<script>(function(){var i=document.getElementById('w'),r=document.getElementById('wr');if(!i)return;
-var T=%s;i.addEventListener('input',function(){var v=parseFloat(i.value.replace(',','.'));if(!(v>=0)){return}r.textContent=T.replace('{n}',Math.round(v*parseFloat(i.dataset.k)/100))});})();</script>''' % json.dumps(s['weight_res'], ensure_ascii=False)
+        script = f'<script src="/foods/food.js?v={self.cssv}" defer></script>'
         desc = s['meta'].format(name=name, kcal=nf(lang, k, 0), p=n1(f['protein']), f=n1(f['fat']), c=n1(f['carbs']))
         title = s['title'].format(name=name)
         url = fpath(lang, f['slug'])
@@ -224,7 +223,7 @@ def main():
     # stylesheet: dishes CSS + foods CSS, one file for all pages
     dishes_tpl = (HERE.parent / 'dishes' / 'template.html').read_text(encoding='utf-8')
     css = re.search(r'<style>(.*?)</style>', dishes_tpl, re.S).group(1) + '\n' + (HERE / 'food.css').read_text(encoding='utf-8')
-    cssv = hashlib.md5(css.encode()).hexdigest()[:8]
+    cssv = hashlib.md5((css + (HERE / 'food.js').read_text(encoding='utf-8')).encode()).hexdigest()[:8]
     tpl = (HERE / 'template.html').read_text(encoding='utf-8')
 
     # unique slugs from the English name; a category name is reserved
@@ -261,6 +260,7 @@ def main():
             encoding='utf-8')
         print(lang, len(B.sitemap[lang]), 'urls')
     (out / 'foods' / 'food.css').write_text(css, encoding='utf-8')
+    (out / 'foods' / 'food.js').write_text((HERE / 'food.js').read_text(encoding='utf-8'), encoding='utf-8')
 
 
 if __name__ == '__main__':

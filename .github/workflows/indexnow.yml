@@ -42,7 +42,7 @@ jobs:
           import json, os, re, subprocess, urllib.request, urllib.error
           site = 'https://menutrition.app'
           if os.environ.get('ALL') == 'true' or not os.environ.get('BEFORE') or set(os.environ['BEFORE']) == {'0'}:
-              urls = [u for f in ('sitemap.xml', 'sitemap-dishes.xml', 'sitemap-features.xml', 'sitemap-calculators.xml') for u in re.findall(r'<loc>([^<]+)</loc>', open(f).read())]
+              urls = [u for f in ('sitemap.xml', 'sitemap-dishes.xml', 'sitemap-features.xml', 'sitemap-calculators.xml', 'sitemap-foods-en.xml', 'sitemap-foods-ru.xml', 'sitemap-foods-ar.xml', 'sitemap-foods-it.xml', 'sitemap-foods-el.xml') for u in re.findall(r'<loc>([^<]+)</loc>', open(f).read())]
           else:
               # the checkout is shallow: fetch the commit the push started from, so the diff covers every pushed commit
               subprocess.run(['git', 'fetch', '--depth=1', 'origin', os.environ['BEFORE']], check=False)
@@ -50,7 +50,7 @@ jobs:
                                     capture_output=True, text=True)
               if diff.returncode != 0:   # cannot compare: send everything rather than nothing
                   print('git diff failed:', diff.stderr.strip())
-                  urls = [u for f in ('sitemap.xml', 'sitemap-dishes.xml', 'sitemap-features.xml', 'sitemap-calculators.xml') for u in re.findall(r'<loc>([^<]+)</loc>', open(f).read())]
+                  urls = [u for f in ('sitemap.xml', 'sitemap-dishes.xml', 'sitemap-features.xml', 'sitemap-calculators.xml', 'sitemap-foods-en.xml', 'sitemap-foods-ru.xml', 'sitemap-foods-ar.xml', 'sitemap-foods-it.xml', 'sitemap-foods-el.xml') for u in re.findall(r'<loc>([^<]+)</loc>', open(f).read())]
               else:
                   urls = [site + '/' + (f[:-len('index.html')]) for f in diff.stdout.split() if f.endswith('index.html')]
           urls = sorted(set(urls))

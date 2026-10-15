@@ -21,4 +21,4 @@
 .sres{margin-top:12px}.sres a{display:flex;justify-content:space-between;gap:12px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--card);margin-top:8px;color:var(--ink);text-decoration:none}
 .sres a span{color:var(--muted);white-space:nowrap}
 @media (max-width:520px){.fkcal .big{font-size:44px}.more{grid-template-columns:1fr}}
-@media (max-width:440px){.hnav{gap:10px}.hl{font-size:13px}.dl{padding:0 12px;font-size:13px}}
+@media (max-width:440px){.hnav{gap:10px}.hl{font-size:13px}.hnav .hl:nth-of-type(2){display:none}.dl{padding:0 12px;font-size:13px}}
