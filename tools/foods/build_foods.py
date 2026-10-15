@@ -19,7 +19,8 @@ sys.path.insert(0, str(HERE.parent / 'dishes'))
 import build_dishes as bd   # noqa: E402  (helpers only; its main() is not run)
 
 esc, fill, SITE, RTL, LANG_NAMES = bd.esc, bd.fill, bd.SITE, bd.RTL, bd.LANG_NAMES
-LANGS = ['en', 'ru', 'ar', 'it', 'el']
+LANGS = ['en', 'ru', 'ar', 'it', 'el', 'es', 'de']
+DISH_LANGS = {'en', 'ru', 'ar', 'it', 'el'}   # languages the dishes catalogue exists in
 PAGE = 300                 # foods per category page
 COMMA = {'ru', 'it', 'el'}  # decimal comma
 SRC_KEY = {'sr': 'src_sr', 'fd': 'src_fd', 'ciqual': 'src_ciqual'}
@@ -80,7 +81,7 @@ class Builder:
             'hreflang': '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + alt(l)}" />' for l in self.langs)
                         + f'\n<link rel="alternate" hreflang="x-default" href="{SITE + alt("en")}" />',
             'cssv': self.cssv, 'jsonld': jsonld, 'home': bd.home(lang), 'foods_href': fpath(lang),
-            'dishes_href': bd.path(lang), 'langmenu': bd.lang_menu(lang, self.langs, alt), 'main': main,
+            'dishes_href': bd.path(lang if lang in DISH_LANGS else 'en'), 'langmenu': bd.lang_menu(lang, self.langs, alt), 'main': main,
             'langs': ''.join(f'<a href="{alt(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in self.langs), 'script': script,
         }
         values.update({f'ui.{k}': bd.brand(esc(v)) for k, v in u.items() if isinstance(v, str)})
@@ -182,6 +183,7 @@ class Builder:
     def index_page(self, lang, counts):
         s, u = self.S[lang], self.ui[lang]
         total = sum(counts.values())
+        dl = lang if lang in DISH_LANGS else 'en'
         cards = ''.join(f'<a href="{fpath(lang, c)}">{esc(s["cats"][c])}<small>{esc(s["foods_n"].format(n=counts[c]))}</small></a>'
                         for c in self.S['_cats'] if counts.get(c))
         main = (
@@ -190,7 +192,7 @@ class Builder:
                 f'<input class="search" id="q" type="search" placeholder="{esc(s["search_ph"])}" aria-label="{esc(s["search_ph"])}" autocomplete="off">'
                 f'<div class="sres" id="res"></div><p class="empty" id="none" hidden>{esc(s["search_none"])}</p>'
                 f'<h2 style="margin-top:28px">{esc(s["cats_h"])}</h2><div class="catgrid">{cards}</div>'
-                f'<p class="note" style="margin-top:22px"><a href="{bd.path(lang)}">{esc(s["dishes_link"])}</a></p><p class="fsrc">{esc(s["note"])}</p>')
+                f'<p class="note" style="margin-top:22px"><a href="{bd.path(dl)}">{esc(s["dishes_link"])}</a></p><p class="fsrc">{esc(s["note"])}</p>')
         script = '''<script>(function(){var q=document.getElementById('q'),res=document.getElementById('res'),none=document.getElementById('none'),D=null,L=%s;
 function load(cb){if(D)return cb();fetch(L).then(function(r){return r.json()}).then(function(j){D=j;cb()})}
 function run(){var t=q.value.trim().toLowerCase();res.innerHTML='';none.hidden=true;if(t.length<2)return;var w=t.split(/\\s+/),out=[];
@@ -220,6 +222,7 @@ def main():
         data = data[:a.limit]
     S = json.load(open(HERE / 'foods_ui.json', encoding='utf-8'))
     ui = json.load(open(HERE.parent / 'dishes' / 'ui.json', encoding='utf-8'))
+    ui.update(S.get('_common', {}))
     # stylesheet: dishes CSS + foods CSS, one file for all pages
     dishes_tpl = (HERE.parent / 'dishes' / 'template.html').read_text(encoding='utf-8')
     css = re.search(r'<style>(.*?)</style>', dishes_tpl, re.S).group(1) + '\n' + (HERE / 'food.css').read_text(encoding='utf-8')
