@@ -1,5 +1,5 @@
 # After every push to main, tell Bing/Yandex (IndexNow) which pages changed.
-# The site deploys from main on DigitalOcean; we wait for the deploy before pinging.
+# The site deploys from main on DigitalOcean (15-30 min); we poll the live site until the pushed pages appear, then ping.
 name: IndexNow
 on:
   push:
@@ -14,13 +14,53 @@ on:
 jobs:
   ping:
     runs-on: ubuntu-latest
+    timeout-minutes: 130
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      - name: Wait for the DigitalOcean deploy
+      - name: Wait until the pushed pages are live
         if: github.event_name == 'push'
-        run: sleep 900
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          # The deploy takes 15-30 minutes. Instead of sleeping a fixed time, poll a sample of the pushed files
+          # on the live site until each one is byte-identical to the file in this checkout (up to 100 minutes).
+          python3 - <<'PY'
+          import hashlib, os, subprocess, sys, time, urllib.request
+          site = 'https://menutrition.app'
+          before = os.environ.get('BEFORE', '')
+          files = []
+          if before and set(before) != {'0'}:
+              subprocess.run(['git', 'fetch', '--depth=1', 'origin', before], check=False)
+              d = subprocess.run(['git', 'diff', '--name-only', '--diff-filter=AM', before, 'HEAD'], capture_output=True, text=True)
+              if d.returncode == 0:
+                  files = [f for f in d.stdout.split() if f.endswith('index.html') or f.startswith('sitemap') or f == 'robots.txt']
+          if not files:
+              files = ['index.html']
+          step = max(1, len(files) // 6)
+          sample = sorted(set(files[::step][:5] + [files[-1]]))
+          def url(f):
+              return site + '/' + (f[:-len('index.html')] if f.endswith('index.html') else f)
+          want = {f: hashlib.sha256(open(f, 'rb').read()).hexdigest() for f in sample}
+          print(len(files), 'changed files; waiting for', sample)
+          for i in range(200):
+              pending = []
+              for f in sample:
+                  try:
+                      with urllib.request.urlopen(url(f), timeout=30) as r:
+                          ok = hashlib.sha256(r.read()).hexdigest() == want[f]
+                  except Exception as e:
+                      ok = False
+                  if not ok:
+                      pending.append(f)
+              if not pending:
+                  print('deploy is live after', i * 30 // 60, 'min')
+                  sys.exit(0)
+              print(f'try {i}: not live yet: {pending[:3]}')
+              time.sleep(30)
+          print('the pushed pages did not appear on the live site within 100 minutes; not submitting'); sys.exit(1)
+          PY
       - name: Wait until the key file is live
         env:
           KEY: 85b8e1bb567fa1597709faf34d360d4a
