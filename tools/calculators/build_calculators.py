@@ -108,7 +108,7 @@ def page(lang, slug, C, langs, template):
         'emoji': meta['emoji'], 'name': esc(T['name']), 'lead': brand(md(T['lead'])), 'calc': form(slug, U, T),
         'how': ''.join(f'<p>{brand(md(x))}</p>' for x in T['how']), 'faq': faq,
         'sources': ''.join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in T['sources']),
-        'more': f'<div class="related">{more}</div>', 'store': STORE,
+        'more': f'<div class="related">{more}</div>', 'store': f'{STORE}?ct=calc-cta-{lang}&amp;mt=8',
         'dishes': local(lang, 'dishes'), 'guides': local(lang, 'guides'),
         'langs': ''.join(f'<a href="{cpath(l, slug)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
         'langmenu': lang_menu(lang, langs, lambda l: cpath(l, slug)),
