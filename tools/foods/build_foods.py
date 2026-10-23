@@ -142,7 +142,7 @@ class Builder:
   {more_html}
   <section><h2>{esc(s["related_h"])}</h2><div class="related">{rel_html}</div>
   <p class="note" style="margin-top:12px"><a href="{fpath(lang, cat)}">{esc(s["cat_all"].format(cat=s["cats"][cat]))} →</a></p></section>
-  <section class="card cta"><h2>{esc(s["snap_h"])}</h2><p>{esc(s["snap_p"])}</p><a class="btn" href="https://apps.apple.com/app/id6767123368?ct=food-cta-{lang}&amp;mt=8" target="_blank" rel="noopener">{esc(u["cta_btn"])}</a></section>
+  <section class="card cta"><h2>{esc(s["snap_h"])}</h2><p>{esc(s["snap_p"])}</p><a class="btn" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=food-cta-{lang}&amp;mt=8" target="_blank" rel="noopener">{esc(u["cta_btn"])}</a></section>
   <p class="fsrc">{esc(s["source"])}: <a href="{SRC_URL[f["src"]]}" rel="noopener" target="_blank">{esc(s[SRC_KEY[f["src"]]])}</a>. {esc(s["note"])}</p>'''
         script = f'<script src="/foods/food.js?v={self.cssv}" defer></script>'
         desc = s['meta'].format(name=name, kcal=nf(lang, k, 0), p=n1(f['protein']), f=n1(f['fat']), c=n1(f['carbs']))
