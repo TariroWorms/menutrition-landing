@@ -11,6 +11,7 @@ Diet labels and allergens come from diets.py (rules over the ingredients), not f
     python3 tools/dishes/build_dishes.py [--db path/to/dish_database.json] [--out dir]
 """
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -486,7 +487,14 @@ def main():
     db = load_db(a.db)
     ui = json.load(open(HERE / 'ui.json', encoding='utf-8'))
     template = (HERE / 'template.html').read_text(encoding='utf-8')
-    style = re.search(r'<style>.*?</style>', template, re.S).group(0)
+    style_block = re.search(r'<style>.*?</style>', template, re.S).group(0)
+    # one shared stylesheet for all dish, guide and cuisine pages instead of ~12 KB of CSS inside every page
+    css = style_block[len('<style>'):-len('</style>')].strip() + '\n'
+    css_v = hashlib.md5(css.encode()).hexdigest()[:8]
+    (out / 'dishes').mkdir(parents=True, exist_ok=True)
+    (out / 'dishes' / 'dish.css').write_text(css, encoding='utf-8')
+    style = f'<link rel="stylesheet" href="/dishes/dish.css?v={css_v}" />'
+    template = template.replace(style_block, style)
     index_tpl = (HERE / 'index_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
     method_tpl = (HERE / 'method_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
     M = json.load(open(HERE / 'method.json', encoding='utf-8'))

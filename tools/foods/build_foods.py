@@ -100,6 +100,21 @@ class Builder:
         return ('<script type="application/ld+json">' + json.dumps({'@context': 'https://schema.org', '@type': 'BreadcrumbList',
                                                                   'itemListElement': items}, ensure_ascii=False) + '</script>')
 
+    def nutrition_ld(self, lang, f, name, desc, url):
+        """Machine-readable nutrition facts per 100 g (schema.org NutritionInformation on a MenuItem), for search and AI assistants."""
+        g = lambda x: f'{round(x, 2):g} g'
+        n = {'@type': 'NutritionInformation', 'servingSize': '100 g', 'calories': f'{round(f["kcal"])} kcal',
+             'proteinContent': g(f['protein']), 'fatContent': g(f['fat']), 'carbohydrateContent': g(f['carbs'])}
+        for key, prop in (('fiber', 'fiberContent'), ('sugar', 'sugarContent'), ('sat_fat', 'saturatedFatContent')):
+            if key in f:
+                n[prop] = g(f[key])
+        if 'sodium_mg' in f:
+            n['sodiumContent'] = f'{round(f["sodium_mg"])} mg'
+        data = {'@context': 'https://schema.org', '@type': 'MenuItem', 'name': name, 'description': desc, 'url': SITE + url,
+                'inLanguage': lang, 'nutrition': n,
+                'isBasedOn': {'@type': 'Dataset', 'name': self.S[lang][SRC_KEY[f['src']]], 'url': SRC_URL[f['src']]}}
+        return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '</script>'
+
     # ---- a food page ----
     def food_page(self, lang, f, rel):
         s, u = self.S[lang], self.ui[lang]
@@ -149,7 +164,7 @@ class Builder:
         title = s['title'].format(name=name)
         url = fpath(lang, f['slug'])
         html = self.shell(lang, title, desc, url, lambda l: fpath(l, f['slug']), main,
-                          self.ld(lang, [(s['foods'], fpath(lang)), (s['cats'][cat], fpath(lang, cat)), (name, url)]), script)
+                          self.ld(lang, [(s['foods'], fpath(lang)), (s['cats'][cat], fpath(lang, cat)), (name, url)]) + self.nutrition_ld(lang, f, name, desc, url), script)
         self.write(lang, url, html)
 
     # ---- category pages (paged) ----
