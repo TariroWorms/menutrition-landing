@@ -15,10 +15,13 @@ import hashlib
 import html
 import json
 import re
+import sys
 from dbsource import load_db
 from pathlib import Path
 
 from diets import analyse
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from appstore import mid_cta   # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
@@ -217,7 +220,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
         'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
         'home': home(lang), 'index': path(lang), 'emoji': c['emoji'],
-        'name': esc(t['name']), 'origin': origin_link(lang, c, t), 'intro': esc(t['intro']),
+        'name': esc(t['name']), 'origin': origin_link(lang, c, t), 'intro': esc(t['intro']), 'mid': mid_cta(lang, 'dish'),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
         'per_portion': esc(U['perPortionMl' if ml else 'perPortion'].format(portion=portion)), 'macros': macros,
         'labels': ''.join(rows), 'allergens': allergens,

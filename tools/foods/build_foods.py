@@ -16,7 +16,9 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / 'dishes'))
+sys.path.insert(0, str(HERE.parent))
 import build_dishes as bd   # noqa: E402  (helpers only; its main() is not run)
+from appstore import mid_cta   # noqa: E402
 
 esc, fill, SITE, RTL, LANG_NAMES = bd.esc, bd.fill, bd.SITE, bd.RTL, bd.LANG_NAMES
 LANGS = ['en', 'ru', 'ar', 'it', 'el', 'es', 'de']
@@ -154,6 +156,7 @@ class Builder:
     <div class="wcalc"><label for="w">{esc(s["weight_lbl"])}</label><input id="w" type="number" inputmode="decimal" min="0" max="5000" value="100" data-k="{k}" data-t="{esc(s["weight_res"])}"><b id="wr">{esc(s["weight_res"].format(n=nf(lang, k, 0)))}</b></div>
     <table class="wtab"><thead><tr><th>{esc(s["weight_col"])}</th><th>{esc(s["kcal_col"])}</th></tr></thead><tbody>{rows}</tbody></table>
   </section>
+  {mid_cta(lang, 'food')}
   {more_html}
   <section><h2>{esc(s["related_h"])}</h2><div class="related">{rel_html}</div>
   <p class="note" style="margin-top:12px"><a href="{fpath(lang, cat)}">{esc(s["cat_all"].format(cat=s["cats"][cat]))} →</a></p></section>

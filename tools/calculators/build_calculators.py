@@ -12,6 +12,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 sys.path.insert(0, str(HERE.parent / 'dishes'))
+sys.path.insert(0, str(HERE.parent))
+from appstore import mid_cta  # noqa: E402
 from build_dishes import LANG_NAMES, RTL, SITE, brand, esc, fill, lang_menu, md  # noqa: E402
 
 STORE = 'https://apps.apple.com/app/id6767123368'
@@ -105,7 +107,7 @@ def page(lang, slug, C, langs, template):
         'url': SITE + cpath(lang, slug), 'home': '/' if lang == 'en' else f'/{lang}/', 'index': cpath(lang),
         'hreflang': '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + cpath(l, slug)}" />' for l in langs),
         'jsonld': '\n'.join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld),
-        'emoji': meta['emoji'], 'name': esc(T['name']), 'lead': brand(md(T['lead'])), 'calc': form(slug, U, T),
+        'emoji': meta['emoji'], 'name': esc(T['name']), 'lead': brand(md(T['lead'])), 'calc': form(slug, U, T), 'mid': mid_cta(lang, 'calc'),
         'how': ''.join(f'<p>{brand(md(x))}</p>' for x in T['how']), 'faq': faq,
         'sources': ''.join(f'<li><a href="{esc(u)}" rel="noopener" target="_blank">{esc(n)}</a></li>' for n, u in T['sources']),
         'more': f'<div class="related">{more}</div>', 'store': f'{STORE}?pt=128869855&amp;ct=calc-cta-{lang}&amp;mt=8',

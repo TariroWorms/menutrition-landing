@@ -2,7 +2,7 @@
    Android visitors: App Store buttons open a card with an e-mail form instead. Everyone: [data-android] opens it. */
 (function(){
 var L=/*DICT*/{},F=/*FORM*/{},RTL={ar:1,he:1};
-var android=/Android/i.test(navigator.userAgent||'');
+var UA=navigator.userAgent||'',android=/Android/i.test(UA),ios=/iPhone|iPad|iPod/i.test(UA)||(/Macintosh/.test(UA)&&navigator.maxTouchPoints>1),desktop=!android&&!ios,Q=/*QR*/{};
 function lang(){var l=(document.documentElement.lang||'en').toLowerCase().split('-')[0];return L[l]?l:'en';}
 function section(){var p=location.pathname.replace(/^\/[a-z]{2}\//,'/');
   if(p==='/'||p==='')return 'home';
@@ -18,21 +18,25 @@ function css(){var s=document.createElement('style');s.textContent=
 '.mna h3{margin:0;font-weight:800;font-size:21px;line-height:1.25}.mna p{margin:12px 0 0;color:#5d554b;font-size:15px;line-height:1.5}'+
 '.mna form{display:flex;flex-direction:column;gap:10px;margin-top:18px}.mna input[type=email]{width:100%;box-sizing:border-box;padding:13px 16px;border:1px solid #d8d2c8;border-radius:14px;font:inherit;font-size:16px}'+
 '.mna .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}.mna button[type=submit]{padding:13px 24px;border:0;border-radius:999px;background:#358076;color:#fff;font:inherit;font-weight:800;cursor:pointer}'+
-'.mna .mna-n{font-size:12.5px;color:#8a8278}.mna .mna-e{color:#b3261e;font-size:13.5px;margin-top:8px;min-height:1px}';
+'.mna .mna-svg svg{width:190px;height:190px;margin:16px auto 0;display:block;border:1px solid #eee;border-radius:12px}.mna-open{display:inline-block;margin-top:16px;padding:12px 22px;border-radius:999px;background:#358076;color:#fff;font-weight:800;text-decoration:none}.mna-alt{display:block;margin:12px auto 0;border:0;background:none;color:#5d554b;text-decoration:underline;font:inherit;font-size:14px;cursor:pointer}.mna .mna-n{font-size:12.5px;color:#8a8278}.mna .mna-e{color:#b3261e;font-size:13.5px;margin-top:8px;min-height:1px}';
 document.head.appendChild(s);}
 function build(){if(root)return;css();root=document.createElement('div');root.className='mna';root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');
  root.innerHTML='<div class="mna-c"><button type="button" class="mna-x" aria-label="Close">&times;</button><h3></h3><p class="mna-p"></p>'+
- '<form novalidate><input type="email" name="email" autocomplete="email" inputmode="email"><input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><button type="submit"></button><div class="mna-e" role="alert"></div></form><p class="mna-n"></p></div>';
+ '<div class="mna-qr" hidden><div class="mna-svg"></div><a class="mna-open" target="_blank" rel="noopener"></a><button type="button" class="mna-alt"></button></div><form novalidate><input type="email" name="email" autocomplete="email" inputmode="email"><input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><button type="submit"></button><div class="mna-e" role="alert"></div></form><p class="mna-n"></p></div>';
  document.body.appendChild(root);
  root.addEventListener('click',function(e){if(e.target===root||e.target.closest('.mna-x'))hide();});
- root.querySelector('form').addEventListener('submit',submit);
+ root.querySelector('form').addEventListener('submit',submit);root.querySelector('.mna-alt').addEventListener('click',function(){show(null,'wl');});
  document.addEventListener('keydown',function(e){if(e.key==='Escape')hide();});}
-function text(){var d=L[lang()],c=root.querySelector('.mna-c');root.dir=RTL[lang()]?'rtl':'ltr';
- c.querySelector('h3').textContent=d.h;c.querySelector('.mna-p').textContent=d.p;c.querySelector('input[type=email]').placeholder=d.email;
- c.querySelector('button[type=submit]').textContent=d.send;c.querySelector('.mna-n').textContent=d.note;c.querySelector('.mna-e').textContent='';}
-function show(link){build();from='direct';
+function text(mode){var d=L[lang()],c=root.querySelector('.mna-c'),qr=c.querySelector('.mna-qr'),f=c.querySelector('form');root.dir=RTL[lang()]?'rtl':'ltr';
+ c.querySelector('.mna-e').textContent='';
+ if(mode==='qr'){c.querySelector('h3').textContent=d.qr_h;c.querySelector('.mna-p').textContent=d.qr_p;qr.hidden=false;f.style.display='none';c.querySelector('.mna-n').textContent='';
+  c.querySelector('.mna-svg').innerHTML=Q[section()]||Q.other||'';var o=c.querySelector('.mna-open');o.textContent=d.qr_open;o.href=F.store+'?pt='+F.pt+'&ct='+section()+'-open&mt=8';c.querySelector('.mna-alt').textContent=d.qr_android;return;}
+ qr.hidden=true;c.querySelector('h3').textContent=d.h;c.querySelector('.mna-p').textContent=d.p;c.querySelector('input[type=email]').placeholder=d.email;
+ c.querySelector('button[type=submit]').textContent=d.send;c.querySelector('.mna-n').textContent=d.note;}
+function show(link,mode){build();from='direct';
  try{var m=/[?&]ct=([^&]+)/.exec(link&&link.getAttribute('href')||'');if(m)from=decodeURIComponent(m[1]);else if(link&&link.hasAttribute('data-android'))from=section()+'-android-btn';}catch(e){}
- text();var f=root.querySelector('form');
+ text(mode);var f=root.querySelector('form');
+ if(mode==='qr'){root.classList.add('open');return;}
  if(seen()){f.style.display='none';root.querySelector('.mna-p').textContent=L[lang()].thanks;}else{f.style.display='';}
  root.classList.add('open');}
 function hide(){if(root)root.classList.remove('open');}
@@ -45,9 +49,10 @@ function submit(e){e.preventDefault();var f=e.target,v=(f.email.value||'').trim(
 function done(f){mark();f.style.display='none';root.querySelector('.mna-p').textContent=L[lang()].thanks;}
 if(android){document.addEventListener('DOMContentLoaded',function(){var b=L[lang()].btn;
  document.querySelectorAll('a.dl[href*="apps.apple.com"],a.btn[href*="apps.apple.com"],a.nav-dl[href*="apps.apple.com"]').forEach(function(a){a.textContent=b;});});}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a)return;
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||a.classList.contains('mna-open'))return;
  var apple=/apps\.apple\.com/.test(a.getAttribute('href')||'');
- if(a.hasAttribute('data-android')||(android&&(apple||a.hasAttribute('data-getapp')))){e.preventDefault();e.stopImmediatePropagation();show(a);}},true);
+ if(a.hasAttribute('data-android')||(android&&(apple||a.hasAttribute('data-getapp')))){e.preventDefault();e.stopImmediatePropagation();show(a,'wl');}
+ else if(desktop&&apple){e.preventDefault();e.stopImmediatePropagation();show(a,'qr');}},true);
 window.MNAndroid={open:function(){show(null);}};
 if(location.hash==='#android-waitlist')document.addEventListener('DOMContentLoaded',function(){show(null);});
 })();

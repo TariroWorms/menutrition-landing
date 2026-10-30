@@ -17,6 +17,13 @@ for lang in S['langs']:
     D[lang] = {**base, **{k: S['new'][k][lang] for k in S['new']}}
 js = (HERE / 'android.tpl.js').read_text(encoding='utf-8')
 js = js.replace('/*DICT*/{}', json.dumps(D, ensure_ascii=False, separators=(',', ':')))
+import segno
+SECTIONS = ['home', 'dish', 'food', 'guide', 'calc', 'feat', 'other']
+QR = {}
+for sec in SECTIONS:
+    url = f"{cfg['store']}?pt={cfg['pt']}&ct=qr-{sec}&mt=8"
+    QR[sec] = segno.make(url, error='m').svg_inline(scale=4, border=2, dark='#272320', light='#ffffff', omitsize=True, svgclass=None, lineclass=None)
+js = js.replace('/*QR*/{}', json.dumps(QR, separators=(',', ':')))
 js = js.replace('/*FORM*/{}', json.dumps(cfg, separators=(',', ':')))
 (ROOT / 'android.js').write_text(js, encoding='utf-8')
 print('android.js', len(js), 'bytes;', len(D), 'languages;', 'form configured' if cfg.get('action') else 'form NOT configured (mailto fallback)')
