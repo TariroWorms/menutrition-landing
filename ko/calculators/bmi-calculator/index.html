@@ -160,7 +160,7 @@ footer a{text-decoration:none}
 .calc .two{display:flex;gap:8px}
 .cres{margin-top:18px;padding:18px;border-radius:18px;background:var(--teal-soft);display:none}
 .cres.show{display:block}.cres .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1.1}
-.cres .big small{font-size:16px;margin-inline-start:6px}.cres p{margin:6px 0 0}.cres .warn{color:var(--red);font-weight:600}
+.cres .big small{font-size:16px;margin-inline-start:6px}.cres p{margin:6px 0 0}.cres .warn{color:var(--red);font-weight:600}.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}.mc{text-align:center}.mc .big{font-size:30px}.mc .big small{font-size:13px;margin-inline-start:3px}.mc>small{color:var(--muted,#667)}
 .howp p{margin:0 0 12px}
 .flinks{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-weight:700}
 .flinks a{color:var(--teal);text-decoration:none}
@@ -188,7 +188,7 @@ footer a{text-decoration:none}
   <section class="fsec"><h2>자주 묻는 질문</h2><details class="faq"><summary>건강한 BMI는 얼마인가요?</summary><p>대부분의 성인에게 BMI 18.5에서 24.9 사이는 건강 체중으로 간주됩니다.</p></details><details class="faq"><summary>BMI는 정확한가요?</summary><p>대부분의 성인에게 유용한 1차 점검이지만, 근육과 지방을 구분하지 못합니다. 허리둘레도 간단한 지표입니다: BMI가 정상이어도 허리둘레가 크면 더 높은 건강 위험과 관련이 있습니다.</p></details><details class="faq"><summary>어린이에게도 사용할 수 있나요?</summary><p>아니요. 어린이의 BMI는 나이와 성별에 따른 성장 도표와 비교합니다 — 의사와 상담하거나 어린이 전용 도구를 사용하세요.</p></details><details class="faq"><summary>BMI가 높게 나왔어요 — 어떻게 해야 하나요?</summary><p>좋은 첫 단계는 의사와 상담하는 것입니다. 작고 꾸준한 칼로리 적자, 더 많은 활동, 먹은 음식 기록이 대부분의 사람이 안전하게 체중을 감량하는 데 도움이 됩니다.</p></details></section>
   <section class="cta"><h2><span class="bn">Me<span class="bn-gap"> </span>Nutrition</span>으로 매일 기록하세요</h2><p>식사를 사진으로 찍으세요 — 앱이 하루 목표 대비 칼로리와 단백질을 계산해 줍니다. 3일 무료, 이후에는 App Store 설정에서 언제든 해지할 수 있는 구독입니다.</p><a href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=calc-cta-ko&amp;mt=8" target="_blank" rel="noopener">App Store에서 다운로드</a></section>
   <section class="fsec sources"><h2>출처</h2><ul class="mlist"><li><a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" rel="noopener" target="_blank">WHO — 비만 및 과체중 (팩트시트)</a></li><li><a href="https://www.nhs.uk/conditions/obesity/" rel="noopener" target="_blank">NHS — 체질량지수(BMI)란 무엇인가요?</a></li></ul></section>
-  <section class="fsec"><h2>다른 계산기</h2><div class="related"><a href="/ko/calculators/calorie-calculator/"><span class="em">🔥</span><div>칼로리 계산기</div></a><a href="/ko/calculators/protein-calculator/"><span class="em">💪</span><div>단백질 계산기</div></a></div><div class="flinks"><a href="/dishes/">2,400개 이상 요리의 칼로리 →</a><a href="/guides/">식단 및 알레르기 가이드 →</a></div></section>
+  <section class="fsec"><h2>다른 계산기</h2><div class="related"><a href="/ko/calculators/calorie-calculator/"><span class="em">🔥</span><div>칼로리 계산기</div></a><a href="/ko/calculators/protein-calculator/"><span class="em">💪</span><div>단백질 계산기</div></a><a href="/ko/calculators/macro-calculator/"><span class="em">🥗</span><div>매크로 계산기</div></a><a href="/ko/calculators/weight-loss-calculator/"><span class="em">📉</span><div>체중 감량 계산기</div></a><a href="/ko/calculators/water-calculator/"><span class="em">💧</span><div>하루 물 섭취량 계산기</div></a></div><div class="flinks"><a href="/dishes/">2,400개 이상 요리의 칼로리 →</a><a href="/guides/">식단 및 알레르기 가이드 →</a></div></section>
 </main>
 <script>
 (function(){
@@ -206,6 +206,18 @@ footer a{text-decoration:none}
   function cm(){return units==='m'?v('cm'):(v('ft')*12+(isNaN(v('in'))?0:v('in')))*2.54}
   f.onsubmit=function(e){e.preventDefault();var out=f.querySelector('.cres'),h='';
     var w=kg(),hc=cm();
+    if(kind==='macro-calculator'){var kc=v('kcal');if(!(kc>=800&&kc<=10000))return;
+      var sp=[[20,50,30],[30,40,30],[30,30,40],[15,60,25]][+f.elements.goal.value],P=Math.round(kc*sp[0]/400),Cb=Math.round(kc*sp[1]/400),Ft=Math.round(kc*sp[2]/900),
+      cell=function(l,g,pc){return '<div class="mc"><b>'+l+'</b><div class="big">'+nf(g)+'<small>'+R.g+'</small></div><small>'+R.pct.replace('{n}',pc)+'</small></div>'};
+      h='<div>'+R.target+'</div><div class="macros">'+cell(R.protein,P,sp[0])+cell(R.carbs,Cb,sp[1])+cell(R.fat,Ft,sp[2])+'</div><p>'+R.summary.replace('{kcal}',nf(kc)).replace('{p}',nf(P)).replace('{c}',nf(Cb)).replace('{f}',nf(Ft))+'</p>';}
+    else if(kind==='weight-loss-calculator'){var gw=units==='m'?v('w2'):v('w2')*0.45359237;if(!(w>25&&gw>25))return;var d=w-gw;
+      if(d<=0){h='<p class="warn">'+R.same+'</p>';}
+      else{var df=[250,500,750][+f.elements.goal.value],dy=Math.ceil(d*7700/df),wk=Math.ceil(dy/7),u=units==='m'?R.kg:R.lb,cv=units==='m'?1:1/0.45359237,
+        dt=new Date(Date.now()+dy*864e5),ds=new Intl.DateTimeFormat(lang,{dateStyle:'long'}).format(dt);
+        h='<div>'+R.target+'</div><div class="big">'+R.weeks.replace('{n}',nf(wk))+'</div><p>'+R.days.replace('{n}',nf(dy))+' · '+R.date.replace('{date}',ds)+'</p><p>'+R.total.replace('{n}','<b>'+nf(d*cv,1)+' '+u+'</b>')+'</p><p>'+R.loss.replace('{n}','<b>'+nf(df*7/7700*cv,1)+' '+u+'</b>')+'</p>';}}
+    else if(kind==='water-calculator'){if(!(w>25))return;var ml=30*w+[0,500,1000][+f.elements.goal.value]+(+f.elements.climate.value?500:0);ml=Math.min(4500,Math.max(1500,ml));
+      h='<div>'+R.target+'</div><div class="big">'+nf(ml/1000,1)+'<small>'+R.l+'</small></div><p>'+nf(ml/29.5735)+' '+R.floz+' · '+R.glasses.replace('{n}',nf(ml/250))+'</p><p>'+R.note+'</p>';}
+    else
     if(kind==='calorie-calculator'){var a=v('age');if(!(w>25&&hc>100&&a>=18))return;
       var bmr=10*w+6.25*hc-5*a+(sex==='m'?5:-161),act=[1.2,1.375,1.55,1.725,1.9][+f.elements.act.value],tdee=bmr*act,g=+f.elements.goal.value;
       var t=tdee+[-500,-250,0,300][g],floor=sex==='m'?1500:1200,warn='';if(g<2&&t<floor){t=floor;warn=R.floor.replace(/\{floor\}/g,nf(floor));}

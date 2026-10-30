@@ -160,7 +160,7 @@ footer a{text-decoration:none}
 .calc .two{display:flex;gap:8px}
 .cres{margin-top:18px;padding:18px;border-radius:18px;background:var(--teal-soft);display:none}
 .cres.show{display:block}.cres .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1.1}
-.cres .big small{font-size:16px;margin-inline-start:6px}.cres p{margin:6px 0 0}.cres .warn{color:var(--red);font-weight:600}
+.cres .big small{font-size:16px;margin-inline-start:6px}.cres p{margin:6px 0 0}.cres .warn{color:var(--red);font-weight:600}.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}.mc{text-align:center}.mc .big{font-size:30px}.mc .big small{font-size:13px;margin-inline-start:3px}.mc>small{color:var(--muted,#667)}
 .howp p{margin:0 0 12px}
 .flinks{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-weight:700}
 .flinks a{color:var(--teal);text-decoration:none}
@@ -188,7 +188,7 @@ footer a{text-decoration:none}
   <section class="fsec"><h2>שאלות</h2><details class="faq"><summary>האם עודף חלבון מזיק?</summary><p>לאנשים בריאים, צריכה של עד כ-2 גרם לכל ק״ג משקל גוף נחשבת בדרך כלל בטוחה. אם יש לכם מחלת כליות, הרופא ימליץ על גבול מתאים.</p></details><details class="faq"><summary>אילו מזונות עשירים בחלבון?</summary><p>בשר, עוף, דגים, ביצים, מוצרי חלב, טופו, טמפה, שעועית, עדשים, אגוזים וזרעים. <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> מסמנת מנות שיש בהן לפחות 10 גרם חלבון ל-100 גרם ו-25% מהקלוריות מחלבון כ&quot;עשירות בחלבון&quot;.</p></details><details class="faq"><summary>להשתמש במשקל הנוכחי או במשקל היעד?</summary><p>לרוב האנשים המשקל הנוכחי מתאים. אם יש לכם הרבה משקל להוריד, שימוש במשקל יעד תקין ייתן מספר מציאותי יותר.</p></details><details class="faq"><summary>האם צריך שייקים של חלבון?</summary><p>לא בהכרח — רוב האנשים יכולים להגיע ליעד עם אוכל רגיל. שייקים הם פשוט אפשרות נוחה.</p></details></section>
   <section class="cta"><h2>עקבו אחרי זה כל יום עם <span class="bn">Me<span class="bn-gap"> </span>Nutrition</span></h2><p>צלמו את הארוחות — האפליקציה סופרת קלוריות וחלבון מול היעד היומי שלכם. 3 ימים חינם, ולאחר מכן מנוי שאפשר לבטל בכל עת בהגדרות App Store.</p><a href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=calc-cta-he&amp;mt=8" target="_blank" rel="noopener">להורדה ב-App Store</a></section>
   <section class="fsec sources"><h2>מקורות</h2><ul class="mlist"><li><a href="https://doi.org/10.2903/j.efsa.2012.2557" rel="noopener" target="_blank">EFSA — ערכי ייחוס תזונתיים לחלבון (2012)</a></li><li><a href="https://doi.org/10.1186/s12970-017-0177-8" rel="noopener" target="_blank">Jäger R ועמיתיו. עמדת ISSN: חלבון ופעילות גופנית. J Int Soc Sports Nutr, 2017</a></li></ul></section>
-  <section class="fsec"><h2>מחשבונים נוספים</h2><div class="related"><a href="/he/calculators/calorie-calculator/"><span class="em">🔥</span><div>מחשבון קלוריות</div></a><a href="/he/calculators/bmi-calculator/"><span class="em">⚖️</span><div>מחשבון BMI</div></a></div><div class="flinks"><a href="/dishes/">קלוריות של 2,400+ מנות ←</a><a href="/guides/">מדריך דיאטות ואלרגיות ←</a></div></section>
+  <section class="fsec"><h2>מחשבונים נוספים</h2><div class="related"><a href="/he/calculators/calorie-calculator/"><span class="em">🔥</span><div>מחשבון קלוריות</div></a><a href="/he/calculators/macro-calculator/"><span class="em">🥗</span><div>מחשבון מקרו-נוטריינטים</div></a><a href="/he/calculators/bmi-calculator/"><span class="em">⚖️</span><div>מחשבון BMI</div></a><a href="/he/calculators/weight-loss-calculator/"><span class="em">📉</span><div>מחשבון ירידה במשקל</div></a><a href="/he/calculators/water-calculator/"><span class="em">💧</span><div>מחשבון שתיית מים</div></a></div><div class="flinks"><a href="/dishes/">קלוריות של 2,400+ מנות ←</a><a href="/guides/">מדריך דיאטות ואלרגיות ←</a></div></section>
 </main>
 <script>
 (function(){
@@ -206,6 +206,18 @@ footer a{text-decoration:none}
   function cm(){return units==='m'?v('cm'):(v('ft')*12+(isNaN(v('in'))?0:v('in')))*2.54}
   f.onsubmit=function(e){e.preventDefault();var out=f.querySelector('.cres'),h='';
     var w=kg(),hc=cm();
+    if(kind==='macro-calculator'){var kc=v('kcal');if(!(kc>=800&&kc<=10000))return;
+      var sp=[[20,50,30],[30,40,30],[30,30,40],[15,60,25]][+f.elements.goal.value],P=Math.round(kc*sp[0]/400),Cb=Math.round(kc*sp[1]/400),Ft=Math.round(kc*sp[2]/900),
+      cell=function(l,g,pc){return '<div class="mc"><b>'+l+'</b><div class="big">'+nf(g)+'<small>'+R.g+'</small></div><small>'+R.pct.replace('{n}',pc)+'</small></div>'};
+      h='<div>'+R.target+'</div><div class="macros">'+cell(R.protein,P,sp[0])+cell(R.carbs,Cb,sp[1])+cell(R.fat,Ft,sp[2])+'</div><p>'+R.summary.replace('{kcal}',nf(kc)).replace('{p}',nf(P)).replace('{c}',nf(Cb)).replace('{f}',nf(Ft))+'</p>';}
+    else if(kind==='weight-loss-calculator'){var gw=units==='m'?v('w2'):v('w2')*0.45359237;if(!(w>25&&gw>25))return;var d=w-gw;
+      if(d<=0){h='<p class="warn">'+R.same+'</p>';}
+      else{var df=[250,500,750][+f.elements.goal.value],dy=Math.ceil(d*7700/df),wk=Math.ceil(dy/7),u=units==='m'?R.kg:R.lb,cv=units==='m'?1:1/0.45359237,
+        dt=new Date(Date.now()+dy*864e5),ds=new Intl.DateTimeFormat(lang,{dateStyle:'long'}).format(dt);
+        h='<div>'+R.target+'</div><div class="big">'+R.weeks.replace('{n}',nf(wk))+'</div><p>'+R.days.replace('{n}',nf(dy))+' · '+R.date.replace('{date}',ds)+'</p><p>'+R.total.replace('{n}','<b>'+nf(d*cv,1)+' '+u+'</b>')+'</p><p>'+R.loss.replace('{n}','<b>'+nf(df*7/7700*cv,1)+' '+u+'</b>')+'</p>';}}
+    else if(kind==='water-calculator'){if(!(w>25))return;var ml=30*w+[0,500,1000][+f.elements.goal.value]+(+f.elements.climate.value?500:0);ml=Math.min(4500,Math.max(1500,ml));
+      h='<div>'+R.target+'</div><div class="big">'+nf(ml/1000,1)+'<small>'+R.l+'</small></div><p>'+nf(ml/29.5735)+' '+R.floz+' · '+R.glasses.replace('{n}',nf(ml/250))+'</p><p>'+R.note+'</p>';}
+    else
     if(kind==='calorie-calculator'){var a=v('age');if(!(w>25&&hc>100&&a>=18))return;
       var bmr=10*w+6.25*hc-5*a+(sex==='m'?5:-161),act=[1.2,1.375,1.55,1.725,1.9][+f.elements.act.value],tdee=bmr*act,g=+f.elements.goal.value;
       var t=tdee+[-500,-250,0,300][g],floor=sex==='m'?1500:1200,warn='';if(g<2&&t<floor){t=floor;warn=R.floor.replace(/\{floor\}/g,nf(floor));}

@@ -160,7 +160,7 @@ footer a{text-decoration:none}
 .calc .two{display:flex;gap:8px}
 .cres{margin-top:18px;padding:18px;border-radius:18px;background:var(--teal-soft);display:none}
 .cres.show{display:block}.cres .big{font-size:44px;font-weight:800;color:var(--teal);line-height:1.1}
-.cres .big small{font-size:16px;margin-inline-start:6px}.cres p{margin:6px 0 0}.cres .warn{color:var(--red);font-weight:600}
+.cres .big small{font-size:16px;margin-inline-start:6px}.cres p{margin:6px 0 0}.cres .warn{color:var(--red);font-weight:600}.macros{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:8px}.mc{text-align:center}.mc .big{font-size:30px}.mc .big small{font-size:13px;margin-inline-start:3px}.mc>small{color:var(--muted,#667)}
 .howp p{margin:0 0 12px}
 .flinks{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-weight:700}
 .flinks a{color:var(--teal);text-decoration:none}
@@ -188,7 +188,7 @@ footer a{text-decoration:none}
   <section class="fsec"><h2>Sorular</h2><details class="faq"><summary>Kalori hesaplama aracı ne kadar doğru?</summary><p>Kesin bir sayı değil, iyi bir başlangıç noktası verir. Mifflin–St Jeor gibi denklemler çoğu kişi için gerçeğe yakındır ancak her iki yönde yaklaşık %10 sapabilir. Kilonuzu 2–3 hafta takip edin ve beklenenden hızlı ya da yavaş değişirse hedefi ayarlayın.</p></details><details class="faq"><summary>Kilo vermek için kaç kalori yemeliyim?</summary><p>Koruma kalorinizin günde yaklaşık 500 kcal altında kalan bir açık genellikle haftada yaklaşık 0,5 kg (1 lb) kayba yol açar. Daha yavaş bir temponun sürdürülmesi daha kolaydır ve kasları korur.</p></details><details class="faq"><summary>Çok az kalori yemek güvenli mi?</summary><p>Çok düşük kalorili diyetler yalnızca tıbbi gözetim altında uygulanmalıdır. Çoğu yetişkin için bu, kendi başınıza günde yaklaşık 1.200 kcal (kadınlar) veya 1.500 kcal (erkekler) altına inmemek anlamına gelir.</p></details><details class="faq"><summary>Kilom neden günden güne değişiyor?</summary><p>Günlük değişimler çoğunlukla su, tuz ve bağırsaklarınızdaki yiyeceklerden kaynaklanır. Tek bir tartıya değil, haftalar boyunca eğilime bakın.</p></details></section>
   <section class="cta"><h2><span class="bn">Me<span class="bn-gap"> </span>Nutrition</span> ile her gün takip edin</h2><p>Öğünlerinizin fotoğrafını çekin — uygulama kalori ve proteini günlük hedefinize göre sayar. 3 gün ücretsiz, ardından App Store ayarlarından istediğiniz zaman iptal edebileceğiniz bir abonelik.</p><a href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=calc-cta-tr&amp;mt=8" target="_blank" rel="noopener">App Store&#x27;dan İndirin</a></section>
   <section class="fsec sources"><h2>Kaynaklar</h2><ul class="mlist"><li><a href="https://pubmed.ncbi.nlm.nih.gov/2305711/" rel="noopener" target="_blank">Mifflin MD ve ark. A new predictive equation for resting energy expenditure. Am J Clin Nutr, 1990</a></li><li><a href="https://www.nhs.uk/live-well/healthy-weight/" rel="noopener" target="_blank">NHS — Sağlıklı kilo</a></li></ul></section>
-  <section class="fsec"><h2>Diğer hesaplayıcılar</h2><div class="related"><a href="/tr/calculators/protein-calculator/"><span class="em">💪</span><div>Protein hesaplama</div></a><a href="/tr/calculators/bmi-calculator/"><span class="em">⚖️</span><div>BMI hesaplama</div></a></div><div class="flinks"><a href="/dishes/">2.400&#x27;den fazla yemeğin kalorisi →</a><a href="/guides/">Diyet ve alerji rehberi →</a></div></section>
+  <section class="fsec"><h2>Diğer hesaplayıcılar</h2><div class="related"><a href="/tr/calculators/protein-calculator/"><span class="em">💪</span><div>Protein hesaplama</div></a><a href="/tr/calculators/macro-calculator/"><span class="em">🥗</span><div>Makro hesaplama aracı</div></a><a href="/tr/calculators/bmi-calculator/"><span class="em">⚖️</span><div>BMI hesaplama</div></a><a href="/tr/calculators/weight-loss-calculator/"><span class="em">📉</span><div>Kilo verme hesaplama aracı</div></a><a href="/tr/calculators/water-calculator/"><span class="em">💧</span><div>Su ihtiyacı hesaplama aracı</div></a></div><div class="flinks"><a href="/dishes/">2.400&#x27;den fazla yemeğin kalorisi →</a><a href="/guides/">Diyet ve alerji rehberi →</a></div></section>
 </main>
 <script>
 (function(){
@@ -206,6 +206,18 @@ footer a{text-decoration:none}
   function cm(){return units==='m'?v('cm'):(v('ft')*12+(isNaN(v('in'))?0:v('in')))*2.54}
   f.onsubmit=function(e){e.preventDefault();var out=f.querySelector('.cres'),h='';
     var w=kg(),hc=cm();
+    if(kind==='macro-calculator'){var kc=v('kcal');if(!(kc>=800&&kc<=10000))return;
+      var sp=[[20,50,30],[30,40,30],[30,30,40],[15,60,25]][+f.elements.goal.value],P=Math.round(kc*sp[0]/400),Cb=Math.round(kc*sp[1]/400),Ft=Math.round(kc*sp[2]/900),
+      cell=function(l,g,pc){return '<div class="mc"><b>'+l+'</b><div class="big">'+nf(g)+'<small>'+R.g+'</small></div><small>'+R.pct.replace('{n}',pc)+'</small></div>'};
+      h='<div>'+R.target+'</div><div class="macros">'+cell(R.protein,P,sp[0])+cell(R.carbs,Cb,sp[1])+cell(R.fat,Ft,sp[2])+'</div><p>'+R.summary.replace('{kcal}',nf(kc)).replace('{p}',nf(P)).replace('{c}',nf(Cb)).replace('{f}',nf(Ft))+'</p>';}
+    else if(kind==='weight-loss-calculator'){var gw=units==='m'?v('w2'):v('w2')*0.45359237;if(!(w>25&&gw>25))return;var d=w-gw;
+      if(d<=0){h='<p class="warn">'+R.same+'</p>';}
+      else{var df=[250,500,750][+f.elements.goal.value],dy=Math.ceil(d*7700/df),wk=Math.ceil(dy/7),u=units==='m'?R.kg:R.lb,cv=units==='m'?1:1/0.45359237,
+        dt=new Date(Date.now()+dy*864e5),ds=new Intl.DateTimeFormat(lang,{dateStyle:'long'}).format(dt);
+        h='<div>'+R.target+'</div><div class="big">'+R.weeks.replace('{n}',nf(wk))+'</div><p>'+R.days.replace('{n}',nf(dy))+' · '+R.date.replace('{date}',ds)+'</p><p>'+R.total.replace('{n}','<b>'+nf(d*cv,1)+' '+u+'</b>')+'</p><p>'+R.loss.replace('{n}','<b>'+nf(df*7/7700*cv,1)+' '+u+'</b>')+'</p>';}}
+    else if(kind==='water-calculator'){if(!(w>25))return;var ml=30*w+[0,500,1000][+f.elements.goal.value]+(+f.elements.climate.value?500:0);ml=Math.min(4500,Math.max(1500,ml));
+      h='<div>'+R.target+'</div><div class="big">'+nf(ml/1000,1)+'<small>'+R.l+'</small></div><p>'+nf(ml/29.5735)+' '+R.floz+' · '+R.glasses.replace('{n}',nf(ml/250))+'</p><p>'+R.note+'</p>';}
+    else
     if(kind==='calorie-calculator'){var a=v('age');if(!(w>25&&hc>100&&a>=18))return;
       var bmr=10*w+6.25*hc-5*a+(sex==='m'?5:-161),act=[1.2,1.375,1.55,1.725,1.9][+f.elements.act.value],tdee=bmr*act,g=+f.elements.goal.value;
       var t=tdee+[-500,-250,0,300][g],floor=sex==='m'?1500:1200,warn='';if(g<2&&t<floor){t=floor;warn=R.floor.replace(/\{floor\}/g,nf(floor));}
