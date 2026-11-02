@@ -114,7 +114,7 @@ class Builder:
             n['sodiumContent'] = f'{round(f["sodium_mg"])} mg'
         data = {'@context': 'https://schema.org', '@type': 'MenuItem', 'name': name, 'description': desc, 'url': SITE + url,
                 'inLanguage': lang, 'nutrition': n,
-                'isBasedOn': {'@type': 'Dataset', 'name': self.S[lang][SRC_KEY[f['src']]], 'url': SRC_URL[f['src']]}}
+                'isBasedOn': {'@type': 'CreativeWork', 'name': self.S[lang][SRC_KEY[f['src']]], 'url': SRC_URL[f['src']]}}
         return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '</script>'
 
     # ---- a food page ----
