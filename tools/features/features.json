@@ -2,6 +2,8 @@
   "_order": [
     "photo-calories",
     "calorie-counter-app",
+    "weight-loss-app",
+    "food-diary-app",
     "macro-tracker",
     "protein-tracker",
     "menu-scanner",
@@ -47,6 +49,18 @@
     },
     "protein-tracker": {
       "emoji": "💪",
+      "shot": "/shots/lunch_intl.webp",
+      "shot_w": 720,
+      "shot_h": 1080
+    },
+    "weight-loss-app": {
+      "emoji": "📉",
+      "shot": "/shots/scale_kg.webp",
+      "shot_w": 720,
+      "shot_h": 900
+    },
+    "food-diary-app": {
+      "emoji": "📒",
       "shot": "/shots/lunch_intl.webp",
       "shot_w": 720,
       "shot_h": 1080
@@ -472,6 +486,26 @@
       "download": "下载",
       "privacy": "隐私",
       "terms": "条款"
+    },
+    "el": {
+      "features": "Λειτουργίες",
+      "how_h": "Πώς λειτουργεί",
+      "why_h": "Τι κερδίζεις",
+      "faq_h": "Ερωτήσεις",
+      "more_h": "Περισσότερες λειτουργίες",
+      "cta_h": "Δοκίμασε δωρεάν το Me Nutrition",
+      "cta_p": "3 ημέρες δωρεάν, και μετά συνδρομή που μπορείς να ακυρώσεις οποιαδήποτε στιγμή από τις ρυθμίσεις του App Store. Τώρα για iPhone, σύντομα και για Android.",
+      "cta_btn": "Λήψη από το App Store",
+      "dishes_link": "Δες τις θερμίδες για 2.400+ πιάτα →",
+      "guides_link": "Οδηγός για δίαιτες και αλλεργίες →",
+      "index_title": "Λειτουργίες Me Nutrition: θερμιδομετρητής με AI και φωτογραφία",
+      "index_meta": "Θερμίδες με φωτογραφία, σάρωση μενού εστιατορίου, βάρος με φωτογραφία και θερμίδες στην Οθόνη Κλειδώματος — τι κάνει το Me Nutrition και πώς.",
+      "index_h": "Λειτουργίες",
+      "index_p": "Όλα όσα κάνει το Me Nutrition για να είναι εύκολη η μέτρηση των θερμίδων.",
+      "home": "Αρχική",
+      "download": "Λήψη",
+      "privacy": "Απόρρητο",
+      "terms": "Όροι"
     }
   },
   "photo-calories": {
@@ -1230,6 +1264,42 @@
           "能。应用可识别世界各地的菜肴；仅我们的菜品指南就收录了来自 120 多个国家的 2,400 多道菜。"
         ]
       ]
+    },
+    "el": {
+      "name": "Μετρητής θερμίδων με φωτογραφία",
+      "title": "Μετρητής θερμίδων με φωτογραφία: φωτογράφισε όλο το γεύμα",
+      "meta": "Μία φωτογραφία του τραπεζιού — το Me Nutrition βρίσκει κάθε πιάτο και δίνει θερμίδες, πρωτεΐνη, λιπαρά και υδατάνθρακες. Έφαγες το μισό; Σύρε.",
+      "lead": "Φωτογράφισε όλο το τραπέζι — κάθε πιάτο παίρνει τις δικές του θερμίδες και μακροθρεπτικά. Έφαγες μόνο το μισό; Σύρε.",
+      "steps": [
+        "📸 **Βγάλε μία φωτογραφία** του πιάτου ή ολόκληρου του τραπεζιού.",
+        "🔍 **Κάθε πιάτο αναγνωρίζεται χωριστά** — σούπα, σαλάτα, κυρίως πιάτο και ποτό παίρνουν θερμίδες, πρωτεΐνη, λιπαρά και υδατάνθρακες.",
+        "🎚️ **Προσάρμοσε όσα έφαγες πραγματικά**: σύρε στο μισό ή στο ένα τέταρτο, αφαίρεσε ό,τι δεν άγγιξες — το σύνολο της ημέρας ενημερώνεται."
+      ],
+      "benefits": [
+        "🍱 **Όλο το γεύμα, κάθε πιάτο χωριστά** — χωρίς να φωτογραφίζεις τα πιάτα ένα ένα.",
+        "🥗 **Θερμίδες, πρωτεΐνη, λιπαρά και υδατάνθρακες** για κάθε πιάτο, μαζί με βιταμίνες, μέταλλα, ζάχαρη και αλάτι.",
+        "⚠️ **Αλλεργιογόνα και δίαιτες** εμφανίζονται σε κάθε πιάτο — γλουτένη, γαλακτοκομικά, ξηροί καρποί και άλλα.",
+        "🎙️ **Δεν έχεις διάθεση για φωτογραφία;** Κατέγραψε με φωνή, με κείμενο ή με σάρωση barcode.",
+        "🎯 **Ημερήσιος στόχος από τον δικό σου στόχο** — απώλεια, διατήρηση ή αύξηση βάρους· ο κύκλος δείχνει τι απομένει για σήμερα."
+      ],
+      "faq": [
+        [
+          "Πόσο ακριβής είναι η μέτρηση θερμίδων από φωτογραφία;",
+          "Η φωτογραφία δίνει μια καλή εκτίμηση για το πιάτο και τη μερίδα, όχι εργαστηριακή μέτρηση. Οι συνταγές σε εστιατόρια και σπίτια διαφέρουν, γι' αυτό μπορείς πάντα να διορθώσεις τη μερίδα ή πόσο έφαγες — οι αριθμοί ενημερώνονται αμέσως."
+        ],
+        [
+          "Μπορεί να μετρήσει πολλά πιάτα σε μία φωτογραφία;",
+          "Ναι. Αυτή είναι η βασική ιδέα: μία φωτογραφία ολόκληρου του τραπεζιού και κάθε πιάτο παίρνει τις δικές του θερμίδες και μακροθρεπτικά."
+        ],
+        [
+          "Τι γίνεται αν έφαγα μόνο μέρος του πιάτου;",
+          "Σύρε τη μερίδα σε αυτό που έφαγες πραγματικά — μισό, ένα τέταρτο ή οποιαδήποτε ποσότητα — ή αφαίρεσε εντελώς ένα πιάτο."
+        ],
+        [
+          "Λειτουργεί με παραδοσιακά και σπιτικά πιάτα;",
+          "Ναι. Η εφαρμογή αναγνωρίζει πιάτα από όλο τον κόσμο· μόνο ο οδηγός πιάτων μας καλύπτει πάνω από 2.400 πιάτα από 120+ χώρες."
+        ]
+      ]
     }
   },
   "menu-scanner": {
@@ -1965,6 +2035,41 @@
         [
           "需要另外记录这道菜吗？",
           "不需要——饭后轻点一下即可添加你选的菜，并调整吃了多少。"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Σάρωση μενού εστιατορίου",
+      "title": "Σάρωση μενού εστιατορίου: θερμίδες πριν παραγγείλεις",
+      "meta": "Στόχευσε την κάμερα σε ένα μενού — θερμίδες και μακροθρεπτικά εμφανίζονται πάνω από κάθε πιάτο, το μενού μεταφράζεται και τα πιάτα για τον στόχο σου ξεχωρίζουν.",
+      "lead": "Στόχευσε την κάμερα σε ένα μενού — οι θερμίδες εμφανίζονται πάνω από κάθε πιάτο πριν παραγγείλεις.",
+      "steps": [
+        "📖 **Στόχευσε την κάμερα στο μενού** — τυπωμένο, σε πίνακα ή σε άλλη γλώσσα.",
+        "🔢 **Θερμίδες και μακροθρεπτικά εμφανίζονται πάνω από κάθε πιάτο**, πάνω στο ίδιο το μενού.",
+        "✅ **Διάλεξε το πιάτο που ταιριάζει στην ημέρα σου** — και κατέγραψέ το με ένα πάτημα αφού φας."
+      ],
+      "benefits": [
+        "🍽️ **Θερμίδες και μακροθρεπτικά για κάθε πιάτο** πριν παραγγείλεις.",
+        "🌍 **Μετάφραση μενού σε 21 γλώσσες** — κατάλαβε τι παραγγέλνεις στο εξωτερικό.",
+        "🎯 **Πιάτα επισημασμένα για τον στόχο και τα αλλεργιογόνα σου** — δες με μια ματιά τι ταιριάζει.",
+        "💡 **Φτιάχτηκε από αίτημα χρήστη** — η Karen από τη Βοστώνη το ζήτησε και το φτιάξαμε."
+      ],
+      "faq": [
+        [
+          "Λειτουργεί με μενού σε ξένες γλώσσες;",
+          "Ναι. Το μενού μεταφράζεται στη γλώσσα σου — το Me Nutrition υποστηρίζει 21 γλώσσες."
+        ],
+        [
+          "Από πού προέρχονται οι θερμίδες;",
+          "Κάθε πιάτο αντιστοιχίζεται σε μια τυπική συνταγή και παίρνεις εκτίμηση για τις θερμίδες, την πρωτεΐνη, το λίπος και τους υδατάνθρακές του. Κάθε εστιατόριο μαγειρεύει διαφορετικά, γι' αυτό δες το ως οδηγό και προσάρμοσε τη μερίδα όταν καταγράφεις."
+        ],
+        [
+          "Μπορεί να με προειδοποιήσει για αλλεργιογόνα;",
+          "Τα πιάτα που μπορεί να περιέχουν τα αλλεργιογόνα σου ή δεν ταιριάζουν στη δίαιτά σου επισημαίνονται. Επιβεβαίωσε πάντα με το εστιατόριο — οι συνταγές και οι κουζίνες διαφέρουν."
+        ],
+        [
+          "Πρέπει να καταγράψω το πιάτο χωριστά;",
+          "Όχι — μετά το γεύμα προσθέτεις το πιάτο που διάλεξες με ένα πάτημα και προσαρμόζεις πόσο έφαγες."
         ]
       ]
     }
@@ -2725,6 +2830,42 @@
           "日常的变化主要来自水分、盐和肠道中的食物。所以图表关注的是几周内的趋势，而不是某一次称重。"
         ]
       ]
+    },
+    "el": {
+      "name": "Βάρος με φωτογραφία",
+      "title": "Καταγραφή βάρους με φωτογραφία: φωτογράφισε τη ζυγαριά",
+      "meta": "Φωτογράφισε την οθόνη της ζυγαριάς — το Me Nutrition καταγράφει το βάρος, ενημερώνει γράφημα και πρόβλεψη στόχου και ακολουθεί την τάση, όχι τις διακυμάνσεις.",
+      "lead": "Ανέβα στη ζυγαριά και φωτογράφισε την οθόνη της: το βάρος καταγράφεται μόνο του και το γράφημα με την πρόβλεψη στόχου ενημερώνονται.",
+      "steps": [
+        "⚖️ **Ανέβα στη ζυγαριά** — κάθε συνηθισμένη ζυγαριά μπάνιου κάνει.",
+        "📸 **Φωτογράφισε την οθόνη** — ή απλώς πληκτρολόγησε τον αριθμό.",
+        "📈 **Το γράφημα και η πρόβλεψη στόχου ενημερώνονται** — αρκεί μία φορά την εβδομάδα."
+      ],
+      "benefits": [
+        "🔢 **Χωρίς πληκτρολόγηση** — ο αριθμός διαβάζεται από τη φωτογραφία της οθόνης.",
+        "📉 **Η τάση, όχι οι καθημερινές διακυμάνσεις** — το νερό και το αλάτι κάνουν το βάρος να χοροπηδά· δείχνουμε προς τα πού πραγματικά πηγαίνει.",
+        "🎯 **Πρόβλεψη στόχου** — δες πότε πιθανότατα θα φτάσεις στο πρώτο βήμα και στον τελικό στόχο σου.",
+        "🌍 **Κιλά ή λίβρες** — ό,τι δείχνει η ζυγαριά σου.",
+        "💡 **Φτιάχτηκε από αίτημα χρήστη** — η Susie από τη Μάλαγα το ζήτησε και το φτιάξαμε."
+      ],
+      "faq": [
+        [
+          "Χρειάζομαι έξυπνη ζυγαριά;",
+          "Όχι. Κάθε ζυγαριά με οθόνη κάνει — απλώς φωτογραφίζεις τον αριθμό."
+        ],
+        [
+          "Πόσο συχνά πρέπει να ζυγίζομαι;",
+          "Μία φορά την εβδομάδα αρκεί. Το καθημερινό βάρος ανεβοκατεβαίνει λόγω νερού και αλατιού· η εβδομαδιαία τάση δείχνει την πραγματική πρόοδο."
+        ],
+        [
+          "Υποστηρίζει λίβρες;",
+          "Ναι — κιλά και λίβρες."
+        ],
+        [
+          "Γιατί ανέβηκε το βάρος μου ενώ τήρησα τις θερμίδες μου;",
+          "Οι αλλαγές από μέρα σε μέρα οφείλονται κυρίως σε νερό, αλάτι και τροφή στο έντερο. Γι' αυτό το γράφημα ακολουθεί την τάση μέσα σε εβδομάδες και όχι μία μεμονωμένη ζύγιση."
+        ]
+      ]
     }
   },
   "lock-screen-calories": {
@@ -3462,6 +3603,41 @@
           "Me Nutrition 目前支持 iPhone；Android 版即将推出。"
         ]
       ]
+    },
+    "el": {
+      "name": "Θερμίδες στην Οθόνη Κλειδώματος",
+      "title": "Θερμίδες που απομένουν στην Οθόνη Κλειδώματος του iPhone",
+      "meta": "Δες πόσες θερμίδες απομένουν σήμερα κατευθείαν στην Οθόνη Κλειδώματος του iPhone και στο Dynamic Island — χωρίς να ανοίξεις την εφαρμογή.",
+      "lead": "Πόσες θερμίδες απομένουν σήμερα φαίνεται κατευθείαν στην Οθόνη Κλειδώματος και στο Dynamic Island — χωρίς να ανοίξεις την εφαρμογή.",
+      "steps": [
+        "🍽️ **Κατέγραψε ένα γεύμα** — με φωτογραφία, φωνή, κείμενο ή barcode.",
+        "🔒 **Ρίξε μια ματιά στην Οθόνη Κλειδώματος** — οι θερμίδες που απομένουν για σήμερα είναι ήδη εκεί.",
+        "🏝️ **Στα iPhone με Dynamic Island**, οι θερμίδες που απομένουν μένουν και στο πάνω μέρος της οθόνης."
+      ],
+      "benefits": [
+        "👀 **Μια ματιά αντί να ανοίγεις την εφαρμογή** — ο αριθμός είναι πάντα μπροστά σου.",
+        "🔄 **Ενημερώνεται καθώς καταγράφεις** — κάθε γεύμα και ποτό που προσθέτεις αλλάζει όσα απομένουν.",
+        "💧 **Και το νερό** — δες το νερό της ημέρας δίπλα στις θερμίδες.",
+        "💡 **Φτιάχτηκε από αίτημα χρήστη** — ο Khalid από το Άμπου Ντάμπι το ζήτησε και το φτιάξαμε."
+      ],
+      "faq": [
+        [
+          "Ποια iPhone το δείχνουν στο Dynamic Island;",
+          "Τα μοντέλα iPhone που έχουν Dynamic Island. Στα υπόλοιπα iPhone οι θερμίδες που απομένουν εμφανίζονται στην Οθόνη Κλειδώματος."
+        ],
+        [
+          "Πρέπει να ανοίξω την εφαρμογή για να ενημερωθεί;",
+          "Όχι — μόλις καταγράψεις ένα γεύμα, ο αριθμός στην Οθόνη Κλειδώματος ενημερώνεται."
+        ],
+        [
+          "Δείχνει και το νερό;",
+          "Ναι — δίπλα στις θερμίδες που απομένουν, βλέπεις πόσο νερό έχεις καταγράψει σήμερα."
+        ],
+        [
+          "Είναι διαθέσιμο σε Android;",
+          "Το Me Nutrition είναι σήμερα διαθέσιμο σε iPhone· η έκδοση για Android έρχεται σύντομα."
+        ]
+      ]
     }
   },
   "calorie-counter-app": {
@@ -3502,7 +3678,7 @@
       ]
     },
     "ar": {
-      "name": "تطبيق عداد السعرات الحرارية",
+      "name": "تطبيق حساب السعرات الحرارية",
       "title": "تطبيق حساب السعرات الحرارية: سجّل وجباتك بالصورة أو الصوت",
       "meta": "تطبيق عداد السعرات الحرارية يسجّل وجباتك في ثوانٍ: صوّر أو انطق أو اكتب أو امسح الباركود. السعرات والبروتين والدهون والكربوهيدرات لكل طبق وهدف يومي يناسبك.",
       "lead": "سجّل ما تأكله في ثوانٍ، بالصورة أو الصوت أو النص أو الباركود، وتابع السعرات والماكروز مقابل هدفك اليومي.",
@@ -3574,7 +3750,7 @@
       ]
     },
     "es": {
-      "name": "App contador de calorías",
+      "name": "App para contar calorías",
       "title": "Contador de calorías: app para contar calorías con foto o voz",
       "meta": "App contador de calorías: registra comidas en segundos con foto, voz, texto o código de barras. Calorías y macros de cada plato y objetivo diario.",
       "lead": "Registra lo que comes en segundos —con una foto, tu voz, texto o un código de barras— y compara calorías y macros con tu objetivo diario.",
@@ -3754,7 +3930,7 @@
       ]
     },
     "it": {
-      "name": "App conta calorie",
+      "name": "Contatore calorie: app per contare le calorie",
       "title": "Contatore calorie: app per registrare i pasti con foto, voce o barcode",
       "meta": "App conta calorie per registrare i pasti in pochi secondi: foto, voce, testo o codice a barre. Calorie e macro per ogni piatto e obiettivo giornaliero.",
       "lead": "Registra ciò che mangi in pochi secondi — con una foto, la voce, il testo o un codice a barre — e confronta calorie e macro con il tuo obiettivo giornaliero.",
@@ -4218,6 +4394,42 @@
         [
           "我每天应该摄入多少卡路里?",
           "这取决于你的年龄、身高、体重、活动量和目标。可以试试我们免费的卡路里计算器,然后在应用中设置相同的目标。"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Θερμιδομετρητής",
+      "title": "Θερμιδομετρητής: γεύματα με φωτογραφία, φωνή ή barcode",
+      "meta": "Θερμιδομετρητής που καταγράφει γεύματα σε δευτερόλεπτα: φωτογραφία, φωνή, κείμενο ή barcode. Θερμίδες και μακροθρεπτικά ανά πιάτο και ημερήσιος στόχος.",
+      "lead": "Κατέγραψε ό,τι τρως σε δευτερόλεπτα — με φωτογραφία, φωνή, κείμενο ή barcode — και δες θερμίδες και μακροθρεπτικά σε σχέση με τον ημερήσιο στόχο σου.",
+      "steps": [
+        "🎯 **Όρισε τον στόχο σου** — απώλεια, διατήρηση ή αύξηση βάρους — και πάρε έναν ημερήσιο στόχο θερμίδων.",
+        "📸 **Κατέγραψε ένα γεύμα** με μία φωτογραφία, με φωνή, με κείμενο ή με σάρωση barcode.",
+        "🔄 **Κοίτα τον κύκλο** — δείχνει πόσες θερμίδες και πόση πρωτεΐνη, λιπαρά και υδατάνθρακες απομένουν για σήμερα."
+      ],
+      "benefits": [
+        "⚡ **Δευτερόλεπτα, όχι λεπτά** — χωρίς ατελείωτες λίστες τροφίμων για αναζήτηση.",
+        "🍱 **Κάθε πιάτο χωριστά** — μία φωτογραφία του τραπεζιού και κάθε πιάτο παίρνει τους δικούς του αριθμούς.",
+        "🥗 **Θερμίδες, πρωτεΐνη, λιπαρά και υδατάνθρακες**, μαζί με βιταμίνες, μέταλλα, ζάχαρη και αλάτι.",
+        "⚠️ **Αλλεργιογόνα και δίαιτες** εμφανίζονται σε κάθε πιάτο — γλουτένη, γαλακτοκομικά, ξηροί καρποί και άλλα.",
+        "🌍 **Πιάτα από όλο τον κόσμο** — μόνο ο οδηγός πιάτων μας καλύπτει πάνω από 2.400 πιάτα."
+      ],
+      "faq": [
+        [
+          "Ποιος είναι ο πιο εύκολος τρόπος να μετράω θερμίδες;",
+          "Φωτογράφισε το γεύμα σου. Η εφαρμογή αναγνωρίζει κάθε πιάτο, εκτιμά τη μερίδα και δείχνει θερμίδες και μακροθρεπτικά. Μπορείς πάντα να διορθώσεις τη μερίδα."
+        ],
+        [
+          "Είναι ακριβής η μέτρηση θερμίδων;",
+          "Μια φωτογραφία ή μια γρήγορη καταχώριση δίνει καλή εκτίμηση, όχι εργαστηριακή μέτρηση. Μέσα σε μέρες και εβδομάδες οι εκτιμήσεις εξισορροπούνται, και αυτό μετράει για τον στόχο σου."
+        ],
+        [
+          "Μπορώ να καταγράφω χωρίς φωτογραφία;",
+          "Ναι. Μπορείς να καταγράφεις με φωνή, με κείμενο ή σαρώνοντας το barcode σε συσκευασμένα τρόφιμα."
+        ],
+        [
+          "Πόσες θερμίδες πρέπει να τρώω την ημέρα;",
+          "Εξαρτάται από την ηλικία, το ύψος, το βάρος, τη δραστηριότητα και τον στόχο σου. Δοκίμασε τον δωρεάν υπολογιστή θερμίδων μας και μετά όρισε τον ίδιο στόχο στην εφαρμογή."
         ]
       ]
     }
@@ -4978,6 +5190,42 @@
           "会。每道菜都会显示蛋白质、碳水化合物和脂肪,每日视图则显示总计。"
         ]
       ]
+    },
+    "el": {
+      "name": "Μετρητής μακροθρεπτικών",
+      "title": "Μετρητής μακροθρεπτικών: πρωτεΐνη, υδατάνθρακες, λίπος",
+      "meta": "Παρακολούθησε τα μακροθρεπτικά χωρίς ζύγισμα: φωτογράφισε το γεύμα και δες πρωτεΐνη, υδατάνθρακες και λίπος ανά πιάτο και ανά ημέρα, με στόχο βάσει του στόχου σου.",
+      "lead": "Δες πρωτεΐνη, υδατάνθρακες και λίπος για κάθε πιάτο και για όλη την ημέρα — από μία φωτογραφία του γεύματός σου.",
+      "steps": [
+        "📸 **Φωτογράφισε το γεύμα σου** — ή κατέγραψέ το με φωνή, κείμενο ή barcode.",
+        "🧮 **Πάρε τα μακροθρεπτικά** — κάθε πιάτο δείχνει πρωτεΐνη, υδατάνθρακες και λίπος σε γραμμάρια, μαζί με θερμίδες.",
+        "🎯 **Ακολούθησε την ημέρα σου** — ο κύκλος και τα ημερήσια σύνολα δείχνουν πόσο κοντά είσαι στον στόχο σου."
+      ],
+      "benefits": [
+        "🥩 **Πρωτεΐνη, υδατάνθρακες και λίπος ανά πιάτο** — όχι μόνο θερμίδες.",
+        "⚖️ **Προσάρμοσε τη μερίδα** — σύρε στο μισό ή στο ένα τέταρτο αν έφαγες μόνο μέρος.",
+        "📊 **Ημερήσια σύνολα** σε σχέση με στόχο βάσει του στόχου σου — απώλεια, διατήρηση ή αύξηση.",
+        "🧂 **Εμφανίζονται επίσης ζάχαρη, αλάτι, βιταμίνες και μέταλλα.**",
+        "🧮 **Κατανομή μακροθρεπτικών που σου ταιριάζει** — δες πώς φαίνεται η αναλογία με τον δωρεάν υπολογιστή μακροθρεπτικών μας."
+      ],
+      "faq": [
+        [
+          "Τι είναι τα μακροθρεπτικά;",
+          "Τα μακροθρεπτικά συστατικά είναι η πρωτεΐνη, οι υδατάνθρακες και το λίπος — τα τρία θρεπτικά συστατικά που δίνουν θερμίδες. Η πρωτεΐνη και οι υδατάνθρακες δίνουν περίπου 4 kcal ανά γραμμάριο, το λίπος περίπου 9 kcal ανά γραμμάριο."
+        ],
+        [
+          "Χρειάζεται να ζυγίζω το φαγητό μου;",
+          "Όχι απαραίτητα. Η φωτογραφία δίνει καλή εκτίμηση για το πιάτο και τη μερίδα. Αν θέλεις μεγαλύτερη ακρίβεια, μπορείς να προσαρμόσεις τη μερίδα στην εφαρμογή."
+        ],
+        [
+          "Ποια κατανομή μακροθρεπτικών να χρησιμοποιήσω;",
+          "Εξαρτάται από τον στόχο σου και από το πώς προπονείσαι. Ο υπολογιστής μακροθρεπτικών μας δείχνει συνηθισμένες κατανομές, όπως ισορροπημένη ή με περισσότερη πρωτεΐνη, ώστε να τις συγκρίνεις."
+        ],
+        [
+          "Δείχνει την πρωτεΐνη για κάθε γεύμα;",
+          "Ναι. Κάθε πιάτο δείχνει την πρωτεΐνη, τους υδατάνθρακες και το λίπος του, και η προβολή της ημέρας δείχνει τα σύνολα."
+        ]
+      ]
     }
   },
   "protein-tracker": {
@@ -5734,6 +5982,1630 @@
         [
           "素食者和纯素食者也能用吗?",
           "可以。应用能识别来自世界各地的菜肴,植物性菜肴同样会显示蛋白质。"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Μετρητής πρωτεΐνης",
+      "title": "Μετρητής πρωτεΐνης: δες την πρωτεΐνη σε κάθε γεύμα",
+      "meta": "Παρακολούθησε την ημερήσια πρωτεΐνη με φωτογραφία: το Me Nutrition δείχνει τα γραμμάρια πρωτεΐνης σε κάθε πιάτο και στην ημέρα, με στόχο βάσει του στόχου σου.",
+      "lead": "Δες πόση πρωτεΐνη έχει κάθε πιάτο και αν έφτασες τον ημερήσιο στόχο σου.",
+      "steps": [
+        "🎯 **Όρισε τον στόχο σου** — η εφαρμογή προτείνει έναν ημερήσιο στόχο βάσει αυτού.",
+        "📸 **Κατέγραψε τα γεύματά σου** με φωτογραφία, φωνή, κείμενο ή barcode.",
+        "💪 **Έλεγξε την πρωτεΐνη σου** — γραμμάρια ανά πιάτο και για όλη την ημέρα."
+      ],
+      "benefits": [
+        "💪 **Πρωτεΐνη σε γραμμάρια για κάθε πιάτο**, δίπλα στις θερμίδες, τους υδατάνθρακες και το λίπος.",
+        "📈 **Ημερήσιο σύνολο πρωτεΐνης** για να βλέπεις πόσο σου μένει να φας.",
+        "🥚 **Εντόπισε πιάτα πλούσια σε πρωτεΐνη** — τα πιάτα με υψηλό ποσοστό πρωτεΐνης επισημαίνονται.",
+        "🍱 **Όλο το τραπέζι σε μία φωτογραφία** — κάθε πιάτο μετριέται χωριστά.",
+        "🧮 **Βρες τον δικό σου αριθμό** με τον δωρεάν υπολογιστή πρωτεΐνης μας."
+      ],
+      "faq": [
+        [
+          "Πόση πρωτεΐνη χρειάζομαι την ημέρα;",
+          "Για τους περισσότερους υγιείς ενήλικες η συνιστώμενη πρόσληψη είναι περίπου 0,8 g ανά κιλό σωματικού βάρους. Σε ηλικιωμένους και σε όσους γυμνάζονται τακτικά συχνά συνιστάται περισσότερη. Ο υπολογιστής πρωτεΐνης μας δείχνει τα εύρη."
+        ],
+        [
+          "Ποιες τροφές είναι πλούσιες σε πρωτεΐνη;",
+          "Κρέας, πουλερικά, ψάρι, αυγά, γαλακτοκομικά, τόφου, tempeh, φασόλια, φακές, ξηροί καρποί και σπόροι."
+        ],
+        [
+          "Μπορώ να παρακολουθώ την πρωτεΐνη χωρίς να ζυγίζω το φαγητό;",
+          "Ναι. Μια φωτογραφία του γεύματός σου δίνει καλή εκτίμηση. Μπορείς να προσαρμόσεις τη μερίδα αν έφαγες μόνο μέρος της."
+        ],
+        [
+          "Κάνει για χορτοφάγους και vegan;",
+          "Ναι. Η εφαρμογή αναγνωρίζει πιάτα από όλο τον κόσμο και δείχνει πρωτεΐνη και για φυτικά πιάτα."
+        ]
+      ]
+    }
+  },
+  "weight-loss-app": {
+    "en": {
+      "name": "Weight loss app",
+      "title": "Weight loss app: calories, weight tracker and goal forecast",
+      "meta": "A weight loss app that tracks what you eat and what you weigh: a daily calorie target from your goal, meals logged by photo, your scale read from a photo and a forecast of when you reach your goal.",
+      "lead": "Set a goal, log your meals in seconds and watch the trend: a daily calorie target, your weight chart and a forecast of when you will get there.",
+      "steps": [
+        "🎯 **Set your goal** — lose, maintain or gain weight — and get a daily calorie target.",
+        "📸 **Log your meals** with a photo, by voice, by text or with the barcode scanner.",
+        "⚖️ **Log your weight** by snapping your scale — and follow the trend and the goal forecast."
+      ],
+      "benefits": [
+        "🎯 **A daily calorie target from your goal**, with a ring that shows what is left today.",
+        "📉 **The trend, not the daily swings** — water and salt make weight jump; the chart shows where it is really heading.",
+        "🔮 **Goal forecast** — see when you are likely to reach your first step and your final goal.",
+        "🍱 **Every dish counted separately** — calories, protein, fat and carbs from one photo.",
+        "⚠️ **Allergens and diets** shown on every dish."
+      ],
+      "faq": [
+        [
+          "How fast can I lose weight safely?",
+          "Health organisations such as the NHS suggest about 0.5–1 kg (1–2 lb) a week. A daily calorie deficit of roughly 500 kcal is a common, sustainable choice. Use our free weight loss calculator to estimate how long your goal will take."
+        ],
+        [
+          "Do I have to weigh every meal?",
+          "No. A photo of your meal gives a good estimate of the dish and portion, and you can adjust the portion if you ate only part of it."
+        ],
+        [
+          "Can I use it to gain weight or maintain it?",
+          "Yes. Choose lose, maintain or gain as your goal, and the daily target changes accordingly."
+        ],
+        [
+          "Is this medical advice?",
+          "No. It is a tracking tool. If you are pregnant, under 18 or have a medical condition, talk to your doctor or dietitian before changing your diet."
+        ]
+      ]
+    },
+    "ar": {
+      "name": "تطبيق إنقاص الوزن",
+      "title": "تطبيق إنقاص الوزن: السعرات ومتابعة الوزن وتوقع الهدف",
+      "meta": "تطبيق إنقاص وزن يتابع ما تأكله وما تزنه: هدف يومي للسعرات الحرارية بحسب هدفك، وتسجيل الوجبات بالصورة، وقراءة الميزان من صورة، وتوقع لموعد بلوغ هدفك.",
+      "lead": "حدّد هدفك، وسجّل وجباتك في ثوانٍ، وتابع الاتجاه العام: هدف يومي للسعرات، ومخطط وزنك، وتوقع لموعد وصولك.",
+      "steps": [
+        "🎯 **حدّد هدفك** — إنقاص الوزن أو الحفاظ عليه أو زيادته — واحصل على هدف يومي للسعرات الحرارية.",
+        "📸 **سجّل وجباتك** بصورة أو بالصوت أو بالكتابة أو بماسح الباركود.",
+        "⚖️ **سجّل وزنك** بتصوير الميزان — وتابع الاتجاه العام وتوقع الوصول إلى هدفك."
+      ],
+      "benefits": [
+        "🎯 **هدف يومي للسعرات الحرارية بحسب هدفك**، مع حلقة تُظهر المتبقي لك اليوم.",
+        "📉 **الاتجاه العام لا التقلبات اليومية** — الماء والملح يجعلان الوزن يتذبذب؛ والمخطط يُظهر وجهته الحقيقية.",
+        "🔮 **توقع الهدف** — اعرف متى يُرجّح أن تبلغ خطوتك الأولى وهدفك النهائي.",
+        "🍱 **كل طبق يُحسب على حدة** — السعرات والبروتين والدهون والكربوهيدرات من صورة واحدة.",
+        "⚠️ **مسببات الحساسية والأنظمة الغذائية** معروضة على كل طبق."
+      ],
+      "faq": [
+        [
+          "ما سرعة إنقاص الوزن الآمنة؟",
+          "تقترح الجهات الصحية مثل هيئة الخدمات الصحية البريطانية (NHS) نحو 0.5–1 كغ (1–2 رطل) في الأسبوع. ويُعد عجز يومي في السعرات بنحو 500 سعرة حرارية خيارًا شائعًا ومستدامًا. استخدم حاسبة إنقاص الوزن المجانية لدينا لتقدير المدة التي سيستغرقها هدفك."
+        ],
+        [
+          "هل يجب أن أزن كل وجبة؟",
+          "لا. تعطي صورة وجبتك تقديرًا جيدًا للطبق والحصة، ويمكنك تعديل الحصة إذا أكلت جزءًا منها فقط."
+        ],
+        [
+          "هل يمكنني استخدامه لزيادة الوزن أو الحفاظ عليه؟",
+          "نعم. اختر إنقاص الوزن أو الحفاظ عليه أو زيادته هدفًا لك، ويتغير الهدف اليومي وفقًا لذلك."
+        ],
+        [
+          "هل هذه نصيحة طبية؟",
+          "لا. إنه أداة للمتابعة. إذا كنتِ حاملًا أو دون 18 عامًا أو لديك حالة طبية، فاستشر طبيبك أو أخصائي التغذية قبل تغيير نظامك الغذائي."
+        ]
+      ]
+    },
+    "de": {
+      "name": "Abnehmen App",
+      "title": "Abnehmen App: Kalorien, Gewichtsverlauf und Zielprognose",
+      "meta": "Die Abnehmen App für Essen und Gewicht: Kalorienziel passend zum Ziel, Mahlzeiten per Foto, Waage per Foto ablesen und Prognose, wann du dein Ziel erreichst.",
+      "lead": "Setze ein Ziel, erfasse deine Mahlzeiten in Sekunden und verfolge den Trend: tägliches Kalorienziel, Gewichtskurve und eine Prognose, wann du ankommst.",
+      "steps": [
+        "🎯 **Ziel festlegen** – abnehmen, halten oder zunehmen – und ein tägliches Kalorienziel erhalten.",
+        "📸 **Mahlzeiten erfassen** per Foto, Sprache, Text oder Barcode-Scanner.",
+        "⚖️ **Gewicht erfassen**, indem du deine Waage fotografierst – und den Trend sowie die Zielprognose verfolgen."
+      ],
+      "benefits": [
+        "🎯 **Ein tägliches Kalorienziel passend zu deinem Ziel**, mit einem Ring, der zeigt, was heute noch übrig ist.",
+        "📉 **Der Trend statt der täglichen Schwankungen** – Wasser und Salz lassen das Gewicht springen; die Kurve zeigt, wohin es wirklich geht.",
+        "🔮 **Zielprognose** – sieh, wann du voraussichtlich dein erstes Etappenziel und dein Endziel erreichst.",
+        "🍱 **Jedes Gericht einzeln gezählt** – Kalorien, Eiweiß, Fett und Kohlenhydrate aus einem Foto.",
+        "⚠️ **Allergene und Ernährungsformen** bei jedem Gericht angezeigt."
+      ],
+      "faq": [
+        [
+          "Wie schnell kann ich gesund abnehmen?",
+          "Gesundheitsorganisationen wie der NHS empfehlen etwa 0,5–1 kg (1–2 lb) pro Woche. Ein tägliches Kaloriendefizit von rund 500 kcal ist eine gängige, nachhaltige Wahl. Mit unserem kostenlosen Abnehmrechner kannst du abschätzen, wie lange dein Ziel dauert."
+        ],
+        [
+          "Muss ich jede Mahlzeit wiegen?",
+          "Nein. Ein Foto deiner Mahlzeit liefert eine gute Schätzung von Gericht und Portion, und du kannst die Portion anpassen, wenn du nur einen Teil gegessen hast."
+        ],
+        [
+          "Kann ich damit auch zunehmen oder mein Gewicht halten?",
+          "Ja. Wähle abnehmen, halten oder zunehmen als Ziel, und das tägliche Ziel passt sich entsprechend an."
+        ],
+        [
+          "Ist das eine medizinische Beratung?",
+          "Nein. Es ist ein Tracking-Tool. Wenn du schwanger oder unter 18 bist oder eine Erkrankung hast, sprich vor einer Ernährungsumstellung mit deiner Ärztin, deinem Arzt oder einer Ernährungsberatung."
+        ]
+      ]
+    },
+    "es": {
+      "name": "App para bajar de peso",
+      "title": "App para bajar de peso: calorías, control de peso y pronóstico",
+      "meta": "App para bajar de peso: meta diaria de calorías, comidas por foto y pronóstico de cuándo llegas a tu meta. Adelgazar con déficit calórico, sin complicarte.",
+      "lead": "Define tu meta, registra tus comidas en segundos y sigue la tendencia: una meta diaria de calorías para adelgazar con déficit calórico, tu gráfico de peso y un pronóstico de cuándo llegarás.",
+      "steps": [
+        "🎯 **Define tu meta** — bajar, mantener o subir de peso — y obtén una meta diaria de calorías.",
+        "📸 **Registra tus comidas** con una foto, por voz, por texto o con el escáner de código de barras. Es la forma más rápida de contar calorías.",
+        "⚖️ **Registra tu peso** tomando una foto de tu báscula — y sigue la tendencia y el pronóstico de tu meta."
+      ],
+      "benefits": [
+        "🎯 **Una meta diaria de calorías según tu objetivo**, con un anillo que muestra lo que te queda hoy.",
+        "📉 **La tendencia, no las variaciones diarias** — el agua y la sal hacen que el peso suba y baje; el gráfico muestra hacia dónde va realmente.",
+        "🔮 **Pronóstico de tu meta** — mira cuándo es probable que llegues a tu primera etapa y a tu meta final.",
+        "🍱 **Cada plato contado por separado** — calorías, proteínas, grasas y carbohidratos desde una sola foto.",
+        "⚠️ **Alérgenos y dietas** indicados en cada plato."
+      ],
+      "faq": [
+        [
+          "¿Qué tan rápido puedo bajar de peso de forma segura?",
+          "Organizaciones de salud como el NHS sugieren cerca de 0,5–1 kg (1–2 lb) por semana. Un déficit calórico diario de unas 500 kcal es una opción común y sostenible. Usa nuestra calculadora gratuita para bajar de peso y estima cuánto tardarás en llegar a tu meta."
+        ],
+        [
+          "¿Tengo que pesar cada comida?",
+          "No. Una foto de tu comida da una buena estimación del plato y la porción, y puedes ajustar la porción si solo comiste una parte."
+        ],
+        [
+          "¿Puedo usarla para subir de peso o mantenerlo?",
+          "Sí. Elige bajar, mantener o subir como tu meta, y la meta diaria cambia en consecuencia."
+        ],
+        [
+          "¿Es un consejo médico?",
+          "No. Es una herramienta de seguimiento. Si estás embarazada, eres menor de 18 años o tienes alguna condición médica, habla con tu médico o nutricionista antes de cambiar tu alimentación."
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Application de perte de poids",
+      "title": "Application perte de poids : calories, suivi et objectif",
+      "meta": "Application de perte de poids : objectif calorique, repas en photo, balance lue en photo et prévision de la date d'atteinte de votre objectif.",
+      "lead": "Fixez un objectif, enregistrez vos repas en quelques secondes et suivez la tendance : objectif calorique quotidien, courbe de poids et prévision de la date à laquelle vous y arriverez.",
+      "steps": [
+        "🎯 **Fixez votre objectif** — perdre, maintenir ou prendre du poids — et obtenez un objectif calorique quotidien.",
+        "📸 **Enregistrez vos repas** en photo, à la voix, par texte ou avec le lecteur de code-barres.",
+        "⚖️ **Enregistrez votre poids** en photographiant votre balance — et suivez la tendance et la prévision de votre objectif."
+      ],
+      "benefits": [
+        "🎯 **Un objectif calorique quotidien selon votre but**, avec un anneau qui montre ce qu'il vous reste aujourd'hui.",
+        "📉 **La tendance, pas les variations du jour** — l'eau et le sel font fluctuer le poids ; la courbe montre où il va vraiment.",
+        "🔮 **Prévision de l'objectif** — voyez quand vous atteindrez probablement votre première étape et votre objectif final.",
+        "🍱 **Chaque plat compté séparément** — calories, protéines, lipides et glucides à partir d'une seule photo.",
+        "⚠️ **Allergènes et régimes** indiqués pour chaque plat."
+      ],
+      "faq": [
+        [
+          "À quelle vitesse puis-je perdre du poids sans risque ?",
+          "Des organismes de santé comme le NHS conseillent environ 0,5 à 1 kg (1 à 2 lb) par semaine. Un déficit calorique quotidien d'environ 500 kcal est un choix courant et durable. Utilisez notre calculateur de perte de poids gratuit pour estimer la durée nécessaire à votre objectif."
+        ],
+        [
+          "Dois-je peser chaque repas ?",
+          "Non. Une photo de votre repas donne une bonne estimation du plat et de la portion, et vous pouvez ajuster la portion si vous n'en avez mangé qu'une partie."
+        ],
+        [
+          "Puis-je l'utiliser pour prendre du poids ou le maintenir ?",
+          "Oui. Choisissez perdre, maintenir ou prendre du poids comme objectif, et l'objectif quotidien s'adapte."
+        ],
+        [
+          "Est-ce un avis médical ?",
+          "Non. C'est un outil de suivi. Si vous êtes enceinte, mineur ou avez un problème de santé, parlez-en à votre médecin ou à un diététicien avant de changer d'alimentation."
+        ]
+      ]
+    },
+    "he": {
+      "name": "אפליקציה לירידה במשקל",
+      "title": "אפליקציה לירידה במשקל: קלוריות, מעקב משקל ותחזית יעד",
+      "meta": "אפליקציה לירידה במשקל שעוקבת אחרי מה שאתם אוכלים ומה שאתם שוקלים: יעד קלוריות יומי לפי המטרה שלכם, תיעוד ארוחות בצילום, קריאת המשקל מתמונה ותחזית למועד הגעה ליעד.",
+      "lead": "קבעו יעד, תעדו ארוחות תוך שניות וצפו במגמה: יעד קלוריות יומי, גרף המשקל שלכם ותחזית למועד שבו תגיעו ליעד.",
+      "steps": [
+        "🎯 **קבעו יעד** — לרדת, לשמור או לעלות במשקל — וקבלו יעד קלוריות יומי.",
+        "📸 **תעדו את הארוחות** בצילום, בקול, בטקסט או עם סורק הברקוד.",
+        "⚖️ **תעדו את המשקל** בצילום המשקל שלכם — ועקבו אחרי המגמה ותחזית היעד."
+      ],
+      "benefits": [
+        "🎯 **יעד קלוריות יומי לפי המטרה שלכם**, עם טבעת שמראה כמה נשאר להיום.",
+        "📉 **המגמה, לא התנודות היומיות** — מים ומלח גורמים למשקל לקפוץ; הגרף מראה לאן הוא באמת הולך.",
+        "🔮 **תחזית יעד** — ראו מתי סביר שתגיעו לשלב הראשון וליעד הסופי.",
+        "🍱 **כל מנה נספרת בנפרד** — קלוריות, חלבון, שומן ופחמימות מתמונה אחת.",
+        "⚠️ **אלרגנים ותזונות** מוצגים בכל מנה."
+      ],
+      "faq": [
+        [
+          "באיזו מהירות אפשר לרדת במשקל בבטחה?",
+          "ארגוני בריאות כמו ה-NHS ממליצים על כ-0.5–1 ק\"ג (1–2 ליברות) בשבוע. גירעון קלורי יומי של כ-500 קק\"ל הוא בחירה נפוצה ובת קיימא. השתמשו במחשבון הירידה במשקל החינמי שלנו כדי להעריך כמה זמן יימשך הדרך ליעד."
+        ],
+        [
+          "האם צריך לשקול כל ארוחה?",
+          "לא. תמונה של הארוחה נותנת הערכה טובה של המנה והכמות, ואפשר לשנות את הכמות אם אכלתם רק חלק."
+        ],
+        [
+          "אפשר להשתמש באפליקציה כדי לעלות במשקל או לשמור עליו?",
+          "כן. בחרו ירידה, שמירה או עלייה כמטרה, ויעד היומי יתעדכן בהתאם."
+        ],
+        [
+          "האם זה ייעוץ רפואי?",
+          "לא. זהו כלי מעקב. אם אתן בהיריון, מתחת לגיל 18 או עם מצב רפואי, התייעצו עם הרופא או הדיאטן לפני שינוי בתזונה."
+        ]
+      ]
+    },
+    "hi": {
+      "name": "वज़न घटाने वाला ऐप",
+      "title": "वज़न घटाने का ऐप: कैलोरी, वज़न ट्रैकर और लक्ष्य अनुमान",
+      "meta": "वज़न घटाने का ऐप जो आपके खाने और वज़न को ट्रैक करता है: आपके लक्ष्य के हिसाब से रोज़ का कैलोरी लक्ष्य, फ़ोटो से भोजन लॉग, फ़ोटो से तराज़ू की रीडिंग और लक्ष्य तक पहुँचने का अनुमान।",
+      "lead": "लक्ष्य तय करें, पल भर में भोजन लॉग करें और ट्रेंड देखें: रोज़ का कैलोरी लक्ष्य, आपका वज़न चार्ट और लक्ष्य तक पहुँचने का अनुमान।",
+      "steps": [
+        "🎯 **अपना लक्ष्य तय करें** — वज़न घटाना, बनाए रखना या बढ़ाना — और रोज़ का कैलोरी लक्ष्य पाएँ।",
+        "📸 **भोजन लॉग करें** फ़ोटो, आवाज़, टेक्स्ट या बारकोड स्कैनर से।",
+        "⚖️ **वज़न लॉग करें** अपने तराज़ू की फ़ोटो खींचकर — और ट्रेंड व लक्ष्य का अनुमान देखें।"
+      ],
+      "benefits": [
+        "🎯 **आपके लक्ष्य के हिसाब से रोज़ का कैलोरी लक्ष्य**, एक रिंग के साथ जो दिखाती है कि आज कितना बचा है।",
+        "📉 **रोज़ के उतार-चढ़ाव नहीं, ट्रेंड** — पानी और नमक से वज़न ऊपर-नीचे होता है; चार्ट दिखाता है कि वज़न असल में किस ओर जा रहा है।",
+        "🔮 **लक्ष्य का अनुमान** — देखें कि आप पहले पड़ाव और अंतिम लक्ष्य तक कब पहुँच सकते हैं।",
+        "🍱 **हर व्यंजन अलग गिना जाता है** — एक फ़ोटो से कैलोरी, प्रोटीन, फ़ैट और कार्ब्स।",
+        "⚠️ **एलर्जी और डाइट की जानकारी** हर व्यंजन पर दिखती है।"
+      ],
+      "faq": [
+        [
+          "सुरक्षित तरीके से वज़न कितनी तेज़ी से घटाया जा सकता है?",
+          "NHS जैसे स्वास्थ्य संगठन हफ़्ते में लगभग 0.5–1 किलो (1–2 पाउंड) घटाने की सलाह देते हैं। रोज़ लगभग 500 किलो कैलोरी की कमी एक आम और टिकाऊ विकल्प है। अपना लक्ष्य कितने समय में पूरा होगा, यह जानने के लिए हमारा मुफ़्त वज़न घटाने का कैलकुलेटर इस्तेमाल करें।"
+        ],
+        [
+          "क्या हर भोजन को तौलना ज़रूरी है?",
+          "नहीं। भोजन की एक फ़ोटो से व्यंजन और मात्रा का अच्छा अंदाज़ा मिल जाता है, और अगर आपने थोड़ा ही खाया हो तो मात्रा बदल सकते हैं।"
+        ],
+        [
+          "क्या इसे वज़न बढ़ाने या बनाए रखने के लिए इस्तेमाल कर सकते हैं?",
+          "हाँ। लक्ष्य के तौर पर घटाना, बनाए रखना या बढ़ाना चुनें, और रोज़ का लक्ष्य उसी के अनुसार बदल जाएगा।"
+        ],
+        [
+          "क्या यह चिकित्सा सलाह है?",
+          "नहीं। यह सिर्फ़ ट्रैकिंग का टूल है। अगर आप गर्भवती हैं, 18 से कम उम्र के हैं या कोई बीमारी है, तो खान-पान बदलने से पहले अपने डॉक्टर या डायटीशियन से बात करें।"
+        ]
+      ]
+    },
+    "id": {
+      "name": "Aplikasi diet",
+      "title": "Aplikasi diet: kalori, pelacak berat badan, dan prakiraan target",
+      "meta": "Aplikasi diet yang mencatat apa yang Anda makan dan berapa berat Anda: target kalori harian dari tujuan Anda, makanan dicatat lewat foto, timbangan dibaca dari foto, dan prakiraan kapan target tercapai.",
+      "lead": "Tetapkan tujuan, catat makanan dalam hitungan detik, dan pantau tren: target kalori harian, grafik berat badan, dan prakiraan kapan Anda sampai di sana.",
+      "steps": [
+        "🎯 **Tetapkan tujuan Anda** — turun, jaga, atau naik berat badan — dan dapatkan target kalori harian.",
+        "📸 **Catat makanan Anda** dengan foto, suara, teks, atau pemindai barcode.",
+        "⚖️ **Catat berat badan Anda** dengan memotret timbangan — lalu ikuti tren dan prakiraan target."
+      ],
+      "benefits": [
+        "🎯 **Target kalori harian dari tujuan Anda**, dengan cincin yang menunjukkan sisa kalori hari ini.",
+        "📉 **Tren, bukan naik turun harian** — air dan garam membuat berat badan melonjak; grafik menunjukkan arah sebenarnya.",
+        "🔮 **Prakiraan target** — lihat kapan Anda kemungkinan mencapai langkah pertama dan target akhir.",
+        "🍱 **Setiap hidangan dihitung terpisah** — kalori, protein, lemak, dan karbohidrat dari satu foto.",
+        "⚠️ **Alergen dan diet** ditampilkan pada setiap hidangan."
+      ],
+      "faq": [
+        [
+          "Seberapa cepat saya bisa menurunkan berat badan dengan aman?",
+          "Lembaga kesehatan seperti NHS menyarankan sekitar 0,5–1 kg (1–2 lb) per minggu. Defisit kalori harian sekitar 500 kkal adalah pilihan yang umum dan berkelanjutan. Gunakan kalkulator penurunan berat badan gratis kami untuk memperkirakan berapa lama target Anda tercapai."
+        ],
+        [
+          "Apakah saya harus menimbang setiap makanan?",
+          "Tidak. Foto makanan Anda sudah memberi perkiraan yang baik tentang hidangan dan porsinya, dan Anda bisa menyesuaikan porsi jika hanya makan sebagian."
+        ],
+        [
+          "Bisakah dipakai untuk menaikkan atau menjaga berat badan?",
+          "Bisa. Pilih turun, jaga, atau naik sebagai tujuan Anda, dan target harian akan menyesuaikan."
+        ],
+        [
+          "Apakah ini nasihat medis?",
+          "Bukan. Ini adalah alat pencatat. Jika Anda sedang hamil, berusia di bawah 18 tahun, atau memiliki kondisi medis, bicarakan dengan dokter atau ahli gizi sebelum mengubah pola makan."
+        ]
+      ]
+    },
+    "it": {
+      "name": "App per dimagrire",
+      "title": "App per dimagrire: calorie, peso e previsione dell'obiettivo",
+      "meta": "App dieta per dimagrire: obiettivo calorico giornaliero, pasti registrati con una foto, peso letto dalla bilancia e previsione di quando raggiungi l'obiettivo.",
+      "lead": "Imposta un obiettivo, registra i pasti in pochi secondi e osserva l'andamento: obiettivo calorico giornaliero, grafico del peso e previsione di quando ci arriverai.",
+      "steps": [
+        "🎯 **Imposta il tuo obiettivo** — dimagrire, mantenere o aumentare il peso — e ricevi un obiettivo calorico giornaliero.",
+        "📸 **Registra i pasti** con una foto, a voce, scrivendo o con lo scanner del codice a barre.",
+        "⚖️ **Registra il tuo peso** fotografando la bilancia — e segui l'andamento e la previsione dell'obiettivo."
+      ],
+      "benefits": [
+        "🎯 **Un obiettivo calorico giornaliero in base al tuo traguardo**, con un anello che mostra quanto resta oggi.",
+        "📉 **L'andamento, non le oscillazioni di ogni giorno** — acqua e sale fanno variare il peso; il grafico mostra dove sta davvero andando.",
+        "🔮 **Previsione dell'obiettivo** — scopri quando è probabile che raggiungerai il primo traguardo e quello finale.",
+        "🍱 **Ogni piatto contato separatamente** — calorie, proteine, grassi e carboidrati da una sola foto.",
+        "⚠️ **Allergeni e diete** indicati su ogni piatto."
+      ],
+      "faq": [
+        [
+          "Quanto velocemente posso dimagrire in sicurezza?",
+          "Organizzazioni sanitarie come il NHS suggeriscono circa 0,5–1 kg (1–2 lb) a settimana. Un deficit calorico giornaliero di circa 500 kcal è una scelta comune e sostenibile. Usa il nostro calcolatore gratuito per dimagrire per stimare quanto tempo richiederà il tuo obiettivo."
+        ],
+        [
+          "Devo pesare ogni pasto?",
+          "No. Una foto del pasto dà una buona stima del piatto e della porzione, e puoi correggere la porzione se ne hai mangiato solo una parte."
+        ],
+        [
+          "Posso usarla per aumentare di peso o per mantenerlo?",
+          "Sì. Scegli dimagrire, mantenere o aumentare come obiettivo e l'obiettivo giornaliero cambia di conseguenza."
+        ],
+        [
+          "È un consiglio medico?",
+          "No. È uno strumento di monitoraggio. Se sei in gravidanza, hai meno di 18 anni o hai una condizione medica, parla con il tuo medico o dietista prima di cambiare alimentazione."
+        ]
+      ]
+    },
+    "ja": {
+      "name": "ダイエットアプリ",
+      "title": "ダイエットアプリ：カロリー管理・体重記録・目標予測",
+      "meta": "食事と体重を記録できるダイエットアプリ。目標から1日の摂取カロリーを算出し、食事は写真で記録、体重計も写真で読み取り、目標達成の時期を予測します。",
+      "lead": "目標を決めて、食事を数秒で記録し、推移をチェック。1日の摂取カロリー目標、体重グラフ、目標達成の予測がわかります。",
+      "steps": [
+        "🎯 **目標を設定** — 減量・維持・増量を選ぶと、1日のカロリー目標が決まります。",
+        "📸 **食事を記録** — 写真、音声、テキスト、バーコードスキャンで記録できます。",
+        "⚖️ **体重を記録** — 体重計を撮影するだけ。推移と目標の予測を確認できます。"
+      ],
+      "benefits": [
+        "🎯 **目標に合わせた1日のカロリー目標**。リングで今日の残りがひと目でわかります。",
+        "📉 **日々の増減ではなく推移を確認** — 水分や塩分で体重は変動します。グラフで本当の傾向がわかります。",
+        "🔮 **目標の予測** — 最初のステップと最終目標に到達しそうな時期がわかります。",
+        "🍱 **料理ごとに個別に計算** — 1枚の写真からカロリー、たんぱく質、脂質、炭水化物を算出します。",
+        "⚠️ **アレルゲンと食事制限** をすべての料理に表示します。"
+      ],
+      "faq": [
+        [
+          "安全に減量できるペースはどれくらいですか？",
+          "英国のNHSなどの保健機関は、1週間に約0.5〜1kg（1〜2ポンド）を目安としています。1日あたり約500kcalの摂取カロリー不足は、無理なく続けやすい一般的な設定です。無料の減量計算ツールで、目標までにかかる期間を見積もれます。"
+        ],
+        [
+          "毎回の食事を計量する必要はありますか？",
+          "いいえ。食事の写真から料理と量をおおよそ推定できます。一部しか食べなかった場合は量を調整できます。"
+        ],
+        [
+          "増量や体重維持にも使えますか？",
+          "はい。目標に減量・維持・増量のいずれかを選ぶと、1日の目標も変わります。"
+        ],
+        [
+          "医学的なアドバイスですか？",
+          "いいえ。これは記録のためのツールです。妊娠中の方、18歳未満の方、持病のある方は、食事を変える前に医師または管理栄養士に相談してください。"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "다이어트 앱",
+      "title": "다이어트 앱: 칼로리, 체중 기록, 목표 달성 예측",
+      "meta": "먹은 음식과 체중을 기록하는 다이어트 앱: 목표에 맞춘 하루 칼로리 목표, 사진으로 식사 기록, 체중계 사진 인식, 목표 달성 시기 예측까지.",
+      "lead": "목표를 정하고 몇 초 만에 식사를 기록하며 추세를 확인하세요. 하루 칼로리 목표, 체중 그래프, 목표 달성 예측을 한눈에 볼 수 있습니다.",
+      "steps": [
+        "🎯 **목표 설정** — 감량, 유지, 증량 중에서 고르면 하루 칼로리 목표가 정해집니다.",
+        "📸 **식사 기록** — 사진, 음성, 텍스트 또는 바코드 스캔으로 간편하게 기록하세요.",
+        "⚖️ **체중 기록** — 체중계를 촬영하면 기록되고, 추세와 목표 달성 예측을 확인할 수 있습니다."
+      ],
+      "benefits": [
+        "🎯 **목표에 맞춘 하루 칼로리 목표** — 오늘 남은 칼로리를 링으로 보여줍니다.",
+        "📉 **매일의 변동이 아닌 추세** — 수분과 염분 때문에 체중이 오르내려도, 그래프로 실제 흐름을 볼 수 있습니다.",
+        "🔮 **목표 달성 예측** — 첫 단계 목표와 최종 목표에 도달할 시기를 확인하세요.",
+        "🍱 **음식별로 따로 계산** — 사진 한 장으로 칼로리, 단백질, 지방, 탄수화물을 알 수 있습니다.",
+        "⚠️ **알레르기 유발 성분과 식단 유형**을 모든 음식에 표시합니다."
+      ],
+      "faq": [
+        [
+          "안전하게 감량하려면 얼마나 빨리 빼야 하나요?",
+          "NHS 같은 보건 기관은 일주일에 약 0.5–1kg(1–2lb)을 권장합니다. 하루 약 500kcal의 칼로리 적자는 흔히 지속 가능한 방법으로 꼽힙니다. 무료 체중 감량 계산기로 목표까지 걸리는 기간을 예상해 보세요."
+        ],
+        [
+          "모든 식사의 무게를 재야 하나요?",
+          "아니요. 식사 사진만으로도 음식과 양을 꽤 정확하게 추정하며, 일부만 먹었다면 양을 직접 조절할 수 있습니다."
+        ],
+        [
+          "체중 증량이나 유지에도 쓸 수 있나요?",
+          "네. 목표를 감량, 유지, 증량 중에서 고르면 하루 목표가 그에 맞게 바뀝니다."
+        ],
+        [
+          "의학적 조언인가요?",
+          "아니요. 기록을 돕는 도구입니다. 임신 중이거나 18세 미만이거나 질환이 있다면 식단을 바꾸기 전에 의사나 영양사와 상담하세요."
+        ]
+      ]
+    },
+    "nl": {
+      "name": "Afvallen app",
+      "title": "Afvallen app: calorieën, gewichtstracker en doelvoorspelling",
+      "meta": "Een afvallen app die bijhoudt wat je eet en weegt: een dagelijks caloriedoel op basis van je doel, maaltijden loggen met een foto, je weegschaal aflezen via een foto en een voorspelling van wanneer je je doel bereikt.",
+      "lead": "Stel een doel, log je maaltijden in een paar seconden en volg de trend: een dagelijks caloriedoel, je gewichtsgrafiek en een voorspelling van wanneer je er bent.",
+      "steps": [
+        "🎯 **Stel je doel in** — afvallen, op gewicht blijven of aankomen — en krijg een dagelijks caloriedoel.",
+        "📸 **Log je maaltijden** met een foto, met je stem, met tekst of met de barcodescanner.",
+        "⚖️ **Log je gewicht** door een foto van je weegschaal te maken — en volg de trend en de doelvoorspelling."
+      ],
+      "benefits": [
+        "🎯 **Een dagelijks caloriedoel op basis van je doel**, met een ring die laat zien wat er vandaag nog over is.",
+        "📉 **De trend, niet de dagelijkse schommelingen** — water en zout laten je gewicht schommelen; de grafiek laat zien waar het echt naartoe gaat.",
+        "🔮 **Doelvoorspelling** — zie wanneer je waarschijnlijk je eerste stap en je einddoel bereikt.",
+        "🍱 **Elk gerecht apart geteld** — calorieën, eiwit, vet en koolhydraten uit één foto.",
+        "⚠️ **Allergenen en diëten** bij elk gerecht getoond."
+      ],
+      "faq": [
+        [
+          "Hoe snel kan ik veilig afvallen?",
+          "Gezondheidsorganisaties zoals de NHS adviseren ongeveer 0,5–1 kg (1–2 lb) per week. Een dagelijks calorietekort van zo'n 500 kcal is een gangbare, vol te houden keuze. Gebruik onze gratis afvalcalculator om in te schatten hoe lang je doel duurt."
+        ],
+        [
+          "Moet ik elke maaltijd wegen?",
+          "Nee. Een foto van je maaltijd geeft een goede schatting van het gerecht en de portie, en je kunt de portie aanpassen als je maar een deel hebt gegeten."
+        ],
+        [
+          "Kan ik het ook gebruiken om aan te komen of op gewicht te blijven?",
+          "Ja. Kies afvallen, op gewicht blijven of aankomen als doel, en het dagelijkse doel past zich aan."
+        ],
+        [
+          "Is dit medisch advies?",
+          "Nee. Het is een hulpmiddel om bij te houden. Ben je zwanger, jonger dan 18 of heb je een medische aandoening, praat dan met je huisarts of diëtist voordat je je voeding aanpast."
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Aplikacja do odchudzania",
+      "title": "Aplikacja do odchudzania: kalorie, waga i prognoza celu",
+      "meta": "Aplikacja do odchudzania, która śledzi, co jesz i ile ważysz: dzienny cel kalorii z twojego celu, posiłki dodawane ze zdjęcia, waga odczytana ze zdjęcia wagi i prognoza, kiedy osiągniesz cel.",
+      "lead": "Ustaw cel, dodawaj posiłki w kilka sekund i obserwuj trend: dzienny cel kalorii, wykres wagi i prognozę, kiedy dotrzesz do celu.",
+      "steps": [
+        "🎯 **Ustaw cel** — schudnij, utrzymaj wagę lub przytyj — i otrzymaj dzienny cel kalorii.",
+        "📸 **Dodawaj posiłki** ze zdjęcia, głosem, tekstem lub skanerem kodów kreskowych.",
+        "⚖️ **Zapisuj wagę**, robiąc zdjęcie wagi — i śledź trend oraz prognozę celu."
+      ],
+      "benefits": [
+        "🎯 **Dzienny cel kalorii z twojego celu**, z pierścieniem pokazującym, ile zostało na dziś.",
+        "📉 **Trend, a nie dzienne wahania** — woda i sól sprawiają, że waga skacze; wykres pokazuje, dokąd naprawdę zmierza.",
+        "🔮 **Prognoza celu** — zobacz, kiedy prawdopodobnie osiągniesz pierwszy etap i cel końcowy.",
+        "🍱 **Każde danie liczone osobno** — kalorie, białko, tłuszcz i węglowodany z jednego zdjęcia.",
+        "⚠️ **Alergeny i diety** pokazane przy każdym daniu."
+      ],
+      "faq": [
+        [
+          "Jak szybko mogę bezpiecznie schudnąć?",
+          "Organizacje zdrowotne, takie jak brytyjskie NHS, zalecają około 0,5–1 kg (1–2 funty) tygodniowo. Dzienny deficyt około 500 kcal to częsty, możliwy do utrzymania wybór. Skorzystaj z naszego darmowego kalkulatora odchudzania, aby oszacować, ile potrwa osiągnięcie twojego celu."
+        ],
+        [
+          "Czy muszę ważyć każdy posiłek?",
+          "Nie. Zdjęcie posiłku pozwala dobrze oszacować danie i porcję, a porcję możesz zmienić, jeśli zjadłeś tylko część."
+        ],
+        [
+          "Czy mogę używać jej do przytycia lub utrzymania wagi?",
+          "Tak. Wybierz jako cel schudnięcie, utrzymanie lub przytycie, a dzienny cel odpowiednio się zmieni."
+        ],
+        [
+          "Czy to porada medyczna?",
+          "Nie. To narzędzie do śledzenia. Jeśli jesteś w ciąży, masz mniej niż 18 lat lub chorujesz, porozmawiaj z lekarzem lub dietetykiem przed zmianą diety."
+        ]
+      ]
+    },
+    "pt": {
+      "name": "App para emagrecer",
+      "title": "App para emagrecer: calorias, peso e previsão da meta",
+      "meta": "Um app para emagrecer que regista o que você come e o que pesa: meta diária de calorias a partir do seu objetivo, refeições registadas por foto, balança lida por foto e previsão de quando você atinge a meta.",
+      "lead": "Defina uma meta, registe as refeições em segundos e acompanhe a tendência: meta diária de calorias, gráfico do peso e previsão de quando você vai chegar lá.",
+      "steps": [
+        "🎯 **Defina o seu objetivo** — perder, manter ou ganhar peso — e receba uma meta diária de calorias.",
+        "📸 **Registe as refeições** com uma foto, por voz, por texto ou com o leitor de código de barras.",
+        "⚖️ **Registe o seu peso** fotografando a balança — e acompanhe a tendência e a previsão da meta."
+      ],
+      "benefits": [
+        "🎯 **Meta diária de calorias a partir do seu objetivo**, com um anel que mostra o que ainda resta hoje.",
+        "📉 **A tendência, não as oscilações diárias** — água e sal fazem o peso variar; o gráfico mostra para onde ele realmente vai.",
+        "🔮 **Previsão da meta** — veja quando você deve alcançar a primeira etapa e o objetivo final.",
+        "🍱 **Cada prato contado separadamente** — calorias, proteínas, gorduras e carboidratos a partir de uma foto.",
+        "⚠️ **Alérgenos e dietas** indicados em cada prato."
+      ],
+      "faq": [
+        [
+          "Com que rapidez posso emagrecer com segurança?",
+          "Organizações de saúde como o NHS sugerem cerca de 0,5–1 kg (1–2 lb) por semana. Um défice diário de aproximadamente 500 kcal é uma escolha comum e sustentável. Use a nossa calculadora gratuita de perda de peso para estimar quanto tempo a sua meta vai levar."
+        ],
+        [
+          "Preciso pesar todas as refeições?",
+          "Não. Uma foto da refeição dá uma boa estimativa do prato e da porção, e você pode ajustar a porção se comeu apenas parte dela."
+        ],
+        [
+          "Posso usar para ganhar ou manter o peso?",
+          "Sim. Escolha perder, manter ou ganhar como objetivo, e a meta diária muda em conformidade."
+        ],
+        [
+          "Isto é aconselhamento médico?",
+          "Não. É uma ferramenta de registo. Se está grávida, tem menos de 18 anos ou tem alguma condição médica, fale com o seu médico ou nutricionista antes de mudar a alimentação."
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Приложение для похудения",
+      "title": "Приложение для похудения: калории, вес и прогноз цели",
+      "meta": "Приложение для похудения следит за питанием и весом: дневная норма калорий под вашу цель, учёт еды по фото, вес со шкалы по снимку и прогноз, когда вы достигнете цели.",
+      "lead": "Поставьте цель, записывайте еду за секунды и следите за трендом: дневная норма калорий, график веса и прогноз, когда вы придёте к цели.",
+      "steps": [
+        "🎯 **Поставьте цель** — похудеть, сохранить или набрать вес — и получите дневную норму калорий.",
+        "📸 **Записывайте еду** по фото, голосом, текстом или сканером штрихкода.",
+        "⚖️ **Записывайте вес**, сфотографировав весы, и следите за трендом и прогнозом цели."
+      ],
+      "benefits": [
+        "🎯 **Дневная норма калорий под вашу цель** и кольцо, которое показывает, сколько осталось на сегодня.",
+        "📉 **Тренд, а не ежедневные скачки** — из-за воды и соли вес прыгает, а график показывает, куда он идёт на самом деле.",
+        "🔮 **Прогноз цели** — узнайте, когда вы, вероятно, достигнете первого шага и итоговой цели.",
+        "🍱 **Каждое блюдо считается отдельно** — калории, белки, жиры и углеводы по одному фото.",
+        "⚠️ **Аллергены и диеты** отмечены для каждого блюда."
+      ],
+      "faq": [
+        [
+          "Как быстро можно безопасно худеть?",
+          "Организации здравоохранения, например NHS, советуют терять примерно 0,5–1 кг (1–2 фунта) в неделю. Ежедневный дефицит около 500 ккал — распространённый и посильный вариант. Бесплатный калькулятор похудения поможет оценить, сколько времени займёт ваша цель."
+        ],
+        [
+          "Нужно ли взвешивать каждый приём пищи?",
+          "Нет. По фото блюда приложение хорошо оценивает блюдо и порцию, а если вы съели только часть, порцию можно поправить."
+        ],
+        [
+          "Можно ли использовать его, чтобы набрать вес или сохранить его?",
+          "Да. Выберите цель: похудеть, сохранить или набрать вес — и дневная норма изменится."
+        ],
+        [
+          "Это медицинская рекомендация?",
+          "Нет. Это инструмент для учёта. Если вы беременны, вам нет 18 лет или у вас есть заболевание, поговорите с врачом или диетологом, прежде чем менять питание."
+        ]
+      ]
+    },
+    "sv": {
+      "name": "Viktminskningsapp",
+      "title": "Viktminskningsapp: kalorier, viktkurva och målprognos",
+      "meta": "En viktminskningsapp som följer vad du äter och väger: ett dagligt kalorimål utifrån ditt mål, måltider loggade med foto, vågen avläst från ett foto och en prognos för när du når målet.",
+      "lead": "Sätt ett mål, logga måltider på några sekunder och följ trenden: ett dagligt kalorimål, din viktkurva och en prognos för när du är framme.",
+      "steps": [
+        "🎯 **Sätt ditt mål** — gå ner, behåll eller gå upp i vikt — och få ett dagligt kalorimål.",
+        "📸 **Logga dina måltider** med foto, röst, text eller streckkodsskanner.",
+        "⚖️ **Logga din vikt** genom att fota vågen — och följ trenden och målprognosen."
+      ],
+      "benefits": [
+        "🎯 **Ett dagligt kalorimål utifrån ditt mål**, med en ring som visar vad som är kvar idag.",
+        "📉 **Trenden, inte dagliga svängningar** — vatten och salt får vikten att hoppa; kurvan visar vart den verkligen är på väg.",
+        "🔮 **Målprognos** — se när du sannolikt når ditt första delmål och ditt slutmål.",
+        "🍱 **Varje rätt räknas för sig** — kalorier, protein, fett och kolhydrater från ett enda foto.",
+        "⚠️ **Allergener och kostval** visas för varje rätt."
+      ],
+      "faq": [
+        [
+          "Hur snabbt kan jag gå ner i vikt på ett säkert sätt?",
+          "Hälsoorganisationer som NHS rekommenderar cirka 0,5–1 kg (1–2 lb) i veckan. Ett dagligt kaloriunderskott på ungefär 500 kcal är ett vanligt och hållbart val. Använd vår kostnadsfria viktminskningskalkylator för att uppskatta hur lång tid ditt mål tar."
+        ],
+        [
+          "Måste jag väga varje måltid?",
+          "Nej. Ett foto av måltiden ger en bra uppskattning av rätten och portionen, och du kan justera portionen om du bara åt en del av den."
+        ],
+        [
+          "Kan jag använda den för att gå upp i vikt eller behålla vikten?",
+          "Ja. Välj att gå ner, behålla eller gå upp som mål, så ändras det dagliga målet därefter."
+        ],
+        [
+          "Är detta medicinsk rådgivning?",
+          "Nej. Det är ett verktyg för att följa upp. Om du är gravid, under 18 år eller har en sjukdom bör du prata med din läkare eller dietist innan du ändrar din kost."
+        ]
+      ]
+    },
+    "th": {
+      "name": "แอปลดน้ำหนัก",
+      "title": "แอปลดน้ำหนัก: นับแคลอรี่ ติดตามน้ำหนัก และคาดการณ์เป้าหมาย",
+      "meta": "แอปลดน้ำหนักที่ติดตามทั้งอาหารที่กินและน้ำหนักตัว: กำหนดแคลอรี่ต่อวันจากเป้าหมาย บันทึกมื้ออาหารด้วยรูปถ่าย อ่านเครื่องชั่งจากรูปถ่าย และคาดการณ์ว่าจะถึงเป้าหมายเมื่อไร",
+      "lead": "ตั้งเป้าหมาย บันทึกมื้ออาหารได้ในไม่กี่วินาที แล้วดูแนวโน้ม: แคลอรี่เป้าหมายต่อวัน กราฟน้ำหนัก และการคาดการณ์ว่าจะถึงเป้าหมายเมื่อไร",
+      "steps": [
+        "🎯 **ตั้งเป้าหมาย** — ลดน้ำหนัก รักษาน้ำหนัก หรือเพิ่มน้ำหนัก — แล้วรับแคลอรี่เป้าหมายต่อวัน",
+        "📸 **บันทึกมื้ออาหาร** ด้วยรูปถ่าย เสียงพูด การพิมพ์ หรือสแกนบาร์โค้ด",
+        "⚖️ **บันทึกน้ำหนัก** ด้วยการถ่ายรูปเครื่องชั่ง — แล้วติดตามแนวโน้มและการคาดการณ์เป้าหมาย"
+      ],
+      "benefits": [
+        "🎯 **แคลอรี่เป้าหมายต่อวันจากเป้าหมายของคุณ** พร้อมวงแหวนที่แสดงว่าวันนี้เหลือเท่าไร",
+        "📉 **ดูแนวโน้ม ไม่ใช่ความผันผวนรายวัน** — น้ำและเกลือทำให้น้ำหนักขึ้นลงได้ กราฟจะแสดงทิศทางที่แท้จริง",
+        "🔮 **คาดการณ์เป้าหมาย** — ดูว่าคุณน่าจะถึงเป้าหมายขั้นแรกและเป้าหมายสุดท้ายเมื่อไร",
+        "🍱 **นับทีละจาน** — แคลอรี่ โปรตีน ไขมัน และคาร์บจากรูปถ่ายเดียว",
+        "⚠️ **สารก่อภูมิแพ้และประเภทอาหาร** แสดงในทุกจาน"
+      ],
+      "faq": [
+        [
+          "ลดน้ำหนักเร็วแค่ไหนจึงจะปลอดภัย?",
+          "องค์กรสุขภาพอย่าง NHS แนะนำประมาณ 0.5–1 กก. (1–2 ปอนด์) ต่อสัปดาห์ การลดแคลอรี่ลงประมาณ 500 กิโลแคลอรี่ต่อวันเป็นทางเลือกที่พบบ่อยและทำได้ต่อเนื่อง ใช้เครื่องคำนวณการลดน้ำหนักฟรีของเราเพื่อประมาณว่าเป้าหมายของคุณจะใช้เวลานานเท่าไร"
+        ],
+        [
+          "ต้องชั่งอาหารทุกมื้อไหม?",
+          "ไม่ต้อง รูปถ่ายอาหารช่วยประมาณจานและปริมาณได้ดี และคุณปรับปริมาณได้หากกินไปเพียงบางส่วน"
+        ],
+        [
+          "ใช้เพิ่มน้ำหนักหรือรักษาน้ำหนักได้ไหม?",
+          "ได้ เลือกเป้าหมายเป็นลด รักษา หรือเพิ่มน้ำหนัก แล้วแคลอรี่เป้าหมายต่อวันจะเปลี่ยนตาม"
+        ],
+        [
+          "นี่คือคำแนะนำทางการแพทย์ไหม?",
+          "ไม่ใช่ เป็นเพียงเครื่องมือติดตาม หากคุณตั้งครรภ์ อายุต่ำกว่า 18 ปี หรือมีโรคประจำตัว ควรปรึกษาแพทย์หรือนักกำหนดอาหารก่อนเปลี่ยนการกิน"
+        ]
+      ]
+    },
+    "tr": {
+      "name": "Kilo verme uygulaması",
+      "title": "Kilo verme uygulaması: kalori, kilo takibi ve hedef tahmini",
+      "meta": "Ne yediğinizi ve kaç kilo olduğunuzu takip eden kilo verme uygulaması: hedefinize göre günlük kalori hedefi, fotoğrafla öğün kaydı, fotoğraftan okunan tartı ve hedefe ne zaman ulaşacağınızın tahmini.",
+      "lead": "Bir hedef belirleyin, öğünlerinizi saniyeler içinde kaydedin ve gidişatı izleyin: günlük kalori hedefi, kilo grafiğiniz ve hedefe ne zaman varacağınızın tahmini.",
+      "steps": [
+        "🎯 **Hedefinizi belirleyin** — kilo verin, koruyun veya alın — ve günlük kalori hedefinizi öğrenin.",
+        "📸 **Öğünlerinizi kaydedin**: fotoğrafla, sesle, yazıyla veya barkod tarayıcıyla.",
+        "⚖️ **Kilonuzu kaydedin**: tartınızın fotoğrafını çekin — ve gidişatı ile hedef tahminini takip edin."
+      ],
+      "benefits": [
+        "🎯 **Hedefinize göre günlük kalori hedefi**; bugün kalanı gösteren bir halkayla.",
+        "📉 **Günlük dalgalanmalar değil, genel eğilim** — su ve tuz kiloyu oynatır; grafik asıl nereye gittiğinizi gösterir.",
+        "🔮 **Hedef tahmini** — ilk adıma ve son hedefinize ne zaman ulaşabileceğinizi görün.",
+        "🍱 **Her yemek ayrı hesaplanır** — tek fotoğraftan kalori, protein, yağ ve karbonhidrat.",
+        "⚠️ **Alerjenler ve diyetler** her yemekte gösterilir."
+      ],
+      "faq": [
+        [
+          "Güvenli şekilde ne kadar hızlı kilo verebilirim?",
+          "NHS gibi sağlık kuruluşları haftada yaklaşık 0,5–1 kg (1–2 lb) önerir. Günde yaklaşık 500 kcal'lik bir kalori açığı yaygın ve sürdürülebilir bir tercihtir. Hedefinizin ne kadar süreceğini tahmin etmek için ücretsiz kilo verme hesaplayıcımızı kullanın."
+        ],
+        [
+          "Her öğünü tartmam gerekiyor mu?",
+          "Hayır. Öğününüzün fotoğrafı, yemeği ve porsiyonu için iyi bir tahmin verir; yalnızca bir kısmını yediyseniz porsiyonu ayarlayabilirsiniz."
+        ],
+        [
+          "Kilo almak veya korumak için de kullanabilir miyim?",
+          "Evet. Hedef olarak kilo verme, koruma veya alma seçeneğini seçin; günlük hedef buna göre değişir."
+        ],
+        [
+          "Bu bir tıbbi tavsiye mi?",
+          "Hayır. Bu bir takip aracıdır. Hamileyseniz, 18 yaşın altındaysanız veya bir sağlık sorununuz varsa beslenmenizi değiştirmeden önce doktorunuza ya da diyetisyeninize danışın."
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Застосунок для схуднення",
+      "title": "Застосунок для схуднення: калорії, вага та прогноз цілі",
+      "meta": "Застосунок для схуднення, що відстежує їжу та вагу: денна норма калорій під вашу мету, прийоми їжі за фото, вага зі шкали за фото та прогноз, коли ви досягнете мети.",
+      "lead": "Поставте мету, записуйте їжу за секунди й стежте за трендом: денна норма калорій, графік ваги та прогноз, коли ви дійдете до мети.",
+      "steps": [
+        "🎯 **Поставте мету** — схуднути, зберегти чи набрати вагу — і отримайте денну норму калорій.",
+        "📸 **Записуйте їжу** за фото, голосом, текстом або сканером штрихкодів.",
+        "⚖️ **Записуйте вагу**, сфотографувавши ваги, — і стежте за трендом та прогнозом цілі."
+      ],
+      "benefits": [
+        "🎯 **Денна норма калорій під вашу мету** з кільцем, що показує, скільки лишилося сьогодні.",
+        "📉 **Тренд, а не денні коливання** — вода й сіль змушують вагу стрибати; графік показує, куди вона справді рухається.",
+        "🔮 **Прогноз цілі** — дізнайтеся, коли ви, імовірно, досягнете першого кроку та кінцевої мети.",
+        "🍱 **Кожна страва окремо** — калорії, білки, жири та вуглеводи з одного фото.",
+        "⚠️ **Алергени та дієти** позначені для кожної страви."
+      ],
+      "faq": [
+        [
+          "Як швидко можна безпечно худнути?",
+          "Організації охорони здоров'я, як-от NHS, радять приблизно 0,5–1 кг (1–2 фунти) на тиждень. Щоденний дефіцит близько 500 ккал — поширений і стійкий варіант. Скористайтеся нашим безкоштовним калькулятором схуднення, щоб оцінити, скільки часу займе ваша мета."
+        ],
+        [
+          "Чи потрібно зважувати кожен прийом їжі?",
+          "Ні. Фото страви дає добру оцінку блюда й порції, а порцію можна змінити, якщо ви з'їли лише частину."
+        ],
+        [
+          "Чи можна використовувати його, щоб набрати вагу або втримати її?",
+          "Так. Оберіть мету: схуднути, зберегти чи набрати вагу — і денна норма відповідно зміниться."
+        ],
+        [
+          "Це медична порада?",
+          "Ні. Це інструмент для відстеження. Якщо ви вагітні, вам немає 18 років або маєте захворювання, перед зміною харчування поговоріть із лікарем чи дієтологом."
+        ]
+      ]
+    },
+    "vi": {
+      "name": "Ứng dụng giảm cân",
+      "title": "Ứng dụng giảm cân: calo, theo dõi cân nặng và dự báo mục tiêu",
+      "meta": "Ứng dụng giảm cân theo dõi bữa ăn và cân nặng: mục tiêu calo hằng ngày, ghi bữa ăn bằng ảnh, đọc số cân từ ảnh và dự báo khi nào bạn đạt mục tiêu.",
+      "lead": "Đặt mục tiêu, ghi bữa ăn chỉ trong vài giây và theo dõi xu hướng: mục tiêu calo hằng ngày, biểu đồ cân nặng và dự báo thời điểm bạn đạt mục tiêu.",
+      "steps": [
+        "🎯 **Đặt mục tiêu** — giảm, giữ hoặc tăng cân — và nhận mục tiêu calo hằng ngày.",
+        "📸 **Ghi bữa ăn** bằng ảnh, giọng nói, văn bản hoặc máy quét mã vạch.",
+        "⚖️ **Ghi cân nặng** bằng cách chụp ảnh cân — rồi theo dõi xu hướng và dự báo mục tiêu."
+      ],
+      "benefits": [
+        "🎯 **Mục tiêu calo hằng ngày theo mục tiêu của bạn**, với vòng tròn cho biết hôm nay còn lại bao nhiêu.",
+        "📉 **Xu hướng, không phải biến động từng ngày** — nước và muối làm cân nặng lên xuống; biểu đồ cho thấy cân nặng thực sự đang đi về đâu.",
+        "🔮 **Dự báo mục tiêu** — xem khi nào bạn có thể đạt bước đầu tiên và mục tiêu cuối cùng.",
+        "🍱 **Mỗi món được tính riêng** — calo, protein, chất béo và carb từ một bức ảnh.",
+        "⚠️ **Chất gây dị ứng và chế độ ăn** được hiển thị trên mỗi món."
+      ],
+      "faq": [
+        [
+          "Giảm cân bao nhanh thì an toàn?",
+          "Các tổ chức y tế như NHS khuyến nghị khoảng 0,5–1 kg (1–2 lb) mỗi tuần. Thiếu hụt khoảng 500 kcal mỗi ngày là lựa chọn phổ biến và bền vững. Hãy dùng công cụ tính giảm cân miễn phí của chúng tôi để ước tính thời gian đạt mục tiêu."
+        ],
+        [
+          "Tôi có phải cân từng bữa ăn không?",
+          "Không. Một bức ảnh bữa ăn cho ước tính tốt về món ăn và khẩu phần, và bạn có thể điều chỉnh khẩu phần nếu chỉ ăn một phần."
+        ],
+        [
+          "Tôi có thể dùng để tăng cân hoặc giữ cân không?",
+          "Có. Hãy chọn giảm, giữ hoặc tăng cân làm mục tiêu, và mục tiêu hằng ngày sẽ thay đổi theo."
+        ],
+        [
+          "Đây có phải lời khuyên y tế không?",
+          "Không. Đây chỉ là công cụ theo dõi. Nếu bạn đang mang thai, dưới 18 tuổi hoặc có bệnh lý, hãy hỏi bác sĩ hoặc chuyên gia dinh dưỡng trước khi thay đổi chế độ ăn."
+        ]
+      ]
+    },
+    "zh": {
+      "name": "减肥App",
+      "title": "减肥App：卡路里、体重记录与目标预测",
+      "meta": "记录饮食和体重的减肥App：根据目标生成每日卡路里目标，拍照记录餐食，拍照读取体重秤数值，并预测何时达成目标。",
+      "lead": "设定目标，几秒钟记录一餐，关注体重趋势：每日卡路里目标、体重曲线，以及达成目标的时间预测。",
+      "steps": [
+        "🎯 **设定目标**——减重、维持或增重——并获得每日卡路里目标。",
+        "📸 **记录餐食**：拍照、语音、文字或扫描条形码均可。",
+        "⚖️ **记录体重**：拍一下体重秤即可——并查看趋势和目标预测。"
+      ],
+      "benefits": [
+        "🎯 **根据你的目标生成每日卡路里目标**，圆环显示今天还剩多少。",
+        "📉 **看趋势，而非每日波动**——水分和盐分会让体重忽高忽低，曲线显示真正的走向。",
+        "🔮 **目标预测**——了解你何时可能达成第一步目标和最终目标。",
+        "🍱 **每道菜分开计算**——一张照片即可得到热量、蛋白质、脂肪和碳水化合物。",
+        "⚠️ **每道菜都标注过敏原和饮食类型**。"
+      ],
+      "faq": [
+        [
+          "怎样减重才安全？减重速度多快合适？",
+          "英国国民医疗服务体系（NHS）等健康机构建议每周减重约 0.5–1 公斤（1–2 磅）。每天减少约 500 千卡热量是常见且可持续的做法。可使用我们的免费减肥计算器估算达成目标需要多长时间。"
+        ],
+        [
+          "每餐都要称重吗？",
+          "不用。拍一张餐食照片就能较准确地估算菜品和分量；如果只吃了一部分，也可以调整分量。"
+        ],
+        [
+          "可以用来增重或维持体重吗？",
+          "可以。将目标选为减重、维持或增重，每日目标会相应调整。"
+        ],
+        [
+          "这是医疗建议吗？",
+          "不是。这只是一个记录工具。如果你正在怀孕、未满 18 岁或有健康问题，调整饮食前请咨询医生或营养师。"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Εφαρμογή για αδυνάτισμα",
+      "title": "Εφαρμογή για αδυνάτισμα: θερμίδες, βάρος και πρόβλεψη στόχου",
+      "meta": "Εφαρμογή για αδυνάτισμα που καταγράφει φαγητό και βάρος: ημερήσιος στόχος θερμίδων, γεύματα με φωτογραφία, ζυγαριά από φωτογραφία και πρόβλεψη στόχου.",
+      "lead": "Ορίστε στόχο, καταγράψτε τα γεύματά σας σε δευτερόλεπτα και δείτε την τάση: ημερήσιος στόχος θερμίδων, γράφημα βάρους και πρόβλεψη για το πότε θα φτάσετε.",
+      "steps": [
+        "🎯 **Ορίστε τον στόχο σας** — απώλεια, διατήρηση ή αύξηση βάρους — και λάβετε έναν ημερήσιο στόχο θερμίδων.",
+        "📸 **Καταγράψτε τα γεύματά σας** με φωτογραφία, φωνή, κείμενο ή σάρωση barcode.",
+        "⚖️ **Καταγράψτε το βάρος σας** φωτογραφίζοντας τη ζυγαριά — και παρακολουθήστε την τάση και την πρόβλεψη στόχου."
+      ],
+      "benefits": [
+        "🎯 **Ημερήσιος στόχος θερμίδων από τον στόχο σας**, με δακτύλιο που δείχνει τι απομένει σήμερα.",
+        "📉 **Η τάση, όχι οι καθημερινές διακυμάνσεις** — το νερό και το αλάτι κάνουν το βάρος να ανεβοκατεβαίνει· το γράφημα δείχνει πού πηγαίνει πραγματικά.",
+        "🔮 **Πρόβλεψη στόχου** — δείτε πότε είναι πιθανό να φτάσετε στο πρώτο βήμα και στον τελικό στόχο σας.",
+        "🍱 **Κάθε πιάτο μετριέται ξεχωριστά** — θερμίδες, πρωτεΐνη, λιπαρά και υδατάνθρακες από μία φωτογραφία.",
+        "⚠️ **Αλλεργιογόνα και δίαιτες** εμφανίζονται σε κάθε πιάτο."
+      ],
+      "faq": [
+        [
+          "Πόσο γρήγορα μπορώ να χάσω βάρος με ασφάλεια;",
+          "Οργανισμοί υγείας όπως το NHS προτείνουν περίπου 0,5–1 kg (1–2 lb) την εβδομάδα. Ένα ημερήσιο έλλειμμα περίπου 500 kcal είναι μια συνηθισμένη και βιώσιμη επιλογή. Χρησιμοποιήστε τον δωρεάν υπολογιστή απώλειας βάρους για να εκτιμήσετε πόσο θα διαρκέσει ο στόχος σας."
+        ],
+        [
+          "Πρέπει να ζυγίζω κάθε γεύμα;",
+          "Όχι. Μια φωτογραφία του γεύματος δίνει καλή εκτίμηση για το πιάτο και τη μερίδα, και μπορείτε να προσαρμόσετε τη μερίδα αν φάγατε μόνο ένα μέρος."
+        ],
+        [
+          "Μπορώ να την χρησιμοποιήσω για αύξηση ή διατήρηση βάρους;",
+          "Ναι. Επιλέξτε απώλεια, διατήρηση ή αύξηση ως στόχο και ο ημερήσιος στόχος αλλάζει ανάλογα."
+        ],
+        [
+          "Είναι ιατρική συμβουλή;",
+          "Όχι. Είναι εργαλείο καταγραφής. Αν είστε έγκυος, κάτω των 18 ή έχετε κάποιο ιατρικό πρόβλημα, μιλήστε με τον γιατρό ή τον διατροφολόγο σας πριν αλλάξετε διατροφή."
+        ]
+      ]
+    }
+  },
+  "food-diary-app": {
+    "en": {
+      "name": "Food diary app",
+      "title": "Food tracker app: a food diary that logs itself",
+      "meta": "A food tracker and diary that takes seconds: log meals with a photo, your voice, text or a barcode, and see calories, protein, fat and carbs for each dish and for the whole day.",
+      "lead": "Keep a food diary without the effort: snap, say or scan what you eat, and see calories and macros for each dish and the whole day.",
+      "steps": [
+        "📸 **Add a meal** — snap a photo, say it out loud, type it or scan a barcode.",
+        "🔍 **See what is in it** — each dish gets its own calories, protein, fat and carbs.",
+        "📅 **Check your day** — the totals show how your meals add up against your daily target."
+      ],
+      "benefits": [
+        "⚡ **Seconds per meal** — no searching through long lists of foods.",
+        "🍱 **Whole table in one photo** — each dish is counted separately.",
+        "🥗 **Calories, protein, fat and carbs**, plus vitamins, minerals, sugar and salt.",
+        "🎚️ **Adjust what you ate** — slide to half or a quarter, or remove a dish.",
+        "🌍 **Dishes from around the world** — recognised from a photo."
+      ],
+      "faq": [
+        [
+          "What is a food diary?",
+          "A food diary is a record of what you eat and drink. Seeing it written down helps you notice patterns and make changes that fit your goal."
+        ],
+        [
+          "Do I need to log everything?",
+          "Logging most meals is enough to see the picture. The more consistently you log, the more useful the totals are."
+        ],
+        [
+          "What is the fastest way to log?",
+          "A photo of your meal. You can also log by voice, by text, or by scanning the barcode of packaged food."
+        ],
+        [
+          "Does it show nutrients besides calories?",
+          "Yes. Each dish shows protein, fat and carbs, plus vitamins, minerals, sugar and salt."
+        ]
+      ]
+    },
+    "ar": {
+      "name": "تطبيق مذكرة الطعام",
+      "title": "تطبيق متتبع الطعام: مذكرة طعام تسجّل نفسها",
+      "meta": "متتبع طعام ومذكرة تأخذ ثوانٍ: سجّل وجباتك بصورة أو بصوتك أو بالنص أو بالباركود، واطّلع على السعرات والبروتين والدهون والكربوهيدرات لكل طبق ولليوم كله.",
+      "lead": "دوّن مذكرة طعامك دون عناء: صوّر ما تأكله أو انطق به أو امسحه، واطّلع على السعرات والعناصر الكبرى لكل طبق ولليوم كله.",
+      "steps": [
+        "📸 **أضف وجبة** — التقط صورة أو انطق بها أو اكتبها أو امسح الباركود.",
+        "🔍 **اعرف ما فيها** — لكل طبق سعراته وبروتينه ودهونه وكربوهيدراته.",
+        "📅 **راجع يومك** — تُظهر الإجماليات كيف تتراكم وجباتك مقارنةً بهدفك اليومي."
+      ],
+      "benefits": [
+        "⚡ **ثوانٍ لكل وجبة** — دون البحث في قوائم طويلة من الأطعمة.",
+        "🍱 **المائدة كلها في صورة واحدة** — كل طبق يُحسب على حدة.",
+        "🥗 **السعرات والبروتين والدهون والكربوهيدرات**، إضافةً إلى الفيتامينات والمعادن والسكر والملح.",
+        "🎚️ **عدّل ما أكلته** — اسحب إلى النصف أو الربع، أو احذف طبقًا.",
+        "🌍 **أطباق من أنحاء العالم** — يتم التعرف عليها من صورة."
+      ],
+      "faq": [
+        [
+          "ما هي مذكرة الطعام؟",
+          "مذكرة الطعام سجل لما تأكله وتشربه. رؤيته مكتوبًا تساعدك على ملاحظة الأنماط وإجراء تغييرات تناسب هدفك."
+        ],
+        [
+          "هل أحتاج إلى تسجيل كل شيء؟",
+          "يكفي تسجيل معظم الوجبات لتتضح الصورة. وكلما كان تسجيلك أكثر انتظامًا، زادت فائدة الإجماليات."
+        ],
+        [
+          "ما أسرع طريقة للتسجيل؟",
+          "صورة لوجبتك. ويمكنك أيضًا التسجيل بالصوت أو بالنص أو بمسح باركود الأطعمة المعبأة."
+        ],
+        [
+          "هل يعرض عناصر غذائية غير السعرات؟",
+          "نعم. يعرض كل طبق البروتين والدهون والكربوهيدرات، إضافةً إلى الفيتامينات والمعادن والسكر والملح."
+        ]
+      ]
+    },
+    "de": {
+      "name": "Ernährungstagebuch App",
+      "title": "Kalorien Tracker App: Ernährungstagebuch, das sich selbst führt",
+      "meta": "Kalorien Tracker und Ernährungstagebuch in Sekunden: Mahlzeiten per Foto, Sprache, Text oder Barcode erfassen und Kalorien, Eiweiß, Fett und Kohlenhydrate sehen.",
+      "lead": "Führe ein Ernährungstagebuch ohne Aufwand: Foto machen, sagen oder scannen, was du isst, und Kalorien und Makros für jedes Gericht und den ganzen Tag sehen.",
+      "steps": [
+        "📸 **Mahlzeit hinzufügen** – Foto machen, laut sagen, eintippen oder einen Barcode scannen.",
+        "🔍 **Sehen, was drinsteckt** – jedes Gericht bekommt eigene Werte für Kalorien, Eiweiß, Fett und Kohlenhydrate.",
+        "📅 **Den Tag prüfen** – die Summen zeigen, wie deine Mahlzeiten zu deinem Tagesziel passen."
+      ],
+      "benefits": [
+        "⚡ **Sekunden pro Mahlzeit** – kein Suchen in langen Lebensmittellisten.",
+        "🍱 **Der ganze Tisch auf einem Foto** – jedes Gericht wird einzeln gezählt.",
+        "🥗 **Kalorien, Eiweiß, Fett und Kohlenhydrate**, dazu Vitamine, Mineralstoffe, Zucker und Salz.",
+        "🎚️ **Anpassen, was du gegessen hast** – auf die Hälfte oder ein Viertel schieben oder ein Gericht entfernen.",
+        "🌍 **Gerichte aus aller Welt** – per Foto erkannt."
+      ],
+      "faq": [
+        [
+          "Was ist ein Ernährungstagebuch?",
+          "Ein Ernährungstagebuch hält fest, was du isst und trinkst. Schwarz auf weiß zu sehen hilft, Muster zu erkennen und Änderungen vorzunehmen, die zu deinem Ziel passen."
+        ],
+        [
+          "Muss ich alles erfassen?",
+          "Die meisten Mahlzeiten zu erfassen reicht, um ein klares Bild zu bekommen. Je regelmäßiger du erfasst, desto aussagekräftiger sind die Summen."
+        ],
+        [
+          "Was ist der schnellste Weg zum Erfassen?",
+          "Ein Foto deiner Mahlzeit. Du kannst auch per Sprache, per Text oder durch Scannen des Barcodes verpackter Lebensmittel erfassen."
+        ],
+        [
+          "Zeigt die App neben Kalorien auch andere Nährstoffe?",
+          "Ja. Jedes Gericht zeigt Eiweiß, Fett und Kohlenhydrate sowie Vitamine, Mineralstoffe, Zucker und Salz."
+        ]
+      ]
+    },
+    "es": {
+      "name": "App de diario de comidas",
+      "title": "Diario de comidas: app para contar calorías que se registra sola",
+      "meta": "Diario de comidas y app para contar calorías: registra con foto, voz, texto o escáner de comida y ve calorías y macros de cada plato y del día.",
+      "lead": "Lleva un diario de comidas sin esfuerzo: toma una foto, dilo o escanea lo que comes, y ve las calorías y macros de cada plato y de todo el día.",
+      "steps": [
+        "📸 **Agrega una comida** — toma una foto, dila en voz alta, escríbela o usa el escáner de comida con código de barras.",
+        "🔍 **Mira qué contiene** — cada plato tiene sus propias calorías, proteínas, grasas y carbohidratos.",
+        "📅 **Revisa tu día** — los totales muestran cómo se suman tus comidas frente a tu meta diaria."
+      ],
+      "benefits": [
+        "⚡ **Segundos por comida** — sin buscar en largas listas de alimentos.",
+        "🍱 **Toda la mesa en una foto** — cada plato se cuenta por separado.",
+        "🥗 **Calorías, proteínas, grasas y carbohidratos**, además de vitaminas, minerales, azúcar y sal.",
+        "🎚️ **Ajusta lo que comiste** — desliza a la mitad o a un cuarto, o quita un plato.",
+        "🌍 **Platos de todo el mundo** — reconocidos desde una foto."
+      ],
+      "faq": [
+        [
+          "¿Qué es un diario de comidas?",
+          "Un diario de comidas es un registro de lo que comes y bebes. Verlo por escrito te ayuda a notar patrones y a hacer cambios acordes con tu meta."
+        ],
+        [
+          "¿Necesito registrarlo todo?",
+          "Registrar la mayoría de las comidas basta para ver el panorama. Cuanto más constante seas, más útiles serán los totales."
+        ],
+        [
+          "¿Cuál es la forma más rápida de registrar?",
+          "Una foto de tu comida. También puedes registrar por voz, por texto o escaneando el código de barras de un alimento envasado."
+        ],
+        [
+          "¿Muestra otros nutrientes además de las calorías?",
+          "Sí. Cada plato muestra proteínas, grasas y carbohidratos, además de vitaminas, minerales, azúcar y sal."
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Application de journal alimentaire",
+      "title": "Application de suivi alimentaire : un journal qui se remplit seul",
+      "meta": "Suivi alimentaire en quelques secondes : repas en photo, voix, texte ou code-barres, avec calories, protéines, lipides et glucides par plat et par jour.",
+      "lead": "Tenez un journal alimentaire sans effort : photographiez, dites ou scannez ce que vous mangez, et voyez les calories et macros de chaque plat et de toute la journée.",
+      "steps": [
+        "📸 **Ajoutez un repas** — prenez une photo, dites-le à voix haute, tapez-le ou scannez un code-barres.",
+        "🔍 **Voyez ce qu'il contient** — chaque plat a ses propres calories, protéines, lipides et glucides.",
+        "📅 **Consultez votre journée** — les totaux montrent comment vos repas se situent par rapport à votre objectif quotidien."
+      ],
+      "benefits": [
+        "⚡ **Quelques secondes par repas** — pas besoin de parcourir de longues listes d'aliments.",
+        "🍱 **Toute la table en une photo** — chaque plat est compté séparément.",
+        "🥗 **Calories, protéines, lipides et glucides**, plus vitamines, minéraux, sucre et sel.",
+        "🎚️ **Ajustez ce que vous avez mangé** — glissez sur la moitié ou le quart, ou retirez un plat.",
+        "🌍 **Des plats du monde entier** — reconnus à partir d'une photo."
+      ],
+      "faq": [
+        [
+          "Qu'est-ce qu'un journal alimentaire ?",
+          "Un journal alimentaire est un relevé de ce que vous mangez et buvez. Le voir par écrit aide à repérer des habitudes et à faire des changements adaptés à votre objectif."
+        ],
+        [
+          "Dois-je tout enregistrer ?",
+          "Enregistrer la plupart des repas suffit pour avoir une vue d'ensemble. Plus vous enregistrez régulièrement, plus les totaux sont utiles."
+        ],
+        [
+          "Quelle est la façon la plus rapide d'enregistrer ?",
+          "Une photo de votre repas. Vous pouvez aussi enregistrer à la voix, par texte, ou en scannant le code-barres d'un produit emballé."
+        ],
+        [
+          "Affiche-t-il d'autres nutriments que les calories ?",
+          "Oui. Chaque plat indique protéines, lipides et glucides, plus vitamines, minéraux, sucre et sel."
+        ]
+      ]
+    },
+    "he": {
+      "name": "אפליקציית יומן אכילה",
+      "title": "אפליקציית מעקב אוכל: יומן אכילה שמתעד את עצמו",
+      "meta": "מעקב אוכל ויומן אכילה שלוקחים שניות: תעדו ארוחות בצילום, בקול, בטקסט או בברקוד, וראו קלוריות, חלבון, שומן ופחמימות לכל מנה ולכל היום.",
+      "lead": "נהלו יומן אכילה בלי מאמץ: צלמו, אמרו או סרקו את מה שאתם אוכלים, וראו קלוריות וערכים תזונתיים לכל מנה ולכל היום.",
+      "steps": [
+        "📸 **הוסיפו ארוחה** — צלמו, אמרו בקול, הקלידו או סרקו ברקוד.",
+        "🔍 **ראו מה יש בה** — לכל מנה קלוריות, חלבון, שומן ופחמימות משלה.",
+        "📅 **בדקו את היום שלכם** — הסיכומים מראים איך הארוחות מצטברות מול היעד היומי."
+      ],
+      "benefits": [
+        "⚡ **שניות לכל ארוחה** — בלי לחפש ברשימות ארוכות של מזונות.",
+        "🍱 **שולחן שלם בתמונה אחת** — כל מנה נספרת בנפרד.",
+        "🥗 **קלוריות, חלבון, שומן ופחמימות**, וגם ויטמינים, מינרלים, סוכר ומלח.",
+        "🎚️ **התאימו למה שאכלתם** — החליקו לחצי או לרבע, או הסירו מנה.",
+        "🌍 **מנות מכל העולם** — מזוהות מתמונה."
+      ],
+      "faq": [
+        [
+          "מהו יומן אכילה?",
+          "יומן אכילה הוא רישום של מה שאתם אוכלים ושותים. כשזה כתוב לפניכם, קל יותר לזהות דפוסים ולבצע שינויים שמתאימים למטרה שלכם."
+        ],
+        [
+          "צריך לתעד הכול?",
+          "תיעוד של רוב הארוחות מספיק כדי לראות את התמונה. ככל שתתעדו בעקביות, הסיכומים יהיו שימושיים יותר."
+        ],
+        [
+          "מהי הדרך המהירה ביותר לתעד?",
+          "תמונה של הארוחה. אפשר גם לתעד בקול, בטקסט או בסריקת הברקוד של מזון ארוז."
+        ],
+        [
+          "האם היא מציגה גם ערכים תזונתיים מלבד קלוריות?",
+          "כן. כל מנה מציגה חלבון, שומן ופחמימות, וגם ויטמינים, מינרלים, סוכר ומלח."
+        ]
+      ]
+    },
+    "hi": {
+      "name": "फ़ूड डायरी ऐप",
+      "title": "फ़ूड ट्रैकर ऐप: खुद लॉग होने वाली फ़ूड डायरी",
+      "meta": "फ़ूड ट्रैकर और डायरी जो सेकंडों में काम करती है: फ़ोटो, आवाज़, टेक्स्ट या बारकोड से भोजन लॉग करें, और हर व्यंजन व पूरे दिन के कैलोरी, प्रोटीन, फ़ैट और कार्ब्स देखें।",
+      "lead": "बिना मेहनत के फ़ूड डायरी रखें: जो खाएँ उसकी फ़ोटो लें, बोलें या स्कैन करें, और हर व्यंजन व पूरे दिन के कैलोरी और मैक्रो देखें।",
+      "steps": [
+        "📸 **भोजन जोड़ें** — फ़ोटो खींचें, बोलकर बताएँ, टाइप करें या बारकोड स्कैन करें।",
+        "🔍 **देखें उसमें क्या है** — हर व्यंजन के अपने कैलोरी, प्रोटीन, फ़ैट और कार्ब्स मिलते हैं।",
+        "📅 **अपना दिन देखें** — कुल योग दिखाता है कि आपके भोजन रोज़ के लक्ष्य के मुकाबले कैसे बैठते हैं।"
+      ],
+      "benefits": [
+        "⚡ **हर भोजन सेकंडों में** — खाने की लंबी सूचियों में खोजने की ज़रूरत नहीं।",
+        "🍱 **पूरी थाली एक फ़ोटो में** — हर व्यंजन अलग गिना जाता है।",
+        "🥗 **कैलोरी, प्रोटीन, फ़ैट और कार्ब्स**, साथ में विटामिन, खनिज, चीनी और नमक।",
+        "🎚️ **जो खाया उसे ठीक करें** — आधा या चौथाई करने के लिए स्लाइड करें, या कोई व्यंजन हटा दें।",
+        "🌍 **दुनिया भर के व्यंजन** — फ़ोटो से पहचाने जाते हैं।"
+      ],
+      "faq": [
+        [
+          "फ़ूड डायरी क्या होती है?",
+          "फ़ूड डायरी में आप जो खाते-पीते हैं उसका रिकॉर्ड रखा जाता है। लिखा हुआ देखने से आदतें समझ आती हैं और अपने लक्ष्य के अनुसार बदलाव करना आसान होता है।"
+        ],
+        [
+          "क्या सब कुछ लॉग करना ज़रूरी है?",
+          "ज़्यादातर भोजन लॉग करना तस्वीर समझने के लिए काफ़ी है। जितना नियमित लॉग करेंगे, कुल योग उतने ही काम के होंगे।"
+        ],
+        [
+          "लॉग करने का सबसे तेज़ तरीका क्या है?",
+          "भोजन की फ़ोटो। आप आवाज़ से, टेक्स्ट से, या पैकेट वाले खाने का बारकोड स्कैन करके भी लॉग कर सकते हैं।"
+        ],
+        [
+          "क्या कैलोरी के अलावा दूसरे पोषक तत्व भी दिखते हैं?",
+          "हाँ। हर व्यंजन में प्रोटीन, फ़ैट और कार्ब्स के साथ विटामिन, खनिज, चीनी और नमक भी दिखते हैं।"
+        ]
+      ]
+    },
+    "id": {
+      "name": "Aplikasi catatan makanan",
+      "title": "Aplikasi pelacak makanan: catatan makanan yang mengisi sendiri",
+      "meta": "Pelacak dan catatan makanan yang cepat: catat makanan dengan foto, suara, teks, atau barcode, dan lihat kalori, protein, lemak, serta karbohidrat tiap hidangan dan sepanjang hari.",
+      "lead": "Buat catatan makanan tanpa repot: foto, ucapkan, atau pindai apa yang Anda makan, dan lihat kalori serta makro tiap hidangan dan sepanjang hari.",
+      "steps": [
+        "📸 **Tambahkan makanan** — foto, ucapkan, ketik, atau pindai barcode.",
+        "🔍 **Lihat isinya** — setiap hidangan punya kalori, protein, lemak, dan karbohidrat sendiri.",
+        "📅 **Periksa hari Anda** — total menunjukkan bagaimana makanan Anda dibandingkan dengan target harian."
+      ],
+      "benefits": [
+        "⚡ **Hitungan detik per makanan** — tanpa mencari di daftar makanan yang panjang.",
+        "🍱 **Satu meja dalam satu foto** — setiap hidangan dihitung terpisah.",
+        "🥗 **Kalori, protein, lemak, dan karbohidrat**, plus vitamin, mineral, gula, dan garam.",
+        "🎚️ **Sesuaikan apa yang Anda makan** — geser ke setengah atau seperempat, atau hapus hidangan.",
+        "🌍 **Hidangan dari seluruh dunia** — dikenali dari foto."
+      ],
+      "faq": [
+        [
+          "Apa itu catatan makanan?",
+          "Catatan makanan adalah rekaman apa yang Anda makan dan minum. Melihatnya tertulis membantu Anda mengenali pola dan membuat perubahan yang sesuai dengan tujuan Anda."
+        ],
+        [
+          "Apakah saya perlu mencatat semuanya?",
+          "Mencatat sebagian besar makanan sudah cukup untuk melihat gambaran besarnya. Semakin konsisten Anda mencatat, semakin berguna totalnya."
+        ],
+        [
+          "Apa cara tercepat untuk mencatat?",
+          "Foto makanan Anda. Anda juga bisa mencatat dengan suara, teks, atau memindai barcode makanan kemasan."
+        ],
+        [
+          "Apakah menampilkan nutrisi selain kalori?",
+          "Ya. Setiap hidangan menampilkan protein, lemak, dan karbohidrat, plus vitamin, mineral, gula, dan garam."
+        ]
+      ]
+    },
+    "it": {
+      "name": "App diario alimentare",
+      "title": "Diario alimentare: food tracker che si compila da solo",
+      "meta": "Diario alimentare e food tracker veloce: registra i pasti con foto, voce, testo o codice a barre e vedi calorie e macro di ogni piatto e della giornata.",
+      "lead": "Tieni un diario alimentare senza fatica: scatta, parla o scansiona ciò che mangi e vedi calorie e macro di ogni piatto e dell'intera giornata.",
+      "steps": [
+        "📸 **Aggiungi un pasto** — scatta una foto, dillo a voce, scrivilo o scansiona un codice a barre.",
+        "🔍 **Scopri cosa contiene** — ogni piatto ha le sue calorie, proteine, grassi e carboidrati.",
+        "📅 **Controlla la tua giornata** — i totali mostrano come i pasti si sommano rispetto al tuo obiettivo giornaliero."
+      ],
+      "benefits": [
+        "⚡ **Pochi secondi a pasto** — niente ricerche in lunghi elenchi di alimenti.",
+        "🍱 **Tutta la tavola in una foto** — ogni piatto viene contato separatamente.",
+        "🥗 **Calorie, proteine, grassi e carboidrati**, più vitamine, minerali, zuccheri e sale.",
+        "🎚️ **Correggi ciò che hai mangiato** — scorri su metà o un quarto, oppure rimuovi un piatto.",
+        "🌍 **Piatti da tutto il mondo** — riconosciuti da una foto."
+      ],
+      "faq": [
+        [
+          "Che cos'è un diario alimentare?",
+          "Un diario alimentare è un registro di ciò che mangi e bevi. Vederlo scritto ti aiuta a notare le abitudini e a fare cambiamenti adatti al tuo obiettivo."
+        ],
+        [
+          "Devo registrare tutto?",
+          "Registrare la maggior parte dei pasti basta per avere un quadro chiaro. Più sei costante, più i totali sono utili."
+        ],
+        [
+          "Qual è il modo più veloce per registrare?",
+          "Una foto del pasto. Puoi anche registrare a voce, con il testo o scansionando il codice a barre dei prodotti confezionati."
+        ],
+        [
+          "Mostra anche altri nutrienti oltre alle calorie?",
+          "Sì. Ogni piatto mostra proteine, grassi e carboidrati, più vitamine, minerali, zuccheri e sale."
+        ]
+      ]
+    },
+    "ja": {
+      "name": "食事記録アプリ",
+      "title": "食事記録アプリ：自動で記録できるフードダイアリー",
+      "meta": "数秒で記録できる食事記録アプリ。写真、音声、テキスト、バーコードで食事を記録し、料理ごと・1日ごとのカロリー、たんぱく質、脂質、炭水化物を確認できます。",
+      "lead": "手間をかけずに食事を記録。撮る、話す、スキャンするだけで、料理ごと・1日ごとのカロリーと栄養素がわかります。",
+      "steps": [
+        "📸 **食事を追加** — 写真を撮る、声で伝える、入力する、バーコードをスキャンする。",
+        "🔍 **中身を確認** — 料理ごとにカロリー、たんぱく質、脂質、炭水化物がわかります。",
+        "📅 **1日をチェック** — 合計で、食事が1日の目標に対してどうなっているかを確認できます。"
+      ],
+      "benefits": [
+        "⚡ **1食あたり数秒** — 長い食品リストから探す必要はありません。",
+        "🍱 **テーブル全体を1枚の写真で** — 料理ごとに個別に計算します。",
+        "🥗 **カロリー、たんぱく質、脂質、炭水化物** に加え、ビタミン、ミネラル、糖質、塩分も。",
+        "🎚️ **食べた量を調整** — 半分や4分の1にスライドしたり、料理を削除したりできます。",
+        "🌍 **世界各国の料理** — 写真から認識します。"
+      ],
+      "faq": [
+        [
+          "フードダイアリー（食事日記）とは何ですか？",
+          "食べたものや飲んだものの記録です。書き出して見ることで、パターンに気づき、目標に合わせた改善ができます。"
+        ],
+        [
+          "すべて記録する必要がありますか？",
+          "ほとんどの食事を記録すれば全体像はつかめます。こまめに記録するほど、合計値が役立ちます。"
+        ],
+        [
+          "いちばん早い記録方法は？",
+          "食事の写真です。音声、テキスト、市販食品のバーコードスキャンでも記録できます。"
+        ],
+        [
+          "カロリー以外の栄養素もわかりますか？",
+          "はい。料理ごとにたんぱく質、脂質、炭水化物に加え、ビタミン、ミネラル、糖質、塩分も表示します。"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "식단 기록 앱",
+      "title": "식단 기록 앱: 알아서 기록되는 푸드 다이어리",
+      "meta": "몇 초면 끝나는 식단 기록 앱: 사진, 음성, 텍스트, 바코드로 식사를 기록하고 음식별, 하루 전체의 칼로리와 단백질, 지방, 탄수화물을 확인하세요.",
+      "lead": "힘들이지 않고 식단을 기록하세요. 찍고, 말하고, 스캔하면 음식별, 하루 전체의 칼로리와 영양소를 볼 수 있습니다.",
+      "steps": [
+        "📸 **식사 추가** — 사진을 찍거나, 말하거나, 입력하거나, 바코드를 스캔하세요.",
+        "🔍 **구성 확인** — 음식마다 칼로리, 단백질, 지방, 탄수화물이 따로 표시됩니다.",
+        "📅 **하루 점검** — 합계를 보면 식사가 하루 목표에 비해 어떤지 알 수 있습니다."
+      ],
+      "benefits": [
+        "⚡ **한 끼에 몇 초** — 긴 음식 목록을 뒤질 필요가 없습니다.",
+        "🍱 **한 상 전체를 사진 한 장으로** — 음식마다 따로 계산합니다.",
+        "🥗 **칼로리, 단백질, 지방, 탄수화물**은 물론 비타민, 미네랄, 당, 나트륨까지.",
+        "🎚️ **먹은 양 조절** — 절반이나 4분의 1로 조정하거나 음식을 삭제할 수 있습니다.",
+        "🌍 **세계 각국의 음식** — 사진으로 인식합니다."
+      ],
+      "faq": [
+        [
+          "식단 기록이란 무엇인가요?",
+          "먹고 마신 것을 적어 두는 기록입니다. 글로 남겨 보면 식습관의 패턴이 보이고, 목표에 맞게 바꾸는 데 도움이 됩니다."
+        ],
+        [
+          "모든 걸 다 기록해야 하나요?",
+          "대부분의 식사만 기록해도 전체 그림을 볼 수 있습니다. 꾸준히 기록할수록 합계가 더 유용해집니다."
+        ],
+        [
+          "가장 빠른 기록 방법은 무엇인가요?",
+          "식사 사진을 찍는 것입니다. 음성, 텍스트, 포장 식품의 바코드 스캔으로도 기록할 수 있습니다."
+        ],
+        [
+          "칼로리 외의 영양소도 보여주나요?",
+          "네. 음식마다 단백질, 지방, 탄수화물과 함께 비타민, 미네랄, 당, 나트륨이 표시됩니다."
+        ]
+      ]
+    },
+    "nl": {
+      "name": "Eetdagboek app",
+      "title": "Eetdagboek app: een voedingsdagboek dat zichzelf bijhoudt",
+      "meta": "Een voedingstracker en eetdagboek dat maar seconden kost: log maaltijden met een foto, je stem, tekst of een barcode en zie calorieën, eiwit, vet en koolhydraten per gerecht en voor de hele dag.",
+      "lead": "Houd moeiteloos een eetdagboek bij: maak een foto, spreek in of scan wat je eet en zie calorieën en macro's per gerecht en voor de hele dag.",
+      "steps": [
+        "📸 **Voeg een maaltijd toe** — maak een foto, spreek het in, typ het of scan een barcode.",
+        "🔍 **Zie wat erin zit** — elk gerecht krijgt zijn eigen calorieën, eiwit, vet en koolhydraten.",
+        "📅 **Bekijk je dag** — de totalen laten zien hoe je maaltijden zich verhouden tot je dagelijkse doel."
+      ],
+      "benefits": [
+        "⚡ **Seconden per maaltijd** — geen gezoek in lange lijsten met voedingsmiddelen.",
+        "🍱 **De hele tafel in één foto** — elk gerecht wordt apart geteld.",
+        "🥗 **Calorieën, eiwit, vet en koolhydraten**, plus vitamines, mineralen, suiker en zout.",
+        "🎚️ **Pas aan wat je at** — schuif naar de helft of een kwart, of verwijder een gerecht.",
+        "🌍 **Gerechten van over de hele wereld** — herkend vanaf een foto."
+      ],
+      "faq": [
+        [
+          "Wat is een eetdagboek?",
+          "Een eetdagboek is een overzicht van wat je eet en drinkt. Als je het opgeschreven ziet, merk je patronen op en kun je veranderingen doorvoeren die bij je doel passen."
+        ],
+        [
+          "Moet ik alles loggen?",
+          "De meeste maaltijden loggen is genoeg om een beeld te krijgen. Hoe consequenter je logt, hoe nuttiger de totalen zijn."
+        ],
+        [
+          "Wat is de snelste manier om te loggen?",
+          "Een foto van je maaltijd. Je kunt ook loggen met je stem, met tekst of door de barcode van verpakt eten te scannen."
+        ],
+        [
+          "Laat het ook andere voedingsstoffen dan calorieën zien?",
+          "Ja. Elk gerecht toont eiwit, vet en koolhydraten, plus vitamines, mineralen, suiker en zout."
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Dziennik żywieniowy",
+      "title": "Aplikacja do liczenia kalorii: dziennik żywieniowy sam się prowadzi",
+      "meta": "Dziennik żywieniowy i licznik kalorii, który zajmuje sekundy: dodawaj posiłki ze zdjęcia, głosem, tekstem lub kodem kreskowym i zobacz kalorie, białko, tłuszcz i węglowodany każdego dania oraz całego dnia.",
+      "lead": "Prowadź dziennik żywieniowy bez wysiłku: zrób zdjęcie, powiedz lub zeskanuj, co jesz, i zobacz kalorie i makroskładniki każdego dania oraz całego dnia.",
+      "steps": [
+        "📸 **Dodaj posiłek** — zrób zdjęcie, powiedz go na głos, wpisz lub zeskanuj kod kreskowy.",
+        "🔍 **Zobacz, co zawiera** — każde danie ma własne kalorie, białko, tłuszcz i węglowodany.",
+        "📅 **Sprawdź swój dzień** — podsumowanie pokazuje, jak posiłki mają się do dziennego celu."
+      ],
+      "benefits": [
+        "⚡ **Sekundy na posiłek** — bez przeszukiwania długich list produktów.",
+        "🍱 **Cały stół na jednym zdjęciu** — każde danie liczone osobno.",
+        "🥗 **Kalorie, białko, tłuszcz i węglowodany**, a także witaminy, minerały, cukier i sól.",
+        "🎚️ **Dostosuj, ile zjadłeś** — przesuń do połowy lub ćwiartki albo usuń danie.",
+        "🌍 **Dania z całego świata** — rozpoznawane ze zdjęcia."
+      ],
+      "faq": [
+        [
+          "Czym jest dziennik żywieniowy?",
+          "Dziennik żywieniowy to zapis tego, co jesz i pijesz. Zobaczenie tego na papierze pomaga dostrzec nawyki i wprowadzić zmiany zgodne z twoim celem."
+        ],
+        [
+          "Czy muszę zapisywać wszystko?",
+          "Zapisywanie większości posiłków wystarczy, by zobaczyć pełen obraz. Im regularniej zapisujesz, tym bardziej przydatne są podsumowania."
+        ],
+        [
+          "Jaki jest najszybszy sposób zapisywania?",
+          "Zdjęcie posiłku. Możesz też zapisywać głosem, tekstem lub skanując kod kreskowy paczkowanej żywności."
+        ],
+        [
+          "Czy pokazuje też inne składniki niż kalorie?",
+          "Tak. Każde danie pokazuje białko, tłuszcz i węglowodany, a także witaminy, minerały, cukier i sól."
+        ]
+      ]
+    },
+    "pt": {
+      "name": "App de diário alimentar",
+      "title": "App de diário alimentar: um diário que se preenche sozinho",
+      "meta": "Um diário alimentar rápido: registe refeições com uma foto, a voz, texto ou código de barras e veja calorias, proteínas, gorduras e carboidratos de cada prato e do dia todo.",
+      "lead": "Mantenha um diário alimentar sem esforço: fotografe, diga ou digitalize o que come e veja calorias e macros de cada prato e do dia todo.",
+      "steps": [
+        "📸 **Adicione uma refeição** — tire uma foto, diga em voz alta, escreva ou leia um código de barras.",
+        "🔍 **Veja o que ela contém** — cada prato recebe as suas próprias calorias, proteínas, gorduras e carboidratos.",
+        "📅 **Confira o seu dia** — os totais mostram como as refeições se somam em relação à sua meta diária."
+      ],
+      "benefits": [
+        "⚡ **Segundos por refeição** — sem procurar em longas listas de alimentos.",
+        "🍱 **A mesa inteira numa só foto** — cada prato é contado separadamente.",
+        "🥗 **Calorias, proteínas, gorduras e carboidratos**, além de vitaminas, minerais, açúcar e sal.",
+        "🎚️ **Ajuste o que comeu** — deslize para metade ou um quarto, ou remova um prato.",
+        "🌍 **Pratos de todo o mundo** — reconhecidos a partir de uma foto."
+      ],
+      "faq": [
+        [
+          "O que é um diário alimentar?",
+          "Um diário alimentar é um registo do que você come e bebe. Vê-lo por escrito ajuda a notar padrões e a fazer mudanças que se ajustem ao seu objetivo."
+        ],
+        [
+          "Preciso registar tudo?",
+          "Registar a maioria das refeições basta para ter uma boa visão. Quanto mais regular for o registo, mais úteis são os totais."
+        ],
+        [
+          "Qual é a forma mais rápida de registar?",
+          "Uma foto da refeição. Também pode registar por voz, por texto ou lendo o código de barras de alimentos embalados."
+        ],
+        [
+          "Mostra outros nutrientes além das calorias?",
+          "Sim. Cada prato mostra proteínas, gorduras e carboidratos, além de vitaminas, minerais, açúcar e sal."
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Дневник питания",
+      "title": "Дневник питания: приложение, которое ведёт записи само",
+      "meta": "Дневник питания и счётчик калорий, которым пользоваться — секунды: записывайте еду по фото, голосом, текстом или штрихкодом и смотрите калории, белки, жиры и углеводы по каждому блюду и за день.",
+      "lead": "Ведите дневник питания без усилий: сфотографируйте, назовите или отсканируйте еду и смотрите калории и БЖУ по каждому блюду и за весь день.",
+      "steps": [
+        "📸 **Добавьте приём пищи** — сфотографируйте, скажите вслух, напишите или отсканируйте штрихкод.",
+        "🔍 **Узнайте, что в нём** — для каждого блюда считаются калории, белки, жиры и углеводы.",
+        "📅 **Проверьте свой день** — итоги показывают, как еда складывается относительно дневной нормы."
+      ],
+      "benefits": [
+        "⚡ **Секунды на приём пищи** — не нужно искать по длинным спискам продуктов.",
+        "🍱 **Весь стол на одном фото** — каждое блюдо считается отдельно.",
+        "🥗 **Калории, белки, жиры и углеводы**, а также витамины, минералы, сахар и соль.",
+        "🎚️ **Поправьте, сколько вы съели** — сдвиньте до половины или четверти либо уберите блюдо.",
+        "🌍 **Блюда со всего мира** — распознаются по фото."
+      ],
+      "faq": [
+        [
+          "Что такое дневник питания?",
+          "Дневник питания — это запись того, что вы едите и пьёте. Когда всё записано, проще заметить закономерности и внести изменения, которые подходят вашей цели."
+        ],
+        [
+          "Нужно ли записывать всё?",
+          "Чтобы увидеть общую картину, достаточно записывать большую часть приёмов пищи. Чем регулярнее записи, тем полезнее итоги."
+        ],
+        [
+          "Как записывать быстрее всего?",
+          "По фото блюда. Ещё можно записывать голосом, текстом или сканировать штрихкод упакованных продуктов."
+        ],
+        [
+          "Показывает ли он не только калории?",
+          "Да. Для каждого блюда видны белки, жиры и углеводы, а также витамины, минералы, сахар и соль."
+        ]
+      ]
+    },
+    "sv": {
+      "name": "Matdagbok-app",
+      "title": "Matdagbok-app: en kaloriräknare som loggar själv",
+      "meta": "En matdagbok och kaloriräknare som går på sekunder: logga måltider med foto, röst, text eller streckkod och se kalorier, protein, fett och kolhydrater för varje rätt och för hela dagen.",
+      "lead": "För matdagbok utan besvär: fota, säg eller skanna det du äter och se kalorier och makron för varje rätt och hela dagen.",
+      "steps": [
+        "📸 **Lägg till en måltid** — ta ett foto, säg det högt, skriv det eller skanna en streckkod.",
+        "🔍 **Se vad den innehåller** — varje rätt får egna kalorier, protein, fett och kolhydrater.",
+        "📅 **Kolla din dag** — summorna visar hur måltiderna förhåller sig till ditt dagliga mål."
+      ],
+      "benefits": [
+        "⚡ **Sekunder per måltid** — inget letande i långa livsmedelslistor.",
+        "🍱 **Hela bordet i ett foto** — varje rätt räknas för sig.",
+        "🥗 **Kalorier, protein, fett och kolhydrater**, plus vitaminer, mineraler, socker och salt.",
+        "🎚️ **Justera det du åt** — dra till hälften eller en fjärdedel, eller ta bort en rätt.",
+        "🌍 **Rätter från hela världen** — igenkända från ett foto."
+      ],
+      "faq": [
+        [
+          "Vad är en matdagbok?",
+          "En matdagbok är en anteckning över vad du äter och dricker. Att se det nedskrivet hjälper dig att upptäcka mönster och göra förändringar som passar ditt mål."
+        ],
+        [
+          "Måste jag logga allt?",
+          "Att logga de flesta måltider räcker för att få en bild. Ju mer regelbundet du loggar, desto mer användbara blir summorna."
+        ],
+        [
+          "Vad är det snabbaste sättet att logga?",
+          "Ett foto av måltiden. Du kan också logga med röst, text eller genom att skanna streckkoden på förpackad mat."
+        ],
+        [
+          "Visar den näringsämnen förutom kalorier?",
+          "Ja. Varje rätt visar protein, fett och kolhydrater, plus vitaminer, mineraler, socker och salt."
+        ]
+      ]
+    },
+    "th": {
+      "name": "แอปบันทึกอาหาร",
+      "title": "แอปบันทึกอาหาร: ไดอารี่อาหารที่บันทึกให้เอง",
+      "meta": "แอปบันทึกอาหารที่ใช้เวลาเพียงไม่กี่วินาที: บันทึกมื้ออาหารด้วยรูปถ่าย เสียง ข้อความ หรือบาร์โค้ด แล้วดูแคลอรี่ โปรตีน ไขมัน และคาร์บของแต่ละจานและของทั้งวัน",
+      "lead": "จดบันทึกอาหารโดยไม่ต้องเหนื่อย: ถ่าย พูด หรือสแกนสิ่งที่กิน แล้วดูแคลอรี่และสารอาหารหลักของแต่ละจานและของทั้งวัน",
+      "steps": [
+        "📸 **เพิ่มมื้ออาหาร** — ถ่ายรูป พูดออกเสียง พิมพ์ หรือสแกนบาร์โค้ด",
+        "🔍 **ดูว่ามีอะไรบ้าง** — แต่ละจานมีแคลอรี่ โปรตีน ไขมัน และคาร์บของตัวเอง",
+        "📅 **ตรวจดูวันของคุณ** — ยอดรวมแสดงว่ามื้ออาหารของคุณรวมกันเทียบกับเป้าหมายต่อวันแล้วเป็นอย่างไร"
+      ],
+      "benefits": [
+        "⚡ **ไม่กี่วินาทีต่อมื้อ** — ไม่ต้องค้นหาในรายการอาหารยาว ๆ",
+        "🍱 **ทั้งโต๊ะในรูปเดียว** — นับแต่ละจานแยกกัน",
+        "🥗 **แคลอรี่ โปรตีน ไขมัน และคาร์บ** รวมถึงวิตามิน แร่ธาตุ น้ำตาล และเกลือ",
+        "🎚️ **ปรับสิ่งที่กินไป** — เลื่อนเป็นครึ่งหนึ่งหรือหนึ่งในสี่ หรือลบจานออก",
+        "🌍 **อาหารจากทั่วโลก** — จดจำได้จากรูปถ่าย"
+      ],
+      "faq": [
+        [
+          "ไดอารี่อาหารคืออะไร?",
+          "ไดอารี่อาหารคือบันทึกสิ่งที่คุณกินและดื่ม การเห็นสิ่งที่จดไว้ช่วยให้คุณสังเกตรูปแบบและปรับเปลี่ยนให้เข้ากับเป้าหมาย"
+        ],
+        [
+          "ต้องบันทึกทุกอย่างไหม?",
+          "บันทึกส่วนใหญ่ของมื้ออาหารก็พอจะเห็นภาพรวม ยิ่งบันทึกสม่ำเสมอ ยอดรวมก็ยิ่งมีประโยชน์"
+        ],
+        [
+          "บันทึกวิธีไหนเร็วที่สุด?",
+          "ถ่ายรูปมื้ออาหาร หรือบันทึกด้วยเสียง ข้อความ หรือสแกนบาร์โค้ดของอาหารบรรจุหีบห่อ"
+        ],
+        [
+          "แสดงสารอาหารอื่นนอกจากแคลอรี่ไหม?",
+          "แสดง แต่ละจานแสดงโปรตีน ไขมัน และคาร์บ รวมถึงวิตามิน แร่ธาตุ น้ำตาล และเกลือ"
+        ]
+      ]
+    },
+    "tr": {
+      "name": "Yemek günlüğü uygulaması",
+      "title": "Yemek takip uygulaması: kendi kendine kaydedilen yemek günlüğü",
+      "meta": "Saniyeler süren yemek takibi ve günlüğü: öğünleri fotoğraf, ses, yazı veya barkodla kaydedin; her yemek ve tüm gün için kalori, protein, yağ ve karbonhidratı görün.",
+      "lead": "Zahmetsiz yemek günlüğü tutun: yediğinizi çekin, söyleyin veya taratın; her yemek ve tüm gün için kalori ve makroları görün.",
+      "steps": [
+        "📸 **Öğün ekleyin** — fotoğraf çekin, sesli söyleyin, yazın veya barkod taratın.",
+        "🔍 **İçinde ne olduğunu görün** — her yemeğin kendi kalorisi, proteini, yağı ve karbonhidratı olur.",
+        "📅 **Gününüzü kontrol edin** — toplamlar, öğünlerinizin günlük hedefinize göre nasıl durduğunu gösterir."
+      ],
+      "benefits": [
+        "⚡ **Öğün başına saniyeler** — uzun yiyecek listelerinde arama yapmak yok.",
+        "🍱 **Tüm sofra tek fotoğrafta** — her yemek ayrı hesaplanır.",
+        "🥗 **Kalori, protein, yağ ve karbonhidrat**; ayrıca vitaminler, mineraller, şeker ve tuz.",
+        "🎚️ **Yediğinizi ayarlayın** — yarıma veya çeyreğe kaydırın ya da bir yemeği kaldırın.",
+        "🌍 **Dünyanın dört bir yanından yemekler** — fotoğraftan tanınır."
+      ],
+      "faq": [
+        [
+          "Yemek günlüğü nedir?",
+          "Yemek günlüğü, ne yediğinizin ve içtiğinizin kaydıdır. Bunu yazılı görmek, alışkanlıklarınızı fark etmenize ve hedefinize uygun değişiklikler yapmanıza yardımcı olur."
+        ],
+        [
+          "Her şeyi kaydetmem gerekiyor mu?",
+          "Çoğu öğünü kaydetmek genel tabloyu görmek için yeterlidir. Ne kadar düzenli kaydederseniz toplamlar o kadar işe yarar."
+        ],
+        [
+          "Kaydetmenin en hızlı yolu nedir?",
+          "Öğününüzün fotoğrafı. Sesle, yazıyla veya paketli gıdanın barkodunu tarayarak da kaydedebilirsiniz."
+        ],
+        [
+          "Kalori dışındaki besin öğelerini de gösteriyor mu?",
+          "Evet. Her yemekte protein, yağ ve karbonhidrat ile birlikte vitaminler, mineraller, şeker ve tuz gösterilir."
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Щоденник харчування",
+      "title": "Щоденник харчування: застосунок, що веде облік сам",
+      "meta": "Щоденник харчування та трекер їжі за секунди: записуйте їжу за фото, голосом, текстом чи штрихкодом і бачте калорії, білки, жири та вуглеводи для кожної страви й усього дня.",
+      "lead": "Ведіть щоденник харчування без зусиль: сфотографуйте, скажіть або відскануйте, що ви їсте, і бачте калорії та макроси для кожної страви й усього дня.",
+      "steps": [
+        "📸 **Додайте прийом їжі** — сфотографуйте, скажіть уголос, введіть текстом або відскануйте штрихкод.",
+        "🔍 **Дізнайтеся, що всередині** — кожна страва має власні калорії, білки, жири та вуглеводи.",
+        "📅 **Перегляньте свій день** — підсумки показують, як прийоми їжі складаються порівняно з денною нормою."
+      ],
+      "benefits": [
+        "⚡ **Секунди на прийом їжі** — без пошуку в довгих списках продуктів.",
+        "🍱 **Увесь стіл на одному фото** — кожна страва рахується окремо.",
+        "🥗 **Калорії, білки, жири та вуглеводи**, а також вітаміни, мінерали, цукор і сіль.",
+        "🎚️ **Коригуйте з'їдене** — посуньте повзунок до половини чи чверті або приберіть страву.",
+        "🌍 **Страви з усього світу** — розпізнаються за фото."
+      ],
+      "faq": [
+        [
+          "Що таке щоденник харчування?",
+          "Щоденник харчування — це запис того, що ви їсте й п'єте. Побачивши все на письмі, легше помітити закономірності та внести зміни відповідно до мети."
+        ],
+        [
+          "Чи потрібно записувати все?",
+          "Щоб побачити картину, достатньо записувати більшість прийомів їжі. Чим послідовніше ви записуєте, тим кориснішими будуть підсумки."
+        ],
+        [
+          "Який найшвидший спосіб записувати?",
+          "Фото страви. Також можна записувати голосом, текстом або скануючи штрихкод упакованих продуктів."
+        ],
+        [
+          "Чи показує він нутрієнти, крім калорій?",
+          "Так. Кожна страва показує білки, жири та вуглеводи, а також вітаміни, мінерали, цукор і сіль."
+        ]
+      ]
+    },
+    "vi": {
+      "name": "Ứng dụng nhật ký ăn uống",
+      "title": "Ứng dụng theo dõi ăn uống: nhật ký ăn uống tự ghi",
+      "meta": "Theo dõi ăn uống chỉ mất vài giây: ghi bữa ăn bằng ảnh, giọng nói, văn bản hoặc mã vạch, xem calo, protein, chất béo, carb của từng món và cả ngày.",
+      "lead": "Ghi nhật ký ăn uống không tốn sức: chụp, nói hoặc quét món bạn ăn, và xem calo cùng các chất dinh dưỡng của từng món và cả ngày.",
+      "steps": [
+        "📸 **Thêm bữa ăn** — chụp ảnh, nói thành lời, gõ chữ hoặc quét mã vạch.",
+        "🔍 **Xem bên trong có gì** — mỗi món có calo, protein, chất béo và carb riêng.",
+        "📅 **Xem lại ngày của bạn** — tổng số cho thấy các bữa ăn so với mục tiêu hằng ngày ra sao."
+      ],
+      "benefits": [
+        "⚡ **Vài giây cho mỗi bữa** — không phải tìm trong danh sách thực phẩm dài.",
+        "🍱 **Cả bàn ăn trong một ảnh** — mỗi món được tính riêng.",
+        "🥗 **Calo, protein, chất béo và carb**, cùng vitamin, khoáng chất, đường và muối.",
+        "🎚️ **Điều chỉnh phần đã ăn** — kéo về một nửa hoặc một phần tư, hoặc bỏ một món.",
+        "🌍 **Món ăn từ khắp thế giới** — nhận diện từ ảnh."
+      ],
+      "faq": [
+        [
+          "Nhật ký ăn uống là gì?",
+          "Nhật ký ăn uống là bản ghi những gì bạn ăn và uống. Khi nhìn thấy mọi thứ được ghi lại, bạn dễ nhận ra thói quen và thay đổi cho phù hợp với mục tiêu."
+        ],
+        [
+          "Tôi có cần ghi tất cả không?",
+          "Ghi phần lớn các bữa ăn là đủ để thấy bức tranh chung. Bạn ghi càng đều đặn, tổng số càng hữu ích."
+        ],
+        [
+          "Cách ghi nhanh nhất là gì?",
+          "Chụp ảnh bữa ăn. Bạn cũng có thể ghi bằng giọng nói, văn bản, hoặc quét mã vạch của thực phẩm đóng gói."
+        ],
+        [
+          "Ngoài calo, ứng dụng có hiển thị chất dinh dưỡng khác không?",
+          "Có. Mỗi món hiển thị protein, chất béo và carb, cùng vitamin, khoáng chất, đường và muối."
+        ]
+      ]
+    },
+    "zh": {
+      "name": "饮食日记App",
+      "title": "饮食记录App：自动记录的饮食日记",
+      "meta": "几秒钟就能完成的饮食记录和日记：拍照、语音、文字或条形码记录餐食，查看每道菜和全天的热量、蛋白质、脂肪和碳水化合物。",
+      "lead": "轻松写饮食日记：拍一拍、说一说或扫一扫，就能看到每道菜和全天的热量与营养素。",
+      "steps": [
+        "📸 **添加餐食**——拍照、语音、输入或扫描条形码。",
+        "🔍 **了解里面有什么**——每道菜都有各自的热量、蛋白质、脂肪和碳水化合物。",
+        "📅 **查看全天**——汇总数据显示你的各餐加起来与每日目标相比如何。"
+      ],
+      "benefits": [
+        "⚡ **每餐只需几秒**——无需在冗长的食物列表中搜索。",
+        "🍱 **一张照片拍下整桌菜**——每道菜分开计算。",
+        "🥗 **热量、蛋白质、脂肪和碳水化合物**，以及维生素、矿物质、糖和盐。",
+        "🎚️ **调整你实际吃的量**——滑动到一半或四分之一，或删除某道菜。",
+        "🌍 **世界各地的菜肴**——拍照即可识别。"
+      ],
+      "faq": [
+        [
+          "什么是饮食日记？",
+          "饮食日记是对你吃和喝的东西的记录。把它写下来，有助于发现饮食规律，并做出符合目标的调整。"
+        ],
+        [
+          "需要记录每一样东西吗？",
+          "记录大部分餐食就足以了解整体情况。记录得越持续，汇总数据就越有用。"
+        ],
+        [
+          "最快的记录方式是什么？",
+          "拍一张餐食照片。你也可以用语音、文字，或扫描包装食品的条形码来记录。"
+        ],
+        [
+          "除了热量，还会显示其他营养素吗？",
+          "会。每道菜都会显示蛋白质、脂肪和碳水化合物，以及维生素、矿物质、糖和盐。"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Ημερολόγιο διατροφής",
+      "title": "Ημερολόγιο διατροφής και θερμιδομετρητής που γράφεται μόνο του",
+      "meta": "Ημερολόγιο διατροφής και θερμιδομετρητής: καταγραφή γευμάτων με φωτογραφία, φωνή, κείμενο ή barcode, με θερμίδες και macros ανά πιάτο και ανά ημέρα.",
+      "lead": "Κρατήστε ημερολόγιο διατροφής χωρίς κόπο: φωτογραφίστε, πείτε ή σαρώστε ό,τι τρώτε και δείτε θερμίδες και macros για κάθε πιάτο και για όλη την ημέρα.",
+      "steps": [
+        "📸 **Προσθέστε ένα γεύμα** — τραβήξτε φωτογραφία, πείτε το φωναχτά, πληκτρολογήστε το ή σαρώστε ένα barcode.",
+        "🔍 **Δείτε τι περιέχει** — κάθε πιάτο παίρνει τις δικές του θερμίδες, πρωτεΐνη, λιπαρά και υδατάνθρακες.",
+        "📅 **Ελέγξτε την ημέρα σας** — τα σύνολα δείχνουν πώς αθροίζονται τα γεύματά σας σε σχέση με τον ημερήσιο στόχο."
+      ],
+      "benefits": [
+        "⚡ **Δευτερόλεπτα ανά γεύμα** — χωρίς αναζήτηση σε μεγάλες λίστες τροφίμων.",
+        "🍱 **Ολόκληρο τραπέζι σε μία φωτογραφία** — κάθε πιάτο μετριέται ξεχωριστά.",
+        "🥗 **Θερμίδες, πρωτεΐνη, λιπαρά και υδατάνθρακες**, καθώς και βιταμίνες, μέταλλα, ζάχαρη και αλάτι.",
+        "🎚️ **Προσαρμόστε ό,τι φάγατε** — σύρετε στο μισό ή στο ένα τέταρτο, ή αφαιρέστε ένα πιάτο.",
+        "🌍 **Πιάτα από όλο τον κόσμο** — αναγνωρίζονται από φωτογραφία."
+      ],
+      "faq": [
+        [
+          "Τι είναι το ημερολόγιο διατροφής;",
+          "Το ημερολόγιο διατροφής είναι μια καταγραφή όσων τρώτε και πίνετε. Όταν τα βλέπετε γραμμένα, εντοπίζετε πιο εύκολα συνήθειες και κάνετε αλλαγές που ταιριάζουν στον στόχο σας."
+        ],
+        [
+          "Πρέπει να καταγράφω τα πάντα;",
+          "Η καταγραφή των περισσότερων γευμάτων αρκεί για να δείτε την εικόνα. Όσο πιο συνεπής είστε, τόσο πιο χρήσιμα είναι τα σύνολα."
+        ],
+        [
+          "Ποιος είναι ο πιο γρήγορος τρόπος καταγραφής;",
+          "Μια φωτογραφία του γεύματος. Μπορείτε επίσης να καταγράφετε με φωνή, με κείμενο ή σαρώνοντας το barcode συσκευασμένων τροφίμων."
+        ],
+        [
+          "Δείχνει θρεπτικά συστατικά εκτός από θερμίδες;",
+          "Ναι. Κάθε πιάτο δείχνει πρωτεΐνη, λιπαρά και υδατάνθρακες, καθώς και βιταμίνες, μέταλλα, ζάχαρη και αλάτι."
         ]
       ]
     }

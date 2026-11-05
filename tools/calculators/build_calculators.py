@@ -61,6 +61,8 @@ def form(slug, U, T):
               f'data-ph-m="{esc(U["kg"])}" data-ph-i="{esc(U["lb"])}" placeholder="{esc(U["kg"])}"></div>')
         weight = weight.replace(f'<label>{esc(U["weight"])}</label>', f'<label>{esc(F["current"])}</label>')
         rows = f'<div class="row">{weight}{w2}</div><div class="row"><div><label>{esc(F["goal"])}</label><select name="goal">{opts(F["goals"])}</select></div></div>'
+    elif slug == 'ideal-weight-calculator':
+        rows = f'<div class="row">{height}</div>'
     elif slug == 'water-calculator':
         rows = (f'<div class="row">{weight}<div><label>{esc(F["goal"])}</label><select name="goal">{opts(F["goals"])}</select></div></div>'
                 f'<div class="row"><div><label>{esc(F["climate"])}</label><select name="climate">{opts(F["climates"])}</select></div></div>')
@@ -93,6 +95,8 @@ SCRIPT = r'''<script>
       else{var df=[250,500,750][+f.elements.goal.value],dy=Math.ceil(d*7700/df),wk=Math.ceil(dy/7),u=units==='m'?R.kg:R.lb,cv=units==='m'?1:1/0.45359237,
         dt=new Date(Date.now()+dy*864e5),ds=new Intl.DateTimeFormat(lang,{dateStyle:'long'}).format(dt);
         h='<div>'+R.target+'</div><div class="big">'+R.weeks.replace('{n}',nf(wk))+'</div><p>'+R.days.replace('{n}',nf(dy))+' · '+R.date.replace('{date}',ds)+'</p><p>'+R.total.replace('{n}','<b>'+nf(d*cv,1)+' '+u+'</b>')+'</p><p>'+R.loss.replace('{n}','<b>'+nf(df*7/7700*cv,1)+' '+u+'</b>')+'</p>';}}
+    else if(kind==='ideal-weight-calculator'){if(!(hc>100&&hc<250))return;var im=hc/100,iu=units==='m'?R.kg:R.lb,ic=units==='m'?1:1/0.45359237;
+      h='<div>'+R.target+'</div><div class="big">'+R.range.replace('{lo}',nf(18.5*im*im*ic)).replace('{hi}',nf(24.9*im*im*ic)).replace('{unit}',iu)+'</div><p>'+R.mid.replace('{n}','<b>'+nf(22*im*im*ic)+'</b>').replace('{unit}',iu)+'</p><p>'+R.note+'</p>';}
     else if(kind==='water-calculator'){if(!(w>25))return;var ml=30*w+[0,500,1000][+f.elements.goal.value]+(+f.elements.climate.value?500:0);ml=Math.min(4500,Math.max(1500,ml));
       h='<div>'+R.target+'</div><div class="big">'+nf(ml/1000,1)+'<small>'+R.l+'</small></div><p>'+nf(ml/29.5735)+' '+R.floz+' · '+R.glasses.replace('{n}',nf(ml/250))+'</p><p>'+R.note+'</p>';}
     else
@@ -128,7 +132,7 @@ def page(lang, slug, C, langs, template):
            'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}}]
     values = {
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(T['title']), 'description': esc(T['meta']),
-        'url': SITE + cpath(lang, slug), 'home': '/' if lang == 'en' else f'/{lang}/', 'index': cpath(lang),
+        'url': SITE + cpath(lang, slug), 'home': '/' if lang == 'en' or not (ROOT / lang / 'index.html').exists() else f'/{lang}/', 'index': cpath(lang),
         'hreflang': '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + cpath(l, slug)}" />' for l in langs),
         'jsonld': '\n'.join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in ld),
         'emoji': meta['emoji'], 'name': esc(T['name']), 'lead': brand(md(T['lead'])), 'calc': form(slug, U, T), 'mid': mid_cta(lang, 'calc'),
@@ -150,7 +154,7 @@ def index(lang, C, langs, template):
                     f'<span>{brand(esc(C[s][lang]["lead"]))}</span></div></a>' for s in C['_order'])
     html = page(lang, C['_order'][0], C, langs, template)
     # reuse the page shell: swap the body of <main> for the list of calculators
-    main = (f'<main class="wrap"><nav class="crumbs"><a href="{"/" if lang == "en" else f"/{lang}/"}">{esc(U["home"])}</a> › {esc(U["calculators"])}</nav>'
+    main = (f'<main class="wrap"><nav class="crumbs"><a href="{"/" if lang == "en" or not (ROOT / lang / "index.html").exists() else f"/{lang}/"}">{esc(U["home"])}</a> › {esc(U["calculators"])}</nav>'
             f'<h1><span class="gh">🧮</span>{esc(U["index_h"])}</h1><p class="intro">{esc(U["index_p"])}</p>'
             f'<section><div class="related fidx">{cards}</div></section><p class="note" style="margin-top:24px">{esc(U["note"])}</p></main>')
     html = re.sub(r'<main class="wrap">.*?</main>\s*<script>.*?</script>', lambda m: main, html, flags=re.S)

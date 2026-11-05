@@ -23,7 +23,7 @@ def fpath(lang, slug=None):
 
 
 def home(lang):
-    return '/' if lang == 'en' else f'/{lang}/'
+    return '/' if lang == 'en' or not (ROOT / lang / 'index.html').exists() else f'/{lang}/'
 
 
 def local(lang, section):

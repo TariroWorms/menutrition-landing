@@ -4,6 +4,7 @@
     "protein-calculator",
     "macro-calculator",
     "bmi-calculator",
+    "ideal-weight-calculator",
     "weight-loss-calculator",
     "water-calculator"
   ],
@@ -25,6 +26,9 @@
     },
     "water-calculator": {
       "emoji": "💧"
+    },
+    "ideal-weight-calculator": {
+      "emoji": "🧍"
     }
   },
   "_ui": {
@@ -825,6 +829,44 @@
       "index_h": "Калькулятори",
       "index_p": "Швидкі безкоштовні калькулятори добової калорійності, білка, БЖВ, ІМТ, схуднення та води.",
       "kcal_unit": "ккал"
+    },
+    "el": {
+      "calculators": "Αριθμομηχανές",
+      "home": "Αρχική",
+      "download": "Λήψη",
+      "privacy": "Απόρρητο",
+      "terms": "Όροι χρήσης",
+      "metric": "Μετρικό σύστημα (kg, cm)",
+      "imperial": "Αγγλοσαξονικό σύστημα (lb, ft)",
+      "sex": "Φύλο",
+      "male": "Άνδρας",
+      "female": "Γυναίκα",
+      "age": "Ηλικία",
+      "years": "ετών",
+      "height": "Ύψος",
+      "weight": "Βάρος",
+      "cm": "cm",
+      "kg": "kg",
+      "ft": "ft",
+      "in": "in",
+      "lb": "lb",
+      "activity": "Φυσική δραστηριότητα",
+      "calculate": "Υπολογισμός",
+      "how_h": "Πώς υπολογίζεται",
+      "faq_h": "Συχνές ερωτήσεις",
+      "sources_h": "Πηγές",
+      "more_h": "Περισσότερες αριθμομηχανές",
+      "note": "Εκτιμήσεις για υγιείς ενήλικες. Δεν αποτελούν ιατρική συμβουλή — αν είστε έγκυος, θηλάζετε, είστε κάτω των 18 ή έχετε κάποιο ιατρικό πρόβλημα, ρωτήστε τον γιατρό ή τον διατροφολόγο σας.",
+      "cta_h": "Καταγράψτε το καθημερινά με το Me Nutrition",
+      "cta_p": "Φωτογραφίστε τα γεύματά σας — η εφαρμογή μετράει θερμίδες και πρωτεΐνη σε σχέση με τον ημερήσιο στόχο σας. 3 ημέρες δωρεάν και μετά συνδρομή που μπορείτε να ακυρώσετε οποτεδήποτε από τις ρυθμίσεις του App Store.",
+      "cta_btn": "Λήψη από το App Store",
+      "dishes_link": "Θερμίδες για 2.400+ πιάτα →",
+      "guides_link": "Οδηγός διατροφών και αλλεργιών →",
+      "index_title": "Δωρεάν αριθμομηχανές διατροφής: θερμίδες, πρωτεΐνη, macros, BMI, απώλεια βάρους, νερό",
+      "index_meta": "Δωρεάν αριθμομηχανές: ημερήσιες θερμίδες, πρωτεΐνη, μακροθρεπτικά, BMI, χρονοδιάγραμμα απώλειας βάρους και πρόσληψη νερού — με σαφείς εξηγήσεις για το πώς υπολογίζεται το καθένα.",
+      "index_h": "Αριθμομηχανές",
+      "index_p": "Γρήγορες, δωρεάν αριθμομηχανές για τις ημερήσιες θερμίδες, την πρωτεΐνη, τα μακροθρεπτικά, το BMI, την απώλεια βάρους και το νερό.",
+      "kcal_unit": "kcal"
     }
   },
   "calorie-calculator": {
@@ -2192,6 +2234,71 @@
           "https://www.nhs.uk/live-well/healthy-weight/"
         ]
       ]
+    },
+    "el": {
+      "name": "Θερμιδομετρητής",
+      "title": "Θερμιδομετρητής: πόσες θερμίδες χρειάζομαι την ημέρα;",
+      "meta": "Δωρεάν αριθμομηχανή θερμίδων: υπολογίστε πόσες θερμίδες χρειάζεστε ημερησίως για να χάσετε, να διατηρήσετε ή να πάρετε βάρος — με βάση την εξίσωση Mifflin–St Jeor και τη δραστηριότητά σας.",
+      "lead": "Μάθετε πόσες θερμίδες καίτε μέσα στην ημέρα και πόσες να τρώτε για να χάσετε, να διατηρήσετε ή να πάρετε βάρος.",
+      "form": {
+        "activity_levels": [
+          "Ελάχιστη ή καθόλου άσκηση",
+          "Ελαφριά άσκηση 1–3 ημέρες την εβδομάδα",
+          "Μέτρια άσκηση 3–5 ημέρες την εβδομάδα",
+          "Έντονη άσκηση 6–7 ημέρες την εβδομάδα",
+          "Πολύ έντονη άσκηση ή σωματικά απαιτητική εργασία"
+        ],
+        "goal": "Στόχος",
+        "goals": [
+          "Απώλεια βάρους",
+          "Αργή απώλεια βάρους",
+          "Διατήρηση βάρους",
+          "Αύξηση βάρους"
+        ]
+      },
+      "result": {
+        "target": "Ο ημερήσιος στόχος σας",
+        "kcal_day": "kcal την ημέρα",
+        "maintain": "Για διατήρηση του βάρους",
+        "bmr": "Σε πλήρη ηρεμία (BMR)",
+        "pace_lose": "περίπου 0,5 kg (1 lb) την εβδομάδα",
+        "pace_slow": "περίπου 0,25 kg (½ lb) την εβδομάδα",
+        "pace_gain": "μια αργή, σταθερή αύξηση",
+        "floor": "Δεν συνιστούμε να κατεβείτε κάτω από {floor} kcal την ημέρα χωρίς ιατρική παρακολούθηση, γι' αυτό ο στόχος ορίστηκε στις {floor}."
+      },
+      "how": [
+        "Ο **βασικός μεταβολικός ρυθμός (BMR)** — η ενέργεια που χρησιμοποιεί το σώμα σας σε πλήρη ηρεμία — εκτιμάται με την **εξίσωση Mifflin–St Jeor**: 10 × βάρος (kg) + 6,25 × ύψος (cm) − 5 × ηλικία, και στη συνέχεια + 5 για τους άνδρες ή − 161 για τις γυναίκες.",
+        "Ο BMR πολλαπλασιάζεται με έναν **συντελεστή δραστηριότητας** (από 1,2 για ελάχιστη άσκηση έως 1,9 για πολύ έντονη καθημερινή άσκηση), ώστε να εκτιμηθούν οι θερμίδες που καίτε μέσα στην ημέρα — οι **θερμίδες συντήρησης**.",
+        "Για απώλεια βάρους αφαιρούμε περίπου 500 kcal την ημέρα (περίπου 0,5 kg ή 1 lb την εβδομάδα) ή 250 kcal για πιο ήπιο ρυθμό· για αύξηση βάρους προσθέτουμε περίπου 300 kcal. _Τα πραγματικά αποτελέσματα διαφέρουν: τα υγρά του σώματος, οι ορμόνες και η ακρίβεια με την οποία καταγράφετε παίζουν όλα ρόλο._"
+      ],
+      "faq": [
+        [
+          "Πόσο ακριβής είναι ένας θερμιδομετρητής;",
+          "Δίνει ένα καλό σημείο εκκίνησης, όχι έναν ακριβή αριθμό. Εξισώσεις όπως η Mifflin–St Jeor πλησιάζουν την πραγματικότητα για τους περισσότερους ανθρώπους, αλλά μπορεί να αποκλίνουν περίπου 10% προς κάθε κατεύθυνση. Παρακολουθήστε το βάρος σας για 2–3 εβδομάδες και προσαρμόστε τον στόχο αν αλλάζει πιο γρήγορα ή πιο αργά από το αναμενόμενο."
+        ],
+        [
+          "Πόσες θερμίδες πρέπει να τρώω για να χάσω βάρος;",
+          "Ένα έλλειμμα περίπου 500 kcal την ημέρα κάτω από τις θερμίδες συντήρησης οδηγεί συνήθως σε απώλεια περίπου 0,5 kg (1 lb) την εβδομάδα. Ο πιο αργός ρυθμός είναι ευκολότερο να τηρηθεί και προστατεύει τη μυϊκή μάζα."
+        ],
+        [
+          "Είναι ασφαλές να τρώω πολύ λίγες θερμίδες;",
+          "Οι δίαιτες πολύ χαμηλών θερμίδων πρέπει να ακολουθούνται μόνο υπό ιατρική παρακολούθηση. Για τους περισσότερους ενήλικες αυτό σημαίνει να μην κατεβαίνετε μόνοι σας κάτω από περίπου 1.200 kcal (γυναίκες) ή 1.500 kcal (άνδρες) την ημέρα."
+        ],
+        [
+          "Γιατί αλλάζει το βάρος μου από μέρα σε μέρα;",
+          "Οι ημερήσιες διακυμάνσεις οφείλονται κυρίως σε νερό, αλάτι και τροφή στο έντερο. Κοιτάξτε την τάση σε βάθος εβδομάδων και όχι μία μεμονωμένη ζύγιση."
+        ]
+      ],
+      "sources": [
+        [
+          "Mifflin MD et al. A new predictive equation for resting energy expenditure. Am J Clin Nutr, 1990",
+          "https://pubmed.ncbi.nlm.nih.gov/2305711/"
+        ],
+        [
+          "NHS — Healthy weight",
+          "https://www.nhs.uk/live-well/healthy-weight/"
+        ]
+      ]
     }
   },
   "protein-calculator": {
@@ -3328,6 +3435,60 @@
           "https://doi.org/10.1186/s12970-017-0177-8"
         ]
       ]
+    },
+    "el": {
+      "name": "Υπολογισμός πρωτεΐνης",
+      "title": "Υπολογισμός πρωτεΐνης: πόση πρωτεΐνη χρειάζομαι την ημέρα;",
+      "meta": "Δωρεάν υπολογισμός πρωτεΐνης: πόσα γραμμάρια πρωτεΐνης χρειάζεστε ημερησίως με βάση το βάρος, την ηλικία και την προπόνησή σας — με τα εύρη που χρησιμοποιούν ο EFSA, ο ΠΟΥ και οι ειδικοί αθλητικής διατροφής.",
+      "lead": "Υπολογίστε πόσα γραμμάρια πρωτεΐνης χρειάζεστε ημερησίως — για την καθημερινή υγεία, για μεγαλύτερες ηλικίες ή αν γυμνάζεστε.",
+      "form": {
+        "goal": "Η περίπτωσή σας",
+        "goals": [
+          "Καθημερινή υγεία, λίγη άσκηση",
+          "Ηλικία 65 ετών και άνω",
+          "Τακτική προπόνηση (δύναμη ή αντοχή)",
+          "Απώλεια βάρους παράλληλα με προπόνηση"
+        ]
+      },
+      "result": {
+        "target": "Πρωτεΐνη την ημέρα",
+        "g_day": "g την ημέρα",
+        "per_meal": "Περίπου {n} g ανά γεύμα σε 3–4 γεύματα",
+        "per_kg": "{lo}–{hi} g ανά kg σωματικού βάρους"
+      },
+      "how": [
+        "Για τους υγιείς ενήλικες, ο EFSA και ο ΠΟΥ ορίζουν την πληθυσμιακή συνιστώμενη πρόσληψη στα περίπου **0,8 g πρωτεΐνης ανά kg σωματικού βάρους την ημέρα** — αρκετά για σχεδόν όλους όσους δεν είναι πολύ δραστήριοι.",
+        "Ομάδες ειδικών προτείνουν **1,0–1,2 g/kg για άτομα άνω των 65**, ώστε να διατηρείται η μυϊκή μάζα με την ηλικία, ενώ η Διεθνής Εταιρεία Αθλητικής Διατροφής (ISSN) προτείνει **1,4–2,0 g/kg για όσους γυμνάζονται τακτικά**. Όταν χάνετε βάρος και ταυτόχρονα γυμνάζεστε, οι τιμές στο ανώτερο άκρο αυτού του εύρους βοηθούν στην προστασία των μυών.",
+        "Το αποτέλεσμα είναι ένα ημερήσιο εύρος· η κατανομή του σε 3–4 γεύματα είναι ένας πρακτικός τρόπος να το πετύχετε. _Αν έχετε νεφρική νόσο, ρωτήστε τον γιατρό σας πριν αυξήσετε την πρωτεΐνη._"
+      ],
+      "faq": [
+        [
+          "Είναι επιβλαβής η υπερβολική πρωτεΐνη;",
+          "Για υγιή άτομα, πρόσληψη έως περίπου 2 g ανά kg σωματικού βάρους θεωρείται γενικά ασφαλής. Αν έχετε νεφρική νόσο, ο γιατρός σας θα σας συμβουλεύσει για το όριο."
+        ],
+        [
+          "Ποιες τροφές είναι πλούσιες σε πρωτεΐνη;",
+          "Κρέας, πουλερικά, ψάρι, αυγά, γαλακτοκομικά, τόφου, tempeh, όσπρια, φακές, ξηροί καρποί και σπόροι. Το Me Nutrition χαρακτηρίζει «Υψηλή σε πρωτεΐνη» τα πιάτα με τουλάχιστον 10 g πρωτεΐνης ανά 100 g και 25% των θερμίδων από πρωτεΐνη."
+        ],
+        [
+          "Να χρησιμοποιήσω το τρέχον ή το επιθυμητό βάρος μου;",
+          "Για τους περισσότερους το τρέχον βάρος είναι εντάξει. Αν έχετε να χάσετε αρκετά κιλά, η χρήση ενός υγιούς στόχου βάρους δίνει πιο ρεαλιστικό αριθμό."
+        ],
+        [
+          "Χρειάζομαι πρωτεΐνη σε σκόνη (shake);",
+          "Όχι απαραίτητα — οι περισσότεροι μπορούν να καλύψουν τον στόχο τους με κανονικό φαγητό. Τα shake είναι απλώς μια βολική επιλογή."
+        ]
+      ],
+      "sources": [
+        [
+          "EFSA — Dietary reference values for protein (2012)",
+          "https://doi.org/10.2903/j.efsa.2012.2557"
+        ],
+        [
+          "Jäger R et al. ISSN position stand: protein and exercise. J Int Soc Sports Nutr, 2017",
+          "https://doi.org/10.1186/s12970-017-0177-8"
+        ]
+      ]
     }
   },
   "bmi-calculator": {
@@ -4377,6 +4538,56 @@
         ],
         [
           "NHS — Що таке індекс маси тіла (ІМТ)?",
+          "https://www.nhs.uk/conditions/obesity/"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Δείκτης μάζας σώματος (BMI)",
+      "title": "Δείκτης μάζας σώματος (BMI): υπολογίστε το BMI σας",
+      "meta": "Δωρεάν υπολογισμός BMI για ενήλικες: εισάγετε ύψος και βάρος για να δείτε τον δείκτη μάζας σώματος, την κατηγορία του ΠΟΥ και το υγιές εύρος βάρους για το ύψος σας.",
+      "lead": "Εισάγετε ύψος και βάρος για να δείτε τον δείκτη μάζας σώματός σας και το υγιές εύρος βάρους για το ύψος σας.",
+      "form": {},
+      "result": {
+        "target": "Το BMI σας",
+        "range": "Υγιές βάρος για το ύψος σας: {lo}–{hi} {unit}",
+        "cats": [
+          "Λιποβαρής",
+          "Φυσιολογικό βάρος",
+          "Υπέρβαρος",
+          "Παχυσαρκία"
+        ]
+      },
+      "how": [
+        "**BMI = βάρος (kg) ÷ ύψος (m)²**. Για τους ενήλικες ο ΠΟΥ χρησιμοποιεί αυτά τα εύρη: κάτω από 18,5 λιποβαρής, **18,5–24,9 φυσιολογικό βάρος**, 25–29,9 υπέρβαρος, 30 και πάνω παχυσαρκία.",
+        "Το BMI είναι ένα γρήγορο εργαλείο διαλογής, όχι διάγνωση. **Δεν μετράει άμεσα το σωματικό λίπος**: άτομα με πολλούς μυς μπορεί να έχουν υψηλό BMI, ενώ μεγαλύτεροι σε ηλικία άνθρωποι μπορεί να έχουν φυσιολογικό BMI με λίγη μυϊκή μάζα.",
+        "_Ορισμένες υπηρεσίες υγείας χρησιμοποιούν χαμηλότερα όρια για άτομα νοτιοασιατικής, κινεζικής, άλλης ασιατικής, μεσανατολικής, μαύρης αφρικανικής ή αφροκαραϊβικής καταγωγής. Το BMI για παιδιά και εφήβους υπολογίζεται διαφορετικά και δεν ισχύει κατά την εγκυμοσύνη._"
+      ],
+      "faq": [
+        [
+          "Ποιο είναι ένα υγιές BMI;",
+          "Για τους περισσότερους ενήλικες, BMI από 18,5 έως 24,9 θεωρείται φυσιολογικό βάρος."
+        ],
+        [
+          "Είναι ακριβές το BMI;",
+          "Είναι ένας χρήσιμος πρώτος έλεγχος για τους περισσότερους ενήλικες, αλλά δεν ξεχωρίζει τους μυς από το λίπος. Η περίμετρος μέσης είναι ένα ακόμη απλό μέτρο: μεγάλη περίμετρος συνδέεται με αυξημένους κινδύνους για την υγεία ακόμη και με φυσιολογικό BMI."
+        ],
+        [
+          "Μπορώ να το χρησιμοποιήσω για παιδιά;",
+          "Όχι. Το BMI των παιδιών συγκρίνεται με καμπύλες ανάπτυξης ανά ηλικία και φύλο — ρωτήστε τον παιδίατρο ή χρησιμοποιήστε ειδικό εργαλείο για παιδιά."
+        ],
+        [
+          "Το BMI μου είναι υψηλό — τι να κάνω;",
+          "Ένα καλό πρώτο βήμα είναι να μιλήσετε με τον γιατρό σας. Ένα μικρό, σταθερό θερμιδικό έλλειμμα, περισσότερη κίνηση και η καταγραφή της διατροφής βοηθούν τους περισσότερους να χάσουν βάρος με ασφάλεια."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Obesity and overweight (fact sheet)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — What is the body mass index (BMI)?",
           "https://www.nhs.uk/conditions/obesity/"
         ]
       ]
@@ -5618,6 +5829,65 @@
         ],
         [
           "Jäger R et al. Позиція ISSN: білок і фізичні вправи. J Int Soc Sports Nutr, 2017",
+          "https://doi.org/10.1186/s12970-017-0177-8"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Υπολογιστής μακροθρεπτικών (macros)",
+      "title": "Υπολογιστής μακροθρεπτικών (macros): πρωτεΐνη, υδατάνθρακες, λίπος",
+      "meta": "Δωρεάν υπολογιστής μακροθρεπτικών (macros): εισάγετε τις ημερήσιες θερμίδες, επιλέξτε κατανομή και βρείτε τα γραμμάρια πρωτεΐνης, υδατανθράκων και λίπους — με βάση τα εύρη του Institute of Medicine, της ISSN και του ΠΟΥ.",
+      "lead": "Μετατρέψτε τον ημερήσιο θερμιδικό στόχο σας σε γραμμάρια πρωτεΐνης, υδατανθράκων και λίπους.",
+      "form": {
+        "kcal": "Ημερήσιες θερμίδες",
+        "kcal_ph": "kcal",
+        "goal": "Κατανομή",
+        "goals": [
+          "Ισορροπημένη (20% πρωτεΐνη, 50% υδατάνθρακες, 30% λίπος)",
+          "Υψηλότερη σε πρωτεΐνη (30% πρωτεΐνη, 40% υδατάνθρακες, 30% λίπος)",
+          "Χαμηλότερη σε υδατάνθρακες (30% πρωτεΐνη, 30% υδατάνθρακες, 40% λίπος)",
+          "Αντοχής (15% πρωτεΐνη, 60% υδατάνθρακες, 25% λίπος)"
+        ]
+      },
+      "result": {
+        "target": "Τα ημερήσια μακροθρεπτικά σας",
+        "protein": "Πρωτεΐνη",
+        "carbs": "Υδατάνθρακες",
+        "fat": "Λίπος",
+        "g": "g",
+        "pct": "{n}% των θερμίδων",
+        "summary": "{kcal} kcal = {p} g πρωτεΐνη × 4 + {c} g υδατάνθρακες × 4 + {f} g λίπος × 9"
+      },
+      "how": [
+        "Η πρωτεΐνη και οι υδατάνθρακες δίνουν περίπου **4 kcal ανά γραμμάριο**, το λίπος περίπου **9 kcal ανά γραμμάριο**. Ο υπολογιστής πολλαπλασιάζει τις θερμίδες σας με κάθε ποσοστό και διαιρεί με αυτούς τους αριθμούς για να βρει τα γραμμάρια.",
+        "Τα αποδεκτά εύρη του Institute of Medicine για τους ενήλικες είναι **10–35% των θερμίδων από πρωτεΐνη, 45–65% από υδατάνθρακες και 20–35% από λίπος**. Και οι τέσσερις κατανομές εδώ μένουν μέσα σε αυτά τα εύρη.",
+        "Μια κατανομή με περισσότερη πρωτεΐνη μπορεί να βοηθήσει στη διατήρηση της μυϊκής μάζας όταν τρώτε λιγότερες θερμίδες ή γυμνάζεστε τακτικά· η κατανομή αντοχής δίνει μεγαλύτερο βάρος στους υδατάνθρακες ως καύσιμο. _Τα ποσοστά είναι σημείο εκκίνησης — προσαρμόστε τα στο πώς νιώθετε και στο πώς προπονείστε._"
+      ],
+      "faq": [
+        [
+          "Πώς βρίσκω τις ημερήσιες θερμίδες μου;",
+          "Χρησιμοποιήστε τον θερμιδομετρητή μας για να εκτιμήσετε την ποσότητα που διατηρεί, μειώνει ή αυξάνει το βάρος σας και μετά εισάγετέ την εδώ."
+        ],
+        [
+          "Πρέπει να πετυχαίνω τα macros ακριβώς;",
+          "Όχι. Στόχος είναι να βρίσκεστε περίπου κοντά μέσα στην εβδομάδα. Οι ημερήσιες διακυμάνσεις είναι φυσιολογικές."
+        ],
+        [
+          "Ποια κατανομή είναι η καλύτερη για απώλεια βάρους;",
+          "Δεν υπάρχει μία καλύτερη κατανομή. Οι μελέτες δείχνουν ότι η απώλεια βάρους εξαρτάται κυρίως από το θερμιδικό έλλειμμα· μια κατανομή με περισσότερη πρωτεΐνη μπορεί να διευκολύνει το αίσθημα κορεσμού και τη διατήρηση της μυϊκής μάζας."
+        ],
+        [
+          "Μετράνε οι φυτικές ίνες ως υδατάνθρακες;",
+          "Ναι, οι φυτικές ίνες είναι μέρος των συνολικών υδατανθράκων, αν και δίνουν λιγότερες θερμίδες από τα σάκχαρα και το άμυλο. Ο υπολογιστής χρησιμοποιεί την απλή τιμή των 4 kcal ανά γραμμάριο."
+        ]
+      ],
+      "sources": [
+        [
+          "Institute of Medicine — Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "https://doi.org/10.17226/10490"
+        ],
+        [
+          "Jäger R et al. ISSN position stand: protein and exercise. J Int Soc Sports Nutr, 2017",
           "https://doi.org/10.1186/s12970-017-0177-8"
         ]
       ]
@@ -6883,6 +7153,66 @@
           "https://doi.org/10.1016/S0140-6736(11)60812-X"
         ]
       ]
+    },
+    "el": {
+      "name": "Υπολογιστής απώλειας βάρους",
+      "title": "Υπολογιστής απώλειας βάρους: πότε θα φτάσετε στο στόχο σας;",
+      "meta": "Δωρεάν υπολογιστής απώλειας βάρους: εισάγετε το τρέχον και το επιθυμητό βάρος και ένα ημερήσιο θερμιδικό έλλειμμα για να δείτε πόσες εβδομάδες χρειάζονται και πότε μπορεί να φτάσετε στο στόχο σας.",
+      "lead": "Εκτιμήστε πόσο χρόνο χρειάζεται για να φτάσετε στο επιθυμητό βάρος με σταθερό ημερήσιο θερμιδικό έλλειμμα.",
+      "form": {
+        "current": "Τρέχον βάρος",
+        "goal_w": "Επιθυμητό βάρος",
+        "goal": "Ημερήσιο θερμιδικό έλλειμμα",
+        "goals": [
+          "250 kcal — ήπιο",
+          "500 kcal — σταθερό",
+          "750 kcal — γρήγορο"
+        ]
+      },
+      "result": {
+        "target": "Εκτιμώμενος χρόνος μέχρι τον στόχο σας",
+        "weeks": "{n} εβδομάδες",
+        "days": "{n} ημέρες",
+        "date": "Περίπου στις {date}",
+        "loss": "Περίπου {n} την εβδομάδα",
+        "total": "{n} προς απώλεια",
+        "fast": "Αυτό είναι ταχύτερο από περίπου 1 kg (2 lb) την εβδομάδα, ρυθμός που συνήθως είναι πολύ γρήγορος για να διατηρηθεί. Σκεφτείτε ένα μικρότερο έλλειμμα.",
+        "same": "Το επιθυμητό βάρος πρέπει να είναι χαμηλότερο από το τρέχον βάρος.",
+        "low": "Διατηρήστε τις ημερήσιες θερμίδες πάνω από 1.200 (γυναίκες) ή 1.500 (άνδρες), εκτός αν σας παρακολουθεί γιατρός."
+      },
+      "how": [
+        "Ένας συνηθισμένος εμπειρικός κανόνας είναι ότι περίπου **7.700 kcal ισοδυναμούν με 1 kg σωματικού λίπους** (περίπου 3.500 kcal ανά lb). Διαιρώντας το βάρος που θέλετε να χάσετε με το ημερήσιο έλλειμμα, προκύπτει ο αριθμός των ημερών.",
+        "Η πραγματική απώλεια βάρους επιβραδύνεται με τον χρόνο, επειδή ένα ελαφρύτερο σώμα καίει λιγότερες θερμίδες· γι' αυτό δείτε την ημερομηνία ως **χονδρική εκτίμηση**, όχι ως υπόσχεση. Έρευνα των Hall et al. δείχνει ότι ο απλός κανόνας υπερεκτιμά την απώλεια σε μεγάλα χρονικά διαστήματα.",
+        "Οργανισμοί υγείας όπως το NHS προτείνουν απώλεια περίπου **0,5–1 kg (1–2 lb) την εβδομάδα**. _Αν έχετε κάποιο ιατρικό πρόβλημα, είστε έγκυος ή κάτω των 18, μιλήστε πρώτα με τον γιατρό σας._"
+      ],
+      "faq": [
+        [
+          "Γιατί επιβραδύνθηκε η απώλεια βάρους μου;",
+          "Καθώς χάνετε βάρος, το σώμα χρειάζεται λιγότερες θερμίδες και η ισορροπία των υγρών αλλάζει από μέρα σε μέρα. Τα πλατό είναι φυσιολογικά· κοιτάξτε την τάση σε βάθος εβδομάδων, όχι ημερών."
+        ],
+        [
+          "Πώς επιλέγω θερμιδικό έλλειμμα;",
+          "Ξεκινήστε από τις θερμίδες συντήρησης που θα βρείτε στον θερμιδομετρητή. Ένα έλλειμμα περίπου 500 kcal την ημέρα είναι μια συνηθισμένη και βιώσιμη επιλογή."
+        ],
+        [
+          "Είναι καλύτερα να χάνω βάρος πιο γρήγορα;",
+          "Όχι απαραίτητα. Η πολύ γρήγορη απώλεια είναι δυσκολότερο να διατηρηθεί και μπορεί να κοστίσει σε μυϊκή μάζα. Η σταθερή απώλεια διατηρείται ευκολότερα."
+        ],
+        [
+          "Αλλάζει η άσκηση το αποτέλεσμα;",
+          "Η άσκηση αυξάνει τις θερμίδες που καίτε, οπότε μπορεί να διευρύνει το έλλειμμα. Εισάγετε το συνολικό έλλειμμα που στοχεύετε, συμπεριλαμβανομένης της δραστηριότητας."
+        ]
+      ],
+      "sources": [
+        [
+          "NHS — Start the NHS Weight Loss Plan",
+          "https://www.nhs.uk/better-health/lose-weight/"
+        ],
+        [
+          "Hall KD et al. Quantification of the effect of energy imbalance on bodyweight. Lancet, 2011",
+          "https://doi.org/10.1016/S0140-6736(11)60812-X"
+        ]
+      ]
     }
   },
   "water-calculator": {
@@ -8122,6 +8452,1079 @@
         [
           "NHS — Water, drinks and hydration (Вода, напої та гідратація)",
           "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Πόσο νερό πρέπει να πίνω",
+      "title": "Πόσο νερό πρέπει να πίνω την ημέρα; Αριθμομηχανή νερού",
+      "meta": "Δωρεάν αριθμομηχανή νερού: εκτιμήστε πόσο νερό μπορεί να χρειάζεστε ημερησίως με βάση το βάρος, τη δραστηριότητα και το κλίμα, σε λίτρα, ουγγιές και ποτήρια.",
+      "lead": "Εκτιμήστε πόσο νερό μπορεί να χρειάζεται να πίνετε μέσα στην ημέρα.",
+      "form": {
+        "goal": "Φυσική δραστηριότητα",
+        "goals": [
+          "Κυρίως καθιστική ζωή, ελαφριά δραστηριότητα",
+          "30–60 λεπτά άσκησης",
+          "Πάνω από 60 λεπτά άσκησης"
+        ],
+        "climate": "Κλίμα",
+        "climates": [
+          "Μέτριο",
+          "Ζεστό ή υγρό"
+        ]
+      },
+      "result": {
+        "target": "Νερό την ημέρα",
+        "l": "L",
+        "floz": "fl oz",
+        "glasses": "Περίπου {n} ποτήρια των 250 ml",
+        "note": "Πρόκειται για εκτίμηση του πόσιμου νερού. Η τροφή και τα άλλα ροφήματα συμβάλλουν επίσης στην πρόσληψη υγρών."
+      },
+      "how": [
+        "Ο υπολογισμός ξεκινά από περίπου **30 ml νερού ανά kg σωματικού βάρους** και προσθέτει περίπου **500 ml για 30–60 λεπτά άσκησης** (ή **1.000 ml για πάνω από μία ώρα**) και **500 ml σε ζεστό ή υγρό καιρό**. Το αποτέλεσμα κρατιέται ανάμεσα σε 1,5 και 4,5 λίτρα.",
+        "Για σύγκριση, ο EFSA προτείνει επαρκή συνολική πρόσληψη νερού περίπου **2,0 L την ημέρα για τις γυναίκες και 2,5 L για τους άνδρες**, από ροφήματα και τροφή μαζί· περίπου το 20% προέρχεται συνήθως από την τροφή.",
+        "Η δίψα, το χρώμα των ούρων και ο καιρός είναι καλοί καθημερινοί οδηγοί. _Αν έχετε νεφρική, καρδιακή ή άλλη ιατρική πάθηση, ακολουθήστε τις οδηγίες του γιατρού σας για τα υγρά._"
+      ],
+      "faq": [
+        [
+          "Μετράνε το τσάι, ο καφές και το φαγητό;",
+          "Ναι. Όλα τα ροφήματα μετράνε, και η τροφή — ιδίως τα φρούτα, τα λαχανικά και οι σούπες — καλύπτει περίπου το ένα πέμπτο των υγρών σας."
+        ],
+        [
+          "Μπορεί κανείς να πιει υπερβολικά πολύ νερό;",
+          "Ναι, αν και είναι σπάνιο. Η κατανάλωση πολύ μεγάλων ποσοτήτων σε σύντομο χρονικό διάστημα μπορεί να αραιώσει το νάτριο του αίματος. Μοιράστε τα ροφήματα μέσα στην ημέρα."
+        ],
+        [
+          "Χρειάζομαι περισσότερο νερό όταν είμαι άρρωστος ή έγκυος;",
+          "Συχνά ναι, για παράδειγμα σε πυρετό, εμετό ή διάρροια, στην εγκυμοσύνη και στον θηλασμό. Ζητήστε προσωπική συμβουλή από τον γιατρό σας."
+        ],
+        [
+          "Πώς καταλαβαίνω αν πίνω αρκετά;",
+          "Τα ανοιχτό κίτρινα ούρα και το σπάνιο αίσθημα δίψας είναι καλά σημάδια."
+        ]
+      ],
+      "sources": [
+        [
+          "EFSA — Scientific Opinion on Dietary Reference Values for water (2010)",
+          "https://doi.org/10.2903/j.efsa.2010.1459"
+        ],
+        [
+          "NHS — Water, drinks and hydration",
+          "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+        ]
+      ]
+    }
+  },
+  "ideal-weight-calculator": {
+    "en": {
+      "name": "Ideal weight calculator",
+      "title": "Ideal weight calculator: your healthy weight range by height",
+      "meta": "Free ideal weight calculator: enter your height and see the healthy weight range for it, based on the BMI range recommended by the WHO (18.5–24.9).",
+      "lead": "Enter your height to see the weight range that counts as healthy for it.",
+      "form": {},
+      "result": {
+        "target": "Healthy weight range for your height",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "A mid-range reference: about {n} {unit}",
+        "note": "This is a general guide based on BMI. Muscle, bone structure, age and health also matter."
+      },
+      "how": [
+        "The calculator uses the **BMI range of 18.5–24.9**, which the WHO classes as healthy weight for adults. It turns that range into kilograms or pounds for your height: weight = BMI × height² (in metres).",
+        "The mid-range reference uses a BMI of about 22. It is only a point inside the healthy range, not a target you must reach.",
+        "BMI does not distinguish muscle from fat, so very muscular people may weigh more than the range and still be healthy. _If you are pregnant, under 18 or have a medical condition, ask your doctor what weight is right for you._"
+      ],
+      "faq": [
+        [
+          "Is there one ideal weight?",
+          "No. Healthy weight is a range, and it depends on height, build, age and health. That is why the calculator shows a range."
+        ],
+        [
+          "Does it work for men and women?",
+          "The BMI range used here is the same for adult men and women. Body composition differs between people, so treat the result as a guide."
+        ],
+        [
+          "I weigh more than the range but I train a lot. Is that a problem?",
+          "Not necessarily. BMI does not separate muscle from fat. Waist size and a doctor's opinion give a fuller picture."
+        ],
+        [
+          "How can I reach a healthy weight?",
+          "Small, steady changes in what you eat and how active you are work best. Our weight loss calculator shows how long a goal takes at a realistic pace."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Obesity and overweight (fact sheet)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — BMI healthy weight calculator",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "ar": {
+      "name": "حاسبة الوزن المثالي",
+      "title": "حاسبة الوزن المثالي: نطاق وزنك الصحي بحسب طولك",
+      "meta": "حاسبة وزن مثالي مجانية: أدخل طولك لتعرف نطاق الوزن الصحي المناسب له، استنادًا إلى نطاق مؤشر كتلة الجسم الذي توصي به منظمة الصحة العالمية (18.5–24.9).",
+      "lead": "أدخل طولك لتعرف نطاق الوزن الذي يُعد صحيًا بالنسبة له.",
+      "form": {},
+      "result": {
+        "target": "نطاق الوزن الصحي لطولك",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "مرجع في منتصف النطاق: نحو {n} {unit}",
+        "note": "هذا دليل عام يستند إلى مؤشر كتلة الجسم. وللعضلات وبنية العظام والعمر والصحة أثرها أيضًا."
+      },
+      "how": [
+        "تستخدم الحاسبة **نطاق مؤشر كتلة الجسم 18.5–24.9**، الذي تصنفه منظمة الصحة العالمية وزنًا صحيًا للبالغين. وتحوّل هذا النطاق إلى كيلوغرامات أو أرطال بحسب طولك: الوزن = مؤشر كتلة الجسم × الطول² (بالمتر).",
+        "يستخدم المرجع في منتصف النطاق مؤشر كتلة جسم يبلغ نحو 22. وهو مجرد نقطة داخل النطاق الصحي، وليس هدفًا يجب بلوغه.",
+        "لا يفرّق مؤشر كتلة الجسم بين العضلات والدهون، فقد يزيد وزن أصحاب العضلات الكبيرة عن النطاق ويظلون أصحاء. _إذا كنتِ حاملًا أو دون 18 عامًا أو لديك حالة طبية، فاسأل طبيبك عن الوزن المناسب لك._"
+      ],
+      "faq": [
+        [
+          "هل يوجد وزن مثالي واحد؟",
+          "لا. الوزن الصحي نطاق، ويعتمد على الطول وبنية الجسم والعمر والصحة. ولهذا تعرض الحاسبة نطاقًا."
+        ],
+        [
+          "هل تصلح للرجال والنساء؟",
+          "نطاق مؤشر كتلة الجسم المستخدم هنا واحد للرجال والنساء البالغين. وتختلف تركيبة الجسم بين الأشخاص، فاعتبر النتيجة دليلًا."
+        ],
+        [
+          "وزني أكبر من النطاق لكنني أتمرن كثيرًا. هل هذه مشكلة؟",
+          "ليس بالضرورة. لا يفصل مؤشر كتلة الجسم بين العضلات والدهون. ومقاس الخصر ورأي الطبيب يعطيان صورة أكمل."
+        ],
+        [
+          "كيف أبلغ وزنًا صحيًا؟",
+          "أفضل النتائج تأتي من تغييرات صغيرة ثابتة في طعامك ونشاطك. وتُظهر حاسبة إنقاص الوزن لدينا المدة التي يستغرقها الهدف بوتيرة واقعية."
+        ]
+      ],
+      "sources": [
+        [
+          "منظمة الصحة العالمية — السمنة وزيادة الوزن (صحيفة وقائع)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — حاسبة الوزن الصحي بمؤشر كتلة الجسم",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "de": {
+      "name": "Idealgewicht Rechner",
+      "title": "Idealgewicht Rechner: dein gesunder Gewichtsbereich nach Größe",
+      "meta": "Kostenloser Idealgewicht Rechner: Gib deine Größe ein und sieh den gesunden Gewichtsbereich dazu, basierend auf dem WHO-empfohlenen BMI-Bereich (18,5–24,9).",
+      "lead": "Gib deine Größe ein und sieh, welcher Gewichtsbereich dafür als gesund gilt.",
+      "form": {},
+      "result": {
+        "target": "Gesunder Gewichtsbereich für deine Größe",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Ein Richtwert aus der Mitte des Bereichs: etwa {n} {unit}",
+        "note": "Dies ist eine allgemeine Orientierung auf Basis des BMI. Muskeln, Knochenbau, Alter und Gesundheit spielen ebenfalls eine Rolle."
+      },
+      "how": [
+        "Der Rechner verwendet den **BMI-Bereich von 18,5–24,9**, den die WHO für Erwachsene als gesundes Gewicht einstuft. Er rechnet diesen Bereich für deine Größe in Kilogramm oder Pfund um: Gewicht = BMI × Größe² (in Metern).",
+        "Der Richtwert aus der Mitte basiert auf einem BMI von etwa 22. Er ist nur ein Punkt innerhalb des gesunden Bereichs, kein Ziel, das du erreichen musst.",
+        "Der BMI unterscheidet nicht zwischen Muskeln und Fett, daher können sehr muskulöse Menschen mehr als den Bereich wiegen und trotzdem gesund sein. _Wenn du schwanger oder unter 18 bist oder eine Erkrankung hast, frage deine Ärztin oder deinen Arzt, welches Gewicht für dich richtig ist._"
+      ],
+      "faq": [
+        [
+          "Gibt es ein einziges Idealgewicht?",
+          "Nein. Gesundes Gewicht ist ein Bereich und hängt von Größe, Körperbau, Alter und Gesundheit ab. Deshalb zeigt der Rechner einen Bereich."
+        ],
+        [
+          "Funktioniert er für Männer und Frauen?",
+          "Der hier verwendete BMI-Bereich ist für erwachsene Männer und Frauen derselbe. Die Körperzusammensetzung unterscheidet sich von Mensch zu Mensch, sieh das Ergebnis daher als Orientierung."
+        ],
+        [
+          "Ich wiege mehr als der Bereich, trainiere aber viel. Ist das ein Problem?",
+          "Nicht unbedingt. Der BMI trennt nicht zwischen Muskeln und Fett. Taillenumfang und die Einschätzung einer Ärztin oder eines Arztes ergeben ein vollständigeres Bild."
+        ],
+        [
+          "Wie erreiche ich ein gesundes Gewicht?",
+          "Kleine, stetige Änderungen bei Ernährung und Bewegung funktionieren am besten. Unser Abnehmrechner zeigt, wie lange ein Ziel in realistischem Tempo dauert."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO – Adipositas und Übergewicht (Faktenblatt)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS – BMI-Rechner für gesundes Gewicht",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "es": {
+      "name": "Calculadora de peso ideal",
+      "title": "Calculadora de peso ideal: tu rango de peso saludable por estatura",
+      "meta": "Calculadora de peso ideal gratis: ingresa tu estatura y mira el rango de peso saludable, según el rango de IMC recomendado por la OMS (18.5–24.9).",
+      "lead": "Ingresa tu estatura para ver el rango de peso que se considera saludable para ella.",
+      "form": {},
+      "result": {
+        "target": "Rango de peso saludable para tu estatura",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Una referencia intermedia: cerca de {n} {unit}",
+        "note": "Es una guía general basada en el IMC. También influyen la masa muscular, la estructura ósea, la edad y la salud."
+      },
+      "how": [
+        "La calculadora usa el **rango de IMC de 18.5–24.9**, que la OMS considera peso saludable para adultos. Convierte ese rango en kilogramos o libras para tu estatura: peso = IMC × estatura² (en metros).",
+        "La referencia intermedia usa un IMC de cerca de 22. Es solo un punto dentro del rango saludable, no una meta que debas alcanzar.",
+        "El IMC no distingue el músculo de la grasa, así que las personas muy musculosas pueden pesar más que el rango y aun así estar sanas. _Si estás embarazada, eres menor de 18 años o tienes alguna condición médica, pregunta a tu médico qué peso es adecuado para ti._"
+      ],
+      "faq": [
+        [
+          "¿Existe un único peso ideal?",
+          "No. El peso saludable es un rango y depende de la estatura, la complexión, la edad y la salud. Por eso la calculadora muestra un rango."
+        ],
+        [
+          "¿Sirve para hombres y mujeres?",
+          "El rango de IMC usado aquí es el mismo para hombres y mujeres adultos. La composición corporal varía entre personas, así que toma el resultado como una guía."
+        ],
+        [
+          "Peso más que el rango pero entreno mucho. ¿Es un problema?",
+          "No necesariamente. El IMC no separa el músculo de la grasa. El perímetro de cintura y la opinión de un médico dan una imagen más completa."
+        ],
+        [
+          "¿Cómo puedo llegar a un peso saludable?",
+          "Los cambios pequeños y constantes en lo que comes y en tu actividad funcionan mejor. Nuestra calculadora para bajar de peso muestra cuánto tarda una meta a un ritmo realista."
+        ]
+      ],
+      "sources": [
+        [
+          "OMS — Obesidad y sobrepeso (hoja informativa)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Calculadora de IMC y peso saludable",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Calculateur de poids idéal",
+      "title": "Calculateur de poids idéal : votre poids de forme selon la taille",
+      "meta": "Calculateur de poids idéal gratuit : entrez votre taille et voyez la fourchette de poids saine correspondante, selon l'IMC recommandé par l'OMS (18,5–24,9).",
+      "lead": "Entrez votre taille pour voir la fourchette de poids considérée comme saine pour elle.",
+      "form": {},
+      "result": {
+        "target": "Fourchette de poids saine pour votre taille",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Une valeur de référence médiane : environ {n} {unit}",
+        "note": "Il s'agit d'un repère général basé sur l'IMC. La masse musculaire, la structure osseuse, l'âge et la santé comptent aussi."
+      },
+      "how": [
+        "Le calculateur utilise la **fourchette d'IMC de 18,5–24,9**, que l'OMS considère comme un poids sain chez l'adulte. Il la convertit en kilos ou en livres pour votre taille : poids = IMC × taille² (en mètres).",
+        "La valeur de référence médiane utilise un IMC d'environ 22. C'est simplement un point dans la fourchette saine, pas un objectif à atteindre.",
+        "L'IMC ne distingue pas le muscle de la graisse : une personne très musclée peut peser plus que la fourchette et rester en bonne santé. _Si vous êtes enceinte, mineur ou avez un problème de santé, demandez à votre médecin quel poids vous convient._"
+      ],
+      "faq": [
+        [
+          "Existe-t-il un seul poids idéal ?",
+          "Non. Un poids sain est une fourchette, qui dépend de la taille, de la morphologie, de l'âge et de la santé. C'est pourquoi le calculateur affiche une fourchette."
+        ],
+        [
+          "Est-ce valable pour les hommes et les femmes ?",
+          "La fourchette d'IMC utilisée ici est la même pour les hommes et les femmes adultes. La composition corporelle varie d'une personne à l'autre : considérez le résultat comme un repère."
+        ],
+        [
+          "Je pèse plus que la fourchette mais je m'entraîne beaucoup. Est-ce un problème ?",
+          "Pas forcément. L'IMC ne sépare pas le muscle de la graisse. Le tour de taille et l'avis d'un médecin donnent une image plus complète."
+        ],
+        [
+          "Comment atteindre un poids sain ?",
+          "De petits changements réguliers dans votre alimentation et votre activité fonctionnent le mieux. Notre calculateur de perte de poids montre combien de temps prend un objectif à un rythme réaliste."
+        ]
+      ],
+      "sources": [
+        [
+          "OMS — Obésité et surpoids (aide-mémoire)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Calculateur d'IMC et de poids sain",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "he": {
+      "name": "מחשבון משקל אידיאלי",
+      "title": "מחשבון משקל אידיאלי: טווח המשקל הבריא לפי גובה",
+      "meta": "מחשבון משקל אידיאלי חינמי: הזינו את הגובה וראו את טווח המשקל הבריא שמתאים לו, לפי טווח ה-BMI שמומלץ על ידי ארגון הבריאות העולמי (18.5–24.9).",
+      "lead": "הזינו את הגובה וראו את טווח המשקל שנחשב בריא עבורו.",
+      "form": {},
+      "result": {
+        "target": "טווח המשקל הבריא לגובה שלכם",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "נקודת ייחוס באמצע הטווח: כ-{n} {unit}",
+        "note": "זוהי הנחיה כללית המבוססת על BMI. גם שרירים, מבנה עצמות, גיל ובריאות משפיעים."
+      },
+      "how": [
+        "המחשבון משתמש ב**טווח BMI של 18.5–24.9**, שארגון הבריאות העולמי מגדיר כמשקל תקין למבוגרים. הוא הופך את הטווח הזה לקילוגרמים או לליברות לפי הגובה שלכם: משקל = BMI × גובה² (במטרים).",
+        "נקודת הייחוס באמצע הטווח מבוססת על BMI של כ-22. זו רק נקודה בתוך הטווח הבריא, לא יעד שחייבים להגיע אליו.",
+        "BMI אינו מבחין בין שריר לשומן, ולכן אנשים שריריים מאוד עשויים לשקול יותר מהטווח ועדיין להיות בריאים. _אם את בהיריון, מתחת לגיל 18 או עם מצב רפואי, שאלו את הרופא איזה משקל מתאים לכם._"
+      ],
+      "faq": [
+        [
+          "האם יש משקל אידיאלי אחד?",
+          "לא. משקל בריא הוא טווח, והוא תלוי בגובה, במבנה הגוף, בגיל ובבריאות. לכן המחשבון מציג טווח."
+        ],
+        [
+          "האם זה מתאים לגברים ולנשים?",
+          "טווח ה-BMI שבו משתמשים כאן זהה לגברים ולנשים מבוגרים. הרכב הגוף שונה בין אנשים, ולכן התייחסו לתוצאה כאל הנחיה."
+        ],
+        [
+          "אני שוקל/ת יותר מהטווח אבל מתאמן/ת הרבה. זו בעיה?",
+          "לא בהכרח. BMI אינו מפריד בין שריר לשומן. היקף המותניים וחוות דעת של רופא נותנים תמונה מלאה יותר."
+        ],
+        [
+          "איך אפשר להגיע למשקל בריא?",
+          "שינויים קטנים ויציבים באכילה ובפעילות הגופנית עובדים הכי טוב. מחשבון הירידה במשקל שלנו מראה כמה זמן לוקח יעד בקצב ריאלי."
+        ]
+      ],
+      "sources": [
+        [
+          "ארגון הבריאות העולמי — השמנה ועודף משקל (דף מידע)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — מחשבון BMI למשקל בריא",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "hi": {
+      "name": "आदर्श वज़न कैलकुलेटर",
+      "title": "आदर्श वज़न कैलकुलेटर: लंबाई के अनुसार स्वस्थ वज़न सीमा",
+      "meta": "मुफ़्त आदर्श वज़न कैलकुलेटर: अपनी लंबाई डालें और WHO द्वारा सुझाई गई BMI सीमा (18.5–24.9) के आधार पर उसके लिए स्वस्थ वज़न सीमा देखें।",
+      "lead": "अपनी लंबाई डालें और देखें कि उसके लिए कौन सी वज़न सीमा स्वस्थ मानी जाती है।",
+      "form": {},
+      "result": {
+        "target": "आपकी लंबाई के लिए स्वस्थ वज़न सीमा",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "सीमा के बीच का संदर्भ: लगभग {n} {unit}",
+        "note": "यह BMI पर आधारित एक सामान्य मार्गदर्शन है। मांसपेशियाँ, हड्डियों की बनावट, उम्र और सेहत भी मायने रखती हैं।"
+      },
+      "how": [
+        "कैलकुलेटर **18.5–24.9 की BMI सीमा** इस्तेमाल करता है, जिसे WHO वयस्कों के लिए स्वस्थ वज़न मानता है। यह उस सीमा को आपकी लंबाई के हिसाब से किलो या पाउंड में बदलता है: वज़न = BMI × लंबाई² (मीटर में)।",
+        "सीमा के बीच का संदर्भ लगभग 22 की BMI पर आधारित है। यह स्वस्थ सीमा के भीतर बस एक बिंदु है, कोई ऐसा लक्ष्य नहीं जिसे पाना ज़रूरी हो।",
+        "BMI मांसपेशियों और चर्बी में फ़र्क नहीं करती, इसलिए बहुत मांसल लोगों का वज़न सीमा से ज़्यादा होकर भी वे स्वस्थ हो सकते हैं। _अगर आप गर्भवती हैं, 18 से कम उम्र के हैं या कोई बीमारी है, तो अपने डॉक्टर से पूछें कि आपके लिए कौन सा वज़न सही है।_"
+      ],
+      "faq": [
+        [
+          "क्या कोई एक आदर्श वज़न होता है?",
+          "नहीं। स्वस्थ वज़न एक सीमा होती है, जो लंबाई, कद-काठी, उम्र और सेहत पर निर्भर करती है। इसीलिए कैलकुलेटर एक सीमा दिखाता है।"
+        ],
+        [
+          "क्या यह पुरुषों और महिलाओं दोनों के लिए काम करता है?",
+          "यहाँ इस्तेमाल की गई BMI सीमा वयस्क पुरुषों और महिलाओं के लिए एक ही है। शरीर की बनावट लोगों में अलग होती है, इसलिए नतीजे को मार्गदर्शन की तरह लें।"
+        ],
+        [
+          "मेरा वज़न सीमा से ज़्यादा है, लेकिन मैं खूब ट्रेनिंग करता/करती हूँ। क्या यह समस्या है?",
+          "ज़रूरी नहीं। BMI मांसपेशियों और चर्बी को अलग नहीं करती। कमर का नाप और डॉक्टर की राय से पूरी तस्वीर मिलती है।"
+        ],
+        [
+          "मैं स्वस्थ वज़न तक कैसे पहुँच सकता/सकती हूँ?",
+          "खान-पान और सक्रियता में छोटे, लगातार बदलाव सबसे अच्छा काम करते हैं। हमारा वज़न घटाने का कैलकुलेटर दिखाता है कि यथार्थवादी गति से लक्ष्य में कितना समय लगेगा।"
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — मोटापा और अधिक वज़न (फ़ैक्ट शीट)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — BMI स्वस्थ वज़न कैलकुलेटर",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "id": {
+      "name": "Kalkulator berat badan ideal",
+      "title": "Kalkulator berat badan ideal: rentang berat sehat menurut tinggi",
+      "meta": "Kalkulator berat badan ideal gratis: masukkan tinggi badan Anda dan lihat rentang berat badan sehat untuknya, berdasarkan rentang BMI yang direkomendasikan WHO (18,5–24,9).",
+      "lead": "Masukkan tinggi badan Anda untuk melihat rentang berat badan yang dianggap sehat untuknya.",
+      "form": {},
+      "result": {
+        "target": "Rentang berat badan sehat untuk tinggi Anda",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Acuan tengah rentang: sekitar {n} {unit}",
+        "note": "Ini panduan umum berdasarkan BMI. Otot, struktur tulang, usia, dan kesehatan juga berpengaruh."
+      },
+      "how": [
+        "Kalkulator ini memakai **rentang BMI 18,5–24,9**, yang oleh WHO digolongkan sebagai berat badan sehat untuk orang dewasa. Rentang itu diubah menjadi kilogram atau pon sesuai tinggi Anda: berat = BMI × tinggi² (dalam meter).",
+        "Acuan tengah rentang memakai BMI sekitar 22. Itu hanya satu titik di dalam rentang sehat, bukan target yang harus Anda capai.",
+        "BMI tidak membedakan otot dari lemak, sehingga orang yang sangat berotot bisa lebih berat dari rentang tersebut dan tetap sehat. _Jika Anda sedang hamil, berusia di bawah 18 tahun, atau memiliki kondisi medis, tanyakan kepada dokter berapa berat badan yang tepat untuk Anda._"
+      ],
+      "faq": [
+        [
+          "Apakah ada satu berat badan ideal?",
+          "Tidak. Berat badan sehat adalah sebuah rentang, dan bergantung pada tinggi, postur, usia, dan kesehatan. Itu sebabnya kalkulator menampilkan rentang."
+        ],
+        [
+          "Apakah berlaku untuk pria dan wanita?",
+          "Rentang BMI yang dipakai di sini sama untuk pria dan wanita dewasa. Komposisi tubuh berbeda antarorang, jadi anggap hasilnya sebagai panduan."
+        ],
+        [
+          "Berat saya di atas rentang tetapi saya rutin berlatih. Apakah itu masalah?",
+          "Belum tentu. BMI tidak memisahkan otot dari lemak. Ukuran pinggang dan pendapat dokter memberi gambaran yang lebih lengkap."
+        ],
+        [
+          "Bagaimana cara mencapai berat badan sehat?",
+          "Perubahan kecil yang stabil pada pola makan dan tingkat aktivitas paling efektif. Kalkulator penurunan berat badan kami menunjukkan berapa lama target tercapai dengan kecepatan yang realistis."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Obesitas dan kelebihan berat badan (lembar fakta)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Kalkulator berat badan sehat berdasarkan BMI",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "it": {
+      "name": "Calcolo peso ideale",
+      "title": "Calcolo peso ideale: il tuo peso sano in base all'altezza",
+      "meta": "Calcolo peso ideale gratuito: inserisci la tua altezza e scopri l'intervallo di peso sano, basato sull'intervallo di BMI raccomandato dall'OMS (18,5–24,9).",
+      "lead": "Inserisci la tua altezza per vedere l'intervallo di peso considerato sano per te.",
+      "form": {},
+      "result": {
+        "target": "Intervallo di peso sano per la tua altezza",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Un riferimento a metà intervallo: circa {n} {unit}",
+        "note": "È una guida generale basata sul BMI. Contano anche massa muscolare, struttura ossea, età e salute."
+      },
+      "how": [
+        "Il calcolatore usa **l'intervallo di BMI 18,5–24,9**, che l'OMS considera peso sano per gli adulti. Lo trasforma in chilogrammi o libbre per la tua altezza: peso = BMI × altezza² (in metri).",
+        "Il riferimento a metà intervallo usa un BMI di circa 22. È solo un punto all'interno dell'intervallo sano, non un obiettivo da raggiungere a ogni costo.",
+        "Il BMI non distingue il muscolo dal grasso, quindi una persona molto muscolosa può pesare più dell'intervallo ed essere comunque in salute. _Se sei in gravidanza, hai meno di 18 anni o hai una condizione medica, chiedi al tuo medico quale peso è giusto per te._"
+      ],
+      "faq": [
+        [
+          "Esiste un solo peso ideale?",
+          "No. Il peso sano è un intervallo e dipende da altezza, corporatura, età e salute. Per questo il calcolatore mostra un intervallo."
+        ],
+        [
+          "Funziona per uomini e donne?",
+          "L'intervallo di BMI usato qui è lo stesso per uomini e donne adulti. La composizione corporea cambia da persona a persona, quindi considera il risultato come una guida."
+        ],
+        [
+          "Peso più dell'intervallo ma mi alleno molto. È un problema?",
+          "Non necessariamente. Il BMI non separa il muscolo dal grasso. La circonferenza vita e il parere di un medico offrono un quadro più completo."
+        ],
+        [
+          "Come posso raggiungere un peso sano?",
+          "Piccoli cambiamenti costanti nell'alimentazione e nell'attività fisica funzionano meglio. Il nostro calcolatore per dimagrire mostra quanto tempo richiede un obiettivo a un ritmo realistico."
+        ]
+      ],
+      "sources": [
+        [
+          "OMS — Obesità e sovrappeso (scheda informativa)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Calcolatore del peso sano in base al BMI",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "ja": {
+      "name": "適正体重計算",
+      "title": "適正体重計算：身長からわかる健康的な体重の範囲",
+      "meta": "無料の適正体重計算ツール。身長を入力すると、WHOが推奨するBMIの範囲（18.5〜24.9）に基づく、健康的な体重の範囲がわかります。",
+      "lead": "身長を入力すると、健康的とされる体重の範囲がわかります。",
+      "form": {},
+      "result": {
+        "target": "あなたの身長に対する健康的な体重の範囲",
+        "range": "{lo}〜{hi} {unit}",
+        "mid": "範囲の中間の目安：約 {n} {unit}",
+        "note": "BMIに基づく一般的な目安です。筋肉量、骨格、年齢、健康状態も関係します。"
+      },
+      "how": [
+        "この計算ツールは、WHOが成人の健康的な体重と分類する **BMI 18.5〜24.9** の範囲を使っています。この範囲を身長に合わせてキログラムまたはポンドに換算します：体重 = BMI × 身長²（メートル）。",
+        "範囲の中間の目安はBMI 22前後を使っています。健康的な範囲内の一点にすぎず、必ず達成すべき目標ではありません。",
+        "BMIは筋肉と脂肪を区別しないため、筋肉量の多い人は範囲より重くても健康な場合があります。_妊娠中の方、18歳未満の方、持病のある方は、適切な体重について医師に相談してください。_"
+      ],
+      "faq": [
+        [
+          "理想の体重は1つだけですか？",
+          "いいえ。健康的な体重は範囲で、身長、体格、年齢、健康状態によって変わります。そのため、この計算ツールは範囲を表示します。"
+        ],
+        [
+          "男性と女性の両方に使えますか？",
+          "ここで使うBMIの範囲は、成人の男女で同じです。体組成は人によって異なるため、結果は目安として使ってください。"
+        ],
+        [
+          "範囲より重いのですが、よくトレーニングしています。問題ですか？",
+          "必ずしも問題ではありません。BMIは筋肉と脂肪を区別しません。腹囲や医師の意見を合わせると、より全体像がわかります。"
+        ],
+        [
+          "健康的な体重にするにはどうすればよいですか？",
+          "食事と運動量を少しずつ、着実に変えていくのが効果的です。減量計算ツールで、現実的なペースで目標までにかかる期間がわかります。"
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — 肥満と過体重（ファクトシート）",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — BMI 健康体重計算ツール",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "적정 체중 계산기",
+      "title": "적정 체중 계산기: 키별 건강 체중 범위 확인",
+      "meta": "무료 적정 체중 계산기: 키를 입력하면 WHO가 권장하는 BMI 범위(18.5–24.9)를 기준으로 건강 체중 범위를 알려드립니다.",
+      "lead": "키를 입력하면 그에 맞는 건강 체중 범위를 확인할 수 있습니다.",
+      "form": {},
+      "result": {
+        "target": "내 키에 맞는 건강 체중 범위",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "중간값 기준: 약 {n} {unit}",
+        "note": "BMI를 기준으로 한 일반적인 가이드입니다. 근육량, 골격, 나이, 건강 상태도 중요합니다."
+      },
+      "how": [
+        "이 계산기는 WHO가 성인의 건강 체중으로 분류하는 **BMI 18.5–24.9** 범위를 사용합니다. 이 범위를 키에 맞춰 kg 또는 lb로 환산합니다: 체중 = BMI × 키²(미터 기준).",
+        "중간값 기준은 BMI 약 22를 사용합니다. 건강 범위 안의 한 지점일 뿐, 꼭 달성해야 하는 목표가 아닙니다.",
+        "BMI는 근육과 지방을 구분하지 못하므로, 근육이 매우 많은 사람은 범위보다 체중이 더 나가도 건강할 수 있습니다. _임신 중이거나 18세 미만이거나 질환이 있다면 적정 체중에 대해 의사와 상담하세요._"
+      ],
+      "faq": [
+        [
+          "이상적인 체중은 딱 하나인가요?",
+          "아니요. 건강 체중은 범위이며 키, 체격, 나이, 건강 상태에 따라 달라집니다. 그래서 계산기가 범위를 보여줍니다."
+        ],
+        [
+          "남성과 여성 모두 쓸 수 있나요?",
+          "여기서 쓰는 BMI 범위는 성인 남녀에게 같습니다. 체성분은 사람마다 다르니 결과는 참고용으로 보세요."
+        ],
+        [
+          "범위보다 체중이 더 나가지만 운동을 많이 해요. 문제인가요?",
+          "꼭 그렇지는 않습니다. BMI는 근육과 지방을 구분하지 않습니다. 허리둘레와 의사의 소견을 함께 보면 더 정확합니다."
+        ],
+        [
+          "건강 체중에 도달하려면 어떻게 해야 하나요?",
+          "식습관과 활동량을 작게, 꾸준히 바꾸는 것이 가장 좋습니다. 체중 감량 계산기로 현실적인 속도로 목표까지 걸리는 기간을 확인해 보세요."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — 비만과 과체중 (팩트시트)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — BMI 건강 체중 계산기",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "nl": {
+      "name": "Ideaal gewicht berekenen",
+      "title": "Ideaal gewicht berekenen: je gezonde gewicht op basis van lengte",
+      "meta": "Gratis ideaal gewicht berekenen: vul je lengte in en zie het gezonde gewichtsbereik daarbij, gebaseerd op het door de WHO aanbevolen BMI-bereik (18,5–24,9).",
+      "lead": "Vul je lengte in om te zien welk gewichtsbereik daarbij als gezond geldt.",
+      "form": {},
+      "result": {
+        "target": "Gezond gewichtsbereik voor jouw lengte",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Een referentie in het midden: ongeveer {n} {unit}",
+        "note": "Dit is een algemene richtlijn op basis van BMI. Spieren, botbouw, leeftijd en gezondheid spelen ook mee."
+      },
+      "how": [
+        "De calculator gebruikt het **BMI-bereik van 18,5–24,9**, dat de WHO als gezond gewicht voor volwassenen beschouwt. Het zet dat bereik om in kilo's of ponden voor jouw lengte: gewicht = BMI × lengte² (in meters).",
+        "De referentie in het midden gebruikt een BMI van ongeveer 22. Het is slechts een punt binnen het gezonde bereik, geen doel dat je moet halen.",
+        "BMI maakt geen onderscheid tussen spieren en vet, dus zeer gespierde mensen kunnen meer wegen dan het bereik en toch gezond zijn. _Ben je zwanger, jonger dan 18 of heb je een medische aandoening, vraag dan je huisarts welk gewicht voor jou goed is._"
+      ],
+      "faq": [
+        [
+          "Bestaat er één ideaal gewicht?",
+          "Nee. Een gezond gewicht is een bereik en hangt af van lengte, bouw, leeftijd en gezondheid. Daarom toont de calculator een bereik."
+        ],
+        [
+          "Werkt het voor mannen en vrouwen?",
+          "Het hier gebruikte BMI-bereik is hetzelfde voor volwassen mannen en vrouwen. Lichaamssamenstelling verschilt per persoon, dus zie het resultaat als richtlijn."
+        ],
+        [
+          "Ik weeg meer dan het bereik, maar ik train veel. Is dat een probleem?",
+          "Niet per se. BMI scheidt spieren niet van vet. Taille-omvang en het oordeel van een arts geven een completer beeld."
+        ],
+        [
+          "Hoe kan ik een gezond gewicht bereiken?",
+          "Kleine, constante veranderingen in wat je eet en hoe actief je bent werken het best. Onze afvalcalculator laat zien hoe lang een doel duurt bij een realistisch tempo."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Obesitas en overgewicht (factsheet)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — BMI-calculator voor gezond gewicht",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Kalkulator idealnej wagi",
+      "title": "Kalkulator idealnej wagi: zdrowy zakres wagi według wzrostu",
+      "meta": "Darmowy kalkulator idealnej wagi: podaj wzrost i zobacz zdrowy zakres wagi, oparty na zakresie BMI zalecanym przez WHO (18,5–24,9).",
+      "lead": "Podaj swój wzrost, aby zobaczyć zakres wagi uznawany za zdrowy dla tego wzrostu.",
+      "form": {},
+      "result": {
+        "target": "Zdrowy zakres wagi dla twojego wzrostu",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Wartość orientacyjna ze środka zakresu: około {n} {unit}",
+        "note": "To ogólna wskazówka oparta na BMI. Znaczenie mają także mięśnie, budowa kości, wiek i zdrowie."
+      },
+      "how": [
+        "Kalkulator używa **zakresu BMI 18,5–24,9**, który WHO uznaje za zdrową wagę u dorosłych. Przelicza ten zakres na kilogramy lub funty dla twojego wzrostu: waga = BMI × wzrost² (w metrach).",
+        "Wartość ze środka zakresu opiera się na BMI około 22. To tylko punkt w zdrowym zakresie, a nie cel, który musisz osiągnąć.",
+        "BMI nie odróżnia mięśni od tłuszczu, więc osoby bardzo umięśnione mogą ważyć więcej niż wynosi zakres i nadal być zdrowe. _Jeśli jesteś w ciąży, masz mniej niż 18 lat lub chorujesz, zapytaj lekarza, jaka waga jest dla ciebie odpowiednia._"
+      ],
+      "faq": [
+        [
+          "Czy istnieje jedna idealna waga?",
+          "Nie. Zdrowa waga to zakres, który zależy od wzrostu, budowy ciała, wieku i zdrowia. Dlatego kalkulator pokazuje zakres."
+        ],
+        [
+          "Czy działa dla mężczyzn i kobiet?",
+          "Zakres BMI użyty tutaj jest taki sam dla dorosłych mężczyzn i kobiet. Skład ciała bywa różny, więc traktuj wynik jako wskazówkę."
+        ],
+        [
+          "Ważę więcej niż wynosi zakres, ale dużo trenuję. Czy to problem?",
+          "Niekoniecznie. BMI nie odróżnia mięśni od tłuszczu. Obwód talii i opinia lekarza dają pełniejszy obraz."
+        ],
+        [
+          "Jak osiągnąć zdrową wagę?",
+          "Najlepiej sprawdzają się małe, stałe zmiany w jedzeniu i aktywności. Nasz kalkulator odchudzania pokazuje, ile trwa osiągnięcie celu w realistycznym tempie."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Otyłość i nadwaga (karta informacyjna)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — kalkulator BMI i zdrowej wagi",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "pt": {
+      "name": "Calculadora de peso ideal",
+      "title": "Calculadora de peso ideal: faixa de peso saudável por altura",
+      "meta": "Calculadora de peso ideal gratuita: indique a sua altura e veja a faixa de peso saudável para ela, com base no intervalo de IMC recomendado pela OMS (18,5–24,9).",
+      "lead": "Indique a sua altura para ver a faixa de peso considerada saudável para ela.",
+      "form": {},
+      "result": {
+        "target": "Faixa de peso saudável para a sua altura",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Uma referência intermédia: cerca de {n} {unit}",
+        "note": "Este é um guia geral baseado no IMC. Músculo, estrutura óssea, idade e saúde também contam."
+      },
+      "how": [
+        "A calculadora usa o **intervalo de IMC de 18,5–24,9**, que a OMS classifica como peso saudável para adultos. Converte esse intervalo em quilogramas ou libras para a sua altura: peso = IMC × altura² (em metros).",
+        "A referência intermédia usa um IMC de cerca de 22. É apenas um ponto dentro da faixa saudável, não uma meta que você tenha de atingir.",
+        "O IMC não distingue músculo de gordura, por isso pessoas muito musculadas podem pesar mais do que a faixa e ainda assim ser saudáveis. _Se está grávida, tem menos de 18 anos ou tem alguma condição médica, pergunte ao seu médico qual é o peso certo para si._"
+      ],
+      "faq": [
+        [
+          "Existe um único peso ideal?",
+          "Não. O peso saudável é uma faixa e depende da altura, da constituição, da idade e da saúde. É por isso que a calculadora mostra uma faixa."
+        ],
+        [
+          "Funciona para homens e mulheres?",
+          "O intervalo de IMC usado aqui é o mesmo para homens e mulheres adultos. A composição corporal difere de pessoa para pessoa, por isso trate o resultado como um guia."
+        ],
+        [
+          "Peso mais do que a faixa, mas treino muito. Isso é um problema?",
+          "Não necessariamente. O IMC não separa músculo de gordura. A medida da cintura e a opinião de um médico dão uma imagem mais completa."
+        ],
+        [
+          "Como posso chegar a um peso saudável?",
+          "Mudanças pequenas e constantes na alimentação e na atividade física funcionam melhor. A nossa calculadora de perda de peso mostra quanto tempo uma meta leva a um ritmo realista."
+        ]
+      ],
+      "sources": [
+        [
+          "OMS — Obesidade e excesso de peso (folha informativa)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Calculadora de IMC e peso saudável",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Калькулятор идеального веса",
+      "title": "Калькулятор идеального веса: нормальный вес по росту",
+      "meta": "Бесплатный калькулятор идеального веса: введите рост и узнайте диапазон здорового веса для него по рекомендованному ВОЗ диапазону ИМТ (18,5–24,9).",
+      "lead": "Введите рост, чтобы увидеть диапазон веса, который считается здоровым для него.",
+      "form": {},
+      "result": {
+        "target": "Диапазон здорового веса для вашего роста",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Ориентир в середине диапазона: около {n} {unit}",
+        "note": "Это общий ориентир на основе ИМТ. Также важны мышечная масса, строение костей, возраст и здоровье."
+      },
+      "how": [
+        "Калькулятор использует **диапазон ИМТ 18,5–24,9**, который ВОЗ относит к здоровому весу для взрослых. Он переводит этот диапазон в килограммы или фунты для вашего роста: вес = ИМТ × рост² (в метрах).",
+        "Ориентир в середине диапазона рассчитан по ИМТ около 22. Это лишь точка внутри здорового диапазона, а не цель, которой нужно достичь.",
+        "ИМТ не отличает мышцы от жира, поэтому у очень мускулистых людей вес может быть выше диапазона, и при этом они здоровы. _Если вы беременны, вам нет 18 лет или у вас есть заболевание, спросите врача, какой вес подходит именно вам._"
+      ],
+      "faq": [
+        [
+          "Существует ли один идеальный вес?",
+          "Нет. Здоровый вес — это диапазон, и он зависит от роста, телосложения, возраста и здоровья. Поэтому калькулятор показывает диапазон."
+        ],
+        [
+          "Подходит ли он и мужчинам, и женщинам?",
+          "Используемый здесь диапазон ИМТ одинаков для взрослых мужчин и женщин. Состав тела у людей разный, поэтому считайте результат ориентиром."
+        ],
+        [
+          "Мой вес выше диапазона, но я много тренируюсь. Это проблема?",
+          "Не обязательно. ИМТ не разделяет мышцы и жир. Более полную картину дают объём талии и мнение врача."
+        ],
+        [
+          "Как прийти к здоровому весу?",
+          "Лучше всего работают небольшие, но постоянные изменения в питании и активности. Наш калькулятор похудения показывает, сколько времени займёт цель в реалистичном темпе."
+        ]
+      ],
+      "sources": [
+        [
+          "ВОЗ — Ожирение и избыточный вес (информационный бюллетень)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — калькулятор ИМТ и здорового веса",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "sv": {
+      "name": "Idealviktskalkylator",
+      "title": "Idealvikt: räkna ut ditt hälsosamma viktintervall efter längd",
+      "meta": "Kostnadsfri idealviktskalkylator: ange din längd och se vilket viktintervall som är hälsosamt för den, baserat på WHO:s rekommenderade BMI-intervall (18,5–24,9).",
+      "lead": "Ange din längd och se vilket viktintervall som räknas som hälsosamt för den.",
+      "form": {},
+      "result": {
+        "target": "Hälsosamt viktintervall för din längd",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "En referens i mitten av intervallet: cirka {n} {unit}",
+        "note": "Detta är en allmän vägledning baserad på BMI. Muskler, benbyggnad, ålder och hälsa spelar också roll."
+      },
+      "how": [
+        "Kalkylatorn använder **BMI-intervallet 18,5–24,9**, som WHO klassar som hälsosam vikt för vuxna. Den räknar om intervallet till kilo eller pund för din längd: vikt = BMI × längd² (i meter).",
+        "Referensen i mitten av intervallet utgår från ett BMI på cirka 22. Det är bara en punkt inom det hälsosamma intervallet, inte ett mål du måste nå.",
+        "BMI skiljer inte på muskler och fett, så mycket vältränade personer kan väga mer än intervallet och ändå vara friska. _Om du är gravid, under 18 år eller har en sjukdom, fråga din läkare vilken vikt som är rätt för dig._"
+      ],
+      "faq": [
+        [
+          "Finns det en enda idealvikt?",
+          "Nej. Hälsosam vikt är ett intervall och beror på längd, kroppsbyggnad, ålder och hälsa. Därför visar kalkylatorn ett intervall."
+        ],
+        [
+          "Fungerar den för både män och kvinnor?",
+          "BMI-intervallet som används här är detsamma för vuxna män och kvinnor. Kroppssammansättningen skiljer sig mellan människor, så se resultatet som en vägledning."
+        ],
+        [
+          "Jag väger mer än intervallet men tränar mycket. Är det ett problem?",
+          "Inte nödvändigtvis. BMI skiljer inte på muskler och fett. Midjemått och en läkares bedömning ger en fullständigare bild."
+        ],
+        [
+          "Hur kan jag nå en hälsosam vikt?",
+          "Små, stadiga förändringar i vad du äter och hur aktiv du är fungerar bäst. Vår viktminskningskalkylator visar hur lång tid ett mål tar i en realistisk takt."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Fetma och övervikt (faktablad)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — BMI-kalkylator för hälsosam vikt",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "th": {
+      "name": "คำนวณน้ำหนักที่เหมาะสม",
+      "title": "คำนวณน้ำหนักที่เหมาะสม: ช่วงน้ำหนักที่ดีต่อสุขภาพตามส่วนสูง",
+      "meta": "เครื่องคำนวณน้ำหนักที่เหมาะสมฟรี: ใส่ส่วนสูงของคุณเพื่อดูช่วงน้ำหนักที่ดีต่อสุขภาพ โดยอิงช่วง BMI ที่ WHO แนะนำ (18.5–24.9)",
+      "lead": "ใส่ส่วนสูงของคุณเพื่อดูช่วงน้ำหนักที่ถือว่าดีต่อสุขภาพสำหรับส่วนสูงนั้น",
+      "form": {},
+      "result": {
+        "target": "ช่วงน้ำหนักที่ดีต่อสุขภาพสำหรับส่วนสูงของคุณ",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "ค่าอ้างอิงกลางช่วง: ประมาณ {n} {unit}",
+        "note": "นี่เป็นเพียงแนวทางทั่วไปจาก BMI ปัจจัยอื่นอย่างกล้ามเนื้อ โครงสร้างกระดูก อายุ และสุขภาพก็สำคัญเช่นกัน"
+      },
+      "how": [
+        "เครื่องคำนวณใช้ **ช่วง BMI 18.5–24.9** ซึ่ง WHO จัดว่าเป็นน้ำหนักที่ดีต่อสุขภาพสำหรับผู้ใหญ่ โดยแปลงช่วงนี้เป็นกิโลกรัมหรือปอนด์ตามส่วนสูงของคุณ: น้ำหนัก = BMI × ส่วนสูง² (เป็นเมตร)",
+        "ค่าอ้างอิงกลางช่วงใช้ BMI ประมาณ 22 เป็นเพียงจุดหนึ่งภายในช่วงที่ดีต่อสุขภาพ ไม่ใช่เป้าหมายที่ต้องไปให้ถึง",
+        "BMI แยกกล้ามเนื้อออกจากไขมันไม่ได้ ผู้ที่มีกล้ามเนื้อมากจึงอาจหนักกว่าช่วงนี้และยังมีสุขภาพดี _หากคุณตั้งครรภ์ อายุต่ำกว่า 18 ปี หรือมีโรคประจำตัว ให้ถามแพทย์ว่าน้ำหนักเท่าไรเหมาะกับคุณ_"
+      ],
+      "faq": [
+        [
+          "มีน้ำหนักในอุดมคติเพียงค่าเดียวไหม?",
+          "ไม่มี น้ำหนักที่ดีต่อสุขภาพเป็นช่วง และขึ้นอยู่กับส่วนสูง รูปร่าง อายุ และสุขภาพ เครื่องคำนวณจึงแสดงเป็นช่วง"
+        ],
+        [
+          "ใช้ได้กับทั้งผู้ชายและผู้หญิงไหม?",
+          "ช่วง BMI ที่ใช้ที่นี่เหมือนกันสำหรับผู้ใหญ่ชายและหญิง องค์ประกอบของร่างกายแต่ละคนต่างกัน จึงควรมองผลลัพธ์เป็นแนวทาง"
+        ],
+        [
+          "น้ำหนักฉันเกินช่วงแต่ออกกำลังกายหนัก เป็นปัญหาไหม?",
+          "ไม่จำเป็น BMI แยกกล้ามเนื้อออกจากไขมันไม่ได้ ขนาดเอวและความเห็นของแพทย์ช่วยให้เห็นภาพที่ครบกว่า"
+        ],
+        [
+          "จะมีน้ำหนักที่ดีต่อสุขภาพได้อย่างไร?",
+          "การเปลี่ยนแปลงเล็ก ๆ อย่างสม่ำเสมอในสิ่งที่กินและการเคลื่อนไหวได้ผลดีที่สุด เครื่องคำนวณการลดน้ำหนักของเราแสดงว่าเป้าหมายใช้เวลานานเท่าไรด้วยความเร็วที่สมเหตุสมผล"
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — โรคอ้วนและน้ำหนักเกิน (เอกสารข้อเท็จจริง)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — เครื่องคำนวณ BMI และน้ำหนักที่ดีต่อสุขภาพ",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "tr": {
+      "name": "İdeal kilo hesaplama",
+      "title": "İdeal kilo hesaplama: boyunuza göre sağlıklı kilo aralığı",
+      "meta": "Ücretsiz ideal kilo hesaplama: boyunuzu girin, DSÖ'nün önerdiği BMI aralığına (18,5–24,9) göre boyunuza uygun sağlıklı kilo aralığını görün.",
+      "lead": "Boyunuzu girin, boyunuz için sağlıklı sayılan kilo aralığını görün.",
+      "form": {},
+      "result": {
+        "target": "Boyunuza uygun sağlıklı kilo aralığı",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Orta aralık referansı: yaklaşık {n} {unit}",
+        "note": "Bu, BMI'ye dayanan genel bir rehberdir. Kas, kemik yapısı, yaş ve sağlık durumu da önemlidir."
+      },
+      "how": [
+        "Hesaplayıcı, DSÖ'nün yetişkinler için sağlıklı kilo olarak sınıflandırdığı **18,5–24,9 BMI aralığını** kullanır. Bu aralığı boyunuza göre kilogram veya pound'a çevirir: kilo = BMI × boy² (metre cinsinden).",
+        "Orta aralık referansı yaklaşık 22 BMI kullanır. Bu yalnızca sağlıklı aralık içinde bir noktadır, ulaşmanız gereken bir hedef değildir.",
+        "BMI kası yağdan ayırmaz; bu yüzden çok kaslı kişiler aralığın üzerinde olup yine de sağlıklı olabilir. _Hamileyseniz, 18 yaşın altındaysanız veya bir sağlık sorununuz varsa, size uygun kilonun ne olduğunu doktorunuza sorun._"
+      ],
+      "faq": [
+        [
+          "Tek bir ideal kilo var mı?",
+          "Hayır. Sağlıklı kilo bir aralıktır; boya, vücut yapısına, yaşa ve sağlığa bağlıdır. Hesaplayıcı bu yüzden bir aralık gösterir."
+        ],
+        [
+          "Erkekler ve kadınlar için de çalışır mı?",
+          "Burada kullanılan BMI aralığı yetişkin erkekler ve kadınlar için aynıdır. Vücut kompozisyonu kişiden kişiye değiştiği için sonucu bir rehber olarak değerlendirin."
+        ],
+        [
+          "Aralığın üzerindeyim ama çok spor yapıyorum. Sorun mu?",
+          "Şart değil. BMI kası yağdan ayırmaz. Bel çevresi ve doktor görüşü daha eksiksiz bir tablo sunar."
+        ],
+        [
+          "Sağlıklı kiloya nasıl ulaşabilirim?",
+          "Beslenmenizde ve hareket düzeyinizde küçük, istikrarlı değişiklikler en iyi sonucu verir. Kilo verme hesaplayıcımız, gerçekçi bir tempoda bir hedefin ne kadar sürdüğünü gösterir."
+        ]
+      ],
+      "sources": [
+        [
+          "DSÖ — Obezite ve fazla kilo (bilgi notu)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — BMI sağlıklı kilo hesaplayıcı",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Калькулятор ідеальної ваги",
+      "title": "Калькулятор ідеальної ваги: здоровий діапазон ваги за зростом",
+      "meta": "Безкоштовний калькулятор ідеальної ваги: введіть зріст і дізнайтеся здоровий діапазон ваги на основі рекомендованого ВООЗ діапазону ІМТ (18,5–24,9).",
+      "lead": "Введіть свій зріст, щоб побачити діапазон ваги, який вважається здоровим для нього.",
+      "form": {},
+      "result": {
+        "target": "Здоровий діапазон ваги для вашого зросту",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Орієнтир середини діапазону: близько {n} {unit}",
+        "note": "Це загальний орієнтир на основі ІМТ. М'язи, будова кісток, вік і стан здоров'я також мають значення."
+      },
+      "how": [
+        "Калькулятор використовує **діапазон ІМТ 18,5–24,9**, який ВООЗ вважає здоровою вагою для дорослих. Він переводить цей діапазон у кілограми або фунти для вашого зросту: вага = ІМТ × зріст² (у метрах).",
+        "Орієнтир середини діапазону використовує ІМТ близько 22. Це лише точка всередині здорового діапазону, а не ціль, якої треба досягти.",
+        "ІМТ не розрізняє м'язи та жир, тому дуже м'язисті люди можуть важити більше за діапазон і бути здоровими. _Якщо ви вагітні, вам немає 18 років або маєте захворювання, запитайте лікаря, яка вага підходить саме вам._"
+      ],
+      "faq": [
+        [
+          "Чи існує одна ідеальна вага?",
+          "Ні. Здорова вага — це діапазон, що залежить від зросту, статури, віку та стану здоров'я. Тому калькулятор показує діапазон."
+        ],
+        [
+          "Чи підходить він і чоловікам, і жінкам?",
+          "Діапазон ІМТ тут однаковий для дорослих чоловіків і жінок. Склад тіла в людей різний, тож сприймайте результат як орієнтир."
+        ],
+        [
+          "Я важу більше за діапазон, але багато тренуюся. Це проблема?",
+          "Не обов'язково. ІМТ не відокремлює м'язи від жиру. Повнішу картину дають обхват талії та думка лікаря."
+        ],
+        [
+          "Як досягти здорової ваги?",
+          "Найкраще працюють невеликі, але стабільні зміни в харчуванні та активності. Наш калькулятор схуднення показує, скільки часу займає мета за реалістичного темпу."
+        ]
+      ],
+      "sources": [
+        [
+          "ВООЗ — Ожиріння та надмірна вага (інформаційний бюлетень)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Калькулятор здорової ваги за ІМТ",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "vi": {
+      "name": "Tính cân nặng lý tưởng",
+      "title": "Tính cân nặng lý tưởng: khoảng cân nặng khỏe mạnh theo chiều cao",
+      "meta": "Công cụ tính cân nặng lý tưởng miễn phí: nhập chiều cao để xem khoảng cân nặng khỏe mạnh tương ứng, dựa trên khoảng BMI do WHO khuyến nghị (18,5–24,9).",
+      "lead": "Nhập chiều cao để xem khoảng cân nặng được coi là khỏe mạnh với chiều cao đó.",
+      "form": {},
+      "result": {
+        "target": "Khoảng cân nặng khỏe mạnh theo chiều cao của bạn",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Mức tham chiếu giữa khoảng: khoảng {n} {unit}",
+        "note": "Đây là hướng dẫn chung dựa trên BMI. Cơ bắp, cấu trúc xương, tuổi và sức khỏe cũng quan trọng."
+      },
+      "how": [
+        "Công cụ dùng **khoảng BMI 18,5–24,9**, được WHO xếp là cân nặng khỏe mạnh ở người trưởng thành. Công cụ đổi khoảng này sang kilôgam hoặc pound theo chiều cao của bạn: cân nặng = BMI × chiều cao² (tính bằng mét).",
+        "Mức tham chiếu giữa khoảng dùng BMI khoảng 22. Đó chỉ là một điểm nằm trong khoảng khỏe mạnh, không phải mục tiêu bắt buộc phải đạt.",
+        "BMI không phân biệt cơ bắp với mỡ, nên người có nhiều cơ bắp có thể nặng hơn khoảng này mà vẫn khỏe mạnh. _Nếu bạn đang mang thai, dưới 18 tuổi hoặc có bệnh lý, hãy hỏi bác sĩ về cân nặng phù hợp với bạn._"
+      ],
+      "faq": [
+        [
+          "Có một cân nặng lý tưởng duy nhất không?",
+          "Không. Cân nặng khỏe mạnh là một khoảng, và phụ thuộc vào chiều cao, vóc dáng, tuổi và sức khỏe. Vì vậy công cụ hiển thị một khoảng."
+        ],
+        [
+          "Công cụ có dùng được cho cả nam và nữ không?",
+          "Khoảng BMI ở đây giống nhau cho nam và nữ trưởng thành. Thành phần cơ thể khác nhau giữa mỗi người, nên hãy xem kết quả như một hướng dẫn."
+        ],
+        [
+          "Tôi nặng hơn khoảng này nhưng tập luyện nhiều. Có vấn đề không?",
+          "Không nhất thiết. BMI không phân biệt cơ bắp với mỡ. Vòng eo và ý kiến của bác sĩ cho bức tranh đầy đủ hơn."
+        ],
+        [
+          "Làm sao để đạt cân nặng khỏe mạnh?",
+          "Những thay đổi nhỏ, đều đặn trong ăn uống và mức độ vận động là hiệu quả nhất. Công cụ tính giảm cân của chúng tôi cho biết một mục tiêu mất bao lâu với tốc độ thực tế."
+        ]
+      ],
+      "sources": [
+        [
+          "WHO — Béo phì và thừa cân (tờ thông tin)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Công cụ tính BMI và cân nặng khỏe mạnh",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "zh": {
+      "name": "理想体重计算器",
+      "title": "理想体重计算器：按身高计算你的健康体重范围",
+      "meta": "免费理想体重计算器：输入身高，即可查看对应的健康体重范围，依据世界卫生组织推荐的 BMI 范围（18.5–24.9）。",
+      "lead": "输入你的身高，查看对应的健康体重范围。",
+      "form": {},
+      "result": {
+        "target": "你的身高对应的健康体重范围",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "中间参考值：约 {n} {unit}",
+        "note": "这只是基于 BMI 的一般参考。肌肉、骨骼结构、年龄和健康状况同样重要。"
+      },
+      "how": [
+        "计算器采用 **18.5–24.9 的 BMI 范围**，世界卫生组织将其视为成年人的健康体重。它根据你的身高把该范围换算成公斤或磅：体重 = BMI × 身高²（以米为单位）。",
+        "中间参考值采用约 22 的 BMI。它只是健康范围内的一个点，并不是你必须达到的目标。",
+        "BMI 无法区分肌肉和脂肪，因此肌肉发达的人体重可能超出该范围，但依然健康。_如果你正在怀孕、未满 18 岁或有健康问题，请咨询医生什么体重适合你。_"
+      ],
+      "faq": [
+        [
+          "理想体重只有一个数值吗？",
+          "不是。健康体重是一个范围，取决于身高、体型、年龄和健康状况。所以计算器给出的是一个范围。"
+        ],
+        [
+          "男性和女性都适用吗？",
+          "这里使用的 BMI 范围对成年男性和女性相同。不同人的身体成分有差异，所以请把结果当作参考。"
+        ],
+        [
+          "我的体重超出了范围，但我经常锻炼，这有问题吗？",
+          "不一定。BMI 无法区分肌肉和脂肪。腰围和医生的意见能提供更全面的判断。"
+        ],
+        [
+          "怎样才能达到健康体重？",
+          "在饮食和运动上做出小而稳定的改变效果最好。我们的减肥计算器会显示以现实的速度达成目标需要多长时间。"
+        ]
+      ],
+      "sources": [
+        [
+          "世界卫生组织——肥胖与超重（情况说明书）",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "英国国民医疗服务体系（NHS）——BMI 健康体重计算器",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
+        ]
+      ]
+    },
+    "el": {
+      "name": "Υπολογισμός ιδανικού βάρους",
+      "title": "Ιδανικό βάρος: υπολογισμός υγιούς βάρους ανά ύψος",
+      "meta": "Δωρεάν ιδανικό βάρος υπολογισμός: βάλτε το ύψος σας και δείτε το υγιές εύρος βάρους, με βάση το εύρος BMI που προτείνει ο ΠΟΥ (18.5–24.9).",
+      "lead": "Εισάγετε το ύψος σας για να δείτε το εύρος βάρους που θεωρείται υγιές για αυτό.",
+      "form": {},
+      "result": {
+        "target": "Υγιές εύρος βάρους για το ύψος σας",
+        "range": "{lo}–{hi} {unit}",
+        "mid": "Ενδεικτική τιμή στο μέσο του εύρους: περίπου {n} {unit}",
+        "note": "Αυτός είναι ένας γενικός οδηγός βασισμένος στον BMI. Μετράνε επίσης οι μύες, η σκελετική δομή, η ηλικία και η υγεία."
+      },
+      "how": [
+        "Ο υπολογιστής χρησιμοποιεί το **εύρος BMI 18.5–24.9**, που ο ΠΟΥ θεωρεί υγιές βάρος για ενήλικες. Μετατρέπει αυτό το εύρος σε κιλά ή λίβρες για το ύψος σας: βάρος = BMI × ύψος² (σε μέτρα).",
+        "Η ενδεικτική τιμή στο μέσο του εύρους βασίζεται σε BMI περίπου 22. Είναι απλώς ένα σημείο μέσα στο υγιές εύρος, όχι στόχος που πρέπει να πετύχετε.",
+        "Ο BMI δεν ξεχωρίζει τους μύες από το λίπος, οπότε άτομα με πολλούς μύες μπορεί να ζυγίζουν περισσότερο από το εύρος και να είναι υγιή. _Αν είστε έγκυος, κάτω των 18 ή έχετε κάποιο ιατρικό πρόβλημα, ρωτήστε τον γιατρό σας ποιο βάρος είναι κατάλληλο για εσάς._"
+      ],
+      "faq": [
+        [
+          "Υπάρχει ένα μόνο ιδανικό βάρος;",
+          "Όχι. Το υγιές βάρος είναι εύρος και εξαρτάται από το ύψος, την σωματική διάπλαση, την ηλικία και την υγεία. Γι' αυτό ο υπολογιστής δείχνει εύρος."
+        ],
+        [
+          "Ισχύει για άνδρες και γυναίκες;",
+          "Το εύρος BMI που χρησιμοποιείται εδώ είναι το ίδιο για ενήλικους άνδρες και γυναίκες. Η σύσταση του σώματος διαφέρει από άτομο σε άτομο, οπότε δείτε το αποτέλεσμα ως οδηγό."
+        ],
+        [
+          "Ζυγίζω πάνω από το εύρος αλλά γυμνάζομαι πολύ. Είναι πρόβλημα;",
+          "Όχι απαραίτητα. Ο BMI δεν ξεχωρίζει τους μύες από το λίπος. Η περίμετρος μέσης και η γνώμη του γιατρού δίνουν πληρέστερη εικόνα."
+        ],
+        [
+          "Πώς μπορώ να φτάσω σε υγιές βάρος;",
+          "Μικρές, σταθερές αλλαγές στη διατροφή και στη δραστηριότητα λειτουργούν καλύτερα. Ο υπολογιστής απώλειας βάρους δείχνει πόσο διαρκεί ένας στόχος με ρεαλιστικό ρυθμό."
+        ]
+      ],
+      "sources": [
+        [
+          "ΠΟΥ — Παχυσαρκία και υπέρβαρο (ενημερωτικό δελτίο)",
+          "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+        ],
+        [
+          "NHS — Υπολογιστής BMI και υγιούς βάρους",
+          "https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/"
         ]
       ]
     }
