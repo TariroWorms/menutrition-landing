@@ -192,7 +192,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
             for r in rel) + '</div></section>')
 
     url = SITE + path(lang, c['slug'])
-    title = U['title'].format(name=t['name'])
+    title = U['title'].format(name=t['name'], kcal100=round(dish['kcal']))
     description = U['meta'].format(name=t['name'], kcal100=round(dish['kcal']), kcalPortion=kcal_p, portion=portion)
     if ml:
         description = description.replace(f'{portion} g', f'{portion} ml').replace(f'{portion} г', f'{portion} мл').replace(f'({portion} غ)', f'({portion} مل)')

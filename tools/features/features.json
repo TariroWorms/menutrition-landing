@@ -1,6 +1,9 @@
 {
   "_order": [
     "photo-calories",
+    "calorie-counter-app",
+    "macro-tracker",
+    "protein-tracker",
     "menu-scanner",
     "weight-by-photo",
     "lock-screen-calories"
@@ -29,6 +32,24 @@
       "shot": "/shots/idea_lock.webp",
       "shot_w": 651,
       "shot_h": 183
+    },
+    "calorie-counter-app": {
+      "emoji": "🔢",
+      "shot": "/shots/lunch_intl.webp",
+      "shot_w": 720,
+      "shot_h": 1080
+    },
+    "macro-tracker": {
+      "emoji": "🥗",
+      "shot": "/shots/lunch_intl.webp",
+      "shot_w": 720,
+      "shot_h": 1080
+    },
+    "protein-tracker": {
+      "emoji": "💪",
+      "shot": "/shots/lunch_intl.webp",
+      "shot_w": 720,
+      "shot_h": 1080
     }
   },
   "_ui": {
@@ -3439,6 +3460,2280 @@
         [
           "有 Android 版吗？",
           "Me Nutrition 目前支持 iPhone；Android 版即将推出。"
+        ]
+      ]
+    }
+  },
+  "calorie-counter-app": {
+    "en": {
+      "name": "Calorie counter app",
+      "title": "Calorie counter app: log meals by photo, voice or barcode",
+      "meta": "A calorie counter app that logs meals in seconds: snap a photo, say it out loud, type it or scan a barcode. Calories, protein, fat and carbs for every dish and a daily target from your goal.",
+      "lead": "Log what you eat in seconds — with a photo, your voice, text or a barcode — and see calories and macros against your daily target.",
+      "steps": [
+        "🎯 **Set your goal** — lose, maintain or gain weight — and get a daily calorie target.",
+        "📸 **Log a meal** with one photo, by voice, by text or with the barcode scanner.",
+        "🔄 **Check the ring** — it shows how many calories and how much protein, fat and carbs are left for today."
+      ],
+      "benefits": [
+        "⚡ **Seconds, not minutes** — no searching through endless lists of foods.",
+        "🍱 **Every dish separately** — one photo of the table, each dish gets its own numbers.",
+        "🥗 **Calories, protein, fat and carbs**, plus vitamins, minerals, sugar and salt.",
+        "⚠️ **Allergens and diets** shown on every dish — gluten, dairy, nuts and more.",
+        "🌍 **Dishes from around the world** — our dish guide alone covers more than 2,400 dishes."
+      ],
+      "faq": [
+        [
+          "What is the easiest way to count calories?",
+          "Take a photo of your meal. The app recognises each dish, estimates the portion and shows calories and macros. You can always correct the portion."
+        ],
+        [
+          "Is calorie counting accurate?",
+          "A photo or a quick entry gives a good estimate, not a lab measurement. Over days and weeks the estimates average out, which is what matters for your goal."
+        ],
+        [
+          "Can I log without a photo?",
+          "Yes. You can log by voice, by text, or by scanning a barcode on packaged food."
+        ],
+        [
+          "How many calories should I eat a day?",
+          "It depends on your age, height, weight, activity and goal. Try our free calorie calculator, then set the same goal in the app."
+        ]
+      ]
+    },
+    "ar": {
+      "name": "تطبيق عداد السعرات الحرارية",
+      "title": "تطبيق عداد السعرات الحرارية: سجّل وجباتك بالصورة أو الصوت",
+      "meta": "تطبيق عداد السعرات الحرارية يسجّل وجباتك في ثوانٍ: صوّر أو انطق أو اكتب أو امسح الباركود. السعرات والبروتين والدهون والكربوهيدرات لكل طبق وهدف يومي يناسبك.",
+      "lead": "سجّل ما تأكله في ثوانٍ، بالصورة أو الصوت أو النص أو الباركود، وتابع السعرات والماكروز مقابل هدفك اليومي.",
+      "steps": [
+        "🎯 **حدّد هدفك** (خسارة الوزن أو الحفاظ عليه أو زيادته) واحصل على هدف يومي للسعرات الحرارية.",
+        "📸 **سجّل وجبتك** بصورة واحدة، أو بالصوت أو بالنص أو بماسح الباركود.",
+        "🔄 **تابع الحلقة** فهي تعرض ما تبقى لليوم من السعرات الحرارية والبروتين والدهون والكربوهيدرات."
+      ],
+      "benefits": [
+        "⚡ **ثوانٍ لا دقائق** — بلا بحث في قوائم أطعمة لا تنتهي.",
+        "🍱 **كل طبق على حدة** — صورة واحدة للمائدة، ولكل طبق أرقامه الخاصة.",
+        "🥗 **السعرات الحرارية والبروتين والدهون والكربوهيدرات**، إضافةً إلى الفيتامينات والمعادن والسكر والملح.",
+        "⚠️ **مسببات الحساسية والأنظمة الغذائية** تظهر على كل طبق: الغلوتين ومنتجات الألبان والمكسرات وغيرها.",
+        "🌍 **أطباق من حول العالم** — دليل الأطباق وحده يضم أكثر من 2,400 طبق."
+      ],
+      "faq": [
+        [
+          "ما أسهل طريقة لحساب السعرات الحرارية؟",
+          "صوّر وجبتك. يتعرّف التطبيق على كل طبق ويقدّر الحصة ويعرض السعرات والماكروز. ويمكنك دائماً تعديل الحصة."
+        ],
+        [
+          "هل حساب السعرات الحرارية دقيق؟",
+          "الصورة أو الإدخال السريع يعطيان تقديراً جيداً، لا قياساً مخبرياً. وعلى مدى أيام وأسابيع تتوازن التقديرات، وهذا ما يهم لتحقيق هدفك."
+        ],
+        [
+          "هل يمكنني التسجيل بدون صورة؟",
+          "نعم. يمكنك التسجيل بالصوت أو بالنص أو بمسح الباركود على الأطعمة المعبأة."
+        ],
+        [
+          "كم سعرة حرارية يجب أن آكل يومياً؟",
+          "يعتمد ذلك على عمرك وطولك ووزنك ونشاطك وهدفك. جرّب حاسبة السعرات الحرارية المجانية لدينا، ثم اضبط الهدف نفسه في التطبيق."
+        ]
+      ]
+    },
+    "de": {
+      "name": "Kalorienzähler App",
+      "title": "Kalorienzähler App: Mahlzeiten per Foto, Sprache oder Barcode",
+      "meta": "Kalorienzähler App für Mahlzeiten in Sekunden: Foto, Sprache, Text oder Barcode. Kalorien, Eiweiß, Fett und Kohlenhydrate je Gericht, dazu ein Tagesziel.",
+      "lead": "Erfasse, was du isst, in Sekunden – per Foto, Sprache, Text oder Barcode – und sieh Kalorien und Makros im Vergleich zu deinem Tagesziel.",
+      "steps": [
+        "🎯 **Ziel festlegen** – abnehmen, Gewicht halten oder zunehmen – und ein Kalorienziel für den Tag erhalten.",
+        "📸 **Mahlzeit erfassen** mit einem Foto, per Sprache, per Text oder mit dem Barcode-Scanner.",
+        "🔄 **Ring prüfen** – er zeigt, wie viele Kalorien und wie viel Eiweiß, Fett und Kohlenhydrate für heute noch übrig sind."
+      ],
+      "benefits": [
+        "⚡ **Sekunden statt Minuten** – kein Durchsuchen endloser Lebensmittellisten.",
+        "🍱 **Jedes Gericht einzeln** – ein Foto vom Tisch, jedes Gericht bekommt seine eigenen Werte.",
+        "🥗 **Kalorien, Eiweiß, Fett und Kohlenhydrate**, dazu Vitamine, Mineralstoffe, Zucker und Salz.",
+        "⚠️ **Allergene und Ernährungsformen** bei jedem Gericht angezeigt – Gluten, Milch, Nüsse und mehr.",
+        "🌍 **Gerichte aus aller Welt** – allein unser Gerichte-Guide umfasst mehr als 2,400 Gerichte."
+      ],
+      "faq": [
+        [
+          "Was ist die einfachste Art, Kalorien zu zählen?",
+          "Mach ein Foto von deiner Mahlzeit. Die App erkennt jedes Gericht, schätzt die Portion und zeigt Kalorien und Makros an. Die Portion kannst du jederzeit korrigieren."
+        ],
+        [
+          "Ist Kalorienzählen genau?",
+          "Ein Foto oder eine schnelle Eingabe liefert eine gute Schätzung, keine Labormessung. Über Tage und Wochen gleichen sich die Schätzungen aus – und das ist für dein Ziel entscheidend."
+        ],
+        [
+          "Kann ich ohne Foto erfassen?",
+          "Ja. Du kannst per Sprache, per Text oder durch Scannen eines Barcodes auf verpackten Lebensmitteln erfassen."
+        ],
+        [
+          "Wie viele Kalorien sollte ich am Tag essen?",
+          "Das hängt von Alter, Größe, Gewicht, Aktivität und Ziel ab. Probiere unseren kostenlosen Kalorienrechner aus und lege dann dasselbe Ziel in der App fest."
+        ]
+      ]
+    },
+    "es": {
+      "name": "App contador de calorías",
+      "title": "Contador de calorías: registra comidas con foto o voz",
+      "meta": "App contador de calorías: registra comidas en segundos con foto, voz, texto o código de barras. Calorías y macros de cada plato y objetivo diario.",
+      "lead": "Registra lo que comes en segundos —con una foto, tu voz, texto o un código de barras— y compara calorías y macros con tu objetivo diario.",
+      "steps": [
+        "🎯 **Define tu meta** —perder, mantener o ganar peso— y obtén un objetivo diario de calorías.",
+        "📸 **Registra una comida** con una sola foto, por voz, por texto o con el escáner de códigos de barras.",
+        "🔄 **Mira el anillo**: muestra cuántas calorías y cuántas proteínas, grasas y carbohidratos te quedan hoy."
+      ],
+      "benefits": [
+        "⚡ **Segundos, no minutos** — sin buscar entre listas interminables de alimentos.",
+        "🍱 **Cada plato por separado** — una foto de la mesa y cada plato tiene sus propios números.",
+        "🥗 **Calorías, proteínas, grasas y carbohidratos**, además de vitaminas, minerales, azúcar y sal.",
+        "⚠️ **Alérgenos y dietas** indicados en cada plato: gluten, lácteos, frutos secos y más.",
+        "🌍 **Platos de todo el mundo** — solo nuestra guía de platos abarca más de 2,400 platos."
+      ],
+      "faq": [
+        [
+          "¿Cuál es la forma más fácil de contar calorías?",
+          "Haz una foto de tu comida. La app reconoce cada plato, estima la ración y muestra calorías y macros. Siempre puedes corregir la ración."
+        ],
+        [
+          "¿Es preciso contar calorías?",
+          "Una foto o un registro rápido da una buena estimación, no una medición de laboratorio. A lo largo de días y semanas las estimaciones se compensan, que es lo que importa para tu meta."
+        ],
+        [
+          "¿Puedo registrar sin foto?",
+          "Sí. Puedes registrar por voz, por texto o escaneando el código de barras de los alimentos envasados."
+        ],
+        [
+          "¿Cuántas calorías debo comer al día?",
+          "Depende de tu edad, estatura, peso, actividad y meta. Prueba nuestra calculadora de calorías gratuita y luego define la misma meta en la app."
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Application compteur de calories",
+      "title": "Compteur de calories : repas par photo, voix ou code-barres",
+      "meta": "Application compteur de calories : photo, voix, texte ou code-barres. Calories, protéines, lipides et glucides de chaque plat, et un objectif selon votre but.",
+      "lead": "Enregistrez ce que vous mangez en quelques secondes — par photo, à la voix, au texte ou avec un code-barres — et suivez calories et macros par rapport à votre objectif du jour.",
+      "steps": [
+        "🎯 **Définissez votre objectif** — perdre, maintenir ou prendre du poids — et obtenez un objectif calorique quotidien.",
+        "📸 **Enregistrez un repas** avec une seule photo, à la voix, au texte ou avec le scanner de code-barres.",
+        "🔄 **Consultez l'anneau** — il indique combien de calories, de protéines, de lipides et de glucides il vous reste pour aujourd'hui."
+      ],
+      "benefits": [
+        "⚡ **Des secondes, pas des minutes** — fini les recherches dans d'interminables listes d'aliments.",
+        "🍱 **Chaque plat séparément** — une photo de la table, et chaque plat a ses propres valeurs.",
+        "🥗 **Calories, protéines, lipides et glucides**, plus vitamines, minéraux, sucre et sel.",
+        "⚠️ **Allergènes et régimes** indiqués pour chaque plat — gluten, produits laitiers, fruits à coque et plus encore.",
+        "🌍 **Des plats du monde entier** — notre guide des plats couvre à lui seul plus de 2 400 plats."
+      ],
+      "faq": [
+        [
+          "Quelle est la façon la plus simple de compter les calories ?",
+          "Prenez votre repas en photo. L'application reconnaît chaque plat, estime la portion et affiche calories et macros. Vous pouvez toujours corriger la portion."
+        ],
+        [
+          "Le comptage des calories est-il précis ?",
+          "Une photo ou une saisie rapide donne une bonne estimation, pas une mesure de laboratoire. Sur des jours et des semaines, les estimations se compensent, et c'est ce qui compte pour votre objectif."
+        ],
+        [
+          "Puis-je enregistrer un repas sans photo ?",
+          "Oui. Vous pouvez enregistrer à la voix, au texte, ou en scannant le code-barres d'un produit emballé."
+        ],
+        [
+          "Combien de calories dois-je manger par jour ?",
+          "Cela dépend de votre âge, de votre taille, de votre poids, de votre activité et de votre objectif. Essayez notre calculateur de calories gratuit, puis définissez le même objectif dans l'application."
+        ]
+      ]
+    },
+    "he": {
+      "name": "אפליקציית ספירת קלוריות",
+      "title": "אפליקציית ספירת קלוריות: תיעוד ארוחות בתמונה, בקול או בברקוד",
+      "meta": "אפליקציית ספירת קלוריות שמתעדת ארוחות בשניות: מצלמים, אומרים בקול, מקלידים או סורקים ברקוד. קלוריות, חלבון, שומן ופחמימות לכל מנה, ויעד יומי לפי המטרה שלכם.",
+      "lead": "תעדו מה אכלתם בשניות — בתמונה, בקול, בטקסט או בברקוד — וראו קלוריות ומאקרו מול היעד היומי שלכם.",
+      "steps": [
+        "🎯 **הגדירו מטרה** — ירידה, שמירה או עלייה במשקל — וקבלו יעד קלוריות יומי.",
+        "📸 **תעדו ארוחה** בתמונה אחת, בקול, בטקסט או בסורק הברקוד.",
+        "🔄 **הציצו בטבעת** — היא מראה כמה קלוריות, חלבון, שומן ופחמימות נותרו להיום."
+      ],
+      "benefits": [
+        "⚡ **שניות, לא דקות** — בלי לחפש ברשימות אינסופיות של מזונות.",
+        "🍱 **כל מנה בנפרד** — תמונה אחת של השולחן, וכל מנה מקבלת ערכים משלה.",
+        "🥗 **קלוריות, חלבון, שומן ופחמימות**, וגם ויטמינים, מינרלים, סוכר ומלח.",
+        "⚠️ **אלרגנים ותזונות** מוצגים על כל מנה — גלוטן, חלב, אגוזים ועוד.",
+        "🌍 **מנות מכל העולם** — מדריך המנות שלנו לבדו כולל יותר מ-2,400 מנות."
+      ],
+      "faq": [
+        [
+          "מהי הדרך הקלה ביותר לספור קלוריות?",
+          "מצלמים את הארוחה. האפליקציה מזהה כל מנה, מעריכה את המנה ומציגה קלוריות ומאקרו. תמיד אפשר לתקן את הכמות."
+        ],
+        [
+          "האם ספירת קלוריות מדויקת?",
+          "תמונה או הזנה מהירה נותנות הערכה טובה, לא מדידה מעבדתית. לאורך ימים ושבועות ההערכות מתאזנות, וזה מה שחשוב למטרה שלכם."
+        ],
+        [
+          "אפשר לתעד בלי תמונה?",
+          "כן. אפשר לתעד בקול, בטקסט, או בסריקת ברקוד של מזון ארוז."
+        ],
+        [
+          "כמה קלוריות כדאי לאכול ביום?",
+          "זה תלוי בגיל, בגובה, במשקל, ברמת הפעילות ובמטרה. נסו את מחשבון הקלוריות החינמי שלנו, ואז הגדירו את אותה מטרה באפליקציה."
+        ]
+      ]
+    },
+    "hi": {
+      "name": "कैलोरी काउंटर ऐप",
+      "title": "कैलोरी काउंटर ऐप: फोटो, आवाज़ या बारकोड से भोजन लॉग करें",
+      "meta": "कैलोरी काउंटर ऐप: फोटो, आवाज़, टेक्स्ट या बारकोड से भोजन सेकंडों में लॉग करें। हर डिश की कैलोरी, प्रोटीन, फैट, कार्ब्स और लक्ष्य के अनुसार दैनिक टारगेट।",
+      "lead": "जो खाते हैं उसे सेकंडों में लॉग करें — फोटो, आवाज़, टेक्स्ट या बारकोड से — और अपने दैनिक टारगेट के मुकाबले कैलोरी और मैक्रोज़ देखें।",
+      "steps": [
+        "🎯 **अपना लक्ष्य चुनें** — वज़न घटाना, बनाए रखना या बढ़ाना — और दैनिक कैलोरी टारगेट पाएँ।",
+        "📸 **भोजन लॉग करें** — एक फोटो, आवाज़, टेक्स्ट या बारकोड स्कैनर से।",
+        "🔄 **रिंग देखें** — यह दिखाती है कि आज के लिए कितनी कैलोरी और कितना प्रोटीन, फैट और कार्ब्स बाकी हैं।"
+      ],
+      "benefits": [
+        "⚡ **मिनट नहीं, सेकंड** — खाने की अंतहीन सूचियों में खोजने की ज़रूरत नहीं।",
+        "🍱 **हर डिश अलग** — मेज़ की एक फोटो, और हर डिश के अपने आँकड़े।",
+        "🥗 **कैलोरी, प्रोटीन, फैट और कार्ब्स**, साथ में विटामिन, मिनरल, चीनी और नमक।",
+        "⚠️ **एलर्जन और डाइट** हर डिश पर दिखते हैं — ग्लूटेन, डेयरी, नट्स और भी बहुत कुछ।",
+        "🌍 **दुनिया भर के व्यंजन** — हमारी डिश गाइड में ही 2,400 से ज़्यादा डिश हैं।"
+      ],
+      "faq": [
+        [
+          "कैलोरी गिनने का सबसे आसान तरीका क्या है?",
+          "अपने भोजन की फोटो लें। ऐप हर डिश को पहचानता है, मात्रा का अनुमान लगाता है और कैलोरी व मैक्रोज़ दिखाता है। मात्रा आप कभी भी ठीक कर सकते हैं।"
+        ],
+        [
+          "क्या कैलोरी गिनना सटीक होता है?",
+          "फोटो या तेज़ एंट्री से अच्छा अनुमान मिलता है, लैब जैसी सटीक माप नहीं। दिनों और हफ्तों में ये अनुमान औसत हो जाते हैं, और आपके लक्ष्य के लिए यही मायने रखता है।"
+        ],
+        [
+          "क्या मैं फोटो के बिना लॉग कर सकता/सकती हूँ?",
+          "हाँ। आप आवाज़ से, टेक्स्ट से, या पैकेज्ड खाने का बारकोड स्कैन करके लॉग कर सकते हैं।"
+        ],
+        [
+          "मुझे रोज़ कितनी कैलोरी खानी चाहिए?",
+          "यह आपकी उम्र, कद, वज़न, गतिविधि और लक्ष्य पर निर्भर करता है। हमारा मुफ़्त कैलोरी कैलकुलेटर आज़माएँ, फिर ऐप में वही लक्ष्य सेट करें।"
+        ]
+      ]
+    },
+    "id": {
+      "name": "Aplikasi penghitung kalori",
+      "title": "Aplikasi penghitung kalori: catat makan lewat foto atau suara",
+      "meta": "Aplikasi penghitung kalori: catat makanan lewat foto, suara, teks, atau barcode. Kalori dan makro tiap hidangan plus target harian sesuai tujuanmu.",
+      "lead": "Catat makananmu dalam hitungan detik — lewat foto, suara, teks, atau barcode — dan lihat kalori serta makro dibandingkan target harianmu.",
+      "steps": [
+        "🎯 **Tentukan tujuanmu** — menurunkan, menjaga, atau menaikkan berat badan — dan dapatkan target kalori harian.",
+        "📸 **Catat makanan** dengan satu foto, lewat suara, teks, atau pemindai barcode.",
+        "🔄 **Lihat lingkaran harianmu** — menunjukkan sisa kalori, protein, lemak, dan karbohidrat untuk hari ini."
+      ],
+      "benefits": [
+        "⚡ **Hitungan detik, bukan menit** — tak perlu mencari di daftar makanan yang panjang.",
+        "🍱 **Setiap hidangan terpisah** — satu foto meja makan, tiap hidangan punya angkanya sendiri.",
+        "🥗 **Kalori, protein, lemak, dan karbohidrat**, plus vitamin, mineral, gula, dan garam.",
+        "⚠️ **Alergen dan diet** ditampilkan di setiap hidangan — gluten, susu, kacang, dan lainnya.",
+        "🌍 **Hidangan dari seluruh dunia** — panduan hidangan kami saja mencakup lebih dari 2,400 hidangan."
+      ],
+      "faq": [
+        [
+          "Apa cara termudah menghitung kalori?",
+          "Foto makananmu. Aplikasi mengenali tiap hidangan, memperkirakan porsinya, dan menampilkan kalori serta makro. Porsi selalu bisa kamu koreksi."
+        ],
+        [
+          "Apakah penghitungan kalori akurat?",
+          "Foto atau input cepat memberi perkiraan yang baik, bukan pengukuran laboratorium. Dalam beberapa hari dan minggu, perkiraan itu saling menyeimbangkan, dan itulah yang penting untuk tujuanmu."
+        ],
+        [
+          "Bisakah mencatat tanpa foto?",
+          "Bisa. Kamu dapat mencatat lewat suara, teks, atau memindai barcode pada makanan kemasan."
+        ],
+        [
+          "Berapa kalori yang sebaiknya saya makan sehari?",
+          "Tergantung usia, tinggi, berat badan, aktivitas, dan tujuanmu. Coba kalkulator kalori gratis kami, lalu atur tujuan yang sama di aplikasi."
+        ]
+      ]
+    },
+    "it": {
+      "name": "App conta calorie",
+      "title": "App conta calorie: registra i pasti con foto, voce o barcode",
+      "meta": "App conta calorie per registrare i pasti in pochi secondi: foto, voce, testo o codice a barre. Calorie e macro per ogni piatto e obiettivo giornaliero.",
+      "lead": "Registra ciò che mangi in pochi secondi — con una foto, la voce, il testo o un codice a barre — e confronta calorie e macro con il tuo obiettivo giornaliero.",
+      "steps": [
+        "🎯 **Imposta il tuo obiettivo** — dimagrire, mantenere o aumentare il peso — e ricevi un obiettivo calorico giornaliero.",
+        "📸 **Registra un pasto** con una sola foto, a voce, con il testo o con lo scanner di codici a barre.",
+        "🔄 **Controlla l'anello** — mostra quante calorie e quante proteine, grassi e carboidrati ti restano per oggi."
+      ],
+      "benefits": [
+        "⚡ **Secondi, non minuti** — niente ricerche in infinite liste di alimenti.",
+        "🍱 **Ogni piatto a parte** — una foto della tavola, e ogni piatto ha i suoi valori.",
+        "🥗 **Calorie, proteine, grassi e carboidrati**, più vitamine, minerali, zuccheri e sale.",
+        "⚠️ **Allergeni e diete** indicati su ogni piatto — glutine, latticini, frutta a guscio e altro.",
+        "🌍 **Piatti da tutto il mondo** — la sola guida ai piatti ne copre più di 2,400."
+      ],
+      "faq": [
+        [
+          "Qual è il modo più semplice per contare le calorie?",
+          "Scatta una foto al tuo pasto. L'app riconosce ogni piatto, stima la porzione e mostra calorie e macro. Puoi sempre correggere la porzione."
+        ],
+        [
+          "Contare le calorie è preciso?",
+          "Una foto o un inserimento rapido danno una buona stima, non una misura di laboratorio. Nel corso di giorni e settimane le stime si compensano, ed è ciò che conta per il tuo obiettivo."
+        ],
+        [
+          "Posso registrare senza una foto?",
+          "Sì. Puoi registrare a voce, con il testo o scansionando il codice a barre degli alimenti confezionati."
+        ],
+        [
+          "Quante calorie dovrei mangiare al giorno?",
+          "Dipende da età, altezza, peso, attività e obiettivo. Prova il nostro calcolatore di calorie gratuito, poi imposta lo stesso obiettivo nell'app."
+        ]
+      ]
+    },
+    "ja": {
+      "name": "カロリー計算アプリ",
+      "title": "カロリー計算アプリ：写真・音声・バーコードで食事を記録",
+      "meta": "数秒で食事を記録できるカロリー計算アプリ。写真を撮る、声で話す、入力する、バーコードをスキャン。料理ごとのカロリー・たんぱく質・脂質・炭水化物と、目標に合わせた1日の目標値がわかります。",
+      "lead": "写真・音声・テキスト・バーコードで、食べたものを数秒で記録。カロリーと栄養素を1日の目標と見比べられます。",
+      "steps": [
+        "🎯 **目標を設定** — 減量・維持・増量から選ぶと、1日のカロリー目標が決まります。",
+        "📸 **食事を記録** — 写真1枚、音声、テキスト、バーコードスキャナーのどれでもOK。",
+        "🔄 **リングを確認** — 今日あと何カロリー、たんぱく質・脂質・炭水化物があと何グラム摂れるかがわかります。"
+      ],
+      "benefits": [
+        "⚡ **かかるのは数分ではなく数秒** — 膨大な食品リストから探す必要はありません。",
+        "🍱 **料理ごとに個別に計算** — テーブル全体を1枚撮るだけで、料理それぞれの数値が出ます。",
+        "🥗 **カロリー・たんぱく質・脂質・炭水化物**に加え、ビタミン、ミネラル、糖質、塩分も。",
+        "⚠️ **アレルゲンと食事制限** をすべての料理に表示 — グルテン、乳製品、ナッツなど。",
+        "🌍 **世界各国の料理に対応** — 料理ガイドだけでも2,400以上の料理を掲載。"
+      ],
+      "faq": [
+        [
+          "いちばん簡単なカロリーの数え方は?",
+          "食事の写真を撮るだけです。アプリが料理を認識して量を推定し、カロリーと栄養素を表示します。量はいつでも修正できます。"
+        ],
+        [
+          "カロリー計算は正確ですか?",
+          "写真やかんたん入力でも十分な目安になりますが、検査機器による測定ではありません。数日から数週間で見ると誤差はならされ、目標達成にはそれが大切です。"
+        ],
+        [
+          "写真なしでも記録できますか?",
+          "はい。音声、テキスト、または包装食品のバーコードスキャンで記録できます。"
+        ],
+        [
+          "1日に何カロリー食べるべき?",
+          "年齢、身長、体重、活動量、目標によって異なります。無料のカロリー計算ツールで算出し、同じ目標をアプリに設定してください。"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "칼로리 계산기 앱",
+      "title": "칼로리 계산기 앱: 사진·음성·바코드로 식단 기록",
+      "meta": "몇 초 만에 식단을 기록하는 칼로리 계산기 앱: 사진을 찍거나, 말하거나, 입력하거나, 바코드를 스캔하세요. 모든 음식의 칼로리·단백질·지방·탄수화물과 목표에 맞춘 하루 목표량을 확인할 수 있습니다.",
+      "lead": "사진, 음성, 텍스트 또는 바코드로 먹은 것을 몇 초 만에 기록하고, 하루 목표 대비 칼로리와 영양소를 확인하세요.",
+      "steps": [
+        "🎯 **목표 설정** — 체중 감량, 유지, 증량 중에서 선택하면 하루 칼로리 목표가 정해집니다.",
+        "📸 **식사 기록** — 사진 한 장, 음성, 텍스트 또는 바코드 스캐너로 기록하세요.",
+        "🔄 **링 확인** — 오늘 남은 칼로리와 단백질, 지방, 탄수화물을 한눈에 보여줍니다."
+      ],
+      "benefits": [
+        "⚡ **몇 분이 아닌 몇 초** — 끝없는 음식 목록을 뒤질 필요가 없습니다.",
+        "🍱 **음식별로 따로 계산** — 식탁 전체를 한 장 찍어도 음식마다 각각 수치가 나옵니다.",
+        "🥗 **칼로리, 단백질, 지방, 탄수화물**은 물론 비타민, 미네랄, 당, 나트륨까지 확인할 수 있습니다.",
+        "⚠️ **알레르기 유발 성분과 식단 정보**를 모든 음식에 표시합니다 — 글루텐, 유제품, 견과류 등.",
+        "🌍 **전 세계의 음식** — 음식 가이드에만 2,400가지가 넘는 음식이 있습니다."
+      ],
+      "faq": [
+        [
+          "칼로리를 가장 쉽게 계산하는 방법은 무엇인가요?",
+          "식사 사진을 찍으세요. 앱이 각 음식을 인식하고 양을 추정해 칼로리와 영양소를 보여줍니다. 양은 언제든지 직접 수정할 수 있습니다."
+        ],
+        [
+          "칼로리 계산은 정확한가요?",
+          "사진이나 간단한 입력으로 얻는 값은 실험실 측정이 아닌 좋은 추정치입니다. 며칠, 몇 주가 지나면 오차가 평균화되며, 목표 달성에는 이 점이 중요합니다."
+        ],
+        [
+          "사진 없이도 기록할 수 있나요?",
+          "네. 음성, 텍스트로 기록하거나 포장 식품의 바코드를 스캔해 기록할 수 있습니다."
+        ],
+        [
+          "하루에 몇 칼로리를 먹어야 하나요?",
+          "나이, 키, 체중, 활동량, 목표에 따라 다릅니다. 무료 칼로리 계산기를 사용해 본 뒤 앱에 같은 목표를 설정하세요."
+        ]
+      ]
+    },
+    "nl": {
+      "name": "Calorieën tellen app",
+      "title": "Calorieën tellen app: log maaltijden met foto, stem of barcode",
+      "meta": "Een app om calorieën te tellen: log maaltijden met een foto, je stem, tekst of barcode. Calorieën, eiwit, vet en koolhydraten per gerecht, met een dagdoel.",
+      "lead": "Log in seconden wat je eet — met een foto, je stem, tekst of een barcode — en zie calorieën en macro's naast je dagdoel.",
+      "steps": [
+        "🎯 **Stel je doel in** — afvallen, op gewicht blijven of aankomen — en krijg een dagelijks caloriedoel.",
+        "📸 **Log een maaltijd** met één foto, met je stem, met tekst of met de barcodescanner.",
+        "🔄 **Check de ring** — die laat zien hoeveel calorieën en hoeveel eiwit, vet en koolhydraten je vandaag nog over hebt."
+      ],
+      "benefits": [
+        "⚡ **Seconden in plaats van minuten** — geen eindeloze lijsten met producten doorzoeken.",
+        "🍱 **Elk gerecht apart** — één foto van de tafel, elk gerecht krijgt zijn eigen cijfers.",
+        "🥗 **Calorieën, eiwit, vet en koolhydraten**, plus vitamines, mineralen, suiker en zout.",
+        "⚠️ **Allergenen en diëten** bij elk gerecht — gluten, zuivel, noten en meer.",
+        "🌍 **Gerechten van over de hele wereld** — alleen al onze gerechtengids omvat meer dan 2.400 gerechten."
+      ],
+      "faq": [
+        [
+          "Wat is de makkelijkste manier om calorieën te tellen?",
+          "Maak een foto van je maaltijd. De app herkent elk gerecht, schat de portie in en toont calorieën en macro's. Je kunt de portie altijd aanpassen."
+        ],
+        [
+          "Is calorieën tellen nauwkeurig?",
+          "Een foto of een snelle invoer geeft een goede schatting, geen labmeting. Over dagen en weken middelen de schattingen uit, en dat is wat telt voor je doel."
+        ],
+        [
+          "Kan ik loggen zonder foto?",
+          "Ja. Je kunt loggen met je stem, met tekst of door de barcode van verpakt eten te scannen."
+        ],
+        [
+          "Hoeveel calorieën moet ik per dag eten?",
+          "Dat hangt af van je leeftijd, lengte, gewicht, activiteit en doel. Probeer onze gratis caloriecalculator en stel hetzelfde doel in de app in."
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Aplikacja do liczenia kalorii",
+      "title": "Aplikacja do liczenia kalorii: zdjęcie, głos lub kod kreskowy",
+      "meta": "Aplikacja do liczenia kalorii: zapisuj posiłki w sekundy zdjęciem, głosem, tekstem lub kodem kreskowym. Kalorie i makro każdego dania oraz dzienny cel.",
+      "lead": "Zapisuj, co jesz, w kilka sekund — zdjęciem, głosem, tekstem lub kodem kreskowym — i sprawdzaj kalorie oraz makroskładniki na tle dziennego celu.",
+      "steps": [
+        "🎯 **Ustaw swój cel** — redukcja, utrzymanie lub przybieranie na wadze — i otrzymaj dzienny cel kalorii.",
+        "📸 **Zapisz posiłek** jednym zdjęciem, głosem, tekstem lub skanerem kodów kreskowych.",
+        "🔄 **Zerknij na pierścień** — pokazuje, ile kalorii oraz ile białka, tłuszczów i węglowodanów zostało na dziś."
+      ],
+      "benefits": [
+        "⚡ **Sekundy, nie minuty** — bez przeszukiwania niekończących się list produktów.",
+        "🍱 **Każde danie osobno** — jedno zdjęcie stołu, a każde danie dostaje własne wartości.",
+        "🥗 **Kalorie, białko, tłuszcze i węglowodany**, a także witaminy, minerały, cukier i sól.",
+        "⚠️ **Alergeny i diety** przy każdym daniu — gluten, nabiał, orzechy i inne.",
+        "🌍 **Potrawy z całego świata** — sam nasz przewodnik po daniach obejmuje ponad 2,400 potraw."
+      ],
+      "faq": [
+        [
+          "Jaki jest najprostszy sposób liczenia kalorii?",
+          "Zrób zdjęcie posiłku. Aplikacja rozpozna każde danie, oszacuje porcję i pokaże kalorie oraz makroskładniki. Porcję zawsze możesz poprawić."
+        ],
+        [
+          "Czy liczenie kalorii jest dokładne?",
+          "Zdjęcie lub szybki wpis daje dobre oszacowanie, a nie pomiar laboratoryjny. W skali dni i tygodni szacunki się uśredniają, a to właśnie ma znaczenie dla Twojego celu."
+        ],
+        [
+          "Czy mogę zapisywać posiłki bez zdjęcia?",
+          "Tak. Możesz zapisywać głosem, tekstem lub skanując kod kreskowy produktów pakowanych."
+        ],
+        [
+          "Ile kalorii powinienem jeść dziennie?",
+          "To zależy od wieku, wzrostu, wagi, aktywności i celu. Skorzystaj z naszego darmowego kalkulatora kalorii, a potem ustaw ten sam cel w aplikacji."
+        ]
+      ]
+    },
+    "pt": {
+      "name": "App contador de calorias",
+      "title": "App contador de calorias: registre por foto, voz ou código",
+      "meta": "App contador de calorias que registra refeições em segundos: foto, voz, texto ou código de barras. Calorias e macros de cada prato e meta diária do seu objetivo.",
+      "lead": "Registre o que você come em segundos — com foto, voz, texto ou código de barras — e veja calorias e macros em relação à sua meta diária.",
+      "steps": [
+        "🎯 **Defina seu objetivo** — perder, manter ou ganhar peso — e receba uma meta diária de calorias.",
+        "📸 **Registre uma refeição** com uma foto, por voz, por texto ou com o leitor de código de barras.",
+        "🔄 **Confira o anel** — ele mostra quantas calorias e quanto de proteína, gordura e carboidratos ainda restam para hoje."
+      ],
+      "benefits": [
+        "⚡ **Segundos, não minutos** — sem procurar em listas intermináveis de alimentos.",
+        "🍱 **Cada prato separado** — uma foto da mesa, e cada prato recebe seus próprios números.",
+        "🥗 **Calorias, proteína, gordura e carboidratos**, além de vitaminas, minerais, açúcar e sal.",
+        "⚠️ **Alérgenos e dietas** indicados em cada prato — glúten, laticínios, nozes e mais.",
+        "🌍 **Pratos do mundo todo** — só o nosso guia de pratos reúne mais de 2.400 pratos."
+      ],
+      "faq": [
+        [
+          "Qual é a forma mais fácil de contar calorias?",
+          "Tire uma foto da sua refeição. O app reconhece cada prato, estima a porção e mostra calorias e macros. Você sempre pode corrigir a porção."
+        ],
+        [
+          "Contar calorias é preciso?",
+          "Uma foto ou um registro rápido dá uma boa estimativa, não uma medição de laboratório. Ao longo de dias e semanas as estimativas se equilibram, e é isso que importa para o seu objetivo."
+        ],
+        [
+          "Posso registrar sem foto?",
+          "Sim. Você pode registrar por voz, por texto ou escaneando o código de barras de alimentos embalados."
+        ],
+        [
+          "Quantas calorias devo comer por dia?",
+          "Depende da sua idade, altura, peso, atividade e objetivo. Experimente nossa calculadora de calorias gratuita e depois defina o mesmo objetivo no app."
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Счётчик калорий",
+      "title": "Счётчик калорий: учёт еды по фото, голосу или штрихкоду",
+      "meta": "Счётчик калорий записывает еду за секунды: фото, голос, текст или штрихкод. Калории, белки, жиры и углеводы для каждого блюда и дневная норма под вашу цель.",
+      "lead": "Записывайте, что вы съели, за секунды — по фото, голосом, текстом или штрихкоду — и смотрите калории и БЖУ в сравнении с дневной нормой.",
+      "steps": [
+        "🎯 **Задайте цель** — похудеть, поддерживать вес или набрать — и получите дневную норму калорий.",
+        "📸 **Добавьте приём пищи** одним фото, голосом, текстом или сканером штрихкодов.",
+        "🔄 **Следите за кольцом** — оно показывает, сколько калорий, белков, жиров и углеводов осталось на сегодня."
+      ],
+      "benefits": [
+        "⚡ **Секунды, а не минуты** — не нужно искать продукты в бесконечных списках.",
+        "🍱 **Каждое блюдо отдельно** — одно фото стола, и у каждого блюда свои цифры.",
+        "🥗 **Калории, белки, жиры и углеводы**, а также витамины, минералы, сахар и соль.",
+        "⚠️ **Аллергены и диеты** указаны для каждого блюда — глютен, молочные продукты, орехи и не только.",
+        "🌍 **Блюда со всего мира** — только в нашем справочнике блюд больше 2,400 позиций."
+      ],
+      "faq": [
+        [
+          "Как проще всего считать калории?",
+          "Сфотографируйте еду. Приложение распознает каждое блюдо, оценит порцию и покажет калории и БЖУ. Порцию всегда можно поправить."
+        ],
+        [
+          "Насколько точен подсчёт калорий?",
+          "Фото или быстрая запись дают хорошую оценку, а не лабораторное измерение. За дни и недели погрешности усредняются, а для вашей цели важно именно это."
+        ],
+        [
+          "Можно ли вести учёт без фото?",
+          "Да. Можно добавлять еду голосом, текстом или сканировать штрихкод на упакованных продуктах."
+        ],
+        [
+          "Сколько калорий нужно есть в день?",
+          "Это зависит от возраста, роста, веса, активности и цели. Воспользуйтесь нашим бесплатным калькулятором калорий, а затем задайте ту же цель в приложении."
+        ]
+      ]
+    },
+    "sv": {
+      "name": "Kalorräknare app",
+      "title": "Kalorräknare app: logga måltider med foto, röst eller streckkod",
+      "meta": "Kalorräknare app som loggar måltider på sekunder: foto, röst, text eller streckkod. Kalorier och makron per rätt och ett dagsmål utifrån ditt mål.",
+      "lead": "Logga vad du äter på några sekunder – med foto, röst, text eller streckkod – och se kalorier och makron mot ditt dagsmål.",
+      "steps": [
+        "🎯 **Sätt ditt mål** – gå ner, behåll eller gå upp i vikt – och få ett dagligt kalorimål.",
+        "📸 **Logga en måltid** med ett enda foto, med rösten, med text eller med streckkodsskannern.",
+        "🔄 **Kolla ringen** – den visar hur många kalorier och hur mycket protein, fett och kolhydrater som återstår i dag."
+      ],
+      "benefits": [
+        "⚡ **Sekunder, inte minuter** – ingen letning bland oändliga livsmedelslistor.",
+        "🍱 **Varje rätt för sig** – ett foto av bordet, och varje rätt får egna siffror.",
+        "🥗 **Kalorier, protein, fett och kolhydrater**, plus vitaminer, mineraler, socker och salt.",
+        "⚠️ **Allergener och kosthållning** visas för varje rätt – gluten, mejeri, nötter och mer.",
+        "🌍 **Rätter från hela världen** – bara vår rättsguide täcker över 2 400 rätter."
+      ],
+      "faq": [
+        [
+          "Vad är det enklaste sättet att räkna kalorier?",
+          "Ta ett foto av din måltid. Appen känner igen varje rätt, uppskattar portionen och visar kalorier och makron. Du kan alltid justera portionen."
+        ],
+        [
+          "Är kalorikontroll exakt?",
+          "Ett foto eller en snabb registrering ger en bra uppskattning, inte en labbmätning. Över dagar och veckor jämnas uppskattningarna ut, och det är det som räknas för ditt mål."
+        ],
+        [
+          "Kan jag logga utan foto?",
+          "Ja. Du kan logga med rösten, med text eller genom att skanna streckkoden på förpackad mat."
+        ],
+        [
+          "Hur många kalorier ska jag äta per dag?",
+          "Det beror på din ålder, längd, vikt, aktivitet och ditt mål. Prova vår kostnadsfria kalorikalkylator och sätt sedan samma mål i appen."
+        ]
+      ]
+    },
+    "th": {
+      "name": "แอปนับแคลอรี่",
+      "title": "แอปนับแคลอรี่ บันทึกมื้ออาหารด้วยรูปถ่าย เสียง หรือบาร์โค้ด",
+      "meta": "แอปนับแคลอรี่ที่บันทึกมื้ออาหารได้ในไม่กี่วินาที ถ่ายรูป พูด พิมพ์ หรือสแกนบาร์โค้ด ดูแคลอรี่ โปรตีน ไขมัน และคาร์บของทุกเมนู พร้อมเป้าหมายรายวันตามเป้าหมายของคุณ",
+      "lead": "บันทึกสิ่งที่กินได้ในไม่กี่วินาที ด้วยรูปถ่าย เสียง ข้อความ หรือบาร์โค้ด แล้วดูแคลอรี่และแมคโครเทียบกับเป้าหมายรายวัน",
+      "steps": [
+        "🎯 **ตั้งเป้าหมาย** ลดน้ำหนัก รักษาน้ำหนัก หรือเพิ่มน้ำหนัก แล้วรับเป้าหมายแคลอรี่รายวัน",
+        "📸 **บันทึกมื้ออาหาร** ด้วยรูปถ่ายเพียงรูปเดียว ด้วยเสียง ด้วยข้อความ หรือด้วยเครื่องสแกนบาร์โค้ด",
+        "🔄 **ดูวงแหวนสรุป** แสดงว่าวันนี้เหลือแคลอรี่ โปรตีน ไขมัน และคาร์บอีกเท่าไร"
+      ],
+      "benefits": [
+        "⚡ **ใช้เวลาแค่ไม่กี่วินาที ไม่ใช่หลายนาที** ไม่ต้องค้นหาในรายการอาหารยาวเหยียด",
+        "🍱 **แยกแต่ละเมนู** ถ่ายรูปโต๊ะอาหารรูปเดียว แต่ละเมนูมีตัวเลขของตัวเอง",
+        "🥗 **แคลอรี่ โปรตีน ไขมัน และคาร์บ** รวมถึงวิตามิน แร่ธาตุ น้ำตาล และเกลือ",
+        "⚠️ **สารก่อภูมิแพ้และรูปแบบการกิน** แสดงในทุกเมนู เช่น กลูเตน นม ถั่ว และอื่นๆ",
+        "🌍 **อาหารจากทั่วโลก** ไกด์อาหารของเราเพียงอย่างเดียวครอบคลุมมากกว่า 2,400 เมนู"
+      ],
+      "faq": [
+        [
+          "วิธีนับแคลอรี่ที่ง่ายที่สุดคืออะไร",
+          "ถ่ายรูปมื้ออาหารของคุณ แอปจะจดจำแต่ละเมนู ประมาณขนาดหนึ่งส่วน และแสดงแคลอรี่กับแมคโคร คุณปรับขนาดหนึ่งส่วนได้เสมอ"
+        ],
+        [
+          "การนับแคลอรี่แม่นยำไหม",
+          "รูปถ่ายหรือการบันทึกแบบเร็วให้ค่าประมาณที่ดี ไม่ใช่ค่าที่วัดจากห้องแล็บ เมื่อผ่านไปหลายวันหรือหลายสัปดาห์ ค่าประมาณจะเฉลี่ยเข้าหากัน ซึ่งเป็นสิ่งสำคัญต่อเป้าหมายของคุณ"
+        ],
+        [
+          "บันทึกโดยไม่ใช้รูปถ่ายได้ไหม",
+          "ได้ คุณบันทึกด้วยเสียง ด้วยข้อความ หรือสแกนบาร์โค้ดบนอาหารที่บรรจุหีบห่อก็ได้"
+        ],
+        [
+          "ควรกินกี่แคลอรี่ต่อวัน",
+          "ขึ้นอยู่กับอายุ ส่วนสูง น้ำหนัก กิจกรรม และเป้าหมายของคุณ ลองใช้เครื่องคำนวณแคลอรี่ฟรีของเรา แล้วตั้งเป้าหมายเดียวกันในแอป"
+        ]
+      ]
+    },
+    "tr": {
+      "name": "Kalori sayar uygulaması",
+      "title": "Kalori sayar uygulaması: öğünü fotoğraf, ses veya barkodla kaydet",
+      "meta": "Öğünleri saniyeler içinde kaydeden kalori sayar uygulaması: fotoğraf, ses, yazı veya barkod. Her yemek için kalori ve makrolar, hedefine göre günlük hedef.",
+      "lead": "Yediklerini saniyeler içinde kaydet — fotoğrafla, sesle, yazıyla ya da barkodla — ve kalori ile makroları günlük hedefinle birlikte gör.",
+      "steps": [
+        "🎯 **Hedefini belirle** — kilo ver, koru ya da al — ve günlük kalori hedefini öğren.",
+        "📸 **Öğününü kaydet**: tek bir fotoğrafla, sesle, yazıyla ya da barkod tarayıcıyla.",
+        "🔄 **Halkaya bak** — bugün için kaç kalori ile ne kadar protein, yağ ve karbonhidrat kaldığını gösterir."
+      ],
+      "benefits": [
+        "⚡ **Dakikalar değil, saniyeler** — bitmek bilmeyen yiyecek listelerinde aramaya gerek yok.",
+        "🍱 **Her yemek ayrı** — sofranın tek fotoğrafı, her yemeğin kendi değerleri.",
+        "🥗 **Kalori, protein, yağ ve karbonhidrat**; ayrıca vitaminler, mineraller, şeker ve tuz.",
+        "⚠️ **Alerjenler ve diyetler** her yemekte gösterilir — gluten, süt ürünleri, kuruyemiş ve daha fazlası.",
+        "🌍 **Dünyanın dört bir yanından yemekler** — yalnızca yemek rehberimiz 2,400'den fazla yemeği kapsıyor."
+      ],
+      "faq": [
+        [
+          "Kalori saymanın en kolay yolu nedir?",
+          "Öğününün fotoğrafını çek. Uygulama her yemeği tanır, porsiyonu tahmin eder ve kalori ile makroları gösterir. Porsiyonu istediğin zaman düzeltebilirsin."
+        ],
+        [
+          "Kalori sayımı doğru mu?",
+          "Fotoğraf ya da hızlı giriş iyi bir tahmin verir, laboratuvar ölçümü değildir. Günler ve haftalar içinde tahminler birbirini dengeler; hedefin için önemli olan da budur."
+        ],
+        [
+          "Fotoğraf olmadan kayıt yapabilir miyim?",
+          "Evet. Sesle, yazıyla ya da paketli gıdalardaki barkodu tarayarak kaydedebilirsin."
+        ],
+        [
+          "Günde kaç kalori yemeliyim?",
+          "Yaşına, boyuna, kilona, aktivitene ve hedefine bağlıdır. Ücretsiz kalori hesaplayıcımızı dene, sonra aynı hedefi uygulamada ayarla."
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Лічильник калорій",
+      "title": "Лічильник калорій: запис їжі за фото, голосом чи штрихкодом",
+      "meta": "Лічильник калорій: запис їжі за секунди — фото, голос, текст чи штрихкод. Калорії, білки, жири й вуглеводи кожної страви та денна норма під вашу ціль.",
+      "lead": "Записуйте, що ви їсте, за секунди — фото, голосом, текстом чи штрихкодом — і бачте калорії та макроси відносно денної норми.",
+      "steps": [
+        "🎯 **Задайте ціль** — схуднути, підтримувати вагу чи набрати — і отримайте денну норму калорій.",
+        "📸 **Запишіть страву** одним фото, голосом, текстом або сканером штрихкоду.",
+        "🔄 **Перевірте кільце** — воно показує, скільки калорій, білків, жирів і вуглеводів залишилось на сьогодні."
+      ],
+      "benefits": [
+        "⚡ **Секунди, а не хвилини** — без пошуку в нескінченних списках продуктів.",
+        "🍱 **Кожна страва окремо** — одне фото столу, і кожна страва отримує свої цифри.",
+        "🥗 **Калорії, білки, жири й вуглеводи**, а також вітаміни, мінерали, цукор і сіль.",
+        "⚠️ **Алергени та дієти** позначено для кожної страви — глютен, молочні продукти, горіхи тощо.",
+        "🌍 **Страви з усього світу** — лише наш довідник страв охоплює понад 2,400 страв."
+      ],
+      "faq": [
+        [
+          "Як найпростіше рахувати калорії?",
+          "Сфотографуйте свою страву. Застосунок розпізнає кожну страву, оцінить порцію та покаже калорії й макроси. Порцію завжди можна виправити."
+        ],
+        [
+          "Наскільки точний підрахунок калорій?",
+          "Фото чи швидкий запис дають гарну оцінку, а не лабораторний вимір. За дні й тижні оцінки усереднюються, а саме це важливо для вашої цілі."
+        ],
+        [
+          "Чи можна записувати без фото?",
+          "Так. Можна записувати голосом, текстом або скануючи штрихкод на упакованих продуктах."
+        ],
+        [
+          "Скільки калорій потрібно їсти на день?",
+          "Це залежить від віку, зросту, ваги, активності та цілі. Спробуйте наш безкоштовний калькулятор калорій, а потім задайте таку саму ціль у застосунку."
+        ]
+      ]
+    },
+    "vi": {
+      "name": "Ứng dụng đếm calo",
+      "title": "Ứng dụng đếm calo: ghi bữa ăn bằng ảnh, giọng nói, mã vạch",
+      "meta": "Ứng dụng đếm calo ghi bữa ăn trong vài giây: chụp ảnh, nói, gõ hoặc quét mã vạch. Calo, đạm, béo, tinh bột cho từng món và mục tiêu mỗi ngày theo mục tiêu bạn đặt.",
+      "lead": "Ghi lại món bạn ăn trong vài giây — bằng ảnh, giọng nói, văn bản hoặc mã vạch — và xem calo cùng macro so với mục tiêu hằng ngày.",
+      "steps": [
+        "🎯 **Đặt mục tiêu** — giảm cân, giữ cân hoặc tăng cân — và nhận mục tiêu calo mỗi ngày.",
+        "📸 **Ghi bữa ăn** bằng một bức ảnh, giọng nói, văn bản hoặc máy quét mã vạch.",
+        "🔄 **Xem vòng tròn** — nó cho biết hôm nay còn lại bao nhiêu calo, đạm, béo và tinh bột."
+      ],
+      "benefits": [
+        "⚡ **Vài giây, không phải vài phút** — không cần lục tìm trong những danh sách thực phẩm dài vô tận.",
+        "🍱 **Từng món riêng biệt** — chụp một ảnh cả bàn ăn, mỗi món có số liệu riêng.",
+        "🥗 **Calo, đạm, béo và tinh bột**, cùng vitamin, khoáng chất, đường và muối.",
+        "⚠️ **Chất gây dị ứng và chế độ ăn** hiển thị trên mọi món — gluten, sữa, các loại hạt và hơn thế nữa.",
+        "🌍 **Món ăn từ khắp thế giới** — riêng cẩm nang món ăn của chúng tôi đã có hơn 2,400 món."
+      ],
+      "faq": [
+        [
+          "Cách dễ nhất để đếm calo là gì?",
+          "Chụp ảnh bữa ăn của bạn. Ứng dụng nhận diện từng món, ước tính khẩu phần và hiển thị calo cùng macro. Bạn luôn có thể chỉnh lại khẩu phần."
+        ],
+        [
+          "Đếm calo có chính xác không?",
+          "Một bức ảnh hoặc cách nhập nhanh cho ước tính tốt, không phải số đo trong phòng thí nghiệm. Qua nhiều ngày và nhiều tuần, các ước tính sẽ san bằng nhau, và đó mới là điều quan trọng cho mục tiêu của bạn."
+        ],
+        [
+          "Tôi có thể ghi mà không cần chụp ảnh không?",
+          "Có. Bạn có thể ghi bằng giọng nói, bằng văn bản hoặc quét mã vạch trên thực phẩm đóng gói."
+        ],
+        [
+          "Mỗi ngày tôi nên ăn bao nhiêu calo?",
+          "Điều đó phụ thuộc vào tuổi, chiều cao, cân nặng, mức độ vận động và mục tiêu của bạn. Hãy thử công cụ tính calo miễn phí của chúng tôi, rồi đặt cùng mục tiêu đó trong ứng dụng."
+        ]
+      ]
+    },
+    "zh": {
+      "name": "卡路里计算器 App",
+      "title": "卡路里计算器 App:拍照、语音或扫码记录餐食",
+      "meta": "几秒钟就能记录餐食的卡路里计算器 App:拍照、语音、文字输入或扫描条形码均可。每道菜都有热量、蛋白质、脂肪和碳水化合物,并根据你的目标给出每日摄入目标。",
+      "lead": "用拍照、语音、文字或条形码,几秒钟记录你吃的东西,并对照每日目标查看热量和营养素。",
+      "steps": [
+        "🎯 **设定目标** — 减重、维持或增重 — 获得每日热量目标。",
+        "📸 **记录餐食**:拍一张照片、语音、文字输入或使用条形码扫描。",
+        "🔄 **查看圆环** — 它会显示今天还剩多少热量,以及还能摄入多少蛋白质、脂肪和碳水化合物。"
+      ],
+      "benefits": [
+        "⚡ **几秒钟,而不是几分钟** — 无需在冗长的食物列表中反复搜索。",
+        "🍱 **每道菜单独计算** — 拍一张整桌饭菜的照片,每道菜都有各自的数据。",
+        "🥗 **热量、蛋白质、脂肪和碳水化合物**,以及维生素、矿物质、糖和盐。",
+        "⚠️ **过敏原和饮食类型**会标注在每道菜上 — 麸质、乳制品、坚果等。",
+        "🌍 **来自世界各地的菜肴** — 仅我们的菜品指南就涵盖超过 2,400 道菜。"
+      ],
+      "faq": [
+        [
+          "最简单的卡路里计算方法是什么?",
+          "给你的餐食拍张照片。应用会识别每道菜、估算份量,并显示热量和营养素。你随时可以修正份量。"
+        ],
+        [
+          "卡路里计算准确吗?",
+          "拍照或快速录入能给出不错的估算值,但不是实验室测量。经过几天或几周,估算误差会相互抵消,而这对实现你的目标才是关键。"
+        ],
+        [
+          "不拍照也能记录吗?",
+          "可以。你可以通过语音、文字,或扫描包装食品上的条形码来记录。"
+        ],
+        [
+          "我每天应该摄入多少卡路里?",
+          "这取决于你的年龄、身高、体重、活动量和目标。可以试试我们免费的卡路里计算器,然后在应用中设置相同的目标。"
+        ]
+      ]
+    }
+  },
+  "macro-tracker": {
+    "en": {
+      "name": "Macro tracker",
+      "title": "Macro tracker app: protein, carbs and fat for every meal",
+      "meta": "Track macros without weighing every ingredient: snap your meal and see protein, carbs and fat for each dish and for the whole day, with a target based on your goal.",
+      "lead": "See protein, carbs and fat for every dish and for the whole day — from one photo of your meal.",
+      "steps": [
+        "📸 **Snap your meal** — or log it by voice, text or barcode.",
+        "🧮 **Get the macros** — each dish shows protein, carbs and fat in grams, with calories.",
+        "🎯 **Follow your day** — the ring and daily totals show how close you are to your target."
+      ],
+      "benefits": [
+        "🥩 **Protein, carbs and fat per dish** — not just calories.",
+        "⚖️ **Adjust the portion** — slide to half or a quarter if you ate only part.",
+        "📊 **Daily totals** against a target based on your goal — lose, maintain or gain.",
+        "🧂 **Sugar, salt, vitamins and minerals** are shown too.",
+        "🧮 **A macro split that fits you** — see how the ratio looks with our free macro calculator."
+      ],
+      "faq": [
+        [
+          "What are macros?",
+          "Macros, or macronutrients, are protein, carbohydrates and fat — the three nutrients that provide calories. Protein and carbohydrates give about 4 kcal per gram, fat about 9 kcal per gram."
+        ],
+        [
+          "Do I need to weigh my food?",
+          "Not necessarily. A photo gives a good estimate of the dish and portion. If you want more precision, you can adjust the portion in the app."
+        ],
+        [
+          "What macro split should I use?",
+          "It depends on your goal and how you train. Our macro calculator shows common splits, such as balanced or higher protein, so you can compare them."
+        ],
+        [
+          "Does it show protein for each meal?",
+          "Yes. Every dish shows its protein, carbs and fat, and the day view shows the totals."
+        ]
+      ]
+    },
+    "ar": {
+      "name": "متتبع الماكروز",
+      "title": "تطبيق متتبع الماكروز: البروتين والكربوهيدرات والدهون لكل وجبة",
+      "meta": "تتبّع الماكروز دون وزن كل مكوّن: صوّر وجبتك لترى البروتين والكربوهيدرات والدهون لكل طبق ولليوم كله، مع هدف يناسب هدفك.",
+      "lead": "اطّلع على البروتين والكربوهيدرات والدهون لكل طبق ولليوم كله، من صورة واحدة لوجبتك.",
+      "steps": [
+        "📸 **صوّر وجبتك** أو سجّلها بالصوت أو النص أو الباركود.",
+        "🧮 **احصل على الماكروز** — يعرض كل طبق البروتين والكربوهيدرات والدهون بالغرام، مع السعرات الحرارية.",
+        "🎯 **تابع يومك** — توضح الحلقة والإجماليات اليومية مدى قربك من هدفك."
+      ],
+      "benefits": [
+        "🥩 **البروتين والكربوهيدرات والدهون لكل طبق** — وليس السعرات فقط.",
+        "⚖️ **عدّل الحصة** — مرّر إلى النصف أو الربع إذا أكلت جزءاً فقط.",
+        "📊 **إجماليات يومية** مقابل هدف يناسب هدفك: خسارة الوزن أو الحفاظ عليه أو زيادته.",
+        "🧂 **السكر والملح والفيتامينات والمعادن** تظهر أيضاً.",
+        "🧮 **توزيع ماكروز يناسبك** — شاهد شكل النسبة مع حاسبة الماكروز المجانية لدينا."
+      ],
+      "faq": [
+        [
+          "ما هي الماكروز؟",
+          "الماكروز أو المغذيات الكبرى هي البروتين والكربوهيدرات والدهون، أي المغذيات الثلاثة التي تمدّ الجسم بالسعرات الحرارية. يعطي البروتين والكربوهيدرات نحو 4 سعرات حرارية للغرام، والدهون نحو 9 سعرات للغرام."
+        ],
+        [
+          "هل أحتاج إلى وزن طعامي؟",
+          "ليس بالضرورة. تعطي الصورة تقديراً جيداً للطبق والحصة. وإذا أردت دقة أكبر يمكنك تعديل الحصة في التطبيق."
+        ],
+        [
+          "ما توزيع الماكروز الذي أستخدمه؟",
+          "يعتمد ذلك على هدفك وطريقة تدريبك. تعرض حاسبة الماكروز لدينا توزيعات شائعة، مثل المتوازن أو الأعلى بروتيناً، لتتمكن من مقارنتها."
+        ],
+        [
+          "هل يعرض البروتين لكل وجبة؟",
+          "نعم. يعرض كل طبق البروتين والكربوهيدرات والدهون، وتعرض شاشة اليوم الإجماليات."
+        ]
+      ]
+    },
+    "de": {
+      "name": "Makro-Tracker",
+      "title": "Makro-Tracker App: Eiweiß, Kohlenhydrate und Fett je Mahlzeit",
+      "meta": "Makros tracken ohne Wiegen: Mahlzeit fotografieren und Eiweiß, Kohlenhydrate und Fett je Gericht und für den ganzen Tag sehen – mit Ziel passend zu deinem Ziel.",
+      "lead": "Sieh Eiweiß, Kohlenhydrate und Fett für jedes Gericht und den ganzen Tag – mit nur einem Foto deiner Mahlzeit.",
+      "steps": [
+        "📸 **Mahlzeit fotografieren** – oder per Sprache, Text oder Barcode erfassen.",
+        "🧮 **Makros erhalten** – jedes Gericht zeigt Eiweiß, Kohlenhydrate und Fett in Gramm, dazu die Kalorien.",
+        "🎯 **Den Tag im Blick** – der Ring und die Tagessummen zeigen, wie nah du an deinem Ziel bist."
+      ],
+      "benefits": [
+        "🥩 **Eiweiß, Kohlenhydrate und Fett pro Gericht** – nicht nur Kalorien.",
+        "⚖️ **Portion anpassen** – schiebe auf die Hälfte oder ein Viertel, wenn du nur einen Teil gegessen hast.",
+        "📊 **Tagessummen** im Vergleich zu einem Ziel passend zu deinem Ziel – abnehmen, halten oder zunehmen.",
+        "🧂 **Zucker, Salz, Vitamine und Mineralstoffe** werden ebenfalls angezeigt.",
+        "🧮 **Eine Makroverteilung, die zu dir passt** – sieh mit unserem kostenlosen Makrorechner, wie das Verhältnis aussieht."
+      ],
+      "faq": [
+        [
+          "Was sind Makros?",
+          "Makros, also Makronährstoffe, sind Eiweiß, Kohlenhydrate und Fett – die drei Nährstoffe, die Kalorien liefern. Eiweiß und Kohlenhydrate liefern etwa 4 kcal pro Gramm, Fett etwa 9 kcal pro Gramm."
+        ],
+        [
+          "Muss ich mein Essen wiegen?",
+          "Nicht unbedingt. Ein Foto liefert eine gute Schätzung von Gericht und Portion. Wenn du es genauer möchtest, kannst du die Portion in der App anpassen."
+        ],
+        [
+          "Welche Makroverteilung sollte ich nutzen?",
+          "Das hängt von deinem Ziel und deinem Training ab. Unser Makrorechner zeigt gängige Verteilungen, etwa ausgewogen oder eiweißreicher, damit du sie vergleichen kannst."
+        ],
+        [
+          "Zeigt die App Eiweiß für jede Mahlzeit?",
+          "Ja. Jedes Gericht zeigt Eiweiß, Kohlenhydrate und Fett, und die Tagesansicht zeigt die Summen."
+        ]
+      ]
+    },
+    "es": {
+      "name": "Contador de macros",
+      "title": "Contador de macros: proteínas, carbohidratos y grasas",
+      "meta": "Cuenta tus macros sin pesar cada ingrediente: haz una foto y ve proteínas, carbohidratos y grasas de cada plato y del día, según tu meta.",
+      "lead": "Ve las proteínas, carbohidratos y grasas de cada plato y de todo el día, a partir de una sola foto de tu comida.",
+      "steps": [
+        "📸 **Haz una foto de tu comida** o regístrala por voz, texto o código de barras.",
+        "🧮 **Obtén los macros** — cada plato muestra proteínas, carbohidratos y grasas en gramos, junto con las calorías.",
+        "🎯 **Sigue tu día** — el anillo y los totales diarios muestran cuánto te falta para tu objetivo."
+      ],
+      "benefits": [
+        "🥩 **Proteínas, carbohidratos y grasas por plato** — no solo calorías.",
+        "⚖️ **Ajusta la ración** — desliza a la mitad o a un cuarto si solo comiste una parte.",
+        "📊 **Totales diarios** frente a un objetivo según tu meta: perder, mantener o ganar.",
+        "🧂 **Azúcar, sal, vitaminas y minerales** también se muestran.",
+        "🧮 **Una distribución de macros a tu medida** — mira cómo queda la proporción con nuestra calculadora de macros gratuita."
+      ],
+      "faq": [
+        [
+          "¿Qué son los macros?",
+          "Los macros, o macronutrientes, son las proteínas, los carbohidratos y las grasas: los tres nutrientes que aportan calorías. Las proteínas y los carbohidratos aportan unas 4 kcal por gramo y las grasas unas 9 kcal por gramo."
+        ],
+        [
+          "¿Necesito pesar mis alimentos?",
+          "No necesariamente. Una foto da una buena estimación del plato y la ración. Si quieres más precisión, puedes ajustar la ración en la app."
+        ],
+        [
+          "¿Qué distribución de macros debo usar?",
+          "Depende de tu meta y de cómo entrenas. Nuestra calculadora de macros muestra distribuciones habituales, como equilibrada o con más proteínas, para que puedas compararlas."
+        ],
+        [
+          "¿Muestra las proteínas de cada comida?",
+          "Sí. Cada plato muestra sus proteínas, carbohidratos y grasas, y la vista del día muestra los totales."
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Suivi des macros",
+      "title": "Suivi des macros : protéines, glucides et lipides par repas",
+      "meta": "Suivez vos macros sans tout peser : une photo, et voyez protéines, glucides et lipides de chaque plat et de la journée, avec un objectif selon votre but.",
+      "lead": "Voyez les protéines, glucides et lipides de chaque plat et de toute la journée — à partir d'une seule photo de votre repas.",
+      "steps": [
+        "📸 **Prenez votre repas en photo** — ou enregistrez-le à la voix, au texte ou avec un code-barres.",
+        "🧮 **Obtenez les macros** — chaque plat affiche protéines, glucides et lipides en grammes, avec les calories.",
+        "🎯 **Suivez votre journée** — l'anneau et les totaux quotidiens montrent où vous en êtes par rapport à votre objectif."
+      ],
+      "benefits": [
+        "🥩 **Protéines, glucides et lipides par plat** — pas seulement les calories.",
+        "⚖️ **Ajustez la portion** — faites glisser vers la moitié ou le quart si vous n'avez mangé qu'une partie.",
+        "📊 **Totaux quotidiens** face à un objectif basé sur votre but — perdre, maintenir ou prendre du poids.",
+        "🧂 **Sucre, sel, vitamines et minéraux** sont également affichés.",
+        "🧮 **Une répartition des macros adaptée à vous** — découvrez ce que donne le ratio avec notre calculateur de macros gratuit."
+      ],
+      "faq": [
+        [
+          "Que sont les macros ?",
+          "Les macros, ou macronutriments, sont les protéines, les glucides et les lipides — les trois nutriments qui apportent des calories. Les protéines et les glucides apportent environ 4 kcal par gramme, les lipides environ 9 kcal par gramme."
+        ],
+        [
+          "Dois-je peser mes aliments ?",
+          "Pas forcément. Une photo donne une bonne estimation du plat et de la portion. Si vous voulez plus de précision, vous pouvez ajuster la portion dans l'application."
+        ],
+        [
+          "Quelle répartition des macros dois-je choisir ?",
+          "Cela dépend de votre objectif et de votre entraînement. Notre calculateur de macros présente des répartitions courantes, comme équilibrée ou plus riche en protéines, pour que vous puissiez les comparer."
+        ],
+        [
+          "Affiche-t-il les protéines de chaque repas ?",
+          "Oui. Chaque plat affiche ses protéines, glucides et lipides, et la vue du jour affiche les totaux."
+        ]
+      ]
+    },
+    "he": {
+      "name": "מעקב מאקרו",
+      "title": "אפליקציית מעקב מאקרו: חלבון, פחמימות ושומן בכל ארוחה",
+      "meta": "עוקבים אחרי מאקרו בלי לשקול כל מרכיב: מצלמים את הארוחה ורואים חלבון, פחמימות ושומן לכל מנה ולכל היום, עם יעד לפי המטרה שלכם.",
+      "lead": "ראו חלבון, פחמימות ושומן לכל מנה ולכל היום — מתמונה אחת של הארוחה.",
+      "steps": [
+        "📸 **צלמו את הארוחה** — או תעדו אותה בקול, בטקסט או בברקוד.",
+        "🧮 **קבלו את המאקרו** — כל מנה מציגה חלבון, פחמימות ושומן בגרמים, עם קלוריות.",
+        "🎯 **עקבו אחרי היום שלכם** — הטבעת והסיכומים היומיים מראים כמה אתם קרובים ליעד."
+      ],
+      "benefits": [
+        "🥩 **חלבון, פחמימות ושומן לכל מנה** — לא רק קלוריות.",
+        "⚖️ **כוונון הכמות** — גררו לחצי או לרבע אם אכלתם רק חלק.",
+        "📊 **סיכומים יומיים** מול יעד לפי המטרה שלכם — ירידה, שמירה או עלייה.",
+        "🧂 **סוכר, מלח, ויטמינים ומינרלים** מוצגים גם הם.",
+        "🧮 **חלוקת מאקרו שמתאימה לכם** — ראו איך היחס נראה עם מחשבון המאקרו החינמי שלנו."
+      ],
+      "faq": [
+        [
+          "מהם מאקרו?",
+          "מאקרו, או אבות מזון, הם חלבון, פחמימות ושומן — שלושת הרכיבים שמספקים קלוריות. חלבון ופחמימות נותנים כ-4 קק״ל לגרם, ושומן כ-9 קק״ל לגרם."
+        ],
+        [
+          "צריך לשקול את האוכל?",
+          "לא בהכרח. תמונה נותנת הערכה טובה של המנה והכמות. אם רוצים דיוק רב יותר, אפשר לכוונן את הכמות באפליקציה."
+        ],
+        [
+          "באיזו חלוקת מאקרו כדאי להשתמש?",
+          "זה תלוי במטרה ובאופן שבו אתם מתאמנים. מחשבון המאקרו שלנו מציג חלוקות נפוצות, כמו מאוזנת או עשירה יותר בחלבון, כדי שתוכלו להשוות ביניהן."
+        ],
+        [
+          "האם מוצג חלבון לכל ארוחה?",
+          "כן. כל מנה מציגה חלבון, פחמימות ושומן, ותצוגת היום מציגה את הסיכומים."
+        ]
+      ]
+    },
+    "hi": {
+      "name": "मैक्रो ट्रैकर",
+      "title": "मैक्रो ट्रैकर ऐप: हर भोजन का प्रोटीन, कार्ब्स और फैट",
+      "meta": "हर सामग्री तौले बिना मैक्रोज़ ट्रैक करें: भोजन की फोटो लें और हर डिश व पूरे दिन का प्रोटीन, कार्ब्स और फैट देखें, आपके लक्ष्य पर आधारित टारगेट के साथ।",
+      "lead": "भोजन की एक फोटो से हर डिश और पूरे दिन का प्रोटीन, कार्ब्स और फैट देखें।",
+      "steps": [
+        "📸 **भोजन की फोटो लें** — या आवाज़, टेक्स्ट या बारकोड से लॉग करें।",
+        "🧮 **मैक्रोज़ पाएँ** — हर डिश में कैलोरी के साथ ग्राम में प्रोटीन, कार्ब्स और फैट दिखता है।",
+        "🎯 **अपना दिन ट्रैक करें** — रिंग और दैनिक योग दिखाते हैं कि आप टारगेट के कितने करीब हैं।"
+      ],
+      "benefits": [
+        "🥩 **हर डिश का प्रोटीन, कार्ब्स और फैट** — सिर्फ कैलोरी नहीं।",
+        "⚖️ **मात्रा बदलें** — अगर थोड़ा ही खाया हो तो स्लाइड करके आधा या चौथाई करें।",
+        "📊 **दैनिक योग** आपके लक्ष्य — वज़न घटाना, बनाए रखना या बढ़ाना — पर आधारित टारगेट के मुकाबले।",
+        "🧂 **चीनी, नमक, विटामिन और मिनरल** भी दिखते हैं।",
+        "🧮 **आपके लिए सही मैक्रो अनुपात** — हमारे मुफ़्त मैक्रो कैलकुलेटर से देखें कि अनुपात कैसा दिखता है।"
+      ],
+      "faq": [
+        [
+          "मैक्रोज़ क्या होते हैं?",
+          "मैक्रोज़, यानी मैक्रोन्यूट्रिएंट्स, प्रोटीन, कार्बोहाइड्रेट और फैट हैं — वे तीन पोषक तत्व जो कैलोरी देते हैं। प्रोटीन और कार्बोहाइड्रेट से लगभग 4 kcal प्रति ग्राम और फैट से लगभग 9 kcal प्रति ग्राम मिलती है।"
+        ],
+        [
+          "क्या मुझे खाना तौलना ज़रूरी है?",
+          "ज़रूरी नहीं। फोटो से डिश और मात्रा का अच्छा अनुमान मिल जाता है। ज़्यादा सटीकता चाहिए तो ऐप में मात्रा बदल सकते हैं।"
+        ],
+        [
+          "मुझे कौन-सा मैक्रो अनुपात अपनाना चाहिए?",
+          "यह आपके लक्ष्य और वर्कआउट के तरीके पर निर्भर करता है। हमारा मैक्रो कैलकुलेटर संतुलित या ज़्यादा प्रोटीन जैसे आम अनुपात दिखाता है, ताकि आप उनकी तुलना कर सकें।"
+        ],
+        [
+          "क्या यह हर भोजन का प्रोटीन दिखाता है?",
+          "हाँ। हर डिश का प्रोटीन, कार्ब्स और फैट दिखता है, और दिन के व्यू में कुल योग दिखता है।"
+        ]
+      ]
+    },
+    "id": {
+      "name": "Pelacak makro",
+      "title": "Aplikasi pelacak makro: protein, karbohidrat, lemak tiap makan",
+      "meta": "Lacak makro tanpa menimbang bahan: foto makananmu dan lihat protein, karbohidrat, lemak tiap hidangan dan seharian, dengan target sesuai tujuanmu.",
+      "lead": "Lihat protein, karbohidrat, dan lemak untuk setiap hidangan dan seharian — dari satu foto makananmu.",
+      "steps": [
+        "📸 **Foto makananmu** — atau catat lewat suara, teks, atau barcode.",
+        "🧮 **Dapatkan makronya** — tiap hidangan menampilkan protein, karbohidrat, dan lemak dalam gram, beserta kalori.",
+        "🎯 **Pantau harimu** — lingkaran dan total harian menunjukkan seberapa dekat kamu dengan target."
+      ],
+      "benefits": [
+        "🥩 **Protein, karbohidrat, dan lemak per hidangan** — bukan hanya kalori.",
+        "⚖️ **Atur porsi** — geser ke setengah atau seperempat jika hanya makan sebagian.",
+        "📊 **Total harian** dibandingkan target sesuai tujuanmu — menurunkan, menjaga, atau menaikkan berat badan.",
+        "🧂 **Gula, garam, vitamin, dan mineral** juga ditampilkan.",
+        "🧮 **Pembagian makro yang cocok untukmu** — lihat rasionya dengan kalkulator makro gratis kami."
+      ],
+      "faq": [
+        [
+          "Apa itu makro?",
+          "Makro, atau makronutrien, adalah protein, karbohidrat, dan lemak — tiga zat gizi yang menyumbang kalori. Protein dan karbohidrat menghasilkan sekitar 4 kkal per gram, lemak sekitar 9 kkal per gram."
+        ],
+        [
+          "Apakah saya perlu menimbang makanan?",
+          "Belum tentu. Foto sudah memberi perkiraan hidangan dan porsi yang baik. Jika ingin lebih presisi, kamu bisa mengatur porsi di aplikasi."
+        ],
+        [
+          "Pembagian makro apa yang sebaiknya saya pakai?",
+          "Tergantung tujuan dan cara kamu berlatih. Kalkulator makro kami menampilkan pembagian umum, seperti seimbang atau lebih tinggi protein, agar bisa kamu bandingkan."
+        ],
+        [
+          "Apakah protein tiap makan ditampilkan?",
+          "Ya. Setiap hidangan menampilkan protein, karbohidrat, dan lemaknya, dan tampilan harian menunjukkan totalnya."
+        ]
+      ]
+    },
+    "it": {
+      "name": "Macro tracker",
+      "title": "Macro tracker: proteine, carboidrati e grassi di ogni pasto",
+      "meta": "Traccia i macro senza pesare ogni ingrediente: scatta il pasto e vedi proteine, carboidrati e grassi di ogni piatto e della giornata, con un obiettivo.",
+      "lead": "Vedi proteine, carboidrati e grassi di ogni piatto e dell'intera giornata — da una sola foto del pasto.",
+      "steps": [
+        "📸 **Scatta il pasto** — oppure registralo a voce, con il testo o il codice a barre.",
+        "🧮 **Ottieni i macro** — ogni piatto mostra proteine, carboidrati e grassi in grammi, con le calorie.",
+        "🎯 **Segui la tua giornata** — l'anello e i totali giornalieri mostrano quanto sei vicino al tuo obiettivo."
+      ],
+      "benefits": [
+        "🥩 **Proteine, carboidrati e grassi per piatto** — non solo calorie.",
+        "⚖️ **Regola la porzione** — scorri fino a metà o a un quarto se ne hai mangiato solo una parte.",
+        "📊 **Totali giornalieri** rispetto a un obiettivo basato sul tuo traguardo — dimagrire, mantenere o aumentare.",
+        "🧂 **Anche zuccheri, sale, vitamine e minerali** sono indicati.",
+        "🧮 **Una ripartizione dei macro adatta a te** — scopri come appare il rapporto con il nostro calcolatore di macro gratuito."
+      ],
+      "faq": [
+        [
+          "Cosa sono i macro?",
+          "I macro, o macronutrienti, sono proteine, carboidrati e grassi — i tre nutrienti che forniscono calorie. Proteine e carboidrati danno circa 4 kcal per grammo, i grassi circa 9 kcal per grammo."
+        ],
+        [
+          "Devo pesare il cibo?",
+          "Non necessariamente. Una foto dà una buona stima del piatto e della porzione. Se vuoi più precisione, puoi regolare la porzione nell'app."
+        ],
+        [
+          "Quale ripartizione dei macro dovrei usare?",
+          "Dipende dal tuo obiettivo e da come ti alleni. Il nostro calcolatore di macro mostra le ripartizioni più comuni, come quella bilanciata o più ricca di proteine, così puoi confrontarle."
+        ],
+        [
+          "Mostra le proteine di ogni pasto?",
+          "Sì. Ogni piatto mostra le sue proteine, carboidrati e grassi, e la vista giornaliera mostra i totali."
+        ]
+      ]
+    },
+    "ja": {
+      "name": "マクロトラッカー",
+      "title": "マクロ管理アプリ：食事ごとのPFC(たんぱく質・脂質・炭水化物)",
+      "meta": "食材をいちいち量らずにマクロ管理。食事を撮るだけで、料理ごと・1日ごとのたんぱく質、炭水化物、脂質がわかり、目標に合わせた目標値も表示します。",
+      "lead": "食事の写真1枚で、料理ごと・1日ごとのたんぱく質、炭水化物、脂質がわかります。",
+      "steps": [
+        "📸 **食事を撮影** — 音声、テキスト、バーコードでも記録できます。",
+        "🧮 **マクロを確認** — 料理ごとに、たんぱく質・炭水化物・脂質をグラムで、カロリーと一緒に表示。",
+        "🎯 **1日を管理** — リングと1日の合計で、目標までどれくらいかがわかります。"
+      ],
+      "benefits": [
+        "🥩 **料理ごとのたんぱく質・炭水化物・脂質** — カロリーだけではありません。",
+        "⚖️ **量を調整** — 一部しか食べなかったときは、スライドして半分や4分の1に。",
+        "📊 **1日の合計**を、目標(減量・維持・増量)に合わせた目標値と比較。",
+        "🧂 **糖質、塩分、ビタミン、ミネラル**も表示されます。",
+        "🧮 **自分に合ったマクロ比率** — 無料のマクロ計算ツールで比率の目安を確認できます。"
+      ],
+      "faq": [
+        [
+          "マクロとは?",
+          "マクロ(マクロ栄養素)とは、たんぱく質・炭水化物・脂質のことで、カロリーのもとになる3つの栄養素です。たんぱく質と炭水化物は1gあたり約4 kcal、脂質は1gあたり約9 kcalです。"
+        ],
+        [
+          "食べ物を量る必要はありますか?",
+          "必ずしも必要ではありません。写真から料理と量をおおよそ推定できます。より正確にしたい場合は、アプリで量を調整できます。"
+        ],
+        [
+          "どのマクロ比率にすればいい?",
+          "目標やトレーニング内容によって異なります。マクロ計算ツールでは、バランス型や高たんぱくなど一般的な比率を比較できます。"
+        ],
+        [
+          "食事ごとのたんぱく質も表示されますか?",
+          "はい。どの料理にもたんぱく質・炭水化物・脂質が表示され、1日の画面では合計がわかります。"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "매크로 트래커",
+      "title": "매크로 트래커 앱: 끼니별 단백질·탄수화물·지방 확인",
+      "meta": "재료를 일일이 저울에 달지 않고도 매크로를 기록하세요. 식사를 찍으면 음식별, 하루 전체의 단백질·탄수화물·지방을 목표에 맞춰 확인할 수 있습니다.",
+      "lead": "식사 사진 한 장으로 음식별, 그리고 하루 전체의 단백질, 탄수화물, 지방을 확인하세요.",
+      "steps": [
+        "📸 **식사 촬영** — 음성, 텍스트, 바코드로 기록해도 됩니다.",
+        "🧮 **매크로 확인** — 음식마다 단백질, 탄수화물, 지방이 그램 단위로, 칼로리와 함께 표시됩니다.",
+        "🎯 **하루 따라가기** — 링과 하루 합계로 목표에 얼마나 가까운지 알 수 있습니다."
+      ],
+      "benefits": [
+        "🥩 **음식별 단백질, 탄수화물, 지방** — 칼로리만 보여주지 않습니다.",
+        "⚖️ **양 조절** — 일부만 먹었다면 슬라이더로 절반이나 4분의 1로 조절하세요.",
+        "📊 **하루 합계**를 목표와 비교 — 체중 감량, 유지, 증량 목표에 맞춰 계산됩니다.",
+        "🧂 **당, 나트륨, 비타민, 미네랄**도 함께 표시됩니다.",
+        "🧮 **나에게 맞는 매크로 비율** — 무료 매크로 계산기로 비율이 어떻게 되는지 확인해 보세요."
+      ],
+      "faq": [
+        [
+          "매크로란 무엇인가요?",
+          "매크로, 즉 다량 영양소는 단백질, 탄수화물, 지방으로 칼로리를 내는 세 가지 영양소입니다. 단백질과 탄수화물은 1그램당 약 4 kcal, 지방은 1그램당 약 9 kcal입니다."
+        ],
+        [
+          "음식을 저울에 달아야 하나요?",
+          "꼭 그럴 필요는 없습니다. 사진만으로도 음식과 양을 잘 추정할 수 있습니다. 더 정확하게 기록하고 싶다면 앱에서 양을 조절하세요."
+        ],
+        [
+          "어떤 매크로 비율을 써야 하나요?",
+          "목표와 운동 방식에 따라 다릅니다. 매크로 계산기에서 균형 잡힌 비율이나 단백질을 높인 비율 같은 일반적인 구성을 보여주니 비교해 보세요."
+        ],
+        [
+          "끼니마다 단백질이 표시되나요?",
+          "네. 모든 음식에 단백질, 탄수화물, 지방이 표시되고, 하루 화면에서는 합계를 볼 수 있습니다."
+        ]
+      ]
+    },
+    "nl": {
+      "name": "Macro tracker",
+      "title": "Macro tracker app: eiwit, koolhydraten en vet per maaltijd",
+      "meta": "Houd macro's bij zonder te wegen: maak een foto en zie eiwit, koolhydraten en vet per gerecht en voor de hele dag, met een doel op basis van jouw doel.",
+      "lead": "Zie eiwit, koolhydraten en vet per gerecht en voor de hele dag — vanuit één foto van je maaltijd.",
+      "steps": [
+        "📸 **Maak een foto van je maaltijd** — of log met je stem, tekst of barcode.",
+        "🧮 **Krijg de macro's** — elk gerecht toont eiwit, koolhydraten en vet in grammen, met calorieën.",
+        "🎯 **Volg je dag** — de ring en de dagtotalen laten zien hoe dicht je bij je doel zit."
+      ],
+      "benefits": [
+        "🥩 **Eiwit, koolhydraten en vet per gerecht** — niet alleen calorieën.",
+        "⚖️ **Pas de portie aan** — schuif naar de helft of een kwart als je maar een deel at.",
+        "📊 **Dagtotalen** ten opzichte van een doel op basis van jouw doel — afvallen, op gewicht blijven of aankomen.",
+        "🧂 **Suiker, zout, vitamines en mineralen** worden ook getoond.",
+        "🧮 **Een macroverdeling die bij je past** — bekijk hoe de verhouding eruitziet met onze gratis macrocalculator."
+      ],
+      "faq": [
+        [
+          "Wat zijn macro's?",
+          "Macro's, of macronutriënten, zijn eiwit, koolhydraten en vet — de drie voedingsstoffen die calorieën leveren. Eiwit en koolhydraten geven ongeveer 4 kcal per gram, vet ongeveer 9 kcal per gram."
+        ],
+        [
+          "Moet ik mijn eten wegen?",
+          "Niet per se. Een foto geeft een goede schatting van het gerecht en de portie. Wil je meer precisie, dan kun je de portie in de app aanpassen."
+        ],
+        [
+          "Welke macroverdeling moet ik gebruiken?",
+          "Dat hangt af van je doel en hoe je traint. Onze macrocalculator toont gangbare verdelingen, zoals gebalanceerd of meer eiwit, zodat je ze kunt vergelijken."
+        ],
+        [
+          "Toont het eiwit per maaltijd?",
+          "Ja. Elk gerecht toont zijn eiwit, koolhydraten en vet, en het dagoverzicht toont de totalen."
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Licznik makroskładników",
+      "title": "Aplikacja do liczenia makro: białko, węglowodany i tłuszcze",
+      "meta": "Śledź makro bez ważenia składników: zrób zdjęcie i zobacz białko, węglowodany i tłuszcze każdego dania oraz całego dnia, na tle celu opartego na Twoim celu.",
+      "lead": "Zobacz białko, węglowodany i tłuszcze dla każdego dania i dla całego dnia — z jednego zdjęcia posiłku.",
+      "steps": [
+        "📸 **Zrób zdjęcie posiłku** — lub zapisz go głosem, tekstem albo kodem kreskowym.",
+        "🧮 **Poznaj makroskładniki** — każde danie pokazuje białko, węglowodany i tłuszcze w gramach, wraz z kaloriami.",
+        "🎯 **Śledź swój dzień** — pierścień i dzienne sumy pokazują, jak blisko jesteś celu."
+      ],
+      "benefits": [
+        "🥩 **Białko, węglowodany i tłuszcze dla każdego dania** — nie tylko kalorie.",
+        "⚖️ **Dostosuj porcję** — przesuń suwak do połowy lub ćwiartki, jeśli zjadłeś tylko część.",
+        "📊 **Dzienne sumy** na tle celu opartego na Twoim celu — redukcja, utrzymanie lub przybieranie.",
+        "🧂 **Cukier, sól, witaminy i minerały** są również pokazane.",
+        "🧮 **Podział makro dopasowany do Ciebie** — sprawdź proporcje w naszym darmowym kalkulatorze makro."
+      ],
+      "faq": [
+        [
+          "Czym są makroskładniki?",
+          "Makroskładniki, czyli makro, to białko, węglowodany i tłuszcze — trzy składniki odżywcze dostarczające kalorii. Białko i węglowodany dają około 4 kcal na gram, tłuszcz około 9 kcal na gram."
+        ],
+        [
+          "Czy muszę ważyć jedzenie?",
+          "Niekoniecznie. Zdjęcie daje dobre oszacowanie dania i porcji. Jeśli chcesz większej precyzji, możesz dostosować porcję w aplikacji."
+        ],
+        [
+          "Jakiego podziału makro powinienem używać?",
+          "To zależy od Twojego celu i sposobu treningu. Nasz kalkulator makro pokazuje popularne podziały, na przykład zbilansowany lub z większą ilością białka, abyś mógł je porównać."
+        ],
+        [
+          "Czy pokazuje białko w każdym posiłku?",
+          "Tak. Każde danie pokazuje swoje białko, węglowodany i tłuszcze, a widok dnia pokazuje sumy."
+        ]
+      ]
+    },
+    "pt": {
+      "name": "Contador de macros",
+      "title": "App contador de macros: proteína, carboidratos e gordura",
+      "meta": "Acompanhe macros sem pesar cada ingrediente: fotografe a refeição e veja proteína, carboidratos e gordura de cada prato e do dia, com meta baseada no seu objetivo.",
+      "lead": "Veja proteína, carboidratos e gordura de cada prato e do dia inteiro — a partir de uma foto da sua refeição.",
+      "steps": [
+        "📸 **Fotografe sua refeição** — ou registre por voz, texto ou código de barras.",
+        "🧮 **Veja os macros** — cada prato mostra proteína, carboidratos e gordura em gramas, junto com as calorias.",
+        "🎯 **Acompanhe seu dia** — o anel e os totais diários mostram o quanto você está perto da meta."
+      ],
+      "benefits": [
+        "🥩 **Proteína, carboidratos e gordura por prato** — não só calorias.",
+        "⚖️ **Ajuste a porção** — deslize para metade ou um quarto se você comeu só uma parte.",
+        "📊 **Totais diários** em relação a uma meta baseada no seu objetivo — perder, manter ou ganhar.",
+        "🧂 **Açúcar, sal, vitaminas e minerais** também são mostrados.",
+        "🧮 **Uma divisão de macros que combina com você** — veja como fica a proporção com nossa calculadora de macros gratuita."
+      ],
+      "faq": [
+        [
+          "O que são macros?",
+          "Macros, ou macronutrientes, são proteínas, carboidratos e gorduras — os três nutrientes que fornecem calorias. Proteínas e carboidratos dão cerca de 4 kcal por grama, e a gordura cerca de 9 kcal por grama."
+        ],
+        [
+          "Preciso pesar os alimentos?",
+          "Não necessariamente. Uma foto dá uma boa estimativa do prato e da porção. Se quiser mais precisão, você pode ajustar a porção no app."
+        ],
+        [
+          "Qual divisão de macros devo usar?",
+          "Depende do seu objetivo e de como você treina. Nossa calculadora de macros mostra divisões comuns, como equilibrada ou com mais proteína, para você comparar."
+        ],
+        [
+          "Mostra a proteína de cada refeição?",
+          "Sim. Cada prato mostra sua proteína, carboidratos e gordura, e a visão do dia mostra os totais."
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Счётчик БЖУ",
+      "title": "Счётчик БЖУ: белки, жиры и углеводы в каждом приёме пищи",
+      "meta": "Считайте БЖУ, не взвешивая каждый ингредиент: сфотографируйте еду и узнайте белки, жиры и углеводы в каждом блюде и за весь день с нормой под вашу цель.",
+      "lead": "Смотрите белки, жиры и углеводы в каждом блюде и за весь день — по одному фото еды.",
+      "steps": [
+        "📸 **Сфотографируйте еду** — или добавьте её голосом, текстом или штрихкодом.",
+        "🧮 **Получите БЖУ** — у каждого блюда указаны белки, жиры и углеводы в граммах, а также калории.",
+        "🎯 **Следите за днём** — кольцо и дневные итоги показывают, насколько вы близки к норме."
+      ],
+      "benefits": [
+        "🥩 **Белки, жиры и углеводы для каждого блюда** — а не только калории.",
+        "⚖️ **Меняйте порцию** — сдвиньте ползунок до половины или четверти, если съели только часть.",
+        "📊 **Итоги за день** в сравнении с нормой под вашу цель — похудение, поддержание или набор веса.",
+        "🧂 **Сахар, соль, витамины и минералы** тоже показаны.",
+        "🧮 **Соотношение БЖУ для вас** — посмотрите, как оно выглядит, в нашем бесплатном калькуляторе БЖУ."
+      ],
+      "faq": [
+        [
+          "Что такое БЖУ?",
+          "БЖУ, или макронутриенты, — это белки, жиры и углеводы, три вещества, которые дают калории. Белки и углеводы дают около 4 ккал на грамм, жиры — около 9 ккал на грамм."
+        ],
+        [
+          "Нужно ли взвешивать еду?",
+          "Необязательно. Фото даёт хорошую оценку блюда и порции. Если нужна большая точность, порцию можно изменить в приложении."
+        ],
+        [
+          "Какое соотношение БЖУ выбрать?",
+          "Это зависит от вашей цели и тренировок. Наш калькулятор БЖУ показывает распространённые варианты, например сбалансированный или с повышенным белком, чтобы вы могли их сравнить."
+        ],
+        [
+          "Показывает ли приложение белок для каждого приёма пищи?",
+          "Да. У каждого блюда указаны белки, жиры и углеводы, а на экране дня — итоги."
+        ]
+      ]
+    },
+    "sv": {
+      "name": "Makroräknare",
+      "title": "Makroräknare app: protein, kolhydrater och fett i varje måltid",
+      "meta": "Följ makron utan att väga varje ingrediens: ta ett foto och se protein, kolhydrater och fett per rätt och för hela dagen, mot ett mål utifrån ditt mål.",
+      "lead": "Se protein, kolhydrater och fett för varje rätt och för hela dagen – från ett enda foto av din måltid.",
+      "steps": [
+        "📸 **Ta ett foto av måltiden** – eller logga med röst, text eller streckkod.",
+        "🧮 **Få makrona** – varje rätt visar protein, kolhydrater och fett i gram, med kalorier.",
+        "🎯 **Följ din dag** – ringen och dagssummorna visar hur nära ditt mål du är."
+      ],
+      "benefits": [
+        "🥩 **Protein, kolhydrater och fett per rätt** – inte bara kalorier.",
+        "⚖️ **Justera portionen** – dra till hälften eller en fjärdedel om du bara åt en del.",
+        "📊 **Dagssummor** mot ett mål utifrån ditt mål – gå ner, behåll eller gå upp i vikt.",
+        "🧂 **Socker, salt, vitaminer och mineraler** visas också.",
+        "🧮 **En makrofördelning som passar dig** – se hur fördelningen ser ut med vår kostnadsfria makrokalkylator."
+      ],
+      "faq": [
+        [
+          "Vad är makron?",
+          "Makron, eller makronutrienter, är protein, kolhydrater och fett – de tre näringsämnen som ger kalorier. Protein och kolhydrater ger cirka 4 kcal per gram, fett cirka 9 kcal per gram."
+        ],
+        [
+          "Måste jag väga min mat?",
+          "Inte nödvändigtvis. Ett foto ger en bra uppskattning av rätten och portionen. Vill du ha större precision kan du justera portionen i appen."
+        ],
+        [
+          "Vilken makrofördelning ska jag använda?",
+          "Det beror på ditt mål och hur du tränar. Vår makrokalkylator visar vanliga fördelningar, som balanserad eller mer protein, så att du kan jämföra dem."
+        ],
+        [
+          "Visas protein för varje måltid?",
+          "Ja. Varje rätt visar sitt protein, sina kolhydrater och sitt fett, och dagsvyn visar summorna."
+        ]
+      ]
+    },
+    "th": {
+      "name": "แอปนับแมคโคร",
+      "title": "แอปนับแมคโคร ดูโปรตีน คาร์บ ไขมัน ของทุกมื้อ",
+      "meta": "นับแมคโครโดยไม่ต้องชั่งทุกส่วนผสม ถ่ายรูปมื้ออาหารแล้วดูโปรตีน คาร์บ และไขมันของแต่ละเมนูและของทั้งวัน พร้อมเป้าหมายตามเป้าหมายของคุณ",
+      "lead": "ดูโปรตีน คาร์บ และไขมันของทุกเมนูและของทั้งวัน จากรูปถ่ายมื้ออาหารเพียงรูปเดียว",
+      "steps": [
+        "📸 **ถ่ายรูปมื้ออาหาร** หรือบันทึกด้วยเสียง ข้อความ หรือบาร์โค้ด",
+        "🧮 **รับค่าแมคโคร** แต่ละเมนูแสดงโปรตีน คาร์บ และไขมันเป็นกรัม พร้อมแคลอรี่",
+        "🎯 **ติดตามวันของคุณ** วงแหวนและยอดรวมรายวันแสดงว่าใกล้ถึงเป้าหมายแค่ไหน"
+      ],
+      "benefits": [
+        "🥩 **โปรตีน คาร์บ และไขมันต่อเมนู** ไม่ใช่แค่แคลอรี่",
+        "⚖️ **ปรับขนาดหนึ่งส่วน** เลื่อนไปที่ครึ่งหนึ่งหรือหนึ่งในสี่ ถ้าคุณกินแค่บางส่วน",
+        "📊 **ยอดรวมรายวัน** เทียบกับเป้าหมายตามเป้าหมายของคุณ ไม่ว่าจะลด รักษา หรือเพิ่มน้ำหนัก",
+        "🧂 **น้ำตาล เกลือ วิตามิน และแร่ธาตุ** ก็แสดงให้ด้วย",
+        "🧮 **สัดส่วนแมคโครที่เหมาะกับคุณ** ดูว่าอัตราส่วนเป็นอย่างไรด้วยเครื่องคำนวณแมคโครฟรีของเรา"
+      ],
+      "faq": [
+        [
+          "แมคโครคืออะไร",
+          "แมคโคร หรือสารอาหารหลัก คือโปรตีน คาร์โบไฮเดรต และไขมัน ซึ่งเป็นสารอาหารสามชนิดที่ให้แคลอรี่ โปรตีนและคาร์โบไฮเดรตให้ประมาณ 4 kcal ต่อกรัม ไขมันให้ประมาณ 9 kcal ต่อกรัม"
+        ],
+        [
+          "ต้องชั่งอาหารไหม",
+          "ไม่จำเป็นเสมอไป รูปถ่ายให้ค่าประมาณที่ดีของเมนูและขนาดหนึ่งส่วน หากต้องการความแม่นยำมากขึ้น คุณปรับขนาดหนึ่งส่วนในแอปได้"
+        ],
+        [
+          "ควรใช้สัดส่วนแมคโครแบบไหน",
+          "ขึ้นอยู่กับเป้าหมายและวิธีที่คุณออกกำลังกาย เครื่องคำนวณแมคโครของเราแสดงสัดส่วนที่ใช้กันทั่วไป เช่น แบบสมดุลหรือโปรตีนสูง เพื่อให้คุณเปรียบเทียบได้"
+        ],
+        [
+          "แสดงโปรตีนของแต่ละมื้อไหม",
+          "แสดง ทุกเมนูแสดงโปรตีน คาร์บ และไขมัน และมุมมองรายวันแสดงยอดรวม"
+        ]
+      ]
+    },
+    "tr": {
+      "name": "Makro takip uygulaması",
+      "title": "Makro takip uygulaması: her öğünde protein, karbonhidrat, yağ",
+      "meta": "Her malzemeyi tartmadan makro takibi: öğününün fotoğrafını çek, her yemek ve tüm gün için protein, karbonhidrat ve yağı gör; hedef, amacına göre belirlenir.",
+      "lead": "Her yemek ve tüm gün için protein, karbonhidrat ve yağı gör — öğününün tek bir fotoğrafından.",
+      "steps": [
+        "📸 **Öğününün fotoğrafını çek** — ya da sesle, yazıyla veya barkodla kaydet.",
+        "🧮 **Makroları öğren** — her yemek protein, karbonhidrat ve yağı gram olarak, kaloriyle birlikte gösterir.",
+        "🎯 **Gününü takip et** — halka ve günlük toplamlar hedefe ne kadar yaklaştığını gösterir."
+      ],
+      "benefits": [
+        "🥩 **Yemek başına protein, karbonhidrat ve yağ** — sadece kalori değil.",
+        "⚖️ **Porsiyonu ayarla** — yalnızca bir kısmını yediysen yarıya veya çeyreğe kaydır.",
+        "📊 **Günlük toplamlar**, hedefine göre belirlenen bir hedefle — kilo ver, koru ya da al.",
+        "🧂 **Şeker, tuz, vitaminler ve mineraller** de gösterilir.",
+        "🧮 **Sana uygun makro dağılımı** — oranın nasıl göründüğünü ücretsiz makro hesaplayıcımızla gör."
+      ],
+      "faq": [
+        [
+          "Makrolar nedir?",
+          "Makrolar, yani makro besinler; protein, karbonhidrat ve yağdır — kalori sağlayan üç besin. Protein ve karbonhidrat gram başına yaklaşık 4 kcal, yağ ise gram başına yaklaşık 9 kcal verir."
+        ],
+        [
+          "Yemeklerimi tartmam gerekir mi?",
+          "Şart değil. Fotoğraf, yemek ve porsiyon için iyi bir tahmin verir. Daha fazla hassasiyet istersen porsiyonu uygulamada ayarlayabilirsin."
+        ],
+        [
+          "Hangi makro dağılımını kullanmalıyım?",
+          "Hedefine ve nasıl antrenman yaptığına bağlıdır. Makro hesaplayıcımız dengeli ya da yüksek proteinli gibi yaygın dağılımları gösterir, böylece karşılaştırabilirsin."
+        ],
+        [
+          "Her öğün için protein gösteriyor mu?",
+          "Evet. Her yemek protein, karbonhidrat ve yağını gösterir; gün görünümü ise toplamları verir."
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Трекер БЖВ",
+      "title": "Трекер БЖВ: білки, жири й вуглеводи в кожному прийомі їжі",
+      "meta": "Відстежуйте БЖВ, не зважуючи кожен інгредієнт: сфотографуйте страву й дізнайтеся білки, вуглеводи та жири кожної страви й усього дня з нормою під вашу ціль.",
+      "lead": "Бачте білки, вуглеводи та жири кожної страви й усього дня — з одного фото вашої їжі.",
+      "steps": [
+        "📸 **Сфотографуйте страву** — або запишіть її голосом, текстом чи штрихкодом.",
+        "🧮 **Отримайте макроси** — кожна страва показує білки, вуглеводи та жири в грамах, а також калорії.",
+        "🎯 **Стежте за днем** — кільце та денні підсумки показують, наскільки ви близькі до цілі."
+      ],
+      "benefits": [
+        "🥩 **Білки, вуглеводи та жири для кожної страви** — а не лише калорії.",
+        "⚖️ **Змінюйте порцію** — посуньте повзунок до половини чи чверті, якщо з'їли лише частину.",
+        "📊 **Денні підсумки** відносно норми під вашу ціль — схуднення, підтримання чи набір.",
+        "🧂 **Цукор, сіль, вітаміни та мінерали** також показано.",
+        "🧮 **Розподіл макросів, що вам підходить** — подивіться, як виглядає співвідношення, у нашому безкоштовному калькуляторі макросів."
+      ],
+      "faq": [
+        [
+          "Що таке макроси?",
+          "Макроси, або макронутрієнти, — це білки, вуглеводи та жири, три поживні речовини, що дають калорії. Білки та вуглеводи дають близько 4 ккал на грам, жири — близько 9 ккал на грам."
+        ],
+        [
+          "Чи потрібно зважувати їжу?",
+          "Не обов'язково. Фото дає гарну оцінку страви та порції. Якщо потрібна більша точність, порцію можна змінити в застосунку."
+        ],
+        [
+          "Який розподіл макросів обрати?",
+          "Це залежить від вашої цілі та того, як ви тренуєтесь. Наш калькулятор макросів показує поширені розподіли, як-от збалансований чи з більшою кількістю білка, щоб ви могли їх порівняти."
+        ],
+        [
+          "Чи показує він білок для кожного прийому їжі?",
+          "Так. Кожна страва показує свої білки, вуглеводи та жири, а в перегляді дня видно підсумки."
+        ]
+      ]
+    },
+    "vi": {
+      "name": "Ứng dụng theo dõi macro",
+      "title": "Ứng dụng theo dõi macro: đạm, tinh bột, béo cho từng bữa",
+      "meta": "Theo dõi macro mà không cần cân từng nguyên liệu: chụp bữa ăn và xem đạm, tinh bột, béo của từng món và cả ngày, với mục tiêu dựa trên mục tiêu của bạn.",
+      "lead": "Xem đạm, tinh bột và béo của từng món và của cả ngày — chỉ từ một bức ảnh bữa ăn.",
+      "steps": [
+        "📸 **Chụp bữa ăn** — hoặc ghi bằng giọng nói, văn bản hay mã vạch.",
+        "🧮 **Nhận macro** — mỗi món hiển thị đạm, tinh bột và béo theo gam, kèm calo.",
+        "🎯 **Theo dõi ngày của bạn** — vòng tròn và tổng cộng hằng ngày cho biết bạn gần mục tiêu đến đâu."
+      ],
+      "benefits": [
+        "🥩 **Đạm, tinh bột và béo cho từng món** — không chỉ calo.",
+        "⚖️ **Chỉnh khẩu phần** — kéo xuống một nửa hoặc một phần tư nếu bạn chỉ ăn một phần.",
+        "📊 **Tổng cộng hằng ngày** so với mục tiêu dựa trên mục tiêu của bạn — giảm, giữ hoặc tăng cân.",
+        "🧂 **Đường, muối, vitamin và khoáng chất** cũng được hiển thị.",
+        "🧮 **Tỷ lệ macro phù hợp với bạn** — xem tỷ lệ trông thế nào với công cụ tính macro miễn phí của chúng tôi."
+      ],
+      "faq": [
+        [
+          "Macro là gì?",
+          "Macro, hay chất dinh dưỡng đa lượng, là đạm, tinh bột và chất béo — ba chất dinh dưỡng cung cấp calo. Đạm và tinh bột cho khoảng 4 kcal mỗi gam, chất béo khoảng 9 kcal mỗi gam."
+        ],
+        [
+          "Tôi có cần cân thực phẩm không?",
+          "Không nhất thiết. Một bức ảnh cho ước tính tốt về món ăn và khẩu phần. Nếu muốn chính xác hơn, bạn có thể chỉnh khẩu phần trong ứng dụng."
+        ],
+        [
+          "Tôi nên dùng tỷ lệ macro nào?",
+          "Điều đó phụ thuộc vào mục tiêu và cách bạn tập luyện. Công cụ tính macro của chúng tôi hiển thị các tỷ lệ phổ biến, như cân bằng hoặc nhiều đạm hơn, để bạn so sánh."
+        ],
+        [
+          "Ứng dụng có hiển thị đạm cho từng bữa không?",
+          "Có. Mỗi món hiển thị đạm, tinh bột và béo của nó, còn màn hình theo ngày hiển thị tổng cộng."
+        ]
+      ]
+    },
+    "zh": {
+      "name": "宏量营养素追踪器",
+      "title": "宏量营养素追踪器:每餐的蛋白质、碳水和脂肪",
+      "meta": "无需称量每种食材,也能追踪宏量营养素:拍下你的餐食,即可看到每道菜和全天的蛋白质、碳水化合物和脂肪,并根据你的目标设定摄入目标。",
+      "lead": "只需拍一张餐食照片,就能看到每道菜以及全天的蛋白质、碳水化合物和脂肪。",
+      "steps": [
+        "📸 **拍下你的餐食** — 或通过语音、文字、条形码记录。",
+        "🧮 **获得营养素数据** — 每道菜都以克为单位显示蛋白质、碳水化合物和脂肪,以及热量。",
+        "🎯 **跟进你的一天** — 圆环和每日总计会显示你离目标还有多远。"
+      ],
+      "benefits": [
+        "🥩 **每道菜的蛋白质、碳水化合物和脂肪** — 而不只是热量。",
+        "⚖️ **调整份量** — 如果只吃了一部分,可滑动调整为一半或四分之一。",
+        "📊 **每日总计**对照基于你目标的摄入目标 — 减重、维持或增重。",
+        "🧂 同时显示**糖、盐、维生素和矿物质**。",
+        "🧮 **适合你的营养素比例** — 用我们免费的宏量营养素计算器,看看比例是什么样。"
+      ],
+      "faq": [
+        [
+          "什么是宏量营养素?",
+          "宏量营养素(简称“宏量”)是蛋白质、碳水化合物和脂肪 — 提供热量的三大营养素。每克蛋白质和碳水化合物约提供 4 kcal,每克脂肪约提供 9 kcal。"
+        ],
+        [
+          "我需要称量食物吗?",
+          "不一定。一张照片就能对菜品和份量给出不错的估算。如果想要更精确,可以在应用中调整份量。"
+        ],
+        [
+          "我应该采用什么样的营养素比例?",
+          "这取决于你的目标和训练方式。我们的宏量营养素计算器会列出常见的比例,例如均衡型或高蛋白型,方便你比较。"
+        ],
+        [
+          "它会显示每餐的蛋白质吗?",
+          "会。每道菜都会显示蛋白质、碳水化合物和脂肪,每日视图则显示总计。"
+        ]
+      ]
+    }
+  },
+  "protein-tracker": {
+    "en": {
+      "name": "Protein tracker",
+      "title": "Protein tracker app: see protein in every meal",
+      "meta": "Track your daily protein with a photo: Me Nutrition shows the grams of protein in every dish and in your whole day, against a target based on your goal.",
+      "lead": "See how much protein is in every dish and whether you have reached your daily target.",
+      "steps": [
+        "🎯 **Set your goal** — the app suggests a daily target based on it.",
+        "📸 **Log your meals** with a photo, voice, text or barcode.",
+        "💪 **Check your protein** — grams per dish and for the whole day."
+      ],
+      "benefits": [
+        "💪 **Protein in grams for every dish**, next to calories, carbs and fat.",
+        "📈 **Daily protein total** so you can see what is left to eat.",
+        "🥚 **Spot protein-rich dishes** — dishes with a high share of protein are marked.",
+        "🍱 **Whole table in one photo** — each dish is counted separately.",
+        "🧮 **Find your own number** with our free protein calculator."
+      ],
+      "faq": [
+        [
+          "How much protein do I need a day?",
+          "For most healthy adults the reference intake is about 0.8 g per kg of body weight. Older adults and people who train regularly are often advised more. Our protein calculator shows the ranges."
+        ],
+        [
+          "Which foods are high in protein?",
+          "Meat, poultry, fish, eggs, dairy, tofu, tempeh, beans, lentils, nuts and seeds."
+        ],
+        [
+          "Can I track protein without weighing food?",
+          "Yes. A photo of your meal gives a good estimate. You can adjust the portion if you ate only part of it."
+        ],
+        [
+          "Does it work for vegetarians and vegans?",
+          "Yes. The app recognises dishes from around the world and shows protein for plant-based dishes too."
+        ]
+      ]
+    },
+    "ar": {
+      "name": "تطبيق تتبع البروتين",
+      "title": "تطبيق تتبع البروتين: اعرف كمية البروتين في كل وجبة",
+      "meta": "تتبّع بروتينك اليومي بصورة: يعرض Me Nutrition غرامات البروتين في كل طبق وفي يومك كله، مقابل هدف يناسب هدفك.",
+      "lead": "اعرف كمية البروتين في كل طبق، وهل وصلت إلى هدفك اليومي.",
+      "steps": [
+        "🎯 **حدّد هدفك** — ويقترح التطبيق هدفاً يومياً بناءً عليه.",
+        "📸 **سجّل وجباتك** بالصورة أو الصوت أو النص أو الباركود.",
+        "💪 **تحقق من بروتينك** — بالغرام لكل طبق ولليوم كله."
+      ],
+      "benefits": [
+        "💪 **البروتين بالغرام لكل طبق**، بجانب السعرات الحرارية والكربوهيدرات والدهون.",
+        "📈 **إجمالي البروتين اليومي** لتعرف ما تبقى لك لتأكله.",
+        "🥚 **اكتشف الأطباق الغنية بالبروتين** — تُميَّز الأطباق التي تحتوي على نسبة عالية من البروتين.",
+        "🍱 **المائدة كاملة في صورة واحدة** — يُحتسب كل طبق على حدة.",
+        "🧮 **اعرف رقمك الخاص** مع حاسبة البروتين المجانية لدينا."
+      ],
+      "faq": [
+        [
+          "كم أحتاج من البروتين يومياً؟",
+          "لدى معظم البالغين الأصحاء، يبلغ المرجع نحو 0.8 غ لكل كغ من وزن الجسم. وغالباً ما يُنصح كبار السن ومن يتدربون بانتظام بكمية أكبر. تعرض حاسبة البروتين لدينا النطاقات."
+        ],
+        [
+          "ما الأطعمة الغنية بالبروتين؟",
+          "اللحوم والدواجن والأسماك والبيض ومنتجات الألبان والتوفو والتمبيه والفول والعدس والمكسرات والبذور."
+        ],
+        [
+          "هل يمكنني تتبع البروتين دون وزن الطعام؟",
+          "نعم. تعطي صورة وجبتك تقديراً جيداً. ويمكنك تعديل الحصة إذا أكلت جزءاً منها فقط."
+        ],
+        [
+          "هل يناسب النباتيين والفيغان؟",
+          "نعم. يتعرّف التطبيق على أطباق من حول العالم ويعرض البروتين للأطباق النباتية أيضاً."
+        ]
+      ]
+    },
+    "de": {
+      "name": "Protein Tracker",
+      "title": "Protein Tracker App: Eiweiß in jeder Mahlzeit im Blick",
+      "meta": "Tracke dein Eiweiß per Foto: Me Nutrition zeigt die Gramm Eiweiß in jedem Gericht und im ganzen Tag – im Vergleich zu einem Ziel passend zu deinem Ziel.",
+      "lead": "Sieh, wie viel Eiweiß in jedem Gericht steckt und ob du dein Tagesziel erreicht hast.",
+      "steps": [
+        "🎯 **Ziel festlegen** – die App schlägt dazu ein Tagesziel vor.",
+        "📸 **Mahlzeiten erfassen** per Foto, Sprache, Text oder Barcode.",
+        "💪 **Eiweiß prüfen** – Gramm pro Gericht und für den ganzen Tag."
+      ],
+      "benefits": [
+        "💪 **Eiweiß in Gramm für jedes Gericht**, neben Kalorien, Kohlenhydraten und Fett.",
+        "📈 **Tagessumme Eiweiß**, damit du siehst, was noch zu essen übrig ist.",
+        "🥚 **Eiweißreiche Gerichte erkennen** – Gerichte mit hohem Eiweißanteil sind markiert.",
+        "🍱 **Der ganze Tisch auf einem Foto** – jedes Gericht wird einzeln gezählt.",
+        "🧮 **Finde deine eigene Zahl** mit unserem kostenlosen Proteinrechner."
+      ],
+      "faq": [
+        [
+          "Wie viel Eiweiß brauche ich am Tag?",
+          "Für die meisten gesunden Erwachsenen liegt der Referenzwert bei etwa 0.8 g pro kg Körpergewicht. Älteren Erwachsenen und Menschen, die regelmäßig trainieren, wird oft mehr empfohlen. Unser Proteinrechner zeigt die Bereiche."
+        ],
+        [
+          "Welche Lebensmittel sind eiweißreich?",
+          "Fleisch, Geflügel, Fisch, Eier, Milchprodukte, Tofu, Tempeh, Bohnen, Linsen, Nüsse und Samen."
+        ],
+        [
+          "Kann ich Eiweiß tracken, ohne Essen zu wiegen?",
+          "Ja. Ein Foto deiner Mahlzeit liefert eine gute Schätzung. Du kannst die Portion anpassen, wenn du nur einen Teil gegessen hast."
+        ],
+        [
+          "Funktioniert es für Vegetarier und Veganer?",
+          "Ja. Die App erkennt Gerichte aus aller Welt und zeigt auch bei pflanzlichen Gerichten das Eiweiß an."
+        ]
+      ]
+    },
+    "es": {
+      "name": "Contador de proteínas",
+      "title": "Contador de proteínas: ve la proteína de cada comida",
+      "meta": "Controla tus proteínas diarias con una foto: Me Nutrition muestra los gramos de proteína de cada plato y de todo tu día, frente a un objetivo según tu meta.",
+      "lead": "Ve cuánta proteína tiene cada plato y si has alcanzado tu objetivo diario.",
+      "steps": [
+        "🎯 **Define tu meta** — la app sugiere un objetivo diario a partir de ella.",
+        "📸 **Registra tus comidas** con una foto, voz, texto o código de barras.",
+        "💪 **Revisa tus proteínas** — gramos por plato y de todo el día."
+      ],
+      "benefits": [
+        "💪 **Proteína en gramos de cada plato**, junto a calorías, carbohidratos y grasas.",
+        "📈 **Total diario de proteínas** para saber cuánto te falta por comer.",
+        "🥚 **Detecta los platos ricos en proteínas** — los platos con una alta proporción de proteína están marcados.",
+        "🍱 **Toda la mesa en una foto** — cada plato se cuenta por separado.",
+        "🧮 **Encuentra tu propia cifra** con nuestra calculadora de proteínas gratuita."
+      ],
+      "faq": [
+        [
+          "¿Cuánta proteína necesito al día?",
+          "Para la mayoría de los adultos sanos, la ingesta de referencia es de unos 0.8 g por kg de peso corporal. A las personas mayores y a quienes entrenan con regularidad suele recomendárseles más. Nuestra calculadora de proteínas muestra los rangos."
+        ],
+        [
+          "¿Qué alimentos son ricos en proteínas?",
+          "Carne, aves, pescado, huevos, lácteos, tofu, tempeh, legumbres, lentejas, frutos secos y semillas."
+        ],
+        [
+          "¿Puedo controlar las proteínas sin pesar la comida?",
+          "Sí. Una foto de tu comida da una buena estimación. Puedes ajustar la ración si solo comiste una parte."
+        ],
+        [
+          "¿Sirve para vegetarianos y veganos?",
+          "Sí. La app reconoce platos de todo el mundo y también muestra las proteínas de los platos de origen vegetal."
+        ]
+      ]
+    },
+    "fr": {
+      "name": "Suivi des protéines",
+      "title": "Suivi des protéines : les protéines de chaque repas",
+      "meta": "Suivez vos protéines avec une photo : Me Nutrition affiche les grammes de protéines de chaque plat et de la journée, face à un objectif selon votre but.",
+      "lead": "Voyez la quantité de protéines de chaque plat et si vous avez atteint votre objectif quotidien.",
+      "steps": [
+        "🎯 **Définissez votre objectif** — l'application propose un objectif quotidien en fonction.",
+        "📸 **Enregistrez vos repas** par photo, voix, texte ou code-barres.",
+        "💪 **Vérifiez vos protéines** — grammes par plat et pour toute la journée."
+      ],
+      "benefits": [
+        "💪 **Les protéines en grammes pour chaque plat**, à côté des calories, glucides et lipides.",
+        "📈 **Total quotidien de protéines** pour voir ce qu'il vous reste à manger.",
+        "🥚 **Repérez les plats riches en protéines** — les plats à forte part de protéines sont signalés.",
+        "🍱 **Toute la table en une photo** — chaque plat est compté séparément.",
+        "🧮 **Trouvez votre propre chiffre** avec notre calculateur de protéines gratuit."
+      ],
+      "faq": [
+        [
+          "De combien de protéines ai-je besoin par jour ?",
+          "Pour la plupart des adultes en bonne santé, l'apport de référence est d'environ 0,8 g par kg de poids corporel. Il est souvent conseillé d'en consommer davantage chez les personnes âgées et celles qui s'entraînent régulièrement. Notre calculateur de protéines indique les fourchettes."
+        ],
+        [
+          "Quels aliments sont riches en protéines ?",
+          "Viande, volaille, poisson, œufs, produits laitiers, tofu, tempeh, haricots, lentilles, fruits à coque et graines."
+        ],
+        [
+          "Puis-je suivre mes protéines sans peser les aliments ?",
+          "Oui. Une photo de votre repas donne une bonne estimation. Vous pouvez ajuster la portion si vous n'en avez mangé qu'une partie."
+        ],
+        [
+          "Est-ce adapté aux végétariens et aux végans ?",
+          "Oui. L'application reconnaît des plats du monde entier et affiche aussi les protéines des plats végétaux."
+        ]
+      ]
+    },
+    "he": {
+      "name": "מעקב חלבון",
+      "title": "אפליקציית מעקב חלבון: ראו כמה חלבון יש בכל ארוחה",
+      "meta": "עקבו אחרי החלבון היומי בעזרת תמונה: Me Nutrition מציגה את גרמי החלבון בכל מנה ובכל היום, מול יעד לפי המטרה שלכם.",
+      "lead": "ראו כמה חלבון יש בכל מנה והאם הגעתם ליעד היומי שלכם.",
+      "steps": [
+        "🎯 **הגדירו מטרה** — האפליקציה מציעה על פיה יעד יומי.",
+        "📸 **תעדו את הארוחות** בתמונה, בקול, בטקסט או בברקוד.",
+        "💪 **בדקו את החלבון** — גרמים לכל מנה ולכל היום."
+      ],
+      "benefits": [
+        "💪 **חלבון בגרמים לכל מנה**, לצד קלוריות, פחמימות ושומן.",
+        "📈 **סך החלבון היומי** כדי לראות כמה נשאר לאכול.",
+        "🥚 **זיהוי מנות עשירות בחלבון** — מנות עם נתח גבוה של חלבון מסומנות.",
+        "🍱 **כל השולחן בתמונה אחת** — כל מנה נספרת בנפרד.",
+        "🧮 **מצאו את המספר שלכם** עם מחשבון החלבון החינמי שלנו."
+      ],
+      "faq": [
+        [
+          "כמה חלבון אני צריך ביום?",
+          "לרוב המבוגרים הבריאים הצריכה המומלצת היא כ-0.8 ג׳ לכל ק״ג ממשקל הגוף. למבוגרים מבוגרים יותר ולמי שמתאמנים באופן קבוע מומלצת לרוב כמות גבוהה יותר. מחשבון החלבון שלנו מציג את הטווחים."
+        ],
+        [
+          "אילו מזונות עשירים בחלבון?",
+          "בשר, עוף, דגים, ביצים, מוצרי חלב, טופו, טמפה, שעועית, עדשים, אגוזים וזרעים."
+        ],
+        [
+          "אפשר לעקוב אחרי חלבון בלי לשקול אוכל?",
+          "כן. תמונה של הארוחה נותנת הערכה טובה. אפשר לכוונן את הכמות אם אכלתם רק חלק ממנה."
+        ],
+        [
+          "האם זה מתאים לצמחונים ולטבעונים?",
+          "כן. האפליקציה מזהה מנות מכל העולם ומציגה חלבון גם למנות צמחיות."
+        ]
+      ]
+    },
+    "hi": {
+      "name": "प्रोटीन ट्रैकर",
+      "title": "प्रोटीन ट्रैकर ऐप: हर भोजन में प्रोटीन देखें",
+      "meta": "फोटो से रोज़ का प्रोटीन ट्रैक करें: Me Nutrition हर डिश और पूरे दिन में प्रोटीन के ग्राम दिखाता है, आपके लक्ष्य पर आधारित टारगेट के साथ।",
+      "lead": "देखें कि हर डिश में कितना प्रोटीन है और क्या आप अपने दैनिक टारगेट तक पहुँचे।",
+      "steps": [
+        "🎯 **अपना लक्ष्य चुनें** — ऐप उसके आधार पर दैनिक टारगेट सुझाता है।",
+        "📸 **भोजन लॉग करें** — फोटो, आवाज़, टेक्स्ट या बारकोड से।",
+        "💪 **अपना प्रोटीन देखें** — हर डिश और पूरे दिन के ग्राम में।"
+      ],
+      "benefits": [
+        "💪 **हर डिश का प्रोटीन ग्राम में**, कैलोरी, कार्ब्स और फैट के साथ।",
+        "📈 **दैनिक प्रोटीन योग**, ताकि दिखे कि अभी कितना खाना बाकी है।",
+        "🥚 **प्रोटीन से भरपूर डिश पहचानें** — जिन डिश में प्रोटीन का हिस्सा ज़्यादा है, उन पर निशान लगा होता है।",
+        "🍱 **पूरी मेज़ एक फोटो में** — हर डिश अलग गिनी जाती है।",
+        "🧮 **अपना आँकड़ा खोजें** हमारे मुफ़्त प्रोटीन कैलकुलेटर से।"
+      ],
+      "faq": [
+        [
+          "मुझे रोज़ कितना प्रोटीन चाहिए?",
+          "ज़्यादातर स्वस्थ वयस्कों के लिए संदर्भ मात्रा लगभग 0.8 g प्रति किलो शरीर के वज़न है। बुज़ुर्गों और नियमित वर्कआउट करने वालों को अक्सर ज़्यादा की सलाह दी जाती है। हमारा प्रोटीन कैलकुलेटर दायरे दिखाता है।"
+        ],
+        [
+          "किन खाद्य पदार्थों में प्रोटीन ज़्यादा होता है?",
+          "मांस, पोल्ट्री, मछली, अंडे, डेयरी, टोफू, टेम्पे, बीन्स, दालें, नट्स और बीज।"
+        ],
+        [
+          "क्या मैं खाना तौले बिना प्रोटीन ट्रैक कर सकता/सकती हूँ?",
+          "हाँ। भोजन की फोटो से अच्छा अनुमान मिलता है। अगर आपने थोड़ा ही खाया हो तो मात्रा बदल सकते हैं।"
+        ],
+        [
+          "क्या यह शाकाहारियों और वीगन लोगों के लिए काम करता है?",
+          "हाँ। ऐप दुनिया भर के व्यंजन पहचानता है और पौधों पर आधारित डिश का प्रोटीन भी दिखाता है।"
+        ]
+      ]
+    },
+    "id": {
+      "name": "Pelacak protein",
+      "title": "Aplikasi pelacak protein: lihat protein di setiap makanan",
+      "meta": "Lacak protein harianmu lewat foto: Me Nutrition menampilkan gram protein di setiap hidangan dan sepanjang harimu, dibandingkan target sesuai tujuanmu.",
+      "lead": "Lihat berapa banyak protein di setiap hidangan dan apakah target hariannya sudah tercapai.",
+      "steps": [
+        "🎯 **Tentukan tujuanmu** — aplikasi menyarankan target harian berdasarkan tujuan itu.",
+        "📸 **Catat makananmu** lewat foto, suara, teks, atau barcode.",
+        "💪 **Periksa proteinmu** — gram per hidangan dan untuk seluruh hari."
+      ],
+      "benefits": [
+        "💪 **Protein dalam gram untuk setiap hidangan**, di samping kalori, karbohidrat, dan lemak.",
+        "📈 **Total protein harian** agar kamu tahu sisa yang perlu dimakan.",
+        "🥚 **Kenali hidangan kaya protein** — hidangan dengan porsi protein tinggi diberi tanda.",
+        "🍱 **Seluruh meja dalam satu foto** — tiap hidangan dihitung terpisah.",
+        "🧮 **Temukan angkamu sendiri** dengan kalkulator protein gratis kami."
+      ],
+      "faq": [
+        [
+          "Berapa protein yang saya butuhkan sehari?",
+          "Untuk kebanyakan orang dewasa sehat, asupan acuannya sekitar 0.8 g per kg berat badan. Lansia dan orang yang rutin berlatih sering disarankan lebih banyak. Kalkulator protein kami menampilkan rentangnya."
+        ],
+        [
+          "Makanan apa yang tinggi protein?",
+          "Daging, unggas, ikan, telur, produk susu, tahu, tempe, kacang-kacangan, lentil, kacang, dan biji-bijian."
+        ],
+        [
+          "Bisakah melacak protein tanpa menimbang makanan?",
+          "Bisa. Foto makananmu memberi perkiraan yang baik. Kamu dapat mengatur porsi jika hanya makan sebagian."
+        ],
+        [
+          "Apakah cocok untuk vegetarian dan vegan?",
+          "Ya. Aplikasi mengenali hidangan dari seluruh dunia dan juga menampilkan protein untuk hidangan nabati."
+        ]
+      ]
+    },
+    "it": {
+      "name": "Protein tracker",
+      "title": "Protein tracker: scopri le proteine di ogni pasto",
+      "meta": "Traccia le proteine con una foto: Me Nutrition mostra i grammi di proteine in ogni piatto e nella giornata, rispetto a un obiettivo basato sul tuo traguardo.",
+      "lead": "Scopri quante proteine ci sono in ogni piatto e se hai raggiunto il tuo obiettivo giornaliero.",
+      "steps": [
+        "🎯 **Imposta il tuo obiettivo** — l'app ti suggerisce un obiettivo giornaliero in base a esso.",
+        "📸 **Registra i pasti** con una foto, la voce, il testo o il codice a barre.",
+        "💪 **Controlla le proteine** — grammi per piatto e per l'intera giornata."
+      ],
+      "benefits": [
+        "💪 **Proteine in grammi per ogni piatto**, accanto a calorie, carboidrati e grassi.",
+        "📈 **Totale giornaliero di proteine** per vedere quanto ti resta da mangiare.",
+        "🥚 **Riconosci i piatti ricchi di proteine** — i piatti con una quota elevata di proteine sono evidenziati.",
+        "🍱 **Tutta la tavola in una foto** — ogni piatto viene conteggiato a parte.",
+        "🧮 **Trova il tuo valore** con il nostro calcolatore di proteine gratuito."
+      ],
+      "faq": [
+        [
+          "Quante proteine mi servono al giorno?",
+          "Per la maggior parte degli adulti sani l'assunzione di riferimento è di circa 0.8 g per kg di peso corporeo. Agli anziani e a chi si allena regolarmente se ne consiglia spesso di più. Il nostro calcolatore di proteine mostra gli intervalli."
+        ],
+        [
+          "Quali alimenti sono ricchi di proteine?",
+          "Carne, pollame, pesce, uova, latticini, tofu, tempeh, fagioli, lenticchie, frutta a guscio e semi."
+        ],
+        [
+          "Posso monitorare le proteine senza pesare il cibo?",
+          "Sì. Una foto del pasto dà una buona stima. Puoi regolare la porzione se ne hai mangiato solo una parte."
+        ],
+        [
+          "Funziona per vegetariani e vegani?",
+          "Sì. L'app riconosce piatti da tutto il mondo e mostra le proteine anche per i piatti di origine vegetale."
+        ]
+      ]
+    },
+    "ja": {
+      "name": "プロテイントラッカー",
+      "title": "たんぱく質管理アプリ：毎食のたんぱく質量がわかる",
+      "meta": "写真で1日のたんぱく質を管理。Me Nutritionなら、料理ごと・1日ごとのたんぱく質をグラムで表示し、目標に合わせた目標値と比べられます。",
+      "lead": "どの料理にたんぱく質がどれだけ入っているか、1日の目標に届いたかがわかります。",
+      "steps": [
+        "🎯 **目標を設定** — それに合わせて、アプリが1日の目標値を提案します。",
+        "📸 **食事を記録** — 写真、音声、テキスト、バーコードで。",
+        "💪 **たんぱく質を確認** — 料理ごと、1日ごとにグラムで表示。"
+      ],
+      "benefits": [
+        "💪 **料理ごとのたんぱく質をグラムで**、カロリー・炭水化物・脂質と並べて表示。",
+        "📈 **1日のたんぱく質合計**で、あとどれだけ摂ればよいかがわかります。",
+        "🥚 **高たんぱくな料理がひと目で** — たんぱく質の割合が高い料理にはマークが付きます。",
+        "🍱 **テーブル全体を1枚の写真で** — 料理ごとに個別に計算します。",
+        "🧮 **自分に合った量を算出** — 無料のたんぱく質計算ツールをご利用ください。"
+      ],
+      "faq": [
+        [
+          "1日に必要なたんぱく質の量は?",
+          "健康な成人の多くは、基準となる摂取量は体重1kgあたり約0.8 gです。高齢者や定期的にトレーニングする人は、より多く勧められることもあります。たんぱく質計算ツールで目安の範囲を確認できます。"
+        ],
+        [
+          "たんぱく質が多い食品は?",
+          "肉、鶏肉、魚、卵、乳製品、豆腐、テンペ、豆類、レンズ豆、ナッツ、種子類などです。"
+        ],
+        [
+          "食べ物を量らずにたんぱく質を記録できますか?",
+          "はい。食事の写真からおおよその量を推定できます。一部しか食べなかった場合は、量を調整できます。"
+        ],
+        [
+          "ベジタリアンやビーガンでも使えますか?",
+          "はい。アプリは世界各国の料理を認識し、植物性の料理のたんぱく質も表示します。"
+        ]
+      ]
+    },
+    "ko": {
+      "name": "단백질 트래커",
+      "title": "단백질 트래커 앱: 끼니마다 단백질 섭취량 확인",
+      "meta": "사진으로 하루 단백질을 기록하세요. Me Nutrition이 모든 음식과 하루 전체의 단백질 그램 수를 목표에 맞춰 보여줍니다.",
+      "lead": "음식마다 단백질이 얼마나 들어 있는지, 하루 목표를 채웠는지 확인하세요.",
+      "steps": [
+        "🎯 **목표 설정** — 목표에 따라 앱이 하루 단백질 목표량을 제안합니다.",
+        "📸 **식사 기록** — 사진, 음성, 텍스트 또는 바코드로 기록하세요.",
+        "💪 **단백질 확인** — 음식별, 그리고 하루 전체의 그램 수를 볼 수 있습니다."
+      ],
+      "benefits": [
+        "💪 **모든 음식의 단백질을 그램 단위로** — 칼로리, 탄수화물, 지방과 함께 표시됩니다.",
+        "📈 **하루 단백질 합계**로 더 먹어야 할 양을 확인하세요.",
+        "🥚 **단백질이 풍부한 음식 찾기** — 단백질 비중이 높은 음식에 표시됩니다.",
+        "🍱 **식탁 전체를 사진 한 장으로** — 음식마다 따로 계산됩니다.",
+        "🧮 **나만의 수치 찾기** — 무료 단백질 계산기를 이용하세요."
+      ],
+      "faq": [
+        [
+          "하루에 단백질이 얼마나 필요한가요?",
+          "대부분의 건강한 성인은 체중 1 kg당 약 0.8 g이 기준 섭취량입니다. 고령자나 규칙적으로 운동하는 사람은 더 많이 권장되는 경우가 많습니다. 단백질 계산기에서 권장 범위를 확인할 수 있습니다."
+        ],
+        [
+          "어떤 음식에 단백질이 많나요?",
+          "육류, 가금류, 생선, 달걀, 유제품, 두부, 템페, 콩, 렌틸콩, 견과류, 씨앗류입니다."
+        ],
+        [
+          "음식을 저울에 달지 않고도 단백질을 기록할 수 있나요?",
+          "네. 식사 사진만으로도 좋은 추정치를 얻을 수 있습니다. 일부만 먹었다면 양을 조절하세요."
+        ],
+        [
+          "채식주의자와 비건에게도 맞나요?",
+          "네. 앱이 전 세계의 음식을 인식하며 식물성 음식의 단백질도 보여줍니다."
+        ]
+      ]
+    },
+    "nl": {
+      "name": "Eiwit tracker",
+      "title": "Eiwit tracker app: zie het eiwit in elke maaltijd",
+      "meta": "Houd je dagelijkse eiwit bij met een foto: Me Nutrition toont de gram eiwit in elk gerecht en in je hele dag, ten opzichte van een doel op basis van jouw doel.",
+      "lead": "Zie hoeveel eiwit er in elk gerecht zit en of je je dagdoel hebt gehaald.",
+      "steps": [
+        "🎯 **Stel je doel in** — de app stelt op basis daarvan een dagdoel voor.",
+        "📸 **Log je maaltijden** met een foto, stem, tekst of barcode.",
+        "💪 **Check je eiwit** — gram per gerecht en voor de hele dag."
+      ],
+      "benefits": [
+        "💪 **Eiwit in gram bij elk gerecht**, naast calorieën, koolhydraten en vet.",
+        "📈 **Dagtotaal eiwit**, zodat je ziet wat je nog moet eten.",
+        "🥚 **Herken eiwitrijke gerechten** — gerechten met een hoog aandeel eiwit worden gemarkeerd.",
+        "🍱 **Hele tafel op één foto** — elk gerecht wordt apart geteld.",
+        "🧮 **Vind je eigen getal** met onze gratis eiwitcalculator."
+      ],
+      "faq": [
+        [
+          "Hoeveel eiwit heb ik per dag nodig?",
+          "Voor de meeste gezonde volwassenen is de referentie-inname ongeveer 0,8 g per kg lichaamsgewicht. Ouderen en mensen die regelmatig trainen krijgen vaak meer geadviseerd. Onze eiwitcalculator toont de bereiken."
+        ],
+        [
+          "Welke voedingsmiddelen zijn rijk aan eiwit?",
+          "Vlees, gevogelte, vis, eieren, zuivel, tofu, tempeh, bonen, linzen, noten en zaden."
+        ],
+        [
+          "Kan ik eiwit bijhouden zonder eten te wegen?",
+          "Ja. Een foto van je maaltijd geeft een goede schatting. Je kunt de portie aanpassen als je maar een deel hebt gegeten."
+        ],
+        [
+          "Werkt het voor vegetariërs en veganisten?",
+          "Ja. De app herkent gerechten van over de hele wereld en toont ook het eiwit van plantaardige gerechten."
+        ]
+      ]
+    },
+    "pl": {
+      "name": "Licznik białka",
+      "title": "Aplikacja do liczenia białka: sprawdź białko w każdym posiłku",
+      "meta": "Śledź dzienne białko ze zdjęcia: Me Nutrition pokazuje gramy białka w każdym daniu i w całym dniu, na tle celu opartego na Twoim celu.",
+      "lead": "Zobacz, ile białka jest w każdym daniu i czy osiągnąłeś swój dzienny cel.",
+      "steps": [
+        "🎯 **Ustaw swój cel** — aplikacja zaproponuje na jego podstawie dzienny cel.",
+        "📸 **Zapisuj posiłki** zdjęciem, głosem, tekstem lub kodem kreskowym.",
+        "💪 **Sprawdź białko** — gramy w każdym daniu i w całym dniu."
+      ],
+      "benefits": [
+        "💪 **Białko w gramach dla każdego dania**, obok kalorii, węglowodanów i tłuszczów.",
+        "📈 **Dzienna suma białka**, abyś widział, ile jeszcze zostało do zjedzenia.",
+        "🥚 **Wyłap dania bogate w białko** — potrawy z dużym udziałem białka są oznaczone.",
+        "🍱 **Cały stół na jednym zdjęciu** — każde danie liczone jest osobno.",
+        "🧮 **Znajdź własną liczbę** w naszym darmowym kalkulatorze białka."
+      ],
+      "faq": [
+        [
+          "Ile białka potrzebuję dziennie?",
+          "Dla większości zdrowych dorosłych referencyjne spożycie wynosi około 0.8 g na kg masy ciała. Osobom starszym i regularnie trenującym często zaleca się więcej. Nasz kalkulator białka pokazuje zakresy."
+        ],
+        [
+          "Które produkty są bogate w białko?",
+          "Mięso, drób, ryby, jajka, nabiał, tofu, tempeh, fasola, soczewica, orzechy i nasiona."
+        ],
+        [
+          "Czy mogę śledzić białko bez ważenia jedzenia?",
+          "Tak. Zdjęcie posiłku daje dobre oszacowanie. Możesz dostosować porcję, jeśli zjadłeś tylko jej część."
+        ],
+        [
+          "Czy działa dla wegetarian i wegan?",
+          "Tak. Aplikacja rozpoznaje potrawy z całego świata i pokazuje białko także dla dań roślinnych."
+        ]
+      ]
+    },
+    "pt": {
+      "name": "Contador de proteínas",
+      "title": "App contador de proteínas: veja a proteína de cada refeição",
+      "meta": "Acompanhe sua proteína diária com uma foto: o Me Nutrition mostra os gramas de proteína em cada prato e no dia, com meta baseada no seu objetivo.",
+      "lead": "Veja quanta proteína há em cada prato e se você atingiu sua meta diária.",
+      "steps": [
+        "🎯 **Defina seu objetivo** — o app sugere uma meta diária com base nele.",
+        "📸 **Registre suas refeições** com foto, voz, texto ou código de barras.",
+        "💪 **Confira sua proteína** — gramas por prato e do dia inteiro."
+      ],
+      "benefits": [
+        "💪 **Proteína em gramas para cada prato**, ao lado de calorias, carboidratos e gordura.",
+        "📈 **Total diário de proteína** para você ver quanto ainda falta comer.",
+        "🥚 **Identifique pratos ricos em proteína** — pratos com alta proporção de proteína são marcados.",
+        "🍱 **A mesa inteira em uma foto** — cada prato é contado separadamente.",
+        "🧮 **Descubra o seu número** com nossa calculadora de proteína gratuita."
+      ],
+      "faq": [
+        [
+          "De quanta proteína preciso por dia?",
+          "Para a maioria dos adultos saudáveis, a ingestão de referência é de cerca de 0,8 g por kg de peso corporal. Idosos e pessoas que treinam regularmente costumam ter recomendação maior. Nossa calculadora de proteína mostra as faixas."
+        ],
+        [
+          "Quais alimentos são ricos em proteína?",
+          "Carne, aves, peixe, ovos, laticínios, tofu, tempeh, feijão, lentilha, nozes e sementes."
+        ],
+        [
+          "Posso acompanhar a proteína sem pesar os alimentos?",
+          "Sim. Uma foto da sua refeição dá uma boa estimativa. Você pode ajustar a porção se comeu só uma parte."
+        ],
+        [
+          "Funciona para vegetarianos e veganos?",
+          "Sim. O app reconhece pratos do mundo todo e mostra a proteína também de pratos à base de plantas."
+        ]
+      ]
+    },
+    "ru": {
+      "name": "Счётчик белка",
+      "title": "Счётчик белка: сколько белка в каждом приёме пищи",
+      "meta": "Считайте белок за день по фото: Me Nutrition показывает граммы белка в каждом блюде и за весь день в сравнении с нормой под вашу цель.",
+      "lead": "Смотрите, сколько белка в каждом блюде и достигли ли вы дневной нормы.",
+      "steps": [
+        "🎯 **Задайте цель** — приложение предложит дневную норму на её основе.",
+        "📸 **Добавляйте приёмы пищи** по фото, голосом, текстом или штрихкодом.",
+        "💪 **Проверяйте белок** — граммы в каждом блюде и за весь день."
+      ],
+      "benefits": [
+        "💪 **Белок в граммах для каждого блюда** рядом с калориями, углеводами и жирами.",
+        "📈 **Дневной итог по белку**, чтобы видеть, сколько ещё нужно съесть.",
+        "🥚 **Находите блюда с большим количеством белка** — блюда с высокой долей белка отмечены.",
+        "🍱 **Весь стол на одном фото** — каждое блюдо считается отдельно.",
+        "🧮 **Найдите свою норму** в нашем бесплатном калькуляторе белка."
+      ],
+      "faq": [
+        [
+          "Сколько белка нужно в день?",
+          "Для большинства здоровых взрослых ориентир — около 0.8 г на кг массы тела. Пожилым людям и тем, кто регулярно тренируется, часто советуют больше. Наш калькулятор белка показывает диапазоны."
+        ],
+        [
+          "В каких продуктах много белка?",
+          "Мясо, птица, рыба, яйца, молочные продукты, тофу, темпе, фасоль, чечевица, орехи и семена."
+        ],
+        [
+          "Можно ли считать белок, не взвешивая еду?",
+          "Да. Фото еды даёт хорошую оценку. Порцию можно изменить, если вы съели только часть."
+        ],
+        [
+          "Подходит ли приложение вегетарианцам и веганам?",
+          "Да. Приложение распознаёт блюда со всего мира и показывает белок и для блюд на растительной основе."
+        ]
+      ]
+    },
+    "sv": {
+      "name": "Proteinräknare",
+      "title": "Proteinräknare app: se proteinet i varje måltid",
+      "meta": "Håll koll på ditt dagliga protein med ett foto: Me Nutrition visar gram protein i varje rätt och i hela dagen, mot ett mål utifrån ditt mål.",
+      "lead": "Se hur mycket protein som finns i varje rätt och om du har nått ditt dagsmål.",
+      "steps": [
+        "🎯 **Sätt ditt mål** – appen föreslår ett dagligt mål utifrån det.",
+        "📸 **Logga dina måltider** med foto, röst, text eller streckkod.",
+        "💪 **Kolla ditt protein** – gram per rätt och för hela dagen."
+      ],
+      "benefits": [
+        "💪 **Protein i gram för varje rätt**, bredvid kalorier, kolhydrater och fett.",
+        "📈 **Dagstotal för protein** så att du ser vad som återstår att äta.",
+        "🥚 **Hitta proteinrika rätter** – rätter med hög andel protein är markerade.",
+        "🍱 **Hela bordet i ett foto** – varje rätt räknas för sig.",
+        "🧮 **Hitta ditt eget tal** med vår kostnadsfria proteinkalkylator."
+      ],
+      "faq": [
+        [
+          "Hur mycket protein behöver jag per dag?",
+          "För de flesta friska vuxna är referensintaget cirka 0,8 g per kg kroppsvikt. Äldre vuxna och personer som tränar regelbundet rekommenderas ofta mer. Vår proteinkalkylator visar intervallen."
+        ],
+        [
+          "Vilka livsmedel är rika på protein?",
+          "Kött, fågel, fisk, ägg, mejeriprodukter, tofu, tempeh, bönor, linser, nötter och frön."
+        ],
+        [
+          "Kan jag följa protein utan att väga maten?",
+          "Ja. Ett foto av din måltid ger en bra uppskattning. Du kan justera portionen om du bara åt en del av den."
+        ],
+        [
+          "Fungerar det för vegetarianer och veganer?",
+          "Ja. Appen känner igen rätter från hela världen och visar protein även för växtbaserade rätter."
+        ]
+      ]
+    },
+    "th": {
+      "name": "แอปนับโปรตีน",
+      "title": "แอปนับโปรตีน ดูโปรตีนในทุกมื้ออาหาร",
+      "meta": "ติดตามโปรตีนรายวันด้วยรูปถ่าย Me Nutrition แสดงกรัมโปรตีนในทุกเมนูและทั้งวัน เทียบกับเป้าหมายตามเป้าหมายของคุณ",
+      "lead": "ดูว่าแต่ละเมนูมีโปรตีนเท่าไร และคุณถึงเป้าหมายรายวันแล้วหรือยัง",
+      "steps": [
+        "🎯 **ตั้งเป้าหมาย** แอปจะแนะนำเป้าหมายรายวันตามเป้าหมายนั้น",
+        "📸 **บันทึกมื้ออาหาร** ด้วยรูปถ่าย เสียง ข้อความ หรือบาร์โค้ด",
+        "💪 **ดูโปรตีนของคุณ** เป็นกรัมต่อเมนูและของทั้งวัน"
+      ],
+      "benefits": [
+        "💪 **โปรตีนเป็นกรัมในทุกเมนู** ควบคู่กับแคลอรี่ คาร์บ และไขมัน",
+        "📈 **ยอดโปรตีนรายวัน** เพื่อให้เห็นว่าเหลือต้องกินอีกเท่าไร",
+        "🥚 **สังเกตเมนูโปรตีนสูง** เมนูที่มีสัดส่วนโปรตีนสูงจะมีเครื่องหมายกำกับ",
+        "🍱 **ทั้งโต๊ะในรูปเดียว** แต่ละเมนูนับแยกกัน",
+        "🧮 **หาตัวเลขของคุณเอง** ด้วยเครื่องคำนวณโปรตีนฟรีของเรา"
+      ],
+      "faq": [
+        [
+          "ต้องการโปรตีนวันละเท่าไร",
+          "สำหรับผู้ใหญ่สุขภาพดีส่วนใหญ่ ปริมาณอ้างอิงอยู่ที่ประมาณ 0.8 g ต่อน้ำหนักตัว 1 กก. ผู้สูงอายุและผู้ที่ออกกำลังกายสม่ำเสมอมักได้รับคำแนะนำให้กินมากกว่านี้ เครื่องคำนวณโปรตีนของเราแสดงช่วงที่เหมาะสม"
+        ],
+        [
+          "อาหารอะไรมีโปรตีนสูง",
+          "เนื้อสัตว์ สัตว์ปีก ปลา ไข่ ผลิตภัณฑ์นม เต้าหู้ เทมเป้ ถั่วต่างๆ ถั่วเลนทิล ถั่วเปลือกแข็ง และเมล็ดพืช"
+        ],
+        [
+          "นับโปรตีนโดยไม่ชั่งอาหารได้ไหม",
+          "ได้ รูปถ่ายมื้ออาหารให้ค่าประมาณที่ดี คุณปรับขนาดหนึ่งส่วนได้หากกินแค่บางส่วน"
+        ],
+        [
+          "ใช้ได้กับคนกินมังสวิรัติและวีแกนไหม",
+          "ได้ แอปจดจำอาหารจากทั่วโลกและแสดงโปรตีนของเมนูจากพืชด้วย"
+        ]
+      ]
+    },
+    "tr": {
+      "name": "Protein takip uygulaması",
+      "title": "Protein takip uygulaması: her öğündeki proteini gör",
+      "meta": "Günlük proteinini fotoğrafla takip et: Me Nutrition her yemekteki ve tüm gündeki protein gramını, hedefine göre belirlenen bir hedefle birlikte gösterir.",
+      "lead": "Her yemekte ne kadar protein olduğunu ve günlük hedefine ulaşıp ulaşmadığını gör.",
+      "steps": [
+        "🎯 **Hedefini belirle** — uygulama buna göre günlük bir hedef önerir.",
+        "📸 **Öğünlerini kaydet**: fotoğraf, ses, yazı veya barkodla.",
+        "💪 **Proteinine bak** — yemek başına ve tüm gün için gram."
+      ],
+      "benefits": [
+        "💪 **Her yemek için gram cinsinden protein**, kalori, karbonhidrat ve yağın yanında.",
+        "📈 **Günlük protein toplamı**, böylece ne kadar yemen kaldığını görürsün.",
+        "🥚 **Protein açısından zengin yemekleri fark et** — protein oranı yüksek yemekler işaretlenir.",
+        "🍱 **Tüm sofra tek fotoğrafta** — her yemek ayrı hesaplanır.",
+        "🧮 **Kendi rakamını bul** — ücretsiz protein hesaplayıcımızla."
+      ],
+      "faq": [
+        [
+          "Günde ne kadar proteine ihtiyacım var?",
+          "Çoğu sağlıklı yetişkin için referans alım vücut ağırlığının kilogramı başına yaklaşık 0,8 g'dır. Yaşlı yetişkinlere ve düzenli antrenman yapanlara genellikle daha fazlası önerilir. Protein hesaplayıcımız aralıkları gösterir."
+        ],
+        [
+          "Hangi besinlerde protein yüksektir?",
+          "Et, kümes hayvanları, balık, yumurta, süt ürünleri, tofu, tempeh, baklagiller, mercimek, kuruyemişler ve tohumlar."
+        ],
+        [
+          "Yemeği tartmadan protein takibi yapabilir miyim?",
+          "Evet. Öğününün fotoğrafı iyi bir tahmin verir. Yalnızca bir kısmını yediysen porsiyonu ayarlayabilirsin."
+        ],
+        [
+          "Vejetaryenler ve veganlar için de çalışır mı?",
+          "Evet. Uygulama dünyanın dört bir yanındaki yemekleri tanır ve bitkisel yemekler için de protein gösterir."
+        ]
+      ]
+    },
+    "uk": {
+      "name": "Трекер білка",
+      "title": "Трекер білка: скільки білка в кожній страві",
+      "meta": "Відстежуйте добовий білок за фото: Me Nutrition показує грами білка в кожній страві та в усьому дні відносно норми, що залежить від вашої цілі.",
+      "lead": "Дізнайтеся, скільки білка в кожній страві і чи досягли ви денної норми.",
+      "steps": [
+        "🎯 **Задайте ціль** — застосунок запропонує денну норму на її основі.",
+        "📸 **Записуйте страви** фото, голосом, текстом або штрихкодом.",
+        "💪 **Перевіряйте білок** — грами для кожної страви та для всього дня."
+      ],
+      "benefits": [
+        "💪 **Білок у грамах для кожної страви** — поруч із калоріями, вуглеводами та жирами.",
+        "📈 **Денний підсумок білка**, щоб бачити, скільки ще треба з'їсти.",
+        "🥚 **Помічайте страви з високим вмістом білка** — страви з великою часткою білка позначено.",
+        "🍱 **Увесь стіл на одному фото** — кожна страва рахується окремо.",
+        "🧮 **Знайдіть свою норму** за допомогою нашого безкоштовного калькулятора білка."
+      ],
+      "faq": [
+        [
+          "Скільки білка потрібно на день?",
+          "Для більшості здорових дорослих референтне споживання — близько 0.8 г на кг ваги тіла. Літнім людям і тим, хто регулярно тренується, часто радять більше. Наш калькулятор білка показує діапазони."
+        ],
+        [
+          "Які продукти багаті на білок?",
+          "М'ясо, птиця, риба, яйця, молочні продукти, тофу, темпе, квасоля, сочевиця, горіхи та насіння."
+        ],
+        [
+          "Чи можна відстежувати білок, не зважуючи їжу?",
+          "Так. Фото вашої страви дає гарну оцінку. Порцію можна змінити, якщо ви з'їли лише її частину."
+        ],
+        [
+          "Чи підходить це вегетаріанцям і веганам?",
+          "Так. Застосунок розпізнає страви з усього світу й показує білок також для рослинних страв."
+        ]
+      ]
+    },
+    "vi": {
+      "name": "Ứng dụng theo dõi protein",
+      "title": "Ứng dụng theo dõi protein: xem lượng đạm trong từng bữa",
+      "meta": "Theo dõi lượng protein mỗi ngày bằng ảnh: Me Nutrition hiển thị số gam protein trong từng món và cả ngày của bạn, so với mục tiêu dựa trên mục tiêu của bạn.",
+      "lead": "Xem mỗi món có bao nhiêu protein và bạn đã đạt mục tiêu hằng ngày hay chưa.",
+      "steps": [
+        "🎯 **Đặt mục tiêu** — ứng dụng gợi ý mục tiêu hằng ngày dựa trên đó.",
+        "📸 **Ghi bữa ăn** bằng ảnh, giọng nói, văn bản hoặc mã vạch.",
+        "💪 **Kiểm tra protein** — số gam cho từng món và cho cả ngày."
+      ],
+      "benefits": [
+        "💪 **Protein theo gam cho từng món**, bên cạnh calo, tinh bột và béo.",
+        "📈 **Tổng protein hằng ngày** để bạn biết còn phải ăn thêm bao nhiêu.",
+        "🥚 **Nhận biết món giàu protein** — các món có tỷ lệ protein cao được đánh dấu.",
+        "🍱 **Cả bàn ăn trong một ảnh** — mỗi món được tính riêng.",
+        "🧮 **Tìm con số của riêng bạn** với công cụ tính protein miễn phí của chúng tôi."
+      ],
+      "faq": [
+        [
+          "Mỗi ngày tôi cần bao nhiêu protein?",
+          "Với hầu hết người trưởng thành khỏe mạnh, mức tham chiếu là khoảng 0.8 g trên mỗi kg trọng lượng cơ thể. Người lớn tuổi và người tập luyện thường xuyên thường được khuyên nên nhiều hơn. Công cụ tính protein của chúng tôi hiển thị các khoảng giá trị."
+        ],
+        [
+          "Thực phẩm nào giàu protein?",
+          "Thịt, gia cầm, cá, trứng, sữa và chế phẩm từ sữa, đậu phụ, tempeh, các loại đậu, đậu lăng, các loại hạt và hạt giống."
+        ],
+        [
+          "Tôi có thể theo dõi protein mà không cần cân thực phẩm không?",
+          "Có. Một bức ảnh bữa ăn cho ước tính tốt. Bạn có thể chỉnh khẩu phần nếu chỉ ăn một phần."
+        ],
+        [
+          "Ứng dụng có phù hợp với người ăn chay và thuần chay không?",
+          "Có. Ứng dụng nhận diện món ăn từ khắp thế giới và cũng hiển thị protein cho các món từ thực vật."
+        ]
+      ]
+    },
+    "zh": {
+      "name": "蛋白质追踪器",
+      "title": "蛋白质追踪器 App:看清每餐的蛋白质摄入",
+      "meta": "拍照追踪每日蛋白质:Me Nutrition 会显示每道菜和全天的蛋白质克数,并对照基于你目标的摄入目标。",
+      "lead": "看看每道菜含有多少蛋白质,以及你是否已达到每日目标。",
+      "steps": [
+        "🎯 **设定目标** — 应用会据此建议每日目标。",
+        "📸 **记录餐食**:拍照、语音、文字或条形码均可。",
+        "💪 **查看蛋白质** — 每道菜和全天的克数一目了然。"
+      ],
+      "benefits": [
+        "💪 **每道菜的蛋白质克数**,与热量、碳水化合物和脂肪并列显示。",
+        "📈 **每日蛋白质总量**,让你知道还需要吃多少。",
+        "🥚 **发现高蛋白菜肴** — 蛋白质占比高的菜会被标记出来。",
+        "🍱 **一张照片拍下整桌饭菜** — 每道菜单独计算。",
+        "🧮 **用我们免费的蛋白质计算器**找到属于你的数值。"
+      ],
+      "faq": [
+        [
+          "我每天需要多少蛋白质?",
+          "对大多数健康成年人来说,参考摄入量约为每公斤体重 0.8 g。老年人和经常锻炼的人通常被建议摄入更多。我们的蛋白质计算器会显示相应的范围。"
+        ],
+        [
+          "哪些食物蛋白质含量高?",
+          "肉类、禽肉、鱼、蛋、乳制品、豆腐、天贝、豆类、扁豆、坚果和种子。"
+        ],
+        [
+          "不称量食物也能追踪蛋白质吗?",
+          "可以。一张餐食照片就能给出不错的估算。如果只吃了一部分,可以调整份量。"
+        ],
+        [
+          "素食者和纯素食者也能用吗?",
+          "可以。应用能识别来自世界各地的菜肴,植物性菜肴同样会显示蛋白质。"
         ]
       ]
     }

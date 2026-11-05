@@ -164,7 +164,7 @@ class Builder:
   <p class="fsrc">{esc(s["source"])}: <a href="{SRC_URL[f["src"]]}" rel="noopener" target="_blank">{esc(s[SRC_KEY[f["src"]]])}</a>. {esc(s["note"])}</p>'''
         script = f'<script src="/foods/food.js?v={self.cssv}" defer></script>'
         desc = s['meta'].format(name=name, kcal=nf(lang, k, 0), p=n1(f['protein']), f=n1(f['fat']), c=n1(f['carbs']))
-        title = s['title'].format(name=name)
+        title = s['title'].format(name=name, kcal=nf(lang, k, 0))
         url = fpath(lang, f['slug'])
         html = self.shell(lang, title, desc, url, lambda l: fpath(l, f['slug']), main,
                           self.ld(lang, [(s['foods'], fpath(lang)), (s['cats'][cat], fpath(lang, cat)), (name, url)]) + self.nutrition_ld(lang, f, name, desc, url), script)
