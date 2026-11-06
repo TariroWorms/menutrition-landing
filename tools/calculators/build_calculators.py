@@ -156,7 +156,7 @@ def index(lang, C, langs, template):
     # reuse the page shell: swap the body of <main> for the list of calculators
     main = (f'<main class="wrap"><nav class="crumbs"><a href="{"/" if lang == "en" or not (ROOT / lang / "index.html").exists() else f"/{lang}/"}">{esc(U["home"])}</a> › {esc(U["calculators"])}</nav>'
             f'<h1><span class="gh">🧮</span>{esc(U["index_h"])}</h1><p class="intro">{esc(U["index_p"])}</p>'
-            f'<section><div class="related fidx">{cards}</div></section><p class="note" style="margin-top:24px">{esc(U["note"])}</p></main>')
+            f'<section><div class="related fidx">{cards}</div></section><p class="note" style="margin-top:24px">{esc(U["note"])}</p>' + ('<p class="note"><a href="/widgets/">Embed these calculators on your website →</a></p>' if lang == 'en' else '') + '</main>')
     html = re.sub(r'<main class="wrap">.*?</main>\s*<script>.*?</script>', lambda m: main, html, flags=re.S)
     html = re.sub(r'<script type="application/ld\+json">.*?</script>\n?', '', html, flags=re.S)
     html = re.sub(r'<title>.*?</title>', f'<title>{esc(U["index_title"])} — Me Nutrition</title>', html, count=1)
