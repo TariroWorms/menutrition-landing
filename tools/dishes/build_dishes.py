@@ -201,17 +201,16 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     r = t['recipe']
     diets = [f'https://schema.org/{SCHEMA_DIET[lb["id"]]}' for lb in info['labels']
              if lb['status'] == 'yes' and lb['id'] in SCHEMA_DIET]
+    # No photo of every dish, and Google requires one for Recipe rich results: the markup is a MenuItem with the nutrition facts
+    # (the recipe itself stays in the visible page).
     jsonld = {
-        '@context': 'https://schema.org', '@type': 'Recipe', 'name': t['name'], 'description': t['intro'],
-        'inLanguage': lang, 'url': url, 'recipeCuisine': t['origin'], 'recipeYield': str(r['servings']),
-        'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': r['ingredients'],
-        'recipeInstructions': [{'@type': 'HowToStep', 'text': s} for s in r['steps']],
+        '@context': 'https://schema.org', '@type': 'MenuItem', 'name': t['name'], 'description': t['intro'],
+        'inLanguage': lang, 'url': url,
         'nutrition': {'@type': 'NutritionInformation', 'servingSize': f'{portion} {"ml" if ml else "g"}',
                       'calories': f'{kcal_p} kcal',
                       'proteinContent': f'{round(dish["protein_g"] * portion / 100)} g',
                       'fatContent': f'{round(dish["fat_g"] * portion / 100)} g',
                       'carbohydrateContent': f'{round(dish["carbs_g"] * portion / 100)} g'},
-        'author': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE + '/'},
     }
     if diets:
         jsonld['suitableForDiet'] = diets
