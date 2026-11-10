@@ -49,6 +49,11 @@ function submit(e){e.preventDefault();var f=e.target,v=(f.email.value||'').trim(
 function done(f){mark();f.style.display='none';root.querySelector('.mna-p').textContent=L[lang()].thanks;}
 if(android){document.addEventListener('DOMContentLoaded',function(){var b=L[lang()].btn;
  document.querySelectorAll('a.dl[href*="apps.apple.com"],a.btn[href*="apps.apple.com"],a.nav-dl[href*="apps.apple.com"]').forEach(function(a){a.textContent=b;});});}
+/* anonymous click counter: which section/button/language sent a visitor to the App Store (Google Form, no identifiers) */
+document.addEventListener('click',function(e){var C=F.clicks;if(!C||!C.action)return;var a=e.target.closest&&e.target.closest('a');if(!a)return;
+ var h=a.getAttribute('href')||'';if(!/apps\.apple\.com/.test(h))return;var m=/[?&;]ct=([^&;]+)/.exec(h);if(!m)return;var p=m[1].split('-'),b=new URLSearchParams();
+ b.append(C.section,p[0]);b.append(C.place,p.slice(1,-1).join('-'));b.append(C.lang,p[p.length-1]);b.append(C.page,location.pathname);b.append(C.kind,android?'android':ios?'ios':'desktop');
+ try{fetch(C.action,{method:'POST',mode:'no-cors',keepalive:true,body:b});}catch(x){}},true);
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||a.classList.contains('mna-open'))return;
  var apple=/apps\.apple\.com/.test(a.getAttribute('href')||'');
  if(a.hasAttribute('data-android')||(android&&(apple||a.hasAttribute('data-getapp')))){e.preventDefault();e.stopImmediatePropagation();show(a,'wl');}
