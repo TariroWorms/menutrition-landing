@@ -112,6 +112,7 @@ SCRIPT = r'''<script>
     else{if(!(w>25&&hc>100))return;var m=hc/100,b=w/(m*m),c=b<18.5?0:b<25?1:b<30?2:3,lo=18.5*m*m,hi=24.9*m*m;
       if(units==='i'){lo/=0.45359237;hi/=0.45359237;}
       h='<div>'+R.target+'</div><div class="big">'+nf(b,1)+'</div><p><b>'+R.cats[c]+'</b></p><p>'+R.range.replace('{lo}',nf(lo)).replace('{hi}',nf(hi)).replace('{unit}',units==='m'?R.kg:R.lb)+'</p>';}
+    if(h&&h.indexOf('warn')<0)h+='<div class="rescta"><span>'+R.cta_h+'</span><a href="'+R.store+'" target="_blank" rel="noopener">'+R.cta_btn+'</a></div>';
     out.innerHTML=h;out.classList.add('show');};
 })();
 </script>'''
@@ -120,7 +121,8 @@ SCRIPT = r'''<script>
 def page(lang, slug, C, langs, template):
     U, T, meta = C['_ui'][lang], C[slug][lang], C['_meta'][slug]
     res = dict(T['result'])
-    res.update({'kg': U['kg'], 'lb': U['lb']})
+    res.update({'kg': U['kg'], 'lb': U['lb'], 'cta_h': U['cta_h'], 'cta_btn': U['cta_btn'],
+                'store': f'{STORE}?pt=128869855&ct=calc-res-{lang}&mt=8'})
     res = {k: (esc(v) if isinstance(v, str) else [esc(x) for x in v]) for k, v in res.items()}
     faq = ''.join(f'<details class="faq"><summary>{esc(q)}</summary><p>{brand(esc(a))}</p></details>' for q, a in T['faq'])
     more = ''.join(f'<a href="{cpath(lang, s)}"><span class="em">{C["_meta"][s]["emoji"]}</span><div>{esc(C[s][lang]["name"])}</div></a>'

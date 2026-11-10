@@ -156,7 +156,7 @@ class Builder:
     <div class="wcalc"><label for="w">{esc(s["weight_lbl"])}</label><input id="w" type="number" inputmode="decimal" min="0" max="5000" value="100" data-k="{k}" data-t="{esc(s["weight_res"])}"><b id="wr">{esc(s["weight_res"].format(n=nf(lang, k, 0)))}</b></div>
     <table class="wtab"><thead><tr><th>{esc(s["weight_col"])}</th><th>{esc(s["kcal_col"])}</th></tr></thead><tbody>{rows}</tbody></table>
   </section>
-  {mid_cta(lang, 'food')}
+  {mid_cta(lang, 'food', name)}
   {more_html}
   <section><h2>{esc(s["related_h"])}</h2><div class="related">{rel_html}</div>
   <p class="note" style="margin-top:12px"><a href="{fpath(lang, cat)}">{esc(s["cat_all"].format(cat=s["cats"][cat]))} →</a></p></section>

@@ -22,7 +22,20 @@ def hub_link(lang):
             f'{html.escape(_hub[lang]["name"])} →</a></p>')
 
 
-def mid_cta(lang, section):
+_CTX = {
+ "en": "Eating {name}? Log it in 3 seconds — snap a photo of your plate.",
+ "ru": "{name}: запишите в дневник за 3 секунды — сфотографируйте тарелку.",
+ "ar": "تناولت {name}؟ سجّله خلال 3 ثوانٍ: صوّر طبقك فقط.",
+ "it": "{name}: registralo in 3 secondi — scatta una foto al piatto.",
+ "el": "{name}: καταγράψτε το σε 3 δευτερόλεπτα — φωτογραφίστε το πιάτο σας.",
+ "es": "{name}: regístralo en 3 segundos — haz una foto a tu plato.",
+ "de": "{name}: in 3 Sekunden eintragen — fotografiere einfach deinen Teller."
+}
+
+
+def mid_cta(lang, section, name=None):
+    """name: the dish or food on the page; its copy then speaks about that item instead of the generic line."""
     l = lang if lang in _str['mid'] else 'en'
-    return (f'<aside class="midcta"><span>{html.escape(_str["mid"][l])}</span>'
+    text = _CTX[lang].format(name=name) if name and len(name) <= 60 and lang in _CTX else _str['mid'][l]
+    return (f'<aside class="midcta"><span>{html.escape(text)}</span>'
             f'<a href="{link(section, "mid", lang)}" target="_blank" rel="noopener">{html.escape(_str["getapp"][l])}</a></aside>' + hub_link(lang))

@@ -83,7 +83,7 @@ section{margin-top:40px}
 footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
 footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
 footer a{text-decoration:none}
-.langs a{margin-inline-end:10px}
+.langs{display:flex;flex-wrap:wrap;gap:6px 14px;flex:1 1 100%}.langs a{margin-inline-end:0}
 .hnav{display:flex;align-items:center;gap:18px}
 .langbox{position:relative}
 .langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
@@ -123,6 +123,7 @@ footer a{text-decoration:none}
 .mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
 .disclaimer a{color:var(--teal);font-weight:600}
 [hidden]{display:none!important}
+@media (max-width:440px){header .hl{display:none}}
 @media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
 .midcta{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:20px 0;padding:16px 18px;border-radius:18px;background:var(--gold-soft)}.midcta span{flex:1 1 240px;font-weight:600;line-height:1.45}.midcta a{display:inline-block;padding:11px 20px;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;text-decoration:none;white-space:nowrap}
 </style>

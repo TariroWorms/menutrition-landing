@@ -95,7 +95,7 @@ section{margin-top:40px}
 footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
 footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
 footer a{text-decoration:none}
-.langs a{margin-inline-end:10px}
+.langs{display:flex;flex-wrap:wrap;gap:6px 14px;flex:1 1 100%}.langs a{margin-inline-end:0}
 .hnav{display:flex;align-items:center;gap:18px}
 .langbox{position:relative}
 .langbox summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:5px;font-weight:600;font-size:14px;color:var(--muted);padding:8px 2px}
@@ -135,6 +135,7 @@ footer a{text-decoration:none}
 .mlist{margin:10px 0 0;padding-inline-start:22px}.mlist li{margin:8px 0}
 .disclaimer a{color:var(--teal);font-weight:600}
 [hidden]{display:none!important}
+@media (max-width:440px){header .hl{display:none}}
 @media (max-width:520px){.hl{font-size:14px}.hnav{gap:12px}.dl{padding:0 14px}.nut .big{font-size:34px}.card{padding:20px}.macros{gap:8px}}
 .midcta{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:20px 0;padding:16px 18px;border-radius:18px;background:var(--gold-soft)}.midcta span{flex:1 1 240px;font-weight:600;line-height:1.45}.midcta a{display:inline-block;padding:11px 20px;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;text-decoration:none;white-space:nowrap}
 </style>
@@ -169,6 +170,10 @@ footer a{text-decoration:none}
 .fidx a{align-items:flex-start}.fidx a div span{font-weight:500;margin-top:4px}
 @media (min-width:760px){.fhero.has-shot{grid-template-columns:1.1fr .9fr}}
 .midcta{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:20px 0;padding:16px 18px;border-radius:18px;background:var(--gold-soft)}.midcta span{flex:1 1 240px;font-weight:600;line-height:1.45}.midcta a{display:inline-block;padding:11px 20px;border-radius:999px;background:var(--teal);color:#fff;font-weight:800;text-decoration:none;white-space:nowrap}
+.rescta{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:16px;padding-top:14px;border-top:1px solid rgba(39,35,32,.12)}.rescta span{flex:1 1 200px;font-weight:700}.rescta a{padding:10px 18px;border-radius:999px;background:var(--ink,#272320);color:#fff;font-weight:700;text-decoration:none;font-size:14px}
+.embed .rescta{display:none}
+@media (max-width:480px){header .hnav .hl{display:none}}
+main h1,main .intro{overflow-wrap:anywhere}
 .embed header,.embed footer,.embed .crumbs,.embed h1,.embed .intro,.embed .midcta,.embed .hublink,.embed .note,.embed .howp,.embed .fsec,.embed .cta{display:none!important}
 .embed body{background:transparent}.embed main.wrap{padding:6px 0 4px}.embed-credit{display:none;margin:10px 0 0;font-size:13px;text-align:center}.embed .embed-credit{display:block}
 </style>
@@ -199,7 +204,7 @@ footer a{text-decoration:none}
 <script>
 (function(){
   var f=document.querySelector('form.calc'); if(!f) return;
-  var R={"target": "Intervallo di peso sano per la tua altezza", "range": "{lo}–{hi} {unit}", "mid": "Un riferimento a metà intervallo: circa {n} {unit}", "note": "È una guida generale basata sul BMI. Contano anche massa muscolare, struttura ossea, età e salute.", "kg": "kg", "lb": "lb"}, lang=document.documentElement.lang, kind=f.dataset.calc, units='m', sex='f';
+  var R={"target": "Intervallo di peso sano per la tua altezza", "range": "{lo}–{hi} {unit}", "mid": "Un riferimento a metà intervallo: circa {n} {unit}", "note": "È una guida generale basata sul BMI. Contano anche massa muscolare, struttura ossea, età e salute.", "kg": "kg", "lb": "lb", "cta_h": "Tienilo sotto controllo ogni giorno con Me Nutrition", "cta_btn": "Scarica dall’App Store", "store": "https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=calc-res-it&amp;mt=8"}, lang=document.documentElement.lang, kind=f.dataset.calc, units='m', sex='f';
   var nf=function(x,d){return new Intl.NumberFormat(lang,{maximumFractionDigits:d||0}).format(x)};
   var v=function(n){var e=f.elements[n];return e&&e.value!==''?parseFloat(e.value):NaN};
   f.querySelectorAll('[data-units] button').forEach(function(b){b.onclick=function(){units=b.dataset.u;
@@ -238,6 +243,7 @@ footer a{text-decoration:none}
     else{if(!(w>25&&hc>100))return;var m=hc/100,b=w/(m*m),c=b<18.5?0:b<25?1:b<30?2:3,lo=18.5*m*m,hi=24.9*m*m;
       if(units==='i'){lo/=0.45359237;hi/=0.45359237;}
       h='<div>'+R.target+'</div><div class="big">'+nf(b,1)+'</div><p><b>'+R.cats[c]+'</b></p><p>'+R.range.replace('{lo}',nf(lo)).replace('{hi}',nf(hi)).replace('{unit}',units==='m'?R.kg:R.lb)+'</p>';}
+    if(h&&h.indexOf('warn')<0)h+='<div class="rescta"><span>'+R.cta_h+'</span><a href="'+R.store+'" target="_blank" rel="noopener">'+R.cta_btn+'</a></div>';
     out.innerHTML=h;out.classList.add('show');};
 })();
 </script>

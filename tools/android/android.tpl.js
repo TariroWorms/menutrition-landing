@@ -58,6 +58,20 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
  var apple=/apps\.apple\.com/.test(a.getAttribute('href')||'');
  if(a.hasAttribute('data-android')||(android&&(apple||a.hasAttribute('data-getapp')))){e.preventDefault();e.stopImmediatePropagation();show(a,'wl');}
  else if(desktop&&apple){e.preventDefault();e.stopImmediatePropagation();show(a,'qr');}},true);
+/* iPhone: a slim bar at the bottom of content pages once the visitor has read about half of the page (not blocking, dismissible for 3 days) */
+(function(){
+ if(!ios)return;var sec=section();if(sec==='home'||sec==='other'||document.documentElement.classList.contains('embed'))return;
+ try{if(Date.now()-(+localStorage.getItem('mn_bar_x')||0)<2592e5)return;}catch(e){}
+ var l=lang(),D=L[l]||L.en,el=null;
+ function make(){var st=document.createElement('style');st.textContent='.mnb{position:fixed;left:0;right:0;bottom:0;z-index:2147482000;display:flex;align-items:center;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#272320;color:#fff;font:600 14px/1.3 system-ui,-apple-system,sans-serif;box-shadow:0 -6px 24px rgba(0,0,0,.25)}.mnb span{flex:1;min-width:0}.mnb a{flex:none;padding:9px 16px;border-radius:999px;background:#fff;color:#272320;font-weight:800;text-decoration:none;white-space:nowrap}.mnb button{flex:none;width:32px;height:32px;border:0;background:none;color:#cfc8bd;font-size:22px;line-height:1;cursor:pointer}';document.head.appendChild(st);
+  el=document.createElement('div');el.className='mnb';el.dir=document.documentElement.dir||'ltr';
+  var t=document.createElement('span');t.textContent=D.bar;var a=document.createElement('a');a.href=F.store+'?pt='+F.pt+'&ct='+sec+'-bar-'+l+'&mt=8';a.target='_blank';a.rel='noopener';a.textContent=D.getapp;
+  var x=document.createElement('button');x.type='button';x.setAttribute('aria-label','×');x.textContent='×';
+  x.onclick=function(){el.remove();document.body.style.paddingBottom='';try{localStorage.setItem('mn_bar_x',String(Date.now()));}catch(e){}};
+  el.appendChild(t);el.appendChild(a);el.appendChild(x);document.body.appendChild(el);document.body.style.paddingBottom='72px';}
+ function check(){if(el)return;var h=document.documentElement,max=h.scrollHeight-innerHeight;if(max>0&&(window.pageYOffset||h.scrollTop)/max>0.4)make();}
+ addEventListener('scroll',check,{passive:true});setTimeout(function(){if(!el)make();},25000);
+})();
 window.MNAndroid={open:function(){show(null);}};
 if(location.hash==='#android-waitlist')document.addEventListener('DOMContentLoaded',function(){show(null);});
 })();
