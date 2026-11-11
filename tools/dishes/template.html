@@ -15,9 +15,10 @@
 <meta property="og:title" content="{{title}}" />
 <meta property="og:description" content="{{description}}" />
 <meta property="og:url" content="{{url}}" />
-<meta property="og:image" content="https://menutrition.app/og-cover.jpg" />
+<meta property="og:image" content="{{ogimage}}" />
 <meta name="apple-itunes-app" content="app-id=6767123368" />
 <link rel="icon" type="image/png" href="/appicon.png" />
+{{photo_preconnect}}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -40,6 +41,7 @@ h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,7vw,5
 h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height:1.2;margin:0 0 14px}
 .origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
 .intro{font-size:18px;color:var(--muted);margin:18px 0 0}
+.dphoto{margin:16px 0 0}.dphoto img{display:block;width:100%;max-width:480px;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:20px;background:#e9e5dc}.dphoto figcaption{font-size:12px;color:var(--muted);margin-top:6px}.dphoto a{color:inherit}
 section{margin-top:40px}
 .nut.first{margin-top:22px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
@@ -139,6 +141,7 @@ footer a{text-decoration:none}
   <nav class="crumbs"><a href="{{home}}">{{ui.home}}</a> › <a href="{{index}}">{{ui.dishes}}</a></nav>
   <h1>{{emoji}} {{name}}</h1>
   <div class="origin">{{ui.origin}}: {{origin}}</div>
+  {{photo}}
 
   <section class="card nut first">
     <div><div class="big">{{kcal_portion}}<small>{{ui.kcal}}</small></div><div class="lbl">{{per_portion}}</div></div>

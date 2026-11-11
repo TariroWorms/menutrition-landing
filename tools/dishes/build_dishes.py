@@ -122,6 +122,28 @@ def origin_link(lang, c, t):
     country, sep, rest = t['origin'].partition('·')
     return f'<a href="{path(lang, "cuisine/" + cu)}">{esc(country.strip())}</a>' + (f' · {esc(rest.strip())}' if sep else '')
 
+PHOTOS = {}
+UTM = 'utm_source=menutrition&utm_medium=referral'
+
+
+def unsplash_url(ph, w, h=None):
+    """Photo hotlinked from Unsplash's CDN with its resizing parameters (the API terms require hotlinking)."""
+    h = h or round(w * 3 / 4)
+    return f"{ph['raw']}&w={w}&h={h}&fit=crop&crop=entropy&q=75&fm=webp&auto=format"
+
+
+def photo_block(lang, c, t, U):
+    ph = PHOTOS.get(c['slug'])
+    if not ph:
+        return ''
+    credit = U['photo_by'].format(
+        author=f'<a href="{esc(ph["author_url"])}?{UTM}" rel="noopener" target="_blank">{esc(ph["author"])}</a>',
+        unsplash=f'<a href="https://unsplash.com/?{UTM}" rel="noopener" target="_blank">Unsplash</a>')
+    srcset = ', '.join(f'{unsplash_url(ph, w)} {w}w' for w in (400, 800, 1200))
+    return (f'<figure class="dphoto"><img src="{unsplash_url(ph, 800)}" srcset="{srcset}" sizes="(min-width:520px) 480px, 100vw" '
+            f'width="800" height="600" alt="{esc(t["name"])}" fetchpriority="high" decoding="async">'
+            f'<figcaption>{credit}</figcaption></figure>')
+
 
 def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     t = c['i18n'][lang]
@@ -201,17 +223,27 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     r = t['recipe']
     diets = [f'https://schema.org/{SCHEMA_DIET[lb["id"]]}' for lb in info['labels']
              if lb['status'] == 'yes' and lb['id'] in SCHEMA_DIET]
-    # No photo of every dish, and Google requires one for Recipe rich results: the markup is a MenuItem with the nutrition facts
+    # Recipe rich results need a photo of the dish: pages with a photo get Recipe markup, the others a MenuItem with the nutrition facts
     # (the recipe itself stays in the visible page).
-    jsonld = {
-        '@context': 'https://schema.org', '@type': 'MenuItem', 'name': t['name'], 'description': t['intro'],
-        'inLanguage': lang, 'url': url,
-        'nutrition': {'@type': 'NutritionInformation', 'servingSize': f'{portion} {"ml" if ml else "g"}',
-                      'calories': f'{kcal_p} kcal',
-                      'proteinContent': f'{round(dish["protein_g"] * portion / 100)} g',
-                      'fatContent': f'{round(dish["fat_g"] * portion / 100)} g',
-                      'carbohydrateContent': f'{round(dish["carbs_g"] * portion / 100)} g'},
-    }
+    nutrition = {'@type': 'NutritionInformation', 'servingSize': f'{portion} {"ml" if ml else "g"}',
+                 'calories': f'{kcal_p} kcal',
+                 'proteinContent': f'{round(dish["protein_g"] * portion / 100)} g',
+                 'fatContent': f'{round(dish["fat_g"] * portion / 100)} g',
+                 'carbohydrateContent': f'{round(dish["carbs_g"] * portion / 100)} g'}
+    ph = PHOTOS.get(c['slug'])
+    if ph:
+        jsonld = {
+            '@context': 'https://schema.org', '@type': 'Recipe', 'name': t['name'], 'description': t['intro'],
+            'inLanguage': lang, 'url': url, 'recipeCuisine': t['origin'], 'recipeYield': str(r['servings']),
+            'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': [x[:200] for x in r['ingredients']],
+            'recipeInstructions': [{'@type': 'HowToStep', 'text': s} for s in r['steps']],
+            'nutrition': nutrition, 'author': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE + '/'},
+            'image': [unsplash_url(ph, 1200, 1200), unsplash_url(ph, 1200, 900), unsplash_url(ph, 1200, 675)],
+            'keywords': f'{t["name"]}, {t["origin"].split("·")[0].strip()}, calories',
+        }
+    else:
+        jsonld = {'@context': 'https://schema.org', '@type': 'MenuItem', 'name': t['name'], 'description': t['intro'],
+                  'inLanguage': lang, 'url': url, 'nutrition': nutrition}
     if diets:
         jsonld['suitableForDiet'] = diets
 
@@ -219,6 +251,8 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
         'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
         'home': home(lang), 'index': path(lang), 'emoji': c['emoji'],
+        'photo': photo_block(lang, c, t, U), 'ogimage': unsplash_url(PHOTOS[c['slug']], 1200, 630) if c['slug'] in PHOTOS else SITE + '/og-cover.jpg',
+        'photo_preconnect': '<link rel="preconnect" href="https://images.unsplash.com" />' if c['slug'] in PHOTOS else '',
         'name': esc(t['name']), 'origin': origin_link(lang, c, t), 'intro': esc(t['intro']), 'mid': mid_cta(lang, 'dish', t['name']),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
         'per_portion': esc(U['perPortionMl' if ml else 'perPortion'].format(portion=portion)), 'macros': macros,
@@ -506,6 +540,8 @@ def main():
     CU['_order'] = [k for k in CU if not k.startswith('_')]
     CUISINE_LANGS.update({k: {l for l in CU[k] if l in CU['_ui'] and l in ui} for k in CU['_order']})
     CUISINE_BY_COUNTRY.update({CU[k]['match']: k for k in CU['_order']})
+    if (HERE / 'photos.json').exists():
+        PHOTOS.update(json.load(open(HERE / 'photos.json', encoding='utf-8')))
     global METHOD_LINK
     METHOD_LINK = {l: M[l]['link'] for l in M}
     NAMES.update(json.load(open(HERE / 'ingredient_names.json', encoding='utf-8'))
