@@ -42,6 +42,8 @@ h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:26px;line-height
 .origin{display:inline-flex;line-height:1.35;align-items:center;gap:8px;margin-top:14px;padding:6px 14px;border-radius:14px;background:var(--gold-soft);color:#7a5a20;font-weight:600;font-size:14px}
 .intro{font-size:18px;color:var(--muted);margin:18px 0 0}
 .dphoto{margin:16px 0 0}.dphoto img{display:block;width:100%;max-width:480px;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:20px;background:#e9e5dc}.dphoto figcaption{font-size:12px;color:var(--muted);margin-top:6px}.dphoto a{color:inherit}
+.dhero{display:block}@media (min-width:760px){.dhero.has-photo{display:grid;grid-template-columns:240px 1fr;gap:22px;align-items:start}.dhero.has-photo .dphoto{margin:0}.dhero.has-photo .dphoto img{aspect-ratio:1/1;max-width:none}.dhero.has-photo .nut.first{margin-top:16px}}
+
 section{margin-top:40px}
 .nut.first{margin-top:22px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
@@ -141,13 +143,14 @@ footer a{text-decoration:none}
   <nav class="crumbs"><a href="{{home}}">{{ui.home}}</a> › <a href="{{index}}">{{ui.dishes}}</a></nav>
   <h1>{{emoji}} {{name}}</h1>
   <div class="origin">{{ui.origin}}: {{origin}}</div>
+  <div class="dhero{{photo_cls}}">
   {{photo}}
-
   <section class="card nut first">
     <div><div class="big">{{kcal_portion}}<small>{{ui.kcal}}</small></div><div class="lbl">{{per_portion}}</div></div>
     <div><div class="big">{{kcal100}}<small>{{ui.kcal}}</small></div><div class="lbl">{{ui.per100}}</div></div>
     <div class="macros" style="grid-column:1/-1">{{macros}}</div>
   </section>
+  </div>
 
   <p class="intro">{{intro}}</p>
   {{mid}}

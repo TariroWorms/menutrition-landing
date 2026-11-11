@@ -140,7 +140,7 @@ def photo_block(lang, c, t, U):
         author=f'<a href="{esc(ph["author_url"])}?{UTM}" rel="noopener" target="_blank">{esc(ph["author"])}</a>',
         unsplash=f'<a href="https://unsplash.com/?{UTM}" rel="noopener" target="_blank">Unsplash</a>')
     srcset = ', '.join(f'{unsplash_url(ph, w)} {w}w' for w in (400, 800, 1200))
-    return (f'<figure class="dphoto"><img src="{unsplash_url(ph, 800)}" srcset="{srcset}" sizes="(min-width:520px) 480px, 100vw" '
+    return (f'<figure class="dphoto"><img src="{unsplash_url(ph, 800)}" srcset="{srcset}" sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" '
             f'width="800" height="600" alt="{esc(t["name"])}" fetchpriority="high" decoding="async">'
             f'<figcaption>{credit}</figcaption></figure>')
 
@@ -251,7 +251,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
         'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
         'home': home(lang), 'index': path(lang), 'emoji': c['emoji'],
-        'photo': photo_block(lang, c, t, U), 'ogimage': unsplash_url(PHOTOS[c['slug']], 1200, 630) if c['slug'] in PHOTOS else SITE + '/og-cover.jpg',
+        'photo': photo_block(lang, c, t, U), 'photo_cls': ' has-photo' if c['slug'] in PHOTOS else '', 'ogimage': unsplash_url(PHOTOS[c['slug']], 1200, 630) if c['slug'] in PHOTOS else SITE + '/og-cover.jpg',
         'photo_preconnect': '<link rel="preconnect" href="https://images.unsplash.com" />' if c['slug'] in PHOTOS else '',
         'name': esc(t['name']), 'origin': origin_link(lang, c, t), 'intro': esc(t['intro']), 'mid': mid_cta(lang, 'dish', t['name']),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
