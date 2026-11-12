@@ -626,6 +626,23 @@ def main():
     (out / 'dishes').mkdir(exist_ok=True)
     (out / 'dishes' / 'search.json').write_text(json.dumps(search, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     urls = [SITE + '/' + str(p.parent.relative_to(out)) + '/' for p in pages]
+    # a dish merged into another one: its old pages become redirects to the kept page (no 404 for indexed URLs)
+    slug_of = {}
+    for f in (HERE / 'content').glob('*.json'):
+        cc = json.load(open(f, encoding='utf-8'))
+        slug_of[cc['db_key']] = cc['slug']
+    for old_key, new_key in dup.items():
+        if old_key not in slug_of or new_key not in slug_of or slug_of[old_key] == slug_of[new_key]:
+            continue
+        for lang in ['en'] + [l for l in ui if l != 'en']:
+            page = out / path(lang, slug_of[old_key]).strip('/') / 'index.html'
+            if not page.exists():
+                continue
+            target = SITE + path(lang, slug_of[new_key])
+            page.write_text(f'<!DOCTYPE html>\n<html lang="{lang}"><head><meta charset="UTF-8" /><title>Me Nutrition</title>'
+                            f'<link rel="canonical" href="{target}" /><meta name="robots" content="noindex" />'
+                            f'<meta http-equiv="refresh" content="0; url={target}" /></head>'
+                            f'<body><a href="{target}">{target}</a></body></html>\n', encoding='utf-8')
     (out / 'sitemap-dishes.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sorted(urls)) + '</urlset>\n', encoding='utf-8')
     print(f'db v{db["version"]}: {len(contents)} dishes × {len(langs)} languages ({", ".join(langs)}) → {len(pages)} pages')
 
