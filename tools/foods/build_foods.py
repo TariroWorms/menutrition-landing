@@ -29,6 +29,13 @@ SRC_KEY = {'sr': 'src_sr', 'fd': 'src_fd', 'ciqual': 'src_ciqual'}
 SRC_URL = {'sr': 'https://fdc.nal.usda.gov/', 'fd': 'https://fdc.nal.usda.gov/', 'ciqual': 'https://ciqual.anses.fr/'}
 
 
+_FP = Path(__file__).parent / 'food_photos.json'
+FOOD_PHOTOS = json.load(open(_FP, encoding='utf-8')) if _FP.exists() else {}
+CAT_EMOJI = {'meat': '🥩', 'vegetables': '🥦', 'meals-fast-food': '🍔', 'bread-bakery': '🍞', 'sweets-snacks': '🍫',
+             'eggs-dairy': '🥚', 'grains-pasta': '🌾', 'fish-seafood': '🐟', 'legumes-nuts': '🥜', 'soups-sauces-spices': '🥣',
+             'beverages': '🥤', 'poultry': '🍗', 'fruits': '🍎', 'fats-oils': '🫒', 'other': '🍽️'}
+
+
 def fpath(lang, *parts):
     base = '/' if lang == 'en' else f'/{lang}/'
     return base + 'foods/' + ''.join(f'{p}/' for p in parts)
@@ -119,6 +126,13 @@ class Builder:
 
     # ---- a food page ----
     def food_page(self, lang, f, rel):
+        ph = FOOD_PHOTOS.get(f"{f['category']}/{f['token']}") or FOOD_PHOTOS.get(f['category'])
+        if ph:
+            pic = (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
+                   f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
+                   f'alt="{esc(f["names"][lang])}" fetchpriority="high" decoding="async"></figure>')
+        else:
+            pic = f'<figure class="dphoto dtile" aria-hidden="true"><span>{CAT_EMOJI.get(f["category"], "🍽️")}</span></figure>'
         s, u = self.S[lang], self.ui[lang]
         name, k = f['names'][lang], f['kcal']
         n1 = lambda x: nf(lang, x, 1)
@@ -145,10 +159,10 @@ class Builder:
         main = f'''{self.crumbs(lang, name, cat)}
   <h1>{esc(name)}</h1>
   <a class="fcat" href="{fpath(lang, cat)}">{esc(s["cats"][cat])}</a>
-  <section class="card nut first" style="margin-top:20px">
+  <div class="dhero has-photo">{pic}<section class="card nut first" style="margin-top:20px">
     <div><div class="fkcal"><span class="big">{nf(lang, k, 0)}</span><small>{esc(u["kcal"])}</small></div><div class="lbl">{esc(s["per100"])}</div></div>
     <div class="macros" style="grid-column:1/-1">{macros}</div>
-  </section>
+  </section></div>
   <p class="intro">{esc(lead)}</p>
   <p class="fsrc" style="margin-top:8px">{esc(s["split_h"])}: {esc(s["split_p"].format(p=pct["protein"], f=pct["fat"], c=pct["carbs"]))}</p>
   <section>
