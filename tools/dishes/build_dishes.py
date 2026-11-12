@@ -126,6 +126,11 @@ PHOTOS = {}
 UTM = 'utm_source=menutrition&utm_medium=referral'
 
 
+def photo_url(ph, w, h=None):
+    """Absolute URL of the dish photo for og:image and structured data."""
+    return SITE + ph['src2x'] if ph.get('src') else unsplash_url(ph, w, h)
+
+
 def unsplash_url(ph, w, h=None):
     """Photo hotlinked from Unsplash's CDN with its resizing parameters (the API terms require hotlinking)."""
     h = h or round(w * 3 / 4)
@@ -136,6 +141,10 @@ def photo_block(lang, c, t, U):
     ph = PHOTOS.get(c['slug'])
     if not ph:
         return ''
+    if ph.get('src'):  # a photo stored on the site (Pixabay): no credit line needed
+        return (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
+                f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
+                f'alt="{esc(t["name"])}" fetchpriority="high" decoding="async"></figure>')
     credit = U['photo_by'].format(
         author=f'<a href="{esc(ph["author_url"])}?{UTM}" rel="noopener" target="_blank">{esc(ph["author"])}</a>',
         unsplash=f'<a href="https://unsplash.com/?{UTM}" rel="noopener" target="_blank">Unsplash</a>')
@@ -238,7 +247,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
             'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': [x[:200] for x in r['ingredients']],
             'recipeInstructions': [{'@type': 'HowToStep', 'text': s} for s in r['steps']],
             'nutrition': nutrition, 'author': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE + '/'},
-            'image': [unsplash_url(ph, 1200, 1200), unsplash_url(ph, 1200, 900), unsplash_url(ph, 1200, 675)],
+            'image': [photo_url(ph, 1200, 1200), photo_url(ph, 1200, 900), photo_url(ph, 1200, 675)] if not ph.get('src') else [photo_url(ph, 960)],
             'keywords': f'{t["name"]}, {t["origin"].split("·")[0].strip()}, calories',
         }
     else:
@@ -251,8 +260,8 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
         'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
         'home': home(lang), 'index': path(lang), 'emoji': c['emoji'],
-        'photo': photo_block(lang, c, t, U), 'photo_cls': ' has-photo' if c['slug'] in PHOTOS else '', 'ogimage': unsplash_url(PHOTOS[c['slug']], 1200, 630) if c['slug'] in PHOTOS else SITE + '/og-cover.jpg',
-        'photo_preconnect': '<link rel="preconnect" href="https://images.unsplash.com" />' if c['slug'] in PHOTOS else '',
+        'photo': photo_block(lang, c, t, U), 'photo_cls': ' has-photo' if c['slug'] in PHOTOS else '', 'ogimage': photo_url(PHOTOS[c['slug']], 1200, 630) if c['slug'] in PHOTOS else SITE + '/og-cover.jpg',
+        'photo_preconnect': '<link rel="preconnect" href="https://images.unsplash.com" />' if c['slug'] in PHOTOS and not PHOTOS[c['slug']].get('src') else '',
         'name': esc(t['name']), 'origin': origin_link(lang, c, t), 'intro': esc(t['intro']), 'mid': mid_cta(lang, 'dish', t['name']),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
         'per_portion': esc(U['perPortionMl' if ml else 'perPortion'].format(portion=portion)), 'macros': macros,
