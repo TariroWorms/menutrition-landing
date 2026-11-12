@@ -139,8 +139,8 @@ def unsplash_url(ph, w, h=None):
 
 def photo_block(lang, c, t, U):
     ph = PHOTOS.get(c['slug'])
-    if not ph:
-        return ''
+    if not ph:  # no honest photo of this dish: an illustration with its emoji, not a stock photo of something else
+        return f'<figure class="dphoto dtile" aria-hidden="true"><span>{c["emoji"]}</span></figure>'
     if ph.get('src'):  # a photo stored on the site (Pixabay): no credit line needed
         return (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
                 f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
@@ -260,7 +260,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title), 'description': esc(description),
         'url': url, 'hreflang': hreflang, 'jsonld': json.dumps(jsonld, ensure_ascii=False).replace('</', '<\\/'),
         'home': home(lang), 'index': path(lang), 'emoji': c['emoji'],
-        'photo': photo_block(lang, c, t, U), 'photo_cls': ' has-photo' if c['slug'] in PHOTOS else '', 'ogimage': photo_url(PHOTOS[c['slug']], 1200, 630) if c['slug'] in PHOTOS else SITE + '/og-cover.jpg',
+        'photo': photo_block(lang, c, t, U), 'photo_cls': ' has-photo', 'ogimage': photo_url(PHOTOS[c['slug']], 1200, 630) if c['slug'] in PHOTOS else SITE + '/og-cover.jpg',
         'photo_preconnect': '<link rel="preconnect" href="https://images.unsplash.com" />' if c['slug'] in PHOTOS and not PHOTOS[c['slug']].get('src') else '',
         'name': esc(t['name']), 'origin': origin_link(lang, c, t), 'intro': esc(t['intro']), 'mid': mid_cta(lang, 'dish', t['name']),
         'kcal_portion': kcal_p, 'kcal100': round(dish['kcal']),
@@ -382,6 +382,18 @@ def guide_dishes(spec, contents, db):
     return out
 
 
+PAGE_PHOTOS = {'guides': {}, 'cuisines': {}}
+
+
+def hero_block(kind, slug, alt, emoji):
+    """Wide photo at the top of a guide or cuisine page (Pixabay, stored on the site); an emoji tile where no honest photo exists."""
+    ph = PAGE_PHOTOS[kind].get(slug)
+    if not ph:
+        return f'<figure class="ghero gtile" aria-hidden="true"><span>{emoji}</span></figure>'
+    return (f'<figure class="ghero"><img src="{ph["src"]}" srcset="{ph["src"]} 640w, {ph["src2x"]} 1280w" sizes="(min-width:800px) 760px, 100vw" '
+            f'width="640" height="360" alt="{esc(alt)}" fetchpriority="high" decoding="async"></figure>')
+
+
 def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     U, T, GU, spec = ui[lang], G[slug][lang], G['_ui'][lang], G[slug]['match']
     sections = ''
@@ -433,6 +445,7 @@ def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     values.update({f'g.{k}': esc(v) for k, v in GU.items()})
     values.update({f'm.{k}': esc(re.sub(r'\*\*|(?<![\w/])_|_(?![\w])', '', v)) for k, v in T.items() if isinstance(v, str)})
     values['emoji'] = G[slug].get('emoji', '')
+    values['hero'] = hero_block('guides', slug, G[slug][lang]['name'], G[slug].get('emoji', ''))
     values['m.intro'] = brand(md(T['intro']))
     return fill(template, values)
 
@@ -511,6 +524,7 @@ def cuisine_page(lang, slug, CU, ui, langs, contents, db, template):
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(plain(T['title'])),
         'description': esc(plain(T['meta']).replace('{n}', str(len(found)))), 'url': SITE + path(lang, 'cuisine/' + slug),
         'hreflang': hreflang, 'home': home(lang), 'index': path(lang), 'jsonld': f'<script type="application/ld+json">{jsonld}</script>',
+        'hero': hero_block('cuisines', slug, T['name'], meta['emoji']),
         'emoji': meta['emoji'], 'name': esc(T['name']), 'intro': brand(md(T['intro'])), 'tip': brand(md(T['tip'])),
         'stats': stats, 'lists': lists, 'all_h': esc(CL['all_h'].format(n=len(found))), 'all': allc, 'others': others,
         'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
@@ -549,6 +563,8 @@ def main():
     CU['_order'] = [k for k in CU if not k.startswith('_')]
     CUISINE_LANGS.update({k: {l for l in CU[k] if l in CU['_ui'] and l in ui} for k in CU['_order']})
     CUISINE_BY_COUNTRY.update({CU[k]['match']: k for k in CU['_order']})
+    if (HERE / 'page_photos.json').exists():
+        PAGE_PHOTOS.update(json.load(open(HERE / 'page_photos.json', encoding='utf-8')))
     if (HERE / 'photos.json').exists():
         PHOTOS.update(json.load(open(HERE / 'photos.json', encoding='utf-8')))
     global METHOD_LINK
