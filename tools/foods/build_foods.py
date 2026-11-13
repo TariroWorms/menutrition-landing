@@ -126,8 +126,14 @@ class Builder:
 
     # ---- a food page ----
     def food_page(self, lang, f, rel):
-        ph = FOOD_PHOTOS.get(f"{f['category']}/{f['token']}") or FOOD_PHOTOS.get(f['category'])
-        if ph:
+        ph = FOOD_PHOTOS.get('item:' + f['key']) or FOOD_PHOTOS.get(f"{f['category']}/{f['token']}") or FOOD_PHOTOS.get(f['category'])
+        if ph and ph.get('credit'):  # Open Food Facts product photo: CC BY-SA, credit required
+            pic = (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
+                   f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
+                   f'alt="{esc(f["names"][lang])}" fetchpriority="high" decoding="async">'
+                   f'<figcaption><a href="{esc(ph["page"])}" rel="noopener" target="_blank">Open Food Facts</a>, '
+                   f'<a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener" target="_blank">CC BY-SA</a></figcaption></figure>')
+        elif ph:
             pic = (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
                    f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
                    f'alt="{esc(f["names"][lang])}" fetchpriority="high" decoding="async"></figure>')
