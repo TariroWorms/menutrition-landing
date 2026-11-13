@@ -112,3 +112,4 @@ Stored on the site (not hotlinked). Pixabay Content License: free for commercial
 | vegetables/taro | https://pixabay.com/photos/taro-healthy-organic-root-vegetable-5367857/ | WebTechExperts | 2026-11-12 |
 | vegetables/tomato | https://pixabay.com/photos/tomatoes-basket-red-fresh-healthy-10021375/ | Irahel_77 | 2026-11-12 |
 | vegetables/turnip | https://pixabay.com/photos/turnip-brassica-rapa-subsp-5231855/ | stux | 2026-11-12 |
+| fruits/avocado | https://pixabay.com/photos/avocado-food-fruit-vegetables-8498520/ | JohnyVid | 2026-11-13 |

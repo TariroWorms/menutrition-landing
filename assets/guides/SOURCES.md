@@ -50,3 +50,9 @@ Stored on the site. Pixabay Content License: free for commercial use, no attribu
 | cuisines/thai | https://pixabay.com/photos/thai-food-noodle-fried-noodles-meal-518035/ | cattalin | Pixabay | 2026-11-12 |
 | cuisines/turkish | https://pixabay.com/photos/bagel-pretzels-bakery-food-simit-4291496/ | TanerSoyler | Pixabay | 2026-11-12 |
 | cuisines/vietnamese | https://pixabay.com/photos/vietnamese-cuisine-beef-noodle-dish-6751325/ | Vu_Pham | Pixabay | 2026-11-12 |
+| guides/mustard-allergy | https://pixabay.com/photos/spices-spice-seeds-close-up-scent-3373818/ | Enotovyj | 2026-11-13 |
+| cuisines/peruvian | https://pixabay.com/photos/ceviche-menu-shrimp-639900/ | piliperiodista | 2026-11-13 |
+| cuisines/egyptian | https://commons.wikimedia.org/w/index.php?curid=4493931 | Arria Belli | CC BY-SA 2.0 (credited on page) | 2026-11-13 |
+| cuisines/yemeni | https://www.flickr.com/photos/19762676@N00/5529999374 | austinevan | CC BY 2.0 (credited on page) | 2026-11-13 |
+| cuisines/persian | https://commons.wikimedia.org/w/index.php?curid=63290927 | Benreis | CC BY 3.0 (credited on page) | 2026-11-13 |
+| cuisines/iraqi | https://commons.wikimedia.org/w/index.php?curid=47613453 | Hill93 | CC BY-SA 4.0 (credited on page) | 2026-11-13 |

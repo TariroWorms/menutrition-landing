@@ -117,6 +117,7 @@ Photos in this folder are stored here (not hotlinked). Pixabay Content License: 
 | spaghetti-bolognese | https://pixabay.com/photos/pasta-spaghetti-noodles-ground-beef-9783725/ | NickyZangess | Pixabay | 2026-11-12 |
 | spaghetti-carbonara | https://pixabay.com/photos/pasta-spaghetti-carbonara-roman-3805772/ | takedahrs | Pixabay | 2026-11-12 |
 | spaghetti-pesto | https://pixabay.com/photos/spaghetti-pesto-basil-parmesan-1002825/ | IppikiOokami | Pixabay | 2026-11-12 |
+| spanakopita | https://pixabay.com/photos/food-re-pastry-cuisine-filo-baked-1759336/ | djpresc16 | Pixabay | 2026-11-13 |
 | supangle | https://pixabay.com/photos/profiteroles-sweet-cake-food-962402/ | emregokyuz | Pixabay | 2026-11-12 |
 | svickova | https://pixabay.com/photos/cuisine-delicious-meat-detail-18796/ | PublicDomainPictures | Pixabay | 2026-11-12 |
 | tagliatelle-al-tartufo | https://pixabay.com/photos/truffle-food-gastronomy-to-eat-3421151/ | Polette2 | Pixabay | 2026-11-12 |

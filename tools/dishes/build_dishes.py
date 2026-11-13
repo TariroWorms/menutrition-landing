@@ -144,7 +144,7 @@ def photo_block(lang, c, t, U):
     if ph.get('src'):  # a photo stored on the site (Pixabay): no credit line needed
         return (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
                 f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
-                f'alt="{esc(t["name"])}" fetchpriority="high" decoding="async"></figure>')
+                f'alt="{esc(t["name"])}" fetchpriority="high" decoding="async">{cc_caption(ph)}</figure>')
     credit = U['photo_by'].format(
         author=f'<a href="{esc(ph["author_url"])}?{UTM}" rel="noopener" target="_blank">{esc(ph["author"])}</a>',
         unsplash=f'<a href="https://unsplash.com/?{UTM}" rel="noopener" target="_blank">Unsplash</a>')
@@ -385,13 +385,22 @@ def guide_dishes(spec, contents, db):
 PAGE_PHOTOS = {'guides': {}, 'cuisines': {}}
 
 
+def cc_caption(ph):
+    """Credit line for a Creative Commons photo stored on the site (Wikimedia Commons / Flickr via Openverse)."""
+    if not ph.get('license'):
+        return ''
+    lic = ph['license'] if ph['license'] in ('cc0', 'pdm') else 'CC ' + ph['license'].upper() + ' ' + ph.get('license_version', '')
+    return (f'<figcaption>© <a href="{esc(ph["page"])}" rel="noopener" target="_blank">{esc(ph["author"])}</a>, '
+            f'<a href="{esc(ph.get("license_url", ""))}" rel="license noopener" target="_blank">{esc(lic.strip())}</a></figcaption>')
+
+
 def hero_block(kind, slug, alt, emoji):
     """Wide photo at the top of a guide or cuisine page (Pixabay, stored on the site); an emoji tile where no honest photo exists."""
     ph = PAGE_PHOTOS[kind].get(slug)
     if not ph:
         return f'<figure class="ghero gtile" aria-hidden="true"><span>{emoji}</span></figure>'
     return (f'<figure class="ghero"><img src="{ph["src"]}" srcset="{ph["src"]} 640w, {ph["src2x"]} 1280w" sizes="(min-width:800px) 760px, 100vw" '
-            f'width="640" height="360" alt="{esc(alt)}" fetchpriority="high" decoding="async"></figure>')
+            f'width="640" height="360" alt="{esc(alt)}" fetchpriority="high" decoding="async">{cc_caption(ph)}</figure>')
 
 
 def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):

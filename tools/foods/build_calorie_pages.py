@@ -235,6 +235,18 @@ def main():
         links = ''.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + u}" />\n' for l, u in alt.items())
         return html.replace('</head>', links + '</head>', 1)
 
+    PH = json.load(open(HERE / 'food_photos.json', encoding='utf-8'))
+    DPH = json.load(open(HERE.parent / 'dishes' / 'photos.json', encoding='utf-8'))
+    PKEY = {'egg': 'eggs-dairy/egg', 'almonds': 'legumes-nuts/almonds', 'avocado': 'fruits/avocado', 'banana': 'fruits/banana'}
+
+    def pic(P, lang):
+        ph = PH.get(PKEY.get(P['id'], '')) or DPH.get(P['id'] if P['id'] == 'spanakopita' else '')
+        if not ph or not ph.get('src'):
+            return f'<figure class="dphoto dtile" aria-hidden="true"><span>{P["emoji"]}</span></figure>'
+        return (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
+                f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
+                f'alt="{esc(P["name"][lang])}" fetchpriority="high" decoding="async"></figure>')
+
     def app_card(lang, page):
         t = TXT[lang]
         return (f'<section class="card cta"><h2>{esc(t["app_h"])}</h2><p>{esc(t["app_p"])}</p>'
@@ -282,7 +294,7 @@ def main():
             pcol = f'kcal / {esc(portion.split("(")[0].strip())}'
             main = f'''<nav class="crumbs"><a href="{bd.home(lang)}">{esc(t["home"])}</a> › <a href="{BASE[lang]}">{esc(t["hub_crumb"])}</a> › {esc(name)}</nav>
   <h1>{esc(P["h1"][lang])}</h1>
-  <div class="dhero has-photo"><figure class="dphoto dtile" aria-hidden="true"><span>{P["emoji"]}</span></figure>
+  <div class="dhero has-photo">{pic(P, lang)}
   <section class="card nut first" style="margin-top:20px"><div><div class="fkcal"><span class="big">{pk}</span><small>kcal</small></div>
   <div class="lbl">{esc(portion)}</div></div>
   <p class="intro" style="grid-column:1/-1;margin:14px 0 0">{esc(t["per100"].format(kcal=nf(lang, m["kcal"]), p=nf(lang, m["protein"], 1), f=nf(lang, m["fat"], 1), c=nf(lang, m["carbs"], 1)))}</p></section></div>
