@@ -327,6 +327,7 @@ def main():
         main = f'''<nav class="crumbs"><a href="{bd.home(lang)}">{esc(t["home"])}</a> › {esc(t["hub_crumb"])}</nav>
   <h1>{esc(t["hub_h1"])}</h1>
   <p class="intro">{esc(t["hub_intro"])}</p>
+  <figure class="ghero" style="margin-top:18px"><img src="/assets/guides/calorie-table.webp" srcset="/assets/guides/calorie-table.webp 640w, /assets/guides/calorie-table@2x.webp 1280w" sizes="(min-width:800px) 760px, 100vw" width="640" height="360" alt="{esc(t["hub_h1"])}" style="display:block;width:100%;max-width:760px;height:auto;border-radius:20px" fetchpriority="high" decoding="async"></figure>
   <section><div class="related">{links}</div></section>
   <section><div style="overflow-x:auto"><table class="wtab"><thead><tr><th>{esc(t["col_food"])}</th><th>{esc(t["col_100"])}</th><th>{esc(t["col_portion"])}</th><th>{esc(t["col_pkcal"])}</th></tr></thead><tbody>{rows}</tbody></table></div>
   <p class="note" style="margin-top:12px"><a href="/{lang}/foods/">{esc(S[lang]["foods"])} (9.000+) →</a></p></section>
