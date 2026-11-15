@@ -131,6 +131,15 @@ def photo_url(ph, w, h=None):
     return SITE + ph['src2x'] if ph.get('src') else unsplash_url(ph, w, h)
 
 
+def thumb(c):
+    """Small square dish photo for list cards; falls back to the emoji."""
+    ph = PHOTOS.get(c['slug'])
+    if not ph:
+        return f'<span class="em">{c["emoji"]}</span>'
+    src = ph['src'] if ph.get('src') else unsplash_url(ph, 112, 112)
+    return f'<img class="th" src="{src}" width="56" height="56" alt="" loading="lazy" decoding="async">'
+
+
 def unsplash_url(ph, w, h=None):
     """Photo hotlinked from Unsplash's CDN with its resizing parameters (the API terms require hotlinking)."""
     h = h or round(w * 3 / 4)
@@ -218,7 +227,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     related = ''
     if rel:
         related = (f'<section><h2>{esc(U["related_h"])}</h2><div class="related">' + ''.join(
-            f'<a href="{path(lang, r["slug"])}"><span class="em">{r["emoji"]}</span><div>{esc(r["i18n"][lang]["name"])}'
+            f'<a href="{path(lang, r["slug"])}">{thumb(r)}<div>{esc(r["i18n"][lang]["name"])}'
             f'<span>{round(db["dishes"][r["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>'
             for r in rel) + '</div></section>')
 
@@ -299,7 +308,7 @@ def index_page(lang, items, ui, langs, db, template):
     label = lambda k: max((c['i18n'][lang]['origin'].split('·')[0].strip() for c in groups[k]),
                           key=[c['i18n'][lang]['origin'].split('·')[0].strip() for c in groups[k]].count)
     anchor = lambda k: re.sub(r'[^a-z0-9]+', '-', k.lower()).strip('-')
-    card = lambda c: (f'<a href="{path(lang, c["slug"])}" data-k="{esc(c["db_key"].replace("_", " "))}"><span class="em">{c["emoji"]}</span>'
+    card = lambda c: (f'<a href="{path(lang, c["slug"])}" data-k="{esc(c["db_key"].replace("_", " "))}">{thumb(c)}'
                       f'<div>{esc(c["i18n"][lang]["name"])}<span>{round(db["dishes"][c["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>')
     html_groups = ''.join(
         f'<section class="group"><h2 id="{anchor(k)}">{group_title(lang, k, label(k))}<small>{len(groups[k])}</small></h2><div class="related">'
@@ -502,7 +511,7 @@ def cuisine_page(lang, slug, CU, ui, langs, contents, db, template):
     dl = lambda c: lang if lang in c['i18n'] else 'en'
     found = [c for c in contents.values() if country_of(c) == meta['match']]
     d = lambda c: db['dishes'][c['db_key']]
-    card = lambda c, sub: (f'<a href="{path(dl(c), c["slug"])}"><span class="em">{c["emoji"]}</span>'
+    card = lambda c, sub: (f'<a href="{path(dl(c), c["slug"])}">{thumb(c)}'
                            f'<div>{esc(c["i18n"][dl(c)]["name"])}<span>{sub}</span></div></a>')
     kcal = lambda c: f'{round(d(c)["kcal"])} {esc(CL["per100"])}'
     food = [c for c in found if 'drink' not in d(c)['tags']]
