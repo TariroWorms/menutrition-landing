@@ -59,7 +59,7 @@ section{margin-top:40px}
 .cta a{display:inline-flex;height:48px;align-items:center;padding:0 24px;border-radius:999px;background:#fff;color:#1d1b19;font-weight:700;text-decoration:none}
 .related{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
 .related a{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-weight:700}
-.related .em{font-size:28px;line-height:1}
+.related .em{font-size:28px;line-height:1}.related .th{width:56px;height:56px;border-radius:12px;object-fit:cover;flex:none}
 .related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
 .disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
 footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
