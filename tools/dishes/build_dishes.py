@@ -70,12 +70,18 @@ def fill(template, values):
     """{{key}} and {{ui.key}} placeholders; values are already HTML."""
     def rep(m):
         key = m.group(1)
+        if key == 'sitenav' and key not in values:
+            return '\x00SNAV\x00'
         if key == 'cite' and key not in values:
             return '\x00CITE\x00'
         if key not in values:
             raise KeyError(f'template placeholder {{{{{key}}}}} has no value')
         return str(values[key])
     out = re.sub(r'\{\{([\w.]+)\}\}', rep, template)
+    if '\x00SNAV\x00' in out:
+        from sitenav import sitenav
+        lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
+        out = out.replace('\x00SNAV\x00', sitenav(lang))
     if '\x00CITE\x00' in out:
         lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
         out = out.replace('\x00CITE\x00', esc(CITE.get(lang, CITE['en'])))
@@ -495,7 +501,7 @@ def guides_index(lang, G, ui, langs, contents, db, template):
             cards += (f'<a href="{gpath(lang, slug)}"><span class="em">{G[slug].get("emoji", "")}</span>'
                       f'<div>{esc(G[slug][lang]["name"])}<span>{sub}</span></div></a>')
         if cards:
-            sections += f'<section><h2>{esc(GU[group + "_h"])}</h2><div class="related">{cards}</div></section>'
+            sections += f'<section id="{group}"><h2>{esc(GU[group + "_h"])}</h2><div class="related">{cards}</div></section>'
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + gpath(l)}" />' for l in langs)
     values = {
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(GU['index_title']),
@@ -571,6 +577,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--db', default=None)
     ap.add_argument('--out', default=str(HERE.parent.parent))
+    ap.add_argument('--cook-only', action='store_true', help='build only the "What can I cook?" pages (fast)')
     ap.add_argument('--only', help='JSON list of db_keys to publish (a release batch)')
     a = ap.parse_args()
     out = Path(a.out)
@@ -622,6 +629,35 @@ def main():
     langs = [l for l in ui if any(l in c['i18n'] for c in contents.values())]
 
     pages = []
+    # "What can I cook?" — the fridge combinator
+    import cook
+    cdata = cook.cook_data(contents, db, PHOTOS, NAMES, country_of)
+    (out / 'dishes').mkdir(exist_ok=True)
+    (out / 'dishes' / 'cook.json').write_text(json.dumps(cdata, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    cook_tpl = (HERE / 'cook_template.html').read_text(encoding='utf-8').replace('{{style}}', style)
+    cook_langs = [l for l in langs if l in cook.UI]
+
+    def country_label(lang):
+        lab = {}
+        for c in contents.values():
+            if lang in c['i18n']:
+                lab.setdefault(country_of(c), {}).setdefault(c['i18n'][lang]['origin'].split('·')[0].strip(), 0)
+                lab[country_of(c)][c['i18n'][lang]['origin'].split('·')[0].strip()] += 1
+        return {k: max(v, key=v.get) for k, v in lab.items()}
+    for lang in cook_langs:
+        U = ui[lang]
+        common = {'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'home': home(lang), 'index': path(lang),
+                  'langs': ''.join(f'<a href="{path(l, "cook")}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in cook_langs),
+                  'langmenu': lang_menu(lang, cook_langs, lambda l: path(l, 'cook'))}
+        common.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+        p = out / path(lang, 'cook').strip('/') / 'index.html'
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(cook.cook_page(lang, ui, cook_langs, len(cdata['d']), cdata['g'], country_label, common, cook_tpl,
+                                    fill, esc, brand, path, SITE), encoding='utf-8')
+        pages.append(p)
+    if a.cook_only:
+        print('cook pages:', len(cook_langs), 'dishes:', len(cdata['d']), 'products:', len(cdata['g']))
+        return
     for c in contents.values():
         dish = db['dishes'][c['db_key']]
         info = analyse(dish)

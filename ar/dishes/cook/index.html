@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- "What can I cook?" page (/dishes/cook/). Styles come from template.html; logic in cook.py. -->
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="apple-itunes-app" content="app-id=6767123368, affiliate-data=pt=128869855&amp;ct=banner-cook" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ماذا أطبخ؟ أطباق من المكونات الموجودة لديك — Me Nutrition</title>
+<meta name="description" content="اختر المكونات الموجودة في ثلاجتك وطريقة الطهي والطعم والمطبخ، واحصل على أطباق مناسبة من 2377 وصفة من حول العالم مع السعرات والعناصر الغذائية." />
+<link rel="canonical" href="https://menutrition.app/ar/dishes/cook/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/cook/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/cook/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/cook/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/cook/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/cook/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/dishes/dish.css?v=20d8caa5" />
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/ar/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>AR</summary><div class="lm"><a href="/dishes/cook/" hreflang="en">English</a><a href="/ru/dishes/cook/" hreflang="ru">Русский</a><a href="/ar/dishes/cook/" hreflang="ar" class="on">العربية</a><a href="/it/dishes/cook/" hreflang="it">Italiano</a><a href="/el/dishes/cook/" hreflang="el">Ελληνικά</a></div></details><a class="hl" href="/ar/dishes/">الأطباق</a>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=dishes-hdr-ar&amp;mt=8" target="_blank" rel="noopener">تحميل</a></nav>
+</div></header>
+<nav class="snav" aria-label="Sections"><div class="wrap"><a href="/ar/dishes/">الأطباق</a><a href="/ar/dishes/cook/">ماذا أطبخ</a><a href="/ar/foods/">الأطعمة</a><a href="/ar/guides/#diets">الحميات</a><a href="/ar/guides/#allergies">الحساسية</a><a href="/calculators/">الحاسبات</a><a href="/calculators/weight-loss-calculator/">خطة إنقاص الوزن</a><a href="/ar/">التطبيق</a></div></nav>
+<main class="wrap">
+  <nav class="crumbs"><a href="/ar/">الرئيسية</a> › <a href="/ar/dishes/">الأطباق</a></nav>
+  <div class="cook"><h1>ماذا أطبخ؟</h1><p class="intro">اختر ما لديك في الثلاجة وكيف تريده: مقلي أو مشوي في الفرن، حار أو حلو، إيطالي أو من أي مطبخ. نعرض لك كل الأطباق المناسبة مع السعرات.</p><h2>المكونات المتوفرة</h2><input class="search" id="prod" type="search" autocomplete="off" placeholder="اكتب مكوّنًا: دجاج، أرز، باذنجان…" aria-label="المكونات المتوفرة"><div class="pick" id="sug"></div><div class="pick" id="chips"></div><p class="note">الأكثر استخدامًا:</p><div class="pick" id="pop"><button type="button" class="pc" data-k="tomato">طماطم</button><button type="button" class="pc" data-k="egg">بيض</button><button type="button" class="pc" data-k="chicken">دجاج</button><button type="button" class="pc" data-k="rice">أرز</button><button type="button" class="pc" data-k="potato">بطاطس</button><button type="button" class="pc" data-k="beef">لحم بقري</button><button type="button" class="pc" data-k="pork">لحم خنزير</button><button type="button" class="pc" data-k="yogurt">زبادي</button><button type="button" class="pc" data-k="shrimp">روبيان</button><button type="button" class="pc" data-k="lamb">لحم غنم</button><button type="button" class="pc" data-k="carrot">جزر</button><button type="button" class="pc" data-k="cheese">جبن</button><button type="button" class="pc" data-k="bread">خبز</button><button type="button" class="pc" data-k="parmesan">بارميزان</button><button type="button" class="pc" data-k="bell_pepper">فلفل حلو</button><button type="button" class="pc" data-k="eggplant">باذنجان</button><button type="button" class="pc" data-k="turmeric">كركم</button><button type="button" class="pc" data-k="ghee">سمن</button></div><div class="filters"><div><label for="fm">طريقة الطهي</label><select id="fm"><option value="">أي مطبخ</option><option value="fried">مقلي في المقلاة</option><option value="deep_fried">مقلي في زيت غزير</option><option value="baked">في الفرن</option><option value="grilled">مشوي / باربكيو</option><option value="stewed">مطهو ببطء</option><option value="boiled">مسلوق</option><option value="steamed">على البخار</option><option value="raw">نيء / بدون طهي</option></select></div><div><label for="ft">الطعم</label><select id="ft"><option value="">أي مطبخ</option><option value="spicy">حار</option><option value="sweet">حلو</option><option value="sour">حامض</option><option value="creamy">كريمي / بالجبن</option><option value="smoky">مدخّن</option><option value="savory">مالح / مشبع</option><option value="herby">بالأعشاب / عطري</option><option value="crispy">مقرمش</option><option value="fresh">منعش / خفيف</option></select></div><div><label for="fy">نوع الطبق</label><select id="fy"><option value="">أي مطبخ</option><option value="main">طبق رئيسي</option><option value="soup">شوربة</option><option value="salad">سلطة</option><option value="snack">مقبلات / وجبة خفيفة</option><option value="breakfast">فطور</option><option value="side">طبق جانبي</option><option value="bread">خبز / معجنات</option><option value="dessert">حلوى</option><option value="drink">مشروب</option></select></div><div><label for="fc">المطبخ</label><select id="fc"><option value="">أي مطبخ</option></select></div></div><div class="bar"><h2>الأطباق المناسبة<small id="cnt"></small></h2><button type="button" class="pc" id="reset">مسح</button></div><div id="res"><noscript>اختر مكوّنًا أو فلترًا لعرض الأطباق.</noscript></div><div id="close"></div></div>
+</main>
+<footer><div class="wrap">
+  <a href="/ar/">الرئيسية</a><a href="/privacy">الخصوصية</a><a href="/terms">الشروط</a>
+  <span class="langs"><a href="/dishes/cook/" hreflang="en">English</a><a href="/ru/dishes/cook/" hreflang="ru">Русский</a><a href="/ar/dishes/cook/" hreflang="ar">العربية</a><a href="/it/dishes/cook/" hreflang="it">Italiano</a><a href="/el/dishes/cook/" hreflang="el">Ελληνικά</a></span>
+  <p class="cite">© Me Nutrition. يُسمح بالاقتباس مع رابط إلى هذه الصفحة.</p>
+</div></footer>
+<style>.cook .pick{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.cook .pc{font:inherit;cursor:pointer;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:14px;font-weight:600;color:inherit}.cook .pc.on{background:var(--teal-soft);color:var(--teal);border-color:transparent}.cook .pc small{color:var(--muted)}.cook .pc.more{margin-top:14px}.cook .intro+h2{margin-top:22px}.cook .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:18px 0}.cook label{display:block;font-size:13px;font-weight:700;color:var(--muted)}.cook select{width:100%;margin-top:4px;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);font:inherit;color:inherit}.cook h2 small{color:var(--muted);font-weight:600;margin-inline-start:6px}.cook .bar{display:flex;justify-content:space-between;align-items:center;gap:10px}</style><script type="application/json" id="cook-ui">{"kcal": "سعرة / 100 غ", "none": "لا يوجد طبق يجمع كل ذلك. أزل مكوّنًا أو فلترًا.", "close": "خيارات قريبة", "swap": "مع {b} بدل {a}", "missing": "بدون {a}", "more": "عرض المزيد", "start": "اختر مكوّنًا أو فلترًا لعرض الأطباق.", "med": "متوسطي", "cn": {"Greece": "اليونان", "Italy": "إيطاليا", "Iran": "إيران", "Brazil": "البرازيل", "Turkey": "تركيا", "Jamaica": "جامايكا", "Yemen": "اليمن", "Philippines": "الفلبين", "Japan": "اليابان", "Mexico": "المكسيك", "International": "عالمي", "Saudi Arabia": "السعودية", "Peru": "بيرو", "Balkans": "البلقان", "North America": "أمريكا الشمالية", "Spain": "إسبانيا", "Egypt": "مصر", "Portugal": "البرتغال", "France": "فرنسا", "India": "الهند", "Switzerland": "سويسرا", "Austria": "النمسا", "Central Asia": "آسيا الوسطى", "Worldwide": "حول العالم", "England": "إنجلترا", "Arabian Peninsula": "شبه الجزيرة العربية", "Levant": "بلاد الشام", "South Korea": "كوريا الجنوبية", "Chile": "تشيلي", "Lebanon": "لبنان", "Gulf": "الخليج", "Southeast Asia": "جنوب شرق آسيا", "Australia & USA": "أستراليا والولايات المتحدة", "Indonesia": "إندونيسيا", "United States": "الولايات المتحدة", "Croatia": "كرواتيا", "Iraq": "العراق", "UAE": "الإمارات", "Middle East": "الشرق الأوسط", "United Kingdom": "المملكة المتحدة", "Vietnam": "فيتنام", "China": "الصين", "Russia": "روسيا", "Bosnia and Herzegovina": "البوسنة والهرسك", "Türkiye": "تركيا", "Korea": "كوريا", "Germany": "ألمانيا", "Poland": "بولندا", "Gulf states": "دول الخليج", "Morocco": "المغرب", "Thailand": "تايلاند", "Ukraine": "أوكرانيا", "Czech Republic": "التشيك", "Tunisia": "تونس", "Taiwan": "تايوان", "Pakistan": "باكستان", "Pan-regional": "عدة مناطق", "Belgium": "بلجيكا", "Lithuania": "ليتوانيا", "United Arab Emirates": "الإمارات العربية المتحدة", "Malaysia": "ماليزيا", "Hong Kong": "هونغ كونغ", "South Asia": "جنوب آسيا", "Worldwide fast food": "الوجبات السريعة", "Hungary": "المجر", "Georgia": "جورجيا", "USA": "الولايات المتحدة", "Home cooking": "الطبخ المنزلي", "Mediterranean": "البحر المتوسط", "Oman": "عُمان", "Crimea": "القرم", "Romania": "رومانيا", "Middle East and South Asia": "الشرق الأوسط وجنوب آسيا", "Serbia": "صربيا", "Americas": "الأمريكتان", "Maghreb": "المغرب العربي", "Kuwait": "الكويت", "Ethiopia": "إثيوبيا", "Trinidad and Tobago": "ترينيداد وتوباغو", "Belarus": "بيلاروس", "Argentina": "الأرجنتين", "Latin America": "أمريكا اللاتينية", "Eastern Mediterranean": "شرق المتوسط", "Australia / New Zealand": "أستراليا / نيوزيلندا", "Belgium / France": "بلجيكا / فرنسا", "Sweden": "السويد", "Laos": "لاوس", "Cyprus": "قبرص", "Singapore": "سنغافورة", "Syria": "سوريا", "Slovakia": "سلوفاكيا", "Bahrain": "البحرين", "Europe": "أوروبا", "Afghanistan": "أفغانستان", "Hawaii": "هاواي", "Algeria": "الجزائر", "Palestine": "فلسطين", "Malaysia & Singapore": "ماليزيا وسنغافورة", "Australia": "أستراليا", "Chinese takeaway": "المطاعم الصينية", "Arabian Gulf": "الخليج العربي", "Jordan": "الأردن", "Australia and New Zealand": "أستراليا ونيوزيلندا", "Cuba": "كوبا", "Punjab": "البنجاب", "Coffee shops": "المقاهي", "Central & Eastern Europe": "وسط وشرق أوروبا", "Canada": "كندا", "Persian Gulf": "الخليج العربي", "North Africa": "شمال أفريقيا", "Caucasus": "القوقاز", "Denmark": "الدنمارك", "Bulgaria": "بلغاريا", "Fast food": "الوجبات السريعة", "Soft drinks": "المشروبات الغازية", "Southern China": "جنوب الصين", "Eastern Europe": "أوروبا الشرقية", "Iraq & Gulf": "العراق والخليج", "North Macedonia": "مقدونيا الشمالية", "Britain": "بريطانيا", "Albania": "ألبانيا", "Asia": "آسيا"}}</script><script>
+(function(){
+var L=document.documentElement.lang, U=JSON.parse(document.getElementById('cook-ui').textContent), D, sel=[], f={m:'',t:'',y:'',c:''};
+var $=function(i){return document.getElementById(i)}, box=$('chips'), inp=$('prod'), sug=$('sug'), out=$('res'), close=$('close');
+var nm=function(k){var g=D.g[k];return (g&&g.n&&(g.n[L]||g.n.en))||k.replace(/_/g,' ')};
+var norm=function(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ًͯ-ْ]/g,'')};
+var has=function(d,k){var w='_'+k+'_';return d.i.some(function(x){return x===k||('_'+x+'_').indexOf(w)>=0})};
+var swapOf=function(k){for(var i=0;i<D.s.length;i++)if(D.s[i].indexOf(k)>=0)return D.s[i].filter(function(x){return x!==k});return []};
+var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var href=function(u){return (L==='en'?'/':'/'+L+'/')+'dishes/'+u+'/'};
+var card=function(d,note){var n=d.n[L]||d.n.en;return '<a href="'+href(d.u)+'">'+(d.p?'<img class="th" src="'+d.p+'" width="56" height="56" alt="" loading="lazy">':'<span class="em">'+d.e+'</span>')+'<div>'+esc(n)+'<span>'+d.k+' '+esc(U.kcal)+(note?' · '+esc(note):'')+'</span></div></a>'};
+var okF=function(d){return (!f.m||d.m===f.m)&&(!f.t||d.t.indexOf(f.t)>=0)&&(!f.y||d.y===f.y)&&(!f.c||(f.c==='__med'?D.med.indexOf(d.c)>=0:d.c===f.c))};
+function render(){
+  [].forEach.call(document.querySelectorAll('#pop button'),function(b){b.classList.toggle('on',sel.indexOf(b.dataset.k)>=0)});
+  box.innerHTML=sel.map(function(k){return '<button type="button" class="pc on" data-k="'+k+'">'+esc(nm(k))+' ✕</button>'}).join('');
+  var st=new URLSearchParams();if(sel.length)st.set('p',sel.join(','));['m','t','y','c'].forEach(function(x){if(f[x])st.set(x,f[x])});
+  history.replaceState(null,'',location.pathname+(st.toString()?'?'+st:''));
+  if(!sel.length&&!f.m&&!f.t&&!f.y&&!f.c){out.innerHTML='<p class="note">'+esc(U.start)+'</p>';close.innerHTML='';$('cnt').textContent='';return}
+  var base=D.d.filter(okF), full=base.filter(function(d){return sel.every(function(k){return has(d,k)})});
+  $('cnt').textContent=full.length;
+  var lim=60;out.innerHTML=full.length?'<div class="related">'+full.slice(0,lim).map(function(d){return card(d)}).join('')+'</div>'+(full.length>lim?'<button type="button" class="pc more" id="more">'+esc(U.more)+' ('+(full.length-lim)+')</button>':''):'<p class="note">'+esc(U.none)+'</p>';
+  var mb=$('more');if(mb)mb.onclick=function(){out.querySelector('.related').innerHTML=full.map(function(d){return card(d)}).join('');mb.remove()};
+  var cl=[];
+  if(sel.length&&full.length<12){
+    var seen={};full.forEach(function(d){seen[d.u]=1});
+    sel.forEach(function(a){
+      var rest=sel.filter(function(x){return x!==a});
+      swapOf(a).forEach(function(b){base.forEach(function(d){if(!seen[d.u]&&has(d,b)&&rest.every(function(k){return has(d,k)})){seen[d.u]=1;cl.push([d,U.swap.replace('{a}',nm(a)).replace('{b}',nm(b))])}})});
+    });
+    if(sel.length>1)sel.forEach(function(a){var rest=sel.filter(function(x){return x!==a});base.forEach(function(d){if(!seen[d.u]&&rest.every(function(k){return has(d,k)})){seen[d.u]=1;cl.push([d,U.missing.replace('{a}',nm(a))])}})});
+  }
+  close.innerHTML=cl.length?'<h2>'+esc(U.close)+'</h2><div class="related">'+cl.slice(0,24).map(function(x){return card(x[0],x[1])}).join('')+'</div>':'';
+}
+function add(k){if(k&&sel.indexOf(k)<0)sel.push(k);inp.value='';sug.innerHTML='';render()}
+box.onclick=function(e){var b=e.target.closest('button');if(b){sel=sel.filter(function(x){return x!==b.dataset.k});render()}};
+$('pop').onclick=function(e){var b=e.target.closest('button');if(b)add(b.dataset.k)};
+inp.oninput=function(){var v=norm(inp.value.trim());if(!v){sug.innerHTML='';return}
+  var r=Object.keys(D.g).filter(function(k){var g=D.g[k];return norm(g.n[L]||'').indexOf(v)>=0||norm(g.n.en||'').indexOf(v)>=0||k.indexOf(v.replace(/ /g,'_'))>=0}).sort(function(a,b){var sc=function(k){var n=norm(D.g[k].n[L]||D.g[k].n.en||k);return (n===v?0:n.indexOf(v)===0&&k.indexOf('_')<0?1:n.indexOf(v)===0?2:3)};return sc(a)-sc(b)||D.g[b].c-D.g[a].c}).slice(0,10);
+  sug.innerHTML=r.map(function(k){return '<button type="button" class="pc" data-k="'+k+'">'+esc(nm(k))+' <small>'+D.g[k].c+'</small></button>'}).join('')};
+sug.onclick=function(e){var b=e.target.closest('button');if(b)add(b.dataset.k)};
+inp.onkeydown=function(e){if(e.key==='Enter'){e.preventDefault();var b=sug.querySelector('button');if(b)add(b.dataset.k)}};
+['m','t','y','c'].forEach(function(x){$('f'+x).onchange=function(){f[x]=this.value;render()}});
+$('reset').onclick=function(){sel=[];f={m:'',t:'',y:'',c:''};['m','t','y','c'].forEach(function(x){$('f'+x).value=''});render()};
+fetch('/dishes/cook.json').then(function(r){return r.json()}).then(function(j){D=j;
+  var q=new URLSearchParams(location.search);sel=(q.get('p')||'').split(',').filter(function(k){return D.g[k]});
+  ['m','t','y','c'].forEach(function(x){var v=q.get(x)||'';f[x]=v;$('f'+x).value=v});
+  var cs={};D.d.forEach(function(d){if(d.c)cs[d.c]=(cs[d.c]||0)+1});
+  var opts=Object.keys(cs).sort(function(a,b){return cs[b]-cs[a]});
+  $('fc').insertAdjacentHTML('beforeend','<option value="__med">'+esc(U.med)+'</option>'+opts.map(function(c){return '<option value="'+esc(c)+'">'+esc((U.cn&&U.cn[c])||c)+' ('+cs[c]+')</option>'}).join(''));
+  $('fc').value=f.c;render()});
+})();
+</script>
+<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dab6447bdaac4f67b7e2016c2698b9dd"}'></script><!-- End Cloudflare Web Analytics --><script defer src="/android.js"></script>
+</body>
+</html>
