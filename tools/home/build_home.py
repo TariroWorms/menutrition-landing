@@ -1,0 +1,179 @@
+#!/usr/bin/env python3
+"""Home page of menutrition.app — a nutrition portal (/, /ru/, /de/ …).
+
+The app landing page lives at /app/ (tools/build_langs.py). Texts: tools/home/home_i18n.json.
+Also writes sitemap-home.xml. Run after the dish/food builds (it reads dishes/cook.json and dish.css).
+"""
+import html
+import json
+import re
+import sys
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
+sys.path.insert(0, str(ROOT / 'tools'))
+sys.path.insert(0, str(ROOT / 'tools' / 'dishes'))
+from sitenav import sitenav, _pre, D5, FOODS, CALC  # noqa: E402
+from build_dishes import LANG_NAMES, RTL, GLOBE  # noqa: E402
+
+SITE = 'https://menutrition.app'
+HREFLANG = {'zh': 'zh-Hans'}
+CITE = json.load(open(ROOT / 'tools' / 'cite.json', encoding='utf-8'))
+POPULAR = ['kabsa', 'chicken-tikka-masala', 'pad-thai', 'greek-salad', 'tacos-al-pastor', 'shakshuka', 'paella-valenciana', 'tonkotsu-ramen']
+CUISINES = ['italian', 'japanese', 'mexican', 'indian', 'french', 'turkish', 'lebanese', 'thai', 'greek', 'chinese', 'spanish', 'korean']
+CHIPS = ['chicken', 'rice', 'egg', 'potato', 'beef', 'tomato', 'cheese', 'eggplant', 'shrimp', 'lentils', 'salmon', 'pasta']
+APP = 'https://apps.apple.com/app/id6767123368?pt=128869855&ct=home-{lang}&mt=8'
+esc = html.escape
+
+
+def home_url(lang):
+    return '/' if lang == 'en' else f'/{lang}/'
+
+
+CSS = '''<style>
+.hero{padding:34px 0 10px}.hero h1{font-size:clamp(32px,6vw,58px);line-height:1.06;margin:0}.hero h1 em{font-style:normal;color:var(--teal)}
+.hero p{font-size:18px;color:var(--muted);max-width:660px;margin:16px 0 0}
+.thesis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:26px 0}
+.thesis div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}.thesis b{display:block;font-size:16px}.thesis span{color:var(--muted);font-size:14px}
+.cookbox{background:linear-gradient(135deg,#e7f1ee,#f6efe2);border-radius:26px;padding:26px;margin:30px 0}
+.cookbox h2{margin:0 0 6px}.cookbox p{margin:0 0 14px;color:var(--muted)}
+.cookbox form{display:flex;gap:8px}.cookbox input{flex:1;min-width:0;padding:14px 18px;border-radius:999px;border:1px solid var(--line);font:inherit;background:#fff}
+.cookbox button{padding:14px 20px;border-radius:999px;border:0;background:#1f1b17;color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.pcs{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.pcs a{padding:7px 13px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin:14px 0 30px}
+.tile{display:block;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;text-decoration:none}
+.tile:hover{border-color:var(--teal)}.tile .ti{font-size:30px;display:block}.tile b{display:block;font-size:17px;margin-top:8px}.tile span:last-child{color:var(--muted);font-size:14px}
+.pop{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin:14px 0 30px}
+.pcard{text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}.pcard img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block}
+.pcard b{display:block;padding:10px 12px 0;font-size:15px}.pcard span{display:block;padding:2px 12px 12px;color:var(--muted);font-size:13px}
+.appb{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center;background:#1f1b17;color:#f8f6f1;border-radius:26px;padding:26px;margin:30px 0}
+.appb h2{margin:0;color:#fff}.appb p{color:#d8d2c6}.appb a.btn{display:inline-block;margin-top:10px;padding:12px 18px;border-radius:999px;background:#fff;color:#1f1b17;font-weight:800;text-decoration:none}
+.appb a.more{color:#9fd3c7;margin-inline-start:14px}.appb img{width:150px;height:auto;border-radius:22px}
+@media(max-width:600px){.appb{grid-template-columns:1fr}.appb img{display:none}.cookbox form{flex-direction:column}}
+</style>'''
+
+
+def build():
+    T = json.load(open(HERE / 'home_i18n.json', encoding='utf-8'))
+    langs = [l for l in ['en', 'de', 'es', 'fr', 'id', 'it', 'nl', 'pl', 'pt', 'sv', 'vi', 'tr', 'uk', 'ru', 'ar', 'he', 'hi',
+                         'th', 'zh', 'ja', 'ko', 'el'] if l in T]
+    cook = json.load(open(ROOT / 'dishes' / 'cook.json', encoding='utf-8'))
+    dishes = {d['u']: d for d in cook['d']}
+    photos = json.load(open(ROOT / 'tools' / 'dishes' / 'photos.json', encoding='utf-8'))
+    CU = json.load(open(ROOT / 'tools' / 'dishes' / 'cuisines.json', encoding='utf-8'))
+    n_foods = len(json.load(open(ROOT / 'tools' / 'foods' / 'foods_data.json', encoding='utf-8')))
+    style = re.search(r'<link rel="stylesheet" href="/dishes/dish\.css\?v=[^"]+" />',
+                      (ROOT / 'dishes' / 'index.html').read_text(encoding='utf-8')).group(0)
+    fmt = lambda n: f'{n:,}'.replace(',', ' ')
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{HREFLANG.get(l, l)}" href="{SITE}{home_url(l)}" />' for l in langs) \
+        + f'\n<link rel="alternate" hreflang="x-default" href="{SITE}/" />'
+    for lang in langs:
+        t = T[lang]
+        d5, fd, cl = _pre(lang, D5), _pre(lang, FOODS), _pre(lang, CALC)
+        app_page = '/app/' if lang == 'en' else f'/{lang}/app/'
+        tiles = [('🍽️', t['dishes'], t['dishes_d'].format(n=fmt(len(dishes))), d5 + 'dishes/'),
+                 ('🧊', t['cook'], t['cook_d'], d5 + 'dishes/cook/'),
+                 ('🥕', t['foods'], t['foods_d'].format(n=fmt(n_foods)), fd + 'foods/'),
+                 ('🥗', t['diets'], t['diets_d'], d5 + 'guides/#diets'),
+                 ('🌰', t['allergies'], t['allergies_d'], d5 + 'guides/#allergies'),
+                 ('🧮', t['calcs'], t['calcs_d'], cl + 'calculators/'),
+                 ('📉', t['plan'], t['plan_d'], cl + 'calculators/weight-loss-calculator/'),
+                 ('📱', t['app'], t['app_d'], app_page)]
+        tl = ''.join(f'<a class="tile" href="{h}"><span class="ti">{e}</span><b>{esc(a)}</b><span>{esc(b)}</span></a>' for e, a, b, h in tiles)
+        g = cook['g']
+        chips = ''.join(f'<a href="{d5}dishes/cook/?p={k}">{esc(g[k]["n"].get(lang) or g[k]["n"].get("en") or k)}</a>' for k in CHIPS if k in g)
+        cards = ''
+        for s in POPULAR:
+            if s in dishes and s in photos and photos[s].get('src'):
+                d, ph = dishes[s], photos[s]
+                dl = lang if lang in d['n'] else 'en'
+                href = (home_url(dl) if dl != 'en' else '/') + f'dishes/{s}/'
+                cards += (f'<a class="pcard" href="{href}"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
+                          f'sizes="(min-width:760px) 200px, 50vw" width="480" height="480" alt="{esc(d["n"][dl])}" loading="lazy">'
+                          f'<b>{esc(d["n"][dl])}</b><span>{d["k"]} {esc(t["kcal"])}</span></a>')
+        cus = ''
+        for s in CUISINES:
+            if s in CU:
+                cl_ = lang if lang in CU[s] else 'en'
+                name = CU[s][cl_]['name']
+                href = (home_url(cl_) if cl_ != 'en' else '/') + f'dishes/cuisine/{s}/'
+                cus += f'<a href="{href}">{CU[s].get("emoji", "")} {esc(name)}</a>'
+        jsonld = json.dumps([
+            {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'Me Nutrition', 'url': SITE + '/', 'inLanguage': lang,
+             'description': t['meta']},
+            {'@context': 'https://schema.org', '@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE + '/',
+             'logo': SITE + '/appicon.png', 'sameAs': ['https://apps.apple.com/app/id6767123368']}], ensure_ascii=False)
+        langmenu = ('<details class="langbox"><summary aria-label="Language">' + GLOBE + lang.upper() + '</summary><div class="lm">'
+                    + ''.join(f'<a href="{home_url(l)}" hreflang="{l}"{" class=\"on\"" if l == lang else ""}>{LANG_NAMES[l]}</a>' for l in langs)
+                    + '</div></details>')
+        page = f'''<!DOCTYPE html>
+<html lang="{lang}" dir="{'rtl' if lang in RTL else 'ltr'}">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-itunes-app" content="app-id=6767123368, affiliate-data=pt=128869855&amp;ct=banner-home" />
+<title>{esc(t['title'])}</title>
+<meta name="description" content="{esc(t['meta'])}" />
+<link rel="canonical" href="{SITE}{home_url(lang)}" />
+{hreflang}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Me Nutrition" />
+<meta property="og:title" content="{esc(t['title'])}" />
+<meta property="og:description" content="{esc(t['meta'])}" />
+<meta property="og:url" content="{SITE}{home_url(lang)}" />
+<meta property="og:image" content="{SITE}/og-cover.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+{style}
+{CSS}
+<script type="application/ld+json">{jsonld}</script>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="{home_url(lang)}"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav">{langmenu}<a class="dl" href="{APP.format(lang=lang)}" target="_blank" rel="noopener">{esc(t['app'])}</a></nav>
+</div></header>
+{sitenav(lang)}
+<main class="wrap">
+<section class="hero"><h1>{esc(t['h1a'])} <em>{esc(t['h1b'])}</em></h1><p>{esc(t['lead'])}</p></section>
+<div class="thesis"><div><b>{esc(t['t1'])}</b><span>{esc(t['t1d'])}</span></div><div><b>{esc(t['t2'])}</b><span>{esc(t['t2d'])}</span></div><div><b>{esc(t['t3'])}</b><span>{esc(t['t3d'])}</span></div></div>
+<section class="cookbox"><h2>🧊 {esc(t['cook_h'])}</h2><p>{esc(t['cook_p'])}</p>
+<form action="{d5}dishes/cook/" method="get"><input name="q" placeholder="{esc(t['cook_ph'])}" aria-label="{esc(t['cook_h'])}"><button type="submit">{esc(t['cook_btn'])}</button></form>
+<div class="pcs">{chips}</div></section>
+<h2>{esc(t['tools_h'])}</h2><div class="tiles">{tl}</div>
+<section class="appb" id="app"><div><h2>📱 {esc(t['app_h'])}</h2><p>{esc(t['app_p'])}</p>
+<a class="btn" href="{APP.format(lang=lang)}" target="_blank" rel="noopener">{esc(t['app_btn'])}</a><a class="more" href="{app_page}">{esc(t['app_more'])} →</a></div>
+<img src="/shots/lunch_intl.webp" alt="" width="150" height="300" loading="lazy"></section>
+<h2>{esc(t['pop_h'])}</h2><div class="pop">{cards}</div>
+<h2>{esc(t['cu_h'])}</h2><div class="pcs" style="margin-bottom:30px">{cus}</div>
+</main>
+<footer><div class="wrap">
+  <a href="{home_url(lang)}">Me Nutrition</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a>
+  <span class="langs">{''.join(f'<a href="{home_url(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs)}</span>
+  <p class="cite">{esc(CITE.get(lang, CITE['en']))}</p>
+</div></footer>
+<script>document.addEventListener("click",function(e){{var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false}});</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "dab6447bdaac4f67b7e2016c2698b9dd"}}'></script><!-- End Cloudflare Web Analytics --><script defer src="/android.js"></script>
+</body>
+</html>
+'''
+        p = ROOT / home_url(lang).strip('/') / 'index.html'
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(page, encoding='utf-8')
+    alts = ''.join(f'\n    <xhtml:link rel="alternate" hreflang="{HREFLANG.get(l, l)}" href="{SITE}{home_url(l)}"/>' for l in langs) \
+        + f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}/"/>'
+    import datetime
+    today = datetime.date.today().isoformat()
+    (ROOT / 'sitemap-home.xml').write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+        + ''.join(f'  <url>\n    <loc>{SITE}{home_url(l)}</loc>\n    <lastmod>{today}</lastmod>\n    <priority>1.0</priority>{alts}\n  </url>\n' for l in langs)
+        + '</urlset>\n', encoding='utf-8')
+    print('home pages:', len(langs))
+
+
+if __name__ == '__main__':
+    build()

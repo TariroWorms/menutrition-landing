@@ -86,7 +86,7 @@ def strip_tags(s):
 
 
 def page_url(lang):
-    return SITE if lang == 'en' else f'{SITE}{lang}/'
+    return f'{SITE}app/' if lang == 'en' else f'{SITE}{lang}/app/'
 
 
 def set_meta(src, attr, name, value):
@@ -141,14 +141,14 @@ def put_dishes(doc, lang):
 
 
 def main():
-    path = ROOT / 'index.html'
+    path = ROOT / 'app' / 'index.html'
     src = path.read_text(encoding='utf-8')
     i18n = json.loads((ROOT / 'i18n.json').read_text(encoding='utf-8'))   # all translations; index.html carries none
     langs = ['en'] + list(i18n)
 
     # hreflang block, shared by every page
     links = [f'<link rel="alternate" hreflang="{HREFLANG.get(l, l)}" href="{page_url(l)}" />' for l in langs]
-    links.append(f'<link rel="alternate" hreflang="x-default" href="{SITE}" />')
+    links.append(f'<link rel="alternate" hreflang="x-default" href="{SITE}app/" />')
     block = '<!-- hreflang:start (tools/build_langs.py) -->\n' + '\n'.join(links) + '\n<!-- hreflang:end -->'
     if '<!-- hreflang:start' in src:
         src = re.sub(r'<!-- hreflang:start.*?<!-- hreflang:end -->', lambda m: block, src, flags=re.S)
@@ -193,13 +193,13 @@ def main():
         doc = set_meta(doc, 'property', 'og:url', page_url(lang))
         doc = set_meta(doc, 'name', 'twitter:title', og_title)
         doc = set_meta(doc, 'name', 'twitter:description', hero_p)
-        doc = doc.replace(f'<link rel="canonical" href="{SITE}" />',
+        doc = doc.replace(f'<link rel="canonical" href="{SITE}app/" />',
                           f'<link rel="canonical" href="{page_url(lang)}" />', 1)
         # the page lives one folder down: shared images are one level up
         doc = re.sub(r'''(["'(])(shots|badges)/''', r'\1../\2/', doc)
 
-        d = ROOT / lang
-        d.mkdir(exist_ok=True)
+        d = ROOT / lang / 'app'
+        d.mkdir(parents=True, exist_ok=True)
         (d / 'index.html').write_text(doc, encoding='utf-8')
         print(f'{lang}/index.html  {len(doc.encode()) // 1024} KB  {title}')
 
@@ -210,7 +210,7 @@ def write_sitemap(langs):
     """sitemap.xml: every language page with its hreflang alternates, plus /privacy and /terms."""
     today = datetime.date.today().isoformat()
     alts = ''.join(f'\n    <xhtml:link rel="alternate" hreflang="{HREFLANG.get(l, l)}" href="{page_url(l)}"/>' for l in langs)
-    alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}"/>'
+    alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}app/"/>'
     urls = [f'  <url>\n    <loc>{page_url(l)}</loc>\n    <lastmod>{today}</lastmod>'
             f'\n    <priority>{"1.0" if l == "en" else "0.9"}</priority>{alts}\n  </url>' for l in langs]
     urls += [f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>\n    <priority>0.3</priority>\n  </url>'

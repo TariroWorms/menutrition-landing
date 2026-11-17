@@ -250,6 +250,9 @@ inp.onkeydown=function(e){if(e.key==='Enter'){e.preventDefault();var b=sug.query
 $('reset').onclick=function(){sel=[];f={m:'',t:'',y:'',c:''};['m','t','y','c'].forEach(function(x){$('f'+x).value=''});render()};
 fetch('/dishes/cook.json').then(function(r){return r.json()}).then(function(j){D=j;
   var q=new URLSearchParams(location.search);sel=(q.get('p')||'').split(',').filter(function(k){return D.g[k]});
+  (q.get('q')||'').split(/[,;]+|\s+и\s+|\s+and\s+/).forEach(function(w){w=norm(w.trim());if(!w)return;
+    var best=null,bs=9;Object.keys(D.g).forEach(function(k){var g=D.g[k],a=norm(g.n[L]||''),b=norm(g.n.en||''),s=(a===w||b===w)?0:((a.indexOf(w)===0||b.indexOf(w)===0)&&k.indexOf('_')<0)?1:(a.indexOf(w)===0||b.indexOf(w)===0)?2:9;
+      if(s<bs||(s===bs&&best&&g.c>D.g[best].c)){bs=s;best=k}});if(best&&bs<9&&sel.indexOf(best)<0)sel.push(best)});
   ['m','t','y','c'].forEach(function(x){var v=q.get(x)||'';f[x]=v;$('f'+x).value=v});
   var cs={};D.d.forEach(function(d){if(d.c)cs[d.c]=(cs[d.c]||0)+1});
   var opts=Object.keys(cs).sort(function(a,b){return cs[b]-cs[a]});

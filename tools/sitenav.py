@@ -46,7 +46,7 @@ def sitenav(lang):
         (_pre(lang, D5) + 'guides/#allergies', L[4]),
         (_pre(lang, CALC) + 'calculators/', L[5]),
         (_pre(lang, CALC) + 'calculators/weight-loss-calculator/', L[6]),
-        ('/' if lang == 'en' else f'/{lang}/', L[7]),
+        ('/app/' if lang == 'en' or lang == 'el' else f'/{lang}/app/', L[7]),
     ]
     import html
     return '<nav class="snav" aria-label="Sections"><div class="wrap">' + ''.join(
