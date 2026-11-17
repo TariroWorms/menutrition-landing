@@ -36,7 +36,7 @@ def _pre(lang, have):
     return '/' if lang == 'en' or lang not in have else f'/{lang}/'
 
 
-def sitenav(lang):
+def sitenav(lang, here=''):
     L = LABELS.get(lang, LABELS['en'])
     links = [
         (_pre(lang, D5) + 'dishes/', L[0]),
@@ -49,8 +49,13 @@ def sitenav(lang):
         ('/app/' if lang == 'en' or lang == 'el' else f'/{lang}/app/', L[7]),
     ]
     import html
+    paths = [h.split('#')[0] for h, _ in links]
+    best = max((p for p in paths if here.startswith(p) and p not in ('/', f'/{lang}/')), key=len, default=None)
+    if best and best.endswith('/dishes/') and '/guides/' in here:
+        best = None
     return '<nav class="snav" aria-label="Sections"><div class="wrap">' + ''.join(
-        f'<a href="{h}">{html.escape(t)}</a>' for h, t in links) + '</div></nav>'
+        f'<a href="{h}"{" class=\"on\" aria-current=\"page\"" if best and h.split("#")[0] == best and "#allergies" not in h else ""}>{html.escape(t)}</a>'
+        for h, t in links) + '</div></nav>'
 
 
 CSS = ('.snav{border-bottom:1px solid var(--line);background:var(--bg,#f8f6f1)}'

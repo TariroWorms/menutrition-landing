@@ -81,7 +81,8 @@ def fill(template, values):
     if '\x00SNAV\x00' in out:
         from sitenav import sitenav
         lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
-        out = out.replace('\x00SNAV\x00', sitenav(lang))
+        can = re.search(r'<link rel="canonical" href="https://menutrition\.app([^"]*)"', out)
+        out = out.replace('\x00SNAV\x00', sitenav(lang, can.group(1) if can else ''))
     if '\x00CITE\x00' in out:
         lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
         out = out.replace('\x00CITE\x00', esc(CITE.get(lang, CITE['en'])))
