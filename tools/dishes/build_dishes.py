@@ -83,6 +83,12 @@ def fill(template, values):
         lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
         can = re.search(r'<link rel="canonical" href="https://menutrition\.app([^"]*)"', out)
         out = out.replace('\x00SNAV\x00', sitenav(lang, can.group(1) if can else ''))
+    # footer: the language list becomes a compact pop-up menu (opens upward); hreflang in <head> keeps SEO
+    m = re.search(r'<span class="langs">(.*?)</span>', out, re.S)
+    if m and m.group(1).count('<a ') > 1:
+        lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
+        out = out[:m.start()] + ('<details class="langbox up"><summary aria-label="Language">' + GLOBE
+                                 + LANG_NAMES.get(lang, lang) + '</summary><div class="lm">' + m.group(1) + '</div></details>') + out[m.end():]
     if '\x00CITE\x00' in out:
         lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
         out = out.replace('\x00CITE\x00', esc(CITE.get(lang, CITE['en'])))

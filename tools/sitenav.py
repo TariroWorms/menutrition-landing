@@ -46,7 +46,7 @@ def sitenav(lang, here=''):
         (_pre(lang, D5) + 'guides/#diets', L[3]),
         (_pre(lang, D5) + 'guides/#allergies', L[4]),
         (_pre(lang, CALC) + 'calculators/', L[5]),
-        (_pre(lang, CALC) + 'calculators/weight-loss-calculator/', L[6]),
+        (('/' if lang == 'en' else f'/{lang}/') + 'weight-loss-plan/', L[6]),
     ]
     import html
     paths = [h.split('#')[0] for h, _ in links]

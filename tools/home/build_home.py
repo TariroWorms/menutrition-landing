@@ -79,7 +79,7 @@ def build():
                  ('🥗', t['diets'], t['diets_d'], d5 + 'guides/#diets'),
                  ('🌰', t['allergies'], t['allergies_d'], d5 + 'guides/#allergies'),
                  ('🧮', t['calcs'], t['calcs_d'], cl + 'calculators/'),
-                 ('📉', t['plan'], t['plan_d'], cl + 'calculators/weight-loss-calculator/')]
+                 ('📉', t['plan'], t['plan_d'], home_url(lang) + 'weight-loss-plan/')]
         tl = ''.join(f'<a class="tile" href="{h}"><span class="ti">{e}</span><b>{esc(a)}</b><span>{esc(b)}</span></a>' for e, a, b, h in tiles)
         g = cook['g']
         chips = ''.join(f'<a href="{d5}dishes/cook/?p={k}">{esc(g[k]["n"].get(lang) or g[k]["n"].get("en") or k)}</a>' for k in CHIPS if k in g)
@@ -153,10 +153,10 @@ def build():
 </main>
 <footer><div class="wrap">
   <a href="{home_url(lang)}">Me Nutrition</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a>
-  <span class="langs">{''.join(f'<a href="{home_url(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs)}</span>
+  <details class="langbox up"><summary aria-label="Language">{GLOBE}{LANG_NAMES[lang]}</summary><div class="lm">{''.join(f'<a href="{home_url(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs)}</div></details>
   <p class="cite">{esc(CITE.get(lang, CITE['en']))}</p>
 </div></footer>
-<script>document.addEventListener("click",function(e){{var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false}});</script>
+<script>document.addEventListener("click",function(e){{document.querySelectorAll(".langbox").forEach(function(d){if(d.open&&!d.contains(e.target))d.open=false})}});</script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "dab6447bdaac4f67b7e2016c2698b9dd"}}'></script><!-- End Cloudflare Web Analytics --><script defer src="/android.js"></script>
 </body>
 </html>

@@ -96,7 +96,7 @@ main h1,main .intro{overflow-wrap:anywhere}
   });
 })();
 </script>
-<script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
+<script>document.addEventListener("click",function(e){document.querySelectorAll(".langbox").forEach(function(d){if(d.open&&!d.contains(e.target))d.open=false})});</script>
 <script>if(document.documentElement.classList.contains('embed')){var mnPost=function(){parent.postMessage({mnHeight:document.documentElement.scrollHeight},'*')};addEventListener('load',mnPost);if(window.ResizeObserver)new ResizeObserver(mnPost).observe(document.body)}</script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dab6447bdaac4f67b7e2016c2698b9dd"}'></script><!-- End Cloudflare Web Analytics --><script defer src="/android.js"></script>
 </body>
