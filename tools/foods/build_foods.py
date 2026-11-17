@@ -133,6 +133,14 @@ class Builder:
                    f'alt="{esc(f["names"][lang])}" fetchpriority="high" decoding="async">'
                    f'<figcaption><a href="{esc(ph["page"])}" rel="noopener" target="_blank">Open Food Facts</a>, '
                    f'<a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license noopener" target="_blank">CC BY-SA</a></figcaption></figure>')
+        elif ph and ph.get('license'):  # Wikimedia/Flickr photo via Openverse: CC licence, author credit required
+            lic = ('CC0' if ph['license'] == 'cc0' else 'Public domain' if ph['license'] == 'pdm'
+                   else f"CC {ph['license'].upper()} {ph.get('license_version', '')}".strip())
+            pic = (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
+                   f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
+                   f'alt="{esc(f["names"][lang])}" fetchpriority="high" decoding="async">'
+                   f'<figcaption>© <a href="{esc(ph["page"])}" rel="noopener" target="_blank">{esc(ph.get("author") or "author")}</a>, '
+                   f'<a href="{esc(ph.get("license_url") or "https://creativecommons.org/")}" rel="license noopener" target="_blank">{esc(lic)}</a></figcaption></figure>')
         elif ph:
             pic = (f'<figure class="dphoto"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
                    f'sizes="(min-width:760px) 240px, (min-width:520px) 480px, 100vw" width="480" height="480" '
