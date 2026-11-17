@@ -63,14 +63,23 @@ def lang_menu(lang, langs, href):
     return f'<details class="langbox"><summary aria-label="Language">{GLOBE}{lang.upper()}</summary><div class="lm">{items}</div></details>'
 
 
+CITE = json.load(open(Path(__file__).resolve().parent.parent / "cite.json", encoding="utf-8"))
+
+
 def fill(template, values):
     """{{key}} and {{ui.key}} placeholders; values are already HTML."""
     def rep(m):
         key = m.group(1)
+        if key == 'cite' and key not in values:
+            return '\x00CITE\x00'
         if key not in values:
             raise KeyError(f'template placeholder {{{{{key}}}}} has no value')
         return str(values[key])
-    return re.sub(r'\{\{([\w.]+)\}\}', rep, template)
+    out = re.sub(r'\{\{([\w.]+)\}\}', rep, template)
+    if '\x00CITE\x00' in out:
+        lang = (re.search(r'<html lang="([\w-]+)"', out) or [None, 'en'])[1]
+        out = out.replace('\x00CITE\x00', esc(CITE.get(lang, CITE['en'])))
+    return out
 
 
 # dish page labels / allergens -> diet & allergy guide (/guides/<slug>/), linked when the guide exists in that language
@@ -252,6 +261,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     if ph:
         jsonld = {
             '@context': 'https://schema.org', '@type': 'Recipe', 'name': t['name'], 'description': t['intro'],
+            'copyrightHolder': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE}, 'creditText': 'Me Nutrition (menutrition.app)', 'usageInfo': SITE + '/terms#citation', 
             'inLanguage': lang, 'url': url, 'recipeCuisine': t['origin'], 'recipeYield': str(r['servings']),
             'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': [x[:200] for x in r['ingredients']],
             'recipeInstructions': [{'@type': 'HowToStep', 'text': s} for s in r['steps']],
@@ -318,7 +328,10 @@ def index_page(lang, items, ui, langs, db, template):
     top, rest = order[:16], order[16:]
     countries = ''.join(chip(k) for k in top)
     if rest:
-        countries += f'<details><summary>{esc(U["more_countries"])} · {len(order)}</summary>' + ''.join(chip(k) for k in sorted(rest, key=label)) + '</details>'
+        countries += (f'<button type="button" class="morec" aria-expanded="false" '
+                      f'onclick="var r=this.nextElementSibling;r.hidden=!r.hidden;this.setAttribute(\'aria-expanded\',!r.hidden)">'
+                      f'{esc(U["more_countries"])} · {len(order)}</button>'
+                      f'<div class="restc" hidden>' + ''.join(chip(k) for k in sorted(rest, key=label)) + '</div>')
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l)}" />' for l in langs)
     explore = ''.join(f'<a href="{href}">{esc(txt)}</a>' for href, txt in (
         (('/' if lang == 'en' else f'/{lang}/') + 'foods/', EXPLORE[lang][2]),

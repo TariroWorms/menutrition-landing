@@ -107,7 +107,7 @@ footer a{text-decoration:none}
 .countries a{padding:6px 12px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap}
 .countries a:hover{border-color:var(--teal);color:var(--teal)}
 .countries a small{color:var(--muted);font-weight:600;margin-inline-start:4px}
-.countries details{display:contents}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
+.countries .morec{font:inherit;cursor:pointer;padding:6px 12px;border-radius:999px;border:0;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}.countries .restc{display:flex;flex-wrap:wrap;gap:8px;width:100%}.countries .restc[hidden]{display:none}footer .cite{width:100%;margin:10px 0 0;font-size:12px;color:var(--muted)}.countries summary{list-style:none;cursor:pointer;padding:6px 12px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-size:14px;font-weight:700}
 .countries summary::-webkit-details-marker{display:none}
 .group h2{scroll-margin-top:80px}.group h2 small{font-family:Manrope,system-ui,sans-serif;font-size:14px;color:var(--muted);font-weight:600;margin-inline-start:8px}
 .empty{color:var(--muted);margin-top:28px}
@@ -206,6 +206,7 @@ footer a{text-decoration:none}
 <footer><div class="wrap">
   <a href="{{home}}">{{ui.home}}</a><a href="/privacy">{{ui.privacy}}</a><a href="/terms">{{ui.terms}}</a>
   <span class="langs">{{langs}}</span>
+  <p class="cite">{{cite}}</p>
 </div></footer>
 <script>document.addEventListener("click",function(e){var d=document.querySelector(".langbox");if(d&&d.open&&!d.contains(e.target))d.open=false});</script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dab6447bdaac4f67b7e2016c2698b9dd"}'></script><!-- End Cloudflare Web Analytics --><script defer src="/android.js"></script>

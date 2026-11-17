@@ -120,7 +120,7 @@ class Builder:
         if 'sodium_mg' in f:
             n['sodiumContent'] = f'{round(f["sodium_mg"])} mg'
         data = {'@context': 'https://schema.org', '@type': 'MenuItem', 'name': name, 'description': desc, 'url': SITE + url,
-                'inLanguage': lang, 'nutrition': n,
+                'inLanguage': lang, 'nutrition': n, 'copyrightHolder': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE}, 'creditText': 'Me Nutrition (menutrition.app)', 'usageInfo': SITE + '/terms#citation', 
                 'isBasedOn': {'@type': 'CreativeWork', 'name': self.S[lang][SRC_KEY[f['src']]], 'url': SRC_URL[f['src']]}}
         return '<script type="application/ld+json">' + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '</script>'
 
