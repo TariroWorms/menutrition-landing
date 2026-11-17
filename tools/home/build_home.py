@@ -72,14 +72,14 @@ def build():
         t = T[lang]
         d5, fd, cl = _pre(lang, D5), _pre(lang, FOODS), _pre(lang, CALC)
         app_page = '/app/' if lang == 'en' else f'/{lang}/app/'
-        tiles = [('🍽️', t['dishes'], t['dishes_d'].format(n=fmt(len(dishes))), d5 + 'dishes/'),
+        tiles = [('📱', t['app'], t['app_d'], app_page),
+                 ('🍽️', t['dishes'], t['dishes_d'].format(n=fmt(len(dishes))), d5 + 'dishes/'),
                  ('🧊', t['cook'], t['cook_d'], d5 + 'dishes/cook/'),
                  ('🥕', t['foods'], t['foods_d'].format(n=fmt(n_foods)), fd + 'foods/'),
                  ('🥗', t['diets'], t['diets_d'], d5 + 'guides/#diets'),
                  ('🌰', t['allergies'], t['allergies_d'], d5 + 'guides/#allergies'),
                  ('🧮', t['calcs'], t['calcs_d'], cl + 'calculators/'),
-                 ('📉', t['plan'], t['plan_d'], cl + 'calculators/weight-loss-calculator/'),
-                 ('📱', t['app'], t['app_d'], app_page)]
+                 ('📉', t['plan'], t['plan_d'], cl + 'calculators/weight-loss-calculator/')]
         tl = ''.join(f'<a class="tile" href="{h}"><span class="ti">{e}</span><b>{esc(a)}</b><span>{esc(b)}</span></a>' for e, a, b, h in tiles)
         g = cook['g']
         chips = ''.join(f'<a href="{d5}dishes/cook/?p={k}">{esc(g[k]["n"].get(lang) or g[k]["n"].get("en") or k)}</a>' for k in CHIPS if k in g)
@@ -140,14 +140,14 @@ def build():
 {sitenav(lang)}
 <main class="wrap">
 <section class="hero"><h1>{esc(t['h1a'])} <em>{esc(t['h1b'])}</em></h1><p>{esc(t['lead'])}</p></section>
+<section class="appb" id="app"><div><h2>📱 {esc(t['app_h'])}</h2><p>{esc(t['app_p'])}</p>
+<a class="btn" href="{APP.format(lang=lang)}" target="_blank" rel="noopener">{esc(t['app_btn'])}</a><a class="more" href="{app_page}">{esc(t['app_more'])} →</a></div>
+<img src="/shots/lunch_intl.webp" alt="" width="150" height="300" loading="lazy"></section>
 <div class="thesis"><div><b>{esc(t['t1'])}</b><span>{esc(t['t1d'])}</span></div><div><b>{esc(t['t2'])}</b><span>{esc(t['t2d'])}</span></div><div><b>{esc(t['t3'])}</b><span>{esc(t['t3d'])}</span></div></div>
 <section class="cookbox"><h2>🧊 {esc(t['cook_h'])}</h2><p>{esc(t['cook_p'])}</p>
 <form action="{d5}dishes/cook/" method="get"><input name="q" placeholder="{esc(t['cook_ph'])}" aria-label="{esc(t['cook_h'])}"><button type="submit">{esc(t['cook_btn'])}</button></form>
 <div class="pcs">{chips}</div></section>
 <h2>{esc(t['tools_h'])}</h2><div class="tiles">{tl}</div>
-<section class="appb" id="app"><div><h2>📱 {esc(t['app_h'])}</h2><p>{esc(t['app_p'])}</p>
-<a class="btn" href="{APP.format(lang=lang)}" target="_blank" rel="noopener">{esc(t['app_btn'])}</a><a class="more" href="{app_page}">{esc(t['app_more'])} →</a></div>
-<img src="/shots/lunch_intl.webp" alt="" width="150" height="300" loading="lazy"></section>
 <h2>{esc(t['pop_h'])}</h2><div class="pop">{cards}</div>
 <h2>{esc(t['cu_h'])}</h2><div class="pcs" style="margin-bottom:30px">{cus}</div>
 </main>

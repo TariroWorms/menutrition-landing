@@ -39,6 +39,7 @@ def _pre(lang, have):
 def sitenav(lang, here=''):
     L = LABELS.get(lang, LABELS['en'])
     links = [
+        ('/app/' if lang == 'en' or lang == 'el' else f'/{lang}/app/', L[7]),
         (_pre(lang, D5) + 'dishes/', L[0]),
         (_pre(lang, D5) + 'dishes/cook/', L[1]),
         (_pre(lang, FOODS) + 'foods/', L[2]),
@@ -46,7 +47,6 @@ def sitenav(lang, here=''):
         (_pre(lang, D5) + 'guides/#allergies', L[4]),
         (_pre(lang, CALC) + 'calculators/', L[5]),
         (_pre(lang, CALC) + 'calculators/weight-loss-calculator/', L[6]),
-        ('/app/' if lang == 'en' or lang == 'el' else f'/{lang}/app/', L[7]),
     ]
     import html
     paths = [h.split('#')[0] for h, _ in links]
@@ -55,11 +55,28 @@ def sitenav(lang, here=''):
         best = None
     return '<nav class="snav" aria-label="Sections"><div class="wrap">' + ''.join(
         f'<a href="{h}"{" class=\"on\" aria-current=\"page\"" if best and h.split("#")[0] == best and "#allergies" not in h else ""}>{html.escape(t)}</a>'
-        for h, t in links) + '</div></nav>'
+        for h, t in links) + '</div></nav>' + SCROLL
 
 
 CSS = ('.snav{border-bottom:1px solid var(--line);background:var(--bg,#f8f6f1)}'
        '.snav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:6px;padding-bottom:6px;-webkit-overflow-scrolling:touch}'
        '.snav .wrap::-webkit-scrollbar{display:none}'
        '.snav a{flex:none;padding:7px 12px;border-radius:999px;font-size:14px;font-weight:700;text-decoration:none;color:inherit;white-space:nowrap}'
-       '.snav a:hover,.snav a.on{background:var(--teal-soft);color:var(--teal)}')
+       '.snav a:hover,.snav a.on{background:var(--teal-soft);color:var(--teal)}'
+       '.scrb{position:fixed;right:16px;bottom:20px;z-index:60;display:flex;flex-direction:column;gap:8px;opacity:0;pointer-events:none;transition:opacity .3s}'
+       '.scrb.on{opacity:1;pointer-events:auto}'
+       '.scrb button{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.92);'
+       'box-shadow:0 6px 18px rgba(39,35,32,.18);font:700 20px/1 system-ui,sans-serif;color:#1f1b17;cursor:pointer}'
+       '[dir=rtl] .scrb{right:auto;left:16px}')
+
+
+# floating "to top / to bottom" buttons: shown while the page scrolls, fade out after 2 s
+SCROLL = ('<div class="scrb" id="scrb" aria-hidden="true"><button type="button" data-d="-1" aria-label="Top">↑</button>'
+          '<button type="button" data-d="1" aria-label="Bottom">↓</button></div>'
+          '<script>(function(){var b=document.getElementById("scrb"),t;if(!b)return;'
+          'function u(){var y=scrollY,h=document.documentElement.scrollHeight-innerHeight;'
+          'if(h<innerHeight*1.5){b.classList.remove("on");return}'
+          'b.children[0].style.visibility=y>200?"":"hidden";b.children[1].style.visibility=y<h-200?"":"hidden";'
+          'b.classList.add("on");clearTimeout(t);t=setTimeout(function(){b.classList.remove("on")},2000)}'
+          'addEventListener("scroll",u,{passive:true});'
+          'b.onclick=function(e){var d=e.target.dataset.d;if(d)scrollTo({top:d<0?0:document.documentElement.scrollHeight,behavior:"smooth"})}})();</script>')
