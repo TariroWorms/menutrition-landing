@@ -104,7 +104,7 @@ def press():
   <section class="fsec"><h2>Key facts</h2><ul class="mlist">
     <li><b>Name:</b> Me Nutrition</li>
     <li><b>Platform:</b> iPhone (App Store). Android: a waiting list is open at <a href="/#android-waitlist">menutrition.app</a>.</li>
-    <li><b>Price:</b> 3 days free, then a subscription that can be cancelled any time in App Store settings.</li>
+    <li><b>Price:</b> free to download; optional subscription that can be cancelled any time in App Store settings.</li>
     <li><b>Languages:</b> 22 (the website is available in the same languages).</li>
     <li><b>What it counts:</b> calories, protein, fat, carbs, plus vitamins, minerals, sugar and salt.</li>
     <li><b>Ways to log:</b> photo, voice, text, barcode, menu scan.</li>
