@@ -589,6 +589,16 @@ def main():
     a = ap.parse_args()
     out = Path(a.out)
     db = load_db(a.db)
+    # site-side extra dishes (same format as the app database; to be handed over to the app later)
+    extra = 0
+    for f in sorted((HERE / 'extra' / 'db').glob('*.json')):
+        e = json.load(open(f, encoding='utf-8'))
+        k = e.pop('db_key', f.stem)
+        if k not in db['dishes']:
+            db['dishes'][k] = e
+            extra += 1
+    if extra:
+        print('extra dishes from tools/dishes/extra/db:', extra)
     ui = json.load(open(HERE / 'ui.json', encoding='utf-8'))
     template = (HERE / 'template.html').read_text(encoding='utf-8')
     style_block = re.search(r'<style>.*?</style>', template, re.S).group(0)
@@ -616,6 +626,9 @@ def main():
     METHOD_LINK = {l: M[l]['link'] for l in M}
     NAMES.update(json.load(open(HERE / 'ingredient_names.json', encoding='utf-8'))
                  if (HERE / 'ingredient_names.json').exists() else {})
+    if (HERE / 'extra' / 'ingredient_names.json').exists():
+        for k, v in json.load(open(HERE / 'extra' / 'ingredient_names.json', encoding='utf-8')).items():
+            NAMES.setdefault(k, {}).update({l: t for l, t in v.items() if l not in NAMES.get(k, {})})
     dup = json.load(open(HERE / 'duplicates.json', encoding='utf-8'))
     contents, skipped = {}, []
     for f in sorted((HERE / 'content').glob('*.json')):
