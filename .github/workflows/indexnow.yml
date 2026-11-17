@@ -53,7 +53,16 @@ jobs:
               return site + '/' + (f[:-len('index.html')] if f.endswith('index.html') else f)
           want = {f: hashlib.sha256(open(f, 'rb').read()).hexdigest() for f in sample}
           print(len(files), 'changed files; waiting for', sample)
+          head = os.environ.get('GITHUB_SHA', '')
+          def superseded():
+              # a newer push to main replaces these pages with its own version, so they will never match this checkout
+              r = subprocess.run(['git', 'ls-remote', 'origin', 'refs/heads/main'], capture_output=True, text=True)
+              tip = r.stdout.split()[0] if r.returncode == 0 and r.stdout.strip() else head
+              return bool(head) and tip != head
           for i in range(200):
+              if i and i % 4 == 0 and superseded():
+                  print('a newer push to main replaced this one: submitting the URLs without waiting')
+                  sys.exit(0)
               pending = []
               for f in sample:
                   try:
