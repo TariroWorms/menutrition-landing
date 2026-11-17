@@ -290,7 +290,8 @@ def cook_page(lang, ui, langs, dish_count, ingredients, country_label, values_co
             f'{sel("y", T["type"], [(k, T["y"][k]) for k in ["main", "soup", "salad", "snack", "breakfast", "side", "bread", "dessert", "drink"]])}'
             f'{sel("c", T["cuisine"], [])}</div>'
             f'<div class="bar"><h2>{esc(T["found"])}<small id="cnt"></small></h2><button type="button" class="pc" id="reset">{esc(T["reset"])}</button></div>'
-            f'<div id="res"><noscript>{esc(T["start"])}</noscript></div><div id="close"></div></div>')
+            f'<div id="res"><noscript>{esc(T["start"])}</noscript></div><div id="close"></div>'
+            f'<p class="note"><a href="{path(lang, "with")}">{esc(WITH_UI[lang]["hub"])} →</a></p></div>')
     js_ui = {k: T[k] for k in ('kcal', 'none', 'close', 'swap', 'missing', 'more', 'start', 'med')}
     js_ui['cn'] = country_label(lang)
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, "cook")}" />' for l in langs)
@@ -300,3 +301,86 @@ def cook_page(lang, ui, langs, dish_count, ingredients, country_label, values_co
               'script': ('<style>' + CSS + '</style><script type="application/json" id="cook-ui">'
                          + json.dumps(js_ui, ensure_ascii=False).replace('</', '<\\/') + '</script><script>' + COOK_JS + '</script>')})
     return fill(template, v)
+
+
+# ---- "Dishes with X" landing pages: /dishes/with/<product>/ (SEO for "chicken recipes", "блюда из курицы") ----
+WITH_UI = {
+    'en': {'title': '{x} recipes: {n} dishes with {x_l} and their calories', 'meta': '{n} dishes with {x_l} from around the world — calories per 100 g, protein and photos. Pick by cuisine, cooking method and taste.',
+           'h1': 'Dishes with {x_l}', 'intro': '{n} dishes from {c} countries that use {x_l}. Tap a dish for calories, macros and a home recipe, or combine {x_l} with other products.',
+           'combine': 'Combine {x_l} with other products →', 'hub': 'Dishes by product', 'hub_h1': 'Dishes by product: what to cook from what you have',
+           'hub_meta': 'Find dishes by main product: chicken, rice, eggs, potatoes, beef and more — with calories and photos.', 'more_p': 'More products'},
+    'ru': {'title': 'Блюда из {x_g}: рецепты с калориями ({n})', 'meta': 'Блюда с продуктом «{x}» со всего мира ({n}) — калории на 100 г, белок и фото. Подбор по кухне, способу приготовления и вкусу.',
+           'h1': 'Блюда с продуктом «{x}»', 'intro': 'Блюда, где есть «{x_l}»: {n}, из стран: {c}. Откройте блюдо, чтобы увидеть калории, БЖУ и домашний рецепт, или подберите сочетание с другими продуктами.',
+           'combine': 'Подобрать с другими продуктами →', 'hub': 'Блюда по продуктам', 'hub_h1': 'Блюда по продуктам: что приготовить из того, что есть',
+           'hub_meta': 'Блюда по главному продукту: курица, рис, яйца, картофель, говядина и другие — с калориями и фото.', 'more_p': 'Другие продукты'},
+    'it': {'title': 'Ricette con {x_l}: {n} piatti con calorie', 'meta': '{n} piatti con {x_l} da tutto il mondo — calorie per 100 g, proteine e foto. Scegli per cucina, cottura e gusto.',
+           'h1': 'Piatti con {x_l}', 'intro': '{n} piatti da {c} paesi con {x_l}. Apri un piatto per calorie, macro e ricetta, oppure abbina {x_l} ad altri ingredienti.',
+           'combine': 'Abbina {x_l} ad altri ingredienti →', 'hub': 'Piatti per ingrediente', 'hub_h1': 'Piatti per ingrediente: cosa cucinare con quello che hai',
+           'hub_meta': 'Trova piatti per ingrediente principale: pollo, riso, uova, patate, manzo e altro — con calorie e foto.', 'more_p': 'Altri ingredienti'},
+    'el': {'title': 'Συνταγές με {x_l}: {n} πιάτα με θερμίδες', 'meta': '{n} πιάτα με {x_l} απ’ όλο τον κόσμο — θερμίδες ανά 100 g, πρωτεΐνη και φωτογραφίες. Επιλογή ανά κουζίνα, μαγείρεμα και γεύση.',
+           'h1': 'Πιάτα με {x_l}', 'intro': '{n} πιάτα από {c} χώρες με {x_l}. Άνοιξε ένα πιάτο για θερμίδες, μακροθρεπτικά και συνταγή ή συνδύασε με άλλα υλικά.',
+           'combine': 'Συνδύασε με άλλα υλικά →', 'hub': 'Πιάτα ανά υλικό', 'hub_h1': 'Πιάτα ανά υλικό: τι να μαγειρέψω με ό,τι έχω',
+           'hub_meta': 'Βρες πιάτα ανά κύριο υλικό: κοτόπουλο, ρύζι, αυγά, πατάτες, μοσχάρι και άλλα — με θερμίδες και φωτογραφίες.', 'more_p': 'Άλλα υλικά'},
+    'ar': {'title': 'وصفات {x_l}: {n} طبقًا مع السعرات', 'meta': '{n} طبقًا يحتوي على {x_l} من حول العالم — السعرات لكل 100 غ والبروتين والصور. اختر حسب المطبخ وطريقة الطهي والطعم.',
+           'h1': 'أطباق تحتوي على {x_l}', 'intro': '{n} طبقًا من {c} دولة تحتوي على {x_l}. افتح الطبق لمعرفة السعرات والعناصر الغذائية والوصفة، أو اجمع {x_l} مع مكونات أخرى.',
+           'combine': 'اجمع مع مكونات أخرى ←', 'hub': 'الأطباق حسب المكوّن', 'hub_h1': 'الأطباق حسب المكوّن: ماذا أطبخ مما لدي',
+           'hub_meta': 'ابحث عن الأطباق حسب المكوّن الرئيسي: دجاج، أرز، بيض، بطاطس، لحم بقري وغيرها — مع السعرات والصور.', 'more_p': 'مكونات أخرى'},
+}
+RU_GEN = {'курица': 'курицы', 'рис': 'риса', 'яйцо': 'яиц', 'яйца': 'яиц', 'картофель': 'картофеля', 'говядина': 'говядины', 'свинина': 'свинины',
+          'баранина': 'баранины', 'помидор': 'помидоров', 'креветки': 'креветок', 'сыр': 'сыра', 'баклажан': 'баклажанов', 'чечевица': 'чечевицы',
+          'лосось': 'лосося', 'паста': 'пасты', 'морковь': 'моркови', 'грибы': 'грибов', 'тыква': 'тыквы', 'нут': 'нута', 'фасоль': 'фасоли',
+          'капуста': 'капусты', 'шпинат': 'шпината', 'кабачок': 'кабачков', 'тунец': 'тунца', 'индейка': 'индейки', 'утка': 'утки', 'треска': 'трески',
+          'творог': 'творога', 'йогурт': 'йогурта', 'хлеб': 'хлеба', 'лапша': 'лапши', 'кукуруза': 'кукурузы', 'тофу': 'тофу', 'авокадо': 'авокадо',
+          'яблоко': 'яблок', 'банан': 'бананов', 'шоколад': 'шоколада', 'кальмар': 'кальмаров', 'мидии': 'мидий', 'булгур': 'булгура', 'кускус': 'кускуса',
+          'перец': 'перца', 'лук': 'лука', 'огурец': 'огурцов', 'свёкла': 'свёклы', 'финики': 'фиников', 'мёд': 'мёда', 'орехи': 'орехов', 'миндаль': 'миндаля'}
+SKIP_WITH = BORING | {'onion', 'garlic', 'butter', 'olive_oil', 'lemon', 'parsley', 'cumin', 'chili', 'cinnamon', 'cilantro', 'ginger', 'scallion',
+                      'lime', 'cardamom', 'saffron', 'milk', 'cream', 'soy_sauce', 'black_pepper', 'paprika', 'turmeric', 'bay_leaf', 'mint',
+                      'dill', 'oregano', 'thyme', 'basil', 'coriander', 'sesame_oil', 'vanilla', 'nutmeg', 'cloves', 'egg_yolk', 'sesame_seeds'}
+
+
+def with_pages(out, contents, cdata, langs, tpl, common_for, fill, esc, path, SITE, top=80):
+    import collections
+    D, G = cdata['d'], cdata['g']
+    has = lambda d, k: any(i == k or ('_' + k + '_') in ('_' + i + '_') for i in d['i'])
+    keys = [k for k in sorted(G, key=lambda k: -G[k]['c']) if k not in SKIP_WITH and '_' not in k][:top]
+    pages = []
+    for lang in [l for l in langs if l in WITH_UI]:
+        W, T = WITH_UI[lang], UI[lang]
+        name = lambda k: G[k]['n'].get(lang) or G[k]['n'].get('en') or k.replace('_', ' ')
+        hub_links = ''.join(f'<a href="{path(lang, "with/" + k)}">{esc(name(k))}</a>' for k in keys)
+        for k in keys:
+            ds = [d for d in D if has(d, k)]
+            if len(ds) < 3:
+                continue
+            x = name(k)
+            fm = dict(x=x[:1].upper() + x[1:], x_l=x, x_g=RU_GEN.get(x.lower(), x), n=len(ds), c=len({d['c'] for d in ds if d['c']}))
+            groups = collections.OrderedDict((y, []) for y in TYPE_ORDER)
+            for d in ds:
+                groups[d['y']].append(d)
+            def card(d):
+                dl = lang if lang in d['n'] else 'en'
+                img = (f'<img class="th" src="{d["p"]}" width="56" height="56" alt="" loading="lazy">' if d['p'] else f'<span class="em">{d["e"]}</span>')
+                return f'<a href="{path(dl, d["u"])}">{img}<div>{esc(d["n"][dl])}<span>{d["k"]} {esc(T["kcal"])}</span></div></a>'
+            body = ''.join(f'<section><h2>{esc(T["y"][y])}<small>{len(g)}</small></h2><div class="related">'
+                           + ''.join(card(d) for d in sorted(g, key=lambda d: d['k'])) + '</div></section>' for y, g in groups.items() if g)
+            main = (f'<h1>{esc(W["h1"].format(**fm))}</h1><p class="intro">{esc(W["intro"].format(**fm))}</p>'
+                    f'<p><a class="pc" href="{path(lang, "cook")}?p={k}">{esc(W["combine"].format(**fm))}</a></p>{body}'
+                    f'<h2>{esc(W["more_p"])}</h2><nav class="countries">{hub_links}</nav>')
+            v = dict(common_for(lang))
+            v.update({'title': esc(W['title'].format(**fm)), 'description': esc(W['meta'].format(**fm)),
+                      'url': SITE + path(lang, 'with/' + k),
+                      'hreflang': '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, "with/" + k)}" />' for l in langs if l in WITH_UI),
+                      'main': main, 'script': '<style>.pc{display:inline-block;padding:9px 14px;border-radius:999px;background:var(--teal-soft);color:var(--teal);font-weight:700;text-decoration:none}h2 small{color:var(--muted);font-weight:600;margin-inline-start:6px}</style>'})
+            p = out / path(lang, 'with/' + k).strip('/') / 'index.html'
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(fill(tpl, v), encoding='utf-8')
+            pages.append(p)
+        v = dict(common_for(lang))
+        v.update({'title': esc(W['hub_h1']), 'description': esc(W['hub_meta']), 'url': SITE + path(lang, 'with'),
+                  'hreflang': '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, "with")}" />' for l in langs if l in WITH_UI),
+                  'main': f'<h1>{esc(W["hub_h1"])}</h1><p class="intro">{esc(W["hub_meta"])}</p><nav class="countries">{hub_links}</nav>', 'script': ''})
+        p = out / path(lang, 'with').strip('/') / 'index.html'
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(fill(tpl, v), encoding='utf-8')
+        pages.append(p)
+    return pages

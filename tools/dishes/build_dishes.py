@@ -662,6 +662,14 @@ def main():
         p.write_text(cook.cook_page(lang, ui, cook_langs, len(cdata['d']), cdata['g'], country_label, common, cook_tpl,
                                     fill, esc, brand, path, SITE), encoding='utf-8')
         pages.append(p)
+    def common_for(lang):
+        U = ui[lang]
+        c = {'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'home': home(lang), 'index': path(lang),
+             'langs': ''.join(f'<a href="{path(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in cook_langs),
+             'langmenu': lang_menu(lang, cook_langs, path)}
+        c.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+        return c
+    pages += cook.with_pages(out, contents, cdata, cook_langs, cook_tpl, common_for, fill, esc, path, SITE)
     if a.cook_only:
         print('cook pages:', len(cook_langs), 'dishes:', len(cdata['d']), 'products:', len(cdata['g']))
         return

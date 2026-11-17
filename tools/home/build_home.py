@@ -156,7 +156,7 @@ def build():
   <details class="langbox up"><summary aria-label="Language">{GLOBE}{LANG_NAMES[lang]}</summary><div class="lm">{''.join(f'<a href="{home_url(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs)}</div></details>
   <p class="cite">{esc(CITE.get(lang, CITE['en']))}</p>
 </div></footer>
-<script>document.addEventListener("click",function(e){{document.querySelectorAll(".langbox").forEach(function(d){if(d.open&&!d.contains(e.target))d.open=false})}});</script>
+<script>document.addEventListener("click",function(e){{document.querySelectorAll(".langbox").forEach(function(d){{if(d.open&&!d.contains(e.target))d.open=false}})}});</script>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "dab6447bdaac4f67b7e2016c2698b9dd"}}'></script><!-- End Cloudflare Web Analytics --><script defer src="/android.js"></script>
 </body>
 </html>
