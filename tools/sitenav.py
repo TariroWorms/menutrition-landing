@@ -36,25 +36,30 @@ def _pre(lang, have):
     return '/' if lang == 'en' or lang not in have else f'/{lang}/'
 
 
+AND = {'en': ' & ', 'ru': ' и ', 'ar': ' و', 'it': ' e ', 'el': ' και ', 'es': ' y ', 'de': ' und ', 'fr': ' et ', 'pt': ' e ', 'nl': ' en ',
+       'pl': ' i ', 'sv': ' och ', 'tr': ' ve ', 'uk': ' і ', 'he': ' ו', 'hi': ' और ', 'id': ' dan ', 'ja': '・', 'ko': '·', 'th': 'และ',
+       'vi': ' và ', 'zh': '与'}
+
+
 def sitenav(lang, here=''):
+    """Menu: one pill for diets and allergies (they live together at /guides/)."""
     L = LABELS.get(lang, LABELS['en'])
+    second = L[4] if lang == 'de' else L[4][:1].lower() + L[4][1:]
+    guides = f'{L[3]}{AND.get(lang, " & ")}{second}'
     links = [
         ('/app/' if lang == 'en' or lang == 'el' else f'/{lang}/app/', L[7]),
         (_pre(lang, D5) + 'dishes/', L[0]),
         (_pre(lang, D5) + 'dishes/cook/', L[1]),
         (_pre(lang, FOODS) + 'foods/', L[2]),
-        (_pre(lang, D5) + 'guides/#diets', L[3]),
-        (_pre(lang, D5) + 'guides/#allergies', L[4]),
+        (_pre(lang, D5) + 'guides/', guides),
         (_pre(lang, CALC) + 'calculators/', L[5]),
         (('/' if lang == 'en' else f'/{lang}/') + 'weight-loss-plan/', L[6]),
     ]
     import html
-    paths = [h.split('#')[0] for h, _ in links]
+    paths = [h for h, _ in links]
     best = max((p for p in paths if here.startswith(p) and p not in ('/', f'/{lang}/')), key=len, default=None)
-    if best and best.endswith('/dishes/') and '/guides/' in here:
-        best = None
     return '<nav class="snav" aria-label="Sections"><div class="wrap">' + ''.join(
-        f'<a href="{h}"{" class=\"on\" aria-current=\"page\"" if best and h.split("#")[0] == best and "#allergies" not in h else ""}>{html.escape(t)}</a>'
+        f'<a href="{h}"{" class=\"on\" aria-current=\"page\"" if best and h == best else ""}>{html.escape(t)}</a>'
         for h, t in links) + '</div></nav>' + SCROLL
 
 

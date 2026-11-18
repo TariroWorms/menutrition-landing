@@ -63,7 +63,7 @@ section{margin-top:40px}
 .related a div span{font-size:13px;color:var(--muted);font-weight:600;display:block}
 .disclaimer{font-size:13px;color:var(--muted);margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
 footer{margin-top:40px;padding:24px 0 40px;font-size:14px;color:var(--muted)}
-footer .wrap{display:flex;flex-wrap:wrap;gap:18px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center}footer .langbox summary{font-weight:inherit;padding:0}
 footer a{text-decoration:none}
 .langs{display:flex;flex-wrap:wrap;gap:6px 14px;flex:1 1 100%}.langs a{margin-inline-end:0}
 .hnav{display:flex;align-items:center;gap:18px}

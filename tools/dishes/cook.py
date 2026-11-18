@@ -265,9 +265,11 @@ CSS = (".cook .pick{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}"
        ".cook .pc{font:inherit;cursor:pointer;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:14px;font-weight:600;color:inherit}"
        ".cook .pc.on{background:var(--teal-soft);color:var(--teal);border-color:transparent}.cook .pc small{color:var(--muted)}"
        ".cook .pc.more{margin-top:14px}.cook .intro+h2{margin-top:22px}"
-       ".cook .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:18px 0}"
+       ".cook .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}"
        ".cook label{display:block;font-size:13px;font-weight:700;color:var(--muted)}"
-       ".cook select{width:100%;margin-top:4px;padding:10px;border-radius:12px;border:1px solid var(--line);background:var(--card);font:inherit;color:inherit}"
+       ".cook select{-webkit-appearance:none;appearance:none;width:100%;height:46px;margin-top:6px;padding:0 38px 0 14px;border-radius:14px;border:1px solid var(--line);"
+       "background:var(--card) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23777' stroke-width='2'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E\") no-repeat right 15px center;font:inherit;font-size:15px;color:inherit;cursor:pointer}"
+       "[dir=rtl] .cook select{padding:0 14px 0 38px;background-position:left 15px center}"
        ".cook h2 small{color:var(--muted);font-weight:600;margin-inline-start:6px}"
        ".cook .bar{display:flex;justify-content:space-between;align-items:center;gap:10px}")
 

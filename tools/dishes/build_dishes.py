@@ -478,7 +478,7 @@ def guide_page(lang, slug, G, ui, langs, contents, db, template, limit=60):
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + gpath(l, slug)}" />' for l in langs)
     values = {
         'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(T['title']), 'description': esc(T['meta']),
-        'url': SITE + gpath(lang, slug), 'hreflang': hreflang, 'home': home(lang), 'index': path(lang),
+        'url': SITE + gpath(lang, slug), 'hreflang': hreflang, 'home': home(lang), 'index': path(lang), 'gindex': gpath(lang),
         'sections': sections, 'dishes': dishes, 'sources': sources,
         'jsonld': f'<script type="application/ld+json">{jsonld}</script>',
         'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
