@@ -16,6 +16,7 @@ import json
 import re
 from html.parser import HTMLParser
 from pathlib import Path
+import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = 'https://menutrition.app/'
@@ -140,6 +141,22 @@ def put_dishes(doc, lang):
     return re.sub(r'href="[^"]*"( class="[^"]*")? data-dishes-link', lambda m: f'href="{index}"{m.group(1) or ""} data-dishes-link', doc)
 
 
+
+SNAV_CSS = ('<style>:root{--line:rgba(39,35,32,.12);--teal:#0f7f6c;--teal-soft:#e0f0ec}'
+            '.snav .wrap{width:min(1088px,100% - 2.5rem);margin:0 auto;padding-left:0;padding-right:0}</style>')
+
+
+def put_snav(doc, lang):
+    """Site-wide section menu under the app header, so /app/ looks like the rest of the site."""
+    sys.path.insert(0, str(ROOT / 'tools'))
+    from sitenav import sitenav, CSS
+    here = '/app/' if lang == 'en' else f'/{lang}/app/'
+    block = ('<!-- snav:start -->' + SNAV_CSS + '<style>' + CSS + '</style>' + sitenav(lang, here) + '<!-- snav:end -->')
+    if '<!-- snav:start' in doc:
+        return re.sub(r'<!-- snav:start -->.*?<!-- snav:end -->', lambda m: block, doc, flags=re.S)
+    return doc.replace('</header>', '</header>\n' + block, 1)
+
+
 def main():
     path = ROOT / 'app' / 'index.html'
     src = path.read_text(encoding='utf-8')
@@ -155,6 +172,7 @@ def main():
     else:
         src = src.replace('<link rel="canonical"', block + '\n<link rel="canonical"', 1)
     src = put_dishes(src, 'en')
+    src = put_snav(src, 'en')
     path.write_text(src, encoding='utf-8')
 
     p = I18nSpans(src)
@@ -172,7 +190,7 @@ def main():
             out.append(t[key] if kind == 'html' else html.escape(t[key], quote=False))
             pos = e
         out.append(src[pos:])
-        doc = put_dishes(''.join(out), lang)
+        doc = put_snav(put_dishes(''.join(out), lang), lang)
 
         # translated placeholders (data-i18n-ph)
         doc = re.sub(r'placeholder="[^"]*"( data-i18n-ph="(\w+)")',

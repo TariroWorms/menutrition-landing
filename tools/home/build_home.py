@@ -51,6 +51,29 @@ CSS = '''<style>
 .appb h2{margin:0;color:#fff}.appb p{color:#d8d2c6}.appb a.btn{display:inline-block;margin-top:10px;padding:12px 18px;border-radius:999px;background:#fff;color:#1f1b17;font-weight:800;text-decoration:none}
 .appb a.more{color:#9fd3c7;margin-inline-start:14px}.appb img{width:150px;height:auto;border-radius:22px}
 @media(max-width:600px){.appb{grid-template-columns:1fr}.appb img{display:none}.cookbox form{flex-direction:column}}
+.hero{padding:26px 0 6px}.hero h1{font-size:clamp(30px,5vw,48px)}.hero p{font-size:17px;margin-top:12px}
+.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin:22px 0 34px}
+.bt{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:190px;border-radius:26px;padding:22px;text-decoration:none;color:var(--ink,#1f1b17);overflow:hidden;border:1px solid var(--line);transition:transform .18s,box-shadow .18s}
+.bt:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(31,27,23,.12)}
+.bt .ic{font-size:34px;line-height:1;display:block;margin-bottom:auto}
+.bt h3{font-family:Fraunces,serif;font-size:24px;line-height:1.1;margin:14px 0 6px}.bt p{margin:0;font-size:15px;opacity:.78;max-width:420px}
+.bt .go{position:absolute;top:18px;inset-inline-end:20px;width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.7);display:grid;place-items:center;font-weight:800}
+.b-app{grid-column:span 4;min-height:300px;background:#1f1b17;color:#f8f6f1;border-color:#1f1b17}.b-app p{color:#d8d2c6;opacity:1}.b-app .go{background:#fff;color:#1f1b17}
+.b-app img.ph{position:absolute;inset-inline-end:26px;bottom:-30px;width:170px;height:auto;border-radius:24px 24px 0 0;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.b-app .txt{max-width:55%}.b-app a{text-decoration:none}.b-app .more{color:#9fd3c7;margin-inline-start:14px;font-size:15px}.b-app .btn{display:inline-block;margin-top:14px;padding:11px 17px;border-radius:999px;background:#fff;color:#1f1b17;font-weight:800;font-size:15px}
+.b-calc{grid-column:span 2;background:linear-gradient(160deg,#f6e7c9,#f1d7a8)}
+.b-cook{grid-column:span 3;min-height:250px;background:linear-gradient(135deg,#dcebe6,#c9e1d9)}
+.b-cook form{display:flex;gap:6px;margin-top:12px}.b-cook input{flex:1;min-width:0;padding:11px 15px;border-radius:999px;border:1px solid var(--line);font:inherit;background:#fff}
+.b-cook button{padding:11px 16px;border-radius:999px;border:0;background:#1f1b17;color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.b-dish{grid-column:span 3;min-height:250px;background:#f3ece0}.b-dish .mos{position:absolute;inset-inline-end:16px;top:16px;display:grid;grid-template-columns:repeat(2,70px);gap:6px}
+.b-dish .mos img{width:70px;height:70px;object-fit:cover;border-radius:16px}
+.b-food{grid-column:span 2;background:linear-gradient(160deg,#e3f0d6,#cfe5bb)}.b-diet{grid-column:span 2;background:linear-gradient(160deg,#e9e0f3,#d8cbe9)}
+.b-allg{grid-column:span 2;background:linear-gradient(160deg,#fbe0d6,#f4c9b9)}
+.b-plan{grid-column:span 6;min-height:150px;background:linear-gradient(110deg,#0f7f6c,#2a9d8a);color:#fff;border-color:transparent}.b-plan p{color:#e6f6f2;opacity:1}.b-plan .go{background:#fff;color:#0f7f6c}
+.cookbox,.thesis{display:none}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:10px 0 30px}.why div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}.why b{display:block}.why span{color:var(--muted);font-size:14px}
+@media(max-width:820px){.bento{grid-template-columns:1fr 1fr}.b-app,.b-plan,.b-cook,.b-dish{grid-column:span 2}.b-calc,.b-food,.b-diet,.b-allg{grid-column:span 1;min-height:170px}.b-app .txt{max-width:100%}.b-app img.ph{display:none}.b-app{min-height:230px}}
+@media(max-width:520px){.hero{padding:14px 0 0}.hero h1{font-size:28px}.hero p{font-size:15px;margin-top:8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.bento{margin-top:16px}.bt{padding:18px}.bt h3{font-size:21px}.b-dish .mos{display:none}.b-calc,.b-food,.b-diet,.b-allg{grid-column:span 2}}
 </style>'''
 
 
@@ -92,6 +115,7 @@ def build():
                 cards += (f'<a class="pcard" href="{href}"><img src="{ph["src"]}" srcset="{ph["src"]} 480w, {ph["src2x"]} 960w" '
                           f'sizes="(min-width:760px) 200px, 50vw" width="480" height="480" alt="{esc(d["n"][dl])}" loading="lazy">'
                           f'<b>{esc(d["n"][dl])}</b><span>{d["k"]} {esc(t["kcal"])}</span></a>')
+        mos = ''.join(f'<img src="{photos[x]["src"]}" alt="" width="70" height="70" loading="lazy">' for x in POPULAR[:4] if x in photos and photos[x].get('src'))
         cus = ''
         for s in CUISINES:
             if s in CU:
@@ -140,16 +164,22 @@ def build():
 {sitenav(lang)}
 <main class="wrap">
 <section class="hero"><h1>{esc(t['h1a'])} <em>{esc(t['h1b'])}</em></h1><p>{esc(t['lead'])}</p></section>
-<section class="appb" id="app"><div><h2>📱 {esc(t['app_h'])}</h2><p>{esc(t['app_p'])}</p>
-<a class="btn" href="{APP.format(lang=lang)}" target="_blank" rel="noopener">{esc(t['app_btn'])}</a><a class="more" href="{app_page}">{esc(t['app_more'])} →</a></div>
-<img src="/shots/lunch_intl.webp" alt="" width="150" height="300" loading="lazy"></section>
-<div class="thesis"><div><b>{esc(t['t1'])}</b><span>{esc(t['t1d'])}</span></div><div><b>{esc(t['t2'])}</b><span>{esc(t['t2d'])}</span></div><div><b>{esc(t['t3'])}</b><span>{esc(t['t3d'])}</span></div></div>
-<section class="cookbox"><h2>🧊 {esc(t['cook_h'])}</h2><p>{esc(t['cook_p'])}</p>
-<form action="{d5}dishes/cook/" method="get"><input name="q" placeholder="{esc(t['cook_ph'])}" aria-label="{esc(t['cook_h'])}"><button type="submit">{esc(t['cook_btn'])}</button></form>
-<div class="pcs">{chips}</div></section>
-<h2>{esc(t['tools_h'])}</h2><div class="tiles">{tl}</div>
+<section class="bento">
+<div class="bt b-app" id="app"><a class="go" href="{app_page}" aria-label="{esc(t['app_more'])}">→</a><span class="ic">📱</span><div class="txt"><h3><a href="{app_page}" style="color:inherit;text-decoration:none">{esc(t['app_h'])}</a></h3><p>{esc(t['app_d'])}</p>
+<a class="btn" href="{APP.format(lang=lang)}" target="_blank" rel="noopener">{esc(t['app_btn'])}</a><a class="more" href="{app_page}">{esc(t['app_more'])} →</a></div><img class="ph" src="/shots/lunch_intl.webp" alt="" width="170" height="340" loading="lazy"></div>
+<a class="bt b-calc" href="{cl}calculators/"><span class="go">→</span><span class="ic">🧮</span><h3>{esc(t['calcs'])}</h3><p>{esc(t['calcs_d'])}</p></a>
+<div class="bt b-cook"><span class="ic">🧊</span><h3>{esc(t['cook'])}</h3><p>{esc(t['cook_p'])}</p>
+<form action="{d5}dishes/cook/" method="get"><input name="q" placeholder="{esc(t['cook_ph'])}" aria-label="{esc(t['cook_h'])}"><button type="submit">{esc(t['cook_btn'])}</button></form></div>
+<a class="bt b-dish" href="{d5}dishes/"><span class="go">→</span><span class="ic">🍽️</span><div class="mos">{mos}</div><h3>{esc(t['dishes'])}</h3><p>{esc(t['dishes_d'].format(n=fmt(len(dishes))))}</p></a>
+<a class="bt b-food" href="{fd}foods/"><span class="go">→</span><span class="ic">🥕</span><h3>{esc(t['foods'])}</h3><p>{esc(t['foods_d'].format(n=fmt(n_foods)))}</p></a>
+<a class="bt b-diet" href="{d5}guides/#diets"><span class="go">→</span><span class="ic">🥗</span><h3>{esc(t['diets'])}</h3><p>{esc(t['diets_d'])}</p></a>
+<a class="bt b-allg" href="{d5}guides/#allergies"><span class="go">→</span><span class="ic">🌰</span><h3>{esc(t['allergies'])}</h3><p>{esc(t['allergies_d'])}</p></a>
+<a class="bt b-plan" href="{home_url(lang)}weight-loss-plan/"><span class="go">→</span><span class="ic">📉</span><h3>{esc(t['plan'])}</h3><p>{esc(t['plan_d'])}</p></a>
+</section>
+<div class="pcs" style="margin:-14px 0 26px">{chips}</div>
 <h2>{esc(t['pop_h'])}</h2><div class="pop">{cards}</div>
 <h2>{esc(t['cu_h'])}</h2><div class="pcs" style="margin-bottom:30px">{cus}</div>
+<div class="why"><div><b>{esc(t['t1'])}</b><span>{esc(t['t1d'])}</span></div><div><b>{esc(t['t2'])}</b><span>{esc(t['t2d'])}</span></div><div><b>{esc(t['t3'])}</b><span>{esc(t['t3d'])}</span></div></div>
 </main>
 <footer><div class="wrap">
   <a href="{home_url(lang)}">Me Nutrition</a><a href="/privacy">Privacy</a><a href="/terms">Terms</a>
