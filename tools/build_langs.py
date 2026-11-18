@@ -143,7 +143,10 @@ def put_dishes(doc, lang):
 
 
 SNAV_CSS = ('<style>:root{--line:rgba(39,35,32,.12);--teal:#0f7f6c;--teal-soft:#e0f0ec}'
-            '.snav .wrap{width:min(1088px,100% - 2.5rem);margin:0 auto;padding-left:0;padding-right:0}</style>')
+            '.snav .wrap{width:min(720px,100% - 2.5rem);margin:0 auto;padding-left:0;padding-right:0}'
+            # one frame for the whole site: same column width as the dishes/foods/calculators pages
+            '.max-w-6xl,.max-w-5xl,.max-w-7xl{max-width:760px!important}'
+            'header nav.max-w-6xl{padding-left:20px!important;padding-right:20px!important}</style>')
 
 
 def put_snav(doc, lang):
@@ -152,6 +155,7 @@ def put_snav(doc, lang):
     from sitenav import sitenav, CSS
     here = '/app/' if lang == 'en' else f'/{lang}/app/'
     block = ('<!-- snav:start -->' + SNAV_CSS + '<style>' + CSS + '</style>' + sitenav(lang, here) + '<!-- snav:end -->')
+    doc = re.sub(r'\s*<div class="hidden md:flex items-center gap-8[^>]*>.*?</div>', '', doc, count=1, flags=re.S)
     if '<!-- snav:start' in doc:
         return re.sub(r'<!-- snav:start -->.*?<!-- snav:end -->', lambda m: block, doc, flags=re.S)
     return doc.replace('</header>', '</header>\n' + block, 1)
