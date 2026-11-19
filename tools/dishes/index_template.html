@@ -61,7 +61,7 @@
     });
   }
   q.addEventListener('input',run);
-  q.addEventListener('focus',function(){load()},{once:true});
+  ['focus','pointerenter','touchstart'].forEach(function(e){q.addEventListener(e,function(){load()},{once:true,passive:true})});
 })();
 </script>
 <script>document.addEventListener("click",function(e){document.querySelectorAll(".langbox").forEach(function(d){if(d.open&&!d.contains(e.target))d.open=false})});</script>
