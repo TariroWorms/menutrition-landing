@@ -1,532 +1,542 @@
 {
-  "en": {
-    "dishes": "Dishes",
-    "title": "{name} calories: {kcal100} kcal per 100 g, macros and recipe",
-    "meta": "{name}: {kcal100} kcal per 100 g, {kcalPortion} kcal per {portion} g serving. Protein, fat, carbs, allergens, diets, a recipe and the story of the dish.",
-    "origin": "Origin",
-    "per100": "per 100 g",
-    "perPortion": "per serving · {portion} g",
-    "kcal": "kcal",
-    "protein": "Protein",
-    "fat": "Fat",
-    "carbs": "Carbs",
-    "g": "g",
-    "diets_h": "Diets",
-    "allergens_h": "Allergens",
-    "allergens_none": "None of the 14 major allergens in a typical recipe.",
-    "allergens_note": "Contains (in a typical recipe):",
-    "ingredients_h": "What it is made of",
-    "recipe_h": "Recipe",
-    "servings": "{n} servings",
-    "time": "{min} min",
-    "ingredients_list": "Ingredients",
-    "steps": "Method",
-    "history_h": "History",
-    "tips_h": "How to make it lighter",
-    "related_h": "Similar dishes",
-    "cta_h": "Count it in one photo",
-    "cta_p": "Point your camera at the table — Me Nutrition recognises {name} and every other dish, with calories and macros for each. Ate only half? Slide it.",
-    "cta_btn": "Download on the App Store",
-    "disclaimer": "Values are estimates per 100 g for a typical recipe; home and restaurant versions vary. Diets and allergens are worked out from the ingredients of a typical recipe — always check with whoever cooked the dish. Not medical advice.",
-    "source": "Nutrition data: Me Nutrition dish database v{version}.",
-    "home": "Home",
-    "privacy": "Privacy",
-    "terms": "Terms",
-    "download": "Download",
-    "index_title": "Dishes: calories, macros, diets and recipes",
-    "index_meta": "Calories per 100 g and per serving, protein, fat, carbs, allergens and diet labels for dishes from around the world.",
-    "index_h": "Dishes of the world",
-    "index_p": "Calories, macros, allergens and diets for dishes from around the world — the same numbers Me Nutrition uses when you snap your meal.",
-    "lbl": {
-      "vegetarian": {
-        "yes": "Vegetarian",
-        "no": "Not vegetarian",
-        "check": "Vegetarian — check the broth"
-      },
-      "vegan": {
-        "yes": "Vegan",
-        "no": "Not vegan",
-        "check": "Vegan — check the broth"
-      },
-      "no_pork": {
-        "yes": "No pork",
-        "no": "Contains pork",
-        "check": "Pork — check"
-      },
-      "gluten_free": {
-        "yes": "Gluten-free",
-        "no": "Contains gluten"
-      },
-      "dairy_free": {
-        "yes": "Dairy-free",
-        "no": "Contains dairy"
-      },
-      "keto": {
-        "yes": "Keto-friendly",
-        "no": "Not keto"
-      },
-      "low_carb": {
-        "yes": "Low-carb"
-      },
-      "high_protein": {
-        "yes": "High protein"
-      }
-    },
-    "why": {
-      "items": "because of: {items}",
-      "none_animal": "no meat, fish or animal products in a typical recipe",
-      "none_meat": "no meat or fish in a typical recipe",
-      "halal_note": "for halal, the meat must be halal-slaughtered",
-      "no_gluten": "no wheat, barley or rye in a typical recipe",
-      "no_dairy": "no milk, cheese, butter or yogurt in a typical recipe",
-      "carbs": "{carbs} g carbs per 100 g",
-      "protein": "{protein} g protein per 100 g — {share}% of the calories"
-    },
-    "allergen": {
-      "gluten": "Gluten",
-      "crustaceans": "Crustaceans",
-      "eggs": "Eggs",
-      "fish": "Fish",
-      "peanuts": "Peanuts",
-      "soy": "Soy",
-      "milk": "Milk",
-      "nuts": "Tree nuts",
-      "celery": "Celery",
-      "mustard": "Mustard",
-      "sesame": "Sesame",
-      "sulphites": "Sulphites",
-      "lupin": "Lupin",
-      "molluscs": "Molluscs"
-    },
-    "perPortionMl": "per serving · {portion} ml",
-    "search_ph": "Find a dish — e.g. kabsa, ramen, borscht",
-    "search_none": "Nothing found. The app recognises any dish — just snap it.",
-    "more_countries": "All countries",
-    "n_dishes": "{n} dishes",
-    "photo_by": "Photo by {author} on {unsplash}"
+ "en": {
+  "dishes": "Dishes",
+  "title": "{name} calories: {kcal100} kcal per 100 g, macros and recipe",
+  "meta": "{name}: {kcal100} kcal per 100 g, {kcalPortion} kcal per {portion} g serving. Protein, fat, carbs, allergens, diets, a recipe and the story of the dish.",
+  "origin": "Origin",
+  "per100": "per 100 g",
+  "perPortion": "per serving · {portion} g",
+  "kcal": "kcal",
+  "protein": "Protein",
+  "fat": "Fat",
+  "carbs": "Carbs",
+  "g": "g",
+  "diets_h": "Diets",
+  "allergens_h": "Allergens",
+  "allergens_none": "None of the 14 major allergens in a typical recipe.",
+  "allergens_note": "Contains (in a typical recipe):",
+  "ingredients_h": "What it is made of",
+  "recipe_h": "Recipe",
+  "servings": "{n} servings",
+  "time": "{min} min",
+  "ingredients_list": "Ingredients",
+  "steps": "Method",
+  "history_h": "History",
+  "tips_h": "How to make it lighter",
+  "related_h": "Similar dishes",
+  "cta_h": "Count it in one photo",
+  "cta_p": "Point your camera at the table — Me Nutrition recognises {name} and every other dish, with calories and macros for each. Ate only half? Slide it.",
+  "cta_btn": "Download on the App Store",
+  "disclaimer": "Values are estimates per 100 g for a typical recipe; home and restaurant versions vary. Diets and allergens are worked out from the ingredients of a typical recipe — always check with whoever cooked the dish. Not medical advice.",
+  "source": "Nutrition data: Me Nutrition dish database v{version}.",
+  "home": "Home",
+  "privacy": "Privacy",
+  "terms": "Terms",
+  "download": "Download",
+  "index_title": "Dishes: calories, macros, diets and recipes",
+  "index_meta": "Calories per 100 g and per serving, protein, fat, carbs, allergens and diet labels for dishes from around the world.",
+  "index_h": "Dishes of the world",
+  "index_p": "Calories, macros, allergens and diets for dishes from around the world — the same numbers Me Nutrition uses when you snap your meal.",
+  "lbl": {
+   "vegetarian": {
+    "yes": "Vegetarian",
+    "no": "Not vegetarian",
+    "check": "Vegetarian — check the broth"
+   },
+   "vegan": {
+    "yes": "Vegan",
+    "no": "Not vegan",
+    "check": "Vegan — check the broth"
+   },
+   "no_pork": {
+    "yes": "No pork",
+    "no": "Contains pork",
+    "check": "Pork — check"
+   },
+   "gluten_free": {
+    "yes": "Gluten-free",
+    "no": "Contains gluten"
+   },
+   "dairy_free": {
+    "yes": "Dairy-free",
+    "no": "Contains dairy"
+   },
+   "keto": {
+    "yes": "Keto-friendly",
+    "no": "Not keto"
+   },
+   "low_carb": {
+    "yes": "Low-carb"
+   },
+   "high_protein": {
+    "yes": "High protein"
+   }
   },
-  "ru": {
-    "dishes": "Блюда",
-    "title": "{name}: калорийность — {kcal100} ккал на 100 г, БЖУ и рецепт",
-    "meta": "{name}: {kcal100} ккал на 100 г, {kcalPortion} ккал на порцию {portion} г. Белки, жиры, углеводы, аллергены, диеты, рецепт и история блюда.",
-    "origin": "Откуда",
-    "per100": "на 100 г",
-    "perPortion": "на порцию · {portion} г",
-    "kcal": "ккал",
-    "protein": "Белки",
-    "fat": "Жиры",
-    "carbs": "Углеводы",
-    "g": "г",
-    "diets_h": "Диеты",
-    "allergens_h": "Аллергены",
-    "allergens_none": "В типичном рецепте нет ни одного из 14 основных аллергенов.",
-    "allergens_note": "Содержит (в типичном рецепте):",
-    "ingredients_h": "Из чего готовят",
-    "recipe_h": "Рецепт",
-    "servings": "{n} порции",
-    "time": "{min} мин",
-    "ingredients_list": "Ингредиенты",
-    "steps": "Приготовление",
-    "history_h": "История",
-    "tips_h": "Как сделать легче",
-    "related_h": "Похожие блюда",
-    "cta_h": "Посчитайте одним фото",
-    "cta_p": "Наведите камеру на стол — Me Nutrition узнает {name} и все остальные блюда и посчитает калории и БЖУ для каждого. Съели половину? Сдвиньте ползунок.",
-    "cta_btn": "Скачать в App Store",
-    "disclaimer": "Значения — примерная оценка на 100 г для типичного рецепта; дома и в ресторанах блюдо готовят по-разному. Диеты и аллергены определены по составу типичного рецепта — всегда уточняйте у того, кто готовил. Не является медицинской рекомендацией.",
-    "source": "Данные о питательности: база блюд Me Nutrition, версия {version}.",
-    "home": "Главная",
-    "privacy": "Конфиденциальность",
-    "terms": "Условия",
-    "download": "Скачать",
-    "index_title": "Блюда: калории, БЖУ, диеты и рецепты",
-    "index_meta": "Калории на 100 г и на порцию, белки, жиры, углеводы, аллергены и диеты для блюд со всего мира.",
-    "index_h": "Блюда мира",
-    "index_p": "Калории, БЖУ, аллергены и диеты для блюд со всего мира — те же цифры, что Me Nutrition использует, когда вы фотографируете еду.",
-    "lbl": {
-      "vegetarian": {
-        "yes": "Вегетарианское",
-        "no": "Не вегетарианское",
-        "check": "Вегетарианское — уточните бульон"
-      },
-      "vegan": {
-        "yes": "Веганское",
-        "no": "Не веганское",
-        "check": "Веганское — уточните бульон"
-      },
-      "no_pork": {
-        "yes": "Без свинины",
-        "no": "Со свининой",
-        "check": "Свинина — уточните"
-      },
-      "gluten_free": {
-        "yes": "Без глютена",
-        "no": "С глютеном"
-      },
-      "dairy_free": {
-        "yes": "Без молочного",
-        "no": "С молочным"
-      },
-      "keto": {
-        "yes": "Подходит для кето",
-        "no": "Не для кето"
-      },
-      "low_carb": {
-        "yes": "Мало углеводов"
-      },
-      "high_protein": {
-        "yes": "Много белка"
-      }
-    },
-    "why": {
-      "items": "из-за: {items}",
-      "none_animal": "в типичном рецепте нет мяса, рыбы и продуктов животного происхождения",
-      "none_meat": "в типичном рецепте нет мяса и рыбы",
-      "halal_note": "для халяль мясо должно быть забито по правилам халяль",
-      "no_gluten": "в типичном рецепте нет пшеницы, ячменя и ржи",
-      "no_dairy": "в типичном рецепте нет молока, сыра, масла и йогурта",
-      "carbs": "{carbs} г углеводов на 100 г",
-      "protein": "{protein} г белка на 100 г — {share}% калорий"
-    },
-    "allergen": {
-      "gluten": "Глютен",
-      "crustaceans": "Ракообразные",
-      "eggs": "Яйца",
-      "fish": "Рыба",
-      "peanuts": "Арахис",
-      "soy": "Соя",
-      "milk": "Молоко",
-      "nuts": "Орехи",
-      "celery": "Сельдерей",
-      "mustard": "Горчица",
-      "sesame": "Кунжут",
-      "sulphites": "Сульфиты",
-      "lupin": "Люпин",
-      "molluscs": "Моллюски"
-    },
-    "perPortionMl": "на порцию · {portion} мл",
-    "search_ph": "Найти блюдо — например, кабса, рамен, борщ",
-    "search_none": "Ничего не нашлось. Приложение узнаёт любое блюдо — просто сфотографируйте.",
-    "more_countries": "Все страны",
-    "n_dishes": "Блюд: {n}",
-    "photo_by": "Фото: {author} на {unsplash}"
+  "why": {
+   "items": "because of: {items}",
+   "none_animal": "no meat, fish or animal products in a typical recipe",
+   "none_meat": "no meat or fish in a typical recipe",
+   "halal_note": "for halal, the meat must be halal-slaughtered",
+   "no_gluten": "no wheat, barley or rye in a typical recipe",
+   "no_dairy": "no milk, cheese, butter or yogurt in a typical recipe",
+   "carbs": "{carbs} g carbs per 100 g",
+   "protein": "{protein} g protein per 100 g — {share}% of the calories"
   },
-  "ar": {
-    "dishes": "الأطباق",
-    "title": "سعرات {name}: {kcal100} سعرة حرارية لكل 100 غ والقيم الغذائية والوصفة",
-    "meta": "{name}: {kcal100} سعرة حرارية لكل 100 غ، و{kcalPortion} سعرة للحصة ({portion} غ). البروتين والدهون والكربوهيدرات ومسببات الحساسية والأنظمة الغذائية والوصفة وتاريخ الطبق.",
-    "origin": "الأصل",
-    "per100": "لكل 100 غ",
-    "perPortion": "للحصة · {portion} غ",
-    "perPortionMl": "للحصة · {portion} مل",
-    "kcal": "سعرة",
-    "protein": "بروتين",
-    "fat": "دهون",
-    "carbs": "كربوهيدرات",
-    "g": "غ",
-    "diets_h": "الأنظمة الغذائية",
-    "allergens_h": "مسببات الحساسية",
-    "allergens_none": "لا تحتوي الوصفة المعتادة على أيٍّ من مسببات الحساسية الرئيسية الأربعة عشر.",
-    "allergens_note": "يحتوي (في الوصفة المعتادة):",
-    "ingredients_h": "المكونات الأساسية",
-    "recipe_h": "الوصفة",
-    "servings": "{n} حصص",
-    "time": "{min} دقيقة",
-    "ingredients_list": "المقادير",
-    "steps": "طريقة التحضير",
-    "history_h": "التاريخ",
-    "tips_h": "كيف تجعله أخف",
-    "related_h": "أطباق مشابهة",
-    "cta_h": "احسبه بصورة واحدة",
-    "cta_p": "وجّه الكاميرا نحو المائدة — يتعرّف Me Nutrition على {name} وعلى كل طبق آخر، ويحسب السعرات والقيم الغذائية لكل منها. أكلت النصف فقط؟ حرّك المؤشر.",
-    "cta_btn": "حمّله من App Store",
-    "disclaimer": "القيم تقديرية لكل 100 غ لوصفة معتادة، وتختلف بين البيت والمطعم. حُدّدت الأنظمة الغذائية ومسببات الحساسية من مكونات الوصفة المعتادة — تأكّد دائمًا ممن أعدّ الطبق. ليست نصيحة طبية.",
-    "source": "بيانات القيم الغذائية: قاعدة أطباق Me Nutrition، الإصدار {version}.",
-    "home": "الرئيسية",
-    "privacy": "الخصوصية",
-    "terms": "الشروط",
-    "download": "تحميل",
-    "index_title": "الأطباق: السعرات والقيم الغذائية والأنظمة الغذائية والوصفات",
-    "index_meta": "السعرات الحرارية لكل 100 غ وللحصة، والبروتين والدهون والكربوهيدرات ومسببات الحساسية والأنظمة الغذائية لأطباق من حول العالم.",
-    "index_h": "أطباق العالم",
-    "index_p": "السعرات والقيم الغذائية ومسببات الحساسية والأنظمة الغذائية لأطباق من حول العالم — الأرقام نفسها التي يستخدمها Me Nutrition عندما تصوّر وجبتك.",
-    "lbl": {
-      "vegetarian": {
-        "yes": "نباتي",
-        "no": "غير نباتي",
-        "check": "نباتي — تحقّق من المرق"
-      },
-      "vegan": {
-        "yes": "نباتي صرف",
-        "no": "ليس نباتيًا صرفًا",
-        "check": "نباتي صرف — تحقّق من المرق"
-      },
-      "no_pork": {
-        "yes": "بدون لحم خنزير",
-        "no": "يحتوي على لحم خنزير",
-        "check": "لحم الخنزير — تحقّق"
-      },
-      "gluten_free": {
-        "yes": "خالٍ من الغلوتين",
-        "no": "يحتوي على الغلوتين"
-      },
-      "dairy_free": {
-        "yes": "خالٍ من الألبان",
-        "no": "يحتوي على الألبان"
-      },
-      "keto": {
-        "yes": "مناسب للكيتو",
-        "no": "غير مناسب للكيتو"
-      },
-      "low_carb": {
-        "yes": "قليل الكربوهيدرات"
-      },
-      "high_protein": {
-        "yes": "غني بالبروتين"
-      }
-    },
-    "why": {
-      "items": "بسبب: {items}",
-      "none_animal": "لا لحوم ولا أسماك ولا منتجات حيوانية في الوصفة المعتادة",
-      "none_meat": "لا لحوم ولا أسماك في الوصفة المعتادة",
-      "halal_note": "ليكون حلالًا يجب أن يكون اللحم مذبوحًا على الطريقة الإسلامية",
-      "no_gluten": "لا قمح ولا شعير ولا جاودار في الوصفة المعتادة",
-      "no_dairy": "لا حليب ولا جبن ولا زبدة ولا لبن في الوصفة المعتادة",
-      "carbs": "{carbs} غ كربوهيدرات لكل 100 غ",
-      "protein": "{protein} غ بروتين لكل 100 غ — {share}% من السعرات"
-    },
-    "allergen": {
-      "gluten": "الغلوتين",
-      "crustaceans": "القشريات",
-      "eggs": "البيض",
-      "fish": "السمك",
-      "peanuts": "الفول السوداني",
-      "soy": "الصويا",
-      "milk": "الحليب",
-      "nuts": "المكسرات",
-      "celery": "الكرفس",
-      "mustard": "الخردل",
-      "sesame": "السمسم",
-      "sulphites": "الكبريتيت",
-      "lupin": "الترمس",
-      "molluscs": "الرخويات"
-    },
-    "search_ph": "ابحث عن طبق — مثل الكبسة أو الرامن أو البرش",
-    "search_none": "لم نعثر على شيء. التطبيق يتعرّف على أي طبق — فقط التقط صورته.",
-    "more_countries": "كل الدول",
-    "n_dishes": "عدد الأطباق: {n}",
-    "photo_by": "الصورة: {author} على {unsplash}"
+  "allergen": {
+   "gluten": "Gluten",
+   "crustaceans": "Crustaceans",
+   "eggs": "Eggs",
+   "fish": "Fish",
+   "peanuts": "Peanuts",
+   "soy": "Soy",
+   "milk": "Milk",
+   "nuts": "Tree nuts",
+   "celery": "Celery",
+   "mustard": "Mustard",
+   "sesame": "Sesame",
+   "sulphites": "Sulphites",
+   "lupin": "Lupin",
+   "molluscs": "Molluscs"
   },
-  "it": {
-    "dishes": "Piatti",
-    "title": "{name} calorie: {kcal100} kcal per 100 g, macro e ricetta",
-    "meta": "{name}: {kcal100} kcal per 100 g, {kcalPortion} kcal per porzione da {portion} g. Proteine, grassi, carboidrati, allergeni, diete, una ricetta e la storia del piatto.",
-    "origin": "Origine",
-    "per100": "per 100 g",
-    "perPortion": "a porzione · {portion} g",
-    "kcal": "kcal",
-    "protein": "Proteine",
-    "fat": "Grassi",
-    "carbs": "Carboidrati",
-    "g": "g",
-    "diets_h": "Diete",
-    "allergens_h": "Allergeni",
-    "allergens_none": "Nessuno dei 14 allergeni principali in una ricetta tipica.",
-    "allergens_note": "Contiene (in una ricetta tipica):",
-    "ingredients_h": "Di cosa è fatto",
-    "recipe_h": "Ricetta",
-    "servings": "{n} porzioni",
-    "time": "{min} min",
-    "ingredients_list": "Ingredienti",
-    "steps": "Procedimento",
-    "history_h": "Storia",
-    "tips_h": "Come renderlo più leggero",
-    "related_h": "Piatti simili",
-    "cta_h": "Contalo con una foto",
-    "cta_p": "Inquadra la tavola: Me Nutrition riconosce {name} e ogni altro piatto, con calorie e macro per ciascuno. Ne hai mangiato solo metà? Basta far scorrere il cursore.",
-    "cta_btn": "Scarica dall'App Store",
-    "disclaimer": "I valori sono stime per 100 g di una ricetta tipica; le versioni casalinghe e da ristorante variano. Diete e allergeni sono ricavati dagli ingredienti di una ricetta tipica: chiedi sempre conferma a chi ha cucinato. Non è un consiglio medico.",
-    "source": "Dati nutrizionali: database dei piatti Me Nutrition v{version}.",
-    "home": "Home",
-    "privacy": "Privacy",
-    "terms": "Termini",
-    "download": "Scarica",
-    "index_title": "Piatti: calorie, macro, diete e ricette",
-    "index_meta": "Calorie per 100 g e a porzione, proteine, grassi, carboidrati, allergeni e diete per piatti di tutto il mondo.",
-    "index_h": "Piatti dal mondo",
-    "index_p": "Calorie, macro, allergeni e diete per piatti di tutto il mondo: gli stessi numeri che Me Nutrition usa quando fotografi il tuo pasto.",
-    "lbl": {
-      "vegetarian": {
-        "yes": "Vegetariano",
-        "no": "Non vegetariano",
-        "check": "Vegetariano — verifica il brodo"
-      },
-      "vegan": {
-        "yes": "Vegano",
-        "no": "Non vegano",
-        "check": "Vegano — verifica il brodo"
-      },
-      "no_pork": {
-        "yes": "Senza maiale",
-        "no": "Contiene maiale",
-        "check": "Maiale — da verificare"
-      },
-      "gluten_free": {
-        "yes": "Senza glutine",
-        "no": "Contiene glutine"
-      },
-      "dairy_free": {
-        "yes": "Senza latticini",
-        "no": "Contiene latticini"
-      },
-      "keto": {
-        "yes": "Adatto alla dieta chetogenica",
-        "no": "Non chetogenico"
-      },
-      "low_carb": {
-        "yes": "Pochi carboidrati"
-      },
-      "high_protein": {
-        "yes": "Ricco di proteine"
-      }
-    },
-    "why": {
-      "items": "per: {items}",
-      "none_animal": "nessuna carne, pesce o prodotto animale in una ricetta tipica",
-      "none_meat": "nessuna carne o pesce in una ricetta tipica",
-      "halal_note": "per l'halal la carne deve provenire da macellazione halal",
-      "no_gluten": "niente frumento, orzo o segale in una ricetta tipica",
-      "no_dairy": "niente latte, formaggio, burro o yogurt in una ricetta tipica",
-      "carbs": "{carbs} g di carboidrati per 100 g",
-      "protein": "{protein} g di proteine per 100 g — il {share}% delle calorie"
-    },
-    "allergen": {
-      "gluten": "Glutine",
-      "crustaceans": "Crostacei",
-      "eggs": "Uova",
-      "fish": "Pesce",
-      "peanuts": "Arachidi",
-      "soy": "Soia",
-      "milk": "Latte",
-      "nuts": "Frutta a guscio",
-      "celery": "Sedano",
-      "mustard": "Senape",
-      "sesame": "Sesamo",
-      "sulphites": "Solfiti",
-      "lupin": "Lupini",
-      "molluscs": "Molluschi"
-    },
-    "perPortionMl": "a porzione · {portion} ml",
-    "search_ph": "Cerca un piatto — es. kabsa, ramen, boršč",
-    "search_none": "Nessun risultato. L'app riconosce qualsiasi piatto: basta una foto.",
-    "more_countries": "Tutti i paesi",
-    "n_dishes": "{n} piatti",
-    "photo_by": "Foto di {author} su {unsplash}"
+  "perPortionMl": "per serving · {portion} ml",
+  "search_ph": "Find a dish — e.g. kabsa, ramen, borscht",
+  "search_none": "Nothing found. The app recognises any dish — just snap it.",
+  "more_countries": "All countries",
+  "n_dishes": "{n} dishes",
+  "photo_by": "Photo by {author} on {unsplash}",
+  "title_b": "{name}: calories, allergens, diet check and recipe",
+  "meta_b": "How many calories in {name}? See it per serving and per 100 g, plus allergens, vegan / gluten-free / keto fit and a step-by-step recipe with weights."
+ },
+ "ru": {
+  "dishes": "Блюда",
+  "title": "{name}: калорийность — {kcal100} ккал на 100 г, БЖУ и рецепт",
+  "meta": "{name}: {kcal100} ккал на 100 г, {kcalPortion} ккал на порцию {portion} г. Белки, жиры, углеводы, аллергены, диеты, рецепт и история блюда.",
+  "origin": "Откуда",
+  "per100": "на 100 г",
+  "perPortion": "на порцию · {portion} г",
+  "kcal": "ккал",
+  "protein": "Белки",
+  "fat": "Жиры",
+  "carbs": "Углеводы",
+  "g": "г",
+  "diets_h": "Диеты",
+  "allergens_h": "Аллергены",
+  "allergens_none": "В типичном рецепте нет ни одного из 14 основных аллергенов.",
+  "allergens_note": "Содержит (в типичном рецепте):",
+  "ingredients_h": "Из чего готовят",
+  "recipe_h": "Рецепт",
+  "servings": "{n} порции",
+  "time": "{min} мин",
+  "ingredients_list": "Ингредиенты",
+  "steps": "Приготовление",
+  "history_h": "История",
+  "tips_h": "Как сделать легче",
+  "related_h": "Похожие блюда",
+  "cta_h": "Посчитайте одним фото",
+  "cta_p": "Наведите камеру на стол — Me Nutrition узнает {name} и все остальные блюда и посчитает калории и БЖУ для каждого. Съели половину? Сдвиньте ползунок.",
+  "cta_btn": "Скачать в App Store",
+  "disclaimer": "Значения — примерная оценка на 100 г для типичного рецепта; дома и в ресторанах блюдо готовят по-разному. Диеты и аллергены определены по составу типичного рецепта — всегда уточняйте у того, кто готовил. Не является медицинской рекомендацией.",
+  "source": "Данные о питательности: база блюд Me Nutrition, версия {version}.",
+  "home": "Главная",
+  "privacy": "Конфиденциальность",
+  "terms": "Условия",
+  "download": "Скачать",
+  "index_title": "Блюда: калории, БЖУ, диеты и рецепты",
+  "index_meta": "Калории на 100 г и на порцию, белки, жиры, углеводы, аллергены и диеты для блюд со всего мира.",
+  "index_h": "Блюда мира",
+  "index_p": "Калории, БЖУ, аллергены и диеты для блюд со всего мира — те же цифры, что Me Nutrition использует, когда вы фотографируете еду.",
+  "lbl": {
+   "vegetarian": {
+    "yes": "Вегетарианское",
+    "no": "Не вегетарианское",
+    "check": "Вегетарианское — уточните бульон"
+   },
+   "vegan": {
+    "yes": "Веганское",
+    "no": "Не веганское",
+    "check": "Веганское — уточните бульон"
+   },
+   "no_pork": {
+    "yes": "Без свинины",
+    "no": "Со свининой",
+    "check": "Свинина — уточните"
+   },
+   "gluten_free": {
+    "yes": "Без глютена",
+    "no": "С глютеном"
+   },
+   "dairy_free": {
+    "yes": "Без молочного",
+    "no": "С молочным"
+   },
+   "keto": {
+    "yes": "Подходит для кето",
+    "no": "Не для кето"
+   },
+   "low_carb": {
+    "yes": "Мало углеводов"
+   },
+   "high_protein": {
+    "yes": "Много белка"
+   }
   },
-  "el": {
-    "dishes": "Πιάτα",
-    "title": "{name} θερμίδες: {kcal100} kcal ανά 100 γρ., μακροθρεπτικά και συνταγή",
-    "meta": "{name}: {kcal100} kcal ανά 100 γρ., {kcalPortion} kcal ανά μερίδα {portion} γρ. Πρωτεΐνη, λιπαρά, υδατάνθρακες, αλλεργιογόνα, διατροφές, συνταγή και η ιστορία του πιάτου.",
-    "origin": "Προέλευση",
-    "per100": "ανά 100 γρ.",
-    "perPortion": "ανά μερίδα · {portion} γρ.",
-    "kcal": "kcal",
-    "protein": "Πρωτεΐνη",
-    "fat": "Λιπαρά",
-    "carbs": "Υδατάνθρακες",
-    "g": "γρ.",
-    "diets_h": "Διατροφές",
-    "allergens_h": "Αλλεργιογόνα",
-    "allergens_none": "Κανένα από τα 14 κύρια αλλεργιογόνα σε μια τυπική συνταγή.",
-    "allergens_note": "Περιέχει (σε μια τυπική συνταγή):",
-    "ingredients_h": "Από τι φτιάχνεται",
-    "recipe_h": "Συνταγή",
-    "servings": "{n} μερίδες",
-    "time": "{min} λεπτά",
-    "ingredients_list": "Υλικά",
-    "steps": "Εκτέλεση",
-    "history_h": "Ιστορία",
-    "tips_h": "Πώς να γίνει πιο ελαφρύ",
-    "related_h": "Παρόμοια πιάτα",
-    "cta_h": "Μετρήστε το με μία φωτογραφία",
-    "cta_p": "Στρέψτε την κάμερα στο τραπέζι — το Me Nutrition αναγνωρίζει {name} και κάθε άλλο πιάτο, με θερμίδες και μακροθρεπτικά για το καθένα. Φάγατε μόνο το μισό; Σύρετε τον δείκτη.",
-    "cta_btn": "Λήψη από το App Store",
-    "disclaimer": "Οι τιμές είναι εκτιμήσεις ανά 100 γρ. για μια τυπική συνταγή· οι σπιτικές εκδοχές και του εστιατορίου διαφέρουν. Οι διατροφές και τα αλλεργιογόνα προκύπτουν από τα υλικά μιας τυπικής συνταγής — ρωτήστε πάντα όποιον μαγείρεψε. Δεν αποτελεί ιατρική συμβουλή.",
-    "source": "Διατροφικά στοιχεία: βάση πιάτων Me Nutrition v{version}.",
-    "home": "Αρχική",
-    "privacy": "Απόρρητο",
-    "terms": "Όροι",
-    "download": "Λήψη",
-    "index_title": "Πιάτα: θερμίδες, μακροθρεπτικά, διατροφές και συνταγές",
-    "index_meta": "Θερμίδες ανά 100 γρ. και ανά μερίδα, πρωτεΐνη, λιπαρά, υδατάνθρακες, αλλεργιογόνα και διατροφές για πιάτα από όλο τον κόσμο.",
-    "index_h": "Πιάτα του κόσμου",
-    "index_p": "Θερμίδες, μακροθρεπτικά, αλλεργιογόνα και διατροφές για πιάτα από όλο τον κόσμο — οι ίδιοι αριθμοί που χρησιμοποιεί το Me Nutrition όταν φωτογραφίζετε το γεύμα σας.",
-    "lbl": {
-      "vegetarian": {
-        "yes": "Χορτοφαγικό",
-        "no": "Όχι χορτοφαγικό",
-        "check": "Χορτοφαγικό — ελέγξτε τον ζωμό"
-      },
-      "vegan": {
-        "yes": "Vegan",
-        "no": "Όχι vegan",
-        "check": "Vegan — ελέγξτε τον ζωμό"
-      },
-      "no_pork": {
-        "yes": "Χωρίς χοιρινό",
-        "no": "Περιέχει χοιρινό",
-        "check": "Χοιρινό — ελέγξτε"
-      },
-      "gluten_free": {
-        "yes": "Χωρίς γλουτένη",
-        "no": "Περιέχει γλουτένη"
-      },
-      "dairy_free": {
-        "yes": "Χωρίς γαλακτοκομικά",
-        "no": "Περιέχει γαλακτοκομικά"
-      },
-      "keto": {
-        "yes": "Κατάλληλο για κέτο",
-        "no": "Όχι κέτο"
-      },
-      "low_carb": {
-        "yes": "Λίγοι υδατάνθρακες"
-      },
-      "high_protein": {
-        "yes": "Πλούσιο σε πρωτεΐνη"
-      }
-    },
-    "why": {
-      "items": "λόγω: {items}",
-      "none_animal": "χωρίς κρέας, ψάρι ή ζωικά προϊόντα σε μια τυπική συνταγή",
-      "none_meat": "χωρίς κρέας ή ψάρι σε μια τυπική συνταγή",
-      "halal_note": "για χαλάλ, το κρέας πρέπει να προέρχεται από σφαγή χαλάλ",
-      "no_gluten": "χωρίς σιτάρι, κριθάρι ή σίκαλη σε μια τυπική συνταγή",
-      "no_dairy": "χωρίς γάλα, τυρί, βούτυρο ή γιαούρτι σε μια τυπική συνταγή",
-      "carbs": "{carbs} γρ. υδατάνθρακες ανά 100 γρ.",
-      "protein": "{protein} γρ. πρωτεΐνη ανά 100 γρ. — {share}% των θερμίδων"
-    },
-    "allergen": {
-      "gluten": "Γλουτένη",
-      "crustaceans": "Καρκινοειδή",
-      "eggs": "Αυγά",
-      "fish": "Ψάρι",
-      "peanuts": "Αράπικα φιστίκια",
-      "soy": "Σόγια",
-      "milk": "Γάλα",
-      "nuts": "Ξηροί καρποί",
-      "celery": "Σέλινο",
-      "mustard": "Μουστάρδα",
-      "sesame": "Σουσάμι",
-      "sulphites": "Θειώδη",
-      "lupin": "Λούπινο",
-      "molluscs": "Μαλάκια"
-    },
-    "perPortionMl": "ανά μερίδα · {portion} ml",
-    "search_ph": "Βρείτε ένα πιάτο — π.χ. κάμπσα, ράμεν, μπορς",
-    "search_none": "Δεν βρέθηκε τίποτα. Η εφαρμογή αναγνωρίζει κάθε πιάτο — απλώς φωτογραφίστε το.",
-    "more_countries": "Όλες οι χώρες",
-    "n_dishes": "{n} πιάτα",
-    "photo_by": "Φωτογραφία: {author} στο {unsplash}"
-  }
+  "why": {
+   "items": "из-за: {items}",
+   "none_animal": "в типичном рецепте нет мяса, рыбы и продуктов животного происхождения",
+   "none_meat": "в типичном рецепте нет мяса и рыбы",
+   "halal_note": "для халяль мясо должно быть забито по правилам халяль",
+   "no_gluten": "в типичном рецепте нет пшеницы, ячменя и ржи",
+   "no_dairy": "в типичном рецепте нет молока, сыра, масла и йогурта",
+   "carbs": "{carbs} г углеводов на 100 г",
+   "protein": "{protein} г белка на 100 г — {share}% калорий"
+  },
+  "allergen": {
+   "gluten": "Глютен",
+   "crustaceans": "Ракообразные",
+   "eggs": "Яйца",
+   "fish": "Рыба",
+   "peanuts": "Арахис",
+   "soy": "Соя",
+   "milk": "Молоко",
+   "nuts": "Орехи",
+   "celery": "Сельдерей",
+   "mustard": "Горчица",
+   "sesame": "Кунжут",
+   "sulphites": "Сульфиты",
+   "lupin": "Люпин",
+   "molluscs": "Моллюски"
+  },
+  "perPortionMl": "на порцию · {portion} мл",
+  "search_ph": "Найти блюдо — например, кабса, рамен, борщ",
+  "search_none": "Ничего не нашлось. Приложение узнаёт любое блюдо — просто сфотографируйте.",
+  "more_countries": "Все страны",
+  "n_dishes": "Блюд: {n}",
+  "photo_by": "Фото: {author} на {unsplash}",
+  "title_b": "{name}: калории, аллергены, подходит ли по диете и рецепт",
+  "meta_b": "Сколько калорий в блюде «{name}»? Порция и 100 г, аллергены, подходит ли оно при веганской, безглютеновой или кето-диете, и пошаговый рецепт с весами."
+ },
+ "ar": {
+  "dishes": "الأطباق",
+  "title": "سعرات {name}: {kcal100} سعرة حرارية لكل 100 غ والقيم الغذائية والوصفة",
+  "meta": "{name}: {kcal100} سعرة حرارية لكل 100 غ، و{kcalPortion} سعرة للحصة ({portion} غ). البروتين والدهون والكربوهيدرات ومسببات الحساسية والأنظمة الغذائية والوصفة وتاريخ الطبق.",
+  "origin": "الأصل",
+  "per100": "لكل 100 غ",
+  "perPortion": "للحصة · {portion} غ",
+  "perPortionMl": "للحصة · {portion} مل",
+  "kcal": "سعرة",
+  "protein": "بروتين",
+  "fat": "دهون",
+  "carbs": "كربوهيدرات",
+  "g": "غ",
+  "diets_h": "الأنظمة الغذائية",
+  "allergens_h": "مسببات الحساسية",
+  "allergens_none": "لا تحتوي الوصفة المعتادة على أيٍّ من مسببات الحساسية الرئيسية الأربعة عشر.",
+  "allergens_note": "يحتوي (في الوصفة المعتادة):",
+  "ingredients_h": "المكونات الأساسية",
+  "recipe_h": "الوصفة",
+  "servings": "{n} حصص",
+  "time": "{min} دقيقة",
+  "ingredients_list": "المقادير",
+  "steps": "طريقة التحضير",
+  "history_h": "التاريخ",
+  "tips_h": "كيف تجعله أخف",
+  "related_h": "أطباق مشابهة",
+  "cta_h": "احسبه بصورة واحدة",
+  "cta_p": "وجّه الكاميرا نحو المائدة — يتعرّف Me Nutrition على {name} وعلى كل طبق آخر، ويحسب السعرات والقيم الغذائية لكل منها. أكلت النصف فقط؟ حرّك المؤشر.",
+  "cta_btn": "حمّله من App Store",
+  "disclaimer": "القيم تقديرية لكل 100 غ لوصفة معتادة، وتختلف بين البيت والمطعم. حُدّدت الأنظمة الغذائية ومسببات الحساسية من مكونات الوصفة المعتادة — تأكّد دائمًا ممن أعدّ الطبق. ليست نصيحة طبية.",
+  "source": "بيانات القيم الغذائية: قاعدة أطباق Me Nutrition، الإصدار {version}.",
+  "home": "الرئيسية",
+  "privacy": "الخصوصية",
+  "terms": "الشروط",
+  "download": "تحميل",
+  "index_title": "الأطباق: السعرات والقيم الغذائية والأنظمة الغذائية والوصفات",
+  "index_meta": "السعرات الحرارية لكل 100 غ وللحصة، والبروتين والدهون والكربوهيدرات ومسببات الحساسية والأنظمة الغذائية لأطباق من حول العالم.",
+  "index_h": "أطباق العالم",
+  "index_p": "السعرات والقيم الغذائية ومسببات الحساسية والأنظمة الغذائية لأطباق من حول العالم — الأرقام نفسها التي يستخدمها Me Nutrition عندما تصوّر وجبتك.",
+  "lbl": {
+   "vegetarian": {
+    "yes": "نباتي",
+    "no": "غير نباتي",
+    "check": "نباتي — تحقّق من المرق"
+   },
+   "vegan": {
+    "yes": "نباتي صرف",
+    "no": "ليس نباتيًا صرفًا",
+    "check": "نباتي صرف — تحقّق من المرق"
+   },
+   "no_pork": {
+    "yes": "بدون لحم خنزير",
+    "no": "يحتوي على لحم خنزير",
+    "check": "لحم الخنزير — تحقّق"
+   },
+   "gluten_free": {
+    "yes": "خالٍ من الغلوتين",
+    "no": "يحتوي على الغلوتين"
+   },
+   "dairy_free": {
+    "yes": "خالٍ من الألبان",
+    "no": "يحتوي على الألبان"
+   },
+   "keto": {
+    "yes": "مناسب للكيتو",
+    "no": "غير مناسب للكيتو"
+   },
+   "low_carb": {
+    "yes": "قليل الكربوهيدرات"
+   },
+   "high_protein": {
+    "yes": "غني بالبروتين"
+   }
+  },
+  "why": {
+   "items": "بسبب: {items}",
+   "none_animal": "لا لحوم ولا أسماك ولا منتجات حيوانية في الوصفة المعتادة",
+   "none_meat": "لا لحوم ولا أسماك في الوصفة المعتادة",
+   "halal_note": "ليكون حلالًا يجب أن يكون اللحم مذبوحًا على الطريقة الإسلامية",
+   "no_gluten": "لا قمح ولا شعير ولا جاودار في الوصفة المعتادة",
+   "no_dairy": "لا حليب ولا جبن ولا زبدة ولا لبن في الوصفة المعتادة",
+   "carbs": "{carbs} غ كربوهيدرات لكل 100 غ",
+   "protein": "{protein} غ بروتين لكل 100 غ — {share}% من السعرات"
+  },
+  "allergen": {
+   "gluten": "الغلوتين",
+   "crustaceans": "القشريات",
+   "eggs": "البيض",
+   "fish": "السمك",
+   "peanuts": "الفول السوداني",
+   "soy": "الصويا",
+   "milk": "الحليب",
+   "nuts": "المكسرات",
+   "celery": "الكرفس",
+   "mustard": "الخردل",
+   "sesame": "السمسم",
+   "sulphites": "الكبريتيت",
+   "lupin": "الترمس",
+   "molluscs": "الرخويات"
+  },
+  "search_ph": "ابحث عن طبق — مثل الكبسة أو الرامن أو البرش",
+  "search_none": "لم نعثر على شيء. التطبيق يتعرّف على أي طبق — فقط التقط صورته.",
+  "more_countries": "كل الدول",
+  "n_dishes": "عدد الأطباق: {n}",
+  "photo_by": "الصورة: {author} على {unsplash}",
+  "title_b": "{name}: السعرات والحساسية وملاءمة النظام الغذائي والوصفة",
+  "meta_b": "كم سعرة حرارية في {name}؟ الحصة وكل 100 غرام، مسببات الحساسية، وهل يناسب النظام النباتي أو الخالي من الغلوتين أو الكيتو، مع وصفة خطوة بخطوة بالأوزان."
+ },
+ "it": {
+  "dishes": "Piatti",
+  "title": "{name} calorie: {kcal100} kcal per 100 g, macro e ricetta",
+  "meta": "{name}: {kcal100} kcal per 100 g, {kcalPortion} kcal per porzione da {portion} g. Proteine, grassi, carboidrati, allergeni, diete, una ricetta e la storia del piatto.",
+  "origin": "Origine",
+  "per100": "per 100 g",
+  "perPortion": "a porzione · {portion} g",
+  "kcal": "kcal",
+  "protein": "Proteine",
+  "fat": "Grassi",
+  "carbs": "Carboidrati",
+  "g": "g",
+  "diets_h": "Diete",
+  "allergens_h": "Allergeni",
+  "allergens_none": "Nessuno dei 14 allergeni principali in una ricetta tipica.",
+  "allergens_note": "Contiene (in una ricetta tipica):",
+  "ingredients_h": "Di cosa è fatto",
+  "recipe_h": "Ricetta",
+  "servings": "{n} porzioni",
+  "time": "{min} min",
+  "ingredients_list": "Ingredienti",
+  "steps": "Procedimento",
+  "history_h": "Storia",
+  "tips_h": "Come renderlo più leggero",
+  "related_h": "Piatti simili",
+  "cta_h": "Contalo con una foto",
+  "cta_p": "Inquadra la tavola: Me Nutrition riconosce {name} e ogni altro piatto, con calorie e macro per ciascuno. Ne hai mangiato solo metà? Basta far scorrere il cursore.",
+  "cta_btn": "Scarica dall'App Store",
+  "disclaimer": "I valori sono stime per 100 g di una ricetta tipica; le versioni casalinghe e da ristorante variano. Diete e allergeni sono ricavati dagli ingredienti di una ricetta tipica: chiedi sempre conferma a chi ha cucinato. Non è un consiglio medico.",
+  "source": "Dati nutrizionali: database dei piatti Me Nutrition v{version}.",
+  "home": "Home",
+  "privacy": "Privacy",
+  "terms": "Termini",
+  "download": "Scarica",
+  "index_title": "Piatti: calorie, macro, diete e ricette",
+  "index_meta": "Calorie per 100 g e a porzione, proteine, grassi, carboidrati, allergeni e diete per piatti di tutto il mondo.",
+  "index_h": "Piatti dal mondo",
+  "index_p": "Calorie, macro, allergeni e diete per piatti di tutto il mondo: gli stessi numeri che Me Nutrition usa quando fotografi il tuo pasto.",
+  "lbl": {
+   "vegetarian": {
+    "yes": "Vegetariano",
+    "no": "Non vegetariano",
+    "check": "Vegetariano — verifica il brodo"
+   },
+   "vegan": {
+    "yes": "Vegano",
+    "no": "Non vegano",
+    "check": "Vegano — verifica il brodo"
+   },
+   "no_pork": {
+    "yes": "Senza maiale",
+    "no": "Contiene maiale",
+    "check": "Maiale — da verificare"
+   },
+   "gluten_free": {
+    "yes": "Senza glutine",
+    "no": "Contiene glutine"
+   },
+   "dairy_free": {
+    "yes": "Senza latticini",
+    "no": "Contiene latticini"
+   },
+   "keto": {
+    "yes": "Adatto alla dieta chetogenica",
+    "no": "Non chetogenico"
+   },
+   "low_carb": {
+    "yes": "Pochi carboidrati"
+   },
+   "high_protein": {
+    "yes": "Ricco di proteine"
+   }
+  },
+  "why": {
+   "items": "per: {items}",
+   "none_animal": "nessuna carne, pesce o prodotto animale in una ricetta tipica",
+   "none_meat": "nessuna carne o pesce in una ricetta tipica",
+   "halal_note": "per l'halal la carne deve provenire da macellazione halal",
+   "no_gluten": "niente frumento, orzo o segale in una ricetta tipica",
+   "no_dairy": "niente latte, formaggio, burro o yogurt in una ricetta tipica",
+   "carbs": "{carbs} g di carboidrati per 100 g",
+   "protein": "{protein} g di proteine per 100 g — il {share}% delle calorie"
+  },
+  "allergen": {
+   "gluten": "Glutine",
+   "crustaceans": "Crostacei",
+   "eggs": "Uova",
+   "fish": "Pesce",
+   "peanuts": "Arachidi",
+   "soy": "Soia",
+   "milk": "Latte",
+   "nuts": "Frutta a guscio",
+   "celery": "Sedano",
+   "mustard": "Senape",
+   "sesame": "Sesamo",
+   "sulphites": "Solfiti",
+   "lupin": "Lupini",
+   "molluscs": "Molluschi"
+  },
+  "perPortionMl": "a porzione · {portion} ml",
+  "search_ph": "Cerca un piatto — es. kabsa, ramen, boršč",
+  "search_none": "Nessun risultato. L'app riconosce qualsiasi piatto: basta una foto.",
+  "more_countries": "Tutti i paesi",
+  "n_dishes": "{n} piatti",
+  "photo_by": "Foto di {author} su {unsplash}",
+  "title_b": "{name}: calorie, allergeni, compatibilità con le diete e ricetta",
+  "meta_b": "Quante calorie ha {name}? Per porzione e per 100 g, più allergeni, compatibilità con dieta vegana, senza glutine o keto e ricetta passo passo con i pesi."
+ },
+ "el": {
+  "dishes": "Πιάτα",
+  "title": "{name} θερμίδες: {kcal100} kcal ανά 100 γρ., μακροθρεπτικά και συνταγή",
+  "meta": "{name}: {kcal100} kcal ανά 100 γρ., {kcalPortion} kcal ανά μερίδα {portion} γρ. Πρωτεΐνη, λιπαρά, υδατάνθρακες, αλλεργιογόνα, διατροφές, συνταγή και η ιστορία του πιάτου.",
+  "origin": "Προέλευση",
+  "per100": "ανά 100 γρ.",
+  "perPortion": "ανά μερίδα · {portion} γρ.",
+  "kcal": "kcal",
+  "protein": "Πρωτεΐνη",
+  "fat": "Λιπαρά",
+  "carbs": "Υδατάνθρακες",
+  "g": "γρ.",
+  "diets_h": "Διατροφές",
+  "allergens_h": "Αλλεργιογόνα",
+  "allergens_none": "Κανένα από τα 14 κύρια αλλεργιογόνα σε μια τυπική συνταγή.",
+  "allergens_note": "Περιέχει (σε μια τυπική συνταγή):",
+  "ingredients_h": "Από τι φτιάχνεται",
+  "recipe_h": "Συνταγή",
+  "servings": "{n} μερίδες",
+  "time": "{min} λεπτά",
+  "ingredients_list": "Υλικά",
+  "steps": "Εκτέλεση",
+  "history_h": "Ιστορία",
+  "tips_h": "Πώς να γίνει πιο ελαφρύ",
+  "related_h": "Παρόμοια πιάτα",
+  "cta_h": "Μετρήστε το με μία φωτογραφία",
+  "cta_p": "Στρέψτε την κάμερα στο τραπέζι — το Me Nutrition αναγνωρίζει {name} και κάθε άλλο πιάτο, με θερμίδες και μακροθρεπτικά για το καθένα. Φάγατε μόνο το μισό; Σύρετε τον δείκτη.",
+  "cta_btn": "Λήψη από το App Store",
+  "disclaimer": "Οι τιμές είναι εκτιμήσεις ανά 100 γρ. για μια τυπική συνταγή· οι σπιτικές εκδοχές και του εστιατορίου διαφέρουν. Οι διατροφές και τα αλλεργιογόνα προκύπτουν από τα υλικά μιας τυπικής συνταγής — ρωτήστε πάντα όποιον μαγείρεψε. Δεν αποτελεί ιατρική συμβουλή.",
+  "source": "Διατροφικά στοιχεία: βάση πιάτων Me Nutrition v{version}.",
+  "home": "Αρχική",
+  "privacy": "Απόρρητο",
+  "terms": "Όροι",
+  "download": "Λήψη",
+  "index_title": "Πιάτα: θερμίδες, μακροθρεπτικά, διατροφές και συνταγές",
+  "index_meta": "Θερμίδες ανά 100 γρ. και ανά μερίδα, πρωτεΐνη, λιπαρά, υδατάνθρακες, αλλεργιογόνα και διατροφές για πιάτα από όλο τον κόσμο.",
+  "index_h": "Πιάτα του κόσμου",
+  "index_p": "Θερμίδες, μακροθρεπτικά, αλλεργιογόνα και διατροφές για πιάτα από όλο τον κόσμο — οι ίδιοι αριθμοί που χρησιμοποιεί το Me Nutrition όταν φωτογραφίζετε το γεύμα σας.",
+  "lbl": {
+   "vegetarian": {
+    "yes": "Χορτοφαγικό",
+    "no": "Όχι χορτοφαγικό",
+    "check": "Χορτοφαγικό — ελέγξτε τον ζωμό"
+   },
+   "vegan": {
+    "yes": "Vegan",
+    "no": "Όχι vegan",
+    "check": "Vegan — ελέγξτε τον ζωμό"
+   },
+   "no_pork": {
+    "yes": "Χωρίς χοιρινό",
+    "no": "Περιέχει χοιρινό",
+    "check": "Χοιρινό — ελέγξτε"
+   },
+   "gluten_free": {
+    "yes": "Χωρίς γλουτένη",
+    "no": "Περιέχει γλουτένη"
+   },
+   "dairy_free": {
+    "yes": "Χωρίς γαλακτοκομικά",
+    "no": "Περιέχει γαλακτοκομικά"
+   },
+   "keto": {
+    "yes": "Κατάλληλο για κέτο",
+    "no": "Όχι κέτο"
+   },
+   "low_carb": {
+    "yes": "Λίγοι υδατάνθρακες"
+   },
+   "high_protein": {
+    "yes": "Πλούσιο σε πρωτεΐνη"
+   }
+  },
+  "why": {
+   "items": "λόγω: {items}",
+   "none_animal": "χωρίς κρέας, ψάρι ή ζωικά προϊόντα σε μια τυπική συνταγή",
+   "none_meat": "χωρίς κρέας ή ψάρι σε μια τυπική συνταγή",
+   "halal_note": "για χαλάλ, το κρέας πρέπει να προέρχεται από σφαγή χαλάλ",
+   "no_gluten": "χωρίς σιτάρι, κριθάρι ή σίκαλη σε μια τυπική συνταγή",
+   "no_dairy": "χωρίς γάλα, τυρί, βούτυρο ή γιαούρτι σε μια τυπική συνταγή",
+   "carbs": "{carbs} γρ. υδατάνθρακες ανά 100 γρ.",
+   "protein": "{protein} γρ. πρωτεΐνη ανά 100 γρ. — {share}% των θερμίδων"
+  },
+  "allergen": {
+   "gluten": "Γλουτένη",
+   "crustaceans": "Καρκινοειδή",
+   "eggs": "Αυγά",
+   "fish": "Ψάρι",
+   "peanuts": "Αράπικα φιστίκια",
+   "soy": "Σόγια",
+   "milk": "Γάλα",
+   "nuts": "Ξηροί καρποί",
+   "celery": "Σέλινο",
+   "mustard": "Μουστάρδα",
+   "sesame": "Σουσάμι",
+   "sulphites": "Θειώδη",
+   "lupin": "Λούπινο",
+   "molluscs": "Μαλάκια"
+  },
+  "perPortionMl": "ανά μερίδα · {portion} ml",
+  "search_ph": "Βρείτε ένα πιάτο — π.χ. κάμπσα, ράμεν, μπορς",
+  "search_none": "Δεν βρέθηκε τίποτα. Η εφαρμογή αναγνωρίζει κάθε πιάτο — απλώς φωτογραφίστε το.",
+  "more_countries": "Όλες οι χώρες",
+  "n_dishes": "{n} πιάτα",
+  "photo_by": "Φωτογραφία: {author} στο {unsplash}",
+  "title_b": "{name}: θερμίδες, αλλεργιογόνα, καταλληλότητα για δίαιτες και συνταγή",
+  "meta_b": "Πόσες θερμίδες έχει το {name}; Ανά μερίδα και ανά 100 g, αλλεργιογόνα, αν ταιριάζει σε βίγκαν, χωρίς γλουτένη ή κετογονική δίαιτα και συνταγή βήμα βήμα με βάρη."
+ }
 }

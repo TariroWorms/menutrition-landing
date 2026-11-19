@@ -145,6 +145,7 @@ def origin_link(lang, c, t):
     return f'<a href="{path(lang, "cuisine/" + cu)}">{esc(country.strip())}</a>' + (f' · {esc(rest.strip())}' if sep else '')
 
 PHOTOS = {}
+VARIANT_B = {'paella', 'paella-valenciana', 'gyoza', 'panna-cotta', 'gelato', 'brownies', 'brownie'}   # Search Console: high impressions, ~0 clicks
 UTM = 'utm_source=menutrition&utm_medium=referral'
 
 
@@ -256,6 +257,9 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     url = SITE + path(lang, c['slug'])
     title = U['title'].format(name=t['name'], kcal100=round(dish['kcal']))
     description = U['meta'].format(name=t['name'], kcal100=round(dish['kcal']), kcalPortion=kcal_p, portion=portion)
+    if c['slug'] in VARIANT_B and 'title_b' in U:   # CTR test: no ready-made number in the snippet, a reason to click instead
+        title = U['title_b'].format(name=t['name'])
+        description = U['meta_b'].format(name=t['name'])
     if ml:
         description = description.replace(f'{portion} g', f'{portion} ml').replace(f'{portion} г', f'{portion} мл').replace(f'({portion} غ)', f'({portion} مل)')
     hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l, c["slug"])}" />' for l in langs)
