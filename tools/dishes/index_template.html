@@ -23,12 +23,13 @@
 </div></header>
 {{sitenav}}
 <main class="wrap">
-  <nav class="crumbs"><a href="{{home}}">{{ui.home}}</a> › {{ui.dishes}}</nav>
+  <nav class="crumbs"><a href="{{home}}">{{ui.home}}</a> › {{crumb}}</nav>
   <h1>{{ui.index_h}}</h1>
   <p class="intro">{{ui.index_p}}</p>
   <nav class="countries explore">{{explore}}</nav>
   <input class="search" id="q" type="search" placeholder="{{ui.search_ph}}" aria-label="{{ui.search_ph}}" autocomplete="off">
   <nav class="countries" id="countries">{{countries}}</nav>
+  <div class="related" id="res" style="margin-top:18px" hidden data-base="{{index}}" data-u="{{ui.kcal}} / 100 {{ui.g}}"></div>
   {{groups}}
   <p class="empty" id="empty" hidden>{{ui.search_none}}</p>
   <p class="disclaimer">{{ui.disclaimer}} {{method}}</p>
@@ -40,16 +41,27 @@
 </div></footer>
 <script>
 (function(){
-  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries');
+  var q=document.getElementById('q'),empty=document.getElementById('empty'),nav=document.getElementById('countries'),res=document.getElementById('res');
   if(!q) return;
   var norm=function(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\u064b-\u0652]/g,'')};
-  var cards=[].slice.call(document.querySelectorAll('.group a')).map(function(a){return {a:a,t:norm(a.textContent+' '+(a.dataset.k||''))}});
-  q.addEventListener('input',function(){
-    var v=norm(q.value.trim()),any=false;
-    cards.forEach(function(c){var on=!v||c.t.indexOf(v)>=0;c.a.hidden=!on;if(on)any=true});
-    document.querySelectorAll('.group').forEach(function(g){g.hidden=!g.querySelector('a:not([hidden])')});
-    nav.hidden=!!v;empty.hidden=any;
-  });
+  var rows=null,pending=null,esc=function(t){return t.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+  var groups=function(){return [].slice.call(document.querySelectorAll('.group'))};
+  function load(){
+    if(!pending) pending=fetch('/dishes/find-{{findlang}}.json').then(function(r){return r.json()}).then(function(j){rows=j.map(function(x){return {x:x,t:norm(x[1]+' '+x[3])}});return rows}).catch(function(){pending=null;return []});
+    return pending;
+  }
+  function run(){
+    var v=norm(q.value.trim());
+    if(!v){res.hidden=true;res.innerHTML='';groups().forEach(function(g){g.hidden=false});nav.hidden=false;empty.hidden=true;return}
+    load().then(function(){
+      if(norm(q.value.trim())!==v) return;
+      var out=[];for(var i=0;i<rows.length&&out.length<120;i++){if(rows[i].t.indexOf(v)>=0)out.push(rows[i].x)}
+      res.innerHTML=out.map(function(x){return '<a href="'+res.dataset.base+x[0]+'/"><div>'+esc(x[1])+'<span>'+x[2]+' '+esc(res.dataset.u)+'</span></div></a>'}).join('');
+      res.hidden=!out.length;groups().forEach(function(g){g.hidden=true});nav.hidden=true;empty.hidden=!!out.length;
+    });
+  }
+  q.addEventListener('input',run);
+  q.addEventListener('focus',function(){load()},{once:true});
 })();
 </script>
 <script>document.addEventListener("click",function(e){document.querySelectorAll(".langbox").forEach(function(d){if(d.open&&!d.contains(e.target))d.open=false})});</script>

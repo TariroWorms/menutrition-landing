@@ -320,8 +320,25 @@ def group_title(lang, country_en, label):
     return esc(label)
 
 
-def index_page(lang, items, ui, langs, db, template):
-    """All dishes grouped by country (biggest cuisines first), a country jump list and a search box."""
+COUNTRY_MIN = 6      # countries with at least this many dishes get their own page; smaller ones sit on the hub
+HUB_TOP, HUB_CARDS = 16, 12   # the hub shows the biggest countries with a first few dishes each
+CT = {  # country page texts: title, h1, intro, "all N" link, "other countries" heading, "search results" label
+    'en': ('{c}: {n} dishes with calories and macros', '{c}: dishes', 'Calories, protein, fat and carbs for {n} dishes from {c}, with recipes.',
+           'All {n} dishes · {c} →', 'Other countries', 'All dishes'),
+    'ru': ('{c}: {n} блюд с калориями и БЖУ', 'Блюда: {c}', 'Калории, белки, жиры и углеводы для {n} блюд: {c}, с рецептами.',
+           'Все {n} блюд · {c} →', 'Другие страны', 'Все блюда'),
+    'ar': ('{c}: {n} طبقًا مع السعرات الحرارية والمغذيات', 'أطباق: {c}', 'السعرات الحرارية والبروتين والدهون والكربوهيدرات لـ {n} طبقًا من {c}، مع الوصفات.',
+           '{n} طبقًا · {c} ←', 'دول أخرى', 'كل الأطباق'),
+    'it': ('{c}: {n} piatti con calorie e macro', 'Piatti: {c}', 'Calorie, proteine, grassi e carboidrati per {n} piatti: {c}, con le ricette.',
+           'Tutti i {n} piatti · {c} →', 'Altri paesi', 'Tutti i piatti'),
+    'el': ('{c}: {n} πιάτα με θερμίδες και μακροθρεπτικά', 'Πιάτα: {c}', 'Θερμίδες, πρωτεΐνη, λίπος και υδατάνθρακες για {n} πιάτα: {c}, με συνταγές.',
+           'Όλα τα {n} πιάτα · {c} →', 'Άλλες χώρες', 'Όλα τα πιάτα')}
+cpath = lambda lang, a: path(lang, 'country/' + a)
+
+
+def index_page(lang, items, ui, langs, db, template, country=None):
+    """The dishes hub: the biggest countries with a first few dishes each, a chip per country (its own page) and a search box.
+    With `country` (English name): that country's page with every dish."""
     U = ui[lang]
     groups = {}
     for c in items:
@@ -333,33 +350,62 @@ def index_page(lang, items, ui, langs, db, template):
     anchor = lambda k: re.sub(r'[^a-z0-9]+', '-', k.lower()).strip('-')
     card = lambda c: (f'<a href="{path(lang, c["slug"])}" data-k="{esc(c["db_key"].replace("_", " "))}">{thumb(c)}'
                       f'<div>{esc(c["i18n"][lang]["name"])}<span>{round(db["dishes"][c["db_key"]]["kcal"])} {esc(U["kcal"])} / 100 {esc(U["g"])}</span></div></a>')
-    html_groups = ''.join(
-        f'<section class="group"><h2 id="{anchor(k)}">{group_title(lang, k, label(k))}<small>{len(groups[k])}</small></h2><div class="related">'
-        + ''.join(card(c) for c in sorted(groups[k], key=lambda c: c['i18n'][lang]['name'])) + '</div></section>'
-        for k in order)
-    chip = lambda k: f'<a href="#{anchor(k)}">{esc(label(k))}<small>{len(groups[k])}</small></a>'
-    top, rest = order[:16], order[16:]
-    countries = ''.join(chip(k) for k in top)
-    if rest:
-        countries += (f'<button type="button" class="morec" aria-expanded="false" '
-                      f'onclick="var r=this.nextElementSibling;r.hidden=!r.hidden;this.setAttribute(\'aria-expanded\',!r.hidden)">'
-                      f'{esc(U["more_countries"])} · {len(order)}</button>'
-                      f'<div class="restc" hidden>' + ''.join(chip(k) for k in sorted(rest, key=label)) + '</div>')
-    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + path(l)}" />' for l in langs)
+    T = CT.get(lang, CT['en'])
+    big = [k for k in order if len(groups[k]) >= COUNTRY_MIN]
+    small = [k for k in order if len(groups[k]) < COUNTRY_MIN]
+    photo_first = lambda c: (c['slug'] not in PHOTOS, c['i18n'][lang]['name'])
+    sort_name = lambda cs: sorted(cs, key=lambda c: c['i18n'][lang]['name'])
+    hreflang = '\n'.join(f'<link rel="alternate" hreflang="{l}" href="{SITE + (cpath(l, anchor(country)) if country else path(l))}" />' for l in langs)
     explore = ''.join(f'<a href="{href}">{esc(txt)}</a>' for href, txt in (
         (('/' if lang == 'en' else f'/{lang}/') + 'foods/', EXPLORE[lang][2]),
         (gpath(lang), EXPLORE[lang][0]), (('/' if lang == 'en' or not (ROOT / lang / 'calculators').exists() else f'/{lang}/') + 'calculators/', EXPLORE[lang][1]))
         if lang in EXPLORE)
+    if country:
+        n, cl = len(groups[country]), label(country)
+        html_groups = (f'<section class="group"><h2 id="{anchor(country)}">{esc(cl)}<small>{n}</small></h2><div class="related">'
+                       + ''.join(card(c) for c in sort_name(groups[country])) + '</div></section>')
+        siblings = ''.join(f'<a href="{cpath(lang, anchor(k))}">{esc(label(k))}<small>{len(groups[k])}</small></a>' for k in big[:HUB_TOP] if k != country)
+        countries = f'<a href="{path(lang)}">{esc(T[5])}</a>' + siblings
+        title, desc = T[0].format(c=cl, n=n), T[2].format(c=cl, n=n)
+        h1, intro = T[1].format(c=cl), T[2].format(c=cl, n=n)
+        crumb = f'<a href="{path(lang)}">{esc(U["dishes"])}</a> › {esc(cl)}'
+        url = SITE + cpath(lang, anchor(country))
+    else:
+        parts = []
+        for k in big[:HUB_TOP]:
+            cs = sorted(groups[k], key=photo_first)[:HUB_CARDS]
+            parts.append(f'<section class="group"><h2 id="{anchor(k)}">{group_title(lang, k, label(k))}<small>{len(groups[k])}</small></h2>'
+                         f'<div class="related">' + ''.join(card(c) for c in sort_name(cs)) + '</div>'
+                         f'<p class="allc"><a href="{cpath(lang, anchor(k))}">{esc(T[3].format(n=len(groups[k]), c=label(k)))}</a></p></section>')
+        if small:
+            sm = sort_name([c for k in small for c in groups[k]])
+            parts.append(f'<section class="group"><h2 id="other">{esc(T[4])}<small>{len(sm)}</small></h2><div class="related">'
+                         + ''.join(card(c) for c in sm) + '</div></section>')
+        html_groups = ''.join(parts)
+        chip = lambda k: f'<a href="{cpath(lang, anchor(k))}">{esc(label(k))}<small>{len(groups[k])}</small></a>'
+        top, rest = big[:HUB_TOP], big[HUB_TOP:]
+        countries = ''.join(chip(k) for k in top)
+        if rest or small:
+            countries += (f'<button type="button" class="morec" aria-expanded="false" '
+                          f'onclick="var r=this.nextElementSibling;r.hidden=!r.hidden;this.setAttribute(\'aria-expanded\',!r.hidden)">'
+                          f'{esc(U["more_countries"])} · {len(order)}</button>'
+                          f'<div class="restc" hidden>' + ''.join(chip(k) for k in sorted(rest, key=label))
+                          + (f'<a href="#other">{esc(T[4])}<small>{len(small)}</small></a>' if small else '') + '</div>')
+        title, desc, h1, intro = U['index_title'], U['index_meta'], U['index_h'], U['index_p']
+        crumb = esc(U['dishes'])
+        url = SITE + path(lang)
     values = {
-        'explore': explore,
-        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(U['index_title']),
-        'description': esc(U['index_meta']), 'url': SITE + path(lang), 'hreflang': hreflang,
+        'explore': explore, 'crumb': crumb, 'findlang': lang,
+        'lang': lang, 'dir': 'rtl' if lang in RTL else 'ltr', 'title': esc(title),
+        'description': esc(desc), 'url': url, 'hreflang': hreflang,
         'home': home(lang), 'index': path(lang), 'groups': html_groups, 'countries': countries,
         'method': (f'<a href="{path(lang, METHOD)}">{esc(METHOD_LINK[lang])} →</a>' if lang in METHOD_LINK else ''),
         'langs': ''.join(f'<a href="{path(l)}" hreflang="{l}">{LANG_NAMES[l]}</a>' for l in langs),
         'langmenu': lang_menu(lang, langs, path),
     }
     values.update({f'ui.{k}': brand(esc(v)) for k, v in U.items() if isinstance(v, str)})
+    values['ui.index_h'] = brand(esc(h1))
+    values['ui.index_p'] = brand(esc(intro))
     return fill(template, values)
 
 
@@ -698,9 +744,23 @@ def main():
     for lang in langs:
         p = out / path(lang).strip('/') / 'index.html'
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(index_page(lang, [c for c in contents.values() if lang in c['i18n']], ui, langs, db, index_tpl),
-                     encoding='utf-8')
+        lang_items = [c for c in contents.values() if lang in c['i18n']]
+        p.write_text(index_page(lang, lang_items, ui, langs, db, index_tpl), encoding='utf-8')
         pages.append(p)
+        by_country = {}
+        for c in lang_items:
+            by_country.setdefault(c['i18n']['en']['origin'].split('·')[0].strip() if 'en' in c['i18n'] else '', []).append(c)
+        for k, cs in by_country.items():
+            if len(cs) < COUNTRY_MIN or not k:
+                continue
+            cp = out / cpath(lang, re.sub(r'[^a-z0-9]+', '-', k.lower()).strip('-')).strip('/') / 'index.html'
+            cp.parent.mkdir(parents=True, exist_ok=True)
+            cp.write_text(index_page(lang, lang_items, ui, langs, db, index_tpl, country=k), encoding='utf-8')
+            pages.append(cp)
+        # lean search file for the hub: [slug, name, kcal, english name]
+        find = [[c['slug'], c['i18n'][lang]['name'], round(db['dishes'][c['db_key']]['kcal']), c['i18n'].get('en', {}).get('name', '')]
+                for c in lang_items]
+        (out / 'dishes' / f'find-{lang}.json').write_text(json.dumps(find, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     for lang in [l for l in langs if l in M]:
         p = out / path(lang, METHOD).strip('/') / 'index.html'
         p.parent.mkdir(parents=True, exist_ok=True)
