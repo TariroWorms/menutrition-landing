@@ -74,6 +74,14 @@ CSS = '''<style>
 .why{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:10px 0 30px}.why div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}.why b{display:block}.why span{color:var(--muted);font-size:14px}
 @media(max-width:820px){.bento{grid-template-columns:1fr 1fr}.b-app,.b-plan,.b-cook,.b-dish{grid-column:span 2}.b-calc,.b-food,.b-diet,.b-allg{grid-column:span 1;min-height:170px}.b-app .txt{max-width:100%}.b-app img.ph{display:none}.b-app{min-height:230px}}
 @media(max-width:520px){.hero{padding:14px 0 0}.hero h1{font-size:28px}.hero p{font-size:15px;margin-top:8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.bento{margin-top:16px}.bt{padding:18px}.bt h3{font-size:21px}.b-dish .mos{display:none}.b-calc,.b-food,.b-diet,.b-allg{grid-column:span 2}}
+.bt.ph{background:linear-gradient(180deg,rgba(20,17,14,.08) 0%,rgba(20,17,14,.38) 45%,rgba(20,17,14,.84) 100%),var(--bg) center/cover no-repeat;color:#fff;border-color:transparent}
+.bt.ph h3{color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.35)}.bt.ph p{color:#f3eee6;opacity:1}.bt.ph .go{background:rgba(255,255,255,.94);color:#1f1b17}
+.bt.ph .ic{filter:drop-shadow(0 2px 6px rgba(0,0,0,.4))}.bt.ph button{background:#fff;color:#1f1b17}
+.b-app.ph{background:linear-gradient(90deg,rgba(20,17,14,.94) 0%,rgba(20,17,14,.78) 55%,rgba(20,17,14,.35) 100%),var(--bg) center/cover no-repeat}
+.b-app img.ph,.b-dish.ph .mos{display:none}.b-app .more{display:block;margin:12px 0 0}.b-app .txt{max-width:62%}
+@media(max-width:820px){.b-app .txt{max-width:100%}}
+@media(max-width:520px){.bt{min-height:190px}.b-calc,.b-food,.b-diet,.b-allg{min-height:170px}.b-app .more{display:block;margin:12px 0 0}
+.b-app.ph{background:linear-gradient(180deg,rgba(20,17,14,.6),rgba(20,17,14,.92)),var(--bg) center/cover no-repeat}.b-cook form{flex-direction:column}}
 </style>'''
 
 
@@ -165,16 +173,16 @@ def build():
 <main class="wrap">
 <section class="hero"><h1>{esc(t['h1a'])} <em>{esc(t['h1b'])}</em></h1><p>{esc(t['lead'])}</p></section>
 <section class="bento">
-<div class="bt b-app" id="app"><a class="go" href="{app_page}" aria-label="{esc(t['app_more'])}">→</a><span class="ic">📱</span><div class="txt"><h3><a href="{app_page}" style="color:inherit;text-decoration:none">{esc(t['app_h'])}</a></h3><p>{esc(t['app_d'])}</p>
+<div class="bt b-app ph" id="app" style="--bg:url(/shots/lunch_intl.webp)"><a class="go" href="{app_page}" aria-label="{esc(t['app_more'])}">→</a><span class="ic">📱</span><div class="txt"><h3><a href="{app_page}" style="color:inherit;text-decoration:none">{esc(t['app_h'])}</a></h3><p>{esc(t['app_d'])}</p>
 <a class="btn" href="{APP.format(lang=lang)}" target="_blank" rel="noopener">{esc(t['app_btn'])}</a><a class="more" href="{app_page}">{esc(t['app_more'])} →</a></div><img class="ph" src="/shots/lunch_intl.webp" alt="" width="170" height="340" loading="lazy"></div>
-<a class="bt b-calc" href="{cl}calculators/"><span class="go">→</span><span class="ic">🧮</span><h3>{esc(t['calcs'])}</h3><p>{esc(t['calcs_d'])}</p></a>
-<div class="bt b-cook"><span class="ic">🧊</span><h3>{esc(t['cook'])}</h3><p>{esc(t['cook_p'])}</p>
+<a class="bt b-calc ph" style="--bg:url(/assets/guides/calorie-table.webp)" href="{cl}calculators/"><span class="go">→</span><span class="ic">🧮</span><h3>{esc(t['calcs'])}</h3><p>{esc(t['calcs_d'])}</p></a>
+<div class="bt b-cook ph" style="--bg:url(/assets/guides/vegetarian.webp)"><span class="ic">🧊</span><h3>{esc(t['cook'])}</h3><p>{esc(t['cook_p'])}</p>
 <form action="{d5}dishes/cook/" method="get"><input name="q" placeholder="{esc(t['cook_ph'])}" aria-label="{esc(t['cook_h'])}"><button type="submit">{esc(t['cook_btn'])}</button></form></div>
-<a class="bt b-dish" href="{d5}dishes/"><span class="go">→</span><span class="ic">🍽️</span><div class="mos">{mos}</div><h3>{esc(t['dishes'])}</h3><p>{esc(t['dishes_d'].format(n=fmt(len(dishes))))}</p></a>
-<a class="bt b-food" href="{fd}foods/"><span class="go">→</span><span class="ic">🥕</span><h3>{esc(t['foods'])}</h3><p>{esc(t['foods_d'].format(n=fmt(n_foods)))}</p></a>
-<a class="bt b-diet" href="{d5}guides/#diets"><span class="go">→</span><span class="ic">🥗</span><h3>{esc(t['diets'])}</h3><p>{esc(t['diets_d'])}</p></a>
-<a class="bt b-allg" href="{d5}guides/#allergies"><span class="go">→</span><span class="ic">🌰</span><h3>{esc(t['allergies'])}</h3><p>{esc(t['allergies_d'])}</p></a>
-<a class="bt b-plan" href="{home_url(lang)}weight-loss-plan/"><span class="go">→</span><span class="ic">📉</span><h3>{esc(t['plan'])}</h3><p>{esc(t['plan_d'])}</p></a>
+<a class="bt b-dish ph" style="--bg:url(/assets/dishes/paella-valenciana@2x.webp)" href="{d5}dishes/"><span class="go">→</span><span class="ic">🍽️</span><div class="mos">{mos}</div><h3>{esc(t['dishes'])}</h3><p>{esc(t['dishes_d'].format(n=fmt(len(dishes))))}</p></a>
+<a class="bt b-food ph" style="--bg:url(/assets/guides/celery-allergy.webp)" href="{fd}foods/"><span class="go">→</span><span class="ic">🥕</span><h3>{esc(t['foods'])}</h3><p>{esc(t['foods_d'].format(n=fmt(n_foods)))}</p></a>
+<a class="bt b-diet ph" style="--bg:url(/assets/guides/vegan.webp)" href="{d5}guides/#diets"><span class="go">→</span><span class="ic">🥗</span><h3>{esc(t['diets'])}</h3><p>{esc(t['diets_d'])}</p></a>
+<a class="bt b-allg ph" style="--bg:url(/assets/guides/peanut-allergy.webp)" href="{d5}guides/#allergies"><span class="go">→</span><span class="ic">🌰</span><h3>{esc(t['allergies'])}</h3><p>{esc(t['allergies_d'])}</p></a>
+<a class="bt b-plan ph" style="--bg:url(/assets/guides/high-protein@2x.webp)" href="{home_url(lang)}weight-loss-plan/"><span class="go">→</span><span class="ic">📉</span><h3>{esc(t['plan'])}</h3><p>{esc(t['plan_d'])}</p></a>
 </section>
 <div class="pcs" style="margin:-14px 0 26px">{chips}</div>
 <h2>{esc(t['pop_h'])}</h2><div class="pop">{cards}</div>
