@@ -85,14 +85,15 @@
 .why{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:10px 0 30px}.why div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}.why b{display:block}.why span{color:var(--muted);font-size:14px}
 @media(max-width:820px){.bento{grid-template-columns:1fr 1fr}.b-app,.b-plan,.b-cook,.b-dish{grid-column:span 2}.b-calc,.b-food,.b-diet,.b-allg{grid-column:span 1;min-height:170px}.b-app .txt{max-width:100%}.b-app img.ph{display:none}.b-app{min-height:230px}}
 @media(max-width:520px){.hero{padding:14px 0 0}.hero h1{font-size:28px}.hero p{font-size:15px;margin-top:8px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.bento{margin-top:16px}.bt{padding:18px}.bt h3{font-size:21px}.b-dish .mos{display:none}.b-calc,.b-food,.b-diet,.b-allg{grid-column:span 2}}
-.bt.ph{background:linear-gradient(180deg,rgba(20,17,14,.08) 0%,rgba(20,17,14,.38) 45%,rgba(20,17,14,.84) 100%),var(--bg) center/cover no-repeat;color:#fff;border-color:transparent}
-.bt.ph h3{color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.35)}.bt.ph p{color:#f3eee6;opacity:1}.bt.ph .go{background:rgba(255,255,255,.94);color:#1f1b17}
-.bt.ph .ic{filter:drop-shadow(0 2px 6px rgba(0,0,0,.4))}.bt.ph button{background:#fff;color:#1f1b17}
-.b-app.ph{background:linear-gradient(90deg,rgba(20,17,14,.94) 0%,rgba(20,17,14,.78) 55%,rgba(20,17,14,.35) 100%),var(--bg) center/cover no-repeat}
+.bt.ph{isolation:isolate}
+.bt.ph::after{content:"";position:absolute;top:0;right:0;bottom:0;width:62%;background:var(--bg) center/cover no-repeat;opacity:.5;
+-webkit-mask-image:linear-gradient(to left,#000 15%,rgba(0,0,0,.55) 45%,transparent 92%);mask-image:linear-gradient(to left,#000 15%,rgba(0,0,0,.55) 45%,transparent 92%);z-index:-1;pointer-events:none}
+.b-app.ph::after{opacity:.55;width:58%}.b-plan.ph::after{opacity:.35;width:45%}
 .b-app img.ph,.b-dish.ph .mos{display:none}.b-app .more{display:block;margin:12px 0 0}.b-app .txt{max-width:62%}
 @media(max-width:820px){.b-app .txt{max-width:100%}}
-@media(max-width:520px){.bt{min-height:190px}.b-calc,.b-food,.b-diet,.b-allg{min-height:170px}.b-app .more{display:block;margin:12px 0 0}
-.b-app.ph{background:linear-gradient(180deg,rgba(20,17,14,.6),rgba(20,17,14,.92)),var(--bg) center/cover no-repeat}.b-cook form{flex-direction:column}}
+@media(max-width:520px){.bt{min-height:180px}.b-calc,.b-food,.b-diet,.b-allg{min-height:160px}
+.bt.ph::after{width:100%;opacity:.32;-webkit-mask-image:linear-gradient(to bottom left,#000 0%,rgba(0,0,0,.4) 40%,transparent 75%);mask-image:linear-gradient(to bottom left,#000 0%,rgba(0,0,0,.4) 40%,transparent 75%)}
+.b-app.ph::after{opacity:.4}.b-cook form{flex-direction:column}}
 </style>
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebSite", "name": "Me Nutrition", "url": "https://menutrition.app/", "inLanguage": "ko", "description": "무료 영양 도구: 세계 요리 2,300개 이상과 식품 9,500개 이상의 칼로리·탄단지, 냉장고 재료로 만들 요리, 식단, 알레르기, 계산기, 체중 감량 플랜."}, {"@context": "https://schema.org", "@type": "Organization", "name": "Me Nutrition", "url": "https://menutrition.app/", "logo": "https://menutrition.app/appicon.png", "sameAs": ["https://apps.apple.com/app/id6767123368"]}]</script>
 </head>
