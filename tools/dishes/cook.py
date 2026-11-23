@@ -151,6 +151,24 @@ UI = {
               'side': 'طبق جانبي', 'bread': 'خبز / معجنات', 'dessert': 'حلوى', 'drink': 'مشروب'},
         'nav': 'ماذا أطبخ',
     },
+    'es': {
+        'title': '¿Qué cocino? Platos con los ingredientes que tienes',
+        'meta': 'Elige los ingredientes que tienes en el refrigerador, la forma de cocción, el sabor y la cocina, y encuentra platos entre {n} recetas de todo el mundo, con calorías y macros.',
+        'h1': '¿Qué cocino?',
+        'intro': 'Marca lo que tienes en el refrigerador y cómo lo quieres: frito u horneado, picante o dulce, italiano o de cualquier cocina. Te mostramos todos los platos que encajan, con sus calorías.',
+        'products': 'Ingredientes que tienes', 'products_ph': 'Escribe un ingrediente: pollo, arroz, berenjena…',
+        'method': 'Forma de cocción', 'taste': 'Sabor', 'type': 'Tipo de plato', 'cuisine': 'Cocina', 'any': 'Cualquiera',
+        'popular': 'Populares', 'reset': 'Borrar', 'found': 'Platos que encajan', 'none': 'Ningún plato lleva todo esto. Quita un ingrediente o un filtro.',
+        'close': 'Opciones parecidas', 'swap': 'con {b} en vez de {a}', 'missing': 'sin {a}', 'more': 'Ver más',
+        'start': 'Elige un ingrediente o un filtro para ver platos.', 'kcal': 'kcal / 100 g', 'med': 'Mediterránea',
+        'm': {'fried': 'A la sartén', 'deep_fried': 'Frito en aceite abundante', 'baked': 'Al horno / asado', 'grilled': 'A la parrilla',
+              'stewed': 'Guisado / estofado', 'boiled': 'Hervido', 'steamed': 'Al vapor', 'raw': 'Crudo / sin cocción'},
+        't': {'spicy': 'Picante', 'sweet': 'Dulce', 'sour': 'Ácido', 'creamy': 'Cremoso / con queso', 'smoky': 'Ahumado',
+              'savory': 'Salado / contundente', 'herby': 'Aromático / con hierbas', 'crispy': 'Crujiente', 'fresh': 'Fresco / ligero'},
+        'y': {'main': 'Plato fuerte', 'soup': 'Sopa', 'salad': 'Ensalada', 'snack': 'Entrada / botana', 'breakfast': 'Desayuno',
+              'side': 'Guarnición', 'bread': 'Pan / masas', 'dessert': 'Postre', 'drink': 'Bebida'},
+        'nav': 'Qué cocinar',
+    },
 }
 
 
@@ -327,6 +345,10 @@ WITH_UI = {
            'h1': 'أطباق تحتوي على {x_l}', 'intro': '{n} طبقًا من {c} دولة تحتوي على {x_l}. افتح الطبق لمعرفة السعرات والعناصر الغذائية والوصفة، أو اجمع {x_l} مع مكونات أخرى.',
            'combine': 'اجمع مع مكونات أخرى ←', 'hub': 'الأطباق حسب المكوّن', 'hub_h1': 'الأطباق حسب المكوّن: ماذا أطبخ مما لدي',
            'hub_meta': 'ابحث عن الأطباق حسب المكوّن الرئيسي: دجاج، أرز، بيض، بطاطس، لحم بقري وغيرها — مع السعرات والصور.', 'more_p': 'مكونات أخرى'},
+    'es': {'title': 'Recetas con {x_l}: {n} platos con calorías', 'meta': '{n} platos con {x_l} de todo el mundo: calorías por 100 g, proteína y fotos. Elige por cocina, forma de cocción y sabor.',
+           'h1': 'Platos con {x_l}', 'intro': '{n} platos de {c} países que llevan {x_l}. Abre un plato para ver calorías, macros y una receta casera, o combina {x_l} con otros ingredientes.',
+           'combine': 'Combinar {x_l} con otros ingredientes →', 'hub': 'Platos por ingrediente', 'hub_h1': 'Platos por ingrediente: qué cocinar con lo que tienes',
+           'hub_meta': 'Encuentra platos por su ingrediente principal: pollo, arroz, huevo, papa, res y más, con calorías y fotos.', 'more_p': 'Más ingredientes'},
 }
 RU_GEN = {'курица': 'курицы', 'рис': 'риса', 'яйцо': 'яиц', 'яйца': 'яиц', 'картофель': 'картофеля', 'говядина': 'говядины', 'свинина': 'свинины',
           'баранина': 'баранины', 'помидор': 'помидоров', 'креветки': 'креветок', 'сыр': 'сыра', 'баклажан': 'баклажанов', 'чечевица': 'чечевицы',

@@ -340,7 +340,9 @@ CT = {  # country page texts: title, h1, intro, "all N" link, "other countries" 
     'it': ('{c}: {n} piatti con calorie e macro', 'Piatti: {c}', 'Calorie, proteine, grassi e carboidrati per {n} piatti: {c}, con le ricette.',
            'Tutti i {n} piatti · {c} →', 'Altri paesi', 'Tutti i piatti'),
     'el': ('{c}: {n} πιάτα με θερμίδες και μακροθρεπτικά', 'Πιάτα: {c}', 'Θερμίδες, πρωτεΐνη, λίπος και υδατάνθρακες για {n} πιάτα: {c}, με συνταγές.',
-           'Όλα τα {n} πιάτα · {c} →', 'Άλλες χώρες', 'Όλα τα πιάτα')}
+           'Όλα τα {n} πιάτα · {c} →', 'Άλλες χώρες', 'Όλα τα πιάτα'),
+    'es': ('{c}: {n} platos con calorías y macros', 'Platos: {c}', 'Calorías, proteína, grasa y carbohidratos de {n} platos: {c}, con recetas.',
+           'Los {n} platos · {c} →', 'Otros países', 'Todos los platos')}
 cpath = lambda lang, a: path(lang, 'country/' + a)
 
 
@@ -430,7 +432,8 @@ def index_page(lang, items, ui, langs, db, template, country=None):
 
 EXPLORE = {'en': ('Diets & allergies', 'Calorie & protein calculators', 'Foods: calories per 100 g'), 'ru': ('Диеты и аллергии', 'Калькуляторы калорий и белка', 'Продукты: калорийность'),
            'ar': ('الحميات والحساسية', 'حاسبات السعرات والبروتين', 'الأطعمة: السعرات الحرارية'), 'it': ('Diete e allergie', 'Calcolatori di calorie e proteine', 'Alimenti: calorie'),
-           'el': ('Δίαιτες και αλλεργίες', 'Υπολογιστές θερμίδων και πρωτεΐνης', 'Τρόφιμα: θερμίδες')}   # row under the dishes index intro
+           'el': ('Δίαιτες και αλλεργίες', 'Υπολογιστές θερμίδων και πρωτεΐνης', 'Τρόφιμα: θερμίδες'),
+           'es': ('Dietas y alergias', 'Calculadoras de calorías y proteína', 'Alimentos: calorías')}   # row under the dishes index intro
 METHOD = 'how-we-count'   # /dishes/how-we-count/ — how the numbers, labels and texts are made (method.json)
 
 
@@ -712,6 +715,10 @@ def main():
     if skipped:
         print(f'skipped {len(skipped)} (duplicates or not in the database): {", ".join(skipped[:10])}')
     langs = [l for l in ui if any(l in c['i18n'] for c in contents.values())]
+    # a language is built only when at least one dish has its text (e.g. Spanish: dishes with i18n.es);
+    # the site menu links its dish section from now on
+    import sitenav
+    sitenav.D5.update(langs)
 
     pages = []
     # "What can I cook?" — the fridge combinator

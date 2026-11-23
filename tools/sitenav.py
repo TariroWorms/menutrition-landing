@@ -3,7 +3,9 @@ this language links to its English version."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-D5 = {'en', 'ru', 'ar', 'it', 'el'}
+# languages with a dish section; Spanish (and any later one) joins once its /<lang>/dishes/ hub exists
+# (build_dishes.py also adds the languages it is building right now)
+D5 = {'en', 'ru', 'ar', 'it', 'el'} | {p.parent.parent.name for p in ROOT.glob('*/dishes/index.html')}
 FOODS = D5 | {'es', 'de'}
 CALC = {'en'} | {p.parent.name for p in ROOT.glob('*/calculators/index.html')}
 LABELS = {  # dishes, cook, foods, diets, allergies, calculators, weight-loss plan, app

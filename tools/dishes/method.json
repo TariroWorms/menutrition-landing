@@ -173,5 +173,69 @@
         "Γράψτε στο support@menutrition.app με τη διεύθυνση της σελίδας και τι είναι λάθος — διορθώνουμε τα δεδομένα στον ιστότοπο και στην εφαρμογή."]}
     ],
     "updated": "Βάση πιάτων v{version} · η σελίδα ενημερώθηκε τον Οκτώβριο 2026"
+  },
+  "es": {
+    "link": "Cómo calculamos",
+    "title": "Cómo calculamos calorías, dietas y alérgenos",
+    "meta": "De dónde salen las calorías y los macros de las páginas de platos de Me Nutrition, cómo se determinan las dietas y los alérgenos, y cómo se elaboran los textos y las traducciones.",
+    "h1": "Cómo calculamos",
+    "intro": "Cada página de plato muestra calorías, proteína, grasa y carbohidratos, etiquetas de dieta, alérgenos, una receta y una breve historia. Aquí explicamos de dónde sale cada parte y cuáles son sus límites.",
+    "sections": [
+      {
+        "h": "Calorías y macros",
+        "p": [
+          "Los datos provienen de la base de datos de platos de Me Nutrition, la misma que usa la app cuando le tomas una foto a tu comida. Cada plato tiene calorías, proteína, grasa y carbohidratos por 100 g de una receta típica, y sus ingredientes principales aparecen en la página.",
+          "«Por porción» es el valor por 100 g multiplicado por una porción típica de ese plato, que se indica al lado (por ejemplo, 350 g de sopa o 250 ml de una bebida). Los valores están redondeados."
+        ]
+      },
+      {
+        "h": "Por qué tu plato puede ser distinto",
+        "p": [
+          "Un plato nunca se cocina igual dos veces: más aceite, una salsa más cremosa o una porción más grande cambian el resultado. Nuestros datos describen una versión típica, no la receta de un restaurante o de una casa en particular. En la app puedes corregir la porción, o indicar que comiste solo la mitad, y los totales se actualizan."
+        ]
+      },
+      {
+        "h": "Etiquetas de dieta",
+        "p": [
+          "Las etiquetas no se escriben a mano. Se obtienen con reglas fijas a partir de los ingredientes de la receta típica, y cada etiqueta muestra el motivo: los ingredientes que la determinaron."
+        ],
+        "list": [
+          "Vegetariano: sin carne, pescado, mariscos ni gelatina.",
+          "Vegano: sin ningún producto animal, incluidos lácteos, huevo y miel.",
+          "Sin cerdo: sin cerdo ni productos derivados; para ser halal, además, la carne debe provenir de sacrificio halal.",
+          "Sin gluten / sin lácteos: ninguno de estos alérgenos en la receta típica.",
+          "Apto para keto: 5 g de carbohidratos o menos por 100 g; bajo en carbohidratos: hasta 10 g.",
+          "Alto en proteína: al menos 10 g de proteína por 100 g y al menos el 25% de las calorías provenientes de la proteína.",
+          "«Revisar»: cuando un ingrediente puede ser de uno u otro tipo (por ejemplo, el caldo o la gelatina), lo decimos en lugar de adivinar."
+        ]
+      },
+      {
+        "h": "Alérgenos",
+        "p": [
+          "Marcamos los 14 alérgenos alimentarios principales reconocidos en la UE (gluten, crustáceos, huevo, pescado, cacahuate, soya, leche, frutos secos, apio, mostaza, ajonjolí, sulfitos, altramuz y moluscos) cuando forman parte de la receta típica.",
+          "Las recetas varían y no cubrimos las trazas, así que si tienes una alergia, confírmalo siempre con quien preparó el plato."
+        ]
+      },
+      {
+        "h": "Recetas, historia y traducciones",
+        "p": [
+          "Las descripciones, recetas, consejos e historias se redactaron con ayuda de IA y se revisaron contra la base de datos: los mismos ingredientes, cantidades que cuadran y ninguna afirmación de salud. Las fechas y los orígenes se limitan a lo que está ampliamente documentado.",
+          "Las traducciones a otros idiomas también se hicieron con ayuda de IA a partir del texto en inglés. Si algo suena mal en tu idioma, avísanos y lo corregimos."
+        ]
+      },
+      {
+        "h": "No es un consejo médico",
+        "p": [
+          "Los datos son estimaciones para el registro diario de lo que comes. No son un consejo médico ni dietético: para dietas médicas, alergias o diabetes, sigue las indicaciones de tu médico o nutriólogo."
+        ]
+      },
+      {
+        "h": "¿Encontraste un error?",
+        "p": [
+          "Escribe a support@menutrition.app con la dirección de la página y lo que está mal: corregimos los datos en el sitio y en la app."
+        ]
+      }
+    ],
+    "updated": "Base de datos de platos v{version} · página actualizada en octubre de 2026"
   }
 }
