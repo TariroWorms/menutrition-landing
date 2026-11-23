@@ -1,159 +1,189 @@
 {
-  "db_key": "pulled_pork",
-  "slug": "pulled-pork",
-  "emoji": "🐖",
-  "portion_g": 200,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pulled_pork",
+ "slug": "pulled-pork",
+ "emoji": "🐖",
+ "portion_g": 200,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pulled Pork",
+   "origin": "United States · the South",
+   "intro": "Pulled pork is pork shoulder rubbed with spices and smoked or slow-cooked for many hours until it is tender enough to pull apart with forks. The shredded meat is tossed with a tangy vinegar mop and barbecue sauce, giving it a smoky, sweet and sharp flavour. It is served on its own as a barbecue plate or piled into sandwiches.",
+   "history": "Slow-smoked pork is one of the oldest forms of barbecue in the American South, with strong regional styles in the Carolinas, Tennessee and beyond. Eastern North Carolina is known for a thin vinegar-and-pepper sauce, while other areas favour sweeter tomato-based sauces.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 600,
+    "ingredients": [
+     "2 kg pork shoulder",
+     "3 tbsp spice rub (paprika, garlic powder, black pepper, brown sugar, salt)",
+     "120 ml cider vinegar",
+     "1 tsp chilli flakes",
+     "200 ml barbecue sauce"
+    ],
+    "steps": [
+     "Rub the pork all over with the spice mix and leave for at least 1 hour or overnight in the fridge.",
+     "Smoke or roast at about 110–120 °C for 8–10 hours, until very tender.",
+     "Rest the meat for 30 minutes, then pull it into shreds with two forks, discarding excess fat.",
+     "Mix the vinegar with the chilli flakes and toss through the meat.",
+     "Stir in the barbecue sauce and serve warm."
+    ]
+   },
+   "tips": [
+    "Trim and discard visible fat after cooking; it noticeably lowers the calories per portion.",
+    "Use less barbecue sauce and more vinegar for flavour, since the sauce adds most of the sugar.",
+    "Serve over a large green salad or raw vegetables instead of a bun."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pulled Pork",
-      "origin": "United States · the South",
-      "intro": "Pulled pork is pork shoulder rubbed with spices and smoked or slow-cooked for many hours until it is tender enough to pull apart with forks. The shredded meat is tossed with a tangy vinegar mop and barbecue sauce, giving it a smoky, sweet and sharp flavour. It is served on its own as a barbecue plate or piled into sandwiches.",
-      "history": "Slow-smoked pork is one of the oldest forms of barbecue in the American South, with strong regional styles in the Carolinas, Tennessee and beyond. Eastern North Carolina is known for a thin vinegar-and-pepper sauce, while other areas favour sweeter tomato-based sauces.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 600,
-        "ingredients": [
-          "2 kg pork shoulder",
-          "3 tbsp spice rub (paprika, garlic powder, black pepper, brown sugar, salt)",
-          "120 ml cider vinegar",
-          "1 tsp chilli flakes",
-          "200 ml barbecue sauce"
-        ],
-        "steps": [
-          "Rub the pork all over with the spice mix and leave for at least 1 hour or overnight in the fridge.",
-          "Smoke or roast at about 110–120 °C for 8–10 hours, until very tender.",
-          "Rest the meat for 30 minutes, then pull it into shreds with two forks, discarding excess fat.",
-          "Mix the vinegar with the chilli flakes and toss through the meat.",
-          "Stir in the barbecue sauce and serve warm."
-        ]
-      },
-      "tips": [
-        "Trim and discard visible fat after cooking; it noticeably lowers the calories per portion.",
-        "Use less barbecue sauce and more vinegar for flavour, since the sauce adds most of the sugar.",
-        "Serve over a large green salad or raw vegetables instead of a bun."
-      ]
-    },
-    "ar": {
-      "name": "لحم خنزير مسحوب (بولد بورك)",
-      "origin": "الولايات المتحدة · الجنوب",
-      "intro": "البولد بورك كتف خنزير يُدهن بالتوابل ويُدخَّن أو يُطهى ببطء لساعات طويلة حتى يصبح طريًا يمكن تمزيقه بالشوك. يُخلط اللحم الممزق بخل حامض وصلصة باربكيو، فتأتي نكهته مدخنة وحلوة وحادة في آن. يُقدَّم وحده كطبق باربكيو أو يُحشى في السندويشات.",
-      "history": "يُعد لحم الخنزير المدخن ببطء من أقدم أشكال الباربكيو في الجنوب الأمريكي، مع أساليب إقليمية قوية في كارولاينا وتينيسي وغيرها. وتشتهر شرق كارولاينا الشمالية بصلصة خفيفة من الخل والفلفل، بينما تفضّل مناطق أخرى صلصات أحلى أساسها الطماطم.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 600,
-        "ingredients": [
-          "2 كغ كتف خنزير",
-          "3 ملاعق كبيرة خلطة توابل (بابريكا، ثوم بودرة، فلفل أسود، سكر بني، ملح)",
-          "120 مل خل تفاح",
-          "1 ملعقة صغيرة رقائق فلفل حار",
-          "200 مل صلصة باربكيو"
-        ],
-        "steps": [
-          "افرك اللحم بخلطة التوابل واتركه ساعة على الأقل أو ليلة في الثلاجة.",
-          "دخّنه أو اشوِه على حرارة 110–120 °م لمدة 8–10 ساعات حتى يصبح طريًا جدًا.",
-          "اترك اللحم يرتاح 30 دقيقة ثم مزّقه بشوكتين وتخلّص من الدهن الزائد.",
-          "اخلط الخل مع رقائق الفلفل وقلّبه مع اللحم.",
-          "أضف صلصة الباربكيو وقدّمه دافئًا."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر بعد الطهي، فهذا يخفض السعرات في الحصة بشكل ملحوظ.",
-        "استخدم صلصة باربكيو أقل وخلًا أكثر للنكهة، لأن الصلصة مصدر معظم السكر.",
-        "قدّمه فوق سلطة خضراء كبيرة أو خضار بدل الخبز."
-      ]
-    },
-    "it": {
-      "name": "Pulled pork",
-      "origin": "Stati Uniti · il Sud",
-      "intro": "Il pulled pork è spalla di maiale massaggiata con spezie e affumicata o cotta lentamente per molte ore, finché è così tenera da potersi sfilacciare con le forchette. La carne sfilacciata viene condita con una salsa acidula all'aceto e con salsa barbecue, che le danno un sapore affumicato, dolce e pungente. Si serve da solo come piatto barbecue o abbondante dentro i panini.",
-      "history": "Il maiale affumicato lentamente è una delle forme più antiche di barbecue del Sud degli Stati Uniti, con forti stili regionali nelle Caroline, nel Tennessee e altrove. La Carolina del Nord orientale è nota per una salsa liquida di aceto e pepe, mentre altre zone preferiscono salse più dolci a base di pomodoro.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 600,
-        "ingredients": [
-          "2 kg di spalla di maiale",
-          "3 cucchiai di miscela di spezie (paprika, aglio in polvere, pepe nero, zucchero di canna, sale)",
-          "120 ml di aceto di mele",
-          "1 cucchiaino di peperoncino in fiocchi",
-          "200 ml di salsa barbecue"
-        ],
-        "steps": [
-          "Massaggia il maiale su tutti i lati con la miscela di spezie e lascialo riposare almeno 1 ora o tutta la notte in frigorifero.",
-          "Affumicalo o arrostiscilo a circa 110–120 °C per 8–10 ore, finché è molto tenero.",
-          "Lascia riposare la carne per 30 minuti, poi sfilacciala con due forchette, eliminando il grasso in eccesso.",
-          "Mescola l'aceto con il peperoncino in fiocchi e condisci la carne.",
-          "Unisci la salsa barbecue e servi caldo."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dopo la cottura: abbassa sensibilmente le calorie per porzione.",
-        "Usa meno salsa barbecue e più aceto per il sapore, dato che la salsa apporta la maggior parte degli zuccheri.",
-        "Servilo su un'abbondante insalata verde o su verdure crude invece che nel panino."
-      ]
-    },
-    "el": {
-      "name": "Πουλντ πορκ",
-      "origin": "Ηνωμένες Πολιτείες · ο Νότος",
-      "intro": "Το πουλντ πορκ είναι χοιρινή σπάλα τριμμένη με μπαχαρικά και καπνισμένη ή μαγειρεμένη αργά για πολλές ώρες, μέχρι να γίνει τόσο τρυφερή που ξεφτίζει με πιρούνια. Το ξεφτισμένο κρέας ανακατεύεται με μια ξινή σάλτσα ξιδιού και σάλτσα μπάρμπεκιου, που του δίνουν καπνιστή, γλυκιά και έντονη γεύση. Σερβίρεται σκέτο ως πιάτο μπάρμπεκιου ή γεμίζει σάντουιτς.",
-      "history": "Το αργοκαπνισμένο χοιρινό είναι από τις παλαιότερες μορφές μπάρμπεκιου στον αμερικανικό Νότο, με έντονα τοπικά στιλ στις Καρολίνες, στο Τενεσί και αλλού. Η ανατολική Βόρεια Καρολίνα είναι γνωστή για μια αραιή σάλτσα από ξίδι και πιπέρι, ενώ άλλες περιοχές προτιμούν πιο γλυκές σάλτσες με βάση τη ντομάτα.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 600,
-        "ingredients": [
-          "2 κιλά χοιρινή σπάλα",
-          "3 κ.σ. μείγμα μπαχαρικών (πάπρικα, σκόρδο σε σκόνη, μαύρο πιπέρι, καστανή ζάχαρη, αλάτι)",
-          "120 ml μηλόξιδο",
-          "1 κ.γ. νιφάδες τσίλι",
-          "200 ml σάλτσα μπάρμπεκιου"
-        ],
-        "steps": [
-          "Τρίψτε το χοιρινό παντού με το μείγμα μπαχαρικών και αφήστε το για τουλάχιστον 1 ώρα ή όλη τη νύχτα στο ψυγείο.",
-          "Καπνίστε ή ψήστε το στους περίπου 110–120 °C για 8–10 ώρες, μέχρι να γίνει πολύ τρυφερό.",
-          "Αφήστε το κρέας να ξεκουραστεί για 30 λεπτά, έπειτα ξεφτίστε το με δύο πιρούνια, πετώντας το περιττό λίπος.",
-          "Ανακατέψτε το ξίδι με τις νιφάδες τσίλι και περιχύστε το κρέας.",
-          "Προσθέστε τη σάλτσα μπάρμπεκιου και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε και πετάξτε το ορατό λίπος μετά το ψήσιμο· μειώνει αισθητά τις θερμίδες ανά μερίδα.",
-        "Χρησιμοποιήστε λιγότερη σάλτσα μπάρμπεκιου και περισσότερο ξίδι για γεύση, αφού η σάλτσα δίνει το μεγαλύτερο μέρος της ζάχαρης.",
-        "Σερβίρετέ το πάνω σε μια μεγάλη πράσινη σαλάτα ή ωμά λαχανικά αντί για ψωμάκι."
-      ]
-    },
-    "ru": {
-      "name": "Пулд-порк (рваная свинина)",
-      "origin": "США · Юг",
-      "intro": "Пулд-порк — свиная лопатка, натёртая специями и копчёная или медленно томлёная много часов, пока не станет настолько нежной, что разделяется вилками на волокна. Разобранное мясо смешивают с пикантной уксусной заправкой и соусом барбекю, что придаёт ему дымный, сладкий и острый вкус. Его подают отдельно, как тарелку барбекю, или накладывают горкой в сэндвичи.",
-      "history": "Медленно копчёная свинина — одна из древнейших форм барбекю на юге США, с ярко выраженными региональными стилями в Каролинах, Теннесси и за их пределами. Восточная Северная Каролина известна жидким соусом из уксуса и перца, тогда как в других районах предпочитают более сладкие соусы на основе томатов.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 600,
-        "ingredients": [
-          "2 кг свиной лопатки",
-          "3 ст. л. смеси специй для натирания (паприка, чесночный порошок, чёрный перец, коричневый сахар, соль)",
-          "120 мл яблочного уксуса",
-          "1 ч. л. хлопьев чили",
-          "200 мл соуса барбекю"
-        ],
-        "steps": [
-          "Натрите свинину со всех сторон смесью специй и оставьте минимум на 1 час или на ночь в холодильнике.",
-          "Коптите или запекайте при 110–120 °C 8–10 часов до очень нежного состояния.",
-          "Дайте мясу отдохнуть 30 минут, затем разберите его двумя вилками на волокна, удаляя лишний жир.",
-          "Смешайте уксус с хлопьями чили и перемешайте с мясом.",
-          "Добавьте соус барбекю и подавайте тёплым."
-        ]
-      },
-      "tips": [
-        "Срежьте и выбросьте видимый жир после приготовления; это заметно снижает калорийность порции.",
-        "Используйте меньше соуса барбекю и больше уксуса для вкуса, поскольку соус даёт большую часть сахара.",
-        "Подавайте на большом зелёном салате или сырых овощах вместо булки."
-      ]
-    }
+  "ar": {
+   "name": "لحم خنزير مسحوب (بولد بورك)",
+   "origin": "الولايات المتحدة · الجنوب",
+   "intro": "البولد بورك كتف خنزير يُدهن بالتوابل ويُدخَّن أو يُطهى ببطء لساعات طويلة حتى يصبح طريًا يمكن تمزيقه بالشوك. يُخلط اللحم الممزق بخل حامض وصلصة باربكيو، فتأتي نكهته مدخنة وحلوة وحادة في آن. يُقدَّم وحده كطبق باربكيو أو يُحشى في السندويشات.",
+   "history": "يُعد لحم الخنزير المدخن ببطء من أقدم أشكال الباربكيو في الجنوب الأمريكي، مع أساليب إقليمية قوية في كارولاينا وتينيسي وغيرها. وتشتهر شرق كارولاينا الشمالية بصلصة خفيفة من الخل والفلفل، بينما تفضّل مناطق أخرى صلصات أحلى أساسها الطماطم.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 600,
+    "ingredients": [
+     "2 كغ كتف خنزير",
+     "3 ملاعق كبيرة خلطة توابل (بابريكا، ثوم بودرة، فلفل أسود، سكر بني، ملح)",
+     "120 مل خل تفاح",
+     "1 ملعقة صغيرة رقائق فلفل حار",
+     "200 مل صلصة باربكيو"
+    ],
+    "steps": [
+     "افرك اللحم بخلطة التوابل واتركه ساعة على الأقل أو ليلة في الثلاجة.",
+     "دخّنه أو اشوِه على حرارة 110–120 °م لمدة 8–10 ساعات حتى يصبح طريًا جدًا.",
+     "اترك اللحم يرتاح 30 دقيقة ثم مزّقه بشوكتين وتخلّص من الدهن الزائد.",
+     "اخلط الخل مع رقائق الفلفل وقلّبه مع اللحم.",
+     "أضف صلصة الباربكيو وقدّمه دافئًا."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر بعد الطهي، فهذا يخفض السعرات في الحصة بشكل ملحوظ.",
+    "استخدم صلصة باربكيو أقل وخلًا أكثر للنكهة، لأن الصلصة مصدر معظم السكر.",
+    "قدّمه فوق سلطة خضراء كبيرة أو خضار بدل الخبز."
+   ]
+  },
+  "it": {
+   "name": "Pulled pork",
+   "origin": "Stati Uniti · il Sud",
+   "intro": "Il pulled pork è spalla di maiale massaggiata con spezie e affumicata o cotta lentamente per molte ore, finché è così tenera da potersi sfilacciare con le forchette. La carne sfilacciata viene condita con una salsa acidula all'aceto e con salsa barbecue, che le danno un sapore affumicato, dolce e pungente. Si serve da solo come piatto barbecue o abbondante dentro i panini.",
+   "history": "Il maiale affumicato lentamente è una delle forme più antiche di barbecue del Sud degli Stati Uniti, con forti stili regionali nelle Caroline, nel Tennessee e altrove. La Carolina del Nord orientale è nota per una salsa liquida di aceto e pepe, mentre altre zone preferiscono salse più dolci a base di pomodoro.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 600,
+    "ingredients": [
+     "2 kg di spalla di maiale",
+     "3 cucchiai di miscela di spezie (paprika, aglio in polvere, pepe nero, zucchero di canna, sale)",
+     "120 ml di aceto di mele",
+     "1 cucchiaino di peperoncino in fiocchi",
+     "200 ml di salsa barbecue"
+    ],
+    "steps": [
+     "Massaggia il maiale su tutti i lati con la miscela di spezie e lascialo riposare almeno 1 ora o tutta la notte in frigorifero.",
+     "Affumicalo o arrostiscilo a circa 110–120 °C per 8–10 ore, finché è molto tenero.",
+     "Lascia riposare la carne per 30 minuti, poi sfilacciala con due forchette, eliminando il grasso in eccesso.",
+     "Mescola l'aceto con il peperoncino in fiocchi e condisci la carne.",
+     "Unisci la salsa barbecue e servi caldo."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dopo la cottura: abbassa sensibilmente le calorie per porzione.",
+    "Usa meno salsa barbecue e più aceto per il sapore, dato che la salsa apporta la maggior parte degli zuccheri.",
+    "Servilo su un'abbondante insalata verde o su verdure crude invece che nel panino."
+   ]
+  },
+  "el": {
+   "name": "Πουλντ πορκ",
+   "origin": "Ηνωμένες Πολιτείες · ο Νότος",
+   "intro": "Το πουλντ πορκ είναι χοιρινή σπάλα τριμμένη με μπαχαρικά και καπνισμένη ή μαγειρεμένη αργά για πολλές ώρες, μέχρι να γίνει τόσο τρυφερή που ξεφτίζει με πιρούνια. Το ξεφτισμένο κρέας ανακατεύεται με μια ξινή σάλτσα ξιδιού και σάλτσα μπάρμπεκιου, που του δίνουν καπνιστή, γλυκιά και έντονη γεύση. Σερβίρεται σκέτο ως πιάτο μπάρμπεκιου ή γεμίζει σάντουιτς.",
+   "history": "Το αργοκαπνισμένο χοιρινό είναι από τις παλαιότερες μορφές μπάρμπεκιου στον αμερικανικό Νότο, με έντονα τοπικά στιλ στις Καρολίνες, στο Τενεσί και αλλού. Η ανατολική Βόρεια Καρολίνα είναι γνωστή για μια αραιή σάλτσα από ξίδι και πιπέρι, ενώ άλλες περιοχές προτιμούν πιο γλυκές σάλτσες με βάση τη ντομάτα.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 600,
+    "ingredients": [
+     "2 κιλά χοιρινή σπάλα",
+     "3 κ.σ. μείγμα μπαχαρικών (πάπρικα, σκόρδο σε σκόνη, μαύρο πιπέρι, καστανή ζάχαρη, αλάτι)",
+     "120 ml μηλόξιδο",
+     "1 κ.γ. νιφάδες τσίλι",
+     "200 ml σάλτσα μπάρμπεκιου"
+    ],
+    "steps": [
+     "Τρίψτε το χοιρινό παντού με το μείγμα μπαχαρικών και αφήστε το για τουλάχιστον 1 ώρα ή όλη τη νύχτα στο ψυγείο.",
+     "Καπνίστε ή ψήστε το στους περίπου 110–120 °C για 8–10 ώρες, μέχρι να γίνει πολύ τρυφερό.",
+     "Αφήστε το κρέας να ξεκουραστεί για 30 λεπτά, έπειτα ξεφτίστε το με δύο πιρούνια, πετώντας το περιττό λίπος.",
+     "Ανακατέψτε το ξίδι με τις νιφάδες τσίλι και περιχύστε το κρέας.",
+     "Προσθέστε τη σάλτσα μπάρμπεκιου και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε και πετάξτε το ορατό λίπος μετά το ψήσιμο· μειώνει αισθητά τις θερμίδες ανά μερίδα.",
+    "Χρησιμοποιήστε λιγότερη σάλτσα μπάρμπεκιου και περισσότερο ξίδι για γεύση, αφού η σάλτσα δίνει το μεγαλύτερο μέρος της ζάχαρης.",
+    "Σερβίρετέ το πάνω σε μια μεγάλη πράσινη σαλάτα ή ωμά λαχανικά αντί για ψωμάκι."
+   ]
+  },
+  "ru": {
+   "name": "Пулд-порк (рваная свинина)",
+   "origin": "США · Юг",
+   "intro": "Пулд-порк — свиная лопатка, натёртая специями и копчёная или медленно томлёная много часов, пока не станет настолько нежной, что разделяется вилками на волокна. Разобранное мясо смешивают с пикантной уксусной заправкой и соусом барбекю, что придаёт ему дымный, сладкий и острый вкус. Его подают отдельно, как тарелку барбекю, или накладывают горкой в сэндвичи.",
+   "history": "Медленно копчёная свинина — одна из древнейших форм барбекю на юге США, с ярко выраженными региональными стилями в Каролинах, Теннесси и за их пределами. Восточная Северная Каролина известна жидким соусом из уксуса и перца, тогда как в других районах предпочитают более сладкие соусы на основе томатов.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 600,
+    "ingredients": [
+     "2 кг свиной лопатки",
+     "3 ст. л. смеси специй для натирания (паприка, чесночный порошок, чёрный перец, коричневый сахар, соль)",
+     "120 мл яблочного уксуса",
+     "1 ч. л. хлопьев чили",
+     "200 мл соуса барбекю"
+    ],
+    "steps": [
+     "Натрите свинину со всех сторон смесью специй и оставьте минимум на 1 час или на ночь в холодильнике.",
+     "Коптите или запекайте при 110–120 °C 8–10 часов до очень нежного состояния.",
+     "Дайте мясу отдохнуть 30 минут, затем разберите его двумя вилками на волокна, удаляя лишний жир.",
+     "Смешайте уксус с хлопьями чили и перемешайте с мясом.",
+     "Добавьте соус барбекю и подавайте тёплым."
+    ]
+   },
+   "tips": [
+    "Срежьте и выбросьте видимый жир после приготовления; это заметно снижает калорийность порции.",
+    "Используйте меньше соуса барбекю и больше уксуса для вкуса, поскольку соус даёт большую часть сахара.",
+    "Подавайте на большом зелёном салате или сырых овощах вместо булки."
+   ]
+  },
+  "es": {
+   "name": "Pulled pork (cerdo desmenuzado)",
+   "origin": "Estados Unidos · el Sur",
+   "intro": "El pulled pork es paleta de cerdo frotada con especias y ahumada o cocida lentamente durante muchas horas hasta quedar tan tierna que se deshebra con tenedores. La carne desmenuzada se mezcla con un aderezo ácido de vinagre y salsa barbacoa, lo que le da un sabor ahumado, dulce y picante. Se sirve sola como plato de barbacoa o en sándwiches.",
+   "history": "El cerdo ahumado lentamente es una de las formas más antiguas de barbacoa en el Sur de Estados Unidos, con estilos regionales muy marcados en las Carolinas, Tennessee y más allá. El este de Carolina del Norte es conocido por su salsa fina de vinagre y pimienta, mientras que otras zonas prefieren salsas más dulces a base de jitomate.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 600,
+    "ingredients": [
+     "2 kg de paleta de cerdo",
+     "3 cda. de mezcla de especias (pimentón, ajo en polvo, pimienta negra, azúcar morena, sal)",
+     "120 ml de vinagre de manzana",
+     "1 cdta. de hojuelas de chile",
+     "200 ml de salsa barbacoa"
+    ],
+    "steps": [
+     "Frota el cerdo por todos lados con la mezcla de especias y déjalo reposar por lo menos 1 hora, o toda la noche en el refrigerador.",
+     "Ahúma o asa a unos 110–120 °C de 8 a 10 horas, hasta que esté muy tierno.",
+     "Deja reposar la carne 30 minutos y deshébrala con dos tenedores, descartando el exceso de grasa.",
+     "Mezcla el vinagre con las hojuelas de chile y báñala sobre la carne.",
+     "Incorpora la salsa barbacoa y sirve tibio."
+    ]
+   },
+   "tips": [
+    "Quita y desecha la grasa visible después de cocinar; baja notablemente las calorías por porción.",
+    "Usa menos salsa barbacoa y más vinagre para dar sabor, ya que la salsa aporta la mayor parte del azúcar.",
+    "Sírvelo sobre una ensalada verde grande o verduras crudas en lugar de un pan."
+   ],
+   "name_inline": "el pulled pork"
   }
+ }
 }

@@ -1,177 +1,210 @@
 {
-  "db_key": "pho_chay",
-  "slug": "pho-chay",
-  "emoji": "🍜",
-  "portion_g": 500,
-  "country": "VN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pho_chay",
+ "slug": "pho-chay",
+ "emoji": "🍜",
+ "portion_g": 500,
+ "country": "VN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pho chay (vegan pho)",
+   "origin": "Vietnam",
+   "intro": "Pho chay is the vegan version of Vietnamese pho. The broth is simmered from vegetables such as charred onion, ginger, carrot and daikon with star anise and cinnamon, giving the familiar aromatic flavour without meat. It is poured over rice noodles and pan-fried tofu and served with bean sprouts, Thai basil and lime.",
+   "history": "Vegetarian pho is closely tied to Vietnam's Buddhist food tradition, in which meat-free versions of popular dishes are cooked for temple meals and observance days. Today it is widely sold at vegetarian restaurants in Vietnam and abroad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 onion and a 5 cm piece of ginger, charred",
+     "2 carrots and 1 small daikon, in chunks",
+     "3 star anise and 1 cinnamon stick",
+     "2 litres water, salt and a little sugar",
+     "300 g firm tofu, sliced",
+     "400 g flat rice noodles",
+     "1 tbsp oil",
+     "Bean sprouts, Thai basil and lime wedges to serve"
+    ],
+    "steps": [
+     "Simmer the charred onion and ginger, carrots, daikon, star anise and cinnamon in the water for 1 hour.",
+     "Strain the broth and season with salt and a little sugar.",
+     "Pan-fry the tofu in the oil until golden.",
+     "Cook the noodles, divide into bowls and top with tofu.",
+     "Pour over the hot broth and serve with sprouts, basil and lime."
+    ]
+   },
+   "tips": [
+    "Bake or steam the tofu instead of pan-frying it to save oil.",
+    "Add extra vegetables such as bok choy or mushrooms to the bowl.",
+    "Use a smaller nest of noodles and more broth and sprouts."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pho chay (vegan pho)",
-      "origin": "Vietnam",
-      "intro": "Pho chay is the vegan version of Vietnamese pho. The broth is simmered from vegetables such as charred onion, ginger, carrot and daikon with star anise and cinnamon, giving the familiar aromatic flavour without meat. It is poured over rice noodles and pan-fried tofu and served with bean sprouts, Thai basil and lime.",
-      "history": "Vegetarian pho is closely tied to Vietnam's Buddhist food tradition, in which meat-free versions of popular dishes are cooked for temple meals and observance days. Today it is widely sold at vegetarian restaurants in Vietnam and abroad.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 onion and a 5 cm piece of ginger, charred",
-          "2 carrots and 1 small daikon, in chunks",
-          "3 star anise and 1 cinnamon stick",
-          "2 litres water, salt and a little sugar",
-          "300 g firm tofu, sliced",
-          "400 g flat rice noodles",
-          "1 tbsp oil",
-          "Bean sprouts, Thai basil and lime wedges to serve"
-        ],
-        "steps": [
-          "Simmer the charred onion and ginger, carrots, daikon, star anise and cinnamon in the water for 1 hour.",
-          "Strain the broth and season with salt and a little sugar.",
-          "Pan-fry the tofu in the oil until golden.",
-          "Cook the noodles, divide into bowls and top with tofu.",
-          "Pour over the hot broth and serve with sprouts, basil and lime."
-        ]
-      },
-      "tips": [
-        "Bake or steam the tofu instead of pan-frying it to save oil.",
-        "Add extra vegetables such as bok choy or mushrooms to the bowl.",
-        "Use a smaller nest of noodles and more broth and sprouts."
-      ]
-    },
-    "ar": {
-      "name": "فو شاي (فو نباتي)",
-      "origin": "فيتنام",
-      "intro": "فو شاي هو النسخة النباتية الصرفة من الفو الفيتنامي. يُطهى المرق من الخضار مثل البصل والزنجبيل المشويين والجزر والفجل الأبيض مع اليانسون النجمي والقرفة، فيمنح النكهة العطرية المعروفة دون لحم. يُسكب فوق نودلز الأرز والتوفو المحمّر، ويُقدَّم مع براعم الفاصولياء والريحان التايلندي والليمون الأخضر.",
-      "history": "يرتبط الفو النباتي ارتباطًا وثيقًا بتقاليد الطعام البوذية في فيتنام، حيث تُطهى نسخ خالية من اللحم من الأطباق الشائعة لوجبات المعابد وأيام الصيام. ويُباع اليوم على نطاق واسع في المطاعم النباتية في فيتنام وخارجها.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 بصلة وقطعة زنجبيل بطول 5 سم مشويتان",
-          "2 جزرة وحبة فجل أبيض صغيرة مقطعة قطعًا",
-          "3 حبات يانسون نجمي و1 عود قرفة",
-          "2 لتر ماء وملح وقليل من السكر",
-          "300 غ توفو متماسك مقطع شرائح",
-          "400 غ نودلز أرز مسطحة",
-          "1 ملعقة كبيرة زيت",
-          "براعم فاصولياء وريحان تايلندي وشرائح ليمون أخضر للتقديم"
-        ],
-        "steps": [
-          "اطهُ البصل والزنجبيل المشويين والجزر والفجل واليانسون النجمي والقرفة في الماء ساعة على نار هادئة.",
-          "صفِّ المرق وتبّله بالملح وقليل من السكر.",
-          "حمّر التوفو في الزيت حتى يذهب لونه.",
-          "اسلق النودلز ووزّعها في الأوعية وضع التوفو فوقها.",
-          "اسكب المرق الساخن وقدّمه مع البراعم والريحان والليمون."
-        ]
-      },
-      "tips": [
-        "اخبز التوفو أو اطهه على البخار بدل تحميره لتوفير الزيت.",
-        "أضف خضارًا إضافية مثل البوك تشوي أو الفطر إلى الوعاء.",
-        "استخدم كمية أصغر من النودلز وأكثر من المرق والبراعم."
-      ]
-    },
-    "it": {
-      "name": "Pho chay (pho vegano)",
-      "origin": "Vietnam",
-      "intro": "Il pho chay è la versione vegana del pho vietnamita. Il brodo si cuoce con verdure come cipolla e zenzero abbrustoliti, carota e daikon, insieme ad anice stellato e cannella, e offre il familiare sapore aromatico senza carne. Si versa su noodles di riso e tofu saltato in padella e si serve con germogli di soia, basilico thai e lime.",
-      "history": "Il pho vegetariano è strettamente legato alla tradizione alimentare buddhista del Vietnam, in cui si preparano versioni senza carne dei piatti più popolari per i pasti nei templi e nei giorni di osservanza. Oggi è molto diffuso nei ristoranti vegetariani in Vietnam e all'estero.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 cipolla e un pezzo di zenzero di 5 cm, abbrustoliti",
-          "2 carote e 1 daikon piccolo, a pezzi",
-          "3 anici stellati e 1 stecca di cannella",
-          "2 litri di acqua, sale e un po' di zucchero",
-          "300 g di tofu compatto a fette",
-          "400 g di noodles di riso piatti",
-          "1 cucchiaio di olio",
-          "Germogli di soia, basilico thai e spicchi di lime per servire"
-        ],
-        "steps": [
-          "Fai sobbollire nell'acqua per 1 ora cipolla e zenzero abbrustoliti, carote, daikon, anice stellato e cannella.",
-          "Filtra il brodo e insaporiscilo con sale e un po' di zucchero.",
-          "Rosola il tofu nell'olio finché è dorato.",
-          "Cuoci i noodles, dividili nelle ciotole e aggiungi sopra il tofu.",
-          "Versa il brodo caldo e servi con germogli, basilico e lime."
-        ]
-      },
-      "tips": [
-        "Cuoci il tofu al forno o al vapore invece di saltarlo in padella per risparmiare olio.",
-        "Aggiungi nella ciotola altre verdure come pak choi o funghi.",
-        "Usa un nido di noodles più piccolo e più brodo e germogli."
-      ],
-      "name_inline": "pho chay"
-    },
-    "el": {
-      "name": "Φο τσάι (βίγκαν φο)",
-      "origin": "Βιετνάμ",
-      "intro": "Το φο τσάι είναι η βίγκαν εκδοχή του βιετναμέζικου φο. Ο ζωμός σιγοβράζει με λαχανικά, όπως καψαλισμένο κρεμμύδι και τζίντζερ, καρότο και ντάικον, μαζί με γλυκάνισο αστεροειδή και κανέλα, και δίνει τη γνώριμη αρωματική γεύση χωρίς κρέας. Χύνεται πάνω σε νουντλς ρυζιού και τηγανητό τόφου και σερβίρεται με φύτρες φασολιών, βασιλικό Ταϊλάνδης και λάιμ.",
-      "history": "Το χορτοφαγικό φο συνδέεται στενά με τη βουδιστική διατροφική παράδοση του Βιετνάμ, όπου μαγειρεύονται εκδοχές δημοφιλών πιάτων χωρίς κρέας για τα γεύματα των ναών και τις ημέρες θρησκευτικής τήρησης. Σήμερα πωλείται ευρέως σε χορτοφαγικά εστιατόρια στο Βιετνάμ και στο εξωτερικό.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 κρεμμύδι και ένα κομμάτι τζίντζερ 5 εκ., καψαλισμένα",
-          "2 καρότα και 1 μικρό ντάικον, σε κομμάτια",
-          "3 γλυκάνισοι αστεροειδείς και 1 ξυλάκι κανέλας",
-          "2 λίτρα νερό, αλάτι και λίγη ζάχαρη",
-          "300 γρ. σφιχτό τόφου σε φέτες",
-          "400 γρ. πλατιά νουντλς ρυζιού",
-          "1 κ.σ. λάδι",
-          "Φύτρες φασολιών, βασιλικός Ταϊλάνδης και φέτες λάιμ για το σερβίρισμα"
-        ],
-        "steps": [
-          "Σιγοβράστε στο νερό για 1 ώρα το καψαλισμένο κρεμμύδι και τζίντζερ, τα καρότα, το ντάικον, τον γλυκάνισο και την κανέλα.",
-          "Σουρώστε τον ζωμό και αρωματίστε τον με αλάτι και λίγη ζάχαρη.",
-          "Τηγανίστε το τόφου στο λάδι μέχρι να ροδίσει.",
-          "Βράστε τα νουντλς, μοιράστε τα σε μπολ και βάλτε από πάνω το τόφου.",
-          "Ρίξτε τον ζεστό ζωμό και σερβίρετε με φύτρες, βασιλικό και λάιμ."
-        ]
-      },
-      "tips": [
-        "Ψήστε το τόφου στον φούρνο ή στον ατμό αντί να το τηγανίσετε, για να γλιτώσετε λάδι.",
-        "Προσθέστε στο μπολ επιπλέον λαχανικά, όπως μποκ τσόι ή μανιτάρια.",
-        "Βάλτε μικρότερη φωλιά νουντλς και περισσότερο ζωμό και φύτρες."
-      ],
-      "name_inline": "φο τσάι"
-    },
-    "ru": {
-      "name": "Фо чай (веганское фо)",
-      "origin": "Вьетнам",
-      "intro": "Фо чай — веганская версия вьетнамского фо. Бульон варят из овощей, таких как обожжённый лук, имбирь, морковь и дайкон, со звёздчатым анисом и корицей, что даёт привычный ароматный вкус без мяса. Его разливают поверх рисовой лапши и обжаренного на сковороде тофу и подают с ростками фасоли, тайским базиликом и лаймом.",
-      "history": "Вегетарианское фо тесно связано с буддийской пищевой традицией Вьетнама, в которой безмясные версии популярных блюд готовят для храмовых трапез и дней поста. Сегодня его широко продают в вегетарианских ресторанах во Вьетнаме и за рубежом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 луковица и кусок имбиря 5 см, обожжённые",
-          "2 моркови и 1 небольшой дайкон, нарезанные кусками",
-          "3 звёздочки аниса и 1 палочка корицы",
-          "2 литра воды, соль и немного сахара",
-          "300 г плотного тофу, нарезанного",
-          "400 г плоской рисовой лапши",
-          "1 ст. л. масла",
-          "Ростки фасоли, тайский базилик и дольки лайма для подачи"
-        ],
-        "steps": [
-          "Томите обожжённые лук и имбирь, морковь, дайкон, звёздчатый анис и корицу в воде 1 час.",
-          "Процедите бульон и приправьте солью и небольшим количеством сахара.",
-          "Обжарьте тофу на сковороде в масле до золотистого цвета.",
-          "Отварите лапшу, разложите по мискам и выложите сверху тофу.",
-          "Залейте горячим бульоном и подавайте с ростками, базиликом и лаймом."
-        ]
-      },
-      "tips": [
-        "Запеките тофу или приготовьте на пару вместо жарки на сковороде, чтобы сэкономить масло.",
-        "Добавьте в миску больше овощей, например пак-чой или грибы.",
-        "Берите меньшее гнездо лапши и больше бульона и ростков."
-      ],
-      "name_inline": "фо чай"
-    }
+  "ar": {
+   "name": "فو شاي (فو نباتي)",
+   "origin": "فيتنام",
+   "intro": "فو شاي هو النسخة النباتية الصرفة من الفو الفيتنامي. يُطهى المرق من الخضار مثل البصل والزنجبيل المشويين والجزر والفجل الأبيض مع اليانسون النجمي والقرفة، فيمنح النكهة العطرية المعروفة دون لحم. يُسكب فوق نودلز الأرز والتوفو المحمّر، ويُقدَّم مع براعم الفاصولياء والريحان التايلندي والليمون الأخضر.",
+   "history": "يرتبط الفو النباتي ارتباطًا وثيقًا بتقاليد الطعام البوذية في فيتنام، حيث تُطهى نسخ خالية من اللحم من الأطباق الشائعة لوجبات المعابد وأيام الصيام. ويُباع اليوم على نطاق واسع في المطاعم النباتية في فيتنام وخارجها.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 بصلة وقطعة زنجبيل بطول 5 سم مشويتان",
+     "2 جزرة وحبة فجل أبيض صغيرة مقطعة قطعًا",
+     "3 حبات يانسون نجمي و1 عود قرفة",
+     "2 لتر ماء وملح وقليل من السكر",
+     "300 غ توفو متماسك مقطع شرائح",
+     "400 غ نودلز أرز مسطحة",
+     "1 ملعقة كبيرة زيت",
+     "براعم فاصولياء وريحان تايلندي وشرائح ليمون أخضر للتقديم"
+    ],
+    "steps": [
+     "اطهُ البصل والزنجبيل المشويين والجزر والفجل واليانسون النجمي والقرفة في الماء ساعة على نار هادئة.",
+     "صفِّ المرق وتبّله بالملح وقليل من السكر.",
+     "حمّر التوفو في الزيت حتى يذهب لونه.",
+     "اسلق النودلز ووزّعها في الأوعية وضع التوفو فوقها.",
+     "اسكب المرق الساخن وقدّمه مع البراعم والريحان والليمون."
+    ]
+   },
+   "tips": [
+    "اخبز التوفو أو اطهه على البخار بدل تحميره لتوفير الزيت.",
+    "أضف خضارًا إضافية مثل البوك تشوي أو الفطر إلى الوعاء.",
+    "استخدم كمية أصغر من النودلز وأكثر من المرق والبراعم."
+   ]
+  },
+  "it": {
+   "name": "Pho chay (pho vegano)",
+   "origin": "Vietnam",
+   "intro": "Il pho chay è la versione vegana del pho vietnamita. Il brodo si cuoce con verdure come cipolla e zenzero abbrustoliti, carota e daikon, insieme ad anice stellato e cannella, e offre il familiare sapore aromatico senza carne. Si versa su noodles di riso e tofu saltato in padella e si serve con germogli di soia, basilico thai e lime.",
+   "history": "Il pho vegetariano è strettamente legato alla tradizione alimentare buddhista del Vietnam, in cui si preparano versioni senza carne dei piatti più popolari per i pasti nei templi e nei giorni di osservanza. Oggi è molto diffuso nei ristoranti vegetariani in Vietnam e all'estero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 cipolla e un pezzo di zenzero di 5 cm, abbrustoliti",
+     "2 carote e 1 daikon piccolo, a pezzi",
+     "3 anici stellati e 1 stecca di cannella",
+     "2 litri di acqua, sale e un po' di zucchero",
+     "300 g di tofu compatto a fette",
+     "400 g di noodles di riso piatti",
+     "1 cucchiaio di olio",
+     "Germogli di soia, basilico thai e spicchi di lime per servire"
+    ],
+    "steps": [
+     "Fai sobbollire nell'acqua per 1 ora cipolla e zenzero abbrustoliti, carote, daikon, anice stellato e cannella.",
+     "Filtra il brodo e insaporiscilo con sale e un po' di zucchero.",
+     "Rosola il tofu nell'olio finché è dorato.",
+     "Cuoci i noodles, dividili nelle ciotole e aggiungi sopra il tofu.",
+     "Versa il brodo caldo e servi con germogli, basilico e lime."
+    ]
+   },
+   "tips": [
+    "Cuoci il tofu al forno o al vapore invece di saltarlo in padella per risparmiare olio.",
+    "Aggiungi nella ciotola altre verdure come pak choi o funghi.",
+    "Usa un nido di noodles più piccolo e più brodo e germogli."
+   ],
+   "name_inline": "pho chay"
+  },
+  "el": {
+   "name": "Φο τσάι (βίγκαν φο)",
+   "origin": "Βιετνάμ",
+   "intro": "Το φο τσάι είναι η βίγκαν εκδοχή του βιετναμέζικου φο. Ο ζωμός σιγοβράζει με λαχανικά, όπως καψαλισμένο κρεμμύδι και τζίντζερ, καρότο και ντάικον, μαζί με γλυκάνισο αστεροειδή και κανέλα, και δίνει τη γνώριμη αρωματική γεύση χωρίς κρέας. Χύνεται πάνω σε νουντλς ρυζιού και τηγανητό τόφου και σερβίρεται με φύτρες φασολιών, βασιλικό Ταϊλάνδης και λάιμ.",
+   "history": "Το χορτοφαγικό φο συνδέεται στενά με τη βουδιστική διατροφική παράδοση του Βιετνάμ, όπου μαγειρεύονται εκδοχές δημοφιλών πιάτων χωρίς κρέας για τα γεύματα των ναών και τις ημέρες θρησκευτικής τήρησης. Σήμερα πωλείται ευρέως σε χορτοφαγικά εστιατόρια στο Βιετνάμ και στο εξωτερικό.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 κρεμμύδι και ένα κομμάτι τζίντζερ 5 εκ., καψαλισμένα",
+     "2 καρότα και 1 μικρό ντάικον, σε κομμάτια",
+     "3 γλυκάνισοι αστεροειδείς και 1 ξυλάκι κανέλας",
+     "2 λίτρα νερό, αλάτι και λίγη ζάχαρη",
+     "300 γρ. σφιχτό τόφου σε φέτες",
+     "400 γρ. πλατιά νουντλς ρυζιού",
+     "1 κ.σ. λάδι",
+     "Φύτρες φασολιών, βασιλικός Ταϊλάνδης και φέτες λάιμ για το σερβίρισμα"
+    ],
+    "steps": [
+     "Σιγοβράστε στο νερό για 1 ώρα το καψαλισμένο κρεμμύδι και τζίντζερ, τα καρότα, το ντάικον, τον γλυκάνισο και την κανέλα.",
+     "Σουρώστε τον ζωμό και αρωματίστε τον με αλάτι και λίγη ζάχαρη.",
+     "Τηγανίστε το τόφου στο λάδι μέχρι να ροδίσει.",
+     "Βράστε τα νουντλς, μοιράστε τα σε μπολ και βάλτε από πάνω το τόφου.",
+     "Ρίξτε τον ζεστό ζωμό και σερβίρετε με φύτρες, βασιλικό και λάιμ."
+    ]
+   },
+   "tips": [
+    "Ψήστε το τόφου στον φούρνο ή στον ατμό αντί να το τηγανίσετε, για να γλιτώσετε λάδι.",
+    "Προσθέστε στο μπολ επιπλέον λαχανικά, όπως μποκ τσόι ή μανιτάρια.",
+    "Βάλτε μικρότερη φωλιά νουντλς και περισσότερο ζωμό και φύτρες."
+   ],
+   "name_inline": "φο τσάι"
+  },
+  "ru": {
+   "name": "Фо чай (веганское фо)",
+   "origin": "Вьетнам",
+   "intro": "Фо чай — веганская версия вьетнамского фо. Бульон варят из овощей, таких как обожжённый лук, имбирь, морковь и дайкон, со звёздчатым анисом и корицей, что даёт привычный ароматный вкус без мяса. Его разливают поверх рисовой лапши и обжаренного на сковороде тофу и подают с ростками фасоли, тайским базиликом и лаймом.",
+   "history": "Вегетарианское фо тесно связано с буддийской пищевой традицией Вьетнама, в которой безмясные версии популярных блюд готовят для храмовых трапез и дней поста. Сегодня его широко продают в вегетарианских ресторанах во Вьетнаме и за рубежом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 луковица и кусок имбиря 5 см, обожжённые",
+     "2 моркови и 1 небольшой дайкон, нарезанные кусками",
+     "3 звёздочки аниса и 1 палочка корицы",
+     "2 литра воды, соль и немного сахара",
+     "300 г плотного тофу, нарезанного",
+     "400 г плоской рисовой лапши",
+     "1 ст. л. масла",
+     "Ростки фасоли, тайский базилик и дольки лайма для подачи"
+    ],
+    "steps": [
+     "Томите обожжённые лук и имбирь, морковь, дайкон, звёздчатый анис и корицу в воде 1 час.",
+     "Процедите бульон и приправьте солью и небольшим количеством сахара.",
+     "Обжарьте тофу на сковороде в масле до золотистого цвета.",
+     "Отварите лапшу, разложите по мискам и выложите сверху тофу.",
+     "Залейте горячим бульоном и подавайте с ростками, базиликом и лаймом."
+    ]
+   },
+   "tips": [
+    "Запеките тофу или приготовьте на пару вместо жарки на сковороде, чтобы сэкономить масло.",
+    "Добавьте в миску больше овощей, например пак-чой или грибы.",
+    "Берите меньшее гнездо лапши и больше бульона и ростков."
+   ],
+   "name_inline": "фо чай"
+  },
+  "es": {
+   "name": "Pho chay (pho vegano)",
+   "origin": "Vietnam",
+   "intro": "El pho chay es la versión vegana del pho vietnamita. El caldo se cuece con verduras como cebolla asada, jengibre, zanahoria y daikon, con anís estrellado y canela, y consigue el aroma de siempre sin carne. Se vierte sobre fideos de arroz y tofu salteado, y se sirve con brotes de soja, albahaca tailandesa y limón.",
+   "history": "El pho vegetariano está muy ligado a la tradición culinaria budista de Vietnam, donde se preparan versiones sin carne de platos populares para las comidas de los templos y los días de observancia. Hoy se vende en muchos restaurantes vegetarianos de Vietnam y de otros países.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 cebolla y un trozo de jengibre de 5 cm, asados",
+     "2 zanahorias y 1 daikon pequeño, en trozos",
+     "3 anís estrellados y 1 rama de canela",
+     "2 l de agua, sal y un poco de azúcar",
+     "300 g de tofu firme, en láminas",
+     "400 g de fideos de arroz planos",
+     "1 cda. de aceite",
+     "Brotes de soja, albahaca tailandesa y gajos de limón, para servir"
+    ],
+    "steps": [
+     "Cocina a fuego lento la cebolla y el jengibre asados, las zanahorias, el daikon, el anís estrellado y la canela en el agua durante 1 hora.",
+     "Cuela el caldo y sazona con sal y un poco de azúcar.",
+     "Saltea el tofu en el aceite hasta que se dore.",
+     "Cuece los fideos, repártelos en los tazones y coloca encima el tofu.",
+     "Vierte el caldo caliente y sirve con los brotes, la albahaca y el limón."
+    ]
+   },
+   "tips": [
+    "Hornea o cuece al vapor el tofu en lugar de saltearlo para ahorrar aceite.",
+    "Añade más verduras al tazón, como pak choi o champiñones.",
+    "Usa un nido de fideos más pequeño y más caldo y brotes."
+   ],
+   "name_inline": "el pho chay"
   }
+ }
 }

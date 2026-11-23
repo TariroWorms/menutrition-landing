@@ -1,166 +1,197 @@
 {
-  "db_key": "char_siu_bao",
-  "slug": "char-siu-bao",
-  "emoji": "🥟",
-  "portion_g": 80,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "char_siu_bao",
+ "slug": "char-siu-bao",
+ "emoji": "🥟",
+ "portion_g": 80,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Char siu bao (steamed BBQ pork buns)",
+   "origin": "China · Guangdong",
+   "intro": "Char siu bao are fluffy white steamed buns filled with sweet barbecue pork bound in a glossy hoisin and soy sauce gravy. Well-made buns split open at the top as they steam, showing the red filling inside. They are one of the best-known dim sum dishes, served hot in bamboo steamers with tea.",
+   "history": "Char siu bao come from Cantonese dim sum, the tradition of small dishes served with tea in Guangdong teahouses. Hong Kong restaurants spread them worldwide, and they remain a staple of dim sum menus today.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 150,
+    "ingredients": [
+     "300 g plain flour",
+     "1 tsp dried yeast, 1 tsp baking powder, 40 g sugar",
+     "150 ml warm water and 1 tbsp vegetable oil",
+     "250 g char siu (roast pork), diced small",
+     "1 tbsp hoisin sauce, 1 tbsp soy sauce, 1 tsp sugar",
+     "1 tbsp cornflour in 80 ml water"
+    ],
+    "steps": [
+     "Mix the flour, yeast, sugar, water and oil and knead until smooth; rest for 1 hour, then knead in the baking powder.",
+     "Heat the hoisin, soy sauce, sugar and cornflour mixture until thick, add the pork and cool.",
+     "Divide the dough into 10 pieces, roll into discs with thinner edges and fill each with a spoonful of pork.",
+     "Pleat the edges closed and set each bun on a square of baking paper.",
+     "Rest for 15 minutes, then steam over high heat for 12 minutes without lifting the lid."
+    ]
+   },
+   "tips": [
+    "Two buns make a reasonable snack portion — add a plate of steamed greens to fill up.",
+    "Use leaner roast pork in the filling and keep the gravy light on sugar.",
+    "Steaming adds no fat, so avoid frying leftover buns; re-steam them instead."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Char siu bao (steamed BBQ pork buns)",
-      "origin": "China · Guangdong",
-      "intro": "Char siu bao are fluffy white steamed buns filled with sweet barbecue pork bound in a glossy hoisin and soy sauce gravy. Well-made buns split open at the top as they steam, showing the red filling inside. They are one of the best-known dim sum dishes, served hot in bamboo steamers with tea.",
-      "history": "Char siu bao come from Cantonese dim sum, the tradition of small dishes served with tea in Guangdong teahouses. Hong Kong restaurants spread them worldwide, and they remain a staple of dim sum menus today.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 150,
-        "ingredients": [
-          "300 g plain flour",
-          "1 tsp dried yeast, 1 tsp baking powder, 40 g sugar",
-          "150 ml warm water and 1 tbsp vegetable oil",
-          "250 g char siu (roast pork), diced small",
-          "1 tbsp hoisin sauce, 1 tbsp soy sauce, 1 tsp sugar",
-          "1 tbsp cornflour in 80 ml water"
-        ],
-        "steps": [
-          "Mix the flour, yeast, sugar, water and oil and knead until smooth; rest for 1 hour, then knead in the baking powder.",
-          "Heat the hoisin, soy sauce, sugar and cornflour mixture until thick, add the pork and cool.",
-          "Divide the dough into 10 pieces, roll into discs with thinner edges and fill each with a spoonful of pork.",
-          "Pleat the edges closed and set each bun on a square of baking paper.",
-          "Rest for 15 minutes, then steam over high heat for 12 minutes without lifting the lid."
-        ]
-      },
-      "tips": [
-        "Two buns make a reasonable snack portion — add a plate of steamed greens to fill up.",
-        "Use leaner roast pork in the filling and keep the gravy light on sugar.",
-        "Steaming adds no fat, so avoid frying leftover buns; re-steam them instead."
-      ]
-    },
-    "ar": {
-      "name": "تشار سيو باو (كعك الخنزير المطهو على البخار)",
-      "origin": "الصين · قوانغدونغ",
-      "intro": "تشار سيو باو كعكات بيضاء هشّة مطهوة على البخار، محشوة بلحم الخنزير المشوي الحلو في صلصة لامعة من الهويسين والصويا. الكعكات الجيدة تنفتح من الأعلى أثناء الطهي فتظهر الحشوة الحمراء. وهي من أشهر أطباق الديم سم، وتُقدَّم ساخنة في سلال الخيزران مع الشاي.",
-      "history": "يأتي تشار سيو باو من تقاليد الديم سم الكانتونية، أي الأطباق الصغيرة التي تُقدَّم مع الشاي في مقاهي قوانغدونغ. ونشرته مطاعم هونغ كونغ حول العالم، ولا يزال أساسياً في قوائم الديم سم اليوم.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 150,
-        "ingredients": [
-          "300 غ دقيق أبيض",
-          "1 ملعقة صغيرة خميرة جافة و1 ملعقة صغيرة بيكنج باودر و40 غ سكر",
-          "150 مل ماء دافئ و1 ملعقة كبيرة زيت نباتي",
-          "250 غ تشار سيو (لحم خنزير مشوي) مقطع مكعبات صغيرة",
-          "1 ملعقة كبيرة صلصة هويسين و1 ملعقة كبيرة صلصة صويا و1 ملعقة صغيرة سكر",
-          "1 ملعقة كبيرة نشا ذرة في 80 مل ماء"
-        ],
-        "steps": [
-          "اخلط الدقيق والخميرة والسكر والماء والزيت واعجنها حتى تنعم، واتركها ساعة ثم اعجن معها البيكنج باودر.",
-          "سخّن الهويسين والصويا والسكر وخليط النشا حتى يتكثف، وأضف اللحم واتركه يبرد.",
-          "قسّم العجينة إلى 10 قطع، وافردها أقراصاً بأطراف أرقّ، وضع في كل منها ملعقة من الحشوة.",
-          "اجمع الأطراف بثنيات وأغلقها، وضع كل كعكة على مربع من ورق الخبز.",
-          "اتركها 15 دقيقة ثم اطهها على البخار على نار عالية 12 دقيقة دون رفع الغطاء."
-        ]
-      },
-      "tips": [
-        "كعكتان حصة معقولة كوجبة خفيفة — أضف طبقاً من الخضار المطهوة على البخار لتشبع.",
-        "استخدم لحماً مشوياً أقل دهناً في الحشوة وقلّل السكر في الصلصة.",
-        "الطهي على البخار لا يضيف دهوناً، فتجنّب قلي الكعك المتبقي وأعد تبخيره بدلاً من ذلك."
-      ]
-    },
-    "it": {
-      "name": "Char siu bao (panini al vapore con maiale arrosto)",
-      "origin": "Cina · Guangdong",
-      "intro": "I char siu bao sono soffici panini bianchi cotti al vapore, farciti con maiale arrosto dolce legato in un sugo lucido di salsa hoisin e salsa di soia. I panini ben fatti si aprono in cima durante la cottura al vapore, mostrando il ripieno rosso all'interno. Sono uno dei piatti di dim sum più famosi, serviti caldi nei cestelli di bambù con il tè.",
-      "name_inline": "char siu bao",
-      "history": "I char siu bao vengono dal dim sum cantonese, la tradizione dei piccoli piatti serviti con il tè nelle case da tè del Guangdong. I ristoranti di Hong Kong li hanno diffusi in tutto il mondo, e ancora oggi sono un punto fermo dei menu di dim sum.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 150,
-        "ingredients": [
-          "300 g di farina 00",
-          "1 cucchiaino di lievito secco, 1 cucchiaino di lievito per dolci, 40 g di zucchero",
-          "150 ml di acqua tiepida e 1 cucchiaio di olio vegetale",
-          "250 g di char siu (maiale arrosto) a dadini piccoli",
-          "1 cucchiaio di salsa hoisin, 1 cucchiaio di salsa di soia, 1 cucchiaino di zucchero",
-          "1 cucchiaio di amido di mais sciolto in 80 ml di acqua"
-        ],
-        "steps": [
-          "Mescola farina, lievito secco, zucchero, acqua e olio e impasta finché è liscio; lascia riposare 1 ora, poi incorpora il lievito per dolci impastando.",
-          "Scalda la salsa hoisin, la salsa di soia, lo zucchero e l'amido sciolto finché si addensano, aggiungi il maiale e lascia raffreddare.",
-          "Dividi l'impasto in 10 pezzi, stendili in dischi con i bordi più sottili e farcisci ciascuno con un cucchiaio di maiale.",
-          "Chiudi i bordi a pieghe e metti ogni panino su un quadrato di carta da forno.",
-          "Lascia riposare 15 minuti, poi cuoci a vapore a fuoco alto per 12 minuti senza sollevare il coperchio."
-        ]
-      },
-      "tips": [
-        "Due panini sono una porzione ragionevole come spuntino: aggiungi un piatto di verdure al vapore per saziarti.",
-        "Usa maiale arrosto più magro nel ripieno e metti poco zucchero nel sugo.",
-        "La cottura al vapore non aggiunge grassi, quindi evita di friggere i panini avanzati; riscaldali al vapore."
-      ]
-    },
-    "el": {
-      "name": "Τσαρ σιού μπάο (ψωμάκια ατμού με χοιρινό μπάρμπεκιου)",
-      "origin": "Κίνα · Γκουανγκντόνγκ",
-      "intro": "Τα τσαρ σιού μπάο είναι αφράτα λευκά ψωμάκια στον ατμό, γεμισμένα με γλυκό χοιρινό μπάρμπεκιου δεμένο σε γυαλιστερή σάλτσα χόισιν και σόγιας. Τα καλοφτιαγμένα ψωμάκια ανοίγουν στην κορυφή καθώς ψήνονται στον ατμό, δείχνοντας την κόκκινη γέμιση. Είναι από τα πιο γνωστά πιάτα ντιμ σαμ και σερβίρονται ζεστά σε μπαμπού ατμομάγειρες με τσάι.",
-      "history": "Τα τσαρ σιού μπάο προέρχονται από το καντονέζικο ντιμ σαμ, την παράδοση των μικρών πιάτων που σερβίρονται με τσάι στα τεϊοπωλεία του Γκουανγκντόνγκ. Τα εστιατόρια του Χονγκ Κονγκ τα διέδωσαν σε όλο τον κόσμο, και παραμένουν βασικό στοιχείο των μενού ντιμ σαμ.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 150,
-        "ingredients": [
-          "300 γρ. αλεύρι για όλες τις χρήσεις",
-          "1 κ.γ. ξερή μαγιά, 1 κ.γ. μπέικιν πάουντερ, 40 γρ. ζάχαρη",
-          "150 ml χλιαρό νερό και 1 κ.σ. φυτικό λάδι",
-          "250 γρ. τσαρ σιού (ψητό χοιρινό), σε μικρά κυβάκια",
-          "1 κ.σ. σάλτσα χόισιν, 1 κ.σ. σάλτσα σόγιας, 1 κ.γ. ζάχαρη",
-          "1 κ.σ. κορν φλάουρ διαλυμένο σε 80 ml νερό"
-        ],
-        "steps": [
-          "Ανακατέψτε το αλεύρι, τη μαγιά, τη ζάχαρη, το νερό και το λάδι και ζυμώστε μέχρι να γίνει λεία ζύμη· αφήστε 1 ώρα και μετά ζυμώστε μέσα το μπέικιν πάουντερ.",
-          "Ζεστάνετε τη σάλτσα χόισιν, τη σόγια, τη ζάχαρη και το μείγμα κορν φλάουρ μέχρι να πήξει, προσθέστε το χοιρινό και αφήστε να κρυώσει.",
-          "Χωρίστε τη ζύμη σε 10 κομμάτια, ανοίξτε τα σε δίσκους με πιο λεπτές άκρες και γεμίστε τον καθένα με μια κουταλιά χοιρινό.",
-          "Κλείστε τις άκρες με πτυχώσεις και βάλτε κάθε ψωμάκι σε ένα τετράγωνο λαδόχαρτο.",
-          "Αφήστε 15 λεπτά και μετά μαγειρέψτε στον ατμό σε δυνατή φωτιά για 12 λεπτά χωρίς να σηκώσετε το καπάκι."
-        ]
-      },
-      "tips": [
-        "Δύο ψωμάκια είναι λογική μερίδα για σνακ — προσθέστε ένα πιάτο λαχανικά στον ατμό για να χορτάσετε.",
-        "Χρησιμοποιήστε πιο άπαχο ψητό χοιρινό στη γέμιση και λίγη ζάχαρη στη σάλτσα.",
-        "Ο ατμός δεν προσθέτει λίπος, οπότε μην τηγανίζετε τα ψωμάκια που περισσεύουν· ζεστάνετέ τα ξανά στον ατμό."
-      ]
-    },
-    "ru": {
-      "name": "Чар сью бао (паровые булочки со свининой барбекю)",
-      "origin": "Китай · Гуандун",
-      "intro": "Чар сью бао — пышные белые паровые булочки с начинкой из сладкой свинины барбекю в глянцевом соусе из хойсина и соевого соуса. Хорошо приготовленные булочки раскрываются сверху при паровой варке, показывая красную начинку. Это одно из самых известных блюд димсам, его подают горячим в бамбуковых пароварках с чаем.",
-      "history": "Чар сью бао происходят из кантонских димсам — традиции подавать небольшие блюда к чаю в чайных домах Гуандуна. Гонконгские рестораны распространили их по всему миру, и они остаются основой меню димсам и сегодня.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 150,
-        "ingredients": [
-          "300 г пшеничной муки",
-          "1 ч. л. сухих дрожжей, 1 ч. л. разрыхлителя, 40 г сахара",
-          "150 мл тёплой воды и 1 ст. л. растительного масла",
-          "250 г чар сью (жареной свинины), мелко нарезанной",
-          "1 ст. л. соуса хойсин, 1 ст. л. соевого соуса, 1 ч. л. сахара",
-          "1 ст. л. кукурузного крахмала в 80 мл воды"
-        ],
-        "steps": [
-          "Смешайте муку, дрожжи, сахар, воду и масло и месите до гладкости; оставьте на 1 час, затем вмесите разрыхлитель.",
-          "Прогрейте хойсин, соевый соус, сахар и смесь крахмала с водой до загустения, добавьте свинину и остудите.",
-          "Разделите тесто на 10 частей, раскатайте в диски с более тонкими краями и положите в каждый ложку свинины.",
-          "Соберите края складками и защипните, поставьте каждую булочку на квадратик пергамента.",
-          "Оставьте на 15 минут, затем готовьте на пару на сильном огне 12 минут, не поднимая крышку."
-        ]
-      },
-      "tips": [
-        "Две булочки — разумная порция для перекуса; добавьте тарелку овощей на пару, чтобы наесться.",
-        "Используйте в начинке более постную жареную свинину и не слишком сладкий соус.",
-        "Приготовление на пару не добавляет жира, поэтому не жарьте оставшиеся булочки, а разогревайте их на пару."
-      ],
-      "name_inline": "чар сью бао"
-    }
+  "ar": {
+   "name": "تشار سيو باو (كعك الخنزير المطهو على البخار)",
+   "origin": "الصين · قوانغدونغ",
+   "intro": "تشار سيو باو كعكات بيضاء هشّة مطهوة على البخار، محشوة بلحم الخنزير المشوي الحلو في صلصة لامعة من الهويسين والصويا. الكعكات الجيدة تنفتح من الأعلى أثناء الطهي فتظهر الحشوة الحمراء. وهي من أشهر أطباق الديم سم، وتُقدَّم ساخنة في سلال الخيزران مع الشاي.",
+   "history": "يأتي تشار سيو باو من تقاليد الديم سم الكانتونية، أي الأطباق الصغيرة التي تُقدَّم مع الشاي في مقاهي قوانغدونغ. ونشرته مطاعم هونغ كونغ حول العالم، ولا يزال أساسياً في قوائم الديم سم اليوم.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 150,
+    "ingredients": [
+     "300 غ دقيق أبيض",
+     "1 ملعقة صغيرة خميرة جافة و1 ملعقة صغيرة بيكنج باودر و40 غ سكر",
+     "150 مل ماء دافئ و1 ملعقة كبيرة زيت نباتي",
+     "250 غ تشار سيو (لحم خنزير مشوي) مقطع مكعبات صغيرة",
+     "1 ملعقة كبيرة صلصة هويسين و1 ملعقة كبيرة صلصة صويا و1 ملعقة صغيرة سكر",
+     "1 ملعقة كبيرة نشا ذرة في 80 مل ماء"
+    ],
+    "steps": [
+     "اخلط الدقيق والخميرة والسكر والماء والزيت واعجنها حتى تنعم، واتركها ساعة ثم اعجن معها البيكنج باودر.",
+     "سخّن الهويسين والصويا والسكر وخليط النشا حتى يتكثف، وأضف اللحم واتركه يبرد.",
+     "قسّم العجينة إلى 10 قطع، وافردها أقراصاً بأطراف أرقّ، وضع في كل منها ملعقة من الحشوة.",
+     "اجمع الأطراف بثنيات وأغلقها، وضع كل كعكة على مربع من ورق الخبز.",
+     "اتركها 15 دقيقة ثم اطهها على البخار على نار عالية 12 دقيقة دون رفع الغطاء."
+    ]
+   },
+   "tips": [
+    "كعكتان حصة معقولة كوجبة خفيفة — أضف طبقاً من الخضار المطهوة على البخار لتشبع.",
+    "استخدم لحماً مشوياً أقل دهناً في الحشوة وقلّل السكر في الصلصة.",
+    "الطهي على البخار لا يضيف دهوناً، فتجنّب قلي الكعك المتبقي وأعد تبخيره بدلاً من ذلك."
+   ]
+  },
+  "it": {
+   "name": "Char siu bao (panini al vapore con maiale arrosto)",
+   "origin": "Cina · Guangdong",
+   "intro": "I char siu bao sono soffici panini bianchi cotti al vapore, farciti con maiale arrosto dolce legato in un sugo lucido di salsa hoisin e salsa di soia. I panini ben fatti si aprono in cima durante la cottura al vapore, mostrando il ripieno rosso all'interno. Sono uno dei piatti di dim sum più famosi, serviti caldi nei cestelli di bambù con il tè.",
+   "name_inline": "char siu bao",
+   "history": "I char siu bao vengono dal dim sum cantonese, la tradizione dei piccoli piatti serviti con il tè nelle case da tè del Guangdong. I ristoranti di Hong Kong li hanno diffusi in tutto il mondo, e ancora oggi sono un punto fermo dei menu di dim sum.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 150,
+    "ingredients": [
+     "300 g di farina 00",
+     "1 cucchiaino di lievito secco, 1 cucchiaino di lievito per dolci, 40 g di zucchero",
+     "150 ml di acqua tiepida e 1 cucchiaio di olio vegetale",
+     "250 g di char siu (maiale arrosto) a dadini piccoli",
+     "1 cucchiaio di salsa hoisin, 1 cucchiaio di salsa di soia, 1 cucchiaino di zucchero",
+     "1 cucchiaio di amido di mais sciolto in 80 ml di acqua"
+    ],
+    "steps": [
+     "Mescola farina, lievito secco, zucchero, acqua e olio e impasta finché è liscio; lascia riposare 1 ora, poi incorpora il lievito per dolci impastando.",
+     "Scalda la salsa hoisin, la salsa di soia, lo zucchero e l'amido sciolto finché si addensano, aggiungi il maiale e lascia raffreddare.",
+     "Dividi l'impasto in 10 pezzi, stendili in dischi con i bordi più sottili e farcisci ciascuno con un cucchiaio di maiale.",
+     "Chiudi i bordi a pieghe e metti ogni panino su un quadrato di carta da forno.",
+     "Lascia riposare 15 minuti, poi cuoci a vapore a fuoco alto per 12 minuti senza sollevare il coperchio."
+    ]
+   },
+   "tips": [
+    "Due panini sono una porzione ragionevole come spuntino: aggiungi un piatto di verdure al vapore per saziarti.",
+    "Usa maiale arrosto più magro nel ripieno e metti poco zucchero nel sugo.",
+    "La cottura al vapore non aggiunge grassi, quindi evita di friggere i panini avanzati; riscaldali al vapore."
+   ]
+  },
+  "el": {
+   "name": "Τσαρ σιού μπάο (ψωμάκια ατμού με χοιρινό μπάρμπεκιου)",
+   "origin": "Κίνα · Γκουανγκντόνγκ",
+   "intro": "Τα τσαρ σιού μπάο είναι αφράτα λευκά ψωμάκια στον ατμό, γεμισμένα με γλυκό χοιρινό μπάρμπεκιου δεμένο σε γυαλιστερή σάλτσα χόισιν και σόγιας. Τα καλοφτιαγμένα ψωμάκια ανοίγουν στην κορυφή καθώς ψήνονται στον ατμό, δείχνοντας την κόκκινη γέμιση. Είναι από τα πιο γνωστά πιάτα ντιμ σαμ και σερβίρονται ζεστά σε μπαμπού ατμομάγειρες με τσάι.",
+   "history": "Τα τσαρ σιού μπάο προέρχονται από το καντονέζικο ντιμ σαμ, την παράδοση των μικρών πιάτων που σερβίρονται με τσάι στα τεϊοπωλεία του Γκουανγκντόνγκ. Τα εστιατόρια του Χονγκ Κονγκ τα διέδωσαν σε όλο τον κόσμο, και παραμένουν βασικό στοιχείο των μενού ντιμ σαμ.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 150,
+    "ingredients": [
+     "300 γρ. αλεύρι για όλες τις χρήσεις",
+     "1 κ.γ. ξερή μαγιά, 1 κ.γ. μπέικιν πάουντερ, 40 γρ. ζάχαρη",
+     "150 ml χλιαρό νερό και 1 κ.σ. φυτικό λάδι",
+     "250 γρ. τσαρ σιού (ψητό χοιρινό), σε μικρά κυβάκια",
+     "1 κ.σ. σάλτσα χόισιν, 1 κ.σ. σάλτσα σόγιας, 1 κ.γ. ζάχαρη",
+     "1 κ.σ. κορν φλάουρ διαλυμένο σε 80 ml νερό"
+    ],
+    "steps": [
+     "Ανακατέψτε το αλεύρι, τη μαγιά, τη ζάχαρη, το νερό και το λάδι και ζυμώστε μέχρι να γίνει λεία ζύμη· αφήστε 1 ώρα και μετά ζυμώστε μέσα το μπέικιν πάουντερ.",
+     "Ζεστάνετε τη σάλτσα χόισιν, τη σόγια, τη ζάχαρη και το μείγμα κορν φλάουρ μέχρι να πήξει, προσθέστε το χοιρινό και αφήστε να κρυώσει.",
+     "Χωρίστε τη ζύμη σε 10 κομμάτια, ανοίξτε τα σε δίσκους με πιο λεπτές άκρες και γεμίστε τον καθένα με μια κουταλιά χοιρινό.",
+     "Κλείστε τις άκρες με πτυχώσεις και βάλτε κάθε ψωμάκι σε ένα τετράγωνο λαδόχαρτο.",
+     "Αφήστε 15 λεπτά και μετά μαγειρέψτε στον ατμό σε δυνατή φωτιά για 12 λεπτά χωρίς να σηκώσετε το καπάκι."
+    ]
+   },
+   "tips": [
+    "Δύο ψωμάκια είναι λογική μερίδα για σνακ — προσθέστε ένα πιάτο λαχανικά στον ατμό για να χορτάσετε.",
+    "Χρησιμοποιήστε πιο άπαχο ψητό χοιρινό στη γέμιση και λίγη ζάχαρη στη σάλτσα.",
+    "Ο ατμός δεν προσθέτει λίπος, οπότε μην τηγανίζετε τα ψωμάκια που περισσεύουν· ζεστάνετέ τα ξανά στον ατμό."
+   ]
+  },
+  "ru": {
+   "name": "Чар сью бао (паровые булочки со свининой барбекю)",
+   "origin": "Китай · Гуандун",
+   "intro": "Чар сью бао — пышные белые паровые булочки с начинкой из сладкой свинины барбекю в глянцевом соусе из хойсина и соевого соуса. Хорошо приготовленные булочки раскрываются сверху при паровой варке, показывая красную начинку. Это одно из самых известных блюд димсам, его подают горячим в бамбуковых пароварках с чаем.",
+   "history": "Чар сью бао происходят из кантонских димсам — традиции подавать небольшие блюда к чаю в чайных домах Гуандуна. Гонконгские рестораны распространили их по всему миру, и они остаются основой меню димсам и сегодня.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 150,
+    "ingredients": [
+     "300 г пшеничной муки",
+     "1 ч. л. сухих дрожжей, 1 ч. л. разрыхлителя, 40 г сахара",
+     "150 мл тёплой воды и 1 ст. л. растительного масла",
+     "250 г чар сью (жареной свинины), мелко нарезанной",
+     "1 ст. л. соуса хойсин, 1 ст. л. соевого соуса, 1 ч. л. сахара",
+     "1 ст. л. кукурузного крахмала в 80 мл воды"
+    ],
+    "steps": [
+     "Смешайте муку, дрожжи, сахар, воду и масло и месите до гладкости; оставьте на 1 час, затем вмесите разрыхлитель.",
+     "Прогрейте хойсин, соевый соус, сахар и смесь крахмала с водой до загустения, добавьте свинину и остудите.",
+     "Разделите тесто на 10 частей, раскатайте в диски с более тонкими краями и положите в каждый ложку свинины.",
+     "Соберите края складками и защипните, поставьте каждую булочку на квадратик пергамента.",
+     "Оставьте на 15 минут, затем готовьте на пару на сильном огне 12 минут, не поднимая крышку."
+    ]
+   },
+   "tips": [
+    "Две булочки — разумная порция для перекуса; добавьте тарелку овощей на пару, чтобы наесться.",
+    "Используйте в начинке более постную жареную свинину и не слишком сладкий соус.",
+    "Приготовление на пару не добавляет жира, поэтому не жарьте оставшиеся булочки, а разогревайте их на пару."
+   ],
+   "name_inline": "чар сью бао"
+  },
+  "es": {
+   "name": "Char siu bao (bollos al vapor de cerdo barbacoa)",
+   "origin": "China · Guangdong",
+   "intro": "Los char siu bao son bollos blancos y esponjosos cocidos al vapor, rellenos de cerdo barbacoa dulce unido con una salsa brillante de hoisin y soya. Cuando están bien hechos, se abren en la parte superior al cocerse y dejan ver el relleno rojo. Son uno de los platos de dim sum más conocidos y se sirven calientes en vaporeras de bambú con té.",
+   "history": "Los char siu bao provienen del dim sum cantonés, la tradición de pequeños platos servidos con té en las casas de té de Guangdong. Los restaurantes de Hong Kong los difundieron por el mundo, y siguen siendo un básico de los menús de dim sum.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 150,
+    "ingredients": [
+     "300 g de harina de trigo",
+     "1 cdta. de levadura seca, 1 cdta. de polvo para hornear, 40 g de azúcar",
+     "150 ml de agua tibia y 1 cda. de aceite vegetal",
+     "250 g de char siu (cerdo asado), en cubitos pequeños",
+     "1 cda. de salsa hoisin, 1 cda. de salsa de soya, 1 cdta. de azúcar",
+     "1 cda. de maicena en 80 ml de agua"
+    ],
+    "steps": [
+     "Mezcla la harina, la levadura, el azúcar, el agua y el aceite y amasa hasta que quede lisa; deja reposar 1 hora y luego incorpora el polvo para hornear amasando.",
+     "Calienta la hoisin, la soya, el azúcar y la mezcla de maicena hasta que espese, añade el cerdo y deja enfriar.",
+     "Divide la masa en 10 piezas, extiéndelas en discos con los bordes más finos y rellena cada una con una cucharada de cerdo.",
+     "Pliega los bordes para cerrar y coloca cada bollo sobre un cuadrado de papel para hornear.",
+     "Deja reposar 15 minutos y cuece al vapor a fuego alto durante 12 minutos sin levantar la tapa."
+    ]
+   },
+   "tips": [
+    "Dos bollos son una botana razonable; agrega un plato de verduras al vapor para llenarte.",
+    "Usa cerdo asado más magro en el relleno y mantén la salsa baja en azúcar.",
+    "Cocer al vapor no añade grasa, así que no frías los bollos sobrantes; vuelve a cocerlos al vapor."
+   ],
+   "name_inline": "los char siu bao"
   }
+ }
 }

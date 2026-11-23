@@ -1,146 +1,173 @@
 {
-  "db_key": "protein_shake_whey",
-  "slug": "protein-shake-whey",
-  "emoji": "🥤",
-  "portion_g": 330,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "protein_shake_whey",
+ "slug": "protein-shake-whey",
+ "emoji": "🥤",
+ "portion_g": 330,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Whey Protein Shake",
+   "origin": "International",
+   "intro": "A whey protein shake is one scoop of whey protein powder shaken with milk, water or a mix of both until smooth. Made with milk it is creamy and milky; with water it is thinner and lighter. It is commonly drunk after training or as a quick, high-protein snack.",
+   "history": "Whey, the liquid left over from cheesemaking, became widely available as a powder in the late 20th century, and shakes made from it are now a fixture of gyms and sports nutrition.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "1 scoop whey protein powder (about 30 g)",
+     "200 ml milk",
+     "100 ml cold water",
+     "A few ice cubes (optional)"
+    ],
+    "steps": [
+     "Pour the milk and water into a shaker bottle or blender.",
+     "Add the protein powder on top of the liquid so it does not clump.",
+     "Shake or blend for 20–30 seconds until smooth, add ice if you like and drink straight away."
+    ]
+   },
+   "tips": [
+    "Use all water or skimmed milk instead of whole milk for a lighter shake.",
+    "Stick to one level scoop; the scoop size on the label is the serving the nutrition facts refer to.",
+    "Choose an unflavoured or low-sugar powder and add cinnamon or a little fruit for flavour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Whey Protein Shake",
-      "origin": "International",
-      "intro": "A whey protein shake is one scoop of whey protein powder shaken with milk, water or a mix of both until smooth. Made with milk it is creamy and milky; with water it is thinner and lighter. It is commonly drunk after training or as a quick, high-protein snack.",
-      "history": "Whey, the liquid left over from cheesemaking, became widely available as a powder in the late 20th century, and shakes made from it are now a fixture of gyms and sports nutrition.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "1 scoop whey protein powder (about 30 g)",
-          "200 ml milk",
-          "100 ml cold water",
-          "A few ice cubes (optional)"
-        ],
-        "steps": [
-          "Pour the milk and water into a shaker bottle or blender.",
-          "Add the protein powder on top of the liquid so it does not clump.",
-          "Shake or blend for 20–30 seconds until smooth, add ice if you like and drink straight away."
-        ]
-      },
-      "tips": [
-        "Use all water or skimmed milk instead of whole milk for a lighter shake.",
-        "Stick to one level scoop; the scoop size on the label is the serving the nutrition facts refer to.",
-        "Choose an unflavoured or low-sugar powder and add cinnamon or a little fruit for flavour."
-      ]
-    },
-    "ar": {
-      "name": "مخفوق بروتين مصل اللبن",
-      "origin": "عالمي",
-      "intro": "مخفوق بروتين مصل اللبن مكيال واحد من بودرة الواي بروتين يُرج مع الحليب أو الماء أو مزيج منهما حتى ينعم. بالحليب يكون كريميًا بطعم الحليب، وبالماء يكون أخف وأقل كثافة. يُشرب عادة بعد التمرين أو وجبةً خفيفة سريعة غنية بالبروتين.",
-      "history": "مصل اللبن هو السائل المتبقي من صناعة الجبن، وأصبح متاحًا على نطاق واسع على هيئة بودرة في أواخر القرن العشرين، ومخفوقاته اليوم جزء ثابت من الصالات الرياضية والتغذية الرياضية.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "1 مكيال بودرة واي بروتين (نحو 30 غ)",
-          "200 مل حليب",
-          "100 مل ماء بارد",
-          "بضع مكعبات ثلج (اختياري)"
-        ],
-        "steps": [
-          "صب الحليب والماء في زجاجة الرج أو الخلاط.",
-          "أضف بودرة البروتين فوق السائل حتى لا تتكتل.",
-          "رجّه أو اخلطه 20–30 ثانية حتى ينعم، وأضف الثلج إن رغبت واشربه فورًا."
-        ]
-      },
-      "tips": [
-        "استخدم الماء فقط أو حليبًا خالي الدسم بدل الحليب كامل الدسم لمخفوق أخف.",
-        "التزم بمكيال واحد مستوٍ؛ فالقيم الغذائية على العبوة تخص هذا المكيال.",
-        "اختر بودرة غير منكهة أو قليلة السكر وأضف القرفة أو قليلًا من الفاكهة للنكهة."
-      ]
-    },
-    "it": {
-      "name": "Frullato proteico al siero di latte",
-      "name_inline": "frullato proteico al siero di latte",
-      "origin": "Internazionale",
-      "intro": "Il frullato proteico al siero di latte è un misurino di proteine whey in polvere agitato con latte, acqua o un mix dei due finché è liscio. Fatto con il latte è cremoso e dal gusto lattiginoso; con l'acqua è più fluido e leggero. Si beve di solito dopo l'allenamento o come spuntino veloce ricco di proteine.",
-      "history": "Il siero di latte, il liquido che resta dalla produzione del formaggio, si è diffuso come polvere alla fine del XX secolo, e i frullati preparati con esso sono oggi un punto fermo delle palestre e della nutrizione sportiva.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "1 misurino di proteine whey in polvere (circa 30 g)",
-          "200 ml di latte",
-          "100 ml di acqua fredda",
-          "Qualche cubetto di ghiaccio (facoltativo)"
-        ],
-        "steps": [
-          "Versa il latte e l'acqua in uno shaker o nel frullatore.",
-          "Aggiungi le proteine in polvere sopra il liquido, così non formano grumi.",
-          "Agita o frulla per 20–30 secondi finché è liscio, aggiungi il ghiaccio se ti piace e bevi subito."
-        ]
-      },
-      "tips": [
-        "Usa solo acqua o latte scremato invece del latte intero per un frullato più leggero.",
-        "Attieniti a un misurino raso: la dose indicata in etichetta è la porzione a cui si riferiscono i valori nutrizionali.",
-        "Scegli una polvere neutra o con pochi zuccheri e aggiungi cannella o un po' di frutta per dare sapore."
-      ]
-    },
-    "el": {
-      "name": "Ρόφημα πρωτεΐνης ορού γάλακτος",
-      "name_inline": "ρόφημα πρωτεΐνης ορού γάλακτος",
-      "origin": "Διεθνής κουζίνα",
-      "intro": "Το ρόφημα πρωτεΐνης ορού γάλακτος είναι μία μεζούρα πρωτεΐνης whey σε σκόνη, ανακινημένη με γάλα, νερό ή συνδυασμό τους μέχρι να γίνει λεία. Με γάλα είναι κρεμώδες με γεύση γάλακτος· με νερό είναι πιο αραιό και ελαφρύ. Συνήθως πίνεται μετά την προπόνηση ή ως γρήγορο σνακ πλούσιο σε πρωτεΐνη.",
-      "history": "Ο ορός γάλακτος, το υγρό που περισσεύει από την παρασκευή τυριού, έγινε ευρέως διαθέσιμος σε σκόνη στα τέλη του 20ού αιώνα, και τα ροφήματα που φτιάχνονται με αυτόν είναι σήμερα σταθερό στοιχείο των γυμναστηρίων και της αθλητικής διατροφής.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "1 μεζούρα πρωτεΐνη ορού γάλακτος σε σκόνη (περίπου 30 γρ.)",
-          "200 ml γάλα",
-          "100 ml κρύο νερό",
-          "Λίγα παγάκια (προαιρετικά)"
-        ],
-        "steps": [
-          "Ρίξτε το γάλα και το νερό σε σέικερ ή μπλέντερ.",
-          "Προσθέστε την πρωτεΐνη σε σκόνη πάνω από το υγρό ώστε να μη σβολιάσει.",
-          "Ανακινήστε ή χτυπήστε για 20–30 δευτερόλεπτα μέχρι να γίνει λείο, προσθέστε πάγο αν θέλετε και πιείτε το αμέσως."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε μόνο νερό ή αποβουτυρωμένο γάλα αντί για πλήρες για πιο ελαφρύ ρόφημα.",
-        "Μείνετε σε μία κοφτή μεζούρα· η μερίδα της ετικέτας είναι αυτή στην οποία αναφέρονται τα διατροφικά στοιχεία.",
-        "Προτιμήστε σκόνη χωρίς γεύση ή με λίγη ζάχαρη και προσθέστε κανέλα ή λίγο φρούτο για γεύση."
-      ]
-    },
-    "ru": {
-      "name": "Протеиновый коктейль с сывороточным белком",
-      "origin": "Международная кухня",
-      "intro": "Протеиновый коктейль с сывороточным белком — это одна мерная ложка сывороточного протеина, взболтанная с молоком, водой или их смесью до гладкости. На молоке он получается сливочным и молочным, на воде — более жидким и лёгким. Его обычно пьют после тренировки или как быструю высокобелковую закуску.",
-      "history": "Сыворотка, жидкость, остающаяся после приготовления сыра, стала широко доступна в виде порошка в конце XX века, и коктейли из неё теперь — неотъемлемая часть спортзалов и спортивного питания.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "1 мерная ложка сывороточного протеина (около 30 г)",
-          "200 мл молока",
-          "100 мл холодной воды",
-          "Несколько кубиков льда (по желанию)"
-        ],
-        "steps": [
-          "Влейте молоко и воду в шейкер или блендер.",
-          "Добавьте протеиновый порошок поверх жидкости, чтобы он не комковался.",
-          "Взбалтывайте или взбивайте 20–30 секунд до гладкости, при желании добавьте лёд и пейте сразу."
-        ]
-      },
-      "tips": [
-        "Используйте только воду или обезжиренное молоко вместо цельного для более лёгкого коктейля.",
-        "Ограничьтесь одной ложкой без горки; размер ложки на этикетке — это порция, к которой относятся данные о питательной ценности.",
-        "Выбирайте порошок без вкусовых добавок или с низким содержанием сахара и добавляйте корицу или немного фруктов для вкуса."
-      ]
-    }
+  "ar": {
+   "name": "مخفوق بروتين مصل اللبن",
+   "origin": "عالمي",
+   "intro": "مخفوق بروتين مصل اللبن مكيال واحد من بودرة الواي بروتين يُرج مع الحليب أو الماء أو مزيج منهما حتى ينعم. بالحليب يكون كريميًا بطعم الحليب، وبالماء يكون أخف وأقل كثافة. يُشرب عادة بعد التمرين أو وجبةً خفيفة سريعة غنية بالبروتين.",
+   "history": "مصل اللبن هو السائل المتبقي من صناعة الجبن، وأصبح متاحًا على نطاق واسع على هيئة بودرة في أواخر القرن العشرين، ومخفوقاته اليوم جزء ثابت من الصالات الرياضية والتغذية الرياضية.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "1 مكيال بودرة واي بروتين (نحو 30 غ)",
+     "200 مل حليب",
+     "100 مل ماء بارد",
+     "بضع مكعبات ثلج (اختياري)"
+    ],
+    "steps": [
+     "صب الحليب والماء في زجاجة الرج أو الخلاط.",
+     "أضف بودرة البروتين فوق السائل حتى لا تتكتل.",
+     "رجّه أو اخلطه 20–30 ثانية حتى ينعم، وأضف الثلج إن رغبت واشربه فورًا."
+    ]
+   },
+   "tips": [
+    "استخدم الماء فقط أو حليبًا خالي الدسم بدل الحليب كامل الدسم لمخفوق أخف.",
+    "التزم بمكيال واحد مستوٍ؛ فالقيم الغذائية على العبوة تخص هذا المكيال.",
+    "اختر بودرة غير منكهة أو قليلة السكر وأضف القرفة أو قليلًا من الفاكهة للنكهة."
+   ]
+  },
+  "it": {
+   "name": "Frullato proteico al siero di latte",
+   "name_inline": "frullato proteico al siero di latte",
+   "origin": "Internazionale",
+   "intro": "Il frullato proteico al siero di latte è un misurino di proteine whey in polvere agitato con latte, acqua o un mix dei due finché è liscio. Fatto con il latte è cremoso e dal gusto lattiginoso; con l'acqua è più fluido e leggero. Si beve di solito dopo l'allenamento o come spuntino veloce ricco di proteine.",
+   "history": "Il siero di latte, il liquido che resta dalla produzione del formaggio, si è diffuso come polvere alla fine del XX secolo, e i frullati preparati con esso sono oggi un punto fermo delle palestre e della nutrizione sportiva.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "1 misurino di proteine whey in polvere (circa 30 g)",
+     "200 ml di latte",
+     "100 ml di acqua fredda",
+     "Qualche cubetto di ghiaccio (facoltativo)"
+    ],
+    "steps": [
+     "Versa il latte e l'acqua in uno shaker o nel frullatore.",
+     "Aggiungi le proteine in polvere sopra il liquido, così non formano grumi.",
+     "Agita o frulla per 20–30 secondi finché è liscio, aggiungi il ghiaccio se ti piace e bevi subito."
+    ]
+   },
+   "tips": [
+    "Usa solo acqua o latte scremato invece del latte intero per un frullato più leggero.",
+    "Attieniti a un misurino raso: la dose indicata in etichetta è la porzione a cui si riferiscono i valori nutrizionali.",
+    "Scegli una polvere neutra o con pochi zuccheri e aggiungi cannella o un po' di frutta per dare sapore."
+   ]
+  },
+  "el": {
+   "name": "Ρόφημα πρωτεΐνης ορού γάλακτος",
+   "name_inline": "ρόφημα πρωτεΐνης ορού γάλακτος",
+   "origin": "Διεθνής κουζίνα",
+   "intro": "Το ρόφημα πρωτεΐνης ορού γάλακτος είναι μία μεζούρα πρωτεΐνης whey σε σκόνη, ανακινημένη με γάλα, νερό ή συνδυασμό τους μέχρι να γίνει λεία. Με γάλα είναι κρεμώδες με γεύση γάλακτος· με νερό είναι πιο αραιό και ελαφρύ. Συνήθως πίνεται μετά την προπόνηση ή ως γρήγορο σνακ πλούσιο σε πρωτεΐνη.",
+   "history": "Ο ορός γάλακτος, το υγρό που περισσεύει από την παρασκευή τυριού, έγινε ευρέως διαθέσιμος σε σκόνη στα τέλη του 20ού αιώνα, και τα ροφήματα που φτιάχνονται με αυτόν είναι σήμερα σταθερό στοιχείο των γυμναστηρίων και της αθλητικής διατροφής.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "1 μεζούρα πρωτεΐνη ορού γάλακτος σε σκόνη (περίπου 30 γρ.)",
+     "200 ml γάλα",
+     "100 ml κρύο νερό",
+     "Λίγα παγάκια (προαιρετικά)"
+    ],
+    "steps": [
+     "Ρίξτε το γάλα και το νερό σε σέικερ ή μπλέντερ.",
+     "Προσθέστε την πρωτεΐνη σε σκόνη πάνω από το υγρό ώστε να μη σβολιάσει.",
+     "Ανακινήστε ή χτυπήστε για 20–30 δευτερόλεπτα μέχρι να γίνει λείο, προσθέστε πάγο αν θέλετε και πιείτε το αμέσως."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε μόνο νερό ή αποβουτυρωμένο γάλα αντί για πλήρες για πιο ελαφρύ ρόφημα.",
+    "Μείνετε σε μία κοφτή μεζούρα· η μερίδα της ετικέτας είναι αυτή στην οποία αναφέρονται τα διατροφικά στοιχεία.",
+    "Προτιμήστε σκόνη χωρίς γεύση ή με λίγη ζάχαρη και προσθέστε κανέλα ή λίγο φρούτο για γεύση."
+   ]
+  },
+  "ru": {
+   "name": "Протеиновый коктейль с сывороточным белком",
+   "origin": "Международная кухня",
+   "intro": "Протеиновый коктейль с сывороточным белком — это одна мерная ложка сывороточного протеина, взболтанная с молоком, водой или их смесью до гладкости. На молоке он получается сливочным и молочным, на воде — более жидким и лёгким. Его обычно пьют после тренировки или как быструю высокобелковую закуску.",
+   "history": "Сыворотка, жидкость, остающаяся после приготовления сыра, стала широко доступна в виде порошка в конце XX века, и коктейли из неё теперь — неотъемлемая часть спортзалов и спортивного питания.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "1 мерная ложка сывороточного протеина (около 30 г)",
+     "200 мл молока",
+     "100 мл холодной воды",
+     "Несколько кубиков льда (по желанию)"
+    ],
+    "steps": [
+     "Влейте молоко и воду в шейкер или блендер.",
+     "Добавьте протеиновый порошок поверх жидкости, чтобы он не комковался.",
+     "Взбалтывайте или взбивайте 20–30 секунд до гладкости, при желании добавьте лёд и пейте сразу."
+    ]
+   },
+   "tips": [
+    "Используйте только воду или обезжиренное молоко вместо цельного для более лёгкого коктейля.",
+    "Ограничьтесь одной ложкой без горки; размер ложки на этикетке — это порция, к которой относятся данные о питательной ценности.",
+    "Выбирайте порошок без вкусовых добавок или с низким содержанием сахара и добавляйте корицу или немного фруктов для вкуса."
+   ]
+  },
+  "es": {
+   "name": "Batido de proteína de suero",
+   "origin": "Internacional",
+   "intro": "Un batido de proteína de suero es una medida de proteína de suero en polvo agitada con leche, agua o una mezcla de ambas hasta quedar suave. Con leche resulta cremoso y lácteo; con agua es más ligero y fluido. Se toma por lo común después de entrenar o como refrigerio rápido rico en proteína.",
+   "history": "El suero, el líquido que queda al elaborar queso, se volvió ampliamente disponible en polvo a finales del siglo XX, y los batidos hechos con él son hoy un clásico de los gimnasios y la nutrición deportiva.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "1 medida de proteína de suero en polvo (unos 30 g)",
+     "200 ml de leche",
+     "100 ml de agua fría",
+     "Unos cubos de hielo (opcional)"
+    ],
+    "steps": [
+     "Vierte la leche y el agua en un shaker o en la licuadora.",
+     "Agrega el polvo de proteína encima del líquido para que no se formen grumos.",
+     "Agita o licúa de 20 a 30 segundos hasta que quede suave, añade hielo si quieres y bébelo de inmediato."
+    ]
+   },
+   "tips": [
+    "Usa solo agua o leche descremada en lugar de leche entera para un batido más ligero.",
+    "Limítate a una medida rasa; el tamaño de la medida de la etiqueta es la porción a la que se refiere la información nutricional.",
+    "Elige un polvo sin sabor o bajo en azúcar y añade canela o un poco de fruta para dar sabor."
+   ],
+   "name_inline": "el batido de proteína de suero"
   }
+ }
 }

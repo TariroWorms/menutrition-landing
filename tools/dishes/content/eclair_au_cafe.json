@@ -1,162 +1,192 @@
 {
-  "db_key": "eclair_au_cafe",
-  "slug": "eclair-au-cafe",
-  "emoji": "☕",
-  "portion_g": 80,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "eclair_au_cafe",
+ "slug": "eclair-au-cafe",
+ "emoji": "☕",
+ "portion_g": 80,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Éclair au café",
+   "origin": "France · Paris pâtisserie",
+   "intro": "An éclair au café is a long finger of crisp, airy choux pastry filled with smooth coffee-flavoured pastry cream and topped with a shiny coffee glaze. The pastry is light and hollow, the cream rich and silky, and the coffee gives a gentle bitterness that balances the sweetness. It is a classic of French pastry shops, eaten with an afternoon coffee.",
+   "history": "The éclair is usually credited to 19th-century French pastry chefs, and Antonin Carême is often named as having popularised it, though this is not certain. The name means 'lightning' in French, perhaps because it is eaten so quickly. Today éclairs are a staple of every French pâtisserie.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 90,
+    "ingredients": [
+     "Choux: 125 ml water, 125 ml milk, 100 g butter, 1 pinch salt, 150 g flour, 4 eggs",
+     "Pastry cream: 500 ml milk, 4 egg yolks, 100 g sugar, 40 g cornstarch",
+     "2 tbsp strong espresso or 2 tsp instant coffee",
+     "20 g butter for the cream",
+     "Glaze: 150 g icing sugar mixed with 1–2 tbsp strong coffee"
+    ],
+    "steps": [
+     "Bring the water, milk, butter and salt to a boil, add the flour and stir until the dough leaves the sides of the pan; cool slightly and beat in the eggs one by one.",
+     "Pipe 12 cm lengths onto a lined tray and bake at 180 °C for 30–35 minutes until puffed and dry; cool.",
+     "For the cream, heat the milk, whisk the yolks with sugar and cornstarch, pour on the hot milk and cook, stirring, until thick.",
+     "Stir in the coffee and butter, cover and chill.",
+     "Pipe the cream into the éclairs through small holes in the base and dip the tops in the glaze."
+    ]
+   },
+   "tips": [
+    "Choose a mini éclair: about half the calories of a full-size one.",
+    "Share one éclair as a dessert after a light meal.",
+    "At home, pipe less cream and fill with some fresh fruit instead."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Éclair au café",
-      "origin": "France · Paris pâtisserie",
-      "intro": "An éclair au café is a long finger of crisp, airy choux pastry filled with smooth coffee-flavoured pastry cream and topped with a shiny coffee glaze. The pastry is light and hollow, the cream rich and silky, and the coffee gives a gentle bitterness that balances the sweetness. It is a classic of French pastry shops, eaten with an afternoon coffee.",
-      "history": "The éclair is usually credited to 19th-century French pastry chefs, and Antonin Carême is often named as having popularised it, though this is not certain. The name means 'lightning' in French, perhaps because it is eaten so quickly. Today éclairs are a staple of every French pâtisserie.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 90,
-        "ingredients": [
-          "Choux: 125 ml water, 125 ml milk, 100 g butter, 1 pinch salt, 150 g flour, 4 eggs",
-          "Pastry cream: 500 ml milk, 4 egg yolks, 100 g sugar, 40 g cornstarch",
-          "2 tbsp strong espresso or 2 tsp instant coffee",
-          "20 g butter for the cream",
-          "Glaze: 150 g icing sugar mixed with 1–2 tbsp strong coffee"
-        ],
-        "steps": [
-          "Bring the water, milk, butter and salt to a boil, add the flour and stir until the dough leaves the sides of the pan; cool slightly and beat in the eggs one by one.",
-          "Pipe 12 cm lengths onto a lined tray and bake at 180 °C for 30–35 minutes until puffed and dry; cool.",
-          "For the cream, heat the milk, whisk the yolks with sugar and cornstarch, pour on the hot milk and cook, stirring, until thick.",
-          "Stir in the coffee and butter, cover and chill.",
-          "Pipe the cream into the éclairs through small holes in the base and dip the tops in the glaze."
-        ]
-      },
-      "tips": [
-        "Choose a mini éclair: about half the calories of a full-size one.",
-        "Share one éclair as a dessert after a light meal.",
-        "At home, pipe less cream and fill with some fresh fruit instead."
-      ]
-    },
-    "ar": {
-      "name": "إكلير بالقهوة",
-      "origin": "فرنسا · حلويات باريس",
-      "intro": "إكلير القهوة إصبع طويل من عجينة الشو المقرمشة الهشة، محشو بكريمة حلويات ناعمة بنكهة القهوة ومغطى بطبقة لامعة من القهوة. العجينة خفيفة ومجوّفة والكريمة غنية حريرية، وتضيف القهوة مرارة لطيفة توازن الحلاوة. إنه من كلاسيكيات محلات الحلويات الفرنسية ويُؤكل مع قهوة العصر.",
-      "history": "يُنسب الإكلير عادةً إلى طهاة الحلويات الفرنسيين في القرن التاسع عشر، وكثيرًا ما يُذكر أنطونان كاريم كمن نشره، وإن لم يكن ذلك مؤكدًا. يعني اسمه «البرق» بالفرنسية، ربما لأنه يُؤكل بسرعة. واليوم يُعدّ الإكلير من أساسيات كل محل حلويات فرنسي.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 90,
-        "ingredients": [
-          "عجينة الشو: 125 مل ماء، 125 مل حليب، 100 غ زبدة، رشة ملح، 150 غ دقيق، 4 بيضات",
-          "كريمة الحلويات: 500 مل حليب، 4 صفار بيض، 100 غ سكر، 40 غ نشا ذرة",
-          "2 ملعقة كبيرة إسبريسو قوي أو 2 ملعقة صغيرة قهوة سريعة الذوبان",
-          "20 غ زبدة للكريمة",
-          "الطبقة اللامعة: 150 غ سكر بودرة مع 1–2 ملعقة كبيرة قهوة قوية"
-        ],
-        "steps": [
-          "اغلِ الماء والحليب والزبدة والملح، أضف الدقيق وحرّك حتى تنفصل العجينة عن جوانب القدر؛ بردها قليلًا ثم أضف البيض واحدة تلو الأخرى.",
-          "شكّل أصابع بطول 12 سم بكيس الحلواني على صينية مبطنة واخبزها على 180 °م لمدة 30–35 دقيقة حتى تنتفخ وتجف ثم بردها.",
-          "للكريمة: سخّن الحليب، واخفق الصفار مع السكر والنشا، واسكب الحليب الساخن فوقه واطهه مع التحريك حتى يتكثف.",
-          "أضف القهوة والزبدة وغطِّ الكريمة وبرّدها.",
-          "احشُ الإكلير بالكريمة عبر ثقوب صغيرة في القاعدة واغمس السطح في الطبقة اللامعة."
-        ]
-      },
-      "tips": [
-        "اختر إكلير صغيرًا: نحو نصف سعرات الحجم العادي.",
-        "تقاسم قطعة إكلير كتحلية بعد وجبة خفيفة.",
-        "في البيت قلّل الكريمة واستخدم بعض الفاكهة الطازجة في الحشوة."
-      ]
-    },
-    "it": {
-      "name": "Éclair al caffè",
-      "name_inline": "éclair al caffè",
-      "origin": "Francia · pasticceria parigina",
-      "intro": "L'éclair al caffè è un lungo bastoncino di pasta choux croccante e leggera, ripieno di una liscia crema pasticcera al caffè e coperto da una lucida glassa al caffè. La pasta è leggera e cava, la crema ricca e vellutata, e il caffè dà un delicato amaro che bilancia la dolcezza. È un classico delle pasticcerie francesi, da gustare con il caffè del pomeriggio.",
-      "history": "L'éclair è di solito attribuito ai pasticcieri francesi dell'Ottocento, e Antonin Carême viene spesso indicato come colui che lo rese popolare, anche se non è certo. Il nome significa «lampo» in francese, forse perché si mangia così in fretta. Oggi gli éclair sono un classico di ogni pâtisserie francese.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 90,
-        "ingredients": [
-          "Choux: 125 ml di acqua, 125 ml di latte, 100 g di burro, 1 pizzico di sale, 150 g di farina, 4 uova",
-          "Crema pasticcera: 500 ml di latte, 4 tuorli, 100 g di zucchero, 40 g di amido di mais",
-          "2 cucchiai di espresso forte o 2 cucchiaini di caffè solubile",
-          "20 g di burro per la crema",
-          "Glassa: 150 g di zucchero a velo mescolato con 1–2 cucchiai di caffè forte"
-        ],
-        "steps": [
-          "Porta a ebollizione acqua, latte, burro e sale, aggiungi la farina e mescola finché l'impasto si stacca dalle pareti; lascia intiepidire e incorpora le uova una alla volta.",
-          "Forma con la sac à poche bastoncini da 12 cm su una teglia foderata e cuoci a 180 °C per 30–35 minuti finché sono gonfi e asciutti; lascia raffreddare.",
-          "Per la crema, scalda il latte, sbatti i tuorli con zucchero e amido, versa il latte caldo e cuoci mescolando finché si addensa.",
-          "Incorpora il caffè e il burro, copri e metti in frigo.",
-          "Farcisci gli éclair con la sac à poche attraverso piccoli fori sulla base e immergi la parte superiore nella glassa."
-        ]
-      },
-      "tips": [
-        "Scegli un mini éclair: circa metà delle calorie di uno di dimensioni normali.",
-        "Dividi un éclair come dessert dopo un pasto leggero.",
-        "A casa, metti meno crema e completa il ripieno con un po' di frutta fresca."
-      ]
-    },
-    "el": {
-      "name": "Εκλέρ καφέ",
-      "name_inline": "εκλέρ καφέ",
-      "origin": "Γαλλία · παρισινή ζαχαροπλαστική",
-      "intro": "Το εκλέρ καφέ είναι ένα μακρόστενο γλυκό από τραγανή, αέρινη ζύμη σου, γεμιστό με λεία κρέμα ζαχαροπλαστικής με καφέ και καλυμμένο με γυαλιστερό γλάσο καφέ. Η ζύμη είναι ελαφριά και κούφια, η κρέμα πλούσια και μεταξένια, και ο καφές δίνει μια απαλή πικράδα που ισορροπεί τη γλύκα. Είναι κλασικό των γαλλικών ζαχαροπλαστείων και τρώγεται με τον απογευματινό καφέ.",
-      "history": "Το εκλέρ αποδίδεται συνήθως σε Γάλλους ζαχαροπλάστες του 19ου αιώνα, και ο Antonin Carême αναφέρεται συχνά ως αυτός που το έκανε δημοφιλές, αν και αυτό δεν είναι βέβαιο. Το όνομα σημαίνει «αστραπή» στα γαλλικά, ίσως επειδή τρώγεται τόσο γρήγορα. Σήμερα τα εκλέρ είναι βασικό γλυκό σε κάθε γαλλικό ζαχαροπλαστείο.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 90,
-        "ingredients": [
-          "Ζύμη σου: 125 ml νερό, 125 ml γάλα, 100 γρ. βούτυρο, 1 πρέζα αλάτι, 150 γρ. αλεύρι, 4 αυγά",
-          "Κρέμα ζαχαροπλαστικής: 500 ml γάλα, 4 κρόκοι, 100 γρ. ζάχαρη, 40 γρ. κορν φλάουρ",
-          "2 κ.σ. δυνατός εσπρέσο ή 2 κ.γ. στιγμιαίος καφές",
-          "20 γρ. βούτυρο για την κρέμα",
-          "Γλάσο: 150 γρ. ζάχαρη άχνη ανακατεμένη με 1–2 κ.σ. δυνατό καφέ"
-        ],
-        "steps": [
-          "Βράστε το νερό, το γάλα, το βούτυρο και το αλάτι, ρίξτε το αλεύρι και ανακατέψτε μέχρι η ζύμη να ξεκολλάει από τα τοιχώματα· αφήστε να κρυώσει λίγο και προσθέστε τα αυγά ένα ένα χτυπώντας.",
-          "Με κορνέ σχηματίστε κομμάτια 12 εκ. σε στρωμένο ταψί και ψήστε στους 180 °C για 30–35 λεπτά, μέχρι να φουσκώσουν και να στεγνώσουν· αφήστε να κρυώσουν.",
-          "Για την κρέμα, ζεστάνετε το γάλα, χτυπήστε τους κρόκους με τη ζάχαρη και το κορν φλάουρ, ρίξτε το ζεστό γάλα και μαγειρέψτε ανακατεύοντας μέχρι να πήξει.",
-          "Ανακατέψτε μέσα τον καφέ και το βούτυρο, σκεπάστε και βάλτε στο ψυγείο.",
-          "Γεμίστε τα εκλέρ με κορνέ από μικρές τρύπες στη βάση και βουτήξτε την επάνω πλευρά στο γλάσο."
-        ]
-      },
-      "tips": [
-        "Διαλέξτε μίνι εκλέρ: έχει περίπου τις μισές θερμίδες από ένα κανονικό.",
-        "Μοιραστείτε ένα εκλέρ ως επιδόρπιο μετά από ελαφρύ γεύμα.",
-        "Στο σπίτι, βάλτε λιγότερη κρέμα και συμπληρώστε τη γέμιση με λίγα φρέσκα φρούτα."
-      ]
-    },
-    "ru": {
-      "name": "Эклер с кофе",
-      "origin": "Франция · парижская кондитерская",
-      "intro": "Эклер с кофе — длинный палец хрустящего воздушного заварного теста, наполненный гладким кофейным заварным кремом и покрытый блестящей кофейной глазурью. Тесто лёгкое и пустотелое, крем насыщенный и шелковистый, а кофе даёт лёгкую горчинку, уравновешивающую сладость. Это классика французских кондитерских, который едят с кофе в полдень.",
-      "history": "Эклер обычно приписывают французским кондитерам XIX века, часто называя Антонина Карема тем, кто его популяризовал, хотя это не точно. Название по-французски означает «молния», возможно, потому что его съедают так быстро. Сегодня эклеры — основа каждой французской кондитерской.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 90,
-        "ingredients": [
-          "Заварное тесто: 125 мл воды, 125 мл молока, 100 г сливочного масла, 1 щепотка соли, 150 г муки, 4 яйца",
-          "Заварной крем: 500 мл молока, 4 яичных желтка, 100 г сахара, 40 г кукурузного крахмала",
-          "2 ст. л. крепкого эспрессо или 2 ч. л. растворимого кофе",
-          "20 г сливочного масла для крема",
-          "Глазурь: 150 г сахарной пудры, смешанной с 1–2 ст. л. крепкого кофе"
-        ],
-        "steps": [
-          "Доведите воду, молоко, масло и соль до кипения, добавьте муку и перемешивайте, пока тесто не начнёт отставать от стенок; слегка остудите и вмешайте яйца по одному.",
-          "Выпустите полоски длиной 12 см на застеленный противень и выпекайте при 180 °C 30–35 минут, пока они не поднимутся и не высохнут; остудите.",
-          "Для крема нагрейте молоко, взбейте желтки с сахаром и крахмалом, влейте горячее молоко и готовьте, помешивая, до загустения.",
-          "Вмешайте кофе и масло, накройте и охладите.",
-          "Заполните эклеры кремом через небольшие отверстия в основании и окуните верх в глазурь."
-        ]
-      },
-      "tips": [
-        "Выбирайте мини-эклер: примерно вдвое меньше калорий, чем в обычном.",
-        "Разделите один эклер на двоих как десерт после лёгкой еды.",
-        "Дома выпускайте меньше крема и добавляйте в начинку немного свежих фруктов."
-      ],
-      "name_inline": "эклер с кофе"
-    }
+  "ar": {
+   "name": "إكلير بالقهوة",
+   "origin": "فرنسا · حلويات باريس",
+   "intro": "إكلير القهوة إصبع طويل من عجينة الشو المقرمشة الهشة، محشو بكريمة حلويات ناعمة بنكهة القهوة ومغطى بطبقة لامعة من القهوة. العجينة خفيفة ومجوّفة والكريمة غنية حريرية، وتضيف القهوة مرارة لطيفة توازن الحلاوة. إنه من كلاسيكيات محلات الحلويات الفرنسية ويُؤكل مع قهوة العصر.",
+   "history": "يُنسب الإكلير عادةً إلى طهاة الحلويات الفرنسيين في القرن التاسع عشر، وكثيرًا ما يُذكر أنطونان كاريم كمن نشره، وإن لم يكن ذلك مؤكدًا. يعني اسمه «البرق» بالفرنسية، ربما لأنه يُؤكل بسرعة. واليوم يُعدّ الإكلير من أساسيات كل محل حلويات فرنسي.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 90,
+    "ingredients": [
+     "عجينة الشو: 125 مل ماء، 125 مل حليب، 100 غ زبدة، رشة ملح، 150 غ دقيق، 4 بيضات",
+     "كريمة الحلويات: 500 مل حليب، 4 صفار بيض، 100 غ سكر، 40 غ نشا ذرة",
+     "2 ملعقة كبيرة إسبريسو قوي أو 2 ملعقة صغيرة قهوة سريعة الذوبان",
+     "20 غ زبدة للكريمة",
+     "الطبقة اللامعة: 150 غ سكر بودرة مع 1–2 ملعقة كبيرة قهوة قوية"
+    ],
+    "steps": [
+     "اغلِ الماء والحليب والزبدة والملح، أضف الدقيق وحرّك حتى تنفصل العجينة عن جوانب القدر؛ بردها قليلًا ثم أضف البيض واحدة تلو الأخرى.",
+     "شكّل أصابع بطول 12 سم بكيس الحلواني على صينية مبطنة واخبزها على 180 °م لمدة 30–35 دقيقة حتى تنتفخ وتجف ثم بردها.",
+     "للكريمة: سخّن الحليب، واخفق الصفار مع السكر والنشا، واسكب الحليب الساخن فوقه واطهه مع التحريك حتى يتكثف.",
+     "أضف القهوة والزبدة وغطِّ الكريمة وبرّدها.",
+     "احشُ الإكلير بالكريمة عبر ثقوب صغيرة في القاعدة واغمس السطح في الطبقة اللامعة."
+    ]
+   },
+   "tips": [
+    "اختر إكلير صغيرًا: نحو نصف سعرات الحجم العادي.",
+    "تقاسم قطعة إكلير كتحلية بعد وجبة خفيفة.",
+    "في البيت قلّل الكريمة واستخدم بعض الفاكهة الطازجة في الحشوة."
+   ]
+  },
+  "it": {
+   "name": "Éclair al caffè",
+   "name_inline": "éclair al caffè",
+   "origin": "Francia · pasticceria parigina",
+   "intro": "L'éclair al caffè è un lungo bastoncino di pasta choux croccante e leggera, ripieno di una liscia crema pasticcera al caffè e coperto da una lucida glassa al caffè. La pasta è leggera e cava, la crema ricca e vellutata, e il caffè dà un delicato amaro che bilancia la dolcezza. È un classico delle pasticcerie francesi, da gustare con il caffè del pomeriggio.",
+   "history": "L'éclair è di solito attribuito ai pasticcieri francesi dell'Ottocento, e Antonin Carême viene spesso indicato come colui che lo rese popolare, anche se non è certo. Il nome significa «lampo» in francese, forse perché si mangia così in fretta. Oggi gli éclair sono un classico di ogni pâtisserie francese.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 90,
+    "ingredients": [
+     "Choux: 125 ml di acqua, 125 ml di latte, 100 g di burro, 1 pizzico di sale, 150 g di farina, 4 uova",
+     "Crema pasticcera: 500 ml di latte, 4 tuorli, 100 g di zucchero, 40 g di amido di mais",
+     "2 cucchiai di espresso forte o 2 cucchiaini di caffè solubile",
+     "20 g di burro per la crema",
+     "Glassa: 150 g di zucchero a velo mescolato con 1–2 cucchiai di caffè forte"
+    ],
+    "steps": [
+     "Porta a ebollizione acqua, latte, burro e sale, aggiungi la farina e mescola finché l'impasto si stacca dalle pareti; lascia intiepidire e incorpora le uova una alla volta.",
+     "Forma con la sac à poche bastoncini da 12 cm su una teglia foderata e cuoci a 180 °C per 30–35 minuti finché sono gonfi e asciutti; lascia raffreddare.",
+     "Per la crema, scalda il latte, sbatti i tuorli con zucchero e amido, versa il latte caldo e cuoci mescolando finché si addensa.",
+     "Incorpora il caffè e il burro, copri e metti in frigo.",
+     "Farcisci gli éclair con la sac à poche attraverso piccoli fori sulla base e immergi la parte superiore nella glassa."
+    ]
+   },
+   "tips": [
+    "Scegli un mini éclair: circa metà delle calorie di uno di dimensioni normali.",
+    "Dividi un éclair come dessert dopo un pasto leggero.",
+    "A casa, metti meno crema e completa il ripieno con un po' di frutta fresca."
+   ]
+  },
+  "el": {
+   "name": "Εκλέρ καφέ",
+   "name_inline": "εκλέρ καφέ",
+   "origin": "Γαλλία · παρισινή ζαχαροπλαστική",
+   "intro": "Το εκλέρ καφέ είναι ένα μακρόστενο γλυκό από τραγανή, αέρινη ζύμη σου, γεμιστό με λεία κρέμα ζαχαροπλαστικής με καφέ και καλυμμένο με γυαλιστερό γλάσο καφέ. Η ζύμη είναι ελαφριά και κούφια, η κρέμα πλούσια και μεταξένια, και ο καφές δίνει μια απαλή πικράδα που ισορροπεί τη γλύκα. Είναι κλασικό των γαλλικών ζαχαροπλαστείων και τρώγεται με τον απογευματινό καφέ.",
+   "history": "Το εκλέρ αποδίδεται συνήθως σε Γάλλους ζαχαροπλάστες του 19ου αιώνα, και ο Antonin Carême αναφέρεται συχνά ως αυτός που το έκανε δημοφιλές, αν και αυτό δεν είναι βέβαιο. Το όνομα σημαίνει «αστραπή» στα γαλλικά, ίσως επειδή τρώγεται τόσο γρήγορα. Σήμερα τα εκλέρ είναι βασικό γλυκό σε κάθε γαλλικό ζαχαροπλαστείο.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 90,
+    "ingredients": [
+     "Ζύμη σου: 125 ml νερό, 125 ml γάλα, 100 γρ. βούτυρο, 1 πρέζα αλάτι, 150 γρ. αλεύρι, 4 αυγά",
+     "Κρέμα ζαχαροπλαστικής: 500 ml γάλα, 4 κρόκοι, 100 γρ. ζάχαρη, 40 γρ. κορν φλάουρ",
+     "2 κ.σ. δυνατός εσπρέσο ή 2 κ.γ. στιγμιαίος καφές",
+     "20 γρ. βούτυρο για την κρέμα",
+     "Γλάσο: 150 γρ. ζάχαρη άχνη ανακατεμένη με 1–2 κ.σ. δυνατό καφέ"
+    ],
+    "steps": [
+     "Βράστε το νερό, το γάλα, το βούτυρο και το αλάτι, ρίξτε το αλεύρι και ανακατέψτε μέχρι η ζύμη να ξεκολλάει από τα τοιχώματα· αφήστε να κρυώσει λίγο και προσθέστε τα αυγά ένα ένα χτυπώντας.",
+     "Με κορνέ σχηματίστε κομμάτια 12 εκ. σε στρωμένο ταψί και ψήστε στους 180 °C για 30–35 λεπτά, μέχρι να φουσκώσουν και να στεγνώσουν· αφήστε να κρυώσουν.",
+     "Για την κρέμα, ζεστάνετε το γάλα, χτυπήστε τους κρόκους με τη ζάχαρη και το κορν φλάουρ, ρίξτε το ζεστό γάλα και μαγειρέψτε ανακατεύοντας μέχρι να πήξει.",
+     "Ανακατέψτε μέσα τον καφέ και το βούτυρο, σκεπάστε και βάλτε στο ψυγείο.",
+     "Γεμίστε τα εκλέρ με κορνέ από μικρές τρύπες στη βάση και βουτήξτε την επάνω πλευρά στο γλάσο."
+    ]
+   },
+   "tips": [
+    "Διαλέξτε μίνι εκλέρ: έχει περίπου τις μισές θερμίδες από ένα κανονικό.",
+    "Μοιραστείτε ένα εκλέρ ως επιδόρπιο μετά από ελαφρύ γεύμα.",
+    "Στο σπίτι, βάλτε λιγότερη κρέμα και συμπληρώστε τη γέμιση με λίγα φρέσκα φρούτα."
+   ]
+  },
+  "ru": {
+   "name": "Эклер с кофе",
+   "origin": "Франция · парижская кондитерская",
+   "intro": "Эклер с кофе — длинный палец хрустящего воздушного заварного теста, наполненный гладким кофейным заварным кремом и покрытый блестящей кофейной глазурью. Тесто лёгкое и пустотелое, крем насыщенный и шелковистый, а кофе даёт лёгкую горчинку, уравновешивающую сладость. Это классика французских кондитерских, который едят с кофе в полдень.",
+   "history": "Эклер обычно приписывают французским кондитерам XIX века, часто называя Антонина Карема тем, кто его популяризовал, хотя это не точно. Название по-французски означает «молния», возможно, потому что его съедают так быстро. Сегодня эклеры — основа каждой французской кондитерской.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 90,
+    "ingredients": [
+     "Заварное тесто: 125 мл воды, 125 мл молока, 100 г сливочного масла, 1 щепотка соли, 150 г муки, 4 яйца",
+     "Заварной крем: 500 мл молока, 4 яичных желтка, 100 г сахара, 40 г кукурузного крахмала",
+     "2 ст. л. крепкого эспрессо или 2 ч. л. растворимого кофе",
+     "20 г сливочного масла для крема",
+     "Глазурь: 150 г сахарной пудры, смешанной с 1–2 ст. л. крепкого кофе"
+    ],
+    "steps": [
+     "Доведите воду, молоко, масло и соль до кипения, добавьте муку и перемешивайте, пока тесто не начнёт отставать от стенок; слегка остудите и вмешайте яйца по одному.",
+     "Выпустите полоски длиной 12 см на застеленный противень и выпекайте при 180 °C 30–35 минут, пока они не поднимутся и не высохнут; остудите.",
+     "Для крема нагрейте молоко, взбейте желтки с сахаром и крахмалом, влейте горячее молоко и готовьте, помешивая, до загустения.",
+     "Вмешайте кофе и масло, накройте и охладите.",
+     "Заполните эклеры кремом через небольшие отверстия в основании и окуните верх в глазурь."
+    ]
+   },
+   "tips": [
+    "Выбирайте мини-эклер: примерно вдвое меньше калорий, чем в обычном.",
+    "Разделите один эклер на двоих как десерт после лёгкой еды.",
+    "Дома выпускайте меньше крема и добавляйте в начинку немного свежих фруктов."
+   ],
+   "name_inline": "эклер с кофе"
+  },
+  "es": {
+   "name": "Éclair de café (éclair au café)",
+   "origin": "Francia · Pastelería parisina",
+   "intro": "Un éclair de café es un dedo largo de pasta choux crujiente y aireada, relleno de suave crema pastelera de café y cubierto con un brillante glaseado de café. La pasta es ligera y hueca, la crema rica y sedosa, y el café aporta un amargor suave que equilibra el dulce. Es un clásico de las pastelerías francesas, que se toma con un café por la tarde.",
+   "history": "El éclair suele atribuirse a pasteleros franceses del siglo XIX, y a menudo se nombra a Antonin Carême como quien lo popularizó, aunque no es seguro. El nombre significa «relámpago» en francés, quizá porque se come muy rápido. Hoy los éclairs son un básico de toda pastelería francesa.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 90,
+    "ingredients": [
+     "Choux: 125 ml de agua, 125 ml de leche, 100 g de mantequilla, 1 pizca de sal, 150 g de harina, 4 huevos",
+     "Crema pastelera: 500 ml de leche, 4 yemas de huevo, 100 g de azúcar, 40 g de maicena",
+     "2 cda. de espresso fuerte o 2 cdta. de café instantáneo",
+     "20 g de mantequilla para la crema",
+     "Glaseado: 150 g de azúcar glas mezclada con 1 o 2 cda. de café fuerte"
+    ],
+    "steps": [
+     "Lleva a ebullición el agua, la leche, la mantequilla y la sal, agrega la harina y revuelve hasta que la masa se despegue de las paredes; deja enfriar un poco y bate los huevos uno por uno.",
+     "Forma con manga tiras de 12 cm sobre una charola forrada y hornea a 180 °C de 30 a 35 minutos, hasta que estén infladas y secas; deja enfriar.",
+     "Para la crema, calienta la leche, bate las yemas con el azúcar y la maicena, vierte encima la leche caliente y cocina, revolviendo, hasta que espese.",
+     "Incorpora el café y la mantequilla, tapa y refrigera.",
+     "Rellena los éclairs con la crema por pequeños orificios en la base y sumerge la parte superior en el glaseado."
+    ]
+   },
+   "tips": [
+    "Elige un mini éclair: tiene aproximadamente la mitad de calorías que uno de tamaño normal.",
+    "Comparte un éclair de postre después de una comida ligera.",
+    "En casa, pon menos crema y rellena con algo de fruta fresca."
+   ],
+   "name_inline": "el éclair de café"
   }
+ }
 }

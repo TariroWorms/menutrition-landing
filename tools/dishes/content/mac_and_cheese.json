@@ -1,171 +1,203 @@
 {
-  "db_key": "mac_and_cheese",
-  "slug": "mac-and-cheese",
-  "emoji": "🧀",
-  "portion_g": 300,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mac_and_cheese",
+ "slug": "mac-and-cheese",
+ "emoji": "🧀",
+ "portion_g": 300,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mac and cheese",
+   "origin": "United States",
+   "intro": "Mac and cheese is elbow macaroni bound in a rich sauce of melted cheese, cream and butter, then baked until bubbling with a golden top. The pasta stays tender while the sauce is thick, stretchy and salty. It is served as a comfort-food main or as a side with roasts and barbecue, and baked versions develop a crisp, browned crust.",
+   "history": "Baked macaroni with cheese was known in European cookbooks long before it became an American staple. It spread widely in the United States in the 19th and 20th centuries, and today it is a classic of home cooking, soul food and holiday tables.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 g elbow macaroni",
+     "250 ml cream",
+     "200 g cheddar, grated",
+     "50 g Parmesan-style hard cheese, grated",
+     "30 g butter",
+     "½ tsp mustard powder",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Cook the macaroni in salted water 2 minutes less than the packet says and drain.",
+     "Warm the cream with the butter and mustard powder, then stir in most of the cheddar until melted and smooth.",
+     "Mix the pasta into the sauce, season and tip into a baking dish.",
+     "Scatter the rest of the cheddar and the hard cheese on top.",
+     "Bake at 200 °C for 15–20 minutes until golden and bubbling."
+    ]
+   },
+   "tips": [
+    "Serve a 200 g portion with a big green salad instead of a full bowl.",
+    "Use a strongly flavoured mature cheese so less of it gives the same taste.",
+    "Stir steamed broccoli or cauliflower into the pasta to bulk up the dish."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mac and cheese",
-      "origin": "United States",
-      "intro": "Mac and cheese is elbow macaroni bound in a rich sauce of melted cheese, cream and butter, then baked until bubbling with a golden top. The pasta stays tender while the sauce is thick, stretchy and salty. It is served as a comfort-food main or as a side with roasts and barbecue, and baked versions develop a crisp, browned crust.",
-      "history": "Baked macaroni with cheese was known in European cookbooks long before it became an American staple. It spread widely in the United States in the 19th and 20th centuries, and today it is a classic of home cooking, soul food and holiday tables.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 g elbow macaroni",
-          "250 ml cream",
-          "200 g cheddar, grated",
-          "50 g Parmesan-style hard cheese, grated",
-          "30 g butter",
-          "½ tsp mustard powder",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Cook the macaroni in salted water 2 minutes less than the packet says and drain.",
-          "Warm the cream with the butter and mustard powder, then stir in most of the cheddar until melted and smooth.",
-          "Mix the pasta into the sauce, season and tip into a baking dish.",
-          "Scatter the rest of the cheddar and the hard cheese on top.",
-          "Bake at 200 °C for 15–20 minutes until golden and bubbling."
-        ]
-      },
-      "tips": [
-        "Serve a 200 g portion with a big green salad instead of a full bowl.",
-        "Use a strongly flavoured mature cheese so less of it gives the same taste.",
-        "Stir steamed broccoli or cauliflower into the pasta to bulk up the dish."
-      ]
-    },
-    "ar": {
-      "name": "ماك آند تشيز",
-      "origin": "الولايات المتحدة",
-      "intro": "الماك آند تشيز مكرونة كوعية مغطاة بصلصة غنية من الجبن الذائب والكريمة والزبدة، تُخبز حتى تغلي وتتكون على وجهها طبقة ذهبية. تبقى المكرونة طرية والصلصة كثيفة مطاطية مالحة. يُقدَّم طبقًا رئيسيًا مريحًا أو طبقًا جانبيًا مع المشويات، وتكتسب النسخة المخبوزة قشرة مقرمشة محمّرة.",
-      "history": "عُرفت المكرونة المخبوزة بالجبن في كتب الطبخ الأوروبية قبل أن تصبح من أساسيات المطبخ الأمريكي بوقت طويل. انتشرت في الولايات المتحدة خلال القرنين التاسع عشر والعشرين، وهي اليوم من كلاسيكيات الطبخ المنزلي ومطبخ «السول فود» وموائد الأعياد.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 غ مكرونة كوعية",
-          "250 مل كريمة طبخ",
-          "200 غ جبن شيدر مبشور",
-          "50 غ جبن صلب مبشور",
-          "30 غ زبدة",
-          "½ ملعقة صغيرة مسحوق خردل",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "اسلق المكرونة في ماء مملح أقل بدقيقتين من المدة المكتوبة وصفّها.",
-          "سخّن الكريمة مع الزبدة ومسحوق الخردل، ثم أضف معظم الشيدر وقلّب حتى يذوب وتصبح الصلصة ناعمة.",
-          "اخلط المكرونة بالصلصة وتبّل وضعها في صينية فرن.",
-          "وزّع باقي الشيدر والجبن الصلب على الوجه.",
-          "اخبز على 200 °م لمدة 15–20 دقيقة حتى يتحمر ويغلي."
-        ]
-      },
-      "tips": [
-        "قدّم حصة 200 غ مع سلطة خضراء كبيرة بدل وعاء كامل.",
-        "استخدم جبنًا معتّقًا قوي النكهة لتحصل على الطعم نفسه بكمية أقل.",
-        "أضف البروكلي أو القرنبيط المطهو على البخار إلى المكرونة لزيادة الحجم."
-      ]
-    },
-    "it": {
-      "name": "Mac and cheese",
-      "origin": "Stati Uniti",
-      "intro": "Il mac and cheese è fatto di maccheroncini a gomito legati in una ricca salsa di formaggio fuso, panna e burro, poi gratinati in forno finché sobbollono e hanno la superficie dorata. La pasta resta tenera mentre la salsa è densa, filante e saporita. Si serve come piatto unico confortante o come contorno di arrosti e barbecue, e le versioni al forno sviluppano una crosticina croccante e dorata.",
-      "history": "I maccheroni al forno con formaggio erano noti nei ricettari europei molto prima di diventare un classico americano. Si diffusero ampiamente negli Stati Uniti nel XIX e XX secolo, e oggi sono un classico della cucina di casa, del soul food e delle tavole delle feste.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 g di maccheroncini a gomito",
-          "250 ml di panna",
-          "200 g di cheddar grattugiato",
-          "50 g di formaggio duro tipo parmigiano, grattugiato",
-          "30 g di burro",
-          "½ cucchiaino di senape in polvere",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Cuoci i maccheroni in acqua salata 2 minuti meno di quanto indicato sulla confezione e scolali.",
-          "Scalda la panna con il burro e la senape in polvere, poi incorpora gran parte del cheddar finché è fuso e liscio.",
-          "Mescola la pasta con la salsa, regola di sale e pepe e versa in una pirofila.",
-          "Cospargi la superficie con il resto del cheddar e il formaggio duro.",
-          "Cuoci in forno a 200 °C per 15–20 minuti finché è dorato e sobbolle."
-        ]
-      },
-      "tips": [
-        "Servi una porzione da 200 g con una grande insalata verde invece di una ciotola piena.",
-        "Usa un formaggio stagionato dal sapore deciso, così ne basta meno per lo stesso gusto.",
-        "Aggiungi broccoli o cavolfiore al vapore alla pasta per rendere il piatto più abbondante."
-      ]
-    },
-    "el": {
-      "name": "Μακαρόνια με τυρί (mac and cheese)",
-      "origin": "Ηνωμένες Πολιτείες",
-      "intro": "Το mac and cheese είναι κοφτά μακαρονάκια δεμένα σε πλούσια σάλτσα από λιωμένο τυρί, κρέμα γάλακτος και βούτυρο, που ψήνονται μέχρι να κοχλάσουν και να αποκτήσουν χρυσαφένια κρούστα. Τα ζυμαρικά μένουν μαλακά ενώ η σάλτσα είναι πηχτή, λιωμένη και αλμυρή. Σερβίρεται ως παρηγορητικό κυρίως πιάτο ή ως συνοδευτικό σε ψητά και μπάρμπεκιου, και οι εκδοχές του φούρνου αποκτούν τραγανή, ροδισμένη κρούστα.",
-      "history": "Τα μακαρόνια φούρνου με τυρί ήταν γνωστά στα ευρωπαϊκά βιβλία μαγειρικής πολύ πριν γίνουν βασικό αμερικανικό φαγητό. Διαδόθηκαν ευρέως στις Ηνωμένες Πολιτείες τον 19ο και τον 20ό αιώνα, και σήμερα είναι κλασικό της σπιτικής μαγειρικής, του soul food και των γιορτινών τραπεζιών.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 γρ. κοφτά μακαρονάκια (γωνίες)",
-          "250 ml κρέμα γάλακτος",
-          "200 γρ. τσένταρ, τριμμένο",
-          "50 γρ. σκληρό τυρί τύπου παρμεζάνας, τριμμένο",
-          "30 γρ. βούτυρο",
-          "½ κ.γ. μουστάρδα σε σκόνη",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Βράστε τα μακαρόνια σε αλατισμένο νερό 2 λεπτά λιγότερο από όσο λέει η συσκευασία και στραγγίστε.",
-          "Ζεστάνετε την κρέμα με το βούτυρο και τη μουστάρδα σε σκόνη και ανακατέψτε μέσα το μεγαλύτερο μέρος του τσένταρ μέχρι να λιώσει και να γίνει λεία σάλτσα.",
-          "Ανακατέψτε τα ζυμαρικά με τη σάλτσα, αλατοπιπερώστε και αδειάστε σε ταψάκι.",
-          "Πασπαλίστε από πάνω με το υπόλοιπο τσένταρ και το σκληρό τυρί.",
-          "Ψήστε στους 200 °C για 15–20 λεπτά μέχρι να ροδίσει και να κοχλάζει."
-        ]
-      },
-      "tips": [
-        "Σερβίρετε μερίδα 200 γρ. με μια μεγάλη πράσινη σαλάτα αντί για γεμάτο μπολ.",
-        "Χρησιμοποιήστε ώριμο τυρί με έντονη γεύση ώστε λιγότερη ποσότητα να δίνει την ίδια γεύση.",
-        "Ανακατέψτε στα ζυμαρικά μπρόκολο ή κουνουπίδι στον ατμό για να αυξήσετε τον όγκο του πιάτου."
-      ],
-      "name_inline": "mac and cheese"
-    },
-    "ru": {
-      "name": "Мак-н-чиз (макароны с сыром)",
-      "origin": "США",
-      "intro": "Мак-н-чиз — рожки макарон, скреплённые насыщенным соусом из расплавленного сыра, сливок и масла, затем запечённые до пузырьков и золотистой корочки. Паста остаётся нежной, а соус густой, тягучий и солёный. Его подают как комфортное основное блюдо или гарнир к жаркому и барбекю, а запечённые варианты получают хрустящую подрумяненную корочку.",
-      "history": "Запечённые макароны с сыром были известны в европейских кулинарных книгах задолго до того, как стали американской классикой. Они широко распространились в США в XIX и XX веках, а сегодня это классика домашней кухни, соул-фуда и праздничных столов.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 г макарон-рожков",
-          "250 мл сливок",
-          "200 г чеддера, тёртого",
-          "50 г твёрдого сыра типа пармезана, тёртого",
-          "30 г сливочного масла",
-          "½ ч. л. горчичного порошка",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Варите макароны в подсоленной воде на 2 минуты меньше, чем указано на упаковке, и откиньте.",
-          "Подогрейте сливки с маслом и горчичным порошком, затем вмешайте большую часть чеддера до растворения и гладкости.",
-          "Смешайте пасту с соусом, приправьте и переложите в форму для запекания.",
-          "Посыпьте сверху остатками чеддера и твёрдым сыром.",
-          "Запекайте при 200 °C 15–20 минут до золотистого цвета и пузырьков."
-        ]
-      },
-      "tips": [
-        "Подавайте порцию в 200 г с большим зелёным салатом вместо полной миски.",
-        "Берите ярко выраженный выдержанный сыр: его нужно меньше для того же вкуса.",
-        "Вмешайте в пасту брокколи или цветную капусту на пару, чтобы увеличить блюдо."
-      ],
-      "name_inline": "мак-н-чиз"
-    }
+  "ar": {
+   "name": "ماك آند تشيز",
+   "origin": "الولايات المتحدة",
+   "intro": "الماك آند تشيز مكرونة كوعية مغطاة بصلصة غنية من الجبن الذائب والكريمة والزبدة، تُخبز حتى تغلي وتتكون على وجهها طبقة ذهبية. تبقى المكرونة طرية والصلصة كثيفة مطاطية مالحة. يُقدَّم طبقًا رئيسيًا مريحًا أو طبقًا جانبيًا مع المشويات، وتكتسب النسخة المخبوزة قشرة مقرمشة محمّرة.",
+   "history": "عُرفت المكرونة المخبوزة بالجبن في كتب الطبخ الأوروبية قبل أن تصبح من أساسيات المطبخ الأمريكي بوقت طويل. انتشرت في الولايات المتحدة خلال القرنين التاسع عشر والعشرين، وهي اليوم من كلاسيكيات الطبخ المنزلي ومطبخ «السول فود» وموائد الأعياد.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 غ مكرونة كوعية",
+     "250 مل كريمة طبخ",
+     "200 غ جبن شيدر مبشور",
+     "50 غ جبن صلب مبشور",
+     "30 غ زبدة",
+     "½ ملعقة صغيرة مسحوق خردل",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "اسلق المكرونة في ماء مملح أقل بدقيقتين من المدة المكتوبة وصفّها.",
+     "سخّن الكريمة مع الزبدة ومسحوق الخردل، ثم أضف معظم الشيدر وقلّب حتى يذوب وتصبح الصلصة ناعمة.",
+     "اخلط المكرونة بالصلصة وتبّل وضعها في صينية فرن.",
+     "وزّع باقي الشيدر والجبن الصلب على الوجه.",
+     "اخبز على 200 °م لمدة 15–20 دقيقة حتى يتحمر ويغلي."
+    ]
+   },
+   "tips": [
+    "قدّم حصة 200 غ مع سلطة خضراء كبيرة بدل وعاء كامل.",
+    "استخدم جبنًا معتّقًا قوي النكهة لتحصل على الطعم نفسه بكمية أقل.",
+    "أضف البروكلي أو القرنبيط المطهو على البخار إلى المكرونة لزيادة الحجم."
+   ]
+  },
+  "it": {
+   "name": "Mac and cheese",
+   "origin": "Stati Uniti",
+   "intro": "Il mac and cheese è fatto di maccheroncini a gomito legati in una ricca salsa di formaggio fuso, panna e burro, poi gratinati in forno finché sobbollono e hanno la superficie dorata. La pasta resta tenera mentre la salsa è densa, filante e saporita. Si serve come piatto unico confortante o come contorno di arrosti e barbecue, e le versioni al forno sviluppano una crosticina croccante e dorata.",
+   "history": "I maccheroni al forno con formaggio erano noti nei ricettari europei molto prima di diventare un classico americano. Si diffusero ampiamente negli Stati Uniti nel XIX e XX secolo, e oggi sono un classico della cucina di casa, del soul food e delle tavole delle feste.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 g di maccheroncini a gomito",
+     "250 ml di panna",
+     "200 g di cheddar grattugiato",
+     "50 g di formaggio duro tipo parmigiano, grattugiato",
+     "30 g di burro",
+     "½ cucchiaino di senape in polvere",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Cuoci i maccheroni in acqua salata 2 minuti meno di quanto indicato sulla confezione e scolali.",
+     "Scalda la panna con il burro e la senape in polvere, poi incorpora gran parte del cheddar finché è fuso e liscio.",
+     "Mescola la pasta con la salsa, regola di sale e pepe e versa in una pirofila.",
+     "Cospargi la superficie con il resto del cheddar e il formaggio duro.",
+     "Cuoci in forno a 200 °C per 15–20 minuti finché è dorato e sobbolle."
+    ]
+   },
+   "tips": [
+    "Servi una porzione da 200 g con una grande insalata verde invece di una ciotola piena.",
+    "Usa un formaggio stagionato dal sapore deciso, così ne basta meno per lo stesso gusto.",
+    "Aggiungi broccoli o cavolfiore al vapore alla pasta per rendere il piatto più abbondante."
+   ]
+  },
+  "el": {
+   "name": "Μακαρόνια με τυρί (mac and cheese)",
+   "origin": "Ηνωμένες Πολιτείες",
+   "intro": "Το mac and cheese είναι κοφτά μακαρονάκια δεμένα σε πλούσια σάλτσα από λιωμένο τυρί, κρέμα γάλακτος και βούτυρο, που ψήνονται μέχρι να κοχλάσουν και να αποκτήσουν χρυσαφένια κρούστα. Τα ζυμαρικά μένουν μαλακά ενώ η σάλτσα είναι πηχτή, λιωμένη και αλμυρή. Σερβίρεται ως παρηγορητικό κυρίως πιάτο ή ως συνοδευτικό σε ψητά και μπάρμπεκιου, και οι εκδοχές του φούρνου αποκτούν τραγανή, ροδισμένη κρούστα.",
+   "history": "Τα μακαρόνια φούρνου με τυρί ήταν γνωστά στα ευρωπαϊκά βιβλία μαγειρικής πολύ πριν γίνουν βασικό αμερικανικό φαγητό. Διαδόθηκαν ευρέως στις Ηνωμένες Πολιτείες τον 19ο και τον 20ό αιώνα, και σήμερα είναι κλασικό της σπιτικής μαγειρικής, του soul food και των γιορτινών τραπεζιών.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 γρ. κοφτά μακαρονάκια (γωνίες)",
+     "250 ml κρέμα γάλακτος",
+     "200 γρ. τσένταρ, τριμμένο",
+     "50 γρ. σκληρό τυρί τύπου παρμεζάνας, τριμμένο",
+     "30 γρ. βούτυρο",
+     "½ κ.γ. μουστάρδα σε σκόνη",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Βράστε τα μακαρόνια σε αλατισμένο νερό 2 λεπτά λιγότερο από όσο λέει η συσκευασία και στραγγίστε.",
+     "Ζεστάνετε την κρέμα με το βούτυρο και τη μουστάρδα σε σκόνη και ανακατέψτε μέσα το μεγαλύτερο μέρος του τσένταρ μέχρι να λιώσει και να γίνει λεία σάλτσα.",
+     "Ανακατέψτε τα ζυμαρικά με τη σάλτσα, αλατοπιπερώστε και αδειάστε σε ταψάκι.",
+     "Πασπαλίστε από πάνω με το υπόλοιπο τσένταρ και το σκληρό τυρί.",
+     "Ψήστε στους 200 °C για 15–20 λεπτά μέχρι να ροδίσει και να κοχλάζει."
+    ]
+   },
+   "tips": [
+    "Σερβίρετε μερίδα 200 γρ. με μια μεγάλη πράσινη σαλάτα αντί για γεμάτο μπολ.",
+    "Χρησιμοποιήστε ώριμο τυρί με έντονη γεύση ώστε λιγότερη ποσότητα να δίνει την ίδια γεύση.",
+    "Ανακατέψτε στα ζυμαρικά μπρόκολο ή κουνουπίδι στον ατμό για να αυξήσετε τον όγκο του πιάτου."
+   ],
+   "name_inline": "mac and cheese"
+  },
+  "ru": {
+   "name": "Мак-н-чиз (макароны с сыром)",
+   "origin": "США",
+   "intro": "Мак-н-чиз — рожки макарон, скреплённые насыщенным соусом из расплавленного сыра, сливок и масла, затем запечённые до пузырьков и золотистой корочки. Паста остаётся нежной, а соус густой, тягучий и солёный. Его подают как комфортное основное блюдо или гарнир к жаркому и барбекю, а запечённые варианты получают хрустящую подрумяненную корочку.",
+   "history": "Запечённые макароны с сыром были известны в европейских кулинарных книгах задолго до того, как стали американской классикой. Они широко распространились в США в XIX и XX веках, а сегодня это классика домашней кухни, соул-фуда и праздничных столов.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 г макарон-рожков",
+     "250 мл сливок",
+     "200 г чеддера, тёртого",
+     "50 г твёрдого сыра типа пармезана, тёртого",
+     "30 г сливочного масла",
+     "½ ч. л. горчичного порошка",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Варите макароны в подсоленной воде на 2 минуты меньше, чем указано на упаковке, и откиньте.",
+     "Подогрейте сливки с маслом и горчичным порошком, затем вмешайте большую часть чеддера до растворения и гладкости.",
+     "Смешайте пасту с соусом, приправьте и переложите в форму для запекания.",
+     "Посыпьте сверху остатками чеддера и твёрдым сыром.",
+     "Запекайте при 200 °C 15–20 минут до золотистого цвета и пузырьков."
+    ]
+   },
+   "tips": [
+    "Подавайте порцию в 200 г с большим зелёным салатом вместо полной миски.",
+    "Берите ярко выраженный выдержанный сыр: его нужно меньше для того же вкуса.",
+    "Вмешайте в пасту брокколи или цветную капусту на пару, чтобы увеличить блюдо."
+   ],
+   "name_inline": "мак-н-чиз"
+  },
+  "es": {
+   "name": "Mac and cheese",
+   "origin": "Estados Unidos",
+   "intro": "El mac and cheese son macarrones de codo envueltos en una salsa rica de queso derretido, crema y mantequilla, y luego horneados hasta que burbujean y se doran por encima. La pasta queda tierna, mientras que la salsa es espesa, elástica y salada. Se sirve como plato fuerte reconfortante o como guarnición de asados y barbacoa, y las versiones horneadas desarrollan una costra dorada y crujiente.",
+   "history": "Los macarrones horneados con queso ya aparecían en libros de cocina europeos mucho antes de convertirse en un clásico estadounidense. Se difundieron ampliamente en Estados Unidos en los siglos XIX y XX, y hoy son un clásico de la cocina casera, del soul food y de las mesas festivas.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 g de macarrones de codo",
+     "250 ml de crema",
+     "200 g de queso cheddar, rallado",
+     "50 g de queso duro tipo parmesano, rallado",
+     "30 g de mantequilla",
+     "½ cdta. de mostaza en polvo",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Cuece los macarrones en agua con sal 2 minutos menos de lo que indique el paquete y escúrrelos.",
+     "Calienta la crema con la mantequilla y la mostaza en polvo, y agrega la mayor parte del cheddar hasta que se derrita y quede lisa.",
+     "Mezcla la pasta con la salsa, sazona y pasa a un molde para hornear.",
+     "Esparce encima el cheddar restante y el queso duro.",
+     "Hornea a 200 °C de 15 a 20 minutos, hasta que esté dorado y burbujeante."
+    ]
+   },
+   "tips": [
+    "Sirve una porción de 200 g con una ensalada verde grande en lugar de un plato lleno.",
+    "Usa un queso maduro de sabor intenso para que menos cantidad dé el mismo sabor.",
+    "Mezcla brócoli o coliflor al vapor con la pasta para dar volumen al plato."
+   ],
+   "name_inline": "el mac and cheese"
   }
+ }
 }

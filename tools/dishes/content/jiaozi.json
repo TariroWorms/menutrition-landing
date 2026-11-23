@@ -1,170 +1,202 @@
 {
-  "db_key": "jiaozi",
-  "slug": "jiaozi",
-  "emoji": "🥟",
-  "portion_g": 200,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "jiaozi",
+ "slug": "jiaozi",
+ "emoji": "🥟",
+ "portion_g": 200,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Jiaozi (Chinese dumplings)",
+   "origin": "China · northern China",
+   "intro": "Jiaozi are Chinese dumplings made from thin wheat wrappers folded around a juicy filling of minced pork, napa cabbage, ginger and garlic seasoned with soy sauce. Boiled until the wrappers turn soft and slightly translucent, they are tender, savoury and full of broth inside. They are served hot with a dip of black vinegar and chilli, and are a central food of Chinese New Year in the north.",
+   "history": "Dumplings of this kind have been eaten in China for well over a thousand years. Their shape is often compared to old silver ingots, which is why families traditionally make them together at Lunar New Year as a wish for prosperity.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "400 g minced pork",
+     "300 g napa cabbage, finely chopped",
+     "2 cm ginger and 2 garlic cloves, minced",
+     "2 tbsp soy sauce",
+     "2 spring onions, finely chopped",
+     "About 32 round dumpling wrappers",
+     "Black vinegar and chilli oil, to serve"
+    ],
+    "steps": [
+     "Salt the cabbage, leave for 10 minutes, then squeeze out as much water as possible.",
+     "Mix the pork, cabbage, ginger, garlic, spring onion and soy sauce in one direction until sticky.",
+     "Place a teaspoon of filling in the centre of each wrapper, wet the edge, fold and pleat to seal.",
+     "Boil the dumplings in batches in plenty of water; when they float, add a cup of cold water and bring back to the boil. Repeat twice, then lift out.",
+     "Serve hot with black vinegar and a little chilli oil."
+    ]
+   },
+   "tips": [
+    "Boiled or steamed jiaozi carry far less fat than pan-fried potstickers.",
+    "Use lean minced pork and more cabbage in the filling.",
+    "Dip in vinegar rather than oily sauces, and count your dumplings: 8–10 make a typical portion."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Jiaozi (Chinese dumplings)",
-      "origin": "China · northern China",
-      "intro": "Jiaozi are Chinese dumplings made from thin wheat wrappers folded around a juicy filling of minced pork, napa cabbage, ginger and garlic seasoned with soy sauce. Boiled until the wrappers turn soft and slightly translucent, they are tender, savoury and full of broth inside. They are served hot with a dip of black vinegar and chilli, and are a central food of Chinese New Year in the north.",
-      "history": "Dumplings of this kind have been eaten in China for well over a thousand years. Their shape is often compared to old silver ingots, which is why families traditionally make them together at Lunar New Year as a wish for prosperity.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "400 g minced pork",
-          "300 g napa cabbage, finely chopped",
-          "2 cm ginger and 2 garlic cloves, minced",
-          "2 tbsp soy sauce",
-          "2 spring onions, finely chopped",
-          "About 32 round dumpling wrappers",
-          "Black vinegar and chilli oil, to serve"
-        ],
-        "steps": [
-          "Salt the cabbage, leave for 10 minutes, then squeeze out as much water as possible.",
-          "Mix the pork, cabbage, ginger, garlic, spring onion and soy sauce in one direction until sticky.",
-          "Place a teaspoon of filling in the centre of each wrapper, wet the edge, fold and pleat to seal.",
-          "Boil the dumplings in batches in plenty of water; when they float, add a cup of cold water and bring back to the boil. Repeat twice, then lift out.",
-          "Serve hot with black vinegar and a little chilli oil."
-        ]
-      },
-      "tips": [
-        "Boiled or steamed jiaozi carry far less fat than pan-fried potstickers.",
-        "Use lean minced pork and more cabbage in the filling.",
-        "Dip in vinegar rather than oily sauces, and count your dumplings: 8–10 make a typical portion."
-      ]
-    },
-    "ar": {
-      "name": "جياوزي (فطائر صينية)",
-      "origin": "الصين · شمال الصين",
-      "intro": "الجياوزي فطائر صينية تُصنع من رقائق عجين قمح رقيقة تُطوى حول حشوة عصيرية من لحم الخنزير المفروم والملفوف الصيني والزنجبيل والثوم المتبّلة بصلصة الصويا. تُسلق حتى يصبح العجين طرياً شبه شفاف، فتكون طرية مالحة مليئة بالمرق من الداخل. تُقدَّم ساخنة مع صلصة غمس من الخل الأسود والفلفل الحار، وهي طعام أساسي في رأس السنة الصينية في الشمال.",
-      "history": "تؤكل الفطائر من هذا النوع في الصين منذ أكثر من ألف عام. ويُشبَّه شكلها غالباً بسبائك الفضة القديمة، ولذلك تصنعها العائلات معاً تقليدياً في السنة القمرية الجديدة أملاً في الرخاء.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "400 غ لحم خنزير مفروم",
-          "300 غ ملفوف صيني مفروم ناعماً",
-          "2 سم زنجبيل وفصّا ثوم مفرومة",
-          "2 ملعقة كبيرة صلصة صويا",
-          "عودا بصل أخضر مفرومان ناعماً",
-          "نحو 32 رقاقة عجين دائرية للفطائر",
-          "خل أسود وزيت فلفل حار للتقديم"
-        ],
-        "steps": [
-          "رشّ الملح على الملفوف واتركه 10 دقائق، ثم اعصره لإخراج أكبر قدر من الماء.",
-          "اخلط اللحم والملفوف والزنجبيل والثوم والبصل الأخضر وصلصة الصويا في اتجاه واحد حتى تلتصق.",
-          "ضع ملعقة صغيرة من الحشوة وسط كل رقاقة، وبلّل الحافة واطوِها وثنّها لإغلاقها.",
-          "اسلق الفطائر على دفعات في كثير من الماء؛ عندما تطفو أضف كوب ماء بارد وأعده للغليان. كرّر ذلك مرتين ثم ارفعها.",
-          "قدّمها ساخنة مع الخل الأسود وقليل من زيت الفلفل الحار."
-        ]
-      },
-      "tips": [
-        "الجياوزي المسلوقة أو المطهوة على البخار تحمل دهوناً أقل بكثير من المقلية.",
-        "استخدم لحماً مفروماً قليل الدهن وملفوفاً أكثر في الحشوة.",
-        "اغمسها في الخل بدلاً من الصلصات الدهنية، وعُدّ الفطائر: 8–10 حبات حصة معتادة."
-      ]
-    },
-    "it": {
-      "name": "Jiaozi (ravioli cinesi)",
-      "origin": "Cina · Cina settentrionale",
-      "intro": "I jiaozi sono ravioli cinesi fatti con sottili sfoglie di frumento chiuse attorno a un ripieno succoso di maiale macinato, cavolo cinese, zenzero e aglio insaporito con salsa di soia. Lessati finché la sfoglia diventa morbida e leggermente traslucida, sono teneri, saporiti e pieni di brodo all'interno. Si servono caldi con una salsa di aceto nero e peperoncino e nel nord sono un cibo centrale del Capodanno cinese.",
-      "history": "Ravioli di questo tipo si mangiano in Cina da ben oltre mille anni. La loro forma viene spesso paragonata agli antichi lingotti d'argento, ed è per questo che le famiglie tradizionalmente li preparano insieme per il Capodanno lunare come augurio di prosperità.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "400 g di maiale macinato",
-          "300 g di cavolo cinese tritato finemente",
-          "2 cm di zenzero e 2 spicchi d'aglio, tritati",
-          "2 cucchiai di salsa di soia",
-          "2 cipollotti tritati finemente",
-          "Circa 32 dischi di pasta per ravioli",
-          "Aceto nero e olio al peperoncino, per servire"
-        ],
-        "steps": [
-          "Sala il cavolo, lascialo riposare 10 minuti, poi strizzalo per eliminare quanta più acqua possibile.",
-          "Mescola maiale, cavolo, zenzero, aglio, cipollotto e salsa di soia sempre nello stesso verso finché il composto è colloso.",
-          "Metti un cucchiaino di ripieno al centro di ogni disco, inumidisci il bordo, piega e pieghetta per sigillare.",
-          "Lessa i ravioli a gruppi in abbondante acqua; quando vengono a galla, aggiungi una tazza di acqua fredda e riporta a ebollizione. Ripeti due volte, poi scolali.",
-          "Servi caldi con aceto nero e un po' di olio al peperoncino."
-        ]
-      },
-      "tips": [
-        "I jiaozi lessati o al vapore contengono molti meno grassi dei potsticker saltati in padella.",
-        "Usa maiale macinato magro e più cavolo nel ripieno.",
-        "Intingili nell'aceto invece che in salse oleose, e conta i ravioli: 8–10 sono una porzione tipica."
-      ]
-    },
-    "el": {
-      "name": "Τζιάοζι (κινέζικα ντάμπλινγκ)",
-      "origin": "Κίνα · βόρεια Κίνα",
-      "intro": "Τα τζιάοζι είναι κινέζικα ντάμπλινγκ από λεπτά φύλλα ζύμης σιταριού διπλωμένα γύρω από ζουμερή γέμιση με χοιρινό κιμά, κινέζικο λάχανο, τζίντζερ και σκόρδο, καρυκευμένη με σάλτσα σόγιας. Βρασμένα μέχρι το φύλλο να μαλακώσει και να γίνει ελαφρά διάφανο, είναι τρυφερά, γευστικά και γεμάτα ζωμό μέσα. Σερβίρονται ζεστά με ντιπ από μαύρο ξίδι και καυτερή πιπεριά και στον βορρά είναι κεντρικό φαγητό της κινεζικής Πρωτοχρονιάς.",
-      "history": "Ντάμπλινγκ αυτού του είδους τρώγονται στην Κίνα εδώ και πολύ περισσότερα από χίλια χρόνια. Το σχήμα τους συχνά παρομοιάζεται με παλιές ράβδους ασημιού, γι' αυτό οι οικογένειες παραδοσιακά τα φτιάχνουν μαζί τη Σεληνιακή Πρωτοχρονιά ως ευχή για ευημερία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "400 γρ. χοιρινός κιμάς",
-          "300 γρ. κινέζικο λάχανο, ψιλοκομμένο",
-          "2 εκ. τζίντζερ και 2 σκελίδες σκόρδο, ψιλοκομμένα",
-          "2 κ.σ. σάλτσα σόγιας",
-          "2 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
-          "Περίπου 32 στρογγυλά φύλλα για ντάμπλινγκ",
-          "Μαύρο ξίδι και καυτερό λάδι, για το σερβίρισμα"
-        ],
-        "steps": [
-          "Αλατίστε το λάχανο, αφήστε το 10 λεπτά και έπειτα στύψτε το για να βγει όσο περισσότερο νερό γίνεται.",
-          "Ανακατέψτε τον κιμά, το λάχανο, το τζίντζερ, το σκόρδο, το κρεμμυδάκι και τη σάλτσα σόγιας προς μία κατεύθυνση μέχρι το μείγμα να κολλάει.",
-          "Βάλτε ένα κουταλάκι γέμιση στο κέντρο κάθε φύλλου, βρέξτε την άκρη, διπλώστε και πτυχώστε για να κλείσει.",
-          "Βράστε τα ντάμπλινγκ σε δόσεις σε άφθονο νερό· όταν ανέβουν στην επιφάνεια, προσθέστε ένα φλιτζάνι κρύο νερό και αφήστε να ξαναβράσει. Επαναλάβετε δύο φορές και έπειτα βγάλτε τα.",
-          "Σερβίρετε ζεστά με μαύρο ξίδι και λίγο καυτερό λάδι."
-        ]
-      },
-      "tips": [
-        "Τα βραστά ή στον ατμό τζιάοζι έχουν πολύ λιγότερα λιπαρά από τα τηγανητά ποτστίκερ.",
-        "Χρησιμοποιήστε άπαχο χοιρινό κιμά και περισσότερο λάχανο στη γέμιση.",
-        "Βουτήξτε τα σε ξίδι αντί για λιπαρές σάλτσες και μετρήστε τα ντάμπλινγκ: 8–10 είναι μια τυπική μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Цзяоцзы (китайские пельмени)",
-      "origin": "Китай · Северный Китай",
-      "intro": "Цзяоцзы — китайские пельмени из тонких пшеничных обёрток, завёрнутых вокруг сочной начинки из свиного фарша, пекинской капусты, имбиря и чеснока, приправленной соевым соусом. Отваренные, пока обёртка не станет мягкой и слегка прозрачной, они нежные, пикантные и полны бульона внутри. Их подают горячими с соусом из чёрного уксуса и чили, и они — главное блюдо китайского Нового года на севере.",
-      "history": "Пельмени такого рода едят в Китае уже более тысячи лет. Их форму часто сравнивают со старинными серебряными слитками, поэтому семьи традиционно лепят их вместе на Лунный Новый год как пожелание процветания.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "400 г свиного фарша",
-          "300 г пекинской капусты, мелко нарезанной",
-          "2 см имбиря и 2 зубчика чеснока, измельчённых",
-          "2 ст. л. соевого соуса",
-          "2 стебля зелёного лука, мелко нарезанных",
-          "Около 32 круглых обёрток для пельменей",
-          "Чёрный уксус и масло чили для подачи"
-        ],
-        "steps": [
-          "Посолите капусту, оставьте на 10 минут, затем отожмите как можно больше воды.",
-          "Смешайте свинину, капусту, имбирь, чеснок, зелёный лук и соевый соус, перемешивая в одном направлении до липкости.",
-          "Положите по 1 ч. л. начинки в центр каждой обёртки, смочите край, сложите и защипните складками.",
-          "Варите пельмени порциями в большом количестве воды; когда они всплывут, добавьте стакан холодной воды и снова доведите до кипения. Повторите дважды, затем выньте.",
-          "Подавайте горячими с чёрным уксусом и небольшим количеством масла чили."
-        ]
-      },
-      "tips": [
-        "Варёные или приготовленные на пару цзяоцзы содержат гораздо меньше жира, чем обжаренные потстикеры.",
-        "Берите постный свиной фарш и больше капусты в начинке.",
-        "Макайте в уксус, а не в жирные соусы, и считайте пельмени: 8–10 штук — обычная порция."
-      ],
-      "name_inline": "цзяоцзы"
-    }
+  "ar": {
+   "name": "جياوزي (فطائر صينية)",
+   "origin": "الصين · شمال الصين",
+   "intro": "الجياوزي فطائر صينية تُصنع من رقائق عجين قمح رقيقة تُطوى حول حشوة عصيرية من لحم الخنزير المفروم والملفوف الصيني والزنجبيل والثوم المتبّلة بصلصة الصويا. تُسلق حتى يصبح العجين طرياً شبه شفاف، فتكون طرية مالحة مليئة بالمرق من الداخل. تُقدَّم ساخنة مع صلصة غمس من الخل الأسود والفلفل الحار، وهي طعام أساسي في رأس السنة الصينية في الشمال.",
+   "history": "تؤكل الفطائر من هذا النوع في الصين منذ أكثر من ألف عام. ويُشبَّه شكلها غالباً بسبائك الفضة القديمة، ولذلك تصنعها العائلات معاً تقليدياً في السنة القمرية الجديدة أملاً في الرخاء.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "400 غ لحم خنزير مفروم",
+     "300 غ ملفوف صيني مفروم ناعماً",
+     "2 سم زنجبيل وفصّا ثوم مفرومة",
+     "2 ملعقة كبيرة صلصة صويا",
+     "عودا بصل أخضر مفرومان ناعماً",
+     "نحو 32 رقاقة عجين دائرية للفطائر",
+     "خل أسود وزيت فلفل حار للتقديم"
+    ],
+    "steps": [
+     "رشّ الملح على الملفوف واتركه 10 دقائق، ثم اعصره لإخراج أكبر قدر من الماء.",
+     "اخلط اللحم والملفوف والزنجبيل والثوم والبصل الأخضر وصلصة الصويا في اتجاه واحد حتى تلتصق.",
+     "ضع ملعقة صغيرة من الحشوة وسط كل رقاقة، وبلّل الحافة واطوِها وثنّها لإغلاقها.",
+     "اسلق الفطائر على دفعات في كثير من الماء؛ عندما تطفو أضف كوب ماء بارد وأعده للغليان. كرّر ذلك مرتين ثم ارفعها.",
+     "قدّمها ساخنة مع الخل الأسود وقليل من زيت الفلفل الحار."
+    ]
+   },
+   "tips": [
+    "الجياوزي المسلوقة أو المطهوة على البخار تحمل دهوناً أقل بكثير من المقلية.",
+    "استخدم لحماً مفروماً قليل الدهن وملفوفاً أكثر في الحشوة.",
+    "اغمسها في الخل بدلاً من الصلصات الدهنية، وعُدّ الفطائر: 8–10 حبات حصة معتادة."
+   ]
+  },
+  "it": {
+   "name": "Jiaozi (ravioli cinesi)",
+   "origin": "Cina · Cina settentrionale",
+   "intro": "I jiaozi sono ravioli cinesi fatti con sottili sfoglie di frumento chiuse attorno a un ripieno succoso di maiale macinato, cavolo cinese, zenzero e aglio insaporito con salsa di soia. Lessati finché la sfoglia diventa morbida e leggermente traslucida, sono teneri, saporiti e pieni di brodo all'interno. Si servono caldi con una salsa di aceto nero e peperoncino e nel nord sono un cibo centrale del Capodanno cinese.",
+   "history": "Ravioli di questo tipo si mangiano in Cina da ben oltre mille anni. La loro forma viene spesso paragonata agli antichi lingotti d'argento, ed è per questo che le famiglie tradizionalmente li preparano insieme per il Capodanno lunare come augurio di prosperità.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "400 g di maiale macinato",
+     "300 g di cavolo cinese tritato finemente",
+     "2 cm di zenzero e 2 spicchi d'aglio, tritati",
+     "2 cucchiai di salsa di soia",
+     "2 cipollotti tritati finemente",
+     "Circa 32 dischi di pasta per ravioli",
+     "Aceto nero e olio al peperoncino, per servire"
+    ],
+    "steps": [
+     "Sala il cavolo, lascialo riposare 10 minuti, poi strizzalo per eliminare quanta più acqua possibile.",
+     "Mescola maiale, cavolo, zenzero, aglio, cipollotto e salsa di soia sempre nello stesso verso finché il composto è colloso.",
+     "Metti un cucchiaino di ripieno al centro di ogni disco, inumidisci il bordo, piega e pieghetta per sigillare.",
+     "Lessa i ravioli a gruppi in abbondante acqua; quando vengono a galla, aggiungi una tazza di acqua fredda e riporta a ebollizione. Ripeti due volte, poi scolali.",
+     "Servi caldi con aceto nero e un po' di olio al peperoncino."
+    ]
+   },
+   "tips": [
+    "I jiaozi lessati o al vapore contengono molti meno grassi dei potsticker saltati in padella.",
+    "Usa maiale macinato magro e più cavolo nel ripieno.",
+    "Intingili nell'aceto invece che in salse oleose, e conta i ravioli: 8–10 sono una porzione tipica."
+   ]
+  },
+  "el": {
+   "name": "Τζιάοζι (κινέζικα ντάμπλινγκ)",
+   "origin": "Κίνα · βόρεια Κίνα",
+   "intro": "Τα τζιάοζι είναι κινέζικα ντάμπλινγκ από λεπτά φύλλα ζύμης σιταριού διπλωμένα γύρω από ζουμερή γέμιση με χοιρινό κιμά, κινέζικο λάχανο, τζίντζερ και σκόρδο, καρυκευμένη με σάλτσα σόγιας. Βρασμένα μέχρι το φύλλο να μαλακώσει και να γίνει ελαφρά διάφανο, είναι τρυφερά, γευστικά και γεμάτα ζωμό μέσα. Σερβίρονται ζεστά με ντιπ από μαύρο ξίδι και καυτερή πιπεριά και στον βορρά είναι κεντρικό φαγητό της κινεζικής Πρωτοχρονιάς.",
+   "history": "Ντάμπλινγκ αυτού του είδους τρώγονται στην Κίνα εδώ και πολύ περισσότερα από χίλια χρόνια. Το σχήμα τους συχνά παρομοιάζεται με παλιές ράβδους ασημιού, γι' αυτό οι οικογένειες παραδοσιακά τα φτιάχνουν μαζί τη Σεληνιακή Πρωτοχρονιά ως ευχή για ευημερία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "400 γρ. χοιρινός κιμάς",
+     "300 γρ. κινέζικο λάχανο, ψιλοκομμένο",
+     "2 εκ. τζίντζερ και 2 σκελίδες σκόρδο, ψιλοκομμένα",
+     "2 κ.σ. σάλτσα σόγιας",
+     "2 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
+     "Περίπου 32 στρογγυλά φύλλα για ντάμπλινγκ",
+     "Μαύρο ξίδι και καυτερό λάδι, για το σερβίρισμα"
+    ],
+    "steps": [
+     "Αλατίστε το λάχανο, αφήστε το 10 λεπτά και έπειτα στύψτε το για να βγει όσο περισσότερο νερό γίνεται.",
+     "Ανακατέψτε τον κιμά, το λάχανο, το τζίντζερ, το σκόρδο, το κρεμμυδάκι και τη σάλτσα σόγιας προς μία κατεύθυνση μέχρι το μείγμα να κολλάει.",
+     "Βάλτε ένα κουταλάκι γέμιση στο κέντρο κάθε φύλλου, βρέξτε την άκρη, διπλώστε και πτυχώστε για να κλείσει.",
+     "Βράστε τα ντάμπλινγκ σε δόσεις σε άφθονο νερό· όταν ανέβουν στην επιφάνεια, προσθέστε ένα φλιτζάνι κρύο νερό και αφήστε να ξαναβράσει. Επαναλάβετε δύο φορές και έπειτα βγάλτε τα.",
+     "Σερβίρετε ζεστά με μαύρο ξίδι και λίγο καυτερό λάδι."
+    ]
+   },
+   "tips": [
+    "Τα βραστά ή στον ατμό τζιάοζι έχουν πολύ λιγότερα λιπαρά από τα τηγανητά ποτστίκερ.",
+    "Χρησιμοποιήστε άπαχο χοιρινό κιμά και περισσότερο λάχανο στη γέμιση.",
+    "Βουτήξτε τα σε ξίδι αντί για λιπαρές σάλτσες και μετρήστε τα ντάμπλινγκ: 8–10 είναι μια τυπική μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Цзяоцзы (китайские пельмени)",
+   "origin": "Китай · Северный Китай",
+   "intro": "Цзяоцзы — китайские пельмени из тонких пшеничных обёрток, завёрнутых вокруг сочной начинки из свиного фарша, пекинской капусты, имбиря и чеснока, приправленной соевым соусом. Отваренные, пока обёртка не станет мягкой и слегка прозрачной, они нежные, пикантные и полны бульона внутри. Их подают горячими с соусом из чёрного уксуса и чили, и они — главное блюдо китайского Нового года на севере.",
+   "history": "Пельмени такого рода едят в Китае уже более тысячи лет. Их форму часто сравнивают со старинными серебряными слитками, поэтому семьи традиционно лепят их вместе на Лунный Новый год как пожелание процветания.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "400 г свиного фарша",
+     "300 г пекинской капусты, мелко нарезанной",
+     "2 см имбиря и 2 зубчика чеснока, измельчённых",
+     "2 ст. л. соевого соуса",
+     "2 стебля зелёного лука, мелко нарезанных",
+     "Около 32 круглых обёрток для пельменей",
+     "Чёрный уксус и масло чили для подачи"
+    ],
+    "steps": [
+     "Посолите капусту, оставьте на 10 минут, затем отожмите как можно больше воды.",
+     "Смешайте свинину, капусту, имбирь, чеснок, зелёный лук и соевый соус, перемешивая в одном направлении до липкости.",
+     "Положите по 1 ч. л. начинки в центр каждой обёртки, смочите край, сложите и защипните складками.",
+     "Варите пельмени порциями в большом количестве воды; когда они всплывут, добавьте стакан холодной воды и снова доведите до кипения. Повторите дважды, затем выньте.",
+     "Подавайте горячими с чёрным уксусом и небольшим количеством масла чили."
+    ]
+   },
+   "tips": [
+    "Варёные или приготовленные на пару цзяоцзы содержат гораздо меньше жира, чем обжаренные потстикеры.",
+    "Берите постный свиной фарш и больше капусты в начинке.",
+    "Макайте в уксус, а не в жирные соусы, и считайте пельмени: 8–10 штук — обычная порция."
+   ],
+   "name_inline": "цзяоцзы"
+  },
+  "es": {
+   "name": "Jiaozi (empanadillas chinas)",
+   "origin": "China · norte de China",
+   "intro": "Los jiaozi son empanadillas chinas de masa fina de trigo rellenas de carne de cerdo molida, col china, jengibre y ajo sazonados con salsa de soya. Se hierven hasta que la masa se ablanda y se vuelve algo translúcida, y quedan tiernos, sabrosos y llenos de caldo por dentro. Se sirven calientes con una salsa de vinagre negro y chile, y son comida central del Año Nuevo chino en el norte.",
+   "history": "En China se comen empanadillas de este tipo desde hace más de mil años. Su forma recuerda a los antiguos lingotes de plata, por eso las familias las preparan juntas en el Año Nuevo lunar como deseo de prosperidad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "400 g de carne de cerdo molida",
+     "300 g de col china, finamente picada",
+     "2 cm de jengibre y 2 dientes de ajo, picados",
+     "2 cda. de salsa de soya",
+     "2 cebollitas de cambray, finamente picadas",
+     "Unas 32 obleas redondas para empanadillas",
+     "Vinagre negro y aceite de chile, para servir"
+    ],
+    "steps": [
+     "Sala la col, déjala reposar 10 minutos y exprímela para quitarle toda el agua posible.",
+     "Mezcla el cerdo, la col, el jengibre, el ajo, la cebollita y la salsa de soya en un solo sentido hasta que quede pegajoso.",
+     "Pon una cucharadita de relleno en el centro de cada oblea, humedece el borde, dobla y haz pliegues para sellar.",
+     "Hierve los jiaozi por tandas en abundante agua; cuando floten, añade una taza de agua fría y vuelve a hervir. Repite dos veces y sácalos.",
+     "Sirve caliente con vinagre negro y un poco de aceite de chile."
+    ]
+   },
+   "tips": [
+    "Los jiaozi hervidos o al vapor tienen mucha menos grasa que los fritos.",
+    "Usa cerdo molido magro y más col en el relleno.",
+    "Moja en vinagre en lugar de salsas aceitosas y cuenta tus empanadillas: de 8 a 10 son una porción habitual."
+   ],
+   "name_inline": "los jiaozi"
   }
+ }
 }

@@ -1,170 +1,202 @@
 {
-  "db_key": "bossam",
-  "slug": "bossam",
-  "emoji": "🥬",
-  "portion_g": 250,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bossam",
+ "slug": "bossam",
+ "emoji": "🥬",
+ "portion_g": 250,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bossam (Korean boiled pork wraps)",
+   "origin": "South Korea",
+   "intro": "Bossam is Korean pork belly simmered with garlic and aromatics until meltingly tender, then sliced thin and eaten in wraps. Each slice goes into a lettuce leaf with a piece of kimchi, a slice of raw garlic and a dab of ssamjang, the thick savoury dipping paste, and is eaten in one bite. It is a sharing dish, served on a big platter with all the trimmings.",
+   "history": "Bossam is closely tied to kimjang, the late-autumn tradition of making the winter’s kimchi together, when families eat freshly boiled pork with the new kimchi. Today it is a popular restaurant and delivery dish across South Korea, often ordered for groups.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 kg pork belly, in one or two pieces",
+     "1 onion, halved, and 1 leek or 3 spring onions",
+     "8 garlic cloves, plus thin slices of raw garlic to serve",
+     "3 cm ginger, sliced, and 1 tsp black peppercorns",
+     "300 g napa cabbage kimchi",
+     "2 heads of lettuce, leaves separated",
+     "4 tbsp ssamjang"
+    ],
+    "steps": [
+     "Put the pork in a pot with the onion, leek, garlic, ginger and peppercorns and cover with water.",
+     "Bring to the boil, skim, then simmer gently, covered, for 50–60 minutes until a chopstick slides in easily.",
+     "Lift out the pork and rest it for 10 minutes, then slice it about 5 mm thick.",
+     "Arrange the pork on a platter with the kimchi, lettuce, sliced garlic and ssamjang.",
+     "To eat, place a slice of pork on a lettuce leaf, add kimchi, garlic and a little ssamjang, wrap and eat in one bite."
+    ]
+   },
+   "tips": [
+    "Pork belly is rich: four or five slices with plenty of lettuce and kimchi make a filling portion.",
+    "Trim the thickest fat layer before slicing, or use a leaner cut such as pork shoulder.",
+    "Ssamjang is concentrated — a small dab per wrap is enough."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bossam (Korean boiled pork wraps)",
-      "origin": "South Korea",
-      "intro": "Bossam is Korean pork belly simmered with garlic and aromatics until meltingly tender, then sliced thin and eaten in wraps. Each slice goes into a lettuce leaf with a piece of kimchi, a slice of raw garlic and a dab of ssamjang, the thick savoury dipping paste, and is eaten in one bite. It is a sharing dish, served on a big platter with all the trimmings.",
-      "history": "Bossam is closely tied to kimjang, the late-autumn tradition of making the winter’s kimchi together, when families eat freshly boiled pork with the new kimchi. Today it is a popular restaurant and delivery dish across South Korea, often ordered for groups.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 kg pork belly, in one or two pieces",
-          "1 onion, halved, and 1 leek or 3 spring onions",
-          "8 garlic cloves, plus thin slices of raw garlic to serve",
-          "3 cm ginger, sliced, and 1 tsp black peppercorns",
-          "300 g napa cabbage kimchi",
-          "2 heads of lettuce, leaves separated",
-          "4 tbsp ssamjang"
-        ],
-        "steps": [
-          "Put the pork in a pot with the onion, leek, garlic, ginger and peppercorns and cover with water.",
-          "Bring to the boil, skim, then simmer gently, covered, for 50–60 minutes until a chopstick slides in easily.",
-          "Lift out the pork and rest it for 10 minutes, then slice it about 5 mm thick.",
-          "Arrange the pork on a platter with the kimchi, lettuce, sliced garlic and ssamjang.",
-          "To eat, place a slice of pork on a lettuce leaf, add kimchi, garlic and a little ssamjang, wrap and eat in one bite."
-        ]
-      },
-      "tips": [
-        "Pork belly is rich: four or five slices with plenty of lettuce and kimchi make a filling portion.",
-        "Trim the thickest fat layer before slicing, or use a leaner cut such as pork shoulder.",
-        "Ssamjang is concentrated — a small dab per wrap is enough."
-      ]
-    },
-    "ar": {
-      "name": "بوسام (لفائف لحم الخنزير الكورية)",
-      "origin": "كوريا الجنوبية",
-      "intro": "البوسام لحم بطن خنزير كوري يُسلق مع الثوم والمنكّهات حتى يصبح طريًا جدًا، ثم يُقطَّع شرائح رقيقة ويؤكل ملفوفًا. توضع كل شريحة في ورقة خس مع قطعة كيمتشي وشريحة ثوم نيء ولمسة من السامجانغ، معجون التغميس الكثيف المالح، وتؤكل في لقمة واحدة. وهو طبق للمشاركة يُقدَّم في طبق كبير مع كل الإضافات.",
-      "history": "يرتبط البوسام ارتباطًا وثيقًا بالكيمجانغ، تقليد أواخر الخريف لتحضير كيمتشي الشتاء جماعيًا، حين تأكل العائلات اللحم المسلوق الطازج مع الكيمتشي الجديد. وهو اليوم طبق شائع في المطاعم وخدمات التوصيل في كوريا الجنوبية، ويُطلب غالبًا للمجموعات.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 كغ لحم بطن خنزير، قطعة أو قطعتان",
-          "بصلة مقطعة نصفين، وكراثة أو 3 أعواد بصل أخضر",
-          "8 فصوص ثوم، وشرائح رقيقة من الثوم النيء للتقديم",
-          "3 سم زنجبيل مقطع شرائح، وملعقة صغيرة فلفل أسود حب",
-          "300 غ كيمتشي الملفوف الصيني",
-          "رأسا خس، أوراق منفصلة",
-          "4 ملاعق كبيرة سامجانغ"
-        ],
-        "steps": [
-          "ضع اللحم في قدر مع البصل والكراث والثوم والزنجبيل والفلفل وغطّه بالماء.",
-          "اتركه يغلي وأزل الرغوة، ثم اطهُه مغطى على نار هادئة 50–60 دقيقة حتى تدخل فيه عصا الأكل بسهولة.",
-          "أخرج اللحم واتركه يرتاح 10 دقائق، ثم قطّعه شرائح بسماكة 5 مم تقريبًا.",
-          "رتّب اللحم في طبق مع الكيمتشي والخس وشرائح الثوم والسامجانغ.",
-          "للأكل، ضع شريحة لحم على ورقة خس، وأضف الكيمتشي والثوم وقليلًا من السامجانغ، ولفّها وكُلها في لقمة واحدة."
-        ]
-      },
-      "tips": [
-        "بطن الخنزير غني بالدهون: أربع أو خمس شرائح مع الكثير من الخس والكيمتشي حصة مشبعة.",
-        "أزل طبقة الدهن الأسمك قبل التقطيع، أو استخدم قطعة أقل دهنًا مثل الكتف.",
-        "السامجانغ مركّز — لمسة صغيرة في كل لفافة تكفي."
-      ]
-    },
-    "it": {
-      "name": "Bossam (involtini coreani di maiale lesso)",
-      "origin": "Corea del Sud",
-      "intro": "Il bossam è pancetta di maiale coreana cotta lentamente con aglio e aromi finché diventa tenerissima, poi tagliata a fette sottili e mangiata in involtini. Ogni fetta va in una foglia di lattuga con un pezzo di kimchi, una fettina di aglio crudo e un po' di ssamjang, la densa e sapida salsa da intingere, e si mangia in un solo boccone. È un piatto da condividere, servito su un grande vassoio con tutti i contorni.",
-      "history": "Il bossam è strettamente legato al kimjang, la tradizione di fine autunno di preparare insieme il kimchi per l'inverno, quando le famiglie mangiano maiale appena lessato con il kimchi nuovo. Oggi è un piatto molto popolare nei ristoranti e nelle consegne a domicilio in tutta la Corea del Sud, spesso ordinato per gruppi.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 kg di pancetta di maiale, in uno o due pezzi",
-          "1 cipolla, tagliata a metà, e 1 porro o 3 cipollotti",
-          "8 spicchi d'aglio, più fettine sottili di aglio crudo per servire",
-          "3 cm di zenzero, a fette, e 1 cucchiaino di grani di pepe nero",
-          "300 g di kimchi di cavolo cinese",
-          "2 cespi di lattuga, a foglie separate",
-          "4 cucchiai di ssamjang"
-        ],
-        "steps": [
-          "Metti il maiale in una pentola con la cipolla, il porro, l'aglio, lo zenzero e il pepe in grani e copri d'acqua.",
-          "Porta a bollore, schiuma, poi fai sobbollire dolcemente, coperto, per 50–60 minuti finché una bacchetta entra facilmente.",
-          "Togli il maiale e lascialo riposare per 10 minuti, poi taglialo a fette spesse circa 5 mm.",
-          "Disponi il maiale su un vassoio con il kimchi, la lattuga, l'aglio a fettine e lo ssamjang.",
-          "Per mangiarlo, metti una fetta di maiale su una foglia di lattuga, aggiungi kimchi, aglio e un po' di ssamjang, avvolgi e mangia in un solo boccone."
-        ]
-      },
-      "tips": [
-        "La pancetta di maiale è ricca: quattro o cinque fette con abbondante lattuga e kimchi sono una porzione saziante.",
-        "Elimina lo strato di grasso più spesso prima di affettarla, oppure usa un taglio più magro come la spalla di maiale.",
-        "Lo ssamjang è concentrato: ne basta un pochino per involtino."
-      ]
-    },
-    "el": {
-      "name": "Μποσάμ (κορεατικά τυλιχτά με βραστό χοιρινό)",
-      "origin": "Νότια Κορέα",
-      "intro": "Το μποσάμ είναι κορεατική χοιρινή πανσέτα σιγοβρασμένη με σκόρδο και αρωματικά μέχρι να λιώνει, που έπειτα κόβεται σε λεπτές φέτες και τρώγεται σε τυλιχτά. Κάθε φέτα μπαίνει σε ένα φύλλο μαρουλιού με ένα κομμάτι κίμτσι, μια φετούλα ωμό σκόρδο και λίγο σαμτζάνγκ, την πηχτή, αλμυρή πάστα για βούτηγμα, και τρώγεται σε μία μπουκιά. Είναι πιάτο για μοίρασμα και σερβίρεται σε μεγάλη πιατέλα με όλα τα συνοδευτικά.",
-      "history": "Το μποσάμ συνδέεται στενά με το κιμτζάνγκ, την παράδοση του τέλους του φθινοπώρου να φτιάχνεται από κοινού το κίμτσι του χειμώνα, όταν οι οικογένειες τρώνε φρεσκοβρασμένο χοιρινό με το καινούργιο κίμτσι. Σήμερα είναι δημοφιλές πιάτο σε εστιατόρια και στο ντελίβερι σε όλη τη Νότια Κορέα και συχνά παραγγέλνεται για παρέες.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 κιλό χοιρινή πανσέτα, σε ένα ή δύο κομμάτια",
-          "1 κρεμμύδι, κομμένο στη μέση, και 1 πράσο ή 3 φρέσκα κρεμμυδάκια",
-          "8 σκελίδες σκόρδο, συν λεπτές φέτες ωμού σκόρδου για το σερβίρισμα",
-          "3 εκ. τζίντζερ, σε φέτες, και 1 κ.γ. κόκκοι μαύρου πιπεριού",
-          "300 γρ. κίμτσι από κινέζικο λάχανο",
-          "2 μαρούλια, με τα φύλλα χωρισμένα",
-          "4 κ.σ. σαμτζάνγκ"
-        ],
-        "steps": [
-          "Βάλτε το χοιρινό σε κατσαρόλα με το κρεμμύδι, το πράσο, το σκόρδο, το τζίντζερ και τους κόκκους πιπεριού και σκεπάστε με νερό.",
-          "Φέρτε σε βράση, ξαφρίστε και σιγοβράστε απαλά, σκεπασμένο, για 50–60 λεπτά μέχρι ένα ξυλάκι να μπαίνει εύκολα.",
-          "Βγάλτε το χοιρινό, αφήστε το να ξεκουραστεί για 10 λεπτά και κόψτε το σε φέτες πάχους περίπου 5 χιλ.",
-          "Τοποθετήστε το χοιρινό σε πιατέλα με το κίμτσι, το μαρούλι, το σκόρδο σε φέτες και το σαμτζάνγκ.",
-          "Για να το φάτε, βάλτε μια φέτα χοιρινό σε ένα φύλλο μαρουλιού, προσθέστε κίμτσι, σκόρδο και λίγο σαμτζάνγκ, τυλίξτε και φάτε σε μία μπουκιά."
-        ]
-      },
-      "tips": [
-        "Η χοιρινή πανσέτα είναι πλούσια: τέσσερις ή πέντε φέτες με άφθονο μαρούλι και κίμτσι κάνουν μια χορταστική μερίδα.",
-        "Αφαιρέστε το πιο χοντρό στρώμα λίπους πριν την κόψετε σε φέτες ή χρησιμοποιήστε πιο άπαχη κοπή, όπως χοιρινή σπάλα.",
-        "Το σαμτζάνγκ είναι συμπυκνωμένο — λίγο σε κάθε τυλιχτό αρκεί."
-      ]
-    },
-    "ru": {
-      "name": "Босам (корейские рулеты с варёной свининой)",
-      "origin": "Южная Корея",
-      "intro": "Босам — корейская свиная грудинка, тушёная с чесноком и ароматными добавками до тающей мягкости, затем тонко нарезанная и поданная для заворачивания. Каждый ломтик кладут на лист салата с кусочком кимчи, ломтиком сырого чеснока и каплей ссамджана — густой пикантной пасты для макания — и съедают за один укус. Это блюдо для компании, его подают на большом блюде со всеми гарнирами.",
-      "history": "Босам тесно связан с кимчжаном — осенней традицией совместного приготовления кимчи на зиму, когда семьи едят свежесваренную свинину со свежим кимчи. Сегодня это популярное блюдо ресторанов и доставки по всей Южной Корее, которое часто заказывают для компаний.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 кг свиной грудинки, одним или двумя кусками",
-          "1 луковица, разрезанная пополам, и 1 порей или 3 пера зелёного лука",
-          "8 зубчиков чеснока, плюс тонкие ломтики сырого чеснока для подачи",
-          "3 см имбиря, нарезанного ломтиками, и 1 ч. л. чёрного перца горошком",
-          "300 г кимчи из пекинской капусты",
-          "2 кочана салата, листья разделены",
-          "4 ст. л. ссамджана"
-        ],
-        "steps": [
-          "Положите свинину в кастрюлю с луком, пореем, чесноком, имбирём и перцем горошком и залейте водой.",
-          "Доведите до кипения, снимите пену, затем томите на слабом огне под крышкой 50–60 минут, пока палочка не будет легко входить в мясо.",
-          "Выньте свинину и дайте ей отдохнуть 10 минут, затем нарежьте ломтиками толщиной около 5 мм.",
-          "Выложите свинину на блюдо с кимчи, салатом, нарезанным чесноком и ссамджаном.",
-          "Чтобы съесть, положите ломтик свинины на лист салата, добавьте кимчи, чеснок и немного ссамджана, заверните и съешьте за один укус."
-        ]
-      },
-      "tips": [
-        "Свиная грудинка жирная: четыре-пять ломтиков с большим количеством салата и кимчи составляют сытную порцию.",
-        "Срежьте самый толстый слой жира перед нарезкой или возьмите более постный отруб, например лопатку.",
-        "Ссамджан концентрированный — небольшой капли на один рулет достаточно."
-      ],
-      "name_inline": "босам"
-    }
+  "ar": {
+   "name": "بوسام (لفائف لحم الخنزير الكورية)",
+   "origin": "كوريا الجنوبية",
+   "intro": "البوسام لحم بطن خنزير كوري يُسلق مع الثوم والمنكّهات حتى يصبح طريًا جدًا، ثم يُقطَّع شرائح رقيقة ويؤكل ملفوفًا. توضع كل شريحة في ورقة خس مع قطعة كيمتشي وشريحة ثوم نيء ولمسة من السامجانغ، معجون التغميس الكثيف المالح، وتؤكل في لقمة واحدة. وهو طبق للمشاركة يُقدَّم في طبق كبير مع كل الإضافات.",
+   "history": "يرتبط البوسام ارتباطًا وثيقًا بالكيمجانغ، تقليد أواخر الخريف لتحضير كيمتشي الشتاء جماعيًا، حين تأكل العائلات اللحم المسلوق الطازج مع الكيمتشي الجديد. وهو اليوم طبق شائع في المطاعم وخدمات التوصيل في كوريا الجنوبية، ويُطلب غالبًا للمجموعات.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 كغ لحم بطن خنزير، قطعة أو قطعتان",
+     "بصلة مقطعة نصفين، وكراثة أو 3 أعواد بصل أخضر",
+     "8 فصوص ثوم، وشرائح رقيقة من الثوم النيء للتقديم",
+     "3 سم زنجبيل مقطع شرائح، وملعقة صغيرة فلفل أسود حب",
+     "300 غ كيمتشي الملفوف الصيني",
+     "رأسا خس، أوراق منفصلة",
+     "4 ملاعق كبيرة سامجانغ"
+    ],
+    "steps": [
+     "ضع اللحم في قدر مع البصل والكراث والثوم والزنجبيل والفلفل وغطّه بالماء.",
+     "اتركه يغلي وأزل الرغوة، ثم اطهُه مغطى على نار هادئة 50–60 دقيقة حتى تدخل فيه عصا الأكل بسهولة.",
+     "أخرج اللحم واتركه يرتاح 10 دقائق، ثم قطّعه شرائح بسماكة 5 مم تقريبًا.",
+     "رتّب اللحم في طبق مع الكيمتشي والخس وشرائح الثوم والسامجانغ.",
+     "للأكل، ضع شريحة لحم على ورقة خس، وأضف الكيمتشي والثوم وقليلًا من السامجانغ، ولفّها وكُلها في لقمة واحدة."
+    ]
+   },
+   "tips": [
+    "بطن الخنزير غني بالدهون: أربع أو خمس شرائح مع الكثير من الخس والكيمتشي حصة مشبعة.",
+    "أزل طبقة الدهن الأسمك قبل التقطيع، أو استخدم قطعة أقل دهنًا مثل الكتف.",
+    "السامجانغ مركّز — لمسة صغيرة في كل لفافة تكفي."
+   ]
+  },
+  "it": {
+   "name": "Bossam (involtini coreani di maiale lesso)",
+   "origin": "Corea del Sud",
+   "intro": "Il bossam è pancetta di maiale coreana cotta lentamente con aglio e aromi finché diventa tenerissima, poi tagliata a fette sottili e mangiata in involtini. Ogni fetta va in una foglia di lattuga con un pezzo di kimchi, una fettina di aglio crudo e un po' di ssamjang, la densa e sapida salsa da intingere, e si mangia in un solo boccone. È un piatto da condividere, servito su un grande vassoio con tutti i contorni.",
+   "history": "Il bossam è strettamente legato al kimjang, la tradizione di fine autunno di preparare insieme il kimchi per l'inverno, quando le famiglie mangiano maiale appena lessato con il kimchi nuovo. Oggi è un piatto molto popolare nei ristoranti e nelle consegne a domicilio in tutta la Corea del Sud, spesso ordinato per gruppi.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 kg di pancetta di maiale, in uno o due pezzi",
+     "1 cipolla, tagliata a metà, e 1 porro o 3 cipollotti",
+     "8 spicchi d'aglio, più fettine sottili di aglio crudo per servire",
+     "3 cm di zenzero, a fette, e 1 cucchiaino di grani di pepe nero",
+     "300 g di kimchi di cavolo cinese",
+     "2 cespi di lattuga, a foglie separate",
+     "4 cucchiai di ssamjang"
+    ],
+    "steps": [
+     "Metti il maiale in una pentola con la cipolla, il porro, l'aglio, lo zenzero e il pepe in grani e copri d'acqua.",
+     "Porta a bollore, schiuma, poi fai sobbollire dolcemente, coperto, per 50–60 minuti finché una bacchetta entra facilmente.",
+     "Togli il maiale e lascialo riposare per 10 minuti, poi taglialo a fette spesse circa 5 mm.",
+     "Disponi il maiale su un vassoio con il kimchi, la lattuga, l'aglio a fettine e lo ssamjang.",
+     "Per mangiarlo, metti una fetta di maiale su una foglia di lattuga, aggiungi kimchi, aglio e un po' di ssamjang, avvolgi e mangia in un solo boccone."
+    ]
+   },
+   "tips": [
+    "La pancetta di maiale è ricca: quattro o cinque fette con abbondante lattuga e kimchi sono una porzione saziante.",
+    "Elimina lo strato di grasso più spesso prima di affettarla, oppure usa un taglio più magro come la spalla di maiale.",
+    "Lo ssamjang è concentrato: ne basta un pochino per involtino."
+   ]
+  },
+  "el": {
+   "name": "Μποσάμ (κορεατικά τυλιχτά με βραστό χοιρινό)",
+   "origin": "Νότια Κορέα",
+   "intro": "Το μποσάμ είναι κορεατική χοιρινή πανσέτα σιγοβρασμένη με σκόρδο και αρωματικά μέχρι να λιώνει, που έπειτα κόβεται σε λεπτές φέτες και τρώγεται σε τυλιχτά. Κάθε φέτα μπαίνει σε ένα φύλλο μαρουλιού με ένα κομμάτι κίμτσι, μια φετούλα ωμό σκόρδο και λίγο σαμτζάνγκ, την πηχτή, αλμυρή πάστα για βούτηγμα, και τρώγεται σε μία μπουκιά. Είναι πιάτο για μοίρασμα και σερβίρεται σε μεγάλη πιατέλα με όλα τα συνοδευτικά.",
+   "history": "Το μποσάμ συνδέεται στενά με το κιμτζάνγκ, την παράδοση του τέλους του φθινοπώρου να φτιάχνεται από κοινού το κίμτσι του χειμώνα, όταν οι οικογένειες τρώνε φρεσκοβρασμένο χοιρινό με το καινούργιο κίμτσι. Σήμερα είναι δημοφιλές πιάτο σε εστιατόρια και στο ντελίβερι σε όλη τη Νότια Κορέα και συχνά παραγγέλνεται για παρέες.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 κιλό χοιρινή πανσέτα, σε ένα ή δύο κομμάτια",
+     "1 κρεμμύδι, κομμένο στη μέση, και 1 πράσο ή 3 φρέσκα κρεμμυδάκια",
+     "8 σκελίδες σκόρδο, συν λεπτές φέτες ωμού σκόρδου για το σερβίρισμα",
+     "3 εκ. τζίντζερ, σε φέτες, και 1 κ.γ. κόκκοι μαύρου πιπεριού",
+     "300 γρ. κίμτσι από κινέζικο λάχανο",
+     "2 μαρούλια, με τα φύλλα χωρισμένα",
+     "4 κ.σ. σαμτζάνγκ"
+    ],
+    "steps": [
+     "Βάλτε το χοιρινό σε κατσαρόλα με το κρεμμύδι, το πράσο, το σκόρδο, το τζίντζερ και τους κόκκους πιπεριού και σκεπάστε με νερό.",
+     "Φέρτε σε βράση, ξαφρίστε και σιγοβράστε απαλά, σκεπασμένο, για 50–60 λεπτά μέχρι ένα ξυλάκι να μπαίνει εύκολα.",
+     "Βγάλτε το χοιρινό, αφήστε το να ξεκουραστεί για 10 λεπτά και κόψτε το σε φέτες πάχους περίπου 5 χιλ.",
+     "Τοποθετήστε το χοιρινό σε πιατέλα με το κίμτσι, το μαρούλι, το σκόρδο σε φέτες και το σαμτζάνγκ.",
+     "Για να το φάτε, βάλτε μια φέτα χοιρινό σε ένα φύλλο μαρουλιού, προσθέστε κίμτσι, σκόρδο και λίγο σαμτζάνγκ, τυλίξτε και φάτε σε μία μπουκιά."
+    ]
+   },
+   "tips": [
+    "Η χοιρινή πανσέτα είναι πλούσια: τέσσερις ή πέντε φέτες με άφθονο μαρούλι και κίμτσι κάνουν μια χορταστική μερίδα.",
+    "Αφαιρέστε το πιο χοντρό στρώμα λίπους πριν την κόψετε σε φέτες ή χρησιμοποιήστε πιο άπαχη κοπή, όπως χοιρινή σπάλα.",
+    "Το σαμτζάνγκ είναι συμπυκνωμένο — λίγο σε κάθε τυλιχτό αρκεί."
+   ]
+  },
+  "ru": {
+   "name": "Босам (корейские рулеты с варёной свининой)",
+   "origin": "Южная Корея",
+   "intro": "Босам — корейская свиная грудинка, тушёная с чесноком и ароматными добавками до тающей мягкости, затем тонко нарезанная и поданная для заворачивания. Каждый ломтик кладут на лист салата с кусочком кимчи, ломтиком сырого чеснока и каплей ссамджана — густой пикантной пасты для макания — и съедают за один укус. Это блюдо для компании, его подают на большом блюде со всеми гарнирами.",
+   "history": "Босам тесно связан с кимчжаном — осенней традицией совместного приготовления кимчи на зиму, когда семьи едят свежесваренную свинину со свежим кимчи. Сегодня это популярное блюдо ресторанов и доставки по всей Южной Корее, которое часто заказывают для компаний.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 кг свиной грудинки, одним или двумя кусками",
+     "1 луковица, разрезанная пополам, и 1 порей или 3 пера зелёного лука",
+     "8 зубчиков чеснока, плюс тонкие ломтики сырого чеснока для подачи",
+     "3 см имбиря, нарезанного ломтиками, и 1 ч. л. чёрного перца горошком",
+     "300 г кимчи из пекинской капусты",
+     "2 кочана салата, листья разделены",
+     "4 ст. л. ссамджана"
+    ],
+    "steps": [
+     "Положите свинину в кастрюлю с луком, пореем, чесноком, имбирём и перцем горошком и залейте водой.",
+     "Доведите до кипения, снимите пену, затем томите на слабом огне под крышкой 50–60 минут, пока палочка не будет легко входить в мясо.",
+     "Выньте свинину и дайте ей отдохнуть 10 минут, затем нарежьте ломтиками толщиной около 5 мм.",
+     "Выложите свинину на блюдо с кимчи, салатом, нарезанным чесноком и ссамджаном.",
+     "Чтобы съесть, положите ломтик свинины на лист салата, добавьте кимчи, чеснок и немного ссамджана, заверните и съешьте за один укус."
+    ]
+   },
+   "tips": [
+    "Свиная грудинка жирная: четыре-пять ломтиков с большим количеством салата и кимчи составляют сытную порцию.",
+    "Срежьте самый толстый слой жира перед нарезкой или возьмите более постный отруб, например лопатку.",
+    "Ссамджан концентрированный — небольшой капли на один рулет достаточно."
+   ],
+   "name_inline": "босам"
+  },
+  "es": {
+   "name": "Bossam (rollitos coreanos de cerdo hervido)",
+   "origin": "Corea del Sur",
+   "intro": "El bossam es panceta de cerdo coreana cocida a fuego lento con ajo y aromáticos hasta quedar tiernísima, y luego cortada en láminas finas para comerse en rollitos. Cada lámina va en una hoja de lechuga con un trozo de kimchi, una rodaja de ajo crudo y un toque de ssamjang, la pasta espesa y sabrosa para mojar, y se come de un solo bocado. Es un plato para compartir, servido en una fuente grande con todos sus acompañamientos.",
+   "history": "El bossam está muy ligado al kimjang, la tradición de finales de otoño de preparar juntos el kimchi del invierno, cuando las familias comen cerdo recién hervido con el kimchi nuevo. Hoy es un plato popular de restaurantes y de entrega a domicilio en toda Corea del Sur, y se pide a menudo para grupos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 kg de panceta de cerdo, en una o dos piezas",
+     "1 cebolla, partida por la mitad, y 1 poro o 3 cebollitas de cambray",
+     "8 dientes de ajo, más ajo crudo en láminas finas para servir",
+     "3 cm de jengibre, en rodajas, y 1 cdta. de granos de pimienta negra",
+     "300 g de kimchi de col china",
+     "2 lechugas, con las hojas separadas",
+     "4 cda. de ssamjang"
+    ],
+    "steps": [
+     "Pon el cerdo en una olla con la cebolla, el poro, el ajo, el jengibre y la pimienta, y cubre con agua.",
+     "Lleva a ebullición, retira la espuma y cuece a fuego suave, tapado, de 50 a 60 minutos, hasta que un palillo entre con facilidad.",
+     "Saca el cerdo, déjalo reposar 10 minutos y córtalo en láminas de unos 5 mm.",
+     "Acomoda el cerdo en una fuente con el kimchi, la lechuga, el ajo en láminas y el ssamjang.",
+     "Para comer, pon una lámina de cerdo sobre una hoja de lechuga, añade kimchi, ajo y un poco de ssamjang, envuelve y cómelo de un bocado."
+    ]
+   },
+   "tips": [
+    "La panceta es rica: cuatro o cinco láminas con mucha lechuga y kimchi hacen una porción saciante.",
+    "Quita la capa de grasa más gruesa antes de cortar, o usa un corte más magro como la paleta de cerdo.",
+    "El ssamjang es concentrado: basta un toque pequeño por rollito."
+   ],
+   "name_inline": "el bossam"
   }
+ }
 }

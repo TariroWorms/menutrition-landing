@@ -1,156 +1,185 @@
 {
-  "db_key": "sambousek_cheese",
-  "slug": "sambousek-cheese",
-  "emoji": "🥟",
-  "portion_g": 120,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "sambousek_cheese",
+ "slug": "sambousek-cheese",
+ "emoji": "🥟",
+ "portion_g": 120,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Cheese sambousek",
+   "origin": "Lebanon · Levant",
+   "intro": "Cheese sambousek are small half-moon pastries filled with salty akkawi and feta mixed with chopped parsley, then fried or baked until golden. The dough is tender and slightly crisp, and the cheese melts into a soft, tangy centre. They are served warm as part of a Lebanese mezze spread or as a snack with tea.",
+   "history": "Sambousek is the Levantine member of the large family of filled pastries known across the Middle East and South Asia, whose name traces back to the Persian sanbosag. In Lebanon and Syria it is a fixture of the mezze table and of bakeries, made in half-moon shapes with a crimped edge.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 g ready bread dough or sambousek dough",
+     "150 g akkawi cheese, soaked to remove salt and grated",
+     "100 g feta, crumbled",
+     "A large handful of chopped parsley",
+     "Oil for frying or brushing"
+    ],
+    "steps": [
+     "Mix the akkawi, feta and parsley.",
+     "Roll the dough thin and cut 8 cm circles.",
+     "Put a teaspoon of filling on each circle, fold into a half-moon and crimp the edge with a fork.",
+     "Fry in hot oil until golden, or brush with oil and bake at 200 °C for 15–18 minutes. Serve warm."
+    ]
+   },
+   "tips": [
+    "Bake rather than fry — brushing with oil uses a fraction of the fat a deep fryer adds.",
+    "Soak the akkawi well and use a little less cheese with more parsley for a lighter filling.",
+    "Pair two or three pieces with a fattoush or a plate of raw vegetables instead of a full plate of pastries."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Cheese sambousek",
-      "origin": "Lebanon · Levant",
-      "intro": "Cheese sambousek are small half-moon pastries filled with salty akkawi and feta mixed with chopped parsley, then fried or baked until golden. The dough is tender and slightly crisp, and the cheese melts into a soft, tangy centre. They are served warm as part of a Lebanese mezze spread or as a snack with tea.",
-      "history": "Sambousek is the Levantine member of the large family of filled pastries known across the Middle East and South Asia, whose name traces back to the Persian sanbosag. In Lebanon and Syria it is a fixture of the mezze table and of bakeries, made in half-moon shapes with a crimped edge.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 g ready bread dough or sambousek dough",
-          "150 g akkawi cheese, soaked to remove salt and grated",
-          "100 g feta, crumbled",
-          "A large handful of chopped parsley",
-          "Oil for frying or brushing"
-        ],
-        "steps": [
-          "Mix the akkawi, feta and parsley.",
-          "Roll the dough thin and cut 8 cm circles.",
-          "Put a teaspoon of filling on each circle, fold into a half-moon and crimp the edge with a fork.",
-          "Fry in hot oil until golden, or brush with oil and bake at 200 °C for 15–18 minutes. Serve warm."
-        ]
-      },
-      "tips": [
-        "Bake rather than fry — brushing with oil uses a fraction of the fat a deep fryer adds.",
-        "Soak the akkawi well and use a little less cheese with more parsley for a lighter filling.",
-        "Pair two or three pieces with a fattoush or a plate of raw vegetables instead of a full plate of pastries."
-      ]
-    },
-    "ar": {
-      "name": "سنبوسك بالجبنة",
-      "origin": "لبنان · بلاد الشام",
-      "intro": "سنبوسك الجبنة معجنات صغيرة على شكل أنصاف أقمار محشوة بجبنة العكاوي المالحة والجبنة البيضاء (الفيتا) مع البقدونس المفروم، ثم تُقلى أو تُخبز حتى تصبح ذهبية. العجينة طرية ومقرمشة قليلاً، والجبنة تذوب في قلب لين بطعم حامض خفيف. تُقدَّم دافئة ضمن المازة اللبنانية أو كوجبة خفيفة مع الشاي.",
-      "history": "السنبوسك هو الفرع الشامي من عائلة كبيرة من المعجنات المحشوة المعروفة في الشرق الأوسط وجنوب آسيا، ويعود اسمه إلى الكلمة الفارسية «سنبوسك». وفي لبنان وسوريا يُعد من أساسيات المازة والمخابز، ويُشكَّل على هيئة أنصاف أقمار بحواف مثنية.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 غ عجينة خبز جاهزة أو عجينة سنبوسك",
-          "150 غ جبنة عكاوي منقوعة لإزالة الملح ومبشورة",
-          "100 غ جبنة فيتا مفتتة",
-          "حفنة كبيرة من البقدونس المفروم",
-          "زيت للقلي أو للدهن"
-        ],
-        "steps": [
-          "اخلط العكاوي والفيتا والبقدونس.",
-          "افرد العجينة رقيقة وقطّعها دوائر بقطر 8 سم.",
-          "ضع ملعقة صغيرة من الحشوة على كل دائرة، واطوها نصف دائرة واضغط الحافة بالشوكة.",
-          "اقلِها في زيت ساخن حتى تصبح ذهبية، أو ادهنها بالزيت واخبزها على 200 °م لمدة 15–18 دقيقة. قدّمها دافئة."
-        ]
-      },
-      "tips": [
-        "اخبزها بدلاً من القلي، فالدهن بالزيت يستهلك جزءاً صغيراً من الدهون التي يضيفها القلي العميق.",
-        "انقع العكاوي جيداً واستخدم جبنة أقل وبقدونس أكثر لحشوة أخف.",
-        "تناول قطعتين أو ثلاثاً مع الفتوش أو طبق خضار نيئة بدلاً من طبق كامل من المعجنات."
-      ]
-    },
-    "it": {
-      "name": "Sambousek al formaggio",
-      "origin": "Libano · Levante",
-      "intro": "I sambousek al formaggio sono piccoli fagottini a mezzaluna ripieni di akkawi salato e feta mescolati con prezzemolo tritato, poi fritti o cotti al forno finché sono dorati. L'impasto è tenero e leggermente croccante, e il formaggio si scioglie in un cuore morbido e sapido. Si servono tiepidi come parte di un mezze libanese o come spuntino con il tè.",
-      "history": "Il sambousek è il membro levantino della grande famiglia di fagottini ripieni diffusi in tutto il Medio Oriente e l'Asia meridionale, il cui nome risale al persiano sanbosag. In Libano e in Siria è una presenza fissa sulla tavola dei mezze e nelle panetterie, preparato a mezzaluna con il bordo pizzicato.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 g di pasta di pane pronta o pasta per sambousek",
-          "150 g di formaggio akkawi, messo in ammollo per dissalarlo e grattugiato",
-          "100 g di feta, sbriciolata",
-          "Una grande manciata di prezzemolo tritato",
-          "Olio per friggere o per spennellare"
-        ],
-        "steps": [
-          "Mescola l'akkawi, la feta e il prezzemolo.",
-          "Stendi l'impasto sottile e ritaglia dei dischi da 8 cm.",
-          "Metti un cucchiaino di ripieno su ogni disco, piega a mezzaluna e pizzica il bordo con una forchetta.",
-          "Friggi in olio caldo finché sono dorati, oppure spennella d'olio e cuoci a 200 °C per 15–18 minuti. Servi tiepidi."
-        ]
-      },
-      "tips": [
-        "Cuocili al forno invece di friggerli: spennellarli d'olio richiede una frazione del grasso che aggiunge la frittura.",
-        "Metti bene in ammollo l'akkawi e usa un po' meno formaggio con più prezzemolo per un ripieno più leggero.",
-        "Abbina due o tre pezzi a un fattoush o a un piatto di verdure crude invece che a un piatto pieno di fagottini."
-      ]
-    },
-    "el": {
-      "name": "Σαμπουσέκ με τυρί",
-      "name_inline": "σαμπουσέκ με τυρί",
-      "origin": "Λίβανος · Λεβάντε",
-      "intro": "Τα σαμπουσέκ με τυρί είναι μικρά πιτάκια σε σχήμα μισοφέγγαρου γεμισμένα με αλμυρό τυρί ακάουι και φέτα ανακατεμένα με ψιλοκομμένο μαϊντανό, τηγανητά ή ψημένα στον φούρνο μέχρι να ροδίσουν. Η ζύμη είναι τρυφερή και ελαφρώς τραγανή και το τυρί λιώνει σε ένα μαλακό, ξινούτσικο κέντρο. Σερβίρονται ζεστά ως μέρος λιβανέζικου μεζέ ή ως σνακ με τσάι.",
-      "history": "Το σαμπουσέκ είναι το μέλος του Λεβάντε στη μεγάλη οικογένεια γεμιστών πιτακιών που είναι γνωστά σε όλη τη Μέση Ανατολή και τη Νότια Ασία, με όνομα που ανάγεται στο περσικό sanbosag. Στον Λίβανο και τη Συρία είναι σταθερό στοιχείο του τραπεζιού με μεζέδες και των φούρνων και φτιάχνεται σε σχήμα μισοφέγγαρου με πτυχωτή άκρη.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 γρ. έτοιμη ζύμη ψωμιού ή ζύμη για σαμπουσέκ",
-          "150 γρ. τυρί ακάουι, μουλιασμένο για να ξαλμυρίσει και τριμμένο",
-          "100 γρ. φέτα, θρυμματισμένη",
-          "Μια μεγάλη χούφτα ψιλοκομμένος μαϊντανός",
-          "Λάδι για τηγάνισμα ή για άλειμμα"
-        ],
-        "steps": [
-          "Ανακατέψτε το ακάουι, τη φέτα και τον μαϊντανό.",
-          "Ανοίξτε τη ζύμη λεπτή και κόψτε κύκλους 8 εκ.",
-          "Βάλτε ένα κουταλάκι γέμιση σε κάθε κύκλο, διπλώστε σε μισοφέγγαρο και πιέστε την άκρη με ένα πιρούνι.",
-          "Τηγανίστε σε καυτό λάδι μέχρι να ροδίσουν ή αλείψτε με λάδι και ψήστε στους 200 °C για 15–18 λεπτά. Σερβίρετε ζεστά."
-        ]
-      },
-      "tips": [
-        "Ψήστε τα αντί να τα τηγανίσετε — το άλειμμα με λάδι χρειάζεται ένα κλάσμα του λίπους που προσθέτει η φριτέζα.",
-        "Μουλιάστε καλά το ακάουι και βάλτε λίγο λιγότερο τυρί με περισσότερο μαϊντανό για πιο ελαφριά γέμιση.",
-        "Συνδυάστε δύο ή τρία κομμάτια με φατούς ή ένα πιάτο ωμά λαχανικά αντί για ένα γεμάτο πιάτο πιτάκια."
-      ]
-    },
-    "ru": {
-      "name": "Самбусек с сыром",
-      "origin": "Ливан · Левант",
-      "intro": "Самбусек с сыром — небольшие пирожки-полумесяцы с начинкой из солёного аккави и феты, смешанных с рубленой петрушкой, обжаренные или запечённые до золотистого цвета. Тесто нежное и слегка хрустящее, а сыр тает в мягкую пикантную серединку. Подаётся тёплым как часть ливанского мезе или как закуска к чаю.",
-      "history": "Самбусек — левантийский представитель большого семейства начинённой выпечки, известной по всему Ближнему Востоку и Южной Азии, название которой восходит к персидскому санбосаг. В Ливане и Сирии он — неотъемлемая часть стола мезе и пекарен, его делают в форме полумесяцев с защипанным краем.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 г готового хлебного теста или теста для самбусека",
-          "150 г сыра аккави, вымоченного для удаления соли и тёртого",
-          "100 г феты, крошёной",
-          "Большая горсть рубленой петрушки",
-          "Масло для жарки или смазывания"
-        ],
-        "steps": [
-          "Смешайте аккави, фету и петрушку.",
-          "Тонко раскатайте тесто и вырежьте кружки диаметром 8 см.",
-          "Положите на каждый кружок по чайной ложке начинки, сложите полумесяцем и защипните край вилкой.",
-          "Жарьте в горячем масле до золотистого цвета или смажьте маслом и запекайте при 200 °C 15–18 минут. Подавайте тёплыми."
-        ]
-      },
-      "tips": [
-        "Запекайте, а не жарьте — смазывание маслом требует лишь доли жира, который добавляет фритюрница.",
-        "Хорошо вымочите аккави и берите чуть меньше сыра и больше петрушки для более лёгкой начинки.",
-        "Сочетайте две-три штуки с фаттушем или тарелкой сырых овощей вместо полной тарелки выпечки."
-      ],
-      "name_inline": "самбусек с сыром"
-    }
+  "ar": {
+   "name": "سنبوسك بالجبنة",
+   "origin": "لبنان · بلاد الشام",
+   "intro": "سنبوسك الجبنة معجنات صغيرة على شكل أنصاف أقمار محشوة بجبنة العكاوي المالحة والجبنة البيضاء (الفيتا) مع البقدونس المفروم، ثم تُقلى أو تُخبز حتى تصبح ذهبية. العجينة طرية ومقرمشة قليلاً، والجبنة تذوب في قلب لين بطعم حامض خفيف. تُقدَّم دافئة ضمن المازة اللبنانية أو كوجبة خفيفة مع الشاي.",
+   "history": "السنبوسك هو الفرع الشامي من عائلة كبيرة من المعجنات المحشوة المعروفة في الشرق الأوسط وجنوب آسيا، ويعود اسمه إلى الكلمة الفارسية «سنبوسك». وفي لبنان وسوريا يُعد من أساسيات المازة والمخابز، ويُشكَّل على هيئة أنصاف أقمار بحواف مثنية.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 غ عجينة خبز جاهزة أو عجينة سنبوسك",
+     "150 غ جبنة عكاوي منقوعة لإزالة الملح ومبشورة",
+     "100 غ جبنة فيتا مفتتة",
+     "حفنة كبيرة من البقدونس المفروم",
+     "زيت للقلي أو للدهن"
+    ],
+    "steps": [
+     "اخلط العكاوي والفيتا والبقدونس.",
+     "افرد العجينة رقيقة وقطّعها دوائر بقطر 8 سم.",
+     "ضع ملعقة صغيرة من الحشوة على كل دائرة، واطوها نصف دائرة واضغط الحافة بالشوكة.",
+     "اقلِها في زيت ساخن حتى تصبح ذهبية، أو ادهنها بالزيت واخبزها على 200 °م لمدة 15–18 دقيقة. قدّمها دافئة."
+    ]
+   },
+   "tips": [
+    "اخبزها بدلاً من القلي، فالدهن بالزيت يستهلك جزءاً صغيراً من الدهون التي يضيفها القلي العميق.",
+    "انقع العكاوي جيداً واستخدم جبنة أقل وبقدونس أكثر لحشوة أخف.",
+    "تناول قطعتين أو ثلاثاً مع الفتوش أو طبق خضار نيئة بدلاً من طبق كامل من المعجنات."
+   ]
+  },
+  "it": {
+   "name": "Sambousek al formaggio",
+   "origin": "Libano · Levante",
+   "intro": "I sambousek al formaggio sono piccoli fagottini a mezzaluna ripieni di akkawi salato e feta mescolati con prezzemolo tritato, poi fritti o cotti al forno finché sono dorati. L'impasto è tenero e leggermente croccante, e il formaggio si scioglie in un cuore morbido e sapido. Si servono tiepidi come parte di un mezze libanese o come spuntino con il tè.",
+   "history": "Il sambousek è il membro levantino della grande famiglia di fagottini ripieni diffusi in tutto il Medio Oriente e l'Asia meridionale, il cui nome risale al persiano sanbosag. In Libano e in Siria è una presenza fissa sulla tavola dei mezze e nelle panetterie, preparato a mezzaluna con il bordo pizzicato.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 g di pasta di pane pronta o pasta per sambousek",
+     "150 g di formaggio akkawi, messo in ammollo per dissalarlo e grattugiato",
+     "100 g di feta, sbriciolata",
+     "Una grande manciata di prezzemolo tritato",
+     "Olio per friggere o per spennellare"
+    ],
+    "steps": [
+     "Mescola l'akkawi, la feta e il prezzemolo.",
+     "Stendi l'impasto sottile e ritaglia dei dischi da 8 cm.",
+     "Metti un cucchiaino di ripieno su ogni disco, piega a mezzaluna e pizzica il bordo con una forchetta.",
+     "Friggi in olio caldo finché sono dorati, oppure spennella d'olio e cuoci a 200 °C per 15–18 minuti. Servi tiepidi."
+    ]
+   },
+   "tips": [
+    "Cuocili al forno invece di friggerli: spennellarli d'olio richiede una frazione del grasso che aggiunge la frittura.",
+    "Metti bene in ammollo l'akkawi e usa un po' meno formaggio con più prezzemolo per un ripieno più leggero.",
+    "Abbina due o tre pezzi a un fattoush o a un piatto di verdure crude invece che a un piatto pieno di fagottini."
+   ]
+  },
+  "el": {
+   "name": "Σαμπουσέκ με τυρί",
+   "name_inline": "σαμπουσέκ με τυρί",
+   "origin": "Λίβανος · Λεβάντε",
+   "intro": "Τα σαμπουσέκ με τυρί είναι μικρά πιτάκια σε σχήμα μισοφέγγαρου γεμισμένα με αλμυρό τυρί ακάουι και φέτα ανακατεμένα με ψιλοκομμένο μαϊντανό, τηγανητά ή ψημένα στον φούρνο μέχρι να ροδίσουν. Η ζύμη είναι τρυφερή και ελαφρώς τραγανή και το τυρί λιώνει σε ένα μαλακό, ξινούτσικο κέντρο. Σερβίρονται ζεστά ως μέρος λιβανέζικου μεζέ ή ως σνακ με τσάι.",
+   "history": "Το σαμπουσέκ είναι το μέλος του Λεβάντε στη μεγάλη οικογένεια γεμιστών πιτακιών που είναι γνωστά σε όλη τη Μέση Ανατολή και τη Νότια Ασία, με όνομα που ανάγεται στο περσικό sanbosag. Στον Λίβανο και τη Συρία είναι σταθερό στοιχείο του τραπεζιού με μεζέδες και των φούρνων και φτιάχνεται σε σχήμα μισοφέγγαρου με πτυχωτή άκρη.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 γρ. έτοιμη ζύμη ψωμιού ή ζύμη για σαμπουσέκ",
+     "150 γρ. τυρί ακάουι, μουλιασμένο για να ξαλμυρίσει και τριμμένο",
+     "100 γρ. φέτα, θρυμματισμένη",
+     "Μια μεγάλη χούφτα ψιλοκομμένος μαϊντανός",
+     "Λάδι για τηγάνισμα ή για άλειμμα"
+    ],
+    "steps": [
+     "Ανακατέψτε το ακάουι, τη φέτα και τον μαϊντανό.",
+     "Ανοίξτε τη ζύμη λεπτή και κόψτε κύκλους 8 εκ.",
+     "Βάλτε ένα κουταλάκι γέμιση σε κάθε κύκλο, διπλώστε σε μισοφέγγαρο και πιέστε την άκρη με ένα πιρούνι.",
+     "Τηγανίστε σε καυτό λάδι μέχρι να ροδίσουν ή αλείψτε με λάδι και ψήστε στους 200 °C για 15–18 λεπτά. Σερβίρετε ζεστά."
+    ]
+   },
+   "tips": [
+    "Ψήστε τα αντί να τα τηγανίσετε — το άλειμμα με λάδι χρειάζεται ένα κλάσμα του λίπους που προσθέτει η φριτέζα.",
+    "Μουλιάστε καλά το ακάουι και βάλτε λίγο λιγότερο τυρί με περισσότερο μαϊντανό για πιο ελαφριά γέμιση.",
+    "Συνδυάστε δύο ή τρία κομμάτια με φατούς ή ένα πιάτο ωμά λαχανικά αντί για ένα γεμάτο πιάτο πιτάκια."
+   ]
+  },
+  "ru": {
+   "name": "Самбусек с сыром",
+   "origin": "Ливан · Левант",
+   "intro": "Самбусек с сыром — небольшие пирожки-полумесяцы с начинкой из солёного аккави и феты, смешанных с рубленой петрушкой, обжаренные или запечённые до золотистого цвета. Тесто нежное и слегка хрустящее, а сыр тает в мягкую пикантную серединку. Подаётся тёплым как часть ливанского мезе или как закуска к чаю.",
+   "history": "Самбусек — левантийский представитель большого семейства начинённой выпечки, известной по всему Ближнему Востоку и Южной Азии, название которой восходит к персидскому санбосаг. В Ливане и Сирии он — неотъемлемая часть стола мезе и пекарен, его делают в форме полумесяцев с защипанным краем.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 г готового хлебного теста или теста для самбусека",
+     "150 г сыра аккави, вымоченного для удаления соли и тёртого",
+     "100 г феты, крошёной",
+     "Большая горсть рубленой петрушки",
+     "Масло для жарки или смазывания"
+    ],
+    "steps": [
+     "Смешайте аккави, фету и петрушку.",
+     "Тонко раскатайте тесто и вырежьте кружки диаметром 8 см.",
+     "Положите на каждый кружок по чайной ложке начинки, сложите полумесяцем и защипните край вилкой.",
+     "Жарьте в горячем масле до золотистого цвета или смажьте маслом и запекайте при 200 °C 15–18 минут. Подавайте тёплыми."
+    ]
+   },
+   "tips": [
+    "Запекайте, а не жарьте — смазывание маслом требует лишь доли жира, который добавляет фритюрница.",
+    "Хорошо вымочите аккави и берите чуть меньше сыра и больше петрушки для более лёгкой начинки.",
+    "Сочетайте две-три штуки с фаттушем или тарелкой сырых овощей вместо полной тарелки выпечки."
+   ],
+   "name_inline": "самбусек с сыром"
+  },
+  "es": {
+   "name": "Sambousek de queso",
+   "origin": "Líbano · Levante",
+   "intro": "Los sambousek de queso son pequeñas empanadas en media luna rellenas de queso akkawi salado y feta mezclados con perejil picado, fritas u horneadas hasta quedar doradas. La masa es tierna y ligeramente crujiente, y el queso se funde en un centro suave y ácido. Se sirven tibios como parte de una mesa libanesa de mezze o como snack con té.",
+   "history": "El sambousek es el representante levantino de la gran familia de empanadas rellenas conocidas en todo Oriente Medio y el sur de Asia, cuyo nombre se remonta al persa sanbosag. En Líbano y Siria es un clásico de la mesa de mezze y de las panaderías, y se hace en forma de media luna con el borde sellado.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 g de masa de pan lista o de masa para sambousek",
+     "150 g de queso akkawi, remojado para quitarle la sal y rallado",
+     "100 g de feta, desmenuzado",
+     "Un buen puñado de perejil picado",
+     "Aceite para freír o para untar"
+    ],
+    "steps": [
+     "Mezcla el akkawi, el feta y el perejil.",
+     "Estira la masa fina y corta círculos de 8 cm.",
+     "Pon una cucharadita de relleno en cada círculo, dobla en media luna y sella el borde con un tenedor.",
+     "Fríe en aceite caliente hasta que estén dorados, o unta con aceite y hornea a 200 °C de 15 a 18 minutos. Sirve tibio."
+    ]
+   },
+   "tips": [
+    "Hornea en lugar de freír: untar con aceite usa una fracción de la grasa de una freidora.",
+    "Remoja bien el akkawi y usa un poco menos de queso con más perejil para un relleno más ligero.",
+    "Combina dos o tres piezas con un fattoush o un plato de verduras crudas en lugar de un plato lleno de empanadas."
+   ],
+   "name_inline": "los sambousek de queso"
   }
+ }
 }

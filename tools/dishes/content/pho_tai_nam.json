@@ -1,176 +1,209 @@
 {
-  "db_key": "pho_tai_nam",
-  "slug": "pho-tai-nam",
-  "emoji": "🍜",
-  "portion_g": 550,
-  "country": "VN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pho_tai_nam",
+ "slug": "pho-tai-nam",
+ "emoji": "🍜",
+ "portion_g": 550,
+ "country": "VN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pho Tai Nam (Rare Steak and Brisket Pho)",
+   "origin": "Vietnam · Hanoi",
+   "intro": "Pho tai nam is Vietnamese beef noodle soup topped with two cuts: thin slices of rare steak (tai) that cook in the hot broth at the table, and tender simmered brisket (nam). The clear broth is perfumed with star anise and cinnamon and seasoned with fish sauce, then poured over flat rice noodles and finished with fresh herbs, lime and chili.",
+   "history": "Pho took shape in northern Vietnam in the early twentieth century, with Hanoi and Nam Dinh usually named as its birthplaces. After 1954 it spread south to Saigon, where richer garnishes became common, and later around the world with the Vietnamese diaspora. Tai nam is one of the most ordered combinations in pho shops.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1.5 kg beef bones",
+     "400 g beef brisket",
+     "250 g beef sirloin, very thinly sliced",
+     "400 g flat rice noodles",
+     "2 star anise, 1 cinnamon stick",
+     "1 onion and 50 g ginger, charred",
+     "3 tbsp fish sauce, salt",
+     "Fresh herbs, lime, chili and spring onion to serve"
+    ],
+    "steps": [
+     "Blanch the bones, rinse, then cover with 4 l fresh water and add the brisket, charred onion and ginger.",
+     "Simmer gently for 3 hours, skimming; remove the brisket after about 2 hours once tender.",
+     "Toast the star anise and cinnamon, add for the last 30 minutes, then strain and season with fish sauce and salt.",
+     "Soak and briefly boil the noodles; slice the brisket.",
+     "Put noodles, brisket and raw sirloin in bowls and ladle the boiling broth over to cook the steak. Serve with herbs, lime and chili."
+    ]
+   },
+   "tips": [
+    "Skim the cooled broth and lift off the solid fat before reheating.",
+    "Ask for or serve fewer noodles and add extra herbs and leafy greens for volume.",
+    "Choose more rare steak than brisket — it is the leaner cut."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pho Tai Nam (Rare Steak and Brisket Pho)",
-      "origin": "Vietnam · Hanoi",
-      "intro": "Pho tai nam is Vietnamese beef noodle soup topped with two cuts: thin slices of rare steak (tai) that cook in the hot broth at the table, and tender simmered brisket (nam). The clear broth is perfumed with star anise and cinnamon and seasoned with fish sauce, then poured over flat rice noodles and finished with fresh herbs, lime and chili.",
-      "history": "Pho took shape in northern Vietnam in the early twentieth century, with Hanoi and Nam Dinh usually named as its birthplaces. After 1954 it spread south to Saigon, where richer garnishes became common, and later around the world with the Vietnamese diaspora. Tai nam is one of the most ordered combinations in pho shops.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1.5 kg beef bones",
-          "400 g beef brisket",
-          "250 g beef sirloin, very thinly sliced",
-          "400 g flat rice noodles",
-          "2 star anise, 1 cinnamon stick",
-          "1 onion and 50 g ginger, charred",
-          "3 tbsp fish sauce, salt",
-          "Fresh herbs, lime, chili and spring onion to serve"
-        ],
-        "steps": [
-          "Blanch the bones, rinse, then cover with 4 l fresh water and add the brisket, charred onion and ginger.",
-          "Simmer gently for 3 hours, skimming; remove the brisket after about 2 hours once tender.",
-          "Toast the star anise and cinnamon, add for the last 30 minutes, then strain and season with fish sauce and salt.",
-          "Soak and briefly boil the noodles; slice the brisket.",
-          "Put noodles, brisket and raw sirloin in bowls and ladle the boiling broth over to cook the steak. Serve with herbs, lime and chili."
-        ]
-      },
-      "tips": [
-        "Skim the cooled broth and lift off the solid fat before reheating.",
-        "Ask for or serve fewer noodles and add extra herbs and leafy greens for volume.",
-        "Choose more rare steak than brisket — it is the leaner cut."
-      ]
-    },
-    "ar": {
-      "name": "فو تاي نام (فو بشرائح اللحم النيئ والصدر)",
-      "origin": "فيتنام · هانوي",
-      "intro": "فو تاي نام هو حساء النودلز الفيتنامي بلحم البقر، ويُقدَّم مع نوعين من اللحم: شرائح رقيقة من اللحم النيئ (تاي) تنضج في المرق الساخن على المائدة، وصدر البقر المطهو ببطء (نام). المرق صافٍ معطّر باليانسون النجمي والقرفة ومتبّل بصلصة السمك، ويُسكب فوق نودلز الأرز المسطحة ثم يُزيَّن بالأعشاب الطازجة والليمون والفلفل الحار.",
-      "history": "تشكّل الفو في شمال فيتنام في أوائل القرن العشرين، وغالبًا ما تُذكر هانوي ونام دينه موطنًا له. بعد عام 1954 انتقل جنوبًا إلى سايغون حيث شاعت الإضافات الأغنى، ثم انتشر في العالم مع الجاليات الفيتنامية. ويُعد تاي نام من أكثر التركيبات طلبًا في مطاعم الفو.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1.5 كغ عظام بقر",
-          "400 غ صدر بقر",
-          "250 غ لحم بقر (سيرلوين) مقطع شرائح رقيقة جدًا",
-          "400 غ نودلز أرز مسطحة",
-          "2 حبة يانسون نجمي وعود قرفة",
-          "بصلة و50 غ زنجبيل محمّصان",
-          "3 ملاعق كبيرة صلصة سمك، ملح",
-          "أعشاب طازجة وليمون وفلفل حار وبصل أخضر للتقديم"
-        ],
-        "steps": [
-          "اسلق العظام قليلًا واشطفها، ثم غطّها بـ4 لترات ماء وأضف صدر البقر والبصل والزنجبيل المحمّصين.",
-          "اترك المرق يغلي بهدوء 3 ساعات مع إزالة الرغوة، وأخرج الصدر بعد نحو ساعتين حين يطرى.",
-          "حمّص اليانسون والقرفة وأضفهما في آخر 30 دقيقة، ثم صفِّ المرق وتبّله بصلصة السمك والملح.",
-          "انقع النودلز واسلقها سريعًا، وقطّع الصدر شرائح.",
-          "ضع النودلز والصدر واللحم النيئ في الأطباق واسكب المرق المغلي فوقها لينضج اللحم. قدّمه مع الأعشاب والليمون والفلفل."
-        ]
-      },
-      "tips": [
-        "برّد المرق وأزل الدهن المتجمد عن سطحه قبل التسخين.",
-        "قلّل كمية النودلز وأكثر من الأعشاب والخضار الورقية لزيادة الحجم.",
-        "اختر شرائح اللحم النيئ أكثر من الصدر فهي الأقل دهنًا."
-      ]
-    },
-    "it": {
-      "name": "Pho Tai Nam (pho con manzo al sangue e punta di petto)",
-      "origin": "Vietnam · Hanoi",
-      "intro": "Il pho tai nam è la zuppa vietnamita di noodle di manzo guarnita con due tagli: fettine sottili di manzo al sangue (tai) che cuociono nel brodo bollente a tavola e tenera punta di petto sobbollita (nam). Il brodo limpido è profumato con anice stellato e cannella e insaporito con salsa di pesce, poi versato sui noodle di riso piatti e completato con erbe fresche, lime e peperoncino.",
-      "history": "Il pho prese forma nel nord del Vietnam all'inizio del Novecento, e Hanoi e Nam Dinh sono di solito indicate come le sue città d'origine. Dopo il 1954 si diffuse a sud fino a Saigon, dove si affermarono guarnizioni più ricche, e poi nel mondo con la diaspora vietnamita. Il tai nam è una delle combinazioni più ordinate nei locali di pho.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1,5 kg di ossa di manzo",
-          "400 g di punta di petto di manzo",
-          "250 g di controfiletto di manzo, tagliato a fettine sottilissime",
-          "400 g di noodle di riso piatti",
-          "2 anici stellati, 1 stecca di cannella",
-          "1 cipolla e 50 g di zenzero, abbrustoliti",
-          "3 cucchiai di salsa di pesce, sale",
-          "Erbe fresche, lime, peperoncino e cipollotto per servire"
-        ],
-        "steps": [
-          "Sbollenta le ossa, sciacquale, poi coprile con 4 l di acqua fresca e aggiungi la punta di petto, la cipolla e lo zenzero abbrustoliti.",
-          "Fai sobbollire dolcemente per 3 ore, schiumando; togli la punta di petto dopo circa 2 ore, quando è tenera.",
-          "Tosta l'anice stellato e la cannella, aggiungili negli ultimi 30 minuti, poi filtra e insaporisci con salsa di pesce e sale.",
-          "Ammolla i noodle e lessali brevemente; affetta la punta di petto.",
-          "Metti noodle, punta di petto e controfiletto crudo nelle ciotole e versa sopra il brodo bollente per cuocere la carne. Servi con erbe, lime e peperoncino."
-        ]
-      },
-      "tips": [
-        "Sgrassa il brodo raffreddato e togli il grasso solidificato prima di riscaldarlo.",
-        "Chiedi o servi meno noodle e aggiungi più erbe e verdure a foglia per dare volume.",
-        "Scegli più manzo al sangue che punta di petto: è il taglio più magro."
-      ]
-    },
-    "el": {
-      "name": "Φο τάι ναμ (φο με μοσχάρι σενιάν και μοσχαρίσιο στήθος)",
-      "name_inline": "φο τάι ναμ",
-      "origin": "Βιετνάμ · Ανόι",
-      "intro": "Το φο τάι ναμ είναι η βιετναμέζικη σούπα με νούντλς και μοσχάρι, με δύο κομμάτια κρέατος από πάνω: λεπτές φέτες μοσχαριού σενιάν (tai) που ψήνονται μέσα στον καυτό ζωμό στο τραπέζι, και τρυφερό σιγοβρασμένο στήθος (nam). Ο διαυγής ζωμός αρωματίζεται με γλυκάνισο αστεροειδή και κανέλα και καρυκεύεται με σάλτσα ψαριού, και έπειτα σερβίρεται πάνω σε πλατιά νούντλς ρυζιού με φρέσκα μυρωδικά, λάιμ και καυτερή πιπεριά.",
-      "history": "Το φο διαμορφώθηκε στο βόρειο Βιετνάμ στις αρχές του εικοστού αιώνα, με το Ανόι και το Ναμ Ντιν να αναφέρονται συνήθως ως οι τόποι γέννησής του. Μετά το 1954 εξαπλώθηκε νότια στη Σαϊγκόν, όπου καθιερώθηκαν πλουσιότερες γαρνιτούρες, και αργότερα σε όλο τον κόσμο με τη βιετναμέζικη διασπορά. Το τάι ναμ είναι ένας από τους πιο δημοφιλείς συνδυασμούς στα μαγαζιά με φο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1,5 κιλό μοσχαρίσια κόκαλα",
-          "400 γρ. μοσχαρίσιο στήθος",
-          "250 γρ. μοσχαρίσιο κόντρα φιλέτο, σε πολύ λεπτές φέτες",
-          "400 γρ. πλατιά νούντλς ρυζιού",
-          "2 άστρα γλυκάνισου, 1 ξύλο κανέλας",
-          "1 κρεμμύδι και 50 γρ. τζίντζερ, καψαλισμένα",
-          "3 κ.σ. σάλτσα ψαριού, αλάτι",
-          "Φρέσκα μυρωδικά, λάιμ, καυτερή πιπεριά και φρέσκο κρεμμυδάκι για το σερβίρισμα"
-        ],
-        "steps": [
-          "Ζεματίστε τα κόκαλα, ξεπλύνετέ τα, καλύψτε τα με 4 λίτρα φρέσκο νερό και προσθέστε το στήθος, το καψαλισμένο κρεμμύδι και το τζίντζερ.",
-          "Σιγοβράστε απαλά για 3 ώρες, ξαφρίζοντας· αφαιρέστε το στήθος μετά από περίπου 2 ώρες, όταν μαλακώσει.",
-          "Καβουρδίστε τον γλυκάνισο και την κανέλα, προσθέστε τα για τα τελευταία 30 λεπτά, έπειτα σουρώστε και καρυκεύστε με σάλτσα ψαριού και αλάτι.",
-          "Μουλιάστε και βράστε για λίγο τα νούντλς· κόψτε το στήθος σε φέτες.",
-          "Βάλτε τα νούντλς, το στήθος και το ωμό κόντρα φιλέτο σε μπολ και περιχύστε με τον ζωμό που βράζει, ώστε να ψηθεί το κρέας. Σερβίρετε με μυρωδικά, λάιμ και καυτερή πιπεριά."
-        ]
-      },
-      "tips": [
-        "Ξαφρίστε τον κρύο ζωμό και αφαιρέστε το πηγμένο λίπος πριν τον ζεστάνετε.",
-        "Ζητήστε ή σερβίρετε λιγότερα νούντλς και προσθέστε επιπλέον μυρωδικά και φυλλώδη λαχανικά για όγκο.",
-        "Προτιμήστε περισσότερο μοσχάρι σενιάν από στήθος — είναι το πιο άπαχο κομμάτι."
-      ]
-    },
-    "ru": {
-      "name": "Фо тай нам (фо с полусырым стейком и грудинкой)",
-      "origin": "Вьетнам · Ханой",
-      "intro": "Фо тай нам — вьетнамский говяжий суп с лапшой с двумя видами мяса сверху: тонкими ломтиками полусырого стейка (тай), которые готовятся в горячем бульоне за столом, и нежной томлёной грудинкой (нам). Прозрачный бульон ароматизирован звёздчатым анисом и корицей и приправлен рыбным соусом, затем разлит поверх плоской рисовой лапши и заправлен свежей зеленью, лаймом и чили.",
-      "history": "Фо сложилось на севере Вьетнама в начале двадцатого века, и родиной его обычно называют Ханой и Намдинь. После 1954 года оно распространилось на юг, в Сайгон, где стали обычны более богатые гарниры, а позднее по всему миру вместе с вьетнамской диаспорой. Тай нам — одно из самых заказываемых сочетаний в заведениях фо.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1,5 кг говяжьих костей",
-          "400 г говяжьей грудинки",
-          "250 г говяжьей вырезки, нарезанной очень тонко",
-          "400 г плоской рисовой лапши",
-          "2 звёздочки аниса, 1 палочка корицы",
-          "1 луковица и 50 г имбиря, обожжённые",
-          "3 ст. л. рыбного соуса, соль",
-          "Свежая зелень, лайм, чили и зелёный лук для подачи"
-        ],
-        "steps": [
-          "Бланшируйте кости, промойте, затем залейте 4 л свежей воды и добавьте грудинку, обожжённые лук и имбирь.",
-          "Томите на слабом огне 3 часа, снимая пену; выньте грудинку примерно через 2 часа, когда она станет мягкой.",
-          "Обжарьте всухую звёздчатый анис и корицу, добавьте на последние 30 минут, затем процедите и приправьте рыбным соусом и солью.",
-          "Замочите и ненадолго отварите лапшу; нарежьте грудинку.",
-          "Выложите в миски лапшу, грудинку и сырую вырезку и залейте кипящим бульоном, чтобы приготовить стейк. Подавайте с зеленью, лаймом и чили."
-        ]
-      },
-      "tips": [
-        "Снимите жир с остывшего бульона и уберите застывший жир перед разогревом.",
-        "Просите или подавайте меньше лапши и добавьте больше зелени и листовой зелени для объёма.",
-        "Выбирайте больше полусырого стейка, чем грудинки, — это более постный отруб."
-      ],
-      "name_inline": "фо тай нам"
-    }
+  "ar": {
+   "name": "فو تاي نام (فو بشرائح اللحم النيئ والصدر)",
+   "origin": "فيتنام · هانوي",
+   "intro": "فو تاي نام هو حساء النودلز الفيتنامي بلحم البقر، ويُقدَّم مع نوعين من اللحم: شرائح رقيقة من اللحم النيئ (تاي) تنضج في المرق الساخن على المائدة، وصدر البقر المطهو ببطء (نام). المرق صافٍ معطّر باليانسون النجمي والقرفة ومتبّل بصلصة السمك، ويُسكب فوق نودلز الأرز المسطحة ثم يُزيَّن بالأعشاب الطازجة والليمون والفلفل الحار.",
+   "history": "تشكّل الفو في شمال فيتنام في أوائل القرن العشرين، وغالبًا ما تُذكر هانوي ونام دينه موطنًا له. بعد عام 1954 انتقل جنوبًا إلى سايغون حيث شاعت الإضافات الأغنى، ثم انتشر في العالم مع الجاليات الفيتنامية. ويُعد تاي نام من أكثر التركيبات طلبًا في مطاعم الفو.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1.5 كغ عظام بقر",
+     "400 غ صدر بقر",
+     "250 غ لحم بقر (سيرلوين) مقطع شرائح رقيقة جدًا",
+     "400 غ نودلز أرز مسطحة",
+     "2 حبة يانسون نجمي وعود قرفة",
+     "بصلة و50 غ زنجبيل محمّصان",
+     "3 ملاعق كبيرة صلصة سمك، ملح",
+     "أعشاب طازجة وليمون وفلفل حار وبصل أخضر للتقديم"
+    ],
+    "steps": [
+     "اسلق العظام قليلًا واشطفها، ثم غطّها بـ4 لترات ماء وأضف صدر البقر والبصل والزنجبيل المحمّصين.",
+     "اترك المرق يغلي بهدوء 3 ساعات مع إزالة الرغوة، وأخرج الصدر بعد نحو ساعتين حين يطرى.",
+     "حمّص اليانسون والقرفة وأضفهما في آخر 30 دقيقة، ثم صفِّ المرق وتبّله بصلصة السمك والملح.",
+     "انقع النودلز واسلقها سريعًا، وقطّع الصدر شرائح.",
+     "ضع النودلز والصدر واللحم النيئ في الأطباق واسكب المرق المغلي فوقها لينضج اللحم. قدّمه مع الأعشاب والليمون والفلفل."
+    ]
+   },
+   "tips": [
+    "برّد المرق وأزل الدهن المتجمد عن سطحه قبل التسخين.",
+    "قلّل كمية النودلز وأكثر من الأعشاب والخضار الورقية لزيادة الحجم.",
+    "اختر شرائح اللحم النيئ أكثر من الصدر فهي الأقل دهنًا."
+   ]
+  },
+  "it": {
+   "name": "Pho Tai Nam (pho con manzo al sangue e punta di petto)",
+   "origin": "Vietnam · Hanoi",
+   "intro": "Il pho tai nam è la zuppa vietnamita di noodle di manzo guarnita con due tagli: fettine sottili di manzo al sangue (tai) che cuociono nel brodo bollente a tavola e tenera punta di petto sobbollita (nam). Il brodo limpido è profumato con anice stellato e cannella e insaporito con salsa di pesce, poi versato sui noodle di riso piatti e completato con erbe fresche, lime e peperoncino.",
+   "history": "Il pho prese forma nel nord del Vietnam all'inizio del Novecento, e Hanoi e Nam Dinh sono di solito indicate come le sue città d'origine. Dopo il 1954 si diffuse a sud fino a Saigon, dove si affermarono guarnizioni più ricche, e poi nel mondo con la diaspora vietnamita. Il tai nam è una delle combinazioni più ordinate nei locali di pho.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1,5 kg di ossa di manzo",
+     "400 g di punta di petto di manzo",
+     "250 g di controfiletto di manzo, tagliato a fettine sottilissime",
+     "400 g di noodle di riso piatti",
+     "2 anici stellati, 1 stecca di cannella",
+     "1 cipolla e 50 g di zenzero, abbrustoliti",
+     "3 cucchiai di salsa di pesce, sale",
+     "Erbe fresche, lime, peperoncino e cipollotto per servire"
+    ],
+    "steps": [
+     "Sbollenta le ossa, sciacquale, poi coprile con 4 l di acqua fresca e aggiungi la punta di petto, la cipolla e lo zenzero abbrustoliti.",
+     "Fai sobbollire dolcemente per 3 ore, schiumando; togli la punta di petto dopo circa 2 ore, quando è tenera.",
+     "Tosta l'anice stellato e la cannella, aggiungili negli ultimi 30 minuti, poi filtra e insaporisci con salsa di pesce e sale.",
+     "Ammolla i noodle e lessali brevemente; affetta la punta di petto.",
+     "Metti noodle, punta di petto e controfiletto crudo nelle ciotole e versa sopra il brodo bollente per cuocere la carne. Servi con erbe, lime e peperoncino."
+    ]
+   },
+   "tips": [
+    "Sgrassa il brodo raffreddato e togli il grasso solidificato prima di riscaldarlo.",
+    "Chiedi o servi meno noodle e aggiungi più erbe e verdure a foglia per dare volume.",
+    "Scegli più manzo al sangue che punta di petto: è il taglio più magro."
+   ]
+  },
+  "el": {
+   "name": "Φο τάι ναμ (φο με μοσχάρι σενιάν και μοσχαρίσιο στήθος)",
+   "name_inline": "φο τάι ναμ",
+   "origin": "Βιετνάμ · Ανόι",
+   "intro": "Το φο τάι ναμ είναι η βιετναμέζικη σούπα με νούντλς και μοσχάρι, με δύο κομμάτια κρέατος από πάνω: λεπτές φέτες μοσχαριού σενιάν (tai) που ψήνονται μέσα στον καυτό ζωμό στο τραπέζι, και τρυφερό σιγοβρασμένο στήθος (nam). Ο διαυγής ζωμός αρωματίζεται με γλυκάνισο αστεροειδή και κανέλα και καρυκεύεται με σάλτσα ψαριού, και έπειτα σερβίρεται πάνω σε πλατιά νούντλς ρυζιού με φρέσκα μυρωδικά, λάιμ και καυτερή πιπεριά.",
+   "history": "Το φο διαμορφώθηκε στο βόρειο Βιετνάμ στις αρχές του εικοστού αιώνα, με το Ανόι και το Ναμ Ντιν να αναφέρονται συνήθως ως οι τόποι γέννησής του. Μετά το 1954 εξαπλώθηκε νότια στη Σαϊγκόν, όπου καθιερώθηκαν πλουσιότερες γαρνιτούρες, και αργότερα σε όλο τον κόσμο με τη βιετναμέζικη διασπορά. Το τάι ναμ είναι ένας από τους πιο δημοφιλείς συνδυασμούς στα μαγαζιά με φο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1,5 κιλό μοσχαρίσια κόκαλα",
+     "400 γρ. μοσχαρίσιο στήθος",
+     "250 γρ. μοσχαρίσιο κόντρα φιλέτο, σε πολύ λεπτές φέτες",
+     "400 γρ. πλατιά νούντλς ρυζιού",
+     "2 άστρα γλυκάνισου, 1 ξύλο κανέλας",
+     "1 κρεμμύδι και 50 γρ. τζίντζερ, καψαλισμένα",
+     "3 κ.σ. σάλτσα ψαριού, αλάτι",
+     "Φρέσκα μυρωδικά, λάιμ, καυτερή πιπεριά και φρέσκο κρεμμυδάκι για το σερβίρισμα"
+    ],
+    "steps": [
+     "Ζεματίστε τα κόκαλα, ξεπλύνετέ τα, καλύψτε τα με 4 λίτρα φρέσκο νερό και προσθέστε το στήθος, το καψαλισμένο κρεμμύδι και το τζίντζερ.",
+     "Σιγοβράστε απαλά για 3 ώρες, ξαφρίζοντας· αφαιρέστε το στήθος μετά από περίπου 2 ώρες, όταν μαλακώσει.",
+     "Καβουρδίστε τον γλυκάνισο και την κανέλα, προσθέστε τα για τα τελευταία 30 λεπτά, έπειτα σουρώστε και καρυκεύστε με σάλτσα ψαριού και αλάτι.",
+     "Μουλιάστε και βράστε για λίγο τα νούντλς· κόψτε το στήθος σε φέτες.",
+     "Βάλτε τα νούντλς, το στήθος και το ωμό κόντρα φιλέτο σε μπολ και περιχύστε με τον ζωμό που βράζει, ώστε να ψηθεί το κρέας. Σερβίρετε με μυρωδικά, λάιμ και καυτερή πιπεριά."
+    ]
+   },
+   "tips": [
+    "Ξαφρίστε τον κρύο ζωμό και αφαιρέστε το πηγμένο λίπος πριν τον ζεστάνετε.",
+    "Ζητήστε ή σερβίρετε λιγότερα νούντλς και προσθέστε επιπλέον μυρωδικά και φυλλώδη λαχανικά για όγκο.",
+    "Προτιμήστε περισσότερο μοσχάρι σενιάν από στήθος — είναι το πιο άπαχο κομμάτι."
+   ]
+  },
+  "ru": {
+   "name": "Фо тай нам (фо с полусырым стейком и грудинкой)",
+   "origin": "Вьетнам · Ханой",
+   "intro": "Фо тай нам — вьетнамский говяжий суп с лапшой с двумя видами мяса сверху: тонкими ломтиками полусырого стейка (тай), которые готовятся в горячем бульоне за столом, и нежной томлёной грудинкой (нам). Прозрачный бульон ароматизирован звёздчатым анисом и корицей и приправлен рыбным соусом, затем разлит поверх плоской рисовой лапши и заправлен свежей зеленью, лаймом и чили.",
+   "history": "Фо сложилось на севере Вьетнама в начале двадцатого века, и родиной его обычно называют Ханой и Намдинь. После 1954 года оно распространилось на юг, в Сайгон, где стали обычны более богатые гарниры, а позднее по всему миру вместе с вьетнамской диаспорой. Тай нам — одно из самых заказываемых сочетаний в заведениях фо.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1,5 кг говяжьих костей",
+     "400 г говяжьей грудинки",
+     "250 г говяжьей вырезки, нарезанной очень тонко",
+     "400 г плоской рисовой лапши",
+     "2 звёздочки аниса, 1 палочка корицы",
+     "1 луковица и 50 г имбиря, обожжённые",
+     "3 ст. л. рыбного соуса, соль",
+     "Свежая зелень, лайм, чили и зелёный лук для подачи"
+    ],
+    "steps": [
+     "Бланшируйте кости, промойте, затем залейте 4 л свежей воды и добавьте грудинку, обожжённые лук и имбирь.",
+     "Томите на слабом огне 3 часа, снимая пену; выньте грудинку примерно через 2 часа, когда она станет мягкой.",
+     "Обжарьте всухую звёздчатый анис и корицу, добавьте на последние 30 минут, затем процедите и приправьте рыбным соусом и солью.",
+     "Замочите и ненадолго отварите лапшу; нарежьте грудинку.",
+     "Выложите в миски лапшу, грудинку и сырую вырезку и залейте кипящим бульоном, чтобы приготовить стейк. Подавайте с зеленью, лаймом и чили."
+    ]
+   },
+   "tips": [
+    "Снимите жир с остывшего бульона и уберите застывший жир перед разогревом.",
+    "Просите или подавайте меньше лапши и добавьте больше зелени и листовой зелени для объёма.",
+    "Выбирайте больше полусырого стейка, чем грудинки, — это более постный отруб."
+   ],
+   "name_inline": "фо тай нам"
+  },
+  "es": {
+   "name": "Pho tai nam (pho de filete poco cocido y falda)",
+   "origin": "Vietnam · Hanói",
+   "intro": "El pho tai nam es la sopa vietnamita de fideos con res, coronada con dos cortes: finas rebanadas de filete poco cocido (tai) que se cuecen en el caldo caliente en la mesa, y falda tierna cocida a fuego lento (nam). El caldo claro se perfuma con anís estrellado y canela y se sazona con salsa de pescado, y se vierte sobre fideos planos de arroz y se termina con hierbas frescas, limón y chile.",
+   "history": "El pho tomó forma en el norte de Vietnam a principios del siglo XX, y suele citarse a Hanói y Nam Dinh como sus cunas. Después de 1954 se extendió al sur, a Saigón, donde se hicieron comunes guarniciones más abundantes, y más tarde por el mundo con la diáspora vietnamita. El tai nam es una de las combinaciones más pedidas en las casas de pho.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1,5 kg de huesos de res",
+     "400 g de falda de res",
+     "250 g de solomillo de res, en rebanadas muy finas",
+     "400 g de fideos planos de arroz",
+     "2 anís estrellado, 1 rama de canela",
+     "1 cebolla y 50 g de jengibre, asados",
+     "3 cda. de salsa de pescado, sal",
+     "Hierbas frescas, limón, chile y cebolla de verdeo para servir"
+    ],
+    "steps": [
+     "Escalda los huesos, enjuágalos, cúbrelos con 4 l de agua fresca y agrega la falda, la cebolla y el jengibre asados.",
+     "Cuece a fuego lento 3 horas, espumando; retira la falda después de unas 2 horas, cuando esté tierna.",
+     "Tuesta el anís estrellado y la canela, añádelos los últimos 30 minutos, luego cuela y sazona con la salsa de pescado y sal.",
+     "Remoja y hierve brevemente los fideos; corta la falda en rebanadas.",
+     "Pon los fideos, la falda y el solomillo crudo en los tazones y vierte el caldo hirviendo para cocer el filete. Sirve con hierbas, limón y chile."
+    ]
+   },
+   "tips": [
+    "Quita la grasa del caldo frío y retira la capa sólida antes de recalentar.",
+    "Sirve menos fideos y agrega más hierbas y verduras de hoja para dar volumen.",
+    "Elige más filete poco cocido que falda: es el corte más magro."
+   ],
+   "name_inline": "el pho tai nam"
   }
+ }
 }

@@ -1,175 +1,208 @@
 {
-  "db_key": "eintopf",
-  "slug": "eintopf",
-  "emoji": "🍲",
-  "portion_g": 400,
-  "country": "DE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "eintopf",
+ "slug": "eintopf",
+ "emoji": "🍲",
+ "portion_g": 400,
+ "country": "DE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Eintopf",
+   "origin": "Germany",
+   "intro": "Eintopf, literally \"one pot\", is a hearty German stew of potatoes, carrots and cabbage simmered in broth with slices of sausage. The vegetables soften into a thick, rustic soup while the sausage seasons the pot. It is ladled into deep bowls and eaten as a full meal, often with mustard on the side.",
+   "history": "One-pot stews have long been everyday food in German-speaking countries, and the word Eintopf became common in the 20th century. Today it covers many regional versions with beans, lentils or cabbage.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g potatoes, cubed",
+     "2 carrots, sliced",
+     "300 g white cabbage, shredded",
+     "250 g smoked sausage, sliced",
+     "1.2 litres broth",
+     "1 onion, chopped",
+     "1 tbsp vegetable oil",
+     "1 bay leaf, salt, pepper, parsley"
+    ],
+    "steps": [
+     "Brown the sausage slices in the oil, then remove.",
+     "Soften the onion in the same pot for 5 minutes.",
+     "Add potatoes, carrots, cabbage, bay leaf and broth and bring to a boil.",
+     "Simmer 30 minutes until the potatoes are tender, then return the sausage for 5 minutes.",
+     "Season and serve with chopped parsley."
+    ]
+   },
+   "tips": [
+    "Use half the sausage and add more cabbage and carrots for an equally filling bowl.",
+    "Choose a leaner sausage and skim the fat from the surface before serving.",
+    "Skip the oil and brown the sausage in its own fat."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Eintopf",
-      "origin": "Germany",
-      "intro": "Eintopf, literally \"one pot\", is a hearty German stew of potatoes, carrots and cabbage simmered in broth with slices of sausage. The vegetables soften into a thick, rustic soup while the sausage seasons the pot. It is ladled into deep bowls and eaten as a full meal, often with mustard on the side.",
-      "history": "One-pot stews have long been everyday food in German-speaking countries, and the word Eintopf became common in the 20th century. Today it covers many regional versions with beans, lentils or cabbage.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g potatoes, cubed",
-          "2 carrots, sliced",
-          "300 g white cabbage, shredded",
-          "250 g smoked sausage, sliced",
-          "1.2 litres broth",
-          "1 onion, chopped",
-          "1 tbsp vegetable oil",
-          "1 bay leaf, salt, pepper, parsley"
-        ],
-        "steps": [
-          "Brown the sausage slices in the oil, then remove.",
-          "Soften the onion in the same pot for 5 minutes.",
-          "Add potatoes, carrots, cabbage, bay leaf and broth and bring to a boil.",
-          "Simmer 30 minutes until the potatoes are tender, then return the sausage for 5 minutes.",
-          "Season and serve with chopped parsley."
-        ]
-      },
-      "tips": [
-        "Use half the sausage and add more cabbage and carrots for an equally filling bowl.",
-        "Choose a leaner sausage and skim the fat from the surface before serving.",
-        "Skip the oil and brown the sausage in its own fat."
-      ]
-    },
-    "ar": {
-      "name": "آينتوبف",
-      "origin": "ألمانيا",
-      "intro": "الآينتوبف، أي «القدر الواحد» حرفياً، يخنة ألمانية دسمة من البطاطس والجزر والملفوف تُطهى في المرق مع شرائح النقانق. تلين الخضار لتصبح حساءً ريفياً كثيفاً بينما تمنح النقانق القدر نكهتها. يُغرف في أطباق عميقة ويؤكل وجبة كاملة، وغالباً مع الخردل جانباً.",
-      "history": "اليخنات المطهوة في قدر واحد طعام يومي قديم في البلدان الناطقة بالألمانية، وانتشرت كلمة «آينتوبف» في القرن العشرين. وتشمل اليوم نسخاً إقليمية كثيرة بالفاصولياء أو العدس أو الملفوف.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 غ بطاطس مكعبات",
-          "2 جزرة مقطّعة شرائح",
-          "300 غ ملفوف أبيض مفروم",
-          "250 غ نقانق مدخّنة مقطّعة",
-          "1.2 لتر مرق",
-          "1 بصلة مفرومة",
-          "1 ملعقة كبيرة زيت نباتي",
-          "ورقة غار، ملح، فلفل، بقدونس"
-        ],
-        "steps": [
-          "حمّر شرائح النقانق في الزيت ثم ارفعها.",
-          "طرّ البصل في القدر نفسه 5 دقائق.",
-          "أضف البطاطس والجزر والملفوف وورقة الغار والمرق واتركها تغلي.",
-          "اطهُها على نار هادئة 30 دقيقة حتى تنضج البطاطس، ثم أعد النقانق 5 دقائق.",
-          "تبّلها وقدّمها مع البقدونس المفروم."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية النقانق وأضف ملفوفاً وجزراً أكثر لطبق مشبع بالقدر نفسه.",
-        "اختر نقانق أقل دهناً وأزل الدهن عن السطح قبل التقديم.",
-        "تخطَّ الزيت وحمّر النقانق في دهنها."
-      ]
-    },
-    "it": {
-      "name": "Eintopf",
-      "origin": "Germania",
-      "intro": "L'Eintopf, letteralmente «una pentola», è un sostanzioso stufato tedesco di patate, carote e cavolo cotti nel brodo con fette di salsiccia. Le verdure si ammorbidiscono in una zuppa densa e rustica mentre la salsiccia insaporisce la pentola. Si serve con il mestolo in ciotole fonde e si mangia come piatto unico, spesso con senape a parte.",
-      "history": "Gli stufati in una sola pentola sono da tempo cibo quotidiano nei paesi di lingua tedesca, e la parola Eintopf si è diffusa nel Novecento. Oggi comprende molte versioni regionali con fagioli, lenticchie o cavolo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g di patate, a cubetti",
-          "2 carote, a rondelle",
-          "300 g di cavolo bianco, a striscioline",
-          "250 g di salsiccia affumicata, a fette",
-          "1,2 litri di brodo",
-          "1 cipolla, tritata",
-          "1 cucchiaio di olio vegetale",
-          "1 foglia di alloro, sale, pepe, prezzemolo"
-        ],
-        "steps": [
-          "Rosola le fette di salsiccia nell'olio, poi toglile.",
-          "Nella stessa pentola fai appassire la cipolla per 5 minuti.",
-          "Aggiungi patate, carote, cavolo, alloro e brodo e porta a ebollizione.",
-          "Fai sobbollire 30 minuti finché le patate sono tenere, poi rimetti la salsiccia per 5 minuti.",
-          "Regola di sale e servi con prezzemolo tritato."
-        ]
-      },
-      "tips": [
-        "Usa metà della salsiccia e aggiungi più cavolo e carote per una ciotola altrettanto saziante.",
-        "Scegli una salsiccia più magra e sgrassa la superficie prima di servire.",
-        "Evita l'olio e rosola la salsiccia nel suo stesso grasso."
-      ]
-    },
-    "el": {
-      "name": "Άιντοπφ",
-      "origin": "Γερμανία",
-      "intro": "Το άιντοπφ, κατά λέξη «μία κατσαρόλα», είναι χορταστικό γερμανικό φαγητό κατσαρόλας με πατάτες, καρότα και λάχανο που σιγοβράζουν σε ζωμό με φέτες λουκάνικου. Τα λαχανικά μαλακώνουν σε μια πηχτή, χωριάτικη σούπα ενώ το λουκάνικο νοστιμίζει την κατσαρόλα. Σερβίρεται με την κουτάλα σε βαθιά μπολ και τρώγεται ως πλήρες γεύμα, συχνά με μουστάρδα στο πλάι.",
-      "history": "Τα φαγητά μίας κατσαρόλας είναι εδώ και πολύ καιρό καθημερινή τροφή στις γερμανόφωνες χώρες, και η λέξη Eintopf έγινε κοινή τον 20ό αιώνα. Σήμερα καλύπτει πολλές τοπικές εκδοχές με φασόλια, φακές ή λάχανο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 γρ. πατάτες, σε κύβους",
-          "2 καρότα, σε ροδέλες",
-          "300 γρ. λευκό λάχανο, ψιλοκομμένο",
-          "250 γρ. καπνιστό λουκάνικο, σε ροδέλες",
-          "1,2 λίτρα ζωμός",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1 κ.σ. φυτικό λάδι",
-          "1 φύλλο δάφνης, αλάτι, πιπέρι, μαϊντανός"
-        ],
-        "steps": [
-          "Σοτάρετε τις ροδέλες λουκάνικου στο λάδι και βγάλτε τες.",
-          "Μαλακώστε το κρεμμύδι στην ίδια κατσαρόλα για 5 λεπτά.",
-          "Προσθέστε τις πατάτες, τα καρότα, το λάχανο, τη δάφνη και τον ζωμό και φέρτε σε βρασμό.",
-          "Σιγοβράστε 30 λεπτά μέχρι να μαλακώσουν οι πατάτες και επιστρέψτε το λουκάνικο για 5 λεπτά.",
-          "Αλατοπιπερώστε και σερβίρετε με ψιλοκομμένο μαϊντανό."
-        ]
-      },
-      "tips": [
-        "Βάλτε το μισό λουκάνικο και προσθέστε περισσότερο λάχανο και καρότα για εξίσου χορταστικό μπολ.",
-        "Διαλέξτε πιο άπαχο λουκάνικο και ξαφρίστε το λίπος από την επιφάνεια πριν σερβίρετε.",
-        "Παραλείψτε το λάδι και σοτάρετε το λουκάνικο στο δικό του λίπος."
-      ]
-    },
-    "ru": {
-      "name": "Айнтопф",
-      "origin": "Германия",
-      "intro": "Айнтопф, буквально «одна кастрюля», — сытное немецкое рагу из картофеля, моркови и капусты, тушёных в бульоне с ломтиками колбасы. Овощи разваливаются в густой деревенский суп, а колбаса приправляет кастрюлю. Его разливают по глубоким мискам и едят как полноценную еду, часто с горчицей отдельно.",
-      "history": "Рагу в одной кастрюле давно стало повседневной едой в немецкоязычных странах, а слово «айнтопф» вошло в обиход в XX веке. Сегодня оно охватывает множество региональных вариантов с фасолью, чечевицей или капустой.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 г картофеля, нарезанного кубиками",
-          "2 моркови, нарезанные",
-          "300 г белокочанной капусты, нашинкованной",
-          "250 г копчёной колбасы, нарезанной",
-          "1,2 литра бульона",
-          "1 луковица, нарубленная",
-          "1 ст. л. растительного масла",
-          "1 лавровый лист, соль, перец, петрушка"
-        ],
-        "steps": [
-          "Обжарьте ломтики колбасы в масле, затем выньте.",
-          "Томите лук в той же кастрюле 5 минут.",
-          "Добавьте картофель, морковь, капусту, лавровый лист и бульон и доведите до кипения.",
-          "Варите 30 минут до мягкости картофеля, затем верните колбасу на 5 минут.",
-          "Приправьте и подавайте с рубленой петрушкой."
-        ]
-      },
-      "tips": [
-        "Возьмите вдвое меньше колбасы и добавьте больше капусты и моркови — миска будет столь же сытной.",
-        "Выбирайте более постную колбасу и снимайте жир с поверхности перед подачей.",
-        "Не добавляйте масло и обжаривайте колбасу в её собственном жире."
-      ],
-      "name_inline": "айнтопф"
-    }
+  "ar": {
+   "name": "آينتوبف",
+   "origin": "ألمانيا",
+   "intro": "الآينتوبف، أي «القدر الواحد» حرفياً، يخنة ألمانية دسمة من البطاطس والجزر والملفوف تُطهى في المرق مع شرائح النقانق. تلين الخضار لتصبح حساءً ريفياً كثيفاً بينما تمنح النقانق القدر نكهتها. يُغرف في أطباق عميقة ويؤكل وجبة كاملة، وغالباً مع الخردل جانباً.",
+   "history": "اليخنات المطهوة في قدر واحد طعام يومي قديم في البلدان الناطقة بالألمانية، وانتشرت كلمة «آينتوبف» في القرن العشرين. وتشمل اليوم نسخاً إقليمية كثيرة بالفاصولياء أو العدس أو الملفوف.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 غ بطاطس مكعبات",
+     "2 جزرة مقطّعة شرائح",
+     "300 غ ملفوف أبيض مفروم",
+     "250 غ نقانق مدخّنة مقطّعة",
+     "1.2 لتر مرق",
+     "1 بصلة مفرومة",
+     "1 ملعقة كبيرة زيت نباتي",
+     "ورقة غار، ملح، فلفل، بقدونس"
+    ],
+    "steps": [
+     "حمّر شرائح النقانق في الزيت ثم ارفعها.",
+     "طرّ البصل في القدر نفسه 5 دقائق.",
+     "أضف البطاطس والجزر والملفوف وورقة الغار والمرق واتركها تغلي.",
+     "اطهُها على نار هادئة 30 دقيقة حتى تنضج البطاطس، ثم أعد النقانق 5 دقائق.",
+     "تبّلها وقدّمها مع البقدونس المفروم."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية النقانق وأضف ملفوفاً وجزراً أكثر لطبق مشبع بالقدر نفسه.",
+    "اختر نقانق أقل دهناً وأزل الدهن عن السطح قبل التقديم.",
+    "تخطَّ الزيت وحمّر النقانق في دهنها."
+   ]
+  },
+  "it": {
+   "name": "Eintopf",
+   "origin": "Germania",
+   "intro": "L'Eintopf, letteralmente «una pentola», è un sostanzioso stufato tedesco di patate, carote e cavolo cotti nel brodo con fette di salsiccia. Le verdure si ammorbidiscono in una zuppa densa e rustica mentre la salsiccia insaporisce la pentola. Si serve con il mestolo in ciotole fonde e si mangia come piatto unico, spesso con senape a parte.",
+   "history": "Gli stufati in una sola pentola sono da tempo cibo quotidiano nei paesi di lingua tedesca, e la parola Eintopf si è diffusa nel Novecento. Oggi comprende molte versioni regionali con fagioli, lenticchie o cavolo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g di patate, a cubetti",
+     "2 carote, a rondelle",
+     "300 g di cavolo bianco, a striscioline",
+     "250 g di salsiccia affumicata, a fette",
+     "1,2 litri di brodo",
+     "1 cipolla, tritata",
+     "1 cucchiaio di olio vegetale",
+     "1 foglia di alloro, sale, pepe, prezzemolo"
+    ],
+    "steps": [
+     "Rosola le fette di salsiccia nell'olio, poi toglile.",
+     "Nella stessa pentola fai appassire la cipolla per 5 minuti.",
+     "Aggiungi patate, carote, cavolo, alloro e brodo e porta a ebollizione.",
+     "Fai sobbollire 30 minuti finché le patate sono tenere, poi rimetti la salsiccia per 5 minuti.",
+     "Regola di sale e servi con prezzemolo tritato."
+    ]
+   },
+   "tips": [
+    "Usa metà della salsiccia e aggiungi più cavolo e carote per una ciotola altrettanto saziante.",
+    "Scegli una salsiccia più magra e sgrassa la superficie prima di servire.",
+    "Evita l'olio e rosola la salsiccia nel suo stesso grasso."
+   ]
+  },
+  "el": {
+   "name": "Άιντοπφ",
+   "origin": "Γερμανία",
+   "intro": "Το άιντοπφ, κατά λέξη «μία κατσαρόλα», είναι χορταστικό γερμανικό φαγητό κατσαρόλας με πατάτες, καρότα και λάχανο που σιγοβράζουν σε ζωμό με φέτες λουκάνικου. Τα λαχανικά μαλακώνουν σε μια πηχτή, χωριάτικη σούπα ενώ το λουκάνικο νοστιμίζει την κατσαρόλα. Σερβίρεται με την κουτάλα σε βαθιά μπολ και τρώγεται ως πλήρες γεύμα, συχνά με μουστάρδα στο πλάι.",
+   "history": "Τα φαγητά μίας κατσαρόλας είναι εδώ και πολύ καιρό καθημερινή τροφή στις γερμανόφωνες χώρες, και η λέξη Eintopf έγινε κοινή τον 20ό αιώνα. Σήμερα καλύπτει πολλές τοπικές εκδοχές με φασόλια, φακές ή λάχανο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 γρ. πατάτες, σε κύβους",
+     "2 καρότα, σε ροδέλες",
+     "300 γρ. λευκό λάχανο, ψιλοκομμένο",
+     "250 γρ. καπνιστό λουκάνικο, σε ροδέλες",
+     "1,2 λίτρα ζωμός",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1 κ.σ. φυτικό λάδι",
+     "1 φύλλο δάφνης, αλάτι, πιπέρι, μαϊντανός"
+    ],
+    "steps": [
+     "Σοτάρετε τις ροδέλες λουκάνικου στο λάδι και βγάλτε τες.",
+     "Μαλακώστε το κρεμμύδι στην ίδια κατσαρόλα για 5 λεπτά.",
+     "Προσθέστε τις πατάτες, τα καρότα, το λάχανο, τη δάφνη και τον ζωμό και φέρτε σε βρασμό.",
+     "Σιγοβράστε 30 λεπτά μέχρι να μαλακώσουν οι πατάτες και επιστρέψτε το λουκάνικο για 5 λεπτά.",
+     "Αλατοπιπερώστε και σερβίρετε με ψιλοκομμένο μαϊντανό."
+    ]
+   },
+   "tips": [
+    "Βάλτε το μισό λουκάνικο και προσθέστε περισσότερο λάχανο και καρότα για εξίσου χορταστικό μπολ.",
+    "Διαλέξτε πιο άπαχο λουκάνικο και ξαφρίστε το λίπος από την επιφάνεια πριν σερβίρετε.",
+    "Παραλείψτε το λάδι και σοτάρετε το λουκάνικο στο δικό του λίπος."
+   ]
+  },
+  "ru": {
+   "name": "Айнтопф",
+   "origin": "Германия",
+   "intro": "Айнтопф, буквально «одна кастрюля», — сытное немецкое рагу из картофеля, моркови и капусты, тушёных в бульоне с ломтиками колбасы. Овощи разваливаются в густой деревенский суп, а колбаса приправляет кастрюлю. Его разливают по глубоким мискам и едят как полноценную еду, часто с горчицей отдельно.",
+   "history": "Рагу в одной кастрюле давно стало повседневной едой в немецкоязычных странах, а слово «айнтопф» вошло в обиход в XX веке. Сегодня оно охватывает множество региональных вариантов с фасолью, чечевицей или капустой.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 г картофеля, нарезанного кубиками",
+     "2 моркови, нарезанные",
+     "300 г белокочанной капусты, нашинкованной",
+     "250 г копчёной колбасы, нарезанной",
+     "1,2 литра бульона",
+     "1 луковица, нарубленная",
+     "1 ст. л. растительного масла",
+     "1 лавровый лист, соль, перец, петрушка"
+    ],
+    "steps": [
+     "Обжарьте ломтики колбасы в масле, затем выньте.",
+     "Томите лук в той же кастрюле 5 минут.",
+     "Добавьте картофель, морковь, капусту, лавровый лист и бульон и доведите до кипения.",
+     "Варите 30 минут до мягкости картофеля, затем верните колбасу на 5 минут.",
+     "Приправьте и подавайте с рубленой петрушкой."
+    ]
+   },
+   "tips": [
+    "Возьмите вдвое меньше колбасы и добавьте больше капусты и моркови — миска будет столь же сытной.",
+    "Выбирайте более постную колбасу и снимайте жир с поверхности перед подачей.",
+    "Не добавляйте масло и обжаривайте колбасу в её собственном жире."
+   ],
+   "name_inline": "айнтопф"
+  },
+  "es": {
+   "name": "Eintopf",
+   "origin": "Alemania",
+   "intro": "El Eintopf, literalmente «una olla», es un contundente guiso alemán de papas, zanahorias y repollo cocidos en caldo con rodajas de salchicha. Las verduras se ablandan hasta formar una sopa espesa y rústica, mientras la salchicha sazona la olla. Se sirve en platos hondos y se come como plato completo, a menudo con mostaza aparte.",
+   "history": "Los guisos de una sola olla son desde hace mucho comida de diario en los países de habla alemana, y la palabra Eintopf se generalizó en el siglo XX. Hoy abarca muchas versiones regionales con frijoles, lentejas o repollo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g de papas, en cubos",
+     "2 zanahorias, en rodajas",
+     "300 g de repollo blanco, rallado",
+     "250 g de salchicha ahumada, en rodajas",
+     "1,2 l de caldo",
+     "1 cebolla, picada",
+     "1 cda. de aceite vegetal",
+     "1 hoja de laurel, sal, pimienta, perejil"
+    ],
+    "steps": [
+     "Dora las rodajas de salchicha en el aceite y retíralas.",
+     "Ablanda la cebolla en la misma olla durante 5 minutos.",
+     "Agrega las papas, las zanahorias, el repollo, el laurel y el caldo, y lleva a ebullición.",
+     "Cuece a fuego lento 30 minutos, hasta que las papas estén tiernas, y devuelve la salchicha por 5 minutos.",
+     "Sazona y sirve con perejil picado."
+    ]
+   },
+   "tips": [
+    "Usa la mitad de la salchicha y añade más repollo y zanahoria para un plato igual de saciante.",
+    "Elige una salchicha más magra y retira la grasa de la superficie antes de servir.",
+    "Omite el aceite y dora la salchicha en su propia grasa."
+   ],
+   "name_inline": "el Eintopf"
   }
+ }
 }

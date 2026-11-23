@@ -1,165 +1,196 @@
 {
-  "db_key": "mutabbaq_cheese",
-  "slug": "mutabbaq-cheese",
-  "emoji": "🧀",
-  "portion_g": 180,
-  "country": "SA",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mutabbaq_cheese",
+ "slug": "mutabbaq-cheese",
+ "emoji": "🧀",
+ "portion_g": 180,
+ "country": "SA",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Cheese Mutabbaq",
+   "origin": "Saudi Arabia · Hejaz",
+   "intro": "Cheese mutabbaq is the meat-free version of the Hijazi street snack: thin dough folded around beaten egg, melting white cheese and spring onion, then fried on a griddle until crisp outside and gooey inside. It is cut into squares and eaten hot from the stall.",
+   "history": "Cheese mutabbaq is sold alongside the meat version at mutabbaq stalls in the Hejaz region of Saudi Arabia and in Yemen.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 g ready-made thin dough sheets or stretched bread dough",
+     "200 g white cheese, grated or crumbled",
+     "3 eggs",
+     "4 spring onions, chopped",
+     "3 tbsp vegetable oil",
+     "Black pepper"
+    ],
+    "steps": [
+     "Mix the cheese, beaten eggs, spring onions and pepper.",
+     "Stretch a dough sheet very thin on an oiled surface.",
+     "Put a quarter of the filling in the centre and fold into a square parcel.",
+     "Fry on an oiled griddle for 3–4 minutes per side until golden and crisp.",
+     "Cut into squares and serve hot."
+    ]
+   },
+   "tips": [
+    "Choose a lower-fat white cheese and use 150 g instead of 200 g.",
+    "Brush the griddle with oil instead of pouring it (1 tbsp oil ≈ 120 kcal).",
+    "Share one mutabbaq and add a tomato-cucumber salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Cheese Mutabbaq",
-      "origin": "Saudi Arabia · Hejaz",
-      "intro": "Cheese mutabbaq is the meat-free version of the Hijazi street snack: thin dough folded around beaten egg, melting white cheese and spring onion, then fried on a griddle until crisp outside and gooey inside. It is cut into squares and eaten hot from the stall.",
-      "history": "Cheese mutabbaq is sold alongside the meat version at mutabbaq stalls in the Hejaz region of Saudi Arabia and in Yemen.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 g ready-made thin dough sheets or stretched bread dough",
-          "200 g white cheese, grated or crumbled",
-          "3 eggs",
-          "4 spring onions, chopped",
-          "3 tbsp vegetable oil",
-          "Black pepper"
-        ],
-        "steps": [
-          "Mix the cheese, beaten eggs, spring onions and pepper.",
-          "Stretch a dough sheet very thin on an oiled surface.",
-          "Put a quarter of the filling in the centre and fold into a square parcel.",
-          "Fry on an oiled griddle for 3–4 minutes per side until golden and crisp.",
-          "Cut into squares and serve hot."
-        ]
-      },
-      "tips": [
-        "Choose a lower-fat white cheese and use 150 g instead of 200 g.",
-        "Brush the griddle with oil instead of pouring it (1 tbsp oil ≈ 120 kcal).",
-        "Share one mutabbaq and add a tomato-cucumber salad."
-      ]
-    },
-    "ar": {
-      "name": "مطبّق جبن",
-      "origin": "السعودية · الحجاز",
-      "intro": "مطبّق الجبن هو النسخة الخالية من اللحم من هذه الوجبة الحجازية الشعبية: عجينة رقيقة تُطوى حول البيض المخفوق والجبن الأبيض الذائب والبصل الأخضر، ثم تُقلى على الصاج حتى تتقرمش من الخارج وتذوب من الداخل. يُقطَّع مربعات ويؤكل ساخنًا من الكشك.",
-      "history": "يُباع مطبّق الجبن إلى جانب مطبّق اللحم في أكشاك المطبّق في منطقة الحجاز بالسعودية وفي اليمن.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 غ رقائق عجين رقيقة جاهزة أو عجينة خبز مفرودة",
-          "200 غ جبن أبيض مبشور أو مفتت",
-          "3 بيضات",
-          "4 أعواد بصل أخضر مفرومة",
-          "3 ملاعق كبيرة زيت نباتي",
-          "فلفل أسود"
-        ],
-        "steps": [
-          "اخلط الجبن والبيض المخفوق والبصل الأخضر والفلفل.",
-          "افرد العجينة رقيقة جدًا على سطح مدهون بالزيت.",
-          "ضع ربع الحشوة في الوسط واطوِها على شكل مربع.",
-          "اقلِها على صاج مدهون بالزيت 3–4 دقائق لكل جانب حتى تصبح ذهبية مقرمشة.",
-          "قطّعها مربعات وقدّمها ساخنة."
-        ]
-      },
-      "tips": [
-        "اختر جبنًا أبيض قليل الدسم واستخدم 150 غ بدل 200 غ.",
-        "ادهن الصاج بالزيت بالفرشاة بدل سكبه (ملعقة كبيرة زيت ≈ 120 سعرة).",
-        "تقاسم المطبّق مع شخص آخر وأضف سلطة طماطم وخيار."
-      ]
-    },
-    "it": {
-      "name": "Mutabbaq al formaggio",
-      "origin": "Arabia Saudita · Hegiaz",
-      "intro": "Il mutabbaq al formaggio è la versione senza carne dello spuntino di strada dell'Hegiaz: un impasto sottile ripiegato attorno a uovo sbattuto, formaggio bianco filante e cipollotto, poi fritto sulla piastra finché croccante fuori e filante dentro. Si taglia a quadrati e si mangia caldo appena preso al banco.",
-      "history": "Il mutabbaq al formaggio si vende accanto alla versione con la carne ai banchi di mutabbaq della regione dell'Hegiaz, in Arabia Saudita, e nello Yemen.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 g di fogli di pasta sottile pronti o di pasta di pane tirata",
-          "200 g di formaggio bianco, grattugiato o sbriciolato",
-          "3 uova",
-          "4 cipollotti, tritati",
-          "3 cucchiai di olio vegetale",
-          "Pepe nero"
-        ],
-        "steps": [
-          "Mescola formaggio, uova sbattute, cipollotti e pepe.",
-          "Stendi un foglio di pasta sottilissimo su una superficie unta.",
-          "Metti al centro un quarto del ripieno e ripiega formando un fagotto quadrato.",
-          "Friggi su una piastra unta per 3–4 minuti per lato finché dorato e croccante.",
-          "Taglia a quadrati e servi caldo."
-        ]
-      },
-      "tips": [
-        "Scegli un formaggio bianco meno grasso e usane 150 g invece di 200 g.",
-        "Spennella la piastra con l'olio invece di versarlo (1 cucchiaio di olio ≈ 120 kcal).",
-        "Dividi un mutabbaq e aggiungi un'insalata di pomodori e cetrioli."
-      ]
-    },
-    "el": {
-      "name": "Μουταμπάκ με τυρί",
-      "name_inline": "μουταμπάκ με τυρί",
-      "origin": "Σαουδική Αραβία · Χιτζάζ",
-      "intro": "Το μουταμπάκ με τυρί είναι η εκδοχή χωρίς κρέας του σνακ του δρόμου της Χιτζάζ: λεπτή ζύμη διπλωμένη γύρω από χτυπημένο αυγό, λευκό τυρί που λιώνει και φρέσκο κρεμμυδάκι, τηγανισμένη στην πλάκα μέχρι να γίνει τραγανή απ' έξω και λιωμένη μέσα. Κόβεται σε τετράγωνα και τρώγεται ζεστό από τον πάγκο.",
-      "history": "Το μουταμπάκ με τυρί πωλείται δίπλα στην εκδοχή με κρέας στους πάγκους μουταμπάκ της περιοχής Χιτζάζ στη Σαουδική Αραβία και στην Υεμένη.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 γρ. έτοιμα λεπτά φύλλα ζύμης ή τεντωμένη ζύμη ψωμιού",
-          "200 γρ. λευκό τυρί, τριμμένο ή θρυμματισμένο",
-          "3 αυγά",
-          "4 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
-          "3 κ.σ. φυτικό λάδι",
-          "Μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Ανακατέψτε το τυρί, τα χτυπημένα αυγά, τα κρεμμυδάκια και το πιπέρι.",
-          "Ανοίξτε ένα φύλλο ζύμης πολύ λεπτό σε λαδωμένη επιφάνεια.",
-          "Βάλτε στο κέντρο το ένα τέταρτο της γέμισης και διπλώστε σε τετράγωνο πακετάκι.",
-          "Τηγανίστε σε λαδωμένη πλάκα για 3–4 λεπτά από κάθε πλευρά μέχρι να χρυσίσει και να τραγανίσει.",
-          "Κόψτε σε τετράγωνα και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Επιλέξτε λευκό τυρί με λιγότερα λιπαρά και βάλτε 150 γρ. αντί για 200 γρ.",
-        "Αλείψτε την πλάκα με λάδι αντί να το ρίχνετε (1 κ.σ. λάδι ≈ 120 kcal).",
-        "Μοιραστείτε ένα μουταμπάκ και προσθέστε σαλάτα ντομάτας-αγγουριού."
-      ]
-    },
-    "ru": {
-      "name": "Мутаббак с сыром",
-      "origin": "Саудовская Аравия · Хиджаз",
-      "intro": "Мутаббак с сыром — вегетарианский вариант уличной закуски Хиджаза: тонкое тесто, сложенное вокруг взбитых яиц, плавящегося белого сыра и зелёного лука, обжаренное на гриле до хруста снаружи и мягкой тягучести внутри. Его нарезают квадратами и едят горячим прямо у прилавка.",
-      "history": "Мутаббак с сыром продают рядом с мясным вариантом на прилавках мутаббака в регионе Хиджаз в Саудовской Аравии и в Йемене.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 г готовых тонких листов теста или растянутого хлебного теста",
-          "200 г белого сыра, натёртого или раскрошенного",
-          "3 яйца",
-          "4 стебля зелёного лука, нарезанного",
-          "3 ст. л. растительного масла",
-          "Чёрный перец"
-        ],
-        "steps": [
-          "Смешайте сыр, взбитые яйца, зелёный лук и перец.",
-          "Очень тонко растяните лист теста на смазанной маслом поверхности.",
-          "Выложите в центр четверть начинки и сложите квадратным конвертом.",
-          "Жарьте на смазанном маслом гриле по 3–4 минуты с каждой стороны до золотистой хрустящей корочки.",
-          "Нарежьте квадратами и подавайте горячим."
-        ]
-      },
-      "tips": [
-        "Выбирайте белый сыр пониженной жирности и берите 150 г вместо 200 г.",
-        "Смазывайте гриль маслом кистью, а не наливайте его (1 ст. л. масла ≈ 120 ккал).",
-        "Разделите один мутаббак на двоих и добавьте салат из помидоров и огурцов."
-      ]
-    }
+  "ar": {
+   "name": "مطبّق جبن",
+   "origin": "السعودية · الحجاز",
+   "intro": "مطبّق الجبن هو النسخة الخالية من اللحم من هذه الوجبة الحجازية الشعبية: عجينة رقيقة تُطوى حول البيض المخفوق والجبن الأبيض الذائب والبصل الأخضر، ثم تُقلى على الصاج حتى تتقرمش من الخارج وتذوب من الداخل. يُقطَّع مربعات ويؤكل ساخنًا من الكشك.",
+   "history": "يُباع مطبّق الجبن إلى جانب مطبّق اللحم في أكشاك المطبّق في منطقة الحجاز بالسعودية وفي اليمن.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 غ رقائق عجين رقيقة جاهزة أو عجينة خبز مفرودة",
+     "200 غ جبن أبيض مبشور أو مفتت",
+     "3 بيضات",
+     "4 أعواد بصل أخضر مفرومة",
+     "3 ملاعق كبيرة زيت نباتي",
+     "فلفل أسود"
+    ],
+    "steps": [
+     "اخلط الجبن والبيض المخفوق والبصل الأخضر والفلفل.",
+     "افرد العجينة رقيقة جدًا على سطح مدهون بالزيت.",
+     "ضع ربع الحشوة في الوسط واطوِها على شكل مربع.",
+     "اقلِها على صاج مدهون بالزيت 3–4 دقائق لكل جانب حتى تصبح ذهبية مقرمشة.",
+     "قطّعها مربعات وقدّمها ساخنة."
+    ]
+   },
+   "tips": [
+    "اختر جبنًا أبيض قليل الدسم واستخدم 150 غ بدل 200 غ.",
+    "ادهن الصاج بالزيت بالفرشاة بدل سكبه (ملعقة كبيرة زيت ≈ 120 سعرة).",
+    "تقاسم المطبّق مع شخص آخر وأضف سلطة طماطم وخيار."
+   ]
+  },
+  "it": {
+   "name": "Mutabbaq al formaggio",
+   "origin": "Arabia Saudita · Hegiaz",
+   "intro": "Il mutabbaq al formaggio è la versione senza carne dello spuntino di strada dell'Hegiaz: un impasto sottile ripiegato attorno a uovo sbattuto, formaggio bianco filante e cipollotto, poi fritto sulla piastra finché croccante fuori e filante dentro. Si taglia a quadrati e si mangia caldo appena preso al banco.",
+   "history": "Il mutabbaq al formaggio si vende accanto alla versione con la carne ai banchi di mutabbaq della regione dell'Hegiaz, in Arabia Saudita, e nello Yemen.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 g di fogli di pasta sottile pronti o di pasta di pane tirata",
+     "200 g di formaggio bianco, grattugiato o sbriciolato",
+     "3 uova",
+     "4 cipollotti, tritati",
+     "3 cucchiai di olio vegetale",
+     "Pepe nero"
+    ],
+    "steps": [
+     "Mescola formaggio, uova sbattute, cipollotti e pepe.",
+     "Stendi un foglio di pasta sottilissimo su una superficie unta.",
+     "Metti al centro un quarto del ripieno e ripiega formando un fagotto quadrato.",
+     "Friggi su una piastra unta per 3–4 minuti per lato finché dorato e croccante.",
+     "Taglia a quadrati e servi caldo."
+    ]
+   },
+   "tips": [
+    "Scegli un formaggio bianco meno grasso e usane 150 g invece di 200 g.",
+    "Spennella la piastra con l'olio invece di versarlo (1 cucchiaio di olio ≈ 120 kcal).",
+    "Dividi un mutabbaq e aggiungi un'insalata di pomodori e cetrioli."
+   ]
+  },
+  "el": {
+   "name": "Μουταμπάκ με τυρί",
+   "name_inline": "μουταμπάκ με τυρί",
+   "origin": "Σαουδική Αραβία · Χιτζάζ",
+   "intro": "Το μουταμπάκ με τυρί είναι η εκδοχή χωρίς κρέας του σνακ του δρόμου της Χιτζάζ: λεπτή ζύμη διπλωμένη γύρω από χτυπημένο αυγό, λευκό τυρί που λιώνει και φρέσκο κρεμμυδάκι, τηγανισμένη στην πλάκα μέχρι να γίνει τραγανή απ' έξω και λιωμένη μέσα. Κόβεται σε τετράγωνα και τρώγεται ζεστό από τον πάγκο.",
+   "history": "Το μουταμπάκ με τυρί πωλείται δίπλα στην εκδοχή με κρέας στους πάγκους μουταμπάκ της περιοχής Χιτζάζ στη Σαουδική Αραβία και στην Υεμένη.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 γρ. έτοιμα λεπτά φύλλα ζύμης ή τεντωμένη ζύμη ψωμιού",
+     "200 γρ. λευκό τυρί, τριμμένο ή θρυμματισμένο",
+     "3 αυγά",
+     "4 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
+     "3 κ.σ. φυτικό λάδι",
+     "Μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Ανακατέψτε το τυρί, τα χτυπημένα αυγά, τα κρεμμυδάκια και το πιπέρι.",
+     "Ανοίξτε ένα φύλλο ζύμης πολύ λεπτό σε λαδωμένη επιφάνεια.",
+     "Βάλτε στο κέντρο το ένα τέταρτο της γέμισης και διπλώστε σε τετράγωνο πακετάκι.",
+     "Τηγανίστε σε λαδωμένη πλάκα για 3–4 λεπτά από κάθε πλευρά μέχρι να χρυσίσει και να τραγανίσει.",
+     "Κόψτε σε τετράγωνα και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Επιλέξτε λευκό τυρί με λιγότερα λιπαρά και βάλτε 150 γρ. αντί για 200 γρ.",
+    "Αλείψτε την πλάκα με λάδι αντί να το ρίχνετε (1 κ.σ. λάδι ≈ 120 kcal).",
+    "Μοιραστείτε ένα μουταμπάκ και προσθέστε σαλάτα ντομάτας-αγγουριού."
+   ]
+  },
+  "ru": {
+   "name": "Мутаббак с сыром",
+   "origin": "Саудовская Аравия · Хиджаз",
+   "intro": "Мутаббак с сыром — вегетарианский вариант уличной закуски Хиджаза: тонкое тесто, сложенное вокруг взбитых яиц, плавящегося белого сыра и зелёного лука, обжаренное на гриле до хруста снаружи и мягкой тягучести внутри. Его нарезают квадратами и едят горячим прямо у прилавка.",
+   "history": "Мутаббак с сыром продают рядом с мясным вариантом на прилавках мутаббака в регионе Хиджаз в Саудовской Аравии и в Йемене.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 г готовых тонких листов теста или растянутого хлебного теста",
+     "200 г белого сыра, натёртого или раскрошенного",
+     "3 яйца",
+     "4 стебля зелёного лука, нарезанного",
+     "3 ст. л. растительного масла",
+     "Чёрный перец"
+    ],
+    "steps": [
+     "Смешайте сыр, взбитые яйца, зелёный лук и перец.",
+     "Очень тонко растяните лист теста на смазанной маслом поверхности.",
+     "Выложите в центр четверть начинки и сложите квадратным конвертом.",
+     "Жарьте на смазанном маслом гриле по 3–4 минуты с каждой стороны до золотистой хрустящей корочки.",
+     "Нарежьте квадратами и подавайте горячим."
+    ]
+   },
+   "tips": [
+    "Выбирайте белый сыр пониженной жирности и берите 150 г вместо 200 г.",
+    "Смазывайте гриль маслом кистью, а не наливайте его (1 ст. л. масла ≈ 120 ккал).",
+    "Разделите один мутаббак на двоих и добавьте салат из помидоров и огурцов."
+   ]
+  },
+  "es": {
+   "name": "Mutabbaq de queso",
+   "origin": "Arabia Saudita · Hiyaz",
+   "intro": "El mutabbaq de queso es la versión sin carne del refrigerio callejero del Hiyaz: masa fina doblada alrededor de huevo batido, queso blanco derretible y cebollín, luego frita en una plancha hasta quedar crujiente por fuera y suave por dentro. Se corta en cuadros y se come caliente, recién salido del puesto.",
+   "history": "El mutabbaq de queso se vende junto con la versión de carne en los puestos de mutabbaq de la región del Hiyaz, en Arabia Saudita, y en Yemen.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 g de láminas de masa fina ya hechas o masa de pan estirada",
+     "200 g de queso blanco, rallado o desmenuzado",
+     "3 huevos",
+     "4 cebollines picados",
+     "3 cda. de aceite vegetal",
+     "Pimienta negra"
+    ],
+    "steps": [
+     "Mezcla el queso, los huevos batidos, los cebollines y la pimienta.",
+     "Estira una lámina de masa muy delgada sobre una superficie engrasada.",
+     "Pon una cuarta parte del relleno en el centro y dobla formando un paquete cuadrado.",
+     "Fríe en una plancha engrasada de 3 a 4 minutos por lado, hasta que esté dorado y crujiente.",
+     "Corta en cuadros y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Elige un queso blanco bajo en grasa y usa 150 g en lugar de 200 g.",
+    "Barniza la plancha con aceite en vez de verterlo (1 cda. de aceite ≈ 120 kcal).",
+    "Comparte un mutabbaq y añade una ensalada de jitomate y pepino."
+   ],
+   "name_inline": "el mutabbaq de queso"
   }
+ }
 }

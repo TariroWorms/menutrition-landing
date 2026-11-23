@@ -1,186 +1,221 @@
 {
-  "db_key": "dak_galbi_cheese",
-  "slug": "dak-galbi-cheese",
-  "emoji": "🧀",
-  "portion_g": 400,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dak_galbi_cheese",
+ "slug": "dak-galbi-cheese",
+ "emoji": "🧀",
+ "portion_g": 400,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Cheese dakgalbi",
+   "origin": "South Korea",
+   "intro": "Cheese dakgalbi is spicy stir-fried chicken with gochujang, cabbage, chewy rice cakes and scallions, finished with a thick layer of melted mozzarella. The fiery, sweet sauce contrasts with the stretchy cheese. It is cooked on a large hot plate at the table and shared straight from the pan.",
+   "history": "Dakgalbi is closely associated with Chuncheon in Gangwon Province, where it is said to have begun as an inexpensive chicken dish in the 1960s. The cheese-topped version became popular in Korean restaurants in the 2010s and also caught on in Japan.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "500 g boneless chicken thighs, cut into pieces",
+     "3 tbsp gochujang",
+     "1 tbsp sugar",
+     "3 garlic cloves, crushed",
+     "300 g cabbage, roughly chopped",
+     "150 g Korean rice cakes (tteok)",
+     "1 onion, sliced",
+     "3 scallions, cut into lengths",
+     "150 g mozzarella, grated",
+     "1 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Mix the gochujang, sugar and garlic, coat the chicken and leave for 20 minutes.",
+     "Heat the oil in a wide pan, add the chicken and stir-fry for 5 minutes.",
+     "Add the cabbage, onion and rice cakes and cook, stirring, for 8–10 minutes until the chicken is done and the rice cakes are soft.",
+     "Add the scallions, push everything to the edges, put the mozzarella in the middle and cover until melted.",
+     "Serve straight from the pan."
+    ]
+   },
+   "tips": [
+    "Halve the mozzarella and scatter it over the top instead of making a thick pool.",
+    "Use more cabbage and fewer rice cakes.",
+    "Use skinless chicken breast for a leaner dish."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Cheese dakgalbi",
-      "origin": "South Korea",
-      "intro": "Cheese dakgalbi is spicy stir-fried chicken with gochujang, cabbage, chewy rice cakes and scallions, finished with a thick layer of melted mozzarella. The fiery, sweet sauce contrasts with the stretchy cheese. It is cooked on a large hot plate at the table and shared straight from the pan.",
-      "history": "Dakgalbi is closely associated with Chuncheon in Gangwon Province, where it is said to have begun as an inexpensive chicken dish in the 1960s. The cheese-topped version became popular in Korean restaurants in the 2010s and also caught on in Japan.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "500 g boneless chicken thighs, cut into pieces",
-          "3 tbsp gochujang",
-          "1 tbsp sugar",
-          "3 garlic cloves, crushed",
-          "300 g cabbage, roughly chopped",
-          "150 g Korean rice cakes (tteok)",
-          "1 onion, sliced",
-          "3 scallions, cut into lengths",
-          "150 g mozzarella, grated",
-          "1 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Mix the gochujang, sugar and garlic, coat the chicken and leave for 20 minutes.",
-          "Heat the oil in a wide pan, add the chicken and stir-fry for 5 minutes.",
-          "Add the cabbage, onion and rice cakes and cook, stirring, for 8–10 minutes until the chicken is done and the rice cakes are soft.",
-          "Add the scallions, push everything to the edges, put the mozzarella in the middle and cover until melted.",
-          "Serve straight from the pan."
-        ]
-      },
-      "tips": [
-        "Halve the mozzarella and scatter it over the top instead of making a thick pool.",
-        "Use more cabbage and fewer rice cakes.",
-        "Use skinless chicken breast for a leaner dish."
-      ]
-    },
-    "ar": {
-      "name": "داك غالبي بالجبن",
-      "origin": "كوريا الجنوبية",
-      "intro": "داك غالبي بالجبن دجاج مقلي حار مع معجون الغوتشوجانغ والملفوف وكعكات الأرز المطاطية والبصل الأخضر، تعلوه طبقة سميكة من جبن الموزاريلا الذائب. تتناقض الصلصة الحارة الحلوة مع الجبن المطاطي. يُطهى على صاج كبير ساخن على المائدة ويؤكل مباشرة من المقلاة.",
-      "history": "يرتبط الداك غالبي ارتباطاً وثيقاً بمدينة تشونتشون في مقاطعة غانغوون، حيث يُقال إنه بدأ طبقَ دجاج رخيصاً في الستينيات. وانتشرت النسخة المغطاة بالجبن في المطاعم الكورية في العقد الثاني من القرن الحادي والعشرين، ولاقت رواجاً في اليابان أيضاً.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "500 غ أفخاذ دجاج بلا عظم مقطّعة",
-          "3 ملاعق كبيرة غوتشوجانغ",
-          "1 ملعقة كبيرة سكر",
-          "3 فصوص ثوم مهروسة",
-          "300 غ ملفوف مقطّع خشناً",
-          "150 غ كعكات أرز كورية (توك)",
-          "1 بصلة مقطّعة شرائح",
-          "3 أعواد بصل أخضر مقطّعة",
-          "150 غ موزاريلا مبشورة",
-          "1 ملعقة كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "اخلط الغوتشوجانغ والسكر والثوم، وغطِّ الدجاج بالخليط واتركه 20 دقيقة.",
-          "سخّن الزيت في مقلاة واسعة وقلّب الدجاج 5 دقائق.",
-          "أضف الملفوف والبصل وكعكات الأرز واطهها مع التقليب 8–10 دقائق حتى ينضج الدجاج وتلين الكعكات.",
-          "أضف البصل الأخضر، وادفع المكونات إلى الأطراف، وضع الموزاريلا في الوسط وغطِّ المقلاة حتى تذوب.",
-          "قدّمه مباشرة من المقلاة."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية الموزاريلا ورشّها على الوجه بدل طبقة سميكة.",
-        "زد الملفوف وقلّل كعكات الأرز.",
-        "استخدم صدر دجاج بلا جلد لطبق أقل دهناً."
-      ]
-    },
-    "it": {
-      "name": "Dakgalbi al formaggio",
-      "name_inline": "dakgalbi al formaggio",
-      "origin": "Corea del Sud",
-      "intro": "Il dakgalbi al formaggio è pollo saltato piccante con gochujang, cavolo, gnocchetti di riso gommosi e cipollotti, completato da uno spesso strato di mozzarella fusa. La salsa infuocata e dolce contrasta con il formaggio filante. Si cuoce a tavola su una grande piastra calda e si condivide direttamente dalla padella.",
-      "history": "Il dakgalbi è strettamente legato a Chuncheon, nella provincia di Gangwon, dove si dice sia nato come piatto di pollo economico negli anni Sessanta. La versione con il formaggio è diventata popolare nei ristoranti coreani negli anni 2010 e ha avuto successo anche in Giappone.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "500 g di sovracosce di pollo disossate, a pezzi",
-          "3 cucchiai di gochujang",
-          "1 cucchiaio di zucchero",
-          "3 spicchi d'aglio schiacciati",
-          "300 g di cavolo tagliato grossolanamente",
-          "150 g di gnocchetti di riso coreani (tteok)",
-          "1 cipolla affettata",
-          "3 cipollotti a pezzi",
-          "150 g di mozzarella grattugiata",
-          "1 cucchiaio di olio vegetale"
-        ],
-        "steps": [
-          "Mescola il gochujang, lo zucchero e l'aglio, ricopri il pollo e lascia riposare 20 minuti.",
-          "Scalda l'olio in una padella larga, aggiungi il pollo e salta per 5 minuti.",
-          "Aggiungi il cavolo, la cipolla e gli gnocchetti di riso e cuoci, mescolando, per 8–10 minuti finché il pollo è cotto e gli gnocchetti sono morbidi.",
-          "Aggiungi i cipollotti, sposta tutto verso i bordi, metti la mozzarella al centro e copri finché si scioglie.",
-          "Servi direttamente dalla padella."
-        ]
-      },
-      "tips": [
-        "Dimezza la mozzarella e distribuiscila sopra invece di formare uno strato spesso.",
-        "Usa più cavolo e meno gnocchetti di riso.",
-        "Usa petto di pollo senza pelle per un piatto più magro."
-      ]
-    },
-    "el": {
-      "name": "Ντακγκάλμπι με τυρί",
-      "name_inline": "ντακγκάλμπι με τυρί",
-      "origin": "Νότια Κορέα",
-      "intro": "Το ντακγκάλμπι με τυρί είναι πικάντικο σοταριστό κοτόπουλο με γκοτσουτζάνγκ, λάχανο, ελαστικά ρυζοκέικ και φρέσκα κρεμμυδάκια, με ένα παχύ στρώμα λιωμένη μοτσαρέλα στο τέλος. Η φλογερή, γλυκιά σάλτσα έρχεται σε αντίθεση με το τυρί που κάνει κλωστές. Μαγειρεύεται στο τραπέζι σε μεγάλη καυτή πλάκα και μοιράζεται κατευθείαν από το τηγάνι.",
-      "history": "Το ντακγκάλμπι συνδέεται στενά με την Τσουντσόν της επαρχίας Γκανγκγουόν, όπου λέγεται ότι ξεκίνησε ως φθηνό πιάτο κοτόπουλου τη δεκαετία του 1960. Η εκδοχή με τυρί έγινε δημοφιλής στα κορεατικά εστιατόρια τη δεκαετία του 2010 και έγινε επιτυχία και στην Ιαπωνία.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "500 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κομμάτια",
-          "3 κ.σ. γκοτσουτζάνγκ",
-          "1 κ.σ. ζάχαρη",
-          "3 σκελίδες σκόρδο, λιωμένες",
-          "300 γρ. λάχανο χοντροκομμένο",
-          "150 γρ. κορεατικά ρυζοκέικ (τεόκ)",
-          "1 κρεμμύδι σε φέτες",
-          "3 φρέσκα κρεμμυδάκια σε κομμάτια",
-          "150 γρ. μοτσαρέλα τριμμένη",
-          "1 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Ανακατέψτε το γκοτσουτζάνγκ, τη ζάχαρη και το σκόρδο, αλείψτε το κοτόπουλο και αφήστε 20 λεπτά.",
-          "Ζεστάνετε το λάδι σε φαρδύ τηγάνι, προσθέστε το κοτόπουλο και σοτάρετε 5 λεπτά.",
-          "Προσθέστε το λάχανο, το κρεμμύδι και τα ρυζοκέικ και μαγειρέψτε ανακατεύοντας 8–10 λεπτά, μέχρι να ψηθεί το κοτόπουλο και να μαλακώσουν τα ρυζοκέικ.",
-          "Προσθέστε τα κρεμμυδάκια, σπρώξτε τα πάντα προς τις άκρες, βάλτε τη μοτσαρέλα στη μέση και σκεπάστε μέχρι να λιώσει.",
-          "Σερβίρετε κατευθείαν από το τηγάνι."
-        ]
-      },
-      "tips": [
-        "Βάλτε τη μισή μοτσαρέλα και σκορπίστε τη από πάνω αντί να φτιάξετε παχιά λίμνη τυριού.",
-        "Βάλτε περισσότερο λάχανο και λιγότερα ρυζοκέικ.",
-        "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα για πιο άπαχο πιάτο."
-      ]
-    },
-    "ru": {
-      "name": "Сырный дакгальби",
-      "origin": "Южная Корея",
-      "intro": "Сырный дакгальби — острая жареная курица с кочуджаном, капустой, упругими рисовыми клёцками и зелёным луком, покрытая толстым слоем расплавленной моцареллы. Огненный сладкий соус контрастирует с тянущимся сыром. Блюдо готовят на большой горячей сковороде прямо за столом и едят из общей сковороды.",
-      "history": "Дакгальби тесно связан с Чхунчхоном в провинции Канвондо, где, по преданию, он возник в 1960-х годах как недорогое блюдо из курицы. Версия с сыром стала популярной в корейских ресторанах в 2010-х и прижилась также в Японии.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "500 г бескостных куриных бёдер, нарезанных кусочками",
-          "3 ст. л. кочуджана",
-          "1 ст. л. сахара",
-          "3 зубчика чеснока, раздавленных",
-          "300 г капусты, грубо нарубленной",
-          "150 г корейских рисовых клёцек (ток)",
-          "1 луковица, нарезанная",
-          "3 стебля зелёного лука, нарезанных отрезками",
-          "150 г тёртой моцареллы",
-          "1 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Смешайте кочуджан, сахар и чеснок, обмажьте курицу и оставьте на 20 минут.",
-          "Разогрейте масло на широкой сковороде, добавьте курицу и обжаривайте 5 минут.",
-          "Добавьте капусту, лук и рисовые клёцки и готовьте, помешивая, 8–10 минут, пока курица не будет готова, а клёцки не станут мягкими.",
-          "Добавьте зелёный лук, сдвиньте всё к краям, положите в середину моцареллу и накройте крышкой до расплавления.",
-          "Подавайте прямо со сковороды."
-        ]
-      },
-      "tips": [
-        "Возьмите вдвое меньше моцареллы и рассыпьте её сверху, а не делайте густую лужицу.",
-        "Кладите больше капусты и меньше рисовых клёцек.",
-        "Берите куриную грудку без кожи для более постного блюда."
-      ]
-    }
+  "ar": {
+   "name": "داك غالبي بالجبن",
+   "origin": "كوريا الجنوبية",
+   "intro": "داك غالبي بالجبن دجاج مقلي حار مع معجون الغوتشوجانغ والملفوف وكعكات الأرز المطاطية والبصل الأخضر، تعلوه طبقة سميكة من جبن الموزاريلا الذائب. تتناقض الصلصة الحارة الحلوة مع الجبن المطاطي. يُطهى على صاج كبير ساخن على المائدة ويؤكل مباشرة من المقلاة.",
+   "history": "يرتبط الداك غالبي ارتباطاً وثيقاً بمدينة تشونتشون في مقاطعة غانغوون، حيث يُقال إنه بدأ طبقَ دجاج رخيصاً في الستينيات. وانتشرت النسخة المغطاة بالجبن في المطاعم الكورية في العقد الثاني من القرن الحادي والعشرين، ولاقت رواجاً في اليابان أيضاً.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "500 غ أفخاذ دجاج بلا عظم مقطّعة",
+     "3 ملاعق كبيرة غوتشوجانغ",
+     "1 ملعقة كبيرة سكر",
+     "3 فصوص ثوم مهروسة",
+     "300 غ ملفوف مقطّع خشناً",
+     "150 غ كعكات أرز كورية (توك)",
+     "1 بصلة مقطّعة شرائح",
+     "3 أعواد بصل أخضر مقطّعة",
+     "150 غ موزاريلا مبشورة",
+     "1 ملعقة كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "اخلط الغوتشوجانغ والسكر والثوم، وغطِّ الدجاج بالخليط واتركه 20 دقيقة.",
+     "سخّن الزيت في مقلاة واسعة وقلّب الدجاج 5 دقائق.",
+     "أضف الملفوف والبصل وكعكات الأرز واطهها مع التقليب 8–10 دقائق حتى ينضج الدجاج وتلين الكعكات.",
+     "أضف البصل الأخضر، وادفع المكونات إلى الأطراف، وضع الموزاريلا في الوسط وغطِّ المقلاة حتى تذوب.",
+     "قدّمه مباشرة من المقلاة."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية الموزاريلا ورشّها على الوجه بدل طبقة سميكة.",
+    "زد الملفوف وقلّل كعكات الأرز.",
+    "استخدم صدر دجاج بلا جلد لطبق أقل دهناً."
+   ]
+  },
+  "it": {
+   "name": "Dakgalbi al formaggio",
+   "name_inline": "dakgalbi al formaggio",
+   "origin": "Corea del Sud",
+   "intro": "Il dakgalbi al formaggio è pollo saltato piccante con gochujang, cavolo, gnocchetti di riso gommosi e cipollotti, completato da uno spesso strato di mozzarella fusa. La salsa infuocata e dolce contrasta con il formaggio filante. Si cuoce a tavola su una grande piastra calda e si condivide direttamente dalla padella.",
+   "history": "Il dakgalbi è strettamente legato a Chuncheon, nella provincia di Gangwon, dove si dice sia nato come piatto di pollo economico negli anni Sessanta. La versione con il formaggio è diventata popolare nei ristoranti coreani negli anni 2010 e ha avuto successo anche in Giappone.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "500 g di sovracosce di pollo disossate, a pezzi",
+     "3 cucchiai di gochujang",
+     "1 cucchiaio di zucchero",
+     "3 spicchi d'aglio schiacciati",
+     "300 g di cavolo tagliato grossolanamente",
+     "150 g di gnocchetti di riso coreani (tteok)",
+     "1 cipolla affettata",
+     "3 cipollotti a pezzi",
+     "150 g di mozzarella grattugiata",
+     "1 cucchiaio di olio vegetale"
+    ],
+    "steps": [
+     "Mescola il gochujang, lo zucchero e l'aglio, ricopri il pollo e lascia riposare 20 minuti.",
+     "Scalda l'olio in una padella larga, aggiungi il pollo e salta per 5 minuti.",
+     "Aggiungi il cavolo, la cipolla e gli gnocchetti di riso e cuoci, mescolando, per 8–10 minuti finché il pollo è cotto e gli gnocchetti sono morbidi.",
+     "Aggiungi i cipollotti, sposta tutto verso i bordi, metti la mozzarella al centro e copri finché si scioglie.",
+     "Servi direttamente dalla padella."
+    ]
+   },
+   "tips": [
+    "Dimezza la mozzarella e distribuiscila sopra invece di formare uno strato spesso.",
+    "Usa più cavolo e meno gnocchetti di riso.",
+    "Usa petto di pollo senza pelle per un piatto più magro."
+   ]
+  },
+  "el": {
+   "name": "Ντακγκάλμπι με τυρί",
+   "name_inline": "ντακγκάλμπι με τυρί",
+   "origin": "Νότια Κορέα",
+   "intro": "Το ντακγκάλμπι με τυρί είναι πικάντικο σοταριστό κοτόπουλο με γκοτσουτζάνγκ, λάχανο, ελαστικά ρυζοκέικ και φρέσκα κρεμμυδάκια, με ένα παχύ στρώμα λιωμένη μοτσαρέλα στο τέλος. Η φλογερή, γλυκιά σάλτσα έρχεται σε αντίθεση με το τυρί που κάνει κλωστές. Μαγειρεύεται στο τραπέζι σε μεγάλη καυτή πλάκα και μοιράζεται κατευθείαν από το τηγάνι.",
+   "history": "Το ντακγκάλμπι συνδέεται στενά με την Τσουντσόν της επαρχίας Γκανγκγουόν, όπου λέγεται ότι ξεκίνησε ως φθηνό πιάτο κοτόπουλου τη δεκαετία του 1960. Η εκδοχή με τυρί έγινε δημοφιλής στα κορεατικά εστιατόρια τη δεκαετία του 2010 και έγινε επιτυχία και στην Ιαπωνία.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "500 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κομμάτια",
+     "3 κ.σ. γκοτσουτζάνγκ",
+     "1 κ.σ. ζάχαρη",
+     "3 σκελίδες σκόρδο, λιωμένες",
+     "300 γρ. λάχανο χοντροκομμένο",
+     "150 γρ. κορεατικά ρυζοκέικ (τεόκ)",
+     "1 κρεμμύδι σε φέτες",
+     "3 φρέσκα κρεμμυδάκια σε κομμάτια",
+     "150 γρ. μοτσαρέλα τριμμένη",
+     "1 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Ανακατέψτε το γκοτσουτζάνγκ, τη ζάχαρη και το σκόρδο, αλείψτε το κοτόπουλο και αφήστε 20 λεπτά.",
+     "Ζεστάνετε το λάδι σε φαρδύ τηγάνι, προσθέστε το κοτόπουλο και σοτάρετε 5 λεπτά.",
+     "Προσθέστε το λάχανο, το κρεμμύδι και τα ρυζοκέικ και μαγειρέψτε ανακατεύοντας 8–10 λεπτά, μέχρι να ψηθεί το κοτόπουλο και να μαλακώσουν τα ρυζοκέικ.",
+     "Προσθέστε τα κρεμμυδάκια, σπρώξτε τα πάντα προς τις άκρες, βάλτε τη μοτσαρέλα στη μέση και σκεπάστε μέχρι να λιώσει.",
+     "Σερβίρετε κατευθείαν από το τηγάνι."
+    ]
+   },
+   "tips": [
+    "Βάλτε τη μισή μοτσαρέλα και σκορπίστε τη από πάνω αντί να φτιάξετε παχιά λίμνη τυριού.",
+    "Βάλτε περισσότερο λάχανο και λιγότερα ρυζοκέικ.",
+    "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα για πιο άπαχο πιάτο."
+   ]
+  },
+  "ru": {
+   "name": "Сырный дакгальби",
+   "origin": "Южная Корея",
+   "intro": "Сырный дакгальби — острая жареная курица с кочуджаном, капустой, упругими рисовыми клёцками и зелёным луком, покрытая толстым слоем расплавленной моцареллы. Огненный сладкий соус контрастирует с тянущимся сыром. Блюдо готовят на большой горячей сковороде прямо за столом и едят из общей сковороды.",
+   "history": "Дакгальби тесно связан с Чхунчхоном в провинции Канвондо, где, по преданию, он возник в 1960-х годах как недорогое блюдо из курицы. Версия с сыром стала популярной в корейских ресторанах в 2010-х и прижилась также в Японии.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "500 г бескостных куриных бёдер, нарезанных кусочками",
+     "3 ст. л. кочуджана",
+     "1 ст. л. сахара",
+     "3 зубчика чеснока, раздавленных",
+     "300 г капусты, грубо нарубленной",
+     "150 г корейских рисовых клёцек (ток)",
+     "1 луковица, нарезанная",
+     "3 стебля зелёного лука, нарезанных отрезками",
+     "150 г тёртой моцареллы",
+     "1 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Смешайте кочуджан, сахар и чеснок, обмажьте курицу и оставьте на 20 минут.",
+     "Разогрейте масло на широкой сковороде, добавьте курицу и обжаривайте 5 минут.",
+     "Добавьте капусту, лук и рисовые клёцки и готовьте, помешивая, 8–10 минут, пока курица не будет готова, а клёцки не станут мягкими.",
+     "Добавьте зелёный лук, сдвиньте всё к краям, положите в середину моцареллу и накройте крышкой до расплавления.",
+     "Подавайте прямо со сковороды."
+    ]
+   },
+   "tips": [
+    "Возьмите вдвое меньше моцареллы и рассыпьте её сверху, а не делайте густую лужицу.",
+    "Кладите больше капусты и меньше рисовых клёцек.",
+    "Берите куриную грудку без кожи для более постного блюда."
+   ]
+  },
+  "es": {
+   "name": "Dakgalbi con queso",
+   "origin": "Corea del Sur",
+   "intro": "El dakgalbi con queso es pollo salteado picante con gochujang, col, pastelitos de arroz masticables y cebollín, terminado con una gruesa capa de mozzarella fundida. La salsa dulce y ardiente contrasta con el queso elástico. Se cocina en una plancha grande y caliente en la mesa y se comparte directamente de la sartén.",
+   "history": "El dakgalbi se asocia estrechamente con Chuncheon, en la provincia de Gangwon, donde se dice que comenzó en la década de 1960 como un plato económico de pollo. La versión con queso se hizo popular en los restaurantes coreanos en la década de 2010 y también se difundió en Japón.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "500 g de muslos de pollo deshuesados, en trozos",
+     "3 cda. de gochujang",
+     "1 cda. de azúcar",
+     "3 dientes de ajo, machacados",
+     "300 g de col, picada en trozos grandes",
+     "150 g de pastelitos de arroz coreanos (tteok)",
+     "1 cebolla, en rodajas",
+     "3 cebollines, cortados en trozos",
+     "150 g de mozzarella, rallada",
+     "1 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Mezcla el gochujang, el azúcar y el ajo, cubre el pollo y déjalo reposar 20 minutos.",
+     "Calienta el aceite en una sartén ancha, agrega el pollo y saltea 5 minutos.",
+     "Añade la col, la cebolla y los pastelitos de arroz y cocina, removiendo, de 8 a 10 minutos hasta que el pollo esté cocido y los pastelitos suaves.",
+     "Agrega el cebollín, empuja todo hacia los bordes, pon la mozzarella en el centro y tapa hasta que se derrita.",
+     "Sirve directamente de la sartén."
+    ]
+   },
+   "tips": [
+    "Reduce la mozzarella a la mitad y espárcela por encima en lugar de formar un charco espeso.",
+    "Usa más col y menos pastelitos de arroz.",
+    "Usa pechuga de pollo sin piel para un plato más magro."
+   ],
+   "name_inline": "el dakgalbi con queso"
   }
+ }
 }

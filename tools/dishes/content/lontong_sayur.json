@@ -1,181 +1,215 @@
 {
-  "db_key": "lontong_sayur",
-  "slug": "lontong-sayur",
-  "emoji": "🍛",
-  "portion_g": 400,
-  "country": "ID",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "lontong_sayur",
+ "slug": "lontong-sayur",
+ "emoji": "🍛",
+ "portion_g": 400,
+ "country": "ID",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Lontong sayur",
+   "origin": "Indonesia · Java and Sumatra",
+   "intro": "Lontong sayur is compressed rice cake served in a mild, spiced coconut curry with long beans, tofu and chilli. The lontong is cut into dense, soft slices that soak up the turmeric-yellow sauce, while the vegetables add bite. It is a common Indonesian breakfast, sold from street carts and stalls, and is eaten with extra sambal for heat.",
+   "history": "Lontong — rice packed into banana leaves and boiled until firm — is a staple across Indonesia and Malaysia. Lontong sayur, with its coconut vegetable curry, is especially associated with Betawi (Jakarta) and Padang cooking and is a popular morning dish across Java and Sumatra.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g lontong rice cakes, sliced",
+     "200 g long beans, cut into 4 cm pieces",
+     "200 g firm tofu, cubed and pan-fried",
+     "400 ml coconut milk plus 400 ml water",
+     "3 shallots and 3 garlic cloves, blended",
+     "2 red chillies, sliced",
+     "1 tsp ground turmeric, 1 tsp ground coriander",
+     "2 bay leaves (salam) and 1 stalk lemongrass, bruised",
+     "2 tbsp oil, salt and sugar"
+    ],
+    "steps": [
+     "Fry the shallot-garlic paste with turmeric and coriander in oil until fragrant.",
+     "Add the lemongrass, bay leaves and chilli, then pour in the coconut milk and water.",
+     "Bring to a gentle simmer, add the long beans and cook for 8 minutes.",
+     "Add the tofu, season with salt and a pinch of sugar and simmer for 5 more minutes.",
+     "Arrange the lontong slices in bowls and ladle the hot curry over them."
+    ]
+   },
+   "tips": [
+    "Use light coconut milk or more water in the curry.",
+    "Steam or bake the tofu instead of frying it.",
+    "Serve fewer rice-cake slices and more vegetables in the bowl."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Lontong sayur",
-      "origin": "Indonesia · Java and Sumatra",
-      "intro": "Lontong sayur is compressed rice cake served in a mild, spiced coconut curry with long beans, tofu and chilli. The lontong is cut into dense, soft slices that soak up the turmeric-yellow sauce, while the vegetables add bite. It is a common Indonesian breakfast, sold from street carts and stalls, and is eaten with extra sambal for heat.",
-      "history": "Lontong — rice packed into banana leaves and boiled until firm — is a staple across Indonesia and Malaysia. Lontong sayur, with its coconut vegetable curry, is especially associated with Betawi (Jakarta) and Padang cooking and is a popular morning dish across Java and Sumatra.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g lontong rice cakes, sliced",
-          "200 g long beans, cut into 4 cm pieces",
-          "200 g firm tofu, cubed and pan-fried",
-          "400 ml coconut milk plus 400 ml water",
-          "3 shallots and 3 garlic cloves, blended",
-          "2 red chillies, sliced",
-          "1 tsp ground turmeric, 1 tsp ground coriander",
-          "2 bay leaves (salam) and 1 stalk lemongrass, bruised",
-          "2 tbsp oil, salt and sugar"
-        ],
-        "steps": [
-          "Fry the shallot-garlic paste with turmeric and coriander in oil until fragrant.",
-          "Add the lemongrass, bay leaves and chilli, then pour in the coconut milk and water.",
-          "Bring to a gentle simmer, add the long beans and cook for 8 minutes.",
-          "Add the tofu, season with salt and a pinch of sugar and simmer for 5 more minutes.",
-          "Arrange the lontong slices in bowls and ladle the hot curry over them."
-        ]
-      },
-      "tips": [
-        "Use light coconut milk or more water in the curry.",
-        "Steam or bake the tofu instead of frying it.",
-        "Serve fewer rice-cake slices and more vegetables in the bowl."
-      ]
-    },
-    "ar": {
-      "name": "لونتونغ سايور",
-      "origin": "إندونيسيا · جاوة وسومطرة",
-      "intro": "لونتونغ سايور كعك أرز مضغوط يُقدَّم في كاري جوز هند خفيف متبّل مع الفاصوليا الطويلة والتوفو والفلفل الحار. يُقطَّع اللونتونغ شرائح كثيفة طرية تتشرب الصلصة الصفراء بلون الكركم، بينما تضيف الخضار قوامًا مقرمشًا. وهو فطور إندونيسي شائع يُباع في العربات والأكشاك، ويؤكل مع مزيد من السامبال لمن يحب الحرارة.",
-      "history": "اللونتونغ — أرز يُحشى في أوراق الموز ويُسلق حتى يتماسك — طعام أساسي في إندونيسيا وماليزيا. ويرتبط لونتونغ سايور بكاري الخضار بجوز الهند خصوصًا بمطبخ البيتاوي في جاكرتا ومطبخ بادانغ، وهو طبق صباحي شائع في جاوة وسومطرة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 غ كعك أرز لونتونغ، شرائح",
-          "200 غ فاصوليا طويلة، قطع 4 سم",
-          "200 غ توفو صلب، مكعبات محمّرة",
-          "400 مل حليب جوز الهند و400 مل ماء",
-          "3 حبات كراث أندلسي (شالوت) و3 فصوص ثوم، مهروسة",
-          "حبتا فلفل أحمر حار، شرائح",
-          "ملعقة صغيرة كركم مطحون وملعقة صغيرة كزبرة مطحونة",
-          "ورقتا غار (سالام) وعود ليمون عشبي مدقوق",
-          "ملعقتان كبيرتان زيت، ملح وسكر"
-        ],
-        "steps": [
-          "اقلِ معجون الشالوت والثوم مع الكركم والكزبرة في الزيت حتى تفوح الرائحة.",
-          "أضف الليمون العشبي وورق الغار والفلفل، ثم حليب جوز الهند والماء.",
-          "اتركه يغلي بهدوء، وأضف الفاصوليا الطويلة واطهها 8 دقائق.",
-          "أضف التوفو وتبّل بالملح ورشة سكر، واتركه 5 دقائق أخرى.",
-          "رتّب شرائح اللونتونغ في الأوعية واسكب فوقها الكاري الساخن."
-        ]
-      },
-      "tips": [
-        "استخدم حليب جوز هند خفيفًا أو زد الماء في الكاري.",
-        "اطهُ التوفو على البخار أو في الفرن بدل قليه.",
-        "قدّم شرائح أقل من كعك الأرز وخضارًا أكثر في الوعاء."
-      ]
-    },
-    "it": {
-      "name": "Lontong sayur",
-      "origin": "Indonesia · Giava e Sumatra",
-      "intro": "Il lontong sayur è un tortino di riso pressato servito in un curry di cocco delicato e speziato con fagiolini lunghi, tofu e peperoncino. Il lontong viene tagliato a fette compatte e morbide che assorbono la salsa gialla di curcuma, mentre le verdure danno croccantezza. È una colazione indonesiana comune, venduta da carretti e bancarelle, e si mangia con altro sambal per renderla piccante.",
-      "history": "Il lontong, riso pressato in foglie di banano e bollito finché diventa sodo, è un alimento base in tutta l'Indonesia e la Malesia. Il lontong sayur, con il suo curry di verdure al cocco, è associato in particolare alla cucina betawi (Giacarta) e di Padang ed è un piatto del mattino molto diffuso a Giava e Sumatra.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g di tortini di riso lontong, a fette",
-          "200 g di fagiolini lunghi, a pezzi di 4 cm",
-          "200 g di tofu compatto, a cubetti e saltato in padella",
-          "400 ml di latte di cocco più 400 ml di acqua",
-          "3 scalogni e 3 spicchi d'aglio, frullati",
-          "2 peperoncini rossi, a fette",
-          "1 cucchiaino di curcuma in polvere, 1 cucchiaino di coriandolo in polvere",
-          "2 foglie di alloro indonesiano (salam) e 1 gambo di citronella, schiacciato",
-          "2 cucchiai di olio, sale e zucchero"
-        ],
-        "steps": [
-          "Soffriggi la pasta di scalogno e aglio con curcuma e coriandolo nell'olio finché è profumata.",
-          "Aggiungi la citronella, le foglie di alloro e il peperoncino, poi versa il latte di cocco e l'acqua.",
-          "Porta a un leggero sobbollire, aggiungi i fagiolini e cuoci per 8 minuti.",
-          "Aggiungi il tofu, regola di sale e un pizzico di zucchero e lascia sobbollire altri 5 minuti.",
-          "Disponi le fette di lontong nelle ciotole e versaci sopra il curry caldo."
-        ]
-      },
-      "tips": [
-        "Usa latte di cocco light o più acqua nel curry.",
-        "Cuoci il tofu al vapore o al forno invece di friggerlo.",
-        "Metti nella ciotola meno fette di tortino di riso e più verdure."
-      ]
-    },
-    "el": {
-      "name": "Λοντόνγκ σαγιούρ",
-      "origin": "Ινδονησία · Ιάβα και Σουμάτρα",
-      "intro": "Το λοντόνγκ σαγιούρ είναι πεπιεσμένο κέικ ρυζιού που σερβίρεται σε ήπιο, αρωματικό κάρι καρύδας με μακριά φασολάκια, τόφου και καυτερή πιπεριά. Το λοντόνγκ κόβεται σε πυκνές, μαλακές φέτες που απορροφούν την κίτρινη από τον κουρκουμά σάλτσα, ενώ τα λαχανικά δίνουν τραγανότητα. Είναι συνηθισμένο ινδονησιακό πρωινό, που πουλιέται σε καροτσάκια και πάγκους του δρόμου, και τρώγεται με επιπλέον σάμπαλ για καυτερή γεύση.",
-      "history": "Το λοντόνγκ — ρύζι πατημένο σε φύλλα μπανανιάς και βρασμένο μέχρι να σφίξει — είναι βασική τροφή σε όλη την Ινδονησία και τη Μαλαισία. Το λοντόνγκ σαγιούρ, με το κάρι λαχανικών με καρύδα, συνδέεται ιδιαίτερα με την κουζίνα Μπετάουι (Τζακάρτα) και Παντάνγκ και είναι δημοφιλές πρωινό πιάτο σε όλη την Ιάβα και τη Σουμάτρα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 γρ. κέικ ρυζιού λοντόνγκ, σε φέτες",
-          "200 γρ. μακριά φασολάκια, σε κομμάτια 4 εκ.",
-          "200 γρ. σφιχτό τόφου, σε κύβους και σοταρισμένο",
-          "400 ml γάλα καρύδας συν 400 ml νερό",
-          "3 εσαλότ και 3 σκελίδες σκόρδο, πολτοποιημένα",
-          "2 κόκκινες καυτερές πιπεριές, σε φέτες",
-          "1 κ.γ. κουρκουμάς σε σκόνη, 1 κ.γ. κόλιανδρος σε σκόνη",
-          "2 φύλλα δάφνης (σαλάμ) και 1 κοτσάνι λεμονόχορτο, χτυπημένο",
-          "2 κ.σ. λάδι, αλάτι και ζάχαρη"
-        ],
-        "steps": [
-          "Τσιγαρίστε την πάστα εσαλότ-σκόρδου με κουρκουμά και κόλιανδρο στο λάδι μέχρι να αρωματίσει.",
-          "Προσθέστε το λεμονόχορτο, τα φύλλα δάφνης και την καυτερή πιπεριά και ρίξτε το γάλα καρύδας και το νερό.",
-          "Φέρτε σε ήπιο σιγοβράσιμο, προσθέστε τα φασολάκια και μαγειρέψτε για 8 λεπτά.",
-          "Προσθέστε το τόφου, καρυκεύστε με αλάτι και μια πρέζα ζάχαρη και σιγοβράστε άλλα 5 λεπτά.",
-          "Βάλτε τις φέτες λοντόνγκ σε μπολ και περιχύστε τες με το ζεστό κάρι."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή περισσότερο νερό στο κάρι.",
-        "Μαγειρέψτε το τόφου στον ατμό ή ψήστε το αντί να το τηγανίσετε.",
-        "Σερβίρετε λιγότερες φέτες κέικ ρυζιού και περισσότερα λαχανικά στο μπολ."
-      ],
-      "name_inline": "λοντόνγκ σαγιούρ"
-    },
-    "ru": {
-      "name": "Лонтонг саюр",
-      "origin": "Индонезия · Ява и Суматра",
-      "intro": "Лонтонг саюр — прессованные рисовые брикеты, поданные в мягком пряном кокосовом карри с вигной, тофу и чили. Лонтонг нарезают плотными мягкими ломтиками, которые впитывают куркумно-жёлтый соус, а овощи добавляют хруста. Это распространённый индонезийский завтрак, который продают с уличных тележек и лотков, и его едят с дополнительным самбалом для остроты.",
-      "history": "Лонтонг — рис, упакованный в банановые листья и сваренный до плотности, — основа кухни по всей Индонезии и Малайзии. Лонтонг саюр с кокосовым овощным карри особенно связан с кухней бетави (Джакарта) и паданг и является популярным утренним блюдом на Яве и Суматре.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 г рисовых брикетов лонтонг, нарезанных",
-          "200 г спаржевой фасоли, нарезанной кусочками по 4 см",
-          "200 г твёрдого тофу, кубиками, обжаренного на сковороде",
-          "400 мл кокосового молока плюс 400 мл воды",
-          "3 шалота и 3 зубчика чеснока, измельчённые в блендере",
-          "2 красных перца чили, нарезанных",
-          "1 ч. л. молотой куркумы, 1 ч. л. молотой кинзы",
-          "2 лавровых листа (салам) и 1 стебель лемонграсса, слегка помятый",
-          "2 ст. л. масла, соль и сахар"
-        ],
-        "steps": [
-          "Обжарьте пасту из шалота и чеснока с куркумой и кинзой на масле до аромата.",
-          "Добавьте лемонграсс, лавровые листья и чили, затем влейте кокосовое молоко и воду.",
-          "Доведите до слабого кипения, добавьте фасоль и варите 8 минут.",
-          "Добавьте тофу, приправьте солью и щепоткой сахара и варите ещё 5 минут.",
-          "Разложите ломтики лонтонга по мискам и полейте горячим карри."
-        ]
-      },
-      "tips": [
-        "Берите лёгкое кокосовое молоко или больше воды в карри.",
-        "Приготовьте тофу на пару или запеките, а не жарьте.",
-        "Кладите в миску меньше ломтиков рисовых брикетов и больше овощей."
-      ],
-      "name_inline": "лонтонг саюр"
-    }
+  "ar": {
+   "name": "لونتونغ سايور",
+   "origin": "إندونيسيا · جاوة وسومطرة",
+   "intro": "لونتونغ سايور كعك أرز مضغوط يُقدَّم في كاري جوز هند خفيف متبّل مع الفاصوليا الطويلة والتوفو والفلفل الحار. يُقطَّع اللونتونغ شرائح كثيفة طرية تتشرب الصلصة الصفراء بلون الكركم، بينما تضيف الخضار قوامًا مقرمشًا. وهو فطور إندونيسي شائع يُباع في العربات والأكشاك، ويؤكل مع مزيد من السامبال لمن يحب الحرارة.",
+   "history": "اللونتونغ — أرز يُحشى في أوراق الموز ويُسلق حتى يتماسك — طعام أساسي في إندونيسيا وماليزيا. ويرتبط لونتونغ سايور بكاري الخضار بجوز الهند خصوصًا بمطبخ البيتاوي في جاكرتا ومطبخ بادانغ، وهو طبق صباحي شائع في جاوة وسومطرة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 غ كعك أرز لونتونغ، شرائح",
+     "200 غ فاصوليا طويلة، قطع 4 سم",
+     "200 غ توفو صلب، مكعبات محمّرة",
+     "400 مل حليب جوز الهند و400 مل ماء",
+     "3 حبات كراث أندلسي (شالوت) و3 فصوص ثوم، مهروسة",
+     "حبتا فلفل أحمر حار، شرائح",
+     "ملعقة صغيرة كركم مطحون وملعقة صغيرة كزبرة مطحونة",
+     "ورقتا غار (سالام) وعود ليمون عشبي مدقوق",
+     "ملعقتان كبيرتان زيت، ملح وسكر"
+    ],
+    "steps": [
+     "اقلِ معجون الشالوت والثوم مع الكركم والكزبرة في الزيت حتى تفوح الرائحة.",
+     "أضف الليمون العشبي وورق الغار والفلفل، ثم حليب جوز الهند والماء.",
+     "اتركه يغلي بهدوء، وأضف الفاصوليا الطويلة واطهها 8 دقائق.",
+     "أضف التوفو وتبّل بالملح ورشة سكر، واتركه 5 دقائق أخرى.",
+     "رتّب شرائح اللونتونغ في الأوعية واسكب فوقها الكاري الساخن."
+    ]
+   },
+   "tips": [
+    "استخدم حليب جوز هند خفيفًا أو زد الماء في الكاري.",
+    "اطهُ التوفو على البخار أو في الفرن بدل قليه.",
+    "قدّم شرائح أقل من كعك الأرز وخضارًا أكثر في الوعاء."
+   ]
+  },
+  "it": {
+   "name": "Lontong sayur",
+   "origin": "Indonesia · Giava e Sumatra",
+   "intro": "Il lontong sayur è un tortino di riso pressato servito in un curry di cocco delicato e speziato con fagiolini lunghi, tofu e peperoncino. Il lontong viene tagliato a fette compatte e morbide che assorbono la salsa gialla di curcuma, mentre le verdure danno croccantezza. È una colazione indonesiana comune, venduta da carretti e bancarelle, e si mangia con altro sambal per renderla piccante.",
+   "history": "Il lontong, riso pressato in foglie di banano e bollito finché diventa sodo, è un alimento base in tutta l'Indonesia e la Malesia. Il lontong sayur, con il suo curry di verdure al cocco, è associato in particolare alla cucina betawi (Giacarta) e di Padang ed è un piatto del mattino molto diffuso a Giava e Sumatra.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g di tortini di riso lontong, a fette",
+     "200 g di fagiolini lunghi, a pezzi di 4 cm",
+     "200 g di tofu compatto, a cubetti e saltato in padella",
+     "400 ml di latte di cocco più 400 ml di acqua",
+     "3 scalogni e 3 spicchi d'aglio, frullati",
+     "2 peperoncini rossi, a fette",
+     "1 cucchiaino di curcuma in polvere, 1 cucchiaino di coriandolo in polvere",
+     "2 foglie di alloro indonesiano (salam) e 1 gambo di citronella, schiacciato",
+     "2 cucchiai di olio, sale e zucchero"
+    ],
+    "steps": [
+     "Soffriggi la pasta di scalogno e aglio con curcuma e coriandolo nell'olio finché è profumata.",
+     "Aggiungi la citronella, le foglie di alloro e il peperoncino, poi versa il latte di cocco e l'acqua.",
+     "Porta a un leggero sobbollire, aggiungi i fagiolini e cuoci per 8 minuti.",
+     "Aggiungi il tofu, regola di sale e un pizzico di zucchero e lascia sobbollire altri 5 minuti.",
+     "Disponi le fette di lontong nelle ciotole e versaci sopra il curry caldo."
+    ]
+   },
+   "tips": [
+    "Usa latte di cocco light o più acqua nel curry.",
+    "Cuoci il tofu al vapore o al forno invece di friggerlo.",
+    "Metti nella ciotola meno fette di tortino di riso e più verdure."
+   ]
+  },
+  "el": {
+   "name": "Λοντόνγκ σαγιούρ",
+   "origin": "Ινδονησία · Ιάβα και Σουμάτρα",
+   "intro": "Το λοντόνγκ σαγιούρ είναι πεπιεσμένο κέικ ρυζιού που σερβίρεται σε ήπιο, αρωματικό κάρι καρύδας με μακριά φασολάκια, τόφου και καυτερή πιπεριά. Το λοντόνγκ κόβεται σε πυκνές, μαλακές φέτες που απορροφούν την κίτρινη από τον κουρκουμά σάλτσα, ενώ τα λαχανικά δίνουν τραγανότητα. Είναι συνηθισμένο ινδονησιακό πρωινό, που πουλιέται σε καροτσάκια και πάγκους του δρόμου, και τρώγεται με επιπλέον σάμπαλ για καυτερή γεύση.",
+   "history": "Το λοντόνγκ — ρύζι πατημένο σε φύλλα μπανανιάς και βρασμένο μέχρι να σφίξει — είναι βασική τροφή σε όλη την Ινδονησία και τη Μαλαισία. Το λοντόνγκ σαγιούρ, με το κάρι λαχανικών με καρύδα, συνδέεται ιδιαίτερα με την κουζίνα Μπετάουι (Τζακάρτα) και Παντάνγκ και είναι δημοφιλές πρωινό πιάτο σε όλη την Ιάβα και τη Σουμάτρα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 γρ. κέικ ρυζιού λοντόνγκ, σε φέτες",
+     "200 γρ. μακριά φασολάκια, σε κομμάτια 4 εκ.",
+     "200 γρ. σφιχτό τόφου, σε κύβους και σοταρισμένο",
+     "400 ml γάλα καρύδας συν 400 ml νερό",
+     "3 εσαλότ και 3 σκελίδες σκόρδο, πολτοποιημένα",
+     "2 κόκκινες καυτερές πιπεριές, σε φέτες",
+     "1 κ.γ. κουρκουμάς σε σκόνη, 1 κ.γ. κόλιανδρος σε σκόνη",
+     "2 φύλλα δάφνης (σαλάμ) και 1 κοτσάνι λεμονόχορτο, χτυπημένο",
+     "2 κ.σ. λάδι, αλάτι και ζάχαρη"
+    ],
+    "steps": [
+     "Τσιγαρίστε την πάστα εσαλότ-σκόρδου με κουρκουμά και κόλιανδρο στο λάδι μέχρι να αρωματίσει.",
+     "Προσθέστε το λεμονόχορτο, τα φύλλα δάφνης και την καυτερή πιπεριά και ρίξτε το γάλα καρύδας και το νερό.",
+     "Φέρτε σε ήπιο σιγοβράσιμο, προσθέστε τα φασολάκια και μαγειρέψτε για 8 λεπτά.",
+     "Προσθέστε το τόφου, καρυκεύστε με αλάτι και μια πρέζα ζάχαρη και σιγοβράστε άλλα 5 λεπτά.",
+     "Βάλτε τις φέτες λοντόνγκ σε μπολ και περιχύστε τες με το ζεστό κάρι."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή περισσότερο νερό στο κάρι.",
+    "Μαγειρέψτε το τόφου στον ατμό ή ψήστε το αντί να το τηγανίσετε.",
+    "Σερβίρετε λιγότερες φέτες κέικ ρυζιού και περισσότερα λαχανικά στο μπολ."
+   ],
+   "name_inline": "λοντόνγκ σαγιούρ"
+  },
+  "ru": {
+   "name": "Лонтонг саюр",
+   "origin": "Индонезия · Ява и Суматра",
+   "intro": "Лонтонг саюр — прессованные рисовые брикеты, поданные в мягком пряном кокосовом карри с вигной, тофу и чили. Лонтонг нарезают плотными мягкими ломтиками, которые впитывают куркумно-жёлтый соус, а овощи добавляют хруста. Это распространённый индонезийский завтрак, который продают с уличных тележек и лотков, и его едят с дополнительным самбалом для остроты.",
+   "history": "Лонтонг — рис, упакованный в банановые листья и сваренный до плотности, — основа кухни по всей Индонезии и Малайзии. Лонтонг саюр с кокосовым овощным карри особенно связан с кухней бетави (Джакарта) и паданг и является популярным утренним блюдом на Яве и Суматре.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 г рисовых брикетов лонтонг, нарезанных",
+     "200 г спаржевой фасоли, нарезанной кусочками по 4 см",
+     "200 г твёрдого тофу, кубиками, обжаренного на сковороде",
+     "400 мл кокосового молока плюс 400 мл воды",
+     "3 шалота и 3 зубчика чеснока, измельчённые в блендере",
+     "2 красных перца чили, нарезанных",
+     "1 ч. л. молотой куркумы, 1 ч. л. молотой кинзы",
+     "2 лавровых листа (салам) и 1 стебель лемонграсса, слегка помятый",
+     "2 ст. л. масла, соль и сахар"
+    ],
+    "steps": [
+     "Обжарьте пасту из шалота и чеснока с куркумой и кинзой на масле до аромата.",
+     "Добавьте лемонграсс, лавровые листья и чили, затем влейте кокосовое молоко и воду.",
+     "Доведите до слабого кипения, добавьте фасоль и варите 8 минут.",
+     "Добавьте тофу, приправьте солью и щепоткой сахара и варите ещё 5 минут.",
+     "Разложите ломтики лонтонга по мискам и полейте горячим карри."
+    ]
+   },
+   "tips": [
+    "Берите лёгкое кокосовое молоко или больше воды в карри.",
+    "Приготовьте тофу на пару или запеките, а не жарьте.",
+    "Кладите в миску меньше ломтиков рисовых брикетов и больше овощей."
+   ],
+   "name_inline": "лонтонг саюр"
+  },
+  "es": {
+   "name": "Lontong sayur",
+   "origin": "Indonesia · Java y Sumatra",
+   "intro": "El lontong sayur es pastel de arroz compactado servido en un curry suave y especiado de leche de coco con ejotes largos, tofu y chile. El lontong se corta en rebanadas densas y suaves que absorben la salsa amarilla de cúrcuma, mientras que las verduras aportan textura. Es un desayuno indonesio habitual, que se vende en carritos y puestos callejeros, y se come con más sambal para darle picante.",
+   "history": "El lontong, arroz envuelto en hojas de plátano y hervido hasta quedar firme, es un básico en Indonesia y Malasia. El lontong sayur, con su curry de verduras y leche de coco, se asocia especialmente con la cocina betawi (de Yakarta) y padang, y es un plato matutino popular en Java y Sumatra.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g de pasteles de arroz lontong, en rebanadas",
+     "200 g de ejotes largos, cortados en trozos de 4 cm",
+     "200 g de tofu firme, en cubos y dorado en la sartén",
+     "400 ml de leche de coco más 400 ml de agua",
+     "3 chalotes y 3 dientes de ajo, licuados",
+     "2 chiles rojos, en rodajas",
+     "1 cdta. de cúrcuma molida, 1 cdta. de cilantro molido",
+     "2 hojas de laurel indonesio (salam) y 1 tallo de hierba limón, machacado",
+     "2 cda. de aceite, sal y azúcar"
+    ],
+    "steps": [
+     "Sofríe la pasta de chalote y ajo con la cúrcuma y el cilantro en aceite hasta que suelte aroma.",
+     "Agrega la hierba limón, las hojas de laurel y el chile, y vierte la leche de coco y el agua.",
+     "Lleva a un hervor suave, añade los ejotes largos y cuece 8 minutos.",
+     "Agrega el tofu, sazona con sal y una pizca de azúcar y cuece 5 minutos más.",
+     "Acomoda las rebanadas de lontong en tazones y vierte el curry caliente encima."
+    ]
+   },
+   "tips": [
+    "Usa leche de coco ligera o más agua en el curry.",
+    "Cuece el tofu al vapor u hornéalo en lugar de freírlo.",
+    "Sirve menos rebanadas de pastel de arroz y más verduras en el tazón."
+   ],
+   "name_inline": "el lontong sayur"
   }
+ }
 }

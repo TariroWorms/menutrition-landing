@@ -1,176 +1,209 @@
 {
-  "db_key": "schweinebraten",
-  "slug": "schweinebraten",
-  "emoji": "🍖",
-  "portion_g": 350,
-  "country": "DE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "schweinebraten",
+ "slug": "schweinebraten",
+ "emoji": "🍖",
+ "portion_g": 350,
+ "country": "DE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Schweinebraten (Bavarian roast pork)",
+   "origin": "Germany · Bavaria",
+   "intro": "Schweinebraten is Bavarian roast pork, usually shoulder with the skin left on, seasoned with caraway, garlic and salt and roasted on a bed of onions with dark beer until the skin turns into crisp crackling. The pan juices become a rich gravy. It is served in thick slices with potato dumplings and often sauerkraut or cabbage salad.",
+   "history": "Schweinebraten is a classic Sunday dish in Bavaria and is served in almost every traditional inn and beer hall there. Versions with crackling are known as Krustenbraten, and roast pork of this kind is also popular in Austria.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1.5 kg pork shoulder with skin",
+     "2 tsp caraway seeds, lightly crushed",
+     "4 garlic cloves, crushed",
+     "2 onions, quartered",
+     "500 ml dark beer",
+     "Salt and pepper",
+     "6 potato dumplings, to serve"
+    ],
+    "steps": [
+     "Heat the oven to 180 °C. Score the skin in a diamond pattern without cutting into the meat.",
+     "Rub the meat (not the skin) with garlic, caraway, salt and pepper, and rub salt into the skin.",
+     "Put the onions in a roasting tin, add the pork skin side up and pour in the beer and 250 ml water.",
+     "Roast for about 2.5 hours, basting the meat now and then and topping up the liquid.",
+     "Raise the heat to 220 °C for the last 20 minutes until the skin crackles.",
+     "Rest the meat for 10 minutes, strain and skim the pan juices, and serve sliced with the dumplings and gravy."
+    ]
+   },
+   "tips": [
+    "Skim the fat off the gravy before serving.",
+    "Eat the lean meat and leave most of the crackling and fat layer.",
+    "Have one dumpling and add sauerkraut or a large cabbage salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Schweinebraten (Bavarian roast pork)",
-      "origin": "Germany · Bavaria",
-      "intro": "Schweinebraten is Bavarian roast pork, usually shoulder with the skin left on, seasoned with caraway, garlic and salt and roasted on a bed of onions with dark beer until the skin turns into crisp crackling. The pan juices become a rich gravy. It is served in thick slices with potato dumplings and often sauerkraut or cabbage salad.",
-      "history": "Schweinebraten is a classic Sunday dish in Bavaria and is served in almost every traditional inn and beer hall there. Versions with crackling are known as Krustenbraten, and roast pork of this kind is also popular in Austria.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1.5 kg pork shoulder with skin",
-          "2 tsp caraway seeds, lightly crushed",
-          "4 garlic cloves, crushed",
-          "2 onions, quartered",
-          "500 ml dark beer",
-          "Salt and pepper",
-          "6 potato dumplings, to serve"
-        ],
-        "steps": [
-          "Heat the oven to 180 °C. Score the skin in a diamond pattern without cutting into the meat.",
-          "Rub the meat (not the skin) with garlic, caraway, salt and pepper, and rub salt into the skin.",
-          "Put the onions in a roasting tin, add the pork skin side up and pour in the beer and 250 ml water.",
-          "Roast for about 2.5 hours, basting the meat now and then and topping up the liquid.",
-          "Raise the heat to 220 °C for the last 20 minutes until the skin crackles.",
-          "Rest the meat for 10 minutes, strain and skim the pan juices, and serve sliced with the dumplings and gravy."
-        ]
-      },
-      "tips": [
-        "Skim the fat off the gravy before serving.",
-        "Eat the lean meat and leave most of the crackling and fat layer.",
-        "Have one dumpling and add sauerkraut or a large cabbage salad."
-      ]
-    },
-    "ar": {
-      "name": "شفاينبراتن (لحم خنزير مشوي على الطريقة البافارية)",
-      "origin": "ألمانيا · بافاريا",
-      "intro": "شفاينبراتن لحم خنزير مشوي بافاري، عادة من الكتف مع الجلد، يُتبَّل بالكراوية والثوم والملح ويُشوى فوق طبقة من البصل مع البيرة الداكنة حتى يتحول الجلد إلى قشرة مقرمشة. تصبح عصارة الصينية صلصة غنية. يُقدَّم شرائح سميكة مع زلابية البطاطس، وغالبًا مع مخلل الملفوف أو سلطة الملفوف.",
-      "history": "شفاينبراتن طبق الأحد الكلاسيكي في بافاريا، ويُقدَّم في معظم النُزُل التقليدية وقاعات البيرة هناك. وتُعرف النسخ ذات الجلد المقرمش باسم كروستنبراتن، ويحظى هذا النوع من لحم الخنزير المشوي بشعبية في النمسا أيضًا.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1.5 كغ كتف خنزير بالجلد",
-          "2 ملعقة صغيرة بذور كراوية مهروسة قليلًا",
-          "4 فصوص ثوم مهروسة",
-          "2 بصلة مقطّعة أرباعًا",
-          "500 مل بيرة داكنة",
-          "ملح وفلفل",
-          "6 كرات زلابية بطاطس للتقديم"
-        ],
-        "steps": [
-          "سخّن الفرن إلى 180 °م، واحفر الجلد بشكل معيّنات دون الوصول إلى اللحم.",
-          "افرك اللحم (لا الجلد) بالثوم والكراوية والملح والفلفل، وافرك الجلد بالملح.",
-          "ضع البصل في صينية الشوي ثم اللحم والجلد إلى الأعلى، واسكب البيرة و250 مل ماء.",
-          "اشوه نحو ساعتين ونصف مع سقي اللحم بالعصارة من حين لآخر وإضافة السائل عند الحاجة.",
-          "ارفع الحرارة إلى 220 °م في آخر 20 دقيقة حتى يتقرمش الجلد.",
-          "اترك اللحم يرتاح 10 دقائق، وصفِّ عصارة الصينية واقشط دهنها، وقدّمه شرائح مع الزلابية والصلصة."
-        ]
-      },
-      "tips": [
-        "اقشط الدهن عن الصلصة قبل التقديم.",
-        "تناول اللحم الخالي من الدهن واترك معظم القشرة المقرمشة وطبقة الدهن.",
-        "اكتفِ بكرة زلابية واحدة وأضف مخلل الملفوف أو سلطة ملفوف كبيرة."
-      ]
-    },
-    "it": {
-      "name": "Schweinebraten (arrosto di maiale bavarese)",
-      "name_inline": "Schweinebraten",
-      "origin": "Germania · Baviera",
-      "intro": "Lo Schweinebraten è l'arrosto di maiale bavarese, di solito spalla con la cotenna, insaporita con cumino dei prati, aglio e sale e arrostita su un letto di cipolle con birra scura finché la cotenna diventa una crosta croccante. Il fondo di cottura si trasforma in un sugo ricco. Si serve a fette spesse con canederli di patate e spesso con crauti o insalata di cavolo.",
-      "history": "Lo Schweinebraten è un classico piatto della domenica in Baviera e si serve in quasi tutte le locande e birrerie tradizionali della regione. Le versioni con la cotenna croccante si chiamano Krustenbraten, e questo tipo di arrosto di maiale è popolare anche in Austria.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1,5 kg di spalla di maiale con cotenna",
-          "2 cucchiaini di semi di cumino dei prati, leggermente schiacciati",
-          "4 spicchi d'aglio, schiacciati",
-          "2 cipolle, tagliate in quarti",
-          "500 ml di birra scura",
-          "Sale e pepe",
-          "6 canederli di patate, per servire"
-        ],
-        "steps": [
-          "Scalda il forno a 180 °C. Incidi la cotenna a rombi senza tagliare la carne.",
-          "Strofina la carne (non la cotenna) con aglio, cumino, sale e pepe, e massaggia la cotenna con il sale.",
-          "Metti le cipolle in una teglia, adagia sopra il maiale con la cotenna verso l'alto e versa la birra e 250 ml di acqua.",
-          "Arrostisci per circa 2 ore e mezza, bagnando di tanto in tanto la carne e aggiungendo liquido se serve.",
-          "Alza a 220 °C per gli ultimi 20 minuti, finché la cotenna diventa croccante.",
-          "Lascia riposare la carne 10 minuti, filtra e sgrassa il fondo di cottura e servi a fette con i canederli e il sugo."
-        ]
-      },
-      "tips": [
-        "Sgrassa il sugo prima di servirlo.",
-        "Mangia la carne magra e lascia gran parte della cotenna e dello strato di grasso.",
-        "Prendi un solo canederlo e aggiungi crauti o una grande insalata di cavolo."
-      ]
-    },
-    "el": {
-      "name": "Schweinebraten (βαυαρικό χοιρινό ψητό)",
-      "name_inline": "Schweinebraten",
-      "origin": "Γερμανία · Βαυαρία",
-      "intro": "Το Schweinebraten είναι το βαυαρικό χοιρινό ψητό, συνήθως σπάλα με την πέτσα, αρωματισμένη με κάρο, σκόρδο και αλάτι και ψημένη πάνω σε στρώμα από κρεμμύδια με σκούρα μπίρα μέχρι η πέτσα να γίνει τραγανή κρούστα. Τα ζουμιά του ταψιού γίνονται πλούσια σάλτσα. Σερβίρεται σε χοντρές φέτες με πατατοκνέντελ και συχνά με ξινολάχανο ή λαχανοσαλάτα.",
-      "history": "Το Schweinebraten είναι κλασικό κυριακάτικο πιάτο στη Βαυαρία και σερβίρεται σχεδόν σε κάθε παραδοσιακό πανδοχείο και μπιραρία της περιοχής. Οι εκδοχές με τραγανή πέτσα λέγονται Krustenbraten, και αυτό το είδος χοιρινού ψητού είναι δημοφιλές και στην Αυστρία.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1,5 κιλό χοιρινή σπάλα με πέτσα",
-          "2 κ.γ. σπόροι κάρου, ελαφρά σπασμένοι",
-          "4 σκελίδες σκόρδο, λιωμένες",
-          "2 κρεμμύδια, κομμένα στα τέσσερα",
-          "500 ml σκούρα μπίρα",
-          "Αλάτι και πιπέρι",
-          "6 πατατοκνέντελ, για το σερβίρισμα"
-        ],
-        "steps": [
-          "Προθερμάνετε τον φούρνο στους 180 °C. Χαράξτε την πέτσα σε σχήμα ρόμβων χωρίς να κόψετε το κρέας.",
-          "Τρίψτε το κρέας (όχι την πέτσα) με σκόρδο, κάρο, αλάτι και πιπέρι και τρίψτε την πέτσα με αλάτι.",
-          "Βάλτε τα κρεμμύδια σε ταψί, τοποθετήστε από πάνω το χοιρινό με την πέτσα προς τα πάνω και ρίξτε την μπίρα και 250 ml νερό.",
-          "Ψήστε για περίπου 2,5 ώρες, περιχύνοντας το κρέας κατά διαστήματα και συμπληρώνοντας υγρό.",
-          "Ανεβάστε τη θερμοκρασία στους 220 °C για τα τελευταία 20 λεπτά, μέχρι να τραγανίσει η πέτσα.",
-          "Αφήστε το κρέας να ξεκουραστεί 10 λεπτά, σουρώστε και ξαφρίστε τα ζουμιά και σερβίρετε σε φέτες με τα κνέντελ και τη σάλτσα."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το λίπος από τη σάλτσα πριν τη σερβίρετε.",
-        "Φάτε το άπαχο κρέας και αφήστε το μεγαλύτερο μέρος της πέτσας και του λίπους.",
-        "Πάρτε ένα μόνο κνέντελ και προσθέστε ξινολάχανο ή μια μεγάλη λαχανοσαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Швайнебратен (баварская жареная свинина)",
-      "origin": "Германия · Бавария",
-      "intro": "Швайнебратен — баварская жареная свинина, обычно лопатка с кожей, приправленная тмином, чесноком и солью и запечённая на подушке из лука с тёмным пивом, пока кожа не превратится в хрустящую корочку. Мясной сок становится насыщенной подливой. Его подают толстыми ломтями с картофельными клёцками и часто с квашеной капустой или капустным салатом.",
-      "history": "Швайнебратен — классическое воскресное блюдо Баварии, его подают почти в каждом традиционном трактире и пивной. Варианты с хрустящей корочкой известны как Krustenbraten, а жареная свинина такого рода популярна и в Австрии.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1,5 кг свиной лопатки с кожей",
-          "2 ч. л. семян тмина, слегка растолчённых",
-          "4 зубчика чеснока, раздавленных",
-          "2 луковицы, нарезанные четвертинками",
-          "500 мл тёмного пива",
-          "Соль и перец",
-          "6 картофельных клёцок для подачи"
-        ],
-        "steps": [
-          "Разогрейте духовку до 180 °C. Надрежьте кожу ромбиками, не задевая мясо.",
-          "Натрите мясо (но не кожу) чесноком, тмином, солью и перцем, а в кожу втрите соль.",
-          "Положите лук в противень, сверху поместите свинину кожей вверх и влейте пиво и 250 мл воды.",
-          "Запекайте около 2,5 часов, время от времени поливая мясо и доливая жидкость.",
-          "Увеличьте температуру до 220 °C на последние 20 минут, пока кожа не станет хрустящей.",
-          "Дайте мясу отдохнуть 10 минут, процедите и снимите жир с мясного сока и подавайте нарезанным с клёцками и подливой."
-        ]
-      },
-      "tips": [
-        "Снимите жир с подливы перед подачей.",
-        "Ешьте постное мясо и оставьте большую часть хрустящей корочки и жирового слоя.",
-        "Возьмите одну клёцку и добавьте квашеную капусту или большой капустный салат."
-      ]
-    }
+  "ar": {
+   "name": "شفاينبراتن (لحم خنزير مشوي على الطريقة البافارية)",
+   "origin": "ألمانيا · بافاريا",
+   "intro": "شفاينبراتن لحم خنزير مشوي بافاري، عادة من الكتف مع الجلد، يُتبَّل بالكراوية والثوم والملح ويُشوى فوق طبقة من البصل مع البيرة الداكنة حتى يتحول الجلد إلى قشرة مقرمشة. تصبح عصارة الصينية صلصة غنية. يُقدَّم شرائح سميكة مع زلابية البطاطس، وغالبًا مع مخلل الملفوف أو سلطة الملفوف.",
+   "history": "شفاينبراتن طبق الأحد الكلاسيكي في بافاريا، ويُقدَّم في معظم النُزُل التقليدية وقاعات البيرة هناك. وتُعرف النسخ ذات الجلد المقرمش باسم كروستنبراتن، ويحظى هذا النوع من لحم الخنزير المشوي بشعبية في النمسا أيضًا.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1.5 كغ كتف خنزير بالجلد",
+     "2 ملعقة صغيرة بذور كراوية مهروسة قليلًا",
+     "4 فصوص ثوم مهروسة",
+     "2 بصلة مقطّعة أرباعًا",
+     "500 مل بيرة داكنة",
+     "ملح وفلفل",
+     "6 كرات زلابية بطاطس للتقديم"
+    ],
+    "steps": [
+     "سخّن الفرن إلى 180 °م، واحفر الجلد بشكل معيّنات دون الوصول إلى اللحم.",
+     "افرك اللحم (لا الجلد) بالثوم والكراوية والملح والفلفل، وافرك الجلد بالملح.",
+     "ضع البصل في صينية الشوي ثم اللحم والجلد إلى الأعلى، واسكب البيرة و250 مل ماء.",
+     "اشوه نحو ساعتين ونصف مع سقي اللحم بالعصارة من حين لآخر وإضافة السائل عند الحاجة.",
+     "ارفع الحرارة إلى 220 °م في آخر 20 دقيقة حتى يتقرمش الجلد.",
+     "اترك اللحم يرتاح 10 دقائق، وصفِّ عصارة الصينية واقشط دهنها، وقدّمه شرائح مع الزلابية والصلصة."
+    ]
+   },
+   "tips": [
+    "اقشط الدهن عن الصلصة قبل التقديم.",
+    "تناول اللحم الخالي من الدهن واترك معظم القشرة المقرمشة وطبقة الدهن.",
+    "اكتفِ بكرة زلابية واحدة وأضف مخلل الملفوف أو سلطة ملفوف كبيرة."
+   ]
+  },
+  "it": {
+   "name": "Schweinebraten (arrosto di maiale bavarese)",
+   "name_inline": "Schweinebraten",
+   "origin": "Germania · Baviera",
+   "intro": "Lo Schweinebraten è l'arrosto di maiale bavarese, di solito spalla con la cotenna, insaporita con cumino dei prati, aglio e sale e arrostita su un letto di cipolle con birra scura finché la cotenna diventa una crosta croccante. Il fondo di cottura si trasforma in un sugo ricco. Si serve a fette spesse con canederli di patate e spesso con crauti o insalata di cavolo.",
+   "history": "Lo Schweinebraten è un classico piatto della domenica in Baviera e si serve in quasi tutte le locande e birrerie tradizionali della regione. Le versioni con la cotenna croccante si chiamano Krustenbraten, e questo tipo di arrosto di maiale è popolare anche in Austria.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1,5 kg di spalla di maiale con cotenna",
+     "2 cucchiaini di semi di cumino dei prati, leggermente schiacciati",
+     "4 spicchi d'aglio, schiacciati",
+     "2 cipolle, tagliate in quarti",
+     "500 ml di birra scura",
+     "Sale e pepe",
+     "6 canederli di patate, per servire"
+    ],
+    "steps": [
+     "Scalda il forno a 180 °C. Incidi la cotenna a rombi senza tagliare la carne.",
+     "Strofina la carne (non la cotenna) con aglio, cumino, sale e pepe, e massaggia la cotenna con il sale.",
+     "Metti le cipolle in una teglia, adagia sopra il maiale con la cotenna verso l'alto e versa la birra e 250 ml di acqua.",
+     "Arrostisci per circa 2 ore e mezza, bagnando di tanto in tanto la carne e aggiungendo liquido se serve.",
+     "Alza a 220 °C per gli ultimi 20 minuti, finché la cotenna diventa croccante.",
+     "Lascia riposare la carne 10 minuti, filtra e sgrassa il fondo di cottura e servi a fette con i canederli e il sugo."
+    ]
+   },
+   "tips": [
+    "Sgrassa il sugo prima di servirlo.",
+    "Mangia la carne magra e lascia gran parte della cotenna e dello strato di grasso.",
+    "Prendi un solo canederlo e aggiungi crauti o una grande insalata di cavolo."
+   ]
+  },
+  "el": {
+   "name": "Schweinebraten (βαυαρικό χοιρινό ψητό)",
+   "name_inline": "Schweinebraten",
+   "origin": "Γερμανία · Βαυαρία",
+   "intro": "Το Schweinebraten είναι το βαυαρικό χοιρινό ψητό, συνήθως σπάλα με την πέτσα, αρωματισμένη με κάρο, σκόρδο και αλάτι και ψημένη πάνω σε στρώμα από κρεμμύδια με σκούρα μπίρα μέχρι η πέτσα να γίνει τραγανή κρούστα. Τα ζουμιά του ταψιού γίνονται πλούσια σάλτσα. Σερβίρεται σε χοντρές φέτες με πατατοκνέντελ και συχνά με ξινολάχανο ή λαχανοσαλάτα.",
+   "history": "Το Schweinebraten είναι κλασικό κυριακάτικο πιάτο στη Βαυαρία και σερβίρεται σχεδόν σε κάθε παραδοσιακό πανδοχείο και μπιραρία της περιοχής. Οι εκδοχές με τραγανή πέτσα λέγονται Krustenbraten, και αυτό το είδος χοιρινού ψητού είναι δημοφιλές και στην Αυστρία.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1,5 κιλό χοιρινή σπάλα με πέτσα",
+     "2 κ.γ. σπόροι κάρου, ελαφρά σπασμένοι",
+     "4 σκελίδες σκόρδο, λιωμένες",
+     "2 κρεμμύδια, κομμένα στα τέσσερα",
+     "500 ml σκούρα μπίρα",
+     "Αλάτι και πιπέρι",
+     "6 πατατοκνέντελ, για το σερβίρισμα"
+    ],
+    "steps": [
+     "Προθερμάνετε τον φούρνο στους 180 °C. Χαράξτε την πέτσα σε σχήμα ρόμβων χωρίς να κόψετε το κρέας.",
+     "Τρίψτε το κρέας (όχι την πέτσα) με σκόρδο, κάρο, αλάτι και πιπέρι και τρίψτε την πέτσα με αλάτι.",
+     "Βάλτε τα κρεμμύδια σε ταψί, τοποθετήστε από πάνω το χοιρινό με την πέτσα προς τα πάνω και ρίξτε την μπίρα και 250 ml νερό.",
+     "Ψήστε για περίπου 2,5 ώρες, περιχύνοντας το κρέας κατά διαστήματα και συμπληρώνοντας υγρό.",
+     "Ανεβάστε τη θερμοκρασία στους 220 °C για τα τελευταία 20 λεπτά, μέχρι να τραγανίσει η πέτσα.",
+     "Αφήστε το κρέας να ξεκουραστεί 10 λεπτά, σουρώστε και ξαφρίστε τα ζουμιά και σερβίρετε σε φέτες με τα κνέντελ και τη σάλτσα."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το λίπος από τη σάλτσα πριν τη σερβίρετε.",
+    "Φάτε το άπαχο κρέας και αφήστε το μεγαλύτερο μέρος της πέτσας και του λίπους.",
+    "Πάρτε ένα μόνο κνέντελ και προσθέστε ξινολάχανο ή μια μεγάλη λαχανοσαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Швайнебратен (баварская жареная свинина)",
+   "origin": "Германия · Бавария",
+   "intro": "Швайнебратен — баварская жареная свинина, обычно лопатка с кожей, приправленная тмином, чесноком и солью и запечённая на подушке из лука с тёмным пивом, пока кожа не превратится в хрустящую корочку. Мясной сок становится насыщенной подливой. Его подают толстыми ломтями с картофельными клёцками и часто с квашеной капустой или капустным салатом.",
+   "history": "Швайнебратен — классическое воскресное блюдо Баварии, его подают почти в каждом традиционном трактире и пивной. Варианты с хрустящей корочкой известны как Krustenbraten, а жареная свинина такого рода популярна и в Австрии.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1,5 кг свиной лопатки с кожей",
+     "2 ч. л. семян тмина, слегка растолчённых",
+     "4 зубчика чеснока, раздавленных",
+     "2 луковицы, нарезанные четвертинками",
+     "500 мл тёмного пива",
+     "Соль и перец",
+     "6 картофельных клёцок для подачи"
+    ],
+    "steps": [
+     "Разогрейте духовку до 180 °C. Надрежьте кожу ромбиками, не задевая мясо.",
+     "Натрите мясо (но не кожу) чесноком, тмином, солью и перцем, а в кожу втрите соль.",
+     "Положите лук в противень, сверху поместите свинину кожей вверх и влейте пиво и 250 мл воды.",
+     "Запекайте около 2,5 часов, время от времени поливая мясо и доливая жидкость.",
+     "Увеличьте температуру до 220 °C на последние 20 минут, пока кожа не станет хрустящей.",
+     "Дайте мясу отдохнуть 10 минут, процедите и снимите жир с мясного сока и подавайте нарезанным с клёцками и подливой."
+    ]
+   },
+   "tips": [
+    "Снимите жир с подливы перед подачей.",
+    "Ешьте постное мясо и оставьте большую часть хрустящей корочки и жирового слоя.",
+    "Возьмите одну клёцку и добавьте квашеную капусту или большой капустный салат."
+   ]
+  },
+  "es": {
+   "name": "Schweinebraten (asado de cerdo bávaro)",
+   "origin": "Alemania · Baviera",
+   "intro": "El Schweinebraten es el asado de cerdo bávaro, normalmente de paleta con la piel, sazonado con comino de monte, ajo y sal y asado sobre una cama de cebollas con cerveza negra hasta que la piel se convierte en un chicharrón crujiente. Los jugos de la bandeja se transforman en una salsa intensa. Se sirve en lonchas gruesas con albóndigas de papa y, a menudo, chucrut o ensalada de col.",
+   "history": "El Schweinebraten es un clásico del domingo en Baviera y se sirve en casi todas las posadas y cervecerías tradicionales de la región. Las versiones con corteza crujiente se conocen como Krustenbraten, y este tipo de asado de cerdo también es muy popular en Austria.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1,5 kg de paleta de cerdo con piel",
+     "2 cdta. de semillas de comino de monte (alcaravea), ligeramente machacadas",
+     "4 dientes de ajo, machacados",
+     "2 cebollas, en cuartos",
+     "500 ml de cerveza negra",
+     "Sal y pimienta",
+     "6 albóndigas de papa (Kartoffelknödel), para servir"
+    ],
+    "steps": [
+     "Calienta el horno a 180 °C. Haz cortes en forma de rombos en la piel, sin llegar a la carne.",
+     "Frota la carne (no la piel) con el ajo, el comino de monte, sal y pimienta, y frota la piel con sal.",
+     "Pon las cebollas en una bandeja de horno, coloca encima el cerdo con la piel hacia arriba y vierte la cerveza y 250 ml de agua.",
+     "Asa unas 2 horas y media, bañando la carne de vez en cuando y añadiendo líquido si hace falta.",
+     "Sube el horno a 220 °C durante los últimos 20 minutos, hasta que la piel cruja.",
+     "Deja reposar la carne 10 minutos, cuela y desgrasa los jugos de la bandeja, y sirve en lonchas con las albóndigas y la salsa."
+    ]
+   },
+   "tips": [
+    "Retira la grasa de la salsa antes de servir.",
+    "Come la carne magra y deja la mayor parte del chicharrón y de la capa de grasa.",
+    "Toma una sola albóndiga y añade chucrut o una ensalada grande de col."
+   ],
+   "name_inline": "el Schweinebraten"
   }
+ }
 }

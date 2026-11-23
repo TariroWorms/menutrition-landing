@@ -1,156 +1,184 @@
 {
-  "db_key": "oats_with_milk",
-  "slug": "oats-with-milk",
-  "emoji": "🥣",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "oats_with_milk",
+ "slug": "oats-with-milk",
+ "emoji": "🥣",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Oatmeal with milk",
+   "origin": "Worldwide",
+   "intro": "Oatmeal with milk is a simple porridge of rolled oats simmered in milk and water until thick and creamy. It is soft, mild and warming, and is usually eaten for breakfast, topped with fruit, cinnamon or a little sugar. The ratio of milk to water changes how rich and creamy it tastes.",
+   "history": "Oat porridge has long been a staple in Scotland, Ireland and northern Europe, and today it is a common breakfast around the world.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "50 g rolled oats",
+     "150 ml milk",
+     "100 ml water",
+     "A pinch of salt",
+     "Cinnamon or fresh fruit to serve"
+    ],
+    "steps": [
+     "Put the oats, milk, water and salt in a small pan.",
+     "Bring to a simmer over medium heat, stirring.",
+     "Cook for 4–5 minutes, stirring often, until thick and creamy.",
+     "Rest for a minute and serve with cinnamon or fruit."
+    ]
+   },
+   "tips": [
+    "Use more water and less milk, or choose skimmed milk.",
+    "Sweeten with fresh berries or grated apple instead of sugar.",
+    "Weigh the dry oats — 50 g is a standard portion and easy to overpour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Oatmeal with milk",
-      "origin": "Worldwide",
-      "intro": "Oatmeal with milk is a simple porridge of rolled oats simmered in milk and water until thick and creamy. It is soft, mild and warming, and is usually eaten for breakfast, topped with fruit, cinnamon or a little sugar. The ratio of milk to water changes how rich and creamy it tastes.",
-      "history": "Oat porridge has long been a staple in Scotland, Ireland and northern Europe, and today it is a common breakfast around the world.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "50 g rolled oats",
-          "150 ml milk",
-          "100 ml water",
-          "A pinch of salt",
-          "Cinnamon or fresh fruit to serve"
-        ],
-        "steps": [
-          "Put the oats, milk, water and salt in a small pan.",
-          "Bring to a simmer over medium heat, stirring.",
-          "Cook for 4–5 minutes, stirring often, until thick and creamy.",
-          "Rest for a minute and serve with cinnamon or fruit."
-        ]
-      },
-      "tips": [
-        "Use more water and less milk, or choose skimmed milk.",
-        "Sweeten with fresh berries or grated apple instead of sugar.",
-        "Weigh the dry oats — 50 g is a standard portion and easy to overpour."
-      ]
-    },
-    "ar": {
-      "name": "شوفان بالحليب",
-      "origin": "حول العالم",
-      "intro": "الشوفان بالحليب عصيدة بسيطة من رقائق الشوفان تُطهى ببطء في الحليب والماء حتى تصبح كثيفة وكريمية. قوامها طري وطعمها معتدل ودافئ، وتؤكل عادةً على الفطور مع الفاكهة أو القرفة أو قليل من السكر. وتغيّر نسبة الحليب إلى الماء مدى غناها وكريميتها.",
-      "history": "عصيدة الشوفان طعام أساسي منذ زمن طويل في اسكتلندا وأيرلندا وشمال أوروبا، واليوم هي فطور شائع في أنحاء العالم.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "50 غ رقائق شوفان",
-          "150 مل حليب",
-          "100 مل ماء",
-          "رشة ملح",
-          "قرفة أو فاكهة طازجة للتقديم"
-        ],
-        "steps": [
-          "ضع الشوفان والحليب والماء والملح في قدر صغير.",
-          "سخّنه على نار متوسطة حتى يغلي بهدوء مع التحريك.",
-          "اطهه 4–5 دقائق مع التحريك المتكرر حتى يصبح كثيفًا وكريميًا.",
-          "اتركه دقيقة ثم قدّمه مع القرفة أو الفاكهة."
-        ]
-      },
-      "tips": [
-        "استخدم ماءً أكثر وحليبًا أقل، أو اختر حليبًا خالي الدسم.",
-        "حلِّه بالتوت الطازج أو التفاح المبشور بدل السكر.",
-        "زِن الشوفان الجاف، فحصة 50 غ هي المعيار ومن السهل تجاوزها."
-      ]
-    },
-    "it": {
-      "name": "Porridge d'avena con latte",
-      "name_inline": "porridge d'avena con latte",
-      "origin": "Tutto il mondo",
-      "intro": "Il porridge d'avena con latte è una semplice pappa di fiocchi d'avena cotti a fuoco lento in latte e acqua finché diventano densi e cremosi. È morbido, delicato e riscaldante, e di solito si mangia a colazione con frutta, cannella o un po' di zucchero. La proporzione tra latte e acqua cambia quanto risulta ricco e cremoso.",
-      "history": "Il porridge d'avena è da sempre un alimento base in Scozia, in Irlanda e nel Nord Europa, e oggi è una colazione comune in tutto il mondo.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "50 g di fiocchi d'avena",
-          "150 ml di latte",
-          "100 ml di acqua",
-          "Un pizzico di sale",
-          "Cannella o frutta fresca per servire"
-        ],
-        "steps": [
-          "Metti i fiocchi d'avena, il latte, l'acqua e il sale in un pentolino.",
-          "Porta a leggero bollore a fuoco medio, mescolando.",
-          "Cuoci per 4–5 minuti, mescolando spesso, finché è denso e cremoso.",
-          "Lascia riposare un minuto e servi con cannella o frutta."
-        ]
-      },
-      "tips": [
-        "Usa più acqua e meno latte, oppure scegli latte scremato.",
-        "Addolcisci con frutti di bosco freschi o mela grattugiata invece dello zucchero.",
-        "Pesa l'avena secca: 50 g sono una porzione standard ed è facile versarne troppa."
-      ]
-    },
-    "el": {
-      "name": "Χυλός βρώμης με γάλα",
-      "name_inline": "χυλός βρώμης με γάλα",
-      "origin": "Παγκόσμια",
-      "intro": "Ο χυλός βρώμης με γάλα είναι ένας απλός χυλός από νιφάδες βρώμης σιγοβρασμένες σε γάλα και νερό μέχρι να γίνουν πηχτές και κρεμώδεις. Είναι μαλακός, ήπιος και ζεστός, και συνήθως τρώγεται για πρωινό με φρούτα, κανέλα ή λίγη ζάχαρη. Η αναλογία γάλακτος και νερού αλλάζει πόσο πλούσιος και κρεμώδης θα είναι.",
-      "history": "Ο χυλός βρώμης ήταν από παλιά βασική τροφή στη Σκωτία, την Ιρλανδία και τη βόρεια Ευρώπη, και σήμερα είναι συνηθισμένο πρωινό σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "50 γρ. νιφάδες βρώμης",
-          "150 ml γάλα",
-          "100 ml νερό",
-          "Μια πρέζα αλάτι",
-          "Κανέλα ή φρέσκα φρούτα για το σερβίρισμα"
-        ],
-        "steps": [
-          "Βάλτε τη βρώμη, το γάλα, το νερό και το αλάτι σε ένα κατσαρολάκι.",
-          "Φέρτε σε σιγανό βρασμό σε μέτρια φωτιά, ανακατεύοντας.",
-          "Μαγειρέψτε για 4–5 λεπτά, ανακατεύοντας συχνά, μέχρι να γίνει πηχτός και κρεμώδης.",
-          "Αφήστε τον ένα λεπτό και σερβίρετε με κανέλα ή φρούτα."
-        ]
-      },
-      "tips": [
-        "Βάλτε περισσότερο νερό και λιγότερο γάλα ή προτιμήστε αποβουτυρωμένο γάλα.",
-        "Γλυκάνετε με φρέσκα μούρα ή τριμμένο μήλο αντί για ζάχαρη.",
-        "Ζυγίστε τη στεγνή βρώμη — 50 γρ. είναι μια τυπική μερίδα και είναι εύκολο να ρίξετε περισσότερη."
-      ]
-    },
-    "ru": {
-      "name": "Овсяная каша на молоке",
-      "origin": "Весь мир",
-      "intro": "Овсяная каша на молоке — простая каша из овсяных хлопьев, сваренных в молоке и воде до густоты и кремовости. Она мягкая, нежная и согревающая, её обычно едят на завтрак, добавляя фрукты, корицу или немного сахара. Соотношение молока и воды меняет насыщенность и кремовость вкуса.",
-      "history": "Овсяная каша издавна была основой питания в Шотландии, Ирландии и северной Европе, а сегодня это обычный завтрак по всему миру.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "50 г овсяных хлопьев",
-          "150 мл молока",
-          "100 мл воды",
-          "Щепотка соли",
-          "Корица или свежие фрукты для подачи"
-        ],
-        "steps": [
-          "Положите хлопья, молоко, воду и соль в небольшую кастрюлю.",
-          "Доведите до слабого кипения на среднем огне, помешивая.",
-          "Варите 4–5 минут, часто помешивая, до густоты и кремовости.",
-          "Дайте постоять минуту и подавайте с корицей или фруктами."
-        ]
-      },
-      "tips": [
-        "Используйте больше воды и меньше молока или выберите обезжиренное молоко.",
-        "Подслащивайте свежими ягодами или тёртым яблоком вместо сахара.",
-        "Взвешивайте сухие хлопья — 50 г это стандартная порция, и легко насыпать лишнее."
-      ]
-    }
+  "ar": {
+   "name": "شوفان بالحليب",
+   "origin": "حول العالم",
+   "intro": "الشوفان بالحليب عصيدة بسيطة من رقائق الشوفان تُطهى ببطء في الحليب والماء حتى تصبح كثيفة وكريمية. قوامها طري وطعمها معتدل ودافئ، وتؤكل عادةً على الفطور مع الفاكهة أو القرفة أو قليل من السكر. وتغيّر نسبة الحليب إلى الماء مدى غناها وكريميتها.",
+   "history": "عصيدة الشوفان طعام أساسي منذ زمن طويل في اسكتلندا وأيرلندا وشمال أوروبا، واليوم هي فطور شائع في أنحاء العالم.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "50 غ رقائق شوفان",
+     "150 مل حليب",
+     "100 مل ماء",
+     "رشة ملح",
+     "قرفة أو فاكهة طازجة للتقديم"
+    ],
+    "steps": [
+     "ضع الشوفان والحليب والماء والملح في قدر صغير.",
+     "سخّنه على نار متوسطة حتى يغلي بهدوء مع التحريك.",
+     "اطهه 4–5 دقائق مع التحريك المتكرر حتى يصبح كثيفًا وكريميًا.",
+     "اتركه دقيقة ثم قدّمه مع القرفة أو الفاكهة."
+    ]
+   },
+   "tips": [
+    "استخدم ماءً أكثر وحليبًا أقل، أو اختر حليبًا خالي الدسم.",
+    "حلِّه بالتوت الطازج أو التفاح المبشور بدل السكر.",
+    "زِن الشوفان الجاف، فحصة 50 غ هي المعيار ومن السهل تجاوزها."
+   ]
+  },
+  "it": {
+   "name": "Porridge d'avena con latte",
+   "name_inline": "porridge d'avena con latte",
+   "origin": "Tutto il mondo",
+   "intro": "Il porridge d'avena con latte è una semplice pappa di fiocchi d'avena cotti a fuoco lento in latte e acqua finché diventano densi e cremosi. È morbido, delicato e riscaldante, e di solito si mangia a colazione con frutta, cannella o un po' di zucchero. La proporzione tra latte e acqua cambia quanto risulta ricco e cremoso.",
+   "history": "Il porridge d'avena è da sempre un alimento base in Scozia, in Irlanda e nel Nord Europa, e oggi è una colazione comune in tutto il mondo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "50 g di fiocchi d'avena",
+     "150 ml di latte",
+     "100 ml di acqua",
+     "Un pizzico di sale",
+     "Cannella o frutta fresca per servire"
+    ],
+    "steps": [
+     "Metti i fiocchi d'avena, il latte, l'acqua e il sale in un pentolino.",
+     "Porta a leggero bollore a fuoco medio, mescolando.",
+     "Cuoci per 4–5 minuti, mescolando spesso, finché è denso e cremoso.",
+     "Lascia riposare un minuto e servi con cannella o frutta."
+    ]
+   },
+   "tips": [
+    "Usa più acqua e meno latte, oppure scegli latte scremato.",
+    "Addolcisci con frutti di bosco freschi o mela grattugiata invece dello zucchero.",
+    "Pesa l'avena secca: 50 g sono una porzione standard ed è facile versarne troppa."
+   ]
+  },
+  "el": {
+   "name": "Χυλός βρώμης με γάλα",
+   "name_inline": "χυλός βρώμης με γάλα",
+   "origin": "Παγκόσμια",
+   "intro": "Ο χυλός βρώμης με γάλα είναι ένας απλός χυλός από νιφάδες βρώμης σιγοβρασμένες σε γάλα και νερό μέχρι να γίνουν πηχτές και κρεμώδεις. Είναι μαλακός, ήπιος και ζεστός, και συνήθως τρώγεται για πρωινό με φρούτα, κανέλα ή λίγη ζάχαρη. Η αναλογία γάλακτος και νερού αλλάζει πόσο πλούσιος και κρεμώδης θα είναι.",
+   "history": "Ο χυλός βρώμης ήταν από παλιά βασική τροφή στη Σκωτία, την Ιρλανδία και τη βόρεια Ευρώπη, και σήμερα είναι συνηθισμένο πρωινό σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "50 γρ. νιφάδες βρώμης",
+     "150 ml γάλα",
+     "100 ml νερό",
+     "Μια πρέζα αλάτι",
+     "Κανέλα ή φρέσκα φρούτα για το σερβίρισμα"
+    ],
+    "steps": [
+     "Βάλτε τη βρώμη, το γάλα, το νερό και το αλάτι σε ένα κατσαρολάκι.",
+     "Φέρτε σε σιγανό βρασμό σε μέτρια φωτιά, ανακατεύοντας.",
+     "Μαγειρέψτε για 4–5 λεπτά, ανακατεύοντας συχνά, μέχρι να γίνει πηχτός και κρεμώδης.",
+     "Αφήστε τον ένα λεπτό και σερβίρετε με κανέλα ή φρούτα."
+    ]
+   },
+   "tips": [
+    "Βάλτε περισσότερο νερό και λιγότερο γάλα ή προτιμήστε αποβουτυρωμένο γάλα.",
+    "Γλυκάνετε με φρέσκα μούρα ή τριμμένο μήλο αντί για ζάχαρη.",
+    "Ζυγίστε τη στεγνή βρώμη — 50 γρ. είναι μια τυπική μερίδα και είναι εύκολο να ρίξετε περισσότερη."
+   ]
+  },
+  "ru": {
+   "name": "Овсяная каша на молоке",
+   "origin": "Весь мир",
+   "intro": "Овсяная каша на молоке — простая каша из овсяных хлопьев, сваренных в молоке и воде до густоты и кремовости. Она мягкая, нежная и согревающая, её обычно едят на завтрак, добавляя фрукты, корицу или немного сахара. Соотношение молока и воды меняет насыщенность и кремовость вкуса.",
+   "history": "Овсяная каша издавна была основой питания в Шотландии, Ирландии и северной Европе, а сегодня это обычный завтрак по всему миру.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "50 г овсяных хлопьев",
+     "150 мл молока",
+     "100 мл воды",
+     "Щепотка соли",
+     "Корица или свежие фрукты для подачи"
+    ],
+    "steps": [
+     "Положите хлопья, молоко, воду и соль в небольшую кастрюлю.",
+     "Доведите до слабого кипения на среднем огне, помешивая.",
+     "Варите 4–5 минут, часто помешивая, до густоты и кремовости.",
+     "Дайте постоять минуту и подавайте с корицей или фруктами."
+    ]
+   },
+   "tips": [
+    "Используйте больше воды и меньше молока или выберите обезжиренное молоко.",
+    "Подслащивайте свежими ягодами или тёртым яблоком вместо сахара.",
+    "Взвешивайте сухие хлопья — 50 г это стандартная порция, и легко насыпать лишнее."
+   ]
+  },
+  "es": {
+   "name": "Avena con leche",
+   "origin": "En todo el mundo",
+   "intro": "La avena con leche es una papilla sencilla de hojuelas de avena cocidas en leche y agua hasta que espesan y quedan cremosas. Es suave, delicada y reconfortante, y suele comerse en el desayuno con fruta, canela o un poco de azúcar. La proporción entre leche y agua cambia lo rica y cremosa que resulta.",
+   "history": "La avena cocida es desde hace mucho un alimento básico en Escocia, Irlanda y el norte de Europa, y hoy es un desayuno común en todo el mundo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "50 g de hojuelas de avena",
+     "150 ml de leche",
+     "100 ml de agua",
+     "Una pizca de sal",
+     "Canela o fruta fresca para servir"
+    ],
+    "steps": [
+     "Pon la avena, la leche, el agua y la sal en una olla pequeña.",
+     "Lleva a un hervor suave a fuego medio, revolviendo.",
+     "Cocina de 4 a 5 minutos, revolviendo seguido, hasta que espese y quede cremosa.",
+     "Deja reposar un minuto y sirve con canela o fruta."
+    ]
+   },
+   "tips": [
+    "Usa más agua y menos leche, o elige leche descremada.",
+    "Endulza con frutos rojos frescos o manzana rallada en lugar de azúcar.",
+    "Pesa la avena en seco: 50 g es una porción estándar y es fácil pasarse."
+   ]
   }
+ }
 }
