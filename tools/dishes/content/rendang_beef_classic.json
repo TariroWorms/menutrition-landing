@@ -1,176 +1,209 @@
 {
-  "db_key": "rendang_beef_classic",
-  "slug": "rendang-beef-classic",
-  "emoji": "🍛",
-  "portion_g": 250,
-  "country": "ID",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "rendang_beef_classic",
+ "slug": "rendang-beef-classic",
+ "emoji": "🍛",
+ "portion_g": 250,
+ "country": "ID",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Classic Beef Rendang",
+   "origin": "Indonesia · West Sumatra",
+   "intro": "Classic beef rendang is braised for hours in coconut milk with lemongrass, galangal and chili, then finished with kerisik, toasted grated coconut pounded to an oily paste. The kerisik thickens the sauce and adds a nutty, caramelised depth. The beef ends up dry, dark and intensely spiced, and is served with rice.",
+   "history": "Rendang originates with the Minangkabau of West Sumatra, and kerisik is a common finishing touch in Malaysian and Sumatran versions. Today the dish is cooked across Indonesia, Malaysia and Singapore, especially for Eid and weddings.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "800 g beef chuck, cubed",
+     "800 ml coconut milk",
+     "2 lemongrass stalks, bruised",
+     "4 cm galangal, sliced",
+     "8 dried or fresh red chilies",
+     "4 shallots, 3 garlic cloves",
+     "40 g grated coconut for kerisik",
+     "1 tsp salt"
+    ],
+    "steps": [
+     "Toast the grated coconut in a dry pan until deep golden, then pound or blend into an oily paste (kerisik).",
+     "Blend chilies, shallots and garlic into a paste.",
+     "Simmer beef, paste, coconut milk, lemongrass and galangal uncovered over low heat for about 2.5 hours, stirring often.",
+     "Stir in the kerisik and keep cooking until the sauce is almost dry and dark.",
+     "Season with salt and serve with rice."
+    ]
+   },
+   "tips": [
+    "Halve the kerisik: it adds flavour but also fat.",
+    "Use lean beef and trim it well.",
+    "Pair with cucumber and greens instead of a large rice portion."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Classic Beef Rendang",
-      "origin": "Indonesia · West Sumatra",
-      "intro": "Classic beef rendang is braised for hours in coconut milk with lemongrass, galangal and chili, then finished with kerisik, toasted grated coconut pounded to an oily paste. The kerisik thickens the sauce and adds a nutty, caramelised depth. The beef ends up dry, dark and intensely spiced, and is served with rice.",
-      "history": "Rendang originates with the Minangkabau of West Sumatra, and kerisik is a common finishing touch in Malaysian and Sumatran versions. Today the dish is cooked across Indonesia, Malaysia and Singapore, especially for Eid and weddings.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "800 g beef chuck, cubed",
-          "800 ml coconut milk",
-          "2 lemongrass stalks, bruised",
-          "4 cm galangal, sliced",
-          "8 dried or fresh red chilies",
-          "4 shallots, 3 garlic cloves",
-          "40 g grated coconut for kerisik",
-          "1 tsp salt"
-        ],
-        "steps": [
-          "Toast the grated coconut in a dry pan until deep golden, then pound or blend into an oily paste (kerisik).",
-          "Blend chilies, shallots and garlic into a paste.",
-          "Simmer beef, paste, coconut milk, lemongrass and galangal uncovered over low heat for about 2.5 hours, stirring often.",
-          "Stir in the kerisik and keep cooking until the sauce is almost dry and dark.",
-          "Season with salt and serve with rice."
-        ]
-      },
-      "tips": [
-        "Halve the kerisik: it adds flavour but also fat.",
-        "Use lean beef and trim it well.",
-        "Pair with cucumber and greens instead of a large rice portion."
-      ]
-    },
-    "ar": {
-      "name": "رندانغ لحم كلاسيكي",
-      "origin": "إندونيسيا · سومطرة الغربية",
-      "intro": "الرندانغ الكلاسيكي لحم بقر يُطهى لساعات في حليب جوز الهند مع عشب الليمون والجالانجال والفلفل الحار، ثم يُضاف إليه الكريسيك، وهو جوز هند مبشور محمّص ومدقوق حتى يصبح معجونًا دهنيًا. يُكثف الكريسيك الصلصة ويمنحها عمقًا محمصًا يشبه الكراميل. يصبح اللحم جافًا داكنًا كثيف التوابل، ويُقدَّم مع الأرز.",
-      "history": "يعود الرندانغ إلى شعب المينانغكاباو في سومطرة الغربية، والكريسيك لمسة أخيرة شائعة في النسخ الماليزية والسومطرية. ويُطهى الطبق اليوم في إندونيسيا وماليزيا وسنغافورة، خاصة في العيد والأعراس.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "800 غ لحم بقر (كتف) مكعبات",
-          "800 مل حليب جوز الهند",
-          "2 عود عشب ليمون مدقوق",
-          "4 سم جالانجال شرائح",
-          "8 حبات فلفل أحمر حار مجفف أو طازج",
-          "4 حبات شالوت و3 فصوص ثوم",
-          "40 غ جوز هند مبشور للكريسيك",
-          "ملعقة صغيرة ملح"
-        ],
-        "steps": [
-          "حمّص جوز الهند المبشور في مقلاة جافة حتى يصبح ذهبيًا داكنًا، ثم ادقه أو اطحنه حتى يصبح معجونًا دهنيًا (كريسيك).",
-          "اطحن الفلفل والشالوت والثوم حتى تحصل على معجون.",
-          "اطهُ اللحم مع المعجون وحليب جوز الهند وعشب الليمون والجالانجال مكشوفًا على نار هادئة نحو 2.5 ساعة مع التحريك المتكرر.",
-          "أضف الكريسيك وواصل الطهي حتى تجف الصلصة تقريبًا ويغمق لونها.",
-          "تبّله بالملح وقدّمه مع الأرز."
-        ]
-      },
-      "tips": [
-        "قلّل الكريسيك إلى النصف، فهو يضيف النكهة لكنه يضيف الدهون أيضًا.",
-        "استخدم لحمًا قليل الدهن وأزل الدهون جيدًا.",
-        "قدّمه مع الخيار والخضار الورقية بدلًا من حصة كبيرة من الأرز."
-      ]
-    },
-    "it": {
-      "name": "Rendang di manzo classico",
-      "name_inline": "rendang di manzo classico",
-      "origin": "Indonesia · Sumatra Occidentale",
-      "intro": "Il rendang di manzo classico viene brasato per ore nel latte di cocco con citronella, galanga e peperoncino, poi completato con il kerisik, cocco grattugiato tostato e pestato fino a ottenere una pasta oleosa. Il kerisik addensa la salsa e aggiunge una profondità caramellata che ricorda la frutta secca. Il manzo diventa asciutto, scuro e intensamente speziato, e si serve con il riso.",
-      "history": "Il rendang ha origine tra i Minangkabau di Sumatra Occidentale, e il kerisik è un tocco finale comune nelle versioni malesi e di Sumatra. Oggi il piatto si cucina in Indonesia, Malesia e Singapore, soprattutto per l'Eid e i matrimoni.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "800 g di reale di manzo, a cubi",
-          "800 ml di latte di cocco",
-          "2 gambi di citronella, schiacciati",
-          "4 cm di galanga, affettata",
-          "8 peperoncini rossi secchi o freschi",
-          "4 scalogni, 3 spicchi d'aglio",
-          "40 g di cocco grattugiato per il kerisik",
-          "1 cucchiaino di sale"
-        ],
-        "steps": [
-          "Tosta il cocco grattugiato in una padella asciutta finché è ben dorato, poi pestalo o frullalo fino a ottenere una pasta oleosa (kerisik).",
-          "Frulla peperoncini, scalogni e aglio fino a ottenere una pasta.",
-          "Cuoci a fuoco basso senza coperchio manzo, pasta, latte di cocco, citronella e galanga per circa 2,5 ore, mescolando spesso.",
-          "Unisci il kerisik e continua la cottura finché la salsa è quasi asciutta e scura.",
-          "Regola di sale e servi con il riso."
-        ]
-      },
-      "tips": [
-        "Dimezza il kerisik: aggiunge sapore ma anche grassi.",
-        "Usa manzo magro e sgrassalo bene.",
-        "Abbinalo a cetriolo e verdure a foglia invece che a una grande porzione di riso."
-      ]
-    },
-    "el": {
-      "name": "Κλασικό ρεντάνγκ μοσχαριού",
-      "name_inline": "κλασικό ρεντάνγκ μοσχαριού",
-      "origin": "Ινδονησία · Δυτική Σουμάτρα",
-      "intro": "Το κλασικό ρεντάνγκ μοσχαριού σιγομαγειρεύεται για ώρες σε γάλα καρύδας με λεμονόχορτο, γκαλάνγκαλ και τσίλι και ολοκληρώνεται με κερισίκ, τριμμένη καρύδα καβουρδισμένη και κοπανισμένη σε λιπαρή πάστα. Το κερισίκ πυκνώνει τη σάλτσα και προσθέτει ένα καραμελωμένο βάθος με γεύση ξηρών καρπών. Το μοσχάρι καταλήγει στεγνό, σκούρο και έντονα μπαχαρένιο, και σερβίρεται με ρύζι.",
-      "history": "Το ρεντάνγκ κατάγεται από τους Μινανγκαμπάου της Δυτικής Σουμάτρας, και το κερισίκ είναι συνηθισμένη τελική πινελιά στις μαλαισιανές και σουματρανές εκδοχές. Σήμερα το πιάτο μαγειρεύεται στην Ινδονησία, τη Μαλαισία και τη Σιγκαπούρη, ιδιαίτερα για το Μπαϊράμι και τους γάμους.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "800 γρ. μοσχαρίσια σπάλα, σε κύβους",
-          "800 ml γάλα καρύδας",
-          "2 κοτσάνια λεμονόχορτο, χτυπημένα",
-          "4 εκ. γκαλάνγκαλ, σε φέτες",
-          "8 αποξηραμένες ή φρέσκες κόκκινες καυτερές πιπεριές",
-          "4 εσαλότ, 3 σκελίδες σκόρδο",
-          "40 γρ. τριμμένη καρύδα για το κερισίκ",
-          "1 κ.γ. αλάτι"
-        ],
-        "steps": [
-          "Καβουρδίστε την τριμμένη καρύδα σε στεγνό τηγάνι μέχρι να πάρει βαθύ χρυσαφί χρώμα και κοπανίστε ή πολτοποιήστε τη σε λιπαρή πάστα (κερισίκ).",
-          "Πολτοποιήστε τις πιπεριές, τα εσαλότ και το σκόρδο σε πάστα.",
-          "Σιγοβράστε ξεσκέπαστα σε χαμηλή φωτιά το μοσχάρι, την πάστα, το γάλα καρύδας, το λεμονόχορτο και το γκαλάνγκαλ για περίπου 2,5 ώρες, ανακατεύοντας συχνά.",
-          "Ανακατέψτε το κερισίκ και συνεχίστε το μαγείρεμα μέχρι η σάλτσα να γίνει σχεδόν στεγνή και σκούρα.",
-          "Αλατίστε και σερβίρετε με ρύζι."
-        ]
-      },
-      "tips": [
-        "Μειώστε το κερισίκ στο μισό: δίνει γεύση αλλά και λίπος.",
-        "Χρησιμοποιήστε άπαχο μοσχάρι και καθαρίστε το καλά.",
-        "Συνοδέψτε με αγγούρι και χόρτα αντί για μεγάλη μερίδα ρυζιού."
-      ]
-    },
-    "ru": {
-      "name": "Классический рендан из говядины",
-      "origin": "Индонезия · Западная Суматра",
-      "intro": "Классический рендан из говядины часами тушится в кокосовом молоке с лемонграссом, галангалом и чили, а затем заканчивается керисиком — обжаренной тёртой кокосовой стружкой, растолчённой в маслянистую пасту. Керисик сгущает соус и добавляет ореховую карамелизованную глубину. Говядина получается сухой, тёмной и остро приправленной, её подают с рисом.",
-      "history": "Рендан происходит от минангкабау Западной Суматры, а керисик — частое завершающее дополнение в малайзийских и суматранских версиях. Сегодня блюдо готовят по всей Индонезии, Малайзии и Сингапуру, особенно на Ид и свадьбы.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "800 г говяжьей лопатки, кубиками",
-          "800 мл кокосового молока",
-          "2 стебля лемонграсса, слегка помятых",
-          "4 см галангала, нарезанного",
-          "8 сушёных или свежих красных перцев чили",
-          "4 шалота, 3 зубчика чеснока",
-          "40 г тёртого кокоса для керисика",
-          "1 ч. л. соли"
-        ],
-        "steps": [
-          "Обжарьте тёртый кокос на сухой сковороде до насыщенного золотистого цвета, затем растолките или измельчите блендером в маслянистую пасту (керисик).",
-          "Измельчите блендером чили, шалот и чеснок в пасту.",
-          "Тушите говядину, пасту, кокосовое молоко, лемонграсс и галангал без крышки на слабом огне около 2,5 часов, часто помешивая.",
-          "Вмешайте керисик и продолжайте готовить, пока соус почти не выпарится и не потемнеет.",
-          "Посолите и подавайте с рисом."
-        ]
-      },
-      "tips": [
-        "Уменьшите керисик вдвое: он добавляет вкус, но и жир.",
-        "Берите постную говядину и хорошо её обрезайте.",
-        "Подавайте с огурцами и зеленью вместо большой порции риса."
-      ]
-    }
+  "ar": {
+   "name": "رندانغ لحم كلاسيكي",
+   "origin": "إندونيسيا · سومطرة الغربية",
+   "intro": "الرندانغ الكلاسيكي لحم بقر يُطهى لساعات في حليب جوز الهند مع عشب الليمون والجالانجال والفلفل الحار، ثم يُضاف إليه الكريسيك، وهو جوز هند مبشور محمّص ومدقوق حتى يصبح معجونًا دهنيًا. يُكثف الكريسيك الصلصة ويمنحها عمقًا محمصًا يشبه الكراميل. يصبح اللحم جافًا داكنًا كثيف التوابل، ويُقدَّم مع الأرز.",
+   "history": "يعود الرندانغ إلى شعب المينانغكاباو في سومطرة الغربية، والكريسيك لمسة أخيرة شائعة في النسخ الماليزية والسومطرية. ويُطهى الطبق اليوم في إندونيسيا وماليزيا وسنغافورة، خاصة في العيد والأعراس.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "800 غ لحم بقر (كتف) مكعبات",
+     "800 مل حليب جوز الهند",
+     "2 عود عشب ليمون مدقوق",
+     "4 سم جالانجال شرائح",
+     "8 حبات فلفل أحمر حار مجفف أو طازج",
+     "4 حبات شالوت و3 فصوص ثوم",
+     "40 غ جوز هند مبشور للكريسيك",
+     "ملعقة صغيرة ملح"
+    ],
+    "steps": [
+     "حمّص جوز الهند المبشور في مقلاة جافة حتى يصبح ذهبيًا داكنًا، ثم ادقه أو اطحنه حتى يصبح معجونًا دهنيًا (كريسيك).",
+     "اطحن الفلفل والشالوت والثوم حتى تحصل على معجون.",
+     "اطهُ اللحم مع المعجون وحليب جوز الهند وعشب الليمون والجالانجال مكشوفًا على نار هادئة نحو 2.5 ساعة مع التحريك المتكرر.",
+     "أضف الكريسيك وواصل الطهي حتى تجف الصلصة تقريبًا ويغمق لونها.",
+     "تبّله بالملح وقدّمه مع الأرز."
+    ]
+   },
+   "tips": [
+    "قلّل الكريسيك إلى النصف، فهو يضيف النكهة لكنه يضيف الدهون أيضًا.",
+    "استخدم لحمًا قليل الدهن وأزل الدهون جيدًا.",
+    "قدّمه مع الخيار والخضار الورقية بدلًا من حصة كبيرة من الأرز."
+   ]
+  },
+  "it": {
+   "name": "Rendang di manzo classico",
+   "name_inline": "rendang di manzo classico",
+   "origin": "Indonesia · Sumatra Occidentale",
+   "intro": "Il rendang di manzo classico viene brasato per ore nel latte di cocco con citronella, galanga e peperoncino, poi completato con il kerisik, cocco grattugiato tostato e pestato fino a ottenere una pasta oleosa. Il kerisik addensa la salsa e aggiunge una profondità caramellata che ricorda la frutta secca. Il manzo diventa asciutto, scuro e intensamente speziato, e si serve con il riso.",
+   "history": "Il rendang ha origine tra i Minangkabau di Sumatra Occidentale, e il kerisik è un tocco finale comune nelle versioni malesi e di Sumatra. Oggi il piatto si cucina in Indonesia, Malesia e Singapore, soprattutto per l'Eid e i matrimoni.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "800 g di reale di manzo, a cubi",
+     "800 ml di latte di cocco",
+     "2 gambi di citronella, schiacciati",
+     "4 cm di galanga, affettata",
+     "8 peperoncini rossi secchi o freschi",
+     "4 scalogni, 3 spicchi d'aglio",
+     "40 g di cocco grattugiato per il kerisik",
+     "1 cucchiaino di sale"
+    ],
+    "steps": [
+     "Tosta il cocco grattugiato in una padella asciutta finché è ben dorato, poi pestalo o frullalo fino a ottenere una pasta oleosa (kerisik).",
+     "Frulla peperoncini, scalogni e aglio fino a ottenere una pasta.",
+     "Cuoci a fuoco basso senza coperchio manzo, pasta, latte di cocco, citronella e galanga per circa 2,5 ore, mescolando spesso.",
+     "Unisci il kerisik e continua la cottura finché la salsa è quasi asciutta e scura.",
+     "Regola di sale e servi con il riso."
+    ]
+   },
+   "tips": [
+    "Dimezza il kerisik: aggiunge sapore ma anche grassi.",
+    "Usa manzo magro e sgrassalo bene.",
+    "Abbinalo a cetriolo e verdure a foglia invece che a una grande porzione di riso."
+   ]
+  },
+  "el": {
+   "name": "Κλασικό ρεντάνγκ μοσχαριού",
+   "name_inline": "κλασικό ρεντάνγκ μοσχαριού",
+   "origin": "Ινδονησία · Δυτική Σουμάτρα",
+   "intro": "Το κλασικό ρεντάνγκ μοσχαριού σιγομαγειρεύεται για ώρες σε γάλα καρύδας με λεμονόχορτο, γκαλάνγκαλ και τσίλι και ολοκληρώνεται με κερισίκ, τριμμένη καρύδα καβουρδισμένη και κοπανισμένη σε λιπαρή πάστα. Το κερισίκ πυκνώνει τη σάλτσα και προσθέτει ένα καραμελωμένο βάθος με γεύση ξηρών καρπών. Το μοσχάρι καταλήγει στεγνό, σκούρο και έντονα μπαχαρένιο, και σερβίρεται με ρύζι.",
+   "history": "Το ρεντάνγκ κατάγεται από τους Μινανγκαμπάου της Δυτικής Σουμάτρας, και το κερισίκ είναι συνηθισμένη τελική πινελιά στις μαλαισιανές και σουματρανές εκδοχές. Σήμερα το πιάτο μαγειρεύεται στην Ινδονησία, τη Μαλαισία και τη Σιγκαπούρη, ιδιαίτερα για το Μπαϊράμι και τους γάμους.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "800 γρ. μοσχαρίσια σπάλα, σε κύβους",
+     "800 ml γάλα καρύδας",
+     "2 κοτσάνια λεμονόχορτο, χτυπημένα",
+     "4 εκ. γκαλάνγκαλ, σε φέτες",
+     "8 αποξηραμένες ή φρέσκες κόκκινες καυτερές πιπεριές",
+     "4 εσαλότ, 3 σκελίδες σκόρδο",
+     "40 γρ. τριμμένη καρύδα για το κερισίκ",
+     "1 κ.γ. αλάτι"
+    ],
+    "steps": [
+     "Καβουρδίστε την τριμμένη καρύδα σε στεγνό τηγάνι μέχρι να πάρει βαθύ χρυσαφί χρώμα και κοπανίστε ή πολτοποιήστε τη σε λιπαρή πάστα (κερισίκ).",
+     "Πολτοποιήστε τις πιπεριές, τα εσαλότ και το σκόρδο σε πάστα.",
+     "Σιγοβράστε ξεσκέπαστα σε χαμηλή φωτιά το μοσχάρι, την πάστα, το γάλα καρύδας, το λεμονόχορτο και το γκαλάνγκαλ για περίπου 2,5 ώρες, ανακατεύοντας συχνά.",
+     "Ανακατέψτε το κερισίκ και συνεχίστε το μαγείρεμα μέχρι η σάλτσα να γίνει σχεδόν στεγνή και σκούρα.",
+     "Αλατίστε και σερβίρετε με ρύζι."
+    ]
+   },
+   "tips": [
+    "Μειώστε το κερισίκ στο μισό: δίνει γεύση αλλά και λίπος.",
+    "Χρησιμοποιήστε άπαχο μοσχάρι και καθαρίστε το καλά.",
+    "Συνοδέψτε με αγγούρι και χόρτα αντί για μεγάλη μερίδα ρυζιού."
+   ]
+  },
+  "ru": {
+   "name": "Классический рендан из говядины",
+   "origin": "Индонезия · Западная Суматра",
+   "intro": "Классический рендан из говядины часами тушится в кокосовом молоке с лемонграссом, галангалом и чили, а затем заканчивается керисиком — обжаренной тёртой кокосовой стружкой, растолчённой в маслянистую пасту. Керисик сгущает соус и добавляет ореховую карамелизованную глубину. Говядина получается сухой, тёмной и остро приправленной, её подают с рисом.",
+   "history": "Рендан происходит от минангкабау Западной Суматры, а керисик — частое завершающее дополнение в малайзийских и суматранских версиях. Сегодня блюдо готовят по всей Индонезии, Малайзии и Сингапуру, особенно на Ид и свадьбы.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "800 г говяжьей лопатки, кубиками",
+     "800 мл кокосового молока",
+     "2 стебля лемонграсса, слегка помятых",
+     "4 см галангала, нарезанного",
+     "8 сушёных или свежих красных перцев чили",
+     "4 шалота, 3 зубчика чеснока",
+     "40 г тёртого кокоса для керисика",
+     "1 ч. л. соли"
+    ],
+    "steps": [
+     "Обжарьте тёртый кокос на сухой сковороде до насыщенного золотистого цвета, затем растолките или измельчите блендером в маслянистую пасту (керисик).",
+     "Измельчите блендером чили, шалот и чеснок в пасту.",
+     "Тушите говядину, пасту, кокосовое молоко, лемонграсс и галангал без крышки на слабом огне около 2,5 часов, часто помешивая.",
+     "Вмешайте керисик и продолжайте готовить, пока соус почти не выпарится и не потемнеет.",
+     "Посолите и подавайте с рисом."
+    ]
+   },
+   "tips": [
+    "Уменьшите керисик вдвое: он добавляет вкус, но и жир.",
+    "Берите постную говядину и хорошо её обрезайте.",
+    "Подавайте с огурцами и зеленью вместо большой порции риса."
+   ]
+  },
+  "es": {
+   "name": "Rendang de res clásico",
+   "origin": "Indonesia · Sumatra Occidental",
+   "intro": "El rendang de res clásico se cuece durante horas en leche de coco con hierba limón, galangal y chile, y se termina con kerisik, coco rallado tostado y machacado hasta formar una pasta aceitosa. El kerisik espesa la salsa y le da una profundidad acaramelada con notas de nuez. La carne queda seca, oscura y de sabor intensamente especiado, y se sirve con arroz.",
+   "history": "El rendang se originó entre los minangkabau de Sumatra Occidental, y el kerisik es un toque final habitual en las versiones malayas y sumatreñas. Hoy el plato se cocina en toda Indonesia, Malasia y Singapur, sobre todo para el Eid y las bodas.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "800 g de chambarete de res, en cubos",
+     "800 ml de leche de coco",
+     "2 tallos de hierba limón, machacados",
+     "4 cm de galangal, en rodajas",
+     "8 chiles rojos secos o frescos",
+     "4 chalotas, 3 dientes de ajo",
+     "40 g de coco rallado para el kerisik",
+     "1 cdta. de sal"
+    ],
+    "steps": [
+     "Tuesta el coco rallado en una sartén seca hasta que esté bien dorado y luego macháchalo o lícualo hasta formar una pasta aceitosa (kerisik).",
+     "Licúa los chiles, las chalotas y el ajo hasta formar una pasta.",
+     "Cuece la res, la pasta, la leche de coco, la hierba limón y el galangal, sin tapar y a fuego bajo, durante unas 2,5 horas, revolviendo con frecuencia.",
+     "Incorpora el kerisik y sigue cocinando hasta que la salsa esté casi seca y oscura.",
+     "Sazona con sal y sirve con arroz."
+    ]
+   },
+   "tips": [
+    "Usa la mitad del kerisik: aporta sabor, pero también grasa.",
+    "Usa res magra y límpiala bien.",
+    "Acompaña con pepino y verduras verdes en lugar de una porción grande de arroz."
+   ],
+   "name_inline": "el rendang de res"
   }
+ }
 }

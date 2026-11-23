@@ -1,172 +1,204 @@
 {
-  "db_key": "spring_rolls",
-  "slug": "spring-rolls",
-  "emoji": "🥢",
-  "portion_g": 150,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "spring_rolls",
+ "slug": "spring-rolls",
+ "emoji": "🥢",
+ "portion_g": 150,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fried spring rolls",
+   "origin": "China · East and Southeast Asia",
+   "intro": "Fried spring rolls are thin wheat wrappers rolled around a filling of minced pork, shredded cabbage, carrot and glass noodles, then deep-fried until golden. The shell shatters when bitten, while the inside is savoury and soft. They are served hot as a starter or snack, usually with a sweet chili or vinegar dipping sauce.",
+   "history": "Spring rolls take their name from the Chinese tradition of eating them around the Spring Festival, the Lunar New Year. Many versions are now made across East and Southeast Asia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "250 g minced pork",
+     "200 g cabbage, finely shredded",
+     "1 carrot, grated",
+     "50 g glass noodles, soaked and cut",
+     "12 spring roll wrappers",
+     "2 garlic cloves, 1 tsp grated ginger",
+     "Salt, white pepper",
+     "Oil for frying"
+    ],
+    "steps": [
+     "Stir-fry the pork with garlic and ginger until cooked.",
+     "Add the cabbage and carrot and cook 3 minutes; mix in the noodles, season and cool.",
+     "Place 2 tbsp filling on each wrapper, fold in the sides and roll tightly; seal the edge with a little water.",
+     "Deep-fry at 175 °C for 4–5 minutes until golden; drain on paper."
+    ]
+   },
+   "tips": [
+    "Bake the rolls at 200 °C brushed lightly with oil instead of deep-frying.",
+    "Use more cabbage and less pork in the filling.",
+    "Choose a vinegar-based dip rather than a sugary sauce."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fried spring rolls",
-      "origin": "China · East and Southeast Asia",
-      "intro": "Fried spring rolls are thin wheat wrappers rolled around a filling of minced pork, shredded cabbage, carrot and glass noodles, then deep-fried until golden. The shell shatters when bitten, while the inside is savoury and soft. They are served hot as a starter or snack, usually with a sweet chili or vinegar dipping sauce.",
-      "history": "Spring rolls take their name from the Chinese tradition of eating them around the Spring Festival, the Lunar New Year. Many versions are now made across East and Southeast Asia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "250 g minced pork",
-          "200 g cabbage, finely shredded",
-          "1 carrot, grated",
-          "50 g glass noodles, soaked and cut",
-          "12 spring roll wrappers",
-          "2 garlic cloves, 1 tsp grated ginger",
-          "Salt, white pepper",
-          "Oil for frying"
-        ],
-        "steps": [
-          "Stir-fry the pork with garlic and ginger until cooked.",
-          "Add the cabbage and carrot and cook 3 minutes; mix in the noodles, season and cool.",
-          "Place 2 tbsp filling on each wrapper, fold in the sides and roll tightly; seal the edge with a little water.",
-          "Deep-fry at 175 °C for 4–5 minutes until golden; drain on paper."
-        ]
-      },
-      "tips": [
-        "Bake the rolls at 200 °C brushed lightly with oil instead of deep-frying.",
-        "Use more cabbage and less pork in the filling.",
-        "Choose a vinegar-based dip rather than a sugary sauce."
-      ]
-    },
-    "ar": {
-      "name": "سبرينغ رول مقلي",
-      "origin": "الصين · شرق وجنوب شرق آسيا",
-      "intro": "السبرينغ رول المقلي رقائق قمح رقيقة تلف حشوة من لحم الخنزير المفروم والملفوف المبشور والجزر والنودلز الزجاجية، ثم تقلى في زيت غزير حتى تتحمر. تتكسر القشرة عند العض بينما تكون الحشوة طرية ومالحة. تقدم ساخنة كمقبلات أو وجبة خفيفة، عادة مع صلصة الفلفل الحلو أو صلصة الخل.",
-      "history": "أخذت لفائف الربيع اسمها من التقليد الصيني بتناولها في عيد الربيع، أي رأس السنة القمرية. وتُصنع اليوم نسخ كثيرة منها في شرق وجنوب شرق آسيا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "250 غ لحم خنزير مفروم",
-          "200 غ ملفوف مبشور ناعماً",
-          "1 جزرة مبشورة",
-          "50 غ نودلز زجاجية منقوعة ومقطعة",
-          "12 ورقة سبرينغ رول",
-          "2 فص ثوم، 1 ملعقة صغيرة زنجبيل مبشور",
-          "ملح وفلفل أبيض",
-          "زيت للقلي"
-        ],
-        "steps": [
-          "قلّب اللحم مع الثوم والزنجبيل حتى ينضج.",
-          "أضف الملفوف والجزر واطهها 3 دقائق، ثم أضف النودلز وتبّل واتركها تبرد.",
-          "ضع ملعقتين كبيرتين من الحشوة على كل ورقة، واطوِ الجانبين ولفّ بإحكام، وألصق الطرف بقليل من الماء.",
-          "اقلِها على 175 °م لمدة 4–5 دقائق حتى تتحمر، وصفّها على ورق."
-        ]
-      },
-      "tips": [
-        "اخبز اللفائف على 200 °م مع دهن خفيف بالزيت بدلاً من القلي.",
-        "استخدم ملفوفاً أكثر ولحماً أقل في الحشوة.",
-        "اختر صلصة غمس بالخل بدلاً من الصلصة المحلاة."
-      ]
-    },
-    "it": {
-      "name": "Involtini primavera fritti",
-      "name_inline": "involtini primavera fritti",
-      "origin": "Cina · Asia orientale e sud-orientale",
-      "intro": "Gli involtini primavera fritti sono sottili sfoglie di frumento arrotolate attorno a un ripieno di maiale macinato, cavolo a listarelle, carota e spaghetti di vetro, poi fritti in abbondante olio finché sono dorati. L'involucro si frantuma al morso, mentre l'interno è sapido e morbido. Si servono caldi come antipasto o spuntino, di solito con una salsa per intingere al peperoncino dolce o all'aceto.",
-      "history": "Gli involtini primavera prendono il nome dalla tradizione cinese di mangiarli durante la Festa di Primavera, il Capodanno lunare. Oggi se ne preparano molte versioni in tutta l'Asia orientale e sud-orientale.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "250 g di maiale macinato",
-          "200 g di cavolo tagliato finemente",
-          "1 carota grattugiata",
-          "50 g di spaghetti di vetro, ammollati e tagliati",
-          "12 sfoglie per involtini primavera",
-          "2 spicchi d'aglio, 1 cucchiaino di zenzero grattugiato",
-          "Sale, pepe bianco",
-          "Olio per friggere"
-        ],
-        "steps": [
-          "Salta il maiale con aglio e zenzero finché è cotto.",
-          "Aggiungi il cavolo e la carota e cuoci 3 minuti; unisci gli spaghetti, regola di sale e lascia raffreddare.",
-          "Metti 2 cucchiai di ripieno su ogni sfoglia, ripiega i lati e arrotola stretto; sigilla il bordo con un po' d'acqua.",
-          "Friggi in abbondante olio a 175 °C per 4–5 minuti finché sono dorati; scola su carta."
-        ]
-      },
-      "tips": [
-        "Cuoci gli involtini in forno a 200 °C spennellati leggermente d'olio invece di friggerli.",
-        "Usa più cavolo e meno maiale nel ripieno.",
-        "Scegli una salsa a base di aceto invece di una salsa zuccherata."
-      ]
-    },
-    "el": {
-      "name": "Τηγανητά σπρινγκ ρολς",
-      "name_inline": "τηγανητά σπρινγκ ρολς",
-      "origin": "Κίνα · Ανατολική και Νοτιοανατολική Ασία",
-      "intro": "Τα τηγανητά σπρινγκ ρολς είναι λεπτά φύλλα από σιτάρι τυλιγμένα γύρω από γέμιση από χοιρινό κιμά, ψιλοκομμένο λάχανο, καρότο και γυάλινα νουντλς, που τηγανίζονται σε άφθονο λάδι μέχρι να ροδίσουν. Το περίβλημα σπάει στη δαγκωνιά, ενώ το εσωτερικό είναι αλμυρό και μαλακό. Σερβίρονται ζεστά ως ορεκτικό ή σνακ, συνήθως με γλυκιά σάλτσα τσίλι ή σάλτσα με ξίδι για βούτηγμα.",
-      "history": "Τα σπρινγκ ρολς πήραν το όνομά τους από την κινεζική παράδοση να τρώγονται γύρω από τη Γιορτή της Άνοιξης, τη Σεληνιακή Πρωτοχρονιά. Σήμερα φτιάχνονται πολλές εκδοχές τους σε όλη την Ανατολική και Νοτιοανατολική Ασία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "250 γρ. χοιρινός κιμάς",
-          "200 γρ. λάχανο, ψιλοκομμένο",
-          "1 καρότο, τριμμένο",
-          "50 γρ. γυάλινα νουντλς, μουλιασμένα και κομμένα",
-          "12 φύλλα για σπρινγκ ρολς",
-          "2 σκελίδες σκόρδο, 1 κ.γ. τριμμένο τζίντζερ",
-          "Αλάτι, λευκό πιπέρι",
-          "Λάδι για τηγάνισμα"
-        ],
-        "steps": [
-          "Σοτάρετε τον κιμά με το σκόρδο και το τζίντζερ μέχρι να ψηθεί.",
-          "Προσθέστε το λάχανο και το καρότο και μαγειρέψτε 3 λεπτά· ανακατέψτε μέσα τα νουντλς, αλατοπιπερώστε και αφήστε να κρυώσει.",
-          "Βάλτε 2 κ.σ. γέμιση σε κάθε φύλλο, διπλώστε τα πλαϊνά και τυλίξτε σφιχτά· κολλήστε την άκρη με λίγο νερό.",
-          "Τηγανίστε σε βαθύ λάδι στους 175 °C για 4–5 λεπτά μέχρι να ροδίσουν· στραγγίξτε σε χαρτί."
-        ]
-      },
-      "tips": [
-        "Ψήστε τα ρολά στους 200 °C αλειμμένα ελαφρά με λάδι αντί να τα τηγανίσετε.",
-        "Βάλτε περισσότερο λάχανο και λιγότερο χοιρινό στη γέμιση.",
-        "Επιλέξτε σάλτσα με βάση το ξίδι αντί για ζαχαρούχα σάλτσα."
-      ]
-    },
-    "ru": {
-      "name": "Жареные спринг-роллы",
-      "origin": "Китай · Восточная и Юго-Восточная Азия",
-      "intro": "Жареные спринг-роллы — тонкие пшеничные обёртки с начинкой из свиного фарша, нашинкованной капусты, моркови и стеклянной лапши, обжаренные во фритюре до золотистого цвета. Корочка хрустит при укусе, а внутри пикантно и мягко. Их подают горячими как закуску, обычно со сладким соусом чили или уксусным соусом для макания.",
-      "history": "Спринг-роллы получили название по китайской традиции есть их во время Праздника весны — Лунного Нового года. Сегодня множество версий готовят по всей Восточной и Юго-Восточной Азии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "250 г свиного фарша",
-          "200 г капусты, тонко нашинкованной",
-          "1 морковь, натёртая",
-          "50 г стеклянной лапши, замоченной и нарезанной",
-          "12 обёрток для спринг-роллов",
-          "2 зубчика чеснока, 1 ч. л. тёртого имбиря",
-          "Соль, белый перец",
-          "Масло для жарки"
-        ],
-        "steps": [
-          "Обжарьте фарш с чесноком и имбирём до готовности.",
-          "Добавьте капусту и морковь и готовьте 3 минуты; вмешайте лапшу, приправьте и остудите.",
-          "Выложите по 2 ст. л. начинки на каждую обёртку, загните края и плотно сверните; запечатайте край небольшим количеством воды.",
-          "Жарьте во фритюре при 175 °C 4–5 минут до золотистого цвета; выложите на бумагу."
-        ]
-      },
-      "tips": [
-        "Запекайте роллы при 200 °C, слегка смазав маслом, вместо фритюра.",
-        "Берите в начинку больше капусты и меньше фарша.",
-        "Выбирайте уксусный соус для макания вместо сладкого соуса."
-      ],
-      "name_inline": "жареные спринг-роллы"
-    }
+  "ar": {
+   "name": "سبرينغ رول مقلي",
+   "origin": "الصين · شرق وجنوب شرق آسيا",
+   "intro": "السبرينغ رول المقلي رقائق قمح رقيقة تلف حشوة من لحم الخنزير المفروم والملفوف المبشور والجزر والنودلز الزجاجية، ثم تقلى في زيت غزير حتى تتحمر. تتكسر القشرة عند العض بينما تكون الحشوة طرية ومالحة. تقدم ساخنة كمقبلات أو وجبة خفيفة، عادة مع صلصة الفلفل الحلو أو صلصة الخل.",
+   "history": "أخذت لفائف الربيع اسمها من التقليد الصيني بتناولها في عيد الربيع، أي رأس السنة القمرية. وتُصنع اليوم نسخ كثيرة منها في شرق وجنوب شرق آسيا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "250 غ لحم خنزير مفروم",
+     "200 غ ملفوف مبشور ناعماً",
+     "1 جزرة مبشورة",
+     "50 غ نودلز زجاجية منقوعة ومقطعة",
+     "12 ورقة سبرينغ رول",
+     "2 فص ثوم، 1 ملعقة صغيرة زنجبيل مبشور",
+     "ملح وفلفل أبيض",
+     "زيت للقلي"
+    ],
+    "steps": [
+     "قلّب اللحم مع الثوم والزنجبيل حتى ينضج.",
+     "أضف الملفوف والجزر واطهها 3 دقائق، ثم أضف النودلز وتبّل واتركها تبرد.",
+     "ضع ملعقتين كبيرتين من الحشوة على كل ورقة، واطوِ الجانبين ولفّ بإحكام، وألصق الطرف بقليل من الماء.",
+     "اقلِها على 175 °م لمدة 4–5 دقائق حتى تتحمر، وصفّها على ورق."
+    ]
+   },
+   "tips": [
+    "اخبز اللفائف على 200 °م مع دهن خفيف بالزيت بدلاً من القلي.",
+    "استخدم ملفوفاً أكثر ولحماً أقل في الحشوة.",
+    "اختر صلصة غمس بالخل بدلاً من الصلصة المحلاة."
+   ]
+  },
+  "it": {
+   "name": "Involtini primavera fritti",
+   "name_inline": "involtini primavera fritti",
+   "origin": "Cina · Asia orientale e sud-orientale",
+   "intro": "Gli involtini primavera fritti sono sottili sfoglie di frumento arrotolate attorno a un ripieno di maiale macinato, cavolo a listarelle, carota e spaghetti di vetro, poi fritti in abbondante olio finché sono dorati. L'involucro si frantuma al morso, mentre l'interno è sapido e morbido. Si servono caldi come antipasto o spuntino, di solito con una salsa per intingere al peperoncino dolce o all'aceto.",
+   "history": "Gli involtini primavera prendono il nome dalla tradizione cinese di mangiarli durante la Festa di Primavera, il Capodanno lunare. Oggi se ne preparano molte versioni in tutta l'Asia orientale e sud-orientale.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "250 g di maiale macinato",
+     "200 g di cavolo tagliato finemente",
+     "1 carota grattugiata",
+     "50 g di spaghetti di vetro, ammollati e tagliati",
+     "12 sfoglie per involtini primavera",
+     "2 spicchi d'aglio, 1 cucchiaino di zenzero grattugiato",
+     "Sale, pepe bianco",
+     "Olio per friggere"
+    ],
+    "steps": [
+     "Salta il maiale con aglio e zenzero finché è cotto.",
+     "Aggiungi il cavolo e la carota e cuoci 3 minuti; unisci gli spaghetti, regola di sale e lascia raffreddare.",
+     "Metti 2 cucchiai di ripieno su ogni sfoglia, ripiega i lati e arrotola stretto; sigilla il bordo con un po' d'acqua.",
+     "Friggi in abbondante olio a 175 °C per 4–5 minuti finché sono dorati; scola su carta."
+    ]
+   },
+   "tips": [
+    "Cuoci gli involtini in forno a 200 °C spennellati leggermente d'olio invece di friggerli.",
+    "Usa più cavolo e meno maiale nel ripieno.",
+    "Scegli una salsa a base di aceto invece di una salsa zuccherata."
+   ]
+  },
+  "el": {
+   "name": "Τηγανητά σπρινγκ ρολς",
+   "name_inline": "τηγανητά σπρινγκ ρολς",
+   "origin": "Κίνα · Ανατολική και Νοτιοανατολική Ασία",
+   "intro": "Τα τηγανητά σπρινγκ ρολς είναι λεπτά φύλλα από σιτάρι τυλιγμένα γύρω από γέμιση από χοιρινό κιμά, ψιλοκομμένο λάχανο, καρότο και γυάλινα νουντλς, που τηγανίζονται σε άφθονο λάδι μέχρι να ροδίσουν. Το περίβλημα σπάει στη δαγκωνιά, ενώ το εσωτερικό είναι αλμυρό και μαλακό. Σερβίρονται ζεστά ως ορεκτικό ή σνακ, συνήθως με γλυκιά σάλτσα τσίλι ή σάλτσα με ξίδι για βούτηγμα.",
+   "history": "Τα σπρινγκ ρολς πήραν το όνομά τους από την κινεζική παράδοση να τρώγονται γύρω από τη Γιορτή της Άνοιξης, τη Σεληνιακή Πρωτοχρονιά. Σήμερα φτιάχνονται πολλές εκδοχές τους σε όλη την Ανατολική και Νοτιοανατολική Ασία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "250 γρ. χοιρινός κιμάς",
+     "200 γρ. λάχανο, ψιλοκομμένο",
+     "1 καρότο, τριμμένο",
+     "50 γρ. γυάλινα νουντλς, μουλιασμένα και κομμένα",
+     "12 φύλλα για σπρινγκ ρολς",
+     "2 σκελίδες σκόρδο, 1 κ.γ. τριμμένο τζίντζερ",
+     "Αλάτι, λευκό πιπέρι",
+     "Λάδι για τηγάνισμα"
+    ],
+    "steps": [
+     "Σοτάρετε τον κιμά με το σκόρδο και το τζίντζερ μέχρι να ψηθεί.",
+     "Προσθέστε το λάχανο και το καρότο και μαγειρέψτε 3 λεπτά· ανακατέψτε μέσα τα νουντλς, αλατοπιπερώστε και αφήστε να κρυώσει.",
+     "Βάλτε 2 κ.σ. γέμιση σε κάθε φύλλο, διπλώστε τα πλαϊνά και τυλίξτε σφιχτά· κολλήστε την άκρη με λίγο νερό.",
+     "Τηγανίστε σε βαθύ λάδι στους 175 °C για 4–5 λεπτά μέχρι να ροδίσουν· στραγγίξτε σε χαρτί."
+    ]
+   },
+   "tips": [
+    "Ψήστε τα ρολά στους 200 °C αλειμμένα ελαφρά με λάδι αντί να τα τηγανίσετε.",
+    "Βάλτε περισσότερο λάχανο και λιγότερο χοιρινό στη γέμιση.",
+    "Επιλέξτε σάλτσα με βάση το ξίδι αντί για ζαχαρούχα σάλτσα."
+   ]
+  },
+  "ru": {
+   "name": "Жареные спринг-роллы",
+   "origin": "Китай · Восточная и Юго-Восточная Азия",
+   "intro": "Жареные спринг-роллы — тонкие пшеничные обёртки с начинкой из свиного фарша, нашинкованной капусты, моркови и стеклянной лапши, обжаренные во фритюре до золотистого цвета. Корочка хрустит при укусе, а внутри пикантно и мягко. Их подают горячими как закуску, обычно со сладким соусом чили или уксусным соусом для макания.",
+   "history": "Спринг-роллы получили название по китайской традиции есть их во время Праздника весны — Лунного Нового года. Сегодня множество версий готовят по всей Восточной и Юго-Восточной Азии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "250 г свиного фарша",
+     "200 г капусты, тонко нашинкованной",
+     "1 морковь, натёртая",
+     "50 г стеклянной лапши, замоченной и нарезанной",
+     "12 обёрток для спринг-роллов",
+     "2 зубчика чеснока, 1 ч. л. тёртого имбиря",
+     "Соль, белый перец",
+     "Масло для жарки"
+    ],
+    "steps": [
+     "Обжарьте фарш с чесноком и имбирём до готовности.",
+     "Добавьте капусту и морковь и готовьте 3 минуты; вмешайте лапшу, приправьте и остудите.",
+     "Выложите по 2 ст. л. начинки на каждую обёртку, загните края и плотно сверните; запечатайте край небольшим количеством воды.",
+     "Жарьте во фритюре при 175 °C 4–5 минут до золотистого цвета; выложите на бумагу."
+    ]
+   },
+   "tips": [
+    "Запекайте роллы при 200 °C, слегка смазав маслом, вместо фритюра.",
+    "Берите в начинку больше капусты и меньше фарша.",
+    "Выбирайте уксусный соус для макания вместо сладкого соуса."
+   ],
+   "name_inline": "жареные спринг-роллы"
+  },
+  "es": {
+   "name": "Rollitos primavera fritos",
+   "origin": "China · Asia Oriental y Sudoriental",
+   "intro": "Los rollitos primavera fritos son finas obleas de trigo enrolladas alrededor de un relleno de carne de cerdo molida, col rallada, zanahoria y fideos de cristal, que se fríen en abundante aceite hasta quedar dorados. La cubierta cruje al morderla, mientras que el interior es sabroso y suave. Se sirven calientes como entrada o botana, normalmente con una salsa de chile dulce o de vinagre para mojar.",
+   "history": "Los rollitos primavera deben su nombre a la tradición china de comerlos durante la Fiesta de la Primavera, el Año Nuevo Lunar. Hoy se preparan muchas versiones en todo el este y el sudeste de Asia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "250 g de carne de cerdo molida",
+     "200 g de col, rallada fina",
+     "1 zanahoria, rallada",
+     "50 g de fideos de cristal, remojados y cortados",
+     "12 obleas para rollitos primavera",
+     "2 dientes de ajo, 1 cdta. de jengibre rallado",
+     "Sal, pimienta blanca",
+     "Aceite para freír"
+    ],
+    "steps": [
+     "Saltea el cerdo con el ajo y el jengibre hasta que esté cocido.",
+     "Agrega la col y la zanahoria y cocina 3 minutos; incorpora los fideos, sazona y deja enfriar.",
+     "Pon 2 cda. de relleno en cada oblea, dobla los lados y enrolla con firmeza; sella el borde con un poco de agua.",
+     "Fríe en abundante aceite a 175 °C de 4 a 5 minutos, hasta que estén dorados; escúrrelos sobre papel absorbente."
+    ]
+   },
+   "tips": [
+    "Hornea los rollitos a 200 °C, pincelados con un poco de aceite, en lugar de freírlos.",
+    "Usa más col y menos cerdo en el relleno.",
+    "Elige una salsa a base de vinagre en lugar de una salsa azucarada."
+   ],
+   "name_inline": "los rollitos primavera"
   }
+ }
 }

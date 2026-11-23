@@ -1,181 +1,215 @@
 {
-  "db_key": "bifteki",
-  "slug": "bifteki",
-  "emoji": "🍔",
-  "portion_g": 250,
-  "country": "GR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bifteki",
+ "slug": "bifteki",
+ "emoji": "🍔",
+ "portion_g": 250,
+ "country": "GR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bifteki",
+   "origin": "Greece",
+   "intro": "Bifteki are Greek beef patties seasoned with grated onion, garlic, parsley, oregano and mint, and often stuffed with a piece of feta that melts as they grill. They are juicy and herby, with a slightly salty, creamy centre. Bifteki are served as a main course with Greek salad, grilled vegetables or oven potatoes and a wedge of lemon.",
+   "history": "The name comes from the French bifteck, itself borrowed from the English \"beefsteak\". Bifteki are an everyday dish in Greek homes and tavernas, and the feta-stuffed version is especially popular.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "600 g minced beef",
+     "1 onion, grated and squeezed",
+     "2 garlic cloves, minced",
+     "1 egg",
+     "2 tbsp chopped parsley and 1 tbsp chopped mint",
+     "1 tsp dried oregano",
+     "120 g feta, cut into 4 slices",
+     "1 tbsp olive oil",
+     "Salt, pepper and lemon wedges to serve"
+    ],
+    "steps": [
+     "Mix the beef, onion, garlic, egg, herbs, salt and pepper and knead for 2–3 minutes. Chill for 30 minutes.",
+     "Divide into 8 portions and flatten each into an oval patty.",
+     "Place a slice of feta on 4 patties, cover with the remaining patties and press the edges firmly to seal.",
+     "Brush with olive oil and grill or pan-fry over medium heat for 5–6 minutes per side until cooked through.",
+     "Serve hot with lemon wedges and a salad."
+    ]
+   },
+   "tips": [
+    "Use lean minced beef (about 5–10 % fat) to cut the fat noticeably.",
+    "Halve the feta or skip the filling — feta is the richest part of the patty.",
+    "Grill instead of frying, and serve with a big salad or grilled vegetables rather than fries."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bifteki",
-      "origin": "Greece",
-      "intro": "Bifteki are Greek beef patties seasoned with grated onion, garlic, parsley, oregano and mint, and often stuffed with a piece of feta that melts as they grill. They are juicy and herby, with a slightly salty, creamy centre. Bifteki are served as a main course with Greek salad, grilled vegetables or oven potatoes and a wedge of lemon.",
-      "history": "The name comes from the French bifteck, itself borrowed from the English \"beefsteak\". Bifteki are an everyday dish in Greek homes and tavernas, and the feta-stuffed version is especially popular.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "600 g minced beef",
-          "1 onion, grated and squeezed",
-          "2 garlic cloves, minced",
-          "1 egg",
-          "2 tbsp chopped parsley and 1 tbsp chopped mint",
-          "1 tsp dried oregano",
-          "120 g feta, cut into 4 slices",
-          "1 tbsp olive oil",
-          "Salt, pepper and lemon wedges to serve"
-        ],
-        "steps": [
-          "Mix the beef, onion, garlic, egg, herbs, salt and pepper and knead for 2–3 minutes. Chill for 30 minutes.",
-          "Divide into 8 portions and flatten each into an oval patty.",
-          "Place a slice of feta on 4 patties, cover with the remaining patties and press the edges firmly to seal.",
-          "Brush with olive oil and grill or pan-fry over medium heat for 5–6 minutes per side until cooked through.",
-          "Serve hot with lemon wedges and a salad."
-        ]
-      },
-      "tips": [
-        "Use lean minced beef (about 5–10 % fat) to cut the fat noticeably.",
-        "Halve the feta or skip the filling — feta is the richest part of the patty.",
-        "Grill instead of frying, and serve with a big salad or grilled vegetables rather than fries."
-      ]
-    },
-    "ar": {
-      "name": "بيفتيكي",
-      "origin": "اليونان",
-      "intro": "البيفتيكي أقراص لحم بقري يونانية متبّلة بالبصل المبشور والثوم والبقدونس والزعتر البري (الأوريغانو) والنعناع، وغالباً ما تُحشى بقطعة من جبن الفيتا تذوب أثناء الشوي. تكون طرية غنية بالأعشاب، ولها قلب كريمي مالح قليلاً. وتُقدَّم طبقاً رئيسياً مع السلطة اليونانية أو الخضار المشوية أو البطاطا في الفرن مع شريحة ليمون.",
-      "history": "يأتي الاسم من الكلمة الفرنسية «بيفتيك»، المستعارة بدورها من الكلمة الإنجليزية «بيف ستيك». والبيفتيكي طبق يومي في البيوت والمطاعم الشعبية (التافيرنا) اليونانية، والنسخة المحشوة بالفيتا شائعة بشكل خاص.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "600 غ لحم بقري مفروم",
-          "بصلة مبشورة ومعصورة من مائها",
-          "فصّا ثوم مفرومان",
-          "بيضة واحدة",
-          "2 ملعقة كبيرة بقدونس مفروم وملعقة كبيرة نعناع مفروم",
-          "ملعقة صغيرة أوريغانو مجفّف",
-          "120 غ جبن فيتا مقطّع 4 شرائح",
-          "ملعقة كبيرة زيت زيتون",
-          "ملح وفلفل أسود وشرائح ليمون للتقديم"
-        ],
-        "steps": [
-          "اخلط اللحم والبصل والثوم والبيضة والأعشاب والملح والفلفل، واعجن 2–3 دقائق، ثم ضعه في الثلاجة 30 دقيقة.",
-          "قسّمه 8 أجزاء، وافرد كل جزء على شكل قرص بيضاوي.",
-          "ضع شريحة فيتا على 4 أقراص، وغطّها بالأقراص الأربعة الباقية، واضغط الأطراف جيداً لإغلاقها.",
-          "ادهنها بزيت الزيتون واشوها أو اطهُها في المقلاة على نار متوسطة 5–6 دقائق لكل جانب حتى تنضج تماماً.",
-          "قدّمها ساخنة مع شرائح الليمون والسلطة."
-        ]
-      },
-      "tips": [
-        "استخدم لحماً بقرياً مفروماً قليل الدهن (نحو 5–10 % دهون) لتقليل الدهون بشكل ملحوظ.",
-        "قلّل الفيتا إلى النصف أو استغنِ عن الحشوة، فهي أغنى جزء في القرص.",
-        "اشوِ الأقراص بدلاً من قليها، وقدّمها مع سلطة كبيرة أو خضار مشوية بدلاً من البطاطا المقلية."
-      ]
-    },
-    "it": {
-      "name": "Bifteki",
-      "origin": "Grecia",
-      "intro": "I bifteki sono polpette schiacciate greche di manzo insaporite con cipolla grattugiata, aglio, prezzemolo, origano e menta, spesso farcite con un pezzo di feta che si scioglie durante la cottura alla griglia. Sono succose e aromatiche, con un cuore cremoso e leggermente salato. I bifteki si servono come secondo piatto con insalata greca, verdure grigliate o patate al forno e uno spicchio di limone.",
-      "history": "Il nome deriva dal francese bifteck, a sua volta preso in prestito dall'inglese «beefsteak». I bifteki sono un piatto quotidiano nelle case e nelle taverne greche, e la versione ripiena di feta è particolarmente popolare.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "600 g di manzo macinato",
-          "1 cipolla, grattugiata e strizzata",
-          "2 spicchi d'aglio, tritati",
-          "1 uovo",
-          "2 cucchiai di prezzemolo tritato e 1 cucchiaio di menta tritata",
-          "1 cucchiaino di origano secco",
-          "120 g di feta, tagliata in 4 fette",
-          "1 cucchiaio di olio d'oliva",
-          "Sale, pepe e spicchi di limone per servire"
-        ],
-        "steps": [
-          "Mescola il manzo, la cipolla, l'aglio, l'uovo, le erbe, sale e pepe e impasta per 2–3 minuti. Metti in frigorifero per 30 minuti.",
-          "Dividi in 8 porzioni e schiaccia ciascuna in una polpetta ovale.",
-          "Metti una fetta di feta su 4 polpette, coprile con le polpette rimaste e premi bene i bordi per sigillarle.",
-          "Spennella con olio d'oliva e cuoci alla griglia o in padella a fuoco medio per 5–6 minuti per lato, finché sono cotte all'interno.",
-          "Servi calde con spicchi di limone e un'insalata."
-        ]
-      },
-      "tips": [
-        "Usa manzo macinato magro (circa 5–10 % di grassi) per ridurre sensibilmente i grassi.",
-        "Dimezza la feta o elimina il ripieno: la feta è la parte più ricca della polpetta.",
-        "Cuocile alla griglia invece di friggerle e servile con una grande insalata o verdure grigliate invece delle patatine."
-      ]
-    },
-    "el": {
-      "name": "Μπιφτέκια",
-      "name_inline": "μπιφτέκια",
-      "origin": "Ελλάδα",
-      "intro": "Τα μπιφτέκια είναι ελληνικά μπιφτέκια από μοσχαρίσιο κιμά, καρυκευμένα με τριμμένο κρεμμύδι, σκόρδο, μαϊντανό, ρίγανη και δυόσμο, και συχνά γεμιστά με ένα κομμάτι φέτα που λιώνει καθώς ψήνονται. Είναι ζουμερά και μυρωδάτα, με ελαφρώς αλμυρή, κρεμώδη καρδιά. Τα μπιφτέκια σερβίρονται ως κυρίως πιάτο με χωριάτικη σαλάτα, ψητά λαχανικά ή πατάτες φούρνου και μια φέτα λεμόνι.",
-      "history": "Το όνομα προέρχεται από το γαλλικό bifteck, που με τη σειρά του είναι δάνειο από το αγγλικό «beefsteak». Τα μπιφτέκια είναι καθημερινό φαγητό στα ελληνικά σπίτια και τις ταβέρνες, και η εκδοχή με γέμιση φέτας είναι ιδιαίτερα δημοφιλής.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "600 γρ. μοσχαρίσιος κιμάς",
-          "1 κρεμμύδι, τριμμένο και στυμμένο",
-          "2 σκελίδες σκόρδο, ψιλοκομμένες",
-          "1 αυγό",
-          "2 κ.σ. ψιλοκομμένο μαϊντανό και 1 κ.σ. ψιλοκομμένο δυόσμο",
-          "1 κ.γ. ξερή ρίγανη",
-          "120 γρ. φέτα, κομμένη σε 4 φέτες",
-          "1 κ.σ. ελαιόλαδο",
-          "Αλάτι, πιπέρι και κομμάτια λεμονιού για το σερβίρισμα"
-        ],
-        "steps": [
-          "Ανακατέψτε τον κιμά, το κρεμμύδι, το σκόρδο, το αυγό, τα μυρωδικά, αλάτι και πιπέρι και ζυμώστε για 2–3 λεπτά. Βάλτε στο ψυγείο για 30 λεπτά.",
-          "Χωρίστε σε 8 μερίδες και πλάστε την καθεμία σε οβάλ μπιφτέκι.",
-          "Βάλτε μια φέτα φέτας πάνω σε 4 μπιφτέκια, σκεπάστε τα με τα υπόλοιπα και πιέστε καλά τις άκρες για να κλείσουν.",
-          "Αλείψτε με ελαιόλαδο και ψήστε στη σχάρα ή στο τηγάνι σε μέτρια φωτιά για 5–6 λεπτά από κάθε πλευρά, μέχρι να ψηθούν καλά.",
-          "Σερβίρετε ζεστά με κομμάτια λεμονιού και μια σαλάτα."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (περίπου 5–10 % λιπαρά) για να μειώσετε αισθητά τα λιπαρά.",
-        "Βάλτε τη μισή φέτα ή παραλείψτε τη γέμιση — η φέτα είναι το πιο πλούσιο μέρος του μπιφτεκιού.",
-        "Ψήστε τα στη σχάρα αντί να τα τηγανίσετε και σερβίρετε με μια μεγάλη σαλάτα ή ψητά λαχανικά αντί για τηγανητές πατάτες."
-      ]
-    },
-    "ru": {
-      "name": "Бифтеки",
-      "origin": "Греция",
-      "intro": "Бифтеки — греческие говяжьи котлеты, приправленные тёртым луком, чесноком, петрушкой, орегано и мятой и часто фаршированные кусочком феты, плавящейся при жарке на гриле. Они сочные и пряные, со слегка солёной сливочной серединой. Бифтеки подают как основное блюдо с греческим салатом, овощами на гриле или запечённым картофелем и долькой лимона.",
-      "history": "Название происходит от французского bifteck, заимствованного, в свою очередь, из английского «beefsteak». Бифтеки — повседневное блюдо в греческих домах и тавернах, а версия с фетой особенно популярна.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "600 г говяжьего фарша",
-          "1 луковица, натёртая и отжатая",
-          "2 зубчика чеснока, измельчённых",
-          "1 яйцо",
-          "2 ст. л. рубленой петрушки и 1 ст. л. рубленой мяты",
-          "1 ч. л. сушёного орегано",
-          "120 г феты, нарезанной на 4 ломтика",
-          "1 ст. л. оливкового масла",
-          "Соль, перец и дольки лимона для подачи"
-        ],
-        "steps": [
-          "Смешайте говядину, лук, чеснок, яйцо, зелень, соль и перец и вымешивайте 2–3 минуты. Охладите 30 минут.",
-          "Разделите на 8 порций и сплющите каждую в овальную котлету.",
-          "Положите ломтик феты на 4 котлеты, накройте оставшимися котлетами и крепко прижмите края, чтобы запечатать.",
-          "Смажьте оливковым маслом и жарьте на гриле или сковороде на среднем огне по 5–6 минут с каждой стороны до готовности.",
-          "Подавайте горячими с дольками лимона и салатом."
-        ]
-      },
-      "tips": [
-        "Используйте нежирный говяжий фарш (около 5–10 % жира), чтобы заметно сократить жир.",
-        "Уменьшите фету вдвое или откажитесь от начинки — фета самая жирная часть котлеты.",
-        "Жарьте на гриле, а не на сковороде, и подавайте с большим салатом или овощами на гриле, а не с картофелем фри."
-      ],
-      "name_inline": "бифтеки"
-    }
+  "ar": {
+   "name": "بيفتيكي",
+   "origin": "اليونان",
+   "intro": "البيفتيكي أقراص لحم بقري يونانية متبّلة بالبصل المبشور والثوم والبقدونس والزعتر البري (الأوريغانو) والنعناع، وغالباً ما تُحشى بقطعة من جبن الفيتا تذوب أثناء الشوي. تكون طرية غنية بالأعشاب، ولها قلب كريمي مالح قليلاً. وتُقدَّم طبقاً رئيسياً مع السلطة اليونانية أو الخضار المشوية أو البطاطا في الفرن مع شريحة ليمون.",
+   "history": "يأتي الاسم من الكلمة الفرنسية «بيفتيك»، المستعارة بدورها من الكلمة الإنجليزية «بيف ستيك». والبيفتيكي طبق يومي في البيوت والمطاعم الشعبية (التافيرنا) اليونانية، والنسخة المحشوة بالفيتا شائعة بشكل خاص.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "600 غ لحم بقري مفروم",
+     "بصلة مبشورة ومعصورة من مائها",
+     "فصّا ثوم مفرومان",
+     "بيضة واحدة",
+     "2 ملعقة كبيرة بقدونس مفروم وملعقة كبيرة نعناع مفروم",
+     "ملعقة صغيرة أوريغانو مجفّف",
+     "120 غ جبن فيتا مقطّع 4 شرائح",
+     "ملعقة كبيرة زيت زيتون",
+     "ملح وفلفل أسود وشرائح ليمون للتقديم"
+    ],
+    "steps": [
+     "اخلط اللحم والبصل والثوم والبيضة والأعشاب والملح والفلفل، واعجن 2–3 دقائق، ثم ضعه في الثلاجة 30 دقيقة.",
+     "قسّمه 8 أجزاء، وافرد كل جزء على شكل قرص بيضاوي.",
+     "ضع شريحة فيتا على 4 أقراص، وغطّها بالأقراص الأربعة الباقية، واضغط الأطراف جيداً لإغلاقها.",
+     "ادهنها بزيت الزيتون واشوها أو اطهُها في المقلاة على نار متوسطة 5–6 دقائق لكل جانب حتى تنضج تماماً.",
+     "قدّمها ساخنة مع شرائح الليمون والسلطة."
+    ]
+   },
+   "tips": [
+    "استخدم لحماً بقرياً مفروماً قليل الدهن (نحو 5–10 % دهون) لتقليل الدهون بشكل ملحوظ.",
+    "قلّل الفيتا إلى النصف أو استغنِ عن الحشوة، فهي أغنى جزء في القرص.",
+    "اشوِ الأقراص بدلاً من قليها، وقدّمها مع سلطة كبيرة أو خضار مشوية بدلاً من البطاطا المقلية."
+   ]
+  },
+  "it": {
+   "name": "Bifteki",
+   "origin": "Grecia",
+   "intro": "I bifteki sono polpette schiacciate greche di manzo insaporite con cipolla grattugiata, aglio, prezzemolo, origano e menta, spesso farcite con un pezzo di feta che si scioglie durante la cottura alla griglia. Sono succose e aromatiche, con un cuore cremoso e leggermente salato. I bifteki si servono come secondo piatto con insalata greca, verdure grigliate o patate al forno e uno spicchio di limone.",
+   "history": "Il nome deriva dal francese bifteck, a sua volta preso in prestito dall'inglese «beefsteak». I bifteki sono un piatto quotidiano nelle case e nelle taverne greche, e la versione ripiena di feta è particolarmente popolare.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "600 g di manzo macinato",
+     "1 cipolla, grattugiata e strizzata",
+     "2 spicchi d'aglio, tritati",
+     "1 uovo",
+     "2 cucchiai di prezzemolo tritato e 1 cucchiaio di menta tritata",
+     "1 cucchiaino di origano secco",
+     "120 g di feta, tagliata in 4 fette",
+     "1 cucchiaio di olio d'oliva",
+     "Sale, pepe e spicchi di limone per servire"
+    ],
+    "steps": [
+     "Mescola il manzo, la cipolla, l'aglio, l'uovo, le erbe, sale e pepe e impasta per 2–3 minuti. Metti in frigorifero per 30 minuti.",
+     "Dividi in 8 porzioni e schiaccia ciascuna in una polpetta ovale.",
+     "Metti una fetta di feta su 4 polpette, coprile con le polpette rimaste e premi bene i bordi per sigillarle.",
+     "Spennella con olio d'oliva e cuoci alla griglia o in padella a fuoco medio per 5–6 minuti per lato, finché sono cotte all'interno.",
+     "Servi calde con spicchi di limone e un'insalata."
+    ]
+   },
+   "tips": [
+    "Usa manzo macinato magro (circa 5–10 % di grassi) per ridurre sensibilmente i grassi.",
+    "Dimezza la feta o elimina il ripieno: la feta è la parte più ricca della polpetta.",
+    "Cuocile alla griglia invece di friggerle e servile con una grande insalata o verdure grigliate invece delle patatine."
+   ]
+  },
+  "el": {
+   "name": "Μπιφτέκια",
+   "name_inline": "μπιφτέκια",
+   "origin": "Ελλάδα",
+   "intro": "Τα μπιφτέκια είναι ελληνικά μπιφτέκια από μοσχαρίσιο κιμά, καρυκευμένα με τριμμένο κρεμμύδι, σκόρδο, μαϊντανό, ρίγανη και δυόσμο, και συχνά γεμιστά με ένα κομμάτι φέτα που λιώνει καθώς ψήνονται. Είναι ζουμερά και μυρωδάτα, με ελαφρώς αλμυρή, κρεμώδη καρδιά. Τα μπιφτέκια σερβίρονται ως κυρίως πιάτο με χωριάτικη σαλάτα, ψητά λαχανικά ή πατάτες φούρνου και μια φέτα λεμόνι.",
+   "history": "Το όνομα προέρχεται από το γαλλικό bifteck, που με τη σειρά του είναι δάνειο από το αγγλικό «beefsteak». Τα μπιφτέκια είναι καθημερινό φαγητό στα ελληνικά σπίτια και τις ταβέρνες, και η εκδοχή με γέμιση φέτας είναι ιδιαίτερα δημοφιλής.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "600 γρ. μοσχαρίσιος κιμάς",
+     "1 κρεμμύδι, τριμμένο και στυμμένο",
+     "2 σκελίδες σκόρδο, ψιλοκομμένες",
+     "1 αυγό",
+     "2 κ.σ. ψιλοκομμένο μαϊντανό και 1 κ.σ. ψιλοκομμένο δυόσμο",
+     "1 κ.γ. ξερή ρίγανη",
+     "120 γρ. φέτα, κομμένη σε 4 φέτες",
+     "1 κ.σ. ελαιόλαδο",
+     "Αλάτι, πιπέρι και κομμάτια λεμονιού για το σερβίρισμα"
+    ],
+    "steps": [
+     "Ανακατέψτε τον κιμά, το κρεμμύδι, το σκόρδο, το αυγό, τα μυρωδικά, αλάτι και πιπέρι και ζυμώστε για 2–3 λεπτά. Βάλτε στο ψυγείο για 30 λεπτά.",
+     "Χωρίστε σε 8 μερίδες και πλάστε την καθεμία σε οβάλ μπιφτέκι.",
+     "Βάλτε μια φέτα φέτας πάνω σε 4 μπιφτέκια, σκεπάστε τα με τα υπόλοιπα και πιέστε καλά τις άκρες για να κλείσουν.",
+     "Αλείψτε με ελαιόλαδο και ψήστε στη σχάρα ή στο τηγάνι σε μέτρια φωτιά για 5–6 λεπτά από κάθε πλευρά, μέχρι να ψηθούν καλά.",
+     "Σερβίρετε ζεστά με κομμάτια λεμονιού και μια σαλάτα."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (περίπου 5–10 % λιπαρά) για να μειώσετε αισθητά τα λιπαρά.",
+    "Βάλτε τη μισή φέτα ή παραλείψτε τη γέμιση — η φέτα είναι το πιο πλούσιο μέρος του μπιφτεκιού.",
+    "Ψήστε τα στη σχάρα αντί να τα τηγανίσετε και σερβίρετε με μια μεγάλη σαλάτα ή ψητά λαχανικά αντί για τηγανητές πατάτες."
+   ]
+  },
+  "ru": {
+   "name": "Бифтеки",
+   "origin": "Греция",
+   "intro": "Бифтеки — греческие говяжьи котлеты, приправленные тёртым луком, чесноком, петрушкой, орегано и мятой и часто фаршированные кусочком феты, плавящейся при жарке на гриле. Они сочные и пряные, со слегка солёной сливочной серединой. Бифтеки подают как основное блюдо с греческим салатом, овощами на гриле или запечённым картофелем и долькой лимона.",
+   "history": "Название происходит от французского bifteck, заимствованного, в свою очередь, из английского «beefsteak». Бифтеки — повседневное блюдо в греческих домах и тавернах, а версия с фетой особенно популярна.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "600 г говяжьего фарша",
+     "1 луковица, натёртая и отжатая",
+     "2 зубчика чеснока, измельчённых",
+     "1 яйцо",
+     "2 ст. л. рубленой петрушки и 1 ст. л. рубленой мяты",
+     "1 ч. л. сушёного орегано",
+     "120 г феты, нарезанной на 4 ломтика",
+     "1 ст. л. оливкового масла",
+     "Соль, перец и дольки лимона для подачи"
+    ],
+    "steps": [
+     "Смешайте говядину, лук, чеснок, яйцо, зелень, соль и перец и вымешивайте 2–3 минуты. Охладите 30 минут.",
+     "Разделите на 8 порций и сплющите каждую в овальную котлету.",
+     "Положите ломтик феты на 4 котлеты, накройте оставшимися котлетами и крепко прижмите края, чтобы запечатать.",
+     "Смажьте оливковым маслом и жарьте на гриле или сковороде на среднем огне по 5–6 минут с каждой стороны до готовности.",
+     "Подавайте горячими с дольками лимона и салатом."
+    ]
+   },
+   "tips": [
+    "Используйте нежирный говяжий фарш (около 5–10 % жира), чтобы заметно сократить жир.",
+    "Уменьшите фету вдвое или откажитесь от начинки — фета самая жирная часть котлеты.",
+    "Жарьте на гриле, а не на сковороде, и подавайте с большим салатом или овощами на гриле, а не с картофелем фри."
+   ],
+   "name_inline": "бифтеки"
+  },
+  "es": {
+   "name": "Bifteki",
+   "origin": "Grecia",
+   "intro": "Los bifteki son hamburguesas griegas de carne de res sazonadas con cebolla rallada, ajo, perejil, orégano y menta, y a menudo rellenas de un trozo de feta que se derrite al asarlas. Son jugosas y herbales, con un centro ligeramente salado y cremoso. Se sirven como plato fuerte con ensalada griega, verduras a la parrilla o papas al horno y un gajo de limón.",
+   "history": "El nombre viene del francés bifteck, que a su vez se tomó del inglés «beefsteak». Los bifteki son un plato de diario en los hogares y tabernas de Grecia, y la versión rellena de feta es especialmente popular.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "600 g de carne de res molida",
+     "1 cebolla, rallada y exprimida",
+     "2 dientes de ajo, picados",
+     "1 huevo",
+     "2 cda. de perejil picado y 1 cda. de menta picada",
+     "1 cdta. de orégano seco",
+     "120 g de feta, cortado en 4 rebanadas",
+     "1 cda. de aceite de oliva",
+     "Sal, pimienta y gajos de limón para servir"
+    ],
+    "steps": [
+     "Mezcla la carne, la cebolla, el ajo, el huevo, las hierbas, la sal y la pimienta, y amasa de 2 a 3 minutos. Refrigera 30 minutos.",
+     "Divide en 8 porciones y aplana cada una formando una hamburguesa ovalada.",
+     "Coloca una rebanada de feta sobre 4 hamburguesas, cubre con las restantes y presiona firmemente los bordes para sellar.",
+     "Unta con aceite de oliva y asa o fríe a fuego medio de 5 a 6 minutos por lado hasta que estén cocidas por dentro.",
+     "Sirve caliente con gajos de limón y una ensalada."
+    ]
+   },
+   "tips": [
+    "Usa carne de res molida magra (con un 5 a 10 % de grasa) para reducir notablemente la grasa.",
+    "Usa la mitad del feta u omite el relleno: el feta es la parte más grasosa de la hamburguesa.",
+    "Asa en lugar de freír y sirve con una ensalada grande o verduras a la parrilla en lugar de papas fritas."
+   ],
+   "name_inline": "los bifteki"
   }
+ }
 }

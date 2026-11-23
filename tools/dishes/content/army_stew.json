@@ -1,177 +1,210 @@
 {
-  "db_key": "army_stew",
-  "slug": "army-stew",
-  "emoji": "🍲",
-  "portion_g": 450,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "army_stew",
+ "slug": "army-stew",
+ "emoji": "🍲",
+ "portion_g": 450,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Budae jjigae (Korean army stew)",
+   "origin": "South Korea · Uijeongbu",
+   "intro": "Budae jjigae is a spicy Korean fusion stew that combines kimchi and Korean chilli flakes with canned luncheon meat, sliced sausages, instant ramen noodles and a slice of melting cheese on top. The broth is red, tangy and rich, the noodles soak it up, and the cheese makes it creamy. It is cooked at the table in a wide shallow pot and shared straight from it.",
+   "history": "The stew is usually traced to the years after the Korean War, when food was scarce and processed meats such as canned ham and sausages found their way out of US military bases. Cooks around Uijeongbu, a city near a large base north of Seoul, combined them with kimchi and chilli in a spicy stew; the name budae means military unit. Instant noodles and cheese were added later, and today it is a popular comfort food across South Korea.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "200 g well-fermented kimchi, chopped",
+     "200 g canned luncheon meat (canned ham), sliced",
+     "2 sausages, sliced diagonally",
+     "1 block instant ramen noodles (without the seasoning packet)",
+     "1 slice of cheese",
+     "1 onion, sliced, and 2 spring onions, cut into lengths",
+     "1–2 tbsp gochugaru (Korean chilli flakes), 2 garlic cloves, 1 tsp sugar",
+     "800 ml water"
+    ],
+    "steps": [
+     "Mix the gochugaru, crushed garlic and sugar with 2 tbsp of water to make a quick paste.",
+     "Arrange the kimchi, luncheon meat, sausages and onion in sections in a wide, shallow pot. Spoon the chilli paste into the centre.",
+     "Pour in the water, bring to the boil and simmer for 8–10 minutes.",
+     "Add the noodles and spring onions and cook 3–4 minutes until the noodles are just soft.",
+     "Lay the slice of cheese on top, let it melt and serve straight from the pot."
+    ]
+   },
+   "tips": [
+    "A 450 g bowl is around 1,000 kcal; share the pot between more people and fill up with extra vegetables.",
+    "Use half the luncheon meat and sausages and add mushrooms, cabbage and courgette to keep the pot full.",
+    "Skip the cheese slice and use half a block of noodles — the kimchi broth still carries plenty of flavour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Budae jjigae (Korean army stew)",
-      "origin": "South Korea · Uijeongbu",
-      "intro": "Budae jjigae is a spicy Korean fusion stew that combines kimchi and Korean chilli flakes with canned luncheon meat, sliced sausages, instant ramen noodles and a slice of melting cheese on top. The broth is red, tangy and rich, the noodles soak it up, and the cheese makes it creamy. It is cooked at the table in a wide shallow pot and shared straight from it.",
-      "history": "The stew is usually traced to the years after the Korean War, when food was scarce and processed meats such as canned ham and sausages found their way out of US military bases. Cooks around Uijeongbu, a city near a large base north of Seoul, combined them with kimchi and chilli in a spicy stew; the name budae means military unit. Instant noodles and cheese were added later, and today it is a popular comfort food across South Korea.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "200 g well-fermented kimchi, chopped",
-          "200 g canned luncheon meat (canned ham), sliced",
-          "2 sausages, sliced diagonally",
-          "1 block instant ramen noodles (without the seasoning packet)",
-          "1 slice of cheese",
-          "1 onion, sliced, and 2 spring onions, cut into lengths",
-          "1–2 tbsp gochugaru (Korean chilli flakes), 2 garlic cloves, 1 tsp sugar",
-          "800 ml water"
-        ],
-        "steps": [
-          "Mix the gochugaru, crushed garlic and sugar with 2 tbsp of water to make a quick paste.",
-          "Arrange the kimchi, luncheon meat, sausages and onion in sections in a wide, shallow pot. Spoon the chilli paste into the centre.",
-          "Pour in the water, bring to the boil and simmer for 8–10 minutes.",
-          "Add the noodles and spring onions and cook 3–4 minutes until the noodles are just soft.",
-          "Lay the slice of cheese on top, let it melt and serve straight from the pot."
-        ]
-      },
-      "tips": [
-        "A 450 g bowl is around 1,000 kcal; share the pot between more people and fill up with extra vegetables.",
-        "Use half the luncheon meat and sausages and add mushrooms, cabbage and courgette to keep the pot full.",
-        "Skip the cheese slice and use half a block of noodles — the kimchi broth still carries plenty of flavour."
-      ]
-    },
-    "ar": {
-      "name": "بوداي جيغاي (يخنة الجيش الكورية)",
-      "origin": "كوريا الجنوبية · أويجونغبو",
-      "intro": "بوداي جيغاي يخنة كورية حارة تمزج بين مطبخين، تجمع الكيمتشي ورقائق الفلفل الكوري مع اللحم المعلّب المضغوط وشرائح النقانق ونودلز الرامن سريعة التحضير، وتعلوها شريحة جبن ذائبة. المرق أحمر لاذع وغني، والنودلز تتشربه، والجبن يمنحه قوامًا كريميًا. تُطهى على المائدة في قدر عريضة ضحلة ويتشارك الجميع الأكل منها مباشرة.",
-      "history": "يُرجَع أصل هذه اليخنة عادةً إلى السنوات التي تلت الحرب الكورية، حين كان الطعام شحيحًا ووجدت اللحوم المصنّعة مثل اللحم المعلّب والنقانق طريقها خارج القواعد العسكرية الأمريكية. فجمعها الطهاة في منطقة أويجونغبو، وهي مدينة قريبة من قاعدة كبيرة شمال سيول، مع الكيمتشي والفلفل في يخنة حارة؛ وتعني كلمة «بوداي» الوحدة العسكرية. وأُضيفت النودلز سريعة التحضير والجبن لاحقًا، وهي اليوم من الأطباق المحبوبة في أنحاء كوريا الجنوبية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "200 غ كيمتشي مخمّر جيدًا ومقطّع",
-          "200 غ لحم معلّب مضغوط، مقطّع شرائح",
-          "2 حبة نقانق مقطعة شرائح مائلة",
-          "1 قالب نودلز رامن سريعة التحضير (دون كيس التوابل)",
-          "1 شريحة جبن",
-          "1 بصلة مقطعة شرائح، و2 عود بصل أخضر مقطع",
-          "1–2 ملعقة كبيرة غوتشوغارو (رقائق الفلفل الكوري)، 2 فص ثوم، 1 ملعقة صغيرة سكر",
-          "800 مل ماء"
-        ],
-        "steps": [
-          "اخلط الغوتشوغارو والثوم المهروس والسكر مع ملعقتين كبيرتين من الماء لتحصل على معجون سريع.",
-          "رتّب الكيمتشي واللحم المعلّب والنقانق والبصل في أقسام داخل قدر عريضة ضحلة، وضع معجون الفلفل في الوسط.",
-          "أضف الماء واتركه يغلي، ثم اطهه على نار هادئة 8–10 دقائق.",
-          "أضف النودلز والبصل الأخضر واطهها 3–4 دقائق حتى تلين النودلز.",
-          "ضع شريحة الجبن في الأعلى واتركها تذوب، وقدّم اليخنة من القدر مباشرة."
-        ]
-      },
-      "tips": [
-        "وعاء بوزن 450 غ يعادل نحو 1000 سعرة؛ وزّع القدر على عدد أكبر من الأشخاص وأكمل بمزيد من الخضار.",
-        "استخدم نصف كمية اللحم المعلّب والنقانق وأضف الفطر والملفوف والكوسا لتبقى القدر ممتلئة.",
-        "استغنِ عن شريحة الجبن واستخدم نصف قالب نودلز — يبقى مرق الكيمتشي غنيًا بالنكهة."
-      ]
-    },
-    "it": {
-      "name": "Budae jjigae (stufato coreano dell'esercito)",
-      "name_inline": "budae jjigae",
-      "origin": "Corea del Sud · Uijeongbu",
-      "intro": "Il budae jjigae è uno stufato coreano fusion e piccante che unisce kimchi e peperoncino coreano in fiocchi a carne in scatola tipo luncheon meat, würstel a fette, noodles ramen istantanei e una fetta di formaggio che si scioglie sopra. Il brodo è rosso, acidulo e ricco, i noodles lo assorbono e il formaggio lo rende cremoso. Si cuoce a tavola in una pentola larga e bassa e si condivide mangiando direttamente da lì.",
-      "history": "Lo stufato si fa di solito risalire agli anni successivi alla guerra di Corea, quando il cibo scarseggiava e carni lavorate come il prosciutto in scatola e i würstel uscivano dalle basi militari statunitensi. I cuochi della zona di Uijeongbu, una città vicina a una grande base a nord di Seul, le unirono a kimchi e peperoncino in uno stufato piccante; il nome budae significa unità militare. Noodles istantanei e formaggio furono aggiunti più tardi, e oggi è un comfort food molto popolare in tutta la Corea del Sud.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "200 g di kimchi ben fermentato, tritato",
-          "200 g di carne in scatola tipo luncheon meat (prosciutto in scatola), a fette",
-          "2 würstel, tagliati a fette in diagonale",
-          "1 panetto di noodles ramen istantanei (senza la bustina di condimento)",
-          "1 fetta di formaggio",
-          "1 cipolla, affettata, e 2 cipollotti, tagliati a pezzi",
-          "1–2 cucchiai di gochugaru (peperoncino coreano in fiocchi), 2 spicchi d'aglio, 1 cucchiaino di zucchero",
-          "800 ml di acqua"
-        ],
-        "steps": [
-          "Mescola il gochugaru, l'aglio schiacciato e lo zucchero con 2 cucchiai d'acqua per ottenere una pasta veloce.",
-          "Disponi kimchi, carne in scatola, würstel e cipolla a settori in una pentola larga e bassa. Metti la pasta di peperoncino al centro.",
-          "Versa l'acqua, porta a bollore e lascia sobbollire per 8–10 minuti.",
-          "Aggiungi i noodles e i cipollotti e cuoci 3–4 minuti, finché i noodles sono appena morbidi.",
-          "Adagia sopra la fetta di formaggio, lasciala sciogliere e servi direttamente dalla pentola."
-        ]
-      },
-      "tips": [
-        "Una ciotola da 450 g ha circa 1.000 kcal; dividi la pentola tra più persone e riempiti con verdure in più.",
-        "Usa metà della carne in scatola e dei würstel e aggiungi funghi, cavolo e zucchina per tenere piena la pentola.",
-        "Salta la fetta di formaggio e usa mezzo panetto di noodles: il brodo al kimchi ha comunque tantissimo sapore."
-      ]
-    },
-    "el": {
-      "name": "Μπουντέ τζιγκέ (κορεατικό στιφάδο του στρατού)",
-      "name_inline": "μπουντέ τζιγκέ",
-      "origin": "Νότια Κορέα · Ουιτζονγκμπού",
-      "intro": "Το μπουντέ τζιγκέ είναι ένα πικάντικο κορεατικό φιούζιον στιφάδο που συνδυάζει κίμτσι και κορεατικές νιφάδες τσίλι με κρέας κονσέρβας τύπου luncheon meat, λουκάνικα σε φέτες, στιγμιαία νουντλς ράμεν και μια φέτα τυρί που λιώνει από πάνω. Ο ζωμός είναι κόκκινος, ξινούτσικος και πλούσιος, τα νουντλς τον απορροφούν και το τυρί τον κάνει κρεμώδη. Μαγειρεύεται στο τραπέζι σε φαρδιά ρηχή κατσαρόλα και όλοι τρώνε απευθείας από αυτήν.",
-      "history": "Το φαγητό ανάγεται συνήθως στα χρόνια μετά τον πόλεμο της Κορέας, όταν τα τρόφιμα ήταν λιγοστά και επεξεργασμένα κρέατα όπως το ζαμπόν κονσέρβας και τα λουκάνικα έβγαιναν από τις στρατιωτικές βάσεις των ΗΠΑ. Μάγειρες γύρω από την Ουιτζονγκμπού, μια πόλη κοντά σε μεγάλη βάση βόρεια της Σεούλ, τα συνδύασαν με κίμτσι και τσίλι σε ένα πικάντικο στιφάδο· η λέξη μπουντέ σημαίνει στρατιωτική μονάδα. Τα στιγμιαία νουντλς και το τυρί προστέθηκαν αργότερα, και σήμερα είναι δημοφιλές παρηγορητικό φαγητό σε όλη τη Νότια Κορέα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "200 γρ. καλά ζυμωμένο κίμτσι, ψιλοκομμένο",
-          "200 γρ. κρέας κονσέρβας τύπου luncheon meat (ζαμπόν κονσέρβας), σε φέτες",
-          "2 λουκάνικα, κομμένα λοξά σε φέτες",
-          "1 πλάκα στιγμιαία νουντλς ράμεν (χωρίς το φακελάκι καρυκευμάτων)",
-          "1 φέτα τυρί",
-          "1 κρεμμύδι, σε φέτες, και 2 φρέσκα κρεμμυδάκια, σε κομμάτια",
-          "1–2 κ.σ. γκοτσουγκαρού (κορεατικές νιφάδες τσίλι), 2 σκελίδες σκόρδο, 1 κ.γ. ζάχαρη",
-          "800 ml νερό"
-        ],
-        "steps": [
-          "Ανακατέψτε το γκοτσουγκαρού, το λιωμένο σκόρδο και τη ζάχαρη με 2 κ.σ. νερό για μια γρήγορη πάστα.",
-          "Τοποθετήστε το κίμτσι, το κρέας κονσέρβας, τα λουκάνικα και το κρεμμύδι σε τμήματα σε φαρδιά, ρηχή κατσαρόλα. Βάλτε την πάστα τσίλι στο κέντρο.",
-          "Ρίξτε το νερό, φέρτε σε βρασμό και σιγοβράστε 8–10 λεπτά.",
-          "Προσθέστε τα νουντλς και τα φρέσκα κρεμμυδάκια και μαγειρέψτε 3–4 λεπτά, μέχρι τα νουντλς να μόλις μαλακώσουν.",
-          "Βάλτε τη φέτα τυρί από πάνω, αφήστε τη να λιώσει και σερβίρετε απευθείας από την κατσαρόλα."
-        ]
-      },
-      "tips": [
-        "Ένα μπολ 450 γρ. έχει περίπου 1.000 kcal· μοιράστε την κατσαρόλα σε περισσότερα άτομα και χορτάστε με επιπλέον λαχανικά.",
-        "Βάλτε το μισό κρέας κονσέρβας και τα μισά λουκάνικα και προσθέστε μανιτάρια, λάχανο και κολοκυθάκι για να μείνει γεμάτη η κατσαρόλα.",
-        "Παραλείψτε τη φέτα τυρί και βάλτε μισή πλάκα νουντλς — ο ζωμός με το κίμτσι έχει ούτως ή άλλως πολλή γεύση."
-      ]
-    },
-    "ru": {
-      "name": "Бутэ-тиге (корейское армейское рагу)",
-      "origin": "Южная Корея · Ыйчжонбу",
-      "intro": "Бутэ-тиге — острое корейское рагу-фьюжн, сочетающее кимчи и корейские хлопья чили с консервированным мясом, нарезанными колбасками, лапшой быстрого приготовления и ломтиком плавящегося сыра сверху. Бульон красный, кисловатый и насыщенный, лапша впитывает его, а сыр делает блюдо сливочным. Его готовят за столом в широком неглубоком котелке и едят прямо из него все вместе.",
-      "history": "Рагу обычно возводят к годам после Корейской войны, когда еды не хватало, а обработанные мясные продукты, такие как консервированная ветчина и колбасы, попадали с американских военных баз. Повара в окрестностях Ыйчжонбу, города рядом с крупной базой к северу от Сеула, сочетали их с кимчи и чили в остром рагу; название бутэ означает «воинская часть». Лапшу быстрого приготовления и сыр добавили позже, а сегодня это популярная комфортная еда по всей Южной Корее.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "200 г хорошо заквашенного кимчи, нарубленного",
-          "200 г консервированного мяса (консервированная ветчина), нарезанного",
-          "2 колбаски, нарезанные по диагонали",
-          "1 брикет лапши быстрого приготовления (без пакетика с приправой)",
-          "1 ломтик сыра",
-          "1 луковица, нарезанная, и 2 стебля зелёного лука, нарезанные отрезками",
-          "1–2 ст. л. гочугару (корейских хлопьев чили), 2 зубчика чеснока, 1 ч. л. сахара",
-          "800 мл воды"
-        ],
-        "steps": [
-          "Смешайте гочугару, раздавленный чеснок и сахар с 2 ст. л. воды в быструю пасту.",
-          "Выложите кимчи, консервированное мясо, колбаски и лук секциями в широкий неглубокий котелок. Положите ложкой пасту чили в центр.",
-          "Влейте воду, доведите до кипения и варите 8–10 минут.",
-          "Добавьте лапшу и зелёный лук и варите 3–4 минуты, пока лапша не станет только-только мягкой.",
-          "Положите сверху ломтик сыра, дайте ему расплавиться и подавайте прямо из котелка."
-        ]
-      },
-      "tips": [
-        "Миска 450 г — около 1000 ккал; делите котелок на большее число людей и добавляйте больше овощей.",
-        "Используйте вдвое меньше консервированного мяса и колбасок и добавьте грибы, капусту и цуккини, чтобы котелок оставался полным.",
-        "Пропустите ломтик сыра и берите половину брикета лапши — бульон с кимчи всё равно несёт много вкуса."
-      ],
-      "name_inline": "бутэ-тиге"
-    }
+  "ar": {
+   "name": "بوداي جيغاي (يخنة الجيش الكورية)",
+   "origin": "كوريا الجنوبية · أويجونغبو",
+   "intro": "بوداي جيغاي يخنة كورية حارة تمزج بين مطبخين، تجمع الكيمتشي ورقائق الفلفل الكوري مع اللحم المعلّب المضغوط وشرائح النقانق ونودلز الرامن سريعة التحضير، وتعلوها شريحة جبن ذائبة. المرق أحمر لاذع وغني، والنودلز تتشربه، والجبن يمنحه قوامًا كريميًا. تُطهى على المائدة في قدر عريضة ضحلة ويتشارك الجميع الأكل منها مباشرة.",
+   "history": "يُرجَع أصل هذه اليخنة عادةً إلى السنوات التي تلت الحرب الكورية، حين كان الطعام شحيحًا ووجدت اللحوم المصنّعة مثل اللحم المعلّب والنقانق طريقها خارج القواعد العسكرية الأمريكية. فجمعها الطهاة في منطقة أويجونغبو، وهي مدينة قريبة من قاعدة كبيرة شمال سيول، مع الكيمتشي والفلفل في يخنة حارة؛ وتعني كلمة «بوداي» الوحدة العسكرية. وأُضيفت النودلز سريعة التحضير والجبن لاحقًا، وهي اليوم من الأطباق المحبوبة في أنحاء كوريا الجنوبية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "200 غ كيمتشي مخمّر جيدًا ومقطّع",
+     "200 غ لحم معلّب مضغوط، مقطّع شرائح",
+     "2 حبة نقانق مقطعة شرائح مائلة",
+     "1 قالب نودلز رامن سريعة التحضير (دون كيس التوابل)",
+     "1 شريحة جبن",
+     "1 بصلة مقطعة شرائح، و2 عود بصل أخضر مقطع",
+     "1–2 ملعقة كبيرة غوتشوغارو (رقائق الفلفل الكوري)، 2 فص ثوم، 1 ملعقة صغيرة سكر",
+     "800 مل ماء"
+    ],
+    "steps": [
+     "اخلط الغوتشوغارو والثوم المهروس والسكر مع ملعقتين كبيرتين من الماء لتحصل على معجون سريع.",
+     "رتّب الكيمتشي واللحم المعلّب والنقانق والبصل في أقسام داخل قدر عريضة ضحلة، وضع معجون الفلفل في الوسط.",
+     "أضف الماء واتركه يغلي، ثم اطهه على نار هادئة 8–10 دقائق.",
+     "أضف النودلز والبصل الأخضر واطهها 3–4 دقائق حتى تلين النودلز.",
+     "ضع شريحة الجبن في الأعلى واتركها تذوب، وقدّم اليخنة من القدر مباشرة."
+    ]
+   },
+   "tips": [
+    "وعاء بوزن 450 غ يعادل نحو 1000 سعرة؛ وزّع القدر على عدد أكبر من الأشخاص وأكمل بمزيد من الخضار.",
+    "استخدم نصف كمية اللحم المعلّب والنقانق وأضف الفطر والملفوف والكوسا لتبقى القدر ممتلئة.",
+    "استغنِ عن شريحة الجبن واستخدم نصف قالب نودلز — يبقى مرق الكيمتشي غنيًا بالنكهة."
+   ]
+  },
+  "it": {
+   "name": "Budae jjigae (stufato coreano dell'esercito)",
+   "name_inline": "budae jjigae",
+   "origin": "Corea del Sud · Uijeongbu",
+   "intro": "Il budae jjigae è uno stufato coreano fusion e piccante che unisce kimchi e peperoncino coreano in fiocchi a carne in scatola tipo luncheon meat, würstel a fette, noodles ramen istantanei e una fetta di formaggio che si scioglie sopra. Il brodo è rosso, acidulo e ricco, i noodles lo assorbono e il formaggio lo rende cremoso. Si cuoce a tavola in una pentola larga e bassa e si condivide mangiando direttamente da lì.",
+   "history": "Lo stufato si fa di solito risalire agli anni successivi alla guerra di Corea, quando il cibo scarseggiava e carni lavorate come il prosciutto in scatola e i würstel uscivano dalle basi militari statunitensi. I cuochi della zona di Uijeongbu, una città vicina a una grande base a nord di Seul, le unirono a kimchi e peperoncino in uno stufato piccante; il nome budae significa unità militare. Noodles istantanei e formaggio furono aggiunti più tardi, e oggi è un comfort food molto popolare in tutta la Corea del Sud.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "200 g di kimchi ben fermentato, tritato",
+     "200 g di carne in scatola tipo luncheon meat (prosciutto in scatola), a fette",
+     "2 würstel, tagliati a fette in diagonale",
+     "1 panetto di noodles ramen istantanei (senza la bustina di condimento)",
+     "1 fetta di formaggio",
+     "1 cipolla, affettata, e 2 cipollotti, tagliati a pezzi",
+     "1–2 cucchiai di gochugaru (peperoncino coreano in fiocchi), 2 spicchi d'aglio, 1 cucchiaino di zucchero",
+     "800 ml di acqua"
+    ],
+    "steps": [
+     "Mescola il gochugaru, l'aglio schiacciato e lo zucchero con 2 cucchiai d'acqua per ottenere una pasta veloce.",
+     "Disponi kimchi, carne in scatola, würstel e cipolla a settori in una pentola larga e bassa. Metti la pasta di peperoncino al centro.",
+     "Versa l'acqua, porta a bollore e lascia sobbollire per 8–10 minuti.",
+     "Aggiungi i noodles e i cipollotti e cuoci 3–4 minuti, finché i noodles sono appena morbidi.",
+     "Adagia sopra la fetta di formaggio, lasciala sciogliere e servi direttamente dalla pentola."
+    ]
+   },
+   "tips": [
+    "Una ciotola da 450 g ha circa 1.000 kcal; dividi la pentola tra più persone e riempiti con verdure in più.",
+    "Usa metà della carne in scatola e dei würstel e aggiungi funghi, cavolo e zucchina per tenere piena la pentola.",
+    "Salta la fetta di formaggio e usa mezzo panetto di noodles: il brodo al kimchi ha comunque tantissimo sapore."
+   ]
+  },
+  "el": {
+   "name": "Μπουντέ τζιγκέ (κορεατικό στιφάδο του στρατού)",
+   "name_inline": "μπουντέ τζιγκέ",
+   "origin": "Νότια Κορέα · Ουιτζονγκμπού",
+   "intro": "Το μπουντέ τζιγκέ είναι ένα πικάντικο κορεατικό φιούζιον στιφάδο που συνδυάζει κίμτσι και κορεατικές νιφάδες τσίλι με κρέας κονσέρβας τύπου luncheon meat, λουκάνικα σε φέτες, στιγμιαία νουντλς ράμεν και μια φέτα τυρί που λιώνει από πάνω. Ο ζωμός είναι κόκκινος, ξινούτσικος και πλούσιος, τα νουντλς τον απορροφούν και το τυρί τον κάνει κρεμώδη. Μαγειρεύεται στο τραπέζι σε φαρδιά ρηχή κατσαρόλα και όλοι τρώνε απευθείας από αυτήν.",
+   "history": "Το φαγητό ανάγεται συνήθως στα χρόνια μετά τον πόλεμο της Κορέας, όταν τα τρόφιμα ήταν λιγοστά και επεξεργασμένα κρέατα όπως το ζαμπόν κονσέρβας και τα λουκάνικα έβγαιναν από τις στρατιωτικές βάσεις των ΗΠΑ. Μάγειρες γύρω από την Ουιτζονγκμπού, μια πόλη κοντά σε μεγάλη βάση βόρεια της Σεούλ, τα συνδύασαν με κίμτσι και τσίλι σε ένα πικάντικο στιφάδο· η λέξη μπουντέ σημαίνει στρατιωτική μονάδα. Τα στιγμιαία νουντλς και το τυρί προστέθηκαν αργότερα, και σήμερα είναι δημοφιλές παρηγορητικό φαγητό σε όλη τη Νότια Κορέα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "200 γρ. καλά ζυμωμένο κίμτσι, ψιλοκομμένο",
+     "200 γρ. κρέας κονσέρβας τύπου luncheon meat (ζαμπόν κονσέρβας), σε φέτες",
+     "2 λουκάνικα, κομμένα λοξά σε φέτες",
+     "1 πλάκα στιγμιαία νουντλς ράμεν (χωρίς το φακελάκι καρυκευμάτων)",
+     "1 φέτα τυρί",
+     "1 κρεμμύδι, σε φέτες, και 2 φρέσκα κρεμμυδάκια, σε κομμάτια",
+     "1–2 κ.σ. γκοτσουγκαρού (κορεατικές νιφάδες τσίλι), 2 σκελίδες σκόρδο, 1 κ.γ. ζάχαρη",
+     "800 ml νερό"
+    ],
+    "steps": [
+     "Ανακατέψτε το γκοτσουγκαρού, το λιωμένο σκόρδο και τη ζάχαρη με 2 κ.σ. νερό για μια γρήγορη πάστα.",
+     "Τοποθετήστε το κίμτσι, το κρέας κονσέρβας, τα λουκάνικα και το κρεμμύδι σε τμήματα σε φαρδιά, ρηχή κατσαρόλα. Βάλτε την πάστα τσίλι στο κέντρο.",
+     "Ρίξτε το νερό, φέρτε σε βρασμό και σιγοβράστε 8–10 λεπτά.",
+     "Προσθέστε τα νουντλς και τα φρέσκα κρεμμυδάκια και μαγειρέψτε 3–4 λεπτά, μέχρι τα νουντλς να μόλις μαλακώσουν.",
+     "Βάλτε τη φέτα τυρί από πάνω, αφήστε τη να λιώσει και σερβίρετε απευθείας από την κατσαρόλα."
+    ]
+   },
+   "tips": [
+    "Ένα μπολ 450 γρ. έχει περίπου 1.000 kcal· μοιράστε την κατσαρόλα σε περισσότερα άτομα και χορτάστε με επιπλέον λαχανικά.",
+    "Βάλτε το μισό κρέας κονσέρβας και τα μισά λουκάνικα και προσθέστε μανιτάρια, λάχανο και κολοκυθάκι για να μείνει γεμάτη η κατσαρόλα.",
+    "Παραλείψτε τη φέτα τυρί και βάλτε μισή πλάκα νουντλς — ο ζωμός με το κίμτσι έχει ούτως ή άλλως πολλή γεύση."
+   ]
+  },
+  "ru": {
+   "name": "Бутэ-тиге (корейское армейское рагу)",
+   "origin": "Южная Корея · Ыйчжонбу",
+   "intro": "Бутэ-тиге — острое корейское рагу-фьюжн, сочетающее кимчи и корейские хлопья чили с консервированным мясом, нарезанными колбасками, лапшой быстрого приготовления и ломтиком плавящегося сыра сверху. Бульон красный, кисловатый и насыщенный, лапша впитывает его, а сыр делает блюдо сливочным. Его готовят за столом в широком неглубоком котелке и едят прямо из него все вместе.",
+   "history": "Рагу обычно возводят к годам после Корейской войны, когда еды не хватало, а обработанные мясные продукты, такие как консервированная ветчина и колбасы, попадали с американских военных баз. Повара в окрестностях Ыйчжонбу, города рядом с крупной базой к северу от Сеула, сочетали их с кимчи и чили в остром рагу; название бутэ означает «воинская часть». Лапшу быстрого приготовления и сыр добавили позже, а сегодня это популярная комфортная еда по всей Южной Корее.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "200 г хорошо заквашенного кимчи, нарубленного",
+     "200 г консервированного мяса (консервированная ветчина), нарезанного",
+     "2 колбаски, нарезанные по диагонали",
+     "1 брикет лапши быстрого приготовления (без пакетика с приправой)",
+     "1 ломтик сыра",
+     "1 луковица, нарезанная, и 2 стебля зелёного лука, нарезанные отрезками",
+     "1–2 ст. л. гочугару (корейских хлопьев чили), 2 зубчика чеснока, 1 ч. л. сахара",
+     "800 мл воды"
+    ],
+    "steps": [
+     "Смешайте гочугару, раздавленный чеснок и сахар с 2 ст. л. воды в быструю пасту.",
+     "Выложите кимчи, консервированное мясо, колбаски и лук секциями в широкий неглубокий котелок. Положите ложкой пасту чили в центр.",
+     "Влейте воду, доведите до кипения и варите 8–10 минут.",
+     "Добавьте лапшу и зелёный лук и варите 3–4 минуты, пока лапша не станет только-только мягкой.",
+     "Положите сверху ломтик сыра, дайте ему расплавиться и подавайте прямо из котелка."
+    ]
+   },
+   "tips": [
+    "Миска 450 г — около 1000 ккал; делите котелок на большее число людей и добавляйте больше овощей.",
+    "Используйте вдвое меньше консервированного мяса и колбасок и добавьте грибы, капусту и цуккини, чтобы котелок оставался полным.",
+    "Пропустите ломтик сыра и берите половину брикета лапши — бульон с кимчи всё равно несёт много вкуса."
+   ],
+   "name_inline": "бутэ-тиге"
+  },
+  "es": {
+   "name": "Budae jjigae (estofado del ejército coreano)",
+   "origin": "Corea del Sur · Uijeongbu",
+   "intro": "El budae jjigae es un estofado picante de fusión coreana que combina kimchi y hojuelas de chile coreano con carne enlatada, rodajas de salchicha, fideos ramen instantáneos y una rebanada de queso derretido encima. El caldo es rojo, ácido y sustancioso, los fideos lo absorben y el queso lo vuelve cremoso. Se cocina en la mesa en una olla ancha y poco profunda, y se come directo de ella para compartir.",
+   "history": "El estofado suele remontarse a los años posteriores a la Guerra de Corea, cuando los alimentos escaseaban y carnes procesadas como el jamón enlatado y las salchichas salían de las bases militares estadounidenses. Cocineros de los alrededores de Uijeongbu, una ciudad cercana a una gran base al norte de Seúl, las combinaron con kimchi y chile en un estofado picante; budae significa unidad militar. Los fideos instantáneos y el queso se añadieron más tarde, y hoy es una comida reconfortante muy popular en toda Corea del Sur.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "200 g de kimchi bien fermentado, picado",
+     "200 g de carne enlatada tipo luncheon meat (jamón enlatado), en rebanadas",
+     "2 salchichas, en rodajas en diagonal",
+     "1 bloque de fideos ramen instantáneos (sin el sobre de condimento)",
+     "1 rebanada de queso",
+     "1 cebolla, en rodajas, y 2 cebollitas de cambray, en trozos",
+     "1–2 cdas. de gochugaru (hojuelas de chile coreano), 2 dientes de ajo, 1 cdta. de azúcar",
+     "800 ml de agua"
+    ],
+    "steps": [
+     "Mezcla el gochugaru, el ajo machacado y el azúcar con 2 cdas. de agua para formar una pasta rápida.",
+     "Acomoda el kimchi, la carne enlatada, las salchichas y la cebolla por secciones en una olla ancha y poco profunda. Pon la pasta de chile en el centro.",
+     "Vierte el agua, lleva a ebullición y cocina a fuego lento de 8 a 10 minutos.",
+     "Agrega los fideos y las cebollitas y cocina de 3 a 4 minutos, hasta que los fideos estén apenas suaves.",
+     "Coloca la rebanada de queso encima, deja que se derrita y sirve directo de la olla."
+    ]
+   },
+   "tips": [
+    "Un plato de 450 g tiene alrededor de 1000 kcal; comparte la olla entre más personas y llénate con más verduras.",
+    "Usa la mitad de la carne enlatada y de las salchichas y agrega hongos, repollo y calabacitas para que la olla siga llena.",
+    "Omite la rebanada de queso y usa medio bloque de fideos: el caldo de kimchi ya aporta mucho sabor."
+   ],
+   "name_inline": "el budae jjigae"
   }
+ }
 }

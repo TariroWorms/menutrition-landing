@@ -1,184 +1,219 @@
 {
-  "db_key": "mapo_tofu",
-  "slug": "mapo-tofu",
-  "emoji": "🌶️",
-  "portion_g": 300,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mapo_tofu",
+ "slug": "mapo-tofu",
+ "emoji": "🌶️",
+ "portion_g": 300,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mapo tofu",
+   "origin": "China · Sichuan · Chengdu",
+   "intro": "Mapo tofu is soft tofu braised in a fiery red sauce of chili bean paste, ground pork and soy sauce, finished with ground Sichuan pepper and scallions. The tofu stays silky while the sauce is oily, spicy and gently numbing from the Sichuan pepper — the classic 'ma la' flavour. It is spooned over steamed rice.",
+   "history": "The dish is usually credited to a restaurant in Chengdu in the late 19th century, and the name is commonly explained as 'pockmarked old woman's tofu', after the cook said to have created it. It became one of the best-known Sichuan dishes and is now cooked across China and worldwide.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "400 g soft or silken tofu, cut into 2 cm cubes",
+     "120 g ground pork",
+     "2 tbsp chili bean paste (doubanjiang)",
+     "1 tbsp soy sauce",
+     "1 tsp ground Sichuan pepper",
+     "2 garlic cloves and 1 tsp ginger, chopped",
+     "1½ tbsp vegetable oil",
+     "200 ml water",
+     "1 tbsp cornstarch mixed with 2 tbsp water",
+     "3 scallions, sliced"
+    ],
+    "steps": [
+     "Blanch the tofu cubes in lightly salted simmering water for 2 minutes and drain.",
+     "Fry the pork in the oil until crisp, then add the chili bean paste, garlic and ginger and fry until the oil turns red.",
+     "Add the water and soy sauce, slide in the tofu and simmer gently for 5 minutes.",
+     "Stir in the cornstarch mixture in two goes until the sauce coats the tofu.",
+     "Sprinkle with Sichuan pepper and scallions and serve with rice."
+    ]
+   },
+   "tips": [
+    "Use less oil: 1 tbsp oil ≈ 120 kcal, and much of the gloss comes from the bean paste anyway.",
+    "Swap half the pork for extra tofu or mushrooms to cut fat while keeping protein.",
+    "Watch the rice: a 150 g portion of cooked rice is plenty alongside a full bowl of mapo tofu."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mapo tofu",
-      "origin": "China · Sichuan · Chengdu",
-      "intro": "Mapo tofu is soft tofu braised in a fiery red sauce of chili bean paste, ground pork and soy sauce, finished with ground Sichuan pepper and scallions. The tofu stays silky while the sauce is oily, spicy and gently numbing from the Sichuan pepper — the classic 'ma la' flavour. It is spooned over steamed rice.",
-      "history": "The dish is usually credited to a restaurant in Chengdu in the late 19th century, and the name is commonly explained as 'pockmarked old woman's tofu', after the cook said to have created it. It became one of the best-known Sichuan dishes and is now cooked across China and worldwide.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "400 g soft or silken tofu, cut into 2 cm cubes",
-          "120 g ground pork",
-          "2 tbsp chili bean paste (doubanjiang)",
-          "1 tbsp soy sauce",
-          "1 tsp ground Sichuan pepper",
-          "2 garlic cloves and 1 tsp ginger, chopped",
-          "1½ tbsp vegetable oil",
-          "200 ml water",
-          "1 tbsp cornstarch mixed with 2 tbsp water",
-          "3 scallions, sliced"
-        ],
-        "steps": [
-          "Blanch the tofu cubes in lightly salted simmering water for 2 minutes and drain.",
-          "Fry the pork in the oil until crisp, then add the chili bean paste, garlic and ginger and fry until the oil turns red.",
-          "Add the water and soy sauce, slide in the tofu and simmer gently for 5 minutes.",
-          "Stir in the cornstarch mixture in two goes until the sauce coats the tofu.",
-          "Sprinkle with Sichuan pepper and scallions and serve with rice."
-        ]
-      },
-      "tips": [
-        "Use less oil: 1 tbsp oil ≈ 120 kcal, and much of the gloss comes from the bean paste anyway.",
-        "Swap half the pork for extra tofu or mushrooms to cut fat while keeping protein.",
-        "Watch the rice: a 150 g portion of cooked rice is plenty alongside a full bowl of mapo tofu."
-      ]
-    },
-    "ar": {
-      "name": "توفو مابو",
-      "origin": "الصين · سيتشوان · تشنغدو",
-      "intro": "توفو مابو هو توفو طري يُطهى في صلصة حمراء نارية من معجون الفلفل والفول ولحم الخنزير المفروم وصلصة الصويا، ويُختم بفلفل سيشوان المطحون والبصل الأخضر. يبقى التوفو ناعمًا بينما الصلصة دهنية وحارّة ومخدِّرة قليلًا بفضل فلفل سيشوان — وهي النكهة المعروفة «ما لا». يُسكب فوق الأرز المطهو على البخار.",
-      "history": "يُنسب الطبق عادةً إلى مطعم في تشنغدو في أواخر القرن التاسع عشر، ويُفسَّر اسمه غالبًا بأنه «توفو العجوز ذات الوجه المجدور» نسبةً إلى الطاهية التي يُقال إنها ابتكرته. وأصبح من أشهر أطباق سيتشوان، ويُطهى اليوم في أنحاء الصين والعالم.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "400 غ توفو طري مقطّع مكعبات 2 سم",
-          "120 غ لحم خنزير مفروم",
-          "2 ملعقة كبيرة معجون الفلفل والفول (دوبانجيانغ)",
-          "1 ملعقة كبيرة صلصة صويا",
-          "1 ملعقة صغيرة فلفل سيشوان مطحون",
-          "2 فص ثوم و1 ملعقة صغيرة زنجبيل مفروم",
-          "1.5 ملعقة كبيرة زيت نباتي",
-          "200 مل ماء",
-          "1 ملعقة كبيرة نشا ذرة مذابة في 2 ملعقة كبيرة ماء",
-          "3 أعواد بصل أخضر مقطّعة"
-        ],
-        "steps": [
-          "اسلق مكعبات التوفو في ماء مملّح يغلي بهدوء دقيقتين ثم صفّها.",
-          "حمّر اللحم في الزيت حتى يقرمش، ثم أضف معجون الفلفل والثوم والزنجبيل وقلّب حتى يحمرّ الزيت.",
-          "أضف الماء وصلصة الصويا، ثم أدخل التوفو واتركه يغلي بهدوء 5 دقائق.",
-          "أضف خليط النشا على دفعتين حتى تغلّف الصلصة التوفو.",
-          "رشّ فلفل سيشوان والبصل الأخضر وقدّمه مع الأرز."
-        ]
-      },
-      "tips": [
-        "قلّل الزيت: ملعقة كبيرة زيت ≈ 120 سعرة، ومعظم اللمعان يأتي من معجون الفول أصلًا.",
-        "استبدل نصف اللحم بمزيد من التوفو أو بالفطر لتقليل الدهون مع الحفاظ على البروتين.",
-        "انتبه لكمية الأرز: 150 غ من الأرز المطبوخ تكفي مع وعاء كامل من توفو مابو."
-      ]
-    },
-    "it": {
-      "name": "Mapo tofu",
-      "origin": "Cina · Sichuan · Chengdu",
-      "intro": "Il mapo tofu è tofu morbido brasato in un'infuocata salsa rossa di pasta di fave e peperoncino, carne macinata di maiale e salsa di soia, completato con pepe di Sichuan macinato e cipollotti. Il tofu resta setoso mentre la salsa è oleosa, piccante e leggermente anestetizzante grazie al pepe di Sichuan: il classico sapore «ma la». Si serve a cucchiaiate sul riso al vapore.",
-      "history": "Il piatto viene di solito attribuito a un ristorante di Chengdu della fine del XIX secolo, e il nome viene comunemente spiegato come «tofu della vecchia butterata», dalla cuoca che lo avrebbe inventato. È diventato uno dei piatti più noti del Sichuan e oggi si cucina in tutta la Cina e nel mondo.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "400 g di tofu morbido o setoso, a cubetti di 2 cm",
-          "120 g di carne macinata di maiale",
-          "2 cucchiai di pasta di fave e peperoncino (doubanjiang)",
-          "1 cucchiaio di salsa di soia",
-          "1 cucchiaino di pepe di Sichuan macinato",
-          "2 spicchi d'aglio e 1 cucchiaino di zenzero, tritati",
-          "1½ cucchiai di olio vegetale",
-          "200 ml di acqua",
-          "1 cucchiaio di amido di mais sciolto in 2 cucchiai d'acqua",
-          "3 cipollotti, a rondelle"
-        ],
-        "steps": [
-          "Sbollenta i cubetti di tofu in acqua leggermente salata a fuoco basso per 2 minuti e scolali.",
-          "Rosola il maiale nell'olio finché è croccante, poi aggiungi la pasta di fave, l'aglio e lo zenzero e fai soffriggere finché l'olio diventa rosso.",
-          "Aggiungi l'acqua e la salsa di soia, fai scivolare dentro il tofu e lascia sobbollire dolcemente per 5 minuti.",
-          "Incorpora l'amido sciolto in due volte finché la salsa avvolge il tofu.",
-          "Cospargi di pepe di Sichuan e cipollotti e servi con il riso."
-        ]
-      },
-      "tips": [
-        "Usa meno olio: 1 cucchiaio di olio ≈ 120 kcal, e gran parte della lucentezza viene comunque dalla pasta di fave.",
-        "Sostituisci metà del maiale con altro tofu o funghi per ridurre i grassi mantenendo le proteine.",
-        "Attenzione al riso: una porzione di 150 g di riso cotto basta accanto a una ciotola piena di mapo tofu."
-      ]
-    },
-    "el": {
-      "name": "Μάπο τόφου",
-      "origin": "Κίνα · Σετσουάν · Τσενγκντού",
-      "intro": "Το μάπο τόφου είναι μαλακό τόφου σιγομαγειρεμένο σε μια καυτερή κόκκινη σάλτσα από πάστα κουκιών με τσίλι, χοιρινό κιμά και σάλτσα σόγιας, που ολοκληρώνεται με αλεσμένο πιπέρι Σετσουάν και φρέσκα κρεμμυδάκια. Το τόφου μένει μεταξένιο ενώ η σάλτσα είναι λαδερή, πικάντικη και ελαφρά μουδιαστική από το πιπέρι Σετσουάν — η κλασική γεύση «μα λα». Σερβίρεται με το κουτάλι πάνω σε ρύζι στον ατμό.",
-      "history": "Το πιάτο αποδίδεται συνήθως σε ένα εστιατόριο της Τσενγκντού στα τέλη του 19ου αιώνα, και το όνομα εξηγείται συνήθως ως «το τόφου της βλογιοκομμένης γριάς», από τη μαγείρισσα που λέγεται ότι το δημιούργησε. Έγινε ένα από τα πιο γνωστά πιάτα του Σετσουάν και σήμερα μαγειρεύεται σε όλη την Κίνα και σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "400 γρ. μαλακό ή μεταξένιο τόφου, σε κύβους 2 εκ.",
-          "120 γρ. χοιρινός κιμάς",
-          "2 κ.σ. πάστα κουκιών με τσίλι (ντουπαντζιάνγκ)",
-          "1 κ.σ. σάλτσα σόγιας",
-          "1 κ.γ. αλεσμένο πιπέρι Σετσουάν",
-          "2 σκελίδες σκόρδο και 1 κ.γ. τζίντζερ, ψιλοκομμένα",
-          "1½ κ.σ. φυτικό λάδι",
-          "200 ml νερό",
-          "1 κ.σ. κορν φλάουρ διαλυμένο σε 2 κ.σ. νερό",
-          "3 φρέσκα κρεμμυδάκια, σε ροδέλες"
-        ],
-        "steps": [
-          "Ζεματίστε τους κύβους τόφου σε ελαφρά αλατισμένο νερό που σιγοβράζει για 2 λεπτά και στραγγίξτε τους.",
-          "Τσιγαρίστε το χοιρινό στο λάδι μέχρι να γίνει τραγανό, μετά προσθέστε την πάστα κουκιών, το σκόρδο και το τζίντζερ και τσιγαρίστε μέχρι το λάδι να κοκκινίσει.",
-          "Προσθέστε το νερό και τη σάλτσα σόγιας, βάλτε μέσα απαλά το τόφου και σιγοβράστε για 5 λεπτά.",
-          "Ανακατέψτε μέσα το διάλυμα κορν φλάουρ σε δύο δόσεις μέχρι η σάλτσα να επικαλύψει το τόφου.",
-          "Πασπαλίστε με πιπέρι Σετσουάν και κρεμμυδάκια και σερβίρετε με ρύζι."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε λιγότερο λάδι: 1 κ.σ. λάδι ≈ 120 kcal, και μεγάλο μέρος της γυαλάδας προέρχεται ούτως ή άλλως από την πάστα κουκιών.",
-        "Αντικαταστήστε το μισό χοιρινό με επιπλέον τόφου ή μανιτάρια για λιγότερα λιπαρά με την ίδια πρωτεΐνη.",
-        "Προσέξτε το ρύζι: μια μερίδα 150 γρ. μαγειρεμένου ρυζιού αρκεί δίπλα σε ένα γεμάτο μπολ μάπο τόφου."
-      ]
-    },
-    "ru": {
-      "name": "Мапо-тофу",
-      "origin": "Китай · Сычуань · Чэнду",
-      "intro": "Мапо-тофу — это мягкий тофу, тушёный в огненно-красном соусе из пасты из чили и бобов, свиного фарша и соевого соуса, с молотым сычуаньским перцем и зелёным луком в конце. Тофу остаётся шелковистым, а соус маслянистый, острый и слегка немеющий от сычуаньского перца — это классический вкус «ма ла». Блюдо накладывают ложкой на отварной рис.",
-      "history": "Создание блюда обычно приписывают ресторану в Чэнду в конце XIX века, а название принято объяснять как «тофу рябой старухи» — по имени повара, которая, как считается, его придумала. Оно стало одним из самых известных блюд сычуаньской кухни, и сегодня его готовят по всему Китаю и во всём мире.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "400 г мягкого или шелковистого тофу, нарезанного кубиками по 2 см",
-          "120 г свиного фарша",
-          "2 ст. л. пасты из чили и бобов (доубаньцзян)",
-          "1 ст. л. соевого соуса",
-          "1 ч. л. молотого сычуаньского перца",
-          "2 зубчика чеснока и 1 ч. л. имбиря, нарубленных",
-          "1½ ст. л. растительного масла",
-          "200 мл воды",
-          "1 ст. л. кукурузного крахмала, разведённого в 2 ст. л. воды",
-          "3 стебля зелёного лука, нарезанных"
-        ],
-        "steps": [
-          "Бланшируйте кубики тофу в слегка подсоленной кипящей воде 2 минуты и откиньте на дуршлаг.",
-          "Обжарьте свинину в масле до хруста, затем добавьте пасту из чили и бобов, чеснок и имбирь и жарьте, пока масло не станет красным.",
-          "Добавьте воду и соевый соус, аккуратно переложите тофу и томите на слабом огне 5 минут.",
-          "Вмешайте крахмальную смесь в два приёма, пока соус не обволокёт тофу.",
-          "Посыпьте сычуаньским перцем и зелёным луком и подавайте с рисом."
-        ]
-      },
-      "tips": [
-        "Используйте меньше масла: 1 ст. л. масла ≈ 120 ккал, а большая часть глянца в любом случае даёт паста из бобов.",
-        "Замените половину свинины дополнительным тофу или грибами, чтобы снизить жирность и сохранить белок.",
-        "Следите за рисом: 150 г готового риса — вполне достаточная порция к полной тарелке мапо-тофу."
-      ]
-    }
+  "ar": {
+   "name": "توفو مابو",
+   "origin": "الصين · سيتشوان · تشنغدو",
+   "intro": "توفو مابو هو توفو طري يُطهى في صلصة حمراء نارية من معجون الفلفل والفول ولحم الخنزير المفروم وصلصة الصويا، ويُختم بفلفل سيشوان المطحون والبصل الأخضر. يبقى التوفو ناعمًا بينما الصلصة دهنية وحارّة ومخدِّرة قليلًا بفضل فلفل سيشوان — وهي النكهة المعروفة «ما لا». يُسكب فوق الأرز المطهو على البخار.",
+   "history": "يُنسب الطبق عادةً إلى مطعم في تشنغدو في أواخر القرن التاسع عشر، ويُفسَّر اسمه غالبًا بأنه «توفو العجوز ذات الوجه المجدور» نسبةً إلى الطاهية التي يُقال إنها ابتكرته. وأصبح من أشهر أطباق سيتشوان، ويُطهى اليوم في أنحاء الصين والعالم.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "400 غ توفو طري مقطّع مكعبات 2 سم",
+     "120 غ لحم خنزير مفروم",
+     "2 ملعقة كبيرة معجون الفلفل والفول (دوبانجيانغ)",
+     "1 ملعقة كبيرة صلصة صويا",
+     "1 ملعقة صغيرة فلفل سيشوان مطحون",
+     "2 فص ثوم و1 ملعقة صغيرة زنجبيل مفروم",
+     "1.5 ملعقة كبيرة زيت نباتي",
+     "200 مل ماء",
+     "1 ملعقة كبيرة نشا ذرة مذابة في 2 ملعقة كبيرة ماء",
+     "3 أعواد بصل أخضر مقطّعة"
+    ],
+    "steps": [
+     "اسلق مكعبات التوفو في ماء مملّح يغلي بهدوء دقيقتين ثم صفّها.",
+     "حمّر اللحم في الزيت حتى يقرمش، ثم أضف معجون الفلفل والثوم والزنجبيل وقلّب حتى يحمرّ الزيت.",
+     "أضف الماء وصلصة الصويا، ثم أدخل التوفو واتركه يغلي بهدوء 5 دقائق.",
+     "أضف خليط النشا على دفعتين حتى تغلّف الصلصة التوفو.",
+     "رشّ فلفل سيشوان والبصل الأخضر وقدّمه مع الأرز."
+    ]
+   },
+   "tips": [
+    "قلّل الزيت: ملعقة كبيرة زيت ≈ 120 سعرة، ومعظم اللمعان يأتي من معجون الفول أصلًا.",
+    "استبدل نصف اللحم بمزيد من التوفو أو بالفطر لتقليل الدهون مع الحفاظ على البروتين.",
+    "انتبه لكمية الأرز: 150 غ من الأرز المطبوخ تكفي مع وعاء كامل من توفو مابو."
+   ]
+  },
+  "it": {
+   "name": "Mapo tofu",
+   "origin": "Cina · Sichuan · Chengdu",
+   "intro": "Il mapo tofu è tofu morbido brasato in un'infuocata salsa rossa di pasta di fave e peperoncino, carne macinata di maiale e salsa di soia, completato con pepe di Sichuan macinato e cipollotti. Il tofu resta setoso mentre la salsa è oleosa, piccante e leggermente anestetizzante grazie al pepe di Sichuan: il classico sapore «ma la». Si serve a cucchiaiate sul riso al vapore.",
+   "history": "Il piatto viene di solito attribuito a un ristorante di Chengdu della fine del XIX secolo, e il nome viene comunemente spiegato come «tofu della vecchia butterata», dalla cuoca che lo avrebbe inventato. È diventato uno dei piatti più noti del Sichuan e oggi si cucina in tutta la Cina e nel mondo.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "400 g di tofu morbido o setoso, a cubetti di 2 cm",
+     "120 g di carne macinata di maiale",
+     "2 cucchiai di pasta di fave e peperoncino (doubanjiang)",
+     "1 cucchiaio di salsa di soia",
+     "1 cucchiaino di pepe di Sichuan macinato",
+     "2 spicchi d'aglio e 1 cucchiaino di zenzero, tritati",
+     "1½ cucchiai di olio vegetale",
+     "200 ml di acqua",
+     "1 cucchiaio di amido di mais sciolto in 2 cucchiai d'acqua",
+     "3 cipollotti, a rondelle"
+    ],
+    "steps": [
+     "Sbollenta i cubetti di tofu in acqua leggermente salata a fuoco basso per 2 minuti e scolali.",
+     "Rosola il maiale nell'olio finché è croccante, poi aggiungi la pasta di fave, l'aglio e lo zenzero e fai soffriggere finché l'olio diventa rosso.",
+     "Aggiungi l'acqua e la salsa di soia, fai scivolare dentro il tofu e lascia sobbollire dolcemente per 5 minuti.",
+     "Incorpora l'amido sciolto in due volte finché la salsa avvolge il tofu.",
+     "Cospargi di pepe di Sichuan e cipollotti e servi con il riso."
+    ]
+   },
+   "tips": [
+    "Usa meno olio: 1 cucchiaio di olio ≈ 120 kcal, e gran parte della lucentezza viene comunque dalla pasta di fave.",
+    "Sostituisci metà del maiale con altro tofu o funghi per ridurre i grassi mantenendo le proteine.",
+    "Attenzione al riso: una porzione di 150 g di riso cotto basta accanto a una ciotola piena di mapo tofu."
+   ]
+  },
+  "el": {
+   "name": "Μάπο τόφου",
+   "origin": "Κίνα · Σετσουάν · Τσενγκντού",
+   "intro": "Το μάπο τόφου είναι μαλακό τόφου σιγομαγειρεμένο σε μια καυτερή κόκκινη σάλτσα από πάστα κουκιών με τσίλι, χοιρινό κιμά και σάλτσα σόγιας, που ολοκληρώνεται με αλεσμένο πιπέρι Σετσουάν και φρέσκα κρεμμυδάκια. Το τόφου μένει μεταξένιο ενώ η σάλτσα είναι λαδερή, πικάντικη και ελαφρά μουδιαστική από το πιπέρι Σετσουάν — η κλασική γεύση «μα λα». Σερβίρεται με το κουτάλι πάνω σε ρύζι στον ατμό.",
+   "history": "Το πιάτο αποδίδεται συνήθως σε ένα εστιατόριο της Τσενγκντού στα τέλη του 19ου αιώνα, και το όνομα εξηγείται συνήθως ως «το τόφου της βλογιοκομμένης γριάς», από τη μαγείρισσα που λέγεται ότι το δημιούργησε. Έγινε ένα από τα πιο γνωστά πιάτα του Σετσουάν και σήμερα μαγειρεύεται σε όλη την Κίνα και σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "400 γρ. μαλακό ή μεταξένιο τόφου, σε κύβους 2 εκ.",
+     "120 γρ. χοιρινός κιμάς",
+     "2 κ.σ. πάστα κουκιών με τσίλι (ντουπαντζιάνγκ)",
+     "1 κ.σ. σάλτσα σόγιας",
+     "1 κ.γ. αλεσμένο πιπέρι Σετσουάν",
+     "2 σκελίδες σκόρδο και 1 κ.γ. τζίντζερ, ψιλοκομμένα",
+     "1½ κ.σ. φυτικό λάδι",
+     "200 ml νερό",
+     "1 κ.σ. κορν φλάουρ διαλυμένο σε 2 κ.σ. νερό",
+     "3 φρέσκα κρεμμυδάκια, σε ροδέλες"
+    ],
+    "steps": [
+     "Ζεματίστε τους κύβους τόφου σε ελαφρά αλατισμένο νερό που σιγοβράζει για 2 λεπτά και στραγγίξτε τους.",
+     "Τσιγαρίστε το χοιρινό στο λάδι μέχρι να γίνει τραγανό, μετά προσθέστε την πάστα κουκιών, το σκόρδο και το τζίντζερ και τσιγαρίστε μέχρι το λάδι να κοκκινίσει.",
+     "Προσθέστε το νερό και τη σάλτσα σόγιας, βάλτε μέσα απαλά το τόφου και σιγοβράστε για 5 λεπτά.",
+     "Ανακατέψτε μέσα το διάλυμα κορν φλάουρ σε δύο δόσεις μέχρι η σάλτσα να επικαλύψει το τόφου.",
+     "Πασπαλίστε με πιπέρι Σετσουάν και κρεμμυδάκια και σερβίρετε με ρύζι."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε λιγότερο λάδι: 1 κ.σ. λάδι ≈ 120 kcal, και μεγάλο μέρος της γυαλάδας προέρχεται ούτως ή άλλως από την πάστα κουκιών.",
+    "Αντικαταστήστε το μισό χοιρινό με επιπλέον τόφου ή μανιτάρια για λιγότερα λιπαρά με την ίδια πρωτεΐνη.",
+    "Προσέξτε το ρύζι: μια μερίδα 150 γρ. μαγειρεμένου ρυζιού αρκεί δίπλα σε ένα γεμάτο μπολ μάπο τόφου."
+   ]
+  },
+  "ru": {
+   "name": "Мапо-тофу",
+   "origin": "Китай · Сычуань · Чэнду",
+   "intro": "Мапо-тофу — это мягкий тофу, тушёный в огненно-красном соусе из пасты из чили и бобов, свиного фарша и соевого соуса, с молотым сычуаньским перцем и зелёным луком в конце. Тофу остаётся шелковистым, а соус маслянистый, острый и слегка немеющий от сычуаньского перца — это классический вкус «ма ла». Блюдо накладывают ложкой на отварной рис.",
+   "history": "Создание блюда обычно приписывают ресторану в Чэнду в конце XIX века, а название принято объяснять как «тофу рябой старухи» — по имени повара, которая, как считается, его придумала. Оно стало одним из самых известных блюд сычуаньской кухни, и сегодня его готовят по всему Китаю и во всём мире.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "400 г мягкого или шелковистого тофу, нарезанного кубиками по 2 см",
+     "120 г свиного фарша",
+     "2 ст. л. пасты из чили и бобов (доубаньцзян)",
+     "1 ст. л. соевого соуса",
+     "1 ч. л. молотого сычуаньского перца",
+     "2 зубчика чеснока и 1 ч. л. имбиря, нарубленных",
+     "1½ ст. л. растительного масла",
+     "200 мл воды",
+     "1 ст. л. кукурузного крахмала, разведённого в 2 ст. л. воды",
+     "3 стебля зелёного лука, нарезанных"
+    ],
+    "steps": [
+     "Бланшируйте кубики тофу в слегка подсоленной кипящей воде 2 минуты и откиньте на дуршлаг.",
+     "Обжарьте свинину в масле до хруста, затем добавьте пасту из чили и бобов, чеснок и имбирь и жарьте, пока масло не станет красным.",
+     "Добавьте воду и соевый соус, аккуратно переложите тофу и томите на слабом огне 5 минут.",
+     "Вмешайте крахмальную смесь в два приёма, пока соус не обволокёт тофу.",
+     "Посыпьте сычуаньским перцем и зелёным луком и подавайте с рисом."
+    ]
+   },
+   "tips": [
+    "Используйте меньше масла: 1 ст. л. масла ≈ 120 ккал, а большая часть глянца в любом случае даёт паста из бобов.",
+    "Замените половину свинины дополнительным тофу или грибами, чтобы снизить жирность и сохранить белок.",
+    "Следите за рисом: 150 г готового риса — вполне достаточная порция к полной тарелке мапо-тофу."
+   ]
+  },
+  "es": {
+   "name": "Mapo tofu",
+   "origin": "China · Sichuan · Chengdu",
+   "intro": "El mapo tofu es tofu suave guisado en una salsa roja y ardiente de pasta de frijol con chile, carne molida de cerdo y salsa de soya, terminado con pimienta de Sichuan molida y cebollín. El tofu se mantiene sedoso, mientras que la salsa es aceitosa, picante y ligeramente adormecedora por la pimienta de Sichuan: el clásico sabor «ma la». Se sirve sobre arroz al vapor.",
+   "history": "El platillo suele atribuirse a un restaurante de Chengdu de finales del siglo XIX, y el nombre se explica habitualmente como «tofu de la anciana picada de viruela», por la cocinera que se dice que lo creó. Se volvió uno de los platos más famosos de Sichuan y hoy se cocina en toda China y en el mundo.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "400 g de tofu suave o sedoso, en cubos de 2 cm",
+     "120 g de carne molida de cerdo",
+     "2 cda. de pasta de frijol con chile (doubanjiang)",
+     "1 cda. de salsa de soya",
+     "1 cdta. de pimienta de Sichuan molida",
+     "2 dientes de ajo y 1 cdta. de jengibre, picados",
+     "1½ cda. de aceite vegetal",
+     "200 ml de agua",
+     "1 cda. de fécula de maíz disuelta en 2 cda. de agua",
+     "3 cebollines, en rodajas"
+    ],
+    "steps": [
+     "Escalda los cubos de tofu en agua con un poco de sal a fuego lento durante 2 minutos y escúrrelos.",
+     "Fríe el cerdo en el aceite hasta que quede crujiente; luego agrega la pasta de frijol con chile, el ajo y el jengibre y fríe hasta que el aceite se ponga rojo.",
+     "Añade el agua y la salsa de soya, desliza el tofu y cuece a fuego lento 5 minutos.",
+     "Incorpora la mezcla de fécula en dos veces hasta que la salsa cubra el tofu.",
+     "Espolvorea con la pimienta de Sichuan y el cebollín y sirve con arroz."
+    ]
+   },
+   "tips": [
+    "Usa menos aceite: 1 cda. ≈ 120 kcal, y gran parte del brillo ya viene de la pasta de frijol.",
+    "Cambia la mitad del cerdo por más tofu o champiñones para reducir la grasa sin perder proteína.",
+    "Cuida el arroz: 150 g de arroz cocido es suficiente con un plato lleno de mapo tofu."
+   ],
+   "name_inline": "el mapo tofu"
   }
+ }
 }

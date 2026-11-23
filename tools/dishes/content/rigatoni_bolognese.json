@@ -1,174 +1,207 @@
 {
-  "db_key": "rigatoni_bolognese",
-  "slug": "rigatoni-bolognese",
-  "emoji": "🍝",
-  "portion_g": 350,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "rigatoni_bolognese",
+ "slug": "rigatoni-bolognese",
+ "emoji": "🍝",
+ "portion_g": 350,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Rigatoni Bolognese",
+   "origin": "Italy · Emilia-Romagna (Bologna)",
+   "intro": "Rigatoni Bolognese pairs ridged pasta tubes with a slow-cooked ragù of minced beef and pork, tomato, carrot, celery and onion. Long, gentle simmering makes the sauce thick and deeply savoury, and the wide rigatoni catch the meat inside and out. It is a hearty, filling pasta served hot as a main course.",
+   "history": "Ragù alla bolognese comes from Bologna, where meat sauces have been cooked for centuries; in 1982 the city's chamber of commerce registered a reference recipe. In Bologna the ragù is traditionally served with tagliatelle, while rigatoni is a popular choice elsewhere.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 g rigatoni",
+     "200 g minced beef",
+     "150 g minced pork",
+     "400 g tomato passata",
+     "1 carrot, finely diced",
+     "1 celery stalk, finely diced",
+     "1 onion, finely diced",
+     "1 tbsp olive oil",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Soften the onion, carrot and celery in the oil over low heat for 10 minutes.",
+     "Add both meats and brown them, breaking up the lumps.",
+     "Stir in the passata and a little water, season and simmer, covered, for at least 1.5 hours, stirring now and then.",
+     "Boil the rigatoni until al dente and toss with the ragù."
+    ]
+   },
+   "tips": [
+    "Use lean minced beef and skim off fat that rises during simmering.",
+    "Double the carrot and celery to bulk up the sauce with vegetables.",
+    "1 tbsp olive oil ≈ 120 kcal, so measure it rather than pouring freely."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Rigatoni Bolognese",
-      "origin": "Italy · Emilia-Romagna (Bologna)",
-      "intro": "Rigatoni Bolognese pairs ridged pasta tubes with a slow-cooked ragù of minced beef and pork, tomato, carrot, celery and onion. Long, gentle simmering makes the sauce thick and deeply savoury, and the wide rigatoni catch the meat inside and out. It is a hearty, filling pasta served hot as a main course.",
-      "history": "Ragù alla bolognese comes from Bologna, where meat sauces have been cooked for centuries; in 1982 the city's chamber of commerce registered a reference recipe. In Bologna the ragù is traditionally served with tagliatelle, while rigatoni is a popular choice elsewhere.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 g rigatoni",
-          "200 g minced beef",
-          "150 g minced pork",
-          "400 g tomato passata",
-          "1 carrot, finely diced",
-          "1 celery stalk, finely diced",
-          "1 onion, finely diced",
-          "1 tbsp olive oil",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Soften the onion, carrot and celery in the oil over low heat for 10 minutes.",
-          "Add both meats and brown them, breaking up the lumps.",
-          "Stir in the passata and a little water, season and simmer, covered, for at least 1.5 hours, stirring now and then.",
-          "Boil the rigatoni until al dente and toss with the ragù."
-        ]
-      },
-      "tips": [
-        "Use lean minced beef and skim off fat that rises during simmering.",
-        "Double the carrot and celery to bulk up the sauce with vegetables.",
-        "1 tbsp olive oil ≈ 120 kcal, so measure it rather than pouring freely."
-      ]
-    },
-    "ar": {
-      "name": "ريغاتوني بولونيز",
-      "origin": "إيطاليا · إميليا رومانيا (بولونيا)",
-      "intro": "يجمع ريغاتوني بولونيز أنابيب المعكرونة المضلعة مع صلصة راغو مطهوة ببطء من لحم البقر والخنزير المفروم والطماطم والجزر والكرفس والبصل. يجعل الطهي الطويل الهادئ الصلصة كثيفة وعميقة النكهة، وتلتقط الريغاتوني العريضة اللحم من الداخل والخارج. طبق معكرونة مشبع يُقدَّم ساخنًا كطبق رئيسي.",
-      "history": "يعود راغو البولونيز إلى مدينة بولونيا، حيث تُطهى صلصات اللحم منذ قرون، وفي عام 1982 سجّلت غرفة تجارة المدينة وصفة مرجعية له. ويُقدَّم الراغو تقليديًا في بولونيا مع التالياتيلي، بينما تُعد الريغاتوني خيارًا شائعًا في أماكن أخرى.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 غ ريغاتوني",
-          "200 غ لحم بقري مفروم",
-          "150 غ لحم خنزير مفروم",
-          "400 غ صلصة طماطم (باساتا)",
-          "1 جزرة مقطعة ناعمًا",
-          "1 عود كرفس مقطع ناعمًا",
-          "1 بصلة مقطعة ناعمًا",
-          "1 ملعقة كبيرة زيت زيتون",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "ليّن البصل والجزر والكرفس في الزيت على نار هادئة 10 دقائق.",
-          "أضف نوعي اللحم وحمّرهما مع تفتيت الكتل.",
-          "أضف الباساتا وقليلًا من الماء، تبّل واتركها تغلي بهدوء مغطاة ساعة ونصفًا على الأقل مع التحريك أحيانًا.",
-          "اسلق الريغاتوني حتى «ألدنتي» واخلطها مع الراغو."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا بقريًا قليل الدهن وأزل الدهن الطافي أثناء الطهي.",
-        "ضاعف كمية الجزر والكرفس لزيادة حجم الصلصة بالخضار.",
-        "ملعقة كبيرة من زيت الزيتون ≈ 120 سعرة، فقِسها بدل صبّها بلا حساب."
-      ]
-    },
-    "it": {
-      "name": "Rigatoni al ragù alla bolognese",
-      "origin": "Italia · Emilia-Romagna (Bologna)",
-      "intro": "I rigatoni al ragù alla bolognese uniscono la pasta rigata a un ragù cotto lentamente di carne macinata di manzo e maiale, pomodoro, carota, sedano e cipolla. La lunga cottura a fuoco dolce rende il sugo denso e molto saporito, e i rigatoni larghi trattengono la carne dentro e fuori. È una pasta sostanziosa e saziante, servita calda come piatto principale.",
-      "history": "Il ragù alla bolognese viene da Bologna, dove i sughi di carne si cucinano da secoli; nel 1982 la camera di commercio della città ha depositato una ricetta di riferimento. A Bologna il ragù si serve tradizionalmente con le tagliatelle, mentre altrove i rigatoni sono una scelta molto diffusa.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 g di rigatoni",
-          "200 g di macinato di manzo",
-          "150 g di macinato di maiale",
-          "400 g di passata di pomodoro",
-          "1 carota, a dadini fini",
-          "1 costa di sedano, a dadini fini",
-          "1 cipolla, a dadini fini",
-          "1 cucchiaio di olio d'oliva",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Fai appassire cipolla, carota e sedano nell'olio a fuoco basso per 10 minuti.",
-          "Aggiungi entrambe le carni e rosolale, sgranando i grumi.",
-          "Unisci la passata e un po' d'acqua, regola di sale e cuoci coperto a fuoco lento per almeno 1 ora e mezza, mescolando di tanto in tanto.",
-          "Lessa i rigatoni al dente e condiscili con il ragù."
-        ]
-      },
-      "tips": [
-        "Usa macinato di manzo magro ed elimina il grasso che affiora durante la cottura.",
-        "Raddoppia carota e sedano per arricchire il sugo di verdure.",
-        "1 cucchiaio di olio d'oliva ≈ 120 kcal, quindi misuralo invece di versarlo a occhio."
-      ]
-    },
-    "el": {
-      "name": "Ριγκατόνι μπολονέζ",
-      "origin": "Ιταλία · Εμίλια-Ρομάνια (Μπολόνια)",
-      "intro": "Τα ριγκατόνι μπολονέζ συνδυάζουν ριγωτά σωληνωτά ζυμαρικά με ένα σιγομαγειρεμένο ραγού από μοσχαρίσιο και χοιρινό κιμά, ντομάτα, καρότο, σέλερι και κρεμμύδι. Το μακρύ, απαλό σιγόβρασμα κάνει τη σάλτσα πηχτή και πολύ νόστιμη, και τα φαρδιά ριγκατόνι κρατούν τον κιμά μέσα και έξω. Είναι χορταστικό πιάτο ζυμαρικών που σερβίρεται ζεστό ως κυρίως.",
-      "history": "Το ραγού αλα μπολονέζε προέρχεται από τη Μπολόνια, όπου οι σάλτσες κρέατος μαγειρεύονται εδώ και αιώνες· το 1982 το εμπορικό επιμελητήριο της πόλης κατέθεσε μια συνταγή αναφοράς. Στη Μπολόνια το ραγού σερβίρεται παραδοσιακά με ταλιατέλες, ενώ αλλού τα ριγκατόνι είναι δημοφιλής επιλογή.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 γρ. ριγκατόνι",
-          "200 γρ. μοσχαρίσιος κιμάς",
-          "150 γρ. χοιρινός κιμάς",
-          "400 γρ. πασάτα ντομάτας",
-          "1 καρότο, σε ψιλά κυβάκια",
-          "1 κλωνάρι σέλερι, σε ψιλά κυβάκια",
-          "1 κρεμμύδι, σε ψιλά κυβάκια",
-          "1 κ.σ. ελαιόλαδο",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Μαλακώστε το κρεμμύδι, το καρότο και το σέλερι στο λάδι σε χαμηλή φωτιά για 10 λεπτά.",
-          "Προσθέστε και τους δύο κιμάδες και σοτάρετέ τους, σπάζοντας τους σβόλους.",
-          "Ρίξτε την πασάτα και λίγο νερό, αλατοπιπερώστε και σιγοβράστε σκεπασμένο τουλάχιστον 1,5 ώρα, ανακατεύοντας πού και πού.",
-          "Βράστε τα ριγκατόνι al dente και ανακατέψτε τα με το ραγού."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και αφαιρέστε το λίπος που ανεβαίνει στην επιφάνεια κατά το σιγόβρασμα.",
-        "Διπλασιάστε το καρότο και το σέλερι για να πάρει η σάλτσα περισσότερα λαχανικά.",
-        "1 κ.σ. ελαιόλαδο ≈ 120 kcal, γι' αυτό μετρήστε το αντί να το ρίχνετε με το μάτι."
-      ]
-    },
-    "ru": {
-      "name": "Ригатони болоньезе",
-      "origin": "Италия · Эмилия-Романья (Болонья)",
-      "intro": "Ригатони болоньезе — рифлёные трубочки пасты с долго томлёным рагу из говяжьего и свиного фарша, помидоров, моркови, сельдерея и лука. Долгое медленное томление делает соус густым и глубоко пряным, а широкие ригатони удерживают мясо и внутри, и снаружи. Это сытная паста, которую подают горячей как основное блюдо.",
-      "history": "Рагу алла болоньезе родом из Болоньи, где мясные соусы готовят веками; в 1982 году торговая палата города зарегистрировала эталонный рецепт. В Болонье рагу традиционно подают с тальятелле, а в других местах охотно выбирают ригатони.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 г ригатони",
-          "200 г говяжьего фарша",
-          "150 г свиного фарша",
-          "400 г томатной пассаты",
-          "1 морковь, мелко нарезанная кубиками",
-          "1 стебель сельдерея, мелко нарезанный кубиками",
-          "1 луковица, мелко нарезанная кубиками",
-          "1 ст. л. оливкового масла",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Обжарьте лук, морковь и сельдерей в масле на слабом огне 10 минут до мягкости.",
-          "Добавьте оба вида фарша и обжарьте, разбивая комки.",
-          "Влейте пассату и немного воды, посолите, поперчите и тушите под крышкой не менее 1,5 часов, время от времени помешивая.",
-          "Отварите ригатони до состояния аль денте и смешайте с рагу."
-        ]
-      },
-      "tips": [
-        "Берите постный говяжий фарш и снимайте жир, который поднимается во время томления.",
-        "Удвойте количество моркови и сельдерея, чтобы добавить в соус больше овощей.",
-        "1 ст. л. оливкового масла ≈ 120 ккал, поэтому отмеряйте его, а не лейте на глаз."
-      ]
-    }
+  "ar": {
+   "name": "ريغاتوني بولونيز",
+   "origin": "إيطاليا · إميليا رومانيا (بولونيا)",
+   "intro": "يجمع ريغاتوني بولونيز أنابيب المعكرونة المضلعة مع صلصة راغو مطهوة ببطء من لحم البقر والخنزير المفروم والطماطم والجزر والكرفس والبصل. يجعل الطهي الطويل الهادئ الصلصة كثيفة وعميقة النكهة، وتلتقط الريغاتوني العريضة اللحم من الداخل والخارج. طبق معكرونة مشبع يُقدَّم ساخنًا كطبق رئيسي.",
+   "history": "يعود راغو البولونيز إلى مدينة بولونيا، حيث تُطهى صلصات اللحم منذ قرون، وفي عام 1982 سجّلت غرفة تجارة المدينة وصفة مرجعية له. ويُقدَّم الراغو تقليديًا في بولونيا مع التالياتيلي، بينما تُعد الريغاتوني خيارًا شائعًا في أماكن أخرى.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 غ ريغاتوني",
+     "200 غ لحم بقري مفروم",
+     "150 غ لحم خنزير مفروم",
+     "400 غ صلصة طماطم (باساتا)",
+     "1 جزرة مقطعة ناعمًا",
+     "1 عود كرفس مقطع ناعمًا",
+     "1 بصلة مقطعة ناعمًا",
+     "1 ملعقة كبيرة زيت زيتون",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "ليّن البصل والجزر والكرفس في الزيت على نار هادئة 10 دقائق.",
+     "أضف نوعي اللحم وحمّرهما مع تفتيت الكتل.",
+     "أضف الباساتا وقليلًا من الماء، تبّل واتركها تغلي بهدوء مغطاة ساعة ونصفًا على الأقل مع التحريك أحيانًا.",
+     "اسلق الريغاتوني حتى «ألدنتي» واخلطها مع الراغو."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا بقريًا قليل الدهن وأزل الدهن الطافي أثناء الطهي.",
+    "ضاعف كمية الجزر والكرفس لزيادة حجم الصلصة بالخضار.",
+    "ملعقة كبيرة من زيت الزيتون ≈ 120 سعرة، فقِسها بدل صبّها بلا حساب."
+   ]
+  },
+  "it": {
+   "name": "Rigatoni al ragù alla bolognese",
+   "origin": "Italia · Emilia-Romagna (Bologna)",
+   "intro": "I rigatoni al ragù alla bolognese uniscono la pasta rigata a un ragù cotto lentamente di carne macinata di manzo e maiale, pomodoro, carota, sedano e cipolla. La lunga cottura a fuoco dolce rende il sugo denso e molto saporito, e i rigatoni larghi trattengono la carne dentro e fuori. È una pasta sostanziosa e saziante, servita calda come piatto principale.",
+   "history": "Il ragù alla bolognese viene da Bologna, dove i sughi di carne si cucinano da secoli; nel 1982 la camera di commercio della città ha depositato una ricetta di riferimento. A Bologna il ragù si serve tradizionalmente con le tagliatelle, mentre altrove i rigatoni sono una scelta molto diffusa.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 g di rigatoni",
+     "200 g di macinato di manzo",
+     "150 g di macinato di maiale",
+     "400 g di passata di pomodoro",
+     "1 carota, a dadini fini",
+     "1 costa di sedano, a dadini fini",
+     "1 cipolla, a dadini fini",
+     "1 cucchiaio di olio d'oliva",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Fai appassire cipolla, carota e sedano nell'olio a fuoco basso per 10 minuti.",
+     "Aggiungi entrambe le carni e rosolale, sgranando i grumi.",
+     "Unisci la passata e un po' d'acqua, regola di sale e cuoci coperto a fuoco lento per almeno 1 ora e mezza, mescolando di tanto in tanto.",
+     "Lessa i rigatoni al dente e condiscili con il ragù."
+    ]
+   },
+   "tips": [
+    "Usa macinato di manzo magro ed elimina il grasso che affiora durante la cottura.",
+    "Raddoppia carota e sedano per arricchire il sugo di verdure.",
+    "1 cucchiaio di olio d'oliva ≈ 120 kcal, quindi misuralo invece di versarlo a occhio."
+   ]
+  },
+  "el": {
+   "name": "Ριγκατόνι μπολονέζ",
+   "origin": "Ιταλία · Εμίλια-Ρομάνια (Μπολόνια)",
+   "intro": "Τα ριγκατόνι μπολονέζ συνδυάζουν ριγωτά σωληνωτά ζυμαρικά με ένα σιγομαγειρεμένο ραγού από μοσχαρίσιο και χοιρινό κιμά, ντομάτα, καρότο, σέλερι και κρεμμύδι. Το μακρύ, απαλό σιγόβρασμα κάνει τη σάλτσα πηχτή και πολύ νόστιμη, και τα φαρδιά ριγκατόνι κρατούν τον κιμά μέσα και έξω. Είναι χορταστικό πιάτο ζυμαρικών που σερβίρεται ζεστό ως κυρίως.",
+   "history": "Το ραγού αλα μπολονέζε προέρχεται από τη Μπολόνια, όπου οι σάλτσες κρέατος μαγειρεύονται εδώ και αιώνες· το 1982 το εμπορικό επιμελητήριο της πόλης κατέθεσε μια συνταγή αναφοράς. Στη Μπολόνια το ραγού σερβίρεται παραδοσιακά με ταλιατέλες, ενώ αλλού τα ριγκατόνι είναι δημοφιλής επιλογή.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 γρ. ριγκατόνι",
+     "200 γρ. μοσχαρίσιος κιμάς",
+     "150 γρ. χοιρινός κιμάς",
+     "400 γρ. πασάτα ντομάτας",
+     "1 καρότο, σε ψιλά κυβάκια",
+     "1 κλωνάρι σέλερι, σε ψιλά κυβάκια",
+     "1 κρεμμύδι, σε ψιλά κυβάκια",
+     "1 κ.σ. ελαιόλαδο",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Μαλακώστε το κρεμμύδι, το καρότο και το σέλερι στο λάδι σε χαμηλή φωτιά για 10 λεπτά.",
+     "Προσθέστε και τους δύο κιμάδες και σοτάρετέ τους, σπάζοντας τους σβόλους.",
+     "Ρίξτε την πασάτα και λίγο νερό, αλατοπιπερώστε και σιγοβράστε σκεπασμένο τουλάχιστον 1,5 ώρα, ανακατεύοντας πού και πού.",
+     "Βράστε τα ριγκατόνι al dente και ανακατέψτε τα με το ραγού."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και αφαιρέστε το λίπος που ανεβαίνει στην επιφάνεια κατά το σιγόβρασμα.",
+    "Διπλασιάστε το καρότο και το σέλερι για να πάρει η σάλτσα περισσότερα λαχανικά.",
+    "1 κ.σ. ελαιόλαδο ≈ 120 kcal, γι' αυτό μετρήστε το αντί να το ρίχνετε με το μάτι."
+   ]
+  },
+  "ru": {
+   "name": "Ригатони болоньезе",
+   "origin": "Италия · Эмилия-Романья (Болонья)",
+   "intro": "Ригатони болоньезе — рифлёные трубочки пасты с долго томлёным рагу из говяжьего и свиного фарша, помидоров, моркови, сельдерея и лука. Долгое медленное томление делает соус густым и глубоко пряным, а широкие ригатони удерживают мясо и внутри, и снаружи. Это сытная паста, которую подают горячей как основное блюдо.",
+   "history": "Рагу алла болоньезе родом из Болоньи, где мясные соусы готовят веками; в 1982 году торговая палата города зарегистрировала эталонный рецепт. В Болонье рагу традиционно подают с тальятелле, а в других местах охотно выбирают ригатони.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 г ригатони",
+     "200 г говяжьего фарша",
+     "150 г свиного фарша",
+     "400 г томатной пассаты",
+     "1 морковь, мелко нарезанная кубиками",
+     "1 стебель сельдерея, мелко нарезанный кубиками",
+     "1 луковица, мелко нарезанная кубиками",
+     "1 ст. л. оливкового масла",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Обжарьте лук, морковь и сельдерей в масле на слабом огне 10 минут до мягкости.",
+     "Добавьте оба вида фарша и обжарьте, разбивая комки.",
+     "Влейте пассату и немного воды, посолите, поперчите и тушите под крышкой не менее 1,5 часов, время от времени помешивая.",
+     "Отварите ригатони до состояния аль денте и смешайте с рагу."
+    ]
+   },
+   "tips": [
+    "Берите постный говяжий фарш и снимайте жир, который поднимается во время томления.",
+    "Удвойте количество моркови и сельдерея, чтобы добавить в соус больше овощей.",
+    "1 ст. л. оливкового масла ≈ 120 ккал, поэтому отмеряйте его, а не лейте на глаз."
+   ]
+  },
+  "es": {
+   "name": "Rigatoni a la boloñesa",
+   "origin": "Italia · Emilia-Romaña (Bolonia)",
+   "intro": "Los rigatoni a la boloñesa combinan tubos de pasta rayada con un ragú de cocción lenta de carne molida de res y cerdo, jitomate, zanahoria, apio y cebolla. La cocción larga y suave espesa la salsa y le da un sabor profundo, y los rigatoni anchos atrapan la carne por dentro y por fuera. Es una pasta contundente y reconfortante que se sirve caliente como plato fuerte.",
+   "history": "El ragú a la boloñesa viene de Bolonia, donde las salsas de carne se cocinan desde hace siglos; en 1982 la cámara de comercio de la ciudad registró una receta de referencia. En Bolonia el ragú se sirve tradicionalmente con tagliatelle, mientras que los rigatoni son una opción popular en otras partes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 g de rigatoni",
+     "200 g de carne molida de res",
+     "150 g de carne molida de cerdo",
+     "400 g de pasta de tomate (passata)",
+     "1 zanahoria, en cubos pequeños",
+     "1 tallo de apio, en cubos pequeños",
+     "1 cebolla, en cubos pequeños",
+     "1 cda. de aceite de oliva",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Sofríe la cebolla, la zanahoria y el apio en el aceite a fuego bajo durante 10 minutos.",
+     "Añade las dos carnes y dóralas, desmenuzando los grumos.",
+     "Incorpora el tomate y un poco de agua, sazona y cocina a fuego lento, tapado, al menos 1 hora y media, moviendo de vez en cuando.",
+     "Cuece los rigatoni al dente y mézclalos con el ragú."
+    ]
+   },
+   "tips": [
+    "Usa carne de res magra y retira la grasa que suba a la superficie durante la cocción.",
+    "Duplica la zanahoria y el apio para dar más volumen a la salsa con verduras.",
+    "1 cda. de aceite de oliva ≈ 120 kcal, así que mídela en lugar de verterla al tanteo."
+   ],
+   "name_inline": "los rigatoni a la boloñesa"
   }
+ }
 }

@@ -1,182 +1,216 @@
 {
-  "db_key": "korean_fried_chicken",
-  "slug": "korean-fried-chicken",
-  "emoji": "🍗",
-  "portion_g": 250,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "korean_fried_chicken",
+ "slug": "korean-fried-chicken",
+ "emoji": "🍗",
+ "portion_g": 250,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Korean fried chicken",
+   "origin": "South Korea",
+   "intro": "Korean fried chicken is fried twice, which gives it a thin, glassy crust that stays crunchy even under sauce. The popular yangnyeom style is tossed in a sticky glaze of gochujang chili paste, soy sauce, garlic and sugar, so every bite is crisp, sweet and spicy. It is a classic shared dish for evenings with friends, usually served with pickled radish.",
+   "history": "Fried chicken became widespread in South Korea in the second half of the 20th century, and the sweet-spicy yangnyeom glaze was developed by local chicken shops, with the 1980s usually cited as the time it took off. Today chicken shops are found on almost every street in Korea.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg chicken wings or small pieces",
+     "100 g cornstarch",
+     "1 tsp salt, ½ tsp black pepper",
+     "Oil for deep-frying",
+     "3 tbsp gochujang",
+     "2 tbsp soy sauce",
+     "3 tbsp sugar",
+     "4 garlic cloves, minced",
+     "3 tbsp water"
+    ],
+    "steps": [
+     "Pat the chicken dry, season with salt and pepper and coat well in cornstarch.",
+     "Fry at 165 °C for 8–10 minutes, then rest on a rack for 5 minutes.",
+     "Fry again at 185 °C for 3–4 minutes until very crisp.",
+     "Simmer the gochujang, soy sauce, sugar, garlic and water for 2–3 minutes until glossy.",
+     "Toss the chicken in the sauce and serve at once."
+    ]
+   },
+   "tips": [
+    "Order or make half the portion sauced and half plain to cut the sugar.",
+    "Air-fry the coated chicken instead of deep-frying it.",
+    "Choose breast pieces over wings and fill the rest of the plate with pickled radish or salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Korean fried chicken",
-      "origin": "South Korea",
-      "intro": "Korean fried chicken is fried twice, which gives it a thin, glassy crust that stays crunchy even under sauce. The popular yangnyeom style is tossed in a sticky glaze of gochujang chili paste, soy sauce, garlic and sugar, so every bite is crisp, sweet and spicy. It is a classic shared dish for evenings with friends, usually served with pickled radish.",
-      "history": "Fried chicken became widespread in South Korea in the second half of the 20th century, and the sweet-spicy yangnyeom glaze was developed by local chicken shops, with the 1980s usually cited as the time it took off. Today chicken shops are found on almost every street in Korea.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg chicken wings or small pieces",
-          "100 g cornstarch",
-          "1 tsp salt, ½ tsp black pepper",
-          "Oil for deep-frying",
-          "3 tbsp gochujang",
-          "2 tbsp soy sauce",
-          "3 tbsp sugar",
-          "4 garlic cloves, minced",
-          "3 tbsp water"
-        ],
-        "steps": [
-          "Pat the chicken dry, season with salt and pepper and coat well in cornstarch.",
-          "Fry at 165 °C for 8–10 minutes, then rest on a rack for 5 minutes.",
-          "Fry again at 185 °C for 3–4 minutes until very crisp.",
-          "Simmer the gochujang, soy sauce, sugar, garlic and water for 2–3 minutes until glossy.",
-          "Toss the chicken in the sauce and serve at once."
-        ]
-      },
-      "tips": [
-        "Order or make half the portion sauced and half plain to cut the sugar.",
-        "Air-fry the coated chicken instead of deep-frying it.",
-        "Choose breast pieces over wings and fill the rest of the plate with pickled radish or salad."
-      ]
-    },
-    "ar": {
-      "name": "دجاج مقلي كوري",
-      "origin": "كوريا الجنوبية",
-      "intro": "يُقلى الدجاج الكوري مرتين، فيحصل على قشرة رقيقة لامعة تبقى مقرمشة حتى تحت الصلصة. وفي أسلوب يانغنيوم الشهير يُقلَّب في صلصة لزجة من معجون الفلفل الكوري غوتشوجانغ وصلصة الصويا والثوم والسكر، فتكون كل قضمة مقرمشة وحلوة وحارة. إنه طبق مشترك كلاسيكي للسهرات مع الأصدقاء، ويُقدَّم عادة مع الفجل المخلل.",
-      "history": "انتشر الدجاج المقلي في كوريا الجنوبية في النصف الثاني من القرن العشرين، وطوّرت محلات الدجاج المحلية صلصة يانغنيوم الحلوة الحارة، ويُذكر عادة أنها اشتهرت في الثمانينيات. واليوم توجد محلات الدجاج في كل شارع تقريباً في كوريا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 كغ أجنحة دجاج أو قطع صغيرة",
-          "100 غ نشا ذرة",
-          "1 ملعقة صغيرة ملح و½ ملعقة صغيرة فلفل أسود",
-          "زيت للقلي العميق",
-          "3 ملاعق كبيرة غوتشوجانغ",
-          "2 ملعقة كبيرة صلصة صويا",
-          "3 ملاعق كبيرة سكر",
-          "4 فصوص ثوم مفرومة",
-          "3 ملاعق كبيرة ماء"
-        ],
-        "steps": [
-          "جفف الدجاج وتبّله بالملح والفلفل وغطّه جيداً بالنشا.",
-          "اقلِه على 165 °م لمدة 8–10 دقائق، ثم اتركه يرتاح على شبكة 5 دقائق.",
-          "اقلِه مرة ثانية على 185 °م لمدة 3–4 دقائق حتى يصبح مقرمشاً جداً.",
-          "اطهُ الغوتشوجانغ والصويا والسكر والثوم والماء 2–3 دقائق حتى تلمع الصلصة.",
-          "قلّب الدجاج في الصلصة وقدّمه فوراً."
-        ]
-      },
-      "tips": [
-        "اطلب نصف الكمية بالصلصة والنصف الآخر سادة لتقليل السكر.",
-        "استخدم القلاية الهوائية بدلاً من القلي العميق.",
-        "اختر قطع الصدر بدل الأجنحة وأكمل الطبق بالفجل المخلل أو السلطة."
-      ]
-    },
-    "it": {
-      "name": "Pollo fritto coreano",
-      "name_inline": "pollo fritto coreano",
-      "origin": "Corea del Sud",
-      "intro": "Il pollo fritto coreano si frigge due volte, il che gli dà una crosta sottile e vetrosa che resta croccante anche sotto la salsa. Il popolare stile yangnyeom viene saltato in una glassa appiccicosa di pasta di peperoncino gochujang, salsa di soia, aglio e zucchero, così ogni boccone è croccante, dolce e piccante. È un classico piatto da condividere nelle serate tra amici, servito di solito con ravanello in salamoia.",
-      "history": "Il pollo fritto si è diffuso in Corea del Sud nella seconda metà del XX secolo, e la glassa agrodolce e piccante yangnyeom è stata sviluppata dalle friggitorie di pollo locali; di solito si indicano gli anni '80 come il periodo del suo boom. Oggi i locali di pollo fritto si trovano quasi in ogni strada della Corea.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg di ali di pollo o pezzi piccoli",
-          "100 g di amido di mais",
-          "1 cucchiaino di sale, ½ cucchiaino di pepe nero",
-          "Olio per friggere",
-          "3 cucchiai di gochujang",
-          "2 cucchiai di salsa di soia",
-          "3 cucchiai di zucchero",
-          "4 spicchi d'aglio tritati",
-          "3 cucchiai di acqua"
-        ],
-        "steps": [
-          "Asciuga il pollo tamponandolo, condiscilo con sale e pepe e ricoprilo bene di amido.",
-          "Friggilo a 165 °C per 8–10 minuti, poi lascialo riposare su una griglia per 5 minuti.",
-          "Friggilo di nuovo a 185 °C per 3–4 minuti finché non è molto croccante.",
-          "Fai sobbollire gochujang, salsa di soia, zucchero, aglio e acqua per 2–3 minuti finché la salsa non è lucida.",
-          "Salta il pollo nella salsa e servi subito."
-        ]
-      },
-      "tips": [
-        "Ordina o prepara metà porzione con salsa e metà al naturale per ridurre gli zuccheri.",
-        "Cuoci il pollo impanato nella friggitrice ad aria invece di friggerlo in abbondante olio.",
-        "Scegli pezzi di petto invece delle ali e riempi il resto del piatto con ravanello in salamoia o insalata."
-      ]
-    },
-    "el": {
-      "name": "Κορεάτικο τηγανητό κοτόπουλο",
-      "name_inline": "κορεάτικο τηγανητό κοτόπουλο",
-      "origin": "Νότια Κορέα",
-      "intro": "Το κορεάτικο τηγανητό κοτόπουλο τηγανίζεται δύο φορές, κάτι που του δίνει λεπτή, γυαλιστερή κρούστα που μένει τραγανή ακόμη και κάτω από τη σάλτσα. Το δημοφιλές στιλ γιανγκνιόμ ανακατεύεται σε κολλώδες γλάσο από πάστα τσίλι γκοτσουτζάνγκ, σάλτσα σόγιας, σκόρδο και ζάχαρη, ώστε κάθε μπουκιά να είναι τραγανή, γλυκιά και πικάντικη. Είναι κλασικό πιάτο για μοίρασμα σε βραδιές με φίλους και σερβίρεται συνήθως με τουρσί ραπανάκι.",
-      "history": "Το τηγανητό κοτόπουλο διαδόθηκε ευρέως στη Νότια Κορέα το δεύτερο μισό του 20ού αιώνα, και το γλυκόκαυτο γλάσο γιανγκνιόμ αναπτύχθηκε από τοπικά μαγαζιά με κοτόπουλο, με τη δεκαετία του 1980 να αναφέρεται συνήθως ως η εποχή που απογειώθηκε. Σήμερα μαγαζιά με κοτόπουλο υπάρχουν σχεδόν σε κάθε δρόμο της Κορέας.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 κιλό φτερούγες ή μικρά κομμάτια κοτόπουλου",
-          "100 γρ. κορν φλάουρ",
-          "1 κ.γ. αλάτι, ½ κ.γ. μαύρο πιπέρι",
-          "Λάδι για βαθύ τηγάνισμα",
-          "3 κ.σ. γκοτσουτζάνγκ",
-          "2 κ.σ. σάλτσα σόγιας",
-          "3 κ.σ. ζάχαρη",
-          "4 σκελίδες σκόρδο, ψιλοκομμένες",
-          "3 κ.σ. νερό"
-        ],
-        "steps": [
-          "Σκουπίστε καλά το κοτόπουλο, καρυκεύστε με αλάτι και πιπέρι και πασπαλίστε το καλά με κορν φλάουρ.",
-          "Τηγανίστε στους 165 °C για 8–10 λεπτά και αφήστε το σε σχάρα για 5 λεπτά.",
-          "Τηγανίστε ξανά στους 185 °C για 3–4 λεπτά μέχρι να γίνει πολύ τραγανό.",
-          "Σιγοβράστε το γκοτσουτζάνγκ, τη σόγια, τη ζάχαρη, το σκόρδο και το νερό για 2–3 λεπτά μέχρι να γυαλίσει η σάλτσα.",
-          "Ανακατέψτε το κοτόπουλο στη σάλτσα και σερβίρετε αμέσως."
-        ]
-      },
-      "tips": [
-        "Παραγγείλτε ή φτιάξτε τη μισή μερίδα με σάλτσα και τη μισή σκέτη για λιγότερη ζάχαρη.",
-        "Ψήστε το αλευρωμένο κοτόπουλο στο air fryer αντί να το τηγανίσετε σε βαθύ λάδι.",
-        "Προτιμήστε κομμάτια στήθους αντί για φτερούγες και γεμίστε το υπόλοιπο πιάτο με τουρσί ραπανάκι ή σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Корейская жареная курица",
-      "origin": "Южная Корея",
-      "intro": "Корейскую жареную курицу жарят дважды, что даёт тонкую стекловидную корочку, остающуюся хрустящей даже под соусом. Популярный стиль яннём обваливают в липкой глазури из пасты чили кочхуджан, соевого соуса, чеснока и сахара, так что каждый кусочек хрустящий, сладкий и острый. Это классическое блюдо на всех для вечеров с друзьями, обычно подаваемое с маринованной редькой.",
-      "history": "Жареная курица получила широкое распространение в Южной Корее во второй половине XX века, а сладко-острую глазурь яннём разработали местные куриные лавки; обычно считается, что она стала популярной в 1980-х. Сегодня куриные заведения есть почти на каждой улице Кореи.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 кг куриных крылышек или небольших кусочков",
-          "100 г кукурузного крахмала",
-          "1 ч. л. соли, ½ ч. л. чёрного перца",
-          "Масло для фритюра",
-          "3 ст. л. кочхуджана",
-          "2 ст. л. соевого соуса",
-          "3 ст. л. сахара",
-          "4 зубчика чеснока, измельчённых",
-          "3 ст. л. воды"
-        ],
-        "steps": [
-          "Обсушите курицу, приправьте солью и перцем и хорошо обваляйте в кукурузном крахмале.",
-          "Жарьте при 165 °C 8–10 минут, затем оставьте на решётке на 5 минут.",
-          "Жарьте повторно при 185 °C 3–4 минуты до сильной хрусткости.",
-          "Томите кочхуджан, соевый соус, сахар, чеснок и воду 2–3 минуты до блеска.",
-          "Обваляйте курицу в соусе и подавайте сразу."
-        ]
-      },
-      "tips": [
-        "Заказывайте или готовьте половину порции в соусе, а половину простой, чтобы сократить сахар.",
-        "Готовьте обваленную курицу в аэрофритюрнице вместо жарки во фритюре.",
-        "Выбирайте грудку вместо крылышек и наполните остальную тарелку маринованной редькой или салатом."
-      ],
-      "name_inline": "корейская жареная курица"
-    }
+  "ar": {
+   "name": "دجاج مقلي كوري",
+   "origin": "كوريا الجنوبية",
+   "intro": "يُقلى الدجاج الكوري مرتين، فيحصل على قشرة رقيقة لامعة تبقى مقرمشة حتى تحت الصلصة. وفي أسلوب يانغنيوم الشهير يُقلَّب في صلصة لزجة من معجون الفلفل الكوري غوتشوجانغ وصلصة الصويا والثوم والسكر، فتكون كل قضمة مقرمشة وحلوة وحارة. إنه طبق مشترك كلاسيكي للسهرات مع الأصدقاء، ويُقدَّم عادة مع الفجل المخلل.",
+   "history": "انتشر الدجاج المقلي في كوريا الجنوبية في النصف الثاني من القرن العشرين، وطوّرت محلات الدجاج المحلية صلصة يانغنيوم الحلوة الحارة، ويُذكر عادة أنها اشتهرت في الثمانينيات. واليوم توجد محلات الدجاج في كل شارع تقريباً في كوريا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 كغ أجنحة دجاج أو قطع صغيرة",
+     "100 غ نشا ذرة",
+     "1 ملعقة صغيرة ملح و½ ملعقة صغيرة فلفل أسود",
+     "زيت للقلي العميق",
+     "3 ملاعق كبيرة غوتشوجانغ",
+     "2 ملعقة كبيرة صلصة صويا",
+     "3 ملاعق كبيرة سكر",
+     "4 فصوص ثوم مفرومة",
+     "3 ملاعق كبيرة ماء"
+    ],
+    "steps": [
+     "جفف الدجاج وتبّله بالملح والفلفل وغطّه جيداً بالنشا.",
+     "اقلِه على 165 °م لمدة 8–10 دقائق، ثم اتركه يرتاح على شبكة 5 دقائق.",
+     "اقلِه مرة ثانية على 185 °م لمدة 3–4 دقائق حتى يصبح مقرمشاً جداً.",
+     "اطهُ الغوتشوجانغ والصويا والسكر والثوم والماء 2–3 دقائق حتى تلمع الصلصة.",
+     "قلّب الدجاج في الصلصة وقدّمه فوراً."
+    ]
+   },
+   "tips": [
+    "اطلب نصف الكمية بالصلصة والنصف الآخر سادة لتقليل السكر.",
+    "استخدم القلاية الهوائية بدلاً من القلي العميق.",
+    "اختر قطع الصدر بدل الأجنحة وأكمل الطبق بالفجل المخلل أو السلطة."
+   ]
+  },
+  "it": {
+   "name": "Pollo fritto coreano",
+   "name_inline": "pollo fritto coreano",
+   "origin": "Corea del Sud",
+   "intro": "Il pollo fritto coreano si frigge due volte, il che gli dà una crosta sottile e vetrosa che resta croccante anche sotto la salsa. Il popolare stile yangnyeom viene saltato in una glassa appiccicosa di pasta di peperoncino gochujang, salsa di soia, aglio e zucchero, così ogni boccone è croccante, dolce e piccante. È un classico piatto da condividere nelle serate tra amici, servito di solito con ravanello in salamoia.",
+   "history": "Il pollo fritto si è diffuso in Corea del Sud nella seconda metà del XX secolo, e la glassa agrodolce e piccante yangnyeom è stata sviluppata dalle friggitorie di pollo locali; di solito si indicano gli anni '80 come il periodo del suo boom. Oggi i locali di pollo fritto si trovano quasi in ogni strada della Corea.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg di ali di pollo o pezzi piccoli",
+     "100 g di amido di mais",
+     "1 cucchiaino di sale, ½ cucchiaino di pepe nero",
+     "Olio per friggere",
+     "3 cucchiai di gochujang",
+     "2 cucchiai di salsa di soia",
+     "3 cucchiai di zucchero",
+     "4 spicchi d'aglio tritati",
+     "3 cucchiai di acqua"
+    ],
+    "steps": [
+     "Asciuga il pollo tamponandolo, condiscilo con sale e pepe e ricoprilo bene di amido.",
+     "Friggilo a 165 °C per 8–10 minuti, poi lascialo riposare su una griglia per 5 minuti.",
+     "Friggilo di nuovo a 185 °C per 3–4 minuti finché non è molto croccante.",
+     "Fai sobbollire gochujang, salsa di soia, zucchero, aglio e acqua per 2–3 minuti finché la salsa non è lucida.",
+     "Salta il pollo nella salsa e servi subito."
+    ]
+   },
+   "tips": [
+    "Ordina o prepara metà porzione con salsa e metà al naturale per ridurre gli zuccheri.",
+    "Cuoci il pollo impanato nella friggitrice ad aria invece di friggerlo in abbondante olio.",
+    "Scegli pezzi di petto invece delle ali e riempi il resto del piatto con ravanello in salamoia o insalata."
+   ]
+  },
+  "el": {
+   "name": "Κορεάτικο τηγανητό κοτόπουλο",
+   "name_inline": "κορεάτικο τηγανητό κοτόπουλο",
+   "origin": "Νότια Κορέα",
+   "intro": "Το κορεάτικο τηγανητό κοτόπουλο τηγανίζεται δύο φορές, κάτι που του δίνει λεπτή, γυαλιστερή κρούστα που μένει τραγανή ακόμη και κάτω από τη σάλτσα. Το δημοφιλές στιλ γιανγκνιόμ ανακατεύεται σε κολλώδες γλάσο από πάστα τσίλι γκοτσουτζάνγκ, σάλτσα σόγιας, σκόρδο και ζάχαρη, ώστε κάθε μπουκιά να είναι τραγανή, γλυκιά και πικάντικη. Είναι κλασικό πιάτο για μοίρασμα σε βραδιές με φίλους και σερβίρεται συνήθως με τουρσί ραπανάκι.",
+   "history": "Το τηγανητό κοτόπουλο διαδόθηκε ευρέως στη Νότια Κορέα το δεύτερο μισό του 20ού αιώνα, και το γλυκόκαυτο γλάσο γιανγκνιόμ αναπτύχθηκε από τοπικά μαγαζιά με κοτόπουλο, με τη δεκαετία του 1980 να αναφέρεται συνήθως ως η εποχή που απογειώθηκε. Σήμερα μαγαζιά με κοτόπουλο υπάρχουν σχεδόν σε κάθε δρόμο της Κορέας.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 κιλό φτερούγες ή μικρά κομμάτια κοτόπουλου",
+     "100 γρ. κορν φλάουρ",
+     "1 κ.γ. αλάτι, ½ κ.γ. μαύρο πιπέρι",
+     "Λάδι για βαθύ τηγάνισμα",
+     "3 κ.σ. γκοτσουτζάνγκ",
+     "2 κ.σ. σάλτσα σόγιας",
+     "3 κ.σ. ζάχαρη",
+     "4 σκελίδες σκόρδο, ψιλοκομμένες",
+     "3 κ.σ. νερό"
+    ],
+    "steps": [
+     "Σκουπίστε καλά το κοτόπουλο, καρυκεύστε με αλάτι και πιπέρι και πασπαλίστε το καλά με κορν φλάουρ.",
+     "Τηγανίστε στους 165 °C για 8–10 λεπτά και αφήστε το σε σχάρα για 5 λεπτά.",
+     "Τηγανίστε ξανά στους 185 °C για 3–4 λεπτά μέχρι να γίνει πολύ τραγανό.",
+     "Σιγοβράστε το γκοτσουτζάνγκ, τη σόγια, τη ζάχαρη, το σκόρδο και το νερό για 2–3 λεπτά μέχρι να γυαλίσει η σάλτσα.",
+     "Ανακατέψτε το κοτόπουλο στη σάλτσα και σερβίρετε αμέσως."
+    ]
+   },
+   "tips": [
+    "Παραγγείλτε ή φτιάξτε τη μισή μερίδα με σάλτσα και τη μισή σκέτη για λιγότερη ζάχαρη.",
+    "Ψήστε το αλευρωμένο κοτόπουλο στο air fryer αντί να το τηγανίσετε σε βαθύ λάδι.",
+    "Προτιμήστε κομμάτια στήθους αντί για φτερούγες και γεμίστε το υπόλοιπο πιάτο με τουρσί ραπανάκι ή σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Корейская жареная курица",
+   "origin": "Южная Корея",
+   "intro": "Корейскую жареную курицу жарят дважды, что даёт тонкую стекловидную корочку, остающуюся хрустящей даже под соусом. Популярный стиль яннём обваливают в липкой глазури из пасты чили кочхуджан, соевого соуса, чеснока и сахара, так что каждый кусочек хрустящий, сладкий и острый. Это классическое блюдо на всех для вечеров с друзьями, обычно подаваемое с маринованной редькой.",
+   "history": "Жареная курица получила широкое распространение в Южной Корее во второй половине XX века, а сладко-острую глазурь яннём разработали местные куриные лавки; обычно считается, что она стала популярной в 1980-х. Сегодня куриные заведения есть почти на каждой улице Кореи.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 кг куриных крылышек или небольших кусочков",
+     "100 г кукурузного крахмала",
+     "1 ч. л. соли, ½ ч. л. чёрного перца",
+     "Масло для фритюра",
+     "3 ст. л. кочхуджана",
+     "2 ст. л. соевого соуса",
+     "3 ст. л. сахара",
+     "4 зубчика чеснока, измельчённых",
+     "3 ст. л. воды"
+    ],
+    "steps": [
+     "Обсушите курицу, приправьте солью и перцем и хорошо обваляйте в кукурузном крахмале.",
+     "Жарьте при 165 °C 8–10 минут, затем оставьте на решётке на 5 минут.",
+     "Жарьте повторно при 185 °C 3–4 минуты до сильной хрусткости.",
+     "Томите кочхуджан, соевый соус, сахар, чеснок и воду 2–3 минуты до блеска.",
+     "Обваляйте курицу в соусе и подавайте сразу."
+    ]
+   },
+   "tips": [
+    "Заказывайте или готовьте половину порции в соусе, а половину простой, чтобы сократить сахар.",
+    "Готовьте обваленную курицу в аэрофритюрнице вместо жарки во фритюре.",
+    "Выбирайте грудку вместо крылышек и наполните остальную тарелку маринованной редькой или салатом."
+   ],
+   "name_inline": "корейская жареная курица"
+  },
+  "es": {
+   "name": "Pollo frito coreano",
+   "origin": "Corea del Sur",
+   "intro": "El pollo frito coreano se fríe dos veces, lo que le da una corteza fina y vidriosa que se mantiene crujiente incluso bajo la salsa. El estilo yangnyeom, el más popular, se baña en una glaseada pegajosa de pasta de chile gochujang, salsa de soya, ajo y azúcar, así que cada bocado es crujiente, dulce y picante. Es un clásico para compartir en las noches con amigos, y suele servirse con rábano encurtido.",
+   "history": "El pollo frito se popularizó en Corea del Sur en la segunda mitad del siglo XX, y la glaseada agridulce y picante yangnyeom fue desarrollada por pollerías locales; suele citarse la década de 1980 como el momento en que despegó. Hoy hay pollerías en casi todas las calles de Corea.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg de alitas o piezas pequeñas de pollo",
+     "100 g de fécula de maíz",
+     "1 cdta. de sal, ½ cdta. de pimienta negra",
+     "aceite para freír",
+     "3 cdas. de gochujang",
+     "2 cdas. de salsa de soya",
+     "3 cdas. de azúcar",
+     "4 dientes de ajo, picados",
+     "3 cdas. de agua"
+    ],
+    "steps": [
+     "Seca el pollo con papel, sazona con sal y pimienta y pásalo bien por la fécula de maíz.",
+     "Fríe a 165 °C de 8 a 10 minutos y deja reposar sobre una rejilla 5 minutos.",
+     "Fríe de nuevo a 185 °C de 3 a 4 minutos, hasta que esté muy crujiente.",
+     "Cocina a fuego suave el gochujang, la salsa de soya, el azúcar, el ajo y el agua de 2 a 3 minutos, hasta que brille.",
+     "Mezcla el pollo con la salsa y sirve de inmediato."
+    ]
+   },
+   "tips": [
+    "Pide o prepara la mitad del pollo con salsa y la otra mitad sin ella para reducir el azúcar.",
+    "Cocina el pollo empanizado en freidora de aire en lugar de freírlo en aceite.",
+    "Elige piezas de pechuga en lugar de alitas y llena el resto del plato con rábano encurtido o ensalada."
+   ],
+   "name_inline": "el pollo frito coreano"
   }
+ }
 }

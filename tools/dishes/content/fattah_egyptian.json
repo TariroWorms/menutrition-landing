@@ -1,176 +1,209 @@
 {
-  "db_key": "fattah_egyptian",
-  "slug": "fattah-egyptian",
-  "emoji": "🍲",
-  "portion_g": 400,
-  "country": "EG",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fattah_egyptian",
+ "slug": "fattah-egyptian",
+ "emoji": "🍲",
+ "portion_g": 400,
+ "country": "EG",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Egyptian fatta",
+   "origin": "Egypt",
+   "intro": "Egyptian fatta is a festive layered dish of crisp toasted bread and rice soaked with garlic-vinegar broth, topped with a tangy tomato sauce and pieces of tender boiled lamb. The bread softens at the bottom but stays crunchy on top, and ghee gives the garlic its rich aroma. It is served in a large tray for the whole family, especially on Eid al-Adha.",
+   "history": "Fatta is one of Egypt's best-loved celebration dishes and is most closely tied to Eid al-Adha, when it is made with the meat and broth of the sacrificed animal. It is also cooked for family gatherings and other special occasions across the country.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg lamb on the bone",
+     "400 g Egyptian or short-grain rice",
+     "2 loaves flatbread, cut into pieces and toasted",
+     "8 garlic cloves, crushed",
+     "80 ml white vinegar",
+     "400 ml tomato sauce",
+     "3 tbsp ghee",
+     "Bay leaf, cardamom, salt and pepper"
+    ],
+    "steps": [
+     "Simmer the lamb with bay leaf, cardamom and salt in water for about 1½ hours; keep the broth.",
+     "Cook the rice in some of the broth.",
+     "Fry half the garlic in 1 tbsp ghee, add the vinegar and 250 ml broth and bring to a boil.",
+     "Fry the remaining garlic in 1 tbsp ghee, add the tomato sauce and simmer 10 minutes.",
+     "Layer toasted bread, moisten with the garlic-vinegar broth, add rice, then tomato sauce, and top with the lamb browned in the last tbsp of ghee."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the lamb and skim the broth after cooking.",
+    "Cut the ghee to 1 tbsp in total — 1 tbsp ghee ≈ 110–120 kcal.",
+    "Use a smaller scoop of rice and bread and a bigger share of meat and tomato sauce."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Egyptian fatta",
-      "origin": "Egypt",
-      "intro": "Egyptian fatta is a festive layered dish of crisp toasted bread and rice soaked with garlic-vinegar broth, topped with a tangy tomato sauce and pieces of tender boiled lamb. The bread softens at the bottom but stays crunchy on top, and ghee gives the garlic its rich aroma. It is served in a large tray for the whole family, especially on Eid al-Adha.",
-      "history": "Fatta is one of Egypt's best-loved celebration dishes and is most closely tied to Eid al-Adha, when it is made with the meat and broth of the sacrificed animal. It is also cooked for family gatherings and other special occasions across the country.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 kg lamb on the bone",
-          "400 g Egyptian or short-grain rice",
-          "2 loaves flatbread, cut into pieces and toasted",
-          "8 garlic cloves, crushed",
-          "80 ml white vinegar",
-          "400 ml tomato sauce",
-          "3 tbsp ghee",
-          "Bay leaf, cardamom, salt and pepper"
-        ],
-        "steps": [
-          "Simmer the lamb with bay leaf, cardamom and salt in water for about 1½ hours; keep the broth.",
-          "Cook the rice in some of the broth.",
-          "Fry half the garlic in 1 tbsp ghee, add the vinegar and 250 ml broth and bring to a boil.",
-          "Fry the remaining garlic in 1 tbsp ghee, add the tomato sauce and simmer 10 minutes.",
-          "Layer toasted bread, moisten with the garlic-vinegar broth, add rice, then tomato sauce, and top with the lamb browned in the last tbsp of ghee."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the lamb and skim the broth after cooking.",
-        "Cut the ghee to 1 tbsp in total — 1 tbsp ghee ≈ 110–120 kcal.",
-        "Use a smaller scoop of rice and bread and a bigger share of meat and tomato sauce."
-      ]
-    },
-    "ar": {
-      "name": "فتة مصرية",
-      "origin": "مصر",
-      "intro": "الفتة المصرية طبق احتفالي من طبقات الخبز المحمّص المقرمش والأرز المسقي بمرق الثوم والخل، يعلوه صلصة طماطم حامضة وقطع من لحم الضأن المسلوق الطري. يلين الخبز في الأسفل ويبقى مقرمشاً في الأعلى، ويمنح السمن الثوم رائحته الغنية. تُقدَّم في صينية كبيرة للعائلة كلها، خاصة في عيد الأضحى.",
-      "history": "الفتة من أحب أطباق المناسبات في مصر، وترتبط أكثر ما ترتبط بعيد الأضحى حين تُطهى بلحم الأضحية ومرقها. وتُطهى أيضاً في التجمعات العائلية وسائر المناسبات في أنحاء البلاد.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 كغ لحم ضأن بالعظم",
-          "400 غ أرز مصري",
-          "رغيفان خبز مقطّعان ومحمّصان",
-          "8 فصوص ثوم مهروسة",
-          "80 مل خل أبيض",
-          "400 مل صلصة طماطم",
-          "3 ملاعق كبيرة سمن",
-          "ورق غار وحبهان وملح وفلفل"
-        ],
-        "steps": [
-          "اسلق اللحم مع ورق الغار والحبهان والملح في الماء نحو ساعة ونصف واحتفظ بالمرق.",
-          "اطبخ الأرز في جزء من المرق.",
-          "حمّر نصف الثوم في ملعقة سمن، ثم أضف الخل و250 مل من المرق واتركه يغلي.",
-          "حمّر باقي الثوم في ملعقة سمن، وأضف صلصة الطماطم واتركها 10 دقائق.",
-          "رصّ الخبز المحمّص واسقه بمرق الثوم والخل، ثم الأرز، ثم صلصة الطماطم، وزيّن باللحم المحمّر في آخر ملعقة سمن."
-        ]
-      },
-      "tips": [
-        "انزع الدهن الظاهر عن اللحم وأزل الدهن عن سطح المرق بعد الطهي.",
-        "قلّل السمن إلى ملعقة واحدة إجمالاً — ملعقة كبيرة سمن ≈ 110–120 سعرة.",
-        "خذ مغرفة أصغر من الأرز والخبز وحصة أكبر من اللحم وصلصة الطماطم."
-      ]
-    },
-    "it": {
-      "name": "Fatta egiziana",
-      "name_inline": "fatta egiziana",
-      "origin": "Egitto",
-      "intro": "La fatta egiziana è un piatto festivo a strati di pane croccante tostato e riso bagnati con brodo all'aglio e aceto, ricoperti da una salsa di pomodoro acidula e da pezzi di tenero agnello bollito. Il pane si ammorbidisce sul fondo ma resta croccante in superficie, e il ghee dà all'aglio un aroma ricco. Si serve in un grande vassoio per tutta la famiglia, soprattutto per l'Eid al-Adha.",
-      "history": "La fatta è uno dei piatti delle feste più amati d'Egitto ed è legata soprattutto all'Eid al-Adha, quando si prepara con la carne e il brodo dell'animale sacrificato. Si cucina anche per le riunioni di famiglia e altre occasioni speciali in tutto il paese.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 kg di agnello con l'osso",
-          "400 g di riso egiziano o a chicco tondo",
-          "2 pani piatti tagliati a pezzi e tostati",
-          "8 spicchi d'aglio schiacciati",
-          "80 ml di aceto bianco",
-          "400 ml di salsa di pomodoro",
-          "3 cucchiai di ghee",
-          "Alloro, cardamomo, sale e pepe"
-        ],
-        "steps": [
-          "Fai sobbollire l'agnello in acqua con alloro, cardamomo e sale per circa 1 ora e mezza; tieni da parte il brodo.",
-          "Cuoci il riso in parte del brodo.",
-          "Soffriggi metà dell'aglio in 1 cucchiaio di ghee, aggiungi l'aceto e 250 ml di brodo e porta a bollore.",
-          "Soffriggi il resto dell'aglio in 1 cucchiaio di ghee, aggiungi la salsa di pomodoro e fai sobbollire 10 minuti.",
-          "Disponi il pane tostato, bagnalo con il brodo all'aglio e aceto, aggiungi il riso, poi la salsa di pomodoro, e completa con l'agnello rosolato nell'ultimo cucchiaio di ghee."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dall'agnello e sgrassa il brodo dopo la cottura.",
-        "Riduci il ghee a 1 cucchiaio in tutto: 1 cucchiaio di ghee ≈ 110–120 kcal.",
-        "Prendi una porzione più piccola di riso e pane e una parte maggiore di carne e salsa di pomodoro."
-      ]
-    },
-    "el": {
-      "name": "Αιγυπτιακή φάτα",
-      "origin": "Αίγυπτος",
-      "intro": "Η αιγυπτιακή φάτα είναι ένα γιορτινό πιάτο σε στρώσεις με τραγανό φρυγανισμένο ψωμί και ρύζι, μουσκεμένα με ζωμό σκόρδου και ξιδιού, με ξινή σάλτσα ντομάτας και κομμάτια τρυφερού βραστού αρνιού από πάνω. Το ψωμί μαλακώνει στον πάτο αλλά μένει τραγανό από πάνω, και το γκι δίνει στο σκόρδο πλούσιο άρωμα. Σερβίρεται σε μεγάλο ταψί για όλη την οικογένεια, κυρίως στο Ιντ αλ-Άντχα.",
-      "history": "Η φάτα είναι ένα από τα πιο αγαπημένα γιορτινά πιάτα της Αιγύπτου και συνδέεται κυρίως με το Ιντ αλ-Άντχα, όταν φτιάχνεται με το κρέας και τον ζωμό του θυσιασμένου ζώου. Μαγειρεύεται επίσης για οικογενειακές συγκεντρώσεις και άλλες ξεχωριστές περιστάσεις σε όλη τη χώρα.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 κιλό αρνί με κόκαλο",
-          "400 γρ. αιγυπτιακό ρύζι ή ρύζι γλασέ",
-          "2 αραβικές πίτες, κομμένες σε κομμάτια και φρυγανισμένες",
-          "8 σκελίδες σκόρδο, λιωμένες",
-          "80 ml λευκό ξίδι",
-          "400 ml σάλτσα ντομάτας",
-          "3 κ.σ. γκι (βούτυρο κλαρισμένο)",
-          "Δάφνη, κάρδαμο, αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Σιγοβράστε το αρνί σε νερό με δάφνη, κάρδαμο και αλάτι για περίπου 1½ ώρα· κρατήστε τον ζωμό.",
-          "Μαγειρέψτε το ρύζι σε μέρος του ζωμού.",
-          "Τσιγαρίστε το μισό σκόρδο σε 1 κ.σ. γκι, προσθέστε το ξίδι και 250 ml ζωμό και φέρτε σε βρασμό.",
-          "Τσιγαρίστε το υπόλοιπο σκόρδο σε 1 κ.σ. γκι, προσθέστε τη σάλτσα ντομάτας και σιγοβράστε 10 λεπτά.",
-          "Στρώστε το φρυγανισμένο ψωμί, μουσκέψτε το με τον ζωμό σκόρδου και ξιδιού, προσθέστε το ρύζι, έπειτα τη σάλτσα ντομάτας, και τελειώστε με το αρνί σοταρισμένο στην τελευταία κ.σ. γκι."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το αρνί και ξαφρίστε τον ζωμό μετά το βράσιμο.",
-        "Μειώστε το γκι σε 1 κ.σ. συνολικά — 1 κ.σ. γκι ≈ 110–120 kcal.",
-        "Πάρτε μικρότερη μερίδα ρυζιού και ψωμιού και μεγαλύτερη μερίδα κρέατος και σάλτσας ντομάτας."
-      ]
-    },
-    "ru": {
-      "name": "Египетская фатта",
-      "origin": "Египет",
-      "intro": "Египетская фатта — праздничное слоёное блюдо из хрустящего поджаренного хлеба и риса, пропитанных чесночно-уксусным бульоном, покрытых пикантным томатным соусом и кусочками нежной варёной баранины. Хлеб размягчается внизу, но остаётся хрустящим сверху, а гхи придаёт чесноку насыщенный аромат. Подаётся на большом подносе для всей семьи, особенно на Курбан-байрам.",
-      "history": "Фатта — одно из самых любимых праздничных блюд Египта, наиболее тесно связанное с Курбан-байрамом, когда её готовят из мяса и бульона жертвенного животного. Её также готовят на семейные встречи и другие особые случаи по всей стране.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 кг баранины на кости",
-          "400 г египетского или круглозёрного риса",
-          "2 лепёшки, нарезанные кусками и поджаренные",
-          "8 зубчиков чеснока, раздавленных",
-          "80 мл белого уксуса",
-          "400 мл томатного соуса",
-          "3 ст. л. гхи",
-          "Лавровый лист, кардамон, соль и перец"
-        ],
-        "steps": [
-          "Варите баранину с лавровым листом, кардамоном и солью в воде около 1½ часов; бульон сохраните.",
-          "Сварите рис в части бульона.",
-          "Обжарьте половину чеснока в 1 ст. л. гхи, добавьте уксус и 250 мл бульона и доведите до кипения.",
-          "Обжарьте оставшийся чеснок в 1 ст. л. гхи, добавьте томатный соус и варите 10 минут.",
-          "Выложите слоями поджаренный хлеб, смочите чесночно-уксусным бульоном, добавьте рис, затем томатный соус и покройте бараниной, обжаренной в последней ст. л. гхи."
-        ]
-      },
-      "tips": [
-        "Срежьте с баранины видимый жир и снимите жир с бульона после варки.",
-        "Уменьшите гхи до 1 ст. л. всего — 1 ст. л. гхи ≈ 110–120 ккал.",
-        "Берите меньшую порцию риса и хлеба и большую долю мяса и томатного соуса."
-      ],
-      "name_inline": "египетская фатта"
-    }
+  "ar": {
+   "name": "فتة مصرية",
+   "origin": "مصر",
+   "intro": "الفتة المصرية طبق احتفالي من طبقات الخبز المحمّص المقرمش والأرز المسقي بمرق الثوم والخل، يعلوه صلصة طماطم حامضة وقطع من لحم الضأن المسلوق الطري. يلين الخبز في الأسفل ويبقى مقرمشاً في الأعلى، ويمنح السمن الثوم رائحته الغنية. تُقدَّم في صينية كبيرة للعائلة كلها، خاصة في عيد الأضحى.",
+   "history": "الفتة من أحب أطباق المناسبات في مصر، وترتبط أكثر ما ترتبط بعيد الأضحى حين تُطهى بلحم الأضحية ومرقها. وتُطهى أيضاً في التجمعات العائلية وسائر المناسبات في أنحاء البلاد.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 كغ لحم ضأن بالعظم",
+     "400 غ أرز مصري",
+     "رغيفان خبز مقطّعان ومحمّصان",
+     "8 فصوص ثوم مهروسة",
+     "80 مل خل أبيض",
+     "400 مل صلصة طماطم",
+     "3 ملاعق كبيرة سمن",
+     "ورق غار وحبهان وملح وفلفل"
+    ],
+    "steps": [
+     "اسلق اللحم مع ورق الغار والحبهان والملح في الماء نحو ساعة ونصف واحتفظ بالمرق.",
+     "اطبخ الأرز في جزء من المرق.",
+     "حمّر نصف الثوم في ملعقة سمن، ثم أضف الخل و250 مل من المرق واتركه يغلي.",
+     "حمّر باقي الثوم في ملعقة سمن، وأضف صلصة الطماطم واتركها 10 دقائق.",
+     "رصّ الخبز المحمّص واسقه بمرق الثوم والخل، ثم الأرز، ثم صلصة الطماطم، وزيّن باللحم المحمّر في آخر ملعقة سمن."
+    ]
+   },
+   "tips": [
+    "انزع الدهن الظاهر عن اللحم وأزل الدهن عن سطح المرق بعد الطهي.",
+    "قلّل السمن إلى ملعقة واحدة إجمالاً — ملعقة كبيرة سمن ≈ 110–120 سعرة.",
+    "خذ مغرفة أصغر من الأرز والخبز وحصة أكبر من اللحم وصلصة الطماطم."
+   ]
+  },
+  "it": {
+   "name": "Fatta egiziana",
+   "name_inline": "fatta egiziana",
+   "origin": "Egitto",
+   "intro": "La fatta egiziana è un piatto festivo a strati di pane croccante tostato e riso bagnati con brodo all'aglio e aceto, ricoperti da una salsa di pomodoro acidula e da pezzi di tenero agnello bollito. Il pane si ammorbidisce sul fondo ma resta croccante in superficie, e il ghee dà all'aglio un aroma ricco. Si serve in un grande vassoio per tutta la famiglia, soprattutto per l'Eid al-Adha.",
+   "history": "La fatta è uno dei piatti delle feste più amati d'Egitto ed è legata soprattutto all'Eid al-Adha, quando si prepara con la carne e il brodo dell'animale sacrificato. Si cucina anche per le riunioni di famiglia e altre occasioni speciali in tutto il paese.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg di agnello con l'osso",
+     "400 g di riso egiziano o a chicco tondo",
+     "2 pani piatti tagliati a pezzi e tostati",
+     "8 spicchi d'aglio schiacciati",
+     "80 ml di aceto bianco",
+     "400 ml di salsa di pomodoro",
+     "3 cucchiai di ghee",
+     "Alloro, cardamomo, sale e pepe"
+    ],
+    "steps": [
+     "Fai sobbollire l'agnello in acqua con alloro, cardamomo e sale per circa 1 ora e mezza; tieni da parte il brodo.",
+     "Cuoci il riso in parte del brodo.",
+     "Soffriggi metà dell'aglio in 1 cucchiaio di ghee, aggiungi l'aceto e 250 ml di brodo e porta a bollore.",
+     "Soffriggi il resto dell'aglio in 1 cucchiaio di ghee, aggiungi la salsa di pomodoro e fai sobbollire 10 minuti.",
+     "Disponi il pane tostato, bagnalo con il brodo all'aglio e aceto, aggiungi il riso, poi la salsa di pomodoro, e completa con l'agnello rosolato nell'ultimo cucchiaio di ghee."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dall'agnello e sgrassa il brodo dopo la cottura.",
+    "Riduci il ghee a 1 cucchiaio in tutto: 1 cucchiaio di ghee ≈ 110–120 kcal.",
+    "Prendi una porzione più piccola di riso e pane e una parte maggiore di carne e salsa di pomodoro."
+   ]
+  },
+  "el": {
+   "name": "Αιγυπτιακή φάτα",
+   "origin": "Αίγυπτος",
+   "intro": "Η αιγυπτιακή φάτα είναι ένα γιορτινό πιάτο σε στρώσεις με τραγανό φρυγανισμένο ψωμί και ρύζι, μουσκεμένα με ζωμό σκόρδου και ξιδιού, με ξινή σάλτσα ντομάτας και κομμάτια τρυφερού βραστού αρνιού από πάνω. Το ψωμί μαλακώνει στον πάτο αλλά μένει τραγανό από πάνω, και το γκι δίνει στο σκόρδο πλούσιο άρωμα. Σερβίρεται σε μεγάλο ταψί για όλη την οικογένεια, κυρίως στο Ιντ αλ-Άντχα.",
+   "history": "Η φάτα είναι ένα από τα πιο αγαπημένα γιορτινά πιάτα της Αιγύπτου και συνδέεται κυρίως με το Ιντ αλ-Άντχα, όταν φτιάχνεται με το κρέας και τον ζωμό του θυσιασμένου ζώου. Μαγειρεύεται επίσης για οικογενειακές συγκεντρώσεις και άλλες ξεχωριστές περιστάσεις σε όλη τη χώρα.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 κιλό αρνί με κόκαλο",
+     "400 γρ. αιγυπτιακό ρύζι ή ρύζι γλασέ",
+     "2 αραβικές πίτες, κομμένες σε κομμάτια και φρυγανισμένες",
+     "8 σκελίδες σκόρδο, λιωμένες",
+     "80 ml λευκό ξίδι",
+     "400 ml σάλτσα ντομάτας",
+     "3 κ.σ. γκι (βούτυρο κλαρισμένο)",
+     "Δάφνη, κάρδαμο, αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Σιγοβράστε το αρνί σε νερό με δάφνη, κάρδαμο και αλάτι για περίπου 1½ ώρα· κρατήστε τον ζωμό.",
+     "Μαγειρέψτε το ρύζι σε μέρος του ζωμού.",
+     "Τσιγαρίστε το μισό σκόρδο σε 1 κ.σ. γκι, προσθέστε το ξίδι και 250 ml ζωμό και φέρτε σε βρασμό.",
+     "Τσιγαρίστε το υπόλοιπο σκόρδο σε 1 κ.σ. γκι, προσθέστε τη σάλτσα ντομάτας και σιγοβράστε 10 λεπτά.",
+     "Στρώστε το φρυγανισμένο ψωμί, μουσκέψτε το με τον ζωμό σκόρδου και ξιδιού, προσθέστε το ρύζι, έπειτα τη σάλτσα ντομάτας, και τελειώστε με το αρνί σοταρισμένο στην τελευταία κ.σ. γκι."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το αρνί και ξαφρίστε τον ζωμό μετά το βράσιμο.",
+    "Μειώστε το γκι σε 1 κ.σ. συνολικά — 1 κ.σ. γκι ≈ 110–120 kcal.",
+    "Πάρτε μικρότερη μερίδα ρυζιού και ψωμιού και μεγαλύτερη μερίδα κρέατος και σάλτσας ντομάτας."
+   ]
+  },
+  "ru": {
+   "name": "Египетская фатта",
+   "origin": "Египет",
+   "intro": "Египетская фатта — праздничное слоёное блюдо из хрустящего поджаренного хлеба и риса, пропитанных чесночно-уксусным бульоном, покрытых пикантным томатным соусом и кусочками нежной варёной баранины. Хлеб размягчается внизу, но остаётся хрустящим сверху, а гхи придаёт чесноку насыщенный аромат. Подаётся на большом подносе для всей семьи, особенно на Курбан-байрам.",
+   "history": "Фатта — одно из самых любимых праздничных блюд Египта, наиболее тесно связанное с Курбан-байрамом, когда её готовят из мяса и бульона жертвенного животного. Её также готовят на семейные встречи и другие особые случаи по всей стране.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 кг баранины на кости",
+     "400 г египетского или круглозёрного риса",
+     "2 лепёшки, нарезанные кусками и поджаренные",
+     "8 зубчиков чеснока, раздавленных",
+     "80 мл белого уксуса",
+     "400 мл томатного соуса",
+     "3 ст. л. гхи",
+     "Лавровый лист, кардамон, соль и перец"
+    ],
+    "steps": [
+     "Варите баранину с лавровым листом, кардамоном и солью в воде около 1½ часов; бульон сохраните.",
+     "Сварите рис в части бульона.",
+     "Обжарьте половину чеснока в 1 ст. л. гхи, добавьте уксус и 250 мл бульона и доведите до кипения.",
+     "Обжарьте оставшийся чеснок в 1 ст. л. гхи, добавьте томатный соус и варите 10 минут.",
+     "Выложите слоями поджаренный хлеб, смочите чесночно-уксусным бульоном, добавьте рис, затем томатный соус и покройте бараниной, обжаренной в последней ст. л. гхи."
+    ]
+   },
+   "tips": [
+    "Срежьте с баранины видимый жир и снимите жир с бульона после варки.",
+    "Уменьшите гхи до 1 ст. л. всего — 1 ст. л. гхи ≈ 110–120 ккал.",
+    "Берите меньшую порцию риса и хлеба и большую долю мяса и томатного соуса."
+   ],
+   "name_inline": "египетская фатта"
+  },
+  "es": {
+   "name": "Fatta egipcia",
+   "origin": "Egipto",
+   "intro": "La fatta egipcia es un plato festivo en capas de pan tostado crujiente y arroz empapados en caldo de ajo y vinagre, cubiertos con una salsa de tomate ácida y trozos de cordero hervido tierno. El pan se ablanda en el fondo pero se mantiene crujiente arriba, y el ghee le da al ajo su rico aroma. Se sirve en una charola grande para toda la familia, sobre todo en el Eid al-Adha.",
+   "history": "La fatta es uno de los platos de celebración más queridos de Egipto y está ligada sobre todo al Eid al-Adha, cuando se prepara con la carne y el caldo del animal sacrificado. También se cocina para reuniones familiares y otras ocasiones especiales en todo el país.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg de cordero con hueso",
+     "400 g de arroz egipcio o de grano corto",
+     "2 panes planos, cortados en trozos y tostados",
+     "8 dientes de ajo, machacados",
+     "80 ml de vinagre blanco",
+     "400 ml de salsa de tomate",
+     "3 cdas. de ghee",
+     "Hoja de laurel, cardamomo, sal y pimienta"
+    ],
+    "steps": [
+     "Cuece el cordero con laurel, cardamomo y sal en agua durante aproximadamente 1½ horas; reserva el caldo.",
+     "Cuece el arroz en parte del caldo.",
+     "Sofríe la mitad del ajo en 1 cda. de ghee, agrega el vinagre y 250 ml de caldo y lleva a ebullición.",
+     "Sofríe el ajo restante en 1 cda. de ghee, agrega la salsa de tomate y cocina a fuego lento 10 minutos.",
+     "Acomoda el pan tostado en capas, humedécelo con el caldo de ajo y vinagre, agrega el arroz y luego la salsa de tomate, y corona con el cordero dorado en la última cda. de ghee."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible del cordero y desgrasa el caldo después de cocinarlo.",
+    "Reduce el ghee a 1 cda. en total: 1 cda. de ghee equivale a unas 110–120 kcal.",
+    "Usa una porción más pequeña de arroz y pan y una mayor de carne y salsa de tomate."
+   ],
+   "name_inline": "la fatta egipcia"
   }
+ }
 }

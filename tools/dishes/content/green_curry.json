@@ -1,172 +1,204 @@
 {
-  "db_key": "green_curry",
-  "slug": "green-curry",
-  "emoji": "🍛",
-  "portion_g": 350,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "green_curry",
+ "slug": "green-curry",
+ "emoji": "🍛",
+ "portion_g": 350,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Thai green curry",
+   "origin": "Thailand · Central Thailand",
+   "intro": "Thai green curry, gaeng keow wan, is a fragrant coconut curry built on a paste of fresh green chillies, lemongrass, galangal and kaffir lime. Chicken simmers in the creamy sauce with bamboo shoots, eggplant and handfuls of basil. It is rich, hot and slightly sweet, and is served with steamed jasmine rice.",
+   "history": "Green curry comes from central Thailand and is generally thought to be one of the younger Thai curries, appearing in cookbooks in the early 20th century. Its name means 'sweet green curry', referring to the pale, sweetish green colour rather than sugar. It is now one of the most ordered Thai dishes worldwide.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g boneless chicken thighs, sliced",
+     "400 ml coconut milk",
+     "3 tbsp green curry paste",
+     "150 g bamboo shoots, drained",
+     "2 Thai eggplants or 1 small eggplant, cubed",
+     "1 handful Thai basil leaves",
+     "1 tbsp vegetable oil, 1 tsp sugar, salt"
+    ],
+    "steps": [
+     "Heat the oil and a few spoons of the thick coconut cream, add the curry paste and fry for 2–3 minutes until fragrant.",
+     "Add the chicken and stir until coated and no longer pink.",
+     "Pour in the rest of the coconut milk with 100 ml water and bring to a gentle simmer.",
+     "Add the eggplant and bamboo shoots and simmer for 10–12 minutes until tender.",
+     "Season with sugar and salt, stir in the basil and serve."
+    ]
+   },
+   "tips": [
+    "Use light coconut milk, or half coconut milk and half water.",
+    "Use chicken breast and add more eggplant and bamboo shoots for volume.",
+    "Keep the rice to a small scoop or swap part of it for steamed vegetables."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Thai green curry",
-      "origin": "Thailand · Central Thailand",
-      "intro": "Thai green curry, gaeng keow wan, is a fragrant coconut curry built on a paste of fresh green chillies, lemongrass, galangal and kaffir lime. Chicken simmers in the creamy sauce with bamboo shoots, eggplant and handfuls of basil. It is rich, hot and slightly sweet, and is served with steamed jasmine rice.",
-      "history": "Green curry comes from central Thailand and is generally thought to be one of the younger Thai curries, appearing in cookbooks in the early 20th century. Its name means 'sweet green curry', referring to the pale, sweetish green colour rather than sugar. It is now one of the most ordered Thai dishes worldwide.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 g boneless chicken thighs, sliced",
-          "400 ml coconut milk",
-          "3 tbsp green curry paste",
-          "150 g bamboo shoots, drained",
-          "2 Thai eggplants or 1 small eggplant, cubed",
-          "1 handful Thai basil leaves",
-          "1 tbsp vegetable oil, 1 tsp sugar, salt"
-        ],
-        "steps": [
-          "Heat the oil and a few spoons of the thick coconut cream, add the curry paste and fry for 2–3 minutes until fragrant.",
-          "Add the chicken and stir until coated and no longer pink.",
-          "Pour in the rest of the coconut milk with 100 ml water and bring to a gentle simmer.",
-          "Add the eggplant and bamboo shoots and simmer for 10–12 minutes until tender.",
-          "Season with sugar and salt, stir in the basil and serve."
-        ]
-      },
-      "tips": [
-        "Use light coconut milk, or half coconut milk and half water.",
-        "Use chicken breast and add more eggplant and bamboo shoots for volume.",
-        "Keep the rice to a small scoop or swap part of it for steamed vegetables."
-      ]
-    },
-    "ar": {
-      "name": "كاري أخضر تايلندي",
-      "origin": "تايلاند · وسط تايلاند",
-      "intro": "الكاري الأخضر التايلندي «غاينغ كيو وان» كاري عطري بحليب جوز الهند يقوم على معجون من الفلفل الأخضر الطازج وعشبة الليمون والخولنجان وليمون الكفير. يُطهى الدجاج في الصلصة الكريمية مع براعم الخيزران والباذنجان وكثير من الريحان. طعمه غني حار وحلو قليلًا، ويُقدَّم مع أرز الياسمين المطهو بالبخار.",
-      "history": "ينحدر الكاري الأخضر من وسط تايلاند، ويُعتقد عمومًا أنه من أحدث أنواع الكاري التايلندي، إذ ظهر في كتب الطبخ في أوائل القرن العشرين. ويعني اسمه «الكاري الأخضر الحلو» في إشارة إلى لونه الأخضر الفاتح لا إلى السكر. وهو اليوم من أكثر الأطباق التايلندية طلبًا في العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 غ أفخاذ دجاج بلا عظم مقطّعة شرائح",
-          "400 مل حليب جوز الهند",
-          "3 ملاعق كبيرة معجون كاري أخضر",
-          "150 غ براعم خيزران مصفّاة",
-          "2 باذنجان تايلندي أو باذنجانة صغيرة مكعّبات",
-          "حفنة أوراق ريحان تايلندي",
-          "1 ملعقة كبيرة زيت نباتي، 1 ملعقة صغيرة سكر، ملح"
-        ],
-        "steps": [
-          "سخّن الزيت مع بضع ملاعق من قشدة جوز الهند الكثيفة، وأضف معجون الكاري وقلّبه 2–3 دقائق حتى تفوح رائحته.",
-          "أضف الدجاج وقلّبه حتى يتغطّى ويتغيّر لونه.",
-          "اسكب باقي حليب جوز الهند مع 100 مل ماء واتركه يغلي بهدوء.",
-          "أضف الباذنجان وبراعم الخيزران واتركه 10–12 دقيقة حتى تنضج.",
-          "تبّله بالسكر والملح، وأضف الريحان وقدّمه."
-        ]
-      },
-      "tips": [
-        "استخدم حليب جوز هند خفيفًا، أو نصفه حليبًا ونصفه ماء.",
-        "استخدم صدر الدجاج وزِد الباذنجان وبراعم الخيزران.",
-        "اكتفِ بمغرفة صغيرة من الأرز أو استبدل جزءًا منه بخضار مطهوة بالبخار."
-      ]
-    },
-    "it": {
-      "name": "Curry verde thailandese",
-      "name_inline": "curry verde thailandese",
-      "origin": "Thailandia · Thailandia centrale",
-      "intro": "Il curry verde thailandese, gaeng keow wan, è un profumato curry al cocco basato su una pasta di peperoncini verdi freschi, citronella, galanga e lime kaffir. Il pollo cuoce lentamente nella salsa cremosa con germogli di bambù, melanzane e manciate di basilico. È ricco, piccante e leggermente dolce, e si serve con riso jasmine al vapore.",
-      "history": "Il curry verde viene dalla Thailandia centrale ed è generalmente considerato uno dei curry thailandesi più recenti, comparso nei libri di cucina all'inizio del XX secolo. Il suo nome significa «curry verde dolce», riferito al colore verde chiaro e dolciastro più che allo zucchero. Oggi è uno dei piatti thailandesi più ordinati al mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 g di cosce di pollo disossate, a fettine",
-          "400 ml di latte di cocco",
-          "3 cucchiai di pasta di curry verde",
-          "150 g di germogli di bambù, sgocciolati",
-          "2 melanzane thai o 1 melanzana piccola, a cubetti",
-          "1 manciata di foglie di basilico thai",
-          "1 cucchiaio di olio vegetale, 1 cucchiaino di zucchero, sale"
-        ],
-        "steps": [
-          "Scalda l'olio e qualche cucchiaio della crema di cocco densa, aggiungi la pasta di curry e soffriggi per 2–3 minuti finché è profumata.",
-          "Aggiungi il pollo e mescola finché è ben ricoperto e non è più rosa.",
-          "Versa il resto del latte di cocco con 100 ml di acqua e porta a leggero bollore.",
-          "Aggiungi la melanzana e i germogli di bambù e fai sobbollire per 10–12 minuti finché sono teneri.",
-          "Condisci con zucchero e sale, incorpora il basilico e servi."
-        ]
-      },
-      "tips": [
-        "Usa latte di cocco light, oppure metà latte di cocco e metà acqua.",
-        "Usa petto di pollo e aggiungi più melanzane e germogli di bambù per avere più volume.",
-        "Limita il riso a una piccola porzione o sostituiscine una parte con verdure al vapore."
-      ]
-    },
-    "el": {
-      "name": "Ταϊλανδέζικο πράσινο κάρι",
-      "name_inline": "ταϊλανδέζικο πράσινο κάρι",
-      "origin": "Ταϊλάνδη · Κεντρική Ταϊλάνδη",
-      "intro": "Το ταϊλανδέζικο πράσινο κάρι, γκένγκ κιάο γουάν, είναι ένα αρωματικό κάρι με γάλα καρύδας που βασίζεται σε πάστα από φρέσκες πράσινες καυτερές πιπεριές, λεμονόχορτο, γκαλάνγκαλ και λάιμ καφίρ. Το κοτόπουλο σιγοβράζει στην κρεμώδη σάλτσα με βλαστούς μπαμπού, μελιτζάνα και χούφτες βασιλικού. Είναι πλούσιο, καυτερό και ελαφρά γλυκό, και σερβίρεται με ρύζι γιασεμί στον ατμό.",
-      "history": "Το πράσινο κάρι προέρχεται από την κεντρική Ταϊλάνδη και γενικά θεωρείται ένα από τα νεότερα ταϊλανδέζικα κάρι, που εμφανίστηκε σε βιβλία μαγειρικής στις αρχές του 20ού αιώνα. Το όνομά του σημαίνει «γλυκό πράσινο κάρι» και αναφέρεται στο ανοιχτό, γλυκό πράσινο χρώμα και όχι στη ζάχαρη. Σήμερα είναι από τα πιο δημοφιλή ταϊλανδέζικα πιάτα στον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε λωρίδες",
-          "400 ml γάλα καρύδας",
-          "3 κ.σ. πάστα πράσινου κάρι",
-          "150 γρ. βλαστοί μπαμπού, στραγγισμένοι",
-          "2 ταϊλανδέζικες μελιτζάνες ή 1 μικρή μελιτζάνα, σε κύβους",
-          "1 χούφτα φύλλα ταϊλανδέζικου βασιλικού",
-          "1 κ.σ. φυτικό λάδι, 1 κ.γ. ζάχαρη, αλάτι"
-        ],
-        "steps": [
-          "Ζεστάνετε το λάδι με λίγες κουταλιές από την πηχτή κρέμα καρύδας, προσθέστε την πάστα κάρι και τσιγαρίστε 2–3 λεπτά μέχρι να βγάλει άρωμα.",
-          "Προσθέστε το κοτόπουλο και ανακατέψτε μέχρι να πάει παντού η πάστα και να μην είναι πια ροζ.",
-          "Ρίξτε το υπόλοιπο γάλα καρύδας με 100 ml νερό και αφήστε να πάρει απαλή βράση.",
-          "Προσθέστε τη μελιτζάνα και τους βλαστούς μπαμπού και σιγοβράστε 10–12 λεπτά μέχρι να μαλακώσουν.",
-          "Καρυκεύστε με ζάχαρη και αλάτι, ανακατέψτε μέσα τον βασιλικό και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή μισό γάλα καρύδας και μισό νερό.",
-        "Χρησιμοποιήστε στήθος κοτόπουλου και προσθέστε περισσότερη μελιτζάνα και βλαστούς μπαμπού για όγκο.",
-        "Κρατήστε το ρύζι σε μια μικρή κουταλιά ή αντικαταστήστε μέρος του με λαχανικά στον ατμό."
-      ]
-    },
-    "ru": {
-      "name": "Тайский зелёный карри",
-      "origin": "Таиланд · Центральный Таиланд",
-      "intro": "Тайский зелёный карри, гэнг кеу ван, — ароматный кокосовый карри на основе пасты из свежего зелёного перца чили, лемонграсса, галангала и каффир-лайма. Курица томится в сливочном соусе с побегами бамбука, баклажанами и горстями базилика. Карри насыщенный, острый и слегка сладкий, его подают с жасминовым рисом на пару.",
-      "history": "Зелёный карри родом из центрального Таиланда, и его принято считать одним из более молодых тайских карри, появившимся в кулинарных книгах в начале XX века. Его название означает «сладкий зелёный карри» и относится к бледному, сладковатому зелёному цвету, а не к сахару. Сегодня это одно из самых заказываемых тайских блюд в мире.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 г куриных бедер без костей, нарезанных",
-          "400 мл кокосового молока",
-          "3 ст. л. пасты зелёного карри",
-          "150 г побегов бамбука, без жидкости",
-          "2 тайских баклажана или 1 небольшой баклажан, кубиками",
-          "1 горсть листьев тайского базилика",
-          "1 ст. л. растительного масла, 1 ч. л. сахара, соль"
-        ],
-        "steps": [
-          "Разогрейте масло с несколькими ложками густых кокосовых сливок, добавьте пасту карри и жарьте 2–3 минуты до аромата.",
-          "Добавьте курицу и перемешивайте, пока она не покроется пастой и не перестанет быть розовой.",
-          "Влейте остальное кокосовое молоко со 100 мл воды и доведите до слабого кипения.",
-          "Добавьте баклажан и побеги бамбука и тушите 10–12 минут до мягкости.",
-          "Приправьте сахаром и солью, добавьте базилик и подавайте."
-        ]
-      },
-      "tips": [
-        "Берите лёгкое кокосовое молоко или половину кокосового молока и половину воды.",
-        "Используйте куриную грудку и добавьте больше баклажанов и побегов бамбука для объёма.",
-        "Ограничьтесь небольшой порцией риса или замените часть его овощами на пару."
-      ],
-      "name_inline": "зелёный карри"
-    }
+  "ar": {
+   "name": "كاري أخضر تايلندي",
+   "origin": "تايلاند · وسط تايلاند",
+   "intro": "الكاري الأخضر التايلندي «غاينغ كيو وان» كاري عطري بحليب جوز الهند يقوم على معجون من الفلفل الأخضر الطازج وعشبة الليمون والخولنجان وليمون الكفير. يُطهى الدجاج في الصلصة الكريمية مع براعم الخيزران والباذنجان وكثير من الريحان. طعمه غني حار وحلو قليلًا، ويُقدَّم مع أرز الياسمين المطهو بالبخار.",
+   "history": "ينحدر الكاري الأخضر من وسط تايلاند، ويُعتقد عمومًا أنه من أحدث أنواع الكاري التايلندي، إذ ظهر في كتب الطبخ في أوائل القرن العشرين. ويعني اسمه «الكاري الأخضر الحلو» في إشارة إلى لونه الأخضر الفاتح لا إلى السكر. وهو اليوم من أكثر الأطباق التايلندية طلبًا في العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 غ أفخاذ دجاج بلا عظم مقطّعة شرائح",
+     "400 مل حليب جوز الهند",
+     "3 ملاعق كبيرة معجون كاري أخضر",
+     "150 غ براعم خيزران مصفّاة",
+     "2 باذنجان تايلندي أو باذنجانة صغيرة مكعّبات",
+     "حفنة أوراق ريحان تايلندي",
+     "1 ملعقة كبيرة زيت نباتي، 1 ملعقة صغيرة سكر، ملح"
+    ],
+    "steps": [
+     "سخّن الزيت مع بضع ملاعق من قشدة جوز الهند الكثيفة، وأضف معجون الكاري وقلّبه 2–3 دقائق حتى تفوح رائحته.",
+     "أضف الدجاج وقلّبه حتى يتغطّى ويتغيّر لونه.",
+     "اسكب باقي حليب جوز الهند مع 100 مل ماء واتركه يغلي بهدوء.",
+     "أضف الباذنجان وبراعم الخيزران واتركه 10–12 دقيقة حتى تنضج.",
+     "تبّله بالسكر والملح، وأضف الريحان وقدّمه."
+    ]
+   },
+   "tips": [
+    "استخدم حليب جوز هند خفيفًا، أو نصفه حليبًا ونصفه ماء.",
+    "استخدم صدر الدجاج وزِد الباذنجان وبراعم الخيزران.",
+    "اكتفِ بمغرفة صغيرة من الأرز أو استبدل جزءًا منه بخضار مطهوة بالبخار."
+   ]
+  },
+  "it": {
+   "name": "Curry verde thailandese",
+   "name_inline": "curry verde thailandese",
+   "origin": "Thailandia · Thailandia centrale",
+   "intro": "Il curry verde thailandese, gaeng keow wan, è un profumato curry al cocco basato su una pasta di peperoncini verdi freschi, citronella, galanga e lime kaffir. Il pollo cuoce lentamente nella salsa cremosa con germogli di bambù, melanzane e manciate di basilico. È ricco, piccante e leggermente dolce, e si serve con riso jasmine al vapore.",
+   "history": "Il curry verde viene dalla Thailandia centrale ed è generalmente considerato uno dei curry thailandesi più recenti, comparso nei libri di cucina all'inizio del XX secolo. Il suo nome significa «curry verde dolce», riferito al colore verde chiaro e dolciastro più che allo zucchero. Oggi è uno dei piatti thailandesi più ordinati al mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g di cosce di pollo disossate, a fettine",
+     "400 ml di latte di cocco",
+     "3 cucchiai di pasta di curry verde",
+     "150 g di germogli di bambù, sgocciolati",
+     "2 melanzane thai o 1 melanzana piccola, a cubetti",
+     "1 manciata di foglie di basilico thai",
+     "1 cucchiaio di olio vegetale, 1 cucchiaino di zucchero, sale"
+    ],
+    "steps": [
+     "Scalda l'olio e qualche cucchiaio della crema di cocco densa, aggiungi la pasta di curry e soffriggi per 2–3 minuti finché è profumata.",
+     "Aggiungi il pollo e mescola finché è ben ricoperto e non è più rosa.",
+     "Versa il resto del latte di cocco con 100 ml di acqua e porta a leggero bollore.",
+     "Aggiungi la melanzana e i germogli di bambù e fai sobbollire per 10–12 minuti finché sono teneri.",
+     "Condisci con zucchero e sale, incorpora il basilico e servi."
+    ]
+   },
+   "tips": [
+    "Usa latte di cocco light, oppure metà latte di cocco e metà acqua.",
+    "Usa petto di pollo e aggiungi più melanzane e germogli di bambù per avere più volume.",
+    "Limita il riso a una piccola porzione o sostituiscine una parte con verdure al vapore."
+   ]
+  },
+  "el": {
+   "name": "Ταϊλανδέζικο πράσινο κάρι",
+   "name_inline": "ταϊλανδέζικο πράσινο κάρι",
+   "origin": "Ταϊλάνδη · Κεντρική Ταϊλάνδη",
+   "intro": "Το ταϊλανδέζικο πράσινο κάρι, γκένγκ κιάο γουάν, είναι ένα αρωματικό κάρι με γάλα καρύδας που βασίζεται σε πάστα από φρέσκες πράσινες καυτερές πιπεριές, λεμονόχορτο, γκαλάνγκαλ και λάιμ καφίρ. Το κοτόπουλο σιγοβράζει στην κρεμώδη σάλτσα με βλαστούς μπαμπού, μελιτζάνα και χούφτες βασιλικού. Είναι πλούσιο, καυτερό και ελαφρά γλυκό, και σερβίρεται με ρύζι γιασεμί στον ατμό.",
+   "history": "Το πράσινο κάρι προέρχεται από την κεντρική Ταϊλάνδη και γενικά θεωρείται ένα από τα νεότερα ταϊλανδέζικα κάρι, που εμφανίστηκε σε βιβλία μαγειρικής στις αρχές του 20ού αιώνα. Το όνομά του σημαίνει «γλυκό πράσινο κάρι» και αναφέρεται στο ανοιχτό, γλυκό πράσινο χρώμα και όχι στη ζάχαρη. Σήμερα είναι από τα πιο δημοφιλή ταϊλανδέζικα πιάτα στον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε λωρίδες",
+     "400 ml γάλα καρύδας",
+     "3 κ.σ. πάστα πράσινου κάρι",
+     "150 γρ. βλαστοί μπαμπού, στραγγισμένοι",
+     "2 ταϊλανδέζικες μελιτζάνες ή 1 μικρή μελιτζάνα, σε κύβους",
+     "1 χούφτα φύλλα ταϊλανδέζικου βασιλικού",
+     "1 κ.σ. φυτικό λάδι, 1 κ.γ. ζάχαρη, αλάτι"
+    ],
+    "steps": [
+     "Ζεστάνετε το λάδι με λίγες κουταλιές από την πηχτή κρέμα καρύδας, προσθέστε την πάστα κάρι και τσιγαρίστε 2–3 λεπτά μέχρι να βγάλει άρωμα.",
+     "Προσθέστε το κοτόπουλο και ανακατέψτε μέχρι να πάει παντού η πάστα και να μην είναι πια ροζ.",
+     "Ρίξτε το υπόλοιπο γάλα καρύδας με 100 ml νερό και αφήστε να πάρει απαλή βράση.",
+     "Προσθέστε τη μελιτζάνα και τους βλαστούς μπαμπού και σιγοβράστε 10–12 λεπτά μέχρι να μαλακώσουν.",
+     "Καρυκεύστε με ζάχαρη και αλάτι, ανακατέψτε μέσα τον βασιλικό και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή μισό γάλα καρύδας και μισό νερό.",
+    "Χρησιμοποιήστε στήθος κοτόπουλου και προσθέστε περισσότερη μελιτζάνα και βλαστούς μπαμπού για όγκο.",
+    "Κρατήστε το ρύζι σε μια μικρή κουταλιά ή αντικαταστήστε μέρος του με λαχανικά στον ατμό."
+   ]
+  },
+  "ru": {
+   "name": "Тайский зелёный карри",
+   "origin": "Таиланд · Центральный Таиланд",
+   "intro": "Тайский зелёный карри, гэнг кеу ван, — ароматный кокосовый карри на основе пасты из свежего зелёного перца чили, лемонграсса, галангала и каффир-лайма. Курица томится в сливочном соусе с побегами бамбука, баклажанами и горстями базилика. Карри насыщенный, острый и слегка сладкий, его подают с жасминовым рисом на пару.",
+   "history": "Зелёный карри родом из центрального Таиланда, и его принято считать одним из более молодых тайских карри, появившимся в кулинарных книгах в начале XX века. Его название означает «сладкий зелёный карри» и относится к бледному, сладковатому зелёному цвету, а не к сахару. Сегодня это одно из самых заказываемых тайских блюд в мире.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 г куриных бедер без костей, нарезанных",
+     "400 мл кокосового молока",
+     "3 ст. л. пасты зелёного карри",
+     "150 г побегов бамбука, без жидкости",
+     "2 тайских баклажана или 1 небольшой баклажан, кубиками",
+     "1 горсть листьев тайского базилика",
+     "1 ст. л. растительного масла, 1 ч. л. сахара, соль"
+    ],
+    "steps": [
+     "Разогрейте масло с несколькими ложками густых кокосовых сливок, добавьте пасту карри и жарьте 2–3 минуты до аромата.",
+     "Добавьте курицу и перемешивайте, пока она не покроется пастой и не перестанет быть розовой.",
+     "Влейте остальное кокосовое молоко со 100 мл воды и доведите до слабого кипения.",
+     "Добавьте баклажан и побеги бамбука и тушите 10–12 минут до мягкости.",
+     "Приправьте сахаром и солью, добавьте базилик и подавайте."
+    ]
+   },
+   "tips": [
+    "Берите лёгкое кокосовое молоко или половину кокосового молока и половину воды.",
+    "Используйте куриную грудку и добавьте больше баклажанов и побегов бамбука для объёма.",
+    "Ограничьтесь небольшой порцией риса или замените часть его овощами на пару."
+   ],
+   "name_inline": "зелёный карри"
+  },
+  "es": {
+   "name": "Curry verde tailandés",
+   "origin": "Tailandia · Tailandia central",
+   "intro": "El curry verde tailandés, gaeng keow wan, es un curry de coco aromático hecho con una pasta de chiles verdes frescos, hierba de limón, galanga y lima kaffir. El pollo se cuece a fuego lento en la salsa cremosa con brotes de bambú, berenjena y puñados de albahaca. Es intenso, picante y ligeramente dulce, y se sirve con arroz jazmín al vapor.",
+   "history": "El curry verde proviene del centro de Tailandia y se considera en general uno de los curris tailandeses más recientes, ya que aparece en libros de cocina a principios del siglo XX. Su nombre significa «curry verde dulce» y alude al tono verde pálido y algo dulce, no al azúcar. Hoy es uno de los platos tailandeses más pedidos en el mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g de muslos de pollo deshuesados, en rebanadas",
+     "400 ml de leche de coco",
+     "3 cda. de pasta de curry verde",
+     "150 g de brotes de bambú, escurridos",
+     "2 berenjenas tailandesas o 1 berenjena pequeña, en cubos",
+     "1 puñado de hojas de albahaca tailandesa",
+     "1 cda. de aceite vegetal, 1 cdta. de azúcar, sal"
+    ],
+    "steps": [
+     "Calienta el aceite con unas cucharadas de la crema espesa de coco, agrega la pasta de curry y fríe de 2 a 3 minutos hasta que desprenda aroma.",
+     "Añade el pollo y mueve hasta que se impregne y deje de estar rosado.",
+     "Vierte el resto de la leche de coco con 100 ml de agua y lleva a un hervor suave.",
+     "Agrega la berenjena y los brotes de bambú y cuece a fuego lento de 10 a 12 minutos, hasta que estén tiernos.",
+     "Sazona con el azúcar y la sal, incorpora la albahaca y sirve."
+    ]
+   },
+   "tips": [
+    "Usa leche de coco light, o mitad leche de coco y mitad agua.",
+    "Usa pechuga de pollo y agrega más berenjena y brotes de bambú para dar volumen.",
+    "Limita el arroz a una porción pequeña o cambia una parte por verduras al vapor."
+   ],
+   "name_inline": "el curry verde tailandés"
   }
+ }
 }

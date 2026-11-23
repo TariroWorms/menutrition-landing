@@ -1,166 +1,197 @@
 {
-  "db_key": "fish_burger",
-  "slug": "fish-burger",
-  "emoji": "🍔",
-  "portion_g": 200,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fish_burger",
+ "slug": "fish-burger",
+ "emoji": "🍔",
+ "portion_g": 200,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fish burger",
+   "origin": "International",
+   "intro": "A fish burger is a crisp fried fillet of white fish served in a soft bun with lettuce, a spoonful of mayonnaise and a squeeze of lemon. The fish is flaky and mild inside its golden coating, while the cool lettuce and creamy sauce balance the crunch. It is a fast-food and pub favourite, usually eaten with fries or a side salad.",
+   "history": "Fried fish sandwiches are eaten across Europe, North America and beyond, from fast-food chains to seaside kiosks.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 white fish fillets (about 120 g each)",
+     "2 burger buns",
+     "4 lettuce leaves",
+     "2 tbsp mayonnaise",
+     "1 lemon",
+     "3 tbsp flour for dusting",
+     "Oil for frying, salt and pepper"
+    ],
+    "steps": [
+     "Season the fish with salt, pepper and a little lemon juice, then dust with flour.",
+     "Fry in 1 cm of hot oil for 3–4 minutes per side until golden and cooked through; drain.",
+     "Mix the mayonnaise with a squeeze of lemon.",
+     "Toast the buns, spread with lemon mayonnaise, add lettuce and the fish and close."
+    ]
+   },
+   "tips": [
+    "Pan-fry the fish in a little oil or bake it instead of deep-frying.",
+    "Use half the mayonnaise: 1 tbsp mayonnaise ≈ 90 kcal.",
+    "Serve with salad rather than fries."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fish burger",
-      "origin": "International",
-      "intro": "A fish burger is a crisp fried fillet of white fish served in a soft bun with lettuce, a spoonful of mayonnaise and a squeeze of lemon. The fish is flaky and mild inside its golden coating, while the cool lettuce and creamy sauce balance the crunch. It is a fast-food and pub favourite, usually eaten with fries or a side salad.",
-      "history": "Fried fish sandwiches are eaten across Europe, North America and beyond, from fast-food chains to seaside kiosks.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 white fish fillets (about 120 g each)",
-          "2 burger buns",
-          "4 lettuce leaves",
-          "2 tbsp mayonnaise",
-          "1 lemon",
-          "3 tbsp flour for dusting",
-          "Oil for frying, salt and pepper"
-        ],
-        "steps": [
-          "Season the fish with salt, pepper and a little lemon juice, then dust with flour.",
-          "Fry in 1 cm of hot oil for 3–4 minutes per side until golden and cooked through; drain.",
-          "Mix the mayonnaise with a squeeze of lemon.",
-          "Toast the buns, spread with lemon mayonnaise, add lettuce and the fish and close."
-        ]
-      },
-      "tips": [
-        "Pan-fry the fish in a little oil or bake it instead of deep-frying.",
-        "Use half the mayonnaise: 1 tbsp mayonnaise ≈ 90 kcal.",
-        "Serve with salad rather than fries."
-      ]
-    },
-    "ar": {
-      "name": "برجر السمك",
-      "origin": "عالمي",
-      "intro": "برجر السمك فيليه من السمك الأبيض المقلي المقرمش يُقدَّم في خبز برجر طري مع الخس وملعقة مايونيز وعصرة ليمون. السمك خفيف الطعم ويتفتت داخل غلافه الذهبي، بينما يوازن الخس البارد والصلصة الكريمية قرمشته. هو من أطباق الوجبات السريعة والحانات المحبوبة، ويؤكل عادةً مع البطاطس المقلية أو سلطة جانبية.",
-      "history": "تُؤكل سندويشات السمك المقلي في أوروبا وأمريكا الشمالية وغيرها، من سلاسل الوجبات السريعة إلى أكشاك الشواطئ.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "فيليهان من السمك الأبيض (نحو 120 غ لكل منهما)",
-          "خبزتا برجر",
-          "4 أوراق خس",
-          "ملعقتان كبيرتان مايونيز",
-          "ليمونة واحدة",
-          "3 ملاعق كبيرة دقيق للتغطية",
-          "زيت للقلي، ملح وفلفل"
-        ],
-        "steps": [
-          "تبّل السمك بالملح والفلفل وقليل من عصير الليمون، ثم غطّه بالدقيق.",
-          "اقله في 1 سم من الزيت الساخن 3–4 دقائق لكل جهة حتى يتحمّر وينضج، ثم صفّه.",
-          "اخلط المايونيز مع عصرة ليمون.",
-          "حمّص الخبز وادهنه بمايونيز الليمون، وضع الخس والسمك وأغلقه."
-        ]
-      },
-      "tips": [
-        "اقلِ السمك في قليل من الزيت أو اخبزه بدلًا من القلي الغزير.",
-        "استخدم نصف كمية المايونيز: ملعقة كبيرة مايونيز ≈ 90 سعرة.",
-        "قدّمه مع سلطة بدلًا من البطاطس المقلية."
-      ]
-    },
-    "it": {
-      "name": "Burger di pesce",
-      "name_inline": "burger di pesce",
-      "origin": "Internazionale",
-      "intro": "Il burger di pesce è un filetto di pesce bianco fritto e croccante servito in un panino morbido con lattuga, un cucchiaio di maionese e una spruzzata di limone. Il pesce è delicato e si sfalda dentro la sua panatura dorata, mentre la lattuga fresca e la salsa cremosa bilanciano la croccantezza. È uno dei preferiti dei fast food e dei pub, e di solito si mangia con patatine fritte o un'insalata.",
-      "history": "I panini con pesce fritto si mangiano in tutta Europa, in Nord America e oltre, dalle catene di fast food ai chioschi sul mare.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 filetti di pesce bianco (circa 120 g ciascuno)",
-          "2 panini da hamburger",
-          "4 foglie di lattuga",
-          "2 cucchiai di maionese",
-          "1 limone",
-          "3 cucchiai di farina per infarinare",
-          "Olio per friggere, sale e pepe"
-        ],
-        "steps": [
-          "Condisci il pesce con sale, pepe e un po' di succo di limone, poi infarinalo.",
-          "Friggilo in 1 cm di olio caldo per 3–4 minuti per lato finché è dorato e cotto; scolalo.",
-          "Mescola la maionese con una spruzzata di limone.",
-          "Tosta i panini, spalmali con la maionese al limone, aggiungi la lattuga e il pesce e chiudi."
-        ]
-      },
-      "tips": [
-        "Cuoci il pesce in padella con poco olio o in forno invece di friggerlo in olio abbondante.",
-        "Usa metà della maionese: 1 cucchiaio di maionese ≈ 90 kcal.",
-        "Servilo con insalata invece che con patatine fritte."
-      ]
-    },
-    "el": {
-      "name": "Μπέργκερ ψαριού",
-      "origin": "Διεθνές",
-      "intro": "Το μπέργκερ ψαριού είναι ένα τραγανό τηγανητό φιλέτο λευκού ψαριού σε μαλακό ψωμάκι με μαρούλι, μια κουταλιά μαγιονέζα και λίγο λεμόνι. Το ψάρι είναι ήπιο και ξεφλουδίζει μέσα στη χρυσαφένια επικάλυψή του, ενώ το δροσερό μαρούλι και η κρεμώδης σάλτσα ισορροπούν το τραγανό. Είναι αγαπημένο στα fast food και στις παμπ, και συνήθως τρώγεται με τηγανητές πατάτες ή σαλάτα.",
-      "history": "Τα σάντουιτς με τηγανητό ψάρι τρώγονται σε όλη την Ευρώπη, τη Βόρεια Αμερική και αλλού, από αλυσίδες fast food μέχρι παραθαλάσσια περίπτερα.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 φιλέτα λευκού ψαριού (περίπου 120 γρ. το καθένα)",
-          "2 ψωμάκια για μπέργκερ",
-          "4 φύλλα μαρουλιού",
-          "2 κ.σ. μαγιονέζα",
-          "1 λεμόνι",
-          "3 κ.σ. αλεύρι για αλεύρωμα",
-          "Λάδι για τηγάνισμα, αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Καρυκεύστε το ψάρι με αλάτι, πιπέρι και λίγο χυμό λεμονιού και έπειτα αλευρώστε το.",
-          "Τηγανίστε σε 1 εκ. καυτό λάδι για 3–4 λεπτά από κάθε πλευρά μέχρι να ροδίσει και να ψηθεί· στραγγίξτε.",
-          "Ανακατέψτε τη μαγιονέζα με λίγο λεμόνι.",
-          "Φρυγανίστε τα ψωμάκια, αλείψτε με τη μαγιονέζα λεμονιού, προσθέστε μαρούλι και το ψάρι και κλείστε."
-        ]
-      },
-      "tips": [
-        "Τηγανίστε το ψάρι με λίγο λάδι στο τηγάνι ή ψήστε το στον φούρνο αντί για τηγάνισμα σε άφθονο λάδι.",
-        "Βάλτε τη μισή μαγιονέζα: 1 κ.σ. μαγιονέζα ≈ 90 kcal.",
-        "Σερβίρετε με σαλάτα αντί για τηγανητές πατάτες."
-      ]
-    },
-    "ru": {
-      "name": "Рыбный бургер",
-      "origin": "Международное",
-      "intro": "Рыбный бургер — хрустящее жареное филе белой рыбы в мягкой булочке с листом салата, ложкой майонеза и лимонным соком. Рыба внутри золотистой корочки слоистая и мягкая, а прохладный салат и сливочный соус уравновешивают хруст. Это любимое блюдо фастфуда и пабов, которое обычно едят с картофелем фри или салатом.",
-      "history": "Жареные рыбные сэндвичи едят по всей Европе, Северной Америке и за их пределами — от сетей фастфуда до приморских киосков.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 филе белой рыбы (около 120 г каждое)",
-          "2 булочки для бургеров",
-          "4 листа салата",
-          "2 ст. л. майонеза",
-          "1 лимон",
-          "3 ст. л. муки для обваливания",
-          "Масло для жарки, соль и перец"
-        ],
-        "steps": [
-          "Приправьте рыбу солью, перцем и небольшим количеством лимонного сока, затем обваляйте в муке.",
-          "Жарьте в 1 см горячего масла по 3–4 минуты с каждой стороны до золотистого цвета и готовности; обсушите.",
-          "Смешайте майонез с лимонным соком.",
-          "Поджарьте булочки, намажьте лимонным майонезом, добавьте салат и рыбу и закройте."
-        ]
-      },
-      "tips": [
-        "Обжаривайте рыбу на небольшом количестве масла или запекайте вместо фритюра.",
-        "Берите вдвое меньше майонеза: 1 ст. л. майонеза ≈ 90 ккал.",
-        "Подавайте с салатом, а не с картофелем фри."
-      ],
-      "name_inline": "рыбный бургер"
-    }
+  "ar": {
+   "name": "برجر السمك",
+   "origin": "عالمي",
+   "intro": "برجر السمك فيليه من السمك الأبيض المقلي المقرمش يُقدَّم في خبز برجر طري مع الخس وملعقة مايونيز وعصرة ليمون. السمك خفيف الطعم ويتفتت داخل غلافه الذهبي، بينما يوازن الخس البارد والصلصة الكريمية قرمشته. هو من أطباق الوجبات السريعة والحانات المحبوبة، ويؤكل عادةً مع البطاطس المقلية أو سلطة جانبية.",
+   "history": "تُؤكل سندويشات السمك المقلي في أوروبا وأمريكا الشمالية وغيرها، من سلاسل الوجبات السريعة إلى أكشاك الشواطئ.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "فيليهان من السمك الأبيض (نحو 120 غ لكل منهما)",
+     "خبزتا برجر",
+     "4 أوراق خس",
+     "ملعقتان كبيرتان مايونيز",
+     "ليمونة واحدة",
+     "3 ملاعق كبيرة دقيق للتغطية",
+     "زيت للقلي، ملح وفلفل"
+    ],
+    "steps": [
+     "تبّل السمك بالملح والفلفل وقليل من عصير الليمون، ثم غطّه بالدقيق.",
+     "اقله في 1 سم من الزيت الساخن 3–4 دقائق لكل جهة حتى يتحمّر وينضج، ثم صفّه.",
+     "اخلط المايونيز مع عصرة ليمون.",
+     "حمّص الخبز وادهنه بمايونيز الليمون، وضع الخس والسمك وأغلقه."
+    ]
+   },
+   "tips": [
+    "اقلِ السمك في قليل من الزيت أو اخبزه بدلًا من القلي الغزير.",
+    "استخدم نصف كمية المايونيز: ملعقة كبيرة مايونيز ≈ 90 سعرة.",
+    "قدّمه مع سلطة بدلًا من البطاطس المقلية."
+   ]
+  },
+  "it": {
+   "name": "Burger di pesce",
+   "name_inline": "burger di pesce",
+   "origin": "Internazionale",
+   "intro": "Il burger di pesce è un filetto di pesce bianco fritto e croccante servito in un panino morbido con lattuga, un cucchiaio di maionese e una spruzzata di limone. Il pesce è delicato e si sfalda dentro la sua panatura dorata, mentre la lattuga fresca e la salsa cremosa bilanciano la croccantezza. È uno dei preferiti dei fast food e dei pub, e di solito si mangia con patatine fritte o un'insalata.",
+   "history": "I panini con pesce fritto si mangiano in tutta Europa, in Nord America e oltre, dalle catene di fast food ai chioschi sul mare.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 filetti di pesce bianco (circa 120 g ciascuno)",
+     "2 panini da hamburger",
+     "4 foglie di lattuga",
+     "2 cucchiai di maionese",
+     "1 limone",
+     "3 cucchiai di farina per infarinare",
+     "Olio per friggere, sale e pepe"
+    ],
+    "steps": [
+     "Condisci il pesce con sale, pepe e un po' di succo di limone, poi infarinalo.",
+     "Friggilo in 1 cm di olio caldo per 3–4 minuti per lato finché è dorato e cotto; scolalo.",
+     "Mescola la maionese con una spruzzata di limone.",
+     "Tosta i panini, spalmali con la maionese al limone, aggiungi la lattuga e il pesce e chiudi."
+    ]
+   },
+   "tips": [
+    "Cuoci il pesce in padella con poco olio o in forno invece di friggerlo in olio abbondante.",
+    "Usa metà della maionese: 1 cucchiaio di maionese ≈ 90 kcal.",
+    "Servilo con insalata invece che con patatine fritte."
+   ]
+  },
+  "el": {
+   "name": "Μπέργκερ ψαριού",
+   "origin": "Διεθνές",
+   "intro": "Το μπέργκερ ψαριού είναι ένα τραγανό τηγανητό φιλέτο λευκού ψαριού σε μαλακό ψωμάκι με μαρούλι, μια κουταλιά μαγιονέζα και λίγο λεμόνι. Το ψάρι είναι ήπιο και ξεφλουδίζει μέσα στη χρυσαφένια επικάλυψή του, ενώ το δροσερό μαρούλι και η κρεμώδης σάλτσα ισορροπούν το τραγανό. Είναι αγαπημένο στα fast food και στις παμπ, και συνήθως τρώγεται με τηγανητές πατάτες ή σαλάτα.",
+   "history": "Τα σάντουιτς με τηγανητό ψάρι τρώγονται σε όλη την Ευρώπη, τη Βόρεια Αμερική και αλλού, από αλυσίδες fast food μέχρι παραθαλάσσια περίπτερα.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 φιλέτα λευκού ψαριού (περίπου 120 γρ. το καθένα)",
+     "2 ψωμάκια για μπέργκερ",
+     "4 φύλλα μαρουλιού",
+     "2 κ.σ. μαγιονέζα",
+     "1 λεμόνι",
+     "3 κ.σ. αλεύρι για αλεύρωμα",
+     "Λάδι για τηγάνισμα, αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Καρυκεύστε το ψάρι με αλάτι, πιπέρι και λίγο χυμό λεμονιού και έπειτα αλευρώστε το.",
+     "Τηγανίστε σε 1 εκ. καυτό λάδι για 3–4 λεπτά από κάθε πλευρά μέχρι να ροδίσει και να ψηθεί· στραγγίξτε.",
+     "Ανακατέψτε τη μαγιονέζα με λίγο λεμόνι.",
+     "Φρυγανίστε τα ψωμάκια, αλείψτε με τη μαγιονέζα λεμονιού, προσθέστε μαρούλι και το ψάρι και κλείστε."
+    ]
+   },
+   "tips": [
+    "Τηγανίστε το ψάρι με λίγο λάδι στο τηγάνι ή ψήστε το στον φούρνο αντί για τηγάνισμα σε άφθονο λάδι.",
+    "Βάλτε τη μισή μαγιονέζα: 1 κ.σ. μαγιονέζα ≈ 90 kcal.",
+    "Σερβίρετε με σαλάτα αντί για τηγανητές πατάτες."
+   ]
+  },
+  "ru": {
+   "name": "Рыбный бургер",
+   "origin": "Международное",
+   "intro": "Рыбный бургер — хрустящее жареное филе белой рыбы в мягкой булочке с листом салата, ложкой майонеза и лимонным соком. Рыба внутри золотистой корочки слоистая и мягкая, а прохладный салат и сливочный соус уравновешивают хруст. Это любимое блюдо фастфуда и пабов, которое обычно едят с картофелем фри или салатом.",
+   "history": "Жареные рыбные сэндвичи едят по всей Европе, Северной Америке и за их пределами — от сетей фастфуда до приморских киосков.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 филе белой рыбы (около 120 г каждое)",
+     "2 булочки для бургеров",
+     "4 листа салата",
+     "2 ст. л. майонеза",
+     "1 лимон",
+     "3 ст. л. муки для обваливания",
+     "Масло для жарки, соль и перец"
+    ],
+    "steps": [
+     "Приправьте рыбу солью, перцем и небольшим количеством лимонного сока, затем обваляйте в муке.",
+     "Жарьте в 1 см горячего масла по 3–4 минуты с каждой стороны до золотистого цвета и готовности; обсушите.",
+     "Смешайте майонез с лимонным соком.",
+     "Поджарьте булочки, намажьте лимонным майонезом, добавьте салат и рыбу и закройте."
+    ]
+   },
+   "tips": [
+    "Обжаривайте рыбу на небольшом количестве масла или запекайте вместо фритюра.",
+    "Берите вдвое меньше майонеза: 1 ст. л. майонеза ≈ 90 ккал.",
+    "Подавайте с салатом, а не с картофелем фри."
+   ],
+   "name_inline": "рыбный бургер"
+  },
+  "es": {
+   "name": "Hamburguesa de pescado",
+   "origin": "Internacional",
+   "intro": "La hamburguesa de pescado es un filete crujiente y frito de pescado blanco servido en un pan suave con lechuga, una cucharada de mayonesa y un chorrito de limón. El pescado queda en láminas y delicado dentro de su empanizado dorado, mientras que la lechuga fresca y la salsa cremosa equilibran lo crujiente. Es un favorito de la comida rápida y de los pubs, y suele comerse con papas fritas o una ensalada.",
+   "history": "Los sándwiches de pescado frito se comen en toda Europa, Norteamérica y más allá, desde las cadenas de comida rápida hasta los quioscos de la costa.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 filetes de pescado blanco (unos 120 g cada uno)",
+     "2 panes para hamburguesa",
+     "4 hojas de lechuga",
+     "2 cdas. de mayonesa",
+     "1 limón",
+     "3 cdas. de harina para enharinar",
+     "Aceite para freír, sal y pimienta"
+    ],
+    "steps": [
+     "Sazona el pescado con sal, pimienta y un poco de jugo de limón, y luego enharínalo.",
+     "Fríe en 1 cm de aceite caliente de 3 a 4 minutos por lado, hasta que esté dorado y bien cocido; escurre.",
+     "Mezcla la mayonesa con un chorrito de limón.",
+     "Tuesta los panes, úntalos con la mayonesa de limón, añade la lechuga y el pescado, y cierra."
+    ]
+   },
+   "tips": [
+    "Cocina el pescado en sartén con poco aceite o al horno en lugar de freírlo en abundante aceite.",
+    "Usa la mitad de la mayonesa: 1 cda. de mayonesa ≈ 90 kcal.",
+    "Sirve con ensalada en lugar de papas fritas."
+   ],
+   "name_inline": "la hamburguesa de pescado"
   }
+ }
 }

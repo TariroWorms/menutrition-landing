@@ -1,175 +1,208 @@
 {
-  "db_key": "gudeg",
-  "slug": "gudeg",
-  "emoji": "🍛",
-  "portion_g": 250,
-  "country": "ID",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "gudeg",
+ "slug": "gudeg",
+ "emoji": "🍛",
+ "portion_g": 250,
+ "country": "ID",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Gudeg",
+   "origin": "Indonesia · Yogyakarta",
+   "intro": "Gudeg is a Javanese stew of young jackfruit slow-cooked for hours in coconut milk and palm sugar until it turns soft, sweet and deep brown. It is typically served with braised chicken, hard-boiled eggs simmered in the same sauce and pieces of tofu. The flavour is distinctly sweet and savoury, and it is usually eaten with steamed rice.",
+   "history": "Gudeg is the signature dish of Yogyakarta in Central Java, which is often nicknamed the city of gudeg. Its exact origins are not documented, but it has long been sold by street vendors and family-run eateries there, and a drier version that keeps for days is popular as a souvenir.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "600 g young jackfruit, cut into chunks",
+     "800 ml coconut milk",
+     "80 g palm sugar",
+     "4 chicken thighs",
+     "4 eggs, hard-boiled and peeled",
+     "200 g firm tofu, cut into pieces",
+     "4 shallots and 3 garlic cloves, crushed",
+     "2 bay leaves, 3 cm galangal, 1 tsp ground coriander, salt"
+    ],
+    "steps": [
+     "Line a heavy pot with the bay leaves and add the jackfruit, chicken, eggs, shallots, garlic, galangal and coriander.",
+     "Dissolve the palm sugar in the coconut milk with a pinch of salt and pour over.",
+     "Bring to a simmer, then cook on the lowest heat for 3–4 hours, adding a little water if it gets dry, until the jackfruit is dark brown and very soft.",
+     "Add the tofu for the last 30 minutes.",
+     "Serve with steamed rice."
+    ]
+   },
+   "tips": [
+    "Use light coconut milk or replace part of it with water to cut the fat.",
+    "Reduce the palm sugar — the stew stays sweet but lighter.",
+    "Pick the chicken and egg for protein and keep the rice portion to about 150 g cooked."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Gudeg",
-      "origin": "Indonesia · Yogyakarta",
-      "intro": "Gudeg is a Javanese stew of young jackfruit slow-cooked for hours in coconut milk and palm sugar until it turns soft, sweet and deep brown. It is typically served with braised chicken, hard-boiled eggs simmered in the same sauce and pieces of tofu. The flavour is distinctly sweet and savoury, and it is usually eaten with steamed rice.",
-      "history": "Gudeg is the signature dish of Yogyakarta in Central Java, which is often nicknamed the city of gudeg. Its exact origins are not documented, but it has long been sold by street vendors and family-run eateries there, and a drier version that keeps for days is popular as a souvenir.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "600 g young jackfruit, cut into chunks",
-          "800 ml coconut milk",
-          "80 g palm sugar",
-          "4 chicken thighs",
-          "4 eggs, hard-boiled and peeled",
-          "200 g firm tofu, cut into pieces",
-          "4 shallots and 3 garlic cloves, crushed",
-          "2 bay leaves, 3 cm galangal, 1 tsp ground coriander, salt"
-        ],
-        "steps": [
-          "Line a heavy pot with the bay leaves and add the jackfruit, chicken, eggs, shallots, garlic, galangal and coriander.",
-          "Dissolve the palm sugar in the coconut milk with a pinch of salt and pour over.",
-          "Bring to a simmer, then cook on the lowest heat for 3–4 hours, adding a little water if it gets dry, until the jackfruit is dark brown and very soft.",
-          "Add the tofu for the last 30 minutes.",
-          "Serve with steamed rice."
-        ]
-      },
-      "tips": [
-        "Use light coconut milk or replace part of it with water to cut the fat.",
-        "Reduce the palm sugar — the stew stays sweet but lighter.",
-        "Pick the chicken and egg for protein and keep the rice portion to about 150 g cooked."
-      ]
-    },
-    "ar": {
-      "name": "غوديغ",
-      "origin": "إندونيسيا · يوغياكارتا",
-      "intro": "الغوديغ يخنة جاوية من ثمار الجاك فروت الصغيرة تُطهى لساعات في حليب جوز الهند وسكر النخيل حتى تصبح طرية وحلوة وبنية داكنة. تُقدَّم عادة مع دجاج مطهو وبيض مسلوق يُطهى في الصلصة نفسها وقطع من التوفو. نكهتها حلوة ومالحة بشكل مميز، وتؤكل غالبًا مع الأرز الأبيض.",
-      "history": "الغوديغ هو الطبق الأشهر في مدينة يوغياكارتا في جاوة الوسطى، التي تُلقَّب كثيرًا بمدينة الغوديغ. لا توجد وثائق دقيقة عن أصله، لكنه يُباع منذ زمن طويل لدى الباعة المتجولين والمطاعم العائلية هناك، وتشتهر نسخة أكثر جفافًا تحفظ لأيام كهدية تذكارية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "600 غ جاك فروت صغير مقطع",
-          "800 مل حليب جوز الهند",
-          "80 غ سكر النخيل",
-          "4 أفخاذ دجاج",
-          "4 بيضات مسلوقة ومقشرة",
-          "200 غ توفو متماسك مقطع",
-          "4 حبات كراث أندلسي (شالوت) و3 فصوص ثوم مهروسة",
-          "2 ورقة غار، 3 سم خولنجان، 1 ملعقة صغيرة كزبرة مطحونة، ملح"
-        ],
-        "steps": [
-          "افرش قاع قدر ثقيل بورق الغار وأضف الجاك فروت والدجاج والبيض والشالوت والثوم والخولنجان والكزبرة.",
-          "اذب سكر النخيل في حليب جوز الهند مع رشة ملح واسكبه فوق المكونات.",
-          "اتركه حتى يغلي بهدوء، ثم اطهه على أقل نار 3–4 ساعات مع إضافة قليل من الماء عند الحاجة، حتى يصبح الجاك فروت بنيًا داكنًا وطريًا جدًا.",
-          "أضف التوفو في آخر 30 دقيقة.",
-          "قدّمه مع الأرز الأبيض."
-        ]
-      },
-      "tips": [
-        "استخدم حليب جوز هند خفيفًا أو استبدل جزءًا منه بالماء لتقليل الدهون.",
-        "قلّل سكر النخيل — تبقى اليخنة حلوة لكن أخف.",
-        "اختر الدجاج والبيض للبروتين، واجعل حصة الأرز نحو 150 غ مطبوخًا."
-      ]
-    },
-    "it": {
-      "name": "Gudeg",
-      "origin": "Indonesia · Yogyakarta",
-      "intro": "Il gudeg è uno stufato giavanese di jackfruit acerbo cotto lentamente per ore nel latte di cocco e nello zucchero di palma, finché diventa morbido, dolce e di un marrone intenso. Di solito si serve con pollo brasato, uova sode cotte nella stessa salsa e pezzi di tofu. Il sapore è nettamente dolce e sapido, e si mangia in genere con riso al vapore.",
-      "history": "Il gudeg è il piatto simbolo di Yogyakarta, a Giava centrale, spesso soprannominata la città del gudeg. Le sue origini esatte non sono documentate, ma da tempo vi è venduto da ambulanti e trattorie a conduzione familiare, e una versione più asciutta che si conserva per giorni è popolare come souvenir.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "600 g di jackfruit acerbo, a pezzi",
-          "800 ml di latte di cocco",
-          "80 g di zucchero di palma",
-          "4 cosce di pollo",
-          "4 uova sode sgusciate",
-          "200 g di tofu compatto a pezzi",
-          "4 scalogni e 3 spicchi d'aglio, schiacciati",
-          "2 foglie di alloro, 3 cm di galanga, 1 cucchiaino di coriandolo in polvere, sale"
-        ],
-        "steps": [
-          "Fodera una pentola dal fondo spesso con le foglie di alloro e aggiungi jackfruit, pollo, uova, scalogni, aglio, galanga e coriandolo.",
-          "Sciogli lo zucchero di palma nel latte di cocco con un pizzico di sale e versalo sopra.",
-          "Porta a bollore leggero, poi cuoci a fuoco minimo per 3–4 ore, aggiungendo un po' d'acqua se si asciuga, finché il jackfruit è marrone scuro e molto morbido.",
-          "Aggiungi il tofu negli ultimi 30 minuti.",
-          "Servi con riso al vapore."
-        ]
-      },
-      "tips": [
-        "Usa latte di cocco light o sostituiscine una parte con acqua per ridurre i grassi.",
-        "Riduci lo zucchero di palma: lo stufato resta dolce ma più leggero.",
-        "Scegli pollo e uovo per le proteine e limita il riso a circa 150 g cotto."
-      ]
-    },
-    "el": {
-      "name": "Γκούντεγκ",
-      "origin": "Ινδονησία · Γιογκιακάρτα",
-      "intro": "Το γκούντεγκ είναι ιαβανέζικο φαγητό με άγουρο τζάκφρουτ που σιγομαγειρεύεται για ώρες σε γάλα καρύδας και ζάχαρη φοίνικα μέχρι να γίνει μαλακό, γλυκό και βαθύ καφέ. Συνήθως σερβίρεται με κοτόπουλο κοκκινιστό, βραστά αυγά που σιγοβράζουν στην ίδια σάλτσα και κομμάτια τόφου. Η γεύση είναι έντονα γλυκιά και αλμυρή μαζί, και συνήθως τρώγεται με ρύζι στον ατμό.",
-      "history": "Το γκούντεγκ είναι το χαρακτηριστικό πιάτο της Γιογκιακάρτα στην Κεντρική Ιάβα, που συχνά αποκαλείται η πόλη του γκούντεγκ. Η ακριβής προέλευσή του δεν είναι τεκμηριωμένη, αλλά εδώ και καιρό πωλείται εκεί από πλανόδιους πωλητές και οικογενειακά μαγαζάκια, και μια πιο στεγνή εκδοχή που διατηρείται για μέρες είναι δημοφιλής ως σουβενίρ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "600 γρ. άγουρο τζάκφρουτ, σε κομμάτια",
-          "800 ml γάλα καρύδας",
-          "80 γρ. ζάχαρη φοίνικα",
-          "4 μπούτια κοτόπουλου",
-          "4 αυγά, βραστά και καθαρισμένα",
-          "200 γρ. σφιχτό τόφου, σε κομμάτια",
-          "4 εσαλότ και 3 σκελίδες σκόρδο, λιωμένα",
-          "2 φύλλα δάφνης, 3 εκ. γκαλάνγκαλ, 1 κ.γ. κόλιανδρος σε σκόνη, αλάτι"
-        ],
-        "steps": [
-          "Στρώστε τον πάτο μιας βαριάς κατσαρόλας με τα φύλλα δάφνης και προσθέστε το τζάκφρουτ, το κοτόπουλο, τα αυγά, τα εσαλότ, το σκόρδο, το γκαλάνγκαλ και τον κόλιανδρο.",
-          "Διαλύστε τη ζάχαρη φοίνικα στο γάλα καρύδας με μια πρέζα αλάτι και ρίξτε το από πάνω.",
-          "Αφήστε να πάρει βράση και μαγειρέψτε στη χαμηλότερη φωτιά για 3–4 ώρες, προσθέτοντας λίγο νερό αν στεγνώσει, μέχρι το τζάκφρουτ να γίνει σκούρο καφέ και πολύ μαλακό.",
-          "Προσθέστε το τόφου τα τελευταία 30 λεπτά.",
-          "Σερβίρετε με ρύζι στον ατμό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή αντικαταστήστε μέρος του με νερό για λιγότερο λίπος.",
-        "Μειώστε τη ζάχαρη φοίνικα — το φαγητό μένει γλυκό αλλά πιο ελαφρύ.",
-        "Προτιμήστε το κοτόπουλο και το αυγό για πρωτεΐνη και κρατήστε το ρύζι γύρω στα 150 γρ. μαγειρεμένο."
-      ]
-    },
-    "ru": {
-      "name": "Гудег",
-      "origin": "Индонезия · Джокьякарта",
-      "intro": "Гудег — яванское тушёное блюдо из молодого джекфрута, который часами томят в кокосовом молоке и пальмовом сахаре, пока он не станет мягким, сладким и глубокого коричневого цвета. Его обычно подают с тушёной курицей, варёными вкрутую яйцами, томлёными в том же соусе, и кусочками тофу. Вкус отчётливо сладкий и пряный, и его обычно едят с рисом на пару.",
-      "history": "Гудег — фирменное блюдо Джокьякарты в Центральной Яве, которую часто называют городом гудега. Его точное происхождение не задокументировано, но там его давно продают уличные торговцы и семейные закусочные, а более сухой вариант, который хранится несколько дней, популярен как сувенир.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "600 г молодого джекфрута, нарезанного кусками",
-          "800 мл кокосового молока",
-          "80 г пальмового сахара",
-          "4 куриных бедра",
-          "4 яйца, сваренных вкрутую и очищенных",
-          "200 г плотного тофу, нарезанного кусками",
-          "4 шалота и 3 зубчика чеснока, раздавленных",
-          "2 лавровых листа, 3 см галангала, 1 ч. л. молотого кориандра, соль"
-        ],
-        "steps": [
-          "Выстелите дно толстостенной кастрюли лавровыми листьями и добавьте джекфрут, курицу, яйца, шалот, чеснок, галангал и кориандр.",
-          "Растворите пальмовый сахар в кокосовом молоке со щепоткой соли и залейте.",
-          "Доведите до кипения, затем готовьте на самом слабом огне 3–4 часа, при необходимости добавляя немного воды, пока джекфрут не станет тёмно-коричневым и очень мягким.",
-          "Добавьте тофу за последние 30 минут.",
-          "Подавайте с рисом на пару."
-        ]
-      },
-      "tips": [
-        "Используйте лёгкое кокосовое молоко или замените часть его водой, чтобы снизить жирность.",
-        "Уменьшите количество пальмового сахара: блюдо останется сладким, но станет легче.",
-        "Выбирайте курицу и яйцо для белка и ограничьтесь порцией риса около 150 г в готовом виде."
-      ],
-      "name_inline": "гудег"
-    }
+  "ar": {
+   "name": "غوديغ",
+   "origin": "إندونيسيا · يوغياكارتا",
+   "intro": "الغوديغ يخنة جاوية من ثمار الجاك فروت الصغيرة تُطهى لساعات في حليب جوز الهند وسكر النخيل حتى تصبح طرية وحلوة وبنية داكنة. تُقدَّم عادة مع دجاج مطهو وبيض مسلوق يُطهى في الصلصة نفسها وقطع من التوفو. نكهتها حلوة ومالحة بشكل مميز، وتؤكل غالبًا مع الأرز الأبيض.",
+   "history": "الغوديغ هو الطبق الأشهر في مدينة يوغياكارتا في جاوة الوسطى، التي تُلقَّب كثيرًا بمدينة الغوديغ. لا توجد وثائق دقيقة عن أصله، لكنه يُباع منذ زمن طويل لدى الباعة المتجولين والمطاعم العائلية هناك، وتشتهر نسخة أكثر جفافًا تحفظ لأيام كهدية تذكارية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "600 غ جاك فروت صغير مقطع",
+     "800 مل حليب جوز الهند",
+     "80 غ سكر النخيل",
+     "4 أفخاذ دجاج",
+     "4 بيضات مسلوقة ومقشرة",
+     "200 غ توفو متماسك مقطع",
+     "4 حبات كراث أندلسي (شالوت) و3 فصوص ثوم مهروسة",
+     "2 ورقة غار، 3 سم خولنجان، 1 ملعقة صغيرة كزبرة مطحونة، ملح"
+    ],
+    "steps": [
+     "افرش قاع قدر ثقيل بورق الغار وأضف الجاك فروت والدجاج والبيض والشالوت والثوم والخولنجان والكزبرة.",
+     "اذب سكر النخيل في حليب جوز الهند مع رشة ملح واسكبه فوق المكونات.",
+     "اتركه حتى يغلي بهدوء، ثم اطهه على أقل نار 3–4 ساعات مع إضافة قليل من الماء عند الحاجة، حتى يصبح الجاك فروت بنيًا داكنًا وطريًا جدًا.",
+     "أضف التوفو في آخر 30 دقيقة.",
+     "قدّمه مع الأرز الأبيض."
+    ]
+   },
+   "tips": [
+    "استخدم حليب جوز هند خفيفًا أو استبدل جزءًا منه بالماء لتقليل الدهون.",
+    "قلّل سكر النخيل — تبقى اليخنة حلوة لكن أخف.",
+    "اختر الدجاج والبيض للبروتين، واجعل حصة الأرز نحو 150 غ مطبوخًا."
+   ]
+  },
+  "it": {
+   "name": "Gudeg",
+   "origin": "Indonesia · Yogyakarta",
+   "intro": "Il gudeg è uno stufato giavanese di jackfruit acerbo cotto lentamente per ore nel latte di cocco e nello zucchero di palma, finché diventa morbido, dolce e di un marrone intenso. Di solito si serve con pollo brasato, uova sode cotte nella stessa salsa e pezzi di tofu. Il sapore è nettamente dolce e sapido, e si mangia in genere con riso al vapore.",
+   "history": "Il gudeg è il piatto simbolo di Yogyakarta, a Giava centrale, spesso soprannominata la città del gudeg. Le sue origini esatte non sono documentate, ma da tempo vi è venduto da ambulanti e trattorie a conduzione familiare, e una versione più asciutta che si conserva per giorni è popolare come souvenir.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "600 g di jackfruit acerbo, a pezzi",
+     "800 ml di latte di cocco",
+     "80 g di zucchero di palma",
+     "4 cosce di pollo",
+     "4 uova sode sgusciate",
+     "200 g di tofu compatto a pezzi",
+     "4 scalogni e 3 spicchi d'aglio, schiacciati",
+     "2 foglie di alloro, 3 cm di galanga, 1 cucchiaino di coriandolo in polvere, sale"
+    ],
+    "steps": [
+     "Fodera una pentola dal fondo spesso con le foglie di alloro e aggiungi jackfruit, pollo, uova, scalogni, aglio, galanga e coriandolo.",
+     "Sciogli lo zucchero di palma nel latte di cocco con un pizzico di sale e versalo sopra.",
+     "Porta a bollore leggero, poi cuoci a fuoco minimo per 3–4 ore, aggiungendo un po' d'acqua se si asciuga, finché il jackfruit è marrone scuro e molto morbido.",
+     "Aggiungi il tofu negli ultimi 30 minuti.",
+     "Servi con riso al vapore."
+    ]
+   },
+   "tips": [
+    "Usa latte di cocco light o sostituiscine una parte con acqua per ridurre i grassi.",
+    "Riduci lo zucchero di palma: lo stufato resta dolce ma più leggero.",
+    "Scegli pollo e uovo per le proteine e limita il riso a circa 150 g cotto."
+   ]
+  },
+  "el": {
+   "name": "Γκούντεγκ",
+   "origin": "Ινδονησία · Γιογκιακάρτα",
+   "intro": "Το γκούντεγκ είναι ιαβανέζικο φαγητό με άγουρο τζάκφρουτ που σιγομαγειρεύεται για ώρες σε γάλα καρύδας και ζάχαρη φοίνικα μέχρι να γίνει μαλακό, γλυκό και βαθύ καφέ. Συνήθως σερβίρεται με κοτόπουλο κοκκινιστό, βραστά αυγά που σιγοβράζουν στην ίδια σάλτσα και κομμάτια τόφου. Η γεύση είναι έντονα γλυκιά και αλμυρή μαζί, και συνήθως τρώγεται με ρύζι στον ατμό.",
+   "history": "Το γκούντεγκ είναι το χαρακτηριστικό πιάτο της Γιογκιακάρτα στην Κεντρική Ιάβα, που συχνά αποκαλείται η πόλη του γκούντεγκ. Η ακριβής προέλευσή του δεν είναι τεκμηριωμένη, αλλά εδώ και καιρό πωλείται εκεί από πλανόδιους πωλητές και οικογενειακά μαγαζάκια, και μια πιο στεγνή εκδοχή που διατηρείται για μέρες είναι δημοφιλής ως σουβενίρ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "600 γρ. άγουρο τζάκφρουτ, σε κομμάτια",
+     "800 ml γάλα καρύδας",
+     "80 γρ. ζάχαρη φοίνικα",
+     "4 μπούτια κοτόπουλου",
+     "4 αυγά, βραστά και καθαρισμένα",
+     "200 γρ. σφιχτό τόφου, σε κομμάτια",
+     "4 εσαλότ και 3 σκελίδες σκόρδο, λιωμένα",
+     "2 φύλλα δάφνης, 3 εκ. γκαλάνγκαλ, 1 κ.γ. κόλιανδρος σε σκόνη, αλάτι"
+    ],
+    "steps": [
+     "Στρώστε τον πάτο μιας βαριάς κατσαρόλας με τα φύλλα δάφνης και προσθέστε το τζάκφρουτ, το κοτόπουλο, τα αυγά, τα εσαλότ, το σκόρδο, το γκαλάνγκαλ και τον κόλιανδρο.",
+     "Διαλύστε τη ζάχαρη φοίνικα στο γάλα καρύδας με μια πρέζα αλάτι και ρίξτε το από πάνω.",
+     "Αφήστε να πάρει βράση και μαγειρέψτε στη χαμηλότερη φωτιά για 3–4 ώρες, προσθέτοντας λίγο νερό αν στεγνώσει, μέχρι το τζάκφρουτ να γίνει σκούρο καφέ και πολύ μαλακό.",
+     "Προσθέστε το τόφου τα τελευταία 30 λεπτά.",
+     "Σερβίρετε με ρύζι στον ατμό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή αντικαταστήστε μέρος του με νερό για λιγότερο λίπος.",
+    "Μειώστε τη ζάχαρη φοίνικα — το φαγητό μένει γλυκό αλλά πιο ελαφρύ.",
+    "Προτιμήστε το κοτόπουλο και το αυγό για πρωτεΐνη και κρατήστε το ρύζι γύρω στα 150 γρ. μαγειρεμένο."
+   ]
+  },
+  "ru": {
+   "name": "Гудег",
+   "origin": "Индонезия · Джокьякарта",
+   "intro": "Гудег — яванское тушёное блюдо из молодого джекфрута, который часами томят в кокосовом молоке и пальмовом сахаре, пока он не станет мягким, сладким и глубокого коричневого цвета. Его обычно подают с тушёной курицей, варёными вкрутую яйцами, томлёными в том же соусе, и кусочками тофу. Вкус отчётливо сладкий и пряный, и его обычно едят с рисом на пару.",
+   "history": "Гудег — фирменное блюдо Джокьякарты в Центральной Яве, которую часто называют городом гудега. Его точное происхождение не задокументировано, но там его давно продают уличные торговцы и семейные закусочные, а более сухой вариант, который хранится несколько дней, популярен как сувенир.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "600 г молодого джекфрута, нарезанного кусками",
+     "800 мл кокосового молока",
+     "80 г пальмового сахара",
+     "4 куриных бедра",
+     "4 яйца, сваренных вкрутую и очищенных",
+     "200 г плотного тофу, нарезанного кусками",
+     "4 шалота и 3 зубчика чеснока, раздавленных",
+     "2 лавровых листа, 3 см галангала, 1 ч. л. молотого кориандра, соль"
+    ],
+    "steps": [
+     "Выстелите дно толстостенной кастрюли лавровыми листьями и добавьте джекфрут, курицу, яйца, шалот, чеснок, галангал и кориандр.",
+     "Растворите пальмовый сахар в кокосовом молоке со щепоткой соли и залейте.",
+     "Доведите до кипения, затем готовьте на самом слабом огне 3–4 часа, при необходимости добавляя немного воды, пока джекфрут не станет тёмно-коричневым и очень мягким.",
+     "Добавьте тофу за последние 30 минут.",
+     "Подавайте с рисом на пару."
+    ]
+   },
+   "tips": [
+    "Используйте лёгкое кокосовое молоко или замените часть его водой, чтобы снизить жирность.",
+    "Уменьшите количество пальмового сахара: блюдо останется сладким, но станет легче.",
+    "Выбирайте курицу и яйцо для белка и ограничьтесь порцией риса около 150 г в готовом виде."
+   ],
+   "name_inline": "гудег"
+  },
+  "es": {
+   "name": "Gudeg",
+   "origin": "Indonesia · Yogyakarta",
+   "intro": "El gudeg es un guiso javanés de yaca tierna cocida durante horas en leche de coco y azúcar de palma hasta quedar suave, dulce y de un color café intenso. Suele servirse con pollo estofado, huevos duros cocidos en la misma salsa y trozos de tofu. El sabor es claramente dulce y salado a la vez, y se come con arroz al vapor.",
+   "history": "El gudeg es el plato emblemático de Yogyakarta, en Java Central, ciudad a la que a menudo se llama «la ciudad del gudeg». Su origen exacto no está documentado, pero desde hace mucho lo venden vendedores ambulantes y fondas familiares, y una versión más seca que se conserva varios días es popular como recuerdo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "600 g de yaca tierna, en trozos",
+     "800 ml de leche de coco",
+     "80 g de azúcar de palma",
+     "4 muslos de pollo",
+     "4 huevos duros, pelados",
+     "200 g de tofu firme, en trozos",
+     "4 chalotes y 3 dientes de ajo, machacados",
+     "2 hojas de laurel, 3 cm de galanga, 1 cdta. de cilantro molido, sal"
+    ],
+    "steps": [
+     "Forra una olla gruesa con las hojas de laurel y agrega la yaca, el pollo, los huevos, los chalotes, el ajo, la galanga y el cilantro.",
+     "Disuelve el azúcar de palma en la leche de coco con una pizca de sal y vierte encima.",
+     "Lleva a un hervor suave y luego cocina a fuego mínimo de 3 a 4 horas, añadiendo un poco de agua si se seca, hasta que la yaca esté café oscuro y muy suave.",
+     "Agrega el tofu en los últimos 30 minutos.",
+     "Sirve con arroz al vapor."
+    ]
+   },
+   "tips": [
+    "Usa leche de coco light o reemplaza una parte con agua para reducir la grasa.",
+    "Reduce el azúcar de palma: el guiso sigue siendo dulce, pero más ligero.",
+    "Elige el pollo y el huevo como proteína y limita el arroz a unos 150 g cocido."
+   ],
+   "name_inline": "el gudeg"
   }
+ }
 }

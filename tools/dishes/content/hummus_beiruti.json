@@ -1,170 +1,202 @@
 {
-  "db_key": "hummus_beiruti",
-  "slug": "hummus-beiruti",
-  "emoji": "🧆",
-  "portion_g": 150,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "hummus_beiruti",
+ "slug": "hummus-beiruti",
+ "emoji": "🧆",
+ "portion_g": 150,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Hummus Beiruti",
+   "origin": "Lebanon · Beirut",
+   "intro": "Hummus Beiruti is a Beirut-style hummus that is coarser and punchier than the classic version. Chickpeas and tahini are blended with plenty of garlic and lemon, then mixed with chopped parsley, cumin and a little chili. The result is green-flecked, garlicky and fresh, served as a dip at a mezze table.",
+   "history": "The name simply means “Beirut hummus”, and the herb-and-garlic style is associated with the Lebanese capital and its mezze restaurants. Today it appears on Lebanese menus alongside plain hummus and other variations.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "400 g cooked chickpeas",
+     "70 g tahini",
+     "Juice of 1½ lemons",
+     "3 garlic cloves",
+     "20 g parsley, finely chopped",
+     "1 tsp ground cumin",
+     "½ fresh chili, finely chopped",
+     "Salt, a little cold water"
+    ],
+    "steps": [
+     "Pound the garlic with a pinch of salt into a paste.",
+     "Blend the chickpeas, tahini, lemon juice and garlic briefly with a little water, leaving some texture.",
+     "Stir in the parsley, cumin and chili.",
+     "Taste, adjust the salt and lemon, and serve with an extra sprinkle of parsley."
+    ]
+   },
+   "tips": [
+    "This version needs no oil on top; adding 1 tbsp olive oil adds ≈ 120 kcal.",
+    "Serve with radishes, lettuce leaves and cucumber for scooping.",
+    "Keep to one 150 g portion and fill the rest of the plate with salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Hummus Beiruti",
-      "origin": "Lebanon · Beirut",
-      "intro": "Hummus Beiruti is a Beirut-style hummus that is coarser and punchier than the classic version. Chickpeas and tahini are blended with plenty of garlic and lemon, then mixed with chopped parsley, cumin and a little chili. The result is green-flecked, garlicky and fresh, served as a dip at a mezze table.",
-      "history": "The name simply means “Beirut hummus”, and the herb-and-garlic style is associated with the Lebanese capital and its mezze restaurants. Today it appears on Lebanese menus alongside plain hummus and other variations.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "400 g cooked chickpeas",
-          "70 g tahini",
-          "Juice of 1½ lemons",
-          "3 garlic cloves",
-          "20 g parsley, finely chopped",
-          "1 tsp ground cumin",
-          "½ fresh chili, finely chopped",
-          "Salt, a little cold water"
-        ],
-        "steps": [
-          "Pound the garlic with a pinch of salt into a paste.",
-          "Blend the chickpeas, tahini, lemon juice and garlic briefly with a little water, leaving some texture.",
-          "Stir in the parsley, cumin and chili.",
-          "Taste, adjust the salt and lemon, and serve with an extra sprinkle of parsley."
-        ]
-      },
-      "tips": [
-        "This version needs no oil on top; adding 1 tbsp olive oil adds ≈ 120 kcal.",
-        "Serve with radishes, lettuce leaves and cucumber for scooping.",
-        "Keep to one 150 g portion and fill the rest of the plate with salad."
-      ]
-    },
-    "ar": {
-      "name": "حمص بيروتي",
-      "origin": "لبنان · بيروت",
-      "intro": "الحمص البيروتي حمص على الطريقة البيروتية، أخشن قواماً وأقوى نكهة من الحمص الكلاسيكي. يُخفق الحمص والطحينة مع كمية وافرة من الثوم والليمون، ثم يُخلط بالبقدونس المفروم والكمون وقليل من الفلفل الحار. والنتيجة حمص منقّط بالأخضر، غني بالثوم ومنعش، يقدم للغمس على سفرة المقبلات.",
-      "history": "الاسم يعني ببساطة «حمص بيروت»، وترتبط هذه الطريقة بالأعشاب والثوم بالعاصمة اللبنانية ومطاعم المقبلات فيها. ويظهر اليوم في القوائم اللبنانية إلى جانب الحمص العادي وأنواع أخرى.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "400 غ حمص مسلوق",
-          "70 غ طحينة",
-          "عصير ليمونة ونصف",
-          "3 فصوص ثوم",
-          "20 غ بقدونس مفروم ناعماً",
-          "ملعقة صغيرة كمون مطحون",
-          "نصف حبة فلفل حار طازج مفروم",
-          "ملح، قليل من الماء البارد"
-        ],
-        "steps": [
-          "اهرس الثوم مع رشة ملح حتى يصبح عجينة.",
-          "اخفق الحمص والطحينة وعصير الليمون والثوم خفقاً قصيراً مع قليل من الماء مع ترك بعض القوام.",
-          "أضف البقدونس والكمون والفلفل الحار وحرّك.",
-          "تذوّق، وعدّل الملح والليمون، وقدّمه مع رشة إضافية من البقدونس."
-        ]
-      },
-      "tips": [
-        "هذه النسخة لا تحتاج زيتاً على الوجه؛ وإضافة ملعقة كبيرة من زيت الزيتون تزيد ≈ 120 سعرة.",
-        "قدّمه مع الفجل وأوراق الخس والخيار للغمس.",
-        "التزم بحصة واحدة 150 غ واملأ باقي الطبق بالسلطة."
-      ]
-    },
-    "it": {
-      "name": "Hummus beiruti",
-      "origin": "Libano · Beirut",
-      "intro": "L'hummus beiruti è un hummus alla maniera di Beirut, più grossolano e deciso della versione classica. Ceci e tahina vengono frullati con abbondante aglio e limone, poi mescolati con prezzemolo tritato, cumino e un po' di peperoncino. Il risultato è punteggiato di verde, agliato e fresco, e si serve come salsa su una tavola di mezze.",
-      "history": "Il nome significa semplicemente «hummus di Beirut», e lo stile con erbe e aglio è associato alla capitale libanese e ai suoi ristoranti di mezze. Oggi compare nei menu libanesi accanto all'hummus semplice e ad altre varianti.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "400 g di ceci cotti",
-          "70 g di tahina",
-          "Succo di 1½ limone",
-          "3 spicchi d'aglio",
-          "20 g di prezzemolo tritato finemente",
-          "1 cucchiaino di cumino in polvere",
-          "½ peperoncino fresco tritato finemente",
-          "Sale, un po' di acqua fredda"
-        ],
-        "steps": [
-          "Pesta l'aglio con un pizzico di sale fino a ridurlo in pasta.",
-          "Frulla brevemente ceci, tahina, succo di limone e aglio con un po' d'acqua, lasciando un po' di consistenza.",
-          "Incorpora prezzemolo, cumino e peperoncino.",
-          "Assaggia, regola sale e limone e servi con un'altra spolverata di prezzemolo."
-        ]
-      },
-      "tips": [
-        "Questa versione non ha bisogno di olio in superficie; aggiungere 1 cucchiaio di olio d'oliva aggiunge ≈ 120 kcal.",
-        "Servilo con ravanelli, foglie di lattuga e cetriolo per raccoglierlo.",
-        "Limitati a una porzione da 150 g e riempi il resto del piatto di insalata."
-      ]
-    },
-    "el": {
-      "name": "Χούμους μπεϊρούτι",
-      "origin": "Λίβανος · Βηρυτός",
-      "intro": "Το χούμους μπεϊρούτι είναι χούμους αλά Βηρυτού, πιο χοντρό και πιο έντονο από την κλασική εκδοχή. Τα ρεβίθια και το ταχίνι χτυπιούνται με άφθονο σκόρδο και λεμόνι και μετά ανακατεύονται με ψιλοκομμένο μαϊντανό, κύμινο και λίγο τσίλι. Το αποτέλεσμα είναι διάστικτο με πράσινο, σκορδάτο και φρέσκο, και σερβίρεται ως ντιπ σε τραπέζι με μεζέδες.",
-      "history": "Το όνομα σημαίνει απλώς «χούμους της Βηρυτού», και το στιλ με μυρωδικά και σκόρδο συνδέεται με τη λιβανέζικη πρωτεύουσα και τα εστιατόριά της με μεζέδες. Σήμερα εμφανίζεται στα λιβανέζικα μενού δίπλα στο απλό χούμους και σε άλλες παραλλαγές.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "400 γρ. βρασμένα ρεβίθια",
-          "70 γρ. ταχίνι",
-          "Χυμός από 1½ λεμόνι",
-          "3 σκελίδες σκόρδο",
-          "20 γρ. μαϊντανός, ψιλοκομμένος",
-          "1 κ.γ. κύμινο τριμμένο",
-          "½ φρέσκο τσίλι, ψιλοκομμένο",
-          "Αλάτι, λίγο κρύο νερό"
-        ],
-        "steps": [
-          "Κοπανίστε το σκόρδο με μια πρέζα αλάτι μέχρι να γίνει πάστα.",
-          "Χτυπήστε για λίγο τα ρεβίθια, το ταχίνι, τον χυμό λεμονιού και το σκόρδο με λίγο νερό, αφήνοντας λίγη υφή.",
-          "Ανακατέψτε τον μαϊντανό, το κύμινο και το τσίλι.",
-          "Δοκιμάστε, διορθώστε αλάτι και λεμόνι και σερβίρετε με λίγο ακόμη μαϊντανό από πάνω."
-        ]
-      },
-      "tips": [
-        "Αυτή η εκδοχή δεν χρειάζεται λάδι από πάνω· 1 κ.σ. ελαιόλαδο προσθέτει ≈ 120 kcal.",
-        "Σερβίρετε με ραπανάκια, φύλλα μαρουλιού και αγγούρι για να το βουτάτε.",
-        "Περιοριστείτε σε μία μερίδα 150 γρ. και γεμίστε το υπόλοιπο πιάτο με σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Хумус бейрути",
-      "origin": "Ливан · Бейрут",
-      "intro": "Хумус бейрути — хумус по-бейрутски, более грубый и яркий, чем классический вариант. Нут и тахини измельчают с большим количеством чеснока и лимона, затем смешивают с рубленой петрушкой, зирой и небольшим количеством чили. Получается дип с зелёными вкраплениями, чесночный и свежий, который подают на столе мезе.",
-      "history": "Название просто означает «бейрутский хумус», а стиль с травами и чесноком связывают с ливанской столицей и её ресторанами мезе. Сегодня он появляется в ливанских меню наряду с обычным хумусом и другими вариациями.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "400 г отварного нута",
-          "70 г тахини",
-          "Сок 1½ лимона",
-          "3 зубчика чеснока",
-          "20 г петрушки, мелко нарубленной",
-          "1 ч. л. молотой зиры",
-          "½ свежего перца чили, мелко нарубленного",
-          "Соль, немного холодной воды"
-        ],
-        "steps": [
-          "Разотрите чеснок со щепоткой соли в пасту.",
-          "Кратко измельчите нут, тахини, лимонный сок и чеснок с небольшим количеством воды, оставив немного текстуры.",
-          "Вмешайте петрушку, зиру и чили.",
-          "Попробуйте, отрегулируйте соль и лимон и подавайте, посыпав дополнительно петрушкой."
-        ]
-      },
-      "tips": [
-        "В этом варианте масло сверху не нужно; добавление 1 ст. л. оливкового масла добавляет ≈ 120 ккал.",
-        "Подавайте с редисом, листьями салата и огурцом, чтобы набирать дип.",
-        "Ограничьтесь одной порцией в 150 г и заполните остальную тарелку салатом."
-      ],
-      "name_inline": "хумус бейрути"
-    }
+  "ar": {
+   "name": "حمص بيروتي",
+   "origin": "لبنان · بيروت",
+   "intro": "الحمص البيروتي حمص على الطريقة البيروتية، أخشن قواماً وأقوى نكهة من الحمص الكلاسيكي. يُخفق الحمص والطحينة مع كمية وافرة من الثوم والليمون، ثم يُخلط بالبقدونس المفروم والكمون وقليل من الفلفل الحار. والنتيجة حمص منقّط بالأخضر، غني بالثوم ومنعش، يقدم للغمس على سفرة المقبلات.",
+   "history": "الاسم يعني ببساطة «حمص بيروت»، وترتبط هذه الطريقة بالأعشاب والثوم بالعاصمة اللبنانية ومطاعم المقبلات فيها. ويظهر اليوم في القوائم اللبنانية إلى جانب الحمص العادي وأنواع أخرى.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "400 غ حمص مسلوق",
+     "70 غ طحينة",
+     "عصير ليمونة ونصف",
+     "3 فصوص ثوم",
+     "20 غ بقدونس مفروم ناعماً",
+     "ملعقة صغيرة كمون مطحون",
+     "نصف حبة فلفل حار طازج مفروم",
+     "ملح، قليل من الماء البارد"
+    ],
+    "steps": [
+     "اهرس الثوم مع رشة ملح حتى يصبح عجينة.",
+     "اخفق الحمص والطحينة وعصير الليمون والثوم خفقاً قصيراً مع قليل من الماء مع ترك بعض القوام.",
+     "أضف البقدونس والكمون والفلفل الحار وحرّك.",
+     "تذوّق، وعدّل الملح والليمون، وقدّمه مع رشة إضافية من البقدونس."
+    ]
+   },
+   "tips": [
+    "هذه النسخة لا تحتاج زيتاً على الوجه؛ وإضافة ملعقة كبيرة من زيت الزيتون تزيد ≈ 120 سعرة.",
+    "قدّمه مع الفجل وأوراق الخس والخيار للغمس.",
+    "التزم بحصة واحدة 150 غ واملأ باقي الطبق بالسلطة."
+   ]
+  },
+  "it": {
+   "name": "Hummus beiruti",
+   "origin": "Libano · Beirut",
+   "intro": "L'hummus beiruti è un hummus alla maniera di Beirut, più grossolano e deciso della versione classica. Ceci e tahina vengono frullati con abbondante aglio e limone, poi mescolati con prezzemolo tritato, cumino e un po' di peperoncino. Il risultato è punteggiato di verde, agliato e fresco, e si serve come salsa su una tavola di mezze.",
+   "history": "Il nome significa semplicemente «hummus di Beirut», e lo stile con erbe e aglio è associato alla capitale libanese e ai suoi ristoranti di mezze. Oggi compare nei menu libanesi accanto all'hummus semplice e ad altre varianti.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "400 g di ceci cotti",
+     "70 g di tahina",
+     "Succo di 1½ limone",
+     "3 spicchi d'aglio",
+     "20 g di prezzemolo tritato finemente",
+     "1 cucchiaino di cumino in polvere",
+     "½ peperoncino fresco tritato finemente",
+     "Sale, un po' di acqua fredda"
+    ],
+    "steps": [
+     "Pesta l'aglio con un pizzico di sale fino a ridurlo in pasta.",
+     "Frulla brevemente ceci, tahina, succo di limone e aglio con un po' d'acqua, lasciando un po' di consistenza.",
+     "Incorpora prezzemolo, cumino e peperoncino.",
+     "Assaggia, regola sale e limone e servi con un'altra spolverata di prezzemolo."
+    ]
+   },
+   "tips": [
+    "Questa versione non ha bisogno di olio in superficie; aggiungere 1 cucchiaio di olio d'oliva aggiunge ≈ 120 kcal.",
+    "Servilo con ravanelli, foglie di lattuga e cetriolo per raccoglierlo.",
+    "Limitati a una porzione da 150 g e riempi il resto del piatto di insalata."
+   ]
+  },
+  "el": {
+   "name": "Χούμους μπεϊρούτι",
+   "origin": "Λίβανος · Βηρυτός",
+   "intro": "Το χούμους μπεϊρούτι είναι χούμους αλά Βηρυτού, πιο χοντρό και πιο έντονο από την κλασική εκδοχή. Τα ρεβίθια και το ταχίνι χτυπιούνται με άφθονο σκόρδο και λεμόνι και μετά ανακατεύονται με ψιλοκομμένο μαϊντανό, κύμινο και λίγο τσίλι. Το αποτέλεσμα είναι διάστικτο με πράσινο, σκορδάτο και φρέσκο, και σερβίρεται ως ντιπ σε τραπέζι με μεζέδες.",
+   "history": "Το όνομα σημαίνει απλώς «χούμους της Βηρυτού», και το στιλ με μυρωδικά και σκόρδο συνδέεται με τη λιβανέζικη πρωτεύουσα και τα εστιατόριά της με μεζέδες. Σήμερα εμφανίζεται στα λιβανέζικα μενού δίπλα στο απλό χούμους και σε άλλες παραλλαγές.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "400 γρ. βρασμένα ρεβίθια",
+     "70 γρ. ταχίνι",
+     "Χυμός από 1½ λεμόνι",
+     "3 σκελίδες σκόρδο",
+     "20 γρ. μαϊντανός, ψιλοκομμένος",
+     "1 κ.γ. κύμινο τριμμένο",
+     "½ φρέσκο τσίλι, ψιλοκομμένο",
+     "Αλάτι, λίγο κρύο νερό"
+    ],
+    "steps": [
+     "Κοπανίστε το σκόρδο με μια πρέζα αλάτι μέχρι να γίνει πάστα.",
+     "Χτυπήστε για λίγο τα ρεβίθια, το ταχίνι, τον χυμό λεμονιού και το σκόρδο με λίγο νερό, αφήνοντας λίγη υφή.",
+     "Ανακατέψτε τον μαϊντανό, το κύμινο και το τσίλι.",
+     "Δοκιμάστε, διορθώστε αλάτι και λεμόνι και σερβίρετε με λίγο ακόμη μαϊντανό από πάνω."
+    ]
+   },
+   "tips": [
+    "Αυτή η εκδοχή δεν χρειάζεται λάδι από πάνω· 1 κ.σ. ελαιόλαδο προσθέτει ≈ 120 kcal.",
+    "Σερβίρετε με ραπανάκια, φύλλα μαρουλιού και αγγούρι για να το βουτάτε.",
+    "Περιοριστείτε σε μία μερίδα 150 γρ. και γεμίστε το υπόλοιπο πιάτο με σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Хумус бейрути",
+   "origin": "Ливан · Бейрут",
+   "intro": "Хумус бейрути — хумус по-бейрутски, более грубый и яркий, чем классический вариант. Нут и тахини измельчают с большим количеством чеснока и лимона, затем смешивают с рубленой петрушкой, зирой и небольшим количеством чили. Получается дип с зелёными вкраплениями, чесночный и свежий, который подают на столе мезе.",
+   "history": "Название просто означает «бейрутский хумус», а стиль с травами и чесноком связывают с ливанской столицей и её ресторанами мезе. Сегодня он появляется в ливанских меню наряду с обычным хумусом и другими вариациями.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "400 г отварного нута",
+     "70 г тахини",
+     "Сок 1½ лимона",
+     "3 зубчика чеснока",
+     "20 г петрушки, мелко нарубленной",
+     "1 ч. л. молотой зиры",
+     "½ свежего перца чили, мелко нарубленного",
+     "Соль, немного холодной воды"
+    ],
+    "steps": [
+     "Разотрите чеснок со щепоткой соли в пасту.",
+     "Кратко измельчите нут, тахини, лимонный сок и чеснок с небольшим количеством воды, оставив немного текстуры.",
+     "Вмешайте петрушку, зиру и чили.",
+     "Попробуйте, отрегулируйте соль и лимон и подавайте, посыпав дополнительно петрушкой."
+    ]
+   },
+   "tips": [
+    "В этом варианте масло сверху не нужно; добавление 1 ст. л. оливкового масла добавляет ≈ 120 ккал.",
+    "Подавайте с редисом, листьями салата и огурцом, чтобы набирать дип.",
+    "Ограничьтесь одной порцией в 150 г и заполните остальную тарелку салатом."
+   ],
+   "name_inline": "хумус бейрути"
+  },
+  "es": {
+   "name": "Hummus beirutí",
+   "origin": "Líbano · Beirut",
+   "intro": "El hummus beirutí es un hummus al estilo de Beirut, más rústico e intenso que el clásico. Los garbanzos y el tahini se licúan con bastante ajo y limón, y luego se mezclan con perejil picado, comino y un poco de chile. El resultado es salpicado de verde, con mucho ajo y fresco, y se sirve como dip en una mesa de mezze.",
+   "history": "El nombre significa simplemente «hummus de Beirut», y el estilo de hierbas y ajo se asocia con la capital libanesa y sus restaurantes de mezze. Hoy aparece en los menús libaneses junto al hummus tradicional y otras variantes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "400 g de garbanzos cocidos",
+     "70 g de tahini",
+     "Jugo de 1½ limones",
+     "3 dientes de ajo",
+     "20 g de perejil, picado fino",
+     "1 cdta. de comino molido",
+     "½ chile fresco, picado fino",
+     "Sal, un poco de agua fría"
+    ],
+    "steps": [
+     "Machaca el ajo con una pizca de sal hasta obtener una pasta.",
+     "Licúa brevemente los garbanzos, el tahini, el jugo de limón y el ajo con un poco de agua, dejando algo de textura.",
+     "Incorpora el perejil, el comino y el chile.",
+     "Prueba, ajusta la sal y el limón, y sirve con un poco más de perejil por encima."
+    ]
+   },
+   "tips": [
+    "Esta versión no necesita aceite por encima; añadir 1 cda. de aceite de oliva suma ≈ 120 kcal.",
+    "Sírvelo con rábanos, hojas de lechuga y pepino para mojar.",
+    "Limítate a una porción de 150 g y llena el resto del plato con ensalada."
+   ],
+   "name_inline": "el hummus beirutí"
   }
+ }
 }

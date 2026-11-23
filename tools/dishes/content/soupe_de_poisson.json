@@ -1,176 +1,209 @@
 {
-  "db_key": "soupe_de_poisson",
-  "slug": "soupe-de-poisson",
-  "emoji": "🐟",
-  "portion_g": 400,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "soupe_de_poisson",
+ "slug": "soupe-de-poisson",
+ "emoji": "🐟",
+ "portion_g": 400,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Soupe de Poisson",
+   "origin": "France · Provence",
+   "intro": "Soupe de poisson is the Provençal fish soup: mixed fish are simmered with tomato, fennel, garlic and saffron, then blended and strained into a smooth, deep orange broth with a strong taste of the sea. It is served with toasted bread rounds spread with rouille, a garlicky saffron sauce, which are floated in the hot soup.",
+   "history": "The soup belongs to the fishing ports of Provence, especially Marseille, and is often said to have begun as a way for fishermen to use small, bony fish they could not sell. It is a simpler, blended cousin of bouillabaisse and remains a staple of restaurants along the Mediterranean coast of France.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 kg mixed white fish and fish heads/bones, cleaned",
+     "1 fennel bulb, sliced",
+     "1 onion and 4 garlic cloves, chopped",
+     "4 tomatoes, chopped",
+     "Pinch of saffron",
+     "2 tbsp olive oil",
+     "1.5 l water, salt, pepper, bay leaf",
+     "8 toasted bread rounds and 4 tbsp rouille, to serve"
+    ],
+    "steps": [
+     "Soften the onion, fennel and garlic in the oil for 8 minutes.",
+     "Add the tomatoes and fish and cook 5 minutes, stirring.",
+     "Add the water, saffron, bay and salt and simmer 30 minutes.",
+     "Blend and push through a sieve, pressing well; reheat and season.",
+     "Serve with toasts spread with rouille."
+    ]
+   },
+   "tips": [
+    "Have one rouille toast instead of two — the rouille is the richest part.",
+    "Use less oil to soften the vegetables.",
+    "Add extra fennel and tomato to make the bowl larger without much fat."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Soupe de Poisson",
-      "origin": "France · Provence",
-      "intro": "Soupe de poisson is the Provençal fish soup: mixed fish are simmered with tomato, fennel, garlic and saffron, then blended and strained into a smooth, deep orange broth with a strong taste of the sea. It is served with toasted bread rounds spread with rouille, a garlicky saffron sauce, which are floated in the hot soup.",
-      "history": "The soup belongs to the fishing ports of Provence, especially Marseille, and is often said to have begun as a way for fishermen to use small, bony fish they could not sell. It is a simpler, blended cousin of bouillabaisse and remains a staple of restaurants along the Mediterranean coast of France.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 kg mixed white fish and fish heads/bones, cleaned",
-          "1 fennel bulb, sliced",
-          "1 onion and 4 garlic cloves, chopped",
-          "4 tomatoes, chopped",
-          "Pinch of saffron",
-          "2 tbsp olive oil",
-          "1.5 l water, salt, pepper, bay leaf",
-          "8 toasted bread rounds and 4 tbsp rouille, to serve"
-        ],
-        "steps": [
-          "Soften the onion, fennel and garlic in the oil for 8 minutes.",
-          "Add the tomatoes and fish and cook 5 minutes, stirring.",
-          "Add the water, saffron, bay and salt and simmer 30 minutes.",
-          "Blend and push through a sieve, pressing well; reheat and season.",
-          "Serve with toasts spread with rouille."
-        ]
-      },
-      "tips": [
-        "Have one rouille toast instead of two — the rouille is the richest part.",
-        "Use less oil to soften the vegetables.",
-        "Add extra fennel and tomato to make the bowl larger without much fat."
-      ]
-    },
-    "ar": {
-      "name": "حساء السمك البروفنسالي",
-      "origin": "فرنسا · بروفانس",
-      "intro": "حساء السمك البروفنسالي يُطهى فيه سمك متنوع مع الطماطم والشمر والثوم والزعفران، ثم يُخلط ويُصفّى ليصبح مرقاً ناعماً برتقالياً داكناً بطعم بحري قوي. يُقدَّم مع أقراص خبز محمّص مدهونة بصلصة الروي بالثوم والزعفران، تُطفى فوق الحساء الساخن.",
-      "history": "ينتمي الحساء إلى موانئ الصيد في بروفانس ولا سيما مرسيليا، ويُقال كثيراً إنه نشأ وسيلةً يستفيد بها الصيادون من الأسماك الصغيرة كثيرة الشوك التي لا تُباع. وهو قريبٌ أبسط للبويابيس يُهرس ويُصفّى، ولا يزال طبقاً ثابتاً في مطاعم الساحل الفرنسي على المتوسط.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 كغ سمك أبيض متنوع مع رؤوس وعظام منظّفة",
-          "1 رأس شمر مقطّع",
-          "1 بصلة و4 فصوص ثوم مفرومة",
-          "4 حبات طماطم مفرومة",
-          "رشة زعفران",
-          "2 ملعقة كبيرة زيت زيتون",
-          "1.5 لتر ماء، ملح، فلفل، ورقة غار",
-          "8 أقراص خبز محمّص و4 ملاعق كبيرة صلصة روي للتقديم"
-        ],
-        "steps": [
-          "قلّب البصل والشمر والثوم في الزيت 8 دقائق حتى تذبل.",
-          "أضف الطماطم والسمك واطهها 5 دقائق مع التحريك.",
-          "أضف الماء والزعفران والغار والملح واتركه يغلي بهدوء 30 دقيقة.",
-          "اخلطه ومرّره في مصفاة مع الضغط جيداً، ثم سخّنه وتبّل.",
-          "قدّمه مع الخبز المحمّص المدهون بالروي."
-        ]
-      },
-      "tips": [
-        "اكتفِ بقرص خبز واحد بالروي بدلاً من اثنين، فالروي أغنى جزء.",
-        "استخدم زيتاً أقل لتليين الخضار.",
-        "زد الشمر والطماطم لتكبر الحصة دون دهون تُذكر."
-      ]
-    },
-    "it": {
-      "name": "Soupe de poisson",
-      "origin": "Francia · Provenza",
-      "intro": "La soupe de poisson è la zuppa di pesce provenzale: pesci misti cotti a fuoco lento con pomodoro, finocchio, aglio e zafferano, poi frullati e passati fino a ottenere un brodo liscio, di un arancione intenso e dal forte sapore di mare. Si serve con crostini di pane spalmati di rouille, una salsa all'aglio e zafferano, che si fanno galleggiare nella zuppa calda.",
-      "history": "La zuppa appartiene ai porti di pescatori della Provenza, soprattutto Marsiglia, e si dice spesso che sia nata come modo per i pescatori di usare i pesci piccoli e pieni di lische che non riuscivano a vendere. È una cugina più semplice e frullata della bouillabaisse e resta un piatto fisso dei ristoranti lungo la costa mediterranea francese.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 kg di pesce bianco misto e teste/lische di pesce, puliti",
-          "1 finocchio affettato",
-          "1 cipolla e 4 spicchi d'aglio, tritati",
-          "4 pomodori tritati",
-          "Un pizzico di zafferano",
-          "2 cucchiai di olio d'oliva",
-          "1,5 l di acqua, sale, pepe, alloro",
-          "8 crostini di pane e 4 cucchiai di rouille, per servire"
-        ],
-        "steps": [
-          "Fai appassire la cipolla, il finocchio e l'aglio nell'olio per 8 minuti.",
-          "Aggiungi i pomodori e il pesce e cuoci 5 minuti, mescolando.",
-          "Aggiungi l'acqua, lo zafferano, l'alloro e il sale e cuoci a fuoco lento 30 minuti.",
-          "Frulla e passa al setaccio premendo bene; riscalda e regola di sale e pepe.",
-          "Servi con i crostini spalmati di rouille."
-        ]
-      },
-      "tips": [
-        "Prendi un crostino con la rouille invece di due: la rouille è la parte più ricca.",
-        "Usa meno olio per far appassire le verdure.",
-        "Aggiungi più finocchio e pomodoro per una ciotola più abbondante senza molti grassi."
-      ]
-    },
-    "el": {
-      "name": "Ψαρόσουπα της Προβηγκίας",
-      "name_inline": "ψαρόσουπα της Προβηγκίας",
-      "origin": "Γαλλία · Προβηγκία",
-      "intro": "Η soupe de poisson είναι η προβηγκιανή ψαρόσουπα: ανάμεικτα ψάρια σιγοβράζουν με ντομάτα, μάραθο, σκόρδο και σαφράν και μετά πολτοποιούνται και περνιούνται από σίτα σε έναν λείο, βαθύ πορτοκαλί ζωμό με έντονη γεύση θάλασσας. Σερβίρεται με στρογγυλές φρυγανισμένες φέτες ψωμιού αλειμμένες με ρουί, μια σκορδάτη σάλτσα με σαφράν, που αφήνονται να επιπλέουν στην καυτή σούπα.",
-      "history": "Η σούπα ανήκει στα ψαράδικα λιμάνια της Προβηγκίας, ιδίως της Μασσαλίας, και συχνά λέγεται ότι ξεκίνησε ως τρόπος για τους ψαράδες να αξιοποιούν μικρά, γεμάτα κόκαλα ψάρια που δεν μπορούσαν να πουλήσουν. Είναι ένα απλούστερο, πολτοποιημένο ξαδερφάκι της μπουγιαμπέσας και παραμένει βασικό πιάτο των εστιατορίων κατά μήκος της μεσογειακής ακτής της Γαλλίας.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 κιλό ανάμεικτα λευκά ψάρια και κεφάλια/κόκαλα ψαριών, καθαρισμένα",
-          "1 βολβός μάραθου, σε φέτες",
-          "1 κρεμμύδι και 4 σκελίδες σκόρδο, ψιλοκομμένα",
-          "4 ντομάτες, ψιλοκομμένες",
-          "Μια πρέζα σαφράν",
-          "2 κ.σ. ελαιόλαδο",
-          "1,5 λίτρο νερό, αλάτι, πιπέρι, φύλλο δάφνης",
-          "8 στρογγυλές φρυγανισμένες φέτες ψωμιού και 4 κ.σ. ρουί, για το σερβίρισμα"
-        ],
-        "steps": [
-          "Μαλακώστε το κρεμμύδι, τον μάραθο και το σκόρδο στο λάδι για 8 λεπτά.",
-          "Προσθέστε τις ντομάτες και τα ψάρια και μαγειρέψτε 5 λεπτά, ανακατεύοντας.",
-          "Προσθέστε το νερό, το σαφράν, τη δάφνη και αλάτι και σιγοβράστε 30 λεπτά.",
-          "Πολτοποιήστε και περάστε από σίτα, πιέζοντας καλά· ξαναζεστάνετε και αλατοπιπερώστε.",
-          "Σερβίρετε με τις φρυγανιές αλειμμένες με ρουί."
-        ]
-      },
-      "tips": [
-        "Φάτε μία φρυγανιά με ρουί αντί για δύο: η ρουί είναι το πιο πλούσιο μέρος.",
-        "Χρησιμοποιήστε λιγότερο λάδι για να μαλακώσετε τα λαχανικά.",
-        "Προσθέστε επιπλέον μάραθο και ντομάτα για μεγαλύτερο μπολ χωρίς πολλά λιπαρά."
-      ]
-    },
-    "ru": {
-      "name": "Рыбный суп (суп де пуассон)",
-      "origin": "Франция · Прованс",
-      "intro": "Суп де пуассон — провансальский рыбный суп: разную рыбу варят с помидорами, фенхелем, чесноком и шафраном, затем взбивают блендером и процеживают до гладкого насыщенного оранжевого бульона с ярким вкусом моря. Его подают с подсушенными кружочками хлеба, намазанными руем — чесночным шафрановым соусом, которые кладут плавать в горячий суп.",
-      "history": "Суп принадлежит рыбацким портам Прованса, особенно Марселю, и, как часто говорят, возник как способ рыбаков использовать мелкую костлявую рыбу, которую нельзя было продать. Это более простой взбитый родственник буйабеса, и он остаётся основным блюдом ресторанов на средиземноморском побережье Франции.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 кг разной белой рыбы и рыбных голов/костей, очищенных",
-          "1 луковица фенхеля, нарезанная",
-          "1 луковица и 4 зубчика чеснока, нарубленные",
-          "4 помидора, нарубленных",
-          "Щепотка шафрана",
-          "2 ст. л. оливкового масла",
-          "1,5 л воды, соль, перец, лавровый лист",
-          "8 подсушенных кружочков хлеба и 4 ст. л. руя для подачи"
-        ],
-        "steps": [
-          "Обжаривайте лук, фенхель и чеснок в масле 8 минут до мягкости.",
-          "Добавьте помидоры и рыбу и готовьте 5 минут, помешивая.",
-          "Добавьте воду, шафран, лавровый лист и соль и варите 30 минут.",
-          "Взбейте блендером и протрите через сито, хорошо отжимая; снова разогрейте и добавьте приправы.",
-          "Подавайте с тостами, намазанными руем."
-        ]
-      },
-      "tips": [
-        "Возьмите один тост с руем вместо двух: руй — самая жирная часть.",
-        "Используйте меньше масла для обжаривания овощей.",
-        "Добавьте побольше фенхеля и помидоров, чтобы тарелка стала больше почти без жира."
-      ],
-      "name_inline": "рыбный суп"
-    }
+  "ar": {
+   "name": "حساء السمك البروفنسالي",
+   "origin": "فرنسا · بروفانس",
+   "intro": "حساء السمك البروفنسالي يُطهى فيه سمك متنوع مع الطماطم والشمر والثوم والزعفران، ثم يُخلط ويُصفّى ليصبح مرقاً ناعماً برتقالياً داكناً بطعم بحري قوي. يُقدَّم مع أقراص خبز محمّص مدهونة بصلصة الروي بالثوم والزعفران، تُطفى فوق الحساء الساخن.",
+   "history": "ينتمي الحساء إلى موانئ الصيد في بروفانس ولا سيما مرسيليا، ويُقال كثيراً إنه نشأ وسيلةً يستفيد بها الصيادون من الأسماك الصغيرة كثيرة الشوك التي لا تُباع. وهو قريبٌ أبسط للبويابيس يُهرس ويُصفّى، ولا يزال طبقاً ثابتاً في مطاعم الساحل الفرنسي على المتوسط.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 كغ سمك أبيض متنوع مع رؤوس وعظام منظّفة",
+     "1 رأس شمر مقطّع",
+     "1 بصلة و4 فصوص ثوم مفرومة",
+     "4 حبات طماطم مفرومة",
+     "رشة زعفران",
+     "2 ملعقة كبيرة زيت زيتون",
+     "1.5 لتر ماء، ملح، فلفل، ورقة غار",
+     "8 أقراص خبز محمّص و4 ملاعق كبيرة صلصة روي للتقديم"
+    ],
+    "steps": [
+     "قلّب البصل والشمر والثوم في الزيت 8 دقائق حتى تذبل.",
+     "أضف الطماطم والسمك واطهها 5 دقائق مع التحريك.",
+     "أضف الماء والزعفران والغار والملح واتركه يغلي بهدوء 30 دقيقة.",
+     "اخلطه ومرّره في مصفاة مع الضغط جيداً، ثم سخّنه وتبّل.",
+     "قدّمه مع الخبز المحمّص المدهون بالروي."
+    ]
+   },
+   "tips": [
+    "اكتفِ بقرص خبز واحد بالروي بدلاً من اثنين، فالروي أغنى جزء.",
+    "استخدم زيتاً أقل لتليين الخضار.",
+    "زد الشمر والطماطم لتكبر الحصة دون دهون تُذكر."
+   ]
+  },
+  "it": {
+   "name": "Soupe de poisson",
+   "origin": "Francia · Provenza",
+   "intro": "La soupe de poisson è la zuppa di pesce provenzale: pesci misti cotti a fuoco lento con pomodoro, finocchio, aglio e zafferano, poi frullati e passati fino a ottenere un brodo liscio, di un arancione intenso e dal forte sapore di mare. Si serve con crostini di pane spalmati di rouille, una salsa all'aglio e zafferano, che si fanno galleggiare nella zuppa calda.",
+   "history": "La zuppa appartiene ai porti di pescatori della Provenza, soprattutto Marsiglia, e si dice spesso che sia nata come modo per i pescatori di usare i pesci piccoli e pieni di lische che non riuscivano a vendere. È una cugina più semplice e frullata della bouillabaisse e resta un piatto fisso dei ristoranti lungo la costa mediterranea francese.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 kg di pesce bianco misto e teste/lische di pesce, puliti",
+     "1 finocchio affettato",
+     "1 cipolla e 4 spicchi d'aglio, tritati",
+     "4 pomodori tritati",
+     "Un pizzico di zafferano",
+     "2 cucchiai di olio d'oliva",
+     "1,5 l di acqua, sale, pepe, alloro",
+     "8 crostini di pane e 4 cucchiai di rouille, per servire"
+    ],
+    "steps": [
+     "Fai appassire la cipolla, il finocchio e l'aglio nell'olio per 8 minuti.",
+     "Aggiungi i pomodori e il pesce e cuoci 5 minuti, mescolando.",
+     "Aggiungi l'acqua, lo zafferano, l'alloro e il sale e cuoci a fuoco lento 30 minuti.",
+     "Frulla e passa al setaccio premendo bene; riscalda e regola di sale e pepe.",
+     "Servi con i crostini spalmati di rouille."
+    ]
+   },
+   "tips": [
+    "Prendi un crostino con la rouille invece di due: la rouille è la parte più ricca.",
+    "Usa meno olio per far appassire le verdure.",
+    "Aggiungi più finocchio e pomodoro per una ciotola più abbondante senza molti grassi."
+   ]
+  },
+  "el": {
+   "name": "Ψαρόσουπα της Προβηγκίας",
+   "name_inline": "ψαρόσουπα της Προβηγκίας",
+   "origin": "Γαλλία · Προβηγκία",
+   "intro": "Η soupe de poisson είναι η προβηγκιανή ψαρόσουπα: ανάμεικτα ψάρια σιγοβράζουν με ντομάτα, μάραθο, σκόρδο και σαφράν και μετά πολτοποιούνται και περνιούνται από σίτα σε έναν λείο, βαθύ πορτοκαλί ζωμό με έντονη γεύση θάλασσας. Σερβίρεται με στρογγυλές φρυγανισμένες φέτες ψωμιού αλειμμένες με ρουί, μια σκορδάτη σάλτσα με σαφράν, που αφήνονται να επιπλέουν στην καυτή σούπα.",
+   "history": "Η σούπα ανήκει στα ψαράδικα λιμάνια της Προβηγκίας, ιδίως της Μασσαλίας, και συχνά λέγεται ότι ξεκίνησε ως τρόπος για τους ψαράδες να αξιοποιούν μικρά, γεμάτα κόκαλα ψάρια που δεν μπορούσαν να πουλήσουν. Είναι ένα απλούστερο, πολτοποιημένο ξαδερφάκι της μπουγιαμπέσας και παραμένει βασικό πιάτο των εστιατορίων κατά μήκος της μεσογειακής ακτής της Γαλλίας.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 κιλό ανάμεικτα λευκά ψάρια και κεφάλια/κόκαλα ψαριών, καθαρισμένα",
+     "1 βολβός μάραθου, σε φέτες",
+     "1 κρεμμύδι και 4 σκελίδες σκόρδο, ψιλοκομμένα",
+     "4 ντομάτες, ψιλοκομμένες",
+     "Μια πρέζα σαφράν",
+     "2 κ.σ. ελαιόλαδο",
+     "1,5 λίτρο νερό, αλάτι, πιπέρι, φύλλο δάφνης",
+     "8 στρογγυλές φρυγανισμένες φέτες ψωμιού και 4 κ.σ. ρουί, για το σερβίρισμα"
+    ],
+    "steps": [
+     "Μαλακώστε το κρεμμύδι, τον μάραθο και το σκόρδο στο λάδι για 8 λεπτά.",
+     "Προσθέστε τις ντομάτες και τα ψάρια και μαγειρέψτε 5 λεπτά, ανακατεύοντας.",
+     "Προσθέστε το νερό, το σαφράν, τη δάφνη και αλάτι και σιγοβράστε 30 λεπτά.",
+     "Πολτοποιήστε και περάστε από σίτα, πιέζοντας καλά· ξαναζεστάνετε και αλατοπιπερώστε.",
+     "Σερβίρετε με τις φρυγανιές αλειμμένες με ρουί."
+    ]
+   },
+   "tips": [
+    "Φάτε μία φρυγανιά με ρουί αντί για δύο: η ρουί είναι το πιο πλούσιο μέρος.",
+    "Χρησιμοποιήστε λιγότερο λάδι για να μαλακώσετε τα λαχανικά.",
+    "Προσθέστε επιπλέον μάραθο και ντομάτα για μεγαλύτερο μπολ χωρίς πολλά λιπαρά."
+   ]
+  },
+  "ru": {
+   "name": "Рыбный суп (суп де пуассон)",
+   "origin": "Франция · Прованс",
+   "intro": "Суп де пуассон — провансальский рыбный суп: разную рыбу варят с помидорами, фенхелем, чесноком и шафраном, затем взбивают блендером и процеживают до гладкого насыщенного оранжевого бульона с ярким вкусом моря. Его подают с подсушенными кружочками хлеба, намазанными руем — чесночным шафрановым соусом, которые кладут плавать в горячий суп.",
+   "history": "Суп принадлежит рыбацким портам Прованса, особенно Марселю, и, как часто говорят, возник как способ рыбаков использовать мелкую костлявую рыбу, которую нельзя было продать. Это более простой взбитый родственник буйабеса, и он остаётся основным блюдом ресторанов на средиземноморском побережье Франции.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 кг разной белой рыбы и рыбных голов/костей, очищенных",
+     "1 луковица фенхеля, нарезанная",
+     "1 луковица и 4 зубчика чеснока, нарубленные",
+     "4 помидора, нарубленных",
+     "Щепотка шафрана",
+     "2 ст. л. оливкового масла",
+     "1,5 л воды, соль, перец, лавровый лист",
+     "8 подсушенных кружочков хлеба и 4 ст. л. руя для подачи"
+    ],
+    "steps": [
+     "Обжаривайте лук, фенхель и чеснок в масле 8 минут до мягкости.",
+     "Добавьте помидоры и рыбу и готовьте 5 минут, помешивая.",
+     "Добавьте воду, шафран, лавровый лист и соль и варите 30 минут.",
+     "Взбейте блендером и протрите через сито, хорошо отжимая; снова разогрейте и добавьте приправы.",
+     "Подавайте с тостами, намазанными руем."
+    ]
+   },
+   "tips": [
+    "Возьмите один тост с руем вместо двух: руй — самая жирная часть.",
+    "Используйте меньше масла для обжаривания овощей.",
+    "Добавьте побольше фенхеля и помидоров, чтобы тарелка стала больше почти без жира."
+   ],
+   "name_inline": "рыбный суп"
+  },
+  "es": {
+   "name": "Soupe de poisson",
+   "origin": "Francia · Provenza",
+   "intro": "La soupe de poisson es la sopa de pescado provenzal: se cuecen pescados variados con jitomate, hinojo, ajo y azafrán, y luego se licúan y se cuelan hasta lograr un caldo liso, de color naranja intenso y sabor marino profundo. Se sirve con rebanadas de pan tostado untadas con rouille, una salsa de ajo y azafrán, que se dejan flotar en la sopa caliente.",
+   "history": "La sopa pertenece a los puertos pesqueros de Provenza, sobre todo Marsella, y suele decirse que nació como una manera de aprovechar los pescados pequeños y llenos de espinas que los pescadores no podían vender. Es una prima más sencilla y licuada de la bullabesa y sigue siendo un clásico de los restaurantes de la costa mediterránea francesa.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 kg de pescado blanco variado, con cabezas y espinas, limpio",
+     "1 bulbo de hinojo, en rodajas",
+     "1 cebolla y 4 dientes de ajo, picados",
+     "4 jitomates, picados",
+     "1 pizca de azafrán",
+     "2 cda. de aceite de oliva",
+     "1,5 l de agua, sal, pimienta, 1 hoja de laurel",
+     "8 rebanadas de pan tostado y 4 cda. de rouille, para servir"
+    ],
+    "steps": [
+     "Sofríe la cebolla, el hinojo y el ajo en el aceite durante 8 minutos.",
+     "Agrega los jitomates y el pescado y cocina 5 minutos, moviendo.",
+     "Añade el agua, el azafrán, el laurel y la sal y cuece a fuego lento 30 minutos.",
+     "Licúa y pasa por un colador, presionando bien; recalienta y sazona.",
+     "Sirve con las tostadas untadas con rouille."
+    ]
+   },
+   "tips": [
+    "Come una tostada con rouille en lugar de dos: la rouille es lo más calórico.",
+    "Usa menos aceite para sofreír las verduras.",
+    "Agrega más hinojo y jitomate para que el plato rinda más con poca grasa."
+   ],
+   "name_inline": "la soupe de poisson"
   }
+ }
 }

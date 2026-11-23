@@ -1,175 +1,208 @@
 {
-  "db_key": "palatschinken",
-  "slug": "palatschinken",
-  "emoji": "🥞",
-  "portion_g": 150,
-  "country": "AT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "palatschinken",
+ "slug": "palatschinken",
+ "emoji": "🥞",
+ "portion_g": 150,
+ "country": "AT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Palatschinken",
+   "origin": "Austria",
+   "intro": "Palatschinken are thin Austrian crêpes made from a simple egg-and-milk batter, cooked in a hot pan until lightly golden and rolled around a sweet filling. Apricot jam is the classic choice, and they are often finished with chocolate sauce and a spoonful of whipped cream. They are soft, thin and sweet, eaten as a dessert or a sweet main course after soup.",
+   "history": "Palatschinken are part of the shared cuisine of the former Habsburg lands, with close relatives in Hungary (palacsinta), Czechia and the Balkans; the name is usually traced back through Hungarian and Romanian to the Latin placenta, 'flat cake'. They remain a fixture on Austrian menus today.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "120 g wheat flour",
+     "2 eggs",
+     "250 ml milk",
+     "1 pinch salt",
+     "1 tsp vegetable oil for the pan",
+     "120 g apricot jam",
+     "60 ml chocolate sauce",
+     "80 ml whipping cream, whipped"
+    ],
+    "steps": [
+     "Whisk the flour, eggs, milk and salt into a smooth, thin batter and rest for 10 minutes.",
+     "Lightly oil a hot frying pan, pour in a small ladle of batter and swirl to coat the base thinly.",
+     "Cook for about 1 minute per side until lightly golden; repeat to make about 8 crêpes.",
+     "Spread each crêpe with apricot jam and roll or fold it.",
+     "Serve with a drizzle of chocolate sauce and a spoonful of whipped cream."
+    ]
+   },
+   "tips": [
+    "Skip the whipped cream and chocolate sauce and keep just the jam to save a good share of the calories.",
+    "Spread the jam thinly: 1 tbsp jam ≈ 50 kcal.",
+    "Fill with fresh fruit for a lighter, fresher dessert."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Palatschinken",
-      "origin": "Austria",
-      "intro": "Palatschinken are thin Austrian crêpes made from a simple egg-and-milk batter, cooked in a hot pan until lightly golden and rolled around a sweet filling. Apricot jam is the classic choice, and they are often finished with chocolate sauce and a spoonful of whipped cream. They are soft, thin and sweet, eaten as a dessert or a sweet main course after soup.",
-      "history": "Palatschinken are part of the shared cuisine of the former Habsburg lands, with close relatives in Hungary (palacsinta), Czechia and the Balkans; the name is usually traced back through Hungarian and Romanian to the Latin placenta, 'flat cake'. They remain a fixture on Austrian menus today.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "120 g wheat flour",
-          "2 eggs",
-          "250 ml milk",
-          "1 pinch salt",
-          "1 tsp vegetable oil for the pan",
-          "120 g apricot jam",
-          "60 ml chocolate sauce",
-          "80 ml whipping cream, whipped"
-        ],
-        "steps": [
-          "Whisk the flour, eggs, milk and salt into a smooth, thin batter and rest for 10 minutes.",
-          "Lightly oil a hot frying pan, pour in a small ladle of batter and swirl to coat the base thinly.",
-          "Cook for about 1 minute per side until lightly golden; repeat to make about 8 crêpes.",
-          "Spread each crêpe with apricot jam and roll or fold it.",
-          "Serve with a drizzle of chocolate sauce and a spoonful of whipped cream."
-        ]
-      },
-      "tips": [
-        "Skip the whipped cream and chocolate sauce and keep just the jam to save a good share of the calories.",
-        "Spread the jam thinly: 1 tbsp jam ≈ 50 kcal.",
-        "Fill with fresh fruit for a lighter, fresher dessert."
-      ]
-    },
-    "ar": {
-      "name": "بالاتشينكن",
-      "origin": "النمسا",
-      "intro": "البالاتشينكن كريب نمساوي رقيق يُحضَّر من خليط بسيط من البيض والحليب، ويُطهى في مقلاة ساخنة حتى يكتسب لوناً ذهبياً فاتحاً، ثم يُلفّ حول حشوة حلوة. مربى المشمش هو الخيار الكلاسيكي، وغالباً ما يُزيَّن بصلصة الشوكولاتة وملعقة من الكريمة المخفوقة. وهو طري ورقيق وحلو، يؤكل حلوى أو طبقاً رئيسياً حلواً بعد الحساء.",
-      "history": "البالاتشينكن جزء من المطبخ المشترك لأراضي إمبراطورية هابسبورغ السابقة، وله أقارب قريبون في المجر (بالاتشينتا) والتشيك والبلقان؛ ويُرجَع اسمه عادة عبر المجرية والرومانية إلى الكلمة اللاتينية «بلاسنتا» أي «كعكة مسطحة». ولا يزال حاضراً في قوائم الطعام النمساوية اليوم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "120 غ دقيق قمح",
-          "2 بيضة",
-          "250 مل حليب",
-          "رشة ملح",
-          "1 ملعقة صغيرة زيت نباتي للمقلاة",
-          "120 غ مربى مشمش",
-          "60 مل صلصة شوكولاتة",
-          "80 مل كريمة خفق، مخفوقة"
-        ],
-        "steps": [
-          "اخفق الدقيق والبيض والحليب والملح حتى تحصل على خليط ناعم وخفيف، واتركه 10 دقائق.",
-          "ادهن مقلاة ساخنة بقليل من الزيت، وصبّ مغرفة صغيرة من الخليط وحرّك المقلاة لتغطية القاع بطبقة رقيقة.",
-          "اطهُها نحو دقيقة لكل وجه حتى يصبح لونها ذهبياً فاتحاً، وكرّر لتحضير نحو 8 قطع.",
-          "ادهن كل قطعة بمربى المشمش ثم لفّها أو اطوها.",
-          "قدّمها مع رشة صلصة شوكولاتة وملعقة من الكريمة المخفوقة."
-        ]
-      },
-      "tips": [
-        "استغنِ عن الكريمة المخفوقة وصلصة الشوكولاتة واكتفِ بالمربى لتوفير جزء كبير من السعرات.",
-        "ادهن المربى بطبقة رقيقة: ملعقة كبيرة مربى ≈ 50 سعرة.",
-        "احشُها بفاكهة طازجة لحلوى أخف وأكثر انتعاشاً."
-      ]
-    },
-    "it": {
-      "name": "Palatschinken",
-      "origin": "Austria",
-      "intro": "I Palatschinken sono sottili crêpe austriache fatte con una semplice pastella di uova e latte, cotte in una padella rovente finché sono leggermente dorate e arrotolate attorno a un ripieno dolce. La confettura di albicocche è la scelta classica, e spesso si completano con salsa al cioccolato e una cucchiaiata di panna montata. Sono morbide, sottili e dolci, e si mangiano come dessert o come piatto dolce principale dopo la zuppa.",
-      "history": "I Palatschinken fanno parte della cucina comune delle ex terre asburgiche, con stretti parenti in Ungheria (palacsinta), in Cechia e nei Balcani; il nome viene di solito fatto risalire, attraverso l'ungherese e il rumeno, al latino placenta, «focaccia piatta». Restano ancora oggi una presenza fissa nei menu austriaci.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "120 g di farina di frumento",
-          "2 uova",
-          "250 ml di latte",
-          "1 pizzico di sale",
-          "1 cucchiaino di olio vegetale per la padella",
-          "120 g di confettura di albicocche",
-          "60 ml di salsa al cioccolato",
-          "80 ml di panna da montare, montata"
-        ],
-        "steps": [
-          "Sbatti farina, uova, latte e sale fino a ottenere una pastella liscia e fluida e lasciala riposare 10 minuti.",
-          "Ungi leggermente una padella calda, versa un mestolino di pastella e ruota la padella per velarne il fondo.",
-          "Cuoci per circa 1 minuto per lato finché è leggermente dorata; ripeti fino a ottenere circa 8 crêpe.",
-          "Spalma ogni crêpe di confettura di albicocche e arrotolala o piegala.",
-          "Servi con un filo di salsa al cioccolato e una cucchiaiata di panna montata."
-        ]
-      },
-      "tips": [
-        "Salta la panna montata e la salsa al cioccolato e tieni solo la confettura per risparmiare buona parte delle calorie.",
-        "Spalma la confettura in uno strato sottile: 1 cucchiaio di confettura ≈ 50 kcal.",
-        "Farciscile con frutta fresca per un dessert più leggero e fresco."
-      ]
-    },
-    "el": {
-      "name": "Παλατσίνκεν",
-      "origin": "Αυστρία",
-      "intro": "Τα παλατσίνκεν είναι λεπτές αυστριακές κρέπες από απλό χυλό αυγών και γάλακτος, ψημένες σε καυτό τηγάνι μέχρι να χρυσίσουν ελαφρά και τυλιγμένες γύρω από γλυκιά γέμιση. Η μαρμελάδα βερίκοκο είναι η κλασική επιλογή, και συχνά ολοκληρώνονται με σάλτσα σοκολάτας και μια κουταλιά σαντιγί. Είναι μαλακές, λεπτές και γλυκές, και τρώγονται ως επιδόρπιο ή ως γλυκό κυρίως πιάτο μετά από σούπα.",
-      "history": "Τα παλατσίνκεν ανήκουν στην κοινή κουζίνα των πρώην εδαφών των Αψβούργων, με στενούς συγγενείς στην Ουγγαρία (palacsinta), την Τσεχία και τα Βαλκάνια· το όνομα συνήθως ανάγεται, μέσω των ουγγρικών και των ρουμανικών, στο λατινικό placenta, «επίπεδη πίτα». Παραμένουν σταθερή παρουσία στους αυστριακούς καταλόγους μέχρι σήμερα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "120 γρ. αλεύρι σίτου",
-          "2 αυγά",
-          "250 ml γάλα",
-          "1 πρέζα αλάτι",
-          "1 κ.γ. φυτικό λάδι για το τηγάνι",
-          "120 γρ. μαρμελάδα βερίκοκο",
-          "60 ml σάλτσα σοκολάτας",
-          "80 ml κρέμα γάλακτος, χτυπημένη σε σαντιγί"
-        ],
-        "steps": [
-          "Χτυπήστε το αλεύρι, τα αυγά, το γάλα και το αλάτι σε λείο, αραιό χυλό και αφήστε τον 10 λεπτά.",
-          "Λαδώστε ελαφρά ένα καυτό τηγάνι, ρίξτε μια μικρή κουτάλα χυλό και γυρίστε το τηγάνι ώστε να καλυφθεί λεπτά ο πάτος.",
-          "Ψήστε περίπου 1 λεπτό από κάθε πλευρά μέχρι να χρυσίσει ελαφρά· επαναλάβετε ώστε να βγουν περίπου 8 κρέπες.",
-          "Αλείψτε κάθε κρέπα με μαρμελάδα βερίκοκο και τυλίξτε ή διπλώστε τη.",
-          "Σερβίρετε με λίγη σάλτσα σοκολάτας και μια κουταλιά σαντιγί."
-        ]
-      },
-      "tips": [
-        "Παραλείψτε τη σαντιγί και τη σάλτσα σοκολάτας και κρατήστε μόνο τη μαρμελάδα για να γλιτώσετε μεγάλο μέρος των θερμίδων.",
-        "Απλώστε τη μαρμελάδα σε λεπτή στρώση: 1 κ.σ. μαρμελάδα ≈ 50 kcal.",
-        "Γεμίστε τες με φρέσκα φρούτα για ένα πιο ελαφρύ, δροσερό επιδόρπιο."
-      ]
-    },
-    "ru": {
-      "name": "Палачинкен",
-      "origin": "Австрия",
-      "intro": "Палачинкен — тонкие австрийские блинчики из простого теста на яйцах и молоке, испечённые на горячей сковороде до лёгкого золотистого цвета и свёрнутые вокруг сладкой начинки. Классический выбор — абрикосовый джем, и их часто завершают шоколадным соусом и ложкой взбитых сливок. Они мягкие, тонкие и сладкие, их едят как десерт или сладкое основное блюдо после супа.",
-      "history": "Палачинкен — часть общей кухни бывших земель Габсбургов, с близкими родственниками в Венгрии (палачинта), Чехии и на Балканах; название обычно возводят через венгерский и румынский к латинскому placenta — «плоский пирог». Они остаются постоянным пунктом в австрийских меню и сегодня.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "120 г пшеничной муки",
-          "2 яйца",
-          "250 мл молока",
-          "1 щепотка соли",
-          "1 ч. л. растительного масла для сковороды",
-          "120 г абрикосового джема",
-          "60 мл шоколадного соуса",
-          "80 мл жирных сливок, взбитых"
-        ],
-        "steps": [
-          "Взбейте муку, яйца, молоко и соль в гладкое жидкое тесто и дайте отдохнуть 10 минут.",
-          "Слегка смажьте маслом горячую сковороду, влейте небольшой половник теста и покрутите, чтобы тонко покрыть дно.",
-          "Жарьте около 1 минуты с каждой стороны до лёгкого золотистого цвета; повторите, чтобы получилось около 8 блинчиков.",
-          "Намажьте каждый блинчик абрикосовым джемом и сверните или сложите.",
-          "Подавайте с шоколадным соусом и ложкой взбитых сливок."
-        ]
-      },
-      "tips": [
-        "Откажитесь от взбитых сливок и шоколадного соуса и оставьте только джем, чтобы сэкономить значительную часть калорий.",
-        "Намазывайте джем тонким слоем: 1 ст. л. джема ≈ 50 ккал.",
-        "Начиняйте свежими фруктами для более лёгкого и свежего десерта."
-      ],
-      "name_inline": "палачинкен"
-    }
+  "ar": {
+   "name": "بالاتشينكن",
+   "origin": "النمسا",
+   "intro": "البالاتشينكن كريب نمساوي رقيق يُحضَّر من خليط بسيط من البيض والحليب، ويُطهى في مقلاة ساخنة حتى يكتسب لوناً ذهبياً فاتحاً، ثم يُلفّ حول حشوة حلوة. مربى المشمش هو الخيار الكلاسيكي، وغالباً ما يُزيَّن بصلصة الشوكولاتة وملعقة من الكريمة المخفوقة. وهو طري ورقيق وحلو، يؤكل حلوى أو طبقاً رئيسياً حلواً بعد الحساء.",
+   "history": "البالاتشينكن جزء من المطبخ المشترك لأراضي إمبراطورية هابسبورغ السابقة، وله أقارب قريبون في المجر (بالاتشينتا) والتشيك والبلقان؛ ويُرجَع اسمه عادة عبر المجرية والرومانية إلى الكلمة اللاتينية «بلاسنتا» أي «كعكة مسطحة». ولا يزال حاضراً في قوائم الطعام النمساوية اليوم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "120 غ دقيق قمح",
+     "2 بيضة",
+     "250 مل حليب",
+     "رشة ملح",
+     "1 ملعقة صغيرة زيت نباتي للمقلاة",
+     "120 غ مربى مشمش",
+     "60 مل صلصة شوكولاتة",
+     "80 مل كريمة خفق، مخفوقة"
+    ],
+    "steps": [
+     "اخفق الدقيق والبيض والحليب والملح حتى تحصل على خليط ناعم وخفيف، واتركه 10 دقائق.",
+     "ادهن مقلاة ساخنة بقليل من الزيت، وصبّ مغرفة صغيرة من الخليط وحرّك المقلاة لتغطية القاع بطبقة رقيقة.",
+     "اطهُها نحو دقيقة لكل وجه حتى يصبح لونها ذهبياً فاتحاً، وكرّر لتحضير نحو 8 قطع.",
+     "ادهن كل قطعة بمربى المشمش ثم لفّها أو اطوها.",
+     "قدّمها مع رشة صلصة شوكولاتة وملعقة من الكريمة المخفوقة."
+    ]
+   },
+   "tips": [
+    "استغنِ عن الكريمة المخفوقة وصلصة الشوكولاتة واكتفِ بالمربى لتوفير جزء كبير من السعرات.",
+    "ادهن المربى بطبقة رقيقة: ملعقة كبيرة مربى ≈ 50 سعرة.",
+    "احشُها بفاكهة طازجة لحلوى أخف وأكثر انتعاشاً."
+   ]
+  },
+  "it": {
+   "name": "Palatschinken",
+   "origin": "Austria",
+   "intro": "I Palatschinken sono sottili crêpe austriache fatte con una semplice pastella di uova e latte, cotte in una padella rovente finché sono leggermente dorate e arrotolate attorno a un ripieno dolce. La confettura di albicocche è la scelta classica, e spesso si completano con salsa al cioccolato e una cucchiaiata di panna montata. Sono morbide, sottili e dolci, e si mangiano come dessert o come piatto dolce principale dopo la zuppa.",
+   "history": "I Palatschinken fanno parte della cucina comune delle ex terre asburgiche, con stretti parenti in Ungheria (palacsinta), in Cechia e nei Balcani; il nome viene di solito fatto risalire, attraverso l'ungherese e il rumeno, al latino placenta, «focaccia piatta». Restano ancora oggi una presenza fissa nei menu austriaci.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "120 g di farina di frumento",
+     "2 uova",
+     "250 ml di latte",
+     "1 pizzico di sale",
+     "1 cucchiaino di olio vegetale per la padella",
+     "120 g di confettura di albicocche",
+     "60 ml di salsa al cioccolato",
+     "80 ml di panna da montare, montata"
+    ],
+    "steps": [
+     "Sbatti farina, uova, latte e sale fino a ottenere una pastella liscia e fluida e lasciala riposare 10 minuti.",
+     "Ungi leggermente una padella calda, versa un mestolino di pastella e ruota la padella per velarne il fondo.",
+     "Cuoci per circa 1 minuto per lato finché è leggermente dorata; ripeti fino a ottenere circa 8 crêpe.",
+     "Spalma ogni crêpe di confettura di albicocche e arrotolala o piegala.",
+     "Servi con un filo di salsa al cioccolato e una cucchiaiata di panna montata."
+    ]
+   },
+   "tips": [
+    "Salta la panna montata e la salsa al cioccolato e tieni solo la confettura per risparmiare buona parte delle calorie.",
+    "Spalma la confettura in uno strato sottile: 1 cucchiaio di confettura ≈ 50 kcal.",
+    "Farciscile con frutta fresca per un dessert più leggero e fresco."
+   ]
+  },
+  "el": {
+   "name": "Παλατσίνκεν",
+   "origin": "Αυστρία",
+   "intro": "Τα παλατσίνκεν είναι λεπτές αυστριακές κρέπες από απλό χυλό αυγών και γάλακτος, ψημένες σε καυτό τηγάνι μέχρι να χρυσίσουν ελαφρά και τυλιγμένες γύρω από γλυκιά γέμιση. Η μαρμελάδα βερίκοκο είναι η κλασική επιλογή, και συχνά ολοκληρώνονται με σάλτσα σοκολάτας και μια κουταλιά σαντιγί. Είναι μαλακές, λεπτές και γλυκές, και τρώγονται ως επιδόρπιο ή ως γλυκό κυρίως πιάτο μετά από σούπα.",
+   "history": "Τα παλατσίνκεν ανήκουν στην κοινή κουζίνα των πρώην εδαφών των Αψβούργων, με στενούς συγγενείς στην Ουγγαρία (palacsinta), την Τσεχία και τα Βαλκάνια· το όνομα συνήθως ανάγεται, μέσω των ουγγρικών και των ρουμανικών, στο λατινικό placenta, «επίπεδη πίτα». Παραμένουν σταθερή παρουσία στους αυστριακούς καταλόγους μέχρι σήμερα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "120 γρ. αλεύρι σίτου",
+     "2 αυγά",
+     "250 ml γάλα",
+     "1 πρέζα αλάτι",
+     "1 κ.γ. φυτικό λάδι για το τηγάνι",
+     "120 γρ. μαρμελάδα βερίκοκο",
+     "60 ml σάλτσα σοκολάτας",
+     "80 ml κρέμα γάλακτος, χτυπημένη σε σαντιγί"
+    ],
+    "steps": [
+     "Χτυπήστε το αλεύρι, τα αυγά, το γάλα και το αλάτι σε λείο, αραιό χυλό και αφήστε τον 10 λεπτά.",
+     "Λαδώστε ελαφρά ένα καυτό τηγάνι, ρίξτε μια μικρή κουτάλα χυλό και γυρίστε το τηγάνι ώστε να καλυφθεί λεπτά ο πάτος.",
+     "Ψήστε περίπου 1 λεπτό από κάθε πλευρά μέχρι να χρυσίσει ελαφρά· επαναλάβετε ώστε να βγουν περίπου 8 κρέπες.",
+     "Αλείψτε κάθε κρέπα με μαρμελάδα βερίκοκο και τυλίξτε ή διπλώστε τη.",
+     "Σερβίρετε με λίγη σάλτσα σοκολάτας και μια κουταλιά σαντιγί."
+    ]
+   },
+   "tips": [
+    "Παραλείψτε τη σαντιγί και τη σάλτσα σοκολάτας και κρατήστε μόνο τη μαρμελάδα για να γλιτώσετε μεγάλο μέρος των θερμίδων.",
+    "Απλώστε τη μαρμελάδα σε λεπτή στρώση: 1 κ.σ. μαρμελάδα ≈ 50 kcal.",
+    "Γεμίστε τες με φρέσκα φρούτα για ένα πιο ελαφρύ, δροσερό επιδόρπιο."
+   ]
+  },
+  "ru": {
+   "name": "Палачинкен",
+   "origin": "Австрия",
+   "intro": "Палачинкен — тонкие австрийские блинчики из простого теста на яйцах и молоке, испечённые на горячей сковороде до лёгкого золотистого цвета и свёрнутые вокруг сладкой начинки. Классический выбор — абрикосовый джем, и их часто завершают шоколадным соусом и ложкой взбитых сливок. Они мягкие, тонкие и сладкие, их едят как десерт или сладкое основное блюдо после супа.",
+   "history": "Палачинкен — часть общей кухни бывших земель Габсбургов, с близкими родственниками в Венгрии (палачинта), Чехии и на Балканах; название обычно возводят через венгерский и румынский к латинскому placenta — «плоский пирог». Они остаются постоянным пунктом в австрийских меню и сегодня.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "120 г пшеничной муки",
+     "2 яйца",
+     "250 мл молока",
+     "1 щепотка соли",
+     "1 ч. л. растительного масла для сковороды",
+     "120 г абрикосового джема",
+     "60 мл шоколадного соуса",
+     "80 мл жирных сливок, взбитых"
+    ],
+    "steps": [
+     "Взбейте муку, яйца, молоко и соль в гладкое жидкое тесто и дайте отдохнуть 10 минут.",
+     "Слегка смажьте маслом горячую сковороду, влейте небольшой половник теста и покрутите, чтобы тонко покрыть дно.",
+     "Жарьте около 1 минуты с каждой стороны до лёгкого золотистого цвета; повторите, чтобы получилось около 8 блинчиков.",
+     "Намажьте каждый блинчик абрикосовым джемом и сверните или сложите.",
+     "Подавайте с шоколадным соусом и ложкой взбитых сливок."
+    ]
+   },
+   "tips": [
+    "Откажитесь от взбитых сливок и шоколадного соуса и оставьте только джем, чтобы сэкономить значительную часть калорий.",
+    "Намазывайте джем тонким слоем: 1 ст. л. джема ≈ 50 ккал.",
+    "Начиняйте свежими фруктами для более лёгкого и свежего десерта."
+   ],
+   "name_inline": "палачинкен"
+  },
+  "es": {
+   "name": "Palatschinken",
+   "origin": "Austria",
+   "intro": "Los palatschinken son crepas austriacas finas, hechas con una masa sencilla de huevo y leche, cocidas en una sartén caliente hasta que quedan ligeramente doradas y enrolladas alrededor de un relleno dulce. La mermelada de chabacano es la opción clásica, y a menudo se terminan con salsa de chocolate y una cucharada de crema batida. Son suaves, delgadas y dulces, y se comen como postre o como plato fuerte dulce después de una sopa.",
+   "history": "Los palatschinken forman parte de la cocina compartida de las antiguas tierras de los Habsburgo, con parientes cercanos en Hungría (palacsinta), Chequia y los Balcanes; el nombre suele rastrearse, a través del húngaro y el rumano, hasta el latín placenta, «torta plana». Siguen siendo un clásico de los menús austriacos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "120 g de harina de trigo",
+     "2 huevos",
+     "250 ml de leche",
+     "1 pizca de sal",
+     "1 cdta. de aceite vegetal para la sartén",
+     "120 g de mermelada de chabacano",
+     "60 ml de salsa de chocolate",
+     "80 ml de crema para batir, batida"
+    ],
+    "steps": [
+     "Bate la harina, los huevos, la leche y la sal hasta obtener una masa lisa y fina, y déjala reposar 10 minutos.",
+     "Engrasa ligeramente una sartén caliente, vierte un cucharón pequeño de masa y gira la sartén para cubrir la base con una capa fina.",
+     "Cocina cerca de 1 minuto por lado, hasta que estén ligeramente doradas; repite para hacer unas 8 crepas.",
+     "Unta cada crepa con mermelada de chabacano y enróllala o dóblala.",
+     "Sirve con un chorrito de salsa de chocolate y una cucharada de crema batida."
+    ]
+   },
+   "tips": [
+    "Omite la crema batida y la salsa de chocolate y deja solo la mermelada para ahorrar buena parte de las calorías.",
+    "Unta la mermelada en capa fina: 1 cda. de mermelada ≈ 50 kcal.",
+    "Rellena con fruta fresca para un postre más ligero y fresco."
+   ],
+   "name_inline": "los palatschinken"
   }
+ }
 }

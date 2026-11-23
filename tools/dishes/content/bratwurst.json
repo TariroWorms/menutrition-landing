@@ -1,150 +1,178 @@
 {
-  "db_key": "bratwurst",
-  "slug": "bratwurst",
-  "emoji": "🌭",
-  "portion_g": 200,
-  "country": "DE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bratwurst",
+ "slug": "bratwurst",
+ "emoji": "🌭",
+ "portion_g": 200,
+ "country": "DE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bratwurst",
+   "origin": "Germany · Thuringia and Franconia",
+   "intro": "Bratwurst is a German pork sausage, finely ground and seasoned with spices such as marjoram, nutmeg and caraway, then grilled until the skin snaps and browns. It is classic street food: served hot in a crusty bread roll with a stripe of mustard. At home it is also eaten on a plate with bread, mustard and sauerkraut or potato salad.",
+   "history": "Bratwurst has been made in German-speaking lands for centuries, and the Thuringian bratwurst is often cited as one of the oldest documented sausages, with a record from the early 15th century. The first part of the word is usually explained as old German for “finely chopped meat”. Thuringia and Nuremberg have protected regional styles, and many other towns, such as Coburg, keep their own recipes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "4 fresh pork bratwurst (about 120 g each)",
+     "4 crusty bread rolls",
+     "4 tbsp medium-hot mustard",
+     "1 tsp vegetable oil"
+    ],
+    "steps": [
+     "Heat a grill or grill pan to medium heat and brush the sausages lightly with oil.",
+     "Grill for 12–15 minutes, turning often, until browned all over and cooked through (75 °C inside).",
+     "Warm the rolls on the edge of the grill for the last minute.",
+     "Put each sausage in a roll and add mustard to taste."
+    ]
+   },
+   "tips": [
+    "Mustard is very low in calories, so it is the best sauce to use generously.",
+    "Grill over medium heat on a rack so fat drips away, and avoid piercing the skin until the end.",
+    "Eat one sausage with a large cabbage or cucumber salad instead of fries or a second roll."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bratwurst",
-      "origin": "Germany · Thuringia and Franconia",
-      "intro": "Bratwurst is a German pork sausage, finely ground and seasoned with spices such as marjoram, nutmeg and caraway, then grilled until the skin snaps and browns. It is classic street food: served hot in a crusty bread roll with a stripe of mustard. At home it is also eaten on a plate with bread, mustard and sauerkraut or potato salad.",
-      "history": "Bratwurst has been made in German-speaking lands for centuries, and the Thuringian bratwurst is often cited as one of the oldest documented sausages, with a record from the early 15th century. The first part of the word is usually explained as old German for “finely chopped meat”. Thuringia and Nuremberg have protected regional styles, and many other towns, such as Coburg, keep their own recipes.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "4 fresh pork bratwurst (about 120 g each)",
-          "4 crusty bread rolls",
-          "4 tbsp medium-hot mustard",
-          "1 tsp vegetable oil"
-        ],
-        "steps": [
-          "Heat a grill or grill pan to medium heat and brush the sausages lightly with oil.",
-          "Grill for 12–15 minutes, turning often, until browned all over and cooked through (75 °C inside).",
-          "Warm the rolls on the edge of the grill for the last minute.",
-          "Put each sausage in a roll and add mustard to taste."
-        ]
-      },
-      "tips": [
-        "Mustard is very low in calories, so it is the best sauce to use generously.",
-        "Grill over medium heat on a rack so fat drips away, and avoid piercing the skin until the end.",
-        "Eat one sausage with a large cabbage or cucumber salad instead of fries or a second roll."
-      ]
-    },
-    "ar": {
-      "name": "براتفورست",
-      "origin": "ألمانيا · تورينغن وفرانكونيا",
-      "intro": "البراتفورست نقانق ألمانية من لحم الخنزير المفروم ناعماً، تُتبَّل بتوابل مثل المردقوش وجوزة الطيب والكراوية، ثم تُشوى حتى يتحمر جلدها ويصبح مقرمشاً. وهي من أشهر أطعمة الشارع: تُقدَّم ساخنة في خبزة مقرمشة مع خط من الخردل. وفي البيوت تؤكل أيضاً في طبق مع الخبز والخردل والملفوف المخلل أو سلطة البطاطا.",
-      "history": "تُصنع البراتفورست في البلدان الناطقة بالألمانية منذ قرون، وكثيراً ما يُذكر أن نقانق تورينغن من أقدم النقانق الموثقة، إذ يعود أقدم ذكر لها إلى أوائل القرن الخامس عشر. ويُفسَّر الجزء الأول من اسمها عادةً بأنه كلمة ألمانية قديمة تعني «اللحم المفروم ناعماً». ولتورينغن ونورنبيرغ أسلوبان إقليميان محميان، كما تحتفظ مدن أخرى كثيرة، مثل كوبورغ، بوصفاتها الخاصة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "4 نقانق براتفورست طازجة من لحم الخنزير (نحو 120 غ لكل منها)",
-          "4 خبزات مقرمشة",
-          "4 ملاعق كبيرة خردل متوسط الحرارة",
-          "1 ملعقة صغيرة زيت نباتي"
-        ],
-        "steps": [
-          "سخّن الشواية أو مقلاة الشواء على نار متوسطة وادهن النقانق بقليل من الزيت.",
-          "اشوها 12–15 دقيقة مع التقليب المتكرر حتى تتحمر من كل الجهات وتنضج تماماً (75 °م في الداخل).",
-          "دفّئ الخبز على طرف الشواية في الدقيقة الأخيرة.",
-          "ضع كل نقانق في خبزة وأضف الخردل حسب الرغبة."
-        ]
-      },
-      "tips": [
-        "الخردل قليل السعرات جداً، لذا فهو أفضل صلصة يمكن الإكثار منها.",
-        "اشوِ على نار متوسطة فوق شبكة كي يسيل الدهن، ولا تثقب الجلد حتى النهاية.",
-        "تناول نقانق واحدة مع سلطة ملفوف أو خيار كبيرة بدل البطاطا المقلية أو خبزة ثانية."
-      ]
-    },
-    "it": {
-      "name": "Bratwurst",
-      "origin": "Germania · Turingia e Franconia",
-      "intro": "La bratwurst è una salsiccia tedesca di maiale, macinata fine e insaporita con spezie come maggiorana, noce moscata e cumino dei prati, poi grigliata finché la pelle diventa scoppiettante e dorata. È un classico cibo di strada: si serve calda in un panino croccante con una striscia di senape. A casa si mangia anche nel piatto con pane, senape e crauti o insalata di patate.",
-      "history": "La bratwurst si prepara da secoli nei paesi di lingua tedesca, e quella della Turingia è spesso citata come una delle salsicce documentate più antiche, con una testimonianza dei primi del XV secolo. La prima parte della parola viene di solito spiegata come tedesco antico per «carne tritata fine». La Turingia e Norimberga hanno stili regionali tutelati, e molte altre città, come Coburgo, conservano le proprie ricette.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "4 bratwurst fresche di maiale (circa 120 g l'una)",
-          "4 panini croccanti",
-          "4 cucchiai di senape mediamente piccante",
-          "1 cucchiaino di olio vegetale"
-        ],
-        "steps": [
-          "Scalda la griglia o la bistecchiera a fuoco medio e spennella leggermente le salsicce con l'olio.",
-          "Grigliale per 12–15 minuti girandole spesso, finché sono dorate su tutti i lati e cotte all'interno (75 °C al cuore).",
-          "Scalda i panini sul bordo della griglia nell'ultimo minuto.",
-          "Metti ogni salsiccia in un panino e aggiungi senape a piacere."
-        ]
-      },
-      "tips": [
-        "La senape ha pochissime calorie, quindi è la salsa migliore da usare in abbondanza.",
-        "Griglia a fuoco medio su una griglia, così il grasso cola via, ed evita di bucare la pelle fino alla fine.",
-        "Mangia una salsiccia con una grande insalata di cavolo o di cetrioli invece delle patatine o di un secondo panino."
-      ]
-    },
-    "el": {
-      "name": "Μπράτβουρστ",
-      "origin": "Γερμανία · Θουριγγία και Φραγκονία",
-      "intro": "Το μπράτβουρστ είναι γερμανικό χοιρινό λουκάνικο, ψιλοαλεσμένο και αρωματισμένο με μπαχαρικά όπως μαντζουράνα, μοσχοκάρυδο και κύμινο αγρού (κάρβι), που ψήνεται στη σχάρα μέχρι η πέτσα να σκάσει και να ροδίσει. Είναι κλασικό street food: σερβίρεται ζεστό σε τραγανό ψωμάκι με μια γραμμή μουστάρδα. Στο σπίτι τρώγεται και στο πιάτο με ψωμί, μουστάρδα και ξινολάχανο ή πατατοσαλάτα.",
-      "history": "Το μπράτβουρστ φτιάχνεται εδώ και αιώνες στις γερμανόφωνες χώρες, και το λουκάνικο της Θουριγγίας αναφέρεται συχνά ως ένα από τα παλαιότερα τεκμηριωμένα λουκάνικα, με καταγραφή από τις αρχές του 15ου αιώνα. Το πρώτο μέρος της λέξης εξηγείται συνήθως ως παλαιά γερμανική λέξη για το «ψιλοκομμένο κρέας». Η Θουριγγία και η Νυρεμβέργη έχουν προστατευμένες τοπικές εκδοχές, και πολλές άλλες πόλεις, όπως το Κόμπουργκ, διατηρούν τις δικές τους συνταγές.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "4 φρέσκα χοιρινά μπράτβουρστ (περίπου 120 γρ. το καθένα)",
-          "4 τραγανά ψωμάκια",
-          "4 κ.σ. μέτρια καυτερή μουστάρδα",
-          "1 κ.γ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Ζεστάνετε τη σχάρα ή τη γκριλιέρα σε μέτρια φωτιά και αλείψτε ελαφρά τα λουκάνικα με λάδι.",
-          "Ψήστε για 12–15 λεπτά, γυρίζοντάς τα συχνά, μέχρι να ροδίσουν παντού και να ψηθούν καλά (75 °C στο εσωτερικό).",
-          "Ζεστάνετε τα ψωμάκια στην άκρη της σχάρας το τελευταίο λεπτό.",
-          "Βάλτε κάθε λουκάνικο σε ένα ψωμάκι και προσθέστε μουστάρδα κατά βούληση."
-        ]
-      },
-      "tips": [
-        "Η μουστάρδα έχει ελάχιστες θερμίδες, οπότε είναι η καλύτερη σάλτσα για να τη βάλετε γενναιόδωρα.",
-        "Ψήστε σε μέτρια φωτιά πάνω σε σχάρα ώστε να στραγγίζει το λίπος, και μην τρυπάτε την πέτσα μέχρι το τέλος.",
-        "Φάτε ένα λουκάνικο με μια μεγάλη σαλάτα λάχανο ή αγγούρι αντί για τηγανητές πατάτες ή δεύτερο ψωμάκι."
-      ]
-    },
-    "ru": {
-      "name": "Братвурст",
-      "origin": "Германия · Тюрингия и Франкония",
-      "intro": "Братвурст — немецкая свиная колбаска мелкого помола, приправленная такими специями, как майоран, мускатный орех и тмин, которую жарят на гриле, пока оболочка не захрустит и не подрумянится. Это классическая уличная еда: её подают горячей в хрустящей булочке с полоской горчицы. Дома её также едят на тарелке с хлебом, горчицей и квашеной капустой или картофельным салатом.",
-      "history": "Братвурст делают в немецкоязычных землях веками, а тюрингский братвурст часто называют одной из старейших документально подтверждённых колбас — запись о ней относится к началу XV века. Первую часть слова обычно объясняют как древненемецкое «мелко нарубленное мясо». У Тюрингии и Нюрнберга есть защищённые региональные виды, а во многих других городах, таких как Кобург, хранят собственные рецепты.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "4 свежие свиные братвурст (около 120 г каждая)",
-          "4 хрустящие булочки",
-          "4 ст. л. средне острой горчицы",
-          "1 ч. л. растительного масла"
-        ],
-        "steps": [
-          "Разогрейте гриль или гриль-сковороду до среднего нагрева и слегка смажьте колбаски маслом.",
-          "Жарьте 12–15 минут, часто переворачивая, пока они не подрумянятся со всех сторон и не прожарятся (75 °C внутри).",
-          "В последнюю минуту подогрейте булочки на краю гриля.",
-          "Положите каждую колбаску в булочку и добавьте горчицу по вкусу."
-        ]
-      },
-      "tips": [
-        "Горчица очень малокалорийна, поэтому это лучший соус, который можно использовать щедро.",
-        "Жарьте на среднем огне на решётке, чтобы жир стекал, и не прокалывайте оболочку до самого конца.",
-        "Съешьте одну колбаску с большим салатом из капусты или огурцов вместо картофеля фри или второй булочки."
-      ],
-      "name_inline": "братвурст"
-    }
+  "ar": {
+   "name": "براتفورست",
+   "origin": "ألمانيا · تورينغن وفرانكونيا",
+   "intro": "البراتفورست نقانق ألمانية من لحم الخنزير المفروم ناعماً، تُتبَّل بتوابل مثل المردقوش وجوزة الطيب والكراوية، ثم تُشوى حتى يتحمر جلدها ويصبح مقرمشاً. وهي من أشهر أطعمة الشارع: تُقدَّم ساخنة في خبزة مقرمشة مع خط من الخردل. وفي البيوت تؤكل أيضاً في طبق مع الخبز والخردل والملفوف المخلل أو سلطة البطاطا.",
+   "history": "تُصنع البراتفورست في البلدان الناطقة بالألمانية منذ قرون، وكثيراً ما يُذكر أن نقانق تورينغن من أقدم النقانق الموثقة، إذ يعود أقدم ذكر لها إلى أوائل القرن الخامس عشر. ويُفسَّر الجزء الأول من اسمها عادةً بأنه كلمة ألمانية قديمة تعني «اللحم المفروم ناعماً». ولتورينغن ونورنبيرغ أسلوبان إقليميان محميان، كما تحتفظ مدن أخرى كثيرة، مثل كوبورغ، بوصفاتها الخاصة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "4 نقانق براتفورست طازجة من لحم الخنزير (نحو 120 غ لكل منها)",
+     "4 خبزات مقرمشة",
+     "4 ملاعق كبيرة خردل متوسط الحرارة",
+     "1 ملعقة صغيرة زيت نباتي"
+    ],
+    "steps": [
+     "سخّن الشواية أو مقلاة الشواء على نار متوسطة وادهن النقانق بقليل من الزيت.",
+     "اشوها 12–15 دقيقة مع التقليب المتكرر حتى تتحمر من كل الجهات وتنضج تماماً (75 °م في الداخل).",
+     "دفّئ الخبز على طرف الشواية في الدقيقة الأخيرة.",
+     "ضع كل نقانق في خبزة وأضف الخردل حسب الرغبة."
+    ]
+   },
+   "tips": [
+    "الخردل قليل السعرات جداً، لذا فهو أفضل صلصة يمكن الإكثار منها.",
+    "اشوِ على نار متوسطة فوق شبكة كي يسيل الدهن، ولا تثقب الجلد حتى النهاية.",
+    "تناول نقانق واحدة مع سلطة ملفوف أو خيار كبيرة بدل البطاطا المقلية أو خبزة ثانية."
+   ]
+  },
+  "it": {
+   "name": "Bratwurst",
+   "origin": "Germania · Turingia e Franconia",
+   "intro": "La bratwurst è una salsiccia tedesca di maiale, macinata fine e insaporita con spezie come maggiorana, noce moscata e cumino dei prati, poi grigliata finché la pelle diventa scoppiettante e dorata. È un classico cibo di strada: si serve calda in un panino croccante con una striscia di senape. A casa si mangia anche nel piatto con pane, senape e crauti o insalata di patate.",
+   "history": "La bratwurst si prepara da secoli nei paesi di lingua tedesca, e quella della Turingia è spesso citata come una delle salsicce documentate più antiche, con una testimonianza dei primi del XV secolo. La prima parte della parola viene di solito spiegata come tedesco antico per «carne tritata fine». La Turingia e Norimberga hanno stili regionali tutelati, e molte altre città, come Coburgo, conservano le proprie ricette.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "4 bratwurst fresche di maiale (circa 120 g l'una)",
+     "4 panini croccanti",
+     "4 cucchiai di senape mediamente piccante",
+     "1 cucchiaino di olio vegetale"
+    ],
+    "steps": [
+     "Scalda la griglia o la bistecchiera a fuoco medio e spennella leggermente le salsicce con l'olio.",
+     "Grigliale per 12–15 minuti girandole spesso, finché sono dorate su tutti i lati e cotte all'interno (75 °C al cuore).",
+     "Scalda i panini sul bordo della griglia nell'ultimo minuto.",
+     "Metti ogni salsiccia in un panino e aggiungi senape a piacere."
+    ]
+   },
+   "tips": [
+    "La senape ha pochissime calorie, quindi è la salsa migliore da usare in abbondanza.",
+    "Griglia a fuoco medio su una griglia, così il grasso cola via, ed evita di bucare la pelle fino alla fine.",
+    "Mangia una salsiccia con una grande insalata di cavolo o di cetrioli invece delle patatine o di un secondo panino."
+   ]
+  },
+  "el": {
+   "name": "Μπράτβουρστ",
+   "origin": "Γερμανία · Θουριγγία και Φραγκονία",
+   "intro": "Το μπράτβουρστ είναι γερμανικό χοιρινό λουκάνικο, ψιλοαλεσμένο και αρωματισμένο με μπαχαρικά όπως μαντζουράνα, μοσχοκάρυδο και κύμινο αγρού (κάρβι), που ψήνεται στη σχάρα μέχρι η πέτσα να σκάσει και να ροδίσει. Είναι κλασικό street food: σερβίρεται ζεστό σε τραγανό ψωμάκι με μια γραμμή μουστάρδα. Στο σπίτι τρώγεται και στο πιάτο με ψωμί, μουστάρδα και ξινολάχανο ή πατατοσαλάτα.",
+   "history": "Το μπράτβουρστ φτιάχνεται εδώ και αιώνες στις γερμανόφωνες χώρες, και το λουκάνικο της Θουριγγίας αναφέρεται συχνά ως ένα από τα παλαιότερα τεκμηριωμένα λουκάνικα, με καταγραφή από τις αρχές του 15ου αιώνα. Το πρώτο μέρος της λέξης εξηγείται συνήθως ως παλαιά γερμανική λέξη για το «ψιλοκομμένο κρέας». Η Θουριγγία και η Νυρεμβέργη έχουν προστατευμένες τοπικές εκδοχές, και πολλές άλλες πόλεις, όπως το Κόμπουργκ, διατηρούν τις δικές τους συνταγές.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "4 φρέσκα χοιρινά μπράτβουρστ (περίπου 120 γρ. το καθένα)",
+     "4 τραγανά ψωμάκια",
+     "4 κ.σ. μέτρια καυτερή μουστάρδα",
+     "1 κ.γ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Ζεστάνετε τη σχάρα ή τη γκριλιέρα σε μέτρια φωτιά και αλείψτε ελαφρά τα λουκάνικα με λάδι.",
+     "Ψήστε για 12–15 λεπτά, γυρίζοντάς τα συχνά, μέχρι να ροδίσουν παντού και να ψηθούν καλά (75 °C στο εσωτερικό).",
+     "Ζεστάνετε τα ψωμάκια στην άκρη της σχάρας το τελευταίο λεπτό.",
+     "Βάλτε κάθε λουκάνικο σε ένα ψωμάκι και προσθέστε μουστάρδα κατά βούληση."
+    ]
+   },
+   "tips": [
+    "Η μουστάρδα έχει ελάχιστες θερμίδες, οπότε είναι η καλύτερη σάλτσα για να τη βάλετε γενναιόδωρα.",
+    "Ψήστε σε μέτρια φωτιά πάνω σε σχάρα ώστε να στραγγίζει το λίπος, και μην τρυπάτε την πέτσα μέχρι το τέλος.",
+    "Φάτε ένα λουκάνικο με μια μεγάλη σαλάτα λάχανο ή αγγούρι αντί για τηγανητές πατάτες ή δεύτερο ψωμάκι."
+   ]
+  },
+  "ru": {
+   "name": "Братвурст",
+   "origin": "Германия · Тюрингия и Франкония",
+   "intro": "Братвурст — немецкая свиная колбаска мелкого помола, приправленная такими специями, как майоран, мускатный орех и тмин, которую жарят на гриле, пока оболочка не захрустит и не подрумянится. Это классическая уличная еда: её подают горячей в хрустящей булочке с полоской горчицы. Дома её также едят на тарелке с хлебом, горчицей и квашеной капустой или картофельным салатом.",
+   "history": "Братвурст делают в немецкоязычных землях веками, а тюрингский братвурст часто называют одной из старейших документально подтверждённых колбас — запись о ней относится к началу XV века. Первую часть слова обычно объясняют как древненемецкое «мелко нарубленное мясо». У Тюрингии и Нюрнберга есть защищённые региональные виды, а во многих других городах, таких как Кобург, хранят собственные рецепты.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "4 свежие свиные братвурст (около 120 г каждая)",
+     "4 хрустящие булочки",
+     "4 ст. л. средне острой горчицы",
+     "1 ч. л. растительного масла"
+    ],
+    "steps": [
+     "Разогрейте гриль или гриль-сковороду до среднего нагрева и слегка смажьте колбаски маслом.",
+     "Жарьте 12–15 минут, часто переворачивая, пока они не подрумянятся со всех сторон и не прожарятся (75 °C внутри).",
+     "В последнюю минуту подогрейте булочки на краю гриля.",
+     "Положите каждую колбаску в булочку и добавьте горчицу по вкусу."
+    ]
+   },
+   "tips": [
+    "Горчица очень малокалорийна, поэтому это лучший соус, который можно использовать щедро.",
+    "Жарьте на среднем огне на решётке, чтобы жир стекал, и не прокалывайте оболочку до самого конца.",
+    "Съешьте одну колбаску с большим салатом из капусты или огурцов вместо картофеля фри или второй булочки."
+   ],
+   "name_inline": "братвурст"
+  },
+  "es": {
+   "name": "Bratwurst",
+   "origin": "Alemania · Turingia y Franconia",
+   "intro": "La bratwurst es una salchicha alemana de cerdo, finamente molida y sazonada con especias como mejorana, nuez moscada y alcaravea, que se asa a la parrilla hasta que la piel cruje y se dora. Es un clásico de la comida callejera: se sirve caliente en un pan crujiente con una línea de mostaza. En casa también se come en plato, con pan, mostaza y chucrut o ensalada de papa.",
+   "history": "La bratwurst se elabora en tierras de habla alemana desde hace siglos, y la bratwurst de Turingia suele citarse como una de las salchichas documentadas más antiguas, con un registro de principios del siglo XV. La primera parte de la palabra suele explicarse como alemán antiguo para «carne finamente picada». Turingia y Núremberg tienen estilos regionales protegidos, y muchas otras ciudades, como Coburgo, conservan sus propias recetas.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "4 bratwurst frescas de cerdo (unos 120 g cada una)",
+     "4 bolillos o panes crujientes",
+     "4 cdas. de mostaza semipicante",
+     "1 cdta. de aceite vegetal"
+    ],
+    "steps": [
+     "Calienta una parrilla o sartén de parrilla a fuego medio y barniza ligeramente las salchichas con aceite.",
+     "Asa de 12 a 15 minutos, volteando a menudo, hasta que estén doradas por todos lados y bien cocidas (75 °C en el centro).",
+     "Calienta los panes en la orilla de la parrilla durante el último minuto.",
+     "Pon cada salchicha en un pan y agrega mostaza al gusto."
+    ]
+   },
+   "tips": [
+    "La mostaza tiene muy pocas calorías, así que es la mejor salsa para usar con generosidad.",
+    "Asa a fuego medio sobre una rejilla para que escurra la grasa y evita pinchar la piel hasta el final.",
+    "Come una salchicha con una ensalada grande de col o pepino en lugar de papas fritas o un segundo pan."
+   ],
+   "name_inline": "la bratwurst"
   }
+ }
 }

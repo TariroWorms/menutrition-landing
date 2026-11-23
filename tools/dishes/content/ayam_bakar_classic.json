@@ -1,167 +1,198 @@
 {
-  "db_key": "ayam_bakar_classic",
-  "slug": "ayam-bakar-classic",
-  "emoji": "🍗",
-  "portion_g": 250,
-  "country": "ID",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "ayam_bakar_classic",
+ "slug": "ayam-bakar-classic",
+ "emoji": "🍗",
+ "portion_g": 250,
+ "country": "ID",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Ayam bakar (Indonesian grilled chicken)",
+   "origin": "Indonesia · Java",
+   "intro": "Ayam bakar is Indonesian grilled chicken: the pieces are first simmered in a paste of garlic and shallots with tamarind and kecap manis, the thick sweet soy sauce, then grilled over charcoal while being brushed with the reduced marinade. The result is sticky, glossy and charred at the edges — sweet, sour and smoky at once. It is served with rice, chili sauce and fresh cucumber.",
+   "history": "Ayam bakar is sold at warungs and street grills all over Indonesia, and many regions have their own version, from the sweet soy-glazed Javanese style to the fiery ayam taliwang of Lombok.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg chicken pieces (thighs and drumsticks)",
+     "6 shallots and 4 garlic cloves",
+     "2 tbsp tamarind pulp soaked in 100 ml warm water, strained",
+     "4 tbsp kecap manis (sweet soy sauce)",
+     "1 tsp ground coriander, 1/2 tsp ground turmeric",
+     "2 bay leaves (or salam leaves), 1 stalk lemongrass, bruised",
+     "2 tbsp vegetable oil, salt, 300 ml water"
+    ],
+    "steps": [
+     "Blend the shallots and garlic to a paste and fry it in the oil for 3–4 minutes until fragrant.",
+     "Add the spices, leaves, lemongrass and chicken and stir to coat, then add the tamarind water, half the kecap manis, salt and the water.",
+     "Simmer uncovered for 25–30 minutes, turning the chicken, until it is cooked through and the sauce is thick.",
+     "Mix the remaining kecap manis with a few spoons of the sauce. Grill the chicken over charcoal or under a hot grill for 8–10 minutes, brushing with the glaze and turning until charred in places."
+    ]
+   },
+   "tips": [
+    "Use skinless thighs or breast — most of the fat in grilled chicken sits in the skin.",
+    "Kecap manis is mostly sugar: brush on a thin glaze instead of pouring extra sauce over the rice.",
+    "Pair it with a small scoop of rice and a big plate of cucumber, cabbage and long beans."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Ayam bakar (Indonesian grilled chicken)",
-      "origin": "Indonesia · Java",
-      "intro": "Ayam bakar is Indonesian grilled chicken: the pieces are first simmered in a paste of garlic and shallots with tamarind and kecap manis, the thick sweet soy sauce, then grilled over charcoal while being brushed with the reduced marinade. The result is sticky, glossy and charred at the edges — sweet, sour and smoky at once. It is served with rice, chili sauce and fresh cucumber.",
-      "history": "Ayam bakar is sold at warungs and street grills all over Indonesia, and many regions have their own version, from the sweet soy-glazed Javanese style to the fiery ayam taliwang of Lombok.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg chicken pieces (thighs and drumsticks)",
-          "6 shallots and 4 garlic cloves",
-          "2 tbsp tamarind pulp soaked in 100 ml warm water, strained",
-          "4 tbsp kecap manis (sweet soy sauce)",
-          "1 tsp ground coriander, 1/2 tsp ground turmeric",
-          "2 bay leaves (or salam leaves), 1 stalk lemongrass, bruised",
-          "2 tbsp vegetable oil, salt, 300 ml water"
-        ],
-        "steps": [
-          "Blend the shallots and garlic to a paste and fry it in the oil for 3–4 minutes until fragrant.",
-          "Add the spices, leaves, lemongrass and chicken and stir to coat, then add the tamarind water, half the kecap manis, salt and the water.",
-          "Simmer uncovered for 25–30 minutes, turning the chicken, until it is cooked through and the sauce is thick.",
-          "Mix the remaining kecap manis with a few spoons of the sauce. Grill the chicken over charcoal or under a hot grill for 8–10 minutes, brushing with the glaze and turning until charred in places."
-        ]
-      },
-      "tips": [
-        "Use skinless thighs or breast — most of the fat in grilled chicken sits in the skin.",
-        "Kecap manis is mostly sugar: brush on a thin glaze instead of pouring extra sauce over the rice.",
-        "Pair it with a small scoop of rice and a big plate of cucumber, cabbage and long beans."
-      ]
-    },
-    "ar": {
-      "name": "أيام باكار (دجاج مشوي إندونيسي)",
-      "origin": "إندونيسيا · جاوة",
-      "intro": "أيام باكار دجاج مشوي على الطريقة الإندونيسية: تُطهى القطع أولًا في معجون من الثوم والبصل الصغير (الشالوت) مع التمر الهندي و«كيتشاب مانيس»، وهي صلصة صويا حلوة كثيفة، ثم تُشوى على الفحم مع دهنها بالتتبيلة المكثّفة. والنتيجة دجاج لامع لزج متفحّم الأطراف، حلو وحامض ومدخّن في آن واحد. يُقدَّم مع الأرز وصلصة الفلفل الحار والخيار الطازج.",
-      "history": "يُباع أيام باكار في المطاعم الشعبية (الوارونغ) وعلى مشاوي الشوارع في أنحاء إندونيسيا، ولكثير من المناطق نسختها الخاصة، من الطريقة الجاوية المزجّجة بالصويا الحلوة إلى «أيام تاليوانغ» شديد الحرارة من جزيرة لومبوك.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 كغ قطع دجاج (أفخاذ وسيقان)",
-          "6 حبات بصل صغير (شالوت) و4 فصوص ثوم",
-          "2 ملعقة كبيرة تمر هندي منقوع في 100 مل ماء دافئ ومصفّى",
-          "4 ملاعق كبيرة كيتشاب مانيس (صلصة صويا حلوة)",
-          "1 ملعقة صغيرة كزبرة مطحونة، نصف ملعقة صغيرة كركم مطحون",
-          "2 ورقة غار (أو أوراق سلام)، عود عشب ليمون مدقوق",
-          "2 ملعقة كبيرة زيت نباتي، ملح، 300 مل ماء"
-        ],
-        "steps": [
-          "يُطحن البصل الصغير والثوم حتى يصبحا معجونًا، ويُقلى في الزيت 3–4 دقائق حتى تفوح رائحته.",
-          "تُضاف التوابل والأوراق وعشب الليمون والدجاج ويُقلَّب ليتغطى، ثم يُضاف ماء التمر الهندي ونصف كمية الكيتشاب مانيس والملح والماء.",
-          "يُطهى دون غطاء 25–30 دقيقة مع تقليب الدجاج حتى ينضج تمامًا وتتكثف الصلصة.",
-          "يُخلط باقي الكيتشاب مانيس مع ملاعق قليلة من الصلصة. يُشوى الدجاج على الفحم أو تحت شواية ساخنة 8–10 دقائق مع دهنه بالخليط وتقليبه حتى يتفحّم في بعض المواضع."
-        ]
-      },
-      "tips": [
-        "استخدم أفخاذًا أو صدورًا دون جلد — فمعظم دهون الدجاج المشوي في الجلد.",
-        "الكيتشاب مانيس معظمه سكر: ادهن طبقة رقيقة بدل سكب صلصة إضافية على الأرز.",
-        "قدّمه مع مغرفة صغيرة من الأرز وطبق كبير من الخيار والملفوف واللوبياء الطويلة."
-      ]
-    },
-    "it": {
-      "name": "Ayam bakar (pollo alla griglia indonesiano)",
-      "name_inline": "ayam bakar",
-      "origin": "Indonesia · Giava",
-      "intro": "L'ayam bakar è il pollo alla griglia indonesiano: i pezzi vengono prima cotti a fuoco lento in una pasta di aglio e scalogni con tamarindo e kecap manis, la densa salsa di soia dolce, poi grigliati sulla carbonella spennellandoli con la marinata ridotta. Il risultato è appiccicoso, lucido e abbrustolito ai bordi: dolce, acido e affumicato insieme. Si serve con riso, salsa al peperoncino e cetriolo fresco.",
-      "history": "L'ayam bakar si vende nei warung e alle griglie di strada in tutta l'Indonesia, e molte regioni hanno la propria versione, dallo stile giavanese glassato con soia dolce al piccantissimo ayam taliwang di Lombok.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg di pezzi di pollo (sovracosce e fusi)",
-          "6 scalogni e 4 spicchi d'aglio",
-          "2 cucchiai di polpa di tamarindo ammollata in 100 ml di acqua tiepida, filtrata",
-          "4 cucchiai di kecap manis (salsa di soia dolce)",
-          "1 cucchiaino di coriandolo in polvere, 1/2 cucchiaino di curcuma in polvere",
-          "2 foglie di alloro (o foglie di salam), 1 gambo di citronella, schiacciato",
-          "2 cucchiai di olio vegetale, sale, 300 ml di acqua"
-        ],
-        "steps": [
-          "Frulla scalogni e aglio fino a ottenere una pasta e soffriggila nell'olio per 3–4 minuti, finché è profumata.",
-          "Aggiungi spezie, foglie, citronella e pollo e mescola per insaporire, poi unisci l'acqua di tamarindo, metà del kecap manis, il sale e l'acqua.",
-          "Lascia sobbollire scoperto per 25–30 minuti, girando il pollo, finché è cotto e la salsa si è addensata.",
-          "Mescola il kecap manis rimasto con qualche cucchiaio di salsa. Griglia il pollo sulla carbonella o sotto il grill ben caldo per 8–10 minuti, spennellando con la glassa e girando finché è abbrustolito qua e là."
-        ]
-      },
-      "tips": [
-        "Usa sovracosce o petto senza pelle: gran parte del grasso del pollo alla griglia sta nella pelle.",
-        "Il kecap manis è soprattutto zucchero: spennella una glassa sottile invece di versare altra salsa sul riso.",
-        "Abbinalo a una piccola porzione di riso e a un bel piatto di cetriolo, cavolo e fagiolini lunghi."
-      ]
-    },
-    "el": {
-      "name": "Αγιάμ μπακάρ (ινδονησιακό κοτόπουλο σχάρας)",
-      "name_inline": "αγιάμ μπακάρ",
-      "origin": "Ινδονησία · Ιάβα",
-      "intro": "Το αγιάμ μπακάρ είναι ινδονησιακό κοτόπουλο στη σχάρα: τα κομμάτια πρώτα σιγοβράζουν σε πάστα από σκόρδο και εσαλότ με ταμάρινδο και κέτσαπ μάνις, την πηχτή γλυκιά σάλτσα σόγιας, και μετά ψήνονται στα κάρβουνα ενώ αλείφονται με τη δεμένη μαρινάδα. Το αποτέλεσμα είναι κολλώδες, γυαλιστερό και καψαλισμένο στις άκρες — γλυκό, ξινό και καπνιστό μαζί. Σερβίρεται με ρύζι, σάλτσα τσίλι και φρέσκο αγγούρι.",
-      "history": "Το αγιάμ μπακάρ πουλιέται σε γουαρούνγκ και ψησταριές δρόμου σε όλη την Ινδονησία, και πολλές περιοχές έχουν τη δική τους εκδοχή, από το ιαβανέζικο στιλ με γλάσο γλυκιάς σόγιας ως το φλογερό αγιάμ ταλιουάνγκ του Λομπόκ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 κιλό κομμάτια κοτόπουλου (μπούτια και κοντοπούλια)",
-          "6 εσαλότ και 4 σκελίδες σκόρδο",
-          "2 κ.σ. πολτός ταμάρινδου μουλιασμένος σε 100 ml χλιαρό νερό, σουρωμένος",
-          "4 κ.σ. κέτσαπ μάνις (γλυκιά σάλτσα σόγιας)",
-          "1 κ.γ. κόλιανδρος σε σκόνη, 1/2 κ.γ. κουρκουμάς σε σκόνη",
-          "2 φύλλα δάφνης (ή φύλλα σαλάμ), 1 κοτσάνι λεμονόχορτο, χτυπημένο",
-          "2 κ.σ. φυτικό λάδι, αλάτι, 300 ml νερό"
-        ],
-        "steps": [
-          "Πολτοποιήστε τα εσαλότ και το σκόρδο και τσιγαρίστε την πάστα στο λάδι 3–4 λεπτά, μέχρι να μυρίσει.",
-          "Προσθέστε τα μπαχαρικά, τα φύλλα, το λεμονόχορτο και το κοτόπουλο και ανακατέψτε να πάει παντού, μετά ρίξτε το νερό του ταμάρινδου, το μισό κέτσαπ μάνις, αλάτι και το νερό.",
-          "Σιγοβράστε ξεσκέπαστο 25–30 λεπτά, γυρίζοντας το κοτόπουλο, μέχρι να ψηθεί και η σάλτσα να δέσει.",
-          "Ανακατέψτε το υπόλοιπο κέτσαπ μάνις με λίγες κουταλιές από τη σάλτσα. Ψήστε το κοτόπουλο στα κάρβουνα ή κάτω από δυνατό γκριλ 8–10 λεπτά, αλείφοντας με το γλάσο και γυρίζοντας μέχρι να καψαλιστεί σημειακά."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε μπούτια ή στήθος χωρίς πέτσα — το μεγαλύτερο μέρος του λίπους στο ψητό κοτόπουλο βρίσκεται στην πέτσα.",
-        "Το κέτσαπ μάνις είναι κυρίως ζάχαρη: αλείψτε ένα λεπτό γλάσο αντί να ρίχνετε επιπλέον σάλτσα στο ρύζι.",
-        "Συνδυάστε το με μια μικρή κουταλιά ρύζι και ένα μεγάλο πιάτο με αγγούρι, λάχανο και μακριά φασολάκια."
-      ]
-    },
-    "ru": {
-      "name": "Аям бакар (индонезийская курица на гриле)",
-      "origin": "Индонезия · Ява",
-      "intro": "Аям бакар — индонезийская курица на гриле: куски сначала томят в пасте из чеснока и шалота с тамариндом и кечап манис, густым сладким соевым соусом, затем жарят на углях, смазывая уваренным маринадом. Получается липкая, блестящая курица с обугленными краями — одновременно сладкая, кислая и дымная. Её подают с рисом, соусом чили и свежим огурцом.",
-      "history": "Аям бакар продают в варунгах и на уличных грилях по всей Индонезии, и во многих регионах есть своя версия, от яванского стиля со сладкой соевой глазурью до огненного аям таливанг на Ломбоке.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 кг кусков курицы (бёдра и голени)",
-          "6 шалотов и 4 зубчика чеснока",
-          "2 ст. л. мякоти тамаринда, замоченной в 100 мл тёплой воды, процеженной",
-          "4 ст. л. кечап манис (сладкого соевого соуса)",
-          "1 ч. л. молотого кориандра, 1/2 ч. л. молотой куркумы",
-          "2 лавровых листа (или листьев салам), 1 стебель лемонграсса, слегка раздавленный",
-          "2 ст. л. растительного масла, соль, 300 мл воды"
-        ],
-        "steps": [
-          "Измельчите шалот и чеснок в пасту и обжаривайте её в масле 3–4 минуты до аромата.",
-          "Добавьте специи, листья, лемонграсс и курицу и перемешайте до покрытия, затем влейте тамариндовую воду, половину кечап манис, соль и воду.",
-          "Томите без крышки 25–30 минут, переворачивая курицу, пока она не будет готова, а соус не загустеет.",
-          "Смешайте оставшийся кечап манис с несколькими ложками соуса. Жарьте курицу на углях или под раскалённым грилем 8–10 минут, смазывая глазурью и переворачивая, пока местами не обуглится."
-        ]
-      },
-      "tips": [
-        "Берите бёдра без кожи или грудку — большая часть жира в курице на гриле находится в коже.",
-        "Кечап манис — это в основном сахар: наносите тонкую глазурь вместо того, чтобы поливать рис дополнительным соусом.",
-        "Сочетайте с небольшой порцией риса и большой тарелкой огурцов, капусты и спаржевой фасоли."
-      ],
-      "name_inline": "аям бакар"
-    }
+  "ar": {
+   "name": "أيام باكار (دجاج مشوي إندونيسي)",
+   "origin": "إندونيسيا · جاوة",
+   "intro": "أيام باكار دجاج مشوي على الطريقة الإندونيسية: تُطهى القطع أولًا في معجون من الثوم والبصل الصغير (الشالوت) مع التمر الهندي و«كيتشاب مانيس»، وهي صلصة صويا حلوة كثيفة، ثم تُشوى على الفحم مع دهنها بالتتبيلة المكثّفة. والنتيجة دجاج لامع لزج متفحّم الأطراف، حلو وحامض ومدخّن في آن واحد. يُقدَّم مع الأرز وصلصة الفلفل الحار والخيار الطازج.",
+   "history": "يُباع أيام باكار في المطاعم الشعبية (الوارونغ) وعلى مشاوي الشوارع في أنحاء إندونيسيا، ولكثير من المناطق نسختها الخاصة، من الطريقة الجاوية المزجّجة بالصويا الحلوة إلى «أيام تاليوانغ» شديد الحرارة من جزيرة لومبوك.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 كغ قطع دجاج (أفخاذ وسيقان)",
+     "6 حبات بصل صغير (شالوت) و4 فصوص ثوم",
+     "2 ملعقة كبيرة تمر هندي منقوع في 100 مل ماء دافئ ومصفّى",
+     "4 ملاعق كبيرة كيتشاب مانيس (صلصة صويا حلوة)",
+     "1 ملعقة صغيرة كزبرة مطحونة، نصف ملعقة صغيرة كركم مطحون",
+     "2 ورقة غار (أو أوراق سلام)، عود عشب ليمون مدقوق",
+     "2 ملعقة كبيرة زيت نباتي، ملح، 300 مل ماء"
+    ],
+    "steps": [
+     "يُطحن البصل الصغير والثوم حتى يصبحا معجونًا، ويُقلى في الزيت 3–4 دقائق حتى تفوح رائحته.",
+     "تُضاف التوابل والأوراق وعشب الليمون والدجاج ويُقلَّب ليتغطى، ثم يُضاف ماء التمر الهندي ونصف كمية الكيتشاب مانيس والملح والماء.",
+     "يُطهى دون غطاء 25–30 دقيقة مع تقليب الدجاج حتى ينضج تمامًا وتتكثف الصلصة.",
+     "يُخلط باقي الكيتشاب مانيس مع ملاعق قليلة من الصلصة. يُشوى الدجاج على الفحم أو تحت شواية ساخنة 8–10 دقائق مع دهنه بالخليط وتقليبه حتى يتفحّم في بعض المواضع."
+    ]
+   },
+   "tips": [
+    "استخدم أفخاذًا أو صدورًا دون جلد — فمعظم دهون الدجاج المشوي في الجلد.",
+    "الكيتشاب مانيس معظمه سكر: ادهن طبقة رقيقة بدل سكب صلصة إضافية على الأرز.",
+    "قدّمه مع مغرفة صغيرة من الأرز وطبق كبير من الخيار والملفوف واللوبياء الطويلة."
+   ]
+  },
+  "it": {
+   "name": "Ayam bakar (pollo alla griglia indonesiano)",
+   "name_inline": "ayam bakar",
+   "origin": "Indonesia · Giava",
+   "intro": "L'ayam bakar è il pollo alla griglia indonesiano: i pezzi vengono prima cotti a fuoco lento in una pasta di aglio e scalogni con tamarindo e kecap manis, la densa salsa di soia dolce, poi grigliati sulla carbonella spennellandoli con la marinata ridotta. Il risultato è appiccicoso, lucido e abbrustolito ai bordi: dolce, acido e affumicato insieme. Si serve con riso, salsa al peperoncino e cetriolo fresco.",
+   "history": "L'ayam bakar si vende nei warung e alle griglie di strada in tutta l'Indonesia, e molte regioni hanno la propria versione, dallo stile giavanese glassato con soia dolce al piccantissimo ayam taliwang di Lombok.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg di pezzi di pollo (sovracosce e fusi)",
+     "6 scalogni e 4 spicchi d'aglio",
+     "2 cucchiai di polpa di tamarindo ammollata in 100 ml di acqua tiepida, filtrata",
+     "4 cucchiai di kecap manis (salsa di soia dolce)",
+     "1 cucchiaino di coriandolo in polvere, 1/2 cucchiaino di curcuma in polvere",
+     "2 foglie di alloro (o foglie di salam), 1 gambo di citronella, schiacciato",
+     "2 cucchiai di olio vegetale, sale, 300 ml di acqua"
+    ],
+    "steps": [
+     "Frulla scalogni e aglio fino a ottenere una pasta e soffriggila nell'olio per 3–4 minuti, finché è profumata.",
+     "Aggiungi spezie, foglie, citronella e pollo e mescola per insaporire, poi unisci l'acqua di tamarindo, metà del kecap manis, il sale e l'acqua.",
+     "Lascia sobbollire scoperto per 25–30 minuti, girando il pollo, finché è cotto e la salsa si è addensata.",
+     "Mescola il kecap manis rimasto con qualche cucchiaio di salsa. Griglia il pollo sulla carbonella o sotto il grill ben caldo per 8–10 minuti, spennellando con la glassa e girando finché è abbrustolito qua e là."
+    ]
+   },
+   "tips": [
+    "Usa sovracosce o petto senza pelle: gran parte del grasso del pollo alla griglia sta nella pelle.",
+    "Il kecap manis è soprattutto zucchero: spennella una glassa sottile invece di versare altra salsa sul riso.",
+    "Abbinalo a una piccola porzione di riso e a un bel piatto di cetriolo, cavolo e fagiolini lunghi."
+   ]
+  },
+  "el": {
+   "name": "Αγιάμ μπακάρ (ινδονησιακό κοτόπουλο σχάρας)",
+   "name_inline": "αγιάμ μπακάρ",
+   "origin": "Ινδονησία · Ιάβα",
+   "intro": "Το αγιάμ μπακάρ είναι ινδονησιακό κοτόπουλο στη σχάρα: τα κομμάτια πρώτα σιγοβράζουν σε πάστα από σκόρδο και εσαλότ με ταμάρινδο και κέτσαπ μάνις, την πηχτή γλυκιά σάλτσα σόγιας, και μετά ψήνονται στα κάρβουνα ενώ αλείφονται με τη δεμένη μαρινάδα. Το αποτέλεσμα είναι κολλώδες, γυαλιστερό και καψαλισμένο στις άκρες — γλυκό, ξινό και καπνιστό μαζί. Σερβίρεται με ρύζι, σάλτσα τσίλι και φρέσκο αγγούρι.",
+   "history": "Το αγιάμ μπακάρ πουλιέται σε γουαρούνγκ και ψησταριές δρόμου σε όλη την Ινδονησία, και πολλές περιοχές έχουν τη δική τους εκδοχή, από το ιαβανέζικο στιλ με γλάσο γλυκιάς σόγιας ως το φλογερό αγιάμ ταλιουάνγκ του Λομπόκ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 κιλό κομμάτια κοτόπουλου (μπούτια και κοντοπούλια)",
+     "6 εσαλότ και 4 σκελίδες σκόρδο",
+     "2 κ.σ. πολτός ταμάρινδου μουλιασμένος σε 100 ml χλιαρό νερό, σουρωμένος",
+     "4 κ.σ. κέτσαπ μάνις (γλυκιά σάλτσα σόγιας)",
+     "1 κ.γ. κόλιανδρος σε σκόνη, 1/2 κ.γ. κουρκουμάς σε σκόνη",
+     "2 φύλλα δάφνης (ή φύλλα σαλάμ), 1 κοτσάνι λεμονόχορτο, χτυπημένο",
+     "2 κ.σ. φυτικό λάδι, αλάτι, 300 ml νερό"
+    ],
+    "steps": [
+     "Πολτοποιήστε τα εσαλότ και το σκόρδο και τσιγαρίστε την πάστα στο λάδι 3–4 λεπτά, μέχρι να μυρίσει.",
+     "Προσθέστε τα μπαχαρικά, τα φύλλα, το λεμονόχορτο και το κοτόπουλο και ανακατέψτε να πάει παντού, μετά ρίξτε το νερό του ταμάρινδου, το μισό κέτσαπ μάνις, αλάτι και το νερό.",
+     "Σιγοβράστε ξεσκέπαστο 25–30 λεπτά, γυρίζοντας το κοτόπουλο, μέχρι να ψηθεί και η σάλτσα να δέσει.",
+     "Ανακατέψτε το υπόλοιπο κέτσαπ μάνις με λίγες κουταλιές από τη σάλτσα. Ψήστε το κοτόπουλο στα κάρβουνα ή κάτω από δυνατό γκριλ 8–10 λεπτά, αλείφοντας με το γλάσο και γυρίζοντας μέχρι να καψαλιστεί σημειακά."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε μπούτια ή στήθος χωρίς πέτσα — το μεγαλύτερο μέρος του λίπους στο ψητό κοτόπουλο βρίσκεται στην πέτσα.",
+    "Το κέτσαπ μάνις είναι κυρίως ζάχαρη: αλείψτε ένα λεπτό γλάσο αντί να ρίχνετε επιπλέον σάλτσα στο ρύζι.",
+    "Συνδυάστε το με μια μικρή κουταλιά ρύζι και ένα μεγάλο πιάτο με αγγούρι, λάχανο και μακριά φασολάκια."
+   ]
+  },
+  "ru": {
+   "name": "Аям бакар (индонезийская курица на гриле)",
+   "origin": "Индонезия · Ява",
+   "intro": "Аям бакар — индонезийская курица на гриле: куски сначала томят в пасте из чеснока и шалота с тамариндом и кечап манис, густым сладким соевым соусом, затем жарят на углях, смазывая уваренным маринадом. Получается липкая, блестящая курица с обугленными краями — одновременно сладкая, кислая и дымная. Её подают с рисом, соусом чили и свежим огурцом.",
+   "history": "Аям бакар продают в варунгах и на уличных грилях по всей Индонезии, и во многих регионах есть своя версия, от яванского стиля со сладкой соевой глазурью до огненного аям таливанг на Ломбоке.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 кг кусков курицы (бёдра и голени)",
+     "6 шалотов и 4 зубчика чеснока",
+     "2 ст. л. мякоти тамаринда, замоченной в 100 мл тёплой воды, процеженной",
+     "4 ст. л. кечап манис (сладкого соевого соуса)",
+     "1 ч. л. молотого кориандра, 1/2 ч. л. молотой куркумы",
+     "2 лавровых листа (или листьев салам), 1 стебель лемонграсса, слегка раздавленный",
+     "2 ст. л. растительного масла, соль, 300 мл воды"
+    ],
+    "steps": [
+     "Измельчите шалот и чеснок в пасту и обжаривайте её в масле 3–4 минуты до аромата.",
+     "Добавьте специи, листья, лемонграсс и курицу и перемешайте до покрытия, затем влейте тамариндовую воду, половину кечап манис, соль и воду.",
+     "Томите без крышки 25–30 минут, переворачивая курицу, пока она не будет готова, а соус не загустеет.",
+     "Смешайте оставшийся кечап манис с несколькими ложками соуса. Жарьте курицу на углях или под раскалённым грилем 8–10 минут, смазывая глазурью и переворачивая, пока местами не обуглится."
+    ]
+   },
+   "tips": [
+    "Берите бёдра без кожи или грудку — большая часть жира в курице на гриле находится в коже.",
+    "Кечап манис — это в основном сахар: наносите тонкую глазурь вместо того, чтобы поливать рис дополнительным соусом.",
+    "Сочетайте с небольшой порцией риса и большой тарелкой огурцов, капусты и спаржевой фасоли."
+   ],
+   "name_inline": "аям бакар"
+  },
+  "es": {
+   "name": "Ayam bakar (pollo asado indonesio)",
+   "origin": "Indonesia · Java",
+   "intro": "El ayam bakar es el pollo asado indonesio: las piezas se cuecen primero a fuego lento en una pasta de ajo y chalotas con tamarindo y kecap manis, la espesa salsa de soya dulce, y luego se asan al carbón mientras se barnizan con la marinada reducida. El resultado es pegajoso, brillante y chamuscado en los bordes: dulce, ácido y ahumado a la vez. Se sirve con arroz, salsa picante y pepino fresco.",
+   "history": "El ayam bakar se vende en los warungs y puestos de parrilla de toda Indonesia, y muchas regiones tienen su propia versión, desde el estilo javanés glaseado con soya dulce hasta el ardiente ayam taliwang de Lombok.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg de piezas de pollo (muslos y piernas)",
+     "6 chalotas y 4 dientes de ajo",
+     "2 cdas. de pulpa de tamarindo remojada en 100 ml de agua tibia, colada",
+     "4 cdas. de kecap manis (salsa de soya dulce)",
+     "1 cdta. de cilantro molido, 1/2 cdta. de cúrcuma molida",
+     "2 hojas de laurel (o de salam), 1 tallo de hierba limón, machacado",
+     "2 cdas. de aceite vegetal, sal, 300 ml de agua"
+    ],
+    "steps": [
+     "Licúa las chalotas y el ajo hasta formar una pasta y fríela en el aceite de 3 a 4 minutos, hasta que desprenda aroma.",
+     "Añade las especias, las hojas, la hierba limón y el pollo y mezcla para cubrirlo; luego agrega el agua de tamarindo, la mitad del kecap manis, sal y el agua.",
+     "Cocina a fuego lento sin tapar de 25 a 30 minutos, volteando el pollo, hasta que esté cocido y la salsa espese.",
+     "Mezcla el kecap manis restante con unas cucharadas de la salsa. Asa el pollo al carbón o bajo un grill caliente de 8 a 10 minutos, barnizando con el glaseado y volteando hasta que se chamusque en algunas zonas."
+    ]
+   },
+   "tips": [
+    "Usa muslos sin piel o pechuga: la mayor parte de la grasa del pollo asado está en la piel.",
+    "El kecap manis es sobre todo azúcar: barniza una capa fina de glaseado en lugar de verter más salsa sobre el arroz.",
+    "Acompáñalo con una pequeña porción de arroz y un plato grande de pepino, repollo y ejotes largos."
+   ],
+   "name_inline": "el ayam bakar"
   }
+ }
 }

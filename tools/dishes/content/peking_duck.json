@@ -1,177 +1,210 @@
 {
-  "db_key": "peking_duck",
-  "slug": "peking-duck",
-  "emoji": "🦆",
-  "portion_g": 250,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "peking_duck",
+ "slug": "peking-duck",
+ "emoji": "🦆",
+ "portion_g": 250,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Peking duck",
+   "origin": "China · Beijing",
+   "intro": "Peking duck is a roast duck famous for its thin, lacquered, crackling skin. The duck is carved at the table and wrapped in thin wheat pancakes with sweet hoisin-style sauce, slivers of scallion and cucumber. The contrast of crisp skin, tender meat and cool vegetables is the point of the dish.",
+   "history": "Roast duck has been cooked in Beijing since imperial times, and the dish is usually linked to the Ming and Qing courts. Specialist Beijing restaurants, using either hung ovens or closed ovens, made it famous from the 19th century. Today it is a banquet dish served across China and in Chinese restaurants worldwide.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 duck (about 2.2 kg)",
+     "1 tbsp sugar dissolved in 2 tbsp hot water, 1 tbsp vinegar",
+     "1 tsp five-spice powder, 1 tsp salt",
+     "20 thin wheat pancakes",
+     "100 ml hoisin sauce",
+     "6 scallions, cut into thin strips",
+     "1 cucumber, cut into thin strips"
+    ],
+    "steps": [
+     "Rub the cavity with salt and five-spice. Pour boiling water over the skin, then brush with the sugar and vinegar mixture.",
+     "Leave the duck uncovered in the fridge overnight to dry the skin.",
+     "Roast at 200 °C for 20 minutes, then at 170 °C for about 1 hour 15 minutes until the skin is deep brown and crisp.",
+     "Rest for 10 minutes, then carve thin slices of skin and meat.",
+     "Steam the pancakes for 3 minutes to warm them.",
+     "Spread each pancake with a little hoisin, add duck, scallion and cucumber, and roll up."
+    ]
+   },
+   "tips": [
+    "Eat more of the meat and less of the skin, where most of the fat sits.",
+    "Use 1 tsp of hoisin per pancake — the sauce is sweet.",
+    "Count your pancakes: 3–4 with plenty of cucumber and scallion make a sensible portion."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Peking duck",
-      "origin": "China · Beijing",
-      "intro": "Peking duck is a roast duck famous for its thin, lacquered, crackling skin. The duck is carved at the table and wrapped in thin wheat pancakes with sweet hoisin-style sauce, slivers of scallion and cucumber. The contrast of crisp skin, tender meat and cool vegetables is the point of the dish.",
-      "history": "Roast duck has been cooked in Beijing since imperial times, and the dish is usually linked to the Ming and Qing courts. Specialist Beijing restaurants, using either hung ovens or closed ovens, made it famous from the 19th century. Today it is a banquet dish served across China and in Chinese restaurants worldwide.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 duck (about 2.2 kg)",
-          "1 tbsp sugar dissolved in 2 tbsp hot water, 1 tbsp vinegar",
-          "1 tsp five-spice powder, 1 tsp salt",
-          "20 thin wheat pancakes",
-          "100 ml hoisin sauce",
-          "6 scallions, cut into thin strips",
-          "1 cucumber, cut into thin strips"
-        ],
-        "steps": [
-          "Rub the cavity with salt and five-spice. Pour boiling water over the skin, then brush with the sugar and vinegar mixture.",
-          "Leave the duck uncovered in the fridge overnight to dry the skin.",
-          "Roast at 200 °C for 20 minutes, then at 170 °C for about 1 hour 15 minutes until the skin is deep brown and crisp.",
-          "Rest for 10 minutes, then carve thin slices of skin and meat.",
-          "Steam the pancakes for 3 minutes to warm them.",
-          "Spread each pancake with a little hoisin, add duck, scallion and cucumber, and roll up."
-        ]
-      },
-      "tips": [
-        "Eat more of the meat and less of the skin, where most of the fat sits.",
-        "Use 1 tsp of hoisin per pancake — the sauce is sweet.",
-        "Count your pancakes: 3–4 with plenty of cucumber and scallion make a sensible portion."
-      ]
-    },
-    "ar": {
-      "name": "بط بكين",
-      "origin": "الصين · بكين",
-      "intro": "بط بكين بط مشوي يشتهر بجلده الرقيق اللامع المقرمش. يُقطَّع البط على المائدة ويُلفّ في فطائر قمح رقيقة مع صلصة الهويسين الحلوة وشرائح البصل الأخضر والخيار. والمتعة كلها في التباين بين الجلد المقرمش واللحم الطري والخضار الباردة.",
-      "history": "يُشوى البط في بكين منذ العصر الإمبراطوري، ويُربط الطبق عادةً ببلاطَي أسرتَي مينغ وتشينغ. وقد ذاع صيته منذ القرن التاسع عشر بفضل مطاعم متخصصة في بكين تشويه في أفران معلّقة أو مغلقة. وهو اليوم طبق ولائم يُقدَّم في أنحاء الصين وفي المطاعم الصينية حول العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 بطة (نحو 2.2 كغ)",
-          "1 ملعقة كبيرة سكر مذاب في 2 ملعقة كبيرة ماء ساخن، 1 ملعقة كبيرة خل",
-          "1 ملعقة صغيرة بهارات الصين الخمسة، 1 ملعقة صغيرة ملح",
-          "20 فطيرة قمح رقيقة",
-          "100 مل صلصة هويسين",
-          "6 أعواد بصل أخضر مقطعة شرائح رفيعة",
-          "1 خيارة مقطعة شرائح رفيعة"
-        ],
-        "steps": [
-          "افرك تجويف البطة بالملح والبهارات. اسكب ماءً مغليًا على الجلد ثم ادهنه بخليط السكر والخل.",
-          "اترك البطة مكشوفة في الثلاجة ليلة كاملة ليجفّ الجلد.",
-          "اشوِها على 200 °م لمدة 20 دقيقة ثم على 170 °م نحو ساعة و15 دقيقة حتى يصبح الجلد بنيًا داكنًا ومقرمشًا.",
-          "اتركها ترتاح 10 دقائق ثم قطّع شرائح رقيقة من الجلد واللحم.",
-          "سخّن الفطائر على البخار 3 دقائق.",
-          "ادهن كل فطيرة بقليل من الهويسين، وأضف البط والبصل الأخضر والخيار ثم لُفّها."
-        ]
-      },
-      "tips": [
-        "تناول اللحم أكثر من الجلد، ففيه معظم الدهون.",
-        "استخدم ملعقة صغيرة من الهويسين لكل فطيرة — فالصلصة حلوة.",
-        "احسب عدد الفطائر: 3–4 مع كثير من الخيار والبصل الأخضر حصة معقولة."
-      ]
-    },
-    "it": {
-      "name": "Anatra alla pechinese",
-      "origin": "Cina · Pechino",
-      "intro": "L'anatra alla pechinese è un'anatra arrosto famosa per la sua pelle sottile, laccata e croccante. L'anatra viene tagliata al tavolo e avvolta in sottili crêpe di frumento con una salsa dolce tipo hoisin, listarelle di cipollotto e cetriolo. Il contrasto tra pelle croccante, carne tenera e verdure fresche è il senso del piatto.",
-      "history": "A Pechino l'anatra arrosto si cucina fin dall'epoca imperiale, e il piatto viene di solito collegato alle corti Ming e Qing. Ristoranti specializzati di Pechino, che usavano forni a carne appesa o forni chiusi, lo resero famoso a partire dal XIX secolo. Oggi è un piatto da banchetto servito in tutta la Cina e nei ristoranti cinesi di tutto il mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 anatra (circa 2,2 kg)",
-          "1 cucchiaio di zucchero sciolto in 2 cucchiai di acqua calda, 1 cucchiaio di aceto",
-          "1 cucchiaino di cinque spezie in polvere, 1 cucchiaino di sale",
-          "20 crêpe sottili di frumento",
-          "100 ml di salsa hoisin",
-          "6 cipollotti tagliati a listarelle sottili",
-          "1 cetriolo tagliato a listarelle sottili"
-        ],
-        "steps": [
-          "Strofina l'interno con sale e cinque spezie. Versa acqua bollente sulla pelle, poi spennellala con la miscela di zucchero e aceto.",
-          "Lascia l'anatra scoperta in frigorifero per una notte, così la pelle si asciuga.",
-          "Arrostisci a 200 °C per 20 minuti, poi a 170 °C per circa 1 ora e 15 minuti, finché la pelle è bruno scuro e croccante.",
-          "Lascia riposare 10 minuti, poi taglia sottili fette di pelle e carne.",
-          "Scalda le crêpe al vapore per 3 minuti.",
-          "Spalma su ogni crêpe un po' di hoisin, aggiungi anatra, cipollotto e cetriolo e arrotola."
-        ]
-      },
-      "tips": [
-        "Mangia più carne e meno pelle, dove si concentra gran parte del grasso.",
-        "Usa 1 cucchiaino di hoisin per crêpe: la salsa è dolce.",
-        "Conta le crêpe: 3–4 con abbondante cetriolo e cipollotto sono una porzione ragionevole."
-      ],
-      "name_inline": "anatra alla pechinese"
-    },
-    "el": {
-      "name": "Πάπια Πεκίνου",
-      "origin": "Κίνα · Πεκίνο",
-      "intro": "Η πάπια Πεκίνου είναι ψητή πάπια διάσημη για τη λεπτή, γυαλιστερή, τραγανή πέτσα της. Η πάπια τεμαχίζεται στο τραπέζι και τυλίγεται σε λεπτές πίτες σιταριού με γλυκιά σάλτσα τύπου χόισιν, λεπτές λωρίδες φρέσκου κρεμμυδιού και αγγουριού. Η αντίθεση ανάμεσα στην τραγανή πέτσα, το τρυφερό κρέας και τα δροσερά λαχανικά είναι η ουσία του πιάτου.",
-      "history": "Η ψητή πάπια μαγειρεύεται στο Πεκίνο από την αυτοκρατορική εποχή, και το πιάτο συνδέεται συνήθως με τις αυλές των Μινγκ και των Τσινγκ. Εξειδικευμένα εστιατόρια του Πεκίνου, με κρεμαστούς ή κλειστούς φούρνους, το έκαναν διάσημο από τον 19ο αιώνα. Σήμερα είναι πιάτο συμποσίων που σερβίρεται σε όλη την Κίνα και σε κινέζικα εστιατόρια σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 πάπια (περίπου 2,2 κιλά)",
-          "1 κ.σ. ζάχαρη διαλυμένη σε 2 κ.σ. ζεστό νερό, 1 κ.σ. ξίδι",
-          "1 κ.γ. πέντε μπαχαρικά σε σκόνη, 1 κ.γ. αλάτι",
-          "20 λεπτές πίτες σιταριού",
-          "100 ml σάλτσα χόισιν",
-          "6 φρέσκα κρεμμυδάκια σε λεπτές λωρίδες",
-          "1 αγγούρι σε λεπτές λωρίδες"
-        ],
-        "steps": [
-          "Τρίψτε το εσωτερικό με αλάτι και πέντε μπαχαρικά. Ρίξτε βραστό νερό πάνω στην πέτσα και έπειτα αλείψτε τη με το μείγμα ζάχαρης και ξιδιού.",
-          "Αφήστε την πάπια ξεσκέπαστη στο ψυγείο όλη τη νύχτα για να στεγνώσει η πέτσα.",
-          "Ψήστε στους 200 °C για 20 λεπτά και έπειτα στους 170 °C για περίπου 1 ώρα και 15 λεπτά, μέχρι η πέτσα να γίνει σκούρα καφέ και τραγανή.",
-          "Αφήστε να ξεκουραστεί 10 λεπτά και κόψτε λεπτές φέτες πέτσας και κρέατος.",
-          "Ζεστάνετε τις πίτες στον ατμό για 3 λεπτά.",
-          "Αλείψτε κάθε πίτα με λίγη χόισιν, προσθέστε πάπια, κρεμμυδάκι και αγγούρι και τυλίξτε."
-        ]
-      },
-      "tips": [
-        "Φάτε περισσότερο κρέας και λιγότερη πέτσα, όπου βρίσκεται το μεγαλύτερο μέρος του λίπους.",
-        "Βάλτε 1 κ.γ. χόισιν ανά πίτα — η σάλτσα είναι γλυκιά.",
-        "Μετράτε τις πίτες: 3–4 με άφθονο αγγούρι και κρεμμυδάκι είναι μια λογική μερίδα."
-      ],
-      "name_inline": "πάπια Πεκίνου"
-    },
-    "ru": {
-      "name": "Утка по-пекински",
-      "origin": "Китай · Пекин",
-      "intro": "Утка по-пекински — жареная утка, знаменитая тонкой, лакированной, хрустящей кожей. Утку нарезают за столом и заворачивают в тонкие пшеничные блинчики с сладким соусом в стиле хойсин, полосками зелёного лука и огурца. Суть блюда — в контрасте хрустящей кожи, нежного мяса и прохладных овощей.",
-      "history": "Жареную утку готовят в Пекине со времён империи, и блюдо обычно связывают с дворами эпох Мин и Цин. Специализированные пекинские рестораны, использующие подвесные или закрытые печи, прославили его с XIX века. Сегодня это банкетное блюдо, которое подают по всему Китаю и в китайских ресторанах мира.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 утка (около 2,2 кг)",
-          "1 ст. л. сахара, растворённого в 2 ст. л. горячей воды, 1 ст. л. уксуса",
-          "1 ч. л. смеси пяти специй, 1 ч. л. соли",
-          "20 тонких пшеничных блинчиков",
-          "100 мл соуса хойсин",
-          "6 стеблей зелёного лука, нарезанных тонкими полосками",
-          "1 огурец, нарезанный тонкими полосками"
-        ],
-        "steps": [
-          "Натрите полость солью и смесью пяти специй. Полейте кожу кипятком, затем смажьте смесью сахара и уксуса.",
-          "Оставьте утку без крышки в холодильнике на ночь, чтобы кожа подсохла.",
-          "Запекайте при 200 °C 20 минут, затем при 170 °C около 1 часа 15 минут, пока кожа не станет тёмно-коричневой и хрустящей.",
-          "Дайте постоять 10 минут, затем нарежьте тонкими ломтиками кожу и мясо.",
-          "Прогрейте блинчики на пару 3 минуты.",
-          "Смажьте каждый блинчик небольшим количеством хойсина, положите утку, зелёный лук и огурец и сверните."
-        ]
-      },
-      "tips": [
-        "Ешьте больше мяса и меньше кожи, где сосредоточена большая часть жира.",
-        "Используйте 1 ч. л. хойсина на блинчик — соус сладкий.",
-        "Считайте блинчики: 3–4 с большим количеством огурца и зелёного лука — разумная порция."
-      ],
-      "name_inline": "утка по-пекински"
-    }
+  "ar": {
+   "name": "بط بكين",
+   "origin": "الصين · بكين",
+   "intro": "بط بكين بط مشوي يشتهر بجلده الرقيق اللامع المقرمش. يُقطَّع البط على المائدة ويُلفّ في فطائر قمح رقيقة مع صلصة الهويسين الحلوة وشرائح البصل الأخضر والخيار. والمتعة كلها في التباين بين الجلد المقرمش واللحم الطري والخضار الباردة.",
+   "history": "يُشوى البط في بكين منذ العصر الإمبراطوري، ويُربط الطبق عادةً ببلاطَي أسرتَي مينغ وتشينغ. وقد ذاع صيته منذ القرن التاسع عشر بفضل مطاعم متخصصة في بكين تشويه في أفران معلّقة أو مغلقة. وهو اليوم طبق ولائم يُقدَّم في أنحاء الصين وفي المطاعم الصينية حول العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 بطة (نحو 2.2 كغ)",
+     "1 ملعقة كبيرة سكر مذاب في 2 ملعقة كبيرة ماء ساخن، 1 ملعقة كبيرة خل",
+     "1 ملعقة صغيرة بهارات الصين الخمسة، 1 ملعقة صغيرة ملح",
+     "20 فطيرة قمح رقيقة",
+     "100 مل صلصة هويسين",
+     "6 أعواد بصل أخضر مقطعة شرائح رفيعة",
+     "1 خيارة مقطعة شرائح رفيعة"
+    ],
+    "steps": [
+     "افرك تجويف البطة بالملح والبهارات. اسكب ماءً مغليًا على الجلد ثم ادهنه بخليط السكر والخل.",
+     "اترك البطة مكشوفة في الثلاجة ليلة كاملة ليجفّ الجلد.",
+     "اشوِها على 200 °م لمدة 20 دقيقة ثم على 170 °م نحو ساعة و15 دقيقة حتى يصبح الجلد بنيًا داكنًا ومقرمشًا.",
+     "اتركها ترتاح 10 دقائق ثم قطّع شرائح رقيقة من الجلد واللحم.",
+     "سخّن الفطائر على البخار 3 دقائق.",
+     "ادهن كل فطيرة بقليل من الهويسين، وأضف البط والبصل الأخضر والخيار ثم لُفّها."
+    ]
+   },
+   "tips": [
+    "تناول اللحم أكثر من الجلد، ففيه معظم الدهون.",
+    "استخدم ملعقة صغيرة من الهويسين لكل فطيرة — فالصلصة حلوة.",
+    "احسب عدد الفطائر: 3–4 مع كثير من الخيار والبصل الأخضر حصة معقولة."
+   ]
+  },
+  "it": {
+   "name": "Anatra alla pechinese",
+   "origin": "Cina · Pechino",
+   "intro": "L'anatra alla pechinese è un'anatra arrosto famosa per la sua pelle sottile, laccata e croccante. L'anatra viene tagliata al tavolo e avvolta in sottili crêpe di frumento con una salsa dolce tipo hoisin, listarelle di cipollotto e cetriolo. Il contrasto tra pelle croccante, carne tenera e verdure fresche è il senso del piatto.",
+   "history": "A Pechino l'anatra arrosto si cucina fin dall'epoca imperiale, e il piatto viene di solito collegato alle corti Ming e Qing. Ristoranti specializzati di Pechino, che usavano forni a carne appesa o forni chiusi, lo resero famoso a partire dal XIX secolo. Oggi è un piatto da banchetto servito in tutta la Cina e nei ristoranti cinesi di tutto il mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 anatra (circa 2,2 kg)",
+     "1 cucchiaio di zucchero sciolto in 2 cucchiai di acqua calda, 1 cucchiaio di aceto",
+     "1 cucchiaino di cinque spezie in polvere, 1 cucchiaino di sale",
+     "20 crêpe sottili di frumento",
+     "100 ml di salsa hoisin",
+     "6 cipollotti tagliati a listarelle sottili",
+     "1 cetriolo tagliato a listarelle sottili"
+    ],
+    "steps": [
+     "Strofina l'interno con sale e cinque spezie. Versa acqua bollente sulla pelle, poi spennellala con la miscela di zucchero e aceto.",
+     "Lascia l'anatra scoperta in frigorifero per una notte, così la pelle si asciuga.",
+     "Arrostisci a 200 °C per 20 minuti, poi a 170 °C per circa 1 ora e 15 minuti, finché la pelle è bruno scuro e croccante.",
+     "Lascia riposare 10 minuti, poi taglia sottili fette di pelle e carne.",
+     "Scalda le crêpe al vapore per 3 minuti.",
+     "Spalma su ogni crêpe un po' di hoisin, aggiungi anatra, cipollotto e cetriolo e arrotola."
+    ]
+   },
+   "tips": [
+    "Mangia più carne e meno pelle, dove si concentra gran parte del grasso.",
+    "Usa 1 cucchiaino di hoisin per crêpe: la salsa è dolce.",
+    "Conta le crêpe: 3–4 con abbondante cetriolo e cipollotto sono una porzione ragionevole."
+   ],
+   "name_inline": "anatra alla pechinese"
+  },
+  "el": {
+   "name": "Πάπια Πεκίνου",
+   "origin": "Κίνα · Πεκίνο",
+   "intro": "Η πάπια Πεκίνου είναι ψητή πάπια διάσημη για τη λεπτή, γυαλιστερή, τραγανή πέτσα της. Η πάπια τεμαχίζεται στο τραπέζι και τυλίγεται σε λεπτές πίτες σιταριού με γλυκιά σάλτσα τύπου χόισιν, λεπτές λωρίδες φρέσκου κρεμμυδιού και αγγουριού. Η αντίθεση ανάμεσα στην τραγανή πέτσα, το τρυφερό κρέας και τα δροσερά λαχανικά είναι η ουσία του πιάτου.",
+   "history": "Η ψητή πάπια μαγειρεύεται στο Πεκίνο από την αυτοκρατορική εποχή, και το πιάτο συνδέεται συνήθως με τις αυλές των Μινγκ και των Τσινγκ. Εξειδικευμένα εστιατόρια του Πεκίνου, με κρεμαστούς ή κλειστούς φούρνους, το έκαναν διάσημο από τον 19ο αιώνα. Σήμερα είναι πιάτο συμποσίων που σερβίρεται σε όλη την Κίνα και σε κινέζικα εστιατόρια σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 πάπια (περίπου 2,2 κιλά)",
+     "1 κ.σ. ζάχαρη διαλυμένη σε 2 κ.σ. ζεστό νερό, 1 κ.σ. ξίδι",
+     "1 κ.γ. πέντε μπαχαρικά σε σκόνη, 1 κ.γ. αλάτι",
+     "20 λεπτές πίτες σιταριού",
+     "100 ml σάλτσα χόισιν",
+     "6 φρέσκα κρεμμυδάκια σε λεπτές λωρίδες",
+     "1 αγγούρι σε λεπτές λωρίδες"
+    ],
+    "steps": [
+     "Τρίψτε το εσωτερικό με αλάτι και πέντε μπαχαρικά. Ρίξτε βραστό νερό πάνω στην πέτσα και έπειτα αλείψτε τη με το μείγμα ζάχαρης και ξιδιού.",
+     "Αφήστε την πάπια ξεσκέπαστη στο ψυγείο όλη τη νύχτα για να στεγνώσει η πέτσα.",
+     "Ψήστε στους 200 °C για 20 λεπτά και έπειτα στους 170 °C για περίπου 1 ώρα και 15 λεπτά, μέχρι η πέτσα να γίνει σκούρα καφέ και τραγανή.",
+     "Αφήστε να ξεκουραστεί 10 λεπτά και κόψτε λεπτές φέτες πέτσας και κρέατος.",
+     "Ζεστάνετε τις πίτες στον ατμό για 3 λεπτά.",
+     "Αλείψτε κάθε πίτα με λίγη χόισιν, προσθέστε πάπια, κρεμμυδάκι και αγγούρι και τυλίξτε."
+    ]
+   },
+   "tips": [
+    "Φάτε περισσότερο κρέας και λιγότερη πέτσα, όπου βρίσκεται το μεγαλύτερο μέρος του λίπους.",
+    "Βάλτε 1 κ.γ. χόισιν ανά πίτα — η σάλτσα είναι γλυκιά.",
+    "Μετράτε τις πίτες: 3–4 με άφθονο αγγούρι και κρεμμυδάκι είναι μια λογική μερίδα."
+   ],
+   "name_inline": "πάπια Πεκίνου"
+  },
+  "ru": {
+   "name": "Утка по-пекински",
+   "origin": "Китай · Пекин",
+   "intro": "Утка по-пекински — жареная утка, знаменитая тонкой, лакированной, хрустящей кожей. Утку нарезают за столом и заворачивают в тонкие пшеничные блинчики с сладким соусом в стиле хойсин, полосками зелёного лука и огурца. Суть блюда — в контрасте хрустящей кожи, нежного мяса и прохладных овощей.",
+   "history": "Жареную утку готовят в Пекине со времён империи, и блюдо обычно связывают с дворами эпох Мин и Цин. Специализированные пекинские рестораны, использующие подвесные или закрытые печи, прославили его с XIX века. Сегодня это банкетное блюдо, которое подают по всему Китаю и в китайских ресторанах мира.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 утка (около 2,2 кг)",
+     "1 ст. л. сахара, растворённого в 2 ст. л. горячей воды, 1 ст. л. уксуса",
+     "1 ч. л. смеси пяти специй, 1 ч. л. соли",
+     "20 тонких пшеничных блинчиков",
+     "100 мл соуса хойсин",
+     "6 стеблей зелёного лука, нарезанных тонкими полосками",
+     "1 огурец, нарезанный тонкими полосками"
+    ],
+    "steps": [
+     "Натрите полость солью и смесью пяти специй. Полейте кожу кипятком, затем смажьте смесью сахара и уксуса.",
+     "Оставьте утку без крышки в холодильнике на ночь, чтобы кожа подсохла.",
+     "Запекайте при 200 °C 20 минут, затем при 170 °C около 1 часа 15 минут, пока кожа не станет тёмно-коричневой и хрустящей.",
+     "Дайте постоять 10 минут, затем нарежьте тонкими ломтиками кожу и мясо.",
+     "Прогрейте блинчики на пару 3 минуты.",
+     "Смажьте каждый блинчик небольшим количеством хойсина, положите утку, зелёный лук и огурец и сверните."
+    ]
+   },
+   "tips": [
+    "Ешьте больше мяса и меньше кожи, где сосредоточена большая часть жира.",
+    "Используйте 1 ч. л. хойсина на блинчик — соус сладкий.",
+    "Считайте блинчики: 3–4 с большим количеством огурца и зелёного лука — разумная порция."
+   ],
+   "name_inline": "утка по-пекински"
+  },
+  "es": {
+   "name": "Pato laqueado de Pekín",
+   "origin": "China · Pekín",
+   "intro": "El pato laqueado de Pekín es un pato asado famoso por su piel fina, lacada y crujiente. Se trincha en la mesa y se envuelve en finas tortillas de trigo con una salsa dulce tipo hoisin, tiras de cebollín y pepino. El contraste entre la piel crujiente, la carne tierna y las verduras frescas es la esencia del platillo.",
+   "history": "En Pekín se asa pato desde la época imperial, y el platillo suele vincularse con las cortes Ming y Qing. Los restaurantes especializados de la ciudad, que usan hornos colgantes o cerrados, lo hicieron famoso a partir del siglo XIX. Hoy es un platillo de banquete que se sirve en toda China y en restaurantes chinos de todo el mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 pato (unos 2.2 kg)",
+     "1 cda. de azúcar disuelta en 2 cdas. de agua caliente, 1 cda. de vinagre",
+     "1 cdta. de cinco especias en polvo, 1 cdta. de sal",
+     "20 tortillas finas de trigo",
+     "100 ml de salsa hoisin",
+     "6 cebollines, cortados en tiras finas",
+     "1 pepino, cortado en tiras finas"
+    ],
+    "steps": [
+     "Frota la cavidad con sal y cinco especias. Vierte agua hirviendo sobre la piel y luego píntala con la mezcla de azúcar y vinagre.",
+     "Deja el pato sin tapar en el refrigerador toda la noche para que la piel se seque.",
+     "Hornea a 200 °C durante 20 minutos y luego a 170 °C durante 1 hora y 15 minutos aproximadamente, hasta que la piel esté de un marrón intenso y crujiente.",
+     "Deja reposar 10 minutos y luego corta láminas finas de piel y carne.",
+     "Calienta las tortillas al vapor durante 3 minutos.",
+     "Unta cada tortilla con un poco de hoisin, añade pato, cebollín y pepino, y enrolla."
+    ]
+   },
+   "tips": [
+    "Come más carne y menos piel, que es donde se concentra la mayor parte de la grasa.",
+    "Usa 1 cdta. de hoisin por tortilla: la salsa es dulce.",
+    "Cuenta tus tortillas: 3 o 4 con mucho pepino y cebollín son una porción razonable."
+   ],
+   "name_inline": "el pato laqueado de Pekín"
   }
+ }
 }

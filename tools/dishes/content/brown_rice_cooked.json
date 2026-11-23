@@ -1,142 +1,168 @@
 {
-  "db_key": "brown_rice_cooked",
-  "slug": "brown-rice-cooked",
-  "emoji": "🍚",
-  "portion_g": 180,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "brown_rice_cooked",
+ "slug": "brown-rice-cooked",
+ "emoji": "🍚",
+ "portion_g": 180,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Brown rice",
+   "origin": "Worldwide",
+   "intro": "Brown rice is whole-grain rice with only the inedible outer husk removed, so the bran and germ stay on the grain. Boiled in salted water it turns tender but keeps a pleasant chew and a mild, nutty flavour. It is served as a plain side for curries, stir-fries, grilled meat and fish, or as the base of grain bowls and salads.",
+   "history": "Brown rice is eaten wherever rice is grown and is now a common alternative to white rice in supermarkets and restaurants around the world.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "200 g brown rice",
+     "500 ml water",
+     "½ tsp salt"
+    ],
+    "steps": [
+     "Rinse the rice in a sieve until the water runs clearer.",
+     "Bring the water and salt to the boil, add the rice, cover and simmer on low heat for 35–40 minutes until the water is absorbed.",
+     "Take off the heat and leave covered for 10 minutes, then fluff with a fork."
+    ]
+   },
+   "tips": [
+    "Weigh it cooked: a 150 g portion is about 185 kcal, a fist-sized serving.",
+    "Fill half the plate with vegetables and keep the rice to a quarter.",
+    "Cook it in plain water and add flavour with herbs and lemon instead of oil — 1 tbsp oil ≈ 120 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Brown rice",
-      "origin": "Worldwide",
-      "intro": "Brown rice is whole-grain rice with only the inedible outer husk removed, so the bran and germ stay on the grain. Boiled in salted water it turns tender but keeps a pleasant chew and a mild, nutty flavour. It is served as a plain side for curries, stir-fries, grilled meat and fish, or as the base of grain bowls and salads.",
-      "history": "Brown rice is eaten wherever rice is grown and is now a common alternative to white rice in supermarkets and restaurants around the world.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "200 g brown rice",
-          "500 ml water",
-          "½ tsp salt"
-        ],
-        "steps": [
-          "Rinse the rice in a sieve until the water runs clearer.",
-          "Bring the water and salt to the boil, add the rice, cover and simmer on low heat for 35–40 minutes until the water is absorbed.",
-          "Take off the heat and leave covered for 10 minutes, then fluff with a fork."
-        ]
-      },
-      "tips": [
-        "Weigh it cooked: a 150 g portion is about 185 kcal, a fist-sized serving.",
-        "Fill half the plate with vegetables and keep the rice to a quarter.",
-        "Cook it in plain water and add flavour with herbs and lemon instead of oil — 1 tbsp oil ≈ 120 kcal."
-      ]
-    },
-    "ar": {
-      "name": "أرز بني مطبوخ",
-      "origin": "حول العالم",
-      "intro": "الأرز البني أرز كامل الحبة لا تُزال منه إلا القشرة الخارجية غير الصالحة للأكل، فتبقى النخالة والجنين على الحبة. عند سلقه في ماء مملح يصبح طرياً مع احتفاظه بقوام مطاطي لطيف ونكهة خفيفة تشبه المكسرات. يُقدَّم طبقاً جانبياً مع الكاري والخضار المقلّبة واللحوم والأسماك المشوية، أو قاعدةً لأطباق الحبوب والسلطات.",
-      "history": "يُؤكل الأرز البني في كل مكان يُزرع فيه الأرز، وهو اليوم بديل شائع للأرز الأبيض في المتاجر والمطاعم حول العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "200 غ أرز بني",
-          "500 مل ماء",
-          "½ ملعقة صغيرة ملح"
-        ],
-        "steps": [
-          "اغسل الأرز في مصفاة حتى يصبح الماء أصفى.",
-          "اغلِ الماء مع الملح، أضف الأرز وغطِّ القدر واتركه على نار هادئة 35–40 دقيقة حتى يتشرب الماء.",
-          "ارفعه عن النار واتركه مغطى 10 دقائق، ثم فكّكه بالشوكة."
-        ]
-      },
-      "tips": [
-        "زِنه مطبوخاً: حصة 150 غ تعطي نحو 185 سعرة، أي بحجم قبضة اليد تقريباً.",
-        "املأ نصف الطبق بالخضار واجعل الأرز ربعه فقط.",
-        "اطهه في ماء عادي وأضف النكهة بالأعشاب والليمون بدل الزيت — ملعقة كبيرة من الزيت ≈ 120 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Riso integrale",
-      "origin": "Tutto il mondo",
-      "intro": "Il riso integrale è riso a chicco intero a cui è stata tolta solo la lolla esterna non commestibile, così crusca e germe restano sul chicco. Lessato in acqua salata diventa tenero ma mantiene una piacevole consistenza al morso e un sapore delicato e nocciolato. Si serve come contorno semplice per curry, saltati, carne e pesce alla griglia, o come base di bowl di cereali e insalate.",
-      "history": "Il riso integrale si mangia ovunque si coltivi il riso ed è oggi un'alternativa comune al riso bianco nei supermercati e nei ristoranti di tutto il mondo.",
-      "name_inline": "riso integrale",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "200 g di riso integrale",
-          "500 ml di acqua",
-          "½ cucchiaino di sale"
-        ],
-        "steps": [
-          "Sciacqua il riso in un colino finché l'acqua esce più limpida.",
-          "Porta a bollore l'acqua con il sale, aggiungi il riso, copri e cuoci a fuoco basso per 35–40 minuti, finché l'acqua è assorbita.",
-          "Togli dal fuoco e lascia riposare coperto per 10 minuti, poi sgrana con una forchetta."
-        ]
-      },
-      "tips": [
-        "Pesalo cotto: una porzione da 150 g vale circa 185 kcal, quanto un pugno.",
-        "Riempi metà del piatto di verdure e limita il riso a un quarto.",
-        "Cuocilo in acqua semplice e insaporiscilo con erbe e limone invece che con l'olio: 1 cucchiaio d'olio ≈ 120 kcal."
-      ]
-    },
-    "el": {
-      "name": "Καστανό ρύζι",
-      "origin": "Παγκόσμιο",
-      "intro": "Το καστανό ρύζι είναι ρύζι ολικής άλεσης από το οποίο έχει αφαιρεθεί μόνο το εξωτερικό, μη βρώσιμο φλοιό, έτσι ώστε το πίτουρο και το φύτρο μένουν πάνω στον κόκκο. Βρασμένο σε αλατισμένο νερό γίνεται μαλακό αλλά κρατά μια ευχάριστη μασητή υφή και ήπια γεύση που θυμίζει ξηρούς καρπούς. Σερβίρεται ως απλό συνοδευτικό για κάρι, σοτέ λαχανικά, ψητό κρέας και ψάρι, ή ως βάση για μπολ δημητριακών και σαλάτες.",
-      "history": "Το καστανό ρύζι τρώγεται όπου καλλιεργείται ρύζι και σήμερα είναι συνηθισμένη εναλλακτική του λευκού ρυζιού σε σούπερ μάρκετ και εστιατόρια σε όλο τον κόσμο.",
-      "name_inline": "καστανό ρύζι",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "200 γρ. καστανό ρύζι",
-          "500 ml νερό",
-          "½ κ.γ. αλάτι"
-        ],
-        "steps": [
-          "Ξεπλύνετε το ρύζι σε σουρωτήρι μέχρι το νερό να τρέχει πιο καθαρό.",
-          "Βράστε το νερό με το αλάτι, προσθέστε το ρύζι, σκεπάστε και σιγοβράστε σε χαμηλή φωτιά για 35–40 λεπτά, μέχρι να απορροφηθεί το νερό.",
-          "Αποσύρετε από τη φωτιά και αφήστε σκεπασμένο για 10 λεπτά, έπειτα αφρατέψτε το με πιρούνι."
-        ]
-      },
-      "tips": [
-        "Ζυγίστε το μαγειρεμένο: μια μερίδα 150 γρ. έχει περίπου 185 kcal, όσο μια γροθιά.",
-        "Γεμίστε το μισό πιάτο με λαχανικά και περιορίστε το ρύζι στο ένα τέταρτο.",
-        "Μαγειρέψτε το σε σκέτο νερό και δώστε γεύση με μυρωδικά και λεμόνι αντί για λάδι — 1 κ.σ. λάδι ≈ 120 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Бурый рис",
-      "origin": "Весь мир",
-      "intro": "Бурый рис — цельнозерновой рис, с которого удалена только несъедобная внешняя оболочка, поэтому отруби и зародыш остаются на зерне. Сваренный в подсоленной воде, он становится мягким, но сохраняет приятную упругость и мягкий ореховый вкус. Его подают как простой гарнир к карри, блюдам из вока, мясу и рыбе на гриле или используют как основу для мисок с крупами и салатов.",
-      "history": "Бурый рис едят везде, где выращивают рис, и сегодня он — распространённая альтернатива белому рису в супермаркетах и ресторанах по всему миру.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "200 г бурого риса",
-          "500 мл воды",
-          "½ ч. л. соли"
-        ],
-        "steps": [
-          "Промойте рис в сите, пока вода не станет прозрачнее.",
-          "Доведите воду с солью до кипения, добавьте рис, накройте крышкой и варите на слабом огне 35–40 минут, пока вода не впитается.",
-          "Снимите с огня и оставьте под крышкой на 10 минут, затем разрыхлите вилкой."
-        ]
-      },
-      "tips": [
-        "Взвешивайте готовым: порция 150 г — это около 185 ккал, размером с кулак.",
-        "Заполните половину тарелки овощами, а на рис оставьте четверть.",
-        "Варите в простой воде и добавляйте вкус травами и лимоном вместо масла — 1 ст. л. масла ≈ 120 ккал."
-      ],
-      "name_inline": "бурый рис"
-    }
+  "ar": {
+   "name": "أرز بني مطبوخ",
+   "origin": "حول العالم",
+   "intro": "الأرز البني أرز كامل الحبة لا تُزال منه إلا القشرة الخارجية غير الصالحة للأكل، فتبقى النخالة والجنين على الحبة. عند سلقه في ماء مملح يصبح طرياً مع احتفاظه بقوام مطاطي لطيف ونكهة خفيفة تشبه المكسرات. يُقدَّم طبقاً جانبياً مع الكاري والخضار المقلّبة واللحوم والأسماك المشوية، أو قاعدةً لأطباق الحبوب والسلطات.",
+   "history": "يُؤكل الأرز البني في كل مكان يُزرع فيه الأرز، وهو اليوم بديل شائع للأرز الأبيض في المتاجر والمطاعم حول العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "200 غ أرز بني",
+     "500 مل ماء",
+     "½ ملعقة صغيرة ملح"
+    ],
+    "steps": [
+     "اغسل الأرز في مصفاة حتى يصبح الماء أصفى.",
+     "اغلِ الماء مع الملح، أضف الأرز وغطِّ القدر واتركه على نار هادئة 35–40 دقيقة حتى يتشرب الماء.",
+     "ارفعه عن النار واتركه مغطى 10 دقائق، ثم فكّكه بالشوكة."
+    ]
+   },
+   "tips": [
+    "زِنه مطبوخاً: حصة 150 غ تعطي نحو 185 سعرة، أي بحجم قبضة اليد تقريباً.",
+    "املأ نصف الطبق بالخضار واجعل الأرز ربعه فقط.",
+    "اطهه في ماء عادي وأضف النكهة بالأعشاب والليمون بدل الزيت — ملعقة كبيرة من الزيت ≈ 120 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Riso integrale",
+   "origin": "Tutto il mondo",
+   "intro": "Il riso integrale è riso a chicco intero a cui è stata tolta solo la lolla esterna non commestibile, così crusca e germe restano sul chicco. Lessato in acqua salata diventa tenero ma mantiene una piacevole consistenza al morso e un sapore delicato e nocciolato. Si serve come contorno semplice per curry, saltati, carne e pesce alla griglia, o come base di bowl di cereali e insalate.",
+   "history": "Il riso integrale si mangia ovunque si coltivi il riso ed è oggi un'alternativa comune al riso bianco nei supermercati e nei ristoranti di tutto il mondo.",
+   "name_inline": "riso integrale",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "200 g di riso integrale",
+     "500 ml di acqua",
+     "½ cucchiaino di sale"
+    ],
+    "steps": [
+     "Sciacqua il riso in un colino finché l'acqua esce più limpida.",
+     "Porta a bollore l'acqua con il sale, aggiungi il riso, copri e cuoci a fuoco basso per 35–40 minuti, finché l'acqua è assorbita.",
+     "Togli dal fuoco e lascia riposare coperto per 10 minuti, poi sgrana con una forchetta."
+    ]
+   },
+   "tips": [
+    "Pesalo cotto: una porzione da 150 g vale circa 185 kcal, quanto un pugno.",
+    "Riempi metà del piatto di verdure e limita il riso a un quarto.",
+    "Cuocilo in acqua semplice e insaporiscilo con erbe e limone invece che con l'olio: 1 cucchiaio d'olio ≈ 120 kcal."
+   ]
+  },
+  "el": {
+   "name": "Καστανό ρύζι",
+   "origin": "Παγκόσμιο",
+   "intro": "Το καστανό ρύζι είναι ρύζι ολικής άλεσης από το οποίο έχει αφαιρεθεί μόνο το εξωτερικό, μη βρώσιμο φλοιό, έτσι ώστε το πίτουρο και το φύτρο μένουν πάνω στον κόκκο. Βρασμένο σε αλατισμένο νερό γίνεται μαλακό αλλά κρατά μια ευχάριστη μασητή υφή και ήπια γεύση που θυμίζει ξηρούς καρπούς. Σερβίρεται ως απλό συνοδευτικό για κάρι, σοτέ λαχανικά, ψητό κρέας και ψάρι, ή ως βάση για μπολ δημητριακών και σαλάτες.",
+   "history": "Το καστανό ρύζι τρώγεται όπου καλλιεργείται ρύζι και σήμερα είναι συνηθισμένη εναλλακτική του λευκού ρυζιού σε σούπερ μάρκετ και εστιατόρια σε όλο τον κόσμο.",
+   "name_inline": "καστανό ρύζι",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "200 γρ. καστανό ρύζι",
+     "500 ml νερό",
+     "½ κ.γ. αλάτι"
+    ],
+    "steps": [
+     "Ξεπλύνετε το ρύζι σε σουρωτήρι μέχρι το νερό να τρέχει πιο καθαρό.",
+     "Βράστε το νερό με το αλάτι, προσθέστε το ρύζι, σκεπάστε και σιγοβράστε σε χαμηλή φωτιά για 35–40 λεπτά, μέχρι να απορροφηθεί το νερό.",
+     "Αποσύρετε από τη φωτιά και αφήστε σκεπασμένο για 10 λεπτά, έπειτα αφρατέψτε το με πιρούνι."
+    ]
+   },
+   "tips": [
+    "Ζυγίστε το μαγειρεμένο: μια μερίδα 150 γρ. έχει περίπου 185 kcal, όσο μια γροθιά.",
+    "Γεμίστε το μισό πιάτο με λαχανικά και περιορίστε το ρύζι στο ένα τέταρτο.",
+    "Μαγειρέψτε το σε σκέτο νερό και δώστε γεύση με μυρωδικά και λεμόνι αντί για λάδι — 1 κ.σ. λάδι ≈ 120 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Бурый рис",
+   "origin": "Весь мир",
+   "intro": "Бурый рис — цельнозерновой рис, с которого удалена только несъедобная внешняя оболочка, поэтому отруби и зародыш остаются на зерне. Сваренный в подсоленной воде, он становится мягким, но сохраняет приятную упругость и мягкий ореховый вкус. Его подают как простой гарнир к карри, блюдам из вока, мясу и рыбе на гриле или используют как основу для мисок с крупами и салатов.",
+   "history": "Бурый рис едят везде, где выращивают рис, и сегодня он — распространённая альтернатива белому рису в супермаркетах и ресторанах по всему миру.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "200 г бурого риса",
+     "500 мл воды",
+     "½ ч. л. соли"
+    ],
+    "steps": [
+     "Промойте рис в сите, пока вода не станет прозрачнее.",
+     "Доведите воду с солью до кипения, добавьте рис, накройте крышкой и варите на слабом огне 35–40 минут, пока вода не впитается.",
+     "Снимите с огня и оставьте под крышкой на 10 минут, затем разрыхлите вилкой."
+    ]
+   },
+   "tips": [
+    "Взвешивайте готовым: порция 150 г — это около 185 ккал, размером с кулак.",
+    "Заполните половину тарелки овощами, а на рис оставьте четверть.",
+    "Варите в простой воде и добавляйте вкус травами и лимоном вместо масла — 1 ст. л. масла ≈ 120 ккал."
+   ],
+   "name_inline": "бурый рис"
+  },
+  "es": {
+   "name": "Arroz integral",
+   "origin": "Todo el mundo",
+   "intro": "El arroz integral es arroz de grano entero al que solo se le ha quitado la cáscara exterior no comestible, por lo que el salvado y el germen permanecen en el grano. Hervido en agua con sal queda tierno, pero conserva una agradable textura masticable y un sabor suave, parecido al de las nueces. Se sirve como guarnición sencilla para currys, salteados, carne a la parrilla y pescado, o como base de bowls y ensaladas de cereales.",
+   "history": "El arroz integral se come dondequiera que se cultiva arroz y hoy es una alternativa común al arroz blanco en supermercados y restaurantes de todo el mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "200 g de arroz integral",
+     "500 ml de agua",
+     "½ cdta. de sal"
+    ],
+    "steps": [
+     "Enjuaga el arroz en un colador hasta que el agua salga más clara.",
+     "Lleva a ebullición el agua con la sal, añade el arroz, tapa y cocina a fuego bajo de 35 a 40 minutos, hasta que se absorba el agua.",
+     "Retira del fuego y deja tapado 10 minutos; después esponja con un tenedor."
+    ]
+   },
+   "tips": [
+    "Pésalo cocido: una porción de 150 g son unas 185 kcal, aproximadamente el tamaño de un puño.",
+    "Llena la mitad del plato con verduras y deja el arroz en un cuarto.",
+    "Cocínalo en agua sola y dale sabor con hierbas y limón en lugar de aceite: 1 cda. de aceite ≈ 120 kcal."
+   ],
+   "name_inline": "el arroz integral"
   }
+ }
 }

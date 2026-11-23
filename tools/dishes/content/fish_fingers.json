@@ -1,161 +1,191 @@
 {
-  "db_key": "fish_fingers",
-  "slug": "fish-fingers",
-  "emoji": "🐟",
-  "portion_g": 150,
-  "country": "GB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fish_fingers",
+ "slug": "fish-fingers",
+ "emoji": "🐟",
+ "portion_g": 150,
+ "country": "GB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fish fingers",
+   "origin": "United Kingdom",
+   "intro": "Fish fingers are strips of white fish coated in flour, beaten egg and breadcrumbs, then fried until the crumb is crisp and golden. Inside, the fish is soft, mild and flaky, which makes them a family favourite, especially with children. They are served with chips or mashed potato and peas, or tucked into a sandwich with lettuce.",
+   "history": "Fish fingers were launched as a frozen product in Britain in the 1950s and quickly became a household staple; in North America the same food is known as fish sticks.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g skinless white fish fillets",
+     "50 g flour",
+     "2 eggs, beaten",
+     "100 g breadcrumbs",
+     "Oil for frying",
+     "Salt, pepper and lemon wedges"
+    ],
+    "steps": [
+     "Cut the fish into fingers about 2 cm wide and season with salt and pepper.",
+     "Roll each piece in flour, dip in beaten egg, then press into the breadcrumbs.",
+     "Fry in 1 cm of hot oil for 2–3 minutes per side until golden; drain on paper.",
+     "Serve with lemon wedges and peas or salad."
+    ]
+   },
+   "tips": [
+    "Bake them at 220 °C on a lightly oiled tray for 15 minutes instead of frying.",
+    "Serve with peas and salad instead of chips.",
+    "Use a thin coat of crumbs and shake off the excess."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fish fingers",
-      "origin": "United Kingdom",
-      "intro": "Fish fingers are strips of white fish coated in flour, beaten egg and breadcrumbs, then fried until the crumb is crisp and golden. Inside, the fish is soft, mild and flaky, which makes them a family favourite, especially with children. They are served with chips or mashed potato and peas, or tucked into a sandwich with lettuce.",
-      "history": "Fish fingers were launched as a frozen product in Britain in the 1950s and quickly became a household staple; in North America the same food is known as fish sticks.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 g skinless white fish fillets",
-          "50 g flour",
-          "2 eggs, beaten",
-          "100 g breadcrumbs",
-          "Oil for frying",
-          "Salt, pepper and lemon wedges"
-        ],
-        "steps": [
-          "Cut the fish into fingers about 2 cm wide and season with salt and pepper.",
-          "Roll each piece in flour, dip in beaten egg, then press into the breadcrumbs.",
-          "Fry in 1 cm of hot oil for 2–3 minutes per side until golden; drain on paper.",
-          "Serve with lemon wedges and peas or salad."
-        ]
-      },
-      "tips": [
-        "Bake them at 220 °C on a lightly oiled tray for 15 minutes instead of frying.",
-        "Serve with peas and salad instead of chips.",
-        "Use a thin coat of crumbs and shake off the excess."
-      ]
-    },
-    "ar": {
-      "name": "أصابع السمك",
-      "origin": "المملكة المتحدة",
-      "intro": "أصابع السمك شرائح من السمك الأبيض تُغطّى بالدقيق والبيض المخفوق والبقسماط، ثم تُقلى حتى يصبح الغلاف ذهبيًا مقرمشًا. السمك في الداخل طري وخفيف الطعم ويتفتت بسهولة، ولذلك هي محبوبة في العائلات، خاصة لدى الأطفال. تُقدَّم مع البطاطس المقلية أو المهروسة والبازلاء، أو داخل سندويتش مع الخس.",
-      "history": "طُرحت أصابع السمك كمنتج مجمّد في بريطانيا في خمسينيات القرن العشرين وسرعان ما أصبحت أساسية في البيوت؛ وتُعرف في أمريكا الشمالية باسم «فيش ستيكس».",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 غ فيليه سمك أبيض بلا جلد",
-          "50 غ دقيق",
-          "بيضتان مخفوقتان",
-          "100 غ بقسماط",
-          "زيت للقلي",
-          "ملح وفلفل وشرائح ليمون"
-        ],
-        "steps": [
-          "قطّع السمك أصابع بعرض 2 سم تقريبًا وتبّله بالملح والفلفل.",
-          "لُفّ كل قطعة في الدقيق ثم اغمسها في البيض ثم اضغطها في البقسماط.",
-          "اقلها في 1 سم من الزيت الساخن 2–3 دقائق لكل جهة حتى تتحمّر، ثم صفّها على ورق.",
-          "قدّمها مع الليمون والبازلاء أو السلطة."
-        ]
-      },
-      "tips": [
-        "اخبزها على 220 °م في صينية مدهونة بقليل من الزيت 15 دقيقة بدلًا من القلي.",
-        "قدّمها مع البازلاء والسلطة بدلًا من البطاطس المقلية.",
-        "اجعل طبقة البقسماط رقيقة وانفض الزائد."
-      ]
-    },
-    "it": {
-      "name": "Bastoncini di pesce",
-      "name_inline": "bastoncini di pesce",
-      "origin": "Regno Unito",
-      "intro": "I bastoncini di pesce sono strisce di pesce bianco passate nella farina, nell'uovo sbattuto e nel pangrattato, poi fritte finché la panatura è croccante e dorata. All'interno il pesce è morbido, delicato e si sfalda, il che li rende uno dei piatti preferiti dalle famiglie, soprattutto dai bambini. Si servono con patatine o purè di patate e piselli, oppure infilati in un panino con la lattuga.",
-      "history": "I bastoncini di pesce sono stati lanciati come prodotto surgelato in Gran Bretagna negli anni '50 e sono rapidamente diventati un alimento di casa; in Nord America lo stesso cibo è noto come fish sticks.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 g di filetti di pesce bianco senza pelle",
-          "50 g di farina",
-          "2 uova sbattute",
-          "100 g di pangrattato",
-          "Olio per friggere",
-          "Sale, pepe e spicchi di limone"
-        ],
-        "steps": [
-          "Taglia il pesce a bastoncini larghi circa 2 cm e condiscili con sale e pepe.",
-          "Passa ogni pezzo nella farina, poi nell'uovo sbattuto e infine premilo nel pangrattato.",
-          "Friggi in 1 cm di olio caldo per 2–3 minuti per lato finché sono dorati; scolali su carta assorbente.",
-          "Servi con spicchi di limone e piselli o insalata."
-        ]
-      },
-      "tips": [
-        "Cuocili in forno a 220 °C su una teglia leggermente unta per 15 minuti invece di friggerli.",
-        "Servili con piselli e insalata invece delle patatine.",
-        "Usa uno strato sottile di pangrattato ed elimina l'eccesso scuotendoli."
-      ]
-    },
-    "el": {
-      "name": "Ψαράκια πανέ",
-      "origin": "Ηνωμένο Βασίλειο",
-      "intro": "Τα ψαράκια πανέ (fish fingers) είναι λωρίδες λευκού ψαριού περασμένες από αλεύρι, χτυπημένο αυγό και γαλέτα και τηγανισμένες μέχρι η κρούστα να γίνει τραγανή και χρυσαφένια. Μέσα το ψάρι είναι μαλακό, ήπιο και ξεφλουδίζει, γι' αυτό είναι αγαπημένο οικογενειακό φαγητό, ιδιαίτερα των παιδιών. Σερβίρονται με τηγανητές πατάτες ή πουρέ πατάτας και αρακά, ή μέσα σε σάντουιτς με μαρούλι.",
-      "history": "Τα ψαράκια πανέ κυκλοφόρησαν ως κατεψυγμένο προϊόν στη Βρετανία τη δεκαετία του 1950 και γρήγορα έγιναν βασικό τρόφιμο του σπιτιού· στη Βόρεια Αμερική το ίδιο φαγητό είναι γνωστό ως fish sticks.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 γρ. φιλέτα λευκού ψαριού χωρίς πέτσα",
-          "50 γρ. αλεύρι",
-          "2 αυγά, χτυπημένα",
-          "100 γρ. γαλέτα τριμμένη",
-          "Λάδι για τηγάνισμα",
-          "Αλάτι, πιπέρι και φέτες λεμονιού"
-        ],
-        "steps": [
-          "Κόψτε το ψάρι σε λωρίδες πλάτους περίπου 2 εκ. και αλατοπιπερώστε.",
-          "Περάστε κάθε κομμάτι από το αλεύρι, βουτήξτε το στο χτυπημένο αυγό και έπειτα πιέστε το στη γαλέτα.",
-          "Τηγανίστε σε 1 εκ. καυτό λάδι για 2–3 λεπτά από κάθε πλευρά μέχρι να ροδίσουν· στραγγίξτε σε χαρτί.",
-          "Σερβίρετε με φέτες λεμονιού και αρακά ή σαλάτα."
-        ]
-      },
-      "tips": [
-        "Ψήστε τα στους 220 °C σε ελαφρά λαδωμένο ταψί για 15 λεπτά αντί να τα τηγανίσετε.",
-        "Σερβίρετε με αρακά και σαλάτα αντί για τηγανητές πατάτες.",
-        "Βάλτε λεπτή στρώση γαλέτας και τινάξτε την περίσσεια."
-      ]
-    },
-    "ru": {
-      "name": "Рыбные палочки",
-      "origin": "Великобритания",
-      "intro": "Рыбные палочки — полоски белой рыбы, обваленные в муке, взбитом яйце и панировочных сухарях, а затем обжаренные до хрустящей золотистой корочки. Внутри рыба мягкая, нежная и слоистая, поэтому они — семейное любимое блюдо, особенно у детей. Их подают с картофелем фри или картофельным пюре и горошком или кладут в сэндвич с салатом.",
-      "history": "Рыбные палочки появились как замороженный продукт в Великобритании в 1950-х годах и быстро стали обычным продуктом в каждом доме; в Северной Америке эту же еду называют fish sticks.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 г белой рыбы без кожи",
-          "50 г муки",
-          "2 яйца, взбитых",
-          "100 г панировочных сухарей",
-          "Масло для жарки",
-          "Соль, перец и дольки лимона"
-        ],
-        "steps": [
-          "Нарежьте рыбу палочками шириной около 2 см, посолите и поперчите.",
-          "Обваляйте каждый кусочек в муке, обмакните во взбитое яйцо, затем вдавите в панировочные сухари.",
-          "Жарьте в 1 см горячего масла по 2–3 минуты с каждой стороны до золотистого цвета; обсушите на бумаге.",
-          "Подавайте с дольками лимона и горошком или салатом."
-        ]
-      },
-      "tips": [
-        "Запекайте их при 220 °C на слегка смазанном маслом противне 15 минут вместо жарки.",
-        "Подавайте с горошком и салатом, а не с картофелем фри.",
-        "Используйте тонкий слой сухарей и стряхивайте излишки."
-      ],
-      "name_inline": "рыбные палочки"
-    }
+  "ar": {
+   "name": "أصابع السمك",
+   "origin": "المملكة المتحدة",
+   "intro": "أصابع السمك شرائح من السمك الأبيض تُغطّى بالدقيق والبيض المخفوق والبقسماط، ثم تُقلى حتى يصبح الغلاف ذهبيًا مقرمشًا. السمك في الداخل طري وخفيف الطعم ويتفتت بسهولة، ولذلك هي محبوبة في العائلات، خاصة لدى الأطفال. تُقدَّم مع البطاطس المقلية أو المهروسة والبازلاء، أو داخل سندويتش مع الخس.",
+   "history": "طُرحت أصابع السمك كمنتج مجمّد في بريطانيا في خمسينيات القرن العشرين وسرعان ما أصبحت أساسية في البيوت؛ وتُعرف في أمريكا الشمالية باسم «فيش ستيكس».",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 غ فيليه سمك أبيض بلا جلد",
+     "50 غ دقيق",
+     "بيضتان مخفوقتان",
+     "100 غ بقسماط",
+     "زيت للقلي",
+     "ملح وفلفل وشرائح ليمون"
+    ],
+    "steps": [
+     "قطّع السمك أصابع بعرض 2 سم تقريبًا وتبّله بالملح والفلفل.",
+     "لُفّ كل قطعة في الدقيق ثم اغمسها في البيض ثم اضغطها في البقسماط.",
+     "اقلها في 1 سم من الزيت الساخن 2–3 دقائق لكل جهة حتى تتحمّر، ثم صفّها على ورق.",
+     "قدّمها مع الليمون والبازلاء أو السلطة."
+    ]
+   },
+   "tips": [
+    "اخبزها على 220 °م في صينية مدهونة بقليل من الزيت 15 دقيقة بدلًا من القلي.",
+    "قدّمها مع البازلاء والسلطة بدلًا من البطاطس المقلية.",
+    "اجعل طبقة البقسماط رقيقة وانفض الزائد."
+   ]
+  },
+  "it": {
+   "name": "Bastoncini di pesce",
+   "name_inline": "bastoncini di pesce",
+   "origin": "Regno Unito",
+   "intro": "I bastoncini di pesce sono strisce di pesce bianco passate nella farina, nell'uovo sbattuto e nel pangrattato, poi fritte finché la panatura è croccante e dorata. All'interno il pesce è morbido, delicato e si sfalda, il che li rende uno dei piatti preferiti dalle famiglie, soprattutto dai bambini. Si servono con patatine o purè di patate e piselli, oppure infilati in un panino con la lattuga.",
+   "history": "I bastoncini di pesce sono stati lanciati come prodotto surgelato in Gran Bretagna negli anni '50 e sono rapidamente diventati un alimento di casa; in Nord America lo stesso cibo è noto come fish sticks.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g di filetti di pesce bianco senza pelle",
+     "50 g di farina",
+     "2 uova sbattute",
+     "100 g di pangrattato",
+     "Olio per friggere",
+     "Sale, pepe e spicchi di limone"
+    ],
+    "steps": [
+     "Taglia il pesce a bastoncini larghi circa 2 cm e condiscili con sale e pepe.",
+     "Passa ogni pezzo nella farina, poi nell'uovo sbattuto e infine premilo nel pangrattato.",
+     "Friggi in 1 cm di olio caldo per 2–3 minuti per lato finché sono dorati; scolali su carta assorbente.",
+     "Servi con spicchi di limone e piselli o insalata."
+    ]
+   },
+   "tips": [
+    "Cuocili in forno a 220 °C su una teglia leggermente unta per 15 minuti invece di friggerli.",
+    "Servili con piselli e insalata invece delle patatine.",
+    "Usa uno strato sottile di pangrattato ed elimina l'eccesso scuotendoli."
+   ]
+  },
+  "el": {
+   "name": "Ψαράκια πανέ",
+   "origin": "Ηνωμένο Βασίλειο",
+   "intro": "Τα ψαράκια πανέ (fish fingers) είναι λωρίδες λευκού ψαριού περασμένες από αλεύρι, χτυπημένο αυγό και γαλέτα και τηγανισμένες μέχρι η κρούστα να γίνει τραγανή και χρυσαφένια. Μέσα το ψάρι είναι μαλακό, ήπιο και ξεφλουδίζει, γι' αυτό είναι αγαπημένο οικογενειακό φαγητό, ιδιαίτερα των παιδιών. Σερβίρονται με τηγανητές πατάτες ή πουρέ πατάτας και αρακά, ή μέσα σε σάντουιτς με μαρούλι.",
+   "history": "Τα ψαράκια πανέ κυκλοφόρησαν ως κατεψυγμένο προϊόν στη Βρετανία τη δεκαετία του 1950 και γρήγορα έγιναν βασικό τρόφιμο του σπιτιού· στη Βόρεια Αμερική το ίδιο φαγητό είναι γνωστό ως fish sticks.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 γρ. φιλέτα λευκού ψαριού χωρίς πέτσα",
+     "50 γρ. αλεύρι",
+     "2 αυγά, χτυπημένα",
+     "100 γρ. γαλέτα τριμμένη",
+     "Λάδι για τηγάνισμα",
+     "Αλάτι, πιπέρι και φέτες λεμονιού"
+    ],
+    "steps": [
+     "Κόψτε το ψάρι σε λωρίδες πλάτους περίπου 2 εκ. και αλατοπιπερώστε.",
+     "Περάστε κάθε κομμάτι από το αλεύρι, βουτήξτε το στο χτυπημένο αυγό και έπειτα πιέστε το στη γαλέτα.",
+     "Τηγανίστε σε 1 εκ. καυτό λάδι για 2–3 λεπτά από κάθε πλευρά μέχρι να ροδίσουν· στραγγίξτε σε χαρτί.",
+     "Σερβίρετε με φέτες λεμονιού και αρακά ή σαλάτα."
+    ]
+   },
+   "tips": [
+    "Ψήστε τα στους 220 °C σε ελαφρά λαδωμένο ταψί για 15 λεπτά αντί να τα τηγανίσετε.",
+    "Σερβίρετε με αρακά και σαλάτα αντί για τηγανητές πατάτες.",
+    "Βάλτε λεπτή στρώση γαλέτας και τινάξτε την περίσσεια."
+   ]
+  },
+  "ru": {
+   "name": "Рыбные палочки",
+   "origin": "Великобритания",
+   "intro": "Рыбные палочки — полоски белой рыбы, обваленные в муке, взбитом яйце и панировочных сухарях, а затем обжаренные до хрустящей золотистой корочки. Внутри рыба мягкая, нежная и слоистая, поэтому они — семейное любимое блюдо, особенно у детей. Их подают с картофелем фри или картофельным пюре и горошком или кладут в сэндвич с салатом.",
+   "history": "Рыбные палочки появились как замороженный продукт в Великобритании в 1950-х годах и быстро стали обычным продуктом в каждом доме; в Северной Америке эту же еду называют fish sticks.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 г белой рыбы без кожи",
+     "50 г муки",
+     "2 яйца, взбитых",
+     "100 г панировочных сухарей",
+     "Масло для жарки",
+     "Соль, перец и дольки лимона"
+    ],
+    "steps": [
+     "Нарежьте рыбу палочками шириной около 2 см, посолите и поперчите.",
+     "Обваляйте каждый кусочек в муке, обмакните во взбитое яйцо, затем вдавите в панировочные сухари.",
+     "Жарьте в 1 см горячего масла по 2–3 минуты с каждой стороны до золотистого цвета; обсушите на бумаге.",
+     "Подавайте с дольками лимона и горошком или салатом."
+    ]
+   },
+   "tips": [
+    "Запекайте их при 220 °C на слегка смазанном маслом противне 15 минут вместо жарки.",
+    "Подавайте с горошком и салатом, а не с картофелем фри.",
+    "Используйте тонкий слой сухарей и стряхивайте излишки."
+   ],
+   "name_inline": "рыбные палочки"
+  },
+  "es": {
+   "name": "Palitos de pescado",
+   "origin": "Reino Unido",
+   "intro": "Los palitos de pescado son tiras de pescado blanco cubiertas con harina, huevo batido y pan molido, y fritas hasta que el empanizado queda crujiente y dorado. Por dentro, el pescado es suave, de sabor delicado y se deshace en lascas, lo que los vuelve un favorito de la familia, sobre todo de los niños. Se sirven con papas fritas o puré de papa y chícharos, o dentro de un sándwich con lechuga.",
+   "history": "Los palitos de pescado se lanzaron como producto congelado en Gran Bretaña en la década de 1950 y pronto se volvieron un básico en los hogares; en América del Norte, el mismo alimento se conoce como fish sticks.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g de filetes de pescado blanco, sin piel",
+     "50 g de harina",
+     "2 huevos, batidos",
+     "100 g de pan molido",
+     "Aceite para freír",
+     "Sal, pimienta y gajos de limón"
+    ],
+    "steps": [
+     "Corta el pescado en tiras de unos 2 cm de ancho y sazónalas con sal y pimienta.",
+     "Pasa cada trozo por harina, sumérgelo en el huevo batido y presiónalo contra el pan molido.",
+     "Fríelos en 1 cm de aceite caliente de 2 a 3 minutos por lado, hasta que estén dorados; escúrrelos sobre papel.",
+     "Sirve con gajos de limón y chícharos o ensalada."
+    ]
+   },
+   "tips": [
+    "Hornéalos a 220 °C sobre una charola ligeramente engrasada durante 15 minutos en lugar de freírlos.",
+    "Acompáñalos con chícharos y ensalada en lugar de papas fritas.",
+    "Usa una capa fina de pan molido y sacude el exceso."
+   ],
+   "name_inline": "los palitos de pescado"
   }
+ }
 }

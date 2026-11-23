@@ -1,180 +1,214 @@
 {
-  "db_key": "kimbap",
-  "slug": "kimbap",
-  "emoji": "🍙",
-  "portion_g": 230,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kimbap",
+ "slug": "kimbap",
+ "emoji": "🍙",
+ "portion_g": 230,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kimbap",
+   "origin": "South Korea",
+   "intro": "Kimbap is a Korean seaweed rice roll: short-grain rice seasoned with sesame oil and salt is spread on a sheet of nori, lined with strips of seasoned beef, blanched spinach, carrot and yellow pickled radish, then rolled tightly and sliced into rounds. Each bite is mildly savory, nutty and crunchy. It is a classic picnic and lunchbox food, eaten at room temperature.",
+   "history": "Kimbap is one of the most common snack and picnic foods in South Korea, sold in dedicated kimbap shops and convenience stores and packed for school outings.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 g cooked short-grain rice",
+     "4 sheets nori",
+     "200 g lean beef, thinly sliced",
+     "150 g spinach",
+     "1 carrot",
+     "4 strips yellow pickled radish",
+     "2 tbsp sesame oil",
+     "1 garlic clove",
+     "Salt, 1 tsp sugar"
+    ],
+    "steps": [
+     "Season the warm rice with 1 tbsp sesame oil and a pinch of salt.",
+     "Stir-fry the beef with crushed garlic, sugar, salt and a few drops of sesame oil.",
+     "Blanch spinach, squeeze dry and season with salt and sesame oil; cut carrot into thin sticks and sauté briefly.",
+     "Spread rice thinly over each nori sheet, leaving 2 cm at the top, line up the fillings and roll tightly.",
+     "Brush the roll with the remaining sesame oil and slice into 1.5 cm rounds."
+    ]
+   },
+   "tips": [
+    "Spread the rice thinner and add more spinach and carrot.",
+    "Brush only the outside of the roll with sesame oil — 1 tbsp oil ≈ 120 kcal.",
+    "One roll of 8–10 slices is a full meal; pair it with a clear vegetable soup rather than a second roll."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kimbap",
-      "origin": "South Korea",
-      "intro": "Kimbap is a Korean seaweed rice roll: short-grain rice seasoned with sesame oil and salt is spread on a sheet of nori, lined with strips of seasoned beef, blanched spinach, carrot and yellow pickled radish, then rolled tightly and sliced into rounds. Each bite is mildly savory, nutty and crunchy. It is a classic picnic and lunchbox food, eaten at room temperature.",
-      "history": "Kimbap is one of the most common snack and picnic foods in South Korea, sold in dedicated kimbap shops and convenience stores and packed for school outings.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 g cooked short-grain rice",
-          "4 sheets nori",
-          "200 g lean beef, thinly sliced",
-          "150 g spinach",
-          "1 carrot",
-          "4 strips yellow pickled radish",
-          "2 tbsp sesame oil",
-          "1 garlic clove",
-          "Salt, 1 tsp sugar"
-        ],
-        "steps": [
-          "Season the warm rice with 1 tbsp sesame oil and a pinch of salt.",
-          "Stir-fry the beef with crushed garlic, sugar, salt and a few drops of sesame oil.",
-          "Blanch spinach, squeeze dry and season with salt and sesame oil; cut carrot into thin sticks and sauté briefly.",
-          "Spread rice thinly over each nori sheet, leaving 2 cm at the top, line up the fillings and roll tightly.",
-          "Brush the roll with the remaining sesame oil and slice into 1.5 cm rounds."
-        ]
-      },
-      "tips": [
-        "Spread the rice thinner and add more spinach and carrot.",
-        "Brush only the outside of the roll with sesame oil — 1 tbsp oil ≈ 120 kcal.",
-        "One roll of 8–10 slices is a full meal; pair it with a clear vegetable soup rather than a second roll."
-      ]
-    },
-    "ar": {
-      "name": "كيمباب",
-      "origin": "كوريا الجنوبية",
-      "intro": "الكيمباب لفائف أرز كورية بالأعشاب البحرية: أرز قصير الحبة متبّل بزيت السمسم والملح يُفرد على ورقة نوري، وتوضع عليه شرائح لحم بقري متبل وسبانخ مسلوقة وجزر وفجل مخلل أصفر، ثم يُلف بإحكام ويُقطّع دوائر. كل لقمة مالحة بلطف بنكهة جوزية وقوام مقرمش. وهو طعام كلاسيكي للنزهات وعلب الغداء، ويؤكل بحرارة الغرفة.",
-      "history": "الكيمباب من أكثر الوجبات الخفيفة وأطعمة النزهات شيوعاً في كوريا الجنوبية، ويُباع في محلات متخصصة ومتاجر صغيرة ويُحضَّر للرحلات المدرسية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 غ أرز قصير الحبة مطبوخ",
-          "4 أوراق نوري",
-          "200 غ لحم بقري قليل الدهن مقطع شرائح رقيقة",
-          "150 غ سبانخ",
-          "1 جزرة",
-          "4 أصابع فجل مخلل أصفر",
-          "2 ملعقة كبيرة زيت سمسم",
-          "1 فص ثوم",
-          "ملح، 1 ملعقة صغيرة سكر"
-        ],
-        "steps": [
-          "تبّل الأرز الدافئ بملعقة زيت سمسم ورشة ملح.",
-          "قلّب اللحم مع الثوم المهروس والسكر والملح وقطرات من زيت السمسم.",
-          "اسلق السبانخ سريعاً واعصرها وتبّلها بالملح وزيت السمسم، وقطّع الجزرة أصابع رفيعة وقلّبها قليلاً.",
-          "افرد الأرز رقيقاً على كل ورقة نوري مع ترك 2 سم في الأعلى، ورتّب الحشوات ولُفّها بإحكام.",
-          "ادهن اللفافة بباقي زيت السمسم وقطّعها دوائر بسماكة 1.5 سم."
-        ]
-      },
-      "tips": [
-        "افرد الأرز أرق وزِد السبانخ والجزر.",
-        "ادهن الخارج فقط بزيت السمسم — ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "لفافة واحدة من 8–10 قطع وجبة كاملة؛ أضف حساء خضار صافياً بدل لفافة ثانية."
-      ]
-    },
-    "it": {
-      "name": "Kimbap",
-      "origin": "Corea del Sud",
-      "intro": "Il kimbap è un rotolo coreano di riso e alga: riso a chicco tondo condito con olio di sesamo e sale viene steso su un foglio di nori, guarnito con strisce di manzo insaporito, spinaci sbollentati, carota e ravanello giallo in salamoia, poi arrotolato stretto e tagliato a rondelle. Ogni boccone è delicatamente sapido, dal gusto di frutta secca e croccante. È un classico da picnic e da pranzo al sacco, e si mangia a temperatura ambiente.",
-      "history": "Il kimbap è uno degli snack e dei cibi da picnic più comuni in Corea del Sud, venduto in negozi specializzati e minimarket e preparato per le gite scolastiche.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 g di riso a chicco tondo cotto",
-          "4 fogli di nori",
-          "200 g di manzo magro a fettine sottili",
-          "150 g di spinaci",
-          "1 carota",
-          "4 strisce di ravanello giallo in salamoia",
-          "2 cucchiai di olio di sesamo",
-          "1 spicchio d'aglio",
-          "Sale, 1 cucchiaino di zucchero"
-        ],
-        "steps": [
-          "Condisci il riso tiepido con 1 cucchiaio di olio di sesamo e un pizzico di sale.",
-          "Salta il manzo in padella con l'aglio schiacciato, lo zucchero, il sale e qualche goccia di olio di sesamo.",
-          "Sbollenta gli spinaci, strizzali e condiscili con sale e olio di sesamo; taglia la carota a bastoncini sottili e saltala brevemente.",
-          "Stendi uno strato sottile di riso su ogni foglio di nori, lasciando libero 2 cm in alto, allinea i ripieni e arrotola stretto.",
-          "Spennella il rotolo con l'olio di sesamo rimasto e taglialo a rondelle di 1,5 cm."
-        ]
-      },
-      "tips": [
-        "Stendi il riso più sottile e aggiungi più spinaci e carota.",
-        "Spennella con olio di sesamo solo l'esterno del rotolo: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Un rotolo da 8–10 fette è un pasto completo; abbinalo a una zuppa di verdure leggera invece che a un secondo rotolo."
-      ]
-    },
-    "el": {
-      "name": "Κίμπαπ",
-      "origin": "Νότια Κορέα",
-      "intro": "Το κίμπαπ είναι κορεάτικο ρολό ρυζιού με φύκι: στρογγυλόσπυρο ρύζι καρυκευμένο με σησαμέλαιο και αλάτι απλώνεται σε φύλλο νόρι, γεμίζεται με λωρίδες καρυκευμένου μοσχαριού, ζεματισμένο σπανάκι, καρότο και κίτρινο τουρσί ραπανάκι και έπειτα τυλίγεται σφιχτά και κόβεται σε ροδέλες. Κάθε μπουκιά είναι ήπια αλμυρή, με γεύση ξηρών καρπών και τραγανή. Είναι κλασικό φαγητό για πικνίκ και τάπερ και τρώγεται σε θερμοκρασία δωματίου.",
-      "history": "Το κίμπαπ είναι ένα από τα πιο συνηθισμένα σνακ και φαγητά για πικνίκ στη Νότια Κορέα, πωλείται σε ειδικά μαγαζιά κίμπαπ και σε μίνι μάρκετ και ετοιμάζεται για τις σχολικές εκδρομές.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 γρ. μαγειρεμένο στρογγυλόσπυρο ρύζι",
-          "4 φύλλα νόρι",
-          "200 γρ. άπαχο μοσχάρι, σε λεπτές φέτες",
-          "150 γρ. σπανάκι",
-          "1 καρότο",
-          "4 λωρίδες κίτρινο τουρσί ραπανάκι",
-          "2 κ.σ. σησαμέλαιο",
-          "1 σκελίδα σκόρδο",
-          "Αλάτι, 1 κ.γ. ζάχαρη"
-        ],
-        "steps": [
-          "Καρυκεύστε το ζεστό ρύζι με 1 κ.σ. σησαμέλαιο και μια πρέζα αλάτι.",
-          "Σοτάρετε το μοσχάρι με λιωμένο σκόρδο, ζάχαρη, αλάτι και λίγες σταγόνες σησαμέλαιο.",
-          "Ζεματίστε το σπανάκι, στύψτε το και καρυκεύστε με αλάτι και σησαμέλαιο· κόψτε το καρότο σε λεπτά μπαστουνάκια και σοτάρετε για λίγο.",
-          "Απλώστε λεπτό στρώμα ρυζιού σε κάθε φύλλο νόρι αφήνοντας 2 εκ. ελεύθερα στο πάνω μέρος, αραδιάστε τις γεμίσεις και τυλίξτε σφιχτά.",
-          "Αλείψτε το ρολό με το υπόλοιπο σησαμέλαιο και κόψτε σε ροδέλες 1,5 εκ."
-        ]
-      },
-      "tips": [
-        "Απλώστε το ρύζι πιο λεπτό και προσθέστε περισσότερο σπανάκι και καρότο.",
-        "Αλείψτε με σησαμέλαιο μόνο το εξωτερικό του ρολού — 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Ένα ρολό των 8–10 φετών είναι πλήρες γεύμα· συνδυάστε το με μια ελαφριά σούπα λαχανικών αντί για δεύτερο ρολό."
-      ]
-    },
-    "ru": {
-      "name": "Кимбап",
-      "origin": "Южная Корея",
-      "intro": "Кимбап — корейский рулет из риса в водорослях: короткозёрный рис, приправленный кунжутным маслом и солью, раскладывают на листе нори, выкладывают полосками приправленной говядины, бланшированного шпината, моркови и жёлтой маринованной редьки, затем туго скручивают и нарезают кружками. Каждый кусочек слегка пикантный, ореховый и хрустящий. Это классическая еда для пикника и ланчбокса, её едят при комнатной температуре.",
-      "history": "Кимбап — одна из самых распространённых закусок и еды для пикника в Южной Корее, его продают в специальных кимбап-лавках и круглосуточных магазинах и берут с собой на школьные экскурсии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 г варёного короткозёрного риса",
-          "4 листа нори",
-          "200 г постной говядины, тонко нарезанной",
-          "150 г шпината",
-          "1 морковь",
-          "4 полоски жёлтой маринованной редьки",
-          "2 ст. л. кунжутного масла",
-          "1 зубчик чеснока",
-          "Соль, 1 ч. л. сахара"
-        ],
-        "steps": [
-          "Приправьте тёплый рис 1 ст. л. кунжутного масла и щепоткой соли.",
-          "Обжарьте говядину с раздавленным чесноком, сахаром, солью и несколькими каплями кунжутного масла.",
-          "Бланшируйте шпинат, отожмите и приправьте солью и кунжутным маслом; нарежьте морковь тонкой соломкой и коротко обжарьте.",
-          "Тонко распределите рис по каждому листу нори, оставив 2 см сверху, выложите начинки в ряд и туго скрутите.",
-          "Смажьте рулет оставшимся кунжутным маслом и нарежьте кружками по 1,5 см."
-        ]
-      },
-      "tips": [
-        "Распределяйте рис тоньше и добавьте больше шпината и моркови.",
-        "Смазывайте кунжутным маслом только внешнюю сторону рулета — 1 ст. л. масла ≈ 120 ккал.",
-        "Один рулет из 8–10 кусочков — полноценный приём пищи; сочетайте его с прозрачным овощным супом, а не со вторым рулетом."
-      ],
-      "name_inline": "кимбап"
-    }
+  "ar": {
+   "name": "كيمباب",
+   "origin": "كوريا الجنوبية",
+   "intro": "الكيمباب لفائف أرز كورية بالأعشاب البحرية: أرز قصير الحبة متبّل بزيت السمسم والملح يُفرد على ورقة نوري، وتوضع عليه شرائح لحم بقري متبل وسبانخ مسلوقة وجزر وفجل مخلل أصفر، ثم يُلف بإحكام ويُقطّع دوائر. كل لقمة مالحة بلطف بنكهة جوزية وقوام مقرمش. وهو طعام كلاسيكي للنزهات وعلب الغداء، ويؤكل بحرارة الغرفة.",
+   "history": "الكيمباب من أكثر الوجبات الخفيفة وأطعمة النزهات شيوعاً في كوريا الجنوبية، ويُباع في محلات متخصصة ومتاجر صغيرة ويُحضَّر للرحلات المدرسية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 غ أرز قصير الحبة مطبوخ",
+     "4 أوراق نوري",
+     "200 غ لحم بقري قليل الدهن مقطع شرائح رقيقة",
+     "150 غ سبانخ",
+     "1 جزرة",
+     "4 أصابع فجل مخلل أصفر",
+     "2 ملعقة كبيرة زيت سمسم",
+     "1 فص ثوم",
+     "ملح، 1 ملعقة صغيرة سكر"
+    ],
+    "steps": [
+     "تبّل الأرز الدافئ بملعقة زيت سمسم ورشة ملح.",
+     "قلّب اللحم مع الثوم المهروس والسكر والملح وقطرات من زيت السمسم.",
+     "اسلق السبانخ سريعاً واعصرها وتبّلها بالملح وزيت السمسم، وقطّع الجزرة أصابع رفيعة وقلّبها قليلاً.",
+     "افرد الأرز رقيقاً على كل ورقة نوري مع ترك 2 سم في الأعلى، ورتّب الحشوات ولُفّها بإحكام.",
+     "ادهن اللفافة بباقي زيت السمسم وقطّعها دوائر بسماكة 1.5 سم."
+    ]
+   },
+   "tips": [
+    "افرد الأرز أرق وزِد السبانخ والجزر.",
+    "ادهن الخارج فقط بزيت السمسم — ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "لفافة واحدة من 8–10 قطع وجبة كاملة؛ أضف حساء خضار صافياً بدل لفافة ثانية."
+   ]
+  },
+  "it": {
+   "name": "Kimbap",
+   "origin": "Corea del Sud",
+   "intro": "Il kimbap è un rotolo coreano di riso e alga: riso a chicco tondo condito con olio di sesamo e sale viene steso su un foglio di nori, guarnito con strisce di manzo insaporito, spinaci sbollentati, carota e ravanello giallo in salamoia, poi arrotolato stretto e tagliato a rondelle. Ogni boccone è delicatamente sapido, dal gusto di frutta secca e croccante. È un classico da picnic e da pranzo al sacco, e si mangia a temperatura ambiente.",
+   "history": "Il kimbap è uno degli snack e dei cibi da picnic più comuni in Corea del Sud, venduto in negozi specializzati e minimarket e preparato per le gite scolastiche.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 g di riso a chicco tondo cotto",
+     "4 fogli di nori",
+     "200 g di manzo magro a fettine sottili",
+     "150 g di spinaci",
+     "1 carota",
+     "4 strisce di ravanello giallo in salamoia",
+     "2 cucchiai di olio di sesamo",
+     "1 spicchio d'aglio",
+     "Sale, 1 cucchiaino di zucchero"
+    ],
+    "steps": [
+     "Condisci il riso tiepido con 1 cucchiaio di olio di sesamo e un pizzico di sale.",
+     "Salta il manzo in padella con l'aglio schiacciato, lo zucchero, il sale e qualche goccia di olio di sesamo.",
+     "Sbollenta gli spinaci, strizzali e condiscili con sale e olio di sesamo; taglia la carota a bastoncini sottili e saltala brevemente.",
+     "Stendi uno strato sottile di riso su ogni foglio di nori, lasciando libero 2 cm in alto, allinea i ripieni e arrotola stretto.",
+     "Spennella il rotolo con l'olio di sesamo rimasto e taglialo a rondelle di 1,5 cm."
+    ]
+   },
+   "tips": [
+    "Stendi il riso più sottile e aggiungi più spinaci e carota.",
+    "Spennella con olio di sesamo solo l'esterno del rotolo: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Un rotolo da 8–10 fette è un pasto completo; abbinalo a una zuppa di verdure leggera invece che a un secondo rotolo."
+   ]
+  },
+  "el": {
+   "name": "Κίμπαπ",
+   "origin": "Νότια Κορέα",
+   "intro": "Το κίμπαπ είναι κορεάτικο ρολό ρυζιού με φύκι: στρογγυλόσπυρο ρύζι καρυκευμένο με σησαμέλαιο και αλάτι απλώνεται σε φύλλο νόρι, γεμίζεται με λωρίδες καρυκευμένου μοσχαριού, ζεματισμένο σπανάκι, καρότο και κίτρινο τουρσί ραπανάκι και έπειτα τυλίγεται σφιχτά και κόβεται σε ροδέλες. Κάθε μπουκιά είναι ήπια αλμυρή, με γεύση ξηρών καρπών και τραγανή. Είναι κλασικό φαγητό για πικνίκ και τάπερ και τρώγεται σε θερμοκρασία δωματίου.",
+   "history": "Το κίμπαπ είναι ένα από τα πιο συνηθισμένα σνακ και φαγητά για πικνίκ στη Νότια Κορέα, πωλείται σε ειδικά μαγαζιά κίμπαπ και σε μίνι μάρκετ και ετοιμάζεται για τις σχολικές εκδρομές.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 γρ. μαγειρεμένο στρογγυλόσπυρο ρύζι",
+     "4 φύλλα νόρι",
+     "200 γρ. άπαχο μοσχάρι, σε λεπτές φέτες",
+     "150 γρ. σπανάκι",
+     "1 καρότο",
+     "4 λωρίδες κίτρινο τουρσί ραπανάκι",
+     "2 κ.σ. σησαμέλαιο",
+     "1 σκελίδα σκόρδο",
+     "Αλάτι, 1 κ.γ. ζάχαρη"
+    ],
+    "steps": [
+     "Καρυκεύστε το ζεστό ρύζι με 1 κ.σ. σησαμέλαιο και μια πρέζα αλάτι.",
+     "Σοτάρετε το μοσχάρι με λιωμένο σκόρδο, ζάχαρη, αλάτι και λίγες σταγόνες σησαμέλαιο.",
+     "Ζεματίστε το σπανάκι, στύψτε το και καρυκεύστε με αλάτι και σησαμέλαιο· κόψτε το καρότο σε λεπτά μπαστουνάκια και σοτάρετε για λίγο.",
+     "Απλώστε λεπτό στρώμα ρυζιού σε κάθε φύλλο νόρι αφήνοντας 2 εκ. ελεύθερα στο πάνω μέρος, αραδιάστε τις γεμίσεις και τυλίξτε σφιχτά.",
+     "Αλείψτε το ρολό με το υπόλοιπο σησαμέλαιο και κόψτε σε ροδέλες 1,5 εκ."
+    ]
+   },
+   "tips": [
+    "Απλώστε το ρύζι πιο λεπτό και προσθέστε περισσότερο σπανάκι και καρότο.",
+    "Αλείψτε με σησαμέλαιο μόνο το εξωτερικό του ρολού — 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Ένα ρολό των 8–10 φετών είναι πλήρες γεύμα· συνδυάστε το με μια ελαφριά σούπα λαχανικών αντί για δεύτερο ρολό."
+   ]
+  },
+  "ru": {
+   "name": "Кимбап",
+   "origin": "Южная Корея",
+   "intro": "Кимбап — корейский рулет из риса в водорослях: короткозёрный рис, приправленный кунжутным маслом и солью, раскладывают на листе нори, выкладывают полосками приправленной говядины, бланшированного шпината, моркови и жёлтой маринованной редьки, затем туго скручивают и нарезают кружками. Каждый кусочек слегка пикантный, ореховый и хрустящий. Это классическая еда для пикника и ланчбокса, её едят при комнатной температуре.",
+   "history": "Кимбап — одна из самых распространённых закусок и еды для пикника в Южной Корее, его продают в специальных кимбап-лавках и круглосуточных магазинах и берут с собой на школьные экскурсии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 г варёного короткозёрного риса",
+     "4 листа нори",
+     "200 г постной говядины, тонко нарезанной",
+     "150 г шпината",
+     "1 морковь",
+     "4 полоски жёлтой маринованной редьки",
+     "2 ст. л. кунжутного масла",
+     "1 зубчик чеснока",
+     "Соль, 1 ч. л. сахара"
+    ],
+    "steps": [
+     "Приправьте тёплый рис 1 ст. л. кунжутного масла и щепоткой соли.",
+     "Обжарьте говядину с раздавленным чесноком, сахаром, солью и несколькими каплями кунжутного масла.",
+     "Бланшируйте шпинат, отожмите и приправьте солью и кунжутным маслом; нарежьте морковь тонкой соломкой и коротко обжарьте.",
+     "Тонко распределите рис по каждому листу нори, оставив 2 см сверху, выложите начинки в ряд и туго скрутите.",
+     "Смажьте рулет оставшимся кунжутным маслом и нарежьте кружками по 1,5 см."
+    ]
+   },
+   "tips": [
+    "Распределяйте рис тоньше и добавьте больше шпината и моркови.",
+    "Смазывайте кунжутным маслом только внешнюю сторону рулета — 1 ст. л. масла ≈ 120 ккал.",
+    "Один рулет из 8–10 кусочков — полноценный приём пищи; сочетайте его с прозрачным овощным супом, а не со вторым рулетом."
+   ],
+   "name_inline": "кимбап"
+  },
+  "es": {
+   "name": "Kimbap",
+   "origin": "Corea del Sur",
+   "intro": "El kimbap es un rollo coreano de arroz y alga: el arroz de grano corto sazonado con aceite de ajonjolí y sal se extiende sobre una hoja de nori, se alinean tiras de carne de res sazonada, espinaca escaldada, zanahoria y rábano amarillo encurtido, se enrolla con firmeza y se corta en rodajas. Cada bocado es suave y sabroso, con notas de nuez y textura crujiente. Es un clásico de picnics y loncheras que se come a temperatura ambiente.",
+   "history": "El kimbap es una de las botanas y comidas de picnic más comunes en Corea del Sur; se vende en tiendas especializadas y de conveniencia y se lleva en las excursiones escolares.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 g de arroz de grano corto cocido",
+     "4 hojas de nori",
+     "200 g de carne magra de res, en rebanadas finas",
+     "150 g de espinacas",
+     "1 zanahoria",
+     "4 tiras de rábano amarillo encurtido",
+     "2 cda. de aceite de ajonjolí",
+     "1 diente de ajo",
+     "Sal, 1 cdta. de azúcar"
+    ],
+    "steps": [
+     "Sazona el arroz caliente con 1 cda. de aceite de ajonjolí y una pizca de sal.",
+     "Saltea la carne con el ajo machacado, el azúcar, la sal y unas gotas de aceite de ajonjolí.",
+     "Escalda las espinacas, exprímelas y sazónalas con sal y aceite de ajonjolí; corta la zanahoria en bastones finos y saltéala brevemente.",
+     "Extiende el arroz en una capa fina sobre cada hoja de nori, dejando 2 cm libres arriba, acomoda los rellenos y enrolla con firmeza.",
+     "Barniza el rollo con el aceite de ajonjolí restante y córtalo en rodajas de 1,5 cm."
+    ]
+   },
+   "tips": [
+    "Extiende el arroz en una capa más fina y agrega más espinaca y zanahoria.",
+    "Barniza solo el exterior del rollo con aceite de ajonjolí: 1 cda. ≈ 120 kcal.",
+    "Un rollo de 8 a 10 rodajas es una comida completa; acompáñalo con un caldo claro de verduras en lugar de un segundo rollo."
+   ],
+   "name_inline": "el kimbap"
   }
+ }
 }
