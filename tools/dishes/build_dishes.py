@@ -285,7 +285,11 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
             'nutrition': nutrition, 'author': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE + '/'},
             'image': [photo_url(ph, 1200, 1200), photo_url(ph, 1200, 900), photo_url(ph, 1200, 675)] if not ph.get('src') else [photo_url(ph, 960)],
             'keywords': f'{t["name"]}, {t["origin"].split("·")[0].strip()}, calories',
+            'recipeCategory': recipe_category(dish),
         }
+        for i, st in enumerate(jsonld['recipeInstructions'], 1):   # step name + anchor (Google's recommended fields)
+            st['name'] = (st['text'][:60].rsplit(' ', 1)[0] + '…') if len(st['text']) > 60 else st['text']
+            st['url'] = f'{url}#step-{i}'
     else:
         jsonld = {'@context': 'https://schema.org', '@type': 'MenuItem', 'name': t['name'], 'description': t['intro'],
                   'inLanguage': lang, 'url': url, 'nutrition': nutrition}
@@ -305,7 +309,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
         'ingredients': ''.join(f'<span class="chip">{esc(ing(i))}</span>' for i in dish['ingredients']),
         'servings': esc(U['servings'].format(n=r['servings'])), 'time': esc(U['time'].format(min=r['time_min'])),
         'recipe_ingredients': ''.join(f'<li>{esc(x)}</li>' for x in r['ingredients']),
-        'recipe_steps': ''.join(f'<li>{esc(x)}</li>' for x in r['steps']),
+        'recipe_steps': ''.join(f'<li id="step-{i}">{esc(x)}</li>' for i, x in enumerate(r['steps'], 1)),
         'tips': ''.join(f'<li>{esc(x)}</li>' for x in t['tips']),
         'history': esc(t['history']), 'cta_p': brand(esc(U['cta_p'].format(name=t.get('name_inline', t['name'])))),
         'related': related, 'source': brand(esc(U['source'].format(version=db['version']))),
@@ -338,6 +342,17 @@ CT = {  # country page texts: title, h1, intro, "all N" link, "other countries" 
     'el': ('{c}: {n} πιάτα με θερμίδες και μακροθρεπτικά', 'Πιάτα: {c}', 'Θερμίδες, πρωτεΐνη, λίπος και υδατάνθρακες για {n} πιάτα: {c}, με συνταγές.',
            'Όλα τα {n} πιάτα · {c} →', 'Άλλες χώρες', 'Όλα τα πιάτα')}
 cpath = lambda lang, a: path(lang, 'country/' + a)
+
+
+CATEGORY_ORDER = [('soup', 'Soup'), ('salad', 'Salad'), ('dessert', 'Dessert'), ('drink', 'Drink'), ('breakfast', 'Breakfast'),
+                  ('bread', 'Bread'), ('appetizer', 'Appetizer'), ('snack', 'Snack'), ('side', 'Side dish'), ('street_food', 'Street food'),
+                  ('sweet', 'Dessert')]
+
+
+def recipe_category(dish):
+    """schema.org recipeCategory from the dish tags; main course when nothing more specific fits."""
+    tags = set(dish.get('tags', []))
+    return next((name for tag, name in CATEGORY_ORDER if tag in tags), 'Main course')
 
 
 def index_page(lang, items, ui, langs, db, template, country=None):
