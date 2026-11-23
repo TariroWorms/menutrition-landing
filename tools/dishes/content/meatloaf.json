@@ -1,165 +1,196 @@
 {
-  "db_key": "meatloaf",
-  "slug": "meatloaf",
-  "emoji": "🍖",
-  "portion_g": 200,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "meatloaf",
+ "slug": "meatloaf",
+ "emoji": "🍖",
+ "portion_g": 200,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Meatloaf",
+   "origin": "United States",
+   "intro": "Meatloaf is minced beef mixed with breadcrumbs soaked in milk, egg and onion, shaped into a loaf and baked, usually under a glaze of ketchup. The result is dense but tender, savoury and slightly sweet from the caramelised topping. It is served in thick slices with mashed potatoes and vegetables, and leftovers often end up in sandwiches.",
+   "history": "Mixing minced meat with bread or grain and baking it is an old European practice, but meatloaf as a family dinner is most closely associated with the United States. It became especially popular during the Great Depression and the Second World War, when stretching meat with breadcrumbs saved money. Today it remains a classic of American home and diner cooking.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "800 g minced beef",
+     "60 g breadcrumbs",
+     "120 ml milk",
+     "1 egg",
+     "1 onion, finely chopped",
+     "4 tbsp ketchup, divided",
+     "salt and pepper"
+    ],
+    "steps": [
+     "Heat the oven to 180 °C and soak the breadcrumbs in the milk for 5 minutes.",
+     "Mix the beef, soaked crumbs, egg, onion, 2 tbsp ketchup, salt and pepper without overworking.",
+     "Shape into a loaf on a lined tray and brush with the remaining ketchup.",
+     "Bake 55–60 minutes until the centre reaches 70 °C; rest 10 minutes before slicing."
+    ]
+   },
+   "tips": [
+    "Bake it on a rack or free-form on a tray so the fat drains away instead of pooling in a tin.",
+    "Use lean minced beef and add grated vegetables such as carrot or courgette to the mix.",
+    "Serve one thick slice with vegetables or salad instead of a large mound of mashed potatoes."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Meatloaf",
-      "origin": "United States",
-      "intro": "Meatloaf is minced beef mixed with breadcrumbs soaked in milk, egg and onion, shaped into a loaf and baked, usually under a glaze of ketchup. The result is dense but tender, savoury and slightly sweet from the caramelised topping. It is served in thick slices with mashed potatoes and vegetables, and leftovers often end up in sandwiches.",
-      "history": "Mixing minced meat with bread or grain and baking it is an old European practice, but meatloaf as a family dinner is most closely associated with the United States. It became especially popular during the Great Depression and the Second World War, when stretching meat with breadcrumbs saved money. Today it remains a classic of American home and diner cooking.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "800 g minced beef",
-          "60 g breadcrumbs",
-          "120 ml milk",
-          "1 egg",
-          "1 onion, finely chopped",
-          "4 tbsp ketchup, divided",
-          "salt and pepper"
-        ],
-        "steps": [
-          "Heat the oven to 180 °C and soak the breadcrumbs in the milk for 5 minutes.",
-          "Mix the beef, soaked crumbs, egg, onion, 2 tbsp ketchup, salt and pepper without overworking.",
-          "Shape into a loaf on a lined tray and brush with the remaining ketchup.",
-          "Bake 55–60 minutes until the centre reaches 70 °C; rest 10 minutes before slicing."
-        ]
-      },
-      "tips": [
-        "Bake it on a rack or free-form on a tray so the fat drains away instead of pooling in a tin.",
-        "Use lean minced beef and add grated vegetables such as carrot or courgette to the mix.",
-        "Serve one thick slice with vegetables or salad instead of a large mound of mashed potatoes."
-      ]
-    },
-    "ar": {
-      "name": "رغيف اللحم (ميت لوف)",
-      "origin": "الولايات المتحدة",
-      "intro": "رغيف اللحم لحم بقري مفروم يُخلط مع فتات خبز منقوع في الحليب والبيض والبصل، ثم يُشكَّل رغيفاً ويُخبز، غالباً تحت طبقة من الكاتشب. يكون متماسكاً لكنه طري، مالح المذاق مع حلاوة خفيفة من الطبقة المكرملة. يُقدَّم شرائح سميكة مع البطاطا المهروسة والخضار، وكثيراً ما تتحول بقاياه إلى سندويشات.",
-      "history": "خلط اللحم المفروم بالخبز أو الحبوب وخبزه عادة أوروبية قديمة، لكن رغيف اللحم كعشاء عائلي يرتبط أكثر بالولايات المتحدة. وانتشر خاصة في فترة الكساد الكبير والحرب العالمية الثانية، حين كان مدّ اللحم بفتات الخبز يوفّر المال. ولا يزال اليوم من كلاسيكيات الطبخ المنزلي والمطاعم الشعبية الأمريكية.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "800 غ لحم بقري مفروم",
-          "60 غ فتات خبز",
-          "120 مل حليب",
-          "1 بيضة",
-          "1 بصلة مفرومة ناعماً",
-          "4 ملاعق كبيرة كاتشب، مقسّمة",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "سخّن الفرن إلى 180 °م وانقع فتات الخبز في الحليب 5 دقائق.",
-          "اخلط اللحم وفتات الخبز المنقوع والبيضة والبصل وملعقتين من الكاتشب والملح والفلفل دون عجن زائد.",
-          "شكّل الخليط رغيفاً على صينية مبطّنة وادهنه بباقي الكاتشب.",
-          "اخبزه 55–60 دقيقة حتى تبلغ حرارة الوسط 70 °م، واتركه 10 دقائق قبل التقطيع."
-        ]
-      },
-      "tips": [
-        "اخبزه على شبكة أو مشكّلاً حراً على صينية ليتصفّى الدهن بدلاً من تجمّعه في القالب.",
-        "استخدم لحماً قليل الدهن وأضف خضاراً مبشورة مثل الجزر أو الكوسا إلى الخليط.",
-        "قدّم شريحة سميكة واحدة مع الخضار أو السلطة بدلاً من كمية كبيرة من البطاطا المهروسة."
-      ]
-    },
-    "it": {
-      "name": "Polpettone americano (meatloaf)",
-      "name_inline": "polpettone americano",
-      "origin": "Stati Uniti",
-      "intro": "Il meatloaf è carne macinata di manzo mescolata con pangrattato ammollato nel latte, uovo e cipolla, modellata a forma di pagnotta e cotta in forno, di solito sotto una glassa di ketchup. Il risultato è compatto ma tenero, saporito e leggermente dolce grazie alla copertura caramellata. Si serve a fette spesse con purè di patate e verdure, e gli avanzi finiscono spesso nei panini.",
-      "history": "Mescolare carne macinata con pane o cereali e cuocerla in forno è un'antica pratica europea, ma il meatloaf come cena di famiglia è associato soprattutto agli Stati Uniti. Divenne particolarmente popolare durante la Grande depressione e la Seconda guerra mondiale, quando allungare la carne con il pangrattato permetteva di risparmiare. Oggi resta un classico della cucina casalinga e delle tavole calde americane.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "800 g di carne macinata di manzo",
-          "60 g di pangrattato",
-          "120 ml di latte",
-          "1 uovo",
-          "1 cipolla, tritata finemente",
-          "4 cucchiai di ketchup, divisi",
-          "sale e pepe"
-        ],
-        "steps": [
-          "Scalda il forno a 180 °C e metti il pangrattato a bagno nel latte per 5 minuti.",
-          "Mescola il manzo, il pangrattato ammollato, l'uovo, la cipolla, 2 cucchiai di ketchup, il sale e il pepe senza lavorare troppo.",
-          "Modella una pagnotta su una teglia foderata e spennellala con il ketchup rimasto.",
-          "Cuoci 55–60 minuti finché il centro raggiunge i 70 °C; lascia riposare 10 minuti prima di affettare."
-        ]
-      },
-      "tips": [
-        "Cuocilo su una griglia o modellato liberamente su una teglia, così il grasso cola via invece di ristagnare in uno stampo.",
-        "Usa manzo macinato magro e aggiungi all'impasto verdure grattugiate come carota o zucchina.",
-        "Servi una fetta spessa con verdure o insalata invece di una montagna di purè."
-      ]
-    },
-    "el": {
-      "name": "Ρολό κιμά (μίτλοφ)",
-      "origin": "Ηνωμένες Πολιτείες",
-      "intro": "Το μίτλοφ είναι μοσχαρίσιος κιμάς ανακατεμένος με φρυγανιά μουλιασμένη σε γάλα, αυγό και κρεμμύδι, πλασμένος σε σχήμα καρβελιού και ψημένος στον φούρνο, συνήθως κάτω από γλάσο κέτσαπ. Το αποτέλεσμα είναι συμπαγές αλλά τρυφερό, γευστικό και ελαφρά γλυκό από την καραμελωμένη επικάλυψη. Σερβίρεται σε χοντρές φέτες με πουρέ πατάτας και λαχανικά, και τα περισσεύματα καταλήγουν συχνά σε σάντουιτς.",
-      "history": "Το να ανακατεύεται κιμάς με ψωμί ή δημητριακά και να ψήνεται στον φούρνο είναι παλιά ευρωπαϊκή πρακτική, αλλά το μίτλοφ ως οικογενειακό δείπνο συνδέεται κυρίως με τις Ηνωμένες Πολιτείες. Έγινε ιδιαίτερα δημοφιλές κατά τη Μεγάλη Ύφεση και τον Δεύτερο Παγκόσμιο Πόλεμο, όταν το «άπλωμα» του κρέατος με φρυγανιά εξοικονομούσε χρήματα. Σήμερα παραμένει κλασικό της αμερικανικής σπιτικής κουζίνας και των ντάινερ.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "800 γρ. μοσχαρίσιος κιμάς",
-          "60 γρ. φρυγανιά τριμμένη",
-          "120 ml γάλα",
-          "1 αυγό",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "4 κ.σ. κέτσαπ, μοιρασμένες",
-          "αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Προθερμάνετε τον φούρνο στους 180 °C και μουλιάστε τη φρυγανιά στο γάλα για 5 λεπτά.",
-          "Ανακατέψτε τον κιμά, τη μουλιασμένη φρυγανιά, το αυγό, το κρεμμύδι, 2 κ.σ. κέτσαπ, το αλάτι και το πιπέρι χωρίς να το δουλέψετε υπερβολικά.",
-          "Πλάστε ένα ρολό σε ταψί στρωμένο με λαδόκολλα και αλείψτε το με την υπόλοιπη κέτσαπ.",
-          "Ψήστε 55–60 λεπτά μέχρι το κέντρο να φτάσει τους 70 °C· αφήστε 10 λεπτά πριν το κόψετε σε φέτες."
-        ]
-      },
-      "tips": [
-        "Ψήστε το πάνω σε σχάρα ή ελεύθερο σε ταψί ώστε το λίπος να φεύγει αντί να μαζεύεται σε φόρμα.",
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και προσθέστε στο μείγμα τριμμένα λαχανικά όπως καρότο ή κολοκυθάκι.",
-        "Σερβίρετε μία χοντρή φέτα με λαχανικά ή σαλάτα αντί για έναν μεγάλο σωρό πουρέ."
-      ]
-    },
-    "ru": {
-      "name": "Мясной рулет (митлоф)",
-      "origin": "США",
-      "intro": "Митлоф — говяжий фарш, смешанный с панировочными сухарями, размоченными в молоке, яйцом и луком, сформованный в буханку и запечённый, обычно под глазурью из кетчупа. Получается плотный, но нежный, пикантный и слегка сладкий от карамелизованной корочки рулет. Его подают толстыми ломтями с картофельным пюре и овощами, а остатки часто идут в сэндвичи.",
-      "history": "Смешивание рубленого мяса с хлебом или крупой и запекание — старая европейская практика, но митлоф как семейный ужин наиболее тесно связан с США. Он особенно распространился во время Великой депрессии и Второй мировой войны, когда добавление сухарей к мясу позволяло экономить. Сегодня он остаётся классикой американской домашней кухни и закусочных.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "800 г говяжьего фарша",
-          "60 г панировочных сухарей",
-          "120 мл молока",
-          "1 яйцо",
-          "1 луковица, мелко нарубленная",
-          "4 ст. л. кетчупа, разделённых",
-          "соль и перец"
-        ],
-        "steps": [
-          "Разогрейте духовку до 180 °C и замочите сухари в молоке на 5 минут.",
-          "Смешайте говядину, размоченные сухари, яйцо, лук, 2 ст. л. кетчупа, соль и перец, не вымешивая слишком долго.",
-          "Сформуйте буханку на застеленном противне и смажьте оставшимся кетчупом.",
-          "Выпекайте 55–60 минут, пока в центре не будет 70 °C; перед нарезкой дайте постоять 10 минут."
-        ]
-      },
-      "tips": [
-        "Запекайте на решётке или без формы на противне, чтобы жир стекал, а не скапливался в форме.",
-        "Используйте постный говяжий фарш и добавьте в массу тёртые овощи, например морковь или цукини.",
-        "Подавайте один толстый ломоть с овощами или салатом вместо большой горки картофельного пюре."
-      ]
-    }
+  "ar": {
+   "name": "رغيف اللحم (ميت لوف)",
+   "origin": "الولايات المتحدة",
+   "intro": "رغيف اللحم لحم بقري مفروم يُخلط مع فتات خبز منقوع في الحليب والبيض والبصل، ثم يُشكَّل رغيفاً ويُخبز، غالباً تحت طبقة من الكاتشب. يكون متماسكاً لكنه طري، مالح المذاق مع حلاوة خفيفة من الطبقة المكرملة. يُقدَّم شرائح سميكة مع البطاطا المهروسة والخضار، وكثيراً ما تتحول بقاياه إلى سندويشات.",
+   "history": "خلط اللحم المفروم بالخبز أو الحبوب وخبزه عادة أوروبية قديمة، لكن رغيف اللحم كعشاء عائلي يرتبط أكثر بالولايات المتحدة. وانتشر خاصة في فترة الكساد الكبير والحرب العالمية الثانية، حين كان مدّ اللحم بفتات الخبز يوفّر المال. ولا يزال اليوم من كلاسيكيات الطبخ المنزلي والمطاعم الشعبية الأمريكية.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "800 غ لحم بقري مفروم",
+     "60 غ فتات خبز",
+     "120 مل حليب",
+     "1 بيضة",
+     "1 بصلة مفرومة ناعماً",
+     "4 ملاعق كبيرة كاتشب، مقسّمة",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "سخّن الفرن إلى 180 °م وانقع فتات الخبز في الحليب 5 دقائق.",
+     "اخلط اللحم وفتات الخبز المنقوع والبيضة والبصل وملعقتين من الكاتشب والملح والفلفل دون عجن زائد.",
+     "شكّل الخليط رغيفاً على صينية مبطّنة وادهنه بباقي الكاتشب.",
+     "اخبزه 55–60 دقيقة حتى تبلغ حرارة الوسط 70 °م، واتركه 10 دقائق قبل التقطيع."
+    ]
+   },
+   "tips": [
+    "اخبزه على شبكة أو مشكّلاً حراً على صينية ليتصفّى الدهن بدلاً من تجمّعه في القالب.",
+    "استخدم لحماً قليل الدهن وأضف خضاراً مبشورة مثل الجزر أو الكوسا إلى الخليط.",
+    "قدّم شريحة سميكة واحدة مع الخضار أو السلطة بدلاً من كمية كبيرة من البطاطا المهروسة."
+   ]
+  },
+  "it": {
+   "name": "Polpettone americano (meatloaf)",
+   "name_inline": "polpettone americano",
+   "origin": "Stati Uniti",
+   "intro": "Il meatloaf è carne macinata di manzo mescolata con pangrattato ammollato nel latte, uovo e cipolla, modellata a forma di pagnotta e cotta in forno, di solito sotto una glassa di ketchup. Il risultato è compatto ma tenero, saporito e leggermente dolce grazie alla copertura caramellata. Si serve a fette spesse con purè di patate e verdure, e gli avanzi finiscono spesso nei panini.",
+   "history": "Mescolare carne macinata con pane o cereali e cuocerla in forno è un'antica pratica europea, ma il meatloaf come cena di famiglia è associato soprattutto agli Stati Uniti. Divenne particolarmente popolare durante la Grande depressione e la Seconda guerra mondiale, quando allungare la carne con il pangrattato permetteva di risparmiare. Oggi resta un classico della cucina casalinga e delle tavole calde americane.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "800 g di carne macinata di manzo",
+     "60 g di pangrattato",
+     "120 ml di latte",
+     "1 uovo",
+     "1 cipolla, tritata finemente",
+     "4 cucchiai di ketchup, divisi",
+     "sale e pepe"
+    ],
+    "steps": [
+     "Scalda il forno a 180 °C e metti il pangrattato a bagno nel latte per 5 minuti.",
+     "Mescola il manzo, il pangrattato ammollato, l'uovo, la cipolla, 2 cucchiai di ketchup, il sale e il pepe senza lavorare troppo.",
+     "Modella una pagnotta su una teglia foderata e spennellala con il ketchup rimasto.",
+     "Cuoci 55–60 minuti finché il centro raggiunge i 70 °C; lascia riposare 10 minuti prima di affettare."
+    ]
+   },
+   "tips": [
+    "Cuocilo su una griglia o modellato liberamente su una teglia, così il grasso cola via invece di ristagnare in uno stampo.",
+    "Usa manzo macinato magro e aggiungi all'impasto verdure grattugiate come carota o zucchina.",
+    "Servi una fetta spessa con verdure o insalata invece di una montagna di purè."
+   ]
+  },
+  "el": {
+   "name": "Ρολό κιμά (μίτλοφ)",
+   "origin": "Ηνωμένες Πολιτείες",
+   "intro": "Το μίτλοφ είναι μοσχαρίσιος κιμάς ανακατεμένος με φρυγανιά μουλιασμένη σε γάλα, αυγό και κρεμμύδι, πλασμένος σε σχήμα καρβελιού και ψημένος στον φούρνο, συνήθως κάτω από γλάσο κέτσαπ. Το αποτέλεσμα είναι συμπαγές αλλά τρυφερό, γευστικό και ελαφρά γλυκό από την καραμελωμένη επικάλυψη. Σερβίρεται σε χοντρές φέτες με πουρέ πατάτας και λαχανικά, και τα περισσεύματα καταλήγουν συχνά σε σάντουιτς.",
+   "history": "Το να ανακατεύεται κιμάς με ψωμί ή δημητριακά και να ψήνεται στον φούρνο είναι παλιά ευρωπαϊκή πρακτική, αλλά το μίτλοφ ως οικογενειακό δείπνο συνδέεται κυρίως με τις Ηνωμένες Πολιτείες. Έγινε ιδιαίτερα δημοφιλές κατά τη Μεγάλη Ύφεση και τον Δεύτερο Παγκόσμιο Πόλεμο, όταν το «άπλωμα» του κρέατος με φρυγανιά εξοικονομούσε χρήματα. Σήμερα παραμένει κλασικό της αμερικανικής σπιτικής κουζίνας και των ντάινερ.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "800 γρ. μοσχαρίσιος κιμάς",
+     "60 γρ. φρυγανιά τριμμένη",
+     "120 ml γάλα",
+     "1 αυγό",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "4 κ.σ. κέτσαπ, μοιρασμένες",
+     "αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Προθερμάνετε τον φούρνο στους 180 °C και μουλιάστε τη φρυγανιά στο γάλα για 5 λεπτά.",
+     "Ανακατέψτε τον κιμά, τη μουλιασμένη φρυγανιά, το αυγό, το κρεμμύδι, 2 κ.σ. κέτσαπ, το αλάτι και το πιπέρι χωρίς να το δουλέψετε υπερβολικά.",
+     "Πλάστε ένα ρολό σε ταψί στρωμένο με λαδόκολλα και αλείψτε το με την υπόλοιπη κέτσαπ.",
+     "Ψήστε 55–60 λεπτά μέχρι το κέντρο να φτάσει τους 70 °C· αφήστε 10 λεπτά πριν το κόψετε σε φέτες."
+    ]
+   },
+   "tips": [
+    "Ψήστε το πάνω σε σχάρα ή ελεύθερο σε ταψί ώστε το λίπος να φεύγει αντί να μαζεύεται σε φόρμα.",
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και προσθέστε στο μείγμα τριμμένα λαχανικά όπως καρότο ή κολοκυθάκι.",
+    "Σερβίρετε μία χοντρή φέτα με λαχανικά ή σαλάτα αντί για έναν μεγάλο σωρό πουρέ."
+   ]
+  },
+  "ru": {
+   "name": "Мясной рулет (митлоф)",
+   "origin": "США",
+   "intro": "Митлоф — говяжий фарш, смешанный с панировочными сухарями, размоченными в молоке, яйцом и луком, сформованный в буханку и запечённый, обычно под глазурью из кетчупа. Получается плотный, но нежный, пикантный и слегка сладкий от карамелизованной корочки рулет. Его подают толстыми ломтями с картофельным пюре и овощами, а остатки часто идут в сэндвичи.",
+   "history": "Смешивание рубленого мяса с хлебом или крупой и запекание — старая европейская практика, но митлоф как семейный ужин наиболее тесно связан с США. Он особенно распространился во время Великой депрессии и Второй мировой войны, когда добавление сухарей к мясу позволяло экономить. Сегодня он остаётся классикой американской домашней кухни и закусочных.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "800 г говяжьего фарша",
+     "60 г панировочных сухарей",
+     "120 мл молока",
+     "1 яйцо",
+     "1 луковица, мелко нарубленная",
+     "4 ст. л. кетчупа, разделённых",
+     "соль и перец"
+    ],
+    "steps": [
+     "Разогрейте духовку до 180 °C и замочите сухари в молоке на 5 минут.",
+     "Смешайте говядину, размоченные сухари, яйцо, лук, 2 ст. л. кетчупа, соль и перец, не вымешивая слишком долго.",
+     "Сформуйте буханку на застеленном противне и смажьте оставшимся кетчупом.",
+     "Выпекайте 55–60 минут, пока в центре не будет 70 °C; перед нарезкой дайте постоять 10 минут."
+    ]
+   },
+   "tips": [
+    "Запекайте на решётке или без формы на противне, чтобы жир стекал, а не скапливался в форме.",
+    "Используйте постный говяжий фарш и добавьте в массу тёртые овощи, например морковь или цукини.",
+    "Подавайте один толстый ломоть с овощами или салатом вместо большой горки картофельного пюре."
+   ]
+  },
+  "es": {
+   "name": "Pastel de carne (meatloaf)",
+   "origin": "Estados Unidos",
+   "intro": "El meatloaf es carne de res molida mezclada con pan molido remojado en leche, huevo y cebolla, formada en un pan y horneada, normalmente bajo un glaseado de cátsup. El resultado es denso pero tierno, sabroso y ligeramente dulce por la cubierta caramelizada. Se sirve en gruesas rebanadas con puré de papa y verduras, y las sobras suelen terminar en sándwiches.",
+   "history": "Mezclar carne molida con pan o cereales y hornearla es una práctica europea antigua, pero el meatloaf como cena familiar se asocia sobre todo con Estados Unidos. Se hizo especialmente popular durante la Gran Depresión y la Segunda Guerra Mundial, cuando rendir la carne con pan molido ahorraba dinero. Hoy sigue siendo un clásico de la cocina casera y de los diners estadounidenses.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "800 g de carne de res molida",
+     "60 g de pan molido",
+     "120 ml de leche",
+     "1 huevo",
+     "1 cebolla, finamente picada",
+     "4 cda. de cátsup, divididas",
+     "sal y pimienta"
+    ],
+    "steps": [
+     "Calienta el horno a 180 °C y remoja el pan molido en la leche durante 5 minutos.",
+     "Mezcla la carne, el pan remojado, el huevo, la cebolla, 2 cda. de cátsup, sal y pimienta sin amasar de más.",
+     "Forma un pan sobre una charola forrada y úntalo con el resto de la cátsup.",
+     "Hornea de 55 a 60 minutos, hasta que el centro alcance 70 °C; deja reposar 10 minutos antes de rebanar."
+    ]
+   },
+   "tips": [
+    "Hornéalo sobre una rejilla o sin molde, en una charola, para que la grasa escurra en lugar de acumularse en un molde.",
+    "Usa carne molida magra y añade verduras ralladas, como zanahoria o calabacita, a la mezcla.",
+    "Sirve una rebanada gruesa con verduras o ensalada en lugar de un gran montón de puré de papa."
+   ],
+   "name_inline": "el meatloaf"
   }
+ }
 }

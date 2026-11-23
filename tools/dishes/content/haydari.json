@@ -1,160 +1,190 @@
 {
-  "db_key": "haydari",
-  "slug": "haydari",
-  "emoji": "🥣",
-  "portion_g": 100,
-  "country": "TR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "haydari",
+ "slug": "haydari",
+ "emoji": "🥣",
+ "portion_g": 100,
+ "country": "TR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Haydari",
+   "origin": "Turkey",
+   "intro": "Haydari is a thick Turkish meze of strained yogurt mixed with crushed garlic, chopped dill and walnuts. It is cool, tangy and creamy, with a little crunch from the nuts. It is served chilled on meze platters or alongside grilled meats.",
+   "history": "Haydari is one of the classic cold mezes of Turkish meyhane taverns and kebab houses, and it is especially popular in Istanbul and along the Aegean coast. Similar strained-yogurt dips are found throughout the eastern Mediterranean.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "400 g strained yogurt",
+     "2 garlic cloves, crushed",
+     "30 g walnuts, finely chopped",
+     "2 tbsp chopped dill",
+     "1 tsp olive oil",
+     "Salt"
+    ],
+    "steps": [
+     "Stir the yogurt until smooth.",
+     "Mix in the garlic, dill, most of the walnuts and a pinch of salt.",
+     "Spread on a plate, drizzle with olive oil and scatter the rest of the walnuts on top.",
+     "Chill for 30 minutes before serving."
+    ]
+   },
+   "tips": [
+    "Use low-fat strained yogurt: the dip stays thick and tangy.",
+    "Keep the walnuts as a light topping — they are the most calorie-dense part.",
+    "Scoop it with cucumber and carrot sticks."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Haydari",
-      "origin": "Turkey",
-      "intro": "Haydari is a thick Turkish meze of strained yogurt mixed with crushed garlic, chopped dill and walnuts. It is cool, tangy and creamy, with a little crunch from the nuts. It is served chilled on meze platters or alongside grilled meats.",
-      "history": "Haydari is one of the classic cold mezes of Turkish meyhane taverns and kebab houses, and it is especially popular in Istanbul and along the Aegean coast. Similar strained-yogurt dips are found throughout the eastern Mediterranean.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "400 g strained yogurt",
-          "2 garlic cloves, crushed",
-          "30 g walnuts, finely chopped",
-          "2 tbsp chopped dill",
-          "1 tsp olive oil",
-          "Salt"
-        ],
-        "steps": [
-          "Stir the yogurt until smooth.",
-          "Mix in the garlic, dill, most of the walnuts and a pinch of salt.",
-          "Spread on a plate, drizzle with olive oil and scatter the rest of the walnuts on top.",
-          "Chill for 30 minutes before serving."
-        ]
-      },
-      "tips": [
-        "Use low-fat strained yogurt: the dip stays thick and tangy.",
-        "Keep the walnuts as a light topping — they are the most calorie-dense part.",
-        "Scoop it with cucumber and carrot sticks."
-      ]
-    },
-    "ar": {
-      "name": "حيدري",
-      "origin": "تركيا",
-      "intro": "الحيدري مقبلات تركية كثيفة من اللبنة (الزبادي المصفى) الممزوجة بالثوم المهروس والشبت المفروم والجوز. طعمه بارد وحامض وكريمي، مع قرمشة خفيفة من الجوز. يُقدَّم بارداً ضمن أطباق المزة أو بجانب اللحوم المشوية.",
-      "history": "الحيدري من المقبلات الباردة الكلاسيكية في الحانات ومطاعم الكباب التركية، ويحظى بشعبية خاصة في إسطنبول وعلى ساحل بحر إيجه. وتنتشر أطباق مشابهة من الزبادي المصفى في أنحاء شرق المتوسط.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "400 غ زبادي مصفى (لبنة)",
-          "2 فص ثوم مهروس",
-          "30 غ جوز مفروم ناعماً",
-          "2 ملعقة كبيرة شبت مفروم",
-          "ملعقة صغيرة زيت زيتون",
-          "ملح"
-        ],
-        "steps": [
-          "اخفق الزبادي حتى يصبح ناعماً.",
-          "أضف الثوم والشبت ومعظم الجوز ورشة ملح واخلط.",
-          "افرده في طبق ورشّ عليه زيت الزيتون وبقية الجوز.",
-          "برّده 30 دقيقة قبل التقديم."
-        ]
-      },
-      "tips": [
-        "استخدم زبادي مصفى قليل الدسم: يبقى الطبق كثيفاً وحامضاً.",
-        "اجعل الجوز مجرد زينة خفيفة — فهو أغنى المكونات بالسعرات.",
-        "كُله مع أصابع الخيار والجزر."
-      ]
-    },
-    "it": {
-      "name": "Haydari",
-      "origin": "Turchia",
-      "intro": "L'haydari è un denso meze turco di yogurt colato mescolato con aglio schiacciato, aneto tritato e noci. È fresco, acidulo e cremoso, con un po' di croccantezza data dalle noci. Si serve freddo nei piatti di meze o accanto a carni grigliate.",
-      "history": "L'haydari è uno dei classici meze freddi delle taverne meyhane e delle kebaberie turche, ed è particolarmente amato a Istanbul e lungo la costa egea. Salse simili a base di yogurt colato si trovano in tutto il Mediterraneo orientale.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "400 g di yogurt colato",
-          "2 spicchi d'aglio schiacciati",
-          "30 g di noci tritate finemente",
-          "2 cucchiai di aneto tritato",
-          "1 cucchiaino di olio d'oliva",
-          "Sale"
-        ],
-        "steps": [
-          "Mescola lo yogurt finché è liscio.",
-          "Incorpora l'aglio, l'aneto, la maggior parte delle noci e un pizzico di sale.",
-          "Stendi su un piatto, irrora con l'olio d'oliva e cospargi con le noci rimaste.",
-          "Metti in frigorifero per 30 minuti prima di servire."
-        ]
-      },
-      "tips": [
-        "Usa yogurt colato magro: la salsa resta densa e acidula.",
-        "Usa le noci solo come leggera guarnizione: sono la parte più calorica.",
-        "Raccoglila con bastoncini di cetriolo e carota."
-      ]
-    },
-    "el": {
-      "name": "Χαϊντάρι",
-      "origin": "Τουρκία",
-      "intro": "Το χαϊντάρι είναι πηχτός τουρκικός μεζές από στραγγιστό γιαούρτι ανακατεμένο με λιωμένο σκόρδο, ψιλοκομμένο άνηθο και καρύδια. Είναι δροσερό, ξινό και κρεμώδες, με λίγη τραγανότητα από τα καρύδια. Σερβίρεται κρύο σε πιατέλες με μεζέδες ή δίπλα σε ψητά κρέατα.",
-      "history": "Το χαϊντάρι είναι ένας από τους κλασικούς κρύους μεζέδες των τουρκικών μεϊχανέδων και κεμπαπτζίδικων και είναι ιδιαίτερα δημοφιλές στην Κωνσταντινούπολη και κατά μήκος των ακτών του Αιγαίου. Παρόμοιες αλοιφές με στραγγιστό γιαούρτι υπάρχουν σε όλη την ανατολική Μεσόγειο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "400 γρ. στραγγιστό γιαούρτι",
-          "2 σκελίδες σκόρδο, λιωμένες",
-          "30 γρ. καρύδια, ψιλοκομμένα",
-          "2 κ.σ. ψιλοκομμένος άνηθος",
-          "1 κ.γ. ελαιόλαδο",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Ανακατέψτε το γιαούρτι μέχρι να γίνει λείο.",
-          "Προσθέστε το σκόρδο, τον άνηθο, τα περισσότερα καρύδια και μια πρέζα αλάτι.",
-          "Απλώστε σε πιάτο, περιχύστε με το ελαιόλαδο και πασπαλίστε με τα υπόλοιπα καρύδια.",
-          "Βάλτε στο ψυγείο για 30 λεπτά πριν το σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε στραγγιστό γιαούρτι με χαμηλά λιπαρά: η αλοιφή μένει πηχτή και ξινή.",
-        "Κρατήστε τα καρύδια ως ελαφρύ γαρνίρισμα — είναι το πιο θερμιδικό συστατικό.",
-        "Βουτήξτε σε αυτό στικ αγγουριού και καρότου."
-      ]
-    },
-    "ru": {
-      "name": "Хайдари",
-      "origin": "Турция",
-      "intro": "Хайдари — густая турецкая мезе из процеженного йогурта с раздавленным чесноком, рубленым укропом и грецкими орехами. Она прохладная, кисловатая и кремовая, с лёгким хрустом орехов. Её подают охлаждённой на тарелках с мезе или к мясу-гриль.",
-      "history": "Хайдари — одна из классических холодных мезе турецких мейхане и кебабных, особенно популярна в Стамбуле и на Эгейском побережье. Похожие соусы из процеженного йогурта известны по всему восточному Средиземноморью.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "400 г процеженного йогурта",
-          "2 зубчика чеснока, раздавленных",
-          "30 г грецких орехов, мелко нарубленных",
-          "2 ст. л. нарубленного укропа",
-          "1 ч. л. оливкового масла",
-          "Соль"
-        ],
-        "steps": [
-          "Размешайте йогурт до гладкости.",
-          "Вмешайте чеснок, укроп, большую часть грецких орехов и щепотку соли.",
-          "Выложите на тарелку, сбрызните оливковым маслом и посыпьте сверху остальными грецкими орехами.",
-          "Охладите 30 минут перед подачей."
-        ]
-      },
-      "tips": [
-        "Берите нежирный процеженный йогурт: соус останется густым и кисловатым.",
-        "Используйте грецкие орехи как лёгкую посыпку: это самая калорийная часть.",
-        "Подавайте с палочками огурца и моркови."
-      ],
-      "name_inline": "хайдари"
-    }
+  "ar": {
+   "name": "حيدري",
+   "origin": "تركيا",
+   "intro": "الحيدري مقبلات تركية كثيفة من اللبنة (الزبادي المصفى) الممزوجة بالثوم المهروس والشبت المفروم والجوز. طعمه بارد وحامض وكريمي، مع قرمشة خفيفة من الجوز. يُقدَّم بارداً ضمن أطباق المزة أو بجانب اللحوم المشوية.",
+   "history": "الحيدري من المقبلات الباردة الكلاسيكية في الحانات ومطاعم الكباب التركية، ويحظى بشعبية خاصة في إسطنبول وعلى ساحل بحر إيجه. وتنتشر أطباق مشابهة من الزبادي المصفى في أنحاء شرق المتوسط.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "400 غ زبادي مصفى (لبنة)",
+     "2 فص ثوم مهروس",
+     "30 غ جوز مفروم ناعماً",
+     "2 ملعقة كبيرة شبت مفروم",
+     "ملعقة صغيرة زيت زيتون",
+     "ملح"
+    ],
+    "steps": [
+     "اخفق الزبادي حتى يصبح ناعماً.",
+     "أضف الثوم والشبت ومعظم الجوز ورشة ملح واخلط.",
+     "افرده في طبق ورشّ عليه زيت الزيتون وبقية الجوز.",
+     "برّده 30 دقيقة قبل التقديم."
+    ]
+   },
+   "tips": [
+    "استخدم زبادي مصفى قليل الدسم: يبقى الطبق كثيفاً وحامضاً.",
+    "اجعل الجوز مجرد زينة خفيفة — فهو أغنى المكونات بالسعرات.",
+    "كُله مع أصابع الخيار والجزر."
+   ]
+  },
+  "it": {
+   "name": "Haydari",
+   "origin": "Turchia",
+   "intro": "L'haydari è un denso meze turco di yogurt colato mescolato con aglio schiacciato, aneto tritato e noci. È fresco, acidulo e cremoso, con un po' di croccantezza data dalle noci. Si serve freddo nei piatti di meze o accanto a carni grigliate.",
+   "history": "L'haydari è uno dei classici meze freddi delle taverne meyhane e delle kebaberie turche, ed è particolarmente amato a Istanbul e lungo la costa egea. Salse simili a base di yogurt colato si trovano in tutto il Mediterraneo orientale.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "400 g di yogurt colato",
+     "2 spicchi d'aglio schiacciati",
+     "30 g di noci tritate finemente",
+     "2 cucchiai di aneto tritato",
+     "1 cucchiaino di olio d'oliva",
+     "Sale"
+    ],
+    "steps": [
+     "Mescola lo yogurt finché è liscio.",
+     "Incorpora l'aglio, l'aneto, la maggior parte delle noci e un pizzico di sale.",
+     "Stendi su un piatto, irrora con l'olio d'oliva e cospargi con le noci rimaste.",
+     "Metti in frigorifero per 30 minuti prima di servire."
+    ]
+   },
+   "tips": [
+    "Usa yogurt colato magro: la salsa resta densa e acidula.",
+    "Usa le noci solo come leggera guarnizione: sono la parte più calorica.",
+    "Raccoglila con bastoncini di cetriolo e carota."
+   ]
+  },
+  "el": {
+   "name": "Χαϊντάρι",
+   "origin": "Τουρκία",
+   "intro": "Το χαϊντάρι είναι πηχτός τουρκικός μεζές από στραγγιστό γιαούρτι ανακατεμένο με λιωμένο σκόρδο, ψιλοκομμένο άνηθο και καρύδια. Είναι δροσερό, ξινό και κρεμώδες, με λίγη τραγανότητα από τα καρύδια. Σερβίρεται κρύο σε πιατέλες με μεζέδες ή δίπλα σε ψητά κρέατα.",
+   "history": "Το χαϊντάρι είναι ένας από τους κλασικούς κρύους μεζέδες των τουρκικών μεϊχανέδων και κεμπαπτζίδικων και είναι ιδιαίτερα δημοφιλές στην Κωνσταντινούπολη και κατά μήκος των ακτών του Αιγαίου. Παρόμοιες αλοιφές με στραγγιστό γιαούρτι υπάρχουν σε όλη την ανατολική Μεσόγειο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "400 γρ. στραγγιστό γιαούρτι",
+     "2 σκελίδες σκόρδο, λιωμένες",
+     "30 γρ. καρύδια, ψιλοκομμένα",
+     "2 κ.σ. ψιλοκομμένος άνηθος",
+     "1 κ.γ. ελαιόλαδο",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Ανακατέψτε το γιαούρτι μέχρι να γίνει λείο.",
+     "Προσθέστε το σκόρδο, τον άνηθο, τα περισσότερα καρύδια και μια πρέζα αλάτι.",
+     "Απλώστε σε πιάτο, περιχύστε με το ελαιόλαδο και πασπαλίστε με τα υπόλοιπα καρύδια.",
+     "Βάλτε στο ψυγείο για 30 λεπτά πριν το σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε στραγγιστό γιαούρτι με χαμηλά λιπαρά: η αλοιφή μένει πηχτή και ξινή.",
+    "Κρατήστε τα καρύδια ως ελαφρύ γαρνίρισμα — είναι το πιο θερμιδικό συστατικό.",
+    "Βουτήξτε σε αυτό στικ αγγουριού και καρότου."
+   ]
+  },
+  "ru": {
+   "name": "Хайдари",
+   "origin": "Турция",
+   "intro": "Хайдари — густая турецкая мезе из процеженного йогурта с раздавленным чесноком, рубленым укропом и грецкими орехами. Она прохладная, кисловатая и кремовая, с лёгким хрустом орехов. Её подают охлаждённой на тарелках с мезе или к мясу-гриль.",
+   "history": "Хайдари — одна из классических холодных мезе турецких мейхане и кебабных, особенно популярна в Стамбуле и на Эгейском побережье. Похожие соусы из процеженного йогурта известны по всему восточному Средиземноморью.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "400 г процеженного йогурта",
+     "2 зубчика чеснока, раздавленных",
+     "30 г грецких орехов, мелко нарубленных",
+     "2 ст. л. нарубленного укропа",
+     "1 ч. л. оливкового масла",
+     "Соль"
+    ],
+    "steps": [
+     "Размешайте йогурт до гладкости.",
+     "Вмешайте чеснок, укроп, большую часть грецких орехов и щепотку соли.",
+     "Выложите на тарелку, сбрызните оливковым маслом и посыпьте сверху остальными грецкими орехами.",
+     "Охладите 30 минут перед подачей."
+    ]
+   },
+   "tips": [
+    "Берите нежирный процеженный йогурт: соус останется густым и кисловатым.",
+    "Используйте грецкие орехи как лёгкую посыпку: это самая калорийная часть.",
+    "Подавайте с палочками огурца и моркови."
+   ],
+   "name_inline": "хайдари"
+  },
+  "es": {
+   "name": "Haydari",
+   "origin": "Turquía",
+   "intro": "El haydari es un meze turco espeso de yogur colado mezclado con ajo machacado, eneldo picado y nueces. Es fresco, ácido y cremoso, con un poco de crujiente por las nueces. Se sirve frío en las tablas de meze o junto a carnes a la parrilla.",
+   "history": "El haydari es uno de los mezes fríos clásicos de las tabernas meyhane y los restaurantes de kebab turcos, y es especialmente popular en Estambul y en la costa del Egeo. Se encuentran dips parecidos de yogur colado en todo el Mediterráneo oriental.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "400 g de yogur colado",
+     "2 dientes de ajo, machacados",
+     "30 g de nueces, finamente picadas",
+     "2 cda. de eneldo picado",
+     "1 cdta. de aceite de oliva",
+     "Sal"
+    ],
+    "steps": [
+     "Mueve el yogur hasta que quede liso.",
+     "Mezcla el ajo, el eneldo, la mayor parte de las nueces y una pizca de sal.",
+     "Extiende en un plato, rocía con el aceite de oliva y esparce el resto de las nueces por encima.",
+     "Refrigera 30 minutos antes de servir."
+    ]
+   },
+   "tips": [
+    "Usa yogur colado bajo en grasa: el dip sigue siendo espeso y ácido.",
+    "Deja las nueces como cobertura ligera: son lo más calórico.",
+    "Tómalo con bastones de pepino y zanahoria."
+   ],
+   "name_inline": "el haydari"
   }
+ }
 }

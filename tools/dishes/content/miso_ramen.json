@@ -1,174 +1,207 @@
 {
-  "db_key": "miso_ramen",
-  "slug": "miso-ramen",
-  "emoji": "🍜",
-  "portion_g": 550,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "miso_ramen",
+ "slug": "miso-ramen",
+ "emoji": "🍜",
+ "portion_g": 550,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Miso ramen",
+   "origin": "Japan · Hokkaido (Sapporo)",
+   "intro": "Miso ramen is a bowl of wheat noodles in a rich, cloudy broth seasoned with miso, topped with sliced pork, a soft-boiled egg, sweet corn, scallions and a pat of butter melting into the soup. The broth is savoury and warming, the noodles springy. It is a filling one-bowl meal, especially popular in cold weather.",
+   "history": "Miso ramen is usually credited to Sapporo in Hokkaido, where a local ramen shop is said to have created it in the 1950s–60s. Corn and butter toppings reflect Hokkaido's farm produce. It spread across Japan during the ramen boom of the following decades and is now one of the main ramen styles worldwide.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "2 portions fresh ramen noodles (about 250 g)",
+     "1 litre pork or chicken stock",
+     "3 tbsp miso",
+     "150 g cooked pork belly or shoulder, sliced",
+     "2 eggs",
+     "100 g sweet corn",
+     "2 scallions, sliced",
+     "10 g butter"
+    ],
+    "steps": [
+     "Soft-boil the eggs for 6–7 minutes, cool in cold water and peel.",
+     "Heat the stock and whisk in the miso without letting it boil hard.",
+     "Cook the noodles according to the packet and drain.",
+     "Divide noodles between bowls and pour over the hot broth.",
+     "Top with pork, halved eggs, corn, scallions and a small piece of butter."
+    ]
+   },
+   "tips": [
+    "Skip the butter or use half: 10 g butter ≈ 72 kcal.",
+    "Choose lean pork shoulder over belly and add extra vegetables like bean sprouts or cabbage.",
+    "Leave some of the broth in the bowl; much of the fat and salt sits there."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Miso ramen",
-      "origin": "Japan · Hokkaido (Sapporo)",
-      "intro": "Miso ramen is a bowl of wheat noodles in a rich, cloudy broth seasoned with miso, topped with sliced pork, a soft-boiled egg, sweet corn, scallions and a pat of butter melting into the soup. The broth is savoury and warming, the noodles springy. It is a filling one-bowl meal, especially popular in cold weather.",
-      "history": "Miso ramen is usually credited to Sapporo in Hokkaido, where a local ramen shop is said to have created it in the 1950s–60s. Corn and butter toppings reflect Hokkaido's farm produce. It spread across Japan during the ramen boom of the following decades and is now one of the main ramen styles worldwide.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "2 portions fresh ramen noodles (about 250 g)",
-          "1 litre pork or chicken stock",
-          "3 tbsp miso",
-          "150 g cooked pork belly or shoulder, sliced",
-          "2 eggs",
-          "100 g sweet corn",
-          "2 scallions, sliced",
-          "10 g butter"
-        ],
-        "steps": [
-          "Soft-boil the eggs for 6–7 minutes, cool in cold water and peel.",
-          "Heat the stock and whisk in the miso without letting it boil hard.",
-          "Cook the noodles according to the packet and drain.",
-          "Divide noodles between bowls and pour over the hot broth.",
-          "Top with pork, halved eggs, corn, scallions and a small piece of butter."
-        ]
-      },
-      "tips": [
-        "Skip the butter or use half: 10 g butter ≈ 72 kcal.",
-        "Choose lean pork shoulder over belly and add extra vegetables like bean sprouts or cabbage.",
-        "Leave some of the broth in the bowl; much of the fat and salt sits there."
-      ]
-    },
-    "ar": {
-      "name": "رامن الميسو",
-      "origin": "اليابان · هوكايدو (سابورو)",
-      "intro": "رامن الميسو وعاء من نودلز القمح في مرق غني وعكر متبّل بالميسو، تعلوه شرائح لحم الخنزير وبيضة مسلوقة طرية وذرة حلوة وبصل أخضر وقطعة زبدة تذوب في الحساء. المرق مالح دافئ والنودلز مرنة. وهو وجبة كاملة مشبعة في وعاء واحد، وتشتهر خاصةً في الطقس البارد.",
-      "history": "يُنسب رامن الميسو عادةً إلى مدينة سابورو في هوكايدو، حيث يُقال إن أحد محلات الرامن ابتكره في خمسينيات أو ستينيات القرن العشرين. وتعكس إضافة الذرة والزبدة منتجات مزارع هوكايدو. انتشر في أنحاء اليابان مع ازدهار الرامن في العقود التالية، وهو اليوم من أبرز أنواع الرامن في العالم.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "حصتان من نودلز الرامن الطازجة (نحو 250 غ)",
-          "1 لتر مرق خنزير أو دجاج",
-          "3 ملاعق كبيرة ميسو",
-          "150 غ لحم خنزير مطهو (بطن أو كتف) مقطع شرائح",
-          "2 بيضة",
-          "100 غ ذرة حلوة",
-          "2 عود بصل أخضر مقطع",
-          "10 غ زبدة"
-        ],
-        "steps": [
-          "اسلق البيض 6–7 دقائق، ثم برّده في ماء بارد وقشّره.",
-          "سخّن المرق واخفق فيه الميسو دون غليان شديد.",
-          "اسلق النودلز حسب تعليمات العبوة وصفّها.",
-          "وزّع النودلز في الأوعية واسكب فوقها المرق الساخن.",
-          "أضف اللحم وأنصاف البيض والذرة والبصل الأخضر وقطعة صغيرة من الزبدة."
-        ]
-      },
-      "tips": [
-        "استغنِ عن الزبدة أو استعمل نصفها: 10 غ زبدة ≈ 72 سعرة.",
-        "اختر الكتف قليل الدهن بدل البطن وأضف خضارًا مثل براعم الفول أو الملفوف.",
-        "اترك جزءًا من المرق في الوعاء، ففيه معظم الدهون والملح."
-      ]
-    },
-    "it": {
-      "name": "Miso ramen",
-      "origin": "Giappone · Hokkaido (Sapporo)",
-      "intro": "Il miso ramen è una ciotola di noodles di grano in un brodo ricco e torbido insaporito con miso, completato con maiale a fette, un uovo bazzotto, mais dolce, cipollotti e un pezzetto di burro che si scioglie nella zuppa. Il brodo è sapido e scaldante, i noodles elastici. È un pasto unico che sazia, particolarmente popolare quando fa freddo.",
-      "history": "Il miso ramen viene di solito attribuito a Sapporo, in Hokkaido, dove si dice che un locale di ramen lo abbia creato tra gli anni '50 e '60. Il mais e il burro rispecchiano i prodotti agricoli dell'Hokkaido. Si diffuse in tutto il Giappone durante il boom del ramen dei decenni successivi ed è oggi uno dei principali stili di ramen nel mondo.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "2 porzioni di noodles freschi per ramen (circa 250 g)",
-          "1 litro di brodo di maiale o di pollo",
-          "3 cucchiai di miso",
-          "150 g di pancetta o spalla di maiale cotta, a fette",
-          "2 uova",
-          "100 g di mais dolce",
-          "2 cipollotti, a rondelle",
-          "10 g di burro"
-        ],
-        "steps": [
-          "Cuoci le uova bazzotte per 6–7 minuti, raffreddale in acqua fredda e sgusciale.",
-          "Scalda il brodo e incorpora il miso con la frusta senza farlo bollire forte.",
-          "Cuoci i noodles secondo le istruzioni della confezione e scolali.",
-          "Dividi i noodles nelle ciotole e versaci sopra il brodo caldo.",
-          "Completa con il maiale, le uova tagliate a metà, il mais, i cipollotti e un pezzetto di burro."
-        ]
-      },
-      "tips": [
-        "Salta il burro o usane metà: 10 g di burro ≈ 72 kcal.",
-        "Scegli spalla di maiale magra invece della pancetta e aggiungi altre verdure come germogli di soia o cavolo.",
-        "Lascia un po' di brodo nella ciotola; lì si concentra gran parte del grasso e del sale."
-      ]
-    },
-    "el": {
-      "name": "Μίσο ράμεν",
-      "origin": "Ιαπωνία · Χοκάιντο (Σαπόρο)",
-      "intro": "Το μίσο ράμεν είναι ένα μπολ με νουντλς σιταριού σε πλούσιο, θολό ζωμό καρυκευμένο με μίσο, με χοιρινό σε φέτες, μελάτο αυγό, γλυκό καλαμπόκι, φρέσκα κρεμμυδάκια και ένα κομματάκι βούτυρο που λιώνει μέσα στη σούπα. Ο ζωμός είναι γευστικός και ζεστός, τα νουντλς ελαστικά. Είναι χορταστικό γεύμα σε ένα μπολ, ιδιαίτερα δημοφιλές τον κρύο καιρό.",
-      "history": "Το μίσο ράμεν αποδίδεται συνήθως στο Σαπόρο του Χοκάιντο, όπου λέγεται ότι ένα τοπικό μαγαζί ράμεν το δημιούργησε τις δεκαετίες του 1950–60. Το καλαμπόκι και το βούτυρο αντανακλούν τα αγροτικά προϊόντα του Χοκάιντο. Διαδόθηκε σε όλη την Ιαπωνία κατά την έκρηξη του ράμεν τις επόμενες δεκαετίες και σήμερα είναι ένα από τα κύρια στιλ ράμεν παγκοσμίως.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "2 μερίδες φρέσκα νουντλς ράμεν (περίπου 250 γρ.)",
-          "1 λίτρο ζωμός χοιρινού ή κοτόπουλου",
-          "3 κ.σ. μίσο",
-          "150 γρ. μαγειρεμένη χοιρινή πανσέτα ή σπάλα, σε φέτες",
-          "2 αυγά",
-          "100 γρ. γλυκό καλαμπόκι",
-          "2 φρέσκα κρεμμυδάκια, σε ροδέλες",
-          "10 γρ. βούτυρο"
-        ],
-        "steps": [
-          "Βράστε τα αυγά μελάτα για 6–7 λεπτά, κρυώστε τα σε κρύο νερό και ξεφλουδίστε τα.",
-          "Ζεστάνετε τον ζωμό και ενσωματώστε με σύρμα το μίσο χωρίς να τον αφήσετε να κοχλάσει δυνατά.",
-          "Βράστε τα νουντλς σύμφωνα με τις οδηγίες της συσκευασίας και στραγγίξτε τα.",
-          "Μοιράστε τα νουντλς στα μπολ και ρίξτε από πάνω τον ζεστό ζωμό.",
-          "Βάλτε από πάνω το χοιρινό, τα αυγά κομμένα στη μέση, το καλαμπόκι, τα κρεμμυδάκια και ένα μικρό κομμάτι βούτυρο."
-        ]
-      },
-      "tips": [
-        "Παραλείψτε το βούτυρο ή βάλτε το μισό: 10 γρ. βούτυρο ≈ 72 kcal.",
-        "Επιλέξτε άπαχη χοιρινή σπάλα αντί για πανσέτα και προσθέστε επιπλέον λαχανικά όπως φύτρες φασολιών ή λάχανο.",
-        "Αφήστε λίγο ζωμό στο μπολ· εκεί βρίσκεται μεγάλο μέρος του λίπους και του αλατιού."
-      ]
-    },
-    "ru": {
-      "name": "Мисо-рамен",
-      "origin": "Япония · Хоккайдо (Саппоро)",
-      "intro": "Мисо-рамен — миска пшеничной лапши в насыщенном мутном бульоне, приправленном мисо, с ломтиками свинины, яйцом всмятку, сладкой кукурузой, зелёным луком и кусочком масла, тающим в супе. Бульон пикантный и согревающий, лапша упругая. Это сытное блюдо в одной миске, особенно популярное в холодную погоду.",
-      "history": "Мисо-рамен обычно приписывают Саппоро на Хоккайдо, где, как говорят, его создала местная рамен-лавка в 1950–1960-х годах. Кукуруза и масло отражают сельскохозяйственную продукцию Хоккайдо. Он распространился по Японии во время рамен-бума следующих десятилетий и теперь — один из основных стилей рамена в мире.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "2 порции свежей лапши рамен (около 250 г)",
-          "1 л свиного или куриного бульона",
-          "3 ст. л. мисо",
-          "150 г варёной свиной грудинки или лопатки, нарезанной",
-          "2 яйца",
-          "100 г сладкой кукурузы",
-          "2 стебля зелёного лука, нарезанных",
-          "10 г сливочного масла"
-        ],
-        "steps": [
-          "Сварите яйца всмятку за 6–7 минут, охладите в холодной воде и очистите.",
-          "Нагрейте бульон и вмешайте мисо, не давая сильно закипеть.",
-          "Отварите лапшу по инструкции на упаковке и слейте.",
-          "Разделите лапшу по мискам и залейте горячим бульоном.",
-          "Сверху выложите свинину, половинки яиц, кукурузу, зелёный лук и небольшой кусочек масла."
-        ]
-      },
-      "tips": [
-        "Откажитесь от масла или используйте половину: 10 г масла ≈ 72 ккал.",
-        "Выбирайте постную свиную лопатку вместо грудинки и добавьте дополнительные овощи, например ростки фасоли или капусту.",
-        "Оставьте часть бульона в миске; именно в нём находится большая часть жира и соли."
-      ]
-    }
+  "ar": {
+   "name": "رامن الميسو",
+   "origin": "اليابان · هوكايدو (سابورو)",
+   "intro": "رامن الميسو وعاء من نودلز القمح في مرق غني وعكر متبّل بالميسو، تعلوه شرائح لحم الخنزير وبيضة مسلوقة طرية وذرة حلوة وبصل أخضر وقطعة زبدة تذوب في الحساء. المرق مالح دافئ والنودلز مرنة. وهو وجبة كاملة مشبعة في وعاء واحد، وتشتهر خاصةً في الطقس البارد.",
+   "history": "يُنسب رامن الميسو عادةً إلى مدينة سابورو في هوكايدو، حيث يُقال إن أحد محلات الرامن ابتكره في خمسينيات أو ستينيات القرن العشرين. وتعكس إضافة الذرة والزبدة منتجات مزارع هوكايدو. انتشر في أنحاء اليابان مع ازدهار الرامن في العقود التالية، وهو اليوم من أبرز أنواع الرامن في العالم.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "حصتان من نودلز الرامن الطازجة (نحو 250 غ)",
+     "1 لتر مرق خنزير أو دجاج",
+     "3 ملاعق كبيرة ميسو",
+     "150 غ لحم خنزير مطهو (بطن أو كتف) مقطع شرائح",
+     "2 بيضة",
+     "100 غ ذرة حلوة",
+     "2 عود بصل أخضر مقطع",
+     "10 غ زبدة"
+    ],
+    "steps": [
+     "اسلق البيض 6–7 دقائق، ثم برّده في ماء بارد وقشّره.",
+     "سخّن المرق واخفق فيه الميسو دون غليان شديد.",
+     "اسلق النودلز حسب تعليمات العبوة وصفّها.",
+     "وزّع النودلز في الأوعية واسكب فوقها المرق الساخن.",
+     "أضف اللحم وأنصاف البيض والذرة والبصل الأخضر وقطعة صغيرة من الزبدة."
+    ]
+   },
+   "tips": [
+    "استغنِ عن الزبدة أو استعمل نصفها: 10 غ زبدة ≈ 72 سعرة.",
+    "اختر الكتف قليل الدهن بدل البطن وأضف خضارًا مثل براعم الفول أو الملفوف.",
+    "اترك جزءًا من المرق في الوعاء، ففيه معظم الدهون والملح."
+   ]
+  },
+  "it": {
+   "name": "Miso ramen",
+   "origin": "Giappone · Hokkaido (Sapporo)",
+   "intro": "Il miso ramen è una ciotola di noodles di grano in un brodo ricco e torbido insaporito con miso, completato con maiale a fette, un uovo bazzotto, mais dolce, cipollotti e un pezzetto di burro che si scioglie nella zuppa. Il brodo è sapido e scaldante, i noodles elastici. È un pasto unico che sazia, particolarmente popolare quando fa freddo.",
+   "history": "Il miso ramen viene di solito attribuito a Sapporo, in Hokkaido, dove si dice che un locale di ramen lo abbia creato tra gli anni '50 e '60. Il mais e il burro rispecchiano i prodotti agricoli dell'Hokkaido. Si diffuse in tutto il Giappone durante il boom del ramen dei decenni successivi ed è oggi uno dei principali stili di ramen nel mondo.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "2 porzioni di noodles freschi per ramen (circa 250 g)",
+     "1 litro di brodo di maiale o di pollo",
+     "3 cucchiai di miso",
+     "150 g di pancetta o spalla di maiale cotta, a fette",
+     "2 uova",
+     "100 g di mais dolce",
+     "2 cipollotti, a rondelle",
+     "10 g di burro"
+    ],
+    "steps": [
+     "Cuoci le uova bazzotte per 6–7 minuti, raffreddale in acqua fredda e sgusciale.",
+     "Scalda il brodo e incorpora il miso con la frusta senza farlo bollire forte.",
+     "Cuoci i noodles secondo le istruzioni della confezione e scolali.",
+     "Dividi i noodles nelle ciotole e versaci sopra il brodo caldo.",
+     "Completa con il maiale, le uova tagliate a metà, il mais, i cipollotti e un pezzetto di burro."
+    ]
+   },
+   "tips": [
+    "Salta il burro o usane metà: 10 g di burro ≈ 72 kcal.",
+    "Scegli spalla di maiale magra invece della pancetta e aggiungi altre verdure come germogli di soia o cavolo.",
+    "Lascia un po' di brodo nella ciotola; lì si concentra gran parte del grasso e del sale."
+   ]
+  },
+  "el": {
+   "name": "Μίσο ράμεν",
+   "origin": "Ιαπωνία · Χοκάιντο (Σαπόρο)",
+   "intro": "Το μίσο ράμεν είναι ένα μπολ με νουντλς σιταριού σε πλούσιο, θολό ζωμό καρυκευμένο με μίσο, με χοιρινό σε φέτες, μελάτο αυγό, γλυκό καλαμπόκι, φρέσκα κρεμμυδάκια και ένα κομματάκι βούτυρο που λιώνει μέσα στη σούπα. Ο ζωμός είναι γευστικός και ζεστός, τα νουντλς ελαστικά. Είναι χορταστικό γεύμα σε ένα μπολ, ιδιαίτερα δημοφιλές τον κρύο καιρό.",
+   "history": "Το μίσο ράμεν αποδίδεται συνήθως στο Σαπόρο του Χοκάιντο, όπου λέγεται ότι ένα τοπικό μαγαζί ράμεν το δημιούργησε τις δεκαετίες του 1950–60. Το καλαμπόκι και το βούτυρο αντανακλούν τα αγροτικά προϊόντα του Χοκάιντο. Διαδόθηκε σε όλη την Ιαπωνία κατά την έκρηξη του ράμεν τις επόμενες δεκαετίες και σήμερα είναι ένα από τα κύρια στιλ ράμεν παγκοσμίως.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "2 μερίδες φρέσκα νουντλς ράμεν (περίπου 250 γρ.)",
+     "1 λίτρο ζωμός χοιρινού ή κοτόπουλου",
+     "3 κ.σ. μίσο",
+     "150 γρ. μαγειρεμένη χοιρινή πανσέτα ή σπάλα, σε φέτες",
+     "2 αυγά",
+     "100 γρ. γλυκό καλαμπόκι",
+     "2 φρέσκα κρεμμυδάκια, σε ροδέλες",
+     "10 γρ. βούτυρο"
+    ],
+    "steps": [
+     "Βράστε τα αυγά μελάτα για 6–7 λεπτά, κρυώστε τα σε κρύο νερό και ξεφλουδίστε τα.",
+     "Ζεστάνετε τον ζωμό και ενσωματώστε με σύρμα το μίσο χωρίς να τον αφήσετε να κοχλάσει δυνατά.",
+     "Βράστε τα νουντλς σύμφωνα με τις οδηγίες της συσκευασίας και στραγγίξτε τα.",
+     "Μοιράστε τα νουντλς στα μπολ και ρίξτε από πάνω τον ζεστό ζωμό.",
+     "Βάλτε από πάνω το χοιρινό, τα αυγά κομμένα στη μέση, το καλαμπόκι, τα κρεμμυδάκια και ένα μικρό κομμάτι βούτυρο."
+    ]
+   },
+   "tips": [
+    "Παραλείψτε το βούτυρο ή βάλτε το μισό: 10 γρ. βούτυρο ≈ 72 kcal.",
+    "Επιλέξτε άπαχη χοιρινή σπάλα αντί για πανσέτα και προσθέστε επιπλέον λαχανικά όπως φύτρες φασολιών ή λάχανο.",
+    "Αφήστε λίγο ζωμό στο μπολ· εκεί βρίσκεται μεγάλο μέρος του λίπους και του αλατιού."
+   ]
+  },
+  "ru": {
+   "name": "Мисо-рамен",
+   "origin": "Япония · Хоккайдо (Саппоро)",
+   "intro": "Мисо-рамен — миска пшеничной лапши в насыщенном мутном бульоне, приправленном мисо, с ломтиками свинины, яйцом всмятку, сладкой кукурузой, зелёным луком и кусочком масла, тающим в супе. Бульон пикантный и согревающий, лапша упругая. Это сытное блюдо в одной миске, особенно популярное в холодную погоду.",
+   "history": "Мисо-рамен обычно приписывают Саппоро на Хоккайдо, где, как говорят, его создала местная рамен-лавка в 1950–1960-х годах. Кукуруза и масло отражают сельскохозяйственную продукцию Хоккайдо. Он распространился по Японии во время рамен-бума следующих десятилетий и теперь — один из основных стилей рамена в мире.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "2 порции свежей лапши рамен (около 250 г)",
+     "1 л свиного или куриного бульона",
+     "3 ст. л. мисо",
+     "150 г варёной свиной грудинки или лопатки, нарезанной",
+     "2 яйца",
+     "100 г сладкой кукурузы",
+     "2 стебля зелёного лука, нарезанных",
+     "10 г сливочного масла"
+    ],
+    "steps": [
+     "Сварите яйца всмятку за 6–7 минут, охладите в холодной воде и очистите.",
+     "Нагрейте бульон и вмешайте мисо, не давая сильно закипеть.",
+     "Отварите лапшу по инструкции на упаковке и слейте.",
+     "Разделите лапшу по мискам и залейте горячим бульоном.",
+     "Сверху выложите свинину, половинки яиц, кукурузу, зелёный лук и небольшой кусочек масла."
+    ]
+   },
+   "tips": [
+    "Откажитесь от масла или используйте половину: 10 г масла ≈ 72 ккал.",
+    "Выбирайте постную свиную лопатку вместо грудинки и добавьте дополнительные овощи, например ростки фасоли или капусту.",
+    "Оставьте часть бульона в миске; именно в нём находится большая часть жира и соли."
+   ]
+  },
+  "es": {
+   "name": "Ramen miso",
+   "origin": "Japón · Hokkaido (Sapporo)",
+   "intro": "El ramen miso es un tazón de fideos de trigo en un caldo espeso y turbio sazonado con miso, cubierto con cerdo en rebanadas, un huevo cocido blando, elote, cebollín y un trozo de mantequilla que se derrite en la sopa. El caldo es sabroso y reconfortante, y los fideos, elásticos. Es una comida completa en un solo tazón, especialmente popular en tiempo frío.",
+   "history": "El ramen miso suele atribuirse a Sapporo, en Hokkaido, donde se dice que lo creó una tienda de ramen local entre las décadas de 1950 y 1960. El elote y la mantequilla reflejan los productos agrícolas de Hokkaido. Se extendió por Japón durante el auge del ramen de las décadas siguientes y hoy es uno de los principales estilos de ramen en el mundo.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "2 porciones de fideos frescos para ramen (unos 250 g)",
+     "1 litro de caldo de cerdo o de pollo",
+     "3 cdas. de miso",
+     "150 g de panceta o paleta de cerdo cocida, en rebanadas",
+     "2 huevos",
+     "100 g de elote",
+     "2 cebollines, en rodajas",
+     "10 g de mantequilla"
+    ],
+    "steps": [
+     "Hierve los huevos de 6 a 7 minutos, enfríalos en agua fría y pélalos.",
+     "Calienta el caldo y disuelve en él el miso sin dejar que hierva con fuerza.",
+     "Cuece los fideos según las indicaciones del paquete y escúrrelos.",
+     "Reparte los fideos en los tazones y vierte encima el caldo caliente.",
+     "Cubre con el cerdo, los huevos partidos por la mitad, el elote, el cebollín y un trocito de mantequilla."
+    ]
+   },
+   "tips": [
+    "Omite la mantequilla o usa la mitad: 10 g de mantequilla ≈ 72 kcal.",
+    "Elige paleta de cerdo magra en lugar de panceta y añade más verduras, como germinados o col.",
+    "Deja parte del caldo en el tazón; ahí se concentra buena parte de la grasa y la sal."
+   ],
+   "name_inline": "el ramen miso"
   }
+ }
 }

@@ -1,175 +1,208 @@
 {
-  "db_key": "shabu_shabu",
-  "slug": "shabu-shabu",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "shabu_shabu",
+ "slug": "shabu-shabu",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Shabu-Shabu",
+   "origin": "Japan",
+   "intro": "Shabu-shabu is a Japanese hot pot in which paper-thin slices of beef are swished briefly through simmering kombu broth at the table, then dipped in citrusy ponzu. Tofu, cabbage, mushrooms and other vegetables cook in the same pot. The meat stays tender and the broth light, and the meal is cooked and eaten piece by piece.",
+   "history": "Shabu-shabu is generally said to have been introduced in Osaka in the 1950s, adapted from Chinese hot pot; the name imitates the swishing sound of meat in the pot. It is now served across Japan and in Japanese restaurants worldwide.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g beef, sliced paper-thin",
+     "300 g firm tofu, cubed",
+     "¼ Napa cabbage, cut into pieces",
+     "150 g mushrooms",
+     "2 leeks or spring onions, sliced",
+     "1 piece kombu (10 cm)",
+     "1.5 litres water",
+     "150 ml ponzu for dipping"
+    ],
+    "steps": [
+     "Soak the kombu in the water for 30 minutes, then heat until just below a boil and remove the kombu.",
+     "Arrange beef, tofu and vegetables on platters.",
+     "Keep the broth simmering on a tabletop burner.",
+     "Add vegetables and tofu first; swish each slice of beef in the broth for a few seconds until just cooked.",
+     "Dip in ponzu and eat, skimming the broth as you go."
+    ]
+   },
+   "tips": [
+    "Choose lean cuts of beef and load the pot with vegetables and tofu.",
+    "Dip lightly in ponzu — it is salty, so a little goes a long way.",
+    "Skim the fat that rises to the surface of the broth during the meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Shabu-Shabu",
-      "origin": "Japan",
-      "intro": "Shabu-shabu is a Japanese hot pot in which paper-thin slices of beef are swished briefly through simmering kombu broth at the table, then dipped in citrusy ponzu. Tofu, cabbage, mushrooms and other vegetables cook in the same pot. The meat stays tender and the broth light, and the meal is cooked and eaten piece by piece.",
-      "history": "Shabu-shabu is generally said to have been introduced in Osaka in the 1950s, adapted from Chinese hot pot; the name imitates the swishing sound of meat in the pot. It is now served across Japan and in Japanese restaurants worldwide.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 g beef, sliced paper-thin",
-          "300 g firm tofu, cubed",
-          "¼ Napa cabbage, cut into pieces",
-          "150 g mushrooms",
-          "2 leeks or spring onions, sliced",
-          "1 piece kombu (10 cm)",
-          "1.5 litres water",
-          "150 ml ponzu for dipping"
-        ],
-        "steps": [
-          "Soak the kombu in the water for 30 minutes, then heat until just below a boil and remove the kombu.",
-          "Arrange beef, tofu and vegetables on platters.",
-          "Keep the broth simmering on a tabletop burner.",
-          "Add vegetables and tofu first; swish each slice of beef in the broth for a few seconds until just cooked.",
-          "Dip in ponzu and eat, skimming the broth as you go."
-        ]
-      },
-      "tips": [
-        "Choose lean cuts of beef and load the pot with vegetables and tofu.",
-        "Dip lightly in ponzu — it is salty, so a little goes a long way.",
-        "Skim the fat that rises to the surface of the broth during the meal."
-      ]
-    },
-    "ar": {
-      "name": "شابو شابو",
-      "origin": "اليابان",
-      "intro": "الشابو شابو طبق ياباني من فئة القِدر الساخن، تُحرَّك فيه شرائح لحم البقر الرقيقة جداً لثوانٍ في مرق الكومبو المغلي على المائدة، ثم تُغمس في صلصة البونزو الحمضية. يُطهى التوفو والملفوف والفطر وخضار أخرى في القِدر نفسه. يبقى اللحم طرياً والمرق خفيفاً، وتُطهى الوجبة وتُؤكل قطعة قطعة.",
-      "history": "يُقال عادةً إن الشابو شابو ظهر في أوساكا في خمسينيات القرن العشرين اقتباساً من القِدر الساخن الصيني، واسمه يحاكي صوت تحريك اللحم في المرق. ويُقدَّم اليوم في أنحاء اليابان وفي المطاعم اليابانية حول العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 غ لحم بقر مقطّع شرائح رقيقة جداً",
-          "300 غ توفو متماسك مكعبات",
-          "ربع ملفوفة صينية مقطّعة",
-          "150 غ فطر",
-          "2 كراث أو بصل أخضر مقطّع",
-          "قطعة كومبو (10 سم)",
-          "1.5 لتر ماء",
-          "150 مل بونزو للغمس"
-        ],
-        "steps": [
-          "انقع الكومبو في الماء 30 دقيقة، ثم سخّنه حتى ما قبل الغليان وأخرج الكومبو.",
-          "رتّب اللحم والتوفو والخضار في أطباق.",
-          "أبقِ المرق يغلي بهدوء على موقد المائدة.",
-          "أضف الخضار والتوفو أولاً، ثم حرّك كل شريحة لحم في المرق بضع ثوانٍ حتى تنضج.",
-          "اغمسها في البونزو وكُلها، مع إزالة الرغوة من المرق أولاً بأول."
-        ]
-      },
-      "tips": [
-        "اختر قطعاً قليلة الدهن من لحم البقر وأكثِر من الخضار والتوفو.",
-        "اغمس قليلاً في البونزو؛ فهو مالح وكمية صغيرة تكفي.",
-        "أزل الدهن الذي يطفو على سطح المرق أثناء الأكل."
-      ]
-    },
-    "it": {
-      "name": "Shabu-shabu",
-      "origin": "Giappone",
-      "intro": "Lo shabu-shabu è un hot pot giapponese in cui fettine sottilissime di manzo vengono agitate brevemente a tavola nel brodo di kombu che sobbolle e poi intinte nella ponzu agrumata. Tofu, cavolo, funghi e altre verdure cuociono nella stessa pentola. La carne resta tenera e il brodo leggero, e il pasto si cuoce e si mangia boccone dopo boccone.",
-      "history": "Si dice in genere che lo shabu-shabu sia stato introdotto a Osaka negli anni Cinquanta, adattando l'hot pot cinese; il nome imita il fruscio della carne agitata nella pentola. Oggi si serve in tutto il Giappone e nei ristoranti giapponesi di tutto il mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 g di manzo, a fettine sottilissime",
-          "300 g di tofu compatto, a cubetti",
-          "¼ di cavolo cinese, a pezzi",
-          "150 g di funghi",
-          "2 porri o cipollotti, affettati",
-          "1 pezzo di alga kombu (10 cm)",
-          "1,5 litri di acqua",
-          "150 ml di ponzu per intingere"
-        ],
-        "steps": [
-          "Metti in ammollo la kombu nell'acqua per 30 minuti, poi scalda fin quasi al bollore e togli la kombu.",
-          "Disponi manzo, tofu e verdure su dei piatti da portata.",
-          "Mantieni il brodo a fuoco lento su un fornello da tavola.",
-          "Aggiungi prima verdure e tofu; agita ogni fettina di manzo nel brodo per pochi secondi finché è appena cotta.",
-          "Intingi nella ponzu e mangia, schiumando il brodo man mano."
-        ]
-      },
-      "tips": [
-        "Scegli tagli di manzo magri e riempi la pentola di verdure e tofu.",
-        "Intingi appena nella ponzu: è salata, quindi ne basta poca.",
-        "Elimina il grasso che affiora in superficie durante il pasto."
-      ]
-    },
-    "el": {
-      "name": "Σαμπού-σαμπού",
-      "name_inline": "σαμπού-σαμπού",
-      "origin": "Ιαπωνία",
-      "intro": "Το σαμπού-σαμπού είναι ιαπωνικό hot pot στο οποίο λεπτότατες φέτες μοσχαριού ανακινούνται για λίγο μέσα σε ζωμό κόμπου που σιγοβράζει στο τραπέζι και έπειτα βουτιούνται σε σάλτσα ponzu με εσπεριδοειδή. Τόφου, λάχανο, μανιτάρια και άλλα λαχανικά μαγειρεύονται στην ίδια κατσαρόλα. Το κρέας μένει τρυφερό και ο ζωμός ελαφρύς, και το γεύμα μαγειρεύεται και τρώγεται μπουκιά μπουκιά.",
-      "history": "Λέγεται γενικά ότι το σαμπού-σαμπού εισήχθη στην Οσάκα τη δεκαετία του 1950 ως προσαρμογή του κινεζικού hot pot· το όνομα μιμείται τον ήχο του κρέατος που ανακινείται στην κατσαρόλα. Σήμερα σερβίρεται σε όλη την Ιαπωνία και σε ιαπωνικά εστιατόρια σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 γρ. μοσχάρι, σε λεπτότατες φέτες",
-          "300 γρ. σφιχτό τόφου, σε κύβους",
-          "¼ κινέζικο λάχανο, σε κομμάτια",
-          "150 γρ. μανιτάρια",
-          "2 πράσα ή φρέσκα κρεμμυδάκια, σε φέτες",
-          "1 κομμάτι φύκι κόμπου (10 εκ.)",
-          "1,5 λίτρο νερό",
-          "150 ml ponzu για βούτηγμα"
-        ],
-        "steps": [
-          "Μουλιάστε το κόμπου στο νερό για 30 λεπτά, έπειτα ζεστάνετε μέχρι λίγο πριν βράσει και αφαιρέστε το κόμπου.",
-          "Τοποθετήστε το μοσχάρι, το τόφου και τα λαχανικά σε πιατέλες.",
-          "Κρατήστε τον ζωμό να σιγοβράζει σε επιτραπέζιο γκαζάκι.",
-          "Προσθέστε πρώτα λαχανικά και τόφου· ανακινήστε κάθε φέτα μοσχαριού στον ζωμό για λίγα δευτερόλεπτα, μέχρι να μόλις ψηθεί.",
-          "Βουτήξτε στο ponzu και φάτε, ξαφρίζοντας τον ζωμό στην πορεία."
-        ]
-      },
-      "tips": [
-        "Διαλέξτε άπαχα κομμάτια μοσχαριού και γεμίστε την κατσαρόλα με λαχανικά και τόφου.",
-        "Βουτάτε ελαφρά στο ponzu — είναι αλμυρό, οπότε λίγο αρκεί.",
-        "Αφαιρείτε το λίπος που ανεβαίνει στην επιφάνεια του ζωμού κατά τη διάρκεια του γεύματος."
-      ]
-    },
-    "ru": {
-      "name": "Сябу-сябу",
-      "origin": "Япония",
-      "intro": "Сябу-сябу — японский хот-пот, в котором ломтики говядины, нарезанные тонкие, как бумага, на мгновение окунают в кипящий бульон из комбу прямо за столом, а затем макают в цитрусовый понзу. В том же горшке готовятся тофу, капуста, грибы и другие овощи. Мясо остаётся нежным, а бульон лёгким, и еду готовят и едят по кусочку.",
-      "history": "Обычно говорят, что сябу-сябу появилось в Осаке в 1950-х годах как адаптация китайского хот-пота; название имитирует звук помешивания мяса в горшке. Сегодня его подают по всей Японии и в японских ресторанах по всему миру.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 г говядины, нарезанной тонко, как бумага",
-          "300 г плотного тофу, нарезанного кубиками",
-          "¼ пекинской капусты, нарезанной кусочками",
-          "150 г грибов",
-          "2 порея или зелёных лука, нарезанных",
-          "1 кусок комбу (10 см)",
-          "1,5 л воды",
-          "150 мл понзу для макания"
-        ],
-        "steps": [
-          "Замочите комбу в воде на 30 минут, затем нагрейте почти до кипения и выньте комбу.",
-          "Разложите говядину, тофу и овощи на блюда.",
-          "Поддерживайте бульон на слабом кипении на настольной горелке.",
-          "Сначала добавьте овощи и тофу; помешивайте каждый ломтик говядины в бульоне несколько секунд, пока он не будет готов.",
-          "Макайте в понзу и ешьте, снимая пену с бульона по ходу."
-        ]
-      },
-      "tips": [
-        "Выбирайте постные куски говядины и наполняйте горшок овощами и тофу.",
-        "Макайте в понзу слегка — он солёный, так что немного пойдёт далеко.",
-        "Снимайте жир, который поднимается на поверхность бульона во время еды."
-      ]
-    }
+  "ar": {
+   "name": "شابو شابو",
+   "origin": "اليابان",
+   "intro": "الشابو شابو طبق ياباني من فئة القِدر الساخن، تُحرَّك فيه شرائح لحم البقر الرقيقة جداً لثوانٍ في مرق الكومبو المغلي على المائدة، ثم تُغمس في صلصة البونزو الحمضية. يُطهى التوفو والملفوف والفطر وخضار أخرى في القِدر نفسه. يبقى اللحم طرياً والمرق خفيفاً، وتُطهى الوجبة وتُؤكل قطعة قطعة.",
+   "history": "يُقال عادةً إن الشابو شابو ظهر في أوساكا في خمسينيات القرن العشرين اقتباساً من القِدر الساخن الصيني، واسمه يحاكي صوت تحريك اللحم في المرق. ويُقدَّم اليوم في أنحاء اليابان وفي المطاعم اليابانية حول العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 غ لحم بقر مقطّع شرائح رقيقة جداً",
+     "300 غ توفو متماسك مكعبات",
+     "ربع ملفوفة صينية مقطّعة",
+     "150 غ فطر",
+     "2 كراث أو بصل أخضر مقطّع",
+     "قطعة كومبو (10 سم)",
+     "1.5 لتر ماء",
+     "150 مل بونزو للغمس"
+    ],
+    "steps": [
+     "انقع الكومبو في الماء 30 دقيقة، ثم سخّنه حتى ما قبل الغليان وأخرج الكومبو.",
+     "رتّب اللحم والتوفو والخضار في أطباق.",
+     "أبقِ المرق يغلي بهدوء على موقد المائدة.",
+     "أضف الخضار والتوفو أولاً، ثم حرّك كل شريحة لحم في المرق بضع ثوانٍ حتى تنضج.",
+     "اغمسها في البونزو وكُلها، مع إزالة الرغوة من المرق أولاً بأول."
+    ]
+   },
+   "tips": [
+    "اختر قطعاً قليلة الدهن من لحم البقر وأكثِر من الخضار والتوفو.",
+    "اغمس قليلاً في البونزو؛ فهو مالح وكمية صغيرة تكفي.",
+    "أزل الدهن الذي يطفو على سطح المرق أثناء الأكل."
+   ]
+  },
+  "it": {
+   "name": "Shabu-shabu",
+   "origin": "Giappone",
+   "intro": "Lo shabu-shabu è un hot pot giapponese in cui fettine sottilissime di manzo vengono agitate brevemente a tavola nel brodo di kombu che sobbolle e poi intinte nella ponzu agrumata. Tofu, cavolo, funghi e altre verdure cuociono nella stessa pentola. La carne resta tenera e il brodo leggero, e il pasto si cuoce e si mangia boccone dopo boccone.",
+   "history": "Si dice in genere che lo shabu-shabu sia stato introdotto a Osaka negli anni Cinquanta, adattando l'hot pot cinese; il nome imita il fruscio della carne agitata nella pentola. Oggi si serve in tutto il Giappone e nei ristoranti giapponesi di tutto il mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g di manzo, a fettine sottilissime",
+     "300 g di tofu compatto, a cubetti",
+     "¼ di cavolo cinese, a pezzi",
+     "150 g di funghi",
+     "2 porri o cipollotti, affettati",
+     "1 pezzo di alga kombu (10 cm)",
+     "1,5 litri di acqua",
+     "150 ml di ponzu per intingere"
+    ],
+    "steps": [
+     "Metti in ammollo la kombu nell'acqua per 30 minuti, poi scalda fin quasi al bollore e togli la kombu.",
+     "Disponi manzo, tofu e verdure su dei piatti da portata.",
+     "Mantieni il brodo a fuoco lento su un fornello da tavola.",
+     "Aggiungi prima verdure e tofu; agita ogni fettina di manzo nel brodo per pochi secondi finché è appena cotta.",
+     "Intingi nella ponzu e mangia, schiumando il brodo man mano."
+    ]
+   },
+   "tips": [
+    "Scegli tagli di manzo magri e riempi la pentola di verdure e tofu.",
+    "Intingi appena nella ponzu: è salata, quindi ne basta poca.",
+    "Elimina il grasso che affiora in superficie durante il pasto."
+   ]
+  },
+  "el": {
+   "name": "Σαμπού-σαμπού",
+   "name_inline": "σαμπού-σαμπού",
+   "origin": "Ιαπωνία",
+   "intro": "Το σαμπού-σαμπού είναι ιαπωνικό hot pot στο οποίο λεπτότατες φέτες μοσχαριού ανακινούνται για λίγο μέσα σε ζωμό κόμπου που σιγοβράζει στο τραπέζι και έπειτα βουτιούνται σε σάλτσα ponzu με εσπεριδοειδή. Τόφου, λάχανο, μανιτάρια και άλλα λαχανικά μαγειρεύονται στην ίδια κατσαρόλα. Το κρέας μένει τρυφερό και ο ζωμός ελαφρύς, και το γεύμα μαγειρεύεται και τρώγεται μπουκιά μπουκιά.",
+   "history": "Λέγεται γενικά ότι το σαμπού-σαμπού εισήχθη στην Οσάκα τη δεκαετία του 1950 ως προσαρμογή του κινεζικού hot pot· το όνομα μιμείται τον ήχο του κρέατος που ανακινείται στην κατσαρόλα. Σήμερα σερβίρεται σε όλη την Ιαπωνία και σε ιαπωνικά εστιατόρια σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 γρ. μοσχάρι, σε λεπτότατες φέτες",
+     "300 γρ. σφιχτό τόφου, σε κύβους",
+     "¼ κινέζικο λάχανο, σε κομμάτια",
+     "150 γρ. μανιτάρια",
+     "2 πράσα ή φρέσκα κρεμμυδάκια, σε φέτες",
+     "1 κομμάτι φύκι κόμπου (10 εκ.)",
+     "1,5 λίτρο νερό",
+     "150 ml ponzu για βούτηγμα"
+    ],
+    "steps": [
+     "Μουλιάστε το κόμπου στο νερό για 30 λεπτά, έπειτα ζεστάνετε μέχρι λίγο πριν βράσει και αφαιρέστε το κόμπου.",
+     "Τοποθετήστε το μοσχάρι, το τόφου και τα λαχανικά σε πιατέλες.",
+     "Κρατήστε τον ζωμό να σιγοβράζει σε επιτραπέζιο γκαζάκι.",
+     "Προσθέστε πρώτα λαχανικά και τόφου· ανακινήστε κάθε φέτα μοσχαριού στον ζωμό για λίγα δευτερόλεπτα, μέχρι να μόλις ψηθεί.",
+     "Βουτήξτε στο ponzu και φάτε, ξαφρίζοντας τον ζωμό στην πορεία."
+    ]
+   },
+   "tips": [
+    "Διαλέξτε άπαχα κομμάτια μοσχαριού και γεμίστε την κατσαρόλα με λαχανικά και τόφου.",
+    "Βουτάτε ελαφρά στο ponzu — είναι αλμυρό, οπότε λίγο αρκεί.",
+    "Αφαιρείτε το λίπος που ανεβαίνει στην επιφάνεια του ζωμού κατά τη διάρκεια του γεύματος."
+   ]
+  },
+  "ru": {
+   "name": "Сябу-сябу",
+   "origin": "Япония",
+   "intro": "Сябу-сябу — японский хот-пот, в котором ломтики говядины, нарезанные тонкие, как бумага, на мгновение окунают в кипящий бульон из комбу прямо за столом, а затем макают в цитрусовый понзу. В том же горшке готовятся тофу, капуста, грибы и другие овощи. Мясо остаётся нежным, а бульон лёгким, и еду готовят и едят по кусочку.",
+   "history": "Обычно говорят, что сябу-сябу появилось в Осаке в 1950-х годах как адаптация китайского хот-пота; название имитирует звук помешивания мяса в горшке. Сегодня его подают по всей Японии и в японских ресторанах по всему миру.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 г говядины, нарезанной тонко, как бумага",
+     "300 г плотного тофу, нарезанного кубиками",
+     "¼ пекинской капусты, нарезанной кусочками",
+     "150 г грибов",
+     "2 порея или зелёных лука, нарезанных",
+     "1 кусок комбу (10 см)",
+     "1,5 л воды",
+     "150 мл понзу для макания"
+    ],
+    "steps": [
+     "Замочите комбу в воде на 30 минут, затем нагрейте почти до кипения и выньте комбу.",
+     "Разложите говядину, тофу и овощи на блюда.",
+     "Поддерживайте бульон на слабом кипении на настольной горелке.",
+     "Сначала добавьте овощи и тофу; помешивайте каждый ломтик говядины в бульоне несколько секунд, пока он не будет готов.",
+     "Макайте в понзу и ешьте, снимая пену с бульона по ходу."
+    ]
+   },
+   "tips": [
+    "Выбирайте постные куски говядины и наполняйте горшок овощами и тофу.",
+    "Макайте в понзу слегка — он солёный, так что немного пойдёт далеко.",
+    "Снимайте жир, который поднимается на поверхность бульона во время еды."
+   ]
+  },
+  "es": {
+   "name": "Shabu-shabu",
+   "origin": "Japón",
+   "intro": "El shabu-shabu es una olla caliente japonesa en la que láminas finísimas de res se agitan brevemente en un caldo de kombu a fuego lento en la mesa y luego se mojan en ponzu cítrico. El tofu, la col, los hongos y otras verduras se cocinan en la misma olla. La carne queda tierna y el caldo ligero, y la comida se cocina y se come bocado a bocado.",
+   "history": "Por lo general se dice que el shabu-shabu se introdujo en Osaka en la década de 1950, adaptado de la olla caliente china; el nombre imita el sonido de la carne agitándose en la olla. Hoy se sirve en todo Japón y en restaurantes japoneses de todo el mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g de res, en láminas finísimas",
+     "300 g de tofu firme, en cubos",
+     "¼ de col china, en trozos",
+     "150 g de hongos",
+     "2 puerros o cebollitas de cambray, en rodajas",
+     "1 trozo de kombu (10 cm)",
+     "1,5 litros de agua",
+     "150 ml de ponzu para mojar"
+    ],
+    "steps": [
+     "Remoja el kombu en el agua durante 30 minutos, luego calienta hasta justo antes de hervir y retira el kombu.",
+     "Acomoda la carne, el tofu y las verduras en platones.",
+     "Mantén el caldo a fuego lento sobre un quemador de mesa.",
+     "Añade primero las verduras y el tofu; agita cada lámina de res en el caldo unos segundos hasta que apenas se cocine.",
+     "Moja en el ponzu y come, retirando la espuma del caldo conforme avanzas."
+    ]
+   },
+   "tips": [
+    "Elige cortes magros de res y llena la olla de verduras y tofu.",
+    "Moja ligeramente en el ponzu: es salado, así que un poco rinde mucho.",
+    "Retira la grasa que sube a la superficie del caldo durante la comida."
+   ],
+   "name_inline": "el shabu-shabu"
   }
+ }
 }

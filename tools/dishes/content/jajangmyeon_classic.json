@@ -1,180 +1,214 @@
 {
-  "db_key": "jajangmyeon_classic",
-  "slug": "jajangmyeon-classic",
-  "emoji": "🍜",
-  "portion_g": 450,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "jajangmyeon_classic",
+ "slug": "jajangmyeon-classic",
+ "emoji": "🍜",
+ "portion_g": 450,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Jajangmyeon",
+   "origin": "South Korea",
+   "intro": "Jajangmyeon is Korea's beloved black bean noodle dish: thick wheat noodles topped with a glossy sauce of chunjang (fermented black bean paste) stir-fried with diced pork, onion and zucchini. The sauce is savoury, slightly sweet and deeply dark, and the noodles are chewy. It is mixed at the table and often eaten with pickled radish and raw onion.",
+   "history": "Jajangmyeon developed in Korea from a Chinese noodle dish brought by Chinese immigrants, and is usually traced to Incheon's Chinatown in the early 20th century. It is now one of the most popular delivery dishes in South Korea.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "400 g fresh wheat noodles for jajangmyeon",
+     "150 g pork belly or shoulder, diced",
+     "3 tbsp chunjang (black bean paste)",
+     "1 large onion, diced",
+     "1 small zucchini, diced",
+     "2 tbsp oil",
+     "1 tbsp sugar",
+     "1 tbsp potato starch mixed with 3 tbsp water",
+     "300 ml water"
+    ],
+    "steps": [
+     "Fry the chunjang in the oil over low heat for 2–3 minutes, stirring; remove and keep the oil in the pan.",
+     "Stir-fry the pork until browned, then add the onion and zucchini and cook until softened.",
+     "Return the bean paste, add sugar and water and simmer for 5 minutes.",
+     "Stir in the starch slurry until the sauce turns glossy and thick.",
+     "Boil the noodles, drain and top with the sauce; mix before eating."
+    ]
+   },
+   "tips": [
+    "Use lean pork shoulder instead of belly.",
+    "Double the zucchini and onion and use a smaller portion of noodles.",
+    "Cut down the oil used to fry the paste; a thin film is enough."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Jajangmyeon",
-      "origin": "South Korea",
-      "intro": "Jajangmyeon is Korea's beloved black bean noodle dish: thick wheat noodles topped with a glossy sauce of chunjang (fermented black bean paste) stir-fried with diced pork, onion and zucchini. The sauce is savoury, slightly sweet and deeply dark, and the noodles are chewy. It is mixed at the table and often eaten with pickled radish and raw onion.",
-      "history": "Jajangmyeon developed in Korea from a Chinese noodle dish brought by Chinese immigrants, and is usually traced to Incheon's Chinatown in the early 20th century. It is now one of the most popular delivery dishes in South Korea.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "400 g fresh wheat noodles for jajangmyeon",
-          "150 g pork belly or shoulder, diced",
-          "3 tbsp chunjang (black bean paste)",
-          "1 large onion, diced",
-          "1 small zucchini, diced",
-          "2 tbsp oil",
-          "1 tbsp sugar",
-          "1 tbsp potato starch mixed with 3 tbsp water",
-          "300 ml water"
-        ],
-        "steps": [
-          "Fry the chunjang in the oil over low heat for 2–3 minutes, stirring; remove and keep the oil in the pan.",
-          "Stir-fry the pork until browned, then add the onion and zucchini and cook until softened.",
-          "Return the bean paste, add sugar and water and simmer for 5 minutes.",
-          "Stir in the starch slurry until the sauce turns glossy and thick.",
-          "Boil the noodles, drain and top with the sauce; mix before eating."
-        ]
-      },
-      "tips": [
-        "Use lean pork shoulder instead of belly.",
-        "Double the zucchini and onion and use a smaller portion of noodles.",
-        "Cut down the oil used to fry the paste; a thin film is enough."
-      ]
-    },
-    "ar": {
-      "name": "جاجانغميون",
-      "origin": "كوريا الجنوبية",
-      "intro": "جاجانغميون طبق نودلز كوري محبوب بصلصة الفاصوليا السوداء: نودلز قمح سميكة تعلوها صلصة لامعة من التشونجانغ (معجون الفاصوليا السوداء المخمر) مقلية مع مكعبات لحم الخنزير والبصل والكوسا. الصلصة مالحة وحلوة قليلاً وداكنة جداً، والنودلز مطاطية القوام. تُخلط على المائدة وغالباً ما تؤكل مع الفجل المخلل والبصل النيء.",
-      "history": "تطور الجاجانغميون في كوريا من طبق نودلز صيني جلبه المهاجرون الصينيون، ويُعاد عادة إلى الحي الصيني في إنتشون في أوائل القرن العشرين. وهو اليوم من أكثر الأطباق طلباً للتوصيل في كوريا الجنوبية.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "400 غ نودلز قمح طازجة للجاجانغميون",
-          "150 غ لحم خنزير (بطن أو كتف)، مكعبات",
-          "3 ملاعق كبيرة تشونجانغ (معجون الفاصوليا السوداء)",
-          "بصلة كبيرة، مكعبات",
-          "كوسا صغيرة، مكعبات",
-          "ملعقتان كبيرتان زيت",
-          "ملعقة كبيرة سكر",
-          "ملعقة كبيرة نشا بطاطس مذابة في 3 ملاعق كبيرة ماء",
-          "300 مل ماء"
-        ],
-        "steps": [
-          "اقلِ التشونجانغ في الزيت على نار هادئة 2–3 دقائق مع التحريك، ثم ارفعه واترك الزيت في المقلاة.",
-          "قلّب اللحم حتى يتحمر، ثم أضف البصل والكوسا واطهها حتى تطرى.",
-          "أعد معجون الفاصوليا وأضف السكر والماء واتركه 5 دقائق على نار هادئة.",
-          "أضف خليط النشا مع التحريك حتى تلمع الصلصة وتتكثف.",
-          "اسلق النودلز وصفّها وضع الصلصة فوقها، واخلطها قبل الأكل."
-        ]
-      },
-      "tips": [
-        "استخدم لحم كتف قليل الدهن بدلاً من البطن.",
-        "ضاعف الكوسا والبصل واستخدم حصة أصغر من النودلز.",
-        "قلل الزيت المستخدم لقلي المعجون؛ طبقة رقيقة تكفي."
-      ]
-    },
-    "it": {
-      "name": "Jajangmyeon",
-      "origin": "Corea del Sud",
-      "intro": "Il jajangmyeon è l'amatissimo piatto coreano di noodles con salsa di fagioli neri: spessi noodles di frumento conditi con una salsa lucida di chunjang (pasta di fagioli neri fermentati) saltata con maiale a dadini, cipolla e zucchina. La salsa è saporita, leggermente dolce e scurissima, e i noodles sono gommosi. Si mescola a tavola e spesso si mangia con ravanello sottaceto e cipolla cruda.",
-      "history": "Il jajangmyeon si è sviluppato in Corea da un piatto di noodles cinese portato dagli immigrati cinesi, e di solito viene ricondotto alla Chinatown di Incheon all'inizio del XX secolo. Oggi è uno dei piatti a domicilio più popolari della Corea del Sud.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "400 g di noodles freschi di frumento per jajangmyeon",
-          "150 g di pancetta o spalla di maiale a dadini",
-          "3 cucchiai di chunjang (pasta di fagioli neri)",
-          "1 cipolla grande a dadini",
-          "1 zucchina piccola a dadini",
-          "2 cucchiai di olio",
-          "1 cucchiaio di zucchero",
-          "1 cucchiaio di fecola di patate sciolta in 3 cucchiai d'acqua",
-          "300 ml di acqua"
-        ],
-        "steps": [
-          "Friggi il chunjang nell'olio a fuoco basso per 2–3 minuti, mescolando; toglilo e lascia l'olio nella padella.",
-          "Salta il maiale finché è rosolato, poi aggiungi cipolla e zucchina e cuoci finché si ammorbidiscono.",
-          "Rimetti la pasta di fagioli, aggiungi zucchero e acqua e cuoci a fuoco lento per 5 minuti.",
-          "Incorpora la fecola sciolta finché la salsa diventa lucida e densa.",
-          "Lessa i noodles, scolali e condiscili con la salsa; mescola prima di mangiare."
-        ]
-      },
-      "tips": [
-        "Usa spalla di maiale magra invece della pancetta.",
-        "Raddoppia zucchina e cipolla e usa una porzione più piccola di noodles.",
-        "Riduci l'olio per friggere la pasta di fagioli; basta un velo sottile."
-      ]
-    },
-    "el": {
-      "name": "Τζατζανγκμιόν",
-      "origin": "Νότια Κορέα",
-      "intro": "Το τζατζανγκμιόν είναι το αγαπημένο κορεατικό πιάτο με νουντλς και σάλτσα μαύρων φασολιών: χοντρά νουντλς σιταριού με γυαλιστερή σάλτσα από τσουντζάνγκ (πάστα ζυμωμένων μαύρων φασολιών) σοταρισμένη με χοιρινό σε κυβάκια, κρεμμύδι και κολοκυθάκι. Η σάλτσα είναι αλμυρή, ελαφρώς γλυκιά και κατάμαυρη, και τα νουντλς μαστιχωτά. Ανακατεύεται στο τραπέζι και συχνά τρώγεται με τουρσί ραπανάκι και ωμό κρεμμύδι.",
-      "history": "Το τζατζανγκμιόν αναπτύχθηκε στην Κορέα από ένα κινέζικο πιάτο με νουντλς που έφεραν Κινέζοι μετανάστες, και συνήθως ανάγεται στην Τσάιναταουν του Ιντσόν στις αρχές του 20ού αιώνα. Σήμερα είναι ένα από τα πιο δημοφιλή φαγητά ντελίβερι στη Νότια Κορέα.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "400 γρ. φρέσκα νουντλς σιταριού για τζατζανγκμιόν",
-          "150 γρ. χοιρινή πανσέτα ή σπάλα, σε κυβάκια",
-          "3 κ.σ. τσουντζάνγκ (πάστα μαύρων φασολιών)",
-          "1 μεγάλο κρεμμύδι, σε κυβάκια",
-          "1 μικρό κολοκυθάκι, σε κυβάκια",
-          "2 κ.σ. λάδι",
-          "1 κ.σ. ζάχαρη",
-          "1 κ.σ. άμυλο πατάτας διαλυμένο σε 3 κ.σ. νερό",
-          "300 ml νερό"
-        ],
-        "steps": [
-          "Τηγανίστε το τσουντζάνγκ στο λάδι σε χαμηλή φωτιά για 2–3 λεπτά, ανακατεύοντας· βγάλτε το και κρατήστε το λάδι στο τηγάνι.",
-          "Σοτάρετε το χοιρινό μέχρι να ροδίσει, μετά προσθέστε το κρεμμύδι και το κολοκυθάκι και μαγειρέψτε μέχρι να μαλακώσουν.",
-          "Επιστρέψτε την πάστα φασολιών, προσθέστε τη ζάχαρη και το νερό και σιγοβράστε 5 λεπτά.",
-          "Ρίξτε το διάλυμα αμύλου ανακατεύοντας μέχρι η σάλτσα να γίνει γυαλιστερή και πηχτή.",
-          "Βράστε τα νουντλς, στραγγίστε και ρίξτε από πάνω τη σάλτσα· ανακατέψτε πριν φάτε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχη χοιρινή σπάλα αντί για πανσέτα.",
-        "Διπλασιάστε το κολοκυθάκι και το κρεμμύδι και βάλτε μικρότερη μερίδα νουντλς.",
-        "Μειώστε το λάδι για το τηγάνισμα της πάστας· αρκεί μια λεπτή στρώση."
-      ]
-    },
-    "ru": {
-      "name": "Чаджанмён",
-      "origin": "Южная Корея",
-      "intro": "Чаджанмён — любимое в Корее блюдо из лапши с чёрными бобами: толстая пшеничная лапша под глянцевым соусом из чунджана (ферментированной пасты из чёрных бобов), обжаренного со свининой кубиками, луком и цукини. Соус пикантный, слегка сладкий и очень тёмный, а лапша упругая. Его перемешивают за столом и часто едят с маринованной редькой и сырым луком.",
-      "history": "Чаджанмён возник в Корее из китайского блюда с лапшой, принесённого китайскими иммигрантами, и его обычно связывают с китайским кварталом Инчхона в начале XX века. Сегодня это одно из самых популярных блюд с доставкой в Южной Корее.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "400 г свежей пшеничной лапши для чаджанмёна",
-          "150 г свиной грудинки или лопатки, кубиками",
-          "3 ст. л. чунджана (пасты из чёрных бобов)",
-          "1 крупная луковица, кубиками",
-          "1 небольшой цукини, кубиками",
-          "2 ст. л. масла",
-          "1 ст. л. сахара",
-          "1 ст. л. картофельного крахмала, разведённого в 3 ст. л. воды",
-          "300 мл воды"
-        ],
-        "steps": [
-          "Обжаривайте чунджан в масле на слабом огне 2–3 минуты, помешивая; выньте, а масло оставьте на сковороде.",
-          "Обжарьте свинину до румяности, затем добавьте лук и цукини и готовьте до мягкости.",
-          "Верните пасту, добавьте сахар и воду и томите 5 минут.",
-          "Вмешайте раствор крахмала, пока соус не станет глянцевым и густым.",
-          "Отварите лапшу, слейте воду и выложите сверху соус; перемешайте перед едой."
-        ]
-      },
-      "tips": [
-        "Берите постную свиную лопатку вместо грудинки.",
-        "Удвойте количество цукини и лука и берите меньшую порцию лапши.",
-        "Уменьшите масло для обжаривания пасты; достаточно тонкой плёнки."
-      ],
-      "name_inline": "чаджанмён"
-    }
+  "ar": {
+   "name": "جاجانغميون",
+   "origin": "كوريا الجنوبية",
+   "intro": "جاجانغميون طبق نودلز كوري محبوب بصلصة الفاصوليا السوداء: نودلز قمح سميكة تعلوها صلصة لامعة من التشونجانغ (معجون الفاصوليا السوداء المخمر) مقلية مع مكعبات لحم الخنزير والبصل والكوسا. الصلصة مالحة وحلوة قليلاً وداكنة جداً، والنودلز مطاطية القوام. تُخلط على المائدة وغالباً ما تؤكل مع الفجل المخلل والبصل النيء.",
+   "history": "تطور الجاجانغميون في كوريا من طبق نودلز صيني جلبه المهاجرون الصينيون، ويُعاد عادة إلى الحي الصيني في إنتشون في أوائل القرن العشرين. وهو اليوم من أكثر الأطباق طلباً للتوصيل في كوريا الجنوبية.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "400 غ نودلز قمح طازجة للجاجانغميون",
+     "150 غ لحم خنزير (بطن أو كتف)، مكعبات",
+     "3 ملاعق كبيرة تشونجانغ (معجون الفاصوليا السوداء)",
+     "بصلة كبيرة، مكعبات",
+     "كوسا صغيرة، مكعبات",
+     "ملعقتان كبيرتان زيت",
+     "ملعقة كبيرة سكر",
+     "ملعقة كبيرة نشا بطاطس مذابة في 3 ملاعق كبيرة ماء",
+     "300 مل ماء"
+    ],
+    "steps": [
+     "اقلِ التشونجانغ في الزيت على نار هادئة 2–3 دقائق مع التحريك، ثم ارفعه واترك الزيت في المقلاة.",
+     "قلّب اللحم حتى يتحمر، ثم أضف البصل والكوسا واطهها حتى تطرى.",
+     "أعد معجون الفاصوليا وأضف السكر والماء واتركه 5 دقائق على نار هادئة.",
+     "أضف خليط النشا مع التحريك حتى تلمع الصلصة وتتكثف.",
+     "اسلق النودلز وصفّها وضع الصلصة فوقها، واخلطها قبل الأكل."
+    ]
+   },
+   "tips": [
+    "استخدم لحم كتف قليل الدهن بدلاً من البطن.",
+    "ضاعف الكوسا والبصل واستخدم حصة أصغر من النودلز.",
+    "قلل الزيت المستخدم لقلي المعجون؛ طبقة رقيقة تكفي."
+   ]
+  },
+  "it": {
+   "name": "Jajangmyeon",
+   "origin": "Corea del Sud",
+   "intro": "Il jajangmyeon è l'amatissimo piatto coreano di noodles con salsa di fagioli neri: spessi noodles di frumento conditi con una salsa lucida di chunjang (pasta di fagioli neri fermentati) saltata con maiale a dadini, cipolla e zucchina. La salsa è saporita, leggermente dolce e scurissima, e i noodles sono gommosi. Si mescola a tavola e spesso si mangia con ravanello sottaceto e cipolla cruda.",
+   "history": "Il jajangmyeon si è sviluppato in Corea da un piatto di noodles cinese portato dagli immigrati cinesi, e di solito viene ricondotto alla Chinatown di Incheon all'inizio del XX secolo. Oggi è uno dei piatti a domicilio più popolari della Corea del Sud.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "400 g di noodles freschi di frumento per jajangmyeon",
+     "150 g di pancetta o spalla di maiale a dadini",
+     "3 cucchiai di chunjang (pasta di fagioli neri)",
+     "1 cipolla grande a dadini",
+     "1 zucchina piccola a dadini",
+     "2 cucchiai di olio",
+     "1 cucchiaio di zucchero",
+     "1 cucchiaio di fecola di patate sciolta in 3 cucchiai d'acqua",
+     "300 ml di acqua"
+    ],
+    "steps": [
+     "Friggi il chunjang nell'olio a fuoco basso per 2–3 minuti, mescolando; toglilo e lascia l'olio nella padella.",
+     "Salta il maiale finché è rosolato, poi aggiungi cipolla e zucchina e cuoci finché si ammorbidiscono.",
+     "Rimetti la pasta di fagioli, aggiungi zucchero e acqua e cuoci a fuoco lento per 5 minuti.",
+     "Incorpora la fecola sciolta finché la salsa diventa lucida e densa.",
+     "Lessa i noodles, scolali e condiscili con la salsa; mescola prima di mangiare."
+    ]
+   },
+   "tips": [
+    "Usa spalla di maiale magra invece della pancetta.",
+    "Raddoppia zucchina e cipolla e usa una porzione più piccola di noodles.",
+    "Riduci l'olio per friggere la pasta di fagioli; basta un velo sottile."
+   ]
+  },
+  "el": {
+   "name": "Τζατζανγκμιόν",
+   "origin": "Νότια Κορέα",
+   "intro": "Το τζατζανγκμιόν είναι το αγαπημένο κορεατικό πιάτο με νουντλς και σάλτσα μαύρων φασολιών: χοντρά νουντλς σιταριού με γυαλιστερή σάλτσα από τσουντζάνγκ (πάστα ζυμωμένων μαύρων φασολιών) σοταρισμένη με χοιρινό σε κυβάκια, κρεμμύδι και κολοκυθάκι. Η σάλτσα είναι αλμυρή, ελαφρώς γλυκιά και κατάμαυρη, και τα νουντλς μαστιχωτά. Ανακατεύεται στο τραπέζι και συχνά τρώγεται με τουρσί ραπανάκι και ωμό κρεμμύδι.",
+   "history": "Το τζατζανγκμιόν αναπτύχθηκε στην Κορέα από ένα κινέζικο πιάτο με νουντλς που έφεραν Κινέζοι μετανάστες, και συνήθως ανάγεται στην Τσάιναταουν του Ιντσόν στις αρχές του 20ού αιώνα. Σήμερα είναι ένα από τα πιο δημοφιλή φαγητά ντελίβερι στη Νότια Κορέα.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "400 γρ. φρέσκα νουντλς σιταριού για τζατζανγκμιόν",
+     "150 γρ. χοιρινή πανσέτα ή σπάλα, σε κυβάκια",
+     "3 κ.σ. τσουντζάνγκ (πάστα μαύρων φασολιών)",
+     "1 μεγάλο κρεμμύδι, σε κυβάκια",
+     "1 μικρό κολοκυθάκι, σε κυβάκια",
+     "2 κ.σ. λάδι",
+     "1 κ.σ. ζάχαρη",
+     "1 κ.σ. άμυλο πατάτας διαλυμένο σε 3 κ.σ. νερό",
+     "300 ml νερό"
+    ],
+    "steps": [
+     "Τηγανίστε το τσουντζάνγκ στο λάδι σε χαμηλή φωτιά για 2–3 λεπτά, ανακατεύοντας· βγάλτε το και κρατήστε το λάδι στο τηγάνι.",
+     "Σοτάρετε το χοιρινό μέχρι να ροδίσει, μετά προσθέστε το κρεμμύδι και το κολοκυθάκι και μαγειρέψτε μέχρι να μαλακώσουν.",
+     "Επιστρέψτε την πάστα φασολιών, προσθέστε τη ζάχαρη και το νερό και σιγοβράστε 5 λεπτά.",
+     "Ρίξτε το διάλυμα αμύλου ανακατεύοντας μέχρι η σάλτσα να γίνει γυαλιστερή και πηχτή.",
+     "Βράστε τα νουντλς, στραγγίστε και ρίξτε από πάνω τη σάλτσα· ανακατέψτε πριν φάτε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχη χοιρινή σπάλα αντί για πανσέτα.",
+    "Διπλασιάστε το κολοκυθάκι και το κρεμμύδι και βάλτε μικρότερη μερίδα νουντλς.",
+    "Μειώστε το λάδι για το τηγάνισμα της πάστας· αρκεί μια λεπτή στρώση."
+   ]
+  },
+  "ru": {
+   "name": "Чаджанмён",
+   "origin": "Южная Корея",
+   "intro": "Чаджанмён — любимое в Корее блюдо из лапши с чёрными бобами: толстая пшеничная лапша под глянцевым соусом из чунджана (ферментированной пасты из чёрных бобов), обжаренного со свининой кубиками, луком и цукини. Соус пикантный, слегка сладкий и очень тёмный, а лапша упругая. Его перемешивают за столом и часто едят с маринованной редькой и сырым луком.",
+   "history": "Чаджанмён возник в Корее из китайского блюда с лапшой, принесённого китайскими иммигрантами, и его обычно связывают с китайским кварталом Инчхона в начале XX века. Сегодня это одно из самых популярных блюд с доставкой в Южной Корее.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "400 г свежей пшеничной лапши для чаджанмёна",
+     "150 г свиной грудинки или лопатки, кубиками",
+     "3 ст. л. чунджана (пасты из чёрных бобов)",
+     "1 крупная луковица, кубиками",
+     "1 небольшой цукини, кубиками",
+     "2 ст. л. масла",
+     "1 ст. л. сахара",
+     "1 ст. л. картофельного крахмала, разведённого в 3 ст. л. воды",
+     "300 мл воды"
+    ],
+    "steps": [
+     "Обжаривайте чунджан в масле на слабом огне 2–3 минуты, помешивая; выньте, а масло оставьте на сковороде.",
+     "Обжарьте свинину до румяности, затем добавьте лук и цукини и готовьте до мягкости.",
+     "Верните пасту, добавьте сахар и воду и томите 5 минут.",
+     "Вмешайте раствор крахмала, пока соус не станет глянцевым и густым.",
+     "Отварите лапшу, слейте воду и выложите сверху соус; перемешайте перед едой."
+    ]
+   },
+   "tips": [
+    "Берите постную свиную лопатку вместо грудинки.",
+    "Удвойте количество цукини и лука и берите меньшую порцию лапши.",
+    "Уменьшите масло для обжаривания пасты; достаточно тонкой плёнки."
+   ],
+   "name_inline": "чаджанмён"
+  },
+  "es": {
+   "name": "Jajangmyeon",
+   "origin": "Corea del Sur",
+   "intro": "El jajangmyeon es el querido plato coreano de fideos con frijol negro: fideos gruesos de trigo cubiertos con una salsa brillante de chunjang (pasta fermentada de frijol negro) salteada con cerdo en cubos, cebolla y calabacín. La salsa es sabrosa, ligeramente dulce y muy oscura, y los fideos son masticables. Se mezcla en la mesa y suele comerse con rábano encurtido y cebolla cruda.",
+   "history": "El jajangmyeon se desarrolló en Corea a partir de un plato chino de fideos llevado por inmigrantes chinos, y suele rastrearse hasta el barrio chino de Incheon a comienzos del siglo XX. Hoy es uno de los platos a domicilio más populares de Corea del Sur.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "400 g de fideos frescos de trigo para jajangmyeon",
+     "150 g de panceta o paleta de cerdo, en cubos",
+     "3 cdas. de chunjang (pasta de frijol negro)",
+     "1 cebolla grande, en cubos",
+     "1 calabacín pequeño, en cubos",
+     "2 cdas. de aceite",
+     "1 cda. de azúcar",
+     "1 cda. de fécula de papa disuelta en 3 cdas. de agua",
+     "300 ml de agua"
+    ],
+    "steps": [
+     "Fríe el chunjang en el aceite a fuego bajo de 2 a 3 minutos, moviendo; retíralo y deja el aceite en la sartén.",
+     "Saltea el cerdo hasta que dore, agrega la cebolla y el calabacín y cocina hasta que se ablanden.",
+     "Regresa la pasta de frijol, agrega el azúcar y el agua y cuece a fuego suave 5 minutos.",
+     "Incorpora la fécula disuelta hasta que la salsa quede brillante y espesa.",
+     "Cuece los fideos, escúrrelos, cúbrelos con la salsa y mezcla antes de comer."
+    ]
+   },
+   "tips": [
+    "Usa paleta de cerdo magra en lugar de panceta.",
+    "Duplica el calabacín y la cebolla y usa una porción menor de fideos.",
+    "Reduce el aceite para freír la pasta; una capa delgada es suficiente."
+   ],
+   "name_inline": "el jajangmyeon"
   }
+ }
 }

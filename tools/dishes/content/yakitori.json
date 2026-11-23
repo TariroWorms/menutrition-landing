@@ -1,165 +1,196 @@
 {
-  "db_key": "yakitori",
-  "slug": "yakitori",
-  "emoji": "🍢",
-  "portion_g": 150,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "yakitori",
+ "slug": "yakitori",
+ "emoji": "🍢",
+ "portion_g": 150,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Yakitori",
+   "origin": "Japan",
+   "intro": "Yakitori are bite-sized pieces of chicken threaded on bamboo skewers and grilled over charcoal. They are seasoned either with salt or with tare, a glossy glaze of soy sauce, mirin and sugar that caramelises on the grill. The classic negima skewer alternates chicken thigh with spring onion. Yakitori are eaten at specialist bars and izakaya, usually with drinks and side dishes.",
+   "history": "Grilled poultry on skewers has a long history in Japan, and yakitori became a popular street and bar food during the 20th century as chicken grew more affordable. Today yakitori-ya, small grill bars, are found all over Japan.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g boneless chicken thighs, cut into 3 cm pieces",
+     "4 spring onions, cut into 3 cm lengths",
+     "4 tbsp soy sauce",
+     "4 tbsp mirin",
+     "2 tbsp sugar",
+     "12 bamboo skewers, soaked in water"
+    ],
+    "steps": [
+     "Simmer the soy sauce, mirin and sugar for 5–7 minutes until slightly thickened to make the tare.",
+     "Thread the chicken onto the skewers, alternating with pieces of spring onion.",
+     "Grill over high heat or under a hot grill for 8–10 minutes, turning often.",
+     "Brush with tare and grill 1 minute more per side; repeat once or twice until glossy.",
+     "Serve hot, with extra tare on the side."
+    ]
+   },
+   "tips": [
+    "Chicken breast instead of thigh makes the skewers leaner.",
+    "Brush on the tare at the end in a thin layer, as it contains sugar.",
+    "Order salt-seasoned skewers and vegetable skewers to balance the meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Yakitori",
-      "origin": "Japan",
-      "intro": "Yakitori are bite-sized pieces of chicken threaded on bamboo skewers and grilled over charcoal. They are seasoned either with salt or with tare, a glossy glaze of soy sauce, mirin and sugar that caramelises on the grill. The classic negima skewer alternates chicken thigh with spring onion. Yakitori are eaten at specialist bars and izakaya, usually with drinks and side dishes.",
-      "history": "Grilled poultry on skewers has a long history in Japan, and yakitori became a popular street and bar food during the 20th century as chicken grew more affordable. Today yakitori-ya, small grill bars, are found all over Japan.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 g boneless chicken thighs, cut into 3 cm pieces",
-          "4 spring onions, cut into 3 cm lengths",
-          "4 tbsp soy sauce",
-          "4 tbsp mirin",
-          "2 tbsp sugar",
-          "12 bamboo skewers, soaked in water"
-        ],
-        "steps": [
-          "Simmer the soy sauce, mirin and sugar for 5–7 minutes until slightly thickened to make the tare.",
-          "Thread the chicken onto the skewers, alternating with pieces of spring onion.",
-          "Grill over high heat or under a hot grill for 8–10 minutes, turning often.",
-          "Brush with tare and grill 1 minute more per side; repeat once or twice until glossy.",
-          "Serve hot, with extra tare on the side."
-        ]
-      },
-      "tips": [
-        "Chicken breast instead of thigh makes the skewers leaner.",
-        "Brush on the tare at the end in a thin layer, as it contains sugar.",
-        "Order salt-seasoned skewers and vegetable skewers to balance the meal."
-      ]
-    },
-    "ar": {
-      "name": "ياكيتوري",
-      "origin": "اليابان",
-      "intro": "الياكيتوري قطع صغيرة من الدجاج تُشك في أسياخ خيزران وتُشوى على الفحم. تُتبّل إما بالملح أو بصلصة «تاري» اللامعة المصنوعة من صلصة الصويا والميرين والسكر، والتي تتكرمل على الشواية. والسيخ الكلاسيكي «نيغيما» يناوب بين أفخاذ الدجاج والبصل الأخضر. يؤكل الياكيتوري في حانات مخصّصة وفي الإيزاكايا، عادةً مع المشروبات والأطباق الجانبية.",
-      "history": "للدواجن المشوية على الأسياخ تاريخ طويل في اليابان، وقد أصبح الياكيتوري طعامًا شعبيًا في الشوارع والحانات خلال القرن العشرين مع انخفاض سعر الدجاج. واليوم تنتشر محلات «ياكيتوري-يا» الصغيرة في أنحاء اليابان.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 غ أفخاذ دجاج منزوعة العظم مقطعة قطعًا 3 سم",
-          "4 بصل أخضر مقطع بطول 3 سم",
-          "4 ملاعق كبيرة صلصة الصويا",
-          "4 ملاعق كبيرة ميرين",
-          "2 ملعقة كبيرة سكر",
-          "12 سيخ خيزران منقوعة في الماء"
-        ],
-        "steps": [
-          "اترك صلصة الصويا والميرين والسكر تغلي بهدوء 5–7 دقائق حتى تتكثف قليلًا لتحضير التاري.",
-          "اشكّ الدجاج في الأسياخ بالتناوب مع قطع البصل الأخضر.",
-          "اشوِها على نار عالية أو تحت شواية ساخنة 8–10 دقائق مع التقليب المتكرر.",
-          "ادهنها بالتاري واشوِها دقيقة أخرى لكل جانب، وكرّر مرة أو مرتين حتى تلمع.",
-          "قدّمها ساخنة مع مزيد من التاري جانبًا."
-        ]
-      },
-      "tips": [
-        "صدر الدجاج بدل الأفخاذ يجعل الأسياخ أقل دهنًا.",
-        "ادهن التاري في النهاية بطبقة رقيقة لأنها تحتوي على السكر.",
-        "اطلب أسياخًا متبّلة بالملح وأسياخ خضار لموازنة الوجبة."
-      ]
-    },
-    "it": {
-      "name": "Yakitori",
-      "origin": "Giappone",
-      "intro": "Gli yakitori sono bocconcini di pollo infilzati su spiedini di bambù e grigliati sulla brace. Si condiscono con sale oppure con la tare, una glassa lucida di salsa di soia, mirin e zucchero che caramella sulla griglia. Il classico spiedino negima alterna coscia di pollo e cipollotto. Gli yakitori si mangiano nei locali specializzati e negli izakaya, di solito con bevande e piatti di contorno.",
-      "history": "Il pollame grigliato allo spiedo ha una lunga storia in Giappone, e gli yakitori sono diventati un popolare cibo da strada e da locale nel corso del XX secolo, man mano che il pollo diventava più accessibile. Oggi gli yakitori-ya, piccoli locali alla griglia, si trovano in tutto il Giappone.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 g di cosce di pollo disossate, a pezzi di 3 cm",
-          "4 cipollotti, a pezzi di 3 cm",
-          "4 cucchiai di salsa di soia",
-          "4 cucchiai di mirin",
-          "2 cucchiai di zucchero",
-          "12 spiedini di bambù, ammollati in acqua"
-        ],
-        "steps": [
-          "Fai sobbollire salsa di soia, mirin e zucchero per 5–7 minuti finché si addensano leggermente, per preparare la tare.",
-          "Infilza il pollo sugli spiedini alternandolo con pezzi di cipollotto.",
-          "Griglia a fuoco vivo o sotto il grill ben caldo per 8–10 minuti, girando spesso.",
-          "Spennella con la tare e griglia ancora 1 minuto per lato; ripeti una o due volte finché sono lucidi.",
-          "Servi caldi, con altra tare a parte."
-        ]
-      },
-      "tips": [
-        "Il petto di pollo al posto della coscia rende gli spiedini più magri.",
-        "Spennella la tare alla fine in uno strato sottile, perché contiene zucchero.",
-        "Ordina spiedini al sale e spiedini di verdure per bilanciare il pasto."
-      ]
-    },
-    "el": {
-      "name": "Γιακιτόρι",
-      "origin": "Ιαπωνία",
-      "intro": "Τα γιακιτόρι είναι μπουκίτσες κοτόπουλου περασμένες σε σουβλάκια μπαμπού και ψημένες στα κάρβουνα. Καρυκεύονται είτε με αλάτι είτε με τάρε, ένα γυαλιστερό γλάσο από σάλτσα σόγιας, μιρίν και ζάχαρη που καραμελώνει στη σχάρα. Το κλασικό σουβλάκι νεγκίμα εναλλάσσει μπούτι κοτόπουλου με φρέσκο κρεμμυδάκι. Τα γιακιτόρι τρώγονται σε εξειδικευμένα μπαρ και στα ιζακάγια, συνήθως με ποτά και συνοδευτικά.",
-      "history": "Τα πουλερικά ψημένα σε σουβλάκια έχουν μακρά ιστορία στην Ιαπωνία, και τα γιακιτόρι έγιναν δημοφιλές φαγητό του δρόμου και των μπαρ τον 20ό αιώνα, καθώς το κοτόπουλο γινόταν πιο προσιτό. Σήμερα τα γιακιτόρι-για, μικρά μπαρ με σχάρα, υπάρχουν σε όλη την Ιαπωνία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κομμάτια 3 εκ.",
-          "4 φρέσκα κρεμμυδάκια, σε κομμάτια 3 εκ.",
-          "4 κ.σ. σάλτσα σόγιας",
-          "4 κ.σ. μιρίν",
-          "2 κ.σ. ζάχαρη",
-          "12 σουβλάκια μπαμπού, μουλιασμένα σε νερό"
-        ],
-        "steps": [
-          "Σιγοβράστε τη σάλτσα σόγιας, το μιρίν και τη ζάχαρη για 5–7 λεπτά μέχρι να πήξουν ελαφρά, για να φτιάξετε το τάρε.",
-          "Περάστε το κοτόπουλο στα σουβλάκια, εναλλάσσοντας με κομμάτια κρεμμυδάκι.",
-          "Ψήστε σε δυνατή φωτιά ή κάτω από καυτό γκριλ για 8–10 λεπτά, γυρίζοντας συχνά.",
-          "Αλείψτε με τάρε και ψήστε 1 λεπτό ακόμη από κάθε πλευρά· επαναλάβετε μία ή δύο φορές μέχρι να γυαλίσουν.",
-          "Σερβίρετε ζεστά, με επιπλέον τάρε στο πλάι."
-        ]
-      },
-      "tips": [
-        "Το στήθος κοτόπουλου αντί για μπούτι κάνει τα σουβλάκια πιο άπαχα.",
-        "Αλείψτε το τάρε στο τέλος σε λεπτή στρώση, γιατί περιέχει ζάχαρη.",
-        "Παραγγείλτε σουβλάκια με αλάτι και σουβλάκια λαχανικών για να ισορροπήσει το γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Якитори",
-      "origin": "Япония",
-      "intro": "Якитори — кусочки курицы размером на один укус, нанизанные на бамбуковые шпажки и приготовленные на углях. Их приправляют либо солью, либо таре — блестящей глазурью из соевого соуса, мирина и сахара, которая карамелизуется на гриле. Классическая шпажка негима чередует куриное бедро с зелёным луком. Якитори едят в специализированных барах и идзакая, обычно с напитками и закусками.",
-      "history": "У курицы на шпажках на гриле в Японии долгая история, а якитори стало популярной уличной едой и едой в барах в XX веке, когда курица стала доступнее. Сегодня якитори-я — небольшие бары с грилем — встречаются по всей Японии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 г куриных бёдер без костей, нарезанных кусками по 3 см",
-          "4 стебля зелёного лука, нарезанных отрезками по 3 см",
-          "4 ст. л. соевого соуса",
-          "4 ст. л. мирина",
-          "2 ст. л. сахара",
-          "12 бамбуковых шпажек, замоченных в воде"
-        ],
-        "steps": [
-          "Варите соевый соус, мирин и сахар 5–7 минут до лёгкого загустения, чтобы получить таре.",
-          "Нанижите курицу на шпажки, чередуя с кусочками зелёного лука.",
-          "Жарьте на сильном огне или под горячим грилем 8–10 минут, часто переворачивая.",
-          "Смажьте таре и жарьте ещё по минуте с каждой стороны; повторите один или два раза до блеска.",
-          "Подавайте горячими с дополнительным таре отдельно."
-        ]
-      },
-      "tips": [
-        "Куриная грудка вместо бедра делает шпажки постнее.",
-        "Наносите таре в конце тонким слоем, так как оно содержит сахар.",
-        "Заказывайте шпажки с солью и овощные шпажки, чтобы сбалансировать трапезу."
-      ],
-      "name_inline": "якитори"
-    }
+  "ar": {
+   "name": "ياكيتوري",
+   "origin": "اليابان",
+   "intro": "الياكيتوري قطع صغيرة من الدجاج تُشك في أسياخ خيزران وتُشوى على الفحم. تُتبّل إما بالملح أو بصلصة «تاري» اللامعة المصنوعة من صلصة الصويا والميرين والسكر، والتي تتكرمل على الشواية. والسيخ الكلاسيكي «نيغيما» يناوب بين أفخاذ الدجاج والبصل الأخضر. يؤكل الياكيتوري في حانات مخصّصة وفي الإيزاكايا، عادةً مع المشروبات والأطباق الجانبية.",
+   "history": "للدواجن المشوية على الأسياخ تاريخ طويل في اليابان، وقد أصبح الياكيتوري طعامًا شعبيًا في الشوارع والحانات خلال القرن العشرين مع انخفاض سعر الدجاج. واليوم تنتشر محلات «ياكيتوري-يا» الصغيرة في أنحاء اليابان.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 غ أفخاذ دجاج منزوعة العظم مقطعة قطعًا 3 سم",
+     "4 بصل أخضر مقطع بطول 3 سم",
+     "4 ملاعق كبيرة صلصة الصويا",
+     "4 ملاعق كبيرة ميرين",
+     "2 ملعقة كبيرة سكر",
+     "12 سيخ خيزران منقوعة في الماء"
+    ],
+    "steps": [
+     "اترك صلصة الصويا والميرين والسكر تغلي بهدوء 5–7 دقائق حتى تتكثف قليلًا لتحضير التاري.",
+     "اشكّ الدجاج في الأسياخ بالتناوب مع قطع البصل الأخضر.",
+     "اشوِها على نار عالية أو تحت شواية ساخنة 8–10 دقائق مع التقليب المتكرر.",
+     "ادهنها بالتاري واشوِها دقيقة أخرى لكل جانب، وكرّر مرة أو مرتين حتى تلمع.",
+     "قدّمها ساخنة مع مزيد من التاري جانبًا."
+    ]
+   },
+   "tips": [
+    "صدر الدجاج بدل الأفخاذ يجعل الأسياخ أقل دهنًا.",
+    "ادهن التاري في النهاية بطبقة رقيقة لأنها تحتوي على السكر.",
+    "اطلب أسياخًا متبّلة بالملح وأسياخ خضار لموازنة الوجبة."
+   ]
+  },
+  "it": {
+   "name": "Yakitori",
+   "origin": "Giappone",
+   "intro": "Gli yakitori sono bocconcini di pollo infilzati su spiedini di bambù e grigliati sulla brace. Si condiscono con sale oppure con la tare, una glassa lucida di salsa di soia, mirin e zucchero che caramella sulla griglia. Il classico spiedino negima alterna coscia di pollo e cipollotto. Gli yakitori si mangiano nei locali specializzati e negli izakaya, di solito con bevande e piatti di contorno.",
+   "history": "Il pollame grigliato allo spiedo ha una lunga storia in Giappone, e gli yakitori sono diventati un popolare cibo da strada e da locale nel corso del XX secolo, man mano che il pollo diventava più accessibile. Oggi gli yakitori-ya, piccoli locali alla griglia, si trovano in tutto il Giappone.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g di cosce di pollo disossate, a pezzi di 3 cm",
+     "4 cipollotti, a pezzi di 3 cm",
+     "4 cucchiai di salsa di soia",
+     "4 cucchiai di mirin",
+     "2 cucchiai di zucchero",
+     "12 spiedini di bambù, ammollati in acqua"
+    ],
+    "steps": [
+     "Fai sobbollire salsa di soia, mirin e zucchero per 5–7 minuti finché si addensano leggermente, per preparare la tare.",
+     "Infilza il pollo sugli spiedini alternandolo con pezzi di cipollotto.",
+     "Griglia a fuoco vivo o sotto il grill ben caldo per 8–10 minuti, girando spesso.",
+     "Spennella con la tare e griglia ancora 1 minuto per lato; ripeti una o due volte finché sono lucidi.",
+     "Servi caldi, con altra tare a parte."
+    ]
+   },
+   "tips": [
+    "Il petto di pollo al posto della coscia rende gli spiedini più magri.",
+    "Spennella la tare alla fine in uno strato sottile, perché contiene zucchero.",
+    "Ordina spiedini al sale e spiedini di verdure per bilanciare il pasto."
+   ]
+  },
+  "el": {
+   "name": "Γιακιτόρι",
+   "origin": "Ιαπωνία",
+   "intro": "Τα γιακιτόρι είναι μπουκίτσες κοτόπουλου περασμένες σε σουβλάκια μπαμπού και ψημένες στα κάρβουνα. Καρυκεύονται είτε με αλάτι είτε με τάρε, ένα γυαλιστερό γλάσο από σάλτσα σόγιας, μιρίν και ζάχαρη που καραμελώνει στη σχάρα. Το κλασικό σουβλάκι νεγκίμα εναλλάσσει μπούτι κοτόπουλου με φρέσκο κρεμμυδάκι. Τα γιακιτόρι τρώγονται σε εξειδικευμένα μπαρ και στα ιζακάγια, συνήθως με ποτά και συνοδευτικά.",
+   "history": "Τα πουλερικά ψημένα σε σουβλάκια έχουν μακρά ιστορία στην Ιαπωνία, και τα γιακιτόρι έγιναν δημοφιλές φαγητό του δρόμου και των μπαρ τον 20ό αιώνα, καθώς το κοτόπουλο γινόταν πιο προσιτό. Σήμερα τα γιακιτόρι-για, μικρά μπαρ με σχάρα, υπάρχουν σε όλη την Ιαπωνία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κομμάτια 3 εκ.",
+     "4 φρέσκα κρεμμυδάκια, σε κομμάτια 3 εκ.",
+     "4 κ.σ. σάλτσα σόγιας",
+     "4 κ.σ. μιρίν",
+     "2 κ.σ. ζάχαρη",
+     "12 σουβλάκια μπαμπού, μουλιασμένα σε νερό"
+    ],
+    "steps": [
+     "Σιγοβράστε τη σάλτσα σόγιας, το μιρίν και τη ζάχαρη για 5–7 λεπτά μέχρι να πήξουν ελαφρά, για να φτιάξετε το τάρε.",
+     "Περάστε το κοτόπουλο στα σουβλάκια, εναλλάσσοντας με κομμάτια κρεμμυδάκι.",
+     "Ψήστε σε δυνατή φωτιά ή κάτω από καυτό γκριλ για 8–10 λεπτά, γυρίζοντας συχνά.",
+     "Αλείψτε με τάρε και ψήστε 1 λεπτό ακόμη από κάθε πλευρά· επαναλάβετε μία ή δύο φορές μέχρι να γυαλίσουν.",
+     "Σερβίρετε ζεστά, με επιπλέον τάρε στο πλάι."
+    ]
+   },
+   "tips": [
+    "Το στήθος κοτόπουλου αντί για μπούτι κάνει τα σουβλάκια πιο άπαχα.",
+    "Αλείψτε το τάρε στο τέλος σε λεπτή στρώση, γιατί περιέχει ζάχαρη.",
+    "Παραγγείλτε σουβλάκια με αλάτι και σουβλάκια λαχανικών για να ισορροπήσει το γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Якитори",
+   "origin": "Япония",
+   "intro": "Якитори — кусочки курицы размером на один укус, нанизанные на бамбуковые шпажки и приготовленные на углях. Их приправляют либо солью, либо таре — блестящей глазурью из соевого соуса, мирина и сахара, которая карамелизуется на гриле. Классическая шпажка негима чередует куриное бедро с зелёным луком. Якитори едят в специализированных барах и идзакая, обычно с напитками и закусками.",
+   "history": "У курицы на шпажках на гриле в Японии долгая история, а якитори стало популярной уличной едой и едой в барах в XX веке, когда курица стала доступнее. Сегодня якитори-я — небольшие бары с грилем — встречаются по всей Японии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 г куриных бёдер без костей, нарезанных кусками по 3 см",
+     "4 стебля зелёного лука, нарезанных отрезками по 3 см",
+     "4 ст. л. соевого соуса",
+     "4 ст. л. мирина",
+     "2 ст. л. сахара",
+     "12 бамбуковых шпажек, замоченных в воде"
+    ],
+    "steps": [
+     "Варите соевый соус, мирин и сахар 5–7 минут до лёгкого загустения, чтобы получить таре.",
+     "Нанижите курицу на шпажки, чередуя с кусочками зелёного лука.",
+     "Жарьте на сильном огне или под горячим грилем 8–10 минут, часто переворачивая.",
+     "Смажьте таре и жарьте ещё по минуте с каждой стороны; повторите один или два раза до блеска.",
+     "Подавайте горячими с дополнительным таре отдельно."
+    ]
+   },
+   "tips": [
+    "Куриная грудка вместо бедра делает шпажки постнее.",
+    "Наносите таре в конце тонким слоем, так как оно содержит сахар.",
+    "Заказывайте шпажки с солью и овощные шпажки, чтобы сбалансировать трапезу."
+   ],
+   "name_inline": "якитори"
+  },
+  "es": {
+   "name": "Yakitori",
+   "origin": "Japón",
+   "intro": "Los yakitori son trocitos de pollo ensartados en brochetas de bambú y asados al carbón. Se sazonan con sal o con tare, un glaseado brillante de salsa de soya, mirin y azúcar que se carameliza en la parrilla. La brocheta clásica, negima, alterna muslo de pollo con cebollín. Se comen en bares especializados e izakayas, normalmente acompañados de bebidas y guarniciones.",
+   "history": "El ave asada en brocheta tiene una larga historia en Japón, y el yakitori se hizo popular como comida callejera y de bar durante el siglo XX, cuando el pollo se volvió más asequible. Hoy los yakitori-ya, pequeños bares de parrilla, se encuentran por todo el país.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g de muslos de pollo sin hueso, en trozos de 3 cm",
+     "4 cebollines, en trozos de 3 cm",
+     "4 cda. de salsa de soya",
+     "4 cda. de mirin",
+     "2 cda. de azúcar",
+     "12 brochetas de bambú, remojadas en agua"
+    ],
+    "steps": [
+     "Cuece a fuego suave la salsa de soya, el mirin y el azúcar de 5 a 7 minutos, hasta que espesen ligeramente: ese es el tare.",
+     "Ensarta el pollo en las brochetas, alternándolo con trozos de cebollín.",
+     "Asa a fuego fuerte o bajo un grill muy caliente de 8 a 10 minutos, volteando a menudo.",
+     "Barniza con el tare y asa 1 minuto más por lado; repite una o dos veces hasta que estén brillantes.",
+     "Sirve caliente, con más tare aparte."
+    ]
+   },
+   "tips": [
+    "La pechuga de pollo en lugar del muslo hace las brochetas más magras.",
+    "Barniza el tare al final en capa fina, porque lleva azúcar.",
+    "Pide brochetas sazonadas con sal y de verduras para equilibrar la comida."
+   ],
+   "name_inline": "los yakitori"
   }
+ }
 }

@@ -1,176 +1,209 @@
 {
-  "db_key": "vegetable_korma",
-  "slug": "vegetable-korma",
-  "emoji": "🍲",
-  "portion_g": 300,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "vegetable_korma",
+ "slug": "vegetable-korma",
+ "emoji": "🍲",
+ "portion_g": 300,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Vegetable Korma",
+   "origin": "India · North India",
+   "intro": "Vegetable korma is a mild, creamy curry of mixed vegetables simmered in a sauce of onion, ground cashews, cream and fragrant garam masala. It is gently spiced rather than hot, with a smooth, slightly sweet and nutty sauce. It is served with basmati rice or flatbread and is a popular choice for those who prefer mild curries.",
+   "history": "Korma traces back to the Mughal court kitchens of North India, where meat was braised in rich sauces of nuts and dairy; vegetable kormas are now standard in Indian homes and restaurants worldwide.",
+   "recipe": {
+    "ingredients": [
+     "500 g mixed vegetables (carrot, potato, peas, beans, cauliflower)",
+     "50 g cashews, soaked 20 minutes",
+     "100 ml cream",
+     "1 large onion, chopped",
+     "2 tsp garam masala",
+     "1 tbsp oil",
+     "1 tsp salt",
+     "200 ml water"
+    ],
+    "steps": [
+     "Blend the soaked cashews with a little water into a smooth paste.",
+     "Fry the onion in oil for 8 minutes until soft and golden, then add garam masala for 1 minute.",
+     "Add the vegetables, salt and water; cover and simmer 12–15 minutes until tender.",
+     "Stir in the cashew paste and cream and simmer 5 minutes more.",
+     "Serve hot with rice or flatbread."
+    ],
+    "servings": 4,
+    "time_min": 40
+   },
+   "tips": [
+    "Use half the cream and thin the sauce with water or vegetable stock.",
+    "Load the pot with more low-calorie vegetables such as cauliflower and beans.",
+    "Keep the rice portion to about 150 g cooked."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Vegetable Korma",
-      "origin": "India · North India",
-      "intro": "Vegetable korma is a mild, creamy curry of mixed vegetables simmered in a sauce of onion, ground cashews, cream and fragrant garam masala. It is gently spiced rather than hot, with a smooth, slightly sweet and nutty sauce. It is served with basmati rice or flatbread and is a popular choice for those who prefer mild curries.",
-      "history": "Korma traces back to the Mughal court kitchens of North India, where meat was braised in rich sauces of nuts and dairy; vegetable kormas are now standard in Indian homes and restaurants worldwide.",
-      "recipe": {
-        "ingredients": [
-          "500 g mixed vegetables (carrot, potato, peas, beans, cauliflower)",
-          "50 g cashews, soaked 20 minutes",
-          "100 ml cream",
-          "1 large onion, chopped",
-          "2 tsp garam masala",
-          "1 tbsp oil",
-          "1 tsp salt",
-          "200 ml water"
-        ],
-        "steps": [
-          "Blend the soaked cashews with a little water into a smooth paste.",
-          "Fry the onion in oil for 8 minutes until soft and golden, then add garam masala for 1 minute.",
-          "Add the vegetables, salt and water; cover and simmer 12–15 minutes until tender.",
-          "Stir in the cashew paste and cream and simmer 5 minutes more.",
-          "Serve hot with rice or flatbread."
-        ],
-        "servings": 4,
-        "time_min": 40
-      },
-      "tips": [
-        "Use half the cream and thin the sauce with water or vegetable stock.",
-        "Load the pot with more low-calorie vegetables such as cauliflower and beans.",
-        "Keep the rice portion to about 150 g cooked."
-      ]
-    },
-    "ar": {
-      "name": "كورما الخضار",
-      "origin": "الهند · شمال الهند",
-      "intro": "كورما الخضار كاري معتدل كريمي من الخضار المشكلة المطهوة في صلصة من البصل والكاجو المطحون والكريمة والغرام ماسالا العطري. توابلها لطيفة لا حارة، وصلصتها ناعمة حلوة قليلًا بنكهة المكسرات. وتُقدَّم مع أرز البسمتي أو الخبز الهندي، وهي خيار محبوب لمن يفضّلون الكاري المعتدل.",
-      "history": "تعود الكورما إلى مطابخ البلاط المغولي في شمال الهند حيث كان اللحم يُطهى ببطء في صلصات غنية بالمكسرات ومشتقات الحليب، وأصبحت كورما الخضار اليوم طبقًا ثابتًا في البيوت والمطاعم الهندية حول العالم.",
-      "recipe": {
-        "ingredients": [
-          "500 غ خضار مشكلة (جزر، بطاطس، بازلاء، فاصوليا، قرنبيط)",
-          "50 غ كاجو منقوع 20 دقيقة",
-          "100 مل كريمة طبخ",
-          "بصلة كبيرة مفرومة",
-          "2 ملعقة صغيرة غرام ماسالا",
-          "ملعقة كبيرة زيت",
-          "ملعقة صغيرة ملح",
-          "200 مل ماء"
-        ],
-        "steps": [
-          "اخلط الكاجو المنقوع مع قليل من الماء في الخلاط حتى يصبح عجينة ناعمة.",
-          "اقلِ البصل في الزيت 8 دقائق حتى يطرى ويصبح ذهبيًا، ثم أضف الغرام ماسالا دقيقة واحدة.",
-          "أضف الخضار والملح والماء، وغطِّ القدر واتركه 12–15 دقيقة حتى تنضج الخضار.",
-          "أضف معجون الكاجو والكريمة واتركه 5 دقائق أخرى.",
-          "قدّمه ساخنًا مع الأرز أو الخبز."
-        ],
-        "servings": 4,
-        "time_min": 40
-      },
-      "tips": [
-        "استخدم نصف كمية الكريمة وخفّف الصلصة بالماء أو مرق الخضار.",
-        "أكثِر من الخضار منخفضة السعرات مثل القرنبيط والفاصوليا.",
-        "اجعل حصة الأرز نحو 150 غ مطبوخًا."
-      ]
-    },
-    "it": {
-      "name": "Korma di verdure",
-      "name_inline": "korma di verdure",
-      "origin": "India · India del Nord",
-      "intro": "Il korma di verdure è un curry delicato e cremoso di verdure miste cotte in una salsa di cipolla, anacardi tritati, panna e profumato garam masala. È speziato con delicatezza anziché piccante, con una salsa liscia, leggermente dolce e dal sapore di frutta secca. Si serve con riso basmati o pane piatto ed è una scelta molto amata da chi preferisce i curry delicati.",
-      "history": "Il korma risale alle cucine della corte moghul nell'India del Nord, dove la carne veniva brasata in salse ricche di frutta secca e latticini; i korma di verdure sono oggi un classico nelle case e nei ristoranti indiani di tutto il mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 g di verdure miste (carota, patata, piselli, fagiolini, cavolfiore)",
-          "50 g di anacardi, in ammollo per 20 minuti",
-          "100 ml di panna",
-          "1 cipolla grande, tritata",
-          "2 cucchiaini di garam masala",
-          "1 cucchiaio di olio",
-          "1 cucchiaino di sale",
-          "200 ml di acqua"
-        ],
-        "steps": [
-          "Frulla gli anacardi ammollati con un po' d'acqua fino a ottenere una crema liscia.",
-          "Fai rosolare la cipolla nell'olio per 8 minuti finché è morbida e dorata, poi aggiungi il garam masala per 1 minuto.",
-          "Aggiungi le verdure, il sale e l'acqua; copri e lascia sobbollire per 12–15 minuti finché sono tenere.",
-          "Incorpora la crema di anacardi e la panna e lascia sobbollire altri 5 minuti.",
-          "Servi caldo con riso o pane piatto."
-        ]
-      },
-      "tips": [
-        "Usa metà della panna e allunga la salsa con acqua o brodo vegetale.",
-        "Riempi la pentola con più verdure poco caloriche come cavolfiore e fagiolini.",
-        "Limita il riso a circa 150 g cotto."
-      ]
-    },
-    "el": {
-      "name": "Κόρμα λαχανικών",
-      "origin": "Ινδία · Βόρεια Ινδία",
-      "intro": "Το κόρμα λαχανικών είναι ένα ήπιο, κρεμώδες κάρι με ανάμεικτα λαχανικά σιγοβρασμένα σε σάλτσα από κρεμμύδι, αλεσμένα κάσιους, κρέμα γάλακτος και αρωματικό γκαράμ μασάλα. Είναι απαλά μπαχαρένιο και όχι καυτερό, με λεία, ελαφρώς γλυκιά σάλτσα με γεύση ξηρών καρπών. Σερβίρεται με ρύζι μπασμάτι ή πίτα και είναι δημοφιλής επιλογή για όσους προτιμούν τα ήπια κάρι.",
-      "history": "Το κόρμα ανάγεται στις κουζίνες της αυλής των Μογγόλων στη Βόρεια Ινδία, όπου το κρέας σιγομαγειρευόταν σε πλούσιες σάλτσες με ξηρούς καρπούς και γαλακτοκομικά· τα κόρμα λαχανικών είναι σήμερα βασικό πιάτο σε ινδικά σπίτια και εστιατόρια σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 γρ. ανάμεικτα λαχανικά (καρότο, πατάτα, αρακάς, φασολάκια, κουνουπίδι)",
-          "50 γρ. κάσιους, μουλιασμένα 20 λεπτά",
-          "100 ml κρέμα γάλακτος",
-          "1 μεγάλο κρεμμύδι, ψιλοκομμένο",
-          "2 κ.γ. γκαράμ μασάλα",
-          "1 κ.σ. λάδι",
-          "1 κ.γ. αλάτι",
-          "200 ml νερό"
-        ],
-        "steps": [
-          "Χτυπήστε στο μπλέντερ τα μουλιασμένα κάσιους με λίγο νερό σε λεία πάστα.",
-          "Σοτάρετε το κρεμμύδι στο λάδι για 8 λεπτά μέχρι να μαλακώσει και να ροδίσει, και προσθέστε το γκαράμ μασάλα για 1 λεπτό.",
-          "Προσθέστε τα λαχανικά, το αλάτι και το νερό· σκεπάστε και σιγοβράστε 12–15 λεπτά μέχρι να μαλακώσουν.",
-          "Ανακατέψτε την πάστα κάσιους και την κρέμα γάλακτος και σιγοβράστε 5 λεπτά ακόμη.",
-          "Σερβίρετε ζεστό με ρύζι ή πίτα."
-        ]
-      },
-      "tips": [
-        "Βάλτε τη μισή κρέμα γάλακτος και αραιώστε τη σάλτσα με νερό ή ζωμό λαχανικών.",
-        "Γεμίστε την κατσαρόλα με περισσότερα λαχανικά χαμηλών θερμίδων, όπως κουνουπίδι και φασολάκια.",
-        "Κρατήστε τη μερίδα ρυζιού στα περίπου 150 γρ. μαγειρεμένο."
-      ]
-    },
-    "ru": {
-      "name": "Корма с овощами",
-      "origin": "Индия · Северная Индия",
-      "intro": "Овощная корма — мягкое сливочное карри из смешанных овощей, тушёных в соусе из лука, молотого кешью, сливок и ароматной гарам масалы. Она приправлена умеренно, а не остро, с гладким, слегка сладким ореховым соусом. Подаётся с рисом басмати или лепёшками и является популярным выбором для тех, кто предпочитает мягкие карри.",
-      "history": "Корма восходит к кухням Могольского двора в Северной Индии, где мясо тушили в насыщенных соусах из орехов и молочных продуктов; овощные корма теперь стандартное блюдо в индийских домах и ресторанах по всему миру.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 г смеси овощей (морковь, картофель, горох, фасоль, цветная капуста)",
-          "50 г кешью, замоченного на 20 минут",
-          "100 мл сливок",
-          "1 крупная луковица, нарубленная",
-          "2 ч. л. гарам масалы",
-          "1 ст. л. масла",
-          "1 ч. л. соли",
-          "200 мл воды"
-        ],
-        "steps": [
-          "Измельчите замоченный кешью с небольшим количеством воды в гладкую пасту.",
-          "Обжаривайте лук в масле 8 минут до мягкости и золотистого цвета, затем добавьте гарам масалу на 1 минуту.",
-          "Добавьте овощи, соль и воду; накройте и тушите 12–15 минут до мягкости.",
-          "Вмешайте пасту из кешью и сливки и тушите ещё 5 минут.",
-          "Подавайте горячим с рисом или лепёшками."
-        ]
-      },
-      "tips": [
-        "Используйте вдвое меньше сливок и разбавьте соус водой или овощным бульоном.",
-        "Добавьте в кастрюлю больше малокалорийных овощей, например цветной капусты и фасоли.",
-        "Ограничьте порцию риса примерно 150 г в готовом виде."
-      ],
-      "name_inline": "овощная корма"
-    }
+  "ar": {
+   "name": "كورما الخضار",
+   "origin": "الهند · شمال الهند",
+   "intro": "كورما الخضار كاري معتدل كريمي من الخضار المشكلة المطهوة في صلصة من البصل والكاجو المطحون والكريمة والغرام ماسالا العطري. توابلها لطيفة لا حارة، وصلصتها ناعمة حلوة قليلًا بنكهة المكسرات. وتُقدَّم مع أرز البسمتي أو الخبز الهندي، وهي خيار محبوب لمن يفضّلون الكاري المعتدل.",
+   "history": "تعود الكورما إلى مطابخ البلاط المغولي في شمال الهند حيث كان اللحم يُطهى ببطء في صلصات غنية بالمكسرات ومشتقات الحليب، وأصبحت كورما الخضار اليوم طبقًا ثابتًا في البيوت والمطاعم الهندية حول العالم.",
+   "recipe": {
+    "ingredients": [
+     "500 غ خضار مشكلة (جزر، بطاطس، بازلاء، فاصوليا، قرنبيط)",
+     "50 غ كاجو منقوع 20 دقيقة",
+     "100 مل كريمة طبخ",
+     "بصلة كبيرة مفرومة",
+     "2 ملعقة صغيرة غرام ماسالا",
+     "ملعقة كبيرة زيت",
+     "ملعقة صغيرة ملح",
+     "200 مل ماء"
+    ],
+    "steps": [
+     "اخلط الكاجو المنقوع مع قليل من الماء في الخلاط حتى يصبح عجينة ناعمة.",
+     "اقلِ البصل في الزيت 8 دقائق حتى يطرى ويصبح ذهبيًا، ثم أضف الغرام ماسالا دقيقة واحدة.",
+     "أضف الخضار والملح والماء، وغطِّ القدر واتركه 12–15 دقيقة حتى تنضج الخضار.",
+     "أضف معجون الكاجو والكريمة واتركه 5 دقائق أخرى.",
+     "قدّمه ساخنًا مع الأرز أو الخبز."
+    ],
+    "servings": 4,
+    "time_min": 40
+   },
+   "tips": [
+    "استخدم نصف كمية الكريمة وخفّف الصلصة بالماء أو مرق الخضار.",
+    "أكثِر من الخضار منخفضة السعرات مثل القرنبيط والفاصوليا.",
+    "اجعل حصة الأرز نحو 150 غ مطبوخًا."
+   ]
+  },
+  "it": {
+   "name": "Korma di verdure",
+   "name_inline": "korma di verdure",
+   "origin": "India · India del Nord",
+   "intro": "Il korma di verdure è un curry delicato e cremoso di verdure miste cotte in una salsa di cipolla, anacardi tritati, panna e profumato garam masala. È speziato con delicatezza anziché piccante, con una salsa liscia, leggermente dolce e dal sapore di frutta secca. Si serve con riso basmati o pane piatto ed è una scelta molto amata da chi preferisce i curry delicati.",
+   "history": "Il korma risale alle cucine della corte moghul nell'India del Nord, dove la carne veniva brasata in salse ricche di frutta secca e latticini; i korma di verdure sono oggi un classico nelle case e nei ristoranti indiani di tutto il mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g di verdure miste (carota, patata, piselli, fagiolini, cavolfiore)",
+     "50 g di anacardi, in ammollo per 20 minuti",
+     "100 ml di panna",
+     "1 cipolla grande, tritata",
+     "2 cucchiaini di garam masala",
+     "1 cucchiaio di olio",
+     "1 cucchiaino di sale",
+     "200 ml di acqua"
+    ],
+    "steps": [
+     "Frulla gli anacardi ammollati con un po' d'acqua fino a ottenere una crema liscia.",
+     "Fai rosolare la cipolla nell'olio per 8 minuti finché è morbida e dorata, poi aggiungi il garam masala per 1 minuto.",
+     "Aggiungi le verdure, il sale e l'acqua; copri e lascia sobbollire per 12–15 minuti finché sono tenere.",
+     "Incorpora la crema di anacardi e la panna e lascia sobbollire altri 5 minuti.",
+     "Servi caldo con riso o pane piatto."
+    ]
+   },
+   "tips": [
+    "Usa metà della panna e allunga la salsa con acqua o brodo vegetale.",
+    "Riempi la pentola con più verdure poco caloriche come cavolfiore e fagiolini.",
+    "Limita il riso a circa 150 g cotto."
+   ]
+  },
+  "el": {
+   "name": "Κόρμα λαχανικών",
+   "origin": "Ινδία · Βόρεια Ινδία",
+   "intro": "Το κόρμα λαχανικών είναι ένα ήπιο, κρεμώδες κάρι με ανάμεικτα λαχανικά σιγοβρασμένα σε σάλτσα από κρεμμύδι, αλεσμένα κάσιους, κρέμα γάλακτος και αρωματικό γκαράμ μασάλα. Είναι απαλά μπαχαρένιο και όχι καυτερό, με λεία, ελαφρώς γλυκιά σάλτσα με γεύση ξηρών καρπών. Σερβίρεται με ρύζι μπασμάτι ή πίτα και είναι δημοφιλής επιλογή για όσους προτιμούν τα ήπια κάρι.",
+   "history": "Το κόρμα ανάγεται στις κουζίνες της αυλής των Μογγόλων στη Βόρεια Ινδία, όπου το κρέας σιγομαγειρευόταν σε πλούσιες σάλτσες με ξηρούς καρπούς και γαλακτοκομικά· τα κόρμα λαχανικών είναι σήμερα βασικό πιάτο σε ινδικά σπίτια και εστιατόρια σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 γρ. ανάμεικτα λαχανικά (καρότο, πατάτα, αρακάς, φασολάκια, κουνουπίδι)",
+     "50 γρ. κάσιους, μουλιασμένα 20 λεπτά",
+     "100 ml κρέμα γάλακτος",
+     "1 μεγάλο κρεμμύδι, ψιλοκομμένο",
+     "2 κ.γ. γκαράμ μασάλα",
+     "1 κ.σ. λάδι",
+     "1 κ.γ. αλάτι",
+     "200 ml νερό"
+    ],
+    "steps": [
+     "Χτυπήστε στο μπλέντερ τα μουλιασμένα κάσιους με λίγο νερό σε λεία πάστα.",
+     "Σοτάρετε το κρεμμύδι στο λάδι για 8 λεπτά μέχρι να μαλακώσει και να ροδίσει, και προσθέστε το γκαράμ μασάλα για 1 λεπτό.",
+     "Προσθέστε τα λαχανικά, το αλάτι και το νερό· σκεπάστε και σιγοβράστε 12–15 λεπτά μέχρι να μαλακώσουν.",
+     "Ανακατέψτε την πάστα κάσιους και την κρέμα γάλακτος και σιγοβράστε 5 λεπτά ακόμη.",
+     "Σερβίρετε ζεστό με ρύζι ή πίτα."
+    ]
+   },
+   "tips": [
+    "Βάλτε τη μισή κρέμα γάλακτος και αραιώστε τη σάλτσα με νερό ή ζωμό λαχανικών.",
+    "Γεμίστε την κατσαρόλα με περισσότερα λαχανικά χαμηλών θερμίδων, όπως κουνουπίδι και φασολάκια.",
+    "Κρατήστε τη μερίδα ρυζιού στα περίπου 150 γρ. μαγειρεμένο."
+   ]
+  },
+  "ru": {
+   "name": "Корма с овощами",
+   "origin": "Индия · Северная Индия",
+   "intro": "Овощная корма — мягкое сливочное карри из смешанных овощей, тушёных в соусе из лука, молотого кешью, сливок и ароматной гарам масалы. Она приправлена умеренно, а не остро, с гладким, слегка сладким ореховым соусом. Подаётся с рисом басмати или лепёшками и является популярным выбором для тех, кто предпочитает мягкие карри.",
+   "history": "Корма восходит к кухням Могольского двора в Северной Индии, где мясо тушили в насыщенных соусах из орехов и молочных продуктов; овощные корма теперь стандартное блюдо в индийских домах и ресторанах по всему миру.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 г смеси овощей (морковь, картофель, горох, фасоль, цветная капуста)",
+     "50 г кешью, замоченного на 20 минут",
+     "100 мл сливок",
+     "1 крупная луковица, нарубленная",
+     "2 ч. л. гарам масалы",
+     "1 ст. л. масла",
+     "1 ч. л. соли",
+     "200 мл воды"
+    ],
+    "steps": [
+     "Измельчите замоченный кешью с небольшим количеством воды в гладкую пасту.",
+     "Обжаривайте лук в масле 8 минут до мягкости и золотистого цвета, затем добавьте гарам масалу на 1 минуту.",
+     "Добавьте овощи, соль и воду; накройте и тушите 12–15 минут до мягкости.",
+     "Вмешайте пасту из кешью и сливки и тушите ещё 5 минут.",
+     "Подавайте горячим с рисом или лепёшками."
+    ]
+   },
+   "tips": [
+    "Используйте вдвое меньше сливок и разбавьте соус водой или овощным бульоном.",
+    "Добавьте в кастрюлю больше малокалорийных овощей, например цветной капусты и фасоли.",
+    "Ограничьте порцию риса примерно 150 г в готовом виде."
+   ],
+   "name_inline": "овощная корма"
+  },
+  "es": {
+   "name": "Korma de verduras",
+   "origin": "India · Norte de la India",
+   "intro": "El korma de verduras es un curry suave y cremoso de verduras mixtas cocidas a fuego lento en una salsa de cebolla, anacardos molidos, crema y aromático garam masala. Está ligeramente especiado, no picante, con una salsa lisa, un poco dulce y con sabor a nuez. Se sirve con arroz basmati o pan plano y es una opción popular para quienes prefieren los curris suaves.",
+   "history": "El korma se remonta a las cocinas de la corte mogola del norte de la India, donde la carne se braseaba en salsas ricas de frutos secos y lácteos; hoy los kormas de verduras son comunes en los hogares y restaurantes indios de todo el mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g de verduras mixtas (zanahoria, papa, chícharos, ejotes, coliflor)",
+     "50 g de anacardos, remojados 20 minutos",
+     "100 ml de crema",
+     "1 cebolla grande, picada",
+     "2 cdtas. de garam masala",
+     "1 cda. de aceite",
+     "1 cdta. de sal",
+     "200 ml de agua"
+    ],
+    "steps": [
+     "Licúa los anacardos remojados con un poco de agua hasta obtener una pasta lisa.",
+     "Fríe la cebolla en el aceite 8 minutos, hasta que esté suave y dorada, y agrega el garam masala durante 1 minuto.",
+     "Añade las verduras, la sal y el agua; tapa y cocina a fuego lento de 12 a 15 minutos, hasta que estén tiernas.",
+     "Incorpora la pasta de anacardo y la crema y cocina 5 minutos más.",
+     "Sirve caliente con arroz o pan plano."
+    ]
+   },
+   "tips": [
+    "Usa la mitad de la crema y aligera la salsa con agua o caldo de verduras.",
+    "Carga la olla con más verduras de pocas calorías, como coliflor y ejotes.",
+    "Limita el arroz a unos 150 g cocido."
+   ],
+   "name_inline": "el korma de verduras"
   }
+ }
 }

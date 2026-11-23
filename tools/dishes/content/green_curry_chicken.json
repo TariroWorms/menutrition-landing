@@ -1,172 +1,204 @@
 {
-  "db_key": "green_curry_chicken",
-  "slug": "green-curry-chicken",
-  "emoji": "🍛",
-  "portion_g": 350,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "green_curry_chicken",
+ "slug": "green-curry-chicken",
+ "emoji": "🍛",
+ "portion_g": 350,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Green curry chicken",
+   "origin": "Thailand · Central Thailand",
+   "intro": "Green curry chicken is the classic Thai pairing of tender chicken with green curry paste and coconut milk, simmered with eggplant and finished with Thai basil and a splash of fish sauce. The sauce is creamy, herbaceous and hot, balanced with a little sugar and salt from the fish sauce. It is eaten with steamed jasmine rice.",
+   "history": "Green curry comes from central Thailand and is usually dated to the early 20th century, when it began to appear in Thai cookbooks. Chicken is the most common version today, served everywhere from Bangkok street stalls to Thai restaurants abroad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g chicken breast or thighs, sliced",
+     "400 ml coconut milk",
+     "3 tbsp green curry paste",
+     "2 Thai eggplants or 1 small eggplant, cubed",
+     "1 handful Thai basil leaves",
+     "1–2 tbsp fish sauce",
+     "1 tbsp vegetable oil, 1 tsp sugar"
+    ],
+    "steps": [
+     "Fry the curry paste in the oil with a few spoons of coconut cream for 2–3 minutes.",
+     "Add the chicken and stir until coated.",
+     "Pour in the remaining coconut milk with 100 ml water and simmer gently.",
+     "Add the eggplant and cook for 10 minutes until soft.",
+     "Season with fish sauce and sugar, stir in the basil and serve."
+    ]
+   },
+   "tips": [
+    "Light coconut milk cuts the fat noticeably without losing the flavour.",
+    "Chicken breast keeps it leaner than thighs.",
+    "Serve with a small portion of rice and extra vegetables in the curry."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Green curry chicken",
-      "origin": "Thailand · Central Thailand",
-      "intro": "Green curry chicken is the classic Thai pairing of tender chicken with green curry paste and coconut milk, simmered with eggplant and finished with Thai basil and a splash of fish sauce. The sauce is creamy, herbaceous and hot, balanced with a little sugar and salt from the fish sauce. It is eaten with steamed jasmine rice.",
-      "history": "Green curry comes from central Thailand and is usually dated to the early 20th century, when it began to appear in Thai cookbooks. Chicken is the most common version today, served everywhere from Bangkok street stalls to Thai restaurants abroad.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 g chicken breast or thighs, sliced",
-          "400 ml coconut milk",
-          "3 tbsp green curry paste",
-          "2 Thai eggplants or 1 small eggplant, cubed",
-          "1 handful Thai basil leaves",
-          "1–2 tbsp fish sauce",
-          "1 tbsp vegetable oil, 1 tsp sugar"
-        ],
-        "steps": [
-          "Fry the curry paste in the oil with a few spoons of coconut cream for 2–3 minutes.",
-          "Add the chicken and stir until coated.",
-          "Pour in the remaining coconut milk with 100 ml water and simmer gently.",
-          "Add the eggplant and cook for 10 minutes until soft.",
-          "Season with fish sauce and sugar, stir in the basil and serve."
-        ]
-      },
-      "tips": [
-        "Light coconut milk cuts the fat noticeably without losing the flavour.",
-        "Chicken breast keeps it leaner than thighs.",
-        "Serve with a small portion of rice and extra vegetables in the curry."
-      ]
-    },
-    "ar": {
-      "name": "كاري أخضر بالدجاج",
-      "origin": "تايلاند · وسط تايلاند",
-      "intro": "الكاري الأخضر بالدجاج هو التوليفة التايلندية الكلاسيكية من دجاج طري مع معجون الكاري الأخضر وحليب جوز الهند، يُطهى مع الباذنجان ويُنهى بالريحان التايلندي وقليل من صلصة السمك. الصلصة كريمية عشبية حارة، يوازنها قليل من السكر وملوحة صلصة السمك. يؤكل مع أرز الياسمين المطهو بالبخار.",
-      "history": "ينحدر الكاري الأخضر من وسط تايلاند ويُؤرَّخ عادة بأوائل القرن العشرين، حين بدأ يظهر في كتب الطبخ التايلندية. ونسخة الدجاج هي الأكثر شيوعًا اليوم، من أكشاك الشوارع في بانكوك إلى المطاعم التايلندية حول العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 غ صدر أو أفخاذ دجاج مقطّعة شرائح",
-          "400 مل حليب جوز الهند",
-          "3 ملاعق كبيرة معجون كاري أخضر",
-          "2 باذنجان تايلندي أو باذنجانة صغيرة مكعّبات",
-          "حفنة ريحان تايلندي",
-          "1–2 ملعقة كبيرة صلصة سمك",
-          "1 ملعقة كبيرة زيت نباتي، 1 ملعقة صغيرة سكر"
-        ],
-        "steps": [
-          "اقلِ معجون الكاري في الزيت مع بضع ملاعق من قشدة جوز الهند 2–3 دقائق.",
-          "أضف الدجاج وقلّبه حتى يتغطّى.",
-          "اسكب باقي حليب جوز الهند مع 100 مل ماء واتركه يغلي بهدوء.",
-          "أضف الباذنجان واطهه 10 دقائق حتى يطرى.",
-          "تبّله بصلصة السمك والسكر، وأضف الريحان وقدّمه."
-        ]
-      },
-      "tips": [
-        "حليب جوز الهند الخفيف يقلّل الدهون بوضوح دون فقدان النكهة.",
-        "صدر الدجاج أخف من الأفخاذ.",
-        "قدّمه مع حصة صغيرة من الأرز وخضار إضافية في الكاري."
-      ]
-    },
-    "it": {
-      "name": "Pollo al curry verde",
-      "name_inline": "pollo al curry verde",
-      "origin": "Thailandia · Thailandia centrale",
-      "intro": "Il pollo al curry verde è il classico abbinamento thailandese di pollo tenero con pasta di curry verde e latte di cocco, cotto lentamente con melanzane e completato con basilico thai e un goccio di salsa di pesce. La salsa è cremosa, erbacea e piccante, bilanciata da un po' di zucchero e dal sale della salsa di pesce. Si mangia con riso jasmine al vapore.",
-      "history": "Il curry verde viene dalla Thailandia centrale e di solito si fa risalire all'inizio del XX secolo, quando cominciò a comparire nei libri di cucina thailandesi. Oggi la versione con il pollo è la più comune, servita ovunque, dalle bancarelle di strada di Bangkok ai ristoranti thailandesi all'estero.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 g di petto o cosce di pollo, a fettine",
-          "400 ml di latte di cocco",
-          "3 cucchiai di pasta di curry verde",
-          "2 melanzane thai o 1 melanzana piccola, a cubetti",
-          "1 manciata di foglie di basilico thai",
-          "1–2 cucchiai di salsa di pesce",
-          "1 cucchiaio di olio vegetale, 1 cucchiaino di zucchero"
-        ],
-        "steps": [
-          "Soffriggi la pasta di curry nell'olio con qualche cucchiaio di crema di cocco per 2–3 minuti.",
-          "Aggiungi il pollo e mescola finché è ben ricoperto.",
-          "Versa il latte di cocco rimasto con 100 ml di acqua e fai sobbollire dolcemente.",
-          "Aggiungi la melanzana e cuoci per 10 minuti finché è morbida.",
-          "Condisci con salsa di pesce e zucchero, incorpora il basilico e servi."
-        ]
-      },
-      "tips": [
-        "Il latte di cocco light riduce sensibilmente i grassi senza perdere sapore.",
-        "Il petto di pollo lo rende più magro rispetto alle cosce.",
-        "Servilo con una piccola porzione di riso e più verdure nel curry."
-      ]
-    },
-    "el": {
-      "name": "Κοτόπουλο με πράσινο κάρι",
-      "name_inline": "κοτόπουλο με πράσινο κάρι",
-      "origin": "Ταϊλάνδη · Κεντρική Ταϊλάνδη",
-      "intro": "Το κοτόπουλο με πράσινο κάρι είναι ο κλασικός ταϊλανδέζικος συνδυασμός τρυφερού κοτόπουλου με πάστα πράσινου κάρι και γάλα καρύδας, που σιγοβράζει με μελιτζάνα και τελειώνει με ταϊλανδέζικο βασιλικό και λίγη σάλτσα ψαριού. Η σάλτσα είναι κρεμώδης, αρωματική από τα μυρωδικά και καυτερή, ισορροπημένη με λίγη ζάχαρη και την αλμύρα της σάλτσας ψαριού. Τρώγεται με ρύζι γιασεμί στον ατμό.",
-      "history": "Το πράσινο κάρι προέρχεται από την κεντρική Ταϊλάνδη και συνήθως χρονολογείται στις αρχές του 20ού αιώνα, όταν άρχισε να εμφανίζεται σε ταϊλανδέζικα βιβλία μαγειρικής. Η εκδοχή με κοτόπουλο είναι σήμερα η πιο συνηθισμένη και σερβίρεται παντού, από τους πάγκους του δρόμου της Μπανγκόκ μέχρι τα ταϊλανδέζικα εστιατόρια του εξωτερικού.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 γρ. στήθος ή μπούτια κοτόπουλου, σε λωρίδες",
-          "400 ml γάλα καρύδας",
-          "3 κ.σ. πάστα πράσινου κάρι",
-          "2 ταϊλανδέζικες μελιτζάνες ή 1 μικρή μελιτζάνα, σε κύβους",
-          "1 χούφτα φύλλα ταϊλανδέζικου βασιλικού",
-          "1–2 κ.σ. σάλτσα ψαριού",
-          "1 κ.σ. φυτικό λάδι, 1 κ.γ. ζάχαρη"
-        ],
-        "steps": [
-          "Τσιγαρίστε την πάστα κάρι στο λάδι με λίγες κουταλιές κρέμα καρύδας για 2–3 λεπτά.",
-          "Προσθέστε το κοτόπουλο και ανακατέψτε μέχρι να πάει παντού η πάστα.",
-          "Ρίξτε το υπόλοιπο γάλα καρύδας με 100 ml νερό και σιγοβράστε απαλά.",
-          "Προσθέστε τη μελιτζάνα και μαγειρέψτε 10 λεπτά μέχρι να μαλακώσει.",
-          "Καρυκεύστε με σάλτσα ψαριού και ζάχαρη, ανακατέψτε μέσα τον βασιλικό και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Το ελαφρύ γάλα καρύδας μειώνει αισθητά το λίπος χωρίς να χάνεται η γεύση.",
-        "Το στήθος κοτόπουλου το κάνει πιο άπαχο από τα μπούτια.",
-        "Σερβίρετε με μικρή μερίδα ρύζι και περισσότερα λαχανικά μέσα στο κάρι."
-      ]
-    },
-    "ru": {
-      "name": "Курица в зелёном карри",
-      "origin": "Таиланд · Центральный Таиланд",
-      "intro": "Курица в зелёном карри — классическое тайское сочетание нежной курицы с пастой зелёного карри и кокосовым молоком, тушёное с баклажанами и завершённое тайским базиликом и каплей рыбного соуса. Соус сливочный, травяной и острый, сбалансированный сахаром и солью рыбного соуса. Блюдо едят с жасминовым рисом на пару.",
-      "history": "Зелёный карри родом из центрального Таиланда, его обычно датируют началом XX века, когда он начал появляться в тайских кулинарных книгах. Сегодня чаще всего готовят вариант с курицей, его подают везде — от уличных лотков Бангкока до тайских ресторанов за рубежом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 г куриной грудки или бедер, нарезанных",
-          "400 мл кокосового молока",
-          "3 ст. л. пасты зелёного карри",
-          "2 тайских баклажана или 1 небольшой баклажан, кубиками",
-          "1 горсть листьев тайского базилика",
-          "1–2 ст. л. рыбного соуса",
-          "1 ст. л. растительного масла, 1 ч. л. сахара"
-        ],
-        "steps": [
-          "Обжарьте пасту карри в масле с несколькими ложками кокосовых сливок 2–3 минуты.",
-          "Добавьте курицу и перемешивайте, пока она не покроется пастой.",
-          "Влейте оставшееся кокосовое молоко со 100 мл воды и слабо тушите.",
-          "Добавьте баклажан и готовьте 10 минут до мягкости.",
-          "Приправьте рыбным соусом и сахаром, добавьте базилик и подавайте."
-        ]
-      },
-      "tips": [
-        "Лёгкое кокосовое молоко заметно снижает жирность, не теряя вкуса.",
-        "С куриной грудкой блюдо получится менее жирным, чем с бёдрами.",
-        "Подавайте с небольшой порцией риса и дополнительными овощами в карри."
-      ],
-      "name_inline": "курица в зелёном карри"
-    }
+  "ar": {
+   "name": "كاري أخضر بالدجاج",
+   "origin": "تايلاند · وسط تايلاند",
+   "intro": "الكاري الأخضر بالدجاج هو التوليفة التايلندية الكلاسيكية من دجاج طري مع معجون الكاري الأخضر وحليب جوز الهند، يُطهى مع الباذنجان ويُنهى بالريحان التايلندي وقليل من صلصة السمك. الصلصة كريمية عشبية حارة، يوازنها قليل من السكر وملوحة صلصة السمك. يؤكل مع أرز الياسمين المطهو بالبخار.",
+   "history": "ينحدر الكاري الأخضر من وسط تايلاند ويُؤرَّخ عادة بأوائل القرن العشرين، حين بدأ يظهر في كتب الطبخ التايلندية. ونسخة الدجاج هي الأكثر شيوعًا اليوم، من أكشاك الشوارع في بانكوك إلى المطاعم التايلندية حول العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 غ صدر أو أفخاذ دجاج مقطّعة شرائح",
+     "400 مل حليب جوز الهند",
+     "3 ملاعق كبيرة معجون كاري أخضر",
+     "2 باذنجان تايلندي أو باذنجانة صغيرة مكعّبات",
+     "حفنة ريحان تايلندي",
+     "1–2 ملعقة كبيرة صلصة سمك",
+     "1 ملعقة كبيرة زيت نباتي، 1 ملعقة صغيرة سكر"
+    ],
+    "steps": [
+     "اقلِ معجون الكاري في الزيت مع بضع ملاعق من قشدة جوز الهند 2–3 دقائق.",
+     "أضف الدجاج وقلّبه حتى يتغطّى.",
+     "اسكب باقي حليب جوز الهند مع 100 مل ماء واتركه يغلي بهدوء.",
+     "أضف الباذنجان واطهه 10 دقائق حتى يطرى.",
+     "تبّله بصلصة السمك والسكر، وأضف الريحان وقدّمه."
+    ]
+   },
+   "tips": [
+    "حليب جوز الهند الخفيف يقلّل الدهون بوضوح دون فقدان النكهة.",
+    "صدر الدجاج أخف من الأفخاذ.",
+    "قدّمه مع حصة صغيرة من الأرز وخضار إضافية في الكاري."
+   ]
+  },
+  "it": {
+   "name": "Pollo al curry verde",
+   "name_inline": "pollo al curry verde",
+   "origin": "Thailandia · Thailandia centrale",
+   "intro": "Il pollo al curry verde è il classico abbinamento thailandese di pollo tenero con pasta di curry verde e latte di cocco, cotto lentamente con melanzane e completato con basilico thai e un goccio di salsa di pesce. La salsa è cremosa, erbacea e piccante, bilanciata da un po' di zucchero e dal sale della salsa di pesce. Si mangia con riso jasmine al vapore.",
+   "history": "Il curry verde viene dalla Thailandia centrale e di solito si fa risalire all'inizio del XX secolo, quando cominciò a comparire nei libri di cucina thailandesi. Oggi la versione con il pollo è la più comune, servita ovunque, dalle bancarelle di strada di Bangkok ai ristoranti thailandesi all'estero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g di petto o cosce di pollo, a fettine",
+     "400 ml di latte di cocco",
+     "3 cucchiai di pasta di curry verde",
+     "2 melanzane thai o 1 melanzana piccola, a cubetti",
+     "1 manciata di foglie di basilico thai",
+     "1–2 cucchiai di salsa di pesce",
+     "1 cucchiaio di olio vegetale, 1 cucchiaino di zucchero"
+    ],
+    "steps": [
+     "Soffriggi la pasta di curry nell'olio con qualche cucchiaio di crema di cocco per 2–3 minuti.",
+     "Aggiungi il pollo e mescola finché è ben ricoperto.",
+     "Versa il latte di cocco rimasto con 100 ml di acqua e fai sobbollire dolcemente.",
+     "Aggiungi la melanzana e cuoci per 10 minuti finché è morbida.",
+     "Condisci con salsa di pesce e zucchero, incorpora il basilico e servi."
+    ]
+   },
+   "tips": [
+    "Il latte di cocco light riduce sensibilmente i grassi senza perdere sapore.",
+    "Il petto di pollo lo rende più magro rispetto alle cosce.",
+    "Servilo con una piccola porzione di riso e più verdure nel curry."
+   ]
+  },
+  "el": {
+   "name": "Κοτόπουλο με πράσινο κάρι",
+   "name_inline": "κοτόπουλο με πράσινο κάρι",
+   "origin": "Ταϊλάνδη · Κεντρική Ταϊλάνδη",
+   "intro": "Το κοτόπουλο με πράσινο κάρι είναι ο κλασικός ταϊλανδέζικος συνδυασμός τρυφερού κοτόπουλου με πάστα πράσινου κάρι και γάλα καρύδας, που σιγοβράζει με μελιτζάνα και τελειώνει με ταϊλανδέζικο βασιλικό και λίγη σάλτσα ψαριού. Η σάλτσα είναι κρεμώδης, αρωματική από τα μυρωδικά και καυτερή, ισορροπημένη με λίγη ζάχαρη και την αλμύρα της σάλτσας ψαριού. Τρώγεται με ρύζι γιασεμί στον ατμό.",
+   "history": "Το πράσινο κάρι προέρχεται από την κεντρική Ταϊλάνδη και συνήθως χρονολογείται στις αρχές του 20ού αιώνα, όταν άρχισε να εμφανίζεται σε ταϊλανδέζικα βιβλία μαγειρικής. Η εκδοχή με κοτόπουλο είναι σήμερα η πιο συνηθισμένη και σερβίρεται παντού, από τους πάγκους του δρόμου της Μπανγκόκ μέχρι τα ταϊλανδέζικα εστιατόρια του εξωτερικού.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 γρ. στήθος ή μπούτια κοτόπουλου, σε λωρίδες",
+     "400 ml γάλα καρύδας",
+     "3 κ.σ. πάστα πράσινου κάρι",
+     "2 ταϊλανδέζικες μελιτζάνες ή 1 μικρή μελιτζάνα, σε κύβους",
+     "1 χούφτα φύλλα ταϊλανδέζικου βασιλικού",
+     "1–2 κ.σ. σάλτσα ψαριού",
+     "1 κ.σ. φυτικό λάδι, 1 κ.γ. ζάχαρη"
+    ],
+    "steps": [
+     "Τσιγαρίστε την πάστα κάρι στο λάδι με λίγες κουταλιές κρέμα καρύδας για 2–3 λεπτά.",
+     "Προσθέστε το κοτόπουλο και ανακατέψτε μέχρι να πάει παντού η πάστα.",
+     "Ρίξτε το υπόλοιπο γάλα καρύδας με 100 ml νερό και σιγοβράστε απαλά.",
+     "Προσθέστε τη μελιτζάνα και μαγειρέψτε 10 λεπτά μέχρι να μαλακώσει.",
+     "Καρυκεύστε με σάλτσα ψαριού και ζάχαρη, ανακατέψτε μέσα τον βασιλικό και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Το ελαφρύ γάλα καρύδας μειώνει αισθητά το λίπος χωρίς να χάνεται η γεύση.",
+    "Το στήθος κοτόπουλου το κάνει πιο άπαχο από τα μπούτια.",
+    "Σερβίρετε με μικρή μερίδα ρύζι και περισσότερα λαχανικά μέσα στο κάρι."
+   ]
+  },
+  "ru": {
+   "name": "Курица в зелёном карри",
+   "origin": "Таиланд · Центральный Таиланд",
+   "intro": "Курица в зелёном карри — классическое тайское сочетание нежной курицы с пастой зелёного карри и кокосовым молоком, тушёное с баклажанами и завершённое тайским базиликом и каплей рыбного соуса. Соус сливочный, травяной и острый, сбалансированный сахаром и солью рыбного соуса. Блюдо едят с жасминовым рисом на пару.",
+   "history": "Зелёный карри родом из центрального Таиланда, его обычно датируют началом XX века, когда он начал появляться в тайских кулинарных книгах. Сегодня чаще всего готовят вариант с курицей, его подают везде — от уличных лотков Бангкока до тайских ресторанов за рубежом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 г куриной грудки или бедер, нарезанных",
+     "400 мл кокосового молока",
+     "3 ст. л. пасты зелёного карри",
+     "2 тайских баклажана или 1 небольшой баклажан, кубиками",
+     "1 горсть листьев тайского базилика",
+     "1–2 ст. л. рыбного соуса",
+     "1 ст. л. растительного масла, 1 ч. л. сахара"
+    ],
+    "steps": [
+     "Обжарьте пасту карри в масле с несколькими ложками кокосовых сливок 2–3 минуты.",
+     "Добавьте курицу и перемешивайте, пока она не покроется пастой.",
+     "Влейте оставшееся кокосовое молоко со 100 мл воды и слабо тушите.",
+     "Добавьте баклажан и готовьте 10 минут до мягкости.",
+     "Приправьте рыбным соусом и сахаром, добавьте базилик и подавайте."
+    ]
+   },
+   "tips": [
+    "Лёгкое кокосовое молоко заметно снижает жирность, не теряя вкуса.",
+    "С куриной грудкой блюдо получится менее жирным, чем с бёдрами.",
+    "Подавайте с небольшой порцией риса и дополнительными овощами в карри."
+   ],
+   "name_inline": "курица в зелёном карри"
+  },
+  "es": {
+   "name": "Curry verde de pollo",
+   "origin": "Tailandia · Tailandia central",
+   "intro": "El curry verde de pollo es la clásica combinación tailandesa de pollo tierno con pasta de curry verde y leche de coco, cocido con berenjena y rematado con albahaca tailandesa y un chorrito de salsa de pescado. La salsa es cremosa, herbal y picante, equilibrada con un poco de azúcar y la sal de la salsa de pescado. Se come con arroz jazmín al vapor.",
+   "history": "El curry verde procede del centro de Tailandia y suele fecharse a principios del siglo XX, cuando empezó a aparecer en libros de cocina tailandeses. Hoy la versión más común es la de pollo, que se sirve desde los puestos callejeros de Bangkok hasta los restaurantes tailandeses en el extranjero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g de pechuga o muslo de pollo, en rebanadas",
+     "400 ml de leche de coco",
+     "3 cdas. de pasta de curry verde",
+     "2 berenjenas tailandesas o 1 berenjena pequeña, en cubos",
+     "1 puñado de hojas de albahaca tailandesa",
+     "1–2 cdas. de salsa de pescado",
+     "1 cda. de aceite vegetal y 1 cdta. de azúcar"
+    ],
+    "steps": [
+     "Fríe la pasta de curry en el aceite con unas cucharadas de crema de coco durante 2 a 3 minutos.",
+     "Agrega el pollo y mezcla hasta que se cubra bien.",
+     "Vierte el resto de la leche de coco con 100 ml de agua y cuece a fuego suave.",
+     "Añade la berenjena y cuece 10 minutos, hasta que esté blanda.",
+     "Sazona con la salsa de pescado y el azúcar, incorpora la albahaca y sirve."
+    ]
+   },
+   "tips": [
+    "La leche de coco ligera reduce bastante la grasa sin perder sabor.",
+    "La pechuga de pollo lo hace más magro que el muslo.",
+    "Sirve con una porción pequeña de arroz y más verduras en el curry."
+   ],
+   "name_inline": "el curry verde de pollo"
   }
+ }
 }

@@ -1,160 +1,190 @@
 {
-  "db_key": "dongpo_pork",
-  "slug": "dongpo-pork",
-  "emoji": "🥩",
-  "portion_g": 150,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dongpo_pork",
+ "slug": "dongpo-pork",
+ "emoji": "🥩",
+ "portion_g": 150,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Dongpo pork",
+   "origin": "China · Hangzhou, Zhejiang",
+   "intro": "Dongpo pork is thick squares of pork belly braised slowly in soy sauce, Shaoxing wine, sugar, ginger and scallion until the fat turns soft and jiggly and the skin glossy. The sauce reduces to a sweet, savoury, deep red glaze. It is served one square per person, usually with plain rice and green vegetables.",
+   "history": "The dish is named after the Song dynasty poet and official Su Shi, also known as Su Dongpo, who wrote a poem about slow-cooking pork. Legend has it that while governing Hangzhou he gave braised pork to the workers who dredged West Lake. It remains one of the signature dishes of Hangzhou cuisine.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "800 g skin-on pork belly in one piece",
+     "300 ml Shaoxing wine",
+     "4 tbsp light soy sauce and 2 tbsp dark soy sauce",
+     "40 g rock sugar or white sugar",
+     "50 g ginger, sliced",
+     "6 scallions, in long lengths"
+    ],
+    "steps": [
+     "Blanch the pork in boiling water for 5 minutes, rinse and cut into 5 cm squares.",
+     "Line a heavy pot with the scallions and ginger and set the pork on top, skin side down.",
+     "Add the wine, soy sauces and sugar, bring to the boil, cover and simmer on very low heat for 90 minutes.",
+     "Turn the pieces skin side up and simmer 30 minutes more, then reduce the sauce until glossy and spoon it over the pork."
+    ]
+   },
+   "tips": [
+    "Treat one square as the whole meat portion and fill the rest of the plate with greens.",
+    "Chill the braising liquid and lift off the set fat before reducing it.",
+    "Pair it with plenty of steamed vegetables and a small bowl of rice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Dongpo pork",
-      "origin": "China · Hangzhou, Zhejiang",
-      "intro": "Dongpo pork is thick squares of pork belly braised slowly in soy sauce, Shaoxing wine, sugar, ginger and scallion until the fat turns soft and jiggly and the skin glossy. The sauce reduces to a sweet, savoury, deep red glaze. It is served one square per person, usually with plain rice and green vegetables.",
-      "history": "The dish is named after the Song dynasty poet and official Su Shi, also known as Su Dongpo, who wrote a poem about slow-cooking pork. Legend has it that while governing Hangzhou he gave braised pork to the workers who dredged West Lake. It remains one of the signature dishes of Hangzhou cuisine.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "800 g skin-on pork belly in one piece",
-          "300 ml Shaoxing wine",
-          "4 tbsp light soy sauce and 2 tbsp dark soy sauce",
-          "40 g rock sugar or white sugar",
-          "50 g ginger, sliced",
-          "6 scallions, in long lengths"
-        ],
-        "steps": [
-          "Blanch the pork in boiling water for 5 minutes, rinse and cut into 5 cm squares.",
-          "Line a heavy pot with the scallions and ginger and set the pork on top, skin side down.",
-          "Add the wine, soy sauces and sugar, bring to the boil, cover and simmer on very low heat for 90 minutes.",
-          "Turn the pieces skin side up and simmer 30 minutes more, then reduce the sauce until glossy and spoon it over the pork."
-        ]
-      },
-      "tips": [
-        "Treat one square as the whole meat portion and fill the rest of the plate with greens.",
-        "Chill the braising liquid and lift off the set fat before reducing it.",
-        "Pair it with plenty of steamed vegetables and a small bowl of rice."
-      ]
-    },
-    "ar": {
-      "name": "لحم خنزير دونغبو",
-      "origin": "الصين · هانغتشو، تشجيانغ",
-      "intro": "لحم دونغبو مربعات سميكة من بطن الخنزير تُطهى ببطء في صلصة الصويا ونبيذ شاوشينغ والسكر والزنجبيل والبصل الأخضر حتى يلين الدهن ويصبح هلامياً ويلمع الجلد. تتكثف الصلصة لتصبح طبقة لامعة حمراء داكنة حلوة ومالحة. يُقدَّم مربع واحد لكل شخص، عادةً مع الأرز الأبيض والخضار الورقية.",
-      "history": "سُمّي الطبق باسم الشاعر والمسؤول سو شي من عهد سلالة سونغ، المعروف أيضاً باسم سو دونغبو، الذي كتب قصيدة عن طهي اللحم ببطء. وتقول الحكاية إنه حين كان حاكماً لهانغتشو قدّم اللحم المطهو للعمال الذين جرفوا البحيرة الغربية. ولا يزال من أشهر أطباق مطبخ هانغتشو.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "800 غ بطن خنزير بالجلد قطعة واحدة",
-          "300 مل نبيذ شاوشينغ",
-          "4 ملاعق كبيرة صلصة صويا فاتحة و2 ملعقة كبيرة صلصة صويا داكنة",
-          "40 غ سكر نبات أو سكر أبيض",
-          "50 غ زنجبيل مقطع شرائح",
-          "6 أعواد بصل أخضر طويلة"
-        ],
-        "steps": [
-          "اسلق اللحم في ماء مغلي 5 دقائق، ثم اشطفه وقطّعه مربعات 5 سم.",
-          "افرش قاع قدر ثقيل بالبصل الأخضر والزنجبيل وضع اللحم فوقها والجلد للأسفل.",
-          "أضف النبيذ وصلصتي الصويا والسكر، واتركه يغلي ثم غطّه واطهه على نار هادئة جداً 90 دقيقة.",
-          "اقلب القطع والجلد للأعلى واطهها 30 دقيقة أخرى، ثم كثّف الصلصة حتى تلمع واسكبها فوق اللحم."
-        ]
-      },
-      "tips": [
-        "اعتبر المربع الواحد حصة اللحم كاملة واملأ باقي الطبق بالخضار.",
-        "برّد سائل الطهي وأزل الدهن المتجمد قبل تكثيفه.",
-        "قدّمه مع كمية وافرة من الخضار المطهوة على البخار ووعاء صغير من الأرز."
-      ]
-    },
-    "it": {
-      "name": "Maiale Dongpo",
-      "origin": "Cina · Hangzhou, Zhejiang",
-      "intro": "Il maiale Dongpo è fatto di grossi quadrati di pancia di maiale brasati lentamente in salsa di soia, vino Shaoxing, zucchero, zenzero e cipollotto finché il grasso diventa morbido e tremolante e la cotenna lucida. La salsa si riduce in una glassa dolce, sapida e di un rosso intenso. Si serve un quadrato a persona, di solito con riso bianco e verdure verdi.",
-      "history": "Il piatto prende il nome dal poeta e funzionario della dinastia Song Su Shi, noto anche come Su Dongpo, che scrisse una poesia sulla cottura lenta del maiale. Secondo la leggenda, quando governava Hangzhou offrì maiale brasato agli operai che dragavano il Lago dell'Ovest. Resta uno dei piatti simbolo della cucina di Hangzhou.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "800 g di pancia di maiale con cotenna in un solo pezzo",
-          "300 ml di vino Shaoxing",
-          "4 cucchiai di salsa di soia chiara e 2 cucchiai di salsa di soia scura",
-          "40 g di zucchero candito o zucchero bianco",
-          "50 g di zenzero, affettato",
-          "6 cipollotti, a pezzi lunghi"
-        ],
-        "steps": [
-          "Sbollenta il maiale in acqua bollente per 5 minuti, sciacqualo e taglialo in quadrati di 5 cm.",
-          "Fodera una pentola pesante con cipollotti e zenzero e adagia sopra il maiale, con la cotenna verso il basso.",
-          "Aggiungi vino, salse di soia e zucchero, porta a ebollizione, copri e fai sobbollire a fuoco bassissimo per 90 minuti.",
-          "Gira i pezzi con la cotenna verso l'alto e fai sobbollire altri 30 minuti, poi riduci la salsa finché è lucida e versala sul maiale."
-        ]
-      },
-      "tips": [
-        "Considera un quadrato come l'intera porzione di carne e riempi il resto del piatto di verdure.",
-        "Raffredda il liquido di cottura e togli il grasso solidificato prima di ridurlo.",
-        "Accompagnalo con tante verdure al vapore e una ciotola piccola di riso."
-      ]
-    },
-    "el": {
-      "name": "Χοιρινό Ντονγκπό",
-      "origin": "Κίνα · Χανγκτσόου, Τζετζιάνγκ",
-      "intro": "Το χοιρινό Ντονγκπό είναι χοντρά τετράγωνα από χοιρινή πανσέτα που μαγειρεύονται αργά σε σάλτσα σόγιας, κρασί Σαοσίνγκ, ζάχαρη, πιπερόριζα και φρέσκο κρεμμυδάκι, μέχρι το λίπος να γίνει μαλακό και τρεμάμενο και η πέτσα γυαλιστερή. Η σάλτσα δένει σε ένα γλυκό, αλμυρό, βαθυκόκκινο γλάσο. Σερβίρεται ένα τετράγωνο ανά άτομο, συνήθως με σκέτο ρύζι και πράσινα λαχανικά.",
-      "history": "Το πιάτο πήρε το όνομά του από τον ποιητή και αξιωματούχο της δυναστείας Σονγκ Σου Σι, γνωστό και ως Σου Ντονγκπό, που έγραψε ένα ποίημα για το αργό μαγείρεμα του χοιρινού. Σύμφωνα με τον θρύλο, όταν κυβερνούσε το Χανγκτσόου πρόσφερε μαγειρεμένο χοιρινό στους εργάτες που καθάριζαν τη Δυτική Λίμνη. Παραμένει ένα από τα πιο χαρακτηριστικά πιάτα της κουζίνας του Χανγκτσόου.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "800 γρ. χοιρινή πανσέτα με πέτσα σε ένα κομμάτι",
-          "300 ml κρασί Σαοσίνγκ",
-          "4 κ.σ. ανοιχτόχρωμη σάλτσα σόγιας και 2 κ.σ. σκούρα σάλτσα σόγιας",
-          "40 γρ. ζάχαρη σε κρυστάλλους ή λευκή ζάχαρη",
-          "50 γρ. πιπερόριζα, σε φέτες",
-          "6 φρέσκα κρεμμυδάκια, σε μακριά κομμάτια"
-        ],
-        "steps": [
-          "Ζεματίστε το χοιρινό σε βραστό νερό για 5 λεπτά, ξεπλύνετέ το και κόψτε το σε τετράγωνα 5 εκ.",
-          "Στρώστε μια βαριά κατσαρόλα με τα κρεμμυδάκια και την πιπερόριζα και τοποθετήστε από πάνω το χοιρινό με την πέτσα προς τα κάτω.",
-          "Προσθέστε το κρασί, τις σάλτσες σόγιας και τη ζάχαρη, φέρτε σε βρασμό, σκεπάστε και σιγοβράστε σε πολύ χαμηλή φωτιά για 90 λεπτά.",
-          "Γυρίστε τα κομμάτια με την πέτσα προς τα πάνω και σιγοβράστε άλλα 30 λεπτά, μετά δέστε τη σάλτσα μέχρι να γυαλίσει και περιχύστε το χοιρινό."
-        ]
-      },
-      "tips": [
-        "Θεωρήστε ένα τετράγωνο ως ολόκληρη τη μερίδα κρέατος και γεμίστε το υπόλοιπο πιάτο με λαχανικά.",
-        "Βάλτε το υγρό μαγειρέματος στο ψυγείο και αφαιρέστε το πηγμένο λίπος πριν το δέσετε.",
-        "Συνοδέψτε το με άφθονα λαχανικά στον ατμό και ένα μικρό μπολ ρύζι."
-      ]
-    },
-    "ru": {
-      "name": "Свинина по-дунпо",
-      "origin": "Китай · Ханчжоу, Чжэцзян",
-      "intro": "Свинина по-дунпо — толстые квадраты свиной грудинки, медленно тушёные в соевом соусе, шаосинском вине, сахаре, имбире и зелёном луке, пока жир не станет мягким и дрожащим, а шкурка глянцевой. Соус уваривается в сладкую, пикантную глубокую красную глазурь. Подают по одному квадрату на человека, обычно с простым рисом и зелёными овощами.",
-      "history": "Блюдо названо в честь поэта и чиновника династии Сун Су Ши, также известного как Су Дунпо, который написал стихотворение о медленном приготовлении свинины. Предание гласит, что, управляя Ханчжоу, он угощал тушёной свининой рабочих, чистивших озеро Сиху. Оно остаётся одним из визитных блюд ханчжоуской кухни.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "800 г свиной грудинки со шкуркой одним куском",
-          "300 мл шаосинского вина",
-          "4 ст. л. светлого соевого соуса и 2 ст. л. тёмного соевого соуса",
-          "40 г леденцового или белого сахара",
-          "50 г имбиря, нарезанного",
-          "6 стеблей зелёного лука длинными отрезками"
-        ],
-        "steps": [
-          "Бланшируйте свинину в кипящей воде 5 минут, ополосните и нарежьте квадратами по 5 см.",
-          "Выстелите дно тяжёлой кастрюли зелёным луком и имбирём и положите свинину сверху шкуркой вниз.",
-          "Добавьте вино, соевые соусы и сахар, доведите до кипения, накройте крышкой и тушите на очень слабом огне 90 минут.",
-          "Переверните куски шкуркой вверх и тушите ещё 30 минут, затем уварите соус до глянца и полейте им свинину."
-        ]
-      },
-      "tips": [
-        "Считайте один квадрат всей мясной порцией, а остальное место на тарелке заполните зеленью.",
-        "Охладите жидкость от тушения и снимите застывший жир перед уваркой.",
-        "Подавайте с большим количеством овощей на пару и небольшой миской риса."
-      ],
-      "name_inline": "свинина по-дунпо"
-    }
+  "ar": {
+   "name": "لحم خنزير دونغبو",
+   "origin": "الصين · هانغتشو، تشجيانغ",
+   "intro": "لحم دونغبو مربعات سميكة من بطن الخنزير تُطهى ببطء في صلصة الصويا ونبيذ شاوشينغ والسكر والزنجبيل والبصل الأخضر حتى يلين الدهن ويصبح هلامياً ويلمع الجلد. تتكثف الصلصة لتصبح طبقة لامعة حمراء داكنة حلوة ومالحة. يُقدَّم مربع واحد لكل شخص، عادةً مع الأرز الأبيض والخضار الورقية.",
+   "history": "سُمّي الطبق باسم الشاعر والمسؤول سو شي من عهد سلالة سونغ، المعروف أيضاً باسم سو دونغبو، الذي كتب قصيدة عن طهي اللحم ببطء. وتقول الحكاية إنه حين كان حاكماً لهانغتشو قدّم اللحم المطهو للعمال الذين جرفوا البحيرة الغربية. ولا يزال من أشهر أطباق مطبخ هانغتشو.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "800 غ بطن خنزير بالجلد قطعة واحدة",
+     "300 مل نبيذ شاوشينغ",
+     "4 ملاعق كبيرة صلصة صويا فاتحة و2 ملعقة كبيرة صلصة صويا داكنة",
+     "40 غ سكر نبات أو سكر أبيض",
+     "50 غ زنجبيل مقطع شرائح",
+     "6 أعواد بصل أخضر طويلة"
+    ],
+    "steps": [
+     "اسلق اللحم في ماء مغلي 5 دقائق، ثم اشطفه وقطّعه مربعات 5 سم.",
+     "افرش قاع قدر ثقيل بالبصل الأخضر والزنجبيل وضع اللحم فوقها والجلد للأسفل.",
+     "أضف النبيذ وصلصتي الصويا والسكر، واتركه يغلي ثم غطّه واطهه على نار هادئة جداً 90 دقيقة.",
+     "اقلب القطع والجلد للأعلى واطهها 30 دقيقة أخرى، ثم كثّف الصلصة حتى تلمع واسكبها فوق اللحم."
+    ]
+   },
+   "tips": [
+    "اعتبر المربع الواحد حصة اللحم كاملة واملأ باقي الطبق بالخضار.",
+    "برّد سائل الطهي وأزل الدهن المتجمد قبل تكثيفه.",
+    "قدّمه مع كمية وافرة من الخضار المطهوة على البخار ووعاء صغير من الأرز."
+   ]
+  },
+  "it": {
+   "name": "Maiale Dongpo",
+   "origin": "Cina · Hangzhou, Zhejiang",
+   "intro": "Il maiale Dongpo è fatto di grossi quadrati di pancia di maiale brasati lentamente in salsa di soia, vino Shaoxing, zucchero, zenzero e cipollotto finché il grasso diventa morbido e tremolante e la cotenna lucida. La salsa si riduce in una glassa dolce, sapida e di un rosso intenso. Si serve un quadrato a persona, di solito con riso bianco e verdure verdi.",
+   "history": "Il piatto prende il nome dal poeta e funzionario della dinastia Song Su Shi, noto anche come Su Dongpo, che scrisse una poesia sulla cottura lenta del maiale. Secondo la leggenda, quando governava Hangzhou offrì maiale brasato agli operai che dragavano il Lago dell'Ovest. Resta uno dei piatti simbolo della cucina di Hangzhou.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "800 g di pancia di maiale con cotenna in un solo pezzo",
+     "300 ml di vino Shaoxing",
+     "4 cucchiai di salsa di soia chiara e 2 cucchiai di salsa di soia scura",
+     "40 g di zucchero candito o zucchero bianco",
+     "50 g di zenzero, affettato",
+     "6 cipollotti, a pezzi lunghi"
+    ],
+    "steps": [
+     "Sbollenta il maiale in acqua bollente per 5 minuti, sciacqualo e taglialo in quadrati di 5 cm.",
+     "Fodera una pentola pesante con cipollotti e zenzero e adagia sopra il maiale, con la cotenna verso il basso.",
+     "Aggiungi vino, salse di soia e zucchero, porta a ebollizione, copri e fai sobbollire a fuoco bassissimo per 90 minuti.",
+     "Gira i pezzi con la cotenna verso l'alto e fai sobbollire altri 30 minuti, poi riduci la salsa finché è lucida e versala sul maiale."
+    ]
+   },
+   "tips": [
+    "Considera un quadrato come l'intera porzione di carne e riempi il resto del piatto di verdure.",
+    "Raffredda il liquido di cottura e togli il grasso solidificato prima di ridurlo.",
+    "Accompagnalo con tante verdure al vapore e una ciotola piccola di riso."
+   ]
+  },
+  "el": {
+   "name": "Χοιρινό Ντονγκπό",
+   "origin": "Κίνα · Χανγκτσόου, Τζετζιάνγκ",
+   "intro": "Το χοιρινό Ντονγκπό είναι χοντρά τετράγωνα από χοιρινή πανσέτα που μαγειρεύονται αργά σε σάλτσα σόγιας, κρασί Σαοσίνγκ, ζάχαρη, πιπερόριζα και φρέσκο κρεμμυδάκι, μέχρι το λίπος να γίνει μαλακό και τρεμάμενο και η πέτσα γυαλιστερή. Η σάλτσα δένει σε ένα γλυκό, αλμυρό, βαθυκόκκινο γλάσο. Σερβίρεται ένα τετράγωνο ανά άτομο, συνήθως με σκέτο ρύζι και πράσινα λαχανικά.",
+   "history": "Το πιάτο πήρε το όνομά του από τον ποιητή και αξιωματούχο της δυναστείας Σονγκ Σου Σι, γνωστό και ως Σου Ντονγκπό, που έγραψε ένα ποίημα για το αργό μαγείρεμα του χοιρινού. Σύμφωνα με τον θρύλο, όταν κυβερνούσε το Χανγκτσόου πρόσφερε μαγειρεμένο χοιρινό στους εργάτες που καθάριζαν τη Δυτική Λίμνη. Παραμένει ένα από τα πιο χαρακτηριστικά πιάτα της κουζίνας του Χανγκτσόου.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "800 γρ. χοιρινή πανσέτα με πέτσα σε ένα κομμάτι",
+     "300 ml κρασί Σαοσίνγκ",
+     "4 κ.σ. ανοιχτόχρωμη σάλτσα σόγιας και 2 κ.σ. σκούρα σάλτσα σόγιας",
+     "40 γρ. ζάχαρη σε κρυστάλλους ή λευκή ζάχαρη",
+     "50 γρ. πιπερόριζα, σε φέτες",
+     "6 φρέσκα κρεμμυδάκια, σε μακριά κομμάτια"
+    ],
+    "steps": [
+     "Ζεματίστε το χοιρινό σε βραστό νερό για 5 λεπτά, ξεπλύνετέ το και κόψτε το σε τετράγωνα 5 εκ.",
+     "Στρώστε μια βαριά κατσαρόλα με τα κρεμμυδάκια και την πιπερόριζα και τοποθετήστε από πάνω το χοιρινό με την πέτσα προς τα κάτω.",
+     "Προσθέστε το κρασί, τις σάλτσες σόγιας και τη ζάχαρη, φέρτε σε βρασμό, σκεπάστε και σιγοβράστε σε πολύ χαμηλή φωτιά για 90 λεπτά.",
+     "Γυρίστε τα κομμάτια με την πέτσα προς τα πάνω και σιγοβράστε άλλα 30 λεπτά, μετά δέστε τη σάλτσα μέχρι να γυαλίσει και περιχύστε το χοιρινό."
+    ]
+   },
+   "tips": [
+    "Θεωρήστε ένα τετράγωνο ως ολόκληρη τη μερίδα κρέατος και γεμίστε το υπόλοιπο πιάτο με λαχανικά.",
+    "Βάλτε το υγρό μαγειρέματος στο ψυγείο και αφαιρέστε το πηγμένο λίπος πριν το δέσετε.",
+    "Συνοδέψτε το με άφθονα λαχανικά στον ατμό και ένα μικρό μπολ ρύζι."
+   ]
+  },
+  "ru": {
+   "name": "Свинина по-дунпо",
+   "origin": "Китай · Ханчжоу, Чжэцзян",
+   "intro": "Свинина по-дунпо — толстые квадраты свиной грудинки, медленно тушёные в соевом соусе, шаосинском вине, сахаре, имбире и зелёном луке, пока жир не станет мягким и дрожащим, а шкурка глянцевой. Соус уваривается в сладкую, пикантную глубокую красную глазурь. Подают по одному квадрату на человека, обычно с простым рисом и зелёными овощами.",
+   "history": "Блюдо названо в честь поэта и чиновника династии Сун Су Ши, также известного как Су Дунпо, который написал стихотворение о медленном приготовлении свинины. Предание гласит, что, управляя Ханчжоу, он угощал тушёной свининой рабочих, чистивших озеро Сиху. Оно остаётся одним из визитных блюд ханчжоуской кухни.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "800 г свиной грудинки со шкуркой одним куском",
+     "300 мл шаосинского вина",
+     "4 ст. л. светлого соевого соуса и 2 ст. л. тёмного соевого соуса",
+     "40 г леденцового или белого сахара",
+     "50 г имбиря, нарезанного",
+     "6 стеблей зелёного лука длинными отрезками"
+    ],
+    "steps": [
+     "Бланшируйте свинину в кипящей воде 5 минут, ополосните и нарежьте квадратами по 5 см.",
+     "Выстелите дно тяжёлой кастрюли зелёным луком и имбирём и положите свинину сверху шкуркой вниз.",
+     "Добавьте вино, соевые соусы и сахар, доведите до кипения, накройте крышкой и тушите на очень слабом огне 90 минут.",
+     "Переверните куски шкуркой вверх и тушите ещё 30 минут, затем уварите соус до глянца и полейте им свинину."
+    ]
+   },
+   "tips": [
+    "Считайте один квадрат всей мясной порцией, а остальное место на тарелке заполните зеленью.",
+    "Охладите жидкость от тушения и снимите застывший жир перед уваркой.",
+    "Подавайте с большим количеством овощей на пару и небольшой миской риса."
+   ],
+   "name_inline": "свинина по-дунпо"
+  },
+  "es": {
+   "name": "Cerdo Dongpo",
+   "origin": "China · Hangzhou, Zhejiang",
+   "intro": "El cerdo Dongpo son gruesos cuadrados de panceta de cerdo cocidos lentamente en salsa de soya, vino de arroz Shaoxing, azúcar, jengibre y cebollín, hasta que la grasa queda suave y temblorosa y la piel, brillante. La salsa se reduce hasta formar un glaseado rojo oscuro, agridulce y sabroso. Se sirve un cuadrado por persona, normalmente con arroz blanco y verduras.",
+   "history": "El plato lleva el nombre del poeta y funcionario de la dinastía Song Su Shi, también conocido como Su Dongpo, que escribió un poema sobre la cocción lenta del cerdo. La leyenda cuenta que, cuando gobernaba Hangzhou, dio cerdo estofado a los obreros que dragaban el Lago del Oeste. Sigue siendo uno de los platos emblemáticos de la cocina de Hangzhou.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "800 g de panceta de cerdo con piel, en una sola pieza",
+     "300 ml de vino de arroz Shaoxing",
+     "4 cda. de salsa de soya clara y 2 cda. de salsa de soya oscura",
+     "40 g de azúcar de roca o azúcar blanca",
+     "50 g de jengibre, en rodajas",
+     "6 cebollines, en trozos largos"
+    ],
+    "steps": [
+     "Escalda la panceta en agua hirviendo 5 minutos, enjuágala y córtala en cuadrados de 5 cm.",
+     "Forra una olla pesada con los cebollines y el jengibre y coloca encima el cerdo, con la piel hacia abajo.",
+     "Añade el vino, las salsas de soya y el azúcar, lleva a hervor, tapa y cuece a fuego muy bajo 90 minutos.",
+     "Voltea las piezas con la piel hacia arriba y cuece 30 minutos más; luego reduce la salsa hasta que brille y báñala sobre el cerdo."
+    ]
+   },
+   "tips": [
+    "Considera un cuadrado como toda la porción de carne y llena el resto del plato de verduras.",
+    "Enfría el líquido de cocción y retira la grasa solidificada antes de reducirlo.",
+    "Acompáñalo con muchas verduras al vapor y un tazón pequeño de arroz."
+   ],
+   "name_inline": "el cerdo Dongpo"
   }
+ }
 }

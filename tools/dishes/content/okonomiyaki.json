@@ -1,179 +1,213 @@
 {
-  "db_key": "okonomiyaki",
-  "slug": "okonomiyaki",
-  "emoji": "🥞",
-  "portion_g": 300,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "okonomiyaki",
+ "slug": "okonomiyaki",
+ "emoji": "🥞",
+ "portion_g": 300,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Okonomiyaki",
+   "origin": "Japan · Osaka",
+   "intro": "Okonomiyaki is a Japanese savoury pancake of flour batter, egg and plenty of shredded cabbage, cooked on a griddle with slices of pork belly on top. It is brushed with thick, sweet-savoury okonomiyaki sauce and scattered with bonito flakes that curl in the heat. The inside is soft and the edges crisp; it is cut into wedges and eaten hot.",
+   "history": "Okonomiyaki grew out of earlier thin griddled snacks and became popular in Osaka and Hiroshima in the years after the Second World War, when flour and cabbage were cheap. The name roughly means “grilled as you like it”. Today Osaka and Hiroshima each have their own well-known style.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "150 g flour",
+     "150 ml water",
+     "2 eggs",
+     "300 g cabbage, finely shredded",
+     "2 scallions, sliced",
+     "120 g pork belly, thinly sliced",
+     "4 tbsp okonomiyaki sauce",
+     "Bonito flakes to serve",
+     "1 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Whisk the flour, water and eggs into a smooth batter with a pinch of salt.",
+     "Fold in the cabbage and scallions.",
+     "Heat the oil in a pan, pour in half the batter and shape a thick round; lay pork belly slices on top.",
+     "Cook for 5 minutes, flip and cook for another 5–6 minutes until the pork is crisp and the centre set.",
+     "Brush with sauce, top with bonito flakes and repeat with the rest."
+    ]
+   },
+   "tips": [
+    "Use more cabbage and less batter for a lighter, bigger pancake.",
+    "Use fewer pork belly slices or trim off some of the fat.",
+    "Go easy on the sauce — a thin brush is enough for flavour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Okonomiyaki",
-      "origin": "Japan · Osaka",
-      "intro": "Okonomiyaki is a Japanese savoury pancake of flour batter, egg and plenty of shredded cabbage, cooked on a griddle with slices of pork belly on top. It is brushed with thick, sweet-savoury okonomiyaki sauce and scattered with bonito flakes that curl in the heat. The inside is soft and the edges crisp; it is cut into wedges and eaten hot.",
-      "history": "Okonomiyaki grew out of earlier thin griddled snacks and became popular in Osaka and Hiroshima in the years after the Second World War, when flour and cabbage were cheap. The name roughly means “grilled as you like it”. Today Osaka and Hiroshima each have their own well-known style.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "150 g flour",
-          "150 ml water",
-          "2 eggs",
-          "300 g cabbage, finely shredded",
-          "2 scallions, sliced",
-          "120 g pork belly, thinly sliced",
-          "4 tbsp okonomiyaki sauce",
-          "Bonito flakes to serve",
-          "1 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Whisk the flour, water and eggs into a smooth batter with a pinch of salt.",
-          "Fold in the cabbage and scallions.",
-          "Heat the oil in a pan, pour in half the batter and shape a thick round; lay pork belly slices on top.",
-          "Cook for 5 minutes, flip and cook for another 5–6 minutes until the pork is crisp and the centre set.",
-          "Brush with sauce, top with bonito flakes and repeat with the rest."
-        ]
-      },
-      "tips": [
-        "Use more cabbage and less batter for a lighter, bigger pancake.",
-        "Use fewer pork belly slices or trim off some of the fat.",
-        "Go easy on the sauce — a thin brush is enough for flavour."
-      ]
-    },
-    "ar": {
-      "name": "أوكونومي ياكي",
-      "origin": "اليابان · أوساكا",
-      "intro": "أوكونومي ياكي فطيرة يابانية مالحة من خليط الدقيق والبيض والكثير من الملفوف المبشور، تُطهى على صاج مع شرائح بطن الخنزير فوقها. تُدهن بصلصة أوكونومي ياكي الكثيفة الحلوة المالحة، وتُرشّ عليها رقائق البونيتو التي تتلوى من الحرارة. داخلها طري وأطرافها مقرمشة، وتُقطّع إلى أجزاء وتؤكل ساخنة.",
-      "history": "نشأ أوكونومي ياكي من وجبات خفيفة رقيقة مطهوة على الصاج، وانتشر في أوساكا وهيروشيما بعد الحرب العالمية الثانية حين كان الدقيق والملفوف رخيصين. ويعني الاسم تقريبًا «مشوي كما تحب». واليوم لكل من أوساكا وهيروشيما أسلوبها المعروف.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "150 غ دقيق",
-          "150 مل ماء",
-          "بيضتان",
-          "300 غ ملفوف مبشور ناعمًا",
-          "2 بصل أخضر مقطع",
-          "120 غ بطن خنزير مقطع شرائح رقيقة",
-          "4 ملاعق كبيرة صلصة أوكونومي ياكي",
-          "رقائق بونيتو للتقديم",
-          "1 ملعقة كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "اخفق الدقيق والماء والبيض مع رشة ملح حتى يصبح الخليط ناعمًا.",
-          "أضف الملفوف والبصل الأخضر وقلّب.",
-          "سخّن الزيت في مقلاة، واسكب نصف الخليط وشكّله دائرة سميكة، ثم ضع فوقه شرائح بطن الخنزير.",
-          "اطهه 5 دقائق، ثم اقلبه واطهه 5–6 دقائق أخرى حتى يتحمّر اللحم وينضج الوسط.",
-          "ادهنه بالصلصة، ورشّ رقائق البونيتو، وكرر مع الباقي."
-        ]
-      },
-      "tips": [
-        "استخدم ملفوفًا أكثر وخليطًا أقل لفطيرة أكبر وأخف.",
-        "قلّل شرائح بطن الخنزير أو أزل جزءًا من الدهن.",
-        "لا تُكثر من الصلصة، فطبقة رقيقة تكفي للنكهة."
-      ]
-    },
-    "it": {
-      "name": "Okonomiyaki",
-      "origin": "Giappone · Osaka",
-      "intro": "L'okonomiyaki è un pancake salato giapponese di pastella di farina, uovo e tanto cavolo tagliato fine, cotto sulla piastra con fettine di pancetta di maiale sopra. Si spennella con la densa salsa okonomiyaki, dolce e sapida, e si cosparge di fiocchi di bonito che si arricciano al calore. L'interno è morbido e i bordi croccanti; si taglia a spicchi e si mangia caldo.",
-      "history": "L'okonomiyaki è nato da precedenti snack sottili cotti sulla piastra e divenne popolare a Osaka e Hiroshima negli anni successivi alla Seconda guerra mondiale, quando farina e cavolo costavano poco. Il nome significa più o meno «cotto alla griglia come piace a te». Oggi Osaka e Hiroshima hanno ciascuna il proprio stile ben noto.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "150 g di farina",
-          "150 ml di acqua",
-          "2 uova",
-          "300 g di cavolo, tagliato finemente",
-          "2 cipollotti, affettati",
-          "120 g di pancetta di maiale, a fettine sottili",
-          "4 cucchiai di salsa okonomiyaki",
-          "Fiocchi di bonito per servire",
-          "1 cucchiaio di olio vegetale"
-        ],
-        "steps": [
-          "Sbatti farina, acqua e uova con un pizzico di sale fino a ottenere una pastella liscia.",
-          "Incorpora il cavolo e i cipollotti.",
-          "Scalda l'olio in una padella, versa metà della pastella e forma un disco spesso; adagia sopra le fettine di pancetta.",
-          "Cuoci per 5 minuti, gira e cuoci altri 5–6 minuti finché la pancetta è croccante e il centro rappreso.",
-          "Spennella con la salsa, completa con i fiocchi di bonito e ripeti con il resto."
-        ]
-      },
-      "tips": [
-        "Usa più cavolo e meno pastella per un pancake più grande e leggero.",
-        "Usa meno fettine di pancetta o elimina parte del grasso.",
-        "Vacci piano con la salsa: basta una leggera spennellata per dare sapore."
-      ]
-    },
-    "el": {
-      "name": "Οκονομιγιάκι",
-      "origin": "Ιαπωνία · Οσάκα",
-      "intro": "Το οκονομιγιάκι είναι ιαπωνική αλμυρή τηγανίτα από χυλό αλευριού, αυγό και άφθονο ψιλοκομμένο λάχανο, που ψήνεται στο πλατό με φέτες χοιρινής πανσέτας από πάνω. Αλείφεται με την πηχτή, γλυκιά και αλμυρή σάλτσα οκονομιγιάκι και πασπαλίζεται με νιφάδες μπονίτο που κατσαρώνουν από τη ζέστη. Το εσωτερικό είναι μαλακό και οι άκρες τραγανές· κόβεται σε τριγωνικά κομμάτια και τρώγεται ζεστό.",
-      "history": "Το οκονομιγιάκι προέκυψε από παλαιότερα λεπτά σνακ του πλατό και έγινε δημοφιλές στην Οσάκα και τη Χιροσίμα τα χρόνια μετά τον Δεύτερο Παγκόσμιο Πόλεμο, όταν το αλεύρι και το λάχανο ήταν φθηνά. Το όνομα σημαίνει περίπου «ψημένο όπως σου αρέσει». Σήμερα η Οσάκα και η Χιροσίμα έχουν η καθεμία το δικό της γνωστό στιλ.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "150 γρ. αλεύρι",
-          "150 ml νερό",
-          "2 αυγά",
-          "300 γρ. λάχανο, ψιλοκομμένο",
-          "2 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
-          "120 γρ. χοιρινή πανσέτα, σε λεπτές φέτες",
-          "4 κ.σ. σάλτσα οκονομιγιάκι",
-          "Νιφάδες μπονίτο για το σερβίρισμα",
-          "1 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Χτυπήστε το αλεύρι, το νερό και τα αυγά με μια πρέζα αλάτι σε λείο χυλό.",
-          "Ενσωματώστε το λάχανο και τα κρεμμυδάκια.",
-          "Ζεστάνετε το λάδι σε τηγάνι, ρίξτε τον μισό χυλό και πλάστε έναν χοντρό δίσκο· απλώστε από πάνω φέτες πανσέτας.",
-          "Ψήστε για 5 λεπτά, γυρίστε και ψήστε άλλα 5–6 λεπτά μέχρι η πανσέτα να γίνει τραγανή και το κέντρο να πήξει.",
-          "Αλείψτε με τη σάλτσα, πασπαλίστε με νιφάδες μπονίτο και επαναλάβετε με τον υπόλοιπο χυλό."
-        ]
-      },
-      "tips": [
-        "Βάλτε περισσότερο λάχανο και λιγότερο χυλό για μια μεγαλύτερη, πιο ελαφριά τηγανίτα.",
-        "Χρησιμοποιήστε λιγότερες φέτες πανσέτας ή αφαιρέστε μέρος του λίπους.",
-        "Μην το παρακάνετε με τη σάλτσα — ένα λεπτό πέρασμα αρκεί για γεύση."
-      ]
-    },
-    "ru": {
-      "name": "Окономияки",
-      "origin": "Япония · Осака",
-      "intro": "Окономияки — японский солёный блин из мучного теста, яйца и большого количества шинкованной капусты, жаренный на гриле с ломтиками свиной грудинки сверху. Его смазывают густым сладко-солёным соусом окономияки и посыпают стружкой бонито, которая извивается от жара. Внутри он мягкий, а по краям хрустящий; его нарезают дольками и едят горячим.",
-      "history": "Окономияки выросло из более ранних тонких закусок, жаренных на гриле, и стало популярным в Осаке и Хиросиме в годы после Второй мировой войны, когда мука и капуста были дёшевы. Название примерно означает «жарь, как тебе нравится». Сегодня у Осаки и Хиросимы свой известный стиль.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "150 г муки",
-          "150 мл воды",
-          "2 яйца",
-          "300 г капусты, мелко нашинкованной",
-          "2 стебля зелёного лука, нарезанного",
-          "120 г свиной грудинки, тонко нарезанной",
-          "4 ст. л. соуса окономияки",
-          "Стружка бонито для подачи",
-          "1 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Взбейте муку, воду и яйца в гладкое тесто с щепоткой соли.",
-          "Вмешайте капусту и зелёный лук.",
-          "Разогрейте масло на сковороде, влейте половину теста и сформуйте толстый круг; сверху выложите ломтики грудинки.",
-          "Жарьте 5 минут, переверните и жарьте ещё 5–6 минут, пока грудинка не станет хрустящей, а середина не схватится.",
-          "Смажьте соусом, посыпьте стружкой бонито и повторите с остальным тестом."
-        ]
-      },
-      "tips": [
-        "Используйте больше капусты и меньше теста, чтобы блин был легче и больше.",
-        "Положите меньше ломтиков грудинки или срежьте часть жира.",
-        "Умеряйте соус — для вкуса достаточно тонкого слоя."
-      ]
-    }
+  "ar": {
+   "name": "أوكونومي ياكي",
+   "origin": "اليابان · أوساكا",
+   "intro": "أوكونومي ياكي فطيرة يابانية مالحة من خليط الدقيق والبيض والكثير من الملفوف المبشور، تُطهى على صاج مع شرائح بطن الخنزير فوقها. تُدهن بصلصة أوكونومي ياكي الكثيفة الحلوة المالحة، وتُرشّ عليها رقائق البونيتو التي تتلوى من الحرارة. داخلها طري وأطرافها مقرمشة، وتُقطّع إلى أجزاء وتؤكل ساخنة.",
+   "history": "نشأ أوكونومي ياكي من وجبات خفيفة رقيقة مطهوة على الصاج، وانتشر في أوساكا وهيروشيما بعد الحرب العالمية الثانية حين كان الدقيق والملفوف رخيصين. ويعني الاسم تقريبًا «مشوي كما تحب». واليوم لكل من أوساكا وهيروشيما أسلوبها المعروف.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "150 غ دقيق",
+     "150 مل ماء",
+     "بيضتان",
+     "300 غ ملفوف مبشور ناعمًا",
+     "2 بصل أخضر مقطع",
+     "120 غ بطن خنزير مقطع شرائح رقيقة",
+     "4 ملاعق كبيرة صلصة أوكونومي ياكي",
+     "رقائق بونيتو للتقديم",
+     "1 ملعقة كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "اخفق الدقيق والماء والبيض مع رشة ملح حتى يصبح الخليط ناعمًا.",
+     "أضف الملفوف والبصل الأخضر وقلّب.",
+     "سخّن الزيت في مقلاة، واسكب نصف الخليط وشكّله دائرة سميكة، ثم ضع فوقه شرائح بطن الخنزير.",
+     "اطهه 5 دقائق، ثم اقلبه واطهه 5–6 دقائق أخرى حتى يتحمّر اللحم وينضج الوسط.",
+     "ادهنه بالصلصة، ورشّ رقائق البونيتو، وكرر مع الباقي."
+    ]
+   },
+   "tips": [
+    "استخدم ملفوفًا أكثر وخليطًا أقل لفطيرة أكبر وأخف.",
+    "قلّل شرائح بطن الخنزير أو أزل جزءًا من الدهن.",
+    "لا تُكثر من الصلصة، فطبقة رقيقة تكفي للنكهة."
+   ]
+  },
+  "it": {
+   "name": "Okonomiyaki",
+   "origin": "Giappone · Osaka",
+   "intro": "L'okonomiyaki è un pancake salato giapponese di pastella di farina, uovo e tanto cavolo tagliato fine, cotto sulla piastra con fettine di pancetta di maiale sopra. Si spennella con la densa salsa okonomiyaki, dolce e sapida, e si cosparge di fiocchi di bonito che si arricciano al calore. L'interno è morbido e i bordi croccanti; si taglia a spicchi e si mangia caldo.",
+   "history": "L'okonomiyaki è nato da precedenti snack sottili cotti sulla piastra e divenne popolare a Osaka e Hiroshima negli anni successivi alla Seconda guerra mondiale, quando farina e cavolo costavano poco. Il nome significa più o meno «cotto alla griglia come piace a te». Oggi Osaka e Hiroshima hanno ciascuna il proprio stile ben noto.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "150 g di farina",
+     "150 ml di acqua",
+     "2 uova",
+     "300 g di cavolo, tagliato finemente",
+     "2 cipollotti, affettati",
+     "120 g di pancetta di maiale, a fettine sottili",
+     "4 cucchiai di salsa okonomiyaki",
+     "Fiocchi di bonito per servire",
+     "1 cucchiaio di olio vegetale"
+    ],
+    "steps": [
+     "Sbatti farina, acqua e uova con un pizzico di sale fino a ottenere una pastella liscia.",
+     "Incorpora il cavolo e i cipollotti.",
+     "Scalda l'olio in una padella, versa metà della pastella e forma un disco spesso; adagia sopra le fettine di pancetta.",
+     "Cuoci per 5 minuti, gira e cuoci altri 5–6 minuti finché la pancetta è croccante e il centro rappreso.",
+     "Spennella con la salsa, completa con i fiocchi di bonito e ripeti con il resto."
+    ]
+   },
+   "tips": [
+    "Usa più cavolo e meno pastella per un pancake più grande e leggero.",
+    "Usa meno fettine di pancetta o elimina parte del grasso.",
+    "Vacci piano con la salsa: basta una leggera spennellata per dare sapore."
+   ]
+  },
+  "el": {
+   "name": "Οκονομιγιάκι",
+   "origin": "Ιαπωνία · Οσάκα",
+   "intro": "Το οκονομιγιάκι είναι ιαπωνική αλμυρή τηγανίτα από χυλό αλευριού, αυγό και άφθονο ψιλοκομμένο λάχανο, που ψήνεται στο πλατό με φέτες χοιρινής πανσέτας από πάνω. Αλείφεται με την πηχτή, γλυκιά και αλμυρή σάλτσα οκονομιγιάκι και πασπαλίζεται με νιφάδες μπονίτο που κατσαρώνουν από τη ζέστη. Το εσωτερικό είναι μαλακό και οι άκρες τραγανές· κόβεται σε τριγωνικά κομμάτια και τρώγεται ζεστό.",
+   "history": "Το οκονομιγιάκι προέκυψε από παλαιότερα λεπτά σνακ του πλατό και έγινε δημοφιλές στην Οσάκα και τη Χιροσίμα τα χρόνια μετά τον Δεύτερο Παγκόσμιο Πόλεμο, όταν το αλεύρι και το λάχανο ήταν φθηνά. Το όνομα σημαίνει περίπου «ψημένο όπως σου αρέσει». Σήμερα η Οσάκα και η Χιροσίμα έχουν η καθεμία το δικό της γνωστό στιλ.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "150 γρ. αλεύρι",
+     "150 ml νερό",
+     "2 αυγά",
+     "300 γρ. λάχανο, ψιλοκομμένο",
+     "2 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
+     "120 γρ. χοιρινή πανσέτα, σε λεπτές φέτες",
+     "4 κ.σ. σάλτσα οκονομιγιάκι",
+     "Νιφάδες μπονίτο για το σερβίρισμα",
+     "1 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Χτυπήστε το αλεύρι, το νερό και τα αυγά με μια πρέζα αλάτι σε λείο χυλό.",
+     "Ενσωματώστε το λάχανο και τα κρεμμυδάκια.",
+     "Ζεστάνετε το λάδι σε τηγάνι, ρίξτε τον μισό χυλό και πλάστε έναν χοντρό δίσκο· απλώστε από πάνω φέτες πανσέτας.",
+     "Ψήστε για 5 λεπτά, γυρίστε και ψήστε άλλα 5–6 λεπτά μέχρι η πανσέτα να γίνει τραγανή και το κέντρο να πήξει.",
+     "Αλείψτε με τη σάλτσα, πασπαλίστε με νιφάδες μπονίτο και επαναλάβετε με τον υπόλοιπο χυλό."
+    ]
+   },
+   "tips": [
+    "Βάλτε περισσότερο λάχανο και λιγότερο χυλό για μια μεγαλύτερη, πιο ελαφριά τηγανίτα.",
+    "Χρησιμοποιήστε λιγότερες φέτες πανσέτας ή αφαιρέστε μέρος του λίπους.",
+    "Μην το παρακάνετε με τη σάλτσα — ένα λεπτό πέρασμα αρκεί για γεύση."
+   ]
+  },
+  "ru": {
+   "name": "Окономияки",
+   "origin": "Япония · Осака",
+   "intro": "Окономияки — японский солёный блин из мучного теста, яйца и большого количества шинкованной капусты, жаренный на гриле с ломтиками свиной грудинки сверху. Его смазывают густым сладко-солёным соусом окономияки и посыпают стружкой бонито, которая извивается от жара. Внутри он мягкий, а по краям хрустящий; его нарезают дольками и едят горячим.",
+   "history": "Окономияки выросло из более ранних тонких закусок, жаренных на гриле, и стало популярным в Осаке и Хиросиме в годы после Второй мировой войны, когда мука и капуста были дёшевы. Название примерно означает «жарь, как тебе нравится». Сегодня у Осаки и Хиросимы свой известный стиль.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "150 г муки",
+     "150 мл воды",
+     "2 яйца",
+     "300 г капусты, мелко нашинкованной",
+     "2 стебля зелёного лука, нарезанного",
+     "120 г свиной грудинки, тонко нарезанной",
+     "4 ст. л. соуса окономияки",
+     "Стружка бонито для подачи",
+     "1 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Взбейте муку, воду и яйца в гладкое тесто с щепоткой соли.",
+     "Вмешайте капусту и зелёный лук.",
+     "Разогрейте масло на сковороде, влейте половину теста и сформуйте толстый круг; сверху выложите ломтики грудинки.",
+     "Жарьте 5 минут, переверните и жарьте ещё 5–6 минут, пока грудинка не станет хрустящей, а середина не схватится.",
+     "Смажьте соусом, посыпьте стружкой бонито и повторите с остальным тестом."
+    ]
+   },
+   "tips": [
+    "Используйте больше капусты и меньше теста, чтобы блин был легче и больше.",
+    "Положите меньше ломтиков грудинки или срежьте часть жира.",
+    "Умеряйте соус — для вкуса достаточно тонкого слоя."
+   ]
+  },
+  "es": {
+   "name": "Okonomiyaki",
+   "origin": "Japón · Osaka",
+   "intro": "El okonomiyaki es una tortita salada japonesa de masa de harina, huevo y mucha col rallada, cocida en plancha con rebanadas de panceta de cerdo encima. Se barniza con la espesa salsa okonomiyaki, agridulce y sabrosa, y se espolvorea con hojuelas de bonito que se ondulan con el calor. Por dentro es suave y por los bordes crujiente; se corta en gajos y se come caliente.",
+   "history": "El okonomiyaki nació de antiguos bocadillos finos de plancha y se popularizó en Osaka y Hiroshima en los años posteriores a la Segunda Guerra Mundial, cuando la harina y la col eran baratas. El nombre significa más o menos «asado como quieras». Hoy Osaka y Hiroshima tienen cada una su propio estilo conocido.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "150 g de harina",
+     "150 ml de agua",
+     "2 huevos",
+     "300 g de col, finamente rallada",
+     "2 cebollines, en rodajas",
+     "120 g de panceta de cerdo, en rebanadas finas",
+     "4 cda. de salsa okonomiyaki",
+     "Hojuelas de bonito para servir",
+     "1 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Bate la harina, el agua y los huevos con una pizca de sal hasta obtener una masa lisa.",
+     "Incorpora la col y los cebollines.",
+     "Calienta el aceite en una sartén, vierte la mitad de la masa y dale forma de disco grueso; coloca encima las rebanadas de panceta.",
+     "Cocina 5 minutos, voltea y cocina otros 5–6 minutos, hasta que la panceta esté crujiente y el centro cuajado.",
+     "Barniza con la salsa, cubre con las hojuelas de bonito y repite con el resto."
+    ]
+   },
+   "tips": [
+    "Usa más col y menos masa para una tortita más grande y ligera.",
+    "Pon menos rebanadas de panceta o quítales parte de la grasa.",
+    "Ve con calma con la salsa: una capa fina basta para dar sabor."
+   ],
+   "name_inline": "el okonomiyaki"
   }
+ }
 }

@@ -1,180 +1,214 @@
 {
-  "db_key": "boeuf_bourguignon",
-  "slug": "boeuf-bourguignon",
-  "emoji": "🍷",
-  "portion_g": 350,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "boeuf_bourguignon",
+ "slug": "boeuf-bourguignon",
+ "emoji": "🍷",
+ "portion_g": 350,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Boeuf bourguignon",
+   "origin": "France · Burgundy",
+   "intro": "Boeuf bourguignon is a French stew of beef slowly braised in red wine with bacon, carrots, onions and mushrooms until it is meltingly tender. The long cooking turns the wine into a deep, glossy, savoury sauce. It is served hot with boiled or mashed potatoes, and tastes even better the next day.",
+   "history": "The dish comes from Burgundy, a region famous for its red wine and Charolais cattle, where it began as a country stew for tougher cuts of beef. It became a classic of French cuisine in the 20th century and was popularised in the English-speaking world by mid-century French cookbooks for home cooks.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 210,
+    "ingredients": [
+     "1.2 kg beef chuck, cut into 5 cm pieces",
+     "150 g smoked bacon, cut into strips",
+     "750 ml red wine",
+     "2 carrots, sliced, and 1 onion, chopped",
+     "2 garlic cloves, 1 tbsp tomato paste",
+     "Bay leaf and thyme",
+     "250 g button mushrooms and 200 g small onions",
+     "2 tbsp oil, salt, black pepper"
+    ],
+    "steps": [
+     "Fry the bacon in a heavy casserole until golden, then lift it out.",
+     "Brown the beef in batches in the bacon fat and 1 tbsp oil, then lift it out.",
+     "Soften the carrots, onion and garlic, stir in the tomato paste, then return the beef and bacon.",
+     "Pour in the wine, add the bay leaf and thyme, season and bring to a simmer. Cover and cook at 160 °C for 2 ½–3 hours until the beef is very tender.",
+     "Brown the mushrooms and small onions in the remaining oil and add them for the last 30 minutes.",
+     "If the sauce is thin, lift out the meat and boil the sauce until glossy, then return the meat and serve."
+    ]
+   },
+   "tips": [
+    "Trim the beef well and chill the finished stew so the fat sets on top and can be lifted off.",
+    "Use half the bacon, or leave it out of the browning step — it still adds flavour.",
+    "Serve with steamed vegetables or a small portion of boiled potatoes rather than mash."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Boeuf bourguignon",
-      "origin": "France · Burgundy",
-      "intro": "Boeuf bourguignon is a French stew of beef slowly braised in red wine with bacon, carrots, onions and mushrooms until it is meltingly tender. The long cooking turns the wine into a deep, glossy, savoury sauce. It is served hot with boiled or mashed potatoes, and tastes even better the next day.",
-      "history": "The dish comes from Burgundy, a region famous for its red wine and Charolais cattle, where it began as a country stew for tougher cuts of beef. It became a classic of French cuisine in the 20th century and was popularised in the English-speaking world by mid-century French cookbooks for home cooks.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 210,
-        "ingredients": [
-          "1.2 kg beef chuck, cut into 5 cm pieces",
-          "150 g smoked bacon, cut into strips",
-          "750 ml red wine",
-          "2 carrots, sliced, and 1 onion, chopped",
-          "2 garlic cloves, 1 tbsp tomato paste",
-          "Bay leaf and thyme",
-          "250 g button mushrooms and 200 g small onions",
-          "2 tbsp oil, salt, black pepper"
-        ],
-        "steps": [
-          "Fry the bacon in a heavy casserole until golden, then lift it out.",
-          "Brown the beef in batches in the bacon fat and 1 tbsp oil, then lift it out.",
-          "Soften the carrots, onion and garlic, stir in the tomato paste, then return the beef and bacon.",
-          "Pour in the wine, add the bay leaf and thyme, season and bring to a simmer. Cover and cook at 160 °C for 2 ½–3 hours until the beef is very tender.",
-          "Brown the mushrooms and small onions in the remaining oil and add them for the last 30 minutes.",
-          "If the sauce is thin, lift out the meat and boil the sauce until glossy, then return the meat and serve."
-        ]
-      },
-      "tips": [
-        "Trim the beef well and chill the finished stew so the fat sets on top and can be lifted off.",
-        "Use half the bacon, or leave it out of the browning step — it still adds flavour.",
-        "Serve with steamed vegetables or a small portion of boiled potatoes rather than mash."
-      ]
-    },
-    "ar": {
-      "name": "بوف بورغينيون",
-      "origin": "فرنسا · بورغونيا",
-      "intro": "«بوف بورغينيون» يخنة فرنسية من لحم البقر المطهو ببطء في النبيذ الأحمر مع البيكون (لحم الخنزير المقدد) والجزر والبصل والفطر حتى يذوب في الفم. يحوّل الطهي الطويل النبيذ إلى صلصة عميقة لامعة غنية بالنكهة. تُقدَّم ساخنة مع البطاطس المسلوقة أو المهروسة، ويصبح طعمها أفضل في اليوم التالي.",
-      "history": "يأتي الطبق من بورغونيا، المنطقة الشهيرة بنبيذها الأحمر وأبقار الشارولي، حيث بدأ يخنةً ريفية لقطع اللحم القاسية. وأصبح من كلاسيكيات المطبخ الفرنسي في القرن العشرين، وانتشر في العالم الناطق بالإنجليزية عبر كتب الطبخ الفرنسي المنزلي في منتصف ذلك القرن.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 210,
-        "ingredients": [
-          "1.2 كغ لحم كتف بقري مقطع قطعًا بحجم 5 سم",
-          "150 غ بيكون مدخن (لحم خنزير مقدد) مقطع شرائح",
-          "750 مل نبيذ أحمر",
-          "جزرتان مقطعتان شرائح وبصلة مفرومة",
-          "فصّا ثوم، ملعقة كبيرة معجون طماطم",
-          "ورقة غار وزعتر",
-          "250 غ فطر أبيض و200 غ بصل صغير",
-          "ملعقتان كبيرتان زيت، ملح، فلفل أسود"
-        ],
-        "steps": [
-          "اقلِ البيكون في قدر ثقيلة حتى يصبح ذهبيًا ثم ارفعه.",
-          "حمّر اللحم على دفعات في دهن البيكون مع ملعقة كبيرة زيت، ثم ارفعه.",
-          "ليّن الجزر والبصل والثوم، وأضف معجون الطماطم، ثم أعد اللحم والبيكون.",
-          "اسكب النبيذ، وأضف ورق الغار والزعتر، وتبّل واتركه حتى يبدأ بالغليان. غطِّ القدر واطهه في فرن على 160 °م ساعتين ونصفًا إلى 3 ساعات حتى يطرى اللحم تمامًا.",
-          "حمّر الفطر والبصل الصغير في الزيت المتبقي وأضفهما في آخر 30 دقيقة.",
-          "إذا كانت الصلصة خفيفة، ارفع اللحم واغلِ الصلصة حتى تلمع، ثم أعد اللحم وقدّم."
-        ]
-      },
-      "tips": [
-        "أزل الدهون من اللحم جيدًا، وبرّد اليخنة بعد طهيها ليتجمد الدهن على السطح فيسهل رفعه.",
-        "استخدم نصف كمية البيكون، أو لا تحمّر اللحم في دهنه — فهو يضيف النكهة رغم ذلك.",
-        "قدّمها مع خضار مطهوة على البخار أو كمية صغيرة من البطاطس المسلوقة بدل المهروسة."
-      ]
-    },
-    "it": {
-      "name": "Boeuf bourguignon",
-      "origin": "Francia · Borgogna",
-      "intro": "Il boeuf bourguignon è uno stufato francese di manzo brasato lentamente nel vino rosso con pancetta, carote, cipolle e funghi finché diventa tenerissimo. La lunga cottura trasforma il vino in una salsa profonda, lucida e saporita. Si serve caldo con patate lesse o purè, ed è ancora più buono il giorno dopo.",
-      "history": "Il piatto viene dalla Borgogna, regione famosa per il suo vino rosso e i bovini di razza Charolaise, dove nacque come stufato contadino per i tagli di manzo più duri. Divenne un classico della cucina francese nel XX secolo e fu reso popolare nel mondo anglofono dai ricettari di cucina francese per cuochi casalinghi di metà secolo.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 210,
-        "ingredients": [
-          "1,2 kg di reale di manzo, a pezzi di 5 cm",
-          "150 g di pancetta affumicata, a listarelle",
-          "750 ml di vino rosso",
-          "2 carote, a rondelle, e 1 cipolla, tritata",
-          "2 spicchi d'aglio, 1 cucchiaio di concentrato di pomodoro",
-          "Alloro e timo",
-          "250 g di champignon e 200 g di cipolline",
-          "2 cucchiai di olio, sale, pepe nero"
-        ],
-        "steps": [
-          "Rosola la pancetta in una casseruola pesante finché è dorata, poi toglila.",
-          "Rosola il manzo a più riprese nel grasso della pancetta con 1 cucchiaio di olio, poi toglilo.",
-          "Fai appassire carote, cipolla e aglio, incorpora il concentrato di pomodoro, poi rimetti il manzo e la pancetta.",
-          "Versa il vino, aggiungi alloro e timo, regola di sale e pepe e porta a sobbollire. Copri e cuoci a 160 °C per 2 ore e ½–3 ore finché il manzo è molto tenero.",
-          "Rosola i funghi e le cipolline nell'olio rimasto e aggiungili negli ultimi 30 minuti.",
-          "Se la salsa è troppo liquida, togli la carne e fai bollire la salsa finché è lucida, poi rimetti la carne e servi."
-        ]
-      },
-      "tips": [
-        "Sgrassa bene il manzo e metti lo stufato pronto in frigorifero, così il grasso si rapprende in superficie e si può togliere.",
-        "Usa metà della pancetta, oppure non usarla nella rosolatura: dà comunque sapore.",
-        "Servilo con verdure al vapore o una piccola porzione di patate lesse invece del purè."
-      ]
-    },
-    "el": {
-      "name": "Μπεφ μπουργκινιόν",
-      "origin": "Γαλλία · Βουργουνδία",
-      "intro": "Το μπεφ μπουργκινιόν είναι γαλλικό φαγητό κατσαρόλας με βοδινό σιγομαγειρεμένο σε κόκκινο κρασί με μπέικον, καρότα, κρεμμύδια και μανιτάρια μέχρι να λιώνει. Το πολύωρο μαγείρεμα μετατρέπει το κρασί σε μια βαθιά, γυαλιστερή, νόστιμη σάλτσα. Σερβίρεται ζεστό με βραστές πατάτες ή πουρέ και είναι ακόμη πιο νόστιμο την επόμενη μέρα.",
-      "history": "Το πιάτο προέρχεται από τη Βουργουνδία, περιοχή διάσημη για το κόκκινο κρασί της και τα βοοειδή Σαρολέ, όπου ξεκίνησε ως χωριάτικο φαγητό για τις πιο σκληρές κοπές βοδινού. Έγινε κλασικό της γαλλικής κουζίνας τον 20ό αιώνα και έγινε γνωστό στον αγγλόφωνο κόσμο μέσα από βιβλία γαλλικής μαγειρικής για ερασιτέχνες μάγειρες στα μέσα του αιώνα.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 210,
-        "ingredients": [
-          "1,2 κιλό βοδινή σπάλα, σε κομμάτια 5 εκ.",
-          "150 γρ. καπνιστό μπέικον, σε λωρίδες",
-          "750 ml κόκκινο κρασί",
-          "2 καρότα, σε ροδέλες, και 1 κρεμμύδι, ψιλοκομμένο",
-          "2 σκελίδες σκόρδο, 1 κ.σ. πελτέ ντομάτας",
-          "Δάφνη και θυμάρι",
-          "250 γρ. λευκά μανιτάρια και 200 γρ. κρεμμυδάκια",
-          "2 κ.σ. λάδι, αλάτι, μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Τσιγαρίστε το μπέικον σε βαριά κατσαρόλα μέχρι να χρυσίσει και βγάλτε το.",
-          "Ροδίστε το βοδινό σε δόσεις στο λίπος του μπέικον με 1 κ.σ. λάδι και βγάλτε το.",
-          "Μαλακώστε τα καρότα, το κρεμμύδι και το σκόρδο, ανακατέψτε μέσα τον πελτέ και επιστρέψτε το βοδινό και το μπέικον.",
-          "Ρίξτε το κρασί, προσθέστε δάφνη και θυμάρι, αλατοπιπερώστε και φέρτε σε σιγοβράσιμο. Σκεπάστε και μαγειρέψτε στους 160 °C για 2 ½–3 ώρες μέχρι το βοδινό να μαλακώσει πολύ.",
-          "Ροδίστε τα μανιτάρια και τα κρεμμυδάκια στο υπόλοιπο λάδι και προσθέστε τα για τα τελευταία 30 λεπτά.",
-          "Αν η σάλτσα είναι αραιή, βγάλτε το κρέας και βράστε τη σάλτσα μέχρι να γυαλίσει, έπειτα επιστρέψτε το κρέας και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Καθαρίστε καλά το βοδινό από το λίπος και βάλτε το έτοιμο φαγητό στο ψυγείο, ώστε το λίπος να πήξει στην επιφάνεια και να αφαιρεθεί.",
-        "Βάλτε το μισό μπέικον ή παραλείψτε το στο ρόδισμα — δίνει και πάλι γεύση.",
-        "Σερβίρετε με λαχανικά στον ατμό ή μια μικρή μερίδα βραστές πατάτες αντί για πουρέ."
-      ]
-    },
-    "ru": {
-      "name": "Бёф бургиньон",
-      "origin": "Франция · Бургундия",
-      "intro": "Бёф бургиньон — французское рагу из говядины, медленно тушёной в красном вине с беконом, морковью, луком и грибами до тающей мягкости. Долгое приготовление превращает вино в глубокий глянцевый наваристый соус. Его подают горячим с отварным или пюрированным картофелем, а на следующий день оно ещё вкуснее.",
-      "history": "Блюдо родом из Бургундии, региона, известного красным вином и шароле — породой скота, где оно началось как деревенское рагу для жёстких отрубов говядины. В XX веке оно стало классикой французской кухни и получило известность в англоязычном мире благодаря французским кулинарным книгам для домашних поваров середины века.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 210,
-        "ingredients": [
-          "1,2 кг говяжьей лопатки, нарезанной кусками по 5 см",
-          "150 г копчёного бекона, нарезанного полосками",
-          "750 мл красного вина",
-          "2 моркови, нарезанные, и 1 луковица, нарубленная",
-          "2 зубчика чеснока, 1 ст. л. томатной пасты",
-          "Лавровый лист и тимьян",
-          "250 г шампиньонов и 200 г мелкого лука",
-          "2 ст. л. масла, соль, чёрный перец"
-        ],
-        "steps": [
-          "Обжарьте бекон в тяжёлой кастрюле с толстым дном до золотистого цвета, затем выньте.",
-          "Обжарьте говядину порциями в беконном жире и 1 ст. л. масла, затем выньте.",
-          "Обжарьте морковь, лук и чеснок до мягкости, добавьте томатную пасту, затем верните говядину и бекон.",
-          "Влейте вино, добавьте лавровый лист и тимьян, приправьте и доведите до кипения. Накройте и готовьте при 160 °C 2 ½–3 часа, пока говядина не станет очень мягкой.",
-          "Обжарьте грибы и мелкий лук на оставшемся масле и добавьте в рагу за последние 30 минут.",
-          "Если соус жидкий, выньте мясо и уварите соус до глянца, затем верните мясо и подавайте."
-        ]
-      },
-      "tips": [
-        "Хорошо обрежьте говядину и охладите готовое рагу, чтобы жир застыл сверху и его можно было снять.",
-        "Положите вдвое меньше бекона или не добавляйте его на этапе обжаривания — вкус всё равно останется.",
-        "Подавайте с овощами на пару или небольшой порцией отварного картофеля вместо пюре."
-      ],
-      "name_inline": "бёф бургиньон"
-    }
+  "ar": {
+   "name": "بوف بورغينيون",
+   "origin": "فرنسا · بورغونيا",
+   "intro": "«بوف بورغينيون» يخنة فرنسية من لحم البقر المطهو ببطء في النبيذ الأحمر مع البيكون (لحم الخنزير المقدد) والجزر والبصل والفطر حتى يذوب في الفم. يحوّل الطهي الطويل النبيذ إلى صلصة عميقة لامعة غنية بالنكهة. تُقدَّم ساخنة مع البطاطس المسلوقة أو المهروسة، ويصبح طعمها أفضل في اليوم التالي.",
+   "history": "يأتي الطبق من بورغونيا، المنطقة الشهيرة بنبيذها الأحمر وأبقار الشارولي، حيث بدأ يخنةً ريفية لقطع اللحم القاسية. وأصبح من كلاسيكيات المطبخ الفرنسي في القرن العشرين، وانتشر في العالم الناطق بالإنجليزية عبر كتب الطبخ الفرنسي المنزلي في منتصف ذلك القرن.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 210,
+    "ingredients": [
+     "1.2 كغ لحم كتف بقري مقطع قطعًا بحجم 5 سم",
+     "150 غ بيكون مدخن (لحم خنزير مقدد) مقطع شرائح",
+     "750 مل نبيذ أحمر",
+     "جزرتان مقطعتان شرائح وبصلة مفرومة",
+     "فصّا ثوم، ملعقة كبيرة معجون طماطم",
+     "ورقة غار وزعتر",
+     "250 غ فطر أبيض و200 غ بصل صغير",
+     "ملعقتان كبيرتان زيت، ملح، فلفل أسود"
+    ],
+    "steps": [
+     "اقلِ البيكون في قدر ثقيلة حتى يصبح ذهبيًا ثم ارفعه.",
+     "حمّر اللحم على دفعات في دهن البيكون مع ملعقة كبيرة زيت، ثم ارفعه.",
+     "ليّن الجزر والبصل والثوم، وأضف معجون الطماطم، ثم أعد اللحم والبيكون.",
+     "اسكب النبيذ، وأضف ورق الغار والزعتر، وتبّل واتركه حتى يبدأ بالغليان. غطِّ القدر واطهه في فرن على 160 °م ساعتين ونصفًا إلى 3 ساعات حتى يطرى اللحم تمامًا.",
+     "حمّر الفطر والبصل الصغير في الزيت المتبقي وأضفهما في آخر 30 دقيقة.",
+     "إذا كانت الصلصة خفيفة، ارفع اللحم واغلِ الصلصة حتى تلمع، ثم أعد اللحم وقدّم."
+    ]
+   },
+   "tips": [
+    "أزل الدهون من اللحم جيدًا، وبرّد اليخنة بعد طهيها ليتجمد الدهن على السطح فيسهل رفعه.",
+    "استخدم نصف كمية البيكون، أو لا تحمّر اللحم في دهنه — فهو يضيف النكهة رغم ذلك.",
+    "قدّمها مع خضار مطهوة على البخار أو كمية صغيرة من البطاطس المسلوقة بدل المهروسة."
+   ]
+  },
+  "it": {
+   "name": "Boeuf bourguignon",
+   "origin": "Francia · Borgogna",
+   "intro": "Il boeuf bourguignon è uno stufato francese di manzo brasato lentamente nel vino rosso con pancetta, carote, cipolle e funghi finché diventa tenerissimo. La lunga cottura trasforma il vino in una salsa profonda, lucida e saporita. Si serve caldo con patate lesse o purè, ed è ancora più buono il giorno dopo.",
+   "history": "Il piatto viene dalla Borgogna, regione famosa per il suo vino rosso e i bovini di razza Charolaise, dove nacque come stufato contadino per i tagli di manzo più duri. Divenne un classico della cucina francese nel XX secolo e fu reso popolare nel mondo anglofono dai ricettari di cucina francese per cuochi casalinghi di metà secolo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 210,
+    "ingredients": [
+     "1,2 kg di reale di manzo, a pezzi di 5 cm",
+     "150 g di pancetta affumicata, a listarelle",
+     "750 ml di vino rosso",
+     "2 carote, a rondelle, e 1 cipolla, tritata",
+     "2 spicchi d'aglio, 1 cucchiaio di concentrato di pomodoro",
+     "Alloro e timo",
+     "250 g di champignon e 200 g di cipolline",
+     "2 cucchiai di olio, sale, pepe nero"
+    ],
+    "steps": [
+     "Rosola la pancetta in una casseruola pesante finché è dorata, poi toglila.",
+     "Rosola il manzo a più riprese nel grasso della pancetta con 1 cucchiaio di olio, poi toglilo.",
+     "Fai appassire carote, cipolla e aglio, incorpora il concentrato di pomodoro, poi rimetti il manzo e la pancetta.",
+     "Versa il vino, aggiungi alloro e timo, regola di sale e pepe e porta a sobbollire. Copri e cuoci a 160 °C per 2 ore e ½–3 ore finché il manzo è molto tenero.",
+     "Rosola i funghi e le cipolline nell'olio rimasto e aggiungili negli ultimi 30 minuti.",
+     "Se la salsa è troppo liquida, togli la carne e fai bollire la salsa finché è lucida, poi rimetti la carne e servi."
+    ]
+   },
+   "tips": [
+    "Sgrassa bene il manzo e metti lo stufato pronto in frigorifero, così il grasso si rapprende in superficie e si può togliere.",
+    "Usa metà della pancetta, oppure non usarla nella rosolatura: dà comunque sapore.",
+    "Servilo con verdure al vapore o una piccola porzione di patate lesse invece del purè."
+   ]
+  },
+  "el": {
+   "name": "Μπεφ μπουργκινιόν",
+   "origin": "Γαλλία · Βουργουνδία",
+   "intro": "Το μπεφ μπουργκινιόν είναι γαλλικό φαγητό κατσαρόλας με βοδινό σιγομαγειρεμένο σε κόκκινο κρασί με μπέικον, καρότα, κρεμμύδια και μανιτάρια μέχρι να λιώνει. Το πολύωρο μαγείρεμα μετατρέπει το κρασί σε μια βαθιά, γυαλιστερή, νόστιμη σάλτσα. Σερβίρεται ζεστό με βραστές πατάτες ή πουρέ και είναι ακόμη πιο νόστιμο την επόμενη μέρα.",
+   "history": "Το πιάτο προέρχεται από τη Βουργουνδία, περιοχή διάσημη για το κόκκινο κρασί της και τα βοοειδή Σαρολέ, όπου ξεκίνησε ως χωριάτικο φαγητό για τις πιο σκληρές κοπές βοδινού. Έγινε κλασικό της γαλλικής κουζίνας τον 20ό αιώνα και έγινε γνωστό στον αγγλόφωνο κόσμο μέσα από βιβλία γαλλικής μαγειρικής για ερασιτέχνες μάγειρες στα μέσα του αιώνα.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 210,
+    "ingredients": [
+     "1,2 κιλό βοδινή σπάλα, σε κομμάτια 5 εκ.",
+     "150 γρ. καπνιστό μπέικον, σε λωρίδες",
+     "750 ml κόκκινο κρασί",
+     "2 καρότα, σε ροδέλες, και 1 κρεμμύδι, ψιλοκομμένο",
+     "2 σκελίδες σκόρδο, 1 κ.σ. πελτέ ντομάτας",
+     "Δάφνη και θυμάρι",
+     "250 γρ. λευκά μανιτάρια και 200 γρ. κρεμμυδάκια",
+     "2 κ.σ. λάδι, αλάτι, μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Τσιγαρίστε το μπέικον σε βαριά κατσαρόλα μέχρι να χρυσίσει και βγάλτε το.",
+     "Ροδίστε το βοδινό σε δόσεις στο λίπος του μπέικον με 1 κ.σ. λάδι και βγάλτε το.",
+     "Μαλακώστε τα καρότα, το κρεμμύδι και το σκόρδο, ανακατέψτε μέσα τον πελτέ και επιστρέψτε το βοδινό και το μπέικον.",
+     "Ρίξτε το κρασί, προσθέστε δάφνη και θυμάρι, αλατοπιπερώστε και φέρτε σε σιγοβράσιμο. Σκεπάστε και μαγειρέψτε στους 160 °C για 2 ½–3 ώρες μέχρι το βοδινό να μαλακώσει πολύ.",
+     "Ροδίστε τα μανιτάρια και τα κρεμμυδάκια στο υπόλοιπο λάδι και προσθέστε τα για τα τελευταία 30 λεπτά.",
+     "Αν η σάλτσα είναι αραιή, βγάλτε το κρέας και βράστε τη σάλτσα μέχρι να γυαλίσει, έπειτα επιστρέψτε το κρέας και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Καθαρίστε καλά το βοδινό από το λίπος και βάλτε το έτοιμο φαγητό στο ψυγείο, ώστε το λίπος να πήξει στην επιφάνεια και να αφαιρεθεί.",
+    "Βάλτε το μισό μπέικον ή παραλείψτε το στο ρόδισμα — δίνει και πάλι γεύση.",
+    "Σερβίρετε με λαχανικά στον ατμό ή μια μικρή μερίδα βραστές πατάτες αντί για πουρέ."
+   ]
+  },
+  "ru": {
+   "name": "Бёф бургиньон",
+   "origin": "Франция · Бургундия",
+   "intro": "Бёф бургиньон — французское рагу из говядины, медленно тушёной в красном вине с беконом, морковью, луком и грибами до тающей мягкости. Долгое приготовление превращает вино в глубокий глянцевый наваристый соус. Его подают горячим с отварным или пюрированным картофелем, а на следующий день оно ещё вкуснее.",
+   "history": "Блюдо родом из Бургундии, региона, известного красным вином и шароле — породой скота, где оно началось как деревенское рагу для жёстких отрубов говядины. В XX веке оно стало классикой французской кухни и получило известность в англоязычном мире благодаря французским кулинарным книгам для домашних поваров середины века.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 210,
+    "ingredients": [
+     "1,2 кг говяжьей лопатки, нарезанной кусками по 5 см",
+     "150 г копчёного бекона, нарезанного полосками",
+     "750 мл красного вина",
+     "2 моркови, нарезанные, и 1 луковица, нарубленная",
+     "2 зубчика чеснока, 1 ст. л. томатной пасты",
+     "Лавровый лист и тимьян",
+     "250 г шампиньонов и 200 г мелкого лука",
+     "2 ст. л. масла, соль, чёрный перец"
+    ],
+    "steps": [
+     "Обжарьте бекон в тяжёлой кастрюле с толстым дном до золотистого цвета, затем выньте.",
+     "Обжарьте говядину порциями в беконном жире и 1 ст. л. масла, затем выньте.",
+     "Обжарьте морковь, лук и чеснок до мягкости, добавьте томатную пасту, затем верните говядину и бекон.",
+     "Влейте вино, добавьте лавровый лист и тимьян, приправьте и доведите до кипения. Накройте и готовьте при 160 °C 2 ½–3 часа, пока говядина не станет очень мягкой.",
+     "Обжарьте грибы и мелкий лук на оставшемся масле и добавьте в рагу за последние 30 минут.",
+     "Если соус жидкий, выньте мясо и уварите соус до глянца, затем верните мясо и подавайте."
+    ]
+   },
+   "tips": [
+    "Хорошо обрежьте говядину и охладите готовое рагу, чтобы жир застыл сверху и его можно было снять.",
+    "Положите вдвое меньше бекона или не добавляйте его на этапе обжаривания — вкус всё равно останется.",
+    "Подавайте с овощами на пару или небольшой порцией отварного картофеля вместо пюре."
+   ],
+   "name_inline": "бёф бургиньон"
+  },
+  "es": {
+   "name": "Boeuf bourguignon",
+   "origin": "Francia · Borgoña",
+   "intro": "El boeuf bourguignon es un guiso francés de res cocida lentamente en vino tinto con tocino, zanahorias, cebollas y hongos hasta quedar muy tierna. La cocción larga convierte el vino en una salsa profunda, brillante y sabrosa. Se sirve caliente con papas hervidas o en puré, y sabe aún mejor al día siguiente.",
+   "history": "El plato viene de Borgoña, una región famosa por su vino tinto y su ganado charolés, donde nació como guiso campesino para los cortes más duros de la res. Se convirtió en un clásico de la cocina francesa en el siglo XX y se popularizó en el mundo anglosajón gracias a los libros de cocina franceses para el hogar de mediados de siglo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 210,
+    "ingredients": [
+     "1.2 kg de falda o aguja de res, en trozos de 5 cm",
+     "150 g de tocino ahumado, en tiras",
+     "750 ml de vino tinto",
+     "2 zanahorias, en rodajas, y 1 cebolla, picada",
+     "2 dientes de ajo, 1 cda. de pasta de jitomate",
+     "Hoja de laurel y tomillo",
+     "250 g de champiñones y 200 g de cebollitas",
+     "2 cda. de aceite, sal, pimienta negra"
+    ],
+    "steps": [
+     "Fríe el tocino en una cacerola pesada hasta que dore y sácalo.",
+     "Dora la res por tandas en la grasa del tocino y 1 cda. de aceite, y sácala.",
+     "Sofríe las zanahorias, la cebolla y el ajo, incorpora la pasta de jitomate y regresa la res y el tocino.",
+     "Vierte el vino, agrega el laurel y el tomillo, sazona y lleva a hervor suave. Tapa y cuece a 160 °C durante 2 ½–3 horas, hasta que la res esté muy tierna.",
+     "Dora los champiñones y las cebollitas en el aceite restante y agrégalos durante los últimos 30 minutos.",
+     "Si la salsa quedó líquida, saca la carne y hierve la salsa hasta que brille; regresa la carne y sirve."
+    ]
+   },
+   "tips": [
+    "Quita bien la grasa de la res y enfría el guiso terminado para que la grasa cuaje arriba y se pueda retirar.",
+    "Usa la mitad del tocino, o no lo uses al dorar: aun así aporta sabor.",
+    "Sirve con verduras al vapor o una porción pequeña de papas hervidas en lugar de puré."
+   ],
+   "name_inline": "el boeuf bourguignon"
   }
+ }
 }

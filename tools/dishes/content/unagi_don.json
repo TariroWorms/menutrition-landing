@@ -1,155 +1,184 @@
 {
-  "db_key": "unagi_don",
-  "slug": "unagi-don",
-  "emoji": "🍱",
-  "portion_g": 350,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "unagi_don",
+ "slug": "unagi-don",
+ "emoji": "🍱",
+ "portion_g": 350,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Unagi Don",
+   "origin": "Japan · Tokyo (Edo)",
+   "intro": "Unagi don is grilled freshwater eel brushed with a sweet glaze of soy sauce, mirin and sugar and laid over a bowl of fluffy white rice. The glaze turns sticky and lightly caramelized on the grill, while the eel stays soft and buttery-textured inside. It is a classic summer dish in Japan, often served with pickles and clear soup.",
+   "history": "Grilling eel over charcoal and glazing it with a sweet soy-based sauce became popular in Edo (today's Tokyo) in the 18th–19th centuries. Eating eel on the midsummer Day of the Ox is a custom still widely kept in Japan.",
+   "recipe": {
+    "ingredients": [
+     "400 g eel fillets",
+     "600 g cooked short-grain rice",
+     "60 ml soy sauce",
+     "60 ml mirin",
+     "30 g sugar"
+    ],
+    "steps": [
+     "Simmer soy sauce, mirin and sugar for 8–10 minutes until slightly thickened.",
+     "Grill the eel skin-side down over high heat for 4–5 minutes, then flip for 2–3 minutes.",
+     "Brush with the glaze and grill 1 minute more; repeat two or three times.",
+     "Serve over hot rice with a spoonful of the remaining glaze."
+    ],
+    "servings": 2,
+    "time_min": 40
+   },
+   "tips": [
+    "Use a smaller rice portion (about 120 g) and add a side of cucumber or pickled vegetables.",
+    "Brush on the tare instead of pouring it — the sauce is mostly sugar and soy.",
+    "Eel is rich in fat; a 70–80 g piece is a satisfying single serving."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Unagi Don",
-      "origin": "Japan · Tokyo (Edo)",
-      "intro": "Unagi don is grilled freshwater eel brushed with a sweet glaze of soy sauce, mirin and sugar and laid over a bowl of fluffy white rice. The glaze turns sticky and lightly caramelized on the grill, while the eel stays soft and buttery-textured inside. It is a classic summer dish in Japan, often served with pickles and clear soup.",
-      "history": "Grilling eel over charcoal and glazing it with a sweet soy-based sauce became popular in Edo (today's Tokyo) in the 18th–19th centuries. Eating eel on the midsummer Day of the Ox is a custom still widely kept in Japan.",
-      "recipe": {
-        "ingredients": [
-          "400 g eel fillets",
-          "600 g cooked short-grain rice",
-          "60 ml soy sauce",
-          "60 ml mirin",
-          "30 g sugar"
-        ],
-        "steps": [
-          "Simmer soy sauce, mirin and sugar for 8–10 minutes until slightly thickened.",
-          "Grill the eel skin-side down over high heat for 4–5 minutes, then flip for 2–3 minutes.",
-          "Brush with the glaze and grill 1 minute more; repeat two or three times.",
-          "Serve over hot rice with a spoonful of the remaining glaze."
-        ],
-        "servings": 2,
-        "time_min": 40
-      },
-      "tips": [
-        "Use a smaller rice portion (about 120 g) and add a side of cucumber or pickled vegetables.",
-        "Brush on the tare instead of pouring it — the sauce is mostly sugar and soy.",
-        "Eel is rich in fat; a 70–80 g piece is a satisfying single serving."
-      ]
-    },
-    "ar": {
-      "name": "أوناغي دون",
-      "origin": "اليابان · طوكيو (إيدو)",
-      "intro": "أوناغي دون هو ثعبان بحر مشوي يُدهن بصلصة حلوة من صلصة الصويا والميرين والسكر ويوضع فوق وعاء من الأرز الأبيض الهش. تصبح الصلصة لزجة ومكرملة قليلًا على الشواية، بينما يبقى لحم الثعبان طريًا من الداخل. وهو طبق صيفي كلاسيكي في اليابان يُقدَّم غالبًا مع المخللات والحساء الصافي.",
-      "history": "انتشر شيّ ثعبان البحر على الفحم وتزجيجه بصلصة الصويا الحلوة في إيدو (طوكيو اليوم) خلال القرنين الثامن عشر والتاسع عشر. ولا يزال تناول الثعبان في «يوم الثور» منتصف الصيف عادة شائعة في اليابان.",
-      "recipe": {
-        "ingredients": [
-          "400 غ فيليه ثعبان البحر",
-          "600 غ أرز ياباني قصير الحبة مطبوخ",
-          "60 مل صلصة صويا",
-          "60 مل ميرين",
-          "30 غ سكر"
-        ],
-        "steps": [
-          "اطهُ صلصة الصويا والميرين والسكر على نار هادئة 8–10 دقائق حتى تتكثف قليلًا.",
-          "اشوِ الثعبان على جهة الجلد على نار عالية 4–5 دقائق، ثم اقلبه 2–3 دقائق.",
-          "ادهنه بالصلصة واشوِه دقيقة أخرى، وكرر ذلك مرتين أو ثلاثًا.",
-          "قدّمه فوق الأرز الساخن مع ملعقة من الصلصة المتبقية."
-        ],
-        "servings": 2,
-        "time_min": 40
-      },
-      "tips": [
-        "قلّل كمية الأرز إلى نحو 120 غ وأضف طبقًا جانبيًا من الخيار أو الخضار المخللة.",
-        "ادهن صلصة التاري بالفرشاة بدل سكبها، فهي في معظمها سكر وصويا.",
-        "الثعبان غني بالدهون، وقطعة من 70–80 غ تكفي حصة واحدة مشبعة."
-      ]
-    },
-    "it": {
-      "name": "Unagi Don",
-      "origin": "Giappone · Tokyo (Edo)",
-      "intro": "L'unagi don è anguilla d'acqua dolce grigliata, spennellata con una glassa dolce di salsa di soia, mirin e zucchero e adagiata su una ciotola di soffice riso bianco. Sulla griglia la glassa diventa appiccicosa e leggermente caramellata, mentre l'anguilla resta morbida e burrosa all'interno. È un classico piatto estivo in Giappone, spesso servito con verdure in salamoia e brodo limpido.",
-      "history": "Grigliare l'anguilla sulla brace e glassarla con una salsa dolce a base di soia divenne popolare a Edo (l'attuale Tokyo) tra il XVIII e il XIX secolo. Mangiare l'anguilla nel giorno del Bue di piena estate è un'usanza ancora molto diffusa in Giappone.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 g di filetti di anguilla",
-          "600 g di riso a chicco corto cotto",
-          "60 ml di salsa di soia",
-          "60 ml di mirin",
-          "30 g di zucchero"
-        ],
-        "steps": [
-          "Fai sobbollire salsa di soia, mirin e zucchero per 8–10 minuti finché si addensano leggermente.",
-          "Griglia l'anguilla dal lato della pelle a fuoco vivo per 4–5 minuti, poi girala per 2–3 minuti.",
-          "Spennella con la glassa e griglia ancora 1 minuto; ripeti due o tre volte.",
-          "Servi sul riso caldo con un cucchiaio della glassa rimasta."
-        ]
-      },
-      "tips": [
-        "Usa una porzione di riso più piccola (circa 120 g) e aggiungi un contorno di cetriolo o verdure in salamoia.",
-        "Spennella la tare invece di versarla: la salsa è fatta soprattutto di zucchero e soia.",
-        "L'anguilla è ricca di grassi; un pezzo da 70–80 g è una porzione singola che sazia."
-      ]
-    },
-    "el": {
-      "name": "Ουνάγκι ντον",
-      "origin": "Ιαπωνία · Τόκιο (Έντο)",
-      "intro": "Το ουνάγκι ντον είναι ψητό χέλι του γλυκού νερού αλειμμένο με γλυκό γλάσο από σάλτσα σόγιας, μιρίν και ζάχαρη, πάνω σε ένα μπολ αφράτο λευκό ρύζι. Στη σχάρα το γλάσο γίνεται κολλώδες και ελαφρώς καραμελωμένο, ενώ το χέλι μένει μαλακό και βουτυρένιο στην υφή από μέσα. Είναι κλασικό καλοκαιρινό πιάτο στην Ιαπωνία, που συχνά σερβίρεται με τουρσί και διαυγή σούπα.",
-      "history": "Το ψήσιμο του χελιού στα κάρβουνα με γλάσο από γλυκιά σάλτσα σόγιας έγινε δημοφιλές στο Έντο (το σημερινό Τόκιο) τον 18ο–19ο αιώνα. Η κατανάλωση χελιού την ημέρα του Βοδιού στο κατακαλόκαιρο είναι έθιμο που τηρείται ακόμη ευρέως στην Ιαπωνία.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 γρ. φιλέτα χελιού",
-          "600 γρ. μαγειρεμένο ρύζι κοντόσπυρο",
-          "60 ml σάλτσα σόγιας",
-          "60 ml μιρίν",
-          "30 γρ. ζάχαρη"
-        ],
-        "steps": [
-          "Σιγοβράστε τη σάλτσα σόγιας, το μιρίν και τη ζάχαρη για 8–10 λεπτά μέχρι να πήξουν ελαφρά.",
-          "Ψήστε το χέλι με την πέτσα προς τα κάτω σε δυνατή φωτιά για 4–5 λεπτά, μετά γυρίστε το για 2–3 λεπτά.",
-          "Αλείψτε με το γλάσο και ψήστε 1 λεπτό ακόμη· επαναλάβετε δύο ή τρεις φορές.",
-          "Σερβίρετε πάνω σε ζεστό ρύζι με μια κουταλιά από το γλάσο που περίσσεψε."
-        ]
-      },
-      "tips": [
-        "Βάλτε μικρότερη μερίδα ρυζιού (περίπου 120 γρ.) και προσθέστε αγγούρι ή τουρσί λαχανικών στο πλάι.",
-        "Αλείψτε το τάρε αντί να το ρίχνετε — η σάλτσα είναι κυρίως ζάχαρη και σόγια.",
-        "Το χέλι είναι πλούσιο σε λιπαρά· ένα κομμάτι 70–80 γρ. είναι μια χορταστική ατομική μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Унаги-дон",
-      "origin": "Япония · Токио (Эдо)",
-      "intro": "Унаги-дон — жареный пресноводный угорь, смазанный сладкой глазурью из соевого соуса, мирина и сахара и уложенный на миску рассыпчатого белого риса. На гриле глазурь становится липкой и слегка карамелизуется, а угорь остаётся мягким с маслянистой текстурой внутри. Это классическое летнее блюдо в Японии, которое часто подают с соленьями и прозрачным супом.",
-      "history": "Жарка угря на углях с глазированием сладким соевым соусом стала популярной в Эдо (нынешнем Токио) в XVIII–XIX веках. Обычай есть угря в середине лета в День Быка до сих пор широко соблюдается в Японии.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 г филе угря",
-          "600 г варёного круглозёрного риса",
-          "60 мл соевого соуса",
-          "60 мл мирина",
-          "30 г сахара"
-        ],
-        "steps": [
-          "Варите соевый соус, мирин и сахар 8–10 минут до лёгкого загустения.",
-          "Жарьте угря кожей вниз на сильном огне 4–5 минут, затем переверните на 2–3 минуты.",
-          "Смажьте глазурью и жарьте ещё 1 минуту; повторите два или три раза.",
-          "Подавайте на горячем рисе с ложкой оставшейся глазури."
-        ]
-      },
-      "tips": [
-        "Берите меньшую порцию риса (около 120 г) и добавьте гарнир из огурца или маринованных овощей.",
-        "Смазывайте таре кисточкой, а не поливайте — соус в основном состоит из сахара и сои.",
-        "Угорь жирный; кусок 70–80 г — вполне сытная одна порция."
-      ],
-      "name_inline": "унаги-дон"
-    }
+  "ar": {
+   "name": "أوناغي دون",
+   "origin": "اليابان · طوكيو (إيدو)",
+   "intro": "أوناغي دون هو ثعبان بحر مشوي يُدهن بصلصة حلوة من صلصة الصويا والميرين والسكر ويوضع فوق وعاء من الأرز الأبيض الهش. تصبح الصلصة لزجة ومكرملة قليلًا على الشواية، بينما يبقى لحم الثعبان طريًا من الداخل. وهو طبق صيفي كلاسيكي في اليابان يُقدَّم غالبًا مع المخللات والحساء الصافي.",
+   "history": "انتشر شيّ ثعبان البحر على الفحم وتزجيجه بصلصة الصويا الحلوة في إيدو (طوكيو اليوم) خلال القرنين الثامن عشر والتاسع عشر. ولا يزال تناول الثعبان في «يوم الثور» منتصف الصيف عادة شائعة في اليابان.",
+   "recipe": {
+    "ingredients": [
+     "400 غ فيليه ثعبان البحر",
+     "600 غ أرز ياباني قصير الحبة مطبوخ",
+     "60 مل صلصة صويا",
+     "60 مل ميرين",
+     "30 غ سكر"
+    ],
+    "steps": [
+     "اطهُ صلصة الصويا والميرين والسكر على نار هادئة 8–10 دقائق حتى تتكثف قليلًا.",
+     "اشوِ الثعبان على جهة الجلد على نار عالية 4–5 دقائق، ثم اقلبه 2–3 دقائق.",
+     "ادهنه بالصلصة واشوِه دقيقة أخرى، وكرر ذلك مرتين أو ثلاثًا.",
+     "قدّمه فوق الأرز الساخن مع ملعقة من الصلصة المتبقية."
+    ],
+    "servings": 2,
+    "time_min": 40
+   },
+   "tips": [
+    "قلّل كمية الأرز إلى نحو 120 غ وأضف طبقًا جانبيًا من الخيار أو الخضار المخللة.",
+    "ادهن صلصة التاري بالفرشاة بدل سكبها، فهي في معظمها سكر وصويا.",
+    "الثعبان غني بالدهون، وقطعة من 70–80 غ تكفي حصة واحدة مشبعة."
+   ]
+  },
+  "it": {
+   "name": "Unagi Don",
+   "origin": "Giappone · Tokyo (Edo)",
+   "intro": "L'unagi don è anguilla d'acqua dolce grigliata, spennellata con una glassa dolce di salsa di soia, mirin e zucchero e adagiata su una ciotola di soffice riso bianco. Sulla griglia la glassa diventa appiccicosa e leggermente caramellata, mentre l'anguilla resta morbida e burrosa all'interno. È un classico piatto estivo in Giappone, spesso servito con verdure in salamoia e brodo limpido.",
+   "history": "Grigliare l'anguilla sulla brace e glassarla con una salsa dolce a base di soia divenne popolare a Edo (l'attuale Tokyo) tra il XVIII e il XIX secolo. Mangiare l'anguilla nel giorno del Bue di piena estate è un'usanza ancora molto diffusa in Giappone.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 g di filetti di anguilla",
+     "600 g di riso a chicco corto cotto",
+     "60 ml di salsa di soia",
+     "60 ml di mirin",
+     "30 g di zucchero"
+    ],
+    "steps": [
+     "Fai sobbollire salsa di soia, mirin e zucchero per 8–10 minuti finché si addensano leggermente.",
+     "Griglia l'anguilla dal lato della pelle a fuoco vivo per 4–5 minuti, poi girala per 2–3 minuti.",
+     "Spennella con la glassa e griglia ancora 1 minuto; ripeti due o tre volte.",
+     "Servi sul riso caldo con un cucchiaio della glassa rimasta."
+    ]
+   },
+   "tips": [
+    "Usa una porzione di riso più piccola (circa 120 g) e aggiungi un contorno di cetriolo o verdure in salamoia.",
+    "Spennella la tare invece di versarla: la salsa è fatta soprattutto di zucchero e soia.",
+    "L'anguilla è ricca di grassi; un pezzo da 70–80 g è una porzione singola che sazia."
+   ]
+  },
+  "el": {
+   "name": "Ουνάγκι ντον",
+   "origin": "Ιαπωνία · Τόκιο (Έντο)",
+   "intro": "Το ουνάγκι ντον είναι ψητό χέλι του γλυκού νερού αλειμμένο με γλυκό γλάσο από σάλτσα σόγιας, μιρίν και ζάχαρη, πάνω σε ένα μπολ αφράτο λευκό ρύζι. Στη σχάρα το γλάσο γίνεται κολλώδες και ελαφρώς καραμελωμένο, ενώ το χέλι μένει μαλακό και βουτυρένιο στην υφή από μέσα. Είναι κλασικό καλοκαιρινό πιάτο στην Ιαπωνία, που συχνά σερβίρεται με τουρσί και διαυγή σούπα.",
+   "history": "Το ψήσιμο του χελιού στα κάρβουνα με γλάσο από γλυκιά σάλτσα σόγιας έγινε δημοφιλές στο Έντο (το σημερινό Τόκιο) τον 18ο–19ο αιώνα. Η κατανάλωση χελιού την ημέρα του Βοδιού στο κατακαλόκαιρο είναι έθιμο που τηρείται ακόμη ευρέως στην Ιαπωνία.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 γρ. φιλέτα χελιού",
+     "600 γρ. μαγειρεμένο ρύζι κοντόσπυρο",
+     "60 ml σάλτσα σόγιας",
+     "60 ml μιρίν",
+     "30 γρ. ζάχαρη"
+    ],
+    "steps": [
+     "Σιγοβράστε τη σάλτσα σόγιας, το μιρίν και τη ζάχαρη για 8–10 λεπτά μέχρι να πήξουν ελαφρά.",
+     "Ψήστε το χέλι με την πέτσα προς τα κάτω σε δυνατή φωτιά για 4–5 λεπτά, μετά γυρίστε το για 2–3 λεπτά.",
+     "Αλείψτε με το γλάσο και ψήστε 1 λεπτό ακόμη· επαναλάβετε δύο ή τρεις φορές.",
+     "Σερβίρετε πάνω σε ζεστό ρύζι με μια κουταλιά από το γλάσο που περίσσεψε."
+    ]
+   },
+   "tips": [
+    "Βάλτε μικρότερη μερίδα ρυζιού (περίπου 120 γρ.) και προσθέστε αγγούρι ή τουρσί λαχανικών στο πλάι.",
+    "Αλείψτε το τάρε αντί να το ρίχνετε — η σάλτσα είναι κυρίως ζάχαρη και σόγια.",
+    "Το χέλι είναι πλούσιο σε λιπαρά· ένα κομμάτι 70–80 γρ. είναι μια χορταστική ατομική μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Унаги-дон",
+   "origin": "Япония · Токио (Эдо)",
+   "intro": "Унаги-дон — жареный пресноводный угорь, смазанный сладкой глазурью из соевого соуса, мирина и сахара и уложенный на миску рассыпчатого белого риса. На гриле глазурь становится липкой и слегка карамелизуется, а угорь остаётся мягким с маслянистой текстурой внутри. Это классическое летнее блюдо в Японии, которое часто подают с соленьями и прозрачным супом.",
+   "history": "Жарка угря на углях с глазированием сладким соевым соусом стала популярной в Эдо (нынешнем Токио) в XVIII–XIX веках. Обычай есть угря в середине лета в День Быка до сих пор широко соблюдается в Японии.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 г филе угря",
+     "600 г варёного круглозёрного риса",
+     "60 мл соевого соуса",
+     "60 мл мирина",
+     "30 г сахара"
+    ],
+    "steps": [
+     "Варите соевый соус, мирин и сахар 8–10 минут до лёгкого загустения.",
+     "Жарьте угря кожей вниз на сильном огне 4–5 минут, затем переверните на 2–3 минуты.",
+     "Смажьте глазурью и жарьте ещё 1 минуту; повторите два или три раза.",
+     "Подавайте на горячем рисе с ложкой оставшейся глазури."
+    ]
+   },
+   "tips": [
+    "Берите меньшую порцию риса (около 120 г) и добавьте гарнир из огурца или маринованных овощей.",
+    "Смазывайте таре кисточкой, а не поливайте — соус в основном состоит из сахара и сои.",
+    "Угорь жирный; кусок 70–80 г — вполне сытная одна порция."
+   ],
+   "name_inline": "унаги-дон"
+  },
+  "es": {
+   "name": "Unagi don",
+   "origin": "Japón · Tokio (Edo)",
+   "intro": "El unagi don es anguila de agua dulce a la parrilla, pincelada con un glaseado dulce de salsa de soya, mirin y azúcar, y servida sobre un tazón de arroz blanco esponjoso. En la parrilla el glaseado se vuelve pegajoso y ligeramente caramelizado, mientras la anguila queda suave y de textura mantecosa por dentro. Es un plato clásico del verano en Japón, a menudo acompañado de encurtidos y una sopa clara.",
+   "history": "Asar la anguila al carbón y glasearla con una salsa dulce a base de soya se popularizó en Edo (la actual Tokio) entre los siglos XVIII y XIX. Comer anguila el Día del Buey, en pleno verano, es una costumbre que aún se mantiene en Japón.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 g de filetes de anguila",
+     "600 g de arroz de grano corto cocido",
+     "60 ml de salsa de soya",
+     "60 ml de mirin",
+     "30 g de azúcar"
+    ],
+    "steps": [
+     "Cuece a fuego suave la salsa de soya, el mirin y el azúcar de 8 a 10 minutos, hasta que espese un poco.",
+     "Asa la anguila con la piel hacia abajo a fuego fuerte de 4 a 5 minutos y luego voltéala 2 o 3 minutos.",
+     "Píncela con el glaseado y ásala 1 minuto más; repite dos o tres veces.",
+     "Sirve sobre arroz caliente con una cucharada del glaseado restante."
+    ]
+   },
+   "tips": [
+    "Usa una porción más pequeña de arroz (unos 120 g) y añade pepino o verduras encurtidas.",
+    "Pincela el tare en lugar de verterlo: la salsa es sobre todo azúcar y soya.",
+    "La anguila es rica en grasa; una pieza de 70 a 80 g ya es una ración satisfactoria."
+   ],
+   "name_inline": "el unagi don"
   }
+ }
 }

@@ -1,172 +1,204 @@
 {
-  "db_key": "soupe_oignon",
-  "slug": "soupe-oignon",
-  "emoji": "🧅",
-  "portion_g": 400,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "soupe_oignon",
+ "slug": "soupe-oignon",
+ "emoji": "🧅",
+ "portion_g": 400,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Onion Soup Gratinée",
+   "origin": "France · Paris",
+   "intro": "Soupe à l'oignon gratinée is a French bistro soup of slowly caramelised onions simmered in beef broth until sweet and deeply savoury. Each bowl is crowned with toasted bread and grated Gruyère and slid under a hot grill, so the cheese forms a bubbling, browned crust that you break through with a spoon to reach the rich broth underneath.",
+   "history": "Onion soups are old peasant food in France, but the gratinéed version with bread and melted cheese is closely associated with the Paris markets of Les Halles, where it was eaten late at night by porters and revellers. The story that King Louis XV invented it is a popular legend rather than established fact.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 kg onions, thinly sliced",
+     "2 tbsp olive oil",
+     "1.2 l beef broth",
+     "2 bay leaves, thyme sprigs",
+     "1 tsp sugar",
+     "4 slices crusty bread, toasted",
+     "120 g Gruyère, grated",
+     "Salt, pepper"
+    ],
+    "steps": [
+     "Cook the onions in the oil over low heat for 40–50 minutes, stirring often, until deep brown; add the sugar halfway.",
+     "Pour in the broth, add the bay and thyme and simmer 20 minutes; season.",
+     "Ladle into ovenproof bowls and top each with toast and cheese.",
+     "Grill 3–5 minutes until the cheese is melted and browned."
+    ]
+   },
+   "tips": [
+    "Measure the oil — 1 tbsp oil ≈ 120 kcal — and add water if the onions stick.",
+    "Use thinner bread slices and less cheese on top.",
+    "Serve a smaller bowl as a starter with a green salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Onion Soup Gratinée",
-      "origin": "France · Paris",
-      "intro": "Soupe à l'oignon gratinée is a French bistro soup of slowly caramelised onions simmered in beef broth until sweet and deeply savoury. Each bowl is crowned with toasted bread and grated Gruyère and slid under a hot grill, so the cheese forms a bubbling, browned crust that you break through with a spoon to reach the rich broth underneath.",
-      "history": "Onion soups are old peasant food in France, but the gratinéed version with bread and melted cheese is closely associated with the Paris markets of Les Halles, where it was eaten late at night by porters and revellers. The story that King Louis XV invented it is a popular legend rather than established fact.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 kg onions, thinly sliced",
-          "2 tbsp olive oil",
-          "1.2 l beef broth",
-          "2 bay leaves, thyme sprigs",
-          "1 tsp sugar",
-          "4 slices crusty bread, toasted",
-          "120 g Gruyère, grated",
-          "Salt, pepper"
-        ],
-        "steps": [
-          "Cook the onions in the oil over low heat for 40–50 minutes, stirring often, until deep brown; add the sugar halfway.",
-          "Pour in the broth, add the bay and thyme and simmer 20 minutes; season.",
-          "Ladle into ovenproof bowls and top each with toast and cheese.",
-          "Grill 3–5 minutes until the cheese is melted and browned."
-        ]
-      },
-      "tips": [
-        "Measure the oil — 1 tbsp oil ≈ 120 kcal — and add water if the onions stick.",
-        "Use thinner bread slices and less cheese on top.",
-        "Serve a smaller bowl as a starter with a green salad."
-      ]
-    },
-    "ar": {
-      "name": "حساء البصل المغطّى بالجبن",
-      "origin": "فرنسا · باريس",
-      "intro": "حساء البصل المغطّى بالجبن حساء من المطاعم الفرنسية الصغيرة، يُطهى فيه البصل المكرمل ببطء في مرق اللحم البقري حتى يصبح حلواً غني النكهة. يُتوَّج كل وعاء بالخبز المحمّص وجبن الغرويير المبشور ويوضع تحت شواية ساخنة، فيكوّن الجبن قشرة ذهبية تغلي تكسرها الملعقة للوصول إلى المرق الغني تحتها.",
-      "history": "حساء البصل طعام ريفي قديم في فرنسا، لكن النسخة المغطاة بالخبز والجبن الذائب ترتبط ارتباطاً وثيقاً بأسواق ليه آل في باريس، حيث كان يأكله العمال والساهرون في وقت متأخر من الليل. أما القصة التي تنسب ابتكاره إلى الملك لويس الخامس عشر فهي حكاية شعبية وليست حقيقة ثابتة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 كغ بصل مقطّع شرائح رفيعة",
-          "2 ملعقة كبيرة زيت زيتون",
-          "1.2 لتر مرق لحم بقري",
-          "2 ورقة غار وأعواد زعتر",
-          "1 ملعقة صغيرة سكر",
-          "4 شرائح خبز محمّص",
-          "120 غ جبن غرويير مبشور",
-          "ملح، فلفل"
-        ],
-        "steps": [
-          "اطهُ البصل في الزيت على نار هادئة 40–50 دقيقة مع التحريك حتى يصبح بنياً داكناً، وأضف السكر في منتصف الوقت.",
-          "أضف المرق والغار والزعتر واتركه يغلي بهدوء 20 دقيقة، وتبّل.",
-          "اسكبه في أوعية تتحمل الفرن، وضع على كل منها خبزاً وجبناً.",
-          "اشوِه 3–5 دقائق حتى يذوب الجبن ويتحمّر."
-        ]
-      },
-      "tips": [
-        "قِس الزيت — ملعقة كبيرة زيت ≈ 120 سعرة — وأضف الماء إذا التصق البصل.",
-        "استخدم شرائح خبز أرفع وجبناً أقل على الوجه.",
-        "قدّم وعاءً أصغر كمقبلات مع سلطة خضراء."
-      ]
-    },
-    "it": {
-      "name": "Zuppa di cipolle gratinata",
-      "name_inline": "zuppa di cipolle gratinata",
-      "origin": "Francia · Parigi",
-      "intro": "La soupe à l'oignon gratinée è una zuppa da bistrot francese di cipolle caramellate lentamente e cotte nel brodo di manzo finché diventano dolci e intensamente sapide. Ogni ciotola viene coperta di pane tostato e Gruyère grattugiato e passata sotto il grill ben caldo, così il formaggio forma una crosta dorata e sfrigolante da rompere con il cucchiaio per arrivare al ricco brodo sottostante.",
-      "history": "Le zuppe di cipolle sono un antico cibo contadino in Francia, ma la versione gratinata con pane e formaggio fuso è strettamente legata ai mercati parigini di Les Halles, dove la mangiavano a tarda notte facchini e nottambuli. La storia secondo cui l'avrebbe inventata re Luigi XV è una leggenda popolare più che un fatto accertato.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 kg di cipolle, affettate sottili",
-          "2 cucchiai di olio d'oliva",
-          "1,2 l di brodo di manzo",
-          "2 foglie di alloro, rametti di timo",
-          "1 cucchiaino di zucchero",
-          "4 fette di pane rustico tostate",
-          "120 g di Gruyère grattugiato",
-          "Sale, pepe"
-        ],
-        "steps": [
-          "Cuoci le cipolle nell'olio a fuoco basso per 40–50 minuti, mescolando spesso, finché sono ben brune; a metà cottura aggiungi lo zucchero.",
-          "Versa il brodo, aggiungi l'alloro e il timo e cuoci a fuoco lento 20 minuti; regola di sale e pepe.",
-          "Versa nelle ciotole adatte al forno e copri ciascuna con pane tostato e formaggio.",
-          "Gratina 3–5 minuti finché il formaggio è fuso e dorato."
-        ]
-      },
-      "tips": [
-        "Misura l'olio — 1 cucchiaio di olio ≈ 120 kcal — e aggiungi acqua se le cipolle si attaccano.",
-        "Usa fette di pane più sottili e meno formaggio sopra.",
-        "Servi una ciotola più piccola come antipasto con un'insalata verde."
-      ]
-    },
-    "el": {
-      "name": "Κρεμμυδόσουπα ογκρατέν",
-      "name_inline": "κρεμμυδόσουπα ογκρατέν",
-      "origin": "Γαλλία · Παρίσι",
-      "intro": "Η soupe à l'oignon gratinée είναι μια γαλλική σούπα των μπιστρό με κρεμμύδια καραμελωμένα αργά και σιγοβρασμένα σε ζωμό μοσχαριού μέχρι να γίνουν γλυκά και βαθιά νόστιμα. Κάθε μπολ καλύπτεται με φρυγανισμένο ψωμί και τριμμένη Gruyère και μπαίνει κάτω από καυτό γκριλ, ώστε το τυρί να σχηματίσει μια κοχλάζουσα, ροδισμένη κρούστα που σπάτε με το κουτάλι για να φτάσετε στον πλούσιο ζωμό από κάτω.",
-      "history": "Οι κρεμμυδόσουπες είναι παλιό φαγητό των χωρικών στη Γαλλία, αλλά η ογκρατέν εκδοχή με ψωμί και λιωμένο τυρί συνδέεται στενά με τις αγορές του Παρισιού στις Λε Αλ, όπου την έτρωγαν αργά τη νύχτα αχθοφόροι και ξενύχτηδες. Η ιστορία ότι την επινόησε ο βασιλιάς Λουδοβίκος ΙΕ΄ είναι λαϊκός θρύλος και όχι τεκμηριωμένο γεγονός.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 κιλό κρεμμύδια, σε λεπτές φέτες",
-          "2 κ.σ. ελαιόλαδο",
-          "1,2 λίτρα ζωμός μοσχαριού",
-          "2 φύλλα δάφνης, κλωνάρια θυμάρι",
-          "1 κ.γ. ζάχαρη",
-          "4 φέτες ψωμί με τραγανή κόρα, φρυγανισμένες",
-          "120 γρ. Gruyère, τριμμένη",
-          "Αλάτι, πιπέρι"
-        ],
-        "steps": [
-          "Μαγειρέψτε τα κρεμμύδια στο λάδι σε χαμηλή φωτιά για 40–50 λεπτά, ανακατεύοντας συχνά, μέχρι να γίνουν βαθιά καφέ· προσθέστε τη ζάχαρη στη μέση του χρόνου.",
-          "Ρίξτε τον ζωμό, προσθέστε τη δάφνη και το θυμάρι και σιγοβράστε 20 λεπτά· αλατοπιπερώστε.",
-          "Μοιράστε σε μπολ που πάνε στον φούρνο και καλύψτε το καθένα με φρυγανισμένο ψωμί και τυρί.",
-          "Ψήστε στο γκριλ 3–5 λεπτά μέχρι το τυρί να λιώσει και να ροδίσει."
-        ]
-      },
-      "tips": [
-        "Μετρήστε το λάδι — 1 κ.σ. λάδι ≈ 120 kcal — και προσθέστε νερό αν κολλάνε τα κρεμμύδια.",
-        "Χρησιμοποιήστε πιο λεπτές φέτες ψωμιού και λιγότερο τυρί από πάνω.",
-        "Σερβίρετε μικρότερο μπολ ως ορεκτικό με πράσινη σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Луковый суп гратине",
-      "origin": "Франция · Париж",
-      "intro": "Суп а-л'ньон гратине — французский бистро-суп из медленно карамелизированного лука, сваренного в говяжьем бульоне до сладости и глубокого насыщенного вкуса. Каждую тарелку венчают подсушенным хлебом и тёртым грюйером и ставят под раскалённый гриль, так что сыр образует пузырящуюся золотистую корочку, которую разбивают ложкой, чтобы добраться до насыщенного бульона под ней.",
-      "history": "Луковые супы — старинная крестьянская еда Франции, но версия с гратеном из хлеба и расплавленного сыра тесно связана с парижскими рынками Ле-Аль, где её поздно ночью ели грузчики и гуляки. История о том, что её изобрёл король Людовик XV, — популярная легенда, а не установленный факт.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "1 кг лука, тонко нарезанного",
-          "2 ст. л. оливкового масла",
-          "1,2 л говяжьего бульона",
-          "2 лавровых листа, веточки тимьяна",
-          "1 ч. л. сахара",
-          "4 ломтика хлеба с хрустящей корочкой, подсушенных",
-          "120 г грюйера, натёртого",
-          "Соль, перец"
-        ],
-        "steps": [
-          "Готовьте лук в масле на слабом огне 40–50 минут, часто помешивая, до глубокого коричневого цвета; на середине добавьте сахар.",
-          "Влейте бульон, добавьте лавровый лист и тимьян и варите 20 минут; добавьте приправы.",
-          "Разлейте по жаропрочным тарелкам и положите в каждую тост и сыр.",
-          "Запекайте под грилем 3–5 минут, пока сыр не расплавится и не подрумянится."
-        ]
-      },
-      "tips": [
-        "Отмеряйте масло — 1 ст. л. масла ≈ 120 ккал — и добавляйте воду, если лук прилипает.",
-        "Берите более тонкие ломтики хлеба и меньше сыра сверху.",
-        "Подавайте небольшую тарелку как закуску с зелёным салатом."
-      ],
-      "name_inline": "луковый суп гратине"
-    }
+  "ar": {
+   "name": "حساء البصل المغطّى بالجبن",
+   "origin": "فرنسا · باريس",
+   "intro": "حساء البصل المغطّى بالجبن حساء من المطاعم الفرنسية الصغيرة، يُطهى فيه البصل المكرمل ببطء في مرق اللحم البقري حتى يصبح حلواً غني النكهة. يُتوَّج كل وعاء بالخبز المحمّص وجبن الغرويير المبشور ويوضع تحت شواية ساخنة، فيكوّن الجبن قشرة ذهبية تغلي تكسرها الملعقة للوصول إلى المرق الغني تحتها.",
+   "history": "حساء البصل طعام ريفي قديم في فرنسا، لكن النسخة المغطاة بالخبز والجبن الذائب ترتبط ارتباطاً وثيقاً بأسواق ليه آل في باريس، حيث كان يأكله العمال والساهرون في وقت متأخر من الليل. أما القصة التي تنسب ابتكاره إلى الملك لويس الخامس عشر فهي حكاية شعبية وليست حقيقة ثابتة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 كغ بصل مقطّع شرائح رفيعة",
+     "2 ملعقة كبيرة زيت زيتون",
+     "1.2 لتر مرق لحم بقري",
+     "2 ورقة غار وأعواد زعتر",
+     "1 ملعقة صغيرة سكر",
+     "4 شرائح خبز محمّص",
+     "120 غ جبن غرويير مبشور",
+     "ملح، فلفل"
+    ],
+    "steps": [
+     "اطهُ البصل في الزيت على نار هادئة 40–50 دقيقة مع التحريك حتى يصبح بنياً داكناً، وأضف السكر في منتصف الوقت.",
+     "أضف المرق والغار والزعتر واتركه يغلي بهدوء 20 دقيقة، وتبّل.",
+     "اسكبه في أوعية تتحمل الفرن، وضع على كل منها خبزاً وجبناً.",
+     "اشوِه 3–5 دقائق حتى يذوب الجبن ويتحمّر."
+    ]
+   },
+   "tips": [
+    "قِس الزيت — ملعقة كبيرة زيت ≈ 120 سعرة — وأضف الماء إذا التصق البصل.",
+    "استخدم شرائح خبز أرفع وجبناً أقل على الوجه.",
+    "قدّم وعاءً أصغر كمقبلات مع سلطة خضراء."
+   ]
+  },
+  "it": {
+   "name": "Zuppa di cipolle gratinata",
+   "name_inline": "zuppa di cipolle gratinata",
+   "origin": "Francia · Parigi",
+   "intro": "La soupe à l'oignon gratinée è una zuppa da bistrot francese di cipolle caramellate lentamente e cotte nel brodo di manzo finché diventano dolci e intensamente sapide. Ogni ciotola viene coperta di pane tostato e Gruyère grattugiato e passata sotto il grill ben caldo, così il formaggio forma una crosta dorata e sfrigolante da rompere con il cucchiaio per arrivare al ricco brodo sottostante.",
+   "history": "Le zuppe di cipolle sono un antico cibo contadino in Francia, ma la versione gratinata con pane e formaggio fuso è strettamente legata ai mercati parigini di Les Halles, dove la mangiavano a tarda notte facchini e nottambuli. La storia secondo cui l'avrebbe inventata re Luigi XV è una leggenda popolare più che un fatto accertato.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 kg di cipolle, affettate sottili",
+     "2 cucchiai di olio d'oliva",
+     "1,2 l di brodo di manzo",
+     "2 foglie di alloro, rametti di timo",
+     "1 cucchiaino di zucchero",
+     "4 fette di pane rustico tostate",
+     "120 g di Gruyère grattugiato",
+     "Sale, pepe"
+    ],
+    "steps": [
+     "Cuoci le cipolle nell'olio a fuoco basso per 40–50 minuti, mescolando spesso, finché sono ben brune; a metà cottura aggiungi lo zucchero.",
+     "Versa il brodo, aggiungi l'alloro e il timo e cuoci a fuoco lento 20 minuti; regola di sale e pepe.",
+     "Versa nelle ciotole adatte al forno e copri ciascuna con pane tostato e formaggio.",
+     "Gratina 3–5 minuti finché il formaggio è fuso e dorato."
+    ]
+   },
+   "tips": [
+    "Misura l'olio — 1 cucchiaio di olio ≈ 120 kcal — e aggiungi acqua se le cipolle si attaccano.",
+    "Usa fette di pane più sottili e meno formaggio sopra.",
+    "Servi una ciotola più piccola come antipasto con un'insalata verde."
+   ]
+  },
+  "el": {
+   "name": "Κρεμμυδόσουπα ογκρατέν",
+   "name_inline": "κρεμμυδόσουπα ογκρατέν",
+   "origin": "Γαλλία · Παρίσι",
+   "intro": "Η soupe à l'oignon gratinée είναι μια γαλλική σούπα των μπιστρό με κρεμμύδια καραμελωμένα αργά και σιγοβρασμένα σε ζωμό μοσχαριού μέχρι να γίνουν γλυκά και βαθιά νόστιμα. Κάθε μπολ καλύπτεται με φρυγανισμένο ψωμί και τριμμένη Gruyère και μπαίνει κάτω από καυτό γκριλ, ώστε το τυρί να σχηματίσει μια κοχλάζουσα, ροδισμένη κρούστα που σπάτε με το κουτάλι για να φτάσετε στον πλούσιο ζωμό από κάτω.",
+   "history": "Οι κρεμμυδόσουπες είναι παλιό φαγητό των χωρικών στη Γαλλία, αλλά η ογκρατέν εκδοχή με ψωμί και λιωμένο τυρί συνδέεται στενά με τις αγορές του Παρισιού στις Λε Αλ, όπου την έτρωγαν αργά τη νύχτα αχθοφόροι και ξενύχτηδες. Η ιστορία ότι την επινόησε ο βασιλιάς Λουδοβίκος ΙΕ΄ είναι λαϊκός θρύλος και όχι τεκμηριωμένο γεγονός.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 κιλό κρεμμύδια, σε λεπτές φέτες",
+     "2 κ.σ. ελαιόλαδο",
+     "1,2 λίτρα ζωμός μοσχαριού",
+     "2 φύλλα δάφνης, κλωνάρια θυμάρι",
+     "1 κ.γ. ζάχαρη",
+     "4 φέτες ψωμί με τραγανή κόρα, φρυγανισμένες",
+     "120 γρ. Gruyère, τριμμένη",
+     "Αλάτι, πιπέρι"
+    ],
+    "steps": [
+     "Μαγειρέψτε τα κρεμμύδια στο λάδι σε χαμηλή φωτιά για 40–50 λεπτά, ανακατεύοντας συχνά, μέχρι να γίνουν βαθιά καφέ· προσθέστε τη ζάχαρη στη μέση του χρόνου.",
+     "Ρίξτε τον ζωμό, προσθέστε τη δάφνη και το θυμάρι και σιγοβράστε 20 λεπτά· αλατοπιπερώστε.",
+     "Μοιράστε σε μπολ που πάνε στον φούρνο και καλύψτε το καθένα με φρυγανισμένο ψωμί και τυρί.",
+     "Ψήστε στο γκριλ 3–5 λεπτά μέχρι το τυρί να λιώσει και να ροδίσει."
+    ]
+   },
+   "tips": [
+    "Μετρήστε το λάδι — 1 κ.σ. λάδι ≈ 120 kcal — και προσθέστε νερό αν κολλάνε τα κρεμμύδια.",
+    "Χρησιμοποιήστε πιο λεπτές φέτες ψωμιού και λιγότερο τυρί από πάνω.",
+    "Σερβίρετε μικρότερο μπολ ως ορεκτικό με πράσινη σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Луковый суп гратине",
+   "origin": "Франция · Париж",
+   "intro": "Суп а-л'ньон гратине — французский бистро-суп из медленно карамелизированного лука, сваренного в говяжьем бульоне до сладости и глубокого насыщенного вкуса. Каждую тарелку венчают подсушенным хлебом и тёртым грюйером и ставят под раскалённый гриль, так что сыр образует пузырящуюся золотистую корочку, которую разбивают ложкой, чтобы добраться до насыщенного бульона под ней.",
+   "history": "Луковые супы — старинная крестьянская еда Франции, но версия с гратеном из хлеба и расплавленного сыра тесно связана с парижскими рынками Ле-Аль, где её поздно ночью ели грузчики и гуляки. История о том, что её изобрёл король Людовик XV, — популярная легенда, а не установленный факт.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 кг лука, тонко нарезанного",
+     "2 ст. л. оливкового масла",
+     "1,2 л говяжьего бульона",
+     "2 лавровых листа, веточки тимьяна",
+     "1 ч. л. сахара",
+     "4 ломтика хлеба с хрустящей корочкой, подсушенных",
+     "120 г грюйера, натёртого",
+     "Соль, перец"
+    ],
+    "steps": [
+     "Готовьте лук в масле на слабом огне 40–50 минут, часто помешивая, до глубокого коричневого цвета; на середине добавьте сахар.",
+     "Влейте бульон, добавьте лавровый лист и тимьян и варите 20 минут; добавьте приправы.",
+     "Разлейте по жаропрочным тарелкам и положите в каждую тост и сыр.",
+     "Запекайте под грилем 3–5 минут, пока сыр не расплавится и не подрумянится."
+    ]
+   },
+   "tips": [
+    "Отмеряйте масло — 1 ст. л. масла ≈ 120 ккал — и добавляйте воду, если лук прилипает.",
+    "Берите более тонкие ломтики хлеба и меньше сыра сверху.",
+    "Подавайте небольшую тарелку как закуску с зелёным салатом."
+   ],
+   "name_inline": "луковый суп гратине"
+  },
+  "es": {
+   "name": "Sopa de cebolla gratinada",
+   "origin": "Francia · París",
+   "intro": "La soupe à l'oignon gratinée es una sopa de bistró francés hecha con cebollas caramelizadas lentamente y cocidas en caldo de res hasta quedar dulces y de sabor profundo. Cada plato se corona con pan tostado y queso gruyer rallado y se mete bajo un grill caliente, de modo que el queso forma una costra dorada y burbujeante que se rompe con la cuchara para llegar al rico caldo de abajo.",
+   "history": "Las sopas de cebolla son un viejo alimento campesino en Francia, pero la versión gratinada con pan y queso derretido está muy asociada con los mercados de Les Halles, en París, donde la comían de madrugada cargadores y noctámbulos. La historia de que la inventó el rey Luis XV es una leyenda popular, no un hecho comprobado.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "1 kg de cebollas, en rodajas finas",
+     "2 cdas. de aceite de oliva",
+     "1.2 l de caldo de res",
+     "2 hojas de laurel, ramitas de tomillo",
+     "1 cdta. de azúcar",
+     "4 rebanadas de pan rústico, tostado",
+     "120 g de gruyer, rallado",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Cocina las cebollas en el aceite a fuego bajo de 40 a 50 minutos, removiendo seguido, hasta que estén de un marrón intenso; añade el azúcar a la mitad.",
+     "Vierte el caldo, añade el laurel y el tomillo y cocina a fuego lento 20 minutos; sazona.",
+     "Sirve en tazones aptos para horno y cubre cada uno con pan tostado y queso.",
+     "Gratina de 3 a 5 minutos, hasta que el queso se derrita y dore."
+    ]
+   },
+   "tips": [
+    "Mide el aceite (1 cda. de aceite ≈ 120 kcal) y añade agua si las cebollas se pegan.",
+    "Usa rebanadas de pan más delgadas y menos queso encima.",
+    "Sirve un tazón más pequeño como entrada con una ensalada verde."
+   ],
+   "name_inline": "la sopa de cebolla gratinada"
   }
+ }
 }

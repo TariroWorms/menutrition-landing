@@ -1,160 +1,190 @@
 {
-  "db_key": "kongguksu",
-  "slug": "kongguksu",
-  "emoji": "🍜",
-  "portion_g": 450,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kongguksu",
+ "slug": "kongguksu",
+ "emoji": "🍜",
+ "portion_g": 450,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kongguksu",
+   "origin": "South Korea",
+   "intro": "Kongguksu is a Korean summer noodle dish of wheat noodles served in a chilled, creamy broth made from soy milk. It is topped with fresh cucumber strips and toasted sesame seeds. The broth is mild, nutty and refreshing, and diners usually season it with salt at the table.",
+   "history": "Kongguksu is a seasonal summer dish in Korea, with many restaurants serving it only in the hot months; traditionally the broth was made by grinding soaked soybeans.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "200 g dried wheat noodles",
+     "800 ml unsweetened soy milk, chilled",
+     "1 cucumber, cut into thin strips",
+     "1 tbsp toasted sesame seeds",
+     "Salt to taste",
+     "Ice cubes"
+    ],
+    "steps": [
+     "Blend the soy milk with half the sesame seeds and a pinch of salt; chill well.",
+     "Boil the noodles according to the package, then rinse under cold water.",
+     "Divide the noodles into bowls and pour over the cold soy broth.",
+     "Top with cucumber, the remaining sesame seeds and a few ice cubes."
+    ]
+   },
+   "tips": [
+    "Use unsweetened soy milk to avoid added sugar.",
+    "Add more cucumber and use a smaller noodle portion.",
+    "Go easy on the sesame — 1 tbsp sesame seeds is about 50 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kongguksu",
-      "origin": "South Korea",
-      "intro": "Kongguksu is a Korean summer noodle dish of wheat noodles served in a chilled, creamy broth made from soy milk. It is topped with fresh cucumber strips and toasted sesame seeds. The broth is mild, nutty and refreshing, and diners usually season it with salt at the table.",
-      "history": "Kongguksu is a seasonal summer dish in Korea, with many restaurants serving it only in the hot months; traditionally the broth was made by grinding soaked soybeans.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "200 g dried wheat noodles",
-          "800 ml unsweetened soy milk, chilled",
-          "1 cucumber, cut into thin strips",
-          "1 tbsp toasted sesame seeds",
-          "Salt to taste",
-          "Ice cubes"
-        ],
-        "steps": [
-          "Blend the soy milk with half the sesame seeds and a pinch of salt; chill well.",
-          "Boil the noodles according to the package, then rinse under cold water.",
-          "Divide the noodles into bowls and pour over the cold soy broth.",
-          "Top with cucumber, the remaining sesame seeds and a few ice cubes."
-        ]
-      },
-      "tips": [
-        "Use unsweetened soy milk to avoid added sugar.",
-        "Add more cucumber and use a smaller noodle portion.",
-        "Go easy on the sesame — 1 tbsp sesame seeds is about 50 kcal."
-      ]
-    },
-    "ar": {
-      "name": "كونغ غوكسو",
-      "origin": "كوريا الجنوبية",
-      "intro": "كونغ غوكسو طبق نودلز كوري صيفي من نودلز القمح يُقدم في مرق بارد كريمي مصنوع من حليب الصويا. يُزين بشرائح الخيار الطازج وبذور السمسم المحمصة. المرق خفيف الطعم بنكهة جوزية منعشة، وعادة ما يضيف الآكلون الملح على المائدة.",
-      "history": "كونغ غوكسو طبق صيفي موسمي في كوريا، وكثير من المطاعم تقدمه في الأشهر الحارة فقط، وتقليدياً كان المرق يُصنع بطحن فول الصويا المنقوع.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "200 غ نودلز قمح مجففة",
-          "800 مل حليب صويا غير محلى مبرد",
-          "1 خيارة مقطعة شرائح رفيعة",
-          "1 ملعقة كبيرة بذور سمسم محمصة",
-          "ملح حسب الرغبة",
-          "مكعبات ثلج"
-        ],
-        "steps": [
-          "اخلط حليب الصويا مع نصف السمسم ورشة ملح في الخلاط وبرّده جيداً.",
-          "اسلق النودلز حسب التعليمات ثم اشطفها بماء بارد.",
-          "وزّع النودلز في الأطباق واسكب فوقها مرق الصويا البارد.",
-          "زيّنها بالخيار وبقية السمسم وبعض مكعبات الثلج."
-        ]
-      },
-      "tips": [
-        "استخدم حليب صويا غير محلى لتجنب السكر المضاف.",
-        "أكثر من الخيار وقلّل كمية النودلز.",
-        "لا تكثر من السمسم — ملعقة كبيرة نحو 50 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Kongguksu",
-      "origin": "Corea del Sud",
-      "intro": "Il kongguksu è un piatto estivo coreano di noodles di frumento serviti in un brodo freddo e cremoso a base di latte di soia. Si completa con strisce di cetriolo fresco e semi di sesamo tostati. Il brodo è delicato, dal gusto di frutta secca e rinfrescante, e di solito ciascuno lo sala a tavola.",
-      "history": "Il kongguksu è un piatto stagionale estivo in Corea, e molti ristoranti lo servono solo nei mesi caldi; tradizionalmente il brodo si preparava macinando semi di soia ammollati.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "200 g di noodles di frumento secchi",
-          "800 ml di latte di soia non zuccherato, freddo",
-          "1 cetriolo tagliato a strisce sottili",
-          "1 cucchiaio di semi di sesamo tostati",
-          "Sale q.b.",
-          "Cubetti di ghiaccio"
-        ],
-        "steps": [
-          "Frulla il latte di soia con metà dei semi di sesamo e un pizzico di sale; fallo raffreddare bene.",
-          "Lessa i noodles secondo le indicazioni della confezione, poi sciacquali sotto l'acqua fredda.",
-          "Dividi i noodles nelle ciotole e versaci sopra il brodo di soia freddo.",
-          "Completa con il cetriolo, i semi di sesamo rimasti e qualche cubetto di ghiaccio."
-        ]
-      },
-      "tips": [
-        "Usa latte di soia non zuccherato per evitare zuccheri aggiunti.",
-        "Aggiungi più cetriolo e usa una porzione di noodles più piccola.",
-        "Non esagerare con il sesamo: 1 cucchiaio di semi di sesamo sono circa 50 kcal."
-      ]
-    },
-    "el": {
-      "name": "Κονγκουκσού",
-      "origin": "Νότια Κορέα",
-      "intro": "Το κονγκουκσού είναι καλοκαιρινό κορεάτικο πιάτο με νουντλς σίτου που σερβίρονται σε κρύο, κρεμώδη ζωμό από γάλα σόγιας. Συμπληρώνεται με λωρίδες φρέσκου αγγουριού και καβουρδισμένο σουσάμι. Ο ζωμός είναι ήπιος, με γεύση ξηρών καρπών και δροσιστικός, και συνήθως ο καθένας τον αλατίζει στο τραπέζι.",
-      "history": "Το κονγκουκσού είναι εποχικό καλοκαιρινό πιάτο στην Κορέα, και πολλά εστιατόρια το σερβίρουν μόνο τους ζεστούς μήνες· παραδοσιακά ο ζωμός φτιαχνόταν αλέθοντας μουλιασμένους σπόρους σόγιας.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "200 γρ. ξερά νουντλς σίτου",
-          "800 ml γάλα σόγιας χωρίς ζάχαρη, κρύο",
-          "1 αγγούρι, σε λεπτές λωρίδες",
-          "1 κ.σ. καβουρδισμένο σουσάμι",
-          "Αλάτι κατά βούληση",
-          "Παγάκια"
-        ],
-        "steps": [
-          "Χτυπήστε στο μπλέντερ το γάλα σόγιας με το μισό σουσάμι και μια πρέζα αλάτι· κρυώστε το καλά.",
-          "Βράστε τα νουντλς σύμφωνα με τη συσκευασία και ξεπλύνετέ τα με κρύο νερό.",
-          "Μοιράστε τα νουντλς σε μπολ και περιχύστε τα με τον κρύο ζωμό σόγιας.",
-          "Προσθέστε από πάνω το αγγούρι, το υπόλοιπο σουσάμι και μερικά παγάκια."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε γάλα σόγιας χωρίς ζάχαρη για να αποφύγετε την προστιθέμενη ζάχαρη.",
-        "Προσθέστε περισσότερο αγγούρι και βάλτε μικρότερη μερίδα νουντλς.",
-        "Μην το παρακάνετε με το σουσάμι — 1 κ.σ. σουσάμι έχει περίπου 50 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Конгуксу",
-      "origin": "Южная Корея",
-      "intro": "Конгуксу — корейское летнее блюдо из пшеничной лапши в охлаждённом сливочном бульоне из соевого молока. Сверху лежат свежие полоски огурца и поджаренные семена кунжута. Бульон мягкий, ореховый и освежающий, и за столом гости обычно солят его по вкусу.",
-      "history": "Конгуксу — сезонное летнее блюдо в Корее, многие рестораны подают его только в жаркие месяцы; традиционно бульон готовили, измельчая замоченные соевые бобы.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "200 г сухой пшеничной лапши",
-          "800 мл несладкого соевого молока, охлаждённого",
-          "1 огурец, нарезанный тонкой соломкой",
-          "1 ст. л. поджаренного кунжута",
-          "Соль по вкусу",
-          "Кубики льда"
-        ],
-        "steps": [
-          "Измельчите в блендере соевое молоко с половиной кунжута и щепоткой соли; хорошо охладите.",
-          "Отварите лапшу по инструкции на упаковке, затем промойте холодной водой.",
-          "Разложите лапшу по мискам и залейте холодным соевым бульоном.",
-          "Украсьте огурцом, оставшимся кунжутом и несколькими кубиками льда."
-        ]
-      },
-      "tips": [
-        "Используйте несладкое соевое молоко, чтобы избежать добавленного сахара.",
-        "Добавьте больше огурца и уменьшите порцию лапши.",
-        "Не переусердствуйте с кунжутом — 1 ст. л. кунжута это около 50 ккал."
-      ],
-      "name_inline": "конгуксу"
-    }
+  "ar": {
+   "name": "كونغ غوكسو",
+   "origin": "كوريا الجنوبية",
+   "intro": "كونغ غوكسو طبق نودلز كوري صيفي من نودلز القمح يُقدم في مرق بارد كريمي مصنوع من حليب الصويا. يُزين بشرائح الخيار الطازج وبذور السمسم المحمصة. المرق خفيف الطعم بنكهة جوزية منعشة، وعادة ما يضيف الآكلون الملح على المائدة.",
+   "history": "كونغ غوكسو طبق صيفي موسمي في كوريا، وكثير من المطاعم تقدمه في الأشهر الحارة فقط، وتقليدياً كان المرق يُصنع بطحن فول الصويا المنقوع.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "200 غ نودلز قمح مجففة",
+     "800 مل حليب صويا غير محلى مبرد",
+     "1 خيارة مقطعة شرائح رفيعة",
+     "1 ملعقة كبيرة بذور سمسم محمصة",
+     "ملح حسب الرغبة",
+     "مكعبات ثلج"
+    ],
+    "steps": [
+     "اخلط حليب الصويا مع نصف السمسم ورشة ملح في الخلاط وبرّده جيداً.",
+     "اسلق النودلز حسب التعليمات ثم اشطفها بماء بارد.",
+     "وزّع النودلز في الأطباق واسكب فوقها مرق الصويا البارد.",
+     "زيّنها بالخيار وبقية السمسم وبعض مكعبات الثلج."
+    ]
+   },
+   "tips": [
+    "استخدم حليب صويا غير محلى لتجنب السكر المضاف.",
+    "أكثر من الخيار وقلّل كمية النودلز.",
+    "لا تكثر من السمسم — ملعقة كبيرة نحو 50 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Kongguksu",
+   "origin": "Corea del Sud",
+   "intro": "Il kongguksu è un piatto estivo coreano di noodles di frumento serviti in un brodo freddo e cremoso a base di latte di soia. Si completa con strisce di cetriolo fresco e semi di sesamo tostati. Il brodo è delicato, dal gusto di frutta secca e rinfrescante, e di solito ciascuno lo sala a tavola.",
+   "history": "Il kongguksu è un piatto stagionale estivo in Corea, e molti ristoranti lo servono solo nei mesi caldi; tradizionalmente il brodo si preparava macinando semi di soia ammollati.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "200 g di noodles di frumento secchi",
+     "800 ml di latte di soia non zuccherato, freddo",
+     "1 cetriolo tagliato a strisce sottili",
+     "1 cucchiaio di semi di sesamo tostati",
+     "Sale q.b.",
+     "Cubetti di ghiaccio"
+    ],
+    "steps": [
+     "Frulla il latte di soia con metà dei semi di sesamo e un pizzico di sale; fallo raffreddare bene.",
+     "Lessa i noodles secondo le indicazioni della confezione, poi sciacquali sotto l'acqua fredda.",
+     "Dividi i noodles nelle ciotole e versaci sopra il brodo di soia freddo.",
+     "Completa con il cetriolo, i semi di sesamo rimasti e qualche cubetto di ghiaccio."
+    ]
+   },
+   "tips": [
+    "Usa latte di soia non zuccherato per evitare zuccheri aggiunti.",
+    "Aggiungi più cetriolo e usa una porzione di noodles più piccola.",
+    "Non esagerare con il sesamo: 1 cucchiaio di semi di sesamo sono circa 50 kcal."
+   ]
+  },
+  "el": {
+   "name": "Κονγκουκσού",
+   "origin": "Νότια Κορέα",
+   "intro": "Το κονγκουκσού είναι καλοκαιρινό κορεάτικο πιάτο με νουντλς σίτου που σερβίρονται σε κρύο, κρεμώδη ζωμό από γάλα σόγιας. Συμπληρώνεται με λωρίδες φρέσκου αγγουριού και καβουρδισμένο σουσάμι. Ο ζωμός είναι ήπιος, με γεύση ξηρών καρπών και δροσιστικός, και συνήθως ο καθένας τον αλατίζει στο τραπέζι.",
+   "history": "Το κονγκουκσού είναι εποχικό καλοκαιρινό πιάτο στην Κορέα, και πολλά εστιατόρια το σερβίρουν μόνο τους ζεστούς μήνες· παραδοσιακά ο ζωμός φτιαχνόταν αλέθοντας μουλιασμένους σπόρους σόγιας.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "200 γρ. ξερά νουντλς σίτου",
+     "800 ml γάλα σόγιας χωρίς ζάχαρη, κρύο",
+     "1 αγγούρι, σε λεπτές λωρίδες",
+     "1 κ.σ. καβουρδισμένο σουσάμι",
+     "Αλάτι κατά βούληση",
+     "Παγάκια"
+    ],
+    "steps": [
+     "Χτυπήστε στο μπλέντερ το γάλα σόγιας με το μισό σουσάμι και μια πρέζα αλάτι· κρυώστε το καλά.",
+     "Βράστε τα νουντλς σύμφωνα με τη συσκευασία και ξεπλύνετέ τα με κρύο νερό.",
+     "Μοιράστε τα νουντλς σε μπολ και περιχύστε τα με τον κρύο ζωμό σόγιας.",
+     "Προσθέστε από πάνω το αγγούρι, το υπόλοιπο σουσάμι και μερικά παγάκια."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε γάλα σόγιας χωρίς ζάχαρη για να αποφύγετε την προστιθέμενη ζάχαρη.",
+    "Προσθέστε περισσότερο αγγούρι και βάλτε μικρότερη μερίδα νουντλς.",
+    "Μην το παρακάνετε με το σουσάμι — 1 κ.σ. σουσάμι έχει περίπου 50 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Конгуксу",
+   "origin": "Южная Корея",
+   "intro": "Конгуксу — корейское летнее блюдо из пшеничной лапши в охлаждённом сливочном бульоне из соевого молока. Сверху лежат свежие полоски огурца и поджаренные семена кунжута. Бульон мягкий, ореховый и освежающий, и за столом гости обычно солят его по вкусу.",
+   "history": "Конгуксу — сезонное летнее блюдо в Корее, многие рестораны подают его только в жаркие месяцы; традиционно бульон готовили, измельчая замоченные соевые бобы.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "200 г сухой пшеничной лапши",
+     "800 мл несладкого соевого молока, охлаждённого",
+     "1 огурец, нарезанный тонкой соломкой",
+     "1 ст. л. поджаренного кунжута",
+     "Соль по вкусу",
+     "Кубики льда"
+    ],
+    "steps": [
+     "Измельчите в блендере соевое молоко с половиной кунжута и щепоткой соли; хорошо охладите.",
+     "Отварите лапшу по инструкции на упаковке, затем промойте холодной водой.",
+     "Разложите лапшу по мискам и залейте холодным соевым бульоном.",
+     "Украсьте огурцом, оставшимся кунжутом и несколькими кубиками льда."
+    ]
+   },
+   "tips": [
+    "Используйте несладкое соевое молоко, чтобы избежать добавленного сахара.",
+    "Добавьте больше огурца и уменьшите порцию лапши.",
+    "Не переусердствуйте с кунжутом — 1 ст. л. кунжута это около 50 ккал."
+   ],
+   "name_inline": "конгуксу"
+  },
+  "es": {
+   "name": "Kongguksu",
+   "origin": "Corea del Sur",
+   "intro": "El kongguksu es un plato coreano de fideos de verano: fideos de trigo servidos en un caldo frío y cremoso de leche de soya. Se cubre con tiras de pepino fresco y semillas de ajonjolí tostadas. El caldo es suave, con sabor a nuez y refrescante, y quien lo come suele sazonarlo con sal en la mesa.",
+   "history": "El kongguksu es un plato de temporada de verano en Corea, y muchos restaurantes lo sirven solo en los meses de calor; tradicionalmente el caldo se preparaba moliendo frijoles de soya remojados.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "200 g de fideos secos de trigo",
+     "800 ml de leche de soya sin azúcar, fría",
+     "1 pepino, en tiras finas",
+     "1 cda. de semillas de ajonjolí tostadas",
+     "Sal al gusto",
+     "Cubos de hielo"
+    ],
+    "steps": [
+     "Licúa la leche de soya con la mitad del ajonjolí y una pizca de sal; enfría bien.",
+     "Cuece los fideos según las indicaciones del paquete y enjuágalos con agua fría.",
+     "Reparte los fideos en tazones y vierte encima el caldo frío de soya.",
+     "Cubre con el pepino, el resto del ajonjolí y unos cubos de hielo."
+    ]
+   },
+   "tips": [
+    "Usa leche de soya sin azúcar para evitar azúcares añadidos.",
+    "Agrega más pepino y usa una porción menor de fideos.",
+    "Ve con calma con el ajonjolí: 1 cda. de ajonjolí son unas 50 kcal."
+   ],
+   "name_inline": "el kongguksu"
   }
+ }
 }

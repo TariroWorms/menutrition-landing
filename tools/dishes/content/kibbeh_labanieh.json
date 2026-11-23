@@ -1,172 +1,204 @@
 {
-  "db_key": "kibbeh_labanieh",
-  "slug": "kibbeh-labanieh",
-  "emoji": "🥣",
-  "portion_g": 350,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kibbeh_labanieh",
+ "slug": "kibbeh-labanieh",
+ "emoji": "🥣",
+ "portion_g": 350,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kibbeh Labanieh (Kibbeh in Yogurt)",
+   "origin": "Levant · Lebanon and Syria",
+   "intro": "Kibbeh labanieh is a warm, tangy dish of small kibbeh balls made from bulgur and lamb, simmered in a cooked yogurt sauce. A little rice is cooked into the yogurt to thicken it and keep it from splitting, and the sauce is finished with garlic crushed with dried mint. The result is soft, creamy and gently sour, eaten from a bowl with a spoon, often alongside plain rice.",
+   "history": "Cooking meat in yogurt, known as laban, is a long-standing Levantine tradition, and kibbeh labanieh is a classic home dish in Lebanon and Syria.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "150 g fine bulgur",
+     "300 g lean ground lamb",
+     "1 kg plain yogurt",
+     "50 g short-grain rice",
+     "4 garlic cloves",
+     "1 tbsp dried mint",
+     "1 tsp salt"
+    ],
+    "steps": [
+     "Soak bulgur 10 minutes, squeeze dry and knead with the lamb and half the salt into a smooth dough; roll into small balls.",
+     "Simmer the rice in 300 ml water until very soft.",
+     "Whisk the yogurt smooth, add it to the rice and bring slowly to a simmer, stirring constantly in one direction.",
+     "Add the kibbeh balls and simmer gently 15–20 minutes until cooked through.",
+     "Crush garlic with mint and the remaining salt, stir into the sauce for the last 2 minutes and serve warm."
+    ]
+   },
+   "tips": [
+    "Use low-fat yogurt for the sauce; it thickens well with the rice.",
+    "Make smaller balls with more bulgur and less lamb.",
+    "Serve it on its own as a soup-like bowl instead of with an extra plate of rice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kibbeh Labanieh (Kibbeh in Yogurt)",
-      "origin": "Levant · Lebanon and Syria",
-      "intro": "Kibbeh labanieh is a warm, tangy dish of small kibbeh balls made from bulgur and lamb, simmered in a cooked yogurt sauce. A little rice is cooked into the yogurt to thicken it and keep it from splitting, and the sauce is finished with garlic crushed with dried mint. The result is soft, creamy and gently sour, eaten from a bowl with a spoon, often alongside plain rice.",
-      "history": "Cooking meat in yogurt, known as laban, is a long-standing Levantine tradition, and kibbeh labanieh is a classic home dish in Lebanon and Syria.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "150 g fine bulgur",
-          "300 g lean ground lamb",
-          "1 kg plain yogurt",
-          "50 g short-grain rice",
-          "4 garlic cloves",
-          "1 tbsp dried mint",
-          "1 tsp salt"
-        ],
-        "steps": [
-          "Soak bulgur 10 minutes, squeeze dry and knead with the lamb and half the salt into a smooth dough; roll into small balls.",
-          "Simmer the rice in 300 ml water until very soft.",
-          "Whisk the yogurt smooth, add it to the rice and bring slowly to a simmer, stirring constantly in one direction.",
-          "Add the kibbeh balls and simmer gently 15–20 minutes until cooked through.",
-          "Crush garlic with mint and the remaining salt, stir into the sauce for the last 2 minutes and serve warm."
-        ]
-      },
-      "tips": [
-        "Use low-fat yogurt for the sauce; it thickens well with the rice.",
-        "Make smaller balls with more bulgur and less lamb.",
-        "Serve it on its own as a soup-like bowl instead of with an extra plate of rice."
-      ]
-    },
-    "ar": {
-      "name": "كبة لبنية",
-      "origin": "بلاد الشام · لبنان وسوريا",
-      "intro": "الكبة اللبنية طبق دافئ حامض قليلاً، فيه كرات كبة صغيرة من البرغل ولحم الضأن تُطهى في صلصة اللبن المطبوخ. يُطهى قليل من الأرز في اللبن ليكثّفه ويمنعه من التفرّق، وتُختم الصلصة بالثوم المدقوق مع النعناع اليابس. النتيجة طرية كريمية بحموضة لطيفة، تؤكل بالملعقة من وعاء، وغالباً مع أرز أبيض.",
-      "history": "طهي اللحم في اللبن تقليد شامي قديم، والكبة اللبنية طبق بيتي كلاسيكي في لبنان وسوريا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "150 غ برغل ناعم",
-          "300 غ لحم ضأن مفروم قليل الدهن",
-          "1 كغ لبن زبادي",
-          "50 غ أرز قصير الحبة",
-          "4 فصوص ثوم",
-          "1 ملعقة كبيرة نعناع يابس",
-          "1 ملعقة صغيرة ملح"
-        ],
-        "steps": [
-          "انقع البرغل 10 دقائق، واعصره واعجنه مع اللحم ونصف الملح حتى تصبح عجينة ناعمة، ثم شكّلها كرات صغيرة.",
-          "اطهُ الأرز في 300 مل ماء حتى يصبح طرياً جداً.",
-          "اخفق اللبن حتى ينعم، وأضفه إلى الأرز واتركه يغلي ببطء مع التحريك المستمر في اتجاه واحد.",
-          "أضف كرات الكبة واتركها على نار هادئة 15–20 دقيقة حتى تنضج.",
-          "اهرس الثوم مع النعناع وباقي الملح، وأضفه إلى الصلصة في آخر دقيقتين وقدّمها دافئة."
-        ]
-      },
-      "tips": [
-        "استخدم لبناً قليل الدسم للصلصة، فهو يتكثّف جيداً مع الأرز.",
-        "شكّل كرات أصغر بنسبة برغل أعلى ولحم أقل.",
-        "قدّمها وحدها في وعاء كالحساء بدل إضافة طبق أرز."
-      ]
-    },
-    "it": {
-      "name": "Kibbeh labanieh (kibbeh nello yogurt)",
-      "name_inline": "kibbeh labanieh",
-      "origin": "Levante · Libano e Siria",
-      "intro": "Il kibbeh labanieh è un piatto caldo e acidulo di piccole polpette di kibbeh a base di bulgur e agnello, cotte a fuoco lento in una salsa di yogurt cotto. Nello yogurt si cuoce un po' di riso per addensarlo ed evitare che impazzisca, e la salsa si completa con aglio pestato con menta secca. Il risultato è morbido, cremoso e delicatamente acido, si mangia con il cucchiaio da una ciotola, spesso insieme a riso in bianco.",
-      "history": "Cuocere la carne nello yogurt, detto laban, è una lunga tradizione levantina, e il kibbeh labanieh è un classico piatto casalingo in Libano e in Siria.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "150 g di bulgur fine",
-          "300 g di carne d'agnello magra macinata",
-          "1 kg di yogurt bianco",
-          "50 g di riso a chicco tondo",
-          "4 spicchi d'aglio",
-          "1 cucchiaio di menta secca",
-          "1 cucchiaino di sale"
-        ],
-        "steps": [
-          "Metti il bulgur in ammollo per 10 minuti, strizzalo e impastalo con l'agnello e metà del sale fino a ottenere un impasto liscio; forma delle palline.",
-          "Cuoci il riso in 300 ml di acqua finché non è molto morbido.",
-          "Sbatti lo yogurt finché non è liscio, aggiungilo al riso e porta lentamente a sobbollire, mescolando di continuo sempre nella stessa direzione.",
-          "Aggiungi le polpette di kibbeh e fai sobbollire dolcemente per 15–20 minuti finché non sono cotte.",
-          "Pesta l'aglio con la menta e il sale rimasto, incorporalo alla salsa negli ultimi 2 minuti e servi caldo."
-        ]
-      },
-      "tips": [
-        "Usa yogurt magro per la salsa: si addensa bene con il riso.",
-        "Prepara palline più piccole con più bulgur e meno agnello.",
-        "Servilo da solo in ciotola, come una zuppa, invece che con un piatto di riso in più."
-      ]
-    },
-    "el": {
-      "name": "Κίμπε λαμπανίγε (κίμπε σε γιαούρτι)",
-      "name_inline": "κίμπε λαμπανίγε",
-      "origin": "Λεβάντε · Λίβανος και Συρία",
-      "intro": "Το κίμπε λαμπανίγε είναι ζεστό, ξινούτσικο πιάτο με μικρά μπαλάκια κίμπε από πλιγούρι και αρνί, που σιγοβράζουν σε σάλτσα μαγειρεμένου γιαουρτιού. Λίγο ρύζι μαγειρεύεται μέσα στο γιαούρτι για να το πήξει και να μην κόψει, και η σάλτσα ολοκληρώνεται με σκόρδο κοπανισμένο με ξερό δυόσμο. Το αποτέλεσμα είναι μαλακό, κρεμώδες και ελαφρά ξινό και τρώγεται με κουτάλι από μπολ, συχνά μαζί με σκέτο ρύζι.",
-      "history": "Το μαγείρεμα του κρέατος σε γιαούρτι, που λέγεται λαμπάν, είναι μακρά παράδοση του Λεβάντε, και το κίμπε λαμπανίγε είναι κλασικό σπιτικό πιάτο στον Λίβανο και τη Συρία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "150 γρ. ψιλό πλιγούρι",
-          "300 γρ. άπαχος αρνίσιος κιμάς",
-          "1 κιλό φυσικό γιαούρτι",
-          "50 γρ. ρύζι στρογγυλόσπυρο",
-          "4 σκελίδες σκόρδο",
-          "1 κ.σ. ξερός δυόσμος",
-          "1 κ.γ. αλάτι"
-        ],
-        "steps": [
-          "Μουλιάστε το πλιγούρι 10 λεπτά, στύψτε το και ζυμώστε το με το αρνί και το μισό αλάτι σε λεία ζύμη· πλάστε μικρά μπαλάκια.",
-          "Σιγοβράστε το ρύζι σε 300 ml νερό μέχρι να μαλακώσει πολύ.",
-          "Χτυπήστε το γιαούρτι μέχρι να γίνει λείο, προσθέστε το στο ρύζι και φέρτε το σιγά σιγά σε βράση, ανακατεύοντας συνεχώς προς την ίδια κατεύθυνση.",
-          "Προσθέστε τα μπαλάκια κίμπε και σιγοβράστε απαλά 15–20 λεπτά μέχρι να ψηθούν καλά.",
-          "Κοπανίστε το σκόρδο με τον δυόσμο και το υπόλοιπο αλάτι, ανακατέψτε το στη σάλτσα τα τελευταία 2 λεπτά και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε γιαούρτι με χαμηλά λιπαρά για τη σάλτσα· πήζει καλά με το ρύζι.",
-        "Φτιάξτε μικρότερα μπαλάκια με περισσότερο πλιγούρι και λιγότερο αρνί.",
-        "Σερβίρετέ το σκέτο σε μπολ σαν σούπα αντί για μαζί με ένα επιπλέον πιάτο ρύζι."
-      ]
-    },
-    "ru": {
-      "name": "Киббе лабание (киббе в йогурте)",
-      "origin": "Левант · Ливан и Сирия",
-      "intro": "Киббе лабание — тёплое кисловатое блюдо из маленьких шариков киббе из булгура и баранины, томлёных в сваренном йогуртовом соусе. В йогурт вваривают немного риса, чтобы он загустел и не свернулся, а соус заканчивают чесноком, растёртым с сушёной мятой. Блюдо мягкое, сливочное и слегка кислое, его едят ложкой из миски, часто с отварным рисом.",
-      "history": "Приготовление мяса в йогурте, известном как лабан, — давняя традиция Леванта, а киббе лабание — классическое домашнее блюдо Ливана и Сирии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "150 г мелкого булгура",
-          "300 г постного бараньего фарша",
-          "1 кг натурального йогурта",
-          "50 г круглозёрного риса",
-          "4 зубчика чеснока",
-          "1 ст. л. сушёной мяты",
-          "1 ч. л. соли"
-        ],
-        "steps": [
-          "Замочите булгур на 10 минут, отожмите и вымесите с бараниной и половиной соли в гладкое тесто; скатайте маленькие шарики.",
-          "Варите рис в 300 мл воды до полной мягкости.",
-          "Взбейте йогурт до гладкости, добавьте к рису и медленно доведите до кипения, постоянно помешивая в одну сторону.",
-          "Добавьте шарики киббе и томите на слабом огне 15–20 минут до готовности.",
-          "Разотрите чеснок с мятой и оставшейся солью, вмешайте в соус за последние 2 минуты и подавайте тёплым."
-        ]
-      },
-      "tips": [
-        "Используйте нежирный йогурт для соуса; он хорошо загустевает с рисом.",
-        "Делайте шарики поменьше, с большим количеством булгура и меньшим — баранины.",
-        "Подавайте как суповую миску без дополнительной тарелки риса."
-      ],
-      "name_inline": "киббе лабание"
-    }
+  "ar": {
+   "name": "كبة لبنية",
+   "origin": "بلاد الشام · لبنان وسوريا",
+   "intro": "الكبة اللبنية طبق دافئ حامض قليلاً، فيه كرات كبة صغيرة من البرغل ولحم الضأن تُطهى في صلصة اللبن المطبوخ. يُطهى قليل من الأرز في اللبن ليكثّفه ويمنعه من التفرّق، وتُختم الصلصة بالثوم المدقوق مع النعناع اليابس. النتيجة طرية كريمية بحموضة لطيفة، تؤكل بالملعقة من وعاء، وغالباً مع أرز أبيض.",
+   "history": "طهي اللحم في اللبن تقليد شامي قديم، والكبة اللبنية طبق بيتي كلاسيكي في لبنان وسوريا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "150 غ برغل ناعم",
+     "300 غ لحم ضأن مفروم قليل الدهن",
+     "1 كغ لبن زبادي",
+     "50 غ أرز قصير الحبة",
+     "4 فصوص ثوم",
+     "1 ملعقة كبيرة نعناع يابس",
+     "1 ملعقة صغيرة ملح"
+    ],
+    "steps": [
+     "انقع البرغل 10 دقائق، واعصره واعجنه مع اللحم ونصف الملح حتى تصبح عجينة ناعمة، ثم شكّلها كرات صغيرة.",
+     "اطهُ الأرز في 300 مل ماء حتى يصبح طرياً جداً.",
+     "اخفق اللبن حتى ينعم، وأضفه إلى الأرز واتركه يغلي ببطء مع التحريك المستمر في اتجاه واحد.",
+     "أضف كرات الكبة واتركها على نار هادئة 15–20 دقيقة حتى تنضج.",
+     "اهرس الثوم مع النعناع وباقي الملح، وأضفه إلى الصلصة في آخر دقيقتين وقدّمها دافئة."
+    ]
+   },
+   "tips": [
+    "استخدم لبناً قليل الدسم للصلصة، فهو يتكثّف جيداً مع الأرز.",
+    "شكّل كرات أصغر بنسبة برغل أعلى ولحم أقل.",
+    "قدّمها وحدها في وعاء كالحساء بدل إضافة طبق أرز."
+   ]
+  },
+  "it": {
+   "name": "Kibbeh labanieh (kibbeh nello yogurt)",
+   "name_inline": "kibbeh labanieh",
+   "origin": "Levante · Libano e Siria",
+   "intro": "Il kibbeh labanieh è un piatto caldo e acidulo di piccole polpette di kibbeh a base di bulgur e agnello, cotte a fuoco lento in una salsa di yogurt cotto. Nello yogurt si cuoce un po' di riso per addensarlo ed evitare che impazzisca, e la salsa si completa con aglio pestato con menta secca. Il risultato è morbido, cremoso e delicatamente acido, si mangia con il cucchiaio da una ciotola, spesso insieme a riso in bianco.",
+   "history": "Cuocere la carne nello yogurt, detto laban, è una lunga tradizione levantina, e il kibbeh labanieh è un classico piatto casalingo in Libano e in Siria.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "150 g di bulgur fine",
+     "300 g di carne d'agnello magra macinata",
+     "1 kg di yogurt bianco",
+     "50 g di riso a chicco tondo",
+     "4 spicchi d'aglio",
+     "1 cucchiaio di menta secca",
+     "1 cucchiaino di sale"
+    ],
+    "steps": [
+     "Metti il bulgur in ammollo per 10 minuti, strizzalo e impastalo con l'agnello e metà del sale fino a ottenere un impasto liscio; forma delle palline.",
+     "Cuoci il riso in 300 ml di acqua finché non è molto morbido.",
+     "Sbatti lo yogurt finché non è liscio, aggiungilo al riso e porta lentamente a sobbollire, mescolando di continuo sempre nella stessa direzione.",
+     "Aggiungi le polpette di kibbeh e fai sobbollire dolcemente per 15–20 minuti finché non sono cotte.",
+     "Pesta l'aglio con la menta e il sale rimasto, incorporalo alla salsa negli ultimi 2 minuti e servi caldo."
+    ]
+   },
+   "tips": [
+    "Usa yogurt magro per la salsa: si addensa bene con il riso.",
+    "Prepara palline più piccole con più bulgur e meno agnello.",
+    "Servilo da solo in ciotola, come una zuppa, invece che con un piatto di riso in più."
+   ]
+  },
+  "el": {
+   "name": "Κίμπε λαμπανίγε (κίμπε σε γιαούρτι)",
+   "name_inline": "κίμπε λαμπανίγε",
+   "origin": "Λεβάντε · Λίβανος και Συρία",
+   "intro": "Το κίμπε λαμπανίγε είναι ζεστό, ξινούτσικο πιάτο με μικρά μπαλάκια κίμπε από πλιγούρι και αρνί, που σιγοβράζουν σε σάλτσα μαγειρεμένου γιαουρτιού. Λίγο ρύζι μαγειρεύεται μέσα στο γιαούρτι για να το πήξει και να μην κόψει, και η σάλτσα ολοκληρώνεται με σκόρδο κοπανισμένο με ξερό δυόσμο. Το αποτέλεσμα είναι μαλακό, κρεμώδες και ελαφρά ξινό και τρώγεται με κουτάλι από μπολ, συχνά μαζί με σκέτο ρύζι.",
+   "history": "Το μαγείρεμα του κρέατος σε γιαούρτι, που λέγεται λαμπάν, είναι μακρά παράδοση του Λεβάντε, και το κίμπε λαμπανίγε είναι κλασικό σπιτικό πιάτο στον Λίβανο και τη Συρία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "150 γρ. ψιλό πλιγούρι",
+     "300 γρ. άπαχος αρνίσιος κιμάς",
+     "1 κιλό φυσικό γιαούρτι",
+     "50 γρ. ρύζι στρογγυλόσπυρο",
+     "4 σκελίδες σκόρδο",
+     "1 κ.σ. ξερός δυόσμος",
+     "1 κ.γ. αλάτι"
+    ],
+    "steps": [
+     "Μουλιάστε το πλιγούρι 10 λεπτά, στύψτε το και ζυμώστε το με το αρνί και το μισό αλάτι σε λεία ζύμη· πλάστε μικρά μπαλάκια.",
+     "Σιγοβράστε το ρύζι σε 300 ml νερό μέχρι να μαλακώσει πολύ.",
+     "Χτυπήστε το γιαούρτι μέχρι να γίνει λείο, προσθέστε το στο ρύζι και φέρτε το σιγά σιγά σε βράση, ανακατεύοντας συνεχώς προς την ίδια κατεύθυνση.",
+     "Προσθέστε τα μπαλάκια κίμπε και σιγοβράστε απαλά 15–20 λεπτά μέχρι να ψηθούν καλά.",
+     "Κοπανίστε το σκόρδο με τον δυόσμο και το υπόλοιπο αλάτι, ανακατέψτε το στη σάλτσα τα τελευταία 2 λεπτά και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε γιαούρτι με χαμηλά λιπαρά για τη σάλτσα· πήζει καλά με το ρύζι.",
+    "Φτιάξτε μικρότερα μπαλάκια με περισσότερο πλιγούρι και λιγότερο αρνί.",
+    "Σερβίρετέ το σκέτο σε μπολ σαν σούπα αντί για μαζί με ένα επιπλέον πιάτο ρύζι."
+   ]
+  },
+  "ru": {
+   "name": "Киббе лабание (киббе в йогурте)",
+   "origin": "Левант · Ливан и Сирия",
+   "intro": "Киббе лабание — тёплое кисловатое блюдо из маленьких шариков киббе из булгура и баранины, томлёных в сваренном йогуртовом соусе. В йогурт вваривают немного риса, чтобы он загустел и не свернулся, а соус заканчивают чесноком, растёртым с сушёной мятой. Блюдо мягкое, сливочное и слегка кислое, его едят ложкой из миски, часто с отварным рисом.",
+   "history": "Приготовление мяса в йогурте, известном как лабан, — давняя традиция Леванта, а киббе лабание — классическое домашнее блюдо Ливана и Сирии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "150 г мелкого булгура",
+     "300 г постного бараньего фарша",
+     "1 кг натурального йогурта",
+     "50 г круглозёрного риса",
+     "4 зубчика чеснока",
+     "1 ст. л. сушёной мяты",
+     "1 ч. л. соли"
+    ],
+    "steps": [
+     "Замочите булгур на 10 минут, отожмите и вымесите с бараниной и половиной соли в гладкое тесто; скатайте маленькие шарики.",
+     "Варите рис в 300 мл воды до полной мягкости.",
+     "Взбейте йогурт до гладкости, добавьте к рису и медленно доведите до кипения, постоянно помешивая в одну сторону.",
+     "Добавьте шарики киббе и томите на слабом огне 15–20 минут до готовности.",
+     "Разотрите чеснок с мятой и оставшейся солью, вмешайте в соус за последние 2 минуты и подавайте тёплым."
+    ]
+   },
+   "tips": [
+    "Используйте нежирный йогурт для соуса; он хорошо загустевает с рисом.",
+    "Делайте шарики поменьше, с большим количеством булгура и меньшим — баранины.",
+    "Подавайте как суповую миску без дополнительной тарелки риса."
+   ],
+   "name_inline": "киббе лабание"
+  },
+  "es": {
+   "name": "Kibbeh labanieh (kibbeh en yogur)",
+   "origin": "Levante · Líbano y Siria",
+   "intro": "El kibbeh labanieh es un plato caliente y ácido de pequeñas bolitas de kibbeh de bulgur y cordero cocidas en una salsa de yogur cocido. Se añade un poco de arroz al yogur para espesarlo y evitar que se corte, y la salsa se termina con ajo machacado con menta seca. El resultado es suave, cremoso y ligeramente ácido, y se come en tazón con cuchara, a menudo junto a arroz blanco.",
+   "history": "Cocinar la carne en yogur, conocido como laban, es una tradición levantina de larga data, y el kibbeh labanieh es un plato casero clásico en el Líbano y Siria.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "150 g de bulgur fino",
+     "300 g de carne molida de cordero magra",
+     "1 kg de yogur natural",
+     "50 g de arroz de grano corto",
+     "4 dientes de ajo",
+     "1 cda. de menta seca",
+     "1 cdta. de sal"
+    ],
+    "steps": [
+     "Remoja el bulgur 10 minutos, exprímelo y amásalo con el cordero y la mitad de la sal hasta formar una masa lisa; forma bolitas pequeñas.",
+     "Cuece el arroz en 300 ml de agua hasta que esté muy blando.",
+     "Bate el yogur hasta que quede liso, añádelo al arroz y llévalo despacio a hervor suave, revolviendo siempre en el mismo sentido.",
+     "Agrega las bolitas de kibbeh y cuece a fuego suave de 15 a 20 minutos, hasta que estén cocidas.",
+     "Machaca el ajo con la menta y la sal restante, incorpóralo a la salsa los últimos 2 minutos y sirve tibio."
+    ]
+   },
+   "tips": [
+    "Usa yogur bajo en grasa para la salsa; espesa bien con el arroz.",
+    "Haz bolitas más pequeñas con más bulgur y menos cordero.",
+    "Sírvelo solo, como un tazón tipo sopa, en lugar de con un plato extra de arroz."
+   ],
+   "name_inline": "el kibbeh labanieh"
   }
+ }
 }

@@ -1,170 +1,202 @@
 {
-  "db_key": "coq_au_vin",
-  "slug": "coq-au-vin",
-  "emoji": "🍷",
-  "portion_g": 350,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "coq_au_vin",
+ "slug": "coq-au-vin",
+ "emoji": "🍷",
+ "portion_g": 350,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Coq au vin",
+   "origin": "France · Burgundy",
+   "intro": "Coq au vin is chicken braised slowly in red wine with bacon, mushrooms, onions and garlic. The long cooking makes the meat tender enough to fall off the bone, while the wine reduces into a dark, glossy, deeply savoury sauce. It is a classic French main course, often served with potatoes or crusty bread to soak up the sauce.",
+   "history": "Coq au vin is closely associated with Burgundy, where an old rooster was traditionally braised in the region's red wine to tenderise it. Similar dishes exist across France with local wines, and the dish became internationally famous in the 20th century as a symbol of French home cooking.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1.5 kg chicken pieces, skin on",
+     "150 g bacon lardons",
+     "250 g mushrooms, quartered",
+     "12 small onions or shallots, peeled",
+     "3 garlic cloves, crushed",
+     "500 ml red wine",
+     "2 sprigs thyme and 1 bay leaf",
+     "1 tbsp oil, salt, black pepper"
+    ],
+    "steps": [
+     "Fry the bacon in the oil until crisp, remove, then brown the seasoned chicken in the fat on all sides.",
+     "Add the onions and garlic and cook for 3 minutes, then return the bacon.",
+     "Pour in the red wine, add the herbs, cover and simmer gently for about 1¼ hours until the chicken is tender.",
+     "Add the mushrooms for the last 20 minutes and simmer uncovered to reduce the sauce."
+    ]
+   },
+   "tips": [
+    "Remove the chicken skin before serving to save a good share of the fat.",
+    "Halve the bacon — it still gives plenty of smoky flavour.",
+    "Serve with steamed green beans or a salad instead of a large portion of potatoes."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Coq au vin",
-      "origin": "France · Burgundy",
-      "intro": "Coq au vin is chicken braised slowly in red wine with bacon, mushrooms, onions and garlic. The long cooking makes the meat tender enough to fall off the bone, while the wine reduces into a dark, glossy, deeply savoury sauce. It is a classic French main course, often served with potatoes or crusty bread to soak up the sauce.",
-      "history": "Coq au vin is closely associated with Burgundy, where an old rooster was traditionally braised in the region's red wine to tenderise it. Similar dishes exist across France with local wines, and the dish became internationally famous in the 20th century as a symbol of French home cooking.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1.5 kg chicken pieces, skin on",
-          "150 g bacon lardons",
-          "250 g mushrooms, quartered",
-          "12 small onions or shallots, peeled",
-          "3 garlic cloves, crushed",
-          "500 ml red wine",
-          "2 sprigs thyme and 1 bay leaf",
-          "1 tbsp oil, salt, black pepper"
-        ],
-        "steps": [
-          "Fry the bacon in the oil until crisp, remove, then brown the seasoned chicken in the fat on all sides.",
-          "Add the onions and garlic and cook for 3 minutes, then return the bacon.",
-          "Pour in the red wine, add the herbs, cover and simmer gently for about 1¼ hours until the chicken is tender.",
-          "Add the mushrooms for the last 20 minutes and simmer uncovered to reduce the sauce."
-        ]
-      },
-      "tips": [
-        "Remove the chicken skin before serving to save a good share of the fat.",
-        "Halve the bacon — it still gives plenty of smoky flavour.",
-        "Serve with steamed green beans or a salad instead of a large portion of potatoes."
-      ]
-    },
-    "ar": {
-      "name": "كوك أو فان",
-      "origin": "فرنسا · بورغونيا",
-      "intro": "كوك أو فان دجاج مطهو ببطء في النبيذ الأحمر مع اللحم المقدد والفطر والبصل والثوم. يجعل الطهي الطويل اللحم طرياً حتى ينفصل عن العظم، بينما يتكثف النبيذ إلى صلصة داكنة لامعة عميقة النكهة. وهو طبق رئيسي فرنسي كلاسيكي، يُقدَّم غالباً مع البطاطس أو الخبز المقرمش لتغميسه في الصلصة.",
-      "history": "يرتبط كوك أو فان ارتباطاً وثيقاً بمنطقة بورغونيا، حيث كان الديك المسن يُطهى تقليدياً في نبيذ المنطقة الأحمر ليصبح لحمه طرياً. وتوجد أطباق مشابهة في أنحاء فرنسا بأنواع نبيذ محلية، وقد اشتهر الطبق عالمياً في القرن العشرين رمزاً للطبخ المنزلي الفرنسي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1.5 كغ قطع دجاج بالجلد",
-          "150 غ مكعبات لحم مقدد",
-          "250 غ فطر مقطع أرباعاً",
-          "12 بصلة صغيرة أو كراث أندلسي مقشر",
-          "3 فصوص ثوم مهروسة",
-          "500 مل نبيذ أحمر",
-          "عودا زعتر وورقة غار",
-          "1 ملعقة كبيرة زيت وملح وفلفل أسود"
-        ],
-        "steps": [
-          "حمّر اللحم المقدد في الزيت حتى يتقرمش وأخرجه، ثم حمّر الدجاج المتبل في الدهن من جميع الجهات.",
-          "أضف البصل والثوم واطهُ 3 دقائق، ثم أعد اللحم المقدد.",
-          "أضف النبيذ الأحمر والأعشاب، وغطِّ القدر واتركه يغلي بهدوء نحو ساعة وربع حتى ينضج الدجاج.",
-          "أضف الفطر في آخر 20 دقيقة واتركه مكشوفاً لتتكثف الصلصة."
-        ]
-      },
-      "tips": [
-        "أزل جلد الدجاج قبل التقديم لتوفير جزء كبير من الدهون.",
-        "قلّل اللحم المقدد إلى النصف، وسيبقى طعمه المدخن واضحاً.",
-        "قدّمه مع فاصوليا خضراء مطهوة على البخار أو سلطة بدلاً من حصة كبيرة من البطاطس."
-      ]
-    },
-    "it": {
-      "name": "Coq au vin",
-      "origin": "Francia · Borgogna",
-      "intro": "Il coq au vin è pollo brasato lentamente nel vino rosso con pancetta, funghi, cipolle e aglio. La lunga cottura rende la carne così tenera da staccarsi dall'osso, mentre il vino si riduce in una salsa scura, lucida e molto saporita. È un classico secondo piatto francese, spesso servito con patate o pane croccante per raccogliere il sugo.",
-      "history": "Il coq au vin è strettamente legato alla Borgogna, dove tradizionalmente un vecchio gallo veniva brasato nel vino rosso della regione per renderlo tenero. Piatti simili esistono in tutta la Francia con i vini locali, e nel XX secolo il coq au vin è diventato famoso nel mondo come simbolo della cucina casalinga francese.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1,5 kg di pollo a pezzi con la pelle",
-          "150 g di pancetta a cubetti",
-          "250 g di funghi tagliati in quattro",
-          "12 cipolline o scalogni sbucciati",
-          "3 spicchi d'aglio schiacciati",
-          "500 ml di vino rosso",
-          "2 rametti di timo e 1 foglia di alloro",
-          "1 cucchiaio di olio, sale, pepe nero"
-        ],
-        "steps": [
-          "Rosola la pancetta nell'olio finché è croccante, toglila, poi rosola nel grasso il pollo condito con sale e pepe su tutti i lati.",
-          "Aggiungi le cipolline e l'aglio e cuoci per 3 minuti, poi rimetti la pancetta.",
-          "Versa il vino rosso, aggiungi le erbe, copri e cuoci a fuoco dolce per circa 1 ora e 15 minuti, finché il pollo è tenero.",
-          "Aggiungi i funghi negli ultimi 20 minuti e cuoci scoperto per far ridurre la salsa."
-        ]
-      },
-      "tips": [
-        "Togli la pelle del pollo prima di servire per risparmiare una buona parte dei grassi.",
-        "Dimezza la pancetta: dà comunque molto sapore affumicato.",
-        "Servi con fagiolini al vapore o un'insalata invece di una grande porzione di patate."
-      ]
-    },
-    "el": {
-      "name": "Κοκ ο βεν",
-      "origin": "Γαλλία · Βουργουνδία",
-      "intro": "Το κοκ ο βεν είναι κοτόπουλο σιγομαγειρεμένο σε κόκκινο κρασί με μπέικον, μανιτάρια, κρεμμύδια και σκόρδο. Το μακρύ μαγείρεμα κάνει το κρέας τόσο τρυφερό που ξεκολλάει από το κόκαλο, ενώ το κρασί δένει σε μια σκούρα, γυαλιστερή και πολύ νόστιμη σάλτσα. Είναι κλασικό γαλλικό κυρίως πιάτο και σερβίρεται συχνά με πατάτες ή τραγανό ψωμί για τη σάλτσα.",
-      "history": "Το κοκ ο βεν συνδέεται στενά με τη Βουργουνδία, όπου παραδοσιακά ένας γέρικος κόκορας μαγειρευόταν στο κόκκινο κρασί της περιοχής για να μαλακώσει. Παρόμοια πιάτα υπάρχουν σε όλη τη Γαλλία με τοπικά κρασιά, και τον 20ό αιώνα το πιάτο έγινε διεθνώς γνωστό ως σύμβολο της γαλλικής σπιτικής κουζίνας.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1,5 κιλό κοτόπουλο σε κομμάτια, με την πέτσα",
-          "150 γρ. μπέικον σε κυβάκια",
-          "250 γρ. μανιτάρια κομμένα στα τέσσερα",
-          "12 κρεμμυδάκια ή εσαλότ, καθαρισμένα",
-          "3 σκελίδες σκόρδο, λιωμένες",
-          "500 ml κόκκινο κρασί",
-          "2 κλωναράκια θυμάρι και 1 φύλλο δάφνης",
-          "1 κ.σ. λάδι, αλάτι, μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Τσιγαρίστε το μπέικον στο λάδι μέχρι να γίνει τραγανό, βγάλτε το και σοτάρετε στο λίπος το αλατοπιπερωμένο κοτόπουλο από όλες τις πλευρές.",
-          "Προσθέστε τα κρεμμυδάκια και το σκόρδο και μαγειρέψτε 3 λεπτά, έπειτα ξαναβάλτε το μπέικον.",
-          "Ρίξτε το κόκκινο κρασί, προσθέστε τα μυρωδικά, σκεπάστε και σιγοβράστε για περίπου 1¼ ώρα, μέχρι να μαλακώσει το κοτόπουλο.",
-          "Προσθέστε τα μανιτάρια τα τελευταία 20 λεπτά και σιγοβράστε ξεσκέπαστο για να δέσει η σάλτσα."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα του κοτόπουλου πριν από το σερβίρισμα για να γλιτώσετε σημαντικό μέρος του λίπους.",
-        "Βάλτε το μισό μπέικον — δίνει και πάλι αρκετή καπνιστή γεύση.",
-        "Σερβίρετε με φασολάκια στον ατμό ή σαλάτα αντί για μεγάλη μερίδα πατάτες."
-      ]
-    },
-    "ru": {
-      "name": "Петух в вине (кок-о-вен)",
-      "origin": "Франция · Бургундия",
-      "intro": "Кок-о-вен — курица, медленно тушёная в красном вине с беконом, грибами, луком и чесноком. Долгое приготовление делает мясо настолько нежным, что оно отходит от кости, а вино уваривается в тёмный глянцевый и глубоко пикантный соус. Это классическое французское основное блюдо, часто подаваемое с картофелем или хрустящим хлебом, чтобы собрать соус.",
-      "history": "Кок-о-вен тесно связан с Бургундией, где старого петуха традиционно тушили в красном вине региона, чтобы размягчить мясо. Похожие блюда существуют по всей Франции с местными винами, и в XX веке блюдо стало всемирно известным как символ французской домашней кухни.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1,5 кг кусочков курицы с кожей",
-          "150 г бекона брусочками",
-          "250 г грибов, разрезанных на четвертинки",
-          "12 мелких луковиц или шалотов, очищенных",
-          "3 зубчика чеснока, раздавленных",
-          "500 мл красного вина",
-          "2 веточки тимьяна и 1 лавровый лист",
-          "1 ст. л. масла, соль, чёрный перец"
-        ],
-        "steps": [
-          "Обжарьте бекон в масле до хруста, выньте, затем обжарьте приправленную курицу в жире со всех сторон.",
-          "Добавьте лук и чеснок и готовьте 3 минуты, затем верните бекон.",
-          "Влейте красное вино, добавьте травы, накройте и аккуратно тушите около 1 часа 15 минут, пока курица не станет мягкой.",
-          "Добавьте грибы за последние 20 минут и тушите без крышки, чтобы уварить соус."
-        ]
-      },
-      "tips": [
-        "Снимите кожу с курицы перед подачей, чтобы убрать значительную часть жира.",
-        "Возьмите вдвое меньше бекона — он всё равно даст много копчёного вкуса.",
-        "Подавайте с брокколи на пару или салатом вместо большой порции картофеля."
-      ],
-      "name_inline": "кок-о-вен"
-    }
+  "ar": {
+   "name": "كوك أو فان",
+   "origin": "فرنسا · بورغونيا",
+   "intro": "كوك أو فان دجاج مطهو ببطء في النبيذ الأحمر مع اللحم المقدد والفطر والبصل والثوم. يجعل الطهي الطويل اللحم طرياً حتى ينفصل عن العظم، بينما يتكثف النبيذ إلى صلصة داكنة لامعة عميقة النكهة. وهو طبق رئيسي فرنسي كلاسيكي، يُقدَّم غالباً مع البطاطس أو الخبز المقرمش لتغميسه في الصلصة.",
+   "history": "يرتبط كوك أو فان ارتباطاً وثيقاً بمنطقة بورغونيا، حيث كان الديك المسن يُطهى تقليدياً في نبيذ المنطقة الأحمر ليصبح لحمه طرياً. وتوجد أطباق مشابهة في أنحاء فرنسا بأنواع نبيذ محلية، وقد اشتهر الطبق عالمياً في القرن العشرين رمزاً للطبخ المنزلي الفرنسي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1.5 كغ قطع دجاج بالجلد",
+     "150 غ مكعبات لحم مقدد",
+     "250 غ فطر مقطع أرباعاً",
+     "12 بصلة صغيرة أو كراث أندلسي مقشر",
+     "3 فصوص ثوم مهروسة",
+     "500 مل نبيذ أحمر",
+     "عودا زعتر وورقة غار",
+     "1 ملعقة كبيرة زيت وملح وفلفل أسود"
+    ],
+    "steps": [
+     "حمّر اللحم المقدد في الزيت حتى يتقرمش وأخرجه، ثم حمّر الدجاج المتبل في الدهن من جميع الجهات.",
+     "أضف البصل والثوم واطهُ 3 دقائق، ثم أعد اللحم المقدد.",
+     "أضف النبيذ الأحمر والأعشاب، وغطِّ القدر واتركه يغلي بهدوء نحو ساعة وربع حتى ينضج الدجاج.",
+     "أضف الفطر في آخر 20 دقيقة واتركه مكشوفاً لتتكثف الصلصة."
+    ]
+   },
+   "tips": [
+    "أزل جلد الدجاج قبل التقديم لتوفير جزء كبير من الدهون.",
+    "قلّل اللحم المقدد إلى النصف، وسيبقى طعمه المدخن واضحاً.",
+    "قدّمه مع فاصوليا خضراء مطهوة على البخار أو سلطة بدلاً من حصة كبيرة من البطاطس."
+   ]
+  },
+  "it": {
+   "name": "Coq au vin",
+   "origin": "Francia · Borgogna",
+   "intro": "Il coq au vin è pollo brasato lentamente nel vino rosso con pancetta, funghi, cipolle e aglio. La lunga cottura rende la carne così tenera da staccarsi dall'osso, mentre il vino si riduce in una salsa scura, lucida e molto saporita. È un classico secondo piatto francese, spesso servito con patate o pane croccante per raccogliere il sugo.",
+   "history": "Il coq au vin è strettamente legato alla Borgogna, dove tradizionalmente un vecchio gallo veniva brasato nel vino rosso della regione per renderlo tenero. Piatti simili esistono in tutta la Francia con i vini locali, e nel XX secolo il coq au vin è diventato famoso nel mondo come simbolo della cucina casalinga francese.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1,5 kg di pollo a pezzi con la pelle",
+     "150 g di pancetta a cubetti",
+     "250 g di funghi tagliati in quattro",
+     "12 cipolline o scalogni sbucciati",
+     "3 spicchi d'aglio schiacciati",
+     "500 ml di vino rosso",
+     "2 rametti di timo e 1 foglia di alloro",
+     "1 cucchiaio di olio, sale, pepe nero"
+    ],
+    "steps": [
+     "Rosola la pancetta nell'olio finché è croccante, toglila, poi rosola nel grasso il pollo condito con sale e pepe su tutti i lati.",
+     "Aggiungi le cipolline e l'aglio e cuoci per 3 minuti, poi rimetti la pancetta.",
+     "Versa il vino rosso, aggiungi le erbe, copri e cuoci a fuoco dolce per circa 1 ora e 15 minuti, finché il pollo è tenero.",
+     "Aggiungi i funghi negli ultimi 20 minuti e cuoci scoperto per far ridurre la salsa."
+    ]
+   },
+   "tips": [
+    "Togli la pelle del pollo prima di servire per risparmiare una buona parte dei grassi.",
+    "Dimezza la pancetta: dà comunque molto sapore affumicato.",
+    "Servi con fagiolini al vapore o un'insalata invece di una grande porzione di patate."
+   ]
+  },
+  "el": {
+   "name": "Κοκ ο βεν",
+   "origin": "Γαλλία · Βουργουνδία",
+   "intro": "Το κοκ ο βεν είναι κοτόπουλο σιγομαγειρεμένο σε κόκκινο κρασί με μπέικον, μανιτάρια, κρεμμύδια και σκόρδο. Το μακρύ μαγείρεμα κάνει το κρέας τόσο τρυφερό που ξεκολλάει από το κόκαλο, ενώ το κρασί δένει σε μια σκούρα, γυαλιστερή και πολύ νόστιμη σάλτσα. Είναι κλασικό γαλλικό κυρίως πιάτο και σερβίρεται συχνά με πατάτες ή τραγανό ψωμί για τη σάλτσα.",
+   "history": "Το κοκ ο βεν συνδέεται στενά με τη Βουργουνδία, όπου παραδοσιακά ένας γέρικος κόκορας μαγειρευόταν στο κόκκινο κρασί της περιοχής για να μαλακώσει. Παρόμοια πιάτα υπάρχουν σε όλη τη Γαλλία με τοπικά κρασιά, και τον 20ό αιώνα το πιάτο έγινε διεθνώς γνωστό ως σύμβολο της γαλλικής σπιτικής κουζίνας.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1,5 κιλό κοτόπουλο σε κομμάτια, με την πέτσα",
+     "150 γρ. μπέικον σε κυβάκια",
+     "250 γρ. μανιτάρια κομμένα στα τέσσερα",
+     "12 κρεμμυδάκια ή εσαλότ, καθαρισμένα",
+     "3 σκελίδες σκόρδο, λιωμένες",
+     "500 ml κόκκινο κρασί",
+     "2 κλωναράκια θυμάρι και 1 φύλλο δάφνης",
+     "1 κ.σ. λάδι, αλάτι, μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Τσιγαρίστε το μπέικον στο λάδι μέχρι να γίνει τραγανό, βγάλτε το και σοτάρετε στο λίπος το αλατοπιπερωμένο κοτόπουλο από όλες τις πλευρές.",
+     "Προσθέστε τα κρεμμυδάκια και το σκόρδο και μαγειρέψτε 3 λεπτά, έπειτα ξαναβάλτε το μπέικον.",
+     "Ρίξτε το κόκκινο κρασί, προσθέστε τα μυρωδικά, σκεπάστε και σιγοβράστε για περίπου 1¼ ώρα, μέχρι να μαλακώσει το κοτόπουλο.",
+     "Προσθέστε τα μανιτάρια τα τελευταία 20 λεπτά και σιγοβράστε ξεσκέπαστο για να δέσει η σάλτσα."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα του κοτόπουλου πριν από το σερβίρισμα για να γλιτώσετε σημαντικό μέρος του λίπους.",
+    "Βάλτε το μισό μπέικον — δίνει και πάλι αρκετή καπνιστή γεύση.",
+    "Σερβίρετε με φασολάκια στον ατμό ή σαλάτα αντί για μεγάλη μερίδα πατάτες."
+   ]
+  },
+  "ru": {
+   "name": "Петух в вине (кок-о-вен)",
+   "origin": "Франция · Бургундия",
+   "intro": "Кок-о-вен — курица, медленно тушёная в красном вине с беконом, грибами, луком и чесноком. Долгое приготовление делает мясо настолько нежным, что оно отходит от кости, а вино уваривается в тёмный глянцевый и глубоко пикантный соус. Это классическое французское основное блюдо, часто подаваемое с картофелем или хрустящим хлебом, чтобы собрать соус.",
+   "history": "Кок-о-вен тесно связан с Бургундией, где старого петуха традиционно тушили в красном вине региона, чтобы размягчить мясо. Похожие блюда существуют по всей Франции с местными винами, и в XX веке блюдо стало всемирно известным как символ французской домашней кухни.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1,5 кг кусочков курицы с кожей",
+     "150 г бекона брусочками",
+     "250 г грибов, разрезанных на четвертинки",
+     "12 мелких луковиц или шалотов, очищенных",
+     "3 зубчика чеснока, раздавленных",
+     "500 мл красного вина",
+     "2 веточки тимьяна и 1 лавровый лист",
+     "1 ст. л. масла, соль, чёрный перец"
+    ],
+    "steps": [
+     "Обжарьте бекон в масле до хруста, выньте, затем обжарьте приправленную курицу в жире со всех сторон.",
+     "Добавьте лук и чеснок и готовьте 3 минуты, затем верните бекон.",
+     "Влейте красное вино, добавьте травы, накройте и аккуратно тушите около 1 часа 15 минут, пока курица не станет мягкой.",
+     "Добавьте грибы за последние 20 минут и тушите без крышки, чтобы уварить соус."
+    ]
+   },
+   "tips": [
+    "Снимите кожу с курицы перед подачей, чтобы убрать значительную часть жира.",
+    "Возьмите вдвое меньше бекона — он всё равно даст много копчёного вкуса.",
+    "Подавайте с брокколи на пару или салатом вместо большой порции картофеля."
+   ],
+   "name_inline": "кок-о-вен"
+  },
+  "es": {
+   "name": "Coq au vin",
+   "origin": "Francia · Borgoña",
+   "intro": "El coq au vin es pollo cocinado lentamente en vino tinto con tocino, hongos, cebollas y ajo. La cocción larga deja la carne tan tierna que se separa del hueso, mientras el vino se reduce hasta formar una salsa oscura, brillante y muy sabrosa. Es un plato principal clásico francés, que suele servirse con papas o pan crujiente para mojar en la salsa.",
+   "history": "El coq au vin está muy ligado a Borgoña, donde tradicionalmente se guisaba un gallo viejo en el vino tinto de la región para ablandarlo. Existen platos parecidos en toda Francia con vinos locales, y en el siglo XX se hizo famoso en el mundo como símbolo de la cocina casera francesa.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1.5 kg de piezas de pollo, con piel",
+     "150 g de tocino en tiras",
+     "250 g de hongos, en cuartos",
+     "12 cebollas pequeñas o chalotas, peladas",
+     "3 dientes de ajo, machacados",
+     "500 ml de vino tinto",
+     "2 ramitas de tomillo y 1 hoja de laurel",
+     "1 cda. de aceite, sal, pimienta negra"
+    ],
+    "steps": [
+     "Fríe el tocino en el aceite hasta que quede crujiente, retíralo y dora por todos lados el pollo sazonado en esa grasa.",
+     "Agrega las cebollas y el ajo y cocina 3 minutos; luego regresa el tocino.",
+     "Vierte el vino tinto, añade las hierbas, tapa y cuece a fuego bajo unos 1¼ horas, hasta que el pollo esté tierno.",
+     "Agrega los hongos durante los últimos 20 minutos y cuece sin tapar para reducir la salsa."
+    ]
+   },
+   "tips": [
+    "Quita la piel del pollo antes de servir para ahorrar una buena parte de la grasa.",
+    "Usa la mitad del tocino: aun así aporta mucho sabor ahumado.",
+    "Sirve con ejotes al vapor o una ensalada en lugar de una porción grande de papas."
+   ],
+   "name_inline": "el coq au vin"
   }
+ }
 }

@@ -1,182 +1,216 @@
 {
-  "db_key": "custard_bun",
-  "slug": "custard-bun",
-  "emoji": "🥟",
-  "portion_g": 60,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "custard_bun",
+ "slug": "custard-bun",
+ "emoji": "🥟",
+ "portion_g": 60,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Custard bun (nai wong bao)",
+   "origin": "China · Hong Kong and Guangdong",
+   "intro": "Custard buns are soft, fluffy steamed buns filled with a smooth, sweet custard of egg, milk, butter and sugar. The white dough is pillowy and slightly chewy, while the golden filling is rich and gently set. They are a classic dim sum item, served warm in bamboo steamers with tea.",
+   "history": "Nai wong bao belongs to the Cantonese dim sum tradition of Guangdong and Hong Kong, where steamed sweet buns are a teahouse staple. Today they are found on dim sum menus across China and in Chinese restaurants worldwide.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "300 g plain flour",
+     "1 tsp instant yeast",
+     "30 g sugar for the dough",
+     "160 ml warm milk for the dough",
+     "3 eggs",
+     "80 g sugar for the filling",
+     "150 ml milk for the filling",
+     "30 g butter",
+     "2 tbsp flour for the filling"
+    ],
+    "steps": [
+     "Mix the 300 g flour, yeast, 30 g sugar and warm milk into a smooth dough and leave to rise for 1 hour.",
+     "Whisk the eggs, sugar, milk and 2 tbsp flour, then steam or stir over low heat until set into a thick custard.",
+     "Beat in the butter while warm, chill until firm and divide into 12 balls.",
+     "Divide the dough into 12, flatten each piece, wrap around a custard ball and pinch closed.",
+     "Place on squares of baking paper, rest for 15 minutes, then steam over high heat for 10–12 minutes."
+    ]
+   },
+   "tips": [
+    "One bun is a natural portion; pair it with unsweetened tea rather than a sweet drink.",
+    "Cut the filling sugar to 60 g; the custard still tastes sweet.",
+    "Make smaller buns from the same dough to get 16 portions instead of 12."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Custard bun (nai wong bao)",
-      "origin": "China · Hong Kong and Guangdong",
-      "intro": "Custard buns are soft, fluffy steamed buns filled with a smooth, sweet custard of egg, milk, butter and sugar. The white dough is pillowy and slightly chewy, while the golden filling is rich and gently set. They are a classic dim sum item, served warm in bamboo steamers with tea.",
-      "history": "Nai wong bao belongs to the Cantonese dim sum tradition of Guangdong and Hong Kong, where steamed sweet buns are a teahouse staple. Today they are found on dim sum menus across China and in Chinese restaurants worldwide.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "300 g plain flour",
-          "1 tsp instant yeast",
-          "30 g sugar for the dough",
-          "160 ml warm milk for the dough",
-          "3 eggs",
-          "80 g sugar for the filling",
-          "150 ml milk for the filling",
-          "30 g butter",
-          "2 tbsp flour for the filling"
-        ],
-        "steps": [
-          "Mix the 300 g flour, yeast, 30 g sugar and warm milk into a smooth dough and leave to rise for 1 hour.",
-          "Whisk the eggs, sugar, milk and 2 tbsp flour, then steam or stir over low heat until set into a thick custard.",
-          "Beat in the butter while warm, chill until firm and divide into 12 balls.",
-          "Divide the dough into 12, flatten each piece, wrap around a custard ball and pinch closed.",
-          "Place on squares of baking paper, rest for 15 minutes, then steam over high heat for 10–12 minutes."
-        ]
-      },
-      "tips": [
-        "One bun is a natural portion; pair it with unsweetened tea rather than a sweet drink.",
-        "Cut the filling sugar to 60 g; the custard still tastes sweet.",
-        "Make smaller buns from the same dough to get 16 portions instead of 12."
-      ]
-    },
-    "ar": {
-      "name": "كعكة الكاسترد المطهوة على البخار",
-      "origin": "الصين · هونغ كونغ وقوانغدونغ",
-      "intro": "كعكات الكاسترد خبز طري منفوش مطهو على البخار ومحشو بكاسترد ناعم حلو من البيض والحليب والزبدة والسكر. العجينة البيضاء ليّنة ومطاطية قليلاً، والحشوة الذهبية غنية ومتماسكة برفق. هي من أصناف الديم سوم الكلاسيكية، تُقدَّم دافئة في سلال الخيزران مع الشاي.",
-      "history": "تنتمي هذه الكعكات إلى تقليد الديم سوم الكانتوني في قوانغدونغ وهونغ كونغ، حيث تُعد الكعكات الحلوة المطهوة على البخار من أساسيات بيوت الشاي. وتوجد اليوم في قوائم الديم سوم في أنحاء الصين وفي المطاعم الصينية حول العالم.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "300 غ دقيق أبيض",
-          "1 ملعقة صغيرة خميرة فورية",
-          "30 غ سكر للعجينة",
-          "160 مل حليب دافئ للعجينة",
-          "3 بيضات",
-          "80 غ سكر للحشوة",
-          "150 مل حليب للحشوة",
-          "30 غ زبدة",
-          "2 ملعقة كبيرة دقيق للحشوة"
-        ],
-        "steps": [
-          "اخلط 300 غ دقيق مع الخميرة و30 غ سكر والحليب الدافئ حتى تتكوّن عجينة ناعمة، واتركها تتخمّر ساعة.",
-          "اخفق البيض والسكر والحليب وملعقتي الدقيق، ثم اطهِ الخليط على البخار أو على نار هادئة مع التحريك حتى يتماسك كاستردًا كثيفاً.",
-          "أضف الزبدة وهو دافئ، ثم برّده حتى يتماسك وقسّمه إلى 12 كرة.",
-          "قسّم العجينة إلى 12 قطعة، افرد كل قطعة ولفّها حول كرة كاسترد وأغلقها جيداً.",
-          "ضعها على مربعات من ورق الخبز واتركها 15 دقيقة، ثم اطهها على بخار قوي 10–12 دقيقة."
-        ]
-      },
-      "tips": [
-        "الكعكة الواحدة حصة طبيعية؛ تناولها مع شاي غير محلّى بدل مشروب سكري.",
-        "قلّل سكر الحشوة إلى 60 غ، فيبقى الكاسترد حلواً.",
-        "اصنع كعكات أصغر من العجينة نفسها لتحصل على 16 حصة بدل 12."
-      ]
-    },
-    "it": {
-      "name": "Panino alla crema (nai wong bao)",
-      "name_inline": "panino alla crema",
-      "origin": "Cina · Hong Kong e Guangdong",
-      "intro": "I panini alla crema sono panini al vapore morbidi e soffici ripieni di una crema liscia e dolce di uova, latte, burro e zucchero. L'impasto bianco è vaporoso e leggermente elastico, mentre il ripieno dorato è ricco e appena rappreso. Sono un classico del dim sum, serviti caldi nei cestelli di bambù con il tè.",
-      "history": "Il nai wong bao appartiene alla tradizione cantonese del dim sum del Guangdong e di Hong Kong, dove i panini dolci al vapore sono un classico delle case da tè. Oggi si trovano nei menu di dim sum in tutta la Cina e nei ristoranti cinesi di tutto il mondo.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "300 g di farina 00",
-          "1 cucchiaino di lievito secco istantaneo",
-          "30 g di zucchero per l'impasto",
-          "160 ml di latte tiepido per l'impasto",
-          "3 uova",
-          "80 g di zucchero per il ripieno",
-          "150 ml di latte per il ripieno",
-          "30 g di burro",
-          "2 cucchiai di farina per il ripieno"
-        ],
-        "steps": [
-          "Impasta i 300 g di farina, il lievito, 30 g di zucchero e il latte tiepido fino a ottenere un impasto liscio e lascialo lievitare 1 ora.",
-          "Sbatti le uova, lo zucchero, il latte e 2 cucchiai di farina, poi cuoci al vapore o mescola a fuoco basso finché si rapprende in una crema densa.",
-          "Incorpora il burro finché è ancora calda, mettila in frigorifero finché è soda e dividila in 12 palline.",
-          "Dividi l'impasto in 12 pezzi, appiattisci ciascuno, avvolgilo attorno a una pallina di crema e chiudilo pizzicando.",
-          "Mettili su quadrati di carta da forno, lasciali riposare 15 minuti, poi cuocili al vapore a fuoco vivo per 10–12 minuti."
-        ]
-      },
-      "tips": [
-        "Un panino è una porzione naturale; abbinalo a un tè non zuccherato invece che a una bevanda dolce.",
-        "Riduci lo zucchero del ripieno a 60 g: la crema resta comunque dolce.",
-        "Con lo stesso impasto fai panini più piccoli per ottenere 16 porzioni invece di 12."
-      ]
-    },
-    "el": {
-      "name": "Ψωμάκι με κρέμα (νάι γουόνγκ μπάο)",
-      "name_inline": "ψωμάκι με κρέμα",
-      "origin": "Κίνα · Χονγκ Κονγκ και Γκουανγκντόνγκ",
-      "intro": "Τα ψωμάκια με κρέμα είναι μαλακά, αφράτα ψωμάκια στον ατμό, γεμισμένα με λεία, γλυκιά κρέμα από αυγά, γάλα, βούτυρο και ζάχαρη. Η λευκή ζύμη είναι σαν μαξιλαράκι και ελαφρώς ελαστική, ενώ η χρυσαφένια γέμιση είναι πλούσια και απαλά σφιχτή. Είναι κλασικό ντιμ σαμ και σερβίρονται ζεστά σε μπαμπού καλάθια ατμού με τσάι.",
-      "history": "Το νάι γουόνγκ μπάο ανήκει στην καντονέζικη παράδοση του ντιμ σαμ του Γκουανγκντόνγκ και του Χονγκ Κονγκ, όπου τα γλυκά ψωμάκια στον ατμό είναι βασικό είδος των τεϊοποτείων. Σήμερα βρίσκονται σε καταλόγους ντιμ σαμ σε όλη την Κίνα και σε κινεζικά εστιατόρια σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "300 γρ. αλεύρι για όλες τις χρήσεις",
-          "1 κ.γ. στιγμιαία μαγιά",
-          "30 γρ. ζάχαρη για τη ζύμη",
-          "160 ml χλιαρό γάλα για τη ζύμη",
-          "3 αυγά",
-          "80 γρ. ζάχαρη για τη γέμιση",
-          "150 ml γάλα για τη γέμιση",
-          "30 γρ. βούτυρο",
-          "2 κ.σ. αλεύρι για τη γέμιση"
-        ],
-        "steps": [
-          "Ανακατέψτε τα 300 γρ. αλεύρι, τη μαγιά, 30 γρ. ζάχαρη και το χλιαρό γάλα σε λεία ζύμη και αφήστε τη να φουσκώσει 1 ώρα.",
-          "Χτυπήστε τα αυγά, τη ζάχαρη, το γάλα και 2 κ.σ. αλεύρι και μετά μαγειρέψτε στον ατμό ή ανακατεύοντας σε χαμηλή φωτιά μέχρι να γίνει πηχτή κρέμα.",
-          "Ενσωματώστε το βούτυρο όσο είναι ζεστή, βάλτε τη στο ψυγείο μέχρι να σφίξει και χωρίστε τη σε 12 μπαλίτσες.",
-          "Χωρίστε τη ζύμη σε 12 κομμάτια, ανοίξτε το καθένα, τυλίξτε το γύρω από μια μπαλίτσα κρέμας και κλείστε το τσιμπώντας.",
-          "Βάλτε τα σε τετράγωνα λαδόχαρτου, αφήστε τα 15 λεπτά και μαγειρέψτε στον ατμό σε δυνατή φωτιά για 10–12 λεπτά."
-        ]
-      },
-      "tips": [
-        "Ένα ψωμάκι είναι μια φυσική μερίδα· συνοδέψτε το με τσάι χωρίς ζάχαρη αντί για γλυκό ρόφημα.",
-        "Μειώστε τη ζάχαρη της γέμισης στα 60 γρ.· η κρέμα παραμένει γλυκιά.",
-        "Φτιάξτε μικρότερα ψωμάκια από την ίδια ζύμη, για να βγάλετε 16 μερίδες αντί για 12."
-      ]
-    },
-    "ru": {
-      "name": "Булочка с заварным кремом (най вон бао)",
-      "origin": "Китай · Гонконг и Гуандун",
-      "intro": "Булочки с заварным кремом — мягкие пышные булочки на пару с гладкой сладкой заварной начинкой из яиц, молока, сливочного масла и сахара. Белое тесто воздушное и слегка упругое, а золотистая начинка насыщенная и нежно застывшая. Это классическое блюдо димсам, которое подают тёплым в бамбуковых пароварках с чаем.",
-      "history": "Най вон бао относятся к кантонской традиции димсам Гуандуна и Гонконга, где сладкие булочки на пару — основа чайных домов. Сегодня их можно найти в меню димсам по всему Китаю и в китайских ресторанах мира.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "300 г пшеничной муки",
-          "1 ч. л. быстродействующих дрожжей",
-          "30 г сахара для теста",
-          "160 мл тёплого молока для теста",
-          "3 яйца",
-          "80 г сахара для начинки",
-          "150 мл молока для начинки",
-          "30 г сливочного масла",
-          "2 ст. л. муки для начинки"
-        ],
-        "steps": [
-          "Замесите из 300 г муки, дрожжей, 30 г сахара и тёплого молока гладкое тесто и оставьте подходить на 1 час.",
-          "Взбейте яйца, сахар, молоко и 2 ст. л. муки, затем готовьте на пару или на медленном огне, помешивая, до загустения в плотный крем.",
-          "Вмешайте масло, пока крем тёплый, охладите до плотности и разделите на 12 шариков.",
-          "Разделите тесто на 12 частей, расплющите каждую, оберните вокруг шарика крема и защипните.",
-          "Выложите на квадратики бумаги для выпечки, оставьте на 15 минут, затем готовьте на пару на сильном огне 10–12 минут."
-        ]
-      },
-      "tips": [
-        "Одна булочка — естественная порция; запивайте её несладким чаем, а не сладким напитком.",
-        "Уменьшите сахар в начинке до 60 г; крем всё равно будет сладким.",
-        "Сделайте из того же теста булочки поменьше, чтобы получить 16 порций вместо 12."
-      ],
-      "name_inline": "булочка с заварным кремом"
-    }
+  "ar": {
+   "name": "كعكة الكاسترد المطهوة على البخار",
+   "origin": "الصين · هونغ كونغ وقوانغدونغ",
+   "intro": "كعكات الكاسترد خبز طري منفوش مطهو على البخار ومحشو بكاسترد ناعم حلو من البيض والحليب والزبدة والسكر. العجينة البيضاء ليّنة ومطاطية قليلاً، والحشوة الذهبية غنية ومتماسكة برفق. هي من أصناف الديم سوم الكلاسيكية، تُقدَّم دافئة في سلال الخيزران مع الشاي.",
+   "history": "تنتمي هذه الكعكات إلى تقليد الديم سوم الكانتوني في قوانغدونغ وهونغ كونغ، حيث تُعد الكعكات الحلوة المطهوة على البخار من أساسيات بيوت الشاي. وتوجد اليوم في قوائم الديم سوم في أنحاء الصين وفي المطاعم الصينية حول العالم.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "300 غ دقيق أبيض",
+     "1 ملعقة صغيرة خميرة فورية",
+     "30 غ سكر للعجينة",
+     "160 مل حليب دافئ للعجينة",
+     "3 بيضات",
+     "80 غ سكر للحشوة",
+     "150 مل حليب للحشوة",
+     "30 غ زبدة",
+     "2 ملعقة كبيرة دقيق للحشوة"
+    ],
+    "steps": [
+     "اخلط 300 غ دقيق مع الخميرة و30 غ سكر والحليب الدافئ حتى تتكوّن عجينة ناعمة، واتركها تتخمّر ساعة.",
+     "اخفق البيض والسكر والحليب وملعقتي الدقيق، ثم اطهِ الخليط على البخار أو على نار هادئة مع التحريك حتى يتماسك كاستردًا كثيفاً.",
+     "أضف الزبدة وهو دافئ، ثم برّده حتى يتماسك وقسّمه إلى 12 كرة.",
+     "قسّم العجينة إلى 12 قطعة، افرد كل قطعة ولفّها حول كرة كاسترد وأغلقها جيداً.",
+     "ضعها على مربعات من ورق الخبز واتركها 15 دقيقة، ثم اطهها على بخار قوي 10–12 دقيقة."
+    ]
+   },
+   "tips": [
+    "الكعكة الواحدة حصة طبيعية؛ تناولها مع شاي غير محلّى بدل مشروب سكري.",
+    "قلّل سكر الحشوة إلى 60 غ، فيبقى الكاسترد حلواً.",
+    "اصنع كعكات أصغر من العجينة نفسها لتحصل على 16 حصة بدل 12."
+   ]
+  },
+  "it": {
+   "name": "Panino alla crema (nai wong bao)",
+   "name_inline": "panino alla crema",
+   "origin": "Cina · Hong Kong e Guangdong",
+   "intro": "I panini alla crema sono panini al vapore morbidi e soffici ripieni di una crema liscia e dolce di uova, latte, burro e zucchero. L'impasto bianco è vaporoso e leggermente elastico, mentre il ripieno dorato è ricco e appena rappreso. Sono un classico del dim sum, serviti caldi nei cestelli di bambù con il tè.",
+   "history": "Il nai wong bao appartiene alla tradizione cantonese del dim sum del Guangdong e di Hong Kong, dove i panini dolci al vapore sono un classico delle case da tè. Oggi si trovano nei menu di dim sum in tutta la Cina e nei ristoranti cinesi di tutto il mondo.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "300 g di farina 00",
+     "1 cucchiaino di lievito secco istantaneo",
+     "30 g di zucchero per l'impasto",
+     "160 ml di latte tiepido per l'impasto",
+     "3 uova",
+     "80 g di zucchero per il ripieno",
+     "150 ml di latte per il ripieno",
+     "30 g di burro",
+     "2 cucchiai di farina per il ripieno"
+    ],
+    "steps": [
+     "Impasta i 300 g di farina, il lievito, 30 g di zucchero e il latte tiepido fino a ottenere un impasto liscio e lascialo lievitare 1 ora.",
+     "Sbatti le uova, lo zucchero, il latte e 2 cucchiai di farina, poi cuoci al vapore o mescola a fuoco basso finché si rapprende in una crema densa.",
+     "Incorpora il burro finché è ancora calda, mettila in frigorifero finché è soda e dividila in 12 palline.",
+     "Dividi l'impasto in 12 pezzi, appiattisci ciascuno, avvolgilo attorno a una pallina di crema e chiudilo pizzicando.",
+     "Mettili su quadrati di carta da forno, lasciali riposare 15 minuti, poi cuocili al vapore a fuoco vivo per 10–12 minuti."
+    ]
+   },
+   "tips": [
+    "Un panino è una porzione naturale; abbinalo a un tè non zuccherato invece che a una bevanda dolce.",
+    "Riduci lo zucchero del ripieno a 60 g: la crema resta comunque dolce.",
+    "Con lo stesso impasto fai panini più piccoli per ottenere 16 porzioni invece di 12."
+   ]
+  },
+  "el": {
+   "name": "Ψωμάκι με κρέμα (νάι γουόνγκ μπάο)",
+   "name_inline": "ψωμάκι με κρέμα",
+   "origin": "Κίνα · Χονγκ Κονγκ και Γκουανγκντόνγκ",
+   "intro": "Τα ψωμάκια με κρέμα είναι μαλακά, αφράτα ψωμάκια στον ατμό, γεμισμένα με λεία, γλυκιά κρέμα από αυγά, γάλα, βούτυρο και ζάχαρη. Η λευκή ζύμη είναι σαν μαξιλαράκι και ελαφρώς ελαστική, ενώ η χρυσαφένια γέμιση είναι πλούσια και απαλά σφιχτή. Είναι κλασικό ντιμ σαμ και σερβίρονται ζεστά σε μπαμπού καλάθια ατμού με τσάι.",
+   "history": "Το νάι γουόνγκ μπάο ανήκει στην καντονέζικη παράδοση του ντιμ σαμ του Γκουανγκντόνγκ και του Χονγκ Κονγκ, όπου τα γλυκά ψωμάκια στον ατμό είναι βασικό είδος των τεϊοποτείων. Σήμερα βρίσκονται σε καταλόγους ντιμ σαμ σε όλη την Κίνα και σε κινεζικά εστιατόρια σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "300 γρ. αλεύρι για όλες τις χρήσεις",
+     "1 κ.γ. στιγμιαία μαγιά",
+     "30 γρ. ζάχαρη για τη ζύμη",
+     "160 ml χλιαρό γάλα για τη ζύμη",
+     "3 αυγά",
+     "80 γρ. ζάχαρη για τη γέμιση",
+     "150 ml γάλα για τη γέμιση",
+     "30 γρ. βούτυρο",
+     "2 κ.σ. αλεύρι για τη γέμιση"
+    ],
+    "steps": [
+     "Ανακατέψτε τα 300 γρ. αλεύρι, τη μαγιά, 30 γρ. ζάχαρη και το χλιαρό γάλα σε λεία ζύμη και αφήστε τη να φουσκώσει 1 ώρα.",
+     "Χτυπήστε τα αυγά, τη ζάχαρη, το γάλα και 2 κ.σ. αλεύρι και μετά μαγειρέψτε στον ατμό ή ανακατεύοντας σε χαμηλή φωτιά μέχρι να γίνει πηχτή κρέμα.",
+     "Ενσωματώστε το βούτυρο όσο είναι ζεστή, βάλτε τη στο ψυγείο μέχρι να σφίξει και χωρίστε τη σε 12 μπαλίτσες.",
+     "Χωρίστε τη ζύμη σε 12 κομμάτια, ανοίξτε το καθένα, τυλίξτε το γύρω από μια μπαλίτσα κρέμας και κλείστε το τσιμπώντας.",
+     "Βάλτε τα σε τετράγωνα λαδόχαρτου, αφήστε τα 15 λεπτά και μαγειρέψτε στον ατμό σε δυνατή φωτιά για 10–12 λεπτά."
+    ]
+   },
+   "tips": [
+    "Ένα ψωμάκι είναι μια φυσική μερίδα· συνοδέψτε το με τσάι χωρίς ζάχαρη αντί για γλυκό ρόφημα.",
+    "Μειώστε τη ζάχαρη της γέμισης στα 60 γρ.· η κρέμα παραμένει γλυκιά.",
+    "Φτιάξτε μικρότερα ψωμάκια από την ίδια ζύμη, για να βγάλετε 16 μερίδες αντί για 12."
+   ]
+  },
+  "ru": {
+   "name": "Булочка с заварным кремом (най вон бао)",
+   "origin": "Китай · Гонконг и Гуандун",
+   "intro": "Булочки с заварным кремом — мягкие пышные булочки на пару с гладкой сладкой заварной начинкой из яиц, молока, сливочного масла и сахара. Белое тесто воздушное и слегка упругое, а золотистая начинка насыщенная и нежно застывшая. Это классическое блюдо димсам, которое подают тёплым в бамбуковых пароварках с чаем.",
+   "history": "Най вон бао относятся к кантонской традиции димсам Гуандуна и Гонконга, где сладкие булочки на пару — основа чайных домов. Сегодня их можно найти в меню димсам по всему Китаю и в китайских ресторанах мира.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "300 г пшеничной муки",
+     "1 ч. л. быстродействующих дрожжей",
+     "30 г сахара для теста",
+     "160 мл тёплого молока для теста",
+     "3 яйца",
+     "80 г сахара для начинки",
+     "150 мл молока для начинки",
+     "30 г сливочного масла",
+     "2 ст. л. муки для начинки"
+    ],
+    "steps": [
+     "Замесите из 300 г муки, дрожжей, 30 г сахара и тёплого молока гладкое тесто и оставьте подходить на 1 час.",
+     "Взбейте яйца, сахар, молоко и 2 ст. л. муки, затем готовьте на пару или на медленном огне, помешивая, до загустения в плотный крем.",
+     "Вмешайте масло, пока крем тёплый, охладите до плотности и разделите на 12 шариков.",
+     "Разделите тесто на 12 частей, расплющите каждую, оберните вокруг шарика крема и защипните.",
+     "Выложите на квадратики бумаги для выпечки, оставьте на 15 минут, затем готовьте на пару на сильном огне 10–12 минут."
+    ]
+   },
+   "tips": [
+    "Одна булочка — естественная порция; запивайте её несладким чаем, а не сладким напитком.",
+    "Уменьшите сахар в начинке до 60 г; крем всё равно будет сладким.",
+    "Сделайте из того же теста булочки поменьше, чтобы получить 16 порций вместо 12."
+   ],
+   "name_inline": "булочка с заварным кремом"
+  },
+  "es": {
+   "name": "Bollo de natilla al vapor (nai wong bao)",
+   "origin": "China · Hong Kong y Guangdong",
+   "intro": "Los bollos de natilla son panecillos esponjosos y suaves al vapor, rellenos de una crema dulce y lisa de huevo, leche, mantequilla y azúcar. La masa blanca es mullida y ligeramente elástica, y el relleno dorado es rico y de textura suave. Son un clásico del dim sum y se sirven tibios en cestas de bambú con té.",
+   "history": "El nai wong bao pertenece a la tradición cantonesa del dim sum de Guangdong y Hong Kong, donde los bollos dulces al vapor son un básico de las casas de té. Hoy se encuentran en las cartas de dim sum de toda China y en los restaurantes chinos del mundo.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "300 g de harina de trigo",
+     "1 cdta. de levadura instantánea",
+     "30 g de azúcar para la masa",
+     "160 ml de leche tibia para la masa",
+     "3 huevos",
+     "80 g de azúcar para el relleno",
+     "150 ml de leche para el relleno",
+     "30 g de mantequilla",
+     "2 cda. de harina para el relleno"
+    ],
+    "steps": [
+     "Mezcla los 300 g de harina, la levadura, los 30 g de azúcar y la leche tibia hasta obtener una masa lisa y déjala reposar 1 hora para que leude.",
+     "Bate los huevos, el azúcar, la leche y 2 cda. de harina, y cocina al vapor o a fuego bajo, removiendo, hasta que cuaje en una crema espesa.",
+     "Incorpora la mantequilla batiendo mientras está tibia, refrigera hasta que esté firme y divide en 12 bolitas.",
+     "Divide la masa en 12 partes, aplana cada una, envuelve una bolita de crema y sella pellizcando.",
+     "Coloca los bollos sobre cuadros de papel para hornear, déjalos reposar 15 minutos y cuécelos al vapor a fuego fuerte de 10 a 12 minutos."
+    ]
+   },
+   "tips": [
+    "Un bollo es una porción natural; acompáñalo con té sin azúcar en lugar de una bebida dulce.",
+    "Reduce el azúcar del relleno a 60 g; la crema sigue sabiendo dulce.",
+    "Haz bollos más pequeños con la misma masa para obtener 16 porciones en lugar de 12."
+   ],
+   "name_inline": "el bollo de natilla al vapor"
   }
+ }
 }

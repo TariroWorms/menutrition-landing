@@ -1,180 +1,214 @@
 {
-  "db_key": "tonkotsu_ramen",
-  "slug": "tonkotsu-ramen",
-  "emoji": "🍜",
-  "portion_g": 550,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tonkotsu_ramen",
+ "slug": "tonkotsu-ramen",
+ "emoji": "🍜",
+ "portion_g": 550,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tonkotsu Ramen",
+   "origin": "Japan · Fukuoka (Kyushu)",
+   "intro": "Tonkotsu ramen is a noodle soup made with a cloudy, milky broth from pork bones boiled hard for many hours. Thin wheat noodles go into the bowl with slices of tender pork belly, a soft-boiled egg, sheets of nori and sliced scallions. The broth is rich and savoury, and the noodles are served firm.",
+   "history": "Tonkotsu ramen is associated with Kyushu, especially Fukuoka and Kurume, where pork-bone broths became popular in the mid-20th century. It has since spread throughout Japan and to ramen shops worldwide.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1.5 kg pork bones",
+     "2 l water",
+     "500 g pork belly",
+     "4 eggs",
+     "400 g fresh ramen noodles",
+     "4 scallions, sliced",
+     "4 sheets nori",
+     "3 garlic cloves and 1 piece ginger",
+     "Salt"
+    ],
+    "steps": [
+     "Blanch the bones, rinse, then boil hard in fresh water with garlic and ginger for at least 3 hours, topping up, until milky.",
+     "Simmer the pork belly in the broth for about 1.5 hours, then cool and slice.",
+     "Boil the eggs for 6.5 minutes, cool in cold water and peel.",
+     "Strain the broth and season with salt.",
+     "Cook the noodles briefly, divide into bowls, ladle over the broth and top with pork, halved egg, nori and scallions."
+    ]
+   },
+   "tips": [
+    "Chill the broth and lift off the solid fat before reheating.",
+    "Use fewer slices of pork belly and more scallions.",
+    "Leave some of the broth in the bowl: it holds much of the fat and salt."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tonkotsu Ramen",
-      "origin": "Japan · Fukuoka (Kyushu)",
-      "intro": "Tonkotsu ramen is a noodle soup made with a cloudy, milky broth from pork bones boiled hard for many hours. Thin wheat noodles go into the bowl with slices of tender pork belly, a soft-boiled egg, sheets of nori and sliced scallions. The broth is rich and savoury, and the noodles are served firm.",
-      "history": "Tonkotsu ramen is associated with Kyushu, especially Fukuoka and Kurume, where pork-bone broths became popular in the mid-20th century. It has since spread throughout Japan and to ramen shops worldwide.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1.5 kg pork bones",
-          "2 l water",
-          "500 g pork belly",
-          "4 eggs",
-          "400 g fresh ramen noodles",
-          "4 scallions, sliced",
-          "4 sheets nori",
-          "3 garlic cloves and 1 piece ginger",
-          "Salt"
-        ],
-        "steps": [
-          "Blanch the bones, rinse, then boil hard in fresh water with garlic and ginger for at least 3 hours, topping up, until milky.",
-          "Simmer the pork belly in the broth for about 1.5 hours, then cool and slice.",
-          "Boil the eggs for 6.5 minutes, cool in cold water and peel.",
-          "Strain the broth and season with salt.",
-          "Cook the noodles briefly, divide into bowls, ladle over the broth and top with pork, halved egg, nori and scallions."
-        ]
-      },
-      "tips": [
-        "Chill the broth and lift off the solid fat before reheating.",
-        "Use fewer slices of pork belly and more scallions.",
-        "Leave some of the broth in the bowl: it holds much of the fat and salt."
-      ]
-    },
-    "ar": {
-      "name": "رامن تونكوتسو",
-      "origin": "اليابان · فوكوكا (كيوشو)",
-      "intro": "رامن تونكوتسو حساء نودلز بمرق عكر حليبي اللون يُحضَّر بغلي عظام الخنزير بقوة لساعات طويلة. توضع نودلز القمح الرفيعة في الوعاء مع شرائح طرية من بطن الخنزير وبيضة مسلوقة طرية وأوراق النوري والبصل الأخضر المقطّع. المرق غني ولذيذ، والنودلز تُقدَّم متماسكة.",
-      "history": "يرتبط رامن تونكوتسو بجزيرة كيوشو، خاصة فوكوكا وكورومي، حيث انتشر مرق عظام الخنزير في منتصف القرن العشرين. ثم انتشر في أنحاء اليابان ومطاعم الرامن حول العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1.5 كغ عظام خنزير",
-          "2 لتر ماء",
-          "500 غ بطن خنزير",
-          "4 بيضات",
-          "400 غ نودلز رامن طازجة",
-          "4 أعواد بصل أخضر مقطّعة",
-          "4 أوراق نوري",
-          "3 فصوص ثوم وقطعة زنجبيل",
-          "ملح"
-        ],
-        "steps": [
-          "اسلق العظام سريعاً واشطفها، ثم اغلِها بقوة في ماء جديد مع الثوم والزنجبيل 3 ساعات على الأقل مع إضافة الماء حتى يصبح المرق حليبياً.",
-          "اطهُ بطن الخنزير في المرق نحو ساعة ونصف، ثم برّده وقطّعه شرائح.",
-          "اسلق البيض 6.5 دقيقة، ثم برّده في ماء بارد وقشّره.",
-          "صفِّ المرق وتبّله بالملح.",
-          "اسلق النودلز قليلاً ووزّعها في الأوعية، وصب فوقها المرق وزيّنها باللحم ونصف البيضة والنوري والبصل الأخضر."
-        ]
-      },
-      "tips": [
-        "برّد المرق وأزل الدهن المتجمد قبل إعادة تسخينه.",
-        "استخدم شرائح أقل من بطن الخنزير ومزيداً من البصل الأخضر.",
-        "اترك جزءاً من المرق في الوعاء، ففيه كثير من الدهون والملح."
-      ]
-    },
-    "it": {
-      "name": "Tonkotsu ramen",
-      "origin": "Giappone · Fukuoka (Kyushu)",
-      "intro": "Il tonkotsu ramen è una zuppa di noodle preparata con un brodo torbido e lattiginoso di ossa di maiale bollite a fuoco vivo per molte ore. Nella ciotola vanno sottili noodle di frumento con fette di tenera pancetta di maiale, un uovo morbido, fogli di nori e cipollotti affettati. Il brodo è ricco e saporito, e i noodle si servono sodi.",
-      "history": "Il tonkotsu ramen è associato al Kyushu, in particolare a Fukuoka e Kurume, dove i brodi di ossa di maiale divennero popolari a metà del XX secolo. Da allora si è diffuso in tutto il Giappone e nei locali di ramen di tutto il mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1,5 kg di ossa di maiale",
-          "2 l di acqua",
-          "500 g di pancetta di maiale",
-          "4 uova",
-          "400 g di noodle ramen freschi",
-          "4 cipollotti affettati",
-          "4 fogli di nori",
-          "3 spicchi d'aglio e 1 pezzo di zenzero",
-          "Sale"
-        ],
-        "steps": [
-          "Sbollenta le ossa, sciacquale, poi falle bollire a fuoco vivo in acqua pulita con aglio e zenzero per almeno 3 ore, rabboccando, finché il brodo diventa lattiginoso.",
-          "Cuoci la pancetta nel brodo a fuoco lento per circa 1,5 ore, poi lasciala raffreddare e tagliala a fette.",
-          "Cuoci le uova per 6,5 minuti, raffreddale in acqua fredda e sgusciale.",
-          "Filtra il brodo e sala.",
-          "Cuoci brevemente i noodle, dividili nelle ciotole, versaci sopra il brodo e completa con pancetta, uovo tagliato a metà, nori e cipollotti."
-        ]
-      },
-      "tips": [
-        "Fai raffreddare il brodo e togli il grasso solidificato prima di riscaldarlo.",
-        "Usa meno fette di pancetta e più cipollotti.",
-        "Lascia un po' di brodo nella ciotola: contiene buona parte del grasso e del sale."
-      ]
-    },
-    "el": {
-      "name": "Ράμεν τονκότσου",
-      "origin": "Ιαπωνία · Φουκουόκα (Κιούσου)",
-      "intro": "Το ράμεν τονκότσου είναι σούπα με νουντλς που φτιάχνεται με θολό, γαλακτερό ζωμό από χοιρινά κόκαλα βρασμένα δυνατά για πολλές ώρες. Στο μπολ μπαίνουν λεπτά νουντλς σιταριού με φέτες τρυφερής χοιρινής πανσέτας, ένα μελάτο αυγό, φύλλα νόρι και ψιλοκομμένα φρέσκα κρεμμυδάκια. Ο ζωμός είναι πλούσιος και γευστικός, και τα νουντλς σερβίρονται σφιχτά.",
-      "history": "Το ράμεν τονκότσου συνδέεται με το Κιούσου, ιδίως τη Φουκουόκα και την Κουρούμε, όπου οι ζωμοί από χοιρινά κόκαλα έγιναν δημοφιλείς στα μέσα του 20ού αιώνα. Από τότε εξαπλώθηκε σε όλη την Ιαπωνία και στα μαγαζιά ράμεν σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1,5 κιλό χοιρινά κόκαλα",
-          "2 λίτρα νερό",
-          "500 γρ. χοιρινή πανσέτα",
-          "4 αυγά",
-          "400 γρ. φρέσκα νουντλς ράμεν",
-          "4 φρέσκα κρεμμυδάκια, σε φέτες",
-          "4 φύλλα νόρι",
-          "3 σκελίδες σκόρδο και 1 κομμάτι τζίντζερ",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Ζεματίστε τα κόκαλα, ξεπλύνετέ τα και βράστε τα δυνατά σε καθαρό νερό με το σκόρδο και το τζίντζερ για τουλάχιστον 3 ώρες, συμπληρώνοντας νερό, μέχρι ο ζωμός να γίνει γαλακτερός.",
-          "Σιγοβράστε την πανσέτα στον ζωμό για περίπου 1,5 ώρα, αφήστε τη να κρυώσει και κόψτε τη σε φέτες.",
-          "Βράστε τα αυγά για 6,5 λεπτά, κρυώστε τα σε κρύο νερό και ξεφλουδίστε τα.",
-          "Σουρώστε τον ζωμό και αλατίστε.",
-          "Βράστε για λίγο τα νουντλς, μοιράστε τα στα μπολ, ρίξτε από πάνω τον ζωμό και συμπληρώστε με πανσέτα, μισό αυγό, νόρι και κρεμμυδάκια."
-        ]
-      },
-      "tips": [
-        "Βάλτε τον ζωμό στο ψυγείο και αφαιρέστε το λίπος που πήζει πριν τον ξαναζεστάνετε.",
-        "Βάλτε λιγότερες φέτες πανσέτας και περισσότερα κρεμμυδάκια.",
-        "Αφήστε λίγο ζωμό στο μπολ: περιέχει μεγάλο μέρος του λίπους και του αλατιού."
-      ]
-    },
-    "ru": {
-      "name": "Тонкоцу рамен",
-      "origin": "Япония · Фукуока (Кюсю)",
-      "intro": "Тонкоцу рамен — лапша в супе с мутным молочным бульоном из свиных костей, сильно кипевших много часов. В миску кладут тонкую пшеничную лапшу с ломтиками нежной свиной грудинки, яйцом всмятку, листами нори и нарезанным зелёным луком. Бульон насыщенный и пикантный, а лапшу подают упругой.",
-      "history": "Тонкоцу рамен связан с Кюсю, особенно с Фукуокой и Курумэ, где бульоны из свиных костей стали популярны в середине XX века. С тех пор он распространился по всей Японии и в рамен-лавки по всему миру.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 240,
-        "ingredients": [
-          "1,5 кг свиных костей",
-          "2 л воды",
-          "500 г свиной грудинки",
-          "4 яйца",
-          "400 г свежей лапши для рамена",
-          "4 стебля зелёного лука, нарезанных",
-          "4 листа нори",
-          "3 зубчика чеснока и 1 кусочек имбиря",
-          "Соль"
-        ],
-        "steps": [
-          "Бланшируйте кости, сполосните, затем сильно варите в свежей воде с чесноком и имбирём не менее 3 часов, доливая воду, пока бульон не станет молочным.",
-          "Томите свиную грудинку в бульоне около 1,5 часов, затем остудите и нарежьте.",
-          "Варите яйца 6,5 минут, остудите в холодной воде и очистите.",
-          "Процедите бульон и посолите.",
-          "Ненадолго отварите лапшу, разделите по мискам, залейте бульоном и добавьте свинину, половинку яйца, нори и зелёный лук."
-        ]
-      },
-      "tips": [
-        "Охладите бульон и снимите застывший жир перед разогревом.",
-        "Берите меньше ломтиков свиной грудинки и больше зелёного лука.",
-        "Оставьте часть бульона в миске: в нём сосредоточена большая часть жира и соли."
-      ],
-      "name_inline": "тонкоцу рамен"
-    }
+  "ar": {
+   "name": "رامن تونكوتسو",
+   "origin": "اليابان · فوكوكا (كيوشو)",
+   "intro": "رامن تونكوتسو حساء نودلز بمرق عكر حليبي اللون يُحضَّر بغلي عظام الخنزير بقوة لساعات طويلة. توضع نودلز القمح الرفيعة في الوعاء مع شرائح طرية من بطن الخنزير وبيضة مسلوقة طرية وأوراق النوري والبصل الأخضر المقطّع. المرق غني ولذيذ، والنودلز تُقدَّم متماسكة.",
+   "history": "يرتبط رامن تونكوتسو بجزيرة كيوشو، خاصة فوكوكا وكورومي، حيث انتشر مرق عظام الخنزير في منتصف القرن العشرين. ثم انتشر في أنحاء اليابان ومطاعم الرامن حول العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1.5 كغ عظام خنزير",
+     "2 لتر ماء",
+     "500 غ بطن خنزير",
+     "4 بيضات",
+     "400 غ نودلز رامن طازجة",
+     "4 أعواد بصل أخضر مقطّعة",
+     "4 أوراق نوري",
+     "3 فصوص ثوم وقطعة زنجبيل",
+     "ملح"
+    ],
+    "steps": [
+     "اسلق العظام سريعاً واشطفها، ثم اغلِها بقوة في ماء جديد مع الثوم والزنجبيل 3 ساعات على الأقل مع إضافة الماء حتى يصبح المرق حليبياً.",
+     "اطهُ بطن الخنزير في المرق نحو ساعة ونصف، ثم برّده وقطّعه شرائح.",
+     "اسلق البيض 6.5 دقيقة، ثم برّده في ماء بارد وقشّره.",
+     "صفِّ المرق وتبّله بالملح.",
+     "اسلق النودلز قليلاً ووزّعها في الأوعية، وصب فوقها المرق وزيّنها باللحم ونصف البيضة والنوري والبصل الأخضر."
+    ]
+   },
+   "tips": [
+    "برّد المرق وأزل الدهن المتجمد قبل إعادة تسخينه.",
+    "استخدم شرائح أقل من بطن الخنزير ومزيداً من البصل الأخضر.",
+    "اترك جزءاً من المرق في الوعاء، ففيه كثير من الدهون والملح."
+   ]
+  },
+  "it": {
+   "name": "Tonkotsu ramen",
+   "origin": "Giappone · Fukuoka (Kyushu)",
+   "intro": "Il tonkotsu ramen è una zuppa di noodle preparata con un brodo torbido e lattiginoso di ossa di maiale bollite a fuoco vivo per molte ore. Nella ciotola vanno sottili noodle di frumento con fette di tenera pancetta di maiale, un uovo morbido, fogli di nori e cipollotti affettati. Il brodo è ricco e saporito, e i noodle si servono sodi.",
+   "history": "Il tonkotsu ramen è associato al Kyushu, in particolare a Fukuoka e Kurume, dove i brodi di ossa di maiale divennero popolari a metà del XX secolo. Da allora si è diffuso in tutto il Giappone e nei locali di ramen di tutto il mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1,5 kg di ossa di maiale",
+     "2 l di acqua",
+     "500 g di pancetta di maiale",
+     "4 uova",
+     "400 g di noodle ramen freschi",
+     "4 cipollotti affettati",
+     "4 fogli di nori",
+     "3 spicchi d'aglio e 1 pezzo di zenzero",
+     "Sale"
+    ],
+    "steps": [
+     "Sbollenta le ossa, sciacquale, poi falle bollire a fuoco vivo in acqua pulita con aglio e zenzero per almeno 3 ore, rabboccando, finché il brodo diventa lattiginoso.",
+     "Cuoci la pancetta nel brodo a fuoco lento per circa 1,5 ore, poi lasciala raffreddare e tagliala a fette.",
+     "Cuoci le uova per 6,5 minuti, raffreddale in acqua fredda e sgusciale.",
+     "Filtra il brodo e sala.",
+     "Cuoci brevemente i noodle, dividili nelle ciotole, versaci sopra il brodo e completa con pancetta, uovo tagliato a metà, nori e cipollotti."
+    ]
+   },
+   "tips": [
+    "Fai raffreddare il brodo e togli il grasso solidificato prima di riscaldarlo.",
+    "Usa meno fette di pancetta e più cipollotti.",
+    "Lascia un po' di brodo nella ciotola: contiene buona parte del grasso e del sale."
+   ]
+  },
+  "el": {
+   "name": "Ράμεν τονκότσου",
+   "origin": "Ιαπωνία · Φουκουόκα (Κιούσου)",
+   "intro": "Το ράμεν τονκότσου είναι σούπα με νουντλς που φτιάχνεται με θολό, γαλακτερό ζωμό από χοιρινά κόκαλα βρασμένα δυνατά για πολλές ώρες. Στο μπολ μπαίνουν λεπτά νουντλς σιταριού με φέτες τρυφερής χοιρινής πανσέτας, ένα μελάτο αυγό, φύλλα νόρι και ψιλοκομμένα φρέσκα κρεμμυδάκια. Ο ζωμός είναι πλούσιος και γευστικός, και τα νουντλς σερβίρονται σφιχτά.",
+   "history": "Το ράμεν τονκότσου συνδέεται με το Κιούσου, ιδίως τη Φουκουόκα και την Κουρούμε, όπου οι ζωμοί από χοιρινά κόκαλα έγιναν δημοφιλείς στα μέσα του 20ού αιώνα. Από τότε εξαπλώθηκε σε όλη την Ιαπωνία και στα μαγαζιά ράμεν σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1,5 κιλό χοιρινά κόκαλα",
+     "2 λίτρα νερό",
+     "500 γρ. χοιρινή πανσέτα",
+     "4 αυγά",
+     "400 γρ. φρέσκα νουντλς ράμεν",
+     "4 φρέσκα κρεμμυδάκια, σε φέτες",
+     "4 φύλλα νόρι",
+     "3 σκελίδες σκόρδο και 1 κομμάτι τζίντζερ",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Ζεματίστε τα κόκαλα, ξεπλύνετέ τα και βράστε τα δυνατά σε καθαρό νερό με το σκόρδο και το τζίντζερ για τουλάχιστον 3 ώρες, συμπληρώνοντας νερό, μέχρι ο ζωμός να γίνει γαλακτερός.",
+     "Σιγοβράστε την πανσέτα στον ζωμό για περίπου 1,5 ώρα, αφήστε τη να κρυώσει και κόψτε τη σε φέτες.",
+     "Βράστε τα αυγά για 6,5 λεπτά, κρυώστε τα σε κρύο νερό και ξεφλουδίστε τα.",
+     "Σουρώστε τον ζωμό και αλατίστε.",
+     "Βράστε για λίγο τα νουντλς, μοιράστε τα στα μπολ, ρίξτε από πάνω τον ζωμό και συμπληρώστε με πανσέτα, μισό αυγό, νόρι και κρεμμυδάκια."
+    ]
+   },
+   "tips": [
+    "Βάλτε τον ζωμό στο ψυγείο και αφαιρέστε το λίπος που πήζει πριν τον ξαναζεστάνετε.",
+    "Βάλτε λιγότερες φέτες πανσέτας και περισσότερα κρεμμυδάκια.",
+    "Αφήστε λίγο ζωμό στο μπολ: περιέχει μεγάλο μέρος του λίπους και του αλατιού."
+   ]
+  },
+  "ru": {
+   "name": "Тонкоцу рамен",
+   "origin": "Япония · Фукуока (Кюсю)",
+   "intro": "Тонкоцу рамен — лапша в супе с мутным молочным бульоном из свиных костей, сильно кипевших много часов. В миску кладут тонкую пшеничную лапшу с ломтиками нежной свиной грудинки, яйцом всмятку, листами нори и нарезанным зелёным луком. Бульон насыщенный и пикантный, а лапшу подают упругой.",
+   "history": "Тонкоцу рамен связан с Кюсю, особенно с Фукуокой и Курумэ, где бульоны из свиных костей стали популярны в середине XX века. С тех пор он распространился по всей Японии и в рамен-лавки по всему миру.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1,5 кг свиных костей",
+     "2 л воды",
+     "500 г свиной грудинки",
+     "4 яйца",
+     "400 г свежей лапши для рамена",
+     "4 стебля зелёного лука, нарезанных",
+     "4 листа нори",
+     "3 зубчика чеснока и 1 кусочек имбиря",
+     "Соль"
+    ],
+    "steps": [
+     "Бланшируйте кости, сполосните, затем сильно варите в свежей воде с чесноком и имбирём не менее 3 часов, доливая воду, пока бульон не станет молочным.",
+     "Томите свиную грудинку в бульоне около 1,5 часов, затем остудите и нарежьте.",
+     "Варите яйца 6,5 минут, остудите в холодной воде и очистите.",
+     "Процедите бульон и посолите.",
+     "Ненадолго отварите лапшу, разделите по мискам, залейте бульоном и добавьте свинину, половинку яйца, нори и зелёный лук."
+    ]
+   },
+   "tips": [
+    "Охладите бульон и снимите застывший жир перед разогревом.",
+    "Берите меньше ломтиков свиной грудинки и больше зелёного лука.",
+    "Оставьте часть бульона в миске: в нём сосредоточена большая часть жира и соли."
+   ],
+   "name_inline": "тонкоцу рамен"
+  },
+  "es": {
+   "name": "Ramen tonkotsu",
+   "origin": "Japón · Fukuoka (Kyushu)",
+   "intro": "El ramen tonkotsu es una sopa de fideos con un caldo turbio y lechoso hecho con huesos de cerdo hervidos con fuerza durante muchas horas. En el tazón van fideos finos de trigo con rebanadas de panceta de cerdo tierna, un huevo cocido blando, hojas de nori y cebollín en rodajas. El caldo es rico y sabroso, y los fideos se sirven firmes.",
+   "history": "El ramen tonkotsu se asocia con Kyushu, sobre todo con Fukuoka y Kurume, donde los caldos de huesos de cerdo se popularizaron a mediados del siglo XX. Desde entonces se ha extendido por todo Japón y a las tiendas de ramen de todo el mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 240,
+    "ingredients": [
+     "1.5 kg de huesos de cerdo",
+     "2 l de agua",
+     "500 g de panceta de cerdo",
+     "4 huevos",
+     "400 g de fideos frescos para ramen",
+     "4 cebollines, en rodajas",
+     "4 hojas de nori",
+     "3 dientes de ajo y 1 trozo de jengibre",
+     "Sal"
+    ],
+    "steps": [
+     "Blanquea los huesos, enjuágalos y luego hiérvelos con fuerza en agua nueva con el ajo y el jengibre durante al menos 3 horas, rellenando, hasta que el caldo quede lechoso.",
+     "Cuece la panceta en el caldo a fuego suave cerca de 1.5 horas, luego deja enfriar y rebana.",
+     "Hierve los huevos 6.5 minutos, enfríalos en agua fría y pélalos.",
+     "Cuela el caldo y sazónalo con sal.",
+     "Cuece los fideos brevemente, reparte en tazones, vierte el caldo y cubre con el cerdo, el huevo partido por la mitad, el nori y el cebollín."
+    ]
+   },
+   "tips": [
+    "Enfría el caldo y retira la grasa solidificada antes de recalentarlo.",
+    "Usa menos rebanadas de panceta y más cebollín.",
+    "Deja algo de caldo en el tazón: concentra gran parte de la grasa y la sal."
+   ],
+   "name_inline": "el ramen tonkotsu"
   }
+ }
 }

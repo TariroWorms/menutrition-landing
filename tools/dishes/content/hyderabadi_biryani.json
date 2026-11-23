@@ -1,176 +1,209 @@
 {
-  "db_key": "hyderabadi_biryani",
-  "slug": "hyderabadi-biryani",
-  "emoji": "🍛",
-  "portion_g": 400,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "hyderabadi_biryani",
+ "slug": "hyderabadi-biryani",
+ "emoji": "🍛",
+ "portion_g": 400,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Hyderabadi biryani",
+   "origin": "India · Hyderabad, Telangana",
+   "intro": "Hyderabadi biryani is a layered dish of goat meat marinated in yogurt and spices and long-grain basmati rice, sealed and slow-cooked so the meat and rice steam together. Fried onions, mint and saffron perfume each layer. The rice grains stay separate and fragrant, and the meat comes out tender; it is served with a raita or a spicy gravy.",
+   "history": "The dish is associated with the court kitchens of the Nizams of Hyderabad, where Mughal and local Deccan cooking traditions met. The best-known style is kachchi biryani, in which raw marinated meat and partly cooked rice are layered and cooked together under a sealed lid (dum).",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg goat meat on the bone, in pieces",
+     "500 g basmati rice",
+     "250 g yogurt",
+     "3 onions, thinly sliced and fried golden",
+     "20 g mint leaves",
+     "1 tbsp ginger-garlic paste, 2 tsp garam masala, 1 tsp chili powder",
+     "A pinch of saffron in 3 tbsp warm water",
+     "4 tbsp vegetable oil, salt, whole spices (bay leaf, cardamom, cloves)"
+    ],
+    "steps": [
+     "Marinate the goat with the yogurt, ginger-garlic paste, garam masala, chili, half the fried onions, half the mint and salt for at least 2 hours.",
+     "Soak the rice for 30 minutes, then boil it in salted water with the whole spices until about 70% cooked; drain.",
+     "Spread the meat and marinade in a heavy pot with the oil, layer the rice on top and scatter the remaining onions and mint.",
+     "Drizzle over the saffron water, seal the lid tightly and cook on high heat for 5 minutes, then on the lowest heat for about 1 hour.",
+     "Rest for 10 minutes, then mix gently from the bottom and serve."
+    ]
+   },
+   "tips": [
+    "Use 2 tbsp of oil instead of 4 and fry the onions in a non-stick pan; 1 tbsp oil ≈ 120 kcal.",
+    "Choose leaner cuts and trim visible fat from the meat.",
+    "Fill half the plate with cucumber-onion salad and keep the rice to one ladle."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Hyderabadi biryani",
-      "origin": "India · Hyderabad, Telangana",
-      "intro": "Hyderabadi biryani is a layered dish of goat meat marinated in yogurt and spices and long-grain basmati rice, sealed and slow-cooked so the meat and rice steam together. Fried onions, mint and saffron perfume each layer. The rice grains stay separate and fragrant, and the meat comes out tender; it is served with a raita or a spicy gravy.",
-      "history": "The dish is associated with the court kitchens of the Nizams of Hyderabad, where Mughal and local Deccan cooking traditions met. The best-known style is kachchi biryani, in which raw marinated meat and partly cooked rice are layered and cooked together under a sealed lid (dum).",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 kg goat meat on the bone, in pieces",
-          "500 g basmati rice",
-          "250 g yogurt",
-          "3 onions, thinly sliced and fried golden",
-          "20 g mint leaves",
-          "1 tbsp ginger-garlic paste, 2 tsp garam masala, 1 tsp chili powder",
-          "A pinch of saffron in 3 tbsp warm water",
-          "4 tbsp vegetable oil, salt, whole spices (bay leaf, cardamom, cloves)"
-        ],
-        "steps": [
-          "Marinate the goat with the yogurt, ginger-garlic paste, garam masala, chili, half the fried onions, half the mint and salt for at least 2 hours.",
-          "Soak the rice for 30 minutes, then boil it in salted water with the whole spices until about 70% cooked; drain.",
-          "Spread the meat and marinade in a heavy pot with the oil, layer the rice on top and scatter the remaining onions and mint.",
-          "Drizzle over the saffron water, seal the lid tightly and cook on high heat for 5 minutes, then on the lowest heat for about 1 hour.",
-          "Rest for 10 minutes, then mix gently from the bottom and serve."
-        ]
-      },
-      "tips": [
-        "Use 2 tbsp of oil instead of 4 and fry the onions in a non-stick pan; 1 tbsp oil ≈ 120 kcal.",
-        "Choose leaner cuts and trim visible fat from the meat.",
-        "Fill half the plate with cucumber-onion salad and keep the rice to one ladle."
-      ]
-    },
-    "ar": {
-      "name": "برياني حيدر أبادي",
-      "origin": "الهند · حيدر أباد، تيلانغانا",
-      "intro": "برياني حيدر أبادي طبق من طبقات لحم الماعز المتبل باللبن والبهارات وأرز البسمتي طويل الحبة، يُغلق القدر ويُطهى على نار هادئة ليتبخر اللحم والأرز معاً. يعطّر البصل المقلي والنعناع والزعفران كل طبقة. تبقى حبات الأرز منفصلة وعطرة ويخرج اللحم طرياً، ويقدم مع الرايتا أو مرق حار.",
-      "history": "يرتبط الطبق بمطابخ بلاط النظام في حيدر أباد، حيث التقت تقاليد الطبخ المغولية مع مطبخ الدكن المحلي. وأشهر أساليبه «كاتشي برياني»، حيث يُرتّب اللحم النيء المتبل والأرز نصف المطبوخ في طبقات ويُطهيان معاً تحت غطاء محكم (دم).",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 كغ لحم ماعز بالعظم قطع",
-          "500 غ أرز بسمتي",
-          "250 غ لبن زبادي",
-          "3 بصلات مقطعة شرائح رفيعة ومقلية حتى تذهّب",
-          "20 غ أوراق نعناع",
-          "ملعقة كبيرة معجون زنجبيل وثوم، 2 ملعقة صغيرة غرام ماسالا، ملعقة صغيرة فلفل حار مطحون",
-          "رشة زعفران في 3 ملاعق كبيرة ماء دافئ",
-          "4 ملاعق كبيرة زيت نباتي، ملح، بهارات كاملة (ورق غار، هيل، قرنفل)"
-        ],
-        "steps": [
-          "تبّل اللحم باللبن ومعجون الزنجبيل والثوم والغرام ماسالا والفلفل ونصف البصل المقلي ونصف النعناع والملح ساعتين على الأقل.",
-          "انقع الأرز 30 دقيقة، ثم اسلقه في ماء مملح مع البهارات الكاملة حتى ينضج نحو 70%، وصفّه.",
-          "افرد اللحم مع التتبيلة في قدر ثقيل مع الزيت، ورتّب الأرز فوقه، وانثر باقي البصل والنعناع.",
-          "رش ماء الزعفران، وأحكم إغلاق القدر، واطهُه على نار عالية 5 دقائق، ثم على أخفض نار نحو ساعة.",
-          "اتركه يرتاح 10 دقائق، ثم قلّبه برفق من القاع وقدّمه."
-        ]
-      },
-      "tips": [
-        "استخدم ملعقتين كبيرتين من الزيت بدل أربع واقلِ البصل في مقلاة غير لاصقة؛ ملعقة الزيت ≈ 120 سعرة.",
-        "اختر قطعاً أقل دهناً وأزل الدهن الظاهر من اللحم.",
-        "املأ نصف الطبق بسلطة الخيار والبصل واكتفِ بمغرفة واحدة من الأرز."
-      ]
-    },
-    "it": {
-      "name": "Biryani di Hyderabad",
-      "name_inline": "biryani di Hyderabad",
-      "origin": "India · Hyderabad, Telangana",
-      "intro": "Il biryani di Hyderabad è un piatto a strati di carne di capra marinata in yogurt e spezie e riso basmati a chicco lungo, sigillato e cotto lentamente in modo che carne e riso cuociano insieme al vapore. Cipolle fritte, menta e zafferano profumano ogni strato. I chicchi di riso restano separati e fragranti e la carne risulta tenera; si serve con una raita o con un sugo piccante.",
-      "history": "Il piatto è associato alle cucine di corte dei Nizam di Hyderabad, dove si incontrarono le tradizioni culinarie moghul e quelle locali del Deccan. Lo stile più noto è il kachchi biryani, in cui carne cruda marinata e riso parzialmente cotto vengono disposti a strati e cotti insieme sotto un coperchio sigillato (dum).",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 kg di carne di capra con l'osso, a pezzi",
-          "500 g di riso basmati",
-          "250 g di yogurt",
-          "3 cipolle affettate sottilmente e fritte fino a doratura",
-          "20 g di foglie di menta",
-          "1 cucchiaio di pasta di zenzero e aglio, 2 cucchiaini di garam masala, 1 cucchiaino di peperoncino in polvere",
-          "Un pizzico di zafferano in 3 cucchiai di acqua tiepida",
-          "4 cucchiai di olio vegetale, sale, spezie intere (alloro, cardamomo, chiodi di garofano)"
-        ],
-        "steps": [
-          "Marina la capra con yogurt, pasta di zenzero e aglio, garam masala, peperoncino, metà delle cipolle fritte, metà della menta e sale per almeno 2 ore.",
-          "Metti in ammollo il riso per 30 minuti, poi lessalo in acqua salata con le spezie intere finché è cotto al 70% circa; scolalo.",
-          "Distribuisci la carne con la marinata in una pentola pesante con l'olio, stendi sopra il riso e cospargi con le cipolle e la menta rimaste.",
-          "Irrora con l'acqua allo zafferano, sigilla bene il coperchio e cuoci a fuoco alto per 5 minuti, poi al minimo per circa 1 ora.",
-          "Lascia riposare 10 minuti, poi mescola delicatamente dal fondo e servi."
-        ]
-      },
-      "tips": [
-        "Usa 2 cucchiai di olio invece di 4 e friggi le cipolle in una padella antiaderente; 1 cucchiaio di olio ≈ 120 kcal.",
-        "Scegli tagli più magri ed elimina il grasso visibile dalla carne.",
-        "Riempi metà del piatto di insalata di cetriolo e cipolla e limita il riso a un mestolo."
-      ]
-    },
-    "el": {
-      "name": "Μπιριάνι Χαϊντεραμπάντ",
-      "origin": "Ινδία · Χαϊντεραμπάντ, Τελανγκάνα",
-      "intro": "Το μπιριάνι Χαϊντεραμπάντ είναι πιάτο σε στρώσεις με κατσικίσιο κρέας μαριναρισμένο σε γιαούρτι και μπαχαρικά και μακρύκοκκο ρύζι μπασμάτι, σφραγισμένο και σιγομαγειρεμένο ώστε το κρέας και το ρύζι να μαγειρεύονται μαζί στον ατμό. Τηγανητά κρεμμύδια, δυόσμος και σαφράν αρωματίζουν κάθε στρώση. Οι κόκκοι του ρυζιού μένουν σπυρωτοί και αρωματικοί και το κρέας βγαίνει τρυφερό· σερβίρεται με ράιτα ή με πικάντικη σάλτσα.",
-      "history": "Το πιάτο συνδέεται με τις αυλικές κουζίνες των Νιζάμ του Χαϊντεραμπάντ, όπου συναντήθηκαν οι μαγειρικές παραδόσεις των Μογγόλων και του τοπικού Ντεκάν. Το πιο γνωστό στιλ είναι το κάτσι μπιριάνι, όπου ωμό μαριναρισμένο κρέας και μισοβρασμένο ρύζι στρώνονται και μαγειρεύονται μαζί κάτω από σφραγισμένο καπάκι (ντουμ).",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 κιλό κατσικίσιο κρέας με κόκαλο, σε κομμάτια",
-          "500 γρ. ρύζι μπασμάτι",
-          "250 γρ. γιαούρτι",
-          "3 κρεμμύδια, σε λεπτές φέτες, τηγανισμένα μέχρι να χρυσίσουν",
-          "20 γρ. φύλλα δυόσμου",
-          "1 κ.σ. πάστα τζίντζερ-σκόρδου, 2 κ.γ. γκαράμ μασάλα, 1 κ.γ. τσίλι σε σκόνη",
-          "Μια πρέζα σαφράν σε 3 κ.σ. χλιαρό νερό",
-          "4 κ.σ. φυτικό λάδι, αλάτι, ολόκληρα μπαχαρικά (δάφνη, κάρδαμο, γαρίφαλο)"
-        ],
-        "steps": [
-          "Μαρινάρετε το κατσικίσιο με το γιαούρτι, την πάστα τζίντζερ-σκόρδου, το γκαράμ μασάλα, το τσίλι, τα μισά τηγανητά κρεμμύδια, τον μισό δυόσμο και αλάτι για τουλάχιστον 2 ώρες.",
-          "Μουλιάστε το ρύζι για 30 λεπτά και μετά βράστε το σε αλατισμένο νερό με τα ολόκληρα μπαχαρικά μέχρι να βράσει κατά 70% περίπου· στραγγίστε.",
-          "Απλώστε το κρέας με τη μαρινάδα σε βαριά κατσαρόλα με το λάδι, στρώστε από πάνω το ρύζι και σκορπίστε τα υπόλοιπα κρεμμύδια και τον δυόσμο.",
-          "Περιχύστε με το νερό του σαφράν, σφραγίστε καλά το καπάκι και μαγειρέψτε σε δυνατή φωτιά για 5 λεπτά, μετά στη χαμηλότερη φωτιά για περίπου 1 ώρα.",
-          "Αφήστε 10 λεπτά να ξεκουραστεί, μετά ανακατέψτε απαλά από τον πάτο και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Βάλτε 2 κ.σ. λάδι αντί για 4 και τηγανίστε τα κρεμμύδια σε αντικολλητικό τηγάνι· 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Διαλέξτε πιο άπαχες κοπές και αφαιρέστε το ορατό λίπος από το κρέας.",
-        "Γεμίστε το μισό πιάτο με σαλάτα αγγουριού-κρεμμυδιού και κρατήστε το ρύζι σε μία κουτάλα."
-      ]
-    },
-    "ru": {
-      "name": "Хайдарабадская бирьяни",
-      "origin": "Индия · Хайдарабад, Телангана",
-      "intro": "Хайдарабадская бирьяни — слоёное блюдо из козлятины, замаринованной в йогурте со специями, и длиннозёрного риса басмати; его герметично закрывают и медленно томят, так что мясо и рис готовятся на пару вместе. Жареный лук, мята и шафран ароматизируют каждый слой. Зёрна риса остаются рассыпчатыми и душистыми, а мясо получается нежным; подают с райтой или острой подливой.",
-      "history": "Блюдо связывают с придворными кухнями низамов Хайдарабада, где встретились традиции могольской и местной деканской кухни. Самый известный вариант — качи бирьяни, в котором сырое маринованное мясо и полуготовый рис выкладывают слоями и готовят вместе под плотно закрытой крышкой (дум).",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1 кг козлятины на кости, кусками",
-          "500 г риса басмати",
-          "250 г йогурта",
-          "3 луковицы, тонко нарезанные и обжаренные до золотистого цвета",
-          "20 г листьев мяты",
-          "1 ст. л. пасты из имбиря и чеснока, 2 ч. л. гарам масалы, 1 ч. л. молотого перца чили",
-          "Щепотка шафрана в 3 ст. л. тёплой воды",
-          "4 ст. л. растительного масла, соль, целые специи (лавровый лист, кардамон, гвоздика)"
-        ],
-        "steps": [
-          "Замаринуйте козлятину с йогуртом, пастой из имбиря и чеснока, гарам масалой, чили, половиной жареного лука, половиной мяты и солью минимум на 2 часа.",
-          "Замочите рис на 30 минут, затем отварите в подсоленной воде с целыми специями примерно до 70 % готовности; слейте воду.",
-          "Выложите мясо с маринадом в толстостенную кастрюлю с маслом, сверху уложите рис и посыпьте оставшимся луком и мятой.",
-          "Полейте шафрановой водой, плотно закройте крышку и готовьте на сильном огне 5 минут, затем на самом слабом около 1 часа.",
-          "Дайте постоять 10 минут, затем аккуратно перемешайте со дна и подавайте."
-        ]
-      },
-      "tips": [
-        "Используйте 2 ст. л. масла вместо 4 и обжарьте лук на антипригарной сковороде; 1 ст. л. масла ≈ 120 ккал.",
-        "Выбирайте более постные куски и срезайте с мяса видимый жир.",
-        "Половину тарелки отдайте салату из огурцов и лука, а риса положите одну поварёшку."
-      ],
-      "name_inline": "хайдарабадская бирьяни"
-    }
+  "ar": {
+   "name": "برياني حيدر أبادي",
+   "origin": "الهند · حيدر أباد، تيلانغانا",
+   "intro": "برياني حيدر أبادي طبق من طبقات لحم الماعز المتبل باللبن والبهارات وأرز البسمتي طويل الحبة، يُغلق القدر ويُطهى على نار هادئة ليتبخر اللحم والأرز معاً. يعطّر البصل المقلي والنعناع والزعفران كل طبقة. تبقى حبات الأرز منفصلة وعطرة ويخرج اللحم طرياً، ويقدم مع الرايتا أو مرق حار.",
+   "history": "يرتبط الطبق بمطابخ بلاط النظام في حيدر أباد، حيث التقت تقاليد الطبخ المغولية مع مطبخ الدكن المحلي. وأشهر أساليبه «كاتشي برياني»، حيث يُرتّب اللحم النيء المتبل والأرز نصف المطبوخ في طبقات ويُطهيان معاً تحت غطاء محكم (دم).",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 كغ لحم ماعز بالعظم قطع",
+     "500 غ أرز بسمتي",
+     "250 غ لبن زبادي",
+     "3 بصلات مقطعة شرائح رفيعة ومقلية حتى تذهّب",
+     "20 غ أوراق نعناع",
+     "ملعقة كبيرة معجون زنجبيل وثوم، 2 ملعقة صغيرة غرام ماسالا، ملعقة صغيرة فلفل حار مطحون",
+     "رشة زعفران في 3 ملاعق كبيرة ماء دافئ",
+     "4 ملاعق كبيرة زيت نباتي، ملح، بهارات كاملة (ورق غار، هيل، قرنفل)"
+    ],
+    "steps": [
+     "تبّل اللحم باللبن ومعجون الزنجبيل والثوم والغرام ماسالا والفلفل ونصف البصل المقلي ونصف النعناع والملح ساعتين على الأقل.",
+     "انقع الأرز 30 دقيقة، ثم اسلقه في ماء مملح مع البهارات الكاملة حتى ينضج نحو 70%، وصفّه.",
+     "افرد اللحم مع التتبيلة في قدر ثقيل مع الزيت، ورتّب الأرز فوقه، وانثر باقي البصل والنعناع.",
+     "رش ماء الزعفران، وأحكم إغلاق القدر، واطهُه على نار عالية 5 دقائق، ثم على أخفض نار نحو ساعة.",
+     "اتركه يرتاح 10 دقائق، ثم قلّبه برفق من القاع وقدّمه."
+    ]
+   },
+   "tips": [
+    "استخدم ملعقتين كبيرتين من الزيت بدل أربع واقلِ البصل في مقلاة غير لاصقة؛ ملعقة الزيت ≈ 120 سعرة.",
+    "اختر قطعاً أقل دهناً وأزل الدهن الظاهر من اللحم.",
+    "املأ نصف الطبق بسلطة الخيار والبصل واكتفِ بمغرفة واحدة من الأرز."
+   ]
+  },
+  "it": {
+   "name": "Biryani di Hyderabad",
+   "name_inline": "biryani di Hyderabad",
+   "origin": "India · Hyderabad, Telangana",
+   "intro": "Il biryani di Hyderabad è un piatto a strati di carne di capra marinata in yogurt e spezie e riso basmati a chicco lungo, sigillato e cotto lentamente in modo che carne e riso cuociano insieme al vapore. Cipolle fritte, menta e zafferano profumano ogni strato. I chicchi di riso restano separati e fragranti e la carne risulta tenera; si serve con una raita o con un sugo piccante.",
+   "history": "Il piatto è associato alle cucine di corte dei Nizam di Hyderabad, dove si incontrarono le tradizioni culinarie moghul e quelle locali del Deccan. Lo stile più noto è il kachchi biryani, in cui carne cruda marinata e riso parzialmente cotto vengono disposti a strati e cotti insieme sotto un coperchio sigillato (dum).",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg di carne di capra con l'osso, a pezzi",
+     "500 g di riso basmati",
+     "250 g di yogurt",
+     "3 cipolle affettate sottilmente e fritte fino a doratura",
+     "20 g di foglie di menta",
+     "1 cucchiaio di pasta di zenzero e aglio, 2 cucchiaini di garam masala, 1 cucchiaino di peperoncino in polvere",
+     "Un pizzico di zafferano in 3 cucchiai di acqua tiepida",
+     "4 cucchiai di olio vegetale, sale, spezie intere (alloro, cardamomo, chiodi di garofano)"
+    ],
+    "steps": [
+     "Marina la capra con yogurt, pasta di zenzero e aglio, garam masala, peperoncino, metà delle cipolle fritte, metà della menta e sale per almeno 2 ore.",
+     "Metti in ammollo il riso per 30 minuti, poi lessalo in acqua salata con le spezie intere finché è cotto al 70% circa; scolalo.",
+     "Distribuisci la carne con la marinata in una pentola pesante con l'olio, stendi sopra il riso e cospargi con le cipolle e la menta rimaste.",
+     "Irrora con l'acqua allo zafferano, sigilla bene il coperchio e cuoci a fuoco alto per 5 minuti, poi al minimo per circa 1 ora.",
+     "Lascia riposare 10 minuti, poi mescola delicatamente dal fondo e servi."
+    ]
+   },
+   "tips": [
+    "Usa 2 cucchiai di olio invece di 4 e friggi le cipolle in una padella antiaderente; 1 cucchiaio di olio ≈ 120 kcal.",
+    "Scegli tagli più magri ed elimina il grasso visibile dalla carne.",
+    "Riempi metà del piatto di insalata di cetriolo e cipolla e limita il riso a un mestolo."
+   ]
+  },
+  "el": {
+   "name": "Μπιριάνι Χαϊντεραμπάντ",
+   "origin": "Ινδία · Χαϊντεραμπάντ, Τελανγκάνα",
+   "intro": "Το μπιριάνι Χαϊντεραμπάντ είναι πιάτο σε στρώσεις με κατσικίσιο κρέας μαριναρισμένο σε γιαούρτι και μπαχαρικά και μακρύκοκκο ρύζι μπασμάτι, σφραγισμένο και σιγομαγειρεμένο ώστε το κρέας και το ρύζι να μαγειρεύονται μαζί στον ατμό. Τηγανητά κρεμμύδια, δυόσμος και σαφράν αρωματίζουν κάθε στρώση. Οι κόκκοι του ρυζιού μένουν σπυρωτοί και αρωματικοί και το κρέας βγαίνει τρυφερό· σερβίρεται με ράιτα ή με πικάντικη σάλτσα.",
+   "history": "Το πιάτο συνδέεται με τις αυλικές κουζίνες των Νιζάμ του Χαϊντεραμπάντ, όπου συναντήθηκαν οι μαγειρικές παραδόσεις των Μογγόλων και του τοπικού Ντεκάν. Το πιο γνωστό στιλ είναι το κάτσι μπιριάνι, όπου ωμό μαριναρισμένο κρέας και μισοβρασμένο ρύζι στρώνονται και μαγειρεύονται μαζί κάτω από σφραγισμένο καπάκι (ντουμ).",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 κιλό κατσικίσιο κρέας με κόκαλο, σε κομμάτια",
+     "500 γρ. ρύζι μπασμάτι",
+     "250 γρ. γιαούρτι",
+     "3 κρεμμύδια, σε λεπτές φέτες, τηγανισμένα μέχρι να χρυσίσουν",
+     "20 γρ. φύλλα δυόσμου",
+     "1 κ.σ. πάστα τζίντζερ-σκόρδου, 2 κ.γ. γκαράμ μασάλα, 1 κ.γ. τσίλι σε σκόνη",
+     "Μια πρέζα σαφράν σε 3 κ.σ. χλιαρό νερό",
+     "4 κ.σ. φυτικό λάδι, αλάτι, ολόκληρα μπαχαρικά (δάφνη, κάρδαμο, γαρίφαλο)"
+    ],
+    "steps": [
+     "Μαρινάρετε το κατσικίσιο με το γιαούρτι, την πάστα τζίντζερ-σκόρδου, το γκαράμ μασάλα, το τσίλι, τα μισά τηγανητά κρεμμύδια, τον μισό δυόσμο και αλάτι για τουλάχιστον 2 ώρες.",
+     "Μουλιάστε το ρύζι για 30 λεπτά και μετά βράστε το σε αλατισμένο νερό με τα ολόκληρα μπαχαρικά μέχρι να βράσει κατά 70% περίπου· στραγγίστε.",
+     "Απλώστε το κρέας με τη μαρινάδα σε βαριά κατσαρόλα με το λάδι, στρώστε από πάνω το ρύζι και σκορπίστε τα υπόλοιπα κρεμμύδια και τον δυόσμο.",
+     "Περιχύστε με το νερό του σαφράν, σφραγίστε καλά το καπάκι και μαγειρέψτε σε δυνατή φωτιά για 5 λεπτά, μετά στη χαμηλότερη φωτιά για περίπου 1 ώρα.",
+     "Αφήστε 10 λεπτά να ξεκουραστεί, μετά ανακατέψτε απαλά από τον πάτο και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Βάλτε 2 κ.σ. λάδι αντί για 4 και τηγανίστε τα κρεμμύδια σε αντικολλητικό τηγάνι· 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Διαλέξτε πιο άπαχες κοπές και αφαιρέστε το ορατό λίπος από το κρέας.",
+    "Γεμίστε το μισό πιάτο με σαλάτα αγγουριού-κρεμμυδιού και κρατήστε το ρύζι σε μία κουτάλα."
+   ]
+  },
+  "ru": {
+   "name": "Хайдарабадская бирьяни",
+   "origin": "Индия · Хайдарабад, Телангана",
+   "intro": "Хайдарабадская бирьяни — слоёное блюдо из козлятины, замаринованной в йогурте со специями, и длиннозёрного риса басмати; его герметично закрывают и медленно томят, так что мясо и рис готовятся на пару вместе. Жареный лук, мята и шафран ароматизируют каждый слой. Зёрна риса остаются рассыпчатыми и душистыми, а мясо получается нежным; подают с райтой или острой подливой.",
+   "history": "Блюдо связывают с придворными кухнями низамов Хайдарабада, где встретились традиции могольской и местной деканской кухни. Самый известный вариант — качи бирьяни, в котором сырое маринованное мясо и полуготовый рис выкладывают слоями и готовят вместе под плотно закрытой крышкой (дум).",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 кг козлятины на кости, кусками",
+     "500 г риса басмати",
+     "250 г йогурта",
+     "3 луковицы, тонко нарезанные и обжаренные до золотистого цвета",
+     "20 г листьев мяты",
+     "1 ст. л. пасты из имбиря и чеснока, 2 ч. л. гарам масалы, 1 ч. л. молотого перца чили",
+     "Щепотка шафрана в 3 ст. л. тёплой воды",
+     "4 ст. л. растительного масла, соль, целые специи (лавровый лист, кардамон, гвоздика)"
+    ],
+    "steps": [
+     "Замаринуйте козлятину с йогуртом, пастой из имбиря и чеснока, гарам масалой, чили, половиной жареного лука, половиной мяты и солью минимум на 2 часа.",
+     "Замочите рис на 30 минут, затем отварите в подсоленной воде с целыми специями примерно до 70 % готовности; слейте воду.",
+     "Выложите мясо с маринадом в толстостенную кастрюлю с маслом, сверху уложите рис и посыпьте оставшимся луком и мятой.",
+     "Полейте шафрановой водой, плотно закройте крышку и готовьте на сильном огне 5 минут, затем на самом слабом около 1 часа.",
+     "Дайте постоять 10 минут, затем аккуратно перемешайте со дна и подавайте."
+    ]
+   },
+   "tips": [
+    "Используйте 2 ст. л. масла вместо 4 и обжарьте лук на антипригарной сковороде; 1 ст. л. масла ≈ 120 ккал.",
+    "Выбирайте более постные куски и срезайте с мяса видимый жир.",
+    "Половину тарелки отдайте салату из огурцов и лука, а риса положите одну поварёшку."
+   ],
+   "name_inline": "хайдарабадская бирьяни"
+  },
+  "es": {
+   "name": "Biryani de Hyderabad",
+   "origin": "India · Hyderabad, Telangana",
+   "intro": "El biryani de Hyderabad es un plato en capas de carne de cabrito marinada en yogur y especias con arroz basmati de grano largo, sellado y cocido lentamente para que la carne y el arroz se cuezan al vapor juntos. Cebolla frita, menta y azafrán perfuman cada capa. Los granos de arroz quedan sueltos y aromáticos, y la carne tierna; se sirve con raita o con una salsa picante.",
+   "history": "El plato se asocia con las cocinas de la corte de los nizams de Hyderabad, donde se encontraron las tradiciones culinarias mogol y local del Decán. El estilo más conocido es el kachchi biryani, en el que la carne cruda marinada y el arroz a medio cocer se disponen en capas y se cuecen juntos bajo una tapa sellada (dum).",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg de carne de cabrito con hueso, en trozos",
+     "500 g de arroz basmati",
+     "250 g de yogur",
+     "3 cebollas, en láminas finas y fritas hasta dorar",
+     "20 g de hojas de menta",
+     "1 cda. de pasta de jengibre y ajo, 2 cdtas. de garam masala, 1 cdta. de chile en polvo",
+     "Una pizca de azafrán en 3 cdas. de agua tibia",
+     "4 cdas. de aceite vegetal, sal, especias enteras (laurel, cardamomo, clavo)"
+    ],
+    "steps": [
+     "Marina el cabrito con el yogur, la pasta de jengibre y ajo, el garam masala, el chile, la mitad de la cebolla frita, la mitad de la menta y sal durante al menos 2 horas.",
+     "Remoja el arroz 30 minutos y hiérvelo en agua con sal y las especias enteras hasta que esté cocido al 70 %; escúrrelo.",
+     "Extiende la carne con su marinada en una olla gruesa con el aceite, coloca el arroz encima y reparte el resto de la cebolla y la menta.",
+     "Rocía con el agua de azafrán, tapa bien y cuece a fuego alto 5 minutos, luego a fuego mínimo cerca de 1 hora.",
+     "Deja reposar 10 minutos, mezcla con suavidad desde el fondo y sirve."
+    ]
+   },
+   "tips": [
+    "Usa 2 cdas. de aceite en lugar de 4 y fríe la cebolla en una sartén antiadherente; 1 cda. de aceite ≈ 120 kcal.",
+    "Elige cortes más magros y retira la grasa visible de la carne.",
+    "Llena la mitad del plato con ensalada de pepino y cebolla y deja el arroz en un cucharón."
+   ],
+   "name_inline": "el biryani de Hyderabad"
   }
+ }
 }

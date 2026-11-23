@@ -1,177 +1,210 @@
 {
-  "db_key": "salade_nicoise",
-  "slug": "salade-nicoise",
-  "emoji": "🥗",
-  "portion_g": 300,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "salade_nicoise",
+ "slug": "salade-nicoise",
+ "emoji": "🥗",
+ "portion_g": 300,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Niçoise salad",
+   "origin": "France · Nice, Provence",
+   "intro": "Salade niçoise is a Provençal composed salad of tuna, hard-boiled egg, green beans, black olives, tomato and anchovy, dressed with olive oil. It is colourful and filling, salty from the olives and anchovies and fresh from the tomatoes. It is served as a light lunch, with the ingredients arranged on a platter rather than tossed together.",
+   "history": "The salad comes from Nice on the French Riviera, where it began as a simple dish of raw vegetables, olive oil and preserved fish. Cooks in Nice still argue about what belongs in it, and versions with cooked vegetables are often seen as less traditional. It became internationally known in the 20th century and is now a classic of French bistro menus.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "160 g canned tuna in olive oil, drained",
+     "2 eggs",
+     "150 g green beans",
+     "3 tomatoes, quartered",
+     "40 g black olives",
+     "4 anchovy fillets",
+     "2 tbsp olive oil, 1 tbsp red vinegar",
+     "Salt, black pepper, fresh basil"
+    ],
+    "steps": [
+     "Hard-boil the eggs for 9 minutes, cool and quarter them.",
+     "Blanch the green beans in salted water for 3–4 minutes, then cool in cold water.",
+     "Whisk the oil, vinegar, salt and pepper.",
+     "Arrange the beans, tomatoes, tuna, eggs, olives and anchovies on plates.",
+     "Drizzle with the dressing and scatter torn basil on top."
+    ]
+   },
+   "tips": [
+    "Choose tuna in water instead of oil to save a noticeable amount of fat.",
+    "Keep the dressing to 1 tbsp oil per two plates: 1 tbsp oil ≈ 120 kcal.",
+    "Add extra green beans and tomatoes for volume."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Niçoise salad",
-      "origin": "France · Nice, Provence",
-      "intro": "Salade niçoise is a Provençal composed salad of tuna, hard-boiled egg, green beans, black olives, tomato and anchovy, dressed with olive oil. It is colourful and filling, salty from the olives and anchovies and fresh from the tomatoes. It is served as a light lunch, with the ingredients arranged on a platter rather than tossed together.",
-      "history": "The salad comes from Nice on the French Riviera, where it began as a simple dish of raw vegetables, olive oil and preserved fish. Cooks in Nice still argue about what belongs in it, and versions with cooked vegetables are often seen as less traditional. It became internationally known in the 20th century and is now a classic of French bistro menus.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "160 g canned tuna in olive oil, drained",
-          "2 eggs",
-          "150 g green beans",
-          "3 tomatoes, quartered",
-          "40 g black olives",
-          "4 anchovy fillets",
-          "2 tbsp olive oil, 1 tbsp red vinegar",
-          "Salt, black pepper, fresh basil"
-        ],
-        "steps": [
-          "Hard-boil the eggs for 9 minutes, cool and quarter them.",
-          "Blanch the green beans in salted water for 3–4 minutes, then cool in cold water.",
-          "Whisk the oil, vinegar, salt and pepper.",
-          "Arrange the beans, tomatoes, tuna, eggs, olives and anchovies on plates.",
-          "Drizzle with the dressing and scatter torn basil on top."
-        ]
-      },
-      "tips": [
-        "Choose tuna in water instead of oil to save a noticeable amount of fat.",
-        "Keep the dressing to 1 tbsp oil per two plates: 1 tbsp oil ≈ 120 kcal.",
-        "Add extra green beans and tomatoes for volume."
-      ]
-    },
-    "ar": {
-      "name": "سلطة نيسواز",
-      "origin": "فرنسا · نيس، بروفانس",
-      "intro": "سلطة نيسواز سلطة بروفانسية مركّبة من التونة والبيض المسلوق والفاصوليا الخضراء والزيتون الأسود والطماطم والأنشوجة، تُتبَّل بزيت الزيتون. ألوانها زاهية وهي مشبعة، مالحة من الزيتون والأنشوجة ومنعشة من الطماطم. تُقدَّم غداءً خفيفاً، وتُرتَّب مكوناتها على الطبق بدلاً من خلطها معاً.",
-      "history": "تعود السلطة إلى مدينة نيس على الريفييرا الفرنسية، حيث بدأت طبقاً بسيطاً من الخضار النيئة وزيت الزيتون والسمك المحفوظ. ولا يزال طهاة نيس يختلفون حول مكوناتها، وتُعدّ النسخ التي تحتوي خضاراً مطبوخة أقل التزاماً بالتقليد. اشتهرت عالمياً في القرن العشرين وصارت من كلاسيكيات المطاعم الفرنسية.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "160 غ تونة معلبة بزيت الزيتون، مصفّاة",
-          "2 بيضة",
-          "150 غ فاصوليا خضراء",
-          "3 حبات طماطم مقطعة أرباعاً",
-          "40 غ زيتون أسود",
-          "4 شرائح أنشوجة",
-          "2 ملعقة كبيرة زيت زيتون، 1 ملعقة كبيرة خل أحمر",
-          "ملح وفلفل أسود وريحان طازج"
-        ],
-        "steps": [
-          "اسلق البيض 9 دقائق، ثم برّده وقطّعه أرباعاً.",
-          "اسلق الفاصوليا في ماء مملح 3–4 دقائق ثم برّدها في ماء بارد.",
-          "اخفق الزيت والخل والملح والفلفل.",
-          "رتّب الفاصوليا والطماطم والتونة والبيض والزيتون والأنشوجة في الأطباق.",
-          "رشّ الصلصة وزيّن بأوراق الريحان."
-        ]
-      },
-      "tips": [
-        "اختر التونة بالماء بدلاً من الزيت لتوفير قدر ملحوظ من الدهون.",
-        "اكتفِ بملعقة كبيرة زيت لكل طبقين: ملعقة الزيت ≈ 120 سعرة.",
-        "أضف مزيداً من الفاصوليا والطماطم لزيادة الحجم."
-      ]
-    },
-    "it": {
-      "name": "Insalata nizzarda",
-      "name_inline": "insalata nizzarda",
-      "origin": "Francia · Nizza, Provenza",
-      "intro": "La salade niçoise è un'insalata composta provenzale di tonno, uovo sodo, fagiolini, olive nere, pomodoro e acciughe, condita con olio d'oliva. È colorata e sostanziosa, sapida per le olive e le acciughe e fresca grazie ai pomodori. Si serve come pranzo leggero, con gli ingredienti disposti su un piatto da portata invece che mescolati insieme.",
-      "history": "L'insalata viene da Nizza, sulla Costa Azzurra, dove nacque come semplice piatto di verdure crude, olio d'oliva e pesce conservato. A Nizza i cuochi discutono ancora su che cosa debba contenere, e le versioni con verdure cotte sono spesso considerate meno tradizionali. È diventata famosa a livello internazionale nel XX secolo e oggi è un classico dei menu dei bistrot francesi.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "160 g di tonno sott'olio d'oliva in scatola, sgocciolato",
-          "2 uova",
-          "150 g di fagiolini",
-          "3 pomodori, tagliati in quarti",
-          "40 g di olive nere",
-          "4 filetti di acciuga",
-          "2 cucchiai di olio d'oliva, 1 cucchiaio di aceto di vino rosso",
-          "Sale, pepe nero, basilico fresco"
-        ],
-        "steps": [
-          "Rassoda le uova per 9 minuti, raffreddale e tagliale in quarti.",
-          "Sbollenta i fagiolini in acqua salata per 3–4 minuti, poi raffreddali in acqua fredda.",
-          "Sbatti l'olio con l'aceto, il sale e il pepe.",
-          "Disponi nei piatti fagiolini, pomodori, tonno, uova, olive e acciughe.",
-          "Irrora con il condimento e completa con basilico spezzettato."
-        ]
-      },
-      "tips": [
-        "Scegli il tonno al naturale invece che sott'olio per risparmiare una quantità notevole di grassi.",
-        "Limita il condimento a 1 cucchiaio di olio per due piatti: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Aggiungi fagiolini e pomodori in più per avere più volume."
-      ]
-    },
-    "el": {
-      "name": "Σαλάτα νισουάζ",
-      "name_inline": "σαλάτα νισουάζ",
-      "origin": "Γαλλία · Νίκαια, Προβηγκία",
-      "intro": "Η σαλάτα νισουάζ είναι μια προβηγκιανή σύνθετη σαλάτα με τόνο, βραστό αυγό, φασολάκια, μαύρες ελιές, ντομάτα και αντζούγιες, με ελαιόλαδο. Είναι πολύχρωμη και χορταστική, αλμυρή από τις ελιές και τις αντζούγιες και δροσερή από τις ντομάτες. Σερβίρεται ως ελαφρύ μεσημεριανό, με τα υλικά τοποθετημένα σε πιατέλα αντί να ανακατεύονται.",
-      "history": "Η σαλάτα προέρχεται από τη Νίκαια της Γαλλικής Ριβιέρας, όπου ξεκίνησε ως απλό πιάτο με ωμά λαχανικά, ελαιόλαδο και συντηρημένο ψάρι. Οι μάγειρες της Νίκαιας διαφωνούν ακόμα για το τι πρέπει να περιέχει, και οι εκδοχές με μαγειρεμένα λαχανικά θεωρούνται συχνά λιγότερο παραδοσιακές. Έγινε διεθνώς γνωστή τον 20ό αιώνα και σήμερα είναι κλασικό πιάτο των γαλλικών μπιστρό.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "160 γρ. τόνος κονσέρβας σε ελαιόλαδο, στραγγισμένος",
-          "2 αυγά",
-          "150 γρ. φασολάκια",
-          "3 ντομάτες, κομμένες στα τέσσερα",
-          "40 γρ. μαύρες ελιές",
-          "4 φιλέτα αντζούγιας",
-          "2 κ.σ. ελαιόλαδο, 1 κ.σ. κόκκινο ξίδι",
-          "Αλάτι, μαύρο πιπέρι, φρέσκος βασιλικός"
-        ],
-        "steps": [
-          "Βράστε τα αυγά σφιχτά για 9 λεπτά, κρυώστε τα και κόψτε τα στα τέσσερα.",
-          "Ζεματίστε τα φασολάκια σε αλατισμένο νερό για 3–4 λεπτά και κρυώστε τα σε κρύο νερό.",
-          "Χτυπήστε το λάδι, το ξίδι, το αλάτι και το πιπέρι.",
-          "Τοποθετήστε στα πιάτα τα φασολάκια, τις ντομάτες, τον τόνο, τα αυγά, τις ελιές και τις αντζούγιες.",
-          "Περιχύστε με τη σάλτσα και πασπαλίστε με βασιλικό κομμένο με το χέρι."
-        ]
-      },
-      "tips": [
-        "Προτιμήστε τόνο σε νερό αντί για λάδι για να γλιτώσετε σημαντική ποσότητα λιπαρών.",
-        "Περιορίστε τη σάλτσα σε 1 κ.σ. λάδι για δύο πιάτα: 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Προσθέστε επιπλέον φασολάκια και ντομάτες για όγκο."
-      ]
-    },
-    "ru": {
-      "name": "Салат нисуаз",
-      "origin": "Франция · Ницца, Прованс",
-      "intro": "Салат нисуаз — провансальский составной салат из тунца, варёных яиц, стручковой фасоли, чёрных оливок, помидоров и анчоусов, заправленный оливковым маслом. Он красочный и сытный, солёный от оливок и анчоусов и свежий от помидоров. Подаётся как лёгкий обед, ингредиенты выкладывают на блюдо, а не смешивают.",
-      "history": "Салат родом из Ниццы на Французской Ривьере, где он начинался как простое блюдо из сырых овощей, оливкового масла и консервированной рыбы. Повара Ниццы до сих пор спорят, что в него входит, а версии с варёными овощами часто считаются менее традиционными. Он стал известен во всём мире в XX веке и сегодня является классикой французских бистро.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "160 г консервированного тунца в оливковом масле, слитого",
-          "2 яйца",
-          "150 г стручковой фасоли",
-          "3 помидора, четвертинками",
-          "40 г чёрных оливок",
-          "4 филе анчоусов",
-          "2 ст. л. оливкового масла, 1 ст. л. красного уксуса",
-          "Соль, чёрный перец, свежий базилик"
-        ],
-        "steps": [
-          "Сварите яйца вкрутую за 9 минут, остудите и разрежьте на четвертинки.",
-          "Бланшируйте стручковую фасоль в подсоленной воде 3–4 минуты, затем охладите в холодной воде.",
-          "Взбейте масло, уксус, соль и перец.",
-          "Разложите фасоль, помидоры, тунца, яйца, оливки и анчоусы по тарелкам.",
-          "Полейте заправкой и посыпьте рваным базиликом."
-        ]
-      },
-      "tips": [
-        "Выбирайте тунца в собственном соку вместо масла, чтобы заметно сэкономить жир.",
-        "Ограничьте заправку 1 ст. л. масла на две тарелки: 1 ст. л. масла ≈ 120 ккал.",
-        "Добавьте больше стручковой фасоли и помидоров для объёма."
-      ],
-      "name_inline": "салат нисуаз"
-    }
+  "ar": {
+   "name": "سلطة نيسواز",
+   "origin": "فرنسا · نيس، بروفانس",
+   "intro": "سلطة نيسواز سلطة بروفانسية مركّبة من التونة والبيض المسلوق والفاصوليا الخضراء والزيتون الأسود والطماطم والأنشوجة، تُتبَّل بزيت الزيتون. ألوانها زاهية وهي مشبعة، مالحة من الزيتون والأنشوجة ومنعشة من الطماطم. تُقدَّم غداءً خفيفاً، وتُرتَّب مكوناتها على الطبق بدلاً من خلطها معاً.",
+   "history": "تعود السلطة إلى مدينة نيس على الريفييرا الفرنسية، حيث بدأت طبقاً بسيطاً من الخضار النيئة وزيت الزيتون والسمك المحفوظ. ولا يزال طهاة نيس يختلفون حول مكوناتها، وتُعدّ النسخ التي تحتوي خضاراً مطبوخة أقل التزاماً بالتقليد. اشتهرت عالمياً في القرن العشرين وصارت من كلاسيكيات المطاعم الفرنسية.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "160 غ تونة معلبة بزيت الزيتون، مصفّاة",
+     "2 بيضة",
+     "150 غ فاصوليا خضراء",
+     "3 حبات طماطم مقطعة أرباعاً",
+     "40 غ زيتون أسود",
+     "4 شرائح أنشوجة",
+     "2 ملعقة كبيرة زيت زيتون، 1 ملعقة كبيرة خل أحمر",
+     "ملح وفلفل أسود وريحان طازج"
+    ],
+    "steps": [
+     "اسلق البيض 9 دقائق، ثم برّده وقطّعه أرباعاً.",
+     "اسلق الفاصوليا في ماء مملح 3–4 دقائق ثم برّدها في ماء بارد.",
+     "اخفق الزيت والخل والملح والفلفل.",
+     "رتّب الفاصوليا والطماطم والتونة والبيض والزيتون والأنشوجة في الأطباق.",
+     "رشّ الصلصة وزيّن بأوراق الريحان."
+    ]
+   },
+   "tips": [
+    "اختر التونة بالماء بدلاً من الزيت لتوفير قدر ملحوظ من الدهون.",
+    "اكتفِ بملعقة كبيرة زيت لكل طبقين: ملعقة الزيت ≈ 120 سعرة.",
+    "أضف مزيداً من الفاصوليا والطماطم لزيادة الحجم."
+   ]
+  },
+  "it": {
+   "name": "Insalata nizzarda",
+   "name_inline": "insalata nizzarda",
+   "origin": "Francia · Nizza, Provenza",
+   "intro": "La salade niçoise è un'insalata composta provenzale di tonno, uovo sodo, fagiolini, olive nere, pomodoro e acciughe, condita con olio d'oliva. È colorata e sostanziosa, sapida per le olive e le acciughe e fresca grazie ai pomodori. Si serve come pranzo leggero, con gli ingredienti disposti su un piatto da portata invece che mescolati insieme.",
+   "history": "L'insalata viene da Nizza, sulla Costa Azzurra, dove nacque come semplice piatto di verdure crude, olio d'oliva e pesce conservato. A Nizza i cuochi discutono ancora su che cosa debba contenere, e le versioni con verdure cotte sono spesso considerate meno tradizionali. È diventata famosa a livello internazionale nel XX secolo e oggi è un classico dei menu dei bistrot francesi.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "160 g di tonno sott'olio d'oliva in scatola, sgocciolato",
+     "2 uova",
+     "150 g di fagiolini",
+     "3 pomodori, tagliati in quarti",
+     "40 g di olive nere",
+     "4 filetti di acciuga",
+     "2 cucchiai di olio d'oliva, 1 cucchiaio di aceto di vino rosso",
+     "Sale, pepe nero, basilico fresco"
+    ],
+    "steps": [
+     "Rassoda le uova per 9 minuti, raffreddale e tagliale in quarti.",
+     "Sbollenta i fagiolini in acqua salata per 3–4 minuti, poi raffreddali in acqua fredda.",
+     "Sbatti l'olio con l'aceto, il sale e il pepe.",
+     "Disponi nei piatti fagiolini, pomodori, tonno, uova, olive e acciughe.",
+     "Irrora con il condimento e completa con basilico spezzettato."
+    ]
+   },
+   "tips": [
+    "Scegli il tonno al naturale invece che sott'olio per risparmiare una quantità notevole di grassi.",
+    "Limita il condimento a 1 cucchiaio di olio per due piatti: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Aggiungi fagiolini e pomodori in più per avere più volume."
+   ]
+  },
+  "el": {
+   "name": "Σαλάτα νισουάζ",
+   "name_inline": "σαλάτα νισουάζ",
+   "origin": "Γαλλία · Νίκαια, Προβηγκία",
+   "intro": "Η σαλάτα νισουάζ είναι μια προβηγκιανή σύνθετη σαλάτα με τόνο, βραστό αυγό, φασολάκια, μαύρες ελιές, ντομάτα και αντζούγιες, με ελαιόλαδο. Είναι πολύχρωμη και χορταστική, αλμυρή από τις ελιές και τις αντζούγιες και δροσερή από τις ντομάτες. Σερβίρεται ως ελαφρύ μεσημεριανό, με τα υλικά τοποθετημένα σε πιατέλα αντί να ανακατεύονται.",
+   "history": "Η σαλάτα προέρχεται από τη Νίκαια της Γαλλικής Ριβιέρας, όπου ξεκίνησε ως απλό πιάτο με ωμά λαχανικά, ελαιόλαδο και συντηρημένο ψάρι. Οι μάγειρες της Νίκαιας διαφωνούν ακόμα για το τι πρέπει να περιέχει, και οι εκδοχές με μαγειρεμένα λαχανικά θεωρούνται συχνά λιγότερο παραδοσιακές. Έγινε διεθνώς γνωστή τον 20ό αιώνα και σήμερα είναι κλασικό πιάτο των γαλλικών μπιστρό.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "160 γρ. τόνος κονσέρβας σε ελαιόλαδο, στραγγισμένος",
+     "2 αυγά",
+     "150 γρ. φασολάκια",
+     "3 ντομάτες, κομμένες στα τέσσερα",
+     "40 γρ. μαύρες ελιές",
+     "4 φιλέτα αντζούγιας",
+     "2 κ.σ. ελαιόλαδο, 1 κ.σ. κόκκινο ξίδι",
+     "Αλάτι, μαύρο πιπέρι, φρέσκος βασιλικός"
+    ],
+    "steps": [
+     "Βράστε τα αυγά σφιχτά για 9 λεπτά, κρυώστε τα και κόψτε τα στα τέσσερα.",
+     "Ζεματίστε τα φασολάκια σε αλατισμένο νερό για 3–4 λεπτά και κρυώστε τα σε κρύο νερό.",
+     "Χτυπήστε το λάδι, το ξίδι, το αλάτι και το πιπέρι.",
+     "Τοποθετήστε στα πιάτα τα φασολάκια, τις ντομάτες, τον τόνο, τα αυγά, τις ελιές και τις αντζούγιες.",
+     "Περιχύστε με τη σάλτσα και πασπαλίστε με βασιλικό κομμένο με το χέρι."
+    ]
+   },
+   "tips": [
+    "Προτιμήστε τόνο σε νερό αντί για λάδι για να γλιτώσετε σημαντική ποσότητα λιπαρών.",
+    "Περιορίστε τη σάλτσα σε 1 κ.σ. λάδι για δύο πιάτα: 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Προσθέστε επιπλέον φασολάκια και ντομάτες για όγκο."
+   ]
+  },
+  "ru": {
+   "name": "Салат нисуаз",
+   "origin": "Франция · Ницца, Прованс",
+   "intro": "Салат нисуаз — провансальский составной салат из тунца, варёных яиц, стручковой фасоли, чёрных оливок, помидоров и анчоусов, заправленный оливковым маслом. Он красочный и сытный, солёный от оливок и анчоусов и свежий от помидоров. Подаётся как лёгкий обед, ингредиенты выкладывают на блюдо, а не смешивают.",
+   "history": "Салат родом из Ниццы на Французской Ривьере, где он начинался как простое блюдо из сырых овощей, оливкового масла и консервированной рыбы. Повара Ниццы до сих пор спорят, что в него входит, а версии с варёными овощами часто считаются менее традиционными. Он стал известен во всём мире в XX веке и сегодня является классикой французских бистро.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "160 г консервированного тунца в оливковом масле, слитого",
+     "2 яйца",
+     "150 г стручковой фасоли",
+     "3 помидора, четвертинками",
+     "40 г чёрных оливок",
+     "4 филе анчоусов",
+     "2 ст. л. оливкового масла, 1 ст. л. красного уксуса",
+     "Соль, чёрный перец, свежий базилик"
+    ],
+    "steps": [
+     "Сварите яйца вкрутую за 9 минут, остудите и разрежьте на четвертинки.",
+     "Бланшируйте стручковую фасоль в подсоленной воде 3–4 минуты, затем охладите в холодной воде.",
+     "Взбейте масло, уксус, соль и перец.",
+     "Разложите фасоль, помидоры, тунца, яйца, оливки и анчоусы по тарелкам.",
+     "Полейте заправкой и посыпьте рваным базиликом."
+    ]
+   },
+   "tips": [
+    "Выбирайте тунца в собственном соку вместо масла, чтобы заметно сэкономить жир.",
+    "Ограничьте заправку 1 ст. л. масла на две тарелки: 1 ст. л. масла ≈ 120 ккал.",
+    "Добавьте больше стручковой фасоли и помидоров для объёма."
+   ],
+   "name_inline": "салат нисуаз"
+  },
+  "es": {
+   "name": "Ensalada niçoise",
+   "origin": "Francia · Niza, Provenza",
+   "intro": "La salade niçoise es una ensalada provenzal compuesta de atún, huevo cocido, ejotes, aceitunas negras, jitomate y anchoa, aderezada con aceite de oliva. Es colorida y saciante, salada por las aceitunas y las anchoas y fresca por los jitomates. Se sirve como almuerzo ligero, con los ingredientes dispuestos en una fuente en lugar de mezclados.",
+   "history": "La ensalada es originaria de Niza, en la Riviera francesa, donde empezó como un plato sencillo de verduras crudas, aceite de oliva y pescado en conserva. Los cocineros de Niza todavía discuten qué debe llevar, y las versiones con verduras cocidas suelen considerarse menos tradicionales. Se hizo famosa en el mundo en el siglo XX y hoy es un clásico de los bistrós franceses.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "160 g de atún en lata en aceite de oliva, escurrido",
+     "2 huevos",
+     "150 g de ejotes",
+     "3 jitomates, en cuartos",
+     "40 g de aceitunas negras",
+     "4 filetes de anchoa",
+     "2 cdas. de aceite de oliva y 1 cda. de vinagre de vino tinto",
+     "Sal, pimienta negra y albahaca fresca"
+    ],
+    "steps": [
+     "Cuece los huevos 9 minutos, enfríalos y córtalos en cuartos.",
+     "Blanquea los ejotes en agua con sal de 3 a 4 minutos y enfríalos en agua fría.",
+     "Bate el aceite, el vinagre, la sal y la pimienta.",
+     "Acomoda los ejotes, los jitomates, el atún, los huevos, las aceitunas y las anchoas en los platos.",
+     "Rocía con el aderezo y esparce albahaca desgarrada por encima."
+    ]
+   },
+   "tips": [
+    "Elige atún en agua en lugar de aceite para ahorrar una cantidad notable de grasa.",
+    "Limita el aderezo a 1 cda. de aceite por dos platos: 1 cda. de aceite ≈ 120 kcal.",
+    "Añade más ejotes y jitomate para dar volumen."
+   ],
+   "name_inline": "la ensalada niçoise"
   }
+ }
 }

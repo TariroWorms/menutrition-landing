@@ -1,156 +1,185 @@
 {
-  "db_key": "smoked_brisket",
-  "slug": "smoked-brisket",
-  "emoji": "🥩",
-  "portion_g": 200,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "smoked_brisket",
+ "slug": "smoked-brisket",
+ "emoji": "🥩",
+ "portion_g": 200,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Smoked Brisket",
+   "origin": "United States · Texas",
+   "intro": "Smoked brisket is the centrepiece of Texas barbecue: a whole beef brisket rubbed with just coarse salt and black pepper, then smoked low and slow over oak for many hours. It develops a dark, peppery bark outside and a smoke ring within, while the meat turns tender and juicy. It is sliced to order and served simply on butcher paper.",
+   "history": "Brisket barbecue is usually traced to Central Texas, where meat markets run by German and Czech immigrants smoked meats in the late 19th and early 20th centuries. The salt-and-pepper style over post oak remains the hallmark of Central Texas barbecue.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "4–5 kg whole beef brisket",
+     "3 tbsp coarse salt",
+     "3 tbsp coarse black pepper",
+     "Oak wood for smoking"
+    ],
+    "steps": [
+     "Trim the hard fat, leaving about 5 mm on the fat cap.",
+     "Mix salt and pepper and season the brisket evenly on all sides.",
+     "Smoke at 110–120 °C over oak until the internal temperature reaches about 70 °C and a dark bark forms.",
+     "Wrap in butcher paper and continue cooking until about 93–95 °C and probe-tender, 10–12 hours in total.",
+     "Rest wrapped for at least 1 hour, then slice against the grain."
+    ]
+   },
+   "tips": [
+    "Choose slices from the lean 'flat' rather than the fattier 'point'.",
+    "Trim off the outer fat layer on your plate.",
+    "Pair with pickles, onions and a vegetable side instead of heavy sides."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Smoked Brisket",
-      "origin": "United States · Texas",
-      "intro": "Smoked brisket is the centrepiece of Texas barbecue: a whole beef brisket rubbed with just coarse salt and black pepper, then smoked low and slow over oak for many hours. It develops a dark, peppery bark outside and a smoke ring within, while the meat turns tender and juicy. It is sliced to order and served simply on butcher paper.",
-      "history": "Brisket barbecue is usually traced to Central Texas, where meat markets run by German and Czech immigrants smoked meats in the late 19th and early 20th centuries. The salt-and-pepper style over post oak remains the hallmark of Central Texas barbecue.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "4–5 kg whole beef brisket",
-          "3 tbsp coarse salt",
-          "3 tbsp coarse black pepper",
-          "Oak wood for smoking"
-        ],
-        "steps": [
-          "Trim the hard fat, leaving about 5 mm on the fat cap.",
-          "Mix salt and pepper and season the brisket evenly on all sides.",
-          "Smoke at 110–120 °C over oak until the internal temperature reaches about 70 °C and a dark bark forms.",
-          "Wrap in butcher paper and continue cooking until about 93–95 °C and probe-tender, 10–12 hours in total.",
-          "Rest wrapped for at least 1 hour, then slice against the grain."
-        ]
-      },
-      "tips": [
-        "Choose slices from the lean 'flat' rather than the fattier 'point'.",
-        "Trim off the outer fat layer on your plate.",
-        "Pair with pickles, onions and a vegetable side instead of heavy sides."
-      ]
-    },
-    "ar": {
-      "name": "بريسكت مدخّن",
-      "origin": "الولايات المتحدة · تكساس",
-      "intro": "البريسكت المدخّن هو محور شواء تكساس: قطعة صدر بقري كاملة تُتبّل بالملح الخشن والفلفل الأسود فقط، ثم تُدخَّن ببطء على حرارة منخفضة فوق خشب البلوط لساعات طويلة. تتكوّن لها قشرة داكنة غنية بالفلفل من الخارج وحلقة دخان وردية في الداخل، بينما يصبح اللحم طريًا وغنيًا بالعصارة. يُقطَّع عند الطلب ويُقدَّم ببساطة على ورق الجزار.",
-      "history": "يُنسب شواء البريسكت عادةً إلى وسط تكساس، حيث كانت محلات اللحوم التي يديرها مهاجرون ألمان وتشيك تدخّن اللحوم في أواخر القرن التاسع عشر وأوائل القرن العشرين. ولا يزال أسلوب الملح والفلفل فوق خشب البلوط السمة المميزة لشواء وسط تكساس.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "4–5 كغ صدر بقري كامل (بريسكت)",
-          "3 ملاعق كبيرة ملح خشن",
-          "3 ملاعق كبيرة فلفل أسود خشن",
-          "خشب بلوط للتدخين"
-        ],
-        "steps": [
-          "أزل الدهن القاسي واترك نحو 5 مم من طبقة الدهن.",
-          "اخلط الملح والفلفل وتبّل اللحم بالتساوي من جميع الجهات.",
-          "دخّنه على 110–120 °م فوق خشب البلوط حتى تصل حرارته الداخلية إلى نحو 70 °م وتتكوّن قشرة داكنة.",
-          "لفّه بورق الجزار وتابع الطهي حتى نحو 93–95 °م ويصبح طريًا عند الوخز، أي 10–12 ساعة إجمالًا.",
-          "اتركه ملفوفًا ليرتاح ساعة على الأقل، ثم قطّعه عكس اتجاه الألياف."
-        ]
-      },
-      "tips": [
-        "اختر شرائح من الجزء المسطّح الأقل دهنًا بدلًا من الجزء الأعلى الأغنى بالدهن.",
-        "أزل طبقة الدهن الخارجية في طبقك.",
-        "قدّمه مع المخللات والبصل وطبق خضار بدلًا من الأطباق الجانبية الثقيلة."
-      ]
-    },
-    "it": {
-      "name": "Brisket affumicato",
-      "name_inline": "brisket affumicato",
-      "origin": "Stati Uniti · Texas",
-      "intro": "Il brisket affumicato è il cuore del barbecue texano: un intero petto di manzo strofinato soltanto con sale grosso e pepe nero, poi affumicato a bassa temperatura e lentamente su legno di quercia per molte ore. Fuori sviluppa una crosta scura e pepata, dentro un anello di fumo, mentre la carne diventa tenera e succosa. Si affetta al momento e si serve semplicemente su carta da macellaio.",
-      "history": "Il barbecue di brisket viene di solito ricondotto al Texas centrale, dove tra la fine dell'Ottocento e l'inizio del Novecento le macellerie gestite da immigrati tedeschi e cechi affumicavano le carni. Lo stile sale e pepe su legno di post oak resta il segno distintivo del barbecue del Texas centrale.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "4–5 kg di petto di manzo intero (brisket)",
-          "3 cucchiai di sale grosso",
-          "3 cucchiai di pepe nero macinato grosso",
-          "Legno di quercia per affumicare"
-        ],
-        "steps": [
-          "Elimina il grasso duro, lasciando circa 5 mm sullo strato di grasso superiore.",
-          "Mescola sale e pepe e condisci il brisket in modo uniforme su tutti i lati.",
-          "Affumica a 110–120 °C su legno di quercia finché la temperatura interna raggiunge circa 70 °C e si forma una crosta scura.",
-          "Avvolgi nella carta da macellaio e continua la cottura fino a circa 93–95 °C, quando la sonda entra senza resistenza: 10–12 ore in totale.",
-          "Lascia riposare avvolto per almeno 1 ora, poi affetta contro fibra."
-        ]
-      },
-      "tips": [
-        "Scegli le fette della parte magra (flat) invece di quella più grassa (point).",
-        "Elimina nel piatto lo strato di grasso esterno.",
-        "Accompagna con sottaceti, cipolle e un contorno di verdure invece di contorni pesanti."
-      ]
-    },
-    "el": {
-      "name": "Καπνιστό μπρίσκετ",
-      "name_inline": "καπνιστό μπρίσκετ",
-      "origin": "Ηνωμένες Πολιτείες · Τέξας",
-      "intro": "Το καπνιστό μπρίσκετ είναι το κεντρικό πιάτο του μπάρμπεκιου του Τέξας: ένα ολόκληρο στήθος μοσχαριού τριμμένο μόνο με χοντρό αλάτι και μαύρο πιπέρι, που καπνίζεται σε χαμηλή θερμοκρασία και αργά πάνω σε ξύλο βελανιδιάς για πολλές ώρες. Έξω αποκτά σκούρα, πιπεράτη κρούστα και μέσα ένα δαχτυλίδι καπνού, ενώ το κρέας γίνεται τρυφερό και ζουμερό. Κόβεται σε φέτες τη στιγμή της παραγγελίας και σερβίρεται απλά πάνω σε χαρτί κρεοπωλείου.",
-      "history": "Το μπάρμπεκιου με μπρίσκετ συνδέεται συνήθως με το Κεντρικό Τέξας, όπου κρεοπωλεία Γερμανών και Τσέχων μεταναστών κάπνιζαν κρέατα στα τέλη του 19ου και στις αρχές του 20ού αιώνα. Το στυλ με αλάτι και πιπέρι πάνω σε ξύλο post oak παραμένει το χαρακτηριστικό γνώρισμα του μπάρμπεκιου του Κεντρικού Τέξας.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "4–5 κιλά ολόκληρο μοσχαρίσιο στήθος (μπρίσκετ)",
-          "3 κ.σ. χοντρό αλάτι",
-          "3 κ.σ. χοντροαλεσμένο μαύρο πιπέρι",
-          "Ξύλο βελανιδιάς για κάπνισμα"
-        ],
-        "steps": [
-          "Αφαιρέστε το σκληρό λίπος, αφήνοντας περίπου 5 χιλ. στο στρώμα λίπους.",
-          "Ανακατέψτε το αλάτι με το πιπέρι και καρυκεύστε ομοιόμορφα το μπρίσκετ από όλες τις πλευρές.",
-          "Καπνίστε στους 110–120 °C πάνω σε ξύλο βελανιδιάς, μέχρι η εσωτερική θερμοκρασία να φτάσει περίπου τους 70 °C και να σχηματιστεί σκούρα κρούστα.",
-          "Τυλίξτε σε χαρτί κρεοπωλείου και συνεχίστε το ψήσιμο μέχρι περίπου τους 93–95 °C, όταν το θερμόμετρο μπαίνει χωρίς αντίσταση, 10–12 ώρες συνολικά.",
-          "Αφήστε το να ξεκουραστεί τυλιγμένο για τουλάχιστον 1 ώρα και κόψτε σε φέτες κάθετα στις ίνες."
-        ]
-      },
-      "tips": [
-        "Προτιμήστε φέτες από το άπαχο τμήμα (flat) αντί για το πιο λιπαρό (point).",
-        "Αφαιρέστε στο πιάτο σας το εξωτερικό στρώμα λίπους.",
-        "Συνοδέψτε με τουρσιά, κρεμμύδια και μια γαρνιτούρα λαχανικών αντί για βαριές γαρνιτούρες."
-      ]
-    },
-    "ru": {
-      "name": "Копчёная грудинка",
-      "origin": "США · Техас",
-      "intro": "Копчёная грудинка — центральное блюдо техасского барбекю: цельная говяжья грудинка, натёртая только крупной солью и чёрным перцем, затем медленно коптящаяся на дубе много часов. Снаружи образуется тёмная перечная корочка, а внутри дымное кольцо, мясо становится нежным и сочным. Её нарезают по заказу и подают просто на мясной бумаге.",
-      "history": "Барбекю из грудинки обычно возводят к центральному Техасу, где в конце XIX и начале XX века мясные рынки, которыми управляли немецкие и чешские иммигранты, коптили мясо. Стиль соли и перца на дубе по-прежнему служит отличительным признаком барбекю центрального Техаса.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "4–5 кг цельной говяжьей грудинки",
-          "3 ст. л. крупной соли",
-          "3 ст. л. крупного чёрного перца",
-          "Дубовые дрова для копчения"
-        ],
-        "steps": [
-          "Срежьте твёрдый жир, оставив около 5 мм на жировой шапке.",
-          "Смешайте соль и перец и равномерно натрите грудинку со всех сторон.",
-          "Коптите при 110–120 °C на дубе, пока внутренняя температура не достигнет около 70 °C и не образуется тёмная корочка.",
-          "Заверните в мясную бумагу и продолжайте готовить до температуры около 93–95 °C и мягкости при проколе щупом, всего 10–12 часов.",
-          "Дайте отдохнуть в упаковке не менее 1 часа, затем нарежьте поперёк волокон."
-        ]
-      },
-      "tips": [
-        "Выбирайте ломтики из постной части («флэт»), а не из более жирной («пойнт»).",
-        "Срежьте внешний слой жира на тарелке.",
-        "Подавайте с маринадами, луком и овощным гарниром вместо тяжёлых гарниров."
-      ]
-    }
+  "ar": {
+   "name": "بريسكت مدخّن",
+   "origin": "الولايات المتحدة · تكساس",
+   "intro": "البريسكت المدخّن هو محور شواء تكساس: قطعة صدر بقري كاملة تُتبّل بالملح الخشن والفلفل الأسود فقط، ثم تُدخَّن ببطء على حرارة منخفضة فوق خشب البلوط لساعات طويلة. تتكوّن لها قشرة داكنة غنية بالفلفل من الخارج وحلقة دخان وردية في الداخل، بينما يصبح اللحم طريًا وغنيًا بالعصارة. يُقطَّع عند الطلب ويُقدَّم ببساطة على ورق الجزار.",
+   "history": "يُنسب شواء البريسكت عادةً إلى وسط تكساس، حيث كانت محلات اللحوم التي يديرها مهاجرون ألمان وتشيك تدخّن اللحوم في أواخر القرن التاسع عشر وأوائل القرن العشرين. ولا يزال أسلوب الملح والفلفل فوق خشب البلوط السمة المميزة لشواء وسط تكساس.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "4–5 كغ صدر بقري كامل (بريسكت)",
+     "3 ملاعق كبيرة ملح خشن",
+     "3 ملاعق كبيرة فلفل أسود خشن",
+     "خشب بلوط للتدخين"
+    ],
+    "steps": [
+     "أزل الدهن القاسي واترك نحو 5 مم من طبقة الدهن.",
+     "اخلط الملح والفلفل وتبّل اللحم بالتساوي من جميع الجهات.",
+     "دخّنه على 110–120 °م فوق خشب البلوط حتى تصل حرارته الداخلية إلى نحو 70 °م وتتكوّن قشرة داكنة.",
+     "لفّه بورق الجزار وتابع الطهي حتى نحو 93–95 °م ويصبح طريًا عند الوخز، أي 10–12 ساعة إجمالًا.",
+     "اتركه ملفوفًا ليرتاح ساعة على الأقل، ثم قطّعه عكس اتجاه الألياف."
+    ]
+   },
+   "tips": [
+    "اختر شرائح من الجزء المسطّح الأقل دهنًا بدلًا من الجزء الأعلى الأغنى بالدهن.",
+    "أزل طبقة الدهن الخارجية في طبقك.",
+    "قدّمه مع المخللات والبصل وطبق خضار بدلًا من الأطباق الجانبية الثقيلة."
+   ]
+  },
+  "it": {
+   "name": "Brisket affumicato",
+   "name_inline": "brisket affumicato",
+   "origin": "Stati Uniti · Texas",
+   "intro": "Il brisket affumicato è il cuore del barbecue texano: un intero petto di manzo strofinato soltanto con sale grosso e pepe nero, poi affumicato a bassa temperatura e lentamente su legno di quercia per molte ore. Fuori sviluppa una crosta scura e pepata, dentro un anello di fumo, mentre la carne diventa tenera e succosa. Si affetta al momento e si serve semplicemente su carta da macellaio.",
+   "history": "Il barbecue di brisket viene di solito ricondotto al Texas centrale, dove tra la fine dell'Ottocento e l'inizio del Novecento le macellerie gestite da immigrati tedeschi e cechi affumicavano le carni. Lo stile sale e pepe su legno di post oak resta il segno distintivo del barbecue del Texas centrale.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "4–5 kg di petto di manzo intero (brisket)",
+     "3 cucchiai di sale grosso",
+     "3 cucchiai di pepe nero macinato grosso",
+     "Legno di quercia per affumicare"
+    ],
+    "steps": [
+     "Elimina il grasso duro, lasciando circa 5 mm sullo strato di grasso superiore.",
+     "Mescola sale e pepe e condisci il brisket in modo uniforme su tutti i lati.",
+     "Affumica a 110–120 °C su legno di quercia finché la temperatura interna raggiunge circa 70 °C e si forma una crosta scura.",
+     "Avvolgi nella carta da macellaio e continua la cottura fino a circa 93–95 °C, quando la sonda entra senza resistenza: 10–12 ore in totale.",
+     "Lascia riposare avvolto per almeno 1 ora, poi affetta contro fibra."
+    ]
+   },
+   "tips": [
+    "Scegli le fette della parte magra (flat) invece di quella più grassa (point).",
+    "Elimina nel piatto lo strato di grasso esterno.",
+    "Accompagna con sottaceti, cipolle e un contorno di verdure invece di contorni pesanti."
+   ]
+  },
+  "el": {
+   "name": "Καπνιστό μπρίσκετ",
+   "name_inline": "καπνιστό μπρίσκετ",
+   "origin": "Ηνωμένες Πολιτείες · Τέξας",
+   "intro": "Το καπνιστό μπρίσκετ είναι το κεντρικό πιάτο του μπάρμπεκιου του Τέξας: ένα ολόκληρο στήθος μοσχαριού τριμμένο μόνο με χοντρό αλάτι και μαύρο πιπέρι, που καπνίζεται σε χαμηλή θερμοκρασία και αργά πάνω σε ξύλο βελανιδιάς για πολλές ώρες. Έξω αποκτά σκούρα, πιπεράτη κρούστα και μέσα ένα δαχτυλίδι καπνού, ενώ το κρέας γίνεται τρυφερό και ζουμερό. Κόβεται σε φέτες τη στιγμή της παραγγελίας και σερβίρεται απλά πάνω σε χαρτί κρεοπωλείου.",
+   "history": "Το μπάρμπεκιου με μπρίσκετ συνδέεται συνήθως με το Κεντρικό Τέξας, όπου κρεοπωλεία Γερμανών και Τσέχων μεταναστών κάπνιζαν κρέατα στα τέλη του 19ου και στις αρχές του 20ού αιώνα. Το στυλ με αλάτι και πιπέρι πάνω σε ξύλο post oak παραμένει το χαρακτηριστικό γνώρισμα του μπάρμπεκιου του Κεντρικού Τέξας.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "4–5 κιλά ολόκληρο μοσχαρίσιο στήθος (μπρίσκετ)",
+     "3 κ.σ. χοντρό αλάτι",
+     "3 κ.σ. χοντροαλεσμένο μαύρο πιπέρι",
+     "Ξύλο βελανιδιάς για κάπνισμα"
+    ],
+    "steps": [
+     "Αφαιρέστε το σκληρό λίπος, αφήνοντας περίπου 5 χιλ. στο στρώμα λίπους.",
+     "Ανακατέψτε το αλάτι με το πιπέρι και καρυκεύστε ομοιόμορφα το μπρίσκετ από όλες τις πλευρές.",
+     "Καπνίστε στους 110–120 °C πάνω σε ξύλο βελανιδιάς, μέχρι η εσωτερική θερμοκρασία να φτάσει περίπου τους 70 °C και να σχηματιστεί σκούρα κρούστα.",
+     "Τυλίξτε σε χαρτί κρεοπωλείου και συνεχίστε το ψήσιμο μέχρι περίπου τους 93–95 °C, όταν το θερμόμετρο μπαίνει χωρίς αντίσταση, 10–12 ώρες συνολικά.",
+     "Αφήστε το να ξεκουραστεί τυλιγμένο για τουλάχιστον 1 ώρα και κόψτε σε φέτες κάθετα στις ίνες."
+    ]
+   },
+   "tips": [
+    "Προτιμήστε φέτες από το άπαχο τμήμα (flat) αντί για το πιο λιπαρό (point).",
+    "Αφαιρέστε στο πιάτο σας το εξωτερικό στρώμα λίπους.",
+    "Συνοδέψτε με τουρσιά, κρεμμύδια και μια γαρνιτούρα λαχανικών αντί για βαριές γαρνιτούρες."
+   ]
+  },
+  "ru": {
+   "name": "Копчёная грудинка",
+   "origin": "США · Техас",
+   "intro": "Копчёная грудинка — центральное блюдо техасского барбекю: цельная говяжья грудинка, натёртая только крупной солью и чёрным перцем, затем медленно коптящаяся на дубе много часов. Снаружи образуется тёмная перечная корочка, а внутри дымное кольцо, мясо становится нежным и сочным. Её нарезают по заказу и подают просто на мясной бумаге.",
+   "history": "Барбекю из грудинки обычно возводят к центральному Техасу, где в конце XIX и начале XX века мясные рынки, которыми управляли немецкие и чешские иммигранты, коптили мясо. Стиль соли и перца на дубе по-прежнему служит отличительным признаком барбекю центрального Техаса.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "4–5 кг цельной говяжьей грудинки",
+     "3 ст. л. крупной соли",
+     "3 ст. л. крупного чёрного перца",
+     "Дубовые дрова для копчения"
+    ],
+    "steps": [
+     "Срежьте твёрдый жир, оставив около 5 мм на жировой шапке.",
+     "Смешайте соль и перец и равномерно натрите грудинку со всех сторон.",
+     "Коптите при 110–120 °C на дубе, пока внутренняя температура не достигнет около 70 °C и не образуется тёмная корочка.",
+     "Заверните в мясную бумагу и продолжайте готовить до температуры около 93–95 °C и мягкости при проколе щупом, всего 10–12 часов.",
+     "Дайте отдохнуть в упаковке не менее 1 часа, затем нарежьте поперёк волокон."
+    ]
+   },
+   "tips": [
+    "Выбирайте ломтики из постной части («флэт»), а не из более жирной («пойнт»).",
+    "Срежьте внешний слой жира на тарелке.",
+    "Подавайте с маринадами, луком и овощным гарниром вместо тяжёлых гарниров."
+   ]
+  },
+  "es": {
+   "name": "Brisket ahumado",
+   "origin": "Estados Unidos · Texas",
+   "intro": "El brisket ahumado es la pieza central del barbecue de Texas: un brisket de res entero frotado solo con sal gruesa y pimienta negra, y ahumado a fuego bajo y lento sobre leña de roble durante muchas horas. Por fuera desarrolla una corteza oscura y pimentada, y por dentro un anillo de humo, mientras la carne queda tierna y jugosa. Se rebana al momento y se sirve de forma sencilla sobre papel de carnicero.",
+   "history": "El barbecue de brisket suele rastrearse hasta el centro de Texas, donde las carnicerías de inmigrantes alemanes y checos ahumaban carnes a finales del siglo XIX y comienzos del XX. El estilo de sal y pimienta sobre roble sigue siendo el sello del barbecue del centro de Texas.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "4–5 kg de brisket de res entero",
+     "3 cdas. de sal gruesa",
+     "3 cdas. de pimienta negra gruesa",
+     "Leña de roble para ahumar"
+    ],
+    "steps": [
+     "Recorta la grasa dura y deja unos 5 mm en la capa de grasa.",
+     "Mezcla la sal y la pimienta y sazona el brisket de manera pareja por todos los lados.",
+     "Ahúma a 110–120 °C con roble hasta que la temperatura interna llegue a unos 70 °C y se forme una corteza oscura.",
+     "Envuelve en papel de carnicero y sigue cociendo hasta unos 93–95 °C, hasta que la sonda entre con facilidad, de 10 a 12 horas en total.",
+     "Deja reposar envuelto al menos 1 hora y rebana en contra de la fibra."
+    ]
+   },
+   "tips": [
+    "Elige rebanadas del «flat», que es magro, en lugar del «point», que es más graso.",
+    "Retira en tu plato la capa externa de grasa.",
+    "Acompáñalo con pepinillos, cebolla y una guarnición de verduras en lugar de guarniciones pesadas."
+   ],
+   "name_inline": "el brisket ahumado"
   }
+ }
 }

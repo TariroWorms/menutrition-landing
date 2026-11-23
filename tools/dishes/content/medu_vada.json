@@ -1,164 +1,195 @@
 {
-  "db_key": "medu_vada",
-  "slug": "medu-vada",
-  "emoji": "🍩",
-  "portion_g": 100,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "medu_vada",
+ "slug": "medu-vada",
+ "emoji": "🍩",
+ "portion_g": 100,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Medu Vada",
+   "origin": "India · South India",
+   "intro": "Medu vada are South Indian savoury doughnuts made from a batter of soaked and ground urad dal, seasoned with ginger, green chilli, curry leaves and cumin. Deep-fried, they become crisp and golden outside while staying light and fluffy inside. They are a breakfast favourite, served hot with coconut chutney and sambar.",
+   "history": "Medu vada are a classic breakfast and festival food of South India, especially Tamil Nadu and Karnataka; 'medu' is usually explained as meaning soft. Today they are served in homes, temple kitchens and tiffin restaurants across India and the diaspora.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g urad dal, soaked 4 hours",
+     "1 tbsp grated ginger",
+     "2 green chillies, finely chopped",
+     "10 curry leaves, chopped",
+     "1 tsp cumin seeds",
+     "salt, a few tbsp cold water",
+     "oil for deep-frying"
+    ],
+    "steps": [
+     "Drain the dal and grind it with as little cold water as possible into a thick, fluffy batter.",
+     "Beat the batter by hand for 3–4 minutes to aerate it, then mix in the ginger, chillies, curry leaves, cumin and salt.",
+     "With wet hands shape a ball, flatten it and poke a hole in the centre.",
+     "Slide into oil at about 170 °C and fry 4–5 minutes, turning, until crisp and golden; drain on paper."
+    ]
+   },
+   "tips": [
+    "Keep the oil hot enough (about 170 °C) so the vada absorb less oil.",
+    "Eat two vada with sambar, which fills you up for fewer calories than extra vada.",
+    "Try cooking the batter in an appe (paniyaram) pan with a few drops of oil instead of deep-frying."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Medu Vada",
-      "origin": "India · South India",
-      "intro": "Medu vada are South Indian savoury doughnuts made from a batter of soaked and ground urad dal, seasoned with ginger, green chilli, curry leaves and cumin. Deep-fried, they become crisp and golden outside while staying light and fluffy inside. They are a breakfast favourite, served hot with coconut chutney and sambar.",
-      "history": "Medu vada are a classic breakfast and festival food of South India, especially Tamil Nadu and Karnataka; 'medu' is usually explained as meaning soft. Today they are served in homes, temple kitchens and tiffin restaurants across India and the diaspora.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 g urad dal, soaked 4 hours",
-          "1 tbsp grated ginger",
-          "2 green chillies, finely chopped",
-          "10 curry leaves, chopped",
-          "1 tsp cumin seeds",
-          "salt, a few tbsp cold water",
-          "oil for deep-frying"
-        ],
-        "steps": [
-          "Drain the dal and grind it with as little cold water as possible into a thick, fluffy batter.",
-          "Beat the batter by hand for 3–4 minutes to aerate it, then mix in the ginger, chillies, curry leaves, cumin and salt.",
-          "With wet hands shape a ball, flatten it and poke a hole in the centre.",
-          "Slide into oil at about 170 °C and fry 4–5 minutes, turning, until crisp and golden; drain on paper."
-        ]
-      },
-      "tips": [
-        "Keep the oil hot enough (about 170 °C) so the vada absorb less oil.",
-        "Eat two vada with sambar, which fills you up for fewer calories than extra vada.",
-        "Try cooking the batter in an appe (paniyaram) pan with a few drops of oil instead of deep-frying."
-      ]
-    },
-    "ar": {
-      "name": "ميدو فادا",
-      "origin": "الهند · جنوب الهند",
-      "intro": "ميدو فادا كعكات مالحة على شكل دونات من جنوب الهند، تُصنع من عجينة أوراد دال منقوعة ومطحونة، متبّلة بالزنجبيل والفلفل الأخضر الحار وأوراق الكاري والكمون. بعد القلي العميق تصبح مقرمشة ذهبية من الخارج وخفيفة هشة من الداخل. وهي من أشهر أطباق الفطور، تُقدَّم ساخنة مع شطني جوز الهند والسامبار.",
-      "history": "ميدو فادا من أطباق الفطور والأعياد الكلاسيكية في جنوب الهند، خاصة في تاميل نادو وكارناتاكا، وتُفسَّر كلمة «ميدو» عادةً بمعنى الطري. وتُقدَّم اليوم في البيوت ومطابخ المعابد ومطاعم الفطور في أنحاء الهند وبين الجاليات الهندية في الخارج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 غ أوراد دال منقوعة 4 ساعات",
-          "1 ملعقة كبيرة زنجبيل مبشور",
-          "2 حبة فلفل أخضر حار مفرومة ناعماً",
-          "10 أوراق كاري مفرومة",
-          "1 ملعقة صغيرة بذور كمون",
-          "ملح، وبضع ملاعق كبيرة ماء بارد",
-          "زيت للقلي العميق"
-        ],
-        "steps": [
-          "صفِّ الدال واطحنها بأقل كمية من الماء البارد حتى تصبح عجينة كثيفة منتفخة.",
-          "اخفق العجينة باليد 3–4 دقائق لتدخلها الهواء، ثم أضف الزنجبيل والفلفل وأوراق الكاري والكمون والملح.",
-          "بيدين مبللتين شكّل كرة، ثم سطّحها واصنع ثقباً في وسطها.",
-          "أنزلها في زيت على نحو 170 °م واقلها 4–5 دقائق مع التقليب حتى تقرمش وتتحمّر، ثم صفّها على ورق."
-        ]
-      },
-      "tips": [
-        "حافظ على حرارة الزيت (نحو 170 °م) لتمتص الفادا زيتاً أقل.",
-        "تناول قطعتين مع السامبار، فهو يُشبع بسعرات أقل من قطع فادا إضافية.",
-        "جرّب طهي العجينة في مقلاة الأبّي (بانيارام) بقطرات قليلة من الزيت بدلاً من القلي العميق."
-      ]
-    },
-    "it": {
-      "name": "Medu vada",
-      "origin": "India · India meridionale",
-      "intro": "I medu vada sono ciambelle salate dell'India meridionale fatte con una pastella di urad dal ammollato e macinato, insaporita con zenzero, peperoncino verde, foglie di curry e cumino. Fritti, diventano croccanti e dorati fuori pur restando leggeri e soffici dentro. Sono un classico della colazione, serviti caldi con chutney di cocco e sambar.",
-      "history": "I medu vada sono un classico della colazione e delle feste nell'India meridionale, soprattutto nel Tamil Nadu e nel Karnataka; «medu» viene di solito spiegato come «morbido». Oggi si servono nelle case, nelle cucine dei templi e nei ristoranti tiffin in tutta l'India e nella diaspora.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 g di urad dal, ammollato 4 ore",
-          "1 cucchiaio di zenzero grattugiato",
-          "2 peperoncini verdi, tritati finemente",
-          "10 foglie di curry, tritate",
-          "1 cucchiaino di semi di cumino",
-          "sale, qualche cucchiaio di acqua fredda",
-          "olio per friggere"
-        ],
-        "steps": [
-          "Scola il dal e macinalo con meno acqua fredda possibile fino a ottenere una pastella densa e spumosa.",
-          "Sbatti la pastella a mano per 3–4 minuti per incorporare aria, poi aggiungi lo zenzero, i peperoncini, le foglie di curry, il cumino e il sale.",
-          "Con le mani bagnate forma una pallina, appiattiscila e pratica un foro al centro.",
-          "Falla scivolare nell'olio a circa 170 °C e friggi 4–5 minuti, girando, finché è croccante e dorata; scola su carta assorbente."
-        ]
-      },
-      "tips": [
-        "Mantieni l'olio abbastanza caldo (circa 170 °C), così i vada assorbono meno olio.",
-        "Mangia due vada con il sambar, che sazia con meno calorie rispetto a vada in più.",
-        "Prova a cuocere la pastella in una padella appe (paniyaram) con qualche goccia d'olio invece di friggerla."
-      ]
-    },
-    "el": {
-      "name": "Μέντου βάντα",
-      "origin": "Ινδία · Νότια Ινδία",
-      "intro": "Τα μέντου βάντα είναι αλμυρά ντόνατς της Νότιας Ινδίας από χυλό μουλιασμένου και αλεσμένου ουράντ νταλ, καρυκευμένο με τζίντζερ, πράσινο τσίλι, φύλλα κάρι και κύμινο. Τηγανισμένα σε βαθύ λάδι γίνονται τραγανά και χρυσαφένια απ' έξω, ενώ μένουν ελαφριά και αφράτα μέσα. Είναι αγαπημένο πρωινό και σερβίρονται ζεστά με τσάτνεϊ καρύδας και σάμπαρ.",
-      "history": "Τα μέντου βάντα είναι κλασικό πρωινό και γιορτινό φαγητό της Νότιας Ινδίας, ιδίως στο Ταμίλ Ναντού και την Καρνατάκα· το «μέντου» εξηγείται συνήθως ως «μαλακό». Σήμερα σερβίρονται σε σπίτια, κουζίνες ναών και εστιατόρια τίφιν σε όλη την Ινδία και τη διασπορά.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 γρ. ουράντ νταλ, μουλιασμένο 4 ώρες",
-          "1 κ.σ. τριμμένο τζίντζερ",
-          "2 πράσινα τσίλι, ψιλοκομμένα",
-          "10 φύλλα κάρι, ψιλοκομμένα",
-          "1 κ.γ. σπόροι κύμινου",
-          "αλάτι, λίγες κ.σ. κρύο νερό",
-          "λάδι για βαθύ τηγάνισμα"
-        ],
-        "steps": [
-          "Στραγγίξτε το νταλ και αλέστε το με όσο το δυνατόν λιγότερο κρύο νερό σε πηχτό, αφράτο χυλό.",
-          "Χτυπήστε τον χυλό με το χέρι για 3–4 λεπτά για να πάρει αέρα και μετά ανακατέψτε μέσα το τζίντζερ, τα τσίλι, τα φύλλα κάρι, το κύμινο και το αλάτι.",
-          "Με βρεγμένα χέρια πλάστε ένα μπαλάκι, πατήστε το και ανοίξτε μια τρύπα στο κέντρο.",
-          "Ρίξτε το σε λάδι στους περίπου 170 °C και τηγανίστε 4–5 λεπτά, γυρίζοντας, μέχρι να γίνει τραγανό και χρυσαφένιο· στραγγίξτε σε χαρτί."
-        ]
-      },
-      "tips": [
-        "Κρατήστε το λάδι αρκετά ζεστό (περίπου 170 °C) ώστε τα βάντα να απορροφούν λιγότερο λάδι.",
-        "Φάτε δύο βάντα με σάμπαρ, που χορταίνει με λιγότερες θερμίδες από επιπλέον βάντα.",
-        "Δοκιμάστε να ψήσετε τον χυλό σε τηγάνι άπε (πανιγιαράμ) με λίγες σταγόνες λάδι αντί για βαθύ τηγάνισμα."
-      ]
-    },
-    "ru": {
-      "name": "Меду вада",
-      "origin": "Индия · Южная Индия",
-      "intro": "Меду вада — южноиндийские солёные пончики из теста из замоченной и измельчённой урад-дал, приправленного имбирём, зелёным чили, листьями карри и зирой. После фритюра они становятся хрустящими и золотистыми снаружи, оставаясь лёгкими и воздушными внутри. Это любимый завтрак, который подают горячим с кокосовым чатни и самбаром.",
-      "history": "Меду вада — классический завтрак и праздничная еда Южной Индии, особенно Тамил-Наду и Карнатаки; «меду» обычно объясняют как «мягкий». Сегодня их подают в домах, храмовых кухнях и ресторанах «тиффин» по всей Индии и среди диаспоры.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 г урад-дал, замоченной на 4 часа",
-          "1 ст. л. тёртого имбиря",
-          "2 зелёных чили, мелко нарубленных",
-          "10 листьев карри, нарубленных",
-          "1 ч. л. семян зиры",
-          "соль, несколько ст. л. холодной воды",
-          "масло для фритюра"
-        ],
-        "steps": [
-          "Откиньте дал и измельчите с минимумом холодной воды в густую воздушную массу.",
-          "Взбивайте тесто вручную 3–4 минуты, чтобы насытить его воздухом, затем вмешайте имбирь, чили, листья карри, зиру и соль.",
-          "Мокрыми руками сформуйте шарик, расплющите его и проделайте в центре отверстие.",
-          "Опускайте в масло при температуре около 170 °C и жарьте 4–5 минут, переворачивая, до хруста и золотистого цвета; обсушите на бумаге."
-        ]
-      },
-      "tips": [
-        "Поддерживайте достаточно горячее масло (около 170 °C), чтобы вада впитывали меньше масла.",
-        "Съешьте две вада с самбаром, который насыщает при меньшем количестве калорий, чем дополнительные вада.",
-        "Попробуйте приготовить тесто в сковороде аппе (панийарам) с несколькими каплями масла вместо фритюра."
-      ]
-    }
+  "ar": {
+   "name": "ميدو فادا",
+   "origin": "الهند · جنوب الهند",
+   "intro": "ميدو فادا كعكات مالحة على شكل دونات من جنوب الهند، تُصنع من عجينة أوراد دال منقوعة ومطحونة، متبّلة بالزنجبيل والفلفل الأخضر الحار وأوراق الكاري والكمون. بعد القلي العميق تصبح مقرمشة ذهبية من الخارج وخفيفة هشة من الداخل. وهي من أشهر أطباق الفطور، تُقدَّم ساخنة مع شطني جوز الهند والسامبار.",
+   "history": "ميدو فادا من أطباق الفطور والأعياد الكلاسيكية في جنوب الهند، خاصة في تاميل نادو وكارناتاكا، وتُفسَّر كلمة «ميدو» عادةً بمعنى الطري. وتُقدَّم اليوم في البيوت ومطابخ المعابد ومطاعم الفطور في أنحاء الهند وبين الجاليات الهندية في الخارج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 غ أوراد دال منقوعة 4 ساعات",
+     "1 ملعقة كبيرة زنجبيل مبشور",
+     "2 حبة فلفل أخضر حار مفرومة ناعماً",
+     "10 أوراق كاري مفرومة",
+     "1 ملعقة صغيرة بذور كمون",
+     "ملح، وبضع ملاعق كبيرة ماء بارد",
+     "زيت للقلي العميق"
+    ],
+    "steps": [
+     "صفِّ الدال واطحنها بأقل كمية من الماء البارد حتى تصبح عجينة كثيفة منتفخة.",
+     "اخفق العجينة باليد 3–4 دقائق لتدخلها الهواء، ثم أضف الزنجبيل والفلفل وأوراق الكاري والكمون والملح.",
+     "بيدين مبللتين شكّل كرة، ثم سطّحها واصنع ثقباً في وسطها.",
+     "أنزلها في زيت على نحو 170 °م واقلها 4–5 دقائق مع التقليب حتى تقرمش وتتحمّر، ثم صفّها على ورق."
+    ]
+   },
+   "tips": [
+    "حافظ على حرارة الزيت (نحو 170 °م) لتمتص الفادا زيتاً أقل.",
+    "تناول قطعتين مع السامبار، فهو يُشبع بسعرات أقل من قطع فادا إضافية.",
+    "جرّب طهي العجينة في مقلاة الأبّي (بانيارام) بقطرات قليلة من الزيت بدلاً من القلي العميق."
+   ]
+  },
+  "it": {
+   "name": "Medu vada",
+   "origin": "India · India meridionale",
+   "intro": "I medu vada sono ciambelle salate dell'India meridionale fatte con una pastella di urad dal ammollato e macinato, insaporita con zenzero, peperoncino verde, foglie di curry e cumino. Fritti, diventano croccanti e dorati fuori pur restando leggeri e soffici dentro. Sono un classico della colazione, serviti caldi con chutney di cocco e sambar.",
+   "history": "I medu vada sono un classico della colazione e delle feste nell'India meridionale, soprattutto nel Tamil Nadu e nel Karnataka; «medu» viene di solito spiegato come «morbido». Oggi si servono nelle case, nelle cucine dei templi e nei ristoranti tiffin in tutta l'India e nella diaspora.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g di urad dal, ammollato 4 ore",
+     "1 cucchiaio di zenzero grattugiato",
+     "2 peperoncini verdi, tritati finemente",
+     "10 foglie di curry, tritate",
+     "1 cucchiaino di semi di cumino",
+     "sale, qualche cucchiaio di acqua fredda",
+     "olio per friggere"
+    ],
+    "steps": [
+     "Scola il dal e macinalo con meno acqua fredda possibile fino a ottenere una pastella densa e spumosa.",
+     "Sbatti la pastella a mano per 3–4 minuti per incorporare aria, poi aggiungi lo zenzero, i peperoncini, le foglie di curry, il cumino e il sale.",
+     "Con le mani bagnate forma una pallina, appiattiscila e pratica un foro al centro.",
+     "Falla scivolare nell'olio a circa 170 °C e friggi 4–5 minuti, girando, finché è croccante e dorata; scola su carta assorbente."
+    ]
+   },
+   "tips": [
+    "Mantieni l'olio abbastanza caldo (circa 170 °C), così i vada assorbono meno olio.",
+    "Mangia due vada con il sambar, che sazia con meno calorie rispetto a vada in più.",
+    "Prova a cuocere la pastella in una padella appe (paniyaram) con qualche goccia d'olio invece di friggerla."
+   ]
+  },
+  "el": {
+   "name": "Μέντου βάντα",
+   "origin": "Ινδία · Νότια Ινδία",
+   "intro": "Τα μέντου βάντα είναι αλμυρά ντόνατς της Νότιας Ινδίας από χυλό μουλιασμένου και αλεσμένου ουράντ νταλ, καρυκευμένο με τζίντζερ, πράσινο τσίλι, φύλλα κάρι και κύμινο. Τηγανισμένα σε βαθύ λάδι γίνονται τραγανά και χρυσαφένια απ' έξω, ενώ μένουν ελαφριά και αφράτα μέσα. Είναι αγαπημένο πρωινό και σερβίρονται ζεστά με τσάτνεϊ καρύδας και σάμπαρ.",
+   "history": "Τα μέντου βάντα είναι κλασικό πρωινό και γιορτινό φαγητό της Νότιας Ινδίας, ιδίως στο Ταμίλ Ναντού και την Καρνατάκα· το «μέντου» εξηγείται συνήθως ως «μαλακό». Σήμερα σερβίρονται σε σπίτια, κουζίνες ναών και εστιατόρια τίφιν σε όλη την Ινδία και τη διασπορά.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 γρ. ουράντ νταλ, μουλιασμένο 4 ώρες",
+     "1 κ.σ. τριμμένο τζίντζερ",
+     "2 πράσινα τσίλι, ψιλοκομμένα",
+     "10 φύλλα κάρι, ψιλοκομμένα",
+     "1 κ.γ. σπόροι κύμινου",
+     "αλάτι, λίγες κ.σ. κρύο νερό",
+     "λάδι για βαθύ τηγάνισμα"
+    ],
+    "steps": [
+     "Στραγγίξτε το νταλ και αλέστε το με όσο το δυνατόν λιγότερο κρύο νερό σε πηχτό, αφράτο χυλό.",
+     "Χτυπήστε τον χυλό με το χέρι για 3–4 λεπτά για να πάρει αέρα και μετά ανακατέψτε μέσα το τζίντζερ, τα τσίλι, τα φύλλα κάρι, το κύμινο και το αλάτι.",
+     "Με βρεγμένα χέρια πλάστε ένα μπαλάκι, πατήστε το και ανοίξτε μια τρύπα στο κέντρο.",
+     "Ρίξτε το σε λάδι στους περίπου 170 °C και τηγανίστε 4–5 λεπτά, γυρίζοντας, μέχρι να γίνει τραγανό και χρυσαφένιο· στραγγίξτε σε χαρτί."
+    ]
+   },
+   "tips": [
+    "Κρατήστε το λάδι αρκετά ζεστό (περίπου 170 °C) ώστε τα βάντα να απορροφούν λιγότερο λάδι.",
+    "Φάτε δύο βάντα με σάμπαρ, που χορταίνει με λιγότερες θερμίδες από επιπλέον βάντα.",
+    "Δοκιμάστε να ψήσετε τον χυλό σε τηγάνι άπε (πανιγιαράμ) με λίγες σταγόνες λάδι αντί για βαθύ τηγάνισμα."
+   ]
+  },
+  "ru": {
+   "name": "Меду вада",
+   "origin": "Индия · Южная Индия",
+   "intro": "Меду вада — южноиндийские солёные пончики из теста из замоченной и измельчённой урад-дал, приправленного имбирём, зелёным чили, листьями карри и зирой. После фритюра они становятся хрустящими и золотистыми снаружи, оставаясь лёгкими и воздушными внутри. Это любимый завтрак, который подают горячим с кокосовым чатни и самбаром.",
+   "history": "Меду вада — классический завтрак и праздничная еда Южной Индии, особенно Тамил-Наду и Карнатаки; «меду» обычно объясняют как «мягкий». Сегодня их подают в домах, храмовых кухнях и ресторанах «тиффин» по всей Индии и среди диаспоры.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 г урад-дал, замоченной на 4 часа",
+     "1 ст. л. тёртого имбиря",
+     "2 зелёных чили, мелко нарубленных",
+     "10 листьев карри, нарубленных",
+     "1 ч. л. семян зиры",
+     "соль, несколько ст. л. холодной воды",
+     "масло для фритюра"
+    ],
+    "steps": [
+     "Откиньте дал и измельчите с минимумом холодной воды в густую воздушную массу.",
+     "Взбивайте тесто вручную 3–4 минуты, чтобы насытить его воздухом, затем вмешайте имбирь, чили, листья карри, зиру и соль.",
+     "Мокрыми руками сформуйте шарик, расплющите его и проделайте в центре отверстие.",
+     "Опускайте в масло при температуре около 170 °C и жарьте 4–5 минут, переворачивая, до хруста и золотистого цвета; обсушите на бумаге."
+    ]
+   },
+   "tips": [
+    "Поддерживайте достаточно горячее масло (около 170 °C), чтобы вада впитывали меньше масла.",
+    "Съешьте две вада с самбаром, который насыщает при меньшем количестве калорий, чем дополнительные вада.",
+    "Попробуйте приготовить тесто в сковороде аппе (панийарам) с несколькими каплями масла вместо фритюра."
+   ]
+  },
+  "es": {
+   "name": "Medu vada",
+   "origin": "India · Sur de la India",
+   "intro": "Las medu vada son donas saladas del sur de la India hechas con una masa de urad dal remojado y molido, sazonada con jengibre, chile verde, hojas de curry y comino. Fritas en abundante aceite, quedan crujientes y doradas por fuera y ligeras y esponjosas por dentro. Son un desayuno favorito, y se sirven calientes con chutney de coco y sambar.",
+   "history": "Las medu vada son un clásico del desayuno y de las fiestas del sur de la India, sobre todo en Tamil Nadu y Karnataka; «medu» suele explicarse como «suave». Hoy se sirven en casas, cocinas de templos y restaurantes de tiffin en toda la India y en la diáspora.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g de urad dal, remojado 4 horas",
+     "1 cda. de jengibre rallado",
+     "2 chiles verdes, picados finos",
+     "10 hojas de curry, picadas",
+     "1 cdta. de semillas de comino",
+     "sal, unas cucharadas de agua fría",
+     "aceite para freír"
+    ],
+    "steps": [
+     "Escurre el dal y muélelo con la menor cantidad posible de agua fría hasta obtener una masa espesa y esponjosa.",
+     "Bate la masa a mano de 3 a 4 minutos para airearla y luego mezcla el jengibre, los chiles, las hojas de curry, el comino y la sal.",
+     "Con las manos mojadas forma una bola, aplánala y hazle un agujero en el centro.",
+     "Deslízala en aceite a unos 170 °C y fríe de 4 a 5 minutos, volteando, hasta que esté crujiente y dorada; escurre sobre papel."
+    ]
+   },
+   "tips": [
+    "Mantén el aceite bien caliente (unos 170 °C) para que las vada absorban menos.",
+    "Come dos vada con sambar, que sacia con menos calorías que más vada.",
+    "Prueba a cocinar la masa en un molde appe (paniyaram) con unas gotas de aceite en lugar de freírla."
+   ],
+   "name_inline": "las medu vada"
   }
+ }
 }

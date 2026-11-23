@@ -1,176 +1,209 @@
 {
-  "db_key": "texas_chili",
-  "slug": "texas-chili",
-  "emoji": "🌶️",
-  "portion_g": 300,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "texas_chili",
+ "slug": "texas-chili",
+ "emoji": "🌶️",
+ "portion_g": 300,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Texas Chili (Chili con Carne)",
+   "origin": "United States · Texas",
+   "intro": "Texas chili, or a 'bowl of red', is chunks of beef braised slowly with a paste of dried chilies, cumin, garlic, onion and a little tomato until the meat is tender and the sauce is deep red, thick and smoky. True Texas-style chili famously leaves out beans. It is served in a bowl, often with chopped onion on top.",
+   "history": "Chili con carne is usually traced to San Antonio, where the 'chili queens' sold it from street stands in the late 19th century. It was named the official state dish of Texas in 1977, and the no-beans rule is still defended at Texas chili cook-offs.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 kg beef chuck, cut into 2 cm cubes",
+     "6 dried chilies (such as ancho and guajillo), seeded",
+     "1 tbsp ground cumin",
+     "4 cloves garlic",
+     "1 onion, chopped",
+     "200 g crushed tomato",
+     "1 tbsp oil",
+     "Salt"
+    ],
+    "steps": [
+     "Toast the dried chilies in a dry pan, soak in hot water for 20 minutes, then blend with garlic and some soaking water to a paste.",
+     "Brown the beef in the oil in batches and set aside.",
+     "Soften the onion in the same pot, add the cumin, chili paste and tomato and cook 5 minutes.",
+     "Return the beef, add water to just cover and season with salt.",
+     "Simmer covered for 2–2½ hours until the beef is tender and the sauce is thick."
+    ]
+   },
+   "tips": [
+    "Trim the beef and skim fat from the surface once the chili has rested.",
+    "Serve it over a bed of shredded lettuce or with extra onion instead of chips.",
+    "Stretch each bowl with diced peppers or tomato for volume."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Texas Chili (Chili con Carne)",
-      "origin": "United States · Texas",
-      "intro": "Texas chili, or a 'bowl of red', is chunks of beef braised slowly with a paste of dried chilies, cumin, garlic, onion and a little tomato until the meat is tender and the sauce is deep red, thick and smoky. True Texas-style chili famously leaves out beans. It is served in a bowl, often with chopped onion on top.",
-      "history": "Chili con carne is usually traced to San Antonio, where the 'chili queens' sold it from street stands in the late 19th century. It was named the official state dish of Texas in 1977, and the no-beans rule is still defended at Texas chili cook-offs.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 kg beef chuck, cut into 2 cm cubes",
-          "6 dried chilies (such as ancho and guajillo), seeded",
-          "1 tbsp ground cumin",
-          "4 cloves garlic",
-          "1 onion, chopped",
-          "200 g crushed tomato",
-          "1 tbsp oil",
-          "Salt"
-        ],
-        "steps": [
-          "Toast the dried chilies in a dry pan, soak in hot water for 20 minutes, then blend with garlic and some soaking water to a paste.",
-          "Brown the beef in the oil in batches and set aside.",
-          "Soften the onion in the same pot, add the cumin, chili paste and tomato and cook 5 minutes.",
-          "Return the beef, add water to just cover and season with salt.",
-          "Simmer covered for 2–2½ hours until the beef is tender and the sauce is thick."
-        ]
-      },
-      "tips": [
-        "Trim the beef and skim fat from the surface once the chili has rested.",
-        "Serve it over a bed of shredded lettuce or with extra onion instead of chips.",
-        "Stretch each bowl with diced peppers or tomato for volume."
-      ]
-    },
-    "ar": {
-      "name": "تشيلي تكساس (تشيلي كون كارني)",
-      "origin": "الولايات المتحدة · تكساس",
-      "intro": "تشيلي تكساس، أو «الوعاء الأحمر»، قطع من لحم البقر تُطهى ببطء مع معجون من الفلفل المجفف والكمون والثوم والبصل وقليل من الطماطم حتى يطرى اللحم وتصبح الصلصة حمراء داكنة كثيفة بنكهة مدخنة. والتشيلي على طريقة تكساس الأصيلة يخلو من الفاصولياء كما هو معروف. يُقدّم في وعاء، وغالبًا مع البصل المفروم فوقه.",
-      "history": "يُنسب التشيلي كون كارني عادةً إلى سان أنطونيو، حيث كانت «ملكات التشيلي» يبعنه في أكشاك الشوارع في أواخر القرن التاسع عشر. وأُعلن الطبق الرسمي لولاية تكساس عام 1977، ولا تزال قاعدة «بلا فاصولياء» محل دفاع في مسابقات التشيلي في تكساس.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 كغ لحم بقر من الكتف مقطع مكعبات 2 سم",
-          "6 حبات فلفل مجفف (مثل أنشو وغواخيو) منزوعة البذور",
-          "ملعقة كبيرة كمون مطحون",
-          "4 فصوص ثوم",
-          "بصلة مفرومة",
-          "200 غ طماطم مهروسة",
-          "ملعقة كبيرة زيت",
-          "ملح"
-        ],
-        "steps": [
-          "حمّص الفلفل المجفف في مقلاة جافة، وانقعه في ماء ساخن 20 دقيقة، ثم اخلطه مع الثوم وقليل من ماء النقع حتى يصبح معجونًا.",
-          "حمّر اللحم في الزيت على دفعات وارفعه جانبًا.",
-          "شوّح البصل في القدر نفسه، وأضف الكمون ومعجون الفلفل والطماطم واطهها 5 دقائق.",
-          "أعد اللحم وأضف ماءً يغطيه بالكاد وتبّل بالملح.",
-          "اتركه يغلي بهدوء مغطى ساعتين إلى ساعتين ونصف حتى يطرى اللحم وتتكثف الصلصة."
-        ]
-      },
-      "tips": [
-        "أزل الدهن من اللحم، واكشط الدهن عن السطح بعد أن يرتاح التشيلي.",
-        "قدّمه فوق خس مقطع أو مع بصل إضافي بدل رقائق الذرة.",
-        "زِد حجم كل وعاء بالفلفل الرومي أو الطماطم المقطعة."
-      ]
-    },
-    "it": {
-      "name": "Chili texano (chili con carne)",
-      "name_inline": "chili texano",
-      "origin": "Stati Uniti · Texas",
-      "intro": "Il chili texano, o «bowl of red», è fatto di pezzi di manzo brasati lentamente con una pasta di peperoncini secchi, cumino, aglio, cipolla e un po' di pomodoro, finché la carne è tenera e la salsa diventa rosso intenso, densa e affumicata. Il vero chili in stile texano, com'è noto, non contiene fagioli. Si serve in una ciotola, spesso con cipolla tritata sopra.",
-      "history": "Il chili con carne viene di solito ricondotto a San Antonio, dove le «chili queens» lo vendevano su bancarelle di strada alla fine del XIX secolo. Nel 1977 è stato proclamato piatto ufficiale dello stato del Texas, e la regola dei «niente fagioli» è ancora difesa nelle gare di chili texane.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 kg di spalla di manzo a cubetti di 2 cm",
-          "6 peperoncini secchi (come ancho e guajillo), senza semi",
-          "1 cucchiaio di cumino in polvere",
-          "4 spicchi d'aglio",
-          "1 cipolla tritata",
-          "200 g di polpa di pomodoro",
-          "1 cucchiaio di olio",
-          "Sale"
-        ],
-        "steps": [
-          "Tosta i peperoncini secchi in una padella asciutta, mettili in ammollo in acqua calda per 20 minuti, poi frullali con l'aglio e un po' dell'acqua di ammollo fino a ottenere una pasta.",
-          "Rosola il manzo nell'olio, poco alla volta, e mettilo da parte.",
-          "Nella stessa pentola fai appassire la cipolla, aggiungi il cumino, la pasta di peperoncino e il pomodoro e cuoci 5 minuti.",
-          "Rimetti il manzo, aggiungi acqua appena a coprire e sala.",
-          "Cuoci a fuoco lento, coperto, per 2–2½ ore, finché il manzo è tenero e la salsa densa."
-        ]
-      },
-      "tips": [
-        "Sgrassa il manzo e togli il grasso dalla superficie quando il chili ha riposato.",
-        "Servilo su un letto di lattuga a listarelle o con cipolla in più invece che con le chips.",
-        "Allunga ogni ciotola con peperoni o pomodoro a cubetti per dare volume."
-      ]
-    },
-    "el": {
-      "name": "Τσίλι του Τέξας (τσίλι κον κάρνε)",
-      "origin": "Ηνωμένες Πολιτείες · Τέξας",
-      "intro": "Το τσίλι του Τέξας, ή «bowl of red», είναι κομμάτια μοσχαριού μαγειρεμένα αργά με πάστα από ξερές καυτερές πιπεριές, κύμινο, σκόρδο, κρεμμύδι και λίγη ντομάτα, μέχρι το κρέας να μαλακώσει και η σάλτσα να γίνει βαθυκόκκινη, πηχτή και καπνιστή. Το αυθεντικό τσίλι του Τέξας, ως γνωστόν, δεν έχει φασόλια. Σερβίρεται σε μπολ, συχνά με ψιλοκομμένο κρεμμύδι από πάνω.",
-      "history": "Το τσίλι κον κάρνε ανάγεται συνήθως στο Σαν Αντόνιο, όπου οι «chili queens» το πουλούσαν σε πάγκους του δρόμου στα τέλη του 19ου αιώνα. Ανακηρύχθηκε επίσημο φαγητό της πολιτείας του Τέξας το 1977, και ο κανόνας «χωρίς φασόλια» υπερασπίζεται ακόμη στους διαγωνισμούς τσίλι του Τέξας.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 κιλό μοσχαρίσια σπάλα, σε κύβους 2 εκ.",
-          "6 ξερές καυτερές πιπεριές (όπως άντσο και γουαχίγιο), χωρίς σπόρους",
-          "1 κ.σ. κύμινο σε σκόνη",
-          "4 σκελίδες σκόρδο",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "200 γρ. ντομάτα τριμμένη",
-          "1 κ.σ. λάδι",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Καβουρδίστε τις ξερές πιπεριές σε στεγνό τηγάνι, μουλιάστε τες σε ζεστό νερό για 20 λεπτά και πολτοποιήστε τες με το σκόρδο και λίγο από το νερό του μουλιάσματος σε πάστα.",
-          "Σοτάρετε το μοσχάρι στο λάδι σε δόσεις και βάλτε το στην άκρη.",
-          "Στην ίδια κατσαρόλα μαραθείτε το κρεμμύδι, προσθέστε το κύμινο, την πάστα πιπεριάς και τη ντομάτα και μαγειρέψτε 5 λεπτά.",
-          "Ξαναβάλτε το μοσχάρι, προσθέστε νερό όσο να το σκεπάσει και αλατίστε.",
-          "Σιγοβράστε σκεπασμένο για 2–2½ ώρες, μέχρι να μαλακώσει το μοσχάρι και να πήξει η σάλτσα."
-        ]
-      },
-      "tips": [
-        "Καθαρίστε το μοσχάρι από το λίπος και αφαιρέστε το λίπος από την επιφάνεια αφού ξεκουραστεί το τσίλι.",
-        "Σερβίρετέ το πάνω σε ψιλοκομμένο μαρούλι ή με επιπλέον κρεμμύδι αντί για τσιπς.",
-        "Αυξήστε τον όγκο κάθε μπολ με πιπεριές ή ντομάτα σε κυβάκια."
-      ]
-    },
-    "ru": {
-      "name": "Техасский чили (чили кон карне)",
-      "origin": "США · Техас",
-      "intro": "Техасский чили, или «миска красного», — куски говядины, медленно тушёные с пастой из сушёного перца чили, зиры, чеснока, лука и небольшого количества помидоров, пока мясо не станет мягким, а соус глубоким красным, густым и дымным. В настоящем техасском чили, как известно, нет фасоли. Подаётся в миске, часто с рубленым луком сверху.",
-      "history": "Чили кон карне обычно связывают с Сан-Антонио, где «королевы чили» продавали его с уличных лотков в конце XIX века. В 1977 году он был объявлен официальным блюдом штата Техас, а правило «без фасоли» до сих пор отстаивают на техасских соревнованиях по чили.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 кг говяжьей лопатки, нарезанной кубиками по 2 см",
-          "6 сушёных перцев чили (например, ancho и guajillo), без семян",
-          "1 ст. л. молотой зиры",
-          "4 зубчика чеснока",
-          "1 луковица, нарубленная",
-          "200 г измельчённых помидоров",
-          "1 ст. л. масла",
-          "Соль"
-        ],
-        "steps": [
-          "Обжарьте сушёные чили на сухой сковороде, замочите в горячей воде на 20 минут, затем взбейте блендером с чесноком и небольшим количеством воды от замачивания в пасту.",
-          "Обжарьте говядину в масле порциями и отложите.",
-          "Размягчите лук в той же кастрюле, добавьте зиру, пасту из чили и помидоры и готовьте 5 минут.",
-          "Верните говядину, влейте воды, чтобы едва покрыть, и посолите.",
-          "Томите под крышкой 2–2,5 часа, пока говядина не станет мягкой, а соус густым."
-        ]
-      },
-      "tips": [
-        "Срежьте жир с говядины и снимите жир с поверхности, когда чили настоится.",
-        "Подавайте на подушке из нашинкованного салата или с дополнительным луком вместо чипсов.",
-        "Увеличьте объём каждой порции нарезанным кубиками перцем или помидорами."
-      ],
-      "name_inline": "техасский чили"
-    }
+  "ar": {
+   "name": "تشيلي تكساس (تشيلي كون كارني)",
+   "origin": "الولايات المتحدة · تكساس",
+   "intro": "تشيلي تكساس، أو «الوعاء الأحمر»، قطع من لحم البقر تُطهى ببطء مع معجون من الفلفل المجفف والكمون والثوم والبصل وقليل من الطماطم حتى يطرى اللحم وتصبح الصلصة حمراء داكنة كثيفة بنكهة مدخنة. والتشيلي على طريقة تكساس الأصيلة يخلو من الفاصولياء كما هو معروف. يُقدّم في وعاء، وغالبًا مع البصل المفروم فوقه.",
+   "history": "يُنسب التشيلي كون كارني عادةً إلى سان أنطونيو، حيث كانت «ملكات التشيلي» يبعنه في أكشاك الشوارع في أواخر القرن التاسع عشر. وأُعلن الطبق الرسمي لولاية تكساس عام 1977، ولا تزال قاعدة «بلا فاصولياء» محل دفاع في مسابقات التشيلي في تكساس.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 كغ لحم بقر من الكتف مقطع مكعبات 2 سم",
+     "6 حبات فلفل مجفف (مثل أنشو وغواخيو) منزوعة البذور",
+     "ملعقة كبيرة كمون مطحون",
+     "4 فصوص ثوم",
+     "بصلة مفرومة",
+     "200 غ طماطم مهروسة",
+     "ملعقة كبيرة زيت",
+     "ملح"
+    ],
+    "steps": [
+     "حمّص الفلفل المجفف في مقلاة جافة، وانقعه في ماء ساخن 20 دقيقة، ثم اخلطه مع الثوم وقليل من ماء النقع حتى يصبح معجونًا.",
+     "حمّر اللحم في الزيت على دفعات وارفعه جانبًا.",
+     "شوّح البصل في القدر نفسه، وأضف الكمون ومعجون الفلفل والطماطم واطهها 5 دقائق.",
+     "أعد اللحم وأضف ماءً يغطيه بالكاد وتبّل بالملح.",
+     "اتركه يغلي بهدوء مغطى ساعتين إلى ساعتين ونصف حتى يطرى اللحم وتتكثف الصلصة."
+    ]
+   },
+   "tips": [
+    "أزل الدهن من اللحم، واكشط الدهن عن السطح بعد أن يرتاح التشيلي.",
+    "قدّمه فوق خس مقطع أو مع بصل إضافي بدل رقائق الذرة.",
+    "زِد حجم كل وعاء بالفلفل الرومي أو الطماطم المقطعة."
+   ]
+  },
+  "it": {
+   "name": "Chili texano (chili con carne)",
+   "name_inline": "chili texano",
+   "origin": "Stati Uniti · Texas",
+   "intro": "Il chili texano, o «bowl of red», è fatto di pezzi di manzo brasati lentamente con una pasta di peperoncini secchi, cumino, aglio, cipolla e un po' di pomodoro, finché la carne è tenera e la salsa diventa rosso intenso, densa e affumicata. Il vero chili in stile texano, com'è noto, non contiene fagioli. Si serve in una ciotola, spesso con cipolla tritata sopra.",
+   "history": "Il chili con carne viene di solito ricondotto a San Antonio, dove le «chili queens» lo vendevano su bancarelle di strada alla fine del XIX secolo. Nel 1977 è stato proclamato piatto ufficiale dello stato del Texas, e la regola dei «niente fagioli» è ancora difesa nelle gare di chili texane.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 kg di spalla di manzo a cubetti di 2 cm",
+     "6 peperoncini secchi (come ancho e guajillo), senza semi",
+     "1 cucchiaio di cumino in polvere",
+     "4 spicchi d'aglio",
+     "1 cipolla tritata",
+     "200 g di polpa di pomodoro",
+     "1 cucchiaio di olio",
+     "Sale"
+    ],
+    "steps": [
+     "Tosta i peperoncini secchi in una padella asciutta, mettili in ammollo in acqua calda per 20 minuti, poi frullali con l'aglio e un po' dell'acqua di ammollo fino a ottenere una pasta.",
+     "Rosola il manzo nell'olio, poco alla volta, e mettilo da parte.",
+     "Nella stessa pentola fai appassire la cipolla, aggiungi il cumino, la pasta di peperoncino e il pomodoro e cuoci 5 minuti.",
+     "Rimetti il manzo, aggiungi acqua appena a coprire e sala.",
+     "Cuoci a fuoco lento, coperto, per 2–2½ ore, finché il manzo è tenero e la salsa densa."
+    ]
+   },
+   "tips": [
+    "Sgrassa il manzo e togli il grasso dalla superficie quando il chili ha riposato.",
+    "Servilo su un letto di lattuga a listarelle o con cipolla in più invece che con le chips.",
+    "Allunga ogni ciotola con peperoni o pomodoro a cubetti per dare volume."
+   ]
+  },
+  "el": {
+   "name": "Τσίλι του Τέξας (τσίλι κον κάρνε)",
+   "origin": "Ηνωμένες Πολιτείες · Τέξας",
+   "intro": "Το τσίλι του Τέξας, ή «bowl of red», είναι κομμάτια μοσχαριού μαγειρεμένα αργά με πάστα από ξερές καυτερές πιπεριές, κύμινο, σκόρδο, κρεμμύδι και λίγη ντομάτα, μέχρι το κρέας να μαλακώσει και η σάλτσα να γίνει βαθυκόκκινη, πηχτή και καπνιστή. Το αυθεντικό τσίλι του Τέξας, ως γνωστόν, δεν έχει φασόλια. Σερβίρεται σε μπολ, συχνά με ψιλοκομμένο κρεμμύδι από πάνω.",
+   "history": "Το τσίλι κον κάρνε ανάγεται συνήθως στο Σαν Αντόνιο, όπου οι «chili queens» το πουλούσαν σε πάγκους του δρόμου στα τέλη του 19ου αιώνα. Ανακηρύχθηκε επίσημο φαγητό της πολιτείας του Τέξας το 1977, και ο κανόνας «χωρίς φασόλια» υπερασπίζεται ακόμη στους διαγωνισμούς τσίλι του Τέξας.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 κιλό μοσχαρίσια σπάλα, σε κύβους 2 εκ.",
+     "6 ξερές καυτερές πιπεριές (όπως άντσο και γουαχίγιο), χωρίς σπόρους",
+     "1 κ.σ. κύμινο σε σκόνη",
+     "4 σκελίδες σκόρδο",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "200 γρ. ντομάτα τριμμένη",
+     "1 κ.σ. λάδι",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Καβουρδίστε τις ξερές πιπεριές σε στεγνό τηγάνι, μουλιάστε τες σε ζεστό νερό για 20 λεπτά και πολτοποιήστε τες με το σκόρδο και λίγο από το νερό του μουλιάσματος σε πάστα.",
+     "Σοτάρετε το μοσχάρι στο λάδι σε δόσεις και βάλτε το στην άκρη.",
+     "Στην ίδια κατσαρόλα μαραθείτε το κρεμμύδι, προσθέστε το κύμινο, την πάστα πιπεριάς και τη ντομάτα και μαγειρέψτε 5 λεπτά.",
+     "Ξαναβάλτε το μοσχάρι, προσθέστε νερό όσο να το σκεπάσει και αλατίστε.",
+     "Σιγοβράστε σκεπασμένο για 2–2½ ώρες, μέχρι να μαλακώσει το μοσχάρι και να πήξει η σάλτσα."
+    ]
+   },
+   "tips": [
+    "Καθαρίστε το μοσχάρι από το λίπος και αφαιρέστε το λίπος από την επιφάνεια αφού ξεκουραστεί το τσίλι.",
+    "Σερβίρετέ το πάνω σε ψιλοκομμένο μαρούλι ή με επιπλέον κρεμμύδι αντί για τσιπς.",
+    "Αυξήστε τον όγκο κάθε μπολ με πιπεριές ή ντομάτα σε κυβάκια."
+   ]
+  },
+  "ru": {
+   "name": "Техасский чили (чили кон карне)",
+   "origin": "США · Техас",
+   "intro": "Техасский чили, или «миска красного», — куски говядины, медленно тушёные с пастой из сушёного перца чили, зиры, чеснока, лука и небольшого количества помидоров, пока мясо не станет мягким, а соус глубоким красным, густым и дымным. В настоящем техасском чили, как известно, нет фасоли. Подаётся в миске, часто с рубленым луком сверху.",
+   "history": "Чили кон карне обычно связывают с Сан-Антонио, где «королевы чили» продавали его с уличных лотков в конце XIX века. В 1977 году он был объявлен официальным блюдом штата Техас, а правило «без фасоли» до сих пор отстаивают на техасских соревнованиях по чили.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 кг говяжьей лопатки, нарезанной кубиками по 2 см",
+     "6 сушёных перцев чили (например, ancho и guajillo), без семян",
+     "1 ст. л. молотой зиры",
+     "4 зубчика чеснока",
+     "1 луковица, нарубленная",
+     "200 г измельчённых помидоров",
+     "1 ст. л. масла",
+     "Соль"
+    ],
+    "steps": [
+     "Обжарьте сушёные чили на сухой сковороде, замочите в горячей воде на 20 минут, затем взбейте блендером с чесноком и небольшим количеством воды от замачивания в пасту.",
+     "Обжарьте говядину в масле порциями и отложите.",
+     "Размягчите лук в той же кастрюле, добавьте зиру, пасту из чили и помидоры и готовьте 5 минут.",
+     "Верните говядину, влейте воды, чтобы едва покрыть, и посолите.",
+     "Томите под крышкой 2–2,5 часа, пока говядина не станет мягкой, а соус густым."
+    ]
+   },
+   "tips": [
+    "Срежьте жир с говядины и снимите жир с поверхности, когда чили настоится.",
+    "Подавайте на подушке из нашинкованного салата или с дополнительным луком вместо чипсов.",
+    "Увеличьте объём каждой порции нарезанным кубиками перцем или помидорами."
+   ],
+   "name_inline": "техасский чили"
+  },
+  "es": {
+   "name": "Chili texano (chili con carne)",
+   "origin": "Estados Unidos · Texas",
+   "intro": "El chili texano, o «bowl of red», es carne de res en trozos cocida a fuego lento con una pasta de chiles secos, comino, ajo, cebolla y un poco de jitomate, hasta que la carne queda tierna y la salsa roja intensa, espesa y ahumada. El auténtico chili al estilo de Texas, como se sabe, no lleva frijoles. Se sirve en un tazón, a menudo con cebolla picada encima.",
+   "history": "El chili con carne suele rastrearse hasta San Antonio, donde las «chili queens» lo vendían en puestos callejeros a finales del siglo XIX. En 1977 fue declarado plato oficial del estado de Texas, y la regla de no usar frijoles todavía se defiende en los concursos de chili de Texas.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 kg de falda o paleta de res, en cubos de 2 cm",
+     "6 chiles secos (como ancho y guajillo), sin semillas",
+     "1 cda. de comino molido",
+     "4 dientes de ajo",
+     "1 cebolla, picada",
+     "200 g de jitomate triturado",
+     "1 cda. de aceite",
+     "Sal"
+    ],
+    "steps": [
+     "Tuesta los chiles secos en un comal o sartén seca, remójalos en agua caliente 20 minutos y lícualos con el ajo y un poco del agua del remojo hasta obtener una pasta.",
+     "Dora la carne en el aceite por tandas y resérvala.",
+     "Acitrona la cebolla en la misma olla, añade el comino, la pasta de chile y el jitomate y cocina 5 minutos.",
+     "Regresa la carne, agrega agua hasta cubrirla apenas y sazona con sal.",
+     "Cuece tapado a fuego bajo de 2 a 2½ horas, hasta que la carne esté tierna y la salsa espesa."
+    ]
+   },
+   "tips": [
+    "Recorta la grasa de la carne y retira la que suba a la superficie cuando el chili haya reposado.",
+    "Sírvelo sobre lechuga rallada o con más cebolla en lugar de totopos.",
+    "Rinde cada tazón con pimiento o jitomate en cubos."
+   ],
+   "name_inline": "el chili texano"
   }
+ }
 }

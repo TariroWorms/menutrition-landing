@@ -1,176 +1,209 @@
 {
-  "db_key": "fasolia_bil_lahme",
-  "slug": "fasolia-bil-lahme",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fasolia_bil_lahme",
+ "slug": "fasolia-bil-lahme",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "White beans with lamb (fasolia bil lahme)",
+   "origin": "Levant · Middle East",
+   "intro": "Fasolia bil lahme is a homely stew of white beans and tender lamb pieces cooked in a garlicky tomato broth and finished with chopped fresh coriander. The beans soak up the meaty, tangy sauce and the stew stays soft and brothy. It is usually served with white rice, as a classic family lunch.",
+   "history": "White bean and meat stews are everyday home cooking across the Levant, Iraq and the Gulf, often served over rice. The dish has no single documented origin and is cooked in many family variations today.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 100,
+    "ingredients": [
+     "500 g lamb shoulder, cubed",
+     "400 g cooked white beans (or 200 g dried, soaked and boiled)",
+     "1 onion, chopped",
+     "4 garlic cloves, crushed",
+     "2 tbsp tomato paste and 2 grated tomatoes",
+     "1 bunch coriander, chopped",
+     "2 tbsp vegetable oil",
+     "1 tsp seven spices or allspice, salt, pepper"
+    ],
+    "steps": [
+     "Brown the lamb in the oil, add the onion and cook until soft.",
+     "Add water to cover, skim, and simmer 50–60 minutes until the lamb is tender.",
+     "Stir in the tomato paste, grated tomatoes, spices and salt.",
+     "Add the beans and simmer 20 minutes until the broth thickens slightly.",
+     "Fry the garlic and coriander briefly in a little oil, stir into the stew and serve."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the lamb, or use lean leg meat.",
+    "Make it more beans and less meat — the stew stays filling.",
+    "Serve a smaller rice portion or have it with salad instead of rice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "White beans with lamb (fasolia bil lahme)",
-      "origin": "Levant · Middle East",
-      "intro": "Fasolia bil lahme is a homely stew of white beans and tender lamb pieces cooked in a garlicky tomato broth and finished with chopped fresh coriander. The beans soak up the meaty, tangy sauce and the stew stays soft and brothy. It is usually served with white rice, as a classic family lunch.",
-      "history": "White bean and meat stews are everyday home cooking across the Levant, Iraq and the Gulf, often served over rice. The dish has no single documented origin and is cooked in many family variations today.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 100,
-        "ingredients": [
-          "500 g lamb shoulder, cubed",
-          "400 g cooked white beans (or 200 g dried, soaked and boiled)",
-          "1 onion, chopped",
-          "4 garlic cloves, crushed",
-          "2 tbsp tomato paste and 2 grated tomatoes",
-          "1 bunch coriander, chopped",
-          "2 tbsp vegetable oil",
-          "1 tsp seven spices or allspice, salt, pepper"
-        ],
-        "steps": [
-          "Brown the lamb in the oil, add the onion and cook until soft.",
-          "Add water to cover, skim, and simmer 50–60 minutes until the lamb is tender.",
-          "Stir in the tomato paste, grated tomatoes, spices and salt.",
-          "Add the beans and simmer 20 minutes until the broth thickens slightly.",
-          "Fry the garlic and coriander briefly in a little oil, stir into the stew and serve."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the lamb, or use lean leg meat.",
-        "Make it more beans and less meat — the stew stays filling.",
-        "Serve a smaller rice portion or have it with salad instead of rice."
-      ]
-    },
-    "ar": {
-      "name": "فاصولياء باللحمة",
-      "origin": "بلاد الشام · الشرق الأوسط",
-      "intro": "الفاصولياء باللحمة يخنة منزلية من الفاصوليا البيضاء وقطع لحم الضأن الطرية، مطبوخة في مرق طماطم غني بالثوم ومزيّنة بالكزبرة الطازجة المفرومة. تتشرب الفاصوليا الصلصة الغنية بطعم اللحم والحموضة، وتبقى اليخنة طرية ذات مرق. تُقدَّم عادة مع الأرز الأبيض وجبةَ غداء عائلية كلاسيكية.",
-      "history": "يخنات الفاصوليا البيضاء مع اللحم من الطبخ المنزلي اليومي في بلاد الشام والعراق والخليج، وغالباً تُقدَّم مع الأرز. لا يوجد أصل موثّق واحد لهذا الطبق، ويُطبخ اليوم بتنويعات عائلية كثيرة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 100,
-        "ingredients": [
-          "500 غ لحم كتف ضأن مقطع مكعبات",
-          "400 غ فاصوليا بيضاء مسلوقة (أو 200 غ مجففة منقوعة ومسلوقة)",
-          "1 بصلة مفرومة",
-          "4 فصوص ثوم مهروسة",
-          "2 ملعقة كبيرة معجون طماطم و2 حبة طماطم مبشورة",
-          "1 حزمة كزبرة مفرومة",
-          "2 ملعقة كبيرة زيت نباتي",
-          "1 ملعقة صغيرة بهارات سبعة أو بهار حلو، ملح، فلفل"
-        ],
-        "steps": [
-          "حمّر اللحم في الزيت ثم أضف البصل وقلّبه حتى يذبل.",
-          "أضف ماء يغطيه وأزل الرغوة واتركه 50–60 دقيقة حتى يطرى اللحم.",
-          "أضف معجون الطماطم والطماطم المبشورة والبهارات والملح.",
-          "أضف الفاصوليا واتركها 20 دقيقة حتى يتكاثف المرق قليلاً.",
-          "قلِّب الثوم والكزبرة سريعاً في قليل من الزيت، ثم أضفهما إلى اليخنة وقدّمها."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر من اللحم أو استخدم لحم فخذ قليل الدهن.",
-        "اجعل نسبة الفاصوليا أكبر من اللحم — فاليخنة تبقى مشبعة.",
-        "قدّم حصة أصغر من الأرز أو تناولها مع السلطة بدلاً من الأرز."
-      ]
-    },
-    "it": {
-      "name": "Fagioli bianchi con agnello (fasolia bil lahme)",
-      "name_inline": "fagioli bianchi con agnello (fasolia bil lahme)",
-      "origin": "Levante · Medio Oriente",
-      "intro": "La fasolia bil lahme è uno stufato casalingo di fagioli bianchi e teneri pezzi di agnello cotti in un brodo di pomodoro all'aglio e completati con coriandolo fresco tritato. I fagioli assorbono il sugo saporito e acidulo della carne e lo stufato resta morbido e brodoso. Di solito si serve con riso bianco, come classico pranzo in famiglia.",
-      "history": "Gli stufati di fagioli bianchi e carne sono cucina casalinga quotidiana in tutto il Levante, in Iraq e nel Golfo, e spesso si servono sul riso. Il piatto non ha un'unica origine documentata e oggi si cucina in molte varianti familiari.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 100,
-        "ingredients": [
-          "500 g di spalla d'agnello a cubetti",
-          "400 g di fagioli bianchi cotti (o 200 g secchi, ammollati e lessati)",
-          "1 cipolla tritata",
-          "4 spicchi d'aglio schiacciati",
-          "2 cucchiai di concentrato di pomodoro e 2 pomodori grattugiati",
-          "1 mazzo di coriandolo fresco tritato",
-          "2 cucchiai di olio di semi",
-          "1 cucchiaino di sette spezie o pimento, sale, pepe"
-        ],
-        "steps": [
-          "Rosola l'agnello nell'olio, aggiungi la cipolla e cuoci finché è morbida.",
-          "Copri d'acqua, schiuma e fai sobbollire 50–60 minuti finché l'agnello è tenero.",
-          "Incorpora il concentrato di pomodoro, i pomodori grattugiati, le spezie e il sale.",
-          "Aggiungi i fagioli e fai sobbollire 20 minuti, finché il brodo si addensa leggermente.",
-          "Soffriggi brevemente l'aglio e il coriandolo in un filo d'olio, uniscili allo stufato e servi."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dall'agnello oppure usa carne magra di cosciotto.",
-        "Metti più fagioli e meno carne: lo stufato resta comunque saziante.",
-        "Servi una porzione di riso più piccola, oppure accompagnalo con insalata invece del riso."
-      ]
-    },
-    "el": {
-      "name": "Φασόλια με αρνί (fasolia bil lahme)",
-      "origin": "Λεβάντε · Μέση Ανατολή",
-      "intro": "Η fasolia bil lahme είναι ένα σπιτικό φαγητό κατσαρόλας με λευκά φασόλια και τρυφερά κομμάτια αρνιού μαγειρεμένα σε σκορδάτο ζωμό ντομάτας, με ψιλοκομμένο φρέσκο κόλιανδρο στο τέλος. Τα φασόλια απορροφούν τη νόστιμη, ξινή σάλτσα του κρέατος και το φαγητό μένει μαλακό και ζουμερό. Συνήθως σερβίρεται με λευκό ρύζι, ως κλασικό οικογενειακό μεσημεριανό.",
-      "history": "Τα φαγητά κατσαρόλας με λευκά φασόλια και κρέας είναι καθημερινή σπιτική κουζίνα σε όλο το Λεβάντε, το Ιράκ και τον Κόλπο, και συχνά σερβίρονται πάνω σε ρύζι. Το πιάτο δεν έχει μία τεκμηριωμένη προέλευση και σήμερα μαγειρεύεται σε πολλές οικογενειακές παραλλαγές.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 100,
-        "ingredients": [
-          "500 γρ. αρνίσια σπάλα, σε κύβους",
-          "400 γρ. βρασμένα λευκά φασόλια (ή 200 γρ. ξερά, μουλιασμένα και βρασμένα)",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "4 σκελίδες σκόρδο, λιωμένες",
-          "2 κ.σ. πελτές ντομάτας και 2 τριμμένες ντομάτες",
-          "1 ματσάκι κόλιανδρο, ψιλοκομμένο",
-          "2 κ.σ. φυτικό λάδι",
-          "1 κ.γ. μείγμα επτά μπαχαρικών ή μπαχάρι, αλάτι, πιπέρι"
-        ],
-        "steps": [
-          "Σοτάρετε το αρνί στο λάδι, προσθέστε το κρεμμύδι και μαγειρέψτε μέχρι να μαλακώσει.",
-          "Προσθέστε νερό ώστε να σκεπαστεί, ξαφρίστε και σιγοβράστε 50–60 λεπτά μέχρι να μαλακώσει το αρνί.",
-          "Ανακατέψτε τον πελτέ, τις τριμμένες ντομάτες, τα μπαχαρικά και το αλάτι.",
-          "Προσθέστε τα φασόλια και σιγοβράστε 20 λεπτά μέχρι να δέσει ελαφρά ο ζωμός.",
-          "Τσιγαρίστε σύντομα το σκόρδο και τον κόλιανδρο σε λίγο λάδι, ανακατέψτε τα στο φαγητό και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το αρνί ή χρησιμοποιήστε άπαχο μπούτι.",
-        "Βάλτε περισσότερα φασόλια και λιγότερο κρέας — το φαγητό μένει χορταστικό.",
-        "Σερβίρετε μικρότερη μερίδα ρυζιού ή συνοδέψτε το με σαλάτα αντί για ρύζι."
-      ]
-    },
-    "ru": {
-      "name": "Белая фасоль с бараниной (фасолия биль лахме)",
-      "origin": "Левант · Ближний Восток",
-      "intro": "Фасолия биль лахме — домашнее рагу из белой фасоли и нежных кусочков баранины, приготовленное в чесночно-томатном бульоне и завершённое рубленой свежей кинзой. Фасоль впитывает мясной пикантный соус, а рагу остаётся мягким и с бульоном. Обычно подаётся с белым рисом как классический семейный обед.",
-      "history": "Рагу из белой фасоли и мяса — повседневная домашняя кухня Леванта, Ирака и стран Залива, часто подаваемая на рисе. У блюда нет единого документированного происхождения, и сегодня его готовят во множестве семейных вариантов.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 100,
-        "ingredients": [
-          "500 г бараньей лопатки, нарезанной кубиками",
-          "400 г варёной белой фасоли (или 200 г сушёной, замоченной и отваренной)",
-          "1 луковица, нарубленная",
-          "4 зубчика чеснока, раздавленных",
-          "2 ст. л. томатной пасты и 2 натёртых помидора",
-          "1 пучок кинзы, нарубленной",
-          "2 ст. л. растительного масла",
-          "1 ч. л. смеси семи специй или душистого перца, соль, перец"
-        ],
-        "steps": [
-          "Обжарьте баранину в масле, добавьте лук и готовьте до мягкости.",
-          "Залейте водой, чтобы покрыть, снимите пену и варите 50–60 минут до мягкости баранины.",
-          "Вмешайте томатную пасту, натёртые помидоры, специи и соль.",
-          "Добавьте фасоль и варите 20 минут, пока бульон не загустеет слегка.",
-          "Кратко обжарьте чеснок и кинзу в небольшом количестве масла, вмешайте в рагу и подавайте."
-        ]
-      },
-      "tips": [
-        "Срежьте с баранины видимый жир или возьмите постное мясо задней части.",
-        "Делайте блюдо с большим количеством фасоли и меньшим мяса — оно останется сытным.",
-        "Подавайте меньшую порцию риса или с салатом вместо риса."
-      ],
-      "name_inline": "белая фасоль с бараниной"
-    }
+  "ar": {
+   "name": "فاصولياء باللحمة",
+   "origin": "بلاد الشام · الشرق الأوسط",
+   "intro": "الفاصولياء باللحمة يخنة منزلية من الفاصوليا البيضاء وقطع لحم الضأن الطرية، مطبوخة في مرق طماطم غني بالثوم ومزيّنة بالكزبرة الطازجة المفرومة. تتشرب الفاصوليا الصلصة الغنية بطعم اللحم والحموضة، وتبقى اليخنة طرية ذات مرق. تُقدَّم عادة مع الأرز الأبيض وجبةَ غداء عائلية كلاسيكية.",
+   "history": "يخنات الفاصوليا البيضاء مع اللحم من الطبخ المنزلي اليومي في بلاد الشام والعراق والخليج، وغالباً تُقدَّم مع الأرز. لا يوجد أصل موثّق واحد لهذا الطبق، ويُطبخ اليوم بتنويعات عائلية كثيرة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 100,
+    "ingredients": [
+     "500 غ لحم كتف ضأن مقطع مكعبات",
+     "400 غ فاصوليا بيضاء مسلوقة (أو 200 غ مجففة منقوعة ومسلوقة)",
+     "1 بصلة مفرومة",
+     "4 فصوص ثوم مهروسة",
+     "2 ملعقة كبيرة معجون طماطم و2 حبة طماطم مبشورة",
+     "1 حزمة كزبرة مفرومة",
+     "2 ملعقة كبيرة زيت نباتي",
+     "1 ملعقة صغيرة بهارات سبعة أو بهار حلو، ملح، فلفل"
+    ],
+    "steps": [
+     "حمّر اللحم في الزيت ثم أضف البصل وقلّبه حتى يذبل.",
+     "أضف ماء يغطيه وأزل الرغوة واتركه 50–60 دقيقة حتى يطرى اللحم.",
+     "أضف معجون الطماطم والطماطم المبشورة والبهارات والملح.",
+     "أضف الفاصوليا واتركها 20 دقيقة حتى يتكاثف المرق قليلاً.",
+     "قلِّب الثوم والكزبرة سريعاً في قليل من الزيت، ثم أضفهما إلى اليخنة وقدّمها."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر من اللحم أو استخدم لحم فخذ قليل الدهن.",
+    "اجعل نسبة الفاصوليا أكبر من اللحم — فاليخنة تبقى مشبعة.",
+    "قدّم حصة أصغر من الأرز أو تناولها مع السلطة بدلاً من الأرز."
+   ]
+  },
+  "it": {
+   "name": "Fagioli bianchi con agnello (fasolia bil lahme)",
+   "name_inline": "fagioli bianchi con agnello (fasolia bil lahme)",
+   "origin": "Levante · Medio Oriente",
+   "intro": "La fasolia bil lahme è uno stufato casalingo di fagioli bianchi e teneri pezzi di agnello cotti in un brodo di pomodoro all'aglio e completati con coriandolo fresco tritato. I fagioli assorbono il sugo saporito e acidulo della carne e lo stufato resta morbido e brodoso. Di solito si serve con riso bianco, come classico pranzo in famiglia.",
+   "history": "Gli stufati di fagioli bianchi e carne sono cucina casalinga quotidiana in tutto il Levante, in Iraq e nel Golfo, e spesso si servono sul riso. Il piatto non ha un'unica origine documentata e oggi si cucina in molte varianti familiari.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 100,
+    "ingredients": [
+     "500 g di spalla d'agnello a cubetti",
+     "400 g di fagioli bianchi cotti (o 200 g secchi, ammollati e lessati)",
+     "1 cipolla tritata",
+     "4 spicchi d'aglio schiacciati",
+     "2 cucchiai di concentrato di pomodoro e 2 pomodori grattugiati",
+     "1 mazzo di coriandolo fresco tritato",
+     "2 cucchiai di olio di semi",
+     "1 cucchiaino di sette spezie o pimento, sale, pepe"
+    ],
+    "steps": [
+     "Rosola l'agnello nell'olio, aggiungi la cipolla e cuoci finché è morbida.",
+     "Copri d'acqua, schiuma e fai sobbollire 50–60 minuti finché l'agnello è tenero.",
+     "Incorpora il concentrato di pomodoro, i pomodori grattugiati, le spezie e il sale.",
+     "Aggiungi i fagioli e fai sobbollire 20 minuti, finché il brodo si addensa leggermente.",
+     "Soffriggi brevemente l'aglio e il coriandolo in un filo d'olio, uniscili allo stufato e servi."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dall'agnello oppure usa carne magra di cosciotto.",
+    "Metti più fagioli e meno carne: lo stufato resta comunque saziante.",
+    "Servi una porzione di riso più piccola, oppure accompagnalo con insalata invece del riso."
+   ]
+  },
+  "el": {
+   "name": "Φασόλια με αρνί (fasolia bil lahme)",
+   "origin": "Λεβάντε · Μέση Ανατολή",
+   "intro": "Η fasolia bil lahme είναι ένα σπιτικό φαγητό κατσαρόλας με λευκά φασόλια και τρυφερά κομμάτια αρνιού μαγειρεμένα σε σκορδάτο ζωμό ντομάτας, με ψιλοκομμένο φρέσκο κόλιανδρο στο τέλος. Τα φασόλια απορροφούν τη νόστιμη, ξινή σάλτσα του κρέατος και το φαγητό μένει μαλακό και ζουμερό. Συνήθως σερβίρεται με λευκό ρύζι, ως κλασικό οικογενειακό μεσημεριανό.",
+   "history": "Τα φαγητά κατσαρόλας με λευκά φασόλια και κρέας είναι καθημερινή σπιτική κουζίνα σε όλο το Λεβάντε, το Ιράκ και τον Κόλπο, και συχνά σερβίρονται πάνω σε ρύζι. Το πιάτο δεν έχει μία τεκμηριωμένη προέλευση και σήμερα μαγειρεύεται σε πολλές οικογενειακές παραλλαγές.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 100,
+    "ingredients": [
+     "500 γρ. αρνίσια σπάλα, σε κύβους",
+     "400 γρ. βρασμένα λευκά φασόλια (ή 200 γρ. ξερά, μουλιασμένα και βρασμένα)",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "4 σκελίδες σκόρδο, λιωμένες",
+     "2 κ.σ. πελτές ντομάτας και 2 τριμμένες ντομάτες",
+     "1 ματσάκι κόλιανδρο, ψιλοκομμένο",
+     "2 κ.σ. φυτικό λάδι",
+     "1 κ.γ. μείγμα επτά μπαχαρικών ή μπαχάρι, αλάτι, πιπέρι"
+    ],
+    "steps": [
+     "Σοτάρετε το αρνί στο λάδι, προσθέστε το κρεμμύδι και μαγειρέψτε μέχρι να μαλακώσει.",
+     "Προσθέστε νερό ώστε να σκεπαστεί, ξαφρίστε και σιγοβράστε 50–60 λεπτά μέχρι να μαλακώσει το αρνί.",
+     "Ανακατέψτε τον πελτέ, τις τριμμένες ντομάτες, τα μπαχαρικά και το αλάτι.",
+     "Προσθέστε τα φασόλια και σιγοβράστε 20 λεπτά μέχρι να δέσει ελαφρά ο ζωμός.",
+     "Τσιγαρίστε σύντομα το σκόρδο και τον κόλιανδρο σε λίγο λάδι, ανακατέψτε τα στο φαγητό και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το αρνί ή χρησιμοποιήστε άπαχο μπούτι.",
+    "Βάλτε περισσότερα φασόλια και λιγότερο κρέας — το φαγητό μένει χορταστικό.",
+    "Σερβίρετε μικρότερη μερίδα ρυζιού ή συνοδέψτε το με σαλάτα αντί για ρύζι."
+   ]
+  },
+  "ru": {
+   "name": "Белая фасоль с бараниной (фасолия биль лахме)",
+   "origin": "Левант · Ближний Восток",
+   "intro": "Фасолия биль лахме — домашнее рагу из белой фасоли и нежных кусочков баранины, приготовленное в чесночно-томатном бульоне и завершённое рубленой свежей кинзой. Фасоль впитывает мясной пикантный соус, а рагу остаётся мягким и с бульоном. Обычно подаётся с белым рисом как классический семейный обед.",
+   "history": "Рагу из белой фасоли и мяса — повседневная домашняя кухня Леванта, Ирака и стран Залива, часто подаваемая на рисе. У блюда нет единого документированного происхождения, и сегодня его готовят во множестве семейных вариантов.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 100,
+    "ingredients": [
+     "500 г бараньей лопатки, нарезанной кубиками",
+     "400 г варёной белой фасоли (или 200 г сушёной, замоченной и отваренной)",
+     "1 луковица, нарубленная",
+     "4 зубчика чеснока, раздавленных",
+     "2 ст. л. томатной пасты и 2 натёртых помидора",
+     "1 пучок кинзы, нарубленной",
+     "2 ст. л. растительного масла",
+     "1 ч. л. смеси семи специй или душистого перца, соль, перец"
+    ],
+    "steps": [
+     "Обжарьте баранину в масле, добавьте лук и готовьте до мягкости.",
+     "Залейте водой, чтобы покрыть, снимите пену и варите 50–60 минут до мягкости баранины.",
+     "Вмешайте томатную пасту, натёртые помидоры, специи и соль.",
+     "Добавьте фасоль и варите 20 минут, пока бульон не загустеет слегка.",
+     "Кратко обжарьте чеснок и кинзу в небольшом количестве масла, вмешайте в рагу и подавайте."
+    ]
+   },
+   "tips": [
+    "Срежьте с баранины видимый жир или возьмите постное мясо задней части.",
+    "Делайте блюдо с большим количеством фасоли и меньшим мяса — оно останется сытным.",
+    "Подавайте меньшую порцию риса или с салатом вместо риса."
+   ],
+   "name_inline": "белая фасоль с бараниной"
+  },
+  "es": {
+   "name": "Frijoles blancos con cordero (fasolia bil lahme)",
+   "origin": "Levante · Medio Oriente",
+   "intro": "La fasolia bil lahme es un guiso casero de frijoles blancos y tiernos trozos de cordero cocidos en un caldo de jitomate con ajo y terminado con cilantro fresco picado. Los frijoles absorben la salsa sabrosa y ligeramente ácida, y el guiso queda suave y caldoso. Suele servirse con arroz blanco, como un clásico almuerzo familiar.",
+   "history": "Los guisos de frijoles blancos y carne son cocina casera cotidiana en el Levante, Irak y el Golfo, y a menudo se sirven sobre arroz. El plato no tiene un origen documentado único y hoy se cocina en muchas variantes familiares.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 100,
+    "ingredients": [
+     "500 g de paletilla de cordero, en cubos",
+     "400 g de frijoles blancos cocidos (o 200 g secos, remojados y hervidos)",
+     "1 cebolla, picada",
+     "4 dientes de ajo, machacados",
+     "2 cda. de pasta de tomate y 2 jitomates rallados",
+     "1 manojo de cilantro, picado",
+     "2 cda. de aceite vegetal",
+     "1 cdta. de siete especias o pimienta de Jamaica, sal, pimienta"
+    ],
+    "steps": [
+     "Dora el cordero en el aceite, añade la cebolla y cocina hasta que esté suave.",
+     "Agrega agua hasta cubrir, retira la espuma y cuece a fuego lento de 50 a 60 minutos, hasta que el cordero esté tierno.",
+     "Incorpora la pasta de tomate, los jitomates rallados, las especias y la sal.",
+     "Añade los frijoles y cuece a fuego lento 20 minutos, hasta que el caldo espese ligeramente.",
+     "Fríe brevemente el ajo y el cilantro en un poco de aceite, mézclalos con el guiso y sirve."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible del cordero o usa carne magra de pierna.",
+    "Hazlo con más frijoles y menos carne: el guiso sigue siendo saciante.",
+    "Sirve una porción más pequeña de arroz o acompáñalo con ensalada en lugar de arroz."
+   ],
+   "name_inline": "la fasolia bil lahme"
   }
+ }
 }

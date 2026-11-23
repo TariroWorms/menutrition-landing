@@ -1,170 +1,202 @@
 {
-  "db_key": "croque_madame",
-  "slug": "croque-madame",
-  "emoji": "🍳",
-  "portion_g": 250,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "croque_madame",
+ "slug": "croque-madame",
+ "emoji": "🍳",
+ "portion_g": 250,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Croque madame",
+   "origin": "France · Paris",
+   "intro": "Croque madame is a croque monsieur crowned with a fried egg. Ham and Gruyère are sandwiched between slices of bread, covered with béchamel and more cheese, baked until golden, then topped with a sunny-side-up egg whose runny yolk acts as a second sauce. It is a rich café lunch, usually eaten with a knife and fork.",
+   "history": "The croque madame is a variation on the croque-monsieur, which appeared on Paris café menus in the early 1900s. The name of the egg-topped version is first recorded in the mid-20th century; one popular explanation is that the egg resembles a lady's hat, but this is folklore rather than documented fact.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "4 slices sandwich bread",
+     "4 thin slices cooked ham (about 120 g)",
+     "100 g Gruyère, grated",
+     "Béchamel: 25 g butter, 25 g flour, 300 ml milk, pinch of nutmeg",
+     "2 eggs",
+     "1 tsp butter for frying",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Make the béchamel: cook the butter and flour for 1 minute, whisk in the milk and simmer until thick; season with salt, pepper and nutmeg.",
+     "Spread béchamel on two slices of bread, add the ham and half the cheese, and close the sandwiches.",
+     "Top with the remaining béchamel and cheese and bake at 220 °C for 10–12 minutes until golden.",
+     "Meanwhile fry the eggs in the butter until the whites are set and the yolks still runny.",
+     "Slide an egg on top of each sandwich and serve at once."
+    ]
+   },
+   "tips": [
+    "Serve it open-faced on one slice of bread to cut the bread, ham and cheese.",
+    "Fry the egg in a non-stick pan with a few drops of oil, or poach it instead.",
+    "Use half the cheese and a lean ham, and add a big green salad on the side."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Croque madame",
-      "origin": "France · Paris",
-      "intro": "Croque madame is a croque monsieur crowned with a fried egg. Ham and Gruyère are sandwiched between slices of bread, covered with béchamel and more cheese, baked until golden, then topped with a sunny-side-up egg whose runny yolk acts as a second sauce. It is a rich café lunch, usually eaten with a knife and fork.",
-      "history": "The croque madame is a variation on the croque-monsieur, which appeared on Paris café menus in the early 1900s. The name of the egg-topped version is first recorded in the mid-20th century; one popular explanation is that the egg resembles a lady's hat, but this is folklore rather than documented fact.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "4 slices sandwich bread",
-          "4 thin slices cooked ham (about 120 g)",
-          "100 g Gruyère, grated",
-          "Béchamel: 25 g butter, 25 g flour, 300 ml milk, pinch of nutmeg",
-          "2 eggs",
-          "1 tsp butter for frying",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Make the béchamel: cook the butter and flour for 1 minute, whisk in the milk and simmer until thick; season with salt, pepper and nutmeg.",
-          "Spread béchamel on two slices of bread, add the ham and half the cheese, and close the sandwiches.",
-          "Top with the remaining béchamel and cheese and bake at 220 °C for 10–12 minutes until golden.",
-          "Meanwhile fry the eggs in the butter until the whites are set and the yolks still runny.",
-          "Slide an egg on top of each sandwich and serve at once."
-        ]
-      },
-      "tips": [
-        "Serve it open-faced on one slice of bread to cut the bread, ham and cheese.",
-        "Fry the egg in a non-stick pan with a few drops of oil, or poach it instead.",
-        "Use half the cheese and a lean ham, and add a big green salad on the side."
-      ]
-    },
-    "ar": {
-      "name": "كروك مدام",
-      "origin": "فرنسا · باريس",
-      "intro": "كروك مدام هو كروك مسيو تعلوه بيضة مقلية. يوضع لحم الخنزير المطبوخ (هام) وجبن الغرويير بين شريحتي خبز، ويُغطّى بالبشاميل ومزيد من الجبن ويُخبز حتى يتحمّر، ثم تُوضع فوقه بيضة مقلية يسيل صفارها كصلصة ثانية. وهو غداء دسم في المقاهي يُؤكل عادة بالشوكة والسكين.",
-      "history": "كروك مدام تنويع على كروك مسيو الذي ظهر في قوائم مقاهي باريس في أوائل القرن العشرين. وقد سُجّل اسم النسخة المغطاة بالبيضة في منتصف القرن العشرين، ويُقال شعبيًا إن البيضة تشبه قبعة سيدة، لكن ذلك من الحكايات لا من الوقائع الموثّقة.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "4 شرائح خبز توست",
-          "4 شرائح رقيقة من الهام المطبوخ (نحو 120 غ)",
-          "100 غ جبن غرويير مبشور",
-          "بشاميل: 25 غ زبدة، 25 غ دقيق، 300 مل حليب، رشة جوزة الطيب",
-          "2 بيضة",
-          "1 ملعقة صغيرة زبدة للقلي",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "حضّر البشاميل: قلّب الزبدة والدقيق دقيقة، ثم أضف الحليب مع الخفق حتى يتكاثف، وتبّله بالملح والفلفل وجوزة الطيب.",
-          "ادهن شريحتين من الخبز بالبشاميل، وضع عليهما الهام ونصف الجبن، ثم أغلق الساندويتشين.",
-          "غطِّ الوجه بباقي البشاميل والجبن واخبزه على 220 °م لمدة 10–12 دقيقة حتى يتحمّر.",
-          "في هذه الأثناء اقلِ البيض في الزبدة حتى يتماسك البياض ويبقى الصفار سائلًا.",
-          "ضع بيضة فوق كل ساندويتش وقدّمه فورًا."
-        ]
-      },
-      "tips": [
-        "قدّمه مفتوحًا على شريحة خبز واحدة لتقليل الخبز والهام والجبن.",
-        "اقلِ البيضة في مقلاة غير لاصقة بقطرات من الزيت، أو اسلقها بدلًا من القلي.",
-        "استخدم نصف كمية الجبن وهامًا قليل الدهن، وأضف طبق سلطة خضراء كبيرًا."
-      ]
-    },
-    "it": {
-      "name": "Croque madame",
-      "origin": "Francia · Parigi",
-      "intro": "Il croque madame è un croque monsieur coronato da un uovo fritto. Prosciutto cotto e groviera vengono racchiusi tra fette di pane, coperti di besciamella e altro formaggio, cotti in forno fino a doratura e poi completati con un uovo all'occhio di bue, il cui tuorlo morbido fa da seconda salsa. È un ricco pranzo da caffè, di solito mangiato con coltello e forchetta.",
-      "history": "Il croque madame è una variante del croque-monsieur, comparso nei menu dei caffè parigini all'inizio del Novecento. Il nome della versione con l'uovo è attestato per la prima volta a metà del XX secolo; una spiegazione popolare è che l'uovo ricordi il cappello di una signora, ma si tratta di folclore e non di un fatto documentato.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "4 fette di pane in cassetta",
-          "4 fette sottili di prosciutto cotto (circa 120 g)",
-          "100 g di groviera grattugiato",
-          "Besciamella: 25 g di burro, 25 g di farina, 300 ml di latte, un pizzico di noce moscata",
-          "2 uova",
-          "1 cucchiaino di burro per friggere",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Prepara la besciamella: cuoci burro e farina per 1 minuto, aggiungi il latte sbattendo e cuoci a fuoco dolce finché è densa; condisci con sale, pepe e noce moscata.",
-          "Spalma la besciamella su due fette di pane, aggiungi il prosciutto e metà del formaggio e chiudi i toast.",
-          "Copri con la besciamella e il formaggio rimasti e cuoci in forno a 220 °C per 10–12 minuti finché sono dorati.",
-          "Nel frattempo friggi le uova nel burro finché l'albume è rappreso e il tuorlo ancora morbido.",
-          "Fai scivolare un uovo su ogni toast e servi subito."
-        ]
-      },
-      "tips": [
-        "Servilo aperto su una sola fetta di pane per ridurre pane, prosciutto e formaggio.",
-        "Friggi l'uovo in una padella antiaderente con poche gocce d'olio, oppure cuocilo in camicia.",
-        "Usa metà del formaggio e un prosciutto magro e aggiungi una grande insalata verde a lato."
-      ]
-    },
-    "el": {
-      "name": "Κροκ μαντάμ",
-      "origin": "Γαλλία · Παρίσι",
-      "intro": "Το κροκ μαντάμ είναι ένα κροκ μεσιέ με ένα τηγανητό αυγό από πάνω. Ζαμπόν και γραβιέρα Γρυέρης μπαίνουν ανάμεσα σε φέτες ψωμιού, σκεπάζονται με μπεσαμέλ και επιπλέον τυρί, ψήνονται μέχρι να ροδίσουν και στο τέλος στεφανώνονται με ένα αυγό μάτι, του οποίου ο ρευστός κρόκος γίνεται δεύτερη σάλτσα. Είναι πλούσιο μεσημεριανό των καφέ και τρώγεται συνήθως με μαχαίρι και πιρούνι.",
-      "history": "Το κροκ μαντάμ είναι παραλλαγή του κροκ μεσιέ, που εμφανίστηκε στους καταλόγους των παριζιάνικων καφέ στις αρχές του 1900. Το όνομα της εκδοχής με το αυγό καταγράφεται για πρώτη φορά στα μέσα του 20ού αιώνα· μια δημοφιλής εξήγηση είναι ότι το αυγό θυμίζει γυναικείο καπέλο, αλλά πρόκειται για λαϊκή παράδοση και όχι για τεκμηριωμένο γεγονός.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "4 φέτες ψωμί του τοστ",
-          "4 λεπτές φέτες ζαμπόν (περίπου 120 γρ.)",
-          "100 γρ. γραβιέρα Γρυέρης τριμμένη",
-          "Μπεσαμέλ: 25 γρ. βούτυρο, 25 γρ. αλεύρι, 300 ml γάλα, μια πρέζα μοσχοκάρυδο",
-          "2 αυγά",
-          "1 κ.γ. βούτυρο για το τηγάνισμα",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Φτιάξτε τη μπεσαμέλ: ανακατέψτε το βούτυρο με το αλεύρι στη φωτιά για 1 λεπτό, προσθέστε το γάλα χτυπώντας και σιγοβράστε μέχρι να πήξει· αρωματίστε με αλάτι, πιπέρι και μοσχοκάρυδο.",
-          "Απλώστε μπεσαμέλ σε δύο φέτες ψωμί, προσθέστε το ζαμπόν και το μισό τυρί και κλείστε τα σάντουιτς.",
-          "Απλώστε από πάνω την υπόλοιπη μπεσαμέλ και το υπόλοιπο τυρί και ψήστε στους 220 °C για 10–12 λεπτά, μέχρι να ροδίσουν.",
-          "Στο μεταξύ τηγανίστε τα αυγά στο βούτυρο, μέχρι να πήξει το ασπράδι και ο κρόκος να μείνει ρευστός.",
-          "Βάλτε ένα αυγό πάνω σε κάθε σάντουιτς και σερβίρετε αμέσως."
-        ]
-      },
-      "tips": [
-        "Σερβίρετέ το ανοιχτό σε μία φέτα ψωμί, για να μειώσετε το ψωμί, το ζαμπόν και το τυρί.",
-        "Τηγανίστε το αυγό σε αντικολλητικό τηγάνι με λίγες σταγόνες λάδι ή κάντε το ποσέ.",
-        "Βάλτε το μισό τυρί και άπαχο ζαμπόν και προσθέστε στο πλάι μια μεγάλη πράσινη σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Крок-мадам",
-      "origin": "Франция · Париж",
-      "intro": "Крок-мадам — это крок-мсьё, увенчанный яичницей. Ветчину и грюйер зажимают между ломтиками хлеба, покрывают бешамелем и ещё одной порцией сыра, запекают до золотистой корочки, а затем кладут сверху яичницу-глазунью, жидкий желток которой служит вторым соусом. Это сытный обед в кафе, который обычно едят ножом и вилкой.",
-      "history": "Крок-мадам — разновидность крок-мсьё, появившегося в меню парижских кафе в начале 1900-х годов. Название версии с яйцом впервые зафиксировано в середине XX века; по одному из популярных объяснений, яйцо напоминает дамскую шляпку, но это скорее фольклор, чем документально подтверждённый факт.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "4 ломтика хлеба для сэндвичей",
-          "4 тонких ломтика варёной ветчины (около 120 г)",
-          "100 г тёртого грюйера",
-          "Бешамель: 25 г сливочного масла, 25 г муки, 300 мл молока, щепотка мускатного ореха",
-          "2 яйца",
-          "1 ч. л. сливочного масла для жарки",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Приготовьте бешамель: прогрейте масло с мукой 1 минуту, вмешайте венчиком молоко и варите на медленном огне до загустения; приправьте солью, перцем и мускатным орехом.",
-          "Намажьте бешамель на два ломтика хлеба, добавьте ветчину и половину сыра и накройте остальными ломтиками.",
-          "Покройте сверху оставшимся бешамелем и сыром и запекайте при 220 °C 10–12 минут до золотистого цвета.",
-          "Тем временем пожарьте яйца на масле, чтобы белок схватился, а желток остался жидким.",
-          "Выложите яйцо на каждый сэндвич и сразу подавайте."
-        ]
-      },
-      "tips": [
-        "Подавайте открытым, на одном ломтике хлеба, чтобы уменьшить количество хлеба, ветчины и сыра.",
-        "Жарьте яйцо на антипригарной сковороде с несколькими каплями масла или сварите его пашот.",
-        "Возьмите вдвое меньше сыра и нежирную ветчину, а на гарнир подайте большой зелёный салат."
-      ],
-      "name_inline": "крок-мадам"
-    }
+  "ar": {
+   "name": "كروك مدام",
+   "origin": "فرنسا · باريس",
+   "intro": "كروك مدام هو كروك مسيو تعلوه بيضة مقلية. يوضع لحم الخنزير المطبوخ (هام) وجبن الغرويير بين شريحتي خبز، ويُغطّى بالبشاميل ومزيد من الجبن ويُخبز حتى يتحمّر، ثم تُوضع فوقه بيضة مقلية يسيل صفارها كصلصة ثانية. وهو غداء دسم في المقاهي يُؤكل عادة بالشوكة والسكين.",
+   "history": "كروك مدام تنويع على كروك مسيو الذي ظهر في قوائم مقاهي باريس في أوائل القرن العشرين. وقد سُجّل اسم النسخة المغطاة بالبيضة في منتصف القرن العشرين، ويُقال شعبيًا إن البيضة تشبه قبعة سيدة، لكن ذلك من الحكايات لا من الوقائع الموثّقة.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "4 شرائح خبز توست",
+     "4 شرائح رقيقة من الهام المطبوخ (نحو 120 غ)",
+     "100 غ جبن غرويير مبشور",
+     "بشاميل: 25 غ زبدة، 25 غ دقيق، 300 مل حليب، رشة جوزة الطيب",
+     "2 بيضة",
+     "1 ملعقة صغيرة زبدة للقلي",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "حضّر البشاميل: قلّب الزبدة والدقيق دقيقة، ثم أضف الحليب مع الخفق حتى يتكاثف، وتبّله بالملح والفلفل وجوزة الطيب.",
+     "ادهن شريحتين من الخبز بالبشاميل، وضع عليهما الهام ونصف الجبن، ثم أغلق الساندويتشين.",
+     "غطِّ الوجه بباقي البشاميل والجبن واخبزه على 220 °م لمدة 10–12 دقيقة حتى يتحمّر.",
+     "في هذه الأثناء اقلِ البيض في الزبدة حتى يتماسك البياض ويبقى الصفار سائلًا.",
+     "ضع بيضة فوق كل ساندويتش وقدّمه فورًا."
+    ]
+   },
+   "tips": [
+    "قدّمه مفتوحًا على شريحة خبز واحدة لتقليل الخبز والهام والجبن.",
+    "اقلِ البيضة في مقلاة غير لاصقة بقطرات من الزيت، أو اسلقها بدلًا من القلي.",
+    "استخدم نصف كمية الجبن وهامًا قليل الدهن، وأضف طبق سلطة خضراء كبيرًا."
+   ]
+  },
+  "it": {
+   "name": "Croque madame",
+   "origin": "Francia · Parigi",
+   "intro": "Il croque madame è un croque monsieur coronato da un uovo fritto. Prosciutto cotto e groviera vengono racchiusi tra fette di pane, coperti di besciamella e altro formaggio, cotti in forno fino a doratura e poi completati con un uovo all'occhio di bue, il cui tuorlo morbido fa da seconda salsa. È un ricco pranzo da caffè, di solito mangiato con coltello e forchetta.",
+   "history": "Il croque madame è una variante del croque-monsieur, comparso nei menu dei caffè parigini all'inizio del Novecento. Il nome della versione con l'uovo è attestato per la prima volta a metà del XX secolo; una spiegazione popolare è che l'uovo ricordi il cappello di una signora, ma si tratta di folclore e non di un fatto documentato.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "4 fette di pane in cassetta",
+     "4 fette sottili di prosciutto cotto (circa 120 g)",
+     "100 g di groviera grattugiato",
+     "Besciamella: 25 g di burro, 25 g di farina, 300 ml di latte, un pizzico di noce moscata",
+     "2 uova",
+     "1 cucchiaino di burro per friggere",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Prepara la besciamella: cuoci burro e farina per 1 minuto, aggiungi il latte sbattendo e cuoci a fuoco dolce finché è densa; condisci con sale, pepe e noce moscata.",
+     "Spalma la besciamella su due fette di pane, aggiungi il prosciutto e metà del formaggio e chiudi i toast.",
+     "Copri con la besciamella e il formaggio rimasti e cuoci in forno a 220 °C per 10–12 minuti finché sono dorati.",
+     "Nel frattempo friggi le uova nel burro finché l'albume è rappreso e il tuorlo ancora morbido.",
+     "Fai scivolare un uovo su ogni toast e servi subito."
+    ]
+   },
+   "tips": [
+    "Servilo aperto su una sola fetta di pane per ridurre pane, prosciutto e formaggio.",
+    "Friggi l'uovo in una padella antiaderente con poche gocce d'olio, oppure cuocilo in camicia.",
+    "Usa metà del formaggio e un prosciutto magro e aggiungi una grande insalata verde a lato."
+   ]
+  },
+  "el": {
+   "name": "Κροκ μαντάμ",
+   "origin": "Γαλλία · Παρίσι",
+   "intro": "Το κροκ μαντάμ είναι ένα κροκ μεσιέ με ένα τηγανητό αυγό από πάνω. Ζαμπόν και γραβιέρα Γρυέρης μπαίνουν ανάμεσα σε φέτες ψωμιού, σκεπάζονται με μπεσαμέλ και επιπλέον τυρί, ψήνονται μέχρι να ροδίσουν και στο τέλος στεφανώνονται με ένα αυγό μάτι, του οποίου ο ρευστός κρόκος γίνεται δεύτερη σάλτσα. Είναι πλούσιο μεσημεριανό των καφέ και τρώγεται συνήθως με μαχαίρι και πιρούνι.",
+   "history": "Το κροκ μαντάμ είναι παραλλαγή του κροκ μεσιέ, που εμφανίστηκε στους καταλόγους των παριζιάνικων καφέ στις αρχές του 1900. Το όνομα της εκδοχής με το αυγό καταγράφεται για πρώτη φορά στα μέσα του 20ού αιώνα· μια δημοφιλής εξήγηση είναι ότι το αυγό θυμίζει γυναικείο καπέλο, αλλά πρόκειται για λαϊκή παράδοση και όχι για τεκμηριωμένο γεγονός.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "4 φέτες ψωμί του τοστ",
+     "4 λεπτές φέτες ζαμπόν (περίπου 120 γρ.)",
+     "100 γρ. γραβιέρα Γρυέρης τριμμένη",
+     "Μπεσαμέλ: 25 γρ. βούτυρο, 25 γρ. αλεύρι, 300 ml γάλα, μια πρέζα μοσχοκάρυδο",
+     "2 αυγά",
+     "1 κ.γ. βούτυρο για το τηγάνισμα",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Φτιάξτε τη μπεσαμέλ: ανακατέψτε το βούτυρο με το αλεύρι στη φωτιά για 1 λεπτό, προσθέστε το γάλα χτυπώντας και σιγοβράστε μέχρι να πήξει· αρωματίστε με αλάτι, πιπέρι και μοσχοκάρυδο.",
+     "Απλώστε μπεσαμέλ σε δύο φέτες ψωμί, προσθέστε το ζαμπόν και το μισό τυρί και κλείστε τα σάντουιτς.",
+     "Απλώστε από πάνω την υπόλοιπη μπεσαμέλ και το υπόλοιπο τυρί και ψήστε στους 220 °C για 10–12 λεπτά, μέχρι να ροδίσουν.",
+     "Στο μεταξύ τηγανίστε τα αυγά στο βούτυρο, μέχρι να πήξει το ασπράδι και ο κρόκος να μείνει ρευστός.",
+     "Βάλτε ένα αυγό πάνω σε κάθε σάντουιτς και σερβίρετε αμέσως."
+    ]
+   },
+   "tips": [
+    "Σερβίρετέ το ανοιχτό σε μία φέτα ψωμί, για να μειώσετε το ψωμί, το ζαμπόν και το τυρί.",
+    "Τηγανίστε το αυγό σε αντικολλητικό τηγάνι με λίγες σταγόνες λάδι ή κάντε το ποσέ.",
+    "Βάλτε το μισό τυρί και άπαχο ζαμπόν και προσθέστε στο πλάι μια μεγάλη πράσινη σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Крок-мадам",
+   "origin": "Франция · Париж",
+   "intro": "Крок-мадам — это крок-мсьё, увенчанный яичницей. Ветчину и грюйер зажимают между ломтиками хлеба, покрывают бешамелем и ещё одной порцией сыра, запекают до золотистой корочки, а затем кладут сверху яичницу-глазунью, жидкий желток которой служит вторым соусом. Это сытный обед в кафе, который обычно едят ножом и вилкой.",
+   "history": "Крок-мадам — разновидность крок-мсьё, появившегося в меню парижских кафе в начале 1900-х годов. Название версии с яйцом впервые зафиксировано в середине XX века; по одному из популярных объяснений, яйцо напоминает дамскую шляпку, но это скорее фольклор, чем документально подтверждённый факт.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "4 ломтика хлеба для сэндвичей",
+     "4 тонких ломтика варёной ветчины (около 120 г)",
+     "100 г тёртого грюйера",
+     "Бешамель: 25 г сливочного масла, 25 г муки, 300 мл молока, щепотка мускатного ореха",
+     "2 яйца",
+     "1 ч. л. сливочного масла для жарки",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Приготовьте бешамель: прогрейте масло с мукой 1 минуту, вмешайте венчиком молоко и варите на медленном огне до загустения; приправьте солью, перцем и мускатным орехом.",
+     "Намажьте бешамель на два ломтика хлеба, добавьте ветчину и половину сыра и накройте остальными ломтиками.",
+     "Покройте сверху оставшимся бешамелем и сыром и запекайте при 220 °C 10–12 минут до золотистого цвета.",
+     "Тем временем пожарьте яйца на масле, чтобы белок схватился, а желток остался жидким.",
+     "Выложите яйцо на каждый сэндвич и сразу подавайте."
+    ]
+   },
+   "tips": [
+    "Подавайте открытым, на одном ломтике хлеба, чтобы уменьшить количество хлеба, ветчины и сыра.",
+    "Жарьте яйцо на антипригарной сковороде с несколькими каплями масла или сварите его пашот.",
+    "Возьмите вдвое меньше сыра и нежирную ветчину, а на гарнир подайте большой зелёный салат."
+   ],
+   "name_inline": "крок-мадам"
+  },
+  "es": {
+   "name": "Croque madame",
+   "origin": "Francia · París",
+   "intro": "El croque madame es un croque monsieur coronado con un huevo frito. El jamón y el gruyère van entre rebanadas de pan, se cubren con bechamel y más queso, se hornean hasta dorarse y se rematan con un huevo estrellado cuya yema líquida hace de segunda salsa. Es un almuerzo de café contundente que suele comerse con cuchillo y tenedor.",
+   "history": "El croque madame es una variante del croque-monsieur, que apareció en las cartas de los cafés de París a principios del siglo XX. El nombre de la versión con huevo se documenta por primera vez a mediados del siglo XX; una explicación popular dice que el huevo recuerda al sombrero de una dama, pero eso es folclor, no un hecho documentado.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "4 rebanadas de pan de caja",
+     "4 rebanadas finas de jamón cocido (unos 120 g)",
+     "100 g de gruyère, rallado",
+     "Bechamel: 25 g de mantequilla, 25 g de harina, 300 ml de leche, una pizca de nuez moscada",
+     "2 huevos",
+     "1 cdta. de mantequilla para freír",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Prepara la bechamel: cocina la mantequilla con la harina 1 minuto, bate con la leche y hierve a fuego suave hasta que espese; sazona con sal, pimienta y nuez moscada.",
+     "Unta bechamel en dos rebanadas de pan, añade el jamón y la mitad del queso, y cierra los sándwiches.",
+     "Cubre con el resto de la bechamel y del queso y hornea a 220 °C de 10 a 12 minutos, hasta que se doren.",
+     "Mientras tanto, fríe los huevos en la mantequilla hasta que las claras cuajen y las yemas sigan líquidas.",
+     "Desliza un huevo sobre cada sándwich y sirve de inmediato."
+    ]
+   },
+   "tips": [
+    "Sírvelo abierto, con una sola rebanada de pan, para reducir el pan, el jamón y el queso.",
+    "Fríe el huevo en una sartén antiadherente con unas gotas de aceite, o escalfa en su lugar.",
+    "Usa la mitad del queso y un jamón magro, y acompaña con una ensalada verde grande."
+   ],
+   "name_inline": "el croque madame"
   }
+ }
 }

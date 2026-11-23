@@ -1,171 +1,203 @@
 {
-  "db_key": "borek_cheese",
-  "slug": "borek-cheese",
-  "emoji": "🥧",
-  "portion_g": 150,
-  "country": "TR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "borek_cheese",
+ "slug": "borek-cheese",
+ "emoji": "🥧",
+ "portion_g": 150,
+ "country": "TR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Cheese börek",
+   "origin": "Turkey · Anatolia",
+   "intro": "Cheese börek is a Turkish savoury pie of thin yufka pastry sheets layered with crumbled white cheese and chopped parsley, brushed with a mix of egg, milk and melted butter and baked until golden. The top is flaky and crisp while the inside stays soft and salty. It is cut into squares and served warm at breakfast or with tea.",
+   "history": "Börek is a large family of filled pastries that spread across the lands of the former Ottoman Empire, from the Balkans to Anatolia and the Levant. The layered tray version with white cheese is one of the most common homemade kinds in Turkey today.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "3 large sheets yufka (about 500 g)",
+     "300 g white cheese (feta-style), crumbled",
+     "A bunch of parsley, finely chopped",
+     "2 eggs",
+     "150 ml milk",
+     "60 g butter, melted, plus a little for the tray",
+     "2 tbsp water"
+    ],
+    "steps": [
+     "Heat the oven to 190 °C and butter a 30 × 40 cm tray. Mix the cheese with the parsley.",
+     "Whisk 1 egg with the milk, most of the butter and the water to make the brushing mix.",
+     "Lay a yufka sheet in the tray, letting it hang over the sides; tear the other sheets into pieces and layer them inside, brushing each layer with the mix and scattering cheese over every second layer.",
+     "Fold the overhanging pastry over the top, brush with the rest of the mix and then with the remaining egg, beaten.",
+     "Bake for 35–40 minutes until deep golden, rest for 10 minutes and cut into squares."
+    ]
+   },
+   "tips": [
+    "Brush the layers lightly: replacing part of the butter with extra milk keeps it moist with less fat.",
+    "Use a lighter white cheese and add more parsley or spinach to the filling for volume.",
+    "One square is enough — pair it with tomatoes, cucumber and olives rather than a second piece."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Cheese börek",
-      "origin": "Turkey · Anatolia",
-      "intro": "Cheese börek is a Turkish savoury pie of thin yufka pastry sheets layered with crumbled white cheese and chopped parsley, brushed with a mix of egg, milk and melted butter and baked until golden. The top is flaky and crisp while the inside stays soft and salty. It is cut into squares and served warm at breakfast or with tea.",
-      "history": "Börek is a large family of filled pastries that spread across the lands of the former Ottoman Empire, from the Balkans to Anatolia and the Levant. The layered tray version with white cheese is one of the most common homemade kinds in Turkey today.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "3 large sheets yufka (about 500 g)",
-          "300 g white cheese (feta-style), crumbled",
-          "A bunch of parsley, finely chopped",
-          "2 eggs",
-          "150 ml milk",
-          "60 g butter, melted, plus a little for the tray",
-          "2 tbsp water"
-        ],
-        "steps": [
-          "Heat the oven to 190 °C and butter a 30 × 40 cm tray. Mix the cheese with the parsley.",
-          "Whisk 1 egg with the milk, most of the butter and the water to make the brushing mix.",
-          "Lay a yufka sheet in the tray, letting it hang over the sides; tear the other sheets into pieces and layer them inside, brushing each layer with the mix and scattering cheese over every second layer.",
-          "Fold the overhanging pastry over the top, brush with the rest of the mix and then with the remaining egg, beaten.",
-          "Bake for 35–40 minutes until deep golden, rest for 10 minutes and cut into squares."
-        ]
-      },
-      "tips": [
-        "Brush the layers lightly: replacing part of the butter with extra milk keeps it moist with less fat.",
-        "Use a lighter white cheese and add more parsley or spinach to the filling for volume.",
-        "One square is enough — pair it with tomatoes, cucumber and olives rather than a second piece."
-      ]
-    },
-    "ar": {
-      "name": "بورك بالجبن",
-      "origin": "تركيا · الأناضول",
-      "intro": "البورك بالجبن فطيرة تركية مالحة من رقائق عجين اليوفكا الرقيقة المتراصة مع الجبن الأبيض المفتت والبقدونس المفروم، تُدهن بخليط من البيض والحليب والزبدة الذائبة وتُخبز حتى يصبح لونها ذهبيًا. يكون سطحها هشًا مقرمشًا وداخلها طريًا ومالحًا. تُقطّع مربعات وتُقدَّم دافئة في الفطور أو مع الشاي.",
-      "history": "البورك عائلة كبيرة من المعجنات المحشوة انتشرت في أراضي الدولة العثمانية السابقة، من البلقان إلى الأناضول وبلاد الشام. ونسخة الصينية المتعددة الطبقات بالجبن الأبيض من أكثر الأنواع المنزلية شيوعًا في تركيا اليوم.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "3 رقائق يوفكا كبيرة (نحو 500 غ)",
-          "300 غ جبن أبيض (من نوع الفيتا) مفتت",
-          "باقة بقدونس مفرومة ناعمًا",
-          "بيضتان",
-          "150 مل حليب",
-          "60 غ زبدة ذائبة، وقليل لدهن الصينية",
-          "ملعقتان كبيرتان ماء"
-        ],
-        "steps": [
-          "سخّن الفرن إلى 190 °م وادهن صينية 30 × 40 سم بالزبدة. اخلط الجبن مع البقدونس.",
-          "اخفق بيضة واحدة مع الحليب ومعظم الزبدة والماء لتحضير خليط الدهن.",
-          "افرد رقيقة يوفكا في الصينية واترك أطرافها تتدلى، ومزّق الرقائق الأخرى قطعًا ورتّبها طبقات في الداخل، وادهن كل طبقة بالخليط ووزّع الجبن على كل طبقتين.",
-          "اطوِ الأطراف المتدلية فوق السطح، وادهنه بباقي الخليط ثم بالبيضة الثانية المخفوقة.",
-          "اخبزها 35–40 دقيقة حتى يصبح لونها ذهبيًا داكنًا، واتركها 10 دقائق ثم قطّعها مربعات."
-        ]
-      },
-      "tips": [
-        "ادهن الطبقات بخفة: استبدال جزء من الزبدة بمزيد من الحليب يبقيها طرية بدهون أقل.",
-        "استخدم جبنًا أبيض أخف وأضف مزيدًا من البقدونس أو السبانخ إلى الحشوة لزيادة الحجم.",
-        "مربع واحد يكفي — قدّمه مع الطماطم والخيار والزيتون بدل قطعة ثانية."
-      ]
-    },
-    "it": {
-      "name": "Börek al formaggio",
-      "origin": "Turchia · Anatolia",
-      "intro": "Il börek al formaggio è una torta salata turca di sottili fogli di pasta yufka alternati a formaggio bianco sbriciolato e prezzemolo tritato, spennellati con un composto di uovo, latte e burro fuso e cotti finché sono dorati. La superficie è friabile e croccante, mentre l'interno resta morbido e saporito. Si taglia a quadrati e si serve tiepido a colazione o con il tè.",
-      "history": "Il börek è una grande famiglia di paste ripiene diffusa in tutte le terre dell'ex Impero ottomano, dai Balcani all'Anatolia e al Levante. La versione a strati in teglia con formaggio bianco è oggi uno dei tipi casalinghi più comuni in Turchia.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "3 grandi fogli di yufka (circa 500 g)",
-          "300 g di formaggio bianco (tipo feta), sbriciolato",
-          "Un mazzo di prezzemolo, tritato finemente",
-          "2 uova",
-          "150 ml di latte",
-          "60 g di burro, fuso, più un po' per la teglia",
-          "2 cucchiai di acqua"
-        ],
-        "steps": [
-          "Scalda il forno a 190 °C e imburra una teglia da 30 × 40 cm. Mescola il formaggio con il prezzemolo.",
-          "Sbatti 1 uovo con il latte, gran parte del burro e l'acqua per preparare il composto da spennellare.",
-          "Adagia un foglio di yufka nella teglia lasciandolo sbordare; strappa gli altri fogli a pezzi e disponili a strati all'interno, spennellando ogni strato con il composto e cospargendo di formaggio uno strato sì e uno no.",
-          "Ripiega sopra la pasta che sborda, spennella con il resto del composto e poi con l'uovo rimasto sbattuto.",
-          "Cuoci per 35–40 minuti finché è ben dorato, lascia riposare per 10 minuti e taglia a quadrati."
-        ]
-      },
-      "tips": [
-        "Spennella gli strati con leggerezza: sostituire parte del burro con altro latte lo mantiene morbido con meno grassi.",
-        "Usa un formaggio bianco più leggero e aggiungi più prezzemolo o spinaci al ripieno per dare volume.",
-        "Un quadrato basta: accompagnalo con pomodori, cetriolo e olive invece di prenderne un secondo pezzo."
-      ]
-    },
-    "el": {
-      "name": "Μπουρέκι με τυρί",
-      "name_inline": "μπουρέκι με τυρί",
-      "origin": "Τουρκία · Ανατολία",
-      "intro": "Το μπουρέκι με τυρί είναι τουρκική αλμυρή πίτα από λεπτά φύλλα γιουφκά στρωμένα με θρυμματισμένο λευκό τυρί και ψιλοκομμένο μαϊντανό, αλειμμένα με μείγμα από αυγό, γάλα και λιωμένο βούτυρο και ψημένα μέχρι να χρυσίσουν. Η επιφάνεια είναι φυλλώδης και τραγανή, ενώ το εσωτερικό μένει μαλακό και αλμυρό. Κόβεται σε τετράγωνα και σερβίρεται ζεστό για πρωινό ή με τσάι.",
-      "history": "Το μπουρέκι είναι μια μεγάλη οικογένεια γεμιστών πιτών που διαδόθηκε σε όλα τα εδάφη της πρώην Οθωμανικής Αυτοκρατορίας, από τα Βαλκάνια μέχρι την Ανατολία και το Λεβάντε. Η εκδοχή ταψιού σε στρώσεις με λευκό τυρί είναι σήμερα ένα από τα πιο συνηθισμένα σπιτικά είδη στην Τουρκία.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "3 μεγάλα φύλλα γιουφκά (περίπου 500 γρ.)",
-          "300 γρ. λευκό τυρί (τύπου φέτας), θρυμματισμένο",
-          "Ένα ματσάκι μαϊντανό, ψιλοκομμένο",
-          "2 αυγά",
-          "150 ml γάλα",
-          "60 γρ. βούτυρο, λιωμένο, συν λίγο για το ταψί",
-          "2 κ.σ. νερό"
-        ],
-        "steps": [
-          "Προθερμάνετε τον φούρνο στους 190 °C και βουτυρώστε ένα ταψί 30 × 40 εκ. Ανακατέψτε το τυρί με τον μαϊντανό.",
-          "Χτυπήστε 1 αυγό με το γάλα, το μεγαλύτερο μέρος του βουτύρου και το νερό για το μείγμα αλείμματος.",
-          "Στρώστε ένα φύλλο γιουφκά στο ταψί αφήνοντάς το να κρέμεται έξω από τα τοιχώματα· σκίστε τα άλλα φύλλα σε κομμάτια και στρώστε τα μέσα, αλείφοντας κάθε στρώση με το μείγμα και σκορπίζοντας τυρί κάθε δεύτερη στρώση.",
-          "Διπλώστε από πάνω το φύλλο που κρέμεται, αλείψτε με το υπόλοιπο μείγμα και έπειτα με το άλλο αυγό χτυπημένο.",
-          "Ψήστε για 35–40 λεπτά μέχρι να πάρει βαθύ χρυσαφί χρώμα, αφήστε να ξεκουραστεί για 10 λεπτά και κόψτε σε τετράγωνα."
-        ]
-      },
-      "tips": [
-        "Αλείφετε ελαφρά τις στρώσεις: η αντικατάσταση μέρους του βουτύρου με επιπλέον γάλα το κρατά υγρό με λιγότερα λιπαρά.",
-        "Χρησιμοποιήστε πιο ελαφρύ λευκό τυρί και προσθέστε περισσότερο μαϊντανό ή σπανάκι στη γέμιση για όγκο.",
-        "Ένα τετράγωνο αρκεί — συνοδέψτε το με ντομάτες, αγγούρι και ελιές αντί για δεύτερο κομμάτι."
-      ]
-    },
-    "ru": {
-      "name": "Бурек с сыром",
-      "origin": "Турция · Анатолия",
-      "intro": "Бурек с сыром — турецкий солёный пирог из тонких листов теста юфка, переслоенных рассыпчатым белым сыром и рубленой петрушкой, смазанных смесью яйца, молока и растопленного масла и запечённых до золотистого цвета. Верх слоёный и хрустящий, а внутри остаётся мягким и солёным. Его нарезают квадратами и подают тёплым на завтрак или к чаю.",
-      "history": "Бурек — большое семейство пирожков с начинкой, распространившееся по землям бывшей Османской империи, от Балкан до Анатолии и Леванта. Слоёная версия на противне с белым сыром — один из самых распространённых домашних видов в Турции сегодня.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "3 больших листа юфка (около 500 г)",
-          "300 г белого сыра (типа феты), раскрошенного",
-          "Пучок петрушки, мелко нарубленной",
-          "2 яйца",
-          "150 мл молока",
-          "60 г сливочного масла, растопленного, плюс немного для противня",
-          "2 ст. л. воды"
-        ],
-        "steps": [
-          "Разогрейте духовку до 190 °C и смажьте маслом противень 30 × 40 см. Смешайте сыр с петрушкой.",
-          "Взбейте 1 яйцо с молоком, большей частью масла и водой — это смесь для смазывания.",
-          "Выложите в противень лист юфка так, чтобы края свисали; остальные листы порвите на куски и выкладывайте слоями внутрь, смазывая каждый слой смесью и посыпая сыром через слой.",
-          "Заверните свисающее тесто сверху, смажьте остатком смеси, а затем оставшимся взбитым яйцом.",
-          "Выпекайте 35–40 минут до глубокого золотистого цвета, дайте отдохнуть 10 минут и нарежьте квадратами."
-        ]
-      },
-      "tips": [
-        "Смазывайте слои тонко: если заменить часть масла дополнительным молоком, пирог останется влажным при меньшем количестве жира.",
-        "Берите более лёгкий белый сыр и добавьте в начинку больше петрушки или шпината для объёма.",
-        "Одного квадрата достаточно — подайте его с помидорами, огурцами и оливками, а не со вторым куском."
-      ],
-      "name_inline": "бурек с сыром"
-    }
+  "ar": {
+   "name": "بورك بالجبن",
+   "origin": "تركيا · الأناضول",
+   "intro": "البورك بالجبن فطيرة تركية مالحة من رقائق عجين اليوفكا الرقيقة المتراصة مع الجبن الأبيض المفتت والبقدونس المفروم، تُدهن بخليط من البيض والحليب والزبدة الذائبة وتُخبز حتى يصبح لونها ذهبيًا. يكون سطحها هشًا مقرمشًا وداخلها طريًا ومالحًا. تُقطّع مربعات وتُقدَّم دافئة في الفطور أو مع الشاي.",
+   "history": "البورك عائلة كبيرة من المعجنات المحشوة انتشرت في أراضي الدولة العثمانية السابقة، من البلقان إلى الأناضول وبلاد الشام. ونسخة الصينية المتعددة الطبقات بالجبن الأبيض من أكثر الأنواع المنزلية شيوعًا في تركيا اليوم.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "3 رقائق يوفكا كبيرة (نحو 500 غ)",
+     "300 غ جبن أبيض (من نوع الفيتا) مفتت",
+     "باقة بقدونس مفرومة ناعمًا",
+     "بيضتان",
+     "150 مل حليب",
+     "60 غ زبدة ذائبة، وقليل لدهن الصينية",
+     "ملعقتان كبيرتان ماء"
+    ],
+    "steps": [
+     "سخّن الفرن إلى 190 °م وادهن صينية 30 × 40 سم بالزبدة. اخلط الجبن مع البقدونس.",
+     "اخفق بيضة واحدة مع الحليب ومعظم الزبدة والماء لتحضير خليط الدهن.",
+     "افرد رقيقة يوفكا في الصينية واترك أطرافها تتدلى، ومزّق الرقائق الأخرى قطعًا ورتّبها طبقات في الداخل، وادهن كل طبقة بالخليط ووزّع الجبن على كل طبقتين.",
+     "اطوِ الأطراف المتدلية فوق السطح، وادهنه بباقي الخليط ثم بالبيضة الثانية المخفوقة.",
+     "اخبزها 35–40 دقيقة حتى يصبح لونها ذهبيًا داكنًا، واتركها 10 دقائق ثم قطّعها مربعات."
+    ]
+   },
+   "tips": [
+    "ادهن الطبقات بخفة: استبدال جزء من الزبدة بمزيد من الحليب يبقيها طرية بدهون أقل.",
+    "استخدم جبنًا أبيض أخف وأضف مزيدًا من البقدونس أو السبانخ إلى الحشوة لزيادة الحجم.",
+    "مربع واحد يكفي — قدّمه مع الطماطم والخيار والزيتون بدل قطعة ثانية."
+   ]
+  },
+  "it": {
+   "name": "Börek al formaggio",
+   "origin": "Turchia · Anatolia",
+   "intro": "Il börek al formaggio è una torta salata turca di sottili fogli di pasta yufka alternati a formaggio bianco sbriciolato e prezzemolo tritato, spennellati con un composto di uovo, latte e burro fuso e cotti finché sono dorati. La superficie è friabile e croccante, mentre l'interno resta morbido e saporito. Si taglia a quadrati e si serve tiepido a colazione o con il tè.",
+   "history": "Il börek è una grande famiglia di paste ripiene diffusa in tutte le terre dell'ex Impero ottomano, dai Balcani all'Anatolia e al Levante. La versione a strati in teglia con formaggio bianco è oggi uno dei tipi casalinghi più comuni in Turchia.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "3 grandi fogli di yufka (circa 500 g)",
+     "300 g di formaggio bianco (tipo feta), sbriciolato",
+     "Un mazzo di prezzemolo, tritato finemente",
+     "2 uova",
+     "150 ml di latte",
+     "60 g di burro, fuso, più un po' per la teglia",
+     "2 cucchiai di acqua"
+    ],
+    "steps": [
+     "Scalda il forno a 190 °C e imburra una teglia da 30 × 40 cm. Mescola il formaggio con il prezzemolo.",
+     "Sbatti 1 uovo con il latte, gran parte del burro e l'acqua per preparare il composto da spennellare.",
+     "Adagia un foglio di yufka nella teglia lasciandolo sbordare; strappa gli altri fogli a pezzi e disponili a strati all'interno, spennellando ogni strato con il composto e cospargendo di formaggio uno strato sì e uno no.",
+     "Ripiega sopra la pasta che sborda, spennella con il resto del composto e poi con l'uovo rimasto sbattuto.",
+     "Cuoci per 35–40 minuti finché è ben dorato, lascia riposare per 10 minuti e taglia a quadrati."
+    ]
+   },
+   "tips": [
+    "Spennella gli strati con leggerezza: sostituire parte del burro con altro latte lo mantiene morbido con meno grassi.",
+    "Usa un formaggio bianco più leggero e aggiungi più prezzemolo o spinaci al ripieno per dare volume.",
+    "Un quadrato basta: accompagnalo con pomodori, cetriolo e olive invece di prenderne un secondo pezzo."
+   ]
+  },
+  "el": {
+   "name": "Μπουρέκι με τυρί",
+   "name_inline": "μπουρέκι με τυρί",
+   "origin": "Τουρκία · Ανατολία",
+   "intro": "Το μπουρέκι με τυρί είναι τουρκική αλμυρή πίτα από λεπτά φύλλα γιουφκά στρωμένα με θρυμματισμένο λευκό τυρί και ψιλοκομμένο μαϊντανό, αλειμμένα με μείγμα από αυγό, γάλα και λιωμένο βούτυρο και ψημένα μέχρι να χρυσίσουν. Η επιφάνεια είναι φυλλώδης και τραγανή, ενώ το εσωτερικό μένει μαλακό και αλμυρό. Κόβεται σε τετράγωνα και σερβίρεται ζεστό για πρωινό ή με τσάι.",
+   "history": "Το μπουρέκι είναι μια μεγάλη οικογένεια γεμιστών πιτών που διαδόθηκε σε όλα τα εδάφη της πρώην Οθωμανικής Αυτοκρατορίας, από τα Βαλκάνια μέχρι την Ανατολία και το Λεβάντε. Η εκδοχή ταψιού σε στρώσεις με λευκό τυρί είναι σήμερα ένα από τα πιο συνηθισμένα σπιτικά είδη στην Τουρκία.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "3 μεγάλα φύλλα γιουφκά (περίπου 500 γρ.)",
+     "300 γρ. λευκό τυρί (τύπου φέτας), θρυμματισμένο",
+     "Ένα ματσάκι μαϊντανό, ψιλοκομμένο",
+     "2 αυγά",
+     "150 ml γάλα",
+     "60 γρ. βούτυρο, λιωμένο, συν λίγο για το ταψί",
+     "2 κ.σ. νερό"
+    ],
+    "steps": [
+     "Προθερμάνετε τον φούρνο στους 190 °C και βουτυρώστε ένα ταψί 30 × 40 εκ. Ανακατέψτε το τυρί με τον μαϊντανό.",
+     "Χτυπήστε 1 αυγό με το γάλα, το μεγαλύτερο μέρος του βουτύρου και το νερό για το μείγμα αλείμματος.",
+     "Στρώστε ένα φύλλο γιουφκά στο ταψί αφήνοντάς το να κρέμεται έξω από τα τοιχώματα· σκίστε τα άλλα φύλλα σε κομμάτια και στρώστε τα μέσα, αλείφοντας κάθε στρώση με το μείγμα και σκορπίζοντας τυρί κάθε δεύτερη στρώση.",
+     "Διπλώστε από πάνω το φύλλο που κρέμεται, αλείψτε με το υπόλοιπο μείγμα και έπειτα με το άλλο αυγό χτυπημένο.",
+     "Ψήστε για 35–40 λεπτά μέχρι να πάρει βαθύ χρυσαφί χρώμα, αφήστε να ξεκουραστεί για 10 λεπτά και κόψτε σε τετράγωνα."
+    ]
+   },
+   "tips": [
+    "Αλείφετε ελαφρά τις στρώσεις: η αντικατάσταση μέρους του βουτύρου με επιπλέον γάλα το κρατά υγρό με λιγότερα λιπαρά.",
+    "Χρησιμοποιήστε πιο ελαφρύ λευκό τυρί και προσθέστε περισσότερο μαϊντανό ή σπανάκι στη γέμιση για όγκο.",
+    "Ένα τετράγωνο αρκεί — συνοδέψτε το με ντομάτες, αγγούρι και ελιές αντί για δεύτερο κομμάτι."
+   ]
+  },
+  "ru": {
+   "name": "Бурек с сыром",
+   "origin": "Турция · Анатолия",
+   "intro": "Бурек с сыром — турецкий солёный пирог из тонких листов теста юфка, переслоенных рассыпчатым белым сыром и рубленой петрушкой, смазанных смесью яйца, молока и растопленного масла и запечённых до золотистого цвета. Верх слоёный и хрустящий, а внутри остаётся мягким и солёным. Его нарезают квадратами и подают тёплым на завтрак или к чаю.",
+   "history": "Бурек — большое семейство пирожков с начинкой, распространившееся по землям бывшей Османской империи, от Балкан до Анатолии и Леванта. Слоёная версия на противне с белым сыром — один из самых распространённых домашних видов в Турции сегодня.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "3 больших листа юфка (около 500 г)",
+     "300 г белого сыра (типа феты), раскрошенного",
+     "Пучок петрушки, мелко нарубленной",
+     "2 яйца",
+     "150 мл молока",
+     "60 г сливочного масла, растопленного, плюс немного для противня",
+     "2 ст. л. воды"
+    ],
+    "steps": [
+     "Разогрейте духовку до 190 °C и смажьте маслом противень 30 × 40 см. Смешайте сыр с петрушкой.",
+     "Взбейте 1 яйцо с молоком, большей частью масла и водой — это смесь для смазывания.",
+     "Выложите в противень лист юфка так, чтобы края свисали; остальные листы порвите на куски и выкладывайте слоями внутрь, смазывая каждый слой смесью и посыпая сыром через слой.",
+     "Заверните свисающее тесто сверху, смажьте остатком смеси, а затем оставшимся взбитым яйцом.",
+     "Выпекайте 35–40 минут до глубокого золотистого цвета, дайте отдохнуть 10 минут и нарежьте квадратами."
+    ]
+   },
+   "tips": [
+    "Смазывайте слои тонко: если заменить часть масла дополнительным молоком, пирог останется влажным при меньшем количестве жира.",
+    "Берите более лёгкий белый сыр и добавьте в начинку больше петрушки или шпината для объёма.",
+    "Одного квадрата достаточно — подайте его с помидорами, огурцами и оливками, а не со вторым куском."
+   ],
+   "name_inline": "бурек с сыром"
+  },
+  "es": {
+   "name": "Börek de queso",
+   "origin": "Turquía · Anatolia",
+   "intro": "El börek de queso es un pastel salado turco de finas láminas de masa yufka, intercaladas con queso blanco desmenuzado y perejil picado, pintadas con una mezcla de huevo, leche y mantequilla derretida y horneadas hasta quedar doradas. La parte de arriba es hojaldrada y crujiente, y el interior se mantiene suave y salado. Se corta en cuadros y se sirve tibio en el desayuno o con té.",
+   "history": "El börek es una gran familia de masas rellenas que se extendió por las tierras del antiguo Imperio otomano, de los Balcanes a Anatolia y el Levante. La versión en capas en bandeja con queso blanco es hoy una de las más comunes en las casas de Turquía.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "3 láminas grandes de yufka (unos 500 g)",
+     "300 g de queso blanco (tipo feta), desmenuzado",
+     "1 manojo de perejil, picado fino",
+     "2 huevos",
+     "150 ml de leche",
+     "60 g de mantequilla derretida, y un poco más para la bandeja",
+     "2 cda. de agua"
+    ],
+    "steps": [
+     "Calienta el horno a 190 °C y unta con mantequilla una bandeja de 30 × 40 cm. Mezcla el queso con el perejil.",
+     "Bate 1 huevo con la leche, casi toda la mantequilla y el agua para hacer la mezcla para pintar.",
+     "Coloca una lámina de yufka en la bandeja dejando que sobresalga por los lados; rompe las otras láminas en trozos y acomódalos dentro en capas, pintando cada capa con la mezcla y esparciendo queso cada dos capas.",
+     "Dobla la masa que sobresale sobre la parte superior, píntala con el resto de la mezcla y luego con el huevo restante batido.",
+     "Hornea de 35 a 40 minutos hasta que esté bien dorado, deja reposar 10 minutos y corta en cuadros."
+    ]
+   },
+   "tips": [
+    "Pinta las capas con poca mezcla: sustituir parte de la mantequilla por más leche mantiene la humedad con menos grasa.",
+    "Usa un queso blanco más ligero y añade más perejil o espinacas al relleno para dar volumen.",
+    "Un cuadro es suficiente: acompáñalo con tomates, pepino y aceitunas en lugar de una segunda porción."
+   ],
+   "name_inline": "el börek de queso"
   }
+ }
 }

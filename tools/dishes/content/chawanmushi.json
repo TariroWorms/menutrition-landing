@@ -1,171 +1,203 @@
 {
-  "db_key": "chawanmushi",
-  "slug": "chawanmushi",
-  "emoji": "🥚",
-  "portion_g": 150,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "chawanmushi",
+ "slug": "chawanmushi",
+ "emoji": "🥚",
+ "portion_g": 150,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chawanmushi",
+   "origin": "Japan",
+   "intro": "Chawanmushi is a Japanese savoury egg custard steamed in a lidded cup. Eggs are mixed with dashi stock and poured over small pieces of chicken, prawn and mushroom, then gently steamed until just set. The result is silky and wobbly, with a delicate savoury flavour, and it is eaten hot with a spoon as a starter.",
+   "history": "The name means 'steamed in a tea bowl'. Steamed egg dishes are thought to have reached Japan through Nagasaki's contact with Chinese cooking, and chawanmushi became part of formal kaiseki meals. Today it is a common side dish in Japanese homes, sushi bars and set meals.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "3 eggs",
+     "450 ml dashi, cooled",
+     "1/2 tsp salt",
+     "100 g chicken thigh, diced small",
+     "4 raw prawns, peeled",
+     "4 shiitake mushrooms, sliced",
+     "A few sprigs of mitsuba or parsley"
+    ],
+    "steps": [
+     "Beat the eggs gently without making foam, mix with the dashi and salt and strain through a fine sieve.",
+     "Divide the chicken, prawns and mushrooms between four heatproof cups.",
+     "Pour the egg mixture over and skim off any bubbles.",
+     "Cover the cups with foil or lids and steam over low heat for 12–15 minutes until just set.",
+     "Top with mitsuba or parsley and serve hot."
+    ]
+   },
+   "tips": [
+    "Chawanmushi is already a light dish — add extra mushrooms to make it more filling.",
+    "Use skinless chicken breast instead of thigh to cut the fat.",
+    "Serve it as a starter before a smaller main course."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chawanmushi",
-      "origin": "Japan",
-      "intro": "Chawanmushi is a Japanese savoury egg custard steamed in a lidded cup. Eggs are mixed with dashi stock and poured over small pieces of chicken, prawn and mushroom, then gently steamed until just set. The result is silky and wobbly, with a delicate savoury flavour, and it is eaten hot with a spoon as a starter.",
-      "history": "The name means 'steamed in a tea bowl'. Steamed egg dishes are thought to have reached Japan through Nagasaki's contact with Chinese cooking, and chawanmushi became part of formal kaiseki meals. Today it is a common side dish in Japanese homes, sushi bars and set meals.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "3 eggs",
-          "450 ml dashi, cooled",
-          "1/2 tsp salt",
-          "100 g chicken thigh, diced small",
-          "4 raw prawns, peeled",
-          "4 shiitake mushrooms, sliced",
-          "A few sprigs of mitsuba or parsley"
-        ],
-        "steps": [
-          "Beat the eggs gently without making foam, mix with the dashi and salt and strain through a fine sieve.",
-          "Divide the chicken, prawns and mushrooms between four heatproof cups.",
-          "Pour the egg mixture over and skim off any bubbles.",
-          "Cover the cups with foil or lids and steam over low heat for 12–15 minutes until just set.",
-          "Top with mitsuba or parsley and serve hot."
-        ]
-      },
-      "tips": [
-        "Chawanmushi is already a light dish — add extra mushrooms to make it more filling.",
-        "Use skinless chicken breast instead of thigh to cut the fat.",
-        "Serve it as a starter before a smaller main course."
-      ]
-    },
-    "ar": {
-      "name": "تشاوانموشي",
-      "origin": "اليابان",
-      "intro": "تشاوانموشي كاسترد بيض ياباني مالح يُطهى على البخار في كوب مغطى. يُخلط البيض بمرق الداشي ويُسكب فوق قطع صغيرة من الدجاج والجمبري والفطر، ثم يُطهى على بخار هادئ حتى يتماسك بالكاد. والنتيجة قوام حريري مرتعش بنكهة مالحة لطيفة، ويُؤكل ساخناً بالملعقة كمقبّلات.",
-      "history": "يعني الاسم «المطهو على البخار في وعاء الشاي». ويُعتقد أن أطباق البيض المطهوة على البخار وصلت إلى اليابان عبر صلات ناغاساكي بالمطبخ الصيني، ثم أصبح التشاوانموشي جزءاً من وجبات الكايسيكي الرسمية. وهو اليوم طبق جانبي شائع في البيوت اليابانية ومطاعم السوشي والوجبات المتكاملة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "3 بيضات",
-          "450 مل مرق داشي بارد",
-          "1/2 ملعقة صغيرة ملح",
-          "100 غ فخذ دجاج مقطع مكعبات صغيرة",
-          "4 حبات جمبري نيء مقشر",
-          "4 حبات فطر شيتاكي مقطعة شرائح",
-          "بضعة أعواد من الميتسوبا أو البقدونس"
-        ],
-        "steps": [
-          "اخفق البيض برفق دون تكوين رغوة، واخلطه مع الداشي والملح، ثم صفِّه بمصفاة ناعمة.",
-          "وزّع الدجاج والجمبري والفطر على أربعة أكواب مقاومة للحرارة.",
-          "اسكب خليط البيض فوقها وأزل أي فقاعات.",
-          "غطِّ الأكواب بورق الألمنيوم أو بأغطيتها، واطهها على بخار هادئ 12–15 دقيقة حتى تتماسك بالكاد.",
-          "زيّنها بالميتسوبا أو البقدونس وقدّمها ساخنة."
-        ]
-      },
-      "tips": [
-        "التشاوانموشي طبق خفيف أصلاً — أضف مزيداً من الفطر ليصبح أكثر إشباعاً.",
-        "استخدم صدر دجاج بلا جلد بدلاً من الفخذ لتقليل الدهون.",
-        "قدّمه كمقبّلات قبل طبق رئيسي أصغر."
-      ]
-    },
-    "it": {
-      "name": "Chawanmushi",
-      "origin": "Giappone",
-      "intro": "Il chawanmushi è un budino salato giapponese di uova cotto al vapore in una tazza con coperchio. Le uova si mescolano con il brodo dashi e si versano su piccoli pezzi di pollo, gamberi e funghi, poi si cuociono delicatamente al vapore finché si rapprendono appena. Il risultato è setoso e tremolante, con un sapore sapido e delicato, e si mangia caldo con il cucchiaio come antipasto.",
-      "name_inline": "chawanmushi",
-      "history": "Il nome significa «cotto al vapore in una tazza da tè». Si ritiene che i piatti di uova al vapore siano arrivati in Giappone attraverso i contatti di Nagasaki con la cucina cinese, e il chawanmushi è entrato a far parte dei pasti formali kaiseki. Oggi è un contorno comune nelle case giapponesi, nei sushi bar e nei menu fissi.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "3 uova",
-          "450 ml di dashi, raffreddato",
-          "1/2 cucchiaino di sale",
-          "100 g di sovracoscia di pollo a dadini piccoli",
-          "4 gamberi crudi sgusciati",
-          "4 funghi shiitake affettati",
-          "Qualche rametto di mitsuba o prezzemolo"
-        ],
-        "steps": [
-          "Sbatti delicatamente le uova senza fare schiuma, mescolale con il dashi e il sale e filtra con un colino fine.",
-          "Dividi il pollo, i gamberi e i funghi in quattro tazze resistenti al calore.",
-          "Versa sopra il composto di uova ed elimina le eventuali bollicine.",
-          "Copri le tazze con alluminio o con i coperchi e cuoci a vapore a fuoco basso per 12–15 minuti finché si rapprendono appena.",
-          "Completa con mitsuba o prezzemolo e servi caldo."
-        ]
-      },
-      "tips": [
-        "Il chawanmushi è già un piatto leggero: aggiungi altri funghi per renderlo più saziante.",
-        "Usa petto di pollo senza pelle invece della sovracoscia per ridurre i grassi.",
-        "Servilo come antipasto prima di un piatto principale più piccolo."
-      ]
-    },
-    "el": {
-      "name": "Τσαουανμούσι",
-      "origin": "Ιαπωνία",
-      "intro": "Το τσαουανμούσι είναι μια ιαπωνική αλμυρή κρέμα αυγών που μαγειρεύεται στον ατμό σε φλιτζάνι με καπάκι. Τα αυγά ανακατεύονται με ζωμό ντάσι και ρίχνονται πάνω σε μικρά κομμάτια κοτόπουλου, γαρίδας και μανιταριών, και μετά μαγειρεύονται απαλά στον ατμό μέχρι μόλις να πήξουν. Το αποτέλεσμα είναι μεταξένιο και τρεμάμενο, με λεπτή αλμυρή γεύση, και τρώγεται ζεστό με κουτάλι ως ορεκτικό.",
-      "history": "Το όνομα σημαίνει «στον ατμό σε μπολ τσαγιού». Πιστεύεται ότι τα πιάτα με αυγό στον ατμό έφτασαν στην Ιαπωνία μέσω των επαφών του Ναγκασάκι με την κινεζική κουζίνα, και το τσαουανμούσι έγινε μέρος των επίσημων γευμάτων καϊσέκι. Σήμερα είναι συνηθισμένο συνοδευτικό στα ιαπωνικά σπίτια, στα σούσι μπαρ και στα σετ μενού.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "3 αυγά",
-          "450 ml ντάσι, κρυωμένο",
-          "1/2 κ.γ. αλάτι",
-          "100 γρ. μπούτι κοτόπουλου, σε μικρά κυβάκια",
-          "4 ωμές γαρίδες, καθαρισμένες",
-          "4 μανιτάρια σιτάκε, σε φέτες",
-          "Μερικά κλωναράκια μιτσούμπα ή μαϊντανός"
-        ],
-        "steps": [
-          "Χτυπήστε απαλά τα αυγά χωρίς να αφρίσουν, ανακατέψτε τα με το ντάσι και το αλάτι και περάστε τα από ψιλό σουρωτήρι.",
-          "Μοιράστε το κοτόπουλο, τις γαρίδες και τα μανιτάρια σε τέσσερα πυρίμαχα φλιτζάνια.",
-          "Ρίξτε από πάνω το μείγμα αυγών και αφαιρέστε τις φυσαλίδες.",
-          "Σκεπάστε τα φλιτζάνια με αλουμινόχαρτο ή καπάκια και μαγειρέψτε στον ατμό σε χαμηλή φωτιά για 12–15 λεπτά μέχρι μόλις να πήξουν.",
-          "Πασπαλίστε με μιτσούμπα ή μαϊντανό και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Το τσαουανμούσι είναι ήδη ελαφρύ πιάτο — προσθέστε επιπλέον μανιτάρια για να γίνει πιο χορταστικό.",
-        "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα αντί για μπούτι για λιγότερο λίπος.",
-        "Σερβίρετέ το ως ορεκτικό πριν από ένα μικρότερο κυρίως πιάτο."
-      ]
-    },
-    "ru": {
-      "name": "Тяваммуси",
-      "origin": "Япония",
-      "intro": "Тяваммуси — японский солёный яичный заварной крем, приготовленный на пару в чашке с крышкой. Яйца смешивают с бульоном даси и заливают над небольшими кусочками курицы, креветок и грибов, затем аккуратно готовят на пару, пока масса не схватится. Получается шелковистое колышущееся блюдо с нежным солёным вкусом; его едят горячим ложкой как закуску.",
-      "history": "Название означает «приготовленное на пару в чайной чашке». Считается, что паровые блюда из яиц попали в Японию благодаря контактам Нагасаки с китайской кухней, а тяваммуси вошёл в официальные трапезы кайсэки. Сегодня это распространённая гарнирная закуска в японских домах, суши-барах и комплексных обедах.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "3 яйца",
-          "450 мл даси, остывшего",
-          "1/2 ч. л. соли",
-          "100 г куриного бедра, мелко нарезанного",
-          "4 сырые очищенные креветки",
-          "4 гриба сиитаке, нарезанных",
-          "Несколько веточек мицубы или петрушки"
-        ],
-        "steps": [
-          "Аккуратно взбейте яйца, не создавая пены, смешайте с даси и солью и процедите через мелкое сито.",
-          "Разложите курицу, креветки и грибы по четырём жаростойким чашкам.",
-          "Залейте яичной смесью и снимите пузырьки.",
-          "Накройте чашки фольгой или крышками и готовьте на пару на слабом огне 12–15 минут, пока масса едва не схватится.",
-          "Посыпьте мицубой или петрушкой и подавайте горячим."
-        ]
-      },
-      "tips": [
-        "Тяваммуси — уже лёгкое блюдо; добавьте больше грибов, чтобы оно стало сытнее.",
-        "Используйте куриную грудку без кожи вместо бедра, чтобы снизить жирность.",
-        "Подайте его как закуску перед меньшим основным блюдом."
-      ],
-      "name_inline": "тяваммуси"
-    }
+  "ar": {
+   "name": "تشاوانموشي",
+   "origin": "اليابان",
+   "intro": "تشاوانموشي كاسترد بيض ياباني مالح يُطهى على البخار في كوب مغطى. يُخلط البيض بمرق الداشي ويُسكب فوق قطع صغيرة من الدجاج والجمبري والفطر، ثم يُطهى على بخار هادئ حتى يتماسك بالكاد. والنتيجة قوام حريري مرتعش بنكهة مالحة لطيفة، ويُؤكل ساخناً بالملعقة كمقبّلات.",
+   "history": "يعني الاسم «المطهو على البخار في وعاء الشاي». ويُعتقد أن أطباق البيض المطهوة على البخار وصلت إلى اليابان عبر صلات ناغاساكي بالمطبخ الصيني، ثم أصبح التشاوانموشي جزءاً من وجبات الكايسيكي الرسمية. وهو اليوم طبق جانبي شائع في البيوت اليابانية ومطاعم السوشي والوجبات المتكاملة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "3 بيضات",
+     "450 مل مرق داشي بارد",
+     "1/2 ملعقة صغيرة ملح",
+     "100 غ فخذ دجاج مقطع مكعبات صغيرة",
+     "4 حبات جمبري نيء مقشر",
+     "4 حبات فطر شيتاكي مقطعة شرائح",
+     "بضعة أعواد من الميتسوبا أو البقدونس"
+    ],
+    "steps": [
+     "اخفق البيض برفق دون تكوين رغوة، واخلطه مع الداشي والملح، ثم صفِّه بمصفاة ناعمة.",
+     "وزّع الدجاج والجمبري والفطر على أربعة أكواب مقاومة للحرارة.",
+     "اسكب خليط البيض فوقها وأزل أي فقاعات.",
+     "غطِّ الأكواب بورق الألمنيوم أو بأغطيتها، واطهها على بخار هادئ 12–15 دقيقة حتى تتماسك بالكاد.",
+     "زيّنها بالميتسوبا أو البقدونس وقدّمها ساخنة."
+    ]
+   },
+   "tips": [
+    "التشاوانموشي طبق خفيف أصلاً — أضف مزيداً من الفطر ليصبح أكثر إشباعاً.",
+    "استخدم صدر دجاج بلا جلد بدلاً من الفخذ لتقليل الدهون.",
+    "قدّمه كمقبّلات قبل طبق رئيسي أصغر."
+   ]
+  },
+  "it": {
+   "name": "Chawanmushi",
+   "origin": "Giappone",
+   "intro": "Il chawanmushi è un budino salato giapponese di uova cotto al vapore in una tazza con coperchio. Le uova si mescolano con il brodo dashi e si versano su piccoli pezzi di pollo, gamberi e funghi, poi si cuociono delicatamente al vapore finché si rapprendono appena. Il risultato è setoso e tremolante, con un sapore sapido e delicato, e si mangia caldo con il cucchiaio come antipasto.",
+   "name_inline": "chawanmushi",
+   "history": "Il nome significa «cotto al vapore in una tazza da tè». Si ritiene che i piatti di uova al vapore siano arrivati in Giappone attraverso i contatti di Nagasaki con la cucina cinese, e il chawanmushi è entrato a far parte dei pasti formali kaiseki. Oggi è un contorno comune nelle case giapponesi, nei sushi bar e nei menu fissi.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "3 uova",
+     "450 ml di dashi, raffreddato",
+     "1/2 cucchiaino di sale",
+     "100 g di sovracoscia di pollo a dadini piccoli",
+     "4 gamberi crudi sgusciati",
+     "4 funghi shiitake affettati",
+     "Qualche rametto di mitsuba o prezzemolo"
+    ],
+    "steps": [
+     "Sbatti delicatamente le uova senza fare schiuma, mescolale con il dashi e il sale e filtra con un colino fine.",
+     "Dividi il pollo, i gamberi e i funghi in quattro tazze resistenti al calore.",
+     "Versa sopra il composto di uova ed elimina le eventuali bollicine.",
+     "Copri le tazze con alluminio o con i coperchi e cuoci a vapore a fuoco basso per 12–15 minuti finché si rapprendono appena.",
+     "Completa con mitsuba o prezzemolo e servi caldo."
+    ]
+   },
+   "tips": [
+    "Il chawanmushi è già un piatto leggero: aggiungi altri funghi per renderlo più saziante.",
+    "Usa petto di pollo senza pelle invece della sovracoscia per ridurre i grassi.",
+    "Servilo come antipasto prima di un piatto principale più piccolo."
+   ]
+  },
+  "el": {
+   "name": "Τσαουανμούσι",
+   "origin": "Ιαπωνία",
+   "intro": "Το τσαουανμούσι είναι μια ιαπωνική αλμυρή κρέμα αυγών που μαγειρεύεται στον ατμό σε φλιτζάνι με καπάκι. Τα αυγά ανακατεύονται με ζωμό ντάσι και ρίχνονται πάνω σε μικρά κομμάτια κοτόπουλου, γαρίδας και μανιταριών, και μετά μαγειρεύονται απαλά στον ατμό μέχρι μόλις να πήξουν. Το αποτέλεσμα είναι μεταξένιο και τρεμάμενο, με λεπτή αλμυρή γεύση, και τρώγεται ζεστό με κουτάλι ως ορεκτικό.",
+   "history": "Το όνομα σημαίνει «στον ατμό σε μπολ τσαγιού». Πιστεύεται ότι τα πιάτα με αυγό στον ατμό έφτασαν στην Ιαπωνία μέσω των επαφών του Ναγκασάκι με την κινεζική κουζίνα, και το τσαουανμούσι έγινε μέρος των επίσημων γευμάτων καϊσέκι. Σήμερα είναι συνηθισμένο συνοδευτικό στα ιαπωνικά σπίτια, στα σούσι μπαρ και στα σετ μενού.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "3 αυγά",
+     "450 ml ντάσι, κρυωμένο",
+     "1/2 κ.γ. αλάτι",
+     "100 γρ. μπούτι κοτόπουλου, σε μικρά κυβάκια",
+     "4 ωμές γαρίδες, καθαρισμένες",
+     "4 μανιτάρια σιτάκε, σε φέτες",
+     "Μερικά κλωναράκια μιτσούμπα ή μαϊντανός"
+    ],
+    "steps": [
+     "Χτυπήστε απαλά τα αυγά χωρίς να αφρίσουν, ανακατέψτε τα με το ντάσι και το αλάτι και περάστε τα από ψιλό σουρωτήρι.",
+     "Μοιράστε το κοτόπουλο, τις γαρίδες και τα μανιτάρια σε τέσσερα πυρίμαχα φλιτζάνια.",
+     "Ρίξτε από πάνω το μείγμα αυγών και αφαιρέστε τις φυσαλίδες.",
+     "Σκεπάστε τα φλιτζάνια με αλουμινόχαρτο ή καπάκια και μαγειρέψτε στον ατμό σε χαμηλή φωτιά για 12–15 λεπτά μέχρι μόλις να πήξουν.",
+     "Πασπαλίστε με μιτσούμπα ή μαϊντανό και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Το τσαουανμούσι είναι ήδη ελαφρύ πιάτο — προσθέστε επιπλέον μανιτάρια για να γίνει πιο χορταστικό.",
+    "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα αντί για μπούτι για λιγότερο λίπος.",
+    "Σερβίρετέ το ως ορεκτικό πριν από ένα μικρότερο κυρίως πιάτο."
+   ]
+  },
+  "ru": {
+   "name": "Тяваммуси",
+   "origin": "Япония",
+   "intro": "Тяваммуси — японский солёный яичный заварной крем, приготовленный на пару в чашке с крышкой. Яйца смешивают с бульоном даси и заливают над небольшими кусочками курицы, креветок и грибов, затем аккуратно готовят на пару, пока масса не схватится. Получается шелковистое колышущееся блюдо с нежным солёным вкусом; его едят горячим ложкой как закуску.",
+   "history": "Название означает «приготовленное на пару в чайной чашке». Считается, что паровые блюда из яиц попали в Японию благодаря контактам Нагасаки с китайской кухней, а тяваммуси вошёл в официальные трапезы кайсэки. Сегодня это распространённая гарнирная закуска в японских домах, суши-барах и комплексных обедах.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "3 яйца",
+     "450 мл даси, остывшего",
+     "1/2 ч. л. соли",
+     "100 г куриного бедра, мелко нарезанного",
+     "4 сырые очищенные креветки",
+     "4 гриба сиитаке, нарезанных",
+     "Несколько веточек мицубы или петрушки"
+    ],
+    "steps": [
+     "Аккуратно взбейте яйца, не создавая пены, смешайте с даси и солью и процедите через мелкое сито.",
+     "Разложите курицу, креветки и грибы по четырём жаростойким чашкам.",
+     "Залейте яичной смесью и снимите пузырьки.",
+     "Накройте чашки фольгой или крышками и готовьте на пару на слабом огне 12–15 минут, пока масса едва не схватится.",
+     "Посыпьте мицубой или петрушкой и подавайте горячим."
+    ]
+   },
+   "tips": [
+    "Тяваммуси — уже лёгкое блюдо; добавьте больше грибов, чтобы оно стало сытнее.",
+    "Используйте куриную грудку без кожи вместо бедра, чтобы снизить жирность.",
+    "Подайте его как закуску перед меньшим основным блюдом."
+   ],
+   "name_inline": "тяваммуси"
+  },
+  "es": {
+   "name": "Chawanmushi",
+   "origin": "Japón",
+   "intro": "El chawanmushi es un flan salado japonés de huevo, cocido al vapor en una taza con tapa. Los huevos se mezclan con caldo dashi y se vierten sobre trocitos de pollo, camarón y hongos, y se cocinan suavemente al vapor hasta que apenas cuajan. El resultado es sedoso y tembloroso, con un sabor salado delicado, y se come caliente con cuchara como entrada.",
+   "history": "El nombre significa «cocido al vapor en un tazón de té». Se cree que los platos de huevo al vapor llegaron a Japón a través del contacto de Nagasaki con la cocina china, y el chawanmushi pasó a formar parte de las comidas formales kaiseki. Hoy es una guarnición habitual en los hogares japoneses, los sushi bares y los menús del día.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "3 huevos",
+     "450 ml de dashi, frío",
+     "½ cdta. de sal",
+     "100 g de muslo de pollo, en cubitos pequeños",
+     "4 camarones crudos, pelados",
+     "4 hongos shiitake, en rebanadas",
+     "unas ramitas de mitsuba o perejil"
+    ],
+    "steps": [
+     "Bate los huevos con suavidad, sin hacer espuma, mézclalos con el dashi y la sal, y cuela por un colador fino.",
+     "Reparte el pollo, los camarones y los hongos en cuatro tazas resistentes al calor.",
+     "Vierte la mezcla de huevo y retira las burbujas.",
+     "Cubre las tazas con papel aluminio o con tapas y cocina al vapor a fuego bajo de 12 a 15 minutos, hasta que apenas cuajen.",
+     "Decora con mitsuba o perejil y sirve caliente."
+    ]
+   },
+   "tips": [
+    "El chawanmushi ya es un plato ligero; añade más hongos para que sea más saciante.",
+    "Usa pechuga de pollo sin piel en lugar de muslo para reducir la grasa.",
+    "Sírvelo como entrada antes de un plato principal más pequeño."
+   ],
+   "name_inline": "el chawanmushi"
   }
+ }
 }

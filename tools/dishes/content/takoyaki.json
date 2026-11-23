@@ -1,179 +1,213 @@
 {
-  "db_key": "takoyaki",
-  "slug": "takoyaki",
-  "emoji": "🐙",
-  "portion_g": 150,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "takoyaki",
+ "slug": "takoyaki",
+ "emoji": "🐙",
+ "portion_g": 150,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Takoyaki",
+   "origin": "Japan · Osaka",
+   "intro": "Takoyaki are round savoury balls of batter cooked in a special pan with half-spherical moulds, each holding a piece of octopus with chopped ginger and scallions. They are crisp outside and soft, almost molten inside. Hot from the pan, they are brushed with thick, sweet-savoury takoyaki sauce and topped with bonito flakes that seem to dance in the heat.",
+   "history": "Takoyaki are usually credited to Osaka street vendor Tomekichi Endo, who is said to have created them in the 1930s. They remain the signature street food of Osaka and are sold at stalls and festivals all over Japan.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g flour",
+     "700 ml water",
+     "2 eggs",
+     "200 g cooked octopus, cut into 1 cm pieces",
+     "3 scallions, finely sliced",
+     "20 g pickled ginger, chopped",
+     "4 tbsp takoyaki sauce",
+     "5 g bonito flakes",
+     "Oil for the pan, salt"
+    ],
+    "steps": [
+     "Whisk the flour, eggs, water and a pinch of salt into a smooth, thin batter.",
+     "Heat a takoyaki pan, oil each mould well and fill them to the brim with batter.",
+     "Drop a piece of octopus into each, then scatter scallions and ginger over the pan.",
+     "After 2–3 minutes, turn each ball a quarter with a skewer, tucking in the overflow; keep turning until round and golden.",
+     "Serve brushed with takoyaki sauce and topped with bonito flakes."
+    ]
+   },
+   "tips": [
+    "Brush the pan with oil instead of pouring it; 1 tbsp oil ≈ 120 kcal.",
+    "Go easy on the sauce: a thin brush gives plenty of flavour.",
+    "Share a plate: 6 balls make a snack, and a side of salad completes a meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Takoyaki",
-      "origin": "Japan · Osaka",
-      "intro": "Takoyaki are round savoury balls of batter cooked in a special pan with half-spherical moulds, each holding a piece of octopus with chopped ginger and scallions. They are crisp outside and soft, almost molten inside. Hot from the pan, they are brushed with thick, sweet-savoury takoyaki sauce and topped with bonito flakes that seem to dance in the heat.",
-      "history": "Takoyaki are usually credited to Osaka street vendor Tomekichi Endo, who is said to have created them in the 1930s. They remain the signature street food of Osaka and are sold at stalls and festivals all over Japan.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 g flour",
-          "700 ml water",
-          "2 eggs",
-          "200 g cooked octopus, cut into 1 cm pieces",
-          "3 scallions, finely sliced",
-          "20 g pickled ginger, chopped",
-          "4 tbsp takoyaki sauce",
-          "5 g bonito flakes",
-          "Oil for the pan, salt"
-        ],
-        "steps": [
-          "Whisk the flour, eggs, water and a pinch of salt into a smooth, thin batter.",
-          "Heat a takoyaki pan, oil each mould well and fill them to the brim with batter.",
-          "Drop a piece of octopus into each, then scatter scallions and ginger over the pan.",
-          "After 2–3 minutes, turn each ball a quarter with a skewer, tucking in the overflow; keep turning until round and golden.",
-          "Serve brushed with takoyaki sauce and topped with bonito flakes."
-        ]
-      },
-      "tips": [
-        "Brush the pan with oil instead of pouring it; 1 tbsp oil ≈ 120 kcal.",
-        "Go easy on the sauce: a thin brush gives plenty of flavour.",
-        "Share a plate: 6 balls make a snack, and a side of salad completes a meal."
-      ]
-    },
-    "ar": {
-      "name": "تاكوياكي",
-      "origin": "اليابان · أوساكا",
-      "intro": "التاكوياكي كرات مالحة مستديرة من العجين تُطهى في مقلاة خاصة بقوالب نصف كروية، وفي كل منها قطعة أخطبوط مع زنجبيل مفروم وبصل أخضر. تكون مقرمشة من الخارج وطرية شبه سائلة من الداخل. تُدهن وهي ساخنة بصلصة التاكوياكي الكثيفة الحلوة المالحة، وتُغطّى برقائق البونيتو التي تبدو وكأنها ترقص من الحرارة.",
-      "history": "يُنسب ابتكار التاكوياكي عادة إلى بائع الشارع في أوساكا توميكيتشي إندو، ويُقال إنه ابتكرها في ثلاثينيات القرن العشرين. وما زالت أشهر أكلات شارع أوساكا، وتُباع في الأكشاك والمهرجانات في أنحاء اليابان.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 غ دقيق",
-          "700 مل ماء",
-          "بيضتان",
-          "200 غ أخطبوط مطبوخ مقطع قطعًا بحجم 1 سم",
-          "3 أعواد بصل أخضر مقطعة رفيعًا",
-          "20 غ زنجبيل مخلل مفروم",
-          "4 ملاعق كبيرة صلصة تاكوياكي",
-          "5 غ رقائق بونيتو",
-          "زيت للمقلاة وملح"
-        ],
-        "steps": [
-          "اخفق الدقيق والبيض والماء ورشة ملح لتحصل على عجينة سائلة ناعمة خفيفة.",
-          "سخّن مقلاة التاكوياكي وادهن كل قالب جيدًا واملأه حتى الحافة.",
-          "ضع قطعة أخطبوط في كل قالب، وانثر البصل الأخضر والزنجبيل فوق المقلاة.",
-          "بعد 2–3 دقائق اقلب كل كرة ربع دورة بعود مع إدخال العجين الزائد، وواصل التقليب حتى تستدير وتصبح ذهبية.",
-          "قدّمها مدهونة بصلصة التاكوياكي ومغطاة برقائق البونيتو."
-        ]
-      },
-      "tips": [
-        "ادهن المقلاة بالفرشاة بدلًا من صب الزيت؛ ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "لا تكثر من الصلصة: طبقة رقيقة تعطي نكهة كافية.",
-        "شارك الطبق مع غيرك: 6 كرات تكفي وجبة خفيفة، ومع سلطة جانبية تكتمل الوجبة."
-      ]
-    },
-    "it": {
-      "name": "Takoyaki",
-      "origin": "Giappone · Osaka",
-      "intro": "I takoyaki sono palline salate di pastella cotte in una speciale piastra con stampi semisferici, ciascuna con un pezzo di polpo, zenzero tritato e cipollotto. Sono croccanti fuori e morbidi, quasi fusi, dentro. Appena tolti dalla piastra si spennellano con la densa salsa takoyaki agrodolce e si completano con scaglie di bonito che sembrano danzare per il calore.",
-      "history": "I takoyaki vengono di solito attribuiti all'ambulante di Osaka Tomekichi Endo, che li avrebbe creati negli anni '30. Restano il cibo di strada simbolo di Osaka e si vendono nelle bancarelle e alle feste in tutto il Giappone.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 g di farina",
-          "700 ml di acqua",
-          "2 uova",
-          "200 g di polpo cotto, a pezzi da 1 cm",
-          "3 cipollotti, affettati finemente",
-          "20 g di zenzero sottaceto, tritato",
-          "4 cucchiai di salsa takoyaki",
-          "5 g di scaglie di bonito",
-          "Olio per la piastra, sale"
-        ],
-        "steps": [
-          "Sbatti farina, uova, acqua e un pizzico di sale fino a ottenere una pastella liscia e liquida.",
-          "Scalda la piastra per takoyaki, ungi bene ogni stampo e riempili fino all'orlo di pastella.",
-          "Metti un pezzo di polpo in ciascuno, poi cospargi la piastra con cipollotto e zenzero.",
-          "Dopo 2–3 minuti gira ogni pallina di un quarto con uno stecchino, rimboccando la pastella in eccesso; continua a girare finché sono tonde e dorate.",
-          "Servi spennellati con salsa takoyaki e completati con scaglie di bonito."
-        ]
-      },
-      "tips": [
-        "Spennella la piastra con l'olio invece di versarlo; 1 cucchiaio di olio ≈ 120 kcal.",
-        "Vacci piano con la salsa: una spennellata sottile dà già molto sapore.",
-        "Dividi un piatto: 6 palline sono uno spuntino, e un contorno di insalata completa il pasto."
-      ]
-    },
-    "el": {
-      "name": "Τακογιάκι",
-      "origin": "Ιαπωνία · Οσάκα",
-      "intro": "Τα τακογιάκι είναι στρογγυλές αλμυρές μπαλίτσες από κουρκούτι, ψημένες σε ειδικό τηγάνι με ημισφαιρικές θήκες, που η καθεμία περιέχει ένα κομμάτι χταπόδι με ψιλοκομμένο τζίντζερ και φρέσκο κρεμμυδάκι. Είναι τραγανές απ' έξω και μαλακές, σχεδόν λιωμένες, μέσα. Ζεστές από το τηγάνι, αλείφονται με πηχτή, γλυκοαλμυρή σάλτσα τακογιάκι και πασπαλίζονται με νιφάδες μπονίτο που μοιάζουν να χορεύουν από τη ζέστη.",
-      "history": "Τα τακογιάκι αποδίδονται συνήθως στον πλανόδιο πωλητή της Οσάκα Tomekichi Endo, που λέγεται ότι τα δημιούργησε τη δεκαετία του 1930. Παραμένουν το εμβληματικό φαγητό του δρόμου της Οσάκα και πωλούνται σε πάγκους και γιορτές σε όλη την Ιαπωνία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 γρ. αλεύρι",
-          "700 ml νερό",
-          "2 αυγά",
-          "200 γρ. βρασμένο χταπόδι, σε κομμάτια 1 εκ.",
-          "3 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
-          "20 γρ. τζίντζερ τουρσί, ψιλοκομμένο",
-          "4 κ.σ. σάλτσα τακογιάκι",
-          "5 γρ. νιφάδες μπονίτο",
-          "Λάδι για το τηγάνι, αλάτι"
-        ],
-        "steps": [
-          "Χτυπήστε το αλεύρι, τα αυγά, το νερό και μια πρέζα αλάτι σε λείο, αραιό κουρκούτι.",
-          "Ζεστάνετε το τηγάνι για τακογιάκι, λαδώστε καλά κάθε θήκη και γεμίστε τες ως πάνω με κουρκούτι.",
-          "Ρίξτε ένα κομμάτι χταπόδι σε κάθε θήκη και μετά σκορπίστε κρεμμυδάκι και τζίντζερ σε όλο το τηγάνι.",
-          "Μετά από 2–3 λεπτά γυρίστε κάθε μπαλίτσα κατά ένα τέταρτο με ένα καλαμάκι, μαζεύοντας μέσα το κουρκούτι που περισσεύει· συνεχίστε να γυρίζετε μέχρι να στρογγυλέψουν και να ροδίσουν.",
-          "Σερβίρετε αλειμμένα με σάλτσα τακογιάκι και πασπαλισμένα με νιφάδες μπονίτο."
-        ]
-      },
-      "tips": [
-        "Αλείψτε το τηγάνι με λάδι αντί να το ρίχνετε· 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Μην το παρακάνετε με τη σάλτσα: ένα λεπτό πέρασμα δίνει άφθονη γεύση.",
-        "Μοιραστείτε ένα πιάτο: 6 μπαλίτσες είναι ένα σνακ, και μια σαλάτα στο πλάι ολοκληρώνει το γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Такояки",
-      "origin": "Япония · Осака",
-      "intro": "Такояки — круглые солёные шарики из теста, которые готовят в особой сковороде с полусферическими формами; в каждый кладут кусочек осьминога с нарезанным имбирём и зелёным луком. Снаружи они хрустящие, а внутри мягкие, почти жидкие. Горячие, прямо со сковороды, их смазывают густым сладко-солёным соусом такояки и посыпают стружкой бонито, которая будто танцует от жара.",
-      "history": "Создание такояки обычно приписывают осакскому уличному торговцу Томекити Эндо, который, как считается, придумал их в 1930-х годах. Это по-прежнему главная уличная еда Осаки, её продают в уличных лавках и на фестивалях по всей Японии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 г муки",
-          "700 мл воды",
-          "2 яйца",
-          "200 г варёного осьминога, нарезанного кусочками по 1 см",
-          "3 стебля зелёного лука, тонко нарезанных",
-          "20 г маринованного имбиря, нарубленного",
-          "4 ст. л. соуса такояки",
-          "5 г стружки бонито",
-          "Масло для сковороды, соль"
-        ],
-        "steps": [
-          "Взбейте муку, яйца, воду и щепотку соли в гладкое жидкое тесто.",
-          "Разогрейте сковороду для такояки, хорошо смажьте маслом каждую форму и заполните их тестом до краёв.",
-          "Положите в каждую форму по кусочку осьминога, затем посыпьте сковороду зелёным луком и имбирём.",
-          "Через 2–3 минуты поверните каждый шарик шпажкой на четверть оборота, подвернув вытекшее тесто; продолжайте переворачивать, пока шарики не станут круглыми и золотистыми.",
-          "Подавайте, смазав соусом такояки и посыпав стружкой бонито."
-        ]
-      },
-      "tips": [
-        "Смазывайте сковороду маслом кисточкой, а не наливайте его; 1 ст. л. масла ≈ 120 ккал.",
-        "Не переборщите с соусом: тонкого слоя кисточкой достаточно для вкуса.",
-        "Делитесь одной тарелкой: 6 шариков — это перекус, а салат на гарнир превратит их в полноценный обед."
-      ]
-    }
+  "ar": {
+   "name": "تاكوياكي",
+   "origin": "اليابان · أوساكا",
+   "intro": "التاكوياكي كرات مالحة مستديرة من العجين تُطهى في مقلاة خاصة بقوالب نصف كروية، وفي كل منها قطعة أخطبوط مع زنجبيل مفروم وبصل أخضر. تكون مقرمشة من الخارج وطرية شبه سائلة من الداخل. تُدهن وهي ساخنة بصلصة التاكوياكي الكثيفة الحلوة المالحة، وتُغطّى برقائق البونيتو التي تبدو وكأنها ترقص من الحرارة.",
+   "history": "يُنسب ابتكار التاكوياكي عادة إلى بائع الشارع في أوساكا توميكيتشي إندو، ويُقال إنه ابتكرها في ثلاثينيات القرن العشرين. وما زالت أشهر أكلات شارع أوساكا، وتُباع في الأكشاك والمهرجانات في أنحاء اليابان.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 غ دقيق",
+     "700 مل ماء",
+     "بيضتان",
+     "200 غ أخطبوط مطبوخ مقطع قطعًا بحجم 1 سم",
+     "3 أعواد بصل أخضر مقطعة رفيعًا",
+     "20 غ زنجبيل مخلل مفروم",
+     "4 ملاعق كبيرة صلصة تاكوياكي",
+     "5 غ رقائق بونيتو",
+     "زيت للمقلاة وملح"
+    ],
+    "steps": [
+     "اخفق الدقيق والبيض والماء ورشة ملح لتحصل على عجينة سائلة ناعمة خفيفة.",
+     "سخّن مقلاة التاكوياكي وادهن كل قالب جيدًا واملأه حتى الحافة.",
+     "ضع قطعة أخطبوط في كل قالب، وانثر البصل الأخضر والزنجبيل فوق المقلاة.",
+     "بعد 2–3 دقائق اقلب كل كرة ربع دورة بعود مع إدخال العجين الزائد، وواصل التقليب حتى تستدير وتصبح ذهبية.",
+     "قدّمها مدهونة بصلصة التاكوياكي ومغطاة برقائق البونيتو."
+    ]
+   },
+   "tips": [
+    "ادهن المقلاة بالفرشاة بدلًا من صب الزيت؛ ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "لا تكثر من الصلصة: طبقة رقيقة تعطي نكهة كافية.",
+    "شارك الطبق مع غيرك: 6 كرات تكفي وجبة خفيفة، ومع سلطة جانبية تكتمل الوجبة."
+   ]
+  },
+  "it": {
+   "name": "Takoyaki",
+   "origin": "Giappone · Osaka",
+   "intro": "I takoyaki sono palline salate di pastella cotte in una speciale piastra con stampi semisferici, ciascuna con un pezzo di polpo, zenzero tritato e cipollotto. Sono croccanti fuori e morbidi, quasi fusi, dentro. Appena tolti dalla piastra si spennellano con la densa salsa takoyaki agrodolce e si completano con scaglie di bonito che sembrano danzare per il calore.",
+   "history": "I takoyaki vengono di solito attribuiti all'ambulante di Osaka Tomekichi Endo, che li avrebbe creati negli anni '30. Restano il cibo di strada simbolo di Osaka e si vendono nelle bancarelle e alle feste in tutto il Giappone.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g di farina",
+     "700 ml di acqua",
+     "2 uova",
+     "200 g di polpo cotto, a pezzi da 1 cm",
+     "3 cipollotti, affettati finemente",
+     "20 g di zenzero sottaceto, tritato",
+     "4 cucchiai di salsa takoyaki",
+     "5 g di scaglie di bonito",
+     "Olio per la piastra, sale"
+    ],
+    "steps": [
+     "Sbatti farina, uova, acqua e un pizzico di sale fino a ottenere una pastella liscia e liquida.",
+     "Scalda la piastra per takoyaki, ungi bene ogni stampo e riempili fino all'orlo di pastella.",
+     "Metti un pezzo di polpo in ciascuno, poi cospargi la piastra con cipollotto e zenzero.",
+     "Dopo 2–3 minuti gira ogni pallina di un quarto con uno stecchino, rimboccando la pastella in eccesso; continua a girare finché sono tonde e dorate.",
+     "Servi spennellati con salsa takoyaki e completati con scaglie di bonito."
+    ]
+   },
+   "tips": [
+    "Spennella la piastra con l'olio invece di versarlo; 1 cucchiaio di olio ≈ 120 kcal.",
+    "Vacci piano con la salsa: una spennellata sottile dà già molto sapore.",
+    "Dividi un piatto: 6 palline sono uno spuntino, e un contorno di insalata completa il pasto."
+   ]
+  },
+  "el": {
+   "name": "Τακογιάκι",
+   "origin": "Ιαπωνία · Οσάκα",
+   "intro": "Τα τακογιάκι είναι στρογγυλές αλμυρές μπαλίτσες από κουρκούτι, ψημένες σε ειδικό τηγάνι με ημισφαιρικές θήκες, που η καθεμία περιέχει ένα κομμάτι χταπόδι με ψιλοκομμένο τζίντζερ και φρέσκο κρεμμυδάκι. Είναι τραγανές απ' έξω και μαλακές, σχεδόν λιωμένες, μέσα. Ζεστές από το τηγάνι, αλείφονται με πηχτή, γλυκοαλμυρή σάλτσα τακογιάκι και πασπαλίζονται με νιφάδες μπονίτο που μοιάζουν να χορεύουν από τη ζέστη.",
+   "history": "Τα τακογιάκι αποδίδονται συνήθως στον πλανόδιο πωλητή της Οσάκα Tomekichi Endo, που λέγεται ότι τα δημιούργησε τη δεκαετία του 1930. Παραμένουν το εμβληματικό φαγητό του δρόμου της Οσάκα και πωλούνται σε πάγκους και γιορτές σε όλη την Ιαπωνία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 γρ. αλεύρι",
+     "700 ml νερό",
+     "2 αυγά",
+     "200 γρ. βρασμένο χταπόδι, σε κομμάτια 1 εκ.",
+     "3 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
+     "20 γρ. τζίντζερ τουρσί, ψιλοκομμένο",
+     "4 κ.σ. σάλτσα τακογιάκι",
+     "5 γρ. νιφάδες μπονίτο",
+     "Λάδι για το τηγάνι, αλάτι"
+    ],
+    "steps": [
+     "Χτυπήστε το αλεύρι, τα αυγά, το νερό και μια πρέζα αλάτι σε λείο, αραιό κουρκούτι.",
+     "Ζεστάνετε το τηγάνι για τακογιάκι, λαδώστε καλά κάθε θήκη και γεμίστε τες ως πάνω με κουρκούτι.",
+     "Ρίξτε ένα κομμάτι χταπόδι σε κάθε θήκη και μετά σκορπίστε κρεμμυδάκι και τζίντζερ σε όλο το τηγάνι.",
+     "Μετά από 2–3 λεπτά γυρίστε κάθε μπαλίτσα κατά ένα τέταρτο με ένα καλαμάκι, μαζεύοντας μέσα το κουρκούτι που περισσεύει· συνεχίστε να γυρίζετε μέχρι να στρογγυλέψουν και να ροδίσουν.",
+     "Σερβίρετε αλειμμένα με σάλτσα τακογιάκι και πασπαλισμένα με νιφάδες μπονίτο."
+    ]
+   },
+   "tips": [
+    "Αλείψτε το τηγάνι με λάδι αντί να το ρίχνετε· 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Μην το παρακάνετε με τη σάλτσα: ένα λεπτό πέρασμα δίνει άφθονη γεύση.",
+    "Μοιραστείτε ένα πιάτο: 6 μπαλίτσες είναι ένα σνακ, και μια σαλάτα στο πλάι ολοκληρώνει το γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Такояки",
+   "origin": "Япония · Осака",
+   "intro": "Такояки — круглые солёные шарики из теста, которые готовят в особой сковороде с полусферическими формами; в каждый кладут кусочек осьминога с нарезанным имбирём и зелёным луком. Снаружи они хрустящие, а внутри мягкие, почти жидкие. Горячие, прямо со сковороды, их смазывают густым сладко-солёным соусом такояки и посыпают стружкой бонито, которая будто танцует от жара.",
+   "history": "Создание такояки обычно приписывают осакскому уличному торговцу Томекити Эндо, который, как считается, придумал их в 1930-х годах. Это по-прежнему главная уличная еда Осаки, её продают в уличных лавках и на фестивалях по всей Японии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 г муки",
+     "700 мл воды",
+     "2 яйца",
+     "200 г варёного осьминога, нарезанного кусочками по 1 см",
+     "3 стебля зелёного лука, тонко нарезанных",
+     "20 г маринованного имбиря, нарубленного",
+     "4 ст. л. соуса такояки",
+     "5 г стружки бонито",
+     "Масло для сковороды, соль"
+    ],
+    "steps": [
+     "Взбейте муку, яйца, воду и щепотку соли в гладкое жидкое тесто.",
+     "Разогрейте сковороду для такояки, хорошо смажьте маслом каждую форму и заполните их тестом до краёв.",
+     "Положите в каждую форму по кусочку осьминога, затем посыпьте сковороду зелёным луком и имбирём.",
+     "Через 2–3 минуты поверните каждый шарик шпажкой на четверть оборота, подвернув вытекшее тесто; продолжайте переворачивать, пока шарики не станут круглыми и золотистыми.",
+     "Подавайте, смазав соусом такояки и посыпав стружкой бонито."
+    ]
+   },
+   "tips": [
+    "Смазывайте сковороду маслом кисточкой, а не наливайте его; 1 ст. л. масла ≈ 120 ккал.",
+    "Не переборщите с соусом: тонкого слоя кисточкой достаточно для вкуса.",
+    "Делитесь одной тарелкой: 6 шариков — это перекус, а салат на гарнир превратит их в полноценный обед."
+   ]
+  },
+  "es": {
+   "name": "Takoyaki",
+   "origin": "Japón · Osaka",
+   "intro": "Los takoyaki son bolitas saladas redondas de masa cocidas en una plancha especial con moldes semiesféricos, cada una con un trozo de pulpo, jengibre picado y cebollín. Son crujientes por fuera y suaves, casi fundentes, por dentro. Recién salidas de la plancha, se barnizan con la espesa salsa takoyaki, agridulce y sabrosa, y se cubren con hojuelas de bonito que parecen bailar con el calor.",
+   "history": "Los takoyaki suelen atribuirse a Tomekichi Endo, vendedor callejero de Osaka, que se dice que los creó en la década de 1930. Siguen siendo la comida callejera emblemática de Osaka y se venden en puestos y festivales de todo Japón.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g de harina",
+     "700 ml de agua",
+     "2 huevos",
+     "200 g de pulpo cocido, en trozos de 1 cm",
+     "3 cebollines, en rodajas finas",
+     "20 g de jengibre encurtido, picado",
+     "4 cda. de salsa takoyaki",
+     "5 g de hojuelas de bonito",
+     "Aceite para el molde, sal"
+    ],
+    "steps": [
+     "Bate la harina, los huevos, el agua y una pizca de sal hasta obtener una masa lisa y fluida.",
+     "Calienta el molde de takoyaki, engrasa bien cada cavidad y llénalas hasta el borde con masa.",
+     "Pon un trozo de pulpo en cada una y esparce por encima los cebollines y el jengibre.",
+     "A los 2–3 minutos, gira cada bolita un cuarto con un palillo, metiendo el exceso de masa; sigue girando hasta que queden redondas y doradas.",
+     "Sirve barnizadas con la salsa takoyaki y cubiertas de hojuelas de bonito."
+    ]
+   },
+   "tips": [
+    "Unta el molde con aceite en vez de verterlo; 1 cda. de aceite ≈ 120 kcal.",
+    "Ve con calma con la salsa: una capa fina da mucho sabor.",
+    "Comparte un plato: 6 bolitas son una botana, y con una guarnición de ensalada se completa una comida."
+   ],
+   "name_inline": "los takoyaki"
   }
+ }
 }

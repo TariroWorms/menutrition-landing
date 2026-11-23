@@ -1,170 +1,202 @@
 {
-  "db_key": "choucroute",
-  "slug": "choucroute",
-  "emoji": "🥬",
-  "portion_g": 450,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "choucroute",
+ "slug": "choucroute",
+ "emoji": "🥬",
+ "portion_g": 450,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Choucroute",
+   "origin": "France · Alsace",
+   "intro": "Choucroute garnie is the signature dish of Alsace: sauerkraut braised slowly with juniper berries and topped with an assortment of pork cuts and sausages, plus boiled potatoes. The cabbage turns soft and gently tangy, absorbing the smoky, salty flavour of the meat. It is served piled on a large platter, with mustard on the side.",
+   "history": "Fermenting cabbage to keep it through winter has long been practised in Alsace and neighbouring German lands, and the version garnished with several meats became the region's best-known festive dish. It remains a brasserie classic across France.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.5 kg raw sauerkraut, rinsed and squeezed",
+     "800 g smoked pork shoulder or belly",
+     "6 smoked sausages (such as Strasbourg or Montbéliard)",
+     "800 g waxy potatoes, peeled",
+     "2 onions, sliced",
+     "10 juniper berries, 2 bay leaves, 5 peppercorns",
+     "2 tbsp vegetable oil, 500 ml water or stock"
+    ],
+    "steps": [
+     "Soften the onions in the oil in a large casserole.",
+     "Add half the sauerkraut, the pork, juniper, bay and peppercorns, then the rest of the sauerkraut. Pour in the water.",
+     "Cover and braise on low heat for 1 hour 30 minutes, adding water if it gets dry.",
+     "Add the sausages and potatoes on top and cook for 30 minutes more.",
+     "Serve the sauerkraut on a platter with the sliced meats, sausages and potatoes on top."
+    ]
+   },
+   "tips": [
+    "Choose one sausage and a slice of lean smoked pork instead of the full selection of meats.",
+    "Make sauerkraut at least half the plate — it is the lightest part of the dish.",
+    "Trim visible fat from the pork before serving."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Choucroute",
-      "origin": "France · Alsace",
-      "intro": "Choucroute garnie is the signature dish of Alsace: sauerkraut braised slowly with juniper berries and topped with an assortment of pork cuts and sausages, plus boiled potatoes. The cabbage turns soft and gently tangy, absorbing the smoky, salty flavour of the meat. It is served piled on a large platter, with mustard on the side.",
-      "history": "Fermenting cabbage to keep it through winter has long been practised in Alsace and neighbouring German lands, and the version garnished with several meats became the region's best-known festive dish. It remains a brasserie classic across France.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.5 kg raw sauerkraut, rinsed and squeezed",
-          "800 g smoked pork shoulder or belly",
-          "6 smoked sausages (such as Strasbourg or Montbéliard)",
-          "800 g waxy potatoes, peeled",
-          "2 onions, sliced",
-          "10 juniper berries, 2 bay leaves, 5 peppercorns",
-          "2 tbsp vegetable oil, 500 ml water or stock"
-        ],
-        "steps": [
-          "Soften the onions in the oil in a large casserole.",
-          "Add half the sauerkraut, the pork, juniper, bay and peppercorns, then the rest of the sauerkraut. Pour in the water.",
-          "Cover and braise on low heat for 1 hour 30 minutes, adding water if it gets dry.",
-          "Add the sausages and potatoes on top and cook for 30 minutes more.",
-          "Serve the sauerkraut on a platter with the sliced meats, sausages and potatoes on top."
-        ]
-      },
-      "tips": [
-        "Choose one sausage and a slice of lean smoked pork instead of the full selection of meats.",
-        "Make sauerkraut at least half the plate — it is the lightest part of the dish.",
-        "Trim visible fat from the pork before serving."
-      ]
-    },
-    "ar": {
-      "name": "شوكروت",
-      "origin": "فرنسا · الألزاس",
-      "intro": "الشوكروت المزيّن طبق الألزاس الأشهر: ملفوف مخلل يُطهى ببطء مع توت العرعر، ويُعلى بتشكيلة من قطع لحم الخنزير والنقانق مع البطاطا المسلوقة. يصبح الملفوف طريًا وحامضًا بلطف، ويمتص نكهة اللحم المدخّن والمالح. يُقدَّم مكدّسًا في طبق كبير مع الخردل جانبًا. يحتوي على لحم الخنزير.",
-      "history": "تخليل الملفوف لحفظه خلال الشتاء عادة قديمة في الألزاس والأراضي الألمانية المجاورة، وأصبحت النسخة المزيّنة بعدة أنواع من اللحوم أشهر أطباق المنطقة في المناسبات. ولا يزال من كلاسيكيات مطاعم البراسري في أنحاء فرنسا.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.5 كغ ملفوف مخلل نيء، مغسول ومعصور",
-          "800 غ كتف أو بطن خنزير مدخّن",
-          "6 نقانق مدخنة (مثل ستراسبورغ أو مونبيليار)",
-          "800 غ بطاطا مقشرة",
-          "2 بصلة مقطعة شرائح",
-          "10 حبات عرعر، 2 ورقة غار، 5 حبات فلفل أسود",
-          "2 ملعقة كبيرة زيت نباتي، 500 مل ماء أو مرق"
-        ],
-        "steps": [
-          "ليّن البصل في الزيت في قدر كبير.",
-          "أضف نصف الملفوف واللحم والعرعر والغار والفلفل، ثم بقية الملفوف، واسكب الماء.",
-          "غطِّ القدر واطبخه على نار هادئة ساعة ونصفًا، مع إضافة الماء إذا جفّ.",
-          "ضع النقانق والبطاطا في الأعلى واطبخ 30 دقيقة أخرى.",
-          "قدّم الملفوف في طبق كبير وفوقه شرائح اللحم والنقانق والبطاطا."
-        ]
-      },
-      "tips": [
-        "اختر نقانق واحدة وشريحة من اللحم المدخن قليل الدهن بدل التشكيلة الكاملة.",
-        "اجعل الملفوف نصف الطبق على الأقل، فهو الجزء الأخف.",
-        "أزل الدهون الظاهرة من اللحم قبل التقديم."
-      ]
-    },
-    "it": {
-      "name": "Choucroute",
-      "origin": "Francia · Alsazia",
-      "intro": "La choucroute garnie è il piatto simbolo dell'Alsazia: crauti brasati lentamente con bacche di ginepro e ricoperti da un assortimento di tagli di maiale e salsicce, più patate lesse. Il cavolo diventa morbido e delicatamente acidulo, assorbendo il sapore affumicato e salato della carne. Si serve ammucchiata su un grande vassoio, con senape a parte.",
-      "history": "Far fermentare il cavolo per conservarlo durante l'inverno è una pratica antica in Alsazia e nelle vicine terre tedesche, e la versione guarnita con diverse carni divenne il piatto di festa più noto della regione. Resta un classico delle brasserie in tutta la Francia.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 kg di crauti crudi, sciacquati e strizzati",
-          "800 g di spalla o pancetta di maiale affumicata",
-          "6 salsicce affumicate (come Strasburgo o Montbéliard)",
-          "800 g di patate a pasta soda, sbucciate",
-          "2 cipolle affettate",
-          "10 bacche di ginepro, 2 foglie di alloro, 5 grani di pepe",
-          "2 cucchiai di olio vegetale, 500 ml di acqua o brodo"
-        ],
-        "steps": [
-          "Fai appassire le cipolle nell'olio in una grande casseruola.",
-          "Aggiungi metà dei crauti, il maiale, il ginepro, l'alloro e il pepe, poi il resto dei crauti. Versa l'acqua.",
-          "Copri e brasa a fuoco basso per 1 ora e 30 minuti, aggiungendo acqua se si asciuga.",
-          "Disponi sopra le salsicce e le patate e cuoci per altri 30 minuti.",
-          "Servi i crauti su un vassoio con sopra le carni affettate, le salsicce e le patate."
-        ]
-      },
-      "tips": [
-        "Scegli una salsiccia e una fetta di maiale affumicato magro invece dell'intero assortimento di carni.",
-        "Fai dei crauti almeno metà del piatto: sono la parte più leggera.",
-        "Elimina il grasso visibile dal maiale prima di servire."
-      ]
-    },
-    "el": {
-      "name": "Σουκρούτ",
-      "origin": "Γαλλία · Αλσατία",
-      "intro": "Το σουκρούτ γκαρνί (choucroute garnie) είναι το εμβληματικό πιάτο της Αλσατίας: ξινολάχανο μαγειρεμένο αργά με κούμαρα αρκεύθου και σκεπασμένο με ποικιλία χοιρινών κομματιών και λουκάνικων, μαζί με βραστές πατάτες. Το λάχανο μαλακώνει και γίνεται απαλά ξινό, απορροφώντας την καπνιστή, αλμυρή γεύση του κρέατος. Σερβίρεται στοιβαγμένο σε μεγάλη πιατέλα, με μουστάρδα στο πλάι.",
-      "history": "Η ζύμωση του λάχανου για να διατηρηθεί τον χειμώνα είναι παλιά πρακτική στην Αλσατία και στα γειτονικά γερμανικά εδάφη, και η εκδοχή με διάφορα κρέατα έγινε το πιο γνωστό γιορτινό πιάτο της περιοχής. Παραμένει κλασικό των μπρασερί σε όλη τη Γαλλία.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 κιλό ωμό ξινολάχανο, ξεπλυμένο και στυμμένο",
-          "800 γρ. καπνιστή χοιρινή σπάλα ή πανσέτα",
-          "6 καπνιστά λουκάνικα (όπως Στρασβούργου ή Montbéliard)",
-          "800 γρ. σφιχτές πατάτες, ξεφλουδισμένες",
-          "2 κρεμμύδια σε φέτες",
-          "10 κούμαρα αρκεύθου, 2 φύλλα δάφνης, 5 κόκκοι πιπεριού",
-          "2 κ.σ. φυτικό λάδι, 500 ml νερό ή ζωμός"
-        ],
-        "steps": [
-          "Μαράνετε τα κρεμμύδια στο λάδι σε μεγάλη κατσαρόλα.",
-          "Προσθέστε το μισό ξινολάχανο, το χοιρινό, τα κούμαρα αρκεύθου, τη δάφνη και τους κόκκους πιπεριού, και μετά το υπόλοιπο ξινολάχανο. Ρίξτε το νερό.",
-          "Σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά για 1 ώρα και 30 λεπτά, προσθέτοντας νερό αν στεγνώσει.",
-          "Βάλτε από πάνω τα λουκάνικα και τις πατάτες και μαγειρέψτε άλλα 30 λεπτά.",
-          "Σερβίρετε το ξινολάχανο σε πιατέλα με τα κομμένα κρέατα, τα λουκάνικα και τις πατάτες από πάνω."
-        ]
-      },
-      "tips": [
-        "Επιλέξτε ένα λουκάνικο και μια φέτα άπαχο καπνιστό χοιρινό αντί για όλη την ποικιλία κρεάτων.",
-        "Κάντε το ξινολάχανο τουλάχιστον το μισό πιάτο — είναι το πιο ελαφρύ μέρος του φαγητού.",
-        "Αφαιρέστε το ορατό λίπος από το χοιρινό πριν σερβίρετε."
-      ]
-    },
-    "ru": {
-      "name": "Шукрут",
-      "origin": "Франция · Эльзас",
-      "intro": "Шукрут гарни — визитная карточка Эльзаса: квашеная капуста, медленно тушёная с ягодами можжевельника и увенчанная ассорти из свиных частей и колбас, а также отварным картофелем. Капуста становится мягкой и слегка кисловатой, впитывая копчёный солёный вкус мяса. Подаётся горкой на большом блюде с горчицей отдельно.",
-      "history": "Квашение капусты для хранения зимой издавна практикуют в Эльзасе и соседних немецких землях, а вариант, украшенный несколькими видами мяса, стал самым известным праздничным блюдом региона. Он остаётся классикой брассери по всей Франции.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 кг сырой квашеной капусты, промытой и отжатой",
-          "800 г копчёной свиной лопатки или грудинки",
-          "6 копчёных колбасок (например, страсбургских или монбельярских)",
-          "800 г картофеля плотных сортов, очищенного",
-          "2 луковицы, нарезанных",
-          "10 ягод можжевельника, 2 лавровых листа, 5 горошин перца",
-          "2 ст. л. растительного масла, 500 мл воды или бульона"
-        ],
-        "steps": [
-          "Пассеруйте лук в масле в большой жаровне.",
-          "Добавьте половину квашеной капусты, свинину, можжевельник, лавр и горошины перца, затем остальную капусту. Влейте воду.",
-          "Накройте и тушите на слабом огне 1 час 30 минут, добавляя воду, если станет сухо.",
-          "Положите сверху колбаски и картофель и готовьте ещё 30 минут.",
-          "Подавайте капусту на блюде с нарезанным мясом, колбасками и картофелем сверху."
-        ]
-      },
-      "tips": [
-        "Выберите одну колбаску и ломтик постной копчёной свинины вместо полного набора мяса.",
-        "Пусть квашеная капуста занимает не менее половины тарелки — это самая лёгкая часть блюда.",
-        "Срежьте видимый жир со свинины перед подачей."
-      ],
-      "name_inline": "шукрут"
-    }
+  "ar": {
+   "name": "شوكروت",
+   "origin": "فرنسا · الألزاس",
+   "intro": "الشوكروت المزيّن طبق الألزاس الأشهر: ملفوف مخلل يُطهى ببطء مع توت العرعر، ويُعلى بتشكيلة من قطع لحم الخنزير والنقانق مع البطاطا المسلوقة. يصبح الملفوف طريًا وحامضًا بلطف، ويمتص نكهة اللحم المدخّن والمالح. يُقدَّم مكدّسًا في طبق كبير مع الخردل جانبًا. يحتوي على لحم الخنزير.",
+   "history": "تخليل الملفوف لحفظه خلال الشتاء عادة قديمة في الألزاس والأراضي الألمانية المجاورة، وأصبحت النسخة المزيّنة بعدة أنواع من اللحوم أشهر أطباق المنطقة في المناسبات. ولا يزال من كلاسيكيات مطاعم البراسري في أنحاء فرنسا.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.5 كغ ملفوف مخلل نيء، مغسول ومعصور",
+     "800 غ كتف أو بطن خنزير مدخّن",
+     "6 نقانق مدخنة (مثل ستراسبورغ أو مونبيليار)",
+     "800 غ بطاطا مقشرة",
+     "2 بصلة مقطعة شرائح",
+     "10 حبات عرعر، 2 ورقة غار، 5 حبات فلفل أسود",
+     "2 ملعقة كبيرة زيت نباتي، 500 مل ماء أو مرق"
+    ],
+    "steps": [
+     "ليّن البصل في الزيت في قدر كبير.",
+     "أضف نصف الملفوف واللحم والعرعر والغار والفلفل، ثم بقية الملفوف، واسكب الماء.",
+     "غطِّ القدر واطبخه على نار هادئة ساعة ونصفًا، مع إضافة الماء إذا جفّ.",
+     "ضع النقانق والبطاطا في الأعلى واطبخ 30 دقيقة أخرى.",
+     "قدّم الملفوف في طبق كبير وفوقه شرائح اللحم والنقانق والبطاطا."
+    ]
+   },
+   "tips": [
+    "اختر نقانق واحدة وشريحة من اللحم المدخن قليل الدهن بدل التشكيلة الكاملة.",
+    "اجعل الملفوف نصف الطبق على الأقل، فهو الجزء الأخف.",
+    "أزل الدهون الظاهرة من اللحم قبل التقديم."
+   ]
+  },
+  "it": {
+   "name": "Choucroute",
+   "origin": "Francia · Alsazia",
+   "intro": "La choucroute garnie è il piatto simbolo dell'Alsazia: crauti brasati lentamente con bacche di ginepro e ricoperti da un assortimento di tagli di maiale e salsicce, più patate lesse. Il cavolo diventa morbido e delicatamente acidulo, assorbendo il sapore affumicato e salato della carne. Si serve ammucchiata su un grande vassoio, con senape a parte.",
+   "history": "Far fermentare il cavolo per conservarlo durante l'inverno è una pratica antica in Alsazia e nelle vicine terre tedesche, e la versione guarnita con diverse carni divenne il piatto di festa più noto della regione. Resta un classico delle brasserie in tutta la Francia.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 kg di crauti crudi, sciacquati e strizzati",
+     "800 g di spalla o pancetta di maiale affumicata",
+     "6 salsicce affumicate (come Strasburgo o Montbéliard)",
+     "800 g di patate a pasta soda, sbucciate",
+     "2 cipolle affettate",
+     "10 bacche di ginepro, 2 foglie di alloro, 5 grani di pepe",
+     "2 cucchiai di olio vegetale, 500 ml di acqua o brodo"
+    ],
+    "steps": [
+     "Fai appassire le cipolle nell'olio in una grande casseruola.",
+     "Aggiungi metà dei crauti, il maiale, il ginepro, l'alloro e il pepe, poi il resto dei crauti. Versa l'acqua.",
+     "Copri e brasa a fuoco basso per 1 ora e 30 minuti, aggiungendo acqua se si asciuga.",
+     "Disponi sopra le salsicce e le patate e cuoci per altri 30 minuti.",
+     "Servi i crauti su un vassoio con sopra le carni affettate, le salsicce e le patate."
+    ]
+   },
+   "tips": [
+    "Scegli una salsiccia e una fetta di maiale affumicato magro invece dell'intero assortimento di carni.",
+    "Fai dei crauti almeno metà del piatto: sono la parte più leggera.",
+    "Elimina il grasso visibile dal maiale prima di servire."
+   ]
+  },
+  "el": {
+   "name": "Σουκρούτ",
+   "origin": "Γαλλία · Αλσατία",
+   "intro": "Το σουκρούτ γκαρνί (choucroute garnie) είναι το εμβληματικό πιάτο της Αλσατίας: ξινολάχανο μαγειρεμένο αργά με κούμαρα αρκεύθου και σκεπασμένο με ποικιλία χοιρινών κομματιών και λουκάνικων, μαζί με βραστές πατάτες. Το λάχανο μαλακώνει και γίνεται απαλά ξινό, απορροφώντας την καπνιστή, αλμυρή γεύση του κρέατος. Σερβίρεται στοιβαγμένο σε μεγάλη πιατέλα, με μουστάρδα στο πλάι.",
+   "history": "Η ζύμωση του λάχανου για να διατηρηθεί τον χειμώνα είναι παλιά πρακτική στην Αλσατία και στα γειτονικά γερμανικά εδάφη, και η εκδοχή με διάφορα κρέατα έγινε το πιο γνωστό γιορτινό πιάτο της περιοχής. Παραμένει κλασικό των μπρασερί σε όλη τη Γαλλία.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 κιλό ωμό ξινολάχανο, ξεπλυμένο και στυμμένο",
+     "800 γρ. καπνιστή χοιρινή σπάλα ή πανσέτα",
+     "6 καπνιστά λουκάνικα (όπως Στρασβούργου ή Montbéliard)",
+     "800 γρ. σφιχτές πατάτες, ξεφλουδισμένες",
+     "2 κρεμμύδια σε φέτες",
+     "10 κούμαρα αρκεύθου, 2 φύλλα δάφνης, 5 κόκκοι πιπεριού",
+     "2 κ.σ. φυτικό λάδι, 500 ml νερό ή ζωμός"
+    ],
+    "steps": [
+     "Μαράνετε τα κρεμμύδια στο λάδι σε μεγάλη κατσαρόλα.",
+     "Προσθέστε το μισό ξινολάχανο, το χοιρινό, τα κούμαρα αρκεύθου, τη δάφνη και τους κόκκους πιπεριού, και μετά το υπόλοιπο ξινολάχανο. Ρίξτε το νερό.",
+     "Σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά για 1 ώρα και 30 λεπτά, προσθέτοντας νερό αν στεγνώσει.",
+     "Βάλτε από πάνω τα λουκάνικα και τις πατάτες και μαγειρέψτε άλλα 30 λεπτά.",
+     "Σερβίρετε το ξινολάχανο σε πιατέλα με τα κομμένα κρέατα, τα λουκάνικα και τις πατάτες από πάνω."
+    ]
+   },
+   "tips": [
+    "Επιλέξτε ένα λουκάνικο και μια φέτα άπαχο καπνιστό χοιρινό αντί για όλη την ποικιλία κρεάτων.",
+    "Κάντε το ξινολάχανο τουλάχιστον το μισό πιάτο — είναι το πιο ελαφρύ μέρος του φαγητού.",
+    "Αφαιρέστε το ορατό λίπος από το χοιρινό πριν σερβίρετε."
+   ]
+  },
+  "ru": {
+   "name": "Шукрут",
+   "origin": "Франция · Эльзас",
+   "intro": "Шукрут гарни — визитная карточка Эльзаса: квашеная капуста, медленно тушёная с ягодами можжевельника и увенчанная ассорти из свиных частей и колбас, а также отварным картофелем. Капуста становится мягкой и слегка кисловатой, впитывая копчёный солёный вкус мяса. Подаётся горкой на большом блюде с горчицей отдельно.",
+   "history": "Квашение капусты для хранения зимой издавна практикуют в Эльзасе и соседних немецких землях, а вариант, украшенный несколькими видами мяса, стал самым известным праздничным блюдом региона. Он остаётся классикой брассери по всей Франции.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 кг сырой квашеной капусты, промытой и отжатой",
+     "800 г копчёной свиной лопатки или грудинки",
+     "6 копчёных колбасок (например, страсбургских или монбельярских)",
+     "800 г картофеля плотных сортов, очищенного",
+     "2 луковицы, нарезанных",
+     "10 ягод можжевельника, 2 лавровых листа, 5 горошин перца",
+     "2 ст. л. растительного масла, 500 мл воды или бульона"
+    ],
+    "steps": [
+     "Пассеруйте лук в масле в большой жаровне.",
+     "Добавьте половину квашеной капусты, свинину, можжевельник, лавр и горошины перца, затем остальную капусту. Влейте воду.",
+     "Накройте и тушите на слабом огне 1 час 30 минут, добавляя воду, если станет сухо.",
+     "Положите сверху колбаски и картофель и готовьте ещё 30 минут.",
+     "Подавайте капусту на блюде с нарезанным мясом, колбасками и картофелем сверху."
+    ]
+   },
+   "tips": [
+    "Выберите одну колбаску и ломтик постной копчёной свинины вместо полного набора мяса.",
+    "Пусть квашеная капуста занимает не менее половины тарелки — это самая лёгкая часть блюда.",
+    "Срежьте видимый жир со свинины перед подачей."
+   ],
+   "name_inline": "шукрут"
+  },
+  "es": {
+   "name": "Choucroute",
+   "origin": "Francia · Alsacia",
+   "intro": "La choucroute garnie es el plato emblemático de Alsacia: chucrut cocido lentamente con bayas de enebro y cubierto con un surtido de cortes de cerdo y salchichas, además de papas hervidas. La col queda suave y ligeramente ácida, y absorbe el sabor ahumado y salado de la carne. Se sirve en montaña sobre una fuente grande, con mostaza aparte.",
+   "history": "Fermentar la col para conservarla durante el invierno se practica desde hace mucho en Alsacia y las tierras alemanas vecinas, y la versión guarnecida con varias carnes se convirtió en el plato festivo más conocido de la región. Sigue siendo un clásico de las brasseries de toda Francia.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 kg de chucrut crudo, enjuagado y escurrido",
+     "800 g de paleta o panceta de cerdo ahumada",
+     "6 salchichas ahumadas (como las de Estrasburgo o Montbéliard)",
+     "800 g de papas de pulpa firme, peladas",
+     "2 cebollas, en rodajas",
+     "10 bayas de enebro, 2 hojas de laurel, 5 granos de pimienta",
+     "2 cdas. de aceite vegetal, 500 ml de agua o caldo"
+    ],
+    "steps": [
+     "Ablanda las cebollas en el aceite en una cazuela grande.",
+     "Añade la mitad del chucrut, el cerdo, el enebro, el laurel y la pimienta, y cubre con el resto del chucrut. Vierte el agua.",
+     "Tapa y cuece a fuego bajo 1 hora 30 minutos, agregando agua si se seca.",
+     "Coloca encima las salchichas y las papas y cuece 30 minutos más.",
+     "Sirve el chucrut en una fuente con las carnes en rebanadas, las salchichas y las papas encima."
+    ]
+   },
+   "tips": [
+    "Elige una salchicha y una rebanada de cerdo ahumado magro en lugar del surtido completo de carnes.",
+    "Haz que el chucrut ocupe al menos la mitad del plato: es la parte más ligera.",
+    "Retira la grasa visible del cerdo antes de servir."
+   ],
+   "name_inline": "la choucroute"
   }
+ }
 }
