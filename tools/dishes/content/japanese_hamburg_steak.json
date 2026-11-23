@@ -1,170 +1,202 @@
 {
-  "db_key": "japanese_hamburg_steak",
-  "slug": "japanese-hamburg-steak",
-  "emoji": "🍖",
-  "portion_g": 250,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "japanese_hamburg_steak",
+ "slug": "japanese-hamburg-steak",
+ "emoji": "🍖",
+ "portion_g": 250,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Japanese hamburg steak (hambagu)",
+   "origin": "Japan · nationwide",
+   "intro": "Hambagu is a Japanese hamburg steak: a thick, oval patty of minced beef and pork bound with soft-fried onion, breadcrumbs and egg, pan-fried until browned and juicy inside. It is finished in a rich, glossy demi-glace sauce and served on a plate with rice and vegetables rather than in a bun. It is a classic of yoshoku, Japan's Western-style home and diner cooking.",
+   "history": "Minced-meat steaks reached Japan from Europe and America in the late nineteenth and early twentieth centuries. After the Second World War hambagu became a family favourite and a staple of yoshoku restaurants and lunch plates.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "250 g minced beef and 150 g minced pork",
+     "1 onion, finely chopped",
+     "30 g breadcrumbs",
+     "1 egg",
+     "Salt, pepper and a pinch of nutmeg",
+     "1 tbsp oil",
+     "200 ml ready-made demi-glace sauce"
+    ],
+    "steps": [
+     "Fry the onion in half the oil until soft, then let it cool.",
+     "Mix the meat, onion, breadcrumbs, egg and seasoning and knead until sticky. Shape 4 thick ovals and press a dimple into the centre of each.",
+     "Fry the patties in the remaining oil over medium heat for 3–4 minutes per side until browned.",
+     "Pour in the demi-glace, cover and simmer for 6–8 minutes until the patties are cooked through.",
+     "Serve with the sauce spooned over, alongside rice and steamed vegetables."
+    ]
+   },
+   "tips": [
+    "Use lean minced beef and less pork to reduce the fat in each patty.",
+    "Make smaller patties and pile the plate with salad or steamed vegetables.",
+    "Spoon on just enough sauce to coat the patty; the rest can stay in the pan."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Japanese hamburg steak (hambagu)",
-      "origin": "Japan · nationwide",
-      "intro": "Hambagu is a Japanese hamburg steak: a thick, oval patty of minced beef and pork bound with soft-fried onion, breadcrumbs and egg, pan-fried until browned and juicy inside. It is finished in a rich, glossy demi-glace sauce and served on a plate with rice and vegetables rather than in a bun. It is a classic of yoshoku, Japan's Western-style home and diner cooking.",
-      "history": "Minced-meat steaks reached Japan from Europe and America in the late nineteenth and early twentieth centuries. After the Second World War hambagu became a family favourite and a staple of yoshoku restaurants and lunch plates.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "250 g minced beef and 150 g minced pork",
-          "1 onion, finely chopped",
-          "30 g breadcrumbs",
-          "1 egg",
-          "Salt, pepper and a pinch of nutmeg",
-          "1 tbsp oil",
-          "200 ml ready-made demi-glace sauce"
-        ],
-        "steps": [
-          "Fry the onion in half the oil until soft, then let it cool.",
-          "Mix the meat, onion, breadcrumbs, egg and seasoning and knead until sticky. Shape 4 thick ovals and press a dimple into the centre of each.",
-          "Fry the patties in the remaining oil over medium heat for 3–4 minutes per side until browned.",
-          "Pour in the demi-glace, cover and simmer for 6–8 minutes until the patties are cooked through.",
-          "Serve with the sauce spooned over, alongside rice and steamed vegetables."
-        ]
-      },
-      "tips": [
-        "Use lean minced beef and less pork to reduce the fat in each patty.",
-        "Make smaller patties and pile the plate with salad or steamed vegetables.",
-        "Spoon on just enough sauce to coat the patty; the rest can stay in the pan."
-      ]
-    },
-    "ar": {
-      "name": "هامبورغ ستيك ياباني (هامباغو)",
-      "origin": "اليابان · في أنحاء البلاد",
-      "intro": "الهامباغو شريحة هامبورغ يابانية: قرص بيضاوي سميك من لحم البقر والخنزير المفروم، يُربط بالبصل المقلي الطري وفتات الخبز والبيض، ويُقلى في المقلاة حتى يتحمّر ويبقى عصيرياً من الداخل. يُنهى في صلصة ديمي غلاس غنية لامعة، ويُقدَّم في طبق مع الأرز والخضار لا داخل خبزة. وهو من كلاسيكيات «يوشوكو»، أي المطبخ الياباني على الطريقة الغربية.",
-      "history": "وصلت أقراص اللحم المفروم إلى اليابان من أوروبا وأمريكا في أواخر القرن التاسع عشر وأوائل القرن العشرين. وبعد الحرب العالمية الثانية أصبح الهامباغو طبقاً عائلياً محبوباً وأساسياً في مطاعم اليوشوكو ووجبات الغداء.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "250 غ لحم بقر مفروم و150 غ لحم خنزير مفروم",
-          "بصلة مفرومة ناعماً",
-          "30 غ فتات خبز",
-          "بيضة واحدة",
-          "ملح وفلفل ورشة جوزة الطيب",
-          "1 ملعقة كبيرة زيت",
-          "200 مل صلصة ديمي غلاس جاهزة"
-        ],
-        "steps": [
-          "اقلِ البصل في نصف الزيت حتى يلين ثم اتركه يبرد.",
-          "اخلط اللحم والبصل وفتات الخبز والبيض والتوابل واعجنها حتى تلتصق. شكّل 4 أقراص بيضاوية سميكة واضغط وسط كل منها قليلاً.",
-          "اقلِ الأقراص في باقي الزيت على نار متوسطة 3–4 دقائق لكل جانب حتى تتحمّر.",
-          "اسكب الديمي غلاس وغطِّ واطهها 6–8 دقائق حتى تنضج تماماً.",
-          "قدّمها مع الصلصة فوقها بجانب الأرز والخضار المطهوة على البخار."
-        ]
-      },
-      "tips": [
-        "استخدم لحم بقر مفروماً قليل الدهن وقلّل لحم الخنزير لتخفيف الدهون في كل قرص.",
-        "شكّل أقراصاً أصغر واملأ الطبق بالسلطة أو الخضار المطهوة على البخار.",
-        "ضع من الصلصة ما يكفي لتغطية القرص فقط واترك الباقي في المقلاة."
-      ]
-    },
-    "it": {
-      "name": "Hamburg steak giapponese (hambagu)",
-      "origin": "Giappone · tutto il paese",
-      "intro": "L'hambagu è l'hamburg steak giapponese: uno spesso medaglione ovale di macinato di manzo e maiale legato con cipolla appassita, pangrattato e uovo, cotto in padella finché è dorato fuori e succoso dentro. Si completa con una ricca e lucida salsa demi-glace e si serve nel piatto con riso e verdure, non nel panino. È un classico dello yoshoku, la cucina giapponese di stile occidentale di casa e delle trattorie.",
-      "history": "Le bistecche di carne macinata arrivarono in Giappone dall'Europa e dall'America tra la fine dell'Ottocento e l'inizio del Novecento. Dopo la Seconda guerra mondiale l'hambagu divenne un piatto amato dalle famiglie e un punto fermo dei ristoranti yoshoku e dei piatti unici da pranzo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "250 g di macinato di manzo e 150 g di macinato di maiale",
-          "1 cipolla tritata finemente",
-          "30 g di pangrattato",
-          "1 uovo",
-          "Sale, pepe e un pizzico di noce moscata",
-          "1 cucchiaio di olio",
-          "200 ml di salsa demi-glace pronta"
-        ],
-        "steps": [
-          "Fai appassire la cipolla in metà dell'olio finché è morbida, poi lasciala raffreddare.",
-          "Mescola carne, cipolla, pangrattato, uovo e condimenti e impasta finché il composto è colloso. Forma 4 ovali spessi e premi una fossetta al centro di ciascuno.",
-          "Cuoci i medaglioni nell'olio rimasto a fuoco medio per 3–4 minuti per lato finché sono dorati.",
-          "Versa la demi-glace, copri e lascia sobbollire per 6–8 minuti finché i medaglioni sono cotti all'interno.",
-          "Servi con la salsa versata sopra, accompagnando con riso e verdure al vapore."
-        ]
-      },
-      "tips": [
-        "Usa macinato di manzo magro e meno maiale per ridurre i grassi di ogni medaglione.",
-        "Prepara medaglioni più piccoli e riempi il piatto di insalata o verdure al vapore.",
-        "Versa solo la salsa necessaria a velare il medaglione; il resto può rimanere in padella."
-      ]
-    },
-    "el": {
-      "name": "Ιαπωνικό χάμπουργκ στέικ (χαμπάγκου)",
-      "origin": "Ιαπωνία · σε όλη τη χώρα",
-      "intro": "Το χαμπάγκου είναι το ιαπωνικό χάμπουργκ στέικ: ένα παχύ, οβάλ μπιφτέκι από μοσχαρίσιο και χοιρινό κιμά, δεμένο με τσιγαρισμένο κρεμμύδι, φρυγανιά και αυγό, ψημένο στο τηγάνι μέχρι να ροδίσει και να μείνει ζουμερό μέσα. Ολοκληρώνεται με πλούσια, γυαλιστερή σάλτσα ντεμι-γκλας και σερβίρεται στο πιάτο με ρύζι και λαχανικά, όχι σε ψωμάκι. Είναι κλασικό πιάτο του γιοσόκου, της ιαπωνικής σπιτικής και μαγαζιάτικης κουζίνας δυτικού τύπου.",
-      "history": "Τα μπιφτέκια από κιμά έφτασαν στην Ιαπωνία από την Ευρώπη και την Αμερική στα τέλη του δέκατου ένατου και στις αρχές του εικοστού αιώνα. Μετά τον Δεύτερο Παγκόσμιο Πόλεμο το χαμπάγκου έγινε οικογενειακό αγαπημένο και βασικό πιάτο των εστιατορίων γιοσόκου και των μεσημεριανών πιάτων.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "250 γρ. μοσχαρίσιος κιμάς και 150 γρ. χοιρινός κιμάς",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "30 γρ. τριμμένη φρυγανιά",
-          "1 αυγό",
-          "Αλάτι, πιπέρι και μια πρέζα μοσχοκάρυδο",
-          "1 κ.σ. λάδι",
-          "200 ml έτοιμη σάλτσα ντεμι-γκλας"
-        ],
-        "steps": [
-          "Τσιγαρίστε το κρεμμύδι στο μισό λάδι μέχρι να μαλακώσει και αφήστε το να κρυώσει.",
-          "Ανακατέψτε τον κιμά, το κρεμμύδι, τη φρυγανιά, το αυγό και τα καρυκεύματα και ζυμώστε μέχρι το μείγμα να κολλάει. Πλάστε 4 παχιά οβάλ μπιφτέκια και πιέστε ένα βαθούλωμα στο κέντρο του καθενός.",
-          "Τηγανίστε τα μπιφτέκια στο υπόλοιπο λάδι σε μέτρια φωτιά για 3–4 λεπτά από κάθε πλευρά μέχρι να ροδίσουν.",
-          "Ρίξτε τη σάλτσα ντεμι-γκλας, σκεπάστε και σιγοβράστε για 6–8 λεπτά μέχρι να ψηθούν καλά τα μπιφτέκια.",
-          "Σερβίρετε με τη σάλτσα από πάνω, μαζί με ρύζι και λαχανικά στον ατμό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και λιγότερο χοιρινό για να μειώσετε το λίπος σε κάθε μπιφτέκι.",
-        "Φτιάξτε μικρότερα μπιφτέκια και γεμίστε το πιάτο με σαλάτα ή λαχανικά στον ατμό.",
-        "Ρίξτε μόνο όση σάλτσα χρειάζεται για να καλυφθεί το μπιφτέκι· η υπόλοιπη μπορεί να μείνει στο τηγάνι."
-      ]
-    },
-    "ru": {
-      "name": "Японский гамбургский стейк (хамбагу)",
-      "origin": "Япония · по всей стране",
-      "intro": "Хамбагу — японский гамбургский стейк: толстая овальная котлета из говяжьего и свиного фарша, скреплённая мягко обжаренным луком, панировочными сухарями и яйцом, обжаренная на сковороде до румяной корочки и сочная внутри. Её заканчивают в насыщенном глянцевом соусе деми-гляс и подают на тарелке с рисом и овощами, а не в булке. Это классика ёсёку — японской кухни в западном стиле, домашней и столовой.",
-      "history": "Мясные стейки из рубленого мяса пришли в Японию из Европы и Америки в конце XIX — начале XX века. После Второй мировой войны хамбагу стал любимым семейным блюдом и основой ресторанов ёсёку и обеденных тарелок.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "250 г говяжьего фарша и 150 г свиного фарша",
-          "1 луковица, мелко нарезанная",
-          "30 г панировочных сухарей",
-          "1 яйцо",
-          "Соль, перец и щепотка мускатного ореха",
-          "1 ст. л. масла",
-          "200 мл готового соуса деми-гляс"
-        ],
-        "steps": [
-          "Обжарьте лук в половине масла до мягкости и дайте остыть.",
-          "Смешайте мясо, лук, сухари, яйцо и приправы и вымесите до липкости. Сформируйте 4 толстых овала и сделайте в центре каждого ямку.",
-          "Обжаривайте котлеты в оставшемся масле на среднем огне по 3–4 минуты с каждой стороны до румяности.",
-          "Влейте деми-гляс, накройте крышкой и тушите 6–8 минут, пока котлеты не прожарятся.",
-          "Подавайте, полив соусом, с рисом и овощами на пару."
-        ]
-      },
-      "tips": [
-        "Берите нежирный говяжий фарш и меньше свинины, чтобы в каждой котлете было меньше жира.",
-        "Делайте котлеты поменьше, а тарелку наполните салатом или овощами на пару.",
-        "Кладите ровно столько соуса, чтобы покрыть котлету; остальное оставьте на сковороде."
-      ],
-      "name_inline": "японский гамбургский стейк"
-    }
+  "ar": {
+   "name": "هامبورغ ستيك ياباني (هامباغو)",
+   "origin": "اليابان · في أنحاء البلاد",
+   "intro": "الهامباغو شريحة هامبورغ يابانية: قرص بيضاوي سميك من لحم البقر والخنزير المفروم، يُربط بالبصل المقلي الطري وفتات الخبز والبيض، ويُقلى في المقلاة حتى يتحمّر ويبقى عصيرياً من الداخل. يُنهى في صلصة ديمي غلاس غنية لامعة، ويُقدَّم في طبق مع الأرز والخضار لا داخل خبزة. وهو من كلاسيكيات «يوشوكو»، أي المطبخ الياباني على الطريقة الغربية.",
+   "history": "وصلت أقراص اللحم المفروم إلى اليابان من أوروبا وأمريكا في أواخر القرن التاسع عشر وأوائل القرن العشرين. وبعد الحرب العالمية الثانية أصبح الهامباغو طبقاً عائلياً محبوباً وأساسياً في مطاعم اليوشوكو ووجبات الغداء.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "250 غ لحم بقر مفروم و150 غ لحم خنزير مفروم",
+     "بصلة مفرومة ناعماً",
+     "30 غ فتات خبز",
+     "بيضة واحدة",
+     "ملح وفلفل ورشة جوزة الطيب",
+     "1 ملعقة كبيرة زيت",
+     "200 مل صلصة ديمي غلاس جاهزة"
+    ],
+    "steps": [
+     "اقلِ البصل في نصف الزيت حتى يلين ثم اتركه يبرد.",
+     "اخلط اللحم والبصل وفتات الخبز والبيض والتوابل واعجنها حتى تلتصق. شكّل 4 أقراص بيضاوية سميكة واضغط وسط كل منها قليلاً.",
+     "اقلِ الأقراص في باقي الزيت على نار متوسطة 3–4 دقائق لكل جانب حتى تتحمّر.",
+     "اسكب الديمي غلاس وغطِّ واطهها 6–8 دقائق حتى تنضج تماماً.",
+     "قدّمها مع الصلصة فوقها بجانب الأرز والخضار المطهوة على البخار."
+    ]
+   },
+   "tips": [
+    "استخدم لحم بقر مفروماً قليل الدهن وقلّل لحم الخنزير لتخفيف الدهون في كل قرص.",
+    "شكّل أقراصاً أصغر واملأ الطبق بالسلطة أو الخضار المطهوة على البخار.",
+    "ضع من الصلصة ما يكفي لتغطية القرص فقط واترك الباقي في المقلاة."
+   ]
+  },
+  "it": {
+   "name": "Hamburg steak giapponese (hambagu)",
+   "origin": "Giappone · tutto il paese",
+   "intro": "L'hambagu è l'hamburg steak giapponese: uno spesso medaglione ovale di macinato di manzo e maiale legato con cipolla appassita, pangrattato e uovo, cotto in padella finché è dorato fuori e succoso dentro. Si completa con una ricca e lucida salsa demi-glace e si serve nel piatto con riso e verdure, non nel panino. È un classico dello yoshoku, la cucina giapponese di stile occidentale di casa e delle trattorie.",
+   "history": "Le bistecche di carne macinata arrivarono in Giappone dall'Europa e dall'America tra la fine dell'Ottocento e l'inizio del Novecento. Dopo la Seconda guerra mondiale l'hambagu divenne un piatto amato dalle famiglie e un punto fermo dei ristoranti yoshoku e dei piatti unici da pranzo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "250 g di macinato di manzo e 150 g di macinato di maiale",
+     "1 cipolla tritata finemente",
+     "30 g di pangrattato",
+     "1 uovo",
+     "Sale, pepe e un pizzico di noce moscata",
+     "1 cucchiaio di olio",
+     "200 ml di salsa demi-glace pronta"
+    ],
+    "steps": [
+     "Fai appassire la cipolla in metà dell'olio finché è morbida, poi lasciala raffreddare.",
+     "Mescola carne, cipolla, pangrattato, uovo e condimenti e impasta finché il composto è colloso. Forma 4 ovali spessi e premi una fossetta al centro di ciascuno.",
+     "Cuoci i medaglioni nell'olio rimasto a fuoco medio per 3–4 minuti per lato finché sono dorati.",
+     "Versa la demi-glace, copri e lascia sobbollire per 6–8 minuti finché i medaglioni sono cotti all'interno.",
+     "Servi con la salsa versata sopra, accompagnando con riso e verdure al vapore."
+    ]
+   },
+   "tips": [
+    "Usa macinato di manzo magro e meno maiale per ridurre i grassi di ogni medaglione.",
+    "Prepara medaglioni più piccoli e riempi il piatto di insalata o verdure al vapore.",
+    "Versa solo la salsa necessaria a velare il medaglione; il resto può rimanere in padella."
+   ]
+  },
+  "el": {
+   "name": "Ιαπωνικό χάμπουργκ στέικ (χαμπάγκου)",
+   "origin": "Ιαπωνία · σε όλη τη χώρα",
+   "intro": "Το χαμπάγκου είναι το ιαπωνικό χάμπουργκ στέικ: ένα παχύ, οβάλ μπιφτέκι από μοσχαρίσιο και χοιρινό κιμά, δεμένο με τσιγαρισμένο κρεμμύδι, φρυγανιά και αυγό, ψημένο στο τηγάνι μέχρι να ροδίσει και να μείνει ζουμερό μέσα. Ολοκληρώνεται με πλούσια, γυαλιστερή σάλτσα ντεμι-γκλας και σερβίρεται στο πιάτο με ρύζι και λαχανικά, όχι σε ψωμάκι. Είναι κλασικό πιάτο του γιοσόκου, της ιαπωνικής σπιτικής και μαγαζιάτικης κουζίνας δυτικού τύπου.",
+   "history": "Τα μπιφτέκια από κιμά έφτασαν στην Ιαπωνία από την Ευρώπη και την Αμερική στα τέλη του δέκατου ένατου και στις αρχές του εικοστού αιώνα. Μετά τον Δεύτερο Παγκόσμιο Πόλεμο το χαμπάγκου έγινε οικογενειακό αγαπημένο και βασικό πιάτο των εστιατορίων γιοσόκου και των μεσημεριανών πιάτων.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "250 γρ. μοσχαρίσιος κιμάς και 150 γρ. χοιρινός κιμάς",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "30 γρ. τριμμένη φρυγανιά",
+     "1 αυγό",
+     "Αλάτι, πιπέρι και μια πρέζα μοσχοκάρυδο",
+     "1 κ.σ. λάδι",
+     "200 ml έτοιμη σάλτσα ντεμι-γκλας"
+    ],
+    "steps": [
+     "Τσιγαρίστε το κρεμμύδι στο μισό λάδι μέχρι να μαλακώσει και αφήστε το να κρυώσει.",
+     "Ανακατέψτε τον κιμά, το κρεμμύδι, τη φρυγανιά, το αυγό και τα καρυκεύματα και ζυμώστε μέχρι το μείγμα να κολλάει. Πλάστε 4 παχιά οβάλ μπιφτέκια και πιέστε ένα βαθούλωμα στο κέντρο του καθενός.",
+     "Τηγανίστε τα μπιφτέκια στο υπόλοιπο λάδι σε μέτρια φωτιά για 3–4 λεπτά από κάθε πλευρά μέχρι να ροδίσουν.",
+     "Ρίξτε τη σάλτσα ντεμι-γκλας, σκεπάστε και σιγοβράστε για 6–8 λεπτά μέχρι να ψηθούν καλά τα μπιφτέκια.",
+     "Σερβίρετε με τη σάλτσα από πάνω, μαζί με ρύζι και λαχανικά στον ατμό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και λιγότερο χοιρινό για να μειώσετε το λίπος σε κάθε μπιφτέκι.",
+    "Φτιάξτε μικρότερα μπιφτέκια και γεμίστε το πιάτο με σαλάτα ή λαχανικά στον ατμό.",
+    "Ρίξτε μόνο όση σάλτσα χρειάζεται για να καλυφθεί το μπιφτέκι· η υπόλοιπη μπορεί να μείνει στο τηγάνι."
+   ]
+  },
+  "ru": {
+   "name": "Японский гамбургский стейк (хамбагу)",
+   "origin": "Япония · по всей стране",
+   "intro": "Хамбагу — японский гамбургский стейк: толстая овальная котлета из говяжьего и свиного фарша, скреплённая мягко обжаренным луком, панировочными сухарями и яйцом, обжаренная на сковороде до румяной корочки и сочная внутри. Её заканчивают в насыщенном глянцевом соусе деми-гляс и подают на тарелке с рисом и овощами, а не в булке. Это классика ёсёку — японской кухни в западном стиле, домашней и столовой.",
+   "history": "Мясные стейки из рубленого мяса пришли в Японию из Европы и Америки в конце XIX — начале XX века. После Второй мировой войны хамбагу стал любимым семейным блюдом и основой ресторанов ёсёку и обеденных тарелок.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "250 г говяжьего фарша и 150 г свиного фарша",
+     "1 луковица, мелко нарезанная",
+     "30 г панировочных сухарей",
+     "1 яйцо",
+     "Соль, перец и щепотка мускатного ореха",
+     "1 ст. л. масла",
+     "200 мл готового соуса деми-гляс"
+    ],
+    "steps": [
+     "Обжарьте лук в половине масла до мягкости и дайте остыть.",
+     "Смешайте мясо, лук, сухари, яйцо и приправы и вымесите до липкости. Сформируйте 4 толстых овала и сделайте в центре каждого ямку.",
+     "Обжаривайте котлеты в оставшемся масле на среднем огне по 3–4 минуты с каждой стороны до румяности.",
+     "Влейте деми-гляс, накройте крышкой и тушите 6–8 минут, пока котлеты не прожарятся.",
+     "Подавайте, полив соусом, с рисом и овощами на пару."
+    ]
+   },
+   "tips": [
+    "Берите нежирный говяжий фарш и меньше свинины, чтобы в каждой котлете было меньше жира.",
+    "Делайте котлеты поменьше, а тарелку наполните салатом или овощами на пару.",
+    "Кладите ровно столько соуса, чтобы покрыть котлету; остальное оставьте на сковороде."
+   ],
+   "name_inline": "японский гамбургский стейк"
+  },
+  "es": {
+   "name": "Hamburg steak japonés (hambagu)",
+   "origin": "Japón · todo el país",
+   "intro": "El hambagu es el bistec de carne molida a la japonesa: una tortita gruesa y ovalada de carne de res y cerdo molidas, ligada con cebolla sofrita, pan molido y huevo, dorada en sartén hasta quedar jugosa por dentro. Se termina con una salsa demi-glace rica y brillante y se sirve en plato con arroz y verduras, no en un pan. Es un clásico del yoshoku, la cocina japonesa de estilo occidental, casera y de fonda.",
+   "history": "Los bistecs de carne molida llegaron a Japón desde Europa y Estados Unidos a finales del siglo XIX y principios del XX. Después de la Segunda Guerra Mundial, el hambagu se volvió un favorito familiar y un básico de los restaurantes de yoshoku y de los platos del almuerzo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "250 g de carne molida de res y 150 g de carne molida de cerdo",
+     "1 cebolla, picada finamente",
+     "30 g de pan molido",
+     "1 huevo",
+     "Sal, pimienta y una pizca de nuez moscada",
+     "1 cda. de aceite",
+     "200 ml de salsa demi-glace preparada"
+    ],
+    "steps": [
+     "Fríe la cebolla en la mitad del aceite hasta que esté suave y deja enfriar.",
+     "Mezcla la carne, la cebolla, el pan molido, el huevo y los condimentos y amasa hasta que quede pegajosa. Forma 4 óvalos gruesos y presiona un hueco en el centro de cada uno.",
+     "Fríe las tortitas en el aceite restante a fuego medio de 3 a 4 minutos por lado hasta que se doren.",
+     "Vierte la salsa demi-glace, tapa y cocina a fuego suave de 6 a 8 minutos hasta que las tortitas estén bien cocidas.",
+     "Sirve con la salsa por encima, acompañado de arroz y verduras al vapor."
+    ]
+   },
+   "tips": [
+    "Usa carne de res magra y menos cerdo para reducir la grasa de cada tortita.",
+    "Haz tortitas más pequeñas y llena el plato de ensalada o verduras al vapor.",
+    "Pon solo la salsa necesaria para cubrir la tortita; el resto puede quedarse en la sartén."
+   ],
+   "name_inline": "el hambagu"
   }
+ }
 }

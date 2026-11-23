@@ -1,175 +1,208 @@
 {
-  "db_key": "frakeh_soup",
-  "slug": "frakeh-soup",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "frakeh_soup",
+ "slug": "frakeh-soup",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Freekeh Soup",
+   "origin": "Levant · Middle East",
+   "intro": "Freekeh soup, shorbat freekeh, is a hearty broth of cracked freekeh — young green wheat that is roasted while still unripe — simmered in chicken broth with onion, cumin and shredded chicken. The grain stays slightly chewy and gives the soup its distinctive smoky flavour. It is served hot with a squeeze of lemon and is a familiar dish during Ramadan in Palestine, Jordan, Syria and Egypt.",
+   "history": "Freekeh is made by harvesting durum wheat while green and burning off the straw and chaff, a method long practised in the Levant and Egypt. Freekeh soup is eaten today across the region, and is especially popular as an iftar starter during Ramadan.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "150 g cracked freekeh, rinsed",
+     "1.5 l chicken broth",
+     "300 g chicken breast or thighs, skinless",
+     "1 onion, finely chopped",
+     "1 tbsp olive oil",
+     "1 tsp ground cumin",
+     "Salt and black pepper",
+     "1 lemon, cut into wedges"
+    ],
+    "steps": [
+     "Simmer the chicken in the broth for 20 minutes, then lift it out and shred it.",
+     "Meanwhile soften the onion in the olive oil for 5 minutes.",
+     "Add the freekeh and cumin to the onion and stir for 1 minute.",
+     "Pour in the hot broth and simmer for 20–25 minutes until the freekeh is tender.",
+     "Return the shredded chicken, season and serve with lemon wedges."
+    ]
+   },
+   "tips": [
+    "Skim the fat from the broth after simmering the chicken to keep the soup lighter.",
+    "Use skinless chicken breast instead of thighs for more protein per calorie.",
+    "A big bowl of this soup before the main course makes a filling start to the meal for relatively few calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Freekeh Soup",
-      "origin": "Levant · Middle East",
-      "intro": "Freekeh soup, shorbat freekeh, is a hearty broth of cracked freekeh — young green wheat that is roasted while still unripe — simmered in chicken broth with onion, cumin and shredded chicken. The grain stays slightly chewy and gives the soup its distinctive smoky flavour. It is served hot with a squeeze of lemon and is a familiar dish during Ramadan in Palestine, Jordan, Syria and Egypt.",
-      "history": "Freekeh is made by harvesting durum wheat while green and burning off the straw and chaff, a method long practised in the Levant and Egypt. Freekeh soup is eaten today across the region, and is especially popular as an iftar starter during Ramadan.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "150 g cracked freekeh, rinsed",
-          "1.5 l chicken broth",
-          "300 g chicken breast or thighs, skinless",
-          "1 onion, finely chopped",
-          "1 tbsp olive oil",
-          "1 tsp ground cumin",
-          "Salt and black pepper",
-          "1 lemon, cut into wedges"
-        ],
-        "steps": [
-          "Simmer the chicken in the broth for 20 minutes, then lift it out and shred it.",
-          "Meanwhile soften the onion in the olive oil for 5 minutes.",
-          "Add the freekeh and cumin to the onion and stir for 1 minute.",
-          "Pour in the hot broth and simmer for 20–25 minutes until the freekeh is tender.",
-          "Return the shredded chicken, season and serve with lemon wedges."
-        ]
-      },
-      "tips": [
-        "Skim the fat from the broth after simmering the chicken to keep the soup lighter.",
-        "Use skinless chicken breast instead of thighs for more protein per calorie.",
-        "A big bowl of this soup before the main course makes a filling start to the meal for relatively few calories."
-      ]
-    },
-    "ar": {
-      "name": "شوربة فريكة",
-      "origin": "بلاد الشام · الشرق الأوسط",
-      "intro": "شوربة الفريكة حساء دسم من الفريكة المجروشة — وهي قمح أخضر يُحصد قبل نضجه ويُشوى — تُطهى في مرق الدجاج مع البصل والكمون والدجاج المفتت. تبقى الحبوب مطاطية قليلًا وتمنح الشوربة نكهتها المدخنة المميزة. تُقدَّم ساخنة مع عصرة ليمون، وهي طبق مألوف في رمضان في فلسطين والأردن وسوريا ومصر.",
-      "history": "تُصنع الفريكة بحصاد القمح القاسي وهو أخضر ثم حرق القش والقشور عنه، وهي طريقة متبعة منذ زمن طويل في بلاد الشام ومصر. وتؤكل شوربة الفريكة اليوم في أنحاء المنطقة، وتحظى بشعبية خاصة كمقبلات للإفطار في رمضان.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "150 غ فريكة مجروشة، مغسولة",
-          "1.5 لتر مرق دجاج",
-          "300 غ صدر أو أفخاذ دجاج، بلا جلد",
-          "بصلة، مفرومة ناعمًا",
-          "1 ملعقة كبيرة زيت زيتون",
-          "1 ملعقة صغيرة كمون مطحون",
-          "ملح وفلفل أسود",
-          "حبة ليمون، مقطعة أرباعًا"
-        ],
-        "steps": [
-          "اسلق الدجاج في المرق 20 دقيقة، ثم أخرجه وفتّته.",
-          "في الأثناء شوّح البصل في زيت الزيتون 5 دقائق.",
-          "أضف الفريكة والكمون إلى البصل وقلّب دقيقة واحدة.",
-          "اسكب المرق الساخن واترك الشوربة على نار هادئة 20–25 دقيقة حتى تنضج الفريكة.",
-          "أعد الدجاج المفتت، وتبّل، وقدّمها مع شرائح الليمون."
-        ]
-      },
-      "tips": [
-        "أزل الدهن عن سطح المرق بعد سلق الدجاج لتكون الشوربة أخف.",
-        "استخدم صدر دجاج بلا جلد بدل الأفخاذ للحصول على بروتين أكثر مقابل كل سعرة.",
-        "وعاء كبير من هذه الشوربة قبل الطبق الرئيسي بداية مشبعة للوجبة بسعرات قليلة نسبيًا."
-      ]
-    },
-    "it": {
-      "name": "Zuppa di freekeh",
-      "origin": "Levante · Medio Oriente",
-      "intro": "La zuppa di freekeh, shorbat freekeh, è un brodo sostanzioso di freekeh spezzato — grano verde giovane tostato quando è ancora acerbo — cotto a fuoco lento in brodo di pollo con cipolla, cumino e pollo sfilacciato. Il chicco resta leggermente al dente e dà alla zuppa il suo caratteristico sapore affumicato. Si serve calda con una spruzzata di limone ed è un piatto familiare durante il Ramadan in Palestina, Giordania, Siria ed Egitto.",
-      "history": "Il freekeh si ottiene raccogliendo il grano duro ancora verde e bruciandone paglia e pula, un metodo praticato da tempo nel Levante e in Egitto. La zuppa di freekeh si mangia oggi in tutta la regione ed è particolarmente amata come primo piatto dell'iftar durante il Ramadan.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "150 g di freekeh spezzato, sciacquato",
-          "1,5 l di brodo di pollo",
-          "300 g di petto o cosce di pollo senza pelle",
-          "1 cipolla tritata finemente",
-          "1 cucchiaio di olio d'oliva",
-          "1 cucchiaino di cumino in polvere",
-          "Sale e pepe nero",
-          "1 limone tagliato a spicchi"
-        ],
-        "steps": [
-          "Fai sobbollire il pollo nel brodo per 20 minuti, poi toglilo e sfilaccialo.",
-          "Nel frattempo fai appassire la cipolla nell'olio d'oliva per 5 minuti.",
-          "Aggiungi il freekeh e il cumino alla cipolla e mescola per 1 minuto.",
-          "Versa il brodo caldo e lascia sobbollire per 20–25 minuti, finché il freekeh non è tenero.",
-          "Rimetti il pollo sfilacciato, regola di sale e pepe e servi con gli spicchi di limone."
-        ]
-      },
-      "tips": [
-        "Dopo aver cotto il pollo, sgrassa il brodo per una zuppa più leggera.",
-        "Usa petto di pollo senza pelle invece delle cosce per avere più proteine per caloria.",
-        "Una bella ciotola di questa zuppa prima del secondo è un inizio di pasto saziante con relativamente poche calorie."
-      ]
-    },
-    "el": {
-      "name": "Σούπα φρίκε",
-      "origin": "Λεβάντε · Μέση Ανατολή",
-      "intro": "Η σούπα φρίκε, shorbat freekeh, είναι ένας χορταστικός ζωμός με σπασμένο φρίκε — νεαρό πράσινο σιτάρι που καβουρδίζεται όσο είναι ακόμη άγουρο — σιγοβρασμένο σε ζωμό κότας με κρεμμύδι, κύμινο και ξεφτισμένο κοτόπουλο. Ο σπόρος μένει ελαφρώς μαστιχωτός και δίνει στη σούπα τη χαρακτηριστική καπνιστή γεύση της. Σερβίρεται ζεστή με λίγο λεμόνι και είναι γνώριμο πιάτο κατά το Ραμαζάνι στην Παλαιστίνη, την Ιορδανία, τη Συρία και την Αίγυπτο.",
-      "history": "Το φρίκε φτιάχνεται θερίζοντας σκληρό σιτάρι όσο είναι πράσινο και καίγοντας το άχυρο και τα φλούδια, μέθοδος που εφαρμόζεται από παλιά στο Λεβάντε και την Αίγυπτο. Η σούπα φρίκε τρώγεται σήμερα σε όλη την περιοχή και είναι ιδιαίτερα δημοφιλής ως πρώτο πιάτο του ιφτάρ κατά το Ραμαζάνι.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "150 γρ. σπασμένο φρίκε, ξεπλυμένο",
-          "1,5 λίτρο ζωμός κότας",
-          "300 γρ. στήθος ή μπούτια κοτόπουλου χωρίς πέτσα",
-          "1 κρεμμύδι ψιλοκομμένο",
-          "1 κ.σ. ελαιόλαδο",
-          "1 κ.γ. αλεσμένο κύμινο",
-          "Αλάτι και μαύρο πιπέρι",
-          "1 λεμόνι κομμένο σε φέτες"
-        ],
-        "steps": [
-          "Σιγοβράστε το κοτόπουλο στον ζωμό για 20 λεπτά, έπειτα βγάλτε το και ξεφτίστε το.",
-          "Στο μεταξύ μαλακώστε το κρεμμύδι στο ελαιόλαδο για 5 λεπτά.",
-          "Προσθέστε το φρίκε και το κύμινο στο κρεμμύδι και ανακατέψτε για 1 λεπτό.",
-          "Ρίξτε τον ζεστό ζωμό και σιγοβράστε για 20–25 λεπτά, μέχρι να μαλακώσει το φρίκε.",
-          "Επιστρέψτε το ξεφτισμένο κοτόπουλο, καρυκεύστε και σερβίρετε με τις φέτες λεμονιού."
-        ]
-      },
-      "tips": [
-        "Ξαφρίστε το λίπος από τον ζωμό αφού βράσει το κοτόπουλο, για πιο ελαφριά σούπα.",
-        "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα αντί για μπούτια για περισσότερη πρωτεΐνη ανά θερμίδα.",
-        "Ένα μεγάλο μπολ από αυτή τη σούπα πριν από το κυρίως είναι ένα χορταστικό ξεκίνημα με σχετικά λίγες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Суп из фрика",
-      "origin": "Левант · Ближний Восток",
-      "intro": "Суп из фрика, шорбат фрика, — сытный суп из дроблёного фрика — молодой зелёной пшеницы, обжаренной ещё незрелой, — томлёного в курином бульоне с луком, тмином и рубленой курицей. Зерно остаётся слегка упругим и придаёт супу характерный дымный вкус. Его подают горячим с лимонным соком; это привычное блюдо во время Рамадана в Палестине, Иордании, Сирии и Египте.",
-      "history": "Фрик делают, собирая твёрдую пшеницу зелёной и выжигая солому и мякину — метод, издавна применяемый на Леванте и в Египте. Суп из фрика едят сегодня по всему региону, он особенно популярен как закуска на ифтар во время Рамадана.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "150 г дроблёного фрика, промытого",
-          "1,5 л куриного бульона",
-          "300 г куриной грудки или бёдер без кожи",
-          "1 луковица, мелко нарубленная",
-          "1 ст. л. оливкового масла",
-          "1 ч. л. молотого тмина",
-          "Соль и чёрный перец",
-          "1 лимон, нарезанный дольками"
-        ],
-        "steps": [
-          "Варите курицу в бульоне 20 минут, затем выньте и разберите на волокна.",
-          "Тем временем обжаривайте лук в оливковом масле 5 минут до мягкости.",
-          "Добавьте к луку фрик и тмин и помешивайте 1 минуту.",
-          "Влейте горячий бульон и варите 20–25 минут, пока фрик не станет мягким.",
-          "Верните разобранную курицу, приправьте и подавайте с дольками лимона."
-        ]
-      },
-      "tips": [
-        "Снимите жир с бульона после варки курицы, чтобы суп был легче.",
-        "Берите куриную грудку без кожи вместо бёдер — больше белка на калорию.",
-        "Большая миска этого супа перед основным блюдом — сытное начало трапезы при относительно небольшом количестве калорий."
-      ],
-      "name_inline": "суп из фрика"
-    }
+  "ar": {
+   "name": "شوربة فريكة",
+   "origin": "بلاد الشام · الشرق الأوسط",
+   "intro": "شوربة الفريكة حساء دسم من الفريكة المجروشة — وهي قمح أخضر يُحصد قبل نضجه ويُشوى — تُطهى في مرق الدجاج مع البصل والكمون والدجاج المفتت. تبقى الحبوب مطاطية قليلًا وتمنح الشوربة نكهتها المدخنة المميزة. تُقدَّم ساخنة مع عصرة ليمون، وهي طبق مألوف في رمضان في فلسطين والأردن وسوريا ومصر.",
+   "history": "تُصنع الفريكة بحصاد القمح القاسي وهو أخضر ثم حرق القش والقشور عنه، وهي طريقة متبعة منذ زمن طويل في بلاد الشام ومصر. وتؤكل شوربة الفريكة اليوم في أنحاء المنطقة، وتحظى بشعبية خاصة كمقبلات للإفطار في رمضان.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "150 غ فريكة مجروشة، مغسولة",
+     "1.5 لتر مرق دجاج",
+     "300 غ صدر أو أفخاذ دجاج، بلا جلد",
+     "بصلة، مفرومة ناعمًا",
+     "1 ملعقة كبيرة زيت زيتون",
+     "1 ملعقة صغيرة كمون مطحون",
+     "ملح وفلفل أسود",
+     "حبة ليمون، مقطعة أرباعًا"
+    ],
+    "steps": [
+     "اسلق الدجاج في المرق 20 دقيقة، ثم أخرجه وفتّته.",
+     "في الأثناء شوّح البصل في زيت الزيتون 5 دقائق.",
+     "أضف الفريكة والكمون إلى البصل وقلّب دقيقة واحدة.",
+     "اسكب المرق الساخن واترك الشوربة على نار هادئة 20–25 دقيقة حتى تنضج الفريكة.",
+     "أعد الدجاج المفتت، وتبّل، وقدّمها مع شرائح الليمون."
+    ]
+   },
+   "tips": [
+    "أزل الدهن عن سطح المرق بعد سلق الدجاج لتكون الشوربة أخف.",
+    "استخدم صدر دجاج بلا جلد بدل الأفخاذ للحصول على بروتين أكثر مقابل كل سعرة.",
+    "وعاء كبير من هذه الشوربة قبل الطبق الرئيسي بداية مشبعة للوجبة بسعرات قليلة نسبيًا."
+   ]
+  },
+  "it": {
+   "name": "Zuppa di freekeh",
+   "origin": "Levante · Medio Oriente",
+   "intro": "La zuppa di freekeh, shorbat freekeh, è un brodo sostanzioso di freekeh spezzato — grano verde giovane tostato quando è ancora acerbo — cotto a fuoco lento in brodo di pollo con cipolla, cumino e pollo sfilacciato. Il chicco resta leggermente al dente e dà alla zuppa il suo caratteristico sapore affumicato. Si serve calda con una spruzzata di limone ed è un piatto familiare durante il Ramadan in Palestina, Giordania, Siria ed Egitto.",
+   "history": "Il freekeh si ottiene raccogliendo il grano duro ancora verde e bruciandone paglia e pula, un metodo praticato da tempo nel Levante e in Egitto. La zuppa di freekeh si mangia oggi in tutta la regione ed è particolarmente amata come primo piatto dell'iftar durante il Ramadan.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "150 g di freekeh spezzato, sciacquato",
+     "1,5 l di brodo di pollo",
+     "300 g di petto o cosce di pollo senza pelle",
+     "1 cipolla tritata finemente",
+     "1 cucchiaio di olio d'oliva",
+     "1 cucchiaino di cumino in polvere",
+     "Sale e pepe nero",
+     "1 limone tagliato a spicchi"
+    ],
+    "steps": [
+     "Fai sobbollire il pollo nel brodo per 20 minuti, poi toglilo e sfilaccialo.",
+     "Nel frattempo fai appassire la cipolla nell'olio d'oliva per 5 minuti.",
+     "Aggiungi il freekeh e il cumino alla cipolla e mescola per 1 minuto.",
+     "Versa il brodo caldo e lascia sobbollire per 20–25 minuti, finché il freekeh non è tenero.",
+     "Rimetti il pollo sfilacciato, regola di sale e pepe e servi con gli spicchi di limone."
+    ]
+   },
+   "tips": [
+    "Dopo aver cotto il pollo, sgrassa il brodo per una zuppa più leggera.",
+    "Usa petto di pollo senza pelle invece delle cosce per avere più proteine per caloria.",
+    "Una bella ciotola di questa zuppa prima del secondo è un inizio di pasto saziante con relativamente poche calorie."
+   ]
+  },
+  "el": {
+   "name": "Σούπα φρίκε",
+   "origin": "Λεβάντε · Μέση Ανατολή",
+   "intro": "Η σούπα φρίκε, shorbat freekeh, είναι ένας χορταστικός ζωμός με σπασμένο φρίκε — νεαρό πράσινο σιτάρι που καβουρδίζεται όσο είναι ακόμη άγουρο — σιγοβρασμένο σε ζωμό κότας με κρεμμύδι, κύμινο και ξεφτισμένο κοτόπουλο. Ο σπόρος μένει ελαφρώς μαστιχωτός και δίνει στη σούπα τη χαρακτηριστική καπνιστή γεύση της. Σερβίρεται ζεστή με λίγο λεμόνι και είναι γνώριμο πιάτο κατά το Ραμαζάνι στην Παλαιστίνη, την Ιορδανία, τη Συρία και την Αίγυπτο.",
+   "history": "Το φρίκε φτιάχνεται θερίζοντας σκληρό σιτάρι όσο είναι πράσινο και καίγοντας το άχυρο και τα φλούδια, μέθοδος που εφαρμόζεται από παλιά στο Λεβάντε και την Αίγυπτο. Η σούπα φρίκε τρώγεται σήμερα σε όλη την περιοχή και είναι ιδιαίτερα δημοφιλής ως πρώτο πιάτο του ιφτάρ κατά το Ραμαζάνι.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "150 γρ. σπασμένο φρίκε, ξεπλυμένο",
+     "1,5 λίτρο ζωμός κότας",
+     "300 γρ. στήθος ή μπούτια κοτόπουλου χωρίς πέτσα",
+     "1 κρεμμύδι ψιλοκομμένο",
+     "1 κ.σ. ελαιόλαδο",
+     "1 κ.γ. αλεσμένο κύμινο",
+     "Αλάτι και μαύρο πιπέρι",
+     "1 λεμόνι κομμένο σε φέτες"
+    ],
+    "steps": [
+     "Σιγοβράστε το κοτόπουλο στον ζωμό για 20 λεπτά, έπειτα βγάλτε το και ξεφτίστε το.",
+     "Στο μεταξύ μαλακώστε το κρεμμύδι στο ελαιόλαδο για 5 λεπτά.",
+     "Προσθέστε το φρίκε και το κύμινο στο κρεμμύδι και ανακατέψτε για 1 λεπτό.",
+     "Ρίξτε τον ζεστό ζωμό και σιγοβράστε για 20–25 λεπτά, μέχρι να μαλακώσει το φρίκε.",
+     "Επιστρέψτε το ξεφτισμένο κοτόπουλο, καρυκεύστε και σερβίρετε με τις φέτες λεμονιού."
+    ]
+   },
+   "tips": [
+    "Ξαφρίστε το λίπος από τον ζωμό αφού βράσει το κοτόπουλο, για πιο ελαφριά σούπα.",
+    "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα αντί για μπούτια για περισσότερη πρωτεΐνη ανά θερμίδα.",
+    "Ένα μεγάλο μπολ από αυτή τη σούπα πριν από το κυρίως είναι ένα χορταστικό ξεκίνημα με σχετικά λίγες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Суп из фрика",
+   "origin": "Левант · Ближний Восток",
+   "intro": "Суп из фрика, шорбат фрика, — сытный суп из дроблёного фрика — молодой зелёной пшеницы, обжаренной ещё незрелой, — томлёного в курином бульоне с луком, тмином и рубленой курицей. Зерно остаётся слегка упругим и придаёт супу характерный дымный вкус. Его подают горячим с лимонным соком; это привычное блюдо во время Рамадана в Палестине, Иордании, Сирии и Египте.",
+   "history": "Фрик делают, собирая твёрдую пшеницу зелёной и выжигая солому и мякину — метод, издавна применяемый на Леванте и в Египте. Суп из фрика едят сегодня по всему региону, он особенно популярен как закуска на ифтар во время Рамадана.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "150 г дроблёного фрика, промытого",
+     "1,5 л куриного бульона",
+     "300 г куриной грудки или бёдер без кожи",
+     "1 луковица, мелко нарубленная",
+     "1 ст. л. оливкового масла",
+     "1 ч. л. молотого тмина",
+     "Соль и чёрный перец",
+     "1 лимон, нарезанный дольками"
+    ],
+    "steps": [
+     "Варите курицу в бульоне 20 минут, затем выньте и разберите на волокна.",
+     "Тем временем обжаривайте лук в оливковом масле 5 минут до мягкости.",
+     "Добавьте к луку фрик и тмин и помешивайте 1 минуту.",
+     "Влейте горячий бульон и варите 20–25 минут, пока фрик не станет мягким.",
+     "Верните разобранную курицу, приправьте и подавайте с дольками лимона."
+    ]
+   },
+   "tips": [
+    "Снимите жир с бульона после варки курицы, чтобы суп был легче.",
+    "Берите куриную грудку без кожи вместо бёдер — больше белка на калорию.",
+    "Большая миска этого супа перед основным блюдом — сытное начало трапезы при относительно небольшом количестве калорий."
+   ],
+   "name_inline": "суп из фрика"
+  },
+  "es": {
+   "name": "Sopa de freekeh",
+   "origin": "Levante · Medio Oriente",
+   "intro": "La sopa de freekeh, shorbat freekeh, es un caldo sustancioso de freekeh partido —trigo verde tostado cuando aún no está maduro— cocido en caldo de pollo con cebolla, comino y pollo deshebrado. El grano conserva una textura ligeramente masticable y da a la sopa su característico sabor ahumado. Se sirve caliente con un chorrito de limón y es un plato habitual durante el Ramadán en Palestina, Jordania, Siria y Egipto.",
+   "history": "El freekeh se obtiene cosechando el trigo duro aún verde y quemando la paja y la cascarilla, un método practicado desde hace mucho en el Levante y Egipto. La sopa de freekeh se come hoy en toda la región y es especialmente popular como entrada del iftar durante el Ramadán.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "150 g de freekeh partido, enjuagado",
+     "1.5 l de caldo de pollo",
+     "300 g de pechuga o muslo de pollo, sin piel",
+     "1 cebolla, picada finamente",
+     "1 cda. de aceite de oliva",
+     "1 cdta. de comino molido",
+     "Sal y pimienta negra",
+     "1 limón, en gajos"
+    ],
+    "steps": [
+     "Cuece el pollo en el caldo durante 20 minutos; sácalo y deshébralo.",
+     "Mientras tanto, acitrona la cebolla en el aceite de oliva durante 5 minutos.",
+     "Agrega el freekeh y el comino a la cebolla y mezcla durante 1 minuto.",
+     "Vierte el caldo caliente y cuece de 20 a 25 minutos, hasta que el freekeh esté tierno.",
+     "Regresa el pollo deshebrado, sazona y sirve con los gajos de limón."
+    ]
+   },
+   "tips": [
+    "Quita la grasa del caldo después de cocer el pollo para que la sopa quede más ligera.",
+    "Usa pechuga de pollo sin piel en lugar de muslo para más proteína por caloría.",
+    "Un tazón grande de esta sopa antes del plato fuerte es un buen comienzo, saciante y con relativamente pocas calorías."
+   ],
+   "name_inline": "la sopa de freekeh"
   }
+ }
 }

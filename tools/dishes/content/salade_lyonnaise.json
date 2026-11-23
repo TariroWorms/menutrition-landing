@@ -1,156 +1,185 @@
 {
-  "db_key": "salade_lyonnaise",
-  "slug": "salade-lyonnaise",
-  "emoji": "🥗",
-  "portion_g": 250,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "salade_lyonnaise",
+ "slug": "salade-lyonnaise",
+ "emoji": "🥗",
+ "portion_g": 250,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Salade Lyonnaise",
+   "origin": "France · Lyon",
+   "intro": "Salade lyonnaise is a classic bistro salad from Lyon: bitter, curly frisée tossed with warm crisp bacon lardons, crunchy croutons and a sharp vinaigrette, crowned with a soft poached egg. When the yolk breaks it coats the leaves, balancing the bitterness and the salty bacon. It is served as a starter or light lunch.",
+   "history": "It is a signature dish of Lyon's traditional bouchons, simple restaurants serving local cooking, and remains on bistro menus across France today.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "1 head frisée (about 150 g), torn",
+     "150 g bacon lardons",
+     "2 eggs",
+     "60 g bread croutons",
+     "3 tbsp vinaigrette (oil, red vinegar, salt, pepper)"
+    ],
+    "steps": [
+     "Fry the lardons in a dry pan until crisp.",
+     "Poach the eggs in simmering water with a splash of vinegar for 3–4 minutes.",
+     "Toss the frisée with the vinaigrette and the warm lardons.",
+     "Add the croutons, top each plate with a poached egg and serve."
+    ]
+   },
+   "tips": [
+    "Halve the bacon and drain it well on paper.",
+    "Use fewer croutons or skip them.",
+    "Keep the dressing to 1 tbsp per plate."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Salade Lyonnaise",
-      "origin": "France · Lyon",
-      "intro": "Salade lyonnaise is a classic bistro salad from Lyon: bitter, curly frisée tossed with warm crisp bacon lardons, crunchy croutons and a sharp vinaigrette, crowned with a soft poached egg. When the yolk breaks it coats the leaves, balancing the bitterness and the salty bacon. It is served as a starter or light lunch.",
-      "history": "It is a signature dish of Lyon's traditional bouchons, simple restaurants serving local cooking, and remains on bistro menus across France today.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "1 head frisée (about 150 g), torn",
-          "150 g bacon lardons",
-          "2 eggs",
-          "60 g bread croutons",
-          "3 tbsp vinaigrette (oil, red vinegar, salt, pepper)"
-        ],
-        "steps": [
-          "Fry the lardons in a dry pan until crisp.",
-          "Poach the eggs in simmering water with a splash of vinegar for 3–4 minutes.",
-          "Toss the frisée with the vinaigrette and the warm lardons.",
-          "Add the croutons, top each plate with a poached egg and serve."
-        ]
-      },
-      "tips": [
-        "Halve the bacon and drain it well on paper.",
-        "Use fewer croutons or skip them.",
-        "Keep the dressing to 1 tbsp per plate."
-      ]
-    },
-    "ar": {
-      "name": "سلطة ليونيز",
-      "origin": "فرنسا · ليون",
-      "intro": "سلطة ليونيز سلطة كلاسيكية من مطاعم ليون: أوراق الفريزيه المجعدة المرة مع قطع اللحم المقدد المقرمشة الدافئة ومكعبات الخبز المحمص وصلصة خل حادة، وتتوّجها بيضة مسلوقة طرية بلا قشرها (بوشيه). عندما ينكسر الصفار يغلّف الأوراق فيوازن المرارة وملوحة اللحم المقدد. تقدَّم مقبلات أو غداءً خفيفًا.",
-      "history": "هي من الأطباق المميزة لمطاعم البوشون التقليدية في ليون، وهي مطاعم بسيطة تقدّم الطبخ المحلي، ولا تزال حاضرة في قوائم البيسترو في أنحاء فرنسا.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "رأس فريزيه (نحو 150 غ) مقطّع",
-          "150 غ قطع لحم مقدد",
-          "بيضتان",
-          "60 غ مكعبات خبز محمص",
-          "3 ملاعق كبيرة صلصة خل (زيت وخل أحمر وملح وفلفل)"
-        ],
-        "steps": [
-          "حمّر قطع اللحم المقدد في مقلاة جافة حتى تقرمش.",
-          "اسلق البيض بعد كسره مباشرة في ماء يغلي بهدوء مع قليل من الخل 3–4 دقائق.",
-          "قلّب الفريزيه مع صلصة الخل واللحم المقدد الدافئ.",
-          "أضف مكعبات الخبز وضع بيضة فوق كل طبق وقدّمها."
-        ]
-      },
-      "tips": [
-        "قلّل اللحم المقدد إلى النصف وصفّه جيدًا على الورق.",
-        "قلّل مكعبات الخبز أو استغنِ عنها.",
-        "اكتفِ بملعقة كبيرة من الصلصة لكل طبق."
-      ]
-    },
-    "it": {
-      "name": "Salade lyonnaise",
-      "origin": "Francia · Lione",
-      "intro": "La salade lyonnaise è una classica insalata da bistrot di Lione: indivia riccia amarognola condita con lardelli di pancetta caldi e croccanti, crostini croccanti e una vinaigrette decisa, sormontata da un morbido uovo in camicia. Quando il tuorlo si rompe avvolge le foglie, bilanciando l'amaro e la sapidità della pancetta. Si serve come antipasto o pranzo leggero.",
-      "history": "È un piatto simbolo dei tradizionali bouchon di Lione, semplici locali che servono cucina del territorio, e ancora oggi compare nei menu dei bistrot di tutta la Francia.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "1 cespo di indivia riccia (circa 150 g), spezzettato",
-          "150 g di lardelli di pancetta",
-          "2 uova",
-          "60 g di crostini di pane",
-          "3 cucchiai di vinaigrette (olio, aceto di vino rosso, sale, pepe)"
-        ],
-        "steps": [
-          "Rosola i lardelli in una padella senza grassi finché sono croccanti.",
-          "Cuoci le uova in camicia in acqua che sobbolle con un goccio di aceto per 3–4 minuti.",
-          "Condisci l'indivia con la vinaigrette e i lardelli caldi.",
-          "Aggiungi i crostini, completa ogni piatto con un uovo in camicia e servi."
-        ]
-      },
-      "tips": [
-        "Dimezza la pancetta e sgocciolala bene su carta assorbente.",
-        "Usa meno crostini o eliminali.",
-        "Limita il condimento a 1 cucchiaio per piatto."
-      ]
-    },
-    "el": {
-      "name": "Σαλάτα λιονέζ (salade lyonnaise)",
-      "name_inline": "σαλάτα λιονέζ",
-      "origin": "Γαλλία · Λυών",
-      "intro": "Η σαλάτα λιονέζ είναι κλασική σαλάτα μπιστρό από τη Λυών: πικρή, σγουρή φριζέ ανακατεμένη με ζεστά, τραγανά κομματάκια μπέικον, τραγανά κρουτόν και μια έντονη βινεγκρέτ, με ένα μαλακό αυγό ποσέ στην κορυφή. Όταν σπάσει ο κρόκος, επικαλύπτει τα φύλλα και ισορροπεί την πίκρα και το αλμυρό μπέικον. Σερβίρεται ως ορεκτικό ή ελαφρύ μεσημεριανό.",
-      "history": "Είναι χαρακτηριστικό πιάτο των παραδοσιακών bouchons της Λυών, απλών εστιατορίων με τοπική κουζίνα, και εξακολουθεί να υπάρχει στους καταλόγους των μπιστρό σε όλη τη Γαλλία.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "1 κεφάλι φριζέ (περίπου 150 γρ.), κομμένο με το χέρι",
-          "150 γρ. μπέικον σε κομματάκια (lardons)",
-          "2 αυγά",
-          "60 γρ. κρουτόν",
-          "3 κ.σ. βινεγκρέτ (λάδι, κόκκινο ξίδι, αλάτι, πιπέρι)"
-        ],
-        "steps": [
-          "Τσιγαρίστε το μπέικον σε στεγνό τηγάνι μέχρι να γίνει τραγανό.",
-          "Κάντε τα αυγά ποσέ σε νερό που σιγοβράζει με λίγο ξίδι για 3–4 λεπτά.",
-          "Ανακατέψτε τη φριζέ με τη βινεγκρέτ και το ζεστό μπέικον.",
-          "Προσθέστε τα κρουτόν, βάλτε ένα αυγό ποσέ σε κάθε πιάτο και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Μειώστε το μπέικον στο μισό και στραγγίξτε το καλά σε χαρτί.",
-        "Βάλτε λιγότερα κρουτόν ή παραλείψτε τα.",
-        "Περιορίστε τη σάλτσα σε 1 κ.σ. ανά πιάτο."
-      ]
-    },
-    "ru": {
-      "name": "Салад лионез",
-      "origin": "Франция · Лион",
-      "intro": "Салад лионез — классический салат бистро из Лиона: горьковатый кудрявый цикорий фризе, смешанный с тёплыми хрустящими кусочками бекона, хрустящими гренками и острым винегретом, увенчанный мягким яйцом-пашот. Когда желток растекается, он покрывает листья, уравновешивая горечь и солёный бекон. Подаётся как закуска или лёгкий обед.",
-      "history": "Это фирменное блюдо традиционных лионских бушонов — простых ресторанов местной кухни, и оно остаётся в меню бистро по всей Франции сегодня.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "1 кочан цикория фризе (около 150 г), порванного",
-          "150 г бекона кусочками",
-          "2 яйца",
-          "60 г хлебных гренок",
-          "3 ст. л. винегрета (масло, красный уксус, соль, перец)"
-        ],
-        "steps": [
-          "Обжарьте бекон на сухой сковороде до хруста.",
-          "Сварите яйца-пашот в кипящей воде с каплей уксуса 3–4 минуты.",
-          "Смешайте фризе с винегретом и тёплым беконом.",
-          "Добавьте гренки, положите на каждую тарелку по яйцу-пашот и подавайте."
-        ]
-      },
-      "tips": [
-        "Уменьшите бекон вдвое и хорошо обсушите его на бумаге.",
-        "Используйте меньше гренок или обойдитесь без них.",
-        "Ограничьте заправку 1 ст. л. на тарелку."
-      ],
-      "name_inline": "салад лионез"
-    }
+  "ar": {
+   "name": "سلطة ليونيز",
+   "origin": "فرنسا · ليون",
+   "intro": "سلطة ليونيز سلطة كلاسيكية من مطاعم ليون: أوراق الفريزيه المجعدة المرة مع قطع اللحم المقدد المقرمشة الدافئة ومكعبات الخبز المحمص وصلصة خل حادة، وتتوّجها بيضة مسلوقة طرية بلا قشرها (بوشيه). عندما ينكسر الصفار يغلّف الأوراق فيوازن المرارة وملوحة اللحم المقدد. تقدَّم مقبلات أو غداءً خفيفًا.",
+   "history": "هي من الأطباق المميزة لمطاعم البوشون التقليدية في ليون، وهي مطاعم بسيطة تقدّم الطبخ المحلي، ولا تزال حاضرة في قوائم البيسترو في أنحاء فرنسا.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "رأس فريزيه (نحو 150 غ) مقطّع",
+     "150 غ قطع لحم مقدد",
+     "بيضتان",
+     "60 غ مكعبات خبز محمص",
+     "3 ملاعق كبيرة صلصة خل (زيت وخل أحمر وملح وفلفل)"
+    ],
+    "steps": [
+     "حمّر قطع اللحم المقدد في مقلاة جافة حتى تقرمش.",
+     "اسلق البيض بعد كسره مباشرة في ماء يغلي بهدوء مع قليل من الخل 3–4 دقائق.",
+     "قلّب الفريزيه مع صلصة الخل واللحم المقدد الدافئ.",
+     "أضف مكعبات الخبز وضع بيضة فوق كل طبق وقدّمها."
+    ]
+   },
+   "tips": [
+    "قلّل اللحم المقدد إلى النصف وصفّه جيدًا على الورق.",
+    "قلّل مكعبات الخبز أو استغنِ عنها.",
+    "اكتفِ بملعقة كبيرة من الصلصة لكل طبق."
+   ]
+  },
+  "it": {
+   "name": "Salade lyonnaise",
+   "origin": "Francia · Lione",
+   "intro": "La salade lyonnaise è una classica insalata da bistrot di Lione: indivia riccia amarognola condita con lardelli di pancetta caldi e croccanti, crostini croccanti e una vinaigrette decisa, sormontata da un morbido uovo in camicia. Quando il tuorlo si rompe avvolge le foglie, bilanciando l'amaro e la sapidità della pancetta. Si serve come antipasto o pranzo leggero.",
+   "history": "È un piatto simbolo dei tradizionali bouchon di Lione, semplici locali che servono cucina del territorio, e ancora oggi compare nei menu dei bistrot di tutta la Francia.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "1 cespo di indivia riccia (circa 150 g), spezzettato",
+     "150 g di lardelli di pancetta",
+     "2 uova",
+     "60 g di crostini di pane",
+     "3 cucchiai di vinaigrette (olio, aceto di vino rosso, sale, pepe)"
+    ],
+    "steps": [
+     "Rosola i lardelli in una padella senza grassi finché sono croccanti.",
+     "Cuoci le uova in camicia in acqua che sobbolle con un goccio di aceto per 3–4 minuti.",
+     "Condisci l'indivia con la vinaigrette e i lardelli caldi.",
+     "Aggiungi i crostini, completa ogni piatto con un uovo in camicia e servi."
+    ]
+   },
+   "tips": [
+    "Dimezza la pancetta e sgocciolala bene su carta assorbente.",
+    "Usa meno crostini o eliminali.",
+    "Limita il condimento a 1 cucchiaio per piatto."
+   ]
+  },
+  "el": {
+   "name": "Σαλάτα λιονέζ (salade lyonnaise)",
+   "name_inline": "σαλάτα λιονέζ",
+   "origin": "Γαλλία · Λυών",
+   "intro": "Η σαλάτα λιονέζ είναι κλασική σαλάτα μπιστρό από τη Λυών: πικρή, σγουρή φριζέ ανακατεμένη με ζεστά, τραγανά κομματάκια μπέικον, τραγανά κρουτόν και μια έντονη βινεγκρέτ, με ένα μαλακό αυγό ποσέ στην κορυφή. Όταν σπάσει ο κρόκος, επικαλύπτει τα φύλλα και ισορροπεί την πίκρα και το αλμυρό μπέικον. Σερβίρεται ως ορεκτικό ή ελαφρύ μεσημεριανό.",
+   "history": "Είναι χαρακτηριστικό πιάτο των παραδοσιακών bouchons της Λυών, απλών εστιατορίων με τοπική κουζίνα, και εξακολουθεί να υπάρχει στους καταλόγους των μπιστρό σε όλη τη Γαλλία.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "1 κεφάλι φριζέ (περίπου 150 γρ.), κομμένο με το χέρι",
+     "150 γρ. μπέικον σε κομματάκια (lardons)",
+     "2 αυγά",
+     "60 γρ. κρουτόν",
+     "3 κ.σ. βινεγκρέτ (λάδι, κόκκινο ξίδι, αλάτι, πιπέρι)"
+    ],
+    "steps": [
+     "Τσιγαρίστε το μπέικον σε στεγνό τηγάνι μέχρι να γίνει τραγανό.",
+     "Κάντε τα αυγά ποσέ σε νερό που σιγοβράζει με λίγο ξίδι για 3–4 λεπτά.",
+     "Ανακατέψτε τη φριζέ με τη βινεγκρέτ και το ζεστό μπέικον.",
+     "Προσθέστε τα κρουτόν, βάλτε ένα αυγό ποσέ σε κάθε πιάτο και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Μειώστε το μπέικον στο μισό και στραγγίξτε το καλά σε χαρτί.",
+    "Βάλτε λιγότερα κρουτόν ή παραλείψτε τα.",
+    "Περιορίστε τη σάλτσα σε 1 κ.σ. ανά πιάτο."
+   ]
+  },
+  "ru": {
+   "name": "Салад лионез",
+   "origin": "Франция · Лион",
+   "intro": "Салад лионез — классический салат бистро из Лиона: горьковатый кудрявый цикорий фризе, смешанный с тёплыми хрустящими кусочками бекона, хрустящими гренками и острым винегретом, увенчанный мягким яйцом-пашот. Когда желток растекается, он покрывает листья, уравновешивая горечь и солёный бекон. Подаётся как закуска или лёгкий обед.",
+   "history": "Это фирменное блюдо традиционных лионских бушонов — простых ресторанов местной кухни, и оно остаётся в меню бистро по всей Франции сегодня.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "1 кочан цикория фризе (около 150 г), порванного",
+     "150 г бекона кусочками",
+     "2 яйца",
+     "60 г хлебных гренок",
+     "3 ст. л. винегрета (масло, красный уксус, соль, перец)"
+    ],
+    "steps": [
+     "Обжарьте бекон на сухой сковороде до хруста.",
+     "Сварите яйца-пашот в кипящей воде с каплей уксуса 3–4 минуты.",
+     "Смешайте фризе с винегретом и тёплым беконом.",
+     "Добавьте гренки, положите на каждую тарелку по яйцу-пашот и подавайте."
+    ]
+   },
+   "tips": [
+    "Уменьшите бекон вдвое и хорошо обсушите его на бумаге.",
+    "Используйте меньше гренок или обойдитесь без них.",
+    "Ограничьте заправку 1 ст. л. на тарелку."
+   ],
+   "name_inline": "салад лионез"
+  },
+  "es": {
+   "name": "Salade lyonnaise",
+   "origin": "Francia · Lyon",
+   "intro": "La salade lyonnaise es una ensalada clásica de bistró de Lyon: lechuga frisée, amarga y rizada, aliñada con lardones de tocino calientes y crujientes, picatostes y una vinagreta intensa, coronada con un huevo pochado. Al romperse, la yema baña las hojas y equilibra el amargor y la sal del tocino. Se sirve como entrada o como almuerzo ligero.",
+   "history": "Es un plato emblemático de los bouchons lyoneses, restaurantes sencillos de cocina local, y sigue en las cartas de los bistrós de toda Francia.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "1 lechuga frisée (unos 150 g), en trozos",
+     "150 g de lardones de tocino",
+     "2 huevos",
+     "60 g de picatostes de pan",
+     "3 cda. de vinagreta (aceite, vinagre de vino tinto, sal, pimienta)"
+    ],
+    "steps": [
+     "Fríe los lardones en una sartén seca hasta que queden crujientes.",
+     "Pocha los huevos en agua a fuego suave con un chorrito de vinagre durante 3–4 minutos.",
+     "Mezcla la frisée con la vinagreta y los lardones calientes.",
+     "Añade los picatostes, corona cada plato con un huevo pochado y sirve."
+    ]
+   },
+   "tips": [
+    "Usa la mitad del tocino y escúrrelo bien sobre papel absorbente.",
+    "Pon menos picatostes o prescinde de ellos.",
+    "Limita el aliño a 1 cda. por plato."
+   ],
+   "name_inline": "la salade lyonnaise"
   }
+ }
 }

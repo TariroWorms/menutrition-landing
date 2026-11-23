@@ -1,182 +1,216 @@
 {
-  "db_key": "korokke",
-  "slug": "korokke",
-  "emoji": "🥔",
-  "portion_g": 150,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "korokke",
+ "slug": "korokke",
+ "emoji": "🥔",
+ "portion_g": 150,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Korokke (Japanese croquettes)",
+   "origin": "Japan",
+   "intro": "Korokke are Japanese croquettes made from mashed potato mixed with fried ground beef and onion, shaped into ovals, coated in flour, egg and panko breadcrumbs and deep-fried. The shell is light and very crunchy, the inside soft and creamy. They are sold in butcher shops and convenience stores and eaten as a snack, in a bento or with shredded cabbage.",
+   "history": "Korokke are a Japanese adaptation of the French croquette, introduced during the Meiji era's opening to Western cooking in the late 19th century. Potato-based versions became an inexpensive everyday food in the early 20th century, and they remain a classic of yoshoku, Western-style Japanese cooking.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g floury potatoes",
+     "200 g ground beef",
+     "1 onion, finely chopped",
+     "1 tbsp vegetable oil, salt and pepper",
+     "50 g wheat flour",
+     "2 eggs, beaten",
+     "100 g panko breadcrumbs",
+     "Oil for deep-frying",
+     "Shredded cabbage to serve"
+    ],
+    "steps": [
+     "Boil the potatoes until tender, drain and mash.",
+     "Fry the onion in oil, add the beef and cook until browned; season with salt and pepper.",
+     "Mix the beef with the potato and shape into 8 ovals; chill for 15 minutes.",
+     "Coat each in flour, then egg, then panko.",
+     "Deep-fry at 175 °C for 3–4 minutes until golden, drain and serve with cabbage."
+    ]
+   },
+   "tips": [
+    "Bake the croquettes at 200 °C, sprayed with a little oil, instead of deep-frying.",
+    "Use lean beef and add extra onion or grated carrot to the filling.",
+    "Have one croquette with a large portion of shredded cabbage."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Korokke (Japanese croquettes)",
-      "origin": "Japan",
-      "intro": "Korokke are Japanese croquettes made from mashed potato mixed with fried ground beef and onion, shaped into ovals, coated in flour, egg and panko breadcrumbs and deep-fried. The shell is light and very crunchy, the inside soft and creamy. They are sold in butcher shops and convenience stores and eaten as a snack, in a bento or with shredded cabbage.",
-      "history": "Korokke are a Japanese adaptation of the French croquette, introduced during the Meiji era's opening to Western cooking in the late 19th century. Potato-based versions became an inexpensive everyday food in the early 20th century, and they remain a classic of yoshoku, Western-style Japanese cooking.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g floury potatoes",
-          "200 g ground beef",
-          "1 onion, finely chopped",
-          "1 tbsp vegetable oil, salt and pepper",
-          "50 g wheat flour",
-          "2 eggs, beaten",
-          "100 g panko breadcrumbs",
-          "Oil for deep-frying",
-          "Shredded cabbage to serve"
-        ],
-        "steps": [
-          "Boil the potatoes until tender, drain and mash.",
-          "Fry the onion in oil, add the beef and cook until browned; season with salt and pepper.",
-          "Mix the beef with the potato and shape into 8 ovals; chill for 15 minutes.",
-          "Coat each in flour, then egg, then panko.",
-          "Deep-fry at 175 °C for 3–4 minutes until golden, drain and serve with cabbage."
-        ]
-      },
-      "tips": [
-        "Bake the croquettes at 200 °C, sprayed with a little oil, instead of deep-frying.",
-        "Use lean beef and add extra onion or grated carrot to the filling.",
-        "Have one croquette with a large portion of shredded cabbage."
-      ]
-    },
-    "ar": {
-      "name": "كوروكيه (كروكيت ياباني)",
-      "origin": "اليابان",
-      "intro": "الكوروكيه كروكيت ياباني من البطاطا المهروسة الممزوجة باللحم البقري المفروم المقلي والبصل، يُشكَّل بيضاوياً ويُغطى بالدقيق والبيض وفتات خبز البانكو ثم يُقلى. قشرته خفيفة ومقرمشة جداً وداخله طري وكريمي. يُباع في محلات الجزارة والمتاجر الصغيرة ويؤكل كوجبة خفيفة أو في علبة البينتو أو مع الملفوف المبشور.",
-      "history": "الكوروكيه نسخة يابانية من الكروكيت الفرنسي، دخلت خلال انفتاح عصر ميجي على الطبخ الغربي في أواخر القرن التاسع عشر. وأصبحت نسخ البطاطا طعاماً يومياً رخيصاً في أوائل القرن العشرين، وما زالت من كلاسيكيات يوشوكو، أي المطبخ الياباني ذي الطابع الغربي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 غ بطاطا نشوية",
-          "200 غ لحم بقر مفروم",
-          "1 بصلة مفرومة ناعماً",
-          "1 ملعقة كبيرة زيت نباتي وملح وفلفل",
-          "50 غ دقيق قمح",
-          "2 بيضة مخفوقة",
-          "100 غ فتات خبز بانكو",
-          "زيت للقلي العميق",
-          "ملفوف مبشور للتقديم"
-        ],
-        "steps": [
-          "اسلق البطاطا حتى تنضج ثم صفّها واهرسها.",
-          "اقلِ البصل في الزيت، وأضف اللحم وقلّبه حتى يتحمّر، ثم تبّله بالملح والفلفل.",
-          "اخلط اللحم مع البطاطا وشكّل 8 أقراص بيضاوية، وبرّدها 15 دقيقة.",
-          "غطِّ كل قرص بالدقيق ثم البيض ثم البانكو.",
-          "اقلِها على 175 °م لمدة 3–4 دقائق حتى تصبح ذهبية، ثم صفّها وقدّمها مع الملفوف."
-        ]
-      },
-      "tips": [
-        "اخبز الأقراص على 200 °م مع رشة زيت خفيفة بدل القلي العميق.",
-        "استخدم لحماً قليل الدهن وأضف بصلاً أو جزراً مبشوراً للحشوة.",
-        "تناول قطعة واحدة مع كمية كبيرة من الملفوف المبشور."
-      ]
-    },
-    "it": {
-      "name": "Korokke (crocchette giapponesi)",
-      "name_inline": "korokke",
-      "origin": "Giappone",
-      "intro": "I korokke sono crocchette giapponesi di purè di patate mescolato con carne di manzo macinata e cipolla saltate in padella, modellate a ovale, passate in farina, uovo e pangrattato panko e fritte in abbondante olio. Il guscio è leggero e molto croccante, l'interno morbido e cremoso. Si vendono nelle macellerie e nei minimarket e si mangiano come snack, nel bento o con cavolo tagliato fine.",
-      "history": "I korokke sono un adattamento giapponese della croquette francese, introdotto durante l'apertura alla cucina occidentale dell'era Meiji, alla fine del XIX secolo. Le versioni a base di patate sono diventate un cibo quotidiano economico all'inizio del XX secolo e restano un classico dello yoshoku, la cucina giapponese in stile occidentale.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g di patate farinose",
-          "200 g di carne di manzo macinata",
-          "1 cipolla tritata finemente",
-          "1 cucchiaio di olio vegetale, sale e pepe",
-          "50 g di farina di frumento",
-          "2 uova sbattute",
-          "100 g di pangrattato panko",
-          "Olio per friggere",
-          "Cavolo tagliato fine per servire"
-        ],
-        "steps": [
-          "Lessa le patate finché non sono tenere, scolale e schiacciale.",
-          "Soffriggi la cipolla nell'olio, aggiungi il manzo e cuoci finché non è rosolato; regola di sale e pepe.",
-          "Mescola il manzo con le patate e forma 8 ovali; lasciali in frigorifero per 15 minuti.",
-          "Passa ciascuno nella farina, poi nell'uovo e infine nel panko.",
-          "Friggi in abbondante olio a 175 °C per 3–4 minuti finché non sono dorati, scolali e servili con il cavolo."
-        ]
-      },
-      "tips": [
-        "Invece di friggerle, cuoci le crocchette in forno a 200 °C, spruzzate con un filo d'olio.",
-        "Usa manzo magro e aggiungi al ripieno altra cipolla o carota grattugiata.",
-        "Mangia una crocchetta con una grande porzione di cavolo tagliato fine."
-      ]
-    },
-    "el": {
-      "name": "Κορόκε (ιαπωνικές κροκέτες)",
-      "name_inline": "κορόκε",
-      "origin": "Ιαπωνία",
-      "intro": "Τα κορόκε είναι ιαπωνικές κροκέτες από πουρέ πατάτας ανακατεμένο με σοταρισμένο μοσχαρίσιο κιμά και κρεμμύδι, πλασμένες σε οβάλ, περασμένες από αλεύρι, αυγό και τριμμένη φρυγανιά πάνκο και τηγανισμένες σε άφθονο λάδι. Το κέλυφος είναι ελαφρύ και πολύ τραγανό, το εσωτερικό μαλακό και κρεμώδες. Πωλούνται σε κρεοπωλεία και μίνι μάρκετ και τρώγονται ως σνακ, σε μπέντο ή με ψιλοκομμένο λάχανο.",
-      "history": "Τα κορόκε είναι ιαπωνική προσαρμογή της γαλλικής κροκέτας, που εισήχθη στη διάρκεια του ανοίγματος της εποχής Μέιτζι στη δυτική μαγειρική, στα τέλη του 19ου αιώνα. Οι εκδοχές με βάση την πατάτα έγιναν φθηνό καθημερινό φαγητό στις αρχές του 20ού αιώνα και παραμένουν κλασικό πιάτο του γιοσόκου, της ιαπωνικής μαγειρικής δυτικού τύπου.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 γρ. αλευρώδεις πατάτες",
-          "200 γρ. μοσχαρίσιος κιμάς",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1 κ.σ. φυτικό λάδι, αλάτι και πιπέρι",
-          "50 γρ. αλεύρι σίτου",
-          "2 αυγά, χτυπημένα",
-          "100 γρ. φρυγανιά πάνκο",
-          "Λάδι για βαθύ τηγάνισμα",
-          "Ψιλοκομμένο λάχανο για το σερβίρισμα"
-        ],
-        "steps": [
-          "Βράστε τις πατάτες μέχρι να μαλακώσουν, στραγγίξτε και λιώστε τες.",
-          "Τσιγαρίστε το κρεμμύδι στο λάδι, προσθέστε τον κιμά και μαγειρέψτε μέχρι να ροδίσει· αλατοπιπερώστε.",
-          "Ανακατέψτε τον κιμά με την πατάτα και πλάστε 8 οβάλ· βάλτε τα στο ψυγείο για 15 λεπτά.",
-          "Περάστε το καθένα από αλεύρι, μετά από αυγό και μετά από πάνκο.",
-          "Τηγανίστε σε άφθονο λάδι στους 175 °C για 3–4 λεπτά μέχρι να ροδίσουν, στραγγίξτε και σερβίρετε με το λάχανο."
-        ]
-      },
-      "tips": [
-        "Ψήστε τις κροκέτες στον φούρνο στους 200 °C, ψεκασμένες με λίγο λάδι, αντί να τις τηγανίσετε.",
-        "Χρησιμοποιήστε άπαχο μοσχάρι και προσθέστε στη γέμιση επιπλέον κρεμμύδι ή τριμμένο καρότο.",
-        "Φάτε μία κροκέτα με μεγάλη μερίδα ψιλοκομμένο λάχανο."
-      ]
-    },
-    "ru": {
-      "name": "Короккэ (японские крокеты)",
-      "origin": "Япония",
-      "intro": "Короккэ — японские крокеты из картофельного пюре с жареным говяжьим фаршем и луком, сформованные овалами, обваленные в муке, яйце и сухарях панко и обжаренные во фритюре. Оболочка лёгкая и очень хрустящая, внутри мягко и сливочно. Их продают в мясных лавках и круглосуточных магазинах и едят как закуску, в бэнто или с нашинкованной капустой.",
-      "history": "Короккэ — японская адаптация французского крокета, появившаяся в период Мэйдзи, когда страна открылась западной кухне, в конце XIX века. Картофельные версии стали недорогой повседневной едой в начале XX века и остаются классикой ёсёку, японской кухни в западном стиле.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 г рассыпчатого картофеля",
-          "200 г говяжьего фарша",
-          "1 луковица, мелко нарубленная",
-          "1 ст. л. растительного масла, соль и перец",
-          "50 г пшеничной муки",
-          "2 яйца, взбитых",
-          "100 г сухарей панко",
-          "Масло для фритюра",
-          "Нашинкованная капуста для подачи"
-        ],
-        "steps": [
-          "Отварите картофель до мягкости, слейте воду и разомните.",
-          "Обжарьте лук в масле, добавьте говядину и готовьте до румяности; приправьте солью и перцем.",
-          "Смешайте говядину с картофелем и сформуйте 8 овалов; охладите 15 минут.",
-          "Обваляйте каждый в муке, затем в яйце, затем в панко.",
-          "Жарьте во фритюре при 175 °C 3–4 минуты до золотистого цвета, обсушите и подавайте с капустой."
-        ]
-      },
-      "tips": [
-        "Запекайте крокеты при 200 °C, сбрызнув небольшим количеством масла, вместо жарки во фритюре.",
-        "Используйте постную говядину и добавьте в начинку больше лука или тёртой моркови.",
-        "Съешьте одну крокету с большой порцией нашинкованной капусты."
-      ],
-      "name_inline": "короккэ"
-    }
+  "ar": {
+   "name": "كوروكيه (كروكيت ياباني)",
+   "origin": "اليابان",
+   "intro": "الكوروكيه كروكيت ياباني من البطاطا المهروسة الممزوجة باللحم البقري المفروم المقلي والبصل، يُشكَّل بيضاوياً ويُغطى بالدقيق والبيض وفتات خبز البانكو ثم يُقلى. قشرته خفيفة ومقرمشة جداً وداخله طري وكريمي. يُباع في محلات الجزارة والمتاجر الصغيرة ويؤكل كوجبة خفيفة أو في علبة البينتو أو مع الملفوف المبشور.",
+   "history": "الكوروكيه نسخة يابانية من الكروكيت الفرنسي، دخلت خلال انفتاح عصر ميجي على الطبخ الغربي في أواخر القرن التاسع عشر. وأصبحت نسخ البطاطا طعاماً يومياً رخيصاً في أوائل القرن العشرين، وما زالت من كلاسيكيات يوشوكو، أي المطبخ الياباني ذي الطابع الغربي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 غ بطاطا نشوية",
+     "200 غ لحم بقر مفروم",
+     "1 بصلة مفرومة ناعماً",
+     "1 ملعقة كبيرة زيت نباتي وملح وفلفل",
+     "50 غ دقيق قمح",
+     "2 بيضة مخفوقة",
+     "100 غ فتات خبز بانكو",
+     "زيت للقلي العميق",
+     "ملفوف مبشور للتقديم"
+    ],
+    "steps": [
+     "اسلق البطاطا حتى تنضج ثم صفّها واهرسها.",
+     "اقلِ البصل في الزيت، وأضف اللحم وقلّبه حتى يتحمّر، ثم تبّله بالملح والفلفل.",
+     "اخلط اللحم مع البطاطا وشكّل 8 أقراص بيضاوية، وبرّدها 15 دقيقة.",
+     "غطِّ كل قرص بالدقيق ثم البيض ثم البانكو.",
+     "اقلِها على 175 °م لمدة 3–4 دقائق حتى تصبح ذهبية، ثم صفّها وقدّمها مع الملفوف."
+    ]
+   },
+   "tips": [
+    "اخبز الأقراص على 200 °م مع رشة زيت خفيفة بدل القلي العميق.",
+    "استخدم لحماً قليل الدهن وأضف بصلاً أو جزراً مبشوراً للحشوة.",
+    "تناول قطعة واحدة مع كمية كبيرة من الملفوف المبشور."
+   ]
+  },
+  "it": {
+   "name": "Korokke (crocchette giapponesi)",
+   "name_inline": "korokke",
+   "origin": "Giappone",
+   "intro": "I korokke sono crocchette giapponesi di purè di patate mescolato con carne di manzo macinata e cipolla saltate in padella, modellate a ovale, passate in farina, uovo e pangrattato panko e fritte in abbondante olio. Il guscio è leggero e molto croccante, l'interno morbido e cremoso. Si vendono nelle macellerie e nei minimarket e si mangiano come snack, nel bento o con cavolo tagliato fine.",
+   "history": "I korokke sono un adattamento giapponese della croquette francese, introdotto durante l'apertura alla cucina occidentale dell'era Meiji, alla fine del XIX secolo. Le versioni a base di patate sono diventate un cibo quotidiano economico all'inizio del XX secolo e restano un classico dello yoshoku, la cucina giapponese in stile occidentale.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g di patate farinose",
+     "200 g di carne di manzo macinata",
+     "1 cipolla tritata finemente",
+     "1 cucchiaio di olio vegetale, sale e pepe",
+     "50 g di farina di frumento",
+     "2 uova sbattute",
+     "100 g di pangrattato panko",
+     "Olio per friggere",
+     "Cavolo tagliato fine per servire"
+    ],
+    "steps": [
+     "Lessa le patate finché non sono tenere, scolale e schiacciale.",
+     "Soffriggi la cipolla nell'olio, aggiungi il manzo e cuoci finché non è rosolato; regola di sale e pepe.",
+     "Mescola il manzo con le patate e forma 8 ovali; lasciali in frigorifero per 15 minuti.",
+     "Passa ciascuno nella farina, poi nell'uovo e infine nel panko.",
+     "Friggi in abbondante olio a 175 °C per 3–4 minuti finché non sono dorati, scolali e servili con il cavolo."
+    ]
+   },
+   "tips": [
+    "Invece di friggerle, cuoci le crocchette in forno a 200 °C, spruzzate con un filo d'olio.",
+    "Usa manzo magro e aggiungi al ripieno altra cipolla o carota grattugiata.",
+    "Mangia una crocchetta con una grande porzione di cavolo tagliato fine."
+   ]
+  },
+  "el": {
+   "name": "Κορόκε (ιαπωνικές κροκέτες)",
+   "name_inline": "κορόκε",
+   "origin": "Ιαπωνία",
+   "intro": "Τα κορόκε είναι ιαπωνικές κροκέτες από πουρέ πατάτας ανακατεμένο με σοταρισμένο μοσχαρίσιο κιμά και κρεμμύδι, πλασμένες σε οβάλ, περασμένες από αλεύρι, αυγό και τριμμένη φρυγανιά πάνκο και τηγανισμένες σε άφθονο λάδι. Το κέλυφος είναι ελαφρύ και πολύ τραγανό, το εσωτερικό μαλακό και κρεμώδες. Πωλούνται σε κρεοπωλεία και μίνι μάρκετ και τρώγονται ως σνακ, σε μπέντο ή με ψιλοκομμένο λάχανο.",
+   "history": "Τα κορόκε είναι ιαπωνική προσαρμογή της γαλλικής κροκέτας, που εισήχθη στη διάρκεια του ανοίγματος της εποχής Μέιτζι στη δυτική μαγειρική, στα τέλη του 19ου αιώνα. Οι εκδοχές με βάση την πατάτα έγιναν φθηνό καθημερινό φαγητό στις αρχές του 20ού αιώνα και παραμένουν κλασικό πιάτο του γιοσόκου, της ιαπωνικής μαγειρικής δυτικού τύπου.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 γρ. αλευρώδεις πατάτες",
+     "200 γρ. μοσχαρίσιος κιμάς",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1 κ.σ. φυτικό λάδι, αλάτι και πιπέρι",
+     "50 γρ. αλεύρι σίτου",
+     "2 αυγά, χτυπημένα",
+     "100 γρ. φρυγανιά πάνκο",
+     "Λάδι για βαθύ τηγάνισμα",
+     "Ψιλοκομμένο λάχανο για το σερβίρισμα"
+    ],
+    "steps": [
+     "Βράστε τις πατάτες μέχρι να μαλακώσουν, στραγγίξτε και λιώστε τες.",
+     "Τσιγαρίστε το κρεμμύδι στο λάδι, προσθέστε τον κιμά και μαγειρέψτε μέχρι να ροδίσει· αλατοπιπερώστε.",
+     "Ανακατέψτε τον κιμά με την πατάτα και πλάστε 8 οβάλ· βάλτε τα στο ψυγείο για 15 λεπτά.",
+     "Περάστε το καθένα από αλεύρι, μετά από αυγό και μετά από πάνκο.",
+     "Τηγανίστε σε άφθονο λάδι στους 175 °C για 3–4 λεπτά μέχρι να ροδίσουν, στραγγίξτε και σερβίρετε με το λάχανο."
+    ]
+   },
+   "tips": [
+    "Ψήστε τις κροκέτες στον φούρνο στους 200 °C, ψεκασμένες με λίγο λάδι, αντί να τις τηγανίσετε.",
+    "Χρησιμοποιήστε άπαχο μοσχάρι και προσθέστε στη γέμιση επιπλέον κρεμμύδι ή τριμμένο καρότο.",
+    "Φάτε μία κροκέτα με μεγάλη μερίδα ψιλοκομμένο λάχανο."
+   ]
+  },
+  "ru": {
+   "name": "Короккэ (японские крокеты)",
+   "origin": "Япония",
+   "intro": "Короккэ — японские крокеты из картофельного пюре с жареным говяжьим фаршем и луком, сформованные овалами, обваленные в муке, яйце и сухарях панко и обжаренные во фритюре. Оболочка лёгкая и очень хрустящая, внутри мягко и сливочно. Их продают в мясных лавках и круглосуточных магазинах и едят как закуску, в бэнто или с нашинкованной капустой.",
+   "history": "Короккэ — японская адаптация французского крокета, появившаяся в период Мэйдзи, когда страна открылась западной кухне, в конце XIX века. Картофельные версии стали недорогой повседневной едой в начале XX века и остаются классикой ёсёку, японской кухни в западном стиле.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 г рассыпчатого картофеля",
+     "200 г говяжьего фарша",
+     "1 луковица, мелко нарубленная",
+     "1 ст. л. растительного масла, соль и перец",
+     "50 г пшеничной муки",
+     "2 яйца, взбитых",
+     "100 г сухарей панко",
+     "Масло для фритюра",
+     "Нашинкованная капуста для подачи"
+    ],
+    "steps": [
+     "Отварите картофель до мягкости, слейте воду и разомните.",
+     "Обжарьте лук в масле, добавьте говядину и готовьте до румяности; приправьте солью и перцем.",
+     "Смешайте говядину с картофелем и сформуйте 8 овалов; охладите 15 минут.",
+     "Обваляйте каждый в муке, затем в яйце, затем в панко.",
+     "Жарьте во фритюре при 175 °C 3–4 минуты до золотистого цвета, обсушите и подавайте с капустой."
+    ]
+   },
+   "tips": [
+    "Запекайте крокеты при 200 °C, сбрызнув небольшим количеством масла, вместо жарки во фритюре.",
+    "Используйте постную говядину и добавьте в начинку больше лука или тёртой моркови.",
+    "Съешьте одну крокету с большой порцией нашинкованной капусты."
+   ],
+   "name_inline": "короккэ"
+  },
+  "es": {
+   "name": "Korokke (croquetas japonesas)",
+   "origin": "Japón",
+   "intro": "Los korokke son croquetas japonesas hechas con puré de papa mezclado con carne molida de res y cebolla fritas, formadas en óvalos, pasadas por harina, huevo y panko, y fritas en abundante aceite. La cubierta es ligera y muy crujiente, y el interior suave y cremoso. Se venden en carnicerías y tiendas de conveniencia, y se comen como botana, en un bento o con repollo rallado.",
+   "history": "Los korokke son una adaptación japonesa de la croqueta francesa, introducida durante la apertura a la cocina occidental de la era Meiji, a fines del siglo XIX. Las versiones a base de papa se volvieron una comida cotidiana y económica a principios del siglo XX, y siguen siendo un clásico del yoshoku, la cocina japonesa de estilo occidental.",
+   "recipe": {
+    "ingredients": [
+     "600 g de papas harinosas",
+     "200 g de carne molida de res",
+     "1 cebolla, picada fina",
+     "1 cda. de aceite vegetal, sal y pimienta",
+     "50 g de harina de trigo",
+     "2 huevos, batidos",
+     "100 g de panko",
+     "Aceite para freír",
+     "Repollo rallado para servir"
+    ],
+    "steps": [
+     "Hierve las papas hasta que estén tiernas, escúrrelas y hazlas puré.",
+     "Sofríe la cebolla en el aceite, agrega la carne y cocina hasta que se dore; sazona con sal y pimienta.",
+     "Mezcla la carne con el puré y forma 8 óvalos; refrigera 15 minutos.",
+     "Pasa cada uno por harina, luego por huevo y después por panko.",
+     "Fríe a 175 °C de 3 a 4 minutos hasta que estén dorados, escurre y sirve con el repollo."
+    ],
+    "servings": 4,
+    "time_min": 60
+   },
+   "tips": [
+    "Hornea las croquetas a 200 °C, rociadas con un poco de aceite, en lugar de freírlas.",
+    "Usa carne magra y agrega más cebolla o zanahoria rallada al relleno.",
+    "Come una croqueta con una porción grande de repollo rallado."
+   ],
+   "name_inline": "los korokke"
   }
+ }
 }

@@ -1,162 +1,192 @@
 {
-  "db_key": "calamari_fritti",
-  "slug": "calamari-fritti",
-  "emoji": "🦑",
-  "portion_g": 150,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "calamari_fritti",
+ "slug": "calamari-fritti",
+ "emoji": "🦑",
+ "portion_g": 150,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Calamari fritti",
+   "origin": "Italy",
+   "intro": "Calamari fritti are squid rings and tentacles dusted in flour and deep-fried until light and crisp. In Italy they are a fixture of the seaside fritto, and abroad they are usually served with lemon wedges and a bowl of warm marinara — a simple tomato, garlic and herb sauce — for dipping. Tender inside, crunchy outside, best eaten immediately.",
+   "history": "Fried squid is part of the fritto misto di mare served along Italy's coasts; the marinara dipping sauce is especially typical of Italian-American restaurants, where calamari fritti became a popular starter.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g cleaned squid, rings and tentacles",
+     "100 g plain flour",
+     "Oil for frying",
+     "Salt",
+     "1 lemon, cut into wedges",
+     "Marinara: 400 g canned tomatoes, 1 garlic clove, 1 tbsp olive oil, dried oregano"
+    ],
+    "steps": [
+     "Simmer the tomatoes with the garlic, olive oil, oregano and a pinch of salt for 15 minutes for the marinara.",
+     "Dry the squid well and toss it in the flour; shake off the excess.",
+     "Fry in hot oil (about 180 °C) in small batches for 1–2 minutes until golden.",
+     "Drain, salt lightly and serve with lemon and the warm marinara."
+    ]
+   },
+   "tips": [
+    "Marinara is a light dip — choose it over creamy sauces.",
+    "Share a portion as a starter rather than as a main.",
+    "Drain thoroughly and don't eat the crumbs at the bottom of the basket."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Calamari fritti",
-      "origin": "Italy",
-      "intro": "Calamari fritti are squid rings and tentacles dusted in flour and deep-fried until light and crisp. In Italy they are a fixture of the seaside fritto, and abroad they are usually served with lemon wedges and a bowl of warm marinara — a simple tomato, garlic and herb sauce — for dipping. Tender inside, crunchy outside, best eaten immediately.",
-      "history": "Fried squid is part of the fritto misto di mare served along Italy's coasts; the marinara dipping sauce is especially typical of Italian-American restaurants, where calamari fritti became a popular starter.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 g cleaned squid, rings and tentacles",
-          "100 g plain flour",
-          "Oil for frying",
-          "Salt",
-          "1 lemon, cut into wedges",
-          "Marinara: 400 g canned tomatoes, 1 garlic clove, 1 tbsp olive oil, dried oregano"
-        ],
-        "steps": [
-          "Simmer the tomatoes with the garlic, olive oil, oregano and a pinch of salt for 15 minutes for the marinara.",
-          "Dry the squid well and toss it in the flour; shake off the excess.",
-          "Fry in hot oil (about 180 °C) in small batches for 1–2 minutes until golden.",
-          "Drain, salt lightly and serve with lemon and the warm marinara."
-        ]
-      },
-      "tips": [
-        "Marinara is a light dip — choose it over creamy sauces.",
-        "Share a portion as a starter rather than as a main.",
-        "Drain thoroughly and don't eat the crumbs at the bottom of the basket."
-      ]
-    },
-    "ar": {
-      "name": "كاليماري مقلي",
-      "origin": "إيطاليا",
-      "intro": "كاليماري فريتي حلقات حبار ومجساته تُرشّ بالدقيق وتُقلى في زيت غزير حتى تصبح خفيفة ومقرمشة. في إيطاليا هي جزء ثابت من أطباق القلي الساحلية، وفي الخارج تُقدَّم عادة مع أقماع الليمون ووعاء من صلصة المارينارا الدافئة — صلصة بسيطة من الطماطم والثوم والأعشاب — للغمس. طرية من الداخل ومقرمشة من الخارج، وتؤكل فوراً.",
-      "history": "الحبار المقلي جزء من طبق «فريتو ميستو» البحري الذي يُقدَّم على سواحل إيطاليا، أما صلصة المارينارا للغمس فهي سمة مميزة للمطاعم الإيطالية الأمريكية حيث أصبح الكاليماري المقلي مقبلات شائعة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 غ حبار منظف، حلقات ومجسات",
-          "100 غ دقيق أبيض",
-          "زيت للقلي",
-          "ملح",
-          "1 ليمونة مقطعة أقماعاً",
-          "المارينارا: 400 غ طماطم معلبة، 1 فص ثوم، 1 ملعقة كبيرة زيت زيتون، أوريغانو مجفف"
-        ],
-        "steps": [
-          "لتحضير المارينارا، اطهُ الطماطم مع الثوم وزيت الزيتون والأوريغانو ورشة ملح 15 دقيقة.",
-          "جفّف الحبار جيداً وقلّبه في الدقيق، وانفض الزائد.",
-          "اقله في زيت ساخن (نحو 180 °م) على دفعات صغيرة دقيقة أو دقيقتين حتى يصبح ذهبياً.",
-          "صفّه ورشّ عليه قليلاً من الملح، وقدّمه مع الليمون والمارينارا الدافئة."
-        ]
-      },
-      "tips": [
-        "المارينارا غموس خفيف — اخترها بدل الصلصات الكريمية.",
-        "تقاسم الحصة كمقبلات لا كطبق رئيسي.",
-        "صفّه جيداً ولا تأكل الفتات في قاع السلة."
-      ]
-    },
-    "it": {
-      "name": "Calamari fritti",
-      "origin": "Italia",
-      "intro": "I calamari fritti sono anelli e tentacoli di calamaro infarinati e fritti in abbondante olio finché sono leggeri e croccanti. In Italia sono una presenza fissa del fritto di mare, e all'estero si servono di solito con spicchi di limone e una ciotola di marinara calda, una semplice salsa di pomodoro, aglio ed erbe, per intingere. Teneri dentro e croccanti fuori, vanno mangiati subito.",
-      "history": "Il calamaro fritto fa parte del fritto misto di mare servito lungo le coste italiane; la salsa marinara da intingere è tipica soprattutto dei ristoranti italo-americani, dove i calamari fritti sono diventati un antipasto molto popolare.",
-      "name_inline": "calamari fritti",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 g di calamari puliti, anelli e tentacoli",
-          "100 g di farina 00",
-          "Olio per friggere",
-          "Sale",
-          "1 limone a spicchi",
-          "Marinara: 400 g di pomodori in scatola, 1 spicchio d'aglio, 1 cucchiaio di olio d'oliva, origano secco"
-        ],
-        "steps": [
-          "Per la marinara, fai sobbollire i pomodori con l'aglio, l'olio d'oliva, l'origano e un pizzico di sale per 15 minuti.",
-          "Asciuga bene i calamari e passali nella farina; scuoti via l'eccesso.",
-          "Friggili nell'olio caldo (circa 180 °C) pochi alla volta per 1–2 minuti, finché sono dorati.",
-          "Scolali, salali leggermente e servili con il limone e la marinara calda."
-        ]
-      },
-      "tips": [
-        "La marinara è una salsa leggera: preferiscila alle salse cremose.",
-        "Dividi una porzione come antipasto invece di mangiarla come secondo.",
-        "Scolali bene e non mangiare le briciole sul fondo del cestino."
-      ]
-    },
-    "el": {
-      "name": "Καλαμαράκια τηγανητά (calamari fritti)",
-      "origin": "Ιταλία",
-      "intro": "Τα calamari fritti είναι ροδέλες και πλοκάμια καλαμαριού αλευρωμένα και τηγανισμένα σε άφθονο λάδι μέχρι να γίνουν ελαφριά και τραγανά. Στην Ιταλία είναι σταθερό κομμάτι του τηγανητού θαλασσινών (fritto di mare), ενώ στο εξωτερικό σερβίρονται συνήθως με κομμάτια λεμονιού και ένα μπολ ζεστή μαρινάρα — μια απλή σάλτσα ντομάτας, σκόρδου και μυρωδικών — για βούτηγμα. Τρυφερά μέσα, τραγανά έξω, τρώγονται καλύτερα αμέσως.",
-      "history": "Το τηγανητό καλαμάρι είναι μέρος του fritto misto di mare που σερβίρεται στις ιταλικές ακτές· η σάλτσα μαρινάρα για βούτηγμα είναι χαρακτηριστική κυρίως των ιταλοαμερικανικών εστιατορίων, όπου τα calamari fritti έγιναν δημοφιλές ορεκτικό.",
-      "name_inline": "τηγανητά καλαμαράκια",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 γρ. καθαρισμένα καλαμάρια, ροδέλες και πλοκάμια",
-          "100 γρ. αλεύρι για όλες τις χρήσεις",
-          "Λάδι για τηγάνισμα",
-          "Αλάτι",
-          "1 λεμόνι, σε κομμάτια",
-          "Μαρινάρα: 400 γρ. ντομάτες κονσέρβας, 1 σκελίδα σκόρδο, 1 κ.σ. ελαιόλαδο, ξερή ρίγανη"
-        ],
-        "steps": [
-          "Για τη μαρινάρα, σιγοβράστε τις ντομάτες με το σκόρδο, το ελαιόλαδο, τη ρίγανη και μια πρέζα αλάτι για 15 λεπτά.",
-          "Στεγνώστε καλά τα καλαμάρια και αλευρώστε τα· τινάξτε το περιττό αλεύρι.",
-          "Τηγανίστε σε καυτό λάδι (περίπου 180 °C) σε μικρές δόσεις για 1–2 λεπτά, μέχρι να ροδίσουν.",
-          "Στραγγίξτε, αλατίστε ελαφρά και σερβίρετε με λεμόνι και τη ζεστή μαρινάρα."
-        ]
-      },
-      "tips": [
-        "Η μαρινάρα είναι ελαφρύ ντιπ — προτιμήστε τη από τις κρεμώδεις σάλτσες.",
-        "Μοιραστείτε μια μερίδα ως ορεκτικό αντί για κυρίως πιάτο.",
-        "Στραγγίξτε τα καλά και μην τρώτε τα ψίχουλα στον πάτο του καλαθιού."
-      ]
-    },
-    "ru": {
-      "name": "Каламари фритти",
-      "origin": "Италия",
-      "intro": "Каламари фритти — кольца и щупальца кальмара, обвалянные в муке и обжаренные во фритюре до лёгкости и хруста. В Италии они — неотъемлемая часть приморского фритто, а за рубежом их обычно подают с дольками лимона и миской тёплого соуса маринара — простого соуса из помидоров, чеснока и трав — для макания. Нежные внутри, хрустящие снаружи, лучше всего их есть сразу.",
-      "history": "Жареный кальмар входит в фритто мисто ди маре, которое подают вдоль итальянского побережья; соус маринара для макания особенно характерен для итало-американских ресторанов, где каламари фритти стали популярной закуской.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 г очищенных кальмаров, кольца и щупальца",
-          "100 г пшеничной муки",
-          "Масло для жарки",
-          "Соль",
-          "1 лимон, нарезанный дольками",
-          "Маринара: 400 г консервированных помидоров, 1 зубчик чеснока, 1 ст. л. оливкового масла, сушёный орегано"
-        ],
-        "steps": [
-          "Для маринары варите помидоры с чесноком, оливковым маслом, орегано и щепоткой соли 15 минут.",
-          "Хорошо обсушите кальмаров и обваляйте в муке; стряхните излишки.",
-          "Жарьте в горячем масле (около 180 °C) небольшими порциями 1–2 минуты до золотистого цвета.",
-          "Обсушите, слегка посолите и подавайте с лимоном и тёплой маринарой."
-        ]
-      },
-      "tips": [
-        "Маринара — лёгкий соус для макания, выбирайте её вместо сливочных соусов.",
-        "Делите порцию как закуску, а не как основное блюдо.",
-        "Хорошо обсушите и не доедайте крошки со дна корзинки."
-      ],
-      "name_inline": "каламари фритти"
-    }
+  "ar": {
+   "name": "كاليماري مقلي",
+   "origin": "إيطاليا",
+   "intro": "كاليماري فريتي حلقات حبار ومجساته تُرشّ بالدقيق وتُقلى في زيت غزير حتى تصبح خفيفة ومقرمشة. في إيطاليا هي جزء ثابت من أطباق القلي الساحلية، وفي الخارج تُقدَّم عادة مع أقماع الليمون ووعاء من صلصة المارينارا الدافئة — صلصة بسيطة من الطماطم والثوم والأعشاب — للغمس. طرية من الداخل ومقرمشة من الخارج، وتؤكل فوراً.",
+   "history": "الحبار المقلي جزء من طبق «فريتو ميستو» البحري الذي يُقدَّم على سواحل إيطاليا، أما صلصة المارينارا للغمس فهي سمة مميزة للمطاعم الإيطالية الأمريكية حيث أصبح الكاليماري المقلي مقبلات شائعة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 غ حبار منظف، حلقات ومجسات",
+     "100 غ دقيق أبيض",
+     "زيت للقلي",
+     "ملح",
+     "1 ليمونة مقطعة أقماعاً",
+     "المارينارا: 400 غ طماطم معلبة، 1 فص ثوم، 1 ملعقة كبيرة زيت زيتون، أوريغانو مجفف"
+    ],
+    "steps": [
+     "لتحضير المارينارا، اطهُ الطماطم مع الثوم وزيت الزيتون والأوريغانو ورشة ملح 15 دقيقة.",
+     "جفّف الحبار جيداً وقلّبه في الدقيق، وانفض الزائد.",
+     "اقله في زيت ساخن (نحو 180 °م) على دفعات صغيرة دقيقة أو دقيقتين حتى يصبح ذهبياً.",
+     "صفّه ورشّ عليه قليلاً من الملح، وقدّمه مع الليمون والمارينارا الدافئة."
+    ]
+   },
+   "tips": [
+    "المارينارا غموس خفيف — اخترها بدل الصلصات الكريمية.",
+    "تقاسم الحصة كمقبلات لا كطبق رئيسي.",
+    "صفّه جيداً ولا تأكل الفتات في قاع السلة."
+   ]
+  },
+  "it": {
+   "name": "Calamari fritti",
+   "origin": "Italia",
+   "intro": "I calamari fritti sono anelli e tentacoli di calamaro infarinati e fritti in abbondante olio finché sono leggeri e croccanti. In Italia sono una presenza fissa del fritto di mare, e all'estero si servono di solito con spicchi di limone e una ciotola di marinara calda, una semplice salsa di pomodoro, aglio ed erbe, per intingere. Teneri dentro e croccanti fuori, vanno mangiati subito.",
+   "history": "Il calamaro fritto fa parte del fritto misto di mare servito lungo le coste italiane; la salsa marinara da intingere è tipica soprattutto dei ristoranti italo-americani, dove i calamari fritti sono diventati un antipasto molto popolare.",
+   "name_inline": "calamari fritti",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g di calamari puliti, anelli e tentacoli",
+     "100 g di farina 00",
+     "Olio per friggere",
+     "Sale",
+     "1 limone a spicchi",
+     "Marinara: 400 g di pomodori in scatola, 1 spicchio d'aglio, 1 cucchiaio di olio d'oliva, origano secco"
+    ],
+    "steps": [
+     "Per la marinara, fai sobbollire i pomodori con l'aglio, l'olio d'oliva, l'origano e un pizzico di sale per 15 minuti.",
+     "Asciuga bene i calamari e passali nella farina; scuoti via l'eccesso.",
+     "Friggili nell'olio caldo (circa 180 °C) pochi alla volta per 1–2 minuti, finché sono dorati.",
+     "Scolali, salali leggermente e servili con il limone e la marinara calda."
+    ]
+   },
+   "tips": [
+    "La marinara è una salsa leggera: preferiscila alle salse cremose.",
+    "Dividi una porzione come antipasto invece di mangiarla come secondo.",
+    "Scolali bene e non mangiare le briciole sul fondo del cestino."
+   ]
+  },
+  "el": {
+   "name": "Καλαμαράκια τηγανητά (calamari fritti)",
+   "origin": "Ιταλία",
+   "intro": "Τα calamari fritti είναι ροδέλες και πλοκάμια καλαμαριού αλευρωμένα και τηγανισμένα σε άφθονο λάδι μέχρι να γίνουν ελαφριά και τραγανά. Στην Ιταλία είναι σταθερό κομμάτι του τηγανητού θαλασσινών (fritto di mare), ενώ στο εξωτερικό σερβίρονται συνήθως με κομμάτια λεμονιού και ένα μπολ ζεστή μαρινάρα — μια απλή σάλτσα ντομάτας, σκόρδου και μυρωδικών — για βούτηγμα. Τρυφερά μέσα, τραγανά έξω, τρώγονται καλύτερα αμέσως.",
+   "history": "Το τηγανητό καλαμάρι είναι μέρος του fritto misto di mare που σερβίρεται στις ιταλικές ακτές· η σάλτσα μαρινάρα για βούτηγμα είναι χαρακτηριστική κυρίως των ιταλοαμερικανικών εστιατορίων, όπου τα calamari fritti έγιναν δημοφιλές ορεκτικό.",
+   "name_inline": "τηγανητά καλαμαράκια",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 γρ. καθαρισμένα καλαμάρια, ροδέλες και πλοκάμια",
+     "100 γρ. αλεύρι για όλες τις χρήσεις",
+     "Λάδι για τηγάνισμα",
+     "Αλάτι",
+     "1 λεμόνι, σε κομμάτια",
+     "Μαρινάρα: 400 γρ. ντομάτες κονσέρβας, 1 σκελίδα σκόρδο, 1 κ.σ. ελαιόλαδο, ξερή ρίγανη"
+    ],
+    "steps": [
+     "Για τη μαρινάρα, σιγοβράστε τις ντομάτες με το σκόρδο, το ελαιόλαδο, τη ρίγανη και μια πρέζα αλάτι για 15 λεπτά.",
+     "Στεγνώστε καλά τα καλαμάρια και αλευρώστε τα· τινάξτε το περιττό αλεύρι.",
+     "Τηγανίστε σε καυτό λάδι (περίπου 180 °C) σε μικρές δόσεις για 1–2 λεπτά, μέχρι να ροδίσουν.",
+     "Στραγγίξτε, αλατίστε ελαφρά και σερβίρετε με λεμόνι και τη ζεστή μαρινάρα."
+    ]
+   },
+   "tips": [
+    "Η μαρινάρα είναι ελαφρύ ντιπ — προτιμήστε τη από τις κρεμώδεις σάλτσες.",
+    "Μοιραστείτε μια μερίδα ως ορεκτικό αντί για κυρίως πιάτο.",
+    "Στραγγίξτε τα καλά και μην τρώτε τα ψίχουλα στον πάτο του καλαθιού."
+   ]
+  },
+  "ru": {
+   "name": "Каламари фритти",
+   "origin": "Италия",
+   "intro": "Каламари фритти — кольца и щупальца кальмара, обвалянные в муке и обжаренные во фритюре до лёгкости и хруста. В Италии они — неотъемлемая часть приморского фритто, а за рубежом их обычно подают с дольками лимона и миской тёплого соуса маринара — простого соуса из помидоров, чеснока и трав — для макания. Нежные внутри, хрустящие снаружи, лучше всего их есть сразу.",
+   "history": "Жареный кальмар входит в фритто мисто ди маре, которое подают вдоль итальянского побережья; соус маринара для макания особенно характерен для итало-американских ресторанов, где каламари фритти стали популярной закуской.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 г очищенных кальмаров, кольца и щупальца",
+     "100 г пшеничной муки",
+     "Масло для жарки",
+     "Соль",
+     "1 лимон, нарезанный дольками",
+     "Маринара: 400 г консервированных помидоров, 1 зубчик чеснока, 1 ст. л. оливкового масла, сушёный орегано"
+    ],
+    "steps": [
+     "Для маринары варите помидоры с чесноком, оливковым маслом, орегано и щепоткой соли 15 минут.",
+     "Хорошо обсушите кальмаров и обваляйте в муке; стряхните излишки.",
+     "Жарьте в горячем масле (около 180 °C) небольшими порциями 1–2 минуты до золотистого цвета.",
+     "Обсушите, слегка посолите и подавайте с лимоном и тёплой маринарой."
+    ]
+   },
+   "tips": [
+    "Маринара — лёгкий соус для макания, выбирайте её вместо сливочных соусов.",
+    "Делите порцию как закуску, а не как основное блюдо.",
+    "Хорошо обсушите и не доедайте крошки со дна корзинки."
+   ],
+   "name_inline": "каламари фритти"
+  },
+  "es": {
+   "name": "Calamari fritti",
+   "origin": "Italia",
+   "intro": "Los calamari fritti son anillos y tentáculos de calamar enharinados y fritos en abundante aceite hasta quedar ligeros y crujientes. En Italia son un clásico del fritto de la costa, y fuera del país suelen servirse con gajos de limón y un tazón de marinara tibia, una salsa sencilla de jitomate, ajo y hierbas, para mojar. Tiernos por dentro, crujientes por fuera, se comen mejor de inmediato.",
+   "history": "El calamar frito forma parte del fritto misto di mare que se sirve a lo largo de las costas de Italia; la salsa marinara para mojar es especialmente típica de los restaurantes ítalo-americanos, donde los calamari fritti se hicieron una entrada popular.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g de calamar limpio, en anillos y tentáculos",
+     "100 g de harina de trigo",
+     "Aceite para freír",
+     "Sal",
+     "1 limón, en gajos",
+     "Marinara: 400 g de jitomates en lata, 1 diente de ajo, 1 cda. de aceite de oliva, orégano seco"
+    ],
+    "steps": [
+     "Para la marinara, cuece a fuego lento los jitomates con el ajo, el aceite de oliva, el orégano y una pizca de sal durante 15 minutos.",
+     "Seca bien el calamar y pásalo por la harina; sacude el exceso.",
+     "Fríe en aceite caliente (unos 180 °C) en tandas pequeñas de 1 a 2 minutos, hasta que esté dorado.",
+     "Escurre, sala ligeramente y sirve con el limón y la marinara tibia."
+    ]
+   },
+   "tips": [
+    "La marinara es un dip ligero: elígela en lugar de salsas cremosas.",
+    "Comparte una porción como entrada en vez de comerla como plato principal.",
+    "Escurre bien y no te comas las migas del fondo de la canasta."
+   ],
+   "name_inline": "los calamari fritti"
   }
+ }
 }

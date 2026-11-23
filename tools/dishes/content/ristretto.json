@@ -1,140 +1,166 @@
 {
-  "db_key": "ristretto",
-  "slug": "ristretto",
-  "emoji": "☕",
-  "portion_g": 20,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "ristretto",
+ "slug": "ristretto",
+ "emoji": "☕",
+ "portion_g": 20,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Ristretto",
+   "origin": "Italy",
+   "intro": "A ristretto is a 'restricted' espresso: the same dose of finely ground coffee pulled with roughly half the water, giving about 15–20 ml. Because the shot is cut short, it is thicker, sweeter and less bitter than a regular espresso, with an intense aroma and a heavy crema. It is drunk in one or two sips, usually at the bar.",
+   "history": "The ristretto grew out of Italian espresso culture, where the name simply means 'restricted' or 'short'. It is ordered today in cafés worldwide by those who want a more concentrated shot.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "15–18 g espresso coffee, finely ground",
+     "20 ml water (through the machine)",
+     "Sugar to taste (optional)"
+    ],
+    "steps": [
+     "Dose and tamp the ground coffee in the portafilter as for espresso.",
+     "Start the shot and stop it after about 15 seconds, at roughly 20 ml.",
+     "Serve immediately in a warmed small cup."
+    ]
+   },
+   "tips": [
+    "A plain ristretto has almost no calories — about 1 kcal per cup.",
+    "Each teaspoon of sugar adds about 16 kcal; try it unsweetened since it is naturally less bitter.",
+    "Keep it as a short shot rather than a large sweetened coffee drink."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Ristretto",
-      "origin": "Italy",
-      "intro": "A ristretto is a 'restricted' espresso: the same dose of finely ground coffee pulled with roughly half the water, giving about 15–20 ml. Because the shot is cut short, it is thicker, sweeter and less bitter than a regular espresso, with an intense aroma and a heavy crema. It is drunk in one or two sips, usually at the bar.",
-      "history": "The ristretto grew out of Italian espresso culture, where the name simply means 'restricted' or 'short'. It is ordered today in cafés worldwide by those who want a more concentrated shot.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "15–18 g espresso coffee, finely ground",
-          "20 ml water (through the machine)",
-          "Sugar to taste (optional)"
-        ],
-        "steps": [
-          "Dose and tamp the ground coffee in the portafilter as for espresso.",
-          "Start the shot and stop it after about 15 seconds, at roughly 20 ml.",
-          "Serve immediately in a warmed small cup."
-        ]
-      },
-      "tips": [
-        "A plain ristretto has almost no calories — about 1 kcal per cup.",
-        "Each teaspoon of sugar adds about 16 kcal; try it unsweetened since it is naturally less bitter.",
-        "Keep it as a short shot rather than a large sweetened coffee drink."
-      ]
-    },
-    "ar": {
-      "name": "ريستريتو",
-      "origin": "إيطاليا",
-      "intro": "الريستريتو إسبريسو «مقيَّد»: الكمية نفسها من البن المطحون ناعماً تُستخلص بنحو نصف الماء، فينتج 15–20 مل تقريباً. ولأن الاستخلاص يُوقف مبكراً، يكون أكثف وأحلى وأقل مرارة من الإسبريسو العادي، برائحة قوية وكريما كثيفة. يُشرب في رشفة أو اثنتين، عادةً واقفاً عند البار.",
-      "history": "نشأ الريستريتو من ثقافة الإسبريسو الإيطالية، ويعني اسمه ببساطة «المقيَّد» أو «القصير». ويُطلب اليوم في المقاهي حول العالم لمن يريد جرعة أكثر تركيزاً.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "15–18 غ بن إسبريسو مطحون ناعماً",
-          "20 مل ماء (عبر الآلة)",
-          "سكر حسب الرغبة (اختياري)"
-        ],
-        "steps": [
-          "ضع البن واكبسه في حامل الفلتر كما في الإسبريسو.",
-          "ابدأ الاستخلاص وأوقفه بعد نحو 15 ثانية عند 20 مل تقريباً.",
-          "قدّمه فوراً في فنجان صغير دافئ."
-        ]
-      },
-      "tips": [
-        "الريستريتو السادة شبه خالٍ من السعرات — نحو سعرة واحدة للفنجان.",
-        "كل ملعقة صغيرة سكر تضيف نحو 16 سعرة؛ جرّبه بلا سكر فهو أقل مرارة بطبيعته.",
-        "اكتفِ به جرعة قصيرة بدل مشروب قهوة كبير محلّى."
-      ]
-    },
-    "it": {
-      "name": "Ristretto",
-      "origin": "Italia",
-      "intro": "Il ristretto è un espresso «ristretto»: la stessa dose di caffè macinato fine estratta con circa metà dell'acqua, per un risultato di circa 15–20 ml. Poiché l'estrazione viene interrotta prima, è più denso, più dolce e meno amaro di un espresso normale, con un aroma intenso e una crema corposa. Si beve in uno o due sorsi, di solito al bancone del bar.",
-      "history": "Il ristretto nasce dalla cultura italiana dell'espresso, dove il nome significa semplicemente «ristretto» o «corto». Oggi si ordina nei caffè di tutto il mondo da chi desidera un caffè più concentrato.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "15–18 g di caffè per espresso, macinato fine",
-          "20 ml di acqua (attraverso la macchina)",
-          "Zucchero a piacere (facoltativo)"
-        ],
-        "steps": [
-          "Dosa e pressa il caffè macinato nel portafiltro come per l'espresso.",
-          "Avvia l'erogazione e fermala dopo circa 15 secondi, a circa 20 ml.",
-          "Servi subito in una tazzina riscaldata."
-        ]
-      },
-      "tips": [
-        "Un ristretto senza zucchero non ha quasi calorie: circa 1 kcal a tazzina.",
-        "Ogni cucchiaino di zucchero aggiunge circa 16 kcal; prova a berlo senza zucchero, visto che è naturalmente meno amaro.",
-        "Mantienilo come caffè corto invece di una grande bevanda al caffè zuccherata."
-      ]
-    },
-    "el": {
-      "name": "Ριστρέτο",
-      "origin": "Ιταλία",
-      "intro": "Το ριστρέτο είναι ένας «περιορισμένος» εσπρέσο: η ίδια δόση ψιλοαλεσμένου καφέ με περίπου τη μισή ποσότητα νερού, που δίνει περίπου 15–20 ml. Επειδή η εκχύλιση σταματά νωρίτερα, είναι πιο πηχτός, πιο γλυκός και λιγότερο πικρός από έναν κανονικό εσπρέσο, με έντονο άρωμα και πλούσια κρέμα. Πίνεται σε μία ή δύο γουλιές, συνήθως στον πάγκο του μπαρ.",
-      "history": "Το ριστρέτο γεννήθηκε από την ιταλική κουλτούρα του εσπρέσο, όπου η λέξη σημαίνει απλώς «περιορισμένος» ή «κοντός». Σήμερα το παραγγέλνουν σε καφέ σε όλο τον κόσμο όσοι θέλουν πιο συμπυκνωμένο καφέ.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "15–18 γρ. καφές εσπρέσο, ψιλοαλεσμένος",
-          "20 ml νερό (μέσα από τη μηχανή)",
-          "Ζάχαρη κατά βούληση (προαιρετικά)"
-        ],
-        "steps": [
-          "Βάλτε τη δόση καφέ στο φίλτρο (portafilter) και πατήστε τη όπως για εσπρέσο.",
-          "Ξεκινήστε την εκχύλιση και σταματήστε τη μετά από περίπου 15 δευτερόλεπτα, στα 20 ml περίπου.",
-          "Σερβίρετε αμέσως σε ζεσταμένο φλιτζανάκι."
-        ]
-      },
-      "tips": [
-        "Ένα σκέτο ριστρέτο δεν έχει σχεδόν καθόλου θερμίδες — περίπου 1 kcal ανά φλιτζάνι.",
-        "Κάθε κουταλάκι ζάχαρη προσθέτει περίπου 16 kcal· δοκιμάστε το χωρίς ζάχαρη, αφού είναι από τη φύση του λιγότερο πικρό.",
-        "Προτιμήστε το ως κοντό καφέ αντί για ένα μεγάλο ζαχαρωμένο ρόφημα καφέ."
-      ]
-    },
-    "ru": {
-      "name": "Ристретто",
-      "origin": "Италия",
-      "intro": "Ристретто — «ограниченный» эспрессо: та же доза тонко помолотого кофе, пропущенная примерно с половиной воды, в результате получается около 15–20 мл. Поскольку порция прерывается раньше, напиток получается гуще, слаще и менее горьким, чем обычный эспрессо, с насыщенным ароматом и плотной кремой. Его выпивают в один-два глотка, обычно у барной стойки.",
-      "history": "Ристретто возникло из итальянской культуры эспрессо, где название просто означает «ограниченный» или «короткий». Сегодня его заказывают в кафе по всему миру те, кто хочет более концентрированный напиток.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "15–18 г кофе для эспрессо, тонкого помола",
-          "20 мл воды (через кофемашину)",
-          "Сахар по вкусу (по желанию)"
-        ],
-        "steps": [
-          "Насыпьте и утрамбуйте молотый кофе в холдере, как для эспрессо.",
-          "Запустите приготовление и остановите его примерно через 15 секунд, при объёме около 20 мл.",
-          "Сразу подавайте в подогретой маленькой чашке."
-        ]
-      },
-      "tips": [
-        "Простое ристретто почти не содержит калорий — около 1 ккал на чашку.",
-        "Каждая чайная ложка сахара добавляет около 16 ккал; попробуйте без сахара, ведь он от природы менее горький.",
-        "Пейте его как короткую порцию, а не как большой сладкий кофейный напиток."
-      ],
-      "name_inline": "ристретто"
-    }
+  "ar": {
+   "name": "ريستريتو",
+   "origin": "إيطاليا",
+   "intro": "الريستريتو إسبريسو «مقيَّد»: الكمية نفسها من البن المطحون ناعماً تُستخلص بنحو نصف الماء، فينتج 15–20 مل تقريباً. ولأن الاستخلاص يُوقف مبكراً، يكون أكثف وأحلى وأقل مرارة من الإسبريسو العادي، برائحة قوية وكريما كثيفة. يُشرب في رشفة أو اثنتين، عادةً واقفاً عند البار.",
+   "history": "نشأ الريستريتو من ثقافة الإسبريسو الإيطالية، ويعني اسمه ببساطة «المقيَّد» أو «القصير». ويُطلب اليوم في المقاهي حول العالم لمن يريد جرعة أكثر تركيزاً.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "15–18 غ بن إسبريسو مطحون ناعماً",
+     "20 مل ماء (عبر الآلة)",
+     "سكر حسب الرغبة (اختياري)"
+    ],
+    "steps": [
+     "ضع البن واكبسه في حامل الفلتر كما في الإسبريسو.",
+     "ابدأ الاستخلاص وأوقفه بعد نحو 15 ثانية عند 20 مل تقريباً.",
+     "قدّمه فوراً في فنجان صغير دافئ."
+    ]
+   },
+   "tips": [
+    "الريستريتو السادة شبه خالٍ من السعرات — نحو سعرة واحدة للفنجان.",
+    "كل ملعقة صغيرة سكر تضيف نحو 16 سعرة؛ جرّبه بلا سكر فهو أقل مرارة بطبيعته.",
+    "اكتفِ به جرعة قصيرة بدل مشروب قهوة كبير محلّى."
+   ]
+  },
+  "it": {
+   "name": "Ristretto",
+   "origin": "Italia",
+   "intro": "Il ristretto è un espresso «ristretto»: la stessa dose di caffè macinato fine estratta con circa metà dell'acqua, per un risultato di circa 15–20 ml. Poiché l'estrazione viene interrotta prima, è più denso, più dolce e meno amaro di un espresso normale, con un aroma intenso e una crema corposa. Si beve in uno o due sorsi, di solito al bancone del bar.",
+   "history": "Il ristretto nasce dalla cultura italiana dell'espresso, dove il nome significa semplicemente «ristretto» o «corto». Oggi si ordina nei caffè di tutto il mondo da chi desidera un caffè più concentrato.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "15–18 g di caffè per espresso, macinato fine",
+     "20 ml di acqua (attraverso la macchina)",
+     "Zucchero a piacere (facoltativo)"
+    ],
+    "steps": [
+     "Dosa e pressa il caffè macinato nel portafiltro come per l'espresso.",
+     "Avvia l'erogazione e fermala dopo circa 15 secondi, a circa 20 ml.",
+     "Servi subito in una tazzina riscaldata."
+    ]
+   },
+   "tips": [
+    "Un ristretto senza zucchero non ha quasi calorie: circa 1 kcal a tazzina.",
+    "Ogni cucchiaino di zucchero aggiunge circa 16 kcal; prova a berlo senza zucchero, visto che è naturalmente meno amaro.",
+    "Mantienilo come caffè corto invece di una grande bevanda al caffè zuccherata."
+   ]
+  },
+  "el": {
+   "name": "Ριστρέτο",
+   "origin": "Ιταλία",
+   "intro": "Το ριστρέτο είναι ένας «περιορισμένος» εσπρέσο: η ίδια δόση ψιλοαλεσμένου καφέ με περίπου τη μισή ποσότητα νερού, που δίνει περίπου 15–20 ml. Επειδή η εκχύλιση σταματά νωρίτερα, είναι πιο πηχτός, πιο γλυκός και λιγότερο πικρός από έναν κανονικό εσπρέσο, με έντονο άρωμα και πλούσια κρέμα. Πίνεται σε μία ή δύο γουλιές, συνήθως στον πάγκο του μπαρ.",
+   "history": "Το ριστρέτο γεννήθηκε από την ιταλική κουλτούρα του εσπρέσο, όπου η λέξη σημαίνει απλώς «περιορισμένος» ή «κοντός». Σήμερα το παραγγέλνουν σε καφέ σε όλο τον κόσμο όσοι θέλουν πιο συμπυκνωμένο καφέ.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "15–18 γρ. καφές εσπρέσο, ψιλοαλεσμένος",
+     "20 ml νερό (μέσα από τη μηχανή)",
+     "Ζάχαρη κατά βούληση (προαιρετικά)"
+    ],
+    "steps": [
+     "Βάλτε τη δόση καφέ στο φίλτρο (portafilter) και πατήστε τη όπως για εσπρέσο.",
+     "Ξεκινήστε την εκχύλιση και σταματήστε τη μετά από περίπου 15 δευτερόλεπτα, στα 20 ml περίπου.",
+     "Σερβίρετε αμέσως σε ζεσταμένο φλιτζανάκι."
+    ]
+   },
+   "tips": [
+    "Ένα σκέτο ριστρέτο δεν έχει σχεδόν καθόλου θερμίδες — περίπου 1 kcal ανά φλιτζάνι.",
+    "Κάθε κουταλάκι ζάχαρη προσθέτει περίπου 16 kcal· δοκιμάστε το χωρίς ζάχαρη, αφού είναι από τη φύση του λιγότερο πικρό.",
+    "Προτιμήστε το ως κοντό καφέ αντί για ένα μεγάλο ζαχαρωμένο ρόφημα καφέ."
+   ]
+  },
+  "ru": {
+   "name": "Ристретто",
+   "origin": "Италия",
+   "intro": "Ристретто — «ограниченный» эспрессо: та же доза тонко помолотого кофе, пропущенная примерно с половиной воды, в результате получается около 15–20 мл. Поскольку порция прерывается раньше, напиток получается гуще, слаще и менее горьким, чем обычный эспрессо, с насыщенным ароматом и плотной кремой. Его выпивают в один-два глотка, обычно у барной стойки.",
+   "history": "Ристретто возникло из итальянской культуры эспрессо, где название просто означает «ограниченный» или «короткий». Сегодня его заказывают в кафе по всему миру те, кто хочет более концентрированный напиток.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "15–18 г кофе для эспрессо, тонкого помола",
+     "20 мл воды (через кофемашину)",
+     "Сахар по вкусу (по желанию)"
+    ],
+    "steps": [
+     "Насыпьте и утрамбуйте молотый кофе в холдере, как для эспрессо.",
+     "Запустите приготовление и остановите его примерно через 15 секунд, при объёме около 20 мл.",
+     "Сразу подавайте в подогретой маленькой чашке."
+    ]
+   },
+   "tips": [
+    "Простое ристретто почти не содержит калорий — около 1 ккал на чашку.",
+    "Каждая чайная ложка сахара добавляет около 16 ккал; попробуйте без сахара, ведь он от природы менее горький.",
+    "Пейте его как короткую порцию, а не как большой сладкий кофейный напиток."
+   ],
+   "name_inline": "ристретто"
+  },
+  "es": {
+   "name": "Ristretto",
+   "origin": "Italia",
+   "intro": "El ristretto es un espresso «restringido»: la misma dosis de café finamente molido extraída con aproximadamente la mitad del agua, lo que da unos 15–20 ml. Al cortarse el shot, resulta más espeso, más dulce y menos amargo que un espresso normal, con un aroma intenso y una crema abundante. Se toma en uno o dos sorbos, normalmente en la barra.",
+   "history": "El ristretto surgió de la cultura italiana del espresso, donde el nombre significa simplemente «restringido» o «corto». Hoy lo piden en cafeterías de todo el mundo quienes buscan un shot más concentrado.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "15–18 g de café para espresso, finamente molido",
+     "20 ml de agua (a través de la máquina)",
+     "Azúcar al gusto (opcional)"
+    ],
+    "steps": [
+     "Dosifica y compacta el café molido en el portafiltro como para un espresso.",
+     "Inicia la extracción y detenla a los 15 segundos aproximadamente, con unos 20 ml.",
+     "Sirve de inmediato en una taza pequeña precalentada."
+    ]
+   },
+   "tips": [
+    "Un ristretto solo casi no tiene calorías: alrededor de 1 kcal por taza.",
+    "Cada cucharadita de azúcar suma unas 16 kcal; pruébalo sin endulzar, ya que es naturalmente menos amargo.",
+    "Mantenlo como un shot corto en lugar de una bebida grande de café endulzado."
+   ],
+   "name_inline": "el ristretto"
   }
+ }
 }

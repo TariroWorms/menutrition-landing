@@ -1,180 +1,214 @@
 {
-  "db_key": "bouillabaisse",
-  "slug": "bouillabaisse",
-  "emoji": "🍲",
-  "portion_g": 450,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bouillabaisse",
+ "slug": "bouillabaisse",
+ "emoji": "🍲",
+ "portion_g": 450,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bouillabaisse",
+   "origin": "France · Marseille, Provence",
+   "intro": "Bouillabaisse is the famous fish stew of Marseille: several kinds of white fish, shrimp and mussels simmered in a broth of tomato, garlic, fennel and saffron. The broth turns deep orange and fragrant, while the seafood stays tender. It is traditionally served in two parts — the broth first, then the fish and shellfish on a platter.",
+   "history": "Bouillabaisse began as a fishermen's meal in Marseille, made from the bony rockfish left unsold at the end of the day. The name is usually explained as coming from Provençal words meaning “to boil” and “to lower the heat”. In the 19th and 20th centuries it moved from harbour kitchens to restaurants, and some Marseille chefs later signed a charter describing the classic version.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "800 g mixed firm white fish fillets (e.g. monkfish, gurnard, hake), in large pieces",
+     "300 g raw shrimp, shells on",
+     "500 g mussels, cleaned",
+     "4 ripe tomatoes, chopped",
+     "1 fennel bulb, thinly sliced",
+     "1 onion and 4 garlic cloves, chopped",
+     "A good pinch of saffron threads",
+     "3 tbsp olive oil, 1 strip of orange peel, 2 bay leaves, thyme",
+     "1.5 litres water, salt and pepper"
+    ],
+    "steps": [
+     "Warm the olive oil in a wide pot and soften the onion, fennel and garlic for 8 minutes.",
+     "Add the tomatoes, orange peel, bay, thyme and saffron, pour in the water, season and simmer for 25 minutes.",
+     "Add the firmest fish first and simmer for 5 minutes, then the more delicate pieces and the shrimp for 3–4 minutes.",
+     "Add the mussels, cover and cook for 3–4 minutes until they open; discard any that stay closed.",
+     "Lift the seafood onto a warm platter and serve the broth in bowls alongside."
+    ]
+   },
+   "tips": [
+    "Seafood is lean — the calories come mostly from oil, so 2 tbsp instead of 3–4 saves about 120–240 kcal per pot.",
+    "Fill the bowl with more broth and fennel and a smaller pile of fish for a lighter plate.",
+    "Skim the shiny oil from the surface of the broth before serving."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bouillabaisse",
-      "origin": "France · Marseille, Provence",
-      "intro": "Bouillabaisse is the famous fish stew of Marseille: several kinds of white fish, shrimp and mussels simmered in a broth of tomato, garlic, fennel and saffron. The broth turns deep orange and fragrant, while the seafood stays tender. It is traditionally served in two parts — the broth first, then the fish and shellfish on a platter.",
-      "history": "Bouillabaisse began as a fishermen's meal in Marseille, made from the bony rockfish left unsold at the end of the day. The name is usually explained as coming from Provençal words meaning “to boil” and “to lower the heat”. In the 19th and 20th centuries it moved from harbour kitchens to restaurants, and some Marseille chefs later signed a charter describing the classic version.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "800 g mixed firm white fish fillets (e.g. monkfish, gurnard, hake), in large pieces",
-          "300 g raw shrimp, shells on",
-          "500 g mussels, cleaned",
-          "4 ripe tomatoes, chopped",
-          "1 fennel bulb, thinly sliced",
-          "1 onion and 4 garlic cloves, chopped",
-          "A good pinch of saffron threads",
-          "3 tbsp olive oil, 1 strip of orange peel, 2 bay leaves, thyme",
-          "1.5 litres water, salt and pepper"
-        ],
-        "steps": [
-          "Warm the olive oil in a wide pot and soften the onion, fennel and garlic for 8 minutes.",
-          "Add the tomatoes, orange peel, bay, thyme and saffron, pour in the water, season and simmer for 25 minutes.",
-          "Add the firmest fish first and simmer for 5 minutes, then the more delicate pieces and the shrimp for 3–4 minutes.",
-          "Add the mussels, cover and cook for 3–4 minutes until they open; discard any that stay closed.",
-          "Lift the seafood onto a warm platter and serve the broth in bowls alongside."
-        ]
-      },
-      "tips": [
-        "Seafood is lean — the calories come mostly from oil, so 2 tbsp instead of 3–4 saves about 120–240 kcal per pot.",
-        "Fill the bowl with more broth and fennel and a smaller pile of fish for a lighter plate.",
-        "Skim the shiny oil from the surface of the broth before serving."
-      ]
-    },
-    "ar": {
-      "name": "بويابيس",
-      "origin": "فرنسا · مرسيليا، بروفانس",
-      "intro": "البويابيس هو حساء السمك الشهير في مرسيليا: أنواع مختلفة من السمك الأبيض مع الربيان وبلح البحر تُطهى ببطء في مرق من الطماطم والثوم والشمر والزعفران. يصبح المرق برتقالياً داكناً وعطرياً، بينما تبقى المأكولات البحرية طرية. يُقدَّم تقليدياً على مرحلتين: المرق أولاً، ثم السمك والقشريات في طبق كبير.",
-      "history": "بدأ البويابيس وجبةً للصيادين في مرسيليا، يُحضَّر من أسماك الصخور الكثيرة الحسك التي لم تُبَع في نهاية اليوم. ويُفسَّر اسمه عادةً بأنه مأخوذ من كلمتين بروفانسيتين تعنيان «يغلي» و«يُخفِّض النار». وفي القرنين التاسع عشر والعشرين انتقل من مطابخ الميناء إلى المطاعم، ثم وضع بعض طهاة مرسيليا ميثاقاً يصف النسخة الكلاسيكية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "800 غ فيليه سمك أبيض متماسك متنوع (مثل الراهب والنازلي)، قطع كبيرة",
-          "300 غ ربيان نيء بقشره",
-          "500 غ بلح البحر، منظف",
-          "4 حبات طماطم ناضجة، مقطعة",
-          "1 رأس شمر، شرائح رفيعة",
-          "1 بصلة و4 فصوص ثوم، مفرومة",
-          "رشة كبيرة من خيوط الزعفران",
-          "3 ملاعق كبيرة زيت زيتون، شريحة قشر برتقال، ورقتا غار، زعتر",
-          "1.5 لتر ماء، ملح وفلفل"
-        ],
-        "steps": [
-          "سخّن زيت الزيتون في قدر واسع وليّن البصل والشمر والثوم 8 دقائق.",
-          "أضف الطماطم وقشر البرتقال والغار والزعتر والزعفران، ثم الماء، وتبّل واتركه يغلي بهدوء 25 دقيقة.",
-          "أضف أولاً أكثر قطع السمك تماسكاً واطهها 5 دقائق، ثم القطع الأرق والربيان 3–4 دقائق.",
-          "أضف بلح البحر، وغطِّ القدر واطهه 3–4 دقائق حتى ينفتح؛ تخلّص مما يبقى مغلقاً.",
-          "ارفع المأكولات البحرية إلى طبق دافئ وقدّم المرق في أوعية إلى جانبه."
-        ]
-      },
-      "tips": [
-        "المأكولات البحرية قليلة الدهن، ومعظم السعرات من الزيت: ملعقتان بدل 3–4 توفّر نحو 120–240 سعرة للقدر كله.",
-        "املأ الطبق بمزيد من المرق والشمر وكمية أصغر من السمك لوجبة أخف.",
-        "أزل طبقة الزيت اللامعة عن سطح المرق قبل التقديم."
-      ]
-    },
-    "it": {
-      "name": "Bouillabaisse",
-      "origin": "Francia · Marsiglia, Provenza",
-      "intro": "La bouillabaisse è la celebre zuppa di pesce di Marsiglia: diversi tipi di pesce bianco, gamberi e cozze cotti in un brodo di pomodoro, aglio, finocchio e zafferano. Il brodo diventa arancione intenso e profumato, mentre i frutti di mare restano teneri. Tradizionalmente si serve in due tempi: prima il brodo, poi il pesce e i crostacei su un vassoio.",
-      "history": "La bouillabaisse nacque come pasto dei pescatori di Marsiglia, preparato con i pesci di scoglio pieni di lische rimasti invenduti a fine giornata. Il nome viene di solito spiegato come derivato da parole provenzali che significano «bollire» e «abbassare il fuoco». Nel XIX e XX secolo passò dalle cucine del porto ai ristoranti, e in seguito alcuni chef marsigliesi firmarono una carta che descrive la versione classica.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "800 g di filetti misti di pesce bianco sodo (ad es. coda di rospo, gallinella, nasello), a pezzi grandi",
-          "300 g di gamberi crudi, con il guscio",
-          "500 g di cozze, pulite",
-          "4 pomodori maturi, tritati",
-          "1 finocchio, affettato sottilmente",
-          "1 cipolla e 4 spicchi d'aglio, tritati",
-          "Un bel pizzico di pistilli di zafferano",
-          "3 cucchiai di olio d'oliva, 1 striscia di scorza d'arancia, 2 foglie di alloro, timo",
-          "1,5 litri di acqua, sale e pepe"
-        ],
-        "steps": [
-          "Scalda l'olio d'oliva in una pentola larga e fai appassire cipolla, finocchio e aglio per 8 minuti.",
-          "Aggiungi i pomodori, la scorza d'arancia, l'alloro, il timo e lo zafferano, versa l'acqua, regola di sale e pepe e fai sobbollire per 25 minuti.",
-          "Aggiungi prima il pesce più sodo e fai sobbollire per 5 minuti, poi i pezzi più delicati e i gamberi per 3–4 minuti.",
-          "Aggiungi le cozze, copri e cuoci per 3–4 minuti finché si aprono; elimina quelle che restano chiuse.",
-          "Trasferisci i frutti di mare su un vassoio caldo e servi il brodo nelle scodelle accanto."
-        ]
-      },
-      "tips": [
-        "Il pesce è magro: le calorie vengono soprattutto dall'olio, quindi 2 cucchiai invece di 3–4 fanno risparmiare circa 120–240 kcal per pentola.",
-        "Riempi la scodella con più brodo e finocchio e una porzione più piccola di pesce per un piatto più leggero.",
-        "Elimina l'olio lucido dalla superficie del brodo prima di servire."
-      ]
-    },
-    "el": {
-      "name": "Μπουγιαμπέσα",
-      "origin": "Γαλλία · Μασσαλία, Προβηγκία",
-      "intro": "Η μπουγιαμπέσα είναι η διάσημη ψαρόσουπα της Μασσαλίας: διάφορα είδη λευκού ψαριού, γαρίδες και μύδια σιγοβρασμένα σε ζωμό από ντομάτα, σκόρδο, μάραθο και σαφράν. Ο ζωμός παίρνει βαθύ πορτοκαλί χρώμα και άρωμα, ενώ τα θαλασσινά μένουν τρυφερά. Παραδοσιακά σερβίρεται σε δύο μέρη — πρώτα ο ζωμός και έπειτα τα ψάρια και τα οστρακοειδή σε πιατέλα.",
-      "history": "Η μπουγιαμπέσα ξεκίνησε ως φαγητό των ψαράδων της Μασσαλίας, φτιαγμένο από τα κοκαλιάρικα πετρόψαρα που έμεναν απούλητα στο τέλος της μέρας. Το όνομα συνήθως εξηγείται ότι προέρχεται από προβηγκιανές λέξεις που σημαίνουν «βράζω» και «χαμηλώνω τη φωτιά». Τον 19ο και τον 20ό αιώνα πέρασε από τις κουζίνες του λιμανιού στα εστιατόρια, και αργότερα ορισμένοι σεφ της Μασσαλίας υπέγραψαν μια χάρτα που περιγράφει την κλασική εκδοχή.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "800 γρ. ανάμεικτα φιλέτα σφιχτού λευκού ψαριού (π.χ. πεσκανδρίτσα, καπόνι, μπακαλιάρος), σε μεγάλα κομμάτια",
-          "300 γρ. ωμές γαρίδες, με το κέλυφος",
-          "500 γρ. μύδια, καθαρισμένα",
-          "4 ώριμες ντομάτες, ψιλοκομμένες",
-          "1 βολβός μάραθου, σε λεπτές φέτες",
-          "1 κρεμμύδι και 4 σκελίδες σκόρδο, ψιλοκομμένα",
-          "Μια γερή πρέζα στήμονες σαφράν",
-          "3 κ.σ. ελαιόλαδο, 1 λωρίδα φλούδα πορτοκαλιού, 2 φύλλα δάφνης, θυμάρι",
-          "1,5 λίτρο νερό, αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Ζεστάνετε το ελαιόλαδο σε φαρδιά κατσαρόλα και μαλακώστε το κρεμμύδι, τον μάραθο και το σκόρδο για 8 λεπτά.",
-          "Προσθέστε τις ντομάτες, τη φλούδα πορτοκαλιού, τη δάφνη, το θυμάρι και το σαφράν, ρίξτε το νερό, αλατοπιπερώστε και σιγοβράστε για 25 λεπτά.",
-          "Προσθέστε πρώτα το πιο σφιχτό ψάρι και σιγοβράστε για 5 λεπτά, έπειτα τα πιο ευαίσθητα κομμάτια και τις γαρίδες για 3–4 λεπτά.",
-          "Προσθέστε τα μύδια, σκεπάστε και μαγειρέψτε για 3–4 λεπτά μέχρι να ανοίξουν· πετάξτε όσα μείνουν κλειστά.",
-          "Βγάλτε τα θαλασσινά σε ζεστή πιατέλα και σερβίρετε τον ζωμό σε μπολ δίπλα."
-        ]
-      },
-      "tips": [
-        "Τα θαλασσινά είναι άπαχα — οι θερμίδες προέρχονται κυρίως από το λάδι, οπότε 2 κ.σ. αντί για 3–4 γλιτώνουν περίπου 120–240 kcal ανά κατσαρόλα.",
-        "Γεμίστε το μπολ με περισσότερο ζωμό και μάραθο και μικρότερη μερίδα ψαριού για ένα ελαφρύτερο πιάτο.",
-        "Αφαιρέστε το γυαλιστερό λάδι από την επιφάνεια του ζωμού πριν σερβίρετε."
-      ]
-    },
-    "ru": {
-      "name": "Буйабес",
-      "origin": "Франция · Марсель, Прованс",
-      "intro": "Буйабес — знаменитая рыбная похлёбка Марселя: несколько видов белой рыбы, креветки и мидии, сваренные в бульоне из помидоров, чеснока, фенхеля и шафрана. Бульон приобретает глубокий оранжевый цвет и аромат, а морепродукты остаются нежными. Традиционно её подают в два приёма — сначала бульон, затем рыба и моллюски на блюде.",
-      "history": "Буйабес начинался как еда рыбаков в Марселе, её готовили из костлявой скальной рыбы, оставшейся непроданной в конце дня. Название обычно объясняют провансальскими словами, означающими «кипятить» и «убавить огонь». В XIX–XX веках она перешла с кухонь гавани в рестораны, а позднее некоторые марсельские шефы подписали хартию, описывающую классический вариант.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "800 г филе разных видов плотной белой рыбы (например, морского чёрта, тригли, хека), крупными кусками",
-          "300 г сырых креветок в панцире",
-          "500 г мидий, очищенных",
-          "4 спелых помидора, нарезанных",
-          "1 клубень фенхеля, тонко нарезанный",
-          "1 луковица и 4 зубчика чеснока, нарубленные",
-          "Хорошая щепотка шафрановых нитей",
-          "3 ст. л. оливкового масла, 1 полоска апельсиновой кожуры, 2 лавровых листа, тимьян",
-          "1,5 литра воды, соль и перец"
-        ],
-        "steps": [
-          "Разогрейте оливковое масло в широкой кастрюле и припускайте лук, фенхель и чеснок 8 минут.",
-          "Добавьте помидоры, апельсиновую кожуру, лавровый лист, тимьян и шафран, влейте воду, приправьте и варите на слабом огне 25 минут.",
-          "Сначала добавьте самую плотную рыбу и варите 5 минут, затем более нежные куски и креветки на 3–4 минуты.",
-          "Добавьте мидии, накройте и готовьте 3–4 минуты, пока они не откроются; выбросьте те, что остались закрытыми.",
-          "Выложите морепродукты на тёплое блюдо, а бульон подавайте отдельно в мисках."
-        ]
-      },
-      "tips": [
-        "Морепродукты постные — калории в основном дают масло, поэтому 2 ст. л. вместо 3–4 экономят около 120–240 ккал на кастрюлю.",
-        "Наполняйте миску большим количеством бульона и фенхеля и меньшей горкой рыбы для более лёгкой тарелки.",
-        "Снимите блестящее масло с поверхности бульона перед подачей."
-      ],
-      "name_inline": "буйабес"
-    }
+  "ar": {
+   "name": "بويابيس",
+   "origin": "فرنسا · مرسيليا، بروفانس",
+   "intro": "البويابيس هو حساء السمك الشهير في مرسيليا: أنواع مختلفة من السمك الأبيض مع الربيان وبلح البحر تُطهى ببطء في مرق من الطماطم والثوم والشمر والزعفران. يصبح المرق برتقالياً داكناً وعطرياً، بينما تبقى المأكولات البحرية طرية. يُقدَّم تقليدياً على مرحلتين: المرق أولاً، ثم السمك والقشريات في طبق كبير.",
+   "history": "بدأ البويابيس وجبةً للصيادين في مرسيليا، يُحضَّر من أسماك الصخور الكثيرة الحسك التي لم تُبَع في نهاية اليوم. ويُفسَّر اسمه عادةً بأنه مأخوذ من كلمتين بروفانسيتين تعنيان «يغلي» و«يُخفِّض النار». وفي القرنين التاسع عشر والعشرين انتقل من مطابخ الميناء إلى المطاعم، ثم وضع بعض طهاة مرسيليا ميثاقاً يصف النسخة الكلاسيكية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "800 غ فيليه سمك أبيض متماسك متنوع (مثل الراهب والنازلي)، قطع كبيرة",
+     "300 غ ربيان نيء بقشره",
+     "500 غ بلح البحر، منظف",
+     "4 حبات طماطم ناضجة، مقطعة",
+     "1 رأس شمر، شرائح رفيعة",
+     "1 بصلة و4 فصوص ثوم، مفرومة",
+     "رشة كبيرة من خيوط الزعفران",
+     "3 ملاعق كبيرة زيت زيتون، شريحة قشر برتقال، ورقتا غار، زعتر",
+     "1.5 لتر ماء، ملح وفلفل"
+    ],
+    "steps": [
+     "سخّن زيت الزيتون في قدر واسع وليّن البصل والشمر والثوم 8 دقائق.",
+     "أضف الطماطم وقشر البرتقال والغار والزعتر والزعفران، ثم الماء، وتبّل واتركه يغلي بهدوء 25 دقيقة.",
+     "أضف أولاً أكثر قطع السمك تماسكاً واطهها 5 دقائق، ثم القطع الأرق والربيان 3–4 دقائق.",
+     "أضف بلح البحر، وغطِّ القدر واطهه 3–4 دقائق حتى ينفتح؛ تخلّص مما يبقى مغلقاً.",
+     "ارفع المأكولات البحرية إلى طبق دافئ وقدّم المرق في أوعية إلى جانبه."
+    ]
+   },
+   "tips": [
+    "المأكولات البحرية قليلة الدهن، ومعظم السعرات من الزيت: ملعقتان بدل 3–4 توفّر نحو 120–240 سعرة للقدر كله.",
+    "املأ الطبق بمزيد من المرق والشمر وكمية أصغر من السمك لوجبة أخف.",
+    "أزل طبقة الزيت اللامعة عن سطح المرق قبل التقديم."
+   ]
+  },
+  "it": {
+   "name": "Bouillabaisse",
+   "origin": "Francia · Marsiglia, Provenza",
+   "intro": "La bouillabaisse è la celebre zuppa di pesce di Marsiglia: diversi tipi di pesce bianco, gamberi e cozze cotti in un brodo di pomodoro, aglio, finocchio e zafferano. Il brodo diventa arancione intenso e profumato, mentre i frutti di mare restano teneri. Tradizionalmente si serve in due tempi: prima il brodo, poi il pesce e i crostacei su un vassoio.",
+   "history": "La bouillabaisse nacque come pasto dei pescatori di Marsiglia, preparato con i pesci di scoglio pieni di lische rimasti invenduti a fine giornata. Il nome viene di solito spiegato come derivato da parole provenzali che significano «bollire» e «abbassare il fuoco». Nel XIX e XX secolo passò dalle cucine del porto ai ristoranti, e in seguito alcuni chef marsigliesi firmarono una carta che descrive la versione classica.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "800 g di filetti misti di pesce bianco sodo (ad es. coda di rospo, gallinella, nasello), a pezzi grandi",
+     "300 g di gamberi crudi, con il guscio",
+     "500 g di cozze, pulite",
+     "4 pomodori maturi, tritati",
+     "1 finocchio, affettato sottilmente",
+     "1 cipolla e 4 spicchi d'aglio, tritati",
+     "Un bel pizzico di pistilli di zafferano",
+     "3 cucchiai di olio d'oliva, 1 striscia di scorza d'arancia, 2 foglie di alloro, timo",
+     "1,5 litri di acqua, sale e pepe"
+    ],
+    "steps": [
+     "Scalda l'olio d'oliva in una pentola larga e fai appassire cipolla, finocchio e aglio per 8 minuti.",
+     "Aggiungi i pomodori, la scorza d'arancia, l'alloro, il timo e lo zafferano, versa l'acqua, regola di sale e pepe e fai sobbollire per 25 minuti.",
+     "Aggiungi prima il pesce più sodo e fai sobbollire per 5 minuti, poi i pezzi più delicati e i gamberi per 3–4 minuti.",
+     "Aggiungi le cozze, copri e cuoci per 3–4 minuti finché si aprono; elimina quelle che restano chiuse.",
+     "Trasferisci i frutti di mare su un vassoio caldo e servi il brodo nelle scodelle accanto."
+    ]
+   },
+   "tips": [
+    "Il pesce è magro: le calorie vengono soprattutto dall'olio, quindi 2 cucchiai invece di 3–4 fanno risparmiare circa 120–240 kcal per pentola.",
+    "Riempi la scodella con più brodo e finocchio e una porzione più piccola di pesce per un piatto più leggero.",
+    "Elimina l'olio lucido dalla superficie del brodo prima di servire."
+   ]
+  },
+  "el": {
+   "name": "Μπουγιαμπέσα",
+   "origin": "Γαλλία · Μασσαλία, Προβηγκία",
+   "intro": "Η μπουγιαμπέσα είναι η διάσημη ψαρόσουπα της Μασσαλίας: διάφορα είδη λευκού ψαριού, γαρίδες και μύδια σιγοβρασμένα σε ζωμό από ντομάτα, σκόρδο, μάραθο και σαφράν. Ο ζωμός παίρνει βαθύ πορτοκαλί χρώμα και άρωμα, ενώ τα θαλασσινά μένουν τρυφερά. Παραδοσιακά σερβίρεται σε δύο μέρη — πρώτα ο ζωμός και έπειτα τα ψάρια και τα οστρακοειδή σε πιατέλα.",
+   "history": "Η μπουγιαμπέσα ξεκίνησε ως φαγητό των ψαράδων της Μασσαλίας, φτιαγμένο από τα κοκαλιάρικα πετρόψαρα που έμεναν απούλητα στο τέλος της μέρας. Το όνομα συνήθως εξηγείται ότι προέρχεται από προβηγκιανές λέξεις που σημαίνουν «βράζω» και «χαμηλώνω τη φωτιά». Τον 19ο και τον 20ό αιώνα πέρασε από τις κουζίνες του λιμανιού στα εστιατόρια, και αργότερα ορισμένοι σεφ της Μασσαλίας υπέγραψαν μια χάρτα που περιγράφει την κλασική εκδοχή.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "800 γρ. ανάμεικτα φιλέτα σφιχτού λευκού ψαριού (π.χ. πεσκανδρίτσα, καπόνι, μπακαλιάρος), σε μεγάλα κομμάτια",
+     "300 γρ. ωμές γαρίδες, με το κέλυφος",
+     "500 γρ. μύδια, καθαρισμένα",
+     "4 ώριμες ντομάτες, ψιλοκομμένες",
+     "1 βολβός μάραθου, σε λεπτές φέτες",
+     "1 κρεμμύδι και 4 σκελίδες σκόρδο, ψιλοκομμένα",
+     "Μια γερή πρέζα στήμονες σαφράν",
+     "3 κ.σ. ελαιόλαδο, 1 λωρίδα φλούδα πορτοκαλιού, 2 φύλλα δάφνης, θυμάρι",
+     "1,5 λίτρο νερό, αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Ζεστάνετε το ελαιόλαδο σε φαρδιά κατσαρόλα και μαλακώστε το κρεμμύδι, τον μάραθο και το σκόρδο για 8 λεπτά.",
+     "Προσθέστε τις ντομάτες, τη φλούδα πορτοκαλιού, τη δάφνη, το θυμάρι και το σαφράν, ρίξτε το νερό, αλατοπιπερώστε και σιγοβράστε για 25 λεπτά.",
+     "Προσθέστε πρώτα το πιο σφιχτό ψάρι και σιγοβράστε για 5 λεπτά, έπειτα τα πιο ευαίσθητα κομμάτια και τις γαρίδες για 3–4 λεπτά.",
+     "Προσθέστε τα μύδια, σκεπάστε και μαγειρέψτε για 3–4 λεπτά μέχρι να ανοίξουν· πετάξτε όσα μείνουν κλειστά.",
+     "Βγάλτε τα θαλασσινά σε ζεστή πιατέλα και σερβίρετε τον ζωμό σε μπολ δίπλα."
+    ]
+   },
+   "tips": [
+    "Τα θαλασσινά είναι άπαχα — οι θερμίδες προέρχονται κυρίως από το λάδι, οπότε 2 κ.σ. αντί για 3–4 γλιτώνουν περίπου 120–240 kcal ανά κατσαρόλα.",
+    "Γεμίστε το μπολ με περισσότερο ζωμό και μάραθο και μικρότερη μερίδα ψαριού για ένα ελαφρύτερο πιάτο.",
+    "Αφαιρέστε το γυαλιστερό λάδι από την επιφάνεια του ζωμού πριν σερβίρετε."
+   ]
+  },
+  "ru": {
+   "name": "Буйабес",
+   "origin": "Франция · Марсель, Прованс",
+   "intro": "Буйабес — знаменитая рыбная похлёбка Марселя: несколько видов белой рыбы, креветки и мидии, сваренные в бульоне из помидоров, чеснока, фенхеля и шафрана. Бульон приобретает глубокий оранжевый цвет и аромат, а морепродукты остаются нежными. Традиционно её подают в два приёма — сначала бульон, затем рыба и моллюски на блюде.",
+   "history": "Буйабес начинался как еда рыбаков в Марселе, её готовили из костлявой скальной рыбы, оставшейся непроданной в конце дня. Название обычно объясняют провансальскими словами, означающими «кипятить» и «убавить огонь». В XIX–XX веках она перешла с кухонь гавани в рестораны, а позднее некоторые марсельские шефы подписали хартию, описывающую классический вариант.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "800 г филе разных видов плотной белой рыбы (например, морского чёрта, тригли, хека), крупными кусками",
+     "300 г сырых креветок в панцире",
+     "500 г мидий, очищенных",
+     "4 спелых помидора, нарезанных",
+     "1 клубень фенхеля, тонко нарезанный",
+     "1 луковица и 4 зубчика чеснока, нарубленные",
+     "Хорошая щепотка шафрановых нитей",
+     "3 ст. л. оливкового масла, 1 полоска апельсиновой кожуры, 2 лавровых листа, тимьян",
+     "1,5 литра воды, соль и перец"
+    ],
+    "steps": [
+     "Разогрейте оливковое масло в широкой кастрюле и припускайте лук, фенхель и чеснок 8 минут.",
+     "Добавьте помидоры, апельсиновую кожуру, лавровый лист, тимьян и шафран, влейте воду, приправьте и варите на слабом огне 25 минут.",
+     "Сначала добавьте самую плотную рыбу и варите 5 минут, затем более нежные куски и креветки на 3–4 минуты.",
+     "Добавьте мидии, накройте и готовьте 3–4 минуты, пока они не откроются; выбросьте те, что остались закрытыми.",
+     "Выложите морепродукты на тёплое блюдо, а бульон подавайте отдельно в мисках."
+    ]
+   },
+   "tips": [
+    "Морепродукты постные — калории в основном дают масло, поэтому 2 ст. л. вместо 3–4 экономят около 120–240 ккал на кастрюлю.",
+    "Наполняйте миску большим количеством бульона и фенхеля и меньшей горкой рыбы для более лёгкой тарелки.",
+    "Снимите блестящее масло с поверхности бульона перед подачей."
+   ],
+   "name_inline": "буйабес"
+  },
+  "es": {
+   "name": "Bouillabaisse",
+   "origin": "Francia · Marsella, Provenza",
+   "intro": "La bouillabaisse es el famoso guiso de pescado de Marsella: varios tipos de pescado blanco, camarones y mejillones cocidos en un caldo de jitomate, ajo, hinojo y azafrán. El caldo toma un color naranja intenso y un aroma profundo, mientras los mariscos quedan tiernos. Tradicionalmente se sirve en dos tiempos: primero el caldo y después el pescado y los mariscos en una fuente.",
+   "history": "La bouillabaisse nació como comida de pescadores en Marsella, preparada con los pescados de roca llenos de espinas que no se vendían al final del día. El nombre suele explicarse por unas palabras provenzales que significan «hervir» y «bajar el fuego». En los siglos XIX y XX pasó de las cocinas del puerto a los restaurantes, y más tarde algunos chefs de Marsella firmaron una carta que describe la versión clásica.",
+   "recipe": {
+    "ingredients": [
+     "800 g de filetes de pescado blanco firme variado (por ejemplo rape, bejel, merluza), en trozos grandes",
+     "300 g de camarones crudos con cáscara",
+     "500 g de mejillones limpios",
+     "4 jitomates maduros, picados",
+     "1 bulbo de hinojo en rebanadas finas",
+     "1 cebolla y 4 dientes de ajo, picados",
+     "Una buena pizca de hebras de azafrán",
+     "3 cda. de aceite de oliva, 1 tira de cáscara de naranja, 2 hojas de laurel, tomillo",
+     "1,5 litros de agua, sal y pimienta"
+    ],
+    "steps": [
+     "Calienta el aceite de oliva en una olla ancha y acitrona la cebolla, el hinojo y el ajo durante 8 minutos.",
+     "Agrega los jitomates, la cáscara de naranja, el laurel, el tomillo y el azafrán, vierte el agua, sazona y cocina a fuego bajo 25 minutos.",
+     "Añade primero el pescado más firme y cocina 5 minutos; después suma las piezas más delicadas y los camarones durante 3 o 4 minutos.",
+     "Incorpora los mejillones, tapa y cocina de 3 a 4 minutos hasta que se abran; desecha los que sigan cerrados.",
+     "Pasa los mariscos a una fuente caliente y sirve el caldo aparte en platos hondos."
+    ],
+    "servings": 4,
+    "time_min": 75
+   },
+   "tips": [
+    "El pescado es magro: las calorías vienen sobre todo del aceite, así que usar 2 cda. en lugar de 3 o 4 ahorra entre 120 y 240 kcal por olla.",
+    "Llena el plato con más caldo y hinojo y menos pescado para una porción más ligera.",
+    "Retira con una cuchara el aceite brillante de la superficie del caldo antes de servir."
+   ],
+   "name_inline": "la bouillabaisse"
   }
+ }
 }

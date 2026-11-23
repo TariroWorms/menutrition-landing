@@ -1,180 +1,214 @@
 {
-  "db_key": "yakisoba",
-  "slug": "yakisoba",
-  "emoji": "🍜",
-  "portion_g": 300,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "yakisoba",
+ "slug": "yakisoba",
+ "emoji": "🍜",
+ "portion_g": 300,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Yakisoba",
+   "origin": "Japan",
+   "intro": "Yakisoba is a Japanese dish of stir-fried wheat noodles with sliced pork, cabbage and carrot, tossed in a thick, sweet and tangy yakisoba sauce. The noodles are chewy and slightly charred, and the vegetables keep some crunch. It is a classic at festival stalls and home lunches, often topped with pickled ginger and aonori seaweed flakes.",
+   "history": "Despite the name, yakisoba is made with wheat noodles rather than buckwheat soba. It is widely said to have spread in Japan in the years after the Second World War, when wheat flour was plentiful, and it remains a fixture of summer festivals and street stalls.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "300 g fresh ramen-style wheat noodles",
+     "150 g pork belly or shoulder, thinly sliced",
+     "200 g cabbage, roughly chopped",
+     "1 carrot, cut into thin strips",
+     "1 onion, sliced",
+     "4 tbsp yakisoba sauce",
+     "1 tbsp vegetable oil",
+     "Salt and pepper",
+     "Pickled ginger to serve (optional)"
+    ],
+    "steps": [
+     "Loosen the noodles; if they are dried, cook them briefly and drain well.",
+     "Heat the oil in a wok and stir-fry the pork for 2–3 minutes until browned. Season with salt and pepper.",
+     "Add the onion, carrot and cabbage and stir-fry for 3 minutes.",
+     "Add the noodles with 2 tbsp of water and toss until heated through.",
+     "Pour in the yakisoba sauce and toss for another minute until evenly coated. Serve topped with pickled ginger."
+    ]
+   },
+   "tips": [
+    "Double the cabbage and carrot and use fewer noodles for a lighter plate.",
+    "Use lean pork shoulder instead of pork belly.",
+    "Stir-fry with 1 tbsp of oil for two servings — that is about 120 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Yakisoba",
-      "origin": "Japan",
-      "intro": "Yakisoba is a Japanese dish of stir-fried wheat noodles with sliced pork, cabbage and carrot, tossed in a thick, sweet and tangy yakisoba sauce. The noodles are chewy and slightly charred, and the vegetables keep some crunch. It is a classic at festival stalls and home lunches, often topped with pickled ginger and aonori seaweed flakes.",
-      "history": "Despite the name, yakisoba is made with wheat noodles rather than buckwheat soba. It is widely said to have spread in Japan in the years after the Second World War, when wheat flour was plentiful, and it remains a fixture of summer festivals and street stalls.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "300 g fresh ramen-style wheat noodles",
-          "150 g pork belly or shoulder, thinly sliced",
-          "200 g cabbage, roughly chopped",
-          "1 carrot, cut into thin strips",
-          "1 onion, sliced",
-          "4 tbsp yakisoba sauce",
-          "1 tbsp vegetable oil",
-          "Salt and pepper",
-          "Pickled ginger to serve (optional)"
-        ],
-        "steps": [
-          "Loosen the noodles; if they are dried, cook them briefly and drain well.",
-          "Heat the oil in a wok and stir-fry the pork for 2–3 minutes until browned. Season with salt and pepper.",
-          "Add the onion, carrot and cabbage and stir-fry for 3 minutes.",
-          "Add the noodles with 2 tbsp of water and toss until heated through.",
-          "Pour in the yakisoba sauce and toss for another minute until evenly coated. Serve topped with pickled ginger."
-        ]
-      },
-      "tips": [
-        "Double the cabbage and carrot and use fewer noodles for a lighter plate.",
-        "Use lean pork shoulder instead of pork belly.",
-        "Stir-fry with 1 tbsp of oil for two servings — that is about 120 kcal."
-      ]
-    },
-    "ar": {
-      "name": "ياكيسوبا",
-      "origin": "اليابان",
-      "intro": "الياكيسوبا طبق ياباني من نودلز القمح المقلية سريعًا مع شرائح لحم الخنزير والملفوف والجزر، تُقلَّب في صلصة ياكيسوبا كثيفة حلوة وحامضة. تكون النودلز مطاطية ومحمّرة قليلًا، وتحتفظ الخضار ببعض قرمشتها. وهو طبق كلاسيكي في أكشاك المهرجانات وغداء البيت، وغالبًا يُزيَّن بالزنجبيل المخلل ورقائق طحلب الأونوري.",
-      "history": "رغم الاسم، تُصنع الياكيسوبا من نودلز القمح وليس من سوبا الحنطة السوداء. ويُقال على نطاق واسع إنها انتشرت في اليابان في السنوات التي تلت الحرب العالمية الثانية حين كان دقيق القمح متوافرًا، ولا تزال من ثوابت مهرجانات الصيف وأكشاك الشارع.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "300 غ نودلز قمح طازجة من نوع الرامن",
-          "150 غ لحم خنزير (بطن أو كتف) مقطع رقيقًا",
-          "200 غ ملفوف مقطع",
-          "1 جزرة مقطعة أصابع رفيعة",
-          "1 بصلة مقطعة شرائح",
-          "4 ملاعق كبيرة صلصة ياكيسوبا",
-          "1 ملعقة كبيرة زيت نباتي",
-          "ملح وفلفل",
-          "زنجبيل مخلل للتقديم (اختياري)"
-        ],
-        "steps": [
-          "افصل النودلز عن بعضها؛ وإن كانت جافة فاسلقها قليلًا وصفِّها جيدًا.",
-          "سخّن الزيت في مقلاة ووك وقلِّب اللحم 2–3 دقائق حتى يتحمّر، وتبّله بالملح والفلفل.",
-          "أضف البصل والجزر والملفوف وقلّبها 3 دقائق.",
-          "أضف النودلز مع ملعقتين كبيرتين من الماء وقلّب حتى تسخن.",
-          "اسكب صلصة الياكيسوبا وقلّب دقيقة أخرى حتى تتغطى بالتساوي. قدّمها مع الزنجبيل المخلل."
-        ]
-      },
-      "tips": [
-        "ضاعف كمية الملفوف والجزر وقلّل النودلز لطبق أخف.",
-        "استخدم كتف الخنزير قليل الدهن بدل البطن.",
-        "اطهِ حصتين بملعقة كبيرة واحدة من الزيت، أي نحو 120 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Yakisoba",
-      "origin": "Giappone",
-      "intro": "Lo yakisoba è un piatto giapponese di noodles di frumento saltati con maiale a fettine, cavolo e carota, conditi con una salsa yakisoba densa, dolce e acidula. I noodles sono consistenti e leggermente abbrustoliti, e le verdure restano un po' croccanti. È un classico delle bancarelle delle feste e dei pranzi casalinghi, spesso completato con zenzero in salamoia e scaglie di alga aonori.",
-      "history": "Nonostante il nome, lo yakisoba si prepara con noodles di frumento e non con soba di grano saraceno. Si dice comunemente che si sia diffuso in Giappone negli anni successivi alla Seconda guerra mondiale, quando la farina di frumento era abbondante, e resta una presenza fissa delle feste estive e delle bancarelle di strada.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "300 g di noodles freschi di frumento tipo ramen",
-          "150 g di pancetta o spalla di maiale, a fettine sottili",
-          "200 g di cavolo, tagliato grossolanamente",
-          "1 carota, a listarelle sottili",
-          "1 cipolla, a fette",
-          "4 cucchiai di salsa yakisoba",
-          "1 cucchiaio di olio vegetale",
-          "Sale e pepe",
-          "Zenzero in salamoia per servire (facoltativo)"
-        ],
-        "steps": [
-          "Separa i noodles; se sono secchi, cuocili brevemente e scolali bene.",
-          "Scalda l'olio nel wok e salta il maiale per 2–3 minuti finché è dorato. Condisci con sale e pepe.",
-          "Aggiungi cipolla, carota e cavolo e salta per 3 minuti.",
-          "Aggiungi i noodles con 2 cucchiai di acqua e mescola finché sono ben caldi.",
-          "Versa la salsa yakisoba e salta ancora un minuto finché tutto è ben condito. Servi con lo zenzero in salamoia sopra."
-        ]
-      },
-      "tips": [
-        "Raddoppia cavolo e carota e usa meno noodles per un piatto più leggero.",
-        "Usa spalla di maiale magra invece della pancetta.",
-        "Salta con 1 cucchiaio di olio per due porzioni: sono circa 120 kcal."
-      ]
-    },
-    "el": {
-      "name": "Γιακισόμπα",
-      "origin": "Ιαπωνία",
-      "intro": "Το γιακισόμπα είναι ιαπωνικό πιάτο με σοταρισμένα σιταρένια νουντλς με χοιρινό σε φέτες, λάχανο και καρότο, ανακατεμένα με πηχτή, γλυκόξινη σάλτσα γιακισόμπα. Τα νουντλς είναι μαστιχωτά και ελαφρώς καψαλισμένα, και τα λαχανικά κρατούν λίγη τραγανότητα. Είναι κλασικό στους πάγκους των γιορτών και στα σπιτικά μεσημεριανά, συχνά με τουρσί τζίντζερ και νιφάδες φυκιού αονόρι από πάνω.",
-      "history": "Παρά το όνομα, το γιακισόμπα φτιάχνεται με σιταρένια νουντλς και όχι με σόμπα από φαγόπυρο. Λέγεται ευρέως ότι διαδόθηκε στην Ιαπωνία τα χρόνια μετά τον Δεύτερο Παγκόσμιο Πόλεμο, όταν το αλεύρι σίτου ήταν άφθονο, και παραμένει σταθερή παρουσία στις καλοκαιρινές γιορτές και στους πάγκους του δρόμου.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "300 γρ. φρέσκα σιταρένια νουντλς τύπου ράμεν",
-          "150 γρ. χοιρινή πανσέτα ή σπάλα, σε λεπτές φέτες",
-          "200 γρ. λάχανο, χοντροκομμένο",
-          "1 καρότο, σε λεπτές λωρίδες",
-          "1 κρεμμύδι, σε φέτες",
-          "4 κ.σ. σάλτσα γιακισόμπα",
-          "1 κ.σ. φυτικό λάδι",
-          "Αλάτι και πιπέρι",
-          "Τουρσί τζίντζερ για το σερβίρισμα (προαιρετικά)"
-        ],
-        "steps": [
-          "Ξεχωρίστε τα νουντλς· αν είναι ξερά, βράστε τα για λίγο και στραγγίξτε τα καλά.",
-          "Ζεστάνετε το λάδι σε γουόκ και σοτάρετε το χοιρινό για 2–3 λεπτά μέχρι να ροδίσει. Αλατοπιπερώστε.",
-          "Προσθέστε το κρεμμύδι, το καρότο και το λάχανο και σοτάρετε για 3 λεπτά.",
-          "Προσθέστε τα νουντλς με 2 κ.σ. νερό και ανακατέψτε μέχρι να ζεσταθούν καλά.",
-          "Ρίξτε τη σάλτσα γιακισόμπα και ανακατέψτε για ένα λεπτό ακόμη μέχρι να πάει παντού. Σερβίρετε με τουρσί τζίντζερ από πάνω."
-        ]
-      },
-      "tips": [
-        "Διπλασιάστε το λάχανο και το καρότο και βάλτε λιγότερα νουντλς για πιο ελαφρύ πιάτο.",
-        "Χρησιμοποιήστε άπαχη χοιρινή σπάλα αντί για πανσέτα.",
-        "Σοτάρετε με 1 κ.σ. λάδι για δύο μερίδες — αυτό είναι περίπου 120 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Якисоба",
-      "origin": "Япония",
-      "intro": "Якисоба — японское блюдо из жареной пшеничной лапши со свининой ломтиками, капустой и морковью, приправленной густым, сладким и кисловатым соусом якисоба. Лапша упругая и слегка обугленная, а овощи сохраняют хруст. Это классика фестивальных лотков и домашних обедов, которую часто посыпают маринованным имбирём и хлопьями водорослей аонори.",
-      "history": "Несмотря на название, якисоба готовится из пшеничной лапши, а не из гречневой соба. Широко говорят, что она распространилась в Японии в годы после Второй мировой войны, когда пшеничной муки было много, и остаётся неотъемлемой частью летних фестивалей и уличных лотков.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "300 г свежей пшеничной лапши типа рамен",
-          "150 г свиной грудинки или лопатки, тонко нарезанной",
-          "200 г капусты, грубо нарубленной",
-          "1 морковь, нарезанная тонкой соломкой",
-          "1 луковица, нарезанная",
-          "4 ст. л. соуса якисоба",
-          "1 ст. л. растительного масла",
-          "Соль и перец",
-          "Маринованный имбирь для подачи (по желанию)"
-        ],
-        "steps": [
-          "Разделите лапшу; если она сушёная, коротко отварите и хорошо слейте воду.",
-          "Разогрейте масло в воке и обжаривайте свинину 2–3 минуты до румяности. Посолите и поперчите.",
-          "Добавьте лук, морковь и капусту и обжаривайте 3 минуты.",
-          "Добавьте лапшу с 2 ст. л. воды и перемешивайте до прогрева.",
-          "Влейте соус якисоба и перемешивайте ещё минуту, пока всё не покроется равномерно. Подавайте с маринованным имбирём."
-        ]
-      },
-      "tips": [
-        "Удвойте количество капусты и моркови и используйте меньше лапши для более лёгкой тарелки.",
-        "Используйте постную свиную лопатку вместо грудинки.",
-        "Обжаривайте на 1 ст. л. масла на две порции — это около 120 ккал."
-      ],
-      "name_inline": "якисоба"
-    }
+  "ar": {
+   "name": "ياكيسوبا",
+   "origin": "اليابان",
+   "intro": "الياكيسوبا طبق ياباني من نودلز القمح المقلية سريعًا مع شرائح لحم الخنزير والملفوف والجزر، تُقلَّب في صلصة ياكيسوبا كثيفة حلوة وحامضة. تكون النودلز مطاطية ومحمّرة قليلًا، وتحتفظ الخضار ببعض قرمشتها. وهو طبق كلاسيكي في أكشاك المهرجانات وغداء البيت، وغالبًا يُزيَّن بالزنجبيل المخلل ورقائق طحلب الأونوري.",
+   "history": "رغم الاسم، تُصنع الياكيسوبا من نودلز القمح وليس من سوبا الحنطة السوداء. ويُقال على نطاق واسع إنها انتشرت في اليابان في السنوات التي تلت الحرب العالمية الثانية حين كان دقيق القمح متوافرًا، ولا تزال من ثوابت مهرجانات الصيف وأكشاك الشارع.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "300 غ نودلز قمح طازجة من نوع الرامن",
+     "150 غ لحم خنزير (بطن أو كتف) مقطع رقيقًا",
+     "200 غ ملفوف مقطع",
+     "1 جزرة مقطعة أصابع رفيعة",
+     "1 بصلة مقطعة شرائح",
+     "4 ملاعق كبيرة صلصة ياكيسوبا",
+     "1 ملعقة كبيرة زيت نباتي",
+     "ملح وفلفل",
+     "زنجبيل مخلل للتقديم (اختياري)"
+    ],
+    "steps": [
+     "افصل النودلز عن بعضها؛ وإن كانت جافة فاسلقها قليلًا وصفِّها جيدًا.",
+     "سخّن الزيت في مقلاة ووك وقلِّب اللحم 2–3 دقائق حتى يتحمّر، وتبّله بالملح والفلفل.",
+     "أضف البصل والجزر والملفوف وقلّبها 3 دقائق.",
+     "أضف النودلز مع ملعقتين كبيرتين من الماء وقلّب حتى تسخن.",
+     "اسكب صلصة الياكيسوبا وقلّب دقيقة أخرى حتى تتغطى بالتساوي. قدّمها مع الزنجبيل المخلل."
+    ]
+   },
+   "tips": [
+    "ضاعف كمية الملفوف والجزر وقلّل النودلز لطبق أخف.",
+    "استخدم كتف الخنزير قليل الدهن بدل البطن.",
+    "اطهِ حصتين بملعقة كبيرة واحدة من الزيت، أي نحو 120 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Yakisoba",
+   "origin": "Giappone",
+   "intro": "Lo yakisoba è un piatto giapponese di noodles di frumento saltati con maiale a fettine, cavolo e carota, conditi con una salsa yakisoba densa, dolce e acidula. I noodles sono consistenti e leggermente abbrustoliti, e le verdure restano un po' croccanti. È un classico delle bancarelle delle feste e dei pranzi casalinghi, spesso completato con zenzero in salamoia e scaglie di alga aonori.",
+   "history": "Nonostante il nome, lo yakisoba si prepara con noodles di frumento e non con soba di grano saraceno. Si dice comunemente che si sia diffuso in Giappone negli anni successivi alla Seconda guerra mondiale, quando la farina di frumento era abbondante, e resta una presenza fissa delle feste estive e delle bancarelle di strada.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "300 g di noodles freschi di frumento tipo ramen",
+     "150 g di pancetta o spalla di maiale, a fettine sottili",
+     "200 g di cavolo, tagliato grossolanamente",
+     "1 carota, a listarelle sottili",
+     "1 cipolla, a fette",
+     "4 cucchiai di salsa yakisoba",
+     "1 cucchiaio di olio vegetale",
+     "Sale e pepe",
+     "Zenzero in salamoia per servire (facoltativo)"
+    ],
+    "steps": [
+     "Separa i noodles; se sono secchi, cuocili brevemente e scolali bene.",
+     "Scalda l'olio nel wok e salta il maiale per 2–3 minuti finché è dorato. Condisci con sale e pepe.",
+     "Aggiungi cipolla, carota e cavolo e salta per 3 minuti.",
+     "Aggiungi i noodles con 2 cucchiai di acqua e mescola finché sono ben caldi.",
+     "Versa la salsa yakisoba e salta ancora un minuto finché tutto è ben condito. Servi con lo zenzero in salamoia sopra."
+    ]
+   },
+   "tips": [
+    "Raddoppia cavolo e carota e usa meno noodles per un piatto più leggero.",
+    "Usa spalla di maiale magra invece della pancetta.",
+    "Salta con 1 cucchiaio di olio per due porzioni: sono circa 120 kcal."
+   ]
+  },
+  "el": {
+   "name": "Γιακισόμπα",
+   "origin": "Ιαπωνία",
+   "intro": "Το γιακισόμπα είναι ιαπωνικό πιάτο με σοταρισμένα σιταρένια νουντλς με χοιρινό σε φέτες, λάχανο και καρότο, ανακατεμένα με πηχτή, γλυκόξινη σάλτσα γιακισόμπα. Τα νουντλς είναι μαστιχωτά και ελαφρώς καψαλισμένα, και τα λαχανικά κρατούν λίγη τραγανότητα. Είναι κλασικό στους πάγκους των γιορτών και στα σπιτικά μεσημεριανά, συχνά με τουρσί τζίντζερ και νιφάδες φυκιού αονόρι από πάνω.",
+   "history": "Παρά το όνομα, το γιακισόμπα φτιάχνεται με σιταρένια νουντλς και όχι με σόμπα από φαγόπυρο. Λέγεται ευρέως ότι διαδόθηκε στην Ιαπωνία τα χρόνια μετά τον Δεύτερο Παγκόσμιο Πόλεμο, όταν το αλεύρι σίτου ήταν άφθονο, και παραμένει σταθερή παρουσία στις καλοκαιρινές γιορτές και στους πάγκους του δρόμου.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "300 γρ. φρέσκα σιταρένια νουντλς τύπου ράμεν",
+     "150 γρ. χοιρινή πανσέτα ή σπάλα, σε λεπτές φέτες",
+     "200 γρ. λάχανο, χοντροκομμένο",
+     "1 καρότο, σε λεπτές λωρίδες",
+     "1 κρεμμύδι, σε φέτες",
+     "4 κ.σ. σάλτσα γιακισόμπα",
+     "1 κ.σ. φυτικό λάδι",
+     "Αλάτι και πιπέρι",
+     "Τουρσί τζίντζερ για το σερβίρισμα (προαιρετικά)"
+    ],
+    "steps": [
+     "Ξεχωρίστε τα νουντλς· αν είναι ξερά, βράστε τα για λίγο και στραγγίξτε τα καλά.",
+     "Ζεστάνετε το λάδι σε γουόκ και σοτάρετε το χοιρινό για 2–3 λεπτά μέχρι να ροδίσει. Αλατοπιπερώστε.",
+     "Προσθέστε το κρεμμύδι, το καρότο και το λάχανο και σοτάρετε για 3 λεπτά.",
+     "Προσθέστε τα νουντλς με 2 κ.σ. νερό και ανακατέψτε μέχρι να ζεσταθούν καλά.",
+     "Ρίξτε τη σάλτσα γιακισόμπα και ανακατέψτε για ένα λεπτό ακόμη μέχρι να πάει παντού. Σερβίρετε με τουρσί τζίντζερ από πάνω."
+    ]
+   },
+   "tips": [
+    "Διπλασιάστε το λάχανο και το καρότο και βάλτε λιγότερα νουντλς για πιο ελαφρύ πιάτο.",
+    "Χρησιμοποιήστε άπαχη χοιρινή σπάλα αντί για πανσέτα.",
+    "Σοτάρετε με 1 κ.σ. λάδι για δύο μερίδες — αυτό είναι περίπου 120 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Якисоба",
+   "origin": "Япония",
+   "intro": "Якисоба — японское блюдо из жареной пшеничной лапши со свининой ломтиками, капустой и морковью, приправленной густым, сладким и кисловатым соусом якисоба. Лапша упругая и слегка обугленная, а овощи сохраняют хруст. Это классика фестивальных лотков и домашних обедов, которую часто посыпают маринованным имбирём и хлопьями водорослей аонори.",
+   "history": "Несмотря на название, якисоба готовится из пшеничной лапши, а не из гречневой соба. Широко говорят, что она распространилась в Японии в годы после Второй мировой войны, когда пшеничной муки было много, и остаётся неотъемлемой частью летних фестивалей и уличных лотков.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "300 г свежей пшеничной лапши типа рамен",
+     "150 г свиной грудинки или лопатки, тонко нарезанной",
+     "200 г капусты, грубо нарубленной",
+     "1 морковь, нарезанная тонкой соломкой",
+     "1 луковица, нарезанная",
+     "4 ст. л. соуса якисоба",
+     "1 ст. л. растительного масла",
+     "Соль и перец",
+     "Маринованный имбирь для подачи (по желанию)"
+    ],
+    "steps": [
+     "Разделите лапшу; если она сушёная, коротко отварите и хорошо слейте воду.",
+     "Разогрейте масло в воке и обжаривайте свинину 2–3 минуты до румяности. Посолите и поперчите.",
+     "Добавьте лук, морковь и капусту и обжаривайте 3 минуты.",
+     "Добавьте лапшу с 2 ст. л. воды и перемешивайте до прогрева.",
+     "Влейте соус якисоба и перемешивайте ещё минуту, пока всё не покроется равномерно. Подавайте с маринованным имбирём."
+    ]
+   },
+   "tips": [
+    "Удвойте количество капусты и моркови и используйте меньше лапши для более лёгкой тарелки.",
+    "Используйте постную свиную лопатку вместо грудинки.",
+    "Обжаривайте на 1 ст. л. масла на две порции — это около 120 ккал."
+   ],
+   "name_inline": "якисоба"
+  },
+  "es": {
+   "name": "Yakisoba",
+   "origin": "Japón",
+   "intro": "El yakisoba es un plato japonés de fideos de trigo salteados con cerdo en rebanadas, repollo y zanahoria, bañados en una salsa yakisoba espesa, dulce y ligeramente ácida. Los fideos quedan masticables y un poco dorados, y las verduras conservan algo de textura crujiente. Es un clásico de los puestos de festivales y de la comida casera, y suele servirse con jengibre encurtido y hojuelas de alga aonori.",
+   "history": "A pesar del nombre, el yakisoba se prepara con fideos de trigo y no con trigo sarraceno como el soba. Se dice que se popularizó en Japón en los años posteriores a la Segunda Guerra Mundial, cuando la harina de trigo era abundante, y sigue siendo un clásico de los festivales de verano y de los puestos callejeros.",
+   "recipe": {
+    "ingredients": [
+     "300 g de fideos frescos de trigo tipo ramen",
+     "150 g de panceta o paleta de cerdo en rebanadas finas",
+     "200 g de repollo, picado grueso",
+     "1 zanahoria, cortada en tiras finas",
+     "1 cebolla en rodajas",
+     "4 cda. de salsa yakisoba",
+     "1 cda. de aceite vegetal",
+     "Sal y pimienta",
+     "Jengibre encurtido para servir (opcional)"
+    ],
+    "steps": [
+     "Separa los fideos con los dedos; si son secos, cuécelos brevemente y escúrrelos bien.",
+     "Calienta el aceite en un wok y saltea el cerdo de 2 a 3 minutos hasta que se dore. Sazona con sal y pimienta.",
+     "Agrega la cebolla, la zanahoria y el repollo y saltea 3 minutos.",
+     "Añade los fideos con 2 cda. de agua y mezcla hasta que se calienten.",
+     "Vierte la salsa yakisoba y mezcla un minuto más hasta que todo quede bien cubierto. Sirve con jengibre encurtido encima."
+    ],
+    "servings": 2,
+    "time_min": 25
+   },
+   "tips": [
+    "Duplica el repollo y la zanahoria y usa menos fideos para un plato más ligero.",
+    "Usa paleta de cerdo magra en lugar de panceta.",
+    "Saltea con 1 cda. de aceite para dos porciones: son unas 120 kcal."
+   ],
+   "name_inline": "el yakisoba"
   }
+ }
 }

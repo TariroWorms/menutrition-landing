@@ -1,179 +1,213 @@
 {
-  "db_key": "poulet_chasseur",
-  "slug": "poulet-chasseur",
-  "emoji": "🍗",
-  "portion_g": 350,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "poulet_chasseur",
+ "slug": "poulet-chasseur",
+ "emoji": "🍗",
+ "portion_g": 350,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken Chasseur",
+   "origin": "France",
+   "intro": "Poulet chasseur, or 'hunter's chicken', is a French braise of chicken pieces in a sauce of mushrooms, shallots, tomato and white wine, finished with fresh tarragon. The chicken turns tender and the glossy sauce is savoury, earthy and herby. It is served hot with potatoes, rice or green beans.",
+   "history": "Chasseur sauce, made with mushrooms, shallots, wine and tomato, is a classic of French cuisine, and the name is usually explained by the mushrooms a hunter might gather in the woods. Chicken chasseur remains a familiar French home and bistro dish.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1.2 kg chicken pieces",
+     "250 g mushrooms, sliced",
+     "3 shallots, finely chopped",
+     "300 g tomatoes, chopped (or 2 tbsp tomato paste)",
+     "200 ml dry white wine",
+     "200 ml water",
+     "1 tbsp olive oil",
+     "2 tbsp chopped tarragon",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Season the chicken and brown it in the olive oil in a casserole; set aside.",
+     "Cook the mushrooms in the same pan for 5 minutes, then add the shallots for 2 minutes.",
+     "Pour in the white wine and let it bubble for 2–3 minutes, then add the tomatoes and water.",
+     "Return the chicken, cover and simmer for 30–35 minutes until cooked through.",
+     "Reduce the sauce slightly, stir in the tarragon, season and serve."
+    ]
+   },
+   "tips": [
+    "Use skinless chicken pieces or remove the skin after browning.",
+    "Let the wine simmer well; most of the sauce's flavour comes from reduction, not extra fat.",
+    "Serve with green beans or steamed potatoes in a measured portion."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken Chasseur",
-      "origin": "France",
-      "intro": "Poulet chasseur, or 'hunter's chicken', is a French braise of chicken pieces in a sauce of mushrooms, shallots, tomato and white wine, finished with fresh tarragon. The chicken turns tender and the glossy sauce is savoury, earthy and herby. It is served hot with potatoes, rice or green beans.",
-      "history": "Chasseur sauce, made with mushrooms, shallots, wine and tomato, is a classic of French cuisine, and the name is usually explained by the mushrooms a hunter might gather in the woods. Chicken chasseur remains a familiar French home and bistro dish.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1.2 kg chicken pieces",
-          "250 g mushrooms, sliced",
-          "3 shallots, finely chopped",
-          "300 g tomatoes, chopped (or 2 tbsp tomato paste)",
-          "200 ml dry white wine",
-          "200 ml water",
-          "1 tbsp olive oil",
-          "2 tbsp chopped tarragon",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Season the chicken and brown it in the olive oil in a casserole; set aside.",
-          "Cook the mushrooms in the same pan for 5 minutes, then add the shallots for 2 minutes.",
-          "Pour in the white wine and let it bubble for 2–3 minutes, then add the tomatoes and water.",
-          "Return the chicken, cover and simmer for 30–35 minutes until cooked through.",
-          "Reduce the sauce slightly, stir in the tarragon, season and serve."
-        ]
-      },
-      "tips": [
-        "Use skinless chicken pieces or remove the skin after browning.",
-        "Let the wine simmer well; most of the sauce's flavour comes from reduction, not extra fat.",
-        "Serve with green beans or steamed potatoes in a measured portion."
-      ]
-    },
-    "ar": {
-      "name": "دجاج الصياد (بوليه شاسور)",
-      "origin": "فرنسا",
-      "intro": "البوليه شاسور أو «دجاج الصياد» طبق فرنسي من قطع الدجاج المطهوة في صلصة من الفطر والكراث الأندلسي (الشالوت) والطماطم والنبيذ الأبيض، مع الطرخون الطازج في النهاية. يصبح الدجاج طريًا والصلصة لامعة بنكهة غنية ترابية وعشبية. يُقدَّم ساخنًا مع البطاطا أو الأرز أو الفاصوليا الخضراء.",
-      "history": "صلصة «شاسور» المصنوعة من الفطر والشالوت والنبيذ والطماطم من كلاسيكيات المطبخ الفرنسي، ويُفسَّر اسمها عادةً بالفطر الذي قد يجمعه الصياد من الغابة. ولا يزال دجاج الصياد طبقًا مألوفًا في البيوت ومطاعم البيسترو الفرنسية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1.2 كغ قطع دجاج",
-          "250 غ فطر مقطع شرائح",
-          "3 حبات شالوت مفرومة ناعمًا",
-          "300 غ طماطم مقطعة (أو 2 ملعقة كبيرة معجون طماطم)",
-          "200 مل نبيذ أبيض جاف",
-          "200 مل ماء",
-          "1 ملعقة كبيرة زيت زيتون",
-          "2 ملعقة كبيرة طرخون مفروم",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "تبّل الدجاج وحمّره في زيت الزيتون في قدر، ثم ارفعه جانبًا.",
-          "اطهُ الفطر في القدر نفسها 5 دقائق، ثم أضف الشالوت لمدة دقيقتين.",
-          "أضف النبيذ الأبيض واتركه يغلي 2–3 دقائق، ثم أضف الطماطم والماء.",
-          "أعد الدجاج وغطّ القدر واتركه على نار هادئة 30–35 دقيقة حتى ينضج.",
-          "كثّف الصلصة قليلًا، وأضف الطرخون وتبّل وقدّم."
-        ]
-      },
-      "tips": [
-        "استخدم قطع دجاج بلا جلد أو أزل الجلد بعد التحمير.",
-        "اترك النبيذ يغلي جيدًا؛ فمعظم نكهة الصلصة يأتي من التكثيف لا من دهون إضافية.",
-        "قدّمه مع الفاصوليا الخضراء أو البطاطا المسلوقة بحصة محسوبة."
-      ]
-    },
-    "it": {
-      "name": "Poulet chasseur",
-      "origin": "Francia",
-      "intro": "Il poulet chasseur, o «pollo del cacciatore», è un brasato francese di pezzi di pollo in una salsa di funghi, scalogni, pomodoro e vino bianco, completata con dragoncello fresco. Il pollo diventa tenero e la salsa lucida è saporita, terrosa e profumata di erbe. Si serve caldo con patate, riso o fagiolini.",
-      "history": "La salsa chasseur, preparata con funghi, scalogni, vino e pomodoro, è un classico della cucina francese, e il nome si spiega di solito con i funghi che un cacciatore potrebbe raccogliere nel bosco. Il poulet chasseur resta un piatto familiare della cucina casalinga e dei bistrot francesi.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1,2 kg di pezzi di pollo",
-          "250 g di funghi, affettati",
-          "3 scalogni, tritati finemente",
-          "300 g di pomodori, tritati (oppure 2 cucchiai di concentrato di pomodoro)",
-          "200 ml di vino bianco secco",
-          "200 ml di acqua",
-          "1 cucchiaio di olio d'oliva",
-          "2 cucchiai di dragoncello tritato",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Condisci il pollo e rosolalo nell'olio d'oliva in una casseruola; mettilo da parte.",
-          "Cuoci i funghi nella stessa pentola per 5 minuti, poi aggiungi gli scalogni per 2 minuti.",
-          "Versa il vino bianco e lascialo sobbollire per 2–3 minuti, poi aggiungi i pomodori e l'acqua.",
-          "Rimetti il pollo, copri e cuoci a fuoco lento per 30–35 minuti finché è cotto.",
-          "Fai restringere un po' la salsa, unisci il dragoncello, regola di sale e pepe e servi."
-        ]
-      },
-      "tips": [
-        "Usa pezzi di pollo senza pelle o togli la pelle dopo la rosolatura.",
-        "Lascia sobbollire bene il vino: gran parte del sapore della salsa viene dalla riduzione, non da grassi aggiunti.",
-        "Servilo con fagiolini o patate al vapore in una porzione misurata."
-      ]
-    },
-    "el": {
-      "name": "Κοτόπουλο σασέρ",
-      "origin": "Γαλλία",
-      "intro": "Το πουλέ σασέρ, ή «κοτόπουλο του κυνηγού», είναι ένα γαλλικό κοκκινιστό με κομμάτια κοτόπουλου σε σάλτσα από μανιτάρια, εσαλότ, ντομάτα και λευκό κρασί, που ολοκληρώνεται με φρέσκο εστραγκόν. Το κοτόπουλο γίνεται τρυφερό και η γυαλιστερή σάλτσα είναι πλούσια, γήινη και αρωματική. Σερβίρεται ζεστό με πατάτες, ρύζι ή φασολάκια.",
-      "history": "Η σάλτσα σασέρ, με μανιτάρια, εσαλότ, κρασί και ντομάτα, είναι κλασική στη γαλλική κουζίνα, και το όνομα συνήθως εξηγείται από τα μανιτάρια που θα μάζευε ένας κυνηγός στο δάσος. Το κοτόπουλο σασέρ παραμένει γνώριμο πιάτο της γαλλικής σπιτικής κουζίνας και των μπιστρό.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1,2 κιλό κομμάτια κοτόπουλου",
-          "250 γρ. μανιτάρια, σε φέτες",
-          "3 εσαλότ, ψιλοκομμένα",
-          "300 γρ. ντομάτες, ψιλοκομμένες (ή 2 κ.σ. πελτές ντομάτας)",
-          "200 ml ξηρό λευκό κρασί",
-          "200 ml νερό",
-          "1 κ.σ. ελαιόλαδο",
-          "2 κ.σ. ψιλοκομμένο εστραγκόν",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Αλατοπιπερώστε το κοτόπουλο και σοτάρετέ το στο ελαιόλαδο σε μια κατσαρόλα· βγάλτε το και κρατήστε το στην άκρη.",
-          "Μαγειρέψτε τα μανιτάρια στο ίδιο σκεύος για 5 λεπτά, έπειτα προσθέστε τα εσαλότ για 2 λεπτά.",
-          "Ρίξτε το λευκό κρασί και αφήστε το να κοχλάσει για 2–3 λεπτά, έπειτα προσθέστε τις ντομάτες και το νερό.",
-          "Ξαναβάλτε το κοτόπουλο, σκεπάστε και σιγοβράστε για 30–35 λεπτά μέχρι να ψηθεί καλά.",
-          "Δέστε λίγο τη σάλτσα, ανακατέψτε το εστραγκόν, αλατοπιπερώστε και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε κομμάτια κοτόπουλου χωρίς πέτσα ή αφαιρέστε την πέτσα μετά το σοτάρισμα.",
-        "Αφήστε το κρασί να βράσει καλά· το μεγαλύτερο μέρος της γεύσης της σάλτσας προέρχεται από το δέσιμο, όχι από επιπλέον λιπαρά.",
-        "Σερβίρετε με φασολάκια ή πατάτες ατμού σε μετρημένη μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Цыплёнок шассёр",
-      "origin": "Франция",
-      "intro": "Пуле шассёр, или «охотничья курица», — французское тушёное блюдо из кусочков курицы в соусе из грибов, шалота, томатов и белого вина, с добавлением свежего тархуна. Курица становится нежной, а глянцевый соус пикантным, землистым и травяным. Его подают горячим с картофелем, рисом или зелёной фасолью.",
-      "history": "Соус шассёр из грибов, шалота, вина и томатов — классика французской кухни, а название обычно объясняют грибами, которые охотник мог собрать в лесу. Цыплёнок шассёр остаётся привычным блюдом французской домашней кухни и бистро.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1,2 кг кусочков курицы",
-          "250 г грибов, нарезанных",
-          "3 шалота, мелко нарубленных",
-          "300 г томатов, нарубленных (или 2 ст. л. томатной пасты)",
-          "200 мл сухого белого вина",
-          "200 мл воды",
-          "1 ст. л. оливкового масла",
-          "2 ст. л. нарубленного тархуна",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Посолите и поперчите курицу и обжарьте в оливковом масле в кастрюле с толстым дном; отложите.",
-          "В той же сковороде готовьте грибы 5 минут, затем добавьте шалот на 2 минуты.",
-          "Влейте белое вино и дайте покипеть 2–3 минуты, затем добавьте томаты и воду.",
-          "Верните курицу, накройте крышкой и тушите 30–35 минут до готовности.",
-          "Слегка уварите соус, добавьте тархун, приправьте и подавайте."
-        ]
-      },
-      "tips": [
-        "Используйте куски курицы без кожи или снимите кожу после обжаривания.",
-        "Дайте вину хорошо покипеть; основной вкус соуса даёт уваривание, а не дополнительный жир.",
-        "Подавайте с зелёной фасолью или картофелем на пару в отмеренной порции."
-      ]
-    }
+  "ar": {
+   "name": "دجاج الصياد (بوليه شاسور)",
+   "origin": "فرنسا",
+   "intro": "البوليه شاسور أو «دجاج الصياد» طبق فرنسي من قطع الدجاج المطهوة في صلصة من الفطر والكراث الأندلسي (الشالوت) والطماطم والنبيذ الأبيض، مع الطرخون الطازج في النهاية. يصبح الدجاج طريًا والصلصة لامعة بنكهة غنية ترابية وعشبية. يُقدَّم ساخنًا مع البطاطا أو الأرز أو الفاصوليا الخضراء.",
+   "history": "صلصة «شاسور» المصنوعة من الفطر والشالوت والنبيذ والطماطم من كلاسيكيات المطبخ الفرنسي، ويُفسَّر اسمها عادةً بالفطر الذي قد يجمعه الصياد من الغابة. ولا يزال دجاج الصياد طبقًا مألوفًا في البيوت ومطاعم البيسترو الفرنسية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1.2 كغ قطع دجاج",
+     "250 غ فطر مقطع شرائح",
+     "3 حبات شالوت مفرومة ناعمًا",
+     "300 غ طماطم مقطعة (أو 2 ملعقة كبيرة معجون طماطم)",
+     "200 مل نبيذ أبيض جاف",
+     "200 مل ماء",
+     "1 ملعقة كبيرة زيت زيتون",
+     "2 ملعقة كبيرة طرخون مفروم",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "تبّل الدجاج وحمّره في زيت الزيتون في قدر، ثم ارفعه جانبًا.",
+     "اطهُ الفطر في القدر نفسها 5 دقائق، ثم أضف الشالوت لمدة دقيقتين.",
+     "أضف النبيذ الأبيض واتركه يغلي 2–3 دقائق، ثم أضف الطماطم والماء.",
+     "أعد الدجاج وغطّ القدر واتركه على نار هادئة 30–35 دقيقة حتى ينضج.",
+     "كثّف الصلصة قليلًا، وأضف الطرخون وتبّل وقدّم."
+    ]
+   },
+   "tips": [
+    "استخدم قطع دجاج بلا جلد أو أزل الجلد بعد التحمير.",
+    "اترك النبيذ يغلي جيدًا؛ فمعظم نكهة الصلصة يأتي من التكثيف لا من دهون إضافية.",
+    "قدّمه مع الفاصوليا الخضراء أو البطاطا المسلوقة بحصة محسوبة."
+   ]
+  },
+  "it": {
+   "name": "Poulet chasseur",
+   "origin": "Francia",
+   "intro": "Il poulet chasseur, o «pollo del cacciatore», è un brasato francese di pezzi di pollo in una salsa di funghi, scalogni, pomodoro e vino bianco, completata con dragoncello fresco. Il pollo diventa tenero e la salsa lucida è saporita, terrosa e profumata di erbe. Si serve caldo con patate, riso o fagiolini.",
+   "history": "La salsa chasseur, preparata con funghi, scalogni, vino e pomodoro, è un classico della cucina francese, e il nome si spiega di solito con i funghi che un cacciatore potrebbe raccogliere nel bosco. Il poulet chasseur resta un piatto familiare della cucina casalinga e dei bistrot francesi.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1,2 kg di pezzi di pollo",
+     "250 g di funghi, affettati",
+     "3 scalogni, tritati finemente",
+     "300 g di pomodori, tritati (oppure 2 cucchiai di concentrato di pomodoro)",
+     "200 ml di vino bianco secco",
+     "200 ml di acqua",
+     "1 cucchiaio di olio d'oliva",
+     "2 cucchiai di dragoncello tritato",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Condisci il pollo e rosolalo nell'olio d'oliva in una casseruola; mettilo da parte.",
+     "Cuoci i funghi nella stessa pentola per 5 minuti, poi aggiungi gli scalogni per 2 minuti.",
+     "Versa il vino bianco e lascialo sobbollire per 2–3 minuti, poi aggiungi i pomodori e l'acqua.",
+     "Rimetti il pollo, copri e cuoci a fuoco lento per 30–35 minuti finché è cotto.",
+     "Fai restringere un po' la salsa, unisci il dragoncello, regola di sale e pepe e servi."
+    ]
+   },
+   "tips": [
+    "Usa pezzi di pollo senza pelle o togli la pelle dopo la rosolatura.",
+    "Lascia sobbollire bene il vino: gran parte del sapore della salsa viene dalla riduzione, non da grassi aggiunti.",
+    "Servilo con fagiolini o patate al vapore in una porzione misurata."
+   ]
+  },
+  "el": {
+   "name": "Κοτόπουλο σασέρ",
+   "origin": "Γαλλία",
+   "intro": "Το πουλέ σασέρ, ή «κοτόπουλο του κυνηγού», είναι ένα γαλλικό κοκκινιστό με κομμάτια κοτόπουλου σε σάλτσα από μανιτάρια, εσαλότ, ντομάτα και λευκό κρασί, που ολοκληρώνεται με φρέσκο εστραγκόν. Το κοτόπουλο γίνεται τρυφερό και η γυαλιστερή σάλτσα είναι πλούσια, γήινη και αρωματική. Σερβίρεται ζεστό με πατάτες, ρύζι ή φασολάκια.",
+   "history": "Η σάλτσα σασέρ, με μανιτάρια, εσαλότ, κρασί και ντομάτα, είναι κλασική στη γαλλική κουζίνα, και το όνομα συνήθως εξηγείται από τα μανιτάρια που θα μάζευε ένας κυνηγός στο δάσος. Το κοτόπουλο σασέρ παραμένει γνώριμο πιάτο της γαλλικής σπιτικής κουζίνας και των μπιστρό.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1,2 κιλό κομμάτια κοτόπουλου",
+     "250 γρ. μανιτάρια, σε φέτες",
+     "3 εσαλότ, ψιλοκομμένα",
+     "300 γρ. ντομάτες, ψιλοκομμένες (ή 2 κ.σ. πελτές ντομάτας)",
+     "200 ml ξηρό λευκό κρασί",
+     "200 ml νερό",
+     "1 κ.σ. ελαιόλαδο",
+     "2 κ.σ. ψιλοκομμένο εστραγκόν",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Αλατοπιπερώστε το κοτόπουλο και σοτάρετέ το στο ελαιόλαδο σε μια κατσαρόλα· βγάλτε το και κρατήστε το στην άκρη.",
+     "Μαγειρέψτε τα μανιτάρια στο ίδιο σκεύος για 5 λεπτά, έπειτα προσθέστε τα εσαλότ για 2 λεπτά.",
+     "Ρίξτε το λευκό κρασί και αφήστε το να κοχλάσει για 2–3 λεπτά, έπειτα προσθέστε τις ντομάτες και το νερό.",
+     "Ξαναβάλτε το κοτόπουλο, σκεπάστε και σιγοβράστε για 30–35 λεπτά μέχρι να ψηθεί καλά.",
+     "Δέστε λίγο τη σάλτσα, ανακατέψτε το εστραγκόν, αλατοπιπερώστε και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε κομμάτια κοτόπουλου χωρίς πέτσα ή αφαιρέστε την πέτσα μετά το σοτάρισμα.",
+    "Αφήστε το κρασί να βράσει καλά· το μεγαλύτερο μέρος της γεύσης της σάλτσας προέρχεται από το δέσιμο, όχι από επιπλέον λιπαρά.",
+    "Σερβίρετε με φασολάκια ή πατάτες ατμού σε μετρημένη μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Цыплёнок шассёр",
+   "origin": "Франция",
+   "intro": "Пуле шассёр, или «охотничья курица», — французское тушёное блюдо из кусочков курицы в соусе из грибов, шалота, томатов и белого вина, с добавлением свежего тархуна. Курица становится нежной, а глянцевый соус пикантным, землистым и травяным. Его подают горячим с картофелем, рисом или зелёной фасолью.",
+   "history": "Соус шассёр из грибов, шалота, вина и томатов — классика французской кухни, а название обычно объясняют грибами, которые охотник мог собрать в лесу. Цыплёнок шассёр остаётся привычным блюдом французской домашней кухни и бистро.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1,2 кг кусочков курицы",
+     "250 г грибов, нарезанных",
+     "3 шалота, мелко нарубленных",
+     "300 г томатов, нарубленных (или 2 ст. л. томатной пасты)",
+     "200 мл сухого белого вина",
+     "200 мл воды",
+     "1 ст. л. оливкового масла",
+     "2 ст. л. нарубленного тархуна",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Посолите и поперчите курицу и обжарьте в оливковом масле в кастрюле с толстым дном; отложите.",
+     "В той же сковороде готовьте грибы 5 минут, затем добавьте шалот на 2 минуты.",
+     "Влейте белое вино и дайте покипеть 2–3 минуты, затем добавьте томаты и воду.",
+     "Верните курицу, накройте крышкой и тушите 30–35 минут до готовности.",
+     "Слегка уварите соус, добавьте тархун, приправьте и подавайте."
+    ]
+   },
+   "tips": [
+    "Используйте куски курицы без кожи или снимите кожу после обжаривания.",
+    "Дайте вину хорошо покипеть; основной вкус соуса даёт уваривание, а не дополнительный жир.",
+    "Подавайте с зелёной фасолью или картофелем на пару в отмеренной порции."
+   ]
+  },
+  "es": {
+   "name": "Pollo cazador (poulet chasseur)",
+   "origin": "Francia",
+   "intro": "El poulet chasseur, o \"pollo del cazador\", es un guiso francés de piezas de pollo en una salsa de champiñones, chalotes, jitomate y vino blanco, terminada con estragón fresco. El pollo queda tierno y la salsa brillante es sabrosa, terrosa y herbal. Se sirve caliente con papas, arroz o ejotes.",
+   "history": "La salsa cazadora (chasseur), hecha con champiñones, chalotes, vino y jitomate, es un clásico de la cocina francesa, y el nombre suele explicarse por los hongos que un cazador podría recoger en el bosque. El pollo cazador sigue siendo un plato habitual de las casas y bistrós de Francia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1.2 kg de piezas de pollo",
+     "250 g de champiñones, en rodajas",
+     "3 chalotes, picados finos",
+     "300 g de jitomates, picados (o 2 cdas. de pasta de jitomate)",
+     "200 ml de vino blanco seco",
+     "200 ml de agua",
+     "1 cda. de aceite de oliva",
+     "2 cdas. de estragón picado",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Sazona el pollo y dóralo en el aceite de oliva en una cazuela; resérvalo.",
+     "Cocina los champiñones en la misma cazuela 5 minutos y luego añade los chalotes 2 minutos.",
+     "Vierte el vino blanco y deja que hierva 2 o 3 minutos; después agrega los jitomates y el agua.",
+     "Regresa el pollo, tapa y cocina a fuego lento de 30 a 35 minutos, hasta que esté cocido.",
+     "Reduce un poco la salsa, incorpora el estragón, rectifica la sazón y sirve."
+    ]
+   },
+   "tips": [
+    "Usa piezas de pollo sin piel o quítale la piel después de dorarlo.",
+    "Deja que el vino hierva bien; el sabor de la salsa viene de la reducción, no de grasa adicional.",
+    "Sirve con ejotes o papas al vapor en una porción medida."
+   ],
+   "name_inline": "el pollo cazador"
   }
+ }
 }

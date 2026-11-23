@@ -1,160 +1,190 @@
 {
-  "db_key": "merguez_sandwich",
-  "slug": "merguez-sandwich",
-  "emoji": "🌭",
-  "portion_g": 300,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "merguez_sandwich",
+ "slug": "merguez-sandwich",
+ "emoji": "🌭",
+ "portion_g": 300,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Merguez sandwich",
+   "origin": "France · Maghreb",
+   "intro": "A merguez sandwich is a length of crusty baguette filled with grilled merguez — thin, spicy lamb sausages coloured red with paprika and chili — plus harissa, lettuce, tomato and onion. The sausages are smoky and juicy, the harissa adds heat and the fresh vegetables cool it down. It is classic street and stadium food, eaten hot from the grill.",
+   "history": "Merguez sausages come from the Maghreb — Tunisia, Algeria and Morocco — and arrived in France with North African communities in the 20th century. The baguette sandwich, often called a 'merguez-frites' when fries are stuffed inside, became a fixture of French street stalls, fairs and football grounds.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 merguez sausages (about 250 g)",
+     "1 baguette, cut into 2 pieces",
+     "2 tsp harissa",
+     "Lettuce leaves",
+     "1 tomato, sliced",
+     "½ onion, thinly sliced"
+    ],
+    "steps": [
+     "Grill or pan-fry the merguez over medium-high heat for 8–10 minutes, turning, until browned and cooked through.",
+     "Split the baguette pieces lengthwise and warm them briefly on the grill.",
+     "Spread the inside with harissa.",
+     "Fill with lettuce, tomato and onion, then add the hot sausages and serve."
+    ]
+   },
+   "tips": [
+    "Grill the merguez rather than frying in oil so some of the fat drips away.",
+    "Use one sausage per sandwich and pile on extra lettuce, tomato and onion.",
+    "Choose a shorter piece of baguette or scoop out some of the soft crumb."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Merguez sandwich",
-      "origin": "France · Maghreb",
-      "intro": "A merguez sandwich is a length of crusty baguette filled with grilled merguez — thin, spicy lamb sausages coloured red with paprika and chili — plus harissa, lettuce, tomato and onion. The sausages are smoky and juicy, the harissa adds heat and the fresh vegetables cool it down. It is classic street and stadium food, eaten hot from the grill.",
-      "history": "Merguez sausages come from the Maghreb — Tunisia, Algeria and Morocco — and arrived in France with North African communities in the 20th century. The baguette sandwich, often called a 'merguez-frites' when fries are stuffed inside, became a fixture of French street stalls, fairs and football grounds.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 merguez sausages (about 250 g)",
-          "1 baguette, cut into 2 pieces",
-          "2 tsp harissa",
-          "Lettuce leaves",
-          "1 tomato, sliced",
-          "½ onion, thinly sliced"
-        ],
-        "steps": [
-          "Grill or pan-fry the merguez over medium-high heat for 8–10 minutes, turning, until browned and cooked through.",
-          "Split the baguette pieces lengthwise and warm them briefly on the grill.",
-          "Spread the inside with harissa.",
-          "Fill with lettuce, tomato and onion, then add the hot sausages and serve."
-        ]
-      },
-      "tips": [
-        "Grill the merguez rather than frying in oil so some of the fat drips away.",
-        "Use one sausage per sandwich and pile on extra lettuce, tomato and onion.",
-        "Choose a shorter piece of baguette or scoop out some of the soft crumb."
-      ]
-    },
-    "ar": {
-      "name": "سندويتش ميرغيز",
-      "origin": "فرنسا · المغرب العربي",
-      "intro": "سندويتش الميرغيز قطعة من خبز الباغيت المقرمش محشوة بسجق الميرغيز المشوي — نقانق رفيعة حارة من لحم الضأن لونها أحمر من الفلفل الحلو والحار — مع الهريسة والخس والطماطم والبصل. السجق مدخّن النكهة وعصيري، والهريسة تضيف الحرارة، والخضار الطازجة تلطّفها. إنه طعام شوارع وملاعب كلاسيكي يؤكل ساخناً من الشواية.",
-      "history": "يعود سجق الميرغيز إلى المغرب العربي — تونس والجزائر والمغرب — ووصل إلى فرنسا مع الجاليات الشمال أفريقية في القرن العشرين. وأصبح سندويتش الباغيت، الذي يُسمّى «ميرغيز-فريت» حين تُحشى البطاطا المقلية داخله، من ثوابت أكشاك الشوارع والمهرجانات وملاعب كرة القدم في فرنسا.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 أصابع سجق ميرغيز (نحو 250 غ)",
-          "خبز باغيت مقطّع قطعتين",
-          "2 ملعقة صغيرة هريسة",
-          "أوراق خس",
-          "حبة طماطم مقطّعة شرائح",
-          "نصف بصلة مقطّعة شرائح رفيعة"
-        ],
-        "steps": [
-          "اشوِ الميرغيز أو حمّره في مقلاة على نار متوسطة إلى عالية 8–10 دقائق مع التقليب حتى يتحمّر وينضج.",
-          "افتح قطعتي الباغيت بالطول وسخّنهما قليلاً على الشواية.",
-          "ادهن الداخل بالهريسة.",
-          "احشُ الخبز بالخس والطماطم والبصل، ثم أضف السجق الساخن وقدّمه."
-        ]
-      },
-      "tips": [
-        "اشوِ الميرغيز بدلاً من قليه في الزيت ليتساقط جزء من الدهن.",
-        "استخدم أصبع سجق واحداً لكل سندويتش وأكثِر من الخس والطماطم والبصل.",
-        "اختر قطعة باغيت أقصر أو أزل جزءاً من لبّ الخبز الطري."
-      ]
-    },
-    "it": {
-      "name": "Panino con merguez",
-      "name_inline": "panino con merguez",
-      "origin": "Francia · Maghreb",
-      "intro": "Il panino con merguez è un pezzo di baguette croccante farcito con merguez grigliate, sottili salsicce d'agnello piccanti colorate di rosso da paprika e peperoncino, più harissa, lattuga, pomodoro e cipolla. Le salsicce sono affumicate e succose, l'harissa aggiunge piccantezza e le verdure fresche la rinfrescano. È un classico cibo di strada e da stadio, mangiato caldo appena tolto dalla griglia.",
-      "history": "Le merguez vengono dal Maghreb, cioè Tunisia, Algeria e Marocco, e sono arrivate in Francia con le comunità nordafricane nel XX secolo. Il panino nella baguette, spesso chiamato «merguez-frites» quando dentro si infilano anche le patatine, è diventato una presenza fissa nei chioschi di strada, nelle fiere e negli stadi di calcio francesi.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 merguez (circa 250 g)",
-          "1 baguette, tagliata in 2 pezzi",
-          "2 cucchiaini di harissa",
-          "Foglie di lattuga",
-          "1 pomodoro, a fette",
-          "½ cipolla, affettata sottile"
-        ],
-        "steps": [
-          "Griglia o cuoci in padella le merguez a fuoco medio-alto per 8–10 minuti, girandole, finché sono dorate e cotte all'interno.",
-          "Apri i pezzi di baguette per il lungo e scaldali brevemente sulla griglia.",
-          "Spalma l'interno con l'harissa.",
-          "Farcisci con lattuga, pomodoro e cipolla, poi aggiungi le salsicce calde e servi."
-        ]
-      },
-      "tips": [
-        "Griglia le merguez invece di friggerle nell'olio, così parte del grasso cola via.",
-        "Usa una salsiccia per panino e aggiungi abbondante lattuga, pomodoro e cipolla.",
-        "Scegli un pezzo di baguette più corto o togli parte della mollica."
-      ]
-    },
-    "el": {
-      "name": "Σάντουιτς με μεργκέζ",
-      "origin": "Γαλλία · Μαγκρέμπ",
-      "intro": "Το σάντουιτς με μεργκέζ είναι ένα κομμάτι τραγανής μπαγκέτας γεμισμένο με ψητά μεργκέζ — λεπτά, πικάντικα αρνίσια λουκάνικα βαμμένα κόκκινα από πάπρικα και τσίλι — μαζί με χαρίσα, μαρούλι, ντομάτα και κρεμμύδι. Τα λουκάνικα είναι καπνιστά και ζουμερά, η χαρίσα προσθέτει καυτερή γεύση και τα φρέσκα λαχανικά τη δροσίζουν. Είναι κλασικό φαγητό δρόμου και γηπέδου, που τρώγεται ζεστό κατευθείαν από τη σχάρα.",
-      "history": "Τα λουκάνικα μεργκέζ προέρχονται από το Μαγκρέμπ — Τυνησία, Αλγερία και Μαρόκο — και έφτασαν στη Γαλλία με τις βορειοαφρικανικές κοινότητες τον 20ό αιώνα. Το σάντουιτς σε μπαγκέτα, που συχνά λέγεται «μεργκέζ-φριτ» όταν μέσα μπαίνουν και πατάτες τηγανητές, έγινε σταθερή παρουσία στους πάγκους του δρόμου, στα πανηγύρια και στα γήπεδα ποδοσφαίρου της Γαλλίας.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 λουκάνικα μεργκέζ (περίπου 250 γρ.)",
-          "1 μπαγκέτα, κομμένη σε 2 κομμάτια",
-          "2 κ.γ. χαρίσα",
-          "Φύλλα μαρουλιού",
-          "1 ντομάτα, σε φέτες",
-          "½ κρεμμύδι, σε λεπτές φέτες"
-        ],
-        "steps": [
-          "Ψήστε στη σχάρα ή στο τηγάνι τα μεργκέζ σε μέτρια προς δυνατή φωτιά για 8–10 λεπτά, γυρίζοντας, μέχρι να ροδίσουν και να ψηθούν καλά.",
-          "Ανοίξτε τα κομμάτια της μπαγκέτας κατά μήκος και ζεστάνετέ τα για λίγο στη σχάρα.",
-          "Αλείψτε το εσωτερικό με χαρίσα.",
-          "Γεμίστε με μαρούλι, ντομάτα και κρεμμύδι, μετά προσθέστε τα ζεστά λουκάνικα και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Ψήστε τα μεργκέζ στη σχάρα αντί να τα τηγανίσετε σε λάδι, ώστε να φύγει μέρος του λίπους.",
-        "Βάλτε ένα λουκάνικο ανά σάντουιτς και γεμίστε με επιπλέον μαρούλι, ντομάτα και κρεμμύδι.",
-        "Επιλέξτε πιο κοντό κομμάτι μπαγκέτας ή αφαιρέστε λίγη από την ψίχα."
-      ]
-    },
-    "ru": {
-      "name": "Сэндвич с мергезом",
-      "origin": "Франция · Магриб",
-      "intro": "Сэндвич с мергезом — кусок хрустящего багета с начинкой из жареных мергез — тонких острых бараньих колбасок, окрашенных в красный цвет паприкой и чили, — а также харисы, салата, помидора и лука. Колбаски дымные и сочные, хариса добавляет остроту, а свежие овощи её смягчают. Это классическая уличная и стадионная еда, которую едят горячей с гриля.",
-      "history": "Колбаски мергез родом с Магриба — из Туниса, Алжира и Марокко — и попали во Францию вместе с североафриканскими общинами в XX веке. Сэндвич с багетом, который часто называют «мергез-фри», когда внутрь кладут картофель фри, стал неотъемлемой частью французских уличных лотков, ярмарок и футбольных стадионов.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 колбаски мергез (около 250 г)",
-          "1 багет, разрезанный на 2 части",
-          "2 ч. л. харисы",
-          "Листья салата",
-          "1 помидор, нарезанный",
-          "½ луковицы, тонко нарезанной"
-        ],
-        "steps": [
-          "Пожарьте мергез на гриле или сковороде на средне-сильном огне 8–10 минут, переворачивая, до румяности и готовности.",
-          "Разрежьте куски багета вдоль и ненадолго прогрейте на гриле.",
-          "Намажьте внутреннюю сторону харисой.",
-          "Наполните салатом, помидором и луком, затем добавьте горячие колбаски и подавайте."
-        ]
-      },
-      "tips": [
-        "Жарьте мергез на гриле, а не в масле, чтобы часть жира стекла.",
-        "Кладите по одной колбаске на сэндвич и добавьте побольше салата, помидора и лука.",
-        "Выберите кусок багета покороче или выньте часть мягкого мякиша."
-      ]
-    }
+  "ar": {
+   "name": "سندويتش ميرغيز",
+   "origin": "فرنسا · المغرب العربي",
+   "intro": "سندويتش الميرغيز قطعة من خبز الباغيت المقرمش محشوة بسجق الميرغيز المشوي — نقانق رفيعة حارة من لحم الضأن لونها أحمر من الفلفل الحلو والحار — مع الهريسة والخس والطماطم والبصل. السجق مدخّن النكهة وعصيري، والهريسة تضيف الحرارة، والخضار الطازجة تلطّفها. إنه طعام شوارع وملاعب كلاسيكي يؤكل ساخناً من الشواية.",
+   "history": "يعود سجق الميرغيز إلى المغرب العربي — تونس والجزائر والمغرب — ووصل إلى فرنسا مع الجاليات الشمال أفريقية في القرن العشرين. وأصبح سندويتش الباغيت، الذي يُسمّى «ميرغيز-فريت» حين تُحشى البطاطا المقلية داخله، من ثوابت أكشاك الشوارع والمهرجانات وملاعب كرة القدم في فرنسا.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 أصابع سجق ميرغيز (نحو 250 غ)",
+     "خبز باغيت مقطّع قطعتين",
+     "2 ملعقة صغيرة هريسة",
+     "أوراق خس",
+     "حبة طماطم مقطّعة شرائح",
+     "نصف بصلة مقطّعة شرائح رفيعة"
+    ],
+    "steps": [
+     "اشوِ الميرغيز أو حمّره في مقلاة على نار متوسطة إلى عالية 8–10 دقائق مع التقليب حتى يتحمّر وينضج.",
+     "افتح قطعتي الباغيت بالطول وسخّنهما قليلاً على الشواية.",
+     "ادهن الداخل بالهريسة.",
+     "احشُ الخبز بالخس والطماطم والبصل، ثم أضف السجق الساخن وقدّمه."
+    ]
+   },
+   "tips": [
+    "اشوِ الميرغيز بدلاً من قليه في الزيت ليتساقط جزء من الدهن.",
+    "استخدم أصبع سجق واحداً لكل سندويتش وأكثِر من الخس والطماطم والبصل.",
+    "اختر قطعة باغيت أقصر أو أزل جزءاً من لبّ الخبز الطري."
+   ]
+  },
+  "it": {
+   "name": "Panino con merguez",
+   "name_inline": "panino con merguez",
+   "origin": "Francia · Maghreb",
+   "intro": "Il panino con merguez è un pezzo di baguette croccante farcito con merguez grigliate, sottili salsicce d'agnello piccanti colorate di rosso da paprika e peperoncino, più harissa, lattuga, pomodoro e cipolla. Le salsicce sono affumicate e succose, l'harissa aggiunge piccantezza e le verdure fresche la rinfrescano. È un classico cibo di strada e da stadio, mangiato caldo appena tolto dalla griglia.",
+   "history": "Le merguez vengono dal Maghreb, cioè Tunisia, Algeria e Marocco, e sono arrivate in Francia con le comunità nordafricane nel XX secolo. Il panino nella baguette, spesso chiamato «merguez-frites» quando dentro si infilano anche le patatine, è diventato una presenza fissa nei chioschi di strada, nelle fiere e negli stadi di calcio francesi.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 merguez (circa 250 g)",
+     "1 baguette, tagliata in 2 pezzi",
+     "2 cucchiaini di harissa",
+     "Foglie di lattuga",
+     "1 pomodoro, a fette",
+     "½ cipolla, affettata sottile"
+    ],
+    "steps": [
+     "Griglia o cuoci in padella le merguez a fuoco medio-alto per 8–10 minuti, girandole, finché sono dorate e cotte all'interno.",
+     "Apri i pezzi di baguette per il lungo e scaldali brevemente sulla griglia.",
+     "Spalma l'interno con l'harissa.",
+     "Farcisci con lattuga, pomodoro e cipolla, poi aggiungi le salsicce calde e servi."
+    ]
+   },
+   "tips": [
+    "Griglia le merguez invece di friggerle nell'olio, così parte del grasso cola via.",
+    "Usa una salsiccia per panino e aggiungi abbondante lattuga, pomodoro e cipolla.",
+    "Scegli un pezzo di baguette più corto o togli parte della mollica."
+   ]
+  },
+  "el": {
+   "name": "Σάντουιτς με μεργκέζ",
+   "origin": "Γαλλία · Μαγκρέμπ",
+   "intro": "Το σάντουιτς με μεργκέζ είναι ένα κομμάτι τραγανής μπαγκέτας γεμισμένο με ψητά μεργκέζ — λεπτά, πικάντικα αρνίσια λουκάνικα βαμμένα κόκκινα από πάπρικα και τσίλι — μαζί με χαρίσα, μαρούλι, ντομάτα και κρεμμύδι. Τα λουκάνικα είναι καπνιστά και ζουμερά, η χαρίσα προσθέτει καυτερή γεύση και τα φρέσκα λαχανικά τη δροσίζουν. Είναι κλασικό φαγητό δρόμου και γηπέδου, που τρώγεται ζεστό κατευθείαν από τη σχάρα.",
+   "history": "Τα λουκάνικα μεργκέζ προέρχονται από το Μαγκρέμπ — Τυνησία, Αλγερία και Μαρόκο — και έφτασαν στη Γαλλία με τις βορειοαφρικανικές κοινότητες τον 20ό αιώνα. Το σάντουιτς σε μπαγκέτα, που συχνά λέγεται «μεργκέζ-φριτ» όταν μέσα μπαίνουν και πατάτες τηγανητές, έγινε σταθερή παρουσία στους πάγκους του δρόμου, στα πανηγύρια και στα γήπεδα ποδοσφαίρου της Γαλλίας.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 λουκάνικα μεργκέζ (περίπου 250 γρ.)",
+     "1 μπαγκέτα, κομμένη σε 2 κομμάτια",
+     "2 κ.γ. χαρίσα",
+     "Φύλλα μαρουλιού",
+     "1 ντομάτα, σε φέτες",
+     "½ κρεμμύδι, σε λεπτές φέτες"
+    ],
+    "steps": [
+     "Ψήστε στη σχάρα ή στο τηγάνι τα μεργκέζ σε μέτρια προς δυνατή φωτιά για 8–10 λεπτά, γυρίζοντας, μέχρι να ροδίσουν και να ψηθούν καλά.",
+     "Ανοίξτε τα κομμάτια της μπαγκέτας κατά μήκος και ζεστάνετέ τα για λίγο στη σχάρα.",
+     "Αλείψτε το εσωτερικό με χαρίσα.",
+     "Γεμίστε με μαρούλι, ντομάτα και κρεμμύδι, μετά προσθέστε τα ζεστά λουκάνικα και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Ψήστε τα μεργκέζ στη σχάρα αντί να τα τηγανίσετε σε λάδι, ώστε να φύγει μέρος του λίπους.",
+    "Βάλτε ένα λουκάνικο ανά σάντουιτς και γεμίστε με επιπλέον μαρούλι, ντομάτα και κρεμμύδι.",
+    "Επιλέξτε πιο κοντό κομμάτι μπαγκέτας ή αφαιρέστε λίγη από την ψίχα."
+   ]
+  },
+  "ru": {
+   "name": "Сэндвич с мергезом",
+   "origin": "Франция · Магриб",
+   "intro": "Сэндвич с мергезом — кусок хрустящего багета с начинкой из жареных мергез — тонких острых бараньих колбасок, окрашенных в красный цвет паприкой и чили, — а также харисы, салата, помидора и лука. Колбаски дымные и сочные, хариса добавляет остроту, а свежие овощи её смягчают. Это классическая уличная и стадионная еда, которую едят горячей с гриля.",
+   "history": "Колбаски мергез родом с Магриба — из Туниса, Алжира и Марокко — и попали во Францию вместе с североафриканскими общинами в XX веке. Сэндвич с багетом, который часто называют «мергез-фри», когда внутрь кладут картофель фри, стал неотъемлемой частью французских уличных лотков, ярмарок и футбольных стадионов.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 колбаски мергез (около 250 г)",
+     "1 багет, разрезанный на 2 части",
+     "2 ч. л. харисы",
+     "Листья салата",
+     "1 помидор, нарезанный",
+     "½ луковицы, тонко нарезанной"
+    ],
+    "steps": [
+     "Пожарьте мергез на гриле или сковороде на средне-сильном огне 8–10 минут, переворачивая, до румяности и готовности.",
+     "Разрежьте куски багета вдоль и ненадолго прогрейте на гриле.",
+     "Намажьте внутреннюю сторону харисой.",
+     "Наполните салатом, помидором и луком, затем добавьте горячие колбаски и подавайте."
+    ]
+   },
+   "tips": [
+    "Жарьте мергез на гриле, а не в масле, чтобы часть жира стекла.",
+    "Кладите по одной колбаске на сэндвич и добавьте побольше салата, помидора и лука.",
+    "Выберите кусок багета покороче или выньте часть мягкого мякиша."
+   ]
+  },
+  "es": {
+   "name": "Sándwich de merguez",
+   "origin": "Francia · Magreb",
+   "intro": "El sándwich de merguez es un tramo de baguette crujiente relleno de merguez a la parrilla —salchichas delgadas y picantes de cordero, teñidas de rojo con pimentón y chile— además de harissa, lechuga, jitomate y cebolla. Las salchichas son ahumadas y jugosas, la harissa aporta picante y las verduras frescas lo refrescan. Es un clásico de la comida callejera y de los estadios, que se come caliente, recién salido de la parrilla.",
+   "history": "Las salchichas merguez provienen del Magreb —Túnez, Argelia y Marruecos— y llegaron a Francia con las comunidades norteafricanas en el siglo XX. El sándwich de baguette, a menudo llamado «merguez-frites» cuando se rellena también con papas fritas, se volvió habitual en los puestos callejeros, ferias y estadios de fútbol franceses.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 salchichas merguez (unos 250 g)",
+     "1 baguette, cortada en 2 trozos",
+     "2 cdtas. de harissa",
+     "Hojas de lechuga",
+     "1 jitomate, en rodajas",
+     "1/2 cebolla, en rodajas finas"
+    ],
+    "steps": [
+     "Asa las merguez a la parrilla o en sartén a fuego medio-alto de 8 a 10 minutos, volteándolas, hasta que estén doradas y bien cocidas.",
+     "Abre los trozos de baguette a lo largo y caliéntalos brevemente en la parrilla.",
+     "Unta el interior con la harissa.",
+     "Rellena con la lechuga, el jitomate y la cebolla, añade las salchichas calientes y sirve."
+    ]
+   },
+   "tips": [
+    "Asa las merguez en lugar de freírlas en aceite para que escurra parte de la grasa.",
+    "Usa una salchicha por sándwich y añade más lechuga, jitomate y cebolla.",
+    "Elige un trozo de baguette más corto o retira parte de la miga blanda."
+   ],
+   "name_inline": "el sándwich de merguez"
   }
+ }
 }

@@ -1,156 +1,185 @@
 {
-  "db_key": "pizza_diavola",
-  "slug": "pizza-diavola",
-  "emoji": "🌶️",
-  "portion_g": 300,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pizza_diavola",
+ "slug": "pizza-diavola",
+ "emoji": "🌶️",
+ "portion_g": 300,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pizza Diavola",
+   "origin": "Italy",
+   "intro": "Pizza diavola is a spicy Italian pizza of tomato sauce and mozzarella topped with slices of hot salami and chilli. In the oven the salami crisps at the edges and releases its paprika-red oil into the melted cheese. It is fiery, savoury and served whole and hot.",
+   "history": "Diavola means 'devil' in Italian, a nod to the heat from the spicy salami and chilli. It is a standard pizza across Italy and is similar to what many English-speaking countries call a pepperoni pizza. The traditional salami contains pork.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 g pizza dough",
+     "150 g tomato sauce",
+     "150 g mozzarella",
+     "80 g spicy salami, thinly sliced",
+     "1 fresh red chilli, sliced, or chilli flakes"
+    ],
+    "steps": [
+     "Heat the oven to its maximum with a tray or stone inside.",
+     "Stretch the dough into two rounds and spread with tomato sauce.",
+     "Add the mozzarella, salami and chilli.",
+     "Bake 8–10 minutes until the crust is golden and the salami edges crisp."
+    ]
+   },
+   "tips": [
+    "Use half the salami and add more chilli for the same kick.",
+    "Blot excess oil from the top with a paper towel.",
+    "Eat two slices with a large salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pizza Diavola",
-      "origin": "Italy",
-      "intro": "Pizza diavola is a spicy Italian pizza of tomato sauce and mozzarella topped with slices of hot salami and chilli. In the oven the salami crisps at the edges and releases its paprika-red oil into the melted cheese. It is fiery, savoury and served whole and hot.",
-      "history": "Diavola means 'devil' in Italian, a nod to the heat from the spicy salami and chilli. It is a standard pizza across Italy and is similar to what many English-speaking countries call a pepperoni pizza. The traditional salami contains pork.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 g pizza dough",
-          "150 g tomato sauce",
-          "150 g mozzarella",
-          "80 g spicy salami, thinly sliced",
-          "1 fresh red chilli, sliced, or chilli flakes"
-        ],
-        "steps": [
-          "Heat the oven to its maximum with a tray or stone inside.",
-          "Stretch the dough into two rounds and spread with tomato sauce.",
-          "Add the mozzarella, salami and chilli.",
-          "Bake 8–10 minutes until the crust is golden and the salami edges crisp."
-        ]
-      },
-      "tips": [
-        "Use half the salami and add more chilli for the same kick.",
-        "Blot excess oil from the top with a paper towel.",
-        "Eat two slices with a large salad."
-      ]
-    },
-    "ar": {
-      "name": "بيتزا ديافولا",
-      "origin": "إيطاليا",
-      "intro": "بيتزا ديافولا بيتزا إيطالية حارة من صلصة الطماطم والموزاريلا تُغطى بشرائح السلامي الحار والفلفل الحار. في الفرن تتحمص أطراف السلامي ويسيل زيتها الأحمر على الجبنة الذائبة. طعمها لاذع ومالح، وتُقدَّم كاملة ساخنة.",
-      "history": "معنى «ديافولا» بالإيطالية «الشيطانة»، في إشارة إلى حرارة السلامي والفلفل. وهي بيتزا أساسية في أنحاء إيطاليا، وتشبه ما يُسمى في كثير من البلدان الناطقة بالإنجليزية بيتزا الببروني. السلامي التقليدي فيها يحتوي على لحم الخنزير.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 غ عجينة بيتزا",
-          "150 غ صلصة طماطم",
-          "150 غ موزاريلا",
-          "80 غ سلامي حار مقطع شرائح رفيعة",
-          "فلفل أحمر حار طازج مقطع أو رقائق فلفل حار"
-        ],
-        "steps": [
-          "سخّن الفرن لأقصى درجة مع صينية أو حجر بداخله.",
-          "افرد العجين قرصين ووزّع صلصة الطماطم.",
-          "أضف الموزاريلا والسلامي والفلفل الحار.",
-          "اخبزها 8–10 دقائق حتى تصبح الحافة ذهبية وتتحمص أطراف السلامي."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية السلامي وزِد الفلفل الحار للحدة نفسها.",
-        "انشف الزيت الزائد من الوجه بمنديل ورقي.",
-        "تناول شريحتين مع سلطة كبيرة."
-      ]
-    },
-    "it": {
-      "name": "Pizza diavola",
-      "origin": "Italia",
-      "intro": "La pizza diavola è una pizza italiana piccante con salsa di pomodoro e mozzarella, guarnita con fettine di salame piccante e peperoncino. In forno il salame diventa croccante ai bordi e rilascia il suo olio rosso di paprika nel formaggio fuso. È focosa, saporita e si serve intera e calda.",
-      "history": "Il nome diavola richiama il diavolo, un cenno al piccante del salame e del peperoncino. È una pizza standard in tutta Italia ed è simile a quella che in molti paesi anglofoni si chiama pepperoni pizza. Il salame tradizionale contiene carne di maiale.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 g di impasto per pizza",
-          "150 g di salsa di pomodoro",
-          "150 g di mozzarella",
-          "80 g di salame piccante, a fettine sottili",
-          "1 peperoncino rosso fresco, a rondelle, o peperoncino in fiocchi"
-        ],
-        "steps": [
-          "Scalda il forno al massimo con una teglia o una pietra all'interno.",
-          "Stendi l'impasto in due dischi e distribuisci la salsa di pomodoro.",
-          "Aggiungi mozzarella, salame e peperoncino.",
-          "Cuoci 8–10 minuti finché il cornicione è dorato e i bordi del salame sono croccanti."
-        ]
-      },
-      "tips": [
-        "Usa metà salame e aggiungi più peperoncino per lo stesso effetto piccante.",
-        "Tampona l'olio in eccesso in superficie con un foglio di carta assorbente.",
-        "Mangia due spicchi con una grande insalata."
-      ]
-    },
-    "el": {
-      "name": "Πίτσα ντιάβολα",
-      "name_inline": "πίτσα ντιάβολα",
-      "origin": "Ιταλία",
-      "intro": "Η πίτσα ντιάβολα είναι πικάντικη ιταλική πίτσα με σάλτσα ντομάτας και μοτσαρέλα, με φέτες καυτερού σαλαμιού και καυτερή πιπεριά από πάνω. Στον φούρνο το σαλάμι γίνεται τραγανό στις άκρες και αφήνει το κόκκινο από την πάπρικα λάδι του στο λιωμένο τυρί. Είναι φλογερή, νόστιμη και σερβίρεται ολόκληρη και ζεστή.",
-      "history": "Diavola σημαίνει «διάβολος» στα ιταλικά, υπαινιγμός στην καυτερή γεύση από το πικάντικο σαλάμι και την καυτερή πιπεριά. Είναι βασική πίτσα σε όλη την Ιταλία και μοιάζει με αυτό που σε πολλές αγγλόφωνες χώρες λέγεται πίτσα πεπερόνι. Το παραδοσιακό σαλάμι περιέχει χοιρινό.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 γρ. ζύμη για πίτσα",
-          "150 γρ. σάλτσα ντομάτας",
-          "150 γρ. μοτσαρέλα",
-          "80 γρ. καυτερό σαλάμι, σε λεπτές φέτες",
-          "1 φρέσκια κόκκινη καυτερή πιπεριά, σε ροδέλες, ή νιφάδες καυτερής πιπεριάς"
-        ],
-        "steps": [
-          "Ζεστάνετε τον φούρνο στη μέγιστη θερμοκρασία με ένα ταψί ή πέτρα μέσα.",
-          "Ανοίξτε τη ζύμη σε δύο δίσκους και απλώστε τη σάλτσα ντομάτας.",
-          "Προσθέστε τη μοτσαρέλα, το σαλάμι και την καυτερή πιπεριά.",
-          "Ψήστε 8–10 λεπτά μέχρι να ροδίσει η κόρα και να γίνουν τραγανές οι άκρες του σαλαμιού."
-        ]
-      },
-      "tips": [
-        "Βάλτε το μισό σαλάμι και περισσότερη καυτερή πιπεριά για την ίδια ένταση.",
-        "Απορροφήστε το περιττό λάδι από την επιφάνεια με χαρτί κουζίνας.",
-        "Φάτε δύο κομμάτια με μια μεγάλη σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Пицца дьявола (пицца диавола)",
-      "origin": "Италия",
-      "intro": "Пицца диавола — острая итальянская пицца с томатным соусом и моцареллой, украшенная ломтиками острой салями и чили. В духовке салями подрумянивается по краям и отдаёт красное от паприки масло в расплавленный сыр. Она огненная, пряная, подаётся целой и горячей.",
-      "history": "Диавола по-итальянски означает «дьявол» — намёк на остроту от острой салями и чили. Это стандартная пицца по всей Италии, похожая на то, что во многих англоязычных странах называют пиццей с пепперони. Традиционная салями содержит свинину.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 г теста для пиццы",
-          "150 г томатного соуса",
-          "150 г моцареллы",
-          "80 г острой салями, нарезанной тонкими ломтиками",
-          "1 свежий красный чили, нарезанный, или хлопья чили"
-        ],
-        "steps": [
-          "Разогрейте духовку до максимума вместе с противнем или камнем.",
-          "Раскатайте тесто в два круга и намажьте томатным соусом.",
-          "Добавьте моцареллу, салями и чили.",
-          "Выпекайте 8–10 минут, пока корочка не станет золотистой, а края салями не хрустнут."
-        ]
-      },
-      "tips": [
-        "Используйте вдвое меньше салями и добавьте больше чили для той же остроты.",
-        "Промокните лишнее масло сверху бумажным полотенцем.",
-        "Съешьте два ломтика с большим салатом."
-      ],
-      "name_inline": "пицца диавола"
-    }
+  "ar": {
+   "name": "بيتزا ديافولا",
+   "origin": "إيطاليا",
+   "intro": "بيتزا ديافولا بيتزا إيطالية حارة من صلصة الطماطم والموزاريلا تُغطى بشرائح السلامي الحار والفلفل الحار. في الفرن تتحمص أطراف السلامي ويسيل زيتها الأحمر على الجبنة الذائبة. طعمها لاذع ومالح، وتُقدَّم كاملة ساخنة.",
+   "history": "معنى «ديافولا» بالإيطالية «الشيطانة»، في إشارة إلى حرارة السلامي والفلفل. وهي بيتزا أساسية في أنحاء إيطاليا، وتشبه ما يُسمى في كثير من البلدان الناطقة بالإنجليزية بيتزا الببروني. السلامي التقليدي فيها يحتوي على لحم الخنزير.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 غ عجينة بيتزا",
+     "150 غ صلصة طماطم",
+     "150 غ موزاريلا",
+     "80 غ سلامي حار مقطع شرائح رفيعة",
+     "فلفل أحمر حار طازج مقطع أو رقائق فلفل حار"
+    ],
+    "steps": [
+     "سخّن الفرن لأقصى درجة مع صينية أو حجر بداخله.",
+     "افرد العجين قرصين ووزّع صلصة الطماطم.",
+     "أضف الموزاريلا والسلامي والفلفل الحار.",
+     "اخبزها 8–10 دقائق حتى تصبح الحافة ذهبية وتتحمص أطراف السلامي."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية السلامي وزِد الفلفل الحار للحدة نفسها.",
+    "انشف الزيت الزائد من الوجه بمنديل ورقي.",
+    "تناول شريحتين مع سلطة كبيرة."
+   ]
+  },
+  "it": {
+   "name": "Pizza diavola",
+   "origin": "Italia",
+   "intro": "La pizza diavola è una pizza italiana piccante con salsa di pomodoro e mozzarella, guarnita con fettine di salame piccante e peperoncino. In forno il salame diventa croccante ai bordi e rilascia il suo olio rosso di paprika nel formaggio fuso. È focosa, saporita e si serve intera e calda.",
+   "history": "Il nome diavola richiama il diavolo, un cenno al piccante del salame e del peperoncino. È una pizza standard in tutta Italia ed è simile a quella che in molti paesi anglofoni si chiama pepperoni pizza. Il salame tradizionale contiene carne di maiale.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 g di impasto per pizza",
+     "150 g di salsa di pomodoro",
+     "150 g di mozzarella",
+     "80 g di salame piccante, a fettine sottili",
+     "1 peperoncino rosso fresco, a rondelle, o peperoncino in fiocchi"
+    ],
+    "steps": [
+     "Scalda il forno al massimo con una teglia o una pietra all'interno.",
+     "Stendi l'impasto in due dischi e distribuisci la salsa di pomodoro.",
+     "Aggiungi mozzarella, salame e peperoncino.",
+     "Cuoci 8–10 minuti finché il cornicione è dorato e i bordi del salame sono croccanti."
+    ]
+   },
+   "tips": [
+    "Usa metà salame e aggiungi più peperoncino per lo stesso effetto piccante.",
+    "Tampona l'olio in eccesso in superficie con un foglio di carta assorbente.",
+    "Mangia due spicchi con una grande insalata."
+   ]
+  },
+  "el": {
+   "name": "Πίτσα ντιάβολα",
+   "name_inline": "πίτσα ντιάβολα",
+   "origin": "Ιταλία",
+   "intro": "Η πίτσα ντιάβολα είναι πικάντικη ιταλική πίτσα με σάλτσα ντομάτας και μοτσαρέλα, με φέτες καυτερού σαλαμιού και καυτερή πιπεριά από πάνω. Στον φούρνο το σαλάμι γίνεται τραγανό στις άκρες και αφήνει το κόκκινο από την πάπρικα λάδι του στο λιωμένο τυρί. Είναι φλογερή, νόστιμη και σερβίρεται ολόκληρη και ζεστή.",
+   "history": "Diavola σημαίνει «διάβολος» στα ιταλικά, υπαινιγμός στην καυτερή γεύση από το πικάντικο σαλάμι και την καυτερή πιπεριά. Είναι βασική πίτσα σε όλη την Ιταλία και μοιάζει με αυτό που σε πολλές αγγλόφωνες χώρες λέγεται πίτσα πεπερόνι. Το παραδοσιακό σαλάμι περιέχει χοιρινό.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 γρ. ζύμη για πίτσα",
+     "150 γρ. σάλτσα ντομάτας",
+     "150 γρ. μοτσαρέλα",
+     "80 γρ. καυτερό σαλάμι, σε λεπτές φέτες",
+     "1 φρέσκια κόκκινη καυτερή πιπεριά, σε ροδέλες, ή νιφάδες καυτερής πιπεριάς"
+    ],
+    "steps": [
+     "Ζεστάνετε τον φούρνο στη μέγιστη θερμοκρασία με ένα ταψί ή πέτρα μέσα.",
+     "Ανοίξτε τη ζύμη σε δύο δίσκους και απλώστε τη σάλτσα ντομάτας.",
+     "Προσθέστε τη μοτσαρέλα, το σαλάμι και την καυτερή πιπεριά.",
+     "Ψήστε 8–10 λεπτά μέχρι να ροδίσει η κόρα και να γίνουν τραγανές οι άκρες του σαλαμιού."
+    ]
+   },
+   "tips": [
+    "Βάλτε το μισό σαλάμι και περισσότερη καυτερή πιπεριά για την ίδια ένταση.",
+    "Απορροφήστε το περιττό λάδι από την επιφάνεια με χαρτί κουζίνας.",
+    "Φάτε δύο κομμάτια με μια μεγάλη σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Пицца дьявола (пицца диавола)",
+   "origin": "Италия",
+   "intro": "Пицца диавола — острая итальянская пицца с томатным соусом и моцареллой, украшенная ломтиками острой салями и чили. В духовке салями подрумянивается по краям и отдаёт красное от паприки масло в расплавленный сыр. Она огненная, пряная, подаётся целой и горячей.",
+   "history": "Диавола по-итальянски означает «дьявол» — намёк на остроту от острой салями и чили. Это стандартная пицца по всей Италии, похожая на то, что во многих англоязычных странах называют пиццей с пепперони. Традиционная салями содержит свинину.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 г теста для пиццы",
+     "150 г томатного соуса",
+     "150 г моцареллы",
+     "80 г острой салями, нарезанной тонкими ломтиками",
+     "1 свежий красный чили, нарезанный, или хлопья чили"
+    ],
+    "steps": [
+     "Разогрейте духовку до максимума вместе с противнем или камнем.",
+     "Раскатайте тесто в два круга и намажьте томатным соусом.",
+     "Добавьте моцареллу, салями и чили.",
+     "Выпекайте 8–10 минут, пока корочка не станет золотистой, а края салями не хрустнут."
+    ]
+   },
+   "tips": [
+    "Используйте вдвое меньше салями и добавьте больше чили для той же остроты.",
+    "Промокните лишнее масло сверху бумажным полотенцем.",
+    "Съешьте два ломтика с большим салатом."
+   ],
+   "name_inline": "пицца диавола"
+  },
+  "es": {
+   "name": "Pizza diavola",
+   "origin": "Italia",
+   "intro": "La pizza diavola es una pizza italiana picante de salsa de jitomate y mozzarella cubierta con rebanadas de salami picante y chile. En el horno, el salami se vuelve crujiente en las orillas y suelta su aceite rojo de pimentón sobre el queso derretido. Es ardiente, sabrosa y se sirve entera y caliente.",
+   "history": "Diavola significa «diablo» en italiano, una alusión al picante del salami y del chile. Es una pizza habitual en toda Italia y se parece a lo que en muchos países se llama pizza de pepperoni. El salami tradicional contiene cerdo.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 g de masa de pizza",
+     "150 g de salsa de jitomate",
+     "150 g de mozzarella",
+     "80 g de salami picante, en rebanadas finas",
+     "1 chile rojo fresco, en rodajas, u hojuelas de chile"
+    ],
+    "steps": [
+     "Calienta el horno al máximo con una charola o piedra dentro.",
+     "Estira la masa en dos círculos y unta con la salsa de jitomate.",
+     "Agrega la mozzarella, el salami y el chile.",
+     "Hornea de 8 a 10 minutos, hasta que el borde esté dorado y las orillas del salami queden crujientes."
+    ]
+   },
+   "tips": [
+    "Usa la mitad del salami y más chile para el mismo picante.",
+    "Quita el exceso de aceite de la superficie con una toalla de papel.",
+    "Come dos rebanadas con una ensalada grande."
+   ],
+   "name_inline": "la pizza diavola"
   }
+ }
 }

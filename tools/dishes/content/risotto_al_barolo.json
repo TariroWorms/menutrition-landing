@@ -1,170 +1,202 @@
 {
-  "db_key": "risotto_al_barolo",
-  "slug": "risotto-al-barolo",
-  "emoji": "🍷",
-  "portion_g": 350,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "risotto_al_barolo",
+ "slug": "risotto-al-barolo",
+ "emoji": "🍷",
+ "portion_g": 350,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Barolo Risotto",
+   "origin": "Italy · Piedmont",
+   "intro": "Risotto al Barolo is a Piedmontese risotto in which arborio rice is cooked in Barolo red wine, turning it a deep burgundy colour with a rich, slightly tannic flavour. Crumbled sausage adds savoury depth, and butter and parmesan make it creamy at the end. It is a warming autumn and winter dish served as a first course.",
+   "history": "The dish is associated with Piedmont, home of Barolo wine, a region that also grows much of Italy's risotto rice. Some versions add sausage for extra savouriness.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "320 g arborio rice",
+     "300 ml Barolo (or other dry red wine)",
+     "150 g sausage, casing removed",
+     "1 l hot vegetable stock",
+     "30 g butter",
+     "40 g parmesan, grated",
+     "1 shallot, finely chopped",
+     "1 tbsp olive oil, salt, pepper"
+    ],
+    "steps": [
+     "Brown the crumbled sausage in the oil, add the shallot and soften it.",
+     "Add the rice and toast for 2 minutes.",
+     "Pour in half the wine and let it absorb, then continue with the remaining wine and the stock a ladle at a time, stirring, for about 18 minutes.",
+     "Off the heat, stir in the butter and parmesan, rest for 1 minute and serve."
+    ]
+   },
+   "tips": [
+    "Halve the sausage; the wine gives plenty of flavour.",
+    "Skip the butter at the end and use a little more stock for creaminess.",
+    "Serve a 300 g portion with a green salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Barolo Risotto",
-      "origin": "Italy · Piedmont",
-      "intro": "Risotto al Barolo is a Piedmontese risotto in which arborio rice is cooked in Barolo red wine, turning it a deep burgundy colour with a rich, slightly tannic flavour. Crumbled sausage adds savoury depth, and butter and parmesan make it creamy at the end. It is a warming autumn and winter dish served as a first course.",
-      "history": "The dish is associated with Piedmont, home of Barolo wine, a region that also grows much of Italy's risotto rice. Some versions add sausage for extra savouriness.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "320 g arborio rice",
-          "300 ml Barolo (or other dry red wine)",
-          "150 g sausage, casing removed",
-          "1 l hot vegetable stock",
-          "30 g butter",
-          "40 g parmesan, grated",
-          "1 shallot, finely chopped",
-          "1 tbsp olive oil, salt, pepper"
-        ],
-        "steps": [
-          "Brown the crumbled sausage in the oil, add the shallot and soften it.",
-          "Add the rice and toast for 2 minutes.",
-          "Pour in half the wine and let it absorb, then continue with the remaining wine and the stock a ladle at a time, stirring, for about 18 minutes.",
-          "Off the heat, stir in the butter and parmesan, rest for 1 minute and serve."
-        ]
-      },
-      "tips": [
-        "Halve the sausage; the wine gives plenty of flavour.",
-        "Skip the butter at the end and use a little more stock for creaminess.",
-        "Serve a 300 g portion with a green salad."
-      ]
-    },
-    "ar": {
-      "name": "ريزوتو بنبيذ بارولو",
-      "origin": "إيطاليا · بيدمونت",
-      "intro": "ريزوتو البارولو طبق من بيدمونت يُطهى فيه أرز الأربوريو بنبيذ بارولو الأحمر، فيكتسب لونًا عنابيًا داكنًا ونكهة غنية قابضة قليلًا. يضيف السجق المفتت عمقًا مالحًا، وتمنحه الزبدة والبارميزان قوامًا كريميًا في النهاية. وهو طبق دافئ للخريف والشتاء يُقدَّم طبقًا أول.",
-      "history": "يرتبط الطبق بإقليم بيدمونت، موطن نبيذ بارولو، وهو أيضًا من أكبر مناطق زراعة أرز الريزوتو في إيطاليا. وتُضاف إليه في بعض النسخ قطع السجق لنكهة أغنى.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "320 غ أرز أربوريو",
-          "300 مل نبيذ بارولو (أو نبيذ أحمر جاف آخر)",
-          "150 غ سجق منزوع الغلاف",
-          "1 لتر مرق خضار ساخن",
-          "30 غ زبدة",
-          "40 غ جبن بارميزان مبشور",
-          "1 بصل شالوت مفروم ناعمًا",
-          "1 ملعقة كبيرة زيت زيتون، ملح، فلفل"
-        ],
-        "steps": [
-          "حمّر السجق المفتت في الزيت، أضف الشالوت وليّنه.",
-          "أضف الأرز وحمّصه دقيقتين.",
-          "أضف نصف النبيذ ودع الأرز يمتصه، ثم تابع بباقي النبيذ والمرق مغرفةً بعد أخرى مع التحريك نحو 18 دقيقة.",
-          "بعيدًا عن النار، أضف الزبدة والبارميزان، اتركه دقيقة وقدّم."
-        ]
-      },
-      "tips": [
-        "قلّل السجق إلى النصف؛ فالنبيذ يمنح نكهة وافرة.",
-        "استغنِ عن الزبدة في النهاية واستخدم قليلًا من المرق الإضافي للقوام الكريمي.",
-        "قدّم حصة 300 غ مع سلطة خضراء."
-      ]
-    },
-    "it": {
-      "name": "Risotto al Barolo",
-      "origin": "Italia · Piemonte",
-      "intro": "Il risotto al Barolo è un risotto piemontese in cui il riso arborio cuoce nel Barolo, vino rosso che lo tinge di un intenso color borgogna e gli dà un sapore ricco, leggermente tannico. La salsiccia sbriciolata aggiunge profondità e sapore, mentre burro e parmigiano lo rendono cremoso alla fine. È un piatto caldo d'autunno e d'inverno servito come primo.",
-      "history": "Il piatto è legato al Piemonte, terra del Barolo, regione che produce anche gran parte del riso da risotto italiano. Alcune versioni aggiungono la salsiccia per un sapore più deciso.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "320 g di riso arborio",
-          "300 ml di Barolo (o altro vino rosso secco)",
-          "150 g di salsiccia, senza budello",
-          "1 l di brodo vegetale caldo",
-          "30 g di burro",
-          "40 g di parmigiano, grattugiato",
-          "1 scalogno, tritato finemente",
-          "1 cucchiaio di olio d'oliva, sale, pepe"
-        ],
-        "steps": [
-          "Rosola la salsiccia sbriciolata nell'olio, aggiungi lo scalogno e fallo appassire.",
-          "Aggiungi il riso e tostalo per 2 minuti.",
-          "Versa metà del vino e lascialo assorbire, poi prosegui con il vino rimasto e il brodo un mestolo alla volta, mescolando, per circa 18 minuti.",
-          "Fuori dal fuoco, manteca con burro e parmigiano, lascia riposare 1 minuto e servi."
-        ]
-      },
-      "tips": [
-        "Dimezza la salsiccia; il vino dà già molto sapore.",
-        "Evita il burro finale e usa un po' più di brodo per la cremosità.",
-        "Servi una porzione di 300 g con un'insalata verde."
-      ]
-    },
-    "el": {
-      "name": "Ριζότο με Μπαρόλο",
-      "origin": "Ιταλία · Πιεμόντε",
-      "intro": "Το ριζότο αλ Μπαρόλο είναι ριζότο του Πιεμόντε στο οποίο το ρύζι αρμπόριο μαγειρεύεται σε κόκκινο κρασί Μπαρόλο, παίρνοντας βαθύ βυσσινί χρώμα και πλούσια, ελαφρώς στυφή γεύση. Το θρυμματισμένο λουκάνικο προσθέτει βάθος και νοστιμιά, ενώ το βούτυρο και η παρμεζάνα το κάνουν κρεμώδες στο τέλος. Είναι ζεστό πιάτο του φθινοπώρου και του χειμώνα που σερβίρεται ως πρώτο.",
-      "history": "Το πιάτο συνδέεται με το Πιεμόντε, πατρίδα του κρασιού Μπαρόλο, μια περιοχή που καλλιεργεί επίσης μεγάλο μέρος του ιταλικού ρυζιού για ριζότο. Ορισμένες εκδοχές προσθέτουν λουκάνικο για περισσότερη νοστιμιά.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "320 γρ. ρύζι αρμπόριο",
-          "300 ml Μπαρόλο (ή άλλο ξηρό κόκκινο κρασί)",
-          "150 γρ. λουκάνικο, χωρίς το περίβλημα",
-          "1 λίτρο ζεστός ζωμός λαχανικών",
-          "30 γρ. βούτυρο",
-          "40 γρ. παρμεζάνα, τριμμένη",
-          "1 εσαλότ, ψιλοκομμένο",
-          "1 κ.σ. ελαιόλαδο, αλάτι, πιπέρι"
-        ],
-        "steps": [
-          "Σοτάρετε το θρυμματισμένο λουκάνικο στο λάδι, προσθέστε το εσαλότ και μαλακώστε το.",
-          "Προσθέστε το ρύζι και καβουρδίστε 2 λεπτά.",
-          "Ρίξτε το μισό κρασί και αφήστε να απορροφηθεί, μετά συνεχίστε με το υπόλοιπο κρασί και τον ζωμό μία κουτάλα τη φορά, ανακατεύοντας, για περίπου 18 λεπτά.",
-          "Εκτός φωτιάς, ανακατέψτε το βούτυρο και την παρμεζάνα, αφήστε 1 λεπτό και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Μειώστε το λουκάνικο στο μισό· το κρασί δίνει αρκετή γεύση.",
-        "Παραλείψτε το βούτυρο στο τέλος και βάλτε λίγο περισσότερο ζωμό για κρεμώδη υφή.",
-        "Σερβίρετε μερίδα 300 γρ. με πράσινη σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Ризотто с бароло",
-      "origin": "Италия · Пьемонт",
-      "intro": "Ризотто аль бароло — пьемонтское ризотто, в котором рис арборио варят в красном вине бароло, отчего он приобретает насыщенный бордовый цвет и глубокий, слегка терпкий вкус. Раскрошенная колбаса добавляет пряную глубину, а сливочное масло и пармезан в конце делают блюдо кремовым. Это согревающее осеннее и зимнее блюдо, которое подают как первое.",
-      "history": "Блюдо связано с Пьемонтом, родиной вина бароло, регионом, где также выращивают значительную часть итальянского риса для ризотто. В некоторые версии добавляют колбасу для большей пряности.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "320 г риса арборио",
-          "300 мл бароло (или другого сухого красного вина)",
-          "150 г колбасы, без оболочки",
-          "1 л горячего овощного бульона",
-          "30 г сливочного масла",
-          "40 г тёртого пармезана",
-          "1 шалот, мелко нарубленный",
-          "1 ст. л. оливкового масла, соль, перец"
-        ],
-        "steps": [
-          "Обжарьте раскрошенную колбасу в масле, добавьте шалот и доведите до мягкости.",
-          "Добавьте рис и обжаривайте 2 минуты.",
-          "Влейте половину вина и дайте впитаться, затем продолжайте добавлять оставшееся вино и бульон по половнику, помешивая, примерно 18 минут.",
-          "Снимите с огня, вмешайте сливочное масло и пармезан, оставьте на 1 минуту и подавайте."
-        ]
-      },
-      "tips": [
-        "Уменьшите колбасу вдвое; вино даёт много вкуса.",
-        "Не добавляйте сливочное масло в конце и влейте чуть больше бульона для кремовости.",
-        "Подавайте порцию в 300 г с зелёным салатом."
-      ],
-      "name_inline": "ризотто с бароло"
-    }
+  "ar": {
+   "name": "ريزوتو بنبيذ بارولو",
+   "origin": "إيطاليا · بيدمونت",
+   "intro": "ريزوتو البارولو طبق من بيدمونت يُطهى فيه أرز الأربوريو بنبيذ بارولو الأحمر، فيكتسب لونًا عنابيًا داكنًا ونكهة غنية قابضة قليلًا. يضيف السجق المفتت عمقًا مالحًا، وتمنحه الزبدة والبارميزان قوامًا كريميًا في النهاية. وهو طبق دافئ للخريف والشتاء يُقدَّم طبقًا أول.",
+   "history": "يرتبط الطبق بإقليم بيدمونت، موطن نبيذ بارولو، وهو أيضًا من أكبر مناطق زراعة أرز الريزوتو في إيطاليا. وتُضاف إليه في بعض النسخ قطع السجق لنكهة أغنى.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "320 غ أرز أربوريو",
+     "300 مل نبيذ بارولو (أو نبيذ أحمر جاف آخر)",
+     "150 غ سجق منزوع الغلاف",
+     "1 لتر مرق خضار ساخن",
+     "30 غ زبدة",
+     "40 غ جبن بارميزان مبشور",
+     "1 بصل شالوت مفروم ناعمًا",
+     "1 ملعقة كبيرة زيت زيتون، ملح، فلفل"
+    ],
+    "steps": [
+     "حمّر السجق المفتت في الزيت، أضف الشالوت وليّنه.",
+     "أضف الأرز وحمّصه دقيقتين.",
+     "أضف نصف النبيذ ودع الأرز يمتصه، ثم تابع بباقي النبيذ والمرق مغرفةً بعد أخرى مع التحريك نحو 18 دقيقة.",
+     "بعيدًا عن النار، أضف الزبدة والبارميزان، اتركه دقيقة وقدّم."
+    ]
+   },
+   "tips": [
+    "قلّل السجق إلى النصف؛ فالنبيذ يمنح نكهة وافرة.",
+    "استغنِ عن الزبدة في النهاية واستخدم قليلًا من المرق الإضافي للقوام الكريمي.",
+    "قدّم حصة 300 غ مع سلطة خضراء."
+   ]
+  },
+  "it": {
+   "name": "Risotto al Barolo",
+   "origin": "Italia · Piemonte",
+   "intro": "Il risotto al Barolo è un risotto piemontese in cui il riso arborio cuoce nel Barolo, vino rosso che lo tinge di un intenso color borgogna e gli dà un sapore ricco, leggermente tannico. La salsiccia sbriciolata aggiunge profondità e sapore, mentre burro e parmigiano lo rendono cremoso alla fine. È un piatto caldo d'autunno e d'inverno servito come primo.",
+   "history": "Il piatto è legato al Piemonte, terra del Barolo, regione che produce anche gran parte del riso da risotto italiano. Alcune versioni aggiungono la salsiccia per un sapore più deciso.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "320 g di riso arborio",
+     "300 ml di Barolo (o altro vino rosso secco)",
+     "150 g di salsiccia, senza budello",
+     "1 l di brodo vegetale caldo",
+     "30 g di burro",
+     "40 g di parmigiano, grattugiato",
+     "1 scalogno, tritato finemente",
+     "1 cucchiaio di olio d'oliva, sale, pepe"
+    ],
+    "steps": [
+     "Rosola la salsiccia sbriciolata nell'olio, aggiungi lo scalogno e fallo appassire.",
+     "Aggiungi il riso e tostalo per 2 minuti.",
+     "Versa metà del vino e lascialo assorbire, poi prosegui con il vino rimasto e il brodo un mestolo alla volta, mescolando, per circa 18 minuti.",
+     "Fuori dal fuoco, manteca con burro e parmigiano, lascia riposare 1 minuto e servi."
+    ]
+   },
+   "tips": [
+    "Dimezza la salsiccia; il vino dà già molto sapore.",
+    "Evita il burro finale e usa un po' più di brodo per la cremosità.",
+    "Servi una porzione di 300 g con un'insalata verde."
+   ]
+  },
+  "el": {
+   "name": "Ριζότο με Μπαρόλο",
+   "origin": "Ιταλία · Πιεμόντε",
+   "intro": "Το ριζότο αλ Μπαρόλο είναι ριζότο του Πιεμόντε στο οποίο το ρύζι αρμπόριο μαγειρεύεται σε κόκκινο κρασί Μπαρόλο, παίρνοντας βαθύ βυσσινί χρώμα και πλούσια, ελαφρώς στυφή γεύση. Το θρυμματισμένο λουκάνικο προσθέτει βάθος και νοστιμιά, ενώ το βούτυρο και η παρμεζάνα το κάνουν κρεμώδες στο τέλος. Είναι ζεστό πιάτο του φθινοπώρου και του χειμώνα που σερβίρεται ως πρώτο.",
+   "history": "Το πιάτο συνδέεται με το Πιεμόντε, πατρίδα του κρασιού Μπαρόλο, μια περιοχή που καλλιεργεί επίσης μεγάλο μέρος του ιταλικού ρυζιού για ριζότο. Ορισμένες εκδοχές προσθέτουν λουκάνικο για περισσότερη νοστιμιά.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "320 γρ. ρύζι αρμπόριο",
+     "300 ml Μπαρόλο (ή άλλο ξηρό κόκκινο κρασί)",
+     "150 γρ. λουκάνικο, χωρίς το περίβλημα",
+     "1 λίτρο ζεστός ζωμός λαχανικών",
+     "30 γρ. βούτυρο",
+     "40 γρ. παρμεζάνα, τριμμένη",
+     "1 εσαλότ, ψιλοκομμένο",
+     "1 κ.σ. ελαιόλαδο, αλάτι, πιπέρι"
+    ],
+    "steps": [
+     "Σοτάρετε το θρυμματισμένο λουκάνικο στο λάδι, προσθέστε το εσαλότ και μαλακώστε το.",
+     "Προσθέστε το ρύζι και καβουρδίστε 2 λεπτά.",
+     "Ρίξτε το μισό κρασί και αφήστε να απορροφηθεί, μετά συνεχίστε με το υπόλοιπο κρασί και τον ζωμό μία κουτάλα τη φορά, ανακατεύοντας, για περίπου 18 λεπτά.",
+     "Εκτός φωτιάς, ανακατέψτε το βούτυρο και την παρμεζάνα, αφήστε 1 λεπτό και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Μειώστε το λουκάνικο στο μισό· το κρασί δίνει αρκετή γεύση.",
+    "Παραλείψτε το βούτυρο στο τέλος και βάλτε λίγο περισσότερο ζωμό για κρεμώδη υφή.",
+    "Σερβίρετε μερίδα 300 γρ. με πράσινη σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Ризотто с бароло",
+   "origin": "Италия · Пьемонт",
+   "intro": "Ризотто аль бароло — пьемонтское ризотто, в котором рис арборио варят в красном вине бароло, отчего он приобретает насыщенный бордовый цвет и глубокий, слегка терпкий вкус. Раскрошенная колбаса добавляет пряную глубину, а сливочное масло и пармезан в конце делают блюдо кремовым. Это согревающее осеннее и зимнее блюдо, которое подают как первое.",
+   "history": "Блюдо связано с Пьемонтом, родиной вина бароло, регионом, где также выращивают значительную часть итальянского риса для ризотто. В некоторые версии добавляют колбасу для большей пряности.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "320 г риса арборио",
+     "300 мл бароло (или другого сухого красного вина)",
+     "150 г колбасы, без оболочки",
+     "1 л горячего овощного бульона",
+     "30 г сливочного масла",
+     "40 г тёртого пармезана",
+     "1 шалот, мелко нарубленный",
+     "1 ст. л. оливкового масла, соль, перец"
+    ],
+    "steps": [
+     "Обжарьте раскрошенную колбасу в масле, добавьте шалот и доведите до мягкости.",
+     "Добавьте рис и обжаривайте 2 минуты.",
+     "Влейте половину вина и дайте впитаться, затем продолжайте добавлять оставшееся вино и бульон по половнику, помешивая, примерно 18 минут.",
+     "Снимите с огня, вмешайте сливочное масло и пармезан, оставьте на 1 минуту и подавайте."
+    ]
+   },
+   "tips": [
+    "Уменьшите колбасу вдвое; вино даёт много вкуса.",
+    "Не добавляйте сливочное масло в конце и влейте чуть больше бульона для кремовости.",
+    "Подавайте порцию в 300 г с зелёным салатом."
+   ],
+   "name_inline": "ризотто с бароло"
+  },
+  "es": {
+   "name": "Risotto al Barolo (risotto al vino tinto Barolo)",
+   "origin": "Italia · Piamonte",
+   "intro": "El risotto al Barolo es un risotto piamontés en el que el arroz arborio se cocina en vino tinto Barolo, lo que le da un profundo color burdeos y un sabor intenso, algo tánico. La salchicha desmenuzada aporta profundidad, y la mantequilla y el parmesano lo vuelven cremoso al final. Es un plato reconfortante de otoño e invierno que se sirve como primer plato.",
+   "history": "El plato se asocia con el Piamonte, tierra del vino Barolo y región que además cultiva buena parte del arroz para risotto de Italia. Algunas versiones añaden salchicha para darle más sabor.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "320 g de arroz arborio",
+     "300 ml de Barolo (u otro vino tinto seco)",
+     "150 g de salchicha, sin tripa",
+     "1 l de caldo de verduras caliente",
+     "30 g de mantequilla",
+     "40 g de parmesano rallado",
+     "1 chalote, picado fino",
+     "1 cda. de aceite de oliva, sal, pimienta"
+    ],
+    "steps": [
+     "Dora la salchicha desmenuzada en el aceite, agrega el chalote y deja que se ablande.",
+     "Añade el arroz y tuéstalo 2 minutos.",
+     "Vierte la mitad del vino y deja que se absorba; luego continúa con el vino restante y el caldo, un cucharón a la vez, revolviendo, durante unos 18 minutos.",
+     "Fuera del fuego, mezcla la mantequilla y el parmesano, deja reposar 1 minuto y sirve."
+    ]
+   },
+   "tips": [
+    "Reduce la salchicha a la mitad; el vino ya aporta mucho sabor.",
+    "Omite la mantequilla del final y usa un poco más de caldo para lograr cremosidad.",
+    "Sirve una porción de 300 g con una ensalada verde."
+   ],
+   "name_inline": "el risotto al Barolo"
   }
+ }
 }

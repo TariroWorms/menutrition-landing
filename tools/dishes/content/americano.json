@@ -1,146 +1,173 @@
 {
-  "db_key": "americano",
-  "slug": "americano",
-  "emoji": "☕",
-  "portion_g": 200,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "americano",
+ "slug": "americano",
+ "emoji": "☕",
+ "portion_g": 200,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Caffè americano",
+   "origin": "Italy",
+   "intro": "A caffè americano is a shot of espresso lengthened with hot water, giving a large cup with the body and aroma of espresso but a milder, smoother strength, closer to filter coffee. It contains almost no calories on its own. It is served black in a cup or mug, and many people add sugar to taste.",
+   "history": "The usual story is that the name comes from American soldiers in Italy during the Second World War, who diluted espresso with water to make it taste more like the coffee they drank at home. The story is widely repeated but hard to verify. Today the americano is a standard item on coffee menus around the world.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 double shot of espresso (about 60 ml)",
+     "140 ml hot water, just off the boil",
+     "Sugar to taste (optional)"
+    ],
+    "steps": [
+     "Heat the water to about 90–95 °C.",
+     "Pull a double espresso into a warmed cup or mug.",
+     "Pour the hot water over the espresso — or pour the water first and the espresso on top to keep more of the crema.",
+     "Sweeten if you like and serve at once."
+    ]
+   },
+   "tips": [
+    "Drunk black, an americano is close to zero calories.",
+    "Each teaspoon of sugar adds about 16 kcal — cutting down gradually is easier than stopping at once.",
+    "Flavoured syrups add sugar quickly; a pinch of cinnamon gives aroma with almost no calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Caffè americano",
-      "origin": "Italy",
-      "intro": "A caffè americano is a shot of espresso lengthened with hot water, giving a large cup with the body and aroma of espresso but a milder, smoother strength, closer to filter coffee. It contains almost no calories on its own. It is served black in a cup or mug, and many people add sugar to taste.",
-      "history": "The usual story is that the name comes from American soldiers in Italy during the Second World War, who diluted espresso with water to make it taste more like the coffee they drank at home. The story is widely repeated but hard to verify. Today the americano is a standard item on coffee menus around the world.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 double shot of espresso (about 60 ml)",
-          "140 ml hot water, just off the boil",
-          "Sugar to taste (optional)"
-        ],
-        "steps": [
-          "Heat the water to about 90–95 °C.",
-          "Pull a double espresso into a warmed cup or mug.",
-          "Pour the hot water over the espresso — or pour the water first and the espresso on top to keep more of the crema.",
-          "Sweeten if you like and serve at once."
-        ]
-      },
-      "tips": [
-        "Drunk black, an americano is close to zero calories.",
-        "Each teaspoon of sugar adds about 16 kcal — cutting down gradually is easier than stopping at once.",
-        "Flavoured syrups add sugar quickly; a pinch of cinnamon gives aroma with almost no calories."
-      ]
-    },
-    "ar": {
-      "name": "قهوة أمريكانو",
-      "origin": "إيطاليا",
-      "intro": "قهوة الأمريكانو جرعة إسبريسو تُخفَّف بالماء الساخن، فتنتج كوبًا كبيرًا بقوام الإسبريسو ورائحته، لكن بقوة أخفّ وأنعم، أقرب إلى القهوة المقطّرة. لا تكاد تحتوي على سعرات حرارية بحدّ ذاتها. تُقدَّم سوداء في فنجان أو كوب، ويضيف إليها كثيرون السكر حسب الرغبة.",
-      "history": "تقول الرواية الشائعة إن الاسم يعود إلى الجنود الأمريكيين في إيطاليا خلال الحرب العالمية الثانية، الذين كانوا يخفّفون الإسبريسو بالماء ليقترب طعمه من القهوة التي اعتادوها في بلادهم. والرواية متداولة على نطاق واسع لكن يصعب التحقق منها. واليوم أصبح الأمريكانو صنفًا ثابتًا في قوائم المقاهي حول العالم.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "جرعة إسبريسو مزدوجة (نحو 60 مل)",
-          "140 مل ماء ساخن بعد الغليان مباشرة",
-          "سكر حسب الرغبة (اختياري)"
-        ],
-        "steps": [
-          "سخّن الماء إلى نحو 90–95 °م.",
-          "حضّر جرعة إسبريسو مزدوجة في فنجان أو كوب دافئ.",
-          "اسكب الماء الساخن فوق الإسبريسو، أو اسكب الماء أولًا ثم الإسبريسو فوقه للحفاظ على مزيد من الكريما.",
-          "حلِّها إن رغبت وقدّمها فورًا."
-        ]
-      },
-      "tips": [
-        "الأمريكانو السادة يكاد يخلو من السعرات الحرارية.",
-        "كل ملعقة صغيرة من السكر تضيف نحو 16 سعرة، والتقليل التدريجي أسهل من التوقف دفعة واحدة.",
-        "الشرابات المنكّهة تضيف السكر بسرعة، أما رشة قرفة فتمنح رائحة طيبة بلا سعرات تُذكر."
-      ]
-    },
-    "it": {
-      "name": "Caffè americano",
-      "origin": "Italia",
-      "intro": "Il caffè americano è un espresso allungato con acqua calda: una tazza grande con il corpo e l'aroma dell'espresso ma un'intensità più morbida e delicata, più vicina al caffè filtro. Da solo non contiene quasi calorie. Si serve nero in tazza o in mug, e molti aggiungono zucchero a piacere.",
-      "history": "Secondo la versione più diffusa, il nome deriva dai soldati americani in Italia durante la Seconda guerra mondiale, che diluivano l'espresso con acqua per renderlo più simile al caffè che bevevano a casa. La storia è ripetuta ovunque ma difficile da verificare. Oggi l'americano è una presenza fissa nei menu dei caffè di tutto il mondo.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 espresso doppio (circa 60 ml)",
-          "140 ml di acqua calda appena tolta dal bollore",
-          "Zucchero a piacere (facoltativo)"
-        ],
-        "steps": [
-          "Scalda l'acqua a circa 90–95 °C.",
-          "Estrai un espresso doppio in una tazza o una mug riscaldata.",
-          "Versa l'acqua calda sull'espresso, oppure versa prima l'acqua e poi l'espresso sopra per conservare più crema.",
-          "Zucchera se ti piace e servi subito."
-        ]
-      },
-      "tips": [
-        "Bevuto nero, l'americano ha calorie quasi pari a zero.",
-        "Ogni cucchiaino di zucchero aggiunge circa 16 kcal: ridurlo gradualmente è più facile che smettere di colpo.",
-        "Gli sciroppi aromatizzati aggiungono zucchero in fretta; un pizzico di cannella dà profumo quasi senza calorie."
-      ]
-    },
-    "el": {
-      "name": "Καφές αμερικάνο",
-      "name_inline": "καφές αμερικάνο",
-      "origin": "Ιταλία",
-      "intro": "Ο καφές αμερικάνο είναι ένας εσπρέσο αραιωμένος με ζεστό νερό, που δίνει μεγάλο φλιτζάνι με το σώμα και το άρωμα του εσπρέσο αλλά πιο ήπια, πιο στρογγυλή ένταση, κοντά στον καφέ φίλτρου. Από μόνος του δεν έχει σχεδόν καθόλου θερμίδες. Σερβίρεται σκέτος σε φλιτζάνι ή κούπα, και πολλοί προσθέτουν ζάχαρη κατά προτίμηση.",
-      "history": "Σύμφωνα με τη συνηθισμένη ιστορία, το όνομα προέρχεται από τους Αμερικανούς στρατιώτες στην Ιταλία κατά τον Β΄ Παγκόσμιο Πόλεμο, που αραίωναν τον εσπρέσο με νερό για να θυμίζει περισσότερο τον καφέ που έπιναν στην πατρίδα τους. Η ιστορία επαναλαμβάνεται ευρέως αλλά είναι δύσκολο να επιβεβαιωθεί. Σήμερα ο αμερικάνο υπάρχει σε κάθε κατάλογο καφέ σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 διπλός εσπρέσο (περίπου 60 ml)",
-          "140 ml ζεστό νερό, μόλις βγει από τον βρασμό",
-          "Ζάχαρη κατά προτίμηση (προαιρετικά)"
-        ],
-        "steps": [
-          "Ζεστάνετε το νερό στους 90–95 °C περίπου.",
-          "Βγάλτε έναν διπλό εσπρέσο σε ζεσταμένο φλιτζάνι ή κούπα.",
-          "Ρίξτε το ζεστό νερό πάνω στον εσπρέσο — ή ρίξτε πρώτα το νερό και μετά τον εσπρέσο από πάνω για να κρατήσετε περισσότερη κρέμα.",
-          "Γλυκάνετε αν θέλετε και σερβίρετε αμέσως."
-        ]
-      },
-      "tips": [
-        "Σκέτος, ο αμερικάνο έχει σχεδόν μηδενικές θερμίδες.",
-        "Κάθε κουταλάκι ζάχαρη προσθέτει περίπου 16 kcal — είναι πιο εύκολο να τη μειώνετε σταδιακά παρά να την κόψετε απότομα.",
-        "Τα αρωματισμένα σιρόπια προσθέτουν γρήγορα ζάχαρη· μια πρέζα κανέλα δίνει άρωμα σχεδόν χωρίς θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Кофе американо",
-      "origin": "Италия",
-      "intro": "Кофе американо — порция эспрессо, разбавленная горячей водой, что даёт большую чашку с телом и ароматом эспрессо, но с более мягкой и гладкой крепостью, ближе к фильтр-кофе. Сам по себе он содержит почти ноль калорий. Его подают чёрным в чашке или кружке, и многие добавляют сахар по вкусу.",
-      "history": "Обычно рассказывают, что название пришло от американских солдат в Италии во время Второй мировой войны, которые разбавляли эспрессо водой, чтобы он напоминал кофе, к которому они привыкли дома. Эту историю широко повторяют, но проверить её трудно. Сегодня американо — стандартная позиция в кофейных меню по всему миру.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 двойная порция эспрессо (около 60 мл)",
-          "140 мл горячей воды, только что с кипения",
-          "Сахар по вкусу (по желанию)"
-        ],
-        "steps": [
-          "Нагрейте воду примерно до 90–95 °C.",
-          "Приготовьте двойной эспрессо в подогретую чашку или кружку.",
-          "Налейте горячую воду на эспрессо — или сначала налейте воду, а эспрессо сверху, чтобы сохранить больше кремы.",
-          "При желании подсластите и сразу подавайте."
-        ]
-      },
-      "tips": [
-        "В чёрном виде американо содержит почти ноль калорий.",
-        "Каждая чайная ложка сахара добавляет около 16 ккал — снижать количество постепенно проще, чем отказаться сразу.",
-        "Ароматизированные сиропы быстро добавляют сахар; щепотка корицы даёт аромат почти без калорий."
-      ],
-      "name_inline": "американо"
-    }
+  "ar": {
+   "name": "قهوة أمريكانو",
+   "origin": "إيطاليا",
+   "intro": "قهوة الأمريكانو جرعة إسبريسو تُخفَّف بالماء الساخن، فتنتج كوبًا كبيرًا بقوام الإسبريسو ورائحته، لكن بقوة أخفّ وأنعم، أقرب إلى القهوة المقطّرة. لا تكاد تحتوي على سعرات حرارية بحدّ ذاتها. تُقدَّم سوداء في فنجان أو كوب، ويضيف إليها كثيرون السكر حسب الرغبة.",
+   "history": "تقول الرواية الشائعة إن الاسم يعود إلى الجنود الأمريكيين في إيطاليا خلال الحرب العالمية الثانية، الذين كانوا يخفّفون الإسبريسو بالماء ليقترب طعمه من القهوة التي اعتادوها في بلادهم. والرواية متداولة على نطاق واسع لكن يصعب التحقق منها. واليوم أصبح الأمريكانو صنفًا ثابتًا في قوائم المقاهي حول العالم.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "جرعة إسبريسو مزدوجة (نحو 60 مل)",
+     "140 مل ماء ساخن بعد الغليان مباشرة",
+     "سكر حسب الرغبة (اختياري)"
+    ],
+    "steps": [
+     "سخّن الماء إلى نحو 90–95 °م.",
+     "حضّر جرعة إسبريسو مزدوجة في فنجان أو كوب دافئ.",
+     "اسكب الماء الساخن فوق الإسبريسو، أو اسكب الماء أولًا ثم الإسبريسو فوقه للحفاظ على مزيد من الكريما.",
+     "حلِّها إن رغبت وقدّمها فورًا."
+    ]
+   },
+   "tips": [
+    "الأمريكانو السادة يكاد يخلو من السعرات الحرارية.",
+    "كل ملعقة صغيرة من السكر تضيف نحو 16 سعرة، والتقليل التدريجي أسهل من التوقف دفعة واحدة.",
+    "الشرابات المنكّهة تضيف السكر بسرعة، أما رشة قرفة فتمنح رائحة طيبة بلا سعرات تُذكر."
+   ]
+  },
+  "it": {
+   "name": "Caffè americano",
+   "origin": "Italia",
+   "intro": "Il caffè americano è un espresso allungato con acqua calda: una tazza grande con il corpo e l'aroma dell'espresso ma un'intensità più morbida e delicata, più vicina al caffè filtro. Da solo non contiene quasi calorie. Si serve nero in tazza o in mug, e molti aggiungono zucchero a piacere.",
+   "history": "Secondo la versione più diffusa, il nome deriva dai soldati americani in Italia durante la Seconda guerra mondiale, che diluivano l'espresso con acqua per renderlo più simile al caffè che bevevano a casa. La storia è ripetuta ovunque ma difficile da verificare. Oggi l'americano è una presenza fissa nei menu dei caffè di tutto il mondo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 espresso doppio (circa 60 ml)",
+     "140 ml di acqua calda appena tolta dal bollore",
+     "Zucchero a piacere (facoltativo)"
+    ],
+    "steps": [
+     "Scalda l'acqua a circa 90–95 °C.",
+     "Estrai un espresso doppio in una tazza o una mug riscaldata.",
+     "Versa l'acqua calda sull'espresso, oppure versa prima l'acqua e poi l'espresso sopra per conservare più crema.",
+     "Zucchera se ti piace e servi subito."
+    ]
+   },
+   "tips": [
+    "Bevuto nero, l'americano ha calorie quasi pari a zero.",
+    "Ogni cucchiaino di zucchero aggiunge circa 16 kcal: ridurlo gradualmente è più facile che smettere di colpo.",
+    "Gli sciroppi aromatizzati aggiungono zucchero in fretta; un pizzico di cannella dà profumo quasi senza calorie."
+   ]
+  },
+  "el": {
+   "name": "Καφές αμερικάνο",
+   "name_inline": "καφές αμερικάνο",
+   "origin": "Ιταλία",
+   "intro": "Ο καφές αμερικάνο είναι ένας εσπρέσο αραιωμένος με ζεστό νερό, που δίνει μεγάλο φλιτζάνι με το σώμα και το άρωμα του εσπρέσο αλλά πιο ήπια, πιο στρογγυλή ένταση, κοντά στον καφέ φίλτρου. Από μόνος του δεν έχει σχεδόν καθόλου θερμίδες. Σερβίρεται σκέτος σε φλιτζάνι ή κούπα, και πολλοί προσθέτουν ζάχαρη κατά προτίμηση.",
+   "history": "Σύμφωνα με τη συνηθισμένη ιστορία, το όνομα προέρχεται από τους Αμερικανούς στρατιώτες στην Ιταλία κατά τον Β΄ Παγκόσμιο Πόλεμο, που αραίωναν τον εσπρέσο με νερό για να θυμίζει περισσότερο τον καφέ που έπιναν στην πατρίδα τους. Η ιστορία επαναλαμβάνεται ευρέως αλλά είναι δύσκολο να επιβεβαιωθεί. Σήμερα ο αμερικάνο υπάρχει σε κάθε κατάλογο καφέ σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 διπλός εσπρέσο (περίπου 60 ml)",
+     "140 ml ζεστό νερό, μόλις βγει από τον βρασμό",
+     "Ζάχαρη κατά προτίμηση (προαιρετικά)"
+    ],
+    "steps": [
+     "Ζεστάνετε το νερό στους 90–95 °C περίπου.",
+     "Βγάλτε έναν διπλό εσπρέσο σε ζεσταμένο φλιτζάνι ή κούπα.",
+     "Ρίξτε το ζεστό νερό πάνω στον εσπρέσο — ή ρίξτε πρώτα το νερό και μετά τον εσπρέσο από πάνω για να κρατήσετε περισσότερη κρέμα.",
+     "Γλυκάνετε αν θέλετε και σερβίρετε αμέσως."
+    ]
+   },
+   "tips": [
+    "Σκέτος, ο αμερικάνο έχει σχεδόν μηδενικές θερμίδες.",
+    "Κάθε κουταλάκι ζάχαρη προσθέτει περίπου 16 kcal — είναι πιο εύκολο να τη μειώνετε σταδιακά παρά να την κόψετε απότομα.",
+    "Τα αρωματισμένα σιρόπια προσθέτουν γρήγορα ζάχαρη· μια πρέζα κανέλα δίνει άρωμα σχεδόν χωρίς θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Кофе американо",
+   "origin": "Италия",
+   "intro": "Кофе американо — порция эспрессо, разбавленная горячей водой, что даёт большую чашку с телом и ароматом эспрессо, но с более мягкой и гладкой крепостью, ближе к фильтр-кофе. Сам по себе он содержит почти ноль калорий. Его подают чёрным в чашке или кружке, и многие добавляют сахар по вкусу.",
+   "history": "Обычно рассказывают, что название пришло от американских солдат в Италии во время Второй мировой войны, которые разбавляли эспрессо водой, чтобы он напоминал кофе, к которому они привыкли дома. Эту историю широко повторяют, но проверить её трудно. Сегодня американо — стандартная позиция в кофейных меню по всему миру.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 двойная порция эспрессо (около 60 мл)",
+     "140 мл горячей воды, только что с кипения",
+     "Сахар по вкусу (по желанию)"
+    ],
+    "steps": [
+     "Нагрейте воду примерно до 90–95 °C.",
+     "Приготовьте двойной эспрессо в подогретую чашку или кружку.",
+     "Налейте горячую воду на эспрессо — или сначала налейте воду, а эспрессо сверху, чтобы сохранить больше кремы.",
+     "При желании подсластите и сразу подавайте."
+    ]
+   },
+   "tips": [
+    "В чёрном виде американо содержит почти ноль калорий.",
+    "Каждая чайная ложка сахара добавляет около 16 ккал — снижать количество постепенно проще, чем отказаться сразу.",
+    "Ароматизированные сиропы быстро добавляют сахар; щепотка корицы даёт аромат почти без калорий."
+   ],
+   "name_inline": "американо"
+  },
+  "es": {
+   "name": "Caffè americano",
+   "origin": "Italia",
+   "intro": "Un caffè americano es un shot de espresso alargado con agua caliente, que da una taza grande con el cuerpo y el aroma del espresso pero una intensidad más suave, cercana al café de filtro. Por sí solo casi no tiene calorías. Se sirve negro en una taza o tazón, y muchas personas le agregan azúcar al gusto.",
+   "history": "La historia más repetida es que el nombre viene de los soldados estadounidenses en Italia durante la Segunda Guerra Mundial, que diluían el espresso con agua para que se pareciera más al café que tomaban en casa. Se cuenta mucho, pero es difícil de comprobar. Hoy el americano es una opción habitual en las cartas de café de todo el mundo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 shot doble de espresso (unos 60 ml)",
+     "140 ml de agua caliente, justo después de hervir",
+     "Azúcar al gusto (opcional)"
+    ],
+    "steps": [
+     "Calienta el agua a unos 90–95 °C.",
+     "Prepara un espresso doble en una taza o tazón precalentado.",
+     "Vierte el agua caliente sobre el espresso, o pon primero el agua y encima el espresso para conservar más crema.",
+     "Endulza si quieres y sirve de inmediato."
+    ]
+   },
+   "tips": [
+    "Tomado negro, un americano tiene casi cero calorías.",
+    "Cada cucharadita de azúcar suma unas 16 kcal; reducirla poco a poco es más fácil que dejarla de golpe.",
+    "Los jarabes saborizados suman azúcar enseguida; una pizca de canela da aroma con casi ninguna caloría."
+   ],
+   "name_inline": "el caffè americano"
   }
+ }
 }

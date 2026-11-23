@@ -1,171 +1,203 @@
 {
-  "db_key": "cassoulet",
-  "slug": "cassoulet",
-  "emoji": "🫘",
-  "portion_g": 400,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "cassoulet",
+ "slug": "cassoulet",
+ "emoji": "🫘",
+ "portion_g": 400,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Cassoulet",
+   "origin": "France · Languedoc",
+   "intro": "Cassoulet is a slow-baked casserole from southwest France of white beans cooked with several meats — typically pork, sausage and confit duck leg — together with tomato and herbs. During the long bake the beans soak up the meat juices and a golden crust forms on top. The result is rich, hearty and filling, served straight from the earthenware dish.",
+   "history": "Cassoulet takes its name from the cassole, the glazed clay pot it is baked in. Castelnaudary, Carcassonne and Toulouse each claim their own version, and a popular legend places its origin in a siege of Castelnaudary during the Hundred Years' War, a story that cannot be verified. It remains a symbol of the Languedoc kitchen today.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "500 g dried white beans, soaked overnight",
+     "4 confit duck legs",
+     "400 g pork shoulder, cut into chunks",
+     "400 g sausages",
+     "2 tomatoes, chopped",
+     "1 onion and 4 garlic cloves, chopped",
+     "1 bouquet garni (thyme, bay, parsley)",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Simmer the beans with the onion, garlic and herbs in fresh water for about 1 hour until almost tender.",
+     "Brown the pork and sausages in a little duck fat; cut the sausages into pieces.",
+     "Layer beans, meats, duck legs and tomato in a deep ovenproof dish and add cooking liquid to just cover.",
+     "Bake at 150 °C for 2–3 hours, pushing the crust down into the beans two or three times and adding liquid if it gets dry."
+    ]
+   },
+   "tips": [
+    "Skim the fat from the surface before serving and choose leaner pork pieces.",
+    "Serve a smaller ladle of meat and a bigger share of beans, with a green salad on the side.",
+    "Remove the duck skin on your plate — it carries much of the fat."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Cassoulet",
-      "origin": "France · Languedoc",
-      "intro": "Cassoulet is a slow-baked casserole from southwest France of white beans cooked with several meats — typically pork, sausage and confit duck leg — together with tomato and herbs. During the long bake the beans soak up the meat juices and a golden crust forms on top. The result is rich, hearty and filling, served straight from the earthenware dish.",
-      "history": "Cassoulet takes its name from the cassole, the glazed clay pot it is baked in. Castelnaudary, Carcassonne and Toulouse each claim their own version, and a popular legend places its origin in a siege of Castelnaudary during the Hundred Years' War, a story that cannot be verified. It remains a symbol of the Languedoc kitchen today.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "500 g dried white beans, soaked overnight",
-          "4 confit duck legs",
-          "400 g pork shoulder, cut into chunks",
-          "400 g sausages",
-          "2 tomatoes, chopped",
-          "1 onion and 4 garlic cloves, chopped",
-          "1 bouquet garni (thyme, bay, parsley)",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Simmer the beans with the onion, garlic and herbs in fresh water for about 1 hour until almost tender.",
-          "Brown the pork and sausages in a little duck fat; cut the sausages into pieces.",
-          "Layer beans, meats, duck legs and tomato in a deep ovenproof dish and add cooking liquid to just cover.",
-          "Bake at 150 °C for 2–3 hours, pushing the crust down into the beans two or three times and adding liquid if it gets dry."
-        ]
-      },
-      "tips": [
-        "Skim the fat from the surface before serving and choose leaner pork pieces.",
-        "Serve a smaller ladle of meat and a bigger share of beans, with a green salad on the side.",
-        "Remove the duck skin on your plate — it carries much of the fat."
-      ]
-    },
-    "ar": {
-      "name": "كاسوليه",
-      "origin": "فرنسا · لانغدوك",
-      "intro": "الكاسوليه طبق مخبوز ببطء من جنوب غرب فرنسا، يتكون من الفاصوليا البيضاء المطهوة مع عدة أنواع من اللحوم، عادة لحم الخنزير والنقانق وفخذ البط المحفوظ بدهنه، مع الطماطم والأعشاب. خلال الخَبز الطويل تتشرّب الفاصوليا عصارة اللحم وتتكوّن على السطح قشرة ذهبية. والنتيجة طبق غني ودسم ومُشبع يُقدَّم مباشرة من وعائه الفخاري.",
-      "history": "يستمد الكاسوليه اسمه من «الكاسول»، وهو القدر الفخاري المطلي الذي يُخبز فيه. وتنسب مدن كاستلنوداري وكاركاسون وتولوز لنفسها نسخاً خاصة منه، وتروي أسطورة شائعة أنه ظهر أثناء حصار كاستلنوداري في حرب المئة عام، وهي قصة لا يمكن التحقق منها. ولا يزال رمزاً لمطبخ لانغدوك حتى اليوم.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "500 غ فاصوليا بيضاء مجففة منقوعة ليلة كاملة",
-          "4 أفخاذ بط محفوظة بدهنها",
-          "400 غ كتف خنزير مقطّع مكعبات",
-          "400 غ نقانق",
-          "2 حبة طماطم مقطّعة",
-          "1 بصلة و4 فصوص ثوم مفرومة",
-          "حزمة أعشاب (زعتر وورق غار وبقدونس)",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "اسلق الفاصوليا مع البصل والثوم والأعشاب في ماء جديد نحو ساعة حتى تقارب النضج.",
-          "حمّر لحم الخنزير والنقانق في قليل من دهن البط، ثم قطّع النقانق.",
-          "رتّب طبقات الفاصوليا واللحوم وأفخاذ البط والطماطم في طبق عميق للفرن، وأضف من ماء السلق حتى يغمرها بالكاد.",
-          "اخبز على حرارة 150 °م لمدة 2–3 ساعات، مع كسر القشرة ودفعها إلى داخل الفاصوليا مرتين أو ثلاثاً وإضافة السائل إذا جفّ."
-        ]
-      },
-      "tips": [
-        "أزل الدهن عن السطح قبل التقديم واختر قطع لحم أقل دهناً.",
-        "قدّم كمية أقل من اللحم ونصيباً أكبر من الفاصوليا مع سلطة خضراء.",
-        "انزع جلد البط في طبقك، ففيه جزء كبير من الدهون."
-      ]
-    },
-    "it": {
-      "name": "Cassoulet",
-      "origin": "Francia · Linguadoca",
-      "intro": "Il cassoulet è uno sformato cotto lentamente in forno, tipico del sud-ovest della Francia, a base di fagioli bianchi cotti con diverse carni (di solito maiale, salsiccia e coscia d'anatra confit) insieme a pomodoro ed erbe aromatiche. Durante la lunga cottura i fagioli assorbono i succhi della carne e in superficie si forma una crosta dorata. Il risultato è ricco, sostanzioso e saziante, servito direttamente dal tegame di terracotta.",
-      "name_inline": "cassoulet",
-      "history": "Il cassoulet prende il nome dalla cassole, il tegame di terracotta smaltata in cui si cuoce. Castelnaudary, Carcassonne e Tolosa rivendicano ciascuna la propria versione, e una leggenda popolare ne colloca l'origine durante un assedio di Castelnaudary nella Guerra dei Cent'anni, una storia che non si può verificare. Ancora oggi resta un simbolo della cucina della Linguadoca.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "500 g di fagioli bianchi secchi, ammollati per una notte",
-          "4 cosce d'anatra confit",
-          "400 g di spalla di maiale a pezzi",
-          "400 g di salsicce",
-          "2 pomodori tritati",
-          "1 cipolla e 4 spicchi d'aglio tritati",
-          "1 mazzetto aromatico (timo, alloro, prezzemolo)",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Fai sobbollire i fagioli con la cipolla, l'aglio e le erbe in acqua fresca per circa 1 ora, finché sono quasi teneri.",
-          "Rosola il maiale e le salsicce in un po' di grasso d'anatra; taglia le salsicce a pezzi.",
-          "Alterna a strati fagioli, carni, cosce d'anatra e pomodoro in una pirofila profonda e aggiungi liquido di cottura fino a coprire appena.",
-          "Cuoci in forno a 150 °C per 2–3 ore, spingendo la crosta nei fagioli due o tre volte e aggiungendo liquido se si asciuga troppo."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso dalla superficie prima di servire e scegli pezzi di maiale più magri.",
-        "Servi un mestolo di carne più piccolo e una quota maggiore di fagioli, con un'insalata verde a parte.",
-        "Togli la pelle dell'anatra nel tuo piatto: contiene gran parte del grasso."
-      ]
-    },
-    "el": {
-      "name": "Κασουλέ",
-      "origin": "Γαλλία · Λανγκεντόκ",
-      "intro": "Το κασουλέ είναι ένα αργοψημένο φαγητό στη γάστρα από τη νοτιοδυτική Γαλλία, με λευκά φασόλια μαγειρεμένα με διάφορα κρέατα — συνήθως χοιρινό, λουκάνικο και μπούτι πάπιας κονφί — μαζί με ντομάτα και μυρωδικά. Κατά το μακρύ ψήσιμο τα φασόλια απορροφούν τους χυμούς του κρέατος και από πάνω σχηματίζεται χρυσαφένια κρούστα. Το αποτέλεσμα είναι πλούσιο, χορταστικό και θρεπτικό, και σερβίρεται κατευθείαν από το πήλινο σκεύος.",
-      "history": "Το κασουλέ πήρε το όνομά του από την κασόλ, το εφυαλωμένο πήλινο σκεύος στο οποίο ψήνεται. Το Καστελνοντερί, η Καρκασόν και η Τουλούζη διεκδικούν η καθεμία τη δική της εκδοχή, και ένας δημοφιλής θρύλος τοποθετεί την προέλευσή του σε μια πολιορκία του Καστελνοντερί κατά τον Εκατονταετή Πόλεμο, ιστορία που δεν μπορεί να επαληθευτεί. Παραμένει μέχρι σήμερα σύμβολο της κουζίνας του Λανγκεντόκ.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "500 γρ. ξερά λευκά φασόλια, μουλιασμένα από το προηγούμενο βράδυ",
-          "4 μπούτια πάπιας κονφί",
-          "400 γρ. χοιρινή σπάλα, σε κομμάτια",
-          "400 γρ. λουκάνικα",
-          "2 ντομάτες, ψιλοκομμένες",
-          "1 κρεμμύδι και 4 σκελίδες σκόρδο, ψιλοκομμένα",
-          "1 ματσάκι αρωματικά (θυμάρι, δάφνη, μαϊντανός)",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Σιγοβράστε τα φασόλια με το κρεμμύδι, το σκόρδο και τα μυρωδικά σε φρέσκο νερό για περίπου 1 ώρα, μέχρι να μαλακώσουν σχεδόν εντελώς.",
-          "Σοτάρετε το χοιρινό και τα λουκάνικα σε λίγο λίπος πάπιας· κόψτε τα λουκάνικα σε κομμάτια.",
-          "Στρώστε εναλλάξ φασόλια, κρέατα, μπούτια πάπιας και ντομάτα σε βαθύ πυρίμαχο σκεύος και προσθέστε ζωμό από το βράσιμο ώστε μόλις να σκεπάζονται.",
-          "Ψήστε στους 150 °C για 2–3 ώρες, βυθίζοντας την κρούστα μέσα στα φασόλια δύο-τρεις φορές και προσθέτοντας υγρό αν στεγνώσει."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το λίπος από την επιφάνεια πριν σερβίρετε και διαλέξτε πιο άπαχα κομμάτια χοιρινού.",
-        "Σερβίρετε μικρότερη κουταλιά κρέατος και μεγαλύτερη μερίδα φασολιών, με πράσινη σαλάτα στο πλάι.",
-        "Αφαιρέστε την πέτσα της πάπιας στο πιάτο σας — εκεί βρίσκεται μεγάλο μέρος του λίπους."
-      ]
-    },
-    "ru": {
-      "name": "Кассуле",
-      "origin": "Франция · Лангедок",
-      "intro": "Кассуле — медленно запечённая запеканка с юго-запада Франции из белой фасоли, приготовленной с несколькими видами мяса — обычно со свининой, колбасой и утиной ножкой конфи — вместе с помидорами и травами. За долгое запекание фасоль впитывает мясные соки, а сверху образуется золотистая корочка. Блюдо получается насыщенным, сытным и питательным, его подают прямо из глиняной формы.",
-      "history": "Кассуле получило название от кассоль — глазурованного глиняного горшка, в котором его запекают. Кастельнодари, Каркассон и Тулуза — каждый претендует на собственную версию, а популярная легенда относит его происхождение к осаде Кастельнодари во время Столетней войны, но эту историю нельзя проверить. Сегодня оно остаётся символом кухни Лангедока.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "500 г сухой белой фасоли, замоченной на ночь",
-          "4 утиные ножки конфи",
-          "400 г свиной лопатки, нарезанной кусками",
-          "400 г колбасок",
-          "2 помидора, нарезанных",
-          "1 луковица и 4 зубчика чеснока, нарубленные",
-          "1 букет гарни (тимьян, лавровый лист, петрушка)",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Варите фасоль с луком, чесноком и травами в свежей воде около 1 часа почти до мягкости.",
-          "Обжарьте свинину и колбаски на небольшом количестве утиного жира; нарежьте колбаски на кусочки.",
-          "Выложите слоями фасоль, мясо, утиные ножки и помидоры в глубокую жаропрочную форму и добавьте жидкость от варки, чтобы едва покрыть.",
-          "Запекайте при 150 °C 2–3 часа, два-три раза вдавливая корочку в фасоль и добавляя жидкость, если становится сухо."
-        ]
-      },
-      "tips": [
-        "Снимите жир с поверхности перед подачей и выбирайте более постные куски свинины.",
-        "Берите меньше мяса и больше фасоли, а на гарнир подайте зелёный салат.",
-        "Снимите утиную кожу на своей тарелке — в ней содержится большая часть жира."
-      ],
-      "name_inline": "кассуле"
-    }
+  "ar": {
+   "name": "كاسوليه",
+   "origin": "فرنسا · لانغدوك",
+   "intro": "الكاسوليه طبق مخبوز ببطء من جنوب غرب فرنسا، يتكون من الفاصوليا البيضاء المطهوة مع عدة أنواع من اللحوم، عادة لحم الخنزير والنقانق وفخذ البط المحفوظ بدهنه، مع الطماطم والأعشاب. خلال الخَبز الطويل تتشرّب الفاصوليا عصارة اللحم وتتكوّن على السطح قشرة ذهبية. والنتيجة طبق غني ودسم ومُشبع يُقدَّم مباشرة من وعائه الفخاري.",
+   "history": "يستمد الكاسوليه اسمه من «الكاسول»، وهو القدر الفخاري المطلي الذي يُخبز فيه. وتنسب مدن كاستلنوداري وكاركاسون وتولوز لنفسها نسخاً خاصة منه، وتروي أسطورة شائعة أنه ظهر أثناء حصار كاستلنوداري في حرب المئة عام، وهي قصة لا يمكن التحقق منها. ولا يزال رمزاً لمطبخ لانغدوك حتى اليوم.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "500 غ فاصوليا بيضاء مجففة منقوعة ليلة كاملة",
+     "4 أفخاذ بط محفوظة بدهنها",
+     "400 غ كتف خنزير مقطّع مكعبات",
+     "400 غ نقانق",
+     "2 حبة طماطم مقطّعة",
+     "1 بصلة و4 فصوص ثوم مفرومة",
+     "حزمة أعشاب (زعتر وورق غار وبقدونس)",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "اسلق الفاصوليا مع البصل والثوم والأعشاب في ماء جديد نحو ساعة حتى تقارب النضج.",
+     "حمّر لحم الخنزير والنقانق في قليل من دهن البط، ثم قطّع النقانق.",
+     "رتّب طبقات الفاصوليا واللحوم وأفخاذ البط والطماطم في طبق عميق للفرن، وأضف من ماء السلق حتى يغمرها بالكاد.",
+     "اخبز على حرارة 150 °م لمدة 2–3 ساعات، مع كسر القشرة ودفعها إلى داخل الفاصوليا مرتين أو ثلاثاً وإضافة السائل إذا جفّ."
+    ]
+   },
+   "tips": [
+    "أزل الدهن عن السطح قبل التقديم واختر قطع لحم أقل دهناً.",
+    "قدّم كمية أقل من اللحم ونصيباً أكبر من الفاصوليا مع سلطة خضراء.",
+    "انزع جلد البط في طبقك، ففيه جزء كبير من الدهون."
+   ]
+  },
+  "it": {
+   "name": "Cassoulet",
+   "origin": "Francia · Linguadoca",
+   "intro": "Il cassoulet è uno sformato cotto lentamente in forno, tipico del sud-ovest della Francia, a base di fagioli bianchi cotti con diverse carni (di solito maiale, salsiccia e coscia d'anatra confit) insieme a pomodoro ed erbe aromatiche. Durante la lunga cottura i fagioli assorbono i succhi della carne e in superficie si forma una crosta dorata. Il risultato è ricco, sostanzioso e saziante, servito direttamente dal tegame di terracotta.",
+   "name_inline": "cassoulet",
+   "history": "Il cassoulet prende il nome dalla cassole, il tegame di terracotta smaltata in cui si cuoce. Castelnaudary, Carcassonne e Tolosa rivendicano ciascuna la propria versione, e una leggenda popolare ne colloca l'origine durante un assedio di Castelnaudary nella Guerra dei Cent'anni, una storia che non si può verificare. Ancora oggi resta un simbolo della cucina della Linguadoca.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "500 g di fagioli bianchi secchi, ammollati per una notte",
+     "4 cosce d'anatra confit",
+     "400 g di spalla di maiale a pezzi",
+     "400 g di salsicce",
+     "2 pomodori tritati",
+     "1 cipolla e 4 spicchi d'aglio tritati",
+     "1 mazzetto aromatico (timo, alloro, prezzemolo)",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Fai sobbollire i fagioli con la cipolla, l'aglio e le erbe in acqua fresca per circa 1 ora, finché sono quasi teneri.",
+     "Rosola il maiale e le salsicce in un po' di grasso d'anatra; taglia le salsicce a pezzi.",
+     "Alterna a strati fagioli, carni, cosce d'anatra e pomodoro in una pirofila profonda e aggiungi liquido di cottura fino a coprire appena.",
+     "Cuoci in forno a 150 °C per 2–3 ore, spingendo la crosta nei fagioli due o tre volte e aggiungendo liquido se si asciuga troppo."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso dalla superficie prima di servire e scegli pezzi di maiale più magri.",
+    "Servi un mestolo di carne più piccolo e una quota maggiore di fagioli, con un'insalata verde a parte.",
+    "Togli la pelle dell'anatra nel tuo piatto: contiene gran parte del grasso."
+   ]
+  },
+  "el": {
+   "name": "Κασουλέ",
+   "origin": "Γαλλία · Λανγκεντόκ",
+   "intro": "Το κασουλέ είναι ένα αργοψημένο φαγητό στη γάστρα από τη νοτιοδυτική Γαλλία, με λευκά φασόλια μαγειρεμένα με διάφορα κρέατα — συνήθως χοιρινό, λουκάνικο και μπούτι πάπιας κονφί — μαζί με ντομάτα και μυρωδικά. Κατά το μακρύ ψήσιμο τα φασόλια απορροφούν τους χυμούς του κρέατος και από πάνω σχηματίζεται χρυσαφένια κρούστα. Το αποτέλεσμα είναι πλούσιο, χορταστικό και θρεπτικό, και σερβίρεται κατευθείαν από το πήλινο σκεύος.",
+   "history": "Το κασουλέ πήρε το όνομά του από την κασόλ, το εφυαλωμένο πήλινο σκεύος στο οποίο ψήνεται. Το Καστελνοντερί, η Καρκασόν και η Τουλούζη διεκδικούν η καθεμία τη δική της εκδοχή, και ένας δημοφιλής θρύλος τοποθετεί την προέλευσή του σε μια πολιορκία του Καστελνοντερί κατά τον Εκατονταετή Πόλεμο, ιστορία που δεν μπορεί να επαληθευτεί. Παραμένει μέχρι σήμερα σύμβολο της κουζίνας του Λανγκεντόκ.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "500 γρ. ξερά λευκά φασόλια, μουλιασμένα από το προηγούμενο βράδυ",
+     "4 μπούτια πάπιας κονφί",
+     "400 γρ. χοιρινή σπάλα, σε κομμάτια",
+     "400 γρ. λουκάνικα",
+     "2 ντομάτες, ψιλοκομμένες",
+     "1 κρεμμύδι και 4 σκελίδες σκόρδο, ψιλοκομμένα",
+     "1 ματσάκι αρωματικά (θυμάρι, δάφνη, μαϊντανός)",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Σιγοβράστε τα φασόλια με το κρεμμύδι, το σκόρδο και τα μυρωδικά σε φρέσκο νερό για περίπου 1 ώρα, μέχρι να μαλακώσουν σχεδόν εντελώς.",
+     "Σοτάρετε το χοιρινό και τα λουκάνικα σε λίγο λίπος πάπιας· κόψτε τα λουκάνικα σε κομμάτια.",
+     "Στρώστε εναλλάξ φασόλια, κρέατα, μπούτια πάπιας και ντομάτα σε βαθύ πυρίμαχο σκεύος και προσθέστε ζωμό από το βράσιμο ώστε μόλις να σκεπάζονται.",
+     "Ψήστε στους 150 °C για 2–3 ώρες, βυθίζοντας την κρούστα μέσα στα φασόλια δύο-τρεις φορές και προσθέτοντας υγρό αν στεγνώσει."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το λίπος από την επιφάνεια πριν σερβίρετε και διαλέξτε πιο άπαχα κομμάτια χοιρινού.",
+    "Σερβίρετε μικρότερη κουταλιά κρέατος και μεγαλύτερη μερίδα φασολιών, με πράσινη σαλάτα στο πλάι.",
+    "Αφαιρέστε την πέτσα της πάπιας στο πιάτο σας — εκεί βρίσκεται μεγάλο μέρος του λίπους."
+   ]
+  },
+  "ru": {
+   "name": "Кассуле",
+   "origin": "Франция · Лангедок",
+   "intro": "Кассуле — медленно запечённая запеканка с юго-запада Франции из белой фасоли, приготовленной с несколькими видами мяса — обычно со свининой, колбасой и утиной ножкой конфи — вместе с помидорами и травами. За долгое запекание фасоль впитывает мясные соки, а сверху образуется золотистая корочка. Блюдо получается насыщенным, сытным и питательным, его подают прямо из глиняной формы.",
+   "history": "Кассуле получило название от кассоль — глазурованного глиняного горшка, в котором его запекают. Кастельнодари, Каркассон и Тулуза — каждый претендует на собственную версию, а популярная легенда относит его происхождение к осаде Кастельнодари во время Столетней войны, но эту историю нельзя проверить. Сегодня оно остаётся символом кухни Лангедока.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "500 г сухой белой фасоли, замоченной на ночь",
+     "4 утиные ножки конфи",
+     "400 г свиной лопатки, нарезанной кусками",
+     "400 г колбасок",
+     "2 помидора, нарезанных",
+     "1 луковица и 4 зубчика чеснока, нарубленные",
+     "1 букет гарни (тимьян, лавровый лист, петрушка)",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Варите фасоль с луком, чесноком и травами в свежей воде около 1 часа почти до мягкости.",
+     "Обжарьте свинину и колбаски на небольшом количестве утиного жира; нарежьте колбаски на кусочки.",
+     "Выложите слоями фасоль, мясо, утиные ножки и помидоры в глубокую жаропрочную форму и добавьте жидкость от варки, чтобы едва покрыть.",
+     "Запекайте при 150 °C 2–3 часа, два-три раза вдавливая корочку в фасоль и добавляя жидкость, если становится сухо."
+    ]
+   },
+   "tips": [
+    "Снимите жир с поверхности перед подачей и выбирайте более постные куски свинины.",
+    "Берите меньше мяса и больше фасоли, а на гарнир подайте зелёный салат.",
+    "Снимите утиную кожу на своей тарелке — в ней содержится большая часть жира."
+   ],
+   "name_inline": "кассуле"
+  },
+  "es": {
+   "name": "Cassoulet",
+   "origin": "Francia · Languedoc",
+   "intro": "El cassoulet es un guiso horneado lentamente, originario del suroeste de Francia, de frijoles blancos cocinados con varias carnes —normalmente cerdo, salchichas y muslo de pato confitado— junto con jitomate y hierbas. Durante el largo horneado, los frijoles absorben los jugos de la carne y en la superficie se forma una costra dorada. El resultado es sustancioso, contundente y reconfortante, y se sirve directamente de la cazuela de barro.",
+   "history": "El cassoulet toma su nombre de la cassole, la cazuela de barro vidriado en la que se hornea. Castelnaudary, Carcasona y Toulouse reivindican cada una su propia versión, y una leyenda popular sitúa su origen en un asedio de Castelnaudary durante la Guerra de los Cien Años, historia que no puede comprobarse. Hoy sigue siendo un símbolo de la cocina del Languedoc.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "500 g de frijoles blancos secos, remojados desde la noche anterior",
+     "4 muslos de pato confitado",
+     "400 g de espaldilla de cerdo, en trozos",
+     "400 g de salchichas",
+     "2 jitomates, picados",
+     "1 cebolla y 4 dientes de ajo, picados",
+     "1 ramillete de hierbas (tomillo, laurel, perejil)",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Cuece los frijoles con la cebolla, el ajo y las hierbas en agua fresca, a fuego suave, durante 1 hora aproximadamente, hasta que estén casi tiernos.",
+     "Dora el cerdo y las salchichas en un poco de grasa de pato; corta las salchichas en trozos.",
+     "Acomoda en capas los frijoles, las carnes, los muslos de pato y el jitomate en una fuente honda para horno y agrega caldo de cocción hasta cubrir apenas.",
+     "Hornea a 150 °C de 2 a 3 horas, hundiendo la costra en los frijoles dos o tres veces y añadiendo líquido si se seca."
+    ]
+   },
+   "tips": [
+    "Retira la grasa de la superficie antes de servir y elige cortes de cerdo más magros.",
+    "Sirve una porción menor de carne y una mayor de frijoles, con una ensalada verde.",
+    "Quita la piel del pato en tu plato: concentra buena parte de la grasa."
+   ],
+   "name_inline": "el cassoulet"
   }
+ }
 }

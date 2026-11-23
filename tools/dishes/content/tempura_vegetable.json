@@ -1,171 +1,203 @@
 {
-  "db_key": "tempura_vegetable",
-  "slug": "tempura-vegetable",
-  "emoji": "🍠",
-  "portion_g": 150,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tempura_vegetable",
+ "slug": "tempura-vegetable",
+ "emoji": "🍠",
+ "portion_g": 150,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Vegetable Tempura",
+   "origin": "Japan · nationwide",
+   "intro": "Vegetable tempura is slices of kabocha pumpkin, eggplant and sweet potato dipped in a thin, cold batter and deep-fried until lacy and crisp. The coating stays light while the vegetables turn tender and sweet inside. It is served hot, often as a side or starter, with a little salt or a light dipping sauce.",
+   "history": "Tempura grew into a popular street food in Edo-period Japan, and vegetable tempura (shojin-age in its Buddhist temple form) has long been part of the repertoire. Pumpkin, eggplant and sweet potato are among the most common vegetable pieces today.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "150 g kabocha pumpkin, sliced 5 mm thick",
+     "1 small eggplant, cut into fans or slices",
+     "1 small sweet potato, sliced 5 mm thick",
+     "100 g tempura flour (or 90 g flour + 1 egg)",
+     "160 ml ice-cold water",
+     "Oil for deep-frying",
+     "Flaky salt to serve"
+    ],
+    "steps": [
+     "Pat all vegetables dry; dense pieces like sweet potato and pumpkin should be no thicker than 5 mm.",
+     "Mix flour (and egg) with ice-cold water in a few strokes, leaving lumps.",
+     "Heat oil to 170 °C. Dip the vegetables in batter and fry in small batches: sweet potato and pumpkin 3–4 minutes, eggplant about 2 minutes.",
+     "Drain on a rack and season with a pinch of salt.",
+     "Serve immediately while crisp."
+    ]
+   },
+   "tips": [
+    "Slice vegetables thinly and evenly — they cook faster and spend less time in oil.",
+    "Keep the oil hot and drain on a rack; soggy tempura holds more fat, and 1 tbsp oil ≈ 120 kcal.",
+    "Serve a smaller portion of tempura next to a large plate of raw or steamed vegetables."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Vegetable Tempura",
-      "origin": "Japan · nationwide",
-      "intro": "Vegetable tempura is slices of kabocha pumpkin, eggplant and sweet potato dipped in a thin, cold batter and deep-fried until lacy and crisp. The coating stays light while the vegetables turn tender and sweet inside. It is served hot, often as a side or starter, with a little salt or a light dipping sauce.",
-      "history": "Tempura grew into a popular street food in Edo-period Japan, and vegetable tempura (shojin-age in its Buddhist temple form) has long been part of the repertoire. Pumpkin, eggplant and sweet potato are among the most common vegetable pieces today.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "150 g kabocha pumpkin, sliced 5 mm thick",
-          "1 small eggplant, cut into fans or slices",
-          "1 small sweet potato, sliced 5 mm thick",
-          "100 g tempura flour (or 90 g flour + 1 egg)",
-          "160 ml ice-cold water",
-          "Oil for deep-frying",
-          "Flaky salt to serve"
-        ],
-        "steps": [
-          "Pat all vegetables dry; dense pieces like sweet potato and pumpkin should be no thicker than 5 mm.",
-          "Mix flour (and egg) with ice-cold water in a few strokes, leaving lumps.",
-          "Heat oil to 170 °C. Dip the vegetables in batter and fry in small batches: sweet potato and pumpkin 3–4 minutes, eggplant about 2 minutes.",
-          "Drain on a rack and season with a pinch of salt.",
-          "Serve immediately while crisp."
-        ]
-      },
-      "tips": [
-        "Slice vegetables thinly and evenly — they cook faster and spend less time in oil.",
-        "Keep the oil hot and drain on a rack; soggy tempura holds more fat, and 1 tbsp oil ≈ 120 kcal.",
-        "Serve a smaller portion of tempura next to a large plate of raw or steamed vegetables."
-      ]
-    },
-    "ar": {
-      "name": "تمبورا الخضار",
-      "origin": "اليابان · في أنحاء البلاد",
-      "intro": "تمبورا الخضار شرائح من قرع الكابوتشا والباذنجان والبطاطا الحلوة تُغمس في عجينة رقيقة باردة وتُقلى حتى تصبح مخرّمة ومقرمشة. يبقى الغلاف خفيفًا بينما تصبح الخضار طرية وحلوة من الداخل. تُقدّم ساخنة، غالبًا طبقًا جانبيًا أو مقبلًا، مع قليل من الملح أو صلصة تغميس خفيفة.",
-      "history": "أصبحت التمبورا طعام شارع شائعًا في يابان حقبة إيدو، وتمبورا الخضار (وتُسمى شوجين-آغي في شكلها النباتي في المعابد البوذية) جزء منها منذ زمن طويل. ويُعد القرع والباذنجان والبطاطا الحلوة من أكثر الخضار استخدامًا اليوم.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "150 غ قرع كابوتشا مقطع شرائح بسماكة 5 مم",
-          "حبة باذنجان صغيرة مقطعة شرائح",
-          "حبة بطاطا حلوة صغيرة مقطعة شرائح بسماكة 5 مم",
-          "100 غ دقيق تمبورا (أو 90 غ دقيق + بيضة)",
-          "160 مل ماء مثلج",
-          "زيت للقلي العميق",
-          "ملح خشن للتقديم"
-        ],
-        "steps": [
-          "جفف الخضار جيدًا، ويجب ألا تزيد سماكة البطاطا الحلوة والقرع عن 5 مم.",
-          "اخلط الدقيق (والبيضة) مع الماء المثلج بحركات قليلة مع ترك الكتل.",
-          "سخّن الزيت إلى 170 °م، واغمس الخضار في العجينة واقلها على دفعات صغيرة: البطاطا الحلوة والقرع 3–4 دقائق، والباذنجان نحو دقيقتين.",
-          "صفّها على شبك ورشّ قليلًا من الملح.",
-          "قدّمها فورًا وهي مقرمشة."
-        ]
-      },
-      "tips": [
-        "قطّع الخضار رفيعة ومتساوية لتنضج أسرع وتبقى في الزيت وقتًا أقل.",
-        "حافظ على حرارة الزيت وصفِّ القطع على شبك، فالتمبورا الطرية تحتفظ بدهون أكثر، وملعقة كبيرة زيت ≈ 120 سعرة.",
-        "قدّم حصة أصغر من التمبورا بجانب طبق كبير من الخضار النيئة أو المطهوة على البخار."
-      ]
-    },
-    "it": {
-      "name": "Tempura di verdure",
-      "name_inline": "tempura di verdure",
-      "origin": "Giappone · Tutto il paese",
-      "intro": "La tempura di verdure è fatta di fette di zucca kabocha, melanzana e patata dolce immerse in una pastella sottile e fredda e fritte in abbondante olio finché diventano merlettate e croccanti. La copertura resta leggera mentre le verdure diventano tenere e dolci all'interno. Si serve calda, spesso come contorno o antipasto, con un po' di sale o una leggera salsa da intingere.",
-      "history": "La tempura divenne un cibo di strada popolare nel Giappone del periodo Edo, e la tempura di verdure (shojin-age nella sua forma dei templi buddhisti) fa parte da tempo del repertorio. Zucca, melanzana e patata dolce sono oggi tra le verdure più comuni.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "150 g di zucca kabocha a fette spesse 5 mm",
-          "1 melanzana piccola tagliata a ventaglio o a fette",
-          "1 patata dolce piccola a fette spesse 5 mm",
-          "100 g di farina per tempura (o 90 g di farina + 1 uovo)",
-          "160 ml di acqua ghiacciata",
-          "Olio per friggere",
-          "Sale in fiocchi per servire"
-        ],
-        "steps": [
-          "Asciuga bene tutte le verdure; i pezzi compatti come patata dolce e zucca non devono superare i 5 mm di spessore.",
-          "Mescola la farina (e l'uovo) con l'acqua ghiacciata in pochi movimenti, lasciando i grumi.",
-          "Scalda l'olio a 170 °C. Immergi le verdure nella pastella e friggile poche alla volta: patata dolce e zucca 3–4 minuti, melanzana circa 2 minuti.",
-          "Scolale su una griglia e condiscile con un pizzico di sale.",
-          "Servi subito, finché sono croccanti."
-        ]
-      },
-      "tips": [
-        "Taglia le verdure sottili e uniformi: cuociono prima e restano meno nell'olio.",
-        "Mantieni l'olio caldo e scola su una griglia; la tempura molliccia trattiene più grasso, e 1 cucchiaio di olio ≈ 120 kcal.",
-        "Servi una porzione più piccola di tempura accanto a un grande piatto di verdure crude o al vapore."
-      ]
-    },
-    "el": {
-      "name": "Τεμπούρα λαχανικών",
-      "origin": "Ιαπωνία · Σε όλη τη χώρα",
-      "intro": "Η τεμπούρα λαχανικών είναι φέτες κολοκύθας καμποτσά, μελιτζάνας και γλυκοπατάτας βουτηγμένες σε αραιό, κρύο κουρκούτι και τηγανισμένες σε βαθύ λάδι μέχρι να γίνουν δαντελωτές και τραγανές. Η επικάλυψη μένει ελαφριά, ενώ τα λαχανικά γίνονται μαλακά και γλυκά μέσα. Σερβίρεται ζεστή, συχνά ως συνοδευτικό ή ορεκτικό, με λίγο αλάτι ή ελαφριά σάλτσα για βουτιά.",
-      "history": "Η τεμπούρα έγινε δημοφιλές φαγητό του δρόμου στην Ιαπωνία της περιόδου Έντο, και η τεμπούρα λαχανικών (σότζιν-άγκε στη μορφή των βουδιστικών ναών) αποτελεί από παλιά μέρος του ρεπερτορίου. Η κολοκύθα, η μελιτζάνα και η γλυκοπατάτα είναι σήμερα από τα πιο συνηθισμένα λαχανικά.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "150 γρ. κολοκύθα καμποτσά, σε φέτες πάχους 5 χιλ.",
-          "1 μικρή μελιτζάνα, σε σχήμα βεντάλιας ή σε φέτες",
-          "1 μικρή γλυκοπατάτα, σε φέτες πάχους 5 χιλ.",
-          "100 γρ. αλεύρι για τεμπούρα (ή 90 γρ. αλεύρι + 1 αυγό)",
-          "160 ml παγωμένο νερό",
-          "Λάδι για τηγάνισμα",
-          "Αλάτι σε νιφάδες για το σερβίρισμα"
-        ],
-        "steps": [
-          "Στεγνώστε καλά όλα τα λαχανικά· τα συμπαγή κομμάτια, όπως η γλυκοπατάτα και η κολοκύθα, να μην ξεπερνούν τα 5 χιλ. πάχος.",
-          "Ανακατέψτε το αλεύρι (και το αυγό) με το παγωμένο νερό με λίγες κινήσεις, αφήνοντας σβόλους.",
-          "Ζεστάνετε το λάδι στους 170 °C. Βουτήξτε τα λαχανικά στο κουρκούτι και τηγανίστε τα λίγα λίγα: γλυκοπατάτα και κολοκύθα 3–4 λεπτά, μελιτζάνα περίπου 2 λεπτά.",
-          "Στραγγίξτε σε σχάρα και πασπαλίστε με μια πρέζα αλάτι.",
-          "Σερβίρετε αμέσως, όσο είναι τραγανά."
-        ]
-      },
-      "tips": [
-        "Κόψτε τα λαχανικά λεπτά και ομοιόμορφα — ψήνονται πιο γρήγορα και μένουν λιγότερο στο λάδι.",
-        "Κρατήστε το λάδι καυτό και στραγγίξτε σε σχάρα· η μαλακή τεμπούρα κρατά περισσότερο λίπος, και 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Σερβίρετε μικρότερη μερίδα τεμπούρα δίπλα σε ένα μεγάλο πιάτο με ωμά ή στον ατμό λαχανικά."
-      ]
-    },
-    "ru": {
-      "name": "Овощная темпура",
-      "origin": "Япония · по всей стране",
-      "intro": "Овощная темпура — ломтики тыквы кабоча, баклажана и батата, обмакнутые в жидкий холодный кляр и обжаренные во фритюре до ажурной хрустящей корочки. Покрытие остаётся лёгким, а овощи становятся мягкими и сладкими внутри. Её подают горячей, часто как гарнир или закуску, с щепоткой соли или лёгким соусом для макания.",
-      "history": "Темпура превратилась в популярную уличную еду в Японии периода Эдо, а овощная темпура (сёдзин-агэ в монастырской буддийской форме) давно входит в её репертуар. Тыква, баклажан и батат — одни из самых распространённых овощных кусочков сегодня.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "150 г тыквы кабоча, нарезанной ломтиками толщиной 5 мм",
-          "1 небольшой баклажан, нарезанный веерами или ломтиками",
-          "1 небольшой батат, нарезанный ломтиками толщиной 5 мм",
-          "100 г муки для темпуры (или 90 г муки + 1 яйцо)",
-          "160 мл ледяной воды",
-          "Масло для фритюра",
-          "Хлопья соли для подачи"
-        ],
-        "steps": [
-          "Обсушите все овощи; плотные кусочки, такие как батат и тыква, должны быть не толще 5 мм.",
-          "Смешайте муку (и яйцо) с ледяной водой несколькими движениями, оставив комочки.",
-          "Разогрейте масло до 170 °C. Обмакивайте овощи в кляр и жарьте небольшими порциями: батат и тыкву 3–4 минуты, баклажан около 2 минут.",
-          "Обсушите на решётке и приправьте щепоткой соли.",
-          "Сразу подавайте, пока хрустит."
-        ]
-      },
-      "tips": [
-        "Нарезайте овощи тонко и равномерно — они готовятся быстрее и меньше времени проводят в масле.",
-        "Держите масло горячим и обсушивайте на решётке; размякшая темпура удерживает больше жира, а 1 ст. л. масла ≈ 120 ккал.",
-        "Подавайте небольшую порцию темпуры рядом с большой тарелкой сырых или приготовленных на пару овощей."
-      ],
-      "name_inline": "овощная темпура"
-    }
+  "ar": {
+   "name": "تمبورا الخضار",
+   "origin": "اليابان · في أنحاء البلاد",
+   "intro": "تمبورا الخضار شرائح من قرع الكابوتشا والباذنجان والبطاطا الحلوة تُغمس في عجينة رقيقة باردة وتُقلى حتى تصبح مخرّمة ومقرمشة. يبقى الغلاف خفيفًا بينما تصبح الخضار طرية وحلوة من الداخل. تُقدّم ساخنة، غالبًا طبقًا جانبيًا أو مقبلًا، مع قليل من الملح أو صلصة تغميس خفيفة.",
+   "history": "أصبحت التمبورا طعام شارع شائعًا في يابان حقبة إيدو، وتمبورا الخضار (وتُسمى شوجين-آغي في شكلها النباتي في المعابد البوذية) جزء منها منذ زمن طويل. ويُعد القرع والباذنجان والبطاطا الحلوة من أكثر الخضار استخدامًا اليوم.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "150 غ قرع كابوتشا مقطع شرائح بسماكة 5 مم",
+     "حبة باذنجان صغيرة مقطعة شرائح",
+     "حبة بطاطا حلوة صغيرة مقطعة شرائح بسماكة 5 مم",
+     "100 غ دقيق تمبورا (أو 90 غ دقيق + بيضة)",
+     "160 مل ماء مثلج",
+     "زيت للقلي العميق",
+     "ملح خشن للتقديم"
+    ],
+    "steps": [
+     "جفف الخضار جيدًا، ويجب ألا تزيد سماكة البطاطا الحلوة والقرع عن 5 مم.",
+     "اخلط الدقيق (والبيضة) مع الماء المثلج بحركات قليلة مع ترك الكتل.",
+     "سخّن الزيت إلى 170 °م، واغمس الخضار في العجينة واقلها على دفعات صغيرة: البطاطا الحلوة والقرع 3–4 دقائق، والباذنجان نحو دقيقتين.",
+     "صفّها على شبك ورشّ قليلًا من الملح.",
+     "قدّمها فورًا وهي مقرمشة."
+    ]
+   },
+   "tips": [
+    "قطّع الخضار رفيعة ومتساوية لتنضج أسرع وتبقى في الزيت وقتًا أقل.",
+    "حافظ على حرارة الزيت وصفِّ القطع على شبك، فالتمبورا الطرية تحتفظ بدهون أكثر، وملعقة كبيرة زيت ≈ 120 سعرة.",
+    "قدّم حصة أصغر من التمبورا بجانب طبق كبير من الخضار النيئة أو المطهوة على البخار."
+   ]
+  },
+  "it": {
+   "name": "Tempura di verdure",
+   "name_inline": "tempura di verdure",
+   "origin": "Giappone · Tutto il paese",
+   "intro": "La tempura di verdure è fatta di fette di zucca kabocha, melanzana e patata dolce immerse in una pastella sottile e fredda e fritte in abbondante olio finché diventano merlettate e croccanti. La copertura resta leggera mentre le verdure diventano tenere e dolci all'interno. Si serve calda, spesso come contorno o antipasto, con un po' di sale o una leggera salsa da intingere.",
+   "history": "La tempura divenne un cibo di strada popolare nel Giappone del periodo Edo, e la tempura di verdure (shojin-age nella sua forma dei templi buddhisti) fa parte da tempo del repertorio. Zucca, melanzana e patata dolce sono oggi tra le verdure più comuni.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "150 g di zucca kabocha a fette spesse 5 mm",
+     "1 melanzana piccola tagliata a ventaglio o a fette",
+     "1 patata dolce piccola a fette spesse 5 mm",
+     "100 g di farina per tempura (o 90 g di farina + 1 uovo)",
+     "160 ml di acqua ghiacciata",
+     "Olio per friggere",
+     "Sale in fiocchi per servire"
+    ],
+    "steps": [
+     "Asciuga bene tutte le verdure; i pezzi compatti come patata dolce e zucca non devono superare i 5 mm di spessore.",
+     "Mescola la farina (e l'uovo) con l'acqua ghiacciata in pochi movimenti, lasciando i grumi.",
+     "Scalda l'olio a 170 °C. Immergi le verdure nella pastella e friggile poche alla volta: patata dolce e zucca 3–4 minuti, melanzana circa 2 minuti.",
+     "Scolale su una griglia e condiscile con un pizzico di sale.",
+     "Servi subito, finché sono croccanti."
+    ]
+   },
+   "tips": [
+    "Taglia le verdure sottili e uniformi: cuociono prima e restano meno nell'olio.",
+    "Mantieni l'olio caldo e scola su una griglia; la tempura molliccia trattiene più grasso, e 1 cucchiaio di olio ≈ 120 kcal.",
+    "Servi una porzione più piccola di tempura accanto a un grande piatto di verdure crude o al vapore."
+   ]
+  },
+  "el": {
+   "name": "Τεμπούρα λαχανικών",
+   "origin": "Ιαπωνία · Σε όλη τη χώρα",
+   "intro": "Η τεμπούρα λαχανικών είναι φέτες κολοκύθας καμποτσά, μελιτζάνας και γλυκοπατάτας βουτηγμένες σε αραιό, κρύο κουρκούτι και τηγανισμένες σε βαθύ λάδι μέχρι να γίνουν δαντελωτές και τραγανές. Η επικάλυψη μένει ελαφριά, ενώ τα λαχανικά γίνονται μαλακά και γλυκά μέσα. Σερβίρεται ζεστή, συχνά ως συνοδευτικό ή ορεκτικό, με λίγο αλάτι ή ελαφριά σάλτσα για βουτιά.",
+   "history": "Η τεμπούρα έγινε δημοφιλές φαγητό του δρόμου στην Ιαπωνία της περιόδου Έντο, και η τεμπούρα λαχανικών (σότζιν-άγκε στη μορφή των βουδιστικών ναών) αποτελεί από παλιά μέρος του ρεπερτορίου. Η κολοκύθα, η μελιτζάνα και η γλυκοπατάτα είναι σήμερα από τα πιο συνηθισμένα λαχανικά.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "150 γρ. κολοκύθα καμποτσά, σε φέτες πάχους 5 χιλ.",
+     "1 μικρή μελιτζάνα, σε σχήμα βεντάλιας ή σε φέτες",
+     "1 μικρή γλυκοπατάτα, σε φέτες πάχους 5 χιλ.",
+     "100 γρ. αλεύρι για τεμπούρα (ή 90 γρ. αλεύρι + 1 αυγό)",
+     "160 ml παγωμένο νερό",
+     "Λάδι για τηγάνισμα",
+     "Αλάτι σε νιφάδες για το σερβίρισμα"
+    ],
+    "steps": [
+     "Στεγνώστε καλά όλα τα λαχανικά· τα συμπαγή κομμάτια, όπως η γλυκοπατάτα και η κολοκύθα, να μην ξεπερνούν τα 5 χιλ. πάχος.",
+     "Ανακατέψτε το αλεύρι (και το αυγό) με το παγωμένο νερό με λίγες κινήσεις, αφήνοντας σβόλους.",
+     "Ζεστάνετε το λάδι στους 170 °C. Βουτήξτε τα λαχανικά στο κουρκούτι και τηγανίστε τα λίγα λίγα: γλυκοπατάτα και κολοκύθα 3–4 λεπτά, μελιτζάνα περίπου 2 λεπτά.",
+     "Στραγγίξτε σε σχάρα και πασπαλίστε με μια πρέζα αλάτι.",
+     "Σερβίρετε αμέσως, όσο είναι τραγανά."
+    ]
+   },
+   "tips": [
+    "Κόψτε τα λαχανικά λεπτά και ομοιόμορφα — ψήνονται πιο γρήγορα και μένουν λιγότερο στο λάδι.",
+    "Κρατήστε το λάδι καυτό και στραγγίξτε σε σχάρα· η μαλακή τεμπούρα κρατά περισσότερο λίπος, και 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Σερβίρετε μικρότερη μερίδα τεμπούρα δίπλα σε ένα μεγάλο πιάτο με ωμά ή στον ατμό λαχανικά."
+   ]
+  },
+  "ru": {
+   "name": "Овощная темпура",
+   "origin": "Япония · по всей стране",
+   "intro": "Овощная темпура — ломтики тыквы кабоча, баклажана и батата, обмакнутые в жидкий холодный кляр и обжаренные во фритюре до ажурной хрустящей корочки. Покрытие остаётся лёгким, а овощи становятся мягкими и сладкими внутри. Её подают горячей, часто как гарнир или закуску, с щепоткой соли или лёгким соусом для макания.",
+   "history": "Темпура превратилась в популярную уличную еду в Японии периода Эдо, а овощная темпура (сёдзин-агэ в монастырской буддийской форме) давно входит в её репертуар. Тыква, баклажан и батат — одни из самых распространённых овощных кусочков сегодня.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "150 г тыквы кабоча, нарезанной ломтиками толщиной 5 мм",
+     "1 небольшой баклажан, нарезанный веерами или ломтиками",
+     "1 небольшой батат, нарезанный ломтиками толщиной 5 мм",
+     "100 г муки для темпуры (или 90 г муки + 1 яйцо)",
+     "160 мл ледяной воды",
+     "Масло для фритюра",
+     "Хлопья соли для подачи"
+    ],
+    "steps": [
+     "Обсушите все овощи; плотные кусочки, такие как батат и тыква, должны быть не толще 5 мм.",
+     "Смешайте муку (и яйцо) с ледяной водой несколькими движениями, оставив комочки.",
+     "Разогрейте масло до 170 °C. Обмакивайте овощи в кляр и жарьте небольшими порциями: батат и тыкву 3–4 минуты, баклажан около 2 минут.",
+     "Обсушите на решётке и приправьте щепоткой соли.",
+     "Сразу подавайте, пока хрустит."
+    ]
+   },
+   "tips": [
+    "Нарезайте овощи тонко и равномерно — они готовятся быстрее и меньше времени проводят в масле.",
+    "Держите масло горячим и обсушивайте на решётке; размякшая темпура удерживает больше жира, а 1 ст. л. масла ≈ 120 ккал.",
+    "Подавайте небольшую порцию темпуры рядом с большой тарелкой сырых или приготовленных на пару овощей."
+   ],
+   "name_inline": "овощная темпура"
+  },
+  "es": {
+   "name": "Tempura de verduras",
+   "origin": "Japón · todo el país",
+   "intro": "La tempura de verduras consiste en rebanadas de calabaza kabocha, berenjena y camote sumergidas en una masa fina y fría y fritas hasta quedar en forma de encaje y crujientes. El rebozado se mantiene ligero mientras que las verduras quedan tiernas y dulces por dentro. Se sirve caliente, a menudo como guarnición o entrada, con un poco de sal o una salsa ligera para mojar.",
+   "history": "La tempura se convirtió en una comida callejera popular en el Japón del periodo Edo, y la tempura de verduras (shojin-age en su forma de los templos budistas) forma parte desde hace mucho de su repertorio. La calabaza, la berenjena y el camote son hoy de las piezas de verdura más comunes.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "150 g de calabaza kabocha, en rebanadas de 5 mm de grosor",
+     "1 berenjena pequeña, en abanicos o rebanadas",
+     "1 camote pequeño, en rebanadas de 5 mm de grosor",
+     "100 g de harina para tempura (o 90 g de harina + 1 huevo)",
+     "160 ml de agua helada",
+     "Aceite para freír",
+     "Sal en hojuelas para servir"
+    ],
+    "steps": [
+     "Seca bien todas las verduras con papel; las piezas densas, como el camote y la calabaza, no deben pasar de 5 mm de grosor.",
+     "Mezcla la harina (y el huevo) con el agua helada en pocos movimientos, dejando grumos.",
+     "Calienta el aceite a 170 °C. Pasa las verduras por la masa y fríelas en tandas pequeñas: el camote y la calabaza de 3 a 4 minutos, la berenjena unos 2 minutos.",
+     "Escurre sobre una rejilla y sazona con una pizca de sal.",
+     "Sirve de inmediato, mientras esté crujiente."
+    ]
+   },
+   "tips": [
+    "Corta las verduras finas y parejas: se cocinan más rápido y pasan menos tiempo en el aceite.",
+    "Mantén el aceite caliente y escurre sobre una rejilla; la tempura aceitosa retiene más grasa, y 1 cda. de aceite ≈ 120 kcal.",
+    "Sirve una porción más pequeña de tempura junto a un plato grande de verduras crudas o al vapor."
+   ],
+   "name_inline": "la tempura de verduras"
   }
+ }
 }

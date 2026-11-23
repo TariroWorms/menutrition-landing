@@ -1,166 +1,197 @@
 {
-  "db_key": "tempura_shrimp",
-  "slug": "tempura-shrimp",
-  "emoji": "🍤",
-  "portion_g": 150,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tempura_shrimp",
+ "slug": "tempura-shrimp",
+ "emoji": "🍤",
+ "portion_g": 150,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Shrimp Tempura",
+   "origin": "Japan · Tokyo (Edo)",
+   "intro": "Shrimp tempura is whole shrimp dipped in a thin, ice-cold batter and deep-fried for a couple of minutes until the coating turns pale gold, lacy and shatteringly crisp. The shrimp inside stays juicy. It is served straight from the oil with tentsuyu, a light dipping sauce of dashi, soy sauce and mirin, often with grated daikon to stir in.",
+   "history": "Battered frying is usually traced to Portuguese influence in 16th-century Nagasaki, and tempura became a popular street food in Edo, today's Tokyo, during the Edo period. Shrimp remains the most iconic tempura topping in Japan and abroad.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "8 large shrimp, peeled, tails on",
+     "100 g tempura flour (or 90 g flour + 1 egg)",
+     "160 ml ice-cold water",
+     "Oil for deep-frying",
+     "For tentsuyu: 120 ml dashi, 30 ml soy sauce, 30 ml mirin",
+     "60 g daikon, finely grated"
+    ],
+    "steps": [
+     "Simmer dashi, soy sauce and mirin for 1 minute to make tentsuyu; keep warm.",
+     "Make a few shallow cuts on the underside of each shrimp so it stays straight, then pat dry.",
+     "Mix the flour (and egg) with ice-cold water in a few strokes — the batter should stay lumpy and thin.",
+     "Heat oil to 175–180 °C, dip shrimp in batter and fry in small batches for 2–3 minutes.",
+     "Drain on a rack and serve immediately with tentsuyu and grated daikon."
+    ]
+   },
+   "tips": [
+    "Fry in small batches so the oil stays hot — tempura cooked at the right temperature absorbs less oil.",
+    "Make it a meal with a big plate of grated daikon and steamed greens rather than extra pieces.",
+    "Dip lightly in tentsuyu instead of soaking; the sauce adds sodium and a little sugar."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Shrimp Tempura",
-      "origin": "Japan · Tokyo (Edo)",
-      "intro": "Shrimp tempura is whole shrimp dipped in a thin, ice-cold batter and deep-fried for a couple of minutes until the coating turns pale gold, lacy and shatteringly crisp. The shrimp inside stays juicy. It is served straight from the oil with tentsuyu, a light dipping sauce of dashi, soy sauce and mirin, often with grated daikon to stir in.",
-      "history": "Battered frying is usually traced to Portuguese influence in 16th-century Nagasaki, and tempura became a popular street food in Edo, today's Tokyo, during the Edo period. Shrimp remains the most iconic tempura topping in Japan and abroad.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "8 large shrimp, peeled, tails on",
-          "100 g tempura flour (or 90 g flour + 1 egg)",
-          "160 ml ice-cold water",
-          "Oil for deep-frying",
-          "For tentsuyu: 120 ml dashi, 30 ml soy sauce, 30 ml mirin",
-          "60 g daikon, finely grated"
-        ],
-        "steps": [
-          "Simmer dashi, soy sauce and mirin for 1 minute to make tentsuyu; keep warm.",
-          "Make a few shallow cuts on the underside of each shrimp so it stays straight, then pat dry.",
-          "Mix the flour (and egg) with ice-cold water in a few strokes — the batter should stay lumpy and thin.",
-          "Heat oil to 175–180 °C, dip shrimp in batter and fry in small batches for 2–3 minutes.",
-          "Drain on a rack and serve immediately with tentsuyu and grated daikon."
-        ]
-      },
-      "tips": [
-        "Fry in small batches so the oil stays hot — tempura cooked at the right temperature absorbs less oil.",
-        "Make it a meal with a big plate of grated daikon and steamed greens rather than extra pieces.",
-        "Dip lightly in tentsuyu instead of soaking; the sauce adds sodium and a little sugar."
-      ]
-    },
-    "ar": {
-      "name": "تمبورا الروبيان",
-      "origin": "اليابان · طوكيو (إيدو)",
-      "intro": "تمبورا الروبيان هي روبيان كامل يُغمس في عجينة رقيقة مثلجة ويُقلى دقيقتين أو ثلاثًا حتى يصبح الغلاف ذهبيًا فاتحًا مخرّمًا وشديد القرمشة، بينما يبقى الروبيان في الداخل طريًا. يُقدّم فور خروجه من الزيت مع صلصة تينتسويو الخفيفة المكونة من الداشي وصلصة الصويا والميرين، وغالبًا مع الفجل الأبيض المبشور.",
-      "history": "يُنسب القلي بالعجين عادةً إلى التأثير البرتغالي في ناغازاكي في القرن السادس عشر، وأصبحت التمبورا طعام شارع شائعًا في إيدو، طوكيو اليوم، خلال حقبة إيدو. ولا يزال الروبيان أشهر أنواع التمبورا في اليابان وخارجها.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "8 حبات روبيان كبيرة مقشرة مع الذيل",
-          "100 غ دقيق تمبورا (أو 90 غ دقيق + بيضة)",
-          "160 مل ماء مثلج",
-          "زيت للقلي العميق",
-          "للتينتسويو: 120 مل داشي، 30 مل صلصة صويا، 30 مل ميرين",
-          "60 غ فجل أبيض مبشور ناعمًا"
-        ],
-        "steps": [
-          "اطهُ الداشي وصلصة الصويا والميرين دقيقة واحدة لتحضير التينتسويو وأبقِها دافئة.",
-          "اصنع شقوقًا خفيفة أسفل كل روبيانة لتبقى مستقيمة، ثم جففها.",
-          "اخلط الدقيق (والبيضة) مع الماء المثلج بحركات قليلة، فيجب أن تبقى العجينة رقيقة وفيها كتل.",
-          "سخّن الزيت إلى 175–180 °م، واغمس الروبيان في العجينة واقله على دفعات صغيرة 2–3 دقائق.",
-          "صفّه على شبك وقدّمه فورًا مع التينتسويو والفجل المبشور."
-        ]
-      },
-      "tips": [
-        "اقلِ على دفعات صغيرة لتبقى حرارة الزيت مرتفعة، فالتمبورا المقلية على الحرارة الصحيحة تمتص زيتًا أقل.",
-        "اجعلها وجبة مع طبق كبير من الفجل المبشور والخضار المطهوة على البخار بدل قطع إضافية.",
-        "اغمس قليلًا في التينتسويو بدل التغطيس، فالصلصة تضيف ملحًا وقليلًا من السكر."
-      ]
-    },
-    "it": {
-      "name": "Gamberi in tempura",
-      "name_inline": "gamberi in tempura",
-      "origin": "Giappone · Tokyo (Edo)",
-      "intro": "I gamberi in tempura sono gamberi interi immersi in una pastella sottile e ghiacciata e fritti in abbondante olio per un paio di minuti, finché la copertura diventa dorata chiara, merlettata e croccantissima. Il gambero all'interno resta succoso. Si servono appena tolti dall'olio con il tentsuyu, una leggera salsa da intingere a base di dashi, salsa di soia e mirin, spesso con daikon grattugiato da mescolarvi.",
-      "history": "La frittura in pastella viene di solito ricondotta all'influenza portoghese a Nagasaki nel XVI secolo, e la tempura divenne un cibo di strada popolare a Edo, l'attuale Tokyo, durante il periodo Edo. Il gambero resta l'ingrediente più iconico della tempura, in Giappone e all'estero.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "8 gamberi grandi sgusciati, con la coda",
-          "100 g di farina per tempura (o 90 g di farina + 1 uovo)",
-          "160 ml di acqua ghiacciata",
-          "Olio per friggere",
-          "Per il tentsuyu: 120 ml di dashi, 30 ml di salsa di soia, 30 ml di mirin",
-          "60 g di daikon grattugiato finemente"
-        ],
-        "steps": [
-          "Fai sobbollire dashi, salsa di soia e mirin per 1 minuto per preparare il tentsuyu; tienilo in caldo.",
-          "Pratica qualche taglio poco profondo sul lato inferiore di ogni gambero perché resti dritto, poi asciugalo.",
-          "Mescola la farina (e l'uovo) con l'acqua ghiacciata in pochi movimenti: la pastella deve restare grumosa e sottile.",
-          "Scalda l'olio a 175–180 °C, immergi i gamberi nella pastella e friggili pochi alla volta per 2–3 minuti.",
-          "Scolali su una griglia e servili subito con tentsuyu e daikon grattugiato."
-        ]
-      },
-      "tips": [
-        "Friggi pochi pezzi alla volta perché l'olio resti caldo: la tempura cotta alla giusta temperatura assorbe meno olio.",
-        "Rendila un pasto con un bel piatto di daikon grattugiato e verdure a foglia al vapore invece che con pezzi in più.",
-        "Intingi appena nel tentsuyu invece di inzuppare; la salsa aggiunge sodio e un po' di zucchero."
-      ]
-    },
-    "el": {
-      "name": "Γαρίδες τεμπούρα",
-      "origin": "Ιαπωνία · Τόκιο (Έντο)",
-      "intro": "Οι γαρίδες τεμπούρα είναι ολόκληρες γαρίδες βουτηγμένες σε αραιό, παγωμένο κουρκούτι και τηγανισμένες σε βαθύ λάδι για δυο λεπτά, μέχρι η επικάλυψη να γίνει ανοιχτόχρυση, δαντελωτή και πολύ τραγανή. Η γαρίδα μέσα μένει ζουμερή. Σερβίρονται κατευθείαν από το λάδι με τεντσούγιου, μια ελαφριά σάλτσα για βουτιά από ντάσι, σάλτσα σόγιας και μιρίν, συχνά με τριμμένο νταϊκόν για ανακάτεμα.",
-      "history": "Το τηγάνισμα με κουρκούτι ανάγεται συνήθως στην πορτογαλική επιρροή στο Ναγκασάκι του 16ου αιώνα, και η τεμπούρα έγινε δημοφιλές φαγητό του δρόμου στο Έντο, το σημερινό Τόκιο, κατά την περίοδο Έντο. Η γαρίδα παραμένει η πιο χαρακτηριστική τεμπούρα στην Ιαπωνία και στο εξωτερικό.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "8 μεγάλες γαρίδες, καθαρισμένες, με την ουρά",
-          "100 γρ. αλεύρι για τεμπούρα (ή 90 γρ. αλεύρι + 1 αυγό)",
-          "160 ml παγωμένο νερό",
-          "Λάδι για τηγάνισμα",
-          "Για το τεντσούγιου: 120 ml ντάσι, 30 ml σάλτσα σόγιας, 30 ml μιρίν",
-          "60 γρ. νταϊκόν, ψιλοτριμμένο"
-        ],
-        "steps": [
-          "Σιγοβράστε το ντάσι, τη σάλτσα σόγιας και το μιρίν για 1 λεπτό για να φτιάξετε το τεντσούγιου· κρατήστε το ζεστό.",
-          "Κάντε μερικές ρηχές εγκοπές στην κάτω πλευρά κάθε γαρίδας για να μένει ίσια και στεγνώστε τες.",
-          "Ανακατέψτε το αλεύρι (και το αυγό) με το παγωμένο νερό με λίγες κινήσεις — το κουρκούτι πρέπει να μείνει αραιό και με σβόλους.",
-          "Ζεστάνετε το λάδι στους 175–180 °C, βουτήξτε τις γαρίδες στο κουρκούτι και τηγανίστε τις λίγες λίγες για 2–3 λεπτά.",
-          "Στραγγίξτε σε σχάρα και σερβίρετε αμέσως με τεντσούγιου και τριμμένο νταϊκόν."
-        ]
-      },
-      "tips": [
-        "Τηγανίστε σε μικρές ποσότητες ώστε το λάδι να μένει καυτό — η τεμπούρα που ψήνεται στη σωστή θερμοκρασία απορροφά λιγότερο λάδι.",
-        "Κάντε τη γεύμα με ένα μεγάλο πιάτο τριμμένο νταϊκόν και χόρτα στον ατμό αντί για επιπλέον κομμάτια.",
-        "Βουτήξτε ελαφρά στο τεντσούγιου αντί να μουσκεύετε· η σάλτσα προσθέτει νάτριο και λίγη ζάχαρη."
-      ]
-    },
-    "ru": {
-      "name": "Креветки темпура",
-      "origin": "Япония · Токио (Эдо)",
-      "intro": "Креветки темпура — целые креветки, обмакнутые в жидкий ледяной кляр и обжаренные во фритюре пару минут, пока покрытие не станет бледно-золотистым, ажурным и оглушительно хрустящим. Креветки внутри остаются сочными. Их подают прямо из масла с тэнцую — лёгким соусом для макания из даси, соевого соуса и мирина, часто с тёртым дайконом, который добавляют в соус.",
-      "history": "Жарку в кляре обычно связывают с португальским влиянием в Нагасаки XVI века, а темпура стала популярной уличной едой в Эдо, нынешнем Токио, в период Эдо. Креветка остаётся самым знаковым видом темпуры в Японии и за её пределами.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "8 крупных креветок, очищенных, с хвостиками",
-          "100 г муки для темпуры (или 90 г муки + 1 яйцо)",
-          "160 мл ледяной воды",
-          "Масло для фритюра",
-          "Для тэнцую: 120 мл даси, 30 мл соевого соуса, 30 мл мирина",
-          "60 г дайкона, мелко натёртого"
-        ],
-        "steps": [
-          "Прокипятите даси, соевый соус и мирин 1 минуту, чтобы получить тэнцую; держите тёплым.",
-          "Сделайте несколько неглубоких надрезов на нижней стороне каждой креветки, чтобы она оставалась ровной, затем обсушите.",
-          "Смешайте муку (и яйцо) с ледяной водой несколькими движениями — кляр должен остаться комковатым и жидким.",
-          "Разогрейте масло до 175–180 °C, обмакивайте креветок в кляр и жарьте небольшими порциями 2–3 минуты.",
-          "Обсушите на решётке и сразу подавайте с тэнцую и тёртым дайконом."
-        ]
-      },
-      "tips": [
-        "Жарьте небольшими порциями, чтобы масло оставалось горячим: темпура, приготовленная при правильной температуре, впитывает меньше масла.",
-        "Сделайте её полноценным приёмом пищи с большой тарелкой тёртого дайкона и овощей на пару, а не с дополнительными кусочками.",
-        "Слегка макайте в тэнцую, а не пропитывайте; соус добавляет натрий и немного сахара."
-      ],
-      "name_inline": "креветки темпура"
-    }
+  "ar": {
+   "name": "تمبورا الروبيان",
+   "origin": "اليابان · طوكيو (إيدو)",
+   "intro": "تمبورا الروبيان هي روبيان كامل يُغمس في عجينة رقيقة مثلجة ويُقلى دقيقتين أو ثلاثًا حتى يصبح الغلاف ذهبيًا فاتحًا مخرّمًا وشديد القرمشة، بينما يبقى الروبيان في الداخل طريًا. يُقدّم فور خروجه من الزيت مع صلصة تينتسويو الخفيفة المكونة من الداشي وصلصة الصويا والميرين، وغالبًا مع الفجل الأبيض المبشور.",
+   "history": "يُنسب القلي بالعجين عادةً إلى التأثير البرتغالي في ناغازاكي في القرن السادس عشر، وأصبحت التمبورا طعام شارع شائعًا في إيدو، طوكيو اليوم، خلال حقبة إيدو. ولا يزال الروبيان أشهر أنواع التمبورا في اليابان وخارجها.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "8 حبات روبيان كبيرة مقشرة مع الذيل",
+     "100 غ دقيق تمبورا (أو 90 غ دقيق + بيضة)",
+     "160 مل ماء مثلج",
+     "زيت للقلي العميق",
+     "للتينتسويو: 120 مل داشي، 30 مل صلصة صويا، 30 مل ميرين",
+     "60 غ فجل أبيض مبشور ناعمًا"
+    ],
+    "steps": [
+     "اطهُ الداشي وصلصة الصويا والميرين دقيقة واحدة لتحضير التينتسويو وأبقِها دافئة.",
+     "اصنع شقوقًا خفيفة أسفل كل روبيانة لتبقى مستقيمة، ثم جففها.",
+     "اخلط الدقيق (والبيضة) مع الماء المثلج بحركات قليلة، فيجب أن تبقى العجينة رقيقة وفيها كتل.",
+     "سخّن الزيت إلى 175–180 °م، واغمس الروبيان في العجينة واقله على دفعات صغيرة 2–3 دقائق.",
+     "صفّه على شبك وقدّمه فورًا مع التينتسويو والفجل المبشور."
+    ]
+   },
+   "tips": [
+    "اقلِ على دفعات صغيرة لتبقى حرارة الزيت مرتفعة، فالتمبورا المقلية على الحرارة الصحيحة تمتص زيتًا أقل.",
+    "اجعلها وجبة مع طبق كبير من الفجل المبشور والخضار المطهوة على البخار بدل قطع إضافية.",
+    "اغمس قليلًا في التينتسويو بدل التغطيس، فالصلصة تضيف ملحًا وقليلًا من السكر."
+   ]
+  },
+  "it": {
+   "name": "Gamberi in tempura",
+   "name_inline": "gamberi in tempura",
+   "origin": "Giappone · Tokyo (Edo)",
+   "intro": "I gamberi in tempura sono gamberi interi immersi in una pastella sottile e ghiacciata e fritti in abbondante olio per un paio di minuti, finché la copertura diventa dorata chiara, merlettata e croccantissima. Il gambero all'interno resta succoso. Si servono appena tolti dall'olio con il tentsuyu, una leggera salsa da intingere a base di dashi, salsa di soia e mirin, spesso con daikon grattugiato da mescolarvi.",
+   "history": "La frittura in pastella viene di solito ricondotta all'influenza portoghese a Nagasaki nel XVI secolo, e la tempura divenne un cibo di strada popolare a Edo, l'attuale Tokyo, durante il periodo Edo. Il gambero resta l'ingrediente più iconico della tempura, in Giappone e all'estero.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "8 gamberi grandi sgusciati, con la coda",
+     "100 g di farina per tempura (o 90 g di farina + 1 uovo)",
+     "160 ml di acqua ghiacciata",
+     "Olio per friggere",
+     "Per il tentsuyu: 120 ml di dashi, 30 ml di salsa di soia, 30 ml di mirin",
+     "60 g di daikon grattugiato finemente"
+    ],
+    "steps": [
+     "Fai sobbollire dashi, salsa di soia e mirin per 1 minuto per preparare il tentsuyu; tienilo in caldo.",
+     "Pratica qualche taglio poco profondo sul lato inferiore di ogni gambero perché resti dritto, poi asciugalo.",
+     "Mescola la farina (e l'uovo) con l'acqua ghiacciata in pochi movimenti: la pastella deve restare grumosa e sottile.",
+     "Scalda l'olio a 175–180 °C, immergi i gamberi nella pastella e friggili pochi alla volta per 2–3 minuti.",
+     "Scolali su una griglia e servili subito con tentsuyu e daikon grattugiato."
+    ]
+   },
+   "tips": [
+    "Friggi pochi pezzi alla volta perché l'olio resti caldo: la tempura cotta alla giusta temperatura assorbe meno olio.",
+    "Rendila un pasto con un bel piatto di daikon grattugiato e verdure a foglia al vapore invece che con pezzi in più.",
+    "Intingi appena nel tentsuyu invece di inzuppare; la salsa aggiunge sodio e un po' di zucchero."
+   ]
+  },
+  "el": {
+   "name": "Γαρίδες τεμπούρα",
+   "origin": "Ιαπωνία · Τόκιο (Έντο)",
+   "intro": "Οι γαρίδες τεμπούρα είναι ολόκληρες γαρίδες βουτηγμένες σε αραιό, παγωμένο κουρκούτι και τηγανισμένες σε βαθύ λάδι για δυο λεπτά, μέχρι η επικάλυψη να γίνει ανοιχτόχρυση, δαντελωτή και πολύ τραγανή. Η γαρίδα μέσα μένει ζουμερή. Σερβίρονται κατευθείαν από το λάδι με τεντσούγιου, μια ελαφριά σάλτσα για βουτιά από ντάσι, σάλτσα σόγιας και μιρίν, συχνά με τριμμένο νταϊκόν για ανακάτεμα.",
+   "history": "Το τηγάνισμα με κουρκούτι ανάγεται συνήθως στην πορτογαλική επιρροή στο Ναγκασάκι του 16ου αιώνα, και η τεμπούρα έγινε δημοφιλές φαγητό του δρόμου στο Έντο, το σημερινό Τόκιο, κατά την περίοδο Έντο. Η γαρίδα παραμένει η πιο χαρακτηριστική τεμπούρα στην Ιαπωνία και στο εξωτερικό.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "8 μεγάλες γαρίδες, καθαρισμένες, με την ουρά",
+     "100 γρ. αλεύρι για τεμπούρα (ή 90 γρ. αλεύρι + 1 αυγό)",
+     "160 ml παγωμένο νερό",
+     "Λάδι για τηγάνισμα",
+     "Για το τεντσούγιου: 120 ml ντάσι, 30 ml σάλτσα σόγιας, 30 ml μιρίν",
+     "60 γρ. νταϊκόν, ψιλοτριμμένο"
+    ],
+    "steps": [
+     "Σιγοβράστε το ντάσι, τη σάλτσα σόγιας και το μιρίν για 1 λεπτό για να φτιάξετε το τεντσούγιου· κρατήστε το ζεστό.",
+     "Κάντε μερικές ρηχές εγκοπές στην κάτω πλευρά κάθε γαρίδας για να μένει ίσια και στεγνώστε τες.",
+     "Ανακατέψτε το αλεύρι (και το αυγό) με το παγωμένο νερό με λίγες κινήσεις — το κουρκούτι πρέπει να μείνει αραιό και με σβόλους.",
+     "Ζεστάνετε το λάδι στους 175–180 °C, βουτήξτε τις γαρίδες στο κουρκούτι και τηγανίστε τις λίγες λίγες για 2–3 λεπτά.",
+     "Στραγγίξτε σε σχάρα και σερβίρετε αμέσως με τεντσούγιου και τριμμένο νταϊκόν."
+    ]
+   },
+   "tips": [
+    "Τηγανίστε σε μικρές ποσότητες ώστε το λάδι να μένει καυτό — η τεμπούρα που ψήνεται στη σωστή θερμοκρασία απορροφά λιγότερο λάδι.",
+    "Κάντε τη γεύμα με ένα μεγάλο πιάτο τριμμένο νταϊκόν και χόρτα στον ατμό αντί για επιπλέον κομμάτια.",
+    "Βουτήξτε ελαφρά στο τεντσούγιου αντί να μουσκεύετε· η σάλτσα προσθέτει νάτριο και λίγη ζάχαρη."
+   ]
+  },
+  "ru": {
+   "name": "Креветки темпура",
+   "origin": "Япония · Токио (Эдо)",
+   "intro": "Креветки темпура — целые креветки, обмакнутые в жидкий ледяной кляр и обжаренные во фритюре пару минут, пока покрытие не станет бледно-золотистым, ажурным и оглушительно хрустящим. Креветки внутри остаются сочными. Их подают прямо из масла с тэнцую — лёгким соусом для макания из даси, соевого соуса и мирина, часто с тёртым дайконом, который добавляют в соус.",
+   "history": "Жарку в кляре обычно связывают с португальским влиянием в Нагасаки XVI века, а темпура стала популярной уличной едой в Эдо, нынешнем Токио, в период Эдо. Креветка остаётся самым знаковым видом темпуры в Японии и за её пределами.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "8 крупных креветок, очищенных, с хвостиками",
+     "100 г муки для темпуры (или 90 г муки + 1 яйцо)",
+     "160 мл ледяной воды",
+     "Масло для фритюра",
+     "Для тэнцую: 120 мл даси, 30 мл соевого соуса, 30 мл мирина",
+     "60 г дайкона, мелко натёртого"
+    ],
+    "steps": [
+     "Прокипятите даси, соевый соус и мирин 1 минуту, чтобы получить тэнцую; держите тёплым.",
+     "Сделайте несколько неглубоких надрезов на нижней стороне каждой креветки, чтобы она оставалась ровной, затем обсушите.",
+     "Смешайте муку (и яйцо) с ледяной водой несколькими движениями — кляр должен остаться комковатым и жидким.",
+     "Разогрейте масло до 175–180 °C, обмакивайте креветок в кляр и жарьте небольшими порциями 2–3 минуты.",
+     "Обсушите на решётке и сразу подавайте с тэнцую и тёртым дайконом."
+    ]
+   },
+   "tips": [
+    "Жарьте небольшими порциями, чтобы масло оставалось горячим: темпура, приготовленная при правильной температуре, впитывает меньше масла.",
+    "Сделайте её полноценным приёмом пищи с большой тарелкой тёртого дайкона и овощей на пару, а не с дополнительными кусочками.",
+    "Слегка макайте в тэнцую, а не пропитывайте; соус добавляет натрий и немного сахара."
+   ],
+   "name_inline": "креветки темпура"
+  },
+  "es": {
+   "name": "Tempura de camarón",
+   "origin": "Japón · Tokio (Edo)",
+   "intro": "La tempura de camarón consiste en camarones enteros sumergidos en una masa fina y helada y fritos en abundante aceite un par de minutos, hasta que el rebozado queda dorado pálido, en forma de encaje y deliciosamente crujiente. El camarón por dentro sigue jugoso. Se sirve recién salida del aceite con tentsuyu, una salsa ligera para mojar de dashi, salsa de soya y mirin, a menudo con daikon rallado para mezclar.",
+   "history": "Se suele atribuir el frito rebozado a la influencia portuguesa en el Nagasaki del siglo XVI, y la tempura se volvió una comida callejera popular en Edo, la actual Tokio, durante el periodo Edo. El camarón sigue siendo el ingrediente más emblemático de la tempura en Japón y en el extranjero.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "8 camarones grandes, pelados, con la cola",
+     "100 g de harina para tempura (o 90 g de harina + 1 huevo)",
+     "160 ml de agua helada",
+     "Aceite para freír",
+     "Para el tentsuyu: 120 ml de dashi, 30 ml de salsa de soya, 30 ml de mirin",
+     "60 g de daikon, finamente rallado"
+    ],
+    "steps": [
+     "Cuece a fuego lento el dashi, la salsa de soya y el mirin durante 1 minuto para hacer el tentsuyu; mantén caliente.",
+     "Haz unos cortes poco profundos en la parte inferior de cada camarón para que se mantenga recto y sécalos con papel.",
+     "Mezcla la harina (y el huevo) con el agua helada en pocos movimientos: la masa debe quedar grumosa y delgada.",
+     "Calienta el aceite a 175–180 °C, pasa los camarones por la masa y fríelos en tandas pequeñas de 2 a 3 minutos.",
+     "Escurre sobre una rejilla y sirve de inmediato con el tentsuyu y el daikon rallado."
+    ]
+   },
+   "tips": [
+    "Fríe en tandas pequeñas para que el aceite se mantenga caliente: la tempura cocida a la temperatura correcta absorbe menos aceite.",
+    "Conviértelo en una comida con un plato grande de daikon rallado y verduras al vapor en lugar de más piezas.",
+    "Moja ligeramente en el tentsuyu en lugar de empaparla; la salsa aporta sodio y un poco de azúcar."
+   ],
+   "name_inline": "la tempura de camarón"
   }
+ }
 }

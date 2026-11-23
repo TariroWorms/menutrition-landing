@@ -1,176 +1,209 @@
 {
-  "db_key": "spaghetti_bolognese",
-  "slug": "spaghetti-bolognese",
-  "emoji": "🍝",
-  "portion_g": 350,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "spaghetti_bolognese",
+ "slug": "spaghetti-bolognese",
+ "emoji": "🍝",
+ "portion_g": 350,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Spaghetti bolognese",
+   "origin": "Italy · Emilia-Romagna (international version)",
+   "intro": "Spaghetti bolognese is spaghetti served with a slow-simmered meat sauce of ground beef, tomato, onion, carrot and celery. Long, gentle cooking turns the sauce thick and rich, with the vegetables melting into the meat. It is one of the best-known pasta dishes in the world, served in homes and restaurants far beyond Italy.",
+   "history": "The sauce is inspired by ragù alla bolognese from Bologna, which in Italy is traditionally served with fresh tagliatelle rather than spaghetti. Spaghetti bolognese as it is known today took shape largely outside Italy, especially in Britain and other countries, during the twentieth century.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 g spaghetti",
+     "400 g ground beef",
+     "1 onion, finely chopped",
+     "1 carrot, finely chopped",
+     "1 celery stalk, finely chopped",
+     "400 g tomato passata and 1 tbsp tomato paste",
+     "2 tbsp olive oil",
+     "Salt, black pepper, a bay leaf"
+    ],
+    "steps": [
+     "Soften the onion, carrot and celery in the oil over medium-low heat for 10 minutes.",
+     "Turn up the heat, add the beef and brown it, breaking it up.",
+     "Stir in the tomato paste, passata, bay leaf and 200 ml water; season.",
+     "Cover partly and simmer gently for 1½–2 hours, adding water if it gets too thick.",
+     "Cook the spaghetti until al dente and serve with the sauce."
+    ]
+   },
+   "tips": [
+    "Use lean ground beef (5% fat) and pour off any fat after browning.",
+    "Bulk the sauce with extra carrot, celery or mushrooms and serve a smaller pasta portion.",
+    "Make a 250 g plate with a side salad instead of a large bowl."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Spaghetti bolognese",
-      "origin": "Italy · Emilia-Romagna (international version)",
-      "intro": "Spaghetti bolognese is spaghetti served with a slow-simmered meat sauce of ground beef, tomato, onion, carrot and celery. Long, gentle cooking turns the sauce thick and rich, with the vegetables melting into the meat. It is one of the best-known pasta dishes in the world, served in homes and restaurants far beyond Italy.",
-      "history": "The sauce is inspired by ragù alla bolognese from Bologna, which in Italy is traditionally served with fresh tagliatelle rather than spaghetti. Spaghetti bolognese as it is known today took shape largely outside Italy, especially in Britain and other countries, during the twentieth century.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 g spaghetti",
-          "400 g ground beef",
-          "1 onion, finely chopped",
-          "1 carrot, finely chopped",
-          "1 celery stalk, finely chopped",
-          "400 g tomato passata and 1 tbsp tomato paste",
-          "2 tbsp olive oil",
-          "Salt, black pepper, a bay leaf"
-        ],
-        "steps": [
-          "Soften the onion, carrot and celery in the oil over medium-low heat for 10 minutes.",
-          "Turn up the heat, add the beef and brown it, breaking it up.",
-          "Stir in the tomato paste, passata, bay leaf and 200 ml water; season.",
-          "Cover partly and simmer gently for 1½–2 hours, adding water if it gets too thick.",
-          "Cook the spaghetti until al dente and serve with the sauce."
-        ]
-      },
-      "tips": [
-        "Use lean ground beef (5% fat) and pour off any fat after browning.",
-        "Bulk the sauce with extra carrot, celery or mushrooms and serve a smaller pasta portion.",
-        "Make a 250 g plate with a side salad instead of a large bowl."
-      ]
-    },
-    "ar": {
-      "name": "سباغيتي بولونيز",
-      "origin": "إيطاليا · إميليا رومانيا (النسخة العالمية)",
-      "intro": "سباغيتي بولونيز سباغيتي تُقدَّم مع صلصة لحم مطهوة ببطء من لحم البقر المفروم والطماطم والبصل والجزر والكرفس. الطهي الطويل الهادئ يجعل الصلصة كثيفة وغنية وتذوب فيها الخضار مع اللحم. وهو من أشهر أطباق المعكرونة في العالم، يُقدَّم في البيوت والمطاعم بعيدًا عن إيطاليا.",
-      "history": "الصلصة مستوحاة من «راغو ألّا بولونيزي» من مدينة بولونيا، التي تُقدَّم في إيطاليا تقليديًا مع التالياتيلي الطازجة لا مع السباغيتي. أما سباغيتي بولونيز بشكلها المعروف اليوم فتشكّلت إلى حد كبير خارج إيطاليا، خاصة في بريطانيا ودول أخرى، خلال القرن العشرين.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 غ سباغيتي",
-          "400 غ لحم بقر مفروم",
-          "بصلة مفرومة ناعمًا",
-          "جزرة مفرومة ناعمًا",
-          "عود كرفس مفروم ناعمًا",
-          "400 غ صلصة طماطم (باسّاتا) وملعقة كبيرة معجون طماطم",
-          "2 ملعقة كبيرة زيت زيتون",
-          "ملح وفلفل أسود وورقة غار"
-        ],
-        "steps": [
-          "ليّن البصل والجزر والكرفس في الزيت على نار متوسطة هادئة 10 دقائق.",
-          "ارفع النار وأضف اللحم وحمّره مع تفتيته.",
-          "أضف معجون الطماطم والباسّاتا وورقة الغار و200 مل ماء، وتبّل.",
-          "غطّها جزئيًا واتركها تغلي بهدوء ساعة ونصف إلى ساعتين، مع إضافة الماء إن ثقلت.",
-          "اسلق السباغيتي حتى تنضج «أل دينتي» وقدّمها مع الصلصة."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن (5٪) وتخلّص من الدهن بعد التحمير.",
-        "زِد كمية الصلصة بمزيد من الجزر والكرفس أو الفطر وقدّم حصة معكرونة أصغر.",
-        "اجعل الطبق 250 غ مع سلطة جانبية بدل وعاء كبير."
-      ]
-    },
-    "it": {
-      "name": "Spaghetti alla bolognese",
-      "origin": "Italia · Emilia-Romagna (versione internazionale)",
-      "intro": "Gli spaghetti alla bolognese sono spaghetti serviti con un sugo di carne cotto a lungo, a base di macinato di manzo, pomodoro, cipolla, carota e sedano. La cottura lunga e dolce rende il sugo denso e ricco, con le verdure che si sciolgono nella carne. È uno dei piatti di pasta più conosciuti al mondo, servito in case e ristoranti ben oltre l'Italia.",
-      "history": "Il sugo si ispira al ragù alla bolognese di Bologna, che in Italia si serve tradizionalmente con tagliatelle fresche e non con gli spaghetti. Gli spaghetti alla bolognese come li conosciamo oggi hanno preso forma soprattutto fuori dall'Italia, in particolare in Gran Bretagna e in altri paesi, nel corso del Novecento.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 g di spaghetti",
-          "400 g di carne di manzo macinata",
-          "1 cipolla tritata finemente",
-          "1 carota tritata finemente",
-          "1 costa di sedano tritata finemente",
-          "400 g di passata di pomodoro e 1 cucchiaio di concentrato di pomodoro",
-          "2 cucchiai di olio d'oliva",
-          "Sale, pepe nero, una foglia di alloro"
-        ],
-        "steps": [
-          "Fai appassire cipolla, carota e sedano nell'olio a fuoco medio-basso per 10 minuti.",
-          "Alza la fiamma, aggiungi il manzo e rosolalo, sgranandolo.",
-          "Unisci il concentrato, la passata, l'alloro e 200 ml di acqua; regola di sale e pepe.",
-          "Copri parzialmente e cuoci a fuoco dolce per 1½–2 ore, aggiungendo acqua se diventa troppo denso.",
-          "Cuoci gli spaghetti al dente e servili con il sugo."
-        ]
-      },
-      "tips": [
-        "Usa macinato di manzo magro (5% di grassi) ed elimina il grasso dopo la rosolatura.",
-        "Arricchisci il sugo con più carota, sedano o funghi e servi una porzione di pasta più piccola.",
-        "Prepara un piatto da 250 g con un'insalata invece di una ciotola grande."
-      ]
-    },
-    "el": {
-      "name": "Σπαγγέτι μπολονέζ",
-      "name_inline": "σπαγγέτι μπολονέζ",
-      "origin": "Ιταλία · Εμίλια-Ρομάνια (διεθνής εκδοχή)",
-      "intro": "Τα σπαγγέτι μπολονέζ είναι σπαγγέτι που σερβίρονται με μια σιγομαγειρεμένη σάλτσα κρέατος από μοσχαρίσιο κιμά, ντομάτα, κρεμμύδι, καρότο και σέλινο. Το μακρύ, απαλό μαγείρεμα κάνει τη σάλτσα πηχτή και πλούσια, με τα λαχανικά να λιώνουν μέσα στο κρέας. Είναι ένα από τα πιο γνωστά πιάτα ζυμαρικών στον κόσμο και σερβίρεται σε σπίτια και εστιατόρια πολύ πέρα από την Ιταλία.",
-      "history": "Η σάλτσα είναι εμπνευσμένη από το ραγού αλλα μπολονέζε της Μπολόνια, που στην Ιταλία σερβίρεται παραδοσιακά με φρέσκες ταλιατέλες και όχι με σπαγγέτι. Τα σπαγγέτι μπολονέζ όπως τα ξέρουμε σήμερα διαμορφώθηκαν κυρίως έξω από την Ιταλία, ιδίως στη Βρετανία και σε άλλες χώρες, κατά τον εικοστό αιώνα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 γρ. σπαγγέτι",
-          "400 γρ. μοσχαρίσιος κιμάς",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1 καρότο, ψιλοκομμένο",
-          "1 κλωνάρι σέλινο, ψιλοκομμένο",
-          "400 γρ. πασάτα ντομάτας και 1 κ.σ. πελτές ντομάτας",
-          "2 κ.σ. ελαιόλαδο",
-          "Αλάτι, μαύρο πιπέρι, ένα φύλλο δάφνης"
-        ],
-        "steps": [
-          "Μαλακώστε το κρεμμύδι, το καρότο και το σέλινο στο λάδι σε μέτρια προς χαμηλή φωτιά για 10 λεπτά.",
-          "Δυναμώστε τη φωτιά, προσθέστε τον κιμά και σοτάρετέ τον, σπάζοντάς τον.",
-          "Ανακατέψτε τον πελτέ, την πασάτα, τη δάφνη και 200 ml νερό· αλατοπιπερώστε.",
-          "Μισοσκεπάστε και σιγοβράστε απαλά για 1½–2 ώρες, προσθέτοντας νερό αν πήξει πολύ.",
-          "Βράστε τα σπαγγέτι al dente και σερβίρετε με τη σάλτσα."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (5% λιπαρά) και αφαιρέστε το λίπος μετά το σοτάρισμα.",
-        "Δώστε όγκο στη σάλτσα με επιπλέον καρότο, σέλινο ή μανιτάρια και σερβίρετε μικρότερη μερίδα ζυμαρικών.",
-        "Φτιάξτε ένα πιάτο 250 γρ. με σαλάτα αντί για ένα μεγάλο μπολ."
-      ]
-    },
-    "ru": {
-      "name": "Спагетти болоньезе",
-      "origin": "Италия · Эмилия-Романья (международная версия)",
-      "intro": "Спагетти болоньезе — это спагетти с долго томлёным мясным соусом из говяжьего фарша, помидоров, лука, моркови и сельдерея. Долгое медленное приготовление делает соус густым и насыщенным, а овощи растворяются в мясе. Это одно из самых известных блюд из пасты в мире, его подают в домах и ресторанах далеко за пределами Италии.",
-      "history": "Соус вдохновлён рагу алла болоньезе из Болоньи, которое в Италии традиционно подают со свежими тальятелле, а не со спагетти. Спагетти болоньезе в том виде, в каком его знают сегодня, сложились в основном за пределами Италии, особенно в Британии и других странах, в XX веке.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "320 г спагетти",
-          "400 г говяжьего фарша",
-          "1 луковица, мелко нарубленная",
-          "1 морковь, мелко нарубленная",
-          "1 стебель сельдерея, мелко нарубленный",
-          "400 г томатной пассаты и 1 ст. л. томатной пасты",
-          "2 ст. л. оливкового масла",
-          "Соль, чёрный перец, лавровый лист"
-        ],
-        "steps": [
-          "Обжаривайте лук, морковь и сельдерей в масле на средне-слабом огне 10 минут до мягкости.",
-          "Увеличьте огонь, добавьте говядину и обжарьте, разминая.",
-          "Вмешайте томатную пасту, пассату, лавровый лист и 200 мл воды; добавьте приправы.",
-          "Накройте крышкой неплотно и аккуратно томите 1½–2 часа, добавляя воду, если соус слишком загустел.",
-          "Сварите спагетти до аль денте и подавайте с соусом."
-        ]
-      },
-      "tips": [
-        "Берите нежирный говяжий фарш (5% жира) и сливайте жир после обжарки.",
-        "Увеличьте объём соуса дополнительной морковью, сельдереем или грибами и подайте меньшую порцию пасты.",
-        "Накладывайте тарелку в 250 г с салатом на гарнир вместо большой миски."
-      ],
-      "name_inline": "спагетти болоньезе"
-    }
+  "ar": {
+   "name": "سباغيتي بولونيز",
+   "origin": "إيطاليا · إميليا رومانيا (النسخة العالمية)",
+   "intro": "سباغيتي بولونيز سباغيتي تُقدَّم مع صلصة لحم مطهوة ببطء من لحم البقر المفروم والطماطم والبصل والجزر والكرفس. الطهي الطويل الهادئ يجعل الصلصة كثيفة وغنية وتذوب فيها الخضار مع اللحم. وهو من أشهر أطباق المعكرونة في العالم، يُقدَّم في البيوت والمطاعم بعيدًا عن إيطاليا.",
+   "history": "الصلصة مستوحاة من «راغو ألّا بولونيزي» من مدينة بولونيا، التي تُقدَّم في إيطاليا تقليديًا مع التالياتيلي الطازجة لا مع السباغيتي. أما سباغيتي بولونيز بشكلها المعروف اليوم فتشكّلت إلى حد كبير خارج إيطاليا، خاصة في بريطانيا ودول أخرى، خلال القرن العشرين.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 غ سباغيتي",
+     "400 غ لحم بقر مفروم",
+     "بصلة مفرومة ناعمًا",
+     "جزرة مفرومة ناعمًا",
+     "عود كرفس مفروم ناعمًا",
+     "400 غ صلصة طماطم (باسّاتا) وملعقة كبيرة معجون طماطم",
+     "2 ملعقة كبيرة زيت زيتون",
+     "ملح وفلفل أسود وورقة غار"
+    ],
+    "steps": [
+     "ليّن البصل والجزر والكرفس في الزيت على نار متوسطة هادئة 10 دقائق.",
+     "ارفع النار وأضف اللحم وحمّره مع تفتيته.",
+     "أضف معجون الطماطم والباسّاتا وورقة الغار و200 مل ماء، وتبّل.",
+     "غطّها جزئيًا واتركها تغلي بهدوء ساعة ونصف إلى ساعتين، مع إضافة الماء إن ثقلت.",
+     "اسلق السباغيتي حتى تنضج «أل دينتي» وقدّمها مع الصلصة."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن (5٪) وتخلّص من الدهن بعد التحمير.",
+    "زِد كمية الصلصة بمزيد من الجزر والكرفس أو الفطر وقدّم حصة معكرونة أصغر.",
+    "اجعل الطبق 250 غ مع سلطة جانبية بدل وعاء كبير."
+   ]
+  },
+  "it": {
+   "name": "Spaghetti alla bolognese",
+   "origin": "Italia · Emilia-Romagna (versione internazionale)",
+   "intro": "Gli spaghetti alla bolognese sono spaghetti serviti con un sugo di carne cotto a lungo, a base di macinato di manzo, pomodoro, cipolla, carota e sedano. La cottura lunga e dolce rende il sugo denso e ricco, con le verdure che si sciolgono nella carne. È uno dei piatti di pasta più conosciuti al mondo, servito in case e ristoranti ben oltre l'Italia.",
+   "history": "Il sugo si ispira al ragù alla bolognese di Bologna, che in Italia si serve tradizionalmente con tagliatelle fresche e non con gli spaghetti. Gli spaghetti alla bolognese come li conosciamo oggi hanno preso forma soprattutto fuori dall'Italia, in particolare in Gran Bretagna e in altri paesi, nel corso del Novecento.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 g di spaghetti",
+     "400 g di carne di manzo macinata",
+     "1 cipolla tritata finemente",
+     "1 carota tritata finemente",
+     "1 costa di sedano tritata finemente",
+     "400 g di passata di pomodoro e 1 cucchiaio di concentrato di pomodoro",
+     "2 cucchiai di olio d'oliva",
+     "Sale, pepe nero, una foglia di alloro"
+    ],
+    "steps": [
+     "Fai appassire cipolla, carota e sedano nell'olio a fuoco medio-basso per 10 minuti.",
+     "Alza la fiamma, aggiungi il manzo e rosolalo, sgranandolo.",
+     "Unisci il concentrato, la passata, l'alloro e 200 ml di acqua; regola di sale e pepe.",
+     "Copri parzialmente e cuoci a fuoco dolce per 1½–2 ore, aggiungendo acqua se diventa troppo denso.",
+     "Cuoci gli spaghetti al dente e servili con il sugo."
+    ]
+   },
+   "tips": [
+    "Usa macinato di manzo magro (5% di grassi) ed elimina il grasso dopo la rosolatura.",
+    "Arricchisci il sugo con più carota, sedano o funghi e servi una porzione di pasta più piccola.",
+    "Prepara un piatto da 250 g con un'insalata invece di una ciotola grande."
+   ]
+  },
+  "el": {
+   "name": "Σπαγγέτι μπολονέζ",
+   "name_inline": "σπαγγέτι μπολονέζ",
+   "origin": "Ιταλία · Εμίλια-Ρομάνια (διεθνής εκδοχή)",
+   "intro": "Τα σπαγγέτι μπολονέζ είναι σπαγγέτι που σερβίρονται με μια σιγομαγειρεμένη σάλτσα κρέατος από μοσχαρίσιο κιμά, ντομάτα, κρεμμύδι, καρότο και σέλινο. Το μακρύ, απαλό μαγείρεμα κάνει τη σάλτσα πηχτή και πλούσια, με τα λαχανικά να λιώνουν μέσα στο κρέας. Είναι ένα από τα πιο γνωστά πιάτα ζυμαρικών στον κόσμο και σερβίρεται σε σπίτια και εστιατόρια πολύ πέρα από την Ιταλία.",
+   "history": "Η σάλτσα είναι εμπνευσμένη από το ραγού αλλα μπολονέζε της Μπολόνια, που στην Ιταλία σερβίρεται παραδοσιακά με φρέσκες ταλιατέλες και όχι με σπαγγέτι. Τα σπαγγέτι μπολονέζ όπως τα ξέρουμε σήμερα διαμορφώθηκαν κυρίως έξω από την Ιταλία, ιδίως στη Βρετανία και σε άλλες χώρες, κατά τον εικοστό αιώνα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 γρ. σπαγγέτι",
+     "400 γρ. μοσχαρίσιος κιμάς",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1 καρότο, ψιλοκομμένο",
+     "1 κλωνάρι σέλινο, ψιλοκομμένο",
+     "400 γρ. πασάτα ντομάτας και 1 κ.σ. πελτές ντομάτας",
+     "2 κ.σ. ελαιόλαδο",
+     "Αλάτι, μαύρο πιπέρι, ένα φύλλο δάφνης"
+    ],
+    "steps": [
+     "Μαλακώστε το κρεμμύδι, το καρότο και το σέλινο στο λάδι σε μέτρια προς χαμηλή φωτιά για 10 λεπτά.",
+     "Δυναμώστε τη φωτιά, προσθέστε τον κιμά και σοτάρετέ τον, σπάζοντάς τον.",
+     "Ανακατέψτε τον πελτέ, την πασάτα, τη δάφνη και 200 ml νερό· αλατοπιπερώστε.",
+     "Μισοσκεπάστε και σιγοβράστε απαλά για 1½–2 ώρες, προσθέτοντας νερό αν πήξει πολύ.",
+     "Βράστε τα σπαγγέτι al dente και σερβίρετε με τη σάλτσα."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (5% λιπαρά) και αφαιρέστε το λίπος μετά το σοτάρισμα.",
+    "Δώστε όγκο στη σάλτσα με επιπλέον καρότο, σέλινο ή μανιτάρια και σερβίρετε μικρότερη μερίδα ζυμαρικών.",
+    "Φτιάξτε ένα πιάτο 250 γρ. με σαλάτα αντί για ένα μεγάλο μπολ."
+   ]
+  },
+  "ru": {
+   "name": "Спагетти болоньезе",
+   "origin": "Италия · Эмилия-Романья (международная версия)",
+   "intro": "Спагетти болоньезе — это спагетти с долго томлёным мясным соусом из говяжьего фарша, помидоров, лука, моркови и сельдерея. Долгое медленное приготовление делает соус густым и насыщенным, а овощи растворяются в мясе. Это одно из самых известных блюд из пасты в мире, его подают в домах и ресторанах далеко за пределами Италии.",
+   "history": "Соус вдохновлён рагу алла болоньезе из Болоньи, которое в Италии традиционно подают со свежими тальятелле, а не со спагетти. Спагетти болоньезе в том виде, в каком его знают сегодня, сложились в основном за пределами Италии, особенно в Британии и других странах, в XX веке.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 г спагетти",
+     "400 г говяжьего фарша",
+     "1 луковица, мелко нарубленная",
+     "1 морковь, мелко нарубленная",
+     "1 стебель сельдерея, мелко нарубленный",
+     "400 г томатной пассаты и 1 ст. л. томатной пасты",
+     "2 ст. л. оливкового масла",
+     "Соль, чёрный перец, лавровый лист"
+    ],
+    "steps": [
+     "Обжаривайте лук, морковь и сельдерей в масле на средне-слабом огне 10 минут до мягкости.",
+     "Увеличьте огонь, добавьте говядину и обжарьте, разминая.",
+     "Вмешайте томатную пасту, пассату, лавровый лист и 200 мл воды; добавьте приправы.",
+     "Накройте крышкой неплотно и аккуратно томите 1½–2 часа, добавляя воду, если соус слишком загустел.",
+     "Сварите спагетти до аль денте и подавайте с соусом."
+    ]
+   },
+   "tips": [
+    "Берите нежирный говяжий фарш (5% жира) и сливайте жир после обжарки.",
+    "Увеличьте объём соуса дополнительной морковью, сельдереем или грибами и подайте меньшую порцию пасты.",
+    "Накладывайте тарелку в 250 г с салатом на гарнир вместо большой миски."
+   ],
+   "name_inline": "спагетти болоньезе"
+  },
+  "es": {
+   "name": "Espaguetis a la boloñesa",
+   "origin": "Italia · Emilia-Romagna (versión internacional)",
+   "intro": "Los espaguetis a la boloñesa son espaguetis servidos con una salsa de carne cocida a fuego lento, hecha con carne molida de res, jitomate, cebolla, zanahoria y apio. La cocción larga y suave vuelve la salsa espesa y rica, con las verduras fundidas en la carne. Es uno de los platos de pasta más conocidos del mundo, que se sirve en casas y restaurantes mucho más allá de Italia.",
+   "history": "La salsa se inspira en el ragú alla bolognese de Bolonia, que en Italia se sirve tradicionalmente con tagliatelle frescas y no con espaguetis. Los espaguetis a la boloñesa tal como se conocen hoy se formaron en gran parte fuera de Italia, sobre todo en Gran Bretaña y otros países, durante el siglo XX.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "320 g de espaguetis",
+     "400 g de carne molida de res",
+     "1 cebolla, finamente picada",
+     "1 zanahoria, finamente picada",
+     "1 tallo de apio, finamente picado",
+     "400 g de puré de tomate (passata) y 1 cda. de pasta de tomate",
+     "2 cdas. de aceite de oliva",
+     "Sal, pimienta negra, una hoja de laurel"
+    ],
+    "steps": [
+     "Acitrona la cebolla, la zanahoria y el apio en el aceite a fuego medio-bajo durante 10 minutos.",
+     "Sube el fuego, añade la carne y dórala, deshaciéndola con la cuchara.",
+     "Incorpora la pasta de tomate, el puré de tomate, el laurel y 200 ml de agua; sazona.",
+     "Tapa parcialmente y cocina a fuego lento de 1.5 a 2 horas, añadiendo agua si se espesa demasiado.",
+     "Cuece los espaguetis al dente y sírvelos con la salsa."
+    ]
+   },
+   "tips": [
+    "Usa carne molida magra (5 % de grasa) y retira la grasa después de dorarla.",
+    "Aumenta el volumen de la salsa con más zanahoria, apio u hongos y sirve una porción de pasta más pequeña.",
+    "Prepara un plato de 250 g con una ensalada de guarnición en lugar de un tazón grande."
+   ],
+   "name_inline": "los espaguetis a la boloñesa"
   }
+ }
 }

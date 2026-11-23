@@ -1,162 +1,192 @@
 {
-  "db_key": "gelato_vaniglia",
-  "slug": "gelato-vaniglia",
-  "emoji": "🍦",
-  "portion_g": 100,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "gelato_vaniglia",
+ "slug": "gelato-vaniglia",
+ "emoji": "🍦",
+ "portion_g": 100,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Vanilla gelato",
+   "origin": "Italy",
+   "intro": "Gelato alla vaniglia is Italian vanilla ice cream made from a custard of milk, cream, sugar and egg yolks infused with vanilla bean. Slowly churned, it is smooth, dense and creamy with a clean, fragrant flavour. It is served on its own in cups or cones, or alongside fruit and other desserts.",
+   "history": "Gelato developed in Italy, where Sicily and Florence both claim an early role in frozen desserts, though the exact origins are uncertain. Today gelaterie are found across Italy and around the world.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml whole milk",
+     "150 ml cream",
+     "130 g sugar",
+     "4 egg yolks",
+     "1 vanilla pod, split, or 2 tsp vanilla extract"
+    ],
+    "steps": [
+     "Heat the milk and cream until steaming with the vanilla seeds and pod; leave to infuse for 15 minutes.",
+     "Whisk the yolks with the sugar until pale.",
+     "Pour the hot milk onto the yolks while whisking, return to the pan and cook gently, stirring, to 82 °C until it coats a spoon.",
+     "Strain the custard into a clean bowl and discard the pod.",
+     "Chill the custard for at least 4 hours, then churn in an ice-cream maker and freeze for 1–2 hours before serving."
+    ]
+   },
+   "tips": [
+    "One scoop is about 50–60 g — two small scoops make a full portion.",
+    "Make it with more milk and less cream for a lighter result.",
+    "Top with fresh berries instead of sauces or syrups."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Vanilla gelato",
-      "origin": "Italy",
-      "intro": "Gelato alla vaniglia is Italian vanilla ice cream made from a custard of milk, cream, sugar and egg yolks infused with vanilla bean. Slowly churned, it is smooth, dense and creamy with a clean, fragrant flavour. It is served on its own in cups or cones, or alongside fruit and other desserts.",
-      "history": "Gelato developed in Italy, where Sicily and Florence both claim an early role in frozen desserts, though the exact origins are uncertain. Today gelaterie are found across Italy and around the world.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 ml whole milk",
-          "150 ml cream",
-          "130 g sugar",
-          "4 egg yolks",
-          "1 vanilla pod, split, or 2 tsp vanilla extract"
-        ],
-        "steps": [
-          "Heat the milk and cream until steaming with the vanilla seeds and pod; leave to infuse for 15 minutes.",
-          "Whisk the yolks with the sugar until pale.",
-          "Pour the hot milk onto the yolks while whisking, return to the pan and cook gently, stirring, to 82 °C until it coats a spoon.",
-          "Strain the custard into a clean bowl and discard the pod.",
-          "Chill the custard for at least 4 hours, then churn in an ice-cream maker and freeze for 1–2 hours before serving."
-        ]
-      },
-      "tips": [
-        "One scoop is about 50–60 g — two small scoops make a full portion.",
-        "Make it with more milk and less cream for a lighter result.",
-        "Top with fresh berries instead of sauces or syrups."
-      ]
-    },
-    "ar": {
-      "name": "جيلاتو بالفانيليا",
-      "origin": "إيطاليا",
-      "intro": "جيلاتو الفانيليا آيس كريم إيطالي من كاسترد الحليب والكريمة والسكر وصفار البيض منقوع بعود الفانيليا. يُخفق ببطء فيكون ناعمًا كثيفًا كريميًا بنكهة نقية عطرة. يُقدَّم وحده في أكواب أو أقماع، أو مع الفواكه وحلويات أخرى.",
-      "history": "تطوّر الجيلاتو في إيطاليا، حيث تنسب كل من صقلية وفلورنسا لنفسها دورًا مبكرًا في الحلويات المجمدة، وإن كانت أصوله الدقيقة غير مؤكدة. وتنتشر محلات الجيلاتو اليوم في أنحاء إيطاليا وحول العالم.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 مل حليب كامل الدسم",
-          "150 مل كريمة",
-          "130 غ سكر",
-          "4 صفار بيض",
-          "1 عود فانيليا مشقوق أو 2 ملعقة صغيرة خلاصة فانيليا"
-        ],
-        "steps": [
-          "سخّن الحليب والكريمة حتى يتصاعد البخار مع بذور الفانيليا والعود، واتركه ينقع 15 دقيقة.",
-          "اخفق الصفار مع السكر حتى يفتح لونه.",
-          "اسكب الحليب الساخن على الصفار مع الخفق، ثم أعده إلى القدر واطهه على نار هادئة مع التحريك حتى 82 °م وحتى يغلف الملعقة.",
-          "صفِّ الكاسترد في وعاء نظيف وتخلص من العود.",
-          "برّد الكاسترد 4 ساعات على الأقل، ثم اخفقه في آلة الآيس كريم وجمّده ساعة أو ساعتين قبل التقديم."
-        ]
-      },
-      "tips": [
-        "الكرة الواحدة نحو 50–60 غ، وكرتان صغيرتان تكفيان حصة كاملة.",
-        "استخدم حليبًا أكثر وكريمة أقل لنتيجة أخف.",
-        "زيّنه بالتوت الطازج بدل الصلصات أو الشراب."
-      ]
-    },
-    "it": {
-      "name": "Gelato alla vaniglia",
-      "name_inline": "gelato alla vaniglia",
-      "origin": "Italia",
-      "intro": "Il gelato alla vaniglia è un gelato italiano preparato con una crema di latte, panna, zucchero e tuorli aromatizzata con la bacca di vaniglia. Mantecato lentamente, è liscio, denso e cremoso, con un sapore pulito e profumato. Si serve da solo in coppette o coni, oppure accanto a frutta e altri dolci.",
-      "history": "Il gelato si è sviluppato in Italia, dove sia la Sicilia sia Firenze rivendicano un ruolo precoce nei dolci ghiacciati, anche se le origini precise sono incerte. Oggi le gelaterie si trovano in tutta Italia e in tutto il mondo.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 ml di latte intero",
-          "150 ml di panna",
-          "130 g di zucchero",
-          "4 tuorli",
-          "1 bacca di vaniglia incisa, o 2 cucchiaini di estratto di vaniglia"
-        ],
-        "steps": [
-          "Scalda il latte e la panna con i semi e la bacca di vaniglia finché non fumano; lascia in infusione per 15 minuti.",
-          "Sbatti i tuorli con lo zucchero finché non diventano chiari.",
-          "Versa il latte caldo sui tuorli sbattendo, rimetti nel pentolino e cuoci dolcemente, mescolando, fino a 82 °C, finché la crema non vela il cucchiaio.",
-          "Filtra la crema in una ciotola pulita ed elimina la bacca.",
-          "Fai raffreddare la crema per almeno 4 ore, poi mantecala nella gelatiera e mettila in congelatore per 1–2 ore prima di servire."
-        ]
-      },
-      "tips": [
-        "Una pallina pesa circa 50–60 g: due palline piccole sono una porzione completa.",
-        "Preparalo con più latte e meno panna per un risultato più leggero.",
-        "Completa con frutti di bosco freschi invece che con salse o sciroppi."
-      ]
-    },
-    "el": {
-      "name": "Τζελάτο βανίλια",
-      "name_inline": "τζελάτο βανίλια",
-      "origin": "Ιταλία",
-      "intro": "Το gelato alla vaniglia είναι ιταλικό παγωτό βανίλια από κρέμα με γάλα, κρέμα γάλακτος, ζάχαρη και κρόκους, αρωματισμένη με λοβό βανίλιας. Ανακατεμένο αργά, είναι λείο, πυκνό και κρεμώδες, με καθαρή, αρωματική γεύση. Σερβίρεται σκέτο σε κυπελάκια ή χωνάκια ή μαζί με φρούτα και άλλα επιδόρπια.",
-      "history": "Το τζελάτο αναπτύχθηκε στην Ιταλία, όπου τόσο η Σικελία όσο και η Φλωρεντία διεκδικούν πρώιμο ρόλο στα παγωμένα επιδόρπια, αν και η ακριβής προέλευση είναι αβέβαιη. Σήμερα τζελατερίες υπάρχουν σε όλη την Ιταλία και σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 ml πλήρες γάλα",
-          "150 ml κρέμα γάλακτος",
-          "130 γρ. ζάχαρη",
-          "4 κρόκοι αυγών",
-          "1 λοβός βανίλιας σχισμένος ή 2 κ.γ. εκχύλισμα βανίλιας"
-        ],
-        "steps": [
-          "Ζεστάνετε το γάλα και την κρέμα με τους σπόρους και τον λοβό της βανίλιας μέχρι να αχνίσουν· αφήστε τα να αρωματιστούν για 15 λεπτά.",
-          "Χτυπήστε τους κρόκους με τη ζάχαρη μέχρι να ασπρίσουν.",
-          "Ρίξτε το ζεστό γάλα στους κρόκους χτυπώντας, επιστρέψτε το μείγμα στην κατσαρόλα και μαγειρέψτε απαλά, ανακατεύοντας, στους 82 °C μέχρι να πασπαλίζει το κουτάλι.",
-          "Σουρώστε την κρέμα σε καθαρό μπολ και πετάξτε τον λοβό.",
-          "Ψύξτε την κρέμα για τουλάχιστον 4 ώρες, έπειτα βάλτε τη στην παγωτομηχανή και στην κατάψυξη για 1–2 ώρες πριν σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Μια μπάλα είναι περίπου 50–60 γρ. — δύο μικρές μπάλες κάνουν πλήρη μερίδα.",
-        "Φτιάξτε το με περισσότερο γάλα και λιγότερη κρέμα για πιο ελαφρύ αποτέλεσμα.",
-        "Βάλτε από πάνω φρέσκα μούρα αντί για σάλτσες ή σιρόπια."
-      ]
-    },
-    "ru": {
-      "name": "Ванильное джелато",
-      "origin": "Италия",
-      "intro": "Джелато алла ваниглия — итальянское ванильное мороженое из заварного крема из молока, сливок, сахара и яичных желтков, настоянного на стручке ванили. Медленно взбитое, оно гладкое, плотное и кремовое, с чистым ароматным вкусом. Его подают само по себе в стаканчиках или рожках или рядом с фруктами и другими десертами.",
-      "history": "Джелато развилось в Италии, где и Сицилия, и Флоренция заявляют о ранней роли в замороженных десертах, хотя точное происхождение неизвестно. Сегодня джелатерии есть по всей Италии и во всём мире.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 мл цельного молока",
-          "150 мл сливок",
-          "130 г сахара",
-          "4 яичных желтка",
-          "1 стручок ванили, разрезанный, или 2 ч. л. ванильного экстракта"
-        ],
-        "steps": [
-          "Нагрейте молоко и сливки с семенами и стручком ванили до появления пара; оставьте настаиваться 15 минут.",
-          "Взбейте желтки с сахаром до светлой массы.",
-          "Влейте горячее молоко в желтки, взбивая, верните в кастрюлю и аккуратно готовьте, помешивая, до 82 °C, пока масса не начнёт покрывать ложку.",
-          "Процедите крем в чистую миску и выбросьте стручок.",
-          "Охладите крем не менее 4 часов, затем взбейте в мороженице и заморозьте на 1–2 часа перед подачей."
-        ]
-      },
-      "tips": [
-        "Один шарик — около 50–60 г: два маленьких шарика составляют полную порцию.",
-        "Готовьте с большим количеством молока и меньшим количеством сливок для более лёгкого результата.",
-        "Украшайте свежими ягодами вместо соусов или сиропов."
-      ],
-      "name_inline": "ванильное джелато"
-    }
+  "ar": {
+   "name": "جيلاتو بالفانيليا",
+   "origin": "إيطاليا",
+   "intro": "جيلاتو الفانيليا آيس كريم إيطالي من كاسترد الحليب والكريمة والسكر وصفار البيض منقوع بعود الفانيليا. يُخفق ببطء فيكون ناعمًا كثيفًا كريميًا بنكهة نقية عطرة. يُقدَّم وحده في أكواب أو أقماع، أو مع الفواكه وحلويات أخرى.",
+   "history": "تطوّر الجيلاتو في إيطاليا، حيث تنسب كل من صقلية وفلورنسا لنفسها دورًا مبكرًا في الحلويات المجمدة، وإن كانت أصوله الدقيقة غير مؤكدة. وتنتشر محلات الجيلاتو اليوم في أنحاء إيطاليا وحول العالم.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 مل حليب كامل الدسم",
+     "150 مل كريمة",
+     "130 غ سكر",
+     "4 صفار بيض",
+     "1 عود فانيليا مشقوق أو 2 ملعقة صغيرة خلاصة فانيليا"
+    ],
+    "steps": [
+     "سخّن الحليب والكريمة حتى يتصاعد البخار مع بذور الفانيليا والعود، واتركه ينقع 15 دقيقة.",
+     "اخفق الصفار مع السكر حتى يفتح لونه.",
+     "اسكب الحليب الساخن على الصفار مع الخفق، ثم أعده إلى القدر واطهه على نار هادئة مع التحريك حتى 82 °م وحتى يغلف الملعقة.",
+     "صفِّ الكاسترد في وعاء نظيف وتخلص من العود.",
+     "برّد الكاسترد 4 ساعات على الأقل، ثم اخفقه في آلة الآيس كريم وجمّده ساعة أو ساعتين قبل التقديم."
+    ]
+   },
+   "tips": [
+    "الكرة الواحدة نحو 50–60 غ، وكرتان صغيرتان تكفيان حصة كاملة.",
+    "استخدم حليبًا أكثر وكريمة أقل لنتيجة أخف.",
+    "زيّنه بالتوت الطازج بدل الصلصات أو الشراب."
+   ]
+  },
+  "it": {
+   "name": "Gelato alla vaniglia",
+   "name_inline": "gelato alla vaniglia",
+   "origin": "Italia",
+   "intro": "Il gelato alla vaniglia è un gelato italiano preparato con una crema di latte, panna, zucchero e tuorli aromatizzata con la bacca di vaniglia. Mantecato lentamente, è liscio, denso e cremoso, con un sapore pulito e profumato. Si serve da solo in coppette o coni, oppure accanto a frutta e altri dolci.",
+   "history": "Il gelato si è sviluppato in Italia, dove sia la Sicilia sia Firenze rivendicano un ruolo precoce nei dolci ghiacciati, anche se le origini precise sono incerte. Oggi le gelaterie si trovano in tutta Italia e in tutto il mondo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml di latte intero",
+     "150 ml di panna",
+     "130 g di zucchero",
+     "4 tuorli",
+     "1 bacca di vaniglia incisa, o 2 cucchiaini di estratto di vaniglia"
+    ],
+    "steps": [
+     "Scalda il latte e la panna con i semi e la bacca di vaniglia finché non fumano; lascia in infusione per 15 minuti.",
+     "Sbatti i tuorli con lo zucchero finché non diventano chiari.",
+     "Versa il latte caldo sui tuorli sbattendo, rimetti nel pentolino e cuoci dolcemente, mescolando, fino a 82 °C, finché la crema non vela il cucchiaio.",
+     "Filtra la crema in una ciotola pulita ed elimina la bacca.",
+     "Fai raffreddare la crema per almeno 4 ore, poi mantecala nella gelatiera e mettila in congelatore per 1–2 ore prima di servire."
+    ]
+   },
+   "tips": [
+    "Una pallina pesa circa 50–60 g: due palline piccole sono una porzione completa.",
+    "Preparalo con più latte e meno panna per un risultato più leggero.",
+    "Completa con frutti di bosco freschi invece che con salse o sciroppi."
+   ]
+  },
+  "el": {
+   "name": "Τζελάτο βανίλια",
+   "name_inline": "τζελάτο βανίλια",
+   "origin": "Ιταλία",
+   "intro": "Το gelato alla vaniglia είναι ιταλικό παγωτό βανίλια από κρέμα με γάλα, κρέμα γάλακτος, ζάχαρη και κρόκους, αρωματισμένη με λοβό βανίλιας. Ανακατεμένο αργά, είναι λείο, πυκνό και κρεμώδες, με καθαρή, αρωματική γεύση. Σερβίρεται σκέτο σε κυπελάκια ή χωνάκια ή μαζί με φρούτα και άλλα επιδόρπια.",
+   "history": "Το τζελάτο αναπτύχθηκε στην Ιταλία, όπου τόσο η Σικελία όσο και η Φλωρεντία διεκδικούν πρώιμο ρόλο στα παγωμένα επιδόρπια, αν και η ακριβής προέλευση είναι αβέβαιη. Σήμερα τζελατερίες υπάρχουν σε όλη την Ιταλία και σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml πλήρες γάλα",
+     "150 ml κρέμα γάλακτος",
+     "130 γρ. ζάχαρη",
+     "4 κρόκοι αυγών",
+     "1 λοβός βανίλιας σχισμένος ή 2 κ.γ. εκχύλισμα βανίλιας"
+    ],
+    "steps": [
+     "Ζεστάνετε το γάλα και την κρέμα με τους σπόρους και τον λοβό της βανίλιας μέχρι να αχνίσουν· αφήστε τα να αρωματιστούν για 15 λεπτά.",
+     "Χτυπήστε τους κρόκους με τη ζάχαρη μέχρι να ασπρίσουν.",
+     "Ρίξτε το ζεστό γάλα στους κρόκους χτυπώντας, επιστρέψτε το μείγμα στην κατσαρόλα και μαγειρέψτε απαλά, ανακατεύοντας, στους 82 °C μέχρι να πασπαλίζει το κουτάλι.",
+     "Σουρώστε την κρέμα σε καθαρό μπολ και πετάξτε τον λοβό.",
+     "Ψύξτε την κρέμα για τουλάχιστον 4 ώρες, έπειτα βάλτε τη στην παγωτομηχανή και στην κατάψυξη για 1–2 ώρες πριν σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Μια μπάλα είναι περίπου 50–60 γρ. — δύο μικρές μπάλες κάνουν πλήρη μερίδα.",
+    "Φτιάξτε το με περισσότερο γάλα και λιγότερη κρέμα για πιο ελαφρύ αποτέλεσμα.",
+    "Βάλτε από πάνω φρέσκα μούρα αντί για σάλτσες ή σιρόπια."
+   ]
+  },
+  "ru": {
+   "name": "Ванильное джелато",
+   "origin": "Италия",
+   "intro": "Джелато алла ваниглия — итальянское ванильное мороженое из заварного крема из молока, сливок, сахара и яичных желтков, настоянного на стручке ванили. Медленно взбитое, оно гладкое, плотное и кремовое, с чистым ароматным вкусом. Его подают само по себе в стаканчиках или рожках или рядом с фруктами и другими десертами.",
+   "history": "Джелато развилось в Италии, где и Сицилия, и Флоренция заявляют о ранней роли в замороженных десертах, хотя точное происхождение неизвестно. Сегодня джелатерии есть по всей Италии и во всём мире.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 мл цельного молока",
+     "150 мл сливок",
+     "130 г сахара",
+     "4 яичных желтка",
+     "1 стручок ванили, разрезанный, или 2 ч. л. ванильного экстракта"
+    ],
+    "steps": [
+     "Нагрейте молоко и сливки с семенами и стручком ванили до появления пара; оставьте настаиваться 15 минут.",
+     "Взбейте желтки с сахаром до светлой массы.",
+     "Влейте горячее молоко в желтки, взбивая, верните в кастрюлю и аккуратно готовьте, помешивая, до 82 °C, пока масса не начнёт покрывать ложку.",
+     "Процедите крем в чистую миску и выбросьте стручок.",
+     "Охладите крем не менее 4 часов, затем взбейте в мороженице и заморозьте на 1–2 часа перед подачей."
+    ]
+   },
+   "tips": [
+    "Один шарик — около 50–60 г: два маленьких шарика составляют полную порцию.",
+    "Готовьте с большим количеством молока и меньшим количеством сливок для более лёгкого результата.",
+    "Украшайте свежими ягодами вместо соусов или сиропов."
+   ],
+   "name_inline": "ванильное джелато"
+  },
+  "es": {
+   "name": "Gelato de vainilla",
+   "origin": "Italia",
+   "intro": "El gelato alla vaniglia es el helado italiano de vainilla hecho con una crema de leche, nata, azúcar y yemas de huevo aromatizada con vaina de vainilla. Batido lentamente, resulta suave, denso y cremoso, con un sabor limpio y fragante. Se sirve solo, en vasito o en cono, o acompañando fruta y otros postres.",
+   "history": "El gelato se desarrolló en Italia, donde Sicilia y Florencia se atribuyen un papel temprano en los postres helados, aunque su origen exacto es incierto. Hoy hay heladerías (gelaterie) por toda Italia y en todo el mundo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml de leche entera",
+     "150 ml de crema para batir",
+     "130 g de azúcar",
+     "4 yemas de huevo",
+     "1 vaina de vainilla, abierta, o 2 cdtas. de extracto de vainilla"
+    ],
+    "steps": [
+     "Calienta la leche y la crema con las semillas y la vaina de vainilla hasta que echen vapor; deja reposar 15 minutos para que se aromaticen.",
+     "Bate las yemas con el azúcar hasta que estén pálidas.",
+     "Vierte la leche caliente sobre las yemas sin dejar de batir, regresa a la olla y cocina a fuego suave, moviendo, hasta 82 °C o hasta que cubra una cuchara.",
+     "Cuela la crema en un bol limpio y desecha la vaina.",
+     "Refrigera la crema al menos 4 horas, luego bátela en una máquina de helados y congela de 1 a 2 horas antes de servir."
+    ]
+   },
+   "tips": [
+    "Una bola pesa unos 50–60 g: dos bolas pequeñas hacen una porción completa.",
+    "Hazlo con más leche y menos crema para un resultado más ligero.",
+    "Cúbrelo con frutos rojos frescos en lugar de salsas o jarabes."
+   ],
+   "name_inline": "el gelato de vainilla"
   }
+ }
 }

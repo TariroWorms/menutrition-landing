@@ -1,166 +1,197 @@
 {
-  "db_key": "spaghetti_carbonara",
-  "slug": "spaghetti-carbonara",
-  "emoji": "🍝",
-  "portion_g": 300,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "spaghetti_carbonara",
+ "slug": "spaghetti-carbonara",
+ "emoji": "🍝",
+ "portion_g": 300,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Spaghetti carbonara",
+   "origin": "Italy · Lazio",
+   "intro": "Carbonara is a Roman pasta of spaghetti tossed with crisp guanciale, egg yolks, grated pecorino romano and lots of black pepper. The heat of the pasta gently thickens the yolks and cheese into a silky, creamy sauce — no cream is used. It is rich, salty and peppery, with crunchy bits of cured pork.",
+   "history": "Carbonara is one of the four classic Roman pastas, but its origins are debated. It first appears in print around the mid-twentieth century, and a popular theory links it to the eggs and bacon rations of Allied troops in Rome after 1944. The name is often tied to carbonari, charcoal makers, though this is not proven.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "320 g spaghetti",
+     "150 g guanciale, cut into strips",
+     "4 egg yolks",
+     "60 g pecorino romano, finely grated",
+     "Freshly ground black pepper",
+     "Salt"
+    ],
+    "steps": [
+     "Fry the guanciale in a dry pan until crisp and the fat renders; turn off the heat.",
+     "Whisk the yolks with the pecorino and plenty of pepper.",
+     "Cook the spaghetti until al dente; keep a cup of the cooking water.",
+     "Add the pasta to the guanciale pan off the heat, then pour in the egg mixture with a splash of cooking water and toss quickly until creamy, not scrambled.",
+     "Serve at once with more pepper."
+    ]
+   },
+   "tips": [
+    "Carbonara is one of the richest pastas; a 200 g plate with a green salad instead of 300 g saves about 280 kcal.",
+    "Pour off part of the rendered guanciale fat before adding the pasta.",
+    "Use less guanciale and more pepper — the flavour stays bold."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Spaghetti carbonara",
-      "origin": "Italy · Lazio",
-      "intro": "Carbonara is a Roman pasta of spaghetti tossed with crisp guanciale, egg yolks, grated pecorino romano and lots of black pepper. The heat of the pasta gently thickens the yolks and cheese into a silky, creamy sauce — no cream is used. It is rich, salty and peppery, with crunchy bits of cured pork.",
-      "history": "Carbonara is one of the four classic Roman pastas, but its origins are debated. It first appears in print around the mid-twentieth century, and a popular theory links it to the eggs and bacon rations of Allied troops in Rome after 1944. The name is often tied to carbonari, charcoal makers, though this is not proven.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "320 g spaghetti",
-          "150 g guanciale, cut into strips",
-          "4 egg yolks",
-          "60 g pecorino romano, finely grated",
-          "Freshly ground black pepper",
-          "Salt"
-        ],
-        "steps": [
-          "Fry the guanciale in a dry pan until crisp and the fat renders; turn off the heat.",
-          "Whisk the yolks with the pecorino and plenty of pepper.",
-          "Cook the spaghetti until al dente; keep a cup of the cooking water.",
-          "Add the pasta to the guanciale pan off the heat, then pour in the egg mixture with a splash of cooking water and toss quickly until creamy, not scrambled.",
-          "Serve at once with more pepper."
-        ]
-      },
-      "tips": [
-        "Carbonara is one of the richest pastas; a 200 g plate with a green salad instead of 300 g saves about 280 kcal.",
-        "Pour off part of the rendered guanciale fat before adding the pasta.",
-        "Use less guanciale and more pepper — the flavour stays bold."
-      ]
-    },
-    "ar": {
-      "name": "سباغيتي كاربونارا",
-      "origin": "إيطاليا · لاتسيو",
-      "intro": "الكاربونارا طبق معكرونة روماني: سباغيتي تُقلَّب مع جوانشالي مقرمش وصفار البيض وجبن بيكورينو رومانو المبشور وكثير من الفلفل الأسود. حرارة المعكرونة تُكثّف صفار البيض والجبن بلطف لتصبح صلصة حريرية كريمية دون أي كريمة. طعمها غني ومالح وفلفلي مع قطع مقرمشة من لحم الخنزير المعالَج.",
-      "history": "الكاربونارا واحدة من أطباق المعكرونة الرومانية الأربعة الكلاسيكية، لكن أصلها محل جدل. تظهر لأول مرة في المطبوعات نحو منتصف القرن العشرين، وتربطها نظرية شائعة بحصص البيض ولحم الخنزير المقدد لدى جنود الحلفاء في روما بعد 1944. ويُربط الاسم غالبًا بصانعي الفحم «كاربوناري»، لكن ذلك غير مثبت.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "320 غ سباغيتي",
-          "150 غ جوانشالي مقطع شرائح",
-          "4 صفار بيض",
-          "60 غ بيكورينو رومانو مبشور ناعمًا",
-          "فلفل أسود مطحون طازجًا",
-          "ملح"
-        ],
-        "steps": [
-          "اقلِ الجوانشالي في مقلاة جافة حتى يتقرمش ويذوب دهنه، ثم أطفئ النار.",
-          "اخفق صفار البيض مع البيكورينو وكثير من الفلفل.",
-          "اسلق السباغيتي حتى تنضج «أل دينتي»، واحتفظ بكوب من ماء السلق.",
-          "أضف المعكرونة إلى مقلاة الجوانشالي بعيدًا عن النار، ثم اسكب خليط البيض مع قليل من ماء السلق وقلّب بسرعة حتى يصبح كريميًا دون أن يتخثر.",
-          "قدّمها فورًا مع مزيد من الفلفل."
-        ]
-      },
-      "tips": [
-        "الكاربونارا من أغنى أطباق المعكرونة؛ طبق 200 غ مع سلطة خضراء بدل 300 غ يوفّر نحو 280 سعرة.",
-        "تخلّص من جزء من دهن الجوانشالي الذائب قبل إضافة المعكرونة.",
-        "قلّل الجوانشالي وزِد الفلفل، فتبقى النكهة قوية."
-      ]
-    },
-    "it": {
-      "name": "Spaghetti alla carbonara",
-      "origin": "Italia · Lazio",
-      "intro": "La carbonara è una pasta romana di spaghetti conditi con guanciale croccante, tuorli d'uovo, pecorino romano grattugiato e molto pepe nero. Il calore della pasta addensa delicatamente tuorli e formaggio in una salsa setosa e cremosa, senza panna. È ricca, sapida e pepata, con pezzetti croccanti di carne di maiale stagionata.",
-      "history": "La carbonara è una delle quattro paste romane classiche, ma le sue origini sono dibattute. Compare per la prima volta in stampa verso la metà del Novecento, e una teoria popolare la collega alle razioni di uova e bacon delle truppe alleate a Roma dopo il 1944. Il nome viene spesso legato ai carbonari, i produttori di carbone, ma questo non è dimostrato.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "320 g di spaghetti",
-          "150 g di guanciale, a listarelle",
-          "4 tuorli",
-          "60 g di pecorino romano grattugiato finemente",
-          "Pepe nero macinato al momento",
-          "Sale"
-        ],
-        "steps": [
-          "Rosola il guanciale in una padella senza grassi finché è croccante e il grasso si è sciolto; spegni il fuoco.",
-          "Sbatti i tuorli con il pecorino e abbondante pepe.",
-          "Cuoci gli spaghetti al dente; tieni da parte una tazza di acqua di cottura.",
-          "Aggiungi la pasta nella padella del guanciale a fuoco spento, poi versa il composto di uova con un goccio di acqua di cottura e mescola velocemente finché diventa cremoso, non strapazzato.",
-          "Servi subito con altro pepe."
-        ]
-      },
-      "tips": [
-        "La carbonara è una delle paste più ricche; un piatto da 200 g con un'insalata verde invece di 300 g fa risparmiare circa 280 kcal.",
-        "Elimina parte del grasso sciolto del guanciale prima di aggiungere la pasta.",
-        "Usa meno guanciale e più pepe: il sapore resta deciso."
-      ]
-    },
-    "el": {
-      "name": "Σπαγγέτι καρμπονάρα",
-      "name_inline": "σπαγγέτι καρμπονάρα",
-      "origin": "Ιταλία · Λάτσιο",
-      "intro": "Η καρμπονάρα είναι ένα ρωμαϊκό ζυμαρικό με σπαγγέτι ανακατεμένα με τραγανό γκουαντσάλε, κρόκους αυγών, τριμμένο πεκορίνο ρομάνο και άφθονο μαύρο πιπέρι. Η θερμότητα των ζυμαρικών πήζει απαλά τους κρόκους και το τυρί σε μια μεταξένια, κρεμώδη σάλτσα, χωρίς κρέμα γάλακτος. Είναι πλούσια, αλμυρή και πιπεράτη, με τραγανά κομματάκια αλίπαστου χοιρινού.",
-      "history": "Η καρμπονάρα είναι ένα από τα τέσσερα κλασικά ρωμαϊκά ζυμαρικά, αλλά η προέλευσή της αμφισβητείται. Εμφανίζεται για πρώτη φορά σε έντυπα γύρω στα μέσα του εικοστού αιώνα, και μια δημοφιλής θεωρία τη συνδέει με τις μερίδες αυγών και μπέικον των συμμαχικών στρατευμάτων στη Ρώμη μετά το 1944. Το όνομα συνδέεται συχνά με τους carbonari, τους καρβουνιάρηδες, αν και αυτό δεν έχει αποδειχθεί.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "320 γρ. σπαγγέτι",
-          "150 γρ. γκουαντσάλε, σε λωρίδες",
-          "4 κρόκοι αυγών",
-          "60 γρ. πεκορίνο ρομάνο, ψιλοτριμμένο",
-          "Φρεσκοτριμμένο μαύρο πιπέρι",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Τσιγαρίστε το γκουαντσάλε σε στεγνό τηγάνι μέχρι να γίνει τραγανό και να λιώσει το λίπος· σβήστε τη φωτιά.",
-          "Χτυπήστε τους κρόκους με το πεκορίνο και άφθονο πιπέρι.",
-          "Βράστε τα σπαγγέτι al dente· κρατήστε ένα φλιτζάνι από το νερό του βρασμού.",
-          "Ρίξτε τα ζυμαρικά στο τηγάνι με το γκουαντσάλε εκτός φωτιάς, προσθέστε το μείγμα αυγών με λίγο νερό βρασμού και ανακατέψτε γρήγορα μέχρι να γίνει κρεμώδες, όχι σαν ομελέτα.",
-          "Σερβίρετε αμέσως με επιπλέον πιπέρι."
-        ]
-      },
-      "tips": [
-        "Η καρμπονάρα είναι από τα πιο πλούσια ζυμαρικά· ένα πιάτο 200 γρ. με πράσινη σαλάτα αντί για 300 γρ. γλιτώνει περίπου 280 kcal.",
-        "Αφαιρέστε μέρος του λιωμένου λίπους του γκουαντσάλε πριν προσθέσετε τα ζυμαρικά.",
-        "Χρησιμοποιήστε λιγότερο γκουαντσάλε και περισσότερο πιπέρι: η γεύση μένει έντονη."
-      ]
-    },
-    "ru": {
-      "name": "Спагетти карбонара",
-      "origin": "Италия · Лацио",
-      "intro": "Карбонара — римская паста: спагетти, перемешанные с хрустящим гуанчале, яичными желтками, тёртым пекорино романо и большим количеством чёрного перца. Жар пасты мягко сгущает желтки и сыр в шелковистый сливочный соус — сливок не используют. Блюдо насыщенное, солёное и перечное, с хрустящими кусочками вяленой свинины.",
-      "history": "Карбонара — одна из четырёх классических римских паст, но её происхождение спорно. В печати она впервые появляется примерно в середине XX века, а популярная теория связывает её с пайком из яиц и бекона у войск союзников в Риме после 1944 года. Название часто связывают с карбонари, угольщиками, но это не доказано.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "320 г спагетти",
-          "150 г гуанчале, нарезанного полосками",
-          "4 яичных желтка",
-          "60 г пекорино романо, мелко натёртого",
-          "Свежемолотый чёрный перец",
-          "Соль"
-        ],
-        "steps": [
-          "Обжарьте гуанчале на сухой сковороде до хруста, пока не вытопится жир; выключите огонь.",
-          "Взбейте желтки с пекорино и большим количеством перца.",
-          "Сварите спагетти до аль денте; оставьте стакан воды от варки.",
-          "Добавьте пасту на сковороду с гуанчале вне огня, затем влейте яичную смесь с небольшим количеством воды от варки и быстро перемешайте до сливочной консистенции, чтобы яйцо не свернулось.",
-          "Подавайте сразу с дополнительным перцем."
-        ]
-      },
-      "tips": [
-        "Карбонара — одна из самых жирных паст; тарелка в 200 г с зелёным салатом вместо 300 г экономит около 280 ккал.",
-        "Слейте часть вытопленного жира гуанчале, прежде чем добавлять пасту.",
-        "Берите меньше гуанчале и больше перца: вкус останется ярким."
-      ],
-      "name_inline": "спагетти карбонара"
-    }
+  "ar": {
+   "name": "سباغيتي كاربونارا",
+   "origin": "إيطاليا · لاتسيو",
+   "intro": "الكاربونارا طبق معكرونة روماني: سباغيتي تُقلَّب مع جوانشالي مقرمش وصفار البيض وجبن بيكورينو رومانو المبشور وكثير من الفلفل الأسود. حرارة المعكرونة تُكثّف صفار البيض والجبن بلطف لتصبح صلصة حريرية كريمية دون أي كريمة. طعمها غني ومالح وفلفلي مع قطع مقرمشة من لحم الخنزير المعالَج.",
+   "history": "الكاربونارا واحدة من أطباق المعكرونة الرومانية الأربعة الكلاسيكية، لكن أصلها محل جدل. تظهر لأول مرة في المطبوعات نحو منتصف القرن العشرين، وتربطها نظرية شائعة بحصص البيض ولحم الخنزير المقدد لدى جنود الحلفاء في روما بعد 1944. ويُربط الاسم غالبًا بصانعي الفحم «كاربوناري»، لكن ذلك غير مثبت.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "320 غ سباغيتي",
+     "150 غ جوانشالي مقطع شرائح",
+     "4 صفار بيض",
+     "60 غ بيكورينو رومانو مبشور ناعمًا",
+     "فلفل أسود مطحون طازجًا",
+     "ملح"
+    ],
+    "steps": [
+     "اقلِ الجوانشالي في مقلاة جافة حتى يتقرمش ويذوب دهنه، ثم أطفئ النار.",
+     "اخفق صفار البيض مع البيكورينو وكثير من الفلفل.",
+     "اسلق السباغيتي حتى تنضج «أل دينتي»، واحتفظ بكوب من ماء السلق.",
+     "أضف المعكرونة إلى مقلاة الجوانشالي بعيدًا عن النار، ثم اسكب خليط البيض مع قليل من ماء السلق وقلّب بسرعة حتى يصبح كريميًا دون أن يتخثر.",
+     "قدّمها فورًا مع مزيد من الفلفل."
+    ]
+   },
+   "tips": [
+    "الكاربونارا من أغنى أطباق المعكرونة؛ طبق 200 غ مع سلطة خضراء بدل 300 غ يوفّر نحو 280 سعرة.",
+    "تخلّص من جزء من دهن الجوانشالي الذائب قبل إضافة المعكرونة.",
+    "قلّل الجوانشالي وزِد الفلفل، فتبقى النكهة قوية."
+   ]
+  },
+  "it": {
+   "name": "Spaghetti alla carbonara",
+   "origin": "Italia · Lazio",
+   "intro": "La carbonara è una pasta romana di spaghetti conditi con guanciale croccante, tuorli d'uovo, pecorino romano grattugiato e molto pepe nero. Il calore della pasta addensa delicatamente tuorli e formaggio in una salsa setosa e cremosa, senza panna. È ricca, sapida e pepata, con pezzetti croccanti di carne di maiale stagionata.",
+   "history": "La carbonara è una delle quattro paste romane classiche, ma le sue origini sono dibattute. Compare per la prima volta in stampa verso la metà del Novecento, e una teoria popolare la collega alle razioni di uova e bacon delle truppe alleate a Roma dopo il 1944. Il nome viene spesso legato ai carbonari, i produttori di carbone, ma questo non è dimostrato.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "320 g di spaghetti",
+     "150 g di guanciale, a listarelle",
+     "4 tuorli",
+     "60 g di pecorino romano grattugiato finemente",
+     "Pepe nero macinato al momento",
+     "Sale"
+    ],
+    "steps": [
+     "Rosola il guanciale in una padella senza grassi finché è croccante e il grasso si è sciolto; spegni il fuoco.",
+     "Sbatti i tuorli con il pecorino e abbondante pepe.",
+     "Cuoci gli spaghetti al dente; tieni da parte una tazza di acqua di cottura.",
+     "Aggiungi la pasta nella padella del guanciale a fuoco spento, poi versa il composto di uova con un goccio di acqua di cottura e mescola velocemente finché diventa cremoso, non strapazzato.",
+     "Servi subito con altro pepe."
+    ]
+   },
+   "tips": [
+    "La carbonara è una delle paste più ricche; un piatto da 200 g con un'insalata verde invece di 300 g fa risparmiare circa 280 kcal.",
+    "Elimina parte del grasso sciolto del guanciale prima di aggiungere la pasta.",
+    "Usa meno guanciale e più pepe: il sapore resta deciso."
+   ]
+  },
+  "el": {
+   "name": "Σπαγγέτι καρμπονάρα",
+   "name_inline": "σπαγγέτι καρμπονάρα",
+   "origin": "Ιταλία · Λάτσιο",
+   "intro": "Η καρμπονάρα είναι ένα ρωμαϊκό ζυμαρικό με σπαγγέτι ανακατεμένα με τραγανό γκουαντσάλε, κρόκους αυγών, τριμμένο πεκορίνο ρομάνο και άφθονο μαύρο πιπέρι. Η θερμότητα των ζυμαρικών πήζει απαλά τους κρόκους και το τυρί σε μια μεταξένια, κρεμώδη σάλτσα, χωρίς κρέμα γάλακτος. Είναι πλούσια, αλμυρή και πιπεράτη, με τραγανά κομματάκια αλίπαστου χοιρινού.",
+   "history": "Η καρμπονάρα είναι ένα από τα τέσσερα κλασικά ρωμαϊκά ζυμαρικά, αλλά η προέλευσή της αμφισβητείται. Εμφανίζεται για πρώτη φορά σε έντυπα γύρω στα μέσα του εικοστού αιώνα, και μια δημοφιλής θεωρία τη συνδέει με τις μερίδες αυγών και μπέικον των συμμαχικών στρατευμάτων στη Ρώμη μετά το 1944. Το όνομα συνδέεται συχνά με τους carbonari, τους καρβουνιάρηδες, αν και αυτό δεν έχει αποδειχθεί.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "320 γρ. σπαγγέτι",
+     "150 γρ. γκουαντσάλε, σε λωρίδες",
+     "4 κρόκοι αυγών",
+     "60 γρ. πεκορίνο ρομάνο, ψιλοτριμμένο",
+     "Φρεσκοτριμμένο μαύρο πιπέρι",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Τσιγαρίστε το γκουαντσάλε σε στεγνό τηγάνι μέχρι να γίνει τραγανό και να λιώσει το λίπος· σβήστε τη φωτιά.",
+     "Χτυπήστε τους κρόκους με το πεκορίνο και άφθονο πιπέρι.",
+     "Βράστε τα σπαγγέτι al dente· κρατήστε ένα φλιτζάνι από το νερό του βρασμού.",
+     "Ρίξτε τα ζυμαρικά στο τηγάνι με το γκουαντσάλε εκτός φωτιάς, προσθέστε το μείγμα αυγών με λίγο νερό βρασμού και ανακατέψτε γρήγορα μέχρι να γίνει κρεμώδες, όχι σαν ομελέτα.",
+     "Σερβίρετε αμέσως με επιπλέον πιπέρι."
+    ]
+   },
+   "tips": [
+    "Η καρμπονάρα είναι από τα πιο πλούσια ζυμαρικά· ένα πιάτο 200 γρ. με πράσινη σαλάτα αντί για 300 γρ. γλιτώνει περίπου 280 kcal.",
+    "Αφαιρέστε μέρος του λιωμένου λίπους του γκουαντσάλε πριν προσθέσετε τα ζυμαρικά.",
+    "Χρησιμοποιήστε λιγότερο γκουαντσάλε και περισσότερο πιπέρι: η γεύση μένει έντονη."
+   ]
+  },
+  "ru": {
+   "name": "Спагетти карбонара",
+   "origin": "Италия · Лацио",
+   "intro": "Карбонара — римская паста: спагетти, перемешанные с хрустящим гуанчале, яичными желтками, тёртым пекорино романо и большим количеством чёрного перца. Жар пасты мягко сгущает желтки и сыр в шелковистый сливочный соус — сливок не используют. Блюдо насыщенное, солёное и перечное, с хрустящими кусочками вяленой свинины.",
+   "history": "Карбонара — одна из четырёх классических римских паст, но её происхождение спорно. В печати она впервые появляется примерно в середине XX века, а популярная теория связывает её с пайком из яиц и бекона у войск союзников в Риме после 1944 года. Название часто связывают с карбонари, угольщиками, но это не доказано.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "320 г спагетти",
+     "150 г гуанчале, нарезанного полосками",
+     "4 яичных желтка",
+     "60 г пекорино романо, мелко натёртого",
+     "Свежемолотый чёрный перец",
+     "Соль"
+    ],
+    "steps": [
+     "Обжарьте гуанчале на сухой сковороде до хруста, пока не вытопится жир; выключите огонь.",
+     "Взбейте желтки с пекорино и большим количеством перца.",
+     "Сварите спагетти до аль денте; оставьте стакан воды от варки.",
+     "Добавьте пасту на сковороду с гуанчале вне огня, затем влейте яичную смесь с небольшим количеством воды от варки и быстро перемешайте до сливочной консистенции, чтобы яйцо не свернулось.",
+     "Подавайте сразу с дополнительным перцем."
+    ]
+   },
+   "tips": [
+    "Карбонара — одна из самых жирных паст; тарелка в 200 г с зелёным салатом вместо 300 г экономит около 280 ккал.",
+    "Слейте часть вытопленного жира гуанчале, прежде чем добавлять пасту.",
+    "Берите меньше гуанчале и больше перца: вкус останется ярким."
+   ],
+   "name_inline": "спагетти карбонара"
+  },
+  "es": {
+   "name": "Espaguetis a la carbonara",
+   "origin": "Italia · Lacio",
+   "intro": "La carbonara es una pasta romana de espaguetis mezclados con guanciale crujiente, yemas de huevo, pecorino romano rallado y mucha pimienta negra. El calor de la pasta espesa suavemente las yemas y el queso hasta formar una salsa sedosa y cremosa, sin nada de crema. Es rica, salada y con un toque picante de pimienta, con trocitos crujientes de cerdo curado.",
+   "history": "La carbonara es una de las cuatro pastas clásicas romanas, pero su origen se discute. Aparece impresa por primera vez a mediados del siglo XX, y una teoría popular la vincula con las raciones de huevos y tocino de las tropas aliadas en Roma después de 1944. El nombre suele asociarse con los carbonari, los carboneros, aunque no está demostrado.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "320 g de espaguetis",
+     "150 g de guanciale, en tiras",
+     "4 yemas de huevo",
+     "60 g de pecorino romano, rallado fino",
+     "Pimienta negra recién molida",
+     "Sal"
+    ],
+    "steps": [
+     "Fríe el guanciale en una sartén seca hasta que esté crujiente y suelte su grasa; apaga el fuego.",
+     "Bate las yemas con el pecorino y abundante pimienta.",
+     "Cuece los espaguetis al dente; reserva una taza del agua de cocción.",
+     "Agrega la pasta a la sartén del guanciale fuera del fuego, vierte la mezcla de huevo con un chorrito del agua de cocción y mezcla rápido hasta que quede cremoso, sin que se cuaje el huevo.",
+     "Sirve de inmediato con más pimienta."
+    ]
+   },
+   "tips": [
+    "La carbonara es una de las pastas más ricas; un plato de 200 g con una ensalada verde en lugar de uno de 300 g ahorra unas 280 kcal.",
+    "Retira parte de la grasa que soltó el guanciale antes de añadir la pasta.",
+    "Usa menos guanciale y más pimienta: el sabor sigue siendo intenso."
+   ],
+   "name_inline": "los espaguetis a la carbonara"
   }
+ }
 }

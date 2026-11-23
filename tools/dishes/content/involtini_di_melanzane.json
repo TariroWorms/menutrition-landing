@@ -1,182 +1,216 @@
 {
-  "db_key": "involtini_di_melanzane",
-  "slug": "involtini-di-melanzane",
-  "emoji": "🍆",
-  "portion_g": 250,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "involtini_di_melanzane",
+ "slug": "involtini-di-melanzane",
+ "emoji": "🍆",
+ "portion_g": 250,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Eggplant Involtini (Involtini di Melanzane)",
+   "origin": "Italy · Southern Italy",
+   "intro": "Involtini di melanzane are thin slices of grilled or roasted eggplant rolled around a creamy filling of ricotta, grated parmesan and fresh basil, then baked in tomato sauce. The eggplant turns silky, the filling soft and savoury, and the sauce bubbles around the rolls. They are served hot or warm as a vegetarian main or a side.",
+   "history": "Eggplant rolls belong to the cooking of southern Italy, where eggplant is a summer staple. Today they are a popular home and trattoria dish across Italy.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "2 large eggplants, sliced lengthwise 5 mm thick",
+     "250 g ricotta",
+     "40 g parmesan, grated",
+     "500 g tomato passata",
+     "1 garlic clove",
+     "1 small bunch basil",
+     "2 tbsp olive oil",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Brush the eggplant slices lightly with oil, season and grill or roast at 200 °C until soft and golden.",
+     "Simmer the passata with garlic, a little salt and a few basil leaves for 10 minutes.",
+     "Mix ricotta with most of the parmesan, chopped basil and pepper.",
+     "Place a spoonful of filling at one end of each slice and roll up.",
+     "Spread some sauce in a baking dish, arrange the rolls seam-side down, cover with remaining sauce and parmesan.",
+     "Bake at 190 °C for 20–25 minutes."
+    ]
+   },
+   "tips": [
+    "Grill or roast the eggplant instead of frying it; fried eggplant soaks up a lot of oil.",
+    "Brush the oil on rather than pouring it: 1 tbsp oil ≈ 120 kcal.",
+    "Use less parmesan on top and more basil and tomato for flavour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Eggplant Involtini (Involtini di Melanzane)",
-      "origin": "Italy · Southern Italy",
-      "intro": "Involtini di melanzane are thin slices of grilled or roasted eggplant rolled around a creamy filling of ricotta, grated parmesan and fresh basil, then baked in tomato sauce. The eggplant turns silky, the filling soft and savoury, and the sauce bubbles around the rolls. They are served hot or warm as a vegetarian main or a side.",
-      "history": "Eggplant rolls belong to the cooking of southern Italy, where eggplant is a summer staple. Today they are a popular home and trattoria dish across Italy.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "2 large eggplants, sliced lengthwise 5 mm thick",
-          "250 g ricotta",
-          "40 g parmesan, grated",
-          "500 g tomato passata",
-          "1 garlic clove",
-          "1 small bunch basil",
-          "2 tbsp olive oil",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Brush the eggplant slices lightly with oil, season and grill or roast at 200 °C until soft and golden.",
-          "Simmer the passata with garlic, a little salt and a few basil leaves for 10 minutes.",
-          "Mix ricotta with most of the parmesan, chopped basil and pepper.",
-          "Place a spoonful of filling at one end of each slice and roll up.",
-          "Spread some sauce in a baking dish, arrange the rolls seam-side down, cover with remaining sauce and parmesan.",
-          "Bake at 190 °C for 20–25 minutes."
-        ]
-      },
-      "tips": [
-        "Grill or roast the eggplant instead of frying it; fried eggplant soaks up a lot of oil.",
-        "Brush the oil on rather than pouring it: 1 tbsp oil ≈ 120 kcal.",
-        "Use less parmesan on top and more basil and tomato for flavour."
-      ]
-    },
-    "ar": {
-      "name": "لفائف الباذنجان (إنفولتيني دي ميلانزاني)",
-      "origin": "إيطاليا · جنوب إيطاليا",
-      "intro": "إنفولتيني دي ميلانزاني شرائح رقيقة من الباذنجان المشوي أو المحمص تُلف حول حشوة كريمية من الريكوتا والبارميزان المبشور والريحان الطازج، ثم تُخبز في صلصة الطماطم. يصبح الباذنجان حريرياً والحشوة طرية ومالحة، وتغلي الصلصة حول اللفائف. تُقدم ساخنة أو دافئة كطبق نباتي رئيسي أو جانبي.",
-      "history": "تنتمي لفائف الباذنجان إلى مطبخ جنوب إيطاليا حيث الباذنجان من أساسيات الصيف، وهي اليوم طبق منزلي ومطعمي شائع في أنحاء إيطاليا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "حبتا باذنجان كبيرتان، شرائح طولية بسمك 5 مم",
-          "250 غ ريكوتا",
-          "40 غ بارميزان مبشور",
-          "500 غ صلصة طماطم مصفاة (باساتا)",
-          "فص ثوم",
-          "حزمة صغيرة ريحان",
-          "ملعقتان كبيرتان زيت زيتون",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "ادهن شرائح الباذنجان بقليل من الزيت، وتبلها واشوها أو حمصها في فرن 200 °م حتى تطرى وتذهّب.",
-          "اطهُ الباساتا مع الثوم وقليل من الملح وبضع أوراق ريحان 10 دقائق.",
-          "اخلط الريكوتا مع معظم البارميزان والريحان المفروم والفلفل.",
-          "ضع ملعقة من الحشوة على طرف كل شريحة ولفّها.",
-          "افرد بعض الصلصة في صينية، ورتب اللفائف وطرفها للأسفل، وغطها ببقية الصلصة والبارميزان.",
-          "اخبزها في فرن 190 °م لمدة 20–25 دقيقة."
-        ]
-      },
-      "tips": [
-        "اشوِ الباذنجان أو حمصه بدلاً من قليه، فالباذنجان المقلي يمتص الكثير من الزيت.",
-        "ادهن الزيت بالفرشاة بدلاً من سكبه: ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "قلل البارميزان على الوجه واعتمد أكثر على الريحان والطماطم للنكهة."
-      ]
-    },
-    "it": {
-      "name": "Involtini di melanzane",
-      "name_inline": "involtini di melanzane",
-      "origin": "Italia · Sud Italia",
-      "intro": "Gli involtini di melanzane sono fette sottili di melanzana grigliata o arrostita arrotolate attorno a un ripieno cremoso di ricotta, parmigiano grattugiato e basilico fresco, poi cotte in forno nella salsa di pomodoro. La melanzana diventa setosa, il ripieno morbido e saporito, e la salsa sobbolle attorno agli involtini. Si servono caldi o tiepidi come piatto principale vegetariano o come contorno.",
-      "history": "Gli involtini di melanzane appartengono alla cucina del Sud Italia, dove la melanzana è un alimento base dell'estate. Oggi sono un piatto popolare di casa e di trattoria in tutta Italia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "2 melanzane grandi, tagliate per il lungo a fette di 5 mm",
-          "250 g di ricotta",
-          "40 g di parmigiano grattugiato",
-          "500 g di passata di pomodoro",
-          "1 spicchio d'aglio",
-          "1 mazzetto di basilico",
-          "2 cucchiai di olio d'oliva",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Spennella leggermente le fette di melanzana con l'olio, condiscile e grigliale o arrostiscile a 200 °C finché sono morbide e dorate.",
-          "Cuoci la passata con l'aglio, un po' di sale e qualche foglia di basilico per 10 minuti.",
-          "Mescola la ricotta con la maggior parte del parmigiano, il basilico tritato e il pepe.",
-          "Metti una cucchiaiata di ripieno a un'estremità di ogni fetta e arrotola.",
-          "Stendi un po' di salsa in una pirofila, disponi gli involtini con la chiusura verso il basso, copri con la salsa rimasta e il parmigiano.",
-          "Cuoci in forno a 190 °C per 20–25 minuti."
-        ]
-      },
-      "tips": [
-        "Griglia o arrostisci la melanzana invece di friggerla; la melanzana fritta assorbe molto olio.",
-        "Spennella l'olio invece di versarlo: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Usa meno parmigiano sopra e più basilico e pomodoro per il sapore."
-      ]
-    },
-    "el": {
-      "name": "Ρολάκια μελιτζάνας (involtini di melanzane)",
-      "name_inline": "ρολάκια μελιτζάνας",
-      "origin": "Ιταλία · Νότια Ιταλία",
-      "intro": "Τα involtini di melanzane είναι λεπτές φέτες ψητής μελιτζάνας τυλιγμένες γύρω από κρεμώδη γέμιση με ρικότα, τριμμένη παρμεζάνα και φρέσκο βασιλικό, ψημένες στον φούρνο σε σάλτσα ντομάτας. Η μελιτζάνα γίνεται μεταξένια, η γέμιση μαλακή και νόστιμη, και η σάλτσα κοχλάζει γύρω από τα ρολάκια. Σερβίρονται ζεστά ή χλιαρά ως χορτοφαγικό κυρίως πιάτο ή συνοδευτικό.",
-      "history": "Τα ρολάκια μελιτζάνας ανήκουν στη μαγειρική της Νότιας Ιταλίας, όπου η μελιτζάνα είναι βασικό καλοκαιρινό λαχανικό. Σήμερα είναι δημοφιλές πιάτο του σπιτιού και των τρατοριών σε όλη την Ιταλία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "2 μεγάλες μελιτζάνες, κομμένες κατά μήκος σε φέτες 5 χιλ.",
-          "250 γρ. ρικότα",
-          "40 γρ. παρμεζάνα, τριμμένη",
-          "500 γρ. πασάτα ντομάτας",
-          "1 σκελίδα σκόρδο",
-          "1 μικρό ματσάκι βασιλικό",
-          "2 κ.σ. ελαιόλαδο",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Αλείψτε ελαφρά τις φέτες μελιτζάνας με λάδι, αλατοπιπερώστε και ψήστε τις στη σχάρα ή στον φούρνο στους 200 °C μέχρι να μαλακώσουν και να χρυσίσουν.",
-          "Σιγοβράστε την πασάτα με το σκόρδο, λίγο αλάτι και μερικά φύλλα βασιλικού για 10 λεπτά.",
-          "Ανακατέψτε τη ρικότα με το μεγαλύτερο μέρος της παρμεζάνας, ψιλοκομμένο βασιλικό και πιπέρι.",
-          "Βάλτε μια κουταλιά γέμιση στη μία άκρη κάθε φέτας και τυλίξτε.",
-          "Απλώστε λίγη σάλτσα σε πυρίμαχο σκεύος, τοποθετήστε τα ρολάκια με την ένωση προς τα κάτω, καλύψτε με την υπόλοιπη σάλτσα και την παρμεζάνα.",
-          "Ψήστε στους 190 °C για 20–25 λεπτά."
-        ]
-      },
-      "tips": [
-        "Ψήστε τη μελιτζάνα στη σχάρα ή στον φούρνο αντί να την τηγανίσετε· η τηγανητή μελιτζάνα ρουφάει πολύ λάδι.",
-        "Αλείψτε το λάδι με πινέλο αντί να το ρίχνετε: 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Βάλτε λιγότερη παρμεζάνα από πάνω και περισσότερο βασιλικό και ντομάτα για γεύση."
-      ]
-    },
-    "ru": {
-      "name": "Рулетики из баклажанов (инвольтини ди меланцане)",
-      "origin": "Италия · Южная Италия",
-      "intro": "Инвольтини ди меланцане — тонкие ломтики баклажана, обжаренные на гриле или запечённые, свёрнутые вокруг кремовой начинки из рикотты, тёртого пармезана и свежего базилика, а затем запечённые в томатном соусе. Баклажан становится шелковистым, начинка мягкой и пикантной, а соус пузырится вокруг рулетиков. Подаются горячими или тёплыми как вегетарианское основное блюдо или гарнир.",
-      "history": "Баклажанные рулетики относятся к кухне юга Италии, где баклажан — летняя основа рациона. Сегодня это популярное домашнее блюдо и блюдо траттории по всей Италии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "2 крупных баклажана, нарезанных вдоль ломтиками толщиной 5 мм",
-          "250 г рикотты",
-          "40 г тёртого пармезана",
-          "500 г томатной пассаты",
-          "1 зубчик чеснока",
-          "1 небольшой пучок базилика",
-          "2 ст. л. оливкового масла",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Слегка смажьте ломтики баклажана маслом, посолите, поперчите и обжарьте на гриле или запеките при 200 °C до мягкости и золотистого цвета.",
-          "Томите пассату с чесноком, небольшим количеством соли и несколькими листьями базилика 10 минут.",
-          "Смешайте рикотту с большей частью пармезана, рубленым базиликом и перцем.",
-          "Положите ложку начинки на один край каждого ломтика и сверните рулетиком.",
-          "Выложите немного соуса в форму для запекания, уложите рулетики швом вниз, залейте оставшимся соусом и посыпьте пармезаном.",
-          "Запекайте при 190 °C 20–25 минут."
-        ]
-      },
-      "tips": [
-        "Обжаривайте баклажаны на гриле или запекайте, а не жарьте: жареный баклажан впитывает много масла.",
-        "Смазывайте маслом кисточкой, а не наливайте: 1 ст. л. масла ≈ 120 ккал.",
-        "Кладите сверху меньше пармезана, а для вкуса — больше базилика и томатов."
-      ],
-      "name_inline": "рулетики из баклажанов"
-    }
+  "ar": {
+   "name": "لفائف الباذنجان (إنفولتيني دي ميلانزاني)",
+   "origin": "إيطاليا · جنوب إيطاليا",
+   "intro": "إنفولتيني دي ميلانزاني شرائح رقيقة من الباذنجان المشوي أو المحمص تُلف حول حشوة كريمية من الريكوتا والبارميزان المبشور والريحان الطازج، ثم تُخبز في صلصة الطماطم. يصبح الباذنجان حريرياً والحشوة طرية ومالحة، وتغلي الصلصة حول اللفائف. تُقدم ساخنة أو دافئة كطبق نباتي رئيسي أو جانبي.",
+   "history": "تنتمي لفائف الباذنجان إلى مطبخ جنوب إيطاليا حيث الباذنجان من أساسيات الصيف، وهي اليوم طبق منزلي ومطعمي شائع في أنحاء إيطاليا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "حبتا باذنجان كبيرتان، شرائح طولية بسمك 5 مم",
+     "250 غ ريكوتا",
+     "40 غ بارميزان مبشور",
+     "500 غ صلصة طماطم مصفاة (باساتا)",
+     "فص ثوم",
+     "حزمة صغيرة ريحان",
+     "ملعقتان كبيرتان زيت زيتون",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "ادهن شرائح الباذنجان بقليل من الزيت، وتبلها واشوها أو حمصها في فرن 200 °م حتى تطرى وتذهّب.",
+     "اطهُ الباساتا مع الثوم وقليل من الملح وبضع أوراق ريحان 10 دقائق.",
+     "اخلط الريكوتا مع معظم البارميزان والريحان المفروم والفلفل.",
+     "ضع ملعقة من الحشوة على طرف كل شريحة ولفّها.",
+     "افرد بعض الصلصة في صينية، ورتب اللفائف وطرفها للأسفل، وغطها ببقية الصلصة والبارميزان.",
+     "اخبزها في فرن 190 °م لمدة 20–25 دقيقة."
+    ]
+   },
+   "tips": [
+    "اشوِ الباذنجان أو حمصه بدلاً من قليه، فالباذنجان المقلي يمتص الكثير من الزيت.",
+    "ادهن الزيت بالفرشاة بدلاً من سكبه: ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "قلل البارميزان على الوجه واعتمد أكثر على الريحان والطماطم للنكهة."
+   ]
+  },
+  "it": {
+   "name": "Involtini di melanzane",
+   "name_inline": "involtini di melanzane",
+   "origin": "Italia · Sud Italia",
+   "intro": "Gli involtini di melanzane sono fette sottili di melanzana grigliata o arrostita arrotolate attorno a un ripieno cremoso di ricotta, parmigiano grattugiato e basilico fresco, poi cotte in forno nella salsa di pomodoro. La melanzana diventa setosa, il ripieno morbido e saporito, e la salsa sobbolle attorno agli involtini. Si servono caldi o tiepidi come piatto principale vegetariano o come contorno.",
+   "history": "Gli involtini di melanzane appartengono alla cucina del Sud Italia, dove la melanzana è un alimento base dell'estate. Oggi sono un piatto popolare di casa e di trattoria in tutta Italia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "2 melanzane grandi, tagliate per il lungo a fette di 5 mm",
+     "250 g di ricotta",
+     "40 g di parmigiano grattugiato",
+     "500 g di passata di pomodoro",
+     "1 spicchio d'aglio",
+     "1 mazzetto di basilico",
+     "2 cucchiai di olio d'oliva",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Spennella leggermente le fette di melanzana con l'olio, condiscile e grigliale o arrostiscile a 200 °C finché sono morbide e dorate.",
+     "Cuoci la passata con l'aglio, un po' di sale e qualche foglia di basilico per 10 minuti.",
+     "Mescola la ricotta con la maggior parte del parmigiano, il basilico tritato e il pepe.",
+     "Metti una cucchiaiata di ripieno a un'estremità di ogni fetta e arrotola.",
+     "Stendi un po' di salsa in una pirofila, disponi gli involtini con la chiusura verso il basso, copri con la salsa rimasta e il parmigiano.",
+     "Cuoci in forno a 190 °C per 20–25 minuti."
+    ]
+   },
+   "tips": [
+    "Griglia o arrostisci la melanzana invece di friggerla; la melanzana fritta assorbe molto olio.",
+    "Spennella l'olio invece di versarlo: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Usa meno parmigiano sopra e più basilico e pomodoro per il sapore."
+   ]
+  },
+  "el": {
+   "name": "Ρολάκια μελιτζάνας (involtini di melanzane)",
+   "name_inline": "ρολάκια μελιτζάνας",
+   "origin": "Ιταλία · Νότια Ιταλία",
+   "intro": "Τα involtini di melanzane είναι λεπτές φέτες ψητής μελιτζάνας τυλιγμένες γύρω από κρεμώδη γέμιση με ρικότα, τριμμένη παρμεζάνα και φρέσκο βασιλικό, ψημένες στον φούρνο σε σάλτσα ντομάτας. Η μελιτζάνα γίνεται μεταξένια, η γέμιση μαλακή και νόστιμη, και η σάλτσα κοχλάζει γύρω από τα ρολάκια. Σερβίρονται ζεστά ή χλιαρά ως χορτοφαγικό κυρίως πιάτο ή συνοδευτικό.",
+   "history": "Τα ρολάκια μελιτζάνας ανήκουν στη μαγειρική της Νότιας Ιταλίας, όπου η μελιτζάνα είναι βασικό καλοκαιρινό λαχανικό. Σήμερα είναι δημοφιλές πιάτο του σπιτιού και των τρατοριών σε όλη την Ιταλία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "2 μεγάλες μελιτζάνες, κομμένες κατά μήκος σε φέτες 5 χιλ.",
+     "250 γρ. ρικότα",
+     "40 γρ. παρμεζάνα, τριμμένη",
+     "500 γρ. πασάτα ντομάτας",
+     "1 σκελίδα σκόρδο",
+     "1 μικρό ματσάκι βασιλικό",
+     "2 κ.σ. ελαιόλαδο",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Αλείψτε ελαφρά τις φέτες μελιτζάνας με λάδι, αλατοπιπερώστε και ψήστε τις στη σχάρα ή στον φούρνο στους 200 °C μέχρι να μαλακώσουν και να χρυσίσουν.",
+     "Σιγοβράστε την πασάτα με το σκόρδο, λίγο αλάτι και μερικά φύλλα βασιλικού για 10 λεπτά.",
+     "Ανακατέψτε τη ρικότα με το μεγαλύτερο μέρος της παρμεζάνας, ψιλοκομμένο βασιλικό και πιπέρι.",
+     "Βάλτε μια κουταλιά γέμιση στη μία άκρη κάθε φέτας και τυλίξτε.",
+     "Απλώστε λίγη σάλτσα σε πυρίμαχο σκεύος, τοποθετήστε τα ρολάκια με την ένωση προς τα κάτω, καλύψτε με την υπόλοιπη σάλτσα και την παρμεζάνα.",
+     "Ψήστε στους 190 °C για 20–25 λεπτά."
+    ]
+   },
+   "tips": [
+    "Ψήστε τη μελιτζάνα στη σχάρα ή στον φούρνο αντί να την τηγανίσετε· η τηγανητή μελιτζάνα ρουφάει πολύ λάδι.",
+    "Αλείψτε το λάδι με πινέλο αντί να το ρίχνετε: 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Βάλτε λιγότερη παρμεζάνα από πάνω και περισσότερο βασιλικό και ντομάτα για γεύση."
+   ]
+  },
+  "ru": {
+   "name": "Рулетики из баклажанов (инвольтини ди меланцане)",
+   "origin": "Италия · Южная Италия",
+   "intro": "Инвольтини ди меланцане — тонкие ломтики баклажана, обжаренные на гриле или запечённые, свёрнутые вокруг кремовой начинки из рикотты, тёртого пармезана и свежего базилика, а затем запечённые в томатном соусе. Баклажан становится шелковистым, начинка мягкой и пикантной, а соус пузырится вокруг рулетиков. Подаются горячими или тёплыми как вегетарианское основное блюдо или гарнир.",
+   "history": "Баклажанные рулетики относятся к кухне юга Италии, где баклажан — летняя основа рациона. Сегодня это популярное домашнее блюдо и блюдо траттории по всей Италии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "2 крупных баклажана, нарезанных вдоль ломтиками толщиной 5 мм",
+     "250 г рикотты",
+     "40 г тёртого пармезана",
+     "500 г томатной пассаты",
+     "1 зубчик чеснока",
+     "1 небольшой пучок базилика",
+     "2 ст. л. оливкового масла",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Слегка смажьте ломтики баклажана маслом, посолите, поперчите и обжарьте на гриле или запеките при 200 °C до мягкости и золотистого цвета.",
+     "Томите пассату с чесноком, небольшим количеством соли и несколькими листьями базилика 10 минут.",
+     "Смешайте рикотту с большей частью пармезана, рубленым базиликом и перцем.",
+     "Положите ложку начинки на один край каждого ломтика и сверните рулетиком.",
+     "Выложите немного соуса в форму для запекания, уложите рулетики швом вниз, залейте оставшимся соусом и посыпьте пармезаном.",
+     "Запекайте при 190 °C 20–25 минут."
+    ]
+   },
+   "tips": [
+    "Обжаривайте баклажаны на гриле или запекайте, а не жарьте: жареный баклажан впитывает много масла.",
+    "Смазывайте маслом кисточкой, а не наливайте: 1 ст. л. масла ≈ 120 ккал.",
+    "Кладите сверху меньше пармезана, а для вкуса — больше базилика и томатов."
+   ],
+   "name_inline": "рулетики из баклажанов"
+  },
+  "es": {
+   "name": "Involtini de berenjena (involtini di melanzane)",
+   "origin": "Italia · sur de Italia",
+   "intro": "Los involtini di melanzane son rebanadas finas de berenjena asada o a la parrilla, enrolladas alrededor de un relleno cremoso de ricotta, parmesano rallado y albahaca fresca, y horneadas en salsa de jitomate. La berenjena queda sedosa, el relleno suave y sabroso, y la salsa burbujea alrededor de los rollitos. Se sirven calientes o tibios como plato principal vegetariano o guarnición.",
+   "history": "Los rollitos de berenjena pertenecen a la cocina del sur de Italia, donde la berenjena es un básico del verano. Hoy son un plato popular en casas y trattorias de todo el país.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "2 berenjenas grandes, en rebanadas a lo largo de 5 mm de grosor",
+     "250 g de ricotta",
+     "40 g de parmesano rallado",
+     "500 g de pasta de jitomate (passata)",
+     "1 diente de ajo",
+     "1 manojo pequeño de albahaca",
+     "2 cda. de aceite de oliva",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Barniza ligeramente las rebanadas de berenjena con aceite, sazónalas y ásalas a la parrilla o al horno a 200 °C hasta que estén suaves y doradas.",
+     "Cuece a fuego bajo el jitomate con el ajo, un poco de sal y unas hojas de albahaca durante 10 minutos.",
+     "Mezcla la ricotta con casi todo el parmesano, la albahaca picada y pimienta.",
+     "Pon una cucharada de relleno en un extremo de cada rebanada y enróllala.",
+     "Extiende un poco de salsa en un molde para hornear, acomoda los rollitos con la unión hacia abajo, cubre con la salsa restante y el parmesano.",
+     "Hornea a 190 °C de 20 a 25 minutos."
+    ]
+   },
+   "tips": [
+    "Asa o hornea la berenjena en lugar de freírla: la berenjena frita absorbe mucho aceite.",
+    "Barniza el aceite con brocha en lugar de verterlo: 1 cda. de aceite ≈ 120 kcal.",
+    "Usa menos parmesano encima y más albahaca y jitomate para dar sabor."
+   ],
+   "name_inline": "los involtini de berenjena"
   }
+ }
 }

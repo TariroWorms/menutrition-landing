@@ -1,170 +1,202 @@
 {
-  "db_key": "aloo_tikki",
-  "slug": "aloo-tikki",
-  "emoji": "🥔",
-  "portion_g": 150,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "aloo_tikki",
+ "slug": "aloo-tikki",
+ "emoji": "🥔",
+ "portion_g": 150,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Aloo tikki",
+   "origin": "India · North India",
+   "intro": "Aloo tikki are North Indian potato patties mixed with green peas, ginger, cumin and fresh coriander, pan-fried until crisp and golden outside and soft inside. They are a favourite street snack, eaten hot with tamarind and green chutneys, or served as the base of chaat with spicy toppings.",
+   "history": "Aloo tikki is one of the best-known street foods of northern India, sold from griddles at stalls in cities such as Delhi and Lucknow. Tikki simply means a small cutlet or patty, and the potato version became popular as potatoes spread through Indian cooking.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g floury potatoes, boiled, peeled and mashed",
+     "120 g green peas, cooked and lightly crushed",
+     "1 tbsp grated fresh ginger",
+     "1 tsp ground cumin, ½ tsp chilli powder",
+     "3 tbsp chopped coriander leaves",
+     "2 tbsp cornstarch",
+     "Salt",
+     "3 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Mix the potato, peas, ginger, cumin, chilli, coriander, cornstarch and salt into a firm mixture.",
+     "Shape into 8 flat patties about 1.5 cm thick and chill for 15 minutes so they hold together.",
+     "Heat the oil in a heavy pan and cook the patties over medium heat for 4–5 minutes per side until deep golden and crisp.",
+     "Drain on paper and serve hot with tamarind or mint-coriander chutney."
+    ]
+   },
+   "tips": [
+    "Brush the patties with oil and bake at 200 °C for 25 minutes, turning once, instead of frying.",
+    "Use a non-stick pan and 1 tbsp oil for the whole batch — each tablespoon is about 120 kcal.",
+    "Sweet tamarind chutney adds sugar; a fresh mint-coriander chutney is the lighter choice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Aloo tikki",
-      "origin": "India · North India",
-      "intro": "Aloo tikki are North Indian potato patties mixed with green peas, ginger, cumin and fresh coriander, pan-fried until crisp and golden outside and soft inside. They are a favourite street snack, eaten hot with tamarind and green chutneys, or served as the base of chaat with spicy toppings.",
-      "history": "Aloo tikki is one of the best-known street foods of northern India, sold from griddles at stalls in cities such as Delhi and Lucknow. Tikki simply means a small cutlet or patty, and the potato version became popular as potatoes spread through Indian cooking.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 g floury potatoes, boiled, peeled and mashed",
-          "120 g green peas, cooked and lightly crushed",
-          "1 tbsp grated fresh ginger",
-          "1 tsp ground cumin, ½ tsp chilli powder",
-          "3 tbsp chopped coriander leaves",
-          "2 tbsp cornstarch",
-          "Salt",
-          "3 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Mix the potato, peas, ginger, cumin, chilli, coriander, cornstarch and salt into a firm mixture.",
-          "Shape into 8 flat patties about 1.5 cm thick and chill for 15 minutes so they hold together.",
-          "Heat the oil in a heavy pan and cook the patties over medium heat for 4–5 minutes per side until deep golden and crisp.",
-          "Drain on paper and serve hot with tamarind or mint-coriander chutney."
-        ]
-      },
-      "tips": [
-        "Brush the patties with oil and bake at 200 °C for 25 minutes, turning once, instead of frying.",
-        "Use a non-stick pan and 1 tbsp oil for the whole batch — each tablespoon is about 120 kcal.",
-        "Sweet tamarind chutney adds sugar; a fresh mint-coriander chutney is the lighter choice."
-      ]
-    },
-    "ar": {
-      "name": "آلو تيكي (أقراص البطاطا)",
-      "origin": "الهند · شمال الهند",
-      "intro": "آلو تيكي أقراص بطاطا من شمال الهند ممزوجة بالبازلاء الخضراء والزنجبيل والكمون والكزبرة الطازجة، تُحمَّر في المقلاة حتى تصبح مقرمشة ذهبية من الخارج وطرية من الداخل. هي وجبة شارع محبوبة، تؤكل ساخنة مع صلصتي التمر الهندي والنعناع، أو تُقدَّم قاعدةً لطبق الشات مع إضافات حارة.",
-      "history": "آلو تيكي من أشهر أطعمة الشارع في شمال الهند، وتُباع من على الصاجات في أكشاك مدن مثل دلهي ولكناو. وكلمة «تيكي» تعني ببساطة قرصًا أو كفتة صغيرة، وقد انتشرت النسخة بالبطاطا مع انتشار البطاطا في المطبخ الهندي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 غ بطاطا نشوية مسلوقة ومقشّرة ومهروسة",
-          "120 غ بازلاء خضراء مطهوة ومهروسة قليلًا",
-          "1 ملعقة كبيرة زنجبيل طازج مبشور",
-          "1 ملعقة صغيرة كمون مطحون، ونصف ملعقة صغيرة فلفل حار مطحون",
-          "3 ملاعق كبيرة أوراق كزبرة مفرومة",
-          "2 ملعقة كبيرة نشا ذرة",
-          "ملح",
-          "3 ملاعق كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "اخلط البطاطا والبازلاء والزنجبيل والكمون والفلفل الحار والكزبرة ونشا الذرة والملح حتى يتماسك الخليط.",
-          "شكّله إلى 8 أقراص مسطّحة بسماكة 1.5 سم تقريبًا، وبرّدها 15 دقيقة لتتماسك.",
-          "سخّن الزيت في مقلاة سميكة وحمّر الأقراص على نار متوسطة 4–5 دقائق لكل جانب حتى تصبح ذهبية داكنة ومقرمشة.",
-          "صفّها على ورق مطبخ وقدّمها ساخنة مع صلصة التمر الهندي أو صلصة النعناع والكزبرة."
-        ]
-      },
-      "tips": [
-        "ادهن الأقراص بالزيت واخبزها على 200 °م لمدة 25 دقيقة مع قلبها مرة واحدة بدل القلي.",
-        "استخدم مقلاة غير لاصقة وملعقة زيت كبيرة واحدة للكمية كلها، فكل ملعقة كبيرة تعادل نحو 120 سعرة.",
-        "صلصة التمر الهندي الحلوة تضيف سكرًا، أما صلصة النعناع والكزبرة الطازجة فهي الخيار الأخف."
-      ]
-    },
-    "it": {
-      "name": "Aloo tikki",
-      "origin": "India · India settentrionale",
-      "intro": "Gli aloo tikki sono polpettine di patate dell'India settentrionale impastate con piselli, zenzero, cumino e coriandolo fresco, cotte in padella finché sono croccanti e dorate fuori e morbide dentro. Sono uno spuntino di strada molto amato, che si mangia caldo con chutney di tamarindo e chutney verde, oppure come base del chaat con condimenti piccanti.",
-      "history": "L'aloo tikki è uno dei cibi di strada più noti dell'India settentrionale, venduto dalle piastre delle bancarelle in città come Delhi e Lucknow. Tikki significa semplicemente piccola cotoletta o polpettina, e la versione di patate è diventata popolare man mano che le patate si diffondevano nella cucina indiana.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 g di patate farinose lessate, sbucciate e schiacciate",
-          "120 g di piselli cotti e leggermente schiacciati",
-          "1 cucchiaio di zenzero fresco grattugiato",
-          "1 cucchiaino di cumino in polvere, ½ cucchiaino di peperoncino in polvere",
-          "3 cucchiai di foglie di coriandolo tritate",
-          "2 cucchiai di amido di mais",
-          "Sale",
-          "3 cucchiai di olio vegetale"
-        ],
-        "steps": [
-          "Mescola patate, piselli, zenzero, cumino, peperoncino, coriandolo, amido di mais e sale fino a ottenere un composto compatto.",
-          "Forma 8 polpettine piatte spesse circa 1,5 cm e mettile in frigorifero per 15 minuti perché restino compatte.",
-          "Scalda l'olio in una padella pesante e cuoci le polpettine a fuoco medio per 4–5 minuti per lato, finché sono ben dorate e croccanti.",
-          "Scolale su carta e servile calde con chutney di tamarindo o di menta e coriandolo."
-        ]
-      },
-      "tips": [
-        "Spennella le polpettine d'olio e cuocile in forno a 200 °C per 25 minuti, girandole una volta, invece di friggerle.",
-        "Usa una padella antiaderente e 1 cucchiaio di olio per tutta l'infornata: ogni cucchiaio vale circa 120 kcal.",
-        "Il chutney dolce di tamarindo aggiunge zucchero; un chutney fresco di menta e coriandolo è la scelta più leggera."
-      ]
-    },
-    "el": {
-      "name": "Αλού τίκι",
-      "origin": "Ινδία · Βόρεια Ινδία",
-      "intro": "Τα αλού τίκι είναι μπιφτεκάκια πατάτας της βόρειας Ινδίας ανακατεμένα με αρακά, τζίντζερ, κύμινο και φρέσκο κόλιαντρο, τηγανισμένα στο τηγάνι μέχρι να γίνουν τραγανά και χρυσαφένια απέξω και μαλακά μέσα. Είναι αγαπημένο σνακ του δρόμου, που τρώγεται ζεστό με τσάτνεϊ ταμάρινθου και πράσινο τσάτνεϊ ή σερβίρεται ως βάση για τσατ με πικάντικα υλικά από πάνω.",
-      "history": "Το αλού τίκι είναι από τα πιο γνωστά φαγητά του δρόμου της βόρειας Ινδίας και πουλιέται από τις πλάκες των πάγκων σε πόλεις όπως το Δελχί και το Λάκνοου. Τίκι σημαίνει απλώς μικρό κοτολέτι ή μπιφτεκάκι, και η εκδοχή με πατάτα έγινε δημοφιλής καθώς η πατάτα διαδιδόταν στην ινδική μαγειρική.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 γρ. αλευρώδεις πατάτες, βρασμένες, ξεφλουδισμένες και λιωμένες",
-          "120 γρ. αρακάς, βρασμένος και ελαφρά λιωμένος",
-          "1 κ.σ. τριμμένο φρέσκο τζίντζερ",
-          "1 κ.γ. κύμινο, ½ κ.γ. καυτερή πιπεριά σε σκόνη",
-          "3 κ.σ. ψιλοκομμένα φύλλα κόλιαντρου",
-          "2 κ.σ. κορν φλάουρ",
-          "Αλάτι",
-          "3 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Ανακατέψτε την πατάτα, τον αρακά, το τζίντζερ, το κύμινο, την καυτερή πιπεριά, το κόλιαντρο, το κορν φλάουρ και το αλάτι σε σφιχτό μείγμα.",
-          "Πλάστε 8 πλακέ μπιφτεκάκια πάχους περίπου 1,5 εκ. και βάλτε τα στο ψυγείο για 15 λεπτά ώστε να κρατούν το σχήμα τους.",
-          "Ζεστάνετε το λάδι σε βαρύ τηγάνι και ψήστε τα μπιφτεκάκια σε μέτρια φωτιά για 4–5 λεπτά από κάθε πλευρά, μέχρι να ροδίσουν καλά και να τραγανίσουν.",
-          "Στραγγίξτε σε χαρτί και σερβίρετε ζεστά με τσάτνεϊ ταμάρινθου ή μέντας και κόλιαντρου."
-        ]
-      },
-      "tips": [
-        "Αλείψτε τα μπιφτεκάκια με λάδι και ψήστε τα στους 200 °C για 25 λεπτά, γυρίζοντάς τα μία φορά, αντί να τα τηγανίσετε.",
-        "Χρησιμοποιήστε αντικολλητικό τηγάνι και 1 κ.σ. λάδι για όλη την ποσότητα — κάθε κουταλιά έχει περίπου 120 kcal.",
-        "Το γλυκό τσάτνεϊ ταμάρινθου προσθέτει ζάχαρη· ένα φρέσκο τσάτνεϊ μέντας και κόλιαντρου είναι η πιο ελαφριά επιλογή."
-      ]
-    },
-    "ru": {
-      "name": "Алу тикки",
-      "origin": "Индия · Северная Индия",
-      "intro": "Алу тикки — североиндийские картофельные котлеты с зелёным горошком, имбирём, кумином и свежей кинзой, обжаренные на сковороде до хрустящей золотистой корочки снаружи и мягкости внутри. Это любимая уличная закуска, которую едят горячей с тамариндовым и зелёным чатни или используют как основу для чаата с острыми добавками.",
-      "history": "Алу тикки — одна из самых известных уличных еды северной Индии, которую продают на сковородах на лотках в таких городах, как Дели и Лакнау. Тикки означает просто маленькую котлету, и картофельная версия стала популярной по мере распространения картофеля в индийской кухне.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 г рассыпчатого картофеля, отваренного, очищенного и размятого",
-          "120 г зелёного горошка, отваренного и слегка раздавленного",
-          "1 ст. л. тёртого свежего имбиря",
-          "1 ч. л. молотого кумина, ½ ч. л. порошка чили",
-          "3 ст. л. рубленых листьев кинзы",
-          "2 ст. л. кукурузного крахмала",
-          "Соль",
-          "3 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Смешайте картофель, горошек, имбирь, кумин, чили, кинзу, кукурузный крахмал и соль в плотную массу.",
-          "Сформуйте 8 плоских котлет толщиной около 1,5 см и охладите 15 минут, чтобы они держали форму.",
-          "Разогрейте масло в тяжёлой сковороде и жарьте котлеты на среднем огне по 4–5 минут с каждой стороны до глубокого золотистого цвета и хруста.",
-          "Обсушите на бумаге и подавайте горячими с тамариндовым или мятно-кориандровым чатни."
-        ]
-      },
-      "tips": [
-        "Смажьте котлеты маслом и запеките при 200 °C 25 минут, один раз перевернув, вместо жарки.",
-        "Используйте антипригарную сковороду и 1 ст. л. масла на всю партию — каждая столовая ложка около 120 ккал.",
-        "Сладкое тамариндовое чатни добавляет сахар; свежее мятно-кориандровое чатни — более лёгкий выбор."
-      ],
-      "name_inline": "алу тикки"
-    }
+  "ar": {
+   "name": "آلو تيكي (أقراص البطاطا)",
+   "origin": "الهند · شمال الهند",
+   "intro": "آلو تيكي أقراص بطاطا من شمال الهند ممزوجة بالبازلاء الخضراء والزنجبيل والكمون والكزبرة الطازجة، تُحمَّر في المقلاة حتى تصبح مقرمشة ذهبية من الخارج وطرية من الداخل. هي وجبة شارع محبوبة، تؤكل ساخنة مع صلصتي التمر الهندي والنعناع، أو تُقدَّم قاعدةً لطبق الشات مع إضافات حارة.",
+   "history": "آلو تيكي من أشهر أطعمة الشارع في شمال الهند، وتُباع من على الصاجات في أكشاك مدن مثل دلهي ولكناو. وكلمة «تيكي» تعني ببساطة قرصًا أو كفتة صغيرة، وقد انتشرت النسخة بالبطاطا مع انتشار البطاطا في المطبخ الهندي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 غ بطاطا نشوية مسلوقة ومقشّرة ومهروسة",
+     "120 غ بازلاء خضراء مطهوة ومهروسة قليلًا",
+     "1 ملعقة كبيرة زنجبيل طازج مبشور",
+     "1 ملعقة صغيرة كمون مطحون، ونصف ملعقة صغيرة فلفل حار مطحون",
+     "3 ملاعق كبيرة أوراق كزبرة مفرومة",
+     "2 ملعقة كبيرة نشا ذرة",
+     "ملح",
+     "3 ملاعق كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "اخلط البطاطا والبازلاء والزنجبيل والكمون والفلفل الحار والكزبرة ونشا الذرة والملح حتى يتماسك الخليط.",
+     "شكّله إلى 8 أقراص مسطّحة بسماكة 1.5 سم تقريبًا، وبرّدها 15 دقيقة لتتماسك.",
+     "سخّن الزيت في مقلاة سميكة وحمّر الأقراص على نار متوسطة 4–5 دقائق لكل جانب حتى تصبح ذهبية داكنة ومقرمشة.",
+     "صفّها على ورق مطبخ وقدّمها ساخنة مع صلصة التمر الهندي أو صلصة النعناع والكزبرة."
+    ]
+   },
+   "tips": [
+    "ادهن الأقراص بالزيت واخبزها على 200 °م لمدة 25 دقيقة مع قلبها مرة واحدة بدل القلي.",
+    "استخدم مقلاة غير لاصقة وملعقة زيت كبيرة واحدة للكمية كلها، فكل ملعقة كبيرة تعادل نحو 120 سعرة.",
+    "صلصة التمر الهندي الحلوة تضيف سكرًا، أما صلصة النعناع والكزبرة الطازجة فهي الخيار الأخف."
+   ]
+  },
+  "it": {
+   "name": "Aloo tikki",
+   "origin": "India · India settentrionale",
+   "intro": "Gli aloo tikki sono polpettine di patate dell'India settentrionale impastate con piselli, zenzero, cumino e coriandolo fresco, cotte in padella finché sono croccanti e dorate fuori e morbide dentro. Sono uno spuntino di strada molto amato, che si mangia caldo con chutney di tamarindo e chutney verde, oppure come base del chaat con condimenti piccanti.",
+   "history": "L'aloo tikki è uno dei cibi di strada più noti dell'India settentrionale, venduto dalle piastre delle bancarelle in città come Delhi e Lucknow. Tikki significa semplicemente piccola cotoletta o polpettina, e la versione di patate è diventata popolare man mano che le patate si diffondevano nella cucina indiana.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g di patate farinose lessate, sbucciate e schiacciate",
+     "120 g di piselli cotti e leggermente schiacciati",
+     "1 cucchiaio di zenzero fresco grattugiato",
+     "1 cucchiaino di cumino in polvere, ½ cucchiaino di peperoncino in polvere",
+     "3 cucchiai di foglie di coriandolo tritate",
+     "2 cucchiai di amido di mais",
+     "Sale",
+     "3 cucchiai di olio vegetale"
+    ],
+    "steps": [
+     "Mescola patate, piselli, zenzero, cumino, peperoncino, coriandolo, amido di mais e sale fino a ottenere un composto compatto.",
+     "Forma 8 polpettine piatte spesse circa 1,5 cm e mettile in frigorifero per 15 minuti perché restino compatte.",
+     "Scalda l'olio in una padella pesante e cuoci le polpettine a fuoco medio per 4–5 minuti per lato, finché sono ben dorate e croccanti.",
+     "Scolale su carta e servile calde con chutney di tamarindo o di menta e coriandolo."
+    ]
+   },
+   "tips": [
+    "Spennella le polpettine d'olio e cuocile in forno a 200 °C per 25 minuti, girandole una volta, invece di friggerle.",
+    "Usa una padella antiaderente e 1 cucchiaio di olio per tutta l'infornata: ogni cucchiaio vale circa 120 kcal.",
+    "Il chutney dolce di tamarindo aggiunge zucchero; un chutney fresco di menta e coriandolo è la scelta più leggera."
+   ]
+  },
+  "el": {
+   "name": "Αλού τίκι",
+   "origin": "Ινδία · Βόρεια Ινδία",
+   "intro": "Τα αλού τίκι είναι μπιφτεκάκια πατάτας της βόρειας Ινδίας ανακατεμένα με αρακά, τζίντζερ, κύμινο και φρέσκο κόλιαντρο, τηγανισμένα στο τηγάνι μέχρι να γίνουν τραγανά και χρυσαφένια απέξω και μαλακά μέσα. Είναι αγαπημένο σνακ του δρόμου, που τρώγεται ζεστό με τσάτνεϊ ταμάρινθου και πράσινο τσάτνεϊ ή σερβίρεται ως βάση για τσατ με πικάντικα υλικά από πάνω.",
+   "history": "Το αλού τίκι είναι από τα πιο γνωστά φαγητά του δρόμου της βόρειας Ινδίας και πουλιέται από τις πλάκες των πάγκων σε πόλεις όπως το Δελχί και το Λάκνοου. Τίκι σημαίνει απλώς μικρό κοτολέτι ή μπιφτεκάκι, και η εκδοχή με πατάτα έγινε δημοφιλής καθώς η πατάτα διαδιδόταν στην ινδική μαγειρική.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 γρ. αλευρώδεις πατάτες, βρασμένες, ξεφλουδισμένες και λιωμένες",
+     "120 γρ. αρακάς, βρασμένος και ελαφρά λιωμένος",
+     "1 κ.σ. τριμμένο φρέσκο τζίντζερ",
+     "1 κ.γ. κύμινο, ½ κ.γ. καυτερή πιπεριά σε σκόνη",
+     "3 κ.σ. ψιλοκομμένα φύλλα κόλιαντρου",
+     "2 κ.σ. κορν φλάουρ",
+     "Αλάτι",
+     "3 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Ανακατέψτε την πατάτα, τον αρακά, το τζίντζερ, το κύμινο, την καυτερή πιπεριά, το κόλιαντρο, το κορν φλάουρ και το αλάτι σε σφιχτό μείγμα.",
+     "Πλάστε 8 πλακέ μπιφτεκάκια πάχους περίπου 1,5 εκ. και βάλτε τα στο ψυγείο για 15 λεπτά ώστε να κρατούν το σχήμα τους.",
+     "Ζεστάνετε το λάδι σε βαρύ τηγάνι και ψήστε τα μπιφτεκάκια σε μέτρια φωτιά για 4–5 λεπτά από κάθε πλευρά, μέχρι να ροδίσουν καλά και να τραγανίσουν.",
+     "Στραγγίξτε σε χαρτί και σερβίρετε ζεστά με τσάτνεϊ ταμάρινθου ή μέντας και κόλιαντρου."
+    ]
+   },
+   "tips": [
+    "Αλείψτε τα μπιφτεκάκια με λάδι και ψήστε τα στους 200 °C για 25 λεπτά, γυρίζοντάς τα μία φορά, αντί να τα τηγανίσετε.",
+    "Χρησιμοποιήστε αντικολλητικό τηγάνι και 1 κ.σ. λάδι για όλη την ποσότητα — κάθε κουταλιά έχει περίπου 120 kcal.",
+    "Το γλυκό τσάτνεϊ ταμάρινθου προσθέτει ζάχαρη· ένα φρέσκο τσάτνεϊ μέντας και κόλιαντρου είναι η πιο ελαφριά επιλογή."
+   ]
+  },
+  "ru": {
+   "name": "Алу тикки",
+   "origin": "Индия · Северная Индия",
+   "intro": "Алу тикки — североиндийские картофельные котлеты с зелёным горошком, имбирём, кумином и свежей кинзой, обжаренные на сковороде до хрустящей золотистой корочки снаружи и мягкости внутри. Это любимая уличная закуска, которую едят горячей с тамариндовым и зелёным чатни или используют как основу для чаата с острыми добавками.",
+   "history": "Алу тикки — одна из самых известных уличных еды северной Индии, которую продают на сковородах на лотках в таких городах, как Дели и Лакнау. Тикки означает просто маленькую котлету, и картофельная версия стала популярной по мере распространения картофеля в индийской кухне.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 г рассыпчатого картофеля, отваренного, очищенного и размятого",
+     "120 г зелёного горошка, отваренного и слегка раздавленного",
+     "1 ст. л. тёртого свежего имбиря",
+     "1 ч. л. молотого кумина, ½ ч. л. порошка чили",
+     "3 ст. л. рубленых листьев кинзы",
+     "2 ст. л. кукурузного крахмала",
+     "Соль",
+     "3 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Смешайте картофель, горошек, имбирь, кумин, чили, кинзу, кукурузный крахмал и соль в плотную массу.",
+     "Сформуйте 8 плоских котлет толщиной около 1,5 см и охладите 15 минут, чтобы они держали форму.",
+     "Разогрейте масло в тяжёлой сковороде и жарьте котлеты на среднем огне по 4–5 минут с каждой стороны до глубокого золотистого цвета и хруста.",
+     "Обсушите на бумаге и подавайте горячими с тамариндовым или мятно-кориандровым чатни."
+    ]
+   },
+   "tips": [
+    "Смажьте котлеты маслом и запеките при 200 °C 25 минут, один раз перевернув, вместо жарки.",
+    "Используйте антипригарную сковороду и 1 ст. л. масла на всю партию — каждая столовая ложка около 120 ккал.",
+    "Сладкое тамариндовое чатни добавляет сахар; свежее мятно-кориандровое чатни — более лёгкий выбор."
+   ],
+   "name_inline": "алу тикки"
+  },
+  "es": {
+   "name": "Aloo tikki",
+   "origin": "India · Norte de la India",
+   "intro": "El aloo tikki son tortitas de papa del norte de la India mezcladas con chícharos, jengibre, comino y cilantro fresco, fritas en sartén hasta quedar doradas y crujientes por fuera y suaves por dentro. Son una botana callejera muy querida, que se come caliente con chutney de tamarindo y de hierbas, o como base del chaat con coberturas picantes.",
+   "history": "El aloo tikki es una de las comidas callejeras más conocidas del norte de la India, que se vende en planchas en los puestos de ciudades como Delhi y Lucknow. Tikki significa simplemente una croqueta o tortita pequeña, y la versión de papa se popularizó a medida que las papas se extendieron en la cocina india.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g de papas harinosas, cocidas, peladas y en puré",
+     "120 g de chícharos cocidos y ligeramente aplastados",
+     "1 cda. de jengibre fresco rallado",
+     "1 cdta. de comino molido, ½ cdta. de chile en polvo",
+     "3 cda. de hojas de cilantro picadas",
+     "2 cda. de fécula de maíz",
+     "Sal",
+     "3 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Mezcla la papa, los chícharos, el jengibre, el comino, el chile, el cilantro, la fécula y la sal hasta obtener una masa firme.",
+     "Forma 8 tortitas planas de 1.5 cm de grosor y refrigera 15 minutos para que no se deshagan.",
+     "Calienta el aceite en una sartén gruesa y cuece las tortitas a fuego medio de 4 a 5 minutos por lado, hasta que estén bien doradas y crujientes.",
+     "Escurre sobre papel absorbente y sirve calientes con chutney de tamarindo o de menta y cilantro."
+    ]
+   },
+   "tips": [
+    "Pincela las tortitas con aceite y hornéalas a 200 °C durante 25 minutos, volteándolas una vez, en lugar de freírlas.",
+    "Usa una sartén antiadherente y 1 cda. de aceite para toda la tanda: cada cucharada aporta unas 120 kcal.",
+    "El chutney dulce de tamarindo agrega azúcar; el de menta y cilantro fresco es la opción más ligera."
+   ],
+   "name_inline": "el aloo tikki"
   }
+ }
 }

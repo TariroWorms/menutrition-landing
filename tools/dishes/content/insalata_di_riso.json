@@ -1,181 +1,215 @@
 {
-  "db_key": "insalata_di_riso",
-  "slug": "insalata-di-riso",
-  "emoji": "🍚",
-  "portion_g": 250,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "insalata_di_riso",
+ "slug": "insalata-di-riso",
+ "emoji": "🍚",
+ "portion_g": 250,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Italian Rice Salad (Insalata di Riso)",
+   "origin": "Italy",
+   "intro": "Insalata di riso is Italy's favourite summer rice salad: cooked rice cooled and mixed with tuna, sweet corn, olives, diced tomato and artichoke hearts, dressed simply with olive oil and lemon or vinegar. It is fresh, colourful and slightly tangy, with every forkful offering a different bite. It is served cold, often packed for picnics and beach days.",
+   "history": "Rice salad is a fixture of Italian home cooking in summer, served cold at family lunches, picnics and seaside outings. Each family has its own mix of add-ins.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 g rice (such as Arborio or parboiled)",
+     "160 g canned tuna, drained",
+     "150 g sweet corn",
+     "80 g pitted olives, sliced",
+     "2 tomatoes, diced",
+     "150 g artichoke hearts, quartered",
+     "2 tbsp olive oil",
+     "1 tbsp lemon juice or vinegar",
+     "Salt, pepper and basil"
+    ],
+    "steps": [
+     "Boil the rice in salted water until just tender, drain and rinse under cold water to stop the cooking.",
+     "Spread the rice out to cool completely.",
+     "Mix in tuna, corn, olives, tomatoes and artichokes.",
+     "Dress with olive oil, lemon juice, salt, pepper and basil.",
+     "Chill for at least 30 minutes before serving."
+    ]
+   },
+   "tips": [
+    "Choose tuna packed in water rather than oil to save fat.",
+    "Use more tomato and artichoke and a little less rice per portion.",
+    "Olives add up quickly; a small handful is enough for flavour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Italian Rice Salad (Insalata di Riso)",
-      "origin": "Italy",
-      "intro": "Insalata di riso is Italy's favourite summer rice salad: cooked rice cooled and mixed with tuna, sweet corn, olives, diced tomato and artichoke hearts, dressed simply with olive oil and lemon or vinegar. It is fresh, colourful and slightly tangy, with every forkful offering a different bite. It is served cold, often packed for picnics and beach days.",
-      "history": "Rice salad is a fixture of Italian home cooking in summer, served cold at family lunches, picnics and seaside outings. Each family has its own mix of add-ins.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 g rice (such as Arborio or parboiled)",
-          "160 g canned tuna, drained",
-          "150 g sweet corn",
-          "80 g pitted olives, sliced",
-          "2 tomatoes, diced",
-          "150 g artichoke hearts, quartered",
-          "2 tbsp olive oil",
-          "1 tbsp lemon juice or vinegar",
-          "Salt, pepper and basil"
-        ],
-        "steps": [
-          "Boil the rice in salted water until just tender, drain and rinse under cold water to stop the cooking.",
-          "Spread the rice out to cool completely.",
-          "Mix in tuna, corn, olives, tomatoes and artichokes.",
-          "Dress with olive oil, lemon juice, salt, pepper and basil.",
-          "Chill for at least 30 minutes before serving."
-        ]
-      },
-      "tips": [
-        "Choose tuna packed in water rather than oil to save fat.",
-        "Use more tomato and artichoke and a little less rice per portion.",
-        "Olives add up quickly; a small handful is enough for flavour."
-      ]
-    },
-    "ar": {
-      "name": "سلطة الأرز الإيطالية (إنسالاتا دي ريزو)",
-      "origin": "إيطاليا",
-      "intro": "إنسالاتا دي ريزو هي سلطة الأرز الصيفية المفضلة في إيطاليا: أرز مطبوخ ومبرد يُخلط مع التونة والذرة الحلوة والزيتون والطماطم المقطعة وقلوب الخرشوف، ويُتبل ببساطة بزيت الزيتون والليمون أو الخل. طعمها منعش وملون وحامض قليلاً، وكل لقمة تحمل مذاقاً مختلفاً. تُقدم باردة وغالباً ما تُحمل في النزهات وأيام الشاطئ.",
-      "history": "سلطة الأرز من ثوابت المطبخ المنزلي الإيطالي في الصيف، تُقدم باردة في غداءات العائلة والنزهات والرحلات إلى البحر، ولكل عائلة خلطتها الخاصة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 غ أرز",
-          "160 غ تونة معلبة، مصفاة",
-          "150 غ ذرة حلوة",
-          "80 غ زيتون منزوع النوى، شرائح",
-          "حبتا طماطم، مقطعتان",
-          "150 غ قلوب خرشوف، مقطعة أرباعاً",
-          "ملعقتان كبيرتان زيت زيتون",
-          "ملعقة كبيرة عصير ليمون أو خل",
-          "ملح وفلفل وريحان"
-        ],
-        "steps": [
-          "اسلق الأرز في ماء مملح حتى ينضج بالكاد، ثم صفّه واشطفه بماء بارد لإيقاف الطهي.",
-          "افرد الأرز ليبرد تماماً.",
-          "أضف التونة والذرة والزيتون والطماطم والخرشوف.",
-          "تبّل بزيت الزيتون وعصير الليمون والملح والفلفل والريحان.",
-          "برّدها 30 دقيقة على الأقل قبل التقديم."
-        ]
-      },
-      "tips": [
-        "اختر التونة المعلبة في الماء بدلاً من الزيت لتقليل الدهون.",
-        "زد الطماطم والخرشوف وقلل الأرز قليلاً في الحصة.",
-        "الزيتون يرفع السعرات بسرعة، وحفنة صغيرة تكفي للنكهة."
-      ]
-    },
-    "it": {
-      "name": "Insalata di riso",
-      "name_inline": "insalata di riso",
-      "origin": "Italia",
-      "intro": "L'insalata di riso è l'insalata estiva preferita dagli italiani: riso cotto e raffreddato mescolato con tonno, mais dolce, olive, pomodoro a dadini e cuori di carciofo, condito semplicemente con olio d'oliva e limone o aceto. È fresca, colorata e leggermente acidula, e ogni forchettata offre un boccone diverso. Si serve fredda e spesso si porta ai picnic e in spiaggia.",
-      "history": "L'insalata di riso è un punto fisso della cucina casalinga italiana d'estate, servita fredda ai pranzi in famiglia, ai picnic e nelle gite al mare. Ogni famiglia ha il proprio mix di ingredienti.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 g di riso (per esempio Arborio o parboiled)",
-          "160 g di tonno in scatola sgocciolato",
-          "150 g di mais dolce",
-          "80 g di olive denocciolate a rondelle",
-          "2 pomodori a dadini",
-          "150 g di cuori di carciofo tagliati in quarti",
-          "2 cucchiai di olio d'oliva",
-          "1 cucchiaio di succo di limone o aceto",
-          "Sale, pepe e basilico"
-        ],
-        "steps": [
-          "Lessa il riso in acqua salata finché è appena tenero, scolalo e sciacqualo sotto l'acqua fredda per fermare la cottura.",
-          "Allarga il riso e lascialo raffreddare completamente.",
-          "Incorpora tonno, mais, olive, pomodori e carciofi.",
-          "Condisci con olio d'oliva, succo di limone, sale, pepe e basilico.",
-          "Metti in frigorifero per almeno 30 minuti prima di servire."
-        ]
-      },
-      "tips": [
-        "Scegli tonno al naturale invece che sott'olio per risparmiare grassi.",
-        "Usa più pomodoro e carciofo e un po' meno riso a porzione.",
-        "Le olive fanno salire in fretta le calorie; una piccola manciata basta per il sapore."
-      ]
-    },
-    "el": {
-      "name": "Ιταλική σαλάτα ρυζιού (insalata di riso)",
-      "origin": "Ιταλία",
-      "intro": "Η insalata di riso είναι η αγαπημένη καλοκαιρινή σαλάτα ρυζιού της Ιταλίας: βρασμένο, κρύο ρύζι ανακατεμένο με τόνο, γλυκό καλαμπόκι, ελιές, ντομάτα σε κυβάκια και καρδιές αγκινάρας, με απλό ντρέσινγκ από ελαιόλαδο και λεμόνι ή ξίδι. Είναι φρέσκια, πολύχρωμη και ελαφρώς ξινή, με κάθε πιρουνιά να δίνει διαφορετική μπουκιά. Σερβίρεται κρύα και συχνά παίρνεται για πικνίκ και μέρες στην παραλία.",
-      "history": "Η σαλάτα ρυζιού είναι σταθερή παρουσία της ιταλικής σπιτικής κουζίνας το καλοκαίρι και σερβίρεται κρύα σε οικογενειακά γεύματα, πικνίκ και εκδρομές στη θάλασσα. Κάθε οικογένεια έχει τον δικό της συνδυασμό υλικών.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 γρ. ρύζι (π.χ. Arborio ή parboiled)",
-          "160 γρ. τόνος κονσέρβας, στραγγισμένος",
-          "150 γρ. γλυκό καλαμπόκι",
-          "80 γρ. ελιές χωρίς κουκούτσι, σε ροδέλες",
-          "2 ντομάτες, σε κυβάκια",
-          "150 γρ. καρδιές αγκινάρας, σε τέταρτα",
-          "2 κ.σ. ελαιόλαδο",
-          "1 κ.σ. χυμός λεμονιού ή ξίδι",
-          "Αλάτι, πιπέρι και βασιλικός"
-        ],
-        "steps": [
-          "Βράστε το ρύζι σε αλατισμένο νερό μέχρι να μαλακώσει ίσα ίσα, στραγγίστε και ξεπλύνετε με κρύο νερό για να σταματήσει το βράσιμο.",
-          "Απλώστε το ρύζι να κρυώσει εντελώς.",
-          "Ανακατέψτε τον τόνο, το καλαμπόκι, τις ελιές, τις ντομάτες και τις αγκινάρες.",
-          "Περιχύστε με ελαιόλαδο, χυμό λεμονιού, αλάτι, πιπέρι και βασιλικό.",
-          "Βάλτε στο ψυγείο για τουλάχιστον 30 λεπτά πριν σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Διαλέξτε τόνο σε νερό αντί για λάδι για να γλιτώσετε λιπαρά.",
-        "Βάλτε περισσότερη ντομάτα και αγκινάρα και λίγο λιγότερο ρύζι ανά μερίδα.",
-        "Οι ελιές ανεβάζουν γρήγορα τις θερμίδες· μια μικρή χούφτα αρκεί για γεύση."
-      ]
-    },
-    "ru": {
-      "name": "Итальянский рисовый салат (инсалата ди ризо)",
-      "origin": "Италия",
-      "intro": "Инсалата ди ризо — любимый итальянский летний рисовый салат: отварной остывший рис, смешанный с тунцом, сладкой кукурузой, оливками, нарезанными помидорами и артишоками, просто заправленный оливковым маслом и лимоном или уксусом. Он свежий, яркий и слегка кисловатый, и каждая вилка приносит новый вкус. Подаётся холодным, его часто берут с собой на пикники и на пляж.",
-      "history": "Рисовый салат — неотъемлемая часть итальянской домашней кухни летом, его подают холодным на семейных обедах, пикниках и морских прогулках. У каждой семьи свой набор добавок.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 г риса (например, арборио или пропаренного)",
-          "160 г консервированного тунца, слитого",
-          "150 г сладкой кукурузы",
-          "80 г оливок без косточек, нарезанных",
-          "2 помидора, нарезанных кубиками",
-          "150 г сердцевин артишоков, нарезанных на четвертинки",
-          "2 ст. л. оливкового масла",
-          "1 ст. л. лимонного сока или уксуса",
-          "Соль, перец и базилик"
-        ],
-        "steps": [
-          "Отварите рис в подсоленной воде до состояния «аль денте», слейте воду и промойте холодной водой, чтобы остановить приготовление.",
-          "Разложите рис, чтобы он полностью остыл.",
-          "Вмешайте тунец, кукурузу, оливки, помидоры и артишоки.",
-          "Заправьте оливковым маслом, лимонным соком, солью, перцем и базиликом.",
-          "Охладите минимум 30 минут перед подачей."
-        ]
-      },
-      "tips": [
-        "Выбирайте тунец в собственном соку, а не в масле, чтобы уменьшить жирность.",
-        "Кладите больше помидоров и артишоков и немного меньше риса на порцию.",
-        "Оливки быстро добавляют калории; для вкуса достаточно небольшой горсти."
-      ],
-      "name_inline": "итальянский рисовый салат"
-    }
+  "ar": {
+   "name": "سلطة الأرز الإيطالية (إنسالاتا دي ريزو)",
+   "origin": "إيطاليا",
+   "intro": "إنسالاتا دي ريزو هي سلطة الأرز الصيفية المفضلة في إيطاليا: أرز مطبوخ ومبرد يُخلط مع التونة والذرة الحلوة والزيتون والطماطم المقطعة وقلوب الخرشوف، ويُتبل ببساطة بزيت الزيتون والليمون أو الخل. طعمها منعش وملون وحامض قليلاً، وكل لقمة تحمل مذاقاً مختلفاً. تُقدم باردة وغالباً ما تُحمل في النزهات وأيام الشاطئ.",
+   "history": "سلطة الأرز من ثوابت المطبخ المنزلي الإيطالي في الصيف، تُقدم باردة في غداءات العائلة والنزهات والرحلات إلى البحر، ولكل عائلة خلطتها الخاصة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 غ أرز",
+     "160 غ تونة معلبة، مصفاة",
+     "150 غ ذرة حلوة",
+     "80 غ زيتون منزوع النوى، شرائح",
+     "حبتا طماطم، مقطعتان",
+     "150 غ قلوب خرشوف، مقطعة أرباعاً",
+     "ملعقتان كبيرتان زيت زيتون",
+     "ملعقة كبيرة عصير ليمون أو خل",
+     "ملح وفلفل وريحان"
+    ],
+    "steps": [
+     "اسلق الأرز في ماء مملح حتى ينضج بالكاد، ثم صفّه واشطفه بماء بارد لإيقاف الطهي.",
+     "افرد الأرز ليبرد تماماً.",
+     "أضف التونة والذرة والزيتون والطماطم والخرشوف.",
+     "تبّل بزيت الزيتون وعصير الليمون والملح والفلفل والريحان.",
+     "برّدها 30 دقيقة على الأقل قبل التقديم."
+    ]
+   },
+   "tips": [
+    "اختر التونة المعلبة في الماء بدلاً من الزيت لتقليل الدهون.",
+    "زد الطماطم والخرشوف وقلل الأرز قليلاً في الحصة.",
+    "الزيتون يرفع السعرات بسرعة، وحفنة صغيرة تكفي للنكهة."
+   ]
+  },
+  "it": {
+   "name": "Insalata di riso",
+   "name_inline": "insalata di riso",
+   "origin": "Italia",
+   "intro": "L'insalata di riso è l'insalata estiva preferita dagli italiani: riso cotto e raffreddato mescolato con tonno, mais dolce, olive, pomodoro a dadini e cuori di carciofo, condito semplicemente con olio d'oliva e limone o aceto. È fresca, colorata e leggermente acidula, e ogni forchettata offre un boccone diverso. Si serve fredda e spesso si porta ai picnic e in spiaggia.",
+   "history": "L'insalata di riso è un punto fisso della cucina casalinga italiana d'estate, servita fredda ai pranzi in famiglia, ai picnic e nelle gite al mare. Ogni famiglia ha il proprio mix di ingredienti.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 g di riso (per esempio Arborio o parboiled)",
+     "160 g di tonno in scatola sgocciolato",
+     "150 g di mais dolce",
+     "80 g di olive denocciolate a rondelle",
+     "2 pomodori a dadini",
+     "150 g di cuori di carciofo tagliati in quarti",
+     "2 cucchiai di olio d'oliva",
+     "1 cucchiaio di succo di limone o aceto",
+     "Sale, pepe e basilico"
+    ],
+    "steps": [
+     "Lessa il riso in acqua salata finché è appena tenero, scolalo e sciacqualo sotto l'acqua fredda per fermare la cottura.",
+     "Allarga il riso e lascialo raffreddare completamente.",
+     "Incorpora tonno, mais, olive, pomodori e carciofi.",
+     "Condisci con olio d'oliva, succo di limone, sale, pepe e basilico.",
+     "Metti in frigorifero per almeno 30 minuti prima di servire."
+    ]
+   },
+   "tips": [
+    "Scegli tonno al naturale invece che sott'olio per risparmiare grassi.",
+    "Usa più pomodoro e carciofo e un po' meno riso a porzione.",
+    "Le olive fanno salire in fretta le calorie; una piccola manciata basta per il sapore."
+   ]
+  },
+  "el": {
+   "name": "Ιταλική σαλάτα ρυζιού (insalata di riso)",
+   "origin": "Ιταλία",
+   "intro": "Η insalata di riso είναι η αγαπημένη καλοκαιρινή σαλάτα ρυζιού της Ιταλίας: βρασμένο, κρύο ρύζι ανακατεμένο με τόνο, γλυκό καλαμπόκι, ελιές, ντομάτα σε κυβάκια και καρδιές αγκινάρας, με απλό ντρέσινγκ από ελαιόλαδο και λεμόνι ή ξίδι. Είναι φρέσκια, πολύχρωμη και ελαφρώς ξινή, με κάθε πιρουνιά να δίνει διαφορετική μπουκιά. Σερβίρεται κρύα και συχνά παίρνεται για πικνίκ και μέρες στην παραλία.",
+   "history": "Η σαλάτα ρυζιού είναι σταθερή παρουσία της ιταλικής σπιτικής κουζίνας το καλοκαίρι και σερβίρεται κρύα σε οικογενειακά γεύματα, πικνίκ και εκδρομές στη θάλασσα. Κάθε οικογένεια έχει τον δικό της συνδυασμό υλικών.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 γρ. ρύζι (π.χ. Arborio ή parboiled)",
+     "160 γρ. τόνος κονσέρβας, στραγγισμένος",
+     "150 γρ. γλυκό καλαμπόκι",
+     "80 γρ. ελιές χωρίς κουκούτσι, σε ροδέλες",
+     "2 ντομάτες, σε κυβάκια",
+     "150 γρ. καρδιές αγκινάρας, σε τέταρτα",
+     "2 κ.σ. ελαιόλαδο",
+     "1 κ.σ. χυμός λεμονιού ή ξίδι",
+     "Αλάτι, πιπέρι και βασιλικός"
+    ],
+    "steps": [
+     "Βράστε το ρύζι σε αλατισμένο νερό μέχρι να μαλακώσει ίσα ίσα, στραγγίστε και ξεπλύνετε με κρύο νερό για να σταματήσει το βράσιμο.",
+     "Απλώστε το ρύζι να κρυώσει εντελώς.",
+     "Ανακατέψτε τον τόνο, το καλαμπόκι, τις ελιές, τις ντομάτες και τις αγκινάρες.",
+     "Περιχύστε με ελαιόλαδο, χυμό λεμονιού, αλάτι, πιπέρι και βασιλικό.",
+     "Βάλτε στο ψυγείο για τουλάχιστον 30 λεπτά πριν σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Διαλέξτε τόνο σε νερό αντί για λάδι για να γλιτώσετε λιπαρά.",
+    "Βάλτε περισσότερη ντομάτα και αγκινάρα και λίγο λιγότερο ρύζι ανά μερίδα.",
+    "Οι ελιές ανεβάζουν γρήγορα τις θερμίδες· μια μικρή χούφτα αρκεί για γεύση."
+   ]
+  },
+  "ru": {
+   "name": "Итальянский рисовый салат (инсалата ди ризо)",
+   "origin": "Италия",
+   "intro": "Инсалата ди ризо — любимый итальянский летний рисовый салат: отварной остывший рис, смешанный с тунцом, сладкой кукурузой, оливками, нарезанными помидорами и артишоками, просто заправленный оливковым маслом и лимоном или уксусом. Он свежий, яркий и слегка кисловатый, и каждая вилка приносит новый вкус. Подаётся холодным, его часто берут с собой на пикники и на пляж.",
+   "history": "Рисовый салат — неотъемлемая часть итальянской домашней кухни летом, его подают холодным на семейных обедах, пикниках и морских прогулках. У каждой семьи свой набор добавок.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 г риса (например, арборио или пропаренного)",
+     "160 г консервированного тунца, слитого",
+     "150 г сладкой кукурузы",
+     "80 г оливок без косточек, нарезанных",
+     "2 помидора, нарезанных кубиками",
+     "150 г сердцевин артишоков, нарезанных на четвертинки",
+     "2 ст. л. оливкового масла",
+     "1 ст. л. лимонного сока или уксуса",
+     "Соль, перец и базилик"
+    ],
+    "steps": [
+     "Отварите рис в подсоленной воде до состояния «аль денте», слейте воду и промойте холодной водой, чтобы остановить приготовление.",
+     "Разложите рис, чтобы он полностью остыл.",
+     "Вмешайте тунец, кукурузу, оливки, помидоры и артишоки.",
+     "Заправьте оливковым маслом, лимонным соком, солью, перцем и базиликом.",
+     "Охладите минимум 30 минут перед подачей."
+    ]
+   },
+   "tips": [
+    "Выбирайте тунец в собственном соку, а не в масле, чтобы уменьшить жирность.",
+    "Кладите больше помидоров и артишоков и немного меньше риса на порцию.",
+    "Оливки быстро добавляют калории; для вкуса достаточно небольшой горсти."
+   ],
+   "name_inline": "итальянский рисовый салат"
+  },
+  "es": {
+   "name": "Ensalada italiana de arroz (insalata di riso)",
+   "origin": "Italia",
+   "intro": "La insalata di riso es la ensalada de arroz veraniega favorita de Italia: arroz cocido y enfriado, mezclado con atún, elote, aceitunas, jitomate en cubos y corazones de alcachofa, aderezado de forma sencilla con aceite de oliva y limón o vinagre. Es fresca, colorida y ligeramente ácida, y cada bocado ofrece algo distinto. Se sirve fría y a menudo se lleva a picnics y días de playa.",
+   "history": "La ensalada de arroz es un clásico de la cocina casera italiana en verano, que se sirve fría en comidas familiares, picnics y salidas a la playa. Cada familia tiene su propia mezcla de ingredientes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 g de arroz (como arborio o precocido)",
+     "160 g de atún en lata, escurrido",
+     "150 g de elote en grano",
+     "80 g de aceitunas sin hueso, en rodajas",
+     "2 jitomates, en cubos",
+     "150 g de corazones de alcachofa, en cuartos",
+     "2 cda. de aceite de oliva",
+     "1 cda. de jugo de limón o vinagre",
+     "Sal, pimienta y albahaca"
+    ],
+    "steps": [
+     "Hierve el arroz en agua con sal hasta que esté justo tierno, escúrrelo y enjuágalo con agua fría para detener la cocción.",
+     "Extiende el arroz para que se enfríe por completo.",
+     "Mezcla el atún, el elote, las aceitunas, los jitomates y las alcachofas.",
+     "Aliña con el aceite de oliva, el jugo de limón, la sal, la pimienta y la albahaca.",
+     "Refrigera al menos 30 minutos antes de servir."
+    ]
+   },
+   "tips": [
+    "Elige atún en agua en lugar de en aceite para ahorrar grasa.",
+    "Usa más jitomate y alcachofa y un poco menos de arroz por porción.",
+    "Las aceitunas suman rápido: un puñado pequeño basta para dar sabor."
+   ],
+   "name_inline": "la ensalada de arroz"
   }
+ }
 }

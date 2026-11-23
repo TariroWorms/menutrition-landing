@@ -1,181 +1,215 @@
 {
-  "db_key": "chicken_curry_indian",
-  "slug": "chicken-curry-indian",
-  "emoji": "🍛",
-  "portion_g": 300,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "chicken_curry_indian",
+ "slug": "chicken-curry-indian",
+ "emoji": "🍛",
+ "portion_g": 300,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken curry",
+   "origin": "India",
+   "intro": "Indian chicken curry is a home-style dish of chicken pieces simmered in a sauce built from browned onion, tomato, ginger and garlic, seasoned with garam masala. The sauce is thick, aromatic and warming rather than fiery, and clings to the meat. It is eaten with plain rice or flatbread and is one of the most common everyday meals in Indian homes.",
+   "history": "Chicken curry has no single origin: countless regional versions are cooked across India, each with its own spice balance. The English word curry is usually traced to the Tamil kari, meaning a sauce or relish, which European traders applied broadly to spiced Indian dishes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g chicken pieces, skinless",
+     "2 onions, finely chopped",
+     "3 tomatoes, chopped",
+     "1 tbsp grated ginger",
+     "4 garlic cloves, crushed",
+     "2 tsp garam masala",
+     "1 tsp ground turmeric and 1 tsp chili powder",
+     "2 tbsp oil, salt",
+     "Fresh coriander to serve"
+    ],
+    "steps": [
+     "Heat the oil and fry the onions slowly for 10–12 minutes until deep golden.",
+     "Add the ginger and garlic and cook for 1 minute, then add the turmeric and chili powder.",
+     "Add the tomatoes and cook until they break down into a thick paste, about 8 minutes.",
+     "Add the chicken and salt, stir to coat, pour in 250 ml water, cover and simmer for 25–30 minutes.",
+     "Stir in the garam masala, simmer 2 more minutes and scatter with coriander."
+    ]
+   },
+   "tips": [
+    "Use skinless chicken: most of the fat in the bird sits in the skin.",
+    "Brown the onions in 1 tbsp oil and a splash of water instead of a pool of oil.",
+    "Pair it with a small portion of rice and a big cucumber-tomato salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken curry",
-      "origin": "India",
-      "intro": "Indian chicken curry is a home-style dish of chicken pieces simmered in a sauce built from browned onion, tomato, ginger and garlic, seasoned with garam masala. The sauce is thick, aromatic and warming rather than fiery, and clings to the meat. It is eaten with plain rice or flatbread and is one of the most common everyday meals in Indian homes.",
-      "history": "Chicken curry has no single origin: countless regional versions are cooked across India, each with its own spice balance. The English word curry is usually traced to the Tamil kari, meaning a sauce or relish, which European traders applied broadly to spiced Indian dishes.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 g chicken pieces, skinless",
-          "2 onions, finely chopped",
-          "3 tomatoes, chopped",
-          "1 tbsp grated ginger",
-          "4 garlic cloves, crushed",
-          "2 tsp garam masala",
-          "1 tsp ground turmeric and 1 tsp chili powder",
-          "2 tbsp oil, salt",
-          "Fresh coriander to serve"
-        ],
-        "steps": [
-          "Heat the oil and fry the onions slowly for 10–12 minutes until deep golden.",
-          "Add the ginger and garlic and cook for 1 minute, then add the turmeric and chili powder.",
-          "Add the tomatoes and cook until they break down into a thick paste, about 8 minutes.",
-          "Add the chicken and salt, stir to coat, pour in 250 ml water, cover and simmer for 25–30 minutes.",
-          "Stir in the garam masala, simmer 2 more minutes and scatter with coriander."
-        ]
-      },
-      "tips": [
-        "Use skinless chicken: most of the fat in the bird sits in the skin.",
-        "Brown the onions in 1 tbsp oil and a splash of water instead of a pool of oil.",
-        "Pair it with a small portion of rice and a big cucumber-tomato salad."
-      ]
-    },
-    "ar": {
-      "name": "كاري الدجاج الهندي",
-      "origin": "الهند",
-      "intro": "كاري الدجاج الهندي طبق منزلي من قطع الدجاج المطهوة في صلصة من البصل المحمّر والطماطم والزنجبيل والثوم، متبّلة بالجارام ماسالا. الصلصة كثيفة وعطرية ودافئة أكثر منها لاذعة، وتلتصق باللحم. يؤكل مع الأرز الأبيض أو الخبز المسطح، وهو من أكثر الوجبات اليومية شيوعًا في البيوت الهندية.",
-      "history": "ليس لكاري الدجاج أصل واحد، إذ تُطهى نسخ إقليمية لا تُحصى في أنحاء الهند لكل منها توازن توابل خاص. وتُرجَع كلمة «كاري» الإنجليزية عادةً إلى كلمة «كاري» التاميلية بمعنى الصلصة، التي أطلقها التجار الأوروبيون على الأطباق الهندية المتبلة عمومًا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 غ قطع دجاج بلا جلد",
-          "2 بصلة مفرومة ناعمًا",
-          "3 حبات طماطم مقطعة",
-          "1 ملعقة كبيرة زنجبيل مبشور",
-          "4 فصوص ثوم مهروسة",
-          "2 ملعقة صغيرة جارام ماسالا",
-          "1 ملعقة صغيرة كركم و1 ملعقة صغيرة فلفل حار مطحون",
-          "2 ملعقة كبيرة زيت، ملح",
-          "كزبرة خضراء للتقديم"
-        ],
-        "steps": [
-          "سخّن الزيت وحمّر البصل على نار هادئة 10–12 دقيقة حتى يصبح ذهبيًا غامقًا.",
-          "أضف الزنجبيل والثوم وقلّب دقيقة، ثم أضف الكركم والفلفل الحار.",
-          "أضف الطماطم واطهها حتى تتحول إلى معجون كثيف، نحو 8 دقائق.",
-          "أضف الدجاج والملح وقلّب، ثم صب 250 مل ماء وغطِّ القدر واتركه على نار هادئة 25–30 دقيقة.",
-          "أضف الجارام ماسالا واطهُ دقيقتين إضافيتين ثم انثر الكزبرة."
-        ]
-      },
-      "tips": [
-        "استخدم دجاجًا بلا جلد، فمعظم دهون الدجاج في الجلد.",
-        "حمّر البصل بملعقة كبيرة واحدة من الزيت مع قليل من الماء بدل كمية كبيرة من الزيت.",
-        "قدّمه مع حصة صغيرة من الأرز وسلطة كبيرة من الخيار والطماطم."
-      ]
-    },
-    "it": {
-      "name": "Pollo al curry",
-      "origin": "India",
-      "intro": "Il pollo al curry indiano è un piatto casalingo di pezzi di pollo cotti a fuoco lento in una salsa a base di cipolla rosolata, pomodoro, zenzero e aglio, insaporita con garam masala. La salsa è densa, aromatica e avvolgente più che piccante, e si attacca alla carne. Si mangia con riso bianco o pane piatto ed è uno dei pasti quotidiani più comuni nelle case indiane.",
-      "history": "Il pollo al curry non ha un'unica origine: in tutta l'India se ne cucinano innumerevoli versioni regionali, ciascuna con il proprio equilibrio di spezie. La parola inglese curry viene di solito ricondotta al tamil kari, che significa salsa o condimento, termine che i mercanti europei applicarono in senso lato ai piatti speziati indiani.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 g di pezzi di pollo senza pelle",
-          "2 cipolle tritate finemente",
-          "3 pomodori tritati",
-          "1 cucchiaio di zenzero grattugiato",
-          "4 spicchi d'aglio schiacciati",
-          "2 cucchiaini di garam masala",
-          "1 cucchiaino di curcuma in polvere e 1 cucchiaino di peperoncino in polvere",
-          "2 cucchiai di olio, sale",
-          "Coriandolo fresco per servire"
-        ],
-        "steps": [
-          "Scalda l'olio e fai soffriggere lentamente le cipolle per 10–12 minuti, finché sono ben dorate.",
-          "Aggiungi lo zenzero e l'aglio e cuoci per 1 minuto, poi unisci la curcuma e il peperoncino in polvere.",
-          "Aggiungi i pomodori e cuoci finché si disfano in una pasta densa, circa 8 minuti.",
-          "Aggiungi il pollo e il sale, mescola per insaporirlo, versa 250 ml di acqua, copri e cuoci a fuoco lento per 25–30 minuti.",
-          "Incorpora il garam masala, cuoci ancora 2 minuti e cospargi di coriandolo."
-        ]
-      },
-      "tips": [
-        "Usa pollo senza pelle: la maggior parte del grasso del pollo si trova nella pelle.",
-        "Rosola le cipolle con 1 cucchiaio di olio e un goccio d'acqua invece che in un bagno d'olio.",
-        "Accompagnalo con una piccola porzione di riso e una grande insalata di cetrioli e pomodori."
-      ],
-      "name_inline": "pollo al curry"
-    },
-    "el": {
-      "name": "Κοτόπουλο κάρι",
-      "origin": "Ινδία",
-      "intro": "Το ινδικό κοτόπουλο κάρι είναι ένα σπιτικό πιάτο με κομμάτια κοτόπουλου που σιγοβράζουν σε σάλτσα από καβουρδισμένο κρεμμύδι, ντομάτα, τζίντζερ και σκόρδο, αρωματισμένη με γκαραμ μασάλα. Η σάλτσα είναι πηχτή, αρωματική και ζεστή στη γεύση χωρίς να καίει, και αγκαλιάζει το κρέας. Τρώγεται με σκέτο ρύζι ή πίτα και είναι ένα από τα πιο συνηθισμένα καθημερινά φαγητά στα ινδικά σπίτια.",
-      "history": "Το κοτόπουλο κάρι δεν έχει μία μόνο προέλευση: σε όλη την Ινδία μαγειρεύονται αμέτρητες τοπικές εκδοχές, η καθεμία με τη δική της ισορροπία μπαχαρικών. Η αγγλική λέξη curry συνήθως ανάγεται στο ταμιλικό kari, που σημαίνει σάλτσα ή συνοδευτικό, όρο που οι Ευρωπαίοι έμποροι χρησιμοποίησαν γενικά για τα πικάντικα ινδικά πιάτα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 γρ. κομμάτια κοτόπουλου χωρίς πέτσα",
-          "2 κρεμμύδια ψιλοκομμένα",
-          "3 ντομάτες ψιλοκομμένες",
-          "1 κ.σ. τριμμένο τζίντζερ",
-          "4 σκελίδες σκόρδο λιωμένες",
-          "2 κ.γ. γκαραμ μασάλα",
-          "1 κ.γ. κουρκουμά σε σκόνη και 1 κ.γ. τσίλι σε σκόνη",
-          "2 κ.σ. λάδι, αλάτι",
-          "Φρέσκος κόλιανδρος για το σερβίρισμα"
-        ],
-        "steps": [
-          "Ζεστάνετε το λάδι και τσιγαρίστε αργά τα κρεμμύδια για 10–12 λεπτά, μέχρι να πάρουν βαθύ χρυσαφί χρώμα.",
-          "Προσθέστε το τζίντζερ και το σκόρδο και μαγειρέψτε για 1 λεπτό, έπειτα προσθέστε τον κουρκουμά και το τσίλι.",
-          "Προσθέστε τις ντομάτες και μαγειρέψτε μέχρι να λιώσουν σε πηχτό πολτό, περίπου 8 λεπτά.",
-          "Προσθέστε το κοτόπουλο και το αλάτι, ανακατέψτε να πασαλειφτεί, ρίξτε 250 ml νερό, σκεπάστε και σιγοβράστε για 25–30 λεπτά.",
-          "Ανακατέψτε το γκαραμ μασάλα, σιγοβράστε άλλα 2 λεπτά και πασπαλίστε με κόλιανδρο."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε κοτόπουλο χωρίς πέτσα: το μεγαλύτερο μέρος του λίπους του πουλιού βρίσκεται στην πέτσα.",
-        "Καβουρδίστε τα κρεμμύδια με 1 κ.σ. λάδι και λίγο νερό αντί για μια λίμνη λαδιού.",
-        "Συνοδεύστε το με μια μικρή μερίδα ρύζι και μια μεγάλη σαλάτα με αγγούρι και ντομάτα."
-      ]
-    },
-    "ru": {
-      "name": "Куриное карри",
-      "origin": "Индия",
-      "intro": "Индийское куриное карри — домашнее блюдо из кусочков курицы, тушёных в соусе из обжаренного лука, помидоров, имбиря и чеснока, приправленном гарам-масалой. Соус густой, ароматный и согревающий, а не обжигающий, и обволакивает мясо. Его едят с простым рисом или лепёшками, и это одно из самых распространённых повседневных блюд в индийских домах.",
-      "history": "У куриного карри нет единого происхождения: по всей Индии готовят бесчисленные региональные варианты, каждый со своим балансом специй. Английское слово curry обычно возводят к тамильскому kari, означающему соус или приправу, которым европейские торговцы называли широкий круг пряных индийских блюд.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 г кусочков курицы без кожи",
-          "2 луковицы, мелко нарубленные",
-          "3 помидора, нарубленных",
-          "1 ст. л. тёртого имбиря",
-          "4 зубчика чеснока, раздавленных",
-          "2 ч. л. гарам-масалы",
-          "1 ч. л. молотой куркумы и 1 ч. л. порошка чили",
-          "2 ст. л. масла, соль",
-          "Свежая кинза для подачи"
-        ],
-        "steps": [
-          "Разогрейте масло и медленно обжаривайте лук 10–12 минут до насыщенно-золотистого цвета.",
-          "Добавьте имбирь и чеснок и готовьте 1 минуту, затем добавьте куркуму и порошок чили.",
-          "Добавьте помидоры и готовьте, пока они не превратятся в густую пасту, около 8 минут.",
-          "Добавьте курицу и соль, перемешайте, влейте 250 мл воды, накройте и тушите 25–30 минут.",
-          "Вмешайте гарам-масалу, варите ещё 2 минуты и посыпьте кинзой."
-        ]
-      },
-      "tips": [
-        "Берите курицу без кожи: основная часть жира птицы находится в коже.",
-        "Обжаривайте лук в 1 ст. л. масла с добавлением воды вместо лужи масла.",
-        "Подавайте с небольшой порцией риса и большим салатом из огурцов и помидоров."
-      ],
-      "name_inline": "куриное карри"
-    }
+  "ar": {
+   "name": "كاري الدجاج الهندي",
+   "origin": "الهند",
+   "intro": "كاري الدجاج الهندي طبق منزلي من قطع الدجاج المطهوة في صلصة من البصل المحمّر والطماطم والزنجبيل والثوم، متبّلة بالجارام ماسالا. الصلصة كثيفة وعطرية ودافئة أكثر منها لاذعة، وتلتصق باللحم. يؤكل مع الأرز الأبيض أو الخبز المسطح، وهو من أكثر الوجبات اليومية شيوعًا في البيوت الهندية.",
+   "history": "ليس لكاري الدجاج أصل واحد، إذ تُطهى نسخ إقليمية لا تُحصى في أنحاء الهند لكل منها توازن توابل خاص. وتُرجَع كلمة «كاري» الإنجليزية عادةً إلى كلمة «كاري» التاميلية بمعنى الصلصة، التي أطلقها التجار الأوروبيون على الأطباق الهندية المتبلة عمومًا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 غ قطع دجاج بلا جلد",
+     "2 بصلة مفرومة ناعمًا",
+     "3 حبات طماطم مقطعة",
+     "1 ملعقة كبيرة زنجبيل مبشور",
+     "4 فصوص ثوم مهروسة",
+     "2 ملعقة صغيرة جارام ماسالا",
+     "1 ملعقة صغيرة كركم و1 ملعقة صغيرة فلفل حار مطحون",
+     "2 ملعقة كبيرة زيت، ملح",
+     "كزبرة خضراء للتقديم"
+    ],
+    "steps": [
+     "سخّن الزيت وحمّر البصل على نار هادئة 10–12 دقيقة حتى يصبح ذهبيًا غامقًا.",
+     "أضف الزنجبيل والثوم وقلّب دقيقة، ثم أضف الكركم والفلفل الحار.",
+     "أضف الطماطم واطهها حتى تتحول إلى معجون كثيف، نحو 8 دقائق.",
+     "أضف الدجاج والملح وقلّب، ثم صب 250 مل ماء وغطِّ القدر واتركه على نار هادئة 25–30 دقيقة.",
+     "أضف الجارام ماسالا واطهُ دقيقتين إضافيتين ثم انثر الكزبرة."
+    ]
+   },
+   "tips": [
+    "استخدم دجاجًا بلا جلد، فمعظم دهون الدجاج في الجلد.",
+    "حمّر البصل بملعقة كبيرة واحدة من الزيت مع قليل من الماء بدل كمية كبيرة من الزيت.",
+    "قدّمه مع حصة صغيرة من الأرز وسلطة كبيرة من الخيار والطماطم."
+   ]
+  },
+  "it": {
+   "name": "Pollo al curry",
+   "origin": "India",
+   "intro": "Il pollo al curry indiano è un piatto casalingo di pezzi di pollo cotti a fuoco lento in una salsa a base di cipolla rosolata, pomodoro, zenzero e aglio, insaporita con garam masala. La salsa è densa, aromatica e avvolgente più che piccante, e si attacca alla carne. Si mangia con riso bianco o pane piatto ed è uno dei pasti quotidiani più comuni nelle case indiane.",
+   "history": "Il pollo al curry non ha un'unica origine: in tutta l'India se ne cucinano innumerevoli versioni regionali, ciascuna con il proprio equilibrio di spezie. La parola inglese curry viene di solito ricondotta al tamil kari, che significa salsa o condimento, termine che i mercanti europei applicarono in senso lato ai piatti speziati indiani.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g di pezzi di pollo senza pelle",
+     "2 cipolle tritate finemente",
+     "3 pomodori tritati",
+     "1 cucchiaio di zenzero grattugiato",
+     "4 spicchi d'aglio schiacciati",
+     "2 cucchiaini di garam masala",
+     "1 cucchiaino di curcuma in polvere e 1 cucchiaino di peperoncino in polvere",
+     "2 cucchiai di olio, sale",
+     "Coriandolo fresco per servire"
+    ],
+    "steps": [
+     "Scalda l'olio e fai soffriggere lentamente le cipolle per 10–12 minuti, finché sono ben dorate.",
+     "Aggiungi lo zenzero e l'aglio e cuoci per 1 minuto, poi unisci la curcuma e il peperoncino in polvere.",
+     "Aggiungi i pomodori e cuoci finché si disfano in una pasta densa, circa 8 minuti.",
+     "Aggiungi il pollo e il sale, mescola per insaporirlo, versa 250 ml di acqua, copri e cuoci a fuoco lento per 25–30 minuti.",
+     "Incorpora il garam masala, cuoci ancora 2 minuti e cospargi di coriandolo."
+    ]
+   },
+   "tips": [
+    "Usa pollo senza pelle: la maggior parte del grasso del pollo si trova nella pelle.",
+    "Rosola le cipolle con 1 cucchiaio di olio e un goccio d'acqua invece che in un bagno d'olio.",
+    "Accompagnalo con una piccola porzione di riso e una grande insalata di cetrioli e pomodori."
+   ],
+   "name_inline": "pollo al curry"
+  },
+  "el": {
+   "name": "Κοτόπουλο κάρι",
+   "origin": "Ινδία",
+   "intro": "Το ινδικό κοτόπουλο κάρι είναι ένα σπιτικό πιάτο με κομμάτια κοτόπουλου που σιγοβράζουν σε σάλτσα από καβουρδισμένο κρεμμύδι, ντομάτα, τζίντζερ και σκόρδο, αρωματισμένη με γκαραμ μασάλα. Η σάλτσα είναι πηχτή, αρωματική και ζεστή στη γεύση χωρίς να καίει, και αγκαλιάζει το κρέας. Τρώγεται με σκέτο ρύζι ή πίτα και είναι ένα από τα πιο συνηθισμένα καθημερινά φαγητά στα ινδικά σπίτια.",
+   "history": "Το κοτόπουλο κάρι δεν έχει μία μόνο προέλευση: σε όλη την Ινδία μαγειρεύονται αμέτρητες τοπικές εκδοχές, η καθεμία με τη δική της ισορροπία μπαχαρικών. Η αγγλική λέξη curry συνήθως ανάγεται στο ταμιλικό kari, που σημαίνει σάλτσα ή συνοδευτικό, όρο που οι Ευρωπαίοι έμποροι χρησιμοποίησαν γενικά για τα πικάντικα ινδικά πιάτα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 γρ. κομμάτια κοτόπουλου χωρίς πέτσα",
+     "2 κρεμμύδια ψιλοκομμένα",
+     "3 ντομάτες ψιλοκομμένες",
+     "1 κ.σ. τριμμένο τζίντζερ",
+     "4 σκελίδες σκόρδο λιωμένες",
+     "2 κ.γ. γκαραμ μασάλα",
+     "1 κ.γ. κουρκουμά σε σκόνη και 1 κ.γ. τσίλι σε σκόνη",
+     "2 κ.σ. λάδι, αλάτι",
+     "Φρέσκος κόλιανδρος για το σερβίρισμα"
+    ],
+    "steps": [
+     "Ζεστάνετε το λάδι και τσιγαρίστε αργά τα κρεμμύδια για 10–12 λεπτά, μέχρι να πάρουν βαθύ χρυσαφί χρώμα.",
+     "Προσθέστε το τζίντζερ και το σκόρδο και μαγειρέψτε για 1 λεπτό, έπειτα προσθέστε τον κουρκουμά και το τσίλι.",
+     "Προσθέστε τις ντομάτες και μαγειρέψτε μέχρι να λιώσουν σε πηχτό πολτό, περίπου 8 λεπτά.",
+     "Προσθέστε το κοτόπουλο και το αλάτι, ανακατέψτε να πασαλειφτεί, ρίξτε 250 ml νερό, σκεπάστε και σιγοβράστε για 25–30 λεπτά.",
+     "Ανακατέψτε το γκαραμ μασάλα, σιγοβράστε άλλα 2 λεπτά και πασπαλίστε με κόλιανδρο."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε κοτόπουλο χωρίς πέτσα: το μεγαλύτερο μέρος του λίπους του πουλιού βρίσκεται στην πέτσα.",
+    "Καβουρδίστε τα κρεμμύδια με 1 κ.σ. λάδι και λίγο νερό αντί για μια λίμνη λαδιού.",
+    "Συνοδεύστε το με μια μικρή μερίδα ρύζι και μια μεγάλη σαλάτα με αγγούρι και ντομάτα."
+   ]
+  },
+  "ru": {
+   "name": "Куриное карри",
+   "origin": "Индия",
+   "intro": "Индийское куриное карри — домашнее блюдо из кусочков курицы, тушёных в соусе из обжаренного лука, помидоров, имбиря и чеснока, приправленном гарам-масалой. Соус густой, ароматный и согревающий, а не обжигающий, и обволакивает мясо. Его едят с простым рисом или лепёшками, и это одно из самых распространённых повседневных блюд в индийских домах.",
+   "history": "У куриного карри нет единого происхождения: по всей Индии готовят бесчисленные региональные варианты, каждый со своим балансом специй. Английское слово curry обычно возводят к тамильскому kari, означающему соус или приправу, которым европейские торговцы называли широкий круг пряных индийских блюд.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 г кусочков курицы без кожи",
+     "2 луковицы, мелко нарубленные",
+     "3 помидора, нарубленных",
+     "1 ст. л. тёртого имбиря",
+     "4 зубчика чеснока, раздавленных",
+     "2 ч. л. гарам-масалы",
+     "1 ч. л. молотой куркумы и 1 ч. л. порошка чили",
+     "2 ст. л. масла, соль",
+     "Свежая кинза для подачи"
+    ],
+    "steps": [
+     "Разогрейте масло и медленно обжаривайте лук 10–12 минут до насыщенно-золотистого цвета.",
+     "Добавьте имбирь и чеснок и готовьте 1 минуту, затем добавьте куркуму и порошок чили.",
+     "Добавьте помидоры и готовьте, пока они не превратятся в густую пасту, около 8 минут.",
+     "Добавьте курицу и соль, перемешайте, влейте 250 мл воды, накройте и тушите 25–30 минут.",
+     "Вмешайте гарам-масалу, варите ещё 2 минуты и посыпьте кинзой."
+    ]
+   },
+   "tips": [
+    "Берите курицу без кожи: основная часть жира птицы находится в коже.",
+    "Обжаривайте лук в 1 ст. л. масла с добавлением воды вместо лужи масла.",
+    "Подавайте с небольшой порцией риса и большим салатом из огурцов и помидоров."
+   ],
+   "name_inline": "куриное карри"
+  },
+  "es": {
+   "name": "Curri de pollo",
+   "origin": "India",
+   "intro": "El curri de pollo indio es un plato casero de piezas de pollo cocidas en una salsa a base de cebolla dorada, jitomate, jengibre y ajo, sazonada con garam masala. La salsa es espesa, aromática y reconfortante más que picante, y se pega a la carne. Se come con arroz blanco o pan plano y es una de las comidas cotidianas más comunes en los hogares indios.",
+   "history": "El curri de pollo no tiene un único origen: en la India se preparan innumerables versiones regionales, cada una con su propio equilibrio de especias. La palabra inglesa curry suele rastrearse hasta el tamil kari, que significa salsa o acompañamiento, y que los comerciantes europeos aplicaron de forma amplia a los platos especiados de la India.",
+   "recipe": {
+    "ingredients": [
+     "800 g de pollo en piezas, sin piel",
+     "2 cebollas, picadas finas",
+     "3 jitomates, picados",
+     "1 cda. de jengibre rallado",
+     "4 dientes de ajo, machacados",
+     "2 cdta. de garam masala",
+     "1 cdta. de cúrcuma molida y 1 cdta. de chile en polvo",
+     "2 cda. de aceite, sal",
+     "Cilantro fresco para servir"
+    ],
+    "steps": [
+     "Calienta el aceite y fríe las cebollas despacio de 10 a 12 minutos, hasta que estén bien doradas.",
+     "Agrega el jengibre y el ajo y cocina 1 minuto; luego añade la cúrcuma y el chile en polvo.",
+     "Incorpora los jitomates y cocina hasta que se deshagan en una pasta espesa, unos 8 minutos.",
+     "Agrega el pollo y la sal, mezcla para cubrirlo, vierte 250 ml de agua, tapa y cocina a fuego bajo de 25 a 30 minutos.",
+     "Incorpora el garam masala, cocina 2 minutos más y espolvorea con cilantro."
+    ],
+    "servings": 4,
+    "time_min": 60
+   },
+   "tips": [
+    "Usa pollo sin piel: la mayor parte de la grasa del ave está en la piel.",
+    "Dora las cebollas con 1 cda. de aceite y un chorrito de agua en lugar de un charco de aceite.",
+    "Acompaña con una porción pequeña de arroz y una ensalada grande de pepino y jitomate."
+   ],
+   "name_inline": "el curri de pollo"
   }
+ }
 }

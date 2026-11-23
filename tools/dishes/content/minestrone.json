@@ -1,169 +1,201 @@
 {
-  "db_key": "minestrone",
-  "slug": "minestrone",
-  "emoji": "🥣",
-  "portion_g": 350,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "minestrone",
+ "slug": "minestrone",
+ "emoji": "🥣",
+ "portion_g": 350,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Minestrone",
+   "origin": "Italy",
+   "intro": "Minestrone is a hearty Italian vegetable soup of seasonal vegetables, beans, tomato and small pasta simmered together and finished with olive oil. Carrots, celery, onion, courgette and greens are typical, and each region and season changes the mix. It is chunky and filling, served hot in deep bowls, and often tastes even better the next day.",
+   "history": "Minestrone grew out of Italian peasant cooking, where soups were built from whatever vegetables were in season. There is no single recipe: Ligurian, Milanese and Tuscan versions all differ. Today it is one of the best-known Italian soups worldwide.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "1 onion, 2 carrots and 2 celery sticks, diced",
+     "1 courgette and 1 potato, diced",
+     "100 g green beans or cabbage, chopped",
+     "400 g can cannellini or borlotti beans, drained",
+     "400 g chopped tomatoes",
+     "100 g small pasta",
+     "2 tbsp olive oil",
+     "1.2 litres water or vegetable stock, salt, pepper, basil"
+    ],
+    "steps": [
+     "Warm the olive oil in a large pot and gently cook the onion, carrot and celery for 8–10 minutes.",
+     "Add the potato, courgette, green beans or cabbage and tomatoes, then pour in the water or stock.",
+     "Simmer for 20 minutes, add the beans and pasta and cook for another 10 minutes until the pasta is tender.",
+     "Season with salt and pepper, stir in torn basil and serve hot."
+    ]
+   },
+   "tips": [
+    "Load the pot with vegetables and use less pasta.",
+    "Use one tablespoon of olive oil for the base; each tablespoon is about 120 kcal.",
+    "Serve a big bowl as a whole meal rather than with bread on the side."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Minestrone",
-      "origin": "Italy",
-      "intro": "Minestrone is a hearty Italian vegetable soup of seasonal vegetables, beans, tomato and small pasta simmered together and finished with olive oil. Carrots, celery, onion, courgette and greens are typical, and each region and season changes the mix. It is chunky and filling, served hot in deep bowls, and often tastes even better the next day.",
-      "history": "Minestrone grew out of Italian peasant cooking, where soups were built from whatever vegetables were in season. There is no single recipe: Ligurian, Milanese and Tuscan versions all differ. Today it is one of the best-known Italian soups worldwide.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "1 onion, 2 carrots and 2 celery sticks, diced",
-          "1 courgette and 1 potato, diced",
-          "100 g green beans or cabbage, chopped",
-          "400 g can cannellini or borlotti beans, drained",
-          "400 g chopped tomatoes",
-          "100 g small pasta",
-          "2 tbsp olive oil",
-          "1.2 litres water or vegetable stock, salt, pepper, basil"
-        ],
-        "steps": [
-          "Warm the olive oil in a large pot and gently cook the onion, carrot and celery for 8–10 minutes.",
-          "Add the potato, courgette, green beans or cabbage and tomatoes, then pour in the water or stock.",
-          "Simmer for 20 minutes, add the beans and pasta and cook for another 10 minutes until the pasta is tender.",
-          "Season with salt and pepper, stir in torn basil and serve hot."
-        ]
-      },
-      "tips": [
-        "Load the pot with vegetables and use less pasta.",
-        "Use one tablespoon of olive oil for the base; each tablespoon is about 120 kcal.",
-        "Serve a big bowl as a whole meal rather than with bread on the side."
-      ]
-    },
-    "ar": {
-      "name": "مينستروني",
-      "origin": "إيطاليا",
-      "intro": "المينستروني حساء خضار إيطالي مشبع من خضار الموسم والفاصوليا والطماطم والمعكرونة الصغيرة، تُطهى معًا وتُختم بزيت الزيتون. الجزر والكرفس والبصل والكوسا والخضار الورقية مكونات معتادة، وتغيّر كل منطقة وكل موسم المزيج. قوامه غني بالقطع ومشبع، يُقدّم ساخنًا في أوعية عميقة، وغالبًا ما يكون ألذ في اليوم التالي.",
-      "history": "نشأ المينستروني من الطبخ الريفي الإيطالي، حيث كان الحساء يُحضّر من أي خضار متوفرة في الموسم. ولا توجد له وصفة واحدة: فالنسخ الليغورية والميلانية والتوسكانية كلها مختلفة. واليوم هو من أشهر أنواع الحساء الإيطالي في العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "1 بصلة، 2 جزرة، 2 عود كرفس، مقطعة مكعبات",
-          "1 كوسا و1 بطاطس مقطعة مكعبات",
-          "100 غ فاصوليا خضراء أو ملفوف مقطع",
-          "علبة 400 غ فاصوليا كانيليني أو بورلوتي مصفاة",
-          "400 غ طماطم مقطعة",
-          "100 غ معكرونة صغيرة",
-          "2 ملعقة كبيرة زيت زيتون",
-          "1.2 لتر ماء أو مرق خضار، ملح، فلفل، ريحان"
-        ],
-        "steps": [
-          "سخّن زيت الزيتون في قدر كبير واطهُ البصل والجزر والكرفس بهدوء 8–10 دقائق.",
-          "أضف البطاطس والكوسا والفاصوليا الخضراء أو الملفوف والطماطم، ثم اسكب الماء أو المرق.",
-          "اتركه يغلي بهدوء 20 دقيقة، ثم أضف الفاصوليا والمعكرونة واطهه 10 دقائق أخرى حتى تنضج المعكرونة.",
-          "تبّله بالملح والفلفل، وأضف الريحان الممزق وقدّمه ساخنًا."
-        ]
-      },
-      "tips": [
-        "املأ القدر بالخضار وقلّل المعكرونة.",
-        "استخدم ملعقة كبيرة واحدة من زيت الزيتون للأساس؛ كل ملعقة نحو 120 سعرة.",
-        "قدّم وعاءً كبيرًا كوجبة كاملة بدل إضافة الخبز إلى جانبه."
-      ]
-    },
-    "it": {
-      "name": "Minestrone",
-      "origin": "Italia",
-      "intro": "Il minestrone è una sostanziosa zuppa italiana di verdure di stagione, fagioli, pomodoro e pasta corta cotti insieme a fuoco lento e completati con olio d'oliva. Carote, sedano, cipolla, zucchine e verdure a foglia sono tipici, e ogni regione e stagione cambia il mix. È ricco di pezzi e saziante, si serve caldo in piatti fondi e spesso è ancora più buono il giorno dopo.",
-      "history": "Il minestrone è nato dalla cucina contadina italiana, in cui le zuppe si preparavano con le verdure di stagione disponibili. Non esiste una ricetta unica: le versioni ligure, milanese e toscana sono tutte diverse. Oggi è una delle zuppe italiane più conosciute al mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "1 cipolla, 2 carote e 2 coste di sedano, a dadini",
-          "1 zucchina e 1 patata, a dadini",
-          "100 g di fagiolini o cavolo, tritati",
-          "1 lattina da 400 g di fagioli cannellini o borlotti, scolati",
-          "400 g di pomodori a pezzi",
-          "100 g di pasta corta",
-          "2 cucchiai di olio d'oliva",
-          "1,2 litri di acqua o brodo vegetale, sale, pepe, basilico"
-        ],
-        "steps": [
-          "Scalda l'olio d'oliva in una pentola capiente e cuoci dolcemente la cipolla, la carota e il sedano per 8–10 minuti.",
-          "Aggiungi la patata, la zucchina, i fagiolini o il cavolo e i pomodori, poi versa l'acqua o il brodo.",
-          "Fai sobbollire per 20 minuti, aggiungi i fagioli e la pasta e cuoci per altri 10 minuti finché la pasta è tenera.",
-          "Regola di sale e pepe, aggiungi il basilico spezzettato e servi caldo."
-        ]
-      },
-      "tips": [
-        "Riempi la pentola di verdure e usa meno pasta.",
-        "Usa un cucchiaio di olio d'oliva per il soffritto; ogni cucchiaio è circa 120 kcal.",
-        "Servine un piatto abbondante come pasto completo invece di accompagnarlo con il pane."
-      ]
-    },
-    "el": {
-      "name": "Μινεστρόνε",
-      "origin": "Ιταλία",
-      "intro": "Το μινεστρόνε είναι μια χορταστική ιταλική σούπα με λαχανικά εποχής, φασόλια, ντομάτα και κοφτά ζυμαρικά που σιγοβράζουν μαζί και ολοκληρώνεται με ελαιόλαδο. Καρότα, σέλινο, κρεμμύδι, κολοκυθάκι και χόρτα είναι τα συνηθισμένα, και κάθε περιοχή και εποχή αλλάζει το μείγμα. Είναι γεμάτο κομμάτια και χορταστικό, σερβίρεται ζεστό σε βαθιά πιάτα και συχνά είναι ακόμα πιο νόστιμο την επόμενη μέρα.",
-      "history": "Το μινεστρόνε γεννήθηκε από την ιταλική αγροτική μαγειρική, όπου οι σούπες φτιάχνονταν με όποια λαχανικά της εποχής υπήρχαν. Δεν υπάρχει μία συνταγή: οι εκδοχές της Λιγουρίας, του Μιλάνου και της Τοσκάνης διαφέρουν όλες. Σήμερα είναι από τις πιο γνωστές ιταλικές σούπες στον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "1 κρεμμύδι, 2 καρότα και 2 κλωνάρια σέλινο, σε κυβάκια",
-          "1 κολοκυθάκι και 1 πατάτα, σε κυβάκια",
-          "100 γρ. φασολάκια ή λάχανο, ψιλοκομμένα",
-          "1 κονσέρβα 400 γρ. φασόλια κανελίνι ή μπορλότι, στραγγισμένα",
-          "400 γρ. ντομάτες σε κομματάκια",
-          "100 γρ. κοφτά ζυμαρικά",
-          "2 κ.σ. ελαιόλαδο",
-          "1,2 λίτρα νερό ή ζωμός λαχανικών, αλάτι, πιπέρι, βασιλικός"
-        ],
-        "steps": [
-          "Ζεστάνετε το ελαιόλαδο σε μια μεγάλη κατσαρόλα και μαγειρέψτε απαλά το κρεμμύδι, το καρότο και το σέλινο για 8–10 λεπτά.",
-          "Προσθέστε την πατάτα, το κολοκυθάκι, τα φασολάκια ή το λάχανο και τις ντομάτες και μετά ρίξτε το νερό ή τον ζωμό.",
-          "Σιγοβράστε για 20 λεπτά, προσθέστε τα φασόλια και τα ζυμαρικά και μαγειρέψτε άλλα 10 λεπτά μέχρι να μαλακώσουν τα ζυμαρικά.",
-          "Αλατοπιπερώστε, ανακατέψτε μέσα τον βασιλικό κομμένο με τα χέρια και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Γεμίστε την κατσαρόλα με λαχανικά και βάλτε λιγότερα ζυμαρικά.",
-        "Χρησιμοποιήστε μία κουταλιά της σούπας ελαιόλαδο για τη βάση· κάθε κουταλιά είναι περίπου 120 kcal.",
-        "Σερβίρετε ένα μεγάλο πιάτο ως ολόκληρο γεύμα αντί να το συνοδεύετε με ψωμί."
-      ]
-    },
-    "ru": {
-      "name": "Минестроне",
-      "origin": "Италия",
-      "intro": "Минестроне — сытный итальянский овощной суп из сезонных овощей, фасоли, помидоров и мелкой пасты, сваренных вместе и завершённых оливковым маслом. Типичны морковь, сельдерей, лук, цукини и зелень, и каждый регион и сезон меняют состав. Суп получается крупнокусковым и сытным, его подают горячим в глубоких мисках, и на следующий день он часто вкуснее.",
-      "history": "Минестроне вырос из итальянской крестьянской кухни, где супы готовили из любых сезонных овощей. Единого рецепта нет: лигурийский, миланский и тосканский варианты отличаются. Сегодня это один из самых известных итальянских супов в мире.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "1 луковица, 2 моркови и 2 стебля сельдерея, кубиками",
-          "1 цукини и 1 картофелина, кубиками",
-          "100 г стручковой фасоли или капусты, нарубленных",
-          "400 г консервированной фасоли каннеллини или боротти, откинутой",
-          "400 г нарубленных помидоров",
-          "100 г мелкой пасты",
-          "2 ст. л. оливкового масла",
-          "1,2 л воды или овощного бульона, соль, перец, базилик"
-        ],
-        "steps": [
-          "Разогрейте оливковое масло в большой кастрюле и осторожно готовьте лук, морковь и сельдерей 8–10 минут.",
-          "Добавьте картофель, цукини, стручковую фасоль или капусту и помидоры, затем влейте воду или бульон.",
-          "Варите 20 минут, добавьте фасоль и пасту и готовьте ещё 10 минут до мягкости пасты.",
-          "Приправьте солью и перцем, добавьте рваный базилик и подавайте горячим."
-        ]
-      },
-      "tips": [
-        "Наполните кастрюлю овощами и используйте меньше пасты.",
-        "Используйте одну столовую ложку оливкового масла для основы; каждая столовая ложка это около 120 ккал.",
-        "Подавайте большую миску как полноценный приём пищи, а не с хлебом на гарнир."
-      ]
-    }
+  "ar": {
+   "name": "مينستروني",
+   "origin": "إيطاليا",
+   "intro": "المينستروني حساء خضار إيطالي مشبع من خضار الموسم والفاصوليا والطماطم والمعكرونة الصغيرة، تُطهى معًا وتُختم بزيت الزيتون. الجزر والكرفس والبصل والكوسا والخضار الورقية مكونات معتادة، وتغيّر كل منطقة وكل موسم المزيج. قوامه غني بالقطع ومشبع، يُقدّم ساخنًا في أوعية عميقة، وغالبًا ما يكون ألذ في اليوم التالي.",
+   "history": "نشأ المينستروني من الطبخ الريفي الإيطالي، حيث كان الحساء يُحضّر من أي خضار متوفرة في الموسم. ولا توجد له وصفة واحدة: فالنسخ الليغورية والميلانية والتوسكانية كلها مختلفة. واليوم هو من أشهر أنواع الحساء الإيطالي في العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "1 بصلة، 2 جزرة، 2 عود كرفس، مقطعة مكعبات",
+     "1 كوسا و1 بطاطس مقطعة مكعبات",
+     "100 غ فاصوليا خضراء أو ملفوف مقطع",
+     "علبة 400 غ فاصوليا كانيليني أو بورلوتي مصفاة",
+     "400 غ طماطم مقطعة",
+     "100 غ معكرونة صغيرة",
+     "2 ملعقة كبيرة زيت زيتون",
+     "1.2 لتر ماء أو مرق خضار، ملح، فلفل، ريحان"
+    ],
+    "steps": [
+     "سخّن زيت الزيتون في قدر كبير واطهُ البصل والجزر والكرفس بهدوء 8–10 دقائق.",
+     "أضف البطاطس والكوسا والفاصوليا الخضراء أو الملفوف والطماطم، ثم اسكب الماء أو المرق.",
+     "اتركه يغلي بهدوء 20 دقيقة، ثم أضف الفاصوليا والمعكرونة واطهه 10 دقائق أخرى حتى تنضج المعكرونة.",
+     "تبّله بالملح والفلفل، وأضف الريحان الممزق وقدّمه ساخنًا."
+    ]
+   },
+   "tips": [
+    "املأ القدر بالخضار وقلّل المعكرونة.",
+    "استخدم ملعقة كبيرة واحدة من زيت الزيتون للأساس؛ كل ملعقة نحو 120 سعرة.",
+    "قدّم وعاءً كبيرًا كوجبة كاملة بدل إضافة الخبز إلى جانبه."
+   ]
+  },
+  "it": {
+   "name": "Minestrone",
+   "origin": "Italia",
+   "intro": "Il minestrone è una sostanziosa zuppa italiana di verdure di stagione, fagioli, pomodoro e pasta corta cotti insieme a fuoco lento e completati con olio d'oliva. Carote, sedano, cipolla, zucchine e verdure a foglia sono tipici, e ogni regione e stagione cambia il mix. È ricco di pezzi e saziante, si serve caldo in piatti fondi e spesso è ancora più buono il giorno dopo.",
+   "history": "Il minestrone è nato dalla cucina contadina italiana, in cui le zuppe si preparavano con le verdure di stagione disponibili. Non esiste una ricetta unica: le versioni ligure, milanese e toscana sono tutte diverse. Oggi è una delle zuppe italiane più conosciute al mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "1 cipolla, 2 carote e 2 coste di sedano, a dadini",
+     "1 zucchina e 1 patata, a dadini",
+     "100 g di fagiolini o cavolo, tritati",
+     "1 lattina da 400 g di fagioli cannellini o borlotti, scolati",
+     "400 g di pomodori a pezzi",
+     "100 g di pasta corta",
+     "2 cucchiai di olio d'oliva",
+     "1,2 litri di acqua o brodo vegetale, sale, pepe, basilico"
+    ],
+    "steps": [
+     "Scalda l'olio d'oliva in una pentola capiente e cuoci dolcemente la cipolla, la carota e il sedano per 8–10 minuti.",
+     "Aggiungi la patata, la zucchina, i fagiolini o il cavolo e i pomodori, poi versa l'acqua o il brodo.",
+     "Fai sobbollire per 20 minuti, aggiungi i fagioli e la pasta e cuoci per altri 10 minuti finché la pasta è tenera.",
+     "Regola di sale e pepe, aggiungi il basilico spezzettato e servi caldo."
+    ]
+   },
+   "tips": [
+    "Riempi la pentola di verdure e usa meno pasta.",
+    "Usa un cucchiaio di olio d'oliva per il soffritto; ogni cucchiaio è circa 120 kcal.",
+    "Servine un piatto abbondante come pasto completo invece di accompagnarlo con il pane."
+   ]
+  },
+  "el": {
+   "name": "Μινεστρόνε",
+   "origin": "Ιταλία",
+   "intro": "Το μινεστρόνε είναι μια χορταστική ιταλική σούπα με λαχανικά εποχής, φασόλια, ντομάτα και κοφτά ζυμαρικά που σιγοβράζουν μαζί και ολοκληρώνεται με ελαιόλαδο. Καρότα, σέλινο, κρεμμύδι, κολοκυθάκι και χόρτα είναι τα συνηθισμένα, και κάθε περιοχή και εποχή αλλάζει το μείγμα. Είναι γεμάτο κομμάτια και χορταστικό, σερβίρεται ζεστό σε βαθιά πιάτα και συχνά είναι ακόμα πιο νόστιμο την επόμενη μέρα.",
+   "history": "Το μινεστρόνε γεννήθηκε από την ιταλική αγροτική μαγειρική, όπου οι σούπες φτιάχνονταν με όποια λαχανικά της εποχής υπήρχαν. Δεν υπάρχει μία συνταγή: οι εκδοχές της Λιγουρίας, του Μιλάνου και της Τοσκάνης διαφέρουν όλες. Σήμερα είναι από τις πιο γνωστές ιταλικές σούπες στον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "1 κρεμμύδι, 2 καρότα και 2 κλωνάρια σέλινο, σε κυβάκια",
+     "1 κολοκυθάκι και 1 πατάτα, σε κυβάκια",
+     "100 γρ. φασολάκια ή λάχανο, ψιλοκομμένα",
+     "1 κονσέρβα 400 γρ. φασόλια κανελίνι ή μπορλότι, στραγγισμένα",
+     "400 γρ. ντομάτες σε κομματάκια",
+     "100 γρ. κοφτά ζυμαρικά",
+     "2 κ.σ. ελαιόλαδο",
+     "1,2 λίτρα νερό ή ζωμός λαχανικών, αλάτι, πιπέρι, βασιλικός"
+    ],
+    "steps": [
+     "Ζεστάνετε το ελαιόλαδο σε μια μεγάλη κατσαρόλα και μαγειρέψτε απαλά το κρεμμύδι, το καρότο και το σέλινο για 8–10 λεπτά.",
+     "Προσθέστε την πατάτα, το κολοκυθάκι, τα φασολάκια ή το λάχανο και τις ντομάτες και μετά ρίξτε το νερό ή τον ζωμό.",
+     "Σιγοβράστε για 20 λεπτά, προσθέστε τα φασόλια και τα ζυμαρικά και μαγειρέψτε άλλα 10 λεπτά μέχρι να μαλακώσουν τα ζυμαρικά.",
+     "Αλατοπιπερώστε, ανακατέψτε μέσα τον βασιλικό κομμένο με τα χέρια και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Γεμίστε την κατσαρόλα με λαχανικά και βάλτε λιγότερα ζυμαρικά.",
+    "Χρησιμοποιήστε μία κουταλιά της σούπας ελαιόλαδο για τη βάση· κάθε κουταλιά είναι περίπου 120 kcal.",
+    "Σερβίρετε ένα μεγάλο πιάτο ως ολόκληρο γεύμα αντί να το συνοδεύετε με ψωμί."
+   ]
+  },
+  "ru": {
+   "name": "Минестроне",
+   "origin": "Италия",
+   "intro": "Минестроне — сытный итальянский овощной суп из сезонных овощей, фасоли, помидоров и мелкой пасты, сваренных вместе и завершённых оливковым маслом. Типичны морковь, сельдерей, лук, цукини и зелень, и каждый регион и сезон меняют состав. Суп получается крупнокусковым и сытным, его подают горячим в глубоких мисках, и на следующий день он часто вкуснее.",
+   "history": "Минестроне вырос из итальянской крестьянской кухни, где супы готовили из любых сезонных овощей. Единого рецепта нет: лигурийский, миланский и тосканский варианты отличаются. Сегодня это один из самых известных итальянских супов в мире.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "1 луковица, 2 моркови и 2 стебля сельдерея, кубиками",
+     "1 цукини и 1 картофелина, кубиками",
+     "100 г стручковой фасоли или капусты, нарубленных",
+     "400 г консервированной фасоли каннеллини или боротти, откинутой",
+     "400 г нарубленных помидоров",
+     "100 г мелкой пасты",
+     "2 ст. л. оливкового масла",
+     "1,2 л воды или овощного бульона, соль, перец, базилик"
+    ],
+    "steps": [
+     "Разогрейте оливковое масло в большой кастрюле и осторожно готовьте лук, морковь и сельдерей 8–10 минут.",
+     "Добавьте картофель, цукини, стручковую фасоль или капусту и помидоры, затем влейте воду или бульон.",
+     "Варите 20 минут, добавьте фасоль и пасту и готовьте ещё 10 минут до мягкости пасты.",
+     "Приправьте солью и перцем, добавьте рваный базилик и подавайте горячим."
+    ]
+   },
+   "tips": [
+    "Наполните кастрюлю овощами и используйте меньше пасты.",
+    "Используйте одну столовую ложку оливкового масла для основы; каждая столовая ложка это около 120 ккал.",
+    "Подавайте большую миску как полноценный приём пищи, а не с хлебом на гарнир."
+   ]
+  },
+  "es": {
+   "name": "Minestrone",
+   "origin": "Italia",
+   "intro": "El minestrone es una sopa italiana de verduras, sustanciosa, con verduras de temporada, frijoles, jitomate y pasta pequeña cocidos juntos y rematados con aceite de oliva. Lo habitual son zanahoria, apio, cebolla, calabacín y verduras de hoja, y cada región y cada estación cambia la mezcla. Es espeso y reconfortante, se sirve caliente en platos hondos y a menudo sabe aún mejor al día siguiente.",
+   "history": "El minestrone nació de la cocina campesina italiana, donde las sopas se hacían con las verduras de temporada que hubiera. No existe una receta única: las versiones ligur, milanesa y toscana son distintas. Hoy es una de las sopas italianas más conocidas en todo el mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "1 cebolla, 2 zanahorias y 2 tallos de apio, en cubos",
+     "1 calabacín y 1 papa, en cubos",
+     "100 g de ejotes o de col, picados",
+     "1 lata de 400 g de frijoles cannellini o borlotti, escurridos",
+     "400 g de jitomate picado",
+     "100 g de pasta pequeña",
+     "2 cdas. de aceite de oliva",
+     "1,2 litros de agua o de caldo de verduras, sal, pimienta y albahaca"
+    ],
+    "steps": [
+     "Calienta el aceite de oliva en una olla grande y cocina suavemente la cebolla, la zanahoria y el apio de 8 a 10 minutos.",
+     "Agrega la papa, el calabacín, los ejotes o la col y el jitomate, y vierte el agua o el caldo.",
+     "Cocina a fuego lento 20 minutos, añade los frijoles y la pasta, y cocina 10 minutos más hasta que la pasta esté tierna.",
+     "Sazona con sal y pimienta, incorpora albahaca rota con las manos y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Llena la olla de verduras y usa menos pasta.",
+    "Usa una cucharada de aceite de oliva para la base; cada cucharada aporta unas 120 kcal.",
+    "Sirve un plato grande como comida completa en lugar de acompañarlo con pan."
+   ],
+   "name_inline": "el minestrone"
   }
+ }
 }

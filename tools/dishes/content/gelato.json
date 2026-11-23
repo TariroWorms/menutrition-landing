@@ -1,156 +1,185 @@
 {
-  "db_key": "gelato",
-  "slug": "gelato",
-  "emoji": "🍨",
-  "portion_g": 100,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "gelato",
+ "slug": "gelato",
+ "emoji": "🍨",
+ "portion_g": 100,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Gelato",
+   "origin": "Italy",
+   "intro": "Gelato is Italian ice cream made from a custard of milk, a little cream, sugar and egg yolks, churned slowly so less air is whipped in. The result is denser, silkier and more intensely flavoured than most ice cream, and it is served slightly warmer so it stays soft. It is scooped with a spatula into cups or cones.",
+   "history": "Gelato developed in Italy, where Sicily and Florence both claim an early role in frozen desserts, though the exact origins are uncertain. Today gelaterie are found across Italy and around the world.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml whole milk",
+     "150 ml cream",
+     "130 g sugar",
+     "4 egg yolks"
+    ],
+    "steps": [
+     "Heat the milk and cream until steaming.",
+     "Whisk the yolks with the sugar until pale.",
+     "Pour the hot milk onto the yolks while whisking, return to the pan and cook gently, stirring, to 82 °C until it coats a spoon.",
+     "Strain the custard into a clean bowl.",
+     "Chill the custard for at least 4 hours, then churn in an ice-cream maker and freeze for 1–2 hours before serving."
+    ]
+   },
+   "tips": [
+    "One scoop is about 50–60 g — two small scoops make a full portion.",
+    "Make it with more milk and less cream for a lighter result.",
+    "Choose a cup rather than a cone to skip the extra wafer."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Gelato",
-      "origin": "Italy",
-      "intro": "Gelato is Italian ice cream made from a custard of milk, a little cream, sugar and egg yolks, churned slowly so less air is whipped in. The result is denser, silkier and more intensely flavoured than most ice cream, and it is served slightly warmer so it stays soft. It is scooped with a spatula into cups or cones.",
-      "history": "Gelato developed in Italy, where Sicily and Florence both claim an early role in frozen desserts, though the exact origins are uncertain. Today gelaterie are found across Italy and around the world.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 ml whole milk",
-          "150 ml cream",
-          "130 g sugar",
-          "4 egg yolks"
-        ],
-        "steps": [
-          "Heat the milk and cream until steaming.",
-          "Whisk the yolks with the sugar until pale.",
-          "Pour the hot milk onto the yolks while whisking, return to the pan and cook gently, stirring, to 82 °C until it coats a spoon.",
-          "Strain the custard into a clean bowl.",
-          "Chill the custard for at least 4 hours, then churn in an ice-cream maker and freeze for 1–2 hours before serving."
-        ]
-      },
-      "tips": [
-        "One scoop is about 50–60 g — two small scoops make a full portion.",
-        "Make it with more milk and less cream for a lighter result.",
-        "Choose a cup rather than a cone to skip the extra wafer."
-      ]
-    },
-    "ar": {
-      "name": "جيلاتو",
-      "origin": "إيطاليا",
-      "intro": "الجيلاتو هو الآيس كريم الإيطالي المصنوع من كاسترد الحليب وقليل من الكريمة والسكر وصفار البيض، ويُخفق ببطء فيدخله هواء أقل. والنتيجة أكثف وأنعم وأقوى نكهة من معظم أنواع الآيس كريم، ويُقدَّم بدرجة حرارة أعلى قليلًا ليبقى طريًا. يُغرف بملعقة مسطحة في أكواب أو أقماع.",
-      "history": "تطوّر الجيلاتو في إيطاليا، حيث تنسب كل من صقلية وفلورنسا لنفسها دورًا مبكرًا في الحلويات المجمدة، وإن كانت أصوله الدقيقة غير مؤكدة. وتنتشر محلات الجيلاتو اليوم في أنحاء إيطاليا وحول العالم.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 مل حليب كامل الدسم",
-          "150 مل كريمة",
-          "130 غ سكر",
-          "4 صفار بيض"
-        ],
-        "steps": [
-          "سخّن الحليب والكريمة حتى يتصاعد البخار.",
-          "اخفق الصفار مع السكر حتى يفتح لونه.",
-          "اسكب الحليب الساخن على الصفار مع الخفق، ثم أعده إلى القدر واطهه على نار هادئة مع التحريك حتى 82 °م وحتى يغلف الملعقة.",
-          "صفِّ الكاسترد في وعاء نظيف.",
-          "برّد الكاسترد 4 ساعات على الأقل، ثم اخفقه في آلة الآيس كريم وجمّده ساعة أو ساعتين قبل التقديم."
-        ]
-      },
-      "tips": [
-        "الكرة الواحدة نحو 50–60 غ، وكرتان صغيرتان تكفيان حصة كاملة.",
-        "استخدم حليبًا أكثر وكريمة أقل لنتيجة أخف.",
-        "اختر الكوب بدل القمع لتتجنب البسكويت الإضافي."
-      ]
-    },
-    "it": {
-      "name": "Gelato",
-      "name_inline": "gelato",
-      "origin": "Italia",
-      "intro": "Il gelato italiano si prepara con una crema di latte, poca panna, zucchero e tuorli, mantecata lentamente così da incorporare meno aria. Il risultato è più denso, setoso e dal gusto più intenso della maggior parte dei gelati industriali, e si serve a una temperatura un po' più alta perché resti morbido. Si prende con la spatola e si mette in coppette o coni.",
-      "history": "Il gelato si è sviluppato in Italia, dove sia la Sicilia sia Firenze rivendicano un ruolo precoce nei dolci ghiacciati, anche se le origini precise sono incerte. Oggi le gelaterie si trovano in tutta Italia e in tutto il mondo.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 ml di latte intero",
-          "150 ml di panna",
-          "130 g di zucchero",
-          "4 tuorli"
-        ],
-        "steps": [
-          "Scalda il latte e la panna finché non fumano.",
-          "Sbatti i tuorli con lo zucchero finché non diventano chiari.",
-          "Versa il latte caldo sui tuorli sbattendo, rimetti nel pentolino e cuoci dolcemente, mescolando, fino a 82 °C, finché la crema non vela il cucchiaio.",
-          "Filtra la crema in una ciotola pulita.",
-          "Fai raffreddare la crema per almeno 4 ore, poi mantecala nella gelatiera e mettila in congelatore per 1–2 ore prima di servire."
-        ]
-      },
-      "tips": [
-        "Una pallina pesa circa 50–60 g: due palline piccole sono una porzione completa.",
-        "Preparalo con più latte e meno panna per un risultato più leggero.",
-        "Scegli la coppetta invece del cono per evitare la cialda in più."
-      ]
-    },
-    "el": {
-      "name": "Τζελάτο",
-      "origin": "Ιταλία",
-      "intro": "Το τζελάτο είναι ιταλικό παγωτό από κρέμα με γάλα, λίγη κρέμα γάλακτος, ζάχαρη και κρόκους, που ανακατεύεται αργά στην παγωτομηχανή ώστε να ενσωματωθεί λιγότερος αέρας. Το αποτέλεσμα είναι πιο πυκνό, μεταξένιο και με πιο έντονη γεύση από τα περισσότερα παγωτά, και σερβίρεται σε λίγο υψηλότερη θερμοκρασία ώστε να μένει μαλακό. Σερβίρεται με σπάτουλα σε κυπελάκια ή χωνάκια.",
-      "history": "Το τζελάτο αναπτύχθηκε στην Ιταλία, όπου τόσο η Σικελία όσο και η Φλωρεντία διεκδικούν πρώιμο ρόλο στα παγωμένα επιδόρπια, αν και η ακριβής προέλευση είναι αβέβαιη. Σήμερα τζελατερίες υπάρχουν σε όλη την Ιταλία και σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 ml πλήρες γάλα",
-          "150 ml κρέμα γάλακτος",
-          "130 γρ. ζάχαρη",
-          "4 κρόκοι αυγών"
-        ],
-        "steps": [
-          "Ζεστάνετε το γάλα και την κρέμα μέχρι να αχνίσουν.",
-          "Χτυπήστε τους κρόκους με τη ζάχαρη μέχρι να ασπρίσουν.",
-          "Ρίξτε το ζεστό γάλα στους κρόκους χτυπώντας, επιστρέψτε το μείγμα στην κατσαρόλα και μαγειρέψτε απαλά, ανακατεύοντας, στους 82 °C μέχρι να πασπαλίζει το κουτάλι.",
-          "Σουρώστε την κρέμα σε καθαρό μπολ.",
-          "Ψύξτε την κρέμα για τουλάχιστον 4 ώρες, έπειτα βάλτε τη στην παγωτομηχανή και στην κατάψυξη για 1–2 ώρες πριν σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Μια μπάλα είναι περίπου 50–60 γρ. — δύο μικρές μπάλες κάνουν πλήρη μερίδα.",
-        "Φτιάξτε το με περισσότερο γάλα και λιγότερη κρέμα για πιο ελαφρύ αποτέλεσμα.",
-        "Διαλέξτε κυπελάκι αντί για χωνάκι για να αποφύγετε το επιπλέον μπισκότο."
-      ]
-    },
-    "ru": {
-      "name": "Джелато",
-      "origin": "Италия",
-      "intro": "Джелато — итальянское мороженое из заварного крема из молока, небольшого количества сливок, сахара и яичных желтков, медленно взбитого так, чтобы вбивалось меньше воздуха. Результат плотнее, шелковистее и насыщеннее по вкусу, чем большинство мороженого, и его подают чуть теплее, чтобы оно оставалось мягким. Его накладывают лопаткой в стаканчики или рожки.",
-      "history": "Джелато развилось в Италии, где и Сицилия, и Флоренция заявляют о ранней роли в замороженных десертах, хотя точное происхождение неизвестно. Сегодня джелатерии есть по всей Италии и во всём мире.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 45,
-        "ingredients": [
-          "500 мл цельного молока",
-          "150 мл сливок",
-          "130 г сахара",
-          "4 яичных желтка"
-        ],
-        "steps": [
-          "Нагрейте молоко и сливки до появления пара.",
-          "Взбейте желтки с сахаром до светлой массы.",
-          "Влейте горячее молоко в желтки, взбивая, верните в кастрюлю и аккуратно готовьте, помешивая, до 82 °C, пока масса не начнёт покрывать ложку.",
-          "Процедите крем в чистую миску.",
-          "Охладите крем не менее 4 часов, затем взбейте в мороженице и заморозьте на 1–2 часа перед подачей."
-        ]
-      },
-      "tips": [
-        "Один шарик — около 50–60 г: два маленьких шарика составляют полную порцию.",
-        "Готовьте с большим количеством молока и меньшим количеством сливок для более лёгкого результата.",
-        "Выбирайте стаканчик, а не рожок, чтобы пропустить лишнюю вафлю."
-      ],
-      "name_inline": "джелато"
-    }
+  "ar": {
+   "name": "جيلاتو",
+   "origin": "إيطاليا",
+   "intro": "الجيلاتو هو الآيس كريم الإيطالي المصنوع من كاسترد الحليب وقليل من الكريمة والسكر وصفار البيض، ويُخفق ببطء فيدخله هواء أقل. والنتيجة أكثف وأنعم وأقوى نكهة من معظم أنواع الآيس كريم، ويُقدَّم بدرجة حرارة أعلى قليلًا ليبقى طريًا. يُغرف بملعقة مسطحة في أكواب أو أقماع.",
+   "history": "تطوّر الجيلاتو في إيطاليا، حيث تنسب كل من صقلية وفلورنسا لنفسها دورًا مبكرًا في الحلويات المجمدة، وإن كانت أصوله الدقيقة غير مؤكدة. وتنتشر محلات الجيلاتو اليوم في أنحاء إيطاليا وحول العالم.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 مل حليب كامل الدسم",
+     "150 مل كريمة",
+     "130 غ سكر",
+     "4 صفار بيض"
+    ],
+    "steps": [
+     "سخّن الحليب والكريمة حتى يتصاعد البخار.",
+     "اخفق الصفار مع السكر حتى يفتح لونه.",
+     "اسكب الحليب الساخن على الصفار مع الخفق، ثم أعده إلى القدر واطهه على نار هادئة مع التحريك حتى 82 °م وحتى يغلف الملعقة.",
+     "صفِّ الكاسترد في وعاء نظيف.",
+     "برّد الكاسترد 4 ساعات على الأقل، ثم اخفقه في آلة الآيس كريم وجمّده ساعة أو ساعتين قبل التقديم."
+    ]
+   },
+   "tips": [
+    "الكرة الواحدة نحو 50–60 غ، وكرتان صغيرتان تكفيان حصة كاملة.",
+    "استخدم حليبًا أكثر وكريمة أقل لنتيجة أخف.",
+    "اختر الكوب بدل القمع لتتجنب البسكويت الإضافي."
+   ]
+  },
+  "it": {
+   "name": "Gelato",
+   "name_inline": "gelato",
+   "origin": "Italia",
+   "intro": "Il gelato italiano si prepara con una crema di latte, poca panna, zucchero e tuorli, mantecata lentamente così da incorporare meno aria. Il risultato è più denso, setoso e dal gusto più intenso della maggior parte dei gelati industriali, e si serve a una temperatura un po' più alta perché resti morbido. Si prende con la spatola e si mette in coppette o coni.",
+   "history": "Il gelato si è sviluppato in Italia, dove sia la Sicilia sia Firenze rivendicano un ruolo precoce nei dolci ghiacciati, anche se le origini precise sono incerte. Oggi le gelaterie si trovano in tutta Italia e in tutto il mondo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml di latte intero",
+     "150 ml di panna",
+     "130 g di zucchero",
+     "4 tuorli"
+    ],
+    "steps": [
+     "Scalda il latte e la panna finché non fumano.",
+     "Sbatti i tuorli con lo zucchero finché non diventano chiari.",
+     "Versa il latte caldo sui tuorli sbattendo, rimetti nel pentolino e cuoci dolcemente, mescolando, fino a 82 °C, finché la crema non vela il cucchiaio.",
+     "Filtra la crema in una ciotola pulita.",
+     "Fai raffreddare la crema per almeno 4 ore, poi mantecala nella gelatiera e mettila in congelatore per 1–2 ore prima di servire."
+    ]
+   },
+   "tips": [
+    "Una pallina pesa circa 50–60 g: due palline piccole sono una porzione completa.",
+    "Preparalo con più latte e meno panna per un risultato più leggero.",
+    "Scegli la coppetta invece del cono per evitare la cialda in più."
+   ]
+  },
+  "el": {
+   "name": "Τζελάτο",
+   "origin": "Ιταλία",
+   "intro": "Το τζελάτο είναι ιταλικό παγωτό από κρέμα με γάλα, λίγη κρέμα γάλακτος, ζάχαρη και κρόκους, που ανακατεύεται αργά στην παγωτομηχανή ώστε να ενσωματωθεί λιγότερος αέρας. Το αποτέλεσμα είναι πιο πυκνό, μεταξένιο και με πιο έντονη γεύση από τα περισσότερα παγωτά, και σερβίρεται σε λίγο υψηλότερη θερμοκρασία ώστε να μένει μαλακό. Σερβίρεται με σπάτουλα σε κυπελάκια ή χωνάκια.",
+   "history": "Το τζελάτο αναπτύχθηκε στην Ιταλία, όπου τόσο η Σικελία όσο και η Φλωρεντία διεκδικούν πρώιμο ρόλο στα παγωμένα επιδόρπια, αν και η ακριβής προέλευση είναι αβέβαιη. Σήμερα τζελατερίες υπάρχουν σε όλη την Ιταλία και σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml πλήρες γάλα",
+     "150 ml κρέμα γάλακτος",
+     "130 γρ. ζάχαρη",
+     "4 κρόκοι αυγών"
+    ],
+    "steps": [
+     "Ζεστάνετε το γάλα και την κρέμα μέχρι να αχνίσουν.",
+     "Χτυπήστε τους κρόκους με τη ζάχαρη μέχρι να ασπρίσουν.",
+     "Ρίξτε το ζεστό γάλα στους κρόκους χτυπώντας, επιστρέψτε το μείγμα στην κατσαρόλα και μαγειρέψτε απαλά, ανακατεύοντας, στους 82 °C μέχρι να πασπαλίζει το κουτάλι.",
+     "Σουρώστε την κρέμα σε καθαρό μπολ.",
+     "Ψύξτε την κρέμα για τουλάχιστον 4 ώρες, έπειτα βάλτε τη στην παγωτομηχανή και στην κατάψυξη για 1–2 ώρες πριν σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Μια μπάλα είναι περίπου 50–60 γρ. — δύο μικρές μπάλες κάνουν πλήρη μερίδα.",
+    "Φτιάξτε το με περισσότερο γάλα και λιγότερη κρέμα για πιο ελαφρύ αποτέλεσμα.",
+    "Διαλέξτε κυπελάκι αντί για χωνάκι για να αποφύγετε το επιπλέον μπισκότο."
+   ]
+  },
+  "ru": {
+   "name": "Джелато",
+   "origin": "Италия",
+   "intro": "Джелато — итальянское мороженое из заварного крема из молока, небольшого количества сливок, сахара и яичных желтков, медленно взбитого так, чтобы вбивалось меньше воздуха. Результат плотнее, шелковистее и насыщеннее по вкусу, чем большинство мороженого, и его подают чуть теплее, чтобы оно оставалось мягким. Его накладывают лопаткой в стаканчики или рожки.",
+   "history": "Джелато развилось в Италии, где и Сицилия, и Флоренция заявляют о ранней роли в замороженных десертах, хотя точное происхождение неизвестно. Сегодня джелатерии есть по всей Италии и во всём мире.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 мл цельного молока",
+     "150 мл сливок",
+     "130 г сахара",
+     "4 яичных желтка"
+    ],
+    "steps": [
+     "Нагрейте молоко и сливки до появления пара.",
+     "Взбейте желтки с сахаром до светлой массы.",
+     "Влейте горячее молоко в желтки, взбивая, верните в кастрюлю и аккуратно готовьте, помешивая, до 82 °C, пока масса не начнёт покрывать ложку.",
+     "Процедите крем в чистую миску.",
+     "Охладите крем не менее 4 часов, затем взбейте в мороженице и заморозьте на 1–2 часа перед подачей."
+    ]
+   },
+   "tips": [
+    "Один шарик — около 50–60 г: два маленьких шарика составляют полную порцию.",
+    "Готовьте с большим количеством молока и меньшим количеством сливок для более лёгкого результата.",
+    "Выбирайте стаканчик, а не рожок, чтобы пропустить лишнюю вафлю."
+   ],
+   "name_inline": "джелато"
+  },
+  "es": {
+   "name": "Gelato",
+   "origin": "Italia",
+   "intro": "El gelato es el helado italiano que se elabora con una crema de leche, un poco de nata, azúcar y yemas de huevo, y se bate lentamente para que incorpore menos aire. El resultado es más denso, sedoso y de sabor más intenso que la mayoría de los helados, y se sirve algo menos frío para que se mantenga blando. Se sirve con espátula en vasitos o en cono.",
+   "history": "El gelato se desarrolló en Italia, donde Sicilia y Florencia se atribuyen un papel temprano en los postres helados, aunque los orígenes exactos son inciertos. Hoy hay heladerías en toda Italia y en todo el mundo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 45,
+    "ingredients": [
+     "500 ml de leche entera",
+     "150 ml de crema para batir",
+     "130 g de azúcar",
+     "4 yemas de huevo"
+    ],
+    "steps": [
+     "Calienta la leche y la crema hasta que humeen.",
+     "Bate las yemas con el azúcar hasta que blanqueen.",
+     "Vierte la leche caliente sobre las yemas sin dejar de batir, devuélvelo a la olla y cocina a fuego suave, removiendo, hasta 82 °C, cuando cubra el dorso de una cuchara.",
+     "Cuela la crema en un recipiente limpio.",
+     "Enfría la crema al menos 4 horas, luego bátela en una máquina de helados y congela de 1 a 2 horas antes de servir."
+    ]
+   },
+   "tips": [
+    "Una bola pesa unos 50–60 g: dos bolas pequeñas son una porción completa.",
+    "Hazlo con más leche y menos crema para un resultado más ligero.",
+    "Elige el vasito en lugar del cono para evitar la galleta extra."
+   ],
+   "name_inline": "el gelato"
   }
+ }
 }

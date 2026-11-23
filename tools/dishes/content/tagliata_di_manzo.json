@@ -1,170 +1,201 @@
 {
-  "db_key": "tagliata_di_manzo",
-  "slug": "tagliata-di-manzo",
-  "emoji": "🥩",
-  "portion_g": 250,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tagliata_di_manzo",
+ "slug": "tagliata-di-manzo",
+ "emoji": "🥩",
+ "portion_g": 250,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tagliata di Manzo",
+   "origin": "Italy · Tuscany",
+   "intro": "Tagliata di manzo is a thick beef sirloin steak, grilled until pink inside, rested and cut into slices on a bed of peppery arugula. It is finished with shavings of parmesan, a drizzle of balsamic vinegar and good olive oil. The result is smoky, juicy meat against sharp greens and salty cheese, served as a main course in trattorias across Italy.",
+   "history": "The name comes from the Italian verb tagliare, to cut, because the steak is served already sliced. The dish is often associated with Tuscany and its grilling tradition, and today it is a common main course in trattorias across Italy.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "500 g beef sirloin, about 3 cm thick",
+     "60 g arugula",
+     "30 g parmesan, shaved",
+     "2 tbsp balsamic vinegar",
+     "2 tbsp olive oil",
+     "1 sprig rosemary",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Take the steak out of the fridge 30 minutes before cooking and pat it dry.",
+     "Heat a grill pan until very hot, season the steak and grill 3–4 minutes per side for medium-rare.",
+     "Rest the meat for 5 minutes, loosely covered.",
+     "Spread the arugula on a platter and slice the steak thinly against the grain.",
+     "Lay the slices over the greens, scatter parmesan and rosemary, and drizzle with olive oil and balsamic."
+    ]
+   },
+   "tips": [
+    "Trim the visible fat from the sirloin before grilling to save calories without losing flavour.",
+    "Measure the olive oil: 1 tbsp oil ≈ 120 kcal, and a light drizzle is enough.",
+    "Use a generous bed of arugula and a smaller portion of meat: the plate stays filling with fewer calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tagliata di Manzo",
-      "origin": "Italy · Tuscany",
-      "intro": "Tagliata di manzo is a thick beef sirloin steak, grilled until pink inside, rested and cut into slices on a bed of peppery arugula. It is finished with shavings of parmesan, a drizzle of balsamic vinegar and good olive oil. The result is smoky, juicy meat against sharp greens and salty cheese, served as a main course in trattorias across Italy.",
-      "history": "The name comes from the Italian verb tagliare, to cut, because the steak is served already sliced. The dish is often associated with Tuscany and its grilling tradition, and today it is a common main course in trattorias across Italy.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "500 g beef sirloin, about 3 cm thick",
-          "60 g arugula",
-          "30 g parmesan, shaved",
-          "2 tbsp balsamic vinegar",
-          "2 tbsp olive oil",
-          "1 sprig rosemary",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Take the steak out of the fridge 30 minutes before cooking and pat it dry.",
-          "Heat a grill pan until very hot, season the steak and grill 3–4 minutes per side for medium-rare.",
-          "Rest the meat for 5 minutes, loosely covered.",
-          "Spread the arugula on a platter and slice the steak thinly against the grain.",
-          "Lay the slices over the greens, scatter parmesan and rosemary, and drizzle with olive oil and balsamic."
-        ]
-      },
-      "tips": [
-        "Trim the visible fat from the sirloin before grilling to save calories without losing flavour.",
-        "Measure the olive oil: 1 tbsp oil ≈ 120 kcal, and a light drizzle is enough.",
-        "Use a generous bed of arugula and a smaller portion of meat: the plate stays filling with fewer calories."
-      ]
-    },
-    "ar": {
-      "name": "تالياتا لحم بقري",
-      "origin": "إيطاليا · توسكانا",
-      "intro": "التالياتا شريحة سميكة من لحم الخاصرة البقري تُشوى حتى يبقى داخلها ورديًا، ثم تُترك لترتاح وتُقطّع شرائح فوق طبقة من الجرجير اللاذع. تُزيَّن برقائق جبن البارميزان ورشة من الخل البلسمي وزيت الزيتون الجيد. النتيجة لحم عصيري مدخن مع خضرة حادة وجبن مالح، ويُقدَّم طبقًا رئيسيًا في المطاعم الإيطالية.",
-      "history": "يأتي الاسم من الفعل الإيطالي tagliare أي «يقطع»، لأن اللحم يُقدَّم مقطّعًا مسبقًا. وكثيرًا ما يُربط الطبق بتوسكانا وتقاليد الشواء فيها، وهو اليوم طبق رئيسي شائع في المطاعم الشعبية الإيطالية في أنحاء البلاد.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "500 غ لحم خاصرة بقري بسماكة 3 سم تقريبًا",
-          "60 غ جرجير",
-          "30 غ جبن بارميزان مبشور رقائق",
-          "2 ملعقة كبيرة خل بلسمي",
-          "2 ملعقة كبيرة زيت زيتون",
-          "غصن إكليل الجبل",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "أخرج اللحم من الثلاجة قبل الطهي بـ30 دقيقة وجففه.",
-          "سخّن مقلاة الشواء جيدًا، وتبّل اللحم واشوِه 3–4 دقائق لكل جانب ليبقى داخله ورديًا.",
-          "اترك اللحم يرتاح 5 دقائق مغطى بخفة.",
-          "افرش الجرجير في طبق وقطّع اللحم شرائح رفيعة عكس الألياف.",
-          "رتّب الشرائح فوق الجرجير وانثر البارميزان وإكليل الجبل، ثم رشّ زيت الزيتون والخل البلسمي."
-        ]
-      },
-      "tips": [
-        "أزل الدهون الظاهرة من اللحم قبل الشواء لتوفير السعرات دون خسارة النكهة.",
-        "قِس زيت الزيتون: ملعقة كبيرة ≈ 120 سعرة، ورشة خفيفة تكفي.",
-        "أكثِر من الجرجير وقلّل حصة اللحم، فيبقى الطبق مُشبعًا بسعرات أقل."
-      ]
-    },
-    "it": {
-      "name": "Tagliata di manzo",
-      "origin": "Italia · Toscana",
-      "intro": "La tagliata di manzo è una spessa bistecca di controfiletto, grigliata finché resta rosata all'interno, lasciata riposare e tagliata a fette su un letto di rucola piccante. Si completa con scaglie di parmigiano, un filo di aceto balsamico e un buon olio d'oliva. Il risultato è carne affumicata e succosa abbinata a verdure decise e formaggio sapido, servita come secondo nelle trattorie di tutta Italia.",
-      "history": "Il nome viene dal verbo tagliare, perché la bistecca si serve già affettata. Il piatto è spesso associato alla Toscana e alla sua tradizione della griglia, e oggi è un secondo comune nelle trattorie di tutta Italia.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "500 g di controfiletto di manzo, spesso circa 3 cm",
-          "60 g di rucola",
-          "30 g di parmigiano, a scaglie",
-          "2 cucchiai di aceto balsamico",
-          "2 cucchiai di olio d'oliva",
-          "1 rametto di rosmarino",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Togli la bistecca dal frigo 30 minuti prima della cottura e asciugala tamponandola.",
-          "Scalda una bistecchiera finché è rovente, condisci la bistecca e grigliala 3–4 minuti per lato per una cottura al sangue.",
-          "Lascia riposare la carne per 5 minuti, coperta senza stringere.",
-          "Distribuisci la rucola su un piatto da portata e taglia la bistecca a fette sottili contro fibra.",
-          "Adagia le fette sulla rucola, cospargi di parmigiano e rosmarino e condisci con un filo d'olio d'oliva e aceto balsamico."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dal controfiletto prima di grigliarlo per risparmiare calorie senza perdere sapore.",
-        "Misura l'olio d'oliva: 1 cucchiaio di olio ≈ 120 kcal, e un filo leggero basta.",
-        "Usa un letto abbondante di rucola e una porzione di carne più piccola: il piatto resta saziante con meno calorie."
-      ]
-    },
-    "el": {
-      "name": "Ταλιάτα ντι μάντσο",
-      "origin": "Ιταλία · Τοσκάνη",
-      "intro": "Η ταλιάτα ντι μάντσο είναι μια χοντρή μοσχαρίσια μπριζόλα κόντρα φιλέτο, ψημένη στη σχάρα ώστε να μένει ροζ στο εσωτερικό, που ξεκουράζεται και κόβεται σε φέτες πάνω σε στρώμα από πιπεράτη ρόκα. Ολοκληρώνεται με φλοίδες παρμεζάνας, λίγο βαλσάμικο ξίδι και καλό ελαιόλαδο. Το αποτέλεσμα είναι καπνιστό, ζουμερό κρέας δίπλα σε έντονα πράσινα και αλμυρό τυρί, και σερβίρεται ως κυρίως πιάτο στις τρατορίες όλης της Ιταλίας.",
-      "history": "Το όνομα προέρχεται από το ιταλικό ρήμα tagliare, κόβω, επειδή η μπριζόλα σερβίρεται ήδη κομμένη σε φέτες. Το πιάτο συνδέεται συχνά με την Τοσκάνη και την παράδοσή της στη σχάρα, και σήμερα είναι συνηθισμένο κυρίως πιάτο στις τρατορίες όλης της Ιταλίας.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "500 γρ. μοσχαρίσιο κόντρα φιλέτο, πάχους περίπου 3 εκ.",
-          "60 γρ. ρόκα",
-          "30 γρ. παρμεζάνα, σε φλοίδες",
-          "2 κ.σ. βαλσάμικο ξίδι",
-          "2 κ.σ. ελαιόλαδο",
-          "1 κλωνάρι δεντρολίβανο",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Βγάλτε τη μπριζόλα από το ψυγείο 30 λεπτά πριν το ψήσιμο και στεγνώστε τη με χαρτί.",
-          "Ζεστάνετε ένα τηγάνι-γκριλ μέχρι να κάψει, αλατοπιπερώστε τη μπριζόλα και ψήστε τη 3–4 λεπτά από κάθε πλευρά για μισοψημένο αποτέλεσμα.",
-          "Αφήστε το κρέας να ξεκουραστεί 5 λεπτά, χαλαρά σκεπασμένο.",
-          "Απλώστε τη ρόκα σε μια πιατέλα και κόψτε τη μπριζόλα σε λεπτές φέτες κόντρα στις ίνες.",
-          "Τοποθετήστε τις φέτες πάνω στη ρόκα, πασπαλίστε με παρμεζάνα και δεντρολίβανο και περιχύστε με ελαιόλαδο και βαλσάμικο."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το κόντρα φιλέτο πριν το ψήσιμο για να γλιτώσετε θερμίδες χωρίς να χάσετε γεύση.",
-        "Μετρήστε το ελαιόλαδο: 1 κ.σ. λάδι ≈ 120 kcal, και λίγο αρκεί.",
-        "Βάλτε γενναίο στρώμα ρόκας και μικρότερη μερίδα κρέατος: το πιάτο μένει χορταστικό με λιγότερες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Тальята ди манцо",
-      "origin": "Италия · Тоскана",
-      "intro": "Тальята ди манцо — толстый говяжий стейк из вырезки, обжаренный на гриле до розового цвета внутри, отдохнувший и нарезанный ломтиками на подушке из пряной руколы. Его завершают стружкой пармезана, каплей бальзамического уксуса и хорошим оливковым маслом. Получается дымное сочное мясо рядом с острой зеленью и солёным сыром, блюдо подают как основное в траториях по всей Италии.",
-      "history": "Название происходит от итальянского глагола tagliare — «резать», потому что стейк подают уже нарезанным. Блюдо часто связывают с Тосканой и её традицией гриля, а сегодня это обычное основное блюдо в траториях по всей Италии.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "500 г говяжьей вырезки, толщиной около 3 см",
-          "60 г руколы",
-          "30 г пармезана, стружкой",
-          "2 ст. л. бальзамического уксуса",
-          "2 ст. л. оливкового масла",
-          "1 веточка розмарина",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Достаньте стейк из холодильника за 30 минут до приготовления и обсушите.",
-          "Разогрейте сковороду-гриль до сильного жара, посолите и поперчите стейк и жарьте по 3–4 минуты с каждой стороны до средней прожарки с кровью.",
-          "Дайте мясу отдохнуть 5 минут, слегка накрыв.",
-          "Выложите руколу на блюдо и тонко нарежьте стейк поперёк волокон.",
-          "Разложите ломтики на зелени, посыпьте пармезаном и розмарином и сбрызните оливковым маслом и бальзамическим уксусом."
-        ]
-      },
-      "tips": [
-        "Срежьте видимый жир с вырезки перед жаркой, чтобы сэкономить калории, не потеряв вкус.",
-        "Отмеряйте оливковое масло: 1 ст. л. масла ≈ 120 ккал, а лёгкой струйки достаточно.",
-        "Берите щедрую подушку из руколы и меньшую порцию мяса: тарелка остаётся сытной при меньшем количестве калорий."
-      ],
-      "name_inline": "тальяту ди манцо"
-    }
+  "ar": {
+   "name": "تالياتا لحم بقري",
+   "origin": "إيطاليا · توسكانا",
+   "intro": "التالياتا شريحة سميكة من لحم الخاصرة البقري تُشوى حتى يبقى داخلها ورديًا، ثم تُترك لترتاح وتُقطّع شرائح فوق طبقة من الجرجير اللاذع. تُزيَّن برقائق جبن البارميزان ورشة من الخل البلسمي وزيت الزيتون الجيد. النتيجة لحم عصيري مدخن مع خضرة حادة وجبن مالح، ويُقدَّم طبقًا رئيسيًا في المطاعم الإيطالية.",
+   "history": "يأتي الاسم من الفعل الإيطالي tagliare أي «يقطع»، لأن اللحم يُقدَّم مقطّعًا مسبقًا. وكثيرًا ما يُربط الطبق بتوسكانا وتقاليد الشواء فيها، وهو اليوم طبق رئيسي شائع في المطاعم الشعبية الإيطالية في أنحاء البلاد.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "500 غ لحم خاصرة بقري بسماكة 3 سم تقريبًا",
+     "60 غ جرجير",
+     "30 غ جبن بارميزان مبشور رقائق",
+     "2 ملعقة كبيرة خل بلسمي",
+     "2 ملعقة كبيرة زيت زيتون",
+     "غصن إكليل الجبل",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "أخرج اللحم من الثلاجة قبل الطهي بـ30 دقيقة وجففه.",
+     "سخّن مقلاة الشواء جيدًا، وتبّل اللحم واشوِه 3–4 دقائق لكل جانب ليبقى داخله ورديًا.",
+     "اترك اللحم يرتاح 5 دقائق مغطى بخفة.",
+     "افرش الجرجير في طبق وقطّع اللحم شرائح رفيعة عكس الألياف.",
+     "رتّب الشرائح فوق الجرجير وانثر البارميزان وإكليل الجبل، ثم رشّ زيت الزيتون والخل البلسمي."
+    ]
+   },
+   "tips": [
+    "أزل الدهون الظاهرة من اللحم قبل الشواء لتوفير السعرات دون خسارة النكهة.",
+    "قِس زيت الزيتون: ملعقة كبيرة ≈ 120 سعرة، ورشة خفيفة تكفي.",
+    "أكثِر من الجرجير وقلّل حصة اللحم، فيبقى الطبق مُشبعًا بسعرات أقل."
+   ]
+  },
+  "it": {
+   "name": "Tagliata di manzo",
+   "origin": "Italia · Toscana",
+   "intro": "La tagliata di manzo è una spessa bistecca di controfiletto, grigliata finché resta rosata all'interno, lasciata riposare e tagliata a fette su un letto di rucola piccante. Si completa con scaglie di parmigiano, un filo di aceto balsamico e un buon olio d'oliva. Il risultato è carne affumicata e succosa abbinata a verdure decise e formaggio sapido, servita come secondo nelle trattorie di tutta Italia.",
+   "history": "Il nome viene dal verbo tagliare, perché la bistecca si serve già affettata. Il piatto è spesso associato alla Toscana e alla sua tradizione della griglia, e oggi è un secondo comune nelle trattorie di tutta Italia.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "500 g di controfiletto di manzo, spesso circa 3 cm",
+     "60 g di rucola",
+     "30 g di parmigiano, a scaglie",
+     "2 cucchiai di aceto balsamico",
+     "2 cucchiai di olio d'oliva",
+     "1 rametto di rosmarino",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Togli la bistecca dal frigo 30 minuti prima della cottura e asciugala tamponandola.",
+     "Scalda una bistecchiera finché è rovente, condisci la bistecca e grigliala 3–4 minuti per lato per una cottura al sangue.",
+     "Lascia riposare la carne per 5 minuti, coperta senza stringere.",
+     "Distribuisci la rucola su un piatto da portata e taglia la bistecca a fette sottili contro fibra.",
+     "Adagia le fette sulla rucola, cospargi di parmigiano e rosmarino e condisci con un filo d'olio d'oliva e aceto balsamico."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dal controfiletto prima di grigliarlo per risparmiare calorie senza perdere sapore.",
+    "Misura l'olio d'oliva: 1 cucchiaio di olio ≈ 120 kcal, e un filo leggero basta.",
+    "Usa un letto abbondante di rucola e una porzione di carne più piccola: il piatto resta saziante con meno calorie."
+   ]
+  },
+  "el": {
+   "name": "Ταλιάτα ντι μάντσο",
+   "origin": "Ιταλία · Τοσκάνη",
+   "intro": "Η ταλιάτα ντι μάντσο είναι μια χοντρή μοσχαρίσια μπριζόλα κόντρα φιλέτο, ψημένη στη σχάρα ώστε να μένει ροζ στο εσωτερικό, που ξεκουράζεται και κόβεται σε φέτες πάνω σε στρώμα από πιπεράτη ρόκα. Ολοκληρώνεται με φλοίδες παρμεζάνας, λίγο βαλσάμικο ξίδι και καλό ελαιόλαδο. Το αποτέλεσμα είναι καπνιστό, ζουμερό κρέας δίπλα σε έντονα πράσινα και αλμυρό τυρί, και σερβίρεται ως κυρίως πιάτο στις τρατορίες όλης της Ιταλίας.",
+   "history": "Το όνομα προέρχεται από το ιταλικό ρήμα tagliare, κόβω, επειδή η μπριζόλα σερβίρεται ήδη κομμένη σε φέτες. Το πιάτο συνδέεται συχνά με την Τοσκάνη και την παράδοσή της στη σχάρα, και σήμερα είναι συνηθισμένο κυρίως πιάτο στις τρατορίες όλης της Ιταλίας.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "500 γρ. μοσχαρίσιο κόντρα φιλέτο, πάχους περίπου 3 εκ.",
+     "60 γρ. ρόκα",
+     "30 γρ. παρμεζάνα, σε φλοίδες",
+     "2 κ.σ. βαλσάμικο ξίδι",
+     "2 κ.σ. ελαιόλαδο",
+     "1 κλωνάρι δεντρολίβανο",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Βγάλτε τη μπριζόλα από το ψυγείο 30 λεπτά πριν το ψήσιμο και στεγνώστε τη με χαρτί.",
+     "Ζεστάνετε ένα τηγάνι-γκριλ μέχρι να κάψει, αλατοπιπερώστε τη μπριζόλα και ψήστε τη 3–4 λεπτά από κάθε πλευρά για μισοψημένο αποτέλεσμα.",
+     "Αφήστε το κρέας να ξεκουραστεί 5 λεπτά, χαλαρά σκεπασμένο.",
+     "Απλώστε τη ρόκα σε μια πιατέλα και κόψτε τη μπριζόλα σε λεπτές φέτες κόντρα στις ίνες.",
+     "Τοποθετήστε τις φέτες πάνω στη ρόκα, πασπαλίστε με παρμεζάνα και δεντρολίβανο και περιχύστε με ελαιόλαδο και βαλσάμικο."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το κόντρα φιλέτο πριν το ψήσιμο για να γλιτώσετε θερμίδες χωρίς να χάσετε γεύση.",
+    "Μετρήστε το ελαιόλαδο: 1 κ.σ. λάδι ≈ 120 kcal, και λίγο αρκεί.",
+    "Βάλτε γενναίο στρώμα ρόκας και μικρότερη μερίδα κρέατος: το πιάτο μένει χορταστικό με λιγότερες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Тальята ди манцо",
+   "origin": "Италия · Тоскана",
+   "intro": "Тальята ди манцо — толстый говяжий стейк из вырезки, обжаренный на гриле до розового цвета внутри, отдохнувший и нарезанный ломтиками на подушке из пряной руколы. Его завершают стружкой пармезана, каплей бальзамического уксуса и хорошим оливковым маслом. Получается дымное сочное мясо рядом с острой зеленью и солёным сыром, блюдо подают как основное в траториях по всей Италии.",
+   "history": "Название происходит от итальянского глагола tagliare — «резать», потому что стейк подают уже нарезанным. Блюдо часто связывают с Тосканой и её традицией гриля, а сегодня это обычное основное блюдо в траториях по всей Италии.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "500 г говяжьей вырезки, толщиной около 3 см",
+     "60 г руколы",
+     "30 г пармезана, стружкой",
+     "2 ст. л. бальзамического уксуса",
+     "2 ст. л. оливкового масла",
+     "1 веточка розмарина",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Достаньте стейк из холодильника за 30 минут до приготовления и обсушите.",
+     "Разогрейте сковороду-гриль до сильного жара, посолите и поперчите стейк и жарьте по 3–4 минуты с каждой стороны до средней прожарки с кровью.",
+     "Дайте мясу отдохнуть 5 минут, слегка накрыв.",
+     "Выложите руколу на блюдо и тонко нарежьте стейк поперёк волокон.",
+     "Разложите ломтики на зелени, посыпьте пармезаном и розмарином и сбрызните оливковым маслом и бальзамическим уксусом."
+    ]
+   },
+   "tips": [
+    "Срежьте видимый жир с вырезки перед жаркой, чтобы сэкономить калории, не потеряв вкус.",
+    "Отмеряйте оливковое масло: 1 ст. л. масла ≈ 120 ккал, а лёгкой струйки достаточно.",
+    "Берите щедрую подушку из руколы и меньшую порцию мяса: тарелка остаётся сытной при меньшем количестве калорий."
+   ],
+   "name_inline": "тальяту ди манцо"
+  },
+  "es": {
+   "name": "Tagliata di manzo",
+   "origin": "Italia · Toscana",
+   "intro": "La tagliata di manzo es un grueso corte de lomo de res asado a la parrilla hasta quedar rosado por dentro, reposado y cortado en láminas sobre una cama de rúcula de sabor picante. Se termina con virutas de parmesano, un chorrito de vinagre balsámico y buen aceite de oliva. El resultado es carne jugosa y ahumada frente a hojas amargas y queso salado, un plato principal típico de las trattorias de toda Italia.",
+   "history": "El nombre viene del verbo italiano tagliare, «cortar», porque el filete se sirve ya rebanado. Es un plato que suele asociarse con la Toscana y su tradición de parrilla, y hoy es un plato fuerte habitual en las trattorias italianas.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "500 g de lomo de res, de unos 3 cm de grosor",
+     "60 g de rúcula",
+     "30 g de queso parmesano en virutas",
+     "2 cda. de vinagre balsámico",
+     "2 cda. de aceite de oliva",
+     "1 ramita de romero",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Saca el filete del refrigerador 30 minutos antes de cocinarlo y sécalo con papel absorbente.",
+     "Calienta una plancha o sartén acanalada hasta que esté muy caliente, sazona el filete y cocínalo de 3 a 4 minutos por lado para un término medio.",
+     "Deja reposar la carne 5 minutos, cubierta sin apretar.",
+     "Extiende la rúcula en una fuente y corta el filete en láminas finas, en contra de la fibra.",
+     "Coloca las láminas sobre las hojas, esparce el parmesano y el romero, y rocía con aceite de oliva y vinagre balsámico."
+    ]
+   },
+   "tips": [
+    "Retira la grasa visible del lomo antes de asarlo para ahorrar calorías sin perder sabor.",
+    "Mide el aceite de oliva: 1 cda. equivale a unas 120 kcal, y con un chorrito ligero basta.",
+    "Usa una buena cama de rúcula y una porción de carne más pequeña: el plato sigue siendo saciante con menos calorías."
+   ]
   }
+ }
 }

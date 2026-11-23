@@ -1,190 +1,226 @@
 {
-  "db_key": "risotto_alla_pescatora",
-  "slug": "risotto-alla-pescatora",
-  "emoji": "🦐",
-  "portion_g": 350,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "risotto_alla_pescatora",
+ "slug": "risotto-alla-pescatora",
+ "emoji": "🦐",
+ "portion_g": 350,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Risotto alla Pescatora",
+   "origin": "Italy · coastal regions",
+   "intro": "Risotto alla pescatora is the fisherman's risotto of the Italian coast: Arborio rice stirred slowly with clams, mussels and shrimp, garlic, a splash of white wine and tomato. The rice turns loose and brothy rather than stiff, soaking up the sweet, briny juices of the shellfish. It is served straight from the pan, usually with chopped parsley on top.",
+   "history": "Seafood risottos are cooked all along Italy's coastline, and pescatora ('fisherman's style') signals a mix of whatever shellfish the day brought in. The dish is a staple of trattorias in seaside towns today.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "320 g Arborio rice",
+     "500 g clams, purged",
+     "500 g mussels, cleaned",
+     "250 g shrimp, peeled",
+     "3 garlic cloves, sliced",
+     "120 ml dry white wine",
+     "200 g tomatoes, chopped",
+     "2 tbsp olive oil",
+     "1.2 l hot water",
+     "Parsley, salt, pepper"
+    ],
+    "steps": [
+     "Steam the clams and mussels in a covered pan with a little water until they open; strain and keep the liquid, discard any that stay closed.",
+     "Warm the oil, fry the garlic briefly, add the rice and toast it for 2 minutes.",
+     "Pour in the wine and let it evaporate, then add the tomatoes.",
+     "Add the shellfish liquid and hot water a ladle at a time, stirring, for about 16 minutes.",
+     "Stir in the shrimp for the last 3 minutes, then fold in the clams and mussels.",
+     "Rest 1 minute, season and finish with parsley."
+    ]
+   },
+   "tips": [
+    "A 350 g plate at about 150 kcal per 100 g is roughly 525 kcal — serve 250 g with a big salad to save around 150 kcal.",
+    "1 tbsp olive oil ≈ 120 kcal: use 1 tbsp instead of 2 for the whole pan.",
+    "Ask for extra shellfish and less rice to raise the protein share of the plate."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Risotto alla Pescatora",
-      "origin": "Italy · coastal regions",
-      "intro": "Risotto alla pescatora is the fisherman's risotto of the Italian coast: Arborio rice stirred slowly with clams, mussels and shrimp, garlic, a splash of white wine and tomato. The rice turns loose and brothy rather than stiff, soaking up the sweet, briny juices of the shellfish. It is served straight from the pan, usually with chopped parsley on top.",
-      "history": "Seafood risottos are cooked all along Italy's coastline, and pescatora ('fisherman's style') signals a mix of whatever shellfish the day brought in. The dish is a staple of trattorias in seaside towns today.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "320 g Arborio rice",
-          "500 g clams, purged",
-          "500 g mussels, cleaned",
-          "250 g shrimp, peeled",
-          "3 garlic cloves, sliced",
-          "120 ml dry white wine",
-          "200 g tomatoes, chopped",
-          "2 tbsp olive oil",
-          "1.2 l hot water",
-          "Parsley, salt, pepper"
-        ],
-        "steps": [
-          "Steam the clams and mussels in a covered pan with a little water until they open; strain and keep the liquid, discard any that stay closed.",
-          "Warm the oil, fry the garlic briefly, add the rice and toast it for 2 minutes.",
-          "Pour in the wine and let it evaporate, then add the tomatoes.",
-          "Add the shellfish liquid and hot water a ladle at a time, stirring, for about 16 minutes.",
-          "Stir in the shrimp for the last 3 minutes, then fold in the clams and mussels.",
-          "Rest 1 minute, season and finish with parsley."
-        ]
-      },
-      "tips": [
-        "A 350 g plate at about 150 kcal per 100 g is roughly 525 kcal — serve 250 g with a big salad to save around 150 kcal.",
-        "1 tbsp olive oil ≈ 120 kcal: use 1 tbsp instead of 2 for the whole pan.",
-        "Ask for extra shellfish and less rice to raise the protein share of the plate."
-      ]
-    },
-    "ar": {
-      "name": "ريزوتو بالمأكولات البحرية (ألا بيسكاتورا)",
-      "origin": "إيطاليا · المناطق الساحلية",
-      "intro": "ريزوتو ألا بيسكاتورا هو ريزوتو الصيادين على السواحل الإيطالية: أرز أربوريو يُقلَّب ببطء مع المحار وبلح البحر والروبيان والثوم ورشة من النبيذ الأبيض والطماطم. يأتي الأرز طرياً ومرقياً لا متماسكاً، يتشرّب عصارة المأكولات البحرية الحلوة المالحة. يُقدَّم مباشرة من القدر عادةً مع البقدونس المفروم.",
-      "history": "يُطهى ريزوتو المأكولات البحرية على امتداد الساحل الإيطالي، وتعني كلمة «بيسكاتورا» «على طريقة الصياد» أي خليطاً مما جاء به الصيد في اليوم. وهو اليوم طبق أساسي في مطاعم المدن الساحلية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "320 غ أرز أربوريو",
-          "500 غ محار منقّى",
-          "500 غ بلح البحر منظّف",
-          "250 غ روبيان مقشّر",
-          "3 فصوص ثوم شرائح",
-          "120 مل نبيذ أبيض جاف",
-          "200 غ طماطم مقطّعة",
-          "2 ملعقة كبيرة زيت زيتون",
-          "1.2 لتر ماء ساخن",
-          "بقدونس وملح وفلفل"
-        ],
-        "steps": [
-          "افتح المحار وبلح البحر بالبخار في قدر مغطى مع قليل من الماء، صفِّ السائل واحتفظ به وتخلّص مما لم يُفتح.",
-          "سخّن الزيت وقلّب الثوم قليلاً، ثم أضف الأرز وحمّصه دقيقتين.",
-          "أضف النبيذ حتى يتبخر، ثم الطماطم.",
-          "أضف سائل المحار والماء الساخن مغرفة بعد مغرفة مع التقليب نحو 16 دقيقة.",
-          "أضف الروبيان في آخر 3 دقائق، ثم المحار وبلح البحر.",
-          "اتركه دقيقة، تبّله وزيّنه بالبقدونس."
-        ]
-      },
-      "tips": [
-        "طبق 350 غ بنحو 150 سعرة لكل 100 غ يعادل قرابة 525 سعرة — قدّم 250 غ مع سلطة كبيرة لتوفير نحو 150 سعرة.",
-        "ملعقة كبيرة زيت زيتون ≈ 120 سعرة: استخدم ملعقة واحدة بدل اثنتين للقدر كله.",
-        "اطلب مأكولات بحرية أكثر وأرزاً أقل لرفع نسبة البروتين في الطبق."
-      ]
-    },
-    "it": {
-      "name": "Risotto alla pescatora",
-      "origin": "Italia · regioni costiere",
-      "intro": "Il risotto alla pescatora è il risotto dei pescatori delle coste italiane: riso arborio mescolato lentamente con vongole, cozze e gamberi, aglio, un goccio di vino bianco e pomodoro. Il riso resta all'onda e brodoso anziché compatto, assorbendo i succhi dolci e salmastri dei frutti di mare. Si serve direttamente dalla padella, di solito con prezzemolo tritato sopra.",
-      "history": "I risotti di mare si cucinano lungo tutta la costa italiana, e «alla pescatora» indica un mix dei frutti di mare portati dalla pesca del giorno. Oggi il piatto è un punto fermo delle trattorie delle località di mare.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "320 g di riso arborio",
-          "500 g di vongole, spurgate",
-          "500 g di cozze, pulite",
-          "250 g di gamberi, sgusciati",
-          "3 spicchi d'aglio, affettati",
-          "120 ml di vino bianco secco",
-          "200 g di pomodori, tritati",
-          "2 cucchiai di olio d'oliva",
-          "1,2 l di acqua calda",
-          "Prezzemolo, sale, pepe"
-        ],
-        "steps": [
-          "Fai aprire vongole e cozze in una padella coperta con un po' d'acqua; filtra e conserva il liquido, scartando quelle rimaste chiuse.",
-          "Scalda l'olio, soffriggi brevemente l'aglio, aggiungi il riso e tostalo per 2 minuti.",
-          "Sfuma con il vino e lascialo evaporare, poi aggiungi i pomodori.",
-          "Aggiungi il liquido dei molluschi e l'acqua calda un mestolo alla volta, mescolando, per circa 16 minuti.",
-          "Unisci i gamberi negli ultimi 3 minuti, poi incorpora vongole e cozze.",
-          "Lascia riposare 1 minuto, regola di sale e completa con il prezzemolo."
-        ]
-      },
-      "tips": [
-        "Un piatto da 350 g a circa 150 kcal per 100 g fa circa 525 kcal: servine 250 g con una grande insalata per risparmiare circa 150 kcal.",
-        "1 cucchiaio di olio d'oliva ≈ 120 kcal: usa 1 cucchiaio invece di 2 per tutta la padella.",
-        "Chiedi più frutti di mare e meno riso per aumentare la quota di proteine nel piatto."
-      ]
-    },
-    "el": {
-      "name": "Ριζότο αλα πεσκατόρα",
-      "origin": "Ιταλία · παράκτιες περιοχές",
-      "intro": "Το ριζότο αλα πεσκατόρα είναι το ριζότο του ψαρά των ιταλικών ακτών: ρύζι αρμπόριο ανακατεμένο αργά με αχιβάδες, μύδια και γαρίδες, σκόρδο, λίγο λευκό κρασί και ντομάτα. Το ρύζι μένει ρευστό και ζουμερό αντί για σφιχτό, ρουφώντας τους γλυκούς, αλμυρούς χυμούς των θαλασσινών. Σερβίρεται κατευθείαν από το τηγάνι, συνήθως με ψιλοκομμένο μαϊντανό από πάνω.",
-      "history": "Ριζότο με θαλασσινά μαγειρεύεται σε όλη την ιταλική ακτογραμμή, και το «πεσκατόρα» («του ψαρά») δηλώνει ένα μείγμα από όποια θαλασσινά έφερε η ψαριά της ημέρας. Σήμερα το πιάτο είναι σταθερή αξία στις τρατορίες των παραθαλάσσιων πόλεων.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "320 γρ. ρύζι αρμπόριο",
-          "500 γρ. αχιβάδες, ξαμμωμένες",
-          "500 γρ. μύδια, καθαρισμένα",
-          "250 γρ. γαρίδες, καθαρισμένες",
-          "3 σκελίδες σκόρδο, σε φέτες",
-          "120 ml ξηρό λευκό κρασί",
-          "200 γρ. ντομάτες, ψιλοκομμένες",
-          "2 κ.σ. ελαιόλαδο",
-          "1,2 λίτρο ζεστό νερό",
-          "Μαϊντανός, αλάτι, πιπέρι"
-        ],
-        "steps": [
-          "Βάλτε τις αχιβάδες και τα μύδια σε σκεπασμένο τηγάνι με λίγο νερό μέχρι να ανοίξουν· σουρώστε κρατώντας το υγρό και πετάξτε όσα μείνουν κλειστά.",
-          "Ζεστάνετε το λάδι, τσιγαρίστε για λίγο το σκόρδο, προσθέστε το ρύζι και καβουρδίστε 2 λεπτά.",
-          "Σβήστε με το κρασί και αφήστε το να εξατμιστεί, μετά προσθέστε τις ντομάτες.",
-          "Προσθέστε το υγρό των οστρακοειδών και το ζεστό νερό μία κουτάλα τη φορά, ανακατεύοντας, για περίπου 16 λεπτά.",
-          "Ρίξτε τις γαρίδες τα τελευταία 3 λεπτά και μετά ανακατέψτε απαλά τις αχιβάδες και τα μύδια.",
-          "Αφήστε 1 λεπτό, αλατοπιπερώστε και πασπαλίστε με μαϊντανό."
-        ]
-      },
-      "tips": [
-        "Ένα πιάτο 350 γρ. με περίπου 150 kcal ανά 100 γρ. έχει περίπου 525 kcal — σερβίρετε 250 γρ. με μια μεγάλη σαλάτα για να γλιτώσετε περίπου 150 kcal.",
-        "1 κ.σ. ελαιόλαδο ≈ 120 kcal: χρησιμοποιήστε 1 κ.σ. αντί για 2 για όλο το τηγάνι.",
-        "Ζητήστε περισσότερα θαλασσινά και λιγότερο ρύζι για να αυξηθεί το ποσοστό πρωτεΐνης στο πιάτο."
-      ]
-    },
-    "ru": {
-      "name": "Ризотто алла пескаторе",
-      "origin": "Италия · прибрежные регионы",
-      "intro": "Ризотто алла пескаторе — «рыбацкое» ризотто итальянского побережья: рис арборио, медленно размешиваемый с моллюсками, мидиями и креветками, чесноком, глотком белого вина и помидорами. Рис получается жидковатым и похожим на суп, а не упругим, и впитывает сладкие солоноватые соки морепродуктов. Блюдо подают прямо со сковороды, обычно с рубленой петрушкой сверху.",
-      "history": "Ризотто с морепродуктами готовят по всему итальянскому побережью, а слово «пескаторе» («по-рыбацки») указывает на смесь тех моллюсков, что принёс день. Сегодня это основа меню траттории в приморских городках.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "320 г риса арборио",
-          "500 г венерок, выдержанных в воде",
-          "500 г мидий, очищенных",
-          "250 г креветок, очищенных",
-          "3 зубчика чеснока, нарезанных",
-          "120 мл сухого белого вина",
-          "200 г помидоров, нарубленных",
-          "2 ст. л. оливкового масла",
-          "1,2 л горячей воды",
-          "Петрушка, соль, перец"
-        ],
-        "steps": [
-          "Готовьте венерок и мидий на пару в закрытой сковороде с небольшим количеством воды, пока они не раскроются; процедите и сохраните жидкость, закрытые выбросьте.",
-          "Разогрейте масло, обжарьте чеснок недолго, добавьте рис и обжаривайте 2 минуты.",
-          "Влейте вино и дайте ему выпариться, затем добавьте помидоры.",
-          "Добавляйте жидкость от моллюсков и горячую воду по половнику, помешивая, примерно 16 минут.",
-          "Добавьте креветки на последние 3 минуты, затем аккуратно вмешайте венерок и мидий.",
-          "Оставьте на 1 минуту, посолите, поперчите и заправьте петрушкой."
-        ]
-      },
-      "tips": [
-        "Тарелка в 350 г при примерно 150 ккал на 100 г — это около 525 ккал; подайте 250 г с большим салатом, чтобы сэкономить около 150 ккал.",
-        "1 ст. л. оливкового масла ≈ 120 ккал: используйте 1 ст. л. вместо 2 на всю сковороду.",
-        "Берите больше морепродуктов и меньше риса, чтобы повысить долю белка в тарелке."
-      ],
-      "name_inline": "ризотто алла пескаторе"
-    }
+  "ar": {
+   "name": "ريزوتو بالمأكولات البحرية (ألا بيسكاتورا)",
+   "origin": "إيطاليا · المناطق الساحلية",
+   "intro": "ريزوتو ألا بيسكاتورا هو ريزوتو الصيادين على السواحل الإيطالية: أرز أربوريو يُقلَّب ببطء مع المحار وبلح البحر والروبيان والثوم ورشة من النبيذ الأبيض والطماطم. يأتي الأرز طرياً ومرقياً لا متماسكاً، يتشرّب عصارة المأكولات البحرية الحلوة المالحة. يُقدَّم مباشرة من القدر عادةً مع البقدونس المفروم.",
+   "history": "يُطهى ريزوتو المأكولات البحرية على امتداد الساحل الإيطالي، وتعني كلمة «بيسكاتورا» «على طريقة الصياد» أي خليطاً مما جاء به الصيد في اليوم. وهو اليوم طبق أساسي في مطاعم المدن الساحلية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "320 غ أرز أربوريو",
+     "500 غ محار منقّى",
+     "500 غ بلح البحر منظّف",
+     "250 غ روبيان مقشّر",
+     "3 فصوص ثوم شرائح",
+     "120 مل نبيذ أبيض جاف",
+     "200 غ طماطم مقطّعة",
+     "2 ملعقة كبيرة زيت زيتون",
+     "1.2 لتر ماء ساخن",
+     "بقدونس وملح وفلفل"
+    ],
+    "steps": [
+     "افتح المحار وبلح البحر بالبخار في قدر مغطى مع قليل من الماء، صفِّ السائل واحتفظ به وتخلّص مما لم يُفتح.",
+     "سخّن الزيت وقلّب الثوم قليلاً، ثم أضف الأرز وحمّصه دقيقتين.",
+     "أضف النبيذ حتى يتبخر، ثم الطماطم.",
+     "أضف سائل المحار والماء الساخن مغرفة بعد مغرفة مع التقليب نحو 16 دقيقة.",
+     "أضف الروبيان في آخر 3 دقائق، ثم المحار وبلح البحر.",
+     "اتركه دقيقة، تبّله وزيّنه بالبقدونس."
+    ]
+   },
+   "tips": [
+    "طبق 350 غ بنحو 150 سعرة لكل 100 غ يعادل قرابة 525 سعرة — قدّم 250 غ مع سلطة كبيرة لتوفير نحو 150 سعرة.",
+    "ملعقة كبيرة زيت زيتون ≈ 120 سعرة: استخدم ملعقة واحدة بدل اثنتين للقدر كله.",
+    "اطلب مأكولات بحرية أكثر وأرزاً أقل لرفع نسبة البروتين في الطبق."
+   ]
+  },
+  "it": {
+   "name": "Risotto alla pescatora",
+   "origin": "Italia · regioni costiere",
+   "intro": "Il risotto alla pescatora è il risotto dei pescatori delle coste italiane: riso arborio mescolato lentamente con vongole, cozze e gamberi, aglio, un goccio di vino bianco e pomodoro. Il riso resta all'onda e brodoso anziché compatto, assorbendo i succhi dolci e salmastri dei frutti di mare. Si serve direttamente dalla padella, di solito con prezzemolo tritato sopra.",
+   "history": "I risotti di mare si cucinano lungo tutta la costa italiana, e «alla pescatora» indica un mix dei frutti di mare portati dalla pesca del giorno. Oggi il piatto è un punto fermo delle trattorie delle località di mare.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "320 g di riso arborio",
+     "500 g di vongole, spurgate",
+     "500 g di cozze, pulite",
+     "250 g di gamberi, sgusciati",
+     "3 spicchi d'aglio, affettati",
+     "120 ml di vino bianco secco",
+     "200 g di pomodori, tritati",
+     "2 cucchiai di olio d'oliva",
+     "1,2 l di acqua calda",
+     "Prezzemolo, sale, pepe"
+    ],
+    "steps": [
+     "Fai aprire vongole e cozze in una padella coperta con un po' d'acqua; filtra e conserva il liquido, scartando quelle rimaste chiuse.",
+     "Scalda l'olio, soffriggi brevemente l'aglio, aggiungi il riso e tostalo per 2 minuti.",
+     "Sfuma con il vino e lascialo evaporare, poi aggiungi i pomodori.",
+     "Aggiungi il liquido dei molluschi e l'acqua calda un mestolo alla volta, mescolando, per circa 16 minuti.",
+     "Unisci i gamberi negli ultimi 3 minuti, poi incorpora vongole e cozze.",
+     "Lascia riposare 1 minuto, regola di sale e completa con il prezzemolo."
+    ]
+   },
+   "tips": [
+    "Un piatto da 350 g a circa 150 kcal per 100 g fa circa 525 kcal: servine 250 g con una grande insalata per risparmiare circa 150 kcal.",
+    "1 cucchiaio di olio d'oliva ≈ 120 kcal: usa 1 cucchiaio invece di 2 per tutta la padella.",
+    "Chiedi più frutti di mare e meno riso per aumentare la quota di proteine nel piatto."
+   ]
+  },
+  "el": {
+   "name": "Ριζότο αλα πεσκατόρα",
+   "origin": "Ιταλία · παράκτιες περιοχές",
+   "intro": "Το ριζότο αλα πεσκατόρα είναι το ριζότο του ψαρά των ιταλικών ακτών: ρύζι αρμπόριο ανακατεμένο αργά με αχιβάδες, μύδια και γαρίδες, σκόρδο, λίγο λευκό κρασί και ντομάτα. Το ρύζι μένει ρευστό και ζουμερό αντί για σφιχτό, ρουφώντας τους γλυκούς, αλμυρούς χυμούς των θαλασσινών. Σερβίρεται κατευθείαν από το τηγάνι, συνήθως με ψιλοκομμένο μαϊντανό από πάνω.",
+   "history": "Ριζότο με θαλασσινά μαγειρεύεται σε όλη την ιταλική ακτογραμμή, και το «πεσκατόρα» («του ψαρά») δηλώνει ένα μείγμα από όποια θαλασσινά έφερε η ψαριά της ημέρας. Σήμερα το πιάτο είναι σταθερή αξία στις τρατορίες των παραθαλάσσιων πόλεων.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "320 γρ. ρύζι αρμπόριο",
+     "500 γρ. αχιβάδες, ξαμμωμένες",
+     "500 γρ. μύδια, καθαρισμένα",
+     "250 γρ. γαρίδες, καθαρισμένες",
+     "3 σκελίδες σκόρδο, σε φέτες",
+     "120 ml ξηρό λευκό κρασί",
+     "200 γρ. ντομάτες, ψιλοκομμένες",
+     "2 κ.σ. ελαιόλαδο",
+     "1,2 λίτρο ζεστό νερό",
+     "Μαϊντανός, αλάτι, πιπέρι"
+    ],
+    "steps": [
+     "Βάλτε τις αχιβάδες και τα μύδια σε σκεπασμένο τηγάνι με λίγο νερό μέχρι να ανοίξουν· σουρώστε κρατώντας το υγρό και πετάξτε όσα μείνουν κλειστά.",
+     "Ζεστάνετε το λάδι, τσιγαρίστε για λίγο το σκόρδο, προσθέστε το ρύζι και καβουρδίστε 2 λεπτά.",
+     "Σβήστε με το κρασί και αφήστε το να εξατμιστεί, μετά προσθέστε τις ντομάτες.",
+     "Προσθέστε το υγρό των οστρακοειδών και το ζεστό νερό μία κουτάλα τη φορά, ανακατεύοντας, για περίπου 16 λεπτά.",
+     "Ρίξτε τις γαρίδες τα τελευταία 3 λεπτά και μετά ανακατέψτε απαλά τις αχιβάδες και τα μύδια.",
+     "Αφήστε 1 λεπτό, αλατοπιπερώστε και πασπαλίστε με μαϊντανό."
+    ]
+   },
+   "tips": [
+    "Ένα πιάτο 350 γρ. με περίπου 150 kcal ανά 100 γρ. έχει περίπου 525 kcal — σερβίρετε 250 γρ. με μια μεγάλη σαλάτα για να γλιτώσετε περίπου 150 kcal.",
+    "1 κ.σ. ελαιόλαδο ≈ 120 kcal: χρησιμοποιήστε 1 κ.σ. αντί για 2 για όλο το τηγάνι.",
+    "Ζητήστε περισσότερα θαλασσινά και λιγότερο ρύζι για να αυξηθεί το ποσοστό πρωτεΐνης στο πιάτο."
+   ]
+  },
+  "ru": {
+   "name": "Ризотто алла пескаторе",
+   "origin": "Италия · прибрежные регионы",
+   "intro": "Ризотто алла пескаторе — «рыбацкое» ризотто итальянского побережья: рис арборио, медленно размешиваемый с моллюсками, мидиями и креветками, чесноком, глотком белого вина и помидорами. Рис получается жидковатым и похожим на суп, а не упругим, и впитывает сладкие солоноватые соки морепродуктов. Блюдо подают прямо со сковороды, обычно с рубленой петрушкой сверху.",
+   "history": "Ризотто с морепродуктами готовят по всему итальянскому побережью, а слово «пескаторе» («по-рыбацки») указывает на смесь тех моллюсков, что принёс день. Сегодня это основа меню траттории в приморских городках.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "320 г риса арборио",
+     "500 г венерок, выдержанных в воде",
+     "500 г мидий, очищенных",
+     "250 г креветок, очищенных",
+     "3 зубчика чеснока, нарезанных",
+     "120 мл сухого белого вина",
+     "200 г помидоров, нарубленных",
+     "2 ст. л. оливкового масла",
+     "1,2 л горячей воды",
+     "Петрушка, соль, перец"
+    ],
+    "steps": [
+     "Готовьте венерок и мидий на пару в закрытой сковороде с небольшим количеством воды, пока они не раскроются; процедите и сохраните жидкость, закрытые выбросьте.",
+     "Разогрейте масло, обжарьте чеснок недолго, добавьте рис и обжаривайте 2 минуты.",
+     "Влейте вино и дайте ему выпариться, затем добавьте помидоры.",
+     "Добавляйте жидкость от моллюсков и горячую воду по половнику, помешивая, примерно 16 минут.",
+     "Добавьте креветки на последние 3 минуты, затем аккуратно вмешайте венерок и мидий.",
+     "Оставьте на 1 минуту, посолите, поперчите и заправьте петрушкой."
+    ]
+   },
+   "tips": [
+    "Тарелка в 350 г при примерно 150 ккал на 100 г — это около 525 ккал; подайте 250 г с большим салатом, чтобы сэкономить около 150 ккал.",
+    "1 ст. л. оливкового масла ≈ 120 ккал: используйте 1 ст. л. вместо 2 на всю сковороду.",
+    "Берите больше морепродуктов и меньше риса, чтобы повысить долю белка в тарелке."
+   ],
+   "name_inline": "ризотто алла пескаторе"
+  },
+  "es": {
+   "name": "Risotto alla pescatora",
+   "origin": "Italia · regiones costeras",
+   "intro": "El risotto alla pescatora es el risotto del pescador de la costa italiana: arroz arborio removido lentamente con almejas, mejillones y camarones, ajo, un chorrito de vino blanco y jitomate. El arroz queda suelto y caldoso, no firme, y absorbe los jugos dulces y marinos de los mariscos. Se sirve directo de la sartén, normalmente con perejil picado encima.",
+   "history": "Los risottos de mariscos se cocinan a lo largo de toda la costa de Italia, y «pescatora» (a la manera del pescador) indica una mezcla de los mariscos que trajo el día. Hoy es un clásico de las trattorias de los pueblos costeros.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "320 g de arroz arborio",
+     "500 g de almejas, purgadas",
+     "500 g de mejillones, limpios",
+     "250 g de camarones, pelados",
+     "3 dientes de ajo, en rodajas",
+     "120 ml de vino blanco seco",
+     "200 g de jitomates, picados",
+     "2 cda. de aceite de oliva",
+     "1.2 l de agua caliente",
+     "Perejil, sal, pimienta"
+    ],
+    "steps": [
+     "Cuece al vapor las almejas y los mejillones en una cacerola tapada con un poco de agua hasta que se abran; cuela y reserva el líquido, y desecha los que sigan cerrados.",
+     "Calienta el aceite, sofríe el ajo un momento, agrega el arroz y tuéstalo 2 minutos.",
+     "Vierte el vino y deja que se evapore; después añade los jitomates.",
+     "Agrega el líquido de los mariscos y el agua caliente de a un cucharón, sin dejar de remover, durante unos 16 minutos.",
+     "Incorpora los camarones los últimos 3 minutos y luego mezcla con las almejas y los mejillones.",
+     "Deja reposar 1 minuto, sazona y termina con perejil."
+    ]
+   },
+   "tips": [
+    "Un plato de 350 g con unas 150 kcal por 100 g son unas 525 kcal: sirve 250 g con una ensalada grande y ahorrarás unas 150 kcal.",
+    "1 cda. de aceite de oliva ≈ 120 kcal: usa 1 cda. en lugar de 2 para toda la sartén.",
+    "Pide más mariscos y menos arroz para aumentar la proporción de proteína del plato."
+   ],
+   "name_inline": "el risotto alla pescatora"
   }
+ }
 }

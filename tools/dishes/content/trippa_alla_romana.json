@@ -1,180 +1,214 @@
 {
-  "db_key": "trippa_alla_romana",
-  "slug": "trippa-alla-romana",
-  "emoji": "🍲",
-  "portion_g": 300,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "trippa_alla_romana",
+ "slug": "trippa-alla-romana",
+ "emoji": "🍲",
+ "portion_g": 300,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Trippa alla Romana",
+   "origin": "Italy · Rome, Lazio",
+   "intro": "Trippa alla romana is Roman-style tripe: honeycomb tripe cut into strips and slowly braised in a tomato sauce with celery, then finished with fresh mint and plenty of grated pecorino. The tripe turns tender with a gentle chew, the sauce is tangy, and the mint gives a fresh lift. It is served hot in a bowl, traditionally on Saturdays in Roman trattorias.",
+   "history": "The dish belongs to the quinto quarto tradition of Rome, the cooking of offal that grew around the city's old slaughterhouse in Testaccio. Eating tripe on Saturday is a long-standing Roman custom that many trattorias still keep.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg cleaned honeycomb tripe (pre-cooked)",
+     "2 tbsp olive oil",
+     "1 onion, chopped",
+     "2 celery stalks, chopped",
+     "1 carrot, chopped",
+     "700 g passata",
+     "1 small bunch fresh mint",
+     "60 g pecorino romano, grated",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Rinse the tripe and cut it into strips about 1 cm wide.",
+     "Soften the onion, celery and carrot in the olive oil for 8–10 minutes.",
+     "Add the tripe, stir for a few minutes, then add the passata, half the mint, salt and pepper.",
+     "Cover and simmer gently for about 1.5–2 hours, until tender, adding water if needed.",
+     "Serve hot with the remaining mint and the grated pecorino."
+    ]
+   },
+   "tips": [
+    "Tripe itself is lean; most extra calories come from the cheese, so measure the pecorino (about 15 g per plate).",
+    "Use only 1–2 tbsp oil for the whole pot — 1 tbsp oil ≈ 120 kcal.",
+    "Serve with a large green salad to round out the meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Trippa alla Romana",
-      "origin": "Italy · Rome, Lazio",
-      "intro": "Trippa alla romana is Roman-style tripe: honeycomb tripe cut into strips and slowly braised in a tomato sauce with celery, then finished with fresh mint and plenty of grated pecorino. The tripe turns tender with a gentle chew, the sauce is tangy, and the mint gives a fresh lift. It is served hot in a bowl, traditionally on Saturdays in Roman trattorias.",
-      "history": "The dish belongs to the quinto quarto tradition of Rome, the cooking of offal that grew around the city's old slaughterhouse in Testaccio. Eating tripe on Saturday is a long-standing Roman custom that many trattorias still keep.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "1 kg cleaned honeycomb tripe (pre-cooked)",
-          "2 tbsp olive oil",
-          "1 onion, chopped",
-          "2 celery stalks, chopped",
-          "1 carrot, chopped",
-          "700 g passata",
-          "1 small bunch fresh mint",
-          "60 g pecorino romano, grated",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Rinse the tripe and cut it into strips about 1 cm wide.",
-          "Soften the onion, celery and carrot in the olive oil for 8–10 minutes.",
-          "Add the tripe, stir for a few minutes, then add the passata, half the mint, salt and pepper.",
-          "Cover and simmer gently for about 1.5–2 hours, until tender, adding water if needed.",
-          "Serve hot with the remaining mint and the grated pecorino."
-        ]
-      },
-      "tips": [
-        "Tripe itself is lean; most extra calories come from the cheese, so measure the pecorino (about 15 g per plate).",
-        "Use only 1–2 tbsp oil for the whole pot — 1 tbsp oil ≈ 120 kcal.",
-        "Serve with a large green salad to round out the meal."
-      ]
-    },
-    "ar": {
-      "name": "كرشة على الطريقة الرومانية",
-      "origin": "إيطاليا · روما، لاتسيو",
-      "intro": "الكرشة على الطريقة الرومانية هي كرشة شبكية مقطعة شرائح تُطهى ببطء في صلصة طماطم مع الكرفس، ثم تُنهى بالنعناع الطازج وكمية وافرة من جبن البيكورينو المبشور. تصبح الكرشة طرية مع قوام مطاطي خفيف، والصلصة حامضة قليلًا، ويضيف النعناع انتعاشًا. تُقدَّم ساخنة في وعاء، وتقليديًا يوم السبت في مطاعم روما الشعبية.",
-      "history": "ينتمي الطبق إلى تقليد «الربع الخامس» في روما، أي طبخ الأحشاء الذي نشأ حول المسلخ القديم في حي تستاتشو. وتناول الكرشة يوم السبت عادة رومانية قديمة لا تزال مطاعم كثيرة تحافظ عليها.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "1 كغ كرشة شبكية منظفة ومسلوقة مسبقًا",
-          "2 ملعقة كبيرة زيت زيتون",
-          "1 بصلة مفرومة",
-          "2 عود كرفس مفروم",
-          "1 جزرة مفرومة",
-          "700 غ صلصة طماطم مصفاة (باسّاتا)",
-          "1 حزمة صغيرة نعناع طازج",
-          "60 غ جبن بيكورينو رومانو مبشور",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "اشطف الكرشة وقطّعها شرائح بعرض 1 سم تقريبًا.",
-          "قلّب البصل والكرفس والجزر في زيت الزيتون 8–10 دقائق حتى تذبل.",
-          "أضف الكرشة وقلّب بضع دقائق، ثم أضف الصلصة ونصف النعناع والملح والفلفل.",
-          "غطِّ القدر واتركه على نار هادئة نحو ساعة ونصف إلى ساعتين حتى تطرى، مع إضافة الماء عند الحاجة.",
-          "قدّمها ساخنة مع بقية النعناع والبيكورينو المبشور."
-        ]
-      },
-      "tips": [
-        "الكرشة نفسها قليلة الدهن، ومعظم السعرات الإضافية من الجبن، فقِس البيكورينو (نحو 15 غ للطبق).",
-        "استخدم 1–2 ملعقة كبيرة زيت للقدر كله، فملعقة الزيت ≈ 120 سعرة.",
-        "قدّمها مع سلطة خضراء كبيرة لاستكمال الوجبة."
-      ]
-    },
-    "it": {
-      "name": "Trippa alla romana",
-      "origin": "Italia · Roma, Lazio",
-      "intro": "La trippa alla romana è trippa cucinata alla maniera di Roma: trippa a nido d'ape tagliata a strisce e stufata lentamente in un sugo di pomodoro con sedano, poi completata con menta fresca e abbondante pecorino grattugiato. La trippa diventa tenera ma conserva una piacevole consistenza, il sugo è vivace e la menta dà una nota fresca. Si serve calda in una scodella, tradizionalmente il sabato nelle trattorie romane.",
-      "history": "Il piatto appartiene alla tradizione romana del quinto quarto, la cucina delle frattaglie nata intorno al vecchio mattatoio della città a Testaccio. Mangiare la trippa il sabato è un'antica usanza romana che molte trattorie mantengono ancora oggi.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "1 kg di trippa a nido d'ape pulita (precotta)",
-          "2 cucchiai di olio d'oliva",
-          "1 cipolla, tritata",
-          "2 coste di sedano, tritate",
-          "1 carota, tritata",
-          "700 g di passata di pomodoro",
-          "1 mazzetto di menta fresca",
-          "60 g di pecorino romano, grattugiato",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Sciacqua la trippa e tagliala a strisce larghe circa 1 cm.",
-          "Fai appassire cipolla, sedano e carota nell'olio d'oliva per 8–10 minuti.",
-          "Aggiungi la trippa, mescola per qualche minuto, poi unisci la passata, metà della menta, sale e pepe.",
-          "Copri e lascia sobbollire dolcemente per circa 1,5–2 ore, finché è tenera, aggiungendo acqua se necessario.",
-          "Servi calda con la menta rimasta e il pecorino grattugiato."
-        ]
-      },
-      "tips": [
-        "La trippa in sé è magra; la maggior parte delle calorie in più viene dal formaggio, quindi pesa il pecorino (circa 15 g a piatto).",
-        "Usa solo 1–2 cucchiai di olio per tutta la pentola: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Servila con una grande insalata verde per completare il pasto."
-      ]
-    },
-    "el": {
-      "name": "Τρίπα αλά ρομάνα",
-      "origin": "Ιταλία · Ρώμη, Λάτσιο",
-      "intro": "Η τρίπα αλά ρομάνα είναι πατσάς ρωμαϊκού τύπου: πατσάς κυψέλη κομμένος σε λωρίδες και σιγομαγειρεμένος σε σάλτσα ντομάτας με σέλινο, που τελειώνει με φρέσκο δυόσμο και άφθονο τριμμένο πεκορίνο. Ο πατσάς γίνεται τρυφερός με μια ελαφριά μάσηση, η σάλτσα είναι πικάντικη και ο δυόσμος δίνει φρεσκάδα. Σερβίρεται ζεστός σε μπολ, παραδοσιακά τα Σάββατα στις ρωμαϊκές τρατορίες.",
-      "history": "Το πιάτο ανήκει στην παράδοση του κουίντο κουάρτο (quinto quarto) της Ρώμης, τη μαγειρική των εντοσθίων που αναπτύχθηκε γύρω από το παλιό σφαγείο της πόλης στο Τεστάτσιο. Η κατανάλωση πατσά το Σάββατο είναι παλιό ρωμαϊκό έθιμο που πολλές τρατορίες τηρούν ακόμη.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "1 κιλό καθαρισμένος πατσάς κυψέλη (προβρασμένος)",
-          "2 κ.σ. ελαιόλαδο",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "2 κλωνάρια σέλινο, ψιλοκομμένα",
-          "1 καρότο, ψιλοκομμένο",
-          "700 γρ. πασάτα",
-          "1 μικρό ματσάκι φρέσκος δυόσμος",
-          "60 γρ. πεκορίνο ρομάνο, τριμμένο",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Ξεπλύνετε τον πατσά και κόψτε τον σε λωρίδες πλάτους περίπου 1 εκ.",
-          "Σοτάρετε απαλά το κρεμμύδι, το σέλινο και το καρότο στο ελαιόλαδο για 8–10 λεπτά.",
-          "Προσθέστε τον πατσά, ανακατέψτε για λίγα λεπτά και μετά προσθέστε την πασάτα, τον μισό δυόσμο, αλάτι και πιπέρι.",
-          "Σκεπάστε και σιγοβράστε για περίπου 1,5–2 ώρες, μέχρι να μαλακώσει, προσθέτοντας νερό αν χρειαστεί.",
-          "Σερβίρετε ζεστό με τον υπόλοιπο δυόσμο και το τριμμένο πεκορίνο."
-        ]
-      },
-      "tips": [
-        "Ο πατσάς είναι από μόνος του άπαχος· οι περισσότερες επιπλέον θερμίδες έρχονται από το τυρί, οπότε μετρήστε το πεκορίνο (περίπου 15 γρ. ανά πιάτο).",
-        "Χρησιμοποιήστε μόνο 1–2 κ.σ. λάδι για όλη την κατσαρόλα — 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Σερβίρετε με μια μεγάλη πράσινη σαλάτα για να ολοκληρωθεί το γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Рубец по-римски (Trippa alla Romana)",
-      "origin": "Италия · Рим, Лацио",
-      "intro": "Триппа алла романа — рубец по-римски: сотовый рубец, нарезанный полосками и медленно тушёный в томатном соусе с сельдереем, затем завершённый свежей мятой и большим количеством тёртого пекорино. Рубец становится мягким с лёгкой упругостью, соус кисловатый, а мята добавляет свежую нотку. Подаётся горячим в миске, традиционно по субботам в римских траттории.",
-      "history": "Блюдо относится к римской традиции «квинто куарто» — кухни из субпродуктов, выросшей вокруг старой городской бойни в Тестаччо. Есть рубец по субботам — давний римский обычай, который до сих пор соблюдают многие траттории.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "1 кг очищенного сотового рубца (предварительно отваренного)",
-          "2 ст. л. оливкового масла",
-          "1 луковица, нарубленная",
-          "2 стебля сельдерея, нарубленных",
-          "1 морковь, нарубленная",
-          "700 г пассаты",
-          "1 небольшой пучок свежей мяты",
-          "60 г тёртого пекорино романо",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Промойте рубец и нарежьте полосками шириной около 1 см.",
-          "Обжаривайте лук, сельдерей и морковь в оливковом масле 8–10 минут до мягкости.",
-          "Добавьте рубец, помешивайте несколько минут, затем добавьте пассату, половину мяты, соль и перец.",
-          "Накройте и тушите на слабом огне около 1,5–2 часов до мягкости, при необходимости подливая воду.",
-          "Подавайте горячим с оставшейся мятой и тёртым пекорино."
-        ]
-      },
-      "tips": [
-        "Сам рубец постный; основная часть лишних калорий приходится на сыр, поэтому отмеряйте пекорино (около 15 г на тарелку).",
-        "Берите всего 1–2 ст. л. масла на всю кастрюлю — 1 ст. л. масла ≈ 120 ккал.",
-        "Подавайте с большим зелёным салатом, чтобы трапеза была полноценной."
-      ],
-      "name_inline": "рубец по-римски"
-    }
+  "ar": {
+   "name": "كرشة على الطريقة الرومانية",
+   "origin": "إيطاليا · روما، لاتسيو",
+   "intro": "الكرشة على الطريقة الرومانية هي كرشة شبكية مقطعة شرائح تُطهى ببطء في صلصة طماطم مع الكرفس، ثم تُنهى بالنعناع الطازج وكمية وافرة من جبن البيكورينو المبشور. تصبح الكرشة طرية مع قوام مطاطي خفيف، والصلصة حامضة قليلًا، ويضيف النعناع انتعاشًا. تُقدَّم ساخنة في وعاء، وتقليديًا يوم السبت في مطاعم روما الشعبية.",
+   "history": "ينتمي الطبق إلى تقليد «الربع الخامس» في روما، أي طبخ الأحشاء الذي نشأ حول المسلخ القديم في حي تستاتشو. وتناول الكرشة يوم السبت عادة رومانية قديمة لا تزال مطاعم كثيرة تحافظ عليها.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "1 كغ كرشة شبكية منظفة ومسلوقة مسبقًا",
+     "2 ملعقة كبيرة زيت زيتون",
+     "1 بصلة مفرومة",
+     "2 عود كرفس مفروم",
+     "1 جزرة مفرومة",
+     "700 غ صلصة طماطم مصفاة (باسّاتا)",
+     "1 حزمة صغيرة نعناع طازج",
+     "60 غ جبن بيكورينو رومانو مبشور",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "اشطف الكرشة وقطّعها شرائح بعرض 1 سم تقريبًا.",
+     "قلّب البصل والكرفس والجزر في زيت الزيتون 8–10 دقائق حتى تذبل.",
+     "أضف الكرشة وقلّب بضع دقائق، ثم أضف الصلصة ونصف النعناع والملح والفلفل.",
+     "غطِّ القدر واتركه على نار هادئة نحو ساعة ونصف إلى ساعتين حتى تطرى، مع إضافة الماء عند الحاجة.",
+     "قدّمها ساخنة مع بقية النعناع والبيكورينو المبشور."
+    ]
+   },
+   "tips": [
+    "الكرشة نفسها قليلة الدهن، ومعظم السعرات الإضافية من الجبن، فقِس البيكورينو (نحو 15 غ للطبق).",
+    "استخدم 1–2 ملعقة كبيرة زيت للقدر كله، فملعقة الزيت ≈ 120 سعرة.",
+    "قدّمها مع سلطة خضراء كبيرة لاستكمال الوجبة."
+   ]
+  },
+  "it": {
+   "name": "Trippa alla romana",
+   "origin": "Italia · Roma, Lazio",
+   "intro": "La trippa alla romana è trippa cucinata alla maniera di Roma: trippa a nido d'ape tagliata a strisce e stufata lentamente in un sugo di pomodoro con sedano, poi completata con menta fresca e abbondante pecorino grattugiato. La trippa diventa tenera ma conserva una piacevole consistenza, il sugo è vivace e la menta dà una nota fresca. Si serve calda in una scodella, tradizionalmente il sabato nelle trattorie romane.",
+   "history": "Il piatto appartiene alla tradizione romana del quinto quarto, la cucina delle frattaglie nata intorno al vecchio mattatoio della città a Testaccio. Mangiare la trippa il sabato è un'antica usanza romana che molte trattorie mantengono ancora oggi.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg di trippa a nido d'ape pulita (precotta)",
+     "2 cucchiai di olio d'oliva",
+     "1 cipolla, tritata",
+     "2 coste di sedano, tritate",
+     "1 carota, tritata",
+     "700 g di passata di pomodoro",
+     "1 mazzetto di menta fresca",
+     "60 g di pecorino romano, grattugiato",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Sciacqua la trippa e tagliala a strisce larghe circa 1 cm.",
+     "Fai appassire cipolla, sedano e carota nell'olio d'oliva per 8–10 minuti.",
+     "Aggiungi la trippa, mescola per qualche minuto, poi unisci la passata, metà della menta, sale e pepe.",
+     "Copri e lascia sobbollire dolcemente per circa 1,5–2 ore, finché è tenera, aggiungendo acqua se necessario.",
+     "Servi calda con la menta rimasta e il pecorino grattugiato."
+    ]
+   },
+   "tips": [
+    "La trippa in sé è magra; la maggior parte delle calorie in più viene dal formaggio, quindi pesa il pecorino (circa 15 g a piatto).",
+    "Usa solo 1–2 cucchiai di olio per tutta la pentola: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Servila con una grande insalata verde per completare il pasto."
+   ]
+  },
+  "el": {
+   "name": "Τρίπα αλά ρομάνα",
+   "origin": "Ιταλία · Ρώμη, Λάτσιο",
+   "intro": "Η τρίπα αλά ρομάνα είναι πατσάς ρωμαϊκού τύπου: πατσάς κυψέλη κομμένος σε λωρίδες και σιγομαγειρεμένος σε σάλτσα ντομάτας με σέλινο, που τελειώνει με φρέσκο δυόσμο και άφθονο τριμμένο πεκορίνο. Ο πατσάς γίνεται τρυφερός με μια ελαφριά μάσηση, η σάλτσα είναι πικάντικη και ο δυόσμος δίνει φρεσκάδα. Σερβίρεται ζεστός σε μπολ, παραδοσιακά τα Σάββατα στις ρωμαϊκές τρατορίες.",
+   "history": "Το πιάτο ανήκει στην παράδοση του κουίντο κουάρτο (quinto quarto) της Ρώμης, τη μαγειρική των εντοσθίων που αναπτύχθηκε γύρω από το παλιό σφαγείο της πόλης στο Τεστάτσιο. Η κατανάλωση πατσά το Σάββατο είναι παλιό ρωμαϊκό έθιμο που πολλές τρατορίες τηρούν ακόμη.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "1 κιλό καθαρισμένος πατσάς κυψέλη (προβρασμένος)",
+     "2 κ.σ. ελαιόλαδο",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "2 κλωνάρια σέλινο, ψιλοκομμένα",
+     "1 καρότο, ψιλοκομμένο",
+     "700 γρ. πασάτα",
+     "1 μικρό ματσάκι φρέσκος δυόσμος",
+     "60 γρ. πεκορίνο ρομάνο, τριμμένο",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Ξεπλύνετε τον πατσά και κόψτε τον σε λωρίδες πλάτους περίπου 1 εκ.",
+     "Σοτάρετε απαλά το κρεμμύδι, το σέλινο και το καρότο στο ελαιόλαδο για 8–10 λεπτά.",
+     "Προσθέστε τον πατσά, ανακατέψτε για λίγα λεπτά και μετά προσθέστε την πασάτα, τον μισό δυόσμο, αλάτι και πιπέρι.",
+     "Σκεπάστε και σιγοβράστε για περίπου 1,5–2 ώρες, μέχρι να μαλακώσει, προσθέτοντας νερό αν χρειαστεί.",
+     "Σερβίρετε ζεστό με τον υπόλοιπο δυόσμο και το τριμμένο πεκορίνο."
+    ]
+   },
+   "tips": [
+    "Ο πατσάς είναι από μόνος του άπαχος· οι περισσότερες επιπλέον θερμίδες έρχονται από το τυρί, οπότε μετρήστε το πεκορίνο (περίπου 15 γρ. ανά πιάτο).",
+    "Χρησιμοποιήστε μόνο 1–2 κ.σ. λάδι για όλη την κατσαρόλα — 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Σερβίρετε με μια μεγάλη πράσινη σαλάτα για να ολοκληρωθεί το γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Рубец по-римски (Trippa alla Romana)",
+   "origin": "Италия · Рим, Лацио",
+   "intro": "Триппа алла романа — рубец по-римски: сотовый рубец, нарезанный полосками и медленно тушёный в томатном соусе с сельдереем, затем завершённый свежей мятой и большим количеством тёртого пекорино. Рубец становится мягким с лёгкой упругостью, соус кисловатый, а мята добавляет свежую нотку. Подаётся горячим в миске, традиционно по субботам в римских траттории.",
+   "history": "Блюдо относится к римской традиции «квинто куарто» — кухни из субпродуктов, выросшей вокруг старой городской бойни в Тестаччо. Есть рубец по субботам — давний римский обычай, который до сих пор соблюдают многие траттории.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "1 кг очищенного сотового рубца (предварительно отваренного)",
+     "2 ст. л. оливкового масла",
+     "1 луковица, нарубленная",
+     "2 стебля сельдерея, нарубленных",
+     "1 морковь, нарубленная",
+     "700 г пассаты",
+     "1 небольшой пучок свежей мяты",
+     "60 г тёртого пекорино романо",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Промойте рубец и нарежьте полосками шириной около 1 см.",
+     "Обжаривайте лук, сельдерей и морковь в оливковом масле 8–10 минут до мягкости.",
+     "Добавьте рубец, помешивайте несколько минут, затем добавьте пассату, половину мяты, соль и перец.",
+     "Накройте и тушите на слабом огне около 1,5–2 часов до мягкости, при необходимости подливая воду.",
+     "Подавайте горячим с оставшейся мятой и тёртым пекорино."
+    ]
+   },
+   "tips": [
+    "Сам рубец постный; основная часть лишних калорий приходится на сыр, поэтому отмеряйте пекорино (около 15 г на тарелку).",
+    "Берите всего 1–2 ст. л. масла на всю кастрюлю — 1 ст. л. масла ≈ 120 ккал.",
+    "Подавайте с большим зелёным салатом, чтобы трапеза была полноценной."
+   ],
+   "name_inline": "рубец по-римски"
+  },
+  "es": {
+   "name": "Trippa alla Romana",
+   "origin": "Italia · Roma, Lacio",
+   "intro": "La trippa alla romana es la tripa al estilo romano: callos de panal cortados en tiras y braseados lentamente en una salsa de jitomate con apio, terminados con menta fresca y abundante pecorino rallado. La tripa queda tierna con una ligera masticabilidad, la salsa es ácida y la menta da un toque fresco. Se sirve caliente en un plato hondo, tradicionalmente los sábados en las trattorias romanas.",
+   "history": "El plato pertenece a la tradición del quinto quarto de Roma, la cocina de las vísceras que surgió en torno al antiguo matadero de Testaccio. Comer tripa los sábados es una costumbre romana de siempre que muchas trattorias aún conservan.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "1 kg de callos de panal limpios (precocidos)",
+     "2 cda. de aceite de oliva",
+     "1 cebolla, picada",
+     "2 tallos de apio, picados",
+     "1 zanahoria, picada",
+     "700 g de pasta de jitomate (passata)",
+     "1 manojo pequeño de menta fresca",
+     "60 g de pecorino romano, rallado",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Enjuaga los callos y córtalos en tiras de 1 cm de ancho.",
+     "Acitrona la cebolla, el apio y la zanahoria en el aceite de oliva durante 8–10 minutos.",
+     "Añade los callos, revuelve unos minutos y agrega el jitomate, la mitad de la menta, sal y pimienta.",
+     "Tapa y cuece a fuego muy bajo de 1½ a 2 horas, hasta que estén tiernos, añadiendo agua si hace falta.",
+     "Sirve caliente con la menta restante y el pecorino rallado."
+    ]
+   },
+   "tips": [
+    "Los callos son magros; la mayoría de las calorías extra vienen del queso, así que mide el pecorino (unos 15 g por plato).",
+    "Usa solo 1–2 cda. de aceite para toda la olla: 1 cda. de aceite ≈ 120 kcal.",
+    "Sírvelos con una ensalada verde grande para completar la comida."
+   ],
+   "name_inline": "la trippa alla romana"
   }
+ }
 }

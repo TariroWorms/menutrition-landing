@@ -1,181 +1,215 @@
 {
-  "db_key": "prawn_curry_goan",
-  "slug": "prawn-curry-goan",
-  "emoji": "🍛",
-  "portion_g": 250,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "prawn_curry_goan",
+ "slug": "prawn-curry-goan",
+ "emoji": "🍛",
+ "portion_g": 250,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Goan Prawn Curry",
+   "origin": "India · Goa",
+   "intro": "Goan prawn curry is a coastal curry of prawns simmered in coconut milk with tomato, red chilies and kokum, a sour fruit typical of India's western coast. The sauce is creamy, tangy and spicy, with the kokum giving a fruity sourness that balances the rich coconut. It is a daily staple in Goa, served with boiled rice.",
+   "history": "Fish and prawn curry with rice is so central to Goan life that 'xit kodi', rice and curry, is often called the state's everyday meal. Kokum and coconut reflect the produce of the Konkan coast, where the curry is cooked in many local variations.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g prawns, peeled and deveined",
+     "400 ml coconut milk",
+     "2 tomatoes, chopped",
+     "4 dried kokum pieces",
+     "6 dried red chilies",
+     "1 onion, chopped",
+     "4 garlic cloves",
+     "1 tsp ground turmeric",
+     "1 tbsp oil",
+     "Salt to taste"
+    ],
+    "steps": [
+     "Soak the chilies in warm water for 10 minutes, then blend with garlic, turmeric and a little coconut milk into a paste.",
+     "Fry the onion in the oil until soft, add the tomatoes and cook for 5 minutes.",
+     "Add the paste and cook for 3 minutes, then pour in the remaining coconut milk and kokum.",
+     "Simmer gently for 10 minutes, add the prawns and cook for 4–5 minutes until just pink; season with salt."
+    ]
+   },
+   "tips": [
+    "Use light coconut milk or replace a third of it with water to cut the fat noticeably.",
+    "Serve a measured portion of rice and add steamed vegetables on the side.",
+    "Keep the oil to 1 tbsp for the whole pot; 1 tbsp oil ≈ 120 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Goan Prawn Curry",
-      "origin": "India · Goa",
-      "intro": "Goan prawn curry is a coastal curry of prawns simmered in coconut milk with tomato, red chilies and kokum, a sour fruit typical of India's western coast. The sauce is creamy, tangy and spicy, with the kokum giving a fruity sourness that balances the rich coconut. It is a daily staple in Goa, served with boiled rice.",
-      "history": "Fish and prawn curry with rice is so central to Goan life that 'xit kodi', rice and curry, is often called the state's everyday meal. Kokum and coconut reflect the produce of the Konkan coast, where the curry is cooked in many local variations.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 g prawns, peeled and deveined",
-          "400 ml coconut milk",
-          "2 tomatoes, chopped",
-          "4 dried kokum pieces",
-          "6 dried red chilies",
-          "1 onion, chopped",
-          "4 garlic cloves",
-          "1 tsp ground turmeric",
-          "1 tbsp oil",
-          "Salt to taste"
-        ],
-        "steps": [
-          "Soak the chilies in warm water for 10 minutes, then blend with garlic, turmeric and a little coconut milk into a paste.",
-          "Fry the onion in the oil until soft, add the tomatoes and cook for 5 minutes.",
-          "Add the paste and cook for 3 minutes, then pour in the remaining coconut milk and kokum.",
-          "Simmer gently for 10 minutes, add the prawns and cook for 4–5 minutes until just pink; season with salt."
-        ]
-      },
-      "tips": [
-        "Use light coconut milk or replace a third of it with water to cut the fat noticeably.",
-        "Serve a measured portion of rice and add steamed vegetables on the side.",
-        "Keep the oil to 1 tbsp for the whole pot; 1 tbsp oil ≈ 120 kcal."
-      ]
-    },
-    "ar": {
-      "name": "كاري الروبيان الغواني",
-      "origin": "الهند · غوا",
-      "intro": "كاري الروبيان الغواني طبق ساحلي يُطهى فيه الروبيان في حليب جوز الهند مع الطماطم والفلفل الأحمر والكوكوم، وهو ثمرة حامضة مميزة لساحل الهند الغربي. صلصته كريمية حامضة وحارة، ويمنح الكوكوم حموضة فاكهية توازن غنى جوز الهند. وهو طبق يومي أساسي في غوا يُقدَّم مع الأرز المسلوق.",
-      "history": "يحتل كاري السمك والروبيان مع الأرز مكانة محورية في حياة غوا حتى إن «شيت كودي»، أي الأرز والكاري، يُوصف غالبًا بأنه الوجبة اليومية للولاية. ويعكس الكوكوم وجوز الهند منتجات ساحل كونكان حيث يُطهى الكاري بتنويعات محلية كثيرة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 غ روبيان مقشر ومنظف",
-          "400 مل حليب جوز الهند",
-          "2 حبة طماطم مقطعة",
-          "4 قطع كوكوم مجفف",
-          "6 حبات فلفل أحمر مجفف",
-          "1 بصلة مفرومة",
-          "4 فصوص ثوم",
-          "1 ملعقة صغيرة كركم مطحون",
-          "1 ملعقة كبيرة زيت",
-          "ملح حسب الرغبة"
-        ],
-        "steps": [
-          "انقع الفلفل في ماء دافئ 10 دقائق، ثم اخلطه مع الثوم والكركم وقليل من حليب جوز الهند حتى يصير معجونًا.",
-          "اقلِ البصل في الزيت حتى يلين، وأضف الطماطم واطهها 5 دقائق.",
-          "أضف المعجون واطهه 3 دقائق، ثم صب بقية حليب جوز الهند والكوكوم.",
-          "اتركه يغلي بهدوء 10 دقائق، وأضف الروبيان واطهه 4–5 دقائق حتى يتورد، وتبّل بالملح."
-        ]
-      },
-      "tips": [
-        "استخدم حليب جوز هند خفيفًا أو استبدل ثلثه بالماء لتقليل الدهون بوضوح.",
-        "قدّم حصة محسوبة من الأرز مع خضار مطهوة على البخار جانبًا.",
-        "اكتفِ بملعقة كبيرة زيت للقدر كله؛ ملعقة الزيت ≈ 120 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Curry di gamberi goano",
-      "name_inline": "curry di gamberi goano",
-      "origin": "India · Goa",
-      "intro": "Il curry di gamberi goano è un curry costiero di gamberi cotti a fuoco lento nel latte di cocco con pomodoro, peperoncini rossi e kokum, un frutto aspro tipico della costa occidentale dell'India. La salsa è cremosa, acidula e piccante, e il kokum le dà un'acidità fruttata che bilancia la ricchezza del cocco. A Goa è un piatto quotidiano, servito con riso bollito.",
-      "history": "Il curry di pesce e di gamberi con riso è così centrale nella vita di Goa che lo «xit kodi», riso e curry, viene spesso definito il pasto quotidiano dello stato. Il kokum e il cocco riflettono i prodotti della costa del Konkan, dove il curry si prepara in molte varianti locali.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 g di gamberi, sgusciati e puliti",
-          "400 ml di latte di cocco",
-          "2 pomodori, tritati",
-          "4 pezzi di kokum secco",
-          "6 peperoncini rossi secchi",
-          "1 cipolla, tritata",
-          "4 spicchi d'aglio",
-          "1 cucchiaino di curcuma in polvere",
-          "1 cucchiaio di olio",
-          "Sale q.b."
-        ],
-        "steps": [
-          "Metti in ammollo i peperoncini in acqua tiepida per 10 minuti, poi frullali con aglio, curcuma e un po' di latte di cocco fino a ottenere una pasta.",
-          "Fai appassire la cipolla nell'olio, aggiungi i pomodori e cuoci per 5 minuti.",
-          "Aggiungi la pasta e cuoci per 3 minuti, poi versa il resto del latte di cocco e il kokum.",
-          "Cuoci a fuoco dolce per 10 minuti, aggiungi i gamberi e cuoci per 4–5 minuti finché sono appena rosati; regola di sale."
-        ]
-      },
-      "tips": [
-        "Usa latte di cocco light o sostituiscine un terzo con acqua per ridurre sensibilmente i grassi.",
-        "Servi una porzione misurata di riso e aggiungi verdure al vapore come contorno.",
-        "Limita l'olio a 1 cucchiaio per tutta la pentola; 1 cucchiaio di olio ≈ 120 kcal."
-      ]
-    },
-    "el": {
-      "name": "Κάρι γαρίδας της Γκόα",
-      "name_inline": "κάρι γαρίδας της Γκόα",
-      "origin": "Ινδία · Γκόα",
-      "intro": "Το κάρι γαρίδας της Γκόα είναι ένα παραθαλάσσιο κάρι με γαρίδες σιγοβρασμένες σε γάλα καρύδας με ντομάτα, κόκκινες καυτερές πιπεριές και κόκουμ, ένα ξινό φρούτο χαρακτηριστικό της δυτικής ακτής της Ινδίας. Η σάλτσα είναι κρεμώδης, ξινή και πικάντικη, και το κόκουμ δίνει μια φρουτώδη ξινίλα που ισορροπεί την πλούσια καρύδα. Στη Γκόα είναι καθημερινό βασικό φαγητό και σερβίρεται με βραστό ρύζι.",
-      "history": "Το κάρι ψαριού και γαρίδας με ρύζι είναι τόσο κεντρικό στη ζωή της Γκόα ώστε το «xit kodi», ρύζι και κάρι, συχνά αποκαλείται το καθημερινό γεύμα της πολιτείας. Το κόκουμ και η καρύδα αντικατοπτρίζουν τα προϊόντα της ακτής Κονκάν, όπου το κάρι μαγειρεύεται σε πολλές τοπικές παραλλαγές.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 γρ. γαρίδες, καθαρισμένες και χωρίς το έντερο",
-          "400 ml γάλα καρύδας",
-          "2 ντομάτες, ψιλοκομμένες",
-          "4 κομμάτια αποξηραμένο κόκουμ",
-          "6 αποξηραμένες κόκκινες καυτερές πιπεριές",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "4 σκελίδες σκόρδο",
-          "1 κ.γ. κουρκουμάς σε σκόνη",
-          "1 κ.σ. λάδι",
-          "Αλάτι κατά βούληση"
-        ],
-        "steps": [
-          "Μουλιάστε τις πιπεριές σε χλιαρό νερό για 10 λεπτά, έπειτα πολτοποιήστε τες με σκόρδο, κουρκουμά και λίγο γάλα καρύδας σε πάστα.",
-          "Τσιγαρίστε το κρεμμύδι στο λάδι μέχρι να μαλακώσει, προσθέστε τις ντομάτες και μαγειρέψτε για 5 λεπτά.",
-          "Προσθέστε την πάστα και μαγειρέψτε για 3 λεπτά, έπειτα ρίξτε το υπόλοιπο γάλα καρύδας και το κόκουμ.",
-          "Σιγοβράστε απαλά για 10 λεπτά, προσθέστε τις γαρίδες και μαγειρέψτε για 4–5 λεπτά μέχρι μόλις να ροδίσουν· αλατίστε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή αντικαταστήστε το ένα τρίτο του με νερό για να μειώσετε αισθητά το λίπος.",
-        "Σερβίρετε μετρημένη μερίδα ρυζιού και προσθέστε λαχανικά ατμού στο πλάι.",
-        "Περιορίστε το λάδι σε 1 κ.σ. για όλη την κατσαρόλα· 1 κ.σ. λάδι ≈ 120 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Гоанское карри с креветками",
-      "origin": "Индия · Гоа",
-      "intro": "Гоанское карри с креветками — прибрежное карри из креветок, томлёных в кокосовом молоке с помидорами, красными чили и кокумом — кислым фруктом, типичным для западного побережья Индии. Соус кремовый, пикантный и острый, а кокум придаёт фруктовую кислинку, уравновешивающую насыщенный кокос. Это ежедневное блюдо в Гоа, его подают с отварным рисом.",
-      "history": "Карри из рыбы и креветок с рисом настолько важно для жизни Гоа, что «шит коди» — рис с карри — часто называют повседневной едой штата. Кокум и кокос отражают продукты побережья Конкан, где карри готовят во множестве местных вариантов.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "500 г креветок, очищенных, без кишечной жилки",
-          "400 мл кокосового молока",
-          "2 помидора, нарубленных",
-          "4 кусочка сушёного кокума",
-          "6 сушёных красных чили",
-          "1 луковица, нарубленная",
-          "4 зубчика чеснока",
-          "1 ч. л. молотой куркумы",
-          "1 ст. л. масла",
-          "Соль по вкусу"
-        ],
-        "steps": [
-          "Замочите чили в тёплой воде на 10 минут, затем измельчите блендером с чесноком, куркумой и небольшим количеством кокосового молока в пасту.",
-          "Обжарьте лук в масле до мягкости, добавьте помидоры и готовьте 5 минут.",
-          "Добавьте пасту и готовьте 3 минуты, затем влейте оставшееся кокосовое молоко и добавьте кокум.",
-          "Тушите на слабом огне 10 минут, добавьте креветки и готовьте 4–5 минут, пока они не порозовеют; посолите."
-        ]
-      },
-      "tips": [
-        "Берите лёгкое кокосовое молоко или замените треть воды, чтобы заметно снизить жирность.",
-        "Подавайте отмеренную порцию риса и добавьте овощи на пару на гарнир.",
-        "Ограничьте масло 1 ст. л. на всю кастрюлю; 1 ст. л. масла ≈ 120 ккал."
-      ]
-    }
+  "ar": {
+   "name": "كاري الروبيان الغواني",
+   "origin": "الهند · غوا",
+   "intro": "كاري الروبيان الغواني طبق ساحلي يُطهى فيه الروبيان في حليب جوز الهند مع الطماطم والفلفل الأحمر والكوكوم، وهو ثمرة حامضة مميزة لساحل الهند الغربي. صلصته كريمية حامضة وحارة، ويمنح الكوكوم حموضة فاكهية توازن غنى جوز الهند. وهو طبق يومي أساسي في غوا يُقدَّم مع الأرز المسلوق.",
+   "history": "يحتل كاري السمك والروبيان مع الأرز مكانة محورية في حياة غوا حتى إن «شيت كودي»، أي الأرز والكاري، يُوصف غالبًا بأنه الوجبة اليومية للولاية. ويعكس الكوكوم وجوز الهند منتجات ساحل كونكان حيث يُطهى الكاري بتنويعات محلية كثيرة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 غ روبيان مقشر ومنظف",
+     "400 مل حليب جوز الهند",
+     "2 حبة طماطم مقطعة",
+     "4 قطع كوكوم مجفف",
+     "6 حبات فلفل أحمر مجفف",
+     "1 بصلة مفرومة",
+     "4 فصوص ثوم",
+     "1 ملعقة صغيرة كركم مطحون",
+     "1 ملعقة كبيرة زيت",
+     "ملح حسب الرغبة"
+    ],
+    "steps": [
+     "انقع الفلفل في ماء دافئ 10 دقائق، ثم اخلطه مع الثوم والكركم وقليل من حليب جوز الهند حتى يصير معجونًا.",
+     "اقلِ البصل في الزيت حتى يلين، وأضف الطماطم واطهها 5 دقائق.",
+     "أضف المعجون واطهه 3 دقائق، ثم صب بقية حليب جوز الهند والكوكوم.",
+     "اتركه يغلي بهدوء 10 دقائق، وأضف الروبيان واطهه 4–5 دقائق حتى يتورد، وتبّل بالملح."
+    ]
+   },
+   "tips": [
+    "استخدم حليب جوز هند خفيفًا أو استبدل ثلثه بالماء لتقليل الدهون بوضوح.",
+    "قدّم حصة محسوبة من الأرز مع خضار مطهوة على البخار جانبًا.",
+    "اكتفِ بملعقة كبيرة زيت للقدر كله؛ ملعقة الزيت ≈ 120 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Curry di gamberi goano",
+   "name_inline": "curry di gamberi goano",
+   "origin": "India · Goa",
+   "intro": "Il curry di gamberi goano è un curry costiero di gamberi cotti a fuoco lento nel latte di cocco con pomodoro, peperoncini rossi e kokum, un frutto aspro tipico della costa occidentale dell'India. La salsa è cremosa, acidula e piccante, e il kokum le dà un'acidità fruttata che bilancia la ricchezza del cocco. A Goa è un piatto quotidiano, servito con riso bollito.",
+   "history": "Il curry di pesce e di gamberi con riso è così centrale nella vita di Goa che lo «xit kodi», riso e curry, viene spesso definito il pasto quotidiano dello stato. Il kokum e il cocco riflettono i prodotti della costa del Konkan, dove il curry si prepara in molte varianti locali.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g di gamberi, sgusciati e puliti",
+     "400 ml di latte di cocco",
+     "2 pomodori, tritati",
+     "4 pezzi di kokum secco",
+     "6 peperoncini rossi secchi",
+     "1 cipolla, tritata",
+     "4 spicchi d'aglio",
+     "1 cucchiaino di curcuma in polvere",
+     "1 cucchiaio di olio",
+     "Sale q.b."
+    ],
+    "steps": [
+     "Metti in ammollo i peperoncini in acqua tiepida per 10 minuti, poi frullali con aglio, curcuma e un po' di latte di cocco fino a ottenere una pasta.",
+     "Fai appassire la cipolla nell'olio, aggiungi i pomodori e cuoci per 5 minuti.",
+     "Aggiungi la pasta e cuoci per 3 minuti, poi versa il resto del latte di cocco e il kokum.",
+     "Cuoci a fuoco dolce per 10 minuti, aggiungi i gamberi e cuoci per 4–5 minuti finché sono appena rosati; regola di sale."
+    ]
+   },
+   "tips": [
+    "Usa latte di cocco light o sostituiscine un terzo con acqua per ridurre sensibilmente i grassi.",
+    "Servi una porzione misurata di riso e aggiungi verdure al vapore come contorno.",
+    "Limita l'olio a 1 cucchiaio per tutta la pentola; 1 cucchiaio di olio ≈ 120 kcal."
+   ]
+  },
+  "el": {
+   "name": "Κάρι γαρίδας της Γκόα",
+   "name_inline": "κάρι γαρίδας της Γκόα",
+   "origin": "Ινδία · Γκόα",
+   "intro": "Το κάρι γαρίδας της Γκόα είναι ένα παραθαλάσσιο κάρι με γαρίδες σιγοβρασμένες σε γάλα καρύδας με ντομάτα, κόκκινες καυτερές πιπεριές και κόκουμ, ένα ξινό φρούτο χαρακτηριστικό της δυτικής ακτής της Ινδίας. Η σάλτσα είναι κρεμώδης, ξινή και πικάντικη, και το κόκουμ δίνει μια φρουτώδη ξινίλα που ισορροπεί την πλούσια καρύδα. Στη Γκόα είναι καθημερινό βασικό φαγητό και σερβίρεται με βραστό ρύζι.",
+   "history": "Το κάρι ψαριού και γαρίδας με ρύζι είναι τόσο κεντρικό στη ζωή της Γκόα ώστε το «xit kodi», ρύζι και κάρι, συχνά αποκαλείται το καθημερινό γεύμα της πολιτείας. Το κόκουμ και η καρύδα αντικατοπτρίζουν τα προϊόντα της ακτής Κονκάν, όπου το κάρι μαγειρεύεται σε πολλές τοπικές παραλλαγές.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 γρ. γαρίδες, καθαρισμένες και χωρίς το έντερο",
+     "400 ml γάλα καρύδας",
+     "2 ντομάτες, ψιλοκομμένες",
+     "4 κομμάτια αποξηραμένο κόκουμ",
+     "6 αποξηραμένες κόκκινες καυτερές πιπεριές",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "4 σκελίδες σκόρδο",
+     "1 κ.γ. κουρκουμάς σε σκόνη",
+     "1 κ.σ. λάδι",
+     "Αλάτι κατά βούληση"
+    ],
+    "steps": [
+     "Μουλιάστε τις πιπεριές σε χλιαρό νερό για 10 λεπτά, έπειτα πολτοποιήστε τες με σκόρδο, κουρκουμά και λίγο γάλα καρύδας σε πάστα.",
+     "Τσιγαρίστε το κρεμμύδι στο λάδι μέχρι να μαλακώσει, προσθέστε τις ντομάτες και μαγειρέψτε για 5 λεπτά.",
+     "Προσθέστε την πάστα και μαγειρέψτε για 3 λεπτά, έπειτα ρίξτε το υπόλοιπο γάλα καρύδας και το κόκουμ.",
+     "Σιγοβράστε απαλά για 10 λεπτά, προσθέστε τις γαρίδες και μαγειρέψτε για 4–5 λεπτά μέχρι μόλις να ροδίσουν· αλατίστε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε ελαφρύ γάλα καρύδας ή αντικαταστήστε το ένα τρίτο του με νερό για να μειώσετε αισθητά το λίπος.",
+    "Σερβίρετε μετρημένη μερίδα ρυζιού και προσθέστε λαχανικά ατμού στο πλάι.",
+    "Περιορίστε το λάδι σε 1 κ.σ. για όλη την κατσαρόλα· 1 κ.σ. λάδι ≈ 120 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Гоанское карри с креветками",
+   "origin": "Индия · Гоа",
+   "intro": "Гоанское карри с креветками — прибрежное карри из креветок, томлёных в кокосовом молоке с помидорами, красными чили и кокумом — кислым фруктом, типичным для западного побережья Индии. Соус кремовый, пикантный и острый, а кокум придаёт фруктовую кислинку, уравновешивающую насыщенный кокос. Это ежедневное блюдо в Гоа, его подают с отварным рисом.",
+   "history": "Карри из рыбы и креветок с рисом настолько важно для жизни Гоа, что «шит коди» — рис с карри — часто называют повседневной едой штата. Кокум и кокос отражают продукты побережья Конкан, где карри готовят во множестве местных вариантов.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 г креветок, очищенных, без кишечной жилки",
+     "400 мл кокосового молока",
+     "2 помидора, нарубленных",
+     "4 кусочка сушёного кокума",
+     "6 сушёных красных чили",
+     "1 луковица, нарубленная",
+     "4 зубчика чеснока",
+     "1 ч. л. молотой куркумы",
+     "1 ст. л. масла",
+     "Соль по вкусу"
+    ],
+    "steps": [
+     "Замочите чили в тёплой воде на 10 минут, затем измельчите блендером с чесноком, куркумой и небольшим количеством кокосового молока в пасту.",
+     "Обжарьте лук в масле до мягкости, добавьте помидоры и готовьте 5 минут.",
+     "Добавьте пасту и готовьте 3 минуты, затем влейте оставшееся кокосовое молоко и добавьте кокум.",
+     "Тушите на слабом огне 10 минут, добавьте креветки и готовьте 4–5 минут, пока они не порозовеют; посолите."
+    ]
+   },
+   "tips": [
+    "Берите лёгкое кокосовое молоко или замените треть воды, чтобы заметно снизить жирность.",
+    "Подавайте отмеренную порцию риса и добавьте овощи на пару на гарнир.",
+    "Ограничьте масло 1 ст. л. на всю кастрюлю; 1 ст. л. масла ≈ 120 ккал."
+   ]
+  },
+  "es": {
+   "name": "Curry de langostinos de Goa",
+   "origin": "India · Goa",
+   "intro": "El curry de langostinos de Goa es un curry costero de langostinos cocidos en leche de coco con jitomate, chiles rojos y kokum, una fruta ácida típica de la costa occidental de la India. La salsa es cremosa, ácida y picante, y el kokum aporta una acidez frutal que equilibra la riqueza del coco. Es un plato cotidiano en Goa, servido con arroz hervido.",
+   "history": "El curry de pescado y langostinos con arroz es tan central en la vida de Goa que el «xit kodi», arroz con curry, suele llamarse la comida diaria del estado. El kokum y el coco reflejan los productos de la costa del Konkan, donde el curry se prepara con muchas variantes locales.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "500 g de langostinos, pelados y desvenados",
+     "400 ml de leche de coco",
+     "2 jitomates, picados",
+     "4 piezas de kokum seco",
+     "6 chiles rojos secos",
+     "1 cebolla, picada",
+     "4 dientes de ajo",
+     "1 cdta. de cúrcuma molida",
+     "1 cda. de aceite",
+     "Sal al gusto"
+    ],
+    "steps": [
+     "Remoja los chiles en agua tibia 10 minutos y lícualos con el ajo, la cúrcuma y un poco de leche de coco hasta obtener una pasta.",
+     "Fríe la cebolla en el aceite hasta que esté suave, añade los jitomates y cocina 5 minutos.",
+     "Agrega la pasta y cocina 3 minutos; luego vierte el resto de la leche de coco y el kokum.",
+     "Cuece a fuego suave 10 minutos, añade los langostinos y cocina de 4 a 5 minutos, hasta que estén rosados; sazona con sal."
+    ]
+   },
+   "tips": [
+    "Usa leche de coco ligera o sustituye un tercio por agua para reducir notablemente la grasa.",
+    "Sirve una porción medida de arroz y acompaña con verduras al vapor.",
+    "Limita el aceite a 1 cda. para toda la olla; 1 cda. de aceite ≈ 120 kcal."
+   ],
+   "name_inline": "el curry de langostinos de Goa"
   }
+ }
 }

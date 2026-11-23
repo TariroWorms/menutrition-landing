@@ -1,162 +1,192 @@
 {
-  "db_key": "pizza",
-  "slug": "pizza",
-  "emoji": "🍕",
-  "portion_g": 300,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pizza",
+ "slug": "pizza",
+ "emoji": "🍕",
+ "portion_g": 300,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pizza",
+   "origin": "Italy · Naples",
+   "intro": "Pizza is a flat round of yeasted dough topped with tomato, mozzarella and a drizzle of olive oil, then baked in a very hot oven until the crust blisters and the cheese melts. It is chewy and crisp at the edge, savoury and stretchy on top. It is cut into slices and eaten hot, from casual takeaway to sit-down pizzerias.",
+   "history": "Modern pizza with tomato and cheese developed in Naples in the 18th and 19th centuries as cheap street food. It spread worldwide with Italian emigration, especially to the United States, and is now one of the most widely eaten dishes on earth.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 g pizza dough",
+     "200 g tomato passata",
+     "200 g mozzarella, torn",
+     "15 ml olive oil",
+     "Salt and dried oregano"
+    ],
+    "steps": [
+     "Heat the oven to its maximum (250–280 °C) with a tray or stone inside.",
+     "Stretch the dough into two thin rounds.",
+     "Spread the passata, season with salt and oregano, and add the mozzarella.",
+     "Bake 8–10 minutes until the crust is browned and the cheese bubbles.",
+     "Drizzle with olive oil and slice."
+    ]
+   },
+   "tips": [
+    "Choose a thin crust and stop at two or three slices.",
+    "Use less cheese and add vegetable toppings for volume.",
+    "Start with a side salad so a smaller pizza portion feels enough."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pizza",
-      "origin": "Italy · Naples",
-      "intro": "Pizza is a flat round of yeasted dough topped with tomato, mozzarella and a drizzle of olive oil, then baked in a very hot oven until the crust blisters and the cheese melts. It is chewy and crisp at the edge, savoury and stretchy on top. It is cut into slices and eaten hot, from casual takeaway to sit-down pizzerias.",
-      "history": "Modern pizza with tomato and cheese developed in Naples in the 18th and 19th centuries as cheap street food. It spread worldwide with Italian emigration, especially to the United States, and is now one of the most widely eaten dishes on earth.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 g pizza dough",
-          "200 g tomato passata",
-          "200 g mozzarella, torn",
-          "15 ml olive oil",
-          "Salt and dried oregano"
-        ],
-        "steps": [
-          "Heat the oven to its maximum (250–280 °C) with a tray or stone inside.",
-          "Stretch the dough into two thin rounds.",
-          "Spread the passata, season with salt and oregano, and add the mozzarella.",
-          "Bake 8–10 minutes until the crust is browned and the cheese bubbles.",
-          "Drizzle with olive oil and slice."
-        ]
-      },
-      "tips": [
-        "Choose a thin crust and stop at two or three slices.",
-        "Use less cheese and add vegetable toppings for volume.",
-        "Start with a side salad so a smaller pizza portion feels enough."
-      ]
-    },
-    "ar": {
-      "name": "بيتزا",
-      "origin": "إيطاليا · نابولي",
-      "intro": "البيتزا قرص مسطح من عجين الخميرة يُغطى بالطماطم والموزاريلا ورشة من زيت الزيتون، ثم يُخبز في فرن شديد الحرارة حتى تنتفخ الحواف وتذوب الجبنة. قاعدتها مطاطية مقرمشة الأطراف، ووجهها مالح مطاطي. تُقطع شرائح وتؤكل ساخنة، من الطلبات السريعة إلى مطاعم البيتزا.",
-      "history": "تطورت البيتزا الحديثة بالطماطم والجبن في نابولي خلال القرنين الثامن عشر والتاسع عشر كطعام شارع رخيص. وانتشرت في العالم مع الهجرة الإيطالية، خاصة إلى الولايات المتحدة، وأصبحت اليوم من أكثر الأطباق انتشاراً في العالم.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 غ عجينة بيتزا",
-          "200 غ صلصة طماطم (باساتا)",
-          "200 غ موزاريلا مقطعة",
-          "15 مل زيت زيتون",
-          "ملح وزعتر بري (أوريغانو) مجفف"
-        ],
-        "steps": [
-          "سخّن الفرن لأقصى درجة (250–280 °م) مع صينية أو حجر بداخله.",
-          "افرد العجين قرصين رقيقين.",
-          "وزّع الصلصة وتبّلها بالملح والأوريغانو وأضف الموزاريلا.",
-          "اخبزها 8–10 دقائق حتى تتحمر الحواف وتغلي الجبنة.",
-          "رشّ زيت الزيتون وقطّعها."
-        ]
-      },
-      "tips": [
-        "اختر العجينة الرقيقة واكتفِ بشريحتين أو ثلاث.",
-        "قلّل الجبنة وأضف خضاراً لزيادة الحجم.",
-        "ابدأ بسلطة جانبية لتكفيك حصة بيتزا أصغر."
-      ]
-    },
-    "it": {
-      "name": "Pizza",
-      "name_inline": "pizza",
-      "origin": "Italia · Napoli",
-      "intro": "La pizza è un disco piatto di impasto lievitato condito con pomodoro, mozzarella e un filo d'olio d'oliva, poi cotto in un forno molto caldo finché il cornicione si gonfia a bolle e il formaggio si scioglie. È morbida e croccante sul bordo, saporita e filante sopra. Si taglia a spicchi e si mangia calda, dall'asporto informale alla pizzeria con servizio al tavolo.",
-      "history": "La pizza moderna con pomodoro e formaggio si sviluppò a Napoli tra il XVIII e il XIX secolo come cibo di strada economico. Si diffuse nel mondo con l'emigrazione italiana, soprattutto negli Stati Uniti, e oggi è uno dei piatti più mangiati sulla Terra.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 g di impasto per pizza",
-          "200 g di passata di pomodoro",
-          "200 g di mozzarella, spezzettata",
-          "15 ml di olio d'oliva",
-          "Sale e origano secco"
-        ],
-        "steps": [
-          "Scalda il forno al massimo (250–280 °C) con una teglia o una pietra all'interno.",
-          "Stendi l'impasto in due dischi sottili.",
-          "Distribuisci la passata, condisci con sale e origano e aggiungi la mozzarella.",
-          "Cuoci 8–10 minuti finché il cornicione è dorato e il formaggio fa le bolle.",
-          "Completa con un filo d'olio d'oliva e taglia a spicchi."
-        ]
-      },
-      "tips": [
-        "Scegli una base sottile e fermati a due o tre spicchi.",
-        "Usa meno formaggio e aggiungi verdure per dare volume.",
-        "Inizia con un'insalata, così una porzione di pizza più piccola ti basterà."
-      ]
-    },
-    "el": {
-      "name": "Πίτσα",
-      "name_inline": "πίτσα",
-      "origin": "Ιταλία · Νάπολη",
-      "intro": "Η πίτσα είναι ένας επίπεδος στρογγυλός δίσκος ζύμης με μαγιά, με ντομάτα, μοτσαρέλα και λίγο ελαιόλαδο από πάνω, που ψήνεται σε πολύ καυτό φούρνο μέχρι να φουσκαλιάσει η κόρα και να λιώσει το τυρί. Είναι μαστιχωτή και τραγανή στην άκρη, νόστιμη και με τυρί που κάνει κλωστές από πάνω. Κόβεται σε κομμάτια και τρώγεται ζεστή, από το πρόχειρο take away μέχρι την πιτσαρία με τραπέζι.",
-      "history": "Η σύγχρονη πίτσα με ντομάτα και τυρί αναπτύχθηκε στη Νάπολη τον 18ο και τον 19ο αιώνα ως φτηνό φαγητό του δρόμου. Διαδόθηκε σε όλο τον κόσμο με την ιταλική μετανάστευση, ιδίως στις Ηνωμένες Πολιτείες, και σήμερα είναι από τα πιο διαδεδομένα πιάτα στη γη.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 γρ. ζύμη για πίτσα",
-          "200 γρ. πασάτα ντομάτας",
-          "200 γρ. μοτσαρέλα, κομμένη με το χέρι",
-          "15 ml ελαιόλαδο",
-          "Αλάτι και ξερή ρίγανη"
-        ],
-        "steps": [
-          "Ζεστάνετε τον φούρνο στη μέγιστη θερμοκρασία (250–280 °C) με ένα ταψί ή πέτρα μέσα.",
-          "Ανοίξτε τη ζύμη σε δύο λεπτούς δίσκους.",
-          "Απλώστε την πασάτα, αλατίστε, ρίξτε ρίγανη και προσθέστε τη μοτσαρέλα.",
-          "Ψήστε 8–10 λεπτά μέχρι να ροδίσει η κόρα και να κοχλάσει το τυρί.",
-          "Περιχύστε με λίγο ελαιόλαδο και κόψτε σε κομμάτια."
-        ]
-      },
-      "tips": [
-        "Διαλέξτε λεπτή ζύμη και σταματήστε στα δύο ή τρία κομμάτια.",
-        "Βάλτε λιγότερο τυρί και προσθέστε λαχανικά για όγκο.",
-        "Ξεκινήστε με μια σαλάτα, ώστε μια μικρότερη μερίδα πίτσας να σας αρκεί."
-      ]
-    },
-    "ru": {
-      "name": "Пицца",
-      "origin": "Италия · Неаполь",
-      "intro": "Пицца — плоский круг из дрожжевого теста с томатами, моцареллой и каплей оливкового масла, запечённый в очень горячей духовке, пока корочка не покроется пузырями, а сыр не расплавится. По краю она упругая и хрустящая, сверху пряная и тянущаяся. Её нарезают ломтиками и едят горячей, от обычной еды на вынос до пиццерий с посадкой.",
-      "history": "Современная пицца с томатами и сыром сложилась в Неаполе в XVIII–XIX веках как дешёвая уличная еда. Она распространилась по миру вместе с итальянской эмиграцией, особенно в Соединённые Штаты, и сегодня является одним из самых распространённых блюд на земле.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "400 г теста для пиццы",
-          "200 г томатной пассаты",
-          "200 г моцареллы, порванной",
-          "15 мл оливкового масла",
-          "Соль и сушёный орегано"
-        ],
-        "steps": [
-          "Разогрейте духовку до максимума (250–280 °C) вместе с противнем или камнем.",
-          "Раскатайте тесто в два тонких круга.",
-          "Распределите пассату, приправьте солью и орегано и добавьте моцареллу.",
-          "Выпекайте 8–10 минут, пока корочка не подрумянится, а сыр не запузырится.",
-          "Сбрызните оливковым маслом и нарежьте."
-        ]
-      },
-      "tips": [
-        "Выбирайте тонкую корочку и остановитесь на двух-трёх ломтиках.",
-        "Берите меньше сыра и добавляйте овощные топпинги для объёма.",
-        "Начните с салата, чтобы меньшая порция пиццы казалась достаточной."
-      ],
-      "name_inline": "пицца"
-    }
+  "ar": {
+   "name": "بيتزا",
+   "origin": "إيطاليا · نابولي",
+   "intro": "البيتزا قرص مسطح من عجين الخميرة يُغطى بالطماطم والموزاريلا ورشة من زيت الزيتون، ثم يُخبز في فرن شديد الحرارة حتى تنتفخ الحواف وتذوب الجبنة. قاعدتها مطاطية مقرمشة الأطراف، ووجهها مالح مطاطي. تُقطع شرائح وتؤكل ساخنة، من الطلبات السريعة إلى مطاعم البيتزا.",
+   "history": "تطورت البيتزا الحديثة بالطماطم والجبن في نابولي خلال القرنين الثامن عشر والتاسع عشر كطعام شارع رخيص. وانتشرت في العالم مع الهجرة الإيطالية، خاصة إلى الولايات المتحدة، وأصبحت اليوم من أكثر الأطباق انتشاراً في العالم.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 غ عجينة بيتزا",
+     "200 غ صلصة طماطم (باساتا)",
+     "200 غ موزاريلا مقطعة",
+     "15 مل زيت زيتون",
+     "ملح وزعتر بري (أوريغانو) مجفف"
+    ],
+    "steps": [
+     "سخّن الفرن لأقصى درجة (250–280 °م) مع صينية أو حجر بداخله.",
+     "افرد العجين قرصين رقيقين.",
+     "وزّع الصلصة وتبّلها بالملح والأوريغانو وأضف الموزاريلا.",
+     "اخبزها 8–10 دقائق حتى تتحمر الحواف وتغلي الجبنة.",
+     "رشّ زيت الزيتون وقطّعها."
+    ]
+   },
+   "tips": [
+    "اختر العجينة الرقيقة واكتفِ بشريحتين أو ثلاث.",
+    "قلّل الجبنة وأضف خضاراً لزيادة الحجم.",
+    "ابدأ بسلطة جانبية لتكفيك حصة بيتزا أصغر."
+   ]
+  },
+  "it": {
+   "name": "Pizza",
+   "name_inline": "pizza",
+   "origin": "Italia · Napoli",
+   "intro": "La pizza è un disco piatto di impasto lievitato condito con pomodoro, mozzarella e un filo d'olio d'oliva, poi cotto in un forno molto caldo finché il cornicione si gonfia a bolle e il formaggio si scioglie. È morbida e croccante sul bordo, saporita e filante sopra. Si taglia a spicchi e si mangia calda, dall'asporto informale alla pizzeria con servizio al tavolo.",
+   "history": "La pizza moderna con pomodoro e formaggio si sviluppò a Napoli tra il XVIII e il XIX secolo come cibo di strada economico. Si diffuse nel mondo con l'emigrazione italiana, soprattutto negli Stati Uniti, e oggi è uno dei piatti più mangiati sulla Terra.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 g di impasto per pizza",
+     "200 g di passata di pomodoro",
+     "200 g di mozzarella, spezzettata",
+     "15 ml di olio d'oliva",
+     "Sale e origano secco"
+    ],
+    "steps": [
+     "Scalda il forno al massimo (250–280 °C) con una teglia o una pietra all'interno.",
+     "Stendi l'impasto in due dischi sottili.",
+     "Distribuisci la passata, condisci con sale e origano e aggiungi la mozzarella.",
+     "Cuoci 8–10 minuti finché il cornicione è dorato e il formaggio fa le bolle.",
+     "Completa con un filo d'olio d'oliva e taglia a spicchi."
+    ]
+   },
+   "tips": [
+    "Scegli una base sottile e fermati a due o tre spicchi.",
+    "Usa meno formaggio e aggiungi verdure per dare volume.",
+    "Inizia con un'insalata, così una porzione di pizza più piccola ti basterà."
+   ]
+  },
+  "el": {
+   "name": "Πίτσα",
+   "name_inline": "πίτσα",
+   "origin": "Ιταλία · Νάπολη",
+   "intro": "Η πίτσα είναι ένας επίπεδος στρογγυλός δίσκος ζύμης με μαγιά, με ντομάτα, μοτσαρέλα και λίγο ελαιόλαδο από πάνω, που ψήνεται σε πολύ καυτό φούρνο μέχρι να φουσκαλιάσει η κόρα και να λιώσει το τυρί. Είναι μαστιχωτή και τραγανή στην άκρη, νόστιμη και με τυρί που κάνει κλωστές από πάνω. Κόβεται σε κομμάτια και τρώγεται ζεστή, από το πρόχειρο take away μέχρι την πιτσαρία με τραπέζι.",
+   "history": "Η σύγχρονη πίτσα με ντομάτα και τυρί αναπτύχθηκε στη Νάπολη τον 18ο και τον 19ο αιώνα ως φτηνό φαγητό του δρόμου. Διαδόθηκε σε όλο τον κόσμο με την ιταλική μετανάστευση, ιδίως στις Ηνωμένες Πολιτείες, και σήμερα είναι από τα πιο διαδεδομένα πιάτα στη γη.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 γρ. ζύμη για πίτσα",
+     "200 γρ. πασάτα ντομάτας",
+     "200 γρ. μοτσαρέλα, κομμένη με το χέρι",
+     "15 ml ελαιόλαδο",
+     "Αλάτι και ξερή ρίγανη"
+    ],
+    "steps": [
+     "Ζεστάνετε τον φούρνο στη μέγιστη θερμοκρασία (250–280 °C) με ένα ταψί ή πέτρα μέσα.",
+     "Ανοίξτε τη ζύμη σε δύο λεπτούς δίσκους.",
+     "Απλώστε την πασάτα, αλατίστε, ρίξτε ρίγανη και προσθέστε τη μοτσαρέλα.",
+     "Ψήστε 8–10 λεπτά μέχρι να ροδίσει η κόρα και να κοχλάσει το τυρί.",
+     "Περιχύστε με λίγο ελαιόλαδο και κόψτε σε κομμάτια."
+    ]
+   },
+   "tips": [
+    "Διαλέξτε λεπτή ζύμη και σταματήστε στα δύο ή τρία κομμάτια.",
+    "Βάλτε λιγότερο τυρί και προσθέστε λαχανικά για όγκο.",
+    "Ξεκινήστε με μια σαλάτα, ώστε μια μικρότερη μερίδα πίτσας να σας αρκεί."
+   ]
+  },
+  "ru": {
+   "name": "Пицца",
+   "origin": "Италия · Неаполь",
+   "intro": "Пицца — плоский круг из дрожжевого теста с томатами, моцареллой и каплей оливкового масла, запечённый в очень горячей духовке, пока корочка не покроется пузырями, а сыр не расплавится. По краю она упругая и хрустящая, сверху пряная и тянущаяся. Её нарезают ломтиками и едят горячей, от обычной еды на вынос до пиццерий с посадкой.",
+   "history": "Современная пицца с томатами и сыром сложилась в Неаполе в XVIII–XIX веках как дешёвая уличная еда. Она распространилась по миру вместе с итальянской эмиграцией, особенно в Соединённые Штаты, и сегодня является одним из самых распространённых блюд на земле.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 г теста для пиццы",
+     "200 г томатной пассаты",
+     "200 г моцареллы, порванной",
+     "15 мл оливкового масла",
+     "Соль и сушёный орегано"
+    ],
+    "steps": [
+     "Разогрейте духовку до максимума (250–280 °C) вместе с противнем или камнем.",
+     "Раскатайте тесто в два тонких круга.",
+     "Распределите пассату, приправьте солью и орегано и добавьте моцареллу.",
+     "Выпекайте 8–10 минут, пока корочка не подрумянится, а сыр не запузырится.",
+     "Сбрызните оливковым маслом и нарежьте."
+    ]
+   },
+   "tips": [
+    "Выбирайте тонкую корочку и остановитесь на двух-трёх ломтиках.",
+    "Берите меньше сыра и добавляйте овощные топпинги для объёма.",
+    "Начните с салата, чтобы меньшая порция пиццы казалась достаточной."
+   ],
+   "name_inline": "пицца"
+  },
+  "es": {
+   "name": "Pizza",
+   "origin": "Italia · Nápoles",
+   "intro": "La pizza es un disco plano de masa con levadura cubierto con jitomate, mozzarella y un hilo de aceite de oliva, y horneado en un horno muy caliente hasta que la orilla se ampolla y el queso se derrite. Es masticable y crujiente en el borde, sabrosa y filante por encima. Se corta en rebanadas y se come caliente, desde la pizza para llevar hasta las pizzerías de mesa.",
+   "history": "La pizza moderna con jitomate y queso se desarrolló en Nápoles entre los siglos XVIII y XIX como comida callejera económica. Se extendió por el mundo con la emigración italiana, sobre todo a Estados Unidos, y hoy es uno de los platos más consumidos del planeta.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "400 g de masa para pizza",
+     "200 g de puré de jitomate",
+     "200 g de mozzarella, en trozos",
+     "15 ml de aceite de oliva",
+     "Sal y orégano seco"
+    ],
+    "steps": [
+     "Precalienta el horno a su máxima temperatura (250–280 °C) con una charola o piedra adentro.",
+     "Estira la masa en dos discos delgados.",
+     "Extiende el puré de jitomate, sazona con sal y orégano y agrega la mozzarella.",
+     "Hornea de 8 a 10 minutos, hasta que la orilla esté dorada y el queso burbujee.",
+     "Rocía con el aceite de oliva y corta en rebanadas."
+    ]
+   },
+   "tips": [
+    "Elige masa delgada y detente en dos o tres rebanadas.",
+    "Usa menos queso y añade verduras como cobertura para dar volumen.",
+    "Empieza con una ensalada de acompañamiento para que una pizza más pequeña se sienta suficiente."
+   ],
+   "name_inline": "la pizza"
   }
+ }
 }

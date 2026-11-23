@@ -1,167 +1,198 @@
 {
-  "db_key": "bucatini_alla_matriciana",
-  "slug": "bucatini-alla-matriciana",
-  "emoji": "🍝",
-  "portion_g": 350,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bucatini_alla_matriciana",
+ "slug": "bucatini-alla-matriciana",
+ "emoji": "🍝",
+ "portion_g": 350,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bucatini alla matriciana",
+   "origin": "Italy · Rome, Lazio",
+   "intro": "Bucatini alla matriciana is the Roman-dialect name for the famous guanciale and tomato pasta, here in a version that adds gently softened onion. The onion makes the sauce slightly sweeter and rounder, balancing the salty cured pork cheek and sharp pecorino romano. Thick hollow bucatini hold the sauce well. It is served hot with extra grated pecorino.",
+   "history": "'Matriciana' is how Romans traditionally say 'amatriciana', after the town of Amatrice in Lazio. Whether onion belongs in the sauce is a long-running Roman debate: Amatrice's own recipe leaves it out, while many Roman trattorias add it.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "400 g bucatini",
+     "150 g guanciale, cut into strips",
+     "1 small onion, finely sliced",
+     "400 g canned peeled tomatoes, crushed",
+     "60 g pecorino romano, grated",
+     "Salt, a pinch of chili flakes (optional)"
+    ],
+    "steps": [
+     "Render the guanciale in a dry pan over medium heat until crisp at the edges; lift it out.",
+     "Soften the onion in the rendered fat for 5–6 minutes without browning.",
+     "Add the tomatoes and a pinch of salt and simmer for 15 minutes; return the guanciale.",
+     "Cook the bucatini until al dente, drain and toss in the sauce with a little pasta water.",
+     "Off the heat, stir in pecorino and serve."
+    ]
+   },
+   "tips": [
+    "Pour off most of the rendered fat before adding the onion — 1 tbsp of fat is about 120 kcal.",
+    "Use more onion and tomato and less guanciale for a lighter, larger sauce.",
+    "Keep the portion to 80 g of dry pasta and add a vegetable side."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bucatini alla matriciana",
-      "origin": "Italy · Rome, Lazio",
-      "intro": "Bucatini alla matriciana is the Roman-dialect name for the famous guanciale and tomato pasta, here in a version that adds gently softened onion. The onion makes the sauce slightly sweeter and rounder, balancing the salty cured pork cheek and sharp pecorino romano. Thick hollow bucatini hold the sauce well. It is served hot with extra grated pecorino.",
-      "history": "'Matriciana' is how Romans traditionally say 'amatriciana', after the town of Amatrice in Lazio. Whether onion belongs in the sauce is a long-running Roman debate: Amatrice's own recipe leaves it out, while many Roman trattorias add it.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "400 g bucatini",
-          "150 g guanciale, cut into strips",
-          "1 small onion, finely sliced",
-          "400 g canned peeled tomatoes, crushed",
-          "60 g pecorino romano, grated",
-          "Salt, a pinch of chili flakes (optional)"
-        ],
-        "steps": [
-          "Render the guanciale in a dry pan over medium heat until crisp at the edges; lift it out.",
-          "Soften the onion in the rendered fat for 5–6 minutes without browning.",
-          "Add the tomatoes and a pinch of salt and simmer for 15 minutes; return the guanciale.",
-          "Cook the bucatini until al dente, drain and toss in the sauce with a little pasta water.",
-          "Off the heat, stir in pecorino and serve."
-        ]
-      },
-      "tips": [
-        "Pour off most of the rendered fat before adding the onion — 1 tbsp of fat is about 120 kcal.",
-        "Use more onion and tomato and less guanciale for a lighter, larger sauce.",
-        "Keep the portion to 80 g of dry pasta and add a vegetable side."
-      ]
-    },
-    "ar": {
-      "name": "بوكاتيني ماتريشانا",
-      "origin": "إيطاليا · روما، لاتسيو",
-      "intro": "بوكاتيني ماتريشانا هو الاسم باللهجة الرومانية لطبق المعكرونة الشهير بالجوانشالي والطماطم، ويُقدَّم هنا بنسخة يضاف إليها بصل مطهو على مهل. يمنح البصل الصلصة حلاوة خفيفة وتوازنًا، فيخفف ملوحة خد الخنزير المقدد وحدة جبن البيكورينو. وتحمل البوكاتيني السميكة المجوفة الصلصة جيدًا. يقدم ساخنًا مع مزيد من البيكورينو المبشور.",
-      "history": "«ماتريشانا» هي الطريقة الرومانية التقليدية لنطق «أماتريشانا»، نسبة إلى بلدة أماتريتشي في لاتسيو. وإضافة البصل إلى الصلصة موضع جدل قديم في روما: وصفة أماتريتشي نفسها تستبعده، بينما تضيفه مطاعم رومانية كثيرة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "400 غ بوكاتيني",
-          "150 غ جوانشالي مقطع شرائح",
-          "بصلة صغيرة مقطعة شرائح رفيعة",
-          "400 غ طماطم مقشرة معلبة مهروسة",
-          "60 غ جبن بيكورينو رومانو مبشور",
-          "ملح، ورشة فلفل حار مجروش (اختياري)"
-        ],
-        "steps": [
-          "حمّر الجوانشالي في مقلاة جافة على نار متوسطة حتى تتحمص أطرافه، ثم ارفعه.",
-          "ليّن البصل في الدهن الذائب 5–6 دقائق دون أن يتحمر.",
-          "أضف الطماطم ورشة ملح واتركها تغلي بهدوء 15 دقيقة، ثم أعد الجوانشالي.",
-          "اسلق البوكاتيني حتى يصبح نصف طري، وصفّه وقلّبه في الصلصة مع قليل من ماء السلق.",
-          "بعيدًا عن النار أضف البيكورينو وقدّم."
-        ]
-      },
-      "tips": [
-        "تخلص من معظم الدهن الذائب قبل إضافة البصل — ملعقة كبيرة من الدهن ≈ 120 سعرة.",
-        "استخدم بصلًا وطماطم أكثر وجوانشالي أقل لصلصة أخف وأوفر.",
-        "اجعل الحصة 80 غ من المعكرونة الجافة وأضف طبقًا جانبيًا من الخضار."
-      ]
-    },
-    "it": {
-      "name": "Bucatini alla matriciana",
-      "origin": "Italia · Roma, Lazio",
-      "intro": "Bucatini alla matriciana è il nome in dialetto romano della famosa pasta con guanciale e pomodoro, qui in una versione che aggiunge cipolla fatta appassire dolcemente. La cipolla rende il sugo un po' più dolce e rotondo, bilanciando la guancia di maiale stagionata e sapida e il pecorino romano pungente. I bucatini, spessi e forati, trattengono bene il sugo. Si servono caldi con altro pecorino grattugiato.",
-      "history": "«Matriciana» è il modo in cui i romani dicono tradizionalmente «amatriciana», dal nome della cittadina di Amatrice, nel Lazio. Se la cipolla debba stare nel sugo è un dibattito romano di lunga data: la ricetta di Amatrice la esclude, mentre molte trattorie romane la aggiungono.",
-      "name_inline": "bucatini alla matriciana",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "400 g di bucatini",
-          "150 g di guanciale a listarelle",
-          "1 cipolla piccola affettata sottile",
-          "400 g di pomodori pelati in scatola schiacciati",
-          "60 g di pecorino romano grattugiato",
-          "Sale, un pizzico di peperoncino in fiocchi (facoltativo)"
-        ],
-        "steps": [
-          "Fai sciogliere il grasso del guanciale in una padella asciutta a fuoco medio finché i bordi sono croccanti; toglilo dalla padella.",
-          "Fai appassire la cipolla nel grasso del guanciale per 5–6 minuti senza farla colorire.",
-          "Aggiungi i pomodori e un pizzico di sale e fai sobbollire per 15 minuti; rimetti il guanciale.",
-          "Cuoci i bucatini al dente, scolali e saltali nel sugo con un po' di acqua di cottura.",
-          "Fuori dal fuoco, incorpora il pecorino e servi."
-        ]
-      },
-      "tips": [
-        "Elimina gran parte del grasso sciolto prima di aggiungere la cipolla: 1 cucchiaio di grasso vale circa 120 kcal.",
-        "Usa più cipolla e pomodoro e meno guanciale per un sugo più leggero e abbondante.",
-        "Limita la porzione a 80 g di pasta secca e aggiungi un contorno di verdure."
-      ]
-    },
-    "el": {
-      "name": "Μπουκατίνι άλλα ματριτσιάνα",
-      "origin": "Ιταλία · Ρώμη, Λάτσιο",
-      "intro": "Τα bucatini alla matriciana είναι η ονομασία στη ρωμαϊκή διάλεκτο για τα γνωστά ζυμαρικά με γκουαντσιάλε και ντομάτα, εδώ σε μια εκδοχή που προσθέτει κρεμμύδι μαραμένο απαλά. Το κρεμμύδι κάνει τη σάλτσα λίγο πιο γλυκιά και στρογγυλή, ισορροπώντας το αλμυρό αλλαντικό από χοιρινό μάγουλο και το έντονο πεκορίνο ρομάνο. Τα χοντρά, τρύπια μπουκατίνι κρατούν καλά τη σάλτσα. Σερβίρεται ζεστό με επιπλέον τριμμένο πεκορίνο.",
-      "history": "«Matriciana» είναι ο παραδοσιακός ρωμαϊκός τρόπος να πει κανείς «amatriciana», από την πόλη Αματρίτσε στο Λάτσιο. Το αν το κρεμμύδι ανήκει στη σάλτσα είναι μια μακροχρόνια ρωμαϊκή διαμάχη: η συνταγή της ίδιας της Αματρίτσε το παραλείπει, ενώ πολλές ρωμαϊκές τρατορίες το προσθέτουν.",
-      "name_inline": "μπουκατίνι άλλα ματριτσιάνα",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "400 γρ. μπουκατίνι",
-          "150 γρ. γκουαντσιάλε, σε λωρίδες",
-          "1 μικρό κρεμμύδι, σε λεπτές φέτες",
-          "400 γρ. ντομάτες αποφλοιωμένες κονσέρβας, λιωμένες",
-          "60 γρ. πεκορίνο ρομάνο, τριμμένο",
-          "Αλάτι, μια πρέζα νιφάδες τσίλι (προαιρετικά)"
-        ],
-        "steps": [
-          "Λιώστε το λίπος του γκουαντσιάλε σε στεγνό τηγάνι σε μέτρια φωτιά μέχρι να γίνουν τραγανές οι άκρες· βγάλτε το.",
-          "Μαράνετε το κρεμμύδι στο λίπος για 5–6 λεπτά χωρίς να πάρει χρώμα.",
-          "Προσθέστε τις ντομάτες και μια πρέζα αλάτι και σιγοβράστε για 15 λεπτά· ξαναβάλτε το γκουαντσιάλε.",
-          "Βράστε τα μπουκατίνι al dente, στραγγίξτε και ανακατέψτε τα στη σάλτσα με λίγο νερό από τα ζυμαρικά.",
-          "Εκτός φωτιάς, ανακατέψτε το πεκορίνο και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το μεγαλύτερο μέρος του λίπους πριν προσθέσετε το κρεμμύδι — 1 κ.σ. λίπος είναι περίπου 120 kcal.",
-        "Βάλτε περισσότερο κρεμμύδι και ντομάτα και λιγότερο γκουαντσιάλε για πιο ελαφριά και πιο άφθονη σάλτσα.",
-        "Περιορίστε τη μερίδα σε 80 γρ. ξηρά ζυμαρικά και προσθέστε ένα συνοδευτικό λαχανικών."
-      ]
-    },
-    "ru": {
-      "name": "Букатини алла мартичана",
-      "origin": "Италия · Рим, Лацио",
-      "intro": "Букатини алла мартичана — римское диалектное название знаменитой пасты с гуанчале и помидорами, здесь в версии с добавлением слегка припущенного лука. Лук делает соус немного слаще и мягче, уравновешивая солёную вяленую свиную щёчку и острый пекорино романо. Толстые полые букатини хорошо удерживают соус. Подаётся горячей с дополнительным тёртым пекорино.",
-      "history": "«Мартичана» — так римляне традиционно произносят «аматричана» по названию городка Аматриче в Лацио. Должен ли лук быть в соусе — давний римский спор: в рецепте самого Аматриче его нет, а во многих римских траттториях он есть.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "400 г букатини",
-          "150 г гуанчале, нарезанного полосками",
-          "1 небольшая луковица, тонко нарезанная",
-          "400 г консервированных очищенных помидоров, раздавленных",
-          "60 г пекорино романо, тёртого",
-          "Соль, щепотка хлопьев чили (по желанию)"
-        ],
-        "steps": [
-          "Вытопите гуанчале на сухой сковороде на среднем огне до хруста по краям; выньте.",
-          "Припустите лук в вытопленном жире 5–6 минут, не давая ему подрумяниться.",
-          "Добавьте помидоры и щепотку соли и варите 15 минут; верните гуанчале.",
-          "Отварите букатини до состояния аль денте, слейте воду и перемешайте с соусом, добавив немного воды от пасты.",
-          "Снимите с огня, вмешайте пекорино и подавайте."
-        ]
-      },
-      "tips": [
-        "Слейте большую часть вытопленного жира перед добавлением лука — 1 ст. л. жира это около 120 ккал.",
-        "Берите больше лука и помидоров и меньше гуанчале для более лёгкого и объёмного соуса.",
-        "Ограничьтесь порцией в 80 г сухой пасты и добавьте овощной гарнир."
-      ],
-      "name_inline": "букатини алла мартичана"
-    }
+  "ar": {
+   "name": "بوكاتيني ماتريشانا",
+   "origin": "إيطاليا · روما، لاتسيو",
+   "intro": "بوكاتيني ماتريشانا هو الاسم باللهجة الرومانية لطبق المعكرونة الشهير بالجوانشالي والطماطم، ويُقدَّم هنا بنسخة يضاف إليها بصل مطهو على مهل. يمنح البصل الصلصة حلاوة خفيفة وتوازنًا، فيخفف ملوحة خد الخنزير المقدد وحدة جبن البيكورينو. وتحمل البوكاتيني السميكة المجوفة الصلصة جيدًا. يقدم ساخنًا مع مزيد من البيكورينو المبشور.",
+   "history": "«ماتريشانا» هي الطريقة الرومانية التقليدية لنطق «أماتريشانا»، نسبة إلى بلدة أماتريتشي في لاتسيو. وإضافة البصل إلى الصلصة موضع جدل قديم في روما: وصفة أماتريتشي نفسها تستبعده، بينما تضيفه مطاعم رومانية كثيرة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "400 غ بوكاتيني",
+     "150 غ جوانشالي مقطع شرائح",
+     "بصلة صغيرة مقطعة شرائح رفيعة",
+     "400 غ طماطم مقشرة معلبة مهروسة",
+     "60 غ جبن بيكورينو رومانو مبشور",
+     "ملح، ورشة فلفل حار مجروش (اختياري)"
+    ],
+    "steps": [
+     "حمّر الجوانشالي في مقلاة جافة على نار متوسطة حتى تتحمص أطرافه، ثم ارفعه.",
+     "ليّن البصل في الدهن الذائب 5–6 دقائق دون أن يتحمر.",
+     "أضف الطماطم ورشة ملح واتركها تغلي بهدوء 15 دقيقة، ثم أعد الجوانشالي.",
+     "اسلق البوكاتيني حتى يصبح نصف طري، وصفّه وقلّبه في الصلصة مع قليل من ماء السلق.",
+     "بعيدًا عن النار أضف البيكورينو وقدّم."
+    ]
+   },
+   "tips": [
+    "تخلص من معظم الدهن الذائب قبل إضافة البصل — ملعقة كبيرة من الدهن ≈ 120 سعرة.",
+    "استخدم بصلًا وطماطم أكثر وجوانشالي أقل لصلصة أخف وأوفر.",
+    "اجعل الحصة 80 غ من المعكرونة الجافة وأضف طبقًا جانبيًا من الخضار."
+   ]
+  },
+  "it": {
+   "name": "Bucatini alla matriciana",
+   "origin": "Italia · Roma, Lazio",
+   "intro": "Bucatini alla matriciana è il nome in dialetto romano della famosa pasta con guanciale e pomodoro, qui in una versione che aggiunge cipolla fatta appassire dolcemente. La cipolla rende il sugo un po' più dolce e rotondo, bilanciando la guancia di maiale stagionata e sapida e il pecorino romano pungente. I bucatini, spessi e forati, trattengono bene il sugo. Si servono caldi con altro pecorino grattugiato.",
+   "history": "«Matriciana» è il modo in cui i romani dicono tradizionalmente «amatriciana», dal nome della cittadina di Amatrice, nel Lazio. Se la cipolla debba stare nel sugo è un dibattito romano di lunga data: la ricetta di Amatrice la esclude, mentre molte trattorie romane la aggiungono.",
+   "name_inline": "bucatini alla matriciana",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "400 g di bucatini",
+     "150 g di guanciale a listarelle",
+     "1 cipolla piccola affettata sottile",
+     "400 g di pomodori pelati in scatola schiacciati",
+     "60 g di pecorino romano grattugiato",
+     "Sale, un pizzico di peperoncino in fiocchi (facoltativo)"
+    ],
+    "steps": [
+     "Fai sciogliere il grasso del guanciale in una padella asciutta a fuoco medio finché i bordi sono croccanti; toglilo dalla padella.",
+     "Fai appassire la cipolla nel grasso del guanciale per 5–6 minuti senza farla colorire.",
+     "Aggiungi i pomodori e un pizzico di sale e fai sobbollire per 15 minuti; rimetti il guanciale.",
+     "Cuoci i bucatini al dente, scolali e saltali nel sugo con un po' di acqua di cottura.",
+     "Fuori dal fuoco, incorpora il pecorino e servi."
+    ]
+   },
+   "tips": [
+    "Elimina gran parte del grasso sciolto prima di aggiungere la cipolla: 1 cucchiaio di grasso vale circa 120 kcal.",
+    "Usa più cipolla e pomodoro e meno guanciale per un sugo più leggero e abbondante.",
+    "Limita la porzione a 80 g di pasta secca e aggiungi un contorno di verdure."
+   ]
+  },
+  "el": {
+   "name": "Μπουκατίνι άλλα ματριτσιάνα",
+   "origin": "Ιταλία · Ρώμη, Λάτσιο",
+   "intro": "Τα bucatini alla matriciana είναι η ονομασία στη ρωμαϊκή διάλεκτο για τα γνωστά ζυμαρικά με γκουαντσιάλε και ντομάτα, εδώ σε μια εκδοχή που προσθέτει κρεμμύδι μαραμένο απαλά. Το κρεμμύδι κάνει τη σάλτσα λίγο πιο γλυκιά και στρογγυλή, ισορροπώντας το αλμυρό αλλαντικό από χοιρινό μάγουλο και το έντονο πεκορίνο ρομάνο. Τα χοντρά, τρύπια μπουκατίνι κρατούν καλά τη σάλτσα. Σερβίρεται ζεστό με επιπλέον τριμμένο πεκορίνο.",
+   "history": "«Matriciana» είναι ο παραδοσιακός ρωμαϊκός τρόπος να πει κανείς «amatriciana», από την πόλη Αματρίτσε στο Λάτσιο. Το αν το κρεμμύδι ανήκει στη σάλτσα είναι μια μακροχρόνια ρωμαϊκή διαμάχη: η συνταγή της ίδιας της Αματρίτσε το παραλείπει, ενώ πολλές ρωμαϊκές τρατορίες το προσθέτουν.",
+   "name_inline": "μπουκατίνι άλλα ματριτσιάνα",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "400 γρ. μπουκατίνι",
+     "150 γρ. γκουαντσιάλε, σε λωρίδες",
+     "1 μικρό κρεμμύδι, σε λεπτές φέτες",
+     "400 γρ. ντομάτες αποφλοιωμένες κονσέρβας, λιωμένες",
+     "60 γρ. πεκορίνο ρομάνο, τριμμένο",
+     "Αλάτι, μια πρέζα νιφάδες τσίλι (προαιρετικά)"
+    ],
+    "steps": [
+     "Λιώστε το λίπος του γκουαντσιάλε σε στεγνό τηγάνι σε μέτρια φωτιά μέχρι να γίνουν τραγανές οι άκρες· βγάλτε το.",
+     "Μαράνετε το κρεμμύδι στο λίπος για 5–6 λεπτά χωρίς να πάρει χρώμα.",
+     "Προσθέστε τις ντομάτες και μια πρέζα αλάτι και σιγοβράστε για 15 λεπτά· ξαναβάλτε το γκουαντσιάλε.",
+     "Βράστε τα μπουκατίνι al dente, στραγγίξτε και ανακατέψτε τα στη σάλτσα με λίγο νερό από τα ζυμαρικά.",
+     "Εκτός φωτιάς, ανακατέψτε το πεκορίνο και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το μεγαλύτερο μέρος του λίπους πριν προσθέσετε το κρεμμύδι — 1 κ.σ. λίπος είναι περίπου 120 kcal.",
+    "Βάλτε περισσότερο κρεμμύδι και ντομάτα και λιγότερο γκουαντσιάλε για πιο ελαφριά και πιο άφθονη σάλτσα.",
+    "Περιορίστε τη μερίδα σε 80 γρ. ξηρά ζυμαρικά και προσθέστε ένα συνοδευτικό λαχανικών."
+   ]
+  },
+  "ru": {
+   "name": "Букатини алла мартичана",
+   "origin": "Италия · Рим, Лацио",
+   "intro": "Букатини алла мартичана — римское диалектное название знаменитой пасты с гуанчале и помидорами, здесь в версии с добавлением слегка припущенного лука. Лук делает соус немного слаще и мягче, уравновешивая солёную вяленую свиную щёчку и острый пекорино романо. Толстые полые букатини хорошо удерживают соус. Подаётся горячей с дополнительным тёртым пекорино.",
+   "history": "«Мартичана» — так римляне традиционно произносят «аматричана» по названию городка Аматриче в Лацио. Должен ли лук быть в соусе — давний римский спор: в рецепте самого Аматриче его нет, а во многих римских траттториях он есть.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "400 г букатини",
+     "150 г гуанчале, нарезанного полосками",
+     "1 небольшая луковица, тонко нарезанная",
+     "400 г консервированных очищенных помидоров, раздавленных",
+     "60 г пекорино романо, тёртого",
+     "Соль, щепотка хлопьев чили (по желанию)"
+    ],
+    "steps": [
+     "Вытопите гуанчале на сухой сковороде на среднем огне до хруста по краям; выньте.",
+     "Припустите лук в вытопленном жире 5–6 минут, не давая ему подрумяниться.",
+     "Добавьте помидоры и щепотку соли и варите 15 минут; верните гуанчале.",
+     "Отварите букатини до состояния аль денте, слейте воду и перемешайте с соусом, добавив немного воды от пасты.",
+     "Снимите с огня, вмешайте пекорино и подавайте."
+    ]
+   },
+   "tips": [
+    "Слейте большую часть вытопленного жира перед добавлением лука — 1 ст. л. жира это около 120 ккал.",
+    "Берите больше лука и помидоров и меньше гуанчале для более лёгкого и объёмного соуса.",
+    "Ограничьтесь порцией в 80 г сухой пасты и добавьте овощной гарнир."
+   ],
+   "name_inline": "букатини алла мартичана"
+  },
+  "es": {
+   "name": "Bucatini a la matriciana",
+   "origin": "Italia · Roma, Lacio",
+   "intro": "Los bucatini alla matriciana llevan el nombre en dialecto romano de la célebre pasta de guanciale y jitomate, aquí en una versión que añade cebolla suavemente acitronada. La cebolla vuelve la salsa un poco más dulce y redonda, y equilibra el sabroso carrillo de cerdo curado y el pecorino romano punzante. Los bucatini gruesos y huecos retienen bien la salsa. Se sirve caliente con más pecorino rallado.",
+   "history": "«Matriciana» es como los romanos dicen tradicionalmente «amatriciana», por el pueblo de Amatrice, en el Lacio. Si la cebolla va o no en la salsa es un debate romano de siempre: la receta de Amatrice la omite, mientras que muchas trattorias romanas la añaden.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "400 g de bucatini",
+     "150 g de guanciale, en tiras",
+     "1 cebolla pequeña, en rodajas finas",
+     "400 g de jitomates pelados en lata, triturados",
+     "60 g de pecorino romano rallado",
+     "Sal, una pizca de hojuelas de chile (opcional)"
+    ],
+    "steps": [
+     "Derrite el guanciale en una sartén seca a fuego medio hasta que los bordes estén crujientes; sácalo.",
+     "Acitrona la cebolla en la grasa durante 5–6 minutos, sin dorarla.",
+     "Añade el jitomate y una pizca de sal y cuece a fuego bajo 15 minutos; devuelve el guanciale.",
+     "Cuece los bucatini al dente, escúrrelos y mézclalos con la salsa y un poco de agua de la pasta.",
+     "Fuera del fuego, incorpora el pecorino y sirve."
+    ]
+   },
+   "tips": [
+    "Retira la mayor parte de la grasa antes de añadir la cebolla: 1 cda. de grasa son unas 120 kcal.",
+    "Usa más cebolla y jitomate y menos guanciale para una salsa más ligera y abundante.",
+    "Mantén la porción en 80 g de pasta seca y añade una guarnición de verduras."
+   ],
+   "name_inline": "los bucatini a la matriciana"
   }
+ }
 }

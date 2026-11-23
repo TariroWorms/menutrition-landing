@@ -1,165 +1,195 @@
 {
-  "db_key": "tavuk_durum",
-  "slug": "tavuk-durum",
-  "emoji": "🌯",
-  "portion_g": 250,
-  "country": "TR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tavuk_durum",
+ "slug": "tavuk-durum",
+ "emoji": "🌯",
+ "portion_g": 250,
+ "country": "TR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken dürüm (tavuk dürüm)",
+   "origin": "Turkey",
+   "intro": "Tavuk dürüm is a Turkish wrap of grilled, spiced chicken rolled tightly in thin lavash with tomato, onion and crisp lettuce. The bread is often warmed on the grill so it turns soft with a few charred spots. It is a classic street-food lunch, eaten by hand straight from its paper wrapping.",
+   "history": "Dürüm means 'roll' in Turkish; the wrap comes from the country's kebab shops, where grilled meat is rolled in lavash to eat on the go. Chicken versions are popular in Turkey and in kebab shops across Europe.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 g chicken thigh or breast",
+     "2 large lavash breads",
+     "2 tomatoes, sliced",
+     "1 onion, thinly sliced",
+     "Lettuce leaves",
+     "1 tbsp oil",
+     "Paprika, cumin, salt, black pepper, sumac"
+    ],
+    "steps": [
+     "Toss the chicken with oil and spices and leave 20 minutes.",
+     "Grill or pan-fry until cooked through and lightly charred, then slice.",
+     "Warm the lavash briefly on the grill.",
+     "Fill with chicken, tomato, onion and lettuce, roll tightly and serve."
+    ]
+   },
+   "tips": [
+    "Use chicken breast instead of thigh for a leaner wrap.",
+    "Load up on lettuce and tomato and use a little less chicken and bread.",
+    "Grill rather than fry, and brush on the oil instead of pouring it."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken dürüm (tavuk dürüm)",
-      "origin": "Turkey",
-      "intro": "Tavuk dürüm is a Turkish wrap of grilled, spiced chicken rolled tightly in thin lavash with tomato, onion and crisp lettuce. The bread is often warmed on the grill so it turns soft with a few charred spots. It is a classic street-food lunch, eaten by hand straight from its paper wrapping.",
-      "history": "Dürüm means 'roll' in Turkish; the wrap comes from the country's kebab shops, where grilled meat is rolled in lavash to eat on the go. Chicken versions are popular in Turkey and in kebab shops across Europe.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 g chicken thigh or breast",
-          "2 large lavash breads",
-          "2 tomatoes, sliced",
-          "1 onion, thinly sliced",
-          "Lettuce leaves",
-          "1 tbsp oil",
-          "Paprika, cumin, salt, black pepper, sumac"
-        ],
-        "steps": [
-          "Toss the chicken with oil and spices and leave 20 minutes.",
-          "Grill or pan-fry until cooked through and lightly charred, then slice.",
-          "Warm the lavash briefly on the grill.",
-          "Fill with chicken, tomato, onion and lettuce, roll tightly and serve."
-        ]
-      },
-      "tips": [
-        "Use chicken breast instead of thigh for a leaner wrap.",
-        "Load up on lettuce and tomato and use a little less chicken and bread.",
-        "Grill rather than fry, and brush on the oil instead of pouring it."
-      ]
-    },
-    "ar": {
-      "name": "دورم دجاج",
-      "origin": "تركيا",
-      "intro": "دورم الدجاج لفافة تركية من الدجاج المتبل المشوي يُلف بإحكام في خبز لافاش رقيق مع الطماطم والبصل والخس المقرمش. غالبًا ما يُدفّأ الخبز على الشواية فيصبح طريًا مع بقع محمّصة. وهو غداء كلاسيكي من أكلات الشارع يُؤكل باليد من ورقة اللف.",
-      "history": "تعني كلمة «دورم» بالتركية «لفافة»، وهي من أكلات محلات الكباب حيث يُلف اللحم المشوي في اللافاش ليؤكل أثناء التنقل. ونسخ الدجاج منها شائعة في تركيا وفي محلات الكباب في أوروبا.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 غ أفخاذ أو صدور دجاج",
-          "2 رغيف لافاش كبير",
-          "2 حبة طماطم شرائح",
-          "1 بصلة شرائح رفيعة",
-          "أوراق خس",
-          "1 ملعقة كبيرة زيت",
-          "بابريكا وكمون وملح وفلفل أسود وسماق"
-        ],
-        "steps": [
-          "اخلط الدجاج بالزيت والبهارات واتركه 20 دقيقة.",
-          "اشوه أو حمّره في مقلاة حتى ينضج ويتحمّر قليلًا، ثم قطّعه شرائح.",
-          "دفّئ اللافاش قليلًا على الشواية.",
-          "احشه بالدجاج والطماطم والبصل والخس، ولفّه بإحكام وقدّمه."
-        ]
-      },
-      "tips": [
-        "استخدم صدر الدجاج بدل الفخذ للفافة أخف.",
-        "أكثِر من الخس والطماطم وقلّل الدجاج والخبز قليلًا.",
-        "اشوِ بدل القلي، وادهن الزيت بالفرشاة بدل سكبه."
-      ]
-    },
-    "it": {
-      "name": "Dürüm di pollo (tavuk dürüm)",
-      "origin": "Turchia",
-      "intro": "Il tavuk dürüm è un wrap turco di pollo speziato alla griglia, arrotolato stretto in un sottile pane lavash con pomodoro, cipolla e lattuga croccante. Il pane viene spesso scaldato sulla griglia, così diventa morbido con qualche punto abbrustolito. È un classico pranzo di street food, da mangiare con le mani direttamente dal suo involucro di carta.",
-      "history": "Dürüm significa «rotolo» in turco; il wrap nasce nelle kebaberie del paese, dove la carne alla griglia viene arrotolata nel lavash per mangiarla al volo. Le versioni al pollo sono diffuse in Turchia e nelle kebaberie di tutta Europa.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 g di coscia o petto di pollo",
-          "2 pani lavash grandi",
-          "2 pomodori a fette",
-          "1 cipolla affettata sottilmente",
-          "Foglie di lattuga",
-          "1 cucchiaio di olio",
-          "Paprika, cumino, sale, pepe nero, sumac"
-        ],
-        "steps": [
-          "Condisci il pollo con olio e spezie e lascialo riposare 20 minuti.",
-          "Griglialo o cuocilo in padella finché è cotto all'interno e leggermente abbrustolito, poi taglialo a fette.",
-          "Scalda brevemente il lavash sulla griglia.",
-          "Farcisci con pollo, pomodoro, cipolla e lattuga, arrotola stretto e servi."
-        ]
-      },
-      "tips": [
-        "Usa petto di pollo invece della coscia per un wrap più magro.",
-        "Abbonda con lattuga e pomodoro e usa un po' meno pollo e pane.",
-        "Griglia invece di friggere e spennella l'olio invece di versarlo."
-      ]
-    },
-    "el": {
-      "name": "Ντουρούμ κοτόπουλο (ταβούκ ντουρούμ)",
-      "origin": "Τουρκία",
-      "intro": "Το ταβούκ ντουρούμ είναι ένα τουρκικό τυλιχτό με ψητό, μπαχαρικωμένο κοτόπουλο, τυλιγμένο σφιχτά σε λεπτή πίτα λαβάς με ντομάτα, κρεμμύδι και τραγανό μαρούλι. Η πίτα συχνά ζεσταίνεται στη σχάρα, ώστε να γίνει μαλακή με μερικά καψαλισμένα σημεία. Είναι κλασικό μεσημεριανό street food, που τρώγεται με τα χέρια κατευθείαν από το χαρτί του.",
-      "history": "Ντουρούμ σημαίνει «ρολό» στα τουρκικά· το τυλιχτό προέρχεται από τα κεμπαπτζίδικα της χώρας, όπου το ψητό κρέας τυλίγεται σε λαβάς για να τρώγεται στο πόδι. Οι εκδοχές με κοτόπουλο είναι δημοφιλείς στην Τουρκία και στα κεμπαπτζίδικα όλης της Ευρώπης.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 γρ. μπούτι ή στήθος κοτόπουλο",
-          "2 μεγάλες πίτες λαβάς",
-          "2 ντομάτες, σε φέτες",
-          "1 κρεμμύδι, σε λεπτές φέτες",
-          "Φύλλα μαρουλιού",
-          "1 κ.σ. λάδι",
-          "Πάπρικα, κύμινο, αλάτι, μαύρο πιπέρι, σουμάκ"
-        ],
-        "steps": [
-          "Ανακατέψτε το κοτόπουλο με το λάδι και τα μπαχαρικά και αφήστε το 20 λεπτά.",
-          "Ψήστε το στη σχάρα ή στο τηγάνι μέχρι να ψηθεί καλά και να καψαλιστεί ελαφρά, και κόψτε το σε φέτες.",
-          "Ζεστάνετε για λίγο το λαβάς στη σχάρα.",
-          "Γεμίστε με κοτόπουλο, ντομάτα, κρεμμύδι και μαρούλι, τυλίξτε σφιχτά και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε στήθος κοτόπουλο αντί για μπούτι για πιο άπαχο τυλιχτό.",
-        "Βάλτε άφθονο μαρούλι και ντομάτα και λίγο λιγότερο κοτόπουλο και ψωμί.",
-        "Ψήστε στη σχάρα αντί να τηγανίσετε και αλείψτε το λάδι με πινέλο αντί να το ρίχνετε."
-      ]
-    },
-    "ru": {
-      "name": "Дюрюм с курицей (тавук дюрюм)",
-      "origin": "Турция",
-      "intro": "Тавук дюрюм — турецкий ролл из курицы-гриль со специями, плотно завёрнутой в тонкий лаваш с помидорами, луком и хрустящим салатом. Хлеб часто прогревают на гриле, чтобы он стал мягким с несколькими подгоревшими пятнами. Это классический уличный обед, который едят руками прямо из бумажной обёртки.",
-      "history": "Дюрюм по-турецки означает «рулет»; ролл пришёл из кебабных этой страны, где мясо на гриле заворачивают в лаваш, чтобы есть на ходу. Варианты с курицей популярны в Турции и в кебабных по всей Европе.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 г куриного бедра или грудки",
-          "2 больших лаваша",
-          "2 помидора, нарезанных",
-          "1 луковица, тонко нарезанная",
-          "Листья салата",
-          "1 ст. л. масла",
-          "Паприка, зира, соль, чёрный перец, сумах"
-        ],
-        "steps": [
-          "Перемешайте курицу с маслом и специями и оставьте на 20 минут.",
-          "Жарьте на гриле или сковороде до готовности и лёгких подгоревших пятен, затем нарежьте.",
-          "Ненадолго прогрейте лаваш на гриле.",
-          "Наполните курицей, помидорами, луком и салатом, плотно сверните и подавайте."
-        ]
-      },
-      "tips": [
-        "Берите куриную грудку вместо бедра — ролл будет менее жирным.",
-        "Добавьте побольше салата и помидоров, а курицы и хлеба возьмите чуть меньше.",
-        "Жарьте на гриле, а не во фритюре, и смазывайте маслом кисточкой, а не наливайте."
-      ],
-      "name_inline": "дюрюм с курицей"
-    }
+  "ar": {
+   "name": "دورم دجاج",
+   "origin": "تركيا",
+   "intro": "دورم الدجاج لفافة تركية من الدجاج المتبل المشوي يُلف بإحكام في خبز لافاش رقيق مع الطماطم والبصل والخس المقرمش. غالبًا ما يُدفّأ الخبز على الشواية فيصبح طريًا مع بقع محمّصة. وهو غداء كلاسيكي من أكلات الشارع يُؤكل باليد من ورقة اللف.",
+   "history": "تعني كلمة «دورم» بالتركية «لفافة»، وهي من أكلات محلات الكباب حيث يُلف اللحم المشوي في اللافاش ليؤكل أثناء التنقل. ونسخ الدجاج منها شائعة في تركيا وفي محلات الكباب في أوروبا.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 غ أفخاذ أو صدور دجاج",
+     "2 رغيف لافاش كبير",
+     "2 حبة طماطم شرائح",
+     "1 بصلة شرائح رفيعة",
+     "أوراق خس",
+     "1 ملعقة كبيرة زيت",
+     "بابريكا وكمون وملح وفلفل أسود وسماق"
+    ],
+    "steps": [
+     "اخلط الدجاج بالزيت والبهارات واتركه 20 دقيقة.",
+     "اشوه أو حمّره في مقلاة حتى ينضج ويتحمّر قليلًا، ثم قطّعه شرائح.",
+     "دفّئ اللافاش قليلًا على الشواية.",
+     "احشه بالدجاج والطماطم والبصل والخس، ولفّه بإحكام وقدّمه."
+    ]
+   },
+   "tips": [
+    "استخدم صدر الدجاج بدل الفخذ للفافة أخف.",
+    "أكثِر من الخس والطماطم وقلّل الدجاج والخبز قليلًا.",
+    "اشوِ بدل القلي، وادهن الزيت بالفرشاة بدل سكبه."
+   ]
+  },
+  "it": {
+   "name": "Dürüm di pollo (tavuk dürüm)",
+   "origin": "Turchia",
+   "intro": "Il tavuk dürüm è un wrap turco di pollo speziato alla griglia, arrotolato stretto in un sottile pane lavash con pomodoro, cipolla e lattuga croccante. Il pane viene spesso scaldato sulla griglia, così diventa morbido con qualche punto abbrustolito. È un classico pranzo di street food, da mangiare con le mani direttamente dal suo involucro di carta.",
+   "history": "Dürüm significa «rotolo» in turco; il wrap nasce nelle kebaberie del paese, dove la carne alla griglia viene arrotolata nel lavash per mangiarla al volo. Le versioni al pollo sono diffuse in Turchia e nelle kebaberie di tutta Europa.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 g di coscia o petto di pollo",
+     "2 pani lavash grandi",
+     "2 pomodori a fette",
+     "1 cipolla affettata sottilmente",
+     "Foglie di lattuga",
+     "1 cucchiaio di olio",
+     "Paprika, cumino, sale, pepe nero, sumac"
+    ],
+    "steps": [
+     "Condisci il pollo con olio e spezie e lascialo riposare 20 minuti.",
+     "Griglialo o cuocilo in padella finché è cotto all'interno e leggermente abbrustolito, poi taglialo a fette.",
+     "Scalda brevemente il lavash sulla griglia.",
+     "Farcisci con pollo, pomodoro, cipolla e lattuga, arrotola stretto e servi."
+    ]
+   },
+   "tips": [
+    "Usa petto di pollo invece della coscia per un wrap più magro.",
+    "Abbonda con lattuga e pomodoro e usa un po' meno pollo e pane.",
+    "Griglia invece di friggere e spennella l'olio invece di versarlo."
+   ]
+  },
+  "el": {
+   "name": "Ντουρούμ κοτόπουλο (ταβούκ ντουρούμ)",
+   "origin": "Τουρκία",
+   "intro": "Το ταβούκ ντουρούμ είναι ένα τουρκικό τυλιχτό με ψητό, μπαχαρικωμένο κοτόπουλο, τυλιγμένο σφιχτά σε λεπτή πίτα λαβάς με ντομάτα, κρεμμύδι και τραγανό μαρούλι. Η πίτα συχνά ζεσταίνεται στη σχάρα, ώστε να γίνει μαλακή με μερικά καψαλισμένα σημεία. Είναι κλασικό μεσημεριανό street food, που τρώγεται με τα χέρια κατευθείαν από το χαρτί του.",
+   "history": "Ντουρούμ σημαίνει «ρολό» στα τουρκικά· το τυλιχτό προέρχεται από τα κεμπαπτζίδικα της χώρας, όπου το ψητό κρέας τυλίγεται σε λαβάς για να τρώγεται στο πόδι. Οι εκδοχές με κοτόπουλο είναι δημοφιλείς στην Τουρκία και στα κεμπαπτζίδικα όλης της Ευρώπης.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 γρ. μπούτι ή στήθος κοτόπουλο",
+     "2 μεγάλες πίτες λαβάς",
+     "2 ντομάτες, σε φέτες",
+     "1 κρεμμύδι, σε λεπτές φέτες",
+     "Φύλλα μαρουλιού",
+     "1 κ.σ. λάδι",
+     "Πάπρικα, κύμινο, αλάτι, μαύρο πιπέρι, σουμάκ"
+    ],
+    "steps": [
+     "Ανακατέψτε το κοτόπουλο με το λάδι και τα μπαχαρικά και αφήστε το 20 λεπτά.",
+     "Ψήστε το στη σχάρα ή στο τηγάνι μέχρι να ψηθεί καλά και να καψαλιστεί ελαφρά, και κόψτε το σε φέτες.",
+     "Ζεστάνετε για λίγο το λαβάς στη σχάρα.",
+     "Γεμίστε με κοτόπουλο, ντομάτα, κρεμμύδι και μαρούλι, τυλίξτε σφιχτά και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε στήθος κοτόπουλο αντί για μπούτι για πιο άπαχο τυλιχτό.",
+    "Βάλτε άφθονο μαρούλι και ντομάτα και λίγο λιγότερο κοτόπουλο και ψωμί.",
+    "Ψήστε στη σχάρα αντί να τηγανίσετε και αλείψτε το λάδι με πινέλο αντί να το ρίχνετε."
+   ]
+  },
+  "ru": {
+   "name": "Дюрюм с курицей (тавук дюрюм)",
+   "origin": "Турция",
+   "intro": "Тавук дюрюм — турецкий ролл из курицы-гриль со специями, плотно завёрнутой в тонкий лаваш с помидорами, луком и хрустящим салатом. Хлеб часто прогревают на гриле, чтобы он стал мягким с несколькими подгоревшими пятнами. Это классический уличный обед, который едят руками прямо из бумажной обёртки.",
+   "history": "Дюрюм по-турецки означает «рулет»; ролл пришёл из кебабных этой страны, где мясо на гриле заворачивают в лаваш, чтобы есть на ходу. Варианты с курицей популярны в Турции и в кебабных по всей Европе.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 г куриного бедра или грудки",
+     "2 больших лаваша",
+     "2 помидора, нарезанных",
+     "1 луковица, тонко нарезанная",
+     "Листья салата",
+     "1 ст. л. масла",
+     "Паприка, зира, соль, чёрный перец, сумах"
+    ],
+    "steps": [
+     "Перемешайте курицу с маслом и специями и оставьте на 20 минут.",
+     "Жарьте на гриле или сковороде до готовности и лёгких подгоревших пятен, затем нарежьте.",
+     "Ненадолго прогрейте лаваш на гриле.",
+     "Наполните курицей, помидорами, луком и салатом, плотно сверните и подавайте."
+    ]
+   },
+   "tips": [
+    "Берите куриную грудку вместо бедра — ролл будет менее жирным.",
+    "Добавьте побольше салата и помидоров, а курицы и хлеба возьмите чуть меньше.",
+    "Жарьте на гриле, а не во фритюре, и смазывайте маслом кисточкой, а не наливайте."
+   ],
+   "name_inline": "дюрюм с курицей"
+  },
+  "es": {
+   "name": "Dürüm de pollo (tavuk dürüm)",
+   "origin": "Turquía",
+   "intro": "El tavuk dürüm es un rollo turco de pollo asado y sazonado, enrollado con firmeza en lavash fino con tomate, cebolla y lechuga crujiente. El pan suele calentarse en la parrilla hasta quedar suave y con algunas manchas tostadas. Es un clásico almuerzo callejero que se come con la mano, directamente de su envoltorio de papel.",
+   "history": "Dürüm significa «rollo» en turco; este rollo viene de las kebabcis del país, donde la carne asada se envuelve en lavash para comer sobre la marcha. Las versiones de pollo son populares en Turquía y en los locales de kebab de toda Europa.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 g de muslo o pechuga de pollo",
+     "2 panes lavash grandes",
+     "2 tomates, en rodajas",
+     "1 cebolla, en rodajas finas",
+     "Hojas de lechuga",
+     "1 cda. de aceite",
+     "Pimentón, comino, sal, pimienta negra, sumac"
+    ],
+    "steps": [
+     "Mezcla el pollo con el aceite y las especias y déjalo reposar 20 minutos.",
+     "Asa o saltea hasta que esté bien cocido y ligeramente tostado, y luego córtalo en tiras.",
+     "Calienta el lavash brevemente en la parrilla.",
+     "Rellena con el pollo, el tomate, la cebolla y la lechuga, enrolla bien apretado y sirve."
+    ]
+   },
+   "tips": [
+    "Usa pechuga en lugar de muslo para un rollo más magro.",
+    "Carga más lechuga y tomate y usa un poco menos de pollo y de pan.",
+    "Asa en lugar de freír, y pincela el aceite en vez de verterlo."
+   ]
   }
+ }
 }

@@ -1,145 +1,172 @@
 {
-  "db_key": "espresso",
-  "slug": "espresso",
-  "emoji": "☕",
-  "portion_g": 30,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "espresso",
+ "slug": "espresso",
+ "emoji": "☕",
+ "portion_g": 30,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Espresso",
+   "origin": "Italy",
+   "intro": "Espresso is a short, concentrated coffee made by forcing hot water under pressure through finely ground coffee. A single shot is about 30 ml, with a dense body, intense aroma and a layer of golden-brown crema on top. It is drunk quickly, on its own or with a little sugar, and forms the base of many other coffee drinks.",
+   "history": "Espresso developed in Italy in the early 20th century with the first commercial machines that brewed coffee under steam pressure. The modern style with thick crema spread after lever machines appeared in the 1940s, and the espresso bar became part of everyday Italian life.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "18 g finely ground coffee",
+     "40 ml water",
+     "Sugar (optional)"
+    ],
+    "steps": [
+     "Fill the portafilter with the ground coffee and tamp it evenly.",
+     "Lock it into the machine and place a warmed cup underneath.",
+     "Extract for 25–30 seconds to get about 30 ml of espresso.",
+     "Serve immediately, with sugar on the side if you like."
+    ]
+   },
+   "tips": [
+    "Plain espresso is almost calorie-free — it is the additions that count.",
+    "1 tsp sugar ≈ 16 kcal; try cutting down gradually.",
+    "Order it instead of large sweetened coffee drinks when you want a lighter option."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Espresso",
-      "origin": "Italy",
-      "intro": "Espresso is a short, concentrated coffee made by forcing hot water under pressure through finely ground coffee. A single shot is about 30 ml, with a dense body, intense aroma and a layer of golden-brown crema on top. It is drunk quickly, on its own or with a little sugar, and forms the base of many other coffee drinks.",
-      "history": "Espresso developed in Italy in the early 20th century with the first commercial machines that brewed coffee under steam pressure. The modern style with thick crema spread after lever machines appeared in the 1940s, and the espresso bar became part of everyday Italian life.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "18 g finely ground coffee",
-          "40 ml water",
-          "Sugar (optional)"
-        ],
-        "steps": [
-          "Fill the portafilter with the ground coffee and tamp it evenly.",
-          "Lock it into the machine and place a warmed cup underneath.",
-          "Extract for 25–30 seconds to get about 30 ml of espresso.",
-          "Serve immediately, with sugar on the side if you like."
-        ]
-      },
-      "tips": [
-        "Plain espresso is almost calorie-free — it is the additions that count.",
-        "1 tsp sugar ≈ 16 kcal; try cutting down gradually.",
-        "Order it instead of large sweetened coffee drinks when you want a lighter option."
-      ]
-    },
-    "ar": {
-      "name": "إسبريسو",
-      "origin": "إيطاليا",
-      "intro": "الإسبريسو قهوة قصيرة مركّزة تُحضَّر بدفع الماء الساخن تحت الضغط عبر بن مطحون ناعماً. الجرعة الواحدة نحو 30 مل، كثيفة القوام وقوية الرائحة، تعلوها طبقة كريما ذهبية بنية. تُشرب بسرعة، وحدها أو مع قليل من السكر، وهي أساس كثير من مشروبات القهوة الأخرى.",
-      "history": "نشأ الإسبريسو في إيطاليا في أوائل القرن العشرين مع أولى الآلات التجارية التي تحضّر القهوة بضغط البخار. وانتشر الأسلوب الحديث ذو الكريما الكثيفة بعد ظهور آلات الذراع في الأربعينيات، وأصبح مقهى الإسبريسو جزءاً من الحياة اليومية في إيطاليا.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "18 غ بن مطحون ناعماً",
-          "40 مل ماء",
-          "سكر (اختياري)"
-        ],
-        "steps": [
-          "املأ حامل البن بالقهوة المطحونة واضغطها بالتساوي.",
-          "ثبّته في الآلة وضع تحته فنجاناً دافئاً.",
-          "استخلص القهوة 25–30 ثانية للحصول على نحو 30 مل من الإسبريسو.",
-          "قدّمه فوراً مع السكر جانباً إن رغبت."
-        ]
-      },
-      "tips": [
-        "الإسبريسو السادة شبه خالٍ من السعرات، والإضافات هي ما يُحسب.",
-        "ملعقة صغيرة من السكر ≈ 16 سعرة، فحاول تقليلها تدريجياً.",
-        "اختره بدل مشروبات القهوة الكبيرة المحلّاة عندما تريد خياراً أخف."
-      ]
-    },
-    "it": {
-      "name": "Espresso",
-      "origin": "Italia",
-      "intro": "L'espresso è un caffè corto e concentrato, ottenuto facendo passare acqua calda sotto pressione attraverso caffè macinato fine. Una tazzina singola è di circa 30 ml, con corpo denso, aroma intenso e uno strato di crema bruno-dorata in superficie. Si beve in fretta, da solo o con un po' di zucchero, ed è la base di molte altre bevande al caffè.",
-      "history": "L'espresso è nato in Italia all'inizio del XX secolo con le prime macchine commerciali che preparavano il caffè con la pressione del vapore. Lo stile moderno con la crema densa si è diffuso dopo la comparsa delle macchine a leva negli anni '40, e il bar dell'espresso è diventato parte della vita quotidiana italiana.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "18 g di caffè macinato fine",
-          "40 ml di acqua",
-          "Zucchero (facoltativo)"
-        ],
-        "steps": [
-          "Riempi il portafiltro con il caffè macinato e pressalo in modo uniforme.",
-          "Aggancialo alla macchina e metti sotto una tazzina riscaldata.",
-          "Estrai per 25–30 secondi fino a ottenere circa 30 ml di espresso.",
-          "Servi subito, con lo zucchero a parte se ti piace."
-        ]
-      },
-      "tips": [
-        "L'espresso liscio è quasi privo di calorie: sono le aggiunte a contare.",
-        "1 cucchiaino di zucchero ≈ 16 kcal; prova a ridurlo gradualmente.",
-        "Ordinalo al posto di grandi bevande al caffè zuccherate quando vuoi un'opzione più leggera."
-      ]
-    },
-    "el": {
-      "name": "Εσπρέσο",
-      "origin": "Ιταλία",
-      "intro": "Ο εσπρέσο είναι ένας μικρός, συμπυκνωμένος καφές που φτιάχνεται περνώντας ζεστό νερό υπό πίεση μέσα από ψιλοαλεσμένο καφέ. Μια μονή δόση είναι περίπου 30 ml, με πυκνό σώμα, έντονο άρωμα και ένα στρώμα χρυσοκάστανης κρέμας στην επιφάνεια. Πίνεται γρήγορα, σκέτος ή με λίγη ζάχαρη, και αποτελεί τη βάση πολλών άλλων ροφημάτων καφέ.",
-      "history": "Ο εσπρέσο αναπτύχθηκε στην Ιταλία στις αρχές του 20ού αιώνα με τις πρώτες επαγγελματικές μηχανές που έφτιαχναν καφέ με πίεση ατμού. Το σύγχρονο στιλ με την πυκνή κρέμα διαδόθηκε μετά την εμφάνιση των μηχανών με μοχλό τη δεκαετία του 1940, και το μπαρ του εσπρέσο έγινε κομμάτι της καθημερινής ιταλικής ζωής.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "18 γρ. ψιλοαλεσμένος καφές",
-          "40 ml νερό",
-          "Ζάχαρη (προαιρετικά)"
-        ],
-        "steps": [
-          "Γεμίστε το φίλτρο (portafiltro) με τον αλεσμένο καφέ και πατήστε τον ομοιόμορφα.",
-          "Κουμπώστε το στη μηχανή και τοποθετήστε από κάτω ένα ζεσταμένο φλιτζάνι.",
-          "Αφήστε την εκχύλιση να διαρκέσει 25–30 δευτερόλεπτα για να πάρετε περίπου 30 ml εσπρέσο.",
-          "Σερβίρετε αμέσως, με ζάχαρη στο πλάι αν θέλετε."
-        ]
-      },
-      "tips": [
-        "Ο σκέτος εσπρέσο δεν έχει σχεδόν καθόλου θερμίδες — αυτό που μετράει είναι όσα προσθέτετε.",
-        "1 κ.γ. ζάχαρη ≈ 16 kcal· δοκιμάστε να τη μειώνετε σταδιακά.",
-        "Προτιμήστε τον αντί για μεγάλα ζαχαρωμένα ροφήματα καφέ όταν θέλετε μια πιο ελαφριά επιλογή."
-      ]
-    },
-    "ru": {
-      "name": "Эспрессо",
-      "origin": "Италия",
-      "intro": "Эспрессо — короткий концентрированный кофе, приготовленный пропусканием горячей воды под давлением через мелко молотый кофе. Одна порция — около 30 мл, с плотным телом, интенсивным ароматом и слоем золотисто-коричневой кремы сверху. Его пьют быстро, без добавок или с небольшим количеством сахара, и он составляет основу многих других кофейных напитков.",
-      "history": "Эспрессо сложился в Италии в начале XX века с появлением первых коммерческих машин, варивших кофе под давлением пара. Современный стиль с густой кремой распространился после появления рычажных машин в 1940-х годах, а эспрессо-бар стал частью повседневной итальянской жизни.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 3,
-        "ingredients": [
-          "18 г мелко молотого кофе",
-          "40 мл воды",
-          "Сахар (по желанию)"
-        ],
-        "steps": [
-          "Наполните холдер молотым кофе и равномерно утрамбуйте.",
-          "Закрепите его в машине и поставьте под него подогретую чашку.",
-          "Экстрагируйте 25–30 секунд, чтобы получить около 30 мл эспрессо.",
-          "Сразу подавайте, при желании с сахаром отдельно."
-        ]
-      },
-      "tips": [
-        "Простой эспрессо почти не содержит калорий — считаются добавки.",
-        "1 ч. л. сахара ≈ 16 ккал; попробуйте сокращать постепенно.",
-        "Заказывайте его вместо больших подслащённых кофейных напитков, когда хотите более лёгкий вариант."
-      ],
-      "name_inline": "эспрессо"
-    }
+  "ar": {
+   "name": "إسبريسو",
+   "origin": "إيطاليا",
+   "intro": "الإسبريسو قهوة قصيرة مركّزة تُحضَّر بدفع الماء الساخن تحت الضغط عبر بن مطحون ناعماً. الجرعة الواحدة نحو 30 مل، كثيفة القوام وقوية الرائحة، تعلوها طبقة كريما ذهبية بنية. تُشرب بسرعة، وحدها أو مع قليل من السكر، وهي أساس كثير من مشروبات القهوة الأخرى.",
+   "history": "نشأ الإسبريسو في إيطاليا في أوائل القرن العشرين مع أولى الآلات التجارية التي تحضّر القهوة بضغط البخار. وانتشر الأسلوب الحديث ذو الكريما الكثيفة بعد ظهور آلات الذراع في الأربعينيات، وأصبح مقهى الإسبريسو جزءاً من الحياة اليومية في إيطاليا.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "18 غ بن مطحون ناعماً",
+     "40 مل ماء",
+     "سكر (اختياري)"
+    ],
+    "steps": [
+     "املأ حامل البن بالقهوة المطحونة واضغطها بالتساوي.",
+     "ثبّته في الآلة وضع تحته فنجاناً دافئاً.",
+     "استخلص القهوة 25–30 ثانية للحصول على نحو 30 مل من الإسبريسو.",
+     "قدّمه فوراً مع السكر جانباً إن رغبت."
+    ]
+   },
+   "tips": [
+    "الإسبريسو السادة شبه خالٍ من السعرات، والإضافات هي ما يُحسب.",
+    "ملعقة صغيرة من السكر ≈ 16 سعرة، فحاول تقليلها تدريجياً.",
+    "اختره بدل مشروبات القهوة الكبيرة المحلّاة عندما تريد خياراً أخف."
+   ]
+  },
+  "it": {
+   "name": "Espresso",
+   "origin": "Italia",
+   "intro": "L'espresso è un caffè corto e concentrato, ottenuto facendo passare acqua calda sotto pressione attraverso caffè macinato fine. Una tazzina singola è di circa 30 ml, con corpo denso, aroma intenso e uno strato di crema bruno-dorata in superficie. Si beve in fretta, da solo o con un po' di zucchero, ed è la base di molte altre bevande al caffè.",
+   "history": "L'espresso è nato in Italia all'inizio del XX secolo con le prime macchine commerciali che preparavano il caffè con la pressione del vapore. Lo stile moderno con la crema densa si è diffuso dopo la comparsa delle macchine a leva negli anni '40, e il bar dell'espresso è diventato parte della vita quotidiana italiana.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "18 g di caffè macinato fine",
+     "40 ml di acqua",
+     "Zucchero (facoltativo)"
+    ],
+    "steps": [
+     "Riempi il portafiltro con il caffè macinato e pressalo in modo uniforme.",
+     "Aggancialo alla macchina e metti sotto una tazzina riscaldata.",
+     "Estrai per 25–30 secondi fino a ottenere circa 30 ml di espresso.",
+     "Servi subito, con lo zucchero a parte se ti piace."
+    ]
+   },
+   "tips": [
+    "L'espresso liscio è quasi privo di calorie: sono le aggiunte a contare.",
+    "1 cucchiaino di zucchero ≈ 16 kcal; prova a ridurlo gradualmente.",
+    "Ordinalo al posto di grandi bevande al caffè zuccherate quando vuoi un'opzione più leggera."
+   ]
+  },
+  "el": {
+   "name": "Εσπρέσο",
+   "origin": "Ιταλία",
+   "intro": "Ο εσπρέσο είναι ένας μικρός, συμπυκνωμένος καφές που φτιάχνεται περνώντας ζεστό νερό υπό πίεση μέσα από ψιλοαλεσμένο καφέ. Μια μονή δόση είναι περίπου 30 ml, με πυκνό σώμα, έντονο άρωμα και ένα στρώμα χρυσοκάστανης κρέμας στην επιφάνεια. Πίνεται γρήγορα, σκέτος ή με λίγη ζάχαρη, και αποτελεί τη βάση πολλών άλλων ροφημάτων καφέ.",
+   "history": "Ο εσπρέσο αναπτύχθηκε στην Ιταλία στις αρχές του 20ού αιώνα με τις πρώτες επαγγελματικές μηχανές που έφτιαχναν καφέ με πίεση ατμού. Το σύγχρονο στιλ με την πυκνή κρέμα διαδόθηκε μετά την εμφάνιση των μηχανών με μοχλό τη δεκαετία του 1940, και το μπαρ του εσπρέσο έγινε κομμάτι της καθημερινής ιταλικής ζωής.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "18 γρ. ψιλοαλεσμένος καφές",
+     "40 ml νερό",
+     "Ζάχαρη (προαιρετικά)"
+    ],
+    "steps": [
+     "Γεμίστε το φίλτρο (portafiltro) με τον αλεσμένο καφέ και πατήστε τον ομοιόμορφα.",
+     "Κουμπώστε το στη μηχανή και τοποθετήστε από κάτω ένα ζεσταμένο φλιτζάνι.",
+     "Αφήστε την εκχύλιση να διαρκέσει 25–30 δευτερόλεπτα για να πάρετε περίπου 30 ml εσπρέσο.",
+     "Σερβίρετε αμέσως, με ζάχαρη στο πλάι αν θέλετε."
+    ]
+   },
+   "tips": [
+    "Ο σκέτος εσπρέσο δεν έχει σχεδόν καθόλου θερμίδες — αυτό που μετράει είναι όσα προσθέτετε.",
+    "1 κ.γ. ζάχαρη ≈ 16 kcal· δοκιμάστε να τη μειώνετε σταδιακά.",
+    "Προτιμήστε τον αντί για μεγάλα ζαχαρωμένα ροφήματα καφέ όταν θέλετε μια πιο ελαφριά επιλογή."
+   ]
+  },
+  "ru": {
+   "name": "Эспрессо",
+   "origin": "Италия",
+   "intro": "Эспрессо — короткий концентрированный кофе, приготовленный пропусканием горячей воды под давлением через мелко молотый кофе. Одна порция — около 30 мл, с плотным телом, интенсивным ароматом и слоем золотисто-коричневой кремы сверху. Его пьют быстро, без добавок или с небольшим количеством сахара, и он составляет основу многих других кофейных напитков.",
+   "history": "Эспрессо сложился в Италии в начале XX века с появлением первых коммерческих машин, варивших кофе под давлением пара. Современный стиль с густой кремой распространился после появления рычажных машин в 1940-х годах, а эспрессо-бар стал частью повседневной итальянской жизни.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "18 г мелко молотого кофе",
+     "40 мл воды",
+     "Сахар (по желанию)"
+    ],
+    "steps": [
+     "Наполните холдер молотым кофе и равномерно утрамбуйте.",
+     "Закрепите его в машине и поставьте под него подогретую чашку.",
+     "Экстрагируйте 25–30 секунд, чтобы получить около 30 мл эспрессо.",
+     "Сразу подавайте, при желании с сахаром отдельно."
+    ]
+   },
+   "tips": [
+    "Простой эспрессо почти не содержит калорий — считаются добавки.",
+    "1 ч. л. сахара ≈ 16 ккал; попробуйте сокращать постепенно.",
+    "Заказывайте его вместо больших подслащённых кофейных напитков, когда хотите более лёгкий вариант."
+   ],
+   "name_inline": "эспрессо"
+  },
+  "es": {
+   "name": "Espresso",
+   "origin": "Italia",
+   "intro": "El espresso es un café corto y concentrado que se obtiene haciendo pasar agua caliente a presión por café finamente molido. Un solo shot es de unos 30 ml, con cuerpo denso, aroma intenso y una capa de crema dorada en la superficie. Se toma rápido, solo o con un poco de azúcar, y es la base de muchas otras bebidas de café.",
+   "history": "El espresso se desarrolló en Italia a principios del siglo XX con las primeras máquinas comerciales que preparaban el café con presión de vapor. El estilo moderno con crema espesa se extendió después de la aparición de las máquinas de palanca en la década de 1940, y el bar de espresso pasó a formar parte de la vida cotidiana italiana.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 3,
+    "ingredients": [
+     "18 g de café finamente molido",
+     "40 ml de agua",
+     "Azúcar (opcional)"
+    ],
+    "steps": [
+     "Llena el portafiltro con el café molido y compáctalo de manera uniforme.",
+     "Colócalo en la máquina y pon debajo una taza precalentada.",
+     "Extrae durante 25–30 segundos para obtener unos 30 ml de espresso.",
+     "Sirve de inmediato, con el azúcar aparte si quieres."
+    ]
+   },
+   "tips": [
+    "El espresso solo casi no tiene calorías: lo que cuenta son los añadidos.",
+    "1 cdta. de azúcar ≈ 16 kcal; intenta reducirla poco a poco.",
+    "Pídelo en lugar de bebidas de café grandes y endulzadas cuando quieras una opción más ligera."
+   ],
+   "name_inline": "el espresso"
   }
+ }
 }
