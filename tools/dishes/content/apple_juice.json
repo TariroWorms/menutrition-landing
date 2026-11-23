@@ -1,142 +1,168 @@
 {
-  "db_key": "apple_juice",
-  "slug": "apple-juice",
-  "emoji": "🧃",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "apple_juice",
+ "slug": "apple-juice",
+ "emoji": "🧃",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Apple juice",
+   "origin": "Worldwide",
+   "intro": "Apple juice is the pressed juice of fresh apples, sold either clear and filtered or cloudy with some of the fruit pulp left in. It tastes sweet and mildly tart, with no added sugar needed. It is served chilled on its own, at breakfast or as a base for other drinks.",
+   "history": "Apples have been pressed for juice wherever they are grown, and today the drink is made and sold around the world, often blended from several apple varieties.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "1 kg sweet, juicy apples",
+     "1 tsp lemon juice",
+     "Ice cubes, to serve"
+    ],
+    "steps": [
+     "Wash the apples, cut them into quarters and remove the cores.",
+     "Run them through a juicer, or blend with a splash of water and strain through a fine sieve or cloth, pressing well.",
+     "Stir in the lemon juice to keep the colour bright and serve straight away over ice."
+    ]
+   },
+   "tips": [
+    "A 250 ml glass is about 115 kcal — roughly the same as a large apple, but far less filling.",
+    "Dilute it half and half with sparkling water: the same glass, about half the calories.",
+    "Choose a small 150 ml glass with a meal rather than drinking juice between meals."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Apple juice",
-      "origin": "Worldwide",
-      "intro": "Apple juice is the pressed juice of fresh apples, sold either clear and filtered or cloudy with some of the fruit pulp left in. It tastes sweet and mildly tart, with no added sugar needed. It is served chilled on its own, at breakfast or as a base for other drinks.",
-      "history": "Apples have been pressed for juice wherever they are grown, and today the drink is made and sold around the world, often blended from several apple varieties.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "1 kg sweet, juicy apples",
-          "1 tsp lemon juice",
-          "Ice cubes, to serve"
-        ],
-        "steps": [
-          "Wash the apples, cut them into quarters and remove the cores.",
-          "Run them through a juicer, or blend with a splash of water and strain through a fine sieve or cloth, pressing well.",
-          "Stir in the lemon juice to keep the colour bright and serve straight away over ice."
-        ]
-      },
-      "tips": [
-        "A 250 ml glass is about 115 kcal — roughly the same as a large apple, but far less filling.",
-        "Dilute it half and half with sparkling water: the same glass, about half the calories.",
-        "Choose a small 150 ml glass with a meal rather than drinking juice between meals."
-      ]
-    },
-    "ar": {
-      "name": "عصير تفاح",
-      "origin": "حول العالم",
-      "intro": "عصير التفاح هو عصارة التفاح الطازج المعصور، ويُباع إما صافيًا ومُصفّى أو عكرًا يحتفظ بجزء من لبّ الفاكهة. طعمه حلو مع حموضة خفيفة ولا يحتاج إلى سكر مضاف. يُقدَّم باردًا وحده أو مع الفطور أو كأساس لمشروبات أخرى.",
-      "history": "يُعصر التفاح أينما زُرع، ويُصنع هذا المشروب اليوم ويُباع في أنحاء العالم، وغالبًا ما يُمزج من عدة أصناف من التفاح.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "1 كغ تفاح حلو وكثير العصارة",
-          "1 ملعقة صغيرة عصير ليمون",
-          "مكعبات ثلج للتقديم"
-        ],
-        "steps": [
-          "اغسل التفاح وقطّعه أرباعًا وانزع البذور.",
-          "مرّره في العصّارة، أو اخلطه في الخلاط مع قليل من الماء ثم صفّه عبر مصفاة ناعمة أو قطعة قماش مع الضغط جيدًا.",
-          "أضف عصير الليمون ليحافظ على لونه الزاهي، وقدّمه فورًا فوق الثلج."
-        ]
-      },
-      "tips": [
-        "كوب بحجم 250 مل يعادل نحو 115 سعرة — أي ما يقارب تفاحة كبيرة، لكنه أقل إشباعًا بكثير.",
-        "خفّفه مناصفةً بالماء الفوار: الكوب نفسه بنحو نصف السعرات.",
-        "اختر كوبًا صغيرًا بحجم 150 مل مع الوجبة بدلًا من شرب العصير بين الوجبات."
-      ]
-    },
-    "it": {
-      "name": "Succo di mela",
-      "name_inline": "succo di mela",
-      "origin": "Tutto il mondo",
-      "intro": "Il succo di mela è il succo spremuto da mele fresche, venduto limpido e filtrato oppure torbido, con una parte della polpa del frutto. Ha un gusto dolce e leggermente acidulo e non ha bisogno di zucchero aggiunto. Si serve freddo da solo, a colazione o come base per altre bevande.",
-      "history": "Le mele vengono spremute per farne succo ovunque si coltivino, e oggi la bevanda si produce e si vende in tutto il mondo, spesso miscelando diverse varietà di mele.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "1 kg di mele dolci e succose",
-          "1 cucchiaino di succo di limone",
-          "Cubetti di ghiaccio, per servire"
-        ],
-        "steps": [
-          "Lava le mele, tagliale in quarti ed elimina i torsoli.",
-          "Passale nella centrifuga, oppure frullale con un goccio d'acqua e filtrale con un colino fine o un telo, premendo bene.",
-          "Unisci il succo di limone per mantenere vivo il colore e servi subito con ghiaccio."
-        ]
-      },
-      "tips": [
-        "Un bicchiere da 250 ml ha circa 115 kcal: più o meno quanto una mela grande, ma sazia molto meno.",
-        "Diluiscilo a metà con acqua frizzante: stesso bicchiere, circa metà delle calorie.",
-        "Scegli un bicchiere piccolo da 150 ml durante un pasto invece di bere succo fuori pasto."
-      ]
-    },
-    "el": {
-      "name": "Χυμός μήλου",
-      "name_inline": "χυμός μήλου",
-      "origin": "Παγκοσμίως",
-      "intro": "Ο χυμός μήλου είναι ο στυμμένος χυμός φρέσκων μήλων και πουλιέται είτε διαυγής και φιλτραρισμένος είτε θολός, με λίγη από τη σάρκα του φρούτου. Έχει γλυκιά και ελαφρώς ξινή γεύση και δεν χρειάζεται πρόσθετη ζάχαρη. Σερβίρεται κρύος σκέτος, στο πρωινό ή ως βάση για άλλα ποτά.",
-      "history": "Τα μήλα στύβονται για χυμό όπου κι αν καλλιεργούνται, και σήμερα το ρόφημα παρασκευάζεται και πουλιέται σε όλο τον κόσμο, συχνά από ανάμειξη πολλών ποικιλιών μήλου.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "1 κιλό γλυκά, ζουμερά μήλα",
-          "1 κ.γ. χυμός λεμονιού",
-          "Παγάκια, για το σερβίρισμα"
-        ],
-        "steps": [
-          "Πλύνετε τα μήλα, κόψτε τα στα τέσσερα και αφαιρέστε τα κουκούτσια.",
-          "Περάστε τα από αποχυμωτή ή χτυπήστε τα στο μπλέντερ με λίγο νερό και σουρώστε από ψιλό σουρωτήρι ή πανί, πιέζοντας καλά.",
-          "Ανακατέψτε τον χυμό λεμονιού για να μείνει ζωηρό το χρώμα και σερβίρετε αμέσως με παγάκια."
-        ]
-      },
-      "tips": [
-        "Ένα ποτήρι 250 ml έχει περίπου 115 kcal — περίπου όσο ένα μεγάλο μήλο, αλλά χορταίνει πολύ λιγότερο.",
-        "Αραιώστε τον μισό-μισό με ανθρακούχο νερό: ίδιο ποτήρι, περίπου οι μισές θερμίδες.",
-        "Προτιμήστε ένα μικρό ποτήρι 150 ml με το φαγητό αντί να πίνετε χυμό ανάμεσα στα γεύματα."
-      ]
-    },
-    "ru": {
-      "name": "Яблочный сок",
-      "origin": "По всему миру",
-      "intro": "Яблочный сок — отжатый сок свежих яблок, который продают либо прозрачным и отфильтрованным, либо мутным, с частью мякоти. На вкус он сладкий и слегка кисловатый, добавлять сахар не нужно. Его подают охлаждённым самостоятельно, на завтрак или как основу для других напитков.",
-      "history": "Яблоки отжимают на сок везде, где их выращивают, и сегодня напиток делают и продают по всему миру, часто смешивая несколько сортов яблок.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "1 кг сладких сочных яблок",
-          "1 ч. л. лимонного сока",
-          "Кубики льда для подачи"
-        ],
-        "steps": [
-          "Вымойте яблоки, разрежьте на четвертинки и удалите сердцевину.",
-          "Пропустите через соковыжималку или взбейте блендером с небольшим количеством воды и процедите через мелкое сито или ткань, хорошо отжимая.",
-          "Вмешайте лимонный сок, чтобы сохранить яркий цвет, и сразу подавайте со льдом."
-        ]
-      },
-      "tips": [
-        "Стакан 250 мл — около 115 ккал, примерно как большое яблоко, но насыщает гораздо меньше.",
-        "Разбавьте его пополам с газированной водой: тот же стакан, примерно вдвое меньше калорий.",
-        "Выбирайте небольшой стакан в 150 мл к еде, а не пейте сок между приёмами пищи."
-      ],
-      "name_inline": "яблочный сок"
-    }
+  "ar": {
+   "name": "عصير تفاح",
+   "origin": "حول العالم",
+   "intro": "عصير التفاح هو عصارة التفاح الطازج المعصور، ويُباع إما صافيًا ومُصفّى أو عكرًا يحتفظ بجزء من لبّ الفاكهة. طعمه حلو مع حموضة خفيفة ولا يحتاج إلى سكر مضاف. يُقدَّم باردًا وحده أو مع الفطور أو كأساس لمشروبات أخرى.",
+   "history": "يُعصر التفاح أينما زُرع، ويُصنع هذا المشروب اليوم ويُباع في أنحاء العالم، وغالبًا ما يُمزج من عدة أصناف من التفاح.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "1 كغ تفاح حلو وكثير العصارة",
+     "1 ملعقة صغيرة عصير ليمون",
+     "مكعبات ثلج للتقديم"
+    ],
+    "steps": [
+     "اغسل التفاح وقطّعه أرباعًا وانزع البذور.",
+     "مرّره في العصّارة، أو اخلطه في الخلاط مع قليل من الماء ثم صفّه عبر مصفاة ناعمة أو قطعة قماش مع الضغط جيدًا.",
+     "أضف عصير الليمون ليحافظ على لونه الزاهي، وقدّمه فورًا فوق الثلج."
+    ]
+   },
+   "tips": [
+    "كوب بحجم 250 مل يعادل نحو 115 سعرة — أي ما يقارب تفاحة كبيرة، لكنه أقل إشباعًا بكثير.",
+    "خفّفه مناصفةً بالماء الفوار: الكوب نفسه بنحو نصف السعرات.",
+    "اختر كوبًا صغيرًا بحجم 150 مل مع الوجبة بدلًا من شرب العصير بين الوجبات."
+   ]
+  },
+  "it": {
+   "name": "Succo di mela",
+   "name_inline": "succo di mela",
+   "origin": "Tutto il mondo",
+   "intro": "Il succo di mela è il succo spremuto da mele fresche, venduto limpido e filtrato oppure torbido, con una parte della polpa del frutto. Ha un gusto dolce e leggermente acidulo e non ha bisogno di zucchero aggiunto. Si serve freddo da solo, a colazione o come base per altre bevande.",
+   "history": "Le mele vengono spremute per farne succo ovunque si coltivino, e oggi la bevanda si produce e si vende in tutto il mondo, spesso miscelando diverse varietà di mele.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "1 kg di mele dolci e succose",
+     "1 cucchiaino di succo di limone",
+     "Cubetti di ghiaccio, per servire"
+    ],
+    "steps": [
+     "Lava le mele, tagliale in quarti ed elimina i torsoli.",
+     "Passale nella centrifuga, oppure frullale con un goccio d'acqua e filtrale con un colino fine o un telo, premendo bene.",
+     "Unisci il succo di limone per mantenere vivo il colore e servi subito con ghiaccio."
+    ]
+   },
+   "tips": [
+    "Un bicchiere da 250 ml ha circa 115 kcal: più o meno quanto una mela grande, ma sazia molto meno.",
+    "Diluiscilo a metà con acqua frizzante: stesso bicchiere, circa metà delle calorie.",
+    "Scegli un bicchiere piccolo da 150 ml durante un pasto invece di bere succo fuori pasto."
+   ]
+  },
+  "el": {
+   "name": "Χυμός μήλου",
+   "name_inline": "χυμός μήλου",
+   "origin": "Παγκοσμίως",
+   "intro": "Ο χυμός μήλου είναι ο στυμμένος χυμός φρέσκων μήλων και πουλιέται είτε διαυγής και φιλτραρισμένος είτε θολός, με λίγη από τη σάρκα του φρούτου. Έχει γλυκιά και ελαφρώς ξινή γεύση και δεν χρειάζεται πρόσθετη ζάχαρη. Σερβίρεται κρύος σκέτος, στο πρωινό ή ως βάση για άλλα ποτά.",
+   "history": "Τα μήλα στύβονται για χυμό όπου κι αν καλλιεργούνται, και σήμερα το ρόφημα παρασκευάζεται και πουλιέται σε όλο τον κόσμο, συχνά από ανάμειξη πολλών ποικιλιών μήλου.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "1 κιλό γλυκά, ζουμερά μήλα",
+     "1 κ.γ. χυμός λεμονιού",
+     "Παγάκια, για το σερβίρισμα"
+    ],
+    "steps": [
+     "Πλύνετε τα μήλα, κόψτε τα στα τέσσερα και αφαιρέστε τα κουκούτσια.",
+     "Περάστε τα από αποχυμωτή ή χτυπήστε τα στο μπλέντερ με λίγο νερό και σουρώστε από ψιλό σουρωτήρι ή πανί, πιέζοντας καλά.",
+     "Ανακατέψτε τον χυμό λεμονιού για να μείνει ζωηρό το χρώμα και σερβίρετε αμέσως με παγάκια."
+    ]
+   },
+   "tips": [
+    "Ένα ποτήρι 250 ml έχει περίπου 115 kcal — περίπου όσο ένα μεγάλο μήλο, αλλά χορταίνει πολύ λιγότερο.",
+    "Αραιώστε τον μισό-μισό με ανθρακούχο νερό: ίδιο ποτήρι, περίπου οι μισές θερμίδες.",
+    "Προτιμήστε ένα μικρό ποτήρι 150 ml με το φαγητό αντί να πίνετε χυμό ανάμεσα στα γεύματα."
+   ]
+  },
+  "ru": {
+   "name": "Яблочный сок",
+   "origin": "По всему миру",
+   "intro": "Яблочный сок — отжатый сок свежих яблок, который продают либо прозрачным и отфильтрованным, либо мутным, с частью мякоти. На вкус он сладкий и слегка кисловатый, добавлять сахар не нужно. Его подают охлаждённым самостоятельно, на завтрак или как основу для других напитков.",
+   "history": "Яблоки отжимают на сок везде, где их выращивают, и сегодня напиток делают и продают по всему миру, часто смешивая несколько сортов яблок.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "1 кг сладких сочных яблок",
+     "1 ч. л. лимонного сока",
+     "Кубики льда для подачи"
+    ],
+    "steps": [
+     "Вымойте яблоки, разрежьте на четвертинки и удалите сердцевину.",
+     "Пропустите через соковыжималку или взбейте блендером с небольшим количеством воды и процедите через мелкое сито или ткань, хорошо отжимая.",
+     "Вмешайте лимонный сок, чтобы сохранить яркий цвет, и сразу подавайте со льдом."
+    ]
+   },
+   "tips": [
+    "Стакан 250 мл — около 115 ккал, примерно как большое яблоко, но насыщает гораздо меньше.",
+    "Разбавьте его пополам с газированной водой: тот же стакан, примерно вдвое меньше калорий.",
+    "Выбирайте небольшой стакан в 150 мл к еде, а не пейте сок между приёмами пищи."
+   ],
+   "name_inline": "яблочный сок"
+  },
+  "es": {
+   "name": "Jugo de manzana",
+   "origin": "Mundial",
+   "intro": "El jugo de manzana es el jugo prensado de manzanas frescas, que se vende claro y filtrado o turbio, con parte de la pulpa. Tiene un sabor dulce y ligeramente ácido, sin necesidad de azúcar añadida. Se sirve frío solo, en el desayuno o como base para otras bebidas.",
+   "history": "Las manzanas se prensan para obtener jugo dondequiera que se cultivan, y hoy la bebida se elabora y se vende en todo el mundo, a menudo con una mezcla de varias variedades de manzana.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "1 kg de manzanas dulces y jugosas",
+     "1 cdta. de jugo de limón",
+     "Cubos de hielo, para servir"
+    ],
+    "steps": [
+     "Lava las manzanas, córtalas en cuartos y quita el corazón.",
+     "Pásalas por un extractor de jugo, o licúalas con un chorrito de agua y cuela con un colador fino o un paño, presionando bien.",
+     "Agrega el jugo de limón para mantener el color vivo y sirve de inmediato sobre hielo."
+    ]
+   },
+   "tips": [
+    "Un vaso de 250 ml aporta unas 115 kcal, casi lo mismo que una manzana grande, pero sacia mucho menos.",
+    "Dilúyelo mitad y mitad con agua con gas: el mismo vaso, con la mitad de calorías.",
+    "Elige un vaso pequeño de 150 ml con la comida en lugar de tomar jugo entre comidas."
+   ],
+   "name_inline": "el jugo de manzana"
   }
+ }
 }

@@ -1,160 +1,190 @@
 {
-  "db_key": "tteokbokki",
-  "slug": "tteokbokki",
-  "emoji": "🌶️",
-  "portion_g": 300,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tteokbokki",
+ "slug": "tteokbokki",
+ "emoji": "🌶️",
+ "portion_g": 300,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tteokbokki",
+   "origin": "South Korea · Seoul",
+   "intro": "Tteokbokki is Korea's favourite street snack: cylinders of chewy rice cake simmered in a thick, glossy sauce of gochujang (fermented chilli paste) and sugar, with slices of fish cake and spring onion. The sauce is sweet, spicy and sticky, and the rice cakes are soft yet springy. It is sold from street stalls and eaten hot with toothpicks or a fork.",
+   "history": "An older, soy-seasoned version called gungjung tteokbokki was eaten at the Korean royal court. The spicy red gochujang version is usually credited to street vendors in Seoul's Sindang-dong in the 1950s, and it became a national street food in the following decades.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "500 g cylinder rice cakes (tteok)",
+     "150 g fish cakes, sliced",
+     "3 tbsp gochujang",
+     "1.5 tbsp sugar",
+     "500 ml water",
+     "3 spring onions, cut into pieces"
+    ],
+    "steps": [
+     "If the rice cakes are hard, soak them in warm water for 10 minutes.",
+     "Bring the water to a boil and stir in the gochujang and sugar.",
+     "Add the rice cakes and fish cakes and simmer for 8–10 minutes, stirring, until the sauce thickens.",
+     "Add the spring onion, cook for 1 more minute and serve hot."
+    ]
+   },
+   "tips": [
+    "Rice cakes are dense in carbohydrate; share a plate or take about 200 g as a snack.",
+    "Add cabbage or onion to the pan for more volume.",
+    "Use less sugar in the sauce; the gochujang already adds sweetness."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tteokbokki",
-      "origin": "South Korea · Seoul",
-      "intro": "Tteokbokki is Korea's favourite street snack: cylinders of chewy rice cake simmered in a thick, glossy sauce of gochujang (fermented chilli paste) and sugar, with slices of fish cake and spring onion. The sauce is sweet, spicy and sticky, and the rice cakes are soft yet springy. It is sold from street stalls and eaten hot with toothpicks or a fork.",
-      "history": "An older, soy-seasoned version called gungjung tteokbokki was eaten at the Korean royal court. The spicy red gochujang version is usually credited to street vendors in Seoul's Sindang-dong in the 1950s, and it became a national street food in the following decades.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "500 g cylinder rice cakes (tteok)",
-          "150 g fish cakes, sliced",
-          "3 tbsp gochujang",
-          "1.5 tbsp sugar",
-          "500 ml water",
-          "3 spring onions, cut into pieces"
-        ],
-        "steps": [
-          "If the rice cakes are hard, soak them in warm water for 10 minutes.",
-          "Bring the water to a boil and stir in the gochujang and sugar.",
-          "Add the rice cakes and fish cakes and simmer for 8–10 minutes, stirring, until the sauce thickens.",
-          "Add the spring onion, cook for 1 more minute and serve hot."
-        ]
-      },
-      "tips": [
-        "Rice cakes are dense in carbohydrate; share a plate or take about 200 g as a snack.",
-        "Add cabbage or onion to the pan for more volume.",
-        "Use less sugar in the sauce; the gochujang already adds sweetness."
-      ]
-    },
-    "ar": {
-      "name": "توك بوكي",
-      "origin": "كوريا الجنوبية · سيول",
-      "intro": "التوك بوكي وجبة الشارع المفضلة في كوريا: أسطوانات من كعك الأرز المطاطي تُطهى في صلصة كثيفة لامعة من الغوتشوجانغ (معجون الفلفل الحار المخمر) والسكر، مع شرائح كعك السمك والبصل الأخضر. الصلصة حلوة وحارة ولزجة، وكعك الأرز طري ومرن. يُباع في أكشاك الشارع ويؤكل ساخنًا بأعواد الأسنان أو الشوكة.",
-      "history": "كانت نسخة أقدم متبّلة بالصويا تُسمّى «غونغجونغ توك بوكي» تُؤكل في البلاط الملكي الكوري. أما النسخة الحمراء الحارة بالغوتشوجانغ فتُنسب عادة إلى باعة الشارع في حي سيندانغ دونغ في سيول في خمسينيات القرن العشرين، وأصبحت أكلة شارع وطنية في العقود التالية.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "500 غ كعك أرز أسطواني (تتوك)",
-          "150 غ كعك سمك مقطع",
-          "3 ملاعق كبيرة غوتشوجانغ",
-          "1.5 ملعقة كبيرة سكر",
-          "500 مل ماء",
-          "3 أعواد بصل أخضر مقطعة"
-        ],
-        "steps": [
-          "إذا كان كعك الأرز قاسيًا فانقعه في ماء دافئ 10 دقائق.",
-          "اغلِ الماء وأذب فيه الغوتشوجانغ والسكر.",
-          "أضف كعك الأرز وكعك السمك واتركه يغلي بهدوء 8–10 دقائق مع التحريك حتى تتكثف الصلصة.",
-          "أضف البصل الأخضر واطهه دقيقة أخرى وقدّمه ساخنًا."
-        ]
-      },
-      "tips": [
-        "كعك الأرز غني بالكربوهيدرات، فشارك الطبق أو تناول نحو 200 غ كوجبة خفيفة.",
-        "أضف الملفوف أو البصل إلى القدر لزيادة الحجم.",
-        "قلّل السكر في الصلصة، فالغوتشوجانغ يضيف حلاوة أصلًا."
-      ]
-    },
-    "it": {
-      "name": "Tteokbokki",
-      "origin": "Corea del Sud · Seul",
-      "intro": "Il tteokbokki è lo street food preferito della Corea: cilindretti di gnocchi di riso gommosi cotti a fuoco lento in una salsa densa e lucida di gochujang (pasta di peperoncino fermentata) e zucchero, con fette di fish cake e cipollotto. La salsa è dolce, piccante e appiccicosa, e i gnocchi di riso sono morbidi ma elastici. Si vende nei chioschi di strada e si mangia caldo con stuzzicadenti o una forchetta.",
-      "history": "Una versione più antica, condita con salsa di soia e chiamata gungjung tteokbokki, si mangiava alla corte reale coreana. La versione rossa e piccante al gochujang viene di solito attribuita ai venditori ambulanti del quartiere Sindang-dong di Seul negli anni '50, ed è diventata uno street food nazionale nei decenni successivi.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "500 g di gnocchi di riso cilindrici (tteok)",
-          "150 g di fish cake, a fette",
-          "3 cucchiai di gochujang",
-          "1,5 cucchiai di zucchero",
-          "500 ml di acqua",
-          "3 cipollotti, a pezzi"
-        ],
-        "steps": [
-          "Se i gnocchi di riso sono duri, mettili a bagno in acqua tiepida per 10 minuti.",
-          "Porta l'acqua a ebollizione e incorpora il gochujang e lo zucchero.",
-          "Aggiungi i gnocchi di riso e le fish cake e lascia sobbollire per 8–10 minuti, mescolando, finché la salsa si addensa.",
-          "Aggiungi il cipollotto, cuoci ancora 1 minuto e servi caldo."
-        ]
-      },
-      "tips": [
-        "I gnocchi di riso sono ricchi di carboidrati; dividi il piatto o prendine circa 200 g come spuntino.",
-        "Aggiungi cavolo o cipolla in padella per avere più volume.",
-        "Usa meno zucchero nella salsa; il gochujang è già dolce."
-      ]
-    },
-    "el": {
-      "name": "Τοκμπόκι",
-      "origin": "Νότια Κορέα · Σεούλ",
-      "intro": "Το τοκμπόκι είναι το αγαπημένο φαγητό δρόμου της Κορέας: κυλινδράκια από μαστιχωτά ρυζοκέικ σιγοβρασμένα σε πηχτή, γυαλιστερή σάλτσα από γκοτσουτζάνγκ (ζυμωμένη πάστα τσίλι) και ζάχαρη, με φέτες ψαροκεφτέ και φρέσκο κρεμμυδάκι. Η σάλτσα είναι γλυκιά, καυτερή και κολλώδης, και τα ρυζοκέικ μαλακά αλλά ελαστικά. Πωλείται σε πάγκους στον δρόμο και τρώγεται ζεστό με οδοντογλυφίδες ή πιρούνι.",
-      "history": "Μια παλαιότερη εκδοχή με σόγια, το γκουνγκτζούνγκ τοκμπόκι, τρωγόταν στην κορεατική βασιλική αυλή. Η καυτερή κόκκινη εκδοχή με γκοτσουτζάνγκ αποδίδεται συνήθως σε πλανόδιους πωλητές της συνοικίας Σιντάνγκ-ντονγκ της Σεούλ τη δεκαετία του 1950 και έγινε εθνικό φαγητό δρόμου τις επόμενες δεκαετίες.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "500 γρ. κυλινδρικά ρυζοκέικ (τοκ)",
-          "150 γρ. ψαροκεφτέδες, σε φέτες",
-          "3 κ.σ. γκοτσουτζάνγκ",
-          "1,5 κ.σ. ζάχαρη",
-          "500 ml νερό",
-          "3 φρέσκα κρεμμυδάκια, σε κομμάτια"
-        ],
-        "steps": [
-          "Αν τα ρυζοκέικ είναι σκληρά, μουλιάστε τα σε χλιαρό νερό για 10 λεπτά.",
-          "Βράστε το νερό και διαλύστε μέσα το γκοτσουτζάνγκ και τη ζάχαρη.",
-          "Προσθέστε τα ρυζοκέικ και τους ψαροκεφτέδες και σιγοβράστε για 8–10 λεπτά, ανακατεύοντας, μέχρι να δέσει η σάλτσα.",
-          "Προσθέστε το κρεμμυδάκι, μαγειρέψτε για 1 λεπτό ακόμη και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Τα ρυζοκέικ είναι πλούσια σε υδατάνθρακες· μοιραστείτε το πιάτο ή πάρτε περίπου 200 γρ. ως σνακ.",
-        "Προσθέστε λάχανο ή κρεμμύδι στο τηγάνι για περισσότερο όγκο.",
-        "Βάλτε λιγότερη ζάχαρη στη σάλτσα· το γκοτσουτζάνγκ ήδη δίνει γλυκύτητα."
-      ]
-    },
-    "ru": {
-      "name": "Ттокпокки",
-      "origin": "Южная Корея · Сеул",
-      "intro": "Ттокпокки — любимая корейская уличная закуска: цилиндры упругих рисовых клецок, тушёные в густом блестящем соусе из кочхуджана (ферментированной пасты чили) и сахара, с ломтиками рыбных котлет и зелёным луком. Соус сладкий, острый и липкий, а рисовые клецки мягкие, но упругие. Их продают в уличных лавках и едят горячими зубочистками или вилкой.",
-      "history": "Более старая версия с соевой приправой, называемая кунджун ттокпокки, подавалась при корейском королевском дворе. Острую красную версию с кочхуджаном обычно приписывают уличным торговцам района Синдан-дон в Сеуле в 1950-х годах, а в последующие десятилетия она стала общенациональной уличной едой.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "500 г рисовых клецок-цилиндров (тток)",
-          "150 г рыбных котлет, нарезанных",
-          "3 ст. л. кочхуджана",
-          "1,5 ст. л. сахара",
-          "500 мл воды",
-          "3 стебля зелёного лука, нарезанного кусочками"
-        ],
-        "steps": [
-          "Если рисовые клецки твёрдые, замочите их в тёплой воде на 10 минут.",
-          "Доведите воду до кипения и добавьте кочхуджан и сахар, перемешав.",
-          "Добавьте рисовые клецки и рыбные котлеты и тушите 8–10 минут, помешивая, пока соус не загустеет.",
-          "Добавьте зелёный лук, готовьте ещё 1 минуту и подавайте горячим."
-        ]
-      },
-      "tips": [
-        "Рисовые клецки богаты углеводами; разделите тарелку на двоих или возьмите около 200 г как закуску.",
-        "Добавьте в сковороду капусту или лук для большего объёма.",
-        "Кладите в соус меньше сахара; кочхуджан уже даёт сладость."
-      ],
-      "name_inline": "ттокпокки"
-    }
+  "ar": {
+   "name": "توك بوكي",
+   "origin": "كوريا الجنوبية · سيول",
+   "intro": "التوك بوكي وجبة الشارع المفضلة في كوريا: أسطوانات من كعك الأرز المطاطي تُطهى في صلصة كثيفة لامعة من الغوتشوجانغ (معجون الفلفل الحار المخمر) والسكر، مع شرائح كعك السمك والبصل الأخضر. الصلصة حلوة وحارة ولزجة، وكعك الأرز طري ومرن. يُباع في أكشاك الشارع ويؤكل ساخنًا بأعواد الأسنان أو الشوكة.",
+   "history": "كانت نسخة أقدم متبّلة بالصويا تُسمّى «غونغجونغ توك بوكي» تُؤكل في البلاط الملكي الكوري. أما النسخة الحمراء الحارة بالغوتشوجانغ فتُنسب عادة إلى باعة الشارع في حي سيندانغ دونغ في سيول في خمسينيات القرن العشرين، وأصبحت أكلة شارع وطنية في العقود التالية.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "500 غ كعك أرز أسطواني (تتوك)",
+     "150 غ كعك سمك مقطع",
+     "3 ملاعق كبيرة غوتشوجانغ",
+     "1.5 ملعقة كبيرة سكر",
+     "500 مل ماء",
+     "3 أعواد بصل أخضر مقطعة"
+    ],
+    "steps": [
+     "إذا كان كعك الأرز قاسيًا فانقعه في ماء دافئ 10 دقائق.",
+     "اغلِ الماء وأذب فيه الغوتشوجانغ والسكر.",
+     "أضف كعك الأرز وكعك السمك واتركه يغلي بهدوء 8–10 دقائق مع التحريك حتى تتكثف الصلصة.",
+     "أضف البصل الأخضر واطهه دقيقة أخرى وقدّمه ساخنًا."
+    ]
+   },
+   "tips": [
+    "كعك الأرز غني بالكربوهيدرات، فشارك الطبق أو تناول نحو 200 غ كوجبة خفيفة.",
+    "أضف الملفوف أو البصل إلى القدر لزيادة الحجم.",
+    "قلّل السكر في الصلصة، فالغوتشوجانغ يضيف حلاوة أصلًا."
+   ]
+  },
+  "it": {
+   "name": "Tteokbokki",
+   "origin": "Corea del Sud · Seul",
+   "intro": "Il tteokbokki è lo street food preferito della Corea: cilindretti di gnocchi di riso gommosi cotti a fuoco lento in una salsa densa e lucida di gochujang (pasta di peperoncino fermentata) e zucchero, con fette di fish cake e cipollotto. La salsa è dolce, piccante e appiccicosa, e i gnocchi di riso sono morbidi ma elastici. Si vende nei chioschi di strada e si mangia caldo con stuzzicadenti o una forchetta.",
+   "history": "Una versione più antica, condita con salsa di soia e chiamata gungjung tteokbokki, si mangiava alla corte reale coreana. La versione rossa e piccante al gochujang viene di solito attribuita ai venditori ambulanti del quartiere Sindang-dong di Seul negli anni '50, ed è diventata uno street food nazionale nei decenni successivi.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "500 g di gnocchi di riso cilindrici (tteok)",
+     "150 g di fish cake, a fette",
+     "3 cucchiai di gochujang",
+     "1,5 cucchiai di zucchero",
+     "500 ml di acqua",
+     "3 cipollotti, a pezzi"
+    ],
+    "steps": [
+     "Se i gnocchi di riso sono duri, mettili a bagno in acqua tiepida per 10 minuti.",
+     "Porta l'acqua a ebollizione e incorpora il gochujang e lo zucchero.",
+     "Aggiungi i gnocchi di riso e le fish cake e lascia sobbollire per 8–10 minuti, mescolando, finché la salsa si addensa.",
+     "Aggiungi il cipollotto, cuoci ancora 1 minuto e servi caldo."
+    ]
+   },
+   "tips": [
+    "I gnocchi di riso sono ricchi di carboidrati; dividi il piatto o prendine circa 200 g come spuntino.",
+    "Aggiungi cavolo o cipolla in padella per avere più volume.",
+    "Usa meno zucchero nella salsa; il gochujang è già dolce."
+   ]
+  },
+  "el": {
+   "name": "Τοκμπόκι",
+   "origin": "Νότια Κορέα · Σεούλ",
+   "intro": "Το τοκμπόκι είναι το αγαπημένο φαγητό δρόμου της Κορέας: κυλινδράκια από μαστιχωτά ρυζοκέικ σιγοβρασμένα σε πηχτή, γυαλιστερή σάλτσα από γκοτσουτζάνγκ (ζυμωμένη πάστα τσίλι) και ζάχαρη, με φέτες ψαροκεφτέ και φρέσκο κρεμμυδάκι. Η σάλτσα είναι γλυκιά, καυτερή και κολλώδης, και τα ρυζοκέικ μαλακά αλλά ελαστικά. Πωλείται σε πάγκους στον δρόμο και τρώγεται ζεστό με οδοντογλυφίδες ή πιρούνι.",
+   "history": "Μια παλαιότερη εκδοχή με σόγια, το γκουνγκτζούνγκ τοκμπόκι, τρωγόταν στην κορεατική βασιλική αυλή. Η καυτερή κόκκινη εκδοχή με γκοτσουτζάνγκ αποδίδεται συνήθως σε πλανόδιους πωλητές της συνοικίας Σιντάνγκ-ντονγκ της Σεούλ τη δεκαετία του 1950 και έγινε εθνικό φαγητό δρόμου τις επόμενες δεκαετίες.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "500 γρ. κυλινδρικά ρυζοκέικ (τοκ)",
+     "150 γρ. ψαροκεφτέδες, σε φέτες",
+     "3 κ.σ. γκοτσουτζάνγκ",
+     "1,5 κ.σ. ζάχαρη",
+     "500 ml νερό",
+     "3 φρέσκα κρεμμυδάκια, σε κομμάτια"
+    ],
+    "steps": [
+     "Αν τα ρυζοκέικ είναι σκληρά, μουλιάστε τα σε χλιαρό νερό για 10 λεπτά.",
+     "Βράστε το νερό και διαλύστε μέσα το γκοτσουτζάνγκ και τη ζάχαρη.",
+     "Προσθέστε τα ρυζοκέικ και τους ψαροκεφτέδες και σιγοβράστε για 8–10 λεπτά, ανακατεύοντας, μέχρι να δέσει η σάλτσα.",
+     "Προσθέστε το κρεμμυδάκι, μαγειρέψτε για 1 λεπτό ακόμη και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Τα ρυζοκέικ είναι πλούσια σε υδατάνθρακες· μοιραστείτε το πιάτο ή πάρτε περίπου 200 γρ. ως σνακ.",
+    "Προσθέστε λάχανο ή κρεμμύδι στο τηγάνι για περισσότερο όγκο.",
+    "Βάλτε λιγότερη ζάχαρη στη σάλτσα· το γκοτσουτζάνγκ ήδη δίνει γλυκύτητα."
+   ]
+  },
+  "ru": {
+   "name": "Ттокпокки",
+   "origin": "Южная Корея · Сеул",
+   "intro": "Ттокпокки — любимая корейская уличная закуска: цилиндры упругих рисовых клецок, тушёные в густом блестящем соусе из кочхуджана (ферментированной пасты чили) и сахара, с ломтиками рыбных котлет и зелёным луком. Соус сладкий, острый и липкий, а рисовые клецки мягкие, но упругие. Их продают в уличных лавках и едят горячими зубочистками или вилкой.",
+   "history": "Более старая версия с соевой приправой, называемая кунджун ттокпокки, подавалась при корейском королевском дворе. Острую красную версию с кочхуджаном обычно приписывают уличным торговцам района Синдан-дон в Сеуле в 1950-х годах, а в последующие десятилетия она стала общенациональной уличной едой.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "500 г рисовых клецок-цилиндров (тток)",
+     "150 г рыбных котлет, нарезанных",
+     "3 ст. л. кочхуджана",
+     "1,5 ст. л. сахара",
+     "500 мл воды",
+     "3 стебля зелёного лука, нарезанного кусочками"
+    ],
+    "steps": [
+     "Если рисовые клецки твёрдые, замочите их в тёплой воде на 10 минут.",
+     "Доведите воду до кипения и добавьте кочхуджан и сахар, перемешав.",
+     "Добавьте рисовые клецки и рыбные котлеты и тушите 8–10 минут, помешивая, пока соус не загустеет.",
+     "Добавьте зелёный лук, готовьте ещё 1 минуту и подавайте горячим."
+    ]
+   },
+   "tips": [
+    "Рисовые клецки богаты углеводами; разделите тарелку на двоих или возьмите около 200 г как закуску.",
+    "Добавьте в сковороду капусту или лук для большего объёма.",
+    "Кладите в соус меньше сахара; кочхуджан уже даёт сладость."
+   ],
+   "name_inline": "ттокпокки"
+  },
+  "es": {
+   "name": "Tteokbokki",
+   "origin": "Corea del Sur · Seúl",
+   "intro": "El tteokbokki es la botana callejera favorita de Corea: cilindros de pastel de arroz masticable cocidos en una salsa espesa y brillante de gochujang (pasta de chile fermentada) y azúcar, con láminas de pastel de pescado y cebollín. La salsa es dulce, picante y pegajosa, y los pasteles de arroz quedan suaves y elásticos. Se vende en puestos callejeros y se come caliente con palillos o tenedor.",
+   "history": "Una versión más antigua, sazonada con salsa de soya, llamada gungjung tteokbokki, se servía en la corte real coreana. La versión picante roja con gochujang suele atribuirse a vendedores ambulantes del barrio de Sindang-dong, en Seúl, en la década de 1950, y en las décadas siguientes se convirtió en un plato callejero nacional.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "500 g de pasteles de arroz cilíndricos (tteok)",
+     "150 g de pastel de pescado, en láminas",
+     "3 cda. de gochujang",
+     "1,5 cda. de azúcar",
+     "500 ml de agua",
+     "3 cebollines, en trozos"
+    ],
+    "steps": [
+     "Si los pasteles de arroz están duros, remójalos en agua tibia durante 10 minutos.",
+     "Lleva el agua a ebullición e incorpora el gochujang y el azúcar.",
+     "Añade los pasteles de arroz y de pescado y cocina a fuego lento de 8 a 10 minutos, revolviendo, hasta que la salsa espese.",
+     "Agrega el cebollín, cocina 1 minuto más y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Los pasteles de arroz son ricos en carbohidratos; compártelos o toma unos 200 g como botana.",
+    "Añade col o cebolla a la sartén para dar más volumen.",
+    "Usa menos azúcar en la salsa: el gochujang ya aporta dulzor."
+   ],
+   "name_inline": "el tteokbokki"
   }
+ }
 }

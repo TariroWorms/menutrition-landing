@@ -1,142 +1,168 @@
 {
-  "db_key": "fresh_orange_juice_cafe",
-  "slug": "fresh-orange-juice-cafe",
-  "emoji": "🍊",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fresh_orange_juice_cafe",
+ "slug": "fresh-orange-juice-cafe",
+ "emoji": "🍊",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fresh orange juice",
+   "origin": "Worldwide · café menus",
+   "intro": "Fresh orange juice is simply ripe oranges pressed to order, with nothing added — no sugar, no water, no concentrate. It is bright, sweet and tangy, with a little pulp depending on the press. Cafés serve it chilled in a tall glass, usually at breakfast or brunch alongside eggs, pastries or a coffee.",
+   "history": "Freshly pressed orange juice is drunk all over the world today and is a fixture of café and hotel breakfast menus.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "4–5 large juicy oranges (about 1 kg)",
+     "A few ice cubes (optional)",
+     "1 orange slice or a mint sprig to garnish"
+    ],
+    "steps": [
+     "Roll the oranges on the counter to loosen the juice, then halve them.",
+     "Press each half on a citrus juicer or in an electric press.",
+     "Strain if you prefer it without pulp, pour over ice and drink right away."
+    ]
+   },
+   "tips": [
+    "A 250 ml glass has roughly the sugar of two to three whole oranges, so treat it as part of a meal rather than a thirst-quencher.",
+    "Order a small glass or top half a glass up with sparkling water for the same flavour with fewer calories.",
+    "Eating a whole orange instead gives the fibre too and keeps you full longer."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fresh orange juice",
-      "origin": "Worldwide · café menus",
-      "intro": "Fresh orange juice is simply ripe oranges pressed to order, with nothing added — no sugar, no water, no concentrate. It is bright, sweet and tangy, with a little pulp depending on the press. Cafés serve it chilled in a tall glass, usually at breakfast or brunch alongside eggs, pastries or a coffee.",
-      "history": "Freshly pressed orange juice is drunk all over the world today and is a fixture of café and hotel breakfast menus.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "4–5 large juicy oranges (about 1 kg)",
-          "A few ice cubes (optional)",
-          "1 orange slice or a mint sprig to garnish"
-        ],
-        "steps": [
-          "Roll the oranges on the counter to loosen the juice, then halve them.",
-          "Press each half on a citrus juicer or in an electric press.",
-          "Strain if you prefer it without pulp, pour over ice and drink right away."
-        ]
-      },
-      "tips": [
-        "A 250 ml glass has roughly the sugar of two to three whole oranges, so treat it as part of a meal rather than a thirst-quencher.",
-        "Order a small glass or top half a glass up with sparkling water for the same flavour with fewer calories.",
-        "Eating a whole orange instead gives the fibre too and keeps you full longer."
-      ]
-    },
-    "ar": {
-      "name": "عصير برتقال طازج",
-      "origin": "حول العالم · قوائم المقاهي",
-      "intro": "عصير البرتقال الطازج هو ببساطة برتقال ناضج يُعصر عند الطلب دون أي إضافات — لا سكر ولا ماء ولا مركّزات. طعمه حلو ومنعش مع حموضة لطيفة، وقد يحتوي على قليل من اللب بحسب طريقة العصر. تقدّمه المقاهي باردًا في كوب طويل، غالبًا مع الفطور أو البرانش إلى جانب البيض أو المعجنات أو القهوة.",
-      "history": "يُشرب عصير البرتقال الطازج اليوم في كل أنحاء العالم، وهو عنصر ثابت في قوائم فطور المقاهي والفنادق.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "4–5 برتقالات كبيرة كثيرة العصير (نحو 1 كغ)",
-          "بضع مكعبات ثلج (اختياري)",
-          "شريحة برتقال أو غصن نعناع للتزيين"
-        ],
-        "steps": [
-          "دحرج البرتقال على سطح الطاولة ليلين العصير، ثم اقطعه نصفين.",
-          "اعصر كل نصف بعصارة الحمضيات اليدوية أو الكهربائية.",
-          "صفِّ العصير إن أردته بلا لب، واسكبه على الثلج واشربه فورًا."
-        ]
-      },
-      "tips": [
-        "يحتوي كوب 250 مل على سكر يعادل تقريبًا برتقالتين إلى ثلاث، لذا اعتبره جزءًا من الوجبة لا مشروبًا لإرواء العطش.",
-        "اطلب كوبًا صغيرًا أو املأ نصف الكوب بالماء الفوّار لتحصل على النكهة نفسها بسعرات أقل.",
-        "تناول برتقالة كاملة بدل العصير يمنحك الألياف أيضًا ويُشعرك بالشبع لفترة أطول."
-      ]
-    },
-    "it": {
-      "name": "Spremuta d'arancia",
-      "name_inline": "spremuta d'arancia",
-      "origin": "Tutto il mondo · menu dei bar",
-      "intro": "La spremuta d'arancia è semplicemente arance mature spremute al momento, senza aggiunte: niente zucchero, niente acqua, niente concentrato. È vivace, dolce e acidula, con un po' di polpa a seconda dello spremiagrumi. I bar la servono fresca in un bicchiere alto, di solito a colazione o al brunch insieme a uova, brioche o un caffè.",
-      "history": "La spremuta d'arancia fresca oggi si beve in tutto il mondo ed è un punto fermo dei menu della colazione di bar e hotel.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "4–5 arance grandi e succose (circa 1 kg)",
-          "Qualche cubetto di ghiaccio (facoltativo)",
-          "1 fetta d'arancia o un rametto di menta per guarnire"
-        ],
-        "steps": [
-          "Fai rotolare le arance sul piano di lavoro per ammorbidire il succo, poi tagliale a metà.",
-          "Spremi ogni metà con uno spremiagrumi manuale o elettrico.",
-          "Filtra se la preferisci senza polpa, versa sul ghiaccio e bevi subito."
-        ]
-      },
-      "tips": [
-        "Un bicchiere da 250 ml contiene all'incirca lo zucchero di due o tre arance intere, quindi consideralo parte di un pasto e non una bevanda per la sete.",
-        "Ordina un bicchiere piccolo o riempi mezzo bicchiere e completa con acqua frizzante: stesso sapore, meno calorie.",
-        "Mangiare un'arancia intera dà anche le fibre e sazia più a lungo."
-      ]
-    },
-    "el": {
-      "name": "Φρέσκος χυμός πορτοκάλι",
-      "name_inline": "φρέσκος χυμός πορτοκάλι",
-      "origin": "Παγκοσμίως · κατάλογοι καφέ",
-      "intro": "Ο φρέσκος χυμός πορτοκάλι είναι απλώς ώριμα πορτοκάλια στυμμένα την ώρα της παραγγελίας, χωρίς καμία προσθήκη — χωρίς ζάχαρη, νερό ή συμπυκνωμένο χυμό. Είναι ζωηρός, γλυκός και ξινούτσικος, με λίγη ψίχα ανάλογα με τον στίφτη. Τα καφέ τον σερβίρουν κρύο σε ψηλό ποτήρι, συνήθως στο πρωινό ή στο brunch μαζί με αυγά, αρτοσκευάσματα ή καφέ.",
-      "history": "Ο φρεσκοστυμμένος χυμός πορτοκάλι πίνεται σήμερα σε όλο τον κόσμο και είναι σταθερή επιλογή στους καταλόγους πρωινού των καφέ και των ξενοδοχείων.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "4–5 μεγάλα ζουμερά πορτοκάλια (περίπου 1 κιλό)",
-          "Λίγα παγάκια (προαιρετικά)",
-          "1 φέτα πορτοκάλι ή ένα κλωναράκι δυόσμο για γαρνιτούρα"
-        ],
-        "steps": [
-          "Κυλήστε τα πορτοκάλια πάνω στον πάγκο για να ελευθερωθεί ο χυμός και κόψτε τα στη μέση.",
-          "Στύψτε κάθε μισό σε λεμονοστίφτη ή σε ηλεκτρικό στίφτη.",
-          "Σουρώστε τον αν τον προτιμάτε χωρίς ψίχα, σερβίρετε πάνω σε πάγο και πιείτε τον αμέσως."
-        ]
-      },
-      "tips": [
-        "Ένα ποτήρι 250 ml έχει περίπου τη ζάχαρη δύο έως τριών ολόκληρων πορτοκαλιών, οπότε θεωρήστε τον μέρος του γεύματος και όχι ρόφημα για τη δίψα.",
-        "Παραγγείλτε μικρό ποτήρι ή γεμίστε μισό ποτήρι και συμπληρώστε με ανθρακούχο νερό, για την ίδια γεύση με λιγότερες θερμίδες.",
-        "Ένα ολόκληρο πορτοκάλι αντί για χυμό σας δίνει και τις φυτικές ίνες και σας κρατά χορτάτους περισσότερο."
-      ]
-    },
-    "ru": {
-      "name": "Свежевыжатый апельсиновый сок",
-      "origin": "Весь мир · меню кафе",
-      "intro": "Свежевыжатый апельсиновый сок — это просто спелые апельсины, выжатые по заказу, без добавок: ни сахара, ни воды, ни концентрата. Он яркий, сладкий и пикантный, с небольшим количеством мякоти в зависимости от соковыжималки. Кафе подают его охлаждённым в высоком стакане, обычно на завтрак или бранч с яйцами, выпечкой или кофе.",
-      "history": "Свежевыжатый апельсиновый сок пьют по всему миру, и он — неотъемлемая часть меню завтраков в кафе и отелях.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "4–5 крупных сочных апельсинов (около 1 кг)",
-          "Несколько кубиков льда (по желанию)",
-          "1 ломтик апельсина или веточка мяты для украшения"
-        ],
-        "steps": [
-          "Прокатите апельсины по столу, чтобы размягчить сок, затем разрежьте пополам.",
-          "Выжмите каждую половинку на цитрусовой соковыжималке или в электрическом прессе.",
-          "Процедите, если любите без мякоти, налейте на лёд и пейте сразу."
-        ]
-      },
-      "tips": [
-        "В стакане на 250 мл примерно столько же сахара, сколько в двух-трёх целых апельсинах, поэтому считайте его частью трапезы, а не средством утоления жажды.",
-        "Заказывайте маленький стакан или долейте половину стакана газированной водой — тот же вкус, меньше калорий.",
-        "Целый апельсин даст ещё и клетчатку и дольше сохранит сытость."
-      ],
-      "name_inline": "свежевыжатый апельсиновый сок"
-    }
+  "ar": {
+   "name": "عصير برتقال طازج",
+   "origin": "حول العالم · قوائم المقاهي",
+   "intro": "عصير البرتقال الطازج هو ببساطة برتقال ناضج يُعصر عند الطلب دون أي إضافات — لا سكر ولا ماء ولا مركّزات. طعمه حلو ومنعش مع حموضة لطيفة، وقد يحتوي على قليل من اللب بحسب طريقة العصر. تقدّمه المقاهي باردًا في كوب طويل، غالبًا مع الفطور أو البرانش إلى جانب البيض أو المعجنات أو القهوة.",
+   "history": "يُشرب عصير البرتقال الطازج اليوم في كل أنحاء العالم، وهو عنصر ثابت في قوائم فطور المقاهي والفنادق.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "4–5 برتقالات كبيرة كثيرة العصير (نحو 1 كغ)",
+     "بضع مكعبات ثلج (اختياري)",
+     "شريحة برتقال أو غصن نعناع للتزيين"
+    ],
+    "steps": [
+     "دحرج البرتقال على سطح الطاولة ليلين العصير، ثم اقطعه نصفين.",
+     "اعصر كل نصف بعصارة الحمضيات اليدوية أو الكهربائية.",
+     "صفِّ العصير إن أردته بلا لب، واسكبه على الثلج واشربه فورًا."
+    ]
+   },
+   "tips": [
+    "يحتوي كوب 250 مل على سكر يعادل تقريبًا برتقالتين إلى ثلاث، لذا اعتبره جزءًا من الوجبة لا مشروبًا لإرواء العطش.",
+    "اطلب كوبًا صغيرًا أو املأ نصف الكوب بالماء الفوّار لتحصل على النكهة نفسها بسعرات أقل.",
+    "تناول برتقالة كاملة بدل العصير يمنحك الألياف أيضًا ويُشعرك بالشبع لفترة أطول."
+   ]
+  },
+  "it": {
+   "name": "Spremuta d'arancia",
+   "name_inline": "spremuta d'arancia",
+   "origin": "Tutto il mondo · menu dei bar",
+   "intro": "La spremuta d'arancia è semplicemente arance mature spremute al momento, senza aggiunte: niente zucchero, niente acqua, niente concentrato. È vivace, dolce e acidula, con un po' di polpa a seconda dello spremiagrumi. I bar la servono fresca in un bicchiere alto, di solito a colazione o al brunch insieme a uova, brioche o un caffè.",
+   "history": "La spremuta d'arancia fresca oggi si beve in tutto il mondo ed è un punto fermo dei menu della colazione di bar e hotel.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "4–5 arance grandi e succose (circa 1 kg)",
+     "Qualche cubetto di ghiaccio (facoltativo)",
+     "1 fetta d'arancia o un rametto di menta per guarnire"
+    ],
+    "steps": [
+     "Fai rotolare le arance sul piano di lavoro per ammorbidire il succo, poi tagliale a metà.",
+     "Spremi ogni metà con uno spremiagrumi manuale o elettrico.",
+     "Filtra se la preferisci senza polpa, versa sul ghiaccio e bevi subito."
+    ]
+   },
+   "tips": [
+    "Un bicchiere da 250 ml contiene all'incirca lo zucchero di due o tre arance intere, quindi consideralo parte di un pasto e non una bevanda per la sete.",
+    "Ordina un bicchiere piccolo o riempi mezzo bicchiere e completa con acqua frizzante: stesso sapore, meno calorie.",
+    "Mangiare un'arancia intera dà anche le fibre e sazia più a lungo."
+   ]
+  },
+  "el": {
+   "name": "Φρέσκος χυμός πορτοκάλι",
+   "name_inline": "φρέσκος χυμός πορτοκάλι",
+   "origin": "Παγκοσμίως · κατάλογοι καφέ",
+   "intro": "Ο φρέσκος χυμός πορτοκάλι είναι απλώς ώριμα πορτοκάλια στυμμένα την ώρα της παραγγελίας, χωρίς καμία προσθήκη — χωρίς ζάχαρη, νερό ή συμπυκνωμένο χυμό. Είναι ζωηρός, γλυκός και ξινούτσικος, με λίγη ψίχα ανάλογα με τον στίφτη. Τα καφέ τον σερβίρουν κρύο σε ψηλό ποτήρι, συνήθως στο πρωινό ή στο brunch μαζί με αυγά, αρτοσκευάσματα ή καφέ.",
+   "history": "Ο φρεσκοστυμμένος χυμός πορτοκάλι πίνεται σήμερα σε όλο τον κόσμο και είναι σταθερή επιλογή στους καταλόγους πρωινού των καφέ και των ξενοδοχείων.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "4–5 μεγάλα ζουμερά πορτοκάλια (περίπου 1 κιλό)",
+     "Λίγα παγάκια (προαιρετικά)",
+     "1 φέτα πορτοκάλι ή ένα κλωναράκι δυόσμο για γαρνιτούρα"
+    ],
+    "steps": [
+     "Κυλήστε τα πορτοκάλια πάνω στον πάγκο για να ελευθερωθεί ο χυμός και κόψτε τα στη μέση.",
+     "Στύψτε κάθε μισό σε λεμονοστίφτη ή σε ηλεκτρικό στίφτη.",
+     "Σουρώστε τον αν τον προτιμάτε χωρίς ψίχα, σερβίρετε πάνω σε πάγο και πιείτε τον αμέσως."
+    ]
+   },
+   "tips": [
+    "Ένα ποτήρι 250 ml έχει περίπου τη ζάχαρη δύο έως τριών ολόκληρων πορτοκαλιών, οπότε θεωρήστε τον μέρος του γεύματος και όχι ρόφημα για τη δίψα.",
+    "Παραγγείλτε μικρό ποτήρι ή γεμίστε μισό ποτήρι και συμπληρώστε με ανθρακούχο νερό, για την ίδια γεύση με λιγότερες θερμίδες.",
+    "Ένα ολόκληρο πορτοκάλι αντί για χυμό σας δίνει και τις φυτικές ίνες και σας κρατά χορτάτους περισσότερο."
+   ]
+  },
+  "ru": {
+   "name": "Свежевыжатый апельсиновый сок",
+   "origin": "Весь мир · меню кафе",
+   "intro": "Свежевыжатый апельсиновый сок — это просто спелые апельсины, выжатые по заказу, без добавок: ни сахара, ни воды, ни концентрата. Он яркий, сладкий и пикантный, с небольшим количеством мякоти в зависимости от соковыжималки. Кафе подают его охлаждённым в высоком стакане, обычно на завтрак или бранч с яйцами, выпечкой или кофе.",
+   "history": "Свежевыжатый апельсиновый сок пьют по всему миру, и он — неотъемлемая часть меню завтраков в кафе и отелях.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "4–5 крупных сочных апельсинов (около 1 кг)",
+     "Несколько кубиков льда (по желанию)",
+     "1 ломтик апельсина или веточка мяты для украшения"
+    ],
+    "steps": [
+     "Прокатите апельсины по столу, чтобы размягчить сок, затем разрежьте пополам.",
+     "Выжмите каждую половинку на цитрусовой соковыжималке или в электрическом прессе.",
+     "Процедите, если любите без мякоти, налейте на лёд и пейте сразу."
+    ]
+   },
+   "tips": [
+    "В стакане на 250 мл примерно столько же сахара, сколько в двух-трёх целых апельсинах, поэтому считайте его частью трапезы, а не средством утоления жажды.",
+    "Заказывайте маленький стакан или долейте половину стакана газированной водой — тот же вкус, меньше калорий.",
+    "Целый апельсин даст ещё и клетчатку и дольше сохранит сытость."
+   ],
+   "name_inline": "свежевыжатый апельсиновый сок"
+  },
+  "es": {
+   "name": "Jugo de naranja natural",
+   "origin": "Mundial · cartas de cafeterías",
+   "intro": "El jugo de naranja natural es simplemente naranjas maduras exprimidas al momento, sin nada añadido: ni azúcar, ni agua, ni concentrado. Es brillante, dulce y cítrico, con algo de pulpa según el exprimidor. Las cafeterías lo sirven frío en un vaso alto, normalmente en el desayuno o el brunch, junto a huevos, bollería o un café.",
+   "history": "El jugo de naranja recién exprimido se bebe hoy en todo el mundo y es un clásico de los menús de desayuno de cafeterías y hoteles.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "4–5 naranjas grandes y jugosas (unos 1 kg)",
+     "Unos cubos de hielo (opcional)",
+     "1 rodaja de naranja o una ramita de menta para decorar"
+    ],
+    "steps": [
+     "Rueda las naranjas sobre la mesada para soltar el jugo y pártelas por la mitad.",
+     "Exprime cada mitad en un exprimidor de cítricos o en uno eléctrico.",
+     "Cuela si lo prefieres sin pulpa, sirve sobre hielo y bébelo de inmediato."
+    ]
+   },
+   "tips": [
+    "Un vaso de 250 ml tiene casi el azúcar de dos o tres naranjas enteras, así que tómalo como parte de una comida y no para calmar la sed.",
+    "Pide un vaso pequeño o completa medio vaso con agua con gas para tener el mismo sabor con menos calorías.",
+    "Comer la naranja entera aporta también la fibra y sacia por más tiempo."
+   ],
+   "name_inline": "el jugo de naranja natural"
   }
+ }
 }

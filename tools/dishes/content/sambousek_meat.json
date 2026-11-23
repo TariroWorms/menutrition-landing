@@ -1,161 +1,191 @@
 {
-  "db_key": "sambousek_meat",
-  "slug": "sambousek-meat",
-  "emoji": "🥟",
-  "portion_g": 120,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "sambousek_meat",
+ "slug": "sambousek-meat",
+ "emoji": "🥟",
+ "portion_g": 120,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Meat sambousek",
+   "origin": "Lebanon · Levant",
+   "intro": "Meat sambousek are half-moon pastries filled with minced beef cooked with onion, warm spices and toasted pine nuts, then fried or baked until golden. The crust is crisp, the filling juicy and fragrant, with the pine nuts adding a buttery crunch. They are a favourite hot mezze in Lebanon and Syria, often served with lemon wedges.",
+   "history": "Sambousek is the Levantine member of the large family of filled pastries known across the Middle East and South Asia, whose name traces back to the Persian sanbosag. In Lebanon and Syria it is a fixture of the mezze table and of bakeries, made in half-moon shapes with a crimped edge.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 g ready bread dough or sambousek dough",
+     "300 g minced beef",
+     "1 large onion, finely chopped",
+     "30 g pine nuts, toasted",
+     "1 tsp seven-spice mix, salt and pepper",
+     "Oil for frying or brushing"
+    ],
+    "steps": [
+     "Cook the onion in 1 tbsp oil until soft, add the beef and cook until browned; season and stir in the pine nuts. Let cool.",
+     "Roll the dough thin and cut 8 cm circles.",
+     "Fill each with a teaspoon of meat, fold into a half-moon and crimp the edge.",
+     "Fry until golden or bake at 200 °C for 15–18 minutes. Serve warm with lemon."
+    ]
+   },
+   "tips": [
+    "Bake the pastries with a light brush of oil instead of deep-frying them.",
+    "Use lean minced beef and pour off any fat after browning.",
+    "Keep the pine nuts to a small handful — 30 g of pine nuts is roughly 200 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Meat sambousek",
-      "origin": "Lebanon · Levant",
-      "intro": "Meat sambousek are half-moon pastries filled with minced beef cooked with onion, warm spices and toasted pine nuts, then fried or baked until golden. The crust is crisp, the filling juicy and fragrant, with the pine nuts adding a buttery crunch. They are a favourite hot mezze in Lebanon and Syria, often served with lemon wedges.",
-      "history": "Sambousek is the Levantine member of the large family of filled pastries known across the Middle East and South Asia, whose name traces back to the Persian sanbosag. In Lebanon and Syria it is a fixture of the mezze table and of bakeries, made in half-moon shapes with a crimped edge.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 g ready bread dough or sambousek dough",
-          "300 g minced beef",
-          "1 large onion, finely chopped",
-          "30 g pine nuts, toasted",
-          "1 tsp seven-spice mix, salt and pepper",
-          "Oil for frying or brushing"
-        ],
-        "steps": [
-          "Cook the onion in 1 tbsp oil until soft, add the beef and cook until browned; season and stir in the pine nuts. Let cool.",
-          "Roll the dough thin and cut 8 cm circles.",
-          "Fill each with a teaspoon of meat, fold into a half-moon and crimp the edge.",
-          "Fry until golden or bake at 200 °C for 15–18 minutes. Serve warm with lemon."
-        ]
-      },
-      "tips": [
-        "Bake the pastries with a light brush of oil instead of deep-frying them.",
-        "Use lean minced beef and pour off any fat after browning.",
-        "Keep the pine nuts to a small handful — 30 g of pine nuts is roughly 200 kcal."
-      ]
-    },
-    "ar": {
-      "name": "سنبوسك باللحمة",
-      "origin": "لبنان · بلاد الشام",
-      "intro": "سنبوسك اللحمة معجنات على شكل أنصاف أقمار محشوة بلحم البقر المفروم المطبوخ مع البصل والبهارات الدافئة والصنوبر المحمّص، ثم تُقلى أو تُخبز حتى تصبح ذهبية. القشرة مقرمشة والحشوة طرية وعطرية، والصنوبر يضيف قرمشة غنية. وهو من أحب المازات الساخنة في لبنان وسوريا، ويُقدَّم غالباً مع شرائح الليمون.",
-      "history": "السنبوسك هو الفرع الشامي من عائلة كبيرة من المعجنات المحشوة المعروفة في الشرق الأوسط وجنوب آسيا، ويعود اسمه إلى الكلمة الفارسية «سنبوسك». وفي لبنان وسوريا يُعد من أساسيات المازة والمخابز، ويُشكَّل على هيئة أنصاف أقمار بحواف مثنية.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 غ عجينة خبز جاهزة أو عجينة سنبوسك",
-          "300 غ لحم بقر مفروم",
-          "1 بصلة كبيرة مفرومة ناعماً",
-          "30 غ صنوبر محمّص",
-          "1 ملعقة صغيرة بهارات سبعة، وملح وفلفل",
-          "زيت للقلي أو للدهن"
-        ],
-        "steps": [
-          "شوِّح البصل في ملعقة كبيرة من الزيت حتى يذبل، ثم أضف اللحم واطبخه حتى يتحمر؛ تبّله وأضف الصنوبر، واتركه ليبرد.",
-          "افرد العجينة رقيقة وقطّعها دوائر بقطر 8 سم.",
-          "احشُ كل دائرة بملعقة صغيرة من اللحم، واطوها نصف دائرة واضغط الحافة.",
-          "اقلِها حتى تصبح ذهبية أو اخبزها على 200 °م لمدة 15–18 دقيقة. قدّمها دافئة مع الليمون."
-        ]
-      },
-      "tips": [
-        "اخبز المعجنات بعد دهنها بقليل من الزيت بدلاً من قليها في زيت غزير.",
-        "استخدم لحماً مفروماً قليل الدهن وتخلّص من الدهن بعد التحمير.",
-        "اكتفِ بحفنة صغيرة من الصنوبر، فـ30 غ منه تعادل نحو 200 سعرة حرارية."
-      ]
-    },
-    "it": {
-      "name": "Sambousek di carne",
-      "origin": "Libano · Levante",
-      "intro": "I sambousek di carne sono fagottini a mezzaluna ripieni di manzo macinato cotto con cipolla, spezie calde e pinoli tostati, poi fritti o cotti al forno finché sono dorati. La crosta è croccante, il ripieno succoso e profumato, e i pinoli aggiungono una croccantezza burrosa. Sono un mezze caldo molto amato in Libano e in Siria, spesso servito con spicchi di limone.",
-      "history": "Il sambousek è il membro levantino della grande famiglia di fagottini ripieni diffusi in tutto il Medio Oriente e l'Asia meridionale, il cui nome risale al persiano sanbosag. In Libano e in Siria è una presenza fissa sulla tavola dei mezze e nelle panetterie, preparato a mezzaluna con il bordo pizzicato.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 g di pasta di pane pronta o pasta per sambousek",
-          "300 g di manzo macinato",
-          "1 cipolla grande, tritata finemente",
-          "30 g di pinoli, tostati",
-          "1 cucchiaino di sette spezie, sale e pepe",
-          "Olio per friggere o per spennellare"
-        ],
-        "steps": [
-          "Fai appassire la cipolla in 1 cucchiaio di olio, aggiungi il manzo e cuoci finché è rosolato; condisci e incorpora i pinoli. Lascia raffreddare.",
-          "Stendi l'impasto sottile e ritaglia dei dischi da 8 cm.",
-          "Farcisci ognuno con un cucchiaino di carne, piega a mezzaluna e pizzica il bordo.",
-          "Friggi finché sono dorati o cuoci in forno a 200 °C per 15–18 minuti. Servi tiepidi con il limone."
-        ]
-      },
-      "tips": [
-        "Cuoci i fagottini in forno con una leggera spennellata d'olio invece di friggerli in abbondante olio.",
-        "Usa manzo macinato magro ed elimina il grasso dopo la rosolatura.",
-        "Limita i pinoli a una piccola manciata: 30 g di pinoli sono circa 200 kcal."
-      ]
-    },
-    "el": {
-      "name": "Σαμπουσέκ με κιμά",
-      "name_inline": "σαμπουσέκ με κιμά",
-      "origin": "Λίβανος · Λεβάντε",
-      "intro": "Τα σαμπουσέκ με κιμά είναι πιτάκια σε σχήμα μισοφέγγαρου γεμισμένα με μοσχαρίσιο κιμά μαγειρεμένο με κρεμμύδι, ζεστά μπαχαρικά και καβουρδισμένα κουκουνάρια, τηγανητά ή ψημένα στον φούρνο μέχρι να ροδίσουν. Η κρούστα είναι τραγανή, η γέμιση ζουμερή και αρωματική, και τα κουκουνάρια προσθέτουν μια βουτυράτη τραγανότητα. Είναι αγαπημένος ζεστός μεζές στον Λίβανο και τη Συρία και σερβίρονται συχνά με φέτες λεμονιού.",
-      "history": "Το σαμπουσέκ είναι το μέλος του Λεβάντε στη μεγάλη οικογένεια γεμιστών πιτακιών που είναι γνωστά σε όλη τη Μέση Ανατολή και τη Νότια Ασία, με όνομα που ανάγεται στο περσικό sanbosag. Στον Λίβανο και τη Συρία είναι σταθερό στοιχείο του τραπεζιού με μεζέδες και των φούρνων και φτιάχνεται σε σχήμα μισοφέγγαρου με πτυχωτή άκρη.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 γρ. έτοιμη ζύμη ψωμιού ή ζύμη για σαμπουσέκ",
-          "300 γρ. μοσχαρίσιος κιμάς",
-          "1 μεγάλο κρεμμύδι, ψιλοκομμένο",
-          "30 γρ. κουκουνάρια, καβουρδισμένα",
-          "1 κ.γ. μείγμα επτά μπαχαρικών, αλάτι και πιπέρι",
-          "Λάδι για τηγάνισμα ή για άλειμμα"
-        ],
-        "steps": [
-          "Μαγειρέψτε το κρεμμύδι σε 1 κ.σ. λάδι μέχρι να μαλακώσει, προσθέστε τον κιμά και μαγειρέψτε μέχρι να ροδίσει· καρυκεύστε και ανακατέψτε τα κουκουνάρια. Αφήστε να κρυώσει.",
-          "Ανοίξτε τη ζύμη λεπτή και κόψτε κύκλους 8 εκ.",
-          "Γεμίστε τον καθένα με ένα κουταλάκι κιμά, διπλώστε σε μισοφέγγαρο και πιέστε την άκρη.",
-          "Τηγανίστε μέχρι να ροδίσουν ή ψήστε στους 200 °C για 15–18 λεπτά. Σερβίρετε ζεστά με λεμόνι."
-        ]
-      },
-      "tips": [
-        "Ψήστε τα πιτάκια με ένα ελαφρύ άλειμμα λαδιού αντί για βαθύ τηγάνισμα.",
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και αφαιρέστε το λίπος μετά το ρόδισμα.",
-        "Περιορίστε τα κουκουνάρια σε μια μικρή χούφτα — 30 γρ. κουκουνάρια είναι περίπου 200 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Самбусек с мясом",
-      "origin": "Ливан · Левант",
-      "intro": "Самбусек с мясом — пирожки-полумесяцы с начинкой из говяжьего фарша, приготовленного с луком, тёплыми специями и обжаренными кедровыми орехами, обжаренные или запечённые до золотистого цвета. Корочка хрустящая, начинка сочная и ароматная, а кедровые орехи добавляют маслянистый хруст. Это любимая горячая мезе в Ливане и Сирии, часто подаётся с дольками лимона.",
-      "history": "Самбусек — левантийский представитель большого семейства начинённой выпечки, известной по всему Ближнему Востоку и Южной Азии, название которой восходит к персидскому санбосаг. В Ливане и Сирии он — неотъемлемая часть стола мезе и пекарен, его делают в форме полумесяцев с защипанным краем.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 60,
-        "ingredients": [
-          "300 г готового хлебного теста или теста для самбусека",
-          "300 г говяжьего фарша",
-          "1 крупная луковица, мелко нарубленная",
-          "30 г кедровых орехов, обжаренных",
-          "1 ч. л. смеси семи специй, соль и перец",
-          "Масло для жарки или смазывания"
-        ],
-        "steps": [
-          "Готовьте лук в 1 ст. л. масла до мягкости, добавьте говядину и готовьте до румяности; приправьте и вмешайте кедровые орехи. Остудите.",
-          "Тонко раскатайте тесто и вырежьте кружки диаметром 8 см.",
-          "Наполните каждый чайной ложкой мясной начинки, сложите полумесяцем и защипните край.",
-          "Жарьте до золотистого цвета или запекайте при 200 °C 15–18 минут. Подавайте тёплыми с лимоном."
-        ]
-      },
-      "tips": [
-        "Запекайте выпечку, слегка смазав маслом, вместо жарки во фритюре.",
-        "Используйте постный говяжий фарш и слейте жир после обжаривания.",
-        "Ограничьте кедровые орехи небольшой горстью — 30 г кедровых орехов — примерно 200 ккал."
-      ],
-      "name_inline": "самбусек с мясом"
-    }
+  "ar": {
+   "name": "سنبوسك باللحمة",
+   "origin": "لبنان · بلاد الشام",
+   "intro": "سنبوسك اللحمة معجنات على شكل أنصاف أقمار محشوة بلحم البقر المفروم المطبوخ مع البصل والبهارات الدافئة والصنوبر المحمّص، ثم تُقلى أو تُخبز حتى تصبح ذهبية. القشرة مقرمشة والحشوة طرية وعطرية، والصنوبر يضيف قرمشة غنية. وهو من أحب المازات الساخنة في لبنان وسوريا، ويُقدَّم غالباً مع شرائح الليمون.",
+   "history": "السنبوسك هو الفرع الشامي من عائلة كبيرة من المعجنات المحشوة المعروفة في الشرق الأوسط وجنوب آسيا، ويعود اسمه إلى الكلمة الفارسية «سنبوسك». وفي لبنان وسوريا يُعد من أساسيات المازة والمخابز، ويُشكَّل على هيئة أنصاف أقمار بحواف مثنية.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 غ عجينة خبز جاهزة أو عجينة سنبوسك",
+     "300 غ لحم بقر مفروم",
+     "1 بصلة كبيرة مفرومة ناعماً",
+     "30 غ صنوبر محمّص",
+     "1 ملعقة صغيرة بهارات سبعة، وملح وفلفل",
+     "زيت للقلي أو للدهن"
+    ],
+    "steps": [
+     "شوِّح البصل في ملعقة كبيرة من الزيت حتى يذبل، ثم أضف اللحم واطبخه حتى يتحمر؛ تبّله وأضف الصنوبر، واتركه ليبرد.",
+     "افرد العجينة رقيقة وقطّعها دوائر بقطر 8 سم.",
+     "احشُ كل دائرة بملعقة صغيرة من اللحم، واطوها نصف دائرة واضغط الحافة.",
+     "اقلِها حتى تصبح ذهبية أو اخبزها على 200 °م لمدة 15–18 دقيقة. قدّمها دافئة مع الليمون."
+    ]
+   },
+   "tips": [
+    "اخبز المعجنات بعد دهنها بقليل من الزيت بدلاً من قليها في زيت غزير.",
+    "استخدم لحماً مفروماً قليل الدهن وتخلّص من الدهن بعد التحمير.",
+    "اكتفِ بحفنة صغيرة من الصنوبر، فـ30 غ منه تعادل نحو 200 سعرة حرارية."
+   ]
+  },
+  "it": {
+   "name": "Sambousek di carne",
+   "origin": "Libano · Levante",
+   "intro": "I sambousek di carne sono fagottini a mezzaluna ripieni di manzo macinato cotto con cipolla, spezie calde e pinoli tostati, poi fritti o cotti al forno finché sono dorati. La crosta è croccante, il ripieno succoso e profumato, e i pinoli aggiungono una croccantezza burrosa. Sono un mezze caldo molto amato in Libano e in Siria, spesso servito con spicchi di limone.",
+   "history": "Il sambousek è il membro levantino della grande famiglia di fagottini ripieni diffusi in tutto il Medio Oriente e l'Asia meridionale, il cui nome risale al persiano sanbosag. In Libano e in Siria è una presenza fissa sulla tavola dei mezze e nelle panetterie, preparato a mezzaluna con il bordo pizzicato.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 g di pasta di pane pronta o pasta per sambousek",
+     "300 g di manzo macinato",
+     "1 cipolla grande, tritata finemente",
+     "30 g di pinoli, tostati",
+     "1 cucchiaino di sette spezie, sale e pepe",
+     "Olio per friggere o per spennellare"
+    ],
+    "steps": [
+     "Fai appassire la cipolla in 1 cucchiaio di olio, aggiungi il manzo e cuoci finché è rosolato; condisci e incorpora i pinoli. Lascia raffreddare.",
+     "Stendi l'impasto sottile e ritaglia dei dischi da 8 cm.",
+     "Farcisci ognuno con un cucchiaino di carne, piega a mezzaluna e pizzica il bordo.",
+     "Friggi finché sono dorati o cuoci in forno a 200 °C per 15–18 minuti. Servi tiepidi con il limone."
+    ]
+   },
+   "tips": [
+    "Cuoci i fagottini in forno con una leggera spennellata d'olio invece di friggerli in abbondante olio.",
+    "Usa manzo macinato magro ed elimina il grasso dopo la rosolatura.",
+    "Limita i pinoli a una piccola manciata: 30 g di pinoli sono circa 200 kcal."
+   ]
+  },
+  "el": {
+   "name": "Σαμπουσέκ με κιμά",
+   "name_inline": "σαμπουσέκ με κιμά",
+   "origin": "Λίβανος · Λεβάντε",
+   "intro": "Τα σαμπουσέκ με κιμά είναι πιτάκια σε σχήμα μισοφέγγαρου γεμισμένα με μοσχαρίσιο κιμά μαγειρεμένο με κρεμμύδι, ζεστά μπαχαρικά και καβουρδισμένα κουκουνάρια, τηγανητά ή ψημένα στον φούρνο μέχρι να ροδίσουν. Η κρούστα είναι τραγανή, η γέμιση ζουμερή και αρωματική, και τα κουκουνάρια προσθέτουν μια βουτυράτη τραγανότητα. Είναι αγαπημένος ζεστός μεζές στον Λίβανο και τη Συρία και σερβίρονται συχνά με φέτες λεμονιού.",
+   "history": "Το σαμπουσέκ είναι το μέλος του Λεβάντε στη μεγάλη οικογένεια γεμιστών πιτακιών που είναι γνωστά σε όλη τη Μέση Ανατολή και τη Νότια Ασία, με όνομα που ανάγεται στο περσικό sanbosag. Στον Λίβανο και τη Συρία είναι σταθερό στοιχείο του τραπεζιού με μεζέδες και των φούρνων και φτιάχνεται σε σχήμα μισοφέγγαρου με πτυχωτή άκρη.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 γρ. έτοιμη ζύμη ψωμιού ή ζύμη για σαμπουσέκ",
+     "300 γρ. μοσχαρίσιος κιμάς",
+     "1 μεγάλο κρεμμύδι, ψιλοκομμένο",
+     "30 γρ. κουκουνάρια, καβουρδισμένα",
+     "1 κ.γ. μείγμα επτά μπαχαρικών, αλάτι και πιπέρι",
+     "Λάδι για τηγάνισμα ή για άλειμμα"
+    ],
+    "steps": [
+     "Μαγειρέψτε το κρεμμύδι σε 1 κ.σ. λάδι μέχρι να μαλακώσει, προσθέστε τον κιμά και μαγειρέψτε μέχρι να ροδίσει· καρυκεύστε και ανακατέψτε τα κουκουνάρια. Αφήστε να κρυώσει.",
+     "Ανοίξτε τη ζύμη λεπτή και κόψτε κύκλους 8 εκ.",
+     "Γεμίστε τον καθένα με ένα κουταλάκι κιμά, διπλώστε σε μισοφέγγαρο και πιέστε την άκρη.",
+     "Τηγανίστε μέχρι να ροδίσουν ή ψήστε στους 200 °C για 15–18 λεπτά. Σερβίρετε ζεστά με λεμόνι."
+    ]
+   },
+   "tips": [
+    "Ψήστε τα πιτάκια με ένα ελαφρύ άλειμμα λαδιού αντί για βαθύ τηγάνισμα.",
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και αφαιρέστε το λίπος μετά το ρόδισμα.",
+    "Περιορίστε τα κουκουνάρια σε μια μικρή χούφτα — 30 γρ. κουκουνάρια είναι περίπου 200 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Самбусек с мясом",
+   "origin": "Ливан · Левант",
+   "intro": "Самбусек с мясом — пирожки-полумесяцы с начинкой из говяжьего фарша, приготовленного с луком, тёплыми специями и обжаренными кедровыми орехами, обжаренные или запечённые до золотистого цвета. Корочка хрустящая, начинка сочная и ароматная, а кедровые орехи добавляют маслянистый хруст. Это любимая горячая мезе в Ливане и Сирии, часто подаётся с дольками лимона.",
+   "history": "Самбусек — левантийский представитель большого семейства начинённой выпечки, известной по всему Ближнему Востоку и Южной Азии, название которой восходит к персидскому санбосаг. В Ливане и Сирии он — неотъемлемая часть стола мезе и пекарен, его делают в форме полумесяцев с защипанным краем.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 г готового хлебного теста или теста для самбусека",
+     "300 г говяжьего фарша",
+     "1 крупная луковица, мелко нарубленная",
+     "30 г кедровых орехов, обжаренных",
+     "1 ч. л. смеси семи специй, соль и перец",
+     "Масло для жарки или смазывания"
+    ],
+    "steps": [
+     "Готовьте лук в 1 ст. л. масла до мягкости, добавьте говядину и готовьте до румяности; приправьте и вмешайте кедровые орехи. Остудите.",
+     "Тонко раскатайте тесто и вырежьте кружки диаметром 8 см.",
+     "Наполните каждый чайной ложкой мясной начинки, сложите полумесяцем и защипните край.",
+     "Жарьте до золотистого цвета или запекайте при 200 °C 15–18 минут. Подавайте тёплыми с лимоном."
+    ]
+   },
+   "tips": [
+    "Запекайте выпечку, слегка смазав маслом, вместо жарки во фритюре.",
+    "Используйте постный говяжий фарш и слейте жир после обжаривания.",
+    "Ограничьте кедровые орехи небольшой горстью — 30 г кедровых орехов — примерно 200 ккал."
+   ],
+   "name_inline": "самбусек с мясом"
+  },
+  "es": {
+   "name": "Sambousek de carne",
+   "origin": "Líbano · Levante",
+   "intro": "Los sambousek de carne son empanadas en forma de media luna rellenas de carne de res molida cocinada con cebolla, especias aromáticas y piñones tostados, y luego fritas u horneadas hasta dorar. La masa es crujiente, el relleno jugoso y fragante, y los piñones aportan un crujido mantecoso. Son un mezze caliente favorito en Líbano y Siria, que suele servirse con gajos de limón.",
+   "history": "El sambousek es el miembro levantino de la gran familia de empanadas rellenas conocidas en Oriente Medio y el sur de Asia, cuyo nombre remite al persa sanbosag. En Líbano y Siria es un clásico de la mesa de mezze y de las panaderías, con forma de media luna y borde plisado.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 60,
+    "ingredients": [
+     "300 g de masa de pan lista o masa para sambousek",
+     "300 g de carne de res molida",
+     "1 cebolla grande, finamente picada",
+     "30 g de piñones, tostados",
+     "1 cdta. de mezcla de siete especias, sal y pimienta",
+     "aceite para freír o para barnizar"
+    ],
+    "steps": [
+     "Cocina la cebolla en 1 cda. de aceite hasta que esté suave, agrega la carne y cocina hasta que dore; sazona e incorpora los piñones. Deja enfriar.",
+     "Extiende la masa fina y corta círculos de 8 cm.",
+     "Rellena cada uno con una cucharadita de carne, dobla en media luna y plisa el borde.",
+     "Fríe hasta que doren u hornea a 200 °C de 15 a 18 minutos. Sirve tibios con limón."
+    ]
+   },
+   "tips": [
+    "Hornea las empanadas con un ligero barnizado de aceite en lugar de freírlas.",
+    "Usa carne de res molida magra y retira la grasa después de dorarla.",
+    "Limita los piñones a un puñado pequeño: 30 g de piñones son unas 200 kcal."
+   ],
+   "name_inline": "el sambousek de carne"
   }
+ }
 }

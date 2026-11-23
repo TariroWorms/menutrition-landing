@@ -1,180 +1,214 @@
 {
-  "db_key": "sate_padang",
-  "slug": "sate-padang",
-  "emoji": "🍢",
-  "portion_g": 250,
-  "country": "ID",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "sate_padang",
+ "slug": "sate-padang",
+ "emoji": "🍢",
+ "portion_g": 250,
+ "country": "ID",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Sate Padang",
+   "origin": "Indonesia · West Sumatra",
+   "intro": "Sate Padang is a West Sumatran satay of beef, first simmered with turmeric, lemongrass and chilli until tender, then grilled on skewers. Instead of a sweet sauce, it is drenched in a thick, spicy yellow gravy thickened with ground peanuts and rice. It is served with ketupat, compressed rice cakes, which make it a filling meal.",
+   "history": "Sate Padang comes from the Minangkabau people of West Sumatra and is named after the regional capital, Padang. It is sold from street carts across Indonesia today, and local variants such as sate Padang Panjang differ mainly in the colour and spice of the gravy.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "600 g beef (brisket or topside)",
+     "1 tsp ground turmeric",
+     "2 lemongrass stalks, bruised",
+     "3 red chillies and 4 garlic cloves, blended",
+     "1 litre water, salt",
+     "100 g ready peanut curry sauce",
+     "2 tbsp ground rice mixed with 100 ml water",
+     "300 g ketupat (compressed rice cakes), cubed",
+     "1 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Simmer the beef in the water with turmeric, lemongrass, half the chilli paste and salt for about 1.5 hours until tender.",
+     "Lift out the beef, cut it into small cubes and thread it onto skewers; keep 500 ml of the broth.",
+     "Fry the remaining chilli paste in oil, add the broth and peanut curry sauce, then stir in the ground rice mixture and cook until thick.",
+     "Grill the skewers for 3–4 minutes until lightly charred.",
+     "Lay the ketupat on plates, add the skewers and pour the hot gravy over."
+    ]
+   },
+   "tips": [
+    "The gravy and rice cakes carry much of the energy: ask for the sauce on the side and use it sparingly.",
+    "Choose a lean cut of beef and trim visible fat before cooking.",
+    "Add a plate of sliced cucumber or steamed greens to bulk up the meal with few calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Sate Padang",
-      "origin": "Indonesia · West Sumatra",
-      "intro": "Sate Padang is a West Sumatran satay of beef, first simmered with turmeric, lemongrass and chilli until tender, then grilled on skewers. Instead of a sweet sauce, it is drenched in a thick, spicy yellow gravy thickened with ground peanuts and rice. It is served with ketupat, compressed rice cakes, which make it a filling meal.",
-      "history": "Sate Padang comes from the Minangkabau people of West Sumatra and is named after the regional capital, Padang. It is sold from street carts across Indonesia today, and local variants such as sate Padang Panjang differ mainly in the colour and spice of the gravy.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "600 g beef (brisket or topside)",
-          "1 tsp ground turmeric",
-          "2 lemongrass stalks, bruised",
-          "3 red chillies and 4 garlic cloves, blended",
-          "1 litre water, salt",
-          "100 g ready peanut curry sauce",
-          "2 tbsp ground rice mixed with 100 ml water",
-          "300 g ketupat (compressed rice cakes), cubed",
-          "1 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Simmer the beef in the water with turmeric, lemongrass, half the chilli paste and salt for about 1.5 hours until tender.",
-          "Lift out the beef, cut it into small cubes and thread it onto skewers; keep 500 ml of the broth.",
-          "Fry the remaining chilli paste in oil, add the broth and peanut curry sauce, then stir in the ground rice mixture and cook until thick.",
-          "Grill the skewers for 3–4 minutes until lightly charred.",
-          "Lay the ketupat on plates, add the skewers and pour the hot gravy over."
-        ]
-      },
-      "tips": [
-        "The gravy and rice cakes carry much of the energy: ask for the sauce on the side and use it sparingly.",
-        "Choose a lean cut of beef and trim visible fat before cooking.",
-        "Add a plate of sliced cucumber or steamed greens to bulk up the meal with few calories."
-      ]
-    },
-    "ar": {
-      "name": "ساتي بادانغ",
-      "origin": "إندونيسيا · سومطرة الغربية",
-      "intro": "ساتي بادانغ ساتاي من سومطرة الغربية يُحضَّر من لحم البقر الذي يُسلق أولاً مع الكركم وعشب الليمون والفلفل الحار حتى يطرى، ثم يُشوى على أسياخ. وبدلاً من الصلصة الحلوة يُغمر بمرق أصفر كثيف حار مكثّف بالفول السوداني المطحون والأرز. يُقدَّم مع الكيتوبات، وهي كعكات أرز مضغوطة، فيصبح وجبة مشبعة.",
-      "history": "يعود ساتي بادانغ إلى شعب المينانغكاباو في سومطرة الغربية، ويحمل اسم عاصمة الإقليم بادانغ. ويُباع اليوم من عربات الشوارع في أنحاء إندونيسيا، وتختلف نسخه المحلية مثل ساتي بادانغ بانجانغ أساساً في لون المرق وتوابله.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "600 غ لحم بقري (صدر أو فخذ)",
-          "1 ملعقة صغيرة كركم مطحون",
-          "عودان من عشب الليمون مدقوقان",
-          "3 حبات فلفل أحمر حار و4 فصوص ثوم مهروسة معاً",
-          "1 لتر ماء، ملح",
-          "100 غ صلصة كاري الفول السوداني الجاهزة",
-          "ملعقتان كبيرتان من الأرز المطحون ممزوجتان في 100 مل ماء",
-          "300 غ كيتوبات (كعك أرز مضغوط) مقطّع مكعبات",
-          "1 ملعقة كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "اسلق اللحم في الماء مع الكركم وعشب الليمون ونصف معجون الفلفل والملح نحو ساعة ونصف حتى يطرى.",
-          "أخرج اللحم وقطّعه مكعبات صغيرة واشكّه على الأسياخ، واحتفظ بـ500 مل من المرق.",
-          "اقلِ باقي معجون الفلفل في الزيت، وأضف المرق وصلصة كاري الفول السوداني، ثم أضف خليط الأرز المطحون وقلّب حتى يتكاثف.",
-          "اشوِ الأسياخ 3–4 دقائق حتى تتحمّر قليلاً.",
-          "ضع الكيتوبات في الأطباق وأضف الأسياخ واسكب المرق الساخن فوقها."
-        ]
-      },
-      "tips": [
-        "المرق وكعك الأرز يحملان معظم الطاقة: اطلب الصلصة جانباً واستخدمها باعتدال.",
-        "اختر قطعة لحم بقري قليلة الدهن وأزل الدهون الظاهرة قبل الطهي.",
-        "أضف طبقاً من شرائح الخيار أو الخضار المطهوة على البخار لزيادة حجم الوجبة بسعرات قليلة."
-      ]
-    },
-    "it": {
-      "name": "Sate Padang",
-      "origin": "Indonesia · Sumatra Occidentale",
-      "intro": "Il sate Padang è un satay di manzo di Sumatra Occidentale: la carne viene prima cotta lentamente con curcuma, citronella e peperoncino finché è tenera, poi grigliata su spiedini. Invece di una salsa dolce, viene ricoperta da un denso sugo giallo piccante, addensato con arachidi e riso macinati. Si serve con il ketupat, tortini di riso pressato, che lo rendono un pasto sostanzioso.",
-      "history": "Il sate Padang viene dal popolo minangkabau di Sumatra Occidentale e prende il nome dal capoluogo della regione, Padang. Oggi si vende dai carretti di strada in tutta l'Indonesia, e le varianti locali come il sate Padang Panjang differiscono soprattutto per il colore e le spezie del sugo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "600 g di manzo (punta di petto o fesa)",
-          "1 cucchiaino di curcuma in polvere",
-          "2 gambi di citronella, schiacciati",
-          "3 peperoncini rossi e 4 spicchi d'aglio, frullati",
-          "1 litro di acqua, sale",
-          "100 g di salsa curry alle arachidi pronta",
-          "2 cucchiai di riso macinato mescolati con 100 ml di acqua",
-          "300 g di ketupat (tortini di riso pressato), a cubetti",
-          "1 cucchiaio di olio di semi"
-        ],
-        "steps": [
-          "Cuoci il manzo a fuoco lento nell'acqua con curcuma, citronella, metà della pasta di peperoncino e sale per circa 1 ora e mezza, finché è tenero.",
-          "Togli il manzo, taglialo a cubetti e infilzalo su spiedini; conserva 500 ml di brodo.",
-          "Soffriggi nell'olio la pasta di peperoncino rimasta, aggiungi il brodo e la salsa curry alle arachidi, poi incorpora il composto di riso macinato e cuoci finché si addensa.",
-          "Griglia gli spiedini per 3–4 minuti finché sono leggermente abbrustoliti.",
-          "Disponi il ketupat nei piatti, aggiungi gli spiedini e versaci sopra il sugo caldo."
-        ]
-      },
-      "tips": [
-        "Il sugo e i tortini di riso apportano gran parte dell'energia: chiedi la salsa a parte e usala con parsimonia.",
-        "Scegli un taglio di manzo magro ed elimina il grasso visibile prima della cottura.",
-        "Aggiungi un piatto di cetriolo a fette o verdure al vapore per rendere il pasto più abbondante con poche calorie."
-      ]
-    },
-    "el": {
-      "name": "Σατέ Παντάνγκ",
-      "name_inline": "σατέ Παντάνγκ",
-      "origin": "Ινδονησία · Δυτική Σουμάτρα",
-      "intro": "Το σατέ Παντάνγκ είναι σατέ μοσχαριού από τη Δυτική Σουμάτρα: το κρέας πρώτα σιγοβράζει με κουρκουμά, λεμονόχορτο και τσίλι μέχρι να μαλακώσει και μετά ψήνεται σε σουβλάκια. Αντί για γλυκιά σάλτσα, περιχύνεται με πηχτή, καυτερή κίτρινη σάλτσα που δένει με αλεσμένα φιστίκια και ρύζι. Σερβίρεται με κετουπάτ, πιεσμένα κέικ ρυζιού, που το κάνουν χορταστικό γεύμα.",
-      "history": "Το σατέ Παντάνγκ προέρχεται από τον λαό Μινανγκαμπάου της Δυτικής Σουμάτρας και πήρε το όνομά του από την πρωτεύουσα της περιοχής, το Παντάνγκ. Σήμερα πουλιέται από καροτσάκια του δρόμου σε όλη την Ινδονησία, και τοπικές παραλλαγές όπως το σατέ Παντάνγκ Πανζάνγκ διαφέρουν κυρίως στο χρώμα και τα μπαχαρικά της σάλτσας.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "600 γρ. μοσχάρι (στήθος ή νουά)",
-          "1 κ.γ. κουρκουμάς σε σκόνη",
-          "2 κοτσάνια λεμονόχορτο, χτυπημένα",
-          "3 κόκκινα τσίλι και 4 σκελίδες σκόρδο, πολτοποιημένα",
-          "1 λίτρο νερό, αλάτι",
-          "100 γρ. έτοιμη σάλτσα κάρι με φιστίκια",
-          "2 κ.σ. αλεσμένο ρύζι ανακατεμένο με 100 ml νερό",
-          "300 γρ. κετουπάτ (πιεσμένα κέικ ρυζιού), σε κύβους",
-          "1 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Σιγοβράστε το μοσχάρι στο νερό με τον κουρκουμά, το λεμονόχορτο, τη μισή πάστα τσίλι και αλάτι για περίπου 1,5 ώρα, μέχρι να μαλακώσει.",
-          "Βγάλτε το μοσχάρι, κόψτε το σε μικρούς κύβους και περάστε το σε ξυλάκια· κρατήστε 500 ml από τον ζωμό.",
-          "Τσιγαρίστε την υπόλοιπη πάστα τσίλι στο λάδι, προσθέστε τον ζωμό και τη σάλτσα κάρι με φιστίκια, μετά ανακατέψτε το μείγμα αλεσμένου ρυζιού και μαγειρέψτε μέχρι να πήξει.",
-          "Ψήστε τα σουβλάκια για 3–4 λεπτά μέχρι να καψαλιστούν ελαφρά.",
-          "Βάλτε το κετουπάτ στα πιάτα, προσθέστε τα σουβλάκια και περιχύστε με την καυτή σάλτσα."
-        ]
-      },
-      "tips": [
-        "Η σάλτσα και τα κέικ ρυζιού δίνουν μεγάλο μέρος της ενέργειας: ζητήστε τη σάλτσα χωριστά και χρησιμοποιήστε τη με φειδώ.",
-        "Επιλέξτε άπαχο κομμάτι μοσχαριού και αφαιρέστε το ορατό λίπος πριν από το μαγείρεμα.",
-        "Προσθέστε ένα πιάτο αγγούρι σε φέτες ή λαχανικά στον ατμό για να μεγαλώσει το γεύμα με λίγες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Сате паданг",
-      "origin": "Индонезия · Западная Суматра",
-      "intro": "Сате паданг — западносуматранское сате из говядины, которую сначала варят с куркумой, лемонграссом и чили до мягкости, а затем жарят на шпажках. Вместо сладкого соуса его обильно поливают густой острой жёлтой подливой, загущённой молотым арахисом и рисом. Его подают с кетупатом — прессованными рисовыми кубиками, благодаря которым получается сытная еда.",
-      "history": "Сате паданг происходит от народа минангкабау из Западной Суматры и названо по столице региона — Падангу. Сегодня его продают с уличных тележек по всей Индонезии, а местные варианты, такие как сате паданг-панджанг, различаются в основном цветом и остротой подливы.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 150,
-        "ingredients": [
-          "600 г говядины (грудинка или тазобедренная часть)",
-          "1 ч. л. молотой куркумы",
-          "2 стебля лемонграсса, слегка помятых",
-          "3 красных перца чили и 4 зубчика чеснока, измельчённых в блендере",
-          "1 л воды, соль",
-          "100 г готового арахисового карри-соуса",
-          "2 ст. л. рисовой муки, разведённой в 100 мл воды",
-          "300 г кетупата (прессованных рисовых кубиков), нарезанного кубиками",
-          "1 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Варите говядину в воде с куркумой, лемонграссом, половиной пасты из чили и солью около 1,5 часов до мягкости.",
-          "Выньте говядину, нарежьте небольшими кубиками и нанижите на шпажки; оставьте 500 мл бульона.",
-          "Обжарьте оставшуюся пасту из чили в масле, добавьте бульон и арахисовый карри-соус, затем вмешайте смесь рисовой муки и варите до загустения.",
-          "Жарьте шпажки 3–4 минуты до лёгкой обугленности.",
-          "Выложите кетупат на тарелки, добавьте шпажки и полейте горячей подливой."
-        ]
-      },
-      "tips": [
-        "Подлива и рисовые кубики несут значительную часть энергии: попросите соус отдельно и используйте его умеренно.",
-        "Выбирайте постный кусок говядины и срежьте видимый жир перед приготовлением.",
-        "Добавьте тарелку нарезанного огурца или зелени на пару, чтобы увеличить порцию при малом количестве калорий."
-      ]
-    }
+  "ar": {
+   "name": "ساتي بادانغ",
+   "origin": "إندونيسيا · سومطرة الغربية",
+   "intro": "ساتي بادانغ ساتاي من سومطرة الغربية يُحضَّر من لحم البقر الذي يُسلق أولاً مع الكركم وعشب الليمون والفلفل الحار حتى يطرى، ثم يُشوى على أسياخ. وبدلاً من الصلصة الحلوة يُغمر بمرق أصفر كثيف حار مكثّف بالفول السوداني المطحون والأرز. يُقدَّم مع الكيتوبات، وهي كعكات أرز مضغوطة، فيصبح وجبة مشبعة.",
+   "history": "يعود ساتي بادانغ إلى شعب المينانغكاباو في سومطرة الغربية، ويحمل اسم عاصمة الإقليم بادانغ. ويُباع اليوم من عربات الشوارع في أنحاء إندونيسيا، وتختلف نسخه المحلية مثل ساتي بادانغ بانجانغ أساساً في لون المرق وتوابله.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "600 غ لحم بقري (صدر أو فخذ)",
+     "1 ملعقة صغيرة كركم مطحون",
+     "عودان من عشب الليمون مدقوقان",
+     "3 حبات فلفل أحمر حار و4 فصوص ثوم مهروسة معاً",
+     "1 لتر ماء، ملح",
+     "100 غ صلصة كاري الفول السوداني الجاهزة",
+     "ملعقتان كبيرتان من الأرز المطحون ممزوجتان في 100 مل ماء",
+     "300 غ كيتوبات (كعك أرز مضغوط) مقطّع مكعبات",
+     "1 ملعقة كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "اسلق اللحم في الماء مع الكركم وعشب الليمون ونصف معجون الفلفل والملح نحو ساعة ونصف حتى يطرى.",
+     "أخرج اللحم وقطّعه مكعبات صغيرة واشكّه على الأسياخ، واحتفظ بـ500 مل من المرق.",
+     "اقلِ باقي معجون الفلفل في الزيت، وأضف المرق وصلصة كاري الفول السوداني، ثم أضف خليط الأرز المطحون وقلّب حتى يتكاثف.",
+     "اشوِ الأسياخ 3–4 دقائق حتى تتحمّر قليلاً.",
+     "ضع الكيتوبات في الأطباق وأضف الأسياخ واسكب المرق الساخن فوقها."
+    ]
+   },
+   "tips": [
+    "المرق وكعك الأرز يحملان معظم الطاقة: اطلب الصلصة جانباً واستخدمها باعتدال.",
+    "اختر قطعة لحم بقري قليلة الدهن وأزل الدهون الظاهرة قبل الطهي.",
+    "أضف طبقاً من شرائح الخيار أو الخضار المطهوة على البخار لزيادة حجم الوجبة بسعرات قليلة."
+   ]
+  },
+  "it": {
+   "name": "Sate Padang",
+   "origin": "Indonesia · Sumatra Occidentale",
+   "intro": "Il sate Padang è un satay di manzo di Sumatra Occidentale: la carne viene prima cotta lentamente con curcuma, citronella e peperoncino finché è tenera, poi grigliata su spiedini. Invece di una salsa dolce, viene ricoperta da un denso sugo giallo piccante, addensato con arachidi e riso macinati. Si serve con il ketupat, tortini di riso pressato, che lo rendono un pasto sostanzioso.",
+   "history": "Il sate Padang viene dal popolo minangkabau di Sumatra Occidentale e prende il nome dal capoluogo della regione, Padang. Oggi si vende dai carretti di strada in tutta l'Indonesia, e le varianti locali come il sate Padang Panjang differiscono soprattutto per il colore e le spezie del sugo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "600 g di manzo (punta di petto o fesa)",
+     "1 cucchiaino di curcuma in polvere",
+     "2 gambi di citronella, schiacciati",
+     "3 peperoncini rossi e 4 spicchi d'aglio, frullati",
+     "1 litro di acqua, sale",
+     "100 g di salsa curry alle arachidi pronta",
+     "2 cucchiai di riso macinato mescolati con 100 ml di acqua",
+     "300 g di ketupat (tortini di riso pressato), a cubetti",
+     "1 cucchiaio di olio di semi"
+    ],
+    "steps": [
+     "Cuoci il manzo a fuoco lento nell'acqua con curcuma, citronella, metà della pasta di peperoncino e sale per circa 1 ora e mezza, finché è tenero.",
+     "Togli il manzo, taglialo a cubetti e infilzalo su spiedini; conserva 500 ml di brodo.",
+     "Soffriggi nell'olio la pasta di peperoncino rimasta, aggiungi il brodo e la salsa curry alle arachidi, poi incorpora il composto di riso macinato e cuoci finché si addensa.",
+     "Griglia gli spiedini per 3–4 minuti finché sono leggermente abbrustoliti.",
+     "Disponi il ketupat nei piatti, aggiungi gli spiedini e versaci sopra il sugo caldo."
+    ]
+   },
+   "tips": [
+    "Il sugo e i tortini di riso apportano gran parte dell'energia: chiedi la salsa a parte e usala con parsimonia.",
+    "Scegli un taglio di manzo magro ed elimina il grasso visibile prima della cottura.",
+    "Aggiungi un piatto di cetriolo a fette o verdure al vapore per rendere il pasto più abbondante con poche calorie."
+   ]
+  },
+  "el": {
+   "name": "Σατέ Παντάνγκ",
+   "name_inline": "σατέ Παντάνγκ",
+   "origin": "Ινδονησία · Δυτική Σουμάτρα",
+   "intro": "Το σατέ Παντάνγκ είναι σατέ μοσχαριού από τη Δυτική Σουμάτρα: το κρέας πρώτα σιγοβράζει με κουρκουμά, λεμονόχορτο και τσίλι μέχρι να μαλακώσει και μετά ψήνεται σε σουβλάκια. Αντί για γλυκιά σάλτσα, περιχύνεται με πηχτή, καυτερή κίτρινη σάλτσα που δένει με αλεσμένα φιστίκια και ρύζι. Σερβίρεται με κετουπάτ, πιεσμένα κέικ ρυζιού, που το κάνουν χορταστικό γεύμα.",
+   "history": "Το σατέ Παντάνγκ προέρχεται από τον λαό Μινανγκαμπάου της Δυτικής Σουμάτρας και πήρε το όνομά του από την πρωτεύουσα της περιοχής, το Παντάνγκ. Σήμερα πουλιέται από καροτσάκια του δρόμου σε όλη την Ινδονησία, και τοπικές παραλλαγές όπως το σατέ Παντάνγκ Πανζάνγκ διαφέρουν κυρίως στο χρώμα και τα μπαχαρικά της σάλτσας.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "600 γρ. μοσχάρι (στήθος ή νουά)",
+     "1 κ.γ. κουρκουμάς σε σκόνη",
+     "2 κοτσάνια λεμονόχορτο, χτυπημένα",
+     "3 κόκκινα τσίλι και 4 σκελίδες σκόρδο, πολτοποιημένα",
+     "1 λίτρο νερό, αλάτι",
+     "100 γρ. έτοιμη σάλτσα κάρι με φιστίκια",
+     "2 κ.σ. αλεσμένο ρύζι ανακατεμένο με 100 ml νερό",
+     "300 γρ. κετουπάτ (πιεσμένα κέικ ρυζιού), σε κύβους",
+     "1 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Σιγοβράστε το μοσχάρι στο νερό με τον κουρκουμά, το λεμονόχορτο, τη μισή πάστα τσίλι και αλάτι για περίπου 1,5 ώρα, μέχρι να μαλακώσει.",
+     "Βγάλτε το μοσχάρι, κόψτε το σε μικρούς κύβους και περάστε το σε ξυλάκια· κρατήστε 500 ml από τον ζωμό.",
+     "Τσιγαρίστε την υπόλοιπη πάστα τσίλι στο λάδι, προσθέστε τον ζωμό και τη σάλτσα κάρι με φιστίκια, μετά ανακατέψτε το μείγμα αλεσμένου ρυζιού και μαγειρέψτε μέχρι να πήξει.",
+     "Ψήστε τα σουβλάκια για 3–4 λεπτά μέχρι να καψαλιστούν ελαφρά.",
+     "Βάλτε το κετουπάτ στα πιάτα, προσθέστε τα σουβλάκια και περιχύστε με την καυτή σάλτσα."
+    ]
+   },
+   "tips": [
+    "Η σάλτσα και τα κέικ ρυζιού δίνουν μεγάλο μέρος της ενέργειας: ζητήστε τη σάλτσα χωριστά και χρησιμοποιήστε τη με φειδώ.",
+    "Επιλέξτε άπαχο κομμάτι μοσχαριού και αφαιρέστε το ορατό λίπος πριν από το μαγείρεμα.",
+    "Προσθέστε ένα πιάτο αγγούρι σε φέτες ή λαχανικά στον ατμό για να μεγαλώσει το γεύμα με λίγες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Сате паданг",
+   "origin": "Индонезия · Западная Суматра",
+   "intro": "Сате паданг — западносуматранское сате из говядины, которую сначала варят с куркумой, лемонграссом и чили до мягкости, а затем жарят на шпажках. Вместо сладкого соуса его обильно поливают густой острой жёлтой подливой, загущённой молотым арахисом и рисом. Его подают с кетупатом — прессованными рисовыми кубиками, благодаря которым получается сытная еда.",
+   "history": "Сате паданг происходит от народа минангкабау из Западной Суматры и названо по столице региона — Падангу. Сегодня его продают с уличных тележек по всей Индонезии, а местные варианты, такие как сате паданг-панджанг, различаются в основном цветом и остротой подливы.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "600 г говядины (грудинка или тазобедренная часть)",
+     "1 ч. л. молотой куркумы",
+     "2 стебля лемонграсса, слегка помятых",
+     "3 красных перца чили и 4 зубчика чеснока, измельчённых в блендере",
+     "1 л воды, соль",
+     "100 г готового арахисового карри-соуса",
+     "2 ст. л. рисовой муки, разведённой в 100 мл воды",
+     "300 г кетупата (прессованных рисовых кубиков), нарезанного кубиками",
+     "1 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Варите говядину в воде с куркумой, лемонграссом, половиной пасты из чили и солью около 1,5 часов до мягкости.",
+     "Выньте говядину, нарежьте небольшими кубиками и нанижите на шпажки; оставьте 500 мл бульона.",
+     "Обжарьте оставшуюся пасту из чили в масле, добавьте бульон и арахисовый карри-соус, затем вмешайте смесь рисовой муки и варите до загустения.",
+     "Жарьте шпажки 3–4 минуты до лёгкой обугленности.",
+     "Выложите кетупат на тарелки, добавьте шпажки и полейте горячей подливой."
+    ]
+   },
+   "tips": [
+    "Подлива и рисовые кубики несут значительную часть энергии: попросите соус отдельно и используйте его умеренно.",
+    "Выбирайте постный кусок говядины и срежьте видимый жир перед приготовлением.",
+    "Добавьте тарелку нарезанного огурца или зелени на пару, чтобы увеличить порцию при малом количестве калорий."
+   ]
+  },
+  "es": {
+   "name": "Sate Padang",
+   "origin": "Indonesia · Sumatra Occidental",
+   "intro": "El sate Padang es un satay de res de Sumatra Occidental: la carne se cuece primero con cúrcuma, hierba de limón y chile hasta quedar tierna, y luego se asa en brochetas. En lugar de una salsa dulce, se baña con una salsa espesa, picante y amarilla, ligada con cacahuate molido y arroz. Se sirve con ketupat, pasteles de arroz comprimido, lo que lo convierte en una comida que llena.",
+   "history": "El sate Padang viene del pueblo minangkabau de Sumatra Occidental y debe su nombre a la capital de la región, Padang. Hoy se vende en puestos callejeros por toda Indonesia, y variantes locales como el sate Padang Panjang se distinguen sobre todo por el color y el picante de la salsa.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 150,
+    "ingredients": [
+     "600 g de carne de res (pecho o tapa)",
+     "1 cdta. de cúrcuma molida",
+     "2 tallos de hierba de limón, machacados",
+     "3 chiles rojos y 4 dientes de ajo, molidos",
+     "1 litro de agua, sal",
+     "100 g de salsa de curry de cacahuate lista",
+     "2 cda. de arroz molido mezclado con 100 ml de agua",
+     "300 g de ketupat (pasteles de arroz comprimido), en cubos",
+     "1 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Cuece la carne en el agua con la cúrcuma, la hierba de limón, la mitad de la pasta de chile y la sal durante cerca de 1 hora y media, hasta que esté tierna.",
+     "Saca la carne, córtala en cubos pequeños y ensártala en brochetas; reserva 500 ml del caldo.",
+     "Fríe la pasta de chile restante en el aceite, añade el caldo y la salsa de curry de cacahuate, y luego incorpora la mezcla de arroz molido y cocina hasta que espese.",
+     "Asa las brochetas de 3 a 4 minutos, hasta que queden ligeramente chamuscadas.",
+     "Coloca el ketupat en los platos, agrega las brochetas y baña con la salsa caliente."
+    ]
+   },
+   "tips": [
+    "La salsa y los pasteles de arroz aportan gran parte de la energía: pide la salsa aparte y úsala con moderación.",
+    "Elige un corte magro de res y quita la grasa visible antes de cocinar.",
+    "Añade un plato de pepino en rodajas o de verduras al vapor para que la comida rinda con pocas calorías."
+   ],
+   "name_inline": "el sate Padang"
   }
+ }
 }

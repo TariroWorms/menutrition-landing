@@ -1,177 +1,210 @@
 {
-  "db_key": "warak_enab",
-  "slug": "warak-enab",
-  "emoji": "🍃",
-  "portion_g": 200,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "warak_enab",
+ "slug": "warak-enab",
+ "emoji": "🍃",
+ "portion_g": 200,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Stuffed Grape Leaves",
+   "origin": "Levant · Middle East",
+   "intro": "Warak enab are grape leaves rolled around a filling of rice, minced beef, tomato and fresh mint, then simmered slowly with lemon juice until tender. The rolls are soft and juicy with a tangy, herby flavor. They are served warm as a main dish or as part of a mezze spread.",
+   "history": "Stuffed vine leaves are made across the former Ottoman lands, from the Balkans and Turkey to the Levant and Iraq, under names such as dolma, sarma and warak enab. The meat-filled version is a family favorite cooked for gatherings throughout the Levant.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 120,
+    "ingredients": [
+     "40 grape leaves",
+     "250 g short-grain rice, rinsed",
+     "300 g minced beef",
+     "2 tomatoes, finely chopped",
+     "1 bunch fresh mint, chopped",
+     "Juice of 2 lemons",
+     "1 tsp seven spices, salt",
+     "600 ml water"
+    ],
+    "steps": [
+     "Blanch the grape leaves in hot water for 1–2 minutes and drain.",
+     "Mix the rice, beef, tomato, mint, spices and salt.",
+     "Place a leaf shiny side down, add a teaspoon of filling, fold the sides and roll tightly.",
+     "Pack the rolls snugly in a pot, seam side down, and weigh them with a plate.",
+     "Add the water and lemon juice, bring to a boil, then simmer covered for 60–75 minutes until the rice is tender."
+    ]
+   },
+   "tips": [
+    "Use lean minced beef to cut the fat.",
+    "Serve 6–8 rolls with a large salad instead of a full plate.",
+    "Skip extra oil when cooking — the meat already provides fat."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Stuffed Grape Leaves",
-      "origin": "Levant · Middle East",
-      "intro": "Warak enab are grape leaves rolled around a filling of rice, minced beef, tomato and fresh mint, then simmered slowly with lemon juice until tender. The rolls are soft and juicy with a tangy, herby flavor. They are served warm as a main dish or as part of a mezze spread.",
-      "history": "Stuffed vine leaves are made across the former Ottoman lands, from the Balkans and Turkey to the Levant and Iraq, under names such as dolma, sarma and warak enab. The meat-filled version is a family favorite cooked for gatherings throughout the Levant.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 120,
-        "ingredients": [
-          "40 grape leaves",
-          "250 g short-grain rice, rinsed",
-          "300 g minced beef",
-          "2 tomatoes, finely chopped",
-          "1 bunch fresh mint, chopped",
-          "Juice of 2 lemons",
-          "1 tsp seven spices, salt",
-          "600 ml water"
-        ],
-        "steps": [
-          "Blanch the grape leaves in hot water for 1–2 minutes and drain.",
-          "Mix the rice, beef, tomato, mint, spices and salt.",
-          "Place a leaf shiny side down, add a teaspoon of filling, fold the sides and roll tightly.",
-          "Pack the rolls snugly in a pot, seam side down, and weigh them with a plate.",
-          "Add the water and lemon juice, bring to a boil, then simmer covered for 60–75 minutes until the rice is tender."
-        ]
-      },
-      "tips": [
-        "Use lean minced beef to cut the fat.",
-        "Serve 6–8 rolls with a large salad instead of a full plate.",
-        "Skip extra oil when cooking — the meat already provides fat."
-      ]
-    },
-    "ar": {
-      "name": "ورق عنب",
-      "origin": "بلاد الشام · الشرق الأوسط",
-      "intro": "ورق العنب أوراق عنب تُلفّ حول حشوة من الأرز واللحم المفروم والطماطم والنعناع الطازج، ثم تُطهى ببطء مع عصير الليمون حتى تطرى. الأصابع طرية وريّانة بنكهة حامضة وعشبية. تُقدّم دافئة كطبق رئيسي أو ضمن المازة.",
-      "history": "يُحضَّر ورق العنب المحشي في أرجاء البلاد العثمانية سابقًا، من البلقان وتركيا إلى الشام والعراق، بأسماء مثل الدولمة والسرمة وورق العنب. والنسخة المحشوة باللحم طبق عائلي محبوب يُطهى في المناسبات في بلاد الشام.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 120,
-        "ingredients": [
-          "40 ورقة عنب",
-          "250 غ أرز قصير الحبة مغسول",
-          "300 غ لحم بقر مفروم",
-          "2 حبة طماطم مفرومة ناعمًا",
-          "1 حزمة نعناع طازج مفروم",
-          "عصير 2 ليمونة",
-          "1 ملعقة صغيرة بهارات سبعة وملح",
-          "600 مل ماء"
-        ],
-        "steps": [
-          "اسلق أوراق العنب في ماء ساخن 1–2 دقيقة وصفّها.",
-          "اخلط الأرز واللحم والطماطم والنعناع والبهارات والملح.",
-          "ضع الورقة ووجهها اللامع للأسفل، وأضف ملعقة صغيرة من الحشوة، واطوِ الجانبين ولفّها بإحكام.",
-          "رصّ الأصابع في قدر وفتحتها للأسفل، وضع فوقها صحنًا.",
-          "أضف الماء وعصير الليمون، واتركها تغلي ثم اطهها مغطاة على نار هادئة 60–75 دقيقة حتى ينضج الأرز."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن.",
-        "قدّم 6–8 أصابع مع سلطة كبيرة بدل طبق ممتلئ.",
-        "لا تضف زيتًا عند الطهي — اللحم يوفر الدهن الكافي."
-      ]
-    },
-    "it": {
-      "name": "Foglie di vite ripiene",
-      "name_inline": "foglie di vite ripiene",
-      "origin": "Levante · Medio Oriente",
-      "intro": "I warak enab sono foglie di vite arrotolate intorno a un ripieno di riso, carne macinata di manzo, pomodoro e menta fresca, poi cotte lentamente con succo di limone finché sono tenere. Gli involtini sono morbidi e succosi, dal sapore acidulo ed erbaceo. Si servono tiepidi come piatto principale o come parte di un assortimento di mezze.",
-      "history": "Le foglie di vite ripiene si preparano in tutti i territori dell'ex impero ottomano, dai Balcani e la Turchia al Levante e all'Iraq, con nomi come dolma, sarma e warak enab. La versione con carne è un piatto di famiglia molto amato, cucinato per le occasioni conviviali in tutto il Levante.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 120,
-        "ingredients": [
-          "40 foglie di vite",
-          "250 g di riso a chicco corto, sciacquato",
-          "300 g di carne macinata di manzo",
-          "2 pomodori, tritati finemente",
-          "1 mazzetto di menta fresca, tritata",
-          "Succo di 2 limoni",
-          "1 cucchiaino di sette spezie, sale",
-          "600 ml di acqua"
-        ],
-        "steps": [
-          "Sbollenta le foglie di vite in acqua calda per 1–2 minuti e scolale.",
-          "Mescola il riso, la carne, il pomodoro, la menta, le spezie e il sale.",
-          "Appoggia una foglia con il lato lucido verso il basso, aggiungi un cucchiaino di ripieno, ripiega i lati e arrotola stretto.",
-          "Sistema gli involtini ben stretti in una pentola, con la chiusura verso il basso, e coprili con un piatto per tenerli fermi.",
-          "Aggiungi l'acqua e il succo di limone, porta a ebollizione, poi lascia sobbollire coperto per 60–75 minuti finché il riso è tenero."
-        ]
-      },
-      "tips": [
-        "Usa carne macinata di manzo magra per ridurre i grassi.",
-        "Servi 6–8 involtini con una grande insalata invece di un piatto pieno.",
-        "Non aggiungere olio in cottura: la carne apporta già grassi."
-      ]
-    },
-    "el": {
-      "name": "Γεμιστά αμπελόφυλλα",
-      "name_inline": "γεμιστά αμπελόφυλλα",
-      "origin": "Λεβάντε · Μέση Ανατολή",
-      "intro": "Τα ουάρακ ενάμπ είναι αμπελόφυλλα τυλιγμένα γύρω από γέμιση με ρύζι, μοσχαρίσιο κιμά, ντομάτα και φρέσκο δυόσμο, που σιγοβράζουν με χυμό λεμονιού μέχρι να μαλακώσουν. Τα ρολάκια είναι μαλακά και ζουμερά, με ξινή, μυρωδάτη γεύση. Σερβίρονται ζεστά ως κυρίως πιάτο ή ως μέρος ενός τραπεζιού με μεζέδες.",
-      "history": "Τα γεμιστά αμπελόφυλλα φτιάχνονται σε όλα τα πρώην οθωμανικά εδάφη, από τα Βαλκάνια και την Τουρκία ως το Λεβάντε και το Ιράκ, με ονόματα όπως ντολμάς, σαρμάς και ουάρακ ενάμπ. Η εκδοχή με κρέας είναι αγαπημένο οικογενειακό φαγητό που μαγειρεύεται για συγκεντρώσεις σε όλο το Λεβάντε.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 120,
-        "ingredients": [
-          "40 αμπελόφυλλα",
-          "250 γρ. κοντόσπυρο ρύζι, ξεπλυμένο",
-          "300 γρ. μοσχαρίσιος κιμάς",
-          "2 ντομάτες, ψιλοκομμένες",
-          "1 ματσάκι φρέσκος δυόσμος, ψιλοκομμένος",
-          "Χυμός από 2 λεμόνια",
-          "1 κ.γ. επτά μπαχαρικά, αλάτι",
-          "600 ml νερό"
-        ],
-        "steps": [
-          "Ζεματίστε τα αμπελόφυλλα σε ζεστό νερό για 1–2 λεπτά και στραγγίξτε τα.",
-          "Ανακατέψτε το ρύζι, τον κιμά, την ντομάτα, τον δυόσμο, τα μπαχαρικά και το αλάτι.",
-          "Τοποθετήστε ένα φύλλο με τη γυαλιστερή πλευρά προς τα κάτω, βάλτε ένα κουταλάκι γέμιση, διπλώστε τα πλάγια και τυλίξτε σφιχτά.",
-          "Τακτοποιήστε τα ρολάκια σφιχτά σε κατσαρόλα, με την ένωση προς τα κάτω, και βάλτε από πάνω ένα πιάτο για βάρος.",
-          "Προσθέστε το νερό και τον χυμό λεμονιού, αφήστε να πάρει βράση και σιγοβράστε σκεπασμένα για 60–75 λεπτά μέχρι να μαλακώσει το ρύζι."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά για να μειώσετε το λίπος.",
-        "Σερβίρετε 6–8 ρολάκια με μια μεγάλη σαλάτα αντί για γεμάτο πιάτο.",
-        "Μην προσθέσετε επιπλέον λάδι στο μαγείρεμα — το κρέας δίνει ήδη λίπος."
-      ]
-    },
-    "ru": {
-      "name": "Фаршированные виноградные листья (варак энаб)",
-      "origin": "Левант · Ближний Восток",
-      "intro": "Варак энаб — виноградные листья, завёрнутые вокруг начинки из риса, говяжьего фарша, помидоров и свежей мяты, затем медленно тушённые с лимонным соком до мягкости. Рулетики мягкие и сочные, с кисловатым травяным вкусом. Подаются тёплыми как основное блюдо или как часть мезе.",
-      "history": "Фаршированные виноградные листья готовят по всем бывшим османским землям, от Балкан и Турции до Леванта и Ирака, под названиями вроде долма, сарма и варак энаб. Версия с мясной начинкой — любимое семейное блюдо, готовящееся для встреч по всему Леванту.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 120,
-        "ingredients": [
-          "40 виноградных листьев",
-          "250 г круглозёрного риса, промытого",
-          "300 г говяжьего фарша",
-          "2 помидора, мелко нарубленных",
-          "1 пучок свежей мяты, нарубленной",
-          "Сок 2 лимонов",
-          "1 ч. л. смеси семи специй, соль",
-          "600 мл воды"
-        ],
-        "steps": [
-          "Бланшируйте виноградные листья в горячей воде 1–2 минуты и откиньте.",
-          "Смешайте рис, говядину, помидоры, мяту, специи и соль.",
-          "Положите лист глянцевой стороной вниз, добавьте чайную ложку начинки, подогните стороны и плотно сверните.",
-          "Плотно уложите рулетики в кастрюлю швом вниз и придавите тарелкой.",
-          "Добавьте воду и лимонный сок, доведите до кипения, затем тушите под крышкой 60–75 минут, пока рис не станет мягким."
-        ]
-      },
-      "tips": [
-        "Используйте постный говяжий фарш, чтобы снизить жирность.",
-        "Подавайте 6–8 рулетиков с большим салатом вместо полной тарелки.",
-        "Не добавляйте масло при готовке — мясо уже даёт жир."
-      ],
-      "name_inline": "фаршированные виноградные листья"
-    }
+  "ar": {
+   "name": "ورق عنب",
+   "origin": "بلاد الشام · الشرق الأوسط",
+   "intro": "ورق العنب أوراق عنب تُلفّ حول حشوة من الأرز واللحم المفروم والطماطم والنعناع الطازج، ثم تُطهى ببطء مع عصير الليمون حتى تطرى. الأصابع طرية وريّانة بنكهة حامضة وعشبية. تُقدّم دافئة كطبق رئيسي أو ضمن المازة.",
+   "history": "يُحضَّر ورق العنب المحشي في أرجاء البلاد العثمانية سابقًا، من البلقان وتركيا إلى الشام والعراق، بأسماء مثل الدولمة والسرمة وورق العنب. والنسخة المحشوة باللحم طبق عائلي محبوب يُطهى في المناسبات في بلاد الشام.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 120,
+    "ingredients": [
+     "40 ورقة عنب",
+     "250 غ أرز قصير الحبة مغسول",
+     "300 غ لحم بقر مفروم",
+     "2 حبة طماطم مفرومة ناعمًا",
+     "1 حزمة نعناع طازج مفروم",
+     "عصير 2 ليمونة",
+     "1 ملعقة صغيرة بهارات سبعة وملح",
+     "600 مل ماء"
+    ],
+    "steps": [
+     "اسلق أوراق العنب في ماء ساخن 1–2 دقيقة وصفّها.",
+     "اخلط الأرز واللحم والطماطم والنعناع والبهارات والملح.",
+     "ضع الورقة ووجهها اللامع للأسفل، وأضف ملعقة صغيرة من الحشوة، واطوِ الجانبين ولفّها بإحكام.",
+     "رصّ الأصابع في قدر وفتحتها للأسفل، وضع فوقها صحنًا.",
+     "أضف الماء وعصير الليمون، واتركها تغلي ثم اطهها مغطاة على نار هادئة 60–75 دقيقة حتى ينضج الأرز."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن.",
+    "قدّم 6–8 أصابع مع سلطة كبيرة بدل طبق ممتلئ.",
+    "لا تضف زيتًا عند الطهي — اللحم يوفر الدهن الكافي."
+   ]
+  },
+  "it": {
+   "name": "Foglie di vite ripiene",
+   "name_inline": "foglie di vite ripiene",
+   "origin": "Levante · Medio Oriente",
+   "intro": "I warak enab sono foglie di vite arrotolate intorno a un ripieno di riso, carne macinata di manzo, pomodoro e menta fresca, poi cotte lentamente con succo di limone finché sono tenere. Gli involtini sono morbidi e succosi, dal sapore acidulo ed erbaceo. Si servono tiepidi come piatto principale o come parte di un assortimento di mezze.",
+   "history": "Le foglie di vite ripiene si preparano in tutti i territori dell'ex impero ottomano, dai Balcani e la Turchia al Levante e all'Iraq, con nomi come dolma, sarma e warak enab. La versione con carne è un piatto di famiglia molto amato, cucinato per le occasioni conviviali in tutto il Levante.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 120,
+    "ingredients": [
+     "40 foglie di vite",
+     "250 g di riso a chicco corto, sciacquato",
+     "300 g di carne macinata di manzo",
+     "2 pomodori, tritati finemente",
+     "1 mazzetto di menta fresca, tritata",
+     "Succo di 2 limoni",
+     "1 cucchiaino di sette spezie, sale",
+     "600 ml di acqua"
+    ],
+    "steps": [
+     "Sbollenta le foglie di vite in acqua calda per 1–2 minuti e scolale.",
+     "Mescola il riso, la carne, il pomodoro, la menta, le spezie e il sale.",
+     "Appoggia una foglia con il lato lucido verso il basso, aggiungi un cucchiaino di ripieno, ripiega i lati e arrotola stretto.",
+     "Sistema gli involtini ben stretti in una pentola, con la chiusura verso il basso, e coprili con un piatto per tenerli fermi.",
+     "Aggiungi l'acqua e il succo di limone, porta a ebollizione, poi lascia sobbollire coperto per 60–75 minuti finché il riso è tenero."
+    ]
+   },
+   "tips": [
+    "Usa carne macinata di manzo magra per ridurre i grassi.",
+    "Servi 6–8 involtini con una grande insalata invece di un piatto pieno.",
+    "Non aggiungere olio in cottura: la carne apporta già grassi."
+   ]
+  },
+  "el": {
+   "name": "Γεμιστά αμπελόφυλλα",
+   "name_inline": "γεμιστά αμπελόφυλλα",
+   "origin": "Λεβάντε · Μέση Ανατολή",
+   "intro": "Τα ουάρακ ενάμπ είναι αμπελόφυλλα τυλιγμένα γύρω από γέμιση με ρύζι, μοσχαρίσιο κιμά, ντομάτα και φρέσκο δυόσμο, που σιγοβράζουν με χυμό λεμονιού μέχρι να μαλακώσουν. Τα ρολάκια είναι μαλακά και ζουμερά, με ξινή, μυρωδάτη γεύση. Σερβίρονται ζεστά ως κυρίως πιάτο ή ως μέρος ενός τραπεζιού με μεζέδες.",
+   "history": "Τα γεμιστά αμπελόφυλλα φτιάχνονται σε όλα τα πρώην οθωμανικά εδάφη, από τα Βαλκάνια και την Τουρκία ως το Λεβάντε και το Ιράκ, με ονόματα όπως ντολμάς, σαρμάς και ουάρακ ενάμπ. Η εκδοχή με κρέας είναι αγαπημένο οικογενειακό φαγητό που μαγειρεύεται για συγκεντρώσεις σε όλο το Λεβάντε.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 120,
+    "ingredients": [
+     "40 αμπελόφυλλα",
+     "250 γρ. κοντόσπυρο ρύζι, ξεπλυμένο",
+     "300 γρ. μοσχαρίσιος κιμάς",
+     "2 ντομάτες, ψιλοκομμένες",
+     "1 ματσάκι φρέσκος δυόσμος, ψιλοκομμένος",
+     "Χυμός από 2 λεμόνια",
+     "1 κ.γ. επτά μπαχαρικά, αλάτι",
+     "600 ml νερό"
+    ],
+    "steps": [
+     "Ζεματίστε τα αμπελόφυλλα σε ζεστό νερό για 1–2 λεπτά και στραγγίξτε τα.",
+     "Ανακατέψτε το ρύζι, τον κιμά, την ντομάτα, τον δυόσμο, τα μπαχαρικά και το αλάτι.",
+     "Τοποθετήστε ένα φύλλο με τη γυαλιστερή πλευρά προς τα κάτω, βάλτε ένα κουταλάκι γέμιση, διπλώστε τα πλάγια και τυλίξτε σφιχτά.",
+     "Τακτοποιήστε τα ρολάκια σφιχτά σε κατσαρόλα, με την ένωση προς τα κάτω, και βάλτε από πάνω ένα πιάτο για βάρος.",
+     "Προσθέστε το νερό και τον χυμό λεμονιού, αφήστε να πάρει βράση και σιγοβράστε σκεπασμένα για 60–75 λεπτά μέχρι να μαλακώσει το ρύζι."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά για να μειώσετε το λίπος.",
+    "Σερβίρετε 6–8 ρολάκια με μια μεγάλη σαλάτα αντί για γεμάτο πιάτο.",
+    "Μην προσθέσετε επιπλέον λάδι στο μαγείρεμα — το κρέας δίνει ήδη λίπος."
+   ]
+  },
+  "ru": {
+   "name": "Фаршированные виноградные листья (варак энаб)",
+   "origin": "Левант · Ближний Восток",
+   "intro": "Варак энаб — виноградные листья, завёрнутые вокруг начинки из риса, говяжьего фарша, помидоров и свежей мяты, затем медленно тушённые с лимонным соком до мягкости. Рулетики мягкие и сочные, с кисловатым травяным вкусом. Подаются тёплыми как основное блюдо или как часть мезе.",
+   "history": "Фаршированные виноградные листья готовят по всем бывшим османским землям, от Балкан и Турции до Леванта и Ирака, под названиями вроде долма, сарма и варак энаб. Версия с мясной начинкой — любимое семейное блюдо, готовящееся для встреч по всему Леванту.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 120,
+    "ingredients": [
+     "40 виноградных листьев",
+     "250 г круглозёрного риса, промытого",
+     "300 г говяжьего фарша",
+     "2 помидора, мелко нарубленных",
+     "1 пучок свежей мяты, нарубленной",
+     "Сок 2 лимонов",
+     "1 ч. л. смеси семи специй, соль",
+     "600 мл воды"
+    ],
+    "steps": [
+     "Бланшируйте виноградные листья в горячей воде 1–2 минуты и откиньте.",
+     "Смешайте рис, говядину, помидоры, мяту, специи и соль.",
+     "Положите лист глянцевой стороной вниз, добавьте чайную ложку начинки, подогните стороны и плотно сверните.",
+     "Плотно уложите рулетики в кастрюлю швом вниз и придавите тарелкой.",
+     "Добавьте воду и лимонный сок, доведите до кипения, затем тушите под крышкой 60–75 минут, пока рис не станет мягким."
+    ]
+   },
+   "tips": [
+    "Используйте постный говяжий фарш, чтобы снизить жирность.",
+    "Подавайте 6–8 рулетиков с большим салатом вместо полной тарелки.",
+    "Не добавляйте масло при готовке — мясо уже даёт жир."
+   ],
+   "name_inline": "фаршированные виноградные листья"
+  },
+  "es": {
+   "name": "Hojas de parra rellenas (warak enab)",
+   "origin": "Levante · Medio Oriente",
+   "intro": "El warak enab son hojas de parra enrolladas alrededor de un relleno de arroz, carne molida de res, jitomate y menta fresca, y cocidas lentamente con jugo de limón hasta quedar tiernas. Los rollitos son suaves y jugosos, con un sabor ácido y herbal. Se sirven tibios como plato fuerte o como parte de una mesa de mezze.",
+   "history": "Las hojas de parra rellenas se preparan en las antiguas tierras otomanas, de los Balcanes y Turquía al Levante e Irak, con nombres como dolma, sarma y warak enab. La versión con carne es un favorito familiar que se prepara en reuniones por todo el Levante.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 120,
+    "ingredients": [
+     "40 hojas de parra",
+     "250 g de arroz de grano corto, enjuagado",
+     "300 g de carne molida de res",
+     "2 jitomates picados finos",
+     "1 manojo de menta fresca, picada",
+     "Jugo de 2 limones",
+     "1 cdta. de siete especias, sal",
+     "600 ml de agua"
+    ],
+    "steps": [
+     "Escalda las hojas de parra en agua caliente de 1 a 2 minutos y escúrrelas.",
+     "Mezcla el arroz, la carne, el jitomate, la menta, las especias y la sal.",
+     "Coloca una hoja con el lado brillante hacia abajo, añade una cucharadita de relleno, dobla los lados y enrolla bien apretado.",
+     "Acomoda los rollitos bien juntos en una olla, con la unión hacia abajo, y ponles un plato encima como peso.",
+     "Agrega el agua y el jugo de limón, lleva a ebullición y cocina tapado a fuego lento de 60 a 75 minutos, hasta que el arroz esté tierno."
+    ]
+   },
+   "tips": [
+    "Usa carne molida magra para reducir la grasa.",
+    "Sirve de 6 a 8 rollitos con una ensalada grande en lugar de un plato completo.",
+    "No añadas más aceite al cocinar: la carne ya aporta grasa."
+   ],
+   "name_inline": "el warak enab"
   }
+ }
 }

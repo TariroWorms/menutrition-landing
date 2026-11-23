@@ -1,171 +1,203 @@
 {
-  "db_key": "pirozhki_meat",
-  "slug": "pirozhki-meat",
-  "emoji": "🥟",
-  "portion_g": 150,
-  "country": "RU",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pirozhki_meat",
+ "slug": "pirozhki-meat",
+ "emoji": "🥟",
+ "portion_g": 150,
+ "country": "RU",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pirozhki with meat",
+   "origin": "Russia",
+   "intro": "Pirozhki are small Russian hand pies made from soft yeast dough. This version is filled with minced beef, fried onion, chopped hard-boiled egg and fresh dill, then baked until golden. The crust is light and slightly sweet, the filling savoury and juicy. They are eaten warm as a snack, with soup or on the go.",
+   "history": "Pirozhki have been part of Russian and Eastern Slavic home baking for centuries, made both baked and fried with countless fillings. Meat pirozhki are a classic of Russian home cooking, bakeries and train-station kiosks to this day.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 150,
+    "ingredients": [
+     "500 g plain flour, 7 g dried yeast, 1 tbsp sugar, 1 tsp salt",
+     "250 ml warm water and 3 tbsp oil",
+     "400 g minced beef",
+     "1 large onion, chopped",
+     "2 hard-boiled eggs, chopped",
+     "A small bunch of dill, chopped",
+     "1 beaten egg for glazing"
+    ],
+    "steps": [
+     "Mix the flour, yeast, sugar, salt, water and oil into a soft dough and let it rise for 1 hour.",
+     "Fry the onion, add the beef and cook until browned; cool, then mix in the chopped eggs, dill, salt and pepper.",
+     "Divide the dough into 12 pieces, flatten each, add a spoon of filling and pinch closed.",
+     "Place seam-side down on a tray, rest for 20 minutes and brush with beaten egg.",
+     "Bake at 190 °C for 20–25 minutes until golden."
+    ]
+   },
+   "tips": [
+    "Use lean minced beef and drain the fat after frying.",
+    "Bake rather than deep-fry them.",
+    "Have one or two with a bowl of vegetable soup as a full meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pirozhki with meat",
-      "origin": "Russia",
-      "intro": "Pirozhki are small Russian hand pies made from soft yeast dough. This version is filled with minced beef, fried onion, chopped hard-boiled egg and fresh dill, then baked until golden. The crust is light and slightly sweet, the filling savoury and juicy. They are eaten warm as a snack, with soup or on the go.",
-      "history": "Pirozhki have been part of Russian and Eastern Slavic home baking for centuries, made both baked and fried with countless fillings. Meat pirozhki are a classic of Russian home cooking, bakeries and train-station kiosks to this day.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 150,
-        "ingredients": [
-          "500 g plain flour, 7 g dried yeast, 1 tbsp sugar, 1 tsp salt",
-          "250 ml warm water and 3 tbsp oil",
-          "400 g minced beef",
-          "1 large onion, chopped",
-          "2 hard-boiled eggs, chopped",
-          "A small bunch of dill, chopped",
-          "1 beaten egg for glazing"
-        ],
-        "steps": [
-          "Mix the flour, yeast, sugar, salt, water and oil into a soft dough and let it rise for 1 hour.",
-          "Fry the onion, add the beef and cook until browned; cool, then mix in the chopped eggs, dill, salt and pepper.",
-          "Divide the dough into 12 pieces, flatten each, add a spoon of filling and pinch closed.",
-          "Place seam-side down on a tray, rest for 20 minutes and brush with beaten egg.",
-          "Bake at 190 °C for 20–25 minutes until golden."
-        ]
-      },
-      "tips": [
-        "Use lean minced beef and drain the fat after frying.",
-        "Bake rather than deep-fry them.",
-        "Have one or two with a bowl of vegetable soup as a full meal."
-      ]
-    },
-    "ar": {
-      "name": "بيروجكي باللحم",
-      "origin": "روسيا",
-      "intro": "البيروجكي فطائر روسية صغيرة تُصنع من عجين الخميرة الطري. وتُحشى هذه النسخة بلحم البقر المفروم والبصل المقلي والبيض المسلوق المفروم والشبت الطازج، ثم تُخبز حتى تصبح ذهبية. القشرة خفيفة وحلوة قليلاً، والحشو غني وطري. تؤكل دافئة كوجبة خفيفة أو مع الحساء أو أثناء التنقل.",
-      "history": "البيروجكي جزء من الخَبز المنزلي الروسي والسلافي الشرقي منذ قرون، وتُحضَّر مخبوزة أو مقلية بحشوات لا تُحصى. وما زالت بيروجكي اللحم من كلاسيكيات المطبخ المنزلي الروسي والمخابز وأكشاك محطات القطار حتى اليوم.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 150,
-        "ingredients": [
-          "500 غ دقيق أبيض، 7 غ خميرة جافة، ملعقة كبيرة سكر، ملعقة صغيرة ملح",
-          "250 مل ماء دافئ و3 ملاعق كبيرة زيت",
-          "400 غ لحم بقر مفروم",
-          "بصلة كبيرة مفرومة",
-          "بيضتان مسلوقتان مفرومتان",
-          "حزمة صغيرة شبت مفروم",
-          "بيضة مخفوقة للدهن"
-        ],
-        "steps": [
-          "اخلط الدقيق والخميرة والسكر والملح والماء والزيت في عجينة طرية، واتركها تتخمر ساعة.",
-          "اقلِ البصل، وأضف اللحم وحمّره، ثم اتركه يبرد واخلطه مع البيض المفروم والشبت والملح والفلفل.",
-          "قسّم العجينة إلى 12 قطعة، وافرد كل قطعة وضع ملعقة من الحشو وأغلقها.",
-          "رصّها في صينية والجهة المغلقة للأسفل، واتركها 20 دقيقة ثم ادهنها بالبيض المخفوق.",
-          "اخبزها على 190 °م لمدة 20–25 دقيقة حتى تصبح ذهبية."
-        ]
-      },
-      "tips": [
-        "استخدم لحماً مفروماً قليل الدهن وتخلّص من الدهن بعد القلي.",
-        "اخبزها بدلاً من قليها في زيت غزير.",
-        "تناول قطعة أو اثنتين مع طبق حساء خضار كوجبة كاملة."
-      ]
-    },
-    "it": {
-      "name": "Pirožki con carne",
-      "origin": "Russia",
-      "intro": "I pirožki sono piccoli tortini russi da mangiare con le mani, fatti con un morbido impasto lievitato. Questa versione è ripiena di manzo macinato, cipolla soffritta, uovo sodo tritato e aneto fresco, poi cotta in forno finché è dorata. La crosta è leggera e un po' dolce, il ripieno saporito e succoso. Si mangiano caldi come spuntino, con una zuppa o in movimento.",
-      "history": "I pirožki fanno parte da secoli della panificazione casalinga russa e degli slavi orientali, preparati sia al forno sia fritti con innumerevoli ripieni. I pirožki con carne sono ancora oggi un classico della cucina casalinga russa, delle panetterie e dei chioschi delle stazioni ferroviarie.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 150,
-        "ingredients": [
-          "500 g di farina 00, 7 g di lievito secco, 1 cucchiaio di zucchero, 1 cucchiaino di sale",
-          "250 ml di acqua tiepida e 3 cucchiai di olio",
-          "400 g di manzo macinato",
-          "1 cipolla grande, tritata",
-          "2 uova sode, tritate",
-          "Un mazzetto di aneto, tritato",
-          "1 uovo sbattuto per spennellare"
-        ],
-        "steps": [
-          "Impasta farina, lievito, zucchero, sale, acqua e olio fino a ottenere un impasto morbido e lascialo lievitare per 1 ora.",
-          "Soffriggi la cipolla, aggiungi il manzo e rosolalo; lascia raffreddare, poi unisci le uova tritate, l'aneto, sale e pepe.",
-          "Dividi l'impasto in 12 pezzi, appiattiscili, aggiungi un cucchiaio di ripieno e chiudili pizzicando.",
-          "Disponili su una teglia con la chiusura verso il basso, lasciali riposare 20 minuti e spennellali con l'uovo sbattuto.",
-          "Cuoci a 190 °C per 20–25 minuti finché sono dorati."
-        ]
-      },
-      "tips": [
-        "Usa manzo macinato magro ed elimina il grasso dopo la cottura.",
-        "Cuocili al forno invece di friggerli.",
-        "Mangiane uno o due con una ciotola di zuppa di verdure per un pasto completo."
-      ]
-    },
-    "el": {
-      "name": "Πιροσκί με κρέας",
-      "name_inline": "πιροσκί με κρέας",
-      "origin": "Ρωσία",
-      "intro": "Τα πιροσκί είναι μικρά ρωσικά πιτάκια από μαλακή ζύμη με μαγιά. Αυτή η εκδοχή γεμίζεται με μοσχαρίσιο κιμά, τηγανητό κρεμμύδι, ψιλοκομμένο βραστό αυγό και φρέσκο άνηθο και ψήνεται στον φούρνο μέχρι να ροδίσει. Η ζύμη είναι ελαφριά και λίγο γλυκιά, η γέμιση νόστιμη και ζουμερή. Τρώγονται ζεστά ως σνακ, με σούπα ή στο πόδι.",
-      "history": "Τα πιροσκί είναι εδώ και αιώνες μέρος της σπιτικής αρτοποιίας των Ρώσων και των Ανατολικών Σλάβων, ψημένα ή τηγανητά, με αμέτρητες γεμίσεις. Τα πιροσκί με κρέας παραμένουν μέχρι σήμερα κλασικά στη ρωσική σπιτική κουζίνα, στους φούρνους και στα περίπτερα των σιδηροδρομικών σταθμών.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 150,
-        "ingredients": [
-          "500 γρ. αλεύρι για όλες τις χρήσεις, 7 γρ. ξηρή μαγιά, 1 κ.σ. ζάχαρη, 1 κ.γ. αλάτι",
-          "250 ml χλιαρό νερό και 3 κ.σ. λάδι",
-          "400 γρ. μοσχαρίσιος κιμάς",
-          "1 μεγάλο κρεμμύδι, ψιλοκομμένο",
-          "2 βραστά αυγά, ψιλοκομμένα",
-          "Ένα ματσάκι άνηθος, ψιλοκομμένος",
-          "1 χτυπημένο αυγό για άλειμμα"
-        ],
-        "steps": [
-          "Ανακατέψτε το αλεύρι, τη μαγιά, τη ζάχαρη, το αλάτι, το νερό και το λάδι σε μαλακή ζύμη και αφήστε τη να φουσκώσει 1 ώρα.",
-          "Τηγανίστε το κρεμμύδι, προσθέστε τον κιμά και ροδίστε τον· αφήστε να κρυώσει και ανακατέψτε με τα αυγά, τον άνηθο, αλάτι και πιπέρι.",
-          "Χωρίστε τη ζύμη σε 12 κομμάτια, πατήστε τα, βάλτε μια κουταλιά γέμιση και κλείστε τα πιέζοντας.",
-          "Τοποθετήστε τα σε ταψί με τη ραφή προς τα κάτω, αφήστε τα 20 λεπτά και αλείψτε με χτυπημένο αυγό.",
-          "Ψήστε στους 190 °C για 20–25 λεπτά μέχρι να ροδίσουν."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και αφαιρέστε το λίπος μετά το τηγάνισμα.",
-        "Ψήστε τα στον φούρνο αντί να τα τηγανίσετε.",
-        "Φάτε ένα ή δύο με ένα μπολ σούπα λαχανικών για πλήρες γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Пирожки с мясом",
-      "origin": "Россия",
-      "intro": "Пирожки — небольшие русские пирожки из мягкого дрожжевого теста. Эта версия начинена говяжьим фаршем, жареным луком, рубленым варёным яйцом и свежим укропом, затем запечена до золотистого цвета. Тесто лёгкое и слегка сладковатое, начинка пряная и сочная. Их едят тёплыми как перекус, с супом или на ходу.",
-      "history": "Пирожки веками входят в русскую и восточнославянскую домашнюю выпечку, их делают и печёными, и жареными с бесчисленными начинками. Пирожки с мясом остаются классикой русской домашней кухни, пекарен и киосков на вокзалах до сегодняшнего дня.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 150,
-        "ingredients": [
-          "500 г пшеничной муки, 7 г сухих дрожжей, 1 ст. л. сахара, 1 ч. л. соли",
-          "250 мл тёплой воды и 3 ст. л. масла",
-          "400 г говяжьего фарша",
-          "1 крупная луковица, нарубленная",
-          "2 варёных яйца, нарубленных",
-          "Небольшой пучок укропа, нарубленный",
-          "1 взбитое яйцо для смазывания"
-        ],
-        "steps": [
-          "Замесите из муки, дрожжей, сахара, соли, воды и масла мягкое тесто и дайте подняться 1 час.",
-          "Обжарьте лук, добавьте говядину и готовьте до румяности; остудите, затем вмешайте рубленые яйца, укроп, соль и перец.",
-          "Разделите тесто на 12 частей, расплющите каждую, положите ложку начинки и защипните.",
-          "Выложите швом вниз на противень, дайте отдохнуть 20 минут и смажьте взбитым яйцом.",
-          "Выпекайте при 190 °C 20–25 минут до золотистого цвета."
-        ]
-      },
-      "tips": [
-        "Берите нежирный говяжий фарш и сливайте жир после обжарки.",
-        "Запекайте, а не жарьте во фритюре.",
-        "Съешьте один-два с миской овощного супа как полноценную трапезу."
-      ],
-      "name_inline": "пирожки с мясом"
-    }
+  "ar": {
+   "name": "بيروجكي باللحم",
+   "origin": "روسيا",
+   "intro": "البيروجكي فطائر روسية صغيرة تُصنع من عجين الخميرة الطري. وتُحشى هذه النسخة بلحم البقر المفروم والبصل المقلي والبيض المسلوق المفروم والشبت الطازج، ثم تُخبز حتى تصبح ذهبية. القشرة خفيفة وحلوة قليلاً، والحشو غني وطري. تؤكل دافئة كوجبة خفيفة أو مع الحساء أو أثناء التنقل.",
+   "history": "البيروجكي جزء من الخَبز المنزلي الروسي والسلافي الشرقي منذ قرون، وتُحضَّر مخبوزة أو مقلية بحشوات لا تُحصى. وما زالت بيروجكي اللحم من كلاسيكيات المطبخ المنزلي الروسي والمخابز وأكشاك محطات القطار حتى اليوم.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 150,
+    "ingredients": [
+     "500 غ دقيق أبيض، 7 غ خميرة جافة، ملعقة كبيرة سكر، ملعقة صغيرة ملح",
+     "250 مل ماء دافئ و3 ملاعق كبيرة زيت",
+     "400 غ لحم بقر مفروم",
+     "بصلة كبيرة مفرومة",
+     "بيضتان مسلوقتان مفرومتان",
+     "حزمة صغيرة شبت مفروم",
+     "بيضة مخفوقة للدهن"
+    ],
+    "steps": [
+     "اخلط الدقيق والخميرة والسكر والملح والماء والزيت في عجينة طرية، واتركها تتخمر ساعة.",
+     "اقلِ البصل، وأضف اللحم وحمّره، ثم اتركه يبرد واخلطه مع البيض المفروم والشبت والملح والفلفل.",
+     "قسّم العجينة إلى 12 قطعة، وافرد كل قطعة وضع ملعقة من الحشو وأغلقها.",
+     "رصّها في صينية والجهة المغلقة للأسفل، واتركها 20 دقيقة ثم ادهنها بالبيض المخفوق.",
+     "اخبزها على 190 °م لمدة 20–25 دقيقة حتى تصبح ذهبية."
+    ]
+   },
+   "tips": [
+    "استخدم لحماً مفروماً قليل الدهن وتخلّص من الدهن بعد القلي.",
+    "اخبزها بدلاً من قليها في زيت غزير.",
+    "تناول قطعة أو اثنتين مع طبق حساء خضار كوجبة كاملة."
+   ]
+  },
+  "it": {
+   "name": "Pirožki con carne",
+   "origin": "Russia",
+   "intro": "I pirožki sono piccoli tortini russi da mangiare con le mani, fatti con un morbido impasto lievitato. Questa versione è ripiena di manzo macinato, cipolla soffritta, uovo sodo tritato e aneto fresco, poi cotta in forno finché è dorata. La crosta è leggera e un po' dolce, il ripieno saporito e succoso. Si mangiano caldi come spuntino, con una zuppa o in movimento.",
+   "history": "I pirožki fanno parte da secoli della panificazione casalinga russa e degli slavi orientali, preparati sia al forno sia fritti con innumerevoli ripieni. I pirožki con carne sono ancora oggi un classico della cucina casalinga russa, delle panetterie e dei chioschi delle stazioni ferroviarie.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 150,
+    "ingredients": [
+     "500 g di farina 00, 7 g di lievito secco, 1 cucchiaio di zucchero, 1 cucchiaino di sale",
+     "250 ml di acqua tiepida e 3 cucchiai di olio",
+     "400 g di manzo macinato",
+     "1 cipolla grande, tritata",
+     "2 uova sode, tritate",
+     "Un mazzetto di aneto, tritato",
+     "1 uovo sbattuto per spennellare"
+    ],
+    "steps": [
+     "Impasta farina, lievito, zucchero, sale, acqua e olio fino a ottenere un impasto morbido e lascialo lievitare per 1 ora.",
+     "Soffriggi la cipolla, aggiungi il manzo e rosolalo; lascia raffreddare, poi unisci le uova tritate, l'aneto, sale e pepe.",
+     "Dividi l'impasto in 12 pezzi, appiattiscili, aggiungi un cucchiaio di ripieno e chiudili pizzicando.",
+     "Disponili su una teglia con la chiusura verso il basso, lasciali riposare 20 minuti e spennellali con l'uovo sbattuto.",
+     "Cuoci a 190 °C per 20–25 minuti finché sono dorati."
+    ]
+   },
+   "tips": [
+    "Usa manzo macinato magro ed elimina il grasso dopo la cottura.",
+    "Cuocili al forno invece di friggerli.",
+    "Mangiane uno o due con una ciotola di zuppa di verdure per un pasto completo."
+   ]
+  },
+  "el": {
+   "name": "Πιροσκί με κρέας",
+   "name_inline": "πιροσκί με κρέας",
+   "origin": "Ρωσία",
+   "intro": "Τα πιροσκί είναι μικρά ρωσικά πιτάκια από μαλακή ζύμη με μαγιά. Αυτή η εκδοχή γεμίζεται με μοσχαρίσιο κιμά, τηγανητό κρεμμύδι, ψιλοκομμένο βραστό αυγό και φρέσκο άνηθο και ψήνεται στον φούρνο μέχρι να ροδίσει. Η ζύμη είναι ελαφριά και λίγο γλυκιά, η γέμιση νόστιμη και ζουμερή. Τρώγονται ζεστά ως σνακ, με σούπα ή στο πόδι.",
+   "history": "Τα πιροσκί είναι εδώ και αιώνες μέρος της σπιτικής αρτοποιίας των Ρώσων και των Ανατολικών Σλάβων, ψημένα ή τηγανητά, με αμέτρητες γεμίσεις. Τα πιροσκί με κρέας παραμένουν μέχρι σήμερα κλασικά στη ρωσική σπιτική κουζίνα, στους φούρνους και στα περίπτερα των σιδηροδρομικών σταθμών.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 150,
+    "ingredients": [
+     "500 γρ. αλεύρι για όλες τις χρήσεις, 7 γρ. ξηρή μαγιά, 1 κ.σ. ζάχαρη, 1 κ.γ. αλάτι",
+     "250 ml χλιαρό νερό και 3 κ.σ. λάδι",
+     "400 γρ. μοσχαρίσιος κιμάς",
+     "1 μεγάλο κρεμμύδι, ψιλοκομμένο",
+     "2 βραστά αυγά, ψιλοκομμένα",
+     "Ένα ματσάκι άνηθος, ψιλοκομμένος",
+     "1 χτυπημένο αυγό για άλειμμα"
+    ],
+    "steps": [
+     "Ανακατέψτε το αλεύρι, τη μαγιά, τη ζάχαρη, το αλάτι, το νερό και το λάδι σε μαλακή ζύμη και αφήστε τη να φουσκώσει 1 ώρα.",
+     "Τηγανίστε το κρεμμύδι, προσθέστε τον κιμά και ροδίστε τον· αφήστε να κρυώσει και ανακατέψτε με τα αυγά, τον άνηθο, αλάτι και πιπέρι.",
+     "Χωρίστε τη ζύμη σε 12 κομμάτια, πατήστε τα, βάλτε μια κουταλιά γέμιση και κλείστε τα πιέζοντας.",
+     "Τοποθετήστε τα σε ταψί με τη ραφή προς τα κάτω, αφήστε τα 20 λεπτά και αλείψτε με χτυπημένο αυγό.",
+     "Ψήστε στους 190 °C για 20–25 λεπτά μέχρι να ροδίσουν."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και αφαιρέστε το λίπος μετά το τηγάνισμα.",
+    "Ψήστε τα στον φούρνο αντί να τα τηγανίσετε.",
+    "Φάτε ένα ή δύο με ένα μπολ σούπα λαχανικών για πλήρες γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Пирожки с мясом",
+   "origin": "Россия",
+   "intro": "Пирожки — небольшие русские пирожки из мягкого дрожжевого теста. Эта версия начинена говяжьим фаршем, жареным луком, рубленым варёным яйцом и свежим укропом, затем запечена до золотистого цвета. Тесто лёгкое и слегка сладковатое, начинка пряная и сочная. Их едят тёплыми как перекус, с супом или на ходу.",
+   "history": "Пирожки веками входят в русскую и восточнославянскую домашнюю выпечку, их делают и печёными, и жареными с бесчисленными начинками. Пирожки с мясом остаются классикой русской домашней кухни, пекарен и киосков на вокзалах до сегодняшнего дня.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 150,
+    "ingredients": [
+     "500 г пшеничной муки, 7 г сухих дрожжей, 1 ст. л. сахара, 1 ч. л. соли",
+     "250 мл тёплой воды и 3 ст. л. масла",
+     "400 г говяжьего фарша",
+     "1 крупная луковица, нарубленная",
+     "2 варёных яйца, нарубленных",
+     "Небольшой пучок укропа, нарубленный",
+     "1 взбитое яйцо для смазывания"
+    ],
+    "steps": [
+     "Замесите из муки, дрожжей, сахара, соли, воды и масла мягкое тесто и дайте подняться 1 час.",
+     "Обжарьте лук, добавьте говядину и готовьте до румяности; остудите, затем вмешайте рубленые яйца, укроп, соль и перец.",
+     "Разделите тесто на 12 частей, расплющите каждую, положите ложку начинки и защипните.",
+     "Выложите швом вниз на противень, дайте отдохнуть 20 минут и смажьте взбитым яйцом.",
+     "Выпекайте при 190 °C 20–25 минут до золотистого цвета."
+    ]
+   },
+   "tips": [
+    "Берите нежирный говяжий фарш и сливайте жир после обжарки.",
+    "Запекайте, а не жарьте во фритюре.",
+    "Съешьте один-два с миской овощного супа как полноценную трапезу."
+   ],
+   "name_inline": "пирожки с мясом"
+  },
+  "es": {
+   "name": "Pirozhki de carne",
+   "origin": "Rusia",
+   "intro": "Los pirozhki son pequeñas empanadas rusas hechas con masa suave con levadura. Esta versión lleva carne molida de res, cebolla frita, huevo duro picado y eneldo fresco, y se hornea hasta quedar dorada. La masa es ligera y ligeramente dulce, y el relleno, sabroso y jugoso. Se comen tibios como botana, con sopa o para llevar.",
+   "history": "Los pirozhki forman parte de la repostería casera rusa y eslava oriental desde hace siglos, y se hacen tanto horneados como fritos con innumerables rellenos. Los de carne siguen siendo un clásico de la cocina casera rusa, las panaderías y los quioscos de las estaciones de tren.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 150,
+    "ingredients": [
+     "500 g de harina, 7 g de levadura seca, 1 cda. de azúcar, 1 cdta. de sal",
+     "250 ml de agua tibia y 3 cda. de aceite",
+     "400 g de carne molida de res",
+     "1 cebolla grande, picada",
+     "2 huevos duros, picados",
+     "1 manojo pequeño de eneldo, picado",
+     "1 huevo batido para pincelar"
+    ],
+    "steps": [
+     "Mezcla la harina, la levadura, el azúcar, la sal, el agua y el aceite hasta formar una masa suave y déjala subir 1 hora.",
+     "Fríe la cebolla, agrega la carne y cocina hasta que se dore; deja enfriar y mezcla con los huevos picados, el eneldo, la sal y la pimienta.",
+     "Divide la masa en 12 porciones, aplana cada una, pon una cucharada de relleno y pellizca para cerrar.",
+     "Colócalos con la unión hacia abajo en una charola, déjalos reposar 20 minutos y pincela con huevo batido.",
+     "Hornea a 190 °C de 20 a 25 minutos, hasta que estén dorados."
+    ]
+   },
+   "tips": [
+    "Usa carne molida magra y escurre la grasa después de freír.",
+    "Hornéalos en lugar de freírlos en abundante aceite.",
+    "Come uno o dos con un tazón de sopa de verduras como comida completa."
+   ],
+   "name_inline": "los pirozhki de carne"
   }
+ }
 }

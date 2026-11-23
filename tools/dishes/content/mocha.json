@@ -1,139 +1,165 @@
 {
-  "db_key": "mocha",
-  "slug": "mocha",
-  "emoji": "☕",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mocha",
+ "slug": "mocha",
+ "emoji": "☕",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mocha",
+   "origin": "International · coffee houses",
+   "intro": "A mocha, or caffè mocha, is a coffee-house drink of espresso mixed with chocolate syrup and topped up with steamed milk. It tastes like a cross between a latte and a hot chocolate: bittersweet, creamy and rich. It is served hot in a large cup or glass, sometimes dusted with cocoa.",
+   "history": "The name comes from Mocha, the Yemeni port on the Red Sea that was a major centre of the coffee trade for centuries. The espresso-and-chocolate drink is a later invention that became a standard item on coffee-shop menus worldwide.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 shot espresso (30 ml)",
+     "20 ml chocolate syrup",
+     "200 ml milk"
+    ],
+    "steps": [
+     "Pour the chocolate syrup into a cup.",
+     "Brew the espresso over it and stir to combine.",
+     "Steam or heat and froth the milk and pour it into the cup."
+    ]
+   },
+   "tips": [
+    "Ask for half the chocolate syrup; most of the sugar comes from it.",
+    "Use skimmed milk to cut fat while keeping the creamy texture.",
+    "Choose a small cup instead of a large one."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mocha",
-      "origin": "International · coffee houses",
-      "intro": "A mocha, or caffè mocha, is a coffee-house drink of espresso mixed with chocolate syrup and topped up with steamed milk. It tastes like a cross between a latte and a hot chocolate: bittersweet, creamy and rich. It is served hot in a large cup or glass, sometimes dusted with cocoa.",
-      "history": "The name comes from Mocha, the Yemeni port on the Red Sea that was a major centre of the coffee trade for centuries. The espresso-and-chocolate drink is a later invention that became a standard item on coffee-shop menus worldwide.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 shot espresso (30 ml)",
-          "20 ml chocolate syrup",
-          "200 ml milk"
-        ],
-        "steps": [
-          "Pour the chocolate syrup into a cup.",
-          "Brew the espresso over it and stir to combine.",
-          "Steam or heat and froth the milk and pour it into the cup."
-        ]
-      },
-      "tips": [
-        "Ask for half the chocolate syrup; most of the sugar comes from it.",
-        "Use skimmed milk to cut fat while keeping the creamy texture.",
-        "Choose a small cup instead of a large one."
-      ]
-    },
-    "ar": {
-      "name": "موكا",
-      "origin": "عالمي · المقاهي",
-      "intro": "الموكا أو كافيه موكا مشروب مقاهٍ من الإسبريسو الممزوج بشراب الشوكولاتة والمكمّل بالحليب المبخّر. طعمه بين اللاتيه والشوكولاتة الساخنة: حلو مر وكريمي وغني. يُقدّم ساخنًا في كوب كبير، ويُرش أحيانًا بالكاكاو.",
-      "history": "يأتي الاسم من المخا، الميناء اليمني على البحر الأحمر الذي كان لقرون مركزًا رئيسيًا لتجارة البن. أما مشروب الإسبريسو بالشوكولاتة فاختراع لاحق صار عنصرًا ثابتًا في قوائم المقاهي حول العالم.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 جرعة إسبريسو (30 مل)",
-          "20 مل شراب شوكولاتة",
-          "200 مل حليب"
-        ],
-        "steps": [
-          "اسكب شراب الشوكولاتة في الكوب.",
-          "حضّر الإسبريسو فوقه وحرّك ليمتزج.",
-          "بخّر الحليب أو سخّنه واخفقه واسكبه في الكوب."
-        ]
-      },
-      "tips": [
-        "اطلب نصف كمية شراب الشوكولاتة، فمنه يأتي معظم السكر.",
-        "استعمل حليبًا خالي الدسم لتقليل الدهون مع الحفاظ على القوام الكريمي.",
-        "اختر الكوب الصغير بدل الكبير."
-      ]
-    },
-    "it": {
-      "name": "Mocha",
-      "origin": "Internazionale · caffetterie",
-      "intro": "Il mocha, o caffè mocha, è una bevanda da caffetteria a base di espresso mescolato con sciroppo di cioccolato e completato con latte montato a vapore. Ha il sapore di un incrocio tra un caffellatte e una cioccolata calda: agrodolce, cremoso e ricco. Si serve caldo in una tazza grande o in un bicchiere, a volte spolverizzato di cacao.",
-      "history": "Il nome viene da Mocha, il porto yemenita sul Mar Rosso che per secoli fu un importante centro del commercio del caffè. La bevanda a base di espresso e cioccolato è un'invenzione successiva, diventata una voce fissa nei menù delle caffetterie di tutto il mondo.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 espresso (30 ml)",
-          "20 ml di sciroppo di cioccolato",
-          "200 ml di latte"
-        ],
-        "steps": [
-          "Versa lo sciroppo di cioccolato in una tazza.",
-          "Prepara l'espresso direttamente sopra e mescola.",
-          "Monta il latte a vapore, oppure scaldalo e montalo, e versalo nella tazza."
-        ]
-      },
-      "tips": [
-        "Chiedi metà dello sciroppo di cioccolato: la maggior parte dello zucchero viene da lì.",
-        "Usa latte scremato per ridurre i grassi mantenendo la consistenza cremosa.",
-        "Scegli una tazza piccola invece di una grande."
-      ]
-    },
-    "el": {
-      "name": "Μόκα",
-      "origin": "Διεθνής · καφετέριες",
-      "intro": "Ο μόκα, ή καφέ μόκα, είναι ρόφημα καφετέριας από εσπρέσο ανακατεμένο με σιρόπι σοκολάτας και συμπληρωμένο με ζεστό αφρόγαλα. Η γεύση του είναι κάτι ανάμεσα σε λάτε και ζεστή σοκολάτα: γλυκόπικρη, κρεμώδης και πλούσια. Σερβίρεται ζεστός σε μεγάλη κούπα ή ποτήρι, μερικές φορές πασπαλισμένος με κακάο.",
-      "history": "Το όνομα προέρχεται από τη Μόκα, το λιμάνι της Υεμένης στην Ερυθρά Θάλασσα που για αιώνες ήταν σημαντικό κέντρο του εμπορίου καφέ. Το ρόφημα με εσπρέσο και σοκολάτα είναι μεταγενέστερη επινόηση που έγινε βασικό είδος στα μενού των καφετεριών παγκοσμίως.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 σφηνάκι εσπρέσο (30 ml)",
-          "20 ml σιρόπι σοκολάτας",
-          "200 ml γάλα"
-        ],
-        "steps": [
-          "Ρίξτε το σιρόπι σοκολάτας σε μια κούπα.",
-          "Βγάλτε τον εσπρέσο από πάνω και ανακατέψτε.",
-          "Ζεστάνετε το γάλα με ατμό ή ζεστάνετε και αφρίστε το και ρίξτε το στην κούπα."
-        ]
-      },
-      "tips": [
-        "Ζητήστε το μισό σιρόπι σοκολάτας· από εκεί προέρχεται η περισσότερη ζάχαρη.",
-        "Χρησιμοποιήστε αποβουτυρωμένο γάλα για λιγότερα λιπαρά με την ίδια κρεμώδη υφή.",
-        "Προτιμήστε μικρή κούπα αντί για μεγάλη."
-      ]
-    },
-    "ru": {
-      "name": "Мокка",
-      "origin": "Международное · кофейни",
-      "intro": "Мокка, или кафе мокка, — кофейный напиток из эспрессо, смешанного с шоколадным сиропом и дополненного паровым молоком. На вкус это нечто среднее между латте и горячим шоколадом: горько-сладкий, сливочный и насыщенный. Его подают горячим в большой чашке или стакане, иногда посыпав какао.",
-      "history": "Название происходит от Мокки, йеменского порта на Красном море, который веками был крупным центром торговли кофе. Напиток из эспрессо и шоколада — более позднее изобретение, ставшее стандартной позицией в меню кофеен по всему миру.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 порция эспрессо (30 мл)",
-          "20 мл шоколадного сиропа",
-          "200 мл молока"
-        ],
-        "steps": [
-          "Налейте шоколадный сироп в чашку.",
-          "Заварите эспрессо поверх него и перемешайте.",
-          "Вспеньте или нагрейте молоко и влейте в чашку."
-        ]
-      },
-      "tips": [
-        "Попросите вдвое меньше шоколадного сиропа; основная часть сахара приходит из него.",
-        "Используйте обезжиренное молоко, чтобы снизить жирность, сохранив кремовую текстуру.",
-        "Выбирайте маленькую чашку вместо большой."
-      ]
-    }
+  "ar": {
+   "name": "موكا",
+   "origin": "عالمي · المقاهي",
+   "intro": "الموكا أو كافيه موكا مشروب مقاهٍ من الإسبريسو الممزوج بشراب الشوكولاتة والمكمّل بالحليب المبخّر. طعمه بين اللاتيه والشوكولاتة الساخنة: حلو مر وكريمي وغني. يُقدّم ساخنًا في كوب كبير، ويُرش أحيانًا بالكاكاو.",
+   "history": "يأتي الاسم من المخا، الميناء اليمني على البحر الأحمر الذي كان لقرون مركزًا رئيسيًا لتجارة البن. أما مشروب الإسبريسو بالشوكولاتة فاختراع لاحق صار عنصرًا ثابتًا في قوائم المقاهي حول العالم.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 جرعة إسبريسو (30 مل)",
+     "20 مل شراب شوكولاتة",
+     "200 مل حليب"
+    ],
+    "steps": [
+     "اسكب شراب الشوكولاتة في الكوب.",
+     "حضّر الإسبريسو فوقه وحرّك ليمتزج.",
+     "بخّر الحليب أو سخّنه واخفقه واسكبه في الكوب."
+    ]
+   },
+   "tips": [
+    "اطلب نصف كمية شراب الشوكولاتة، فمنه يأتي معظم السكر.",
+    "استعمل حليبًا خالي الدسم لتقليل الدهون مع الحفاظ على القوام الكريمي.",
+    "اختر الكوب الصغير بدل الكبير."
+   ]
+  },
+  "it": {
+   "name": "Mocha",
+   "origin": "Internazionale · caffetterie",
+   "intro": "Il mocha, o caffè mocha, è una bevanda da caffetteria a base di espresso mescolato con sciroppo di cioccolato e completato con latte montato a vapore. Ha il sapore di un incrocio tra un caffellatte e una cioccolata calda: agrodolce, cremoso e ricco. Si serve caldo in una tazza grande o in un bicchiere, a volte spolverizzato di cacao.",
+   "history": "Il nome viene da Mocha, il porto yemenita sul Mar Rosso che per secoli fu un importante centro del commercio del caffè. La bevanda a base di espresso e cioccolato è un'invenzione successiva, diventata una voce fissa nei menù delle caffetterie di tutto il mondo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 espresso (30 ml)",
+     "20 ml di sciroppo di cioccolato",
+     "200 ml di latte"
+    ],
+    "steps": [
+     "Versa lo sciroppo di cioccolato in una tazza.",
+     "Prepara l'espresso direttamente sopra e mescola.",
+     "Monta il latte a vapore, oppure scaldalo e montalo, e versalo nella tazza."
+    ]
+   },
+   "tips": [
+    "Chiedi metà dello sciroppo di cioccolato: la maggior parte dello zucchero viene da lì.",
+    "Usa latte scremato per ridurre i grassi mantenendo la consistenza cremosa.",
+    "Scegli una tazza piccola invece di una grande."
+   ]
+  },
+  "el": {
+   "name": "Μόκα",
+   "origin": "Διεθνής · καφετέριες",
+   "intro": "Ο μόκα, ή καφέ μόκα, είναι ρόφημα καφετέριας από εσπρέσο ανακατεμένο με σιρόπι σοκολάτας και συμπληρωμένο με ζεστό αφρόγαλα. Η γεύση του είναι κάτι ανάμεσα σε λάτε και ζεστή σοκολάτα: γλυκόπικρη, κρεμώδης και πλούσια. Σερβίρεται ζεστός σε μεγάλη κούπα ή ποτήρι, μερικές φορές πασπαλισμένος με κακάο.",
+   "history": "Το όνομα προέρχεται από τη Μόκα, το λιμάνι της Υεμένης στην Ερυθρά Θάλασσα που για αιώνες ήταν σημαντικό κέντρο του εμπορίου καφέ. Το ρόφημα με εσπρέσο και σοκολάτα είναι μεταγενέστερη επινόηση που έγινε βασικό είδος στα μενού των καφετεριών παγκοσμίως.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 σφηνάκι εσπρέσο (30 ml)",
+     "20 ml σιρόπι σοκολάτας",
+     "200 ml γάλα"
+    ],
+    "steps": [
+     "Ρίξτε το σιρόπι σοκολάτας σε μια κούπα.",
+     "Βγάλτε τον εσπρέσο από πάνω και ανακατέψτε.",
+     "Ζεστάνετε το γάλα με ατμό ή ζεστάνετε και αφρίστε το και ρίξτε το στην κούπα."
+    ]
+   },
+   "tips": [
+    "Ζητήστε το μισό σιρόπι σοκολάτας· από εκεί προέρχεται η περισσότερη ζάχαρη.",
+    "Χρησιμοποιήστε αποβουτυρωμένο γάλα για λιγότερα λιπαρά με την ίδια κρεμώδη υφή.",
+    "Προτιμήστε μικρή κούπα αντί για μεγάλη."
+   ]
+  },
+  "ru": {
+   "name": "Мокка",
+   "origin": "Международное · кофейни",
+   "intro": "Мокка, или кафе мокка, — кофейный напиток из эспрессо, смешанного с шоколадным сиропом и дополненного паровым молоком. На вкус это нечто среднее между латте и горячим шоколадом: горько-сладкий, сливочный и насыщенный. Его подают горячим в большой чашке или стакане, иногда посыпав какао.",
+   "history": "Название происходит от Мокки, йеменского порта на Красном море, который веками был крупным центром торговли кофе. Напиток из эспрессо и шоколада — более позднее изобретение, ставшее стандартной позицией в меню кофеен по всему миру.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 порция эспрессо (30 мл)",
+     "20 мл шоколадного сиропа",
+     "200 мл молока"
+    ],
+    "steps": [
+     "Налейте шоколадный сироп в чашку.",
+     "Заварите эспрессо поверх него и перемешайте.",
+     "Вспеньте или нагрейте молоко и влейте в чашку."
+    ]
+   },
+   "tips": [
+    "Попросите вдвое меньше шоколадного сиропа; основная часть сахара приходит из него.",
+    "Используйте обезжиренное молоко, чтобы снизить жирность, сохранив кремовую текстуру.",
+    "Выбирайте маленькую чашку вместо большой."
+   ]
+  },
+  "es": {
+   "name": "Mocha",
+   "origin": "Internacional · cafeterías",
+   "intro": "El mocha, o caffè mocha, es una bebida de cafetería que mezcla espresso con sirope de chocolate y se completa con leche vaporizada. Sabe a medio camino entre un latte y un chocolate caliente: agridulce, cremoso y rico. Se sirve caliente en una taza o vaso grande, a veces espolvoreado con cacao.",
+   "history": "El nombre viene de Moca, el puerto yemení del mar Rojo que fue durante siglos un gran centro del comercio del café. La bebida de espresso con chocolate es un invento posterior que se volvió un clásico de las cartas de cafeterías de todo el mundo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 shot de espresso (30 ml)",
+     "20 ml de sirope de chocolate",
+     "200 ml de leche"
+    ],
+    "steps": [
+     "Vierte el sirope de chocolate en una taza.",
+     "Prepara el espresso encima y revuelve para integrar.",
+     "Vaporiza o calienta y espuma la leche, y viértela en la taza."
+    ]
+   },
+   "tips": [
+    "Pide la mitad del sirope de chocolate: de ahí viene casi todo el azúcar.",
+    "Usa leche descremada para reducir la grasa y mantener la textura cremosa.",
+    "Elige una taza pequeña en lugar de una grande."
+   ],
+   "name_inline": "el mocha"
   }
+ }
 }

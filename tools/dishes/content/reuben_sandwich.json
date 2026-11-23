@@ -1,159 +1,189 @@
 {
-  "db_key": "reuben_sandwich",
-  "slug": "reuben-sandwich",
-  "emoji": "🥪",
-  "portion_g": 250,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "reuben_sandwich",
+ "slug": "reuben-sandwich",
+ "emoji": "🥪",
+ "portion_g": 250,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Reuben Sandwich",
+   "origin": "United States · New York / Nebraska",
+   "intro": "The Reuben is a hot American deli sandwich of corned beef, Swiss cheese and sauerkraut with Russian dressing between slices of rye bread, griddled until the bread is crisp and the cheese melts. It is salty, tangy and rich, and usually comes with a pickle on the side.",
+   "history": "Its origin is disputed: one story credits Reuben Kulakofsky, a grocer in Omaha, Nebraska, and another Arnold Reuben's delicatessen in New York, both in the early 20th century. It remains a classic of Jewish-style American delis.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 slices rye bread",
+     "200 g corned beef, thinly sliced",
+     "4 slices Swiss cheese (about 80 g)",
+     "150 g sauerkraut, drained",
+     "3 tbsp Russian dressing",
+     "1 tbsp oil for the pan"
+    ],
+    "steps": [
+     "Spread dressing on the inside of each bread slice.",
+     "Layer cheese, corned beef and squeezed-dry sauerkraut on two slices and top with the others.",
+     "Brush a pan with oil and cook the sandwiches over medium heat 3–4 minutes per side, pressing gently, until crisp and melted.",
+     "Cut in half and serve hot."
+    ]
+   },
+   "tips": [
+    "Use one slice of cheese per sandwich instead of two.",
+    "Halve the dressing; 1 tbsp of a mayonnaise-based dressing is roughly 70–80 kcal.",
+    "Make it open-faced on one slice of rye and add extra sauerkraut."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Reuben Sandwich",
-      "origin": "United States · New York / Nebraska",
-      "intro": "The Reuben is a hot American deli sandwich of corned beef, Swiss cheese and sauerkraut with Russian dressing between slices of rye bread, griddled until the bread is crisp and the cheese melts. It is salty, tangy and rich, and usually comes with a pickle on the side.",
-      "history": "Its origin is disputed: one story credits Reuben Kulakofsky, a grocer in Omaha, Nebraska, and another Arnold Reuben's delicatessen in New York, both in the early 20th century. It remains a classic of Jewish-style American delis.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 slices rye bread",
-          "200 g corned beef, thinly sliced",
-          "4 slices Swiss cheese (about 80 g)",
-          "150 g sauerkraut, drained",
-          "3 tbsp Russian dressing",
-          "1 tbsp oil for the pan"
-        ],
-        "steps": [
-          "Spread dressing on the inside of each bread slice.",
-          "Layer cheese, corned beef and squeezed-dry sauerkraut on two slices and top with the others.",
-          "Brush a pan with oil and cook the sandwiches over medium heat 3–4 minutes per side, pressing gently, until crisp and melted.",
-          "Cut in half and serve hot."
-        ]
-      },
-      "tips": [
-        "Use one slice of cheese per sandwich instead of two.",
-        "Halve the dressing; 1 tbsp of a mayonnaise-based dressing is roughly 70–80 kcal.",
-        "Make it open-faced on one slice of rye and add extra sauerkraut."
-      ]
-    },
-    "ar": {
-      "name": "ساندويتش روبن",
-      "origin": "الولايات المتحدة · نيويورك / نبراسكا",
-      "intro": "ساندويتش روبن من أشهر سندويشات محلات الأطعمة الجاهزة الأمريكية، يتكون من لحم بقري مملح وجبن سويسري ومخلل الملفوف مع صلصة روسية بين شريحتين من خبز الجاودار، ويُحمّص على الصاج حتى يقرمش الخبز ويذوب الجبن. طعمه مالح حامض وغني، ويُقدَّم عادة مع خيار مخلل.",
-      "history": "أصله موضع خلاف: تنسبه رواية إلى روبن كولاكوفسكي، صاحب بقالة في أوماها بولاية نبراسكا، وأخرى إلى مطعم أرنولد روبن في نيويورك، وكلاهما في أوائل القرن العشرين. ولا يزال من كلاسيكيات المطاعم الأمريكية ذات الطابع اليهودي.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 شرائح خبز جاودار",
-          "200 غ لحم بقري مملح شرائح رقيقة",
-          "4 شرائح جبن سويسري (نحو 80 غ)",
-          "150 غ مخلل ملفوف مصفى",
-          "3 ملاعق كبيرة صلصة روسية",
-          "ملعقة كبيرة زيت للمقلاة"
-        ],
-        "steps": [
-          "ادهن الوجه الداخلي لكل شريحة خبز بالصلصة.",
-          "رتّب الجبن واللحم ومخلل الملفوف المعصور جيدًا على شريحتين وغطّهما بالشريحتين الأخريين.",
-          "ادهن مقلاة بالزيت واطهُ السندويشات على نار متوسطة 3 إلى 4 دقائق لكل جهة مع الضغط الخفيف حتى تقرمش ويذوب الجبن.",
-          "قطّعها نصفين وقدّمها ساخنة."
-        ]
-      },
-      "tips": [
-        "استخدم شريحة جبن واحدة لكل ساندويتش بدلًا من اثنتين.",
-        "قلّل الصلصة إلى النصف؛ فملعقة كبيرة من صلصة أساسها المايونيز تعطي نحو 70 إلى 80 سعرة.",
-        "اجعله مفتوحًا على شريحة جاودار واحدة وأضف مزيدًا من مخلل الملفوف."
-      ]
-    },
-    "it": {
-      "name": "Reuben Sandwich",
-      "origin": "Stati Uniti · New York / Nebraska",
-      "intro": "Il Reuben è un sandwich caldo tipico delle deli americane, con corned beef, formaggio svizzero e crauti conditi con salsa Russian dressing tra fette di pane di segale, cotto sulla piastra finché il pane è croccante e il formaggio si scioglie. È salato, acidulo e ricco, e di solito viene servito con un cetriolo sottaceto a parte.",
-      "history": "La sua origine è contesa: una versione la attribuisce a Reuben Kulakofsky, droghiere di Omaha, in Nebraska, un'altra alla delicatessen di Arnold Reuben a New York, entrambe all'inizio del XX secolo. Resta un classico delle deli americane di tradizione ebraica.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 fette di pane di segale",
-          "200 g di corned beef, a fette sottili",
-          "4 fette di formaggio svizzero (circa 80 g)",
-          "150 g di crauti, scolati",
-          "3 cucchiai di Russian dressing",
-          "1 cucchiaio di olio per la padella"
-        ],
-        "steps": [
-          "Spalma la salsa sul lato interno di ogni fetta di pane.",
-          "Disponi a strati formaggio, corned beef e crauti ben strizzati su due fette e copri con le altre.",
-          "Ungi una padella con l'olio e cuoci i sandwich a fuoco medio 3–4 minuti per lato, premendo delicatamente, finché sono croccanti e il formaggio è fuso.",
-          "Taglia a metà e servi caldo."
-        ]
-      },
-      "tips": [
-        "Usa una fetta di formaggio per sandwich invece di due.",
-        "Dimezza la salsa: 1 cucchiaio di una salsa a base di maionese corrisponde a circa 70–80 kcal.",
-        "Preparalo aperto su una sola fetta di segale e aggiungi più crauti."
-      ]
-    },
-    "el": {
-      "name": "Σάντουιτς Ρούμπεν",
-      "origin": "Ηνωμένες Πολιτείες · Νέα Υόρκη / Νεμπράσκα",
-      "intro": "Το Ρούμπεν είναι ζεστό αμερικανικό σάντουιτς των deli με κόρνεντ μπιφ, ελβετικό τυρί και ξινολάχανο με σάλτσα Russian dressing ανάμεσα σε φέτες ψωμί σίκαλης, ψημένο στην πλάκα ώσπου το ψωμί να γίνει τραγανό και το τυρί να λιώσει. Είναι αλμυρό, ξινούτσικο και πλούσιο, και συνήθως σερβίρεται με ένα αγγουράκι τουρσί στο πλάι.",
-      "history": "Η προέλευσή του αμφισβητείται: μια εκδοχή την αποδίδει στον Ρούμπεν Κουλακόφσκι, μπακάλη στην Ομάχα της Νεμπράσκα, και μια άλλη στο ντελικατέσεν του Άρνολντ Ρούμπεν στη Νέα Υόρκη, και οι δύο στις αρχές του 20ού αιώνα. Παραμένει κλασικό των αμερικανικών deli εβραϊκού στιλ.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 φέτες ψωμί σίκαλης",
-          "200 γρ. κόρνεντ μπιφ, σε λεπτές φέτες",
-          "4 φέτες ελβετικό τυρί (περίπου 80 γρ.)",
-          "150 γρ. ξινολάχανο, στραγγισμένο",
-          "3 κ.σ. σάλτσα Russian dressing",
-          "1 κ.σ. λάδι για το τηγάνι"
-        ],
-        "steps": [
-          "Αλείψτε τη σάλτσα στην εσωτερική πλευρά κάθε φέτας ψωμιού.",
-          "Στρώστε τυρί, κόρνεντ μπιφ και καλά στυμμένο ξινολάχανο σε δύο φέτες και σκεπάστε με τις άλλες.",
-          "Αλείψτε ένα τηγάνι με λάδι και ψήστε τα σάντουιτς σε μέτρια φωτιά 3–4 λεπτά από κάθε πλευρά, πιέζοντας απαλά, ώσπου να γίνουν τραγανά και να λιώσει το τυρί.",
-          "Κόψτε στη μέση και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε μία φέτα τυρί ανά σάντουιτς αντί για δύο.",
-        "Μειώστε τη σάλτσα στο μισό· 1 κ.σ. σάλτσας με βάση τη μαγιονέζα έχει περίπου 70–80 kcal.",
-        "Φτιάξτε το ανοιχτό πάνω σε μία φέτα σίκαλης και προσθέστε περισσότερο ξινολάχανο."
-      ]
-    },
-    "ru": {
-      "name": "Сэндвич Рубен",
-      "origin": "США · Нью-Йорк / Небраска",
-      "intro": "Рубен — горячий американский сэндвич из деликатесной лавки: солонина, швейцарский сыр и квашеная капуста с русской заправкой между ломтиками ржаного хлеба, обжаренный на сковороде, пока хлеб не станет хрустящим, а сыр не расплавится. Он солёный, пикантный и сытный и обычно подаётся с маринованным огурцом на гарнир.",
-      "history": "Его происхождение оспаривается: по одной версии, автор — Рубен Кулаковски, бакалейщик из Омахи, Небраска, по другой — деликатесная лавка Арнольда Рубена в Нью-Йорке, обе в начале XX века. Это остаётся классикой американских деликатесных лавок в еврейском стиле.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 ломтика ржаного хлеба",
-          "200 г солонины, тонко нарезанной",
-          "4 ломтика швейцарского сыра (около 80 г)",
-          "150 г квашеной капусты, обсушенной",
-          "3 ст. л. русской заправки",
-          "1 ст. л. масла для сковороды"
-        ],
-        "steps": [
-          "Намажьте заправкой внутреннюю сторону каждого ломтика хлеба.",
-          "Выложите слоями сыр, солонину и отжатую квашеную капусту на два ломтика и накройте остальными.",
-          "Смажьте сковороду маслом и обжаривайте сэндвичи на среднем огне по 3–4 минуты с каждой стороны, слегка прижимая, до хруста и расплавленного сыра.",
-          "Разрежьте пополам и подавайте горячими."
-        ]
-      },
-      "tips": [
-        "Используйте один ломтик сыра на сэндвич вместо двух.",
-        "Уменьшите заправку вдвое; 1 ст. л. заправки на основе майонеза — примерно 70–80 ккал.",
-        "Сделайте его открытым на одном ломтике ржаного хлеба и добавьте больше квашеной капусты."
-      ]
-    }
+  "ar": {
+   "name": "ساندويتش روبن",
+   "origin": "الولايات المتحدة · نيويورك / نبراسكا",
+   "intro": "ساندويتش روبن من أشهر سندويشات محلات الأطعمة الجاهزة الأمريكية، يتكون من لحم بقري مملح وجبن سويسري ومخلل الملفوف مع صلصة روسية بين شريحتين من خبز الجاودار، ويُحمّص على الصاج حتى يقرمش الخبز ويذوب الجبن. طعمه مالح حامض وغني، ويُقدَّم عادة مع خيار مخلل.",
+   "history": "أصله موضع خلاف: تنسبه رواية إلى روبن كولاكوفسكي، صاحب بقالة في أوماها بولاية نبراسكا، وأخرى إلى مطعم أرنولد روبن في نيويورك، وكلاهما في أوائل القرن العشرين. ولا يزال من كلاسيكيات المطاعم الأمريكية ذات الطابع اليهودي.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 شرائح خبز جاودار",
+     "200 غ لحم بقري مملح شرائح رقيقة",
+     "4 شرائح جبن سويسري (نحو 80 غ)",
+     "150 غ مخلل ملفوف مصفى",
+     "3 ملاعق كبيرة صلصة روسية",
+     "ملعقة كبيرة زيت للمقلاة"
+    ],
+    "steps": [
+     "ادهن الوجه الداخلي لكل شريحة خبز بالصلصة.",
+     "رتّب الجبن واللحم ومخلل الملفوف المعصور جيدًا على شريحتين وغطّهما بالشريحتين الأخريين.",
+     "ادهن مقلاة بالزيت واطهُ السندويشات على نار متوسطة 3 إلى 4 دقائق لكل جهة مع الضغط الخفيف حتى تقرمش ويذوب الجبن.",
+     "قطّعها نصفين وقدّمها ساخنة."
+    ]
+   },
+   "tips": [
+    "استخدم شريحة جبن واحدة لكل ساندويتش بدلًا من اثنتين.",
+    "قلّل الصلصة إلى النصف؛ فملعقة كبيرة من صلصة أساسها المايونيز تعطي نحو 70 إلى 80 سعرة.",
+    "اجعله مفتوحًا على شريحة جاودار واحدة وأضف مزيدًا من مخلل الملفوف."
+   ]
+  },
+  "it": {
+   "name": "Reuben Sandwich",
+   "origin": "Stati Uniti · New York / Nebraska",
+   "intro": "Il Reuben è un sandwich caldo tipico delle deli americane, con corned beef, formaggio svizzero e crauti conditi con salsa Russian dressing tra fette di pane di segale, cotto sulla piastra finché il pane è croccante e il formaggio si scioglie. È salato, acidulo e ricco, e di solito viene servito con un cetriolo sottaceto a parte.",
+   "history": "La sua origine è contesa: una versione la attribuisce a Reuben Kulakofsky, droghiere di Omaha, in Nebraska, un'altra alla delicatessen di Arnold Reuben a New York, entrambe all'inizio del XX secolo. Resta un classico delle deli americane di tradizione ebraica.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 fette di pane di segale",
+     "200 g di corned beef, a fette sottili",
+     "4 fette di formaggio svizzero (circa 80 g)",
+     "150 g di crauti, scolati",
+     "3 cucchiai di Russian dressing",
+     "1 cucchiaio di olio per la padella"
+    ],
+    "steps": [
+     "Spalma la salsa sul lato interno di ogni fetta di pane.",
+     "Disponi a strati formaggio, corned beef e crauti ben strizzati su due fette e copri con le altre.",
+     "Ungi una padella con l'olio e cuoci i sandwich a fuoco medio 3–4 minuti per lato, premendo delicatamente, finché sono croccanti e il formaggio è fuso.",
+     "Taglia a metà e servi caldo."
+    ]
+   },
+   "tips": [
+    "Usa una fetta di formaggio per sandwich invece di due.",
+    "Dimezza la salsa: 1 cucchiaio di una salsa a base di maionese corrisponde a circa 70–80 kcal.",
+    "Preparalo aperto su una sola fetta di segale e aggiungi più crauti."
+   ]
+  },
+  "el": {
+   "name": "Σάντουιτς Ρούμπεν",
+   "origin": "Ηνωμένες Πολιτείες · Νέα Υόρκη / Νεμπράσκα",
+   "intro": "Το Ρούμπεν είναι ζεστό αμερικανικό σάντουιτς των deli με κόρνεντ μπιφ, ελβετικό τυρί και ξινολάχανο με σάλτσα Russian dressing ανάμεσα σε φέτες ψωμί σίκαλης, ψημένο στην πλάκα ώσπου το ψωμί να γίνει τραγανό και το τυρί να λιώσει. Είναι αλμυρό, ξινούτσικο και πλούσιο, και συνήθως σερβίρεται με ένα αγγουράκι τουρσί στο πλάι.",
+   "history": "Η προέλευσή του αμφισβητείται: μια εκδοχή την αποδίδει στον Ρούμπεν Κουλακόφσκι, μπακάλη στην Ομάχα της Νεμπράσκα, και μια άλλη στο ντελικατέσεν του Άρνολντ Ρούμπεν στη Νέα Υόρκη, και οι δύο στις αρχές του 20ού αιώνα. Παραμένει κλασικό των αμερικανικών deli εβραϊκού στιλ.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 φέτες ψωμί σίκαλης",
+     "200 γρ. κόρνεντ μπιφ, σε λεπτές φέτες",
+     "4 φέτες ελβετικό τυρί (περίπου 80 γρ.)",
+     "150 γρ. ξινολάχανο, στραγγισμένο",
+     "3 κ.σ. σάλτσα Russian dressing",
+     "1 κ.σ. λάδι για το τηγάνι"
+    ],
+    "steps": [
+     "Αλείψτε τη σάλτσα στην εσωτερική πλευρά κάθε φέτας ψωμιού.",
+     "Στρώστε τυρί, κόρνεντ μπιφ και καλά στυμμένο ξινολάχανο σε δύο φέτες και σκεπάστε με τις άλλες.",
+     "Αλείψτε ένα τηγάνι με λάδι και ψήστε τα σάντουιτς σε μέτρια φωτιά 3–4 λεπτά από κάθε πλευρά, πιέζοντας απαλά, ώσπου να γίνουν τραγανά και να λιώσει το τυρί.",
+     "Κόψτε στη μέση και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε μία φέτα τυρί ανά σάντουιτς αντί για δύο.",
+    "Μειώστε τη σάλτσα στο μισό· 1 κ.σ. σάλτσας με βάση τη μαγιονέζα έχει περίπου 70–80 kcal.",
+    "Φτιάξτε το ανοιχτό πάνω σε μία φέτα σίκαλης και προσθέστε περισσότερο ξινολάχανο."
+   ]
+  },
+  "ru": {
+   "name": "Сэндвич Рубен",
+   "origin": "США · Нью-Йорк / Небраска",
+   "intro": "Рубен — горячий американский сэндвич из деликатесной лавки: солонина, швейцарский сыр и квашеная капуста с русской заправкой между ломтиками ржаного хлеба, обжаренный на сковороде, пока хлеб не станет хрустящим, а сыр не расплавится. Он солёный, пикантный и сытный и обычно подаётся с маринованным огурцом на гарнир.",
+   "history": "Его происхождение оспаривается: по одной версии, автор — Рубен Кулаковски, бакалейщик из Омахи, Небраска, по другой — деликатесная лавка Арнольда Рубена в Нью-Йорке, обе в начале XX века. Это остаётся классикой американских деликатесных лавок в еврейском стиле.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 ломтика ржаного хлеба",
+     "200 г солонины, тонко нарезанной",
+     "4 ломтика швейцарского сыра (около 80 г)",
+     "150 г квашеной капусты, обсушенной",
+     "3 ст. л. русской заправки",
+     "1 ст. л. масла для сковороды"
+    ],
+    "steps": [
+     "Намажьте заправкой внутреннюю сторону каждого ломтика хлеба.",
+     "Выложите слоями сыр, солонину и отжатую квашеную капусту на два ломтика и накройте остальными.",
+     "Смажьте сковороду маслом и обжаривайте сэндвичи на среднем огне по 3–4 минуты с каждой стороны, слегка прижимая, до хруста и расплавленного сыра.",
+     "Разрежьте пополам и подавайте горячими."
+    ]
+   },
+   "tips": [
+    "Используйте один ломтик сыра на сэндвич вместо двух.",
+    "Уменьшите заправку вдвое; 1 ст. л. заправки на основе майонеза — примерно 70–80 ккал.",
+    "Сделайте его открытым на одном ломтике ржаного хлеба и добавьте больше квашеной капусты."
+   ]
+  },
+  "es": {
+   "name": "Sándwich Reuben",
+   "origin": "Estados Unidos · Nueva York / Nebraska",
+   "intro": "El Reuben es un sándwich caliente de las delicatessen estadounidenses, con corned beef, queso suizo y chucrut, con aderezo ruso entre rebanadas de pan de centeno, dorado en plancha hasta que el pan queda crujiente y el queso se derrite. Es salado, ácido y contundente, y suele llevar un pepinillo al lado.",
+   "history": "Su origen se discute: una versión lo atribuye a Reuben Kulakofsky, un tendero de Omaha, Nebraska, y otra a la charcutería de Arnold Reuben en Nueva York, ambos a principios del siglo XX. Sigue siendo un clásico de las delicatessen estadounidenses de estilo judío.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 rebanadas de pan de centeno",
+     "200 g de corned beef en lonchas finas",
+     "4 rebanadas de queso suizo (unos 80 g)",
+     "150 g de chucrut escurrido",
+     "3 cda. de aderezo ruso",
+     "1 cda. de aceite para la sartén"
+    ],
+    "steps": [
+     "Unta el aderezo en el interior de cada rebanada de pan.",
+     "Pon capas de queso, corned beef y chucrut bien escurrido en dos rebanadas y cubre con las otras.",
+     "Unta una sartén con aceite y cocina los sándwiches a fuego medio de 3 a 4 minutos por lado, presionando suavemente, hasta que estén crujientes y el queso se derrita.",
+     "Corta por la mitad y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Usa una rebanada de queso por sándwich en lugar de dos.",
+    "Reduce el aderezo a la mitad; 1 cda. de aderezo a base de mayonesa aporta unas 70–80 kcal.",
+    "Hazlo abierto, con una sola rebanada de centeno y más chucrut."
+   ],
+   "name_inline": "el sándwich Reuben"
   }
+ }
 }

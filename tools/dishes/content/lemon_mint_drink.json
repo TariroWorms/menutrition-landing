@@ -1,157 +1,186 @@
 {
-  "db_key": "lemon_mint_drink",
-  "slug": "lemon-mint-drink",
-  "emoji": "🍹",
-  "portion_g": 300,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "lemon_mint_drink",
+ "slug": "lemon-mint-drink",
+ "emoji": "🍹",
+ "portion_g": 300,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Lemon mint drink",
+   "origin": "Middle East · Gulf",
+   "intro": "This lemon mint drink blends lemon juice, fresh mint, sugar and ice with water until frothy and icy. It is sweet-sour, very fresh and almost spoonable when made thick. Cafés serve it in tall glasses with a mint sprig, as a cooling partner to hot weather and rich food.",
+   "history": "Blended lemon and mint is a modern café drink that became a fixture of restaurant menus across the Gulf and the wider Middle East in recent decades.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "4 lemons (about 160 ml juice)",
+     "4 tbsp sugar",
+     "800 ml cold water",
+     "A large handful of fresh mint leaves",
+     "2 cups of ice"
+    ],
+    "steps": [
+     "Squeeze the lemons and strain out the seeds.",
+     "Dissolve the sugar in a little of the water.",
+     "Blend the lemon juice, sugared water, remaining water, mint and ice until smooth and pale green.",
+     "Taste, adjust the sugar and serve at once, well chilled."
+    ]
+   },
+   "tips": [
+    "Almost all the calories come from sugar: each tablespoon adds about 48 kcal.",
+    "Halve the sugar and add more mint and ice for flavour.",
+    "Order it 'no sugar' or lightly sweet in cafés and sweeten to taste yourself."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Lemon mint drink",
-      "origin": "Middle East · Gulf",
-      "intro": "This lemon mint drink blends lemon juice, fresh mint, sugar and ice with water until frothy and icy. It is sweet-sour, very fresh and almost spoonable when made thick. Cafés serve it in tall glasses with a mint sprig, as a cooling partner to hot weather and rich food.",
-      "history": "Blended lemon and mint is a modern café drink that became a fixture of restaurant menus across the Gulf and the wider Middle East in recent decades.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "4 lemons (about 160 ml juice)",
-          "4 tbsp sugar",
-          "800 ml cold water",
-          "A large handful of fresh mint leaves",
-          "2 cups of ice"
-        ],
-        "steps": [
-          "Squeeze the lemons and strain out the seeds.",
-          "Dissolve the sugar in a little of the water.",
-          "Blend the lemon juice, sugared water, remaining water, mint and ice until smooth and pale green.",
-          "Taste, adjust the sugar and serve at once, well chilled."
-        ]
-      },
-      "tips": [
-        "Almost all the calories come from sugar: each tablespoon adds about 48 kcal.",
-        "Halve the sugar and add more mint and ice for flavour.",
-        "Order it 'no sugar' or lightly sweet in cafés and sweeten to taste yourself."
-      ]
-    },
-    "ar": {
-      "name": "ليمون نعناع",
-      "origin": "الشرق الأوسط · الخليج",
-      "intro": "هذا المشروب يجمع عصير الليمون والنعناع الطازج والسكر والثلج مع الماء في الخلاط حتى يصبح رغوياً ومثلجاً. طعمه حلو حامض ومنعش جداً، ويكاد يؤكل بالملعقة إذا كان كثيفاً. تقدّمه المقاهي في أكواب طويلة مع غصن نعناع ليخفف حرارة الجو والأطباق الدسمة.",
-      "history": "الليمون بالنعناع مشروب مقاهٍ حديث أصبح خلال العقود الأخيرة ثابتاً في قوائم المطاعم في الخليج والشرق الأوسط عموماً.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "4 حبات ليمون (نحو 160 مل عصير)",
-          "4 ملاعق كبيرة سكر",
-          "800 مل ماء بارد",
-          "حفنة كبيرة من أوراق النعناع الطازج",
-          "كوبان من الثلج"
-        ],
-        "steps": [
-          "اعصر الليمون وصفِّ البذور.",
-          "أذب السكر في قليل من الماء.",
-          "اخلط عصير الليمون والماء المحلّى وباقي الماء والنعناع والثلج في الخلاط حتى يصبح ناعماً بلون أخضر فاتح.",
-          "تذوّق واضبط السكر، وقدّمه فوراً بارداً جداً."
-        ]
-      },
-      "tips": [
-        "معظم السعرات من السكر: كل ملعقة كبيرة تضيف نحو 48 سعرة.",
-        "استخدم نصف كمية السكر وأضف المزيد من النعناع والثلج للنكهة.",
-        "اطلبه في المقهى «بدون سكر» أو قليل السكر وحلِّه بنفسك."
-      ]
-    },
-    "it": {
-      "name": "Bevanda limone e menta",
-      "origin": "Medio Oriente · Golfo",
-      "intro": "Questa bevanda limone e menta si ottiene frullando succo di limone, menta fresca, zucchero e ghiaccio con acqua finché diventa spumosa e ghiacciata. È agrodolce, freschissima e, se preparata densa, quasi da mangiare al cucchiaio. I caffè la servono in bicchieri alti con un rametto di menta, come compagna rinfrescante per il caldo e i cibi ricchi.",
-      "history": "Il limone e menta frullato è una bevanda moderna da caffè che negli ultimi decenni è diventata una presenza fissa nei menu dei ristoranti del Golfo e di tutto il Medio Oriente.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "4 limoni (circa 160 ml di succo)",
-          "4 cucchiai di zucchero",
-          "800 ml di acqua fredda",
-          "Una grande manciata di foglie di menta fresca",
-          "2 tazze di ghiaccio"
-        ],
-        "steps": [
-          "Spremi i limoni e filtra i semi.",
-          "Sciogli lo zucchero in un po' d'acqua.",
-          "Frulla il succo di limone, l'acqua zuccherata, l'acqua rimasta, la menta e il ghiaccio finché è liscio e verde chiaro.",
-          "Assaggia, regola lo zucchero e servi subito, ben fredda."
-        ]
-      },
-      "tips": [
-        "Quasi tutte le calorie vengono dallo zucchero: ogni cucchiaio aggiunge circa 48 kcal.",
-        "Dimezza lo zucchero e aggiungi più menta e ghiaccio per il sapore.",
-        "Al bar ordinala «senza zucchero» o poco dolce e zuccherala tu a piacere."
-      ],
-      "name_inline": "bevanda limone e menta"
-    },
-    "el": {
-      "name": "Ρόφημα λεμόνι-δυόσμος",
-      "origin": "Μέση Ανατολή · Κόλπος",
-      "intro": "Αυτό το ρόφημα λεμόνι-δυόσμος χτυπά χυμό λεμονιού, φρέσκο δυόσμο, ζάχαρη και πάγο με νερό μέχρι να γίνει αφρώδες και παγωμένο. Είναι γλυκόξινο, πολύ δροσερό και, όταν γίνεται πηχτό, σχεδόν τρώγεται με το κουτάλι. Τα καφέ το σερβίρουν σε ψηλά ποτήρια με ένα κλωναράκι δυόσμο, ως δροσιστική συνοδεία στη ζέστη και στα πλούσια φαγητά.",
-      "history": "Το χτυπητό λεμόνι με δυόσμο είναι σύγχρονο ρόφημα των καφέ που τις τελευταίες δεκαετίες έγινε σταθερή παρουσία στους καταλόγους των εστιατορίων σε όλο τον Κόλπο και την ευρύτερη Μέση Ανατολή.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "4 λεμόνια (περίπου 160 ml χυμός)",
-          "4 κ.σ. ζάχαρη",
-          "800 ml κρύο νερό",
-          "Μια μεγάλη χούφτα φύλλα φρέσκου δυόσμου",
-          "2 φλιτζάνια πάγος"
-        ],
-        "steps": [
-          "Στύψτε τα λεμόνια και σουρώστε τα κουκούτσια.",
-          "Διαλύστε τη ζάχαρη σε λίγο από το νερό.",
-          "Χτυπήστε στο μπλέντερ τον χυμό λεμονιού, το ζαχαρόνερο, το υπόλοιπο νερό, τον δυόσμο και τον πάγο μέχρι να γίνει λείο και ανοιχτοπράσινο.",
-          "Δοκιμάστε, διορθώστε τη ζάχαρη και σερβίρετε αμέσως, καλά παγωμένο."
-        ]
-      },
-      "tips": [
-        "Σχεδόν όλες οι θερμίδες προέρχονται από τη ζάχαρη: κάθε κουταλιά της σούπας προσθέτει περίπου 48 kcal.",
-        "Βάλτε τη μισή ζάχαρη και προσθέστε περισσότερο δυόσμο και πάγο για γεύση.",
-        "Στα καφέ παραγγείλτε το «χωρίς ζάχαρη» ή ελαφρώς γλυκό και γλυκάνετέ το μόνοι σας."
-      ],
-      "name_inline": "ρόφημα λεμόνι-δυόσμος"
-    },
-    "ru": {
-      "name": "Напиток из лимона с мятой",
-      "origin": "Ближний Восток · Персидский залив",
-      "intro": "Этот напиток из лимона с мятой взбивает в блендере лимонный сок, свежую мяту, сахар и лёд с водой до пены и ледяной консистенции. Он сладко-кислый, очень свежий и почти ложечный, если приготовить его погуще. Кафе подают его в высоких стаканах с веточкой мяты как освежающую пару к жаркой погоде и сытной еде.",
-      "history": "Лимон с мятой, взбитые в блендере, — современный кафе-напиток, который в последние десятилетия стал неотъемлемой частью меню ресторанов Персидского залива и всего Ближнего Востока.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "4 лимона (около 160 мл сока)",
-          "4 ст. л. сахара",
-          "800 мл холодной воды",
-          "Большая горсть свежих листьев мяты",
-          "2 чашки льда"
-        ],
-        "steps": [
-          "Выжмите лимоны и процедите сок от косточек.",
-          "Растворите сахар в небольшом количестве воды.",
-          "Взбейте в блендере лимонный сок, подслащённую воду, оставшуюся воду, мяту и лёд до однородности и бледно-зелёного цвета.",
-          "Попробуйте, при необходимости добавьте сахар и подавайте сразу, хорошо охлаждённым."
-        ]
-      },
-      "tips": [
-        "Почти все калории приходятся на сахар: каждая столовая ложка добавляет около 48 ккал.",
-        "Уменьшите сахар вдвое и добавьте больше мяты и льда для вкуса.",
-        "В кафе заказывайте «без сахара» или слегка сладкий и подслащивайте по вкусу сами."
-      ],
-      "name_inline": "напиток из лимона с мятой"
-    }
+  "ar": {
+   "name": "ليمون نعناع",
+   "origin": "الشرق الأوسط · الخليج",
+   "intro": "هذا المشروب يجمع عصير الليمون والنعناع الطازج والسكر والثلج مع الماء في الخلاط حتى يصبح رغوياً ومثلجاً. طعمه حلو حامض ومنعش جداً، ويكاد يؤكل بالملعقة إذا كان كثيفاً. تقدّمه المقاهي في أكواب طويلة مع غصن نعناع ليخفف حرارة الجو والأطباق الدسمة.",
+   "history": "الليمون بالنعناع مشروب مقاهٍ حديث أصبح خلال العقود الأخيرة ثابتاً في قوائم المطاعم في الخليج والشرق الأوسط عموماً.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "4 حبات ليمون (نحو 160 مل عصير)",
+     "4 ملاعق كبيرة سكر",
+     "800 مل ماء بارد",
+     "حفنة كبيرة من أوراق النعناع الطازج",
+     "كوبان من الثلج"
+    ],
+    "steps": [
+     "اعصر الليمون وصفِّ البذور.",
+     "أذب السكر في قليل من الماء.",
+     "اخلط عصير الليمون والماء المحلّى وباقي الماء والنعناع والثلج في الخلاط حتى يصبح ناعماً بلون أخضر فاتح.",
+     "تذوّق واضبط السكر، وقدّمه فوراً بارداً جداً."
+    ]
+   },
+   "tips": [
+    "معظم السعرات من السكر: كل ملعقة كبيرة تضيف نحو 48 سعرة.",
+    "استخدم نصف كمية السكر وأضف المزيد من النعناع والثلج للنكهة.",
+    "اطلبه في المقهى «بدون سكر» أو قليل السكر وحلِّه بنفسك."
+   ]
+  },
+  "it": {
+   "name": "Bevanda limone e menta",
+   "origin": "Medio Oriente · Golfo",
+   "intro": "Questa bevanda limone e menta si ottiene frullando succo di limone, menta fresca, zucchero e ghiaccio con acqua finché diventa spumosa e ghiacciata. È agrodolce, freschissima e, se preparata densa, quasi da mangiare al cucchiaio. I caffè la servono in bicchieri alti con un rametto di menta, come compagna rinfrescante per il caldo e i cibi ricchi.",
+   "history": "Il limone e menta frullato è una bevanda moderna da caffè che negli ultimi decenni è diventata una presenza fissa nei menu dei ristoranti del Golfo e di tutto il Medio Oriente.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "4 limoni (circa 160 ml di succo)",
+     "4 cucchiai di zucchero",
+     "800 ml di acqua fredda",
+     "Una grande manciata di foglie di menta fresca",
+     "2 tazze di ghiaccio"
+    ],
+    "steps": [
+     "Spremi i limoni e filtra i semi.",
+     "Sciogli lo zucchero in un po' d'acqua.",
+     "Frulla il succo di limone, l'acqua zuccherata, l'acqua rimasta, la menta e il ghiaccio finché è liscio e verde chiaro.",
+     "Assaggia, regola lo zucchero e servi subito, ben fredda."
+    ]
+   },
+   "tips": [
+    "Quasi tutte le calorie vengono dallo zucchero: ogni cucchiaio aggiunge circa 48 kcal.",
+    "Dimezza lo zucchero e aggiungi più menta e ghiaccio per il sapore.",
+    "Al bar ordinala «senza zucchero» o poco dolce e zuccherala tu a piacere."
+   ],
+   "name_inline": "bevanda limone e menta"
+  },
+  "el": {
+   "name": "Ρόφημα λεμόνι-δυόσμος",
+   "origin": "Μέση Ανατολή · Κόλπος",
+   "intro": "Αυτό το ρόφημα λεμόνι-δυόσμος χτυπά χυμό λεμονιού, φρέσκο δυόσμο, ζάχαρη και πάγο με νερό μέχρι να γίνει αφρώδες και παγωμένο. Είναι γλυκόξινο, πολύ δροσερό και, όταν γίνεται πηχτό, σχεδόν τρώγεται με το κουτάλι. Τα καφέ το σερβίρουν σε ψηλά ποτήρια με ένα κλωναράκι δυόσμο, ως δροσιστική συνοδεία στη ζέστη και στα πλούσια φαγητά.",
+   "history": "Το χτυπητό λεμόνι με δυόσμο είναι σύγχρονο ρόφημα των καφέ που τις τελευταίες δεκαετίες έγινε σταθερή παρουσία στους καταλόγους των εστιατορίων σε όλο τον Κόλπο και την ευρύτερη Μέση Ανατολή.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "4 λεμόνια (περίπου 160 ml χυμός)",
+     "4 κ.σ. ζάχαρη",
+     "800 ml κρύο νερό",
+     "Μια μεγάλη χούφτα φύλλα φρέσκου δυόσμου",
+     "2 φλιτζάνια πάγος"
+    ],
+    "steps": [
+     "Στύψτε τα λεμόνια και σουρώστε τα κουκούτσια.",
+     "Διαλύστε τη ζάχαρη σε λίγο από το νερό.",
+     "Χτυπήστε στο μπλέντερ τον χυμό λεμονιού, το ζαχαρόνερο, το υπόλοιπο νερό, τον δυόσμο και τον πάγο μέχρι να γίνει λείο και ανοιχτοπράσινο.",
+     "Δοκιμάστε, διορθώστε τη ζάχαρη και σερβίρετε αμέσως, καλά παγωμένο."
+    ]
+   },
+   "tips": [
+    "Σχεδόν όλες οι θερμίδες προέρχονται από τη ζάχαρη: κάθε κουταλιά της σούπας προσθέτει περίπου 48 kcal.",
+    "Βάλτε τη μισή ζάχαρη και προσθέστε περισσότερο δυόσμο και πάγο για γεύση.",
+    "Στα καφέ παραγγείλτε το «χωρίς ζάχαρη» ή ελαφρώς γλυκό και γλυκάνετέ το μόνοι σας."
+   ],
+   "name_inline": "ρόφημα λεμόνι-δυόσμος"
+  },
+  "ru": {
+   "name": "Напиток из лимона с мятой",
+   "origin": "Ближний Восток · Персидский залив",
+   "intro": "Этот напиток из лимона с мятой взбивает в блендере лимонный сок, свежую мяту, сахар и лёд с водой до пены и ледяной консистенции. Он сладко-кислый, очень свежий и почти ложечный, если приготовить его погуще. Кафе подают его в высоких стаканах с веточкой мяты как освежающую пару к жаркой погоде и сытной еде.",
+   "history": "Лимон с мятой, взбитые в блендере, — современный кафе-напиток, который в последние десятилетия стал неотъемлемой частью меню ресторанов Персидского залива и всего Ближнего Востока.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "4 лимона (около 160 мл сока)",
+     "4 ст. л. сахара",
+     "800 мл холодной воды",
+     "Большая горсть свежих листьев мяты",
+     "2 чашки льда"
+    ],
+    "steps": [
+     "Выжмите лимоны и процедите сок от косточек.",
+     "Растворите сахар в небольшом количестве воды.",
+     "Взбейте в блендере лимонный сок, подслащённую воду, оставшуюся воду, мяту и лёд до однородности и бледно-зелёного цвета.",
+     "Попробуйте, при необходимости добавьте сахар и подавайте сразу, хорошо охлаждённым."
+    ]
+   },
+   "tips": [
+    "Почти все калории приходятся на сахар: каждая столовая ложка добавляет около 48 ккал.",
+    "Уменьшите сахар вдвое и добавьте больше мяты и льда для вкуса.",
+    "В кафе заказывайте «без сахара» или слегка сладкий и подслащивайте по вкусу сами."
+   ],
+   "name_inline": "напиток из лимона с мятой"
+  },
+  "es": {
+   "name": "Limonada con menta",
+   "origin": "Medio Oriente · Golfo",
+   "intro": "Esta limonada con menta licúa jugo de limón, menta fresca, azúcar y hielo con agua hasta que queda espumosa y helada. Es agridulce, muy fresca y casi se puede comer con cuchara si se hace espesa. Los cafés la sirven en vasos altos con una ramita de menta, como acompañante refrescante para el clima caluroso y las comidas contundentes.",
+   "history": "La limonada licuada con menta es una bebida moderna de cafetería que se volvió un clásico de los menús de restaurantes en todo el Golfo y Medio Oriente en las últimas décadas.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "4 limones (unos 160 ml de jugo)",
+     "4 cda. de azúcar",
+     "800 ml de agua fría",
+     "Un puñado grande de hojas de menta fresca",
+     "2 tazas de hielo"
+    ],
+    "steps": [
+     "Exprime los limones y cuela las semillas.",
+     "Disuelve el azúcar en un poco del agua.",
+     "Licúa el jugo de limón, el agua azucarada, el resto del agua, la menta y el hielo hasta que quede suave y de un verde pálido.",
+     "Prueba, ajusta el azúcar y sirve de inmediato, bien frío."
+    ]
+   },
+   "tips": [
+    "Casi todas las calorías vienen del azúcar: cada cucharada aporta unas 48 kcal.",
+    "Reduce el azúcar a la mitad y añade más menta y hielo para el sabor.",
+    "Pídela «sin azúcar» o poco dulce en las cafeterías y endúlzala tú al gusto."
+   ],
+   "name_inline": "la limonada con menta"
   }
+ }
 }

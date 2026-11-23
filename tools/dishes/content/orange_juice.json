@@ -1,142 +1,168 @@
 {
-  "db_key": "orange_juice",
-  "slug": "orange-juice",
-  "emoji": "🍊",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "orange_juice",
+ "slug": "orange-juice",
+ "emoji": "🍊",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Orange juice",
+   "origin": "Worldwide",
+   "intro": "Orange juice is the juice pressed from fresh oranges, served chilled as a breakfast drink around the world. Freshly squeezed juice is bright, sweet and slightly tart, with or without pulp depending on how it is strained. A typical glass needs three to four medium oranges.",
+   "history": "Orange juice is drunk worldwide today, with Brazil and the United States among the largest producers of oranges for juice.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "3–4 oranges (about 600 g)",
+     "Ice cubes, optional",
+     "A few mint leaves to garnish, optional"
+    ],
+    "steps": [
+     "Roll the oranges on the worktop to soften them, then cut them in half.",
+     "Squeeze them on a citrus press or juicer.",
+     "Strain if you prefer it without pulp and serve chilled, over ice if you like."
+    ]
+   },
+   "tips": [
+    "A glass of juice holds the sugar of several oranges without their fibre — eating a whole orange is more filling.",
+    "Pour a smaller 150 ml glass instead of 250 ml.",
+    "Dilute it half and half with sparkling water for a lighter drink."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Orange juice",
-      "origin": "Worldwide",
-      "intro": "Orange juice is the juice pressed from fresh oranges, served chilled as a breakfast drink around the world. Freshly squeezed juice is bright, sweet and slightly tart, with or without pulp depending on how it is strained. A typical glass needs three to four medium oranges.",
-      "history": "Orange juice is drunk worldwide today, with Brazil and the United States among the largest producers of oranges for juice.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "3–4 oranges (about 600 g)",
-          "Ice cubes, optional",
-          "A few mint leaves to garnish, optional"
-        ],
-        "steps": [
-          "Roll the oranges on the worktop to soften them, then cut them in half.",
-          "Squeeze them on a citrus press or juicer.",
-          "Strain if you prefer it without pulp and serve chilled, over ice if you like."
-        ]
-      },
-      "tips": [
-        "A glass of juice holds the sugar of several oranges without their fibre — eating a whole orange is more filling.",
-        "Pour a smaller 150 ml glass instead of 250 ml.",
-        "Dilute it half and half with sparkling water for a lighter drink."
-      ]
-    },
-    "ar": {
-      "name": "عصير برتقال",
-      "origin": "حول العالم",
-      "intro": "عصير البرتقال هو العصير المعصور من البرتقال الطازج، ويُقدَّم باردًا مشروبًا للإفطار في أنحاء العالم. العصير الطازج زاهٍ وحلو وحامض قليلًا، بلبّ أو من دونه بحسب تصفيته. يحتاج الكوب المعتاد إلى ثلاث أو أربع برتقالات متوسطة.",
-      "history": "يُشرب عصير البرتقال اليوم في أنحاء العالم، وتُعدّ البرازيل والولايات المتحدة من أكبر منتجي البرتقال المخصص للعصير.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "3–4 برتقالات (نحو 600 غ)",
-          "مكعبات ثلج حسب الرغبة",
-          "بضع أوراق نعناع للتزيين حسب الرغبة"
-        ],
-        "steps": [
-          "دحرج البرتقال على سطح العمل ليلين، ثم اقطعه نصفين.",
-          "اعصره بعصارة الحمضيات.",
-          "صفِّه إن كنت تفضله بلا لبّ، وقدّمه باردًا مع الثلج إن شئت."
-        ]
-      },
-      "tips": [
-        "يحتوي كوب العصير على سكر عدة برتقالات من دون أليافها — تناول برتقالة كاملة أكثر إشباعًا.",
-        "اسكب كوبًا أصغر بسعة 150 مل بدل 250 مل.",
-        "اخلطه مناصفة مع الماء الفوار لمشروب أخف."
-      ]
-    },
-    "it": {
-      "name": "Spremuta d'arancia",
-      "name_inline": "spremuta d'arancia",
-      "origin": "Tutto il mondo",
-      "intro": "La spremuta d'arancia è il succo spremuto da arance fresche, servito freddo come bevanda della colazione in tutto il mondo. Appena spremuta è brillante, dolce e leggermente aspra, con o senza polpa a seconda di come viene filtrata. Per un bicchiere tipico servono da tre a quattro arance medie.",
-      "history": "Il succo d'arancia oggi si beve in tutto il mondo, e Brasile e Stati Uniti sono tra i maggiori produttori di arance da succo.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "3–4 arance (circa 600 g)",
-          "Cubetti di ghiaccio, facoltativi",
-          "Qualche foglia di menta per guarnire, facoltativa"
-        ],
-        "steps": [
-          "Fai rotolare le arance sul piano di lavoro per ammorbidirle, poi tagliale a metà.",
-          "Spremile con uno spremiagrumi o una centrifuga.",
-          "Filtra se la preferisci senza polpa e servi fredda, con ghiaccio se ti piace."
-        ]
-      },
-      "tips": [
-        "Un bicchiere di succo contiene lo zucchero di diverse arance senza la loro fibra: mangiare un'arancia intera sazia di più.",
-        "Versane un bicchiere più piccolo da 150 ml invece che da 250 ml.",
-        "Allungala a metà con acqua frizzante per una bevanda più leggera."
-      ]
-    },
-    "el": {
-      "name": "Χυμός πορτοκάλι",
-      "name_inline": "χυμός πορτοκάλι",
-      "origin": "Παγκόσμια",
-      "intro": "Ο χυμός πορτοκάλι είναι ο χυμός που στύβεται από φρέσκα πορτοκάλια και σερβίρεται κρύος ως ρόφημα πρωινού σε όλο τον κόσμο. Ο φρεσκοστυμμένος χυμός είναι λαμπερός, γλυκός και ελαφρώς ξινός, με ή χωρίς ίνες ανάλογα με το πώς σουρώνεται. Για ένα συνηθισμένο ποτήρι χρειάζονται τρία με τέσσερα μέτρια πορτοκάλια.",
-      "history": "Ο χυμός πορτοκάλι πίνεται σήμερα σε όλο τον κόσμο, με τη Βραζιλία και τις Ηνωμένες Πολιτείες ανάμεσα στους μεγαλύτερους παραγωγούς πορτοκαλιών για χυμό.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "3–4 πορτοκάλια (περίπου 600 γρ.)",
-          "Παγάκια, προαιρετικά",
-          "Λίγα φύλλα δυόσμου για γαρνίρισμα, προαιρετικά"
-        ],
-        "steps": [
-          "Κυλήστε τα πορτοκάλια στον πάγκο για να μαλακώσουν και κόψτε τα στη μέση.",
-          "Στύψτε τα σε λεμονοστύφτη ή αποχυμωτή.",
-          "Σουρώστε τον αν τον προτιμάτε χωρίς ίνες και σερβίρετε κρύο, με πάγο αν θέλετε."
-        ]
-      },
-      "tips": [
-        "Ένα ποτήρι χυμός περιέχει τη ζάχαρη πολλών πορτοκαλιών χωρίς τις ίνες τους — ένα ολόκληρο πορτοκάλι χορταίνει περισσότερο.",
-        "Σερβίρετε ένα μικρότερο ποτήρι των 150 ml αντί για 250 ml.",
-        "Αραιώστε τον μισό-μισό με ανθρακούχο νερό για ένα πιο ελαφρύ ρόφημα."
-      ]
-    },
-    "ru": {
-      "name": "Апельсиновый сок",
-      "origin": "Весь мир",
-      "intro": "Апельсиновый сок — сок, выжатый из свежих апельсинов, который подают охлаждённым как завтрак по всему миру. Свежевыжатый сок яркий, сладкий и слегка кислый, с мякотью или без, в зависимости от того, как его процедили. На обычный стакан нужно три-четыре средних апельсина.",
-      "history": "Апельсиновый сок пьют по всему миру, а Бразилия и США — одни из крупнейших производителей апельсинов для сока.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "3–4 апельсина (около 600 г)",
-          "Кубики льда, по желанию",
-          "Несколько листьев мяты для украшения, по желанию"
-        ],
-        "steps": [
-          "Прокатите апельсины по столу, чтобы размягчить, затем разрежьте пополам.",
-          "Выжмите на цитрусовом прессе или соковыжималке.",
-          "Процедите, если предпочитаете без мякоти, и подавайте охлаждённым, при желании со льдом."
-        ]
-      },
-      "tips": [
-        "В стакане сока содержится сахар нескольких апельсинов без их клетчатки — съесть целый апельсин сытнее.",
-        "Наливайте меньший стакан в 150 мл вместо 250 мл.",
-        "Разбавьте наполовину газированной водой, чтобы напиток был легче."
-      ],
-      "name_inline": "апельсиновый сок"
-    }
+  "ar": {
+   "name": "عصير برتقال",
+   "origin": "حول العالم",
+   "intro": "عصير البرتقال هو العصير المعصور من البرتقال الطازج، ويُقدَّم باردًا مشروبًا للإفطار في أنحاء العالم. العصير الطازج زاهٍ وحلو وحامض قليلًا، بلبّ أو من دونه بحسب تصفيته. يحتاج الكوب المعتاد إلى ثلاث أو أربع برتقالات متوسطة.",
+   "history": "يُشرب عصير البرتقال اليوم في أنحاء العالم، وتُعدّ البرازيل والولايات المتحدة من أكبر منتجي البرتقال المخصص للعصير.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "3–4 برتقالات (نحو 600 غ)",
+     "مكعبات ثلج حسب الرغبة",
+     "بضع أوراق نعناع للتزيين حسب الرغبة"
+    ],
+    "steps": [
+     "دحرج البرتقال على سطح العمل ليلين، ثم اقطعه نصفين.",
+     "اعصره بعصارة الحمضيات.",
+     "صفِّه إن كنت تفضله بلا لبّ، وقدّمه باردًا مع الثلج إن شئت."
+    ]
+   },
+   "tips": [
+    "يحتوي كوب العصير على سكر عدة برتقالات من دون أليافها — تناول برتقالة كاملة أكثر إشباعًا.",
+    "اسكب كوبًا أصغر بسعة 150 مل بدل 250 مل.",
+    "اخلطه مناصفة مع الماء الفوار لمشروب أخف."
+   ]
+  },
+  "it": {
+   "name": "Spremuta d'arancia",
+   "name_inline": "spremuta d'arancia",
+   "origin": "Tutto il mondo",
+   "intro": "La spremuta d'arancia è il succo spremuto da arance fresche, servito freddo come bevanda della colazione in tutto il mondo. Appena spremuta è brillante, dolce e leggermente aspra, con o senza polpa a seconda di come viene filtrata. Per un bicchiere tipico servono da tre a quattro arance medie.",
+   "history": "Il succo d'arancia oggi si beve in tutto il mondo, e Brasile e Stati Uniti sono tra i maggiori produttori di arance da succo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "3–4 arance (circa 600 g)",
+     "Cubetti di ghiaccio, facoltativi",
+     "Qualche foglia di menta per guarnire, facoltativa"
+    ],
+    "steps": [
+     "Fai rotolare le arance sul piano di lavoro per ammorbidirle, poi tagliale a metà.",
+     "Spremile con uno spremiagrumi o una centrifuga.",
+     "Filtra se la preferisci senza polpa e servi fredda, con ghiaccio se ti piace."
+    ]
+   },
+   "tips": [
+    "Un bicchiere di succo contiene lo zucchero di diverse arance senza la loro fibra: mangiare un'arancia intera sazia di più.",
+    "Versane un bicchiere più piccolo da 150 ml invece che da 250 ml.",
+    "Allungala a metà con acqua frizzante per una bevanda più leggera."
+   ]
+  },
+  "el": {
+   "name": "Χυμός πορτοκάλι",
+   "name_inline": "χυμός πορτοκάλι",
+   "origin": "Παγκόσμια",
+   "intro": "Ο χυμός πορτοκάλι είναι ο χυμός που στύβεται από φρέσκα πορτοκάλια και σερβίρεται κρύος ως ρόφημα πρωινού σε όλο τον κόσμο. Ο φρεσκοστυμμένος χυμός είναι λαμπερός, γλυκός και ελαφρώς ξινός, με ή χωρίς ίνες ανάλογα με το πώς σουρώνεται. Για ένα συνηθισμένο ποτήρι χρειάζονται τρία με τέσσερα μέτρια πορτοκάλια.",
+   "history": "Ο χυμός πορτοκάλι πίνεται σήμερα σε όλο τον κόσμο, με τη Βραζιλία και τις Ηνωμένες Πολιτείες ανάμεσα στους μεγαλύτερους παραγωγούς πορτοκαλιών για χυμό.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "3–4 πορτοκάλια (περίπου 600 γρ.)",
+     "Παγάκια, προαιρετικά",
+     "Λίγα φύλλα δυόσμου για γαρνίρισμα, προαιρετικά"
+    ],
+    "steps": [
+     "Κυλήστε τα πορτοκάλια στον πάγκο για να μαλακώσουν και κόψτε τα στη μέση.",
+     "Στύψτε τα σε λεμονοστύφτη ή αποχυμωτή.",
+     "Σουρώστε τον αν τον προτιμάτε χωρίς ίνες και σερβίρετε κρύο, με πάγο αν θέλετε."
+    ]
+   },
+   "tips": [
+    "Ένα ποτήρι χυμός περιέχει τη ζάχαρη πολλών πορτοκαλιών χωρίς τις ίνες τους — ένα ολόκληρο πορτοκάλι χορταίνει περισσότερο.",
+    "Σερβίρετε ένα μικρότερο ποτήρι των 150 ml αντί για 250 ml.",
+    "Αραιώστε τον μισό-μισό με ανθρακούχο νερό για ένα πιο ελαφρύ ρόφημα."
+   ]
+  },
+  "ru": {
+   "name": "Апельсиновый сок",
+   "origin": "Весь мир",
+   "intro": "Апельсиновый сок — сок, выжатый из свежих апельсинов, который подают охлаждённым как завтрак по всему миру. Свежевыжатый сок яркий, сладкий и слегка кислый, с мякотью или без, в зависимости от того, как его процедили. На обычный стакан нужно три-четыре средних апельсина.",
+   "history": "Апельсиновый сок пьют по всему миру, а Бразилия и США — одни из крупнейших производителей апельсинов для сока.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "3–4 апельсина (около 600 г)",
+     "Кубики льда, по желанию",
+     "Несколько листьев мяты для украшения, по желанию"
+    ],
+    "steps": [
+     "Прокатите апельсины по столу, чтобы размягчить, затем разрежьте пополам.",
+     "Выжмите на цитрусовом прессе или соковыжималке.",
+     "Процедите, если предпочитаете без мякоти, и подавайте охлаждённым, при желании со льдом."
+    ]
+   },
+   "tips": [
+    "В стакане сока содержится сахар нескольких апельсинов без их клетчатки — съесть целый апельсин сытнее.",
+    "Наливайте меньший стакан в 150 мл вместо 250 мл.",
+    "Разбавьте наполовину газированной водой, чтобы напиток был легче."
+   ],
+   "name_inline": "апельсиновый сок"
+  },
+  "es": {
+   "name": "Jugo de naranja",
+   "origin": "En todo el mundo",
+   "intro": "El jugo de naranja es el jugo exprimido de naranjas frescas, que se sirve frío como bebida de desayuno en todo el mundo. El jugo recién exprimido es brillante, dulce y ligeramente ácido, con o sin pulpa según cómo se cuele. Un vaso normal requiere de tres a cuatro naranjas medianas.",
+   "history": "Hoy el jugo de naranja se bebe en todo el mundo, y Brasil y Estados Unidos están entre los mayores productores de naranjas para jugo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "3–4 naranjas (unos 600 g)",
+     "Cubos de hielo, opcional",
+     "Unas hojas de menta para decorar, opcional"
+    ],
+    "steps": [
+     "Rueda las naranjas sobre la mesa para ablandarlas y pártelas por la mitad.",
+     "Exprímelas en un exprimidor de cítricos o un extractor.",
+     "Cuela si lo prefieres sin pulpa y sirve frío, con hielo si quieres."
+    ]
+   },
+   "tips": [
+    "Un vaso de jugo contiene el azúcar de varias naranjas sin su fibra: comer una naranja entera sacia más.",
+    "Sirve un vaso más pequeño de 150 ml en lugar de 250 ml.",
+    "Dilúyelo mitad y mitad con agua mineral con gas para una bebida más ligera."
+   ],
+   "name_inline": "el jugo de naranja"
   }
+ }
 }

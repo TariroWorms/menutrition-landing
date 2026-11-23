@@ -1,147 +1,174 @@
 {
-  "db_key": "v60_black_coffee",
-  "slug": "v60-black-coffee",
-  "emoji": "☕",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "v60_black_coffee",
+ "slug": "v60-black-coffee",
+ "emoji": "☕",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "V60 Pour-Over Coffee",
+   "origin": "Worldwide · specialty coffee",
+   "intro": "V60 coffee is filter coffee brewed by hand: hot water is poured slowly in circles over freshly ground coffee in a cone-shaped dripper with a paper filter. The method produces a clean, bright cup that highlights the beans' fruity or floral notes. It is drunk black, without milk or sugar.",
+   "history": "The V60 is a cone-shaped dripper introduced in Japan in 2004, named for its 60-degree angle; it became a fixture of specialty coffee bars around the world in the 2010s.",
+   "recipe": {
+    "ingredients": [
+     "15 g freshly ground coffee (medium-fine)",
+     "250 ml water at 92–96 °C",
+     "1 paper filter"
+    ],
+    "steps": [
+     "Place the filter in the dripper, rinse it with hot water and discard the water.",
+     "Add the coffee, level it and pour about 30 ml of water to bloom; wait 30–40 seconds.",
+     "Pour the rest of the water slowly in circles in two or three stages.",
+     "Let it drain fully — about 2.5–3 minutes in total — and serve."
+    ],
+    "servings": 1,
+    "time_min": 5
+   },
+   "tips": [
+    "Black coffee has almost no calories; the additions are what count.",
+    "If you need sweetness, add it by the teaspoon and measure it — 1 tsp sugar ≈ 16 kcal.",
+    "Try lighter roasts, whose natural fruitiness makes sugar less necessary."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "V60 Pour-Over Coffee",
-      "origin": "Worldwide · specialty coffee",
-      "intro": "V60 coffee is filter coffee brewed by hand: hot water is poured slowly in circles over freshly ground coffee in a cone-shaped dripper with a paper filter. The method produces a clean, bright cup that highlights the beans' fruity or floral notes. It is drunk black, without milk or sugar.",
-      "history": "The V60 is a cone-shaped dripper introduced in Japan in 2004, named for its 60-degree angle; it became a fixture of specialty coffee bars around the world in the 2010s.",
-      "recipe": {
-        "ingredients": [
-          "15 g freshly ground coffee (medium-fine)",
-          "250 ml water at 92–96 °C",
-          "1 paper filter"
-        ],
-        "steps": [
-          "Place the filter in the dripper, rinse it with hot water and discard the water.",
-          "Add the coffee, level it and pour about 30 ml of water to bloom; wait 30–40 seconds.",
-          "Pour the rest of the water slowly in circles in two or three stages.",
-          "Let it drain fully — about 2.5–3 minutes in total — and serve."
-        ],
-        "servings": 1,
-        "time_min": 5
-      },
-      "tips": [
-        "Black coffee has almost no calories; the additions are what count.",
-        "If you need sweetness, add it by the teaspoon and measure it — 1 tsp sugar ≈ 16 kcal.",
-        "Try lighter roasts, whose natural fruitiness makes sugar less necessary."
-      ]
-    },
-    "ar": {
-      "name": "قهوة V60 مقطرة",
-      "origin": "حول العالم · القهوة المختصة",
-      "intro": "قهوة V60 قهوة مقطرة تُحضَّر يدويًا: يُسكب الماء الساخن ببطء بحركة دائرية فوق البن المطحون حديثًا في مقطّرة مخروطية بفلتر ورقي. وتنتج هذه الطريقة كوبًا صافيًا مشرقًا يُبرز نكهات البن الفاكهية أو الزهرية. وتُشرب سوداء بلا حليب ولا سكر.",
-      "history": "الـV60 مقطّرة مخروطية طُرحت في اليابان عام 2004، وسُميت بزاويتها البالغة 60 درجة، وأصبحت أداة أساسية في مقاهي القهوة المختصة حول العالم في العقد الثاني من القرن الحادي والعشرين.",
-      "recipe": {
-        "ingredients": [
-          "15 غ بن مطحون حديثًا (طحن متوسط إلى ناعم)",
-          "250 مل ماء بحرارة 92–96 °م",
-          "فلتر ورقي واحد"
-        ],
-        "steps": [
-          "ضع الفلتر في المقطّرة واشطفه بالماء الساخن ثم تخلّص من الماء.",
-          "أضف البن وسوِّ سطحه، واسكب نحو 30 مل من الماء للتفتح وانتظر 30–40 ثانية.",
-          "اسكب بقية الماء ببطء بحركة دائرية على مرحلتين أو ثلاث.",
-          "اتركه يتقطر بالكامل — نحو 2.5–3 دقائق إجمالًا — ثم قدّمه."
-        ],
-        "servings": 1,
-        "time_min": 5
-      },
-      "tips": [
-        "القهوة السوداء شبه خالية من السعرات، والإضافات هي ما يُحتسب.",
-        "إن احتجت إلى التحلية فأضفها بالملعقة الصغيرة وقِسها — ملعقة صغيرة سكر ≈ 16 سعرة.",
-        "جرّب التحميص الفاتح، فنكهته الفاكهية الطبيعية تقلل الحاجة إلى السكر."
-      ]
-    },
-    "it": {
-      "name": "Caffè filtro V60",
-      "name_inline": "caffè filtro V60",
-      "origin": "Mondo · caffè specialty",
-      "intro": "Il caffè V60 è caffè filtro preparato a mano: l'acqua calda si versa lentamente a cerchi sul caffè appena macinato in un dripper a cono con filtro di carta. Il metodo dà una tazza pulita e brillante che esalta le note fruttate o floreali dei chicchi. Si beve nero, senza latte né zucchero.",
-      "history": "Il V60 è un dripper a cono introdotto in Giappone nel 2004 e chiamato così per il suo angolo di 60 gradi; negli anni 2010 è diventato una presenza fissa nei bar di caffè specialty di tutto il mondo.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "15 g di caffè appena macinato (medio-fine)",
-          "250 ml di acqua a 92–96 °C",
-          "1 filtro di carta"
-        ],
-        "steps": [
-          "Metti il filtro nel dripper, sciacqualo con acqua calda ed elimina l'acqua.",
-          "Aggiungi il caffè, livellalo e versa circa 30 ml di acqua per la pre-infusione; attendi 30–40 secondi.",
-          "Versa lentamente il resto dell'acqua a cerchi, in due o tre riprese.",
-          "Lascia scendere completamente, circa 2,5–3 minuti in tutto, e servi."
-        ]
-      },
-      "tips": [
-        "Il caffè nero non ha quasi calorie; quello che conta sono le aggiunte.",
-        "Se ti serve dolcezza, aggiungila a cucchiaini e misurala: 1 cucchiaino di zucchero ≈ 16 kcal.",
-        "Prova tostature più chiare, la cui fruttatezza naturale rende lo zucchero meno necessario."
-      ]
-    },
-    "el": {
-      "name": "Καφές φίλτρου V60",
-      "name_inline": "καφές φίλτρου V60",
-      "origin": "Παγκοσμίως · specialty καφές",
-      "intro": "Ο καφές V60 είναι καφές φίλτρου που φτιάχνεται με το χέρι: ζεστό νερό χύνεται αργά κυκλικά πάνω σε φρεσκοαλεσμένο καφέ μέσα σε κωνικό dripper με χάρτινο φίλτρο. Η μέθοδος δίνει ένα καθαρό, ζωηρό φλιτζάνι που αναδεικνύει τις φρουτώδεις ή ανθικές νότες των κόκκων. Πίνεται σκέτος, χωρίς γάλα ή ζάχαρη.",
-      "history": "Το V60 είναι ένα κωνικό dripper που κυκλοφόρησε στην Ιαπωνία το 2004 και πήρε το όνομά του από τη γωνία των 60 μοιρών του· τη δεκαετία του 2010 έγινε σταθερή παρουσία στα specialty καφέ σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "15 γρ. φρεσκοαλεσμένος καφές (μέτρια-ψιλή άλεση)",
-          "250 ml νερό στους 92–96 °C",
-          "1 χάρτινο φίλτρο"
-        ],
-        "steps": [
-          "Τοποθετήστε το φίλτρο στο dripper, ξεπλύνετέ το με ζεστό νερό και πετάξτε το νερό.",
-          "Προσθέστε τον καφέ, ισιώστε τον και ρίξτε περίπου 30 ml νερό για το «άνθισμα»· περιμένετε 30–40 δευτερόλεπτα.",
-          "Ρίξτε το υπόλοιπο νερό αργά, κυκλικά, σε δύο ή τρία στάδια.",
-          "Αφήστε το να στραγγίξει εντελώς — περίπου 2,5–3 λεπτά συνολικά — και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Ο σκέτος καφές δεν έχει σχεδόν καθόλου θερμίδες· αυτό που μετράει είναι ό,τι προσθέτετε.",
-        "Αν χρειάζεστε γλυκύτητα, προσθέστε τη με το κουταλάκι και μετρήστε τη — 1 κ.γ. ζάχαρη ≈ 16 kcal.",
-        "Δοκιμάστε πιο ανοιχτά καβουρδίσματα, των οποίων η φυσική φρουτώδης γεύση κάνει τη ζάχαρη λιγότερο απαραίτητη."
-      ]
-    },
-    "ru": {
-      "name": "Кофе пуровер V60",
-      "origin": "Весь мир · спешелти-кофе",
-      "intro": "Кофе V60 — это фильтр-кофе ручного приготовления: горячую воду медленно льют кругами на свежесмолотый кофе в конусообразном дриппере с бумажным фильтром. Такой способ даёт чистую, яркую чашку, подчёркивающую фруктовые или цветочные ноты зёрен. Его пьют чёрным, без молока и сахара.",
-      "history": "V60 — конусообразный дриппер, появившийся в Японии в 2004 году и названный по углу в 60 градусов; в 2010-х он стал неотъемлемой частью спешелти-кофеен по всему миру.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "15 г свежесмолотого кофе (средне-мелкого помола)",
-          "250 мл воды температурой 92–96 °C",
-          "1 бумажный фильтр"
-        ],
-        "steps": [
-          "Поместите фильтр в дриппер, ополосните горячей водой и слейте воду.",
-          "Добавьте кофе, выровняйте и влейте около 30 мл воды для «цветения»; подождите 30–40 секунд.",
-          "Медленно влейте остальную воду кругами в два или три приёма.",
-          "Дайте полностью стечь — всего около 2,5–3 минут — и подавайте."
-        ]
-      },
-      "tips": [
-        "В чёрном кофе почти нет калорий; значение имеют добавки.",
-        "Если нужна сладость, добавляйте её по чайной ложке и отмеряйте — 1 ч. л. сахара ≈ 16 ккал.",
-        "Попробуйте более светлые обжарки, чья природная фруктовость делает сахар менее необходимым."
-      ],
-      "name_inline": "кофе V60"
-    }
+  "ar": {
+   "name": "قهوة V60 مقطرة",
+   "origin": "حول العالم · القهوة المختصة",
+   "intro": "قهوة V60 قهوة مقطرة تُحضَّر يدويًا: يُسكب الماء الساخن ببطء بحركة دائرية فوق البن المطحون حديثًا في مقطّرة مخروطية بفلتر ورقي. وتنتج هذه الطريقة كوبًا صافيًا مشرقًا يُبرز نكهات البن الفاكهية أو الزهرية. وتُشرب سوداء بلا حليب ولا سكر.",
+   "history": "الـV60 مقطّرة مخروطية طُرحت في اليابان عام 2004، وسُميت بزاويتها البالغة 60 درجة، وأصبحت أداة أساسية في مقاهي القهوة المختصة حول العالم في العقد الثاني من القرن الحادي والعشرين.",
+   "recipe": {
+    "ingredients": [
+     "15 غ بن مطحون حديثًا (طحن متوسط إلى ناعم)",
+     "250 مل ماء بحرارة 92–96 °م",
+     "فلتر ورقي واحد"
+    ],
+    "steps": [
+     "ضع الفلتر في المقطّرة واشطفه بالماء الساخن ثم تخلّص من الماء.",
+     "أضف البن وسوِّ سطحه، واسكب نحو 30 مل من الماء للتفتح وانتظر 30–40 ثانية.",
+     "اسكب بقية الماء ببطء بحركة دائرية على مرحلتين أو ثلاث.",
+     "اتركه يتقطر بالكامل — نحو 2.5–3 دقائق إجمالًا — ثم قدّمه."
+    ],
+    "servings": 1,
+    "time_min": 5
+   },
+   "tips": [
+    "القهوة السوداء شبه خالية من السعرات، والإضافات هي ما يُحتسب.",
+    "إن احتجت إلى التحلية فأضفها بالملعقة الصغيرة وقِسها — ملعقة صغيرة سكر ≈ 16 سعرة.",
+    "جرّب التحميص الفاتح، فنكهته الفاكهية الطبيعية تقلل الحاجة إلى السكر."
+   ]
+  },
+  "it": {
+   "name": "Caffè filtro V60",
+   "name_inline": "caffè filtro V60",
+   "origin": "Mondo · caffè specialty",
+   "intro": "Il caffè V60 è caffè filtro preparato a mano: l'acqua calda si versa lentamente a cerchi sul caffè appena macinato in un dripper a cono con filtro di carta. Il metodo dà una tazza pulita e brillante che esalta le note fruttate o floreali dei chicchi. Si beve nero, senza latte né zucchero.",
+   "history": "Il V60 è un dripper a cono introdotto in Giappone nel 2004 e chiamato così per il suo angolo di 60 gradi; negli anni 2010 è diventato una presenza fissa nei bar di caffè specialty di tutto il mondo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "15 g di caffè appena macinato (medio-fine)",
+     "250 ml di acqua a 92–96 °C",
+     "1 filtro di carta"
+    ],
+    "steps": [
+     "Metti il filtro nel dripper, sciacqualo con acqua calda ed elimina l'acqua.",
+     "Aggiungi il caffè, livellalo e versa circa 30 ml di acqua per la pre-infusione; attendi 30–40 secondi.",
+     "Versa lentamente il resto dell'acqua a cerchi, in due o tre riprese.",
+     "Lascia scendere completamente, circa 2,5–3 minuti in tutto, e servi."
+    ]
+   },
+   "tips": [
+    "Il caffè nero non ha quasi calorie; quello che conta sono le aggiunte.",
+    "Se ti serve dolcezza, aggiungila a cucchiaini e misurala: 1 cucchiaino di zucchero ≈ 16 kcal.",
+    "Prova tostature più chiare, la cui fruttatezza naturale rende lo zucchero meno necessario."
+   ]
+  },
+  "el": {
+   "name": "Καφές φίλτρου V60",
+   "name_inline": "καφές φίλτρου V60",
+   "origin": "Παγκοσμίως · specialty καφές",
+   "intro": "Ο καφές V60 είναι καφές φίλτρου που φτιάχνεται με το χέρι: ζεστό νερό χύνεται αργά κυκλικά πάνω σε φρεσκοαλεσμένο καφέ μέσα σε κωνικό dripper με χάρτινο φίλτρο. Η μέθοδος δίνει ένα καθαρό, ζωηρό φλιτζάνι που αναδεικνύει τις φρουτώδεις ή ανθικές νότες των κόκκων. Πίνεται σκέτος, χωρίς γάλα ή ζάχαρη.",
+   "history": "Το V60 είναι ένα κωνικό dripper που κυκλοφόρησε στην Ιαπωνία το 2004 και πήρε το όνομά του από τη γωνία των 60 μοιρών του· τη δεκαετία του 2010 έγινε σταθερή παρουσία στα specialty καφέ σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "15 γρ. φρεσκοαλεσμένος καφές (μέτρια-ψιλή άλεση)",
+     "250 ml νερό στους 92–96 °C",
+     "1 χάρτινο φίλτρο"
+    ],
+    "steps": [
+     "Τοποθετήστε το φίλτρο στο dripper, ξεπλύνετέ το με ζεστό νερό και πετάξτε το νερό.",
+     "Προσθέστε τον καφέ, ισιώστε τον και ρίξτε περίπου 30 ml νερό για το «άνθισμα»· περιμένετε 30–40 δευτερόλεπτα.",
+     "Ρίξτε το υπόλοιπο νερό αργά, κυκλικά, σε δύο ή τρία στάδια.",
+     "Αφήστε το να στραγγίξει εντελώς — περίπου 2,5–3 λεπτά συνολικά — και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Ο σκέτος καφές δεν έχει σχεδόν καθόλου θερμίδες· αυτό που μετράει είναι ό,τι προσθέτετε.",
+    "Αν χρειάζεστε γλυκύτητα, προσθέστε τη με το κουταλάκι και μετρήστε τη — 1 κ.γ. ζάχαρη ≈ 16 kcal.",
+    "Δοκιμάστε πιο ανοιχτά καβουρδίσματα, των οποίων η φυσική φρουτώδης γεύση κάνει τη ζάχαρη λιγότερο απαραίτητη."
+   ]
+  },
+  "ru": {
+   "name": "Кофе пуровер V60",
+   "origin": "Весь мир · спешелти-кофе",
+   "intro": "Кофе V60 — это фильтр-кофе ручного приготовления: горячую воду медленно льют кругами на свежесмолотый кофе в конусообразном дриппере с бумажным фильтром. Такой способ даёт чистую, яркую чашку, подчёркивающую фруктовые или цветочные ноты зёрен. Его пьют чёрным, без молока и сахара.",
+   "history": "V60 — конусообразный дриппер, появившийся в Японии в 2004 году и названный по углу в 60 градусов; в 2010-х он стал неотъемлемой частью спешелти-кофеен по всему миру.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "15 г свежесмолотого кофе (средне-мелкого помола)",
+     "250 мл воды температурой 92–96 °C",
+     "1 бумажный фильтр"
+    ],
+    "steps": [
+     "Поместите фильтр в дриппер, ополосните горячей водой и слейте воду.",
+     "Добавьте кофе, выровняйте и влейте около 30 мл воды для «цветения»; подождите 30–40 секунд.",
+     "Медленно влейте остальную воду кругами в два или три приёма.",
+     "Дайте полностью стечь — всего около 2,5–3 минут — и подавайте."
+    ]
+   },
+   "tips": [
+    "В чёрном кофе почти нет калорий; значение имеют добавки.",
+    "Если нужна сладость, добавляйте её по чайной ложке и отмеряйте — 1 ч. л. сахара ≈ 16 ккал.",
+    "Попробуйте более светлые обжарки, чья природная фруктовость делает сахар менее необходимым."
+   ],
+   "name_inline": "кофе V60"
+  },
+  "es": {
+   "name": "Café V60 de filtrado manual",
+   "origin": "Todo el mundo · café de especialidad",
+   "intro": "El café V60 es café de filtro preparado a mano: se vierte agua caliente despacio y en círculos sobre café recién molido, dentro de un cono de goteo con filtro de papel. Este método da una taza limpia y brillante que resalta las notas frutales o florales del grano. Se toma negro, sin leche ni azúcar.",
+   "history": "El V60 es un cono de goteo presentado en Japón en 2004 que debe su nombre a su ángulo de 60 grados; en la década de 2010 se volvió habitual en las cafeterías de especialidad de todo el mundo.",
+   "recipe": {
+    "ingredients": [
+     "15 g de café recién molido (molienda media-fina)",
+     "250 ml de agua a 92–96 °C",
+     "1 filtro de papel"
+    ],
+    "steps": [
+     "Coloca el filtro en el cono, enjuágalo con agua caliente y desecha el agua.",
+     "Agrega el café, nivélalo y vierte unos 30 ml de agua para que florezca; espera de 30 a 40 segundos.",
+     "Vierte el resto del agua despacio y en círculos, en dos o tres tandas.",
+     "Deja que escurra por completo, unos 2,5 a 3 minutos en total, y sirve."
+    ],
+    "servings": 1,
+    "time_min": 5
+   },
+   "tips": [
+    "El café negro casi no tiene calorías; lo que cuenta es lo que se le añade.",
+    "Si necesitas endulzar, hazlo por cucharaditas y mídelo: 1 cdta. de azúcar ≈ 16 kcal.",
+    "Prueba tuestes claros, cuya fruta natural hace menos necesario el azúcar."
+   ],
+   "name_inline": "el café V60"
   }
+ }
 }

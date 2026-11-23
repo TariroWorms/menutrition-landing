@@ -1,171 +1,203 @@
 {
-  "db_key": "potage_parmentier",
-  "slug": "potage-parmentier",
-  "emoji": "🥣",
-  "portion_g": 300,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "potage_parmentier",
+ "slug": "potage-parmentier",
+ "emoji": "🥣",
+ "portion_g": 300,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Potage Parmentier",
+   "origin": "France",
+   "intro": "Potage Parmentier is the classic French potato and leek soup: leeks are softened in butter, simmered with potatoes, then blended until smooth and enriched with a little cream. It is mild, creamy and comforting, with the gentle sweetness of leek. It is served hot, often sprinkled with chives or parsley; served cold, a similar soup is called vichyssoise.",
+   "history": "The soup is named after Antoine-Augustin Parmentier, the 18th-century French pharmacist who promoted the potato as a food in France; dishes 'Parmentier' are made with potatoes. It is a staple of French home and bistro cooking.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 g potatoes, peeled and diced",
+     "2 leeks (white and light green parts), sliced",
+     "25 g butter",
+     "1 litre water or vegetable stock",
+     "80 ml cream",
+     "Salt and pepper",
+     "Chopped chives to serve"
+    ],
+    "steps": [
+     "Wash the sliced leeks well, then soften them in the butter over low heat for 8 minutes.",
+     "Add the potatoes and the water or stock, season and bring to a boil.",
+     "Simmer for 20–25 minutes until the potatoes are tender.",
+     "Blend until smooth, stir in the cream and adjust the seasoning.",
+     "Serve hot, sprinkled with chives."
+    ]
+   },
+   "tips": [
+    "Use more leek and less potato for a lighter, still creamy bowl.",
+    "Halve the butter and cream; blended potato already gives body.",
+    "Keep to one bowl of about 300 g and add a side salad for volume."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Potage Parmentier",
-      "origin": "France",
-      "intro": "Potage Parmentier is the classic French potato and leek soup: leeks are softened in butter, simmered with potatoes, then blended until smooth and enriched with a little cream. It is mild, creamy and comforting, with the gentle sweetness of leek. It is served hot, often sprinkled with chives or parsley; served cold, a similar soup is called vichyssoise.",
-      "history": "The soup is named after Antoine-Augustin Parmentier, the 18th-century French pharmacist who promoted the potato as a food in France; dishes 'Parmentier' are made with potatoes. It is a staple of French home and bistro cooking.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 g potatoes, peeled and diced",
-          "2 leeks (white and light green parts), sliced",
-          "25 g butter",
-          "1 litre water or vegetable stock",
-          "80 ml cream",
-          "Salt and pepper",
-          "Chopped chives to serve"
-        ],
-        "steps": [
-          "Wash the sliced leeks well, then soften them in the butter over low heat for 8 minutes.",
-          "Add the potatoes and the water or stock, season and bring to a boil.",
-          "Simmer for 20–25 minutes until the potatoes are tender.",
-          "Blend until smooth, stir in the cream and adjust the seasoning.",
-          "Serve hot, sprinkled with chives."
-        ]
-      },
-      "tips": [
-        "Use more leek and less potato for a lighter, still creamy bowl.",
-        "Halve the butter and cream; blended potato already gives body.",
-        "Keep to one bowl of about 300 g and add a side salad for volume."
-      ]
-    },
-    "ar": {
-      "name": "حساء بارمونتييه (شوربة البطاطا والكراث)",
-      "origin": "فرنسا",
-      "intro": "حساء بارمونتييه شوربة البطاطا والكراث الفرنسية الكلاسيكية: يُليَّن الكراث في الزبدة، ثم يُطهى مع البطاطا ويُهرس حتى يصبح ناعمًا ويُغنى بقليل من الكريمة. طعمه معتدل وقوامه كريمي مريح مع حلاوة الكراث الخفيفة. يُقدَّم ساخنًا مع الثوم المعمّر أو البقدونس، أما نسخته الباردة القريبة منه فتُسمى «فيشيسواز».",
-      "history": "سُمّي الحساء نسبةً إلى أنطوان أوغستان بارمونتييه، الصيدلاني الفرنسي في القرن الثامن عشر الذي روّج للبطاطا غذاءً في فرنسا؛ ولذلك تُسمّى الأطباق المحضّرة بالبطاطا «بارمونتييه». وهو من أساسيات المطبخ المنزلي ومطاعم البيسترو الفرنسية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 غ بطاطا مقشرة ومقطعة مكعبات",
-          "2 كراث (الجزء الأبيض والأخضر الفاتح) مقطّع شرائح",
-          "25 غ زبدة",
-          "1 لتر ماء أو مرق خضار",
-          "80 مل كريمة طبخ",
-          "ملح وفلفل",
-          "ثوم معمّر مفروم للتقديم"
-        ],
-        "steps": [
-          "اغسل الكراث المقطع جيدًا، ثم ليّنه في الزبدة على نار هادئة 8 دقائق.",
-          "أضف البطاطا والماء أو المرق وتبّل، واتركه حتى يغلي.",
-          "اتركه على نار هادئة 20–25 دقيقة حتى تنضج البطاطا.",
-          "اهرسه بالخلاط حتى يصبح ناعمًا، وأضف الكريمة وعدّل التتبيل.",
-          "قدّمه ساخنًا مع رشة من الثوم المعمّر."
-        ]
-      },
-      "tips": [
-        "استخدم كراثًا أكثر وبطاطا أقل لطبق أخف ويبقى كريميًا.",
-        "استخدم نصف كمية الزبدة والكريمة؛ فالبطاطا المهروسة تمنح القوام.",
-        "اكتفِ بطبق واحد من نحو 300 غ وأضف سلطة جانبية لزيادة الحجم."
-      ]
-    },
-    "it": {
-      "name": "Potage Parmentier (zuppa di patate e porri)",
-      "name_inline": "potage Parmentier",
-      "origin": "Francia",
-      "intro": "Il potage Parmentier è la classica zuppa francese di patate e porri: i porri si ammorbidiscono nel burro, si cuociono con le patate, poi si frulla tutto fino a ottenere una crema liscia arricchita con un po' di panna. È delicata, cremosa e confortante, con la dolcezza leggera del porro. Si serve calda, spesso cosparsa di erba cipollina o prezzemolo; servita fredda, una zuppa simile si chiama vichyssoise.",
-      "history": "La zuppa prende il nome da Antoine-Augustin Parmentier, il farmacista francese del XVIII secolo che promosse la patata come alimento in Francia; i piatti «Parmentier» sono preparati con le patate. È un punto fermo della cucina casalinga e dei bistrot francesi.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 g di patate, sbucciate e a cubetti",
-          "2 porri (parte bianca e verde chiaro), a rondelle",
-          "25 g di burro",
-          "1 litro di acqua o brodo vegetale",
-          "80 ml di panna",
-          "Sale e pepe",
-          "Erba cipollina tritata per servire"
-        ],
-        "steps": [
-          "Lava bene i porri affettati, poi falli appassire nel burro a fuoco basso per 8 minuti.",
-          "Aggiungi le patate e l'acqua o il brodo, regola di sale e pepe e porta a bollore.",
-          "Fai sobbollire 20–25 minuti finché le patate sono tenere.",
-          "Frulla fino a ottenere una crema liscia, incorpora la panna e aggiusta di sale.",
-          "Servi calda, cosparsa di erba cipollina."
-        ]
-      },
-      "tips": [
-        "Usa più porro e meno patate per una zuppa più leggera ma ancora cremosa.",
-        "Dimezza burro e panna: la patata frullata dà già corpo.",
-        "Limitati a una ciotola da circa 300 g e aggiungi un'insalata per dare volume."
-      ]
-    },
-    "el": {
-      "name": "Σούπα Παρμαντιέ (σούπα πατάτας και πράσου)",
-      "name_inline": "σούπα Παρμαντιέ",
-      "origin": "Γαλλία",
-      "intro": "Το potage Parmentier είναι η κλασική γαλλική σούπα πατάτας και πράσου: τα πράσα μαλακώνουν σε βούτυρο, σιγοβράζουν με πατάτες, έπειτα όλα πολτοποιούνται μέχρι να γίνουν λεία και εμπλουτίζονται με λίγη κρέμα γάλακτος. Είναι ήπια, κρεμώδης και παρηγορητική, με την απαλή γλύκα του πράσου. Σερβίρεται ζεστή, συχνά πασπαλισμένη με σχοινόπρασο ή μαϊντανό· όταν σερβίρεται κρύα, μια παρόμοια σούπα λέγεται βισισουάζ.",
-      "history": "Η σούπα πήρε το όνομά της από τον Αντουάν-Ογκυστέν Παρμαντιέ, τον Γάλλο φαρμακοποιό του 18ου αιώνα που προώθησε την πατάτα ως τρόφιμο στη Γαλλία· τα πιάτα «Parmentier» φτιάχνονται με πατάτες. Είναι βασικό πιάτο της γαλλικής σπιτικής κουζίνας και των μπιστρό.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 γρ. πατάτες, καθαρισμένες και σε κυβάκια",
-          "2 πράσα (το λευκό και το ανοιχτό πράσινο μέρος), σε ροδέλες",
-          "25 γρ. βούτυρο",
-          "1 λίτρο νερό ή ζωμός λαχανικών",
-          "80 ml κρέμα γάλακτος",
-          "Αλάτι και πιπέρι",
-          "Ψιλοκομμένο σχοινόπρασο για το σερβίρισμα"
-        ],
-        "steps": [
-          "Πλύντε καλά τα κομμένα πράσα και μαλακώστε τα στο βούτυρο σε χαμηλή φωτιά για 8 λεπτά.",
-          "Προσθέστε τις πατάτες και το νερό ή τον ζωμό, καρυκεύστε και αφήστε να πάρει βράση.",
-          "Σιγοβράστε 20–25 λεπτά μέχρι να μαλακώσουν οι πατάτες.",
-          "Πολτοποιήστε μέχρι να γίνει λεία, ανακατέψτε μέσα την κρέμα και διορθώστε το αλάτι.",
-          "Σερβίρετε ζεστή, πασπαλισμένη με σχοινόπρασο."
-        ]
-      },
-      "tips": [
-        "Βάλτε περισσότερο πράσο και λιγότερη πατάτα για πιο ελαφριά αλλά εξίσου κρεμώδη σούπα.",
-        "Μειώστε το βούτυρο και την κρέμα στο μισό· η πολτοποιημένη πατάτα δίνει ήδη σώμα.",
-        "Περιοριστείτε σε ένα μπολ περίπου 300 γρ. και προσθέστε μια σαλάτα για όγκο."
-      ]
-    },
-    "ru": {
-      "name": "Суп Пармантье",
-      "origin": "Франция",
-      "intro": "Потаж Пармантье — классический французский суп из картофеля и порея: порей обжаривают в масле, варят с картофелем, затем пюрируют до гладкости и обогащают небольшим количеством сливок. Он мягкий, нежный и уютный, с лёгкой сладостью порея. Его подают горячим, часто посыпав шнитт-луком или петрушкой; в холодном виде похожий суп называется вишисуаз.",
-      "history": "Суп назван в честь Антуана-Огюстена Пармантье, французского аптекаря XVIII века, популяризировавшего картофель как пищу во Франции; блюда «Пармантье» готовят с картофелем. Это основа французской домашней кухни и кухни бистро.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 г картофеля, очищенного и нарезанного кубиками",
-          "2 стебля порея (белая и светло-зелёная части), нарезанные",
-          "25 г сливочного масла",
-          "1 литр воды или овощного бульона",
-          "80 мл сливок",
-          "Соль и перец",
-          "Нарубленный шнитт-лук для подачи"
-        ],
-        "steps": [
-          "Хорошо промойте нарезанный порей, затем 8 минут тушите его в масле на слабом огне.",
-          "Добавьте картофель и воду или бульон, посолите и доведите до кипения.",
-          "Варите 20–25 минут, пока картофель не станет мягким.",
-          "Взбейте блендером до гладкости, влейте сливки и при необходимости досолите.",
-          "Подавайте горячим, посыпав шнитт-луком."
-        ]
-      },
-      "tips": [
-        "Берите больше порея и меньше картофеля для более лёгкой, но всё ещё нежной тарелки.",
-        "Уменьшите количество масла и сливок вдвое; пюрированный картофель и так даёт густоту.",
-        "Ограничьтесь одной тарелкой примерно в 300 г и добавьте салат на гарнир для объёма."
-      ]
-    }
+  "ar": {
+   "name": "حساء بارمونتييه (شوربة البطاطا والكراث)",
+   "origin": "فرنسا",
+   "intro": "حساء بارمونتييه شوربة البطاطا والكراث الفرنسية الكلاسيكية: يُليَّن الكراث في الزبدة، ثم يُطهى مع البطاطا ويُهرس حتى يصبح ناعمًا ويُغنى بقليل من الكريمة. طعمه معتدل وقوامه كريمي مريح مع حلاوة الكراث الخفيفة. يُقدَّم ساخنًا مع الثوم المعمّر أو البقدونس، أما نسخته الباردة القريبة منه فتُسمى «فيشيسواز».",
+   "history": "سُمّي الحساء نسبةً إلى أنطوان أوغستان بارمونتييه، الصيدلاني الفرنسي في القرن الثامن عشر الذي روّج للبطاطا غذاءً في فرنسا؛ ولذلك تُسمّى الأطباق المحضّرة بالبطاطا «بارمونتييه». وهو من أساسيات المطبخ المنزلي ومطاعم البيسترو الفرنسية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 غ بطاطا مقشرة ومقطعة مكعبات",
+     "2 كراث (الجزء الأبيض والأخضر الفاتح) مقطّع شرائح",
+     "25 غ زبدة",
+     "1 لتر ماء أو مرق خضار",
+     "80 مل كريمة طبخ",
+     "ملح وفلفل",
+     "ثوم معمّر مفروم للتقديم"
+    ],
+    "steps": [
+     "اغسل الكراث المقطع جيدًا، ثم ليّنه في الزبدة على نار هادئة 8 دقائق.",
+     "أضف البطاطا والماء أو المرق وتبّل، واتركه حتى يغلي.",
+     "اتركه على نار هادئة 20–25 دقيقة حتى تنضج البطاطا.",
+     "اهرسه بالخلاط حتى يصبح ناعمًا، وأضف الكريمة وعدّل التتبيل.",
+     "قدّمه ساخنًا مع رشة من الثوم المعمّر."
+    ]
+   },
+   "tips": [
+    "استخدم كراثًا أكثر وبطاطا أقل لطبق أخف ويبقى كريميًا.",
+    "استخدم نصف كمية الزبدة والكريمة؛ فالبطاطا المهروسة تمنح القوام.",
+    "اكتفِ بطبق واحد من نحو 300 غ وأضف سلطة جانبية لزيادة الحجم."
+   ]
+  },
+  "it": {
+   "name": "Potage Parmentier (zuppa di patate e porri)",
+   "name_inline": "potage Parmentier",
+   "origin": "Francia",
+   "intro": "Il potage Parmentier è la classica zuppa francese di patate e porri: i porri si ammorbidiscono nel burro, si cuociono con le patate, poi si frulla tutto fino a ottenere una crema liscia arricchita con un po' di panna. È delicata, cremosa e confortante, con la dolcezza leggera del porro. Si serve calda, spesso cosparsa di erba cipollina o prezzemolo; servita fredda, una zuppa simile si chiama vichyssoise.",
+   "history": "La zuppa prende il nome da Antoine-Augustin Parmentier, il farmacista francese del XVIII secolo che promosse la patata come alimento in Francia; i piatti «Parmentier» sono preparati con le patate. È un punto fermo della cucina casalinga e dei bistrot francesi.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 g di patate, sbucciate e a cubetti",
+     "2 porri (parte bianca e verde chiaro), a rondelle",
+     "25 g di burro",
+     "1 litro di acqua o brodo vegetale",
+     "80 ml di panna",
+     "Sale e pepe",
+     "Erba cipollina tritata per servire"
+    ],
+    "steps": [
+     "Lava bene i porri affettati, poi falli appassire nel burro a fuoco basso per 8 minuti.",
+     "Aggiungi le patate e l'acqua o il brodo, regola di sale e pepe e porta a bollore.",
+     "Fai sobbollire 20–25 minuti finché le patate sono tenere.",
+     "Frulla fino a ottenere una crema liscia, incorpora la panna e aggiusta di sale.",
+     "Servi calda, cosparsa di erba cipollina."
+    ]
+   },
+   "tips": [
+    "Usa più porro e meno patate per una zuppa più leggera ma ancora cremosa.",
+    "Dimezza burro e panna: la patata frullata dà già corpo.",
+    "Limitati a una ciotola da circa 300 g e aggiungi un'insalata per dare volume."
+   ]
+  },
+  "el": {
+   "name": "Σούπα Παρμαντιέ (σούπα πατάτας και πράσου)",
+   "name_inline": "σούπα Παρμαντιέ",
+   "origin": "Γαλλία",
+   "intro": "Το potage Parmentier είναι η κλασική γαλλική σούπα πατάτας και πράσου: τα πράσα μαλακώνουν σε βούτυρο, σιγοβράζουν με πατάτες, έπειτα όλα πολτοποιούνται μέχρι να γίνουν λεία και εμπλουτίζονται με λίγη κρέμα γάλακτος. Είναι ήπια, κρεμώδης και παρηγορητική, με την απαλή γλύκα του πράσου. Σερβίρεται ζεστή, συχνά πασπαλισμένη με σχοινόπρασο ή μαϊντανό· όταν σερβίρεται κρύα, μια παρόμοια σούπα λέγεται βισισουάζ.",
+   "history": "Η σούπα πήρε το όνομά της από τον Αντουάν-Ογκυστέν Παρμαντιέ, τον Γάλλο φαρμακοποιό του 18ου αιώνα που προώθησε την πατάτα ως τρόφιμο στη Γαλλία· τα πιάτα «Parmentier» φτιάχνονται με πατάτες. Είναι βασικό πιάτο της γαλλικής σπιτικής κουζίνας και των μπιστρό.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 γρ. πατάτες, καθαρισμένες και σε κυβάκια",
+     "2 πράσα (το λευκό και το ανοιχτό πράσινο μέρος), σε ροδέλες",
+     "25 γρ. βούτυρο",
+     "1 λίτρο νερό ή ζωμός λαχανικών",
+     "80 ml κρέμα γάλακτος",
+     "Αλάτι και πιπέρι",
+     "Ψιλοκομμένο σχοινόπρασο για το σερβίρισμα"
+    ],
+    "steps": [
+     "Πλύντε καλά τα κομμένα πράσα και μαλακώστε τα στο βούτυρο σε χαμηλή φωτιά για 8 λεπτά.",
+     "Προσθέστε τις πατάτες και το νερό ή τον ζωμό, καρυκεύστε και αφήστε να πάρει βράση.",
+     "Σιγοβράστε 20–25 λεπτά μέχρι να μαλακώσουν οι πατάτες.",
+     "Πολτοποιήστε μέχρι να γίνει λεία, ανακατέψτε μέσα την κρέμα και διορθώστε το αλάτι.",
+     "Σερβίρετε ζεστή, πασπαλισμένη με σχοινόπρασο."
+    ]
+   },
+   "tips": [
+    "Βάλτε περισσότερο πράσο και λιγότερη πατάτα για πιο ελαφριά αλλά εξίσου κρεμώδη σούπα.",
+    "Μειώστε το βούτυρο και την κρέμα στο μισό· η πολτοποιημένη πατάτα δίνει ήδη σώμα.",
+    "Περιοριστείτε σε ένα μπολ περίπου 300 γρ. και προσθέστε μια σαλάτα για όγκο."
+   ]
+  },
+  "ru": {
+   "name": "Суп Пармантье",
+   "origin": "Франция",
+   "intro": "Потаж Пармантье — классический французский суп из картофеля и порея: порей обжаривают в масле, варят с картофелем, затем пюрируют до гладкости и обогащают небольшим количеством сливок. Он мягкий, нежный и уютный, с лёгкой сладостью порея. Его подают горячим, часто посыпав шнитт-луком или петрушкой; в холодном виде похожий суп называется вишисуаз.",
+   "history": "Суп назван в честь Антуана-Огюстена Пармантье, французского аптекаря XVIII века, популяризировавшего картофель как пищу во Франции; блюда «Пармантье» готовят с картофелем. Это основа французской домашней кухни и кухни бистро.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 г картофеля, очищенного и нарезанного кубиками",
+     "2 стебля порея (белая и светло-зелёная части), нарезанные",
+     "25 г сливочного масла",
+     "1 литр воды или овощного бульона",
+     "80 мл сливок",
+     "Соль и перец",
+     "Нарубленный шнитт-лук для подачи"
+    ],
+    "steps": [
+     "Хорошо промойте нарезанный порей, затем 8 минут тушите его в масле на слабом огне.",
+     "Добавьте картофель и воду или бульон, посолите и доведите до кипения.",
+     "Варите 20–25 минут, пока картофель не станет мягким.",
+     "Взбейте блендером до гладкости, влейте сливки и при необходимости досолите.",
+     "Подавайте горячим, посыпав шнитт-луком."
+    ]
+   },
+   "tips": [
+    "Берите больше порея и меньше картофеля для более лёгкой, но всё ещё нежной тарелки.",
+    "Уменьшите количество масла и сливок вдвое; пюрированный картофель и так даёт густоту.",
+    "Ограничьтесь одной тарелкой примерно в 300 г и добавьте салат на гарнир для объёма."
+   ]
+  },
+  "es": {
+   "name": "Potage Parmentier",
+   "origin": "Francia",
+   "intro": "El potage Parmentier es la clásica sopa francesa de papa y poro: los poros se ablandan en mantequilla, se cuecen con las papas, se licúan hasta quedar finos y se enriquecen con un poco de crema. Es suave, cremosa y reconfortante, con el dulzor delicado del poro. Se sirve caliente, a menudo con cebollín o perejil por encima; servida fría, una sopa parecida se llama vichyssoise.",
+   "history": "La sopa lleva el nombre de Antoine-Augustin Parmentier, el farmacéutico francés del siglo XVIII que promovió el consumo de la papa en Francia; los platos «Parmentier» se hacen con papas. Es un básico de la cocina casera y de los bistrós franceses.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 g de papas, peladas y en cubos",
+     "2 poros (parte blanca y verde claro), en rodajas",
+     "25 g de mantequilla",
+     "1 litro de agua o de caldo de verduras",
+     "80 ml de crema",
+     "Sal y pimienta",
+     "Cebollín picado para servir"
+    ],
+    "steps": [
+     "Lava bien los poros en rodajas y ablándalos en la mantequilla a fuego bajo durante 8 minutos.",
+     "Agrega las papas y el agua o el caldo, sazona y lleva a ebullición.",
+     "Cocina a fuego bajo de 20 a 25 minutos, hasta que las papas estén tiernas.",
+     "Licúa hasta que quede muy fina, incorpora la crema y rectifica la sazón.",
+     "Sirve caliente, espolvoreada con cebollín."
+    ]
+   },
+   "tips": [
+    "Usa más poro y menos papa para un plato más ligero y aun así cremoso.",
+    "Reduce a la mitad la mantequilla y la crema; la papa licuada ya da cuerpo.",
+    "Limítate a un tazón de unos 300 g y añade una ensalada para completar."
+   ],
+   "name_inline": "el potage Parmentier"
   }
+ }
 }

@@ -1,192 +1,228 @@
 {
-  "db_key": "sunday_roast_beef",
-  "slug": "sunday-roast-beef",
-  "emoji": "🥩",
-  "portion_g": 450,
-  "country": "GB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "sunday_roast_beef",
+ "slug": "sunday-roast-beef",
+ "emoji": "🥩",
+ "portion_g": 450,
+ "country": "GB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Sunday Roast Beef",
+   "origin": "United Kingdom · England",
+   "intro": "A Sunday roast of beef is the traditional British weekend meal: slices of roast beef served with puffy Yorkshire puddings, crisp roast potatoes, seasonal vegetables and plenty of gravy. The beef is usually cooked to pink in the middle, while the Yorkshire puddings are crisp at the edges and soft inside. It is served as one generous plate, often at a family lunch.",
+   "history": "Roasting beef for Sunday became a strong English tradition by the 18th century, and roast beef became something of a national symbol. Yorkshire pudding, originally cooked under the roasting meat to catch its drippings, is the standard partner for beef.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.5 kg beef topside or rib joint",
+     "800 g potatoes, peeled and halved",
+     "100 g plain flour",
+     "2 eggs",
+     "150 ml milk",
+     "500 g carrots and green vegetables",
+     "2 tbsp neutral oil",
+     "500 ml beef stock",
+     "1 tbsp flour for the gravy",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Season the beef and roast at 220°C for 20 minutes, then at 180°C for about 15 minutes per 500 g for medium-rare; rest under foil.",
+     "Parboil the potatoes for 8 minutes, rough them up, toss with 1 tbsp oil and roast for 45–50 minutes until crisp.",
+     "Whisk the flour, eggs and milk into a batter; heat the remaining oil in a muffin tin at 220°C, pour in the batter and bake for 20–25 minutes without opening the oven.",
+     "Steam or boil the vegetables.",
+     "Stir the flour into the meat juices in the tin, whisk in the stock and simmer into gravy.",
+     "Slice the beef and serve with the potatoes, Yorkshire puddings, vegetables and gravy."
+    ]
+   },
+   "tips": [
+    "Fill half the plate with vegetables and limit roast potatoes to 2–3 pieces.",
+    "Choose a lean joint such as topside and trim visible fat before serving.",
+    "Skim the fat off the meat juices before making the gravy and pour it sparingly."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Sunday Roast Beef",
-      "origin": "United Kingdom · England",
-      "intro": "A Sunday roast of beef is the traditional British weekend meal: slices of roast beef served with puffy Yorkshire puddings, crisp roast potatoes, seasonal vegetables and plenty of gravy. The beef is usually cooked to pink in the middle, while the Yorkshire puddings are crisp at the edges and soft inside. It is served as one generous plate, often at a family lunch.",
-      "history": "Roasting beef for Sunday became a strong English tradition by the 18th century, and roast beef became something of a national symbol. Yorkshire pudding, originally cooked under the roasting meat to catch its drippings, is the standard partner for beef.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.5 kg beef topside or rib joint",
-          "800 g potatoes, peeled and halved",
-          "100 g plain flour",
-          "2 eggs",
-          "150 ml milk",
-          "500 g carrots and green vegetables",
-          "2 tbsp neutral oil",
-          "500 ml beef stock",
-          "1 tbsp flour for the gravy",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Season the beef and roast at 220°C for 20 minutes, then at 180°C for about 15 minutes per 500 g for medium-rare; rest under foil.",
-          "Parboil the potatoes for 8 minutes, rough them up, toss with 1 tbsp oil and roast for 45–50 minutes until crisp.",
-          "Whisk the flour, eggs and milk into a batter; heat the remaining oil in a muffin tin at 220°C, pour in the batter and bake for 20–25 minutes without opening the oven.",
-          "Steam or boil the vegetables.",
-          "Stir the flour into the meat juices in the tin, whisk in the stock and simmer into gravy.",
-          "Slice the beef and serve with the potatoes, Yorkshire puddings, vegetables and gravy."
-        ]
-      },
-      "tips": [
-        "Fill half the plate with vegetables and limit roast potatoes to 2–3 pieces.",
-        "Choose a lean joint such as topside and trim visible fat before serving.",
-        "Skim the fat off the meat juices before making the gravy and pour it sparingly."
-      ]
-    },
-    "ar": {
-      "name": "لحم بقري مشوي على طريقة غداء الأحد",
-      "origin": "المملكة المتحدة · إنجلترا",
-      "intro": "غداء الأحد باللحم البقري المشوي هو الوجبة البريطانية التقليدية في نهاية الأسبوع: شرائح من اللحم المشوي مع بودنغ يوركشاير المنتفخ والبطاطس المشوية المقرمشة وخضار الموسم وكثير من المرق (الغريفي). يُطهى اللحم عادة ليبقى ورديًا في الوسط، بينما يكون بودنغ يوركشاير مقرمش الأطراف وطريّ الداخل. يُقدَّم في طبق واحد سخي، وغالبًا على غداء عائلي.",
-      "history": "أصبح شوي لحم البقر يوم الأحد تقليدًا إنجليزيًا راسخًا بحلول القرن الثامن عشر، وصار اللحم المشوي رمزًا وطنيًا إلى حد ما. أما بودنغ يوركشاير، الذي كان يُخبز أصلًا تحت اللحم ليلتقط عصارته، فهو الرفيق المعتاد للحم البقري.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.5 كغ قطعة لحم بقري (فخذ أو ضلع)",
-          "800 غ بطاطس مقشرة ومقسومة",
-          "100 غ دقيق عادي",
-          "2 بيضة",
-          "150 مل حليب",
-          "500 غ جزر وخضار خضراء",
-          "2 ملعقة كبيرة زيت نباتي",
-          "500 مل مرق لحم",
-          "1 ملعقة كبيرة دقيق للمرق",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "تبّل اللحم واشوه على 220°م لمدة 20 دقيقة، ثم على 180°م نحو 15 دقيقة لكل 500 غ لنضج متوسط؛ واتركه يرتاح مغطى بورق الألمنيوم.",
-          "اسلق البطاطس 8 دقائق، وخشّن سطحها، وقلّبها مع ملعقة كبيرة زيت واشوها 45–50 دقيقة حتى تتقرمش.",
-          "اخفق الدقيق والبيض والحليب لعمل خليط؛ سخّن باقي الزيت في قالب مافن على 220°م، واسكب الخليط واخبزه 20–25 دقيقة دون فتح الفرن.",
-          "اطهُ الخضار على البخار أو اسلقها.",
-          "أضف الدقيق إلى عصارة اللحم في الصينية، ثم اخفق معه المرق واتركه يغلي حتى يتكثف.",
-          "قطّع اللحم وقدّمه مع البطاطس وبودنغ يوركشاير والخضار والمرق."
-        ]
-      },
-      "tips": [
-        "املأ نصف الطبق بالخضار واكتفِ بقطعتين أو ثلاث من البطاطس المشوية.",
-        "اختر قطعة لحم قليلة الدهن مثل الفخذ وأزل الدهن الظاهر قبل التقديم.",
-        "أزل الدهن عن عصارة اللحم قبل تحضير المرق واسكبه باعتدال."
-      ]
-    },
-    "it": {
-      "name": "Sunday roast di manzo",
-      "name_inline": "sunday roast di manzo",
-      "origin": "Regno Unito · Inghilterra",
-      "intro": "Il Sunday roast di manzo è il tradizionale pasto britannico del fine settimana: fette di roast beef servite con soffici Yorkshire pudding, patate arrosto croccanti, verdure di stagione e abbondante gravy. Il manzo di solito si cuoce rosa al centro, mentre gli Yorkshire pudding sono croccanti ai bordi e morbidi dentro. Si serve in un unico piatto abbondante, spesso a un pranzo di famiglia.",
-      "history": "Arrostire il manzo la domenica divenne una forte tradizione inglese già nel XVIII secolo, e il roast beef diventò una sorta di simbolo nazionale. Lo Yorkshire pudding, cotto in origine sotto la carne arrosto per raccoglierne i succhi, è il compagno standard del manzo.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 kg di fesa o costata di manzo",
-          "800 g di patate, sbucciate e tagliate a metà",
-          "100 g di farina 00",
-          "2 uova",
-          "150 ml di latte",
-          "500 g di carote e verdure verdi",
-          "2 cucchiai di olio neutro",
-          "500 ml di brodo di manzo",
-          "1 cucchiaio di farina per il gravy",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Condisci il manzo e arrostiscilo a 220 °C per 20 minuti, poi a 180 °C per circa 15 minuti ogni 500 g per una cottura media-al sangue; lascialo riposare coperto di alluminio.",
-          "Sbollenta le patate per 8 minuti, irruvidiscile, condiscile con 1 cucchiaio di olio e arrostiscile per 45–50 minuti finché sono croccanti.",
-          "Sbatti farina, uova e latte fino a ottenere una pastella; scalda l'olio rimasto in uno stampo da muffin a 220 °C, versa la pastella e cuoci per 20–25 minuti senza aprire il forno.",
-          "Cuoci le verdure al vapore o lessale.",
-          "Mescola la farina ai succhi della carne nella teglia, aggiungi il brodo con la frusta e cuoci a fuoco lento fino a ottenere il gravy.",
-          "Affetta il manzo e servilo con le patate, gli Yorkshire pudding, le verdure e il gravy."
-        ]
-      },
-      "tips": [
-        "Riempi metà del piatto di verdure e limita le patate arrosto a 2–3 pezzi.",
-        "Scegli un taglio magro come la fesa ed elimina il grasso visibile prima di servire.",
-        "Sgrassa i succhi della carne prima di preparare il gravy e versalo con parsimonia."
-      ]
-    },
-    "el": {
-      "name": "Κυριακάτικο ψητό μοσχάρι",
-      "name_inline": "κυριακάτικο ψητό μοσχάρι",
-      "origin": "Ηνωμένο Βασίλειο · Αγγλία",
-      "intro": "Το κυριακάτικο ψητό μοσχάρι είναι το παραδοσιακό βρετανικό γεύμα του Σαββατοκύριακου: φέτες ψητού μοσχαριού με φουσκωτά Yorkshire puddings, τραγανές ψητές πατάτες, εποχικά λαχανικά και άφθονη σάλτσα γκρέιβι. Το μοσχάρι συνήθως ψήνεται ώστε να μένει ροζ στη μέση, ενώ τα Yorkshire puddings είναι τραγανά στις άκρες και μαλακά μέσα. Σερβίρεται σε ένα γενναιόδωρο πιάτο, συχνά σε οικογενειακό μεσημεριανό.",
-      "history": "Το ψήσιμο μοσχαριού την Κυριακή έγινε ισχυρή αγγλική παράδοση ήδη από τον 18ο αιώνα, και το ψητό μοσχάρι έγινε κάτι σαν εθνικό σύμβολο. Το Yorkshire pudding, που αρχικά ψηνόταν κάτω από το κρέας για να μαζεύει τα ζουμιά του, είναι ο καθιερωμένος σύντροφος του μοσχαριού.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 κιλό μοσχαρίσιο τρανς ή κομμάτι από τα πλευρά",
-          "800 γρ. πατάτες, καθαρισμένες και κομμένες στη μέση",
-          "100 γρ. αλεύρι για όλες τις χρήσεις",
-          "2 αυγά",
-          "150 ml γάλα",
-          "500 γρ. καρότα και πράσινα λαχανικά",
-          "2 κ.σ. ουδέτερο λάδι",
-          "500 ml ζωμός μοσχαριού",
-          "1 κ.σ. αλεύρι για τη σάλτσα",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Καρυκεύστε το μοσχάρι και ψήστε στους 220 °C για 20 λεπτά, και μετά στους 180 °C για περίπου 15 λεπτά ανά 500 γρ. για μισοψημένο κρέας· αφήστε το να ξεκουραστεί σκεπασμένο με αλουμινόχαρτο.",
-          "Προβράστε τις πατάτες 8 λεπτά, τραχύνετε την επιφάνειά τους, ανακατέψτε με 1 κ.σ. λάδι και ψήστε 45–50 λεπτά μέχρι να γίνουν τραγανές.",
-          "Χτυπήστε το αλεύρι, τα αυγά και το γάλα σε χυλό· ζεστάνετε το υπόλοιπο λάδι σε φόρμα για μάφιν στους 220 °C, ρίξτε τον χυλό και ψήστε 20–25 λεπτά χωρίς να ανοίξετε τον φούρνο.",
-          "Αχνίστε ή βράστε τα λαχανικά.",
-          "Ανακατέψτε το αλεύρι με τα ζουμιά του κρέατος στο ταψί, προσθέστε τον ζωμό χτυπώντας και σιγοβράστε μέχρι να γίνει σάλτσα.",
-          "Κόψτε το μοσχάρι σε φέτες και σερβίρετε με τις πατάτες, τα Yorkshire puddings, τα λαχανικά και τη σάλτσα."
-        ]
-      },
-      "tips": [
-        "Γεμίστε το μισό πιάτο με λαχανικά και περιορίστε τις ψητές πατάτες σε 2–3 κομμάτια.",
-        "Επιλέξτε άπαχο κομμάτι όπως το τρανς και αφαιρέστε το ορατό λίπος πριν το σερβίρισμα.",
-        "Ξαφρίστε το λίπος από τα ζουμιά του κρέατος πριν φτιάξετε τη σάλτσα και ρίξτε την με φειδώ."
-      ]
-    },
-    "ru": {
-      "name": "Воскресное жаркое из говядины",
-      "origin": "Великобритания · Англия",
-      "intro": "Воскресное жаркое из говядины — традиционная британская трапеза выходного дня: ломтики ростбифа с пышными йоркширскими пудингами, хрустящим жареным картофелем, сезонными овощами и большим количеством подливки. Говядину обычно готовят до розового цвета в середине, а йоркширские пудинги хрустят по краям и мягкие внутри. Всё подают на одной щедрой тарелке, часто за семейным обедом.",
-      "history": "Жарка говядины на воскресенье стала прочной английской традицией к XVIII веку, а ростбиф превратился в своего рода национальный символ. Йоркширский пудинг, изначально готовившийся под жарящимся мясом, чтобы собирать капающий жир, — стандартная пара к говядине.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 кг говядины (тазобедренная часть или рёберный отруб)",
-          "800 г картофеля, очищенного и разрезанного пополам",
-          "100 г муки",
-          "2 яйца",
-          "150 мл молока",
-          "500 г моркови и зелёных овощей",
-          "2 ст. л. нейтрального масла",
-          "500 мл говяжьего бульона",
-          "1 ст. л. муки для подливки",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Приправьте говядину и запекайте при 220 °C 20 минут, затем при 180 °C примерно по 15 минут на каждые 500 г для средней прожарки с кровью; дайте отдохнуть под фольгой.",
-          "Отварите картофель 8 минут, потрясите в кастрюле, чтобы края стали шероховатыми, перемешайте с 1 ст. л. масла и запекайте 45–50 минут до хруста.",
-          "Взбейте муку, яйца и молоко в тесто; нагрейте остальное масло в форме для маффинов при 220 °C, влейте тесто и выпекайте 20–25 минут, не открывая духовку.",
-          "Приготовьте овощи на пару или отварите.",
-          "Вмешайте муку в мясной сок в противне, вмешайте бульон и томите до превращения в подливку.",
-          "Нарежьте говядину и подавайте с картофелем, йоркширскими пудингами, овощами и подливкой."
-        ]
-      },
-      "tips": [
-        "Заполните половину тарелки овощами и ограничьте жареный картофель 2–3 штуками.",
-        "Выбирайте постный отруб, например тазобедренную часть, и срезайте видимый жир перед подачей.",
-        "Снимите жир с мясного сока перед приготовлением подливки и наливайте её понемногу."
-      ],
-      "name_inline": "воскресное жаркое из говядины"
-    }
+  "ar": {
+   "name": "لحم بقري مشوي على طريقة غداء الأحد",
+   "origin": "المملكة المتحدة · إنجلترا",
+   "intro": "غداء الأحد باللحم البقري المشوي هو الوجبة البريطانية التقليدية في نهاية الأسبوع: شرائح من اللحم المشوي مع بودنغ يوركشاير المنتفخ والبطاطس المشوية المقرمشة وخضار الموسم وكثير من المرق (الغريفي). يُطهى اللحم عادة ليبقى ورديًا في الوسط، بينما يكون بودنغ يوركشاير مقرمش الأطراف وطريّ الداخل. يُقدَّم في طبق واحد سخي، وغالبًا على غداء عائلي.",
+   "history": "أصبح شوي لحم البقر يوم الأحد تقليدًا إنجليزيًا راسخًا بحلول القرن الثامن عشر، وصار اللحم المشوي رمزًا وطنيًا إلى حد ما. أما بودنغ يوركشاير، الذي كان يُخبز أصلًا تحت اللحم ليلتقط عصارته، فهو الرفيق المعتاد للحم البقري.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.5 كغ قطعة لحم بقري (فخذ أو ضلع)",
+     "800 غ بطاطس مقشرة ومقسومة",
+     "100 غ دقيق عادي",
+     "2 بيضة",
+     "150 مل حليب",
+     "500 غ جزر وخضار خضراء",
+     "2 ملعقة كبيرة زيت نباتي",
+     "500 مل مرق لحم",
+     "1 ملعقة كبيرة دقيق للمرق",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "تبّل اللحم واشوه على 220°م لمدة 20 دقيقة، ثم على 180°م نحو 15 دقيقة لكل 500 غ لنضج متوسط؛ واتركه يرتاح مغطى بورق الألمنيوم.",
+     "اسلق البطاطس 8 دقائق، وخشّن سطحها، وقلّبها مع ملعقة كبيرة زيت واشوها 45–50 دقيقة حتى تتقرمش.",
+     "اخفق الدقيق والبيض والحليب لعمل خليط؛ سخّن باقي الزيت في قالب مافن على 220°م، واسكب الخليط واخبزه 20–25 دقيقة دون فتح الفرن.",
+     "اطهُ الخضار على البخار أو اسلقها.",
+     "أضف الدقيق إلى عصارة اللحم في الصينية، ثم اخفق معه المرق واتركه يغلي حتى يتكثف.",
+     "قطّع اللحم وقدّمه مع البطاطس وبودنغ يوركشاير والخضار والمرق."
+    ]
+   },
+   "tips": [
+    "املأ نصف الطبق بالخضار واكتفِ بقطعتين أو ثلاث من البطاطس المشوية.",
+    "اختر قطعة لحم قليلة الدهن مثل الفخذ وأزل الدهن الظاهر قبل التقديم.",
+    "أزل الدهن عن عصارة اللحم قبل تحضير المرق واسكبه باعتدال."
+   ]
+  },
+  "it": {
+   "name": "Sunday roast di manzo",
+   "name_inline": "sunday roast di manzo",
+   "origin": "Regno Unito · Inghilterra",
+   "intro": "Il Sunday roast di manzo è il tradizionale pasto britannico del fine settimana: fette di roast beef servite con soffici Yorkshire pudding, patate arrosto croccanti, verdure di stagione e abbondante gravy. Il manzo di solito si cuoce rosa al centro, mentre gli Yorkshire pudding sono croccanti ai bordi e morbidi dentro. Si serve in un unico piatto abbondante, spesso a un pranzo di famiglia.",
+   "history": "Arrostire il manzo la domenica divenne una forte tradizione inglese già nel XVIII secolo, e il roast beef diventò una sorta di simbolo nazionale. Lo Yorkshire pudding, cotto in origine sotto la carne arrosto per raccoglierne i succhi, è il compagno standard del manzo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 kg di fesa o costata di manzo",
+     "800 g di patate, sbucciate e tagliate a metà",
+     "100 g di farina 00",
+     "2 uova",
+     "150 ml di latte",
+     "500 g di carote e verdure verdi",
+     "2 cucchiai di olio neutro",
+     "500 ml di brodo di manzo",
+     "1 cucchiaio di farina per il gravy",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Condisci il manzo e arrostiscilo a 220 °C per 20 minuti, poi a 180 °C per circa 15 minuti ogni 500 g per una cottura media-al sangue; lascialo riposare coperto di alluminio.",
+     "Sbollenta le patate per 8 minuti, irruvidiscile, condiscile con 1 cucchiaio di olio e arrostiscile per 45–50 minuti finché sono croccanti.",
+     "Sbatti farina, uova e latte fino a ottenere una pastella; scalda l'olio rimasto in uno stampo da muffin a 220 °C, versa la pastella e cuoci per 20–25 minuti senza aprire il forno.",
+     "Cuoci le verdure al vapore o lessale.",
+     "Mescola la farina ai succhi della carne nella teglia, aggiungi il brodo con la frusta e cuoci a fuoco lento fino a ottenere il gravy.",
+     "Affetta il manzo e servilo con le patate, gli Yorkshire pudding, le verdure e il gravy."
+    ]
+   },
+   "tips": [
+    "Riempi metà del piatto di verdure e limita le patate arrosto a 2–3 pezzi.",
+    "Scegli un taglio magro come la fesa ed elimina il grasso visibile prima di servire.",
+    "Sgrassa i succhi della carne prima di preparare il gravy e versalo con parsimonia."
+   ]
+  },
+  "el": {
+   "name": "Κυριακάτικο ψητό μοσχάρι",
+   "name_inline": "κυριακάτικο ψητό μοσχάρι",
+   "origin": "Ηνωμένο Βασίλειο · Αγγλία",
+   "intro": "Το κυριακάτικο ψητό μοσχάρι είναι το παραδοσιακό βρετανικό γεύμα του Σαββατοκύριακου: φέτες ψητού μοσχαριού με φουσκωτά Yorkshire puddings, τραγανές ψητές πατάτες, εποχικά λαχανικά και άφθονη σάλτσα γκρέιβι. Το μοσχάρι συνήθως ψήνεται ώστε να μένει ροζ στη μέση, ενώ τα Yorkshire puddings είναι τραγανά στις άκρες και μαλακά μέσα. Σερβίρεται σε ένα γενναιόδωρο πιάτο, συχνά σε οικογενειακό μεσημεριανό.",
+   "history": "Το ψήσιμο μοσχαριού την Κυριακή έγινε ισχυρή αγγλική παράδοση ήδη από τον 18ο αιώνα, και το ψητό μοσχάρι έγινε κάτι σαν εθνικό σύμβολο. Το Yorkshire pudding, που αρχικά ψηνόταν κάτω από το κρέας για να μαζεύει τα ζουμιά του, είναι ο καθιερωμένος σύντροφος του μοσχαριού.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 κιλό μοσχαρίσιο τρανς ή κομμάτι από τα πλευρά",
+     "800 γρ. πατάτες, καθαρισμένες και κομμένες στη μέση",
+     "100 γρ. αλεύρι για όλες τις χρήσεις",
+     "2 αυγά",
+     "150 ml γάλα",
+     "500 γρ. καρότα και πράσινα λαχανικά",
+     "2 κ.σ. ουδέτερο λάδι",
+     "500 ml ζωμός μοσχαριού",
+     "1 κ.σ. αλεύρι για τη σάλτσα",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Καρυκεύστε το μοσχάρι και ψήστε στους 220 °C για 20 λεπτά, και μετά στους 180 °C για περίπου 15 λεπτά ανά 500 γρ. για μισοψημένο κρέας· αφήστε το να ξεκουραστεί σκεπασμένο με αλουμινόχαρτο.",
+     "Προβράστε τις πατάτες 8 λεπτά, τραχύνετε την επιφάνειά τους, ανακατέψτε με 1 κ.σ. λάδι και ψήστε 45–50 λεπτά μέχρι να γίνουν τραγανές.",
+     "Χτυπήστε το αλεύρι, τα αυγά και το γάλα σε χυλό· ζεστάνετε το υπόλοιπο λάδι σε φόρμα για μάφιν στους 220 °C, ρίξτε τον χυλό και ψήστε 20–25 λεπτά χωρίς να ανοίξετε τον φούρνο.",
+     "Αχνίστε ή βράστε τα λαχανικά.",
+     "Ανακατέψτε το αλεύρι με τα ζουμιά του κρέατος στο ταψί, προσθέστε τον ζωμό χτυπώντας και σιγοβράστε μέχρι να γίνει σάλτσα.",
+     "Κόψτε το μοσχάρι σε φέτες και σερβίρετε με τις πατάτες, τα Yorkshire puddings, τα λαχανικά και τη σάλτσα."
+    ]
+   },
+   "tips": [
+    "Γεμίστε το μισό πιάτο με λαχανικά και περιορίστε τις ψητές πατάτες σε 2–3 κομμάτια.",
+    "Επιλέξτε άπαχο κομμάτι όπως το τρανς και αφαιρέστε το ορατό λίπος πριν το σερβίρισμα.",
+    "Ξαφρίστε το λίπος από τα ζουμιά του κρέατος πριν φτιάξετε τη σάλτσα και ρίξτε την με φειδώ."
+   ]
+  },
+  "ru": {
+   "name": "Воскресное жаркое из говядины",
+   "origin": "Великобритания · Англия",
+   "intro": "Воскресное жаркое из говядины — традиционная британская трапеза выходного дня: ломтики ростбифа с пышными йоркширскими пудингами, хрустящим жареным картофелем, сезонными овощами и большим количеством подливки. Говядину обычно готовят до розового цвета в середине, а йоркширские пудинги хрустят по краям и мягкие внутри. Всё подают на одной щедрой тарелке, часто за семейным обедом.",
+   "history": "Жарка говядины на воскресенье стала прочной английской традицией к XVIII веку, а ростбиф превратился в своего рода национальный символ. Йоркширский пудинг, изначально готовившийся под жарящимся мясом, чтобы собирать капающий жир, — стандартная пара к говядине.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 кг говядины (тазобедренная часть или рёберный отруб)",
+     "800 г картофеля, очищенного и разрезанного пополам",
+     "100 г муки",
+     "2 яйца",
+     "150 мл молока",
+     "500 г моркови и зелёных овощей",
+     "2 ст. л. нейтрального масла",
+     "500 мл говяжьего бульона",
+     "1 ст. л. муки для подливки",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Приправьте говядину и запекайте при 220 °C 20 минут, затем при 180 °C примерно по 15 минут на каждые 500 г для средней прожарки с кровью; дайте отдохнуть под фольгой.",
+     "Отварите картофель 8 минут, потрясите в кастрюле, чтобы края стали шероховатыми, перемешайте с 1 ст. л. масла и запекайте 45–50 минут до хруста.",
+     "Взбейте муку, яйца и молоко в тесто; нагрейте остальное масло в форме для маффинов при 220 °C, влейте тесто и выпекайте 20–25 минут, не открывая духовку.",
+     "Приготовьте овощи на пару или отварите.",
+     "Вмешайте муку в мясной сок в противне, вмешайте бульон и томите до превращения в подливку.",
+     "Нарежьте говядину и подавайте с картофелем, йоркширскими пудингами, овощами и подливкой."
+    ]
+   },
+   "tips": [
+    "Заполните половину тарелки овощами и ограничьте жареный картофель 2–3 штуками.",
+    "Выбирайте постный отруб, например тазобедренную часть, и срезайте видимый жир перед подачей.",
+    "Снимите жир с мясного сока перед приготовлением подливки и наливайте её понемногу."
+   ],
+   "name_inline": "воскресное жаркое из говядины"
+  },
+  "es": {
+   "name": "Rosbif de domingo",
+   "origin": "Reino Unido · Inglaterra",
+   "intro": "El rosbif de domingo es la comida tradicional británica de fin de semana: lonchas de carne asada acompañadas de esponjosos Yorkshire puddings, papas asadas crujientes, verduras de temporada y abundante salsa gravy. La carne se hace por lo general hasta quedar rosada por dentro, mientras que los Yorkshire puddings quedan crujientes en los bordes y suaves en el centro. Se sirve en un plato generoso, casi siempre en el almuerzo familiar.",
+   "history": "Asar carne de res los domingos se volvió una fuerte tradición inglesa ya en el siglo XVIII, y el rosbif llegó a ser casi un símbolo nacional. El Yorkshire pudding, que originalmente se cocinaba bajo la carne para recoger sus jugos, es el acompañamiento de siempre.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 kg de carne de res (cuadril o costillar)",
+     "800 g de papas, peladas y partidas por la mitad",
+     "100 g de harina de trigo",
+     "2 huevos",
+     "150 ml de leche",
+     "500 g de zanahorias y verduras verdes",
+     "2 cda. de aceite neutro",
+     "500 ml de caldo de res",
+     "1 cda. de harina para la salsa gravy",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Sazona la carne y ásala a 220 °C durante 20 minutos; luego baja a 180 °C y deja unos 15 minutos por cada 500 g para un punto medio rojo; déjala reposar tapada con papel de aluminio.",
+     "Hierve las papas 8 minutos, sacúdelas para que se rompan los bordes, mézclalas con 1 cda. de aceite y ásalas 45–50 minutos hasta que doren y queden crujientes.",
+     "Bate la harina, los huevos y la leche hasta obtener una masa líquida; calienta el aceite restante en un molde para muffins a 220 °C, vierte la masa y hornea 20–25 minutos sin abrir el horno.",
+     "Cuece las verduras al vapor o hervidas.",
+     "Incorpora la harina a los jugos de la carne en la bandeja, agrega el caldo batiendo y cuece a fuego lento hasta obtener la salsa gravy.",
+     "Corta la carne en lonchas y sírvela con las papas, los Yorkshire puddings, las verduras y la salsa."
+    ]
+   },
+   "tips": [
+    "Llena la mitad del plato con verduras y limita las papas asadas a 2 o 3 piezas.",
+    "Elige un corte magro, como el cuadril, y quita la grasa visible antes de servir.",
+    "Retira la grasa de los jugos de la carne antes de preparar la salsa y sírvela con moderación."
+   ],
+   "name_inline": "el rosbif de domingo"
   }
+ }
 }

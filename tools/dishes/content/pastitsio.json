@@ -1,171 +1,203 @@
 {
-  "db_key": "pastitsio",
-  "slug": "pastitsio",
-  "emoji": "🍝",
-  "portion_g": 300,
-  "country": "GR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pastitsio",
+ "slug": "pastitsio",
+ "emoji": "🍝",
+ "portion_g": 300,
+ "country": "GR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pastitsio",
+   "origin": "Greece",
+   "intro": "Pastitsio is a Greek baked pasta dish built in layers: tubular pasta at the base, a minced beef sauce with tomato and cinnamon in the middle, and a thick blanket of creamy béchamel on top. Baked until golden, it is cut into neat squares that hold their shape. It is a staple of Sunday lunches, tavernas and celebrations.",
+   "history": "Baked pasta pies came to Greece through Italian, especially Venetian, influence, and the name echoes the Italian 'pasticcio'. The modern béchamel-topped version is often credited to chef Nikolaos Tselementes, whose 20th-century cookbooks shaped Greek home cooking.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 120,
+    "ingredients": [
+     "500 g pastitsio pasta or bucatini",
+     "600 g ground beef",
+     "1 onion, chopped",
+     "400 g chopped tomatoes",
+     "1 tsp ground cinnamon",
+     "2 tbsp olive oil",
+     "Béchamel: 60 g butter, 60 g flour, 800 ml milk, 2 eggs, nutmeg"
+    ],
+    "steps": [
+     "Brown the beef with onion in olive oil, add tomatoes and cinnamon, and simmer 30 minutes until thick.",
+     "Cook the pasta until just firm and drain.",
+     "For the béchamel, cook butter and flour for a minute, whisk in the milk until thick, season with nutmeg, then beat in the eggs off the heat.",
+     "Layer half the pasta in a baking dish, spread over the meat, then the remaining pasta.",
+     "Pour the béchamel on top and bake at 180 °C for 45 minutes until golden; rest 20 minutes before cutting."
+    ]
+   },
+   "tips": [
+    "Use lean ground beef and drain the fat after browning.",
+    "Make the béchamel layer thinner, or use semi-skimmed milk for it.",
+    "Cut 10 squares instead of 8 and serve with a large salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pastitsio",
-      "origin": "Greece",
-      "intro": "Pastitsio is a Greek baked pasta dish built in layers: tubular pasta at the base, a minced beef sauce with tomato and cinnamon in the middle, and a thick blanket of creamy béchamel on top. Baked until golden, it is cut into neat squares that hold their shape. It is a staple of Sunday lunches, tavernas and celebrations.",
-      "history": "Baked pasta pies came to Greece through Italian, especially Venetian, influence, and the name echoes the Italian 'pasticcio'. The modern béchamel-topped version is often credited to chef Nikolaos Tselementes, whose 20th-century cookbooks shaped Greek home cooking.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 120,
-        "ingredients": [
-          "500 g pastitsio pasta or bucatini",
-          "600 g ground beef",
-          "1 onion, chopped",
-          "400 g chopped tomatoes",
-          "1 tsp ground cinnamon",
-          "2 tbsp olive oil",
-          "Béchamel: 60 g butter, 60 g flour, 800 ml milk, 2 eggs, nutmeg"
-        ],
-        "steps": [
-          "Brown the beef with onion in olive oil, add tomatoes and cinnamon, and simmer 30 minutes until thick.",
-          "Cook the pasta until just firm and drain.",
-          "For the béchamel, cook butter and flour for a minute, whisk in the milk until thick, season with nutmeg, then beat in the eggs off the heat.",
-          "Layer half the pasta in a baking dish, spread over the meat, then the remaining pasta.",
-          "Pour the béchamel on top and bake at 180 °C for 45 minutes until golden; rest 20 minutes before cutting."
-        ]
-      },
-      "tips": [
-        "Use lean ground beef and drain the fat after browning.",
-        "Make the béchamel layer thinner, or use semi-skimmed milk for it.",
-        "Cut 10 squares instead of 8 and serve with a large salad."
-      ]
-    },
-    "ar": {
-      "name": "باستيتسيو",
-      "origin": "اليونان",
-      "intro": "الباستيتسيو طبق معكرونة يوناني مخبوز بطبقات: معكرونة أنبوبية في القاع، وصلصة لحم بقري مفروم بالطماطم والقرفة في الوسط، وطبقة سميكة من البشاميل الكريمي في الأعلى. يُخبز حتى يتحمر ويُقطع مربعات متماسكة. وهو من أساسيات غداء يوم الأحد والمطاعم الشعبية والمناسبات.",
-      "history": "وصلت فطائر المعكرونة المخبوزة إلى اليونان عبر التأثير الإيطالي، خاصة البندقي، ويُذكّر الاسم بكلمة «باستيتشيو» الإيطالية. أما النسخة الحديثة المغطاة بالبشاميل فكثيراً ما تُنسب إلى الطاهي نيكولاوس تسيليمنديس الذي شكّلت كتبه في القرن العشرين المطبخ المنزلي اليوناني.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 120,
-        "ingredients": [
-          "500 غ معكرونة باستيتسيو أو بوكاتيني",
-          "600 غ لحم بقري مفروم",
-          "1 بصلة مفرومة",
-          "400 غ طماطم مقطعة",
-          "1 ملعقة صغيرة قرفة مطحونة",
-          "2 ملعقة كبيرة زيت زيتون",
-          "البشاميل: 60 غ زبدة و60 غ دقيق و800 مل حليب و2 بيضة وجوزة الطيب"
-        ],
-        "steps": [
-          "حمّر اللحم مع البصل في زيت الزيتون، وأضف الطماطم والقرفة واتركه يغلي بهدوء 30 دقيقة حتى يتكثف.",
-          "اسلق المعكرونة حتى تنضج مع بقاء تماسكها وصفّها.",
-          "للبشاميل: قلّب الزبدة والدقيق دقيقة، واخفق فيهما الحليب حتى يتكثف، وتبّل بجوزة الطيب، ثم اخفق البيض بعد رفعه عن النار.",
-          "ضع نصف المعكرونة في صينية، ثم وزّع اللحم، ثم بقية المعكرونة.",
-          "اسكب البشاميل على الوجه واخبزه على 180 °م لمدة 45 دقيقة حتى يتحمر، واتركه 20 دقيقة قبل التقطيع."
-        ]
-      },
-      "tips": [
-        "استخدم لحماً مفروماً قليل الدهن وصفِّ الدهن بعد التحمير.",
-        "اجعل طبقة البشاميل أرق، أو استخدم حليباً نصف دسم.",
-        "قسّمه إلى 10 مربعات بدلاً من 8 وقدّمه مع سلطة كبيرة."
-      ]
-    },
-    "it": {
-      "name": "Pastitsio",
-      "origin": "Grecia",
-      "intro": "Il pastitsio è un piatto greco di pasta al forno costruito a strati: pasta a tubetto alla base, un sugo di carne macinata di manzo con pomodoro e cannella al centro e uno spesso strato di cremosa besciamella in superficie. Cotto finché è dorato, si taglia in quadrati regolari che mantengono la forma. È un classico dei pranzi della domenica, delle taverne e delle feste.",
-      "history": "I pasticci di pasta al forno arrivarono in Grecia attraverso l'influenza italiana, in particolare veneziana, e il nome richiama l'italiano «pasticcio». La versione moderna con la besciamella viene spesso attribuita allo chef Nikolaos Tselementes, i cui ricettari del XX secolo hanno plasmato la cucina casalinga greca.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 120,
-        "ingredients": [
-          "500 g di pasta per pastitsio o bucatini",
-          "600 g di carne macinata di manzo",
-          "1 cipolla tritata",
-          "400 g di pomodori a pezzi",
-          "1 cucchiaino di cannella in polvere",
-          "2 cucchiai di olio d'oliva",
-          "Besciamella: 60 g di burro, 60 g di farina, 800 ml di latte, 2 uova, noce moscata"
-        ],
-        "steps": [
-          "Rosola la carne con la cipolla nell'olio d'oliva, aggiungi pomodori e cannella e fai sobbollire 30 minuti finché il sugo è denso.",
-          "Cuoci la pasta lasciandola ancora soda e scolala.",
-          "Per la besciamella, cuoci burro e farina per un minuto, incorpora il latte con la frusta finché si addensa, insaporisci con noce moscata, poi fuori dal fuoco incorpora le uova sbattendo.",
-          "Disponi metà della pasta in una pirofila, stendi sopra la carne, poi il resto della pasta.",
-          "Versa sopra la besciamella e cuoci a 180 °C per 45 minuti finché è dorato; lascia riposare 20 minuti prima di tagliare."
-        ]
-      },
-      "tips": [
-        "Usa carne macinata di manzo magra ed elimina il grasso dopo la rosolatura.",
-        "Fai uno strato di besciamella più sottile, oppure preparala con latte parzialmente scremato.",
-        "Taglia 10 quadrati invece di 8 e servi con una grande insalata."
-      ],
-      "name_inline": "pastitsio"
-    },
-    "el": {
-      "name": "Παστίτσιο",
-      "origin": "Ελλάδα",
-      "intro": "Το παστίτσιο είναι ελληνικό φαγητό φούρνου με ζυμαρικά σε στρώσεις: χοντρά μακαρόνια στη βάση, σάλτσα με μοσχαρίσιο κιμά, ντομάτα και κανέλα στη μέση και μια παχιά στρώση κρεμώδους μπεσαμέλ από πάνω. Ψήνεται μέχρι να ροδίσει και κόβεται σε καθαρά τετράγωνα κομμάτια που κρατούν το σχήμα τους. Είναι βασικό πιάτο του κυριακάτικου τραπεζιού, των ταβερνών και των γιορτών.",
-      "history": "Οι πίτες ζυμαρικών φούρνου ήρθαν στην Ελλάδα μέσω της ιταλικής, και ιδίως της βενετικής, επιρροής, και το όνομα θυμίζει το ιταλικό «pasticcio». Η σύγχρονη εκδοχή με μπεσαμέλ αποδίδεται συχνά στον μάγειρα Νικόλαο Τσελεμεντέ, του οποίου τα βιβλία μαγειρικής του 20ού αιώνα διαμόρφωσαν την ελληνική σπιτική κουζίνα.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 120,
-        "ingredients": [
-          "500 γρ. μακαρόνια για παστίτσιο ή μπουκατίνι",
-          "600 γρ. μοσχαρίσιος κιμάς",
-          "1 κρεμμύδι ψιλοκομμένο",
-          "400 γρ. ντομάτες ψιλοκομμένες",
-          "1 κ.γ. κανέλα σε σκόνη",
-          "2 κ.σ. ελαιόλαδο",
-          "Μπεσαμέλ: 60 γρ. βούτυρο, 60 γρ. αλεύρι, 800 ml γάλα, 2 αυγά, μοσχοκάρυδο"
-        ],
-        "steps": [
-          "Σοτάρετε τον κιμά με το κρεμμύδι στο ελαιόλαδο, προσθέστε τις ντομάτες και την κανέλα και σιγοβράστε 30 λεπτά μέχρι να πήξει.",
-          "Βράστε τα μακαρόνια μέχρι να είναι ακόμη σφιχτά και στραγγίξτε.",
-          "Για τη μπεσαμέλ, καβουρδίστε το βούτυρο με το αλεύρι για ένα λεπτό, προσθέστε το γάλα ανακατεύοντας με σύρμα μέχρι να πήξει, αρωματίστε με μοσχοκάρυδο και, εκτός φωτιάς, ενσωματώστε τα αυγά χτυπώντας.",
-          "Στρώστε τα μισά μακαρόνια σε ένα ταψί, απλώστε από πάνω τον κιμά και έπειτα τα υπόλοιπα μακαρόνια.",
-          "Ρίξτε από πάνω τη μπεσαμέλ και ψήστε στους 180 °C για 45 λεπτά μέχρι να ροδίσει· αφήστε να σταθεί 20 λεπτά πριν το κόψετε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και στραγγίξτε το λίπος μετά το σοτάρισμα.",
-        "Κάντε πιο λεπτή τη στρώση της μπεσαμέλ ή φτιάξτε τη με ημιαποβουτυρωμένο γάλα.",
-        "Κόψτε 10 κομμάτια αντί για 8 και σερβίρετε με μια μεγάλη σαλάτα."
-      ],
-      "name_inline": "παστίτσιο"
-    },
-    "ru": {
-      "name": "Пастицио",
-      "origin": "Греция",
-      "intro": "Пастицио — греческая запечённая паста слоями: трубчатая паста в основе, мясной соус из говяжьего фарша с томатами и корицей посередине и густое покрывало сливочного бешамеля сверху. Запечённая до золотистого цвета, она нарезается аккуратными квадратами, сохраняющими форму. Это основа воскресных обедов, таверн и праздников.",
-      "history": "Запечённые пироги из пасты пришли в Грецию под итальянским, особенно венецианским, влиянием, а название перекликается с итальянским «пастиччо». Современную версию с бешамелем часто приписывают шефу Николаосу Целементесу, чьи кулинарные книги XX века сформировали греческую домашнюю кухню.",
-      "recipe": {
-        "servings": 8,
-        "time_min": 120,
-        "ingredients": [
-          "500 г пасты для пастицио или букатини",
-          "600 г говяжьего фарша",
-          "1 луковица, нарезанная",
-          "400 г рубленых томатов",
-          "1 ч. л. молотой корицы",
-          "2 ст. л. оливкового масла",
-          "Бешамель: 60 г сливочного масла, 60 г муки, 800 мл молока, 2 яйца, мускатный орех"
-        ],
-        "steps": [
-          "Обжарьте фарш с луком в оливковом масле, добавьте томаты и корицу и томите 30 минут до густоты.",
-          "Отварите пасту до упругого состояния и слейте воду.",
-          "Для бешамеля прогрейте масло с мукой минуту, вмешайте молоко до загустения, приправьте мускатным орехом, затем снимите с огня и вбейте яйца.",
-          "Выложите половину пасты в форму для запекания, сверху распределите мясо, затем оставшуюся пасту.",
-          "Залейте бешамелем и запекайте при 180 °C 45 минут до золотистого цвета; дайте постоять 20 минут перед нарезкой."
-        ]
-      },
-      "tips": [
-        "Берите нежирный говяжий фарш и сливайте жир после обжарки.",
-        "Сделайте слой бешамеля тоньше или приготовьте его на молоке пониженной жирности.",
-        "Нарежьте 10 квадратов вместо 8 и подавайте с большим салатом."
-      ]
-    }
+  "ar": {
+   "name": "باستيتسيو",
+   "origin": "اليونان",
+   "intro": "الباستيتسيو طبق معكرونة يوناني مخبوز بطبقات: معكرونة أنبوبية في القاع، وصلصة لحم بقري مفروم بالطماطم والقرفة في الوسط، وطبقة سميكة من البشاميل الكريمي في الأعلى. يُخبز حتى يتحمر ويُقطع مربعات متماسكة. وهو من أساسيات غداء يوم الأحد والمطاعم الشعبية والمناسبات.",
+   "history": "وصلت فطائر المعكرونة المخبوزة إلى اليونان عبر التأثير الإيطالي، خاصة البندقي، ويُذكّر الاسم بكلمة «باستيتشيو» الإيطالية. أما النسخة الحديثة المغطاة بالبشاميل فكثيراً ما تُنسب إلى الطاهي نيكولاوس تسيليمنديس الذي شكّلت كتبه في القرن العشرين المطبخ المنزلي اليوناني.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 120,
+    "ingredients": [
+     "500 غ معكرونة باستيتسيو أو بوكاتيني",
+     "600 غ لحم بقري مفروم",
+     "1 بصلة مفرومة",
+     "400 غ طماطم مقطعة",
+     "1 ملعقة صغيرة قرفة مطحونة",
+     "2 ملعقة كبيرة زيت زيتون",
+     "البشاميل: 60 غ زبدة و60 غ دقيق و800 مل حليب و2 بيضة وجوزة الطيب"
+    ],
+    "steps": [
+     "حمّر اللحم مع البصل في زيت الزيتون، وأضف الطماطم والقرفة واتركه يغلي بهدوء 30 دقيقة حتى يتكثف.",
+     "اسلق المعكرونة حتى تنضج مع بقاء تماسكها وصفّها.",
+     "للبشاميل: قلّب الزبدة والدقيق دقيقة، واخفق فيهما الحليب حتى يتكثف، وتبّل بجوزة الطيب، ثم اخفق البيض بعد رفعه عن النار.",
+     "ضع نصف المعكرونة في صينية، ثم وزّع اللحم، ثم بقية المعكرونة.",
+     "اسكب البشاميل على الوجه واخبزه على 180 °م لمدة 45 دقيقة حتى يتحمر، واتركه 20 دقيقة قبل التقطيع."
+    ]
+   },
+   "tips": [
+    "استخدم لحماً مفروماً قليل الدهن وصفِّ الدهن بعد التحمير.",
+    "اجعل طبقة البشاميل أرق، أو استخدم حليباً نصف دسم.",
+    "قسّمه إلى 10 مربعات بدلاً من 8 وقدّمه مع سلطة كبيرة."
+   ]
+  },
+  "it": {
+   "name": "Pastitsio",
+   "origin": "Grecia",
+   "intro": "Il pastitsio è un piatto greco di pasta al forno costruito a strati: pasta a tubetto alla base, un sugo di carne macinata di manzo con pomodoro e cannella al centro e uno spesso strato di cremosa besciamella in superficie. Cotto finché è dorato, si taglia in quadrati regolari che mantengono la forma. È un classico dei pranzi della domenica, delle taverne e delle feste.",
+   "history": "I pasticci di pasta al forno arrivarono in Grecia attraverso l'influenza italiana, in particolare veneziana, e il nome richiama l'italiano «pasticcio». La versione moderna con la besciamella viene spesso attribuita allo chef Nikolaos Tselementes, i cui ricettari del XX secolo hanno plasmato la cucina casalinga greca.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 120,
+    "ingredients": [
+     "500 g di pasta per pastitsio o bucatini",
+     "600 g di carne macinata di manzo",
+     "1 cipolla tritata",
+     "400 g di pomodori a pezzi",
+     "1 cucchiaino di cannella in polvere",
+     "2 cucchiai di olio d'oliva",
+     "Besciamella: 60 g di burro, 60 g di farina, 800 ml di latte, 2 uova, noce moscata"
+    ],
+    "steps": [
+     "Rosola la carne con la cipolla nell'olio d'oliva, aggiungi pomodori e cannella e fai sobbollire 30 minuti finché il sugo è denso.",
+     "Cuoci la pasta lasciandola ancora soda e scolala.",
+     "Per la besciamella, cuoci burro e farina per un minuto, incorpora il latte con la frusta finché si addensa, insaporisci con noce moscata, poi fuori dal fuoco incorpora le uova sbattendo.",
+     "Disponi metà della pasta in una pirofila, stendi sopra la carne, poi il resto della pasta.",
+     "Versa sopra la besciamella e cuoci a 180 °C per 45 minuti finché è dorato; lascia riposare 20 minuti prima di tagliare."
+    ]
+   },
+   "tips": [
+    "Usa carne macinata di manzo magra ed elimina il grasso dopo la rosolatura.",
+    "Fai uno strato di besciamella più sottile, oppure preparala con latte parzialmente scremato.",
+    "Taglia 10 quadrati invece di 8 e servi con una grande insalata."
+   ],
+   "name_inline": "pastitsio"
+  },
+  "el": {
+   "name": "Παστίτσιο",
+   "origin": "Ελλάδα",
+   "intro": "Το παστίτσιο είναι ελληνικό φαγητό φούρνου με ζυμαρικά σε στρώσεις: χοντρά μακαρόνια στη βάση, σάλτσα με μοσχαρίσιο κιμά, ντομάτα και κανέλα στη μέση και μια παχιά στρώση κρεμώδους μπεσαμέλ από πάνω. Ψήνεται μέχρι να ροδίσει και κόβεται σε καθαρά τετράγωνα κομμάτια που κρατούν το σχήμα τους. Είναι βασικό πιάτο του κυριακάτικου τραπεζιού, των ταβερνών και των γιορτών.",
+   "history": "Οι πίτες ζυμαρικών φούρνου ήρθαν στην Ελλάδα μέσω της ιταλικής, και ιδίως της βενετικής, επιρροής, και το όνομα θυμίζει το ιταλικό «pasticcio». Η σύγχρονη εκδοχή με μπεσαμέλ αποδίδεται συχνά στον μάγειρα Νικόλαο Τσελεμεντέ, του οποίου τα βιβλία μαγειρικής του 20ού αιώνα διαμόρφωσαν την ελληνική σπιτική κουζίνα.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 120,
+    "ingredients": [
+     "500 γρ. μακαρόνια για παστίτσιο ή μπουκατίνι",
+     "600 γρ. μοσχαρίσιος κιμάς",
+     "1 κρεμμύδι ψιλοκομμένο",
+     "400 γρ. ντομάτες ψιλοκομμένες",
+     "1 κ.γ. κανέλα σε σκόνη",
+     "2 κ.σ. ελαιόλαδο",
+     "Μπεσαμέλ: 60 γρ. βούτυρο, 60 γρ. αλεύρι, 800 ml γάλα, 2 αυγά, μοσχοκάρυδο"
+    ],
+    "steps": [
+     "Σοτάρετε τον κιμά με το κρεμμύδι στο ελαιόλαδο, προσθέστε τις ντομάτες και την κανέλα και σιγοβράστε 30 λεπτά μέχρι να πήξει.",
+     "Βράστε τα μακαρόνια μέχρι να είναι ακόμη σφιχτά και στραγγίξτε.",
+     "Για τη μπεσαμέλ, καβουρδίστε το βούτυρο με το αλεύρι για ένα λεπτό, προσθέστε το γάλα ανακατεύοντας με σύρμα μέχρι να πήξει, αρωματίστε με μοσχοκάρυδο και, εκτός φωτιάς, ενσωματώστε τα αυγά χτυπώντας.",
+     "Στρώστε τα μισά μακαρόνια σε ένα ταψί, απλώστε από πάνω τον κιμά και έπειτα τα υπόλοιπα μακαρόνια.",
+     "Ρίξτε από πάνω τη μπεσαμέλ και ψήστε στους 180 °C για 45 λεπτά μέχρι να ροδίσει· αφήστε να σταθεί 20 λεπτά πριν το κόψετε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά και στραγγίξτε το λίπος μετά το σοτάρισμα.",
+    "Κάντε πιο λεπτή τη στρώση της μπεσαμέλ ή φτιάξτε τη με ημιαποβουτυρωμένο γάλα.",
+    "Κόψτε 10 κομμάτια αντί για 8 και σερβίρετε με μια μεγάλη σαλάτα."
+   ],
+   "name_inline": "παστίτσιο"
+  },
+  "ru": {
+   "name": "Пастицио",
+   "origin": "Греция",
+   "intro": "Пастицио — греческая запечённая паста слоями: трубчатая паста в основе, мясной соус из говяжьего фарша с томатами и корицей посередине и густое покрывало сливочного бешамеля сверху. Запечённая до золотистого цвета, она нарезается аккуратными квадратами, сохраняющими форму. Это основа воскресных обедов, таверн и праздников.",
+   "history": "Запечённые пироги из пасты пришли в Грецию под итальянским, особенно венецианским, влиянием, а название перекликается с итальянским «пастиччо». Современную версию с бешамелем часто приписывают шефу Николаосу Целементесу, чьи кулинарные книги XX века сформировали греческую домашнюю кухню.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 120,
+    "ingredients": [
+     "500 г пасты для пастицио или букатини",
+     "600 г говяжьего фарша",
+     "1 луковица, нарезанная",
+     "400 г рубленых томатов",
+     "1 ч. л. молотой корицы",
+     "2 ст. л. оливкового масла",
+     "Бешамель: 60 г сливочного масла, 60 г муки, 800 мл молока, 2 яйца, мускатный орех"
+    ],
+    "steps": [
+     "Обжарьте фарш с луком в оливковом масле, добавьте томаты и корицу и томите 30 минут до густоты.",
+     "Отварите пасту до упругого состояния и слейте воду.",
+     "Для бешамеля прогрейте масло с мукой минуту, вмешайте молоко до загустения, приправьте мускатным орехом, затем снимите с огня и вбейте яйца.",
+     "Выложите половину пасты в форму для запекания, сверху распределите мясо, затем оставшуюся пасту.",
+     "Залейте бешамелем и запекайте при 180 °C 45 минут до золотистого цвета; дайте постоять 20 минут перед нарезкой."
+    ]
+   },
+   "tips": [
+    "Берите нежирный говяжий фарш и сливайте жир после обжарки.",
+    "Сделайте слой бешамеля тоньше или приготовьте его на молоке пониженной жирности.",
+    "Нарежьте 10 квадратов вместо 8 и подавайте с большим салатом."
+   ]
+  },
+  "es": {
+   "name": "Pastitsio",
+   "origin": "Grecia",
+   "intro": "El pastitsio es un plato griego de pasta horneada en capas: pasta tubular en la base, una salsa de carne molida con tomate y canela en el centro y una gruesa cobertura de bechamel cremosa encima. Horneado hasta dorar, se corta en cuadros firmes que conservan su forma. Es un clásico de las comidas dominicales, las tabernas y las celebraciones.",
+   "history": "Los pasteles de pasta horneados llegaron a Grecia por influencia italiana, sobre todo veneciana, y el nombre recuerda al italiano «pasticcio». La versión moderna cubierta con bechamel suele atribuirse al chef Nikolaos Tselementes, cuyos libros de cocina del siglo XX marcaron la cocina casera griega.",
+   "recipe": {
+    "servings": 8,
+    "time_min": 120,
+    "ingredients": [
+     "500 g de pasta para pastitsio o bucatini",
+     "600 g de carne de res molida",
+     "1 cebolla, picada",
+     "400 g de tomates picados",
+     "1 cdta. de canela molida",
+     "2 cda. de aceite de oliva",
+     "Bechamel: 60 g de mantequilla, 60 g de harina, 800 ml de leche, 2 huevos, nuez moscada"
+    ],
+    "steps": [
+     "Dora la carne con la cebolla en aceite de oliva, agrega los tomates y la canela y cuece a fuego lento 30 minutos hasta que espese.",
+     "Cuece la pasta hasta que esté apenas firme y escúrrela.",
+     "Para la bechamel, cocina la mantequilla con la harina un minuto, bate con la leche hasta que espese, sazona con nuez moscada y, fuera del fuego, incorpora los huevos batiendo.",
+     "Coloca la mitad de la pasta en un refractario, extiende la carne y cubre con el resto de la pasta.",
+     "Vierte la bechamel encima y hornea a 180 °C durante 45 minutos hasta que dore; deja reposar 20 minutos antes de cortar."
+    ]
+   },
+   "tips": [
+    "Usa carne molida magra y escurre la grasa después de dorarla.",
+    "Haz la capa de bechamel más delgada o usa leche semidescremada.",
+    "Corta 10 cuadros en lugar de 8 y sirve con una ensalada grande."
+   ],
+   "name_inline": "el pastitsio"
   }
+ }
 }

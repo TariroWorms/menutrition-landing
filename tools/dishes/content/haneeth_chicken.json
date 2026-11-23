@@ -1,172 +1,204 @@
 {
-  "db_key": "haneeth_chicken",
-  "slug": "haneeth-chicken",
-  "emoji": "🍗",
-  "portion_g": 400,
-  "country": "YE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "haneeth_chicken",
+ "slug": "haneeth-chicken",
+ "emoji": "🍗",
+ "portion_g": 400,
+ "country": "YE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken haneeth",
+   "origin": "Yemen",
+   "intro": "Chicken haneeth is a whole chicken rubbed with a dry mix of cumin, cardamom and turmeric, slow-roasted until the meat is meltingly tender and served over yellow spiced rice. It is the poultry version of the famous Yemeni lamb haneeth, milder and quicker to cook. The skin turns deep golden and the juices flavour the rice beneath.",
+   "history": "Haneeth comes from Yemen and the south-west of the Arabian Peninsula, where meat was traditionally slow-roasted in a sealed pit oven; it is close kin to mandi. The chicken version is a popular everyday adaptation in Yemen, Saudi Arabia and the Gulf today.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1 whole chicken (about 1.5 kg)",
+     "400 g basmati rice, rinsed and soaked 30 minutes",
+     "2 onions, sliced",
+     "4 garlic cloves, crushed",
+     "2 tsp ground cumin",
+     "1 tsp ground cardamom",
+     "1½ tsp turmeric",
+     "2 tbsp oil, salt and black pepper"
+    ],
+    "steps": [
+     "Mix the garlic, cumin, cardamom, 1 tsp turmeric, salt, pepper and 1 tbsp oil; rub all over and inside the chicken. Marinate at least 1 hour.",
+     "Roast the chicken covered with foil at 180 °C for 60 minutes, then uncovered at 220 °C for 15 minutes until golden.",
+     "Meanwhile soften the onion in the remaining oil, add the rice, remaining turmeric, salt and 700 ml water; cover and cook on low heat 20 minutes.",
+     "Spread the rice on a platter, pour over the roasting juices and set the chicken on top."
+    ]
+   },
+   "tips": [
+    "Remove the skin before eating to cut a large share of the fat.",
+    "Take a palm-sized portion of rice and add salad or a tomato salsa.",
+    "Skim the fat from the roasting juices before pouring them over the rice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken haneeth",
-      "origin": "Yemen",
-      "intro": "Chicken haneeth is a whole chicken rubbed with a dry mix of cumin, cardamom and turmeric, slow-roasted until the meat is meltingly tender and served over yellow spiced rice. It is the poultry version of the famous Yemeni lamb haneeth, milder and quicker to cook. The skin turns deep golden and the juices flavour the rice beneath.",
-      "history": "Haneeth comes from Yemen and the south-west of the Arabian Peninsula, where meat was traditionally slow-roasted in a sealed pit oven; it is close kin to mandi. The chicken version is a popular everyday adaptation in Yemen, Saudi Arabia and the Gulf today.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1 whole chicken (about 1.5 kg)",
-          "400 g basmati rice, rinsed and soaked 30 minutes",
-          "2 onions, sliced",
-          "4 garlic cloves, crushed",
-          "2 tsp ground cumin",
-          "1 tsp ground cardamom",
-          "1½ tsp turmeric",
-          "2 tbsp oil, salt and black pepper"
-        ],
-        "steps": [
-          "Mix the garlic, cumin, cardamom, 1 tsp turmeric, salt, pepper and 1 tbsp oil; rub all over and inside the chicken. Marinate at least 1 hour.",
-          "Roast the chicken covered with foil at 180 °C for 60 minutes, then uncovered at 220 °C for 15 minutes until golden.",
-          "Meanwhile soften the onion in the remaining oil, add the rice, remaining turmeric, salt and 700 ml water; cover and cook on low heat 20 minutes.",
-          "Spread the rice on a platter, pour over the roasting juices and set the chicken on top."
-        ]
-      },
-      "tips": [
-        "Remove the skin before eating to cut a large share of the fat.",
-        "Take a palm-sized portion of rice and add salad or a tomato salsa.",
-        "Skim the fat from the roasting juices before pouring them over the rice."
-      ]
-    },
-    "ar": {
-      "name": "حنيذ دجاج",
-      "origin": "اليمن",
-      "intro": "حنيذ الدجاج دجاجة كاملة تُدعك بخليط جاف من الكمون والهيل والكركم، وتُشوى ببطء حتى يصير لحمها طريًا جدًا، وتُقدَّم فوق أرز أصفر متبّل. إنه النسخة الدجاجية من الحنيذ اليمني الشهير باللحم، أخف طعمًا وأسرع طهيًا. يكتسب الجلد لونًا ذهبيًا عميقًا وتنساب العصارة لتنكّه الأرز تحته.",
-      "history": "الحنيذ من اليمن وجنوب غرب شبه الجزيرة العربية، حيث كان اللحم يُشوى تقليديًا ببطء في تنور محكم الإغلاق، وهو قريب من المندي. ونسخة الدجاج اليوم تكييف يومي شائع في اليمن والسعودية والخليج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "دجاجة كاملة (نحو 1.5 كغ)",
-          "400 غ أرز بسمتي مغسول ومنقوع 30 دقيقة",
-          "بصلتان مقطعتان شرائح",
-          "4 فصوص ثوم مهروسة",
-          "ملعقتان صغيرتان كمون مطحون",
-          "ملعقة صغيرة هيل مطحون",
-          "1½ ملعقة صغيرة كركم",
-          "ملعقتان كبيرتان زيت، ملح وفلفل أسود"
-        ],
-        "steps": [
-          "اخلط الثوم والكمون والهيل وملعقة صغيرة كركم والملح والفلفل وملعقة كبيرة زيت، وادعك بها الدجاجة من الخارج والداخل. اتركها ساعة على الأقل.",
-          "اشوِ الدجاجة مغطاة بورق الألمنيوم على 180 °م مدة 60 دقيقة، ثم مكشوفة على 220 °م مدة 15 دقيقة حتى تتحمّر.",
-          "في الأثناء شوّح البصل في بقية الزيت، وأضف الأرز وبقية الكركم والملح و700 مل ماء، وغطِّه واطهُه على نار هادئة 20 دقيقة.",
-          "افرد الأرز في طبق، واسكب فوقه عصارة الشوي، وضع الدجاجة في الأعلى."
-        ]
-      },
-      "tips": [
-        "أزل الجلد قبل الأكل للتخلص من جزء كبير من الدهون.",
-        "خذ حصة أرز بحجم كف اليد وأضف سلطة أو صلصة طماطم.",
-        "أزل الدهن عن عصارة الشوي قبل سكبها على الأرز."
-      ]
-    },
-    "it": {
-      "name": "Haneeth di pollo",
-      "name_inline": "haneeth di pollo",
-      "origin": "Yemen",
-      "intro": "L'haneeth di pollo è un pollo intero strofinato con un mix secco di cumino, cardamomo e curcuma, arrostito lentamente finché la carne è tenerissima e servito su riso giallo speziato. È la versione con il pollo del famoso haneeth yemenita di agnello, più delicata e più veloce da cuocere. La pelle diventa di un dorato intenso e i succhi insaporiscono il riso sottostante.",
-      "history": "L'haneeth viene dallo Yemen e dal sud-ovest della Penisola arabica, dove la carne veniva tradizionalmente arrostita lentamente in un forno a fossa sigillato; è parente stretto del mandi. La versione con il pollo è oggi un adattamento quotidiano molto diffuso in Yemen, Arabia Saudita e nel Golfo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1 pollo intero (circa 1,5 kg)",
-          "400 g di riso basmati, sciacquato e ammollato 30 minuti",
-          "2 cipolle affettate",
-          "4 spicchi d'aglio schiacciati",
-          "2 cucchiaini di cumino in polvere",
-          "1 cucchiaino di cardamomo in polvere",
-          "1½ cucchiaino di curcuma",
-          "2 cucchiai di olio, sale e pepe nero"
-        ],
-        "steps": [
-          "Mescola aglio, cumino, cardamomo, 1 cucchiaino di curcuma, sale, pepe e 1 cucchiaio di olio; strofina il composto su tutto il pollo, anche all'interno. Lascia marinare almeno 1 ora.",
-          "Arrostisci il pollo coperto con alluminio a 180 °C per 60 minuti, poi scoperto a 220 °C per 15 minuti finché è dorato.",
-          "Nel frattempo fai appassire la cipolla nell'olio rimasto, aggiungi il riso, la curcuma rimasta, il sale e 700 ml di acqua; copri e cuoci a fuoco basso per 20 minuti.",
-          "Distribuisci il riso su un piatto da portata, versaci sopra il fondo di cottura e adagia il pollo sopra."
-        ]
-      },
-      "tips": [
-        "Togli la pelle prima di mangiare per eliminare gran parte dei grassi.",
-        "Prendi una porzione di riso grande come il palmo della mano e aggiungi insalata o una salsa di pomodoro fresca.",
-        "Sgrassa il fondo di cottura prima di versarlo sul riso."
-      ]
-    },
-    "el": {
-      "name": "Χανίθ με κοτόπουλο",
-      "name_inline": "χανίθ με κοτόπουλο",
-      "origin": "Υεμένη",
-      "intro": "Το χανίθ με κοτόπουλο είναι ολόκληρο κοτόπουλο τριμμένο με ξερό μείγμα από κύμινο, κάρδαμο και κουρκουμά, ψημένο αργά μέχρι το κρέας να λιώνει, και σερβιρισμένο πάνω σε κίτρινο αρωματικό ρύζι. Είναι η εκδοχή με πουλερικό του διάσημου υεμενίτικου χανίθ με αρνί, πιο ήπια και πιο γρήγορη στο μαγείρεμα. Η πέτσα παίρνει βαθύ χρυσαφένιο χρώμα και οι χυμοί νοστιμίζουν το ρύζι από κάτω.",
-      "history": "Το χανίθ προέρχεται από την Υεμένη και τη νοτιοδυτική Αραβική Χερσόνησο, όπου το κρέας παραδοσιακά ψηνόταν αργά σε σφραγισμένο υπόγειο φούρνο· είναι στενός συγγενής του μάντι. Η εκδοχή με κοτόπουλο είναι σήμερα δημοφιλής καθημερινή προσαρμογή στην Υεμένη, τη Σαουδική Αραβία και τον Κόλπο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1 ολόκληρο κοτόπουλο (περίπου 1,5 κιλό)",
-          "400 γρ. ρύζι μπασμάτι, ξεπλυμένο και μουλιασμένο 30 λεπτά",
-          "2 κρεμμύδια, σε φέτες",
-          "4 σκελίδες σκόρδο, λιωμένες",
-          "2 κ.γ. κύμινο σε σκόνη",
-          "1 κ.γ. κάρδαμο σε σκόνη",
-          "1½ κ.γ. κουρκουμάς",
-          "2 κ.σ. λάδι, αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Ανακατέψτε το σκόρδο, το κύμινο, το κάρδαμο, 1 κ.γ. κουρκουμά, αλάτι, πιπέρι και 1 κ.σ. λάδι· τρίψτε όλο το κοτόπουλο απ' έξω και από μέσα. Μαρινάρετε τουλάχιστον 1 ώρα.",
-          "Ψήστε το κοτόπουλο σκεπασμένο με αλουμινόχαρτο στους 180 °C για 60 λεπτά και μετά ξεσκέπαστο στους 220 °C για 15 λεπτά μέχρι να ροδίσει.",
-          "Στο μεταξύ μαλακώστε το κρεμμύδι στο υπόλοιπο λάδι, προσθέστε το ρύζι, τον υπόλοιπο κουρκουμά, αλάτι και 700 ml νερό· σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά 20 λεπτά.",
-          "Απλώστε το ρύζι σε πιατέλα, περιχύστε με τους χυμούς του ψησίματος και τοποθετήστε το κοτόπουλο από πάνω."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα πριν φάτε για να κόψετε μεγάλο μέρος του λίπους.",
-        "Πάρτε μια μερίδα ρύζι όσο η παλάμη σας και προσθέστε σαλάτα ή φρέσκια σάλτσα ντομάτας.",
-        "Ξαφρίστε το λίπος από τους χυμούς του ψησίματος πριν τους ρίξετε στο ρύζι."
-      ]
-    },
-    "ru": {
-      "name": "Курица ханит",
-      "origin": "Йемен",
-      "intro": "Курица ханит — целая курица, натёртая сухой смесью зиры, кардамона и куркумы, медленно запечённая до таяния мяса и поданная на жёлтом пряном рисе. Это куриная версия знаменитого йеменского ханита из баранины, более мягкая и быстрее готовящаяся. Кожа становится глубокого золотистого цвета, а соки ароматизируют рис под ней.",
-      "history": "Ханит родом из Йемена и юго-запада Аравийского полуострова, где мясо традиционно медленно запекали в закрытой яме-печи; он близкий родственник манди. Куриный вариант — популярная повседневная адаптация в Йемене, Саудовской Аравии и странах Залива сегодня.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1 целая курица (около 1,5 кг)",
-          "400 г риса басмати, промытого и замоченного на 30 минут",
-          "2 луковицы, нарезанные",
-          "4 зубчика чеснока, раздавленных",
-          "2 ч. л. молотой зиры",
-          "1 ч. л. молотого кардамона",
-          "1½ ч. л. куркумы",
-          "2 ст. л. масла, соль и чёрный перец"
-        ],
-        "steps": [
-          "Смешайте чеснок, зиру, кардамон, 1 ч. л. куркумы, соль, перец и 1 ст. л. масла; натрите курицу снаружи и внутри. Маринуйте не менее 1 часа.",
-          "Запекайте курицу под фольгой при 180 °C 60 минут, затем без фольги при 220 °C 15 минут до золотистого цвета.",
-          "Тем временем размягчите лук в оставшемся масле, добавьте рис, оставшуюся куркуму, соль и 700 мл воды; накройте и готовьте на слабом огне 20 минут.",
-          "Выложите рис на блюдо, полейте соками от запекания и сверху положите курицу."
-        ]
-      },
-      "tips": [
-        "Снимайте кожу перед едой, чтобы значительно сократить жир.",
-        "Берите порцию риса размером с ладонь и добавьте салат или томатную сальсу.",
-        "Снимите жир с соков от запекания, прежде чем поливать ими рис."
-      ],
-      "name_inline": "курица ханит"
-    }
+  "ar": {
+   "name": "حنيذ دجاج",
+   "origin": "اليمن",
+   "intro": "حنيذ الدجاج دجاجة كاملة تُدعك بخليط جاف من الكمون والهيل والكركم، وتُشوى ببطء حتى يصير لحمها طريًا جدًا، وتُقدَّم فوق أرز أصفر متبّل. إنه النسخة الدجاجية من الحنيذ اليمني الشهير باللحم، أخف طعمًا وأسرع طهيًا. يكتسب الجلد لونًا ذهبيًا عميقًا وتنساب العصارة لتنكّه الأرز تحته.",
+   "history": "الحنيذ من اليمن وجنوب غرب شبه الجزيرة العربية، حيث كان اللحم يُشوى تقليديًا ببطء في تنور محكم الإغلاق، وهو قريب من المندي. ونسخة الدجاج اليوم تكييف يومي شائع في اليمن والسعودية والخليج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "دجاجة كاملة (نحو 1.5 كغ)",
+     "400 غ أرز بسمتي مغسول ومنقوع 30 دقيقة",
+     "بصلتان مقطعتان شرائح",
+     "4 فصوص ثوم مهروسة",
+     "ملعقتان صغيرتان كمون مطحون",
+     "ملعقة صغيرة هيل مطحون",
+     "1½ ملعقة صغيرة كركم",
+     "ملعقتان كبيرتان زيت، ملح وفلفل أسود"
+    ],
+    "steps": [
+     "اخلط الثوم والكمون والهيل وملعقة صغيرة كركم والملح والفلفل وملعقة كبيرة زيت، وادعك بها الدجاجة من الخارج والداخل. اتركها ساعة على الأقل.",
+     "اشوِ الدجاجة مغطاة بورق الألمنيوم على 180 °م مدة 60 دقيقة، ثم مكشوفة على 220 °م مدة 15 دقيقة حتى تتحمّر.",
+     "في الأثناء شوّح البصل في بقية الزيت، وأضف الأرز وبقية الكركم والملح و700 مل ماء، وغطِّه واطهُه على نار هادئة 20 دقيقة.",
+     "افرد الأرز في طبق، واسكب فوقه عصارة الشوي، وضع الدجاجة في الأعلى."
+    ]
+   },
+   "tips": [
+    "أزل الجلد قبل الأكل للتخلص من جزء كبير من الدهون.",
+    "خذ حصة أرز بحجم كف اليد وأضف سلطة أو صلصة طماطم.",
+    "أزل الدهن عن عصارة الشوي قبل سكبها على الأرز."
+   ]
+  },
+  "it": {
+   "name": "Haneeth di pollo",
+   "name_inline": "haneeth di pollo",
+   "origin": "Yemen",
+   "intro": "L'haneeth di pollo è un pollo intero strofinato con un mix secco di cumino, cardamomo e curcuma, arrostito lentamente finché la carne è tenerissima e servito su riso giallo speziato. È la versione con il pollo del famoso haneeth yemenita di agnello, più delicata e più veloce da cuocere. La pelle diventa di un dorato intenso e i succhi insaporiscono il riso sottostante.",
+   "history": "L'haneeth viene dallo Yemen e dal sud-ovest della Penisola arabica, dove la carne veniva tradizionalmente arrostita lentamente in un forno a fossa sigillato; è parente stretto del mandi. La versione con il pollo è oggi un adattamento quotidiano molto diffuso in Yemen, Arabia Saudita e nel Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1 pollo intero (circa 1,5 kg)",
+     "400 g di riso basmati, sciacquato e ammollato 30 minuti",
+     "2 cipolle affettate",
+     "4 spicchi d'aglio schiacciati",
+     "2 cucchiaini di cumino in polvere",
+     "1 cucchiaino di cardamomo in polvere",
+     "1½ cucchiaino di curcuma",
+     "2 cucchiai di olio, sale e pepe nero"
+    ],
+    "steps": [
+     "Mescola aglio, cumino, cardamomo, 1 cucchiaino di curcuma, sale, pepe e 1 cucchiaio di olio; strofina il composto su tutto il pollo, anche all'interno. Lascia marinare almeno 1 ora.",
+     "Arrostisci il pollo coperto con alluminio a 180 °C per 60 minuti, poi scoperto a 220 °C per 15 minuti finché è dorato.",
+     "Nel frattempo fai appassire la cipolla nell'olio rimasto, aggiungi il riso, la curcuma rimasta, il sale e 700 ml di acqua; copri e cuoci a fuoco basso per 20 minuti.",
+     "Distribuisci il riso su un piatto da portata, versaci sopra il fondo di cottura e adagia il pollo sopra."
+    ]
+   },
+   "tips": [
+    "Togli la pelle prima di mangiare per eliminare gran parte dei grassi.",
+    "Prendi una porzione di riso grande come il palmo della mano e aggiungi insalata o una salsa di pomodoro fresca.",
+    "Sgrassa il fondo di cottura prima di versarlo sul riso."
+   ]
+  },
+  "el": {
+   "name": "Χανίθ με κοτόπουλο",
+   "name_inline": "χανίθ με κοτόπουλο",
+   "origin": "Υεμένη",
+   "intro": "Το χανίθ με κοτόπουλο είναι ολόκληρο κοτόπουλο τριμμένο με ξερό μείγμα από κύμινο, κάρδαμο και κουρκουμά, ψημένο αργά μέχρι το κρέας να λιώνει, και σερβιρισμένο πάνω σε κίτρινο αρωματικό ρύζι. Είναι η εκδοχή με πουλερικό του διάσημου υεμενίτικου χανίθ με αρνί, πιο ήπια και πιο γρήγορη στο μαγείρεμα. Η πέτσα παίρνει βαθύ χρυσαφένιο χρώμα και οι χυμοί νοστιμίζουν το ρύζι από κάτω.",
+   "history": "Το χανίθ προέρχεται από την Υεμένη και τη νοτιοδυτική Αραβική Χερσόνησο, όπου το κρέας παραδοσιακά ψηνόταν αργά σε σφραγισμένο υπόγειο φούρνο· είναι στενός συγγενής του μάντι. Η εκδοχή με κοτόπουλο είναι σήμερα δημοφιλής καθημερινή προσαρμογή στην Υεμένη, τη Σαουδική Αραβία και τον Κόλπο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1 ολόκληρο κοτόπουλο (περίπου 1,5 κιλό)",
+     "400 γρ. ρύζι μπασμάτι, ξεπλυμένο και μουλιασμένο 30 λεπτά",
+     "2 κρεμμύδια, σε φέτες",
+     "4 σκελίδες σκόρδο, λιωμένες",
+     "2 κ.γ. κύμινο σε σκόνη",
+     "1 κ.γ. κάρδαμο σε σκόνη",
+     "1½ κ.γ. κουρκουμάς",
+     "2 κ.σ. λάδι, αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Ανακατέψτε το σκόρδο, το κύμινο, το κάρδαμο, 1 κ.γ. κουρκουμά, αλάτι, πιπέρι και 1 κ.σ. λάδι· τρίψτε όλο το κοτόπουλο απ' έξω και από μέσα. Μαρινάρετε τουλάχιστον 1 ώρα.",
+     "Ψήστε το κοτόπουλο σκεπασμένο με αλουμινόχαρτο στους 180 °C για 60 λεπτά και μετά ξεσκέπαστο στους 220 °C για 15 λεπτά μέχρι να ροδίσει.",
+     "Στο μεταξύ μαλακώστε το κρεμμύδι στο υπόλοιπο λάδι, προσθέστε το ρύζι, τον υπόλοιπο κουρκουμά, αλάτι και 700 ml νερό· σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά 20 λεπτά.",
+     "Απλώστε το ρύζι σε πιατέλα, περιχύστε με τους χυμούς του ψησίματος και τοποθετήστε το κοτόπουλο από πάνω."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα πριν φάτε για να κόψετε μεγάλο μέρος του λίπους.",
+    "Πάρτε μια μερίδα ρύζι όσο η παλάμη σας και προσθέστε σαλάτα ή φρέσκια σάλτσα ντομάτας.",
+    "Ξαφρίστε το λίπος από τους χυμούς του ψησίματος πριν τους ρίξετε στο ρύζι."
+   ]
+  },
+  "ru": {
+   "name": "Курица ханит",
+   "origin": "Йемен",
+   "intro": "Курица ханит — целая курица, натёртая сухой смесью зиры, кардамона и куркумы, медленно запечённая до таяния мяса и поданная на жёлтом пряном рисе. Это куриная версия знаменитого йеменского ханита из баранины, более мягкая и быстрее готовящаяся. Кожа становится глубокого золотистого цвета, а соки ароматизируют рис под ней.",
+   "history": "Ханит родом из Йемена и юго-запада Аравийского полуострова, где мясо традиционно медленно запекали в закрытой яме-печи; он близкий родственник манди. Куриный вариант — популярная повседневная адаптация в Йемене, Саудовской Аравии и странах Залива сегодня.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1 целая курица (около 1,5 кг)",
+     "400 г риса басмати, промытого и замоченного на 30 минут",
+     "2 луковицы, нарезанные",
+     "4 зубчика чеснока, раздавленных",
+     "2 ч. л. молотой зиры",
+     "1 ч. л. молотого кардамона",
+     "1½ ч. л. куркумы",
+     "2 ст. л. масла, соль и чёрный перец"
+    ],
+    "steps": [
+     "Смешайте чеснок, зиру, кардамон, 1 ч. л. куркумы, соль, перец и 1 ст. л. масла; натрите курицу снаружи и внутри. Маринуйте не менее 1 часа.",
+     "Запекайте курицу под фольгой при 180 °C 60 минут, затем без фольги при 220 °C 15 минут до золотистого цвета.",
+     "Тем временем размягчите лук в оставшемся масле, добавьте рис, оставшуюся куркуму, соль и 700 мл воды; накройте и готовьте на слабом огне 20 минут.",
+     "Выложите рис на блюдо, полейте соками от запекания и сверху положите курицу."
+    ]
+   },
+   "tips": [
+    "Снимайте кожу перед едой, чтобы значительно сократить жир.",
+    "Берите порцию риса размером с ладонь и добавьте салат или томатную сальсу.",
+    "Снимите жир с соков от запекания, прежде чем поливать ими рис."
+   ],
+   "name_inline": "курица ханит"
+  },
+  "es": {
+   "name": "Pollo haneeth",
+   "origin": "Yemen",
+   "intro": "El pollo haneeth es un pollo entero frotado con una mezcla seca de comino, cardamomo y cúrcuma, asado lentamente hasta que la carne queda muy tierna, y servido sobre arroz amarillo especiado. Es la versión de pollo del famoso haneeth yemení de cordero, más suave y rápida de cocinar. La piel se dora intensamente y los jugos dan sabor al arroz de abajo.",
+   "history": "El haneeth viene de Yemen y del suroeste de la península arábiga, donde la carne se asaba tradicionalmente a fuego lento en un horno de pozo cerrado; es pariente cercano del mandi. La versión de pollo es una adaptación cotidiana muy popular hoy en Yemen, Arabia Saudita y el Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1 pollo entero (de unos 1,5 kg)",
+     "400 g de arroz basmati, lavado y remojado 30 minutos",
+     "2 cebollas, en rodajas",
+     "4 dientes de ajo, machacados",
+     "2 cdta. de comino molido",
+     "1 cdta. de cardamomo molido",
+     "1½ cdta. de cúrcuma",
+     "2 cda. de aceite, sal y pimienta negra"
+    ],
+    "steps": [
+     "Mezcla el ajo, el comino, el cardamomo, 1 cdta. de cúrcuma, sal, pimienta y 1 cda. de aceite; frota el pollo por fuera y por dentro. Marina al menos 1 hora.",
+     "Asa el pollo tapado con papel aluminio a 180 °C durante 60 minutos y luego sin tapar a 220 °C durante 15 minutos, hasta que esté dorado.",
+     "Mientras tanto, sofríe la cebolla en el aceite restante, añade el arroz, la cúrcuma restante, sal y 700 ml de agua; tapa y cuece a fuego bajo 20 minutos.",
+     "Extiende el arroz en una fuente, baña con los jugos del asado y coloca el pollo encima."
+    ]
+   },
+   "tips": [
+    "Quita la piel antes de comer para reducir buena parte de la grasa.",
+    "Toma una porción de arroz del tamaño de la palma de la mano y añade ensalada o una salsa de tomate.",
+    "Retira la grasa de los jugos del asado antes de verterlos sobre el arroz."
+   ],
+   "name_inline": "el pollo haneeth"
   }
+ }
 }

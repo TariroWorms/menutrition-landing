@@ -1,172 +1,204 @@
 {
-  "db_key": "bun_bo_hue",
-  "slug": "bun-bo-hue",
-  "emoji": "🍜",
-  "portion_g": 550,
-  "country": "VN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bun_bo_hue",
+ "slug": "bun-bo-hue",
+ "emoji": "🍜",
+ "portion_g": 550,
+ "country": "VN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bún bò Huế",
+   "origin": "Vietnam · Huế",
+   "intro": "Bún bò Huế is a spicy rice-vermicelli soup from central Vietnam: a deep broth of beef and pork bones scented with lemongrass, chili and fermented shrimp paste, served over thick round rice vermicelli. Slices of beef shank and pork knuckle sit on top. It is bold, aromatic and fiery, eaten with fresh herbs, lime and bean sprouts.",
+   "history": "The soup comes from Huế, the former imperial capital of Vietnam, and reflects the city's taste for spicy, strongly seasoned food. It is now served across Vietnam and in Vietnamese communities abroad, often as a heartier rival to phở.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "500 g beef shank",
+     "500 g pork knuckle or pork shoulder",
+     "600 g thick round rice vermicelli",
+     "4 lemongrass stalks, bruised",
+     "2 tbsp fermented shrimp paste",
+     "2 tbsp chili flakes fried in 2 tbsp oil",
+     "1 onion, salt, sugar, herbs and lime to serve"
+    ],
+    "steps": [
+     "Blanch the beef and pork, rinse, then cover with 4 l fresh water.",
+     "Add the lemongrass and onion and simmer for 2–2½ hours, skimming.",
+     "Dissolve the shrimp paste in a little water, let it settle and add the clear liquid to the broth; season with salt and sugar.",
+     "Lift out and slice the meat; stir the chili oil into the broth.",
+     "Cook the vermicelli, divide into bowls, add meat and ladle over hot broth; serve with herbs and lime."
+    ]
+   },
+   "tips": [
+    "Skim the fat off the broth after chilling it — it lifts off easily once cold.",
+    "Use more beef shank and less pork knuckle for a leaner bowl.",
+    "Add extra bean sprouts and herbs and fewer vermicelli."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bún bò Huế",
-      "origin": "Vietnam · Huế",
-      "intro": "Bún bò Huế is a spicy rice-vermicelli soup from central Vietnam: a deep broth of beef and pork bones scented with lemongrass, chili and fermented shrimp paste, served over thick round rice vermicelli. Slices of beef shank and pork knuckle sit on top. It is bold, aromatic and fiery, eaten with fresh herbs, lime and bean sprouts.",
-      "history": "The soup comes from Huế, the former imperial capital of Vietnam, and reflects the city's taste for spicy, strongly seasoned food. It is now served across Vietnam and in Vietnamese communities abroad, often as a heartier rival to phở.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "500 g beef shank",
-          "500 g pork knuckle or pork shoulder",
-          "600 g thick round rice vermicelli",
-          "4 lemongrass stalks, bruised",
-          "2 tbsp fermented shrimp paste",
-          "2 tbsp chili flakes fried in 2 tbsp oil",
-          "1 onion, salt, sugar, herbs and lime to serve"
-        ],
-        "steps": [
-          "Blanch the beef and pork, rinse, then cover with 4 l fresh water.",
-          "Add the lemongrass and onion and simmer for 2–2½ hours, skimming.",
-          "Dissolve the shrimp paste in a little water, let it settle and add the clear liquid to the broth; season with salt and sugar.",
-          "Lift out and slice the meat; stir the chili oil into the broth.",
-          "Cook the vermicelli, divide into bowls, add meat and ladle over hot broth; serve with herbs and lime."
-        ]
-      },
-      "tips": [
-        "Skim the fat off the broth after chilling it — it lifts off easily once cold.",
-        "Use more beef shank and less pork knuckle for a leaner bowl.",
-        "Add extra bean sprouts and herbs and fewer vermicelli."
-      ]
-    },
-    "ar": {
-      "name": "بون بو هوي",
-      "origin": "فيتنام · هوي",
-      "intro": "بون بو هوي حساء نودلز حار من وسط فيتنام: مرق عميق من عظام البقر والخنزير معطر بعشب الليمون والفلفل الحار ومعجون الروبيان المخمّر، يقدم فوق نودلز أرز مستديرة سميكة. تعلوه شرائح من ساق البقر وكوارع الخنزير. نكهته جريئة وعطرية وحارة، ويؤكل مع الأعشاب الطازجة والليمون وبراعم الفول.",
-      "history": "يأتي الحساء من هوي، العاصمة الإمبراطورية السابقة لفيتنام، ويعكس ذوق المدينة في الطعام الحار القوي التتبيل. ويقدم اليوم في أنحاء فيتنام وفي المجتمعات الفيتنامية في الخارج، وكثيرًا ما يُعد منافسًا أكثر دسامة لحساء الفو.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "500 غ ساق بقر",
-          "500 غ كوارع أو كتف خنزير",
-          "600 غ نودلز أرز مستديرة سميكة",
-          "4 أعواد عشب ليمون مدقوقة",
-          "2 ملعقة كبيرة معجون روبيان مخمّر",
-          "2 ملعقة كبيرة فلفل حار مجروش مقلي في 2 ملعقة كبيرة زيت",
-          "بصلة، ملح، سكر، أعشاب وليمون للتقديم"
-        ],
-        "steps": [
-          "اسلق اللحمين سلقًا سريعًا واشطفهما، ثم غطّهما بـ 4 لترات ماء نظيف.",
-          "أضف عشب الليمون والبصل واتركه يغلي بهدوء ساعتين إلى ساعتين ونصف مع إزالة الرغوة.",
-          "ذوّب معجون الروبيان في قليل من الماء واتركه يترسب وأضف السائل الصافي إلى المرق، ثم تبّل بالملح والسكر.",
-          "ارفع اللحم وقطّعه شرائح، وأضف زيت الفلفل إلى المرق.",
-          "اسلق النودلز ووزّعها في الأوعية وأضف اللحم واسكب المرق الساخن، وقدّمه مع الأعشاب والليمون."
-        ]
-      },
-      "tips": [
-        "أزل الدهن عن المرق بعد تبريده — فهو ينفصل بسهولة عندما يبرد.",
-        "استخدم ساق البقر أكثر وكوارع الخنزير أقل لوعاء أقل دهنًا.",
-        "أضف براعم وأعشابًا أكثر ونودلز أقل."
-      ]
-    },
-    "it": {
-      "name": "Bún bò Huế",
-      "origin": "Vietnam · Huế",
-      "intro": "Il bún bò Huế è una zuppa piccante di vermicelli di riso del Vietnam centrale: un brodo intenso di ossa di manzo e maiale profumato con citronella, peperoncino e pasta di gamberi fermentata, servito su spessi vermicelli di riso tondi. Sopra si adagiano fette di stinco di manzo e di zampetto di maiale. È deciso, aromatico e infuocato, e si mangia con erbe fresche, lime e germogli di soia.",
-      "history": "La zuppa viene da Huế, l'antica capitale imperiale del Vietnam, e riflette il gusto della città per i cibi piccanti e molto saporiti. Oggi si serve in tutto il Vietnam e nelle comunità vietnamite all'estero, spesso come rivale più sostanziosa del phở.",
-      "name_inline": "bún bò Huế",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "500 g di stinco di manzo",
-          "500 g di zampetto o spalla di maiale",
-          "600 g di vermicelli di riso tondi spessi",
-          "4 gambi di citronella schiacciati",
-          "2 cucchiai di pasta di gamberi fermentata",
-          "2 cucchiai di peperoncino in fiocchi fritto in 2 cucchiai d'olio",
-          "1 cipolla, sale, zucchero, erbe e lime per servire"
-        ],
-        "steps": [
-          "Sbollenta il manzo e il maiale, sciacquali, poi coprili con 4 l di acqua fresca.",
-          "Aggiungi la citronella e la cipolla e fai sobbollire per 2–2½ ore, schiumando.",
-          "Sciogli la pasta di gamberi in poca acqua, lasciala depositare e aggiungi al brodo il liquido limpido; regola con sale e zucchero.",
-          "Togli la carne e tagliala a fette; incorpora l'olio al peperoncino nel brodo.",
-          "Cuoci i vermicelli, dividili nelle ciotole, aggiungi la carne e versa sopra il brodo caldo; servi con erbe e lime."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso dal brodo dopo averlo raffreddato: da freddo si toglie facilmente.",
-        "Usa più stinco di manzo e meno zampetto di maiale per una ciotola più magra.",
-        "Aggiungi più germogli di soia ed erbe e meno vermicelli."
-      ]
-    },
-    "el": {
-      "name": "Μπουν μπο Χουέ",
-      "origin": "Βιετνάμ · Χουέ",
-      "intro": "Το μπουν μπο Χουέ είναι πικάντικη σούπα με φιδέ ρυζιού από το κεντρικό Βιετνάμ: ένας βαθύς ζωμός από μοσχαρίσια και χοιρινά κόκαλα αρωματισμένος με λεμονόχορτο, τσίλι και πάστα ζυμωμένης γαρίδας, σερβιρισμένος πάνω σε χοντρό στρογγυλό φιδέ ρυζιού. Από πάνω μπαίνουν φέτες μοσχαρίσιου κότσι και χοιρινού ποδαριού. Είναι έντονη, αρωματική και καυτερή, και τρώγεται με φρέσκα μυρωδικά, λάιμ και φύτρες φασολιών.",
-      "history": "Η σούπα προέρχεται από το Χουέ, την πρώην αυτοκρατορική πρωτεύουσα του Βιετνάμ, και αντανακλά την προτίμηση της πόλης για πικάντικα, έντονα καρυκευμένα φαγητά. Σήμερα σερβίρεται σε όλο το Βιετνάμ και στις βιετναμέζικες κοινότητες του εξωτερικού, συχνά ως πιο χορταστικός αντίπαλος του φο.",
-      "name_inline": "μπουν μπο Χουέ",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "500 γρ. μοσχαρίσιο κότσι",
-          "500 γρ. χοιρινό ποδαράκι ή χοιρινή σπάλα",
-          "600 γρ. χοντρό στρογγυλό φιδέ ρυζιού",
-          "4 κοτσάνια λεμονόχορτο, χτυπημένα",
-          "2 κ.σ. πάστα ζυμωμένης γαρίδας",
-          "2 κ.σ. νιφάδες τσίλι τηγανισμένες σε 2 κ.σ. λάδι",
-          "1 κρεμμύδι, αλάτι, ζάχαρη, μυρωδικά και λάιμ για το σερβίρισμα"
-        ],
-        "steps": [
-          "Ζεματίστε το μοσχάρι και το χοιρινό, ξεπλύνετε και σκεπάστε τα με 4 λίτρα φρέσκο νερό.",
-          "Προσθέστε το λεμονόχορτο και το κρεμμύδι και σιγοβράστε για 2–2½ ώρες, ξαφρίζοντας.",
-          "Διαλύστε την πάστα γαρίδας σε λίγο νερό, αφήστε τη να κατακαθίσει και προσθέστε το διαυγές υγρό στον ζωμό· καρυκεύστε με αλάτι και ζάχαρη.",
-          "Βγάλτε το κρέας και κόψτε το σε φέτες· ανακατέψτε το λάδι τσίλι στον ζωμό.",
-          "Βράστε το φιδέ, μοιράστε το σε μπολ, προσθέστε το κρέας και ρίξτε από πάνω καυτό ζωμό· σερβίρετε με μυρωδικά και λάιμ."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το λίπος από τον ζωμό αφού κρυώσει — όταν είναι κρύος βγαίνει εύκολα.",
-        "Βάλτε περισσότερο μοσχαρίσιο κότσι και λιγότερο χοιρινό ποδαράκι για πιο άπαχο μπολ.",
-        "Προσθέστε επιπλέον φύτρες και μυρωδικά και λιγότερο φιδέ."
-      ]
-    },
-    "ru": {
-      "name": "Бун бо Хюэ",
-      "origin": "Вьетнам · Хюэ",
-      "intro": "Бун бо Хюэ — острый суп с рисовой вермишелью из центрального Вьетнама: глубокий бульон из говяжьих и свиных костей с ароматом лемонграсса, чили и ферментированной креветочной пасты, поданный поверх толстой круглой рисовой вермишели. Сверху лежат ломтики говяжьей голяшки и свиной рульки. Он яркий, ароматный и огненный, его едят со свежей зеленью, лаймом и ростками фасоли.",
-      "history": "Суп родом из Хюэ, бывшей императорской столицы Вьетнама, и отражает вкус города к острой, сильно приправленной еде. Сейчас его подают по всему Вьетнаму и во вьетнамских общинах за рубежом, часто как более сытного соперника фо.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "500 г говяжьей голяшки",
-          "500 г свиной рульки или лопатки",
-          "600 г толстой круглой рисовой вермишели",
-          "4 стебля лемонграсса, слегка раздавленных",
-          "2 ст. л. ферментированной креветочной пасты",
-          "2 ст. л. хлопьев чили, обжаренных в 2 ст. л. масла",
-          "1 луковица, соль, сахар, зелень и лайм для подачи"
-        ],
-        "steps": [
-          "Бланшируйте говядину и свинину, промойте, затем залейте 4 л свежей воды.",
-          "Добавьте лемонграсс и лук и варите на слабом огне 2–2½ часа, снимая пену.",
-          "Разведите креветочную пасту небольшим количеством воды, дайте отстояться и добавьте прозрачную жидкость в бульон; приправьте солью и сахаром.",
-          "Выньте мясо и нарежьте; вмешайте масло с чили в бульон.",
-          "Отварите вермишель, разложите по мискам, добавьте мясо и залейте горячим бульоном; подавайте с зеленью и лаймом."
-        ]
-      },
-      "tips": [
-        "Снимите жир с бульона после охлаждения — он легко отделяется, когда застынет.",
-        "Берите больше говяжьей голяшки и меньше свиной рульки для более постной миски.",
-        "Добавьте больше ростков фасоли и зелени и меньше вермишели."
-      ],
-      "name_inline": "бун бо Хюэ"
-    }
+  "ar": {
+   "name": "بون بو هوي",
+   "origin": "فيتنام · هوي",
+   "intro": "بون بو هوي حساء نودلز حار من وسط فيتنام: مرق عميق من عظام البقر والخنزير معطر بعشب الليمون والفلفل الحار ومعجون الروبيان المخمّر، يقدم فوق نودلز أرز مستديرة سميكة. تعلوه شرائح من ساق البقر وكوارع الخنزير. نكهته جريئة وعطرية وحارة، ويؤكل مع الأعشاب الطازجة والليمون وبراعم الفول.",
+   "history": "يأتي الحساء من هوي، العاصمة الإمبراطورية السابقة لفيتنام، ويعكس ذوق المدينة في الطعام الحار القوي التتبيل. ويقدم اليوم في أنحاء فيتنام وفي المجتمعات الفيتنامية في الخارج، وكثيرًا ما يُعد منافسًا أكثر دسامة لحساء الفو.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "500 غ ساق بقر",
+     "500 غ كوارع أو كتف خنزير",
+     "600 غ نودلز أرز مستديرة سميكة",
+     "4 أعواد عشب ليمون مدقوقة",
+     "2 ملعقة كبيرة معجون روبيان مخمّر",
+     "2 ملعقة كبيرة فلفل حار مجروش مقلي في 2 ملعقة كبيرة زيت",
+     "بصلة، ملح، سكر، أعشاب وليمون للتقديم"
+    ],
+    "steps": [
+     "اسلق اللحمين سلقًا سريعًا واشطفهما، ثم غطّهما بـ 4 لترات ماء نظيف.",
+     "أضف عشب الليمون والبصل واتركه يغلي بهدوء ساعتين إلى ساعتين ونصف مع إزالة الرغوة.",
+     "ذوّب معجون الروبيان في قليل من الماء واتركه يترسب وأضف السائل الصافي إلى المرق، ثم تبّل بالملح والسكر.",
+     "ارفع اللحم وقطّعه شرائح، وأضف زيت الفلفل إلى المرق.",
+     "اسلق النودلز ووزّعها في الأوعية وأضف اللحم واسكب المرق الساخن، وقدّمه مع الأعشاب والليمون."
+    ]
+   },
+   "tips": [
+    "أزل الدهن عن المرق بعد تبريده — فهو ينفصل بسهولة عندما يبرد.",
+    "استخدم ساق البقر أكثر وكوارع الخنزير أقل لوعاء أقل دهنًا.",
+    "أضف براعم وأعشابًا أكثر ونودلز أقل."
+   ]
+  },
+  "it": {
+   "name": "Bún bò Huế",
+   "origin": "Vietnam · Huế",
+   "intro": "Il bún bò Huế è una zuppa piccante di vermicelli di riso del Vietnam centrale: un brodo intenso di ossa di manzo e maiale profumato con citronella, peperoncino e pasta di gamberi fermentata, servito su spessi vermicelli di riso tondi. Sopra si adagiano fette di stinco di manzo e di zampetto di maiale. È deciso, aromatico e infuocato, e si mangia con erbe fresche, lime e germogli di soia.",
+   "history": "La zuppa viene da Huế, l'antica capitale imperiale del Vietnam, e riflette il gusto della città per i cibi piccanti e molto saporiti. Oggi si serve in tutto il Vietnam e nelle comunità vietnamite all'estero, spesso come rivale più sostanziosa del phở.",
+   "name_inline": "bún bò Huế",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "500 g di stinco di manzo",
+     "500 g di zampetto o spalla di maiale",
+     "600 g di vermicelli di riso tondi spessi",
+     "4 gambi di citronella schiacciati",
+     "2 cucchiai di pasta di gamberi fermentata",
+     "2 cucchiai di peperoncino in fiocchi fritto in 2 cucchiai d'olio",
+     "1 cipolla, sale, zucchero, erbe e lime per servire"
+    ],
+    "steps": [
+     "Sbollenta il manzo e il maiale, sciacquali, poi coprili con 4 l di acqua fresca.",
+     "Aggiungi la citronella e la cipolla e fai sobbollire per 2–2½ ore, schiumando.",
+     "Sciogli la pasta di gamberi in poca acqua, lasciala depositare e aggiungi al brodo il liquido limpido; regola con sale e zucchero.",
+     "Togli la carne e tagliala a fette; incorpora l'olio al peperoncino nel brodo.",
+     "Cuoci i vermicelli, dividili nelle ciotole, aggiungi la carne e versa sopra il brodo caldo; servi con erbe e lime."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso dal brodo dopo averlo raffreddato: da freddo si toglie facilmente.",
+    "Usa più stinco di manzo e meno zampetto di maiale per una ciotola più magra.",
+    "Aggiungi più germogli di soia ed erbe e meno vermicelli."
+   ]
+  },
+  "el": {
+   "name": "Μπουν μπο Χουέ",
+   "origin": "Βιετνάμ · Χουέ",
+   "intro": "Το μπουν μπο Χουέ είναι πικάντικη σούπα με φιδέ ρυζιού από το κεντρικό Βιετνάμ: ένας βαθύς ζωμός από μοσχαρίσια και χοιρινά κόκαλα αρωματισμένος με λεμονόχορτο, τσίλι και πάστα ζυμωμένης γαρίδας, σερβιρισμένος πάνω σε χοντρό στρογγυλό φιδέ ρυζιού. Από πάνω μπαίνουν φέτες μοσχαρίσιου κότσι και χοιρινού ποδαριού. Είναι έντονη, αρωματική και καυτερή, και τρώγεται με φρέσκα μυρωδικά, λάιμ και φύτρες φασολιών.",
+   "history": "Η σούπα προέρχεται από το Χουέ, την πρώην αυτοκρατορική πρωτεύουσα του Βιετνάμ, και αντανακλά την προτίμηση της πόλης για πικάντικα, έντονα καρυκευμένα φαγητά. Σήμερα σερβίρεται σε όλο το Βιετνάμ και στις βιετναμέζικες κοινότητες του εξωτερικού, συχνά ως πιο χορταστικός αντίπαλος του φο.",
+   "name_inline": "μπουν μπο Χουέ",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "500 γρ. μοσχαρίσιο κότσι",
+     "500 γρ. χοιρινό ποδαράκι ή χοιρινή σπάλα",
+     "600 γρ. χοντρό στρογγυλό φιδέ ρυζιού",
+     "4 κοτσάνια λεμονόχορτο, χτυπημένα",
+     "2 κ.σ. πάστα ζυμωμένης γαρίδας",
+     "2 κ.σ. νιφάδες τσίλι τηγανισμένες σε 2 κ.σ. λάδι",
+     "1 κρεμμύδι, αλάτι, ζάχαρη, μυρωδικά και λάιμ για το σερβίρισμα"
+    ],
+    "steps": [
+     "Ζεματίστε το μοσχάρι και το χοιρινό, ξεπλύνετε και σκεπάστε τα με 4 λίτρα φρέσκο νερό.",
+     "Προσθέστε το λεμονόχορτο και το κρεμμύδι και σιγοβράστε για 2–2½ ώρες, ξαφρίζοντας.",
+     "Διαλύστε την πάστα γαρίδας σε λίγο νερό, αφήστε τη να κατακαθίσει και προσθέστε το διαυγές υγρό στον ζωμό· καρυκεύστε με αλάτι και ζάχαρη.",
+     "Βγάλτε το κρέας και κόψτε το σε φέτες· ανακατέψτε το λάδι τσίλι στον ζωμό.",
+     "Βράστε το φιδέ, μοιράστε το σε μπολ, προσθέστε το κρέας και ρίξτε από πάνω καυτό ζωμό· σερβίρετε με μυρωδικά και λάιμ."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το λίπος από τον ζωμό αφού κρυώσει — όταν είναι κρύος βγαίνει εύκολα.",
+    "Βάλτε περισσότερο μοσχαρίσιο κότσι και λιγότερο χοιρινό ποδαράκι για πιο άπαχο μπολ.",
+    "Προσθέστε επιπλέον φύτρες και μυρωδικά και λιγότερο φιδέ."
+   ]
+  },
+  "ru": {
+   "name": "Бун бо Хюэ",
+   "origin": "Вьетнам · Хюэ",
+   "intro": "Бун бо Хюэ — острый суп с рисовой вермишелью из центрального Вьетнама: глубокий бульон из говяжьих и свиных костей с ароматом лемонграсса, чили и ферментированной креветочной пасты, поданный поверх толстой круглой рисовой вермишели. Сверху лежат ломтики говяжьей голяшки и свиной рульки. Он яркий, ароматный и огненный, его едят со свежей зеленью, лаймом и ростками фасоли.",
+   "history": "Суп родом из Хюэ, бывшей императорской столицы Вьетнама, и отражает вкус города к острой, сильно приправленной еде. Сейчас его подают по всему Вьетнаму и во вьетнамских общинах за рубежом, часто как более сытного соперника фо.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "500 г говяжьей голяшки",
+     "500 г свиной рульки или лопатки",
+     "600 г толстой круглой рисовой вермишели",
+     "4 стебля лемонграсса, слегка раздавленных",
+     "2 ст. л. ферментированной креветочной пасты",
+     "2 ст. л. хлопьев чили, обжаренных в 2 ст. л. масла",
+     "1 луковица, соль, сахар, зелень и лайм для подачи"
+    ],
+    "steps": [
+     "Бланшируйте говядину и свинину, промойте, затем залейте 4 л свежей воды.",
+     "Добавьте лемонграсс и лук и варите на слабом огне 2–2½ часа, снимая пену.",
+     "Разведите креветочную пасту небольшим количеством воды, дайте отстояться и добавьте прозрачную жидкость в бульон; приправьте солью и сахаром.",
+     "Выньте мясо и нарежьте; вмешайте масло с чили в бульон.",
+     "Отварите вермишель, разложите по мискам, добавьте мясо и залейте горячим бульоном; подавайте с зеленью и лаймом."
+    ]
+   },
+   "tips": [
+    "Снимите жир с бульона после охлаждения — он легко отделяется, когда застынет.",
+    "Берите больше говяжьей голяшки и меньше свиной рульки для более постной миски.",
+    "Добавьте больше ростков фасоли и зелени и меньше вермишели."
+   ],
+   "name_inline": "бун бо Хюэ"
+  },
+  "es": {
+   "name": "Bún bò Huế",
+   "origin": "Vietnam · Huế",
+   "intro": "El bún bò Huế es una sopa picante de fideos de arroz del centro de Vietnam: un caldo profundo de huesos de res y de cerdo perfumado con hierba limón, chile y pasta fermentada de camarón, servido sobre gruesos fideos redondos de arroz. Encima se colocan rebanadas de chambarete de res y codillo de cerdo. Es intenso, aromático y picante, y se come con hierbas frescas, limón y brotes de soya.",
+   "history": "La sopa procede de Huế, la antigua capital imperial de Vietnam, y refleja el gusto de la ciudad por la comida picante y muy sazonada. Hoy se sirve en todo Vietnam y en las comunidades vietnamitas del extranjero, a menudo como una rival más contundente del phở.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "500 g de chambarete de res",
+     "500 g de codillo o paleta de cerdo",
+     "600 g de fideos de arroz redondos y gruesos",
+     "4 tallos de hierba limón, machacados",
+     "2 cda. de pasta fermentada de camarón",
+     "2 cda. de hojuelas de chile fritas en 2 cda. de aceite",
+     "1 cebolla, sal, azúcar, hierbas y limón para servir"
+    ],
+    "steps": [
+     "Blanquea la carne de res y de cerdo, enjuágalas y cúbrelas con 4 l de agua fresca.",
+     "Añade la hierba limón y la cebolla y cuece a fuego lento 2–2½ horas, retirando la espuma.",
+     "Disuelve la pasta de camarón en un poco de agua, déjala reposar y añade el líquido claro al caldo; sazona con sal y azúcar.",
+     "Saca la carne y córtala en rebanadas; incorpora el aceite de chile al caldo.",
+     "Cuece los fideos, repártelos en tazones, añade la carne y sirve con el caldo caliente; acompaña con hierbas y limón."
+    ]
+   },
+   "tips": [
+    "Retira la grasa del caldo después de enfriarlo: sale fácilmente cuando está frío.",
+    "Usa más chambarete de res y menos codillo de cerdo para un plato más magro.",
+    "Añade más brotes de soya y hierbas, y menos fideos."
+   ],
+   "name_inline": "el bún bò Huế"
   }
+ }
 }

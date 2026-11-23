@@ -1,175 +1,208 @@
 {
-  "db_key": "japchae",
-  "slug": "japchae",
-  "emoji": "🍜",
-  "portion_g": 250,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "japchae",
+ "slug": "japchae",
+ "emoji": "🍜",
+ "portion_g": 250,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Japchae",
+   "origin": "South Korea · Korean Peninsula",
+   "intro": "Japchae is a Korean dish of chewy, glossy sweet potato glass noodles stir-fried with strips of beef, spinach, carrot and mushrooms. Each ingredient is cooked separately, then everything is tossed together with soy sauce, a little sugar and fragrant sesame oil. The result is savoury-sweet and colourful, served warm or at room temperature as a side dish or main at holidays and celebrations.",
+   "history": "Japchae is usually traced to the Korean royal court of the early seventeenth century, when it was a dish of mixed vegetables without noodles. Glass noodles were added in the twentieth century, and today japchae is a fixture of birthdays, weddings and holiday tables.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g sweet potato glass noodles",
+     "200 g beef sirloin, cut into thin strips",
+     "200 g spinach",
+     "1 carrot, cut into matchsticks",
+     "150 g shiitake mushrooms, sliced",
+     "1 onion, sliced, and 2 garlic cloves",
+     "4 tbsp soy sauce and 1 tbsp sugar",
+     "2 tbsp sesame oil, 1 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Cook the noodles in boiling water for 6 minutes, drain, rinse and toss with 1 tbsp sesame oil and 1 tbsp soy sauce.",
+     "Blanch the spinach for 30 seconds, squeeze dry and season with a pinch of salt.",
+     "Marinate the beef with 1 tbsp soy sauce and the garlic for 10 minutes.",
+     "Stir-fry the onion, carrot and mushrooms in the vegetable oil, then the beef, each until just cooked.",
+     "Toss everything in the pan with the noodles, the remaining soy sauce, sugar and sesame oil until hot and glossy."
+    ]
+   },
+   "tips": [
+    "Double the spinach, carrot and mushrooms and use fewer noodles for a lighter bowl.",
+    "Measure the sesame oil; 1 tbsp oil ≈ 120 kcal.",
+    "Use lean beef and stir-fry in a non-stick pan with a minimum of oil."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Japchae",
-      "origin": "South Korea · Korean Peninsula",
-      "intro": "Japchae is a Korean dish of chewy, glossy sweet potato glass noodles stir-fried with strips of beef, spinach, carrot and mushrooms. Each ingredient is cooked separately, then everything is tossed together with soy sauce, a little sugar and fragrant sesame oil. The result is savoury-sweet and colourful, served warm or at room temperature as a side dish or main at holidays and celebrations.",
-      "history": "Japchae is usually traced to the Korean royal court of the early seventeenth century, when it was a dish of mixed vegetables without noodles. Glass noodles were added in the twentieth century, and today japchae is a fixture of birthdays, weddings and holiday tables.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 g sweet potato glass noodles",
-          "200 g beef sirloin, cut into thin strips",
-          "200 g spinach",
-          "1 carrot, cut into matchsticks",
-          "150 g shiitake mushrooms, sliced",
-          "1 onion, sliced, and 2 garlic cloves",
-          "4 tbsp soy sauce and 1 tbsp sugar",
-          "2 tbsp sesame oil, 1 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Cook the noodles in boiling water for 6 minutes, drain, rinse and toss with 1 tbsp sesame oil and 1 tbsp soy sauce.",
-          "Blanch the spinach for 30 seconds, squeeze dry and season with a pinch of salt.",
-          "Marinate the beef with 1 tbsp soy sauce and the garlic for 10 minutes.",
-          "Stir-fry the onion, carrot and mushrooms in the vegetable oil, then the beef, each until just cooked.",
-          "Toss everything in the pan with the noodles, the remaining soy sauce, sugar and sesame oil until hot and glossy."
-        ]
-      },
-      "tips": [
-        "Double the spinach, carrot and mushrooms and use fewer noodles for a lighter bowl.",
-        "Measure the sesame oil; 1 tbsp oil ≈ 120 kcal.",
-        "Use lean beef and stir-fry in a non-stick pan with a minimum of oil."
-      ]
-    },
-    "ar": {
-      "name": "جابتشي",
-      "origin": "كوريا الجنوبية · شبه الجزيرة الكورية",
-      "intro": "الجابتشي طبق كوري من نودلز البطاطا الحلوة الزجاجية المطاطية اللامعة، تُقلّب في المقلاة مع شرائح لحم البقر والسبانخ والجزر والفطر. يُطهى كل مكوّن على حدة، ثم يُخلط الجميع مع صلصة الصويا وقليل من السكر وزيت السمسم العطري. النتيجة طبق ملوّن مالح حلو، يُقدَّم دافئاً أو بحرارة الغرفة طبقاً جانبياً أو رئيسياً في الأعياد والمناسبات.",
-      "history": "يُرجع الجابتشي عادةً إلى البلاط الملكي الكوري في أوائل القرن السابع عشر، حين كان طبقاً من الخضار المشكّلة من دون نودلز. أُضيفت النودلز الزجاجية في القرن العشرين، وهو اليوم حاضر دائماً في أعياد الميلاد والأعراس وموائد الأعياد.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 غ نودلز زجاجية من البطاطا الحلوة",
-          "200 غ لحم بقر (سيرلوين) مقطّع شرائح رفيعة",
-          "200 غ سبانخ",
-          "جزرة مقطّعة أعواداً رفيعة",
-          "150 غ فطر شيتاكي مقطّع شرائح",
-          "بصلة مقطّعة شرائح وفصّا ثوم",
-          "4 ملاعق كبيرة صلصة صويا و1 ملعقة كبيرة سكر",
-          "2 ملعقة كبيرة زيت سمسم و1 ملعقة كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "اسلق النودلز في ماء مغلي 6 دقائق، ثم صفّها واشطفها واخلطها مع ملعقة كبيرة زيت سمسم وملعقة كبيرة صلصة صويا.",
-          "اسلق السبانخ 30 ثانية، واعصرها جيداً وتبّلها برشة ملح.",
-          "تبّل اللحم بملعقة كبيرة صلصة صويا والثوم 10 دقائق.",
-          "قلّب البصل والجزر والفطر في الزيت النباتي، ثم اللحم، كلاً حتى ينضج بالكاد.",
-          "اخلط كل شيء في المقلاة مع النودلز وباقي صلصة الصويا والسكر وزيت السمسم حتى يسخن ويلمع."
-        ]
-      },
-      "tips": [
-        "ضاعف كمية السبانخ والجزر والفطر واستخدم نودلز أقل لطبق أخف.",
-        "قِس زيت السمسم؛ 1 ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "استخدم لحماً قليل الدهن واطهه في مقلاة غير لاصقة بأقل قدر من الزيت."
-      ]
-    },
-    "it": {
-      "name": "Japchae",
-      "origin": "Corea del Sud · Penisola coreana",
-      "intro": "Il japchae è un piatto coreano di spaghetti di vetro di patata dolce, gommosi e lucidi, saltati in padella con striscioline di manzo, spinaci, carota e funghi. Ogni ingrediente si cuoce separatamente, poi si mescola tutto con salsa di soia, un po' di zucchero e profumato olio di sesamo. Il risultato è sapido e dolce insieme, pieno di colori, e si serve tiepido o a temperatura ambiente come contorno o piatto principale nelle feste e nelle occasioni speciali.",
-      "history": "Il japchae viene di solito fatto risalire alla corte reale coreana dell'inizio del Seicento, quando era un piatto di verdure miste senza spaghetti. Gli spaghetti di vetro furono aggiunti nel Novecento, e oggi il japchae è immancabile a compleanni, matrimoni e tavole delle feste.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 g di spaghetti di vetro di patata dolce",
-          "200 g di controfiletto di manzo a striscioline",
-          "200 g di spinaci",
-          "1 carota a fiammifero",
-          "150 g di funghi shiitake a fette",
-          "1 cipolla affettata e 2 spicchi d'aglio",
-          "4 cucchiai di salsa di soia e 1 cucchiaio di zucchero",
-          "2 cucchiai di olio di sesamo, 1 cucchiaio di olio di semi"
-        ],
-        "steps": [
-          "Cuoci gli spaghetti in acqua bollente per 6 minuti, scolali, sciacquali e condiscili con 1 cucchiaio di olio di sesamo e 1 cucchiaio di salsa di soia.",
-          "Sbollenta gli spinaci per 30 secondi, strizzali bene e condiscili con un pizzico di sale.",
-          "Marina il manzo con 1 cucchiaio di salsa di soia e l'aglio per 10 minuti.",
-          "Salta in padella cipolla, carota e funghi nell'olio di semi, poi il manzo, ciascuno finché è appena cotto.",
-          "Salta tutto in padella con gli spaghetti, la salsa di soia rimasta, lo zucchero e l'olio di sesamo finché è caldo e lucido."
-        ]
-      },
-      "tips": [
-        "Raddoppia spinaci, carota e funghi e usa meno spaghetti per una ciotola più leggera.",
-        "Misura l'olio di sesamo; 1 cucchiaio di olio ≈ 120 kcal.",
-        "Usa manzo magro e salta in una padella antiaderente con il minimo di olio."
-      ]
-    },
-    "el": {
-      "name": "Τζάπτσε",
-      "origin": "Νότια Κορέα · Κορεατική Χερσόνησος",
-      "intro": "Το τζάπτσε είναι κορεατικό πιάτο με γυάλινα νουντλς γλυκοπατάτας, ελαστικά και γυαλιστερά, σοταρισμένα με λωρίδες μοσχαριού, σπανάκι, καρότο και μανιτάρια. Κάθε υλικό μαγειρεύεται χωριστά και στο τέλος όλα ανακατεύονται με σάλτσα σόγιας, λίγη ζάχαρη και αρωματικό σησαμέλαιο. Το αποτέλεσμα είναι αλμυρόγλυκο και πολύχρωμο και σερβίρεται ζεστό ή σε θερμοκρασία δωματίου ως συνοδευτικό ή κυρίως πιάτο σε γιορτές και εορτασμούς.",
-      "history": "Το τζάπτσε συνήθως ανάγεται στη βασιλική αυλή της Κορέας των αρχών του δέκατου έβδομου αιώνα, όταν ήταν πιάτο με ανάμεικτα λαχανικά χωρίς νουντλς. Τα γυάλινα νουντλς προστέθηκαν τον εικοστό αιώνα, και σήμερα το τζάπτσε δεν λείπει από γενέθλια, γάμους και γιορτινά τραπέζια.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 γρ. γυάλινα νουντλς γλυκοπατάτας",
-          "200 γρ. μοσχαρίσιο κόντρα φιλέτο, σε λεπτές λωρίδες",
-          "200 γρ. σπανάκι",
-          "1 καρότο, σε σπιρτάκια",
-          "150 γρ. μανιτάρια σιιτάκε, σε φέτες",
-          "1 κρεμμύδι, σε φέτες, και 2 σκελίδες σκόρδο",
-          "4 κ.σ. σάλτσα σόγιας και 1 κ.σ. ζάχαρη",
-          "2 κ.σ. σησαμέλαιο, 1 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Βράστε τα νουντλς σε νερό που βράζει για 6 λεπτά, στραγγίξτε, ξεπλύνετε και ανακατέψτε τα με 1 κ.σ. σησαμέλαιο και 1 κ.σ. σάλτσα σόγιας.",
-          "Ζεματίστε το σπανάκι για 30 δευτερόλεπτα, στύψτε το καλά και αλατίστε το με μια πρέζα αλάτι.",
-          "Μαρινάρετε το μοσχάρι με 1 κ.σ. σάλτσα σόγιας και το σκόρδο για 10 λεπτά.",
-          "Σοτάρετε το κρεμμύδι, το καρότο και τα μανιτάρια στο φυτικό λάδι, έπειτα το μοσχάρι, το καθένα μέχρι να μόλις μαγειρευτεί.",
-          "Ανακατέψτε τα πάντα στο τηγάνι με τα νουντλς, την υπόλοιπη σάλτσα σόγιας, τη ζάχαρη και το σησαμέλαιο μέχρι να ζεσταθούν και να γυαλίσουν."
-        ]
-      },
-      "tips": [
-        "Διπλασιάστε το σπανάκι, το καρότο και τα μανιτάρια και χρησιμοποιήστε λιγότερα νουντλς για πιο ελαφρύ μπολ.",
-        "Μετρήστε το σησαμέλαιο· 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Χρησιμοποιήστε άπαχο μοσχάρι και σοτάρετε σε αντικολλητικό τηγάνι με ελάχιστο λάδι."
-      ]
-    },
-    "ru": {
-      "name": "Чапчхэ",
-      "origin": "Южная Корея · Корейский полуостров",
-      "intro": "Чапчхэ — корейское блюдо из упругой глянцевой «стеклянной» лапши из батата, обжаренной с полосками говядины, шпинатом, морковью и грибами. Каждый ингредиент готовят отдельно, затем всё перемешивают с соевым соусом, небольшим количеством сахара и ароматным кунжутным маслом. Получается пикантно-сладко и красочно; подаётся тёплым или при комнатной температуре как гарнир или основное блюдо на праздники и торжества.",
-      "history": "Чапчхэ обычно возводят к корейскому королевскому двору начала XVII века, когда это было блюдо из смешанных овощей без лапши. Стеклянную лапшу добавили в XX веке, и сегодня чапчхэ — обязательное блюдо на днях рождения, свадьбах и праздничных столах.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "200 г стеклянной лапши из батата",
-          "200 г говяжьей вырезки, тонкими полосками",
-          "200 г шпината",
-          "1 морковь, соломкой",
-          "150 г грибов шиитаке, нарезанных",
-          "1 луковица, нарезанная, и 2 зубчика чеснока",
-          "4 ст. л. соевого соуса и 1 ст. л. сахара",
-          "2 ст. л. кунжутного масла, 1 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Варите лапшу в кипящей воде 6 минут, слейте воду, промойте и перемешайте с 1 ст. л. кунжутного масла и 1 ст. л. соевого соуса.",
-          "Бланшируйте шпинат 30 секунд, отожмите и приправьте щепоткой соли.",
-          "Замаринуйте говядину с 1 ст. л. соевого соуса и чесноком на 10 минут.",
-          "Обжарьте в растительном масле лук, морковь и грибы, затем говядину, каждый ингредиент до готовности.",
-          "Перемешайте всё на сковороде с лапшой, оставшимся соевым соусом, сахаром и кунжутным маслом, пока блюдо не станет горячим и глянцевым."
-        ]
-      },
-      "tips": [
-        "Удвойте шпинат, морковь и грибы и берите меньше лапши, чтобы миска была легче.",
-        "Отмеряйте кунжутное масло; 1 ст. л. масла ≈ 120 ккал.",
-        "Берите нежирную говядину и обжаривайте на антипригарной сковороде с минимумом масла."
-      ],
-      "name_inline": "чапчхэ"
-    }
+  "ar": {
+   "name": "جابتشي",
+   "origin": "كوريا الجنوبية · شبه الجزيرة الكورية",
+   "intro": "الجابتشي طبق كوري من نودلز البطاطا الحلوة الزجاجية المطاطية اللامعة، تُقلّب في المقلاة مع شرائح لحم البقر والسبانخ والجزر والفطر. يُطهى كل مكوّن على حدة، ثم يُخلط الجميع مع صلصة الصويا وقليل من السكر وزيت السمسم العطري. النتيجة طبق ملوّن مالح حلو، يُقدَّم دافئاً أو بحرارة الغرفة طبقاً جانبياً أو رئيسياً في الأعياد والمناسبات.",
+   "history": "يُرجع الجابتشي عادةً إلى البلاط الملكي الكوري في أوائل القرن السابع عشر، حين كان طبقاً من الخضار المشكّلة من دون نودلز. أُضيفت النودلز الزجاجية في القرن العشرين، وهو اليوم حاضر دائماً في أعياد الميلاد والأعراس وموائد الأعياد.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 غ نودلز زجاجية من البطاطا الحلوة",
+     "200 غ لحم بقر (سيرلوين) مقطّع شرائح رفيعة",
+     "200 غ سبانخ",
+     "جزرة مقطّعة أعواداً رفيعة",
+     "150 غ فطر شيتاكي مقطّع شرائح",
+     "بصلة مقطّعة شرائح وفصّا ثوم",
+     "4 ملاعق كبيرة صلصة صويا و1 ملعقة كبيرة سكر",
+     "2 ملعقة كبيرة زيت سمسم و1 ملعقة كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "اسلق النودلز في ماء مغلي 6 دقائق، ثم صفّها واشطفها واخلطها مع ملعقة كبيرة زيت سمسم وملعقة كبيرة صلصة صويا.",
+     "اسلق السبانخ 30 ثانية، واعصرها جيداً وتبّلها برشة ملح.",
+     "تبّل اللحم بملعقة كبيرة صلصة صويا والثوم 10 دقائق.",
+     "قلّب البصل والجزر والفطر في الزيت النباتي، ثم اللحم، كلاً حتى ينضج بالكاد.",
+     "اخلط كل شيء في المقلاة مع النودلز وباقي صلصة الصويا والسكر وزيت السمسم حتى يسخن ويلمع."
+    ]
+   },
+   "tips": [
+    "ضاعف كمية السبانخ والجزر والفطر واستخدم نودلز أقل لطبق أخف.",
+    "قِس زيت السمسم؛ 1 ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "استخدم لحماً قليل الدهن واطهه في مقلاة غير لاصقة بأقل قدر من الزيت."
+   ]
+  },
+  "it": {
+   "name": "Japchae",
+   "origin": "Corea del Sud · Penisola coreana",
+   "intro": "Il japchae è un piatto coreano di spaghetti di vetro di patata dolce, gommosi e lucidi, saltati in padella con striscioline di manzo, spinaci, carota e funghi. Ogni ingrediente si cuoce separatamente, poi si mescola tutto con salsa di soia, un po' di zucchero e profumato olio di sesamo. Il risultato è sapido e dolce insieme, pieno di colori, e si serve tiepido o a temperatura ambiente come contorno o piatto principale nelle feste e nelle occasioni speciali.",
+   "history": "Il japchae viene di solito fatto risalire alla corte reale coreana dell'inizio del Seicento, quando era un piatto di verdure miste senza spaghetti. Gli spaghetti di vetro furono aggiunti nel Novecento, e oggi il japchae è immancabile a compleanni, matrimoni e tavole delle feste.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g di spaghetti di vetro di patata dolce",
+     "200 g di controfiletto di manzo a striscioline",
+     "200 g di spinaci",
+     "1 carota a fiammifero",
+     "150 g di funghi shiitake a fette",
+     "1 cipolla affettata e 2 spicchi d'aglio",
+     "4 cucchiai di salsa di soia e 1 cucchiaio di zucchero",
+     "2 cucchiai di olio di sesamo, 1 cucchiaio di olio di semi"
+    ],
+    "steps": [
+     "Cuoci gli spaghetti in acqua bollente per 6 minuti, scolali, sciacquali e condiscili con 1 cucchiaio di olio di sesamo e 1 cucchiaio di salsa di soia.",
+     "Sbollenta gli spinaci per 30 secondi, strizzali bene e condiscili con un pizzico di sale.",
+     "Marina il manzo con 1 cucchiaio di salsa di soia e l'aglio per 10 minuti.",
+     "Salta in padella cipolla, carota e funghi nell'olio di semi, poi il manzo, ciascuno finché è appena cotto.",
+     "Salta tutto in padella con gli spaghetti, la salsa di soia rimasta, lo zucchero e l'olio di sesamo finché è caldo e lucido."
+    ]
+   },
+   "tips": [
+    "Raddoppia spinaci, carota e funghi e usa meno spaghetti per una ciotola più leggera.",
+    "Misura l'olio di sesamo; 1 cucchiaio di olio ≈ 120 kcal.",
+    "Usa manzo magro e salta in una padella antiaderente con il minimo di olio."
+   ]
+  },
+  "el": {
+   "name": "Τζάπτσε",
+   "origin": "Νότια Κορέα · Κορεατική Χερσόνησος",
+   "intro": "Το τζάπτσε είναι κορεατικό πιάτο με γυάλινα νουντλς γλυκοπατάτας, ελαστικά και γυαλιστερά, σοταρισμένα με λωρίδες μοσχαριού, σπανάκι, καρότο και μανιτάρια. Κάθε υλικό μαγειρεύεται χωριστά και στο τέλος όλα ανακατεύονται με σάλτσα σόγιας, λίγη ζάχαρη και αρωματικό σησαμέλαιο. Το αποτέλεσμα είναι αλμυρόγλυκο και πολύχρωμο και σερβίρεται ζεστό ή σε θερμοκρασία δωματίου ως συνοδευτικό ή κυρίως πιάτο σε γιορτές και εορτασμούς.",
+   "history": "Το τζάπτσε συνήθως ανάγεται στη βασιλική αυλή της Κορέας των αρχών του δέκατου έβδομου αιώνα, όταν ήταν πιάτο με ανάμεικτα λαχανικά χωρίς νουντλς. Τα γυάλινα νουντλς προστέθηκαν τον εικοστό αιώνα, και σήμερα το τζάπτσε δεν λείπει από γενέθλια, γάμους και γιορτινά τραπέζια.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 γρ. γυάλινα νουντλς γλυκοπατάτας",
+     "200 γρ. μοσχαρίσιο κόντρα φιλέτο, σε λεπτές λωρίδες",
+     "200 γρ. σπανάκι",
+     "1 καρότο, σε σπιρτάκια",
+     "150 γρ. μανιτάρια σιιτάκε, σε φέτες",
+     "1 κρεμμύδι, σε φέτες, και 2 σκελίδες σκόρδο",
+     "4 κ.σ. σάλτσα σόγιας και 1 κ.σ. ζάχαρη",
+     "2 κ.σ. σησαμέλαιο, 1 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Βράστε τα νουντλς σε νερό που βράζει για 6 λεπτά, στραγγίξτε, ξεπλύνετε και ανακατέψτε τα με 1 κ.σ. σησαμέλαιο και 1 κ.σ. σάλτσα σόγιας.",
+     "Ζεματίστε το σπανάκι για 30 δευτερόλεπτα, στύψτε το καλά και αλατίστε το με μια πρέζα αλάτι.",
+     "Μαρινάρετε το μοσχάρι με 1 κ.σ. σάλτσα σόγιας και το σκόρδο για 10 λεπτά.",
+     "Σοτάρετε το κρεμμύδι, το καρότο και τα μανιτάρια στο φυτικό λάδι, έπειτα το μοσχάρι, το καθένα μέχρι να μόλις μαγειρευτεί.",
+     "Ανακατέψτε τα πάντα στο τηγάνι με τα νουντλς, την υπόλοιπη σάλτσα σόγιας, τη ζάχαρη και το σησαμέλαιο μέχρι να ζεσταθούν και να γυαλίσουν."
+    ]
+   },
+   "tips": [
+    "Διπλασιάστε το σπανάκι, το καρότο και τα μανιτάρια και χρησιμοποιήστε λιγότερα νουντλς για πιο ελαφρύ μπολ.",
+    "Μετρήστε το σησαμέλαιο· 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Χρησιμοποιήστε άπαχο μοσχάρι και σοτάρετε σε αντικολλητικό τηγάνι με ελάχιστο λάδι."
+   ]
+  },
+  "ru": {
+   "name": "Чапчхэ",
+   "origin": "Южная Корея · Корейский полуостров",
+   "intro": "Чапчхэ — корейское блюдо из упругой глянцевой «стеклянной» лапши из батата, обжаренной с полосками говядины, шпинатом, морковью и грибами. Каждый ингредиент готовят отдельно, затем всё перемешивают с соевым соусом, небольшим количеством сахара и ароматным кунжутным маслом. Получается пикантно-сладко и красочно; подаётся тёплым или при комнатной температуре как гарнир или основное блюдо на праздники и торжества.",
+   "history": "Чапчхэ обычно возводят к корейскому королевскому двору начала XVII века, когда это было блюдо из смешанных овощей без лапши. Стеклянную лапшу добавили в XX веке, и сегодня чапчхэ — обязательное блюдо на днях рождения, свадьбах и праздничных столах.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 г стеклянной лапши из батата",
+     "200 г говяжьей вырезки, тонкими полосками",
+     "200 г шпината",
+     "1 морковь, соломкой",
+     "150 г грибов шиитаке, нарезанных",
+     "1 луковица, нарезанная, и 2 зубчика чеснока",
+     "4 ст. л. соевого соуса и 1 ст. л. сахара",
+     "2 ст. л. кунжутного масла, 1 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Варите лапшу в кипящей воде 6 минут, слейте воду, промойте и перемешайте с 1 ст. л. кунжутного масла и 1 ст. л. соевого соуса.",
+     "Бланшируйте шпинат 30 секунд, отожмите и приправьте щепоткой соли.",
+     "Замаринуйте говядину с 1 ст. л. соевого соуса и чесноком на 10 минут.",
+     "Обжарьте в растительном масле лук, морковь и грибы, затем говядину, каждый ингредиент до готовности.",
+     "Перемешайте всё на сковороде с лапшой, оставшимся соевым соусом, сахаром и кунжутным маслом, пока блюдо не станет горячим и глянцевым."
+    ]
+   },
+   "tips": [
+    "Удвойте шпинат, морковь и грибы и берите меньше лапши, чтобы миска была легче.",
+    "Отмеряйте кунжутное масло; 1 ст. л. масла ≈ 120 ккал.",
+    "Берите нежирную говядину и обжаривайте на антипригарной сковороде с минимумом масла."
+   ],
+   "name_inline": "чапчхэ"
+  },
+  "es": {
+   "name": "Japchae",
+   "origin": "Corea del Sur · Península de Corea",
+   "intro": "El japchae es un plato coreano de fideos de cristal de camote, masticables y brillantes, salteados con tiras de res, espinacas, zanahoria y hongos. Cada ingrediente se cocina por separado y luego todo se mezcla con salsa de soya, un poco de azúcar y aromático aceite de ajonjolí. El resultado es salado y dulce, colorido, y se sirve tibio o a temperatura ambiente, como guarnición o plato principal en fiestas y celebraciones.",
+   "history": "El japchae suele remontarse a la corte real coreana de principios del siglo XVII, cuando era un plato de verduras variadas sin fideos. Los fideos de cristal se añadieron en el siglo XX, y hoy el japchae es un clásico de cumpleaños, bodas y mesas festivas.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "200 g de fideos de cristal de camote",
+     "200 g de lomo de res, en tiras finas",
+     "200 g de espinacas",
+     "1 zanahoria, en juliana",
+     "150 g de hongos shiitake, en rebanadas",
+     "1 cebolla, en rebanadas, y 2 dientes de ajo",
+     "4 cda. de salsa de soya y 1 cda. de azúcar",
+     "2 cda. de aceite de ajonjolí, 1 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Cuece los fideos en agua hirviendo 6 minutos, escúrrelos, enjuágalos y mézclalos con 1 cda. de aceite de ajonjolí y 1 cda. de salsa de soya.",
+     "Blanquea las espinacas 30 segundos, exprímelas y sazónalas con una pizca de sal.",
+     "Marina la carne con 1 cda. de salsa de soya y el ajo durante 10 minutos.",
+     "Saltea la cebolla, la zanahoria y los hongos en el aceite vegetal, y luego la carne, cada uno hasta que apenas esté cocido.",
+     "Mezcla todo en la sartén con los fideos, la salsa de soya restante, el azúcar y el aceite de ajonjolí hasta que esté caliente y brillante."
+    ]
+   },
+   "tips": [
+    "Duplica las espinacas, la zanahoria y los hongos y usa menos fideos para un plato más ligero.",
+    "Mide el aceite de ajonjolí; 1 cda. de aceite ≈ 120 kcal.",
+    "Usa carne magra y saltea en una sartén antiadherente con el mínimo de aceite."
+   ],
+   "name_inline": "el japchae"
   }
+ }
 }

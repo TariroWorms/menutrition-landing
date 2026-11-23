@@ -1,167 +1,198 @@
 {
-  "db_key": "kleftiko",
-  "slug": "kleftiko",
-  "emoji": "🍖",
-  "portion_g": 350,
-  "country": "GR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kleftiko",
+ "slug": "kleftiko",
+ "emoji": "🍖",
+ "portion_g": 350,
+ "country": "GR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Lamb Kleftiko",
+   "origin": "Greece",
+   "intro": "Kleftiko is Greek lamb slow-cooked in a sealed parcel or covered dish with garlic, lemon juice, oregano and potatoes until the meat falls from the bone. The potatoes soak up the lemony, herby juices. It is served straight from the parcel, often as a Sunday or festive meal.",
+   "history": "Kleftiko is usually linked to the klephts, Greek mountain bandits of the Ottoman era; the story goes that they cooked stolen lamb in sealed pits so no smoke would give them away. Today it is a taverna favourite in Greece and Cyprus.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1.2 kg lamb shoulder or leg on the bone, in large pieces",
+     "800 g potatoes, cut into chunks",
+     "6 garlic cloves, sliced",
+     "Juice of 2 lemons",
+     "2 tsp dried oregano",
+     "2 tbsp olive oil",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Rub the lamb with garlic, lemon juice, oregano, oil, salt and pepper and leave 1 hour or overnight.",
+     "Put the lamb and potatoes in a dish, wrap tightly in baking paper and foil or cover with a lid.",
+     "Bake at 160 °C for about 3 hours until the meat falls apart.",
+     "Open the parcel and roast 15 minutes at 200 °C to colour the top."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the lamb before marinating.",
+    "Skim the fat from the juices before spooning them over.",
+    "Make vegetables half the plate: a 150 g piece of meat with potatoes and a large salad is a filling portion."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Lamb Kleftiko",
-      "origin": "Greece",
-      "intro": "Kleftiko is Greek lamb slow-cooked in a sealed parcel or covered dish with garlic, lemon juice, oregano and potatoes until the meat falls from the bone. The potatoes soak up the lemony, herby juices. It is served straight from the parcel, often as a Sunday or festive meal.",
-      "history": "Kleftiko is usually linked to the klephts, Greek mountain bandits of the Ottoman era; the story goes that they cooked stolen lamb in sealed pits so no smoke would give them away. Today it is a taverna favourite in Greece and Cyprus.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1.2 kg lamb shoulder or leg on the bone, in large pieces",
-          "800 g potatoes, cut into chunks",
-          "6 garlic cloves, sliced",
-          "Juice of 2 lemons",
-          "2 tsp dried oregano",
-          "2 tbsp olive oil",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Rub the lamb with garlic, lemon juice, oregano, oil, salt and pepper and leave 1 hour or overnight.",
-          "Put the lamb and potatoes in a dish, wrap tightly in baking paper and foil or cover with a lid.",
-          "Bake at 160 °C for about 3 hours until the meat falls apart.",
-          "Open the parcel and roast 15 minutes at 200 °C to colour the top."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the lamb before marinating.",
-        "Skim the fat from the juices before spooning them over.",
-        "Make vegetables half the plate: a 150 g piece of meat with potatoes and a large salad is a filling portion."
-      ]
-    },
-    "ar": {
-      "name": "كليفتيكو لحم الضأن",
-      "origin": "اليونان",
-      "intro": "الكليفتيكو لحم ضأن يوناني يُطهى ببطء في لفافة محكمة أو طبق مغطّى مع الثوم وعصير الليمون والأوريجانو والبطاطا حتى ينفصل اللحم عن العظم. وتتشرب البطاطا العصارة الليمونية العطرية. يُقدَّم مباشرة من اللفافة، وكثيراً ما يكون وجبة الأحد أو المناسبات.",
-      "history": "يُربط الكليفتيكو عادة بالكليفت، قطّاع الطرق في جبال اليونان في العهد العثماني؛ وتقول الحكاية إنهم كانوا يطهون اللحم المسروق في حفر مغلقة كي لا يكشفهم الدخان. وهو اليوم من أطباق التافيرنا المفضلة في اليونان وقبرص.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1.2 كغ كتف أو فخذ ضأن بالعظم مقطّع قطعاً كبيرة",
-          "800 غ بطاطا مقطّعة",
-          "6 فصوص ثوم مقطّعة شرائح",
-          "عصير ليمونتين",
-          "2 ملعقة صغيرة أوريجانو مجفف",
-          "2 ملعقة كبيرة زيت زيتون",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "افرك اللحم بالثوم وعصير الليمون والأوريجانو والزيت والملح والفلفل واتركه ساعة أو ليلة كاملة.",
-          "ضع اللحم والبطاطا في صينية، ولفّها بإحكام بورق الخَبز والقصدير أو غطّها.",
-          "اخبزها على 160 °م نحو 3 ساعات حتى يتفكك اللحم.",
-          "افتح اللفافة وحمّرها 15 دقيقة على 200 °م."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر من اللحم قبل التتبيل.",
-        "أزل الدهن الطافي عن العصارة قبل سكبها.",
-        "اجعل الخضار نصف الطبق: قطعة لحم 150 غ مع البطاطا وسلطة كبيرة حصة مشبعة."
-      ]
-    },
-    "it": {
-      "name": "Kleftiko d'agnello",
-      "name_inline": "kleftiko d'agnello",
-      "origin": "Grecia",
-      "intro": "Il kleftiko è agnello greco cotto lentamente in un cartoccio sigillato o in una pirofila coperta con aglio, succo di limone, origano e patate, finché la carne non si stacca dall'osso. Le patate assorbono i succhi al limone e alle erbe. Si serve direttamente dal cartoccio, spesso come pranzo della domenica o delle feste.",
-      "history": "Il kleftiko viene di solito collegato ai klefti, i briganti greci di montagna dell'epoca ottomana; secondo la tradizione cuocevano l'agnello rubato in buche sigillate perché il fumo non li tradisse. Oggi è un piatto amatissimo nelle taverne di Grecia e Cipro.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1,2 kg di spalla o cosciotto d'agnello con l'osso, a pezzi grandi",
-          "800 g di patate a tocchi",
-          "6 spicchi d'aglio a fettine",
-          "Succo di 2 limoni",
-          "2 cucchiaini di origano secco",
-          "2 cucchiai di olio d'oliva",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Massaggia l'agnello con aglio, succo di limone, origano, olio, sale e pepe e lascialo riposare 1 ora o per tutta la notte.",
-          "Metti l'agnello e le patate in una pirofila, avvolgi bene con carta forno e alluminio oppure copri con un coperchio.",
-          "Cuoci a 160 °C per circa 3 ore, finché la carne non si sfalda.",
-          "Apri il cartoccio e arrostisci 15 minuti a 200 °C per colorire la superficie."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dall'agnello prima di marinarlo.",
-        "Sgrassa il fondo di cottura prima di versarlo sulla carne.",
-        "Riempi metà del piatto di verdure: un pezzo di carne da 150 g con patate e una grande insalata è una porzione saziante."
-      ]
-    },
-    "el": {
-      "name": "Αρνί κλέφτικο",
-      "name_inline": "αρνί κλέφτικο",
-      "origin": "Ελλάδα",
-      "intro": "Το κλέφτικο είναι ελληνικό αρνί σιγοψημένο σε κλειστό πακέτο ή σκεπασμένο σκεύος με σκόρδο, χυμό λεμονιού, ρίγανη και πατάτες, μέχρι το κρέας να φεύγει από το κόκαλο. Οι πατάτες ρουφούν τους λεμονάτους, αρωματικούς χυμούς. Σερβίρεται κατευθείαν από το πακέτο, συχνά ως κυριακάτικο ή γιορτινό φαγητό.",
-      "history": "Το κλέφτικο συνδέεται συνήθως με τους κλέφτες, τους Έλληνες αντάρτες των βουνών της οθωμανικής εποχής· σύμφωνα με την παράδοση έψηναν το κλεμμένο αρνί σε σφραγισμένους λάκκους ώστε να μην τους προδώσει ο καπνός. Σήμερα είναι αγαπημένο πιάτο των ταβερνών σε Ελλάδα και Κύπρο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1,2 κιλό αρνίσια σπάλα ή μπούτι με κόκαλο, σε μεγάλα κομμάτια",
-          "800 γρ. πατάτες, σε χοντρά κομμάτια",
-          "6 σκελίδες σκόρδο, σε φετάκια",
-          "Χυμός από 2 λεμόνια",
-          "2 κ.γ. ξερή ρίγανη",
-          "2 κ.σ. ελαιόλαδο",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Τρίψτε το αρνί με το σκόρδο, τον χυμό λεμονιού, τη ρίγανη, το λάδι, αλάτι και πιπέρι και αφήστε το 1 ώρα ή όλο το βράδυ.",
-          "Βάλτε το αρνί και τις πατάτες σε σκεύος, τυλίξτε σφιχτά με λαδόκολλα και αλουμινόχαρτο ή σκεπάστε με καπάκι.",
-          "Ψήστε στους 160 °C για περίπου 3 ώρες μέχρι το κρέας να λιώνει.",
-          "Ανοίξτε το πακέτο και ψήστε 15 λεπτά στους 200 °C για να ροδίσει η επιφάνεια."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το αρνί πριν το μαρινάρετε.",
-        "Ξαφρίστε το λίπος από τους χυμούς πριν τους περιχύσετε.",
-        "Γεμίστε το μισό πιάτο με λαχανικά: ένα κομμάτι κρέας 150 γρ. με πατάτες και μια μεγάλη σαλάτα είναι χορταστική μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Клефтико из баранины",
-      "origin": "Греция",
-      "intro": "Клефтико — греческая баранина, медленно приготовленная в запечатанном пакете или закрытой посуде с чесноком, лимонным соком, орегано и картофелем, пока мясо не начнёт отделяться от кости. Картофель впитывает лимонные травяные соки. Его подают прямо из пакета, часто на воскресный или праздничный обед.",
-      "history": "Клефтико обычно связывают с клефтами, греческими горными разбойниками османской эпохи; по преданию, они готовили украденную баранину в запечатанных ямах, чтобы дым их не выдал. Сегодня это любимое блюдо таверн в Греции и на Кипре.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1,2 кг бараньей лопатки или окорока на кости, крупными кусками",
-          "800 г картофеля, нарезанного кусками",
-          "6 зубчиков чеснока, нарезанных",
-          "Сок 2 лимонов",
-          "2 ч. л. сушёного орегано",
-          "2 ст. л. оливкового масла",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Натрите баранину чесноком, лимонным соком, орегано, маслом, солью и перцем и оставьте на 1 час или на ночь.",
-          "Выложите баранину и картофель в форму, плотно заверните в бумагу для выпечки и фольгу или накройте крышкой.",
-          "Запекайте при 160 °C около 3 часов, пока мясо не начнёт разваливаться.",
-          "Раскройте пакет и подрумяньте верх при 200 °C 15 минут."
-        ]
-      },
-      "tips": [
-        "Срежьте видимый жир с баранины перед маринованием.",
-        "Снимите жир с соков, прежде чем поливать ими блюдо.",
-        "Пусть овощи занимают половину тарелки: кусок мяса 150 г с картофелем и большим салатом — сытная порция."
-      ],
-      "name_inline": "клефтико из баранины"
-    }
+  "ar": {
+   "name": "كليفتيكو لحم الضأن",
+   "origin": "اليونان",
+   "intro": "الكليفتيكو لحم ضأن يوناني يُطهى ببطء في لفافة محكمة أو طبق مغطّى مع الثوم وعصير الليمون والأوريجانو والبطاطا حتى ينفصل اللحم عن العظم. وتتشرب البطاطا العصارة الليمونية العطرية. يُقدَّم مباشرة من اللفافة، وكثيراً ما يكون وجبة الأحد أو المناسبات.",
+   "history": "يُربط الكليفتيكو عادة بالكليفت، قطّاع الطرق في جبال اليونان في العهد العثماني؛ وتقول الحكاية إنهم كانوا يطهون اللحم المسروق في حفر مغلقة كي لا يكشفهم الدخان. وهو اليوم من أطباق التافيرنا المفضلة في اليونان وقبرص.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1.2 كغ كتف أو فخذ ضأن بالعظم مقطّع قطعاً كبيرة",
+     "800 غ بطاطا مقطّعة",
+     "6 فصوص ثوم مقطّعة شرائح",
+     "عصير ليمونتين",
+     "2 ملعقة صغيرة أوريجانو مجفف",
+     "2 ملعقة كبيرة زيت زيتون",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "افرك اللحم بالثوم وعصير الليمون والأوريجانو والزيت والملح والفلفل واتركه ساعة أو ليلة كاملة.",
+     "ضع اللحم والبطاطا في صينية، ولفّها بإحكام بورق الخَبز والقصدير أو غطّها.",
+     "اخبزها على 160 °م نحو 3 ساعات حتى يتفكك اللحم.",
+     "افتح اللفافة وحمّرها 15 دقيقة على 200 °م."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر من اللحم قبل التتبيل.",
+    "أزل الدهن الطافي عن العصارة قبل سكبها.",
+    "اجعل الخضار نصف الطبق: قطعة لحم 150 غ مع البطاطا وسلطة كبيرة حصة مشبعة."
+   ]
+  },
+  "it": {
+   "name": "Kleftiko d'agnello",
+   "name_inline": "kleftiko d'agnello",
+   "origin": "Grecia",
+   "intro": "Il kleftiko è agnello greco cotto lentamente in un cartoccio sigillato o in una pirofila coperta con aglio, succo di limone, origano e patate, finché la carne non si stacca dall'osso. Le patate assorbono i succhi al limone e alle erbe. Si serve direttamente dal cartoccio, spesso come pranzo della domenica o delle feste.",
+   "history": "Il kleftiko viene di solito collegato ai klefti, i briganti greci di montagna dell'epoca ottomana; secondo la tradizione cuocevano l'agnello rubato in buche sigillate perché il fumo non li tradisse. Oggi è un piatto amatissimo nelle taverne di Grecia e Cipro.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1,2 kg di spalla o cosciotto d'agnello con l'osso, a pezzi grandi",
+     "800 g di patate a tocchi",
+     "6 spicchi d'aglio a fettine",
+     "Succo di 2 limoni",
+     "2 cucchiaini di origano secco",
+     "2 cucchiai di olio d'oliva",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Massaggia l'agnello con aglio, succo di limone, origano, olio, sale e pepe e lascialo riposare 1 ora o per tutta la notte.",
+     "Metti l'agnello e le patate in una pirofila, avvolgi bene con carta forno e alluminio oppure copri con un coperchio.",
+     "Cuoci a 160 °C per circa 3 ore, finché la carne non si sfalda.",
+     "Apri il cartoccio e arrostisci 15 minuti a 200 °C per colorire la superficie."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dall'agnello prima di marinarlo.",
+    "Sgrassa il fondo di cottura prima di versarlo sulla carne.",
+    "Riempi metà del piatto di verdure: un pezzo di carne da 150 g con patate e una grande insalata è una porzione saziante."
+   ]
+  },
+  "el": {
+   "name": "Αρνί κλέφτικο",
+   "name_inline": "αρνί κλέφτικο",
+   "origin": "Ελλάδα",
+   "intro": "Το κλέφτικο είναι ελληνικό αρνί σιγοψημένο σε κλειστό πακέτο ή σκεπασμένο σκεύος με σκόρδο, χυμό λεμονιού, ρίγανη και πατάτες, μέχρι το κρέας να φεύγει από το κόκαλο. Οι πατάτες ρουφούν τους λεμονάτους, αρωματικούς χυμούς. Σερβίρεται κατευθείαν από το πακέτο, συχνά ως κυριακάτικο ή γιορτινό φαγητό.",
+   "history": "Το κλέφτικο συνδέεται συνήθως με τους κλέφτες, τους Έλληνες αντάρτες των βουνών της οθωμανικής εποχής· σύμφωνα με την παράδοση έψηναν το κλεμμένο αρνί σε σφραγισμένους λάκκους ώστε να μην τους προδώσει ο καπνός. Σήμερα είναι αγαπημένο πιάτο των ταβερνών σε Ελλάδα και Κύπρο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1,2 κιλό αρνίσια σπάλα ή μπούτι με κόκαλο, σε μεγάλα κομμάτια",
+     "800 γρ. πατάτες, σε χοντρά κομμάτια",
+     "6 σκελίδες σκόρδο, σε φετάκια",
+     "Χυμός από 2 λεμόνια",
+     "2 κ.γ. ξερή ρίγανη",
+     "2 κ.σ. ελαιόλαδο",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Τρίψτε το αρνί με το σκόρδο, τον χυμό λεμονιού, τη ρίγανη, το λάδι, αλάτι και πιπέρι και αφήστε το 1 ώρα ή όλο το βράδυ.",
+     "Βάλτε το αρνί και τις πατάτες σε σκεύος, τυλίξτε σφιχτά με λαδόκολλα και αλουμινόχαρτο ή σκεπάστε με καπάκι.",
+     "Ψήστε στους 160 °C για περίπου 3 ώρες μέχρι το κρέας να λιώνει.",
+     "Ανοίξτε το πακέτο και ψήστε 15 λεπτά στους 200 °C για να ροδίσει η επιφάνεια."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το αρνί πριν το μαρινάρετε.",
+    "Ξαφρίστε το λίπος από τους χυμούς πριν τους περιχύσετε.",
+    "Γεμίστε το μισό πιάτο με λαχανικά: ένα κομμάτι κρέας 150 γρ. με πατάτες και μια μεγάλη σαλάτα είναι χορταστική μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Клефтико из баранины",
+   "origin": "Греция",
+   "intro": "Клефтико — греческая баранина, медленно приготовленная в запечатанном пакете или закрытой посуде с чесноком, лимонным соком, орегано и картофелем, пока мясо не начнёт отделяться от кости. Картофель впитывает лимонные травяные соки. Его подают прямо из пакета, часто на воскресный или праздничный обед.",
+   "history": "Клефтико обычно связывают с клефтами, греческими горными разбойниками османской эпохи; по преданию, они готовили украденную баранину в запечатанных ямах, чтобы дым их не выдал. Сегодня это любимое блюдо таверн в Греции и на Кипре.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1,2 кг бараньей лопатки или окорока на кости, крупными кусками",
+     "800 г картофеля, нарезанного кусками",
+     "6 зубчиков чеснока, нарезанных",
+     "Сок 2 лимонов",
+     "2 ч. л. сушёного орегано",
+     "2 ст. л. оливкового масла",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Натрите баранину чесноком, лимонным соком, орегано, маслом, солью и перцем и оставьте на 1 час или на ночь.",
+     "Выложите баранину и картофель в форму, плотно заверните в бумагу для выпечки и фольгу или накройте крышкой.",
+     "Запекайте при 160 °C около 3 часов, пока мясо не начнёт разваливаться.",
+     "Раскройте пакет и подрумяньте верх при 200 °C 15 минут."
+    ]
+   },
+   "tips": [
+    "Срежьте видимый жир с баранины перед маринованием.",
+    "Снимите жир с соков, прежде чем поливать ими блюдо.",
+    "Пусть овощи занимают половину тарелки: кусок мяса 150 г с картофелем и большим салатом — сытная порция."
+   ],
+   "name_inline": "клефтико из баранины"
+  },
+  "es": {
+   "name": "Kleftiko de cordero",
+   "origin": "Grecia",
+   "intro": "El kleftiko es cordero griego cocinado lentamente en un paquete sellado o en un recipiente tapado con ajo, jugo de limón, orégano y papas, hasta que la carne se desprende del hueso. Las papas absorben los jugos con limón y hierbas. Se sirve directamente del paquete, a menudo en la comida del domingo o en las fiestas.",
+   "history": "El kleftiko suele vincularse con los clefias, los bandoleros de montaña griegos de la época otomana; según la historia, cocinaban el cordero robado en pozos sellados para que el humo no los delatara. Hoy es un favorito de las tabernas de Grecia y Chipre.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1,2 kg de paletilla o pierna de cordero con hueso, en trozos grandes",
+     "800 g de papas, en trozos",
+     "6 dientes de ajo, en láminas",
+     "Jugo de 2 limones",
+     "2 cdta. de orégano seco",
+     "2 cda. de aceite de oliva",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Frota el cordero con el ajo, el jugo de limón, el orégano, el aceite, la sal y la pimienta, y déjalo reposar 1 hora o toda la noche.",
+     "Pon el cordero y las papas en un recipiente, envuelve bien con papel para hornear y papel aluminio, o tapa con una tapa.",
+     "Hornea a 160 °C unas 3 horas, hasta que la carne se deshaga.",
+     "Abre el paquete y hornea 15 minutos a 200 °C para dorar la superficie."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible del cordero antes de marinarlo.",
+    "Retira la grasa de los jugos antes de verterlos encima.",
+    "Haz que las verduras ocupen la mitad del plato: un trozo de carne de 150 g con papas y una ensalada grande es una porción saciante."
+   ],
+   "name_inline": "el kleftiko"
   }
+ }
 }

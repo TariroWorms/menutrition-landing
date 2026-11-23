@@ -1,156 +1,185 @@
 {
-  "db_key": "saffron_latte",
-  "slug": "saffron-latte",
-  "emoji": "☕",
-  "portion_g": 300,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "saffron_latte",
+ "slug": "saffron-latte",
+ "emoji": "☕",
+ "portion_g": 300,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Saffron Latte",
+   "origin": "Gulf · Arabian Peninsula",
+   "intro": "A saffron latte is espresso topped with steamed milk and sweetened with a simple syrup of saffron and cardamom. It has a pale golden colour, a silky foam and a warm, floral taste that softens the coffee. It is a favourite on Gulf café menus, served hot in a tall cup, sometimes with a few saffron threads on top.",
+   "history": "The saffron latte is a recent café drink that pairs the Italian-style latte with saffron and cardamom, flavours traditional to Arabic coffee, and it is now common on café menus across the Gulf.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "1 shot espresso (30 ml)",
+     "250 ml milk",
+     "1 small pinch saffron",
+     "2 tsp sugar",
+     "1 pinch ground cardamom"
+    ],
+    "steps": [
+     "Warm 2 tbsp water with the sugar, saffron and cardamom to make a quick syrup.",
+     "Pull the espresso into a large cup and stir in the syrup.",
+     "Steam or heat and froth the milk.",
+     "Pour the milk over the espresso and finish with a saffron thread."
+    ]
+   },
+   "tips": [
+    "Use semi-skimmed or skimmed milk to trim the calories.",
+    "Halve the sugar; saffron and cardamom carry the flavour.",
+    "Choose a small cup instead of a large one."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Saffron Latte",
-      "origin": "Gulf · Arabian Peninsula",
-      "intro": "A saffron latte is espresso topped with steamed milk and sweetened with a simple syrup of saffron and cardamom. It has a pale golden colour, a silky foam and a warm, floral taste that softens the coffee. It is a favourite on Gulf café menus, served hot in a tall cup, sometimes with a few saffron threads on top.",
-      "history": "The saffron latte is a recent café drink that pairs the Italian-style latte with saffron and cardamom, flavours traditional to Arabic coffee, and it is now common on café menus across the Gulf.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "1 shot espresso (30 ml)",
-          "250 ml milk",
-          "1 small pinch saffron",
-          "2 tsp sugar",
-          "1 pinch ground cardamom"
-        ],
-        "steps": [
-          "Warm 2 tbsp water with the sugar, saffron and cardamom to make a quick syrup.",
-          "Pull the espresso into a large cup and stir in the syrup.",
-          "Steam or heat and froth the milk.",
-          "Pour the milk over the espresso and finish with a saffron thread."
-        ]
-      },
-      "tips": [
-        "Use semi-skimmed or skimmed milk to trim the calories.",
-        "Halve the sugar; saffron and cardamom carry the flavour.",
-        "Choose a small cup instead of a large one."
-      ]
-    },
-    "ar": {
-      "name": "لاتيه بالزعفران",
-      "origin": "الخليج · شبه الجزيرة العربية",
-      "intro": "لاتيه الزعفران إسبريسو يعلوه حليب مبخّر ومحلّى بشراب بسيط من الزعفران والهيل. لونه ذهبي فاتح ورغوته حريرية وطعمه دافئ زهري يلطّف حدة القهوة. وهو من المشروبات المفضلة في قوائم مقاهي الخليج، يقدَّم ساخنًا في كوب طويل وأحيانًا مع بضع شعيرات زعفران على الوجه.",
-      "history": "لاتيه الزعفران مشروب حديث في المقاهي يجمع اللاتيه على الطريقة الإيطالية مع الزعفران والهيل، وهما من نكهات القهوة العربية التقليدية، وأصبح اليوم شائعًا في مقاهي الخليج.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "جرعة إسبريسو (30 مل)",
-          "250 مل حليب",
-          "رشة صغيرة زعفران",
-          "ملعقتان صغيرتان سكر",
-          "رشة هيل مطحون"
-        ],
-        "steps": [
-          "سخّن ملعقتين كبيرتين ماء مع السكر والزعفران والهيل لعمل شراب سريع.",
-          "استخلص الإسبريسو في كوب كبير وأضف إليه الشراب.",
-          "بخّر الحليب أو سخّنه واخفقه حتى يرغو.",
-          "اسكب الحليب فوق الإسبريسو وزيّنه بشعيرة زعفران."
-        ]
-      },
-      "tips": [
-        "استخدم حليبًا نصف دسم أو خاليًا من الدسم لتقليل السعرات.",
-        "قلّل السكر إلى النصف؛ فالزعفران والهيل يحملان النكهة.",
-        "اختر الكوب الصغير بدل الكبير."
-      ]
-    },
-    "it": {
-      "name": "Caffellatte allo zafferano",
-      "name_inline": "caffellatte allo zafferano",
-      "origin": "Golfo · Penisola arabica",
-      "intro": "Il caffellatte allo zafferano è un espresso completato con latte montato a vapore e addolcito con un semplice sciroppo di zafferano e cardamomo. Ha un colore oro pallido, una schiuma setosa e un gusto caldo e floreale che ammorbidisce il caffè. È uno dei preferiti nei menu dei caffè del Golfo, servito caldo in una tazza alta, a volte con qualche pistillo di zafferano sopra.",
-      "history": "Il caffellatte allo zafferano è una bevanda recente dei caffè che unisce il caffellatte all'italiana con zafferano e cardamomo, aromi tradizionali del caffè arabo, ed è ormai comune nei menu dei caffè di tutto il Golfo.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "1 espresso (30 ml)",
-          "250 ml di latte",
-          "1 pizzichino di zafferano",
-          "2 cucchiaini di zucchero",
-          "1 pizzico di cardamomo in polvere"
-        ],
-        "steps": [
-          "Scalda 2 cucchiai di acqua con zucchero, zafferano e cardamomo per ottenere uno sciroppo veloce.",
-          "Prepara l'espresso in una tazza grande e incorpora lo sciroppo.",
-          "Monta il latte a vapore oppure scaldalo e montalo.",
-          "Versa il latte sull'espresso e completa con un pistillo di zafferano."
-        ]
-      },
-      "tips": [
-        "Usa latte parzialmente scremato o scremato per ridurre le calorie.",
-        "Dimezza lo zucchero; zafferano e cardamomo danno il sapore.",
-        "Scegli una tazza piccola invece di una grande."
-      ]
-    },
-    "el": {
-      "name": "Λάτε σαφράν",
-      "origin": "Κόλπος · Αραβική Χερσόνησος",
-      "intro": "Το λάτε σαφράν είναι εσπρέσο με αφρόγαλα, γλυκαμένο με απλό σιρόπι σαφράν και καρδάμου. Έχει απαλό χρυσαφί χρώμα, μεταξένιο αφρό και ζεστή, λουλουδένια γεύση που μαλακώνει τον καφέ. Είναι αγαπημένο στα μενού των καφέ του Κόλπου και σερβίρεται ζεστό σε ψηλό ποτήρι, μερικές φορές με λίγους στήμονες σαφράν από πάνω.",
-      "history": "Το λάτε σαφράν είναι πρόσφατο ρόφημα των καφέ που συνδυάζει το λάτε ιταλικού τύπου με σαφράν και κάρδαμο, αρώματα παραδοσιακά του αραβικού καφέ, και σήμερα είναι συνηθισμένο στα μενού των καφέ σε όλο τον Κόλπο.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "1 σφηνάκι εσπρέσο (30 ml)",
-          "250 ml γάλα",
-          "1 μικρή πρέζα σαφράν",
-          "2 κ.γ. ζάχαρη",
-          "1 πρέζα κάρδαμο σε σκόνη"
-        ],
-        "steps": [
-          "Ζεστάνετε 2 κ.σ. νερό με τη ζάχαρη, το σαφράν και το κάρδαμο για ένα γρήγορο σιρόπι.",
-          "Φτιάξτε τον εσπρέσο σε μεγάλη κούπα και ανακατέψτε μέσα το σιρόπι.",
-          "Ζεστάνετε το γάλα με τον ατμό ή ζεστάνετε και αφρίστε το.",
-          "Ρίξτε το γάλα πάνω στον εσπρέσο και ολοκληρώστε με έναν στήμονα σαφράν."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε ημιαποβουτυρωμένο ή αποβουτυρωμένο γάλα για λιγότερες θερμίδες.",
-        "Μειώστε τη ζάχαρη στο μισό· το σαφράν και το κάρδαμο δίνουν τη γεύση.",
-        "Προτιμήστε μικρή κούπα αντί για μεγάλη."
-      ]
-    },
-    "ru": {
-      "name": "Шафрановый латте",
-      "origin": "Персидский залив · Аравийский полуостров",
-      "intro": "Шафрановый латте — эспрессо, дополненный вспененным молоком и подслащённый простым сиропом из шафрана и кардамона. У него бледно-золотистый цвет, шелковистая пена и тёплый цветочный вкус, смягчающий кофе. Это любимец в меню кафе Залива, подаётся горячим в высокой чашке, иногда с несколькими нитями шафрана сверху.",
-      "history": "Шафрановый латте — недавний кафейный напиток, сочетающий латте в итальянском стиле с шафраном и кардамоном, вкусами, традиционными для арабского кофе, и сегодня он распространён в меню кафе по всему Заливу.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 10,
-        "ingredients": [
-          "1 порция эспрессо (30 мл)",
-          "250 мл молока",
-          "1 маленькая щепотка шафрана",
-          "2 ч. л. сахара",
-          "1 щепотка молотого кардамона"
-        ],
-        "steps": [
-          "Подогрейте 2 ст. л. воды с сахаром, шафраном и кардамоном, чтобы получить быстрый сироп.",
-          "Приготовьте эспрессо в большую чашку и вмешайте сироп.",
-          "Взбейте паром или нагрейте и вспеньте молоко.",
-          "Влейте молоко в эспрессо и украсьте нитью шафрана."
-        ]
-      },
-      "tips": [
-        "Используйте молоко пониженной жирности или обезжиренное, чтобы сократить калории.",
-        "Уменьшите сахар вдвое; шафран и кардамон несут вкус.",
-        "Выбирайте маленькую чашку вместо большой."
-      ],
-      "name_inline": "шафрановый латте"
-    }
+  "ar": {
+   "name": "لاتيه بالزعفران",
+   "origin": "الخليج · شبه الجزيرة العربية",
+   "intro": "لاتيه الزعفران إسبريسو يعلوه حليب مبخّر ومحلّى بشراب بسيط من الزعفران والهيل. لونه ذهبي فاتح ورغوته حريرية وطعمه دافئ زهري يلطّف حدة القهوة. وهو من المشروبات المفضلة في قوائم مقاهي الخليج، يقدَّم ساخنًا في كوب طويل وأحيانًا مع بضع شعيرات زعفران على الوجه.",
+   "history": "لاتيه الزعفران مشروب حديث في المقاهي يجمع اللاتيه على الطريقة الإيطالية مع الزعفران والهيل، وهما من نكهات القهوة العربية التقليدية، وأصبح اليوم شائعًا في مقاهي الخليج.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "جرعة إسبريسو (30 مل)",
+     "250 مل حليب",
+     "رشة صغيرة زعفران",
+     "ملعقتان صغيرتان سكر",
+     "رشة هيل مطحون"
+    ],
+    "steps": [
+     "سخّن ملعقتين كبيرتين ماء مع السكر والزعفران والهيل لعمل شراب سريع.",
+     "استخلص الإسبريسو في كوب كبير وأضف إليه الشراب.",
+     "بخّر الحليب أو سخّنه واخفقه حتى يرغو.",
+     "اسكب الحليب فوق الإسبريسو وزيّنه بشعيرة زعفران."
+    ]
+   },
+   "tips": [
+    "استخدم حليبًا نصف دسم أو خاليًا من الدسم لتقليل السعرات.",
+    "قلّل السكر إلى النصف؛ فالزعفران والهيل يحملان النكهة.",
+    "اختر الكوب الصغير بدل الكبير."
+   ]
+  },
+  "it": {
+   "name": "Caffellatte allo zafferano",
+   "name_inline": "caffellatte allo zafferano",
+   "origin": "Golfo · Penisola arabica",
+   "intro": "Il caffellatte allo zafferano è un espresso completato con latte montato a vapore e addolcito con un semplice sciroppo di zafferano e cardamomo. Ha un colore oro pallido, una schiuma setosa e un gusto caldo e floreale che ammorbidisce il caffè. È uno dei preferiti nei menu dei caffè del Golfo, servito caldo in una tazza alta, a volte con qualche pistillo di zafferano sopra.",
+   "history": "Il caffellatte allo zafferano è una bevanda recente dei caffè che unisce il caffellatte all'italiana con zafferano e cardamomo, aromi tradizionali del caffè arabo, ed è ormai comune nei menu dei caffè di tutto il Golfo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "1 espresso (30 ml)",
+     "250 ml di latte",
+     "1 pizzichino di zafferano",
+     "2 cucchiaini di zucchero",
+     "1 pizzico di cardamomo in polvere"
+    ],
+    "steps": [
+     "Scalda 2 cucchiai di acqua con zucchero, zafferano e cardamomo per ottenere uno sciroppo veloce.",
+     "Prepara l'espresso in una tazza grande e incorpora lo sciroppo.",
+     "Monta il latte a vapore oppure scaldalo e montalo.",
+     "Versa il latte sull'espresso e completa con un pistillo di zafferano."
+    ]
+   },
+   "tips": [
+    "Usa latte parzialmente scremato o scremato per ridurre le calorie.",
+    "Dimezza lo zucchero; zafferano e cardamomo danno il sapore.",
+    "Scegli una tazza piccola invece di una grande."
+   ]
+  },
+  "el": {
+   "name": "Λάτε σαφράν",
+   "origin": "Κόλπος · Αραβική Χερσόνησος",
+   "intro": "Το λάτε σαφράν είναι εσπρέσο με αφρόγαλα, γλυκαμένο με απλό σιρόπι σαφράν και καρδάμου. Έχει απαλό χρυσαφί χρώμα, μεταξένιο αφρό και ζεστή, λουλουδένια γεύση που μαλακώνει τον καφέ. Είναι αγαπημένο στα μενού των καφέ του Κόλπου και σερβίρεται ζεστό σε ψηλό ποτήρι, μερικές φορές με λίγους στήμονες σαφράν από πάνω.",
+   "history": "Το λάτε σαφράν είναι πρόσφατο ρόφημα των καφέ που συνδυάζει το λάτε ιταλικού τύπου με σαφράν και κάρδαμο, αρώματα παραδοσιακά του αραβικού καφέ, και σήμερα είναι συνηθισμένο στα μενού των καφέ σε όλο τον Κόλπο.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "1 σφηνάκι εσπρέσο (30 ml)",
+     "250 ml γάλα",
+     "1 μικρή πρέζα σαφράν",
+     "2 κ.γ. ζάχαρη",
+     "1 πρέζα κάρδαμο σε σκόνη"
+    ],
+    "steps": [
+     "Ζεστάνετε 2 κ.σ. νερό με τη ζάχαρη, το σαφράν και το κάρδαμο για ένα γρήγορο σιρόπι.",
+     "Φτιάξτε τον εσπρέσο σε μεγάλη κούπα και ανακατέψτε μέσα το σιρόπι.",
+     "Ζεστάνετε το γάλα με τον ατμό ή ζεστάνετε και αφρίστε το.",
+     "Ρίξτε το γάλα πάνω στον εσπρέσο και ολοκληρώστε με έναν στήμονα σαφράν."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε ημιαποβουτυρωμένο ή αποβουτυρωμένο γάλα για λιγότερες θερμίδες.",
+    "Μειώστε τη ζάχαρη στο μισό· το σαφράν και το κάρδαμο δίνουν τη γεύση.",
+    "Προτιμήστε μικρή κούπα αντί για μεγάλη."
+   ]
+  },
+  "ru": {
+   "name": "Шафрановый латте",
+   "origin": "Персидский залив · Аравийский полуостров",
+   "intro": "Шафрановый латте — эспрессо, дополненный вспененным молоком и подслащённый простым сиропом из шафрана и кардамона. У него бледно-золотистый цвет, шелковистая пена и тёплый цветочный вкус, смягчающий кофе. Это любимец в меню кафе Залива, подаётся горячим в высокой чашке, иногда с несколькими нитями шафрана сверху.",
+   "history": "Шафрановый латте — недавний кафейный напиток, сочетающий латте в итальянском стиле с шафраном и кардамоном, вкусами, традиционными для арабского кофе, и сегодня он распространён в меню кафе по всему Заливу.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "1 порция эспрессо (30 мл)",
+     "250 мл молока",
+     "1 маленькая щепотка шафрана",
+     "2 ч. л. сахара",
+     "1 щепотка молотого кардамона"
+    ],
+    "steps": [
+     "Подогрейте 2 ст. л. воды с сахаром, шафраном и кардамоном, чтобы получить быстрый сироп.",
+     "Приготовьте эспрессо в большую чашку и вмешайте сироп.",
+     "Взбейте паром или нагрейте и вспеньте молоко.",
+     "Влейте молоко в эспрессо и украсьте нитью шафрана."
+    ]
+   },
+   "tips": [
+    "Используйте молоко пониженной жирности или обезжиренное, чтобы сократить калории.",
+    "Уменьшите сахар вдвое; шафран и кардамон несут вкус.",
+    "Выбирайте маленькую чашку вместо большой."
+   ],
+   "name_inline": "шафрановый латте"
+  },
+  "es": {
+   "name": "Latte de azafrán",
+   "origin": "Golfo · Península Arábiga",
+   "intro": "El latte de azafrán es un espresso cubierto con leche espumada y endulzado con un almíbar sencillo de azafrán y cardamomo. Tiene un color dorado pálido, una espuma sedosa y un sabor cálido y floral que suaviza el café. Es un favorito de las cafeterías del Golfo, se sirve caliente en una taza alta y a veces lleva unas hebras de azafrán encima.",
+   "history": "El latte de azafrán es una bebida reciente de cafetería que une el latte de estilo italiano con el azafrán y el cardamomo, sabores tradicionales del café árabe, y hoy es habitual en las cartas de las cafeterías de todo el Golfo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 10,
+    "ingredients": [
+     "1 shot de espresso (30 ml)",
+     "250 ml de leche",
+     "1 pizca pequeña de azafrán",
+     "2 cdta. de azúcar",
+     "1 pizca de cardamomo molido"
+    ],
+    "steps": [
+     "Calienta 2 cda. de agua con el azúcar, el azafrán y el cardamomo para hacer un almíbar rápido.",
+     "Prepara el espresso en una taza grande y mézclale el almíbar.",
+     "Calienta la leche y espúmala con el vaporizador o a mano.",
+     "Vierte la leche sobre el espresso y termina con una hebra de azafrán."
+    ]
+   },
+   "tips": [
+    "Usa leche semidescremada o descremada para reducir las calorías.",
+    "Pon la mitad del azúcar; el azafrán y el cardamomo aportan el sabor.",
+    "Elige una taza pequeña en lugar de una grande."
+   ],
+   "name_inline": "el latte de azafrán"
   }
+ }
 }
