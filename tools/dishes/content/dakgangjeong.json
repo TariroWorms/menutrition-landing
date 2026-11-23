@@ -1,181 +1,215 @@
 {
-  "db_key": "dakgangjeong",
-  "slug": "dakgangjeong",
-  "emoji": "🍗",
-  "portion_g": 200,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dakgangjeong",
+ "slug": "dakgangjeong",
+ "emoji": "🍗",
+ "portion_g": 200,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Dakgangjeong (sweet crispy Korean chicken)",
+   "origin": "South Korea",
+   "intro": "Dakgangjeong is bite-sized chicken, double-fried until very crisp and then tossed in a sticky glaze of gochujang, soy sauce, garlic, ginger and sugar. It is finished with crushed peanuts and sesame seeds. The coating stays crunchy even when cool, which makes it a favourite snack at markets, with drinks and in lunchboxes.",
+   "history": "Gangjeong originally refers to traditional Korean sweets coated in syrup and grains or seeds. The chicken version borrows the idea of a sticky, crunchy coating and is now a popular market street food across South Korea.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "700 g boneless chicken thighs, cut into bite-size pieces",
+     "80 g potato starch",
+     "Vegetable oil for deep-frying",
+     "2 tbsp gochujang",
+     "2 tbsp soy sauce",
+     "3 tbsp sugar",
+     "3 garlic cloves, crushed",
+     "1 tsp grated ginger",
+     "2 tbsp crushed roasted peanuts",
+     "1 tsp sesame seeds"
+    ],
+    "steps": [
+     "Season the chicken with salt, toss in the potato starch and shake off the excess.",
+     "Fry at 170 °C for 5 minutes, rest for 5 minutes, then fry again for 2–3 minutes until very crisp.",
+     "Simmer the gochujang, soy sauce, sugar, garlic, ginger and 3 tbsp water for 2–3 minutes until glossy.",
+     "Toss the chicken in the sauce, scatter with peanuts and sesame seeds and serve."
+    ]
+   },
+   "tips": [
+    "Bake or air-fry the coated chicken instead of deep-frying.",
+    "Cut the sugar in the glaze by a third and use only as much sauce as needed to coat.",
+    "Treat it as a shared side and eat a handful alongside fresh vegetables."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Dakgangjeong (sweet crispy Korean chicken)",
-      "origin": "South Korea",
-      "intro": "Dakgangjeong is bite-sized chicken, double-fried until very crisp and then tossed in a sticky glaze of gochujang, soy sauce, garlic, ginger and sugar. It is finished with crushed peanuts and sesame seeds. The coating stays crunchy even when cool, which makes it a favourite snack at markets, with drinks and in lunchboxes.",
-      "history": "Gangjeong originally refers to traditional Korean sweets coated in syrup and grains or seeds. The chicken version borrows the idea of a sticky, crunchy coating and is now a popular market street food across South Korea.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "700 g boneless chicken thighs, cut into bite-size pieces",
-          "80 g potato starch",
-          "Vegetable oil for deep-frying",
-          "2 tbsp gochujang",
-          "2 tbsp soy sauce",
-          "3 tbsp sugar",
-          "3 garlic cloves, crushed",
-          "1 tsp grated ginger",
-          "2 tbsp crushed roasted peanuts",
-          "1 tsp sesame seeds"
-        ],
-        "steps": [
-          "Season the chicken with salt, toss in the potato starch and shake off the excess.",
-          "Fry at 170 °C for 5 minutes, rest for 5 minutes, then fry again for 2–3 minutes until very crisp.",
-          "Simmer the gochujang, soy sauce, sugar, garlic, ginger and 3 tbsp water for 2–3 minutes until glossy.",
-          "Toss the chicken in the sauce, scatter with peanuts and sesame seeds and serve."
-        ]
-      },
-      "tips": [
-        "Bake or air-fry the coated chicken instead of deep-frying.",
-        "Cut the sugar in the glaze by a third and use only as much sauce as needed to coat.",
-        "Treat it as a shared side and eat a handful alongside fresh vegetables."
-      ]
-    },
-    "ar": {
-      "name": "داك غانغجونغ (دجاج كوري مقرمش حلو)",
-      "origin": "كوريا الجنوبية",
-      "intro": "داك غانغجونغ قطع دجاج صغيرة تُقلى مرتين حتى تصبح شديدة القرمشة، ثم تُقلّب في صلصة لزجة من الغوتشوجانغ وصلصة الصويا والثوم والزنجبيل والسكر. ويُرشّ عليها الفول السوداني المجروش وحبوب السمسم. تبقى القشرة مقرمشة حتى بعد أن تبرد، لذا فهو وجبة خفيفة محبوبة في الأسواق ومع المشروبات وفي علب الغداء.",
-      "history": "تشير كلمة غانغجونغ في الأصل إلى حلويات كورية تقليدية مغطاة بالشراب والحبوب أو البذور. واستعارت نسخة الدجاج فكرة الغلاف اللزج المقرمش، وهي اليوم من أطعمة الشارع الشعبية في أسواق كوريا الجنوبية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "700 غ أفخاذ دجاج بلا عظم مقطّعة قطعاً صغيرة",
-          "80 غ نشا البطاطس",
-          "زيت نباتي للقلي العميق",
-          "2 ملعقة كبيرة غوتشوجانغ",
-          "2 ملعقة كبيرة صلصة صويا",
-          "3 ملاعق كبيرة سكر",
-          "3 فصوص ثوم مهروسة",
-          "1 ملعقة صغيرة زنجبيل مبشور",
-          "2 ملعقة كبيرة فول سوداني محمّص مجروش",
-          "1 ملعقة صغيرة سمسم"
-        ],
-        "steps": [
-          "تبّل الدجاج بالملح وقلّبه في نشا البطاطس وانفض الزائد.",
-          "اقلِه على 170 °م لمدة 5 دقائق، واتركه 5 دقائق، ثم اقلِه مرة ثانية 2–3 دقائق حتى يصبح مقرمشاً جداً.",
-          "اطهُ الغوتشوجانغ وصلصة الصويا والسكر والثوم والزنجبيل مع 3 ملاعق كبيرة ماء 2–3 دقائق حتى تلمع الصلصة.",
-          "قلّب الدجاج في الصلصة، ورشّ الفول السوداني والسمسم وقدّمه."
-        ]
-      },
-      "tips": [
-        "اخبز الدجاج المغطى بالنشا أو اطهه في المقلاة الهوائية بدل القلي العميق.",
-        "قلّل سكر الصلصة بمقدار الثلث واستخدم من الصلصة ما يكفي للتغطية فقط.",
-        "اعتبره طبقاً جانبياً للمشاركة وتناول حفنة منه مع خضار طازجة."
-      ]
-    },
-    "it": {
-      "name": "Dakgangjeong (pollo coreano croccante e dolce)",
-      "name_inline": "dakgangjeong",
-      "origin": "Corea del Sud",
-      "intro": "Il dakgangjeong è pollo a bocconcini fritto due volte finché è molto croccante e poi saltato in una glassa appiccicosa di gochujang, salsa di soia, aglio, zenzero e zucchero. Si completa con arachidi tritate e semi di sesamo. La copertura resta croccante anche da fredda, ed è per questo che è uno spuntino amato nei mercati, con le bevande e nei pranzi al sacco.",
-      "history": "Gangjeong indica originariamente i dolci tradizionali coreani ricoperti di sciroppo e cereali o semi. La versione con il pollo riprende l'idea di una copertura appiccicosa e croccante ed è oggi un cibo da strada molto popolare nei mercati di tutta la Corea del Sud.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "700 g di sovracosce di pollo disossate, a bocconcini",
-          "80 g di fecola di patate",
-          "Olio vegetale per friggere",
-          "2 cucchiai di gochujang",
-          "2 cucchiai di salsa di soia",
-          "3 cucchiai di zucchero",
-          "3 spicchi d'aglio schiacciati",
-          "1 cucchiaino di zenzero grattugiato",
-          "2 cucchiai di arachidi tostate tritate",
-          "1 cucchiaino di semi di sesamo"
-        ],
-        "steps": [
-          "Sala il pollo, passalo nella fecola ed elimina l'eccesso.",
-          "Friggi a 170 °C per 5 minuti, lascia riposare 5 minuti, poi friggi di nuovo per 2–3 minuti finché è molto croccante.",
-          "Cuoci a fuoco dolce gochujang, salsa di soia, zucchero, aglio, zenzero e 3 cucchiai d'acqua per 2–3 minuti finché la salsa è lucida.",
-          "Salta il pollo nella salsa, cospargi di arachidi e semi di sesamo e servi."
-        ]
-      },
-      "tips": [
-        "Cuoci il pollo impanato in forno o nella friggitrice ad aria invece di friggerlo.",
-        "Riduci di un terzo lo zucchero della glassa e usa solo la salsa necessaria per ricoprirlo.",
-        "Consideralo un contorno da condividere e mangiane una manciata insieme a verdure fresche."
-      ]
-    },
-    "el": {
-      "name": "Ντακγκανγκτζόνγκ (γλυκό τραγανό κορεατικό κοτόπουλο)",
-      "name_inline": "ντακγκανγκτζόνγκ",
-      "origin": "Νότια Κορέα",
-      "intro": "Το ντακγκανγκτζόνγκ είναι κοτόπουλο σε μπουκιές, τηγανισμένο δύο φορές μέχρι να γίνει πολύ τραγανό και έπειτα ανακατεμένο σε κολλώδες γλάσο από γκοτσουτζάνγκ, σάλτσα σόγιας, σκόρδο, τζίντζερ και ζάχαρη. Ολοκληρώνεται με θρυμματισμένα φιστίκια και σουσάμι. Η επικάλυψη μένει τραγανή ακόμη και όταν κρυώσει, γι' αυτό είναι αγαπημένο σνακ στις αγορές, με ποτά και στα κουτιά φαγητού.",
-      "history": "Το γκανγκτζόνγκ αρχικά αναφέρεται σε παραδοσιακά κορεατικά γλυκά επικαλυμμένα με σιρόπι και δημητριακά ή σπόρους. Η εκδοχή με κοτόπουλο δανείζεται την ιδέα της κολλώδους, τραγανής επικάλυψης και σήμερα είναι δημοφιλές φαγητό δρόμου στις αγορές όλης της Νότιας Κορέας.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "700 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε μπουκιές",
-          "80 γρ. άμυλο πατάτας",
-          "Φυτικό λάδι για τηγάνισμα",
-          "2 κ.σ. γκοτσουτζάνγκ",
-          "2 κ.σ. σάλτσα σόγιας",
-          "3 κ.σ. ζάχαρη",
-          "3 σκελίδες σκόρδο, λιωμένες",
-          "1 κ.γ. τριμμένο τζίντζερ",
-          "2 κ.σ. θρυμματισμένα καβουρδισμένα φιστίκια",
-          "1 κ.γ. σουσάμι"
-        ],
-        "steps": [
-          "Αλατίστε το κοτόπουλο, ανακατέψτε το με το άμυλο πατάτας και τινάξτε το περιττό.",
-          "Τηγανίστε στους 170 °C για 5 λεπτά, αφήστε 5 λεπτά και τηγανίστε ξανά 2–3 λεπτά, μέχρι να γίνει πολύ τραγανό.",
-          "Σιγοβράστε το γκοτσουτζάνγκ, τη σάλτσα σόγιας, τη ζάχαρη, το σκόρδο, το τζίντζερ και 3 κ.σ. νερό για 2–3 λεπτά, μέχρι να γυαλίσει.",
-          "Ανακατέψτε το κοτόπουλο με τη σάλτσα, πασπαλίστε με φιστίκια και σουσάμι και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Ψήστε το πανέ κοτόπουλο στον φούρνο ή στο air fryer αντί να το τηγανίσετε.",
-        "Μειώστε κατά ένα τρίτο τη ζάχαρη στο γλάσο και βάλτε μόνο όση σάλτσα χρειάζεται για να καλυφθεί.",
-        "Θεωρήστε το συνοδευτικό για μοίρασμα και φάτε μια χούφτα μαζί με φρέσκα λαχανικά."
-      ]
-    },
-    "ru": {
-      "name": "Дакканчжон (сладкая хрустящая корейская курица)",
-      "origin": "Южная Корея",
-      "intro": "Дакканчжон — курица небольшими кусочками, дважды обжаренная до сильной хрусткости, а затем обваленная в липкой глазури из кочуджана, соевого соуса, чеснока, имбиря и сахара. Блюдо завершают дроблёным арахисом и семенами кунжута. Панировка остаётся хрустящей даже остывшей, поэтому это любимая закуска на рынках, к напиткам и в ланч-боксах.",
-      "history": "Канчжон первоначально означает традиционные корейские сладости, покрытые сиропом, зёрнами или семенами. Куриный вариант заимствует идею липкого хрустящего покрытия и сегодня стал популярной рыночной уличной едой по всей Южной Корее.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "700 г бескостных куриных бёдер, нарезанных кусочками",
-          "80 г картофельного крахмала",
-          "Растительное масло для фритюра",
-          "2 ст. л. кочуджана",
-          "2 ст. л. соевого соуса",
-          "3 ст. л. сахара",
-          "3 зубчика чеснока, раздавленных",
-          "1 ч. л. тёртого имбиря",
-          "2 ст. л. дроблёного жареного арахиса",
-          "1 ч. л. семян кунжута"
-        ],
-        "steps": [
-          "Приправьте курицу солью, обваляйте в картофельном крахмале и стряхните лишнее.",
-          "Жарьте при 170 °C 5 минут, дайте отдохнуть 5 минут, затем жарьте снова 2–3 минуты до сильной хрусткости.",
-          "Варите кочуджан, соевый соус, сахар, чеснок, имбирь и 3 ст. л. воды 2–3 минуты до глянца.",
-          "Обваляйте курицу в соусе, посыпьте арахисом и семенами кунжута и подавайте."
-        ]
-      },
-      "tips": [
-        "Запекайте или готовьте в аэрофритюрнице панированную курицу вместо фритюра.",
-        "Уменьшите сахар в глазури на треть и берите ровно столько соуса, сколько нужно, чтобы покрыть курицу.",
-        "Считайте это общей закуской и съешьте горсть вместе со свежими овощами."
-      ]
-    }
+  "ar": {
+   "name": "داك غانغجونغ (دجاج كوري مقرمش حلو)",
+   "origin": "كوريا الجنوبية",
+   "intro": "داك غانغجونغ قطع دجاج صغيرة تُقلى مرتين حتى تصبح شديدة القرمشة، ثم تُقلّب في صلصة لزجة من الغوتشوجانغ وصلصة الصويا والثوم والزنجبيل والسكر. ويُرشّ عليها الفول السوداني المجروش وحبوب السمسم. تبقى القشرة مقرمشة حتى بعد أن تبرد، لذا فهو وجبة خفيفة محبوبة في الأسواق ومع المشروبات وفي علب الغداء.",
+   "history": "تشير كلمة غانغجونغ في الأصل إلى حلويات كورية تقليدية مغطاة بالشراب والحبوب أو البذور. واستعارت نسخة الدجاج فكرة الغلاف اللزج المقرمش، وهي اليوم من أطعمة الشارع الشعبية في أسواق كوريا الجنوبية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "700 غ أفخاذ دجاج بلا عظم مقطّعة قطعاً صغيرة",
+     "80 غ نشا البطاطس",
+     "زيت نباتي للقلي العميق",
+     "2 ملعقة كبيرة غوتشوجانغ",
+     "2 ملعقة كبيرة صلصة صويا",
+     "3 ملاعق كبيرة سكر",
+     "3 فصوص ثوم مهروسة",
+     "1 ملعقة صغيرة زنجبيل مبشور",
+     "2 ملعقة كبيرة فول سوداني محمّص مجروش",
+     "1 ملعقة صغيرة سمسم"
+    ],
+    "steps": [
+     "تبّل الدجاج بالملح وقلّبه في نشا البطاطس وانفض الزائد.",
+     "اقلِه على 170 °م لمدة 5 دقائق، واتركه 5 دقائق، ثم اقلِه مرة ثانية 2–3 دقائق حتى يصبح مقرمشاً جداً.",
+     "اطهُ الغوتشوجانغ وصلصة الصويا والسكر والثوم والزنجبيل مع 3 ملاعق كبيرة ماء 2–3 دقائق حتى تلمع الصلصة.",
+     "قلّب الدجاج في الصلصة، ورشّ الفول السوداني والسمسم وقدّمه."
+    ]
+   },
+   "tips": [
+    "اخبز الدجاج المغطى بالنشا أو اطهه في المقلاة الهوائية بدل القلي العميق.",
+    "قلّل سكر الصلصة بمقدار الثلث واستخدم من الصلصة ما يكفي للتغطية فقط.",
+    "اعتبره طبقاً جانبياً للمشاركة وتناول حفنة منه مع خضار طازجة."
+   ]
+  },
+  "it": {
+   "name": "Dakgangjeong (pollo coreano croccante e dolce)",
+   "name_inline": "dakgangjeong",
+   "origin": "Corea del Sud",
+   "intro": "Il dakgangjeong è pollo a bocconcini fritto due volte finché è molto croccante e poi saltato in una glassa appiccicosa di gochujang, salsa di soia, aglio, zenzero e zucchero. Si completa con arachidi tritate e semi di sesamo. La copertura resta croccante anche da fredda, ed è per questo che è uno spuntino amato nei mercati, con le bevande e nei pranzi al sacco.",
+   "history": "Gangjeong indica originariamente i dolci tradizionali coreani ricoperti di sciroppo e cereali o semi. La versione con il pollo riprende l'idea di una copertura appiccicosa e croccante ed è oggi un cibo da strada molto popolare nei mercati di tutta la Corea del Sud.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "700 g di sovracosce di pollo disossate, a bocconcini",
+     "80 g di fecola di patate",
+     "Olio vegetale per friggere",
+     "2 cucchiai di gochujang",
+     "2 cucchiai di salsa di soia",
+     "3 cucchiai di zucchero",
+     "3 spicchi d'aglio schiacciati",
+     "1 cucchiaino di zenzero grattugiato",
+     "2 cucchiai di arachidi tostate tritate",
+     "1 cucchiaino di semi di sesamo"
+    ],
+    "steps": [
+     "Sala il pollo, passalo nella fecola ed elimina l'eccesso.",
+     "Friggi a 170 °C per 5 minuti, lascia riposare 5 minuti, poi friggi di nuovo per 2–3 minuti finché è molto croccante.",
+     "Cuoci a fuoco dolce gochujang, salsa di soia, zucchero, aglio, zenzero e 3 cucchiai d'acqua per 2–3 minuti finché la salsa è lucida.",
+     "Salta il pollo nella salsa, cospargi di arachidi e semi di sesamo e servi."
+    ]
+   },
+   "tips": [
+    "Cuoci il pollo impanato in forno o nella friggitrice ad aria invece di friggerlo.",
+    "Riduci di un terzo lo zucchero della glassa e usa solo la salsa necessaria per ricoprirlo.",
+    "Consideralo un contorno da condividere e mangiane una manciata insieme a verdure fresche."
+   ]
+  },
+  "el": {
+   "name": "Ντακγκανγκτζόνγκ (γλυκό τραγανό κορεατικό κοτόπουλο)",
+   "name_inline": "ντακγκανγκτζόνγκ",
+   "origin": "Νότια Κορέα",
+   "intro": "Το ντακγκανγκτζόνγκ είναι κοτόπουλο σε μπουκιές, τηγανισμένο δύο φορές μέχρι να γίνει πολύ τραγανό και έπειτα ανακατεμένο σε κολλώδες γλάσο από γκοτσουτζάνγκ, σάλτσα σόγιας, σκόρδο, τζίντζερ και ζάχαρη. Ολοκληρώνεται με θρυμματισμένα φιστίκια και σουσάμι. Η επικάλυψη μένει τραγανή ακόμη και όταν κρυώσει, γι' αυτό είναι αγαπημένο σνακ στις αγορές, με ποτά και στα κουτιά φαγητού.",
+   "history": "Το γκανγκτζόνγκ αρχικά αναφέρεται σε παραδοσιακά κορεατικά γλυκά επικαλυμμένα με σιρόπι και δημητριακά ή σπόρους. Η εκδοχή με κοτόπουλο δανείζεται την ιδέα της κολλώδους, τραγανής επικάλυψης και σήμερα είναι δημοφιλές φαγητό δρόμου στις αγορές όλης της Νότιας Κορέας.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "700 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε μπουκιές",
+     "80 γρ. άμυλο πατάτας",
+     "Φυτικό λάδι για τηγάνισμα",
+     "2 κ.σ. γκοτσουτζάνγκ",
+     "2 κ.σ. σάλτσα σόγιας",
+     "3 κ.σ. ζάχαρη",
+     "3 σκελίδες σκόρδο, λιωμένες",
+     "1 κ.γ. τριμμένο τζίντζερ",
+     "2 κ.σ. θρυμματισμένα καβουρδισμένα φιστίκια",
+     "1 κ.γ. σουσάμι"
+    ],
+    "steps": [
+     "Αλατίστε το κοτόπουλο, ανακατέψτε το με το άμυλο πατάτας και τινάξτε το περιττό.",
+     "Τηγανίστε στους 170 °C για 5 λεπτά, αφήστε 5 λεπτά και τηγανίστε ξανά 2–3 λεπτά, μέχρι να γίνει πολύ τραγανό.",
+     "Σιγοβράστε το γκοτσουτζάνγκ, τη σάλτσα σόγιας, τη ζάχαρη, το σκόρδο, το τζίντζερ και 3 κ.σ. νερό για 2–3 λεπτά, μέχρι να γυαλίσει.",
+     "Ανακατέψτε το κοτόπουλο με τη σάλτσα, πασπαλίστε με φιστίκια και σουσάμι και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Ψήστε το πανέ κοτόπουλο στον φούρνο ή στο air fryer αντί να το τηγανίσετε.",
+    "Μειώστε κατά ένα τρίτο τη ζάχαρη στο γλάσο και βάλτε μόνο όση σάλτσα χρειάζεται για να καλυφθεί.",
+    "Θεωρήστε το συνοδευτικό για μοίρασμα και φάτε μια χούφτα μαζί με φρέσκα λαχανικά."
+   ]
+  },
+  "ru": {
+   "name": "Дакканчжон (сладкая хрустящая корейская курица)",
+   "origin": "Южная Корея",
+   "intro": "Дакканчжон — курица небольшими кусочками, дважды обжаренная до сильной хрусткости, а затем обваленная в липкой глазури из кочуджана, соевого соуса, чеснока, имбиря и сахара. Блюдо завершают дроблёным арахисом и семенами кунжута. Панировка остаётся хрустящей даже остывшей, поэтому это любимая закуска на рынках, к напиткам и в ланч-боксах.",
+   "history": "Канчжон первоначально означает традиционные корейские сладости, покрытые сиропом, зёрнами или семенами. Куриный вариант заимствует идею липкого хрустящего покрытия и сегодня стал популярной рыночной уличной едой по всей Южной Корее.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "700 г бескостных куриных бёдер, нарезанных кусочками",
+     "80 г картофельного крахмала",
+     "Растительное масло для фритюра",
+     "2 ст. л. кочуджана",
+     "2 ст. л. соевого соуса",
+     "3 ст. л. сахара",
+     "3 зубчика чеснока, раздавленных",
+     "1 ч. л. тёртого имбиря",
+     "2 ст. л. дроблёного жареного арахиса",
+     "1 ч. л. семян кунжута"
+    ],
+    "steps": [
+     "Приправьте курицу солью, обваляйте в картофельном крахмале и стряхните лишнее.",
+     "Жарьте при 170 °C 5 минут, дайте отдохнуть 5 минут, затем жарьте снова 2–3 минуты до сильной хрусткости.",
+     "Варите кочуджан, соевый соус, сахар, чеснок, имбирь и 3 ст. л. воды 2–3 минуты до глянца.",
+     "Обваляйте курицу в соусе, посыпьте арахисом и семенами кунжута и подавайте."
+    ]
+   },
+   "tips": [
+    "Запекайте или готовьте в аэрофритюрнице панированную курицу вместо фритюра.",
+    "Уменьшите сахар в глазури на треть и берите ровно столько соуса, сколько нужно, чтобы покрыть курицу.",
+    "Считайте это общей закуской и съешьте горсть вместе со свежими овощами."
+   ]
+  },
+  "es": {
+   "name": "Dakgangjeong (pollo coreano crujiente y dulce)",
+   "origin": "Corea del Sur",
+   "intro": "El dakgangjeong son bocados de pollo fritos dos veces hasta quedar muy crujientes y luego bañados en un glaseado pegajoso de gochujang, salsa de soya, ajo, jengibre y azúcar. Se terminan con cacahuates triturados y semillas de ajonjolí. El rebozado se mantiene crujiente incluso frío, por lo que es una botana favorita en los mercados, para acompañar bebidas y en las loncheras.",
+   "history": "Gangjeong designa originalmente unos dulces tradicionales coreanos cubiertos de almíbar y granos o semillas. La versión con pollo toma la idea de un recubrimiento pegajoso y crujiente y hoy es una popular comida callejera de mercado en toda Corea del Sur.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "700 g de muslos de pollo deshuesados, en trozos pequeños",
+     "80 g de fécula de papa",
+     "Aceite vegetal para freír",
+     "2 cdas. de gochujang",
+     "2 cdas. de salsa de soya",
+     "3 cdas. de azúcar",
+     "3 dientes de ajo, machacados",
+     "1 cdta. de jengibre rallado",
+     "2 cdas. de cacahuates tostados, triturados",
+     "1 cdta. de semillas de ajonjolí"
+    ],
+    "steps": [
+     "Sazona el pollo con sal, pásalo por la fécula de papa y sacude el exceso.",
+     "Fríe a 170 °C durante 5 minutos, deja reposar 5 minutos y fríe de nuevo de 2 a 3 minutos, hasta que quede muy crujiente.",
+     "Cocina a fuego bajo el gochujang, la salsa de soya, el azúcar, el ajo, el jengibre y 3 cdas. de agua durante 2 o 3 minutos, hasta que brille.",
+     "Mezcla el pollo con la salsa, espolvorea los cacahuates y el ajonjolí y sirve."
+    ]
+   },
+   "tips": [
+    "Hornea o prepara el pollo empanizado en la freidora de aire en lugar de freírlo en aceite abundante.",
+    "Reduce el azúcar del glaseado en un tercio y usa solo la salsa necesaria para cubrir.",
+    "Considéralo una botana para compartir y come un puñado junto con verduras frescas."
+   ],
+   "name_inline": "el dakgangjeong"
   }
+ }
 }

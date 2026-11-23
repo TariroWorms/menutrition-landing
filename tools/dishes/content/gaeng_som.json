@@ -1,177 +1,209 @@
 {
-  "db_key": "gaeng_som",
-  "slug": "gaeng-som",
-  "emoji": "🐟",
-  "portion_g": 400,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "gaeng_som",
+ "slug": "gaeng-som",
+ "emoji": "🐟",
+ "portion_g": 400,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Gaeng som (Thai sour curry)",
+   "origin": "Thailand",
+   "intro": "Gaeng som is a thin, sour and spicy Thai curry soup. Pieces of fish are poached in a broth soured with tamarind and spiced with a paste of chili, shallot, garlic and turmeric, which gives the southern version its yellow colour. Vegetables such as green papaya, long beans or cauliflower cook in the broth. It is served with rice and eaten in small spoonfuls.",
+   "history": "Sour curries are found in many regions of Thailand; the turmeric-tinted version, often called gaeng lueang (\"yellow curry\"), is typical of the south. It is an everyday home dish rather than a restaurant speciality.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g firm white fish fillet, cut into pieces",
+     "4 tbsp tamarind paste",
+     "4 dried red chilies, soaked",
+     "3 shallots and 4 garlic cloves",
+     "2 cm fresh turmeric or 1 tsp ground turmeric",
+     "400 g vegetables: green papaya, long beans, cauliflower",
+     "1 l water",
+     "1 tbsp palm sugar, salt"
+    ],
+    "steps": [
+     "Pound or blend the chilies, shallots, garlic and turmeric with a pinch of salt into a paste.",
+     "Bring the water to a boil, stir in the paste and simmer for 5 minutes.",
+     "Add the tamarind, sugar and the harder vegetables and cook for 8 minutes.",
+     "Add the fish and softer vegetables and simmer gently for 5 minutes until the fish is just cooked.",
+     "Taste for a balance of sour, salty and hot and serve with rice."
+    ]
+   },
+   "tips": [
+    "There is no oil or coconut milk in this curry — keep it that way and it stays very light.",
+    "Add more vegetables to the broth for a bigger, filling bowl.",
+    "Pair it with a small portion of rice; the broth itself is low in energy."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Gaeng som (Thai sour curry)",
-      "origin": "Thailand",
-      "intro": "Gaeng som is a thin, sour and spicy Thai curry soup. Pieces of fish are poached in a broth soured with tamarind and spiced with a paste of chili, shallot, garlic and turmeric, which gives the southern version its yellow colour. Vegetables such as green papaya, long beans or cauliflower cook in the broth. It is served with rice and eaten in small spoonfuls.",
-      "history": "Sour curries are found in many regions of Thailand; the turmeric-tinted version, often called gaeng lueang (\"yellow curry\"), is typical of the south. It is an everyday home dish rather than a restaurant speciality.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 g firm white fish fillet, cut into pieces",
-          "4 tbsp tamarind paste",
-          "4 dried red chilies, soaked",
-          "3 shallots and 4 garlic cloves",
-          "2 cm fresh turmeric or 1 tsp ground turmeric",
-          "400 g vegetables: green papaya, long beans, cauliflower",
-          "1 l water",
-          "1 tbsp palm sugar, salt"
-        ],
-        "steps": [
-          "Pound or blend the chilies, shallots, garlic and turmeric with a pinch of salt into a paste.",
-          "Bring the water to a boil, stir in the paste and simmer for 5 minutes.",
-          "Add the tamarind, sugar and the harder vegetables and cook for 8 minutes.",
-          "Add the fish and softer vegetables and simmer gently for 5 minutes until the fish is just cooked.",
-          "Taste for a balance of sour, salty and hot and serve with rice."
-        ]
-      },
-      "tips": [
-        "There is no oil or coconut milk in this curry — keep it that way and it stays very light.",
-        "Add more vegetables to the broth for a bigger, filling bowl.",
-        "Pair it with a small portion of rice; the broth itself is low in energy."
-      ]
-    },
-    "ar": {
-      "name": "كاري حامض تايلاندي (غينغ سوم)",
-      "origin": "تايلاند",
-      "intro": "غينغ سوم حساء كاري تايلاندي خفيف القوام حامض لاذع. تُسلق قطع السمك في مرق حمّضه التمر الهندي ومتبّل بمعجون من الفلفل الحار والشالوت والثوم والكركم، الذي يمنح النسخة الجنوبية لونها الأصفر. تُطهى في المرق خضار مثل البابايا الخضراء أو الفاصوليا الطويلة أو القرنبيط. يُقدَّم مع الأرز ويُؤكل بملاعق صغيرة.",
-      "history": "يوجد الكاري الحامض في مناطق كثيرة من تايلاند، والنسخة الملوّنة بالكركم، التي تُسمّى غالباً «غينغ لوانغ» أي «الكاري الأصفر»، نموذجية في الجنوب. وهو طبق منزلي يومي أكثر منه تخصصاً للمطاعم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 غ فيليه سمك أبيض متماسك مقطع قطعاً",
-          "4 ملاعق كبيرة معجون تمر هندي",
-          "4 حبات فلفل أحمر حار مجفف منقوعة",
-          "3 بصلات شالوت و4 فصوص ثوم",
-          "2 سم كركم طازج أو ملعقة صغيرة كركم مطحون",
-          "400 غ خضار: بابايا خضراء، فاصوليا طويلة، قرنبيط",
-          "1 لتر ماء",
-          "ملعقة كبيرة سكر نخيل، ملح"
-        ],
-        "steps": [
-          "اهرس الفلفل والشالوت والثوم والكركم مع رشة ملح حتى يصبح معجوناً.",
-          "اغلِ الماء، وأضف المعجون واتركه على نار هادئة 5 دقائق.",
-          "أضف التمر الهندي والسكر والخضار الأصلب واطهه 8 دقائق.",
-          "أضف السمك والخضار الأطرى واتركه على نار هادئة 5 دقائق حتى ينضج السمك بالكاد.",
-          "تذوّق لموازنة الحموضة والملوحة والحرارة، وقدّمه مع الأرز."
-        ]
-      },
-      "tips": [
-        "لا زيت ولا حليب جوز هند في هذا الكاري، وإذا حافظت على ذلك بقي خفيفاً جداً.",
-        "أضف مزيداً من الخضار إلى المرق لوعاء أكبر وأكثر إشباعاً.",
-        "قدّمه مع حصة صغيرة من الأرز، فالمرق نفسه منخفض الطاقة."
-      ]
-    },
-    "it": {
-      "name": "Gaeng som (curry acido thailandese)",
-      "name_inline": "gaeng som",
-      "origin": "Thailandia",
-      "intro": "Il gaeng som è una zuppa-curry thailandese brodosa, acida e piccante. Pezzi di pesce vengono cotti in un brodo reso acidulo dal tamarindo e speziato con una pasta di peperoncino, scalogno, aglio e curcuma, che dà alla versione del sud il suo colore giallo. Nel brodo cuociono verdure come papaya verde, fagiolini lunghi o cavolfiore. Si serve con il riso e si mangia a piccole cucchiaiate.",
-      "history": "I curry acidi si trovano in molte regioni della Thailandia; la versione colorata dalla curcuma, spesso chiamata gaeng lueang («curry giallo»), è tipica del sud. È un piatto casalingo di tutti i giorni più che una specialità da ristorante.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 g di filetto di pesce bianco sodo tagliato a pezzi",
-          "4 cucchiai di pasta di tamarindo",
-          "4 peperoncini rossi secchi ammollati",
-          "3 scalogni e 4 spicchi d'aglio",
-          "2 cm di curcuma fresca o 1 cucchiaino di curcuma in polvere",
-          "400 g di verdure: papaya verde, fagiolini lunghi, cavolfiore",
-          "1 l di acqua",
-          "1 cucchiaio di zucchero di palma, sale"
-        ],
-        "steps": [
-          "Pesta o frulla peperoncini, scalogni, aglio e curcuma con un pizzico di sale fino a ottenere una pasta.",
-          "Porta l'acqua a bollore, incorpora la pasta e lascia sobbollire per 5 minuti.",
-          "Aggiungi il tamarindo, lo zucchero e le verdure più dure e cuoci per 8 minuti.",
-          "Aggiungi il pesce e le verdure più tenere e fai sobbollire dolcemente per 5 minuti, finché il pesce non è appena cotto.",
-          "Assaggia per bilanciare acido, salato e piccante e servi con il riso."
-        ]
-      },
-      "tips": [
-        "In questo curry non ci sono olio né latte di cocco: lascialo così e resterà leggerissimo.",
-        "Aggiungi più verdure al brodo per una ciotola più grande e saziante.",
-        "Abbinalo a una piccola porzione di riso; il brodo in sé ha poca energia."
-      ]
-    },
-    "el": {
-      "name": "Γκένγκ σομ (ταϊλανδέζικο ξινό κάρι)",
-      "name_inline": "γκένγκ σομ",
-      "origin": "Ταϊλάνδη",
-      "intro": "Το gaeng som είναι αραιή, ξινή και πικάντικη ταϊλανδέζικη σούπα-κάρι. Κομμάτια ψαριού ποσάρονται σε ζωμό που ξινίζει με ταμάρινδο και αρωματίζεται με πάστα από καυτερή πιπεριά, εσαλότ, σκόρδο και κουρκουμά, που δίνει στη νότια εκδοχή το κίτρινο χρώμα της. Στον ζωμό μαγειρεύονται λαχανικά όπως πράσινη παπάγια, μακριά φασολάκια ή κουνουπίδι. Σερβίρεται με ρύζι και τρώγεται με μικρές κουταλιές.",
-      "history": "Τα ξινά κάρι συναντώνται σε πολλές περιοχές της Ταϊλάνδης· η εκδοχή με κουρκουμά, που συχνά λέγεται gaeng lueang («κίτρινο κάρι»), είναι χαρακτηριστική του νότου. Είναι καθημερινό σπιτικό φαγητό και όχι σπεσιαλιτέ εστιατορίου.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 γρ. σφιχτό φιλέτο λευκού ψαριού σε κομμάτια",
-          "4 κ.σ. πάστα ταμάρινδου",
-          "4 ξερές κόκκινες καυτερές πιπεριές μουλιασμένες",
-          "3 εσαλότ και 4 σκελίδες σκόρδο",
-          "2 εκ. φρέσκος κουρκουμάς ή 1 κ.γ. κουρκουμάς σε σκόνη",
-          "400 γρ. λαχανικά: πράσινη παπάγια, μακριά φασολάκια, κουνουπίδι",
-          "1 λίτρο νερό",
-          "1 κ.σ. ζάχαρη φοίνικα, αλάτι"
-        ],
-        "steps": [
-          "Κοπανίστε ή χτυπήστε στο μπλέντερ τις πιπεριές, τα εσαλότ, το σκόρδο και τον κουρκουμά με μια πρέζα αλάτι σε πάστα.",
-          "Φέρτε το νερό σε βρασμό, ανακατέψτε μέσα την πάστα και σιγοβράστε για 5 λεπτά.",
-          "Προσθέστε τον ταμάρινδο, τη ζάχαρη και τα πιο σκληρά λαχανικά και μαγειρέψτε για 8 λεπτά.",
-          "Προσθέστε το ψάρι και τα πιο μαλακά λαχανικά και σιγοβράστε απαλά για 5 λεπτά, μέχρι το ψάρι μόλις να ψηθεί.",
-          "Δοκιμάστε για ισορροπία ξινού, αλμυρού και καυτερού και σερβίρετε με ρύζι."
-        ]
-      },
-      "tips": [
-        "Σε αυτό το κάρι δεν υπάρχει λάδι ούτε γάλα καρύδας — κρατήστε το έτσι και θα μείνει πολύ ελαφρύ.",
-        "Προσθέστε περισσότερα λαχανικά στον ζωμό για ένα μεγαλύτερο, χορταστικό μπολ.",
-        "Συνδυάστε το με μια μικρή μερίδα ρύζι· ο ζωμός από μόνος του έχει λίγη ενέργεια."
-      ]
-    },
-    "ru": {
-      "name": "Гэнг сом (тайское кислое карри)",
-      "origin": "Таиланд",
-      "intro": "Гэнг сом — жидкий, кислый и острый тайский суп-карри. Кусочки рыбы варятся в бульоне, подкисленном тамариндом и приправленном пастой из чили, шалота, чеснока и куркумы, которая придаёт южной версии жёлтый цвет. В бульоне готовятся овощи, например зелёная папайя, спаржевая фасоль или цветная капуста. Подаётся с рисом и едят маленькими ложками.",
-      "history": "Кислые карри встречаются во многих регионах Таиланда; версия с куркумой, часто называемая гэнг луанг («жёлтое карри»), типична для юга. Это повседневное домашнее блюдо, а не ресторанная специальность.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "500 г плотного филе белой рыбы, нарезанного кусками",
-          "4 ст. л. пасты тамаринда",
-          "4 сушёных красных перца чили, замоченных",
-          "3 шалота и 4 зубчика чеснока",
-          "2 см свежей куркумы или 1 ч. л. молотой куркумы",
-          "400 г овощей: зелёная папайя, спаржевая фасоль, цветная капуста",
-          "1 л воды",
-          "1 ст. л. пальмового сахара, соль"
-        ],
-        "steps": [
-          "Растолките или взбейте блендером чили, шалот, чеснок и куркуму со щепоткой соли в пасту.",
-          "Доведите воду до кипения, вмешайте пасту и томите 5 минут.",
-          "Добавьте тамаринд, сахар и более твёрдые овощи и готовьте 8 минут.",
-          "Добавьте рыбу и более мягкие овощи и осторожно томите 5 минут, пока рыба едва не будет готова.",
-          "Проверьте баланс кислого, солёного и острого и подавайте с рисом."
-        ]
-      },
-      "tips": [
-        "В этом карри нет ни масла, ни кокосового молока — оставьте так, и оно останется очень лёгким.",
-        "Добавьте больше овощей в бульон для большей сытной миски.",
-        "Сочетайте с небольшой порцией риса; сам бульон малокалориен."
-      ],
-      "name_inline": "гэнг сом"
-    }
+  "ar": {
+   "name": "كاري حامض تايلاندي (غينغ سوم)",
+   "origin": "تايلاند",
+   "intro": "غينغ سوم حساء كاري تايلاندي خفيف القوام حامض لاذع. تُسلق قطع السمك في مرق حمّضه التمر الهندي ومتبّل بمعجون من الفلفل الحار والشالوت والثوم والكركم، الذي يمنح النسخة الجنوبية لونها الأصفر. تُطهى في المرق خضار مثل البابايا الخضراء أو الفاصوليا الطويلة أو القرنبيط. يُقدَّم مع الأرز ويُؤكل بملاعق صغيرة.",
+   "history": "يوجد الكاري الحامض في مناطق كثيرة من تايلاند، والنسخة الملوّنة بالكركم، التي تُسمّى غالباً «غينغ لوانغ» أي «الكاري الأصفر»، نموذجية في الجنوب. وهو طبق منزلي يومي أكثر منه تخصصاً للمطاعم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 غ فيليه سمك أبيض متماسك مقطع قطعاً",
+     "4 ملاعق كبيرة معجون تمر هندي",
+     "4 حبات فلفل أحمر حار مجفف منقوعة",
+     "3 بصلات شالوت و4 فصوص ثوم",
+     "2 سم كركم طازج أو ملعقة صغيرة كركم مطحون",
+     "400 غ خضار: بابايا خضراء، فاصوليا طويلة، قرنبيط",
+     "1 لتر ماء",
+     "ملعقة كبيرة سكر نخيل، ملح"
+    ],
+    "steps": [
+     "اهرس الفلفل والشالوت والثوم والكركم مع رشة ملح حتى يصبح معجوناً.",
+     "اغلِ الماء، وأضف المعجون واتركه على نار هادئة 5 دقائق.",
+     "أضف التمر الهندي والسكر والخضار الأصلب واطهه 8 دقائق.",
+     "أضف السمك والخضار الأطرى واتركه على نار هادئة 5 دقائق حتى ينضج السمك بالكاد.",
+     "تذوّق لموازنة الحموضة والملوحة والحرارة، وقدّمه مع الأرز."
+    ]
+   },
+   "tips": [
+    "لا زيت ولا حليب جوز هند في هذا الكاري، وإذا حافظت على ذلك بقي خفيفاً جداً.",
+    "أضف مزيداً من الخضار إلى المرق لوعاء أكبر وأكثر إشباعاً.",
+    "قدّمه مع حصة صغيرة من الأرز، فالمرق نفسه منخفض الطاقة."
+   ]
+  },
+  "it": {
+   "name": "Gaeng som (curry acido thailandese)",
+   "name_inline": "gaeng som",
+   "origin": "Thailandia",
+   "intro": "Il gaeng som è una zuppa-curry thailandese brodosa, acida e piccante. Pezzi di pesce vengono cotti in un brodo reso acidulo dal tamarindo e speziato con una pasta di peperoncino, scalogno, aglio e curcuma, che dà alla versione del sud il suo colore giallo. Nel brodo cuociono verdure come papaya verde, fagiolini lunghi o cavolfiore. Si serve con il riso e si mangia a piccole cucchiaiate.",
+   "history": "I curry acidi si trovano in molte regioni della Thailandia; la versione colorata dalla curcuma, spesso chiamata gaeng lueang («curry giallo»), è tipica del sud. È un piatto casalingo di tutti i giorni più che una specialità da ristorante.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g di filetto di pesce bianco sodo tagliato a pezzi",
+     "4 cucchiai di pasta di tamarindo",
+     "4 peperoncini rossi secchi ammollati",
+     "3 scalogni e 4 spicchi d'aglio",
+     "2 cm di curcuma fresca o 1 cucchiaino di curcuma in polvere",
+     "400 g di verdure: papaya verde, fagiolini lunghi, cavolfiore",
+     "1 l di acqua",
+     "1 cucchiaio di zucchero di palma, sale"
+    ],
+    "steps": [
+     "Pesta o frulla peperoncini, scalogni, aglio e curcuma con un pizzico di sale fino a ottenere una pasta.",
+     "Porta l'acqua a bollore, incorpora la pasta e lascia sobbollire per 5 minuti.",
+     "Aggiungi il tamarindo, lo zucchero e le verdure più dure e cuoci per 8 minuti.",
+     "Aggiungi il pesce e le verdure più tenere e fai sobbollire dolcemente per 5 minuti, finché il pesce non è appena cotto.",
+     "Assaggia per bilanciare acido, salato e piccante e servi con il riso."
+    ]
+   },
+   "tips": [
+    "In questo curry non ci sono olio né latte di cocco: lascialo così e resterà leggerissimo.",
+    "Aggiungi più verdure al brodo per una ciotola più grande e saziante.",
+    "Abbinalo a una piccola porzione di riso; il brodo in sé ha poca energia."
+   ]
+  },
+  "el": {
+   "name": "Γκένγκ σομ (ταϊλανδέζικο ξινό κάρι)",
+   "name_inline": "γκένγκ σομ",
+   "origin": "Ταϊλάνδη",
+   "intro": "Το gaeng som είναι αραιή, ξινή και πικάντικη ταϊλανδέζικη σούπα-κάρι. Κομμάτια ψαριού ποσάρονται σε ζωμό που ξινίζει με ταμάρινδο και αρωματίζεται με πάστα από καυτερή πιπεριά, εσαλότ, σκόρδο και κουρκουμά, που δίνει στη νότια εκδοχή το κίτρινο χρώμα της. Στον ζωμό μαγειρεύονται λαχανικά όπως πράσινη παπάγια, μακριά φασολάκια ή κουνουπίδι. Σερβίρεται με ρύζι και τρώγεται με μικρές κουταλιές.",
+   "history": "Τα ξινά κάρι συναντώνται σε πολλές περιοχές της Ταϊλάνδης· η εκδοχή με κουρκουμά, που συχνά λέγεται gaeng lueang («κίτρινο κάρι»), είναι χαρακτηριστική του νότου. Είναι καθημερινό σπιτικό φαγητό και όχι σπεσιαλιτέ εστιατορίου.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 γρ. σφιχτό φιλέτο λευκού ψαριού σε κομμάτια",
+     "4 κ.σ. πάστα ταμάρινδου",
+     "4 ξερές κόκκινες καυτερές πιπεριές μουλιασμένες",
+     "3 εσαλότ και 4 σκελίδες σκόρδο",
+     "2 εκ. φρέσκος κουρκουμάς ή 1 κ.γ. κουρκουμάς σε σκόνη",
+     "400 γρ. λαχανικά: πράσινη παπάγια, μακριά φασολάκια, κουνουπίδι",
+     "1 λίτρο νερό",
+     "1 κ.σ. ζάχαρη φοίνικα, αλάτι"
+    ],
+    "steps": [
+     "Κοπανίστε ή χτυπήστε στο μπλέντερ τις πιπεριές, τα εσαλότ, το σκόρδο και τον κουρκουμά με μια πρέζα αλάτι σε πάστα.",
+     "Φέρτε το νερό σε βρασμό, ανακατέψτε μέσα την πάστα και σιγοβράστε για 5 λεπτά.",
+     "Προσθέστε τον ταμάρινδο, τη ζάχαρη και τα πιο σκληρά λαχανικά και μαγειρέψτε για 8 λεπτά.",
+     "Προσθέστε το ψάρι και τα πιο μαλακά λαχανικά και σιγοβράστε απαλά για 5 λεπτά, μέχρι το ψάρι μόλις να ψηθεί.",
+     "Δοκιμάστε για ισορροπία ξινού, αλμυρού και καυτερού και σερβίρετε με ρύζι."
+    ]
+   },
+   "tips": [
+    "Σε αυτό το κάρι δεν υπάρχει λάδι ούτε γάλα καρύδας — κρατήστε το έτσι και θα μείνει πολύ ελαφρύ.",
+    "Προσθέστε περισσότερα λαχανικά στον ζωμό για ένα μεγαλύτερο, χορταστικό μπολ.",
+    "Συνδυάστε το με μια μικρή μερίδα ρύζι· ο ζωμός από μόνος του έχει λίγη ενέργεια."
+   ]
+  },
+  "ru": {
+   "name": "Гэнг сом (тайское кислое карри)",
+   "origin": "Таиланд",
+   "intro": "Гэнг сом — жидкий, кислый и острый тайский суп-карри. Кусочки рыбы варятся в бульоне, подкисленном тамариндом и приправленном пастой из чили, шалота, чеснока и куркумы, которая придаёт южной версии жёлтый цвет. В бульоне готовятся овощи, например зелёная папайя, спаржевая фасоль или цветная капуста. Подаётся с рисом и едят маленькими ложками.",
+   "history": "Кислые карри встречаются во многих регионах Таиланда; версия с куркумой, часто называемая гэнг луанг («жёлтое карри»), типична для юга. Это повседневное домашнее блюдо, а не ресторанная специальность.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 г плотного филе белой рыбы, нарезанного кусками",
+     "4 ст. л. пасты тамаринда",
+     "4 сушёных красных перца чили, замоченных",
+     "3 шалота и 4 зубчика чеснока",
+     "2 см свежей куркумы или 1 ч. л. молотой куркумы",
+     "400 г овощей: зелёная папайя, спаржевая фасоль, цветная капуста",
+     "1 л воды",
+     "1 ст. л. пальмового сахара, соль"
+    ],
+    "steps": [
+     "Растолките или взбейте блендером чили, шалот, чеснок и куркуму со щепоткой соли в пасту.",
+     "Доведите воду до кипения, вмешайте пасту и томите 5 минут.",
+     "Добавьте тамаринд, сахар и более твёрдые овощи и готовьте 8 минут.",
+     "Добавьте рыбу и более мягкие овощи и осторожно томите 5 минут, пока рыба едва не будет готова.",
+     "Проверьте баланс кислого, солёного и острого и подавайте с рисом."
+    ]
+   },
+   "tips": [
+    "В этом карри нет ни масла, ни кокосового молока — оставьте так, и оно останется очень лёгким.",
+    "Добавьте больше овощей в бульон для большей сытной миски.",
+    "Сочетайте с небольшой порцией риса; сам бульон малокалориен."
+   ],
+   "name_inline": "гэнг сом"
+  },
+  "es": {
+   "name": "Gaeng som (curry agrio tailandés)",
+   "origin": "Tailandia",
+   "intro": "El gaeng som es una sopa-curry tailandesa ligera, ácida y picante. Trozos de pescado se cuecen en un caldo avinagrado con tamarindo y sazonado con una pasta de chile, chalote, ajo y cúrcuma, que da su color amarillo a la versión del sur. En el caldo se cuecen verduras como papaya verde, ejotes largos o coliflor. Se sirve con arroz y se come a pequeñas cucharadas.",
+   "history": "Los curris agrios se encuentran en muchas regiones de Tailandia; la versión teñida de cúrcuma, a menudo llamada gaeng lueang («curry amarillo»), es típica del sur. Es un plato casero de todos los días más que una especialidad de restaurante.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "500 g de filete de pescado blanco firme, en trozos",
+     "4 cda. de pasta de tamarindo",
+     "4 chiles rojos secos, remojados",
+     "3 chalotes y 4 dientes de ajo",
+     "2 cm de cúrcuma fresca o 1 cdta. de cúrcuma molida",
+     "400 g de verduras: papaya verde, ejotes largos, coliflor",
+     "1 l de agua",
+     "1 cda. de azúcar de palma, sal"
+    ],
+    "steps": [
+     "Machaca o licúa los chiles, los chalotes, el ajo y la cúrcuma con una pizca de sal hasta formar una pasta.",
+     "Lleva el agua a ebullición, agrega la pasta y cocina a fuego lento 5 minutos.",
+     "Añade el tamarindo, el azúcar y las verduras más duras y cocina 8 minutos.",
+     "Agrega el pescado y las verduras más blandas y cocina suavemente 5 minutos, hasta que el pescado esté recién hecho.",
+     "Prueba el equilibrio entre ácido, salado y picante y sirve con arroz."
+    ]
+   },
+   "tips": [
+    "Este curry no lleva aceite ni leche de coco; si lo dejas así, queda muy ligero.",
+    "Agrega más verduras al caldo para un plato más grande y saciante.",
+    "Combínalo con una porción pequeña de arroz; el caldo en sí es ligero."
+   ]
   }
+ }
 }

@@ -1,165 +1,196 @@
 {
-  "db_key": "basler_mehlsuppe",
-  "slug": "basler-mehlsuppe",
-  "emoji": "🍲",
-  "portion_g": 300,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "basler_mehlsuppe",
+ "slug": "basler-mehlsuppe",
+ "emoji": "🍲",
+ "portion_g": 300,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Basler Mehlsuppe (Basel flour soup)",
+   "origin": "Switzerland · Basel",
+   "intro": "Basler Mehlsuppe is a dark, savoury soup made by slowly toasting flour in butter until it turns deep brown, then simmering it with onion and beef broth. The result is smooth, rich and nutty, with a roasted flavour. It is served piping hot with grated Gruyère cheese scattered over the top, which melts into the soup.",
+   "history": "The soup is famously linked to Basel Fasnacht, the city's carnival, which opens with the Morgestraich at 4 a.m.; afterwards revellers warm up with bowls of Mehlsuppe in restaurants across the old town. Simple flour soups were once everyday fare in many parts of Switzerland and southern Germany.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "60 g plain flour",
+     "40 g butter",
+     "1 onion, finely chopped",
+     "1.2 litres beef broth",
+     "1 bay leaf and a pinch of grated nutmeg",
+     "60 g Gruyère, grated",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Toast the flour in a dry, heavy pan over medium-low heat, stirring constantly, for 15–20 minutes until it is the colour of cinnamon. Let it cool slightly.",
+     "Melt the butter in a pot, soften the onion for 5 minutes, then stir in the toasted flour.",
+     "Whisk in the broth a little at a time to avoid lumps, add the bay leaf, and simmer gently for 30–40 minutes, stirring now and then.",
+     "Season with salt, pepper and nutmeg, remove the bay leaf and serve hot with the Gruyère sprinkled on top."
+    ]
+   },
+   "tips": [
+    "Use half the butter: the toasted flour already gives a deep flavour.",
+    "Cheese adds up quickly — a tablespoon of grated Gruyère per bowl is enough for taste.",
+    "Choose a fat-skimmed or low-salt beef broth and serve with a green salad for a light supper."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Basler Mehlsuppe (Basel flour soup)",
-      "origin": "Switzerland · Basel",
-      "intro": "Basler Mehlsuppe is a dark, savoury soup made by slowly toasting flour in butter until it turns deep brown, then simmering it with onion and beef broth. The result is smooth, rich and nutty, with a roasted flavour. It is served piping hot with grated Gruyère cheese scattered over the top, which melts into the soup.",
-      "history": "The soup is famously linked to Basel Fasnacht, the city's carnival, which opens with the Morgestraich at 4 a.m.; afterwards revellers warm up with bowls of Mehlsuppe in restaurants across the old town. Simple flour soups were once everyday fare in many parts of Switzerland and southern Germany.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "60 g plain flour",
-          "40 g butter",
-          "1 onion, finely chopped",
-          "1.2 litres beef broth",
-          "1 bay leaf and a pinch of grated nutmeg",
-          "60 g Gruyère, grated",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Toast the flour in a dry, heavy pan over medium-low heat, stirring constantly, for 15–20 minutes until it is the colour of cinnamon. Let it cool slightly.",
-          "Melt the butter in a pot, soften the onion for 5 minutes, then stir in the toasted flour.",
-          "Whisk in the broth a little at a time to avoid lumps, add the bay leaf, and simmer gently for 30–40 minutes, stirring now and then.",
-          "Season with salt, pepper and nutmeg, remove the bay leaf and serve hot with the Gruyère sprinkled on top."
-        ]
-      },
-      "tips": [
-        "Use half the butter: the toasted flour already gives a deep flavour.",
-        "Cheese adds up quickly — a tablespoon of grated Gruyère per bowl is enough for taste.",
-        "Choose a fat-skimmed or low-salt beef broth and serve with a green salad for a light supper."
-      ]
-    },
-    "ar": {
-      "name": "حساء الدقيق البازلي (بازلر ميلزوبه)",
-      "origin": "سويسرا · بازل",
-      "intro": "بازلر ميلزوبه حساء داكن مالح يُحضَّر بتحميص الدقيق ببطء حتى يصبح بنياً عميقاً، ثم يُطهى مع الزبدة والبصل ومرق لحم البقر. والنتيجة حساء ناعم غني بنكهة محمّصة تشبه المكسرات. يُقدَّم ساخناً جداً مع جبن الغرويير المبشور على الوجه، فيذوب داخل الحساء.",
-      "history": "يرتبط الحساء ارتباطاً شهيراً بكرنفال بازل «فاسناخت» الذي يُفتتح بموكب «مورغشتريخ» في الرابعة فجراً؛ وبعده يتدفّأ المحتفلون بأطباق الميلزوبه في مطاعم البلدة القديمة. وكانت حساءات الدقيق البسيطة يوماً طعاماً يومياً في أنحاء كثيرة من سويسرا وجنوب ألمانيا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "60 غ دقيق أبيض",
-          "40 غ زبدة",
-          "1 بصلة مفرومة ناعماً",
-          "1.2 لتر مرق لحم بقر",
-          "1 ورقة غار ورشة جوزة طيب مبشورة",
-          "60 غ جبن غرويير مبشور",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "حمّص الدقيق في قدر ثقيل جاف على نار متوسطة إلى هادئة مع التحريك المستمر 15–20 دقيقة حتى يصبح بلون القرفة. اتركه يبرد قليلاً.",
-          "أذب الزبدة في قدر وشوّح البصل 5 دقائق، ثم أضف الدقيق المحمّص.",
-          "أضف المرق تدريجياً مع الخفق لتجنّب التكتل، ثم ورقة الغار، واتركه يغلي بهدوء 30–40 دقيقة مع التحريك من حين لآخر.",
-          "تبّله بالملح والفلفل وجوزة الطيب، وأخرج ورقة الغار، وقدّمه ساخناً مع الغرويير المبشور على الوجه."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية الزبدة: الدقيق المحمّص يمنح نكهة عميقة بالفعل.",
-        "الجبن يرفع السعرات بسرعة، وتكفي ملعقة كبيرة من الغرويير المبشور لكل طبق للنكهة.",
-        "اختر مرقاً منزوع الدهن أو قليل الملح وقدّمه مع سلطة خضراء لعشاء خفيف."
-      ]
-    },
-    "it": {
-      "name": "Basler Mehlsuppe (zuppa di farina di Basilea)",
-      "origin": "Svizzera · Basilea",
-      "intro": "La Basler Mehlsuppe è una zuppa scura e saporita che si prepara tostando lentamente la farina nel burro finché diventa marrone intenso, per poi cuocerla con cipolla e brodo di manzo. Il risultato è vellutato, ricco e dal sapore di nocciola, con note tostate. Si serve bollente con Gruyère grattugiato sparso sopra, che si scioglie nella zuppa.",
-      "history": "La zuppa è legata in modo famoso alla Fasnacht di Basilea, il carnevale della città, che si apre con il Morgestraich alle 4 del mattino; dopo, i festaioli si riscaldano con scodelle di Mehlsuppe nei ristoranti di tutta la città vecchia. Le semplici zuppe di farina erano un tempo un piatto quotidiano in molte parti della Svizzera e della Germania meridionale.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "60 g di farina 00",
-          "40 g di burro",
-          "1 cipolla, tritata finemente",
-          "1,2 litri di brodo di manzo",
-          "1 foglia di alloro e un pizzico di noce moscata grattugiata",
-          "60 g di Gruyère, grattugiato",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Tosta la farina in una padella pesante e asciutta a fuoco medio-basso, mescolando continuamente, per 15–20 minuti finché ha il colore della cannella. Lasciala intiepidire.",
-          "Sciogli il burro in una pentola, fai appassire la cipolla per 5 minuti, poi incorpora la farina tostata.",
-          "Aggiungi il brodo poco alla volta sbattendo con la frusta per evitare grumi, unisci l'alloro e fai sobbollire dolcemente per 30–40 minuti, mescolando di tanto in tanto.",
-          "Regola con sale, pepe e noce moscata, togli l'alloro e servi calda con il Gruyère spolverato sopra."
-        ]
-      },
-      "tips": [
-        "Usa metà del burro: la farina tostata dà già un sapore intenso.",
-        "Il formaggio fa salire le calorie in fretta: un cucchiaio di Gruyère grattugiato per scodella basta per il gusto.",
-        "Scegli un brodo di manzo sgrassato o a basso contenuto di sale e servi con un'insalata verde per una cena leggera."
-      ]
-    },
-    "el": {
-      "name": "Μπάζλερ Μέλζουπε (αλευρόσουπα της Βασιλείας)",
-      "origin": "Ελβετία · Βασιλεία",
-      "intro": "Η Μπάζλερ Μέλζουπε είναι μια σκούρα, αλμυρή σούπα που φτιάχνεται καβουρδίζοντας αργά το αλεύρι σε βούτυρο μέχρι να πάρει βαθύ καφέ χρώμα, και σιγοβράζοντάς το έπειτα με κρεμμύδι και ζωμό βοδινού. Το αποτέλεσμα είναι βελούδινο, πλούσιο, με γεύση που θυμίζει ξηρούς καρπούς και καβουρδισμένο άρωμα. Σερβίρεται καυτή με τριμμένη γραβιέρα Gruyère από πάνω, που λιώνει μέσα στη σούπα.",
-      "history": "Η σούπα συνδέεται στενά με τη Fasnacht της Βασιλείας, το καρναβάλι της πόλης, που ξεκινά με το Morgestraich στις 4 τα ξημερώματα· μετά οι γλεντζέδες ζεσταίνονται με μπολ Μέλζουπε σε εστιατόρια σε όλη την παλιά πόλη. Οι απλές αλευρόσουπες ήταν κάποτε καθημερινό φαγητό σε πολλά μέρη της Ελβετίας και της νότιας Γερμανίας.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "60 γρ. αλεύρι για όλες τις χρήσεις",
-          "40 γρ. βούτυρο",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1,2 λίτρα ζωμός βοδινού",
-          "1 φύλλο δάφνης και μια πρέζα τριμμένο μοσχοκάρυδο",
-          "60 γρ. Gruyère, τριμμένη",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Καβουρδίστε το αλεύρι σε στεγνό, βαρύ τηγάνι σε μέτρια προς χαμηλή φωτιά, ανακατεύοντας συνεχώς, για 15–20 λεπτά μέχρι να πάρει το χρώμα της κανέλας. Αφήστε το να κρυώσει λίγο.",
-          "Λιώστε το βούτυρο σε κατσαρόλα, μαλακώστε το κρεμμύδι για 5 λεπτά και έπειτα ανακατέψτε μέσα το καβουρδισμένο αλεύρι.",
-          "Προσθέστε τον ζωμό λίγο λίγο, χτυπώντας με σύρμα για να μη σβολιάσει, βάλτε τη δάφνη και σιγοβράστε απαλά για 30–40 λεπτά, ανακατεύοντας πού και πού.",
-          "Καρυκεύστε με αλάτι, πιπέρι και μοσχοκάρυδο, αφαιρέστε τη δάφνη και σερβίρετε ζεστή με την Gruyère πασπαλισμένη από πάνω."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε το μισό βούτυρο: το καβουρδισμένο αλεύρι δίνει ήδη βαθιά γεύση.",
-        "Το τυρί ανεβάζει γρήγορα τις θερμίδες — μια κουταλιά τριμμένη Gruyère ανά μπολ αρκεί για τη γεύση.",
-        "Επιλέξτε ζωμό βοδινού χωρίς λιπαρά ή με λίγο αλάτι και σερβίρετε με πράσινη σαλάτα για ένα ελαφρύ βραδινό."
-      ]
-    },
-    "ru": {
-      "name": "Базельский мучной суп",
-      "origin": "Швейцария · Базель",
-      "intro": "Базельский мучной суп — тёмный пикантный суп, который готовят, медленно обжаривая муку в масле до глубокого коричневого цвета, а затем томя её с луком и говяжьим бульоном. Результат гладкий, насыщенный и ореховый, с поджаренным вкусом. Его подают очень горячим с тёртым грюйером, который тает в супе.",
-      "history": "Суп знаменито связан с базельской Фашнахтом — карнавалом города, который открывается Моргештрайхом в 4 часа утра; после этого гуляки согреваются мисками мучного супа в ресторанах старого города. Простые мучные супы когда-то были повседневной едой во многих частях Швейцарии и южной Германии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "60 г пшеничной муки",
-          "40 г сливочного масла",
-          "1 луковица, мелко нарубленная",
-          "1,2 литра говяжьего бульона",
-          "1 лавровый лист и щепотка тёртого мускатного ореха",
-          "60 г грюйера, тёртого",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Обжаривайте муку на сухой тяжёлой сковороде на средне-слабом огне, постоянно помешивая, 15–20 минут до цвета корицы. Дайте слегка остыть.",
-          "Растопите масло в кастрюле, размягчите лук в течение 5 минут, затем вмешайте обжаренную муку.",
-          "Вливайте бульон понемногу, взбивая, чтобы не было комков, добавьте лавровый лист и осторожно томите 30–40 минут, время от времени помешивая.",
-          "Приправьте солью, перцем и мускатным орехом, выньте лавровый лист и подавайте горячим, посыпав грюйером."
-        ]
-      },
-      "tips": [
-        "Используйте половину масла: обжаренная мука уже даёт глубокий вкус.",
-        "Сыр быстро добавляет калорий — столовой ложки тёртого грюйера на миску достаточно для вкуса.",
-        "Выбирайте говяжий бульон с удалённым жиром или с низким содержанием соли и подавайте с зелёным салатом для лёгкого ужина."
-      ],
-      "name_inline": "базельский мучной суп"
-    }
+  "ar": {
+   "name": "حساء الدقيق البازلي (بازلر ميلزوبه)",
+   "origin": "سويسرا · بازل",
+   "intro": "بازلر ميلزوبه حساء داكن مالح يُحضَّر بتحميص الدقيق ببطء حتى يصبح بنياً عميقاً، ثم يُطهى مع الزبدة والبصل ومرق لحم البقر. والنتيجة حساء ناعم غني بنكهة محمّصة تشبه المكسرات. يُقدَّم ساخناً جداً مع جبن الغرويير المبشور على الوجه، فيذوب داخل الحساء.",
+   "history": "يرتبط الحساء ارتباطاً شهيراً بكرنفال بازل «فاسناخت» الذي يُفتتح بموكب «مورغشتريخ» في الرابعة فجراً؛ وبعده يتدفّأ المحتفلون بأطباق الميلزوبه في مطاعم البلدة القديمة. وكانت حساءات الدقيق البسيطة يوماً طعاماً يومياً في أنحاء كثيرة من سويسرا وجنوب ألمانيا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "60 غ دقيق أبيض",
+     "40 غ زبدة",
+     "1 بصلة مفرومة ناعماً",
+     "1.2 لتر مرق لحم بقر",
+     "1 ورقة غار ورشة جوزة طيب مبشورة",
+     "60 غ جبن غرويير مبشور",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "حمّص الدقيق في قدر ثقيل جاف على نار متوسطة إلى هادئة مع التحريك المستمر 15–20 دقيقة حتى يصبح بلون القرفة. اتركه يبرد قليلاً.",
+     "أذب الزبدة في قدر وشوّح البصل 5 دقائق، ثم أضف الدقيق المحمّص.",
+     "أضف المرق تدريجياً مع الخفق لتجنّب التكتل، ثم ورقة الغار، واتركه يغلي بهدوء 30–40 دقيقة مع التحريك من حين لآخر.",
+     "تبّله بالملح والفلفل وجوزة الطيب، وأخرج ورقة الغار، وقدّمه ساخناً مع الغرويير المبشور على الوجه."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية الزبدة: الدقيق المحمّص يمنح نكهة عميقة بالفعل.",
+    "الجبن يرفع السعرات بسرعة، وتكفي ملعقة كبيرة من الغرويير المبشور لكل طبق للنكهة.",
+    "اختر مرقاً منزوع الدهن أو قليل الملح وقدّمه مع سلطة خضراء لعشاء خفيف."
+   ]
+  },
+  "it": {
+   "name": "Basler Mehlsuppe (zuppa di farina di Basilea)",
+   "origin": "Svizzera · Basilea",
+   "intro": "La Basler Mehlsuppe è una zuppa scura e saporita che si prepara tostando lentamente la farina nel burro finché diventa marrone intenso, per poi cuocerla con cipolla e brodo di manzo. Il risultato è vellutato, ricco e dal sapore di nocciola, con note tostate. Si serve bollente con Gruyère grattugiato sparso sopra, che si scioglie nella zuppa.",
+   "history": "La zuppa è legata in modo famoso alla Fasnacht di Basilea, il carnevale della città, che si apre con il Morgestraich alle 4 del mattino; dopo, i festaioli si riscaldano con scodelle di Mehlsuppe nei ristoranti di tutta la città vecchia. Le semplici zuppe di farina erano un tempo un piatto quotidiano in molte parti della Svizzera e della Germania meridionale.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "60 g di farina 00",
+     "40 g di burro",
+     "1 cipolla, tritata finemente",
+     "1,2 litri di brodo di manzo",
+     "1 foglia di alloro e un pizzico di noce moscata grattugiata",
+     "60 g di Gruyère, grattugiato",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Tosta la farina in una padella pesante e asciutta a fuoco medio-basso, mescolando continuamente, per 15–20 minuti finché ha il colore della cannella. Lasciala intiepidire.",
+     "Sciogli il burro in una pentola, fai appassire la cipolla per 5 minuti, poi incorpora la farina tostata.",
+     "Aggiungi il brodo poco alla volta sbattendo con la frusta per evitare grumi, unisci l'alloro e fai sobbollire dolcemente per 30–40 minuti, mescolando di tanto in tanto.",
+     "Regola con sale, pepe e noce moscata, togli l'alloro e servi calda con il Gruyère spolverato sopra."
+    ]
+   },
+   "tips": [
+    "Usa metà del burro: la farina tostata dà già un sapore intenso.",
+    "Il formaggio fa salire le calorie in fretta: un cucchiaio di Gruyère grattugiato per scodella basta per il gusto.",
+    "Scegli un brodo di manzo sgrassato o a basso contenuto di sale e servi con un'insalata verde per una cena leggera."
+   ]
+  },
+  "el": {
+   "name": "Μπάζλερ Μέλζουπε (αλευρόσουπα της Βασιλείας)",
+   "origin": "Ελβετία · Βασιλεία",
+   "intro": "Η Μπάζλερ Μέλζουπε είναι μια σκούρα, αλμυρή σούπα που φτιάχνεται καβουρδίζοντας αργά το αλεύρι σε βούτυρο μέχρι να πάρει βαθύ καφέ χρώμα, και σιγοβράζοντάς το έπειτα με κρεμμύδι και ζωμό βοδινού. Το αποτέλεσμα είναι βελούδινο, πλούσιο, με γεύση που θυμίζει ξηρούς καρπούς και καβουρδισμένο άρωμα. Σερβίρεται καυτή με τριμμένη γραβιέρα Gruyère από πάνω, που λιώνει μέσα στη σούπα.",
+   "history": "Η σούπα συνδέεται στενά με τη Fasnacht της Βασιλείας, το καρναβάλι της πόλης, που ξεκινά με το Morgestraich στις 4 τα ξημερώματα· μετά οι γλεντζέδες ζεσταίνονται με μπολ Μέλζουπε σε εστιατόρια σε όλη την παλιά πόλη. Οι απλές αλευρόσουπες ήταν κάποτε καθημερινό φαγητό σε πολλά μέρη της Ελβετίας και της νότιας Γερμανίας.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "60 γρ. αλεύρι για όλες τις χρήσεις",
+     "40 γρ. βούτυρο",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1,2 λίτρα ζωμός βοδινού",
+     "1 φύλλο δάφνης και μια πρέζα τριμμένο μοσχοκάρυδο",
+     "60 γρ. Gruyère, τριμμένη",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Καβουρδίστε το αλεύρι σε στεγνό, βαρύ τηγάνι σε μέτρια προς χαμηλή φωτιά, ανακατεύοντας συνεχώς, για 15–20 λεπτά μέχρι να πάρει το χρώμα της κανέλας. Αφήστε το να κρυώσει λίγο.",
+     "Λιώστε το βούτυρο σε κατσαρόλα, μαλακώστε το κρεμμύδι για 5 λεπτά και έπειτα ανακατέψτε μέσα το καβουρδισμένο αλεύρι.",
+     "Προσθέστε τον ζωμό λίγο λίγο, χτυπώντας με σύρμα για να μη σβολιάσει, βάλτε τη δάφνη και σιγοβράστε απαλά για 30–40 λεπτά, ανακατεύοντας πού και πού.",
+     "Καρυκεύστε με αλάτι, πιπέρι και μοσχοκάρυδο, αφαιρέστε τη δάφνη και σερβίρετε ζεστή με την Gruyère πασπαλισμένη από πάνω."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε το μισό βούτυρο: το καβουρδισμένο αλεύρι δίνει ήδη βαθιά γεύση.",
+    "Το τυρί ανεβάζει γρήγορα τις θερμίδες — μια κουταλιά τριμμένη Gruyère ανά μπολ αρκεί για τη γεύση.",
+    "Επιλέξτε ζωμό βοδινού χωρίς λιπαρά ή με λίγο αλάτι και σερβίρετε με πράσινη σαλάτα για ένα ελαφρύ βραδινό."
+   ]
+  },
+  "ru": {
+   "name": "Базельский мучной суп",
+   "origin": "Швейцария · Базель",
+   "intro": "Базельский мучной суп — тёмный пикантный суп, который готовят, медленно обжаривая муку в масле до глубокого коричневого цвета, а затем томя её с луком и говяжьим бульоном. Результат гладкий, насыщенный и ореховый, с поджаренным вкусом. Его подают очень горячим с тёртым грюйером, который тает в супе.",
+   "history": "Суп знаменито связан с базельской Фашнахтом — карнавалом города, который открывается Моргештрайхом в 4 часа утра; после этого гуляки согреваются мисками мучного супа в ресторанах старого города. Простые мучные супы когда-то были повседневной едой во многих частях Швейцарии и южной Германии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "60 г пшеничной муки",
+     "40 г сливочного масла",
+     "1 луковица, мелко нарубленная",
+     "1,2 литра говяжьего бульона",
+     "1 лавровый лист и щепотка тёртого мускатного ореха",
+     "60 г грюйера, тёртого",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Обжаривайте муку на сухой тяжёлой сковороде на средне-слабом огне, постоянно помешивая, 15–20 минут до цвета корицы. Дайте слегка остыть.",
+     "Растопите масло в кастрюле, размягчите лук в течение 5 минут, затем вмешайте обжаренную муку.",
+     "Вливайте бульон понемногу, взбивая, чтобы не было комков, добавьте лавровый лист и осторожно томите 30–40 минут, время от времени помешивая.",
+     "Приправьте солью, перцем и мускатным орехом, выньте лавровый лист и подавайте горячим, посыпав грюйером."
+    ]
+   },
+   "tips": [
+    "Используйте половину масла: обжаренная мука уже даёт глубокий вкус.",
+    "Сыр быстро добавляет калорий — столовой ложки тёртого грюйера на миску достаточно для вкуса.",
+    "Выбирайте говяжий бульон с удалённым жиром или с низким содержанием соли и подавайте с зелёным салатом для лёгкого ужина."
+   ],
+   "name_inline": "базельский мучной суп"
+  },
+  "es": {
+   "name": "Basler Mehlsuppe (sopa de harina de Basilea)",
+   "origin": "Suiza · Basilea",
+   "intro": "La Basler Mehlsuppe es una sopa oscura y sabrosa que se prepara tostando lentamente harina en mantequilla hasta que adquiere un tono marrón intenso, y cocinándola después con cebolla y caldo de res. El resultado es suave, rico y con aroma a nuez tostada. Se sirve muy caliente con queso gruyer rallado por encima, que se derrite en la sopa.",
+   "history": "La sopa está muy ligada a la Fasnacht de Basilea, el carnaval de la ciudad, que arranca con el Morgestraich a las 4 de la madrugada; después, los participantes entran en calor con platos de Mehlsuppe en los restaurantes del casco antiguo. Las sopas sencillas de harina fueron en su día comida cotidiana en muchas zonas de Suiza y del sur de Alemania.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "60 g de harina de trigo",
+     "40 g de mantequilla",
+     "1 cebolla, picada muy fina",
+     "1,2 l de caldo de res",
+     "1 hoja de laurel y una pizca de nuez moscada rallada",
+     "60 g de queso gruyer, rallado",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Tuesta la harina en una sartén gruesa y seca a fuego medio-bajo, moviendo sin parar, durante 15–20 minutos, hasta que tenga color canela. Deja enfriar un poco.",
+     "Derrite la mantequilla en una olla, sofríe la cebolla 5 minutos e incorpora la harina tostada.",
+     "Agrega el caldo poco a poco, batiendo para evitar grumos, añade el laurel y cocina a fuego suave de 30 a 40 minutos, moviendo de vez en cuando.",
+     "Sazona con sal, pimienta y nuez moscada, retira el laurel y sirve caliente con el gruyer espolvoreado encima."
+    ]
+   },
+   "tips": [
+    "Usa la mitad de la mantequilla: la harina tostada ya aporta mucho sabor.",
+    "El queso suma rápido: una cucharada de gruyer rallado por plato basta para dar sabor.",
+    "Elige un caldo de res desgrasado o bajo en sal y acompaña con una ensalada verde para una cena ligera."
+   ],
+   "name_inline": "la Basler Mehlsuppe"
   }
+ }
 }

@@ -1,156 +1,185 @@
 {
-  "db_key": "pla_pao",
-  "slug": "pla-pao",
-  "emoji": "🐟",
-  "portion_g": 350,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pla_pao",
+ "slug": "pla-pao",
+ "emoji": "🐟",
+ "portion_g": 350,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pla pao (salt-crusted grilled fish)",
+   "origin": "Thailand",
+   "intro": "Pla pao is a whole fish — often tilapia — stuffed with lemongrass and herbs, coated in a thick crust of salt and grilled over charcoal. The salt crust protects the fish so the flesh steams inside, staying moist and lightly smoky; the crust itself is peeled away, not eaten. It is a Thai street-food and night-market favourite, eaten with fresh herbs and dipping sauces.",
+   "history": "Pla pao is often linked to Isan, northeastern Thailand, and is sold today at street stalls and night markets across the country, where the salt-crusted fish are grilled in rows.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 50,
+    "ingredients": [
+     "1 whole tilapia or similar fish (about 800 g), cleaned, scales on",
+     "3 lemongrass stalks, bruised",
+     "A handful of herbs (pandan or kaffir lime leaves, cilantro)",
+     "250 g coarse salt",
+     "2–3 tbsp water"
+    ],
+    "steps": [
+     "Stuff the fish cavity with lemongrass and herbs.",
+     "Mix the salt with a little water to a damp paste and pack it all over the fish.",
+     "Grill over medium charcoal or under a grill for 15–20 minutes per side until the crust is hard and browned.",
+     "Crack and peel off the salt crust and skin and eat the white flesh."
+    ]
+   },
+   "tips": [
+    "The flesh is lean; serve it with fresh vegetables and herbs rather than lots of sticky rice.",
+    "Choose a lime-and-chili dip over sweet sauces.",
+    "Do not eat the salty skin and crust."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pla pao (salt-crusted grilled fish)",
-      "origin": "Thailand",
-      "intro": "Pla pao is a whole fish — often tilapia — stuffed with lemongrass and herbs, coated in a thick crust of salt and grilled over charcoal. The salt crust protects the fish so the flesh steams inside, staying moist and lightly smoky; the crust itself is peeled away, not eaten. It is a Thai street-food and night-market favourite, eaten with fresh herbs and dipping sauces.",
-      "history": "Pla pao is often linked to Isan, northeastern Thailand, and is sold today at street stalls and night markets across the country, where the salt-crusted fish are grilled in rows.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 50,
-        "ingredients": [
-          "1 whole tilapia or similar fish (about 800 g), cleaned, scales on",
-          "3 lemongrass stalks, bruised",
-          "A handful of herbs (pandan or kaffir lime leaves, cilantro)",
-          "250 g coarse salt",
-          "2–3 tbsp water"
-        ],
-        "steps": [
-          "Stuff the fish cavity with lemongrass and herbs.",
-          "Mix the salt with a little water to a damp paste and pack it all over the fish.",
-          "Grill over medium charcoal or under a grill for 15–20 minutes per side until the crust is hard and browned.",
-          "Crack and peel off the salt crust and skin and eat the white flesh."
-        ]
-      },
-      "tips": [
-        "The flesh is lean; serve it with fresh vegetables and herbs rather than lots of sticky rice.",
-        "Choose a lime-and-chili dip over sweet sauces.",
-        "Do not eat the salty skin and crust."
-      ]
-    },
-    "ar": {
-      "name": "سمك مشوي بقشرة الملح (بلا باو)",
-      "origin": "تايلاند",
-      "intro": "بلا باو سمكة كاملة، غالباً البلطي، تُحشى بعشبة الليمون والأعشاب، وتُغلَّف بطبقة سميكة من الملح، ثم تُشوى على الفحم. تحمي قشرة الملح السمكة فينضج لحمها بالبخار من الداخل ويبقى طرياً بنكهة دخانية خفيفة، أما القشرة نفسها فتُزال ولا تؤكل. وهي من أشهر أطعمة الشارع والأسواق الليلية في تايلاند، تؤكل مع الأعشاب الطازجة والصلصات.",
-      "history": "يُربط بلا باو كثيراً بإقليم إيسان في شمال شرق تايلاند، ويُباع اليوم في أكشاك الشارع والأسواق الليلية في أنحاء البلاد حيث تُشوى الأسماك المغلفة بالملح في صفوف.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 50,
-        "ingredients": [
-          "1 سمكة بلطي كاملة أو ما يشبهها (نحو 800 غ) منظفة بقشورها",
-          "3 أعواد عشبة ليمون مدقوقة",
-          "حفنة أعشاب (أوراق باندان أو ورق الليمون الكفيري، كزبرة)",
-          "250 غ ملح خشن",
-          "2–3 ملاعق كبيرة ماء"
-        ],
-        "steps": [
-          "احشُ جوف السمكة بعشبة الليمون والأعشاب.",
-          "اخلط الملح بقليل من الماء حتى يصبح عجينة رطبة وغطِّ بها السمكة بالكامل.",
-          "اشوها على فحم متوسط الحرارة أو تحت الشواية 15–20 دقيقة لكل جانب حتى تتصلب القشرة وتتحمر.",
-          "اكسر قشرة الملح وأزلها مع الجلد وكُل اللحم الأبيض."
-        ]
-      },
-      "tips": [
-        "لحم السمك قليل الدهون، فقدّمه مع الخضار والأعشاب الطازجة بدل كمية كبيرة من الأرز اللزج.",
-        "اختر صلصة الليمون والفلفل الحار بدل الصلصات الحلوة.",
-        "لا تأكل الجلد والقشرة المالحين."
-      ]
-    },
-    "it": {
-      "name": "Pla pao (pesce alla griglia in crosta di sale)",
-      "name_inline": "pla pao",
-      "origin": "Thailandia",
-      "intro": "Il pla pao è un pesce intero — spesso tilapia — farcito con citronella ed erbe, ricoperto da una spessa crosta di sale e cotto alla brace. La crosta di sale protegge il pesce, così la polpa cuoce a vapore all'interno restando umida e leggermente affumicata; la crosta si toglie e non si mangia. È uno dei preferiti del cibo di strada e dei mercati notturni thailandesi, mangiato con erbe fresche e salse in cui intingere.",
-      "history": "Il pla pao è spesso collegato all'Isan, la Thailandia nord-orientale, e oggi si vende nelle bancarelle di strada e nei mercati notturni di tutto il paese, dove i pesci in crosta di sale vengono grigliati in fila.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 50,
-        "ingredients": [
-          "1 tilapia intera o pesce simile (circa 800 g), pulita, con le squame",
-          "3 gambi di citronella, schiacciati",
-          "Una manciata di erbe (foglie di pandan o di lime kaffir, coriandolo)",
-          "250 g di sale grosso",
-          "2–3 cucchiai di acqua"
-        ],
-        "steps": [
-          "Farcisci la cavità del pesce con citronella ed erbe.",
-          "Mescola il sale con un po' d'acqua fino a ottenere una pasta umida e ricoprine tutto il pesce.",
-          "Cuoci su brace media o sotto il grill per 15–20 minuti per lato, finché la crosta è dura e dorata.",
-          "Rompi e togli la crosta di sale e la pelle e mangia la polpa bianca."
-        ]
-      },
-      "tips": [
-        "La polpa è magra; servila con verdure fresche ed erbe anziché con tanto riso glutinoso.",
-        "Scegli una salsa al lime e peperoncino invece di salse dolci.",
-        "Non mangiare la pelle salata né la crosta."
-      ]
-    },
-    "el": {
-      "name": "Πλα πάο (ψητό ψάρι σε κρούστα αλατιού)",
-      "name_inline": "πλα πάο",
-      "origin": "Ταϊλάνδη",
-      "intro": "Το πλα πάο είναι ένα ολόκληρο ψάρι — συχνά τιλάπια — γεμισμένο με λεμονόχορτο και μυρωδικά, καλυμμένο με παχιά κρούστα αλατιού και ψημένο στα κάρβουνα. Η κρούστα αλατιού προστατεύει το ψάρι, ώστε η σάρκα να ψήνεται στον ατμό από μέσα και να μένει ζουμερή και ελαφρώς καπνιστή· η κρούστα αφαιρείται και δεν τρώγεται. Είναι αγαπημένο φαγητό του δρόμου και των νυχτερινών αγορών της Ταϊλάνδης και τρώγεται με φρέσκα μυρωδικά και σάλτσες για βούτημα.",
-      "history": "Το πλα πάο συχνά συνδέεται με το Ισάν, τη βορειοανατολική Ταϊλάνδη, και σήμερα πωλείται σε πάγκους του δρόμου και νυχτερινές αγορές σε όλη τη χώρα, όπου τα ψάρια σε κρούστα αλατιού ψήνονται στη σειρά.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 50,
-        "ingredients": [
-          "1 ολόκληρη τιλάπια ή παρόμοιο ψάρι (περίπου 800 γρ.), καθαρισμένο, με τα λέπια",
-          "3 κοτσάνια λεμονόχορτο, χτυπημένα",
-          "Μια χούφτα μυρωδικά (φύλλα πάνταν ή καφίρ λάιμ, κόλιαντρο)",
-          "250 γρ. χοντρό αλάτι",
-          "2–3 κ.σ. νερό"
-        ],
-        "steps": [
-          "Γεμίστε την κοιλιά του ψαριού με λεμονόχορτο και μυρωδικά.",
-          "Ανακατέψτε το αλάτι με λίγο νερό ώστε να γίνει νωπή πάστα και καλύψτε με αυτήν όλο το ψάρι.",
-          "Ψήστε σε μέτρια κάρβουνα ή στο γκριλ για 15–20 λεπτά από κάθε πλευρά, μέχρι η κρούστα να σκληρύνει και να ροδίσει.",
-          "Σπάστε και αφαιρέστε την κρούστα αλατιού και την πέτσα και φάτε τη λευκή σάρκα."
-        ]
-      },
-      "tips": [
-        "Η σάρκα είναι άπαχη· σερβίρετέ τη με φρέσκα λαχανικά και μυρωδικά αντί για πολύ κολλώδες ρύζι.",
-        "Προτιμήστε ντιπ με λάιμ και καυτερή πιπεριά αντί για γλυκές σάλτσες.",
-        "Μην τρώτε την αλμυρή πέτσα και την κρούστα."
-      ]
-    },
-    "ru": {
-      "name": "Пла пао (рыба на гриле в соляной корке)",
-      "origin": "Таиланд",
-      "intro": "Пла пао — целая рыба, часто тилапия, фаршированная лемонграссом и травами, покрытая толстой соляной коркой и запечённая на углях. Соляная корка защищает рыбу, так что мякоть готовится на пару внутри, оставаясь сочной и с лёгким дымком; саму корку снимают и не едят. Это любимое тайское уличное блюдо и фаворит ночных рынков, его едят со свежей зеленью и соусами для макания.",
-      "history": "Пла пао часто связывают с Исааном, северо-востоком Таиланда; сегодня её продают в уличных лавках и на ночных рынках по всей стране, где рыбу в соляной корке жарят рядами.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 50,
-        "ingredients": [
-          "1 целая тилапия или похожая рыба (около 800 г), выпотрошенная, с чешуёй",
-          "3 стебля лемонграсса, слегка помятых",
-          "Горсть трав (листья пандана или каффир-лайма, кинза)",
-          "250 г крупной соли",
-          "2–3 ст. л. воды"
-        ],
-        "steps": [
-          "Нафаршируйте брюшко рыбы лемонграссом и травами.",
-          "Смешайте соль с небольшим количеством воды до влажной пасты и плотно обмажьте ею всю рыбу.",
-          "Жарьте над углями средней жары или под грилем по 15–20 минут с каждой стороны, пока корка не затвердеет и не подрумянится.",
-          "Разбейте и снимите соляную корку вместе с кожей и ешьте белую мякоть."
-        ]
-      },
-      "tips": [
-        "Мякоть нежирная; подавайте её со свежими овощами и зеленью, а не с большим количеством клейкого риса.",
-        "Выбирайте соус из лайма и чили вместо сладких соусов.",
-        "Не ешьте солёную кожу и корку."
-      ]
-    }
+  "ar": {
+   "name": "سمك مشوي بقشرة الملح (بلا باو)",
+   "origin": "تايلاند",
+   "intro": "بلا باو سمكة كاملة، غالباً البلطي، تُحشى بعشبة الليمون والأعشاب، وتُغلَّف بطبقة سميكة من الملح، ثم تُشوى على الفحم. تحمي قشرة الملح السمكة فينضج لحمها بالبخار من الداخل ويبقى طرياً بنكهة دخانية خفيفة، أما القشرة نفسها فتُزال ولا تؤكل. وهي من أشهر أطعمة الشارع والأسواق الليلية في تايلاند، تؤكل مع الأعشاب الطازجة والصلصات.",
+   "history": "يُربط بلا باو كثيراً بإقليم إيسان في شمال شرق تايلاند، ويُباع اليوم في أكشاك الشارع والأسواق الليلية في أنحاء البلاد حيث تُشوى الأسماك المغلفة بالملح في صفوف.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 50,
+    "ingredients": [
+     "1 سمكة بلطي كاملة أو ما يشبهها (نحو 800 غ) منظفة بقشورها",
+     "3 أعواد عشبة ليمون مدقوقة",
+     "حفنة أعشاب (أوراق باندان أو ورق الليمون الكفيري، كزبرة)",
+     "250 غ ملح خشن",
+     "2–3 ملاعق كبيرة ماء"
+    ],
+    "steps": [
+     "احشُ جوف السمكة بعشبة الليمون والأعشاب.",
+     "اخلط الملح بقليل من الماء حتى يصبح عجينة رطبة وغطِّ بها السمكة بالكامل.",
+     "اشوها على فحم متوسط الحرارة أو تحت الشواية 15–20 دقيقة لكل جانب حتى تتصلب القشرة وتتحمر.",
+     "اكسر قشرة الملح وأزلها مع الجلد وكُل اللحم الأبيض."
+    ]
+   },
+   "tips": [
+    "لحم السمك قليل الدهون، فقدّمه مع الخضار والأعشاب الطازجة بدل كمية كبيرة من الأرز اللزج.",
+    "اختر صلصة الليمون والفلفل الحار بدل الصلصات الحلوة.",
+    "لا تأكل الجلد والقشرة المالحين."
+   ]
+  },
+  "it": {
+   "name": "Pla pao (pesce alla griglia in crosta di sale)",
+   "name_inline": "pla pao",
+   "origin": "Thailandia",
+   "intro": "Il pla pao è un pesce intero — spesso tilapia — farcito con citronella ed erbe, ricoperto da una spessa crosta di sale e cotto alla brace. La crosta di sale protegge il pesce, così la polpa cuoce a vapore all'interno restando umida e leggermente affumicata; la crosta si toglie e non si mangia. È uno dei preferiti del cibo di strada e dei mercati notturni thailandesi, mangiato con erbe fresche e salse in cui intingere.",
+   "history": "Il pla pao è spesso collegato all'Isan, la Thailandia nord-orientale, e oggi si vende nelle bancarelle di strada e nei mercati notturni di tutto il paese, dove i pesci in crosta di sale vengono grigliati in fila.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 50,
+    "ingredients": [
+     "1 tilapia intera o pesce simile (circa 800 g), pulita, con le squame",
+     "3 gambi di citronella, schiacciati",
+     "Una manciata di erbe (foglie di pandan o di lime kaffir, coriandolo)",
+     "250 g di sale grosso",
+     "2–3 cucchiai di acqua"
+    ],
+    "steps": [
+     "Farcisci la cavità del pesce con citronella ed erbe.",
+     "Mescola il sale con un po' d'acqua fino a ottenere una pasta umida e ricoprine tutto il pesce.",
+     "Cuoci su brace media o sotto il grill per 15–20 minuti per lato, finché la crosta è dura e dorata.",
+     "Rompi e togli la crosta di sale e la pelle e mangia la polpa bianca."
+    ]
+   },
+   "tips": [
+    "La polpa è magra; servila con verdure fresche ed erbe anziché con tanto riso glutinoso.",
+    "Scegli una salsa al lime e peperoncino invece di salse dolci.",
+    "Non mangiare la pelle salata né la crosta."
+   ]
+  },
+  "el": {
+   "name": "Πλα πάο (ψητό ψάρι σε κρούστα αλατιού)",
+   "name_inline": "πλα πάο",
+   "origin": "Ταϊλάνδη",
+   "intro": "Το πλα πάο είναι ένα ολόκληρο ψάρι — συχνά τιλάπια — γεμισμένο με λεμονόχορτο και μυρωδικά, καλυμμένο με παχιά κρούστα αλατιού και ψημένο στα κάρβουνα. Η κρούστα αλατιού προστατεύει το ψάρι, ώστε η σάρκα να ψήνεται στον ατμό από μέσα και να μένει ζουμερή και ελαφρώς καπνιστή· η κρούστα αφαιρείται και δεν τρώγεται. Είναι αγαπημένο φαγητό του δρόμου και των νυχτερινών αγορών της Ταϊλάνδης και τρώγεται με φρέσκα μυρωδικά και σάλτσες για βούτημα.",
+   "history": "Το πλα πάο συχνά συνδέεται με το Ισάν, τη βορειοανατολική Ταϊλάνδη, και σήμερα πωλείται σε πάγκους του δρόμου και νυχτερινές αγορές σε όλη τη χώρα, όπου τα ψάρια σε κρούστα αλατιού ψήνονται στη σειρά.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 50,
+    "ingredients": [
+     "1 ολόκληρη τιλάπια ή παρόμοιο ψάρι (περίπου 800 γρ.), καθαρισμένο, με τα λέπια",
+     "3 κοτσάνια λεμονόχορτο, χτυπημένα",
+     "Μια χούφτα μυρωδικά (φύλλα πάνταν ή καφίρ λάιμ, κόλιαντρο)",
+     "250 γρ. χοντρό αλάτι",
+     "2–3 κ.σ. νερό"
+    ],
+    "steps": [
+     "Γεμίστε την κοιλιά του ψαριού με λεμονόχορτο και μυρωδικά.",
+     "Ανακατέψτε το αλάτι με λίγο νερό ώστε να γίνει νωπή πάστα και καλύψτε με αυτήν όλο το ψάρι.",
+     "Ψήστε σε μέτρια κάρβουνα ή στο γκριλ για 15–20 λεπτά από κάθε πλευρά, μέχρι η κρούστα να σκληρύνει και να ροδίσει.",
+     "Σπάστε και αφαιρέστε την κρούστα αλατιού και την πέτσα και φάτε τη λευκή σάρκα."
+    ]
+   },
+   "tips": [
+    "Η σάρκα είναι άπαχη· σερβίρετέ τη με φρέσκα λαχανικά και μυρωδικά αντί για πολύ κολλώδες ρύζι.",
+    "Προτιμήστε ντιπ με λάιμ και καυτερή πιπεριά αντί για γλυκές σάλτσες.",
+    "Μην τρώτε την αλμυρή πέτσα και την κρούστα."
+   ]
+  },
+  "ru": {
+   "name": "Пла пао (рыба на гриле в соляной корке)",
+   "origin": "Таиланд",
+   "intro": "Пла пао — целая рыба, часто тилапия, фаршированная лемонграссом и травами, покрытая толстой соляной коркой и запечённая на углях. Соляная корка защищает рыбу, так что мякоть готовится на пару внутри, оставаясь сочной и с лёгким дымком; саму корку снимают и не едят. Это любимое тайское уличное блюдо и фаворит ночных рынков, его едят со свежей зеленью и соусами для макания.",
+   "history": "Пла пао часто связывают с Исааном, северо-востоком Таиланда; сегодня её продают в уличных лавках и на ночных рынках по всей стране, где рыбу в соляной корке жарят рядами.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 50,
+    "ingredients": [
+     "1 целая тилапия или похожая рыба (около 800 г), выпотрошенная, с чешуёй",
+     "3 стебля лемонграсса, слегка помятых",
+     "Горсть трав (листья пандана или каффир-лайма, кинза)",
+     "250 г крупной соли",
+     "2–3 ст. л. воды"
+    ],
+    "steps": [
+     "Нафаршируйте брюшко рыбы лемонграссом и травами.",
+     "Смешайте соль с небольшим количеством воды до влажной пасты и плотно обмажьте ею всю рыбу.",
+     "Жарьте над углями средней жары или под грилем по 15–20 минут с каждой стороны, пока корка не затвердеет и не подрумянится.",
+     "Разбейте и снимите соляную корку вместе с кожей и ешьте белую мякоть."
+    ]
+   },
+   "tips": [
+    "Мякоть нежирная; подавайте её со свежими овощами и зеленью, а не с большим количеством клейкого риса.",
+    "Выбирайте соус из лайма и чили вместо сладких соусов.",
+    "Не ешьте солёную кожу и корку."
+   ]
+  },
+  "es": {
+   "name": "Pla pao (pescado asado en costra de sal)",
+   "origin": "Tailandia",
+   "intro": "El pla pao es un pescado entero, a menudo tilapia, relleno de hierba limón y hierbas aromáticas, cubierto con una gruesa costra de sal y asado sobre carbón. La costra protege al pescado para que la carne se cocine al vapor por dentro, jugosa y con un ligero sabor ahumado; la costra se retira y no se come. Es un favorito de la comida callejera y de los mercados nocturnos de Tailandia, que se come con hierbas frescas y salsas para mojar.",
+   "history": "El pla pao se asocia con frecuencia con Isan, en el noreste de Tailandia, y hoy se vende en puestos callejeros y mercados nocturnos de todo el país, donde los pescados en costra de sal se asan en hileras.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 50,
+    "ingredients": [
+     "1 tilapia entera o pescado similar (unos 800 g), limpia y con escamas",
+     "3 tallos de hierba limón, machacados",
+     "Un puñado de hierbas (pandan u hojas de lima kaffir, cilantro)",
+     "250 g de sal gruesa",
+     "2 o 3 cda. de agua"
+    ],
+    "steps": [
+     "Rellena la cavidad del pescado con la hierba limón y las hierbas.",
+     "Mezcla la sal con un poco de agua hasta formar una pasta húmeda y cubre todo el pescado.",
+     "Asa sobre carbón medio o bajo el grill de 15 a 20 minutos por lado, hasta que la costra esté dura y dorada.",
+     "Rompe la costra de sal, retírala junto con la piel y come la carne blanca."
+    ]
+   },
+   "tips": [
+    "La carne es magra; sírvela con verduras frescas y hierbas en lugar de mucho arroz glutinoso.",
+    "Elige una salsa de limón y chile en lugar de salsas dulces.",
+    "No comas la piel ni la costra, que son muy saladas."
+   ],
+   "name_inline": "el pla pao"
   }
+ }
 }

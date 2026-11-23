@@ -1,160 +1,190 @@
 {
-  "db_key": "foie_gras_poele",
-  "slug": "foie-gras-poele",
-  "emoji": "🦆",
-  "portion_g": 100,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "foie_gras_poele",
+ "slug": "foie-gras-poele",
+ "emoji": "🦆",
+ "portion_g": 100,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pan-Seared Foie Gras",
+   "origin": "France · Southwest",
+   "intro": "Foie gras poêlé is a thick slice of fattened duck or goose liver seared quickly in a very hot dry pan until crusted outside and meltingly soft within. It is classically served on toasted brioche with a spoon of fig jam to cut the richness and a few flakes of fleur de sel. It appears as a festive starter in French restaurants, especially around Christmas.",
+   "history": "Fattening birds for their liver dates back to ancient Egypt, but foie gras is most closely linked today with southwest France, notably the Landes and Périgord, where seared slices are a popular restaurant starter.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "4 slices foie gras (about 60 g each), 2 cm thick",
+     "4 slices brioche",
+     "4 tsp fig jam",
+     "Fleur de sel",
+     "Freshly ground black pepper"
+    ],
+    "steps": [
+     "Chill the foie gras slices well and score them lightly in a criss-cross pattern.",
+     "Toast the brioche slices until golden.",
+     "Heat a dry frying pan until very hot and sear the foie gras for 40–60 seconds per side.",
+     "Drain on paper towel; season with fleur de sel and pepper.",
+     "Place each slice on brioche and add a spoon of fig jam beside it."
+    ]
+   },
+   "tips": [
+    "Serve a 40 g slice instead of 60 g — it is extremely rich.",
+    "Skip the brioche and serve the foie gras over sliced fresh figs or apple.",
+    "Use half the jam, or replace it with fresh fruit."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pan-Seared Foie Gras",
-      "origin": "France · Southwest",
-      "intro": "Foie gras poêlé is a thick slice of fattened duck or goose liver seared quickly in a very hot dry pan until crusted outside and meltingly soft within. It is classically served on toasted brioche with a spoon of fig jam to cut the richness and a few flakes of fleur de sel. It appears as a festive starter in French restaurants, especially around Christmas.",
-      "history": "Fattening birds for their liver dates back to ancient Egypt, but foie gras is most closely linked today with southwest France, notably the Landes and Périgord, where seared slices are a popular restaurant starter.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "4 slices foie gras (about 60 g each), 2 cm thick",
-          "4 slices brioche",
-          "4 tsp fig jam",
-          "Fleur de sel",
-          "Freshly ground black pepper"
-        ],
-        "steps": [
-          "Chill the foie gras slices well and score them lightly in a criss-cross pattern.",
-          "Toast the brioche slices until golden.",
-          "Heat a dry frying pan until very hot and sear the foie gras for 40–60 seconds per side.",
-          "Drain on paper towel; season with fleur de sel and pepper.",
-          "Place each slice on brioche and add a spoon of fig jam beside it."
-        ]
-      },
-      "tips": [
-        "Serve a 40 g slice instead of 60 g — it is extremely rich.",
-        "Skip the brioche and serve the foie gras over sliced fresh figs or apple.",
-        "Use half the jam, or replace it with fresh fruit."
-      ]
-    },
-    "ar": {
-      "name": "فوا غرا مشوّح",
-      "origin": "فرنسا · الجنوب الغربي",
-      "intro": "فوا غرا بوليه شريحة سميكة من كبد البط أو الإوز المسمّن تُشوّح سريعًا في مقلاة جافة شديدة الحرارة حتى تتكوّن قشرة من الخارج ويبقى الداخل ذائبًا طريًا. يُقدَّم تقليديًا على خبز بريوش محمّص مع ملعقة من مربى التين لموازنة غناه ورقائق من ملح «فلور دو سيل». يظهر كمقبّلات احتفالية في المطاعم الفرنسية، خاصة في موسم الأعياد.",
-      "history": "يعود تسمين الطيور من أجل أكبادها إلى مصر القديمة، لكن الفوا غرا يرتبط اليوم أكثر ما يرتبط بجنوب غرب فرنسا، ولا سيما منطقتي لاند وبيريغور، حيث تُعدّ شرائحه المشوّحة من المقبّلات الشائعة في المطاعم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "4 شرائح فوا غرا (نحو 60 غ لكل منها) بسماكة 2 سم",
-          "4 شرائح بريوش",
-          "4 ملاعق صغيرة مربى تين",
-          "ملح فلور دو سيل",
-          "فلفل أسود مطحون طازجًا"
-        ],
-        "steps": [
-          "برّد شرائح الفوا غرا جيدًا واحفر سطحها بخطوط متقاطعة خفيفة.",
-          "حمّص شرائح البريوش حتى تصبح ذهبية.",
-          "سخّن مقلاة جافة حتى تصبح شديدة الحرارة واطهُ الفوا غرا 40–60 ثانية لكل جانب.",
-          "صفّها على ورق مطبخ وتبّلها بالملح والفلفل.",
-          "ضع كل شريحة على البريوش وأضف بجانبها ملعقة من مربى التين."
-        ]
-      },
-      "tips": [
-        "قدّم شريحة وزنها 40 غ بدلًا من 60 غ، فهو غني جدًا.",
-        "استغنِ عن البريوش وقدّم الفوا غرا على شرائح تين طازج أو تفاح.",
-        "استخدم نصف كمية المربى أو استبدلها بفاكهة طازجة."
-      ]
-    },
-    "it": {
-      "name": "Foie gras in padella",
-      "origin": "Francia · Sud-ovest",
-      "intro": "Il foie gras poêlé è una fetta spessa di fegato grasso d'anatra o d'oca scottata rapidamente in una padella asciutta e rovente, finché non è crostosa fuori e fondente dentro. Classicamente si serve su pan brioche tostato con un cucchiaio di confettura di fichi per smorzarne la ricchezza e qualche fiocco di fleur de sel. Compare come antipasto delle feste nei ristoranti francesi, soprattutto a Natale.",
-      "history": "L'ingrasso degli uccelli per il loro fegato risale all'antico Egitto, ma oggi il foie gras è legato soprattutto al sud-ovest della Francia, in particolare alle Landes e al Périgord, dove le fette scottate in padella sono un antipasto molto amato al ristorante.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "4 fette di foie gras (circa 60 g ciascuna), spesse 2 cm",
-          "4 fette di pan brioche",
-          "4 cucchiaini di confettura di fichi",
-          "Fleur de sel",
-          "Pepe nero macinato al momento"
-        ],
-        "steps": [
-          "Raffredda bene le fette di foie gras e incidile leggermente a griglia.",
-          "Tosta le fette di brioche finché non sono dorate.",
-          "Scalda una padella asciutta finché non è rovente e scotta il foie gras per 40–60 secondi per lato.",
-          "Scola su carta da cucina; condisci con fleur de sel e pepe.",
-          "Adagia ogni fetta sulla brioche e aggiungi accanto un cucchiaio di confettura di fichi."
-        ]
-      },
-      "tips": [
-        "Servi una fetta da 40 g invece che da 60 g: è estremamente ricco.",
-        "Elimina la brioche e servi il foie gras su fichi freschi o mela a fette.",
-        "Usa metà confettura, oppure sostituiscila con frutta fresca."
-      ]
-    },
-    "el": {
-      "name": "Φουά γκρα τηγανιού",
-      "origin": "Γαλλία · Νοτιοδυτικά",
-      "intro": "Το foie gras poêlé είναι μια χοντρή φέτα από παχυσμένο συκώτι πάπιας ή χήνας, που σοτάρεται γρήγορα σε πολύ καυτό στεγνό τηγάνι ώστε να αποκτήσει κρούστα απ' έξω και να μείνει λιωμένο μέσα. Κλασικά σερβίρεται πάνω σε φρυγανισμένο μπριός με μια κουταλιά μαρμελάδα σύκο, που ισορροπεί τη βαριά γεύση, και λίγες νιφάδες fleur de sel. Εμφανίζεται ως γιορτινό ορεκτικό στα γαλλικά εστιατόρια, ιδίως γύρω από τα Χριστούγεννα.",
-      "history": "Η πάχυνση πτηνών για το συκώτι τους χρονολογείται από την αρχαία Αίγυπτο, όμως σήμερα το φουά γκρα συνδέεται κυρίως με τη νοτιοδυτική Γαλλία, ιδίως τις Λάντ και το Περιγκόρ, όπου οι σοταρισμένες φέτες είναι δημοφιλές ορεκτικό στα εστιατόρια.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "4 φέτες φουά γκρα (περίπου 60 γρ. η καθεμία), πάχους 2 εκ.",
-          "4 φέτες μπριός",
-          "4 κ.γ. μαρμελάδα σύκο",
-          "Fleur de sel",
-          "Φρεσκοτριμμένο μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Κρυώστε καλά τις φέτες φουά γκρα και χαράξτε τες ελαφρά σταυρωτά.",
-          "Φρυγανίστε τις φέτες μπριός μέχρι να ροδίσουν.",
-          "Ζεστάνετε ένα στεγνό τηγάνι μέχρι να κάψει καλά και σοτάρετε το φουά γκρα 40–60 δευτερόλεπτα από κάθε πλευρά.",
-          "Στραγγίξτε σε χαρτί κουζίνας· αλατίστε με fleur de sel και πιπερώστε.",
-          "Βάλτε κάθε φέτα πάνω σε μπριός και προσθέστε δίπλα μια κουταλιά μαρμελάδα σύκο."
-        ]
-      },
-      "tips": [
-        "Σερβίρετε φέτα 40 γρ. αντί για 60 γρ. — είναι εξαιρετικά πλούσιο.",
-        "Παραλείψτε το μπριός και σερβίρετε το φουά γκρα πάνω σε φέτες φρέσκου σύκου ή μήλου.",
-        "Χρησιμοποιήστε τη μισή μαρμελάδα ή αντικαταστήστε τη με φρέσκα φρούτα."
-      ]
-    },
-    "ru": {
-      "name": "Фуа-гра, обжаренное на сковороде",
-      "origin": "Франция · Юго-Запад",
-      "intro": "Foie gras poêlé — толстый ломоть печени откормленной утки или гуся, быстро обжаренный на очень горячей сухой сковороде до корочки снаружи и нежной мягкости внутри. Классически его подают на поджаренной бриоши с ложкой инжирного джема, смягчающего насыщенность, и несколькими хлопьями флёр-де-селя. Это праздничная закуска во французских ресторанах, особенно на Рождество.",
-      "history": "Откорм птиц ради печени восходит к Древнему Египту, но сегодня фуа-гра теснее всего связано с юго-западом Франции, прежде всего с Ландами и Перигором, где обжаренные ломти — популярная ресторанная закуска.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "4 ломтя фуа-гра (около 60 г каждый), толщиной 2 см",
-          "4 ломтя бриоши",
-          "4 ч. л. инжирного джема",
-          "Флёр-де-сель",
-          "Свежемолотый чёрный перец"
-        ],
-        "steps": [
-          "Хорошо охладите ломти фуа-гра и слегка надрежьте их крест-накрест.",
-          "Поджарьте ломти бриоши до золотистого цвета.",
-          "Разогрейте сухую сковороду до очень горячего состояния и обжаривайте фуа-гра по 40–60 секунд с каждой стороны.",
-          "Обсушите на бумажном полотенце; приправьте флёр-де-селем и перцем.",
-          "Выложите каждый ломоть на бриошь и добавьте рядом ложку инжирного джема."
-        ]
-      },
-      "tips": [
-        "Подавайте ломоть в 40 г вместо 60 г — оно очень жирное.",
-        "Откажитесь от бриоши и подавайте фуа-гра на ломтиках свежего инжира или яблока.",
-        "Возьмите вдвое меньше джема или замените его свежими фруктами."
-      ],
-      "name_inline": "фуа-гра, обжаренное на сковороде"
-    }
+  "ar": {
+   "name": "فوا غرا مشوّح",
+   "origin": "فرنسا · الجنوب الغربي",
+   "intro": "فوا غرا بوليه شريحة سميكة من كبد البط أو الإوز المسمّن تُشوّح سريعًا في مقلاة جافة شديدة الحرارة حتى تتكوّن قشرة من الخارج ويبقى الداخل ذائبًا طريًا. يُقدَّم تقليديًا على خبز بريوش محمّص مع ملعقة من مربى التين لموازنة غناه ورقائق من ملح «فلور دو سيل». يظهر كمقبّلات احتفالية في المطاعم الفرنسية، خاصة في موسم الأعياد.",
+   "history": "يعود تسمين الطيور من أجل أكبادها إلى مصر القديمة، لكن الفوا غرا يرتبط اليوم أكثر ما يرتبط بجنوب غرب فرنسا، ولا سيما منطقتي لاند وبيريغور، حيث تُعدّ شرائحه المشوّحة من المقبّلات الشائعة في المطاعم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "4 شرائح فوا غرا (نحو 60 غ لكل منها) بسماكة 2 سم",
+     "4 شرائح بريوش",
+     "4 ملاعق صغيرة مربى تين",
+     "ملح فلور دو سيل",
+     "فلفل أسود مطحون طازجًا"
+    ],
+    "steps": [
+     "برّد شرائح الفوا غرا جيدًا واحفر سطحها بخطوط متقاطعة خفيفة.",
+     "حمّص شرائح البريوش حتى تصبح ذهبية.",
+     "سخّن مقلاة جافة حتى تصبح شديدة الحرارة واطهُ الفوا غرا 40–60 ثانية لكل جانب.",
+     "صفّها على ورق مطبخ وتبّلها بالملح والفلفل.",
+     "ضع كل شريحة على البريوش وأضف بجانبها ملعقة من مربى التين."
+    ]
+   },
+   "tips": [
+    "قدّم شريحة وزنها 40 غ بدلًا من 60 غ، فهو غني جدًا.",
+    "استغنِ عن البريوش وقدّم الفوا غرا على شرائح تين طازج أو تفاح.",
+    "استخدم نصف كمية المربى أو استبدلها بفاكهة طازجة."
+   ]
+  },
+  "it": {
+   "name": "Foie gras in padella",
+   "origin": "Francia · Sud-ovest",
+   "intro": "Il foie gras poêlé è una fetta spessa di fegato grasso d'anatra o d'oca scottata rapidamente in una padella asciutta e rovente, finché non è crostosa fuori e fondente dentro. Classicamente si serve su pan brioche tostato con un cucchiaio di confettura di fichi per smorzarne la ricchezza e qualche fiocco di fleur de sel. Compare come antipasto delle feste nei ristoranti francesi, soprattutto a Natale.",
+   "history": "L'ingrasso degli uccelli per il loro fegato risale all'antico Egitto, ma oggi il foie gras è legato soprattutto al sud-ovest della Francia, in particolare alle Landes e al Périgord, dove le fette scottate in padella sono un antipasto molto amato al ristorante.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "4 fette di foie gras (circa 60 g ciascuna), spesse 2 cm",
+     "4 fette di pan brioche",
+     "4 cucchiaini di confettura di fichi",
+     "Fleur de sel",
+     "Pepe nero macinato al momento"
+    ],
+    "steps": [
+     "Raffredda bene le fette di foie gras e incidile leggermente a griglia.",
+     "Tosta le fette di brioche finché non sono dorate.",
+     "Scalda una padella asciutta finché non è rovente e scotta il foie gras per 40–60 secondi per lato.",
+     "Scola su carta da cucina; condisci con fleur de sel e pepe.",
+     "Adagia ogni fetta sulla brioche e aggiungi accanto un cucchiaio di confettura di fichi."
+    ]
+   },
+   "tips": [
+    "Servi una fetta da 40 g invece che da 60 g: è estremamente ricco.",
+    "Elimina la brioche e servi il foie gras su fichi freschi o mela a fette.",
+    "Usa metà confettura, oppure sostituiscila con frutta fresca."
+   ]
+  },
+  "el": {
+   "name": "Φουά γκρα τηγανιού",
+   "origin": "Γαλλία · Νοτιοδυτικά",
+   "intro": "Το foie gras poêlé είναι μια χοντρή φέτα από παχυσμένο συκώτι πάπιας ή χήνας, που σοτάρεται γρήγορα σε πολύ καυτό στεγνό τηγάνι ώστε να αποκτήσει κρούστα απ' έξω και να μείνει λιωμένο μέσα. Κλασικά σερβίρεται πάνω σε φρυγανισμένο μπριός με μια κουταλιά μαρμελάδα σύκο, που ισορροπεί τη βαριά γεύση, και λίγες νιφάδες fleur de sel. Εμφανίζεται ως γιορτινό ορεκτικό στα γαλλικά εστιατόρια, ιδίως γύρω από τα Χριστούγεννα.",
+   "history": "Η πάχυνση πτηνών για το συκώτι τους χρονολογείται από την αρχαία Αίγυπτο, όμως σήμερα το φουά γκρα συνδέεται κυρίως με τη νοτιοδυτική Γαλλία, ιδίως τις Λάντ και το Περιγκόρ, όπου οι σοταρισμένες φέτες είναι δημοφιλές ορεκτικό στα εστιατόρια.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "4 φέτες φουά γκρα (περίπου 60 γρ. η καθεμία), πάχους 2 εκ.",
+     "4 φέτες μπριός",
+     "4 κ.γ. μαρμελάδα σύκο",
+     "Fleur de sel",
+     "Φρεσκοτριμμένο μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Κρυώστε καλά τις φέτες φουά γκρα και χαράξτε τες ελαφρά σταυρωτά.",
+     "Φρυγανίστε τις φέτες μπριός μέχρι να ροδίσουν.",
+     "Ζεστάνετε ένα στεγνό τηγάνι μέχρι να κάψει καλά και σοτάρετε το φουά γκρα 40–60 δευτερόλεπτα από κάθε πλευρά.",
+     "Στραγγίξτε σε χαρτί κουζίνας· αλατίστε με fleur de sel και πιπερώστε.",
+     "Βάλτε κάθε φέτα πάνω σε μπριός και προσθέστε δίπλα μια κουταλιά μαρμελάδα σύκο."
+    ]
+   },
+   "tips": [
+    "Σερβίρετε φέτα 40 γρ. αντί για 60 γρ. — είναι εξαιρετικά πλούσιο.",
+    "Παραλείψτε το μπριός και σερβίρετε το φουά γκρα πάνω σε φέτες φρέσκου σύκου ή μήλου.",
+    "Χρησιμοποιήστε τη μισή μαρμελάδα ή αντικαταστήστε τη με φρέσκα φρούτα."
+   ]
+  },
+  "ru": {
+   "name": "Фуа-гра, обжаренное на сковороде",
+   "origin": "Франция · Юго-Запад",
+   "intro": "Foie gras poêlé — толстый ломоть печени откормленной утки или гуся, быстро обжаренный на очень горячей сухой сковороде до корочки снаружи и нежной мягкости внутри. Классически его подают на поджаренной бриоши с ложкой инжирного джема, смягчающего насыщенность, и несколькими хлопьями флёр-де-селя. Это праздничная закуска во французских ресторанах, особенно на Рождество.",
+   "history": "Откорм птиц ради печени восходит к Древнему Египту, но сегодня фуа-гра теснее всего связано с юго-западом Франции, прежде всего с Ландами и Перигором, где обжаренные ломти — популярная ресторанная закуска.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "4 ломтя фуа-гра (около 60 г каждый), толщиной 2 см",
+     "4 ломтя бриоши",
+     "4 ч. л. инжирного джема",
+     "Флёр-де-сель",
+     "Свежемолотый чёрный перец"
+    ],
+    "steps": [
+     "Хорошо охладите ломти фуа-гра и слегка надрежьте их крест-накрест.",
+     "Поджарьте ломти бриоши до золотистого цвета.",
+     "Разогрейте сухую сковороду до очень горячего состояния и обжаривайте фуа-гра по 40–60 секунд с каждой стороны.",
+     "Обсушите на бумажном полотенце; приправьте флёр-де-селем и перцем.",
+     "Выложите каждый ломоть на бриошь и добавьте рядом ложку инжирного джема."
+    ]
+   },
+   "tips": [
+    "Подавайте ломоть в 40 г вместо 60 г — оно очень жирное.",
+    "Откажитесь от бриоши и подавайте фуа-гра на ломтиках свежего инжира или яблока.",
+    "Возьмите вдвое меньше джема или замените его свежими фруктами."
+   ],
+   "name_inline": "фуа-гра, обжаренное на сковороде"
+  },
+  "es": {
+   "name": "Foie gras a la plancha (foie gras poêlé)",
+   "origin": "Francia · Suroeste",
+   "intro": "El foie gras poêlé es una gruesa rebanada de hígado de pato o de ganso engordado, sellada rápidamente en una sartén seca muy caliente hasta quedar con costra por fuera y fundente por dentro. Se sirve de forma clásica sobre brioche tostado, con una cucharada de mermelada de higo para equilibrar la riqueza y unas hojuelas de flor de sal. Es una entrada festiva de los restaurantes franceses, sobre todo en Navidad.",
+   "history": "Engordar aves para obtener su hígado se remonta al antiguo Egipto, pero hoy el foie gras se asocia sobre todo con el suroeste de Francia, en particular las Landas y el Périgord, donde las rebanadas selladas son una entrada muy popular en los restaurantes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "4 rebanadas de foie gras (unos 60 g cada una), de 2 cm de grosor",
+     "4 rebanadas de brioche",
+     "4 cdta. de mermelada de higo",
+     "Flor de sal",
+     "Pimienta negra recién molida"
+    ],
+    "steps": [
+     "Enfría bien las rebanadas de foie gras y márcalas ligeramente en forma de rejilla.",
+     "Tuesta las rebanadas de brioche hasta que estén doradas.",
+     "Calienta una sartén seca hasta que esté muy caliente y sella el foie gras de 40 a 60 segundos por lado.",
+     "Escurre sobre papel de cocina; sazona con flor de sal y pimienta.",
+     "Coloca cada rebanada sobre un brioche y añade una cucharada de mermelada de higo al lado."
+    ]
+   },
+   "tips": [
+    "Sirve una rebanada de 40 g en lugar de 60 g: es muy rico.",
+    "Omite el brioche y sirve el foie gras sobre rodajas de higo fresco o manzana.",
+    "Usa la mitad de la mermelada o sustitúyela por fruta fresca."
+   ],
+   "name_inline": "el foie gras poêlé"
   }
+ }
 }

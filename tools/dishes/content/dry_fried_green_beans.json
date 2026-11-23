@@ -1,172 +1,204 @@
 {
-  "db_key": "dry_fried_green_beans",
-  "slug": "dry-fried-green-beans",
-  "emoji": "🫘",
-  "portion_g": 200,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dry_fried_green_beans",
+ "slug": "dry-fried-green-beans",
+ "emoji": "🫘",
+ "portion_g": 200,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Dry-fried green beans",
+   "origin": "China · Sichuan",
+   "intro": "Dry-fried green beans are a Sichuan classic in which whole green beans are fried until their skins blister and wrinkle, then tossed with savoury ground pork, garlic, dried chili and chopped preserved vegetable. The beans are tender inside and slightly chewy outside, with a deep, salty and spicy flavour. They are served as a side dish with rice.",
+   "history": "Gan bian si ji dou, or dry-fried green beans, comes from Sichuan cuisine, where 'dry-frying' means cooking ingredients in a little oil until their moisture evaporates and they shrivel. The preserved vegetable is traditionally Sichuan ya cai. The dish is now a standard on Sichuan restaurant menus worldwide.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "450 g green beans, trimmed",
+     "120 g ground pork",
+     "3 garlic cloves, minced",
+     "4 dried chilies, cut",
+     "2 tbsp preserved vegetable (ya cai), chopped",
+     "2 tbsp vegetable oil",
+     "Salt"
+    ],
+    "steps": [
+     "Dry the beans thoroughly.",
+     "Fry them in the oil over medium-high heat, turning, for 8–10 minutes until blistered and wrinkled, then remove.",
+     "In the same pan fry the pork until browned and crumbly.",
+     "Add garlic, chili and preserved vegetable and stir-fry 1 minute.",
+     "Return the beans, toss for 1–2 minutes and season with salt."
+    ]
+   },
+   "tips": [
+    "Use lean ground pork or halve the amount to cut the fat.",
+    "Blister the beans in a hot dry pan or under the grill with 1 tsp oil instead of shallow-frying.",
+    "Add more beans and less pork to keep the plate large and the calories low."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Dry-fried green beans",
-      "origin": "China · Sichuan",
-      "intro": "Dry-fried green beans are a Sichuan classic in which whole green beans are fried until their skins blister and wrinkle, then tossed with savoury ground pork, garlic, dried chili and chopped preserved vegetable. The beans are tender inside and slightly chewy outside, with a deep, salty and spicy flavour. They are served as a side dish with rice.",
-      "history": "Gan bian si ji dou, or dry-fried green beans, comes from Sichuan cuisine, where 'dry-frying' means cooking ingredients in a little oil until their moisture evaporates and they shrivel. The preserved vegetable is traditionally Sichuan ya cai. The dish is now a standard on Sichuan restaurant menus worldwide.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "450 g green beans, trimmed",
-          "120 g ground pork",
-          "3 garlic cloves, minced",
-          "4 dried chilies, cut",
-          "2 tbsp preserved vegetable (ya cai), chopped",
-          "2 tbsp vegetable oil",
-          "Salt"
-        ],
-        "steps": [
-          "Dry the beans thoroughly.",
-          "Fry them in the oil over medium-high heat, turning, for 8–10 minutes until blistered and wrinkled, then remove.",
-          "In the same pan fry the pork until browned and crumbly.",
-          "Add garlic, chili and preserved vegetable and stir-fry 1 minute.",
-          "Return the beans, toss for 1–2 minutes and season with salt."
-        ]
-      },
-      "tips": [
-        "Use lean ground pork or halve the amount to cut the fat.",
-        "Blister the beans in a hot dry pan or under the grill with 1 tsp oil instead of shallow-frying.",
-        "Add more beans and less pork to keep the plate large and the calories low."
-      ]
-    },
-    "ar": {
-      "name": "فاصوليا خضراء مقلية على الطريقة السيتشوانية",
-      "origin": "الصين · سيتشوان",
-      "intro": "الفاصوليا الخضراء المقلية «جافًا» طبق سيتشواني كلاسيكي، تُقلى فيه حبات الفاصوليا كاملة حتى تتجعد قشرتها وتظهر عليها الفقاعات، ثم تُقلّب مع لحم الخنزير المفروم والثوم والفلفل الحار المجفف والخضار المخللة المفرومة. تبقى الفاصوليا طرية من الداخل ومطاطية قليلًا من الخارج بطعم مالح حار عميق، وتُقدَّم طبقًا جانبيًا مع الأرز.",
-      "history": "يأتي هذا الطبق من مطبخ سيتشوان، حيث يعني «القلي الجاف» طهي المكونات بقليل من الزيت حتى يتبخر ماؤها وتنكمش. الخضار المخللة فيه تقليديًا هي «يا تساي» السيتشوانية، وأصبح الطبق اليوم من الثوابت في قوائم المطاعم السيتشوانية حول العالم.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "450 غ فاصوليا خضراء منظفة",
-          "120 غ لحم خنزير مفروم",
-          "3 فصوص ثوم مفرومة",
-          "4 حبات فلفل حار مجفف مقطّعة",
-          "2 ملعقة كبيرة خضار مخللة (يا تساي) مفرومة",
-          "2 ملعقة كبيرة زيت نباتي",
-          "ملح"
-        ],
-        "steps": [
-          "جفّف الفاصوليا جيدًا.",
-          "اقلِها في الزيت على نار متوسطة إلى عالية مع التقليب 8–10 دقائق حتى تتجعد ثم ارفعها.",
-          "في المقلاة نفسها حمّر اللحم المفروم حتى يتفتت.",
-          "أضف الثوم والفلفل والخضار المخللة وقلّب دقيقة.",
-          "أعد الفاصوليا وقلّب 1–2 دقيقة وتبّل بالملح."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن أو نصف الكمية لتقليل الدهون.",
-        "حمّص الفاصوليا في مقلاة ساخنة جافة أو تحت الشواية مع ملعقة صغيرة زيت بدل القلي.",
-        "زد الفاصوليا وقلّل اللحم ليبقى الطبق كبيرًا والسعرات منخفضة."
-      ]
-    },
-    "it": {
-      "name": "Fagiolini saltati a secco",
-      "name_inline": "fagiolini saltati a secco",
-      "origin": "Cina · Sichuan",
-      "intro": "I fagiolini saltati a secco sono un classico del Sichuan in cui i fagiolini interi vengono fritti finché la buccia si riempie di bolle e si raggrinzisce, poi saltati con carne di maiale macinata saporita, aglio, peperoncino secco e verdura conservata tritata. I fagiolini sono teneri dentro e leggermente gommosi fuori, con un sapore intenso, salato e piccante. Si servono come contorno con il riso.",
-      "history": "Il gan bian si ji dou, cioè i fagiolini saltati a secco, viene dalla cucina del Sichuan, dove «friggere a secco» significa cuocere gli ingredienti in poco olio finché l'umidità evapora e si raggrinziscono. La verdura conservata è tradizionalmente lo ya cai del Sichuan. Oggi il piatto è un classico dei menu dei ristoranti sichuanesi in tutto il mondo.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "450 g di fagiolini, spuntati",
-          "120 g di carne di maiale macinata",
-          "3 spicchi d'aglio, tritati",
-          "4 peperoncini secchi, tagliati",
-          "2 cucchiai di verdura conservata (ya cai), tritata",
-          "2 cucchiai di olio vegetale",
-          "Sale"
-        ],
-        "steps": [
-          "Asciuga bene i fagiolini.",
-          "Friggili nell'olio a fuoco medio-alto, girandoli, per 8–10 minuti finché sono pieni di bolle e raggrinziti, poi toglili.",
-          "Nella stessa padella rosola il maiale finché è dorato e sgranato.",
-          "Aggiungi aglio, peperoncino e verdura conservata e salta per 1 minuto.",
-          "Rimetti i fagiolini, salta per 1–2 minuti e regola di sale."
-        ]
-      },
-      "tips": [
-        "Usa maiale macinato magro o dimezzane la quantità per ridurre i grassi.",
-        "Fai abbrustolire i fagiolini in una padella asciutta rovente o sotto il grill con 1 cucchiaino di olio invece di friggerli.",
-        "Aggiungi più fagiolini e meno maiale per un piatto abbondante e con poche calorie."
-      ]
-    },
-    "el": {
-      "name": "Ξηροτηγανισμένα φασολάκια",
-      "name_inline": "ξηροτηγανισμένα φασολάκια",
-      "origin": "Κίνα · Σετσουάν",
-      "intro": "Τα ξηροτηγανισμένα φασολάκια είναι κλασικό πιάτο του Σετσουάν, όπου ολόκληρα πράσινα φασολάκια τηγανίζονται μέχρι η φλούδα τους να φουσκαλιάσει και να ζαρώσει, και μετά ανακατεύονται με νόστιμο χοιρινό κιμά, σκόρδο, ξερές καυτερές πιπεριές και ψιλοκομμένο συντηρημένο λαχανικό. Τα φασολάκια είναι τρυφερά μέσα και ελαφρώς μαστιχωτά απέξω, με βαθιά, αλμυρή και καυτερή γεύση. Σερβίρονται ως συνοδευτικό με ρύζι.",
-      "history": "Το γκαν μπιάν σι τζι ντου, δηλαδή ξηροτηγανισμένα φασολάκια, προέρχεται από την κουζίνα του Σετσουάν, όπου «ξηρό τηγάνισμα» σημαίνει μαγείρεμα των υλικών σε λίγο λάδι μέχρι να εξατμιστεί η υγρασία τους και να ζαρώσουν. Το συντηρημένο λαχανικό είναι παραδοσιακά το για τσάι του Σετσουάν. Σήμερα το πιάτο είναι σταθερό στα μενού των εστιατορίων του Σετσουάν σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "450 γρ. πράσινα φασολάκια, καθαρισμένα",
-          "120 γρ. χοιρινός κιμάς",
-          "3 σκελίδες σκόρδο, ψιλοκομμένες",
-          "4 ξερές καυτερές πιπεριές, κομμένες",
-          "2 κ.σ. συντηρημένο λαχανικό (για τσάι), ψιλοκομμένο",
-          "2 κ.σ. φυτικό λάδι",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Στεγνώστε πολύ καλά τα φασολάκια.",
-          "Τηγανίστε τα στο λάδι σε μέτρια προς δυνατή φωτιά, γυρίζοντάς τα, για 8–10 λεπτά μέχρι να φουσκαλιάσουν και να ζαρώσουν, και βγάλτε τα.",
-          "Στο ίδιο τηγάνι σοτάρετε τον κιμά μέχρι να ροδίσει και να γίνει σπυρωτός.",
-          "Προσθέστε το σκόρδο, τις καυτερές πιπεριές και το συντηρημένο λαχανικό και σοτάρετε 1 λεπτό.",
-          "Επιστρέψτε τα φασολάκια, ανακατέψτε για 1–2 λεπτά και αλατίστε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή τη μισή ποσότητα για να μειώσετε το λίπος.",
-        "Καψαλίστε τα φασολάκια σε καυτό στεγνό τηγάνι ή στο γκριλ με 1 κ.γ. λάδι αντί να τα τηγανίσετε.",
-        "Βάλτε περισσότερα φασολάκια και λιγότερο χοιρινό για μεγάλο πιάτο με λίγες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Стручковая фасоль, жаренная всухую",
-      "origin": "Китай · Сычуань",
-      "intro": "Стручковая фасоль, жаренная всухую, — сычуаньская классика: целые стручки обжаривают до появления пузырьков и морщин на кожице, затем перемешивают с пикантным свиным фаршем, чесноком, сушёным чили и нарубленными консервированными овощами. Фасоль нежная внутри и слегка упругая снаружи, с глубоким солёным и острым вкусом. Её подают как гарнир к рису.",
-      "history": "Гань бянь сы цзи доу, или стручковая фасоль, жаренная всухую, происходит из сычуаньской кухни, где «жарка всухую» означает приготовление продуктов в небольшом количестве масла, пока влага не испарится и они не сморщатся. Консервированные овощи — традиционно сычуаньский я цай. Сегодня блюдо — стандарт в меню сычуаньских ресторанов по всему миру.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 25,
-        "ingredients": [
-          "450 г стручковой фасоли, обрезанной",
-          "120 г свиного фарша",
-          "3 зубчика чеснока, измельчённых",
-          "4 сушёных перца чили, нарезанных",
-          "2 ст. л. консервированных овощей (я цай), нарубленных",
-          "2 ст. л. растительного масла",
-          "Соль"
-        ],
-        "steps": [
-          "Тщательно обсушите фасоль.",
-          "Жарьте её в масле на средне-сильном огне, переворачивая, 8–10 минут до пузырьков и морщинок, затем выньте.",
-          "На той же сковороде обжарьте свинину до румяности и рассыпчатости.",
-          "Добавьте чеснок, чили и консервированные овощи и обжаривайте 1 минуту.",
-          "Верните фасоль, перемешивайте 1–2 минуты и приправьте солью."
-        ]
-      },
-      "tips": [
-        "Берите постный свиной фарш или уменьшите его количество вдвое, чтобы снизить жирность.",
-        "Обжарьте фасоль на горячей сухой сковороде или под грилем с 1 ч. л. масла вместо жарки в масле.",
-        "Добавьте больше фасоли и меньше свинины, чтобы тарелка оставалась большой, а калорий было меньше."
-      ],
-      "name_inline": "стручковая фасоль, жаренная всухую"
-    }
+  "ar": {
+   "name": "فاصوليا خضراء مقلية على الطريقة السيتشوانية",
+   "origin": "الصين · سيتشوان",
+   "intro": "الفاصوليا الخضراء المقلية «جافًا» طبق سيتشواني كلاسيكي، تُقلى فيه حبات الفاصوليا كاملة حتى تتجعد قشرتها وتظهر عليها الفقاعات، ثم تُقلّب مع لحم الخنزير المفروم والثوم والفلفل الحار المجفف والخضار المخللة المفرومة. تبقى الفاصوليا طرية من الداخل ومطاطية قليلًا من الخارج بطعم مالح حار عميق، وتُقدَّم طبقًا جانبيًا مع الأرز.",
+   "history": "يأتي هذا الطبق من مطبخ سيتشوان، حيث يعني «القلي الجاف» طهي المكونات بقليل من الزيت حتى يتبخر ماؤها وتنكمش. الخضار المخللة فيه تقليديًا هي «يا تساي» السيتشوانية، وأصبح الطبق اليوم من الثوابت في قوائم المطاعم السيتشوانية حول العالم.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "450 غ فاصوليا خضراء منظفة",
+     "120 غ لحم خنزير مفروم",
+     "3 فصوص ثوم مفرومة",
+     "4 حبات فلفل حار مجفف مقطّعة",
+     "2 ملعقة كبيرة خضار مخللة (يا تساي) مفرومة",
+     "2 ملعقة كبيرة زيت نباتي",
+     "ملح"
+    ],
+    "steps": [
+     "جفّف الفاصوليا جيدًا.",
+     "اقلِها في الزيت على نار متوسطة إلى عالية مع التقليب 8–10 دقائق حتى تتجعد ثم ارفعها.",
+     "في المقلاة نفسها حمّر اللحم المفروم حتى يتفتت.",
+     "أضف الثوم والفلفل والخضار المخللة وقلّب دقيقة.",
+     "أعد الفاصوليا وقلّب 1–2 دقيقة وتبّل بالملح."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن أو نصف الكمية لتقليل الدهون.",
+    "حمّص الفاصوليا في مقلاة ساخنة جافة أو تحت الشواية مع ملعقة صغيرة زيت بدل القلي.",
+    "زد الفاصوليا وقلّل اللحم ليبقى الطبق كبيرًا والسعرات منخفضة."
+   ]
+  },
+  "it": {
+   "name": "Fagiolini saltati a secco",
+   "name_inline": "fagiolini saltati a secco",
+   "origin": "Cina · Sichuan",
+   "intro": "I fagiolini saltati a secco sono un classico del Sichuan in cui i fagiolini interi vengono fritti finché la buccia si riempie di bolle e si raggrinzisce, poi saltati con carne di maiale macinata saporita, aglio, peperoncino secco e verdura conservata tritata. I fagiolini sono teneri dentro e leggermente gommosi fuori, con un sapore intenso, salato e piccante. Si servono come contorno con il riso.",
+   "history": "Il gan bian si ji dou, cioè i fagiolini saltati a secco, viene dalla cucina del Sichuan, dove «friggere a secco» significa cuocere gli ingredienti in poco olio finché l'umidità evapora e si raggrinziscono. La verdura conservata è tradizionalmente lo ya cai del Sichuan. Oggi il piatto è un classico dei menu dei ristoranti sichuanesi in tutto il mondo.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "450 g di fagiolini, spuntati",
+     "120 g di carne di maiale macinata",
+     "3 spicchi d'aglio, tritati",
+     "4 peperoncini secchi, tagliati",
+     "2 cucchiai di verdura conservata (ya cai), tritata",
+     "2 cucchiai di olio vegetale",
+     "Sale"
+    ],
+    "steps": [
+     "Asciuga bene i fagiolini.",
+     "Friggili nell'olio a fuoco medio-alto, girandoli, per 8–10 minuti finché sono pieni di bolle e raggrinziti, poi toglili.",
+     "Nella stessa padella rosola il maiale finché è dorato e sgranato.",
+     "Aggiungi aglio, peperoncino e verdura conservata e salta per 1 minuto.",
+     "Rimetti i fagiolini, salta per 1–2 minuti e regola di sale."
+    ]
+   },
+   "tips": [
+    "Usa maiale macinato magro o dimezzane la quantità per ridurre i grassi.",
+    "Fai abbrustolire i fagiolini in una padella asciutta rovente o sotto il grill con 1 cucchiaino di olio invece di friggerli.",
+    "Aggiungi più fagiolini e meno maiale per un piatto abbondante e con poche calorie."
+   ]
+  },
+  "el": {
+   "name": "Ξηροτηγανισμένα φασολάκια",
+   "name_inline": "ξηροτηγανισμένα φασολάκια",
+   "origin": "Κίνα · Σετσουάν",
+   "intro": "Τα ξηροτηγανισμένα φασολάκια είναι κλασικό πιάτο του Σετσουάν, όπου ολόκληρα πράσινα φασολάκια τηγανίζονται μέχρι η φλούδα τους να φουσκαλιάσει και να ζαρώσει, και μετά ανακατεύονται με νόστιμο χοιρινό κιμά, σκόρδο, ξερές καυτερές πιπεριές και ψιλοκομμένο συντηρημένο λαχανικό. Τα φασολάκια είναι τρυφερά μέσα και ελαφρώς μαστιχωτά απέξω, με βαθιά, αλμυρή και καυτερή γεύση. Σερβίρονται ως συνοδευτικό με ρύζι.",
+   "history": "Το γκαν μπιάν σι τζι ντου, δηλαδή ξηροτηγανισμένα φασολάκια, προέρχεται από την κουζίνα του Σετσουάν, όπου «ξηρό τηγάνισμα» σημαίνει μαγείρεμα των υλικών σε λίγο λάδι μέχρι να εξατμιστεί η υγρασία τους και να ζαρώσουν. Το συντηρημένο λαχανικό είναι παραδοσιακά το για τσάι του Σετσουάν. Σήμερα το πιάτο είναι σταθερό στα μενού των εστιατορίων του Σετσουάν σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "450 γρ. πράσινα φασολάκια, καθαρισμένα",
+     "120 γρ. χοιρινός κιμάς",
+     "3 σκελίδες σκόρδο, ψιλοκομμένες",
+     "4 ξερές καυτερές πιπεριές, κομμένες",
+     "2 κ.σ. συντηρημένο λαχανικό (για τσάι), ψιλοκομμένο",
+     "2 κ.σ. φυτικό λάδι",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Στεγνώστε πολύ καλά τα φασολάκια.",
+     "Τηγανίστε τα στο λάδι σε μέτρια προς δυνατή φωτιά, γυρίζοντάς τα, για 8–10 λεπτά μέχρι να φουσκαλιάσουν και να ζαρώσουν, και βγάλτε τα.",
+     "Στο ίδιο τηγάνι σοτάρετε τον κιμά μέχρι να ροδίσει και να γίνει σπυρωτός.",
+     "Προσθέστε το σκόρδο, τις καυτερές πιπεριές και το συντηρημένο λαχανικό και σοτάρετε 1 λεπτό.",
+     "Επιστρέψτε τα φασολάκια, ανακατέψτε για 1–2 λεπτά και αλατίστε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή τη μισή ποσότητα για να μειώσετε το λίπος.",
+    "Καψαλίστε τα φασολάκια σε καυτό στεγνό τηγάνι ή στο γκριλ με 1 κ.γ. λάδι αντί να τα τηγανίσετε.",
+    "Βάλτε περισσότερα φασολάκια και λιγότερο χοιρινό για μεγάλο πιάτο με λίγες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Стручковая фасоль, жаренная всухую",
+   "origin": "Китай · Сычуань",
+   "intro": "Стручковая фасоль, жаренная всухую, — сычуаньская классика: целые стручки обжаривают до появления пузырьков и морщин на кожице, затем перемешивают с пикантным свиным фаршем, чесноком, сушёным чили и нарубленными консервированными овощами. Фасоль нежная внутри и слегка упругая снаружи, с глубоким солёным и острым вкусом. Её подают как гарнир к рису.",
+   "history": "Гань бянь сы цзи доу, или стручковая фасоль, жаренная всухую, происходит из сычуаньской кухни, где «жарка всухую» означает приготовление продуктов в небольшом количестве масла, пока влага не испарится и они не сморщатся. Консервированные овощи — традиционно сычуаньский я цай. Сегодня блюдо — стандарт в меню сычуаньских ресторанов по всему миру.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "450 г стручковой фасоли, обрезанной",
+     "120 г свиного фарша",
+     "3 зубчика чеснока, измельчённых",
+     "4 сушёных перца чили, нарезанных",
+     "2 ст. л. консервированных овощей (я цай), нарубленных",
+     "2 ст. л. растительного масла",
+     "Соль"
+    ],
+    "steps": [
+     "Тщательно обсушите фасоль.",
+     "Жарьте её в масле на средне-сильном огне, переворачивая, 8–10 минут до пузырьков и морщинок, затем выньте.",
+     "На той же сковороде обжарьте свинину до румяности и рассыпчатости.",
+     "Добавьте чеснок, чили и консервированные овощи и обжаривайте 1 минуту.",
+     "Верните фасоль, перемешивайте 1–2 минуты и приправьте солью."
+    ]
+   },
+   "tips": [
+    "Берите постный свиной фарш или уменьшите его количество вдвое, чтобы снизить жирность.",
+    "Обжарьте фасоль на горячей сухой сковороде или под грилем с 1 ч. л. масла вместо жарки в масле.",
+    "Добавьте больше фасоли и меньше свинины, чтобы тарелка оставалась большой, а калорий было меньше."
+   ],
+   "name_inline": "стручковая фасоль, жаренная всухую"
+  },
+  "es": {
+   "name": "Ejotes salteados al estilo Sichuan (gan bian si ji dou)",
+   "origin": "China · Sichuan",
+   "intro": "Los ejotes salteados «en seco» son un clásico de Sichuan en el que los ejotes enteros se fríen hasta que la piel se ampolla y se arruga, y luego se mezclan con sabrosa carne de cerdo molida, ajo, chile seco y verdura encurtida picada. Los ejotes quedan tiernos por dentro y un poco chiclosos por fuera, con un sabor profundo, salado y picante. Se sirven como guarnición con arroz.",
+   "history": "El gan bian si ji dou, o ejotes salteados en seco, viene de la cocina de Sichuan, donde «saltear en seco» significa cocinar los ingredientes con poco aceite hasta que se evapora su humedad y se arrugan. La verdura encurtida es tradicionalmente el ya cai de Sichuan. Hoy es un plato habitual en los menús de los restaurantes sichuaneses de todo el mundo.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 25,
+    "ingredients": [
+     "450 g de ejotes, sin las puntas",
+     "120 g de carne de cerdo molida",
+     "3 dientes de ajo, picados",
+     "4 chiles secos, cortados",
+     "2 cda. de verdura encurtida (ya cai), picada",
+     "2 cda. de aceite vegetal",
+     "Sal"
+    ],
+    "steps": [
+     "Seca muy bien los ejotes.",
+     "Fríelos en el aceite a fuego medio-alto, volteándolos, de 8 a 10 minutos hasta que estén ampollados y arrugados; retíralos.",
+     "En la misma sartén fríe el cerdo hasta que se dore y quede desmenuzado.",
+     "Añade el ajo, el chile y la verdura encurtida y saltea 1 minuto.",
+     "Regresa los ejotes, mezcla de 1 a 2 minutos y sazona con sal."
+    ]
+   },
+   "tips": [
+    "Usa cerdo molido magro o reduce la cantidad a la mitad para bajar la grasa.",
+    "Ampolla los ejotes en una sartén caliente sin aceite o bajo el grill con 1 cdta. de aceite, en lugar de freírlos.",
+    "Agrega más ejotes y menos cerdo para que el plato sea grande y de pocas calorías."
+   ],
+   "name_inline": "los ejotes salteados al estilo Sichuan"
   }
+ }
 }

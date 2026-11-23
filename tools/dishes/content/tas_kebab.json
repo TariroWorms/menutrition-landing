@@ -1,180 +1,214 @@
 {
-  "db_key": "tas_kebab",
-  "slug": "tas-kebab",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "TR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tas_kebab",
+ "slug": "tas-kebab",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "TR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tas kebab",
+   "origin": "Turkey · Ottoman cuisine",
+   "intro": "Tas kebab is a Turkish braise of beef cubes slowly cooked with onion, garlic, tomato and green peppers until the meat is fork-tender and the sauce thick and glossy. Potatoes are often added to the pot, making it a complete one-dish meal. Despite the name it is not grilled — 'tas' refers to the bowl it is cooked and served in, usually alongside rice pilaf or bread.",
+   "history": "Tas kebab belongs to the stew tradition of Ottoman palace and home cooking, where 'kebab' covered many meat dishes, not only grilled ones. It remains a standard dish in Turkish home kitchens and esnaf lokantası, the simple tradesmen's restaurants.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "600 g beef, cubed",
+     "2 onions, chopped",
+     "3 garlic cloves",
+     "2 green bell peppers, sliced",
+     "3 tomatoes, grated, and 1 tbsp tomato paste",
+     "3 potatoes, cubed",
+     "2 tbsp oil",
+     "Salt, black pepper, paprika",
+     "400 ml hot water"
+    ],
+    "steps": [
+     "Brown the beef in the oil in a heavy pot.",
+     "Add onion, garlic and peppers and cook until soft.",
+     "Stir in tomato paste, grated tomatoes and spices, then add the hot water.",
+     "Cover and simmer gently for 1–1.5 hours until the beef is tender.",
+     "Add the potatoes for the last 25 minutes and cook until soft."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the beef before browning.",
+    "Serve with a salad instead of rice to keep the meal lighter.",
+    "Measure the oil: 1 tbsp oil ≈ 120 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tas kebab",
-      "origin": "Turkey · Ottoman cuisine",
-      "intro": "Tas kebab is a Turkish braise of beef cubes slowly cooked with onion, garlic, tomato and green peppers until the meat is fork-tender and the sauce thick and glossy. Potatoes are often added to the pot, making it a complete one-dish meal. Despite the name it is not grilled — 'tas' refers to the bowl it is cooked and served in, usually alongside rice pilaf or bread.",
-      "history": "Tas kebab belongs to the stew tradition of Ottoman palace and home cooking, where 'kebab' covered many meat dishes, not only grilled ones. It remains a standard dish in Turkish home kitchens and esnaf lokantası, the simple tradesmen's restaurants.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "600 g beef, cubed",
-          "2 onions, chopped",
-          "3 garlic cloves",
-          "2 green bell peppers, sliced",
-          "3 tomatoes, grated, and 1 tbsp tomato paste",
-          "3 potatoes, cubed",
-          "2 tbsp oil",
-          "Salt, black pepper, paprika",
-          "400 ml hot water"
-        ],
-        "steps": [
-          "Brown the beef in the oil in a heavy pot.",
-          "Add onion, garlic and peppers and cook until soft.",
-          "Stir in tomato paste, grated tomatoes and spices, then add the hot water.",
-          "Cover and simmer gently for 1–1.5 hours until the beef is tender.",
-          "Add the potatoes for the last 25 minutes and cook until soft."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the beef before browning.",
-        "Serve with a salad instead of rice to keep the meal lighter.",
-        "Measure the oil: 1 tbsp oil ≈ 120 kcal."
-      ]
-    },
-    "ar": {
-      "name": "طاس كباب",
-      "origin": "تركيا · المطبخ العثماني",
-      "intro": "طاس كباب طبق تركي من مكعبات لحم البقر المطهوة ببطء مع البصل والثوم والطماطم والفلفل الأخضر حتى يطرى اللحم وتتكثف الصلصة وتلمع. تُضاف البطاطا غالبًا إلى القدر فيصبح وجبة كاملة في قدر واحد. ورغم اسمه فهو ليس مشويًا؛ فكلمة «طاس» تعني الوعاء الذي يُطهى ويُقدَّم فيه، ويؤكل عادة مع الأرز أو الخبز.",
-      "history": "ينتمي طاس كباب إلى تقاليد اليخنات في مطبخ القصر العثماني والبيوت، حيث كانت كلمة «كباب» تشمل أطباق لحم كثيرة لا المشوية فقط. وما زال طبقًا أساسيًا في البيوت التركية وفي مطاعم «إسناف لوكانتاسي» الشعبية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "600 غ لحم بقر مكعبات",
-          "2 بصلة مفرومة",
-          "3 فصوص ثوم",
-          "2 فلفل أخضر رومي شرائح",
-          "3 حبات طماطم مبشورة و1 ملعقة كبيرة معجون طماطم",
-          "3 حبات بطاطا مكعبات",
-          "2 ملعقة كبيرة زيت",
-          "ملح وفلفل أسود وبابريكا",
-          "400 مل ماء ساخن"
-        ],
-        "steps": [
-          "حمّر اللحم في الزيت في قدر ثقيل.",
-          "أضف البصل والثوم والفلفل وقلّب حتى تذبل.",
-          "أضف معجون الطماطم والطماطم المبشورة والبهارات، ثم الماء الساخن.",
-          "غطِّ القدر واتركه على نار هادئة ساعة إلى ساعة ونصف حتى يطرى اللحم.",
-          "أضف البطاطا في آخر 25 دقيقة واطهها حتى تنضج."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر من اللحم قبل التحمير.",
-        "قدّمه مع سلطة بدل الأرز لوجبة أخف.",
-        "قِس الزيت: ملعقة كبيرة زيت ≈ 120 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Tas kebab",
-      "origin": "Turchia · cucina ottomana",
-      "intro": "Il tas kebab è uno stufato turco di cubetti di manzo cotti lentamente con cipolla, aglio, pomodoro e peperoni verdi finché la carne si taglia con la forchetta e il sugo è denso e lucido. Spesso si aggiungono patate nella pentola, rendendolo un piatto unico completo. Nonostante il nome non è grigliato: «tas» si riferisce alla ciotola in cui viene cotto e servito, di solito accompagnato da riso pilaf o pane.",
-      "history": "Il tas kebab appartiene alla tradizione degli stufati della cucina ottomana di palazzo e di casa, in cui «kebab» indicava molti piatti di carne, non solo quelli alla griglia. Resta un piatto abituale nelle cucine domestiche turche e nelle esnaf lokantası, le semplici trattorie per artigiani e lavoratori.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "600 g di manzo, a cubetti",
-          "2 cipolle, tritate",
-          "3 spicchi d'aglio",
-          "2 peperoni verdi, a fette",
-          "3 pomodori, grattugiati, e 1 cucchiaio di concentrato di pomodoro",
-          "3 patate, a cubetti",
-          "2 cucchiai di olio",
-          "Sale, pepe nero, paprika",
-          "400 ml di acqua calda"
-        ],
-        "steps": [
-          "Rosola il manzo nell'olio in una pentola dal fondo spesso.",
-          "Aggiungi cipolla, aglio e peperoni e cuoci finché sono morbidi.",
-          "Incorpora il concentrato, i pomodori grattugiati e le spezie, poi aggiungi l'acqua calda.",
-          "Copri e fai sobbollire dolcemente per 1–1 ora e mezza, finché il manzo è tenero.",
-          "Aggiungi le patate negli ultimi 25 minuti e cuoci finché sono morbide."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dal manzo prima di rosolarlo.",
-        "Servilo con un'insalata invece che con il riso per un pasto più leggero.",
-        "Misura l'olio: 1 cucchiaio di olio ≈ 120 kcal."
-      ]
-    },
-    "el": {
-      "name": "Τας κεμπάπ",
-      "origin": "Τουρκία · οθωμανική κουζίνα",
-      "intro": "Το τας κεμπάπ είναι τουρκικό κοκκινιστό με κύβους μοσχαριού μαγειρεμένους αργά με κρεμμύδι, σκόρδο, ντομάτα και πράσινες πιπεριές, μέχρι το κρέας να κόβεται με το πιρούνι και η σάλτσα να γίνει πηχτή και γυαλιστερή. Συχνά προστίθενται πατάτες στην κατσαρόλα, κάνοντάς το πλήρες φαγητό μιας κατσαρόλας. Παρά το όνομα, δεν ψήνεται στη σχάρα — το «τας» αναφέρεται στο μπολ όπου μαγειρεύεται και σερβίρεται, συνήθως με πιλάφι ή ψωμί.",
-      "history": "Το τας κεμπάπ ανήκει στην παράδοση των μαγειρευτών της οθωμανικής ανακτορικής και σπιτικής κουζίνας, όπου το «κεμπάπ» κάλυπτε πολλά πιάτα κρέατος, όχι μόνο τα ψητά. Παραμένει συνηθισμένο φαγητό στις τουρκικές σπιτικές κουζίνες και στα εσνάφ λοκαντασί, τα απλά μαγειρεία των βιοτεχνών.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "600 γρ. μοσχάρι, σε κύβους",
-          "2 κρεμμύδια, ψιλοκομμένα",
-          "3 σκελίδες σκόρδο",
-          "2 πράσινες πιπεριές, σε φέτες",
-          "3 ντομάτες, τριμμένες, και 1 κ.σ. πελτές ντομάτας",
-          "3 πατάτες, σε κύβους",
-          "2 κ.σ. λάδι",
-          "Αλάτι, μαύρο πιπέρι, πάπρικα",
-          "400 ml ζεστό νερό"
-        ],
-        "steps": [
-          "Σοτάρετε το μοσχάρι στο λάδι σε βαριά κατσαρόλα.",
-          "Προσθέστε κρεμμύδι, σκόρδο και πιπεριές και μαγειρέψτε μέχρι να μαλακώσουν.",
-          "Ανακατέψτε τον πελτέ, τις τριμμένες ντομάτες και τα μπαχαρικά και μετά προσθέστε το ζεστό νερό.",
-          "Σκεπάστε και σιγοβράστε απαλά για 1–1,5 ώρα, μέχρι να μαλακώσει το μοσχάρι.",
-          "Προσθέστε τις πατάτες τα τελευταία 25 λεπτά και μαγειρέψτε μέχρι να μαλακώσουν."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το μοσχάρι πριν το σοτάρισμα.",
-        "Σερβίρετε με σαλάτα αντί για ρύζι για πιο ελαφρύ γεύμα.",
-        "Μετρήστε το λάδι: 1 κ.σ. λάδι ≈ 120 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Тас-кебаб",
-      "origin": "Турция · Османская кухня",
-      "intro": "Тас-кебаб — турецкое тушёное блюдо из кубиков говядины, медленно приготовленных с луком, чесноком, помидорами и зелёным перцем, пока мясо не станет мягким, как вилка, а соус густым и глянцевым. В горшок часто добавляют картофель, и получается цельное блюдо на один горшок. Несмотря на название, его не жарят на гриле — «тас» означает миску, в которой его готовят и подают, обычно с рисовым пловом или хлебом.",
-      "history": "Тас-кебаб относится к традиции тушёных блюд османской дворцовой и домашней кухни, где «кебаб» обозначал множество мясных блюд, а не только жареных на гриле. Он остаётся обычным блюдом турецких домашних кухонь и эснаф локантасы — простых ресторанов для ремесленников.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "600 г говядины, нарезанной кубиками",
-          "2 луковицы, нарезанные",
-          "3 зубчика чеснока",
-          "2 зелёных болгарских перца, нарезанных",
-          "3 помидора, натёртых, и 1 ст. л. томатной пасты",
-          "3 картофелины, нарезанных кубиками",
-          "2 ст. л. масла",
-          "Соль, чёрный перец, паприка",
-          "400 мл горячей воды"
-        ],
-        "steps": [
-          "Обжарьте говядину в масле в тяжёлом горшке.",
-          "Добавьте лук, чеснок и перцы и готовьте до мягкости.",
-          "Вмешайте томатную пасту, натёртые помидоры и специи, затем влейте горячую воду.",
-          "Накройте и томите на слабом огне 1–1,5 часа, пока говядина не станет мягкой.",
-          "Добавьте картофель на последние 25 минут и варите до мягкости."
-        ]
-      },
-      "tips": [
-        "Срежьте с говядины видимый жир перед обжариванием.",
-        "Подавайте с салатом вместо риса, чтобы блюдо было легче.",
-        "Отмеряйте масло: 1 ст. л. масла ≈ 120 ккал."
-      ],
-      "name_inline": "тас-кебаб"
-    }
+  "ar": {
+   "name": "طاس كباب",
+   "origin": "تركيا · المطبخ العثماني",
+   "intro": "طاس كباب طبق تركي من مكعبات لحم البقر المطهوة ببطء مع البصل والثوم والطماطم والفلفل الأخضر حتى يطرى اللحم وتتكثف الصلصة وتلمع. تُضاف البطاطا غالبًا إلى القدر فيصبح وجبة كاملة في قدر واحد. ورغم اسمه فهو ليس مشويًا؛ فكلمة «طاس» تعني الوعاء الذي يُطهى ويُقدَّم فيه، ويؤكل عادة مع الأرز أو الخبز.",
+   "history": "ينتمي طاس كباب إلى تقاليد اليخنات في مطبخ القصر العثماني والبيوت، حيث كانت كلمة «كباب» تشمل أطباق لحم كثيرة لا المشوية فقط. وما زال طبقًا أساسيًا في البيوت التركية وفي مطاعم «إسناف لوكانتاسي» الشعبية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "600 غ لحم بقر مكعبات",
+     "2 بصلة مفرومة",
+     "3 فصوص ثوم",
+     "2 فلفل أخضر رومي شرائح",
+     "3 حبات طماطم مبشورة و1 ملعقة كبيرة معجون طماطم",
+     "3 حبات بطاطا مكعبات",
+     "2 ملعقة كبيرة زيت",
+     "ملح وفلفل أسود وبابريكا",
+     "400 مل ماء ساخن"
+    ],
+    "steps": [
+     "حمّر اللحم في الزيت في قدر ثقيل.",
+     "أضف البصل والثوم والفلفل وقلّب حتى تذبل.",
+     "أضف معجون الطماطم والطماطم المبشورة والبهارات، ثم الماء الساخن.",
+     "غطِّ القدر واتركه على نار هادئة ساعة إلى ساعة ونصف حتى يطرى اللحم.",
+     "أضف البطاطا في آخر 25 دقيقة واطهها حتى تنضج."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر من اللحم قبل التحمير.",
+    "قدّمه مع سلطة بدل الأرز لوجبة أخف.",
+    "قِس الزيت: ملعقة كبيرة زيت ≈ 120 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Tas kebab",
+   "origin": "Turchia · cucina ottomana",
+   "intro": "Il tas kebab è uno stufato turco di cubetti di manzo cotti lentamente con cipolla, aglio, pomodoro e peperoni verdi finché la carne si taglia con la forchetta e il sugo è denso e lucido. Spesso si aggiungono patate nella pentola, rendendolo un piatto unico completo. Nonostante il nome non è grigliato: «tas» si riferisce alla ciotola in cui viene cotto e servito, di solito accompagnato da riso pilaf o pane.",
+   "history": "Il tas kebab appartiene alla tradizione degli stufati della cucina ottomana di palazzo e di casa, in cui «kebab» indicava molti piatti di carne, non solo quelli alla griglia. Resta un piatto abituale nelle cucine domestiche turche e nelle esnaf lokantası, le semplici trattorie per artigiani e lavoratori.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "600 g di manzo, a cubetti",
+     "2 cipolle, tritate",
+     "3 spicchi d'aglio",
+     "2 peperoni verdi, a fette",
+     "3 pomodori, grattugiati, e 1 cucchiaio di concentrato di pomodoro",
+     "3 patate, a cubetti",
+     "2 cucchiai di olio",
+     "Sale, pepe nero, paprika",
+     "400 ml di acqua calda"
+    ],
+    "steps": [
+     "Rosola il manzo nell'olio in una pentola dal fondo spesso.",
+     "Aggiungi cipolla, aglio e peperoni e cuoci finché sono morbidi.",
+     "Incorpora il concentrato, i pomodori grattugiati e le spezie, poi aggiungi l'acqua calda.",
+     "Copri e fai sobbollire dolcemente per 1–1 ora e mezza, finché il manzo è tenero.",
+     "Aggiungi le patate negli ultimi 25 minuti e cuoci finché sono morbide."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dal manzo prima di rosolarlo.",
+    "Servilo con un'insalata invece che con il riso per un pasto più leggero.",
+    "Misura l'olio: 1 cucchiaio di olio ≈ 120 kcal."
+   ]
+  },
+  "el": {
+   "name": "Τας κεμπάπ",
+   "origin": "Τουρκία · οθωμανική κουζίνα",
+   "intro": "Το τας κεμπάπ είναι τουρκικό κοκκινιστό με κύβους μοσχαριού μαγειρεμένους αργά με κρεμμύδι, σκόρδο, ντομάτα και πράσινες πιπεριές, μέχρι το κρέας να κόβεται με το πιρούνι και η σάλτσα να γίνει πηχτή και γυαλιστερή. Συχνά προστίθενται πατάτες στην κατσαρόλα, κάνοντάς το πλήρες φαγητό μιας κατσαρόλας. Παρά το όνομα, δεν ψήνεται στη σχάρα — το «τας» αναφέρεται στο μπολ όπου μαγειρεύεται και σερβίρεται, συνήθως με πιλάφι ή ψωμί.",
+   "history": "Το τας κεμπάπ ανήκει στην παράδοση των μαγειρευτών της οθωμανικής ανακτορικής και σπιτικής κουζίνας, όπου το «κεμπάπ» κάλυπτε πολλά πιάτα κρέατος, όχι μόνο τα ψητά. Παραμένει συνηθισμένο φαγητό στις τουρκικές σπιτικές κουζίνες και στα εσνάφ λοκαντασί, τα απλά μαγειρεία των βιοτεχνών.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "600 γρ. μοσχάρι, σε κύβους",
+     "2 κρεμμύδια, ψιλοκομμένα",
+     "3 σκελίδες σκόρδο",
+     "2 πράσινες πιπεριές, σε φέτες",
+     "3 ντομάτες, τριμμένες, και 1 κ.σ. πελτές ντομάτας",
+     "3 πατάτες, σε κύβους",
+     "2 κ.σ. λάδι",
+     "Αλάτι, μαύρο πιπέρι, πάπρικα",
+     "400 ml ζεστό νερό"
+    ],
+    "steps": [
+     "Σοτάρετε το μοσχάρι στο λάδι σε βαριά κατσαρόλα.",
+     "Προσθέστε κρεμμύδι, σκόρδο και πιπεριές και μαγειρέψτε μέχρι να μαλακώσουν.",
+     "Ανακατέψτε τον πελτέ, τις τριμμένες ντομάτες και τα μπαχαρικά και μετά προσθέστε το ζεστό νερό.",
+     "Σκεπάστε και σιγοβράστε απαλά για 1–1,5 ώρα, μέχρι να μαλακώσει το μοσχάρι.",
+     "Προσθέστε τις πατάτες τα τελευταία 25 λεπτά και μαγειρέψτε μέχρι να μαλακώσουν."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το μοσχάρι πριν το σοτάρισμα.",
+    "Σερβίρετε με σαλάτα αντί για ρύζι για πιο ελαφρύ γεύμα.",
+    "Μετρήστε το λάδι: 1 κ.σ. λάδι ≈ 120 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Тас-кебаб",
+   "origin": "Турция · Османская кухня",
+   "intro": "Тас-кебаб — турецкое тушёное блюдо из кубиков говядины, медленно приготовленных с луком, чесноком, помидорами и зелёным перцем, пока мясо не станет мягким, как вилка, а соус густым и глянцевым. В горшок часто добавляют картофель, и получается цельное блюдо на один горшок. Несмотря на название, его не жарят на гриле — «тас» означает миску, в которой его готовят и подают, обычно с рисовым пловом или хлебом.",
+   "history": "Тас-кебаб относится к традиции тушёных блюд османской дворцовой и домашней кухни, где «кебаб» обозначал множество мясных блюд, а не только жареных на гриле. Он остаётся обычным блюдом турецких домашних кухонь и эснаф локантасы — простых ресторанов для ремесленников.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "600 г говядины, нарезанной кубиками",
+     "2 луковицы, нарезанные",
+     "3 зубчика чеснока",
+     "2 зелёных болгарских перца, нарезанных",
+     "3 помидора, натёртых, и 1 ст. л. томатной пасты",
+     "3 картофелины, нарезанных кубиками",
+     "2 ст. л. масла",
+     "Соль, чёрный перец, паприка",
+     "400 мл горячей воды"
+    ],
+    "steps": [
+     "Обжарьте говядину в масле в тяжёлом горшке.",
+     "Добавьте лук, чеснок и перцы и готовьте до мягкости.",
+     "Вмешайте томатную пасту, натёртые помидоры и специи, затем влейте горячую воду.",
+     "Накройте и томите на слабом огне 1–1,5 часа, пока говядина не станет мягкой.",
+     "Добавьте картофель на последние 25 минут и варите до мягкости."
+    ]
+   },
+   "tips": [
+    "Срежьте с говядины видимый жир перед обжариванием.",
+    "Подавайте с салатом вместо риса, чтобы блюдо было легче.",
+    "Отмеряйте масло: 1 ст. л. масла ≈ 120 ккал."
+   ],
+   "name_inline": "тас-кебаб"
+  },
+  "es": {
+   "name": "Tas kebab",
+   "origin": "Turquía · Cocina otomana",
+   "intro": "El tas kebab es un guiso turco de cubos de carne de res cocidos lentamente con cebolla, ajo, tomate y pimientos verdes, hasta que la carne se deshace con el tenedor y la salsa queda espesa y brillante. A menudo se le añaden papas, lo que lo convierte en una comida completa en una sola olla. A pesar del nombre, no se asa a la parrilla: «tas» alude al cuenco en el que se cocina y se sirve, normalmente con pilaf de arroz o pan.",
+   "history": "El tas kebab pertenece a la tradición de guisos de la cocina otomana, tanto palaciega como casera, en la que «kebab» designaba muchos platos de carne y no solo los asados. Sigue siendo un plato habitual en los hogares turcos y en los esnaf lokantası, los sencillos restaurantes para trabajadores y artesanos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "600 g de carne de res, en cubos",
+     "2 cebollas, picadas",
+     "3 dientes de ajo",
+     "2 pimientos verdes, en rodajas",
+     "3 tomates, rallados, y 1 cda. de pasta de tomate",
+     "3 papas, en cubos",
+     "2 cda. de aceite",
+     "Sal, pimienta negra, pimentón",
+     "400 ml de agua caliente"
+    ],
+    "steps": [
+     "Dora la carne en el aceite en una olla de fondo grueso.",
+     "Añade la cebolla, el ajo y los pimientos y cocina hasta que se ablanden.",
+     "Incorpora la pasta de tomate, los tomates rallados y las especias, y vierte el agua caliente.",
+     "Tapa y cuece a fuego lento de 1 a 1½ horas, hasta que la carne esté tierna.",
+     "Agrega las papas durante los últimos 25 minutos y cocina hasta que estén blandas."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible de la carne antes de dorarla.",
+    "Sírvelo con una ensalada en lugar de arroz para una comida más ligera.",
+    "Mide el aceite: 1 cda. ≈ 120 kcal."
+   ],
+   "name_inline": "el tas kebab"
   }
+ }
 }

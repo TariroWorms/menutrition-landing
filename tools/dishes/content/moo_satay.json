@@ -1,169 +1,201 @@
 {
-  "db_key": "moo_satay",
-  "slug": "moo-satay",
-  "emoji": "🍢",
-  "portion_g": 150,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "moo_satay",
+ "slug": "moo-satay",
+ "emoji": "🍢",
+ "portion_g": 150,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pork satay (moo satay)",
+   "origin": "Thailand",
+   "intro": "Moo satay is the Thai version of satay: thin strips of pork marinated in turmeric, spices and coconut milk, threaded on skewers and grilled until lightly charred. It is served with a sweet, creamy peanut sauce for dipping and a small bowl of ajad, a sweet-sour cucumber relish with shallots and chili. It is a popular snack and appetiser.",
+   "history": "Satay spread through Southeast Asia from Indonesia and Malaysia, and Thailand adopted it with pork and its own peanut sauce and cucumber relish. Today moo satay is a common street food and appetiser across Thailand.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "600 g pork loin, cut into thin strips",
+     "1 tsp ground turmeric, 1 tsp ground coriander, 1/2 tsp ground cumin",
+     "150 ml coconut milk",
+     "1 tbsp sugar, salt",
+     "120 ml ready-made peanut sauce for dipping",
+     "1 cucumber, 1 shallot, 1 red chili, 3 tbsp vinegar, 1 tbsp sugar for the relish",
+     "Bamboo skewers, soaked"
+    ],
+    "steps": [
+     "Mix the spices, sugar, salt and 100 ml coconut milk and marinate the pork for at least 1 hour.",
+     "For the relish, dissolve the sugar in the vinegar and pour over thinly sliced cucumber, shallot and chili.",
+     "Thread the pork onto skewers.",
+     "Grill for 6–8 minutes, turning and brushing with the remaining coconut milk.",
+     "Serve with the peanut sauce and cucumber relish."
+    ]
+   },
+   "tips": [
+    "Limit the peanut sauce to about 1 tbsp per skewer; it is the most calorie-dense part.",
+    "Use light coconut milk in the marinade.",
+    "Fill up on the cucumber relish, which adds very few calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pork satay (moo satay)",
-      "origin": "Thailand",
-      "intro": "Moo satay is the Thai version of satay: thin strips of pork marinated in turmeric, spices and coconut milk, threaded on skewers and grilled until lightly charred. It is served with a sweet, creamy peanut sauce for dipping and a small bowl of ajad, a sweet-sour cucumber relish with shallots and chili. It is a popular snack and appetiser.",
-      "history": "Satay spread through Southeast Asia from Indonesia and Malaysia, and Thailand adopted it with pork and its own peanut sauce and cucumber relish. Today moo satay is a common street food and appetiser across Thailand.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "600 g pork loin, cut into thin strips",
-          "1 tsp ground turmeric, 1 tsp ground coriander, 1/2 tsp ground cumin",
-          "150 ml coconut milk",
-          "1 tbsp sugar, salt",
-          "120 ml ready-made peanut sauce for dipping",
-          "1 cucumber, 1 shallot, 1 red chili, 3 tbsp vinegar, 1 tbsp sugar for the relish",
-          "Bamboo skewers, soaked"
-        ],
-        "steps": [
-          "Mix the spices, sugar, salt and 100 ml coconut milk and marinate the pork for at least 1 hour.",
-          "For the relish, dissolve the sugar in the vinegar and pour over thinly sliced cucumber, shallot and chili.",
-          "Thread the pork onto skewers.",
-          "Grill for 6–8 minutes, turning and brushing with the remaining coconut milk.",
-          "Serve with the peanut sauce and cucumber relish."
-        ]
-      },
-      "tips": [
-        "Limit the peanut sauce to about 1 tbsp per skewer; it is the most calorie-dense part.",
-        "Use light coconut milk in the marinade.",
-        "Fill up on the cucumber relish, which adds very few calories."
-      ]
-    },
-    "ar": {
-      "name": "ساتيه لحم خنزير (مو ساتيه)",
-      "origin": "تايلاند",
-      "intro": "المو ساتيه هو النسخة التايلاندية من الساتيه: شرائح رقيقة من لحم الخنزير متبلة بالكركم والبهارات وحليب جوز الهند، تُشبك في أسياخ وتُشوى حتى تتحمّر قليلاً. تقدم مع صلصة فول سوداني حلوة وكريمية للتغميس، وصحن صغير من «أجاد»، وهي سلطة خيار حلوة حامضة مع الكراث الأحمر والفلفل. وهي وجبة خفيفة ومقبلات شائعة.",
-      "history": "انتشر الساتيه في جنوب شرق آسيا انطلاقاً من إندونيسيا وماليزيا، وتبنّته تايلاند بلحم الخنزير مع صلصة الفول السوداني وسلطة الخيار الخاصة بها. والمو ساتيه اليوم من أطعمة الشارع والمقبلات الشائعة في أنحاء تايلاند.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "600 غ لحم خاصرة خنزير مقطع شرائح رقيقة",
-          "1 ملعقة صغيرة كركم، 1 ملعقة صغيرة كزبرة مطحونة، نصف ملعقة صغيرة كمون",
-          "150 مل حليب جوز الهند",
-          "1 ملعقة كبيرة سكر، ملح",
-          "120 مل صلصة فول سوداني جاهزة للتغميس",
-          "خيارة، كراث أحمر (شالوت)، فلفل أحمر حار، 3 ملاعق كبيرة خل، 1 ملعقة كبيرة سكر للسلطة",
-          "أسياخ خيزران منقوعة"
-        ],
-        "steps": [
-          "اخلط البهارات والسكر والملح و100 مل حليب جوز الهند وتبّل اللحم ساعة على الأقل.",
-          "للسلطة، أذب السكر في الخل واسكبه على الخيار والشالوت والفلفل المقطعة رقيقاً.",
-          "اشبك اللحم في الأسياخ.",
-          "اشوِه 6–8 دقائق مع التقليب والدهن بباقي حليب جوز الهند.",
-          "قدّمه مع صلصة الفول السوداني وسلطة الخيار."
-        ]
-      },
-      "tips": [
-        "اكتفِ بملعقة كبيرة من صلصة الفول السوداني لكل سيخ؛ فهي الجزء الأغنى بالسعرات.",
-        "استخدم حليب جوز هند خفيفاً في التتبيلة.",
-        "أكثر من سلطة الخيار فسعراتها قليلة جداً."
-      ]
-    },
-    "it": {
-      "name": "Satay di maiale (moo satay)",
-      "origin": "Thailandia",
-      "intro": "Il moo satay è la versione thailandese del satay: sottili strisce di maiale marinate con curcuma, spezie e latte di cocco, infilate su spiedini e grigliate finché leggermente abbrustolite. Si serve con una salsa di arachidi dolce e cremosa in cui intingerle e una ciotolina di ajad, un condimento agrodolce di cetriolo con scalogno e peperoncino. È uno spuntino e un antipasto molto popolare.",
-      "history": "Il satay si è diffuso nel Sud-est asiatico a partire da Indonesia e Malesia, e la Thailandia lo ha adottato con il maiale e con una propria salsa di arachidi e un proprio condimento di cetriolo. Oggi il moo satay è un comune cibo di strada e antipasto in tutta la Thailandia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "600 g di lonza di maiale, tagliata a strisce sottili",
-          "1 cucchiaino di curcuma, 1 cucchiaino di coriandolo macinato, 1/2 cucchiaino di cumino macinato",
-          "150 ml di latte di cocco",
-          "1 cucchiaio di zucchero, sale",
-          "120 ml di salsa di arachidi pronta per intingere",
-          "1 cetriolo, 1 scalogno, 1 peperoncino rosso, 3 cucchiai di aceto, 1 cucchiaio di zucchero per il condimento",
-          "Spiedini di bambù, ammollati"
-        ],
-        "steps": [
-          "Mescola spezie, zucchero, sale e 100 ml di latte di cocco e marina il maiale per almeno 1 ora.",
-          "Per il condimento, sciogli lo zucchero nell'aceto e versalo su cetriolo, scalogno e peperoncino affettati sottili.",
-          "Infila il maiale sugli spiedini.",
-          "Griglia per 6–8 minuti, girando e spennellando con il latte di cocco rimasto.",
-          "Servi con la salsa di arachidi e il condimento di cetriolo."
-        ]
-      },
-      "tips": [
-        "Limita la salsa di arachidi a circa 1 cucchiaio per spiedino: è la parte più calorica.",
-        "Usa latte di cocco light nella marinata.",
-        "Riempiti con il condimento di cetriolo, che aggiunge pochissime calorie."
-      ]
-    },
-    "el": {
-      "name": "Χοιρινό σατέ (μου σατέ)",
-      "origin": "Ταϊλάνδη",
-      "intro": "Το μου σατέ είναι η ταϊλανδέζικη εκδοχή του σατέ: λεπτές λωρίδες χοιρινού μαριναρισμένες σε κουρκουμά, μπαχαρικά και γάλα καρύδας, περασμένες σε ξυλάκια και ψημένες μέχρι να καψαλιστούν ελαφρά. Σερβίρεται με γλυκιά, κρεμώδη σάλτσα φιστικιού για βούτηγμα και ένα μπολάκι ατζάτ, ένα γλυκόξινο τουρσί αγγουριού με εσαλότ και καυτερή πιπεριά. Είναι δημοφιλές σνακ και ορεκτικό.",
-      "history": "Το σατέ διαδόθηκε στη Νοτιοανατολική Ασία από την Ινδονησία και τη Μαλαισία, και η Ταϊλάνδη το υιοθέτησε με χοιρινό και με δική της σάλτσα φιστικιού και τουρσί αγγουριού. Σήμερα το μου σατέ είναι συνηθισμένο φαγητό του δρόμου και ορεκτικό σε όλη την Ταϊλάνδη.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "600 γρ. χοιρινό κόντρα φιλέτο, σε λεπτές λωρίδες",
-          "1 κ.γ. κουρκουμά, 1 κ.γ. αλεσμένο κόλιανδρο, 1/2 κ.γ. αλεσμένο κύμινο",
-          "150 ml γάλα καρύδας",
-          "1 κ.σ. ζάχαρη, αλάτι",
-          "120 ml έτοιμη σάλτσα φιστικιού για βούτηγμα",
-          "1 αγγούρι, 1 εσαλότ, 1 κόκκινη καυτερή πιπεριά, 3 κ.σ. ξίδι, 1 κ.σ. ζάχαρη για το τουρσί",
-          "Ξυλάκια μπαμπού για σουβλάκια, μουλιασμένα"
-        ],
-        "steps": [
-          "Ανακατέψτε τα μπαχαρικά, τη ζάχαρη, το αλάτι και 100 ml γάλα καρύδας και μαρινάρετε το χοιρινό για τουλάχιστον 1 ώρα.",
-          "Για το τουρσί, διαλύστε τη ζάχαρη στο ξίδι και ρίξτε το πάνω σε λεπτοκομμένο αγγούρι, εσαλότ και καυτερή πιπεριά.",
-          "Περάστε το χοιρινό στα ξυλάκια.",
-          "Ψήστε για 6–8 λεπτά, γυρίζοντας και αλείφοντας με το υπόλοιπο γάλα καρύδας.",
-          "Σερβίρετε με τη σάλτσα φιστικιού και το τουρσί αγγουριού."
-        ]
-      },
-      "tips": [
-        "Περιορίστε τη σάλτσα φιστικιού σε περίπου 1 κ.σ. ανά σουβλάκι· είναι το πιο θερμιδικό μέρος.",
-        "Χρησιμοποιήστε ελαφρύ γάλα καρύδας στη μαρινάδα.",
-        "Χορτάστε με το τουρσί αγγουριού, που προσθέτει ελάχιστες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Свиной сатай (му сатай)",
-      "origin": "Таиланд",
-      "intro": "Му сатай — тайская версия сатая: тонкие полоски свинины, замаринованные в куркуме, специях и кокосовом молоке, нанизанные на шпажки и обжаренные до лёгкой подпалины. Его подают со сладким сливочным арахисовым соусом для макания и маленькой миской аджата — сладко-кислого огуречного релиша с шалотом и чили. Это популярная закуска.",
-      "history": "Сатай распространился по Юго-Восточной Азии из Индонезии и Малайзии, а Таиланд принял его со свининой и собственным арахисовым соусом и огуречным релишем. Сегодня му сатай — распространённая уличная еда и закуска по всему Таиланду.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "600 г свиной вырезки, нарезанной тонкими полосками",
-          "1 ч. л. молотой куркумы, 1 ч. л. молотой кинзы, ½ ч. л. молотой зиры",
-          "150 мл кокосового молока",
-          "1 ст. л. сахара, соль",
-          "120 мл готового арахисового соуса для макания",
-          "1 огурец, 1 шалот, 1 красный чили, 3 ст. л. уксуса, 1 ст. л. сахара для релиша",
-          "Бамбуковые шпажки, замоченные"
-        ],
-        "steps": [
-          "Смешайте специи, сахар, соль и 100 мл кокосового молока и маринуйте свинину минимум 1 час.",
-          "Для релиша растворите сахар в уксусе и залейте тонко нарезанные огурец, шалот и чили.",
-          "Нанижите свинину на шпажки.",
-          "Жарьте 6–8 минут, переворачивая и смазывая оставшимся кокосовым молоком.",
-          "Подавайте с арахисовым соусом и огуречным релишем."
-        ]
-      },
-      "tips": [
-        "Ограничьте арахисовый соус примерно 1 ст. л. на шпажку; это самая калорийная часть.",
-        "Используйте облегчённое кокосовое молоко в маринаде.",
-        "Налегайте на огуречный релиш, который добавляет очень мало калорий."
-      ]
-    }
+  "ar": {
+   "name": "ساتيه لحم خنزير (مو ساتيه)",
+   "origin": "تايلاند",
+   "intro": "المو ساتيه هو النسخة التايلاندية من الساتيه: شرائح رقيقة من لحم الخنزير متبلة بالكركم والبهارات وحليب جوز الهند، تُشبك في أسياخ وتُشوى حتى تتحمّر قليلاً. تقدم مع صلصة فول سوداني حلوة وكريمية للتغميس، وصحن صغير من «أجاد»، وهي سلطة خيار حلوة حامضة مع الكراث الأحمر والفلفل. وهي وجبة خفيفة ومقبلات شائعة.",
+   "history": "انتشر الساتيه في جنوب شرق آسيا انطلاقاً من إندونيسيا وماليزيا، وتبنّته تايلاند بلحم الخنزير مع صلصة الفول السوداني وسلطة الخيار الخاصة بها. والمو ساتيه اليوم من أطعمة الشارع والمقبلات الشائعة في أنحاء تايلاند.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "600 غ لحم خاصرة خنزير مقطع شرائح رقيقة",
+     "1 ملعقة صغيرة كركم، 1 ملعقة صغيرة كزبرة مطحونة، نصف ملعقة صغيرة كمون",
+     "150 مل حليب جوز الهند",
+     "1 ملعقة كبيرة سكر، ملح",
+     "120 مل صلصة فول سوداني جاهزة للتغميس",
+     "خيارة، كراث أحمر (شالوت)، فلفل أحمر حار، 3 ملاعق كبيرة خل، 1 ملعقة كبيرة سكر للسلطة",
+     "أسياخ خيزران منقوعة"
+    ],
+    "steps": [
+     "اخلط البهارات والسكر والملح و100 مل حليب جوز الهند وتبّل اللحم ساعة على الأقل.",
+     "للسلطة، أذب السكر في الخل واسكبه على الخيار والشالوت والفلفل المقطعة رقيقاً.",
+     "اشبك اللحم في الأسياخ.",
+     "اشوِه 6–8 دقائق مع التقليب والدهن بباقي حليب جوز الهند.",
+     "قدّمه مع صلصة الفول السوداني وسلطة الخيار."
+    ]
+   },
+   "tips": [
+    "اكتفِ بملعقة كبيرة من صلصة الفول السوداني لكل سيخ؛ فهي الجزء الأغنى بالسعرات.",
+    "استخدم حليب جوز هند خفيفاً في التتبيلة.",
+    "أكثر من سلطة الخيار فسعراتها قليلة جداً."
+   ]
+  },
+  "it": {
+   "name": "Satay di maiale (moo satay)",
+   "origin": "Thailandia",
+   "intro": "Il moo satay è la versione thailandese del satay: sottili strisce di maiale marinate con curcuma, spezie e latte di cocco, infilate su spiedini e grigliate finché leggermente abbrustolite. Si serve con una salsa di arachidi dolce e cremosa in cui intingerle e una ciotolina di ajad, un condimento agrodolce di cetriolo con scalogno e peperoncino. È uno spuntino e un antipasto molto popolare.",
+   "history": "Il satay si è diffuso nel Sud-est asiatico a partire da Indonesia e Malesia, e la Thailandia lo ha adottato con il maiale e con una propria salsa di arachidi e un proprio condimento di cetriolo. Oggi il moo satay è un comune cibo di strada e antipasto in tutta la Thailandia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "600 g di lonza di maiale, tagliata a strisce sottili",
+     "1 cucchiaino di curcuma, 1 cucchiaino di coriandolo macinato, 1/2 cucchiaino di cumino macinato",
+     "150 ml di latte di cocco",
+     "1 cucchiaio di zucchero, sale",
+     "120 ml di salsa di arachidi pronta per intingere",
+     "1 cetriolo, 1 scalogno, 1 peperoncino rosso, 3 cucchiai di aceto, 1 cucchiaio di zucchero per il condimento",
+     "Spiedini di bambù, ammollati"
+    ],
+    "steps": [
+     "Mescola spezie, zucchero, sale e 100 ml di latte di cocco e marina il maiale per almeno 1 ora.",
+     "Per il condimento, sciogli lo zucchero nell'aceto e versalo su cetriolo, scalogno e peperoncino affettati sottili.",
+     "Infila il maiale sugli spiedini.",
+     "Griglia per 6–8 minuti, girando e spennellando con il latte di cocco rimasto.",
+     "Servi con la salsa di arachidi e il condimento di cetriolo."
+    ]
+   },
+   "tips": [
+    "Limita la salsa di arachidi a circa 1 cucchiaio per spiedino: è la parte più calorica.",
+    "Usa latte di cocco light nella marinata.",
+    "Riempiti con il condimento di cetriolo, che aggiunge pochissime calorie."
+   ]
+  },
+  "el": {
+   "name": "Χοιρινό σατέ (μου σατέ)",
+   "origin": "Ταϊλάνδη",
+   "intro": "Το μου σατέ είναι η ταϊλανδέζικη εκδοχή του σατέ: λεπτές λωρίδες χοιρινού μαριναρισμένες σε κουρκουμά, μπαχαρικά και γάλα καρύδας, περασμένες σε ξυλάκια και ψημένες μέχρι να καψαλιστούν ελαφρά. Σερβίρεται με γλυκιά, κρεμώδη σάλτσα φιστικιού για βούτηγμα και ένα μπολάκι ατζάτ, ένα γλυκόξινο τουρσί αγγουριού με εσαλότ και καυτερή πιπεριά. Είναι δημοφιλές σνακ και ορεκτικό.",
+   "history": "Το σατέ διαδόθηκε στη Νοτιοανατολική Ασία από την Ινδονησία και τη Μαλαισία, και η Ταϊλάνδη το υιοθέτησε με χοιρινό και με δική της σάλτσα φιστικιού και τουρσί αγγουριού. Σήμερα το μου σατέ είναι συνηθισμένο φαγητό του δρόμου και ορεκτικό σε όλη την Ταϊλάνδη.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "600 γρ. χοιρινό κόντρα φιλέτο, σε λεπτές λωρίδες",
+     "1 κ.γ. κουρκουμά, 1 κ.γ. αλεσμένο κόλιανδρο, 1/2 κ.γ. αλεσμένο κύμινο",
+     "150 ml γάλα καρύδας",
+     "1 κ.σ. ζάχαρη, αλάτι",
+     "120 ml έτοιμη σάλτσα φιστικιού για βούτηγμα",
+     "1 αγγούρι, 1 εσαλότ, 1 κόκκινη καυτερή πιπεριά, 3 κ.σ. ξίδι, 1 κ.σ. ζάχαρη για το τουρσί",
+     "Ξυλάκια μπαμπού για σουβλάκια, μουλιασμένα"
+    ],
+    "steps": [
+     "Ανακατέψτε τα μπαχαρικά, τη ζάχαρη, το αλάτι και 100 ml γάλα καρύδας και μαρινάρετε το χοιρινό για τουλάχιστον 1 ώρα.",
+     "Για το τουρσί, διαλύστε τη ζάχαρη στο ξίδι και ρίξτε το πάνω σε λεπτοκομμένο αγγούρι, εσαλότ και καυτερή πιπεριά.",
+     "Περάστε το χοιρινό στα ξυλάκια.",
+     "Ψήστε για 6–8 λεπτά, γυρίζοντας και αλείφοντας με το υπόλοιπο γάλα καρύδας.",
+     "Σερβίρετε με τη σάλτσα φιστικιού και το τουρσί αγγουριού."
+    ]
+   },
+   "tips": [
+    "Περιορίστε τη σάλτσα φιστικιού σε περίπου 1 κ.σ. ανά σουβλάκι· είναι το πιο θερμιδικό μέρος.",
+    "Χρησιμοποιήστε ελαφρύ γάλα καρύδας στη μαρινάδα.",
+    "Χορτάστε με το τουρσί αγγουριού, που προσθέτει ελάχιστες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Свиной сатай (му сатай)",
+   "origin": "Таиланд",
+   "intro": "Му сатай — тайская версия сатая: тонкие полоски свинины, замаринованные в куркуме, специях и кокосовом молоке, нанизанные на шпажки и обжаренные до лёгкой подпалины. Его подают со сладким сливочным арахисовым соусом для макания и маленькой миской аджата — сладко-кислого огуречного релиша с шалотом и чили. Это популярная закуска.",
+   "history": "Сатай распространился по Юго-Восточной Азии из Индонезии и Малайзии, а Таиланд принял его со свининой и собственным арахисовым соусом и огуречным релишем. Сегодня му сатай — распространённая уличная еда и закуска по всему Таиланду.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "600 г свиной вырезки, нарезанной тонкими полосками",
+     "1 ч. л. молотой куркумы, 1 ч. л. молотой кинзы, ½ ч. л. молотой зиры",
+     "150 мл кокосового молока",
+     "1 ст. л. сахара, соль",
+     "120 мл готового арахисового соуса для макания",
+     "1 огурец, 1 шалот, 1 красный чили, 3 ст. л. уксуса, 1 ст. л. сахара для релиша",
+     "Бамбуковые шпажки, замоченные"
+    ],
+    "steps": [
+     "Смешайте специи, сахар, соль и 100 мл кокосового молока и маринуйте свинину минимум 1 час.",
+     "Для релиша растворите сахар в уксусе и залейте тонко нарезанные огурец, шалот и чили.",
+     "Нанижите свинину на шпажки.",
+     "Жарьте 6–8 минут, переворачивая и смазывая оставшимся кокосовым молоком.",
+     "Подавайте с арахисовым соусом и огуречным релишем."
+    ]
+   },
+   "tips": [
+    "Ограничьте арахисовый соус примерно 1 ст. л. на шпажку; это самая калорийная часть.",
+    "Используйте облегчённое кокосовое молоко в маринаде.",
+    "Налегайте на огуречный релиш, который добавляет очень мало калорий."
+   ]
+  },
+  "es": {
+   "name": "Satay de cerdo (moo satay)",
+   "origin": "Tailandia",
+   "intro": "El moo satay es la versión tailandesa del satay: tiras finas de cerdo marinadas en cúrcuma, especias y leche de coco, ensartadas en brochetas y asadas hasta quedar ligeramente chamuscadas. Se sirve con una salsa de cacahuate dulce y cremosa para mojar y un pequeño tazón de ajad, un encurtido agridulce de pepino con chalotes y chile. Es una botana y entrada muy popular.",
+   "history": "El satay se extendió por el sudeste asiático desde Indonesia y Malasia, y Tailandia lo adoptó con cerdo y con su propia salsa de cacahuate y encurtido de pepino. Hoy el moo satay es una comida callejera y entrada habitual en todo Tailandia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "600 g de lomo de cerdo, en tiras finas",
+     "1 cdta. de cúrcuma molida, 1 cdta. de cilantro molido, ½ cdta. de comino molido",
+     "150 ml de leche de coco",
+     "1 cda. de azúcar, sal",
+     "120 ml de salsa de cacahuate ya preparada, para mojar",
+     "1 pepino, 1 chalote, 1 chile rojo, 3 cdas. de vinagre, 1 cda. de azúcar para el encurtido",
+     "Brochetas de bambú, remojadas"
+    ],
+    "steps": [
+     "Mezcla las especias, el azúcar, la sal y 100 ml de leche de coco y marina el cerdo al menos 1 hora.",
+     "Para el encurtido, disuelve el azúcar en el vinagre y viértelo sobre el pepino, el chalote y el chile en rodajas finas.",
+     "Ensarta el cerdo en las brochetas.",
+     "Asa de 6 a 8 minutos, volteando y pincelando con la leche de coco restante.",
+     "Sirve con la salsa de cacahuate y el encurtido de pepino."
+    ]
+   },
+   "tips": [
+    "Limita la salsa de cacahuate a cerca de 1 cda. por brocheta; es la parte más calórica.",
+    "Usa leche de coco ligera en la marinada.",
+    "Llénate con el encurtido de pepino, que aporta muy pocas calorías."
+   ],
+   "name_inline": "el moo satay"
   }
+ }
 }

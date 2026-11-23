@@ -1,169 +1,201 @@
 {
-  "db_key": "moghrabieh",
-  "slug": "moghrabieh",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "moghrabieh",
+ "slug": "moghrabieh",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Moghrabieh",
+   "origin": "Lebanon · Levant",
+   "intro": "Moghrabieh is a Lebanese stew of large pearl couscous cooked with chicken, chickpeas and small onions in a broth fragrant with caraway and cinnamon. The pearls are chewy and glossy, the chicken tender, and the broth is often ladled over each plate. It is a hearty winter dish, traditionally made for family gatherings and served hot in deep plates.",
+   "history": "The name means 'from the Maghreb', reflecting the link with North African couscous, though the Lebanese pearls are much larger. Today moghrabieh is cooked across Lebanon, Syria and Palestine, often for special family meals.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "300 g moghrabieh (pearl couscous)",
+     "600 g chicken pieces",
+     "1 x 400 g can chickpeas, drained",
+     "250 g small pearl onions, peeled",
+     "1 tsp ground caraway, 1 tsp cinnamon",
+     "1 cinnamon stick, 2 bay leaves",
+     "2 tbsp vegetable oil, salt, pepper"
+    ],
+    "steps": [
+     "Simmer the chicken with the cinnamon stick, bay leaves and salt in 1.5 l water for 40 minutes; strain and keep the broth.",
+     "Brown the pearl onions in oil, then add the moghrabieh and toast for 3 minutes.",
+     "Add the spices and enough broth to cover, and cook for 15–20 minutes, adding broth as needed.",
+     "Stir in the chickpeas and chicken pieces and heat through.",
+     "Serve in deep plates with extra hot broth."
+    ]
+   },
+   "tips": [
+    "Use skinless chicken and skim the broth before using it.",
+    "Measure the moghrabieh dry: about 75 g per person is a typical portion.",
+    "Add more chickpeas and onions in place of some of the pearls."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Moghrabieh",
-      "origin": "Lebanon · Levant",
-      "intro": "Moghrabieh is a Lebanese stew of large pearl couscous cooked with chicken, chickpeas and small onions in a broth fragrant with caraway and cinnamon. The pearls are chewy and glossy, the chicken tender, and the broth is often ladled over each plate. It is a hearty winter dish, traditionally made for family gatherings and served hot in deep plates.",
-      "history": "The name means 'from the Maghreb', reflecting the link with North African couscous, though the Lebanese pearls are much larger. Today moghrabieh is cooked across Lebanon, Syria and Palestine, often for special family meals.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "300 g moghrabieh (pearl couscous)",
-          "600 g chicken pieces",
-          "1 x 400 g can chickpeas, drained",
-          "250 g small pearl onions, peeled",
-          "1 tsp ground caraway, 1 tsp cinnamon",
-          "1 cinnamon stick, 2 bay leaves",
-          "2 tbsp vegetable oil, salt, pepper"
-        ],
-        "steps": [
-          "Simmer the chicken with the cinnamon stick, bay leaves and salt in 1.5 l water for 40 minutes; strain and keep the broth.",
-          "Brown the pearl onions in oil, then add the moghrabieh and toast for 3 minutes.",
-          "Add the spices and enough broth to cover, and cook for 15–20 minutes, adding broth as needed.",
-          "Stir in the chickpeas and chicken pieces and heat through.",
-          "Serve in deep plates with extra hot broth."
-        ]
-      },
-      "tips": [
-        "Use skinless chicken and skim the broth before using it.",
-        "Measure the moghrabieh dry: about 75 g per person is a typical portion.",
-        "Add more chickpeas and onions in place of some of the pearls."
-      ]
-    },
-    "ar": {
-      "name": "مغربية",
-      "origin": "لبنان · بلاد الشام",
-      "intro": "المغربية طبق لبناني من حبات الكسكس الكبيرة المطهوة مع الدجاج والحمص والبصل الصغير في مرق معطّر بالكراوية والقرفة. الحبات مطاطية ولامعة، والدجاج طري، ويُسكب المرق غالباً فوق كل طبق. وهي أكلة شتوية مشبعة تُحضَّر تقليدياً للتجمعات العائلية وتقدم ساخنة في صحون عميقة.",
-      "history": "يعني الاسم «من المغرب»، إشارة إلى صلتها بالكسكس المغاربي رغم أن الحبات اللبنانية أكبر بكثير. وتُطهى المغربية اليوم في لبنان وسوريا وفلسطين، غالباً في الولائم العائلية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "300 غ مغربية (حبات كسكس كبيرة)",
-          "600 غ قطع دجاج",
-          "علبة حمص 400 غ مصفاة",
-          "250 غ بصل صغير مقشر",
-          "1 ملعقة صغيرة كراوية مطحونة، 1 ملعقة صغيرة قرفة",
-          "عود قرفة، ورقتا غار",
-          "2 ملعقة كبيرة زيت نباتي، ملح، فلفل"
-        ],
-        "steps": [
-          "اسلق الدجاج مع عود القرفة وورق الغار والملح في 1.5 لتر ماء 40 دقيقة، ثم صفِّ المرق واحتفظ به.",
-          "حمّر البصل الصغير في الزيت، ثم أضف المغربية وحمّصها 3 دقائق.",
-          "أضف البهارات ومرقاً يغطيها واطهها 15–20 دقيقة مع إضافة المرق عند الحاجة.",
-          "أضف الحمص وقطع الدجاج وسخّنها جيداً.",
-          "قدّمها في صحون عميقة مع مرق ساخن إضافي."
-        ]
-      },
-      "tips": [
-        "استخدم دجاجاً بلا جلد واكشط الدهن عن المرق قبل استعماله.",
-        "زن المغربية نيئة: نحو 75 غ للشخص حصة معتادة.",
-        "أكثر من الحمص والبصل مقابل تقليل الحبات."
-      ]
-    },
-    "it": {
-      "name": "Moghrabieh",
-      "origin": "Libano · Levante",
-      "intro": "La moghrabieh è uno stufato libanese di cuscus a grani grossi cotto con pollo, ceci e cipolline in un brodo profumato di carvi e cannella. Le perle sono gommose e lucide, il pollo tenero, e spesso il brodo si versa sopra ogni piatto con il mestolo. È un piatto invernale sostanzioso, preparato tradizionalmente per le riunioni di famiglia e servito caldo in piatti fondi.",
-      "history": "Il nome significa «dal Maghreb», a indicare il legame con il cuscus nordafricano, anche se le perle libanesi sono molto più grandi. Oggi la moghrabieh si cucina in Libano, Siria e Palestina, spesso per pasti speciali in famiglia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "300 g di moghrabieh (cuscus a grani grossi)",
-          "600 g di pezzi di pollo",
-          "1 lattina di ceci da 400 g, scolati",
-          "250 g di cipolline, sbucciate",
-          "1 cucchiaino di carvi macinato, 1 cucchiaino di cannella",
-          "1 stecca di cannella, 2 foglie di alloro",
-          "2 cucchiai di olio vegetale, sale, pepe"
-        ],
-        "steps": [
-          "Cuoci a fuoco lento il pollo con la stecca di cannella, l'alloro e il sale in 1,5 l d'acqua per 40 minuti; filtra e tieni da parte il brodo.",
-          "Rosola le cipolline nell'olio, poi aggiungi la moghrabieh e tostala per 3 minuti.",
-          "Aggiungi le spezie e brodo quanto basta per coprire e cuoci per 15–20 minuti, aggiungendo brodo se serve.",
-          "Unisci i ceci e i pezzi di pollo e scalda bene.",
-          "Servi in piatti fondi con altro brodo caldo."
-        ]
-      },
-      "tips": [
-        "Usa pollo senza pelle e sgrassa il brodo prima di usarlo.",
-        "Pesa la moghrabieh da cruda: circa 75 g a persona è una porzione tipica.",
-        "Aggiungi più ceci e cipolline al posto di una parte delle perle."
-      ]
-    },
-    "el": {
-      "name": "Μογραμπιέ",
-      "origin": "Λίβανος · Λεβάντε",
-      "intro": "Το μογραμπιέ είναι λιβανέζικο μαγειρευτό με χοντρό κουσκούς σε μορφή μαργαριταριών, μαγειρεμένο με κοτόπουλο, ρεβίθια και κρεμμυδάκια σε ζωμό αρωματισμένο με κύμινο Αρμενίας (κάρο) και κανέλα. Τα μαργαριτάρια είναι μαστιχωτά και γυαλιστερά, το κοτόπουλο τρυφερό, και συχνά ο ζωμός ρίχνεται με την κουτάλα πάνω σε κάθε πιάτο. Είναι χορταστικό χειμωνιάτικο φαγητό, που φτιάχνεται παραδοσιακά για οικογενειακές συγκεντρώσεις και σερβίρεται ζεστό σε βαθιά πιάτα.",
-      "history": "Το όνομα σημαίνει «από το Μαγκρέμπ», δείχνοντας τη σχέση με το βορειοαφρικανικό κουσκούς, αν και τα λιβανέζικα μαργαριτάρια είναι πολύ μεγαλύτερα. Σήμερα το μογραμπιέ μαγειρεύεται σε Λίβανο, Συρία και Παλαιστίνη, συχνά για ξεχωριστά οικογενειακά γεύματα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "300 γρ. μογραμπιέ (κουσκούς-μαργαριτάρι)",
-          "600 γρ. κομμάτια κοτόπουλου",
-          "1 κονσέρβα ρεβίθια 400 γρ., στραγγισμένα",
-          "250 γρ. κρεμμυδάκια, καθαρισμένα",
-          "1 κ.γ. αλεσμένο κάρο, 1 κ.γ. κανέλα",
-          "1 ξύλο κανέλας, 2 φύλλα δάφνης",
-          "2 κ.σ. φυτικό λάδι, αλάτι, πιπέρι"
-        ],
-        "steps": [
-          "Σιγοβράστε το κοτόπουλο με το ξύλο κανέλας, τη δάφνη και αλάτι σε 1,5 λίτρο νερό για 40 λεπτά· σουρώστε και κρατήστε τον ζωμό.",
-          "Ροδίστε τα κρεμμυδάκια στο λάδι, προσθέστε το μογραμπιέ και καβουρδίστε για 3 λεπτά.",
-          "Προσθέστε τα μπαχαρικά και όσο ζωμό χρειάζεται για να σκεπαστεί και μαγειρέψτε για 15–20 λεπτά, συμπληρώνοντας ζωμό αν χρειαστεί.",
-          "Ανακατέψτε μέσα τα ρεβίθια και τα κομμάτια κοτόπουλου και ζεστάνετε καλά.",
-          "Σερβίρετε σε βαθιά πιάτα με επιπλέον ζεστό ζωμό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε κοτόπουλο χωρίς πέτσα και ξαφρίστε τον ζωμό πριν τον χρησιμοποιήσετε.",
-        "Ζυγίστε το μογραμπιέ ωμό: περίπου 75 γρ. ανά άτομο είναι μια συνηθισμένη μερίδα.",
-        "Προσθέστε περισσότερα ρεβίθια και κρεμμυδάκια στη θέση μέρους των μαργαριταριών."
-      ]
-    },
-    "ru": {
-      "name": "Могребия",
-      "origin": "Ливан · Левант",
-      "intro": "Могребия — ливанское рагу из крупного жемчужного кускуса, приготовленного с курицей, нутом и мелким луком в бульоне с ароматом тмина и корицы. Шарики упругие и глянцевые, курица нежная, а бульон часто поливают на каждую тарелку. Это сытное зимнее блюдо, традиционно готовящееся для семейных встреч и подаваемое горячим в глубоких тарелках.",
-      "history": "Название означает «из Магриба», отражая связь с североафриканским кускусом, хотя ливанские шарики гораздо крупнее. Сегодня могребию готовят по всему Ливану, Сирии и Палестине, часто для особых семейных трапез.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "300 г могребии (жемчужного кускуса)",
-          "600 г кусочков курицы",
-          "1 банка (400 г) нута, откинутого",
-          "250 г мелкого жемчужного лука, очищенного",
-          "1 ч. л. молотого тмина, 1 ч. л. корицы",
-          "1 палочка корицы, 2 лавровых листа",
-          "2 ст. л. растительного масла, соль, перец"
-        ],
-        "steps": [
-          "Варите курицу с палочкой корицы, лавровым листом и солью в 1,5 л воды 40 минут; процедите и сохраните бульон.",
-          "Обжарьте жемчужный лук в масле, затем добавьте могребию и поджаривайте 3 минуты.",
-          "Добавьте специи и столько бульона, чтобы покрыть, и готовьте 15–20 минут, подливая бульон по мере необходимости.",
-          "Вмешайте нут и кусочки курицы и прогрейте.",
-          "Подавайте в глубоких тарелках с дополнительным горячим бульоном."
-        ]
-      },
-      "tips": [
-        "Используйте курицу без кожи и снимите жир с бульона перед использованием.",
-        "Отмеряйте могребию сухой: около 75 г на человека — типичная порция.",
-        "Добавьте больше нута и лука вместо части шариков."
-      ]
-    }
+  "ar": {
+   "name": "مغربية",
+   "origin": "لبنان · بلاد الشام",
+   "intro": "المغربية طبق لبناني من حبات الكسكس الكبيرة المطهوة مع الدجاج والحمص والبصل الصغير في مرق معطّر بالكراوية والقرفة. الحبات مطاطية ولامعة، والدجاج طري، ويُسكب المرق غالباً فوق كل طبق. وهي أكلة شتوية مشبعة تُحضَّر تقليدياً للتجمعات العائلية وتقدم ساخنة في صحون عميقة.",
+   "history": "يعني الاسم «من المغرب»، إشارة إلى صلتها بالكسكس المغاربي رغم أن الحبات اللبنانية أكبر بكثير. وتُطهى المغربية اليوم في لبنان وسوريا وفلسطين، غالباً في الولائم العائلية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "300 غ مغربية (حبات كسكس كبيرة)",
+     "600 غ قطع دجاج",
+     "علبة حمص 400 غ مصفاة",
+     "250 غ بصل صغير مقشر",
+     "1 ملعقة صغيرة كراوية مطحونة، 1 ملعقة صغيرة قرفة",
+     "عود قرفة، ورقتا غار",
+     "2 ملعقة كبيرة زيت نباتي، ملح، فلفل"
+    ],
+    "steps": [
+     "اسلق الدجاج مع عود القرفة وورق الغار والملح في 1.5 لتر ماء 40 دقيقة، ثم صفِّ المرق واحتفظ به.",
+     "حمّر البصل الصغير في الزيت، ثم أضف المغربية وحمّصها 3 دقائق.",
+     "أضف البهارات ومرقاً يغطيها واطهها 15–20 دقيقة مع إضافة المرق عند الحاجة.",
+     "أضف الحمص وقطع الدجاج وسخّنها جيداً.",
+     "قدّمها في صحون عميقة مع مرق ساخن إضافي."
+    ]
+   },
+   "tips": [
+    "استخدم دجاجاً بلا جلد واكشط الدهن عن المرق قبل استعماله.",
+    "زن المغربية نيئة: نحو 75 غ للشخص حصة معتادة.",
+    "أكثر من الحمص والبصل مقابل تقليل الحبات."
+   ]
+  },
+  "it": {
+   "name": "Moghrabieh",
+   "origin": "Libano · Levante",
+   "intro": "La moghrabieh è uno stufato libanese di cuscus a grani grossi cotto con pollo, ceci e cipolline in un brodo profumato di carvi e cannella. Le perle sono gommose e lucide, il pollo tenero, e spesso il brodo si versa sopra ogni piatto con il mestolo. È un piatto invernale sostanzioso, preparato tradizionalmente per le riunioni di famiglia e servito caldo in piatti fondi.",
+   "history": "Il nome significa «dal Maghreb», a indicare il legame con il cuscus nordafricano, anche se le perle libanesi sono molto più grandi. Oggi la moghrabieh si cucina in Libano, Siria e Palestina, spesso per pasti speciali in famiglia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "300 g di moghrabieh (cuscus a grani grossi)",
+     "600 g di pezzi di pollo",
+     "1 lattina di ceci da 400 g, scolati",
+     "250 g di cipolline, sbucciate",
+     "1 cucchiaino di carvi macinato, 1 cucchiaino di cannella",
+     "1 stecca di cannella, 2 foglie di alloro",
+     "2 cucchiai di olio vegetale, sale, pepe"
+    ],
+    "steps": [
+     "Cuoci a fuoco lento il pollo con la stecca di cannella, l'alloro e il sale in 1,5 l d'acqua per 40 minuti; filtra e tieni da parte il brodo.",
+     "Rosola le cipolline nell'olio, poi aggiungi la moghrabieh e tostala per 3 minuti.",
+     "Aggiungi le spezie e brodo quanto basta per coprire e cuoci per 15–20 minuti, aggiungendo brodo se serve.",
+     "Unisci i ceci e i pezzi di pollo e scalda bene.",
+     "Servi in piatti fondi con altro brodo caldo."
+    ]
+   },
+   "tips": [
+    "Usa pollo senza pelle e sgrassa il brodo prima di usarlo.",
+    "Pesa la moghrabieh da cruda: circa 75 g a persona è una porzione tipica.",
+    "Aggiungi più ceci e cipolline al posto di una parte delle perle."
+   ]
+  },
+  "el": {
+   "name": "Μογραμπιέ",
+   "origin": "Λίβανος · Λεβάντε",
+   "intro": "Το μογραμπιέ είναι λιβανέζικο μαγειρευτό με χοντρό κουσκούς σε μορφή μαργαριταριών, μαγειρεμένο με κοτόπουλο, ρεβίθια και κρεμμυδάκια σε ζωμό αρωματισμένο με κύμινο Αρμενίας (κάρο) και κανέλα. Τα μαργαριτάρια είναι μαστιχωτά και γυαλιστερά, το κοτόπουλο τρυφερό, και συχνά ο ζωμός ρίχνεται με την κουτάλα πάνω σε κάθε πιάτο. Είναι χορταστικό χειμωνιάτικο φαγητό, που φτιάχνεται παραδοσιακά για οικογενειακές συγκεντρώσεις και σερβίρεται ζεστό σε βαθιά πιάτα.",
+   "history": "Το όνομα σημαίνει «από το Μαγκρέμπ», δείχνοντας τη σχέση με το βορειοαφρικανικό κουσκούς, αν και τα λιβανέζικα μαργαριτάρια είναι πολύ μεγαλύτερα. Σήμερα το μογραμπιέ μαγειρεύεται σε Λίβανο, Συρία και Παλαιστίνη, συχνά για ξεχωριστά οικογενειακά γεύματα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "300 γρ. μογραμπιέ (κουσκούς-μαργαριτάρι)",
+     "600 γρ. κομμάτια κοτόπουλου",
+     "1 κονσέρβα ρεβίθια 400 γρ., στραγγισμένα",
+     "250 γρ. κρεμμυδάκια, καθαρισμένα",
+     "1 κ.γ. αλεσμένο κάρο, 1 κ.γ. κανέλα",
+     "1 ξύλο κανέλας, 2 φύλλα δάφνης",
+     "2 κ.σ. φυτικό λάδι, αλάτι, πιπέρι"
+    ],
+    "steps": [
+     "Σιγοβράστε το κοτόπουλο με το ξύλο κανέλας, τη δάφνη και αλάτι σε 1,5 λίτρο νερό για 40 λεπτά· σουρώστε και κρατήστε τον ζωμό.",
+     "Ροδίστε τα κρεμμυδάκια στο λάδι, προσθέστε το μογραμπιέ και καβουρδίστε για 3 λεπτά.",
+     "Προσθέστε τα μπαχαρικά και όσο ζωμό χρειάζεται για να σκεπαστεί και μαγειρέψτε για 15–20 λεπτά, συμπληρώνοντας ζωμό αν χρειαστεί.",
+     "Ανακατέψτε μέσα τα ρεβίθια και τα κομμάτια κοτόπουλου και ζεστάνετε καλά.",
+     "Σερβίρετε σε βαθιά πιάτα με επιπλέον ζεστό ζωμό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε κοτόπουλο χωρίς πέτσα και ξαφρίστε τον ζωμό πριν τον χρησιμοποιήσετε.",
+    "Ζυγίστε το μογραμπιέ ωμό: περίπου 75 γρ. ανά άτομο είναι μια συνηθισμένη μερίδα.",
+    "Προσθέστε περισσότερα ρεβίθια και κρεμμυδάκια στη θέση μέρους των μαργαριταριών."
+   ]
+  },
+  "ru": {
+   "name": "Могребия",
+   "origin": "Ливан · Левант",
+   "intro": "Могребия — ливанское рагу из крупного жемчужного кускуса, приготовленного с курицей, нутом и мелким луком в бульоне с ароматом тмина и корицы. Шарики упругие и глянцевые, курица нежная, а бульон часто поливают на каждую тарелку. Это сытное зимнее блюдо, традиционно готовящееся для семейных встреч и подаваемое горячим в глубоких тарелках.",
+   "history": "Название означает «из Магриба», отражая связь с североафриканским кускусом, хотя ливанские шарики гораздо крупнее. Сегодня могребию готовят по всему Ливану, Сирии и Палестине, часто для особых семейных трапез.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "300 г могребии (жемчужного кускуса)",
+     "600 г кусочков курицы",
+     "1 банка (400 г) нута, откинутого",
+     "250 г мелкого жемчужного лука, очищенного",
+     "1 ч. л. молотого тмина, 1 ч. л. корицы",
+     "1 палочка корицы, 2 лавровых листа",
+     "2 ст. л. растительного масла, соль, перец"
+    ],
+    "steps": [
+     "Варите курицу с палочкой корицы, лавровым листом и солью в 1,5 л воды 40 минут; процедите и сохраните бульон.",
+     "Обжарьте жемчужный лук в масле, затем добавьте могребию и поджаривайте 3 минуты.",
+     "Добавьте специи и столько бульона, чтобы покрыть, и готовьте 15–20 минут, подливая бульон по мере необходимости.",
+     "Вмешайте нут и кусочки курицы и прогрейте.",
+     "Подавайте в глубоких тарелках с дополнительным горячим бульоном."
+    ]
+   },
+   "tips": [
+    "Используйте курицу без кожи и снимите жир с бульона перед использованием.",
+    "Отмеряйте могребию сухой: около 75 г на человека — типичная порция.",
+    "Добавьте больше нута и лука вместо части шариков."
+   ]
+  },
+  "es": {
+   "name": "Moghrabieh",
+   "origin": "Líbano · Levante",
+   "intro": "El moghrabieh es un guiso libanés de cuscús perlado grande cocinado con pollo, garbanzos y cebollitas en un caldo aromático de alcaravea y canela. Las perlas son chiclosas y brillantes, el pollo tierno, y el caldo suele servirse con un cucharón en cada plato. Es un plato contundente de invierno, preparado tradicionalmente para las reuniones familiares y servido caliente en platos hondos.",
+   "history": "El nombre significa «del Magreb», en alusión a su relación con el cuscús del norte de África, aunque las perlas libanesas son mucho más grandes. Hoy el moghrabieh se cocina en todo Líbano, Siria y Palestina, a menudo para comidas familiares especiales.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "300 g de moghrabieh (cuscús perlado)",
+     "600 g de piezas de pollo",
+     "1 lata de 400 g de garbanzos, escurridos",
+     "250 g de cebollitas perla pequeñas, peladas",
+     "1 cdta. de alcaravea molida, 1 cdta. de canela",
+     "1 raja de canela, 2 hojas de laurel",
+     "2 cda. de aceite vegetal, sal, pimienta"
+    ],
+    "steps": [
+     "Cuece el pollo a fuego bajo con la raja de canela, el laurel y sal en 1.5 l de agua durante 40 minutos; cuela y reserva el caldo.",
+     "Dora las cebollitas en el aceite, luego añade el moghrabieh y tuéstalo 3 minutos.",
+     "Agrega las especias y caldo suficiente para cubrir, y cocina de 15 a 20 minutos, añadiendo caldo según haga falta.",
+     "Incorpora los garbanzos y las piezas de pollo y calienta bien.",
+     "Sirve en platos hondos con más caldo caliente."
+    ]
+   },
+   "tips": [
+    "Usa pollo sin piel y retira la grasa del caldo antes de usarlo.",
+    "Mide el moghrabieh en seco: unos 75 g por persona es una porción habitual.",
+    "Agrega más garbanzos y cebollitas en lugar de parte de las perlas."
+   ],
+   "name_inline": "el moghrabieh"
   }
+ }
 }

@@ -1,182 +1,216 @@
 {
-  "db_key": "khao_tom",
-  "slug": "khao-tom",
-  "emoji": "🥣",
-  "portion_g": 400,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "khao_tom",
+ "slug": "khao-tom",
+ "emoji": "🥣",
+ "portion_g": 400,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Khao Tom (Thai Rice Soup)",
+   "origin": "Thailand",
+   "intro": "Khao tom is a Thai rice soup in which cooked rice grains float in a clear, light broth flavoured with garlic, ginger and fish sauce. Minced pork is cooked in the broth, and the bowl is often finished with a soft egg, fried garlic and cilantro. It is mild and comforting, popular for breakfast and late at night.",
+   "history": "Khao tom reflects the Chinese influence on Thai cooking and is related to Chinese rice porridges, though it keeps the grains whole in a thin broth. It is a common breakfast and late-night meal across Thailand.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 g cooked jasmine rice",
+     "300 g minced pork",
+     "1.5 l water",
+     "20 g ginger, julienned",
+     "4 garlic cloves, minced",
+     "2 tbsp fish sauce",
+     "4 eggs",
+     "1 tbsp oil",
+     "Cilantro to serve"
+    ],
+    "steps": [
+     "Fry the garlic in the oil until golden and set aside.",
+     "Bring the water to a boil with the ginger, add small balls of minced pork and cook 5 minutes.",
+     "Add the rice and fish sauce and simmer 5 minutes.",
+     "Crack the eggs into the soup and poach them for 3–4 minutes.",
+     "Serve topped with fried garlic and cilantro."
+    ]
+   },
+   "tips": [
+    "Use lean minced pork or skip the fried garlic oil.",
+    "Increase the broth and reduce the rice for a lighter bowl.",
+    "Add vegetables such as cabbage or spinach to the pot."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Khao Tom (Thai Rice Soup)",
-      "origin": "Thailand",
-      "intro": "Khao tom is a Thai rice soup in which cooked rice grains float in a clear, light broth flavoured with garlic, ginger and fish sauce. Minced pork is cooked in the broth, and the bowl is often finished with a soft egg, fried garlic and cilantro. It is mild and comforting, popular for breakfast and late at night.",
-      "history": "Khao tom reflects the Chinese influence on Thai cooking and is related to Chinese rice porridges, though it keeps the grains whole in a thin broth. It is a common breakfast and late-night meal across Thailand.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 g cooked jasmine rice",
-          "300 g minced pork",
-          "1.5 l water",
-          "20 g ginger, julienned",
-          "4 garlic cloves, minced",
-          "2 tbsp fish sauce",
-          "4 eggs",
-          "1 tbsp oil",
-          "Cilantro to serve"
-        ],
-        "steps": [
-          "Fry the garlic in the oil until golden and set aside.",
-          "Bring the water to a boil with the ginger, add small balls of minced pork and cook 5 minutes.",
-          "Add the rice and fish sauce and simmer 5 minutes.",
-          "Crack the eggs into the soup and poach them for 3–4 minutes.",
-          "Serve topped with fried garlic and cilantro."
-        ]
-      },
-      "tips": [
-        "Use lean minced pork or skip the fried garlic oil.",
-        "Increase the broth and reduce the rice for a lighter bowl.",
-        "Add vegetables such as cabbage or spinach to the pot."
-      ]
-    },
-    "ar": {
-      "name": "خاو توم (حساء الأرز التايلاندي)",
-      "origin": "تايلاند",
-      "intro": "خاو توم حساء أرز تايلاندي تطفو فيه حبات الأرز المطبوخ في مرق صافٍ خفيف معطّر بالثوم والزنجبيل وصلصة السمك. يُطهى لحم الخنزير المفروم في المرق، وكثيرًا ما يُختم الوعاء ببيضة طرية وثوم مقلي وكزبرة. طعمه معتدل ومريح، ويحظى بشعبية في الفطور وفي ساعات الليل المتأخرة.",
-      "history": "يعكس خاو توم التأثير الصيني في المطبخ التايلاندي، وهو قريب من عصائد الأرز الصينية لكنه يُبقي الحبات كاملة في مرق خفيف. ويُعدّ فطورًا ووجبة ليلية شائعة في أنحاء تايلاند.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 غ أرز ياسمين مطبوخ",
-          "300 غ لحم خنزير مفروم",
-          "1.5 لتر ماء",
-          "20 غ زنجبيل مقطّع أعوادًا",
-          "4 فصوص ثوم مفرومة",
-          "2 ملعقة كبيرة صلصة سمك",
-          "4 بيضات",
-          "1 ملعقة كبيرة زيت",
-          "كزبرة للتقديم"
-        ],
-        "steps": [
-          "حمّر الثوم في الزيت حتى يصفرّ وضعه جانبًا.",
-          "اغلِ الماء مع الزنجبيل، وأضف كرات صغيرة من اللحم المفروم واطهها 5 دقائق.",
-          "أضف الأرز وصلصة السمك واتركه 5 دقائق على نار هادئة.",
-          "اكسر البيض في الحساء واتركه 3–4 دقائق حتى ينضج.",
-          "قدّمه مع الثوم المقلي والكزبرة."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن أو استغنِ عن زيت الثوم المقلي.",
-        "زِد المرق وقلّل الأرز لوعاء أخف.",
-        "أضف خضارًا مثل الملفوف أو السبانخ إلى القدر."
-      ]
-    },
-    "it": {
-      "name": "Khao tom (zuppa di riso thailandese)",
-      "name_inline": "khao tom",
-      "origin": "Thailandia",
-      "intro": "Il khao tom è una zuppa di riso thailandese in cui chicchi di riso cotti galleggiano in un brodo limpido e leggero aromatizzato con aglio, zenzero e salsa di pesce. Nel brodo si cuoce carne di maiale macinata e la ciotola viene spesso completata con un uovo morbido, aglio fritto e coriandolo. È delicato e confortante, apprezzato a colazione e a tarda notte.",
-      "history": "Il khao tom riflette l'influenza cinese sulla cucina thailandese ed è imparentato con i porridge di riso cinesi, pur mantenendo i chicchi interi in un brodo leggero. È un pasto comune a colazione e a tarda notte in tutta la Thailandia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 g di riso jasmine cotto",
-          "300 g di carne di maiale macinata",
-          "1,5 l di acqua",
-          "20 g di zenzero a julienne",
-          "4 spicchi d'aglio tritati",
-          "2 cucchiai di salsa di pesce",
-          "4 uova",
-          "1 cucchiaio di olio",
-          "Coriandolo per servire"
-        ],
-        "steps": [
-          "Friggi l'aglio nell'olio finché non è dorato e mettilo da parte.",
-          "Porta a bollore l'acqua con lo zenzero, aggiungi delle palline di maiale macinato e cuoci per 5 minuti.",
-          "Aggiungi il riso e la salsa di pesce e fai sobbollire per 5 minuti.",
-          "Rompi le uova nella zuppa e cuocile in camicia per 3–4 minuti.",
-          "Servi con aglio fritto e coriandolo."
-        ]
-      },
-      "tips": [
-        "Usa maiale macinato magro oppure ometti l'olio all'aglio fritto.",
-        "Aumenta il brodo e riduci il riso per una ciotola più leggera.",
-        "Aggiungi in pentola verdure come cavolo o spinaci."
-      ]
-    },
-    "el": {
-      "name": "Κάο τομ (ταϊλανδέζικη σούπα ρυζιού)",
-      "name_inline": "κάο τομ",
-      "origin": "Ταϊλάνδη",
-      "intro": "Το κάο τομ είναι ταϊλανδέζικη σούπα ρυζιού στην οποία μαγειρεμένοι κόκκοι ρυζιού επιπλέουν σε καθαρό, ελαφρύ ζωμό αρωματισμένο με σκόρδο, τζίντζερ και σάλτσα ψαριού. Μέσα στον ζωμό μαγειρεύεται χοιρινός κιμάς, και το μπολ συχνά ολοκληρώνεται με ένα μελάτο αυγό, τηγανητό σκόρδο και κόλιανδρο. Είναι ήπιο και παρηγορητικό, δημοφιλές για πρωινό και αργά τη νύχτα.",
-      "history": "Το κάο τομ αντανακλά την κινεζική επιρροή στην ταϊλανδέζικη κουζίνα και συγγενεύει με τους κινεζικούς χυλούς ρυζιού, αν και κρατά τους κόκκους ολόκληρους σε αραιό ζωμό. Είναι συνηθισμένο πρωινό και νυχτερινό γεύμα σε όλη την Ταϊλάνδη.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 γρ. μαγειρεμένο ρύζι jasmine",
-          "300 γρ. χοιρινός κιμάς",
-          "1,5 λίτρο νερό",
-          "20 γρ. τζίντζερ, σε λεπτά σπιρτάκια",
-          "4 σκελίδες σκόρδο, ψιλοκομμένες",
-          "2 κ.σ. σάλτσα ψαριού",
-          "4 αυγά",
-          "1 κ.σ. λάδι",
-          "Κόλιανδρος για το σερβίρισμα"
-        ],
-        "steps": [
-          "Τηγανίστε το σκόρδο στο λάδι μέχρι να ροδίσει και βάλτε το στην άκρη.",
-          "Βράστε το νερό με το τζίντζερ, προσθέστε μικρά μπαλάκια από τον χοιρινό κιμά και μαγειρέψτε για 5 λεπτά.",
-          "Προσθέστε το ρύζι και τη σάλτσα ψαριού και σιγοβράστε για 5 λεπτά.",
-          "Σπάστε τα αυγά μέσα στη σούπα και ποσάρετέ τα για 3–4 λεπτά.",
-          "Σερβίρετε με τηγανητό σκόρδο και κόλιανδρο από πάνω."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή παραλείψτε το λάδι με το τηγανητό σκόρδο.",
-        "Αυξήστε τον ζωμό και μειώστε το ρύζι για πιο ελαφρύ μπολ.",
-        "Προσθέστε στην κατσαρόλα λαχανικά όπως λάχανο ή σπανάκι."
-      ]
-    },
-    "ru": {
-      "name": "Кхао том (тайский рисовый суп)",
-      "origin": "Таиланд",
-      "intro": "Кхао том — тайский рисовый суп, в котором зёрна варёного риса плавают в прозрачном лёгком бульоне с чесноком, имбирём и рыбным соусом. Свиной фарш варится прямо в бульоне, а миску часто завершают мягким яйцом, жареным чесноком и кинзой. Суп мягкий и согревающий, популярный на завтрак и поздно вечером.",
-      "history": "Кхао том отражает китайское влияние на тайскую кухню и родственен китайским рисовым кашам, но сохраняет зёрна целыми в жидком бульоне. Это распространённый завтрак и ночная еда по всему Таиланду.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "400 г варёного жасминового риса",
-          "300 г свиного фарша",
-          "1,5 л воды",
-          "20 г имбиря, нарезанного соломкой",
-          "4 зубчика чеснока, измельчённых",
-          "2 ст. л. рыбного соуса",
-          "4 яйца",
-          "1 ст. л. масла",
-          "Кинза для подачи"
-        ],
-        "steps": [
-          "Обжарьте чеснок в масле до золотистого цвета и отложите.",
-          "Доведите воду до кипения с имбирём, добавьте маленькие шарики из свиного фарша и варите 5 минут.",
-          "Добавьте рис и рыбный соус и томите 5 минут.",
-          "Разбейте яйца в суп и варите-пашотируйте 3–4 минуты.",
-          "Подавайте, посыпав жареным чесноком и кинзой."
-        ]
-      },
-      "tips": [
-        "Используйте постный свиной фарш или не добавляйте жареный чеснок с маслом.",
-        "Увеличьте количество бульона и уменьшите рис для более лёгкой миски.",
-        "Добавьте в кастрюлю овощи, например капусту или шпинат."
-      ],
-      "name_inline": "кхао том"
-    }
+  "ar": {
+   "name": "خاو توم (حساء الأرز التايلاندي)",
+   "origin": "تايلاند",
+   "intro": "خاو توم حساء أرز تايلاندي تطفو فيه حبات الأرز المطبوخ في مرق صافٍ خفيف معطّر بالثوم والزنجبيل وصلصة السمك. يُطهى لحم الخنزير المفروم في المرق، وكثيرًا ما يُختم الوعاء ببيضة طرية وثوم مقلي وكزبرة. طعمه معتدل ومريح، ويحظى بشعبية في الفطور وفي ساعات الليل المتأخرة.",
+   "history": "يعكس خاو توم التأثير الصيني في المطبخ التايلاندي، وهو قريب من عصائد الأرز الصينية لكنه يُبقي الحبات كاملة في مرق خفيف. ويُعدّ فطورًا ووجبة ليلية شائعة في أنحاء تايلاند.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 غ أرز ياسمين مطبوخ",
+     "300 غ لحم خنزير مفروم",
+     "1.5 لتر ماء",
+     "20 غ زنجبيل مقطّع أعوادًا",
+     "4 فصوص ثوم مفرومة",
+     "2 ملعقة كبيرة صلصة سمك",
+     "4 بيضات",
+     "1 ملعقة كبيرة زيت",
+     "كزبرة للتقديم"
+    ],
+    "steps": [
+     "حمّر الثوم في الزيت حتى يصفرّ وضعه جانبًا.",
+     "اغلِ الماء مع الزنجبيل، وأضف كرات صغيرة من اللحم المفروم واطهها 5 دقائق.",
+     "أضف الأرز وصلصة السمك واتركه 5 دقائق على نار هادئة.",
+     "اكسر البيض في الحساء واتركه 3–4 دقائق حتى ينضج.",
+     "قدّمه مع الثوم المقلي والكزبرة."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن أو استغنِ عن زيت الثوم المقلي.",
+    "زِد المرق وقلّل الأرز لوعاء أخف.",
+    "أضف خضارًا مثل الملفوف أو السبانخ إلى القدر."
+   ]
+  },
+  "it": {
+   "name": "Khao tom (zuppa di riso thailandese)",
+   "name_inline": "khao tom",
+   "origin": "Thailandia",
+   "intro": "Il khao tom è una zuppa di riso thailandese in cui chicchi di riso cotti galleggiano in un brodo limpido e leggero aromatizzato con aglio, zenzero e salsa di pesce. Nel brodo si cuoce carne di maiale macinata e la ciotola viene spesso completata con un uovo morbido, aglio fritto e coriandolo. È delicato e confortante, apprezzato a colazione e a tarda notte.",
+   "history": "Il khao tom riflette l'influenza cinese sulla cucina thailandese ed è imparentato con i porridge di riso cinesi, pur mantenendo i chicchi interi in un brodo leggero. È un pasto comune a colazione e a tarda notte in tutta la Thailandia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 g di riso jasmine cotto",
+     "300 g di carne di maiale macinata",
+     "1,5 l di acqua",
+     "20 g di zenzero a julienne",
+     "4 spicchi d'aglio tritati",
+     "2 cucchiai di salsa di pesce",
+     "4 uova",
+     "1 cucchiaio di olio",
+     "Coriandolo per servire"
+    ],
+    "steps": [
+     "Friggi l'aglio nell'olio finché non è dorato e mettilo da parte.",
+     "Porta a bollore l'acqua con lo zenzero, aggiungi delle palline di maiale macinato e cuoci per 5 minuti.",
+     "Aggiungi il riso e la salsa di pesce e fai sobbollire per 5 minuti.",
+     "Rompi le uova nella zuppa e cuocile in camicia per 3–4 minuti.",
+     "Servi con aglio fritto e coriandolo."
+    ]
+   },
+   "tips": [
+    "Usa maiale macinato magro oppure ometti l'olio all'aglio fritto.",
+    "Aumenta il brodo e riduci il riso per una ciotola più leggera.",
+    "Aggiungi in pentola verdure come cavolo o spinaci."
+   ]
+  },
+  "el": {
+   "name": "Κάο τομ (ταϊλανδέζικη σούπα ρυζιού)",
+   "name_inline": "κάο τομ",
+   "origin": "Ταϊλάνδη",
+   "intro": "Το κάο τομ είναι ταϊλανδέζικη σούπα ρυζιού στην οποία μαγειρεμένοι κόκκοι ρυζιού επιπλέουν σε καθαρό, ελαφρύ ζωμό αρωματισμένο με σκόρδο, τζίντζερ και σάλτσα ψαριού. Μέσα στον ζωμό μαγειρεύεται χοιρινός κιμάς, και το μπολ συχνά ολοκληρώνεται με ένα μελάτο αυγό, τηγανητό σκόρδο και κόλιανδρο. Είναι ήπιο και παρηγορητικό, δημοφιλές για πρωινό και αργά τη νύχτα.",
+   "history": "Το κάο τομ αντανακλά την κινεζική επιρροή στην ταϊλανδέζικη κουζίνα και συγγενεύει με τους κινεζικούς χυλούς ρυζιού, αν και κρατά τους κόκκους ολόκληρους σε αραιό ζωμό. Είναι συνηθισμένο πρωινό και νυχτερινό γεύμα σε όλη την Ταϊλάνδη.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 γρ. μαγειρεμένο ρύζι jasmine",
+     "300 γρ. χοιρινός κιμάς",
+     "1,5 λίτρο νερό",
+     "20 γρ. τζίντζερ, σε λεπτά σπιρτάκια",
+     "4 σκελίδες σκόρδο, ψιλοκομμένες",
+     "2 κ.σ. σάλτσα ψαριού",
+     "4 αυγά",
+     "1 κ.σ. λάδι",
+     "Κόλιανδρος για το σερβίρισμα"
+    ],
+    "steps": [
+     "Τηγανίστε το σκόρδο στο λάδι μέχρι να ροδίσει και βάλτε το στην άκρη.",
+     "Βράστε το νερό με το τζίντζερ, προσθέστε μικρά μπαλάκια από τον χοιρινό κιμά και μαγειρέψτε για 5 λεπτά.",
+     "Προσθέστε το ρύζι και τη σάλτσα ψαριού και σιγοβράστε για 5 λεπτά.",
+     "Σπάστε τα αυγά μέσα στη σούπα και ποσάρετέ τα για 3–4 λεπτά.",
+     "Σερβίρετε με τηγανητό σκόρδο και κόλιανδρο από πάνω."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή παραλείψτε το λάδι με το τηγανητό σκόρδο.",
+    "Αυξήστε τον ζωμό και μειώστε το ρύζι για πιο ελαφρύ μπολ.",
+    "Προσθέστε στην κατσαρόλα λαχανικά όπως λάχανο ή σπανάκι."
+   ]
+  },
+  "ru": {
+   "name": "Кхао том (тайский рисовый суп)",
+   "origin": "Таиланд",
+   "intro": "Кхао том — тайский рисовый суп, в котором зёрна варёного риса плавают в прозрачном лёгком бульоне с чесноком, имбирём и рыбным соусом. Свиной фарш варится прямо в бульоне, а миску часто завершают мягким яйцом, жареным чесноком и кинзой. Суп мягкий и согревающий, популярный на завтрак и поздно вечером.",
+   "history": "Кхао том отражает китайское влияние на тайскую кухню и родственен китайским рисовым кашам, но сохраняет зёрна целыми в жидком бульоне. Это распространённый завтрак и ночная еда по всему Таиланду.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 г варёного жасминового риса",
+     "300 г свиного фарша",
+     "1,5 л воды",
+     "20 г имбиря, нарезанного соломкой",
+     "4 зубчика чеснока, измельчённых",
+     "2 ст. л. рыбного соуса",
+     "4 яйца",
+     "1 ст. л. масла",
+     "Кинза для подачи"
+    ],
+    "steps": [
+     "Обжарьте чеснок в масле до золотистого цвета и отложите.",
+     "Доведите воду до кипения с имбирём, добавьте маленькие шарики из свиного фарша и варите 5 минут.",
+     "Добавьте рис и рыбный соус и томите 5 минут.",
+     "Разбейте яйца в суп и варите-пашотируйте 3–4 минуты.",
+     "Подавайте, посыпав жареным чесноком и кинзой."
+    ]
+   },
+   "tips": [
+    "Используйте постный свиной фарш или не добавляйте жареный чеснок с маслом.",
+    "Увеличьте количество бульона и уменьшите рис для более лёгкой миски.",
+    "Добавьте в кастрюлю овощи, например капусту или шпинат."
+   ],
+   "name_inline": "кхао том"
+  },
+  "es": {
+   "name": "Khao tom (sopa tailandesa de arroz)",
+   "origin": "Tailandia",
+   "intro": "El khao tom es una sopa tailandesa de arroz en la que los granos cocidos flotan en un caldo claro y ligero aromatizado con ajo, jengibre y salsa de pescado. La carne de cerdo molida se cuece en el caldo, y el plato suele rematarse con un huevo tierno, ajo frito y cilantro. Es suave y reconfortante, y muy popular en el desayuno y a altas horas de la noche.",
+   "history": "El khao tom refleja la influencia china en la cocina tailandesa y está emparentado con las gachas de arroz chinas, aunque conserva los granos enteros en un caldo ligero. Es una comida habitual del desayuno y de la noche en toda Tailandia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "400 g de arroz jazmín cocido",
+     "300 g de carne de cerdo molida",
+     "1,5 l de agua",
+     "20 g de jengibre, en juliana",
+     "4 dientes de ajo, picados",
+     "2 cda. de salsa de pescado",
+     "4 huevos",
+     "1 cda. de aceite",
+     "Cilantro para servir"
+    ],
+    "steps": [
+     "Fríe el ajo en el aceite hasta que esté dorado y reserva.",
+     "Lleva el agua a ebullición con el jengibre, añade bolitas pequeñas de carne de cerdo y cuece 5 minutos.",
+     "Agrega el arroz y la salsa de pescado y cuece a fuego lento 5 minutos.",
+     "Rompe los huevos en la sopa y escálfalos de 3 a 4 minutos.",
+     "Sirve con el ajo frito y el cilantro por encima."
+    ]
+   },
+   "tips": [
+    "Usa carne de cerdo molida magra o prescinde del aceite del ajo frito.",
+    "Aumenta el caldo y reduce el arroz para un plato más ligero.",
+    "Añade verduras como col o espinacas a la olla."
+   ],
+   "name_inline": "el khao tom"
   }
+ }
 }

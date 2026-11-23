@@ -1,164 +1,195 @@
 {
-  "db_key": "dakos",
-  "slug": "dakos",
-  "emoji": "🍅",
-  "portion_g": 200,
-  "country": "GR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dakos",
+ "slug": "dakos",
+ "emoji": "🍅",
+ "portion_g": 200,
+ "country": "GR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Dakos",
+   "origin": "Greece · Crete",
+   "intro": "Dakos is a Cretan meze of hard barley rusk topped with grated ripe tomato, crumbled feta, olive oil, dried oregano and olives. The rusk is briefly moistened so it softens slightly under the juicy tomato while keeping some crunch. It is eaten as a starter or light meal, especially in summer.",
+   "history": "Barley rusks (paximadia) were baked twice in Crete so they would keep for months, a practical food for shepherds and farmers. Topping them with tomato, cheese and olive oil became the island's classic snack, and dakos is now served across Greece.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "2 large barley rusks",
+     "2 ripe tomatoes, grated, skins discarded",
+     "80 g feta, crumbled",
+     "2 tbsp olive oil",
+     "1/2 tsp dried oregano",
+     "6–8 olives",
+     "Salt"
+    ],
+    "steps": [
+     "Sprinkle the rusks with a little water to soften the surface slightly.",
+     "Season the grated tomato with salt and spoon it over the rusks.",
+     "Top with the crumbled feta and olives.",
+     "Drizzle with olive oil, sprinkle with oregano and let stand for 5 minutes before serving."
+    ]
+   },
+   "tips": [
+    "Use 1 tbsp olive oil for two rusks instead of 2; 1 tbsp oil ≈ 120 kcal.",
+    "Use 50 g feta and add extra tomato for volume.",
+    "Serve one rusk alongside a large green salad as a light meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Dakos",
-      "origin": "Greece · Crete",
-      "intro": "Dakos is a Cretan meze of hard barley rusk topped with grated ripe tomato, crumbled feta, olive oil, dried oregano and olives. The rusk is briefly moistened so it softens slightly under the juicy tomato while keeping some crunch. It is eaten as a starter or light meal, especially in summer.",
-      "history": "Barley rusks (paximadia) were baked twice in Crete so they would keep for months, a practical food for shepherds and farmers. Topping them with tomato, cheese and olive oil became the island's classic snack, and dakos is now served across Greece.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "2 large barley rusks",
-          "2 ripe tomatoes, grated, skins discarded",
-          "80 g feta, crumbled",
-          "2 tbsp olive oil",
-          "1/2 tsp dried oregano",
-          "6–8 olives",
-          "Salt"
-        ],
-        "steps": [
-          "Sprinkle the rusks with a little water to soften the surface slightly.",
-          "Season the grated tomato with salt and spoon it over the rusks.",
-          "Top with the crumbled feta and olives.",
-          "Drizzle with olive oil, sprinkle with oregano and let stand for 5 minutes before serving."
-        ]
-      },
-      "tips": [
-        "Use 1 tbsp olive oil for two rusks instead of 2; 1 tbsp oil ≈ 120 kcal.",
-        "Use 50 g feta and add extra tomato for volume.",
-        "Serve one rusk alongside a large green salad as a light meal."
-      ]
-    },
-    "ar": {
-      "name": "داكوس",
-      "origin": "اليونان · كريت",
-      "intro": "الداكوس مقبلات كريتية من خبز الشعير المحمّص القاسي، تعلوه طماطم ناضجة مبشورة وجبنة فيتا مفتتة وزيت زيتون وأوريجانو مجفف وزيتون. يُرطَّب الخبز قليلاً ليلين تحت الطماطم العصيرية مع احتفاظه ببعض القرمشة. يؤكل مقبلاً أو وجبة خفيفة، خاصة في الصيف.",
-      "history": "كان خبز الشعير المحمّص (باكسيمادي) يُخبز مرتين في كريت ليُحفظ لأشهر، وكان طعاماً عملياً للرعاة والمزارعين. وأصبحت تغطيته بالطماطم والجبن وزيت الزيتون الوجبة الخفيفة الكلاسيكية للجزيرة، ويُقدَّم الداكوس اليوم في أنحاء اليونان.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "قطعتان كبيرتان من خبز الشعير المحمّص",
-          "حبتا طماطم ناضجتان مبشورتان دون القشر",
-          "80 غ جبنة فيتا مفتتة",
-          "2 ملعقة كبيرة زيت زيتون",
-          "½ ملعقة صغيرة أوريجانو مجفف",
-          "6–8 حبات زيتون",
-          "ملح"
-        ],
-        "steps": [
-          "رشّ الخبز بقليل من الماء ليلين سطحه قليلاً.",
-          "تبّل الطماطم المبشورة بالملح وضعها بالملعقة فوق الخبز.",
-          "وزّع الفيتا المفتتة والزيتون على الوجه.",
-          "رشّ زيت الزيتون والأوريجانو واتركه 5 دقائق قبل التقديم."
-        ]
-      },
-      "tips": [
-        "استخدم ملعقة زيت زيتون واحدة لقطعتين بدل ملعقتين؛ ملعقة كبيرة من الزيت ≈ 120 سعرة.",
-        "استخدم 50 غ فيتا وأضف مزيداً من الطماطم لزيادة الحجم.",
-        "قدّم قطعة واحدة مع طبق كبير من السلطة الخضراء كوجبة خفيفة."
-      ]
-    },
-    "it": {
-      "name": "Dakos",
-      "origin": "Grecia · Creta",
-      "intro": "Il dakos è un meze cretese di friselle d'orzo dure coperte di pomodoro maturo grattugiato, feta sbriciolata, olio d'oliva, origano secco e olive. La frisella viene inumidita brevemente, così si ammorbidisce un po' sotto il pomodoro succoso pur restando in parte croccante. Si mangia come antipasto o pasto leggero, soprattutto d'estate.",
-      "history": "A Creta le friselle d'orzo (paximadia) venivano cotte due volte per conservarle per mesi, un cibo pratico per pastori e contadini. Condirle con pomodoro, formaggio e olio d'oliva è diventato lo spuntino classico dell'isola, e oggi il dakos si serve in tutta la Grecia.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "2 grandi friselle d'orzo",
-          "2 pomodori maturi grattugiati, senza buccia",
-          "80 g di feta sbriciolata",
-          "2 cucchiai di olio d'oliva",
-          "1/2 cucchiaino di origano secco",
-          "6–8 olive",
-          "Sale"
-        ],
-        "steps": [
-          "Spruzza le friselle con un po' d'acqua per ammorbidire leggermente la superficie.",
-          "Sala il pomodoro grattugiato e distribuiscilo sulle friselle.",
-          "Completa con la feta sbriciolata e le olive.",
-          "Condisci con un filo d'olio d'oliva, cospargi di origano e lascia riposare 5 minuti prima di servire."
-        ]
-      },
-      "tips": [
-        "Usa 1 cucchiaio di olio d'oliva per due friselle invece di 2; 1 cucchiaio di olio ≈ 120 kcal.",
-        "Usa 50 g di feta e aggiungi altro pomodoro per dare volume.",
-        "Servi una frisella con una grande insalata verde come pasto leggero."
-      ]
-    },
-    "el": {
-      "name": "Ντάκος",
-      "origin": "Ελλάδα · Κρήτη",
-      "intro": "Ο ντάκος είναι κρητικός μεζές από σκληρό κριθαρένιο παξιμάδι με τριμμένη ώριμη ντομάτα, θρυμματισμένη φέτα, ελαιόλαδο, ξερή ρίγανη και ελιές. Το παξιμάδι βρέχεται για λίγο, ώστε να μαλακώνει ελαφρά κάτω από τη ζουμερή ντομάτα, κρατώντας όμως λίγη τραγανότητα. Τρώγεται ως ορεκτικό ή ελαφρύ γεύμα, ιδιαίτερα το καλοκαίρι.",
-      "history": "Στην Κρήτη τα κριθαρένια παξιμάδια ψήνονταν δύο φορές για να κρατούν μήνες, ένα πρακτικό φαγητό για βοσκούς και αγρότες. Το να τα στολίζουν με ντομάτα, τυρί και ελαιόλαδο έγινε το κλασικό σνακ του νησιού, και σήμερα ο ντάκος σερβίρεται σε όλη την Ελλάδα.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "2 μεγάλα κριθαρένια παξιμάδια",
-          "2 ώριμες ντομάτες τριμμένες, χωρίς τη φλούδα",
-          "80 γρ. φέτα θρυμματισμένη",
-          "2 κ.σ. ελαιόλαδο",
-          "1/2 κ.γ. ξερή ρίγανη",
-          "6–8 ελιές",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Ραντίστε τα παξιμάδια με λίγο νερό για να μαλακώσει ελαφρά η επιφάνειά τους.",
-          "Αλατίστε την τριμμένη ντομάτα και απλώστε τη με το κουτάλι πάνω στα παξιμάδια.",
-          "Προσθέστε από πάνω τη θρυμματισμένη φέτα και τις ελιές.",
-          "Περιχύστε με το ελαιόλαδο, πασπαλίστε με ρίγανη και αφήστε 5 λεπτά πριν από το σερβίρισμα."
-        ]
-      },
-      "tips": [
-        "Βάλτε 1 κ.σ. ελαιόλαδο για δύο παξιμάδια αντί για 2· 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Βάλτε 50 γρ. φέτα και περισσότερη ντομάτα για όγκο.",
-        "Σερβίρετε ένα παξιμάδι μαζί με μεγάλη πράσινη σαλάτα ως ελαφρύ γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Дакос",
-      "origin": "Греция · Крит",
-      "intro": "Дакос — критская мезе из твёрдого ячменного сухаря с тёртым спелым помидором, крошёной фетой, оливковым маслом, сушёным орегано и оливками. Сухарь слегка смачивают, чтобы он немного размягчился под сочным помидором, но сохранил хруст. Его едят как закуску или лёгкую еду, особенно летом.",
-      "history": "Ячменные сухари (паксимадия) на Крите выпекали дважды, чтобы они хранились месяцами, — практичная еда для пастухов и земледельцев. Украшенные помидором, сыром и оливковым маслом, они стали классической закуской острова, а дакос теперь подают по всей Греции.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 10,
-        "ingredients": [
-          "2 больших ячменных сухаря",
-          "2 спелых помидора, натёртых на тёрке, кожуру выбросить",
-          "80 г феты, раскрошенной",
-          "2 ст. л. оливкового масла",
-          "1/2 ч. л. сушёного орегано",
-          "6–8 оливок",
-          "Соль"
-        ],
-        "steps": [
-          "Сбрызните сухари небольшим количеством воды, чтобы поверхность слегка размягчилась.",
-          "Посолите тёртый помидор и выложите его ложкой на сухари.",
-          "Положите сверху раскрошенную фету и оливки.",
-          "Полейте оливковым маслом, посыпьте орегано и дайте постоять 5 минут перед подачей."
-        ]
-      },
-      "tips": [
-        "Возьмите 1 ст. л. оливкового масла на два сухаря вместо 2; 1 ст. л. масла ≈ 120 ккал.",
-        "Берите 50 г феты и добавьте больше помидора для объёма.",
-        "Подайте один сухарь с большим зелёным салатом как лёгкую еду."
-      ]
-    }
+  "ar": {
+   "name": "داكوس",
+   "origin": "اليونان · كريت",
+   "intro": "الداكوس مقبلات كريتية من خبز الشعير المحمّص القاسي، تعلوه طماطم ناضجة مبشورة وجبنة فيتا مفتتة وزيت زيتون وأوريجانو مجفف وزيتون. يُرطَّب الخبز قليلاً ليلين تحت الطماطم العصيرية مع احتفاظه ببعض القرمشة. يؤكل مقبلاً أو وجبة خفيفة، خاصة في الصيف.",
+   "history": "كان خبز الشعير المحمّص (باكسيمادي) يُخبز مرتين في كريت ليُحفظ لأشهر، وكان طعاماً عملياً للرعاة والمزارعين. وأصبحت تغطيته بالطماطم والجبن وزيت الزيتون الوجبة الخفيفة الكلاسيكية للجزيرة، ويُقدَّم الداكوس اليوم في أنحاء اليونان.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "قطعتان كبيرتان من خبز الشعير المحمّص",
+     "حبتا طماطم ناضجتان مبشورتان دون القشر",
+     "80 غ جبنة فيتا مفتتة",
+     "2 ملعقة كبيرة زيت زيتون",
+     "½ ملعقة صغيرة أوريجانو مجفف",
+     "6–8 حبات زيتون",
+     "ملح"
+    ],
+    "steps": [
+     "رشّ الخبز بقليل من الماء ليلين سطحه قليلاً.",
+     "تبّل الطماطم المبشورة بالملح وضعها بالملعقة فوق الخبز.",
+     "وزّع الفيتا المفتتة والزيتون على الوجه.",
+     "رشّ زيت الزيتون والأوريجانو واتركه 5 دقائق قبل التقديم."
+    ]
+   },
+   "tips": [
+    "استخدم ملعقة زيت زيتون واحدة لقطعتين بدل ملعقتين؛ ملعقة كبيرة من الزيت ≈ 120 سعرة.",
+    "استخدم 50 غ فيتا وأضف مزيداً من الطماطم لزيادة الحجم.",
+    "قدّم قطعة واحدة مع طبق كبير من السلطة الخضراء كوجبة خفيفة."
+   ]
+  },
+  "it": {
+   "name": "Dakos",
+   "origin": "Grecia · Creta",
+   "intro": "Il dakos è un meze cretese di friselle d'orzo dure coperte di pomodoro maturo grattugiato, feta sbriciolata, olio d'oliva, origano secco e olive. La frisella viene inumidita brevemente, così si ammorbidisce un po' sotto il pomodoro succoso pur restando in parte croccante. Si mangia come antipasto o pasto leggero, soprattutto d'estate.",
+   "history": "A Creta le friselle d'orzo (paximadia) venivano cotte due volte per conservarle per mesi, un cibo pratico per pastori e contadini. Condirle con pomodoro, formaggio e olio d'oliva è diventato lo spuntino classico dell'isola, e oggi il dakos si serve in tutta la Grecia.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "2 grandi friselle d'orzo",
+     "2 pomodori maturi grattugiati, senza buccia",
+     "80 g di feta sbriciolata",
+     "2 cucchiai di olio d'oliva",
+     "1/2 cucchiaino di origano secco",
+     "6–8 olive",
+     "Sale"
+    ],
+    "steps": [
+     "Spruzza le friselle con un po' d'acqua per ammorbidire leggermente la superficie.",
+     "Sala il pomodoro grattugiato e distribuiscilo sulle friselle.",
+     "Completa con la feta sbriciolata e le olive.",
+     "Condisci con un filo d'olio d'oliva, cospargi di origano e lascia riposare 5 minuti prima di servire."
+    ]
+   },
+   "tips": [
+    "Usa 1 cucchiaio di olio d'oliva per due friselle invece di 2; 1 cucchiaio di olio ≈ 120 kcal.",
+    "Usa 50 g di feta e aggiungi altro pomodoro per dare volume.",
+    "Servi una frisella con una grande insalata verde come pasto leggero."
+   ]
+  },
+  "el": {
+   "name": "Ντάκος",
+   "origin": "Ελλάδα · Κρήτη",
+   "intro": "Ο ντάκος είναι κρητικός μεζές από σκληρό κριθαρένιο παξιμάδι με τριμμένη ώριμη ντομάτα, θρυμματισμένη φέτα, ελαιόλαδο, ξερή ρίγανη και ελιές. Το παξιμάδι βρέχεται για λίγο, ώστε να μαλακώνει ελαφρά κάτω από τη ζουμερή ντομάτα, κρατώντας όμως λίγη τραγανότητα. Τρώγεται ως ορεκτικό ή ελαφρύ γεύμα, ιδιαίτερα το καλοκαίρι.",
+   "history": "Στην Κρήτη τα κριθαρένια παξιμάδια ψήνονταν δύο φορές για να κρατούν μήνες, ένα πρακτικό φαγητό για βοσκούς και αγρότες. Το να τα στολίζουν με ντομάτα, τυρί και ελαιόλαδο έγινε το κλασικό σνακ του νησιού, και σήμερα ο ντάκος σερβίρεται σε όλη την Ελλάδα.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "2 μεγάλα κριθαρένια παξιμάδια",
+     "2 ώριμες ντομάτες τριμμένες, χωρίς τη φλούδα",
+     "80 γρ. φέτα θρυμματισμένη",
+     "2 κ.σ. ελαιόλαδο",
+     "1/2 κ.γ. ξερή ρίγανη",
+     "6–8 ελιές",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Ραντίστε τα παξιμάδια με λίγο νερό για να μαλακώσει ελαφρά η επιφάνειά τους.",
+     "Αλατίστε την τριμμένη ντομάτα και απλώστε τη με το κουτάλι πάνω στα παξιμάδια.",
+     "Προσθέστε από πάνω τη θρυμματισμένη φέτα και τις ελιές.",
+     "Περιχύστε με το ελαιόλαδο, πασπαλίστε με ρίγανη και αφήστε 5 λεπτά πριν από το σερβίρισμα."
+    ]
+   },
+   "tips": [
+    "Βάλτε 1 κ.σ. ελαιόλαδο για δύο παξιμάδια αντί για 2· 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Βάλτε 50 γρ. φέτα και περισσότερη ντομάτα για όγκο.",
+    "Σερβίρετε ένα παξιμάδι μαζί με μεγάλη πράσινη σαλάτα ως ελαφρύ γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Дакос",
+   "origin": "Греция · Крит",
+   "intro": "Дакос — критская мезе из твёрдого ячменного сухаря с тёртым спелым помидором, крошёной фетой, оливковым маслом, сушёным орегано и оливками. Сухарь слегка смачивают, чтобы он немного размягчился под сочным помидором, но сохранил хруст. Его едят как закуску или лёгкую еду, особенно летом.",
+   "history": "Ячменные сухари (паксимадия) на Крите выпекали дважды, чтобы они хранились месяцами, — практичная еда для пастухов и земледельцев. Украшенные помидором, сыром и оливковым маслом, они стали классической закуской острова, а дакос теперь подают по всей Греции.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "2 больших ячменных сухаря",
+     "2 спелых помидора, натёртых на тёрке, кожуру выбросить",
+     "80 г феты, раскрошенной",
+     "2 ст. л. оливкового масла",
+     "1/2 ч. л. сушёного орегано",
+     "6–8 оливок",
+     "Соль"
+    ],
+    "steps": [
+     "Сбрызните сухари небольшим количеством воды, чтобы поверхность слегка размягчилась.",
+     "Посолите тёртый помидор и выложите его ложкой на сухари.",
+     "Положите сверху раскрошенную фету и оливки.",
+     "Полейте оливковым маслом, посыпьте орегано и дайте постоять 5 минут перед подачей."
+    ]
+   },
+   "tips": [
+    "Возьмите 1 ст. л. оливкового масла на два сухаря вместо 2; 1 ст. л. масла ≈ 120 ккал.",
+    "Берите 50 г феты и добавьте больше помидора для объёма.",
+    "Подайте один сухарь с большим зелёным салатом как лёгкую еду."
+   ]
+  },
+  "es": {
+   "name": "Dakos",
+   "origin": "Grecia · Creta",
+   "intro": "El dakos es un meze cretense de pan duro de cebada (rusk) cubierto con jitomate maduro rallado, queso feta desmenuzado, aceite de oliva, orégano seco y aceitunas. El pan se humedece ligeramente para que se ablande bajo el jugoso jitomate sin perder del todo su crocancia. Se come como entrada o comida ligera, sobre todo en verano.",
+   "history": "Los panes duros de cebada (paximadia) se horneaban dos veces en Creta para que duraran meses, un alimento práctico para pastores y agricultores. Cubrirlos con jitomate, queso y aceite de oliva se convirtió en el bocadillo clásico de la isla, y hoy el dakos se sirve en toda Grecia.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 10,
+    "ingredients": [
+     "2 panes duros de cebada grandes",
+     "2 jitomates maduros, rallados, sin la piel",
+     "80 g de queso feta, desmenuzado",
+     "2 cdas. de aceite de oliva",
+     "1/2 cdta. de orégano seco",
+     "6–8 aceitunas",
+     "Sal"
+    ],
+    "steps": [
+     "Rocía el pan con un poco de agua para ablandar ligeramente la superficie.",
+     "Sazona el jitomate rallado con sal y distribúyelo sobre el pan.",
+     "Cubre con el feta desmenuzado y las aceitunas.",
+     "Rocía con aceite de oliva, espolvorea el orégano y deja reposar 5 minutos antes de servir."
+    ]
+   },
+   "tips": [
+    "Usa 1 cda. de aceite de oliva para los dos panes en lugar de 2; 1 cda. de aceite ≈ 120 kcal.",
+    "Usa 50 g de feta y agrega más jitomate para dar volumen.",
+    "Sirve un pan junto con una ensalada verde grande como comida ligera."
+   ],
+   "name_inline": "el dakos"
   }
+ }
 }

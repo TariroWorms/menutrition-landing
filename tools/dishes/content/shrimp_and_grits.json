@@ -1,176 +1,209 @@
 {
-  "db_key": "shrimp_and_grits",
-  "slug": "shrimp-and-grits",
-  "emoji": "🍤",
-  "portion_g": 350,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "shrimp_and_grits",
+ "slug": "shrimp-and-grits",
+ "emoji": "🍤",
+ "portion_g": 350,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Shrimp and Grits",
+   "origin": "United States · South Carolina Lowcountry",
+   "intro": "Shrimp and grits is a Southern dish of creamy stone-ground corn grits, enriched with butter and cheese, topped with shrimp sautéed in bacon fat with crisp bacon pieces and scallions. The grits are smooth and comforting, the shrimp sweet and briny, and the bacon adds smoke and crunch. It is served for breakfast, brunch or dinner.",
+   "history": "Shrimp and grits is a traditional dish of the coastal Lowcountry of South Carolina and Georgia, long eaten there as a simple breakfast. Chefs in the 1980s, notably Bill Neal at Crook's Corner in Chapel Hill, helped turn it into a well-known restaurant dish across the American South.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "150 g stone-ground grits",
+     "750 ml water",
+     "40 g grated cheese",
+     "20 g butter",
+     "400 g shrimp, peeled",
+     "100 g bacon, diced",
+     "3 scallions, sliced",
+     "Salt, pepper and lemon"
+    ],
+    "steps": [
+     "Bring the water to the boil with salt, whisk in the grits and simmer 20–25 minutes, stirring, until thick.",
+     "Stir in the butter and cheese and keep warm.",
+     "Fry the bacon until crisp; remove, leaving a little fat in the pan.",
+     "Sauté the shrimp in the bacon fat 2–3 minutes, add the scallions, bacon and a squeeze of lemon.",
+     "Spoon the shrimp over the grits and serve."
+    ]
+   },
+   "tips": [
+    "Halve the butter and cheese; the grits stay creamy if you stir often.",
+    "Use less bacon and pour off most of its fat before cooking the shrimp.",
+    "Serve a smaller scoop of grits with more shrimp."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Shrimp and Grits",
-      "origin": "United States · South Carolina Lowcountry",
-      "intro": "Shrimp and grits is a Southern dish of creamy stone-ground corn grits, enriched with butter and cheese, topped with shrimp sautéed in bacon fat with crisp bacon pieces and scallions. The grits are smooth and comforting, the shrimp sweet and briny, and the bacon adds smoke and crunch. It is served for breakfast, brunch or dinner.",
-      "history": "Shrimp and grits is a traditional dish of the coastal Lowcountry of South Carolina and Georgia, long eaten there as a simple breakfast. Chefs in the 1980s, notably Bill Neal at Crook's Corner in Chapel Hill, helped turn it into a well-known restaurant dish across the American South.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "150 g stone-ground grits",
-          "750 ml water",
-          "40 g grated cheese",
-          "20 g butter",
-          "400 g shrimp, peeled",
-          "100 g bacon, diced",
-          "3 scallions, sliced",
-          "Salt, pepper and lemon"
-        ],
-        "steps": [
-          "Bring the water to the boil with salt, whisk in the grits and simmer 20–25 minutes, stirring, until thick.",
-          "Stir in the butter and cheese and keep warm.",
-          "Fry the bacon until crisp; remove, leaving a little fat in the pan.",
-          "Sauté the shrimp in the bacon fat 2–3 minutes, add the scallions, bacon and a squeeze of lemon.",
-          "Spoon the shrimp over the grits and serve."
-        ]
-      },
-      "tips": [
-        "Halve the butter and cheese; the grits stay creamy if you stir often.",
-        "Use less bacon and pour off most of its fat before cooking the shrimp.",
-        "Serve a smaller scoop of grits with more shrimp."
-      ]
-    },
-    "ar": {
-      "name": "روبيان مع الجريتس",
-      "origin": "الولايات المتحدة · منطقة لوكنتري في كارولاينا الجنوبية",
-      "intro": "الروبيان مع الجريتس طبق من جنوب أمريكا: جريتس الذرة المطحونة الكريمية المغناة بالزبدة والجبن، تعلوه حبات روبيان مقلية في دهن اللحم المقدد مع قطع مقرمشة منه وبصل أخضر. الجريتس ناعم ومريح، والروبيان حلو بطعم البحر، واللحم المقدد يضيف نكهة مدخنة وقرمشة. يُقدَّم فطوراً أو برانش أو عشاءً.",
-      "history": "الروبيان مع الجريتس طبق تقليدي من منطقة لوكنتري الساحلية في كارولاينا الجنوبية وجورجيا، وكان يؤكل هناك طويلاً فطوراً بسيطاً. وفي الثمانينيات ساهم طهاة، أبرزهم بيل نيل في مطعم كروكس كورنر في تشابل هيل، في جعله طبقاً معروفاً في مطاعم الجنوب الأمريكي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "150 غ جريتس ذرة مطحونة",
-          "750 مل ماء",
-          "40 غ جبن مبشور",
-          "20 غ زبدة",
-          "400 غ روبيان مقشّر",
-          "100 غ لحم مقدد مقطع",
-          "3 أعواد بصل أخضر مفرومة",
-          "ملح وفلفل وليمون"
-        ],
-        "steps": [
-          "اغلِ الماء مع الملح، وأضف الجريتس مع الخفق واطهه 20–25 دقيقة مع التحريك حتى يتكثف.",
-          "أضف الزبدة والجبن وأبقه دافئاً.",
-          "اقلِ اللحم المقدد حتى يقرمش وأخرجه، واترك قليلاً من دهنه في المقلاة.",
-          "قلّب الروبيان في الدهن 2–3 دقائق، وأضف البصل الأخضر واللحم المقدد وعصرة ليمون.",
-          "ضع الروبيان فوق الجريتس وقدّمه."
-        ]
-      },
-      "tips": [
-        "خفّف الزبدة والجبن إلى النصف؛ يبقى الجريتس كريمياً مع التحريك المتكرر.",
-        "قلّل اللحم المقدد وتخلّص من معظم دهنه قبل طهي الروبيان.",
-        "قدّم حصة أصغر من الجريتس مع روبيان أكثر."
-      ]
-    },
-    "it": {
-      "name": "Shrimp and grits (gamberi con polentina di mais)",
-      "name_inline": "shrimp and grits",
-      "origin": "Stati Uniti · Lowcountry della Carolina del Sud",
-      "intro": "Lo shrimp and grits è un piatto del Sud degli Stati Uniti: cremosi grits, una polentina di mais macinato a pietra arricchita con burro e formaggio, coperti da gamberi saltati nel grasso di pancetta con pezzetti di pancetta croccante e cipollotto. I grits sono vellutati e confortanti, i gamberi dolci e salmastri, e la pancetta aggiunge note affumicate e croccantezza. Si serve a colazione, al brunch o a cena.",
-      "history": "Lo shrimp and grits è un piatto tradizionale della costa del Lowcountry, tra Carolina del Sud e Georgia, dove da tempo si mangia come semplice colazione. Negli anni Ottanta alcuni chef, in particolare Bill Neal al Crook's Corner di Chapel Hill, contribuirono a renderlo un noto piatto da ristorante in tutto il Sud degli Stati Uniti.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "150 g di grits di mais macinato a pietra",
-          "750 ml di acqua",
-          "40 g di formaggio grattugiato",
-          "20 g di burro",
-          "400 g di gamberi, sgusciati",
-          "100 g di pancetta, a dadini",
-          "3 cipollotti, affettati",
-          "Sale, pepe e limone"
-        ],
-        "steps": [
-          "Porta a bollore l'acqua con il sale, versa i grits mescolando con la frusta e cuoci a fuoco lento 20–25 minuti, mescolando, finché sono densi.",
-          "Incorpora burro e formaggio e tieni in caldo.",
-          "Rosola la pancetta finché è croccante; toglila, lasciando un po' di grasso nella padella.",
-          "Salta i gamberi nel grasso della pancetta per 2–3 minuti, aggiungi cipollotti, pancetta e una spruzzata di limone.",
-          "Versa i gamberi sui grits e servi."
-        ]
-      },
-      "tips": [
-        "Dimezza burro e formaggio; i grits restano cremosi se li mescoli spesso.",
-        "Usa meno pancetta ed elimina gran parte del suo grasso prima di cuocere i gamberi.",
-        "Servi una porzione più piccola di grits con più gamberi."
-      ]
-    },
-    "el": {
-      "name": "Γαρίδες με γκριτς",
-      "name_inline": "γαρίδες με γκριτς",
-      "origin": "Ηνωμένες Πολιτείες · Λόουκαντρι της Νότιας Καρολίνας",
-      "intro": "Οι γαρίδες με γκριτς είναι πιάτο του αμερικανικού Νότου: κρεμώδη γκριτς, ένας χυλός από καλαμπόκι αλεσμένο σε μυλόπετρα, εμπλουτισμένος με βούτυρο και τυρί, με γαρίδες σοταρισμένες σε λίπος μπέικον, τραγανά κομματάκια μπέικον και φρέσκο κρεμμυδάκι από πάνω. Τα γκριτς είναι βελούδινα και παρηγορητικά, οι γαρίδες γλυκές και θαλασσινές, και το μπέικον προσθέτει καπνιστή γεύση και τραγανότητα. Σερβίρεται για πρωινό, brunch ή δείπνο.",
-      "history": "Οι γαρίδες με γκριτς είναι παραδοσιακό πιάτο της παράκτιας περιοχής Λόουκαντρι της Νότιας Καρολίνας και της Τζόρτζια, όπου τρώγονταν από παλιά ως απλό πρωινό. Σεφ της δεκαετίας του 1980, κυρίως ο Bill Neal στο Crook's Corner στο Τσάπελ Χιλ, συνέβαλαν ώστε να γίνει γνωστό πιάτο εστιατορίου σε όλο τον αμερικανικό Νότο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "150 γρ. γκριτς από καλαμπόκι αλεσμένο σε μυλόπετρα",
-          "750 ml νερό",
-          "40 γρ. τριμμένο τυρί",
-          "20 γρ. βούτυρο",
-          "400 γρ. γαρίδες, καθαρισμένες",
-          "100 γρ. μπέικον, σε κυβάκια",
-          "3 φρέσκα κρεμμυδάκια, σε φέτες",
-          "Αλάτι, πιπέρι και λεμόνι"
-        ],
-        "steps": [
-          "Βράστε το νερό με αλάτι, ρίξτε τα γκριτς ανακατεύοντας με σύρμα και σιγοβράστε 20–25 λεπτά, ανακατεύοντας, μέχρι να πήξουν.",
-          "Ανακατέψτε μέσα το βούτυρο και το τυρί και κρατήστε ζεστό.",
-          "Τηγανίστε το μπέικον μέχρι να τραγανίσει· βγάλτε το, αφήνοντας λίγο λίπος στο τηγάνι.",
-          "Σοτάρετε τις γαρίδες στο λίπος του μπέικον για 2–3 λεπτά, προσθέστε τα κρεμμυδάκια, το μπέικον και λίγο χυμό λεμονιού.",
-          "Βάλτε τις γαρίδες πάνω στα γκριτς και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Μειώστε το βούτυρο και το τυρί στο μισό· τα γκριτς μένουν κρεμώδη αν τα ανακατεύετε συχνά.",
-        "Βάλτε λιγότερο μπέικον και αφαιρέστε το μεγαλύτερο μέρος του λίπους του πριν μαγειρέψετε τις γαρίδες.",
-        "Σερβίρετε μικρότερη μερίδα γκριτς με περισσότερες γαρίδες."
-      ]
-    },
-    "ru": {
-      "name": "Креветки с гритсом",
-      "origin": "США · Лоукантри Южной Каролины",
-      "intro": "Креветки с гритсом — блюдо американского Юга: кремовая кукурузная крупа грубого помола, обогащённая маслом и сыром, с креветками, обжаренными на беконном жире, с хрустящими кусочками бекона и зелёным луком. Гритс гладкий и уютный, креветки сладкие и солоноватые, а бекон добавляет дымность и хруст. Подаётся на завтрак, бранч или ужин.",
-      "history": "Креветки с гритсом — традиционное блюдо прибрежного Лоукантри Южной Каролины и Джорджии, давно употребляемое там как простой завтрак. Шеф-повара 1980-х годов, в частности Билл Нил в Crook's Corner в Чапел-Хилле, помогли превратить его в известное ресторанное блюдо по всему американскому Югу.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "150 г кукурузной крупы грубого помола (гритс)",
-          "750 мл воды",
-          "40 г тёртого сыра",
-          "20 г сливочного масла",
-          "400 г креветок, очищенных",
-          "100 г бекона, нарезанного кубиками",
-          "3 стебля зелёного лука, нарезанных",
-          "Соль, перец и лимон"
-        ],
-        "steps": [
-          "Доведите воду с солью до кипения, вмешайте гритс и варите на слабом огне 20–25 минут, помешивая, до густоты.",
-          "Вмешайте масло и сыр и держите в тепле.",
-          "Обжарьте бекон до хруста; выньте, оставив в сковороде немного жира.",
-          "Обжарьте креветки на беконном жире 2–3 минуты, добавьте зелёный лук, бекон и каплю лимонного сока.",
-          "Выложите креветки на гритс и подавайте."
-        ]
-      },
-      "tips": [
-        "Уменьшите масло и сыр вдвое; гритс останется кремовым, если часто помешивать.",
-        "Используйте меньше бекона и слейте большую часть его жира перед обжаркой креветок.",
-        "Подавайте меньшую порцию гритса с большим количеством креветок."
-      ]
-    }
+  "ar": {
+   "name": "روبيان مع الجريتس",
+   "origin": "الولايات المتحدة · منطقة لوكنتري في كارولاينا الجنوبية",
+   "intro": "الروبيان مع الجريتس طبق من جنوب أمريكا: جريتس الذرة المطحونة الكريمية المغناة بالزبدة والجبن، تعلوه حبات روبيان مقلية في دهن اللحم المقدد مع قطع مقرمشة منه وبصل أخضر. الجريتس ناعم ومريح، والروبيان حلو بطعم البحر، واللحم المقدد يضيف نكهة مدخنة وقرمشة. يُقدَّم فطوراً أو برانش أو عشاءً.",
+   "history": "الروبيان مع الجريتس طبق تقليدي من منطقة لوكنتري الساحلية في كارولاينا الجنوبية وجورجيا، وكان يؤكل هناك طويلاً فطوراً بسيطاً. وفي الثمانينيات ساهم طهاة، أبرزهم بيل نيل في مطعم كروكس كورنر في تشابل هيل، في جعله طبقاً معروفاً في مطاعم الجنوب الأمريكي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "150 غ جريتس ذرة مطحونة",
+     "750 مل ماء",
+     "40 غ جبن مبشور",
+     "20 غ زبدة",
+     "400 غ روبيان مقشّر",
+     "100 غ لحم مقدد مقطع",
+     "3 أعواد بصل أخضر مفرومة",
+     "ملح وفلفل وليمون"
+    ],
+    "steps": [
+     "اغلِ الماء مع الملح، وأضف الجريتس مع الخفق واطهه 20–25 دقيقة مع التحريك حتى يتكثف.",
+     "أضف الزبدة والجبن وأبقه دافئاً.",
+     "اقلِ اللحم المقدد حتى يقرمش وأخرجه، واترك قليلاً من دهنه في المقلاة.",
+     "قلّب الروبيان في الدهن 2–3 دقائق، وأضف البصل الأخضر واللحم المقدد وعصرة ليمون.",
+     "ضع الروبيان فوق الجريتس وقدّمه."
+    ]
+   },
+   "tips": [
+    "خفّف الزبدة والجبن إلى النصف؛ يبقى الجريتس كريمياً مع التحريك المتكرر.",
+    "قلّل اللحم المقدد وتخلّص من معظم دهنه قبل طهي الروبيان.",
+    "قدّم حصة أصغر من الجريتس مع روبيان أكثر."
+   ]
+  },
+  "it": {
+   "name": "Shrimp and grits (gamberi con polentina di mais)",
+   "name_inline": "shrimp and grits",
+   "origin": "Stati Uniti · Lowcountry della Carolina del Sud",
+   "intro": "Lo shrimp and grits è un piatto del Sud degli Stati Uniti: cremosi grits, una polentina di mais macinato a pietra arricchita con burro e formaggio, coperti da gamberi saltati nel grasso di pancetta con pezzetti di pancetta croccante e cipollotto. I grits sono vellutati e confortanti, i gamberi dolci e salmastri, e la pancetta aggiunge note affumicate e croccantezza. Si serve a colazione, al brunch o a cena.",
+   "history": "Lo shrimp and grits è un piatto tradizionale della costa del Lowcountry, tra Carolina del Sud e Georgia, dove da tempo si mangia come semplice colazione. Negli anni Ottanta alcuni chef, in particolare Bill Neal al Crook's Corner di Chapel Hill, contribuirono a renderlo un noto piatto da ristorante in tutto il Sud degli Stati Uniti.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "150 g di grits di mais macinato a pietra",
+     "750 ml di acqua",
+     "40 g di formaggio grattugiato",
+     "20 g di burro",
+     "400 g di gamberi, sgusciati",
+     "100 g di pancetta, a dadini",
+     "3 cipollotti, affettati",
+     "Sale, pepe e limone"
+    ],
+    "steps": [
+     "Porta a bollore l'acqua con il sale, versa i grits mescolando con la frusta e cuoci a fuoco lento 20–25 minuti, mescolando, finché sono densi.",
+     "Incorpora burro e formaggio e tieni in caldo.",
+     "Rosola la pancetta finché è croccante; toglila, lasciando un po' di grasso nella padella.",
+     "Salta i gamberi nel grasso della pancetta per 2–3 minuti, aggiungi cipollotti, pancetta e una spruzzata di limone.",
+     "Versa i gamberi sui grits e servi."
+    ]
+   },
+   "tips": [
+    "Dimezza burro e formaggio; i grits restano cremosi se li mescoli spesso.",
+    "Usa meno pancetta ed elimina gran parte del suo grasso prima di cuocere i gamberi.",
+    "Servi una porzione più piccola di grits con più gamberi."
+   ]
+  },
+  "el": {
+   "name": "Γαρίδες με γκριτς",
+   "name_inline": "γαρίδες με γκριτς",
+   "origin": "Ηνωμένες Πολιτείες · Λόουκαντρι της Νότιας Καρολίνας",
+   "intro": "Οι γαρίδες με γκριτς είναι πιάτο του αμερικανικού Νότου: κρεμώδη γκριτς, ένας χυλός από καλαμπόκι αλεσμένο σε μυλόπετρα, εμπλουτισμένος με βούτυρο και τυρί, με γαρίδες σοταρισμένες σε λίπος μπέικον, τραγανά κομματάκια μπέικον και φρέσκο κρεμμυδάκι από πάνω. Τα γκριτς είναι βελούδινα και παρηγορητικά, οι γαρίδες γλυκές και θαλασσινές, και το μπέικον προσθέτει καπνιστή γεύση και τραγανότητα. Σερβίρεται για πρωινό, brunch ή δείπνο.",
+   "history": "Οι γαρίδες με γκριτς είναι παραδοσιακό πιάτο της παράκτιας περιοχής Λόουκαντρι της Νότιας Καρολίνας και της Τζόρτζια, όπου τρώγονταν από παλιά ως απλό πρωινό. Σεφ της δεκαετίας του 1980, κυρίως ο Bill Neal στο Crook's Corner στο Τσάπελ Χιλ, συνέβαλαν ώστε να γίνει γνωστό πιάτο εστιατορίου σε όλο τον αμερικανικό Νότο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "150 γρ. γκριτς από καλαμπόκι αλεσμένο σε μυλόπετρα",
+     "750 ml νερό",
+     "40 γρ. τριμμένο τυρί",
+     "20 γρ. βούτυρο",
+     "400 γρ. γαρίδες, καθαρισμένες",
+     "100 γρ. μπέικον, σε κυβάκια",
+     "3 φρέσκα κρεμμυδάκια, σε φέτες",
+     "Αλάτι, πιπέρι και λεμόνι"
+    ],
+    "steps": [
+     "Βράστε το νερό με αλάτι, ρίξτε τα γκριτς ανακατεύοντας με σύρμα και σιγοβράστε 20–25 λεπτά, ανακατεύοντας, μέχρι να πήξουν.",
+     "Ανακατέψτε μέσα το βούτυρο και το τυρί και κρατήστε ζεστό.",
+     "Τηγανίστε το μπέικον μέχρι να τραγανίσει· βγάλτε το, αφήνοντας λίγο λίπος στο τηγάνι.",
+     "Σοτάρετε τις γαρίδες στο λίπος του μπέικον για 2–3 λεπτά, προσθέστε τα κρεμμυδάκια, το μπέικον και λίγο χυμό λεμονιού.",
+     "Βάλτε τις γαρίδες πάνω στα γκριτς και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Μειώστε το βούτυρο και το τυρί στο μισό· τα γκριτς μένουν κρεμώδη αν τα ανακατεύετε συχνά.",
+    "Βάλτε λιγότερο μπέικον και αφαιρέστε το μεγαλύτερο μέρος του λίπους του πριν μαγειρέψετε τις γαρίδες.",
+    "Σερβίρετε μικρότερη μερίδα γκριτς με περισσότερες γαρίδες."
+   ]
+  },
+  "ru": {
+   "name": "Креветки с гритсом",
+   "origin": "США · Лоукантри Южной Каролины",
+   "intro": "Креветки с гритсом — блюдо американского Юга: кремовая кукурузная крупа грубого помола, обогащённая маслом и сыром, с креветками, обжаренными на беконном жире, с хрустящими кусочками бекона и зелёным луком. Гритс гладкий и уютный, креветки сладкие и солоноватые, а бекон добавляет дымность и хруст. Подаётся на завтрак, бранч или ужин.",
+   "history": "Креветки с гритсом — традиционное блюдо прибрежного Лоукантри Южной Каролины и Джорджии, давно употребляемое там как простой завтрак. Шеф-повара 1980-х годов, в частности Билл Нил в Crook's Corner в Чапел-Хилле, помогли превратить его в известное ресторанное блюдо по всему американскому Югу.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "150 г кукурузной крупы грубого помола (гритс)",
+     "750 мл воды",
+     "40 г тёртого сыра",
+     "20 г сливочного масла",
+     "400 г креветок, очищенных",
+     "100 г бекона, нарезанного кубиками",
+     "3 стебля зелёного лука, нарезанных",
+     "Соль, перец и лимон"
+    ],
+    "steps": [
+     "Доведите воду с солью до кипения, вмешайте гритс и варите на слабом огне 20–25 минут, помешивая, до густоты.",
+     "Вмешайте масло и сыр и держите в тепле.",
+     "Обжарьте бекон до хруста; выньте, оставив в сковороде немного жира.",
+     "Обжарьте креветки на беконном жире 2–3 минуты, добавьте зелёный лук, бекон и каплю лимонного сока.",
+     "Выложите креветки на гритс и подавайте."
+    ]
+   },
+   "tips": [
+    "Уменьшите масло и сыр вдвое; гритс останется кремовым, если часто помешивать.",
+    "Используйте меньше бекона и слейте большую часть его жира перед обжаркой креветок.",
+    "Подавайте меньшую порцию гритса с большим количеством креветок."
+   ]
+  },
+  "es": {
+   "name": "Camarones con grits",
+   "origin": "Estados Unidos · Lowcountry de Carolina del Sur",
+   "intro": "Los camarones con grits son un plato sureño de grits cremosos de maíz molido en piedra, enriquecidos con mantequilla y queso, cubiertos con camarones salteados en grasa de tocino con trocitos de tocino crujiente y cebollín. Los grits son suaves y reconfortantes, los camarones dulces y con un toque marino, y el tocino aporta humo y textura crujiente. Se sirve en el desayuno, el brunch o la cena.",
+   "history": "Los camarones con grits son un plato tradicional del Lowcountry costero de Carolina del Sur y Georgia, donde se comía desde hacía mucho como un desayuno sencillo. Chefs de los años ochenta, en especial Bill Neal en Crook's Corner, en Chapel Hill, ayudaron a convertirlo en un plato de restaurante conocido en todo el sur de Estados Unidos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "150 g de grits molidos en piedra",
+     "750 ml de agua",
+     "40 g de queso rallado",
+     "20 g de mantequilla",
+     "400 g de camarones, pelados",
+     "100 g de tocino, en cubos",
+     "3 cebollines, en rodajas",
+     "Sal, pimienta y limón"
+    ],
+    "steps": [
+     "Lleva el agua a ebullición con sal, incorpora los grits batiendo y cocina a fuego suave de 20 a 25 minutos, moviendo, hasta que espesen.",
+     "Agrega la mantequilla y el queso y mantén caliente.",
+     "Fríe el tocino hasta que esté crujiente; retíralo y deja un poco de grasa en la sartén.",
+     "Saltea los camarones en la grasa del tocino de 2 a 3 minutos, añade el cebollín, el tocino y un chorrito de limón.",
+     "Sirve los camarones sobre los grits."
+    ]
+   },
+   "tips": [
+    "Reduce a la mitad la mantequilla y el queso; los grits seguirán cremosos si los mueves a menudo.",
+    "Usa menos tocino y retira la mayor parte de su grasa antes de cocinar los camarones.",
+    "Sirve una porción más pequeña de grits con más camarones."
+   ],
+   "name_inline": "los camarones con grits"
   }
+ }
 }

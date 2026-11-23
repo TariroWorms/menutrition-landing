@@ -1,172 +1,204 @@
 {
-  "db_key": "dak_bulgogi",
-  "slug": "dak-bulgogi",
-  "emoji": "🍗",
-  "portion_g": 250,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dak_bulgogi",
+ "slug": "dak-bulgogi",
+ "emoji": "🍗",
+ "portion_g": 250,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken bulgogi (dak bulgogi)",
+   "origin": "South Korea",
+   "intro": "Dak bulgogi is chicken thigh marinated in soy sauce, garlic, ginger, a little sugar and sesame oil, then grilled or pan-seared until caramelised. It is sweet-savoury and juicy, with charred edges and fresh scallion on top. It is served with rice and side dishes, or wrapped in lettuce leaves.",
+   "history": "Bulgogi, meaning “fire meat”, traditionally refers to marinated beef grilled over fire in Korea. Chicken versions using a similar marinade are now common in Korean homes and restaurants.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "600 g boneless chicken thighs, sliced",
+     "4 tbsp soy sauce",
+     "1 tbsp sugar",
+     "4 garlic cloves, crushed",
+     "1 tbsp grated ginger",
+     "1 tbsp sesame oil",
+     "1 onion, sliced",
+     "3 scallions, sliced"
+    ],
+    "steps": [
+     "Mix the soy sauce, sugar, garlic, ginger and sesame oil.",
+     "Toss the chicken and onion in the marinade and leave for at least 30 minutes.",
+     "Cook in a very hot pan or on a grill for 8–10 minutes, turning, until browned and cooked through.",
+     "Scatter with scallions and serve with rice or lettuce leaves."
+    ]
+   },
+   "tips": [
+    "Use skinless chicken breast instead of thigh for a leaner version.",
+    "Halve the sugar; the onion adds natural sweetness.",
+    "Wrap it in lettuce leaves instead of eating it with a large bowl of rice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken bulgogi (dak bulgogi)",
-      "origin": "South Korea",
-      "intro": "Dak bulgogi is chicken thigh marinated in soy sauce, garlic, ginger, a little sugar and sesame oil, then grilled or pan-seared until caramelised. It is sweet-savoury and juicy, with charred edges and fresh scallion on top. It is served with rice and side dishes, or wrapped in lettuce leaves.",
-      "history": "Bulgogi, meaning “fire meat”, traditionally refers to marinated beef grilled over fire in Korea. Chicken versions using a similar marinade are now common in Korean homes and restaurants.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "600 g boneless chicken thighs, sliced",
-          "4 tbsp soy sauce",
-          "1 tbsp sugar",
-          "4 garlic cloves, crushed",
-          "1 tbsp grated ginger",
-          "1 tbsp sesame oil",
-          "1 onion, sliced",
-          "3 scallions, sliced"
-        ],
-        "steps": [
-          "Mix the soy sauce, sugar, garlic, ginger and sesame oil.",
-          "Toss the chicken and onion in the marinade and leave for at least 30 minutes.",
-          "Cook in a very hot pan or on a grill for 8–10 minutes, turning, until browned and cooked through.",
-          "Scatter with scallions and serve with rice or lettuce leaves."
-        ]
-      },
-      "tips": [
-        "Use skinless chicken breast instead of thigh for a leaner version.",
-        "Halve the sugar; the onion adds natural sweetness.",
-        "Wrap it in lettuce leaves instead of eating it with a large bowl of rice."
-      ]
-    },
-    "ar": {
-      "name": "بولغوغي الدجاج",
-      "origin": "كوريا الجنوبية",
-      "intro": "بولغوغي الدجاج أفخاذ دجاج متبّلة بصلصة الصويا والثوم والزنجبيل وقليل من السكر وزيت السمسم، ثم تُشوى أو تُحمّر في مقلاة حتى تتكرمل. طعمه حلو مالح وعصيري، بأطراف محمّرة وبصل أخضر طازج على الوجه. يُقدَّم مع الأرز والأطباق الجانبية أو ملفوفاً في أوراق الخس.",
-      "history": "تعني كلمة بولغوغي «لحم النار»، وتشير تقليدياً إلى لحم البقر المتبّل المشوي على النار في كوريا. وأصبحت نسخ الدجاج بتتبيلة مشابهة شائعة اليوم في البيوت والمطاعم الكورية.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "600 غ أفخاذ دجاج بلا عظم مقطّعة شرائح",
-          "4 ملاعق كبيرة صلصة صويا",
-          "1 ملعقة كبيرة سكر",
-          "4 فصوص ثوم مهروسة",
-          "1 ملعقة كبيرة زنجبيل مبشور",
-          "1 ملعقة كبيرة زيت سمسم",
-          "1 بصلة مقطّعة شرائح",
-          "3 أعواد بصل أخضر مفرومة"
-        ],
-        "steps": [
-          "اخلط صلصة الصويا والسكر والثوم والزنجبيل وزيت السمسم.",
-          "قلّب الدجاج والبصل في التتبيلة واتركه 30 دقيقة على الأقل.",
-          "اطهه في مقلاة شديدة السخونة أو على الشواية 8–10 دقائق مع التقليب حتى يتحمّر وينضج.",
-          "رشّ البصل الأخضر وقدّمه مع الأرز أو أوراق الخس."
-        ]
-      },
-      "tips": [
-        "استخدم صدر دجاج بلا جلد بدل الأفخاذ لنسخة أقل دهناً.",
-        "قلّل السكر إلى النصف؛ فالبصل يضيف حلاوة طبيعية.",
-        "لفّه في أوراق الخس بدل تناوله مع وعاء كبير من الأرز."
-      ]
-    },
-    "it": {
-      "name": "Bulgogi di pollo (dak bulgogi)",
-      "name_inline": "bulgogi di pollo",
-      "origin": "Corea del Sud",
-      "intro": "Il dak bulgogi è sovracoscia di pollo marinata in salsa di soia, aglio, zenzero, un po' di zucchero e olio di sesamo, poi grigliata o rosolata in padella finché è caramellata. È dolce e sapido, succoso, con i bordi abbrustoliti e cipollotto fresco sopra. Si serve con riso e contorni, oppure avvolto in foglie di lattuga.",
-      "history": "Bulgogi, che significa «carne al fuoco», indica tradizionalmente in Corea il manzo marinato e grigliato sul fuoco. Le versioni di pollo con una marinata simile sono oggi comuni nelle case e nei ristoranti coreani.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "600 g di sovracosce di pollo disossate, a fettine",
-          "4 cucchiai di salsa di soia",
-          "1 cucchiaio di zucchero",
-          "4 spicchi d'aglio schiacciati",
-          "1 cucchiaio di zenzero grattugiato",
-          "1 cucchiaio di olio di sesamo",
-          "1 cipolla affettata",
-          "3 cipollotti a rondelle"
-        ],
-        "steps": [
-          "Mescola la salsa di soia, lo zucchero, l'aglio, lo zenzero e l'olio di sesamo.",
-          "Unisci il pollo e la cipolla alla marinata e lascia riposare per almeno 30 minuti.",
-          "Cuoci in una padella caldissima o sulla griglia per 8–10 minuti, girando, finché è dorato e cotto.",
-          "Cospargi di cipollotti e servi con riso o foglie di lattuga."
-        ]
-      },
-      "tips": [
-        "Usa petto di pollo senza pelle invece della sovracoscia per una versione più magra.",
-        "Dimezza lo zucchero: la cipolla aggiunge una dolcezza naturale.",
-        "Avvolgilo in foglie di lattuga invece di mangiarlo con una grande ciotola di riso."
-      ]
-    },
-    "el": {
-      "name": "Κοτόπουλο μπουλγκόγκι (ντακ μπουλγκόγκι)",
-      "name_inline": "κοτόπουλο μπουλγκόγκι",
-      "origin": "Νότια Κορέα",
-      "intro": "Το ντακ μπουλγκόγκι είναι μπούτι κοτόπουλου μαριναρισμένο σε σάλτσα σόγιας, σκόρδο, τζίντζερ, λίγη ζάχαρη και σησαμέλαιο, ψημένο στη σχάρα ή σοταρισμένο στο τηγάνι μέχρι να καραμελώσει. Είναι γλυκοαλμυρό και ζουμερό, με καψαλισμένες άκρες και φρέσκο κρεμμυδάκι από πάνω. Σερβίρεται με ρύζι και συνοδευτικά ή τυλιγμένο σε φύλλα μαρουλιού.",
-      "history": "Το μπουλγκόγκι, που σημαίνει «κρέας της φωτιάς», αναφέρεται παραδοσιακά στην Κορέα σε μαριναρισμένο μοσχάρι ψημένο στη φωτιά. Οι εκδοχές με κοτόπουλο και παρόμοια μαρινάδα είναι σήμερα συνηθισμένες στα κορεατικά σπίτια και εστιατόρια.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "600 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε φέτες",
-          "4 κ.σ. σάλτσα σόγιας",
-          "1 κ.σ. ζάχαρη",
-          "4 σκελίδες σκόρδο, λιωμένες",
-          "1 κ.σ. τριμμένο τζίντζερ",
-          "1 κ.σ. σησαμέλαιο",
-          "1 κρεμμύδι σε φέτες",
-          "3 φρέσκα κρεμμυδάκια σε ροδέλες"
-        ],
-        "steps": [
-          "Ανακατέψτε τη σάλτσα σόγιας, τη ζάχαρη, το σκόρδο, το τζίντζερ και το σησαμέλαιο.",
-          "Ανακατέψτε το κοτόπουλο και το κρεμμύδι με τη μαρινάδα και αφήστε τουλάχιστον 30 λεπτά.",
-          "Μαγειρέψτε σε πολύ καυτό τηγάνι ή στη σχάρα για 8–10 λεπτά, γυρίζοντας, μέχρι να ροδίσει και να ψηθεί.",
-          "Πασπαλίστε με τα κρεμμυδάκια και σερβίρετε με ρύζι ή φύλλα μαρουλιού."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα αντί για μπούτι για πιο άπαχη εκδοχή.",
-        "Βάλτε τη μισή ζάχαρη· το κρεμμύδι δίνει φυσική γλύκα.",
-        "Τυλίξτε το σε φύλλα μαρουλιού αντί να το φάτε με ένα μεγάλο μπολ ρύζι."
-      ]
-    },
-    "ru": {
-      "name": "Бульгоги из курицы (дак бульгоги)",
-      "origin": "Южная Корея",
-      "intro": "Дак бульгоги — куриные бёдра, замаринованные в соевом соусе, чесноке, имбире, небольшом количестве сахара и кунжутном масле, затем приготовленные на гриле или на сковороде до карамелизации. Они сладко-пикантные и сочные, с обугленными краями и свежим зелёным луком сверху. Подают с рисом и закусками или заворачивают в листья салата.",
-      "history": "Бульгоги, что означает «огненное мясо», традиционно относится к маринованной говядине, приготовленной на огне в Корее. Куриные варианты с похожим маринадом теперь распространены в корейских домах и ресторанах.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 40,
-        "ingredients": [
-          "600 г бескостных куриных бёдер, нарезанных",
-          "4 ст. л. соевого соуса",
-          "1 ст. л. сахара",
-          "4 зубчика чеснока, раздавленных",
-          "1 ст. л. тёртого имбиря",
-          "1 ст. л. кунжутного масла",
-          "1 луковица, нарезанная",
-          "3 стебля зелёного лука, нарезанных"
-        ],
-        "steps": [
-          "Смешайте соевый соус, сахар, чеснок, имбирь и кунжутное масло.",
-          "Перемешайте курицу и лук с маринадом и оставьте не менее чем на 30 минут.",
-          "Готовьте на очень горячей сковороде или на гриле 8–10 минут, переворачивая, до румяности и готовности.",
-          "Посыпьте зелёным луком и подавайте с рисом или листьями салата."
-        ]
-      },
-      "tips": [
-        "Берите куриную грудку без кожи вместо бёдер, чтобы блюдо было постнее.",
-        "Уменьшите сахар вдвое; лук добавляет естественную сладость.",
-        "Заворачивайте в листья салата вместо того, чтобы есть с большой миской риса."
-      ],
-      "name_inline": "дак бульгоги"
-    }
+  "ar": {
+   "name": "بولغوغي الدجاج",
+   "origin": "كوريا الجنوبية",
+   "intro": "بولغوغي الدجاج أفخاذ دجاج متبّلة بصلصة الصويا والثوم والزنجبيل وقليل من السكر وزيت السمسم، ثم تُشوى أو تُحمّر في مقلاة حتى تتكرمل. طعمه حلو مالح وعصيري، بأطراف محمّرة وبصل أخضر طازج على الوجه. يُقدَّم مع الأرز والأطباق الجانبية أو ملفوفاً في أوراق الخس.",
+   "history": "تعني كلمة بولغوغي «لحم النار»، وتشير تقليدياً إلى لحم البقر المتبّل المشوي على النار في كوريا. وأصبحت نسخ الدجاج بتتبيلة مشابهة شائعة اليوم في البيوت والمطاعم الكورية.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "600 غ أفخاذ دجاج بلا عظم مقطّعة شرائح",
+     "4 ملاعق كبيرة صلصة صويا",
+     "1 ملعقة كبيرة سكر",
+     "4 فصوص ثوم مهروسة",
+     "1 ملعقة كبيرة زنجبيل مبشور",
+     "1 ملعقة كبيرة زيت سمسم",
+     "1 بصلة مقطّعة شرائح",
+     "3 أعواد بصل أخضر مفرومة"
+    ],
+    "steps": [
+     "اخلط صلصة الصويا والسكر والثوم والزنجبيل وزيت السمسم.",
+     "قلّب الدجاج والبصل في التتبيلة واتركه 30 دقيقة على الأقل.",
+     "اطهه في مقلاة شديدة السخونة أو على الشواية 8–10 دقائق مع التقليب حتى يتحمّر وينضج.",
+     "رشّ البصل الأخضر وقدّمه مع الأرز أو أوراق الخس."
+    ]
+   },
+   "tips": [
+    "استخدم صدر دجاج بلا جلد بدل الأفخاذ لنسخة أقل دهناً.",
+    "قلّل السكر إلى النصف؛ فالبصل يضيف حلاوة طبيعية.",
+    "لفّه في أوراق الخس بدل تناوله مع وعاء كبير من الأرز."
+   ]
+  },
+  "it": {
+   "name": "Bulgogi di pollo (dak bulgogi)",
+   "name_inline": "bulgogi di pollo",
+   "origin": "Corea del Sud",
+   "intro": "Il dak bulgogi è sovracoscia di pollo marinata in salsa di soia, aglio, zenzero, un po' di zucchero e olio di sesamo, poi grigliata o rosolata in padella finché è caramellata. È dolce e sapido, succoso, con i bordi abbrustoliti e cipollotto fresco sopra. Si serve con riso e contorni, oppure avvolto in foglie di lattuga.",
+   "history": "Bulgogi, che significa «carne al fuoco», indica tradizionalmente in Corea il manzo marinato e grigliato sul fuoco. Le versioni di pollo con una marinata simile sono oggi comuni nelle case e nei ristoranti coreani.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "600 g di sovracosce di pollo disossate, a fettine",
+     "4 cucchiai di salsa di soia",
+     "1 cucchiaio di zucchero",
+     "4 spicchi d'aglio schiacciati",
+     "1 cucchiaio di zenzero grattugiato",
+     "1 cucchiaio di olio di sesamo",
+     "1 cipolla affettata",
+     "3 cipollotti a rondelle"
+    ],
+    "steps": [
+     "Mescola la salsa di soia, lo zucchero, l'aglio, lo zenzero e l'olio di sesamo.",
+     "Unisci il pollo e la cipolla alla marinata e lascia riposare per almeno 30 minuti.",
+     "Cuoci in una padella caldissima o sulla griglia per 8–10 minuti, girando, finché è dorato e cotto.",
+     "Cospargi di cipollotti e servi con riso o foglie di lattuga."
+    ]
+   },
+   "tips": [
+    "Usa petto di pollo senza pelle invece della sovracoscia per una versione più magra.",
+    "Dimezza lo zucchero: la cipolla aggiunge una dolcezza naturale.",
+    "Avvolgilo in foglie di lattuga invece di mangiarlo con una grande ciotola di riso."
+   ]
+  },
+  "el": {
+   "name": "Κοτόπουλο μπουλγκόγκι (ντακ μπουλγκόγκι)",
+   "name_inline": "κοτόπουλο μπουλγκόγκι",
+   "origin": "Νότια Κορέα",
+   "intro": "Το ντακ μπουλγκόγκι είναι μπούτι κοτόπουλου μαριναρισμένο σε σάλτσα σόγιας, σκόρδο, τζίντζερ, λίγη ζάχαρη και σησαμέλαιο, ψημένο στη σχάρα ή σοταρισμένο στο τηγάνι μέχρι να καραμελώσει. Είναι γλυκοαλμυρό και ζουμερό, με καψαλισμένες άκρες και φρέσκο κρεμμυδάκι από πάνω. Σερβίρεται με ρύζι και συνοδευτικά ή τυλιγμένο σε φύλλα μαρουλιού.",
+   "history": "Το μπουλγκόγκι, που σημαίνει «κρέας της φωτιάς», αναφέρεται παραδοσιακά στην Κορέα σε μαριναρισμένο μοσχάρι ψημένο στη φωτιά. Οι εκδοχές με κοτόπουλο και παρόμοια μαρινάδα είναι σήμερα συνηθισμένες στα κορεατικά σπίτια και εστιατόρια.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "600 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε φέτες",
+     "4 κ.σ. σάλτσα σόγιας",
+     "1 κ.σ. ζάχαρη",
+     "4 σκελίδες σκόρδο, λιωμένες",
+     "1 κ.σ. τριμμένο τζίντζερ",
+     "1 κ.σ. σησαμέλαιο",
+     "1 κρεμμύδι σε φέτες",
+     "3 φρέσκα κρεμμυδάκια σε ροδέλες"
+    ],
+    "steps": [
+     "Ανακατέψτε τη σάλτσα σόγιας, τη ζάχαρη, το σκόρδο, το τζίντζερ και το σησαμέλαιο.",
+     "Ανακατέψτε το κοτόπουλο και το κρεμμύδι με τη μαρινάδα και αφήστε τουλάχιστον 30 λεπτά.",
+     "Μαγειρέψτε σε πολύ καυτό τηγάνι ή στη σχάρα για 8–10 λεπτά, γυρίζοντας, μέχρι να ροδίσει και να ψηθεί.",
+     "Πασπαλίστε με τα κρεμμυδάκια και σερβίρετε με ρύζι ή φύλλα μαρουλιού."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε στήθος κοτόπουλου χωρίς πέτσα αντί για μπούτι για πιο άπαχη εκδοχή.",
+    "Βάλτε τη μισή ζάχαρη· το κρεμμύδι δίνει φυσική γλύκα.",
+    "Τυλίξτε το σε φύλλα μαρουλιού αντί να το φάτε με ένα μεγάλο μπολ ρύζι."
+   ]
+  },
+  "ru": {
+   "name": "Бульгоги из курицы (дак бульгоги)",
+   "origin": "Южная Корея",
+   "intro": "Дак бульгоги — куриные бёдра, замаринованные в соевом соусе, чесноке, имбире, небольшом количестве сахара и кунжутном масле, затем приготовленные на гриле или на сковороде до карамелизации. Они сладко-пикантные и сочные, с обугленными краями и свежим зелёным луком сверху. Подают с рисом и закусками или заворачивают в листья салата.",
+   "history": "Бульгоги, что означает «огненное мясо», традиционно относится к маринованной говядине, приготовленной на огне в Корее. Куриные варианты с похожим маринадом теперь распространены в корейских домах и ресторанах.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "600 г бескостных куриных бёдер, нарезанных",
+     "4 ст. л. соевого соуса",
+     "1 ст. л. сахара",
+     "4 зубчика чеснока, раздавленных",
+     "1 ст. л. тёртого имбиря",
+     "1 ст. л. кунжутного масла",
+     "1 луковица, нарезанная",
+     "3 стебля зелёного лука, нарезанных"
+    ],
+    "steps": [
+     "Смешайте соевый соус, сахар, чеснок, имбирь и кунжутное масло.",
+     "Перемешайте курицу и лук с маринадом и оставьте не менее чем на 30 минут.",
+     "Готовьте на очень горячей сковороде или на гриле 8–10 минут, переворачивая, до румяности и готовности.",
+     "Посыпьте зелёным луком и подавайте с рисом или листьями салата."
+    ]
+   },
+   "tips": [
+    "Берите куриную грудку без кожи вместо бёдер, чтобы блюдо было постнее.",
+    "Уменьшите сахар вдвое; лук добавляет естественную сладость.",
+    "Заворачивайте в листья салата вместо того, чтобы есть с большой миской риса."
+   ],
+   "name_inline": "дак бульгоги"
+  },
+  "es": {
+   "name": "Pollo bulgogi (dak bulgogi)",
+   "origin": "Corea del Sur",
+   "intro": "El dak bulgogi es muslo de pollo marinado en salsa de soya, ajo, jengibre, un poco de azúcar y aceite de ajonjolí, y luego asado a la parrilla o sellado en sartén hasta caramelizarse. Es agridulce y jugoso, con bordes tostados y cebollín fresco por encima. Se sirve con arroz y guarniciones, o envuelto en hojas de lechuga.",
+   "history": "El bulgogi, que significa «carne de fuego», se refiere tradicionalmente a la carne de res marinada y asada al fuego en Corea. Hoy las versiones de pollo con una marinada similar son comunes en los hogares y restaurantes coreanos.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 40,
+    "ingredients": [
+     "600 g de muslos de pollo deshuesados, en rebanadas",
+     "4 cdas. de salsa de soya",
+     "1 cda. de azúcar",
+     "4 dientes de ajo, machacados",
+     "1 cda. de jengibre rallado",
+     "1 cda. de aceite de ajonjolí",
+     "1 cebolla, en rodajas",
+     "3 cebollines, en rodajas"
+    ],
+    "steps": [
+     "Mezcla la salsa de soya, el azúcar, el ajo, el jengibre y el aceite de ajonjolí.",
+     "Mezcla el pollo y la cebolla con la marinada y deja reposar al menos 30 minutos.",
+     "Cocina en una sartén muy caliente o en la parrilla de 8 a 10 minutos, volteando, hasta que dore y esté bien cocido.",
+     "Espolvorea con el cebollín y sirve con arroz o con hojas de lechuga."
+    ]
+   },
+   "tips": [
+    "Usa pechuga de pollo sin piel en lugar de muslo para una versión más magra.",
+    "Reduce el azúcar a la mitad; la cebolla aporta dulzor natural.",
+    "Envuélvelo en hojas de lechuga en lugar de acompañarlo con un tazón grande de arroz."
+   ],
+   "name_inline": "el pollo bulgogi"
   }
+ }
 }

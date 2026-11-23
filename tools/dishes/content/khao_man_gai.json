@@ -1,180 +1,214 @@
 {
-  "db_key": "khao_man_gai",
-  "slug": "khao-man-gai",
-  "emoji": "🍗",
-  "portion_g": 400,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "khao_man_gai",
+ "slug": "khao-man-gai",
+ "emoji": "🍗",
+ "portion_g": 400,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Khao Man Gai",
+   "origin": "Thailand · Bangkok",
+   "intro": "Khao man gai is Thai poached chicken served over rice cooked in the chicken broth with garlic and ginger. Slices of tender chicken come with cucumber and a sharp dipping sauce of soy sauce, chili, ginger and garlic, usually alongside a small bowl of clear broth. The rice is fragrant and glossy, the chicken silky.",
+   "history": "Khao man gai is the Thai version of Hainanese chicken rice, brought to Southeast Asia by migrants from Hainan in southern China. It is now one of the most common street-food lunches in Bangkok.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 whole chicken (about 1.4 kg)",
+     "400 g jasmine rice, rinsed",
+     "40 g ginger, sliced",
+     "6 garlic cloves",
+     "1 cucumber, sliced",
+     "3 tbsp soy sauce",
+     "1 tbsp chili sauce",
+     "1 tsp sugar",
+     "1 tbsp oil"
+    ],
+    "steps": [
+     "Simmer the chicken with half the ginger and 2 garlic cloves in water to cover for about 40 minutes, then cool it briefly.",
+     "Fry 2 chopped garlic cloves and some ginger in the oil, add the rice and stir to coat.",
+     "Cook the rice in about 600 ml of the chicken broth until tender.",
+     "Mix the soy sauce, chili sauce, sugar and remaining minced ginger and garlic into a dipping sauce.",
+     "Slice the chicken and serve over the rice with cucumber, the sauce and a bowl of hot broth."
+    ]
+   },
+   "tips": [
+    "Remove the chicken skin before slicing to cut fat noticeably.",
+    "Skim the fat off the broth before cooking the rice.",
+    "Ask for half rice and extra cucumber at street stalls."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Khao Man Gai",
-      "origin": "Thailand · Bangkok",
-      "intro": "Khao man gai is Thai poached chicken served over rice cooked in the chicken broth with garlic and ginger. Slices of tender chicken come with cucumber and a sharp dipping sauce of soy sauce, chili, ginger and garlic, usually alongside a small bowl of clear broth. The rice is fragrant and glossy, the chicken silky.",
-      "history": "Khao man gai is the Thai version of Hainanese chicken rice, brought to Southeast Asia by migrants from Hainan in southern China. It is now one of the most common street-food lunches in Bangkok.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 whole chicken (about 1.4 kg)",
-          "400 g jasmine rice, rinsed",
-          "40 g ginger, sliced",
-          "6 garlic cloves",
-          "1 cucumber, sliced",
-          "3 tbsp soy sauce",
-          "1 tbsp chili sauce",
-          "1 tsp sugar",
-          "1 tbsp oil"
-        ],
-        "steps": [
-          "Simmer the chicken with half the ginger and 2 garlic cloves in water to cover for about 40 minutes, then cool it briefly.",
-          "Fry 2 chopped garlic cloves and some ginger in the oil, add the rice and stir to coat.",
-          "Cook the rice in about 600 ml of the chicken broth until tender.",
-          "Mix the soy sauce, chili sauce, sugar and remaining minced ginger and garlic into a dipping sauce.",
-          "Slice the chicken and serve over the rice with cucumber, the sauce and a bowl of hot broth."
-        ]
-      },
-      "tips": [
-        "Remove the chicken skin before slicing to cut fat noticeably.",
-        "Skim the fat off the broth before cooking the rice.",
-        "Ask for half rice and extra cucumber at street stalls."
-      ]
-    },
-    "ar": {
-      "name": "خاو مان غاي",
-      "origin": "تايلاند · بانكوك",
-      "intro": "خاو مان غاي طبق تايلاندي من الدجاج المسلوق يُقدَّم فوق أرز مطبوخ في مرق الدجاج مع الثوم والزنجبيل. تأتي شرائح الدجاج الطرية مع الخيار وصلصة تغميس حادة من صلصة الصويا والفلفل الحار والزنجبيل والثوم، وغالبًا مع وعاء صغير من المرق الصافي. الأرز عطِر ولامع والدجاج ناعم.",
-      "history": "خاو مان غاي هو النسخة التايلاندية من أرز الدجاج الهايناني الذي حمله المهاجرون من جزيرة هاينان جنوب الصين إلى جنوب شرق آسيا. وهو اليوم من أكثر وجبات الغداء شيوعًا في شوارع بانكوك.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 دجاجة كاملة (نحو 1.4 كغ)",
-          "400 غ أرز ياسمين مغسول",
-          "40 غ زنجبيل مقطّع",
-          "6 فصوص ثوم",
-          "1 خيارة مقطّعة",
-          "3 ملاعق كبيرة صلصة صويا",
-          "1 ملعقة كبيرة صلصة فلفل حار",
-          "1 ملعقة صغيرة سكر",
-          "1 ملعقة كبيرة زيت"
-        ],
-        "steps": [
-          "اسلق الدجاجة مع نصف الزنجبيل وفصّي ثوم في ماء يغمرها نحو 40 دقيقة، ثم اتركها تبرد قليلًا.",
-          "حمّر فصّي ثوم مفرومين وقليلًا من الزنجبيل في الزيت، وأضف الأرز وقلّبه.",
-          "اطهُ الأرز في نحو 600 مل من مرق الدجاج حتى ينضج.",
-          "اخلط صلصة الصويا وصلصة الفلفل والسكر وما تبقّى من الزنجبيل والثوم المفرومين لصنع صلصة التغميس.",
-          "قطّع الدجاج وقدّمه فوق الأرز مع الخيار والصلصة ووعاء من المرق الساخن."
-        ]
-      },
-      "tips": [
-        "أزل جلد الدجاج قبل التقطيع لتقليل الدهون بشكل ملحوظ.",
-        "أزل الدهن عن سطح المرق قبل طهي الأرز به.",
-        "اطلب نصف كمية الأرز وخيارًا إضافيًا عند الباعة."
-      ]
-    },
-    "it": {
-      "name": "Khao man gai",
-      "origin": "Thailandia · Bangkok",
-      "intro": "Il khao man gai è pollo thailandese lessato servito su riso cotto nel brodo di pollo con aglio e zenzero. Le fette di pollo tenero sono accompagnate da cetriolo e da una salsa pungente di salsa di soia, peperoncino, zenzero e aglio, di solito con una ciotolina di brodo limpido. Il riso è profumato e lucido, il pollo setoso.",
-      "history": "Il khao man gai è la versione thailandese del riso al pollo di Hainan, portato nel Sud-est asiatico dai migranti dell'isola di Hainan, nella Cina meridionale. Oggi è uno dei pranzi di street food più comuni a Bangkok.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 pollo intero (circa 1,4 kg)",
-          "400 g di riso jasmine sciacquato",
-          "40 g di zenzero a fettine",
-          "6 spicchi d'aglio",
-          "1 cetriolo a fette",
-          "3 cucchiai di salsa di soia",
-          "1 cucchiaio di salsa al peperoncino",
-          "1 cucchiaino di zucchero",
-          "1 cucchiaio di olio"
-        ],
-        "steps": [
-          "Fai sobbollire il pollo con metà dello zenzero e 2 spicchi d'aglio in acqua sufficiente a coprirlo per circa 40 minuti, poi lascialo intiepidire brevemente.",
-          "Soffriggi nell'olio 2 spicchi d'aglio tritati e un po' di zenzero, aggiungi il riso e mescola per insaporirlo.",
-          "Cuoci il riso in circa 600 ml di brodo di pollo finché non è tenero.",
-          "Mescola la salsa di soia, la salsa al peperoncino, lo zucchero e lo zenzero e l'aglio tritati rimasti per ottenere una salsa.",
-          "Taglia il pollo a fette e servilo sul riso con il cetriolo, la salsa e una ciotola di brodo caldo."
-        ]
-      },
-      "tips": [
-        "Togli la pelle al pollo prima di tagliarlo per ridurre sensibilmente i grassi.",
-        "Sgrassa il brodo prima di cuocere il riso.",
-        "Ai banchi di street food chiedi mezza porzione di riso e più cetriolo."
-      ]
-    },
-    "el": {
-      "name": "Κάο μαν γκάι",
-      "origin": "Ταϊλάνδη · Μπανγκόκ",
-      "intro": "Το κάο μαν γκάι είναι ταϊλανδέζικο βραστό κοτόπουλο που σερβίρεται πάνω σε ρύζι μαγειρεμένο στον ζωμό του κοτόπουλου με σκόρδο και τζίντζερ. Οι φέτες από τρυφερό κοτόπουλο συνοδεύονται από αγγούρι και μια πικάντικη σάλτσα από σόγια, τσίλι, τζίντζερ και σκόρδο, συνήθως μαζί με ένα μικρό μπολ καθαρό ζωμό. Το ρύζι είναι αρωματικό και γυαλιστερό, το κοτόπουλο μεταξένιο.",
-      "history": "Το κάο μαν γκάι είναι η ταϊλανδέζικη εκδοχή του κοτόπουλου με ρύζι του Χαϊνάν, που έφεραν στη Νοτιοανατολική Ασία μετανάστες από το Χαϊνάν της νότιας Κίνας. Σήμερα είναι ένα από τα πιο συνηθισμένα μεσημεριανά street food στην Μπανγκόκ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 ολόκληρο κοτόπουλο (περίπου 1,4 κιλό)",
-          "400 γρ. ρύζι jasmine, ξεπλυμένο",
-          "40 γρ. τζίντζερ, σε φέτες",
-          "6 σκελίδες σκόρδο",
-          "1 αγγούρι, σε φέτες",
-          "3 κ.σ. σάλτσα σόγιας",
-          "1 κ.σ. σάλτσα τσίλι",
-          "1 κ.γ. ζάχαρη",
-          "1 κ.σ. λάδι"
-        ],
-        "steps": [
-          "Σιγοβράστε το κοτόπουλο με το μισό τζίντζερ και 2 σκελίδες σκόρδο σε νερό που να το σκεπάζει για περίπου 40 λεπτά και έπειτα αφήστε το να κρυώσει λίγο.",
-          "Τσιγαρίστε στο λάδι 2 ψιλοκομμένες σκελίδες σκόρδο και λίγο τζίντζερ, προσθέστε το ρύζι και ανακατέψτε να λαδωθεί.",
-          "Μαγειρέψτε το ρύζι σε περίπου 600 ml από τον ζωμό του κοτόπουλου μέχρι να μαλακώσει.",
-          "Ανακατέψτε τη σόγια, τη σάλτσα τσίλι, τη ζάχαρη και το υπόλοιπο ψιλοκομμένο τζίντζερ και σκόρδο για να φτιάξετε τη σάλτσα.",
-          "Κόψτε το κοτόπουλο σε φέτες και σερβίρετε πάνω στο ρύζι με το αγγούρι, τη σάλτσα και ένα μπολ ζεστό ζωμό."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα του κοτόπουλου πριν το κόψετε για να μειώσετε αισθητά το λίπος.",
-        "Ξαφρίστε το λίπος από τον ζωμό πριν μαγειρέψετε το ρύζι.",
-        "Στους πάγκους του δρόμου ζητήστε μισή μερίδα ρύζι και επιπλέον αγγούρι."
-      ]
-    },
-    "ru": {
-      "name": "Кхао ман гай",
-      "origin": "Таиланд · Бангкок",
-      "intro": "Кхао ман гай — тайская отварная курица с рисом, сваренным в курином бульоне с чесноком и имбирём. Ломтики нежной курицы подают с огурцом и острым соусом из соевого соуса, чили, имбиря и чеснока, обычно вместе с небольшой миской прозрачного бульона. Рис ароматный и блестящий, курица шелковистая.",
-      "history": "Кхао ман гай — тайская версия хайнаньского риса с курицей, который привезли в Юго-Восточную Азию переселенцы с Хайнаня на юге Китая. Сегодня это один из самых распространённых обедов уличной еды в Бангкоке.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 целая курица (около 1,4 кг)",
-          "400 г жасминового риса, промытого",
-          "40 г имбиря, нарезанного",
-          "6 зубчиков чеснока",
-          "1 огурец, нарезанный",
-          "3 ст. л. соевого соуса",
-          "1 ст. л. соуса чили",
-          "1 ч. л. сахара",
-          "1 ст. л. масла"
-        ],
-        "steps": [
-          "Варите курицу с половиной имбиря и 2 зубчиками чеснока в воде, покрывающей её, около 40 минут, затем ненадолго остудите.",
-          "Обжарьте в масле 2 измельчённых зубчика чеснока и немного имбиря, добавьте рис и перемешайте, чтобы он покрылся маслом.",
-          "Варите рис примерно в 600 мл куриного бульона до мягкости.",
-          "Смешайте соевый соус, соус чили, сахар и оставшиеся измельчённые имбирь и чеснок для соуса.",
-          "Нарежьте курицу и подавайте на рисе с огурцом, соусом и миской горячего бульона."
-        ]
-      },
-      "tips": [
-        "Снимите кожу с курицы перед нарезкой, чтобы заметно сократить жир.",
-        "Снимите жир с бульона, прежде чем варить в нём рис.",
-        "На уличных лотках просите половину риса и дополнительный огурец."
-      ],
-      "name_inline": "кхао ман гай"
-    }
+  "ar": {
+   "name": "خاو مان غاي",
+   "origin": "تايلاند · بانكوك",
+   "intro": "خاو مان غاي طبق تايلاندي من الدجاج المسلوق يُقدَّم فوق أرز مطبوخ في مرق الدجاج مع الثوم والزنجبيل. تأتي شرائح الدجاج الطرية مع الخيار وصلصة تغميس حادة من صلصة الصويا والفلفل الحار والزنجبيل والثوم، وغالبًا مع وعاء صغير من المرق الصافي. الأرز عطِر ولامع والدجاج ناعم.",
+   "history": "خاو مان غاي هو النسخة التايلاندية من أرز الدجاج الهايناني الذي حمله المهاجرون من جزيرة هاينان جنوب الصين إلى جنوب شرق آسيا. وهو اليوم من أكثر وجبات الغداء شيوعًا في شوارع بانكوك.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 دجاجة كاملة (نحو 1.4 كغ)",
+     "400 غ أرز ياسمين مغسول",
+     "40 غ زنجبيل مقطّع",
+     "6 فصوص ثوم",
+     "1 خيارة مقطّعة",
+     "3 ملاعق كبيرة صلصة صويا",
+     "1 ملعقة كبيرة صلصة فلفل حار",
+     "1 ملعقة صغيرة سكر",
+     "1 ملعقة كبيرة زيت"
+    ],
+    "steps": [
+     "اسلق الدجاجة مع نصف الزنجبيل وفصّي ثوم في ماء يغمرها نحو 40 دقيقة، ثم اتركها تبرد قليلًا.",
+     "حمّر فصّي ثوم مفرومين وقليلًا من الزنجبيل في الزيت، وأضف الأرز وقلّبه.",
+     "اطهُ الأرز في نحو 600 مل من مرق الدجاج حتى ينضج.",
+     "اخلط صلصة الصويا وصلصة الفلفل والسكر وما تبقّى من الزنجبيل والثوم المفرومين لصنع صلصة التغميس.",
+     "قطّع الدجاج وقدّمه فوق الأرز مع الخيار والصلصة ووعاء من المرق الساخن."
+    ]
+   },
+   "tips": [
+    "أزل جلد الدجاج قبل التقطيع لتقليل الدهون بشكل ملحوظ.",
+    "أزل الدهن عن سطح المرق قبل طهي الأرز به.",
+    "اطلب نصف كمية الأرز وخيارًا إضافيًا عند الباعة."
+   ]
+  },
+  "it": {
+   "name": "Khao man gai",
+   "origin": "Thailandia · Bangkok",
+   "intro": "Il khao man gai è pollo thailandese lessato servito su riso cotto nel brodo di pollo con aglio e zenzero. Le fette di pollo tenero sono accompagnate da cetriolo e da una salsa pungente di salsa di soia, peperoncino, zenzero e aglio, di solito con una ciotolina di brodo limpido. Il riso è profumato e lucido, il pollo setoso.",
+   "history": "Il khao man gai è la versione thailandese del riso al pollo di Hainan, portato nel Sud-est asiatico dai migranti dell'isola di Hainan, nella Cina meridionale. Oggi è uno dei pranzi di street food più comuni a Bangkok.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 pollo intero (circa 1,4 kg)",
+     "400 g di riso jasmine sciacquato",
+     "40 g di zenzero a fettine",
+     "6 spicchi d'aglio",
+     "1 cetriolo a fette",
+     "3 cucchiai di salsa di soia",
+     "1 cucchiaio di salsa al peperoncino",
+     "1 cucchiaino di zucchero",
+     "1 cucchiaio di olio"
+    ],
+    "steps": [
+     "Fai sobbollire il pollo con metà dello zenzero e 2 spicchi d'aglio in acqua sufficiente a coprirlo per circa 40 minuti, poi lascialo intiepidire brevemente.",
+     "Soffriggi nell'olio 2 spicchi d'aglio tritati e un po' di zenzero, aggiungi il riso e mescola per insaporirlo.",
+     "Cuoci il riso in circa 600 ml di brodo di pollo finché non è tenero.",
+     "Mescola la salsa di soia, la salsa al peperoncino, lo zucchero e lo zenzero e l'aglio tritati rimasti per ottenere una salsa.",
+     "Taglia il pollo a fette e servilo sul riso con il cetriolo, la salsa e una ciotola di brodo caldo."
+    ]
+   },
+   "tips": [
+    "Togli la pelle al pollo prima di tagliarlo per ridurre sensibilmente i grassi.",
+    "Sgrassa il brodo prima di cuocere il riso.",
+    "Ai banchi di street food chiedi mezza porzione di riso e più cetriolo."
+   ]
+  },
+  "el": {
+   "name": "Κάο μαν γκάι",
+   "origin": "Ταϊλάνδη · Μπανγκόκ",
+   "intro": "Το κάο μαν γκάι είναι ταϊλανδέζικο βραστό κοτόπουλο που σερβίρεται πάνω σε ρύζι μαγειρεμένο στον ζωμό του κοτόπουλου με σκόρδο και τζίντζερ. Οι φέτες από τρυφερό κοτόπουλο συνοδεύονται από αγγούρι και μια πικάντικη σάλτσα από σόγια, τσίλι, τζίντζερ και σκόρδο, συνήθως μαζί με ένα μικρό μπολ καθαρό ζωμό. Το ρύζι είναι αρωματικό και γυαλιστερό, το κοτόπουλο μεταξένιο.",
+   "history": "Το κάο μαν γκάι είναι η ταϊλανδέζικη εκδοχή του κοτόπουλου με ρύζι του Χαϊνάν, που έφεραν στη Νοτιοανατολική Ασία μετανάστες από το Χαϊνάν της νότιας Κίνας. Σήμερα είναι ένα από τα πιο συνηθισμένα μεσημεριανά street food στην Μπανγκόκ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 ολόκληρο κοτόπουλο (περίπου 1,4 κιλό)",
+     "400 γρ. ρύζι jasmine, ξεπλυμένο",
+     "40 γρ. τζίντζερ, σε φέτες",
+     "6 σκελίδες σκόρδο",
+     "1 αγγούρι, σε φέτες",
+     "3 κ.σ. σάλτσα σόγιας",
+     "1 κ.σ. σάλτσα τσίλι",
+     "1 κ.γ. ζάχαρη",
+     "1 κ.σ. λάδι"
+    ],
+    "steps": [
+     "Σιγοβράστε το κοτόπουλο με το μισό τζίντζερ και 2 σκελίδες σκόρδο σε νερό που να το σκεπάζει για περίπου 40 λεπτά και έπειτα αφήστε το να κρυώσει λίγο.",
+     "Τσιγαρίστε στο λάδι 2 ψιλοκομμένες σκελίδες σκόρδο και λίγο τζίντζερ, προσθέστε το ρύζι και ανακατέψτε να λαδωθεί.",
+     "Μαγειρέψτε το ρύζι σε περίπου 600 ml από τον ζωμό του κοτόπουλου μέχρι να μαλακώσει.",
+     "Ανακατέψτε τη σόγια, τη σάλτσα τσίλι, τη ζάχαρη και το υπόλοιπο ψιλοκομμένο τζίντζερ και σκόρδο για να φτιάξετε τη σάλτσα.",
+     "Κόψτε το κοτόπουλο σε φέτες και σερβίρετε πάνω στο ρύζι με το αγγούρι, τη σάλτσα και ένα μπολ ζεστό ζωμό."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα του κοτόπουλου πριν το κόψετε για να μειώσετε αισθητά το λίπος.",
+    "Ξαφρίστε το λίπος από τον ζωμό πριν μαγειρέψετε το ρύζι.",
+    "Στους πάγκους του δρόμου ζητήστε μισή μερίδα ρύζι και επιπλέον αγγούρι."
+   ]
+  },
+  "ru": {
+   "name": "Кхао ман гай",
+   "origin": "Таиланд · Бангкок",
+   "intro": "Кхао ман гай — тайская отварная курица с рисом, сваренным в курином бульоне с чесноком и имбирём. Ломтики нежной курицы подают с огурцом и острым соусом из соевого соуса, чили, имбиря и чеснока, обычно вместе с небольшой миской прозрачного бульона. Рис ароматный и блестящий, курица шелковистая.",
+   "history": "Кхао ман гай — тайская версия хайнаньского риса с курицей, который привезли в Юго-Восточную Азию переселенцы с Хайнаня на юге Китая. Сегодня это один из самых распространённых обедов уличной еды в Бангкоке.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 целая курица (около 1,4 кг)",
+     "400 г жасминового риса, промытого",
+     "40 г имбиря, нарезанного",
+     "6 зубчиков чеснока",
+     "1 огурец, нарезанный",
+     "3 ст. л. соевого соуса",
+     "1 ст. л. соуса чили",
+     "1 ч. л. сахара",
+     "1 ст. л. масла"
+    ],
+    "steps": [
+     "Варите курицу с половиной имбиря и 2 зубчиками чеснока в воде, покрывающей её, около 40 минут, затем ненадолго остудите.",
+     "Обжарьте в масле 2 измельчённых зубчика чеснока и немного имбиря, добавьте рис и перемешайте, чтобы он покрылся маслом.",
+     "Варите рис примерно в 600 мл куриного бульона до мягкости.",
+     "Смешайте соевый соус, соус чили, сахар и оставшиеся измельчённые имбирь и чеснок для соуса.",
+     "Нарежьте курицу и подавайте на рисе с огурцом, соусом и миской горячего бульона."
+    ]
+   },
+   "tips": [
+    "Снимите кожу с курицы перед нарезкой, чтобы заметно сократить жир.",
+    "Снимите жир с бульона, прежде чем варить в нём рис.",
+    "На уличных лотках просите половину риса и дополнительный огурец."
+   ],
+   "name_inline": "кхао ман гай"
+  },
+  "es": {
+   "name": "Khao man gai",
+   "origin": "Tailandia · Bangkok",
+   "intro": "El khao man gai es pollo pochado tailandés servido sobre arroz cocido en el caldo del pollo con ajo y jengibre. Las rebanadas de pollo tierno llegan con pepino y una salsa intensa para mojar de salsa de soya, chile, jengibre y ajo, normalmente junto a un pequeño tazón de caldo claro. El arroz es fragante y brillante, y el pollo, sedoso.",
+   "history": "El khao man gai es la versión tailandesa del arroz con pollo de Hainan, llevado al sudeste asiático por migrantes de Hainan, en el sur de China. Hoy es uno de los almuerzos callejeros más comunes de Bangkok.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 pollo entero (unos 1.4 kg)",
+     "400 g de arroz jazmín, enjuagado",
+     "40 g de jengibre, en rodajas",
+     "6 dientes de ajo",
+     "1 pepino, en rodajas",
+     "3 cdas. de salsa de soya",
+     "1 cda. de salsa de chile",
+     "1 cdta. de azúcar",
+     "1 cda. de aceite"
+    ],
+    "steps": [
+     "Cocina el pollo a fuego bajo con la mitad del jengibre y 2 dientes de ajo en agua que lo cubra durante unos 40 minutos y déjalo enfriar un poco.",
+     "Fríe 2 dientes de ajo picados y un poco de jengibre en el aceite, agrega el arroz y mezcla para cubrirlo.",
+     "Cuece el arroz en unos 600 ml del caldo del pollo hasta que esté tierno.",
+     "Mezcla la salsa de soya, la salsa de chile, el azúcar y el jengibre y el ajo picados que quedan para hacer la salsa.",
+     "Corta el pollo en rebanadas y sirve sobre el arroz con el pepino, la salsa y un tazón de caldo caliente."
+    ]
+   },
+   "tips": [
+    "Quita la piel del pollo antes de cortarlo para reducir notablemente la grasa.",
+    "Retira la grasa del caldo antes de cocinar el arroz.",
+    "En los puestos callejeros, pide la mitad de arroz y pepino extra."
+   ],
+   "name_inline": "el khao man gai"
   }
+ }
 }

@@ -1,181 +1,214 @@
 {
-  "db_key": "soupe_chalet",
-  "slug": "soupe-chalet",
-  "emoji": "🥣",
-  "portion_g": 400,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "soupe_chalet",
+ "slug": "soupe-chalet",
+ "emoji": "🥣",
+ "portion_g": 400,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Soupe de Chalet",
+   "origin": "Switzerland · Fribourg",
+   "intro": "Soupe de chalet is a thick, creamy alpine soup from the Swiss mountains, made with whatever vegetables are at hand — potatoes, leeks, carrots, spinach — simmered and enriched with cream and plenty of melted cheese. Cubes of bread are added to soak up the soup, making it a warming one-pot meal for cold days.",
+   "history": "The soup comes from the Gruyère region of the canton of Fribourg, where it was traditionally cooked in mountain chalets using farm produce and local cheese. It is still served in alpine restaurants across western Switzerland.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 g potatoes, diced",
+     "2 leeks, sliced",
+     "2 carrots, diced",
+     "100 g spinach",
+     "1 onion, chopped",
+     "1.2 l vegetable broth",
+     "150 ml cream",
+     "120 g Gruyère or vacherin cheese, grated",
+     "4 slices stale bread, cubed",
+     "1 tbsp oil, salt, pepper, nutmeg"
+    ],
+    "steps": [
+     "Soften the onion and leeks in the oil for 5 minutes.",
+     "Add the potatoes, carrots and broth and simmer 20 minutes.",
+     "Add the spinach and cook 3 minutes, then stir in the cream and season.",
+     "Put the bread cubes in bowls, ladle over the soup and top with the grated cheese so it melts."
+    ]
+   },
+   "tips": [
+    "Replace half the cream with extra broth.",
+    "Use more vegetables and fewer bread cubes per bowl.",
+    "Grate the cheese finely — a small amount covers more surface."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Soupe de Chalet",
-      "origin": "Switzerland · Fribourg",
-      "intro": "Soupe de chalet is a thick, creamy alpine soup from the Swiss mountains, made with whatever vegetables are at hand — potatoes, leeks, carrots, spinach — simmered and enriched with cream and plenty of melted cheese. Cubes of bread are added to soak up the soup, making it a warming one-pot meal for cold days.",
-      "history": "The soup comes from the Gruyère region of the canton of Fribourg, where it was traditionally cooked in mountain chalets using farm produce and local cheese. It is still served in alpine restaurants across western Switzerland.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 g potatoes, diced",
-          "2 leeks, sliced",
-          "2 carrots, diced",
-          "100 g spinach",
-          "1 onion, chopped",
-          "1.2 l vegetable broth",
-          "150 ml cream",
-          "120 g Gruyère or vacherin cheese, grated",
-          "4 slices stale bread, cubed",
-          "1 tbsp oil, salt, pepper, nutmeg"
-        ],
-        "steps": [
-          "Soften the onion and leeks in the oil for 5 minutes.",
-          "Add the potatoes, carrots and broth and simmer 20 minutes.",
-          "Add the spinach and cook 3 minutes, then stir in the cream and season.",
-          "Put the bread cubes in bowls, ladle over the soup and top with the grated cheese so it melts."
-        ]
-      },
-      "tips": [
-        "Replace half the cream with extra broth.",
-        "Use more vegetables and fewer bread cubes per bowl.",
-        "Grate the cheese finely — a small amount covers more surface."
-      ]
-    },
-    "ar": {
-      "name": "حساء الشاليه السويسري",
-      "origin": "سويسرا · فريبورغ",
-      "intro": "حساء الشاليه حساء جبلي كثيف كريمي من جبال سويسرا، يُحضّر من الخضار المتوفرة — البطاطا والكرّاث والجزر والسبانخ — تُطهى وتُغنى بالكريمة وكمية وفيرة من الجبن الذائب. تُضاف إليه مكعبات الخبز لتتشرب الحساء، فيصبح وجبة دافئة من قدر واحد للأيام الباردة.",
-      "history": "يأتي الحساء من منطقة غرويير في كانتون فريبورغ، حيث كان يُطهى تقليدياً في الأكواخ الجبلية من منتجات المزرعة والجبن المحلي. ولا يزال يُقدَّم في مطاعم جبال الألب في غرب سويسرا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 غ بطاطا مكعبات",
-          "2 كرّاث مقطّع",
-          "2 جزر مكعبات",
-          "100 غ سبانخ",
-          "1 بصلة مفرومة",
-          "1.2 لتر مرق خضار",
-          "150 مل كريمة طبخ",
-          "120 غ جبن غرويير أو فاشرين مبشور",
-          "4 شرائح خبز بائت مكعبات",
-          "1 ملعقة كبيرة زيت، ملح، فلفل، جوزة الطيب"
-        ],
-        "steps": [
-          "قلّب البصل والكرّاث في الزيت 5 دقائق حتى يذبلا.",
-          "أضف البطاطا والجزر والمرق واتركه يغلي بهدوء 20 دقيقة.",
-          "أضف السبانخ واطهها 3 دقائق، ثم أضف الكريمة وتبّل.",
-          "ضع مكعبات الخبز في الأوعية واسكب فوقها الحساء ورشّ الجبن المبشور ليذوب."
-        ]
-      },
-      "tips": [
-        "استبدل نصف الكريمة بمزيد من المرق.",
-        "استخدم خضاراً أكثر ومكعبات خبز أقل في كل طبق.",
-        "ابشر الجبن ناعماً، فالكمية القليلة تغطي مساحة أكبر."
-      ]
-    },
-    "it": {
-      "name": "Soupe de chalet",
-      "origin": "Svizzera · Friburgo",
-      "intro": "La soupe de chalet è una zuppa alpina densa e cremosa delle montagne svizzere, preparata con le verdure che si hanno a disposizione — patate, porri, carote, spinaci — cotte a fuoco lento e arricchite con panna e abbondante formaggio fuso. Si aggiungono cubetti di pane che assorbono la zuppa, rendendola un piatto unico che scalda nelle giornate fredde.",
-      "history": "La zuppa viene dalla regione della Gruyère, nel cantone di Friburgo, dove tradizionalmente si cucinava negli chalet di montagna con i prodotti della fattoria e il formaggio locale. Si serve ancora nei ristoranti alpini di tutta la Svizzera occidentale.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 g di patate a dadini",
-          "2 porri affettati",
-          "2 carote a dadini",
-          "100 g di spinaci",
-          "1 cipolla tritata",
-          "1,2 l di brodo vegetale",
-          "150 ml di panna",
-          "120 g di Gruyère o vacherin grattugiato",
-          "4 fette di pane raffermo a cubetti",
-          "1 cucchiaio di olio, sale, pepe, noce moscata"
-        ],
-        "steps": [
-          "Fai appassire la cipolla e i porri nell'olio per 5 minuti.",
-          "Aggiungi le patate, le carote e il brodo e cuoci a fuoco lento 20 minuti.",
-          "Aggiungi gli spinaci e cuoci 3 minuti, poi unisci la panna e regola di sale e spezie.",
-          "Metti i cubetti di pane nelle ciotole, versa sopra la zuppa e completa con il formaggio grattugiato perché fonda."
-        ]
-      },
-      "tips": [
-        "Sostituisci metà della panna con altro brodo.",
-        "Metti più verdure e meno cubetti di pane in ogni ciotola.",
-        "Grattugia finemente il formaggio: una piccola quantità copre più superficie."
-      ]
-    },
-    "el": {
-      "name": "Σούπα του σαλέ",
-      "name_inline": "σούπα του σαλέ",
-      "origin": "Ελβετία · Φριβούργο",
-      "intro": "Η soupe de chalet είναι μια πηχτή, κρεμώδης αλπική σούπα από τα ελβετικά βουνά, που φτιάχνεται με όποια λαχανικά υπάρχουν διαθέσιμα — πατάτες, πράσα, καρότα, σπανάκι — σιγοβρασμένα και εμπλουτισμένα με κρέμα γάλακτος και άφθονο λιωμένο τυρί. Προστίθενται κύβοι ψωμιού που ρουφούν τη σούπα, κάνοντάς την ένα ζεστό πιάτο μιας κατσαρόλας για τις κρύες μέρες.",
-      "history": "Η σούπα προέρχεται από την περιοχή Gruyère του καντονιού του Φριβούργου, όπου παραδοσιακά μαγειρευόταν στα ορεινά σαλέ με προϊόντα της φάρμας και τοπικό τυρί. Σερβίρεται ακόμη σε αλπικά εστιατόρια σε όλη τη δυτική Ελβετία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 γρ. πατάτες, σε κυβάκια",
-          "2 πράσα, σε ροδέλες",
-          "2 καρότα, σε κυβάκια",
-          "100 γρ. σπανάκι",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1,2 λίτρα ζωμός λαχανικών",
-          "150 ml κρέμα γάλακτος",
-          "120 γρ. τυρί Gruyère ή vacherin, τριμμένο",
-          "4 φέτες μπαγιάτικο ψωμί, σε κύβους",
-          "1 κ.σ. λάδι, αλάτι, πιπέρι, μοσχοκάρυδο"
-        ],
-        "steps": [
-          "Μαλακώστε το κρεμμύδι και τα πράσα στο λάδι για 5 λεπτά.",
-          "Προσθέστε τις πατάτες, τα καρότα και τον ζωμό και σιγοβράστε 20 λεπτά.",
-          "Προσθέστε το σπανάκι και μαγειρέψτε 3 λεπτά, μετά ανακατέψτε μέσα την κρέμα και καρυκεύστε.",
-          "Βάλτε τους κύβους ψωμιού στα μπολ, ρίξτε από πάνω τη σούπα και συμπληρώστε με το τριμμένο τυρί για να λιώσει."
-        ]
-      },
-      "tips": [
-        "Αντικαταστήστε τη μισή κρέμα με επιπλέον ζωμό.",
-        "Βάλτε περισσότερα λαχανικά και λιγότερους κύβους ψωμιού σε κάθε μπολ.",
-        "Τρίψτε το τυρί ψιλά: μια μικρή ποσότητα καλύπτει μεγαλύτερη επιφάνεια."
-      ]
-    },
-    "ru": {
-      "name": "Суп шале",
-      "origin": "Швейцария · Фрибур",
-      "intro": "Суп шале — густой сливочный альпийский суп из швейцарских гор, который варят из любых овощей под рукой — картофеля, лука-порея, моркови, шпината — и обогащают сливками и большим количеством расплавленного сыра. В тарелки добавляют кубики хлеба, чтобы они впитали суп, и получается согревающее блюдо в одной кастрюле для холодных дней.",
-      "history": "Суп родом из региона Грюйер в кантоне Фрибур, где его традиционно готовили в горных шале из фермерских продуктов и местного сыра. Его по-прежнему подают в альпийских ресторанах по всей западной Швейцарии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "400 г картофеля, нарезанного кубиками",
-          "2 стебля лука-порея, нарезанных",
-          "2 моркови, нарезанных кубиками",
-          "100 г шпината",
-          "1 луковица, нарубленная",
-          "1,2 л овощного бульона",
-          "150 мл сливок",
-          "120 г сыра грюйер или вашерен, натёртого",
-          "4 ломтика черствого хлеба, нарезанных кубиками",
-          "1 ст. л. масла, соль, перец, мускатный орех"
-        ],
-        "steps": [
-          "Обжаривайте лук и порей в масле 5 минут до мягкости.",
-          "Добавьте картофель, морковь и бульон и варите 20 минут.",
-          "Добавьте шпинат и готовьте 3 минуты, затем влейте сливки и добавьте приправы.",
-          "Выложите кубики хлеба в тарелки, налейте суп и посыпьте тёртым сыром, чтобы он расплавился."
-        ]
-      },
-      "tips": [
-        "Замените половину сливок дополнительным бульоном.",
-        "Берите больше овощей и меньше кубиков хлеба на тарелку.",
-        "Натрите сыр помельче: небольшое количество покроет большую поверхность."
-      ],
-      "name_inline": "суп шале"
-    }
+  "ar": {
+   "name": "حساء الشاليه السويسري",
+   "origin": "سويسرا · فريبورغ",
+   "intro": "حساء الشاليه حساء جبلي كثيف كريمي من جبال سويسرا، يُحضّر من الخضار المتوفرة — البطاطا والكرّاث والجزر والسبانخ — تُطهى وتُغنى بالكريمة وكمية وفيرة من الجبن الذائب. تُضاف إليه مكعبات الخبز لتتشرب الحساء، فيصبح وجبة دافئة من قدر واحد للأيام الباردة.",
+   "history": "يأتي الحساء من منطقة غرويير في كانتون فريبورغ، حيث كان يُطهى تقليدياً في الأكواخ الجبلية من منتجات المزرعة والجبن المحلي. ولا يزال يُقدَّم في مطاعم جبال الألب في غرب سويسرا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 غ بطاطا مكعبات",
+     "2 كرّاث مقطّع",
+     "2 جزر مكعبات",
+     "100 غ سبانخ",
+     "1 بصلة مفرومة",
+     "1.2 لتر مرق خضار",
+     "150 مل كريمة طبخ",
+     "120 غ جبن غرويير أو فاشرين مبشور",
+     "4 شرائح خبز بائت مكعبات",
+     "1 ملعقة كبيرة زيت، ملح، فلفل، جوزة الطيب"
+    ],
+    "steps": [
+     "قلّب البصل والكرّاث في الزيت 5 دقائق حتى يذبلا.",
+     "أضف البطاطا والجزر والمرق واتركه يغلي بهدوء 20 دقيقة.",
+     "أضف السبانخ واطهها 3 دقائق، ثم أضف الكريمة وتبّل.",
+     "ضع مكعبات الخبز في الأوعية واسكب فوقها الحساء ورشّ الجبن المبشور ليذوب."
+    ]
+   },
+   "tips": [
+    "استبدل نصف الكريمة بمزيد من المرق.",
+    "استخدم خضاراً أكثر ومكعبات خبز أقل في كل طبق.",
+    "ابشر الجبن ناعماً، فالكمية القليلة تغطي مساحة أكبر."
+   ]
+  },
+  "it": {
+   "name": "Soupe de chalet",
+   "origin": "Svizzera · Friburgo",
+   "intro": "La soupe de chalet è una zuppa alpina densa e cremosa delle montagne svizzere, preparata con le verdure che si hanno a disposizione — patate, porri, carote, spinaci — cotte a fuoco lento e arricchite con panna e abbondante formaggio fuso. Si aggiungono cubetti di pane che assorbono la zuppa, rendendola un piatto unico che scalda nelle giornate fredde.",
+   "history": "La zuppa viene dalla regione della Gruyère, nel cantone di Friburgo, dove tradizionalmente si cucinava negli chalet di montagna con i prodotti della fattoria e il formaggio locale. Si serve ancora nei ristoranti alpini di tutta la Svizzera occidentale.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 g di patate a dadini",
+     "2 porri affettati",
+     "2 carote a dadini",
+     "100 g di spinaci",
+     "1 cipolla tritata",
+     "1,2 l di brodo vegetale",
+     "150 ml di panna",
+     "120 g di Gruyère o vacherin grattugiato",
+     "4 fette di pane raffermo a cubetti",
+     "1 cucchiaio di olio, sale, pepe, noce moscata"
+    ],
+    "steps": [
+     "Fai appassire la cipolla e i porri nell'olio per 5 minuti.",
+     "Aggiungi le patate, le carote e il brodo e cuoci a fuoco lento 20 minuti.",
+     "Aggiungi gli spinaci e cuoci 3 minuti, poi unisci la panna e regola di sale e spezie.",
+     "Metti i cubetti di pane nelle ciotole, versa sopra la zuppa e completa con il formaggio grattugiato perché fonda."
+    ]
+   },
+   "tips": [
+    "Sostituisci metà della panna con altro brodo.",
+    "Metti più verdure e meno cubetti di pane in ogni ciotola.",
+    "Grattugia finemente il formaggio: una piccola quantità copre più superficie."
+   ]
+  },
+  "el": {
+   "name": "Σούπα του σαλέ",
+   "name_inline": "σούπα του σαλέ",
+   "origin": "Ελβετία · Φριβούργο",
+   "intro": "Η soupe de chalet είναι μια πηχτή, κρεμώδης αλπική σούπα από τα ελβετικά βουνά, που φτιάχνεται με όποια λαχανικά υπάρχουν διαθέσιμα — πατάτες, πράσα, καρότα, σπανάκι — σιγοβρασμένα και εμπλουτισμένα με κρέμα γάλακτος και άφθονο λιωμένο τυρί. Προστίθενται κύβοι ψωμιού που ρουφούν τη σούπα, κάνοντάς την ένα ζεστό πιάτο μιας κατσαρόλας για τις κρύες μέρες.",
+   "history": "Η σούπα προέρχεται από την περιοχή Gruyère του καντονιού του Φριβούργου, όπου παραδοσιακά μαγειρευόταν στα ορεινά σαλέ με προϊόντα της φάρμας και τοπικό τυρί. Σερβίρεται ακόμη σε αλπικά εστιατόρια σε όλη τη δυτική Ελβετία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 γρ. πατάτες, σε κυβάκια",
+     "2 πράσα, σε ροδέλες",
+     "2 καρότα, σε κυβάκια",
+     "100 γρ. σπανάκι",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1,2 λίτρα ζωμός λαχανικών",
+     "150 ml κρέμα γάλακτος",
+     "120 γρ. τυρί Gruyère ή vacherin, τριμμένο",
+     "4 φέτες μπαγιάτικο ψωμί, σε κύβους",
+     "1 κ.σ. λάδι, αλάτι, πιπέρι, μοσχοκάρυδο"
+    ],
+    "steps": [
+     "Μαλακώστε το κρεμμύδι και τα πράσα στο λάδι για 5 λεπτά.",
+     "Προσθέστε τις πατάτες, τα καρότα και τον ζωμό και σιγοβράστε 20 λεπτά.",
+     "Προσθέστε το σπανάκι και μαγειρέψτε 3 λεπτά, μετά ανακατέψτε μέσα την κρέμα και καρυκεύστε.",
+     "Βάλτε τους κύβους ψωμιού στα μπολ, ρίξτε από πάνω τη σούπα και συμπληρώστε με το τριμμένο τυρί για να λιώσει."
+    ]
+   },
+   "tips": [
+    "Αντικαταστήστε τη μισή κρέμα με επιπλέον ζωμό.",
+    "Βάλτε περισσότερα λαχανικά και λιγότερους κύβους ψωμιού σε κάθε μπολ.",
+    "Τρίψτε το τυρί ψιλά: μια μικρή ποσότητα καλύπτει μεγαλύτερη επιφάνεια."
+   ]
+  },
+  "ru": {
+   "name": "Суп шале",
+   "origin": "Швейцария · Фрибур",
+   "intro": "Суп шале — густой сливочный альпийский суп из швейцарских гор, который варят из любых овощей под рукой — картофеля, лука-порея, моркови, шпината — и обогащают сливками и большим количеством расплавленного сыра. В тарелки добавляют кубики хлеба, чтобы они впитали суп, и получается согревающее блюдо в одной кастрюле для холодных дней.",
+   "history": "Суп родом из региона Грюйер в кантоне Фрибур, где его традиционно готовили в горных шале из фермерских продуктов и местного сыра. Его по-прежнему подают в альпийских ресторанах по всей западной Швейцарии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 г картофеля, нарезанного кубиками",
+     "2 стебля лука-порея, нарезанных",
+     "2 моркови, нарезанных кубиками",
+     "100 г шпината",
+     "1 луковица, нарубленная",
+     "1,2 л овощного бульона",
+     "150 мл сливок",
+     "120 г сыра грюйер или вашерен, натёртого",
+     "4 ломтика черствого хлеба, нарезанных кубиками",
+     "1 ст. л. масла, соль, перец, мускатный орех"
+    ],
+    "steps": [
+     "Обжаривайте лук и порей в масле 5 минут до мягкости.",
+     "Добавьте картофель, морковь и бульон и варите 20 минут.",
+     "Добавьте шпинат и готовьте 3 минуты, затем влейте сливки и добавьте приправы.",
+     "Выложите кубики хлеба в тарелки, налейте суп и посыпьте тёртым сыром, чтобы он расплавился."
+    ]
+   },
+   "tips": [
+    "Замените половину сливок дополнительным бульоном.",
+    "Берите больше овощей и меньше кубиков хлеба на тарелку.",
+    "Натрите сыр помельче: небольшое количество покроет большую поверхность."
+   ],
+   "name_inline": "суп шале"
+  },
+  "es": {
+   "name": "Soupe de chalet (sopa de chalet)",
+   "origin": "Suiza · Friburgo",
+   "intro": "La soupe de chalet es una sopa alpina espesa y cremosa de las montañas suizas, preparada con las verduras que haya a mano (papas, puerros, zanahorias, espinacas), cocidas a fuego lento y enriquecidas con crema y abundante queso derretido. Se agregan cubos de pan para que absorban la sopa, lo que la convierte en una comida reconfortante en una sola olla para los días fríos.",
+   "history": "La sopa procede de la región de Gruyère, en el cantón de Friburgo, donde tradicionalmente se cocinaba en los chalets de montaña con productos de la granja y queso local. Todavía se sirve en los restaurantes alpinos del oeste de Suiza.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "400 g de papas, en cubos",
+     "2 puerros, en rodajas",
+     "2 zanahorias, en cubos",
+     "100 g de espinacas",
+     "1 cebolla, picada",
+     "1,2 l de caldo de verduras",
+     "150 ml de crema",
+     "120 g de queso gruyère o vacherin, rallado",
+     "4 rebanadas de pan duro, en cubos",
+     "1 cda. de aceite, sal, pimienta, nuez moscada"
+    ],
+    "steps": [
+     "Sofríe la cebolla y los puerros en el aceite durante 5 minutos.",
+     "Agrega las papas, las zanahorias y el caldo y cocina a fuego lento 20 minutos.",
+     "Añade las espinacas y cocina 3 minutos, luego incorpora la crema y sazona.",
+     "Pon los cubos de pan en los tazones, vierte la sopa y cubre con el queso rallado para que se derrita."
+    ]
+   },
+   "tips": [
+    "Sustituye la mitad de la crema por más caldo.",
+    "Usa más verduras y menos cubos de pan por tazón.",
+    "Ralla el queso muy fino: una cantidad pequeña cubre más superficie."
+   ]
   }
+ }
 }

@@ -1,172 +1,204 @@
 {
-  "db_key": "papet_vaudois_classique",
-  "slug": "papet-vaudois-classique",
-  "emoji": "🥘",
-  "portion_g": 350,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "papet_vaudois_classique",
+ "slug": "papet-vaudois-classique",
+ "emoji": "🥘",
+ "portion_g": 350,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Classic papet vaudois",
+   "origin": "Switzerland · Vaud",
+   "intro": "This classic papet vaudois pairs braised pork sausage with a soft stew of leeks and potatoes enriched with cream. The vegetables cook down until creamy and rustic, soaking up the savoury juices of the sausage. It is a simple, filling winter plate from western Switzerland, served hot with the sausage sliced on top.",
+   "history": "Papet vaudois is the emblematic dish of the canton of Vaud in western Switzerland, traditionally made with local pork sausages. The name papet describes the thick, mash-like texture of the leeks and potatoes. It remains a staple of Vaud home cooking and village festivals.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "500 g pork sausage",
+     "800 g leeks, sliced",
+     "600 g potatoes, diced",
+     "100 ml cream",
+     "1 tbsp vegetable oil",
+     "300 ml water",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Soften the leeks in the oil for 10 minutes over low heat.",
+     "Add the potatoes and water, season and bring to a simmer.",
+     "Place the sausage on top, cover and braise gently for about 45 minutes.",
+     "Take out the sausage, stir in the cream and season.",
+     "Serve the stew with the sliced sausage on top."
+    ]
+   },
+   "tips": [
+    "Use half the cream; mashing some potato thickens the stew instead.",
+    "Prick the sausage before cooking and skim off fat from the surface.",
+    "Fill half the plate with the leek and potato and keep the sausage portion modest."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Classic papet vaudois",
-      "origin": "Switzerland · Vaud",
-      "intro": "This classic papet vaudois pairs braised pork sausage with a soft stew of leeks and potatoes enriched with cream. The vegetables cook down until creamy and rustic, soaking up the savoury juices of the sausage. It is a simple, filling winter plate from western Switzerland, served hot with the sausage sliced on top.",
-      "history": "Papet vaudois is the emblematic dish of the canton of Vaud in western Switzerland, traditionally made with local pork sausages. The name papet describes the thick, mash-like texture of the leeks and potatoes. It remains a staple of Vaud home cooking and village festivals.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "500 g pork sausage",
-          "800 g leeks, sliced",
-          "600 g potatoes, diced",
-          "100 ml cream",
-          "1 tbsp vegetable oil",
-          "300 ml water",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Soften the leeks in the oil for 10 minutes over low heat.",
-          "Add the potatoes and water, season and bring to a simmer.",
-          "Place the sausage on top, cover and braise gently for about 45 minutes.",
-          "Take out the sausage, stir in the cream and season.",
-          "Serve the stew with the sliced sausage on top."
-        ]
-      },
-      "tips": [
-        "Use half the cream; mashing some potato thickens the stew instead.",
-        "Prick the sausage before cooking and skim off fat from the surface.",
-        "Fill half the plate with the leek and potato and keep the sausage portion modest."
-      ]
-    },
-    "ar": {
-      "name": "بابيه فودوا الكلاسيكي",
-      "origin": "سويسرا · كانتون فو",
-      "intro": "يجمع بابيه فودوا الكلاسيكي نقانق لحم الخنزير المطهوة مع يخنة طرية من الكراث والبطاطس تُغنى بالكريمة. تُطهى الخضار حتى تصبح كريمية ريفية القوام وتتشرّب عصارة النقانق. وهو طبق شتوي بسيط ومشبع من غرب سويسرا، يُقدَّم ساخنًا مع شرائح النقانق فوقه.",
-      "history": "بابيه فودوا هو الطبق الرمزي لكانتون فو في غرب سويسرا، ويُحضَّر تقليديًا بنقانق لحم الخنزير المحلية. وتصف كلمة «بابيه» القوام الكثيف الشبيه بالهريس للكراث والبطاطس. ولا يزال من أساسيات المطبخ المنزلي في فو ومهرجانات القرى.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "500 غ نقانق لحم خنزير",
-          "800 غ كراث مقطّع حلقات",
-          "600 غ بطاطس مقطّعة مكعبات",
-          "100 مل كريمة",
-          "1 ملعقة كبيرة زيت نباتي",
-          "300 مل ماء",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "ليّن الكراث في الزيت 10 دقائق على نار هادئة.",
-          "أضف البطاطس والماء وتبّل واتركه يغلي بهدوء.",
-          "ضع النقانق فوقها وغطِّ القدر واطهُ على نار هادئة نحو 45 دقيقة.",
-          "أخرج النقانق وأضف الكريمة وتبّل.",
-          "قدّم اليخنة مع شرائح النقانق فوقها."
-        ]
-      },
-      "tips": [
-        "استخدم نصف الكريمة، وهرس جزء من البطاطس يكثّف اليخنة بدلًا منها.",
-        "اثقب النقانق قبل الطهي وأزل الدهن عن السطح.",
-        "املأ نصف الطبق بالكراث والبطاطس واجعل حصة النقانق معتدلة."
-      ]
-    },
-    "it": {
-      "name": "Papet vaudois classico",
-      "origin": "Svizzera · Vaud",
-      "intro": "Questo papet vaudois classico abbina salsiccia di maiale brasata a un morbido stufato di porri e patate arricchito con panna. Le verdure si disfano fino a diventare cremose e rustiche, assorbendo i succhi saporiti della salsiccia. È un piatto invernale semplice e sostanzioso della Svizzera occidentale, servito caldo con la salsiccia affettata sopra.",
-      "history": "Il papet vaudois è il piatto emblematico del cantone di Vaud, nella Svizzera occidentale, tradizionalmente preparato con salsicce di maiale locali. Il nome papet descrive la consistenza densa, simile a un purè, di porri e patate. Resta un pilastro della cucina casalinga del Vaud e delle feste di paese.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "500 g di salsiccia di maiale",
-          "800 g di porri affettati",
-          "600 g di patate a dadini",
-          "100 ml di panna",
-          "1 cucchiaio di olio di semi",
-          "300 ml di acqua",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Fai appassire i porri nell'olio per 10 minuti a fuoco basso.",
-          "Aggiungi patate e acqua, condisci e porta a leggero bollore.",
-          "Adagia sopra la salsiccia, copri e brasa dolcemente per circa 45 minuti.",
-          "Togli la salsiccia, incorpora la panna e regola di sale e pepe.",
-          "Servi lo stufato con la salsiccia affettata sopra."
-        ]
-      },
-      "tips": [
-        "Usa metà della panna; schiacciare un po' di patate addensa comunque lo stufato.",
-        "Bucherella la salsiccia prima della cottura e schiuma il grasso in superficie.",
-        "Riempi metà del piatto con porri e patate e mantieni moderata la porzione di salsiccia."
-      ],
-      "name_inline": "papet vaudois classico"
-    },
-    "el": {
-      "name": "Κλασικό παπέ βοντουά",
-      "origin": "Ελβετία · Βο",
-      "intro": "Αυτό το κλασικό παπέ βοντουά συνδυάζει χοιρινό λουκάνικο μαγειρεμένο σε χαμηλή φωτιά με ένα απαλό φαγητό από πράσα και πατάτες εμπλουτισμένο με κρέμα γάλακτος. Τα λαχανικά λιώνουν μέχρι να γίνουν κρεμώδη και χωριάτικα, απορροφώντας τους νόστιμους χυμούς του λουκάνικου. Είναι ένα απλό, χορταστικό χειμωνιάτικο πιάτο της δυτικής Ελβετίας, που σερβίρεται ζεστό με το λουκάνικο σε φέτες από πάνω.",
-      "history": "Το παπέ βοντουά είναι το εμβληματικό πιάτο του καντονιού του Βο στη δυτική Ελβετία και παραδοσιακά φτιάχνεται με ντόπια χοιρινά λουκάνικα. Το όνομα papet περιγράφει την πηχτή, σαν πουρές, υφή του πράσου και της πατάτας. Παραμένει βασικό πιάτο της σπιτικής κουζίνας του Βο και των χωριάτικων γιορτών.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "500 γρ. χοιρινό λουκάνικο",
-          "800 γρ. πράσα σε ροδέλες",
-          "600 γρ. πατάτες σε κυβάκια",
-          "100 ml κρέμα γάλακτος",
-          "1 κ.σ. φυτικό λάδι",
-          "300 ml νερό",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Μαλακώστε τα πράσα στο λάδι για 10 λεπτά σε χαμηλή φωτιά.",
-          "Προσθέστε τις πατάτες και το νερό, αλατοπιπερώστε και αφήστε να πάρει βράση.",
-          "Τοποθετήστε το λουκάνικο από πάνω, σκεπάστε και μαγειρέψτε σιγά-σιγά για περίπου 45 λεπτά.",
-          "Βγάλτε το λουκάνικο, ανακατέψτε την κρέμα και αλατοπιπερώστε.",
-          "Σερβίρετε το φαγητό με το λουκάνικο σε φέτες από πάνω."
-        ]
-      },
-      "tips": [
-        "Βάλτε τη μισή κρέμα· αν λιώσετε λίγη πατάτα, το φαγητό θα δέσει έτσι κι αλλιώς.",
-        "Τρυπήστε το λουκάνικο πριν το μαγείρεμα και αφαιρέστε το λίπος από την επιφάνεια.",
-        "Γεμίστε το μισό πιάτο με πράσα και πατάτες και κρατήστε μέτρια τη μερίδα λουκάνικου."
-      ],
-      "name_inline": "κλασικό παπέ βοντουά"
-    },
-    "ru": {
-      "name": "Классический папе водуа",
-      "origin": "Швейцария · Во",
-      "intro": "В классическом папе водуа тушёная свиная колбаска сочетается с мягким рагу из лука-порея и картофеля, обогащённым сливками. Овощи разваривают до кремовой деревенской консистенции, и они впитывают пряный сок колбасы. Это простое сытное зимнее блюдо западной Швейцарии, которое подают горячим с нарезанной колбаской сверху.",
-      "history": "Папе водуа — символическое блюдо кантона Во на западе Швейцарии, которое традиционно готовят с местными свиными колбасками. Название «папе» описывает густую, похожую на пюре текстуру лука-порея и картофеля. Оно остаётся основой домашней кухни Во и деревенских праздников.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "500 г свиной колбасы",
-          "800 г лука-порея, нарезанного",
-          "600 г картофеля, нарезанного кубиками",
-          "100 мл сливок",
-          "1 ст. л. растительного масла",
-          "300 мл воды",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Томите лук-порей в масле на слабом огне 10 минут.",
-          "Добавьте картофель и воду, посолите, поперчите и доведите до слабого кипения.",
-          "Положите сверху колбасу, накройте крышкой и тушите на медленном огне около 45 минут.",
-          "Выньте колбасу, вмешайте сливки и приправьте.",
-          "Подавайте рагу с нарезанной колбасой сверху."
-        ]
-      },
-      "tips": [
-        "Возьмите вдвое меньше сливок; если размять немного картофеля, рагу загустеет и так.",
-        "Проколите колбасу перед приготовлением и снимите жир с поверхности.",
-        "Половину тарелки отдайте луку-порею с картофелем, а порцию колбасы оставьте скромной."
-      ],
-      "name_inline": "классический папе водуа"
-    }
+  "ar": {
+   "name": "بابيه فودوا الكلاسيكي",
+   "origin": "سويسرا · كانتون فو",
+   "intro": "يجمع بابيه فودوا الكلاسيكي نقانق لحم الخنزير المطهوة مع يخنة طرية من الكراث والبطاطس تُغنى بالكريمة. تُطهى الخضار حتى تصبح كريمية ريفية القوام وتتشرّب عصارة النقانق. وهو طبق شتوي بسيط ومشبع من غرب سويسرا، يُقدَّم ساخنًا مع شرائح النقانق فوقه.",
+   "history": "بابيه فودوا هو الطبق الرمزي لكانتون فو في غرب سويسرا، ويُحضَّر تقليديًا بنقانق لحم الخنزير المحلية. وتصف كلمة «بابيه» القوام الكثيف الشبيه بالهريس للكراث والبطاطس. ولا يزال من أساسيات المطبخ المنزلي في فو ومهرجانات القرى.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "500 غ نقانق لحم خنزير",
+     "800 غ كراث مقطّع حلقات",
+     "600 غ بطاطس مقطّعة مكعبات",
+     "100 مل كريمة",
+     "1 ملعقة كبيرة زيت نباتي",
+     "300 مل ماء",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "ليّن الكراث في الزيت 10 دقائق على نار هادئة.",
+     "أضف البطاطس والماء وتبّل واتركه يغلي بهدوء.",
+     "ضع النقانق فوقها وغطِّ القدر واطهُ على نار هادئة نحو 45 دقيقة.",
+     "أخرج النقانق وأضف الكريمة وتبّل.",
+     "قدّم اليخنة مع شرائح النقانق فوقها."
+    ]
+   },
+   "tips": [
+    "استخدم نصف الكريمة، وهرس جزء من البطاطس يكثّف اليخنة بدلًا منها.",
+    "اثقب النقانق قبل الطهي وأزل الدهن عن السطح.",
+    "املأ نصف الطبق بالكراث والبطاطس واجعل حصة النقانق معتدلة."
+   ]
+  },
+  "it": {
+   "name": "Papet vaudois classico",
+   "origin": "Svizzera · Vaud",
+   "intro": "Questo papet vaudois classico abbina salsiccia di maiale brasata a un morbido stufato di porri e patate arricchito con panna. Le verdure si disfano fino a diventare cremose e rustiche, assorbendo i succhi saporiti della salsiccia. È un piatto invernale semplice e sostanzioso della Svizzera occidentale, servito caldo con la salsiccia affettata sopra.",
+   "history": "Il papet vaudois è il piatto emblematico del cantone di Vaud, nella Svizzera occidentale, tradizionalmente preparato con salsicce di maiale locali. Il nome papet descrive la consistenza densa, simile a un purè, di porri e patate. Resta un pilastro della cucina casalinga del Vaud e delle feste di paese.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "500 g di salsiccia di maiale",
+     "800 g di porri affettati",
+     "600 g di patate a dadini",
+     "100 ml di panna",
+     "1 cucchiaio di olio di semi",
+     "300 ml di acqua",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Fai appassire i porri nell'olio per 10 minuti a fuoco basso.",
+     "Aggiungi patate e acqua, condisci e porta a leggero bollore.",
+     "Adagia sopra la salsiccia, copri e brasa dolcemente per circa 45 minuti.",
+     "Togli la salsiccia, incorpora la panna e regola di sale e pepe.",
+     "Servi lo stufato con la salsiccia affettata sopra."
+    ]
+   },
+   "tips": [
+    "Usa metà della panna; schiacciare un po' di patate addensa comunque lo stufato.",
+    "Bucherella la salsiccia prima della cottura e schiuma il grasso in superficie.",
+    "Riempi metà del piatto con porri e patate e mantieni moderata la porzione di salsiccia."
+   ],
+   "name_inline": "papet vaudois classico"
+  },
+  "el": {
+   "name": "Κλασικό παπέ βοντουά",
+   "origin": "Ελβετία · Βο",
+   "intro": "Αυτό το κλασικό παπέ βοντουά συνδυάζει χοιρινό λουκάνικο μαγειρεμένο σε χαμηλή φωτιά με ένα απαλό φαγητό από πράσα και πατάτες εμπλουτισμένο με κρέμα γάλακτος. Τα λαχανικά λιώνουν μέχρι να γίνουν κρεμώδη και χωριάτικα, απορροφώντας τους νόστιμους χυμούς του λουκάνικου. Είναι ένα απλό, χορταστικό χειμωνιάτικο πιάτο της δυτικής Ελβετίας, που σερβίρεται ζεστό με το λουκάνικο σε φέτες από πάνω.",
+   "history": "Το παπέ βοντουά είναι το εμβληματικό πιάτο του καντονιού του Βο στη δυτική Ελβετία και παραδοσιακά φτιάχνεται με ντόπια χοιρινά λουκάνικα. Το όνομα papet περιγράφει την πηχτή, σαν πουρές, υφή του πράσου και της πατάτας. Παραμένει βασικό πιάτο της σπιτικής κουζίνας του Βο και των χωριάτικων γιορτών.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "500 γρ. χοιρινό λουκάνικο",
+     "800 γρ. πράσα σε ροδέλες",
+     "600 γρ. πατάτες σε κυβάκια",
+     "100 ml κρέμα γάλακτος",
+     "1 κ.σ. φυτικό λάδι",
+     "300 ml νερό",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Μαλακώστε τα πράσα στο λάδι για 10 λεπτά σε χαμηλή φωτιά.",
+     "Προσθέστε τις πατάτες και το νερό, αλατοπιπερώστε και αφήστε να πάρει βράση.",
+     "Τοποθετήστε το λουκάνικο από πάνω, σκεπάστε και μαγειρέψτε σιγά-σιγά για περίπου 45 λεπτά.",
+     "Βγάλτε το λουκάνικο, ανακατέψτε την κρέμα και αλατοπιπερώστε.",
+     "Σερβίρετε το φαγητό με το λουκάνικο σε φέτες από πάνω."
+    ]
+   },
+   "tips": [
+    "Βάλτε τη μισή κρέμα· αν λιώσετε λίγη πατάτα, το φαγητό θα δέσει έτσι κι αλλιώς.",
+    "Τρυπήστε το λουκάνικο πριν το μαγείρεμα και αφαιρέστε το λίπος από την επιφάνεια.",
+    "Γεμίστε το μισό πιάτο με πράσα και πατάτες και κρατήστε μέτρια τη μερίδα λουκάνικου."
+   ],
+   "name_inline": "κλασικό παπέ βοντουά"
+  },
+  "ru": {
+   "name": "Классический папе водуа",
+   "origin": "Швейцария · Во",
+   "intro": "В классическом папе водуа тушёная свиная колбаска сочетается с мягким рагу из лука-порея и картофеля, обогащённым сливками. Овощи разваривают до кремовой деревенской консистенции, и они впитывают пряный сок колбасы. Это простое сытное зимнее блюдо западной Швейцарии, которое подают горячим с нарезанной колбаской сверху.",
+   "history": "Папе водуа — символическое блюдо кантона Во на западе Швейцарии, которое традиционно готовят с местными свиными колбасками. Название «папе» описывает густую, похожую на пюре текстуру лука-порея и картофеля. Оно остаётся основой домашней кухни Во и деревенских праздников.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "500 г свиной колбасы",
+     "800 г лука-порея, нарезанного",
+     "600 г картофеля, нарезанного кубиками",
+     "100 мл сливок",
+     "1 ст. л. растительного масла",
+     "300 мл воды",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Томите лук-порей в масле на слабом огне 10 минут.",
+     "Добавьте картофель и воду, посолите, поперчите и доведите до слабого кипения.",
+     "Положите сверху колбасу, накройте крышкой и тушите на медленном огне около 45 минут.",
+     "Выньте колбасу, вмешайте сливки и приправьте.",
+     "Подавайте рагу с нарезанной колбасой сверху."
+    ]
+   },
+   "tips": [
+    "Возьмите вдвое меньше сливок; если размять немного картофеля, рагу загустеет и так.",
+    "Проколите колбасу перед приготовлением и снимите жир с поверхности.",
+    "Половину тарелки отдайте луку-порею с картофелем, а порцию колбасы оставьте скромной."
+   ],
+   "name_inline": "классический папе водуа"
+  },
+  "es": {
+   "name": "Papet vaudois clásico",
+   "origin": "Suiza · Vaud",
+   "intro": "Este papet vaudois clásico combina salchicha de cerdo guisada con un suave estofado de puerros y papas enriquecido con crema. Las verduras se cuecen hasta quedar cremosas y rústicas, y absorben los jugos sabrosos de la salchicha. Es un plato de invierno sencillo y contundente del oeste de Suiza, que se sirve caliente con la salchicha en rodajas por encima.",
+   "history": "El papet vaudois es el plato emblemático del cantón de Vaud, en el oeste de Suiza, y se prepara tradicionalmente con salchichas de cerdo locales. El nombre papet describe la textura espesa, parecida a un puré, de los puerros y las papas. Sigue siendo un clásico de la cocina casera y de las fiestas de pueblo de Vaud.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "500 g de salchicha de cerdo",
+     "800 g de puerros, en rodajas",
+     "600 g de papas, en cubos",
+     "100 ml de crema",
+     "1 cda. de aceite vegetal",
+     "300 ml de agua",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Ablanda los puerros en el aceite 10 minutos a fuego bajo.",
+     "Añade las papas y el agua, sazona y lleva a hervor suave.",
+     "Coloca la salchicha encima, tapa y guisa suavemente unos 45 minutos.",
+     "Saca la salchicha, mezcla la crema y rectifica la sazón.",
+     "Sirve el estofado con la salchicha en rodajas por encima."
+    ]
+   },
+   "tips": [
+    "Usa la mitad de la crema; machacar un poco de papa espesa el estofado.",
+    "Pincha la salchicha antes de cocinarla y retira la grasa de la superficie.",
+    "Llena la mitad del plato con puerro y papa y mantén moderada la porción de salchicha."
+   ],
+   "name_inline": "el papet vaudois"
   }
+ }
 }

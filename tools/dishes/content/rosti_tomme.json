@@ -1,161 +1,191 @@
 {
-  "db_key": "rosti_tomme",
-  "slug": "rosti-tomme",
-  "emoji": "🧀",
-  "portion_g": 250,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "rosti_tomme",
+ "slug": "rosti-tomme",
+ "emoji": "🧀",
+ "portion_g": 250,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Rösti with Tomme Vaudoise",
+   "origin": "Switzerland · Vaud",
+   "intro": "Rösti with Tomme Vaudoise pairs the crispy Swiss potato cake with a small soft-ripened cheese from the canton of Vaud. The tomme melts into a creamy, mild layer over the golden crust. It is served hot as a comforting main dish, often with a crisp green salad.",
+   "history": "Rösti is traditionally linked to the canton of Bern, where it is often said to have been a farmers' breakfast of grated potatoes fried in butter. It later became a Swiss national dish, and the 'Röstigraben' (rösti ditch) is a popular nickname for the cultural line between German- and French-speaking Switzerland.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g waxy potatoes",
+     "100 g Tomme Vaudoise, sliced",
+     "30 g butter",
+     "1 tsp salt",
+     "Black pepper to taste"
+    ],
+    "steps": [
+     "Boil the potatoes in their skins for 10 minutes, cool completely (ideally overnight), then peel and coarsely grate.",
+     "Season the grated potato with salt and pepper.",
+     "Melt half the butter in a 24 cm non-stick pan over medium heat, add the potato and press into a flat cake.",
+     "Cook 12–15 minutes until golden underneath, flip with the help of a plate, add the remaining butter and cook another 10–12 minutes.",
+     "Lay the cheese slices over the top, cover and leave 2–3 minutes until melted."
+    ]
+   },
+   "tips": [
+    "1 tbsp butter ≈ 100 kcal — use a non-stick pan and brush on a thin layer instead of a generous knob.",
+    "Use 50 g of Tomme Vaudoise instead of 100 g — one small cheese spread thinly still gives a creamy layer.",
+    "Pair it with a big green salad and keep the rösti portion to about 200 g."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Rösti with Tomme Vaudoise",
-      "origin": "Switzerland · Vaud",
-      "intro": "Rösti with Tomme Vaudoise pairs the crispy Swiss potato cake with a small soft-ripened cheese from the canton of Vaud. The tomme melts into a creamy, mild layer over the golden crust. It is served hot as a comforting main dish, often with a crisp green salad.",
-      "history": "Rösti is traditionally linked to the canton of Bern, where it is often said to have been a farmers' breakfast of grated potatoes fried in butter. It later became a Swiss national dish, and the 'Röstigraben' (rösti ditch) is a popular nickname for the cultural line between German- and French-speaking Switzerland.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 g waxy potatoes",
-          "100 g Tomme Vaudoise, sliced",
-          "30 g butter",
-          "1 tsp salt",
-          "Black pepper to taste"
-        ],
-        "steps": [
-          "Boil the potatoes in their skins for 10 minutes, cool completely (ideally overnight), then peel and coarsely grate.",
-          "Season the grated potato with salt and pepper.",
-          "Melt half the butter in a 24 cm non-stick pan over medium heat, add the potato and press into a flat cake.",
-          "Cook 12–15 minutes until golden underneath, flip with the help of a plate, add the remaining butter and cook another 10–12 minutes.",
-          "Lay the cheese slices over the top, cover and leave 2–3 minutes until melted."
-        ]
-      },
-      "tips": [
-        "1 tbsp butter ≈ 100 kcal — use a non-stick pan and brush on a thin layer instead of a generous knob.",
-        "Use 50 g of Tomme Vaudoise instead of 100 g — one small cheese spread thinly still gives a creamy layer.",
-        "Pair it with a big green salad and keep the rösti portion to about 200 g."
-      ]
-    },
-    "ar": {
-      "name": "روستي بجبن تومّ فودواز",
-      "origin": "سويسرا · فو",
-      "intro": "روستي مع جبن تومّ فودواز يجمع قرص البطاطا السويسري المقرمش مع جبن طري صغير من كانتون فو. يذوب الجبن ليصبح طبقة كريمية معتدلة فوق القشرة الذهبية. يُقدّم ساخناً طبقاً رئيسياً دافئاً، وغالباً مع سلطة خضراء مقرمشة.",
-      "history": "يرتبط الروستي تقليدياً بكانتون برن، حيث يُقال إنه كان فطوراً للمزارعين من البطاطا المبشورة المقلية بالزبدة. ثم صار طبقاً وطنياً سويسرياً، ويُطلق على الحدّ الثقافي بين المناطق الناطقة بالألمانية والفرنسية في سويسرا اسم «خندق الروستي» على سبيل الدعابة.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 غ بطاطا متماسكة",
-          "100 غ جبن تومّ فودواز مقطّع شرائح",
-          "30 غ زبدة",
-          "1 ملعقة صغيرة ملح",
-          "فلفل أسود حسب الرغبة"
-        ],
-        "steps": [
-          "اسلق البطاطا بقشرها 10 دقائق، ثم بردها تماماً (ويُفضّل ليلة كاملة)، ثم قشّرها وابشرها بشراً خشناً.",
-          "تبّل البطاطا المبشورة بالملح والفلفل.",
-          "ذوّب نصف الزبدة في مقلاة غير لاصقة قطرها 24 سم على نار متوسطة، وأضف البطاطا واضغطها لتصبح قرصاً مسطحاً.",
-          "اطهها 12–15 دقيقة حتى يصبح أسفلها ذهبياً، ثم اقلبها بمساعدة طبق، وأضف بقية الزبدة واطهها 10–12 دقيقة أخرى.",
-          "وزّع شرائح الجبن على الوجه، وغطِّ المقلاة واتركها 2–3 دقائق حتى يذوب."
-        ]
-      },
-      "tips": [
-        "ملعقة كبيرة من الزبدة ≈ 100 سعرة — استخدم مقلاة غير لاصقة وادهنها بطبقة رقيقة بدل كمية كبيرة.",
-        "استخدم 50 غ من جبن تومّ فودواز بدل 100 غ — طبقة رقيقة منه تكفي لتعطي قواماً كريمياً.",
-        "قدّمه مع سلطة خضراء كبيرة واجعل حصة الروستي نحو 200 غ."
-      ]
-    },
-    "it": {
-      "name": "Rösti con Tomme Vaudoise",
-      "origin": "Svizzera · Vaud",
-      "intro": "Il rösti con Tomme Vaudoise abbina il croccante tortino di patate svizzero a un piccolo formaggio a pasta molle e crosta fiorita del cantone di Vaud. La tomme si scioglie in uno strato cremoso e delicato sulla crosta dorata. Si serve caldo come piatto principale confortante, spesso con un'insalata verde croccante.",
-      "history": "Il rösti è tradizionalmente legato al cantone di Berna, dove si dice spesso che fosse la colazione dei contadini a base di patate grattugiate fritte nel burro. In seguito è diventato un piatto nazionale svizzero, e «Röstigraben» (fossato del rösti) è un soprannome popolare per il confine culturale tra la Svizzera tedesca e quella francese.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 g di patate a pasta soda",
-          "100 g di Tomme Vaudoise, a fette",
-          "30 g di burro",
-          "1 cucchiaino di sale",
-          "Pepe nero a piacere"
-        ],
-        "steps": [
-          "Lessa le patate con la buccia per 10 minuti, falle raffreddare completamente (meglio se per una notte), poi pelale e grattugiale grossolanamente.",
-          "Condisci le patate grattugiate con sale e pepe.",
-          "Sciogli metà del burro in una padella antiaderente da 24 cm a fuoco medio, aggiungi le patate e pressale formando un disco piatto.",
-          "Cuoci 12–15 minuti finché il fondo è dorato, giralo aiutandoti con un piatto, aggiungi il burro rimasto e cuoci altri 10–12 minuti.",
-          "Adagia le fette di formaggio sulla superficie, copri e lascia 2–3 minuti finché si sciolgono."
-        ]
-      },
-      "tips": [
-        "1 cucchiaio di burro ≈ 100 kcal: usa una padella antiaderente e spennella uno strato sottile invece di una noce generosa.",
-        "Usa 50 g di Tomme Vaudoise invece di 100 g: un solo formaggino steso in uno strato sottile dà comunque una copertura cremosa.",
-        "Abbinalo a una grande insalata verde e limita la porzione di rösti a circa 200 g."
-      ]
-    },
-    "el": {
-      "name": "Ρέστι με τομ του Βω (Tomme Vaudoise)",
-      "name_inline": "ρέστι με τομ του Βω",
-      "origin": "Ελβετία · Βω",
-      "intro": "Το ρέστι με τομ του Βω συνδυάζει την τραγανή ελβετική πατατόπιτα με ένα μικρό μαλακό τυρί με εξωτερική μούχλα από το καντόνι του Βω. Η τομ λιώνει σε ένα κρεμώδες, ήπιο στρώμα πάνω στη χρυσαφένια κρούστα. Σερβίρεται ζεστό ως παρηγορητικό κυρίως πιάτο, συχνά με μια τραγανή πράσινη σαλάτα.",
-      "history": "Το ρέστι συνδέεται παραδοσιακά με το καντόνι της Βέρνης, όπου λέγεται συχνά ότι ήταν το πρωινό των αγροτών από τριμμένες πατάτες τηγανισμένες σε βούτυρο. Αργότερα έγινε εθνικό πιάτο της Ελβετίας, και το «Röstigraben» (το χαντάκι του ρέστι) είναι δημοφιλές παρατσούκλι για την πολιτισμική διαχωριστική γραμμή ανάμεσα στη γερμανόφωνη και τη γαλλόφωνη Ελβετία.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 γρ. σφιχτές πατάτες",
-          "100 γρ. τομ του Βω, σε φέτες",
-          "30 γρ. βούτυρο",
-          "1 κ.γ. αλάτι",
-          "Μαύρο πιπέρι κατά βούληση"
-        ],
-        "steps": [
-          "Βράστε τις πατάτες με τη φλούδα για 10 λεπτά, αφήστε τες να κρυώσουν εντελώς (ιδανικά όλη τη νύχτα), μετά ξεφλουδίστε τες και τρίψτε τες χοντρά.",
-          "Αλατοπιπερώστε την τριμμένη πατάτα.",
-          "Λιώστε το μισό βούτυρο σε αντικολλητικό τηγάνι 24 εκ. σε μέτρια φωτιά, προσθέστε την πατάτα και πιέστε τη σε επίπεδη πίτα.",
-          "Ψήστε 12–15 λεπτά μέχρι να ροδίσει από κάτω, γυρίστε τη με τη βοήθεια ενός πιάτου, προσθέστε το υπόλοιπο βούτυρο και ψήστε άλλα 10–12 λεπτά.",
-          "Απλώστε τις φέτες τυριού από πάνω, σκεπάστε και αφήστε 2–3 λεπτά μέχρι να λιώσουν."
-        ]
-      },
-      "tips": [
-        "1 κ.σ. βούτυρο ≈ 100 kcal — χρησιμοποιήστε αντικολλητικό τηγάνι και αλείψτε ένα λεπτό στρώμα αντί για ένα γενναίο κομμάτι.",
-        "Χρησιμοποιήστε 50 γρ. τομ του Βω αντί για 100 γρ. — ένα μικρό τυράκι απλωμένο σε λεπτό στρώμα δίνει και πάλι κρεμώδη επικάλυψη.",
-        "Συνδυάστε το με μια μεγάλη πράσινη σαλάτα και κρατήστε τη μερίδα του ρέστι γύρω στα 200 γρ."
-      ]
-    },
-    "ru": {
-      "name": "Рёсти с томом водуаз",
-      "origin": "Швейцария · Во",
-      "intro": "Рёсти с томом водуаз сочетает хрустящую швейцарскую картофельную лепёшку с небольшим мягким сыром с корочкой из кантона Во. Том плавится в кремовый мягкий слой на золотистой корочке. Подаётся горячим как уютное основное блюдо, часто с хрустящим зелёным салатом.",
-      "history": "Рёсти традиционно связывают с кантоном Берн, где, как часто говорят, это был фермерский завтрак из тёртого картофеля, жаренного на масле. Позже оно стало национальным блюдом Швейцарии, а «Рёстиграбен» («ров рёсти») — популярное название культурной границы между немецко- и франкоговорящей Швейцарией.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 г картофеля восковых сортов",
-          "100 г тома водуаз, ломтиками",
-          "30 г сливочного масла",
-          "1 ч. л. соли",
-          "Чёрный перец по вкусу"
-        ],
-        "steps": [
-          "Отварите картофель в мундире 10 минут, полностью остудите (лучше на ночь), затем очистите и крупно натрите.",
-          "Приправьте тёртый картофель солью и перцем.",
-          "Растопите половину масла в антипригарной сковороде диаметром 24 см на среднем огне, выложите картофель и прижмите в плоскую лепёшку.",
-          "Готовьте 12–15 минут до золотистой корочки снизу, переверните с помощью тарелки, добавьте оставшееся масло и готовьте ещё 10–12 минут.",
-          "Выложите ломтики сыра сверху, накройте крышкой и оставьте на 2–3 минуты, пока он не расплавится."
-        ]
-      },
-      "tips": [
-        "1 ст. л. сливочного масла ≈ 100 ккал — используйте антипригарную сковороду и смазывайте тонким слоем вместо щедрого куска.",
-        "Используйте 50 г тома водуаз вместо 100 г — один небольшой сыр, тонко распределённый, всё равно даёт кремовый слой.",
-        "Сочетайте с большим зелёным салатом и держите порцию рёсти около 200 г."
-      ],
-      "name_inline": "рёсти с томом водуаз"
-    }
+  "ar": {
+   "name": "روستي بجبن تومّ فودواز",
+   "origin": "سويسرا · فو",
+   "intro": "روستي مع جبن تومّ فودواز يجمع قرص البطاطا السويسري المقرمش مع جبن طري صغير من كانتون فو. يذوب الجبن ليصبح طبقة كريمية معتدلة فوق القشرة الذهبية. يُقدّم ساخناً طبقاً رئيسياً دافئاً، وغالباً مع سلطة خضراء مقرمشة.",
+   "history": "يرتبط الروستي تقليدياً بكانتون برن، حيث يُقال إنه كان فطوراً للمزارعين من البطاطا المبشورة المقلية بالزبدة. ثم صار طبقاً وطنياً سويسرياً، ويُطلق على الحدّ الثقافي بين المناطق الناطقة بالألمانية والفرنسية في سويسرا اسم «خندق الروستي» على سبيل الدعابة.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 غ بطاطا متماسكة",
+     "100 غ جبن تومّ فودواز مقطّع شرائح",
+     "30 غ زبدة",
+     "1 ملعقة صغيرة ملح",
+     "فلفل أسود حسب الرغبة"
+    ],
+    "steps": [
+     "اسلق البطاطا بقشرها 10 دقائق، ثم بردها تماماً (ويُفضّل ليلة كاملة)، ثم قشّرها وابشرها بشراً خشناً.",
+     "تبّل البطاطا المبشورة بالملح والفلفل.",
+     "ذوّب نصف الزبدة في مقلاة غير لاصقة قطرها 24 سم على نار متوسطة، وأضف البطاطا واضغطها لتصبح قرصاً مسطحاً.",
+     "اطهها 12–15 دقيقة حتى يصبح أسفلها ذهبياً، ثم اقلبها بمساعدة طبق، وأضف بقية الزبدة واطهها 10–12 دقيقة أخرى.",
+     "وزّع شرائح الجبن على الوجه، وغطِّ المقلاة واتركها 2–3 دقائق حتى يذوب."
+    ]
+   },
+   "tips": [
+    "ملعقة كبيرة من الزبدة ≈ 100 سعرة — استخدم مقلاة غير لاصقة وادهنها بطبقة رقيقة بدل كمية كبيرة.",
+    "استخدم 50 غ من جبن تومّ فودواز بدل 100 غ — طبقة رقيقة منه تكفي لتعطي قواماً كريمياً.",
+    "قدّمه مع سلطة خضراء كبيرة واجعل حصة الروستي نحو 200 غ."
+   ]
+  },
+  "it": {
+   "name": "Rösti con Tomme Vaudoise",
+   "origin": "Svizzera · Vaud",
+   "intro": "Il rösti con Tomme Vaudoise abbina il croccante tortino di patate svizzero a un piccolo formaggio a pasta molle e crosta fiorita del cantone di Vaud. La tomme si scioglie in uno strato cremoso e delicato sulla crosta dorata. Si serve caldo come piatto principale confortante, spesso con un'insalata verde croccante.",
+   "history": "Il rösti è tradizionalmente legato al cantone di Berna, dove si dice spesso che fosse la colazione dei contadini a base di patate grattugiate fritte nel burro. In seguito è diventato un piatto nazionale svizzero, e «Röstigraben» (fossato del rösti) è un soprannome popolare per il confine culturale tra la Svizzera tedesca e quella francese.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g di patate a pasta soda",
+     "100 g di Tomme Vaudoise, a fette",
+     "30 g di burro",
+     "1 cucchiaino di sale",
+     "Pepe nero a piacere"
+    ],
+    "steps": [
+     "Lessa le patate con la buccia per 10 minuti, falle raffreddare completamente (meglio se per una notte), poi pelale e grattugiale grossolanamente.",
+     "Condisci le patate grattugiate con sale e pepe.",
+     "Sciogli metà del burro in una padella antiaderente da 24 cm a fuoco medio, aggiungi le patate e pressale formando un disco piatto.",
+     "Cuoci 12–15 minuti finché il fondo è dorato, giralo aiutandoti con un piatto, aggiungi il burro rimasto e cuoci altri 10–12 minuti.",
+     "Adagia le fette di formaggio sulla superficie, copri e lascia 2–3 minuti finché si sciolgono."
+    ]
+   },
+   "tips": [
+    "1 cucchiaio di burro ≈ 100 kcal: usa una padella antiaderente e spennella uno strato sottile invece di una noce generosa.",
+    "Usa 50 g di Tomme Vaudoise invece di 100 g: un solo formaggino steso in uno strato sottile dà comunque una copertura cremosa.",
+    "Abbinalo a una grande insalata verde e limita la porzione di rösti a circa 200 g."
+   ]
+  },
+  "el": {
+   "name": "Ρέστι με τομ του Βω (Tomme Vaudoise)",
+   "name_inline": "ρέστι με τομ του Βω",
+   "origin": "Ελβετία · Βω",
+   "intro": "Το ρέστι με τομ του Βω συνδυάζει την τραγανή ελβετική πατατόπιτα με ένα μικρό μαλακό τυρί με εξωτερική μούχλα από το καντόνι του Βω. Η τομ λιώνει σε ένα κρεμώδες, ήπιο στρώμα πάνω στη χρυσαφένια κρούστα. Σερβίρεται ζεστό ως παρηγορητικό κυρίως πιάτο, συχνά με μια τραγανή πράσινη σαλάτα.",
+   "history": "Το ρέστι συνδέεται παραδοσιακά με το καντόνι της Βέρνης, όπου λέγεται συχνά ότι ήταν το πρωινό των αγροτών από τριμμένες πατάτες τηγανισμένες σε βούτυρο. Αργότερα έγινε εθνικό πιάτο της Ελβετίας, και το «Röstigraben» (το χαντάκι του ρέστι) είναι δημοφιλές παρατσούκλι για την πολιτισμική διαχωριστική γραμμή ανάμεσα στη γερμανόφωνη και τη γαλλόφωνη Ελβετία.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 γρ. σφιχτές πατάτες",
+     "100 γρ. τομ του Βω, σε φέτες",
+     "30 γρ. βούτυρο",
+     "1 κ.γ. αλάτι",
+     "Μαύρο πιπέρι κατά βούληση"
+    ],
+    "steps": [
+     "Βράστε τις πατάτες με τη φλούδα για 10 λεπτά, αφήστε τες να κρυώσουν εντελώς (ιδανικά όλη τη νύχτα), μετά ξεφλουδίστε τες και τρίψτε τες χοντρά.",
+     "Αλατοπιπερώστε την τριμμένη πατάτα.",
+     "Λιώστε το μισό βούτυρο σε αντικολλητικό τηγάνι 24 εκ. σε μέτρια φωτιά, προσθέστε την πατάτα και πιέστε τη σε επίπεδη πίτα.",
+     "Ψήστε 12–15 λεπτά μέχρι να ροδίσει από κάτω, γυρίστε τη με τη βοήθεια ενός πιάτου, προσθέστε το υπόλοιπο βούτυρο και ψήστε άλλα 10–12 λεπτά.",
+     "Απλώστε τις φέτες τυριού από πάνω, σκεπάστε και αφήστε 2–3 λεπτά μέχρι να λιώσουν."
+    ]
+   },
+   "tips": [
+    "1 κ.σ. βούτυρο ≈ 100 kcal — χρησιμοποιήστε αντικολλητικό τηγάνι και αλείψτε ένα λεπτό στρώμα αντί για ένα γενναίο κομμάτι.",
+    "Χρησιμοποιήστε 50 γρ. τομ του Βω αντί για 100 γρ. — ένα μικρό τυράκι απλωμένο σε λεπτό στρώμα δίνει και πάλι κρεμώδη επικάλυψη.",
+    "Συνδυάστε το με μια μεγάλη πράσινη σαλάτα και κρατήστε τη μερίδα του ρέστι γύρω στα 200 γρ."
+   ]
+  },
+  "ru": {
+   "name": "Рёсти с томом водуаз",
+   "origin": "Швейцария · Во",
+   "intro": "Рёсти с томом водуаз сочетает хрустящую швейцарскую картофельную лепёшку с небольшим мягким сыром с корочкой из кантона Во. Том плавится в кремовый мягкий слой на золотистой корочке. Подаётся горячим как уютное основное блюдо, часто с хрустящим зелёным салатом.",
+   "history": "Рёсти традиционно связывают с кантоном Берн, где, как часто говорят, это был фермерский завтрак из тёртого картофеля, жаренного на масле. Позже оно стало национальным блюдом Швейцарии, а «Рёстиграбен» («ров рёсти») — популярное название культурной границы между немецко- и франкоговорящей Швейцарией.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 г картофеля восковых сортов",
+     "100 г тома водуаз, ломтиками",
+     "30 г сливочного масла",
+     "1 ч. л. соли",
+     "Чёрный перец по вкусу"
+    ],
+    "steps": [
+     "Отварите картофель в мундире 10 минут, полностью остудите (лучше на ночь), затем очистите и крупно натрите.",
+     "Приправьте тёртый картофель солью и перцем.",
+     "Растопите половину масла в антипригарной сковороде диаметром 24 см на среднем огне, выложите картофель и прижмите в плоскую лепёшку.",
+     "Готовьте 12–15 минут до золотистой корочки снизу, переверните с помощью тарелки, добавьте оставшееся масло и готовьте ещё 10–12 минут.",
+     "Выложите ломтики сыра сверху, накройте крышкой и оставьте на 2–3 минуты, пока он не расплавится."
+    ]
+   },
+   "tips": [
+    "1 ст. л. сливочного масла ≈ 100 ккал — используйте антипригарную сковороду и смазывайте тонким слоем вместо щедрого куска.",
+    "Используйте 50 г тома водуаз вместо 100 г — один небольшой сыр, тонко распределённый, всё равно даёт кремовый слой.",
+    "Сочетайте с большим зелёным салатом и держите порцию рёсти около 200 г."
+   ],
+   "name_inline": "рёсти с томом водуаз"
+  },
+  "es": {
+   "name": "Rösti con Tomme Vaudoise",
+   "origin": "Suiza · Vaud",
+   "intro": "El rösti con Tomme Vaudoise une la crujiente torta de papa suiza con un pequeño queso de corteza suave del cantón de Vaud. La tomme se derrite formando una capa cremosa y suave sobre la costra dorada. Se sirve caliente como plato fuerte reconfortante, a menudo con una ensalada verde crujiente.",
+   "history": "El rösti se asocia tradicionalmente con el cantón de Berna, donde se suele decir que era el desayuno de los campesinos: papas ralladas fritas en mantequilla. Después se convirtió en plato nacional suizo, y el «Röstigraben» (la «zanja del rösti») es un apodo popular para la frontera cultural entre la Suiza de habla alemana y la francófona.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g de papas de pulpa firme",
+     "100 g de Tomme Vaudoise, en rebanadas",
+     "30 g de mantequilla",
+     "1 cdta. de sal",
+     "Pimienta negra al gusto"
+    ],
+    "steps": [
+     "Hierve las papas con piel 10 minutos, déjalas enfriar por completo (lo ideal es de un día para otro), pélalas y ralla gruesas.",
+     "Sazona la papa rallada con sal y pimienta.",
+     "Derrite la mitad de la mantequilla en una sartén antiadherente de 24 cm a fuego medio, añade la papa y presiona hasta formar una torta plana.",
+     "Cocina de 12 a 15 minutos hasta que se dore por debajo, voltea ayudándote de un plato, añade el resto de la mantequilla y cocina otros 10–12 minutos.",
+     "Coloca las rebanadas de queso por encima, tapa y deja 2–3 minutos hasta que se derritan."
+    ]
+   },
+   "tips": [
+    "1 cda. de mantequilla ≈ 100 kcal: usa una sartén antiadherente y unta una capa fina en lugar de una nuez generosa.",
+    "Usa 50 g de Tomme Vaudoise en lugar de 100 g: un queso pequeño extendido en capa fina da igual una capa cremosa.",
+    "Acompáñalo con una ensalada verde abundante y limita el rösti a unos 200 g."
+   ],
+   "name_inline": "el rösti con Tomme Vaudoise"
   }
+ }
 }

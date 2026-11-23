@@ -1,167 +1,198 @@
 {
-  "db_key": "sole_meuniere",
-  "slug": "sole-meuniere",
-  "emoji": "🐟",
-  "portion_g": 200,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "sole_meuniere",
+ "slug": "sole-meuniere",
+ "emoji": "🐟",
+ "portion_g": 200,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Sole Meunière",
+   "origin": "France",
+   "intro": "Sole meunière is a classic French fish dish: a whole sole or sole fillets are dusted in flour, pan-fried in butter until golden, then finished with browned butter, lemon juice and chopped parsley. The fish is delicate and moist, the coating lightly crisp, and the sauce nutty and bright. It is usually served simply with boiled potatoes or green vegetables.",
+   "history": "The name means 'in the style of the miller's wife', a nod to the flour coating. It is a long-standing classic of French cuisine, and Julia Child often described a sole meunière in Rouen as the meal that made her fall in love with French food.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "2 sole fillets (about 300 g)",
+     "20 g flour",
+     "30 g butter",
+     "1 lemon",
+     "2 tbsp chopped parsley",
+     "Salt and white pepper"
+    ],
+    "steps": [
+     "Pat the fish dry, season it and dust lightly with flour, shaking off the excess.",
+     "Melt half the butter in a large pan over medium-high heat.",
+     "Fry the fillets 2–3 minutes per side until golden and cooked through, then plate them.",
+     "Add the remaining butter to the pan and cook until light brown and nutty.",
+     "Stir in the juice of half the lemon and the parsley, spoon over the fish and serve with lemon wedges."
+    ]
+   },
+   "tips": [
+    "Use half the butter and a non-stick pan — 1 tbsp butter ≈ 100 kcal.",
+    "Shake off all excess flour so the coating stays thin.",
+    "Serve with steamed vegetables or a green salad instead of buttered potatoes."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Sole Meunière",
-      "origin": "France",
-      "intro": "Sole meunière is a classic French fish dish: a whole sole or sole fillets are dusted in flour, pan-fried in butter until golden, then finished with browned butter, lemon juice and chopped parsley. The fish is delicate and moist, the coating lightly crisp, and the sauce nutty and bright. It is usually served simply with boiled potatoes or green vegetables.",
-      "history": "The name means 'in the style of the miller's wife', a nod to the flour coating. It is a long-standing classic of French cuisine, and Julia Child often described a sole meunière in Rouen as the meal that made her fall in love with French food.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "2 sole fillets (about 300 g)",
-          "20 g flour",
-          "30 g butter",
-          "1 lemon",
-          "2 tbsp chopped parsley",
-          "Salt and white pepper"
-        ],
-        "steps": [
-          "Pat the fish dry, season it and dust lightly with flour, shaking off the excess.",
-          "Melt half the butter in a large pan over medium-high heat.",
-          "Fry the fillets 2–3 minutes per side until golden and cooked through, then plate them.",
-          "Add the remaining butter to the pan and cook until light brown and nutty.",
-          "Stir in the juice of half the lemon and the parsley, spoon over the fish and serve with lemon wedges."
-        ]
-      },
-      "tips": [
-        "Use half the butter and a non-stick pan — 1 tbsp butter ≈ 100 kcal.",
-        "Shake off all excess flour so the coating stays thin.",
-        "Serve with steamed vegetables or a green salad instead of buttered potatoes."
-      ]
-    },
-    "ar": {
-      "name": "سمك موسى مونيير",
-      "origin": "فرنسا",
-      "intro": "سمك موسى مونيير طبق سمك فرنسي كلاسيكي: تُغطى سمكة موسى كاملة أو شرائحها بالدقيق وتُقلى في الزبدة حتى تصبح ذهبية، ثم تُكمَّل بزبدة محمّرة وعصير ليمون وبقدونس مفروم. السمك رقيق وطري، والغلاف مقرمش قليلاً، والصلصة بنكهة جوزية منعشة. يُقدَّم عادة ببساطة مع بطاطا مسلوقة أو خضار خضراء.",
-      "history": "يعني الاسم «على طريقة زوجة الطحّان»، إشارة إلى غلاف الدقيق. وهو من كلاسيكيات المطبخ الفرنسي منذ زمن طويل، وكثيراً ما وصفت جوليا تشايلد طبق سمك موسى مونيير تناولته في روان بأنه الوجبة التي جعلتها تقع في حب الطعام الفرنسي.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "شريحتا سمك موسى (نحو 300 غ)",
-          "20 غ دقيق",
-          "30 غ زبدة",
-          "ليمونة",
-          "2 ملعقة كبيرة بقدونس مفروم",
-          "ملح وفلفل أبيض"
-        ],
-        "steps": [
-          "جفّف السمك وتبّله وغطّه بطبقة خفيفة من الدقيق مع نفض الزائد.",
-          "أذب نصف الزبدة في مقلاة كبيرة على نار متوسطة إلى عالية.",
-          "اقلِ الشرائح 2–3 دقائق لكل جهة حتى تتحمّر وتنضج، ثم ضعها في الأطباق.",
-          "أضف باقي الزبدة إلى المقلاة واتركها حتى يصبح لونها بنياً فاتحاً برائحة جوزية.",
-          "أضف عصير نصف الليمونة والبقدونس، واسكب الصلصة على السمك وقدّمه مع شرائح الليمون."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية الزبدة ومقلاة غير لاصقة — ملعقة كبيرة زبدة ≈ 100 سعرة.",
-        "انفض كل الدقيق الزائد ليبقى الغلاف رقيقاً.",
-        "قدّمه مع خضار مطهوة على البخار أو سلطة خضراء بدل البطاطا بالزبدة."
-      ]
-    },
-    "it": {
-      "name": "Sogliola alla mugnaia",
-      "name_inline": "sogliola alla mugnaia",
-      "origin": "Francia",
-      "intro": "La sogliola alla mugnaia è un classico piatto di pesce francese: una sogliola intera o dei filetti di sogliola vengono infarinati, cotti in padella nel burro finché sono dorati e poi completati con burro nocciola, succo di limone e prezzemolo tritato. Il pesce è delicato e morbido, la panatura leggermente croccante e la salsa dal gusto di nocciola e vivace. Di solito si serve semplicemente con patate lesse o verdure verdi.",
-      "history": "Il nome significa «alla maniera della moglie del mugnaio», un riferimento alla farina che la ricopre. È un classico di lunga data della cucina francese, e Julia Child raccontava spesso che una sole meunière mangiata a Rouen fu il pasto che la fece innamorare della cucina francese.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "2 filetti di sogliola (circa 300 g)",
-          "20 g di farina",
-          "30 g di burro",
-          "1 limone",
-          "2 cucchiai di prezzemolo tritato",
-          "Sale e pepe bianco"
-        ],
-        "steps": [
-          "Asciuga il pesce tamponandolo, condiscilo e infarinalo leggermente, scuotendo via l'eccesso.",
-          "Sciogli metà del burro in una padella grande a fuoco medio-alto.",
-          "Cuoci i filetti 2–3 minuti per lato finché sono dorati e cotti all'interno, poi impiattali.",
-          "Aggiungi in padella il burro rimasto e cuocilo finché diventa leggermente bruno e profuma di nocciola.",
-          "Unisci il succo di mezzo limone e il prezzemolo, versa la salsa sul pesce e servi con spicchi di limone."
-        ]
-      },
-      "tips": [
-        "Usa metà del burro e una padella antiaderente: 1 cucchiaio di burro ≈ 100 kcal.",
-        "Scuoti via tutta la farina in eccesso così che la panatura resti sottile.",
-        "Servi con verdure al vapore o un'insalata verde invece di patate al burro."
-      ]
-    },
-    "el": {
-      "name": "Γλώσσα μενιέρ",
-      "name_inline": "γλώσσα μενιέρ",
-      "origin": "Γαλλία",
-      "intro": "Η γλώσσα μενιέρ είναι ένα κλασικό γαλλικό πιάτο ψαριού: μια ολόκληρη γλώσσα ή φιλέτα γλώσσας αλευρώνονται, τηγανίζονται σε βούτυρο μέχρι να ροδίσουν και ολοκληρώνονται με καβουρδισμένο βούτυρο, χυμό λεμονιού και ψιλοκομμένο μαϊντανό. Το ψάρι είναι λεπτό και ζουμερό, η επικάλυψη ελαφρώς τραγανή και η σάλτσα με άρωμα φουντουκιού και ζωηρή. Συνήθως σερβίρεται απλά με βραστές πατάτες ή πράσινα λαχανικά.",
-      "history": "Το όνομα σημαίνει «με τον τρόπο της γυναίκας του μυλωνά», υπαινιγμός για την επικάλυψη με αλεύρι. Είναι διαχρονικό κλασικό της γαλλικής κουζίνας, και η Julia Child περιέγραφε συχνά μια sole meunière στη Ρουέν ως το γεύμα που την έκανε να ερωτευτεί τη γαλλική κουζίνα.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "2 φιλέτα γλώσσας (περίπου 300 γρ.)",
-          "20 γρ. αλεύρι",
-          "30 γρ. βούτυρο",
-          "1 λεμόνι",
-          "2 κ.σ. ψιλοκομμένος μαϊντανός",
-          "Αλάτι και λευκό πιπέρι"
-        ],
-        "steps": [
-          "Στεγνώστε το ψάρι, αλατοπιπερώστε το και αλευρώστε το ελαφρά, τινάζοντας το περιττό αλεύρι.",
-          "Λιώστε το μισό βούτυρο σε μεγάλο τηγάνι σε μέτρια προς δυνατή φωτιά.",
-          "Τηγανίστε τα φιλέτα 2–3 λεπτά από κάθε πλευρά μέχρι να ροδίσουν και να ψηθούν καλά, και σερβίρετέ τα στα πιάτα.",
-          "Προσθέστε στο τηγάνι το υπόλοιπο βούτυρο και μαγειρέψτε το μέχρι να πάρει ανοιχτό καφέ χρώμα και άρωμα φουντουκιού.",
-          "Ρίξτε τον χυμό από μισό λεμόνι και τον μαϊντανό, περιχύστε το ψάρι και σερβίρετε με φέτες λεμονιού."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε το μισό βούτυρο και αντικολλητικό τηγάνι: 1 κ.σ. βούτυρο ≈ 100 kcal.",
-        "Τινάξτε όλο το περιττό αλεύρι ώστε η επικάλυψη να μείνει λεπτή.",
-        "Σερβίρετε με λαχανικά στον ατμό ή πράσινη σαλάτα αντί για πατάτες βουτύρου."
-      ]
-    },
-    "ru": {
-      "name": "Морской язык по-мельничному",
-      "origin": "Франция",
-      "intro": "Морской язык по-мельничному (sole meunière) — классическое французское блюдо из рыбы: целого морского языка или его филе обваливают в муке, обжаривают на сливочном масле до золотистого цвета, а затем завершают подрумяненным маслом, лимонным соком и рубленой петрушкой. Рыба получается нежной и сочной, панировка слегка хрустящей, а соус ореховым и ярким. Обычно её просто подают с отварным картофелем или зелёными овощами.",
-      "history": "Название означает «в стиле жены мельника» и намекает на мучную панировку. Это давняя классика французской кухни, а Джулия Чайлд часто рассказывала, что морской язык по-мельничному в Руане был тем блюдом, из-за которого она влюбилась во французскую кухню.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "2 филе морского языка (около 300 г)",
-          "20 г муки",
-          "30 г сливочного масла",
-          "1 лимон",
-          "2 ст. л. рубленой петрушки",
-          "Соль и белый перец"
-        ],
-        "steps": [
-          "Обсушите рыбу, посолите, поперчите и слегка обваляйте в муке, стряхнув излишки.",
-          "Растопите половину масла на большой сковороде на средне-сильном огне.",
-          "Жарьте филе по 2–3 минуты с каждой стороны до золотистого цвета и готовности, затем переложите на тарелки.",
-          "Добавьте на сковороду оставшееся масло и готовьте, пока оно не станет светло-коричневым и ореховым.",
-          "Добавьте сок половины лимона и петрушку, полейте рыбу и подавайте с дольками лимона."
-        ]
-      },
-      "tips": [
-        "Используйте вдвое меньше масла и антипригарную сковороду: 1 ст. л. масла ≈ 100 ккал.",
-        "Стряхивайте всю лишнюю муку, чтобы панировка была тонкой.",
-        "Подавайте с овощами на пару или зелёным салатом вместо картофеля с маслом."
-      ],
-      "name_inline": "морской язык по-мельничному"
-    }
+  "ar": {
+   "name": "سمك موسى مونيير",
+   "origin": "فرنسا",
+   "intro": "سمك موسى مونيير طبق سمك فرنسي كلاسيكي: تُغطى سمكة موسى كاملة أو شرائحها بالدقيق وتُقلى في الزبدة حتى تصبح ذهبية، ثم تُكمَّل بزبدة محمّرة وعصير ليمون وبقدونس مفروم. السمك رقيق وطري، والغلاف مقرمش قليلاً، والصلصة بنكهة جوزية منعشة. يُقدَّم عادة ببساطة مع بطاطا مسلوقة أو خضار خضراء.",
+   "history": "يعني الاسم «على طريقة زوجة الطحّان»، إشارة إلى غلاف الدقيق. وهو من كلاسيكيات المطبخ الفرنسي منذ زمن طويل، وكثيراً ما وصفت جوليا تشايلد طبق سمك موسى مونيير تناولته في روان بأنه الوجبة التي جعلتها تقع في حب الطعام الفرنسي.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "شريحتا سمك موسى (نحو 300 غ)",
+     "20 غ دقيق",
+     "30 غ زبدة",
+     "ليمونة",
+     "2 ملعقة كبيرة بقدونس مفروم",
+     "ملح وفلفل أبيض"
+    ],
+    "steps": [
+     "جفّف السمك وتبّله وغطّه بطبقة خفيفة من الدقيق مع نفض الزائد.",
+     "أذب نصف الزبدة في مقلاة كبيرة على نار متوسطة إلى عالية.",
+     "اقلِ الشرائح 2–3 دقائق لكل جهة حتى تتحمّر وتنضج، ثم ضعها في الأطباق.",
+     "أضف باقي الزبدة إلى المقلاة واتركها حتى يصبح لونها بنياً فاتحاً برائحة جوزية.",
+     "أضف عصير نصف الليمونة والبقدونس، واسكب الصلصة على السمك وقدّمه مع شرائح الليمون."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية الزبدة ومقلاة غير لاصقة — ملعقة كبيرة زبدة ≈ 100 سعرة.",
+    "انفض كل الدقيق الزائد ليبقى الغلاف رقيقاً.",
+    "قدّمه مع خضار مطهوة على البخار أو سلطة خضراء بدل البطاطا بالزبدة."
+   ]
+  },
+  "it": {
+   "name": "Sogliola alla mugnaia",
+   "name_inline": "sogliola alla mugnaia",
+   "origin": "Francia",
+   "intro": "La sogliola alla mugnaia è un classico piatto di pesce francese: una sogliola intera o dei filetti di sogliola vengono infarinati, cotti in padella nel burro finché sono dorati e poi completati con burro nocciola, succo di limone e prezzemolo tritato. Il pesce è delicato e morbido, la panatura leggermente croccante e la salsa dal gusto di nocciola e vivace. Di solito si serve semplicemente con patate lesse o verdure verdi.",
+   "history": "Il nome significa «alla maniera della moglie del mugnaio», un riferimento alla farina che la ricopre. È un classico di lunga data della cucina francese, e Julia Child raccontava spesso che una sole meunière mangiata a Rouen fu il pasto che la fece innamorare della cucina francese.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "2 filetti di sogliola (circa 300 g)",
+     "20 g di farina",
+     "30 g di burro",
+     "1 limone",
+     "2 cucchiai di prezzemolo tritato",
+     "Sale e pepe bianco"
+    ],
+    "steps": [
+     "Asciuga il pesce tamponandolo, condiscilo e infarinalo leggermente, scuotendo via l'eccesso.",
+     "Sciogli metà del burro in una padella grande a fuoco medio-alto.",
+     "Cuoci i filetti 2–3 minuti per lato finché sono dorati e cotti all'interno, poi impiattali.",
+     "Aggiungi in padella il burro rimasto e cuocilo finché diventa leggermente bruno e profuma di nocciola.",
+     "Unisci il succo di mezzo limone e il prezzemolo, versa la salsa sul pesce e servi con spicchi di limone."
+    ]
+   },
+   "tips": [
+    "Usa metà del burro e una padella antiaderente: 1 cucchiaio di burro ≈ 100 kcal.",
+    "Scuoti via tutta la farina in eccesso così che la panatura resti sottile.",
+    "Servi con verdure al vapore o un'insalata verde invece di patate al burro."
+   ]
+  },
+  "el": {
+   "name": "Γλώσσα μενιέρ",
+   "name_inline": "γλώσσα μενιέρ",
+   "origin": "Γαλλία",
+   "intro": "Η γλώσσα μενιέρ είναι ένα κλασικό γαλλικό πιάτο ψαριού: μια ολόκληρη γλώσσα ή φιλέτα γλώσσας αλευρώνονται, τηγανίζονται σε βούτυρο μέχρι να ροδίσουν και ολοκληρώνονται με καβουρδισμένο βούτυρο, χυμό λεμονιού και ψιλοκομμένο μαϊντανό. Το ψάρι είναι λεπτό και ζουμερό, η επικάλυψη ελαφρώς τραγανή και η σάλτσα με άρωμα φουντουκιού και ζωηρή. Συνήθως σερβίρεται απλά με βραστές πατάτες ή πράσινα λαχανικά.",
+   "history": "Το όνομα σημαίνει «με τον τρόπο της γυναίκας του μυλωνά», υπαινιγμός για την επικάλυψη με αλεύρι. Είναι διαχρονικό κλασικό της γαλλικής κουζίνας, και η Julia Child περιέγραφε συχνά μια sole meunière στη Ρουέν ως το γεύμα που την έκανε να ερωτευτεί τη γαλλική κουζίνα.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "2 φιλέτα γλώσσας (περίπου 300 γρ.)",
+     "20 γρ. αλεύρι",
+     "30 γρ. βούτυρο",
+     "1 λεμόνι",
+     "2 κ.σ. ψιλοκομμένος μαϊντανός",
+     "Αλάτι και λευκό πιπέρι"
+    ],
+    "steps": [
+     "Στεγνώστε το ψάρι, αλατοπιπερώστε το και αλευρώστε το ελαφρά, τινάζοντας το περιττό αλεύρι.",
+     "Λιώστε το μισό βούτυρο σε μεγάλο τηγάνι σε μέτρια προς δυνατή φωτιά.",
+     "Τηγανίστε τα φιλέτα 2–3 λεπτά από κάθε πλευρά μέχρι να ροδίσουν και να ψηθούν καλά, και σερβίρετέ τα στα πιάτα.",
+     "Προσθέστε στο τηγάνι το υπόλοιπο βούτυρο και μαγειρέψτε το μέχρι να πάρει ανοιχτό καφέ χρώμα και άρωμα φουντουκιού.",
+     "Ρίξτε τον χυμό από μισό λεμόνι και τον μαϊντανό, περιχύστε το ψάρι και σερβίρετε με φέτες λεμονιού."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε το μισό βούτυρο και αντικολλητικό τηγάνι: 1 κ.σ. βούτυρο ≈ 100 kcal.",
+    "Τινάξτε όλο το περιττό αλεύρι ώστε η επικάλυψη να μείνει λεπτή.",
+    "Σερβίρετε με λαχανικά στον ατμό ή πράσινη σαλάτα αντί για πατάτες βουτύρου."
+   ]
+  },
+  "ru": {
+   "name": "Морской язык по-мельничному",
+   "origin": "Франция",
+   "intro": "Морской язык по-мельничному (sole meunière) — классическое французское блюдо из рыбы: целого морского языка или его филе обваливают в муке, обжаривают на сливочном масле до золотистого цвета, а затем завершают подрумяненным маслом, лимонным соком и рубленой петрушкой. Рыба получается нежной и сочной, панировка слегка хрустящей, а соус ореховым и ярким. Обычно её просто подают с отварным картофелем или зелёными овощами.",
+   "history": "Название означает «в стиле жены мельника» и намекает на мучную панировку. Это давняя классика французской кухни, а Джулия Чайлд часто рассказывала, что морской язык по-мельничному в Руане был тем блюдом, из-за которого она влюбилась во французскую кухню.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "2 филе морского языка (около 300 г)",
+     "20 г муки",
+     "30 г сливочного масла",
+     "1 лимон",
+     "2 ст. л. рубленой петрушки",
+     "Соль и белый перец"
+    ],
+    "steps": [
+     "Обсушите рыбу, посолите, поперчите и слегка обваляйте в муке, стряхнув излишки.",
+     "Растопите половину масла на большой сковороде на средне-сильном огне.",
+     "Жарьте филе по 2–3 минуты с каждой стороны до золотистого цвета и готовности, затем переложите на тарелки.",
+     "Добавьте на сковороду оставшееся масло и готовьте, пока оно не станет светло-коричневым и ореховым.",
+     "Добавьте сок половины лимона и петрушку, полейте рыбу и подавайте с дольками лимона."
+    ]
+   },
+   "tips": [
+    "Используйте вдвое меньше масла и антипригарную сковороду: 1 ст. л. масла ≈ 100 ккал.",
+    "Стряхивайте всю лишнюю муку, чтобы панировка была тонкой.",
+    "Подавайте с овощами на пару или зелёным салатом вместо картофеля с маслом."
+   ],
+   "name_inline": "морской язык по-мельничному"
+  },
+  "es": {
+   "name": "Sole meunière",
+   "origin": "Francia",
+   "intro": "El sole meunière es un clásico de la cocina francesa: un lenguado entero o en filetes se enharina, se dora en mantequilla y se termina con mantequilla avellana, jugo de limón y perejil picado. El pescado queda delicado y jugoso, el rebozado ligeramente crujiente y la salsa tostada y fresca. Suele servirse sencillo, con papas hervidas o verduras verdes.",
+   "history": "El nombre significa «a la manera de la molinera», en alusión al rebozado de harina. Es un clásico de la cocina francesa de siempre, y Julia Child solía describir un sole meunière en Ruan como la comida que la hizo enamorarse de la cocina francesa.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "2 filetes de lenguado (unos 300 g)",
+     "20 g de harina",
+     "30 g de mantequilla",
+     "1 limón",
+     "2 cdas. de perejil picado",
+     "sal y pimienta blanca"
+    ],
+    "steps": [
+     "Seca el pescado con papel, sazónalo y enharínalo ligeramente, sacudiendo el exceso.",
+     "Derrite la mitad de la mantequilla en una sartén grande a fuego medio-alto.",
+     "Fríe los filetes de 2 a 3 minutos por lado, hasta que estén dorados y cocidos, y pásalos al plato.",
+     "Agrega a la sartén el resto de la mantequilla y cocina hasta que tome un color avellana y huela a nuez.",
+     "Añade el jugo de medio limón y el perejil, báñalos sobre el pescado y sirve con gajos de limón."
+    ]
+   },
+   "tips": [
+    "Usa la mitad de la mantequilla y una sartén antiadherente: 1 cda. de mantequilla ≈ 100 kcal.",
+    "Sacude bien el exceso de harina para que el rebozado quede fino.",
+    "Acompaña con verduras al vapor o una ensalada verde en lugar de papas con mantequilla."
+   ],
+   "name_inline": "el sole meunière"
   }
+ }
 }

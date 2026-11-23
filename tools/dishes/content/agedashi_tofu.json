@@ -1,175 +1,207 @@
 {
-  "db_key": "agedashi_tofu",
-  "slug": "agedashi-tofu",
-  "emoji": "🍢",
-  "portion_g": 200,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "agedashi_tofu",
+ "slug": "agedashi-tofu",
+ "emoji": "🍢",
+ "portion_g": 200,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Agedashi tofu",
+   "origin": "Japan",
+   "intro": "Agedashi tofu is a classic Japanese appetizer of silken tofu cubes dusted in potato starch and deep-fried until a thin, crisp shell forms around a soft, custard-like centre. The tofu is served in a warm, savoury broth of dashi and soy sauce and topped with grated ginger, grated daikon, spring onion and bonito flakes, so the coating turns silky as it soaks.",
+   "history": "Agedashi tofu has been eaten in Japan for centuries and appears in a well-known 18th-century tofu recipe collection, Tofu Hyakuchin. Today it is a standard dish at izakaya and home tables across Japan.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "300 g silken or soft tofu",
+     "3 tbsp potato starch",
+     "Vegetable oil for deep-frying",
+     "200 ml dashi",
+     "2 tbsp soy sauce and 1 tsp sugar",
+     "1 tsp grated ginger",
+     "2 tbsp grated daikon and 1 spring onion, sliced",
+     "A pinch of bonito flakes"
+    ],
+    "steps": [
+     "Wrap the tofu in kitchen paper and press lightly for 20 minutes to remove excess water, then cut into 6 cubes.",
+     "Heat the dashi with the soy sauce and sugar until just simmering and keep warm.",
+     "Coat the tofu cubes in potato starch and deep-fry at 170–180 °C for 2–3 minutes until lightly golden and crisp.",
+     "Drain on paper, place in bowls and pour the warm broth around the tofu.",
+     "Top with ginger, daikon, spring onion and bonito flakes and serve at once."
+    ]
+   },
+   "tips": [
+    "Drain the fried tofu well on paper towels — deep-fried coatings soak up oil quickly.",
+    "Shallow-fry in a non-stick pan with 2 tbsp oil instead of deep-frying.",
+    "Serve it with steamed vegetables to make a light meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Agedashi tofu",
-      "origin": "Japan",
-      "intro": "Agedashi tofu is a classic Japanese appetizer of silken tofu cubes dusted in potato starch and deep-fried until a thin, crisp shell forms around a soft, custard-like centre. The tofu is served in a warm, savoury broth of dashi and soy sauce and topped with grated ginger, grated daikon, spring onion and bonito flakes, so the coating turns silky as it soaks.",
-      "history": "Agedashi tofu has been eaten in Japan for centuries and appears in a well-known 18th-century tofu recipe collection, Tofu Hyakuchin. Today it is a standard dish at izakaya and home tables across Japan.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "300 g silken or soft tofu",
-          "3 tbsp potato starch",
-          "Vegetable oil for deep-frying",
-          "200 ml dashi",
-          "2 tbsp soy sauce and 1 tsp sugar",
-          "1 tsp grated ginger",
-          "2 tbsp grated daikon and 1 spring onion, sliced",
-          "A pinch of bonito flakes"
-        ],
-        "steps": [
-          "Wrap the tofu in kitchen paper and press lightly for 20 minutes to remove excess water, then cut into 6 cubes.",
-          "Heat the dashi with the soy sauce and sugar until just simmering and keep warm.",
-          "Coat the tofu cubes in potato starch and deep-fry at 170–180 °C for 2–3 minutes until lightly golden and crisp.",
-          "Drain on paper, place in bowls and pour the warm broth around the tofu.",
-          "Top with ginger, daikon, spring onion and bonito flakes and serve at once."
-        ]
-      },
-      "tips": [
-        "Drain the fried tofu well on paper towels — deep-fried coatings soak up oil quickly.",
-        "Shallow-fry in a non-stick pan with 2 tbsp oil instead of deep-frying.",
-        "Serve it with steamed vegetables to make a light meal."
-      ]
-    },
-    "ar": {
-      "name": "توفو أغيداشي",
-      "origin": "اليابان",
-      "intro": "توفو أغيداشي مقبلات يابانية كلاسيكية من مكعبات التوفو الحريري تُغطّى بنشا البطاطس وتُقلى في زيت غزير حتى تتكوّن قشرة رقيقة مقرمشة حول قلب طري يشبه الكاسترد. يُقدَّم التوفو في مرق دافئ مالح من الداشي وصلصة الصويا، ويُزيَّن بالزنجبيل المبشور والفجل الأبيض (دايكون) المبشور والبصل الأخضر ورقائق البونيتو، فتصبح القشرة ناعمة حريرية وهي تمتص المرق.",
-      "history": "يؤكل توفو أغيداشي في اليابان منذ قرون، ويظهر في مجموعة وصفات توفو شهيرة من القرن الثامن عشر تُعرف باسم «توفو هياكوتشين». واليوم هو طبق أساسي في الإيزاكايا وعلى موائد البيوت في أنحاء اليابان.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "300 غ توفو حريري أو طري",
-          "3 ملاعق كبيرة نشا بطاطس",
-          "زيت نباتي للقلي الغزير",
-          "200 مل مرق داشي",
-          "2 ملعقة كبيرة صلصة صويا وملعقة صغيرة سكر",
-          "ملعقة صغيرة زنجبيل مبشور",
-          "2 ملعقة كبيرة فجل أبيض (دايكون) مبشور وبصلة خضراء مقطعة",
-          "رشة رقائق بونيتو"
-        ],
-        "steps": [
-          "لفّ التوفو بمناديل المطبخ واضغطه برفق 20 دقيقة لإزالة الماء الزائد، ثم قطّعه إلى 6 مكعبات.",
-          "سخّن الداشي مع صلصة الصويا والسكر حتى يبدأ بالغليان الهادئ، وأبقِه دافئاً.",
-          "غطِّ مكعبات التوفو بنشا البطاطس واقلِها على 170–180 درجة مئوية 2–3 دقائق حتى تصبح ذهبية فاتحة ومقرمشة.",
-          "صفّها على ورق، وضعها في أوعية واسكب المرق الدافئ حولها.",
-          "زيّنها بالزنجبيل والفجل والبصل الأخضر ورقائق البونيتو وقدّمها فوراً."
-        ]
-      },
-      "tips": [
-        "صفِّ التوفو المقلي جيداً على مناديل ورقية — فالقشرة المقلية تمتص الزيت بسرعة.",
-        "اقلِه قلياً خفيفاً في مقلاة غير لاصقة بملعقتين كبيرتين من الزيت بدل القلي الغزير.",
-        "قدّمه مع خضار مطهوة على البخار لوجبة خفيفة."
-      ]
-    },
-    "it": {
-      "name": "Agedashi tofu",
-      "origin": "Giappone",
-      "intro": "L'agedashi tofu è un classico antipasto giapponese di cubetti di tofu morbido (silken) passati nella fecola di patate e fritti finché si forma un guscio sottile e croccante attorno a un cuore morbido come una crema. Il tofu si serve in un brodo caldo e saporito di dashi e salsa di soia e si guarnisce con zenzero grattugiato, daikon grattugiato, cipollotto e fiocchi di bonito, così la panatura diventa setosa mentre si impregna.",
-      "history": "L'agedashi tofu si mangia in Giappone da secoli e compare in una famosa raccolta di ricette di tofu del XVIII secolo, il Tofu Hyakuchin. Oggi è un piatto standard negli izakaya e sulle tavole di casa in tutto il Giappone.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "300 g di tofu silken o morbido",
-          "3 cucchiai di fecola di patate",
-          "Olio vegetale per friggere",
-          "200 ml di dashi",
-          "2 cucchiai di salsa di soia e 1 cucchiaino di zucchero",
-          "1 cucchiaino di zenzero grattugiato",
-          "2 cucchiai di daikon grattugiato e 1 cipollotto a rondelle",
-          "Un pizzico di fiocchi di bonito"
-        ],
-        "steps": [
-          "Avvolgi il tofu nella carta da cucina e pressalo leggermente per 20 minuti per eliminare l'acqua in eccesso, poi taglialo in 6 cubetti.",
-          "Scalda il dashi con la salsa di soia e lo zucchero finché sobbolle appena e tienilo in caldo.",
-          "Passa i cubetti di tofu nella fecola e friggili a 170–180 °C per 2–3 minuti, finché sono leggermente dorati e croccanti.",
-          "Scolali su carta, mettili nelle ciotole e versa il brodo caldo attorno al tofu.",
-          "Guarnisci con zenzero, daikon, cipollotto e fiocchi di bonito e servi subito."
-        ]
-      },
-      "tips": [
-        "Scola bene il tofu fritto su carta assorbente: le panature fritte assorbono olio in fretta.",
-        "Friggi in padella antiaderente con 2 cucchiai di olio invece di friggere in abbondante olio.",
-        "Servilo con verdure al vapore per un pasto leggero."
-      ]
-    },
-    "el": {
-      "name": "Αγκεντάσι τόφου",
-      "origin": "Ιαπωνία",
-      "intro": "Το αγκεντάσι τόφου είναι κλασικό ιαπωνικό ορεκτικό από κύβους μεταξένιου τόφου πασπαλισμένους με άμυλο πατάτας και τηγανισμένους σε βαθύ λάδι, μέχρι να σχηματιστεί μια λεπτή, τραγανή κρούστα γύρω από μια μαλακή καρδιά σαν κρέμα. Το τόφου σερβίρεται σε ζεστό, γευστικό ζωμό από ντάσι και σάλτσα σόγιας, με τριμμένο τζίντζερ, τριμμένο ντάικον, φρέσκο κρεμμυδάκι και νιφάδες μπονίτο από πάνω, έτσι ώστε η κρούστα να γίνεται μεταξένια καθώς μουσκεύει.",
-      "history": "Το αγκεντάσι τόφου τρώγεται στην Ιαπωνία εδώ και αιώνες και εμφανίζεται σε μια γνωστή συλλογή συνταγών τόφου του 18ου αιώνα, το Tofu Hyakuchin. Σήμερα είναι βασικό πιάτο στα ιζακάγια και στα σπιτικά τραπέζια σε όλη την Ιαπωνία.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "300 γρ. μεταξένιο ή μαλακό τόφου",
-          "3 κ.σ. άμυλο πατάτας",
-          "Φυτικό λάδι για βαθύ τηγάνισμα",
-          "200 ml ντάσι",
-          "2 κ.σ. σάλτσα σόγιας και 1 κ.γ. ζάχαρη",
-          "1 κ.γ. τριμμένο τζίντζερ",
-          "2 κ.σ. τριμμένο ντάικον και 1 φρέσκο κρεμμυδάκι, σε ροδέλες",
-          "Μια πρέζα νιφάδες μπονίτο"
-        ],
-        "steps": [
-          "Τυλίξτε το τόφου σε χαρτί κουζίνας και πιέστε το ελαφρά για 20 λεπτά να φύγει το περιττό νερό, μετά κόψτε το σε 6 κύβους.",
-          "Ζεστάνετε το ντάσι με τη σάλτσα σόγιας και τη ζάχαρη μέχρι να πάρει μόλις βράση και κρατήστε το ζεστό.",
-          "Πασπαλίστε τους κύβους τόφου με το άμυλο και τηγανίστε τους σε βαθύ λάδι στους 170–180 °C για 2–3 λεπτά, μέχρι να ροδίσουν ελαφρά και να γίνουν τραγανοί.",
-          "Στραγγίξτε σε χαρτί, βάλτε τους σε μπολ και ρίξτε τον ζεστό ζωμό γύρω από το τόφου.",
-          "Προσθέστε από πάνω τζίντζερ, ντάικον, κρεμμυδάκι και νιφάδες μπονίτο και σερβίρετε αμέσως."
-        ]
-      },
-      "tips": [
-        "Στραγγίξτε καλά το τηγανητό τόφου σε απορροφητικό χαρτί — οι τηγανητές κρούστες ρουφούν γρήγορα λάδι.",
-        "Τηγανίστε σε αντικολλητικό τηγάνι με 2 κ.σ. λάδι αντί για βαθύ τηγάνισμα.",
-        "Σερβίρετέ το με λαχανικά στον ατμό για ένα ελαφρύ γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Агедаси-тофу",
-      "origin": "Япония",
-      "intro": "Агедаси-тофу — классическая японская закуска из кубиков шёлкового тофу, обвалянных в картофельном крахмале и обжаренных во фритюре до образования тонкой хрустящей корочки вокруг мягкой, кремовой середины. Тофу подают в тёплом пикантном бульоне из даси и соевого соуса, посыпав тёртым имбирём, тёртой дайкон, зелёным луком и стружкой бонито, так что корочка становится шелковистой, пропитываясь бульоном.",
-      "history": "Агедаси-тофу едят в Японии веками, и оно встречается в известном сборнике рецептов тофу XVIII века «Тофу хякутин». Сегодня это стандартное блюдо в идзакая и на домашних столах по всей Японии.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "300 г шёлкового или мягкого тофу",
-          "3 ст. л. картофельного крахмала",
-          "Растительное масло для фритюра",
-          "200 мл даси",
-          "2 ст. л. соевого соуса и 1 ч. л. сахара",
-          "1 ч. л. тёртого имбиря",
-          "2 ст. л. тёртой дайкон и 1 стебель зелёного лука, нарезанный",
-          "Щепотка стружки бонито"
-        ],
-        "steps": [
-          "Заверните тофу в кухонную бумагу и слегка прижимайте 20 минут, чтобы удалить лишнюю воду, затем нарежьте на 6 кубиков.",
-          "Подогрейте даси с соевым соусом и сахаром до лёгкого кипения и держите тёплым.",
-          "Обваляйте кубики тофу в картофельном крахмале и обжаривайте во фритюре при 170–180 °C 2–3 минуты до лёгкой золотистости и хруста.",
-          "Обсушите на бумаге, разложите по мискам и налейте тёплый бульон вокруг тофу.",
-          "Посыпьте имбирём, дайкон, зелёным луком и стружкой бонито и сразу подавайте."
-        ]
-      },
-      "tips": [
-        "Хорошо обсушите жареный тофу на бумажных полотенцах — панировка во фритюре быстро впитывает масло.",
-        "Обжарьте в антипригарной сковороде в 2 ст. л. масла вместо фритюра.",
-        "Подавайте с овощами на пару, чтобы получить лёгкий приём пищи."
-      ],
-      "name_inline": "агедаси-тофу"
-    }
+  "ar": {
+   "name": "توفو أغيداشي",
+   "origin": "اليابان",
+   "intro": "توفو أغيداشي مقبلات يابانية كلاسيكية من مكعبات التوفو الحريري تُغطّى بنشا البطاطس وتُقلى في زيت غزير حتى تتكوّن قشرة رقيقة مقرمشة حول قلب طري يشبه الكاسترد. يُقدَّم التوفو في مرق دافئ مالح من الداشي وصلصة الصويا، ويُزيَّن بالزنجبيل المبشور والفجل الأبيض (دايكون) المبشور والبصل الأخضر ورقائق البونيتو، فتصبح القشرة ناعمة حريرية وهي تمتص المرق.",
+   "history": "يؤكل توفو أغيداشي في اليابان منذ قرون، ويظهر في مجموعة وصفات توفو شهيرة من القرن الثامن عشر تُعرف باسم «توفو هياكوتشين». واليوم هو طبق أساسي في الإيزاكايا وعلى موائد البيوت في أنحاء اليابان.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "300 غ توفو حريري أو طري",
+     "3 ملاعق كبيرة نشا بطاطس",
+     "زيت نباتي للقلي الغزير",
+     "200 مل مرق داشي",
+     "2 ملعقة كبيرة صلصة صويا وملعقة صغيرة سكر",
+     "ملعقة صغيرة زنجبيل مبشور",
+     "2 ملعقة كبيرة فجل أبيض (دايكون) مبشور وبصلة خضراء مقطعة",
+     "رشة رقائق بونيتو"
+    ],
+    "steps": [
+     "لفّ التوفو بمناديل المطبخ واضغطه برفق 20 دقيقة لإزالة الماء الزائد، ثم قطّعه إلى 6 مكعبات.",
+     "سخّن الداشي مع صلصة الصويا والسكر حتى يبدأ بالغليان الهادئ، وأبقِه دافئاً.",
+     "غطِّ مكعبات التوفو بنشا البطاطس واقلِها على 170–180 درجة مئوية 2–3 دقائق حتى تصبح ذهبية فاتحة ومقرمشة.",
+     "صفّها على ورق، وضعها في أوعية واسكب المرق الدافئ حولها.",
+     "زيّنها بالزنجبيل والفجل والبصل الأخضر ورقائق البونيتو وقدّمها فوراً."
+    ]
+   },
+   "tips": [
+    "صفِّ التوفو المقلي جيداً على مناديل ورقية — فالقشرة المقلية تمتص الزيت بسرعة.",
+    "اقلِه قلياً خفيفاً في مقلاة غير لاصقة بملعقتين كبيرتين من الزيت بدل القلي الغزير.",
+    "قدّمه مع خضار مطهوة على البخار لوجبة خفيفة."
+   ]
+  },
+  "it": {
+   "name": "Agedashi tofu",
+   "origin": "Giappone",
+   "intro": "L'agedashi tofu è un classico antipasto giapponese di cubetti di tofu morbido (silken) passati nella fecola di patate e fritti finché si forma un guscio sottile e croccante attorno a un cuore morbido come una crema. Il tofu si serve in un brodo caldo e saporito di dashi e salsa di soia e si guarnisce con zenzero grattugiato, daikon grattugiato, cipollotto e fiocchi di bonito, così la panatura diventa setosa mentre si impregna.",
+   "history": "L'agedashi tofu si mangia in Giappone da secoli e compare in una famosa raccolta di ricette di tofu del XVIII secolo, il Tofu Hyakuchin. Oggi è un piatto standard negli izakaya e sulle tavole di casa in tutto il Giappone.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "300 g di tofu silken o morbido",
+     "3 cucchiai di fecola di patate",
+     "Olio vegetale per friggere",
+     "200 ml di dashi",
+     "2 cucchiai di salsa di soia e 1 cucchiaino di zucchero",
+     "1 cucchiaino di zenzero grattugiato",
+     "2 cucchiai di daikon grattugiato e 1 cipollotto a rondelle",
+     "Un pizzico di fiocchi di bonito"
+    ],
+    "steps": [
+     "Avvolgi il tofu nella carta da cucina e pressalo leggermente per 20 minuti per eliminare l'acqua in eccesso, poi taglialo in 6 cubetti.",
+     "Scalda il dashi con la salsa di soia e lo zucchero finché sobbolle appena e tienilo in caldo.",
+     "Passa i cubetti di tofu nella fecola e friggili a 170–180 °C per 2–3 minuti, finché sono leggermente dorati e croccanti.",
+     "Scolali su carta, mettili nelle ciotole e versa il brodo caldo attorno al tofu.",
+     "Guarnisci con zenzero, daikon, cipollotto e fiocchi di bonito e servi subito."
+    ]
+   },
+   "tips": [
+    "Scola bene il tofu fritto su carta assorbente: le panature fritte assorbono olio in fretta.",
+    "Friggi in padella antiaderente con 2 cucchiai di olio invece di friggere in abbondante olio.",
+    "Servilo con verdure al vapore per un pasto leggero."
+   ]
+  },
+  "el": {
+   "name": "Αγκεντάσι τόφου",
+   "origin": "Ιαπωνία",
+   "intro": "Το αγκεντάσι τόφου είναι κλασικό ιαπωνικό ορεκτικό από κύβους μεταξένιου τόφου πασπαλισμένους με άμυλο πατάτας και τηγανισμένους σε βαθύ λάδι, μέχρι να σχηματιστεί μια λεπτή, τραγανή κρούστα γύρω από μια μαλακή καρδιά σαν κρέμα. Το τόφου σερβίρεται σε ζεστό, γευστικό ζωμό από ντάσι και σάλτσα σόγιας, με τριμμένο τζίντζερ, τριμμένο ντάικον, φρέσκο κρεμμυδάκι και νιφάδες μπονίτο από πάνω, έτσι ώστε η κρούστα να γίνεται μεταξένια καθώς μουσκεύει.",
+   "history": "Το αγκεντάσι τόφου τρώγεται στην Ιαπωνία εδώ και αιώνες και εμφανίζεται σε μια γνωστή συλλογή συνταγών τόφου του 18ου αιώνα, το Tofu Hyakuchin. Σήμερα είναι βασικό πιάτο στα ιζακάγια και στα σπιτικά τραπέζια σε όλη την Ιαπωνία.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "300 γρ. μεταξένιο ή μαλακό τόφου",
+     "3 κ.σ. άμυλο πατάτας",
+     "Φυτικό λάδι για βαθύ τηγάνισμα",
+     "200 ml ντάσι",
+     "2 κ.σ. σάλτσα σόγιας και 1 κ.γ. ζάχαρη",
+     "1 κ.γ. τριμμένο τζίντζερ",
+     "2 κ.σ. τριμμένο ντάικον και 1 φρέσκο κρεμμυδάκι, σε ροδέλες",
+     "Μια πρέζα νιφάδες μπονίτο"
+    ],
+    "steps": [
+     "Τυλίξτε το τόφου σε χαρτί κουζίνας και πιέστε το ελαφρά για 20 λεπτά να φύγει το περιττό νερό, μετά κόψτε το σε 6 κύβους.",
+     "Ζεστάνετε το ντάσι με τη σάλτσα σόγιας και τη ζάχαρη μέχρι να πάρει μόλις βράση και κρατήστε το ζεστό.",
+     "Πασπαλίστε τους κύβους τόφου με το άμυλο και τηγανίστε τους σε βαθύ λάδι στους 170–180 °C για 2–3 λεπτά, μέχρι να ροδίσουν ελαφρά και να γίνουν τραγανοί.",
+     "Στραγγίξτε σε χαρτί, βάλτε τους σε μπολ και ρίξτε τον ζεστό ζωμό γύρω από το τόφου.",
+     "Προσθέστε από πάνω τζίντζερ, ντάικον, κρεμμυδάκι και νιφάδες μπονίτο και σερβίρετε αμέσως."
+    ]
+   },
+   "tips": [
+    "Στραγγίξτε καλά το τηγανητό τόφου σε απορροφητικό χαρτί — οι τηγανητές κρούστες ρουφούν γρήγορα λάδι.",
+    "Τηγανίστε σε αντικολλητικό τηγάνι με 2 κ.σ. λάδι αντί για βαθύ τηγάνισμα.",
+    "Σερβίρετέ το με λαχανικά στον ατμό για ένα ελαφρύ γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Агедаси-тофу",
+   "origin": "Япония",
+   "intro": "Агедаси-тофу — классическая японская закуска из кубиков шёлкового тофу, обвалянных в картофельном крахмале и обжаренных во фритюре до образования тонкой хрустящей корочки вокруг мягкой, кремовой середины. Тофу подают в тёплом пикантном бульоне из даси и соевого соуса, посыпав тёртым имбирём, тёртой дайкон, зелёным луком и стружкой бонито, так что корочка становится шелковистой, пропитываясь бульоном.",
+   "history": "Агедаси-тофу едят в Японии веками, и оно встречается в известном сборнике рецептов тофу XVIII века «Тофу хякутин». Сегодня это стандартное блюдо в идзакая и на домашних столах по всей Японии.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "300 г шёлкового или мягкого тофу",
+     "3 ст. л. картофельного крахмала",
+     "Растительное масло для фритюра",
+     "200 мл даси",
+     "2 ст. л. соевого соуса и 1 ч. л. сахара",
+     "1 ч. л. тёртого имбиря",
+     "2 ст. л. тёртой дайкон и 1 стебель зелёного лука, нарезанный",
+     "Щепотка стружки бонито"
+    ],
+    "steps": [
+     "Заверните тофу в кухонную бумагу и слегка прижимайте 20 минут, чтобы удалить лишнюю воду, затем нарежьте на 6 кубиков.",
+     "Подогрейте даси с соевым соусом и сахаром до лёгкого кипения и держите тёплым.",
+     "Обваляйте кубики тофу в картофельном крахмале и обжаривайте во фритюре при 170–180 °C 2–3 минуты до лёгкой золотистости и хруста.",
+     "Обсушите на бумаге, разложите по мискам и налейте тёплый бульон вокруг тофу.",
+     "Посыпьте имбирём, дайкон, зелёным луком и стружкой бонито и сразу подавайте."
+    ]
+   },
+   "tips": [
+    "Хорошо обсушите жареный тофу на бумажных полотенцах — панировка во фритюре быстро впитывает масло.",
+    "Обжарьте в антипригарной сковороде в 2 ст. л. масла вместо фритюра.",
+    "Подавайте с овощами на пару, чтобы получить лёгкий приём пищи."
+   ],
+   "name_inline": "агедаси-тофу"
+  },
+  "es": {
+   "name": "Agedashi tofu",
+   "origin": "Japón",
+   "intro": "El agedashi tofu es un clásico aperitivo japonés: cubos de tofu sedoso enharinados con fécula de papa y fritos hasta formar una capa fina y crujiente que envuelve un centro suave, como de flan. Se sirve en un caldo caliente y sabroso de dashi y salsa de soya, con jengibre rallado, daikon rallado, cebollín y hojuelas de bonito, de modo que el rebozado se vuelve sedoso al empaparse.",
+   "history": "El agedashi tofu se come en Japón desde hace siglos y aparece en una conocida colección de recetas de tofu del siglo XVIII, el Tofu Hyakuchin. Hoy es un plato habitual en las izakayas y en las mesas de los hogares japoneses.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "300 g de tofu sedoso o suave",
+     "3 cda. de fécula de papa",
+     "Aceite vegetal para freír",
+     "200 ml de dashi",
+     "2 cda. de salsa de soya y 1 cdta. de azúcar",
+     "1 cdta. de jengibre rallado",
+     "2 cda. de daikon rallado y 1 cebollín en rodajas",
+     "Una pizca de hojuelas de bonito"
+    ],
+    "steps": [
+     "Envuelve el tofu en papel de cocina y presiónalo suavemente 20 minutos para quitar el exceso de agua; luego córtalo en 6 cubos.",
+     "Calienta el dashi con la salsa de soya y el azúcar hasta que apenas hierva y mantenlo caliente.",
+     "Cubre los cubos de tofu con fécula de papa y fríelos en aceite a 170–180 °C de 2 a 3 minutos, hasta que estén ligeramente dorados y crujientes.",
+     "Escúrrelos sobre papel, colócalos en tazones y vierte el caldo caliente alrededor.",
+     "Cubre con jengibre, daikon, cebollín y hojuelas de bonito y sirve de inmediato."
+    ]
+   },
+   "tips": [
+    "Escurre bien el tofu frito sobre papel de cocina: los rebozados fritos absorben aceite con rapidez.",
+    "Fríelo en una sartén antiadherente con 2 cda. de aceite en lugar de en abundante aceite.",
+    "Acompáñalo con verduras al vapor para una comida ligera."
+   ]
   }
+ }
 }

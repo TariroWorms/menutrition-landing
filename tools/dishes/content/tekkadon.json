@@ -1,160 +1,190 @@
 {
-  "db_key": "tekkadon",
-  "slug": "tekkadon",
-  "emoji": "🍣",
-  "portion_g": 350,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tekkadon",
+ "slug": "tekkadon",
+ "emoji": "🍣",
+ "portion_g": 350,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tekkadon (tuna rice bowl)",
+   "origin": "Japan",
+   "intro": "Tekkadon is a Japanese rice bowl of warm sushi rice topped with slices of glossy raw red tuna, strips of nori and a dab of wasabi, finished with a drizzle of soy sauce. The contrast of warm rice and cool, buttery-soft tuna makes it simple but satisfying. It is a popular quick lunch at fish markets and sushi counters.",
+   "history": "Tekkadon takes its name from the same 'tekka' as the tuna roll, combined with 'don', short for donburi, a rice bowl. It is a standard dish at fish-market eateries and sushi shops across Japan.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "400 g cooked sushi rice",
+     "250 g sashimi-grade tuna, sliced",
+     "1 nori sheet, cut into strips",
+     "Wasabi",
+     "2 tbsp soy sauce",
+     "Rice vinegar, sugar and salt for the rice"
+    ],
+    "steps": [
+     "Season the warm rice with vinegar, sugar and salt.",
+     "Divide the rice between two bowls and scatter over the nori.",
+     "Arrange the tuna slices on top in a fan.",
+     "Add a little wasabi and drizzle with soy sauce just before eating."
+    ]
+   },
+   "tips": [
+    "Use a slightly smaller bed of rice and more tuna for a better protein-to-carb balance.",
+    "Add sliced cucumber or salad on the side for volume.",
+    "Drizzle soy sauce sparingly rather than soaking the rice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tekkadon (tuna rice bowl)",
-      "origin": "Japan",
-      "intro": "Tekkadon is a Japanese rice bowl of warm sushi rice topped with slices of glossy raw red tuna, strips of nori and a dab of wasabi, finished with a drizzle of soy sauce. The contrast of warm rice and cool, buttery-soft tuna makes it simple but satisfying. It is a popular quick lunch at fish markets and sushi counters.",
-      "history": "Tekkadon takes its name from the same 'tekka' as the tuna roll, combined with 'don', short for donburi, a rice bowl. It is a standard dish at fish-market eateries and sushi shops across Japan.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "400 g cooked sushi rice",
-          "250 g sashimi-grade tuna, sliced",
-          "1 nori sheet, cut into strips",
-          "Wasabi",
-          "2 tbsp soy sauce",
-          "Rice vinegar, sugar and salt for the rice"
-        ],
-        "steps": [
-          "Season the warm rice with vinegar, sugar and salt.",
-          "Divide the rice between two bowls and scatter over the nori.",
-          "Arrange the tuna slices on top in a fan.",
-          "Add a little wasabi and drizzle with soy sauce just before eating."
-        ]
-      },
-      "tips": [
-        "Use a slightly smaller bed of rice and more tuna for a better protein-to-carb balance.",
-        "Add sliced cucumber or salad on the side for volume.",
-        "Drizzle soy sauce sparingly rather than soaking the rice."
-      ]
-    },
-    "ar": {
-      "name": "تيكادون (وعاء أرز بالتونة)",
-      "origin": "اليابان",
-      "intro": "تيكادون وعاء أرز ياباني من أرز السوشي الدافئ تعلوه شرائح لامعة من التونة الحمراء النيئة وشرائط النوري وقليل من الوسابي، مع رشة صلصة صويا. التباين بين الأرز الدافئ والتونة الباردة الطرية يجعله بسيطًا ومُرضيًا. وهو غداء سريع شائع في أسواق السمك وعلى طاولات السوشي.",
-      "history": "يأخذ تيكادون اسمه من كلمة «تيكا» نفسها في لفائف التونة، مع «دون» اختصار «دونبوري» أي وعاء الأرز. وهو طبق أساسي في مطاعم أسواق السمك ومحلات السوشي في أنحاء اليابان.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "400 غ أرز سوشي مطبوخ",
-          "250 غ تونة صالحة للأكل نيئة شرائح",
-          "1 ورقة نوري مقطعة شرائط",
-          "وسابي",
-          "2 ملعقة كبيرة صلصة صويا",
-          "خل أرز وسكر وملح للأرز"
-        ],
-        "steps": [
-          "تبّل الأرز الدافئ بالخل والسكر والملح.",
-          "وزّع الأرز في وعاءين وانثر فوقه النوري.",
-          "رتّب شرائح التونة فوقه على شكل مروحة.",
-          "أضف قليلًا من الوسابي ورشّ صلصة الصويا قبل الأكل مباشرة."
-        ]
-      },
-      "tips": [
-        "استخدم كمية أرز أقل قليلًا وتونة أكثر لتوازن أفضل بين البروتين والنشويات.",
-        "أضف شرائح الخيار أو سلطة جانبية لزيادة الحجم.",
-        "رشّ صلصة الصويا باعتدال بدل إغراق الأرز."
-      ]
-    },
-    "it": {
-      "name": "Tekkadon (ciotola di riso al tonno)",
-      "origin": "Giappone",
-      "intro": "Il tekkadon è una ciotola giapponese di riso per sushi caldo, guarnita con fette di tonno rosso crudo lucido, listarelle di nori e un pizzico di wasabi, completata con un filo di salsa di soia. Il contrasto tra il riso caldo e il tonno fresco, morbido come burro, lo rende semplice ma appagante. È un pranzo veloce molto amato nei mercati del pesce e ai banconi di sushi.",
-      "history": "Il tekkadon prende il nome dallo stesso «tekka» del rotolo di tonno, unito a «don», abbreviazione di donburi, ciotola di riso. È un piatto tipico delle trattorie dei mercati del pesce e dei locali di sushi di tutto il Giappone.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "400 g di riso per sushi cotto",
-          "250 g di tonno da sashimi a fette",
-          "1 foglio di nori tagliato a listarelle",
-          "Wasabi",
-          "2 cucchiai di salsa di soia",
-          "Aceto di riso, zucchero e sale per il riso"
-        ],
-        "steps": [
-          "Condisci il riso caldo con aceto, zucchero e sale.",
-          "Dividi il riso in due ciotole e cospargilo di nori.",
-          "Disponi sopra le fette di tonno a ventaglio.",
-          "Aggiungi un po' di wasabi e un filo di salsa di soia appena prima di mangiare."
-        ]
-      },
-      "tips": [
-        "Usa un letto di riso un po' più piccolo e più tonno per un miglior equilibrio tra proteine e carboidrati.",
-        "Aggiungi a lato cetriolo a fette o insalata per dare volume.",
-        "Versa la salsa di soia con parsimonia invece di inzuppare il riso."
-      ]
-    },
-    "el": {
-      "name": "Τεκαντόν (μπολ ρυζιού με τόνο)",
-      "origin": "Ιαπωνία",
-      "intro": "Το τεκαντόν είναι ένα ιαπωνικό μπολ με ζεστό ρύζι για σούσι, με φέτες γυαλιστερού ωμού κόκκινου τόνου, λωρίδες νόρι και λίγο γουασάμπι από πάνω, που ολοκληρώνεται με λίγη σάλτσα σόγιας. Η αντίθεση του ζεστού ρυζιού με τον δροσερό, βουτυρένιο τόνο το κάνει απλό αλλά χορταστικό. Είναι δημοφιλές γρήγορο μεσημεριανό στις ψαραγορές και στους πάγκους σούσι.",
-      "history": "Το τεκαντόν παίρνει το όνομά του από το ίδιο «τέκα» του ρολού τόνου, σε συνδυασμό με το «ντον», σύντομη μορφή του ντονμπούρι, δηλαδή μπολ ρυζιού. Είναι κλασικό πιάτο στα μαγαζάκια των ψαραγορών και στα σουσάδικα όλης της Ιαπωνίας.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "400 γρ. μαγειρεμένο ρύζι για σούσι",
-          "250 γρ. τόνος κατάλληλος για σασίμι, σε φέτες",
-          "1 φύλλο νόρι, σε λωρίδες",
-          "Γουασάμπι",
-          "2 κ.σ. σάλτσα σόγιας",
-          "Ξίδι ρυζιού, ζάχαρη και αλάτι για το ρύζι"
-        ],
-        "steps": [
-          "Αρωματίστε το ζεστό ρύζι με ξίδι, ζάχαρη και αλάτι.",
-          "Μοιράστε το ρύζι σε δύο μπολ και σκορπίστε από πάνω το νόρι.",
-          "Απλώστε τις φέτες τόνου από πάνω σε σχήμα βεντάλιας.",
-          "Προσθέστε λίγο γουασάμπι και περιχύστε με σάλτσα σόγιας λίγο πριν το φάτε."
-        ]
-      },
-      "tips": [
-        "Βάλτε λίγο λιγότερο ρύζι και περισσότερο τόνο για καλύτερη αναλογία πρωτεΐνης και υδατανθράκων.",
-        "Προσθέστε δίπλα αγγούρι σε φέτες ή σαλάτα για όγκο.",
-        "Ρίξτε τη σάλτσα σόγιας με φειδώ αντί να μουσκέψετε το ρύζι."
-      ]
-    },
-    "ru": {
-      "name": "Тэккадон (рисовая миска с тунцом)",
-      "origin": "Япония",
-      "intro": "Тэккадон — японская миска риса: тёплый рис для суши, сверху ломтики глянцевого сырого красного тунца, полоски нори и капля васаби, в завершение — немного соевого соуса. Контраст тёплого риса и прохладного, мягкого, как масло, тунца делает блюдо простым, но очень сытным. Это популярный быстрый обед на рыбных рынках и у суши-стоек.",
-      "history": "Название «тэккадон» складывается из того же слова «тэкка», что и в ролле с тунцом, и «дон» — сокращения от «домбури», миски с рисом. Это обычное блюдо в закусочных на рыбных рынках и в суши-барах по всей Японии.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "400 г варёного риса для суши",
-          "250 г тунца качества сашими, нарезанного ломтиками",
-          "1 лист нори, нарезанный полосками",
-          "Васаби",
-          "2 ст. л. соевого соуса",
-          "Рисовый уксус, сахар и соль для риса"
-        ],
-        "steps": [
-          "Заправьте тёплый рис уксусом, сахаром и солью.",
-          "Разделите рис по двум мискам и посыпьте нори.",
-          "Веером выложите сверху ломтики тунца.",
-          "Добавьте немного васаби и полейте соевым соусом непосредственно перед едой."
-        ]
-      },
-      "tips": [
-        "Берите чуть меньше риса и больше тунца для лучшего баланса белков и углеводов.",
-        "Подайте рядом нарезанный огурец или салат для объёма.",
-        "Поливайте соевым соусом экономно, а не пропитывайте им рис."
-      ],
-      "name_inline": "тэккадон"
-    }
+  "ar": {
+   "name": "تيكادون (وعاء أرز بالتونة)",
+   "origin": "اليابان",
+   "intro": "تيكادون وعاء أرز ياباني من أرز السوشي الدافئ تعلوه شرائح لامعة من التونة الحمراء النيئة وشرائط النوري وقليل من الوسابي، مع رشة صلصة صويا. التباين بين الأرز الدافئ والتونة الباردة الطرية يجعله بسيطًا ومُرضيًا. وهو غداء سريع شائع في أسواق السمك وعلى طاولات السوشي.",
+   "history": "يأخذ تيكادون اسمه من كلمة «تيكا» نفسها في لفائف التونة، مع «دون» اختصار «دونبوري» أي وعاء الأرز. وهو طبق أساسي في مطاعم أسواق السمك ومحلات السوشي في أنحاء اليابان.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "400 غ أرز سوشي مطبوخ",
+     "250 غ تونة صالحة للأكل نيئة شرائح",
+     "1 ورقة نوري مقطعة شرائط",
+     "وسابي",
+     "2 ملعقة كبيرة صلصة صويا",
+     "خل أرز وسكر وملح للأرز"
+    ],
+    "steps": [
+     "تبّل الأرز الدافئ بالخل والسكر والملح.",
+     "وزّع الأرز في وعاءين وانثر فوقه النوري.",
+     "رتّب شرائح التونة فوقه على شكل مروحة.",
+     "أضف قليلًا من الوسابي ورشّ صلصة الصويا قبل الأكل مباشرة."
+    ]
+   },
+   "tips": [
+    "استخدم كمية أرز أقل قليلًا وتونة أكثر لتوازن أفضل بين البروتين والنشويات.",
+    "أضف شرائح الخيار أو سلطة جانبية لزيادة الحجم.",
+    "رشّ صلصة الصويا باعتدال بدل إغراق الأرز."
+   ]
+  },
+  "it": {
+   "name": "Tekkadon (ciotola di riso al tonno)",
+   "origin": "Giappone",
+   "intro": "Il tekkadon è una ciotola giapponese di riso per sushi caldo, guarnita con fette di tonno rosso crudo lucido, listarelle di nori e un pizzico di wasabi, completata con un filo di salsa di soia. Il contrasto tra il riso caldo e il tonno fresco, morbido come burro, lo rende semplice ma appagante. È un pranzo veloce molto amato nei mercati del pesce e ai banconi di sushi.",
+   "history": "Il tekkadon prende il nome dallo stesso «tekka» del rotolo di tonno, unito a «don», abbreviazione di donburi, ciotola di riso. È un piatto tipico delle trattorie dei mercati del pesce e dei locali di sushi di tutto il Giappone.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "400 g di riso per sushi cotto",
+     "250 g di tonno da sashimi a fette",
+     "1 foglio di nori tagliato a listarelle",
+     "Wasabi",
+     "2 cucchiai di salsa di soia",
+     "Aceto di riso, zucchero e sale per il riso"
+    ],
+    "steps": [
+     "Condisci il riso caldo con aceto, zucchero e sale.",
+     "Dividi il riso in due ciotole e cospargilo di nori.",
+     "Disponi sopra le fette di tonno a ventaglio.",
+     "Aggiungi un po' di wasabi e un filo di salsa di soia appena prima di mangiare."
+    ]
+   },
+   "tips": [
+    "Usa un letto di riso un po' più piccolo e più tonno per un miglior equilibrio tra proteine e carboidrati.",
+    "Aggiungi a lato cetriolo a fette o insalata per dare volume.",
+    "Versa la salsa di soia con parsimonia invece di inzuppare il riso."
+   ]
+  },
+  "el": {
+   "name": "Τεκαντόν (μπολ ρυζιού με τόνο)",
+   "origin": "Ιαπωνία",
+   "intro": "Το τεκαντόν είναι ένα ιαπωνικό μπολ με ζεστό ρύζι για σούσι, με φέτες γυαλιστερού ωμού κόκκινου τόνου, λωρίδες νόρι και λίγο γουασάμπι από πάνω, που ολοκληρώνεται με λίγη σάλτσα σόγιας. Η αντίθεση του ζεστού ρυζιού με τον δροσερό, βουτυρένιο τόνο το κάνει απλό αλλά χορταστικό. Είναι δημοφιλές γρήγορο μεσημεριανό στις ψαραγορές και στους πάγκους σούσι.",
+   "history": "Το τεκαντόν παίρνει το όνομά του από το ίδιο «τέκα» του ρολού τόνου, σε συνδυασμό με το «ντον», σύντομη μορφή του ντονμπούρι, δηλαδή μπολ ρυζιού. Είναι κλασικό πιάτο στα μαγαζάκια των ψαραγορών και στα σουσάδικα όλης της Ιαπωνίας.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "400 γρ. μαγειρεμένο ρύζι για σούσι",
+     "250 γρ. τόνος κατάλληλος για σασίμι, σε φέτες",
+     "1 φύλλο νόρι, σε λωρίδες",
+     "Γουασάμπι",
+     "2 κ.σ. σάλτσα σόγιας",
+     "Ξίδι ρυζιού, ζάχαρη και αλάτι για το ρύζι"
+    ],
+    "steps": [
+     "Αρωματίστε το ζεστό ρύζι με ξίδι, ζάχαρη και αλάτι.",
+     "Μοιράστε το ρύζι σε δύο μπολ και σκορπίστε από πάνω το νόρι.",
+     "Απλώστε τις φέτες τόνου από πάνω σε σχήμα βεντάλιας.",
+     "Προσθέστε λίγο γουασάμπι και περιχύστε με σάλτσα σόγιας λίγο πριν το φάτε."
+    ]
+   },
+   "tips": [
+    "Βάλτε λίγο λιγότερο ρύζι και περισσότερο τόνο για καλύτερη αναλογία πρωτεΐνης και υδατανθράκων.",
+    "Προσθέστε δίπλα αγγούρι σε φέτες ή σαλάτα για όγκο.",
+    "Ρίξτε τη σάλτσα σόγιας με φειδώ αντί να μουσκέψετε το ρύζι."
+   ]
+  },
+  "ru": {
+   "name": "Тэккадон (рисовая миска с тунцом)",
+   "origin": "Япония",
+   "intro": "Тэккадон — японская миска риса: тёплый рис для суши, сверху ломтики глянцевого сырого красного тунца, полоски нори и капля васаби, в завершение — немного соевого соуса. Контраст тёплого риса и прохладного, мягкого, как масло, тунца делает блюдо простым, но очень сытным. Это популярный быстрый обед на рыбных рынках и у суши-стоек.",
+   "history": "Название «тэккадон» складывается из того же слова «тэкка», что и в ролле с тунцом, и «дон» — сокращения от «домбури», миски с рисом. Это обычное блюдо в закусочных на рыбных рынках и в суши-барах по всей Японии.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "400 г варёного риса для суши",
+     "250 г тунца качества сашими, нарезанного ломтиками",
+     "1 лист нори, нарезанный полосками",
+     "Васаби",
+     "2 ст. л. соевого соуса",
+     "Рисовый уксус, сахар и соль для риса"
+    ],
+    "steps": [
+     "Заправьте тёплый рис уксусом, сахаром и солью.",
+     "Разделите рис по двум мискам и посыпьте нори.",
+     "Веером выложите сверху ломтики тунца.",
+     "Добавьте немного васаби и полейте соевым соусом непосредственно перед едой."
+    ]
+   },
+   "tips": [
+    "Берите чуть меньше риса и больше тунца для лучшего баланса белков и углеводов.",
+    "Подайте рядом нарезанный огурец или салат для объёма.",
+    "Поливайте соевым соусом экономно, а не пропитывайте им рис."
+   ],
+   "name_inline": "тэккадон"
+  },
+  "es": {
+   "name": "Tekkadon (bowl de arroz con atún)",
+   "origin": "Japón",
+   "intro": "El tekkadon es un bowl japonés de arroz de sushi tibio cubierto con láminas de atún rojo crudo y brillante, tiras de nori y un toque de wasabi, rematado con un chorrito de salsa de soya. El contraste entre el arroz tibio y el atún fresco y mantecoso lo hace sencillo pero muy satisfactorio. Es un almuerzo rápido muy popular en los mercados de pescado y las barras de sushi.",
+   "history": "El tekkadon toma su nombre del mismo «tekka» del rollo de atún, unido a «don», abreviatura de donburi, un bowl de arroz. Es un plato habitual en los locales de los mercados de pescado y en las tiendas de sushi de todo Japón.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "400 g de arroz de sushi cocido",
+     "250 g de atún apto para sashimi, en láminas",
+     "1 hoja de nori, cortada en tiras",
+     "Wasabi",
+     "2 cdas. de salsa de soya",
+     "Vinagre de arroz, azúcar y sal para el arroz"
+    ],
+    "steps": [
+     "Sazona el arroz tibio con el vinagre, el azúcar y la sal.",
+     "Reparte el arroz en dos bowls y espolvorea el nori.",
+     "Acomoda las láminas de atún encima en abanico.",
+     "Agrega un poco de wasabi y rocía con salsa de soya justo antes de comer."
+    ]
+   },
+   "tips": [
+    "Usa una cama de arroz algo más pequeña y más atún para equilibrar mejor proteína y carbohidratos.",
+    "Acompaña con pepino en rodajas o una ensalada para dar volumen.",
+    "Rocía la salsa de soya con moderación en lugar de empapar el arroz."
+   ],
+   "name_inline": "el tekkadon"
   }
+ }
 }

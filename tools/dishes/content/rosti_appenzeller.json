@@ -1,170 +1,202 @@
 {
-  "db_key": "rosti_appenzeller",
-  "slug": "rosti-appenzeller",
-  "emoji": "🧀",
-  "portion_g": 250,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "rosti_appenzeller",
+ "slug": "rosti-appenzeller",
+ "emoji": "🧀",
+ "portion_g": 250,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Rösti with Appenzeller",
+   "origin": "Switzerland · Appenzell",
+   "intro": "This rösti is finished with Appenzeller, the spicy, pungent cheese from north-eastern Switzerland, and sweet softened onion. Crisp golden potato meets a melting, strongly aromatic layer of cheese. It is a hearty mountain-style dish served on its own or with a green salad.",
+   "history": "Rösti is traditionally linked to the canton of Bern, where it is often said to have been a farmers' breakfast of grated potatoes fried in butter. It later became a Swiss national dish, and the 'Röstigraben' (rösti ditch) is a popular nickname for the cultural line between German- and French-speaking Switzerland.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g waxy potatoes",
+     "100 g Appenzeller, grated",
+     "1 onion, thinly sliced",
+     "30 g butter",
+     "1 tsp salt",
+     "Black pepper to taste"
+    ],
+    "steps": [
+     "Boil the potatoes in their skins for 10 minutes, cool completely (ideally overnight), then peel and coarsely grate.",
+     "Season the grated potato with salt and pepper.",
+     "Soften the onion in a little of the butter for 5 minutes and mix it into the potato.",
+     "Melt half the butter in a 24 cm non-stick pan over medium heat, add the potato and press into a flat cake.",
+     "Cook 12–15 minutes until golden underneath, flip with the help of a plate, add the remaining butter and cook another 10–12 minutes.",
+     "Scatter the cheese over the top, cover and leave 2–3 minutes until melted."
+    ]
+   },
+   "tips": [
+    "1 tbsp butter ≈ 100 kcal — use a non-stick pan and brush on a thin layer instead of a generous knob.",
+    "Use 50 g of a well-aged Appenzeller instead of 100 g — a stronger cheese gives the same flavour with less.",
+    "Pair it with a big green salad and keep the rösti portion to about 200 g."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Rösti with Appenzeller",
-      "origin": "Switzerland · Appenzell",
-      "intro": "This rösti is finished with Appenzeller, the spicy, pungent cheese from north-eastern Switzerland, and sweet softened onion. Crisp golden potato meets a melting, strongly aromatic layer of cheese. It is a hearty mountain-style dish served on its own or with a green salad.",
-      "history": "Rösti is traditionally linked to the canton of Bern, where it is often said to have been a farmers' breakfast of grated potatoes fried in butter. It later became a Swiss national dish, and the 'Röstigraben' (rösti ditch) is a popular nickname for the cultural line between German- and French-speaking Switzerland.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 g waxy potatoes",
-          "100 g Appenzeller, grated",
-          "1 onion, thinly sliced",
-          "30 g butter",
-          "1 tsp salt",
-          "Black pepper to taste"
-        ],
-        "steps": [
-          "Boil the potatoes in their skins for 10 minutes, cool completely (ideally overnight), then peel and coarsely grate.",
-          "Season the grated potato with salt and pepper.",
-          "Soften the onion in a little of the butter for 5 minutes and mix it into the potato.",
-          "Melt half the butter in a 24 cm non-stick pan over medium heat, add the potato and press into a flat cake.",
-          "Cook 12–15 minutes until golden underneath, flip with the help of a plate, add the remaining butter and cook another 10–12 minutes.",
-          "Scatter the cheese over the top, cover and leave 2–3 minutes until melted."
-        ]
-      },
-      "tips": [
-        "1 tbsp butter ≈ 100 kcal — use a non-stick pan and brush on a thin layer instead of a generous knob.",
-        "Use 50 g of a well-aged Appenzeller instead of 100 g — a stronger cheese gives the same flavour with less.",
-        "Pair it with a big green salad and keep the rösti portion to about 200 g."
-      ]
-    },
-    "ar": {
-      "name": "روستي بجبن أبينزيلر",
-      "origin": "سويسرا · أبينزل",
-      "intro": "روستي يُكمَّل بجبن أبينزيلر، الجبن الحاد والقوي الرائحة من شمال شرق سويسرا، مع بصل طري حلو المذاق. تلتقي البطاطا الذهبية المقرمشة بطبقة جبن ذائبة عطرية النكهة. طبق جبلي مشبع يُقدّم وحده أو مع سلطة خضراء.",
-      "history": "يرتبط الروستي تقليدياً بكانتون برن، حيث يُقال إنه كان فطوراً للمزارعين من البطاطا المبشورة المقلية بالزبدة. ثم صار طبقاً وطنياً سويسرياً، ويُطلق على الحدّ الثقافي بين المناطق الناطقة بالألمانية والفرنسية في سويسرا اسم «خندق الروستي» على سبيل الدعابة.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 غ بطاطا متماسكة",
-          "100 غ جبن أبينزيلر مبشور",
-          "بصلة واحدة مقطعة شرائح رقيقة",
-          "30 غ زبدة",
-          "1 ملعقة صغيرة ملح",
-          "فلفل أسود حسب الرغبة"
-        ],
-        "steps": [
-          "اسلق البطاطا بقشرها 10 دقائق، ثم بردها تماماً (ويُفضّل ليلة كاملة)، ثم قشّرها وابشرها بشراً خشناً.",
-          "تبّل البطاطا المبشورة بالملح والفلفل.",
-          "ليّن البصل في قليل من الزبدة 5 دقائق واخلطه مع البطاطا.",
-          "ذوّب نصف الزبدة في مقلاة غير لاصقة قطرها 24 سم على نار متوسطة، وأضف البطاطا واضغطها لتصبح قرصاً مسطحاً.",
-          "اطهها 12–15 دقيقة حتى يصبح أسفلها ذهبياً، ثم اقلبها بمساعدة طبق، وأضف بقية الزبدة واطهها 10–12 دقيقة أخرى.",
-          "انثر الجبن على الوجه، وغطِّ المقلاة واتركها 2–3 دقائق حتى يذوب."
-        ]
-      },
-      "tips": [
-        "ملعقة كبيرة من الزبدة ≈ 100 سعرة — استخدم مقلاة غير لاصقة وادهنها بطبقة رقيقة بدل كمية كبيرة.",
-        "استخدم 50 غ من جبن أبينزيلر المعتّق بدل 100 غ — الجبن الأقوى يعطي النكهة نفسها بكمية أقل.",
-        "قدّمه مع سلطة خضراء كبيرة واجعل حصة الروستي نحو 200 غ."
-      ]
-    },
-    "it": {
-      "name": "Rösti con Appenzeller",
-      "origin": "Svizzera · Appenzello",
-      "intro": "Questo rösti è completato con l'Appenzeller, il formaggio speziato e pungente della Svizzera nord-orientale, e con cipolla dolce appassita. La patata croccante e dorata incontra uno strato di formaggio fondente e fortemente aromatico. È un piatto sostanzioso di montagna, servito da solo o con un'insalata verde.",
-      "history": "Il rösti è tradizionalmente legato al cantone di Berna, dove si dice spesso che fosse la colazione dei contadini a base di patate grattugiate fritte nel burro. In seguito è diventato un piatto nazionale svizzero, e «Röstigraben» (fossato del rösti) è un soprannome popolare per il confine culturale tra la Svizzera tedesca e quella francese.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 g di patate a pasta soda",
-          "100 g di Appenzeller, grattugiato",
-          "1 cipolla, affettata sottile",
-          "30 g di burro",
-          "1 cucchiaino di sale",
-          "Pepe nero a piacere"
-        ],
-        "steps": [
-          "Lessa le patate con la buccia per 10 minuti, falle raffreddare completamente (meglio se per una notte), poi pelale e grattugiale grossolanamente.",
-          "Condisci le patate grattugiate con sale e pepe.",
-          "Fai appassire la cipolla in un po' del burro per 5 minuti e incorporala alle patate.",
-          "Sciogli metà del burro in una padella antiaderente da 24 cm a fuoco medio, aggiungi le patate e pressale formando un disco piatto.",
-          "Cuoci 12–15 minuti finché il fondo è dorato, giralo aiutandoti con un piatto, aggiungi il burro rimasto e cuoci altri 10–12 minuti.",
-          "Distribuisci il formaggio sulla superficie, copri e lascia 2–3 minuti finché si scioglie."
-        ]
-      },
-      "tips": [
-        "1 cucchiaio di burro ≈ 100 kcal: usa una padella antiaderente e spennella uno strato sottile invece di una noce generosa.",
-        "Usa 50 g di Appenzeller ben stagionato invece di 100 g: un formaggio più deciso dà lo stesso sapore con una quantità minore.",
-        "Abbinalo a una grande insalata verde e limita la porzione di rösti a circa 200 g."
-      ]
-    },
-    "el": {
-      "name": "Ρέστι με άπεντσελερ",
-      "origin": "Ελβετία · Άπεντσελ",
-      "intro": "Αυτό το ρέστι ολοκληρώνεται με άπεντσελερ (Appenzeller), το πικάντικο, έντονο τυρί της βορειοανατολικής Ελβετίας, και με γλυκό μαλακωμένο κρεμμύδι. Η τραγανή χρυσαφένια πατάτα συναντά ένα λιωμένο, έντονα αρωματικό στρώμα τυριού. Είναι χορταστικό ορεινό πιάτο που σερβίρεται σκέτο ή με πράσινη σαλάτα.",
-      "history": "Το ρέστι συνδέεται παραδοσιακά με το καντόνι της Βέρνης, όπου λέγεται συχνά ότι ήταν το πρωινό των αγροτών από τριμμένες πατάτες τηγανισμένες σε βούτυρο. Αργότερα έγινε εθνικό πιάτο της Ελβετίας, και το «Röstigraben» (το χαντάκι του ρέστι) είναι δημοφιλές παρατσούκλι για την πολιτισμική διαχωριστική γραμμή ανάμεσα στη γερμανόφωνη και τη γαλλόφωνη Ελβετία.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 γρ. σφιχτές πατάτες",
-          "100 γρ. άπεντσελερ, τριμμένο",
-          "1 κρεμμύδι, σε λεπτές φέτες",
-          "30 γρ. βούτυρο",
-          "1 κ.γ. αλάτι",
-          "Μαύρο πιπέρι κατά βούληση"
-        ],
-        "steps": [
-          "Βράστε τις πατάτες με τη φλούδα για 10 λεπτά, αφήστε τες να κρυώσουν εντελώς (ιδανικά όλη τη νύχτα), μετά ξεφλουδίστε τες και τρίψτε τες χοντρά.",
-          "Αλατοπιπερώστε την τριμμένη πατάτα.",
-          "Μαλακώστε το κρεμμύδι σε λίγο από το βούτυρο για 5 λεπτά και ανακατέψτε το με την πατάτα.",
-          "Λιώστε το μισό βούτυρο σε αντικολλητικό τηγάνι 24 εκ. σε μέτρια φωτιά, προσθέστε την πατάτα και πιέστε τη σε επίπεδη πίτα.",
-          "Ψήστε 12–15 λεπτά μέχρι να ροδίσει από κάτω, γυρίστε τη με τη βοήθεια ενός πιάτου, προσθέστε το υπόλοιπο βούτυρο και ψήστε άλλα 10–12 λεπτά.",
-          "Σκορπίστε το τυρί από πάνω, σκεπάστε και αφήστε 2–3 λεπτά μέχρι να λιώσει."
-        ]
-      },
-      "tips": [
-        "1 κ.σ. βούτυρο ≈ 100 kcal — χρησιμοποιήστε αντικολλητικό τηγάνι και αλείψτε ένα λεπτό στρώμα αντί για ένα γενναίο κομμάτι.",
-        "Χρησιμοποιήστε 50 γρ. καλά ωριμασμένο άπεντσελερ αντί για 100 γρ. — ένα πιο έντονο τυρί δίνει την ίδια γεύση με λιγότερη ποσότητα.",
-        "Συνδυάστε το με μια μεγάλη πράσινη σαλάτα και κρατήστε τη μερίδα του ρέστι γύρω στα 200 γρ."
-      ]
-    },
-    "ru": {
-      "name": "Рёсти с аппенцеллером",
-      "origin": "Швейцария · Аппенцелль",
-      "intro": "Это рёсти завершается аппенцеллером — острым, пикантным сыром из северо-востока Швейцарии, и сладким мягким луком. Хрустящий золотистый картофель встречается с расплавленным, сильно ароматным слоем сыра. Это сытное горное блюдо, подаваемое самостоятельно или с зелёным салатом.",
-      "history": "Рёсти традиционно связывают с кантоном Берн, где, как часто говорят, это был фермерский завтрак из тёртого картофеля, жаренного на масле. Позже оно стало национальным блюдом Швейцарии, а «Рёстиграбен» («ров рёсти») — популярное название культурной границы между немецко- и франкоговорящей Швейцарией.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 г картофеля восковых сортов",
-          "100 г аппенцеллера, тёртого",
-          "1 луковица, тонко нарезанная",
-          "30 г сливочного масла",
-          "1 ч. л. соли",
-          "Чёрный перец по вкусу"
-        ],
-        "steps": [
-          "Отварите картофель в мундире 10 минут, полностью остудите (лучше на ночь), затем очистите и крупно натрите.",
-          "Приправьте тёртый картофель солью и перцем.",
-          "Обжарьте лук в небольшом количестве масла 5 минут до мягкости и смешайте его с картофелем.",
-          "Растопите половину масла в антипригарной сковороде диаметром 24 см на среднем огне, выложите картофель и прижмите в плоскую лепёшку.",
-          "Готовьте 12–15 минут до золотистой корочки снизу, переверните с помощью тарелки, добавьте оставшееся масло и готовьте ещё 10–12 минут.",
-          "Посыпьте сверху сыром, накройте крышкой и оставьте на 2–3 минуты, пока он не расплавится."
-        ]
-      },
-      "tips": [
-        "1 ст. л. сливочного масла ≈ 100 ккал — используйте антипригарную сковороду и смазывайте тонким слоем вместо щедрого куска.",
-        "Используйте 50 г хорошо выдержанного аппенцеллера вместо 100 г — более выразительный сыр даёт тот же вкус при меньшем количестве.",
-        "Сочетайте с большим зелёным салатом и держите порцию рёсти около 200 г."
-      ],
-      "name_inline": "рёсти с аппенцеллером"
-    }
+  "ar": {
+   "name": "روستي بجبن أبينزيلر",
+   "origin": "سويسرا · أبينزل",
+   "intro": "روستي يُكمَّل بجبن أبينزيلر، الجبن الحاد والقوي الرائحة من شمال شرق سويسرا، مع بصل طري حلو المذاق. تلتقي البطاطا الذهبية المقرمشة بطبقة جبن ذائبة عطرية النكهة. طبق جبلي مشبع يُقدّم وحده أو مع سلطة خضراء.",
+   "history": "يرتبط الروستي تقليدياً بكانتون برن، حيث يُقال إنه كان فطوراً للمزارعين من البطاطا المبشورة المقلية بالزبدة. ثم صار طبقاً وطنياً سويسرياً، ويُطلق على الحدّ الثقافي بين المناطق الناطقة بالألمانية والفرنسية في سويسرا اسم «خندق الروستي» على سبيل الدعابة.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 غ بطاطا متماسكة",
+     "100 غ جبن أبينزيلر مبشور",
+     "بصلة واحدة مقطعة شرائح رقيقة",
+     "30 غ زبدة",
+     "1 ملعقة صغيرة ملح",
+     "فلفل أسود حسب الرغبة"
+    ],
+    "steps": [
+     "اسلق البطاطا بقشرها 10 دقائق، ثم بردها تماماً (ويُفضّل ليلة كاملة)، ثم قشّرها وابشرها بشراً خشناً.",
+     "تبّل البطاطا المبشورة بالملح والفلفل.",
+     "ليّن البصل في قليل من الزبدة 5 دقائق واخلطه مع البطاطا.",
+     "ذوّب نصف الزبدة في مقلاة غير لاصقة قطرها 24 سم على نار متوسطة، وأضف البطاطا واضغطها لتصبح قرصاً مسطحاً.",
+     "اطهها 12–15 دقيقة حتى يصبح أسفلها ذهبياً، ثم اقلبها بمساعدة طبق، وأضف بقية الزبدة واطهها 10–12 دقيقة أخرى.",
+     "انثر الجبن على الوجه، وغطِّ المقلاة واتركها 2–3 دقائق حتى يذوب."
+    ]
+   },
+   "tips": [
+    "ملعقة كبيرة من الزبدة ≈ 100 سعرة — استخدم مقلاة غير لاصقة وادهنها بطبقة رقيقة بدل كمية كبيرة.",
+    "استخدم 50 غ من جبن أبينزيلر المعتّق بدل 100 غ — الجبن الأقوى يعطي النكهة نفسها بكمية أقل.",
+    "قدّمه مع سلطة خضراء كبيرة واجعل حصة الروستي نحو 200 غ."
+   ]
+  },
+  "it": {
+   "name": "Rösti con Appenzeller",
+   "origin": "Svizzera · Appenzello",
+   "intro": "Questo rösti è completato con l'Appenzeller, il formaggio speziato e pungente della Svizzera nord-orientale, e con cipolla dolce appassita. La patata croccante e dorata incontra uno strato di formaggio fondente e fortemente aromatico. È un piatto sostanzioso di montagna, servito da solo o con un'insalata verde.",
+   "history": "Il rösti è tradizionalmente legato al cantone di Berna, dove si dice spesso che fosse la colazione dei contadini a base di patate grattugiate fritte nel burro. In seguito è diventato un piatto nazionale svizzero, e «Röstigraben» (fossato del rösti) è un soprannome popolare per il confine culturale tra la Svizzera tedesca e quella francese.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g di patate a pasta soda",
+     "100 g di Appenzeller, grattugiato",
+     "1 cipolla, affettata sottile",
+     "30 g di burro",
+     "1 cucchiaino di sale",
+     "Pepe nero a piacere"
+    ],
+    "steps": [
+     "Lessa le patate con la buccia per 10 minuti, falle raffreddare completamente (meglio se per una notte), poi pelale e grattugiale grossolanamente.",
+     "Condisci le patate grattugiate con sale e pepe.",
+     "Fai appassire la cipolla in un po' del burro per 5 minuti e incorporala alle patate.",
+     "Sciogli metà del burro in una padella antiaderente da 24 cm a fuoco medio, aggiungi le patate e pressale formando un disco piatto.",
+     "Cuoci 12–15 minuti finché il fondo è dorato, giralo aiutandoti con un piatto, aggiungi il burro rimasto e cuoci altri 10–12 minuti.",
+     "Distribuisci il formaggio sulla superficie, copri e lascia 2–3 minuti finché si scioglie."
+    ]
+   },
+   "tips": [
+    "1 cucchiaio di burro ≈ 100 kcal: usa una padella antiaderente e spennella uno strato sottile invece di una noce generosa.",
+    "Usa 50 g di Appenzeller ben stagionato invece di 100 g: un formaggio più deciso dà lo stesso sapore con una quantità minore.",
+    "Abbinalo a una grande insalata verde e limita la porzione di rösti a circa 200 g."
+   ]
+  },
+  "el": {
+   "name": "Ρέστι με άπεντσελερ",
+   "origin": "Ελβετία · Άπεντσελ",
+   "intro": "Αυτό το ρέστι ολοκληρώνεται με άπεντσελερ (Appenzeller), το πικάντικο, έντονο τυρί της βορειοανατολικής Ελβετίας, και με γλυκό μαλακωμένο κρεμμύδι. Η τραγανή χρυσαφένια πατάτα συναντά ένα λιωμένο, έντονα αρωματικό στρώμα τυριού. Είναι χορταστικό ορεινό πιάτο που σερβίρεται σκέτο ή με πράσινη σαλάτα.",
+   "history": "Το ρέστι συνδέεται παραδοσιακά με το καντόνι της Βέρνης, όπου λέγεται συχνά ότι ήταν το πρωινό των αγροτών από τριμμένες πατάτες τηγανισμένες σε βούτυρο. Αργότερα έγινε εθνικό πιάτο της Ελβετίας, και το «Röstigraben» (το χαντάκι του ρέστι) είναι δημοφιλές παρατσούκλι για την πολιτισμική διαχωριστική γραμμή ανάμεσα στη γερμανόφωνη και τη γαλλόφωνη Ελβετία.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 γρ. σφιχτές πατάτες",
+     "100 γρ. άπεντσελερ, τριμμένο",
+     "1 κρεμμύδι, σε λεπτές φέτες",
+     "30 γρ. βούτυρο",
+     "1 κ.γ. αλάτι",
+     "Μαύρο πιπέρι κατά βούληση"
+    ],
+    "steps": [
+     "Βράστε τις πατάτες με τη φλούδα για 10 λεπτά, αφήστε τες να κρυώσουν εντελώς (ιδανικά όλη τη νύχτα), μετά ξεφλουδίστε τες και τρίψτε τες χοντρά.",
+     "Αλατοπιπερώστε την τριμμένη πατάτα.",
+     "Μαλακώστε το κρεμμύδι σε λίγο από το βούτυρο για 5 λεπτά και ανακατέψτε το με την πατάτα.",
+     "Λιώστε το μισό βούτυρο σε αντικολλητικό τηγάνι 24 εκ. σε μέτρια φωτιά, προσθέστε την πατάτα και πιέστε τη σε επίπεδη πίτα.",
+     "Ψήστε 12–15 λεπτά μέχρι να ροδίσει από κάτω, γυρίστε τη με τη βοήθεια ενός πιάτου, προσθέστε το υπόλοιπο βούτυρο και ψήστε άλλα 10–12 λεπτά.",
+     "Σκορπίστε το τυρί από πάνω, σκεπάστε και αφήστε 2–3 λεπτά μέχρι να λιώσει."
+    ]
+   },
+   "tips": [
+    "1 κ.σ. βούτυρο ≈ 100 kcal — χρησιμοποιήστε αντικολλητικό τηγάνι και αλείψτε ένα λεπτό στρώμα αντί για ένα γενναίο κομμάτι.",
+    "Χρησιμοποιήστε 50 γρ. καλά ωριμασμένο άπεντσελερ αντί για 100 γρ. — ένα πιο έντονο τυρί δίνει την ίδια γεύση με λιγότερη ποσότητα.",
+    "Συνδυάστε το με μια μεγάλη πράσινη σαλάτα και κρατήστε τη μερίδα του ρέστι γύρω στα 200 γρ."
+   ]
+  },
+  "ru": {
+   "name": "Рёсти с аппенцеллером",
+   "origin": "Швейцария · Аппенцелль",
+   "intro": "Это рёсти завершается аппенцеллером — острым, пикантным сыром из северо-востока Швейцарии, и сладким мягким луком. Хрустящий золотистый картофель встречается с расплавленным, сильно ароматным слоем сыра. Это сытное горное блюдо, подаваемое самостоятельно или с зелёным салатом.",
+   "history": "Рёсти традиционно связывают с кантоном Берн, где, как часто говорят, это был фермерский завтрак из тёртого картофеля, жаренного на масле. Позже оно стало национальным блюдом Швейцарии, а «Рёстиграбен» («ров рёсти») — популярное название культурной границы между немецко- и франкоговорящей Швейцарией.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 г картофеля восковых сортов",
+     "100 г аппенцеллера, тёртого",
+     "1 луковица, тонко нарезанная",
+     "30 г сливочного масла",
+     "1 ч. л. соли",
+     "Чёрный перец по вкусу"
+    ],
+    "steps": [
+     "Отварите картофель в мундире 10 минут, полностью остудите (лучше на ночь), затем очистите и крупно натрите.",
+     "Приправьте тёртый картофель солью и перцем.",
+     "Обжарьте лук в небольшом количестве масла 5 минут до мягкости и смешайте его с картофелем.",
+     "Растопите половину масла в антипригарной сковороде диаметром 24 см на среднем огне, выложите картофель и прижмите в плоскую лепёшку.",
+     "Готовьте 12–15 минут до золотистой корочки снизу, переверните с помощью тарелки, добавьте оставшееся масло и готовьте ещё 10–12 минут.",
+     "Посыпьте сверху сыром, накройте крышкой и оставьте на 2–3 минуты, пока он не расплавится."
+    ]
+   },
+   "tips": [
+    "1 ст. л. сливочного масла ≈ 100 ккал — используйте антипригарную сковороду и смазывайте тонким слоем вместо щедрого куска.",
+    "Используйте 50 г хорошо выдержанного аппенцеллера вместо 100 г — более выразительный сыр даёт тот же вкус при меньшем количестве.",
+    "Сочетайте с большим зелёным салатом и держите порцию рёсти около 200 г."
+   ],
+   "name_inline": "рёсти с аппенцеллером"
+  },
+  "es": {
+   "name": "Rösti con Appenzeller",
+   "origin": "Suiza · Appenzell",
+   "intro": "Este rösti se termina con Appenzeller, el queso picante y de aroma intenso del noreste de Suiza, y con cebolla dulce y blanda. La papa dorada y crujiente se encuentra con una capa de queso fundido muy aromático. Es un plato contundente de montaña que se sirve solo o con una ensalada verde.",
+   "history": "El rösti se asocia tradicionalmente con el cantón de Berna, donde se suele decir que era el desayuno de los campesinos: papas ralladas fritas en mantequilla. Después se convirtió en plato nacional suizo, y el «Röstigraben» (la «zanja del rösti») es un apodo popular para la frontera cultural entre la Suiza de habla alemana y la francófona.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g de papas de pulpa firme",
+     "100 g de Appenzeller, rallado",
+     "1 cebolla, en rodajas finas",
+     "30 g de mantequilla",
+     "1 cdta. de sal",
+     "Pimienta negra al gusto"
+    ],
+    "steps": [
+     "Hierve las papas con piel 10 minutos, déjalas enfriar por completo (lo ideal es de un día para otro), pélalas y ralla gruesas.",
+     "Sazona la papa rallada con sal y pimienta.",
+     "Ablanda la cebolla en un poco de la mantequilla durante 5 minutos y mézclala con la papa.",
+     "Derrite la mitad de la mantequilla en una sartén antiadherente de 24 cm a fuego medio, añade la papa y presiona hasta formar una torta plana.",
+     "Cocina de 12 a 15 minutos hasta que se dore por debajo, voltea ayudándote de un plato, añade el resto de la mantequilla y cocina otros 10–12 minutos.",
+     "Reparte el queso por encima, tapa y deja 2–3 minutos hasta que se derrita."
+    ]
+   },
+   "tips": [
+    "1 cda. de mantequilla ≈ 100 kcal: usa una sartén antiadherente y unta una capa fina en lugar de una nuez generosa.",
+    "Usa 50 g de un Appenzeller bien curado en lugar de 100 g: un queso más fuerte da el mismo sabor con menos cantidad.",
+    "Acompáñalo con una ensalada verde abundante y limita el rösti a unos 200 g."
+   ],
+   "name_inline": "el rösti con Appenzeller"
   }
+ }
 }

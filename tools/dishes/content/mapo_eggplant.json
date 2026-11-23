@@ -1,179 +1,213 @@
 {
-  "db_key": "mapo_eggplant",
-  "slug": "mapo-eggplant",
-  "emoji": "🍆",
-  "portion_g": 250,
-  "country": "CN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mapo_eggplant",
+ "slug": "mapo-eggplant",
+ "emoji": "🍆",
+ "portion_g": 250,
+ "country": "CN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mapo eggplant",
+   "origin": "China · Sichuan",
+   "intro": "Mapo eggplant borrows the sauce of mapo tofu and pours it over soft eggplant. Strips of eggplant are stir-fried until silky, then tossed with ground pork, fermented chili bean paste (doubanjiang), garlic and ginger. The result is spicy, savoury and glossy, with the eggplant soaking up the red sauce. It is eaten with steamed rice as part of a shared meal.",
+   "history": "The dish is a home-style variation on mapo tofu, the Sichuan classic, using eggplant in place of tofu with the same pork and chili bean sauce. It is cooked across Sichuan and in Chinese restaurants abroad.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 30,
+    "ingredients": [
+     "500 g eggplant, cut into thick strips",
+     "150 g ground pork",
+     "1½ tbsp doubanjiang (chili bean paste)",
+     "3 garlic cloves, chopped",
+     "1 tbsp fresh ginger, chopped",
+     "2 tbsp vegetable oil",
+     "120 ml water",
+     "1 tsp cornstarch mixed with 1 tbsp water",
+     "Sliced spring onion to serve"
+    ],
+    "steps": [
+     "Salt the eggplant strips for 10 minutes, then pat them dry.",
+     "Stir-fry the eggplant in 1 tbsp oil over high heat until soft and lightly browned; set aside.",
+     "Add the remaining oil, fry the pork until browned, then add the doubanjiang, garlic and ginger and fry for 1 minute.",
+     "Pour in the water, return the eggplant and simmer for 3–4 minutes.",
+     "Stir in the cornstarch mixture until the sauce turns glossy; top with spring onion."
+    ]
+   },
+   "tips": [
+    "Steam or microwave the eggplant first instead of frying it — eggplant soaks up oil fast, and 1 tbsp oil ≈ 120 kcal.",
+    "Use lean ground pork or halve the meat and add more eggplant.",
+    "Serve with a small bowl of rice and a plain green vegetable to keep the meal balanced."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mapo eggplant",
-      "origin": "China · Sichuan",
-      "intro": "Mapo eggplant borrows the sauce of mapo tofu and pours it over soft eggplant. Strips of eggplant are stir-fried until silky, then tossed with ground pork, fermented chili bean paste (doubanjiang), garlic and ginger. The result is spicy, savoury and glossy, with the eggplant soaking up the red sauce. It is eaten with steamed rice as part of a shared meal.",
-      "history": "The dish is a home-style variation on mapo tofu, the Sichuan classic, using eggplant in place of tofu with the same pork and chili bean sauce. It is cooked across Sichuan and in Chinese restaurants abroad.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 30,
-        "ingredients": [
-          "500 g eggplant, cut into thick strips",
-          "150 g ground pork",
-          "1½ tbsp doubanjiang (chili bean paste)",
-          "3 garlic cloves, chopped",
-          "1 tbsp fresh ginger, chopped",
-          "2 tbsp vegetable oil",
-          "120 ml water",
-          "1 tsp cornstarch mixed with 1 tbsp water",
-          "Sliced spring onion to serve"
-        ],
-        "steps": [
-          "Salt the eggplant strips for 10 minutes, then pat them dry.",
-          "Stir-fry the eggplant in 1 tbsp oil over high heat until soft and lightly browned; set aside.",
-          "Add the remaining oil, fry the pork until browned, then add the doubanjiang, garlic and ginger and fry for 1 minute.",
-          "Pour in the water, return the eggplant and simmer for 3–4 minutes.",
-          "Stir in the cornstarch mixture until the sauce turns glossy; top with spring onion."
-        ]
-      },
-      "tips": [
-        "Steam or microwave the eggplant first instead of frying it — eggplant soaks up oil fast, and 1 tbsp oil ≈ 120 kcal.",
-        "Use lean ground pork or halve the meat and add more eggplant.",
-        "Serve with a small bowl of rice and a plain green vegetable to keep the meal balanced."
-      ]
-    },
-    "ar": {
-      "name": "باذنجان مابو",
-      "origin": "الصين · سيتشوان",
-      "intro": "باذنجان مابو يستعير صلصة توفو مابو ويصبّها على الباذنجان الطري. تُقلّب شرائح الباذنجان على نار عالية حتى تصبح ناعمة، ثم تُمزج مع لحم خنزير مفروم ومعجون الفول والفلفل المخمّر (دوبانجيانغ) والثوم والزنجبيل. النتيجة طبق حار ومالح ولامع يتشرّب فيه الباذنجان الصلصة الحمراء، ويؤكل مع الأرز المطهو على البخار ضمن وجبة مشتركة.",
-      "history": "هذا الطبق تنويعة منزلية على توفو مابو، الطبق الكلاسيكي من سيتشوان، يحلّ فيه الباذنجان محلّ التوفو مع الصلصة نفسها من اللحم ومعجون الفلفل. ويُطهى في أنحاء سيتشوان وفي المطاعم الصينية حول العالم.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 30,
-        "ingredients": [
-          "500 غ باذنجان مقطّع أصابع سميكة",
-          "150 غ لحم خنزير مفروم",
-          "1.5 ملعقة كبيرة دوبانجيانغ (معجون الفلفل والفول)",
-          "3 فصوص ثوم مفرومة",
-          "1 ملعقة كبيرة زنجبيل طازج مفروم",
-          "2 ملعقة كبيرة زيت نباتي",
-          "120 مل ماء",
-          "1 ملعقة صغيرة نشا ذرة مذابة في 1 ملعقة كبيرة ماء",
-          "بصل أخضر مقطّع للتقديم"
-        ],
-        "steps": [
-          "رشّ الباذنجان بالملح واتركه 10 دقائق ثم جفّفه.",
-          "قلّب الباذنجان في ملعقة زيت على نار عالية حتى يلين ويتحمّر قليلًا، ثم ارفعه جانبًا.",
-          "أضف بقية الزيت وحمّر اللحم، ثم أضف الدوبانجيانغ والثوم والزنجبيل وقلّب دقيقة.",
-          "صبّ الماء وأعد الباذنجان واتركه يغلي بهدوء 3–4 دقائق.",
-          "أضف خليط النشا وقلّب حتى تلمع الصلصة، وزيّن بالبصل الأخضر."
-        ]
-      },
-      "tips": [
-        "اطهُ الباذنجان على البخار أو في الميكروويف أولًا بدل قليه، فهو يمتصّ الزيت بسرعة — ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "استخدم لحمًا قليل الدهن أو قلّل كمية اللحم إلى النصف وزد الباذنجان.",
-        "قدّمه مع وعاء صغير من الأرز وخضار ورقية بسيطة لتوازن الوجبة."
-      ]
-    },
-    "it": {
-      "name": "Melanzane mapo",
-      "origin": "Cina · Sichuan",
-      "intro": "Le melanzane mapo prendono in prestito la salsa del mapo tofu e la versano su melanzane morbide. Le melanzane a listarelle vengono saltate finché diventano setose, poi mescolate con carne macinata di maiale, pasta di fave e peperoncino fermentata (doubanjiang), aglio e zenzero. Il risultato è piccante, sapido e lucido, con le melanzane che assorbono la salsa rossa. Si mangiano con riso al vapore come parte di un pasto condiviso.",
-      "history": "Il piatto è una variante casalinga del mapo tofu, il classico del Sichuan, che usa le melanzane al posto del tofu con la stessa salsa di maiale e pasta di fave e peperoncino. Si prepara in tutto il Sichuan e nei ristoranti cinesi all'estero.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 30,
-        "ingredients": [
-          "500 g di melanzane, tagliate a listarelle spesse",
-          "150 g di carne macinata di maiale",
-          "1½ cucchiai di doubanjiang (pasta di fave e peperoncino)",
-          "3 spicchi d'aglio, tritati",
-          "1 cucchiaio di zenzero fresco, tritato",
-          "2 cucchiai di olio vegetale",
-          "120 ml di acqua",
-          "1 cucchiaino di amido di mais sciolto in 1 cucchiaio d'acqua",
-          "Cipollotto a rondelle per servire"
-        ],
-        "steps": [
-          "Sala le listarelle di melanzana per 10 minuti, poi tamponale per asciugarle.",
-          "Salta le melanzane in 1 cucchiaio di olio a fuoco vivo finché sono morbide e leggermente dorate; tienile da parte.",
-          "Aggiungi l'olio rimasto, rosola il maiale, poi unisci il doubanjiang, l'aglio e lo zenzero e fai soffriggere per 1 minuto.",
-          "Versa l'acqua, rimetti le melanzane e fai sobbollire per 3–4 minuti.",
-          "Incorpora l'amido sciolto finché la salsa diventa lucida; completa con il cipollotto."
-        ]
-      },
-      "tips": [
-        "Cuoci prima le melanzane al vapore o nel microonde invece di friggerle: le melanzane assorbono l'olio in fretta, e 1 cucchiaio di olio ≈ 120 kcal.",
-        "Usa maiale macinato magro oppure dimezza la carne e aggiungi più melanzane.",
-        "Servi con una ciotolina di riso e una verdura verde semplice per un pasto equilibrato."
-      ]
-    },
-    "el": {
-      "name": "Μελιτζάνες μάπο",
-      "origin": "Κίνα · Σετσουάν",
-      "intro": "Οι μελιτζάνες μάπο δανείζονται τη σάλτσα του μάπο τόφου και τη ρίχνουν πάνω σε μαλακή μελιτζάνα. Λωρίδες μελιτζάνας σοτάρονται μέχρι να γίνουν μεταξένιες και ανακατεύονται με χοιρινό κιμά, ζυμωμένη πάστα από κουκιά και τσίλι (ντουπαντζιάνγκ), σκόρδο και τζίντζερ. Το αποτέλεσμα είναι πικάντικο, γευστικό και γυαλιστερό, με τη μελιτζάνα να ρουφάει την κόκκινη σάλτσα. Τρώγεται με ρύζι στον ατμό ως μέρος ενός κοινού γεύματος.",
-      "history": "Το πιάτο είναι μια σπιτική παραλλαγή του μάπο τόφου, του κλασικού πιάτου του Σετσουάν, με μελιτζάνα στη θέση του τόφου και την ίδια σάλτσα με χοιρινό και πάστα κουκιών με τσίλι. Μαγειρεύεται σε όλο το Σετσουάν και στα κινέζικα εστιατόρια του εξωτερικού.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 30,
-        "ingredients": [
-          "500 γρ. μελιτζάνα, κομμένη σε χοντρές λωρίδες",
-          "150 γρ. χοιρινός κιμάς",
-          "1½ κ.σ. ντουπαντζιάνγκ (πάστα κουκιών με τσίλι)",
-          "3 σκελίδες σκόρδο, ψιλοκομμένες",
-          "1 κ.σ. φρέσκο τζίντζερ, ψιλοκομμένο",
-          "2 κ.σ. φυτικό λάδι",
-          "120 ml νερό",
-          "1 κ.γ. κορν φλάουρ διαλυμένο σε 1 κ.σ. νερό",
-          "Φρέσκο κρεμμυδάκι σε ροδέλες για το σερβίρισμα"
-        ],
-        "steps": [
-          "Αλατίστε τις λωρίδες μελιτζάνας για 10 λεπτά και στεγνώστε τες με χαρτί.",
-          "Σοτάρετε τη μελιτζάνα σε 1 κ.σ. λάδι σε δυνατή φωτιά μέχρι να μαλακώσει και να ροδίσει ελαφρά· βάλτε την στην άκρη.",
-          "Προσθέστε το υπόλοιπο λάδι, ροδίστε το χοιρινό, μετά προσθέστε το ντουπαντζιάνγκ, το σκόρδο και το τζίντζερ και τσιγαρίστε για 1 λεπτό.",
-          "Ρίξτε το νερό, επιστρέψτε τη μελιτζάνα και σιγοβράστε για 3–4 λεπτά.",
-          "Ανακατέψτε μέσα το διάλυμα κορν φλάουρ μέχρι η σάλτσα να γυαλίσει· πασπαλίστε με το κρεμμυδάκι."
-        ]
-      },
-      "tips": [
-        "Μαγειρέψτε πρώτα τη μελιτζάνα στον ατμό ή στον φούρνο μικροκυμάτων αντί να την τηγανίσετε — η μελιτζάνα ρουφάει γρήγορα το λάδι, και 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή μειώστε το κρέας στο μισό και προσθέστε περισσότερη μελιτζάνα.",
-        "Σερβίρετε με ένα μικρό μπολ ρύζι και ένα απλό πράσινο λαχανικό για ισορροπημένο γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Мапо с баклажанами",
-      "origin": "Китай · Сычуань",
-      "intro": "В этом блюде соус от мапо-тофу подают с мягкими баклажанами. Полоски баклажана обжаривают до шелковистой мягкости, затем соединяют со свиным фаршем, ферментированной пастой из чили и бобов (доубаньцзян), чесноком и имбирём. Получается острое, пикантное, глянцевое блюдо, в котором баклажаны пропитываются красным соусом. Его едят с отварным на пару рисом как часть общей трапезы.",
-      "history": "Это домашний вариант сычуаньской классики — мапо-тофу: вместо тофу используют баклажаны, а свинина и соус из бобов и чили остаются теми же. Блюдо готовят по всей Сычуани и в китайских ресторанах за рубежом.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 30,
-        "ingredients": [
-          "500 г баклажанов, нарезанных толстыми полосками",
-          "150 г свиного фарша",
-          "1½ ст. л. доубаньцзяна (пасты из чили и бобов)",
-          "3 зубчика чеснока, нарубленных",
-          "1 ст. л. свежего имбиря, нарубленного",
-          "2 ст. л. растительного масла",
-          "120 мл воды",
-          "1 ч. л. кукурузного крахмала, разведённого в 1 ст. л. воды",
-          "Нарезанный зелёный лук для подачи"
-        ],
-        "steps": [
-          "Посолите полоски баклажана на 10 минут, затем промокните насухо.",
-          "Обжарьте баклажаны в 1 ст. л. масла на сильном огне до мягкости и лёгкого золотистого цвета; отложите.",
-          "Добавьте оставшееся масло, обжарьте свинину до румяности, затем добавьте доубаньцзян, чеснок и имбирь и жарьте 1 минуту.",
-          "Влейте воду, верните баклажаны и тушите 3–4 минуты.",
-          "Вмешайте крахмальную смесь, пока соус не станет глянцевым; посыпьте зелёным луком."
-        ]
-      },
-      "tips": [
-        "Вместо жарки сначала приготовьте баклажаны на пару или в микроволновке — баклажаны быстро впитывают масло, а 1 ст. л. масла ≈ 120 ккал.",
-        "Возьмите нежирный свиной фарш или уменьшите количество мяса вдвое и добавьте больше баклажанов.",
-        "Подавайте с небольшой порцией риса и простым зелёным овощем, чтобы приём пищи был сбалансированным."
-      ]
-    }
+  "ar": {
+   "name": "باذنجان مابو",
+   "origin": "الصين · سيتشوان",
+   "intro": "باذنجان مابو يستعير صلصة توفو مابو ويصبّها على الباذنجان الطري. تُقلّب شرائح الباذنجان على نار عالية حتى تصبح ناعمة، ثم تُمزج مع لحم خنزير مفروم ومعجون الفول والفلفل المخمّر (دوبانجيانغ) والثوم والزنجبيل. النتيجة طبق حار ومالح ولامع يتشرّب فيه الباذنجان الصلصة الحمراء، ويؤكل مع الأرز المطهو على البخار ضمن وجبة مشتركة.",
+   "history": "هذا الطبق تنويعة منزلية على توفو مابو، الطبق الكلاسيكي من سيتشوان، يحلّ فيه الباذنجان محلّ التوفو مع الصلصة نفسها من اللحم ومعجون الفلفل. ويُطهى في أنحاء سيتشوان وفي المطاعم الصينية حول العالم.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 30,
+    "ingredients": [
+     "500 غ باذنجان مقطّع أصابع سميكة",
+     "150 غ لحم خنزير مفروم",
+     "1.5 ملعقة كبيرة دوبانجيانغ (معجون الفلفل والفول)",
+     "3 فصوص ثوم مفرومة",
+     "1 ملعقة كبيرة زنجبيل طازج مفروم",
+     "2 ملعقة كبيرة زيت نباتي",
+     "120 مل ماء",
+     "1 ملعقة صغيرة نشا ذرة مذابة في 1 ملعقة كبيرة ماء",
+     "بصل أخضر مقطّع للتقديم"
+    ],
+    "steps": [
+     "رشّ الباذنجان بالملح واتركه 10 دقائق ثم جفّفه.",
+     "قلّب الباذنجان في ملعقة زيت على نار عالية حتى يلين ويتحمّر قليلًا، ثم ارفعه جانبًا.",
+     "أضف بقية الزيت وحمّر اللحم، ثم أضف الدوبانجيانغ والثوم والزنجبيل وقلّب دقيقة.",
+     "صبّ الماء وأعد الباذنجان واتركه يغلي بهدوء 3–4 دقائق.",
+     "أضف خليط النشا وقلّب حتى تلمع الصلصة، وزيّن بالبصل الأخضر."
+    ]
+   },
+   "tips": [
+    "اطهُ الباذنجان على البخار أو في الميكروويف أولًا بدل قليه، فهو يمتصّ الزيت بسرعة — ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "استخدم لحمًا قليل الدهن أو قلّل كمية اللحم إلى النصف وزد الباذنجان.",
+    "قدّمه مع وعاء صغير من الأرز وخضار ورقية بسيطة لتوازن الوجبة."
+   ]
+  },
+  "it": {
+   "name": "Melanzane mapo",
+   "origin": "Cina · Sichuan",
+   "intro": "Le melanzane mapo prendono in prestito la salsa del mapo tofu e la versano su melanzane morbide. Le melanzane a listarelle vengono saltate finché diventano setose, poi mescolate con carne macinata di maiale, pasta di fave e peperoncino fermentata (doubanjiang), aglio e zenzero. Il risultato è piccante, sapido e lucido, con le melanzane che assorbono la salsa rossa. Si mangiano con riso al vapore come parte di un pasto condiviso.",
+   "history": "Il piatto è una variante casalinga del mapo tofu, il classico del Sichuan, che usa le melanzane al posto del tofu con la stessa salsa di maiale e pasta di fave e peperoncino. Si prepara in tutto il Sichuan e nei ristoranti cinesi all'estero.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 30,
+    "ingredients": [
+     "500 g di melanzane, tagliate a listarelle spesse",
+     "150 g di carne macinata di maiale",
+     "1½ cucchiai di doubanjiang (pasta di fave e peperoncino)",
+     "3 spicchi d'aglio, tritati",
+     "1 cucchiaio di zenzero fresco, tritato",
+     "2 cucchiai di olio vegetale",
+     "120 ml di acqua",
+     "1 cucchiaino di amido di mais sciolto in 1 cucchiaio d'acqua",
+     "Cipollotto a rondelle per servire"
+    ],
+    "steps": [
+     "Sala le listarelle di melanzana per 10 minuti, poi tamponale per asciugarle.",
+     "Salta le melanzane in 1 cucchiaio di olio a fuoco vivo finché sono morbide e leggermente dorate; tienile da parte.",
+     "Aggiungi l'olio rimasto, rosola il maiale, poi unisci il doubanjiang, l'aglio e lo zenzero e fai soffriggere per 1 minuto.",
+     "Versa l'acqua, rimetti le melanzane e fai sobbollire per 3–4 minuti.",
+     "Incorpora l'amido sciolto finché la salsa diventa lucida; completa con il cipollotto."
+    ]
+   },
+   "tips": [
+    "Cuoci prima le melanzane al vapore o nel microonde invece di friggerle: le melanzane assorbono l'olio in fretta, e 1 cucchiaio di olio ≈ 120 kcal.",
+    "Usa maiale macinato magro oppure dimezza la carne e aggiungi più melanzane.",
+    "Servi con una ciotolina di riso e una verdura verde semplice per un pasto equilibrato."
+   ]
+  },
+  "el": {
+   "name": "Μελιτζάνες μάπο",
+   "origin": "Κίνα · Σετσουάν",
+   "intro": "Οι μελιτζάνες μάπο δανείζονται τη σάλτσα του μάπο τόφου και τη ρίχνουν πάνω σε μαλακή μελιτζάνα. Λωρίδες μελιτζάνας σοτάρονται μέχρι να γίνουν μεταξένιες και ανακατεύονται με χοιρινό κιμά, ζυμωμένη πάστα από κουκιά και τσίλι (ντουπαντζιάνγκ), σκόρδο και τζίντζερ. Το αποτέλεσμα είναι πικάντικο, γευστικό και γυαλιστερό, με τη μελιτζάνα να ρουφάει την κόκκινη σάλτσα. Τρώγεται με ρύζι στον ατμό ως μέρος ενός κοινού γεύματος.",
+   "history": "Το πιάτο είναι μια σπιτική παραλλαγή του μάπο τόφου, του κλασικού πιάτου του Σετσουάν, με μελιτζάνα στη θέση του τόφου και την ίδια σάλτσα με χοιρινό και πάστα κουκιών με τσίλι. Μαγειρεύεται σε όλο το Σετσουάν και στα κινέζικα εστιατόρια του εξωτερικού.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 30,
+    "ingredients": [
+     "500 γρ. μελιτζάνα, κομμένη σε χοντρές λωρίδες",
+     "150 γρ. χοιρινός κιμάς",
+     "1½ κ.σ. ντουπαντζιάνγκ (πάστα κουκιών με τσίλι)",
+     "3 σκελίδες σκόρδο, ψιλοκομμένες",
+     "1 κ.σ. φρέσκο τζίντζερ, ψιλοκομμένο",
+     "2 κ.σ. φυτικό λάδι",
+     "120 ml νερό",
+     "1 κ.γ. κορν φλάουρ διαλυμένο σε 1 κ.σ. νερό",
+     "Φρέσκο κρεμμυδάκι σε ροδέλες για το σερβίρισμα"
+    ],
+    "steps": [
+     "Αλατίστε τις λωρίδες μελιτζάνας για 10 λεπτά και στεγνώστε τες με χαρτί.",
+     "Σοτάρετε τη μελιτζάνα σε 1 κ.σ. λάδι σε δυνατή φωτιά μέχρι να μαλακώσει και να ροδίσει ελαφρά· βάλτε την στην άκρη.",
+     "Προσθέστε το υπόλοιπο λάδι, ροδίστε το χοιρινό, μετά προσθέστε το ντουπαντζιάνγκ, το σκόρδο και το τζίντζερ και τσιγαρίστε για 1 λεπτό.",
+     "Ρίξτε το νερό, επιστρέψτε τη μελιτζάνα και σιγοβράστε για 3–4 λεπτά.",
+     "Ανακατέψτε μέσα το διάλυμα κορν φλάουρ μέχρι η σάλτσα να γυαλίσει· πασπαλίστε με το κρεμμυδάκι."
+    ]
+   },
+   "tips": [
+    "Μαγειρέψτε πρώτα τη μελιτζάνα στον ατμό ή στον φούρνο μικροκυμάτων αντί να την τηγανίσετε — η μελιτζάνα ρουφάει γρήγορα το λάδι, και 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή μειώστε το κρέας στο μισό και προσθέστε περισσότερη μελιτζάνα.",
+    "Σερβίρετε με ένα μικρό μπολ ρύζι και ένα απλό πράσινο λαχανικό για ισορροπημένο γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Мапо с баклажанами",
+   "origin": "Китай · Сычуань",
+   "intro": "В этом блюде соус от мапо-тофу подают с мягкими баклажанами. Полоски баклажана обжаривают до шелковистой мягкости, затем соединяют со свиным фаршем, ферментированной пастой из чили и бобов (доубаньцзян), чесноком и имбирём. Получается острое, пикантное, глянцевое блюдо, в котором баклажаны пропитываются красным соусом. Его едят с отварным на пару рисом как часть общей трапезы.",
+   "history": "Это домашний вариант сычуаньской классики — мапо-тофу: вместо тофу используют баклажаны, а свинина и соус из бобов и чили остаются теми же. Блюдо готовят по всей Сычуани и в китайских ресторанах за рубежом.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 30,
+    "ingredients": [
+     "500 г баклажанов, нарезанных толстыми полосками",
+     "150 г свиного фарша",
+     "1½ ст. л. доубаньцзяна (пасты из чили и бобов)",
+     "3 зубчика чеснока, нарубленных",
+     "1 ст. л. свежего имбиря, нарубленного",
+     "2 ст. л. растительного масла",
+     "120 мл воды",
+     "1 ч. л. кукурузного крахмала, разведённого в 1 ст. л. воды",
+     "Нарезанный зелёный лук для подачи"
+    ],
+    "steps": [
+     "Посолите полоски баклажана на 10 минут, затем промокните насухо.",
+     "Обжарьте баклажаны в 1 ст. л. масла на сильном огне до мягкости и лёгкого золотистого цвета; отложите.",
+     "Добавьте оставшееся масло, обжарьте свинину до румяности, затем добавьте доубаньцзян, чеснок и имбирь и жарьте 1 минуту.",
+     "Влейте воду, верните баклажаны и тушите 3–4 минуты.",
+     "Вмешайте крахмальную смесь, пока соус не станет глянцевым; посыпьте зелёным луком."
+    ]
+   },
+   "tips": [
+    "Вместо жарки сначала приготовьте баклажаны на пару или в микроволновке — баклажаны быстро впитывают масло, а 1 ст. л. масла ≈ 120 ккал.",
+    "Возьмите нежирный свиной фарш или уменьшите количество мяса вдвое и добавьте больше баклажанов.",
+    "Подавайте с небольшой порцией риса и простым зелёным овощем, чтобы приём пищи был сбалансированным."
+   ]
+  },
+  "es": {
+   "name": "Berenjena mapo",
+   "origin": "China · Sichuan",
+   "intro": "La berenjena mapo toma prestada la salsa del mapo tofu y la vierte sobre berenjenas suaves. Las tiras de berenjena se saltean hasta quedar sedosas y luego se mezclan con carne de cerdo molida, pasta fermentada de frijol con chile (doubanjiang), ajo y jengibre. El resultado es picante, sabroso y brillante, con la berenjena empapada en la salsa roja. Se come con arroz al vapor como parte de una comida para compartir.",
+   "history": "El plato es una variante casera del mapo tofu, el clásico de Sichuan, que usa berenjena en lugar de tofu con el mismo cerdo y la misma salsa de frijol con chile. Se cocina en toda la provincia de Sichuan y en los restaurantes chinos de todo el mundo.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 30,
+    "ingredients": [
+     "500 g de berenjena, cortada en tiras gruesas",
+     "150 g de carne de cerdo molida",
+     "1½ cda. de doubanjiang (pasta de frijol con chile)",
+     "3 dientes de ajo, picados",
+     "1 cda. de jengibre fresco, picado",
+     "2 cda. de aceite vegetal",
+     "120 ml de agua",
+     "1 cdta. de maicena disuelta en 1 cda. de agua",
+     "Cebollita de cambray en rodajas, para servir"
+    ],
+    "steps": [
+     "Sala las tiras de berenjena durante 10 minutos y sécalas con papel de cocina.",
+     "Saltea la berenjena en 1 cda. de aceite a fuego alto hasta que esté suave y ligeramente dorada; reserva.",
+     "Agrega el aceite restante, fríe el cerdo hasta que se dore, añade el doubanjiang, el ajo y el jengibre y fríe 1 minuto.",
+     "Vierte el agua, regresa la berenjena y cocina a fuego bajo de 3 a 4 minutos.",
+     "Incorpora la mezcla de maicena hasta que la salsa quede brillante; decora con cebollita de cambray."
+    ]
+   },
+   "tips": [
+    "Cuece la berenjena al vapor o en el microondas en vez de freírla: absorbe el aceite muy rápido, y 1 cda. de aceite ≈ 120 kcal.",
+    "Usa carne de cerdo molida magra o reduce la carne a la mitad y agrega más berenjena.",
+    "Sírvela con un tazón pequeño de arroz y una verdura verde sencilla para equilibrar la comida."
+   ],
+   "name_inline": "la berenjena mapo"
   }
+ }
 }
