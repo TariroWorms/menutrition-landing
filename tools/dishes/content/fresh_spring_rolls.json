@@ -1,177 +1,210 @@
 {
-  "db_key": "fresh_spring_rolls",
-  "slug": "fresh-spring-rolls",
-  "emoji": "🥢",
-  "portion_g": 200,
-  "country": "VN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fresh_spring_rolls",
+ "slug": "fresh-spring-rolls",
+ "emoji": "🥢",
+ "portion_g": 200,
+ "country": "VN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fresh spring rolls (gỏi cuốn)",
+   "origin": "Vietnam · southern Vietnam",
+   "intro": "Fresh spring rolls are soft, translucent rice paper wrappers rolled around poached shrimp, thin rice noodles, crisp lettuce and fragrant herbs such as mint and Thai basil. They are not fried, so the wrapper stays chewy and the filling cool and crunchy. They are served at room temperature with a thick peanut dipping sauce, usually as a starter or light lunch.",
+   "history": "Gỏi cuốn, often called summer rolls in English, are associated with southern Vietnam, where rice paper wrapping is an everyday technique. They spread internationally with the Vietnamese diaspora and are now a staple of Vietnamese restaurants worldwide.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "12 sheets rice paper",
+     "300 g raw shrimp, peeled",
+     "100 g thin rice noodles",
+     "1 small head lettuce, leaves separated",
+     "1 bunch mint and Thai basil",
+     "1 carrot, cut into thin sticks",
+     "6 tbsp peanut dipping sauce"
+    ],
+    "steps": [
+     "Cook the rice noodles according to the packet, rinse in cold water and drain.",
+     "Poach the shrimp in simmering salted water for 2–3 minutes, cool and halve lengthways.",
+     "Dip one rice paper sheet in warm water for a few seconds until just pliable and lay it flat.",
+     "Place lettuce, noodles, carrot and herbs in the lower third, then three shrimp halves pink side down above them.",
+     "Fold in the sides and roll up tightly; repeat with the remaining sheets.",
+     "Serve straight away with the peanut sauce for dipping."
+    ]
+   },
+   "tips": [
+    "The rolls themselves are light — most of the calories are in the peanut sauce, so dip rather than pour.",
+    "Thin the sauce with a little warm water and lime juice to stretch it further.",
+    "Use more lettuce and herbs and fewer noodles for a lower-carb roll."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fresh spring rolls (gỏi cuốn)",
-      "origin": "Vietnam · southern Vietnam",
-      "intro": "Fresh spring rolls are soft, translucent rice paper wrappers rolled around poached shrimp, thin rice noodles, crisp lettuce and fragrant herbs such as mint and Thai basil. They are not fried, so the wrapper stays chewy and the filling cool and crunchy. They are served at room temperature with a thick peanut dipping sauce, usually as a starter or light lunch.",
-      "history": "Gỏi cuốn, often called summer rolls in English, are associated with southern Vietnam, where rice paper wrapping is an everyday technique. They spread internationally with the Vietnamese diaspora and are now a staple of Vietnamese restaurants worldwide.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "12 sheets rice paper",
-          "300 g raw shrimp, peeled",
-          "100 g thin rice noodles",
-          "1 small head lettuce, leaves separated",
-          "1 bunch mint and Thai basil",
-          "1 carrot, cut into thin sticks",
-          "6 tbsp peanut dipping sauce"
-        ],
-        "steps": [
-          "Cook the rice noodles according to the packet, rinse in cold water and drain.",
-          "Poach the shrimp in simmering salted water for 2–3 minutes, cool and halve lengthways.",
-          "Dip one rice paper sheet in warm water for a few seconds until just pliable and lay it flat.",
-          "Place lettuce, noodles, carrot and herbs in the lower third, then three shrimp halves pink side down above them.",
-          "Fold in the sides and roll up tightly; repeat with the remaining sheets.",
-          "Serve straight away with the peanut sauce for dipping."
-        ]
-      },
-      "tips": [
-        "The rolls themselves are light — most of the calories are in the peanut sauce, so dip rather than pour.",
-        "Thin the sauce with a little warm water and lime juice to stretch it further.",
-        "Use more lettuce and herbs and fewer noodles for a lower-carb roll."
-      ]
-    },
-    "ar": {
-      "name": "لفائف الربيع الطازجة (غوي كوون)",
-      "origin": "فيتنام · جنوب فيتنام",
-      "intro": "لفائف الربيع الطازجة هي أوراق أرز طرية شفافة تُلف حول روبيان مسلوق ونودلز أرز رفيعة وخس مقرمش وأعشاب عطرية مثل النعناع والريحان التايلاندي. لا تُقلى، لذلك يبقى الغلاف مطاطيًا والحشوة باردة ومقرمشة. تُقدَّم بحرارة الغرفة مع صلصة الفول السوداني الكثيفة للتغميس، عادةً كمقبلات أو غداء خفيف.",
-      "history": "ترتبط لفائف غوي كوون، المعروفة بالإنجليزية بلفائف الصيف، بجنوب فيتنام حيث يُعد اللف بورق الأرز تقنية يومية. انتشرت عالميًا مع الجاليات الفيتنامية، وأصبحت اليوم طبقًا أساسيًا في المطاعم الفيتنامية حول العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "12 ورقة أرز",
-          "300 غ روبيان نيء مقشر",
-          "100 غ نودلز أرز رفيعة",
-          "رأس خس صغير، أوراقه منفصلة",
-          "حزمة نعناع وريحان تايلاندي",
-          "جزرة مقطعة أصابع رفيعة",
-          "6 ملاعق كبيرة صلصة فول سوداني للتغميس"
-        ],
-        "steps": [
-          "اطبخ نودلز الأرز حسب تعليمات العبوة، واشطفها بماء بارد وصفّها.",
-          "اسلق الروبيان في ماء مملح يغلي بهدوء 2–3 دقائق، ثم برّده وقسّمه طوليًا.",
-          "اغمس ورقة أرز في ماء دافئ بضع ثوانٍ حتى تلين وافردها.",
-          "ضع الخس والنودلز والجزر والأعشاب في الثلث السفلي، ثم ثلاثة أنصاف روبيان فوقها والجانب الوردي للأسفل.",
-          "اطوِ الجانبين ولفّ بإحكام، وكرّر مع بقية الأوراق.",
-          "قدّمها فورًا مع صلصة الفول السوداني للتغميس."
-        ]
-      },
-      "tips": [
-        "اللفائف نفسها خفيفة — معظم السعرات في صلصة الفول السوداني، فاغمس بدل أن تسكب.",
-        "خفّف الصلصة بقليل من الماء الدافئ وعصير الليمون الأخضر لتكفي أكثر.",
-        "أكثِر من الخس والأعشاب وقلّل النودلز لتحصل على لفافة أقل كربوهيدرات."
-      ]
-    },
-    "it": {
-      "name": "Involtini primavera freschi (gỏi cuốn)",
-      "name_inline": "involtini primavera freschi",
-      "origin": "Vietnam · Vietnam meridionale",
-      "intro": "Gli involtini primavera freschi sono morbidi fogli di carta di riso traslucidi arrotolati attorno a gamberi lessati, sottili spaghetti di riso, lattuga croccante ed erbe aromatiche come menta e basilico thai. Non sono fritti, così la sfoglia resta elastica e il ripieno fresco e croccante. Si servono a temperatura ambiente con una densa salsa di arachidi in cui intingerli, di solito come antipasto o pranzo leggero.",
-      "history": "I gỏi cuốn, spesso chiamati in inglese «summer rolls», sono associati al Vietnam meridionale, dove avvolgere nella carta di riso è una tecnica quotidiana. Si sono diffusi a livello internazionale con la diaspora vietnamita e oggi sono un classico dei ristoranti vietnamiti di tutto il mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "12 fogli di carta di riso",
-          "300 g di gamberi crudi sgusciati",
-          "100 g di spaghetti di riso sottili",
-          "1 cespo piccolo di lattuga, a foglie separate",
-          "1 mazzetto di menta e basilico thai",
-          "1 carota tagliata a bastoncini sottili",
-          "6 cucchiai di salsa di arachidi da intingere"
-        ],
-        "steps": [
-          "Cuoci gli spaghetti di riso secondo le istruzioni della confezione, sciacquali in acqua fredda e scolali.",
-          "Lessa i gamberi in acqua salata sobbollente per 2–3 minuti, lasciali raffreddare e tagliali a metà per il lungo.",
-          "Immergi un foglio di carta di riso in acqua tiepida per qualche secondo, finché non diventa appena flessibile, e stendilo.",
-          "Disponi lattuga, spaghetti, carota ed erbe nel terzo inferiore, poi sopra tre metà di gambero con il lato rosa verso il basso.",
-          "Ripiega i lati verso l'interno e arrotola stretto; ripeti con i fogli rimasti.",
-          "Servi subito con la salsa di arachidi da intingere."
-        ]
-      },
-      "tips": [
-        "Gli involtini in sé sono leggeri: la maggior parte delle calorie sta nella salsa di arachidi, quindi intingi invece di versarla.",
-        "Allunga la salsa con un po' di acqua tiepida e succo di lime per farla rendere di più.",
-        "Usa più lattuga ed erbe e meno spaghetti per un involtino con meno carboidrati."
-      ]
-    },
-    "el": {
-      "name": "Φρέσκα σπρινγκ ρολς (γκόι κουόν)",
-      "name_inline": "φρέσκα σπρινγκ ρολς",
-      "origin": "Βιετνάμ · Νότιο Βιετνάμ",
-      "intro": "Τα φρέσκα σπρινγκ ρολς είναι μαλακά, διάφανα φύλλα ρυζιού τυλιγμένα γύρω από βραστές γαρίδες, λεπτά νουντλς ρυζιού, τραγανό μαρούλι και αρωματικά μυρωδικά όπως δυόσμο και ταϊλανδέζικο βασιλικό. Δεν τηγανίζονται, έτσι το φύλλο μένει μαστιχωτό και η γέμιση δροσερή και τραγανή. Σερβίρονται σε θερμοκρασία δωματίου με πηχτή σάλτσα φιστικιού για βούτηγμα, συνήθως ως ορεκτικό ή ελαφρύ μεσημεριανό.",
-      "history": "Τα gỏi cuốn, που στα αγγλικά συχνά λέγονται «summer rolls», συνδέονται με το νότιο Βιετνάμ, όπου το τύλιγμα σε φύλλο ρυζιού είναι καθημερινή τεχνική. Διαδόθηκαν διεθνώς με τη βιετναμέζικη διασπορά και σήμερα είναι βασικό πιάτο στα βιετναμέζικα εστιατόρια σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "12 φύλλα ρυζιού",
-          "300 γρ. ωμές γαρίδες καθαρισμένες",
-          "100 γρ. λεπτά νουντλς ρυζιού",
-          "1 μικρό μαρούλι με τα φύλλα χωρισμένα",
-          "1 ματσάκι δυόσμος και ταϊλανδέζικος βασιλικός",
-          "1 καρότο κομμένο σε λεπτά στικς",
-          "6 κ.σ. σάλτσα φιστικιού για βούτηγμα"
-        ],
-        "steps": [
-          "Μαγειρέψτε τα νουντλς ρυζιού σύμφωνα με τις οδηγίες της συσκευασίας, ξεπλύνετέ τα σε κρύο νερό και στραγγίξτε.",
-          "Βράστε τις γαρίδες σε αλατισμένο νερό που σιγοβράζει για 2–3 λεπτά, αφήστε τες να κρυώσουν και κόψτε τες στη μέση κατά μήκος.",
-          "Βουτήξτε ένα φύλλο ρυζιού σε χλιαρό νερό για λίγα δευτερόλεπτα, μέχρι να γίνει μόλις εύκαμπτο, και απλώστε το.",
-          "Βάλτε μαρούλι, νουντλς, καρότο και μυρωδικά στο κάτω τρίτο και από πάνω τρία μισά γαρίδας με τη ροζ πλευρά προς τα κάτω.",
-          "Διπλώστε τις πλευρές προς τα μέσα και τυλίξτε σφιχτά· επαναλάβετε με τα υπόλοιπα φύλλα.",
-          "Σερβίρετε αμέσως με τη σάλτσα φιστικιού για βούτηγμα."
-        ]
-      },
-      "tips": [
-        "Τα ρολά από μόνα τους είναι ελαφριά — οι περισσότερες θερμίδες βρίσκονται στη σάλτσα φιστικιού, οπότε βουτήξτε αντί να τη χύνετε.",
-        "Αραιώστε τη σάλτσα με λίγο χλιαρό νερό και χυμό λάιμ για να σας φτάσει περισσότερο.",
-        "Βάλτε περισσότερο μαρούλι και μυρωδικά και λιγότερα νουντλς για ρολό με λιγότερους υδατάνθρακες."
-      ]
-    },
-    "ru": {
-      "name": "Свежие спринг-роллы (гой куон)",
-      "origin": "Вьетнам · юг Вьетнама",
-      "intro": "Свежие спринг-роллы — мягкие прозрачные листы рисовой бумаги, в которые завёрнуты отварные креветки, тонкая рисовая лапша, хрустящий салат и ароматная зелень, например мята и тайский базилик. Они не жарятся, поэтому обёртка остаётся упругой, а начинка — прохладной и хрустящей. Подаются комнатной температуры с густым арахисовым соусом для макания, обычно как закуска или лёгкий обед.",
-      "history": "Гой куон, которые по-английски часто называют летними роллами, связаны с югом Вьетнама, где заворачивание в рисовую бумагу — повседневная техника. Они распространились по миру вместе с вьетнамской диаспорой и сегодня — основа вьетнамских ресторанов по всему миру.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "12 листов рисовой бумаги",
-          "300 г сырых креветок, очищенных",
-          "100 г тонкой рисовой лапши",
-          "1 небольшой кочан салата, листья разобраны",
-          "1 пучок мяты и тайского базилика",
-          "1 морковь, нарезанная тонкими палочками",
-          "6 ст. л. арахисового соуса для макания"
-        ],
-        "steps": [
-          "Отварите рисовую лапшу по инструкции на упаковке, ополосните холодной водой и слейте.",
-          "Отварите креветки в кипящей подсоленной воде 2–3 минуты, остудите и разрежьте вдоль пополам.",
-          "Окуните лист рисовой бумаги в тёплую воду на несколько секунд, пока он едва не станет гибким, и расстелите.",
-          "Выложите салат, лапшу, морковь и зелень в нижнюю треть, затем над ними три половинки креветок розовой стороной вниз.",
-          "Подверните бока и плотно сверните; повторите с остальными листами.",
-          "Сразу подавайте с арахисовым соусом для макания."
-        ]
-      },
-      "tips": [
-        "Сами роллы лёгкие — основные калории в арахисовом соусе, поэтому макайте, а не поливайте.",
-        "Разбавьте соус небольшим количеством тёплой воды и лаймового сока, чтобы растянуть его.",
-        "Берите больше салата и зелени и меньше лапши для ролла с меньшим количеством углеводов."
-      ],
-      "name_inline": "свежие спринг-роллы"
-    }
+  "ar": {
+   "name": "لفائف الربيع الطازجة (غوي كوون)",
+   "origin": "فيتنام · جنوب فيتنام",
+   "intro": "لفائف الربيع الطازجة هي أوراق أرز طرية شفافة تُلف حول روبيان مسلوق ونودلز أرز رفيعة وخس مقرمش وأعشاب عطرية مثل النعناع والريحان التايلاندي. لا تُقلى، لذلك يبقى الغلاف مطاطيًا والحشوة باردة ومقرمشة. تُقدَّم بحرارة الغرفة مع صلصة الفول السوداني الكثيفة للتغميس، عادةً كمقبلات أو غداء خفيف.",
+   "history": "ترتبط لفائف غوي كوون، المعروفة بالإنجليزية بلفائف الصيف، بجنوب فيتنام حيث يُعد اللف بورق الأرز تقنية يومية. انتشرت عالميًا مع الجاليات الفيتنامية، وأصبحت اليوم طبقًا أساسيًا في المطاعم الفيتنامية حول العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "12 ورقة أرز",
+     "300 غ روبيان نيء مقشر",
+     "100 غ نودلز أرز رفيعة",
+     "رأس خس صغير، أوراقه منفصلة",
+     "حزمة نعناع وريحان تايلاندي",
+     "جزرة مقطعة أصابع رفيعة",
+     "6 ملاعق كبيرة صلصة فول سوداني للتغميس"
+    ],
+    "steps": [
+     "اطبخ نودلز الأرز حسب تعليمات العبوة، واشطفها بماء بارد وصفّها.",
+     "اسلق الروبيان في ماء مملح يغلي بهدوء 2–3 دقائق، ثم برّده وقسّمه طوليًا.",
+     "اغمس ورقة أرز في ماء دافئ بضع ثوانٍ حتى تلين وافردها.",
+     "ضع الخس والنودلز والجزر والأعشاب في الثلث السفلي، ثم ثلاثة أنصاف روبيان فوقها والجانب الوردي للأسفل.",
+     "اطوِ الجانبين ولفّ بإحكام، وكرّر مع بقية الأوراق.",
+     "قدّمها فورًا مع صلصة الفول السوداني للتغميس."
+    ]
+   },
+   "tips": [
+    "اللفائف نفسها خفيفة — معظم السعرات في صلصة الفول السوداني، فاغمس بدل أن تسكب.",
+    "خفّف الصلصة بقليل من الماء الدافئ وعصير الليمون الأخضر لتكفي أكثر.",
+    "أكثِر من الخس والأعشاب وقلّل النودلز لتحصل على لفافة أقل كربوهيدرات."
+   ]
+  },
+  "it": {
+   "name": "Involtini primavera freschi (gỏi cuốn)",
+   "name_inline": "involtini primavera freschi",
+   "origin": "Vietnam · Vietnam meridionale",
+   "intro": "Gli involtini primavera freschi sono morbidi fogli di carta di riso traslucidi arrotolati attorno a gamberi lessati, sottili spaghetti di riso, lattuga croccante ed erbe aromatiche come menta e basilico thai. Non sono fritti, così la sfoglia resta elastica e il ripieno fresco e croccante. Si servono a temperatura ambiente con una densa salsa di arachidi in cui intingerli, di solito come antipasto o pranzo leggero.",
+   "history": "I gỏi cuốn, spesso chiamati in inglese «summer rolls», sono associati al Vietnam meridionale, dove avvolgere nella carta di riso è una tecnica quotidiana. Si sono diffusi a livello internazionale con la diaspora vietnamita e oggi sono un classico dei ristoranti vietnamiti di tutto il mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "12 fogli di carta di riso",
+     "300 g di gamberi crudi sgusciati",
+     "100 g di spaghetti di riso sottili",
+     "1 cespo piccolo di lattuga, a foglie separate",
+     "1 mazzetto di menta e basilico thai",
+     "1 carota tagliata a bastoncini sottili",
+     "6 cucchiai di salsa di arachidi da intingere"
+    ],
+    "steps": [
+     "Cuoci gli spaghetti di riso secondo le istruzioni della confezione, sciacquali in acqua fredda e scolali.",
+     "Lessa i gamberi in acqua salata sobbollente per 2–3 minuti, lasciali raffreddare e tagliali a metà per il lungo.",
+     "Immergi un foglio di carta di riso in acqua tiepida per qualche secondo, finché non diventa appena flessibile, e stendilo.",
+     "Disponi lattuga, spaghetti, carota ed erbe nel terzo inferiore, poi sopra tre metà di gambero con il lato rosa verso il basso.",
+     "Ripiega i lati verso l'interno e arrotola stretto; ripeti con i fogli rimasti.",
+     "Servi subito con la salsa di arachidi da intingere."
+    ]
+   },
+   "tips": [
+    "Gli involtini in sé sono leggeri: la maggior parte delle calorie sta nella salsa di arachidi, quindi intingi invece di versarla.",
+    "Allunga la salsa con un po' di acqua tiepida e succo di lime per farla rendere di più.",
+    "Usa più lattuga ed erbe e meno spaghetti per un involtino con meno carboidrati."
+   ]
+  },
+  "el": {
+   "name": "Φρέσκα σπρινγκ ρολς (γκόι κουόν)",
+   "name_inline": "φρέσκα σπρινγκ ρολς",
+   "origin": "Βιετνάμ · Νότιο Βιετνάμ",
+   "intro": "Τα φρέσκα σπρινγκ ρολς είναι μαλακά, διάφανα φύλλα ρυζιού τυλιγμένα γύρω από βραστές γαρίδες, λεπτά νουντλς ρυζιού, τραγανό μαρούλι και αρωματικά μυρωδικά όπως δυόσμο και ταϊλανδέζικο βασιλικό. Δεν τηγανίζονται, έτσι το φύλλο μένει μαστιχωτό και η γέμιση δροσερή και τραγανή. Σερβίρονται σε θερμοκρασία δωματίου με πηχτή σάλτσα φιστικιού για βούτηγμα, συνήθως ως ορεκτικό ή ελαφρύ μεσημεριανό.",
+   "history": "Τα gỏi cuốn, που στα αγγλικά συχνά λέγονται «summer rolls», συνδέονται με το νότιο Βιετνάμ, όπου το τύλιγμα σε φύλλο ρυζιού είναι καθημερινή τεχνική. Διαδόθηκαν διεθνώς με τη βιετναμέζικη διασπορά και σήμερα είναι βασικό πιάτο στα βιετναμέζικα εστιατόρια σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "12 φύλλα ρυζιού",
+     "300 γρ. ωμές γαρίδες καθαρισμένες",
+     "100 γρ. λεπτά νουντλς ρυζιού",
+     "1 μικρό μαρούλι με τα φύλλα χωρισμένα",
+     "1 ματσάκι δυόσμος και ταϊλανδέζικος βασιλικός",
+     "1 καρότο κομμένο σε λεπτά στικς",
+     "6 κ.σ. σάλτσα φιστικιού για βούτηγμα"
+    ],
+    "steps": [
+     "Μαγειρέψτε τα νουντλς ρυζιού σύμφωνα με τις οδηγίες της συσκευασίας, ξεπλύνετέ τα σε κρύο νερό και στραγγίξτε.",
+     "Βράστε τις γαρίδες σε αλατισμένο νερό που σιγοβράζει για 2–3 λεπτά, αφήστε τες να κρυώσουν και κόψτε τες στη μέση κατά μήκος.",
+     "Βουτήξτε ένα φύλλο ρυζιού σε χλιαρό νερό για λίγα δευτερόλεπτα, μέχρι να γίνει μόλις εύκαμπτο, και απλώστε το.",
+     "Βάλτε μαρούλι, νουντλς, καρότο και μυρωδικά στο κάτω τρίτο και από πάνω τρία μισά γαρίδας με τη ροζ πλευρά προς τα κάτω.",
+     "Διπλώστε τις πλευρές προς τα μέσα και τυλίξτε σφιχτά· επαναλάβετε με τα υπόλοιπα φύλλα.",
+     "Σερβίρετε αμέσως με τη σάλτσα φιστικιού για βούτηγμα."
+    ]
+   },
+   "tips": [
+    "Τα ρολά από μόνα τους είναι ελαφριά — οι περισσότερες θερμίδες βρίσκονται στη σάλτσα φιστικιού, οπότε βουτήξτε αντί να τη χύνετε.",
+    "Αραιώστε τη σάλτσα με λίγο χλιαρό νερό και χυμό λάιμ για να σας φτάσει περισσότερο.",
+    "Βάλτε περισσότερο μαρούλι και μυρωδικά και λιγότερα νουντλς για ρολό με λιγότερους υδατάνθρακες."
+   ]
+  },
+  "ru": {
+   "name": "Свежие спринг-роллы (гой куон)",
+   "origin": "Вьетнам · юг Вьетнама",
+   "intro": "Свежие спринг-роллы — мягкие прозрачные листы рисовой бумаги, в которые завёрнуты отварные креветки, тонкая рисовая лапша, хрустящий салат и ароматная зелень, например мята и тайский базилик. Они не жарятся, поэтому обёртка остаётся упругой, а начинка — прохладной и хрустящей. Подаются комнатной температуры с густым арахисовым соусом для макания, обычно как закуска или лёгкий обед.",
+   "history": "Гой куон, которые по-английски часто называют летними роллами, связаны с югом Вьетнама, где заворачивание в рисовую бумагу — повседневная техника. Они распространились по миру вместе с вьетнамской диаспорой и сегодня — основа вьетнамских ресторанов по всему миру.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "12 листов рисовой бумаги",
+     "300 г сырых креветок, очищенных",
+     "100 г тонкой рисовой лапши",
+     "1 небольшой кочан салата, листья разобраны",
+     "1 пучок мяты и тайского базилика",
+     "1 морковь, нарезанная тонкими палочками",
+     "6 ст. л. арахисового соуса для макания"
+    ],
+    "steps": [
+     "Отварите рисовую лапшу по инструкции на упаковке, ополосните холодной водой и слейте.",
+     "Отварите креветки в кипящей подсоленной воде 2–3 минуты, остудите и разрежьте вдоль пополам.",
+     "Окуните лист рисовой бумаги в тёплую воду на несколько секунд, пока он едва не станет гибким, и расстелите.",
+     "Выложите салат, лапшу, морковь и зелень в нижнюю треть, затем над ними три половинки креветок розовой стороной вниз.",
+     "Подверните бока и плотно сверните; повторите с остальными листами.",
+     "Сразу подавайте с арахисовым соусом для макания."
+    ]
+   },
+   "tips": [
+    "Сами роллы лёгкие — основные калории в арахисовом соусе, поэтому макайте, а не поливайте.",
+    "Разбавьте соус небольшим количеством тёплой воды и лаймового сока, чтобы растянуть его.",
+    "Берите больше салата и зелени и меньше лапши для ролла с меньшим количеством углеводов."
+   ],
+   "name_inline": "свежие спринг-роллы"
+  },
+  "es": {
+   "name": "Rollitos frescos (gỏi cuốn)",
+   "origin": "Vietnam · sur de Vietnam",
+   "intro": "Los rollitos frescos son láminas de papel de arroz suaves y translúcidas enrolladas alrededor de camarones escalfados, fideos finos de arroz, lechuga crujiente y hierbas aromáticas como la menta y la albahaca tailandesa. No se fríen, así que la envoltura queda elástica y el relleno fresco y crujiente. Se sirven a temperatura ambiente con una salsa espesa de cacahuate para mojar, normalmente como entrada o almuerzo ligero.",
+   "history": "El gỏi cuốn, que en inglés suele llamarse «summer rolls», se asocia con el sur de Vietnam, donde envolver con papel de arroz es una técnica cotidiana. Se difundió por el mundo con la diáspora vietnamita y hoy es un clásico de los restaurantes vietnamitas en todas partes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "12 láminas de papel de arroz",
+     "300 g de camarones crudos, pelados",
+     "100 g de fideos finos de arroz",
+     "1 lechuga pequeña, con las hojas separadas",
+     "1 manojo de menta y albahaca tailandesa",
+     "1 zanahoria, cortada en bastones finos",
+     "6 cdas. de salsa de cacahuate para mojar"
+    ],
+    "steps": [
+     "Cuece los fideos de arroz según indique el paquete, enjuágalos con agua fría y escúrrelos.",
+     "Escalfa los camarones en agua con sal a fuego suave de 2 a 3 minutos, déjalos enfriar y pártelos por la mitad a lo largo.",
+     "Sumerge una lámina de papel de arroz en agua tibia unos segundos, hasta que esté apenas flexible, y colócala plana.",
+     "Pon la lechuga, los fideos, la zanahoria y las hierbas en el tercio inferior y, encima, tres mitades de camarón con el lado rosado hacia abajo.",
+     "Dobla los lados y enrolla con firmeza; repite con las demás láminas.",
+     "Sirve de inmediato con la salsa de cacahuate para mojar."
+    ]
+   },
+   "tips": [
+    "Los rollitos son ligeros: la mayoría de las calorías están en la salsa de cacahuate, así que moja en lugar de verterla.",
+    "Diluye la salsa con un poco de agua tibia y jugo de limón para que rinda más.",
+    "Usa más lechuga y hierbas y menos fideos para un rollito más bajo en carbohidratos."
+   ],
+   "name_inline": "los rollitos frescos"
   }
+ }
 }

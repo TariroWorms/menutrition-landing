@@ -1,157 +1,186 @@
 {
-  "db_key": "kalamar",
-  "slug": "kalamar",
-  "emoji": "🦑",
-  "portion_g": 200,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kalamar",
+ "slug": "kalamar",
+ "emoji": "🦑",
+ "portion_g": 200,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fried calamari",
+   "origin": "Mediterranean",
+   "intro": "Fried calamari are squid rings tossed in flour and deep-fried until golden and crisp. The coating is light and crunchy, while the squid inside stays tender if cooked quickly. They are served hot with lemon wedges as a starter or bar snack across the Mediterranean, the Balkans and Turkey, where the dish is known as kalamar.",
+   "history": "Frying squid in flour is a long-standing tradition in coastal kitchens around the Mediterranean, and the dish is now a fixture of seaside taverns and fish restaurants throughout the region.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "600 g cleaned squid, cut into rings",
+     "100 g flour",
+     "1 tsp salt, ½ tsp black pepper",
+     "Oil for deep-frying",
+     "1 lemon, cut into wedges"
+    ],
+    "steps": [
+     "Pat the squid rings dry with paper towels.",
+     "Mix the flour with salt and pepper and toss the squid in it, shaking off the excess.",
+     "Heat the oil to 180 °C and fry the squid in small batches for 1–2 minutes until light golden.",
+     "Drain on paper towels and serve immediately with lemon wedges."
+    ]
+   },
+   "tips": [
+    "Grilled or pan-seared squid with lemon has far fewer calories than the fried version.",
+    "Share a plate as a starter and fill up on salad.",
+    "Skip creamy dips and use lemon juice instead."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fried calamari",
-      "origin": "Mediterranean",
-      "intro": "Fried calamari are squid rings tossed in flour and deep-fried until golden and crisp. The coating is light and crunchy, while the squid inside stays tender if cooked quickly. They are served hot with lemon wedges as a starter or bar snack across the Mediterranean, the Balkans and Turkey, where the dish is known as kalamar.",
-      "history": "Frying squid in flour is a long-standing tradition in coastal kitchens around the Mediterranean, and the dish is now a fixture of seaside taverns and fish restaurants throughout the region.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "600 g cleaned squid, cut into rings",
-          "100 g flour",
-          "1 tsp salt, ½ tsp black pepper",
-          "Oil for deep-frying",
-          "1 lemon, cut into wedges"
-        ],
-        "steps": [
-          "Pat the squid rings dry with paper towels.",
-          "Mix the flour with salt and pepper and toss the squid in it, shaking off the excess.",
-          "Heat the oil to 180 °C and fry the squid in small batches for 1–2 minutes until light golden.",
-          "Drain on paper towels and serve immediately with lemon wedges."
-        ]
-      },
-      "tips": [
-        "Grilled or pan-seared squid with lemon has far fewer calories than the fried version.",
-        "Share a plate as a starter and fill up on salad.",
-        "Skip creamy dips and use lemon juice instead."
-      ]
-    },
-    "ar": {
-      "name": "كاليماري مقلي",
-      "origin": "البحر المتوسط",
-      "intro": "الكاليماري المقلي حلقات حبار تُغلَّف بالدقيق وتُقلى في زيت غزير حتى تصبح ذهبية مقرمشة. الطبقة الخارجية خفيفة مقرمشة، ويبقى الحبار طرياً من الداخل إذا قُلي بسرعة. يُقدَّم ساخناً مع شرائح الليمون مقبّلاً أو وجبة خفيفة في أنحاء المتوسط والبلقان وتركيا حيث يُعرف باسم كالامار.",
-      "history": "قلي الحبار بالدقيق تقليد راسخ في مطابخ سواحل البحر المتوسط، وأصبح الطبق اليوم ثابتاً في الحانات الساحلية ومطاعم السمك في المنطقة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "600 غ حبار منظّف، مقطّع حلقات",
-          "100 غ دقيق",
-          "1 ملعقة صغيرة ملح، ½ ملعقة صغيرة فلفل أسود",
-          "زيت للقلي العميق",
-          "1 ليمونة، مقطّعة أرباعاً"
-        ],
-        "steps": [
-          "جفّف حلقات الحبار بمناديل ورقية.",
-          "اخلط الدقيق بالملح والفلفل وقلّب الحبار فيه ثم انفض الزائد.",
-          "سخّن الزيت إلى 180 °م واقلِ الحبار على دفعات صغيرة لمدة دقيقة إلى دقيقتين حتى يصبح ذهبياً فاتحاً.",
-          "صفّه على مناديل ورقية وقدّمه فوراً مع الليمون."
-        ]
-      },
-      "tips": [
-        "الحبار المشوي أو المحمّر في المقلاة مع الليمون أقل سعرات بكثير من المقلي.",
-        "تشارك الطبق مقبّلاً واملأ طبقك بالسلطة.",
-        "استغنِ عن الصلصات الكريمية واستخدم عصير الليمون بدلاً منها."
-      ]
-    },
-    "it": {
-      "name": "Calamari fritti",
-      "name_inline": "calamari fritti",
-      "origin": "Mediterraneo",
-      "intro": "I calamari fritti sono anelli di calamaro passati nella farina e fritti in abbondante olio finché sono dorati e croccanti. La panatura è leggera e croccante, mentre il calamaro all'interno resta tenero se cotto velocemente. Si servono caldi con spicchi di limone come antipasto o stuzzichino da bar in tutto il Mediterraneo, nei Balcani e in Turchia, dove il piatto è conosciuto come kalamar.",
-      "history": "Friggere il calamaro infarinato è una tradizione di lunga data nelle cucine costiere del Mediterraneo, e oggi il piatto è una presenza fissa nelle taverne di mare e nei ristoranti di pesce di tutta la regione.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "600 g di calamari puliti, tagliati ad anelli",
-          "100 g di farina",
-          "1 cucchiaino di sale, ½ cucchiaino di pepe nero",
-          "Olio per friggere",
-          "1 limone a spicchi"
-        ],
-        "steps": [
-          "Asciuga gli anelli di calamaro tamponandoli con carta da cucina.",
-          "Mescola la farina con sale e pepe e passaci i calamari, scuotendo via l'eccesso.",
-          "Scalda l'olio a 180 °C e friggi i calamari pochi alla volta per 1–2 minuti finché sono appena dorati.",
-          "Scola su carta da cucina e servi subito con spicchi di limone."
-        ]
-      },
-      "tips": [
-        "Il calamaro alla griglia o scottato in padella con limone ha molte meno calorie della versione fritta.",
-        "Dividi un piatto come antipasto e saziati con l'insalata.",
-        "Evita le salse cremose e usa invece il succo di limone."
-      ]
-    },
-    "el": {
-      "name": "Καλαμάρια τηγανητά",
-      "name_inline": "καλαμάρια τηγανητά",
-      "origin": "Μεσόγειος",
-      "intro": "Τα καλαμάρια τηγανητά είναι ροδέλες καλαμαριού αλευρωμένες και τηγανισμένες σε βαθύ λάδι μέχρι να γίνουν χρυσαφένιες και τραγανές. Η επικάλυψη είναι ελαφριά και τραγανή, ενώ το καλαμάρι μέσα μένει τρυφερό αν μαγειρευτεί γρήγορα. Σερβίρονται ζεστά με φέτες λεμονιού ως ορεκτικό ή μεζές σε όλη τη Μεσόγειο, τα Βαλκάνια και την Τουρκία, όπου το πιάτο είναι γνωστό ως kalamar.",
-      "history": "Το τηγάνισμα του καλαμαριού με αλεύρι είναι μακρόχρονη παράδοση στις παραθαλάσσιες κουζίνες γύρω από τη Μεσόγειο, και το πιάτο είναι σήμερα σταθερή παρουσία στις παραθαλάσσιες ταβέρνες και στις ψαροταβέρνες όλης της περιοχής.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "600 γρ. καθαρισμένο καλαμάρι, σε ροδέλες",
-          "100 γρ. αλεύρι",
-          "1 κ.γ. αλάτι, ½ κ.γ. μαύρο πιπέρι",
-          "Λάδι για βαθύ τηγάνισμα",
-          "1 λεμόνι, σε φέτες"
-        ],
-        "steps": [
-          "Στεγνώστε τις ροδέλες καλαμαριού με χαρτί κουζίνας.",
-          "Ανακατέψτε το αλεύρι με το αλάτι και το πιπέρι και αλευρώστε το καλαμάρι, τινάζοντας το περίσσιο.",
-          "Ζεστάνετε το λάδι στους 180 °C και τηγανίστε το καλαμάρι σε μικρές δόσεις για 1–2 λεπτά μέχρι να πάρει ανοιχτό χρυσαφί χρώμα.",
-          "Στραγγίξτε σε χαρτί κουζίνας και σερβίρετε αμέσως με φέτες λεμονιού."
-        ]
-      },
-      "tips": [
-        "Το ψητό ή σοταρισμένο καλαμάρι με λεμόνι έχει πολύ λιγότερες θερμίδες από το τηγανητό.",
-        "Μοιραστείτε μια πιατέλα ως ορεκτικό και χορτάστε με σαλάτα.",
-        "Παραλείψτε τις κρεμώδεις σάλτσες και χρησιμοποιήστε χυμό λεμονιού."
-      ]
-    },
-    "ru": {
-      "name": "Жареные кальмары",
-      "origin": "Средиземноморье",
-      "intro": "Жареные кальмары — кольца кальмара, обваленные в муке и обжаренные во фритюре до золотистого цвета и хруста. Панировка лёгкая и хрустящая, а кальмар внутри остаётся нежным, если готовить его быстро. Их подают горячими с дольками лимона как закуску или к пиву по всему Средиземноморью, на Балканах и в Турции, где блюдо известно как каламар.",
-      "history": "Жарка кальмаров в муке — давняя традиция прибрежных кухонь вокруг Средиземного моря, и сейчас это блюдо — неотъемлемая часть приморских таверн и рыбных ресторанов всего региона.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "600 г очищенных кальмаров, кольцами",
-          "100 г муки",
-          "1 ч. л. соли, ½ ч. л. чёрного перца",
-          "Масло для жарки во фритюре",
-          "1 лимон, нарезанный дольками"
-        ],
-        "steps": [
-          "Обсушите кольца кальмара бумажными полотенцами.",
-          "Смешайте муку с солью и перцем и обваляйте в ней кальмаров, стряхнув излишки.",
-          "Нагрейте масло до 180 °C и жарьте кальмаров небольшими порциями 1–2 минуты до светло-золотистого цвета.",
-          "Обсушите на бумажных полотенцах и сразу подавайте с дольками лимона."
-        ]
-      },
-      "tips": [
-        "Кальмары на гриле или обжаренные на сковороде с лимоном содержат гораздо меньше калорий, чем жареные.",
-        "Делите тарелку как закуску и наедайтесь салатом.",
-        "Откажитесь от сливочных соусов и используйте лимонный сок."
-      ],
-      "name_inline": "жареные кальмары"
-    }
+  "ar": {
+   "name": "كاليماري مقلي",
+   "origin": "البحر المتوسط",
+   "intro": "الكاليماري المقلي حلقات حبار تُغلَّف بالدقيق وتُقلى في زيت غزير حتى تصبح ذهبية مقرمشة. الطبقة الخارجية خفيفة مقرمشة، ويبقى الحبار طرياً من الداخل إذا قُلي بسرعة. يُقدَّم ساخناً مع شرائح الليمون مقبّلاً أو وجبة خفيفة في أنحاء المتوسط والبلقان وتركيا حيث يُعرف باسم كالامار.",
+   "history": "قلي الحبار بالدقيق تقليد راسخ في مطابخ سواحل البحر المتوسط، وأصبح الطبق اليوم ثابتاً في الحانات الساحلية ومطاعم السمك في المنطقة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "600 غ حبار منظّف، مقطّع حلقات",
+     "100 غ دقيق",
+     "1 ملعقة صغيرة ملح، ½ ملعقة صغيرة فلفل أسود",
+     "زيت للقلي العميق",
+     "1 ليمونة، مقطّعة أرباعاً"
+    ],
+    "steps": [
+     "جفّف حلقات الحبار بمناديل ورقية.",
+     "اخلط الدقيق بالملح والفلفل وقلّب الحبار فيه ثم انفض الزائد.",
+     "سخّن الزيت إلى 180 °م واقلِ الحبار على دفعات صغيرة لمدة دقيقة إلى دقيقتين حتى يصبح ذهبياً فاتحاً.",
+     "صفّه على مناديل ورقية وقدّمه فوراً مع الليمون."
+    ]
+   },
+   "tips": [
+    "الحبار المشوي أو المحمّر في المقلاة مع الليمون أقل سعرات بكثير من المقلي.",
+    "تشارك الطبق مقبّلاً واملأ طبقك بالسلطة.",
+    "استغنِ عن الصلصات الكريمية واستخدم عصير الليمون بدلاً منها."
+   ]
+  },
+  "it": {
+   "name": "Calamari fritti",
+   "name_inline": "calamari fritti",
+   "origin": "Mediterraneo",
+   "intro": "I calamari fritti sono anelli di calamaro passati nella farina e fritti in abbondante olio finché sono dorati e croccanti. La panatura è leggera e croccante, mentre il calamaro all'interno resta tenero se cotto velocemente. Si servono caldi con spicchi di limone come antipasto o stuzzichino da bar in tutto il Mediterraneo, nei Balcani e in Turchia, dove il piatto è conosciuto come kalamar.",
+   "history": "Friggere il calamaro infarinato è una tradizione di lunga data nelle cucine costiere del Mediterraneo, e oggi il piatto è una presenza fissa nelle taverne di mare e nei ristoranti di pesce di tutta la regione.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "600 g di calamari puliti, tagliati ad anelli",
+     "100 g di farina",
+     "1 cucchiaino di sale, ½ cucchiaino di pepe nero",
+     "Olio per friggere",
+     "1 limone a spicchi"
+    ],
+    "steps": [
+     "Asciuga gli anelli di calamaro tamponandoli con carta da cucina.",
+     "Mescola la farina con sale e pepe e passaci i calamari, scuotendo via l'eccesso.",
+     "Scalda l'olio a 180 °C e friggi i calamari pochi alla volta per 1–2 minuti finché sono appena dorati.",
+     "Scola su carta da cucina e servi subito con spicchi di limone."
+    ]
+   },
+   "tips": [
+    "Il calamaro alla griglia o scottato in padella con limone ha molte meno calorie della versione fritta.",
+    "Dividi un piatto come antipasto e saziati con l'insalata.",
+    "Evita le salse cremose e usa invece il succo di limone."
+   ]
+  },
+  "el": {
+   "name": "Καλαμάρια τηγανητά",
+   "name_inline": "καλαμάρια τηγανητά",
+   "origin": "Μεσόγειος",
+   "intro": "Τα καλαμάρια τηγανητά είναι ροδέλες καλαμαριού αλευρωμένες και τηγανισμένες σε βαθύ λάδι μέχρι να γίνουν χρυσαφένιες και τραγανές. Η επικάλυψη είναι ελαφριά και τραγανή, ενώ το καλαμάρι μέσα μένει τρυφερό αν μαγειρευτεί γρήγορα. Σερβίρονται ζεστά με φέτες λεμονιού ως ορεκτικό ή μεζές σε όλη τη Μεσόγειο, τα Βαλκάνια και την Τουρκία, όπου το πιάτο είναι γνωστό ως kalamar.",
+   "history": "Το τηγάνισμα του καλαμαριού με αλεύρι είναι μακρόχρονη παράδοση στις παραθαλάσσιες κουζίνες γύρω από τη Μεσόγειο, και το πιάτο είναι σήμερα σταθερή παρουσία στις παραθαλάσσιες ταβέρνες και στις ψαροταβέρνες όλης της περιοχής.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "600 γρ. καθαρισμένο καλαμάρι, σε ροδέλες",
+     "100 γρ. αλεύρι",
+     "1 κ.γ. αλάτι, ½ κ.γ. μαύρο πιπέρι",
+     "Λάδι για βαθύ τηγάνισμα",
+     "1 λεμόνι, σε φέτες"
+    ],
+    "steps": [
+     "Στεγνώστε τις ροδέλες καλαμαριού με χαρτί κουζίνας.",
+     "Ανακατέψτε το αλεύρι με το αλάτι και το πιπέρι και αλευρώστε το καλαμάρι, τινάζοντας το περίσσιο.",
+     "Ζεστάνετε το λάδι στους 180 °C και τηγανίστε το καλαμάρι σε μικρές δόσεις για 1–2 λεπτά μέχρι να πάρει ανοιχτό χρυσαφί χρώμα.",
+     "Στραγγίξτε σε χαρτί κουζίνας και σερβίρετε αμέσως με φέτες λεμονιού."
+    ]
+   },
+   "tips": [
+    "Το ψητό ή σοταρισμένο καλαμάρι με λεμόνι έχει πολύ λιγότερες θερμίδες από το τηγανητό.",
+    "Μοιραστείτε μια πιατέλα ως ορεκτικό και χορτάστε με σαλάτα.",
+    "Παραλείψτε τις κρεμώδεις σάλτσες και χρησιμοποιήστε χυμό λεμονιού."
+   ]
+  },
+  "ru": {
+   "name": "Жареные кальмары",
+   "origin": "Средиземноморье",
+   "intro": "Жареные кальмары — кольца кальмара, обваленные в муке и обжаренные во фритюре до золотистого цвета и хруста. Панировка лёгкая и хрустящая, а кальмар внутри остаётся нежным, если готовить его быстро. Их подают горячими с дольками лимона как закуску или к пиву по всему Средиземноморью, на Балканах и в Турции, где блюдо известно как каламар.",
+   "history": "Жарка кальмаров в муке — давняя традиция прибрежных кухонь вокруг Средиземного моря, и сейчас это блюдо — неотъемлемая часть приморских таверн и рыбных ресторанов всего региона.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "600 г очищенных кальмаров, кольцами",
+     "100 г муки",
+     "1 ч. л. соли, ½ ч. л. чёрного перца",
+     "Масло для жарки во фритюре",
+     "1 лимон, нарезанный дольками"
+    ],
+    "steps": [
+     "Обсушите кольца кальмара бумажными полотенцами.",
+     "Смешайте муку с солью и перцем и обваляйте в ней кальмаров, стряхнув излишки.",
+     "Нагрейте масло до 180 °C и жарьте кальмаров небольшими порциями 1–2 минуты до светло-золотистого цвета.",
+     "Обсушите на бумажных полотенцах и сразу подавайте с дольками лимона."
+    ]
+   },
+   "tips": [
+    "Кальмары на гриле или обжаренные на сковороде с лимоном содержат гораздо меньше калорий, чем жареные.",
+    "Делите тарелку как закуску и наедайтесь салатом.",
+    "Откажитесь от сливочных соусов и используйте лимонный сок."
+   ],
+   "name_inline": "жареные кальмары"
+  },
+  "es": {
+   "name": "Calamares fritos",
+   "origin": "Mediterráneo",
+   "intro": "Los calamares fritos son anillas de calamar pasadas por harina y fritas en abundante aceite hasta quedar doradas y crujientes. El rebozado es ligero y crocante, y el calamar por dentro se mantiene tierno si se cocina rápido. Se sirven calientes con gajos de limón como entrada o botana en todo el Mediterráneo, los Balcanes y Turquía, donde el plato se conoce como kalamar.",
+   "history": "Freír el calamar con harina es una larga tradición en las cocinas costeras del Mediterráneo, y el plato es hoy un clásico de las tabernas y restaurantes de pescado junto al mar en toda la región.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "600 g de calamar limpio, cortado en anillas",
+     "100 g de harina",
+     "1 cdta. de sal, ½ cdta. de pimienta negra",
+     "Aceite para freír",
+     "1 limón, cortado en gajos"
+    ],
+    "steps": [
+     "Seca bien las anillas de calamar con papel de cocina.",
+     "Mezcla la harina con la sal y la pimienta, pasa el calamar por ella y sacude el exceso.",
+     "Calienta el aceite a 180 °C y fríe el calamar en tandas pequeñas de 1 a 2 minutos, hasta que esté ligeramente dorado.",
+     "Escurre sobre papel de cocina y sirve de inmediato con gajos de limón."
+    ]
+   },
+   "tips": [
+    "El calamar a la plancha o salteado con limón tiene muchas menos calorías que el frito.",
+    "Comparte un plato como entrada y llénate con ensalada.",
+    "Evita las salsas cremosas y usa jugo de limón."
+   ],
+   "name_inline": "los calamares fritos"
   }
+ }
 }

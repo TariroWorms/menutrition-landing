@@ -1,171 +1,203 @@
 {
-  "db_key": "vegetable_biryani",
-  "slug": "vegetable-biryani",
-  "emoji": "🍛",
-  "portion_g": 300,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "vegetable_biryani",
+ "slug": "vegetable-biryani",
+ "emoji": "🍛",
+ "portion_g": 300,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Vegetable Biryani",
+   "origin": "India · Hyderabad and Lucknow",
+   "intro": "Vegetable biryani layers long-grain basmati rice with spiced mixed vegetables, golden fried onions and saffron, then steams it slowly so the flavours mingle. A spoonful of ghee gives it richness and aroma. The rice stays fluffy and separate, streaked with yellow saffron, and it is often served with raita and a simple salad.",
+   "history": "Biryani is generally associated with the royal kitchens of Mughal India, and Hyderabad and Lucknow became famous for their own styles; vegetable versions are widely cooked across India, especially in vegetarian households.",
+   "recipe": {
+    "ingredients": [
+     "300 g basmati rice",
+     "400 g mixed vegetables (carrot, beans, peas, cauliflower)",
+     "2 onions, thinly sliced",
+     "2 tbsp ghee",
+     "2 tsp garam masala",
+     "A pinch of saffron soaked in 3 tbsp warm water",
+     "1 tsp salt"
+    ],
+    "steps": [
+     "Soak the rice 30 minutes, then boil in salted water for 5–6 minutes until about 70% cooked; drain.",
+     "Fry the onions in ghee until golden; set half aside.",
+     "Add the vegetables and garam masala to the pan and cook 8–10 minutes with a splash of water.",
+     "Layer half the rice over the vegetables, then the rest, and top with fried onions and the saffron water.",
+     "Cover tightly and cook on very low heat for 20 minutes, then fluff gently and serve."
+    ],
+    "servings": 4,
+    "time_min": 70
+   },
+   "tips": [
+    "Measure the ghee — 1 tbsp ghee ≈ 120 kcal — and use just enough to fry the onions.",
+    "Increase the vegetables and reduce the rice for a lighter plate.",
+    "Serve with a fresh salad rather than fried sides."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Vegetable Biryani",
-      "origin": "India · Hyderabad and Lucknow",
-      "intro": "Vegetable biryani layers long-grain basmati rice with spiced mixed vegetables, golden fried onions and saffron, then steams it slowly so the flavours mingle. A spoonful of ghee gives it richness and aroma. The rice stays fluffy and separate, streaked with yellow saffron, and it is often served with raita and a simple salad.",
-      "history": "Biryani is generally associated with the royal kitchens of Mughal India, and Hyderabad and Lucknow became famous for their own styles; vegetable versions are widely cooked across India, especially in vegetarian households.",
-      "recipe": {
-        "ingredients": [
-          "300 g basmati rice",
-          "400 g mixed vegetables (carrot, beans, peas, cauliflower)",
-          "2 onions, thinly sliced",
-          "2 tbsp ghee",
-          "2 tsp garam masala",
-          "A pinch of saffron soaked in 3 tbsp warm water",
-          "1 tsp salt"
-        ],
-        "steps": [
-          "Soak the rice 30 minutes, then boil in salted water for 5–6 minutes until about 70% cooked; drain.",
-          "Fry the onions in ghee until golden; set half aside.",
-          "Add the vegetables and garam masala to the pan and cook 8–10 minutes with a splash of water.",
-          "Layer half the rice over the vegetables, then the rest, and top with fried onions and the saffron water.",
-          "Cover tightly and cook on very low heat for 20 minutes, then fluff gently and serve."
-        ],
-        "servings": 4,
-        "time_min": 70
-      },
-      "tips": [
-        "Measure the ghee — 1 tbsp ghee ≈ 120 kcal — and use just enough to fry the onions.",
-        "Increase the vegetables and reduce the rice for a lighter plate.",
-        "Serve with a fresh salad rather than fried sides."
-      ]
-    },
-    "ar": {
-      "name": "برياني الخضار",
-      "origin": "الهند · حيدر آباد ولكناو",
-      "intro": "برياني الخضار طبقات من أرز البسمتي طويل الحبة مع خضار مشكلة متبلة وبصل مقلي ذهبي وزعفران، يُطهى على البخار ببطء حتى تتداخل النكهات. وتمنحه ملعقة من السمن غنى ورائحة. يبقى الأرز هشًا منفصل الحبات، مخططًا بلون الزعفران الأصفر، ويُقدَّم غالبًا مع الرايتا وسلطة بسيطة.",
-      "history": "يرتبط البرياني عادةً بالمطابخ الملكية للهند المغولية، واشتهرت حيدر آباد ولكناو بأساليبهما الخاصة فيه، وتُطهى نسخ الخضار على نطاق واسع في أنحاء الهند، ولا سيما في البيوت النباتية.",
-      "recipe": {
-        "ingredients": [
-          "300 غ أرز بسمتي",
-          "400 غ خضار مشكلة (جزر، فاصوليا، بازلاء، قرنبيط)",
-          "بصلتان مقطعتان شرائح رفيعة",
-          "2 ملعقة كبيرة سمن",
-          "2 ملعقة صغيرة غرام ماسالا",
-          "رشة زعفران منقوعة في 3 ملاعق كبيرة ماء دافئ",
-          "ملعقة صغيرة ملح"
-        ],
-        "steps": [
-          "انقع الأرز 30 دقيقة، ثم اسلقه في ماء مملح 5–6 دقائق حتى ينضج بنسبة 70% تقريبًا وصفّه.",
-          "اقلِ البصل في السمن حتى يصبح ذهبيًا، وارفع نصفه جانبًا.",
-          "أضف الخضار والغرام ماسالا إلى القدر واطهها 8–10 دقائق مع قليل من الماء.",
-          "رتّب نصف الأرز فوق الخضار ثم الباقي، وأضف البصل المقلي وماء الزعفران على الوجه.",
-          "غطِّ القدر بإحكام واطهه على نار هادئة جدًا 20 دقيقة، ثم قلّبه برفق وقدّمه."
-        ],
-        "servings": 4,
-        "time_min": 70
-      },
-      "tips": [
-        "قِس السمن — ملعقة كبيرة سمن ≈ 120 سعرة — واستخدم ما يكفي لقلي البصل فقط.",
-        "زِد الخضار وقلّل الأرز لطبق أخف.",
-        "قدّمه مع سلطة طازجة بدل الأطباق الجانبية المقلية."
-      ]
-    },
-    "it": {
-      "name": "Biryani di verdure",
-      "name_inline": "biryani di verdure",
-      "origin": "India · Hyderabad e Lucknow",
-      "intro": "Il biryani di verdure alterna strati di riso basmati a chicco lungo e verdure miste speziate, cipolle fritte dorate e zafferano, poi si cuoce lentamente al vapore perché i sapori si fondano. Un cucchiaio di ghee gli dà ricchezza e profumo. Il riso resta soffice e sgranato, striato del giallo dello zafferano, e spesso si serve con raita e una semplice insalata.",
-      "history": "Il biryani è generalmente associato alle cucine reali dell'India moghul, e Hyderabad e Lucknow sono diventate famose per i propri stili; le versioni con verdure si cucinano ovunque in India, soprattutto nelle famiglie vegetariane.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "300 g di riso basmati",
-          "400 g di verdure miste (carota, fagiolini, piselli, cavolfiore)",
-          "2 cipolle, a fettine sottili",
-          "2 cucchiai di ghee",
-          "2 cucchiaini di garam masala",
-          "Un pizzico di zafferano in ammollo in 3 cucchiai di acqua tiepida",
-          "1 cucchiaino di sale"
-        ],
-        "steps": [
-          "Metti a bagno il riso per 30 minuti, poi lessalo in acqua salata per 5–6 minuti finché è cotto per circa il 70%; scolalo.",
-          "Friggi le cipolle nel ghee finché sono dorate; mettine da parte metà.",
-          "Aggiungi in padella le verdure e il garam masala e cuoci per 8–10 minuti con un goccio d'acqua.",
-          "Disponi metà del riso sulle verdure, poi il resto, e completa con le cipolle fritte e l'acqua allo zafferano.",
-          "Copri bene e cuoci a fuoco bassissimo per 20 minuti, poi sgrana delicatamente e servi."
-        ]
-      },
-      "tips": [
-        "Misura il ghee (1 cucchiaio di ghee ≈ 120 kcal) e usane solo quanto basta per friggere le cipolle.",
-        "Aumenta le verdure e riduci il riso per un piatto più leggero.",
-        "Servilo con un'insalata fresca invece che con contorni fritti."
-      ]
-    },
-    "el": {
-      "name": "Μπιριάνι λαχανικών",
-      "origin": "Ινδία · Χαϊντεραμπάντ και Λάκναου",
-      "intro": "Το μπιριάνι λαχανικών στρώνει μακρύσπερμο ρύζι μπασμάτι με μπαχαρένια ανάμεικτα λαχανικά, χρυσά τηγανητά κρεμμύδια και σαφράν, και μετά μαγειρεύεται αργά στον ατμό ώστε να δέσουν οι γεύσεις. Μια κουταλιά γκι του δίνει πλούτο και άρωμα. Το ρύζι μένει αφράτο και σπυρωτό, με κίτρινες ραβδώσεις από το σαφράν, και συχνά σερβίρεται με ράιτα και μια απλή σαλάτα.",
-      "history": "Το μπιριάνι συνδέεται γενικά με τις βασιλικές κουζίνες της Ινδίας των Μογγόλων, και το Χαϊντεραμπάντ και το Λάκναου έγιναν διάσημα για τα δικά τους στυλ· οι εκδοχές με λαχανικά μαγειρεύονται ευρέως σε όλη την Ινδία, ιδίως σε χορτοφαγικά νοικοκυριά.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "300 γρ. ρύζι μπασμάτι",
-          "400 γρ. ανάμεικτα λαχανικά (καρότο, φασολάκια, αρακάς, κουνουπίδι)",
-          "2 κρεμμύδια, σε λεπτές φέτες",
-          "2 κ.σ. γκι",
-          "2 κ.γ. γκαράμ μασάλα",
-          "Μια πρέζα σαφράν μουλιασμένο σε 3 κ.σ. χλιαρό νερό",
-          "1 κ.γ. αλάτι"
-        ],
-        "steps": [
-          "Μουλιάστε το ρύζι για 30 λεπτά και βράστε το σε αλατισμένο νερό για 5–6 λεπτά, μέχρι να μαγειρευτεί κατά 70% περίπου· σουρώστε.",
-          "Τηγανίστε τα κρεμμύδια στο γκι μέχρι να ροδίσουν· κρατήστε τα μισά στην άκρη.",
-          "Προσθέστε στο σκεύος τα λαχανικά και το γκαράμ μασάλα και μαγειρέψτε 8–10 λεπτά με λίγο νερό.",
-          "Στρώστε το μισό ρύζι πάνω στα λαχανικά, μετά το υπόλοιπο, και τελειώστε με τα τηγανητά κρεμμύδια και το νερό με το σαφράν.",
-          "Σκεπάστε καλά και μαγειρέψτε σε πολύ χαμηλή φωτιά για 20 λεπτά, ανακατέψτε απαλά με πιρούνι και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Μετρήστε το γκι — 1 κ.σ. γκι ≈ 120 kcal — και βάλτε μόνο όσο χρειάζεται για να τηγανιστούν τα κρεμμύδια.",
-        "Αυξήστε τα λαχανικά και μειώστε το ρύζι για πιο ελαφρύ πιάτο.",
-        "Σερβίρετε με φρέσκια σαλάτα αντί για τηγανητά συνοδευτικά."
-      ]
-    },
-    "ru": {
-      "name": "Бирьяни с овощами",
-      "origin": "Индия · Хайдарабад и Лакхнау",
-      "intro": "Овощное бирьяни — это слои длиннозёрного риса басмати с пряными смешанными овощами, золотистым жареным луком и шафраном, которые медленно томятся на пару, чтобы вкусы смешались. Ложка гхи придаёт насыщенность и аромат. Рис остаётся рассыпчатым, с жёлтыми прожилками шафрана, и его часто подают с райтой и простым салатом.",
-      "history": "Бирьяни обычно связывают с королевскими кухнями Могольской Индии, а Хайдарабад и Лакхнау прославились собственными стилями; овощные версии широко готовят по всей Индии, особенно в вегетарианских семьях.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "300 г риса басмати",
-          "400 г смеси овощей (морковь, фасоль, горох, цветная капуста)",
-          "2 луковицы, тонко нарезанные",
-          "2 ст. л. гхи",
-          "2 ч. л. гарам масалы",
-          "Щепотка шафрана, замоченного в 3 ст. л. тёплой воды",
-          "1 ч. л. соли"
-        ],
-        "steps": [
-          "Замочите рис на 30 минут, затем варите в подсоленной воде 5–6 минут примерно до 70% готовности; слейте воду.",
-          "Обжарьте лук в гхи до золотистого цвета; половину отложите.",
-          "Добавьте на сковороду овощи и гарам масалу и готовьте 8–10 минут с небольшим количеством воды.",
-          "Выложите половину риса на овощи, затем остальной рис, и сверху положите жареный лук и воду с шафраном.",
-          "Плотно накройте и готовьте на самом слабом огне 20 минут, затем осторожно разрыхлите и подавайте."
-        ]
-      },
-      "tips": [
-        "Отмеряйте гхи — 1 ст. л. гхи ≈ 120 ккал — и используйте ровно столько, сколько нужно для обжаривания лука.",
-        "Увеличьте количество овощей и уменьшите количество риса для более лёгкой порции.",
-        "Подавайте со свежим салатом, а не с жареными гарнирами."
-      ],
-      "name_inline": "овощное бирьяни"
-    }
+  "ar": {
+   "name": "برياني الخضار",
+   "origin": "الهند · حيدر آباد ولكناو",
+   "intro": "برياني الخضار طبقات من أرز البسمتي طويل الحبة مع خضار مشكلة متبلة وبصل مقلي ذهبي وزعفران، يُطهى على البخار ببطء حتى تتداخل النكهات. وتمنحه ملعقة من السمن غنى ورائحة. يبقى الأرز هشًا منفصل الحبات، مخططًا بلون الزعفران الأصفر، ويُقدَّم غالبًا مع الرايتا وسلطة بسيطة.",
+   "history": "يرتبط البرياني عادةً بالمطابخ الملكية للهند المغولية، واشتهرت حيدر آباد ولكناو بأساليبهما الخاصة فيه، وتُطهى نسخ الخضار على نطاق واسع في أنحاء الهند، ولا سيما في البيوت النباتية.",
+   "recipe": {
+    "ingredients": [
+     "300 غ أرز بسمتي",
+     "400 غ خضار مشكلة (جزر، فاصوليا، بازلاء، قرنبيط)",
+     "بصلتان مقطعتان شرائح رفيعة",
+     "2 ملعقة كبيرة سمن",
+     "2 ملعقة صغيرة غرام ماسالا",
+     "رشة زعفران منقوعة في 3 ملاعق كبيرة ماء دافئ",
+     "ملعقة صغيرة ملح"
+    ],
+    "steps": [
+     "انقع الأرز 30 دقيقة، ثم اسلقه في ماء مملح 5–6 دقائق حتى ينضج بنسبة 70% تقريبًا وصفّه.",
+     "اقلِ البصل في السمن حتى يصبح ذهبيًا، وارفع نصفه جانبًا.",
+     "أضف الخضار والغرام ماسالا إلى القدر واطهها 8–10 دقائق مع قليل من الماء.",
+     "رتّب نصف الأرز فوق الخضار ثم الباقي، وأضف البصل المقلي وماء الزعفران على الوجه.",
+     "غطِّ القدر بإحكام واطهه على نار هادئة جدًا 20 دقيقة، ثم قلّبه برفق وقدّمه."
+    ],
+    "servings": 4,
+    "time_min": 70
+   },
+   "tips": [
+    "قِس السمن — ملعقة كبيرة سمن ≈ 120 سعرة — واستخدم ما يكفي لقلي البصل فقط.",
+    "زِد الخضار وقلّل الأرز لطبق أخف.",
+    "قدّمه مع سلطة طازجة بدل الأطباق الجانبية المقلية."
+   ]
+  },
+  "it": {
+   "name": "Biryani di verdure",
+   "name_inline": "biryani di verdure",
+   "origin": "India · Hyderabad e Lucknow",
+   "intro": "Il biryani di verdure alterna strati di riso basmati a chicco lungo e verdure miste speziate, cipolle fritte dorate e zafferano, poi si cuoce lentamente al vapore perché i sapori si fondano. Un cucchiaio di ghee gli dà ricchezza e profumo. Il riso resta soffice e sgranato, striato del giallo dello zafferano, e spesso si serve con raita e una semplice insalata.",
+   "history": "Il biryani è generalmente associato alle cucine reali dell'India moghul, e Hyderabad e Lucknow sono diventate famose per i propri stili; le versioni con verdure si cucinano ovunque in India, soprattutto nelle famiglie vegetariane.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "300 g di riso basmati",
+     "400 g di verdure miste (carota, fagiolini, piselli, cavolfiore)",
+     "2 cipolle, a fettine sottili",
+     "2 cucchiai di ghee",
+     "2 cucchiaini di garam masala",
+     "Un pizzico di zafferano in ammollo in 3 cucchiai di acqua tiepida",
+     "1 cucchiaino di sale"
+    ],
+    "steps": [
+     "Metti a bagno il riso per 30 minuti, poi lessalo in acqua salata per 5–6 minuti finché è cotto per circa il 70%; scolalo.",
+     "Friggi le cipolle nel ghee finché sono dorate; mettine da parte metà.",
+     "Aggiungi in padella le verdure e il garam masala e cuoci per 8–10 minuti con un goccio d'acqua.",
+     "Disponi metà del riso sulle verdure, poi il resto, e completa con le cipolle fritte e l'acqua allo zafferano.",
+     "Copri bene e cuoci a fuoco bassissimo per 20 minuti, poi sgrana delicatamente e servi."
+    ]
+   },
+   "tips": [
+    "Misura il ghee (1 cucchiaio di ghee ≈ 120 kcal) e usane solo quanto basta per friggere le cipolle.",
+    "Aumenta le verdure e riduci il riso per un piatto più leggero.",
+    "Servilo con un'insalata fresca invece che con contorni fritti."
+   ]
+  },
+  "el": {
+   "name": "Μπιριάνι λαχανικών",
+   "origin": "Ινδία · Χαϊντεραμπάντ και Λάκναου",
+   "intro": "Το μπιριάνι λαχανικών στρώνει μακρύσπερμο ρύζι μπασμάτι με μπαχαρένια ανάμεικτα λαχανικά, χρυσά τηγανητά κρεμμύδια και σαφράν, και μετά μαγειρεύεται αργά στον ατμό ώστε να δέσουν οι γεύσεις. Μια κουταλιά γκι του δίνει πλούτο και άρωμα. Το ρύζι μένει αφράτο και σπυρωτό, με κίτρινες ραβδώσεις από το σαφράν, και συχνά σερβίρεται με ράιτα και μια απλή σαλάτα.",
+   "history": "Το μπιριάνι συνδέεται γενικά με τις βασιλικές κουζίνες της Ινδίας των Μογγόλων, και το Χαϊντεραμπάντ και το Λάκναου έγιναν διάσημα για τα δικά τους στυλ· οι εκδοχές με λαχανικά μαγειρεύονται ευρέως σε όλη την Ινδία, ιδίως σε χορτοφαγικά νοικοκυριά.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "300 γρ. ρύζι μπασμάτι",
+     "400 γρ. ανάμεικτα λαχανικά (καρότο, φασολάκια, αρακάς, κουνουπίδι)",
+     "2 κρεμμύδια, σε λεπτές φέτες",
+     "2 κ.σ. γκι",
+     "2 κ.γ. γκαράμ μασάλα",
+     "Μια πρέζα σαφράν μουλιασμένο σε 3 κ.σ. χλιαρό νερό",
+     "1 κ.γ. αλάτι"
+    ],
+    "steps": [
+     "Μουλιάστε το ρύζι για 30 λεπτά και βράστε το σε αλατισμένο νερό για 5–6 λεπτά, μέχρι να μαγειρευτεί κατά 70% περίπου· σουρώστε.",
+     "Τηγανίστε τα κρεμμύδια στο γκι μέχρι να ροδίσουν· κρατήστε τα μισά στην άκρη.",
+     "Προσθέστε στο σκεύος τα λαχανικά και το γκαράμ μασάλα και μαγειρέψτε 8–10 λεπτά με λίγο νερό.",
+     "Στρώστε το μισό ρύζι πάνω στα λαχανικά, μετά το υπόλοιπο, και τελειώστε με τα τηγανητά κρεμμύδια και το νερό με το σαφράν.",
+     "Σκεπάστε καλά και μαγειρέψτε σε πολύ χαμηλή φωτιά για 20 λεπτά, ανακατέψτε απαλά με πιρούνι και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Μετρήστε το γκι — 1 κ.σ. γκι ≈ 120 kcal — και βάλτε μόνο όσο χρειάζεται για να τηγανιστούν τα κρεμμύδια.",
+    "Αυξήστε τα λαχανικά και μειώστε το ρύζι για πιο ελαφρύ πιάτο.",
+    "Σερβίρετε με φρέσκια σαλάτα αντί για τηγανητά συνοδευτικά."
+   ]
+  },
+  "ru": {
+   "name": "Бирьяни с овощами",
+   "origin": "Индия · Хайдарабад и Лакхнау",
+   "intro": "Овощное бирьяни — это слои длиннозёрного риса басмати с пряными смешанными овощами, золотистым жареным луком и шафраном, которые медленно томятся на пару, чтобы вкусы смешались. Ложка гхи придаёт насыщенность и аромат. Рис остаётся рассыпчатым, с жёлтыми прожилками шафрана, и его часто подают с райтой и простым салатом.",
+   "history": "Бирьяни обычно связывают с королевскими кухнями Могольской Индии, а Хайдарабад и Лакхнау прославились собственными стилями; овощные версии широко готовят по всей Индии, особенно в вегетарианских семьях.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "300 г риса басмати",
+     "400 г смеси овощей (морковь, фасоль, горох, цветная капуста)",
+     "2 луковицы, тонко нарезанные",
+     "2 ст. л. гхи",
+     "2 ч. л. гарам масалы",
+     "Щепотка шафрана, замоченного в 3 ст. л. тёплой воды",
+     "1 ч. л. соли"
+    ],
+    "steps": [
+     "Замочите рис на 30 минут, затем варите в подсоленной воде 5–6 минут примерно до 70% готовности; слейте воду.",
+     "Обжарьте лук в гхи до золотистого цвета; половину отложите.",
+     "Добавьте на сковороду овощи и гарам масалу и готовьте 8–10 минут с небольшим количеством воды.",
+     "Выложите половину риса на овощи, затем остальной рис, и сверху положите жареный лук и воду с шафраном.",
+     "Плотно накройте и готовьте на самом слабом огне 20 минут, затем осторожно разрыхлите и подавайте."
+    ]
+   },
+   "tips": [
+    "Отмеряйте гхи — 1 ст. л. гхи ≈ 120 ккал — и используйте ровно столько, сколько нужно для обжаривания лука.",
+    "Увеличьте количество овощей и уменьшите количество риса для более лёгкой порции.",
+    "Подавайте со свежим салатом, а не с жареными гарнирами."
+   ],
+   "name_inline": "овощное бирьяни"
+  },
+  "es": {
+   "name": "Biryani de verduras",
+   "origin": "India · Hyderabad y Lucknow",
+   "intro": "El biryani de verduras alterna capas de arroz basmati de grano largo con verduras mixtas especiadas, cebolla dorada frita y azafrán, y se cuece lentamente al vapor para que los sabores se integren. Una cucharada de ghee le da riqueza y aroma. El arroz queda suelto y esponjoso, veteado de amarillo por el azafrán, y suele servirse con raita y una ensalada sencilla.",
+   "history": "El biryani se asocia por lo general con las cocinas reales de la India mogola, y Hyderabad y Lucknow se hicieron famosas por sus propios estilos; las versiones de verduras se cocinan ampliamente por toda la India, sobre todo en hogares vegetarianos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "300 g de arroz basmati",
+     "400 g de verduras mixtas (zanahoria, ejotes, chícharos, coliflor)",
+     "2 cebollas, en rodajas finas",
+     "2 cdas. de ghee",
+     "2 cdtas. de garam masala",
+     "Una pizca de azafrán remojada en 3 cdas. de agua tibia",
+     "1 cdta. de sal"
+    ],
+    "steps": [
+     "Remoja el arroz 30 minutos, luego hiérvelo en agua con sal de 5 a 6 minutos, hasta que esté cocido al 70 %; escúrrelo.",
+     "Fríe las cebollas en ghee hasta que estén doradas; reserva la mitad.",
+     "Agrega las verduras y el garam masala a la sartén y cocina de 8 a 10 minutos con un chorrito de agua.",
+     "Coloca la mitad del arroz sobre las verduras, luego el resto, y cubre con las cebollas fritas y el agua de azafrán.",
+     "Tapa bien y cocina a fuego muy bajo 20 minutos; después esponja con suavidad y sirve."
+    ]
+   },
+   "tips": [
+    "Mide el ghee (1 cda. de ghee ≈ 120 kcal) y usa solo el necesario para freír las cebollas.",
+    "Aumenta las verduras y reduce el arroz para un plato más ligero.",
+    "Sírvelo con una ensalada fresca en lugar de acompañamientos fritos."
+   ],
+   "name_inline": "el biryani de verduras"
   }
+ }
 }

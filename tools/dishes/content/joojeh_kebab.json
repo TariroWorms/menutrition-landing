@@ -1,175 +1,208 @@
 {
-  "db_key": "joojeh_kebab",
-  "slug": "joojeh-kebab",
-  "emoji": "🍢",
-  "portion_g": 400,
-  "country": "IR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "joojeh_kebab",
+ "slug": "joojeh-kebab",
+ "emoji": "🍢",
+ "portion_g": 400,
+ "country": "IR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Joojeh kabab (saffron chicken kebab)",
+   "origin": "Iran",
+   "intro": "Joojeh kabab is Persian grilled chicken: boneless pieces marinated in yogurt, grated onion, lemon juice and saffron, then threaded on skewers and cooked over charcoal. The meat stays tender and juicy with a bright yellow colour and a citrusy, floral aroma. It is brushed with melted butter and served with fluffy saffron basmati rice and grilled tomatoes.",
+   "history": "Joojeh means “young chicken” in Persian, and grilled kebabs served with rice (chelow) are a cornerstone of Iranian restaurant and family cooking. Joojeh kabab is eaten throughout Iran and is a fixture of Persian restaurants abroad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g boneless chicken thighs or breast, in 4 cm pieces",
+     "1 onion, grated",
+     "Juice of 2 lemons",
+     "150 g plain yogurt",
+     "1/2 tsp ground saffron steeped in 3 tbsp hot water",
+     "20 g butter, melted",
+     "300 g basmati rice",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Mix the onion, lemon juice, yogurt, half the saffron water, salt and pepper; marinate the chicken at least 4 hours or overnight.",
+     "Rinse and soak the rice 30 minutes, parboil 6 minutes, drain, then steam covered on low heat 30 minutes.",
+     "Thread the chicken on skewers and grill over hot charcoal 10–12 minutes, turning, until cooked through.",
+     "Mix the melted butter with the remaining saffron water and brush over the hot kebabs.",
+     "Serve on the rice with grilled tomatoes."
+    ]
+   },
+   "tips": [
+    "Chicken breast instead of thigh makes the kebab leaner.",
+    "Brush with butter only lightly or skip it; the saffron and lemon carry the flavour.",
+    "Serve a smaller mound of rice with a large herb salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Joojeh kabab (saffron chicken kebab)",
-      "origin": "Iran",
-      "intro": "Joojeh kabab is Persian grilled chicken: boneless pieces marinated in yogurt, grated onion, lemon juice and saffron, then threaded on skewers and cooked over charcoal. The meat stays tender and juicy with a bright yellow colour and a citrusy, floral aroma. It is brushed with melted butter and served with fluffy saffron basmati rice and grilled tomatoes.",
-      "history": "Joojeh means “young chicken” in Persian, and grilled kebabs served with rice (chelow) are a cornerstone of Iranian restaurant and family cooking. Joojeh kabab is eaten throughout Iran and is a fixture of Persian restaurants abroad.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 g boneless chicken thighs or breast, in 4 cm pieces",
-          "1 onion, grated",
-          "Juice of 2 lemons",
-          "150 g plain yogurt",
-          "1/2 tsp ground saffron steeped in 3 tbsp hot water",
-          "20 g butter, melted",
-          "300 g basmati rice",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Mix the onion, lemon juice, yogurt, half the saffron water, salt and pepper; marinate the chicken at least 4 hours or overnight.",
-          "Rinse and soak the rice 30 minutes, parboil 6 minutes, drain, then steam covered on low heat 30 minutes.",
-          "Thread the chicken on skewers and grill over hot charcoal 10–12 minutes, turning, until cooked through.",
-          "Mix the melted butter with the remaining saffron water and brush over the hot kebabs.",
-          "Serve on the rice with grilled tomatoes."
-        ]
-      },
-      "tips": [
-        "Chicken breast instead of thigh makes the kebab leaner.",
-        "Brush with butter only lightly or skip it; the saffron and lemon carry the flavour.",
-        "Serve a smaller mound of rice with a large herb salad."
-      ]
-    },
-    "ar": {
-      "name": "جوجه كباب",
-      "origin": "إيران",
-      "intro": "جوجه كباب دجاج مشوي على الطريقة الفارسية: قطع بلا عظم تُتبّل باللبن الزبادي والبصل المبشور وعصير الليمون والزعفران، ثم تُشكّ في الأسياخ وتُشوى على الفحم. يبقى اللحم طرياً عصيرياً بلون أصفر زاهٍ ورائحة حمضية زهرية. يُدهن بالزبدة المذابة ويُقدَّم مع أرز بسمتي منفوش بالزعفران وطماطم مشوية.",
-      "history": "كلمة «جوجه» تعني «الدجاج الصغير» بالفارسية، والكباب المشوي مع الأرز (الچلو) ركن أساسي في المطاعم والبيوت الإيرانية. ويُؤكل جوجه كباب في كل أنحاء إيران، وهو حاضر دائماً في المطاعم الفارسية خارجها.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 غ أفخاذ أو صدور دجاج بلا عظم، قطع 4 سم",
-          "1 بصلة مبشورة",
-          "عصير 2 ليمونة",
-          "150 غ لبن زبادي",
-          "نصف ملعقة صغيرة زعفران مطحون منقوع في 3 ملاعق كبيرة ماء ساخن",
-          "20 غ زبدة مذابة",
-          "300 غ أرز بسمتي",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "اخلط البصل وعصير الليمون والزبادي ونصف ماء الزعفران والملح والفلفل، وتبّل الدجاج 4 ساعات على الأقل أو ليلة كاملة.",
-          "اغسل الأرز وانقعه 30 دقيقة، واسلقه 6 دقائق وصفّه، ثم اطهُه على البخار مغطى على نار هادئة 30 دقيقة.",
-          "اشكّ الدجاج في الأسياخ واشوِه على فحم ساخن 10–12 دقيقة مع التقليب حتى ينضج.",
-          "اخلط الزبدة المذابة مع باقي ماء الزعفران وادهن الكباب الساخن.",
-          "قدّمه على الأرز مع الطماطم المشوية."
-        ]
-      },
-      "tips": [
-        "صدر الدجاج بدل الأفخاذ يجعل الكباب أخف.",
-        "ادهنه بالزبدة دهناً خفيفاً أو استغنِ عنها؛ الزعفران والليمون يكفيان للنكهة.",
-        "قدّم كمية أرز أصغر مع سلطة أعشاب كبيرة."
-      ]
-    },
-    "it": {
-      "name": "Joojeh kabab (kebab di pollo allo zafferano)",
-      "origin": "Iran",
-      "intro": "Il joojeh kabab è il pollo alla griglia persiano: pezzi disossati marinati in yogurt, cipolla grattugiata, succo di limone e zafferano, poi infilati negli spiedi e cotti sulla brace. La carne resta tenera e succosa, di un giallo acceso e con un profumo agrumato e floreale. Si spennella con burro fuso e si serve con soffice riso basmati allo zafferano e pomodori grigliati.",
-      "history": "Joojeh in persiano significa «pollo giovane», e i kebab alla griglia serviti con il riso (chelow) sono un pilastro della cucina iraniana dei ristoranti e delle famiglie. Il joojeh kabab si mangia in tutto l'Iran ed è un punto fermo dei ristoranti persiani all'estero.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 g di sovracosce o petto di pollo disossati, a pezzi di 4 cm",
-          "1 cipolla grattugiata",
-          "Succo di 2 limoni",
-          "150 g di yogurt bianco",
-          "1/2 cucchiaino di zafferano in polvere in infusione in 3 cucchiai di acqua calda",
-          "20 g di burro fuso",
-          "300 g di riso basmati",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Mescola cipolla, succo di limone, yogurt, metà dell'acqua allo zafferano, sale e pepe; marina il pollo per almeno 4 ore o tutta la notte.",
-          "Sciacqua il riso e mettilo in ammollo 30 minuti, sbollentalo 6 minuti, scolalo, poi cuocilo al vapore coperto a fuoco basso per 30 minuti.",
-          "Infila il pollo negli spiedi e griglialo sulla brace ardente per 10–12 minuti, girandolo, finché è cotto all'interno.",
-          "Mescola il burro fuso con l'acqua allo zafferano rimasta e spennellala sui kebab caldi.",
-          "Servi sul riso con pomodori grigliati."
-        ]
-      },
-      "tips": [
-        "Il petto di pollo al posto della sovracoscia rende il kebab più magro.",
-        "Spennella con poco burro o evitalo del tutto; zafferano e limone danno già sapore.",
-        "Servi una montagnetta di riso più piccola con un'abbondante insalata di erbe."
-      ]
-    },
-    "el": {
-      "name": "Τζουτζέ καμπάμπ (κεμπάπ κοτόπουλου με σαφράν)",
-      "origin": "Ιράν",
-      "intro": "Το τζουτζέ καμπάμπ είναι το περσικό ψητό κοτόπουλο: κομμάτια χωρίς κόκαλο μαριναρισμένα σε γιαούρτι, τριμμένο κρεμμύδι, χυμό λεμονιού και σαφράν, που περνιούνται σε σουβλάκια και ψήνονται στα κάρβουνα. Το κρέας μένει τρυφερό και ζουμερό, με έντονο κίτρινο χρώμα και άρωμα εσπεριδοειδών και λουλουδιών. Αλείφεται με λιωμένο βούτυρο και σερβίρεται με αφράτο ρύζι μπασμάτι με σαφράν και ψητές ντομάτες.",
-      "history": "Τζουτζέ στα περσικά σημαίνει «νεαρό κοτόπουλο», και τα ψητά κεμπάπ που σερβίρονται με ρύζι (τσελόου) είναι ακρογωνιαίος λίθος της ιρανικής κουζίνας στα εστιατόρια και στο σπίτι. Το τζουτζέ καμπάμπ τρώγεται σε όλο το Ιράν και δεν λείπει από τα περσικά εστιατόρια του εξωτερικού.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 γρ. μπούτι ή στήθος κοτόπουλου χωρίς κόκαλο, σε κομμάτια 4 εκ.",
-          "1 κρεμμύδι, τριμμένο",
-          "Χυμός από 2 λεμόνια",
-          "150 γρ. στραγγιστό γιαούρτι",
-          "1/2 κ.γ. σαφράν σε σκόνη μουλιασμένο σε 3 κ.σ. ζεστό νερό",
-          "20 γρ. βούτυρο, λιωμένο",
-          "300 γρ. ρύζι μπασμάτι",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Ανακατέψτε το κρεμμύδι, τον χυμό λεμονιού, το γιαούρτι, το μισό νερό με σαφράν, αλάτι και πιπέρι· μαρινάρετε το κοτόπουλο τουλάχιστον 4 ώρες ή όλη τη νύχτα.",
-          "Ξεπλύνετε το ρύζι και μουλιάστε το 30 λεπτά, προβράστε το 6 λεπτά, στραγγίξτε και έπειτα αφήστε το σκεπασμένο στον ατμό σε χαμηλή φωτιά για 30 λεπτά.",
-          "Περάστε το κοτόπουλο σε σουβλάκια και ψήστε στα δυνατά κάρβουνα 10–12 λεπτά, γυρίζοντας, μέχρι να ψηθεί καλά.",
-          "Ανακατέψτε το λιωμένο βούτυρο με το υπόλοιπο νερό με σαφράν και αλείψτε τα ζεστά κεμπάπ.",
-          "Σερβίρετε πάνω στο ρύζι με ψητές ντομάτες."
-        ]
-      },
-      "tips": [
-        "Το στήθος αντί για μπούτι κάνει το κεμπάπ πιο άπαχο.",
-        "Αλείψτε με βούτυρο μόνο ελαφρά ή παραλείψτε το· το σαφράν και το λεμόνι δίνουν τη γεύση.",
-        "Σερβίρετε μικρότερη ποσότητα ρυζιού με μεγάλη σαλάτα με μυρωδικά."
-      ]
-    },
-    "ru": {
-      "name": "Джуджэ-кебаб (куриный кебаб с шафраном)",
-      "origin": "Иран",
-      "intro": "Джуджэ-кебаб — персидская курица на гриле: кусочки без костей, замаринованные в йогурте, тёртом луке, лимонном соке и шафране, затем нанизанные на шампуры и приготовленные на углях. Мясо остаётся нежным и сочным, с ярко-жёлтым цветом и цитрусово-цветочным ароматом. Его смазывают растопленным маслом и подают с рассыпчатым шафрановым рисом басмати и помидорами на гриле.",
-      "history": "Джуджэ на персидском означает «молодая курица», а кебабы на гриле с рисом (челоу) — основа иранской ресторанной и семейной кухни. Джуджэ-кебаб едят по всему Ирану, и он — обязательное блюдо персидских ресторанов за рубежом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 г куриных бёдер или грудки без костей, кусками по 4 см",
-          "1 луковица, натёртая",
-          "Сок 2 лимонов",
-          "150 г обычного йогурта",
-          "1/2 ч. л. молотого шафрана, настоянного в 3 ст. л. горячей воды",
-          "20 г сливочного масла, растопленного",
-          "300 г риса басмати",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Смешайте лук, лимонный сок, йогурт, половину шафрановой воды, соль и перец; маринуйте курицу минимум 4 часа или на ночь.",
-          "Промойте и замочите рис на 30 минут, отварите 6 минут, слейте воду, затем томите под крышкой на слабом огне 30 минут.",
-          "Нанижите курицу на шампуры и жарьте на горячих углях 10–12 минут, переворачивая, до готовности.",
-          "Смешайте растопленное масло с оставшейся шафрановой водой и смажьте горячие кебабы.",
-          "Подавайте на рисе с помидорами на гриле."
-        ]
-      },
-      "tips": [
-        "Куриная грудка вместо бёдер делает кебаб менее жирным.",
-        "Смазывайте маслом лишь слегка или откажитесь от него; вкус дают шафран и лимон.",
-        "Подавайте меньшую горку риса с большим салатом из зелени."
-      ],
-      "name_inline": "джуджэ-кебаб"
-    }
+  "ar": {
+   "name": "جوجه كباب",
+   "origin": "إيران",
+   "intro": "جوجه كباب دجاج مشوي على الطريقة الفارسية: قطع بلا عظم تُتبّل باللبن الزبادي والبصل المبشور وعصير الليمون والزعفران، ثم تُشكّ في الأسياخ وتُشوى على الفحم. يبقى اللحم طرياً عصيرياً بلون أصفر زاهٍ ورائحة حمضية زهرية. يُدهن بالزبدة المذابة ويُقدَّم مع أرز بسمتي منفوش بالزعفران وطماطم مشوية.",
+   "history": "كلمة «جوجه» تعني «الدجاج الصغير» بالفارسية، والكباب المشوي مع الأرز (الچلو) ركن أساسي في المطاعم والبيوت الإيرانية. ويُؤكل جوجه كباب في كل أنحاء إيران، وهو حاضر دائماً في المطاعم الفارسية خارجها.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 غ أفخاذ أو صدور دجاج بلا عظم، قطع 4 سم",
+     "1 بصلة مبشورة",
+     "عصير 2 ليمونة",
+     "150 غ لبن زبادي",
+     "نصف ملعقة صغيرة زعفران مطحون منقوع في 3 ملاعق كبيرة ماء ساخن",
+     "20 غ زبدة مذابة",
+     "300 غ أرز بسمتي",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "اخلط البصل وعصير الليمون والزبادي ونصف ماء الزعفران والملح والفلفل، وتبّل الدجاج 4 ساعات على الأقل أو ليلة كاملة.",
+     "اغسل الأرز وانقعه 30 دقيقة، واسلقه 6 دقائق وصفّه، ثم اطهُه على البخار مغطى على نار هادئة 30 دقيقة.",
+     "اشكّ الدجاج في الأسياخ واشوِه على فحم ساخن 10–12 دقيقة مع التقليب حتى ينضج.",
+     "اخلط الزبدة المذابة مع باقي ماء الزعفران وادهن الكباب الساخن.",
+     "قدّمه على الأرز مع الطماطم المشوية."
+    ]
+   },
+   "tips": [
+    "صدر الدجاج بدل الأفخاذ يجعل الكباب أخف.",
+    "ادهنه بالزبدة دهناً خفيفاً أو استغنِ عنها؛ الزعفران والليمون يكفيان للنكهة.",
+    "قدّم كمية أرز أصغر مع سلطة أعشاب كبيرة."
+   ]
+  },
+  "it": {
+   "name": "Joojeh kabab (kebab di pollo allo zafferano)",
+   "origin": "Iran",
+   "intro": "Il joojeh kabab è il pollo alla griglia persiano: pezzi disossati marinati in yogurt, cipolla grattugiata, succo di limone e zafferano, poi infilati negli spiedi e cotti sulla brace. La carne resta tenera e succosa, di un giallo acceso e con un profumo agrumato e floreale. Si spennella con burro fuso e si serve con soffice riso basmati allo zafferano e pomodori grigliati.",
+   "history": "Joojeh in persiano significa «pollo giovane», e i kebab alla griglia serviti con il riso (chelow) sono un pilastro della cucina iraniana dei ristoranti e delle famiglie. Il joojeh kabab si mangia in tutto l'Iran ed è un punto fermo dei ristoranti persiani all'estero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g di sovracosce o petto di pollo disossati, a pezzi di 4 cm",
+     "1 cipolla grattugiata",
+     "Succo di 2 limoni",
+     "150 g di yogurt bianco",
+     "1/2 cucchiaino di zafferano in polvere in infusione in 3 cucchiai di acqua calda",
+     "20 g di burro fuso",
+     "300 g di riso basmati",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Mescola cipolla, succo di limone, yogurt, metà dell'acqua allo zafferano, sale e pepe; marina il pollo per almeno 4 ore o tutta la notte.",
+     "Sciacqua il riso e mettilo in ammollo 30 minuti, sbollentalo 6 minuti, scolalo, poi cuocilo al vapore coperto a fuoco basso per 30 minuti.",
+     "Infila il pollo negli spiedi e griglialo sulla brace ardente per 10–12 minuti, girandolo, finché è cotto all'interno.",
+     "Mescola il burro fuso con l'acqua allo zafferano rimasta e spennellala sui kebab caldi.",
+     "Servi sul riso con pomodori grigliati."
+    ]
+   },
+   "tips": [
+    "Il petto di pollo al posto della sovracoscia rende il kebab più magro.",
+    "Spennella con poco burro o evitalo del tutto; zafferano e limone danno già sapore.",
+    "Servi una montagnetta di riso più piccola con un'abbondante insalata di erbe."
+   ]
+  },
+  "el": {
+   "name": "Τζουτζέ καμπάμπ (κεμπάπ κοτόπουλου με σαφράν)",
+   "origin": "Ιράν",
+   "intro": "Το τζουτζέ καμπάμπ είναι το περσικό ψητό κοτόπουλο: κομμάτια χωρίς κόκαλο μαριναρισμένα σε γιαούρτι, τριμμένο κρεμμύδι, χυμό λεμονιού και σαφράν, που περνιούνται σε σουβλάκια και ψήνονται στα κάρβουνα. Το κρέας μένει τρυφερό και ζουμερό, με έντονο κίτρινο χρώμα και άρωμα εσπεριδοειδών και λουλουδιών. Αλείφεται με λιωμένο βούτυρο και σερβίρεται με αφράτο ρύζι μπασμάτι με σαφράν και ψητές ντομάτες.",
+   "history": "Τζουτζέ στα περσικά σημαίνει «νεαρό κοτόπουλο», και τα ψητά κεμπάπ που σερβίρονται με ρύζι (τσελόου) είναι ακρογωνιαίος λίθος της ιρανικής κουζίνας στα εστιατόρια και στο σπίτι. Το τζουτζέ καμπάμπ τρώγεται σε όλο το Ιράν και δεν λείπει από τα περσικά εστιατόρια του εξωτερικού.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 γρ. μπούτι ή στήθος κοτόπουλου χωρίς κόκαλο, σε κομμάτια 4 εκ.",
+     "1 κρεμμύδι, τριμμένο",
+     "Χυμός από 2 λεμόνια",
+     "150 γρ. στραγγιστό γιαούρτι",
+     "1/2 κ.γ. σαφράν σε σκόνη μουλιασμένο σε 3 κ.σ. ζεστό νερό",
+     "20 γρ. βούτυρο, λιωμένο",
+     "300 γρ. ρύζι μπασμάτι",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Ανακατέψτε το κρεμμύδι, τον χυμό λεμονιού, το γιαούρτι, το μισό νερό με σαφράν, αλάτι και πιπέρι· μαρινάρετε το κοτόπουλο τουλάχιστον 4 ώρες ή όλη τη νύχτα.",
+     "Ξεπλύνετε το ρύζι και μουλιάστε το 30 λεπτά, προβράστε το 6 λεπτά, στραγγίξτε και έπειτα αφήστε το σκεπασμένο στον ατμό σε χαμηλή φωτιά για 30 λεπτά.",
+     "Περάστε το κοτόπουλο σε σουβλάκια και ψήστε στα δυνατά κάρβουνα 10–12 λεπτά, γυρίζοντας, μέχρι να ψηθεί καλά.",
+     "Ανακατέψτε το λιωμένο βούτυρο με το υπόλοιπο νερό με σαφράν και αλείψτε τα ζεστά κεμπάπ.",
+     "Σερβίρετε πάνω στο ρύζι με ψητές ντομάτες."
+    ]
+   },
+   "tips": [
+    "Το στήθος αντί για μπούτι κάνει το κεμπάπ πιο άπαχο.",
+    "Αλείψτε με βούτυρο μόνο ελαφρά ή παραλείψτε το· το σαφράν και το λεμόνι δίνουν τη γεύση.",
+    "Σερβίρετε μικρότερη ποσότητα ρυζιού με μεγάλη σαλάτα με μυρωδικά."
+   ]
+  },
+  "ru": {
+   "name": "Джуджэ-кебаб (куриный кебаб с шафраном)",
+   "origin": "Иран",
+   "intro": "Джуджэ-кебаб — персидская курица на гриле: кусочки без костей, замаринованные в йогурте, тёртом луке, лимонном соке и шафране, затем нанизанные на шампуры и приготовленные на углях. Мясо остаётся нежным и сочным, с ярко-жёлтым цветом и цитрусово-цветочным ароматом. Его смазывают растопленным маслом и подают с рассыпчатым шафрановым рисом басмати и помидорами на гриле.",
+   "history": "Джуджэ на персидском означает «молодая курица», а кебабы на гриле с рисом (челоу) — основа иранской ресторанной и семейной кухни. Джуджэ-кебаб едят по всему Ирану, и он — обязательное блюдо персидских ресторанов за рубежом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 г куриных бёдер или грудки без костей, кусками по 4 см",
+     "1 луковица, натёртая",
+     "Сок 2 лимонов",
+     "150 г обычного йогурта",
+     "1/2 ч. л. молотого шафрана, настоянного в 3 ст. л. горячей воды",
+     "20 г сливочного масла, растопленного",
+     "300 г риса басмати",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Смешайте лук, лимонный сок, йогурт, половину шафрановой воды, соль и перец; маринуйте курицу минимум 4 часа или на ночь.",
+     "Промойте и замочите рис на 30 минут, отварите 6 минут, слейте воду, затем томите под крышкой на слабом огне 30 минут.",
+     "Нанижите курицу на шампуры и жарьте на горячих углях 10–12 минут, переворачивая, до готовности.",
+     "Смешайте растопленное масло с оставшейся шафрановой водой и смажьте горячие кебабы.",
+     "Подавайте на рисе с помидорами на гриле."
+    ]
+   },
+   "tips": [
+    "Куриная грудка вместо бёдер делает кебаб менее жирным.",
+    "Смазывайте маслом лишь слегка или откажитесь от него; вкус дают шафран и лимон.",
+    "Подавайте меньшую горку риса с большим салатом из зелени."
+   ],
+   "name_inline": "джуджэ-кебаб"
+  },
+  "es": {
+   "name": "Joojeh kabab (brocheta de pollo con azafrán)",
+   "origin": "Irán",
+   "intro": "El joojeh kabab es el pollo asado persa: trozos de pollo sin hueso marinados en yogur, cebolla rallada, jugo de limón y azafrán, ensartados en brochetas y cocidos al carbón. La carne queda tierna y jugosa, con un color amarillo intenso y un aroma cítrico y floral. Se barniza con mantequilla derretida y se sirve con arroz basmati esponjoso con azafrán y jitomates asados.",
+   "history": "Joojeh significa «pollo joven» en persa, y los kebabs asados servidos con arroz (chelow) son un pilar de la cocina familiar y de restaurante de Irán. El joojeh kabab se come en todo el país y es habitual en los restaurantes persas del extranjero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g de muslos o pechuga de pollo sin hueso, en trozos de 4 cm",
+     "1 cebolla, rallada",
+     "Jugo de 2 limones",
+     "150 g de yogur natural",
+     "½ cdta. de azafrán molido infusionado en 3 cda. de agua caliente",
+     "20 g de mantequilla, derretida",
+     "300 g de arroz basmati",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Mezcla la cebolla, el jugo de limón, el yogur, la mitad del agua de azafrán, sal y pimienta; marina el pollo al menos 4 horas o toda la noche.",
+     "Enjuaga y remoja el arroz 30 minutos, hiérvelo 6 minutos, escúrrelo y cuécelo al vapor tapado a fuego bajo 30 minutos.",
+     "Ensarta el pollo en brochetas y ásalo al carbón bien caliente de 10 a 12 minutos, volteando, hasta que esté cocido.",
+     "Mezcla la mantequilla derretida con el agua de azafrán restante y barniza las brochetas calientes.",
+     "Sirve sobre el arroz con jitomates asados."
+    ]
+   },
+   "tips": [
+    "Usar pechuga en lugar de muslo hace la brocheta más magra.",
+    "Barniza con mantequilla solo ligeramente o prescinde de ella; el azafrán y el limón dan el sabor.",
+    "Sirve un montículo de arroz más pequeño con una ensalada grande de hierbas."
+   ],
+   "name_inline": "el joojeh kabab"
   }
+ }
 }

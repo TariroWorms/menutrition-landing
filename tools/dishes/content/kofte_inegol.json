@@ -1,155 +1,184 @@
 {
-  "db_key": "kofte_inegol",
-  "slug": "kofte-inegol",
-  "emoji": "🍖",
-  "portion_g": 200,
-  "country": "TR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kofte_inegol",
+ "slug": "kofte-inegol",
+ "emoji": "🍖",
+ "portion_g": 200,
+ "country": "TR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "İnegöl Köfte",
+   "origin": "Türkiye · İnegöl, Bursa",
+   "intro": "İnegöl köfte are small, finger-shaped patties of beef and lamb with grated onion and a pinch of baking soda, which gives them their light, bouncy bite. There is no garlic and very little seasoning, so the taste of the meat comes first. They are grilled and served with piyaz, grilled peppers and fresh onion.",
+   "history": "The style is named after İnegöl, a town in Bursa province, where köfte shops have made it the local signature; it is often linked to cooks who came from the Balkans, though accounts differ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 g ground beef",
+     "200 g ground lamb",
+     "1 onion, grated and squeezed",
+     "1/4 tsp baking soda",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Knead the beef, lamb, squeezed onion, baking soda and salt for 5 minutes.",
+     "Cover and rest in the fridge for at least 2 hours, ideally overnight.",
+     "Shape into small rectangular patties about 1.5 cm thick.",
+     "Grill over high heat for 3 minutes per side."
+    ]
+   },
+   "tips": [
+    "A 200 g portion is plenty — serve it with grilled peppers and tomatoes.",
+    "Use lean beef for most of the mix to lower the fat.",
+    "Choose piyaz or salad over fries as the side."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "İnegöl Köfte",
-      "origin": "Türkiye · İnegöl, Bursa",
-      "intro": "İnegöl köfte are small, finger-shaped patties of beef and lamb with grated onion and a pinch of baking soda, which gives them their light, bouncy bite. There is no garlic and very little seasoning, so the taste of the meat comes first. They are grilled and served with piyaz, grilled peppers and fresh onion.",
-      "history": "The style is named after İnegöl, a town in Bursa province, where köfte shops have made it the local signature; it is often linked to cooks who came from the Balkans, though accounts differ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 g ground beef",
-          "200 g ground lamb",
-          "1 onion, grated and squeezed",
-          "1/4 tsp baking soda",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Knead the beef, lamb, squeezed onion, baking soda and salt for 5 minutes.",
-          "Cover and rest in the fridge for at least 2 hours, ideally overnight.",
-          "Shape into small rectangular patties about 1.5 cm thick.",
-          "Grill over high heat for 3 minutes per side."
-        ]
-      },
-      "tips": [
-        "A 200 g portion is plenty — serve it with grilled peppers and tomatoes.",
-        "Use lean beef for most of the mix to lower the fat.",
-        "Choose piyaz or salad over fries as the side."
-      ]
-    },
-    "ar": {
-      "name": "كفتة إينغول",
-      "origin": "تركيا · إينغول، بورصة",
-      "intro": "كفتة إينغول أقراص صغيرة مستطيلة من لحم البقر والضأن مع البصل المبشور ورشة من بيكربونات الصوديوم التي تمنحها قواماً خفيفاً طرياً ومرناً. لا ثوم فيها وبهاراتها قليلة جداً، فيبرز طعم اللحم أولاً. تُشوى وتُقدم مع سلطة الفاصوليا والفلفل المشوي والبصل الطازج.",
-      "history": "سُمّيت باسم بلدة إينغول في ولاية بورصة، حيث جعلتها محلات الكفتة طبق البلدة المميز، ويُقال كثيراً إن أصلها يعود إلى طهاة قدموا من البلقان، وإن اختلفت الروايات.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 غ لحم بقر مفروم",
-          "200 غ لحم ضأن مفروم",
-          "1 بصلة مبشورة ومعصورة",
-          "ربع ملعقة صغيرة بيكربونات الصوديوم",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "اعجن اللحمين مع البصل المعصور والبيكربونات والملح 5 دقائق.",
-          "غطِّ الخليط واتركه في الثلاجة ساعتين على الأقل، ويفضل ليلة كاملة.",
-          "شكّله أقراصاً مستطيلة صغيرة بسمك 1.5 سم.",
-          "اشوِه على نار عالية 3 دقائق لكل جهة."
-        ]
-      },
-      "tips": [
-        "حصة 200 غ كافية — قدّمها مع الفلفل والطماطم المشوية.",
-        "استخدم لحماً بقرياً قليل الدهن لمعظم الخليط.",
-        "اختر سلطة الفاصوليا أو السلطة الخضراء بدل البطاطس المقلية."
-      ]
-    },
-    "it": {
-      "name": "İnegöl köfte",
-      "origin": "Turchia · İnegöl, Bursa",
-      "intro": "Le İnegöl köfte sono piccole polpette a forma di dito di manzo e agnello con cipolla grattugiata e un pizzico di bicarbonato, che dà loro una consistenza leggera ed elastica. Non c'è aglio e il condimento è minimo, così il sapore della carne viene prima di tutto. Si grigliano e si servono con piyaz, peperoni grigliati e cipolla fresca.",
-      "history": "Questo stile prende il nome da İnegöl, una cittadina della provincia di Bursa, dove i locali di köfte ne hanno fatto la specialità del posto; viene spesso collegato a cuochi arrivati dai Balcani, anche se i racconti divergono.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 g di carne di manzo macinata",
-          "200 g di carne d'agnello macinata",
-          "1 cipolla grattugiata e strizzata",
-          "1/4 di cucchiaino di bicarbonato",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Impasta il manzo, l'agnello, la cipolla strizzata, il bicarbonato e il sale per 5 minuti.",
-          "Copri e lascia riposare in frigorifero per almeno 2 ore, idealmente per tutta la notte.",
-          "Forma delle piccole polpette rettangolari spesse circa 1,5 cm.",
-          "Griglia a fuoco vivo per 3 minuti per lato."
-        ]
-      },
-      "tips": [
-        "Una porzione da 200 g è più che sufficiente: servila con peperoni e pomodori grigliati.",
-        "Usa manzo magro per la maggior parte dell'impasto per ridurre i grassi.",
-        "Scegli come contorno piyaz o insalata invece delle patatine."
-      ]
-    },
-    "el": {
-      "name": "Ινεγκιόλ κιοφτέ",
-      "origin": "Τουρκία · Ινεγκιόλ, Προύσα",
-      "intro": "Οι κιοφτέδες Ινεγκιόλ είναι μικρά μπιφτεκάκια σε σχήμα δαχτύλου από μοσχάρι και αρνί με τριμμένο κρεμμύδι και μια πρέζα σόδα, που τους δίνει ελαφριά, ελαστική υφή. Δεν έχουν σκόρδο και ελάχιστα καρυκεύματα, ώστε να προέχει η γεύση του κρέατος. Ψήνονται στη σχάρα και σερβίρονται με πιγιάζ, ψητές πιπεριές και φρέσκο κρεμμύδι.",
-      "history": "Το στιλ πήρε το όνομά του από το Ινεγκιόλ, μια πόλη του νομού της Προύσας, όπου τα μαγαζιά με κιοφτέδες το έκαναν τοπική σπεσιαλιτέ· συχνά συνδέεται με μάγειρες που ήρθαν από τα Βαλκάνια, αν και οι αφηγήσεις διαφέρουν.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 γρ. μοσχαρίσιος κιμάς",
-          "200 γρ. αρνίσιος κιμάς",
-          "1 κρεμμύδι, τριμμένο και στυμμένο",
-          "1/4 κ.γ. μαγειρική σόδα",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Ζυμώστε τον μοσχαρίσιο και τον αρνίσιο κιμά, το στυμμένο κρεμμύδι, τη σόδα και το αλάτι για 5 λεπτά.",
-          "Σκεπάστε και αφήστε στο ψυγείο για τουλάχιστον 2 ώρες, ιδανικά όλο το βράδυ.",
-          "Πλάστε μικρά ορθογώνια μπιφτεκάκια πάχους περίπου 1,5 εκ.",
-          "Ψήστε σε δυνατή φωτιά 3 λεπτά από κάθε πλευρά."
-        ]
-      },
-      "tips": [
-        "Μια μερίδα 200 γρ. είναι υπεραρκετή — σερβίρετέ τη με ψητές πιπεριές και ντομάτες.",
-        "Χρησιμοποιήστε άπαχο μοσχάρι για το μεγαλύτερο μέρος του μείγματος για λιγότερο λίπος.",
-        "Προτιμήστε πιγιάζ ή σαλάτα ως συνοδευτικό αντί για πατάτες τηγανητές."
-      ]
-    },
-    "ru": {
-      "name": "Инегёль кёфте",
-      "origin": "Турция · Инегёль, Бурса",
-      "intro": "Инегёль кёфте — небольшие котлеты в форме пальчиков из говядины и баранины с тёртым луком и щепоткой пищевой соды, которая делает их лёгкими и упругими. Здесь нет чеснока и очень мало приправ, поэтому на первом месте вкус мяса. Их готовят на гриле и подают с пиязом, перцем на гриле и свежим луком.",
-      "history": "Этот стиль назван по Инегёлю, городку в провинции Бурса, где лавки кёфте сделали его местной визитной карточкой; его часто связывают с поварами, приехавшими с Балкан, хотя сведения расходятся.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "300 г говяжьего фарша",
-          "200 г бараньего фарша",
-          "1 луковица, натёртая и отжатая",
-          "1/4 ч. л. пищевой соды",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Вымешивайте говядину, баранину, отжатый лук, соду и соль 5 минут.",
-          "Накройте и оставьте в холодильнике не менее 2 часов, лучше на ночь.",
-          "Сформуйте небольшие прямоугольные котлеты толщиной около 1,5 см.",
-          "Жарьте на гриле на сильном огне по 3 минуты с каждой стороны."
-        ]
-      },
-      "tips": [
-        "Порции в 200 г вполне достаточно — подавайте с перцем и помидорами на гриле.",
-        "Используйте для большей части смеси постную говядину, чтобы снизить жирность.",
-        "Выбирайте на гарнир пияз или салат вместо картофеля фри."
-      ],
-      "name_inline": "инегёль кёфте"
-    }
+  "ar": {
+   "name": "كفتة إينغول",
+   "origin": "تركيا · إينغول، بورصة",
+   "intro": "كفتة إينغول أقراص صغيرة مستطيلة من لحم البقر والضأن مع البصل المبشور ورشة من بيكربونات الصوديوم التي تمنحها قواماً خفيفاً طرياً ومرناً. لا ثوم فيها وبهاراتها قليلة جداً، فيبرز طعم اللحم أولاً. تُشوى وتُقدم مع سلطة الفاصوليا والفلفل المشوي والبصل الطازج.",
+   "history": "سُمّيت باسم بلدة إينغول في ولاية بورصة، حيث جعلتها محلات الكفتة طبق البلدة المميز، ويُقال كثيراً إن أصلها يعود إلى طهاة قدموا من البلقان، وإن اختلفت الروايات.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 غ لحم بقر مفروم",
+     "200 غ لحم ضأن مفروم",
+     "1 بصلة مبشورة ومعصورة",
+     "ربع ملعقة صغيرة بيكربونات الصوديوم",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "اعجن اللحمين مع البصل المعصور والبيكربونات والملح 5 دقائق.",
+     "غطِّ الخليط واتركه في الثلاجة ساعتين على الأقل، ويفضل ليلة كاملة.",
+     "شكّله أقراصاً مستطيلة صغيرة بسمك 1.5 سم.",
+     "اشوِه على نار عالية 3 دقائق لكل جهة."
+    ]
+   },
+   "tips": [
+    "حصة 200 غ كافية — قدّمها مع الفلفل والطماطم المشوية.",
+    "استخدم لحماً بقرياً قليل الدهن لمعظم الخليط.",
+    "اختر سلطة الفاصوليا أو السلطة الخضراء بدل البطاطس المقلية."
+   ]
+  },
+  "it": {
+   "name": "İnegöl köfte",
+   "origin": "Turchia · İnegöl, Bursa",
+   "intro": "Le İnegöl köfte sono piccole polpette a forma di dito di manzo e agnello con cipolla grattugiata e un pizzico di bicarbonato, che dà loro una consistenza leggera ed elastica. Non c'è aglio e il condimento è minimo, così il sapore della carne viene prima di tutto. Si grigliano e si servono con piyaz, peperoni grigliati e cipolla fresca.",
+   "history": "Questo stile prende il nome da İnegöl, una cittadina della provincia di Bursa, dove i locali di köfte ne hanno fatto la specialità del posto; viene spesso collegato a cuochi arrivati dai Balcani, anche se i racconti divergono.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 g di carne di manzo macinata",
+     "200 g di carne d'agnello macinata",
+     "1 cipolla grattugiata e strizzata",
+     "1/4 di cucchiaino di bicarbonato",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Impasta il manzo, l'agnello, la cipolla strizzata, il bicarbonato e il sale per 5 minuti.",
+     "Copri e lascia riposare in frigorifero per almeno 2 ore, idealmente per tutta la notte.",
+     "Forma delle piccole polpette rettangolari spesse circa 1,5 cm.",
+     "Griglia a fuoco vivo per 3 minuti per lato."
+    ]
+   },
+   "tips": [
+    "Una porzione da 200 g è più che sufficiente: servila con peperoni e pomodori grigliati.",
+    "Usa manzo magro per la maggior parte dell'impasto per ridurre i grassi.",
+    "Scegli come contorno piyaz o insalata invece delle patatine."
+   ]
+  },
+  "el": {
+   "name": "Ινεγκιόλ κιοφτέ",
+   "origin": "Τουρκία · Ινεγκιόλ, Προύσα",
+   "intro": "Οι κιοφτέδες Ινεγκιόλ είναι μικρά μπιφτεκάκια σε σχήμα δαχτύλου από μοσχάρι και αρνί με τριμμένο κρεμμύδι και μια πρέζα σόδα, που τους δίνει ελαφριά, ελαστική υφή. Δεν έχουν σκόρδο και ελάχιστα καρυκεύματα, ώστε να προέχει η γεύση του κρέατος. Ψήνονται στη σχάρα και σερβίρονται με πιγιάζ, ψητές πιπεριές και φρέσκο κρεμμύδι.",
+   "history": "Το στιλ πήρε το όνομά του από το Ινεγκιόλ, μια πόλη του νομού της Προύσας, όπου τα μαγαζιά με κιοφτέδες το έκαναν τοπική σπεσιαλιτέ· συχνά συνδέεται με μάγειρες που ήρθαν από τα Βαλκάνια, αν και οι αφηγήσεις διαφέρουν.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 γρ. μοσχαρίσιος κιμάς",
+     "200 γρ. αρνίσιος κιμάς",
+     "1 κρεμμύδι, τριμμένο και στυμμένο",
+     "1/4 κ.γ. μαγειρική σόδα",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Ζυμώστε τον μοσχαρίσιο και τον αρνίσιο κιμά, το στυμμένο κρεμμύδι, τη σόδα και το αλάτι για 5 λεπτά.",
+     "Σκεπάστε και αφήστε στο ψυγείο για τουλάχιστον 2 ώρες, ιδανικά όλο το βράδυ.",
+     "Πλάστε μικρά ορθογώνια μπιφτεκάκια πάχους περίπου 1,5 εκ.",
+     "Ψήστε σε δυνατή φωτιά 3 λεπτά από κάθε πλευρά."
+    ]
+   },
+   "tips": [
+    "Μια μερίδα 200 γρ. είναι υπεραρκετή — σερβίρετέ τη με ψητές πιπεριές και ντομάτες.",
+    "Χρησιμοποιήστε άπαχο μοσχάρι για το μεγαλύτερο μέρος του μείγματος για λιγότερο λίπος.",
+    "Προτιμήστε πιγιάζ ή σαλάτα ως συνοδευτικό αντί για πατάτες τηγανητές."
+   ]
+  },
+  "ru": {
+   "name": "Инегёль кёфте",
+   "origin": "Турция · Инегёль, Бурса",
+   "intro": "Инегёль кёфте — небольшие котлеты в форме пальчиков из говядины и баранины с тёртым луком и щепоткой пищевой соды, которая делает их лёгкими и упругими. Здесь нет чеснока и очень мало приправ, поэтому на первом месте вкус мяса. Их готовят на гриле и подают с пиязом, перцем на гриле и свежим луком.",
+   "history": "Этот стиль назван по Инегёлю, городку в провинции Бурса, где лавки кёфте сделали его местной визитной карточкой; его часто связывают с поварами, приехавшими с Балкан, хотя сведения расходятся.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 г говяжьего фарша",
+     "200 г бараньего фарша",
+     "1 луковица, натёртая и отжатая",
+     "1/4 ч. л. пищевой соды",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Вымешивайте говядину, баранину, отжатый лук, соду и соль 5 минут.",
+     "Накройте и оставьте в холодильнике не менее 2 часов, лучше на ночь.",
+     "Сформуйте небольшие прямоугольные котлеты толщиной около 1,5 см.",
+     "Жарьте на гриле на сильном огне по 3 минуты с каждой стороны."
+    ]
+   },
+   "tips": [
+    "Порции в 200 г вполне достаточно — подавайте с перцем и помидорами на гриле.",
+    "Используйте для большей части смеси постную говядину, чтобы снизить жирность.",
+    "Выбирайте на гарнир пияз или салат вместо картофеля фри."
+   ],
+   "name_inline": "инегёль кёфте"
+  },
+  "es": {
+   "name": "Köfte de İnegöl",
+   "origin": "Turquía · İnegöl, Bursa",
+   "intro": "Los köfte de İnegöl son pequeñas tortas alargadas, en forma de dedo, de res y cordero con cebolla rallada y una pizca de bicarbonato, que les da su textura ligera y esponjosa. No llevan ajo y casi nada de condimento, de modo que el sabor de la carne es lo primero. Se asan a la parrilla y se sirven con piyaz, pimientos asados y cebolla fresca.",
+   "history": "El estilo lleva el nombre de İnegöl, una ciudad de la provincia de Bursa, donde las köfteciler (tiendas de köfte) lo han convertido en su especialidad local; a menudo se vincula con cocineros que llegaron de los Balcanes, aunque los relatos difieren.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "300 g de carne de res molida",
+     "200 g de carne de cordero molida",
+     "1 cebolla, rallada y exprimida",
+     "¼ cdta. de bicarbonato de sodio",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Amasa la res, el cordero, la cebolla exprimida, el bicarbonato y la sal durante 5 minutos.",
+     "Tapa y deja reposar en el refrigerador al menos 2 horas, idealmente toda la noche.",
+     "Forma tortas pequeñas y rectangulares de unos 1.5 cm de grosor.",
+     "Ásalas a fuego alto 3 minutos por lado."
+    ]
+   },
+   "tips": [
+    "Una porción de 200 g es más que suficiente; sírvela con pimientos y jitomates asados.",
+    "Usa carne de res magra para la mayor parte de la mezcla y reducir la grasa.",
+    "Elige piyaz o ensalada en lugar de papas fritas como guarnición."
+   ],
+   "name_inline": "los köfte de İnegöl"
   }
+ }
 }

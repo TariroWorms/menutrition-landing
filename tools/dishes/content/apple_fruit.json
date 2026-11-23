@@ -1,137 +1,162 @@
 {
-  "db_key": "apple_fruit",
-  "slug": "apple-fruit",
-  "emoji": "🍎",
-  "portion_g": 180,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "apple_fruit",
+ "slug": "apple-fruit",
+ "emoji": "🍎",
+ "portion_g": 180,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Apple",
+   "origin": "Central Asia · grown worldwide",
+   "intro": "A fresh apple eaten whole with the skin on is one of the simplest snacks there is: crisp, juicy and sweet to tart depending on the variety. A medium apple weighs around 180 g and is mostly water and natural sugars, with fibre concentrated in and just under the skin. It travels well and needs no preparation beyond a rinse.",
+   "history": "The cultivated apple descends mainly from a wild apple of the Tian Shan mountains in Central Asia, around present-day Kazakhstan. From there it spread along trade routes to Persia, the Mediterranean and Europe, and later to the Americas. Today apples are grown in temperate regions around the world in thousands of varieties.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "1 medium apple (about 180 g)",
+     "Optional: a pinch of ground cinnamon",
+     "Optional: a squeeze of lemon juice"
+    ],
+    "steps": [
+     "Rinse the apple well under running water and dry it.",
+     "Eat it whole, or core it and cut it into wedges. Sprinkle with cinnamon if you like, and add a little lemon juice if the slices will sit for a while, to stop them browning."
+    ]
+   },
+   "tips": [
+    "A medium 180 g apple is about 95 kcal — an easy snack to fit into almost any calorie budget.",
+    "Keep the skin on: it holds much of the fibre, so the apple is more filling for the same calories.",
+    "A whole apple is more filling than the same amount as juice, which drinks quickly and has no chewing to slow you down."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Apple",
-      "origin": "Central Asia · grown worldwide",
-      "intro": "A fresh apple eaten whole with the skin on is one of the simplest snacks there is: crisp, juicy and sweet to tart depending on the variety. A medium apple weighs around 180 g and is mostly water and natural sugars, with fibre concentrated in and just under the skin. It travels well and needs no preparation beyond a rinse.",
-      "history": "The cultivated apple descends mainly from a wild apple of the Tian Shan mountains in Central Asia, around present-day Kazakhstan. From there it spread along trade routes to Persia, the Mediterranean and Europe, and later to the Americas. Today apples are grown in temperate regions around the world in thousands of varieties.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "1 medium apple (about 180 g)",
-          "Optional: a pinch of ground cinnamon",
-          "Optional: a squeeze of lemon juice"
-        ],
-        "steps": [
-          "Rinse the apple well under running water and dry it.",
-          "Eat it whole, or core it and cut it into wedges. Sprinkle with cinnamon if you like, and add a little lemon juice if the slices will sit for a while, to stop them browning."
-        ]
-      },
-      "tips": [
-        "A medium 180 g apple is about 95 kcal — an easy snack to fit into almost any calorie budget.",
-        "Keep the skin on: it holds much of the fibre, so the apple is more filling for the same calories.",
-        "A whole apple is more filling than the same amount as juice, which drinks quickly and has no chewing to slow you down."
-      ]
-    },
-    "ar": {
-      "name": "تفاحة",
-      "origin": "آسيا الوسطى · يُزرع حول العالم",
-      "intro": "التفاحة الطازجة التي تُؤكل كاملة بقشرها من أبسط الوجبات الخفيفة: مقرمشة وعصيرية، وطعمها بين الحلو والحامض حسب الصنف. تزن التفاحة المتوسطة نحو 180 غ، ومعظمها ماء وسكريات طبيعية، وتتركز الألياف في القشرة وتحتها مباشرة. يسهل حملها ولا تحتاج إلى تحضير سوى الغسل.",
-      "history": "ينحدر التفاح المزروع أساسًا من تفاح بري ينمو في جبال تيان شان في آسيا الوسطى، في منطقة كازاخستان الحالية. ومن هناك انتشر عبر طرق التجارة إلى بلاد فارس والبحر المتوسط وأوروبا، ثم إلى الأمريكتين لاحقًا. ويُزرع التفاح اليوم في المناطق المعتدلة حول العالم بآلاف الأصناف.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "تفاحة متوسطة (نحو 180 غ)",
-          "اختياري: رشة قرفة مطحونة",
-          "اختياري: قليل من عصير الليمون"
-        ],
-        "steps": [
-          "اغسل التفاحة جيدًا تحت الماء الجاري وجففها.",
-          "كُلها كاملة، أو انزع البذور وقطّعها أهلّة. رشّ عليها القرفة إن رغبت، وأضف قليلًا من عصير الليمون إذا كانت الشرائح ستنتظر قليلًا كي لا يتغير لونها."
-        ]
-      },
-      "tips": [
-        "التفاحة المتوسطة بوزن 180 غ تعادل نحو 95 سعرة — وجبة خفيفة تناسب أي ميزانية سعرات تقريبًا.",
-        "أبقِ القشرة: فيها جزء كبير من الألياف، فتُشبع التفاحة أكثر بالسعرات نفسها.",
-        "التفاحة الكاملة أكثر إشباعًا من الكمية نفسها على شكل عصير، فالعصير يُشرب بسرعة ولا يحتاج إلى مضغ."
-      ]
-    },
-    "it": {
-      "name": "Mela",
-      "name_inline": "mela",
-      "origin": "Asia centrale · coltivata in tutto il mondo",
-      "intro": "Una mela fresca mangiata intera con la buccia è uno degli spuntini più semplici che esistano: croccante, succosa e da dolce ad acidula a seconda della varietà. Una mela media pesa circa 180 g ed è composta soprattutto da acqua e zuccheri naturali, con le fibre concentrate nella buccia e appena sotto. Si trasporta bene e non richiede altra preparazione che una sciacquata.",
-      "history": "La mela coltivata discende principalmente da un melo selvatico dei monti Tian Shan, in Asia centrale, nell'area dell'attuale Kazakistan. Da lì si diffuse lungo le rotte commerciali verso la Persia, il Mediterraneo e l'Europa, e più tardi verso le Americhe. Oggi le mele si coltivano nelle regioni temperate di tutto il mondo in migliaia di varietà.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "1 mela media (circa 180 g)",
-          "Facoltativo: un pizzico di cannella in polvere",
-          "Facoltativo: qualche goccia di succo di limone"
-        ],
-        "steps": [
-          "Sciacqua bene la mela sotto l'acqua corrente e asciugala.",
-          "Mangiala intera, oppure togli il torsolo e tagliala a spicchi. Se ti piace, spolvera con la cannella, e aggiungi un po' di succo di limone se le fette devono restare fuori per un po', così non anneriscono."
-        ]
-      },
-      "tips": [
-        "Una mela media da 180 g ha circa 95 kcal: uno spuntino facile da far rientrare in quasi qualsiasi budget calorico.",
-        "Lascia la buccia: contiene gran parte delle fibre, quindi a parità di calorie la mela sazia di più.",
-        "Una mela intera sazia di più della stessa quantità sotto forma di succo, che si beve in fretta e non va masticato, quindi nulla ti rallenta."
-      ]
-    },
-    "el": {
-      "name": "Μήλο",
-      "name_inline": "μήλο",
-      "origin": "Κεντρική Ασία · καλλιεργείται σε όλο τον κόσμο",
-      "intro": "Ένα φρέσκο μήλο, φαγωμένο ολόκληρο με τη φλούδα, είναι από τα πιο απλά σνακ που υπάρχουν: τραγανό, ζουμερό και από γλυκό ως ξινό, ανάλογα με την ποικιλία. Ένα μέτριο μήλο ζυγίζει περίπου 180 γρ. και αποτελείται κυρίως από νερό και φυσικά σάκχαρα, με τις φυτικές ίνες συγκεντρωμένες στη φλούδα και ακριβώς από κάτω. Μεταφέρεται εύκολα και δεν χρειάζεται καμία προετοιμασία πέρα από ένα ξέπλυμα.",
-      "history": "Το καλλιεργημένο μήλο κατάγεται κυρίως από μια άγρια μηλιά των βουνών Τιαν Σαν στην Κεντρική Ασία, γύρω από το σημερινό Καζακστάν. Από εκεί διαδόθηκε μέσω των εμπορικών δρόμων στην Περσία, τη Μεσόγειο και την Ευρώπη και αργότερα στην Αμερική. Σήμερα τα μήλα καλλιεργούνται στις εύκρατες περιοχές όλου του κόσμου σε χιλιάδες ποικιλίες.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "1 μέτριο μήλο (περίπου 180 γρ.)",
-          "Προαιρετικά: μια πρέζα κανέλα σε σκόνη",
-          "Προαιρετικά: λίγες σταγόνες χυμός λεμονιού"
-        ],
-        "steps": [
-          "Ξεπλύνετε καλά το μήλο με τρεχούμενο νερό και στεγνώστε το.",
-          "Φάτε το ολόκληρο ή αφαιρέστε το κουκουτσάλι και κόψτε το σε φέτες. Αν θέλετε, πασπαλίστε με κανέλα, και προσθέστε λίγο χυμό λεμονιού αν οι φέτες θα μείνουν λίγη ώρα, για να μη μαυρίσουν."
-        ]
-      },
-      "tips": [
-        "Ένα μέτριο μήλο 180 γρ. έχει περίπου 95 kcal — ένα σνακ που χωράει εύκολα σχεδόν σε κάθε θερμιδικό πλάνο.",
-        "Αφήστε τη φλούδα: περιέχει μεγάλο μέρος των φυτικών ινών, οπότε το μήλο χορταίνει περισσότερο με τις ίδιες θερμίδες.",
-        "Ένα ολόκληρο μήλο χορταίνει περισσότερο από την ίδια ποσότητα σε χυμό, που πίνεται γρήγορα και δεν χρειάζεται μάσημα για να σας κόψει τον ρυθμό."
-      ]
-    },
-    "ru": {
-      "name": "Яблоко",
-      "origin": "Центральная Азия · выращивается по всему миру",
-      "intro": "Свежее яблоко, съеденное целиком с кожурой, — одна из самых простых закусок: хрустящее, сочное, от сладкого до кислого в зависимости от сорта. Среднее яблоко весит около 180 г и состоит в основном из воды и природных сахаров, а клетчатка сосредоточена в кожуре и непосредственно под ней. Оно хорошо переносит дорогу и не требует подготовки, кроме ополаскивания.",
-      "history": "Культурное яблоко происходит главным образом от дикой яблони гор Тянь-Шаня в Центральной Азии, в районе нынешнего Казахстана. Оттуда оно распространилось по торговым путям в Персию, Средиземноморье и Европу, а позднее в Америку. Сегодня яблоки выращивают в умеренных регионах по всему миру в тысячах сортов.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 2,
-        "ingredients": [
-          "1 среднее яблоко (около 180 г)",
-          "По желанию: щепотка молотой корицы",
-          "По желанию: немного лимонного сока"
-        ],
-        "steps": [
-          "Хорошо ополосните яблоко под проточной водой и вытрите.",
-          "Ешьте целиком или удалите сердцевину и нарежьте дольками. Посыпьте корицей, если хотите, и добавьте немного лимонного сока, если дольки будут стоять некоторое время, чтобы они не темнели."
-        ]
-      },
-      "tips": [
-        "Среднее яблоко в 180 г — около 95 ккал, лёгкая закуска, которая вписывается почти в любой калорийный бюджет.",
-        "Оставляйте кожуру: в ней содержится значительная часть клетчатки, поэтому яблоко насыщает лучше при тех же калориях.",
-        "Целое яблоко насыщает лучше, чем то же количество в виде сока, который выпивается быстро и не требует жевания, замедляющего еду."
-      ],
-      "name_inline": "яблоко"
-    }
+  "ar": {
+   "name": "تفاحة",
+   "origin": "آسيا الوسطى · يُزرع حول العالم",
+   "intro": "التفاحة الطازجة التي تُؤكل كاملة بقشرها من أبسط الوجبات الخفيفة: مقرمشة وعصيرية، وطعمها بين الحلو والحامض حسب الصنف. تزن التفاحة المتوسطة نحو 180 غ، ومعظمها ماء وسكريات طبيعية، وتتركز الألياف في القشرة وتحتها مباشرة. يسهل حملها ولا تحتاج إلى تحضير سوى الغسل.",
+   "history": "ينحدر التفاح المزروع أساسًا من تفاح بري ينمو في جبال تيان شان في آسيا الوسطى، في منطقة كازاخستان الحالية. ومن هناك انتشر عبر طرق التجارة إلى بلاد فارس والبحر المتوسط وأوروبا، ثم إلى الأمريكتين لاحقًا. ويُزرع التفاح اليوم في المناطق المعتدلة حول العالم بآلاف الأصناف.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "تفاحة متوسطة (نحو 180 غ)",
+     "اختياري: رشة قرفة مطحونة",
+     "اختياري: قليل من عصير الليمون"
+    ],
+    "steps": [
+     "اغسل التفاحة جيدًا تحت الماء الجاري وجففها.",
+     "كُلها كاملة، أو انزع البذور وقطّعها أهلّة. رشّ عليها القرفة إن رغبت، وأضف قليلًا من عصير الليمون إذا كانت الشرائح ستنتظر قليلًا كي لا يتغير لونها."
+    ]
+   },
+   "tips": [
+    "التفاحة المتوسطة بوزن 180 غ تعادل نحو 95 سعرة — وجبة خفيفة تناسب أي ميزانية سعرات تقريبًا.",
+    "أبقِ القشرة: فيها جزء كبير من الألياف، فتُشبع التفاحة أكثر بالسعرات نفسها.",
+    "التفاحة الكاملة أكثر إشباعًا من الكمية نفسها على شكل عصير، فالعصير يُشرب بسرعة ولا يحتاج إلى مضغ."
+   ]
+  },
+  "it": {
+   "name": "Mela",
+   "name_inline": "mela",
+   "origin": "Asia centrale · coltivata in tutto il mondo",
+   "intro": "Una mela fresca mangiata intera con la buccia è uno degli spuntini più semplici che esistano: croccante, succosa e da dolce ad acidula a seconda della varietà. Una mela media pesa circa 180 g ed è composta soprattutto da acqua e zuccheri naturali, con le fibre concentrate nella buccia e appena sotto. Si trasporta bene e non richiede altra preparazione che una sciacquata.",
+   "history": "La mela coltivata discende principalmente da un melo selvatico dei monti Tian Shan, in Asia centrale, nell'area dell'attuale Kazakistan. Da lì si diffuse lungo le rotte commerciali verso la Persia, il Mediterraneo e l'Europa, e più tardi verso le Americhe. Oggi le mele si coltivano nelle regioni temperate di tutto il mondo in migliaia di varietà.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "1 mela media (circa 180 g)",
+     "Facoltativo: un pizzico di cannella in polvere",
+     "Facoltativo: qualche goccia di succo di limone"
+    ],
+    "steps": [
+     "Sciacqua bene la mela sotto l'acqua corrente e asciugala.",
+     "Mangiala intera, oppure togli il torsolo e tagliala a spicchi. Se ti piace, spolvera con la cannella, e aggiungi un po' di succo di limone se le fette devono restare fuori per un po', così non anneriscono."
+    ]
+   },
+   "tips": [
+    "Una mela media da 180 g ha circa 95 kcal: uno spuntino facile da far rientrare in quasi qualsiasi budget calorico.",
+    "Lascia la buccia: contiene gran parte delle fibre, quindi a parità di calorie la mela sazia di più.",
+    "Una mela intera sazia di più della stessa quantità sotto forma di succo, che si beve in fretta e non va masticato, quindi nulla ti rallenta."
+   ]
+  },
+  "el": {
+   "name": "Μήλο",
+   "name_inline": "μήλο",
+   "origin": "Κεντρική Ασία · καλλιεργείται σε όλο τον κόσμο",
+   "intro": "Ένα φρέσκο μήλο, φαγωμένο ολόκληρο με τη φλούδα, είναι από τα πιο απλά σνακ που υπάρχουν: τραγανό, ζουμερό και από γλυκό ως ξινό, ανάλογα με την ποικιλία. Ένα μέτριο μήλο ζυγίζει περίπου 180 γρ. και αποτελείται κυρίως από νερό και φυσικά σάκχαρα, με τις φυτικές ίνες συγκεντρωμένες στη φλούδα και ακριβώς από κάτω. Μεταφέρεται εύκολα και δεν χρειάζεται καμία προετοιμασία πέρα από ένα ξέπλυμα.",
+   "history": "Το καλλιεργημένο μήλο κατάγεται κυρίως από μια άγρια μηλιά των βουνών Τιαν Σαν στην Κεντρική Ασία, γύρω από το σημερινό Καζακστάν. Από εκεί διαδόθηκε μέσω των εμπορικών δρόμων στην Περσία, τη Μεσόγειο και την Ευρώπη και αργότερα στην Αμερική. Σήμερα τα μήλα καλλιεργούνται στις εύκρατες περιοχές όλου του κόσμου σε χιλιάδες ποικιλίες.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "1 μέτριο μήλο (περίπου 180 γρ.)",
+     "Προαιρετικά: μια πρέζα κανέλα σε σκόνη",
+     "Προαιρετικά: λίγες σταγόνες χυμός λεμονιού"
+    ],
+    "steps": [
+     "Ξεπλύνετε καλά το μήλο με τρεχούμενο νερό και στεγνώστε το.",
+     "Φάτε το ολόκληρο ή αφαιρέστε το κουκουτσάλι και κόψτε το σε φέτες. Αν θέλετε, πασπαλίστε με κανέλα, και προσθέστε λίγο χυμό λεμονιού αν οι φέτες θα μείνουν λίγη ώρα, για να μη μαυρίσουν."
+    ]
+   },
+   "tips": [
+    "Ένα μέτριο μήλο 180 γρ. έχει περίπου 95 kcal — ένα σνακ που χωράει εύκολα σχεδόν σε κάθε θερμιδικό πλάνο.",
+    "Αφήστε τη φλούδα: περιέχει μεγάλο μέρος των φυτικών ινών, οπότε το μήλο χορταίνει περισσότερο με τις ίδιες θερμίδες.",
+    "Ένα ολόκληρο μήλο χορταίνει περισσότερο από την ίδια ποσότητα σε χυμό, που πίνεται γρήγορα και δεν χρειάζεται μάσημα για να σας κόψει τον ρυθμό."
+   ]
+  },
+  "ru": {
+   "name": "Яблоко",
+   "origin": "Центральная Азия · выращивается по всему миру",
+   "intro": "Свежее яблоко, съеденное целиком с кожурой, — одна из самых простых закусок: хрустящее, сочное, от сладкого до кислого в зависимости от сорта. Среднее яблоко весит около 180 г и состоит в основном из воды и природных сахаров, а клетчатка сосредоточена в кожуре и непосредственно под ней. Оно хорошо переносит дорогу и не требует подготовки, кроме ополаскивания.",
+   "history": "Культурное яблоко происходит главным образом от дикой яблони гор Тянь-Шаня в Центральной Азии, в районе нынешнего Казахстана. Оттуда оно распространилось по торговым путям в Персию, Средиземноморье и Европу, а позднее в Америку. Сегодня яблоки выращивают в умеренных регионах по всему миру в тысячах сортов.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "1 среднее яблоко (около 180 г)",
+     "По желанию: щепотка молотой корицы",
+     "По желанию: немного лимонного сока"
+    ],
+    "steps": [
+     "Хорошо ополосните яблоко под проточной водой и вытрите.",
+     "Ешьте целиком или удалите сердцевину и нарежьте дольками. Посыпьте корицей, если хотите, и добавьте немного лимонного сока, если дольки будут стоять некоторое время, чтобы они не темнели."
+    ]
+   },
+   "tips": [
+    "Среднее яблоко в 180 г — около 95 ккал, лёгкая закуска, которая вписывается почти в любой калорийный бюджет.",
+    "Оставляйте кожуру: в ней содержится значительная часть клетчатки, поэтому яблоко насыщает лучше при тех же калориях.",
+    "Целое яблоко насыщает лучше, чем то же количество в виде сока, который выпивается быстро и не требует жевания, замедляющего еду."
+   ],
+   "name_inline": "яблоко"
+  },
+  "es": {
+   "name": "Manzana",
+   "origin": "Asia Central · cultivada en todo el mundo",
+   "intro": "Una manzana fresca, comida entera y con cáscara, es uno de los bocadillos más sencillos que existen: crujiente, jugosa y de sabor dulce a ácido según la variedad. Una manzana mediana pesa unos 180 g y es sobre todo agua y azúcares naturales, con la fibra concentrada en la cáscara y justo debajo de ella. Se transporta bien y solo necesita un enjuague.",
+   "history": "La manzana cultivada desciende principalmente de una manzana silvestre de las montañas Tian Shan, en Asia Central, en torno al actual Kazajistán. De allí se extendió por las rutas comerciales hasta Persia, el Mediterráneo y Europa, y más tarde hasta América. Hoy se cultiva en regiones templadas de todo el mundo, en miles de variedades.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 2,
+    "ingredients": [
+     "1 manzana mediana (unos 180 g)",
+     "Opcional: una pizca de canela molida",
+     "Opcional: unas gotas de jugo de limón"
+    ],
+    "steps": [
+     "Enjuaga bien la manzana bajo el chorro de agua y sécala.",
+     "Cómela entera, o quítale el corazón y córtala en gajos. Espolvorea canela si te gusta y agrega un poco de jugo de limón si los gajos van a esperar un rato, para que no se oscurezcan."
+    ]
+   },
+   "tips": [
+    "Una manzana mediana de 180 g aporta unas 95 kcal: un bocadillo fácil de incluir en casi cualquier presupuesto de calorías.",
+    "Déjale la cáscara: concentra gran parte de la fibra y hace que la manzana sea más saciante con las mismas calorías.",
+    "Una manzana entera sacia más que la misma cantidad en jugo, que se bebe rápido y no requiere masticar."
+   ],
+   "name_inline": "una manzana"
   }
+ }
 }

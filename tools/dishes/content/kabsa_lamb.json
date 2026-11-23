@@ -1,180 +1,214 @@
 {
-  "db_key": "kabsa_lamb",
-  "slug": "kabsa-lamb",
-  "emoji": "🍖",
-  "portion_g": 400,
-  "country": "SA",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kabsa_lamb",
+ "slug": "kabsa-lamb",
+ "emoji": "🍖",
+ "portion_g": 400,
+ "country": "SA",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Lamb kabsa",
+   "origin": "Saudi Arabia · Arabian Peninsula",
+   "intro": "Lamb kabsa is the festive form of Saudi Arabia's signature rice dish: pieces of lamb simmered with onion, tomato, baharat and loomi (dried lime), then long-grain rice cooked in the same rich broth. The rice turns fragrant and reddish-gold and the lamb falls off the bone. It is served heaped on a large platter with the meat on top, often with salad and daqqus.",
+   "history": "Kabsa comes from the Arabian Peninsula, where rice arrived through Indian Ocean trade and became central to both Bedouin and town cooking. Lamb kabsa is a traditional dish for weddings, Eid and large family gatherings across Saudi Arabia and the Gulf.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.2 kg lamb on the bone (shoulder or leg), in pieces",
+     "500 g basmati rice",
+     "2 onions, chopped",
+     "3 tomatoes, grated, and 2 tbsp tomato paste",
+     "2 tsp baharat",
+     "2 loomi (dried limes), pierced",
+     "2 tbsp vegetable oil",
+     "Salt",
+     "About 1.8 litres water"
+    ],
+    "steps": [
+     "Brown the onion in the oil, add the lamb and baharat and sear 5 minutes.",
+     "Add the tomatoes, paste, loomi, salt and water; cover and simmer 1½ hours until the lamb is tender.",
+     "Soak the rice 30 minutes. Lift out the lamb and keep about 900 ml of broth in the pot.",
+     "Add the rice, bring to the boil, cover and cook on low heat 20–25 minutes.",
+     "Optionally roast the lamb at 220 °C for 10 minutes to brown, then serve on the rice."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the lamb and skim the broth before adding the rice.",
+    "Choose leg rather than shoulder for a leaner cut.",
+    "Half the usual rice plus a big salad keeps the plate lighter."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Lamb kabsa",
-      "origin": "Saudi Arabia · Arabian Peninsula",
-      "intro": "Lamb kabsa is the festive form of Saudi Arabia's signature rice dish: pieces of lamb simmered with onion, tomato, baharat and loomi (dried lime), then long-grain rice cooked in the same rich broth. The rice turns fragrant and reddish-gold and the lamb falls off the bone. It is served heaped on a large platter with the meat on top, often with salad and daqqus.",
-      "history": "Kabsa comes from the Arabian Peninsula, where rice arrived through Indian Ocean trade and became central to both Bedouin and town cooking. Lamb kabsa is a traditional dish for weddings, Eid and large family gatherings across Saudi Arabia and the Gulf.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.2 kg lamb on the bone (shoulder or leg), in pieces",
-          "500 g basmati rice",
-          "2 onions, chopped",
-          "3 tomatoes, grated, and 2 tbsp tomato paste",
-          "2 tsp baharat",
-          "2 loomi (dried limes), pierced",
-          "2 tbsp vegetable oil",
-          "Salt",
-          "About 1.8 litres water"
-        ],
-        "steps": [
-          "Brown the onion in the oil, add the lamb and baharat and sear 5 minutes.",
-          "Add the tomatoes, paste, loomi, salt and water; cover and simmer 1½ hours until the lamb is tender.",
-          "Soak the rice 30 minutes. Lift out the lamb and keep about 900 ml of broth in the pot.",
-          "Add the rice, bring to the boil, cover and cook on low heat 20–25 minutes.",
-          "Optionally roast the lamb at 220 °C for 10 minutes to brown, then serve on the rice."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the lamb and skim the broth before adding the rice.",
-        "Choose leg rather than shoulder for a leaner cut.",
-        "Half the usual rice plus a big salad keeps the plate lighter."
-      ]
-    },
-    "ar": {
-      "name": "كبسة لحم",
-      "origin": "السعودية · شبه الجزيرة العربية",
-      "intro": "كبسة اللحم هي النسخة الاحتفالية من طبق الأرز الأشهر في السعودية: قطع لحم ضأن تُطهى مع البصل والطماطم والبهارات واللومي، ثم يُطبخ الأرز الطويل الحبة في المرق الغني نفسه. يصبح الأرز عطرياً بلون ذهبي مائل للحمرة، ويتساقط اللحم عن العظم. يُقدَّم مكوَّماً في صينية كبيرة واللحم فوقه، غالباً مع السلطة والدقوس.",
-      "history": "الكبسة من شبه الجزيرة العربية، حيث وصل الأرز عبر تجارة المحيط الهندي وأصبح محور طبخ البادية والحاضرة. وكبسة اللحم من الأطباق التقليدية في الأعراس والأعياد والتجمعات العائلية الكبيرة في السعودية والخليج.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.2 كغ لحم ضأن بالعظم (كتف أو فخذ) مقطّع",
-          "500 غ أرز بسمتي",
-          "2 بصلة مفرومة",
-          "3 حبات طماطم مبشورة و2 ملعقة كبيرة معجون طماطم",
-          "2 ملعقة صغيرة بهارات",
-          "2 حبة لومي مثقوبة",
-          "2 ملعقة كبيرة زيت نباتي",
-          "ملح",
-          "نحو 1.8 لتر ماء"
-        ],
-        "steps": [
-          "حمّر البصل في الزيت، وأضف اللحم والبهارات وقلّبه 5 دقائق.",
-          "أضف الطماطم والمعجون واللومي والملح والماء، وغطِّه واطهُه على نار هادئة ساعة ونصفاً حتى يطرى اللحم.",
-          "انقع الأرز 30 دقيقة. ارفع اللحم واترك في القدر نحو 900 مل من المرق.",
-          "أضف الأرز واتركه يغلي، ثم غطِّه واطهُه على نار هادئة 20–25 دقيقة.",
-          "يمكنك تحمير اللحم في الفرن على 220 °م لمدة 10 دقائق، ثم قدّمه فوق الأرز."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر من اللحم واكشط المرق قبل إضافة الأرز.",
-        "اختر الفخذ بدل الكتف لقطعة أقل دهناً.",
-        "نصف كمية الأرز المعتادة مع سلطة كبيرة يجعل الطبق أخف."
-      ]
-    },
-    "it": {
-      "name": "Kabsa di agnello",
-      "origin": "Arabia Saudita · Penisola arabica",
-      "intro": "La kabsa di agnello è la versione delle feste del piatto di riso simbolo dell'Arabia Saudita: pezzi di agnello cotti lentamente con cipolla, pomodoro, baharat e loomi (lime essiccato), poi riso a chicco lungo cotto nello stesso brodo ricco. Il riso diventa profumato e di un oro rossastro e l'agnello si stacca dall'osso. Si serve ammucchiato su un grande vassoio con la carne sopra, spesso con insalata e daqqus.",
-      "history": "La kabsa viene dalla Penisola arabica, dove il riso arrivò con i commerci dell'Oceano Indiano e divenne centrale sia nella cucina beduina sia in quella cittadina. La kabsa di agnello è un piatto tradizionale di matrimoni, Eid e grandi riunioni di famiglia in tutta l'Arabia Saudita e il Golfo.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,2 kg di agnello con l'osso (spalla o cosciotto), a pezzi",
-          "500 g di riso basmati",
-          "2 cipolle tritate",
-          "3 pomodori grattugiati e 2 cucchiai di concentrato di pomodoro",
-          "2 cucchiaini di baharat",
-          "2 loomi (lime essiccati), bucherellati",
-          "2 cucchiai di olio di semi",
-          "Sale",
-          "Circa 1,8 litri di acqua"
-        ],
-        "steps": [
-          "Rosola la cipolla nell'olio, aggiungi agnello e baharat e scotta per 5 minuti.",
-          "Aggiungi pomodori, concentrato, loomi, sale e acqua; copri e lascia sobbollire 1 ora e mezza finché l'agnello è tenero.",
-          "Metti il riso in ammollo per 30 minuti. Togli l'agnello e lascia nella pentola circa 900 ml di brodo.",
-          "Aggiungi il riso, porta a ebollizione, copri e cuoci a fuoco basso per 20–25 minuti.",
-          "Se vuoi, arrostisci l'agnello a 220 °C per 10 minuti per dorarlo, poi servilo sul riso."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dall'agnello e sgrassa il brodo prima di aggiungere il riso.",
-        "Scegli il cosciotto invece della spalla per un taglio più magro.",
-        "Metà del riso abituale più un'abbondante insalata rendono il piatto più leggero."
-      ]
-    },
-    "el": {
-      "name": "Κάμπσα με αρνί",
-      "origin": "Σαουδική Αραβία · Αραβική Χερσόνησος",
-      "intro": "Η κάμπσα με αρνί είναι η γιορτινή μορφή του εμβληματικού πιάτου με ρύζι της Σαουδικής Αραβίας: κομμάτια αρνιού σιγοβρασμένα με κρεμμύδι, ντομάτα, μπαχαράτ και λούμι (αποξηραμένο λάιμ) και έπειτα μακρύκοκκο ρύζι μαγειρεμένο στον ίδιο πλούσιο ζωμό. Το ρύζι γίνεται αρωματικό και κοκκινόχρυσο και το αρνί ξεκολλά από το κόκαλο. Σερβίρεται σε σωρό σε μεγάλη πιατέλα με το κρέας από πάνω, συχνά με σαλάτα και ντακούς.",
-      "history": "Η κάμπσα προέρχεται από την Αραβική Χερσόνησο, όπου το ρύζι έφτασε μέσω του εμπορίου του Ινδικού Ωκεανού και έγινε κεντρικό τόσο στη βεδουίνικη όσο και στην αστική κουζίνα. Η κάμπσα με αρνί είναι παραδοσιακό πιάτο για γάμους, Μπαϊράμι και μεγάλες οικογενειακές συγκεντρώσεις σε όλη τη Σαουδική Αραβία και τον Κόλπο.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,2 κιλό αρνί με κόκαλο (σπάλα ή μπούτι), σε κομμάτια",
-          "500 γρ. ρύζι μπασμάτι",
-          "2 κρεμμύδια, ψιλοκομμένα",
-          "3 ντομάτες, τριμμένες, και 2 κ.σ. πελτές ντομάτας",
-          "2 κ.γ. μπαχαράτ",
-          "2 λούμι (αποξηραμένα λάιμ), τρυπημένα",
-          "2 κ.σ. φυτικό λάδι",
-          "Αλάτι",
-          "Περίπου 1,8 λίτρα νερό"
-        ],
-        "steps": [
-          "Τσιγαρίστε το κρεμμύδι στο λάδι, προσθέστε το αρνί και το μπαχαράτ και σοτάρετε 5 λεπτά.",
-          "Προσθέστε τις ντομάτες, τον πελτέ, τα λούμι, αλάτι και το νερό· σκεπάστε και σιγοβράστε 1½ ώρα μέχρι να μαλακώσει το αρνί.",
-          "Μουλιάστε το ρύζι 30 λεπτά. Βγάλτε το αρνί και κρατήστε περίπου 900 ml ζωμό στην κατσαρόλα.",
-          "Προσθέστε το ρύζι, αφήστε να πάρει βράση, σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά 20–25 λεπτά.",
-          "Αν θέλετε, ψήστε το αρνί στους 220 °C για 10 λεπτά να ροδίσει και σερβίρετέ το πάνω στο ρύζι."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το αρνί και ξαφρίστε τον ζωμό πριν προσθέσετε το ρύζι.",
-        "Διαλέξτε μπούτι αντί για σπάλα για πιο άπαχο κομμάτι.",
-        "Το μισό από το συνηθισμένο ρύζι μαζί με μια μεγάλη σαλάτα κρατά το πιάτο πιο ελαφρύ."
-      ]
-    },
-    "ru": {
-      "name": "Кабса с бараниной",
-      "origin": "Саудовская Аравия · Аравийский полуостров",
-      "intro": "Кабса с бараниной — праздничный вариант фирменного рисового блюда Саудовской Аравии: куски баранины, тушёные с луком, помидорами, бахаратом и лоуми (сушёным лаймом), затем длиннозёрный рис, сваренный в том же насыщенном бульоне. Рис становится ароматным и красновато-золотистым, а баранина отваливается от кости. Подаётся горкой на большом блюде с мясом сверху, часто с салатом и даккусом.",
-      "history": "Кабса происходит с Аравийского полуострова, где рис появился благодаря торговле через Индийский океан и стал главным как в бедуинской, так и в городской кухне. Кабса с бараниной — традиционное блюдо на свадьбах, Ид и больших семейных встречах по всей Саудовской Аравии и Заливу.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,2 кг баранины на кости (лопатка или окорок), кусками",
-          "500 г риса басмати",
-          "2 луковицы, нарезанные",
-          "3 помидора, натёртых, и 2 ст. л. томатной пасты",
-          "2 ч. л. бахарата",
-          "2 лоуми (сушёных лайма), проколотых",
-          "2 ст. л. растительного масла",
-          "Соль",
-          "Около 1,8 литра воды"
-        ],
-        "steps": [
-          "Обжарьте лук в масле, добавьте баранину и бахарат и обжаривайте 5 минут.",
-          "Добавьте помидоры, пасту, лоуми, соль и воду; накройте и тушите 1½ часа, пока баранина не станет мягкой.",
-          "Замочите рис на 30 минут. Выньте баранину и оставьте в кастрюле около 900 мл бульона.",
-          "Добавьте рис, доведите до кипения, накройте и готовьте на слабом огне 20–25 минут.",
-          "При желании подрумяньте баранину в духовке при 220 °C 10 минут, затем подавайте на рисе."
-        ]
-      },
-      "tips": [
-        "Срежьте с баранины видимый жир и снимите жир с бульона перед добавлением риса.",
-        "Выбирайте окорок, а не лопатку, для более постного куска.",
-        "Вдвое меньше обычного риса и большой салат сделают тарелку легче."
-      ],
-      "name_inline": "кабса с бараниной"
-    }
+  "ar": {
+   "name": "كبسة لحم",
+   "origin": "السعودية · شبه الجزيرة العربية",
+   "intro": "كبسة اللحم هي النسخة الاحتفالية من طبق الأرز الأشهر في السعودية: قطع لحم ضأن تُطهى مع البصل والطماطم والبهارات واللومي، ثم يُطبخ الأرز الطويل الحبة في المرق الغني نفسه. يصبح الأرز عطرياً بلون ذهبي مائل للحمرة، ويتساقط اللحم عن العظم. يُقدَّم مكوَّماً في صينية كبيرة واللحم فوقه، غالباً مع السلطة والدقوس.",
+   "history": "الكبسة من شبه الجزيرة العربية، حيث وصل الأرز عبر تجارة المحيط الهندي وأصبح محور طبخ البادية والحاضرة. وكبسة اللحم من الأطباق التقليدية في الأعراس والأعياد والتجمعات العائلية الكبيرة في السعودية والخليج.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.2 كغ لحم ضأن بالعظم (كتف أو فخذ) مقطّع",
+     "500 غ أرز بسمتي",
+     "2 بصلة مفرومة",
+     "3 حبات طماطم مبشورة و2 ملعقة كبيرة معجون طماطم",
+     "2 ملعقة صغيرة بهارات",
+     "2 حبة لومي مثقوبة",
+     "2 ملعقة كبيرة زيت نباتي",
+     "ملح",
+     "نحو 1.8 لتر ماء"
+    ],
+    "steps": [
+     "حمّر البصل في الزيت، وأضف اللحم والبهارات وقلّبه 5 دقائق.",
+     "أضف الطماطم والمعجون واللومي والملح والماء، وغطِّه واطهُه على نار هادئة ساعة ونصفاً حتى يطرى اللحم.",
+     "انقع الأرز 30 دقيقة. ارفع اللحم واترك في القدر نحو 900 مل من المرق.",
+     "أضف الأرز واتركه يغلي، ثم غطِّه واطهُه على نار هادئة 20–25 دقيقة.",
+     "يمكنك تحمير اللحم في الفرن على 220 °م لمدة 10 دقائق، ثم قدّمه فوق الأرز."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر من اللحم واكشط المرق قبل إضافة الأرز.",
+    "اختر الفخذ بدل الكتف لقطعة أقل دهناً.",
+    "نصف كمية الأرز المعتادة مع سلطة كبيرة يجعل الطبق أخف."
+   ]
+  },
+  "it": {
+   "name": "Kabsa di agnello",
+   "origin": "Arabia Saudita · Penisola arabica",
+   "intro": "La kabsa di agnello è la versione delle feste del piatto di riso simbolo dell'Arabia Saudita: pezzi di agnello cotti lentamente con cipolla, pomodoro, baharat e loomi (lime essiccato), poi riso a chicco lungo cotto nello stesso brodo ricco. Il riso diventa profumato e di un oro rossastro e l'agnello si stacca dall'osso. Si serve ammucchiato su un grande vassoio con la carne sopra, spesso con insalata e daqqus.",
+   "history": "La kabsa viene dalla Penisola arabica, dove il riso arrivò con i commerci dell'Oceano Indiano e divenne centrale sia nella cucina beduina sia in quella cittadina. La kabsa di agnello è un piatto tradizionale di matrimoni, Eid e grandi riunioni di famiglia in tutta l'Arabia Saudita e il Golfo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 kg di agnello con l'osso (spalla o cosciotto), a pezzi",
+     "500 g di riso basmati",
+     "2 cipolle tritate",
+     "3 pomodori grattugiati e 2 cucchiai di concentrato di pomodoro",
+     "2 cucchiaini di baharat",
+     "2 loomi (lime essiccati), bucherellati",
+     "2 cucchiai di olio di semi",
+     "Sale",
+     "Circa 1,8 litri di acqua"
+    ],
+    "steps": [
+     "Rosola la cipolla nell'olio, aggiungi agnello e baharat e scotta per 5 minuti.",
+     "Aggiungi pomodori, concentrato, loomi, sale e acqua; copri e lascia sobbollire 1 ora e mezza finché l'agnello è tenero.",
+     "Metti il riso in ammollo per 30 minuti. Togli l'agnello e lascia nella pentola circa 900 ml di brodo.",
+     "Aggiungi il riso, porta a ebollizione, copri e cuoci a fuoco basso per 20–25 minuti.",
+     "Se vuoi, arrostisci l'agnello a 220 °C per 10 minuti per dorarlo, poi servilo sul riso."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dall'agnello e sgrassa il brodo prima di aggiungere il riso.",
+    "Scegli il cosciotto invece della spalla per un taglio più magro.",
+    "Metà del riso abituale più un'abbondante insalata rendono il piatto più leggero."
+   ]
+  },
+  "el": {
+   "name": "Κάμπσα με αρνί",
+   "origin": "Σαουδική Αραβία · Αραβική Χερσόνησος",
+   "intro": "Η κάμπσα με αρνί είναι η γιορτινή μορφή του εμβληματικού πιάτου με ρύζι της Σαουδικής Αραβίας: κομμάτια αρνιού σιγοβρασμένα με κρεμμύδι, ντομάτα, μπαχαράτ και λούμι (αποξηραμένο λάιμ) και έπειτα μακρύκοκκο ρύζι μαγειρεμένο στον ίδιο πλούσιο ζωμό. Το ρύζι γίνεται αρωματικό και κοκκινόχρυσο και το αρνί ξεκολλά από το κόκαλο. Σερβίρεται σε σωρό σε μεγάλη πιατέλα με το κρέας από πάνω, συχνά με σαλάτα και ντακούς.",
+   "history": "Η κάμπσα προέρχεται από την Αραβική Χερσόνησο, όπου το ρύζι έφτασε μέσω του εμπορίου του Ινδικού Ωκεανού και έγινε κεντρικό τόσο στη βεδουίνικη όσο και στην αστική κουζίνα. Η κάμπσα με αρνί είναι παραδοσιακό πιάτο για γάμους, Μπαϊράμι και μεγάλες οικογενειακές συγκεντρώσεις σε όλη τη Σαουδική Αραβία και τον Κόλπο.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 κιλό αρνί με κόκαλο (σπάλα ή μπούτι), σε κομμάτια",
+     "500 γρ. ρύζι μπασμάτι",
+     "2 κρεμμύδια, ψιλοκομμένα",
+     "3 ντομάτες, τριμμένες, και 2 κ.σ. πελτές ντομάτας",
+     "2 κ.γ. μπαχαράτ",
+     "2 λούμι (αποξηραμένα λάιμ), τρυπημένα",
+     "2 κ.σ. φυτικό λάδι",
+     "Αλάτι",
+     "Περίπου 1,8 λίτρα νερό"
+    ],
+    "steps": [
+     "Τσιγαρίστε το κρεμμύδι στο λάδι, προσθέστε το αρνί και το μπαχαράτ και σοτάρετε 5 λεπτά.",
+     "Προσθέστε τις ντομάτες, τον πελτέ, τα λούμι, αλάτι και το νερό· σκεπάστε και σιγοβράστε 1½ ώρα μέχρι να μαλακώσει το αρνί.",
+     "Μουλιάστε το ρύζι 30 λεπτά. Βγάλτε το αρνί και κρατήστε περίπου 900 ml ζωμό στην κατσαρόλα.",
+     "Προσθέστε το ρύζι, αφήστε να πάρει βράση, σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά 20–25 λεπτά.",
+     "Αν θέλετε, ψήστε το αρνί στους 220 °C για 10 λεπτά να ροδίσει και σερβίρετέ το πάνω στο ρύζι."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το αρνί και ξαφρίστε τον ζωμό πριν προσθέσετε το ρύζι.",
+    "Διαλέξτε μπούτι αντί για σπάλα για πιο άπαχο κομμάτι.",
+    "Το μισό από το συνηθισμένο ρύζι μαζί με μια μεγάλη σαλάτα κρατά το πιάτο πιο ελαφρύ."
+   ]
+  },
+  "ru": {
+   "name": "Кабса с бараниной",
+   "origin": "Саудовская Аравия · Аравийский полуостров",
+   "intro": "Кабса с бараниной — праздничный вариант фирменного рисового блюда Саудовской Аравии: куски баранины, тушёные с луком, помидорами, бахаратом и лоуми (сушёным лаймом), затем длиннозёрный рис, сваренный в том же насыщенном бульоне. Рис становится ароматным и красновато-золотистым, а баранина отваливается от кости. Подаётся горкой на большом блюде с мясом сверху, часто с салатом и даккусом.",
+   "history": "Кабса происходит с Аравийского полуострова, где рис появился благодаря торговле через Индийский океан и стал главным как в бедуинской, так и в городской кухне. Кабса с бараниной — традиционное блюдо на свадьбах, Ид и больших семейных встречах по всей Саудовской Аравии и Заливу.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 кг баранины на кости (лопатка или окорок), кусками",
+     "500 г риса басмати",
+     "2 луковицы, нарезанные",
+     "3 помидора, натёртых, и 2 ст. л. томатной пасты",
+     "2 ч. л. бахарата",
+     "2 лоуми (сушёных лайма), проколотых",
+     "2 ст. л. растительного масла",
+     "Соль",
+     "Около 1,8 литра воды"
+    ],
+    "steps": [
+     "Обжарьте лук в масле, добавьте баранину и бахарат и обжаривайте 5 минут.",
+     "Добавьте помидоры, пасту, лоуми, соль и воду; накройте и тушите 1½ часа, пока баранина не станет мягкой.",
+     "Замочите рис на 30 минут. Выньте баранину и оставьте в кастрюле около 900 мл бульона.",
+     "Добавьте рис, доведите до кипения, накройте и готовьте на слабом огне 20–25 минут.",
+     "При желании подрумяньте баранину в духовке при 220 °C 10 минут, затем подавайте на рисе."
+    ]
+   },
+   "tips": [
+    "Срежьте с баранины видимый жир и снимите жир с бульона перед добавлением риса.",
+    "Выбирайте окорок, а не лопатку, для более постного куска.",
+    "Вдвое меньше обычного риса и большой салат сделают тарелку легче."
+   ],
+   "name_inline": "кабса с бараниной"
+  },
+  "es": {
+   "name": "Kabsa de cordero",
+   "origin": "Arabia Saudita · Península Arábiga",
+   "intro": "La kabsa de cordero es la versión festiva del plato de arroz emblemático de Arabia Saudita: trozos de cordero cocidos a fuego lento con cebolla, jitomate, baharat y loomi (lima seca), y luego arroz de grano largo cocinado en el mismo caldo sabroso. El arroz queda aromático, de un tono dorado rojizo, y el cordero se deshace del hueso. Se sirve en una fuente grande, con el arroz en montaña y la carne encima, a menudo con ensalada y daqqus.",
+   "history": "La kabsa viene de la Península Arábiga, donde el arroz llegó por el comercio del océano Índico y se volvió central tanto en la cocina beduina como en la de las ciudades. La kabsa de cordero es un plato tradicional de bodas, del Eid y de grandes reuniones familiares en Arabia Saudita y el Golfo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 kg de cordero con hueso (paleta o pierna), en trozos",
+     "500 g de arroz basmati",
+     "2 cebollas, picadas",
+     "3 jitomates, rallados, y 2 cda. de pasta de tomate",
+     "2 cdta. de baharat",
+     "2 loomi (limas secas), perforadas",
+     "2 cda. de aceite vegetal",
+     "Sal",
+     "Unos 1,8 litros de agua"
+    ],
+    "steps": [
+     "Dora la cebolla en el aceite, agrega el cordero y el baharat y sella 5 minutos.",
+     "Añade los jitomates, la pasta de tomate, el loomi, la sal y el agua; tapa y cocina a fuego bajo 1½ horas, hasta que el cordero esté tierno.",
+     "Remoja el arroz 30 minutos. Saca el cordero y deja unos 900 ml de caldo en la olla.",
+     "Agrega el arroz, lleva a hervor, tapa y cocina a fuego bajo de 20 a 25 minutos.",
+     "Si quieres, hornea el cordero a 220 °C durante 10 minutos para dorarlo y sírvelo sobre el arroz."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible del cordero y retira la grasa del caldo antes de añadir el arroz.",
+    "Elige pierna en lugar de paleta para un corte más magro.",
+    "La mitad del arroz habitual y una ensalada grande mantienen el plato más ligero."
+   ],
+   "name_inline": "la kabsa de cordero"
   }
+ }
 }

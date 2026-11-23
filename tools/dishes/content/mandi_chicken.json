@@ -1,177 +1,210 @@
 {
-  "db_key": "mandi_chicken",
-  "slug": "mandi-chicken",
-  "emoji": "🍗",
-  "portion_g": 400,
-  "country": "YE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mandi_chicken",
+ "slug": "mandi-chicken",
+ "emoji": "🍗",
+ "portion_g": 400,
+ "country": "YE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken mandi",
+   "origin": "Yemen · Hadramaut",
+   "intro": "Chicken mandi is spiced chicken slow-roasted over long-grain rice so the juices drip into the grains, giving the dish its tender meat and smoky aroma. The rice is fragrant with cardamom, cloves and cumin and tinted with saffron. It is served on a large shared platter with the chicken on top, often with a spicy tomato sauce on the side.",
+   "history": "Mandi comes from the Hadramaut region of Yemen, where meat was traditionally cooked in a pit oven dug in the ground. It has spread across the Arabian Peninsula and is now a staple of Gulf restaurants and family gatherings.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1.2 kg chicken, halved",
+     "400 g basmati rice",
+     "1 tsp each ground cumin and cardamom, 4 cloves",
+     "A pinch of saffron in 2 tbsp warm water",
+     "1 onion, chopped",
+     "2 tbsp vegetable oil",
+     "Salt, black pepper",
+     "A piece of charcoal for smoking (optional)"
+    ],
+    "steps": [
+     "Rub the chicken with oil, cumin, cardamom, salt and pepper and leave for 30 minutes.",
+     "Fry the onion in a deep oven dish or pot, add the rinsed rice, cloves, salt and 700 ml water and bring to the boil.",
+     "Set a rack over the rice, place the chicken on it, cover tightly and cook at 180 °C for about 75 minutes so the juices drip onto the rice.",
+     "For a smoky flavour, place a hot piece of charcoal in a small foil cup on the rice, pour a few drops of oil on it and cover for 5 minutes.",
+     "Sprinkle the saffron water over the rice, fluff and serve with the chicken on top."
+    ]
+   },
+   "tips": [
+    "Remove the skin before eating to cut a good share of the fat.",
+    "Take a smaller scoop of rice and add a salad or tomato sauce.",
+    "Use only a tablespoon of oil for the onion instead of more."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken mandi",
-      "origin": "Yemen · Hadramaut",
-      "intro": "Chicken mandi is spiced chicken slow-roasted over long-grain rice so the juices drip into the grains, giving the dish its tender meat and smoky aroma. The rice is fragrant with cardamom, cloves and cumin and tinted with saffron. It is served on a large shared platter with the chicken on top, often with a spicy tomato sauce on the side.",
-      "history": "Mandi comes from the Hadramaut region of Yemen, where meat was traditionally cooked in a pit oven dug in the ground. It has spread across the Arabian Peninsula and is now a staple of Gulf restaurants and family gatherings.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1.2 kg chicken, halved",
-          "400 g basmati rice",
-          "1 tsp each ground cumin and cardamom, 4 cloves",
-          "A pinch of saffron in 2 tbsp warm water",
-          "1 onion, chopped",
-          "2 tbsp vegetable oil",
-          "Salt, black pepper",
-          "A piece of charcoal for smoking (optional)"
-        ],
-        "steps": [
-          "Rub the chicken with oil, cumin, cardamom, salt and pepper and leave for 30 minutes.",
-          "Fry the onion in a deep oven dish or pot, add the rinsed rice, cloves, salt and 700 ml water and bring to the boil.",
-          "Set a rack over the rice, place the chicken on it, cover tightly and cook at 180 °C for about 75 minutes so the juices drip onto the rice.",
-          "For a smoky flavour, place a hot piece of charcoal in a small foil cup on the rice, pour a few drops of oil on it and cover for 5 minutes.",
-          "Sprinkle the saffron water over the rice, fluff and serve with the chicken on top."
-        ]
-      },
-      "tips": [
-        "Remove the skin before eating to cut a good share of the fat.",
-        "Take a smaller scoop of rice and add a salad or tomato sauce.",
-        "Use only a tablespoon of oil for the onion instead of more."
-      ]
-    },
-    "ar": {
-      "name": "مندي دجاج",
-      "origin": "اليمن · حضرموت",
-      "intro": "مندي الدجاج دجاج متبّل يُشوى ببطء فوق أرز طويل الحبة فتتساقط عصاراته على الأرز، فيأتي اللحم طرياً برائحة مدخّنة. ويفوح الأرز برائحة الهيل والقرنفل والكمون ويتلوّن بالزعفران. يُقدَّم في صينية كبيرة مشتركة والدجاج فوق الأرز، وغالباً مع صلصة طماطم حارة جانبية.",
-      "history": "يعود المندي إلى منطقة حضرموت في اليمن، حيث كان اللحم يُطهى تقليدياً في تنور محفور في الأرض. وقد انتشر في أنحاء الجزيرة العربية وأصبح اليوم من أساسيات مطاعم الخليج والولائم العائلية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1.2 كغ دجاج مقسوم نصفين",
-          "400 غ أرز بسمتي",
-          "1 ملعقة صغيرة من كل من الكمون والهيل المطحونين، 4 حبات قرنفل",
-          "رشة زعفران في 2 ملعقة كبيرة ماء دافئ",
-          "1 بصلة مفرومة",
-          "2 ملعقة كبيرة زيت نباتي",
-          "ملح، فلفل أسود",
-          "قطعة فحم للتدخين (اختياري)"
-        ],
-        "steps": [
-          "ادهن الدجاج بالزيت والكمون والهيل والملح والفلفل واتركه 30 دقيقة.",
-          "حمّر البصل في صينية عميقة أو قدر، أضف الأرز المغسول والقرنفل والملح و700 مل ماء واتركه يغلي.",
-          "ضع شبكة فوق الأرز والدجاج عليها، غطِّ بإحكام واطهه على 180 °م نحو 75 دقيقة لتتساقط العصارات على الأرز.",
-          "لنكهة مدخّنة ضع قطعة فحم ملتهبة في كوب صغير من ورق القصدير فوق الأرز، صبّ عليها قطرات زيت وغطِّ 5 دقائق.",
-          "رشّ ماء الزعفران على الأرز، قلّبه بخفة وقدّمه والدجاج فوقه."
-        ]
-      },
-      "tips": [
-        "أزل الجلد قبل الأكل لتقليل جزء كبير من الدهون.",
-        "خذ مغرفة أرز أصغر وأضف سلطة أو صلصة طماطم.",
-        "اكتفِ بملعقة كبيرة زيت لتحمير البصل."
-      ]
-    },
-    "it": {
-      "name": "Mandi di pollo",
-      "origin": "Yemen · Hadramaut",
-      "intro": "Il mandi di pollo è pollo speziato arrostito lentamente sopra riso a chicco lungo, così i succhi colano sui chicchi, dando al piatto carne tenera e un aroma affumicato. Il riso è profumato con cardamomo, chiodi di garofano e cumino e colorato con lo zafferano. Si serve su un grande vassoio da condividere con il pollo sopra, spesso con una salsa di pomodoro piccante a parte.",
-      "history": "Il mandi viene dalla regione dell'Hadramaut, nello Yemen, dove la carne veniva tradizionalmente cotta in un forno a fossa scavato nel terreno. Si è diffuso in tutta la Penisola arabica ed è oggi un classico dei ristoranti del Golfo e delle riunioni di famiglia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1,2 kg di pollo, diviso a metà",
-          "400 g di riso basmati",
-          "1 cucchiaino ciascuno di cumino e cardamomo in polvere, 4 chiodi di garofano",
-          "Un pizzico di zafferano in 2 cucchiai di acqua tiepida",
-          "1 cipolla, tritata",
-          "2 cucchiai di olio vegetale",
-          "Sale, pepe nero",
-          "Un pezzo di carbone per affumicare (facoltativo)"
-        ],
-        "steps": [
-          "Strofina il pollo con olio, cumino, cardamomo, sale e pepe e lascia riposare 30 minuti.",
-          "Soffriggi la cipolla in una pirofila fonda o in una pentola, aggiungi il riso sciacquato, i chiodi di garofano, il sale e 700 ml di acqua e porta a ebollizione.",
-          "Sistema una griglia sopra il riso, adagiaci il pollo, copri bene e cuoci a 180 °C per circa 75 minuti, così i succhi colano sul riso.",
-          "Per un sapore affumicato, metti un pezzo di carbone ardente in una piccola coppetta di alluminio sul riso, versaci qualche goccia d'olio e copri per 5 minuti.",
-          "Spruzza l'acqua allo zafferano sul riso, sgranalo e servi con il pollo sopra."
-        ]
-      },
-      "tips": [
-        "Togli la pelle prima di mangiare per eliminare buona parte dei grassi.",
-        "Prendi una porzione di riso più piccola e aggiungi un'insalata o salsa di pomodoro.",
-        "Usa solo un cucchiaio di olio per la cipolla invece di più."
-      ],
-      "name_inline": "mandi di pollo"
-    },
-    "el": {
-      "name": "Μάντι κοτόπουλο",
-      "origin": "Υεμένη · Χαντραμάουτ",
-      "intro": "Το μάντι κοτόπουλο είναι αρωματισμένο κοτόπουλο ψημένο αργά πάνω από μακρύκοκκο ρύζι, ώστε οι χυμοί να στάζουν στους κόκκους, δίνοντας στο πιάτο τρυφερό κρέας και καπνιστό άρωμα. Το ρύζι αρωματίζεται με κάρδαμο, γαρύφαλλο και κύμινο και χρωματίζεται με σαφράν. Σερβίρεται σε μεγάλη κοινή πιατέλα με το κοτόπουλο από πάνω, συχνά με καυτερή σάλτσα ντομάτας στο πλάι.",
-      "history": "Το μάντι προέρχεται από την περιοχή Χαντραμάουτ της Υεμένης, όπου το κρέας παραδοσιακά μαγειρευόταν σε φούρνο-λάκκο σκαμμένο στο έδαφος. Έχει διαδοθεί σε όλη την Αραβική Χερσόνησο και σήμερα είναι βασικό πιάτο στα εστιατόρια του Κόλπου και στις οικογενειακές συγκεντρώσεις.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1,2 κιλό κοτόπουλο, κομμένο στα δύο",
-          "400 γρ. ρύζι μπασμάτι",
-          "1 κ.γ. από το καθένα: κύμινο και κάρδαμο σε σκόνη, 4 γαρύφαλλα",
-          "Μια πρέζα σαφράν σε 2 κ.σ. χλιαρό νερό",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "2 κ.σ. φυτικό λάδι",
-          "Αλάτι, μαύρο πιπέρι",
-          "Ένα κομμάτι κάρβουνο για κάπνισμα (προαιρετικά)"
-        ],
-        "steps": [
-          "Τρίψτε το κοτόπουλο με λάδι, κύμινο, κάρδαμο, αλάτι και πιπέρι και αφήστε το 30 λεπτά.",
-          "Τσιγαρίστε το κρεμμύδι σε βαθύ ταψί ή κατσαρόλα, προσθέστε το ξεπλυμένο ρύζι, τα γαρύφαλλα, αλάτι και 700 ml νερό και φέρτε σε βρασμό.",
-          "Βάλτε μια σχάρα πάνω από το ρύζι, τοποθετήστε το κοτόπουλο πάνω της, σκεπάστε καλά και ψήστε στους 180 °C για περίπου 75 λεπτά ώστε οι χυμοί να στάζουν στο ρύζι.",
-          "Για καπνιστή γεύση, βάλτε ένα πυρωμένο κομμάτι κάρβουνο σε μικρό κυπελάκι από αλουμινόχαρτο πάνω στο ρύζι, ρίξτε του λίγες σταγόνες λάδι και σκεπάστε για 5 λεπτά.",
-          "Ραντίστε το ρύζι με το νερό του σαφράν, αφρατέψτε το και σερβίρετε με το κοτόπουλο από πάνω."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα πριν φάτε για να μειώσετε σημαντικά το λίπος.",
-        "Πάρτε μικρότερη κουταλιά ρύζι και προσθέστε σαλάτα ή σάλτσα ντομάτας.",
-        "Χρησιμοποιήστε μόνο μία κουταλιά λάδι για το κρεμμύδι αντί για περισσότερο."
-      ],
-      "name_inline": "μάντι κοτόπουλο"
-    },
-    "ru": {
-      "name": "Манди с курицей",
-      "origin": "Йемен · Хадрамаут",
-      "intro": "Манди с курицей — пряная курица, медленно запечённая над длиннозёрным рисом, так что соки стекают в зёрна, придавая блюду нежное мясо и дымный аромат. Рис ароматен от кардамона, гвоздики и зиры и подкрашен шафраном. Его подают на большом общем блюде с курицей сверху, часто с острым томатным соусом на гарнир.",
-      "history": "Манди родом из региона Хадрамаут в Йемене, где мясо традиционно готовили в земляной печи-яме. Блюдо распространилось по Аравийскому полуострову и теперь является основой ресторанов Залива и семейных встреч.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "1,2 кг курицы, разрезанной пополам",
-          "400 г риса басмати",
-          "По 1 ч. л. молотой зиры и кардамона, 4 гвоздички",
-          "Щепотка шафрана в 2 ст. л. тёплой воды",
-          "1 луковица, нарубленная",
-          "2 ст. л. растительного масла",
-          "Соль, чёрный перец",
-          "Кусочек древесного угля для копчения (по желанию)"
-        ],
-        "steps": [
-          "Натрите курицу маслом, зирой, кардамоном, солью и перцем и оставьте на 30 минут.",
-          "Обжарьте лук в глубокой жаропрочной форме или кастрюле, добавьте промытый рис, гвоздику, соль и 700 мл воды и доведите до кипения.",
-          "Поставьте решётку над рисом, положите на неё курицу, плотно накройте и готовьте при 180 °C около 75 минут, чтобы соки стекали на рис.",
-          "Для дымного вкуса положите раскалённый уголёк в маленькой фольговой чашке на рис, капните несколько капель масла и накройте на 5 минут.",
-          "Сбрызните рис шафрановой водой, взрыхлите и подавайте с курицей сверху."
-        ]
-      },
-      "tips": [
-        "Снимите кожу перед едой, чтобы сократить значительную долю жира.",
-        "Берите меньше риса и добавьте салат или томатный соус.",
-        "Используйте для лука лишь столовую ложку масла, а не больше."
-      ],
-      "name_inline": "манди с курицей"
-    }
+  "ar": {
+   "name": "مندي دجاج",
+   "origin": "اليمن · حضرموت",
+   "intro": "مندي الدجاج دجاج متبّل يُشوى ببطء فوق أرز طويل الحبة فتتساقط عصاراته على الأرز، فيأتي اللحم طرياً برائحة مدخّنة. ويفوح الأرز برائحة الهيل والقرنفل والكمون ويتلوّن بالزعفران. يُقدَّم في صينية كبيرة مشتركة والدجاج فوق الأرز، وغالباً مع صلصة طماطم حارة جانبية.",
+   "history": "يعود المندي إلى منطقة حضرموت في اليمن، حيث كان اللحم يُطهى تقليدياً في تنور محفور في الأرض. وقد انتشر في أنحاء الجزيرة العربية وأصبح اليوم من أساسيات مطاعم الخليج والولائم العائلية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1.2 كغ دجاج مقسوم نصفين",
+     "400 غ أرز بسمتي",
+     "1 ملعقة صغيرة من كل من الكمون والهيل المطحونين، 4 حبات قرنفل",
+     "رشة زعفران في 2 ملعقة كبيرة ماء دافئ",
+     "1 بصلة مفرومة",
+     "2 ملعقة كبيرة زيت نباتي",
+     "ملح، فلفل أسود",
+     "قطعة فحم للتدخين (اختياري)"
+    ],
+    "steps": [
+     "ادهن الدجاج بالزيت والكمون والهيل والملح والفلفل واتركه 30 دقيقة.",
+     "حمّر البصل في صينية عميقة أو قدر، أضف الأرز المغسول والقرنفل والملح و700 مل ماء واتركه يغلي.",
+     "ضع شبكة فوق الأرز والدجاج عليها، غطِّ بإحكام واطهه على 180 °م نحو 75 دقيقة لتتساقط العصارات على الأرز.",
+     "لنكهة مدخّنة ضع قطعة فحم ملتهبة في كوب صغير من ورق القصدير فوق الأرز، صبّ عليها قطرات زيت وغطِّ 5 دقائق.",
+     "رشّ ماء الزعفران على الأرز، قلّبه بخفة وقدّمه والدجاج فوقه."
+    ]
+   },
+   "tips": [
+    "أزل الجلد قبل الأكل لتقليل جزء كبير من الدهون.",
+    "خذ مغرفة أرز أصغر وأضف سلطة أو صلصة طماطم.",
+    "اكتفِ بملعقة كبيرة زيت لتحمير البصل."
+   ]
+  },
+  "it": {
+   "name": "Mandi di pollo",
+   "origin": "Yemen · Hadramaut",
+   "intro": "Il mandi di pollo è pollo speziato arrostito lentamente sopra riso a chicco lungo, così i succhi colano sui chicchi, dando al piatto carne tenera e un aroma affumicato. Il riso è profumato con cardamomo, chiodi di garofano e cumino e colorato con lo zafferano. Si serve su un grande vassoio da condividere con il pollo sopra, spesso con una salsa di pomodoro piccante a parte.",
+   "history": "Il mandi viene dalla regione dell'Hadramaut, nello Yemen, dove la carne veniva tradizionalmente cotta in un forno a fossa scavato nel terreno. Si è diffuso in tutta la Penisola arabica ed è oggi un classico dei ristoranti del Golfo e delle riunioni di famiglia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1,2 kg di pollo, diviso a metà",
+     "400 g di riso basmati",
+     "1 cucchiaino ciascuno di cumino e cardamomo in polvere, 4 chiodi di garofano",
+     "Un pizzico di zafferano in 2 cucchiai di acqua tiepida",
+     "1 cipolla, tritata",
+     "2 cucchiai di olio vegetale",
+     "Sale, pepe nero",
+     "Un pezzo di carbone per affumicare (facoltativo)"
+    ],
+    "steps": [
+     "Strofina il pollo con olio, cumino, cardamomo, sale e pepe e lascia riposare 30 minuti.",
+     "Soffriggi la cipolla in una pirofila fonda o in una pentola, aggiungi il riso sciacquato, i chiodi di garofano, il sale e 700 ml di acqua e porta a ebollizione.",
+     "Sistema una griglia sopra il riso, adagiaci il pollo, copri bene e cuoci a 180 °C per circa 75 minuti, così i succhi colano sul riso.",
+     "Per un sapore affumicato, metti un pezzo di carbone ardente in una piccola coppetta di alluminio sul riso, versaci qualche goccia d'olio e copri per 5 minuti.",
+     "Spruzza l'acqua allo zafferano sul riso, sgranalo e servi con il pollo sopra."
+    ]
+   },
+   "tips": [
+    "Togli la pelle prima di mangiare per eliminare buona parte dei grassi.",
+    "Prendi una porzione di riso più piccola e aggiungi un'insalata o salsa di pomodoro.",
+    "Usa solo un cucchiaio di olio per la cipolla invece di più."
+   ],
+   "name_inline": "mandi di pollo"
+  },
+  "el": {
+   "name": "Μάντι κοτόπουλο",
+   "origin": "Υεμένη · Χαντραμάουτ",
+   "intro": "Το μάντι κοτόπουλο είναι αρωματισμένο κοτόπουλο ψημένο αργά πάνω από μακρύκοκκο ρύζι, ώστε οι χυμοί να στάζουν στους κόκκους, δίνοντας στο πιάτο τρυφερό κρέας και καπνιστό άρωμα. Το ρύζι αρωματίζεται με κάρδαμο, γαρύφαλλο και κύμινο και χρωματίζεται με σαφράν. Σερβίρεται σε μεγάλη κοινή πιατέλα με το κοτόπουλο από πάνω, συχνά με καυτερή σάλτσα ντομάτας στο πλάι.",
+   "history": "Το μάντι προέρχεται από την περιοχή Χαντραμάουτ της Υεμένης, όπου το κρέας παραδοσιακά μαγειρευόταν σε φούρνο-λάκκο σκαμμένο στο έδαφος. Έχει διαδοθεί σε όλη την Αραβική Χερσόνησο και σήμερα είναι βασικό πιάτο στα εστιατόρια του Κόλπου και στις οικογενειακές συγκεντρώσεις.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1,2 κιλό κοτόπουλο, κομμένο στα δύο",
+     "400 γρ. ρύζι μπασμάτι",
+     "1 κ.γ. από το καθένα: κύμινο και κάρδαμο σε σκόνη, 4 γαρύφαλλα",
+     "Μια πρέζα σαφράν σε 2 κ.σ. χλιαρό νερό",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "2 κ.σ. φυτικό λάδι",
+     "Αλάτι, μαύρο πιπέρι",
+     "Ένα κομμάτι κάρβουνο για κάπνισμα (προαιρετικά)"
+    ],
+    "steps": [
+     "Τρίψτε το κοτόπουλο με λάδι, κύμινο, κάρδαμο, αλάτι και πιπέρι και αφήστε το 30 λεπτά.",
+     "Τσιγαρίστε το κρεμμύδι σε βαθύ ταψί ή κατσαρόλα, προσθέστε το ξεπλυμένο ρύζι, τα γαρύφαλλα, αλάτι και 700 ml νερό και φέρτε σε βρασμό.",
+     "Βάλτε μια σχάρα πάνω από το ρύζι, τοποθετήστε το κοτόπουλο πάνω της, σκεπάστε καλά και ψήστε στους 180 °C για περίπου 75 λεπτά ώστε οι χυμοί να στάζουν στο ρύζι.",
+     "Για καπνιστή γεύση, βάλτε ένα πυρωμένο κομμάτι κάρβουνο σε μικρό κυπελάκι από αλουμινόχαρτο πάνω στο ρύζι, ρίξτε του λίγες σταγόνες λάδι και σκεπάστε για 5 λεπτά.",
+     "Ραντίστε το ρύζι με το νερό του σαφράν, αφρατέψτε το και σερβίρετε με το κοτόπουλο από πάνω."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα πριν φάτε για να μειώσετε σημαντικά το λίπος.",
+    "Πάρτε μικρότερη κουταλιά ρύζι και προσθέστε σαλάτα ή σάλτσα ντομάτας.",
+    "Χρησιμοποιήστε μόνο μία κουταλιά λάδι για το κρεμμύδι αντί για περισσότερο."
+   ],
+   "name_inline": "μάντι κοτόπουλο"
+  },
+  "ru": {
+   "name": "Манди с курицей",
+   "origin": "Йемен · Хадрамаут",
+   "intro": "Манди с курицей — пряная курица, медленно запечённая над длиннозёрным рисом, так что соки стекают в зёрна, придавая блюду нежное мясо и дымный аромат. Рис ароматен от кардамона, гвоздики и зиры и подкрашен шафраном. Его подают на большом общем блюде с курицей сверху, часто с острым томатным соусом на гарнир.",
+   "history": "Манди родом из региона Хадрамаут в Йемене, где мясо традиционно готовили в земляной печи-яме. Блюдо распространилось по Аравийскому полуострову и теперь является основой ресторанов Залива и семейных встреч.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1,2 кг курицы, разрезанной пополам",
+     "400 г риса басмати",
+     "По 1 ч. л. молотой зиры и кардамона, 4 гвоздички",
+     "Щепотка шафрана в 2 ст. л. тёплой воды",
+     "1 луковица, нарубленная",
+     "2 ст. л. растительного масла",
+     "Соль, чёрный перец",
+     "Кусочек древесного угля для копчения (по желанию)"
+    ],
+    "steps": [
+     "Натрите курицу маслом, зирой, кардамоном, солью и перцем и оставьте на 30 минут.",
+     "Обжарьте лук в глубокой жаропрочной форме или кастрюле, добавьте промытый рис, гвоздику, соль и 700 мл воды и доведите до кипения.",
+     "Поставьте решётку над рисом, положите на неё курицу, плотно накройте и готовьте при 180 °C около 75 минут, чтобы соки стекали на рис.",
+     "Для дымного вкуса положите раскалённый уголёк в маленькой фольговой чашке на рис, капните несколько капель масла и накройте на 5 минут.",
+     "Сбрызните рис шафрановой водой, взрыхлите и подавайте с курицей сверху."
+    ]
+   },
+   "tips": [
+    "Снимите кожу перед едой, чтобы сократить значительную долю жира.",
+    "Берите меньше риса и добавьте салат или томатный соус.",
+    "Используйте для лука лишь столовую ложку масла, а не больше."
+   ],
+   "name_inline": "манди с курицей"
+  },
+  "es": {
+   "name": "Mandi de pollo",
+   "origin": "Yemen · Hadramaut",
+   "intro": "El mandi de pollo es pollo especiado asado lentamente sobre arroz de grano largo, de modo que los jugos gotean sobre los granos, lo que le da su carne tierna y su aroma ahumado. El arroz es aromático, con cardamomo, clavo y comino, y teñido con azafrán. Se sirve en una fuente grande para compartir, con el pollo encima, a menudo con una salsa picante de tomate aparte.",
+   "history": "El mandi viene de la región de Hadramaut, en Yemen, donde tradicionalmente la carne se cocinaba en un horno de foso excavado en la tierra. Se ha extendido por la Península Arábiga y hoy es un básico de los restaurantes y las reuniones familiares del Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "1,2 kg de pollo, partido por la mitad",
+     "400 g de arroz basmati",
+     "1 cdta. de comino molido y 1 cdta. de cardamomo molido, 4 clavos",
+     "Una pizca de azafrán en 2 cda. de agua tibia",
+     "1 cebolla, picada",
+     "2 cda. de aceite vegetal",
+     "Sal, pimienta negra",
+     "Un trozo de carbón para ahumar (opcional)"
+    ],
+    "steps": [
+     "Unta el pollo con aceite, comino, cardamomo, sal y pimienta, y déjalo reposar 30 minutos.",
+     "Fríe la cebolla en una fuente honda para horno o una olla, agrega el arroz enjuagado, los clavos, la sal y 700 ml de agua, y lleva a hervor.",
+     "Coloca una rejilla sobre el arroz, pon el pollo encima, tapa bien y cocina a 180 °C unos 75 minutos para que los jugos goteen sobre el arroz.",
+     "Para un sabor ahumado, pon un trozo de carbón caliente en un cuenco pequeño de papel aluminio sobre el arroz, echa unas gotas de aceite encima y tapa 5 minutos.",
+     "Rocía el agua de azafrán sobre el arroz, esponja y sirve con el pollo encima."
+    ]
+   },
+   "tips": [
+    "Quita la piel antes de comer para reducir buena parte de la grasa.",
+    "Sírvete una porción más pequeña de arroz y añade ensalada o salsa de tomate.",
+    "Usa solo una cucharada de aceite para la cebolla, en lugar de más."
+   ],
+   "name_inline": "el mandi de pollo"
   }
+ }
 }

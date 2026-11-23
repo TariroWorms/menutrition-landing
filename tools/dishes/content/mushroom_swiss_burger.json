@@ -1,167 +1,198 @@
 {
-  "db_key": "mushroom_swiss_burger",
-  "slug": "mushroom-swiss-burger",
-  "emoji": "🍔",
-  "portion_g": 220,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mushroom_swiss_burger",
+ "slug": "mushroom-swiss-burger",
+ "emoji": "🍔",
+ "portion_g": 220,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mushroom Swiss Burger",
+   "origin": "United States",
+   "intro": "The mushroom Swiss burger is a grilled beef patty topped with a mound of sautéed mushrooms and a slice of melted Swiss cheese, served in a soft bun. The mushrooms bring an earthy, savoury depth, while the nutty cheese melts over them. It is a long-standing favourite on American diner and burger-chain menus.",
+   "history": "The mushroom Swiss burger is a long-established item on American burger menus and is still widely served across the United States.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 beef patties (150 g each)",
+     "200 g mushrooms, sliced",
+     "2 slices Swiss cheese (40 g)",
+     "2 burger buns",
+     "1 tbsp vegetable oil",
+     "1 garlic clove, chopped",
+     "Salt and black pepper"
+    ],
+    "steps": [
+     "Sauté the mushrooms and garlic in the oil for 6–8 minutes until browned; season.",
+     "Season the patties and grill or pan-fry 3–4 minutes per side.",
+     "Top each patty with mushrooms and a cheese slice; cover for 1 minute to melt.",
+     "Toast the buns lightly and assemble."
+    ]
+   },
+   "tips": [
+    "Use 5–10% fat beef for the patties.",
+    "Swap the bun for large lettuce leaves to cut the bread.",
+    "Pile on extra mushrooms — they add volume with few calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mushroom Swiss Burger",
-      "origin": "United States",
-      "intro": "The mushroom Swiss burger is a grilled beef patty topped with a mound of sautéed mushrooms and a slice of melted Swiss cheese, served in a soft bun. The mushrooms bring an earthy, savoury depth, while the nutty cheese melts over them. It is a long-standing favourite on American diner and burger-chain menus.",
-      "history": "The mushroom Swiss burger is a long-established item on American burger menus and is still widely served across the United States.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 beef patties (150 g each)",
-          "200 g mushrooms, sliced",
-          "2 slices Swiss cheese (40 g)",
-          "2 burger buns",
-          "1 tbsp vegetable oil",
-          "1 garlic clove, chopped",
-          "Salt and black pepper"
-        ],
-        "steps": [
-          "Sauté the mushrooms and garlic in the oil for 6–8 minutes until browned; season.",
-          "Season the patties and grill or pan-fry 3–4 minutes per side.",
-          "Top each patty with mushrooms and a cheese slice; cover for 1 minute to melt.",
-          "Toast the buns lightly and assemble."
-        ]
-      },
-      "tips": [
-        "Use 5–10% fat beef for the patties.",
-        "Swap the bun for large lettuce leaves to cut the bread.",
-        "Pile on extra mushrooms — they add volume with few calories."
-      ]
-    },
-    "ar": {
-      "name": "برغر الفطر والجبن السويسري",
-      "origin": "الولايات المتحدة",
-      "intro": "برغر الفطر والجبن السويسري شريحة لحم بقري مشوية تعلوها كومة من الفطر المقلي وشريحة جبن سويسري ذائبة، تُقدَّم في خبز برغر طري. يضيف الفطر عمقًا ترابيًا مالحًا، بينما يذوب الجبن ذو النكهة الجوزية فوقه. وهو من الأطباق المحبوبة منذ زمن في قوائم مطاعم البرغر الأمريكية.",
-      "history": "برغر الفطر والجبن السويسري صنف راسخ منذ زمن في قوائم البرغر الأمريكية، ولا يزال يُقدَّم على نطاق واسع في الولايات المتحدة.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 شريحة لحم بقري للبرغر (150 غ لكل منها)",
-          "200 غ فطر، شرائح",
-          "2 شريحة جبن سويسري (40 غ)",
-          "2 خبز برغر",
-          "1 ملعقة كبيرة زيت نباتي",
-          "1 فص ثوم مفروم",
-          "ملح وفلفل أسود"
-        ],
-        "steps": [
-          "شوّح الفطر والثوم في الزيت 6–8 دقائق حتى يحمرّ، ثم تبّله.",
-          "تبّل شرائح اللحم واشوِها أو اقلِها 3–4 دقائق لكل جانب.",
-          "ضع على كل شريحة الفطر وشريحة جبن، وغطّها دقيقة حتى يذوب الجبن.",
-          "حمّص الخبز قليلًا ثم ركّب البرغر."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا بقريًا بنسبة دهن 5–10% للشرائح.",
-        "استبدل الخبز بأوراق خس كبيرة لتقليل الخبز.",
-        "أكثِر من الفطر، فهو يضيف حجمًا بسعرات قليلة."
-      ]
-    },
-    "it": {
-      "name": "Burger con funghi e formaggio svizzero",
-      "name_inline": "burger con funghi e formaggio svizzero",
-      "origin": "Stati Uniti",
-      "intro": "Il burger con funghi e formaggio svizzero è un hamburger di manzo alla griglia coperto da un mucchio di funghi saltati e da una fetta di formaggio svizzero fuso, servito in un panino morbido. I funghi danno una profondità terrosa e saporita, mentre il formaggio dal gusto di nocciola si scioglie sopra di essi. È da tempo uno dei preferiti nei menù delle tavole calde e delle catene di burger americane.",
-      "history": "Il burger con funghi e formaggio svizzero è una presenza consolidata nei menù di hamburger americani ed è ancora molto diffuso in tutti gli Stati Uniti.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 hamburger di manzo (150 g ciascuno)",
-          "200 g di funghi, affettati",
-          "2 fette di formaggio svizzero (40 g)",
-          "2 panini per hamburger",
-          "1 cucchiaio di olio vegetale",
-          "1 spicchio d'aglio, tritato",
-          "Sale e pepe nero"
-        ],
-        "steps": [
-          "Salta funghi e aglio nell'olio per 6–8 minuti finché dorati; condisci.",
-          "Condisci gli hamburger e cuocili alla griglia o in padella 3–4 minuti per lato.",
-          "Copri ogni hamburger con i funghi e una fetta di formaggio; metti un coperchio per 1 minuto perché si sciolga.",
-          "Tosta leggermente i panini e componi i burger."
-        ]
-      },
-      "tips": [
-        "Usa manzo con il 5–10% di grassi per gli hamburger.",
-        "Sostituisci il panino con grandi foglie di lattuga per ridurre il pane.",
-        "Abbonda con i funghi: aggiungono volume con poche calorie."
-      ]
-    },
-    "el": {
-      "name": "Μπέργκερ με μανιτάρια και ελβετικό τυρί",
-      "name_inline": "μπέργκερ με μανιτάρια και ελβετικό τυρί",
-      "origin": "Ηνωμένες Πολιτείες",
-      "intro": "Το μπέργκερ με μανιτάρια και ελβετικό τυρί είναι ψητό μοσχαρίσιο μπιφτέκι με ένα σωρό σοταρισμένα μανιτάρια και μια φέτα λιωμένο ελβετικό τυρί από πάνω, σερβιρισμένο σε μαλακό ψωμάκι. Τα μανιτάρια δίνουν γήινο, γευστικό βάθος, ενώ το τυρί με τη γεύση ξηρών καρπών λιώνει πάνω τους. Είναι εδώ και πολύ καιρό αγαπημένο στα μενού των αμερικανικών diner και των αλυσίδων μπέργκερ.",
-      "history": "Το μπέργκερ με μανιτάρια και ελβετικό τυρί είναι καθιερωμένο πιάτο στα αμερικανικά μενού μπέργκερ και σερβίρεται ακόμη ευρέως σε όλες τις Ηνωμένες Πολιτείες.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 μοσχαρίσια μπιφτέκια (150 γρ. το καθένα)",
-          "200 γρ. μανιτάρια, σε φέτες",
-          "2 φέτες ελβετικό τυρί (40 γρ.)",
-          "2 ψωμάκια για μπέργκερ",
-          "1 κ.σ. φυτικό λάδι",
-          "1 σκελίδα σκόρδο, ψιλοκομμένη",
-          "Αλάτι και μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Σοτάρετε τα μανιτάρια και το σκόρδο στο λάδι για 6–8 λεπτά μέχρι να ροδίσουν· καρυκεύστε.",
-          "Καρυκεύστε τα μπιφτέκια και ψήστε τα στη σχάρα ή στο τηγάνι 3–4 λεπτά από κάθε πλευρά.",
-          "Βάλτε πάνω σε κάθε μπιφτέκι μανιτάρια και μια φέτα τυρί· σκεπάστε για 1 λεπτό να λιώσει.",
-          "Φρυγανίστε ελαφρά τα ψωμάκια και συναρμολογήστε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε μοσχάρι με 5–10% λιπαρά για τα μπιφτέκια.",
-        "Αντικαταστήστε το ψωμάκι με μεγάλα φύλλα μαρουλιού για να κόψετε το ψωμί.",
-        "Βάλτε επιπλέον μανιτάρια — προσθέτουν όγκο με λίγες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Бургер с грибами и швейцарским сыром",
-      "origin": "США",
-      "intro": "Бургер с грибами и швейцарским сыром — это говяжья котлета-гриль с горкой обжаренных шампиньонов и ломтиком расплавленного швейцарского сыра в мягкой булочке. Грибы дают землистую, насыщенную глубину вкуса, а ореховый сыр плавится поверх них. Это давний любимец в меню американских закусочных и сетей бургерных.",
-      "history": "Бургер с грибами и швейцарским сыром — давно устоявшаяся позиция в меню американских бургерных, и его по-прежнему подают по всей территории США.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 говяжьи котлеты (по 150 г)",
-          "200 г грибов, нарезанных",
-          "2 ломтика швейцарского сыра (40 г)",
-          "2 булочки для бургера",
-          "1 ст. л. растительного масла",
-          "1 зубчик чеснока, измельчённый",
-          "Соль и чёрный перец"
-        ],
-        "steps": [
-          "Обжаривайте грибы с чесноком на масле 6–8 минут до золотистого цвета; приправьте.",
-          "Посолите и поперчите котлеты и готовьте на гриле или сковороде по 3–4 минуты с каждой стороны.",
-          "Выложите на каждую котлету грибы и ломтик сыра; накройте крышкой на 1 минуту, чтобы сыр расплавился.",
-          "Слегка подсушите булочки и соберите бургеры."
-        ]
-      },
-      "tips": [
-        "Берите говядину жирностью 5–10% для котлет.",
-        "Замените булочку крупными листьями салата, чтобы уменьшить количество хлеба.",
-        "Добавьте побольше грибов — они дают объём при небольшой калорийности."
-      ],
-      "name_inline": "бургер с грибами и швейцарским сыром"
-    }
+  "ar": {
+   "name": "برغر الفطر والجبن السويسري",
+   "origin": "الولايات المتحدة",
+   "intro": "برغر الفطر والجبن السويسري شريحة لحم بقري مشوية تعلوها كومة من الفطر المقلي وشريحة جبن سويسري ذائبة، تُقدَّم في خبز برغر طري. يضيف الفطر عمقًا ترابيًا مالحًا، بينما يذوب الجبن ذو النكهة الجوزية فوقه. وهو من الأطباق المحبوبة منذ زمن في قوائم مطاعم البرغر الأمريكية.",
+   "history": "برغر الفطر والجبن السويسري صنف راسخ منذ زمن في قوائم البرغر الأمريكية، ولا يزال يُقدَّم على نطاق واسع في الولايات المتحدة.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 شريحة لحم بقري للبرغر (150 غ لكل منها)",
+     "200 غ فطر، شرائح",
+     "2 شريحة جبن سويسري (40 غ)",
+     "2 خبز برغر",
+     "1 ملعقة كبيرة زيت نباتي",
+     "1 فص ثوم مفروم",
+     "ملح وفلفل أسود"
+    ],
+    "steps": [
+     "شوّح الفطر والثوم في الزيت 6–8 دقائق حتى يحمرّ، ثم تبّله.",
+     "تبّل شرائح اللحم واشوِها أو اقلِها 3–4 دقائق لكل جانب.",
+     "ضع على كل شريحة الفطر وشريحة جبن، وغطّها دقيقة حتى يذوب الجبن.",
+     "حمّص الخبز قليلًا ثم ركّب البرغر."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا بقريًا بنسبة دهن 5–10% للشرائح.",
+    "استبدل الخبز بأوراق خس كبيرة لتقليل الخبز.",
+    "أكثِر من الفطر، فهو يضيف حجمًا بسعرات قليلة."
+   ]
+  },
+  "it": {
+   "name": "Burger con funghi e formaggio svizzero",
+   "name_inline": "burger con funghi e formaggio svizzero",
+   "origin": "Stati Uniti",
+   "intro": "Il burger con funghi e formaggio svizzero è un hamburger di manzo alla griglia coperto da un mucchio di funghi saltati e da una fetta di formaggio svizzero fuso, servito in un panino morbido. I funghi danno una profondità terrosa e saporita, mentre il formaggio dal gusto di nocciola si scioglie sopra di essi. È da tempo uno dei preferiti nei menù delle tavole calde e delle catene di burger americane.",
+   "history": "Il burger con funghi e formaggio svizzero è una presenza consolidata nei menù di hamburger americani ed è ancora molto diffuso in tutti gli Stati Uniti.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 hamburger di manzo (150 g ciascuno)",
+     "200 g di funghi, affettati",
+     "2 fette di formaggio svizzero (40 g)",
+     "2 panini per hamburger",
+     "1 cucchiaio di olio vegetale",
+     "1 spicchio d'aglio, tritato",
+     "Sale e pepe nero"
+    ],
+    "steps": [
+     "Salta funghi e aglio nell'olio per 6–8 minuti finché dorati; condisci.",
+     "Condisci gli hamburger e cuocili alla griglia o in padella 3–4 minuti per lato.",
+     "Copri ogni hamburger con i funghi e una fetta di formaggio; metti un coperchio per 1 minuto perché si sciolga.",
+     "Tosta leggermente i panini e componi i burger."
+    ]
+   },
+   "tips": [
+    "Usa manzo con il 5–10% di grassi per gli hamburger.",
+    "Sostituisci il panino con grandi foglie di lattuga per ridurre il pane.",
+    "Abbonda con i funghi: aggiungono volume con poche calorie."
+   ]
+  },
+  "el": {
+   "name": "Μπέργκερ με μανιτάρια και ελβετικό τυρί",
+   "name_inline": "μπέργκερ με μανιτάρια και ελβετικό τυρί",
+   "origin": "Ηνωμένες Πολιτείες",
+   "intro": "Το μπέργκερ με μανιτάρια και ελβετικό τυρί είναι ψητό μοσχαρίσιο μπιφτέκι με ένα σωρό σοταρισμένα μανιτάρια και μια φέτα λιωμένο ελβετικό τυρί από πάνω, σερβιρισμένο σε μαλακό ψωμάκι. Τα μανιτάρια δίνουν γήινο, γευστικό βάθος, ενώ το τυρί με τη γεύση ξηρών καρπών λιώνει πάνω τους. Είναι εδώ και πολύ καιρό αγαπημένο στα μενού των αμερικανικών diner και των αλυσίδων μπέργκερ.",
+   "history": "Το μπέργκερ με μανιτάρια και ελβετικό τυρί είναι καθιερωμένο πιάτο στα αμερικανικά μενού μπέργκερ και σερβίρεται ακόμη ευρέως σε όλες τις Ηνωμένες Πολιτείες.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 μοσχαρίσια μπιφτέκια (150 γρ. το καθένα)",
+     "200 γρ. μανιτάρια, σε φέτες",
+     "2 φέτες ελβετικό τυρί (40 γρ.)",
+     "2 ψωμάκια για μπέργκερ",
+     "1 κ.σ. φυτικό λάδι",
+     "1 σκελίδα σκόρδο, ψιλοκομμένη",
+     "Αλάτι και μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Σοτάρετε τα μανιτάρια και το σκόρδο στο λάδι για 6–8 λεπτά μέχρι να ροδίσουν· καρυκεύστε.",
+     "Καρυκεύστε τα μπιφτέκια και ψήστε τα στη σχάρα ή στο τηγάνι 3–4 λεπτά από κάθε πλευρά.",
+     "Βάλτε πάνω σε κάθε μπιφτέκι μανιτάρια και μια φέτα τυρί· σκεπάστε για 1 λεπτό να λιώσει.",
+     "Φρυγανίστε ελαφρά τα ψωμάκια και συναρμολογήστε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε μοσχάρι με 5–10% λιπαρά για τα μπιφτέκια.",
+    "Αντικαταστήστε το ψωμάκι με μεγάλα φύλλα μαρουλιού για να κόψετε το ψωμί.",
+    "Βάλτε επιπλέον μανιτάρια — προσθέτουν όγκο με λίγες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Бургер с грибами и швейцарским сыром",
+   "origin": "США",
+   "intro": "Бургер с грибами и швейцарским сыром — это говяжья котлета-гриль с горкой обжаренных шампиньонов и ломтиком расплавленного швейцарского сыра в мягкой булочке. Грибы дают землистую, насыщенную глубину вкуса, а ореховый сыр плавится поверх них. Это давний любимец в меню американских закусочных и сетей бургерных.",
+   "history": "Бургер с грибами и швейцарским сыром — давно устоявшаяся позиция в меню американских бургерных, и его по-прежнему подают по всей территории США.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 говяжьи котлеты (по 150 г)",
+     "200 г грибов, нарезанных",
+     "2 ломтика швейцарского сыра (40 г)",
+     "2 булочки для бургера",
+     "1 ст. л. растительного масла",
+     "1 зубчик чеснока, измельчённый",
+     "Соль и чёрный перец"
+    ],
+    "steps": [
+     "Обжаривайте грибы с чесноком на масле 6–8 минут до золотистого цвета; приправьте.",
+     "Посолите и поперчите котлеты и готовьте на гриле или сковороде по 3–4 минуты с каждой стороны.",
+     "Выложите на каждую котлету грибы и ломтик сыра; накройте крышкой на 1 минуту, чтобы сыр расплавился.",
+     "Слегка подсушите булочки и соберите бургеры."
+    ]
+   },
+   "tips": [
+    "Берите говядину жирностью 5–10% для котлет.",
+    "Замените булочку крупными листьями салата, чтобы уменьшить количество хлеба.",
+    "Добавьте побольше грибов — они дают объём при небольшой калорийности."
+   ],
+   "name_inline": "бургер с грибами и швейцарским сыром"
+  },
+  "es": {
+   "name": "Hamburguesa de champiñones y queso suizo",
+   "origin": "Estados Unidos",
+   "intro": "La hamburguesa de champiñones y queso suizo es una tortita de res a la parrilla cubierta con un montón de champiñones salteados y una rebanada de queso suizo derretido, servida en un pan suave. Los champiñones aportan un fondo terroso y sabroso, mientras el queso de sabor a nuez se derrite sobre ellos. Es un favorito de siempre en los menús de restaurantes y cadenas de hamburguesas de Estados Unidos.",
+   "history": "La hamburguesa de champiñones y queso suizo es un clásico establecido en los menús de hamburguesas de Estados Unidos y se sigue sirviendo en todo el país.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 tortitas de res (de 150 g cada una)",
+     "200 g de champiñones, en láminas",
+     "2 rebanadas de queso suizo (40 g)",
+     "2 panes de hamburguesa",
+     "1 cda. de aceite vegetal",
+     "1 diente de ajo, picado",
+     "Sal y pimienta negra"
+    ],
+    "steps": [
+     "Saltea los champiñones y el ajo en el aceite de 6 a 8 minutos hasta que doren; sazona.",
+     "Sazona las tortitas y cocínalas a la parrilla o en sartén de 3 a 4 minutos por lado.",
+     "Cubre cada tortita con champiñones y una rebanada de queso; tapa 1 minuto para que se derrita.",
+     "Tuesta ligeramente los panes y arma las hamburguesas."
+    ]
+   },
+   "tips": [
+    "Usa carne con 5–10 % de grasa para las tortitas.",
+    "Cambia el pan por hojas grandes de lechuga para reducir el pan.",
+    "Agrega más champiñones: dan volumen con pocas calorías."
+   ],
+   "name_inline": "la hamburguesa de champiñones y queso suizo"
   }
+ }
 }

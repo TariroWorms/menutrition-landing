@@ -1,162 +1,192 @@
 {
-  "db_key": "brisket_bbq",
-  "slug": "brisket-bbq",
-  "emoji": "🍖",
-  "portion_g": 250,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "brisket_bbq",
+ "slug": "brisket-bbq",
+ "emoji": "🍖",
+ "portion_g": 250,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "BBQ brisket",
+   "origin": "United States · Texas",
+   "intro": "BBQ brisket is beef brisket rubbed with a dry mix of salt, pepper and spices and smoked low and slow for many hours until it is tender enough to slice with little pressure, with a dark peppery crust known as bark. It is sliced across the grain and served with barbecue sauce, pickles and raw onion. Smoky, rich and juicy, it is the signature meat of Texas barbecue.",
+   "history": "Smoked brisket is most closely tied to Central Texas, where barbecue grew out of meat markets run by German and Czech immigrants in the late 19th and early 20th centuries. Brisket, a tough and cheap cut, later became a barbecue staple as pitmasters learned to cook it slowly over wood. It is now served in barbecue restaurants across the United States and well beyond.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "1 whole beef brisket, about 5 kg",
+     "Dry rub: 3 tbsp coarse black pepper, 3 tbsp coarse salt, 1 tbsp garlic powder, 1 tbsp paprika",
+     "250 ml barbecue sauce",
+     "Dill pickles, sliced",
+     "1 white onion, thinly sliced"
+    ],
+    "steps": [
+     "Trim the hard fat, leaving about 5 mm on the fat side. Coat all over with the rub and leave for 1 hour.",
+     "Smoke at 110–125 °C over hardwood, fat side up, until the internal temperature reaches about 75 °C and a dark crust forms (6–8 hours).",
+     "Wrap tightly in butcher paper or foil and continue until it reaches 93–95 °C and a probe slides in easily (3–4 more hours).",
+     "Rest wrapped for at least 1 hour, then slice across the grain about 6 mm thick.",
+     "Serve with barbecue sauce, pickles and onion."
+    ]
+   },
+   "tips": [
+    "Ask for slices from the flat (lean) end rather than the fatty point.",
+    "Barbecue sauce is mostly sugar — keep it on the side and use a spoonful rather than pouring it over.",
+    "Pair the meat with pickles, onion and a vinegar slaw instead of heavy sides."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "BBQ brisket",
-      "origin": "United States · Texas",
-      "intro": "BBQ brisket is beef brisket rubbed with a dry mix of salt, pepper and spices and smoked low and slow for many hours until it is tender enough to slice with little pressure, with a dark peppery crust known as bark. It is sliced across the grain and served with barbecue sauce, pickles and raw onion. Smoky, rich and juicy, it is the signature meat of Texas barbecue.",
-      "history": "Smoked brisket is most closely tied to Central Texas, where barbecue grew out of meat markets run by German and Czech immigrants in the late 19th and early 20th centuries. Brisket, a tough and cheap cut, later became a barbecue staple as pitmasters learned to cook it slowly over wood. It is now served in barbecue restaurants across the United States and well beyond.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "1 whole beef brisket, about 5 kg",
-          "Dry rub: 3 tbsp coarse black pepper, 3 tbsp coarse salt, 1 tbsp garlic powder, 1 tbsp paprika",
-          "250 ml barbecue sauce",
-          "Dill pickles, sliced",
-          "1 white onion, thinly sliced"
-        ],
-        "steps": [
-          "Trim the hard fat, leaving about 5 mm on the fat side. Coat all over with the rub and leave for 1 hour.",
-          "Smoke at 110–125 °C over hardwood, fat side up, until the internal temperature reaches about 75 °C and a dark crust forms (6–8 hours).",
-          "Wrap tightly in butcher paper or foil and continue until it reaches 93–95 °C and a probe slides in easily (3–4 more hours).",
-          "Rest wrapped for at least 1 hour, then slice across the grain about 6 mm thick.",
-          "Serve with barbecue sauce, pickles and onion."
-        ]
-      },
-      "tips": [
-        "Ask for slices from the flat (lean) end rather than the fatty point.",
-        "Barbecue sauce is mostly sugar — keep it on the side and use a spoonful rather than pouring it over.",
-        "Pair the meat with pickles, onion and a vinegar slaw instead of heavy sides."
-      ]
-    },
-    "ar": {
-      "name": "بريسكت باربيكيو",
-      "origin": "الولايات المتحدة · تكساس",
-      "intro": "البريسكت باربيكيو قطعة صدر بقري تُدعك بخليط جاف من الملح والفلفل والتوابل ثم تُدخَّن على حرارة منخفضة ساعات طويلة حتى تصبح طرية جداً، مع قشرة داكنة متبلة بالفلفل يسميها الأمريكيون «bark». تُقطَّع عكس الألياف وتُقدَّم مع صلصة الباربيكيو والمخللات والبصل النيء. مدخنة وغنية وكثيرة العصارة، وهي اللحمة الأشهر في باربيكيو تكساس.",
-      "history": "يرتبط الصدر البقري المدخن أكثر ما يرتبط بوسط تكساس، حيث نشأ الباربيكيو من محلات اللحوم التي أدارها مهاجرون ألمان وتشيكيون في أواخر القرن التاسع عشر وأوائل القرن العشرين. وأصبح البريسكت، وهو قطعة قاسية ورخيصة، لاحقاً أساسياً في الباربيكيو بعدما تعلّم الطهاة طهيه ببطء على الحطب. ويُقدَّم اليوم في مطاعم الباربيكيو في أنحاء الولايات المتحدة وخارجها.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "1 قطعة صدر بقري كاملة نحو 5 كغ",
-          "خلطة التتبيل الجافة: 3 ملاعق كبيرة فلفل أسود خشن، 3 ملاعق كبيرة ملح خشن، 1 ملعقة كبيرة ثوم بودرة، 1 ملعقة كبيرة فلفل حلو",
-          "250 مل صلصة باربيكيو",
-          "مخلل خيار مقطع شرائح",
-          "1 بصلة بيضاء مقطعة شرائح رفيعة"
-        ],
-        "steps": [
-          "أزل الدهن القاسي واترك نحو 5 مم على جهة الدهن، ثم ادعك القطعة كلها بالخلطة واتركها ساعة.",
-          "دخّنها على 110–125 °م فوق خشب صلب وجهة الدهن للأعلى حتى تبلغ حرارتها الداخلية نحو 75 °م وتتكوّن قشرة داكنة (6–8 ساعات).",
-          "لفّها بإحكام بورق الجزار أو بورق القصدير وتابع حتى تبلغ 93–95 °م ويدخل فيها مقياس الحرارة بسهولة (3–4 ساعات إضافية).",
-          "اتركها ملفوفة ساعة على الأقل، ثم قطّعها عكس الألياف بسماكة 6 مم تقريباً.",
-          "قدّمها مع صلصة الباربيكيو والمخلل والبصل."
-        ]
-      },
-      "tips": [
-        "اطلب شرائح من الجزء المسطح قليل الدهن بدل الطرف الدهني.",
-        "صلصة الباربيكيو معظمها سكر — اجعلها جانباً واستخدم ملعقة واحدة بدل سكبها فوق اللحم.",
-        "قدّم اللحم مع المخلل والبصل وسلطة ملفوف بالخل بدل الأطباق الجانبية الثقيلة."
-      ]
-    },
-    "it": {
-      "name": "Brisket BBQ",
-      "origin": "Stati Uniti · Texas",
-      "intro": "Il brisket BBQ è un petto di manzo massaggiato con una miscela secca di sale, pepe e spezie e affumicato a bassa temperatura per molte ore, finché è così tenero da tagliarsi con una minima pressione, con una crosta scura e pepata chiamata bark. Si taglia contro fibra e si serve con salsa barbecue, sottaceti e cipolla cruda. Affumicato, ricco e succoso, è la carne simbolo del barbecue texano.",
-      "history": "Il brisket affumicato è legato soprattutto al Texas centrale, dove il barbecue nacque nelle macellerie gestite da immigrati tedeschi e cechi tra la fine del XIX e l'inizio del XX secolo. Il brisket, un taglio duro ed economico, divenne poi un classico del barbecue quando i pitmaster impararono a cuocerlo lentamente sulla legna. Oggi si serve nei ristoranti barbecue di tutti gli Stati Uniti e ben oltre.",
-      "name_inline": "brisket BBQ",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "1 petto di manzo intero (brisket), circa 5 kg",
-          "Rub secco: 3 cucchiai di pepe nero macinato grosso, 3 cucchiai di sale grosso, 1 cucchiaio di aglio in polvere, 1 cucchiaio di paprica",
-          "250 ml di salsa barbecue",
-          "Cetrioli sottaceto all'aneto a fette",
-          "1 cipolla bianca a fette sottili"
-        ],
-        "steps": [
-          "Elimina il grasso duro, lasciandone circa 5 mm sul lato grasso. Ricopri tutta la carne con il rub e lasciala riposare 1 ora.",
-          "Affumica a 110–125 °C su legna dura, con il lato grasso verso l'alto, finché la temperatura interna arriva a circa 75 °C e si forma una crosta scura (6–8 ore).",
-          "Avvolgilo stretto in carta da macellaio o stagnola e continua finché arriva a 93–95 °C e una sonda entra facilmente (altre 3–4 ore).",
-          "Lascialo riposare avvolto per almeno 1 ora, poi taglialo contro fibra a fette spesse circa 6 mm.",
-          "Servi con salsa barbecue, sottaceti e cipolla."
-        ]
-      },
-      "tips": [
-        "Chiedi fette della parte piatta (magra) invece della punta grassa.",
-        "La salsa barbecue è soprattutto zucchero: tienila a parte e usane un cucchiaio invece di versarla sopra.",
-        "Accompagna la carne con sottaceti, cipolla e un'insalata di cavolo all'aceto invece di contorni pesanti."
-      ]
-    },
-    "el": {
-      "name": "Μπρίσκετ BBQ",
-      "origin": "Ηνωμένες Πολιτείες · Τέξας",
-      "intro": "Το μπρίσκετ BBQ είναι μοσχαρίσιο στήθος τριμμένο με ξηρό μείγμα αλατιού, πιπεριού και μπαχαρικών και καπνισμένο αργά σε χαμηλή θερμοκρασία για πολλές ώρες, μέχρι να γίνει τόσο τρυφερό που κόβεται με ελάχιστη πίεση, με μια σκούρα πιπεράτη κρούστα που λέγεται bark. Κόβεται κόντρα στις ίνες και σερβίρεται με σάλτσα μπάρμπεκιου, τουρσιά και ωμό κρεμμύδι. Καπνιστό, πλούσιο και ζουμερό, είναι το χαρακτηριστικό κρέας του τεξανού μπάρμπεκιου.",
-      "history": "Το καπνιστό μπρίσκετ συνδέεται κυρίως με το Κεντρικό Τέξας, όπου το μπάρμπεκιου γεννήθηκε στα κρεοπωλεία Γερμανών και Τσέχων μεταναστών στα τέλη του 19ου και τις αρχές του 20ού αιώνα. Το μπρίσκετ, μια σκληρή και φθηνή κοπή, έγινε αργότερα βασικό κρέας του μπάρμπεκιου καθώς οι pitmasters έμαθαν να το μαγειρεύουν αργά πάνω σε ξύλα. Σήμερα σερβίρεται σε εστιατόρια μπάρμπεκιου σε όλες τις Ηνωμένες Πολιτείες και πολύ πιο πέρα.",
-      "name_inline": "μπρίσκετ BBQ",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "1 ολόκληρο μοσχαρίσιο στήθος (μπρίσκετ), περίπου 5 κιλά",
-          "Ξηρό μείγμα: 3 κ.σ. χοντροαλεσμένο μαύρο πιπέρι, 3 κ.σ. χοντρό αλάτι, 1 κ.σ. σκόρδο σκόνη, 1 κ.σ. πάπρικα",
-          "250 ml σάλτσα μπάρμπεκιου",
-          "Αγγουράκια τουρσί με άνηθο, σε φέτες",
-          "1 λευκό κρεμμύδι, σε λεπτές φέτες"
-        ],
-        "steps": [
-          "Αφαιρέστε το σκληρό λίπος, αφήνοντας περίπου 5 χιλ. στην πλευρά του λίπους. Πασπαλίστε παντού με το μείγμα και αφήστε για 1 ώρα.",
-          "Καπνίστε στους 110–125 °C με σκληρό ξύλο, με το λίπος προς τα πάνω, μέχρι η εσωτερική θερμοκρασία να φτάσει περίπου τους 75 °C και να σχηματιστεί σκούρα κρούστα (6–8 ώρες).",
-          "Τυλίξτε σφιχτά σε χαρτί κρεοπωλείου ή αλουμινόχαρτο και συνεχίστε μέχρι να φτάσει τους 93–95 °C και το θερμόμετρο να μπαίνει εύκολα (άλλες 3–4 ώρες).",
-          "Αφήστε το τυλιγμένο να ξεκουραστεί τουλάχιστον 1 ώρα και κόψτε κόντρα στις ίνες σε φέτες πάχους περίπου 6 χιλ.",
-          "Σερβίρετε με σάλτσα μπάρμπεκιου, τουρσιά και κρεμμύδι."
-        ]
-      },
-      "tips": [
-        "Ζητήστε φέτες από το επίπεδο (άπαχο) άκρο αντί για το λιπαρό point.",
-        "Η σάλτσα μπάρμπεκιου είναι κυρίως ζάχαρη — κρατήστε τη στο πλάι και βάλτε μια κουταλιά αντί να την περιχύσετε.",
-        "Συνοδέψτε το κρέας με τουρσιά, κρεμμύδι και λαχανοσαλάτα με ξίδι αντί για βαριά συνοδευτικά."
-      ]
-    },
-    "ru": {
-      "name": "Брискет барбекю",
-      "origin": "США · Техас",
-      "intro": "Брискет барбекю — говяжья грудинка, натёртая сухой смесью соли, перца и специй и коптившаяся при низкой температуре много часов, пока не станет такой мягкой, что режется почти без усилия, с тёмной перечной корочкой, которую называют «барк». Её нарезают поперёк волокон и подают с соусом барбекю, маринованными огурцами и сырым луком. Дымное, насыщенное и сочное, это фирменное мясо техасского барбекю.",
-      "history": "Копчёный брискет теснее всего связан с Центральным Техасом, где барбекю выросло из мясных лавок, которые держали немецкие и чешские иммигранты в конце XIX — начале XX века. Брискет, жёсткий и дешёвый отруб, позже стал основой барбекю, когда мастера научились медленно готовить его на дровах. Сейчас его подают в барбекю-ресторанах по всем США и далеко за их пределами.",
-      "recipe": {
-        "servings": 10,
-        "time_min": 720,
-        "ingredients": [
-          "1 цельная говяжья грудинка, около 5 кг",
-          "Сухая смесь: 3 ст. л. крупного чёрного перца, 3 ст. л. крупной соли, 1 ст. л. чесночного порошка, 1 ст. л. паприки",
-          "250 мл соуса барбекю",
-          "Маринованные огурцы с укропом, нарезанные",
-          "1 белая луковица, тонко нарезанная"
-        ],
-        "steps": [
-          "Срежьте твёрдый жир, оставив около 5 мм со стороны жира. Натрите смесью со всех сторон и оставьте на 1 час.",
-          "Коптите при 110–125 °C на древесине лиственных пород, жиром вверх, пока внутренняя температура не достигнет около 75 °C и не образуется тёмная корочка (6–8 часов).",
-          "Плотно заверните в мясницкую бумагу или фольгу и продолжайте, пока температура не достигнет 93–95 °C, а щуп не будет легко входить (ещё 3–4 часа).",
-          "Дайте отдохнуть в упаковке не менее 1 часа, затем нарежьте поперёк волокон ломтями толщиной около 6 мм.",
-          "Подавайте с соусом барбекю, огурцами и луком."
-        ]
-      },
-      "tips": [
-        "Просите ломтики из постного края (флэт), а не из жирной части (пойнт).",
-        "Соус барбекю в основном состоит из сахара — подавайте его отдельно и берите ложку, а не поливайте.",
-        "Сочетайте мясо с огурцами, луком и уксусным капустным салатом вместо сытных гарниров."
-      ],
-      "name_inline": "брискет барбекю"
-    }
+  "ar": {
+   "name": "بريسكت باربيكيو",
+   "origin": "الولايات المتحدة · تكساس",
+   "intro": "البريسكت باربيكيو قطعة صدر بقري تُدعك بخليط جاف من الملح والفلفل والتوابل ثم تُدخَّن على حرارة منخفضة ساعات طويلة حتى تصبح طرية جداً، مع قشرة داكنة متبلة بالفلفل يسميها الأمريكيون «bark». تُقطَّع عكس الألياف وتُقدَّم مع صلصة الباربيكيو والمخللات والبصل النيء. مدخنة وغنية وكثيرة العصارة، وهي اللحمة الأشهر في باربيكيو تكساس.",
+   "history": "يرتبط الصدر البقري المدخن أكثر ما يرتبط بوسط تكساس، حيث نشأ الباربيكيو من محلات اللحوم التي أدارها مهاجرون ألمان وتشيكيون في أواخر القرن التاسع عشر وأوائل القرن العشرين. وأصبح البريسكت، وهو قطعة قاسية ورخيصة، لاحقاً أساسياً في الباربيكيو بعدما تعلّم الطهاة طهيه ببطء على الحطب. ويُقدَّم اليوم في مطاعم الباربيكيو في أنحاء الولايات المتحدة وخارجها.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "1 قطعة صدر بقري كاملة نحو 5 كغ",
+     "خلطة التتبيل الجافة: 3 ملاعق كبيرة فلفل أسود خشن، 3 ملاعق كبيرة ملح خشن، 1 ملعقة كبيرة ثوم بودرة، 1 ملعقة كبيرة فلفل حلو",
+     "250 مل صلصة باربيكيو",
+     "مخلل خيار مقطع شرائح",
+     "1 بصلة بيضاء مقطعة شرائح رفيعة"
+    ],
+    "steps": [
+     "أزل الدهن القاسي واترك نحو 5 مم على جهة الدهن، ثم ادعك القطعة كلها بالخلطة واتركها ساعة.",
+     "دخّنها على 110–125 °م فوق خشب صلب وجهة الدهن للأعلى حتى تبلغ حرارتها الداخلية نحو 75 °م وتتكوّن قشرة داكنة (6–8 ساعات).",
+     "لفّها بإحكام بورق الجزار أو بورق القصدير وتابع حتى تبلغ 93–95 °م ويدخل فيها مقياس الحرارة بسهولة (3–4 ساعات إضافية).",
+     "اتركها ملفوفة ساعة على الأقل، ثم قطّعها عكس الألياف بسماكة 6 مم تقريباً.",
+     "قدّمها مع صلصة الباربيكيو والمخلل والبصل."
+    ]
+   },
+   "tips": [
+    "اطلب شرائح من الجزء المسطح قليل الدهن بدل الطرف الدهني.",
+    "صلصة الباربيكيو معظمها سكر — اجعلها جانباً واستخدم ملعقة واحدة بدل سكبها فوق اللحم.",
+    "قدّم اللحم مع المخلل والبصل وسلطة ملفوف بالخل بدل الأطباق الجانبية الثقيلة."
+   ]
+  },
+  "it": {
+   "name": "Brisket BBQ",
+   "origin": "Stati Uniti · Texas",
+   "intro": "Il brisket BBQ è un petto di manzo massaggiato con una miscela secca di sale, pepe e spezie e affumicato a bassa temperatura per molte ore, finché è così tenero da tagliarsi con una minima pressione, con una crosta scura e pepata chiamata bark. Si taglia contro fibra e si serve con salsa barbecue, sottaceti e cipolla cruda. Affumicato, ricco e succoso, è la carne simbolo del barbecue texano.",
+   "history": "Il brisket affumicato è legato soprattutto al Texas centrale, dove il barbecue nacque nelle macellerie gestite da immigrati tedeschi e cechi tra la fine del XIX e l'inizio del XX secolo. Il brisket, un taglio duro ed economico, divenne poi un classico del barbecue quando i pitmaster impararono a cuocerlo lentamente sulla legna. Oggi si serve nei ristoranti barbecue di tutti gli Stati Uniti e ben oltre.",
+   "name_inline": "brisket BBQ",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "1 petto di manzo intero (brisket), circa 5 kg",
+     "Rub secco: 3 cucchiai di pepe nero macinato grosso, 3 cucchiai di sale grosso, 1 cucchiaio di aglio in polvere, 1 cucchiaio di paprica",
+     "250 ml di salsa barbecue",
+     "Cetrioli sottaceto all'aneto a fette",
+     "1 cipolla bianca a fette sottili"
+    ],
+    "steps": [
+     "Elimina il grasso duro, lasciandone circa 5 mm sul lato grasso. Ricopri tutta la carne con il rub e lasciala riposare 1 ora.",
+     "Affumica a 110–125 °C su legna dura, con il lato grasso verso l'alto, finché la temperatura interna arriva a circa 75 °C e si forma una crosta scura (6–8 ore).",
+     "Avvolgilo stretto in carta da macellaio o stagnola e continua finché arriva a 93–95 °C e una sonda entra facilmente (altre 3–4 ore).",
+     "Lascialo riposare avvolto per almeno 1 ora, poi taglialo contro fibra a fette spesse circa 6 mm.",
+     "Servi con salsa barbecue, sottaceti e cipolla."
+    ]
+   },
+   "tips": [
+    "Chiedi fette della parte piatta (magra) invece della punta grassa.",
+    "La salsa barbecue è soprattutto zucchero: tienila a parte e usane un cucchiaio invece di versarla sopra.",
+    "Accompagna la carne con sottaceti, cipolla e un'insalata di cavolo all'aceto invece di contorni pesanti."
+   ]
+  },
+  "el": {
+   "name": "Μπρίσκετ BBQ",
+   "origin": "Ηνωμένες Πολιτείες · Τέξας",
+   "intro": "Το μπρίσκετ BBQ είναι μοσχαρίσιο στήθος τριμμένο με ξηρό μείγμα αλατιού, πιπεριού και μπαχαρικών και καπνισμένο αργά σε χαμηλή θερμοκρασία για πολλές ώρες, μέχρι να γίνει τόσο τρυφερό που κόβεται με ελάχιστη πίεση, με μια σκούρα πιπεράτη κρούστα που λέγεται bark. Κόβεται κόντρα στις ίνες και σερβίρεται με σάλτσα μπάρμπεκιου, τουρσιά και ωμό κρεμμύδι. Καπνιστό, πλούσιο και ζουμερό, είναι το χαρακτηριστικό κρέας του τεξανού μπάρμπεκιου.",
+   "history": "Το καπνιστό μπρίσκετ συνδέεται κυρίως με το Κεντρικό Τέξας, όπου το μπάρμπεκιου γεννήθηκε στα κρεοπωλεία Γερμανών και Τσέχων μεταναστών στα τέλη του 19ου και τις αρχές του 20ού αιώνα. Το μπρίσκετ, μια σκληρή και φθηνή κοπή, έγινε αργότερα βασικό κρέας του μπάρμπεκιου καθώς οι pitmasters έμαθαν να το μαγειρεύουν αργά πάνω σε ξύλα. Σήμερα σερβίρεται σε εστιατόρια μπάρμπεκιου σε όλες τις Ηνωμένες Πολιτείες και πολύ πιο πέρα.",
+   "name_inline": "μπρίσκετ BBQ",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "1 ολόκληρο μοσχαρίσιο στήθος (μπρίσκετ), περίπου 5 κιλά",
+     "Ξηρό μείγμα: 3 κ.σ. χοντροαλεσμένο μαύρο πιπέρι, 3 κ.σ. χοντρό αλάτι, 1 κ.σ. σκόρδο σκόνη, 1 κ.σ. πάπρικα",
+     "250 ml σάλτσα μπάρμπεκιου",
+     "Αγγουράκια τουρσί με άνηθο, σε φέτες",
+     "1 λευκό κρεμμύδι, σε λεπτές φέτες"
+    ],
+    "steps": [
+     "Αφαιρέστε το σκληρό λίπος, αφήνοντας περίπου 5 χιλ. στην πλευρά του λίπους. Πασπαλίστε παντού με το μείγμα και αφήστε για 1 ώρα.",
+     "Καπνίστε στους 110–125 °C με σκληρό ξύλο, με το λίπος προς τα πάνω, μέχρι η εσωτερική θερμοκρασία να φτάσει περίπου τους 75 °C και να σχηματιστεί σκούρα κρούστα (6–8 ώρες).",
+     "Τυλίξτε σφιχτά σε χαρτί κρεοπωλείου ή αλουμινόχαρτο και συνεχίστε μέχρι να φτάσει τους 93–95 °C και το θερμόμετρο να μπαίνει εύκολα (άλλες 3–4 ώρες).",
+     "Αφήστε το τυλιγμένο να ξεκουραστεί τουλάχιστον 1 ώρα και κόψτε κόντρα στις ίνες σε φέτες πάχους περίπου 6 χιλ.",
+     "Σερβίρετε με σάλτσα μπάρμπεκιου, τουρσιά και κρεμμύδι."
+    ]
+   },
+   "tips": [
+    "Ζητήστε φέτες από το επίπεδο (άπαχο) άκρο αντί για το λιπαρό point.",
+    "Η σάλτσα μπάρμπεκιου είναι κυρίως ζάχαρη — κρατήστε τη στο πλάι και βάλτε μια κουταλιά αντί να την περιχύσετε.",
+    "Συνοδέψτε το κρέας με τουρσιά, κρεμμύδι και λαχανοσαλάτα με ξίδι αντί για βαριά συνοδευτικά."
+   ]
+  },
+  "ru": {
+   "name": "Брискет барбекю",
+   "origin": "США · Техас",
+   "intro": "Брискет барбекю — говяжья грудинка, натёртая сухой смесью соли, перца и специй и коптившаяся при низкой температуре много часов, пока не станет такой мягкой, что режется почти без усилия, с тёмной перечной корочкой, которую называют «барк». Её нарезают поперёк волокон и подают с соусом барбекю, маринованными огурцами и сырым луком. Дымное, насыщенное и сочное, это фирменное мясо техасского барбекю.",
+   "history": "Копчёный брискет теснее всего связан с Центральным Техасом, где барбекю выросло из мясных лавок, которые держали немецкие и чешские иммигранты в конце XIX — начале XX века. Брискет, жёсткий и дешёвый отруб, позже стал основой барбекю, когда мастера научились медленно готовить его на дровах. Сейчас его подают в барбекю-ресторанах по всем США и далеко за их пределами.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "1 цельная говяжья грудинка, около 5 кг",
+     "Сухая смесь: 3 ст. л. крупного чёрного перца, 3 ст. л. крупной соли, 1 ст. л. чесночного порошка, 1 ст. л. паприки",
+     "250 мл соуса барбекю",
+     "Маринованные огурцы с укропом, нарезанные",
+     "1 белая луковица, тонко нарезанная"
+    ],
+    "steps": [
+     "Срежьте твёрдый жир, оставив около 5 мм со стороны жира. Натрите смесью со всех сторон и оставьте на 1 час.",
+     "Коптите при 110–125 °C на древесине лиственных пород, жиром вверх, пока внутренняя температура не достигнет около 75 °C и не образуется тёмная корочка (6–8 часов).",
+     "Плотно заверните в мясницкую бумагу или фольгу и продолжайте, пока температура не достигнет 93–95 °C, а щуп не будет легко входить (ещё 3–4 часа).",
+     "Дайте отдохнуть в упаковке не менее 1 часа, затем нарежьте поперёк волокон ломтями толщиной около 6 мм.",
+     "Подавайте с соусом барбекю, огурцами и луком."
+    ]
+   },
+   "tips": [
+    "Просите ломтики из постного края (флэт), а не из жирной части (пойнт).",
+    "Соус барбекю в основном состоит из сахара — подавайте его отдельно и берите ложку, а не поливайте.",
+    "Сочетайте мясо с огурцами, луком и уксусным капустным салатом вместо сытных гарниров."
+   ],
+   "name_inline": "брискет барбекю"
+  },
+  "es": {
+   "name": "Brisket BBQ",
+   "origin": "Estados Unidos · Texas",
+   "intro": "El brisket BBQ es pecho de res frotado con una mezcla seca de sal, pimienta y especias y ahumado a fuego lento durante muchas horas hasta quedar tan tierno que se corta con poca presión, con una costra oscura y pimentada llamada «bark». Se corta contra la fibra y se sirve con salsa barbacoa, pepinillos y cebolla cruda. Ahumado, rico y jugoso, es la carne emblemática de la barbacoa texana.",
+   "history": "El brisket ahumado está muy ligado al centro de Texas, donde la barbacoa surgió de las carnicerías de inmigrantes alemanes y checos a finales del siglo XIX y principios del XX. El brisket, un corte duro y barato, se volvió después un básico de la barbacoa cuando los maestros ahumadores aprendieron a cocinarlo lentamente sobre leña. Hoy se sirve en restaurantes de barbacoa de todo Estados Unidos y mucho más allá.",
+   "recipe": {
+    "servings": 10,
+    "time_min": 720,
+    "ingredients": [
+     "1 pecho de res (brisket) entero, de unos 5 kg",
+     "Frote seco: 3 cdas. de pimienta negra gruesa, 3 cdas. de sal gruesa, 1 cda. de ajo en polvo, 1 cda. de pimentón",
+     "250 ml de salsa barbacoa",
+     "Pepinillos al eneldo, en rodajas",
+     "1 cebolla blanca, en rodajas finas"
+    ],
+    "steps": [
+     "Recorta la grasa dura, dejando unos 5 mm del lado de la grasa. Cubre toda la pieza con el frote y deja reposar 1 hora.",
+     "Ahúma a 110–125 °C sobre madera dura, con la grasa hacia arriba, hasta que la temperatura interna llegue a unos 75 °C y se forme una costra oscura (de 6 a 8 horas).",
+     "Envuelve bien en papel de carnicero o aluminio y continúa hasta que llegue a 93–95 °C y una sonda entre con facilidad (3 a 4 horas más).",
+     "Deja reposar envuelto al menos 1 hora y luego corta contra la fibra en rebanadas de unos 6 mm.",
+     "Sirve con salsa barbacoa, pepinillos y cebolla."
+    ]
+   },
+   "tips": [
+    "Pide rebanadas de la parte plana (magra) en lugar de la punta grasa.",
+    "La salsa barbacoa es sobre todo azúcar: sírvela aparte y usa una cucharada en lugar de bañar la carne.",
+    "Acompaña la carne con pepinillos, cebolla y una ensalada de col con vinagre en lugar de guarniciones pesadas."
+   ],
+   "name_inline": "el brisket BBQ"
   }
+ }
 }

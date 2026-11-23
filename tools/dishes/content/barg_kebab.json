@@ -1,180 +1,214 @@
 {
-  "db_key": "barg_kebab",
-  "slug": "barg-kebab",
-  "emoji": "🍢",
-  "portion_g": 400,
-  "country": "IR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "barg_kebab",
+ "slug": "barg-kebab",
+ "emoji": "🍢",
+ "portion_g": 400,
+ "country": "IR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kabab barg",
+   "origin": "Iran",
+   "intro": "Kabab barg is a Persian kebab of thin, flattened strips of lamb fillet marinated in grated onion and saffron, then grilled quickly over hot charcoal. The meat stays tender and juicy with a delicate saffron aroma. It is served on a bed of fluffy buttered basmati rice, usually with grilled tomatoes and a sprinkle of sumac, and is one of the most prized dishes on an Iranian restaurant menu.",
+   "history": "'Barg' means 'leaf' in Persian, referring to the thin, leaf-like strips of meat. Kabab barg is a classic of Iranian kebab houses, often served as part of 'chelow kabab', rice with kebab, which is widely regarded as a national dish of Iran.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g lamb fillet (or tenderloin)",
+     "2 onions, grated, juice only",
+     "½ tsp saffron threads, ground and steeped in 3 tbsp hot water",
+     "3 tbsp olive oil",
+     "Salt and black pepper",
+     "400 g basmati rice",
+     "30 g butter",
+     "4 tomatoes for grilling",
+     "Sumac to serve"
+    ],
+    "steps": [
+     "Cut the lamb into long strips about 1 cm thick and pound them gently to flatten.",
+     "Mix the onion juice, half the saffron water, olive oil, salt and pepper, coat the meat and marinate for at least 4 hours or overnight in the fridge.",
+     "Rinse the rice, boil it in salted water for 6–7 minutes, drain, then steam it covered on low heat with the butter and the rest of the saffron water for 30 minutes.",
+     "Thread the meat onto wide flat skewers and grill over very hot charcoal or a grill pan for 2–3 minutes per side, along with the tomatoes.",
+     "Serve the kebabs on the saffron rice with the grilled tomatoes and a sprinkle of sumac."
+    ]
+   },
+   "tips": [
+    "Rice and butter add most of the calories: a smaller mound of rice and a side salad lighten the plate.",
+    "Steam the rice with half the butter; butter is about 7 kcal per gram.",
+    "Brush the meat with marinade instead of extra oil while grilling."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kabab barg",
-      "origin": "Iran",
-      "intro": "Kabab barg is a Persian kebab of thin, flattened strips of lamb fillet marinated in grated onion and saffron, then grilled quickly over hot charcoal. The meat stays tender and juicy with a delicate saffron aroma. It is served on a bed of fluffy buttered basmati rice, usually with grilled tomatoes and a sprinkle of sumac, and is one of the most prized dishes on an Iranian restaurant menu.",
-      "history": "'Barg' means 'leaf' in Persian, referring to the thin, leaf-like strips of meat. Kabab barg is a classic of Iranian kebab houses, often served as part of 'chelow kabab', rice with kebab, which is widely regarded as a national dish of Iran.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 g lamb fillet (or tenderloin)",
-          "2 onions, grated, juice only",
-          "½ tsp saffron threads, ground and steeped in 3 tbsp hot water",
-          "3 tbsp olive oil",
-          "Salt and black pepper",
-          "400 g basmati rice",
-          "30 g butter",
-          "4 tomatoes for grilling",
-          "Sumac to serve"
-        ],
-        "steps": [
-          "Cut the lamb into long strips about 1 cm thick and pound them gently to flatten.",
-          "Mix the onion juice, half the saffron water, olive oil, salt and pepper, coat the meat and marinate for at least 4 hours or overnight in the fridge.",
-          "Rinse the rice, boil it in salted water for 6–7 minutes, drain, then steam it covered on low heat with the butter and the rest of the saffron water for 30 minutes.",
-          "Thread the meat onto wide flat skewers and grill over very hot charcoal or a grill pan for 2–3 minutes per side, along with the tomatoes.",
-          "Serve the kebabs on the saffron rice with the grilled tomatoes and a sprinkle of sumac."
-        ]
-      },
-      "tips": [
-        "Rice and butter add most of the calories: a smaller mound of rice and a side salad lighten the plate.",
-        "Steam the rice with half the butter; butter is about 7 kcal per gram.",
-        "Brush the meat with marinade instead of extra oil while grilling."
-      ]
-    },
-    "ar": {
-      "name": "كباب برك",
-      "origin": "إيران",
-      "intro": "كباب برك طبق كباب فارسي من شرائح رفيعة مسطّحة من فيليه الضأن متبّلة بعصير البصل المبشور والزعفران، ثم تُشوى سريعاً على جمر الفحم الساخن. يبقى اللحم طرياً عصيرياً بعبير زعفران رقيق. يُقدَّم فوق أرز بسمتي هشّ بالزبدة، عادة مع الطماطم المشوية ورشة من السماق، وهو من أثمن الأطباق في قوائم المطاعم الإيرانية.",
-      "history": "تعني كلمة «برك» بالفارسية «ورقة»، في إشارة إلى شرائح اللحم الرقيقة الشبيهة بالأوراق. وكباب برك من كلاسيكيات مطاعم الكباب الإيرانية، ويُقدَّم غالباً ضمن «جلو كباب» أي الأرز مع الكباب، الذي يُعدّ على نطاق واسع طبقاً وطنياً في إيران.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 غ فيليه ضأن",
-          "2 بصلة مبشورة، عصيرها فقط",
-          "½ ملعقة صغيرة خيوط زعفران مطحونة ومنقوعة في 3 ملاعق كبيرة ماء ساخن",
-          "3 ملاعق كبيرة زيت زيتون",
-          "ملح وفلفل أسود",
-          "400 غ أرز بسمتي",
-          "30 غ زبدة",
-          "4 حبات طماطم للشوي",
-          "سماق للتقديم"
-        ],
-        "steps": [
-          "قطّع اللحم شرائح طويلة بسماكة نحو 1 سم، واطرقها برفق لتسطيحها.",
-          "اخلط عصير البصل ونصف ماء الزعفران وزيت الزيتون والملح والفلفل، وغلّف بها اللحم واتركه في التتبيلة 4 ساعات على الأقل أو ليلة كاملة في الثلاجة.",
-          "اغسل الأرز واسلقه في ماء مملّح 6–7 دقائق، ثم صفّه واتركه على البخار مغطّى على نار هادئة مع الزبدة وباقي ماء الزعفران 30 دقيقة.",
-          "اشكّ اللحم في أسياخ عريضة مسطّحة واشوِه على فحم شديد الحرارة أو في مقلاة شواء 2–3 دقائق لكل جانب، مع الطماطم.",
-          "قدّم الكباب فوق أرز الزعفران مع الطماطم المشوية ورشة سماق."
-        ]
-      },
-      "tips": [
-        "الأرز والزبدة يضيفان معظم السعرات: كومة أصغر من الأرز مع سلطة جانبية تجعل الطبق أخف.",
-        "اطهُ الأرز بنصف كمية الزبدة؛ الزبدة نحو 7 سعرات للغرام.",
-        "ادهن اللحم بالتتبيلة بدلاً من زيت إضافي أثناء الشوي."
-      ]
-    },
-    "it": {
-      "name": "Kabab barg",
-      "origin": "Iran",
-      "intro": "Il kabab barg è un kebab persiano di strisce sottili e appiattite di filetto d'agnello marinate in cipolla grattugiata e zafferano, poi grigliate rapidamente sulla brace ardente. La carne resta tenera e succosa, con un delicato aroma di zafferano. Si serve su un letto di soffice riso basmati al burro, di solito con pomodori grigliati e una spolverata di sommacco, ed è uno dei piatti più pregiati nel menu di un ristorante iraniano.",
-      "history": "«Barg» in persiano significa «foglia», in riferimento alle strisce di carne sottili come foglie. Il kabab barg è un classico delle kebabberie iraniane, spesso servito come parte del «chelow kabab», riso con kebab, ampiamente considerato un piatto nazionale dell'Iran.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 g di filetto d'agnello (o lombata)",
-          "2 cipolle, grattugiate, solo il succo",
-          "½ cucchiaino di pistilli di zafferano, macinati e messi in infusione in 3 cucchiai di acqua calda",
-          "3 cucchiai di olio d'oliva",
-          "Sale e pepe nero",
-          "400 g di riso basmati",
-          "30 g di burro",
-          "4 pomodori da grigliare",
-          "Sommacco per servire"
-        ],
-        "steps": [
-          "Taglia l'agnello in strisce lunghe spesse circa 1 cm e battile delicatamente per appiattirle.",
-          "Mescola il succo di cipolla, metà dell'acqua allo zafferano, l'olio d'oliva, sale e pepe, ricopri la carne e lasciala marinare in frigorifero per almeno 4 ore o per tutta la notte.",
-          "Sciacqua il riso, lessalo in acqua salata per 6–7 minuti, scolalo, poi cuocilo al vapore coperto a fuoco basso con il burro e il resto dell'acqua allo zafferano per 30 minuti.",
-          "Infila la carne su spiedi larghi e piatti e grigliala sulla brace molto calda o su una bistecchiera per 2–3 minuti per lato, insieme ai pomodori.",
-          "Servi i kebab sul riso allo zafferano con i pomodori grigliati e una spolverata di sommacco."
-        ]
-      },
-      "tips": [
-        "Riso e burro apportano la maggior parte delle calorie: una porzione di riso più piccola e un'insalata di contorno alleggeriscono il piatto.",
-        "Cuoci il riso al vapore con metà del burro; il burro ha circa 7 kcal per grammo.",
-        "Durante la cottura spennella la carne con la marinata invece che con altro olio."
-      ]
-    },
-    "el": {
-      "name": "Καμπάμπ μπαργκ",
-      "origin": "Ιράν",
-      "intro": "Το καμπάμπ μπαργκ είναι περσικό κεμπάπ από λεπτές, πατημένες λωρίδες αρνίσιου φιλέτου μαριναρισμένες σε τριμμένο κρεμμύδι και σαφράν, που ψήνονται γρήγορα πάνω σε καυτά κάρβουνα. Το κρέας μένει τρυφερό και ζουμερό, με ένα διακριτικό άρωμα σαφράν. Σερβίρεται πάνω σε αφράτο ρύζι μπασμάτι με βούτυρο, συνήθως με ψητές ντομάτες και λίγο σουμάκ, και είναι από τα πιο εκτιμημένα πιάτα στο μενού ενός ιρανικού εστιατορίου.",
-      "history": "«Μπαργκ» στα περσικά σημαίνει «φύλλο», από τις λεπτές λωρίδες κρέατος που μοιάζουν με φύλλα. Το καμπάμπ μπαργκ είναι κλασικό πιάτο των ιρανικών κεμπαπτζίδικων και συχνά σερβίρεται ως μέρος του «τσελό καμπάμπ», ρύζι με κεμπάπ, που θεωρείται ευρέως εθνικό πιάτο του Ιράν.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 γρ. αρνίσιο φιλέτο (ή κόντρα φιλέτο)",
-          "2 κρεμμύδια, τριμμένα, μόνο ο χυμός",
-          "½ κ.γ. στήμονες σαφράν, τριμμένοι και μουλιασμένοι σε 3 κ.σ. ζεστό νερό",
-          "3 κ.σ. ελαιόλαδο",
-          "Αλάτι και μαύρο πιπέρι",
-          "400 γρ. ρύζι μπασμάτι",
-          "30 γρ. βούτυρο",
-          "4 ντομάτες για ψήσιμο",
-          "Σουμάκ για το σερβίρισμα"
-        ],
-        "steps": [
-          "Κόψτε το αρνί σε μακριές λωρίδες πάχους περίπου 1 εκ. και χτυπήστε τες απαλά για να πλατύνουν.",
-          "Ανακατέψτε τον χυμό κρεμμυδιού, το μισό νερό με σαφράν, το ελαιόλαδο, αλάτι και πιπέρι, αλείψτε το κρέας και μαρινάρετέ το στο ψυγείο για τουλάχιστον 4 ώρες ή όλη τη νύχτα.",
-          "Ξεπλύνετε το ρύζι, βράστε το σε αλατισμένο νερό για 6–7 λεπτά, στραγγίξτε το και έπειτα αχνίστε το σκεπασμένο σε χαμηλή φωτιά με το βούτυρο και το υπόλοιπο νερό με σαφράν για 30 λεπτά.",
-          "Περάστε το κρέας σε φαρδιά, επίπεδα σουβλάκια και ψήστε το σε πολύ καυτά κάρβουνα ή σε τηγάνι-γκριλ για 2–3 λεπτά από κάθε πλευρά, μαζί με τις ντομάτες.",
-          "Σερβίρετε τα κεμπάπ πάνω στο ρύζι με σαφράν, με τις ψητές ντομάτες και λίγο σουμάκ."
-        ]
-      },
-      "tips": [
-        "Το ρύζι και το βούτυρο δίνουν τις περισσότερες θερμίδες: μικρότερη μερίδα ρυζιού και μια σαλάτα δίπλα ελαφραίνουν το πιάτο.",
-        "Αχνίστε το ρύζι με το μισό βούτυρο· το βούτυρο έχει περίπου 7 kcal ανά γραμμάριο.",
-        "Κατά το ψήσιμο αλείφετε το κρέας με τη μαρινάδα αντί για επιπλέον λάδι."
-      ]
-    },
-    "ru": {
-      "name": "Кебаб барг",
-      "origin": "Иран",
-      "intro": "Кебаб барг — персидский кебаб из тонких расплющенных полосок бараньей вырезки, замаринованных в тёртом луке и шафране, затем быстро обжаренных на горячих углях. Мясо остаётся нежным и сочным с тонким ароматом шафрана. Его подают на ложе из рассыпчатого рагу риса басмати с маслом, обычно с помидорами на гриле и щепоткой сумаха, и это одно из самых ценимых блюд в меню иранских ресторанов.",
-      "history": "«Барг» по-персидски означает «лист» — по тонким листообразным полоскам мяса. Кебаб барг — классика иранских кебабных, часто подаваемая как часть «челоу кебаб» — риса с кебабом, который широко считается национальным блюдом Ирана.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "800 г бараньей вырезки (или филейной части)",
-          "2 луковицы, натёртые, только сок",
-          "½ ч. л. нитей шафрана, растёртых и настоянных в 3 ст. л. горячей воды",
-          "3 ст. л. оливкового масла",
-          "Соль и чёрный перец",
-          "400 г риса басмати",
-          "30 г сливочного масла",
-          "4 помидора для гриля",
-          "Сумах для подачи"
-        ],
-        "steps": [
-          "Нарежьте баранину длинными полосками толщиной около 1 см и слегка отбейте, чтобы сплющить.",
-          "Смешайте луковый сок, половину шафрановой воды, оливковое масло, соль и перец, обмажьте мясо и мариновайте не менее 4 часов или на ночь в холодильнике.",
-          "Промойте рис, варите в подсоленной воде 6–7 минут, откиньте, затем готовьте на пару под крышкой на слабом огне с маслом и остатком шафрановой воды 30 минут.",
-          "Нанижите мясо на широкие плоские шампуры и жарьте на очень горячих углях или сковороде-гриль по 2–3 минуты с каждой стороны вместе с помидорами.",
-          "Подавайте кебабы на шафрановом рисе с помидорами на гриле и щепоткой сумаха."
-        ]
-      },
-      "tips": [
-        "Рис и масло добавляют основную часть калорий: меньшая горка риса и гарнир-салат облегчают тарелку.",
-        "Готовьте рис на пару с половиной масла; в грамме масла около 7 ккал.",
-        "Смазывайте мясо маринадом вместо дополнительного масла при жарке."
-      ],
-      "name_inline": "кебаб барг"
-    }
+  "ar": {
+   "name": "كباب برك",
+   "origin": "إيران",
+   "intro": "كباب برك طبق كباب فارسي من شرائح رفيعة مسطّحة من فيليه الضأن متبّلة بعصير البصل المبشور والزعفران، ثم تُشوى سريعاً على جمر الفحم الساخن. يبقى اللحم طرياً عصيرياً بعبير زعفران رقيق. يُقدَّم فوق أرز بسمتي هشّ بالزبدة، عادة مع الطماطم المشوية ورشة من السماق، وهو من أثمن الأطباق في قوائم المطاعم الإيرانية.",
+   "history": "تعني كلمة «برك» بالفارسية «ورقة»، في إشارة إلى شرائح اللحم الرقيقة الشبيهة بالأوراق. وكباب برك من كلاسيكيات مطاعم الكباب الإيرانية، ويُقدَّم غالباً ضمن «جلو كباب» أي الأرز مع الكباب، الذي يُعدّ على نطاق واسع طبقاً وطنياً في إيران.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 غ فيليه ضأن",
+     "2 بصلة مبشورة، عصيرها فقط",
+     "½ ملعقة صغيرة خيوط زعفران مطحونة ومنقوعة في 3 ملاعق كبيرة ماء ساخن",
+     "3 ملاعق كبيرة زيت زيتون",
+     "ملح وفلفل أسود",
+     "400 غ أرز بسمتي",
+     "30 غ زبدة",
+     "4 حبات طماطم للشوي",
+     "سماق للتقديم"
+    ],
+    "steps": [
+     "قطّع اللحم شرائح طويلة بسماكة نحو 1 سم، واطرقها برفق لتسطيحها.",
+     "اخلط عصير البصل ونصف ماء الزعفران وزيت الزيتون والملح والفلفل، وغلّف بها اللحم واتركه في التتبيلة 4 ساعات على الأقل أو ليلة كاملة في الثلاجة.",
+     "اغسل الأرز واسلقه في ماء مملّح 6–7 دقائق، ثم صفّه واتركه على البخار مغطّى على نار هادئة مع الزبدة وباقي ماء الزعفران 30 دقيقة.",
+     "اشكّ اللحم في أسياخ عريضة مسطّحة واشوِه على فحم شديد الحرارة أو في مقلاة شواء 2–3 دقائق لكل جانب، مع الطماطم.",
+     "قدّم الكباب فوق أرز الزعفران مع الطماطم المشوية ورشة سماق."
+    ]
+   },
+   "tips": [
+    "الأرز والزبدة يضيفان معظم السعرات: كومة أصغر من الأرز مع سلطة جانبية تجعل الطبق أخف.",
+    "اطهُ الأرز بنصف كمية الزبدة؛ الزبدة نحو 7 سعرات للغرام.",
+    "ادهن اللحم بالتتبيلة بدلاً من زيت إضافي أثناء الشوي."
+   ]
+  },
+  "it": {
+   "name": "Kabab barg",
+   "origin": "Iran",
+   "intro": "Il kabab barg è un kebab persiano di strisce sottili e appiattite di filetto d'agnello marinate in cipolla grattugiata e zafferano, poi grigliate rapidamente sulla brace ardente. La carne resta tenera e succosa, con un delicato aroma di zafferano. Si serve su un letto di soffice riso basmati al burro, di solito con pomodori grigliati e una spolverata di sommacco, ed è uno dei piatti più pregiati nel menu di un ristorante iraniano.",
+   "history": "«Barg» in persiano significa «foglia», in riferimento alle strisce di carne sottili come foglie. Il kabab barg è un classico delle kebabberie iraniane, spesso servito come parte del «chelow kabab», riso con kebab, ampiamente considerato un piatto nazionale dell'Iran.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g di filetto d'agnello (o lombata)",
+     "2 cipolle, grattugiate, solo il succo",
+     "½ cucchiaino di pistilli di zafferano, macinati e messi in infusione in 3 cucchiai di acqua calda",
+     "3 cucchiai di olio d'oliva",
+     "Sale e pepe nero",
+     "400 g di riso basmati",
+     "30 g di burro",
+     "4 pomodori da grigliare",
+     "Sommacco per servire"
+    ],
+    "steps": [
+     "Taglia l'agnello in strisce lunghe spesse circa 1 cm e battile delicatamente per appiattirle.",
+     "Mescola il succo di cipolla, metà dell'acqua allo zafferano, l'olio d'oliva, sale e pepe, ricopri la carne e lasciala marinare in frigorifero per almeno 4 ore o per tutta la notte.",
+     "Sciacqua il riso, lessalo in acqua salata per 6–7 minuti, scolalo, poi cuocilo al vapore coperto a fuoco basso con il burro e il resto dell'acqua allo zafferano per 30 minuti.",
+     "Infila la carne su spiedi larghi e piatti e grigliala sulla brace molto calda o su una bistecchiera per 2–3 minuti per lato, insieme ai pomodori.",
+     "Servi i kebab sul riso allo zafferano con i pomodori grigliati e una spolverata di sommacco."
+    ]
+   },
+   "tips": [
+    "Riso e burro apportano la maggior parte delle calorie: una porzione di riso più piccola e un'insalata di contorno alleggeriscono il piatto.",
+    "Cuoci il riso al vapore con metà del burro; il burro ha circa 7 kcal per grammo.",
+    "Durante la cottura spennella la carne con la marinata invece che con altro olio."
+   ]
+  },
+  "el": {
+   "name": "Καμπάμπ μπαργκ",
+   "origin": "Ιράν",
+   "intro": "Το καμπάμπ μπαργκ είναι περσικό κεμπάπ από λεπτές, πατημένες λωρίδες αρνίσιου φιλέτου μαριναρισμένες σε τριμμένο κρεμμύδι και σαφράν, που ψήνονται γρήγορα πάνω σε καυτά κάρβουνα. Το κρέας μένει τρυφερό και ζουμερό, με ένα διακριτικό άρωμα σαφράν. Σερβίρεται πάνω σε αφράτο ρύζι μπασμάτι με βούτυρο, συνήθως με ψητές ντομάτες και λίγο σουμάκ, και είναι από τα πιο εκτιμημένα πιάτα στο μενού ενός ιρανικού εστιατορίου.",
+   "history": "«Μπαργκ» στα περσικά σημαίνει «φύλλο», από τις λεπτές λωρίδες κρέατος που μοιάζουν με φύλλα. Το καμπάμπ μπαργκ είναι κλασικό πιάτο των ιρανικών κεμπαπτζίδικων και συχνά σερβίρεται ως μέρος του «τσελό καμπάμπ», ρύζι με κεμπάπ, που θεωρείται ευρέως εθνικό πιάτο του Ιράν.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 γρ. αρνίσιο φιλέτο (ή κόντρα φιλέτο)",
+     "2 κρεμμύδια, τριμμένα, μόνο ο χυμός",
+     "½ κ.γ. στήμονες σαφράν, τριμμένοι και μουλιασμένοι σε 3 κ.σ. ζεστό νερό",
+     "3 κ.σ. ελαιόλαδο",
+     "Αλάτι και μαύρο πιπέρι",
+     "400 γρ. ρύζι μπασμάτι",
+     "30 γρ. βούτυρο",
+     "4 ντομάτες για ψήσιμο",
+     "Σουμάκ για το σερβίρισμα"
+    ],
+    "steps": [
+     "Κόψτε το αρνί σε μακριές λωρίδες πάχους περίπου 1 εκ. και χτυπήστε τες απαλά για να πλατύνουν.",
+     "Ανακατέψτε τον χυμό κρεμμυδιού, το μισό νερό με σαφράν, το ελαιόλαδο, αλάτι και πιπέρι, αλείψτε το κρέας και μαρινάρετέ το στο ψυγείο για τουλάχιστον 4 ώρες ή όλη τη νύχτα.",
+     "Ξεπλύνετε το ρύζι, βράστε το σε αλατισμένο νερό για 6–7 λεπτά, στραγγίξτε το και έπειτα αχνίστε το σκεπασμένο σε χαμηλή φωτιά με το βούτυρο και το υπόλοιπο νερό με σαφράν για 30 λεπτά.",
+     "Περάστε το κρέας σε φαρδιά, επίπεδα σουβλάκια και ψήστε το σε πολύ καυτά κάρβουνα ή σε τηγάνι-γκριλ για 2–3 λεπτά από κάθε πλευρά, μαζί με τις ντομάτες.",
+     "Σερβίρετε τα κεμπάπ πάνω στο ρύζι με σαφράν, με τις ψητές ντομάτες και λίγο σουμάκ."
+    ]
+   },
+   "tips": [
+    "Το ρύζι και το βούτυρο δίνουν τις περισσότερες θερμίδες: μικρότερη μερίδα ρυζιού και μια σαλάτα δίπλα ελαφραίνουν το πιάτο.",
+    "Αχνίστε το ρύζι με το μισό βούτυρο· το βούτυρο έχει περίπου 7 kcal ανά γραμμάριο.",
+    "Κατά το ψήσιμο αλείφετε το κρέας με τη μαρινάδα αντί για επιπλέον λάδι."
+   ]
+  },
+  "ru": {
+   "name": "Кебаб барг",
+   "origin": "Иран",
+   "intro": "Кебаб барг — персидский кебаб из тонких расплющенных полосок бараньей вырезки, замаринованных в тёртом луке и шафране, затем быстро обжаренных на горячих углях. Мясо остаётся нежным и сочным с тонким ароматом шафрана. Его подают на ложе из рассыпчатого рагу риса басмати с маслом, обычно с помидорами на гриле и щепоткой сумаха, и это одно из самых ценимых блюд в меню иранских ресторанов.",
+   "history": "«Барг» по-персидски означает «лист» — по тонким листообразным полоскам мяса. Кебаб барг — классика иранских кебабных, часто подаваемая как часть «челоу кебаб» — риса с кебабом, который широко считается национальным блюдом Ирана.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 г бараньей вырезки (или филейной части)",
+     "2 луковицы, натёртые, только сок",
+     "½ ч. л. нитей шафрана, растёртых и настоянных в 3 ст. л. горячей воды",
+     "3 ст. л. оливкового масла",
+     "Соль и чёрный перец",
+     "400 г риса басмати",
+     "30 г сливочного масла",
+     "4 помидора для гриля",
+     "Сумах для подачи"
+    ],
+    "steps": [
+     "Нарежьте баранину длинными полосками толщиной около 1 см и слегка отбейте, чтобы сплющить.",
+     "Смешайте луковый сок, половину шафрановой воды, оливковое масло, соль и перец, обмажьте мясо и мариновайте не менее 4 часов или на ночь в холодильнике.",
+     "Промойте рис, варите в подсоленной воде 6–7 минут, откиньте, затем готовьте на пару под крышкой на слабом огне с маслом и остатком шафрановой воды 30 минут.",
+     "Нанижите мясо на широкие плоские шампуры и жарьте на очень горячих углях или сковороде-гриль по 2–3 минуты с каждой стороны вместе с помидорами.",
+     "Подавайте кебабы на шафрановом рисе с помидорами на гриле и щепоткой сумаха."
+    ]
+   },
+   "tips": [
+    "Рис и масло добавляют основную часть калорий: меньшая горка риса и гарнир-салат облегчают тарелку.",
+    "Готовьте рис на пару с половиной масла; в грамме масла около 7 ккал.",
+    "Смазывайте мясо маринадом вместо дополнительного масла при жарке."
+   ],
+   "name_inline": "кебаб барг"
+  },
+  "es": {
+   "name": "Kabab barg",
+   "origin": "Irán",
+   "intro": "El kabab barg es un kebab persa de tiras finas y aplanadas de filete de cordero, marinadas en cebolla rallada y azafrán, y asadas rápidamente sobre carbón muy caliente. La carne queda tierna y jugosa, con un delicado aroma a azafrán. Se sirve sobre una cama de arroz basmati suelto con mantequilla, normalmente con jitomates asados y un toque de zumaque, y es uno de los platos más apreciados en el menú de los restaurantes iraníes.",
+   "history": "«Barg» significa «hoja» en persa, en alusión a las tiras finas de carne que parecen hojas. El kabab barg es un clásico de las kebaberías de Irán y suele servirse como parte del «chelow kabab», arroz con kebab, que se considera ampliamente un plato nacional de Irán.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "800 g de filete de cordero (o lomo)",
+     "2 cebollas, ralladas, solo el jugo",
+     "½ cdta. de hebras de azafrán, molidas y remojadas en 3 cda. de agua caliente",
+     "3 cda. de aceite de oliva",
+     "Sal y pimienta negra",
+     "400 g de arroz basmati",
+     "30 g de mantequilla",
+     "4 jitomates para asar",
+     "Zumaque para servir"
+    ],
+    "steps": [
+     "Corta el cordero en tiras largas de aproximadamente 1 cm de grosor y golpéalas suavemente para aplanarlas.",
+     "Mezcla el jugo de cebolla, la mitad del agua de azafrán, el aceite de oliva, la sal y la pimienta, cubre la carne y marina al menos 4 horas o toda la noche en el refrigerador.",
+     "Enjuaga el arroz, hiérvelo en agua con sal de 6–7 minutos, escúrrelo y luego cuécelo al vapor tapado a fuego bajo con la mantequilla y el resto del agua de azafrán durante 30 minutos.",
+     "Ensarta la carne en brochetas anchas y planas y ásala sobre carbón muy caliente o en una sartén de parrilla de 2–3 minutos por lado, junto con los jitomates.",
+     "Sirve los kebabs sobre el arroz con azafrán, con los jitomates asados y un toque de zumaque."
+    ]
+   },
+   "tips": [
+    "El arroz y la mantequilla aportan la mayoría de las calorías: un montículo de arroz más pequeño y una ensalada de acompañamiento aligeran el plato.",
+    "Cuece el arroz al vapor con la mitad de la mantequilla; la mantequilla aporta unas 7 kcal por gramo.",
+    "Barniza la carne con la marinada en lugar de aceite extra mientras se asa."
+   ],
+   "name_inline": "el kabab barg"
   }
+ }
 }

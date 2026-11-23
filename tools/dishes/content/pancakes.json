@@ -1,170 +1,202 @@
 {
-  "db_key": "pancakes",
-  "slug": "pancakes",
-  "emoji": "🥞",
-  "portion_g": 200,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pancakes",
+ "slug": "pancakes",
+ "emoji": "🥞",
+ "portion_g": 200,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pancakes",
+   "origin": "International",
+   "intro": "Pancakes are soft, fluffy cakes made from a batter of flour, eggs and milk, cooked on a hot pan until golden on both sides. They are served in a warm stack topped with a knob of butter and a generous pour of maple syrup. The texture is light and tender, and they are a classic breakfast or brunch dish.",
+   "history": "Flat cakes cooked from a batter on a griddle have been made in many cultures for centuries, and pancakes in this thick, fluffy style are especially associated with North American breakfasts today.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "200 g plain flour",
+     "2 tsp baking powder",
+     "1 tbsp sugar",
+     "1 pinch salt",
+     "2 eggs",
+     "300 ml milk",
+     "20 g butter, melted, plus 10 g to serve",
+     "60 ml maple syrup"
+    ],
+    "steps": [
+     "Mix flour, baking powder, sugar and salt in a bowl.",
+     "Whisk eggs, milk and melted butter, then stir into the dry ingredients until just combined.",
+     "Cook ladlefuls of batter on a lightly greased hot pan until bubbles form, then flip and cook 1 minute more.",
+     "Stack and serve with a little butter and maple syrup."
+    ]
+   },
+   "tips": [
+    "Measure the syrup: 1 tbsp maple syrup ≈ 50 kcal.",
+    "Skip the butter on top or use only a thin slice.",
+    "Top with fresh berries and eat a stack of two or three."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pancakes",
-      "origin": "International",
-      "intro": "Pancakes are soft, fluffy cakes made from a batter of flour, eggs and milk, cooked on a hot pan until golden on both sides. They are served in a warm stack topped with a knob of butter and a generous pour of maple syrup. The texture is light and tender, and they are a classic breakfast or brunch dish.",
-      "history": "Flat cakes cooked from a batter on a griddle have been made in many cultures for centuries, and pancakes in this thick, fluffy style are especially associated with North American breakfasts today.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "200 g plain flour",
-          "2 tsp baking powder",
-          "1 tbsp sugar",
-          "1 pinch salt",
-          "2 eggs",
-          "300 ml milk",
-          "20 g butter, melted, plus 10 g to serve",
-          "60 ml maple syrup"
-        ],
-        "steps": [
-          "Mix flour, baking powder, sugar and salt in a bowl.",
-          "Whisk eggs, milk and melted butter, then stir into the dry ingredients until just combined.",
-          "Cook ladlefuls of batter on a lightly greased hot pan until bubbles form, then flip and cook 1 minute more.",
-          "Stack and serve with a little butter and maple syrup."
-        ]
-      },
-      "tips": [
-        "Measure the syrup: 1 tbsp maple syrup ≈ 50 kcal.",
-        "Skip the butter on top or use only a thin slice.",
-        "Top with fresh berries and eat a stack of two or three."
-      ]
-    },
-    "ar": {
-      "name": "بان كيك",
-      "origin": "عالمي",
-      "intro": "البان كيك كعكات طرية وهشة تُحضَّر من خليط الدقيق والبيض والحليب، وتُطهى في مقلاة ساخنة حتى تصبح ذهبية من الجانبين. تُقدَّم دافئة في كومة مع قطعة زبدة وكمية سخية من شراب القيقب. قوامها خفيف وطري، وهي طبق كلاسيكي للفطور أو البرانش.",
-      "history": "صُنعت الكعكات المسطحة من الخليط على الصاج في ثقافات كثيرة منذ قرون، ويرتبط البان كيك بهذا الأسلوب السميك الهش اليوم خصوصًا بالفطور في أمريكا الشمالية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "200 غ دقيق أبيض",
-          "2 ملعقة صغيرة بيكنج باودر",
-          "1 ملعقة كبيرة سكر",
-          "رشة ملح",
-          "2 بيضة",
-          "300 مل حليب",
-          "20 غ زبدة مذابة و10 غ للتقديم",
-          "60 مل شراب القيقب"
-        ],
-        "steps": [
-          "اخلط الدقيق والبيكنج باودر والسكر والملح في وعاء.",
-          "اخفق البيض والحليب والزبدة المذابة، ثم أضفها إلى المكونات الجافة وقلّب حتى تمتزج فقط.",
-          "اطهُ مغارف من الخليط في مقلاة ساخنة مدهونة قليلًا حتى تظهر الفقاعات، ثم اقلبها دقيقة أخرى.",
-          "كدّسها وقدّمها مع قليل من الزبدة وشراب القيقب."
-        ]
-      },
-      "tips": [
-        "قِس الشراب: ملعقة كبيرة من شراب القيقب ≈ 50 سعرة.",
-        "استغنِ عن الزبدة فوقها أو استخدم شريحة رقيقة فقط.",
-        "زيّنها بالتوت الطازج وتناول كومة من قطعتين أو ثلاث."
-      ]
-    },
-    "it": {
-      "name": "Pancake",
-      "origin": "Internazionale",
-      "intro": "I pancake sono soffici frittelle preparate con una pastella di farina, uova e latte, cotte in una padella calda finché sono dorate su entrambi i lati. Si servono in una pila calda con una noce di burro e una generosa colata di sciroppo d'acero. La consistenza è leggera e tenera, e sono un classico della colazione o del brunch.",
-      "history": "Frittelle piatte di pastella cotte su una piastra si preparano in molte culture da secoli, e i pancake in questo stile spesso e soffice sono oggi legati soprattutto alle colazioni nordamericane.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "200 g di farina 00",
-          "2 cucchiaini di lievito in polvere",
-          "1 cucchiaio di zucchero",
-          "1 pizzico di sale",
-          "2 uova",
-          "300 ml di latte",
-          "20 g di burro fuso, più 10 g per servire",
-          "60 ml di sciroppo d'acero"
-        ],
-        "steps": [
-          "Mescola in una ciotola farina, lievito, zucchero e sale.",
-          "Sbatti uova, latte e burro fuso, poi incorporali agli ingredienti secchi mescolando solo quanto basta.",
-          "Cuoci mestoli di pastella in una padella calda leggermente unta finché si formano bollicine, poi gira e cuoci ancora 1 minuto.",
-          "Impilali e servi con un po' di burro e sciroppo d'acero."
-        ]
-      },
-      "tips": [
-        "Misura lo sciroppo: 1 cucchiaio di sciroppo d'acero ≈ 50 kcal.",
-        "Salta il burro sopra o usane solo una fettina sottile.",
-        "Completa con frutti di bosco freschi e mangia una pila di due o tre."
-      ]
-    },
-    "el": {
-      "name": "Πανκέικ",
-      "origin": "Διεθνές",
-      "intro": "Τα πανκέικ είναι μαλακές, αφράτες τηγανίτες από χυλό αλευριού, αυγών και γάλακτος, ψημένες σε καυτό τηγάνι μέχρι να χρυσίσουν και από τις δύο πλευρές. Σερβίρονται σε ζεστή στοίβα με ένα κομμάτι βούτυρο και άφθονο σιρόπι σφενδάμου. Η υφή τους είναι ελαφριά και τρυφερή, και είναι κλασικό πιάτο για πρωινό ή μπραντς.",
-      "history": "Επίπεδες πίτες από χυλό ψημένες σε πλάκα φτιάχνονται σε πολλούς πολιτισμούς εδώ και αιώνες, και τα πανκέικ σε αυτό το χοντρό, αφράτο στιλ συνδέονται σήμερα κυρίως με το βορειοαμερικανικό πρωινό.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "200 γρ. αλεύρι για όλες τις χρήσεις",
-          "2 κ.γ. μπέικιν πάουντερ",
-          "1 κ.σ. ζάχαρη",
-          "1 πρέζα αλάτι",
-          "2 αυγά",
-          "300 ml γάλα",
-          "20 γρ. βούτυρο λιωμένο, συν 10 γρ. για το σερβίρισμα",
-          "60 ml σιρόπι σφενδάμου"
-        ],
-        "steps": [
-          "Ανακατέψτε σε μπολ το αλεύρι, το μπέικιν πάουντερ, τη ζάχαρη και το αλάτι.",
-          "Χτυπήστε τα αυγά, το γάλα και το λιωμένο βούτυρο και ανακατέψτε τα με τα στεγνά υλικά μόνο μέχρι να ενωθούν.",
-          "Ψήστε κουτάλες χυλού σε ελαφρά λαδωμένο καυτό τηγάνι μέχρι να σχηματιστούν φουσκάλες, γυρίστε και ψήστε άλλο 1 λεπτό.",
-          "Στοιβάξτε τα και σερβίρετε με λίγο βούτυρο και σιρόπι σφενδάμου."
-        ]
-      },
-      "tips": [
-        "Μετρήστε το σιρόπι: 1 κ.σ. σιρόπι σφενδάμου ≈ 50 kcal.",
-        "Παραλείψτε το βούτυρο από πάνω ή βάλτε μόνο ένα λεπτό κομματάκι.",
-        "Βάλτε από πάνω φρέσκα μούρα και φάτε μια στοίβα από δύο ή τρία."
-      ]
-    },
-    "ru": {
-      "name": "Панкейки",
-      "origin": "Международное",
-      "intro": "Панкейки — мягкие пышные лепёшки из теста на муке, яйцах и молоке, испечённые на горячей сковороде до золотистого цвета с обеих сторон. Их подают тёплой стопкой с кусочком масла и щедрой порцией кленового сиропа. Текстура лёгкая и нежная, и это классический завтрак или бранч.",
-      "history": "Плоские лепёшки из теста, испечённые на гриле, делают во многих культурах веками, а панкейки в этом густом пышном стиле особенно связаны с североамериканскими завтраками сегодня.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "200 г пшеничной муки",
-          "2 ч. л. разрыхлителя",
-          "1 ст. л. сахара",
-          "1 щепотка соли",
-          "2 яйца",
-          "300 мл молока",
-          "20 г сливочного масла, растопленного, плюс 10 г для подачи",
-          "60 мл кленового сиропа"
-        ],
-        "steps": [
-          "Смешайте муку, разрыхлитель, сахар и соль в миске.",
-          "Взбейте яйца, молоко и растопленное масло, затем вмешайте в сухие ингредиенты, лишь соединив.",
-          "Выпекайте половники теста на слегка смазанной горячей сковороде, пока не появятся пузырьки, затем переверните и жарьте ещё 1 минуту.",
-          "Сложите стопкой и подавайте с небольшим количеством масла и кленового сиропа."
-        ]
-      },
-      "tips": [
-        "Отмеряйте сироп: 1 ст. л. кленового сиропа ≈ 50 ккал.",
-        "Откажитесь от масла сверху или возьмите лишь тонкий ломтик.",
-        "Украсьте свежими ягодами и ешьте стопку из двух-трёх штук."
-      ],
-      "name_inline": "панкейки"
-    }
+  "ar": {
+   "name": "بان كيك",
+   "origin": "عالمي",
+   "intro": "البان كيك كعكات طرية وهشة تُحضَّر من خليط الدقيق والبيض والحليب، وتُطهى في مقلاة ساخنة حتى تصبح ذهبية من الجانبين. تُقدَّم دافئة في كومة مع قطعة زبدة وكمية سخية من شراب القيقب. قوامها خفيف وطري، وهي طبق كلاسيكي للفطور أو البرانش.",
+   "history": "صُنعت الكعكات المسطحة من الخليط على الصاج في ثقافات كثيرة منذ قرون، ويرتبط البان كيك بهذا الأسلوب السميك الهش اليوم خصوصًا بالفطور في أمريكا الشمالية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "200 غ دقيق أبيض",
+     "2 ملعقة صغيرة بيكنج باودر",
+     "1 ملعقة كبيرة سكر",
+     "رشة ملح",
+     "2 بيضة",
+     "300 مل حليب",
+     "20 غ زبدة مذابة و10 غ للتقديم",
+     "60 مل شراب القيقب"
+    ],
+    "steps": [
+     "اخلط الدقيق والبيكنج باودر والسكر والملح في وعاء.",
+     "اخفق البيض والحليب والزبدة المذابة، ثم أضفها إلى المكونات الجافة وقلّب حتى تمتزج فقط.",
+     "اطهُ مغارف من الخليط في مقلاة ساخنة مدهونة قليلًا حتى تظهر الفقاعات، ثم اقلبها دقيقة أخرى.",
+     "كدّسها وقدّمها مع قليل من الزبدة وشراب القيقب."
+    ]
+   },
+   "tips": [
+    "قِس الشراب: ملعقة كبيرة من شراب القيقب ≈ 50 سعرة.",
+    "استغنِ عن الزبدة فوقها أو استخدم شريحة رقيقة فقط.",
+    "زيّنها بالتوت الطازج وتناول كومة من قطعتين أو ثلاث."
+   ]
+  },
+  "it": {
+   "name": "Pancake",
+   "origin": "Internazionale",
+   "intro": "I pancake sono soffici frittelle preparate con una pastella di farina, uova e latte, cotte in una padella calda finché sono dorate su entrambi i lati. Si servono in una pila calda con una noce di burro e una generosa colata di sciroppo d'acero. La consistenza è leggera e tenera, e sono un classico della colazione o del brunch.",
+   "history": "Frittelle piatte di pastella cotte su una piastra si preparano in molte culture da secoli, e i pancake in questo stile spesso e soffice sono oggi legati soprattutto alle colazioni nordamericane.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "200 g di farina 00",
+     "2 cucchiaini di lievito in polvere",
+     "1 cucchiaio di zucchero",
+     "1 pizzico di sale",
+     "2 uova",
+     "300 ml di latte",
+     "20 g di burro fuso, più 10 g per servire",
+     "60 ml di sciroppo d'acero"
+    ],
+    "steps": [
+     "Mescola in una ciotola farina, lievito, zucchero e sale.",
+     "Sbatti uova, latte e burro fuso, poi incorporali agli ingredienti secchi mescolando solo quanto basta.",
+     "Cuoci mestoli di pastella in una padella calda leggermente unta finché si formano bollicine, poi gira e cuoci ancora 1 minuto.",
+     "Impilali e servi con un po' di burro e sciroppo d'acero."
+    ]
+   },
+   "tips": [
+    "Misura lo sciroppo: 1 cucchiaio di sciroppo d'acero ≈ 50 kcal.",
+    "Salta il burro sopra o usane solo una fettina sottile.",
+    "Completa con frutti di bosco freschi e mangia una pila di due o tre."
+   ]
+  },
+  "el": {
+   "name": "Πανκέικ",
+   "origin": "Διεθνές",
+   "intro": "Τα πανκέικ είναι μαλακές, αφράτες τηγανίτες από χυλό αλευριού, αυγών και γάλακτος, ψημένες σε καυτό τηγάνι μέχρι να χρυσίσουν και από τις δύο πλευρές. Σερβίρονται σε ζεστή στοίβα με ένα κομμάτι βούτυρο και άφθονο σιρόπι σφενδάμου. Η υφή τους είναι ελαφριά και τρυφερή, και είναι κλασικό πιάτο για πρωινό ή μπραντς.",
+   "history": "Επίπεδες πίτες από χυλό ψημένες σε πλάκα φτιάχνονται σε πολλούς πολιτισμούς εδώ και αιώνες, και τα πανκέικ σε αυτό το χοντρό, αφράτο στιλ συνδέονται σήμερα κυρίως με το βορειοαμερικανικό πρωινό.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "200 γρ. αλεύρι για όλες τις χρήσεις",
+     "2 κ.γ. μπέικιν πάουντερ",
+     "1 κ.σ. ζάχαρη",
+     "1 πρέζα αλάτι",
+     "2 αυγά",
+     "300 ml γάλα",
+     "20 γρ. βούτυρο λιωμένο, συν 10 γρ. για το σερβίρισμα",
+     "60 ml σιρόπι σφενδάμου"
+    ],
+    "steps": [
+     "Ανακατέψτε σε μπολ το αλεύρι, το μπέικιν πάουντερ, τη ζάχαρη και το αλάτι.",
+     "Χτυπήστε τα αυγά, το γάλα και το λιωμένο βούτυρο και ανακατέψτε τα με τα στεγνά υλικά μόνο μέχρι να ενωθούν.",
+     "Ψήστε κουτάλες χυλού σε ελαφρά λαδωμένο καυτό τηγάνι μέχρι να σχηματιστούν φουσκάλες, γυρίστε και ψήστε άλλο 1 λεπτό.",
+     "Στοιβάξτε τα και σερβίρετε με λίγο βούτυρο και σιρόπι σφενδάμου."
+    ]
+   },
+   "tips": [
+    "Μετρήστε το σιρόπι: 1 κ.σ. σιρόπι σφενδάμου ≈ 50 kcal.",
+    "Παραλείψτε το βούτυρο από πάνω ή βάλτε μόνο ένα λεπτό κομματάκι.",
+    "Βάλτε από πάνω φρέσκα μούρα και φάτε μια στοίβα από δύο ή τρία."
+   ]
+  },
+  "ru": {
+   "name": "Панкейки",
+   "origin": "Международное",
+   "intro": "Панкейки — мягкие пышные лепёшки из теста на муке, яйцах и молоке, испечённые на горячей сковороде до золотистого цвета с обеих сторон. Их подают тёплой стопкой с кусочком масла и щедрой порцией кленового сиропа. Текстура лёгкая и нежная, и это классический завтрак или бранч.",
+   "history": "Плоские лепёшки из теста, испечённые на гриле, делают во многих культурах веками, а панкейки в этом густом пышном стиле особенно связаны с североамериканскими завтраками сегодня.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "200 г пшеничной муки",
+     "2 ч. л. разрыхлителя",
+     "1 ст. л. сахара",
+     "1 щепотка соли",
+     "2 яйца",
+     "300 мл молока",
+     "20 г сливочного масла, растопленного, плюс 10 г для подачи",
+     "60 мл кленового сиропа"
+    ],
+    "steps": [
+     "Смешайте муку, разрыхлитель, сахар и соль в миске.",
+     "Взбейте яйца, молоко и растопленное масло, затем вмешайте в сухие ингредиенты, лишь соединив.",
+     "Выпекайте половники теста на слегка смазанной горячей сковороде, пока не появятся пузырьки, затем переверните и жарьте ещё 1 минуту.",
+     "Сложите стопкой и подавайте с небольшим количеством масла и кленового сиропа."
+    ]
+   },
+   "tips": [
+    "Отмеряйте сироп: 1 ст. л. кленового сиропа ≈ 50 ккал.",
+    "Откажитесь от масла сверху или возьмите лишь тонкий ломтик.",
+    "Украсьте свежими ягодами и ешьте стопку из двух-трёх штук."
+   ],
+   "name_inline": "панкейки"
+  },
+  "es": {
+   "name": "Pancakes",
+   "origin": "Internacional",
+   "intro": "Los pancakes son tortitas suaves y esponjosas hechas con una masa de harina, huevos y leche, cocidas en una sartén caliente hasta que doran por ambos lados. Se sirven en una pila tibia, con un trozo de mantequilla y un generoso chorro de miel de maple. Su textura es ligera y tierna, y son un clásico del desayuno o el brunch.",
+   "history": "Las tortitas planas cocidas a partir de una masa sobre una plancha se preparan desde hace siglos en muchas culturas, y los pancakes de este estilo grueso y esponjoso se asocian hoy sobre todo con los desayunos de Norteamérica.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "200 g de harina de trigo",
+     "2 cdta. de polvo para hornear",
+     "1 cda. de azúcar",
+     "1 pizca de sal",
+     "2 huevos",
+     "300 ml de leche",
+     "20 g de mantequilla derretida, más 10 g para servir",
+     "60 ml de miel de maple"
+    ],
+    "steps": [
+     "Mezcla la harina, el polvo para hornear, el azúcar y la sal en un bol.",
+     "Bate los huevos, la leche y la mantequilla derretida, e incorpora a los ingredientes secos hasta que apenas se integren.",
+     "Cocina cucharones de masa en una sartén caliente ligeramente engrasada hasta que salgan burbujas; luego voltea y cocina 1 minuto más.",
+     "Apila y sirve con un poco de mantequilla y miel de maple."
+    ]
+   },
+   "tips": [
+    "Mide la miel: 1 cda. de miel de maple son unas 50 kcal.",
+    "Omite la mantequilla de encima o usa solo una rebanada fina.",
+    "Cubre con frutos rojos frescos y come una pila de dos o tres."
+   ],
+   "name_inline": "los pancakes"
   }
+ }
 }

@@ -1,175 +1,208 @@
 {
-  "db_key": "harira",
-  "slug": "harira",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "MA",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "harira",
+ "slug": "harira",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "MA",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Harira",
+   "origin": "Morocco",
+   "intro": "Harira is Morocco's beloved tomato-based soup of lentils, chickpeas and small pieces of lamb, perfumed with ginger, cinnamon and plenty of fresh coriander. It is hearty and velvety, somewhere between a soup and a stew, with a gentle warmth from the spices. It is traditionally served in bowls at sunset to break the Ramadan fast, often with dates on the side.",
+   "history": "Harira is a national dish of Morocco and is also eaten in Algeria; each region and family has its own version. It is above all the soup of Ramadan iftar, and it is also served at weddings and on cold winter evenings.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 g lamb, cut into small cubes",
+     "150 g green or brown lentils, rinsed",
+     "200 g chickpeas, soaked overnight (or 400 g cooked)",
+     "600 g tomatoes, grated, plus 2 tbsp tomato paste",
+     "1 onion, finely chopped",
+     "1 large bunch fresh coriander (and parsley), chopped",
+     "1 tsp ground ginger, ½ tsp cinnamon, 1 tsp black pepper",
+     "1 tbsp oil, salt, about 2 litres water"
+    ],
+    "steps": [
+     "In a large pot, brown the lamb with the onion, oil and spices for 5 minutes.",
+     "Add the soaked chickpeas, half the herbs and 1.5 litres water; simmer 45 minutes.",
+     "Add the lentils, grated tomatoes, tomato paste and salt; simmer 30 minutes more until the lentils are soft.",
+     "Stir in the remaining herbs and adjust thickness with water.",
+     "Serve hot, with lemon wedges and dates if you like."
+    ]
+   },
+   "tips": [
+    "Harira is naturally light per bowl; most extra calories come from what is served with it, so watch the sweets on the iftar table.",
+    "Use lean lamb and trim off visible fat.",
+    "Add more lentils and tomato and less meat for an even lighter pot."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Harira",
-      "origin": "Morocco",
-      "intro": "Harira is Morocco's beloved tomato-based soup of lentils, chickpeas and small pieces of lamb, perfumed with ginger, cinnamon and plenty of fresh coriander. It is hearty and velvety, somewhere between a soup and a stew, with a gentle warmth from the spices. It is traditionally served in bowls at sunset to break the Ramadan fast, often with dates on the side.",
-      "history": "Harira is a national dish of Morocco and is also eaten in Algeria; each region and family has its own version. It is above all the soup of Ramadan iftar, and it is also served at weddings and on cold winter evenings.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 g lamb, cut into small cubes",
-          "150 g green or brown lentils, rinsed",
-          "200 g chickpeas, soaked overnight (or 400 g cooked)",
-          "600 g tomatoes, grated, plus 2 tbsp tomato paste",
-          "1 onion, finely chopped",
-          "1 large bunch fresh coriander (and parsley), chopped",
-          "1 tsp ground ginger, ½ tsp cinnamon, 1 tsp black pepper",
-          "1 tbsp oil, salt, about 2 litres water"
-        ],
-        "steps": [
-          "In a large pot, brown the lamb with the onion, oil and spices for 5 minutes.",
-          "Add the soaked chickpeas, half the herbs and 1.5 litres water; simmer 45 minutes.",
-          "Add the lentils, grated tomatoes, tomato paste and salt; simmer 30 minutes more until the lentils are soft.",
-          "Stir in the remaining herbs and adjust thickness with water.",
-          "Serve hot, with lemon wedges and dates if you like."
-        ]
-      },
-      "tips": [
-        "Harira is naturally light per bowl; most extra calories come from what is served with it, so watch the sweets on the iftar table.",
-        "Use lean lamb and trim off visible fat.",
-        "Add more lentils and tomato and less meat for an even lighter pot."
-      ]
-    },
-    "ar": {
-      "name": "حريرة",
-      "origin": "المغرب",
-      "intro": "الحريرة حساء المغرب المحبوب بأساس الطماطم، مع العدس والحمص وقطع صغيرة من لحم الضأن، معطّر بالزنجبيل والقرفة والكثير من الكزبرة الطازجة. قوامها غني مخملي بين الحساء واليخنة، مع دفء لطيف من البهارات. تُقدَّم تقليديًا في الزلافة عند الغروب لكسر صيام رمضان، وغالبًا مع التمر.",
-      "history": "الحريرة طبق وطني في المغرب وتؤكل في الجزائر أيضًا، ولكل منطقة وعائلة طريقتها. وهي قبل كل شيء حساء إفطار رمضان، وتُقدَّم كذلك في الأعراس وفي أمسيات الشتاء الباردة.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 غ لحم ضأن مقطع مكعبات صغيرة",
-          "150 غ عدس أخضر أو بني مغسول",
-          "200 غ حمص منقوع ليلة (أو 400 غ مسلوق)",
-          "600 غ طماطم مبشورة، وملعقتان كبيرتان معجون طماطم",
-          "بصلة مفرومة ناعمًا",
-          "حزمة كبيرة من الكزبرة الطازجة (والبقدونس) مفرومة",
-          "ملعقة صغيرة زنجبيل مطحون، ½ ملعقة صغيرة قرفة، ملعقة صغيرة فلفل أسود",
-          "ملعقة كبيرة زيت، ملح، نحو 2 لتر ماء"
-        ],
-        "steps": [
-          "في قدر كبيرة حمّر اللحم مع البصل والزيت والبهارات 5 دقائق.",
-          "أضف الحمص المنقوع ونصف الأعشاب و1.5 لتر ماء، واتركها على نار هادئة 45 دقيقة.",
-          "أضف العدس والطماطم المبشورة ومعجون الطماطم والملح، واطهُها 30 دقيقة أخرى حتى ينضج العدس.",
-          "أضف بقية الأعشاب واضبط القوام بالماء.",
-          "قدّمها ساخنة مع شرائح الليمون والتمر إن شئت."
-        ]
-      },
-      "tips": [
-        "الحريرة خفيفة بطبيعتها في الطبق الواحد؛ معظم السعرات الإضافية تأتي مما يرافقها، فانتبه للحلويات على مائدة الإفطار.",
-        "استخدم لحمًا قليل الدهن وأزل الدهن الظاهر.",
-        "أكثر من العدس والطماطم وقلّل اللحم لقدر أخف."
-      ]
-    },
-    "it": {
-      "name": "Harira",
-      "origin": "Marocco",
-      "intro": "La harira è l'amatissima zuppa marocchina a base di pomodoro, con lenticchie, ceci e piccoli pezzi d'agnello, profumata con zenzero, cannella e abbondante coriandolo fresco. È sostanziosa e vellutata, a metà tra una zuppa e uno stufato, con un delicato calore dato dalle spezie. Tradizionalmente si serve in ciotole al tramonto per rompere il digiuno del Ramadan, spesso con datteri a parte.",
-      "history": "La harira è un piatto nazionale del Marocco e si mangia anche in Algeria; ogni regione e ogni famiglia ha la propria versione. È soprattutto la zuppa dell'iftar del Ramadan, e si serve anche ai matrimoni e nelle fredde sere d'inverno.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 g di agnello a cubetti piccoli",
-          "150 g di lenticchie verdi o marroni, sciacquate",
-          "200 g di ceci in ammollo per una notte (o 400 g cotti)",
-          "600 g di pomodori grattugiati, più 2 cucchiai di concentrato di pomodoro",
-          "1 cipolla tritata finemente",
-          "1 grosso mazzo di coriandolo fresco (e prezzemolo), tritato",
-          "1 cucchiaino di zenzero in polvere, ½ cucchiaino di cannella, 1 cucchiaino di pepe nero",
-          "1 cucchiaio di olio, sale, circa 2 l di acqua"
-        ],
-        "steps": [
-          "In una pentola capiente rosola l'agnello con la cipolla, l'olio e le spezie per 5 minuti.",
-          "Aggiungi i ceci ammollati, metà delle erbe e 1,5 l d'acqua; cuoci a fuoco lento per 45 minuti.",
-          "Aggiungi le lenticchie, i pomodori grattugiati, il concentrato e il sale; cuoci altri 30 minuti finché le lenticchie sono morbide.",
-          "Incorpora le erbe rimaste e regola la densità con acqua.",
-          "Servi caldo, con spicchi di limone e datteri, se ti piace."
-        ]
-      },
-      "tips": [
-        "La harira è di per sé leggera a ciotola; la maggior parte delle calorie extra viene da ciò che la accompagna, quindi fai attenzione ai dolci sulla tavola dell'iftar.",
-        "Usa agnello magro ed elimina il grasso visibile.",
-        "Aggiungi più lenticchie e pomodoro e meno carne per una pentola ancora più leggera."
-      ]
-    },
-    "el": {
-      "name": "Χαρίρα",
-      "origin": "Μαρόκο",
-      "intro": "Η χαρίρα είναι η αγαπημένη μαροκινή σούπα με βάση τη ντομάτα, με φακές, ρεβίθια και μικρά κομμάτια αρνιού, αρωματισμένη με τζίντζερ, κανέλα και άφθονο φρέσκο κόλιαντρο. Είναι χορταστική και βελούδινη, κάτι ανάμεσα σε σούπα και μαγειρευτό, με μια απαλή ζεστασιά από τα μπαχαρικά. Παραδοσιακά σερβίρεται σε μπολ με τη δύση του ηλίου για να σπάσει τη νηστεία του Ραμαζανιού, συχνά με χουρμάδες στο πλάι.",
-      "history": "Η χαρίρα είναι εθνικό φαγητό του Μαρόκου και τρώγεται και στην Αλγερία· κάθε περιοχή και κάθε οικογένεια έχει τη δική της εκδοχή. Είναι πάνω απ' όλα η σούπα του ιφτάρ του Ραμαζανιού και σερβίρεται επίσης σε γάμους και τα κρύα χειμωνιάτικα βράδια.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 γρ. αρνί, σε μικρά κυβάκια",
-          "150 γρ. πράσινες ή καφέ φακές, ξεπλυμένες",
-          "200 γρ. ρεβίθια, μουλιασμένα από το προηγούμενο βράδυ (ή 400 γρ. βρασμένα)",
-          "600 γρ. ντομάτες, τριμμένες, συν 2 κ.σ. πελτέ ντομάτας",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1 μεγάλο ματσάκι φρέσκο κόλιαντρο (και μαϊντανό), ψιλοκομμένο",
-          "1 κ.γ. τζίντζερ σε σκόνη, ½ κ.γ. κανέλα, 1 κ.γ. μαύρο πιπέρι",
-          "1 κ.σ. λάδι, αλάτι, περίπου 2 λίτρα νερό"
-        ],
-        "steps": [
-          "Σε μεγάλη κατσαρόλα σοτάρετε το αρνί με το κρεμμύδι, το λάδι και τα μπαχαρικά για 5 λεπτά.",
-          "Προσθέστε τα μουλιασμένα ρεβίθια, τα μισά μυρωδικά και 1,5 λίτρο νερό· σιγοβράστε 45 λεπτά.",
-          "Προσθέστε τις φακές, τις τριμμένες ντομάτες, τον πελτέ και αλάτι· σιγοβράστε άλλα 30 λεπτά μέχρι να μαλακώσουν οι φακές.",
-          "Ρίξτε τα υπόλοιπα μυρωδικά και ρυθμίστε την πυκνότητα με νερό.",
-          "Σερβίρετε ζεστή, με φέτες λεμονιού και χουρμάδες αν θέλετε."
-        ]
-      },
-      "tips": [
-        "Η χαρίρα είναι από τη φύση της ελαφριά ανά μπολ· οι περισσότερες επιπλέον θερμίδες προέρχονται από ό,τι τη συνοδεύει, οπότε προσέξτε τα γλυκά στο τραπέζι του ιφτάρ.",
-        "Χρησιμοποιήστε άπαχο αρνί και αφαιρέστε το ορατό λίπος.",
-        "Βάλτε περισσότερες φακές και ντομάτα και λιγότερο κρέας για ακόμη πιο ελαφριά κατσαρόλα."
-      ]
-    },
-    "ru": {
-      "name": "Харира",
-      "origin": "Марокко",
-      "intro": "Харира — любимый марокканский суп на томатной основе с чечевицей, нутом и небольшими кусочками баранины, ароматизированный имбирём, корицей и большим количеством свежей кинзы. Он сытный и бархатистый, что-то среднее между супом и рагу, с мягким теплом специй. Его традиционно подают в мисках на закате, чтобы прервать пост в Рамадан, часто с финиками на гарнир.",
-      "history": "Харира — национальное блюдо Марокко, его также едят в Алжире; у каждого региона и каждой семьи своя версия. Это прежде всего суп ифтара в Рамадан, его также подают на свадьбах и холодными зимними вечерами.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 г баранины, нарезанной мелкими кубиками",
-          "150 г зелёной или коричневой чечевицы, промытой",
-          "200 г нута, замоченного на ночь (или 400 г отварного)",
-          "600 г помидоров, натёртых, плюс 2 ст. л. томатной пасты",
-          "1 луковица, мелко нарубленная",
-          "1 большой пучок свежей кинзы (и петрушки), нарубленный",
-          "1 ч. л. молотого имбиря, ½ ч. л. корицы, 1 ч. л. чёрного перца",
-          "1 ст. л. масла, соль, около 2 литров воды"
-        ],
-        "steps": [
-          "В большой кастрюле обжарьте баранину с луком, маслом и специями 5 минут.",
-          "Добавьте замоченный нут, половину зелени и 1,5 литра воды; варите 45 минут.",
-          "Добавьте чечевицу, натёртые помидоры, томатную пасту и соль; варите ещё 30 минут, пока чечевица не станет мягкой.",
-          "Вмешайте оставшуюся зелень и отрегулируйте густоту водой.",
-          "Подавайте горячей, при желании с дольками лимона и финиками."
-        ]
-      },
-      "tips": [
-        "Харира сама по себе легкая на миску; большая часть дополнительных калорий приходится на то, что подают к ней, поэтому следите за сладостями на столе для ифтара.",
-        "Берите нежирную баранину и срезайте видимый жир.",
-        "Добавьте больше чечевицы и помидоров и меньше мяса, чтобы кастрюля стала ещё легче."
-      ],
-      "name_inline": "харира"
-    }
+  "ar": {
+   "name": "حريرة",
+   "origin": "المغرب",
+   "intro": "الحريرة حساء المغرب المحبوب بأساس الطماطم، مع العدس والحمص وقطع صغيرة من لحم الضأن، معطّر بالزنجبيل والقرفة والكثير من الكزبرة الطازجة. قوامها غني مخملي بين الحساء واليخنة، مع دفء لطيف من البهارات. تُقدَّم تقليديًا في الزلافة عند الغروب لكسر صيام رمضان، وغالبًا مع التمر.",
+   "history": "الحريرة طبق وطني في المغرب وتؤكل في الجزائر أيضًا، ولكل منطقة وعائلة طريقتها. وهي قبل كل شيء حساء إفطار رمضان، وتُقدَّم كذلك في الأعراس وفي أمسيات الشتاء الباردة.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 غ لحم ضأن مقطع مكعبات صغيرة",
+     "150 غ عدس أخضر أو بني مغسول",
+     "200 غ حمص منقوع ليلة (أو 400 غ مسلوق)",
+     "600 غ طماطم مبشورة، وملعقتان كبيرتان معجون طماطم",
+     "بصلة مفرومة ناعمًا",
+     "حزمة كبيرة من الكزبرة الطازجة (والبقدونس) مفرومة",
+     "ملعقة صغيرة زنجبيل مطحون، ½ ملعقة صغيرة قرفة، ملعقة صغيرة فلفل أسود",
+     "ملعقة كبيرة زيت، ملح، نحو 2 لتر ماء"
+    ],
+    "steps": [
+     "في قدر كبيرة حمّر اللحم مع البصل والزيت والبهارات 5 دقائق.",
+     "أضف الحمص المنقوع ونصف الأعشاب و1.5 لتر ماء، واتركها على نار هادئة 45 دقيقة.",
+     "أضف العدس والطماطم المبشورة ومعجون الطماطم والملح، واطهُها 30 دقيقة أخرى حتى ينضج العدس.",
+     "أضف بقية الأعشاب واضبط القوام بالماء.",
+     "قدّمها ساخنة مع شرائح الليمون والتمر إن شئت."
+    ]
+   },
+   "tips": [
+    "الحريرة خفيفة بطبيعتها في الطبق الواحد؛ معظم السعرات الإضافية تأتي مما يرافقها، فانتبه للحلويات على مائدة الإفطار.",
+    "استخدم لحمًا قليل الدهن وأزل الدهن الظاهر.",
+    "أكثر من العدس والطماطم وقلّل اللحم لقدر أخف."
+   ]
+  },
+  "it": {
+   "name": "Harira",
+   "origin": "Marocco",
+   "intro": "La harira è l'amatissima zuppa marocchina a base di pomodoro, con lenticchie, ceci e piccoli pezzi d'agnello, profumata con zenzero, cannella e abbondante coriandolo fresco. È sostanziosa e vellutata, a metà tra una zuppa e uno stufato, con un delicato calore dato dalle spezie. Tradizionalmente si serve in ciotole al tramonto per rompere il digiuno del Ramadan, spesso con datteri a parte.",
+   "history": "La harira è un piatto nazionale del Marocco e si mangia anche in Algeria; ogni regione e ogni famiglia ha la propria versione. È soprattutto la zuppa dell'iftar del Ramadan, e si serve anche ai matrimoni e nelle fredde sere d'inverno.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 g di agnello a cubetti piccoli",
+     "150 g di lenticchie verdi o marroni, sciacquate",
+     "200 g di ceci in ammollo per una notte (o 400 g cotti)",
+     "600 g di pomodori grattugiati, più 2 cucchiai di concentrato di pomodoro",
+     "1 cipolla tritata finemente",
+     "1 grosso mazzo di coriandolo fresco (e prezzemolo), tritato",
+     "1 cucchiaino di zenzero in polvere, ½ cucchiaino di cannella, 1 cucchiaino di pepe nero",
+     "1 cucchiaio di olio, sale, circa 2 l di acqua"
+    ],
+    "steps": [
+     "In una pentola capiente rosola l'agnello con la cipolla, l'olio e le spezie per 5 minuti.",
+     "Aggiungi i ceci ammollati, metà delle erbe e 1,5 l d'acqua; cuoci a fuoco lento per 45 minuti.",
+     "Aggiungi le lenticchie, i pomodori grattugiati, il concentrato e il sale; cuoci altri 30 minuti finché le lenticchie sono morbide.",
+     "Incorpora le erbe rimaste e regola la densità con acqua.",
+     "Servi caldo, con spicchi di limone e datteri, se ti piace."
+    ]
+   },
+   "tips": [
+    "La harira è di per sé leggera a ciotola; la maggior parte delle calorie extra viene da ciò che la accompagna, quindi fai attenzione ai dolci sulla tavola dell'iftar.",
+    "Usa agnello magro ed elimina il grasso visibile.",
+    "Aggiungi più lenticchie e pomodoro e meno carne per una pentola ancora più leggera."
+   ]
+  },
+  "el": {
+   "name": "Χαρίρα",
+   "origin": "Μαρόκο",
+   "intro": "Η χαρίρα είναι η αγαπημένη μαροκινή σούπα με βάση τη ντομάτα, με φακές, ρεβίθια και μικρά κομμάτια αρνιού, αρωματισμένη με τζίντζερ, κανέλα και άφθονο φρέσκο κόλιαντρο. Είναι χορταστική και βελούδινη, κάτι ανάμεσα σε σούπα και μαγειρευτό, με μια απαλή ζεστασιά από τα μπαχαρικά. Παραδοσιακά σερβίρεται σε μπολ με τη δύση του ηλίου για να σπάσει τη νηστεία του Ραμαζανιού, συχνά με χουρμάδες στο πλάι.",
+   "history": "Η χαρίρα είναι εθνικό φαγητό του Μαρόκου και τρώγεται και στην Αλγερία· κάθε περιοχή και κάθε οικογένεια έχει τη δική της εκδοχή. Είναι πάνω απ' όλα η σούπα του ιφτάρ του Ραμαζανιού και σερβίρεται επίσης σε γάμους και τα κρύα χειμωνιάτικα βράδια.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 γρ. αρνί, σε μικρά κυβάκια",
+     "150 γρ. πράσινες ή καφέ φακές, ξεπλυμένες",
+     "200 γρ. ρεβίθια, μουλιασμένα από το προηγούμενο βράδυ (ή 400 γρ. βρασμένα)",
+     "600 γρ. ντομάτες, τριμμένες, συν 2 κ.σ. πελτέ ντομάτας",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1 μεγάλο ματσάκι φρέσκο κόλιαντρο (και μαϊντανό), ψιλοκομμένο",
+     "1 κ.γ. τζίντζερ σε σκόνη, ½ κ.γ. κανέλα, 1 κ.γ. μαύρο πιπέρι",
+     "1 κ.σ. λάδι, αλάτι, περίπου 2 λίτρα νερό"
+    ],
+    "steps": [
+     "Σε μεγάλη κατσαρόλα σοτάρετε το αρνί με το κρεμμύδι, το λάδι και τα μπαχαρικά για 5 λεπτά.",
+     "Προσθέστε τα μουλιασμένα ρεβίθια, τα μισά μυρωδικά και 1,5 λίτρο νερό· σιγοβράστε 45 λεπτά.",
+     "Προσθέστε τις φακές, τις τριμμένες ντομάτες, τον πελτέ και αλάτι· σιγοβράστε άλλα 30 λεπτά μέχρι να μαλακώσουν οι φακές.",
+     "Ρίξτε τα υπόλοιπα μυρωδικά και ρυθμίστε την πυκνότητα με νερό.",
+     "Σερβίρετε ζεστή, με φέτες λεμονιού και χουρμάδες αν θέλετε."
+    ]
+   },
+   "tips": [
+    "Η χαρίρα είναι από τη φύση της ελαφριά ανά μπολ· οι περισσότερες επιπλέον θερμίδες προέρχονται από ό,τι τη συνοδεύει, οπότε προσέξτε τα γλυκά στο τραπέζι του ιφτάρ.",
+    "Χρησιμοποιήστε άπαχο αρνί και αφαιρέστε το ορατό λίπος.",
+    "Βάλτε περισσότερες φακές και ντομάτα και λιγότερο κρέας για ακόμη πιο ελαφριά κατσαρόλα."
+   ]
+  },
+  "ru": {
+   "name": "Харира",
+   "origin": "Марокко",
+   "intro": "Харира — любимый марокканский суп на томатной основе с чечевицей, нутом и небольшими кусочками баранины, ароматизированный имбирём, корицей и большим количеством свежей кинзы. Он сытный и бархатистый, что-то среднее между супом и рагу, с мягким теплом специй. Его традиционно подают в мисках на закате, чтобы прервать пост в Рамадан, часто с финиками на гарнир.",
+   "history": "Харира — национальное блюдо Марокко, его также едят в Алжире; у каждого региона и каждой семьи своя версия. Это прежде всего суп ифтара в Рамадан, его также подают на свадьбах и холодными зимними вечерами.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 г баранины, нарезанной мелкими кубиками",
+     "150 г зелёной или коричневой чечевицы, промытой",
+     "200 г нута, замоченного на ночь (или 400 г отварного)",
+     "600 г помидоров, натёртых, плюс 2 ст. л. томатной пасты",
+     "1 луковица, мелко нарубленная",
+     "1 большой пучок свежей кинзы (и петрушки), нарубленный",
+     "1 ч. л. молотого имбиря, ½ ч. л. корицы, 1 ч. л. чёрного перца",
+     "1 ст. л. масла, соль, около 2 литров воды"
+    ],
+    "steps": [
+     "В большой кастрюле обжарьте баранину с луком, маслом и специями 5 минут.",
+     "Добавьте замоченный нут, половину зелени и 1,5 литра воды; варите 45 минут.",
+     "Добавьте чечевицу, натёртые помидоры, томатную пасту и соль; варите ещё 30 минут, пока чечевица не станет мягкой.",
+     "Вмешайте оставшуюся зелень и отрегулируйте густоту водой.",
+     "Подавайте горячей, при желании с дольками лимона и финиками."
+    ]
+   },
+   "tips": [
+    "Харира сама по себе легкая на миску; большая часть дополнительных калорий приходится на то, что подают к ней, поэтому следите за сладостями на столе для ифтара.",
+    "Берите нежирную баранину и срезайте видимый жир.",
+    "Добавьте больше чечевицы и помидоров и меньше мяса, чтобы кастрюля стала ещё легче."
+   ],
+   "name_inline": "харира"
+  },
+  "es": {
+   "name": "Harira",
+   "origin": "Marruecos",
+   "intro": "La harira es la querida sopa marroquí a base de tomate, con lentejas, garbanzos y trocitos de cordero, perfumada con jengibre, canela y abundante cilantro fresco. Es sustanciosa y aterciopelada, a medio camino entre sopa y guiso, con un suave calor de especias. Tradicionalmente se sirve en tazones al atardecer para romper el ayuno de Ramadán, a menudo con dátiles al lado.",
+   "history": "La harira es un plato nacional de Marruecos y también se come en Argelia; cada región y cada familia tiene su versión. Es, sobre todo, la sopa del iftar de Ramadán, pero también se sirve en bodas y en las frías noches de invierno.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 g de cordero, en cubos pequeños",
+     "150 g de lentejas verdes o pardas, enjuagadas",
+     "200 g de garbanzos remojados desde la víspera (o 400 g cocidos)",
+     "600 g de jitomates rallados, más 2 cda. de pasta de jitomate",
+     "1 cebolla, finamente picada",
+     "1 manojo grande de cilantro fresco (y perejil), picado",
+     "1 cdta. de jengibre molido, ½ cdta. de canela, 1 cdta. de pimienta negra",
+     "1 cda. de aceite, sal, unos 2 litros de agua"
+    ],
+    "steps": [
+     "En una olla grande, dora el cordero con la cebolla, el aceite y las especias durante 5 minutos.",
+     "Añade los garbanzos remojados, la mitad de las hierbas y 1.5 litros de agua; cuece a fuego lento 45 minutos.",
+     "Agrega las lentejas, los jitomates rallados, la pasta de jitomate y la sal; cuece 30 minutos más, hasta que las lentejas estén suaves.",
+     "Incorpora las hierbas restantes y ajusta el espesor con agua.",
+     "Sirve caliente, con gajos de limón y dátiles si quieres."
+    ]
+   },
+   "tips": [
+    "La harira es ligera por tazón; la mayoría de las calorías extra vienen de lo que la acompaña, así que cuida los dulces de la mesa del iftar.",
+    "Usa cordero magro y retira la grasa visible.",
+    "Añade más lentejas y jitomate, y menos carne, para una olla aún más ligera."
+   ],
+   "name_inline": "la harira"
   }
+ }
 }

@@ -1,176 +1,209 @@
 {
-  "db_key": "tres_leches_cup",
-  "slug": "tres-leches-cup",
-  "emoji": "🥛",
-  "portion_g": 150,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tres_leches_cup",
+ "slug": "tres-leches-cup",
+ "emoji": "🥛",
+ "portion_g": 150,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tres Leches Cup",
+   "origin": "Latin America",
+   "intro": "A tres leches cup is the individual, grab-and-go version of the classic cake: cubes of sponge layered in a clear cup, drenched in milk, condensed milk and cream, and finished with a cap of whipped cream. It is wetter and creamier than a sliced cake, eaten with a spoon and served well chilled, often from bakeries and dessert cafés.",
+   "history": "The cup format grew out of the traditional tres leches cake and has become popular in bakeries and dessert shops across Latin America, the Gulf and beyond, where single portions are easy to sell and carry.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "3 eggs",
+     "90 g sugar",
+     "90 g wheat flour",
+     "1 tsp baking powder",
+     "150 ml milk",
+     "200 g sweetened condensed milk",
+     "100 ml cream (for soaking)",
+     "150 ml cream (for topping)"
+    ],
+    "steps": [
+     "Whisk the eggs and sugar until thick, fold in the flour and baking powder, and bake in a small pan at 180 °C for about 20 minutes.",
+     "Cool the sponge and cut it into cubes.",
+     "Mix the milk, condensed milk and 100 ml cream.",
+     "Layer the sponge cubes in 4 cups and pour the milk mixture over each layer.",
+     "Whip the remaining cream, spoon it on top and chill for at least 2 hours."
+    ]
+   },
+   "tips": [
+    "Use smaller cups of about 120 g to keep the portion in check.",
+    "Pour less of the soaking milk and leave a little in the jug — the cake stays moist with less.",
+    "Swap part of the whipped cream topping for diced fresh fruit."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tres Leches Cup",
-      "origin": "Latin America",
-      "intro": "A tres leches cup is the individual, grab-and-go version of the classic cake: cubes of sponge layered in a clear cup, drenched in milk, condensed milk and cream, and finished with a cap of whipped cream. It is wetter and creamier than a sliced cake, eaten with a spoon and served well chilled, often from bakeries and dessert cafés.",
-      "history": "The cup format grew out of the traditional tres leches cake and has become popular in bakeries and dessert shops across Latin America, the Gulf and beyond, where single portions are easy to sell and carry.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "3 eggs",
-          "90 g sugar",
-          "90 g wheat flour",
-          "1 tsp baking powder",
-          "150 ml milk",
-          "200 g sweetened condensed milk",
-          "100 ml cream (for soaking)",
-          "150 ml cream (for topping)"
-        ],
-        "steps": [
-          "Whisk the eggs and sugar until thick, fold in the flour and baking powder, and bake in a small pan at 180 °C for about 20 minutes.",
-          "Cool the sponge and cut it into cubes.",
-          "Mix the milk, condensed milk and 100 ml cream.",
-          "Layer the sponge cubes in 4 cups and pour the milk mixture over each layer.",
-          "Whip the remaining cream, spoon it on top and chill for at least 2 hours."
-        ]
-      },
-      "tips": [
-        "Use smaller cups of about 120 g to keep the portion in check.",
-        "Pour less of the soaking milk and leave a little in the jug — the cake stays moist with less.",
-        "Swap part of the whipped cream topping for diced fresh fruit."
-      ]
-    },
-    "ar": {
-      "name": "كوب تريس ليتشس",
-      "origin": "أمريكا اللاتينية",
-      "intro": "كوب تريس ليتشس هو النسخة الفردية السهلة الحمل من الكيكة الشهيرة: مكعبات إسفنج في كوب شفاف مغمورة بالحليب والحليب المكثف والكريمة، وتعلوها طبقة من الكريمة المخفوقة. قوامه أرطب وأكثر كريمية من شريحة الكيك، ويُؤكل بالملعقة ويُقدَّم باردًا جدًا، وغالبًا ما يُباع في المخابز ومقاهي الحلويات.",
-      "history": "نشأ هذا الشكل من كيكة تريس ليتشس التقليدية، وأصبح شائعًا في المخابز ومحلات الحلويات في أمريكا اللاتينية والخليج وغيرها، لأن الحصص الفردية سهلة البيع والحمل.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "3 بيضات",
-          "90 غ سكر",
-          "90 غ دقيق قمح",
-          "1 ملعقة صغيرة بيكنج باودر",
-          "150 مل حليب",
-          "200 غ حليب مكثف محلى",
-          "100 مل كريمة (للنقع)",
-          "150 مل كريمة (للتزيين)"
-        ],
-        "steps": [
-          "اخفق البيض والسكر حتى يتكثف، وأضف الدقيق والبيكنج باودر بلطف، واخبزه في صينية صغيرة على 180 °م نحو 20 دقيقة.",
-          "برّد الإسفنج وقطّعه مكعبات.",
-          "اخلط الحليب والحليب المكثف و100 مل من الكريمة.",
-          "رتّب مكعبات الإسفنج في 4 أكواب واسكب خليط الحليب على كل طبقة.",
-          "اخفق بقية الكريمة وضعها على الوجه، ثم برّد الأكواب ساعتين على الأقل."
-        ]
-      },
-      "tips": [
-        "استخدم أكوابًا أصغر بنحو 120 غ لضبط الحصة.",
-        "قلّل كمية حليب النقع واترك جزءًا منه، فالكيك يبقى رطبًا بكمية أقل.",
-        "استبدل جزءًا من الكريمة المخفوقة بمكعبات فاكهة طازجة."
-      ]
-    },
-    "it": {
-      "name": "Tres Leches in coppetta",
-      "name_inline": "tres leches in coppetta",
-      "origin": "America Latina",
-      "intro": "La tres leches in coppetta è la versione monoporzione e da asporto della torta classica: cubetti di pan di Spagna disposti a strati in un bicchiere trasparente, inzuppati di latte, latte condensato e panna, e completati da un cappello di panna montata. È più umida e cremosa di una fetta di torta, si mangia con il cucchiaino e si serve ben fredda, spesso in pasticcerie e caffetterie di dolci.",
-      "history": "Il formato in coppetta è nato dalla tradizionale torta tres leches ed è diventato popolare nelle pasticcerie e nei negozi di dolci in tutta l'America Latina, nei paesi del Golfo e altrove, dove le monoporzioni sono facili da vendere e da trasportare.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "3 uova",
-          "90 g di zucchero",
-          "90 g di farina di frumento",
-          "1 cucchiaino di lievito per dolci",
-          "150 ml di latte",
-          "200 g di latte condensato zuccherato",
-          "100 ml di panna (per inzuppare)",
-          "150 ml di panna (per guarnire)"
-        ],
-        "steps": [
-          "Monta le uova con lo zucchero finché sono dense, incorpora la farina e il lievito e cuoci in una piccola teglia a 180 °C per circa 20 minuti.",
-          "Lascia raffreddare il pan di Spagna e taglialo a cubetti.",
-          "Mescola il latte, il latte condensato e 100 ml di panna.",
-          "Disponi i cubetti di pan di Spagna a strati in 4 coppette e versa il composto di latte su ogni strato.",
-          "Monta la panna rimasta, distribuiscila sopra con un cucchiaio e lascia in frigorifero per almeno 2 ore."
-        ]
-      },
-      "tips": [
-        "Usa coppette più piccole, da circa 120 g, per tenere sotto controllo la porzione.",
-        "Versa meno latte per l'inzuppo e lasciane un po' nella brocca: la torta resta umida anche con meno.",
-        "Sostituisci parte della panna montata con frutta fresca a cubetti."
-      ]
-    },
-    "el": {
-      "name": "Τρες λέτσες σε ποτήρι",
-      "origin": "Λατινική Αμερική",
-      "intro": "Το τρες λέτσες σε ποτήρι είναι η ατομική εκδοχή «στο χέρι» του κλασικού κέικ: κυβάκια παντεσπάνι σε στρώσεις μέσα σε διάφανο ποτήρι, μουσκεμένα σε γάλα, συμπυκνωμένο γάλα και κρέμα γάλακτος, με ένα καπάκι σαντιγί από πάνω. Είναι πιο υγρό και κρεμώδες από ένα κομμάτι κέικ, τρώγεται με κουτάλι και σερβίρεται καλά παγωμένο, συχνά σε ζαχαροπλαστεία και καφέ γλυκών.",
-      "history": "Η μορφή σε ποτήρι προέκυψε από το παραδοσιακό κέικ τρες λέτσες και έγινε δημοφιλής σε ζαχαροπλαστεία και καταστήματα γλυκών σε όλη τη Λατινική Αμερική, στις χώρες του Κόλπου και αλλού, όπου οι ατομικές μερίδες πωλούνται και μεταφέρονται εύκολα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "3 αυγά",
-          "90 γρ. ζάχαρη",
-          "90 γρ. αλεύρι σίτου",
-          "1 κ.γ. μπέικιν πάουντερ",
-          "150 ml γάλα",
-          "200 γρ. ζαχαρούχο συμπυκνωμένο γάλα",
-          "100 ml κρέμα γάλακτος (για το μούσκεμα)",
-          "150 ml κρέμα γάλακτος (για την επικάλυψη)"
-        ],
-        "steps": [
-          "Χτυπήστε τα αυγά με τη ζάχαρη μέχρι να πήξουν, ενσωματώστε το αλεύρι και το μπέικιν πάουντερ και ψήστε σε μικρό ταψί στους 180 °C για περίπου 20 λεπτά.",
-          "Αφήστε το παντεσπάνι να κρυώσει και κόψτε το σε κυβάκια.",
-          "Ανακατέψτε το γάλα, το συμπυκνωμένο γάλα και 100 ml κρέμα γάλακτος.",
-          "Βάλτε τα κυβάκια παντεσπάνι σε στρώσεις σε 4 ποτήρια και περιχύστε κάθε στρώση με το μείγμα γάλακτος.",
-          "Χτυπήστε την υπόλοιπη κρέμα σε σαντιγί, απλώστε τη από πάνω με κουτάλι και βάλτε στο ψυγείο για τουλάχιστον 2 ώρες."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε μικρότερα ποτήρια, περίπου 120 γρ., για να κρατήσετε τη μερίδα υπό έλεγχο.",
-        "Ρίξτε λιγότερο γάλα για το μούσκεμα και αφήστε λίγο στην κανάτα — το κέικ μένει ζουμερό και με λιγότερο.",
-        "Αντικαταστήστε μέρος της σαντιγί με φρέσκα φρούτα σε κυβάκια."
-      ]
-    },
-    "ru": {
-      "name": "Трес лечес в стаканчике",
-      "origin": "Латинская Америка",
-      "intro": "Трес лечес в стаканчике — порционная версия классического торта на вынос: кубики бисквита, уложенные слоями в прозрачный стаканчик, пропитанные молоком, сгущённым молоком и сливками и увенчанные шапкой взбитых сливок. Он более влажный и сливочный, чем нарезанный торт, его едят ложкой и подают хорошо охлаждённым, часто из пекарен и десертных кафе.",
-      "history": "Формат стаканчика вырос из традиционного торта трес лечес и стал популярным в пекарнях и десертных лавках по всей Латинской Америке, Заливу и за их пределами, где порции легко продавать и носить с собой.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "3 яйца",
-          "90 г сахара",
-          "90 г пшеничной муки",
-          "1 ч. л. разрыхлителя",
-          "150 мл молока",
-          "200 г сгущённого молока с сахаром",
-          "100 мл сливок (для пропитки)",
-          "150 мл сливок (для верха)"
-        ],
-        "steps": [
-          "Взбейте яйца с сахаром до густоты, вмешайте муку и разрыхлитель и выпекайте в небольшой форме при 180 °C около 20 минут.",
-          "Остудите бисквит и нарежьте кубиками.",
-          "Смешайте молоко, сгущённое молоко и 100 мл сливок.",
-          "Выложите кубики бисквита слоями в 4 стаканчика и полейте каждый слой молочной смесью.",
-          "Взбейте оставшиеся сливки, выложите ложкой сверху и охладите не менее 2 часов."
-        ]
-      },
-      "tips": [
-        "Берите стаканчики поменьше, около 120 г, чтобы порция оставалась под контролем.",
-        "Лейте меньше молока для пропитки и оставьте немного в кувшине — торт останется влажным и с меньшим количеством.",
-        "Замените часть взбитых сливок сверху нарезанными свежими фруктами."
-      ],
-      "name_inline": "трес лечес в стаканчике"
-    }
+  "ar": {
+   "name": "كوب تريس ليتشس",
+   "origin": "أمريكا اللاتينية",
+   "intro": "كوب تريس ليتشس هو النسخة الفردية السهلة الحمل من الكيكة الشهيرة: مكعبات إسفنج في كوب شفاف مغمورة بالحليب والحليب المكثف والكريمة، وتعلوها طبقة من الكريمة المخفوقة. قوامه أرطب وأكثر كريمية من شريحة الكيك، ويُؤكل بالملعقة ويُقدَّم باردًا جدًا، وغالبًا ما يُباع في المخابز ومقاهي الحلويات.",
+   "history": "نشأ هذا الشكل من كيكة تريس ليتشس التقليدية، وأصبح شائعًا في المخابز ومحلات الحلويات في أمريكا اللاتينية والخليج وغيرها، لأن الحصص الفردية سهلة البيع والحمل.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "3 بيضات",
+     "90 غ سكر",
+     "90 غ دقيق قمح",
+     "1 ملعقة صغيرة بيكنج باودر",
+     "150 مل حليب",
+     "200 غ حليب مكثف محلى",
+     "100 مل كريمة (للنقع)",
+     "150 مل كريمة (للتزيين)"
+    ],
+    "steps": [
+     "اخفق البيض والسكر حتى يتكثف، وأضف الدقيق والبيكنج باودر بلطف، واخبزه في صينية صغيرة على 180 °م نحو 20 دقيقة.",
+     "برّد الإسفنج وقطّعه مكعبات.",
+     "اخلط الحليب والحليب المكثف و100 مل من الكريمة.",
+     "رتّب مكعبات الإسفنج في 4 أكواب واسكب خليط الحليب على كل طبقة.",
+     "اخفق بقية الكريمة وضعها على الوجه، ثم برّد الأكواب ساعتين على الأقل."
+    ]
+   },
+   "tips": [
+    "استخدم أكوابًا أصغر بنحو 120 غ لضبط الحصة.",
+    "قلّل كمية حليب النقع واترك جزءًا منه، فالكيك يبقى رطبًا بكمية أقل.",
+    "استبدل جزءًا من الكريمة المخفوقة بمكعبات فاكهة طازجة."
+   ]
+  },
+  "it": {
+   "name": "Tres Leches in coppetta",
+   "name_inline": "tres leches in coppetta",
+   "origin": "America Latina",
+   "intro": "La tres leches in coppetta è la versione monoporzione e da asporto della torta classica: cubetti di pan di Spagna disposti a strati in un bicchiere trasparente, inzuppati di latte, latte condensato e panna, e completati da un cappello di panna montata. È più umida e cremosa di una fetta di torta, si mangia con il cucchiaino e si serve ben fredda, spesso in pasticcerie e caffetterie di dolci.",
+   "history": "Il formato in coppetta è nato dalla tradizionale torta tres leches ed è diventato popolare nelle pasticcerie e nei negozi di dolci in tutta l'America Latina, nei paesi del Golfo e altrove, dove le monoporzioni sono facili da vendere e da trasportare.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "3 uova",
+     "90 g di zucchero",
+     "90 g di farina di frumento",
+     "1 cucchiaino di lievito per dolci",
+     "150 ml di latte",
+     "200 g di latte condensato zuccherato",
+     "100 ml di panna (per inzuppare)",
+     "150 ml di panna (per guarnire)"
+    ],
+    "steps": [
+     "Monta le uova con lo zucchero finché sono dense, incorpora la farina e il lievito e cuoci in una piccola teglia a 180 °C per circa 20 minuti.",
+     "Lascia raffreddare il pan di Spagna e taglialo a cubetti.",
+     "Mescola il latte, il latte condensato e 100 ml di panna.",
+     "Disponi i cubetti di pan di Spagna a strati in 4 coppette e versa il composto di latte su ogni strato.",
+     "Monta la panna rimasta, distribuiscila sopra con un cucchiaio e lascia in frigorifero per almeno 2 ore."
+    ]
+   },
+   "tips": [
+    "Usa coppette più piccole, da circa 120 g, per tenere sotto controllo la porzione.",
+    "Versa meno latte per l'inzuppo e lasciane un po' nella brocca: la torta resta umida anche con meno.",
+    "Sostituisci parte della panna montata con frutta fresca a cubetti."
+   ]
+  },
+  "el": {
+   "name": "Τρες λέτσες σε ποτήρι",
+   "origin": "Λατινική Αμερική",
+   "intro": "Το τρες λέτσες σε ποτήρι είναι η ατομική εκδοχή «στο χέρι» του κλασικού κέικ: κυβάκια παντεσπάνι σε στρώσεις μέσα σε διάφανο ποτήρι, μουσκεμένα σε γάλα, συμπυκνωμένο γάλα και κρέμα γάλακτος, με ένα καπάκι σαντιγί από πάνω. Είναι πιο υγρό και κρεμώδες από ένα κομμάτι κέικ, τρώγεται με κουτάλι και σερβίρεται καλά παγωμένο, συχνά σε ζαχαροπλαστεία και καφέ γλυκών.",
+   "history": "Η μορφή σε ποτήρι προέκυψε από το παραδοσιακό κέικ τρες λέτσες και έγινε δημοφιλής σε ζαχαροπλαστεία και καταστήματα γλυκών σε όλη τη Λατινική Αμερική, στις χώρες του Κόλπου και αλλού, όπου οι ατομικές μερίδες πωλούνται και μεταφέρονται εύκολα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "3 αυγά",
+     "90 γρ. ζάχαρη",
+     "90 γρ. αλεύρι σίτου",
+     "1 κ.γ. μπέικιν πάουντερ",
+     "150 ml γάλα",
+     "200 γρ. ζαχαρούχο συμπυκνωμένο γάλα",
+     "100 ml κρέμα γάλακτος (για το μούσκεμα)",
+     "150 ml κρέμα γάλακτος (για την επικάλυψη)"
+    ],
+    "steps": [
+     "Χτυπήστε τα αυγά με τη ζάχαρη μέχρι να πήξουν, ενσωματώστε το αλεύρι και το μπέικιν πάουντερ και ψήστε σε μικρό ταψί στους 180 °C για περίπου 20 λεπτά.",
+     "Αφήστε το παντεσπάνι να κρυώσει και κόψτε το σε κυβάκια.",
+     "Ανακατέψτε το γάλα, το συμπυκνωμένο γάλα και 100 ml κρέμα γάλακτος.",
+     "Βάλτε τα κυβάκια παντεσπάνι σε στρώσεις σε 4 ποτήρια και περιχύστε κάθε στρώση με το μείγμα γάλακτος.",
+     "Χτυπήστε την υπόλοιπη κρέμα σε σαντιγί, απλώστε τη από πάνω με κουτάλι και βάλτε στο ψυγείο για τουλάχιστον 2 ώρες."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε μικρότερα ποτήρια, περίπου 120 γρ., για να κρατήσετε τη μερίδα υπό έλεγχο.",
+    "Ρίξτε λιγότερο γάλα για το μούσκεμα και αφήστε λίγο στην κανάτα — το κέικ μένει ζουμερό και με λιγότερο.",
+    "Αντικαταστήστε μέρος της σαντιγί με φρέσκα φρούτα σε κυβάκια."
+   ]
+  },
+  "ru": {
+   "name": "Трес лечес в стаканчике",
+   "origin": "Латинская Америка",
+   "intro": "Трес лечес в стаканчике — порционная версия классического торта на вынос: кубики бисквита, уложенные слоями в прозрачный стаканчик, пропитанные молоком, сгущённым молоком и сливками и увенчанные шапкой взбитых сливок. Он более влажный и сливочный, чем нарезанный торт, его едят ложкой и подают хорошо охлаждённым, часто из пекарен и десертных кафе.",
+   "history": "Формат стаканчика вырос из традиционного торта трес лечес и стал популярным в пекарнях и десертных лавках по всей Латинской Америке, Заливу и за их пределами, где порции легко продавать и носить с собой.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "3 яйца",
+     "90 г сахара",
+     "90 г пшеничной муки",
+     "1 ч. л. разрыхлителя",
+     "150 мл молока",
+     "200 г сгущённого молока с сахаром",
+     "100 мл сливок (для пропитки)",
+     "150 мл сливок (для верха)"
+    ],
+    "steps": [
+     "Взбейте яйца с сахаром до густоты, вмешайте муку и разрыхлитель и выпекайте в небольшой форме при 180 °C около 20 минут.",
+     "Остудите бисквит и нарежьте кубиками.",
+     "Смешайте молоко, сгущённое молоко и 100 мл сливок.",
+     "Выложите кубики бисквита слоями в 4 стаканчика и полейте каждый слой молочной смесью.",
+     "Взбейте оставшиеся сливки, выложите ложкой сверху и охладите не менее 2 часов."
+    ]
+   },
+   "tips": [
+    "Берите стаканчики поменьше, около 120 г, чтобы порция оставалась под контролем.",
+    "Лейте меньше молока для пропитки и оставьте немного в кувшине — торт останется влажным и с меньшим количеством.",
+    "Замените часть взбитых сливок сверху нарезанными свежими фруктами."
+   ],
+   "name_inline": "трес лечес в стаканчике"
+  },
+  "es": {
+   "name": "Vasito de tres leches",
+   "origin": "América Latina",
+   "intro": "Un vasito de tres leches es la versión individual y para llevar del clásico pastel: cubos de bizcocho en capas dentro de un vaso transparente, empapados en leche, leche condensada y crema, y coronados con una capa de crema batida. Es más húmedo y cremoso que una rebanada de pastel, se come con cuchara y se sirve muy frío, a menudo en panaderías y cafés de postres.",
+   "history": "El formato en vasito surgió del tradicional pastel de tres leches y se ha hecho popular en panaderías y pastelerías de toda América Latina, el Golfo y otros lugares, donde las porciones individuales son fáciles de vender y llevar.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "3 huevos",
+     "90 g de azúcar",
+     "90 g de harina de trigo",
+     "1 cdta. de polvo para hornear",
+     "150 ml de leche",
+     "200 g de leche condensada azucarada",
+     "100 ml de crema (para empapar)",
+     "150 ml de crema (para decorar)"
+    ],
+    "steps": [
+     "Bate los huevos con el azúcar hasta que espesen, incorpora la harina y el polvo para hornear con movimientos envolventes y hornea en un molde pequeño a 180 °C unos 20 minutos.",
+     "Deja enfriar el bizcocho y córtalo en cubos.",
+     "Mezcla la leche, la leche condensada y 100 ml de crema.",
+     "Acomoda los cubos de bizcocho en 4 vasos y vierte la mezcla de leches sobre cada capa.",
+     "Bate la crema restante, ponla encima con una cuchara y refrigera al menos 2 horas."
+    ]
+   },
+   "tips": [
+    "Usa vasos más pequeños, de unos 120 g, para controlar la porción.",
+    "Vierte menos de la mezcla de leches y deja un poco en la jarra: el bizcocho se mantiene húmedo con menos.",
+    "Sustituye parte de la crema batida de encima por fruta fresca picada."
+   ],
+   "name_inline": "el vasito de tres leches"
   }
+ }
 }

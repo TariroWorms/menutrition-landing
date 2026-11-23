@@ -1,182 +1,216 @@
 {
-  "db_key": "mansaf",
-  "slug": "mansaf",
-  "emoji": "🍖",
-  "portion_g": 400,
-  "country": "JO",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mansaf",
+ "slug": "mansaf",
+ "emoji": "🍖",
+ "portion_g": 400,
+ "country": "JO",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mansaf",
+   "origin": "Jordan",
+   "intro": "Mansaf is Jordan's national dish: lamb simmered in a tangy sauce made from jameed, dried fermented yogurt, served over a mound of rice and scattered with toasted almonds, pine nuts and parsley. The meat is tender, the sauce sour and savoury, and more of it is ladled over the rice at the table. It is eaten from one large shared platter at weddings and gatherings.",
+   "history": "Mansaf grew out of the Bedouin cooking of the region that is now Jordan, where jameed was a way to preserve milk in the desert. Rice is often said to have replaced bulgur as the base in the 20th century, and mansaf is today the centrepiece of Jordanian hospitality and celebrations.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.5 kg lamb on the bone, in large pieces",
+     "500 g jameed, soaked and blended (or 1 l liquid jameed)",
+     "600 g medium-grain rice",
+     "1.5 l water",
+     "2 tbsp ghee",
+     "40 g almonds",
+     "30 g pine nuts",
+     "Chopped parsley",
+     "Salt"
+    ],
+    "steps": [
+     "Cover the lamb with water, bring to the boil, skim, and simmer for 1 hour.",
+     "Blend the jameed with some of the broth until smooth, then add it to the pot and simmer the lamb in it for 30–40 minutes, stirring often.",
+     "Cook the rice in salted water with 1 tbsp ghee until tender.",
+     "Toast the almonds and pine nuts in the remaining ghee.",
+     "Spread the rice on a platter, top with the lamb and some sauce, then sprinkle with nuts and parsley; serve the rest of the sauce on the side."
+    ]
+   },
+   "tips": [
+    "Use lean lamb and skim the fat from the broth before adding the jameed.",
+    "Toast the nuts in a dry pan instead of ghee.",
+    "Take less rice and more of the tangy sauce, which carries most of the flavour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mansaf",
-      "origin": "Jordan",
-      "intro": "Mansaf is Jordan's national dish: lamb simmered in a tangy sauce made from jameed, dried fermented yogurt, served over a mound of rice and scattered with toasted almonds, pine nuts and parsley. The meat is tender, the sauce sour and savoury, and more of it is ladled over the rice at the table. It is eaten from one large shared platter at weddings and gatherings.",
-      "history": "Mansaf grew out of the Bedouin cooking of the region that is now Jordan, where jameed was a way to preserve milk in the desert. Rice is often said to have replaced bulgur as the base in the 20th century, and mansaf is today the centrepiece of Jordanian hospitality and celebrations.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.5 kg lamb on the bone, in large pieces",
-          "500 g jameed, soaked and blended (or 1 l liquid jameed)",
-          "600 g medium-grain rice",
-          "1.5 l water",
-          "2 tbsp ghee",
-          "40 g almonds",
-          "30 g pine nuts",
-          "Chopped parsley",
-          "Salt"
-        ],
-        "steps": [
-          "Cover the lamb with water, bring to the boil, skim, and simmer for 1 hour.",
-          "Blend the jameed with some of the broth until smooth, then add it to the pot and simmer the lamb in it for 30–40 minutes, stirring often.",
-          "Cook the rice in salted water with 1 tbsp ghee until tender.",
-          "Toast the almonds and pine nuts in the remaining ghee.",
-          "Spread the rice on a platter, top with the lamb and some sauce, then sprinkle with nuts and parsley; serve the rest of the sauce on the side."
-        ]
-      },
-      "tips": [
-        "Use lean lamb and skim the fat from the broth before adding the jameed.",
-        "Toast the nuts in a dry pan instead of ghee.",
-        "Take less rice and more of the tangy sauce, which carries most of the flavour."
-      ]
-    },
-    "ar": {
-      "name": "منسف",
-      "origin": "الأردن",
-      "intro": "المنسف هو الطبق الوطني الأردني: لحم ضأن مطبوخ في صلصة حامضة من الجميد، وهو لبن مجفّف ومخمّر، يُقدَّم فوق كومة من الأرز ويُزيَّن باللوز والصنوبر المحمّصين والبقدونس. اللحم طري والصلصة حامضة ومالحة، ويُسكب منها المزيد على الأرز عند الأكل. يؤكل من صينية كبيرة مشتركة في الأعراس والولائم.",
-      "history": "نشأ المنسف من مطبخ البدو في المنطقة التي أصبحت الأردن، حيث كان الجميد وسيلة لحفظ الحليب في الصحراء. ويُقال إن الأرز حلّ محل البرغل قاعدةً للطبق في القرن العشرين، والمنسف اليوم محور الضيافة والاحتفالات الأردنية.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.5 كغ لحم ضأن بالعظم مقطّع قطعًا كبيرة",
-          "500 غ جميد منقوع ومخفوق (أو 1 لتر جميد سائل)",
-          "600 غ أرز متوسط الحبة",
-          "1.5 لتر ماء",
-          "2 ملعقة كبيرة سمن",
-          "40 غ لوز",
-          "30 غ صنوبر",
-          "بقدونس مفروم",
-          "ملح"
-        ],
-        "steps": [
-          "غطِّ اللحم بالماء واتركه يغلي وأزل الرغوة، ثم اطبخه على نار هادئة ساعة.",
-          "اخفق الجميد مع قليل من المرق حتى يصبح ناعمًا، ثم أضفه إلى القدر واطبخ اللحم فيه 30–40 دقيقة مع التحريك المستمر.",
-          "اطبخ الأرز في ماء مملّح مع ملعقة سمن حتى ينضج.",
-          "حمّص اللوز والصنوبر في بقية السمن.",
-          "افرد الأرز في صينية وضع فوقه اللحم وقليلًا من الصلصة، ثم رشّ المكسرات والبقدونس، وقدّم بقية الصلصة جانبًا."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا قليل الدهن وأزل الدهن عن المرق قبل إضافة الجميد.",
-        "حمّص المكسرات في مقلاة جافة بدل السمن.",
-        "خذ أرزًا أقل وصلصة أكثر، فهي تحمل معظم النكهة."
-      ]
-    },
-    "it": {
-      "name": "Mansaf",
-      "origin": "Giordania",
-      "intro": "Il mansaf è il piatto nazionale della Giordania: agnello cotto lentamente in una salsa acidula a base di jameed, yogurt fermentato essiccato, servito su un mucchio di riso e cosparso di mandorle tostate, pinoli e prezzemolo. La carne è tenera, la salsa acida e saporita, e se ne versa altra sul riso a tavola. Si mangia da un unico grande vassoio condiviso a matrimoni e riunioni.",
-      "history": "Il mansaf è nato dalla cucina beduina della regione che oggi è la Giordania, dove il jameed era un modo per conservare il latte nel deserto. Si dice spesso che il riso abbia sostituito il bulgur come base nel XX secolo, e oggi il mansaf è il fulcro dell'ospitalità e delle celebrazioni giordane.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 kg di agnello con l'osso, a pezzi grandi",
-          "500 g di jameed, ammollato e frullato (oppure 1 l di jameed liquido)",
-          "600 g di riso a chicco medio",
-          "1,5 l di acqua",
-          "2 cucchiai di ghee",
-          "40 g di mandorle",
-          "30 g di pinoli",
-          "Prezzemolo tritato",
-          "Sale"
-        ],
-        "steps": [
-          "Copri l'agnello con l'acqua, porta a ebollizione, schiuma e lascia sobbollire per 1 ora.",
-          "Frulla il jameed con un po' di brodo finché è liscio, poi aggiungilo alla pentola e cuoci l'agnello nella salsa per 30–40 minuti, mescolando spesso.",
-          "Cuoci il riso in acqua salata con 1 cucchiaio di ghee finché è tenero.",
-          "Tosta le mandorle e i pinoli nel ghee rimasto.",
-          "Distribuisci il riso su un vassoio, disponi sopra l'agnello e un po' di salsa, poi cospargi con la frutta secca e il prezzemolo; servi il resto della salsa a parte."
-        ]
-      },
-      "tips": [
-        "Usa agnello magro e sgrassa il brodo prima di aggiungere il jameed.",
-        "Tosta la frutta secca in una padella asciutta invece che nel ghee.",
-        "Prendi meno riso e più salsa acidula, che porta la maggior parte del sapore."
-      ],
-      "name_inline": "mansaf"
-    },
-    "el": {
-      "name": "Μανσάφ",
-      "origin": "Ιορδανία",
-      "intro": "Το μανσάφ είναι το εθνικό πιάτο της Ιορδανίας: αρνί σιγοβρασμένο σε ξινή σάλτσα από τζαμίντ, αποξηραμένο ζυμωμένο γιαούρτι, που σερβίρεται πάνω σε σωρό ρυζιού και πασπαλίζεται με καβουρδισμένα αμύγδαλα, κουκουνάρι και μαϊντανό. Το κρέας είναι τρυφερό, η σάλτσα ξινή και πλούσια, και στο τραπέζι ρίχνεται κι άλλη πάνω στο ρύζι. Τρώγεται από μία μεγάλη κοινή πιατέλα σε γάμους και συγκεντρώσεις.",
-      "history": "Το μανσάφ προήλθε από τη βεδουίνικη μαγειρική της περιοχής που σήμερα είναι η Ιορδανία, όπου το τζαμίντ ήταν τρόπος συντήρησης του γάλακτος στην έρημο. Λέγεται συχνά ότι το ρύζι αντικατέστησε το πλιγούρι ως βάση τον 20ό αιώνα, και σήμερα το μανσάφ είναι το επίκεντρο της ιορδανικής φιλοξενίας και των γιορτών.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 κιλό αρνί με κόκαλο, σε μεγάλα κομμάτια",
-          "500 γρ. τζαμίντ, μουλιασμένο και πολτοποιημένο (ή 1 λίτρο υγρό τζαμίντ)",
-          "600 γρ. μεσόκοκκο ρύζι",
-          "1,5 λίτρο νερό",
-          "2 κ.σ. γκι",
-          "40 γρ. αμύγδαλα",
-          "30 γρ. κουκουνάρι",
-          "Ψιλοκομμένος μαϊντανός",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Σκεπάστε το αρνί με νερό, φέρτε σε βρασμό, ξαφρίστε και σιγοβράστε για 1 ώρα.",
-          "Χτυπήστε το τζαμίντ με λίγο ζωμό μέχρι να γίνει λείο, έπειτα προσθέστε το στην κατσαρόλα και σιγοβράστε το αρνί μέσα για 30–40 λεπτά, ανακατεύοντας συχνά.",
-          "Μαγειρέψτε το ρύζι σε αλατισμένο νερό με 1 κ.σ. γκι μέχρι να μαλακώσει.",
-          "Καβουρδίστε τα αμύγδαλα και το κουκουνάρι στο υπόλοιπο γκι.",
-          "Απλώστε το ρύζι σε πιατέλα, βάλτε από πάνω το αρνί και λίγη σάλτσα και πασπαλίστε με τους ξηρούς καρπούς και τον μαϊντανό· σερβίρετε την υπόλοιπη σάλτσα χωριστά."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο αρνί και ξαφρίστε το λίπος από τον ζωμό πριν προσθέσετε το τζαμίντ.",
-        "Καβουρδίστε τους ξηρούς καρπούς σε στεγνό τηγάνι αντί σε γκι.",
-        "Πάρτε λιγότερο ρύζι και περισσότερη από την ξινή σάλτσα, που δίνει το μεγαλύτερο μέρος της γεύσης."
-      ],
-      "name_inline": "μανσάφ"
-    },
-    "ru": {
-      "name": "Мансаф",
-      "origin": "Иордания",
-      "intro": "Мансаф — национальное блюдо Иордании: баранина, тушёная в кисловатом соусе из джамида, сушёного ферментированного йогурта, поданная на горке риса и посыпанная жареным миндалём, кедровыми орешками и петрушкой. Мясо нежное, соус кислый и пряный, и его ещё добавляют на рис за столом. Его едят с одного большого общего блюда на свадьбах и встречах.",
-      "history": "Мансаф вырос из бедуинской кухни региона, ныне Иордании, где джамид был способом сохранить молоко в пустыне. Часто говорят, что рис заменил булгур в качестве основы в XX веке, и сегодня мансаф — центр иорданского гостеприимства и праздников.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,5 кг баранины на кости, крупными кусками",
-          "500 г джамида, замоченного и взбитого блендером (или 1 л жидкого джамида)",
-          "600 г среднезёрного риса",
-          "1,5 л воды",
-          "2 ст. л. гхи",
-          "40 г миндаля",
-          "30 г кедровых орешков",
-          "Рубленая петрушка",
-          "Соль"
-        ],
-        "steps": [
-          "Залейте баранину водой, доведите до кипения, снимите пену и варите 1 час.",
-          "Взбейте джамид с частью бульона до гладкости, затем добавьте в кастрюлю и тушите в нём баранину 30–40 минут, часто помешивая.",
-          "Сварите рис в подсоленной воде с 1 ст. л. гхи до мягкости.",
-          "Обжарьте миндаль и кедровые орешки в оставшемся гхи.",
-          "Выложите рис на блюдо, сверху баранину и немного соуса, затем посыпьте орехами и петрушкой; остальной соус подайте отдельно."
-        ]
-      },
-      "tips": [
-        "Берите постную баранину и снимайте жир с бульона перед добавлением джамида.",
-        "Обжаривайте орехи на сухой сковороде вместо гхи.",
-        "Берите меньше риса и больше кисловатого соуса, в котором основной вкус."
-      ],
-      "name_inline": "мансаф"
-    }
+  "ar": {
+   "name": "منسف",
+   "origin": "الأردن",
+   "intro": "المنسف هو الطبق الوطني الأردني: لحم ضأن مطبوخ في صلصة حامضة من الجميد، وهو لبن مجفّف ومخمّر، يُقدَّم فوق كومة من الأرز ويُزيَّن باللوز والصنوبر المحمّصين والبقدونس. اللحم طري والصلصة حامضة ومالحة، ويُسكب منها المزيد على الأرز عند الأكل. يؤكل من صينية كبيرة مشتركة في الأعراس والولائم.",
+   "history": "نشأ المنسف من مطبخ البدو في المنطقة التي أصبحت الأردن، حيث كان الجميد وسيلة لحفظ الحليب في الصحراء. ويُقال إن الأرز حلّ محل البرغل قاعدةً للطبق في القرن العشرين، والمنسف اليوم محور الضيافة والاحتفالات الأردنية.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.5 كغ لحم ضأن بالعظم مقطّع قطعًا كبيرة",
+     "500 غ جميد منقوع ومخفوق (أو 1 لتر جميد سائل)",
+     "600 غ أرز متوسط الحبة",
+     "1.5 لتر ماء",
+     "2 ملعقة كبيرة سمن",
+     "40 غ لوز",
+     "30 غ صنوبر",
+     "بقدونس مفروم",
+     "ملح"
+    ],
+    "steps": [
+     "غطِّ اللحم بالماء واتركه يغلي وأزل الرغوة، ثم اطبخه على نار هادئة ساعة.",
+     "اخفق الجميد مع قليل من المرق حتى يصبح ناعمًا، ثم أضفه إلى القدر واطبخ اللحم فيه 30–40 دقيقة مع التحريك المستمر.",
+     "اطبخ الأرز في ماء مملّح مع ملعقة سمن حتى ينضج.",
+     "حمّص اللوز والصنوبر في بقية السمن.",
+     "افرد الأرز في صينية وضع فوقه اللحم وقليلًا من الصلصة، ثم رشّ المكسرات والبقدونس، وقدّم بقية الصلصة جانبًا."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا قليل الدهن وأزل الدهن عن المرق قبل إضافة الجميد.",
+    "حمّص المكسرات في مقلاة جافة بدل السمن.",
+    "خذ أرزًا أقل وصلصة أكثر، فهي تحمل معظم النكهة."
+   ]
+  },
+  "it": {
+   "name": "Mansaf",
+   "origin": "Giordania",
+   "intro": "Il mansaf è il piatto nazionale della Giordania: agnello cotto lentamente in una salsa acidula a base di jameed, yogurt fermentato essiccato, servito su un mucchio di riso e cosparso di mandorle tostate, pinoli e prezzemolo. La carne è tenera, la salsa acida e saporita, e se ne versa altra sul riso a tavola. Si mangia da un unico grande vassoio condiviso a matrimoni e riunioni.",
+   "history": "Il mansaf è nato dalla cucina beduina della regione che oggi è la Giordania, dove il jameed era un modo per conservare il latte nel deserto. Si dice spesso che il riso abbia sostituito il bulgur come base nel XX secolo, e oggi il mansaf è il fulcro dell'ospitalità e delle celebrazioni giordane.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 kg di agnello con l'osso, a pezzi grandi",
+     "500 g di jameed, ammollato e frullato (oppure 1 l di jameed liquido)",
+     "600 g di riso a chicco medio",
+     "1,5 l di acqua",
+     "2 cucchiai di ghee",
+     "40 g di mandorle",
+     "30 g di pinoli",
+     "Prezzemolo tritato",
+     "Sale"
+    ],
+    "steps": [
+     "Copri l'agnello con l'acqua, porta a ebollizione, schiuma e lascia sobbollire per 1 ora.",
+     "Frulla il jameed con un po' di brodo finché è liscio, poi aggiungilo alla pentola e cuoci l'agnello nella salsa per 30–40 minuti, mescolando spesso.",
+     "Cuoci il riso in acqua salata con 1 cucchiaio di ghee finché è tenero.",
+     "Tosta le mandorle e i pinoli nel ghee rimasto.",
+     "Distribuisci il riso su un vassoio, disponi sopra l'agnello e un po' di salsa, poi cospargi con la frutta secca e il prezzemolo; servi il resto della salsa a parte."
+    ]
+   },
+   "tips": [
+    "Usa agnello magro e sgrassa il brodo prima di aggiungere il jameed.",
+    "Tosta la frutta secca in una padella asciutta invece che nel ghee.",
+    "Prendi meno riso e più salsa acidula, che porta la maggior parte del sapore."
+   ],
+   "name_inline": "mansaf"
+  },
+  "el": {
+   "name": "Μανσάφ",
+   "origin": "Ιορδανία",
+   "intro": "Το μανσάφ είναι το εθνικό πιάτο της Ιορδανίας: αρνί σιγοβρασμένο σε ξινή σάλτσα από τζαμίντ, αποξηραμένο ζυμωμένο γιαούρτι, που σερβίρεται πάνω σε σωρό ρυζιού και πασπαλίζεται με καβουρδισμένα αμύγδαλα, κουκουνάρι και μαϊντανό. Το κρέας είναι τρυφερό, η σάλτσα ξινή και πλούσια, και στο τραπέζι ρίχνεται κι άλλη πάνω στο ρύζι. Τρώγεται από μία μεγάλη κοινή πιατέλα σε γάμους και συγκεντρώσεις.",
+   "history": "Το μανσάφ προήλθε από τη βεδουίνικη μαγειρική της περιοχής που σήμερα είναι η Ιορδανία, όπου το τζαμίντ ήταν τρόπος συντήρησης του γάλακτος στην έρημο. Λέγεται συχνά ότι το ρύζι αντικατέστησε το πλιγούρι ως βάση τον 20ό αιώνα, και σήμερα το μανσάφ είναι το επίκεντρο της ιορδανικής φιλοξενίας και των γιορτών.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 κιλό αρνί με κόκαλο, σε μεγάλα κομμάτια",
+     "500 γρ. τζαμίντ, μουλιασμένο και πολτοποιημένο (ή 1 λίτρο υγρό τζαμίντ)",
+     "600 γρ. μεσόκοκκο ρύζι",
+     "1,5 λίτρο νερό",
+     "2 κ.σ. γκι",
+     "40 γρ. αμύγδαλα",
+     "30 γρ. κουκουνάρι",
+     "Ψιλοκομμένος μαϊντανός",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Σκεπάστε το αρνί με νερό, φέρτε σε βρασμό, ξαφρίστε και σιγοβράστε για 1 ώρα.",
+     "Χτυπήστε το τζαμίντ με λίγο ζωμό μέχρι να γίνει λείο, έπειτα προσθέστε το στην κατσαρόλα και σιγοβράστε το αρνί μέσα για 30–40 λεπτά, ανακατεύοντας συχνά.",
+     "Μαγειρέψτε το ρύζι σε αλατισμένο νερό με 1 κ.σ. γκι μέχρι να μαλακώσει.",
+     "Καβουρδίστε τα αμύγδαλα και το κουκουνάρι στο υπόλοιπο γκι.",
+     "Απλώστε το ρύζι σε πιατέλα, βάλτε από πάνω το αρνί και λίγη σάλτσα και πασπαλίστε με τους ξηρούς καρπούς και τον μαϊντανό· σερβίρετε την υπόλοιπη σάλτσα χωριστά."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο αρνί και ξαφρίστε το λίπος από τον ζωμό πριν προσθέσετε το τζαμίντ.",
+    "Καβουρδίστε τους ξηρούς καρπούς σε στεγνό τηγάνι αντί σε γκι.",
+    "Πάρτε λιγότερο ρύζι και περισσότερη από την ξινή σάλτσα, που δίνει το μεγαλύτερο μέρος της γεύσης."
+   ],
+   "name_inline": "μανσάφ"
+  },
+  "ru": {
+   "name": "Мансаф",
+   "origin": "Иордания",
+   "intro": "Мансаф — национальное блюдо Иордании: баранина, тушёная в кисловатом соусе из джамида, сушёного ферментированного йогурта, поданная на горке риса и посыпанная жареным миндалём, кедровыми орешками и петрушкой. Мясо нежное, соус кислый и пряный, и его ещё добавляют на рис за столом. Его едят с одного большого общего блюда на свадьбах и встречах.",
+   "history": "Мансаф вырос из бедуинской кухни региона, ныне Иордании, где джамид был способом сохранить молоко в пустыне. Часто говорят, что рис заменил булгур в качестве основы в XX веке, и сегодня мансаф — центр иорданского гостеприимства и праздников.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,5 кг баранины на кости, крупными кусками",
+     "500 г джамида, замоченного и взбитого блендером (или 1 л жидкого джамида)",
+     "600 г среднезёрного риса",
+     "1,5 л воды",
+     "2 ст. л. гхи",
+     "40 г миндаля",
+     "30 г кедровых орешков",
+     "Рубленая петрушка",
+     "Соль"
+    ],
+    "steps": [
+     "Залейте баранину водой, доведите до кипения, снимите пену и варите 1 час.",
+     "Взбейте джамид с частью бульона до гладкости, затем добавьте в кастрюлю и тушите в нём баранину 30–40 минут, часто помешивая.",
+     "Сварите рис в подсоленной воде с 1 ст. л. гхи до мягкости.",
+     "Обжарьте миндаль и кедровые орешки в оставшемся гхи.",
+     "Выложите рис на блюдо, сверху баранину и немного соуса, затем посыпьте орехами и петрушкой; остальной соус подайте отдельно."
+    ]
+   },
+   "tips": [
+    "Берите постную баранину и снимайте жир с бульона перед добавлением джамида.",
+    "Обжаривайте орехи на сухой сковороде вместо гхи.",
+    "Берите меньше риса и больше кисловатого соуса, в котором основной вкус."
+   ],
+   "name_inline": "мансаф"
+  },
+  "es": {
+   "name": "Mansaf",
+   "origin": "Jordania",
+   "intro": "El mansaf es el plato nacional de Jordania: cordero cocido en una salsa ácida hecha con jameed, yogur fermentado y seco, servido sobre un montículo de arroz y cubierto con almendras tostadas, piñones y perejil. La carne es tierna, la salsa agria y sabrosa, y en la mesa se vierte más sobre el arroz. Se come de una gran fuente compartida en bodas y reuniones.",
+   "history": "El mansaf surgió de la cocina beduina de la región que hoy es Jordania, donde el jameed era una forma de conservar la leche en el desierto. Suele decirse que el arroz reemplazó al trigo bulgur como base en el siglo XX, y hoy el mansaf es el centro de la hospitalidad y las celebraciones jordanas.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.5 kg de cordero con hueso, en trozos grandes",
+     "500 g de jameed, remojado y licuado (o 1 l de jameed líquido)",
+     "600 g de arroz de grano medio",
+     "1.5 l de agua",
+     "2 cda. de ghee",
+     "40 g de almendras",
+     "30 g de piñones",
+     "Perejil picado",
+     "Sal"
+    ],
+    "steps": [
+     "Cubre el cordero con agua, lleva a ebullición, espuma y cocina a fuego lento durante 1 hora.",
+     "Licúa el jameed con un poco del caldo hasta que quede liso, agrégalo a la olla y cocina el cordero en él de 30 a 40 minutos, revolviendo con frecuencia.",
+     "Cuece el arroz en agua con sal y 1 cda. de ghee hasta que esté tierno.",
+     "Tuesta las almendras y los piñones en el ghee restante.",
+     "Extiende el arroz en una fuente, coloca encima el cordero con un poco de salsa y espolvorea con las nueces y el perejil; sirve el resto de la salsa aparte."
+    ]
+   },
+   "tips": [
+    "Usa cordero magro y retira la grasa del caldo antes de añadir el jameed.",
+    "Tuesta los frutos secos en una sartén seca en lugar de usar ghee.",
+    "Toma menos arroz y más de la salsa ácida, que aporta la mayor parte del sabor."
+   ],
+   "name_inline": "el mansaf"
   }
+ }
 }

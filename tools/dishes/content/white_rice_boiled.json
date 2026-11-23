@@ -1,147 +1,174 @@
 {
-  "db_key": "white_rice_boiled",
-  "slug": "white-rice-boiled",
-  "emoji": "🍚",
-  "portion_g": 150,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "white_rice_boiled",
+ "slug": "white-rice-boiled",
+ "emoji": "🍚",
+ "portion_g": 150,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Boiled White Rice",
+   "origin": "Asia · Worldwide",
+   "intro": "Boiled white rice is plain polished rice cooked in salted water until the grains are soft and fluffy. It has a mild, neutral taste that pairs with almost any dish. It is served as a side to curries, stews, grilled meat, fish and vegetables.",
+   "history": "Rice was domesticated in Asia thousands of years ago and is today a staple food for a large share of the world's population. Plain boiled rice is eaten daily from East Asia to the Middle East, Africa and the Americas.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "300 g long-grain white rice",
+     "600 ml water",
+     "1 tsp salt"
+    ],
+    "steps": [
+     "Rinse the rice in cold water until it runs almost clear.",
+     "Bring the water and salt to a boil and add the rice.",
+     "Cover and simmer on low heat for 15–18 minutes until the water is absorbed.",
+     "Remove from heat, rest covered for 5 minutes and fluff with a fork."
+    ]
+   },
+   "tips": [
+    "Measure the portion: about 150 g cooked rice is a standard side.",
+    "Fill half the plate with vegetables and a quarter with rice.",
+    "Cook it plain without added fat to keep it light."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Boiled White Rice",
-      "origin": "Asia · Worldwide",
-      "intro": "Boiled white rice is plain polished rice cooked in salted water until the grains are soft and fluffy. It has a mild, neutral taste that pairs with almost any dish. It is served as a side to curries, stews, grilled meat, fish and vegetables.",
-      "history": "Rice was domesticated in Asia thousands of years ago and is today a staple food for a large share of the world's population. Plain boiled rice is eaten daily from East Asia to the Middle East, Africa and the Americas.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "300 g long-grain white rice",
-          "600 ml water",
-          "1 tsp salt"
-        ],
-        "steps": [
-          "Rinse the rice in cold water until it runs almost clear.",
-          "Bring the water and salt to a boil and add the rice.",
-          "Cover and simmer on low heat for 15–18 minutes until the water is absorbed.",
-          "Remove from heat, rest covered for 5 minutes and fluff with a fork."
-        ]
-      },
-      "tips": [
-        "Measure the portion: about 150 g cooked rice is a standard side.",
-        "Fill half the plate with vegetables and a quarter with rice.",
-        "Cook it plain without added fat to keep it light."
-      ]
-    },
-    "ar": {
-      "name": "أرز أبيض مسلوق",
-      "origin": "آسيا · حول العالم",
-      "intro": "الأرز الأبيض المسلوق أرز مقشور يُطهى في ماء مملح حتى تصبح الحبات طرية ومنفوشة. طعمه خفيف ومحايد يناسب أي طبق تقريبًا. يُقدّم مع الكاري واليخنات واللحوم المشوية والسمك والخضار.",
-      "history": "دُجّن الأرز في آسيا قبل آلاف السنين، وهو اليوم غذاء أساسي لجزء كبير من سكان العالم. ويؤكل الأرز المسلوق يوميًا من شرق آسيا إلى الشرق الأوسط وأفريقيا والأمريكتين.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "300 غ أرز أبيض طويل الحبة",
-          "600 مل ماء",
-          "1 ملعقة صغيرة ملح"
-        ],
-        "steps": [
-          "اغسل الأرز بالماء البارد حتى يصفو الماء تقريبًا.",
-          "اغلِ الماء مع الملح وأضف الأرز.",
-          "غطّه واطهه على نار هادئة 15–18 دقيقة حتى يمتص الماء.",
-          "ارفعه عن النار واتركه مغطى 5 دقائق ثم قلّبه بالشوكة."
-        ]
-      },
-      "tips": [
-        "قِس الحصة: نحو 150 غ من الأرز المطبوخ حصة جانبية معتادة.",
-        "املأ نصف الطبق بالخضار وربعه بالأرز.",
-        "اطهه بلا زيت أو زبدة ليبقى خفيفًا."
-      ]
-    },
-    "it": {
-      "name": "Riso bianco lessato",
-      "name_inline": "riso bianco lessato",
-      "origin": "Asia · Mondo",
-      "intro": "Il riso bianco lessato è semplice riso brillato cotto in acqua salata finché i chicchi sono morbidi e soffici. Ha un sapore delicato e neutro che si abbina a quasi ogni piatto. Si serve come contorno a curry, stufati, carne alla griglia, pesce e verdure.",
-      "history": "Il riso è stato addomesticato in Asia migliaia di anni fa ed è oggi l'alimento base di gran parte della popolazione mondiale. Il riso semplice lessato si mangia ogni giorno dall'Asia orientale al Medio Oriente, all'Africa e alle Americhe.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "300 g di riso bianco a chicco lungo",
-          "600 ml di acqua",
-          "1 cucchiaino di sale"
-        ],
-        "steps": [
-          "Sciacqua il riso in acqua fredda finché l'acqua esce quasi limpida.",
-          "Porta a ebollizione l'acqua con il sale e aggiungi il riso.",
-          "Copri e lascia sobbollire a fuoco basso per 15–18 minuti finché l'acqua è assorbita.",
-          "Togli dal fuoco, lascia riposare coperto per 5 minuti e sgrana con una forchetta."
-        ]
-      },
-      "tips": [
-        "Misura la porzione: circa 150 g di riso cotto sono un contorno standard.",
-        "Riempi metà del piatto con verdure e un quarto con il riso.",
-        "Cuocilo semplice, senza grassi aggiunti, per mantenerlo leggero."
-      ]
-    },
-    "el": {
-      "name": "Βραστό λευκό ρύζι",
-      "name_inline": "βραστό λευκό ρύζι",
-      "origin": "Ασία · Παγκοσμίως",
-      "intro": "Το βραστό λευκό ρύζι είναι απλό λευκό ρύζι μαγειρεμένο σε αλατισμένο νερό μέχρι οι κόκκοι να γίνουν μαλακοί και αφράτοι. Έχει ήπια, ουδέτερη γεύση που ταιριάζει σχεδόν με κάθε πιάτο. Σερβίρεται ως συνοδευτικό για κάρι, μαγειρευτά, ψητό κρέας, ψάρι και λαχανικά.",
-      "history": "Το ρύζι εξημερώθηκε στην Ασία πριν από χιλιάδες χρόνια και σήμερα είναι βασική τροφή για μεγάλο μέρος του παγκόσμιου πληθυσμού. Το απλό βραστό ρύζι τρώγεται καθημερινά από την Ανατολική Ασία ως τη Μέση Ανατολή, την Αφρική και την Αμερική.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "300 γρ. λευκό μακρύσπερμο ρύζι",
-          "600 ml νερό",
-          "1 κ.γ. αλάτι"
-        ],
-        "steps": [
-          "Ξεπλύνετε το ρύζι σε κρύο νερό μέχρι το νερό να τρέχει σχεδόν καθαρό.",
-          "Βράστε το νερό με το αλάτι και ρίξτε το ρύζι.",
-          "Σκεπάστε και σιγοβράστε σε χαμηλή φωτιά για 15–18 λεπτά μέχρι να απορροφηθεί το νερό.",
-          "Κατεβάστε από τη φωτιά, αφήστε σκεπασμένο 5 λεπτά και αφρατέψτε με πιρούνι."
-        ]
-      },
-      "tips": [
-        "Μετρήστε τη μερίδα: περίπου 150 γρ. μαγειρεμένο ρύζι είναι μια κανονική μερίδα συνοδευτικού.",
-        "Γεμίστε το μισό πιάτο με λαχανικά και το ένα τέταρτο με ρύζι.",
-        "Μαγειρέψτε το σκέτο χωρίς προσθήκη λιπαρών για να μείνει ελαφρύ."
-      ]
-    },
-    "ru": {
-      "name": "Отварной белый рис",
-      "origin": "Азия · весь мир",
-      "intro": "Отварной белый рис — это простой полированный рис, сваренный в подсоленной воде до мягких рассыпчатых зёрен. У него мягкий нейтральный вкус, который подходит почти к любому блюду. Подаётся как гарнир к карри, рагу, мясу и рыбе на гриле и овощам.",
-      "history": "Рис был одомашнен в Азии тысячи лет назад и сегодня является основным продуктом питания значительной части населения мира. Простой отварной рис едят ежедневно от Восточной Азии до Ближнего Востока, Африки и Америки.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "300 г длиннозёрного белого риса",
-          "600 мл воды",
-          "1 ч. л. соли"
-        ],
-        "steps": [
-          "Промывайте рис в холодной воде, пока она не станет почти прозрачной.",
-          "Доведите воду с солью до кипения и добавьте рис.",
-          "Накройте и варите на слабом огне 15–18 минут, пока вода не впитается.",
-          "Снимите с огня, дайте постоять под крышкой 5 минут и разрыхлите вилкой."
-        ]
-      },
-      "tips": [
-        "Отмеряйте порцию: около 150 г готового риса — стандартный гарнир.",
-        "Заполните половину тарелки овощами, а четверть — рисом.",
-        "Готовьте его без добавления жира, чтобы он оставался лёгким."
-      ],
-      "name_inline": "отварной белый рис"
-    }
+  "ar": {
+   "name": "أرز أبيض مسلوق",
+   "origin": "آسيا · حول العالم",
+   "intro": "الأرز الأبيض المسلوق أرز مقشور يُطهى في ماء مملح حتى تصبح الحبات طرية ومنفوشة. طعمه خفيف ومحايد يناسب أي طبق تقريبًا. يُقدّم مع الكاري واليخنات واللحوم المشوية والسمك والخضار.",
+   "history": "دُجّن الأرز في آسيا قبل آلاف السنين، وهو اليوم غذاء أساسي لجزء كبير من سكان العالم. ويؤكل الأرز المسلوق يوميًا من شرق آسيا إلى الشرق الأوسط وأفريقيا والأمريكتين.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "300 غ أرز أبيض طويل الحبة",
+     "600 مل ماء",
+     "1 ملعقة صغيرة ملح"
+    ],
+    "steps": [
+     "اغسل الأرز بالماء البارد حتى يصفو الماء تقريبًا.",
+     "اغلِ الماء مع الملح وأضف الأرز.",
+     "غطّه واطهه على نار هادئة 15–18 دقيقة حتى يمتص الماء.",
+     "ارفعه عن النار واتركه مغطى 5 دقائق ثم قلّبه بالشوكة."
+    ]
+   },
+   "tips": [
+    "قِس الحصة: نحو 150 غ من الأرز المطبوخ حصة جانبية معتادة.",
+    "املأ نصف الطبق بالخضار وربعه بالأرز.",
+    "اطهه بلا زيت أو زبدة ليبقى خفيفًا."
+   ]
+  },
+  "it": {
+   "name": "Riso bianco lessato",
+   "name_inline": "riso bianco lessato",
+   "origin": "Asia · Mondo",
+   "intro": "Il riso bianco lessato è semplice riso brillato cotto in acqua salata finché i chicchi sono morbidi e soffici. Ha un sapore delicato e neutro che si abbina a quasi ogni piatto. Si serve come contorno a curry, stufati, carne alla griglia, pesce e verdure.",
+   "history": "Il riso è stato addomesticato in Asia migliaia di anni fa ed è oggi l'alimento base di gran parte della popolazione mondiale. Il riso semplice lessato si mangia ogni giorno dall'Asia orientale al Medio Oriente, all'Africa e alle Americhe.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "300 g di riso bianco a chicco lungo",
+     "600 ml di acqua",
+     "1 cucchiaino di sale"
+    ],
+    "steps": [
+     "Sciacqua il riso in acqua fredda finché l'acqua esce quasi limpida.",
+     "Porta a ebollizione l'acqua con il sale e aggiungi il riso.",
+     "Copri e lascia sobbollire a fuoco basso per 15–18 minuti finché l'acqua è assorbita.",
+     "Togli dal fuoco, lascia riposare coperto per 5 minuti e sgrana con una forchetta."
+    ]
+   },
+   "tips": [
+    "Misura la porzione: circa 150 g di riso cotto sono un contorno standard.",
+    "Riempi metà del piatto con verdure e un quarto con il riso.",
+    "Cuocilo semplice, senza grassi aggiunti, per mantenerlo leggero."
+   ]
+  },
+  "el": {
+   "name": "Βραστό λευκό ρύζι",
+   "name_inline": "βραστό λευκό ρύζι",
+   "origin": "Ασία · Παγκοσμίως",
+   "intro": "Το βραστό λευκό ρύζι είναι απλό λευκό ρύζι μαγειρεμένο σε αλατισμένο νερό μέχρι οι κόκκοι να γίνουν μαλακοί και αφράτοι. Έχει ήπια, ουδέτερη γεύση που ταιριάζει σχεδόν με κάθε πιάτο. Σερβίρεται ως συνοδευτικό για κάρι, μαγειρευτά, ψητό κρέας, ψάρι και λαχανικά.",
+   "history": "Το ρύζι εξημερώθηκε στην Ασία πριν από χιλιάδες χρόνια και σήμερα είναι βασική τροφή για μεγάλο μέρος του παγκόσμιου πληθυσμού. Το απλό βραστό ρύζι τρώγεται καθημερινά από την Ανατολική Ασία ως τη Μέση Ανατολή, την Αφρική και την Αμερική.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "300 γρ. λευκό μακρύσπερμο ρύζι",
+     "600 ml νερό",
+     "1 κ.γ. αλάτι"
+    ],
+    "steps": [
+     "Ξεπλύνετε το ρύζι σε κρύο νερό μέχρι το νερό να τρέχει σχεδόν καθαρό.",
+     "Βράστε το νερό με το αλάτι και ρίξτε το ρύζι.",
+     "Σκεπάστε και σιγοβράστε σε χαμηλή φωτιά για 15–18 λεπτά μέχρι να απορροφηθεί το νερό.",
+     "Κατεβάστε από τη φωτιά, αφήστε σκεπασμένο 5 λεπτά και αφρατέψτε με πιρούνι."
+    ]
+   },
+   "tips": [
+    "Μετρήστε τη μερίδα: περίπου 150 γρ. μαγειρεμένο ρύζι είναι μια κανονική μερίδα συνοδευτικού.",
+    "Γεμίστε το μισό πιάτο με λαχανικά και το ένα τέταρτο με ρύζι.",
+    "Μαγειρέψτε το σκέτο χωρίς προσθήκη λιπαρών για να μείνει ελαφρύ."
+   ]
+  },
+  "ru": {
+   "name": "Отварной белый рис",
+   "origin": "Азия · весь мир",
+   "intro": "Отварной белый рис — это простой полированный рис, сваренный в подсоленной воде до мягких рассыпчатых зёрен. У него мягкий нейтральный вкус, который подходит почти к любому блюду. Подаётся как гарнир к карри, рагу, мясу и рыбе на гриле и овощам.",
+   "history": "Рис был одомашнен в Азии тысячи лет назад и сегодня является основным продуктом питания значительной части населения мира. Простой отварной рис едят ежедневно от Восточной Азии до Ближнего Востока, Африки и Америки.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "300 г длиннозёрного белого риса",
+     "600 мл воды",
+     "1 ч. л. соли"
+    ],
+    "steps": [
+     "Промывайте рис в холодной воде, пока она не станет почти прозрачной.",
+     "Доведите воду с солью до кипения и добавьте рис.",
+     "Накройте и варите на слабом огне 15–18 минут, пока вода не впитается.",
+     "Снимите с огня, дайте постоять под крышкой 5 минут и разрыхлите вилкой."
+    ]
+   },
+   "tips": [
+    "Отмеряйте порцию: около 150 г готового риса — стандартный гарнир.",
+    "Заполните половину тарелки овощами, а четверть — рисом.",
+    "Готовьте его без добавления жира, чтобы он оставался лёгким."
+   ],
+   "name_inline": "отварной белый рис"
+  },
+  "es": {
+   "name": "Arroz blanco hervido",
+   "origin": "Asia · en todo el mundo",
+   "intro": "El arroz blanco hervido es arroz pulido sencillo, cocido en agua con sal hasta que los granos quedan suaves y sueltos. Tiene un sabor suave y neutro que combina con casi cualquier plato. Se sirve como acompañamiento de currys, guisos, carnes a la parrilla, pescado y verduras.",
+   "history": "El arroz se domesticó en Asia hace miles de años y hoy es un alimento básico para buena parte de la población mundial. El arroz hervido sencillo se come a diario desde el este de Asia hasta Medio Oriente, África y América.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "300 g de arroz blanco de grano largo",
+     "600 ml de agua",
+     "1 cdta. de sal"
+    ],
+    "steps": [
+     "Enjuaga el arroz con agua fría hasta que salga casi transparente.",
+     "Lleva el agua con la sal a ebullición y agrega el arroz.",
+     "Tapa y cocina a fuego bajo de 15 a 18 minutos, hasta que se absorba el agua.",
+     "Retira del fuego, deja reposar tapado 5 minutos y suelta los granos con un tenedor."
+    ]
+   },
+   "tips": [
+    "Mide la porción: unos 150 g de arroz cocido son un acompañamiento estándar.",
+    "Llena la mitad del plato con verduras y un cuarto con arroz.",
+    "Cocínalo sin grasa añadida para mantenerlo ligero."
+   ],
+   "name_inline": "el arroz blanco"
   }
+ }
 }

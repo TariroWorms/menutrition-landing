@@ -1,176 +1,209 @@
 {
-  "db_key": "wiener_schnitzel",
-  "slug": "wiener-schnitzel",
-  "emoji": "🥩",
-  "portion_g": 180,
-  "country": "AT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "wiener_schnitzel",
+ "slug": "wiener-schnitzel",
+ "emoji": "🥩",
+ "portion_g": 180,
+ "country": "AT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Wiener schnitzel",
+   "origin": "Austria · Vienna",
+   "intro": "Wiener schnitzel is a thin veal cutlet, pounded flat, coated in flour, egg and fine breadcrumbs and fried until the crust puffs up and turns golden. The meat stays tender and juicy inside a light, crisp, slightly wavy coating. In Vienna it is served with a lemon wedge and usually potato salad, cucumber salad or parsley potatoes.",
+   "history": "Breaded, fried meat was known in several European cuisines, and the story that Field Marshal Radetzky brought the recipe from Milan in the 19th century is generally regarded as a legend. In Austria the name \"Wiener Schnitzel\" is legally reserved for veal; versions made from pork or chicken must be labelled differently. It remains one of the best-known dishes of Viennese cooking.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "4 veal cutlets, about 150 g each",
+     "60 g plain flour",
+     "2 eggs",
+     "100 g fine breadcrumbs",
+     "Salt and white pepper",
+     "Vegetable oil for shallow frying (about 300 ml)",
+     "1 lemon, cut into wedges",
+     "Parsley to garnish"
+    ],
+    "steps": [
+     "Place the cutlets between sheets of cling film and pound them to about 4 mm thick. Season with salt and pepper.",
+     "Set out three plates: flour, the eggs beaten with a pinch of salt, and breadcrumbs.",
+     "Dredge each cutlet in flour, dip in egg, then coat lightly in breadcrumbs without pressing them on.",
+     "Heat about 2 cm of oil in a wide pan to 170 °C. Fry the cutlets 2–3 minutes per side, gently swirling the pan so the oil washes over the top and the crust puffs.",
+     "Drain on paper towels and serve immediately with lemon wedges and parsley."
+    ]
+   },
+   "tips": [
+    "Most of the extra calories come from oil absorbed by the crust: fry at a steady 170 °C and drain well on paper towels.",
+    "For a lighter version, spray the breaded cutlets with oil and bake at 220 °C for about 15 minutes.",
+    "Pair it with cucumber salad or a green salad instead of fried potatoes."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Wiener schnitzel",
-      "origin": "Austria · Vienna",
-      "intro": "Wiener schnitzel is a thin veal cutlet, pounded flat, coated in flour, egg and fine breadcrumbs and fried until the crust puffs up and turns golden. The meat stays tender and juicy inside a light, crisp, slightly wavy coating. In Vienna it is served with a lemon wedge and usually potato salad, cucumber salad or parsley potatoes.",
-      "history": "Breaded, fried meat was known in several European cuisines, and the story that Field Marshal Radetzky brought the recipe from Milan in the 19th century is generally regarded as a legend. In Austria the name \"Wiener Schnitzel\" is legally reserved for veal; versions made from pork or chicken must be labelled differently. It remains one of the best-known dishes of Viennese cooking.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "4 veal cutlets, about 150 g each",
-          "60 g plain flour",
-          "2 eggs",
-          "100 g fine breadcrumbs",
-          "Salt and white pepper",
-          "Vegetable oil for shallow frying (about 300 ml)",
-          "1 lemon, cut into wedges",
-          "Parsley to garnish"
-        ],
-        "steps": [
-          "Place the cutlets between sheets of cling film and pound them to about 4 mm thick. Season with salt and pepper.",
-          "Set out three plates: flour, the eggs beaten with a pinch of salt, and breadcrumbs.",
-          "Dredge each cutlet in flour, dip in egg, then coat lightly in breadcrumbs without pressing them on.",
-          "Heat about 2 cm of oil in a wide pan to 170 °C. Fry the cutlets 2–3 minutes per side, gently swirling the pan so the oil washes over the top and the crust puffs.",
-          "Drain on paper towels and serve immediately with lemon wedges and parsley."
-        ]
-      },
-      "tips": [
-        "Most of the extra calories come from oil absorbed by the crust: fry at a steady 170 °C and drain well on paper towels.",
-        "For a lighter version, spray the breaded cutlets with oil and bake at 220 °C for about 15 minutes.",
-        "Pair it with cucumber salad or a green salad instead of fried potatoes."
-      ]
-    },
-    "ar": {
-      "name": "شنيتزل فيينا",
-      "origin": "النمسا · فيينا",
-      "intro": "شنيتزل فيينا شريحة رقيقة من لحم العجل تُرقَّق بالطرق ثم تُغطّى بالدقيق والبيض وفتات الخبز الناعم وتُقلى حتى تنتفخ القشرة وتصبح ذهبية. يبقى اللحم طريًا وغنيًا بالعصارة داخل غلاف خفيف ومقرمش ومموّج قليلًا. يُقدَّم في فيينا مع شريحة ليمون، وعادةً مع سلطة البطاطس أو سلطة الخيار أو البطاطس بالبقدونس.",
-      "history": "عرفت عدة مطابخ أوروبية اللحم المغطى بالفتات والمقلي، أما القصة التي تقول إن المارشال راديتسكي جلب الوصفة من ميلانو في القرن التاسع عشر فتُعدّ عمومًا أسطورة. وفي النمسا يقتصر اسم «شنيتزل فيينا» قانونيًا على لحم العجل، أما النسخ المصنوعة من لحوم أخرى أو الدجاج فيجب أن تحمل اسمًا مختلفًا. ولا يزال من أشهر أطباق المطبخ الفييني.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "4 شرائح لحم عجل، نحو 150 غ لكل منها",
-          "60 غ دقيق أبيض",
-          "2 بيضة",
-          "100 غ فتات خبز ناعم",
-          "ملح وفلفل أبيض",
-          "زيت نباتي للقلي (نحو 300 مل)",
-          "1 ليمونة مقطعة شرائح",
-          "بقدونس للتزيين"
-        ],
-        "steps": [
-          "ضع الشرائح بين طبقتين من الغلاف البلاستيكي واطرقها حتى تصبح بسماكة 4 مم تقريبًا. تبّلها بالملح والفلفل.",
-          "جهّز ثلاثة أطباق: الدقيق، والبيض المخفوق مع رشة ملح، وفتات الخبز.",
-          "مرّر كل شريحة في الدقيق ثم البيض ثم غطّها بالفتات برفق دون الضغط عليه.",
-          "سخّن زيتًا بعمق 2 سم تقريبًا في مقلاة واسعة إلى 170 °م. اقلِ الشرائح 2–3 دقائق لكل جانب مع تحريك المقلاة بلطف ليغمر الزيت السطح وتنتفخ القشرة.",
-          "صفِّها على ورق مطبخ وقدّمها فورًا مع شرائح الليمون والبقدونس."
-        ]
-      },
-      "tips": [
-        "معظم السعرات الإضافية تأتي من الزيت الذي تمتصه القشرة: حافظ على حرارة ثابتة 170 °م وصفِّ الشرائح جيدًا على ورق المطبخ.",
-        "لنسخة أخف، رشّ الشرائح المغطاة بقليل من الزيت واخبزها على 220 °م نحو 15 دقيقة.",
-        "قدّمها مع سلطة الخيار أو سلطة خضراء بدل البطاطس المقلية."
-      ]
-    },
-    "it": {
-      "name": "Wiener Schnitzel",
-      "origin": "Austria · Vienna",
-      "intro": "La Wiener Schnitzel è una sottile cotoletta di vitello, battuta, passata in farina, uovo e pangrattato fine e fritta finché la panatura si gonfia e diventa dorata. La carne resta tenera e succosa sotto una crosta leggera, croccante e leggermente ondulata. A Vienna si serve con uno spicchio di limone e di solito insalata di patate, insalata di cetrioli o patate al prezzemolo.",
-      "history": "La carne impanata e fritta era nota in diverse cucine europee, e la storia secondo cui il feldmaresciallo Radetzky avrebbe portato la ricetta da Milano nel XIX secolo è generalmente considerata una leggenda. In Austria il nome «Wiener Schnitzel» è riservato per legge al vitello; le versioni di maiale o pollo devono essere denominate diversamente. Resta uno dei piatti più noti della cucina viennese.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "4 fettine di vitello, circa 150 g ciascuna",
-          "60 g di farina 00",
-          "2 uova",
-          "100 g di pangrattato fine",
-          "Sale e pepe bianco",
-          "Olio vegetale per friggere in poco olio (circa 300 ml)",
-          "1 limone, a spicchi",
-          "Prezzemolo per guarnire"
-        ],
-        "steps": [
-          "Metti le fettine tra due fogli di pellicola e battile fino a uno spessore di circa 4 mm. Condisci con sale e pepe.",
-          "Prepara tre piatti: farina, uova sbattute con un pizzico di sale e pangrattato.",
-          "Passa ogni fettina nella farina, poi nell'uovo, poi ricoprila leggermente di pangrattato senza premere.",
-          "Scalda circa 2 cm di olio in una padella larga a 170 °C. Friggi le cotolette 2–3 minuti per lato, facendo oscillare delicatamente la padella in modo che l'olio bagni la superficie e la panatura si gonfi.",
-          "Scola su carta assorbente e servi subito con spicchi di limone e prezzemolo."
-        ]
-      },
-      "tips": [
-        "La maggior parte delle calorie in più viene dall'olio assorbito dalla panatura: friggi a 170 °C costanti e scola bene su carta assorbente.",
-        "Per una versione più leggera, spruzza d'olio le cotolette impanate e cuocile in forno a 220 °C per circa 15 minuti.",
-        "Abbinala a un'insalata di cetrioli o a un'insalata verde invece che alle patate fritte."
-      ]
-    },
-    "el": {
-      "name": "Σνίτσελ βιενέζ",
-      "name_inline": "σνίτσελ βιενέζ",
-      "origin": "Αυστρία · Βιέννη",
-      "intro": "Το σνίτσελ βιενέζ είναι μια λεπτή μοσχαρίσια κοτολέτα γάλακτος, χτυπημένη ώστε να λεπτύνει, περασμένη από αλεύρι, αυγό και ψιλή φρυγανιά και τηγανισμένη μέχρι η κρούστα να φουσκώσει και να ροδίσει. Το κρέας μένει τρυφερό και ζουμερό μέσα σε μια ελαφριά, τραγανή, ελαφρώς κυματιστή επικάλυψη. Στη Βιέννη σερβίρεται με ένα κομμάτι λεμόνι και συνήθως πατατοσαλάτα, σαλάτα αγγουριού ή πατάτες με μαϊντανό.",
-      "history": "Το παναρισμένο τηγανητό κρέας ήταν γνωστό σε αρκετές ευρωπαϊκές κουζίνες, και η ιστορία ότι ο στρατάρχης Ράντετσκι έφερε τη συνταγή από το Μιλάνο τον 19ο αιώνα θεωρείται γενικά θρύλος. Στην Αυστρία η ονομασία «Wiener Schnitzel» προορίζεται νομικά μόνο για μοσχαράκι γάλακτος· οι εκδοχές από χοιρινό ή κοτόπουλο πρέπει να ονομάζονται διαφορετικά. Παραμένει ένα από τα πιο γνωστά πιάτα της βιεννέζικης κουζίνας.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "4 μοσχαρίσιες κοτολέτες γάλακτος, περίπου 150 γρ. η καθεμία",
-          "60 γρ. αλεύρι για όλες τις χρήσεις",
-          "2 αυγά",
-          "100 γρ. ψιλή φρυγανιά",
-          "Αλάτι και λευκό πιπέρι",
-          "Φυτικό λάδι για ρηχό τηγάνισμα (περίπου 300 ml)",
-          "1 λεμόνι, σε κομμάτια",
-          "Μαϊντανός για γαρνίρισμα"
-        ],
-        "steps": [
-          "Βάλτε τις κοτολέτες ανάμεσα σε μεμβράνες και χτυπήστε τες μέχρι πάχος περίπου 4 χιλ. Αλατοπιπερώστε.",
-          "Ετοιμάστε τρία πιάτα: αλεύρι, τα αυγά χτυπημένα με μια πρέζα αλάτι και φρυγανιά.",
-          "Περάστε κάθε κοτολέτα από αλεύρι, βουτήξτε στο αυγό και καλύψτε ελαφρά με φρυγανιά χωρίς να πιέσετε.",
-          "Ζεστάνετε περίπου 2 εκ. λάδι σε φαρδύ τηγάνι στους 170 °C. Τηγανίστε τις κοτολέτες 2–3 λεπτά από κάθε πλευρά, κουνώντας απαλά το τηγάνι ώστε το λάδι να περνά πάνω από την επιφάνεια και η κρούστα να φουσκώνει.",
-          "Στραγγίξτε σε χαρτί κουζίνας και σερβίρετε αμέσως με κομμάτια λεμονιού και μαϊντανό."
-        ]
-      },
-      "tips": [
-        "Οι περισσότερες επιπλέον θερμίδες προέρχονται από το λάδι που απορροφά η κρούστα: τηγανίστε σε σταθερούς 170 °C και στραγγίξτε καλά σε χαρτί κουζίνας.",
-        "Για πιο ελαφριά εκδοχή, ψεκάστε τις παναρισμένες κοτολέτες με λάδι και ψήστε τες στους 220 °C για περίπου 15 λεπτά.",
-        "Συνοδέψτε με σαλάτα αγγουριού ή πράσινη σαλάτα αντί για τηγανητές πατάτες."
-      ]
-    },
-    "ru": {
-      "name": "Венский шницель",
-      "origin": "Австрия · Вена",
-      "intro": "Венский шницель — тонкая телячья отбивная, отбитая до плоскости, обвалянная в муке, яйце и мелких панировочных сухарях и обжаренная, пока корочка не вздуется и не станет золотистой. Мясо остаётся нежным и сочным внутри лёгкой, хрустящей, слегка волнистой панировки. В Вене его подают с долькой лимона и обычно с картофельным салатом, салатом из огурцов или картофелем с петрушкой.",
-      "history": "Панированное жареное мясо было известно в нескольких европейских кухнях, а история о том, что фельдмаршал Радецкий привёз рецепт из Милана в XIX веке, обычно считается легендой. В Австрии название «Wiener Schnitzel» юридически закреплено за телятиной; версии из свинины или курицы должны называться иначе. Это по-прежнему одно из самых известных блюд венской кухни.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "4 телячьи отбивные, по 150 г каждая",
-          "60 г пшеничной муки",
-          "2 яйца",
-          "100 г мелких панировочных сухарей",
-          "Соль и белый перец",
-          "Растительное масло для жарки (около 300 мл)",
-          "1 лимон, нарезанный дольками",
-          "Петрушка для украшения"
-        ],
-        "steps": [
-          "Положите отбивные между листами пищевой плёнки и отбейте до толщины около 4 мм. Посолите и поперчите.",
-          "Расставьте три тарелки: мука, яйца, взбитые со щепоткой соли, и панировочные сухари.",
-          "Обваляйте каждую отбивную в муке, обмакните в яйцо, затем слегка обваляйте в сухарях, не прижимая их.",
-          "Разогрейте около 2 см масла в широкой сковороде до 170 °C. Жарьте отбивные по 2–3 минуты с каждой стороны, осторожно покачивая сковороду, чтобы масло омывало верх и панировка вздувалась.",
-          "Дайте стечь на бумажных полотенцах и подавайте сразу с дольками лимона и петрушкой."
-        ]
-      },
-      "tips": [
-        "Большая часть дополнительных калорий — это масло, впитанное панировкой: жарьте при ровных 170 °C и хорошо промокайте бумажными полотенцами.",
-        "Для более лёгкой версии сбрызните панированные отбивные маслом и запекайте при 220 °C около 15 минут.",
-        "Сочетайте с салатом из огурцов или зелёным салатом вместо жареного картофеля."
-      ],
-      "name_inline": "венский шницель"
-    }
+  "ar": {
+   "name": "شنيتزل فيينا",
+   "origin": "النمسا · فيينا",
+   "intro": "شنيتزل فيينا شريحة رقيقة من لحم العجل تُرقَّق بالطرق ثم تُغطّى بالدقيق والبيض وفتات الخبز الناعم وتُقلى حتى تنتفخ القشرة وتصبح ذهبية. يبقى اللحم طريًا وغنيًا بالعصارة داخل غلاف خفيف ومقرمش ومموّج قليلًا. يُقدَّم في فيينا مع شريحة ليمون، وعادةً مع سلطة البطاطس أو سلطة الخيار أو البطاطس بالبقدونس.",
+   "history": "عرفت عدة مطابخ أوروبية اللحم المغطى بالفتات والمقلي، أما القصة التي تقول إن المارشال راديتسكي جلب الوصفة من ميلانو في القرن التاسع عشر فتُعدّ عمومًا أسطورة. وفي النمسا يقتصر اسم «شنيتزل فيينا» قانونيًا على لحم العجل، أما النسخ المصنوعة من لحوم أخرى أو الدجاج فيجب أن تحمل اسمًا مختلفًا. ولا يزال من أشهر أطباق المطبخ الفييني.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "4 شرائح لحم عجل، نحو 150 غ لكل منها",
+     "60 غ دقيق أبيض",
+     "2 بيضة",
+     "100 غ فتات خبز ناعم",
+     "ملح وفلفل أبيض",
+     "زيت نباتي للقلي (نحو 300 مل)",
+     "1 ليمونة مقطعة شرائح",
+     "بقدونس للتزيين"
+    ],
+    "steps": [
+     "ضع الشرائح بين طبقتين من الغلاف البلاستيكي واطرقها حتى تصبح بسماكة 4 مم تقريبًا. تبّلها بالملح والفلفل.",
+     "جهّز ثلاثة أطباق: الدقيق، والبيض المخفوق مع رشة ملح، وفتات الخبز.",
+     "مرّر كل شريحة في الدقيق ثم البيض ثم غطّها بالفتات برفق دون الضغط عليه.",
+     "سخّن زيتًا بعمق 2 سم تقريبًا في مقلاة واسعة إلى 170 °م. اقلِ الشرائح 2–3 دقائق لكل جانب مع تحريك المقلاة بلطف ليغمر الزيت السطح وتنتفخ القشرة.",
+     "صفِّها على ورق مطبخ وقدّمها فورًا مع شرائح الليمون والبقدونس."
+    ]
+   },
+   "tips": [
+    "معظم السعرات الإضافية تأتي من الزيت الذي تمتصه القشرة: حافظ على حرارة ثابتة 170 °م وصفِّ الشرائح جيدًا على ورق المطبخ.",
+    "لنسخة أخف، رشّ الشرائح المغطاة بقليل من الزيت واخبزها على 220 °م نحو 15 دقيقة.",
+    "قدّمها مع سلطة الخيار أو سلطة خضراء بدل البطاطس المقلية."
+   ]
+  },
+  "it": {
+   "name": "Wiener Schnitzel",
+   "origin": "Austria · Vienna",
+   "intro": "La Wiener Schnitzel è una sottile cotoletta di vitello, battuta, passata in farina, uovo e pangrattato fine e fritta finché la panatura si gonfia e diventa dorata. La carne resta tenera e succosa sotto una crosta leggera, croccante e leggermente ondulata. A Vienna si serve con uno spicchio di limone e di solito insalata di patate, insalata di cetrioli o patate al prezzemolo.",
+   "history": "La carne impanata e fritta era nota in diverse cucine europee, e la storia secondo cui il feldmaresciallo Radetzky avrebbe portato la ricetta da Milano nel XIX secolo è generalmente considerata una leggenda. In Austria il nome «Wiener Schnitzel» è riservato per legge al vitello; le versioni di maiale o pollo devono essere denominate diversamente. Resta uno dei piatti più noti della cucina viennese.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "4 fettine di vitello, circa 150 g ciascuna",
+     "60 g di farina 00",
+     "2 uova",
+     "100 g di pangrattato fine",
+     "Sale e pepe bianco",
+     "Olio vegetale per friggere in poco olio (circa 300 ml)",
+     "1 limone, a spicchi",
+     "Prezzemolo per guarnire"
+    ],
+    "steps": [
+     "Metti le fettine tra due fogli di pellicola e battile fino a uno spessore di circa 4 mm. Condisci con sale e pepe.",
+     "Prepara tre piatti: farina, uova sbattute con un pizzico di sale e pangrattato.",
+     "Passa ogni fettina nella farina, poi nell'uovo, poi ricoprila leggermente di pangrattato senza premere.",
+     "Scalda circa 2 cm di olio in una padella larga a 170 °C. Friggi le cotolette 2–3 minuti per lato, facendo oscillare delicatamente la padella in modo che l'olio bagni la superficie e la panatura si gonfi.",
+     "Scola su carta assorbente e servi subito con spicchi di limone e prezzemolo."
+    ]
+   },
+   "tips": [
+    "La maggior parte delle calorie in più viene dall'olio assorbito dalla panatura: friggi a 170 °C costanti e scola bene su carta assorbente.",
+    "Per una versione più leggera, spruzza d'olio le cotolette impanate e cuocile in forno a 220 °C per circa 15 minuti.",
+    "Abbinala a un'insalata di cetrioli o a un'insalata verde invece che alle patate fritte."
+   ]
+  },
+  "el": {
+   "name": "Σνίτσελ βιενέζ",
+   "name_inline": "σνίτσελ βιενέζ",
+   "origin": "Αυστρία · Βιέννη",
+   "intro": "Το σνίτσελ βιενέζ είναι μια λεπτή μοσχαρίσια κοτολέτα γάλακτος, χτυπημένη ώστε να λεπτύνει, περασμένη από αλεύρι, αυγό και ψιλή φρυγανιά και τηγανισμένη μέχρι η κρούστα να φουσκώσει και να ροδίσει. Το κρέας μένει τρυφερό και ζουμερό μέσα σε μια ελαφριά, τραγανή, ελαφρώς κυματιστή επικάλυψη. Στη Βιέννη σερβίρεται με ένα κομμάτι λεμόνι και συνήθως πατατοσαλάτα, σαλάτα αγγουριού ή πατάτες με μαϊντανό.",
+   "history": "Το παναρισμένο τηγανητό κρέας ήταν γνωστό σε αρκετές ευρωπαϊκές κουζίνες, και η ιστορία ότι ο στρατάρχης Ράντετσκι έφερε τη συνταγή από το Μιλάνο τον 19ο αιώνα θεωρείται γενικά θρύλος. Στην Αυστρία η ονομασία «Wiener Schnitzel» προορίζεται νομικά μόνο για μοσχαράκι γάλακτος· οι εκδοχές από χοιρινό ή κοτόπουλο πρέπει να ονομάζονται διαφορετικά. Παραμένει ένα από τα πιο γνωστά πιάτα της βιεννέζικης κουζίνας.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "4 μοσχαρίσιες κοτολέτες γάλακτος, περίπου 150 γρ. η καθεμία",
+     "60 γρ. αλεύρι για όλες τις χρήσεις",
+     "2 αυγά",
+     "100 γρ. ψιλή φρυγανιά",
+     "Αλάτι και λευκό πιπέρι",
+     "Φυτικό λάδι για ρηχό τηγάνισμα (περίπου 300 ml)",
+     "1 λεμόνι, σε κομμάτια",
+     "Μαϊντανός για γαρνίρισμα"
+    ],
+    "steps": [
+     "Βάλτε τις κοτολέτες ανάμεσα σε μεμβράνες και χτυπήστε τες μέχρι πάχος περίπου 4 χιλ. Αλατοπιπερώστε.",
+     "Ετοιμάστε τρία πιάτα: αλεύρι, τα αυγά χτυπημένα με μια πρέζα αλάτι και φρυγανιά.",
+     "Περάστε κάθε κοτολέτα από αλεύρι, βουτήξτε στο αυγό και καλύψτε ελαφρά με φρυγανιά χωρίς να πιέσετε.",
+     "Ζεστάνετε περίπου 2 εκ. λάδι σε φαρδύ τηγάνι στους 170 °C. Τηγανίστε τις κοτολέτες 2–3 λεπτά από κάθε πλευρά, κουνώντας απαλά το τηγάνι ώστε το λάδι να περνά πάνω από την επιφάνεια και η κρούστα να φουσκώνει.",
+     "Στραγγίξτε σε χαρτί κουζίνας και σερβίρετε αμέσως με κομμάτια λεμονιού και μαϊντανό."
+    ]
+   },
+   "tips": [
+    "Οι περισσότερες επιπλέον θερμίδες προέρχονται από το λάδι που απορροφά η κρούστα: τηγανίστε σε σταθερούς 170 °C και στραγγίξτε καλά σε χαρτί κουζίνας.",
+    "Για πιο ελαφριά εκδοχή, ψεκάστε τις παναρισμένες κοτολέτες με λάδι και ψήστε τες στους 220 °C για περίπου 15 λεπτά.",
+    "Συνοδέψτε με σαλάτα αγγουριού ή πράσινη σαλάτα αντί για τηγανητές πατάτες."
+   ]
+  },
+  "ru": {
+   "name": "Венский шницель",
+   "origin": "Австрия · Вена",
+   "intro": "Венский шницель — тонкая телячья отбивная, отбитая до плоскости, обвалянная в муке, яйце и мелких панировочных сухарях и обжаренная, пока корочка не вздуется и не станет золотистой. Мясо остаётся нежным и сочным внутри лёгкой, хрустящей, слегка волнистой панировки. В Вене его подают с долькой лимона и обычно с картофельным салатом, салатом из огурцов или картофелем с петрушкой.",
+   "history": "Панированное жареное мясо было известно в нескольких европейских кухнях, а история о том, что фельдмаршал Радецкий привёз рецепт из Милана в XIX веке, обычно считается легендой. В Австрии название «Wiener Schnitzel» юридически закреплено за телятиной; версии из свинины или курицы должны называться иначе. Это по-прежнему одно из самых известных блюд венской кухни.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "4 телячьи отбивные, по 150 г каждая",
+     "60 г пшеничной муки",
+     "2 яйца",
+     "100 г мелких панировочных сухарей",
+     "Соль и белый перец",
+     "Растительное масло для жарки (около 300 мл)",
+     "1 лимон, нарезанный дольками",
+     "Петрушка для украшения"
+    ],
+    "steps": [
+     "Положите отбивные между листами пищевой плёнки и отбейте до толщины около 4 мм. Посолите и поперчите.",
+     "Расставьте три тарелки: мука, яйца, взбитые со щепоткой соли, и панировочные сухари.",
+     "Обваляйте каждую отбивную в муке, обмакните в яйцо, затем слегка обваляйте в сухарях, не прижимая их.",
+     "Разогрейте около 2 см масла в широкой сковороде до 170 °C. Жарьте отбивные по 2–3 минуты с каждой стороны, осторожно покачивая сковороду, чтобы масло омывало верх и панировка вздувалась.",
+     "Дайте стечь на бумажных полотенцах и подавайте сразу с дольками лимона и петрушкой."
+    ]
+   },
+   "tips": [
+    "Большая часть дополнительных калорий — это масло, впитанное панировкой: жарьте при ровных 170 °C и хорошо промокайте бумажными полотенцами.",
+    "Для более лёгкой версии сбрызните панированные отбивные маслом и запекайте при 220 °C около 15 минут.",
+    "Сочетайте с салатом из огурцов или зелёным салатом вместо жареного картофеля."
+   ],
+   "name_inline": "венский шницель"
+  },
+  "es": {
+   "name": "Schnitzel vienés",
+   "origin": "Austria · Viena",
+   "intro": "El schnitzel vienés (Wiener Schnitzel) es una chuleta fina de ternera, aplanada, pasada por harina, huevo y pan molido fino, y frita hasta que la costra se infla y se dora. La carne queda tierna y jugosa dentro de un empanizado ligero, crujiente y ligeramente ondulado. En Viena se sirve con un gajo de limón y normalmente con ensalada de papa, ensalada de pepino o papas al perejil.",
+   "history": "La carne empanizada y frita se conocía en varias cocinas europeas, y la historia de que el mariscal Radetzky trajo la receta de Milán en el siglo XIX se considera generalmente una leyenda. En Austria el nombre «Wiener Schnitzel» está legalmente reservado a la ternera; las versiones de cerdo o pollo deben etiquetarse de otra forma. Sigue siendo uno de los platos más conocidos de la cocina vienesa.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "4 chuletas de ternera, de unos 150 g cada una",
+     "60 g de harina",
+     "2 huevos",
+     "100 g de pan molido fino",
+     "Sal y pimienta blanca",
+     "Aceite vegetal para freír en poco aceite (unos 300 ml)",
+     "1 limón, en gajos",
+     "Perejil para decorar"
+    ],
+    "steps": [
+     "Coloca las chuletas entre dos láminas de plástico film y aplánalas hasta unos 4 mm de grosor. Sazona con sal y pimienta.",
+     "Prepara tres platos: harina, los huevos batidos con una pizca de sal y el pan molido.",
+     "Pasa cada chuleta por harina, luego por huevo y después empaniza ligeramente con el pan molido sin presionarlo.",
+     "Calienta unos 2 cm de aceite en una sartén ancha a 170 °C. Fríe las chuletas de 2 a 3 minutos por lado, moviendo suavemente la sartén para que el aceite bañe la superficie y la costra se infle.",
+     "Escurre sobre papel absorbente y sirve de inmediato con gajos de limón y perejil."
+    ]
+   },
+   "tips": [
+    "La mayoría de las calorías extra vienen del aceite que absorbe la costra: fríe a 170 °C constantes y escurre bien sobre papel absorbente.",
+    "Para una versión más ligera, rocía las chuletas empanizadas con aceite y hornea a 220 °C unos 15 minutos.",
+    "Acompáñalo con ensalada de pepino o ensalada verde en lugar de papas fritas."
+   ],
+   "name_inline": "el schnitzel vienés"
   }
+ }
 }

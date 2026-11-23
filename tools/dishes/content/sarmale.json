@@ -1,181 +1,215 @@
 {
-  "db_key": "sarmale",
-  "slug": "sarmale",
-  "emoji": "🥬",
-  "portion_g": 300,
-  "country": "RO",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "sarmale",
+ "slug": "sarmale",
+ "emoji": "🥬",
+ "portion_g": 300,
+ "country": "RO",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Sarmale (Romanian cabbage rolls)",
+   "origin": "Romania",
+   "intro": "Sarmale are Romania's beloved cabbage rolls: cabbage leaves wrapped around a filling of ground pork and rice, braised slowly in a tomato sauce until meltingly tender. The result is rich, tangy and gently herby. They are served hot with a generous spoonful of sour cream and are a must on the table at Christmas, Easter and weddings.",
+   "history": "Sarmale arrived in Romania with Ottoman cuisine — the name shares a root with the Turkish sarma, 'wrapped' — and were adapted with pork and local cabbage. They are often described as Romania's national dish and are central to holiday meals.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 large head of cabbage (fresh or soured), leaves separated",
+     "600 g ground pork",
+     "100 g rice, rinsed",
+     "1 onion, finely chopped",
+     "400 g chopped tomatoes",
+     "1 tbsp vegetable oil",
+     "Dried thyme, dill, salt and pepper",
+     "150 g sour cream to serve"
+    ],
+    "steps": [
+     "If using fresh cabbage, blanch the leaves for 2–3 minutes until pliable.",
+     "Soften the onion in the oil, then mix with the pork, rice, thyme, salt and pepper.",
+     "Roll a spoonful of filling in each leaf, tucking in the sides.",
+     "Pack the rolls into a pot, pour over the tomatoes and enough water to just cover.",
+     "Cover and braise on low heat or in a 160 °C oven for 2.5–3 hours.",
+     "Serve hot, sprinkled with dill, with sour cream on the side."
+    ]
+   },
+   "tips": [
+    "Use lean ground pork or trim fatty mince to cut calories.",
+    "Take a teaspoon of sour cream instead of a heaped spoonful.",
+    "Serve three rolls with a salad rather than with polenta."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Sarmale (Romanian cabbage rolls)",
-      "origin": "Romania",
-      "intro": "Sarmale are Romania's beloved cabbage rolls: cabbage leaves wrapped around a filling of ground pork and rice, braised slowly in a tomato sauce until meltingly tender. The result is rich, tangy and gently herby. They are served hot with a generous spoonful of sour cream and are a must on the table at Christmas, Easter and weddings.",
-      "history": "Sarmale arrived in Romania with Ottoman cuisine — the name shares a root with the Turkish sarma, 'wrapped' — and were adapted with pork and local cabbage. They are often described as Romania's national dish and are central to holiday meals.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 large head of cabbage (fresh or soured), leaves separated",
-          "600 g ground pork",
-          "100 g rice, rinsed",
-          "1 onion, finely chopped",
-          "400 g chopped tomatoes",
-          "1 tbsp vegetable oil",
-          "Dried thyme, dill, salt and pepper",
-          "150 g sour cream to serve"
-        ],
-        "steps": [
-          "If using fresh cabbage, blanch the leaves for 2–3 minutes until pliable.",
-          "Soften the onion in the oil, then mix with the pork, rice, thyme, salt and pepper.",
-          "Roll a spoonful of filling in each leaf, tucking in the sides.",
-          "Pack the rolls into a pot, pour over the tomatoes and enough water to just cover.",
-          "Cover and braise on low heat or in a 160 °C oven for 2.5–3 hours.",
-          "Serve hot, sprinkled with dill, with sour cream on the side."
-        ]
-      },
-      "tips": [
-        "Use lean ground pork or trim fatty mince to cut calories.",
-        "Take a teaspoon of sour cream instead of a heaped spoonful.",
-        "Serve three rolls with a salad rather than with polenta."
-      ]
-    },
-    "ar": {
-      "name": "سارمالي (لفائف الملفوف الرومانية)",
-      "origin": "رومانيا",
-      "intro": "السارمالي لفائف الملفوف المحبوبة في رومانيا: أوراق ملفوف تُلف حول حشو من لحم الخنزير المفروم والأرز، وتُطهى ببطء في صلصة الطماطم حتى تذوب طراوة. النتيجة غنية وحامضة بنكهة أعشاب خفيفة. تُقدَّم ساخنة مع ملعقة وافرة من القشدة الحامضة، وهي طبق لا غنى عنه في عيد الميلاد والفصح والأعراس.",
-      "history": "وصلت السارمالي إلى رومانيا مع المطبخ العثماني، إذ يشترك اسمها في الجذر مع الكلمة التركية «صارما» أي «ملفوف»، ثم تكيّفت مع لحم الخنزير والملفوف المحلي. وكثيرًا ما توصف بأنها الطبق الوطني لرومانيا، وهي أساسية في وجبات الأعياد.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "رأس ملفوف كبير (طازج أو مخلل)، أوراقه مفصولة",
-          "600 غ لحم خنزير مفروم",
-          "100 غ أرز مغسول",
-          "بصلة مفرومة ناعمًا",
-          "400 غ طماطم مقطعة",
-          "1 ملعقة كبيرة زيت نباتي",
-          "زعتر مجفف وشبت وملح وفلفل",
-          "150 غ قشدة حامضة للتقديم"
-        ],
-        "steps": [
-          "إذا استخدمت ملفوفًا طازجًا فاسلق أوراقه 2–3 دقائق حتى تلين.",
-          "ليّن البصل في الزيت ثم اخلطه مع اللحم والأرز والزعتر والملح والفلفل.",
-          "لُفّ ملعقة من الحشو في كل ورقة مع طيّ الجانبين.",
-          "رُصّ اللفائف في قدر، واسكب فوقها الطماطم وما يكفي من الماء لتغطيتها بالكاد.",
-          "غطِّ القدر واطهها على نار هادئة أو في فرن 160 °م لمدة 2.5–3 ساعات.",
-          "قدّمها ساخنة مرشوشة بالشبت مع القشدة الحامضة جانبًا."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن لتقليل السعرات.",
-        "خذ ملعقة صغيرة من القشدة الحامضة بدل ملعقة ممتلئة.",
-        "قدّم ثلاث لفائف مع سلطة بدل العصيدة."
-      ]
-    },
-    "it": {
-      "name": "Sarmale (involtini di cavolo romeni)",
-      "name_inline": "sarmale",
-      "origin": "Romania",
-      "intro": "I sarmale sono gli amatissimi involtini di cavolo della Romania: foglie di cavolo che avvolgono un ripieno di maiale macinato e riso, brasati lentamente in salsa di pomodoro finché diventano tenerissimi. Il risultato è ricco, acidulo e delicatamente aromatico. Si servono caldi con una generosa cucchiaiata di panna acida e non possono mancare in tavola a Natale, a Pasqua e ai matrimoni.",
-      "history": "I sarmale arrivarono in Romania con la cucina ottomana (il nome ha la stessa radice del turco sarma, «avvolto») e furono adattati con il maiale e il cavolo locale. Sono spesso descritti come il piatto nazionale della Romania e sono centrali nei pranzi delle feste.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 cavolo grande (fresco o fermentato), foglie separate",
-          "600 g di maiale macinato",
-          "100 g di riso, sciacquato",
-          "1 cipolla, tritata finemente",
-          "400 g di pomodori a pezzi",
-          "1 cucchiaio di olio di semi",
-          "Timo essiccato, aneto, sale e pepe",
-          "150 g di panna acida per servire"
-        ],
-        "steps": [
-          "Se usi cavolo fresco, sbollenta le foglie per 2–3 minuti finché diventano flessibili.",
-          "Fai appassire la cipolla nell'olio, poi mescolala con il maiale, il riso, il timo, il sale e il pepe.",
-          "Arrotola un cucchiaio di ripieno in ogni foglia, ripiegando i lati.",
-          "Sistema gli involtini ben stretti in una pentola, versaci sopra i pomodori e acqua quanto basta per coprirli appena.",
-          "Copri e brasa a fuoco basso o in forno a 160 °C per 2 ore e mezza–3 ore.",
-          "Servi caldi, cosparsi di aneto, con la panna acida a parte."
-        ]
-      },
-      "tips": [
-        "Usa maiale macinato magro o elimina il grasso dalla carne macinata grassa per ridurre le calorie.",
-        "Prendi un cucchiaino di panna acida invece di un cucchiaio colmo.",
-        "Servi tre involtini con un'insalata invece che con la polenta."
-      ]
-    },
-    "el": {
-      "name": "Σαρμάλε (ρουμανικοί λαχανοντολμάδες)",
-      "name_inline": "σαρμάλε",
-      "origin": "Ρουμανία",
-      "intro": "Τα σαρμάλε είναι οι αγαπημένοι λαχανοντολμάδες της Ρουμανίας: φύλλα λάχανου τυλιγμένα γύρω από γέμιση με χοιρινό κιμά και ρύζι, που σιγοψήνονται σε σάλτσα ντομάτας μέχρι να λιώνουν. Το αποτέλεσμα είναι πλούσιο, ξινούτσικο και διακριτικά αρωματισμένο με μυρωδικά. Σερβίρονται ζεστά με μια γενναία κουταλιά ξινή κρέμα και δεν λείπουν από το τραπέζι τα Χριστούγεννα, το Πάσχα και στους γάμους.",
-      "history": "Τα σαρμάλε έφτασαν στη Ρουμανία με την οθωμανική κουζίνα — το όνομα έχει την ίδια ρίζα με το τουρκικό sarma, «τυλιγμένο» — και προσαρμόστηκαν με χοιρινό και ντόπιο λάχανο. Συχνά περιγράφονται ως το εθνικό φαγητό της Ρουμανίας και έχουν κεντρική θέση στα γιορτινά γεύματα.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 μεγάλο λάχανο (φρέσκο ή ξινολάχανο), με τα φύλλα χωρισμένα",
-          "600 γρ. χοιρινός κιμάς",
-          "100 γρ. ρύζι, ξεπλυμένο",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "400 γρ. ντομάτες ψιλοκομμένες",
-          "1 κ.σ. φυτικό λάδι",
-          "Ξερό θυμάρι, άνηθος, αλάτι και πιπέρι",
-          "150 γρ. ξινή κρέμα για το σερβίρισμα"
-        ],
-        "steps": [
-          "Αν χρησιμοποιείτε φρέσκο λάχανο, ζεματίστε τα φύλλα για 2–3 λεπτά μέχρι να μαλακώσουν.",
-          "Μαλακώστε το κρεμμύδι στο λάδι και ανακατέψτε το με τον κιμά, το ρύζι, το θυμάρι, το αλάτι και το πιπέρι.",
-          "Τυλίξτε μια κουταλιά γέμιση σε κάθε φύλλο, διπλώνοντας τα πλαϊνά προς τα μέσα.",
-          "Τοποθετήστε τα ρολά σφιχτά σε κατσαρόλα, ρίξτε από πάνω τις ντομάτες και όσο νερό χρειάζεται για να σκεπαστούν μόλις.",
-          "Σκεπάστε και σιγομαγειρέψτε σε χαμηλή φωτιά ή σε φούρνο στους 160 °C για 2,5–3 ώρες.",
-          "Σερβίρετε ζεστά, πασπαλισμένα με άνηθο, με την ξινή κρέμα στο πλάι."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή αφαιρέστε το λίπος από λιπαρό κιμά για να μειώσετε τις θερμίδες.",
-        "Πάρτε ένα κουταλάκι ξινή κρέμα αντί για μια γεμάτη κουταλιά.",
-        "Σερβίρετε τρία ρολά με σαλάτα αντί για πολέντα."
-      ]
-    },
-    "ru": {
-      "name": "Сармале (румынские голубцы)",
-      "origin": "Румыния",
-      "intro": "Сармале — любимые румынские голубцы: капустные листья с начинкой из свиного фарша и риса, медленно тушённые в томатном соусе до таяния во рту. Получается насыщенно, с кислинкой и лёгким ароматом трав. Их подают горячими с щедрой ложкой сметаны, и они обязательно присутствуют на столе на Рождество, Пасху и свадьбы.",
-      "history": "Сармале пришли в Румынию с османской кухней — название имеет общий корень с турецким sarma, «завёрнутое», — и были адаптированы с использованием свинины и местной капусты. Их часто называют национальным блюдом Румынии, и они занимают центральное место в праздничных застольях.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "1 крупный кочан капусты (свежей или квашеной), разобранный на листья",
-          "600 г свиного фарша",
-          "100 г риса, промытого",
-          "1 луковица, мелко нарубленная",
-          "400 г рубленых помидоров",
-          "1 ст. л. растительного масла",
-          "Сушёный тимьян, укроп, соль и перец",
-          "150 г сметаны для подачи"
-        ],
-        "steps": [
-          "Если используете свежую капусту, бланшируйте листья 2–3 минуты, пока они не станут гибкими.",
-          "Обжарьте лук в масле до мягкости, затем смешайте со свининой, рисом, тимьяном, солью и перцем.",
-          "Заверните в каждый лист ложку начинки, подогнув края.",
-          "Плотно уложите рулетики в кастрюлю, залейте помидорами и водой так, чтобы она едва покрывала их.",
-          "Накройте крышкой и тушите на слабом огне или в духовке при 160 °C 2,5–3 часа.",
-          "Подавайте горячими, посыпав укропом, со сметаной отдельно."
-        ]
-      },
-      "tips": [
-        "Используйте нежирный свиной фарш или срежьте жир с жирного, чтобы снизить калорийность.",
-        "Возьмите чайную ложку сметаны, а не ложку с горкой.",
-        "Подайте три рулетика с салатом, а не с мамалыгой."
-      ]
-    }
+  "ar": {
+   "name": "سارمالي (لفائف الملفوف الرومانية)",
+   "origin": "رومانيا",
+   "intro": "السارمالي لفائف الملفوف المحبوبة في رومانيا: أوراق ملفوف تُلف حول حشو من لحم الخنزير المفروم والأرز، وتُطهى ببطء في صلصة الطماطم حتى تذوب طراوة. النتيجة غنية وحامضة بنكهة أعشاب خفيفة. تُقدَّم ساخنة مع ملعقة وافرة من القشدة الحامضة، وهي طبق لا غنى عنه في عيد الميلاد والفصح والأعراس.",
+   "history": "وصلت السارمالي إلى رومانيا مع المطبخ العثماني، إذ يشترك اسمها في الجذر مع الكلمة التركية «صارما» أي «ملفوف»، ثم تكيّفت مع لحم الخنزير والملفوف المحلي. وكثيرًا ما توصف بأنها الطبق الوطني لرومانيا، وهي أساسية في وجبات الأعياد.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "رأس ملفوف كبير (طازج أو مخلل)، أوراقه مفصولة",
+     "600 غ لحم خنزير مفروم",
+     "100 غ أرز مغسول",
+     "بصلة مفرومة ناعمًا",
+     "400 غ طماطم مقطعة",
+     "1 ملعقة كبيرة زيت نباتي",
+     "زعتر مجفف وشبت وملح وفلفل",
+     "150 غ قشدة حامضة للتقديم"
+    ],
+    "steps": [
+     "إذا استخدمت ملفوفًا طازجًا فاسلق أوراقه 2–3 دقائق حتى تلين.",
+     "ليّن البصل في الزيت ثم اخلطه مع اللحم والأرز والزعتر والملح والفلفل.",
+     "لُفّ ملعقة من الحشو في كل ورقة مع طيّ الجانبين.",
+     "رُصّ اللفائف في قدر، واسكب فوقها الطماطم وما يكفي من الماء لتغطيتها بالكاد.",
+     "غطِّ القدر واطهها على نار هادئة أو في فرن 160 °م لمدة 2.5–3 ساعات.",
+     "قدّمها ساخنة مرشوشة بالشبت مع القشدة الحامضة جانبًا."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن لتقليل السعرات.",
+    "خذ ملعقة صغيرة من القشدة الحامضة بدل ملعقة ممتلئة.",
+    "قدّم ثلاث لفائف مع سلطة بدل العصيدة."
+   ]
+  },
+  "it": {
+   "name": "Sarmale (involtini di cavolo romeni)",
+   "name_inline": "sarmale",
+   "origin": "Romania",
+   "intro": "I sarmale sono gli amatissimi involtini di cavolo della Romania: foglie di cavolo che avvolgono un ripieno di maiale macinato e riso, brasati lentamente in salsa di pomodoro finché diventano tenerissimi. Il risultato è ricco, acidulo e delicatamente aromatico. Si servono caldi con una generosa cucchiaiata di panna acida e non possono mancare in tavola a Natale, a Pasqua e ai matrimoni.",
+   "history": "I sarmale arrivarono in Romania con la cucina ottomana (il nome ha la stessa radice del turco sarma, «avvolto») e furono adattati con il maiale e il cavolo locale. Sono spesso descritti come il piatto nazionale della Romania e sono centrali nei pranzi delle feste.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 cavolo grande (fresco o fermentato), foglie separate",
+     "600 g di maiale macinato",
+     "100 g di riso, sciacquato",
+     "1 cipolla, tritata finemente",
+     "400 g di pomodori a pezzi",
+     "1 cucchiaio di olio di semi",
+     "Timo essiccato, aneto, sale e pepe",
+     "150 g di panna acida per servire"
+    ],
+    "steps": [
+     "Se usi cavolo fresco, sbollenta le foglie per 2–3 minuti finché diventano flessibili.",
+     "Fai appassire la cipolla nell'olio, poi mescolala con il maiale, il riso, il timo, il sale e il pepe.",
+     "Arrotola un cucchiaio di ripieno in ogni foglia, ripiegando i lati.",
+     "Sistema gli involtini ben stretti in una pentola, versaci sopra i pomodori e acqua quanto basta per coprirli appena.",
+     "Copri e brasa a fuoco basso o in forno a 160 °C per 2 ore e mezza–3 ore.",
+     "Servi caldi, cosparsi di aneto, con la panna acida a parte."
+    ]
+   },
+   "tips": [
+    "Usa maiale macinato magro o elimina il grasso dalla carne macinata grassa per ridurre le calorie.",
+    "Prendi un cucchiaino di panna acida invece di un cucchiaio colmo.",
+    "Servi tre involtini con un'insalata invece che con la polenta."
+   ]
+  },
+  "el": {
+   "name": "Σαρμάλε (ρουμανικοί λαχανοντολμάδες)",
+   "name_inline": "σαρμάλε",
+   "origin": "Ρουμανία",
+   "intro": "Τα σαρμάλε είναι οι αγαπημένοι λαχανοντολμάδες της Ρουμανίας: φύλλα λάχανου τυλιγμένα γύρω από γέμιση με χοιρινό κιμά και ρύζι, που σιγοψήνονται σε σάλτσα ντομάτας μέχρι να λιώνουν. Το αποτέλεσμα είναι πλούσιο, ξινούτσικο και διακριτικά αρωματισμένο με μυρωδικά. Σερβίρονται ζεστά με μια γενναία κουταλιά ξινή κρέμα και δεν λείπουν από το τραπέζι τα Χριστούγεννα, το Πάσχα και στους γάμους.",
+   "history": "Τα σαρμάλε έφτασαν στη Ρουμανία με την οθωμανική κουζίνα — το όνομα έχει την ίδια ρίζα με το τουρκικό sarma, «τυλιγμένο» — και προσαρμόστηκαν με χοιρινό και ντόπιο λάχανο. Συχνά περιγράφονται ως το εθνικό φαγητό της Ρουμανίας και έχουν κεντρική θέση στα γιορτινά γεύματα.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 μεγάλο λάχανο (φρέσκο ή ξινολάχανο), με τα φύλλα χωρισμένα",
+     "600 γρ. χοιρινός κιμάς",
+     "100 γρ. ρύζι, ξεπλυμένο",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "400 γρ. ντομάτες ψιλοκομμένες",
+     "1 κ.σ. φυτικό λάδι",
+     "Ξερό θυμάρι, άνηθος, αλάτι και πιπέρι",
+     "150 γρ. ξινή κρέμα για το σερβίρισμα"
+    ],
+    "steps": [
+     "Αν χρησιμοποιείτε φρέσκο λάχανο, ζεματίστε τα φύλλα για 2–3 λεπτά μέχρι να μαλακώσουν.",
+     "Μαλακώστε το κρεμμύδι στο λάδι και ανακατέψτε το με τον κιμά, το ρύζι, το θυμάρι, το αλάτι και το πιπέρι.",
+     "Τυλίξτε μια κουταλιά γέμιση σε κάθε φύλλο, διπλώνοντας τα πλαϊνά προς τα μέσα.",
+     "Τοποθετήστε τα ρολά σφιχτά σε κατσαρόλα, ρίξτε από πάνω τις ντομάτες και όσο νερό χρειάζεται για να σκεπαστούν μόλις.",
+     "Σκεπάστε και σιγομαγειρέψτε σε χαμηλή φωτιά ή σε φούρνο στους 160 °C για 2,5–3 ώρες.",
+     "Σερβίρετε ζεστά, πασπαλισμένα με άνηθο, με την ξινή κρέμα στο πλάι."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο χοιρινό κιμά ή αφαιρέστε το λίπος από λιπαρό κιμά για να μειώσετε τις θερμίδες.",
+    "Πάρτε ένα κουταλάκι ξινή κρέμα αντί για μια γεμάτη κουταλιά.",
+    "Σερβίρετε τρία ρολά με σαλάτα αντί για πολέντα."
+   ]
+  },
+  "ru": {
+   "name": "Сармале (румынские голубцы)",
+   "origin": "Румыния",
+   "intro": "Сармале — любимые румынские голубцы: капустные листья с начинкой из свиного фарша и риса, медленно тушённые в томатном соусе до таяния во рту. Получается насыщенно, с кислинкой и лёгким ароматом трав. Их подают горячими с щедрой ложкой сметаны, и они обязательно присутствуют на столе на Рождество, Пасху и свадьбы.",
+   "history": "Сармале пришли в Румынию с османской кухней — название имеет общий корень с турецким sarma, «завёрнутое», — и были адаптированы с использованием свинины и местной капусты. Их часто называют национальным блюдом Румынии, и они занимают центральное место в праздничных застольях.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 крупный кочан капусты (свежей или квашеной), разобранный на листья",
+     "600 г свиного фарша",
+     "100 г риса, промытого",
+     "1 луковица, мелко нарубленная",
+     "400 г рубленых помидоров",
+     "1 ст. л. растительного масла",
+     "Сушёный тимьян, укроп, соль и перец",
+     "150 г сметаны для подачи"
+    ],
+    "steps": [
+     "Если используете свежую капусту, бланшируйте листья 2–3 минуты, пока они не станут гибкими.",
+     "Обжарьте лук в масле до мягкости, затем смешайте со свининой, рисом, тимьяном, солью и перцем.",
+     "Заверните в каждый лист ложку начинки, подогнув края.",
+     "Плотно уложите рулетики в кастрюлю, залейте помидорами и водой так, чтобы она едва покрывала их.",
+     "Накройте крышкой и тушите на слабом огне или в духовке при 160 °C 2,5–3 часа.",
+     "Подавайте горячими, посыпав укропом, со сметаной отдельно."
+    ]
+   },
+   "tips": [
+    "Используйте нежирный свиной фарш или срежьте жир с жирного, чтобы снизить калорийность.",
+    "Возьмите чайную ложку сметаны, а не ложку с горкой.",
+    "Подайте три рулетика с салатом, а не с мамалыгой."
+   ]
+  },
+  "es": {
+   "name": "Sarmale (rollos de repollo rumanos)",
+   "origin": "Rumania",
+   "intro": "Los sarmale son los queridos rollos de repollo de Rumania: hojas de repollo envueltas alrededor de un relleno de carne de cerdo molida y arroz, cocidas lentamente en salsa de tomate hasta quedar muy tiernas. El resultado es sabroso, ligeramente ácido y con suaves notas de hierbas. Se sirven calientes con una generosa cucharada de crema ácida y no faltan en la mesa de Navidad, Pascua y las bodas.",
+   "history": "Los sarmale llegaron a Rumania con la cocina otomana (el nombre comparte raíz con el turco sarma, 'envuelto') y se adaptaron con cerdo y repollo local. A menudo se describen como el plato nacional de Rumania y son centrales en las comidas de las fiestas.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "1 repollo grande (fresco o fermentado), con las hojas separadas",
+     "600 g de carne molida de cerdo",
+     "100 g de arroz, enjuagado",
+     "1 cebolla, finamente picada",
+     "400 g de jitomates picados",
+     "1 cda. de aceite vegetal",
+     "Tomillo seco, eneldo, sal y pimienta",
+     "150 g de crema ácida para servir"
+    ],
+    "steps": [
+     "Si usas repollo fresco, escalda las hojas de 2 a 3 minutos hasta que estén flexibles.",
+     "Sofríe la cebolla en el aceite hasta que se suavice y mézclala con el cerdo, el arroz, el tomillo, la sal y la pimienta.",
+     "Enrolla una cucharada de relleno en cada hoja, doblando los lados hacia adentro.",
+     "Acomoda los rollos en una olla, vierte los jitomates y agua suficiente para cubrirlos apenas.",
+     "Tapa y cocina a fuego bajo, o en el horno a 160 °C, de 2,5 a 3 horas.",
+     "Sirve caliente, espolvoreado con eneldo y con la crema ácida aparte."
+    ]
+   },
+   "tips": [
+    "Usa carne de cerdo molida magra o quita el exceso de grasa para reducir las calorías.",
+    "Toma una cucharadita de crema ácida en lugar de una cucharada colmada.",
+    "Sirve tres rollos con una ensalada en lugar de acompañarlos con polenta."
+   ],
+   "name_inline": "los sarmale"
   }
+ }
 }

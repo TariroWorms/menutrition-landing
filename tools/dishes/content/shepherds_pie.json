@@ -1,171 +1,203 @@
 {
-  "db_key": "shepherds_pie",
-  "slug": "shepherds-pie",
-  "emoji": "🥧",
-  "portion_g": 350,
-  "country": "GB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "shepherds_pie",
+ "slug": "shepherds-pie",
+ "emoji": "🥧",
+ "portion_g": 350,
+ "country": "GB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Shepherd's pie",
+   "origin": "United Kingdom · Britain and Ireland",
+   "intro": "Shepherd's pie is a baked dish of minced lamb cooked with onion, carrot and peas, topped with a thick layer of buttery mashed potato. In the oven the topping turns golden and crisp at the ridges while the filling stays savoury and soft underneath. It is a classic family dinner, served hot straight from the dish.",
+   "history": "Pies of minced meat topped with potato appeared in Britain and Ireland in the late 18th and 19th centuries as a way to use leftover roast meat. The name shepherd's pie is generally used for the lamb version, while the beef version is called cottage pie. Today it is a staple of British home cooking and pub menus.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 g minced lamb",
+     "1 onion, chopped",
+     "2 carrots, diced",
+     "150 g frozen peas",
+     "1 tbsp tomato paste, 300 ml water, thyme, salt and pepper",
+     "1 kg floury potatoes",
+     "30 g butter"
+    ],
+    "steps": [
+     "Boil the potatoes in salted water until soft, drain and mash with the butter and a little cooking water.",
+     "Brown the lamb in a dry pan, drain off the fat, then add the onion and carrot and cook for 5 minutes.",
+     "Add the tomato paste, thyme and water and simmer for 20 minutes; stir in the peas.",
+     "Spoon the filling into a baking dish, cover with mash and rough up the top with a fork.",
+     "Bake at 200 °C for 25 minutes until golden."
+    ]
+   },
+   "tips": [
+    "Drain the fat from the lamb after browning.",
+    "Use half the butter in the mash and loosen it with potato cooking water instead.",
+    "Bulk up the filling with more carrot and peas and serve with green vegetables."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Shepherd's pie",
-      "origin": "United Kingdom · Britain and Ireland",
-      "intro": "Shepherd's pie is a baked dish of minced lamb cooked with onion, carrot and peas, topped with a thick layer of buttery mashed potato. In the oven the topping turns golden and crisp at the ridges while the filling stays savoury and soft underneath. It is a classic family dinner, served hot straight from the dish.",
-      "history": "Pies of minced meat topped with potato appeared in Britain and Ireland in the late 18th and 19th centuries as a way to use leftover roast meat. The name shepherd's pie is generally used for the lamb version, while the beef version is called cottage pie. Today it is a staple of British home cooking and pub menus.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 g minced lamb",
-          "1 onion, chopped",
-          "2 carrots, diced",
-          "150 g frozen peas",
-          "1 tbsp tomato paste, 300 ml water, thyme, salt and pepper",
-          "1 kg floury potatoes",
-          "30 g butter"
-        ],
-        "steps": [
-          "Boil the potatoes in salted water until soft, drain and mash with the butter and a little cooking water.",
-          "Brown the lamb in a dry pan, drain off the fat, then add the onion and carrot and cook for 5 minutes.",
-          "Add the tomato paste, thyme and water and simmer for 20 minutes; stir in the peas.",
-          "Spoon the filling into a baking dish, cover with mash and rough up the top with a fork.",
-          "Bake at 200 °C for 25 minutes until golden."
-        ]
-      },
-      "tips": [
-        "Drain the fat from the lamb after browning.",
-        "Use half the butter in the mash and loosen it with potato cooking water instead.",
-        "Bulk up the filling with more carrot and peas and serve with green vegetables."
-      ]
-    },
-    "ar": {
-      "name": "فطيرة الراعي",
-      "origin": "المملكة المتحدة · بريطانيا وأيرلندا",
-      "intro": "فطيرة الراعي طبق مخبوز من لحم الضأن المفروم المطبوخ مع البصل والجزر والبازلاء، تعلوه طبقة سميكة من البطاطس المهروسة بالزبدة. وفي الفرن يتحمر سطح البطاطس ويتقرمش، بينما تبقى الحشوة تحته طرية وغنية بالنكهة. وهي عشاء عائلي كلاسيكي يُقدَّم ساخناً من الصينية مباشرة.",
-      "history": "ظهرت فطائر اللحم المفروم المغطاة بالبطاطس في بريطانيا وأيرلندا في أواخر القرن الثامن عشر والقرن التاسع عشر وسيلةً لاستخدام بقايا اللحم المشوي. ويُطلق اسم فطيرة الراعي عموماً على النسخة المصنوعة من لحم الضأن، أما نسخة اللحم البقري فتُسمى «كوتيج باي». واليوم هي طبق أساسي في المطبخ البريطاني المنزلي وقوائم الحانات.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 غ لحم ضأن مفروم",
-          "بصلة مفرومة",
-          "حبتا جزر مكعبات",
-          "150 غ بازلاء مجمدة",
-          "1 ملعقة كبيرة معجون طماطم، 300 مل ماء، زعتر، ملح وفلفل",
-          "1 كغ بطاطس نشوية",
-          "30 غ زبدة"
-        ],
-        "steps": [
-          "اسلق البطاطس في ماء مملح حتى تطرى، ثم صفّها واهرسها مع الزبدة وقليل من ماء السلق.",
-          "حمّر اللحم في مقلاة جافة وصفِّ الدهن، ثم أضف البصل والجزر واطبخ 5 دقائق.",
-          "أضف معجون الطماطم والزعتر والماء واتركه يغلي 20 دقيقة، ثم أضف البازلاء.",
-          "ضع الحشوة في صينية فرن، وغطّها بالبطاطس المهروسة وخطّط السطح بالشوكة.",
-          "اخبزها على 200 °م لمدة 25 دقيقة حتى تتحمر."
-        ]
-      },
-      "tips": [
-        "صفِّ دهن اللحم بعد التحمير.",
-        "استخدم نصف كمية الزبدة في البطاطس وخفّفها بماء السلق بدلاً منها.",
-        "زِد الجزر والبازلاء في الحشوة وقدّمها مع خضار خضراء."
-      ]
-    },
-    "it": {
-      "name": "Shepherd's pie",
-      "name_inline": "shepherd's pie",
-      "origin": "Regno Unito · Gran Bretagna e Irlanda",
-      "intro": "Lo shepherd's pie è un piatto al forno di carne d'agnello macinata cotta con cipolla, carota e piselli, ricoperta da uno spesso strato di purè di patate al burro. In forno la superficie diventa dorata e croccante sulle creste, mentre il ripieno sotto resta saporito e morbido. È una classica cena in famiglia, servita calda direttamente dalla pirofila.",
-      "history": "I pasticci di carne macinata ricoperti di patate comparvero in Gran Bretagna e in Irlanda tra la fine del XVIII e il XIX secolo come modo per riutilizzare gli avanzi dell'arrosto. Il nome shepherd's pie si usa in genere per la versione con l'agnello, mentre quella di manzo si chiama cottage pie. Oggi è un classico della cucina casalinga britannica e dei menu dei pub.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 g di carne d'agnello macinata",
-          "1 cipolla, tritata",
-          "2 carote, a dadini",
-          "150 g di piselli surgelati",
-          "1 cucchiaio di concentrato di pomodoro, 300 ml di acqua, timo, sale e pepe",
-          "1 kg di patate farinose",
-          "30 g di burro"
-        ],
-        "steps": [
-          "Lessa le patate in acqua salata finché sono morbide, scolale e schiacciale con il burro e un po' di acqua di cottura.",
-          "Rosola l'agnello in una padella senza grassi, elimina il grasso, poi aggiungi cipolla e carota e cuoci per 5 minuti.",
-          "Aggiungi concentrato di pomodoro, timo e acqua e lascia sobbollire per 20 minuti; incorpora i piselli.",
-          "Versa il ripieno in una pirofila, coprilo con il purè e solleva la superficie con una forchetta.",
-          "Cuoci a 200 °C per 25 minuti, finché è dorato."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso dell'agnello dopo la rosolatura.",
-        "Usa metà del burro nel purè e ammorbidiscilo invece con l'acqua di cottura delle patate.",
-        "Arricchisci il ripieno con più carote e piselli e servi con verdure verdi."
-      ]
-    },
-    "el": {
-      "name": "Σέπερντς πάι",
-      "name_inline": "σέπερντς πάι",
-      "origin": "Ηνωμένο Βασίλειο · Βρετανία και Ιρλανδία",
-      "intro": "Το σέπερντς πάι είναι φαγητό φούρνου από αρνίσιο κιμά μαγειρεμένο με κρεμμύδι, καρότο και αρακά, σκεπασμένο με παχύ στρώμα πουρέ πατάτας με βούτυρο. Στον φούρνο η επιφάνεια ροδίζει και τραγανίζει στις κορυφές, ενώ η γέμιση από κάτω μένει νόστιμη και μαλακή. Είναι κλασικό οικογενειακό δείπνο, που σερβίρεται ζεστό κατευθείαν από το σκεύος.",
-      "history": "Οι πίτες με κιμά σκεπασμένες με πατάτα εμφανίστηκαν στη Βρετανία και την Ιρλανδία στα τέλη του 18ου και τον 19ο αιώνα ως τρόπος αξιοποίησης του περισσεύματος από το ψητό. Η ονομασία shepherd's pie χρησιμοποιείται γενικά για την εκδοχή με αρνί, ενώ η εκδοχή με μοσχάρι λέγεται cottage pie. Σήμερα είναι βασικό πιάτο της βρετανικής σπιτικής κουζίνας και των μενού των παμπ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 γρ. αρνίσιος κιμάς",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "2 καρότα, σε κυβάκια",
-          "150 γρ. κατεψυγμένος αρακάς",
-          "1 κ.σ. πελτές ντομάτας, 300 ml νερό, θυμάρι, αλάτι και πιπέρι",
-          "1 κιλό αλευρώδεις πατάτες",
-          "30 γρ. βούτυρο"
-        ],
-        "steps": [
-          "Βράστε τις πατάτες σε αλατισμένο νερό μέχρι να μαλακώσουν, στραγγίξτε και λιώστε τες με το βούτυρο και λίγο από το νερό του βρασμού.",
-          "Ροδίστε το αρνί σε στεγνό τηγάνι, αφαιρέστε το λίπος, προσθέστε το κρεμμύδι και το καρότο και μαγειρέψτε για 5 λεπτά.",
-          "Προσθέστε τον πελτέ, το θυμάρι και το νερό και σιγοβράστε για 20 λεπτά· ανακατέψτε μέσα τον αρακά.",
-          "Βάλτε τη γέμιση σε πυρίμαχο σκεύος, σκεπάστε με τον πουρέ και χαράξτε την επιφάνεια με ένα πιρούνι.",
-          "Ψήστε στους 200 °C για 25 λεπτά μέχρι να ροδίσει."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το λίπος από το αρνί μετά το ρόδισμα.",
-        "Βάλτε το μισό βούτυρο στον πουρέ και αραιώστε τον με το νερό του βρασμού των πατατών.",
-        "Αυξήστε τη γέμιση με περισσότερο καρότο και αρακά και σερβίρετε με πράσινα λαχανικά."
-      ]
-    },
-    "ru": {
-      "name": "Пастуший пирог",
-      "origin": "Великобритания · Британия и Ирландия",
-      "intro": "Пастуший пирог — запечённое блюдо из бараньего фарша, приготовленного с луком, морковью и горошком, покрытое толстым слоем сливочного картофельного пюре. В духовке верх становится золотистым и хрустящим на гребнях, а начинка внизу остаётся пикантной и мягкой. Это классический семейный ужин, который подают горячим прямо из формы.",
-      "history": "Пироги из рубленого мяса, покрытые картофелем, появились в Британии и Ирландии в конце XVIII и XIX веков как способ использовать остатки жареного мяса. Название «пастуший пирог» обычно используют для варианта с бараниной, а вариант с говядиной называется «коттедж-пай». Сегодня это основа британской домашней кухни и меню пабов.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 г бараньего фарша",
-          "1 луковица, нарубленная",
-          "2 моркови, нарезанные кубиками",
-          "150 г замороженного горошка",
-          "1 ст. л. томатной пасты, 300 мл воды, тимьян, соль и перец",
-          "1 кг картофеля рассыпчатых сортов",
-          "30 г сливочного масла"
-        ],
-        "steps": [
-          "Отварите картофель в подсоленной воде до мягкости, слейте воду и разомните с маслом и небольшим количеством отвара.",
-          "Обжарьте баранину на сухой сковороде, слейте жир, затем добавьте лук и морковь и готовьте 5 минут.",
-          "Добавьте томатную пасту, тимьян и воду и варите на слабом огне 20 минут; вмешайте горошек.",
-          "Выложите начинку в форму для запекания, покройте пюре и взъерошьте верх вилкой.",
-          "Выпекайте при 200 °C 25 минут до золотистого цвета."
-        ]
-      },
-      "tips": [
-        "Сливайте жир с баранины после обжарки.",
-        "Используйте вдвое меньше масла в пюре и разведите его отваром картофеля.",
-        "Увеличьте начинку большим количеством моркови и горошка и подавайте с зелёными овощами."
-      ]
-    }
+  "ar": {
+   "name": "فطيرة الراعي",
+   "origin": "المملكة المتحدة · بريطانيا وأيرلندا",
+   "intro": "فطيرة الراعي طبق مخبوز من لحم الضأن المفروم المطبوخ مع البصل والجزر والبازلاء، تعلوه طبقة سميكة من البطاطس المهروسة بالزبدة. وفي الفرن يتحمر سطح البطاطس ويتقرمش، بينما تبقى الحشوة تحته طرية وغنية بالنكهة. وهي عشاء عائلي كلاسيكي يُقدَّم ساخناً من الصينية مباشرة.",
+   "history": "ظهرت فطائر اللحم المفروم المغطاة بالبطاطس في بريطانيا وأيرلندا في أواخر القرن الثامن عشر والقرن التاسع عشر وسيلةً لاستخدام بقايا اللحم المشوي. ويُطلق اسم فطيرة الراعي عموماً على النسخة المصنوعة من لحم الضأن، أما نسخة اللحم البقري فتُسمى «كوتيج باي». واليوم هي طبق أساسي في المطبخ البريطاني المنزلي وقوائم الحانات.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 غ لحم ضأن مفروم",
+     "بصلة مفرومة",
+     "حبتا جزر مكعبات",
+     "150 غ بازلاء مجمدة",
+     "1 ملعقة كبيرة معجون طماطم، 300 مل ماء، زعتر، ملح وفلفل",
+     "1 كغ بطاطس نشوية",
+     "30 غ زبدة"
+    ],
+    "steps": [
+     "اسلق البطاطس في ماء مملح حتى تطرى، ثم صفّها واهرسها مع الزبدة وقليل من ماء السلق.",
+     "حمّر اللحم في مقلاة جافة وصفِّ الدهن، ثم أضف البصل والجزر واطبخ 5 دقائق.",
+     "أضف معجون الطماطم والزعتر والماء واتركه يغلي 20 دقيقة، ثم أضف البازلاء.",
+     "ضع الحشوة في صينية فرن، وغطّها بالبطاطس المهروسة وخطّط السطح بالشوكة.",
+     "اخبزها على 200 °م لمدة 25 دقيقة حتى تتحمر."
+    ]
+   },
+   "tips": [
+    "صفِّ دهن اللحم بعد التحمير.",
+    "استخدم نصف كمية الزبدة في البطاطس وخفّفها بماء السلق بدلاً منها.",
+    "زِد الجزر والبازلاء في الحشوة وقدّمها مع خضار خضراء."
+   ]
+  },
+  "it": {
+   "name": "Shepherd's pie",
+   "name_inline": "shepherd's pie",
+   "origin": "Regno Unito · Gran Bretagna e Irlanda",
+   "intro": "Lo shepherd's pie è un piatto al forno di carne d'agnello macinata cotta con cipolla, carota e piselli, ricoperta da uno spesso strato di purè di patate al burro. In forno la superficie diventa dorata e croccante sulle creste, mentre il ripieno sotto resta saporito e morbido. È una classica cena in famiglia, servita calda direttamente dalla pirofila.",
+   "history": "I pasticci di carne macinata ricoperti di patate comparvero in Gran Bretagna e in Irlanda tra la fine del XVIII e il XIX secolo come modo per riutilizzare gli avanzi dell'arrosto. Il nome shepherd's pie si usa in genere per la versione con l'agnello, mentre quella di manzo si chiama cottage pie. Oggi è un classico della cucina casalinga britannica e dei menu dei pub.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 g di carne d'agnello macinata",
+     "1 cipolla, tritata",
+     "2 carote, a dadini",
+     "150 g di piselli surgelati",
+     "1 cucchiaio di concentrato di pomodoro, 300 ml di acqua, timo, sale e pepe",
+     "1 kg di patate farinose",
+     "30 g di burro"
+    ],
+    "steps": [
+     "Lessa le patate in acqua salata finché sono morbide, scolale e schiacciale con il burro e un po' di acqua di cottura.",
+     "Rosola l'agnello in una padella senza grassi, elimina il grasso, poi aggiungi cipolla e carota e cuoci per 5 minuti.",
+     "Aggiungi concentrato di pomodoro, timo e acqua e lascia sobbollire per 20 minuti; incorpora i piselli.",
+     "Versa il ripieno in una pirofila, coprilo con il purè e solleva la superficie con una forchetta.",
+     "Cuoci a 200 °C per 25 minuti, finché è dorato."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso dell'agnello dopo la rosolatura.",
+    "Usa metà del burro nel purè e ammorbidiscilo invece con l'acqua di cottura delle patate.",
+    "Arricchisci il ripieno con più carote e piselli e servi con verdure verdi."
+   ]
+  },
+  "el": {
+   "name": "Σέπερντς πάι",
+   "name_inline": "σέπερντς πάι",
+   "origin": "Ηνωμένο Βασίλειο · Βρετανία και Ιρλανδία",
+   "intro": "Το σέπερντς πάι είναι φαγητό φούρνου από αρνίσιο κιμά μαγειρεμένο με κρεμμύδι, καρότο και αρακά, σκεπασμένο με παχύ στρώμα πουρέ πατάτας με βούτυρο. Στον φούρνο η επιφάνεια ροδίζει και τραγανίζει στις κορυφές, ενώ η γέμιση από κάτω μένει νόστιμη και μαλακή. Είναι κλασικό οικογενειακό δείπνο, που σερβίρεται ζεστό κατευθείαν από το σκεύος.",
+   "history": "Οι πίτες με κιμά σκεπασμένες με πατάτα εμφανίστηκαν στη Βρετανία και την Ιρλανδία στα τέλη του 18ου και τον 19ο αιώνα ως τρόπος αξιοποίησης του περισσεύματος από το ψητό. Η ονομασία shepherd's pie χρησιμοποιείται γενικά για την εκδοχή με αρνί, ενώ η εκδοχή με μοσχάρι λέγεται cottage pie. Σήμερα είναι βασικό πιάτο της βρετανικής σπιτικής κουζίνας και των μενού των παμπ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 γρ. αρνίσιος κιμάς",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "2 καρότα, σε κυβάκια",
+     "150 γρ. κατεψυγμένος αρακάς",
+     "1 κ.σ. πελτές ντομάτας, 300 ml νερό, θυμάρι, αλάτι και πιπέρι",
+     "1 κιλό αλευρώδεις πατάτες",
+     "30 γρ. βούτυρο"
+    ],
+    "steps": [
+     "Βράστε τις πατάτες σε αλατισμένο νερό μέχρι να μαλακώσουν, στραγγίξτε και λιώστε τες με το βούτυρο και λίγο από το νερό του βρασμού.",
+     "Ροδίστε το αρνί σε στεγνό τηγάνι, αφαιρέστε το λίπος, προσθέστε το κρεμμύδι και το καρότο και μαγειρέψτε για 5 λεπτά.",
+     "Προσθέστε τον πελτέ, το θυμάρι και το νερό και σιγοβράστε για 20 λεπτά· ανακατέψτε μέσα τον αρακά.",
+     "Βάλτε τη γέμιση σε πυρίμαχο σκεύος, σκεπάστε με τον πουρέ και χαράξτε την επιφάνεια με ένα πιρούνι.",
+     "Ψήστε στους 200 °C για 25 λεπτά μέχρι να ροδίσει."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το λίπος από το αρνί μετά το ρόδισμα.",
+    "Βάλτε το μισό βούτυρο στον πουρέ και αραιώστε τον με το νερό του βρασμού των πατατών.",
+    "Αυξήστε τη γέμιση με περισσότερο καρότο και αρακά και σερβίρετε με πράσινα λαχανικά."
+   ]
+  },
+  "ru": {
+   "name": "Пастуший пирог",
+   "origin": "Великобритания · Британия и Ирландия",
+   "intro": "Пастуший пирог — запечённое блюдо из бараньего фарша, приготовленного с луком, морковью и горошком, покрытое толстым слоем сливочного картофельного пюре. В духовке верх становится золотистым и хрустящим на гребнях, а начинка внизу остаётся пикантной и мягкой. Это классический семейный ужин, который подают горячим прямо из формы.",
+   "history": "Пироги из рубленого мяса, покрытые картофелем, появились в Британии и Ирландии в конце XVIII и XIX веков как способ использовать остатки жареного мяса. Название «пастуший пирог» обычно используют для варианта с бараниной, а вариант с говядиной называется «коттедж-пай». Сегодня это основа британской домашней кухни и меню пабов.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 г бараньего фарша",
+     "1 луковица, нарубленная",
+     "2 моркови, нарезанные кубиками",
+     "150 г замороженного горошка",
+     "1 ст. л. томатной пасты, 300 мл воды, тимьян, соль и перец",
+     "1 кг картофеля рассыпчатых сортов",
+     "30 г сливочного масла"
+    ],
+    "steps": [
+     "Отварите картофель в подсоленной воде до мягкости, слейте воду и разомните с маслом и небольшим количеством отвара.",
+     "Обжарьте баранину на сухой сковороде, слейте жир, затем добавьте лук и морковь и готовьте 5 минут.",
+     "Добавьте томатную пасту, тимьян и воду и варите на слабом огне 20 минут; вмешайте горошек.",
+     "Выложите начинку в форму для запекания, покройте пюре и взъерошьте верх вилкой.",
+     "Выпекайте при 200 °C 25 минут до золотистого цвета."
+    ]
+   },
+   "tips": [
+    "Сливайте жир с баранины после обжарки.",
+    "Используйте вдвое меньше масла в пюре и разведите его отваром картофеля.",
+    "Увеличьте начинку большим количеством моркови и горошка и подавайте с зелёными овощами."
+   ]
+  },
+  "es": {
+   "name": "Shepherd's pie",
+   "origin": "Reino Unido · Gran Bretaña e Irlanda",
+   "intro": "El shepherd's pie es un plato horneado de cordero molido cocido con cebolla, zanahoria y chícharos, cubierto con una gruesa capa de puré de papa con mantequilla. En el horno la cubierta se dora y queda crujiente en las crestas mientras el relleno se mantiene sabroso y suave debajo. Es una cena familiar clásica, que se sirve caliente directo del molde.",
+   "history": "Los pasteles de carne molida cubiertos con papa aparecieron en Gran Bretaña e Irlanda a finales del siglo XVIII y en el XIX como una forma de aprovechar la carne asada sobrante. El nombre shepherd's pie se usa por lo general para la versión de cordero, mientras que la de res se llama cottage pie. Hoy es un básico de la cocina casera británica y de los menús de los pubs.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 g de cordero molido",
+     "1 cebolla, picada",
+     "2 zanahorias, en cubos",
+     "150 g de chícharos congelados",
+     "1 cda. de pasta de tomate, 300 ml de agua, tomillo, sal y pimienta",
+     "1 kg de papas harinosas",
+     "30 g de mantequilla"
+    ],
+    "steps": [
+     "Hierve las papas en agua con sal hasta que estén suaves, escúrrelas y haz un puré con la mantequilla y un poco del agua de cocción.",
+     "Dora el cordero en una sartén seca, escurre la grasa y luego agrega la cebolla y la zanahoria y cocina 5 minutos.",
+     "Añade la pasta de tomate, el tomillo y el agua y cuece a fuego bajo 20 minutos; incorpora los chícharos.",
+     "Pasa el relleno a un molde para hornear, cubre con el puré y marca la superficie con un tenedor.",
+     "Hornea a 200 °C durante 25 minutos hasta que esté dorado."
+    ]
+   },
+   "tips": [
+    "Escurre la grasa del cordero después de dorarlo.",
+    "Usa la mitad de la mantequilla en el puré y aflójalo con el agua de cocción de las papas.",
+    "Aumenta el relleno con más zanahoria y chícharos y sirve con verduras verdes."
+   ],
+   "name_inline": "el shepherd's pie"
   }
+ }
 }

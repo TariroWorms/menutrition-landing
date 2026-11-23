@@ -1,146 +1,173 @@
 {
-  "db_key": "spanish_latte",
-  "slug": "spanish-latte",
-  "emoji": "☕",
-  "portion_g": 240,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "spanish_latte",
+ "slug": "spanish-latte",
+ "emoji": "☕",
+ "portion_g": 240,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Spanish latte",
+   "origin": "Coffee shops · Middle East and Asia",
+   "intro": "A Spanish latte is espresso combined with steamed milk and sweetened condensed milk, giving a smooth, creamy coffee that is noticeably sweeter than a classic latte. The condensed milk adds a caramel-like richness and a thick body. It is served hot in a cup or poured over ice.",
+   "history": "The Spanish latte is a modern coffee-shop drink that became especially popular in the Gulf and East Asia; despite the name, its origin is not clearly documented.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 double espresso (60 ml)",
+     "25 ml sweetened condensed milk",
+     "160 ml milk"
+    ],
+    "steps": [
+     "Pour the condensed milk into a cup.",
+     "Brew the espresso over it and stir to dissolve.",
+     "Steam or heat the milk until frothy.",
+     "Pour the milk into the cup and serve, or pour everything over ice for an iced version."
+    ]
+   },
+   "tips": [
+    "Halve the condensed milk — it carries most of the sugar.",
+    "Choose a small cup instead of a large one.",
+    "Use skimmed milk to cut fat while keeping the creamy texture."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Spanish latte",
-      "origin": "Coffee shops · Middle East and Asia",
-      "intro": "A Spanish latte is espresso combined with steamed milk and sweetened condensed milk, giving a smooth, creamy coffee that is noticeably sweeter than a classic latte. The condensed milk adds a caramel-like richness and a thick body. It is served hot in a cup or poured over ice.",
-      "history": "The Spanish latte is a modern coffee-shop drink that became especially popular in the Gulf and East Asia; despite the name, its origin is not clearly documented.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 double espresso (60 ml)",
-          "25 ml sweetened condensed milk",
-          "160 ml milk"
-        ],
-        "steps": [
-          "Pour the condensed milk into a cup.",
-          "Brew the espresso over it and stir to dissolve.",
-          "Steam or heat the milk until frothy.",
-          "Pour the milk into the cup and serve, or pour everything over ice for an iced version."
-        ]
-      },
-      "tips": [
-        "Halve the condensed milk — it carries most of the sugar.",
-        "Choose a small cup instead of a large one.",
-        "Use skimmed milk to cut fat while keeping the creamy texture."
-      ]
-    },
-    "ar": {
-      "name": "سبانش لاتيه",
-      "origin": "المقاهي · الشرق الأوسط وآسيا",
-      "intro": "السبانش لاتيه إسبريسو مع حليب مبخر وحليب مكثف محلى، فينتج قهوة ناعمة كريمية أحلى بوضوح من اللاتيه الكلاسيكي. يضيف الحليب المكثف غنى يشبه الكراميل وقواماً كثيفاً. يقدم ساخناً في كوب أو فوق الثلج.",
-      "history": "السبانش لاتيه مشروب حديث من مشروبات المقاهي انتشر بشكل خاص في الخليج وشرق آسيا، ورغم اسمه فإن أصله غير موثق بوضوح.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 إسبريسو مزدوج (60 مل)",
-          "25 مل حليب مكثف محلى",
-          "160 مل حليب"
-        ],
-        "steps": [
-          "ضع الحليب المكثف في الكوب.",
-          "حضّر الإسبريسو فوقه وقلّب حتى يذوب.",
-          "بخّر الحليب أو سخّنه حتى تتكون رغوة.",
-          "اسكب الحليب في الكوب وقدّمه، أو اسكب كل شيء فوق الثلج لنسخة باردة."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية الحليب المكثف — فهو يحمل معظم السكر.",
-        "اختر كوباً صغيراً بدلاً من الكبير.",
-        "استخدم حليباً خالي الدسم لتقليل الدهون مع الحفاظ على القوام الكريمي."
-      ]
-    },
-    "it": {
-      "name": "Spanish latte",
-      "origin": "Caffetterie · Medio Oriente e Asia",
-      "intro": "Lo Spanish latte è un espresso unito a latte montato a vapore e latte condensato zuccherato, che dà un caffè morbido e cremoso, decisamente più dolce di un classico latte macchiato. Il latte condensato aggiunge una ricchezza simile al caramello e una consistenza densa. Si serve caldo in tazza o versato sul ghiaccio.",
-      "history": "Lo Spanish latte è una bevanda moderna da caffetteria diventata particolarmente popolare nel Golfo e nell'Asia orientale; nonostante il nome, la sua origine non è chiaramente documentata.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 espresso doppio (60 ml)",
-          "25 ml di latte condensato zuccherato",
-          "160 ml di latte"
-        ],
-        "steps": [
-          "Versa il latte condensato in una tazza.",
-          "Prepara l'espresso direttamente sopra e mescola per scioglierlo.",
-          "Monta a vapore o scalda il latte finché è schiumoso.",
-          "Versa il latte nella tazza e servi, oppure versa tutto sul ghiaccio per una versione fredda."
-        ]
-      },
-      "tips": [
-        "Dimezza il latte condensato: contiene la maggior parte dello zucchero.",
-        "Scegli una tazza piccola invece di una grande.",
-        "Usa latte scremato per ridurre i grassi mantenendo la consistenza cremosa."
-      ]
-    },
-    "el": {
-      "name": "Σπάνις λάτε",
-      "name_inline": "σπάνις λάτε",
-      "origin": "Καφετέριες · Μέση Ανατολή και Ασία",
-      "intro": "Το Spanish latte είναι εσπρέσο με αφρισμένο γάλα και ζαχαρούχο συμπυκνωμένο γάλα, που δίνει έναν απαλό, κρεμώδη καφέ αισθητά πιο γλυκό από ένα κλασικό λάτε. Το συμπυκνωμένο γάλα προσθέτει πλούσια γεύση που θυμίζει καραμέλα και πηχτή υφή. Σερβίρεται ζεστό σε φλιτζάνι ή πάνω σε πάγο.",
-      "history": "Το Spanish latte είναι ένα σύγχρονο ρόφημα των καφετεριών που έγινε ιδιαίτερα δημοφιλές στον Κόλπο και στην Ανατολική Ασία· παρά το όνομά του, η προέλευσή του δεν είναι σαφώς τεκμηριωμένη.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 διπλός εσπρέσο (60 ml)",
-          "25 ml ζαχαρούχο συμπυκνωμένο γάλα",
-          "160 ml γάλα"
-        ],
-        "steps": [
-          "Ρίξτε το συμπυκνωμένο γάλα σε ένα φλιτζάνι.",
-          "Φτιάξτε τον εσπρέσο από πάνω και ανακατέψτε για να διαλυθεί.",
-          "Αφρίστε με ατμό ή ζεστάνετε το γάλα μέχρι να αφρίσει.",
-          "Ρίξτε το γάλα στο φλιτζάνι και σερβίρετε, ή ρίξτε τα όλα πάνω σε πάγο για κρύα εκδοχή."
-        ]
-      },
-      "tips": [
-        "Μειώστε στο μισό το συμπυκνωμένο γάλα: περιέχει το μεγαλύτερο μέρος της ζάχαρης.",
-        "Επιλέξτε μικρό φλιτζάνι αντί για μεγάλο.",
-        "Χρησιμοποιήστε αποβουτυρωμένο γάλα για λιγότερα λιπαρά με την ίδια κρεμώδη υφή."
-      ]
-    },
-    "ru": {
-      "name": "Спэниш латте",
-      "origin": "Кофейни · Ближний Восток и Азия",
-      "intro": "Спэниш латте — это эспрессо со взбитым молоком и сгущённым молоком, дающее гладкий сливочный кофе, заметно слаще классического латте. Сгущённое молоко придаёт карамельную насыщенность и густую текстуру. Его подают горячим в чашке или наливают на лёд.",
-      "history": "Спэниш латте — современный напиток кофеен, особенно популярный в странах Персидского залива и Восточной Азии; несмотря на название, его происхождение чётко не задокументировано.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "1 двойной эспрессо (60 мл)",
-          "25 мл сгущённого молока",
-          "160 мл молока"
-        ],
-        "steps": [
-          "Налейте сгущённое молоко в чашку.",
-          "Заварите эспрессо прямо в чашку и размешайте до растворения.",
-          "Вспеньте или разогрейте молоко.",
-          "Влейте молоко в чашку и подавайте или налейте всё на лёд для холодной версии."
-        ]
-      },
-      "tips": [
-        "Уменьшите сгущённое молоко вдвое: в нём основная часть сахара.",
-        "Выбирайте маленькую чашку вместо большой.",
-        "Используйте обезжиренное молоко, чтобы снизить жирность, сохранив сливочную текстуру."
-      ],
-      "name_inline": "спэниш латте"
-    }
+  "ar": {
+   "name": "سبانش لاتيه",
+   "origin": "المقاهي · الشرق الأوسط وآسيا",
+   "intro": "السبانش لاتيه إسبريسو مع حليب مبخر وحليب مكثف محلى، فينتج قهوة ناعمة كريمية أحلى بوضوح من اللاتيه الكلاسيكي. يضيف الحليب المكثف غنى يشبه الكراميل وقواماً كثيفاً. يقدم ساخناً في كوب أو فوق الثلج.",
+   "history": "السبانش لاتيه مشروب حديث من مشروبات المقاهي انتشر بشكل خاص في الخليج وشرق آسيا، ورغم اسمه فإن أصله غير موثق بوضوح.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 إسبريسو مزدوج (60 مل)",
+     "25 مل حليب مكثف محلى",
+     "160 مل حليب"
+    ],
+    "steps": [
+     "ضع الحليب المكثف في الكوب.",
+     "حضّر الإسبريسو فوقه وقلّب حتى يذوب.",
+     "بخّر الحليب أو سخّنه حتى تتكون رغوة.",
+     "اسكب الحليب في الكوب وقدّمه، أو اسكب كل شيء فوق الثلج لنسخة باردة."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية الحليب المكثف — فهو يحمل معظم السكر.",
+    "اختر كوباً صغيراً بدلاً من الكبير.",
+    "استخدم حليباً خالي الدسم لتقليل الدهون مع الحفاظ على القوام الكريمي."
+   ]
+  },
+  "it": {
+   "name": "Spanish latte",
+   "origin": "Caffetterie · Medio Oriente e Asia",
+   "intro": "Lo Spanish latte è un espresso unito a latte montato a vapore e latte condensato zuccherato, che dà un caffè morbido e cremoso, decisamente più dolce di un classico latte macchiato. Il latte condensato aggiunge una ricchezza simile al caramello e una consistenza densa. Si serve caldo in tazza o versato sul ghiaccio.",
+   "history": "Lo Spanish latte è una bevanda moderna da caffetteria diventata particolarmente popolare nel Golfo e nell'Asia orientale; nonostante il nome, la sua origine non è chiaramente documentata.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 espresso doppio (60 ml)",
+     "25 ml di latte condensato zuccherato",
+     "160 ml di latte"
+    ],
+    "steps": [
+     "Versa il latte condensato in una tazza.",
+     "Prepara l'espresso direttamente sopra e mescola per scioglierlo.",
+     "Monta a vapore o scalda il latte finché è schiumoso.",
+     "Versa il latte nella tazza e servi, oppure versa tutto sul ghiaccio per una versione fredda."
+    ]
+   },
+   "tips": [
+    "Dimezza il latte condensato: contiene la maggior parte dello zucchero.",
+    "Scegli una tazza piccola invece di una grande.",
+    "Usa latte scremato per ridurre i grassi mantenendo la consistenza cremosa."
+   ]
+  },
+  "el": {
+   "name": "Σπάνις λάτε",
+   "name_inline": "σπάνις λάτε",
+   "origin": "Καφετέριες · Μέση Ανατολή και Ασία",
+   "intro": "Το Spanish latte είναι εσπρέσο με αφρισμένο γάλα και ζαχαρούχο συμπυκνωμένο γάλα, που δίνει έναν απαλό, κρεμώδη καφέ αισθητά πιο γλυκό από ένα κλασικό λάτε. Το συμπυκνωμένο γάλα προσθέτει πλούσια γεύση που θυμίζει καραμέλα και πηχτή υφή. Σερβίρεται ζεστό σε φλιτζάνι ή πάνω σε πάγο.",
+   "history": "Το Spanish latte είναι ένα σύγχρονο ρόφημα των καφετεριών που έγινε ιδιαίτερα δημοφιλές στον Κόλπο και στην Ανατολική Ασία· παρά το όνομά του, η προέλευσή του δεν είναι σαφώς τεκμηριωμένη.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 διπλός εσπρέσο (60 ml)",
+     "25 ml ζαχαρούχο συμπυκνωμένο γάλα",
+     "160 ml γάλα"
+    ],
+    "steps": [
+     "Ρίξτε το συμπυκνωμένο γάλα σε ένα φλιτζάνι.",
+     "Φτιάξτε τον εσπρέσο από πάνω και ανακατέψτε για να διαλυθεί.",
+     "Αφρίστε με ατμό ή ζεστάνετε το γάλα μέχρι να αφρίσει.",
+     "Ρίξτε το γάλα στο φλιτζάνι και σερβίρετε, ή ρίξτε τα όλα πάνω σε πάγο για κρύα εκδοχή."
+    ]
+   },
+   "tips": [
+    "Μειώστε στο μισό το συμπυκνωμένο γάλα: περιέχει το μεγαλύτερο μέρος της ζάχαρης.",
+    "Επιλέξτε μικρό φλιτζάνι αντί για μεγάλο.",
+    "Χρησιμοποιήστε αποβουτυρωμένο γάλα για λιγότερα λιπαρά με την ίδια κρεμώδη υφή."
+   ]
+  },
+  "ru": {
+   "name": "Спэниш латте",
+   "origin": "Кофейни · Ближний Восток и Азия",
+   "intro": "Спэниш латте — это эспрессо со взбитым молоком и сгущённым молоком, дающее гладкий сливочный кофе, заметно слаще классического латте. Сгущённое молоко придаёт карамельную насыщенность и густую текстуру. Его подают горячим в чашке или наливают на лёд.",
+   "history": "Спэниш латте — современный напиток кофеен, особенно популярный в странах Персидского залива и Восточной Азии; несмотря на название, его происхождение чётко не задокументировано.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 двойной эспрессо (60 мл)",
+     "25 мл сгущённого молока",
+     "160 мл молока"
+    ],
+    "steps": [
+     "Налейте сгущённое молоко в чашку.",
+     "Заварите эспрессо прямо в чашку и размешайте до растворения.",
+     "Вспеньте или разогрейте молоко.",
+     "Влейте молоко в чашку и подавайте или налейте всё на лёд для холодной версии."
+    ]
+   },
+   "tips": [
+    "Уменьшите сгущённое молоко вдвое: в нём основная часть сахара.",
+    "Выбирайте маленькую чашку вместо большой.",
+    "Используйте обезжиренное молоко, чтобы снизить жирность, сохранив сливочную текстуру."
+   ],
+   "name_inline": "спэниш латте"
+  },
+  "es": {
+   "name": "Spanish latte",
+   "origin": "Cafeterías · Medio Oriente y Asia",
+   "intro": "El Spanish latte es un espresso combinado con leche vaporizada y leche condensada azucarada, que da un café suave y cremoso, bastante más dulce que un latte clásico. La leche condensada aporta una riqueza parecida al caramelo y un cuerpo espeso. Se sirve caliente en taza o sobre hielo.",
+   "history": "El Spanish latte es una bebida moderna de cafetería que se hizo especialmente popular en el Golfo y en el este de Asia; a pesar del nombre, su origen no está bien documentado.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "1 espresso doble (60 ml)",
+     "25 ml de leche condensada azucarada",
+     "160 ml de leche"
+    ],
+    "steps": [
+     "Vierte la leche condensada en una taza.",
+     "Prepara el espresso directamente sobre ella y mezcla para disolver.",
+     "Vaporiza o calienta la leche hasta que quede espumosa.",
+     "Agrega la leche a la taza y sirve, o vierte todo sobre hielo para una versión fría."
+    ]
+   },
+   "tips": [
+    "Usa la mitad de la leche condensada: aporta la mayor parte del azúcar.",
+    "Elige una taza pequeña en lugar de una grande.",
+    "Usa leche descremada para reducir la grasa sin perder la cremosidad."
+   ],
+   "name_inline": "el Spanish latte"
   }
+ }
 }

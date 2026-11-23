@@ -1,78 +1,111 @@
 {
-  "db_key": "spaghetti_alla_vongole",
-  "slug": "spaghetti-alla-vongole",
-  "emoji": "🍝",
-  "portion_g": 320,
-  "country": "IT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "spaghetti_alla_vongole",
+ "slug": "spaghetti-alla-vongole",
+ "emoji": "🍝",
+ "portion_g": 320,
+ "country": "IT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Spaghetti alle vongole",
+   "origin": "Italy · Campania",
+   "intro": "Spaghetti alle vongole is a Neapolitan classic: spaghetti tossed with fresh clams steamed open in white wine with garlic, chilli and parsley. The clams release their briny juices, which mix with the oil and pasta water into a light, sea-scented sauce. It is a dish of the coast, served simply and often eaten on Christmas Eve in southern Italy.",
+   "history": "The dish comes from Naples and the Campanian coast, where clams are a traditional catch. It is a fixture of the Neapolitan Christmas Eve dinner, when many families avoid meat, and is now found in seafood restaurants all over Italy.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "320 g spaghetti",
+     "1 kg fresh clams, purged and rinsed",
+     "100 ml dry white wine",
+     "3 garlic cloves, sliced",
+     "3 tbsp olive oil",
+     "1 small dried chilli",
+     "A bunch of parsley, chopped",
+     "Salt"
+    ],
+    "steps": [
+     "Soak the clams in salted water for 1 hour to release sand, then rinse.",
+     "Warm the oil with garlic and chilli in a large pan, add the clams and wine, cover and cook for 3–5 minutes until they open. Discard any that stay shut.",
+     "Take out half the clams and shell them; strain the juices if sandy.",
+     "Cook the spaghetti until a minute short of al dente and finish cooking it in the clam juices.",
+     "Add all the clams and the parsley, toss and serve."
+    ]
+   },
+   "tips": [
+    "Clams are lean; most of the energy is in the pasta and oil — 1 tbsp oil ≈ 120 kcal.",
+    "Use 2 tbsp of oil instead of 3 and let the clam juices carry the sauce.",
+    "Serve a 250 g plate with a green salad for a lighter meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Spaghetti alle vongole",
-      "origin": "Italy · Campania",
-      "intro": "Spaghetti alle vongole is a Neapolitan classic: spaghetti tossed with fresh clams steamed open in white wine with garlic, chilli and parsley. The clams release their briny juices, which mix with the oil and pasta water into a light, sea-scented sauce. It is a dish of the coast, served simply and often eaten on Christmas Eve in southern Italy.",
-      "history": "The dish comes from Naples and the Campanian coast, where clams are a traditional catch. It is a fixture of the Neapolitan Christmas Eve dinner, when many families avoid meat, and is now found in seafood restaurants all over Italy.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "320 g spaghetti",
-          "1 kg fresh clams, purged and rinsed",
-          "100 ml dry white wine",
-          "3 garlic cloves, sliced",
-          "3 tbsp olive oil",
-          "1 small dried chilli",
-          "A bunch of parsley, chopped",
-          "Salt"
-        ],
-        "steps": [
-          "Soak the clams in salted water for 1 hour to release sand, then rinse.",
-          "Warm the oil with garlic and chilli in a large pan, add the clams and wine, cover and cook for 3–5 minutes until they open. Discard any that stay shut.",
-          "Take out half the clams and shell them; strain the juices if sandy.",
-          "Cook the spaghetti until a minute short of al dente and finish cooking it in the clam juices.",
-          "Add all the clams and the parsley, toss and serve."
-        ]
-      },
-      "tips": [
-        "Clams are lean; most of the energy is in the pasta and oil — 1 tbsp oil ≈ 120 kcal.",
-        "Use 2 tbsp of oil instead of 3 and let the clam juices carry the sauce.",
-        "Serve a 250 g plate with a green salad for a lighter meal."
-      ]
-    },
-    "ar": {
-      "name": "سباغيتي بالمحار (فونغولي)",
-      "origin": "إيطاليا · كامبانيا",
-      "intro": "سباغيتي ألِّه فونغولي طبق نابولي كلاسيكي: سباغيتي تُقلَّب مع محار طازج يُطهى بالبخار في النبيذ الأبيض مع الثوم والفلفل الحار والبقدونس حتى ينفتح. يُطلق المحار عصارته المالحة التي تمتزج بالزيت وماء السلق لتصبح صلصة خفيفة بنكهة البحر. هو طبق ساحلي يُقدَّم ببساطة، ويؤكل كثيرًا ليلة عيد الميلاد في جنوب إيطاليا.",
-      "history": "يأتي الطبق من نابولي وساحل كامبانيا حيث المحار صيد تقليدي. وهو حاضر دائمًا في عشاء ليلة الميلاد في نابولي حين تتجنب عائلات كثيرة اللحم، ويوجد اليوم في مطاعم المأكولات البحرية في كل إيطاليا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "320 غ سباغيتي",
-          "1 كغ محار طازج منظّف ومغسول",
-          "100 مل نبيذ أبيض جاف",
-          "3 فصوص ثوم شرائح",
-          "3 ملاعق كبيرة زيت زيتون",
-          "حبة فلفل حار مجفف صغيرة",
-          "حزمة بقدونس مفروم",
-          "ملح"
-        ],
-        "steps": [
-          "انقع المحار في ماء مملّح ساعة ليتخلص من الرمل ثم اغسله.",
-          "سخّن الزيت مع الثوم والفلفل في مقلاة كبيرة، وأضف المحار والنبيذ، وغطّه واطهه 3–5 دقائق حتى ينفتح. تخلّص من أي محارة تبقى مغلقة.",
-          "أخرج نصف المحار وانزع قشره، وصفِّ العصارة إن كان فيها رمل.",
-          "اسلق السباغيتي حتى يبقى دقيقة على «أل دينتي» وأكمل طهيها في عصارة المحار.",
-          "أضف كل المحار والبقدونس، وقلّب وقدّم."
-        ]
-      },
-      "tips": [
-        "المحار قليل الدهن، ومعظم الطاقة من المعكرونة والزيت؛ ملعقة الزيت ≈ 120 سعرة.",
-        "استخدم ملعقتي زيت بدل ثلاث ودع عصارة المحار تصنع الصلصة.",
-        "قدّم طبقًا من 250 غ مع سلطة خضراء لوجبة أخف."
-      ]
-    }
+  "ar": {
+   "name": "سباغيتي بالمحار (فونغولي)",
+   "origin": "إيطاليا · كامبانيا",
+   "intro": "سباغيتي ألِّه فونغولي طبق نابولي كلاسيكي: سباغيتي تُقلَّب مع محار طازج يُطهى بالبخار في النبيذ الأبيض مع الثوم والفلفل الحار والبقدونس حتى ينفتح. يُطلق المحار عصارته المالحة التي تمتزج بالزيت وماء السلق لتصبح صلصة خفيفة بنكهة البحر. هو طبق ساحلي يُقدَّم ببساطة، ويؤكل كثيرًا ليلة عيد الميلاد في جنوب إيطاليا.",
+   "history": "يأتي الطبق من نابولي وساحل كامبانيا حيث المحار صيد تقليدي. وهو حاضر دائمًا في عشاء ليلة الميلاد في نابولي حين تتجنب عائلات كثيرة اللحم، ويوجد اليوم في مطاعم المأكولات البحرية في كل إيطاليا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "320 غ سباغيتي",
+     "1 كغ محار طازج منظّف ومغسول",
+     "100 مل نبيذ أبيض جاف",
+     "3 فصوص ثوم شرائح",
+     "3 ملاعق كبيرة زيت زيتون",
+     "حبة فلفل حار مجفف صغيرة",
+     "حزمة بقدونس مفروم",
+     "ملح"
+    ],
+    "steps": [
+     "انقع المحار في ماء مملّح ساعة ليتخلص من الرمل ثم اغسله.",
+     "سخّن الزيت مع الثوم والفلفل في مقلاة كبيرة، وأضف المحار والنبيذ، وغطّه واطهه 3–5 دقائق حتى ينفتح. تخلّص من أي محارة تبقى مغلقة.",
+     "أخرج نصف المحار وانزع قشره، وصفِّ العصارة إن كان فيها رمل.",
+     "اسلق السباغيتي حتى يبقى دقيقة على «أل دينتي» وأكمل طهيها في عصارة المحار.",
+     "أضف كل المحار والبقدونس، وقلّب وقدّم."
+    ]
+   },
+   "tips": [
+    "المحار قليل الدهن، ومعظم الطاقة من المعكرونة والزيت؛ ملعقة الزيت ≈ 120 سعرة.",
+    "استخدم ملعقتي زيت بدل ثلاث ودع عصارة المحار تصنع الصلصة.",
+    "قدّم طبقًا من 250 غ مع سلطة خضراء لوجبة أخف."
+   ]
+  },
+  "es": {
+   "name": "Espaguetis a las almejas (alle vongole)",
+   "origin": "Italia · Campania",
+   "intro": "Los espaguetis alle vongole son un clásico napolitano: espagueti mezclado con almejas frescas abiertas al vapor en vino blanco con ajo, chile y perejil. Las almejas sueltan su jugo salino, que se une al aceite y al agua de cocción de la pasta para formar una salsa ligera con aroma de mar. Es un plato de la costa, sencillo, y se come a menudo en Nochebuena en el sur de Italia.",
+   "history": "El plato proviene de Nápoles y de la costa de Campania, donde las almejas son una captura tradicional. Es un clásico de la cena napolitana de Nochebuena, cuando muchas familias evitan la carne, y hoy se encuentra en restaurantes de mariscos de toda Italia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "320 g de espaguetis",
+     "1 kg de almejas frescas, purgadas y enjuagadas",
+     "100 ml de vino blanco seco",
+     "3 dientes de ajo, en rodajas",
+     "3 cda. de aceite de oliva",
+     "1 chile seco pequeño",
+     "Un manojo de perejil, picado",
+     "Sal"
+    ],
+    "steps": [
+     "Remoja las almejas en agua con sal durante 1 hora para que suelten la arena y luego enjuágalas.",
+     "Calienta el aceite con el ajo y el chile en una sartén grande, añade las almejas y el vino, tapa y cuece de 3 a 5 minutos hasta que se abran. Desecha las que sigan cerradas.",
+     "Saca la mitad de las almejas y quítales la concha; cuela el jugo si tiene arena.",
+     "Cuece los espaguetis hasta un minuto antes del punto al dente y termina de cocerlos en el jugo de las almejas.",
+     "Añade todas las almejas y el perejil, mezcla y sirve."
+    ]
+   },
+   "tips": [
+    "Las almejas son magras; la mayor parte de la energía está en la pasta y el aceite: 1 cda. de aceite ≈ 120 kcal.",
+    "Usa 2 cda. de aceite en lugar de 3 y deja que el jugo de las almejas dé cuerpo a la salsa.",
+    "Sirve un plato de 250 g con una ensalada verde para una comida más ligera."
+   ],
+   "name_inline": "los espaguetis a las almejas"
   }
+ }
 }

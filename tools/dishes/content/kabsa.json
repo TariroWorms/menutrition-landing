@@ -1,191 +1,227 @@
 {
-  "db_key": "kabsa",
-  "slug": "kabsa",
-  "emoji": "🍗",
-  "portion_g": 400,
-  "related": [
-    "shawarma"
-  ],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kabsa",
+ "slug": "kabsa",
+ "emoji": "🍗",
+ "portion_g": 400,
+ "related": [
+  "shawarma"
+ ],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken kabsa",
+   "origin": "Saudi Arabia · Arabian Peninsula",
+   "intro": "Kabsa is a one-pot dish of long-grain rice cooked in a spiced tomato broth with chicken, often called the national dish of Saudi Arabia. Every family has its own spice mix, but cardamom, cloves, black lime and saffron are typical. It is served on a large shared platter, the chicken on top of the rice, often with raisins and a spicy tomato salsa called daqqus.",
+   "history": "Kabsa comes from the Arabian Peninsula, where rice — brought by Indian Ocean trade — became a staple of both Bedouin and town cooking. The name is often linked to the Arabic verb kabasa, “to press” or “to pack”, after the way rice and meat are cooked together in one pot. Close relatives are machboos in Bahrain, Kuwait and Qatar. Today kabsa is the centrepiece of Friday family lunches and festive gatherings across the Gulf.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 kg chicken pieces, skin on",
+     "400 g basmati rice",
+     "2 onions, chopped",
+     "3 tomatoes, grated, and 2 tbsp tomato paste",
+     "3 garlic cloves",
+     "2 tsp baharat (kabsa spice mix)",
+     "4 cardamom pods, 4 cloves, 1 cinnamon stick, 1 dried black lime",
+     "A pinch of saffron in 2 tbsp warm water",
+     "3 tbsp vegetable oil, salt",
+     "Raisins and chopped parsley to serve"
+    ],
+    "steps": [
+     "Rinse the rice until the water runs clear and soak it for 30 minutes.",
+     "Fry the onion in oil until golden, add the garlic, chicken and whole spices and brown for 5 minutes.",
+     "Add the tomatoes, tomato paste, baharat, black lime, salt and 1.2 litres of water. Cover and simmer for 35–40 minutes until the chicken is tender.",
+     "Lift out the chicken. Keep about 750 ml of the broth in the pot, add the drained rice, bring to the boil, then cover and cook on low heat for 20 minutes.",
+     "Meanwhile brush the chicken with a little broth and roast it at 220 °C for 10 minutes until browned.",
+     "Drizzle the saffron water over the rice, rest for 5 minutes, fluff, pile onto a platter, set the chicken on top and scatter raisins and parsley."
+    ]
+   },
+   "tips": [
+    "Rice carries most of the calories: half the rice and a big salad or daqqus make a much lighter plate.",
+    "Take skinless chicken and fry the onion in one tablespoon of oil instead of three.",
+    "Go easy on extra oil poured over the rice — each tablespoon is about 120 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken kabsa",
-      "origin": "Saudi Arabia · Arabian Peninsula",
-      "intro": "Kabsa is a one-pot dish of long-grain rice cooked in a spiced tomato broth with chicken, often called the national dish of Saudi Arabia. Every family has its own spice mix, but cardamom, cloves, black lime and saffron are typical. It is served on a large shared platter, the chicken on top of the rice, often with raisins and a spicy tomato salsa called daqqus.",
-      "history": "Kabsa comes from the Arabian Peninsula, where rice — brought by Indian Ocean trade — became a staple of both Bedouin and town cooking. The name is often linked to the Arabic verb kabasa, “to press” or “to pack”, after the way rice and meat are cooked together in one pot. Close relatives are machboos in Bahrain, Kuwait and Qatar. Today kabsa is the centrepiece of Friday family lunches and festive gatherings across the Gulf.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 kg chicken pieces, skin on",
-          "400 g basmati rice",
-          "2 onions, chopped",
-          "3 tomatoes, grated, and 2 tbsp tomato paste",
-          "3 garlic cloves",
-          "2 tsp baharat (kabsa spice mix)",
-          "4 cardamom pods, 4 cloves, 1 cinnamon stick, 1 dried black lime",
-          "A pinch of saffron in 2 tbsp warm water",
-          "3 tbsp vegetable oil, salt",
-          "Raisins and chopped parsley to serve"
-        ],
-        "steps": [
-          "Rinse the rice until the water runs clear and soak it for 30 minutes.",
-          "Fry the onion in oil until golden, add the garlic, chicken and whole spices and brown for 5 minutes.",
-          "Add the tomatoes, tomato paste, baharat, black lime, salt and 1.2 litres of water. Cover and simmer for 35–40 minutes until the chicken is tender.",
-          "Lift out the chicken. Keep about 750 ml of the broth in the pot, add the drained rice, bring to the boil, then cover and cook on low heat for 20 minutes.",
-          "Meanwhile brush the chicken with a little broth and roast it at 220 °C for 10 minutes until browned.",
-          "Drizzle the saffron water over the rice, rest for 5 minutes, fluff, pile onto a platter, set the chicken on top and scatter raisins and parsley."
-        ]
-      },
-      "tips": [
-        "Rice carries most of the calories: half the rice and a big salad or daqqus make a much lighter plate.",
-        "Take skinless chicken and fry the onion in one tablespoon of oil instead of three.",
-        "Go easy on extra oil poured over the rice — each tablespoon is about 120 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Кабса с курицей",
-      "origin": "Саудовская Аравия · Аравийский полуостров",
-      "intro": "Кабса — блюдо в одном котле: длиннозёрный рис, сваренный в пряном томатном бульоне с курицей. Её часто называют национальным блюдом Саудовской Аравии. Смесь специй в каждой семье своя, но обычно это кардамон, гвоздика, сушёный чёрный лайм и шафран. Подают на большом общем блюде: рис, сверху курица, часто — изюм и острый томатный соус даккус.",
-      "history": "Кабса родом с Аравийского полуострова, где рис, пришедший с торговлей по Индийскому океану, стал основой и бедуинской, и городской кухни. Название часто связывают с арабским глаголом «кабаса» — «прижимать, укладывать плотно»: рис и мясо готовят вместе в одном котле. Близкие родственники кабсы — мачбус в Бахрейне, Кувейте и Катаре. Сегодня кабса — главное блюдо пятничных семейных обедов и праздников во всех странах Залива.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 кг курицы кусками, с кожей",
-          "400 г риса басмати",
-          "2 луковицы, нарезать",
-          "3 помидора, натереть, и 2 ст. л. томатной пасты",
-          "3 зубчика чеснока",
-          "2 ч. л. бахарата (смесь специй для кабсы)",
-          "4 коробочки кардамона, 4 гвоздики, палочка корицы, 1 сушёный чёрный лайм",
-          "Щепотка шафрана в 2 ст. л. тёплой воды",
-          "3 ст. л. растительного масла, соль",
-          "Изюм и рубленая петрушка для подачи"
-        ],
-        "steps": [
-          "Промойте рис до чистой воды и замочите на 30 минут.",
-          "Обжарьте лук в масле до золотистого цвета, добавьте чеснок, курицу и целые специи, жарьте 5 минут.",
-          "Добавьте помидоры, томатную пасту, бахарат, лайм, соль и 1,2 л воды. Накройте и тушите 35–40 минут, пока курица не станет мягкой.",
-          "Выньте курицу. Оставьте в кастрюле около 750 мл бульона, добавьте рис, доведите до кипения, накройте и варите на слабом огне 20 минут.",
-          "Тем временем смажьте курицу бульоном и запеките при 220 °C 10 минут до румяной корочки.",
-          "Полейте рис шафранной водой, дайте постоять 5 минут, разрыхлите, выложите на блюдо, сверху — курицу, посыпьте изюмом и петрушкой."
-        ]
-      },
-      "tips": [
-        "Больше всего калорий в рисе: половина порции риса и большой салат или даккус сделают тарелку намного легче.",
-        "Берите курицу без кожи и обжаривайте лук на одной ложке масла вместо трёх.",
-        "Осторожнее с маслом поверх риса — каждая столовая ложка это около 120 ккал."
-      ]
-    },
-    "ar": {
-      "name": "كبسة دجاج",
-      "origin": "السعودية · شبه الجزيرة العربية",
-      "intro": "الكبسة طبق من قدر واحد: أرز طويل الحبة يُطهى في مرق طماطم متبّل مع الدجاج، وكثيراً ما تُسمّى الطبق الوطني للسعودية. لكل عائلة خلطة بهاراتها، لكن الهيل والقرنفل واللومي والزعفران هي المعتادة. تُقدَّم في صينية كبيرة مشتركة، الدجاج فوق الأرز، وغالباً مع الزبيب وصلصة طماطم حارة تُسمّى الدقوس.",
-      "history": "الكبسة من شبه الجزيرة العربية، حيث أصبح الأرز الذي جلبته تجارة المحيط الهندي أساساً لطبخ البادية والحاضرة. وكثيراً ما يُربط اسمها بالفعل العربي «كبس» أي ضغط ورصّ، لأن الأرز واللحم يُطهيان معاً في قدر واحد. ومن أقاربها القريبة المكبوس في البحرين والكويت وقطر. واليوم الكبسة محور غداء الجمعة العائلي والمناسبات في أنحاء الخليج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 كغ قطع دجاج بالجلد",
-          "400 غ أرز بسمتي",
-          "2 بصلة مفرومة",
-          "3 حبات طماطم مبشورة و2 ملعقة كبيرة معجون طماطم",
-          "3 فصوص ثوم",
-          "2 ملعقة صغيرة بهارات (خلطة الكبسة)",
-          "4 حبات هيل و4 حبات قرنفل وعود قرفة وحبة لومي",
-          "رشة زعفران في 2 ملعقة كبيرة ماء دافئ",
-          "3 ملاعق كبيرة زيت نباتي، ملح",
-          "زبيب وبقدونس مفروم للتقديم"
-        ],
-        "steps": [
-          "اغسل الأرز حتى يصفو الماء وانقعه 30 دقيقة.",
-          "حمّر البصل في الزيت حتى يذهب لونه، وأضف الثوم والدجاج والبهارات الكاملة وحمّرها 5 دقائق.",
-          "أضف الطماطم والمعجون والبهارات واللومي والملح و1.2 لتر ماء، وغطِّ القدر واطهُه 35–40 دقيقة حتى يطرى الدجاج.",
-          "ارفع الدجاج، واترك في القدر نحو 750 مل من المرق، وأضف الأرز المصفّى واتركه يغلي، ثم غطِّه واطهُه على نار هادئة 20 دقيقة.",
-          "في الأثناء ادهن الدجاج بقليل من المرق واشوِه في الفرن على 220 °م لمدة 10 دقائق حتى يتحمّر.",
-          "رشّ ماء الزعفران على الأرز، واتركه 5 دقائق، ثم قلّبه وضعه في صينية والدجاج فوقه، وانثر الزبيب والبقدونس."
-        ]
-      },
-      "tips": [
-        "الأرز يحمل معظم السعرات: نصف كمية الأرز مع سلطة كبيرة أو دقوس يجعل الطبق أخف بكثير.",
-        "خذ الدجاج بلا جلد، وحمّر البصل في ملعقة زيت واحدة بدل ثلاث.",
-        "انتبه للزيت الذي يُسكب فوق الأرز، فكل ملعقة كبيرة نحو 120 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Kabsa di pollo",
-      "origin": "Arabia Saudita · Penisola arabica",
-      "intro": "La kabsa è un piatto unico di riso a chicco lungo cotto in un brodo speziato al pomodoro con il pollo, spesso definito il piatto nazionale dell'Arabia Saudita. Ogni famiglia ha la sua miscela di spezie, ma cardamomo, chiodi di garofano, lime nero e zafferano sono tipici. Si serve su un grande vassoio condiviso, con il pollo sopra il riso, spesso con uvetta e una salsa piccante di pomodoro chiamata daqqus.",
-      "history": "La kabsa viene dalla Penisola arabica, dove il riso, arrivato con i commerci dell'Oceano Indiano, divenne un alimento base sia della cucina beduina sia di quella cittadina. Il nome viene spesso collegato al verbo arabo kabasa, «premere» o «stipare», per il modo in cui riso e carne cuociono insieme in un'unica pentola. Parenti stretti sono il machboos del Bahrein, del Kuwait e del Qatar. Oggi la kabsa è il piatto forte dei pranzi di famiglia del venerdì e delle feste in tutto il Golfo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 kg di pollo a pezzi, con la pelle",
-          "400 g di riso basmati",
-          "2 cipolle tritate",
-          "3 pomodori grattugiati e 2 cucchiai di concentrato di pomodoro",
-          "3 spicchi d'aglio",
-          "2 cucchiaini di baharat (miscela di spezie per kabsa)",
-          "4 baccelli di cardamomo, 4 chiodi di garofano, 1 stecca di cannella, 1 lime nero essiccato",
-          "Un pizzico di zafferano in 2 cucchiai di acqua tiepida",
-          "3 cucchiai di olio di semi, sale",
-          "Uvetta e prezzemolo tritato per servire"
-        ],
-        "steps": [
-          "Sciacqua il riso finché l'acqua è limpida e mettilo in ammollo per 30 minuti.",
-          "Soffriggi la cipolla nell'olio finché è dorata, aggiungi aglio, pollo e spezie intere e rosola per 5 minuti.",
-          "Aggiungi pomodori, concentrato, baharat, lime nero, sale e 1,2 litri di acqua. Copri e lascia sobbollire 35–40 minuti finché il pollo è tenero.",
-          "Togli il pollo. Lascia nella pentola circa 750 ml di brodo, aggiungi il riso scolato, porta a ebollizione, poi copri e cuoci a fuoco basso per 20 minuti.",
-          "Nel frattempo spennella il pollo con un po' di brodo e arrostiscilo a 220 °C per 10 minuti finché è dorato.",
-          "Irrora il riso con l'acqua allo zafferano, lascia riposare 5 minuti, sgrana, disponi su un vassoio, adagia sopra il pollo e cospargi di uvetta e prezzemolo."
-        ]
-      },
-      "tips": [
-        "Il riso apporta la maggior parte delle calorie: metà riso e un'abbondante insalata o il daqqus rendono il piatto molto più leggero.",
-        "Usa pollo senza pelle e soffriggi la cipolla con un cucchiaio di olio invece di tre.",
-        "Non esagerare con l'olio in più versato sul riso: ogni cucchiaio apporta circa 120 kcal."
-      ]
-    },
-    "el": {
-      "name": "Κάμπσα με κοτόπουλο",
-      "origin": "Σαουδική Αραβία · Αραβική Χερσόνησος",
-      "intro": "Η κάμπσα είναι πιάτο μίας κατσαρόλας με μακρύκοκκο ρύζι μαγειρεμένο σε μπαχαρένιο ζωμό ντομάτας με κοτόπουλο και συχνά αποκαλείται εθνικό πιάτο της Σαουδικής Αραβίας. Κάθε οικογένεια έχει το δικό της μείγμα μπαχαρικών, αλλά το κάρδαμο, τα γαρίφαλα, το μαύρο λάιμ και το σαφράν είναι τα τυπικά. Σερβίρεται σε μεγάλη κοινή πιατέλα, με το κοτόπουλο πάνω στο ρύζι, συχνά με σταφίδες και μια καυτερή σάλτσα ντομάτας που λέγεται ντακούς.",
-      "history": "Η κάμπσα προέρχεται από την Αραβική Χερσόνησο, όπου το ρύζι — που έφτασε μέσω του εμπορίου του Ινδικού Ωκεανού — έγινε βασική τροφή τόσο της βεδουίνικης όσο και της αστικής κουζίνας. Το όνομα συχνά συνδέεται με το αραβικό ρήμα kabasa, «πιέζω» ή «στοιβάζω», από τον τρόπο που το ρύζι και το κρέας μαγειρεύονται μαζί σε μία κατσαρόλα. Στενοί συγγενείς της είναι το μαχμπούς του Μπαχρέιν, του Κουβέιτ και του Κατάρ. Σήμερα η κάμπσα είναι το κεντρικό πιάτο των οικογενειακών γευμάτων της Παρασκευής και των γιορτινών συγκεντρώσεων σε όλο τον Κόλπο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "1 κιλό κοτόπουλο σε κομμάτια, με την πέτσα",
-          "400 γρ. ρύζι μπασμάτι",
-          "2 κρεμμύδια, ψιλοκομμένα",
-          "3 ντομάτες, τριμμένες, και 2 κ.σ. πελτές ντομάτας",
-          "3 σκελίδες σκόρδο",
-          "2 κ.γ. μπαχαράτ (μείγμα μπαχαρικών για κάμπσα)",
-          "4 κάψουλες κάρδαμο, 4 γαρίφαλα, 1 ξύλο κανέλας, 1 αποξηραμένο μαύρο λάιμ",
-          "Μια πρέζα σαφράν σε 2 κ.σ. χλιαρό νερό",
-          "3 κ.σ. φυτικό λάδι, αλάτι",
-          "Σταφίδες και ψιλοκομμένος μαϊντανός για το σερβίρισμα"
-        ],
-        "steps": [
-          "Ξεπλύνετε το ρύζι μέχρι να τρέχει καθαρό νερό και μουλιάστε το για 30 λεπτά.",
-          "Τσιγαρίστε το κρεμμύδι στο λάδι μέχρι να ροδίσει, προσθέστε το σκόρδο, το κοτόπουλο και τα ολόκληρα μπαχαρικά και σοτάρετε για 5 λεπτά.",
-          "Προσθέστε τις ντομάτες, τον πελτέ, το μπαχαράτ, το μαύρο λάιμ, αλάτι και 1,2 λίτρα νερό. Σκεπάστε και σιγοβράστε 35–40 λεπτά μέχρι να μαλακώσει το κοτόπουλο.",
-          "Βγάλτε το κοτόπουλο. Κρατήστε περίπου 750 ml ζωμό στην κατσαρόλα, προσθέστε το στραγγισμένο ρύζι, αφήστε να πάρει βράση, έπειτα σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά για 20 λεπτά.",
-          "Στο μεταξύ αλείψτε το κοτόπουλο με λίγο ζωμό και ψήστε το στους 220 °C για 10 λεπτά μέχρι να ροδίσει.",
-          "Περιχύστε το ρύζι με το νερό με σαφράν, αφήστε 5 λεπτά, αφρατέψτε το, στρώστε το σε πιατέλα, βάλτε από πάνω το κοτόπουλο και πασπαλίστε με σταφίδες και μαϊντανό."
-        ]
-      },
-      "tips": [
-        "Το ρύζι δίνει τις περισσότερες θερμίδες: το μισό ρύζι και μια μεγάλη σαλάτα ή ντακούς κάνουν το πιάτο πολύ πιο ελαφρύ.",
-        "Πάρτε κοτόπουλο χωρίς πέτσα και τσιγαρίστε το κρεμμύδι με μία κουταλιά λάδι αντί για τρεις.",
-        "Μην το παρακάνετε με το επιπλέον λάδι πάνω στο ρύζι — κάθε κ.σ. έχει περίπου 120 kcal."
-      ]
-    }
+  "ru": {
+   "name": "Кабса с курицей",
+   "origin": "Саудовская Аравия · Аравийский полуостров",
+   "intro": "Кабса — блюдо в одном котле: длиннозёрный рис, сваренный в пряном томатном бульоне с курицей. Её часто называют национальным блюдом Саудовской Аравии. Смесь специй в каждой семье своя, но обычно это кардамон, гвоздика, сушёный чёрный лайм и шафран. Подают на большом общем блюде: рис, сверху курица, часто — изюм и острый томатный соус даккус.",
+   "history": "Кабса родом с Аравийского полуострова, где рис, пришедший с торговлей по Индийскому океану, стал основой и бедуинской, и городской кухни. Название часто связывают с арабским глаголом «кабаса» — «прижимать, укладывать плотно»: рис и мясо готовят вместе в одном котле. Близкие родственники кабсы — мачбус в Бахрейне, Кувейте и Катаре. Сегодня кабса — главное блюдо пятничных семейных обедов и праздников во всех странах Залива.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 кг курицы кусками, с кожей",
+     "400 г риса басмати",
+     "2 луковицы, нарезать",
+     "3 помидора, натереть, и 2 ст. л. томатной пасты",
+     "3 зубчика чеснока",
+     "2 ч. л. бахарата (смесь специй для кабсы)",
+     "4 коробочки кардамона, 4 гвоздики, палочка корицы, 1 сушёный чёрный лайм",
+     "Щепотка шафрана в 2 ст. л. тёплой воды",
+     "3 ст. л. растительного масла, соль",
+     "Изюм и рубленая петрушка для подачи"
+    ],
+    "steps": [
+     "Промойте рис до чистой воды и замочите на 30 минут.",
+     "Обжарьте лук в масле до золотистого цвета, добавьте чеснок, курицу и целые специи, жарьте 5 минут.",
+     "Добавьте помидоры, томатную пасту, бахарат, лайм, соль и 1,2 л воды. Накройте и тушите 35–40 минут, пока курица не станет мягкой.",
+     "Выньте курицу. Оставьте в кастрюле около 750 мл бульона, добавьте рис, доведите до кипения, накройте и варите на слабом огне 20 минут.",
+     "Тем временем смажьте курицу бульоном и запеките при 220 °C 10 минут до румяной корочки.",
+     "Полейте рис шафранной водой, дайте постоять 5 минут, разрыхлите, выложите на блюдо, сверху — курицу, посыпьте изюмом и петрушкой."
+    ]
+   },
+   "tips": [
+    "Больше всего калорий в рисе: половина порции риса и большой салат или даккус сделают тарелку намного легче.",
+    "Берите курицу без кожи и обжаривайте лук на одной ложке масла вместо трёх.",
+    "Осторожнее с маслом поверх риса — каждая столовая ложка это около 120 ккал."
+   ]
   },
-  "country": "SA"
+  "ar": {
+   "name": "كبسة دجاج",
+   "origin": "السعودية · شبه الجزيرة العربية",
+   "intro": "الكبسة طبق من قدر واحد: أرز طويل الحبة يُطهى في مرق طماطم متبّل مع الدجاج، وكثيراً ما تُسمّى الطبق الوطني للسعودية. لكل عائلة خلطة بهاراتها، لكن الهيل والقرنفل واللومي والزعفران هي المعتادة. تُقدَّم في صينية كبيرة مشتركة، الدجاج فوق الأرز، وغالباً مع الزبيب وصلصة طماطم حارة تُسمّى الدقوس.",
+   "history": "الكبسة من شبه الجزيرة العربية، حيث أصبح الأرز الذي جلبته تجارة المحيط الهندي أساساً لطبخ البادية والحاضرة. وكثيراً ما يُربط اسمها بالفعل العربي «كبس» أي ضغط ورصّ، لأن الأرز واللحم يُطهيان معاً في قدر واحد. ومن أقاربها القريبة المكبوس في البحرين والكويت وقطر. واليوم الكبسة محور غداء الجمعة العائلي والمناسبات في أنحاء الخليج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 كغ قطع دجاج بالجلد",
+     "400 غ أرز بسمتي",
+     "2 بصلة مفرومة",
+     "3 حبات طماطم مبشورة و2 ملعقة كبيرة معجون طماطم",
+     "3 فصوص ثوم",
+     "2 ملعقة صغيرة بهارات (خلطة الكبسة)",
+     "4 حبات هيل و4 حبات قرنفل وعود قرفة وحبة لومي",
+     "رشة زعفران في 2 ملعقة كبيرة ماء دافئ",
+     "3 ملاعق كبيرة زيت نباتي، ملح",
+     "زبيب وبقدونس مفروم للتقديم"
+    ],
+    "steps": [
+     "اغسل الأرز حتى يصفو الماء وانقعه 30 دقيقة.",
+     "حمّر البصل في الزيت حتى يذهب لونه، وأضف الثوم والدجاج والبهارات الكاملة وحمّرها 5 دقائق.",
+     "أضف الطماطم والمعجون والبهارات واللومي والملح و1.2 لتر ماء، وغطِّ القدر واطهُه 35–40 دقيقة حتى يطرى الدجاج.",
+     "ارفع الدجاج، واترك في القدر نحو 750 مل من المرق، وأضف الأرز المصفّى واتركه يغلي، ثم غطِّه واطهُه على نار هادئة 20 دقيقة.",
+     "في الأثناء ادهن الدجاج بقليل من المرق واشوِه في الفرن على 220 °م لمدة 10 دقائق حتى يتحمّر.",
+     "رشّ ماء الزعفران على الأرز، واتركه 5 دقائق، ثم قلّبه وضعه في صينية والدجاج فوقه، وانثر الزبيب والبقدونس."
+    ]
+   },
+   "tips": [
+    "الأرز يحمل معظم السعرات: نصف كمية الأرز مع سلطة كبيرة أو دقوس يجعل الطبق أخف بكثير.",
+    "خذ الدجاج بلا جلد، وحمّر البصل في ملعقة زيت واحدة بدل ثلاث.",
+    "انتبه للزيت الذي يُسكب فوق الأرز، فكل ملعقة كبيرة نحو 120 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Kabsa di pollo",
+   "origin": "Arabia Saudita · Penisola arabica",
+   "intro": "La kabsa è un piatto unico di riso a chicco lungo cotto in un brodo speziato al pomodoro con il pollo, spesso definito il piatto nazionale dell'Arabia Saudita. Ogni famiglia ha la sua miscela di spezie, ma cardamomo, chiodi di garofano, lime nero e zafferano sono tipici. Si serve su un grande vassoio condiviso, con il pollo sopra il riso, spesso con uvetta e una salsa piccante di pomodoro chiamata daqqus.",
+   "history": "La kabsa viene dalla Penisola arabica, dove il riso, arrivato con i commerci dell'Oceano Indiano, divenne un alimento base sia della cucina beduina sia di quella cittadina. Il nome viene spesso collegato al verbo arabo kabasa, «premere» o «stipare», per il modo in cui riso e carne cuociono insieme in un'unica pentola. Parenti stretti sono il machboos del Bahrein, del Kuwait e del Qatar. Oggi la kabsa è il piatto forte dei pranzi di famiglia del venerdì e delle feste in tutto il Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 kg di pollo a pezzi, con la pelle",
+     "400 g di riso basmati",
+     "2 cipolle tritate",
+     "3 pomodori grattugiati e 2 cucchiai di concentrato di pomodoro",
+     "3 spicchi d'aglio",
+     "2 cucchiaini di baharat (miscela di spezie per kabsa)",
+     "4 baccelli di cardamomo, 4 chiodi di garofano, 1 stecca di cannella, 1 lime nero essiccato",
+     "Un pizzico di zafferano in 2 cucchiai di acqua tiepida",
+     "3 cucchiai di olio di semi, sale",
+     "Uvetta e prezzemolo tritato per servire"
+    ],
+    "steps": [
+     "Sciacqua il riso finché l'acqua è limpida e mettilo in ammollo per 30 minuti.",
+     "Soffriggi la cipolla nell'olio finché è dorata, aggiungi aglio, pollo e spezie intere e rosola per 5 minuti.",
+     "Aggiungi pomodori, concentrato, baharat, lime nero, sale e 1,2 litri di acqua. Copri e lascia sobbollire 35–40 minuti finché il pollo è tenero.",
+     "Togli il pollo. Lascia nella pentola circa 750 ml di brodo, aggiungi il riso scolato, porta a ebollizione, poi copri e cuoci a fuoco basso per 20 minuti.",
+     "Nel frattempo spennella il pollo con un po' di brodo e arrostiscilo a 220 °C per 10 minuti finché è dorato.",
+     "Irrora il riso con l'acqua allo zafferano, lascia riposare 5 minuti, sgrana, disponi su un vassoio, adagia sopra il pollo e cospargi di uvetta e prezzemolo."
+    ]
+   },
+   "tips": [
+    "Il riso apporta la maggior parte delle calorie: metà riso e un'abbondante insalata o il daqqus rendono il piatto molto più leggero.",
+    "Usa pollo senza pelle e soffriggi la cipolla con un cucchiaio di olio invece di tre.",
+    "Non esagerare con l'olio in più versato sul riso: ogni cucchiaio apporta circa 120 kcal."
+   ]
+  },
+  "el": {
+   "name": "Κάμπσα με κοτόπουλο",
+   "origin": "Σαουδική Αραβία · Αραβική Χερσόνησος",
+   "intro": "Η κάμπσα είναι πιάτο μίας κατσαρόλας με μακρύκοκκο ρύζι μαγειρεμένο σε μπαχαρένιο ζωμό ντομάτας με κοτόπουλο και συχνά αποκαλείται εθνικό πιάτο της Σαουδικής Αραβίας. Κάθε οικογένεια έχει το δικό της μείγμα μπαχαρικών, αλλά το κάρδαμο, τα γαρίφαλα, το μαύρο λάιμ και το σαφράν είναι τα τυπικά. Σερβίρεται σε μεγάλη κοινή πιατέλα, με το κοτόπουλο πάνω στο ρύζι, συχνά με σταφίδες και μια καυτερή σάλτσα ντομάτας που λέγεται ντακούς.",
+   "history": "Η κάμπσα προέρχεται από την Αραβική Χερσόνησο, όπου το ρύζι — που έφτασε μέσω του εμπορίου του Ινδικού Ωκεανού — έγινε βασική τροφή τόσο της βεδουίνικης όσο και της αστικής κουζίνας. Το όνομα συχνά συνδέεται με το αραβικό ρήμα kabasa, «πιέζω» ή «στοιβάζω», από τον τρόπο που το ρύζι και το κρέας μαγειρεύονται μαζί σε μία κατσαρόλα. Στενοί συγγενείς της είναι το μαχμπούς του Μπαχρέιν, του Κουβέιτ και του Κατάρ. Σήμερα η κάμπσα είναι το κεντρικό πιάτο των οικογενειακών γευμάτων της Παρασκευής και των γιορτινών συγκεντρώσεων σε όλο τον Κόλπο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 κιλό κοτόπουλο σε κομμάτια, με την πέτσα",
+     "400 γρ. ρύζι μπασμάτι",
+     "2 κρεμμύδια, ψιλοκομμένα",
+     "3 ντομάτες, τριμμένες, και 2 κ.σ. πελτές ντομάτας",
+     "3 σκελίδες σκόρδο",
+     "2 κ.γ. μπαχαράτ (μείγμα μπαχαρικών για κάμπσα)",
+     "4 κάψουλες κάρδαμο, 4 γαρίφαλα, 1 ξύλο κανέλας, 1 αποξηραμένο μαύρο λάιμ",
+     "Μια πρέζα σαφράν σε 2 κ.σ. χλιαρό νερό",
+     "3 κ.σ. φυτικό λάδι, αλάτι",
+     "Σταφίδες και ψιλοκομμένος μαϊντανός για το σερβίρισμα"
+    ],
+    "steps": [
+     "Ξεπλύνετε το ρύζι μέχρι να τρέχει καθαρό νερό και μουλιάστε το για 30 λεπτά.",
+     "Τσιγαρίστε το κρεμμύδι στο λάδι μέχρι να ροδίσει, προσθέστε το σκόρδο, το κοτόπουλο και τα ολόκληρα μπαχαρικά και σοτάρετε για 5 λεπτά.",
+     "Προσθέστε τις ντομάτες, τον πελτέ, το μπαχαράτ, το μαύρο λάιμ, αλάτι και 1,2 λίτρα νερό. Σκεπάστε και σιγοβράστε 35–40 λεπτά μέχρι να μαλακώσει το κοτόπουλο.",
+     "Βγάλτε το κοτόπουλο. Κρατήστε περίπου 750 ml ζωμό στην κατσαρόλα, προσθέστε το στραγγισμένο ρύζι, αφήστε να πάρει βράση, έπειτα σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά για 20 λεπτά.",
+     "Στο μεταξύ αλείψτε το κοτόπουλο με λίγο ζωμό και ψήστε το στους 220 °C για 10 λεπτά μέχρι να ροδίσει.",
+     "Περιχύστε το ρύζι με το νερό με σαφράν, αφήστε 5 λεπτά, αφρατέψτε το, στρώστε το σε πιατέλα, βάλτε από πάνω το κοτόπουλο και πασπαλίστε με σταφίδες και μαϊντανό."
+    ]
+   },
+   "tips": [
+    "Το ρύζι δίνει τις περισσότερες θερμίδες: το μισό ρύζι και μια μεγάλη σαλάτα ή ντακούς κάνουν το πιάτο πολύ πιο ελαφρύ.",
+    "Πάρτε κοτόπουλο χωρίς πέτσα και τσιγαρίστε το κρεμμύδι με μία κουταλιά λάδι αντί για τρεις.",
+    "Μην το παρακάνετε με το επιπλέον λάδι πάνω στο ρύζι — κάθε κ.σ. έχει περίπου 120 kcal."
+   ]
+  },
+  "es": {
+   "name": "Kabsa de pollo",
+   "origin": "Arabia Saudita · Península Arábiga",
+   "intro": "La kabsa es un plato de una sola olla de arroz de grano largo cocido en un caldo especiado de tomate con pollo, a menudo considerado el plato nacional de Arabia Saudita. Cada familia tiene su propia mezcla de especias, pero son típicos el cardamomo, el clavo, la lima negra seca y el azafrán. Se sirve en una gran fuente para compartir, con el pollo sobre el arroz, a menudo con pasas y una salsa picante de tomate llamada daqqus.",
+   "history": "La kabsa procede de la Península Arábiga, donde el arroz, llegado con el comercio del océano Índico, se volvió un alimento básico tanto de la cocina beduina como de la urbana. El nombre suele relacionarse con el verbo árabe kabasa, «apretar» o «empacar», por la forma en que el arroz y la carne se cocinan juntos en una sola olla. Parientes cercanos son el machboos de Baréin, Kuwait y Catar. Hoy la kabsa es la protagonista de los almuerzos familiares de los viernes y de las celebraciones en todo el Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "1 kg de piezas de pollo, con piel",
+     "400 g de arroz basmati",
+     "2 cebollas, picadas",
+     "3 tomates, rallados, y 2 cda. de pasta de tomate",
+     "3 dientes de ajo",
+     "2 cdta. de baharat (mezcla de especias para kabsa)",
+     "4 vainas de cardamomo, 4 clavos, 1 rama de canela, 1 lima negra seca",
+     "Una pizca de azafrán en 2 cda. de agua tibia",
+     "3 cda. de aceite vegetal, sal",
+     "Pasas y perejil picado para servir"
+    ],
+    "steps": [
+     "Enjuaga el arroz hasta que el agua salga clara y déjalo remojar 30 minutos.",
+     "Sofríe la cebolla en aceite hasta que esté dorada, agrega el ajo, el pollo y las especias enteras, y dora durante 5 minutos.",
+     "Añade los tomates, la pasta de tomate, el baharat, la lima negra, la sal y 1,2 litros de agua. Tapa y cocina a fuego lento 35–40 minutos, hasta que el pollo esté tierno.",
+     "Saca el pollo. Deja en la olla unos 750 ml del caldo, agrega el arroz escurrido, lleva a ebullición, tapa y cocina a fuego bajo 20 minutos.",
+     "Mientras tanto, pincela el pollo con un poco de caldo y hornéalo a 220 °C durante 10 minutos, hasta que se dore.",
+     "Rocía el arroz con el agua de azafrán, déjalo reposar 5 minutos, esponja, sírvelo en una fuente, coloca el pollo encima y esparce las pasas y el perejil."
+    ]
+   },
+   "tips": [
+    "El arroz aporta la mayoría de las calorías: la mitad de arroz y una ensalada grande o daqqus dan un plato mucho más ligero.",
+    "Usa pollo sin piel y sofríe la cebolla con una cucharada de aceite en lugar de tres.",
+    "Ten cuidado con el aceite extra sobre el arroz: cada cucharada son unas 120 kcal."
+   ],
+   "name_inline": "la kabsa de pollo"
+  }
+ },
+ "country": "SA"
 }

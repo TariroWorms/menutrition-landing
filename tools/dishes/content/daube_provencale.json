@@ -1,185 +1,220 @@
 {
-  "db_key": "daube_provencale",
-  "slug": "daube-provencale",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "FR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "daube_provencale",
+ "slug": "daube-provencale",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "FR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Daube Provençale",
+   "origin": "France · Provence",
+   "intro": "Daube provençale is a slow braise of beef chunks marinated and cooked in red wine with black olives, strips of orange zest and herbes de Provence. After hours over low heat the meat turns fork-tender and the sauce becomes dark, glossy and fragrant with citrus and thyme. It is served hot as a hearty main, often with boiled potatoes or polenta on the side.",
+   "history": "Daube is a traditional Provençal stew whose name is usually linked to the daubière, a pot-bellied earthenware braising pot. It was long a dish for Sundays and festive meals in Provence, and leftovers are traditionally used in other local dishes.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "1.2 kg beef chuck, cut into 5 cm chunks",
+     "750 ml red wine",
+     "150 g black olives",
+     "2 strips orange zest",
+     "2 onions, sliced",
+     "2 carrots, sliced",
+     "3 garlic cloves",
+     "1 tbsp herbes de Provence",
+     "2 tbsp olive oil",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Marinate the beef with the wine, onions, carrots, garlic, orange zest and herbs overnight in the fridge.",
+     "Lift out the meat, pat dry and brown it in batches in the olive oil in a heavy pot.",
+     "Return the meat with the marinade, season and bring to a gentle simmer.",
+     "Cover and cook on very low heat for 3–4 hours until the beef is tender.",
+     "Add the olives for the last 30 minutes, adjust seasoning and serve."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the beef before marinating; leaner cuts like round work with longer cooking.",
+    "Chill the finished stew and lift off the solidified fat from the surface before reheating.",
+    "Serve with steamed green vegetables instead of potatoes to keep the plate lighter."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Daube Provençale",
-      "origin": "France · Provence",
-      "intro": "Daube provençale is a slow braise of beef chunks marinated and cooked in red wine with black olives, strips of orange zest and herbes de Provence. After hours over low heat the meat turns fork-tender and the sauce becomes dark, glossy and fragrant with citrus and thyme. It is served hot as a hearty main, often with boiled potatoes or polenta on the side.",
-      "history": "Daube is a traditional Provençal stew whose name is usually linked to the daubière, a pot-bellied earthenware braising pot. It was long a dish for Sundays and festive meals in Provence, and leftovers are traditionally used in other local dishes.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "1.2 kg beef chuck, cut into 5 cm chunks",
-          "750 ml red wine",
-          "150 g black olives",
-          "2 strips orange zest",
-          "2 onions, sliced",
-          "2 carrots, sliced",
-          "3 garlic cloves",
-          "1 tbsp herbes de Provence",
-          "2 tbsp olive oil",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Marinate the beef with the wine, onions, carrots, garlic, orange zest and herbs overnight in the fridge.",
-          "Lift out the meat, pat dry and brown it in batches in the olive oil in a heavy pot.",
-          "Return the meat with the marinade, season and bring to a gentle simmer.",
-          "Cover and cook on very low heat for 3–4 hours until the beef is tender.",
-          "Add the olives for the last 30 minutes, adjust seasoning and serve."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the beef before marinating; leaner cuts like round work with longer cooking.",
-        "Chill the finished stew and lift off the solidified fat from the surface before reheating.",
-        "Serve with steamed green vegetables instead of potatoes to keep the plate lighter."
-      ]
-    },
-    "ar": {
-      "name": "دوب بروفانسال",
-      "origin": "فرنسا · بروفانس",
-      "intro": "دوب بروفانسال طبق من قطع لحم البقر المنقوعة والمطهوة ببطء في النبيذ الأحمر مع الزيتون الأسود وشرائح قشر البرتقال وأعشاب بروفانس. بعد ساعات على نار هادئة يصبح اللحم طرياً جداً وتتحول الصلصة إلى صلصة داكنة لامعة تفوح منها رائحة الحمضيات والزعتر. يقدم ساخناً طبقاً رئيسياً مشبعاً، غالباً مع البطاطا المسلوقة أو البولنتا.",
-      "history": "الدوب يخنة تقليدية من بروفانس، ويُربط اسمها عادة بـ«الدوبيير»، وهو قدر فخاري منتفخ للطهي البطيء. وكان طويلاً طبقاً لأيام الأحد والولائم في بروفانس، وتُستخدم بقاياه تقليدياً في أطباق محلية أخرى.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "1.2 كغ لحم بقر من الكتف، مقطع إلى مكعبات 5 سم",
-          "750 مل نبيذ أحمر",
-          "150 غ زيتون أسود",
-          "شريحتان من قشر البرتقال",
-          "2 بصلة مقطعة شرائح",
-          "2 جزرة مقطعة",
-          "3 فصوص ثوم",
-          "1 ملعقة كبيرة أعشاب بروفانس",
-          "2 ملعقة كبيرة زيت زيتون",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "انقع اللحم في النبيذ مع البصل والجزر والثوم وقشر البرتقال والأعشاب طوال الليل في الثلاجة.",
-          "أخرج اللحم وجففه ثم حمّره على دفعات في زيت الزيتون في قدر ثقيل.",
-          "أعد اللحم مع النقيع، وتبّل واتركه حتى يبدأ بالغليان الخفيف.",
-          "غطِّ القدر واطهه على نار هادئة جداً 3–4 ساعات حتى يطرى اللحم.",
-          "أضف الزيتون في آخر 30 دقيقة، وعدّل التتبيل وقدّمه."
-        ]
-      },
-      "tips": [
-        "أزل الدهون الظاهرة من اللحم قبل النقع؛ والقطع الأقل دهناً تنجح مع طهي أطول.",
-        "برّد اليخنة بعد الطهي وأزل الدهن المتجمد عن سطحها قبل التسخين.",
-        "قدّمها مع خضار خضراء مطهوة على البخار بدل البطاطا ليصبح الطبق أخف."
-      ]
-    },
-    "it": {
-      "name": "Daube provençale",
-      "origin": "Francia · Provenza",
-      "intro": "La daube provençale è uno stufato lento di bocconi di manzo marinati e cotti nel vino rosso con olive nere, strisce di scorza d'arancia ed erbe di Provenza. Dopo ore a fuoco basso la carne diventa tenerissima e il sugo scuro, lucido e profumato di agrumi e timo. Si serve calda come secondo sostanzioso, spesso con patate lesse o polenta di contorno.",
-      "history": "La daube è uno stufato tradizionale provenzale il cui nome viene di solito collegato alla daubière, una pentola panciuta di terracotta per brasare. È stata a lungo un piatto della domenica e delle feste in Provenza, e gli avanzi si usano tradizionalmente in altri piatti locali.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "1,2 kg di spalla di manzo, a pezzi di 5 cm",
-          "750 ml di vino rosso",
-          "150 g di olive nere",
-          "2 strisce di scorza d'arancia",
-          "2 cipolle, affettate",
-          "2 carote, affettate",
-          "3 spicchi d'aglio",
-          "1 cucchiaio di erbe di Provenza",
-          "2 cucchiai di olio d'oliva",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Marina il manzo con vino, cipolle, carote, aglio, scorza d'arancia ed erbe per una notte in frigorifero.",
-          "Togli la carne, asciugala e rosolala a più riprese nell'olio d'oliva in una pentola pesante.",
-          "Rimetti la carne con la marinata, regola di sale e porta a leggero bollore.",
-          "Copri e cuoci a fuoco bassissimo per 3–4 ore, finché il manzo è tenero.",
-          "Aggiungi le olive negli ultimi 30 minuti, aggiusta di sapore e servi."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dal manzo prima di marinarlo; i tagli più magri come la noce vanno bene con una cottura più lunga.",
-        "Fai raffreddare lo stufato pronto e togli il grasso solidificato in superficie prima di riscaldarlo.",
-        "Servilo con verdure verdi al vapore invece che con le patate per alleggerire il piatto."
-      ]
-    },
-    "el": {
-      "name": "Ντομπ προβανσάλ",
-      "origin": "Γαλλία · Προβηγκία",
-      "intro": "Η ντομπ προβανσάλ είναι αργομαγειρεμένο κοκκινιστό από κομμάτια μοσχαριού μαριναρισμένα και μαγειρεμένα σε κόκκινο κρασί με μαύρες ελιές, λωρίδες φλούδας πορτοκαλιού και μυρωδικά της Προβηγκίας. Μετά από ώρες σε χαμηλή φωτιά το κρέας λιώνει στο πιρούνι και η σάλτσα γίνεται σκούρα, γυαλιστερή και μυρωδάτη από εσπεριδοειδή και θυμάρι. Σερβίρεται ζεστή ως χορταστικό κυρίως πιάτο, συχνά με βραστές πατάτες ή πολέντα για συνοδευτικό.",
-      "history": "Η ντομπ είναι παραδοσιακό προβηγκιανό φαγητό κατσαρόλας, το όνομα του οποίου συνδέεται συνήθως με τη ντομπιέρ, ένα φουσκωτό πήλινο σκεύος για αργό μαγείρεμα. Ήταν για πολύ καιρό φαγητό της Κυριακής και των γιορτών στην Προβηγκία, και τα περισσεύματα χρησιμοποιούνται παραδοσιακά σε άλλα τοπικά πιάτα.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "1,2 κιλό μοσχαρίσια σπάλα, σε κομμάτια 5 εκ.",
-          "750 ml κόκκινο κρασί",
-          "150 γρ. μαύρες ελιές",
-          "2 λωρίδες φλούδα πορτοκαλιού",
-          "2 κρεμμύδια, σε φέτες",
-          "2 καρότα, σε ροδέλες",
-          "3 σκελίδες σκόρδο",
-          "1 κ.σ. μυρωδικά Προβηγκίας",
-          "2 κ.σ. ελαιόλαδο",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Μαρινάρετε το μοσχάρι με το κρασί, τα κρεμμύδια, τα καρότα, το σκόρδο, τη φλούδα πορτοκαλιού και τα μυρωδικά όλη τη νύχτα στο ψυγείο.",
-          "Βγάλτε το κρέας, στεγνώστε το και σοτάρετέ το σε δόσεις στο ελαιόλαδο σε βαριά κατσαρόλα.",
-          "Επιστρέψτε το κρέας με τη μαρινάδα, αλατοπιπερώστε και φέρτε σε απαλό βράσιμο.",
-          "Σκεπάστε και μαγειρέψτε σε πολύ χαμηλή φωτιά για 3–4 ώρες, μέχρι να μαλακώσει το μοσχάρι.",
-          "Προσθέστε τις ελιές τα τελευταία 30 λεπτά, διορθώστε το αλάτι και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το μοσχάρι πριν το μαρινάρετε· πιο άπαχα κομμάτια, όπως το στρογγυλό, πετυχαίνουν με μεγαλύτερο μαγείρεμα.",
-        "Βάλτε το έτοιμο φαγητό στο ψυγείο και αφαιρέστε το πηγμένο λίπος από την επιφάνεια πριν το ξαναζεστάνετε.",
-        "Σερβίρετε με πράσινα λαχανικά στον ατμό αντί για πατάτες για πιο ελαφρύ πιάτο."
-      ]
-    },
-    "ru": {
-      "name": "Дауб по-провансальски",
-      "origin": "Франция · Прованс",
-      "intro": "Дауб по-провансальски — медленно тушёные куски говядины, замаринованные и приготовленные в красном вине с чёрными оливками, полосками апельсиновой цедры и прованскими травами. После нескольких часов на слабом огне мясо становится мягким, как от вилки, а соус — тёмным, глянцевым и ароматным от цитруса и тимьяна. Подают горячим как сытное основное блюдо, часто с отварным картофелем или полентой.",
-      "history": "Дауб — традиционное провансальское рагу, название которого обычно связывают с дубьер — пузатым глиняным горшком для тушения. Долгое время это блюдо готовили по воскресеньям и на праздничные обеды в Провансе, а остатки традиционно использовали в других местных блюдах.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 240,
-        "ingredients": [
-          "1,2 кг говяжьей лопатки, нарезанной кусками по 5 см",
-          "750 мл красного вина",
-          "150 г чёрных оливок",
-          "2 полоски апельсиновой цедры",
-          "2 луковицы, нарезанные",
-          "2 моркови, нарезанные",
-          "3 зубчика чеснока",
-          "1 ст. л. прованских трав",
-          "2 ст. л. оливкового масла",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Замаринуйте говядину с вином, луком, морковью, чесноком, апельсиновой цедрой и травами на ночь в холодильнике.",
-          "Выньте мясо, обсушите и обжарьте порциями в оливковом масле в тяжёлой кастрюле.",
-          "Верните мясо с маринадом, приправьте и доведите до слабого кипения.",
-          "Накройте крышкой и тушите на очень слабом огне 3–4 часа до мягкости говядины.",
-          "Добавьте оливки за последние 30 минут, поправьте приправы и подавайте."
-        ]
-      },
-      "tips": [
-        "Срежьте с говядины видимый жир перед маринованием; более постные части, например окорок, подходят при более долгом тушении.",
-        "Охладите готовое рагу и снимите застывший жир с поверхности перед разогревом.",
-        "Подавайте с овощами на пару вместо картофеля, чтобы тарелка была легче."
-      ],
-      "name_inline": "дауб по-провансальски"
-    }
+  "ar": {
+   "name": "دوب بروفانسال",
+   "origin": "فرنسا · بروفانس",
+   "intro": "دوب بروفانسال طبق من قطع لحم البقر المنقوعة والمطهوة ببطء في النبيذ الأحمر مع الزيتون الأسود وشرائح قشر البرتقال وأعشاب بروفانس. بعد ساعات على نار هادئة يصبح اللحم طرياً جداً وتتحول الصلصة إلى صلصة داكنة لامعة تفوح منها رائحة الحمضيات والزعتر. يقدم ساخناً طبقاً رئيسياً مشبعاً، غالباً مع البطاطا المسلوقة أو البولنتا.",
+   "history": "الدوب يخنة تقليدية من بروفانس، ويُربط اسمها عادة بـ«الدوبيير»، وهو قدر فخاري منتفخ للطهي البطيء. وكان طويلاً طبقاً لأيام الأحد والولائم في بروفانس، وتُستخدم بقاياه تقليدياً في أطباق محلية أخرى.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "1.2 كغ لحم بقر من الكتف، مقطع إلى مكعبات 5 سم",
+     "750 مل نبيذ أحمر",
+     "150 غ زيتون أسود",
+     "شريحتان من قشر البرتقال",
+     "2 بصلة مقطعة شرائح",
+     "2 جزرة مقطعة",
+     "3 فصوص ثوم",
+     "1 ملعقة كبيرة أعشاب بروفانس",
+     "2 ملعقة كبيرة زيت زيتون",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "انقع اللحم في النبيذ مع البصل والجزر والثوم وقشر البرتقال والأعشاب طوال الليل في الثلاجة.",
+     "أخرج اللحم وجففه ثم حمّره على دفعات في زيت الزيتون في قدر ثقيل.",
+     "أعد اللحم مع النقيع، وتبّل واتركه حتى يبدأ بالغليان الخفيف.",
+     "غطِّ القدر واطهه على نار هادئة جداً 3–4 ساعات حتى يطرى اللحم.",
+     "أضف الزيتون في آخر 30 دقيقة، وعدّل التتبيل وقدّمه."
+    ]
+   },
+   "tips": [
+    "أزل الدهون الظاهرة من اللحم قبل النقع؛ والقطع الأقل دهناً تنجح مع طهي أطول.",
+    "برّد اليخنة بعد الطهي وأزل الدهن المتجمد عن سطحها قبل التسخين.",
+    "قدّمها مع خضار خضراء مطهوة على البخار بدل البطاطا ليصبح الطبق أخف."
+   ]
+  },
+  "it": {
+   "name": "Daube provençale",
+   "origin": "Francia · Provenza",
+   "intro": "La daube provençale è uno stufato lento di bocconi di manzo marinati e cotti nel vino rosso con olive nere, strisce di scorza d'arancia ed erbe di Provenza. Dopo ore a fuoco basso la carne diventa tenerissima e il sugo scuro, lucido e profumato di agrumi e timo. Si serve calda come secondo sostanzioso, spesso con patate lesse o polenta di contorno.",
+   "history": "La daube è uno stufato tradizionale provenzale il cui nome viene di solito collegato alla daubière, una pentola panciuta di terracotta per brasare. È stata a lungo un piatto della domenica e delle feste in Provenza, e gli avanzi si usano tradizionalmente in altri piatti locali.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "1,2 kg di spalla di manzo, a pezzi di 5 cm",
+     "750 ml di vino rosso",
+     "150 g di olive nere",
+     "2 strisce di scorza d'arancia",
+     "2 cipolle, affettate",
+     "2 carote, affettate",
+     "3 spicchi d'aglio",
+     "1 cucchiaio di erbe di Provenza",
+     "2 cucchiai di olio d'oliva",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Marina il manzo con vino, cipolle, carote, aglio, scorza d'arancia ed erbe per una notte in frigorifero.",
+     "Togli la carne, asciugala e rosolala a più riprese nell'olio d'oliva in una pentola pesante.",
+     "Rimetti la carne con la marinata, regola di sale e porta a leggero bollore.",
+     "Copri e cuoci a fuoco bassissimo per 3–4 ore, finché il manzo è tenero.",
+     "Aggiungi le olive negli ultimi 30 minuti, aggiusta di sapore e servi."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dal manzo prima di marinarlo; i tagli più magri come la noce vanno bene con una cottura più lunga.",
+    "Fai raffreddare lo stufato pronto e togli il grasso solidificato in superficie prima di riscaldarlo.",
+    "Servilo con verdure verdi al vapore invece che con le patate per alleggerire il piatto."
+   ]
+  },
+  "el": {
+   "name": "Ντομπ προβανσάλ",
+   "origin": "Γαλλία · Προβηγκία",
+   "intro": "Η ντομπ προβανσάλ είναι αργομαγειρεμένο κοκκινιστό από κομμάτια μοσχαριού μαριναρισμένα και μαγειρεμένα σε κόκκινο κρασί με μαύρες ελιές, λωρίδες φλούδας πορτοκαλιού και μυρωδικά της Προβηγκίας. Μετά από ώρες σε χαμηλή φωτιά το κρέας λιώνει στο πιρούνι και η σάλτσα γίνεται σκούρα, γυαλιστερή και μυρωδάτη από εσπεριδοειδή και θυμάρι. Σερβίρεται ζεστή ως χορταστικό κυρίως πιάτο, συχνά με βραστές πατάτες ή πολέντα για συνοδευτικό.",
+   "history": "Η ντομπ είναι παραδοσιακό προβηγκιανό φαγητό κατσαρόλας, το όνομα του οποίου συνδέεται συνήθως με τη ντομπιέρ, ένα φουσκωτό πήλινο σκεύος για αργό μαγείρεμα. Ήταν για πολύ καιρό φαγητό της Κυριακής και των γιορτών στην Προβηγκία, και τα περισσεύματα χρησιμοποιούνται παραδοσιακά σε άλλα τοπικά πιάτα.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "1,2 κιλό μοσχαρίσια σπάλα, σε κομμάτια 5 εκ.",
+     "750 ml κόκκινο κρασί",
+     "150 γρ. μαύρες ελιές",
+     "2 λωρίδες φλούδα πορτοκαλιού",
+     "2 κρεμμύδια, σε φέτες",
+     "2 καρότα, σε ροδέλες",
+     "3 σκελίδες σκόρδο",
+     "1 κ.σ. μυρωδικά Προβηγκίας",
+     "2 κ.σ. ελαιόλαδο",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Μαρινάρετε το μοσχάρι με το κρασί, τα κρεμμύδια, τα καρότα, το σκόρδο, τη φλούδα πορτοκαλιού και τα μυρωδικά όλη τη νύχτα στο ψυγείο.",
+     "Βγάλτε το κρέας, στεγνώστε το και σοτάρετέ το σε δόσεις στο ελαιόλαδο σε βαριά κατσαρόλα.",
+     "Επιστρέψτε το κρέας με τη μαρινάδα, αλατοπιπερώστε και φέρτε σε απαλό βράσιμο.",
+     "Σκεπάστε και μαγειρέψτε σε πολύ χαμηλή φωτιά για 3–4 ώρες, μέχρι να μαλακώσει το μοσχάρι.",
+     "Προσθέστε τις ελιές τα τελευταία 30 λεπτά, διορθώστε το αλάτι και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το μοσχάρι πριν το μαρινάρετε· πιο άπαχα κομμάτια, όπως το στρογγυλό, πετυχαίνουν με μεγαλύτερο μαγείρεμα.",
+    "Βάλτε το έτοιμο φαγητό στο ψυγείο και αφαιρέστε το πηγμένο λίπος από την επιφάνεια πριν το ξαναζεστάνετε.",
+    "Σερβίρετε με πράσινα λαχανικά στον ατμό αντί για πατάτες για πιο ελαφρύ πιάτο."
+   ]
+  },
+  "ru": {
+   "name": "Дауб по-провансальски",
+   "origin": "Франция · Прованс",
+   "intro": "Дауб по-провансальски — медленно тушёные куски говядины, замаринованные и приготовленные в красном вине с чёрными оливками, полосками апельсиновой цедры и прованскими травами. После нескольких часов на слабом огне мясо становится мягким, как от вилки, а соус — тёмным, глянцевым и ароматным от цитруса и тимьяна. Подают горячим как сытное основное блюдо, часто с отварным картофелем или полентой.",
+   "history": "Дауб — традиционное провансальское рагу, название которого обычно связывают с дубьер — пузатым глиняным горшком для тушения. Долгое время это блюдо готовили по воскресеньям и на праздничные обеды в Провансе, а остатки традиционно использовали в других местных блюдах.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "1,2 кг говяжьей лопатки, нарезанной кусками по 5 см",
+     "750 мл красного вина",
+     "150 г чёрных оливок",
+     "2 полоски апельсиновой цедры",
+     "2 луковицы, нарезанные",
+     "2 моркови, нарезанные",
+     "3 зубчика чеснока",
+     "1 ст. л. прованских трав",
+     "2 ст. л. оливкового масла",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Замаринуйте говядину с вином, луком, морковью, чесноком, апельсиновой цедрой и травами на ночь в холодильнике.",
+     "Выньте мясо, обсушите и обжарьте порциями в оливковом масле в тяжёлой кастрюле.",
+     "Верните мясо с маринадом, приправьте и доведите до слабого кипения.",
+     "Накройте крышкой и тушите на очень слабом огне 3–4 часа до мягкости говядины.",
+     "Добавьте оливки за последние 30 минут, поправьте приправы и подавайте."
+    ]
+   },
+   "tips": [
+    "Срежьте с говядины видимый жир перед маринованием; более постные части, например окорок, подходят при более долгом тушении.",
+    "Охладите готовое рагу и снимите застывший жир с поверхности перед разогревом.",
+    "Подавайте с овощами на пару вместо картофеля, чтобы тарелка была легче."
+   ],
+   "name_inline": "дауб по-провансальски"
+  },
+  "es": {
+   "name": "Daube provenzal",
+   "origin": "Francia · Provenza",
+   "intro": "El daube provenzal es un guiso lento de trozos de res marinados y cocinados en vino tinto con aceitunas negras, tiras de cáscara de naranja y hierbas provenzales. Tras horas a fuego muy bajo, la carne queda tan tierna que se deshace con el tenedor y la salsa se vuelve oscura, brillante y aromática, con notas de cítricos y tomillo. Se sirve caliente como plato fuerte, a menudo con papas cocidas o polenta.",
+   "history": "El daube es un guiso tradicional de Provenza cuyo nombre suele vincularse con la daubière, una olla de barro panzuda para estofar. Fue durante mucho tiempo un plato de domingos y comidas festivas, y las sobras se aprovechan tradicionalmente en otras recetas de la región.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 240,
+    "ingredients": [
+     "1.2 kg de falda de res, cortada en trozos de 5 cm",
+     "750 ml de vino tinto",
+     "150 g de aceitunas negras",
+     "2 tiras de cáscara de naranja",
+     "2 cebollas, en rodajas",
+     "2 zanahorias, en rodajas",
+     "3 dientes de ajo",
+     "1 cda. de hierbas provenzales",
+     "2 cda. de aceite de oliva",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Marina la carne con el vino, las cebollas, las zanahorias, el ajo, la cáscara de naranja y las hierbas toda la noche en el refrigerador.",
+     "Saca la carne, sécala con papel y dórala por tandas en el aceite de oliva, en una olla pesada.",
+     "Devuelve la carne a la olla con la marinada, sazona y lleva a un hervor suave.",
+     "Tapa y cocina a fuego muy bajo durante 3–4 horas, hasta que la carne esté tierna.",
+     "Agrega las aceitunas durante los últimos 30 minutos, rectifica la sazón y sirve."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible de la carne antes de marinarla; los cortes más magros, como la pierna, funcionan con una cocción más larga.",
+    "Enfría el guiso terminado y retira la grasa solidificada de la superficie antes de recalentarlo.",
+    "Acompáñalo con verduras verdes al vapor en lugar de papas para un plato más ligero."
+   ],
+   "name_inline": "el daube provenzal"
   }
+ }
 }

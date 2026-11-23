@@ -1,190 +1,226 @@
 {
-  "db_key": "soto_ayam",
-  "slug": "soto-ayam",
-  "emoji": "🍲",
-  "portion_g": 400,
-  "country": "ID",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "soto_ayam",
+ "slug": "soto-ayam",
+ "emoji": "🍲",
+ "portion_g": 400,
+ "country": "ID",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Soto Ayam",
+   "origin": "Indonesia · Java",
+   "intro": "Soto ayam is Indonesia's golden chicken soup: a clear broth tinted yellow with turmeric and perfumed with lemongrass, ladled over shredded chicken, glass noodles, bean sprouts and a halved boiled egg. It tastes light, fragrant and gently tangy once a squeeze of lime goes in, and it is eaten for breakfast, lunch or a late supper, often with rice on the side.",
+   "history": "Soto is a family of spiced soups found across Indonesia, and soto ayam is the most widespread version, with regional styles from Lamongan, Madura and Kudus. It is sold everywhere from street carts to home kitchens across Java and beyond.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "600 g chicken thighs or breast",
+     "2 lemongrass stalks, bruised",
+     "1 tsp ground turmeric (or 3 cm fresh)",
+     "3 garlic cloves and 4 shallots, pounded",
+     "3 cm ginger, sliced",
+     "100 g glass noodles",
+     "150 g bean sprouts",
+     "4 eggs, boiled and halved",
+     "1.5 l water, salt, 1 tbsp oil",
+     "Lime wedges, celery leaves, chilli"
+    ],
+    "steps": [
+     "Fry the pounded garlic, shallots, ginger and turmeric in the oil for 2–3 minutes until fragrant.",
+     "Add the water, lemongrass, chicken and salt; simmer 30–35 minutes until the chicken is cooked.",
+     "Lift out the chicken, shred it and return the broth to a gentle simmer.",
+     "Soak the glass noodles in hot water for 5 minutes and drain; blanch the bean sprouts for 30 seconds.",
+     "Divide noodles, sprouts and chicken between bowls, add half an egg and ladle over the hot broth.",
+     "Finish with celery leaves, chilli and lime."
+    ]
+   },
+   "tips": [
+    "Use skinless breast and skim the fat off the broth to keep it lean.",
+    "Fill the bowl with extra bean sprouts and fewer noodles for more volume per calorie.",
+    "Skip a side of rice — the noodles already provide the starch."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Soto Ayam",
-      "origin": "Indonesia · Java",
-      "intro": "Soto ayam is Indonesia's golden chicken soup: a clear broth tinted yellow with turmeric and perfumed with lemongrass, ladled over shredded chicken, glass noodles, bean sprouts and a halved boiled egg. It tastes light, fragrant and gently tangy once a squeeze of lime goes in, and it is eaten for breakfast, lunch or a late supper, often with rice on the side.",
-      "history": "Soto is a family of spiced soups found across Indonesia, and soto ayam is the most widespread version, with regional styles from Lamongan, Madura and Kudus. It is sold everywhere from street carts to home kitchens across Java and beyond.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "600 g chicken thighs or breast",
-          "2 lemongrass stalks, bruised",
-          "1 tsp ground turmeric (or 3 cm fresh)",
-          "3 garlic cloves and 4 shallots, pounded",
-          "3 cm ginger, sliced",
-          "100 g glass noodles",
-          "150 g bean sprouts",
-          "4 eggs, boiled and halved",
-          "1.5 l water, salt, 1 tbsp oil",
-          "Lime wedges, celery leaves, chilli"
-        ],
-        "steps": [
-          "Fry the pounded garlic, shallots, ginger and turmeric in the oil for 2–3 minutes until fragrant.",
-          "Add the water, lemongrass, chicken and salt; simmer 30–35 minutes until the chicken is cooked.",
-          "Lift out the chicken, shred it and return the broth to a gentle simmer.",
-          "Soak the glass noodles in hot water for 5 minutes and drain; blanch the bean sprouts for 30 seconds.",
-          "Divide noodles, sprouts and chicken between bowls, add half an egg and ladle over the hot broth.",
-          "Finish with celery leaves, chilli and lime."
-        ]
-      },
-      "tips": [
-        "Use skinless breast and skim the fat off the broth to keep it lean.",
-        "Fill the bowl with extra bean sprouts and fewer noodles for more volume per calorie.",
-        "Skip a side of rice — the noodles already provide the starch."
-      ]
-    },
-    "ar": {
-      "name": "سوتو أيام (حساء الدجاج الإندونيسي)",
-      "origin": "إندونيسيا · جاوة",
-      "intro": "سوتو أيام هو حساء الدجاج الذهبي في إندونيسيا: مرق صافٍ يصبغه الكركم باللون الأصفر وتعطّره عشبة الليمون، يُسكب فوق الدجاج المنسّل والشعيرية الزجاجية وبراعم الفاصولياء ونصف بيضة مسلوقة. طعمه خفيف وعطري وحامض قليلاً بعد عصر الليمون الأخضر، ويؤكل في الفطور أو الغداء أو العشاء، وغالباً مع الأرز جانباً.",
-      "history": "السوتو عائلة من الحساءات المتبّلة المنتشرة في أنحاء إندونيسيا، وسوتو أيام هو أكثرها شيوعاً، وله أساليب محلية في لامونغان ومادورا وكودوس. ويُباع في كل مكان من عربات الشارع إلى المطابخ المنزلية في جاوة وخارجها.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "600 غ أفخاذ أو صدور دجاج",
-          "2 عود عشب ليمون مهروس",
-          "1 ملعقة صغيرة كركم مطحون (أو 3 سم طازج)",
-          "3 فصوص ثوم و4 حبات كرّاث أحمر صغير مدقوقة",
-          "3 سم زنجبيل مقطّع شرائح",
-          "100 غ شعيرية زجاجية",
-          "150 غ براعم فاصولياء",
-          "4 بيضات مسلوقة مقسومة",
-          "1.5 لتر ماء، ملح، 1 ملعقة كبيرة زيت",
-          "ليمون أخضر، أوراق كرفس، فلفل حار"
-        ],
-        "steps": [
-          "اقلِ الثوم والكرّاث والزنجبيل والكركم في الزيت 2–3 دقائق حتى تفوح الرائحة.",
-          "أضف الماء وعشب الليمون والدجاج والملح، واترك القدر يغلي بهدوء 30–35 دقيقة حتى ينضج الدجاج.",
-          "أخرج الدجاج ونسّله، وأبقِ المرق على نار هادئة.",
-          "انقع الشعيرية في ماء ساخن 5 دقائق وصفّها، واسلق البراعم 30 ثانية.",
-          "وزّع الشعيرية والبراعم والدجاج في الأطباق، وأضف نصف بيضة واسكب المرق الساخن.",
-          "زيّن بأوراق الكرفس والفلفل الحار والليمون."
-        ]
-      },
-      "tips": [
-        "استخدم صدور دجاج بلا جلد وأزل الدهن عن سطح المرق.",
-        "زد براعم الفاصولياء وقلّل الشعيرية لحجم أكبر بسعرات أقل.",
-        "استغنِ عن الأرز الجانبي، فالشعيرية تكفي كنشويات."
-      ]
-    },
-    "it": {
-      "name": "Soto ayam",
-      "origin": "Indonesia · Giava",
-      "intro": "Il soto ayam è la dorata zuppa di pollo indonesiana: un brodo limpido tinto di giallo dalla curcuma e profumato di citronella, versato su pollo sfilacciato, spaghetti di vetro, germogli di soia e un uovo sodo tagliato a metà. Ha un gusto leggero, aromatico e delicatamente acidulo una volta aggiunta una spruzzata di lime, e si mangia a colazione, a pranzo o a cena tardi, spesso con riso a parte.",
-      "history": "Il soto è una famiglia di zuppe speziate diffuse in tutta l'Indonesia, e il soto ayam ne è la versione più diffusa, con stili regionali di Lamongan, Madura e Kudus. Si vende ovunque, dai carretti di strada alle cucine di casa, a Giava e oltre.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "600 g di cosce o petto di pollo",
-          "2 gambi di citronella, schiacciati",
-          "1 cucchiaino di curcuma in polvere (o 3 cm di curcuma fresca)",
-          "3 spicchi d'aglio e 4 scalogni, pestati",
-          "3 cm di zenzero, a fette",
-          "100 g di spaghetti di vetro",
-          "150 g di germogli di soia",
-          "4 uova, sode e tagliate a metà",
-          "1,5 l di acqua, sale, 1 cucchiaio di olio",
-          "Spicchi di lime, foglie di sedano, peperoncino"
-        ],
-        "steps": [
-          "Soffriggi nell'olio l'aglio e gli scalogni pestati, lo zenzero e la curcuma per 2–3 minuti finché profumano.",
-          "Aggiungi l'acqua, la citronella, il pollo e il sale; cuoci a fuoco lento per 30–35 minuti finché il pollo è cotto.",
-          "Togli il pollo, sfilaccialo e riporta il brodo a un leggero bollore.",
-          "Metti a bagno gli spaghetti di vetro in acqua calda per 5 minuti e scolali; sbollenta i germogli di soia per 30 secondi.",
-          "Dividi spaghetti, germogli e pollo nelle ciotole, aggiungi mezzo uovo e versa sopra il brodo caldo.",
-          "Completa con foglie di sedano, peperoncino e lime."
-        ]
-      },
-      "tips": [
-        "Usa petto senza pelle e sgrassa il brodo per mantenerlo leggero.",
-        "Riempi la ciotola con più germogli di soia e meno spaghetti per avere più volume a parità di calorie.",
-        "Evita il riso a parte: gli spaghetti forniscono già l'amido."
-      ]
-    },
-    "el": {
-      "name": "Σότο αγιάμ",
-      "origin": "Ινδονησία · Ιάβα",
-      "intro": "Το σότο αγιάμ είναι η χρυσαφένια κοτόσουπα της Ινδονησίας: ένας διαυγής ζωμός βαμμένος κίτρινος από τον κουρκουμά και αρωματισμένος με λεμονόχορτο, που ρίχνεται πάνω σε ξεφτισμένο κοτόπουλο, γυάλινα νουντλς, φύτρες σόγιας και ένα βραστό αυγό κομμένο στη μέση. Η γεύση του είναι ελαφριά, αρωματική και διακριτικά ξινή μόλις προστεθεί λίγος χυμός λάιμ, και τρώγεται για πρωινό, μεσημεριανό ή αργά το βράδυ, συχνά με ρύζι στο πλάι.",
-      "history": "Το σότο είναι μια οικογένεια μυρωδάτων σουπών που απαντά σε όλη την Ινδονησία, και το σότο αγιάμ είναι η πιο διαδεδομένη εκδοχή, με τοπικά στυλ από τη Λαμονγκάν, τη Μαδούρα και το Κούντους. Πουλιέται παντού, από καροτσάκια του δρόμου μέχρι τις κουζίνες των σπιτιών, στην Ιάβα και πέρα από αυτήν.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "600 γρ. μπούτια ή στήθος κοτόπουλου",
-          "2 κοτσάνια λεμονόχορτο, χτυπημένα",
-          "1 κ.γ. κουρκουμάς σε σκόνη (ή 3 εκ. φρέσκος)",
-          "3 σκελίδες σκόρδο και 4 εσαλότ, κοπανισμένα",
-          "3 εκ. τζίντζερ, σε φέτες",
-          "100 γρ. γυάλινα νουντλς",
-          "150 γρ. φύτρες σόγιας",
-          "4 αυγά, βραστά και κομμένα στη μέση",
-          "1,5 λίτρο νερό, αλάτι, 1 κ.σ. λάδι",
-          "Φέτες λάιμ, φύλλα σέλινου, τσίλι"
-        ],
-        "steps": [
-          "Τσιγαρίστε στο λάδι το κοπανισμένο σκόρδο και τα εσαλότ, το τζίντζερ και τον κουρκουμά για 2–3 λεπτά μέχρι να μοσχοβολήσουν.",
-          "Προσθέστε το νερό, το λεμονόχορτο, το κοτόπουλο και αλάτι· σιγοβράστε 30–35 λεπτά μέχρι να μαγειρευτεί το κοτόπουλο.",
-          "Βγάλτε το κοτόπουλο, ξεφτίστε το και αφήστε τον ζωμό να σιγοβράζει απαλά.",
-          "Μουλιάστε τα γυάλινα νουντλς σε ζεστό νερό για 5 λεπτά και σουρώστε τα· ζεματίστε τις φύτρες σόγιας για 30 δευτερόλεπτα.",
-          "Μοιράστε νουντλς, φύτρες και κοτόπουλο στα μπολ, προσθέστε μισό αυγό και ρίξτε από πάνω τον καυτό ζωμό.",
-          "Τελειώστε με φύλλα σέλινου, τσίλι και λάιμ."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε στήθος χωρίς πέτσα και ξαφρίστε το λίπος από τον ζωμό για να μείνει ελαφρύς.",
-        "Γεμίστε το μπολ με περισσότερες φύτρες σόγιας και λιγότερα νουντλς για περισσότερο όγκο ανά θερμίδα.",
-        "Παραλείψτε το ρύζι στο πλάι: τα νουντλς ήδη δίνουν το άμυλο."
-      ]
-    },
-    "ru": {
-      "name": "Сото аям",
-      "origin": "Индонезия · Ява",
-      "intro": "Сото аям — золотистый индонезийский куриный суп: прозрачный бульон, подкрашенный куркумой и ароматизированный лемонграссом, разливают поверх разобранной курицы, стеклянной лапши, ростков фасоли и половинки варёного яйца. На вкус он лёгкий, ароматный и слегка кисловатый после выжатого сока лайма, его едят на завтрак, обед или поздний ужин, часто с рисом на гарнир.",
-      "history": "Сото — семейство пряных супов, распространённых по всей Индонезии, а сото аям — самая популярная версия, с региональными стилями из Ламонгана, Мадуры и Кудуса. Его продают повсюду: от уличных тележек до домашних кухонь на Яве и за её пределами.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "600 г куриных бёдер или грудки",
-          "2 стебля лемонграсса, слегка раздавленных",
-          "1 ч. л. молотой куркумы (или 3 см свежей)",
-          "3 зубчика чеснока и 4 шалота, растёртых",
-          "3 см имбиря, нарезанного",
-          "100 г стеклянной лапши",
-          "150 г ростков фасоли",
-          "4 яйца, сваренных и разрезанных пополам",
-          "1,5 л воды, соль, 1 ст. л. масла",
-          "Дольки лайма, листья сельдерея, чили"
-        ],
-        "steps": [
-          "Обжаривайте растёртые чеснок, шалот, имбирь и куркуму в масле 2–3 минуты до аромата.",
-          "Добавьте воду, лемонграсс, курицу и соль; варите 30–35 минут, пока курица не приготовится.",
-          "Выньте курицу, разберите на волокна и верните бульон на слабый огонь.",
-          "Замочите стеклянную лапшу в горячей воде на 5 минут и слейте воду; бланшируйте ростки фасоли 30 секунд.",
-          "Разложите лапшу, ростки и курицу по тарелкам, добавьте половинку яйца и залейте горячим бульоном.",
-          "Украсьте листьями сельдерея, чили и лаймом."
-        ]
-      },
-      "tips": [
-        "Берите куриную грудку без кожи и снимайте жир с бульона, чтобы суп был постным.",
-        "Наполните тарелку дополнительными ростками фасоли и меньшим количеством лапши — объёма больше на то же количество калорий.",
-        "Откажитесь от гарнира из риса: лапша уже даёт крахмал."
-      ],
-      "name_inline": "сото аям"
-    }
+  "ar": {
+   "name": "سوتو أيام (حساء الدجاج الإندونيسي)",
+   "origin": "إندونيسيا · جاوة",
+   "intro": "سوتو أيام هو حساء الدجاج الذهبي في إندونيسيا: مرق صافٍ يصبغه الكركم باللون الأصفر وتعطّره عشبة الليمون، يُسكب فوق الدجاج المنسّل والشعيرية الزجاجية وبراعم الفاصولياء ونصف بيضة مسلوقة. طعمه خفيف وعطري وحامض قليلاً بعد عصر الليمون الأخضر، ويؤكل في الفطور أو الغداء أو العشاء، وغالباً مع الأرز جانباً.",
+   "history": "السوتو عائلة من الحساءات المتبّلة المنتشرة في أنحاء إندونيسيا، وسوتو أيام هو أكثرها شيوعاً، وله أساليب محلية في لامونغان ومادورا وكودوس. ويُباع في كل مكان من عربات الشارع إلى المطابخ المنزلية في جاوة وخارجها.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "600 غ أفخاذ أو صدور دجاج",
+     "2 عود عشب ليمون مهروس",
+     "1 ملعقة صغيرة كركم مطحون (أو 3 سم طازج)",
+     "3 فصوص ثوم و4 حبات كرّاث أحمر صغير مدقوقة",
+     "3 سم زنجبيل مقطّع شرائح",
+     "100 غ شعيرية زجاجية",
+     "150 غ براعم فاصولياء",
+     "4 بيضات مسلوقة مقسومة",
+     "1.5 لتر ماء، ملح، 1 ملعقة كبيرة زيت",
+     "ليمون أخضر، أوراق كرفس، فلفل حار"
+    ],
+    "steps": [
+     "اقلِ الثوم والكرّاث والزنجبيل والكركم في الزيت 2–3 دقائق حتى تفوح الرائحة.",
+     "أضف الماء وعشب الليمون والدجاج والملح، واترك القدر يغلي بهدوء 30–35 دقيقة حتى ينضج الدجاج.",
+     "أخرج الدجاج ونسّله، وأبقِ المرق على نار هادئة.",
+     "انقع الشعيرية في ماء ساخن 5 دقائق وصفّها، واسلق البراعم 30 ثانية.",
+     "وزّع الشعيرية والبراعم والدجاج في الأطباق، وأضف نصف بيضة واسكب المرق الساخن.",
+     "زيّن بأوراق الكرفس والفلفل الحار والليمون."
+    ]
+   },
+   "tips": [
+    "استخدم صدور دجاج بلا جلد وأزل الدهن عن سطح المرق.",
+    "زد براعم الفاصولياء وقلّل الشعيرية لحجم أكبر بسعرات أقل.",
+    "استغنِ عن الأرز الجانبي، فالشعيرية تكفي كنشويات."
+   ]
+  },
+  "it": {
+   "name": "Soto ayam",
+   "origin": "Indonesia · Giava",
+   "intro": "Il soto ayam è la dorata zuppa di pollo indonesiana: un brodo limpido tinto di giallo dalla curcuma e profumato di citronella, versato su pollo sfilacciato, spaghetti di vetro, germogli di soia e un uovo sodo tagliato a metà. Ha un gusto leggero, aromatico e delicatamente acidulo una volta aggiunta una spruzzata di lime, e si mangia a colazione, a pranzo o a cena tardi, spesso con riso a parte.",
+   "history": "Il soto è una famiglia di zuppe speziate diffuse in tutta l'Indonesia, e il soto ayam ne è la versione più diffusa, con stili regionali di Lamongan, Madura e Kudus. Si vende ovunque, dai carretti di strada alle cucine di casa, a Giava e oltre.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "600 g di cosce o petto di pollo",
+     "2 gambi di citronella, schiacciati",
+     "1 cucchiaino di curcuma in polvere (o 3 cm di curcuma fresca)",
+     "3 spicchi d'aglio e 4 scalogni, pestati",
+     "3 cm di zenzero, a fette",
+     "100 g di spaghetti di vetro",
+     "150 g di germogli di soia",
+     "4 uova, sode e tagliate a metà",
+     "1,5 l di acqua, sale, 1 cucchiaio di olio",
+     "Spicchi di lime, foglie di sedano, peperoncino"
+    ],
+    "steps": [
+     "Soffriggi nell'olio l'aglio e gli scalogni pestati, lo zenzero e la curcuma per 2–3 minuti finché profumano.",
+     "Aggiungi l'acqua, la citronella, il pollo e il sale; cuoci a fuoco lento per 30–35 minuti finché il pollo è cotto.",
+     "Togli il pollo, sfilaccialo e riporta il brodo a un leggero bollore.",
+     "Metti a bagno gli spaghetti di vetro in acqua calda per 5 minuti e scolali; sbollenta i germogli di soia per 30 secondi.",
+     "Dividi spaghetti, germogli e pollo nelle ciotole, aggiungi mezzo uovo e versa sopra il brodo caldo.",
+     "Completa con foglie di sedano, peperoncino e lime."
+    ]
+   },
+   "tips": [
+    "Usa petto senza pelle e sgrassa il brodo per mantenerlo leggero.",
+    "Riempi la ciotola con più germogli di soia e meno spaghetti per avere più volume a parità di calorie.",
+    "Evita il riso a parte: gli spaghetti forniscono già l'amido."
+   ]
+  },
+  "el": {
+   "name": "Σότο αγιάμ",
+   "origin": "Ινδονησία · Ιάβα",
+   "intro": "Το σότο αγιάμ είναι η χρυσαφένια κοτόσουπα της Ινδονησίας: ένας διαυγής ζωμός βαμμένος κίτρινος από τον κουρκουμά και αρωματισμένος με λεμονόχορτο, που ρίχνεται πάνω σε ξεφτισμένο κοτόπουλο, γυάλινα νουντλς, φύτρες σόγιας και ένα βραστό αυγό κομμένο στη μέση. Η γεύση του είναι ελαφριά, αρωματική και διακριτικά ξινή μόλις προστεθεί λίγος χυμός λάιμ, και τρώγεται για πρωινό, μεσημεριανό ή αργά το βράδυ, συχνά με ρύζι στο πλάι.",
+   "history": "Το σότο είναι μια οικογένεια μυρωδάτων σουπών που απαντά σε όλη την Ινδονησία, και το σότο αγιάμ είναι η πιο διαδεδομένη εκδοχή, με τοπικά στυλ από τη Λαμονγκάν, τη Μαδούρα και το Κούντους. Πουλιέται παντού, από καροτσάκια του δρόμου μέχρι τις κουζίνες των σπιτιών, στην Ιάβα και πέρα από αυτήν.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "600 γρ. μπούτια ή στήθος κοτόπουλου",
+     "2 κοτσάνια λεμονόχορτο, χτυπημένα",
+     "1 κ.γ. κουρκουμάς σε σκόνη (ή 3 εκ. φρέσκος)",
+     "3 σκελίδες σκόρδο και 4 εσαλότ, κοπανισμένα",
+     "3 εκ. τζίντζερ, σε φέτες",
+     "100 γρ. γυάλινα νουντλς",
+     "150 γρ. φύτρες σόγιας",
+     "4 αυγά, βραστά και κομμένα στη μέση",
+     "1,5 λίτρο νερό, αλάτι, 1 κ.σ. λάδι",
+     "Φέτες λάιμ, φύλλα σέλινου, τσίλι"
+    ],
+    "steps": [
+     "Τσιγαρίστε στο λάδι το κοπανισμένο σκόρδο και τα εσαλότ, το τζίντζερ και τον κουρκουμά για 2–3 λεπτά μέχρι να μοσχοβολήσουν.",
+     "Προσθέστε το νερό, το λεμονόχορτο, το κοτόπουλο και αλάτι· σιγοβράστε 30–35 λεπτά μέχρι να μαγειρευτεί το κοτόπουλο.",
+     "Βγάλτε το κοτόπουλο, ξεφτίστε το και αφήστε τον ζωμό να σιγοβράζει απαλά.",
+     "Μουλιάστε τα γυάλινα νουντλς σε ζεστό νερό για 5 λεπτά και σουρώστε τα· ζεματίστε τις φύτρες σόγιας για 30 δευτερόλεπτα.",
+     "Μοιράστε νουντλς, φύτρες και κοτόπουλο στα μπολ, προσθέστε μισό αυγό και ρίξτε από πάνω τον καυτό ζωμό.",
+     "Τελειώστε με φύλλα σέλινου, τσίλι και λάιμ."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε στήθος χωρίς πέτσα και ξαφρίστε το λίπος από τον ζωμό για να μείνει ελαφρύς.",
+    "Γεμίστε το μπολ με περισσότερες φύτρες σόγιας και λιγότερα νουντλς για περισσότερο όγκο ανά θερμίδα.",
+    "Παραλείψτε το ρύζι στο πλάι: τα νουντλς ήδη δίνουν το άμυλο."
+   ]
+  },
+  "ru": {
+   "name": "Сото аям",
+   "origin": "Индонезия · Ява",
+   "intro": "Сото аям — золотистый индонезийский куриный суп: прозрачный бульон, подкрашенный куркумой и ароматизированный лемонграссом, разливают поверх разобранной курицы, стеклянной лапши, ростков фасоли и половинки варёного яйца. На вкус он лёгкий, ароматный и слегка кисловатый после выжатого сока лайма, его едят на завтрак, обед или поздний ужин, часто с рисом на гарнир.",
+   "history": "Сото — семейство пряных супов, распространённых по всей Индонезии, а сото аям — самая популярная версия, с региональными стилями из Ламонгана, Мадуры и Кудуса. Его продают повсюду: от уличных тележек до домашних кухонь на Яве и за её пределами.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "600 г куриных бёдер или грудки",
+     "2 стебля лемонграсса, слегка раздавленных",
+     "1 ч. л. молотой куркумы (или 3 см свежей)",
+     "3 зубчика чеснока и 4 шалота, растёртых",
+     "3 см имбиря, нарезанного",
+     "100 г стеклянной лапши",
+     "150 г ростков фасоли",
+     "4 яйца, сваренных и разрезанных пополам",
+     "1,5 л воды, соль, 1 ст. л. масла",
+     "Дольки лайма, листья сельдерея, чили"
+    ],
+    "steps": [
+     "Обжаривайте растёртые чеснок, шалот, имбирь и куркуму в масле 2–3 минуты до аромата.",
+     "Добавьте воду, лемонграсс, курицу и соль; варите 30–35 минут, пока курица не приготовится.",
+     "Выньте курицу, разберите на волокна и верните бульон на слабый огонь.",
+     "Замочите стеклянную лапшу в горячей воде на 5 минут и слейте воду; бланшируйте ростки фасоли 30 секунд.",
+     "Разложите лапшу, ростки и курицу по тарелкам, добавьте половинку яйца и залейте горячим бульоном.",
+     "Украсьте листьями сельдерея, чили и лаймом."
+    ]
+   },
+   "tips": [
+    "Берите куриную грудку без кожи и снимайте жир с бульона, чтобы суп был постным.",
+    "Наполните тарелку дополнительными ростками фасоли и меньшим количеством лапши — объёма больше на то же количество калорий.",
+    "Откажитесь от гарнира из риса: лапша уже даёт крахмал."
+   ],
+   "name_inline": "сото аям"
+  },
+  "es": {
+   "name": "Soto ayam",
+   "origin": "Indonesia · Java",
+   "intro": "El soto ayam es la sopa dorada de pollo de Indonesia: un caldo claro teñido de amarillo con cúrcuma y perfumado con hierba de limón, que se sirve sobre pollo deshebrado, fideos de cristal, brotes de soya y medio huevo cocido. Es ligero, aromático y ligeramente ácido al añadirle un chorrito de limón, y se come en el desayuno, el almuerzo o una cena tardía, a menudo con arroz aparte.",
+   "history": "El soto es una familia de sopas especiadas que se encuentra en toda Indonesia, y el soto ayam es la versión más extendida, con estilos regionales como los de Lamongan, Madura y Kudus. Se vende en todas partes, desde puestos callejeros hasta cocinas caseras de Java y más allá.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "600 g de muslos o pechuga de pollo",
+     "2 tallos de hierba de limón, machacados",
+     "1 cdta. de cúrcuma molida (o 3 cm fresca)",
+     "3 dientes de ajo y 4 chalotes, machacados",
+     "3 cm de jengibre, en rodajas",
+     "100 g de fideos de cristal",
+     "150 g de brotes de soya",
+     "4 huevos, cocidos y partidos por la mitad",
+     "1,5 l de agua, sal, 1 cda. de aceite",
+     "Gajos de limón, hojas de apio, chile"
+    ],
+    "steps": [
+     "Sofríe el ajo, los chalotes, el jengibre y la cúrcuma machacados en el aceite de 2 a 3 minutos, hasta que suelten su aroma.",
+     "Agrega el agua, la hierba de limón, el pollo y la sal; cocina a fuego bajo de 30 a 35 minutos, hasta que el pollo esté cocido.",
+     "Saca el pollo, deshébralo y deja el caldo a fuego suave.",
+     "Remoja los fideos de cristal en agua caliente 5 minutos y escúrrelos; escalda los brotes de soya 30 segundos.",
+     "Reparte los fideos, los brotes y el pollo en los platos, añade medio huevo y sirve el caldo caliente encima.",
+     "Termina con hojas de apio, chile y limón."
+    ]
+   },
+   "tips": [
+    "Usa pechuga sin piel y retira la grasa del caldo para que quede ligero.",
+    "Llena el plato con más brotes de soya y menos fideos para tener más volumen por caloría.",
+    "Prescinde del arroz de acompañamiento: los fideos ya aportan el almidón."
+   ],
+   "name_inline": "el soto ayam"
   }
+ }
 }

@@ -1,177 +1,210 @@
 {
-  "db_key": "adobo_chicken",
-  "slug": "adobo-chicken",
-  "emoji": "🍗",
-  "portion_g": 300,
-  "country": "PH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "adobo_chicken",
+ "slug": "adobo-chicken",
+ "emoji": "🍗",
+ "portion_g": 300,
+ "country": "PH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken adobo",
+   "origin": "Philippines",
+   "intro": "Chicken adobo is the best-known dish of the Philippines: chicken braised in vinegar and soy sauce with lots of garlic, bay leaves and whole black peppercorns until tender, then often browned and glazed in the reduced sauce. The taste is tangy, salty and garlicky, and the sauce is dark and glossy. It is served with plenty of steamed rice to soak up the sauce.",
+   "history": "Cooking meat in vinegar and salt to keep it is generally believed to predate Spanish rule in the Philippines; the name adobo comes from the Spanish word for a marinade. Soy sauce, usually linked to Chinese influence, became a common ingredient over time. Today adobo has countless regional and family versions and is often called the unofficial national dish.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg chicken thighs and drumsticks",
+     "120 ml cane or white vinegar",
+     "80 ml soy sauce",
+     "1 whole head of garlic, cloves crushed",
+     "4 bay leaves",
+     "1 tsp whole black peppercorns",
+     "250 ml water",
+     "1 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Put the chicken, vinegar, soy sauce, garlic, bay leaves, peppercorns and water in a pot and leave for 30 minutes.",
+     "Bring to the boil without stirring, then cover and simmer for 30–35 minutes until the chicken is tender.",
+     "Lift out the chicken and boil the sauce for 5–10 minutes until reduced and slightly thick.",
+     "Brown the chicken in the oil in a hot pan, then return it to the sauce and coat well.",
+     "Serve hot with steamed rice."
+    ]
+   },
+   "tips": [
+    "Use skinless chicken thighs or breast and skip the browning step to save oil and fat.",
+    "Skim the fat from the sauce before reducing it.",
+    "Serve with a smaller scoop of rice and plenty of steamed greens such as pak choi or green beans."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken adobo",
-      "origin": "Philippines",
-      "intro": "Chicken adobo is the best-known dish of the Philippines: chicken braised in vinegar and soy sauce with lots of garlic, bay leaves and whole black peppercorns until tender, then often browned and glazed in the reduced sauce. The taste is tangy, salty and garlicky, and the sauce is dark and glossy. It is served with plenty of steamed rice to soak up the sauce.",
-      "history": "Cooking meat in vinegar and salt to keep it is generally believed to predate Spanish rule in the Philippines; the name adobo comes from the Spanish word for a marinade. Soy sauce, usually linked to Chinese influence, became a common ingredient over time. Today adobo has countless regional and family versions and is often called the unofficial national dish.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg chicken thighs and drumsticks",
-          "120 ml cane or white vinegar",
-          "80 ml soy sauce",
-          "1 whole head of garlic, cloves crushed",
-          "4 bay leaves",
-          "1 tsp whole black peppercorns",
-          "250 ml water",
-          "1 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Put the chicken, vinegar, soy sauce, garlic, bay leaves, peppercorns and water in a pot and leave for 30 minutes.",
-          "Bring to the boil without stirring, then cover and simmer for 30–35 minutes until the chicken is tender.",
-          "Lift out the chicken and boil the sauce for 5–10 minutes until reduced and slightly thick.",
-          "Brown the chicken in the oil in a hot pan, then return it to the sauce and coat well.",
-          "Serve hot with steamed rice."
-        ]
-      },
-      "tips": [
-        "Use skinless chicken thighs or breast and skip the browning step to save oil and fat.",
-        "Skim the fat from the sauce before reducing it.",
-        "Serve with a smaller scoop of rice and plenty of steamed greens such as pak choi or green beans."
-      ]
-    },
-    "ar": {
-      "name": "أدوبو الدجاج",
-      "origin": "الفلبين",
-      "intro": "أدوبو الدجاج أشهر أطباق الفلبين: دجاج يُطهى في الخل وصلصة الصويا مع كثير من الثوم وورق الغار وحبوب الفلفل الأسود الكاملة حتى يطرى، ثم يُحمّر غالباً ويُلمَّع بالصلصة المكثفة. طعمه حامض ومالح وغني بالثوم، وصلصته داكنة لامعة. يُقدَّم مع كمية وفيرة من الأرز المطهو على البخار ليمتص الصلصة.",
-      "history": "يُعتقد عموماً أن طهي اللحم في الخل والملح لحفظه كان معروفاً في الفلبين قبل الحكم الإسباني، أما اسم «أدوبو» فمأخوذ من الكلمة الإسبانية التي تعني التتبيلة. وأصبحت صلصة الصويا، التي تُنسب عادة إلى التأثير الصيني، مكوناً شائعاً مع الوقت. واليوم للأدوبو نسخ إقليمية وعائلية لا تُحصى، ويُوصف كثيراً بأنه الطبق الوطني غير الرسمي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 كغ أفخاذ وسيقان دجاج",
-          "120 مل خل قصب أو خل أبيض",
-          "80 مل صلصة صويا",
-          "رأس ثوم كامل، فصوصه مهروسة",
-          "4 أوراق غار",
-          "ملعقة صغيرة حبوب فلفل أسود كاملة",
-          "250 مل ماء",
-          "ملعقة كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "ضع الدجاج والخل وصلصة الصويا والثوم وورق الغار والفلفل والماء في قدر واتركه 30 دقيقة.",
-          "اتركه يغلي دون تقليب، ثم غطِّه واطبخه على نار هادئة 30–35 دقيقة حتى يطرى الدجاج.",
-          "أخرج الدجاج واغلِ الصلصة 5–10 دقائق حتى تتكثف قليلاً.",
-          "حمّر الدجاج في الزيت في مقلاة ساخنة، ثم أعده إلى الصلصة وغطّه بها جيداً.",
-          "قدّمه ساخناً مع الأرز المطهو على البخار."
-        ]
-      },
-      "tips": [
-        "استخدم أفخاذاً أو صدوراً منزوعة الجلد وتجاوز خطوة التحمير لتوفير الزيت والدهون.",
-        "أزل الدهن عن سطح الصلصة قبل تكثيفها.",
-        "قدّمه مع كمية أصغر من الأرز وكثير من الخضار الورقية المطهوة على البخار مثل الباك تشوي أو الفاصولياء الخضراء."
-      ]
-    },
-    "it": {
-      "name": "Adobo di pollo",
-      "name_inline": "adobo di pollo",
-      "origin": "Filippine",
-      "intro": "L'adobo di pollo è il piatto più conosciuto delle Filippine: pollo brasato in aceto e salsa di soia con molto aglio, alloro e pepe nero in grani finché è tenero, poi spesso rosolato e glassato nel sugo ristretto. Il gusto è acidulo, sapido e agliato, e il sugo è scuro e lucido. Si serve con abbondante riso al vapore che assorbe il sugo.",
-      "history": "Si ritiene in genere che la cottura della carne in aceto e sale per conservarla sia anteriore al dominio spagnolo nelle Filippine; il nome adobo deriva dalla parola spagnola per marinata. La salsa di soia, di solito legata all'influenza cinese, è diventata col tempo un ingrediente comune. Oggi l'adobo ha innumerevoli versioni regionali e familiari ed è spesso definito il piatto nazionale non ufficiale.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg di sovracosce e fusi di pollo",
-          "120 ml di aceto di canna o di vino bianco",
-          "80 ml di salsa di soia",
-          "1 testa d'aglio intera, spicchi schiacciati",
-          "4 foglie di alloro",
-          "1 cucchiaino di pepe nero in grani",
-          "250 ml di acqua",
-          "1 cucchiaio di olio vegetale"
-        ],
-        "steps": [
-          "Metti in una pentola il pollo, l'aceto, la salsa di soia, l'aglio, l'alloro, il pepe e l'acqua e lascia riposare per 30 minuti.",
-          "Porta a bollore senza mescolare, poi copri e fai sobbollire per 30–35 minuti, finché il pollo è tenero.",
-          "Togli il pollo e fai bollire il sugo per 5–10 minuti, finché si è ristretto e leggermente addensato.",
-          "Rosola il pollo nell'olio in una padella ben calda, poi rimettilo nel sugo e ricoprilo bene.",
-          "Servi caldo con riso al vapore."
-        ]
-      },
-      "tips": [
-        "Usa sovracosce o petto di pollo senza pelle e salta la rosolatura per risparmiare olio e grassi.",
-        "Sgrassa il sugo prima di farlo restringere.",
-        "Servi con una porzione più piccola di riso e molte verdure al vapore come pak choi o fagiolini."
-      ]
-    },
-    "el": {
-      "name": "Κοτόπουλο αδόμπο",
-      "name_inline": "κοτόπουλο αδόμπο",
-      "origin": "Φιλιππίνες",
-      "intro": "Το κοτόπουλο αδόμπο είναι το πιο γνωστό φαγητό των Φιλιππίνων: κοτόπουλο σιγομαγειρεμένο σε ξίδι και σάλτσα σόγιας με πολύ σκόρδο, φύλλα δάφνης και ολόκληρους κόκκους μαύρου πιπεριού μέχρι να μαλακώσει, και συχνά μετά ροδισμένο και γλασαρισμένο στη δεμένη σάλτσα. Η γεύση είναι ξινή, αλμυρή και σκορδάτη, και η σάλτσα σκούρα και γυαλιστερή. Σερβίρεται με άφθονο ρύζι στον ατμό που ρουφά τη σάλτσα.",
-      "history": "Γενικά θεωρείται ότι το μαγείρεμα του κρέατος σε ξίδι και αλάτι για να διατηρείται προϋπήρχε της ισπανικής κυριαρχίας στις Φιλιππίνες· το όνομα αδόμπο προέρχεται από την ισπανική λέξη για τη μαρινάδα. Η σάλτσα σόγιας, που συνήθως συνδέεται με την κινεζική επιρροή, έγινε με τον καιρό συνηθισμένο υλικό. Σήμερα το αδόμπο έχει αμέτρητες τοπικές και οικογενειακές εκδοχές και συχνά αποκαλείται το ανεπίσημο εθνικό φαγητό.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 κιλό μπούτια και κοντά μπούτια κοτόπουλου",
-          "120 ml ξίδι ζαχαροκάλαμου ή λευκό ξίδι",
-          "80 ml σάλτσα σόγιας",
-          "1 ολόκληρο κεφάλι σκόρδο, σκελίδες λιωμένες",
-          "4 φύλλα δάφνης",
-          "1 κ.γ. μαύρο πιπέρι σε κόκκους",
-          "250 ml νερό",
-          "1 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Βάλτε σε κατσαρόλα το κοτόπουλο, το ξίδι, τη σάλτσα σόγιας, το σκόρδο, τη δάφνη, το πιπέρι και το νερό και αφήστε 30 λεπτά.",
-          "Φέρτε σε βρασμό χωρίς να ανακατέψετε, μετά σκεπάστε και σιγοβράστε 30–35 λεπτά, μέχρι να μαλακώσει το κοτόπουλο.",
-          "Βγάλτε το κοτόπουλο και βράστε τη σάλτσα 5–10 λεπτά, μέχρι να μειωθεί και να πήξει ελαφρά.",
-          "Ροδίστε το κοτόπουλο στο λάδι σε καυτό τηγάνι, μετά επιστρέψτε το στη σάλτσα και πασπαλίστε το καλά.",
-          "Σερβίρετε ζεστό με ρύζι στον ατμό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε μπούτια ή στήθος κοτόπουλου χωρίς πέτσα και παραλείψτε το ρόδισμα για να γλιτώσετε λάδι και λιπαρά.",
-        "Ξαφρίστε το λίπος από τη σάλτσα πριν τη δέσετε.",
-        "Σερβίρετε με μικρότερη μερίδα ρυζιού και άφθονα λαχανικά στον ατμό, όπως πακ τσόι ή φασολάκια."
-      ]
-    },
-    "ru": {
-      "name": "Куриное адобо",
-      "origin": "Филиппины",
-      "intro": "Куриное адобо — самое известное блюдо Филиппин: курица, тушёная в уксусе и соевом соусе с большим количеством чеснока, лавровым листом и целым чёрным перцем горошком до мягкости, а затем нередко обжаренная и глазированная в уваренном соусе. Вкус кисловатый, солёный и чесночный, а соус тёмный и блестящий. Подают с большим количеством риса на пару, чтобы впитать соус.",
-      "history": "Считается, что приготовление мяса в уксусе и соли для сохранности предшествовало испанскому владычеству на Филиппинах; название адобо происходит от испанского слова, обозначающего маринад. Соевый соус, который обычно связывают с китайским влиянием, со временем стал распространённым ингредиентом. Сегодня у адобо бесчисленное множество региональных и семейных вариантов, и его часто называют неофициальным национальным блюдом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 кг куриных бёдер и голеней",
-          "120 мл тростникового или белого уксуса",
-          "80 мл соевого соуса",
-          "1 целая головка чеснока, зубчики раздавлены",
-          "4 лавровых листа",
-          "1 ч. л. чёрного перца горошком",
-          "250 мл воды",
-          "1 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Положите курицу, уксус, соевый соус, чеснок, лавровый лист, перец горошком и воду в кастрюлю и оставьте на 30 минут.",
-          "Доведите до кипения, не перемешивая, затем накройте крышкой и томите 30–35 минут до мягкости курицы.",
-          "Выньте курицу и уваривайте соус 5–10 минут, пока он не загустеет.",
-          "Обжарьте курицу в масле на горячей сковороде, затем верните в соус и хорошо обволоките.",
-          "Подавайте горячим с рисом на пару."
-        ]
-      },
-      "tips": [
-        "Берите куриные бёдра без кожи или грудку и пропустите стадию обжаривания, чтобы сэкономить масло и жир.",
-        "Снимите жир с соуса перед уваркой.",
-        "Подавайте с меньшей порцией риса и большим количеством овощей на пару, таких как пак-чой или стручковая фасоль."
-      ],
-      "name_inline": "куриное адобо"
-    }
+  "ar": {
+   "name": "أدوبو الدجاج",
+   "origin": "الفلبين",
+   "intro": "أدوبو الدجاج أشهر أطباق الفلبين: دجاج يُطهى في الخل وصلصة الصويا مع كثير من الثوم وورق الغار وحبوب الفلفل الأسود الكاملة حتى يطرى، ثم يُحمّر غالباً ويُلمَّع بالصلصة المكثفة. طعمه حامض ومالح وغني بالثوم، وصلصته داكنة لامعة. يُقدَّم مع كمية وفيرة من الأرز المطهو على البخار ليمتص الصلصة.",
+   "history": "يُعتقد عموماً أن طهي اللحم في الخل والملح لحفظه كان معروفاً في الفلبين قبل الحكم الإسباني، أما اسم «أدوبو» فمأخوذ من الكلمة الإسبانية التي تعني التتبيلة. وأصبحت صلصة الصويا، التي تُنسب عادة إلى التأثير الصيني، مكوناً شائعاً مع الوقت. واليوم للأدوبو نسخ إقليمية وعائلية لا تُحصى، ويُوصف كثيراً بأنه الطبق الوطني غير الرسمي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 كغ أفخاذ وسيقان دجاج",
+     "120 مل خل قصب أو خل أبيض",
+     "80 مل صلصة صويا",
+     "رأس ثوم كامل، فصوصه مهروسة",
+     "4 أوراق غار",
+     "ملعقة صغيرة حبوب فلفل أسود كاملة",
+     "250 مل ماء",
+     "ملعقة كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "ضع الدجاج والخل وصلصة الصويا والثوم وورق الغار والفلفل والماء في قدر واتركه 30 دقيقة.",
+     "اتركه يغلي دون تقليب، ثم غطِّه واطبخه على نار هادئة 30–35 دقيقة حتى يطرى الدجاج.",
+     "أخرج الدجاج واغلِ الصلصة 5–10 دقائق حتى تتكثف قليلاً.",
+     "حمّر الدجاج في الزيت في مقلاة ساخنة، ثم أعده إلى الصلصة وغطّه بها جيداً.",
+     "قدّمه ساخناً مع الأرز المطهو على البخار."
+    ]
+   },
+   "tips": [
+    "استخدم أفخاذاً أو صدوراً منزوعة الجلد وتجاوز خطوة التحمير لتوفير الزيت والدهون.",
+    "أزل الدهن عن سطح الصلصة قبل تكثيفها.",
+    "قدّمه مع كمية أصغر من الأرز وكثير من الخضار الورقية المطهوة على البخار مثل الباك تشوي أو الفاصولياء الخضراء."
+   ]
+  },
+  "it": {
+   "name": "Adobo di pollo",
+   "name_inline": "adobo di pollo",
+   "origin": "Filippine",
+   "intro": "L'adobo di pollo è il piatto più conosciuto delle Filippine: pollo brasato in aceto e salsa di soia con molto aglio, alloro e pepe nero in grani finché è tenero, poi spesso rosolato e glassato nel sugo ristretto. Il gusto è acidulo, sapido e agliato, e il sugo è scuro e lucido. Si serve con abbondante riso al vapore che assorbe il sugo.",
+   "history": "Si ritiene in genere che la cottura della carne in aceto e sale per conservarla sia anteriore al dominio spagnolo nelle Filippine; il nome adobo deriva dalla parola spagnola per marinata. La salsa di soia, di solito legata all'influenza cinese, è diventata col tempo un ingrediente comune. Oggi l'adobo ha innumerevoli versioni regionali e familiari ed è spesso definito il piatto nazionale non ufficiale.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg di sovracosce e fusi di pollo",
+     "120 ml di aceto di canna o di vino bianco",
+     "80 ml di salsa di soia",
+     "1 testa d'aglio intera, spicchi schiacciati",
+     "4 foglie di alloro",
+     "1 cucchiaino di pepe nero in grani",
+     "250 ml di acqua",
+     "1 cucchiaio di olio vegetale"
+    ],
+    "steps": [
+     "Metti in una pentola il pollo, l'aceto, la salsa di soia, l'aglio, l'alloro, il pepe e l'acqua e lascia riposare per 30 minuti.",
+     "Porta a bollore senza mescolare, poi copri e fai sobbollire per 30–35 minuti, finché il pollo è tenero.",
+     "Togli il pollo e fai bollire il sugo per 5–10 minuti, finché si è ristretto e leggermente addensato.",
+     "Rosola il pollo nell'olio in una padella ben calda, poi rimettilo nel sugo e ricoprilo bene.",
+     "Servi caldo con riso al vapore."
+    ]
+   },
+   "tips": [
+    "Usa sovracosce o petto di pollo senza pelle e salta la rosolatura per risparmiare olio e grassi.",
+    "Sgrassa il sugo prima di farlo restringere.",
+    "Servi con una porzione più piccola di riso e molte verdure al vapore come pak choi o fagiolini."
+   ]
+  },
+  "el": {
+   "name": "Κοτόπουλο αδόμπο",
+   "name_inline": "κοτόπουλο αδόμπο",
+   "origin": "Φιλιππίνες",
+   "intro": "Το κοτόπουλο αδόμπο είναι το πιο γνωστό φαγητό των Φιλιππίνων: κοτόπουλο σιγομαγειρεμένο σε ξίδι και σάλτσα σόγιας με πολύ σκόρδο, φύλλα δάφνης και ολόκληρους κόκκους μαύρου πιπεριού μέχρι να μαλακώσει, και συχνά μετά ροδισμένο και γλασαρισμένο στη δεμένη σάλτσα. Η γεύση είναι ξινή, αλμυρή και σκορδάτη, και η σάλτσα σκούρα και γυαλιστερή. Σερβίρεται με άφθονο ρύζι στον ατμό που ρουφά τη σάλτσα.",
+   "history": "Γενικά θεωρείται ότι το μαγείρεμα του κρέατος σε ξίδι και αλάτι για να διατηρείται προϋπήρχε της ισπανικής κυριαρχίας στις Φιλιππίνες· το όνομα αδόμπο προέρχεται από την ισπανική λέξη για τη μαρινάδα. Η σάλτσα σόγιας, που συνήθως συνδέεται με την κινεζική επιρροή, έγινε με τον καιρό συνηθισμένο υλικό. Σήμερα το αδόμπο έχει αμέτρητες τοπικές και οικογενειακές εκδοχές και συχνά αποκαλείται το ανεπίσημο εθνικό φαγητό.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 κιλό μπούτια και κοντά μπούτια κοτόπουλου",
+     "120 ml ξίδι ζαχαροκάλαμου ή λευκό ξίδι",
+     "80 ml σάλτσα σόγιας",
+     "1 ολόκληρο κεφάλι σκόρδο, σκελίδες λιωμένες",
+     "4 φύλλα δάφνης",
+     "1 κ.γ. μαύρο πιπέρι σε κόκκους",
+     "250 ml νερό",
+     "1 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Βάλτε σε κατσαρόλα το κοτόπουλο, το ξίδι, τη σάλτσα σόγιας, το σκόρδο, τη δάφνη, το πιπέρι και το νερό και αφήστε 30 λεπτά.",
+     "Φέρτε σε βρασμό χωρίς να ανακατέψετε, μετά σκεπάστε και σιγοβράστε 30–35 λεπτά, μέχρι να μαλακώσει το κοτόπουλο.",
+     "Βγάλτε το κοτόπουλο και βράστε τη σάλτσα 5–10 λεπτά, μέχρι να μειωθεί και να πήξει ελαφρά.",
+     "Ροδίστε το κοτόπουλο στο λάδι σε καυτό τηγάνι, μετά επιστρέψτε το στη σάλτσα και πασπαλίστε το καλά.",
+     "Σερβίρετε ζεστό με ρύζι στον ατμό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε μπούτια ή στήθος κοτόπουλου χωρίς πέτσα και παραλείψτε το ρόδισμα για να γλιτώσετε λάδι και λιπαρά.",
+    "Ξαφρίστε το λίπος από τη σάλτσα πριν τη δέσετε.",
+    "Σερβίρετε με μικρότερη μερίδα ρυζιού και άφθονα λαχανικά στον ατμό, όπως πακ τσόι ή φασολάκια."
+   ]
+  },
+  "ru": {
+   "name": "Куриное адобо",
+   "origin": "Филиппины",
+   "intro": "Куриное адобо — самое известное блюдо Филиппин: курица, тушёная в уксусе и соевом соусе с большим количеством чеснока, лавровым листом и целым чёрным перцем горошком до мягкости, а затем нередко обжаренная и глазированная в уваренном соусе. Вкус кисловатый, солёный и чесночный, а соус тёмный и блестящий. Подают с большим количеством риса на пару, чтобы впитать соус.",
+   "history": "Считается, что приготовление мяса в уксусе и соли для сохранности предшествовало испанскому владычеству на Филиппинах; название адобо происходит от испанского слова, обозначающего маринад. Соевый соус, который обычно связывают с китайским влиянием, со временем стал распространённым ингредиентом. Сегодня у адобо бесчисленное множество региональных и семейных вариантов, и его часто называют неофициальным национальным блюдом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 кг куриных бёдер и голеней",
+     "120 мл тростникового или белого уксуса",
+     "80 мл соевого соуса",
+     "1 целая головка чеснока, зубчики раздавлены",
+     "4 лавровых листа",
+     "1 ч. л. чёрного перца горошком",
+     "250 мл воды",
+     "1 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Положите курицу, уксус, соевый соус, чеснок, лавровый лист, перец горошком и воду в кастрюлю и оставьте на 30 минут.",
+     "Доведите до кипения, не перемешивая, затем накройте крышкой и томите 30–35 минут до мягкости курицы.",
+     "Выньте курицу и уваривайте соус 5–10 минут, пока он не загустеет.",
+     "Обжарьте курицу в масле на горячей сковороде, затем верните в соус и хорошо обволоките.",
+     "Подавайте горячим с рисом на пару."
+    ]
+   },
+   "tips": [
+    "Берите куриные бёдра без кожи или грудку и пропустите стадию обжаривания, чтобы сэкономить масло и жир.",
+    "Снимите жир с соуса перед уваркой.",
+    "Подавайте с меньшей порцией риса и большим количеством овощей на пару, таких как пак-чой или стручковая фасоль."
+   ],
+   "name_inline": "куриное адобо"
+  },
+  "es": {
+   "name": "Adobo de pollo filipino",
+   "origin": "Filipinas",
+   "intro": "El adobo de pollo es el plato más conocido de Filipinas: pollo estofado en vinagre y salsa de soya con mucho ajo, hojas de laurel y pimienta negra en grano hasta quedar tierno, y luego a menudo dorado y glaseado en la salsa reducida. El sabor es ácido, salado y ajoso, y la salsa es oscura y brillante. Se sirve con abundante arroz al vapor para empaparlo en la salsa.",
+   "history": "Se cree en general que cocinar la carne en vinagre y sal para conservarla es anterior al dominio español en Filipinas; el nombre adobo viene de la palabra española para una marinada. La salsa de soya, que suele asociarse con la influencia china, se volvió un ingrediente común con el tiempo. Hoy el adobo tiene innumerables versiones regionales y familiares, y a menudo se le llama el plato nacional no oficial.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg de muslos y piernas de pollo",
+     "120 ml de vinagre de caña o blanco",
+     "80 ml de salsa de soya",
+     "1 cabeza entera de ajo, con los dientes machacados",
+     "4 hojas de laurel",
+     "1 cdta. de pimienta negra en grano",
+     "250 ml de agua",
+     "1 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Pon el pollo, el vinagre, la salsa de soya, el ajo, el laurel, la pimienta y el agua en una olla y deja marinar 30 minutos.",
+     "Lleva a hervor sin revolver, luego tapa y cocina a fuego bajo de 30 a 35 minutos, hasta que el pollo esté tierno.",
+     "Saca el pollo y hierve la salsa de 5 a 10 minutos, hasta que se reduzca y espese un poco.",
+     "Dora el pollo en el aceite en una sartén caliente, regrésalo a la salsa y báñalo bien.",
+     "Sirve caliente con arroz al vapor."
+    ]
+   },
+   "tips": [
+    "Usa muslos o pechuga de pollo sin piel y omite el dorado para ahorrar aceite y grasa.",
+    "Retira la grasa de la salsa antes de reducirla.",
+    "Sirve con una porción más pequeña de arroz y muchas verduras al vapor, como pak choi o ejotes."
+   ],
+   "name_inline": "el adobo de pollo"
   }
+ }
 }

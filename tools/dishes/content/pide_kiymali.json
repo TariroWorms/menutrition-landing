@@ -1,182 +1,216 @@
 {
-  "db_key": "pide_kiymali",
-  "slug": "pide-kiymali",
-  "emoji": "🥖",
-  "portion_g": 250,
-  "country": "TR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pide_kiymali",
+ "slug": "pide-kiymali",
+ "emoji": "🥖",
+ "portion_g": 250,
+ "country": "TR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kıymalı Pide (Minced Meat Pide)",
+   "origin": "Turkey · Black Sea region",
+   "intro": "Kıymalı pide is a Turkish boat-shaped flatbread topped with a thin layer of minced beef mixed with finely chopped onion, tomato and green pepper and seasoned with pepper flakes. Baked in a very hot oven, the meat stays juicy while the open edges turn crisp and golden. It is cut into strips and served with lemon, parsley and sliced onion.",
+   "history": "Pide is Turkey's boat-shaped baked flatbread, closely tied to the Black Sea region, where cities such as Samsun, Trabzon and Kastamonu each claim their own style. Today pide salons serving many toppings are found in every Turkish city.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "400 g flour",
+     "7 g dried yeast",
+     "1 tsp salt",
+     "250 ml warm water",
+     "300 g ground beef",
+     "1 onion, grated",
+     "2 tomatoes, finely chopped",
+     "2 green peppers, finely chopped",
+     "1 tsp pepper flakes, salt"
+    ],
+    "steps": [
+     "Mix the flour, yeast, salt and warm water into a soft dough, knead 8 minutes and let rise for 1 hour.",
+     "Prepare the topping: mix the raw beef with onion, tomato, pepper and spices.",
+     "Divide the dough into 4, roll each into a long oval and spread the topping down the middle.",
+     "Fold the edges over the filling and pinch the ends into a boat shape.",
+     "Bake at 250 °C for 10–12 minutes until golden."
+    ]
+   },
+   "tips": [
+    "Choose lean minced beef (5–10% fat).",
+    "Spread the meat thinly and add more tomato and pepper.",
+    "Serve with plenty of parsley, onion and lemon and skip extra bread."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kıymalı Pide (Minced Meat Pide)",
-      "origin": "Turkey · Black Sea region",
-      "intro": "Kıymalı pide is a Turkish boat-shaped flatbread topped with a thin layer of minced beef mixed with finely chopped onion, tomato and green pepper and seasoned with pepper flakes. Baked in a very hot oven, the meat stays juicy while the open edges turn crisp and golden. It is cut into strips and served with lemon, parsley and sliced onion.",
-      "history": "Pide is Turkey's boat-shaped baked flatbread, closely tied to the Black Sea region, where cities such as Samsun, Trabzon and Kastamonu each claim their own style. Today pide salons serving many toppings are found in every Turkish city.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "400 g flour",
-          "7 g dried yeast",
-          "1 tsp salt",
-          "250 ml warm water",
-          "300 g ground beef",
-          "1 onion, grated",
-          "2 tomatoes, finely chopped",
-          "2 green peppers, finely chopped",
-          "1 tsp pepper flakes, salt"
-        ],
-        "steps": [
-          "Mix the flour, yeast, salt and warm water into a soft dough, knead 8 minutes and let rise for 1 hour.",
-          "Prepare the topping: mix the raw beef with onion, tomato, pepper and spices.",
-          "Divide the dough into 4, roll each into a long oval and spread the topping down the middle.",
-          "Fold the edges over the filling and pinch the ends into a boat shape.",
-          "Bake at 250 °C for 10–12 minutes until golden."
-        ]
-      },
-      "tips": [
-        "Choose lean minced beef (5–10% fat).",
-        "Spread the meat thinly and add more tomato and pepper.",
-        "Serve with plenty of parsley, onion and lemon and skip extra bread."
-      ]
-    },
-    "ar": {
-      "name": "بيدا باللحم المفروم (كيمالي)",
-      "origin": "تركيا · منطقة البحر الأسود",
-      "intro": "بيدا كيمالي خبز تركي على شكل قارب مغطى بطبقة رقيقة من اللحم البقري المفروم الممزوج بالبصل والطماطم والفلفل الأخضر المفروم ناعمًا ومتبّل برقائق الفلفل. يُخبز في فرن شديد الحرارة فيبقى اللحم طريًا عصيرًا بينما تصبح الحواف المفتوحة مقرمشة ذهبية. يُقطّع شرائح ويُقدّم مع الليمون والبقدونس وشرائح البصل.",
-      "history": "البيدا خبز تركي مخبوز على شكل قارب، يرتبط ارتباطًا وثيقًا بمنطقة البحر الأسود حيث تفتخر مدن مثل سامسون وطرابزون وكاستامونو بأساليبها الخاصة. واليوم تنتشر محلات البيدا بحشواتها المتنوعة في كل المدن التركية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "400 غ دقيق",
-          "7 غ خميرة جافة",
-          "1 ملعقة صغيرة ملح",
-          "250 مل ماء دافئ",
-          "300 غ لحم بقري مفروم",
-          "بصلة مبشورة",
-          "2 حبة طماطم مفرومة ناعمًا",
-          "2 فلفل أخضر مفروم ناعمًا",
-          "1 ملعقة صغيرة رقائق فلفل، ملح"
-        ],
-        "steps": [
-          "اخلط الدقيق والخميرة والملح والماء الدافئ حتى تتكون عجينة طرية، واعجنها 8 دقائق واتركها تختمر ساعة.",
-          "حضّر الحشوة: اخلط اللحم النيئ مع البصل والطماطم والفلفل والتوابل.",
-          "قسّم العجينة إلى 4 قطع وافرد كل منها بيضاويًا طويلًا ووزّع الحشوة في الوسط.",
-          "اطوِ الأطراف فوق الحشوة واقرص الطرفين لتأخذ شكل القارب.",
-          "اخبزها على 250 درجة مئوية 10–12 دقيقة حتى يصبح لونها ذهبيًا."
-        ]
-      },
-      "tips": [
-        "اختر لحمًا مفرومًا قليل الدهن (5–10%).",
-        "وزّع اللحم بطبقة رقيقة وأكثر من الطماطم والفلفل.",
-        "قدّمها مع كثير من البقدونس والبصل والليمون دون خبز إضافي."
-      ]
-    },
-    "it": {
-      "name": "Kıymalı pide (pide con carne macinata)",
-      "name_inline": "kıymalı pide",
-      "origin": "Turchia · Regione del Mar Nero",
-      "intro": "La kıymalı pide è una focaccia turca a forma di barca coperta da un sottile strato di manzo macinato mescolato con cipolla, pomodoro e peperone verde tritati finemente e insaporito con peperoncino in fiocchi. Cotta in un forno molto caldo, la carne resta succosa mentre i bordi aperti diventano croccanti e dorati. Si taglia a strisce e si serve con limone, prezzemolo e cipolla a fette.",
-      "history": "La pide è la focaccia al forno a forma di barca della Turchia, strettamente legata alla regione del Mar Nero, dove città come Samsun, Trebisonda e Kastamonu rivendicano ciascuna il proprio stile. Oggi i locali di pide con tanti condimenti diversi si trovano in ogni città turca.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "400 g di farina",
-          "7 g di lievito secco",
-          "1 cucchiaino di sale",
-          "250 ml di acqua tiepida",
-          "300 g di manzo macinato",
-          "1 cipolla, grattugiata",
-          "2 pomodori, tritati finemente",
-          "2 peperoni verdi, tritati finemente",
-          "1 cucchiaino di peperoncino in fiocchi, sale"
-        ],
-        "steps": [
-          "Mescola farina, lievito, sale e acqua tiepida fino a ottenere un impasto morbido, lavoralo per 8 minuti e lascialo lievitare per 1 ora.",
-          "Prepara il condimento: mescola il manzo crudo con cipolla, pomodoro, peperone e spezie.",
-          "Dividi l'impasto in 4, stendi ciascun pezzo in un ovale allungato e distribuisci il condimento al centro.",
-          "Ripiega i bordi sul ripieno e pizzica le estremità per dare la forma di una barca.",
-          "Cuoci a 250 °C per 10–12 minuti finché è dorata."
-        ]
-      },
-      "tips": [
-        "Scegli manzo macinato magro (5–10% di grassi).",
-        "Stendi la carne in uno strato sottile e aggiungi più pomodoro e peperone.",
-        "Servila con tanto prezzemolo, cipolla e limone e rinuncia al pane in più."
-      ]
-    },
-    "el": {
-      "name": "Κιγιμαλί πιντέ (πιντέ με κιμά)",
-      "name_inline": "κιγιμαλί πιντέ",
-      "origin": "Τουρκία · Περιοχή του Εύξεινου Πόντου",
-      "intro": "Η κιγιμαλί πιντέ είναι τουρκική πίτα σε σχήμα βάρκας με ένα λεπτό στρώμα μοσχαρίσιου κιμά ανακατεμένου με ψιλοκομμένο κρεμμύδι, ντομάτα και πράσινη πιπεριά, καρυκευμένου με νιφάδες πιπεριάς. Ψήνεται σε πολύ καυτό φούρνο: ο κιμάς μένει ζουμερός ενώ οι ανοιχτές άκρες γίνονται τραγανές και χρυσαφένιες. Κόβεται σε λωρίδες και σερβίρεται με λεμόνι, μαϊντανό και κρεμμύδι σε φέτες.",
-      "history": "Η πιντέ είναι η ψημένη πίτα της Τουρκίας σε σχήμα βάρκας, στενά συνδεδεμένη με την περιοχή του Εύξεινου Πόντου, όπου πόλεις όπως η Σαμψούντα, η Τραπεζούντα και το Καστάμονου διεκδικούν η καθεμία το δικό της στιλ. Σήμερα μαγαζιά με πιντέ και πολλές γεμίσεις υπάρχουν σε κάθε τουρκική πόλη.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "400 γρ. αλεύρι",
-          "7 γρ. ξηρή μαγιά",
-          "1 κ.γ. αλάτι",
-          "250 ml χλιαρό νερό",
-          "300 γρ. μοσχαρίσιος κιμάς",
-          "1 κρεμμύδι, τριμμένο",
-          "2 ντομάτες, ψιλοκομμένες",
-          "2 πράσινες πιπεριές, ψιλοκομμένες",
-          "1 κ.γ. νιφάδες πιπεριάς, αλάτι"
-        ],
-        "steps": [
-          "Ανακατέψτε το αλεύρι, τη μαγιά, το αλάτι και το χλιαρό νερό σε μαλακή ζύμη, ζυμώστε 8 λεπτά και αφήστε τη να φουσκώσει για 1 ώρα.",
-          "Ετοιμάστε τη γέμιση: ανακατέψτε τον ωμό κιμά με το κρεμμύδι, την ντομάτα, την πιπεριά και τα μπαχαρικά.",
-          "Χωρίστε τη ζύμη σε 4, ανοίξτε κάθε κομμάτι σε μακρύ οβάλ και απλώστε τη γέμιση στη μέση.",
-          "Γυρίστε τις άκρες πάνω από τη γέμιση και πιέστε τις άκρες ώστε να πάρει σχήμα βάρκας.",
-          "Ψήστε στους 250 °C για 10–12 λεπτά μέχρι να ροδίσει."
-        ]
-      },
-      "tips": [
-        "Προτιμήστε άπαχο μοσχαρίσιο κιμά (5–10% λιπαρά).",
-        "Απλώστε τον κιμά σε λεπτό στρώμα και προσθέστε περισσότερη ντομάτα και πιπεριά.",
-        "Σερβίρετε με άφθονο μαϊντανό, κρεμμύδι και λεμόνι και παραλείψτε το επιπλέον ψωμί."
-      ]
-    },
-    "ru": {
-      "name": "Кыймалы пиде (пиде с мясным фаршем)",
-      "origin": "Турция · Район Чёрного моря",
-      "intro": "Кыймалы пиде — турецкая лепёшка в форме лодочки с тонким слоем говяжьего фарша, смешанного с мелко нарезанными луком, помидорами и зелёным перцем и приправленного хлопьями перца. Запечённое в очень горячей духовке, мясо остаётся сочным, а открытые края становятся хрустящими и золотистыми. Его нарезают полосками и подают с лимоном, петрушкой и нарезанным луком.",
-      "history": "Пиде — турецкая запечённая лепёшка в форме лодочки, тесно связанная с регионом Чёрного моря, где такие города, как Самсун, Трабзон и Кастамону, претендуют на собственный стиль. Сегодня пидеджи-салоны с самыми разными начинками есть в каждом турецком городе.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "400 г муки",
-          "7 г сухих дрожжей",
-          "1 ч. л. соли",
-          "250 мл тёплой воды",
-          "300 г говяжьего фарша",
-          "1 луковица, натёртая",
-          "2 помидора, мелко нарезанных",
-          "2 зелёных перца, мелко нарезанных",
-          "1 ч. л. хлопьев перца, соль"
-        ],
-        "steps": [
-          "Замесите из муки, дрожжей, соли и тёплой воды мягкое тесто, месите 8 минут и дайте подняться 1 час.",
-          "Приготовьте начинку: смешайте сырой говяжий фарш с луком, помидором, перцем и специями.",
-          "Разделите тесто на 4 части, раскатайте каждую в длинный овал и выложите начинку по центру.",
-          "Подверните края поверх начинки и защипните концы, придав форму лодочки.",
-          "Выпекайте при 250 °C 10–12 минут до золотистого цвета."
-        ]
-      },
-      "tips": [
-        "Выбирайте нежирный говяжий фарш (5–10% жира).",
-        "Намазывайте мясо тонким слоем и добавьте больше помидоров и перца.",
-        "Подавайте с большим количеством петрушки, лука и лимона и откажитесь от дополнительного хлеба."
-      ],
-      "name_inline": "кыймалы пиде"
-    }
+  "ar": {
+   "name": "بيدا باللحم المفروم (كيمالي)",
+   "origin": "تركيا · منطقة البحر الأسود",
+   "intro": "بيدا كيمالي خبز تركي على شكل قارب مغطى بطبقة رقيقة من اللحم البقري المفروم الممزوج بالبصل والطماطم والفلفل الأخضر المفروم ناعمًا ومتبّل برقائق الفلفل. يُخبز في فرن شديد الحرارة فيبقى اللحم طريًا عصيرًا بينما تصبح الحواف المفتوحة مقرمشة ذهبية. يُقطّع شرائح ويُقدّم مع الليمون والبقدونس وشرائح البصل.",
+   "history": "البيدا خبز تركي مخبوز على شكل قارب، يرتبط ارتباطًا وثيقًا بمنطقة البحر الأسود حيث تفتخر مدن مثل سامسون وطرابزون وكاستامونو بأساليبها الخاصة. واليوم تنتشر محلات البيدا بحشواتها المتنوعة في كل المدن التركية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "400 غ دقيق",
+     "7 غ خميرة جافة",
+     "1 ملعقة صغيرة ملح",
+     "250 مل ماء دافئ",
+     "300 غ لحم بقري مفروم",
+     "بصلة مبشورة",
+     "2 حبة طماطم مفرومة ناعمًا",
+     "2 فلفل أخضر مفروم ناعمًا",
+     "1 ملعقة صغيرة رقائق فلفل، ملح"
+    ],
+    "steps": [
+     "اخلط الدقيق والخميرة والملح والماء الدافئ حتى تتكون عجينة طرية، واعجنها 8 دقائق واتركها تختمر ساعة.",
+     "حضّر الحشوة: اخلط اللحم النيئ مع البصل والطماطم والفلفل والتوابل.",
+     "قسّم العجينة إلى 4 قطع وافرد كل منها بيضاويًا طويلًا ووزّع الحشوة في الوسط.",
+     "اطوِ الأطراف فوق الحشوة واقرص الطرفين لتأخذ شكل القارب.",
+     "اخبزها على 250 درجة مئوية 10–12 دقيقة حتى يصبح لونها ذهبيًا."
+    ]
+   },
+   "tips": [
+    "اختر لحمًا مفرومًا قليل الدهن (5–10%).",
+    "وزّع اللحم بطبقة رقيقة وأكثر من الطماطم والفلفل.",
+    "قدّمها مع كثير من البقدونس والبصل والليمون دون خبز إضافي."
+   ]
+  },
+  "it": {
+   "name": "Kıymalı pide (pide con carne macinata)",
+   "name_inline": "kıymalı pide",
+   "origin": "Turchia · Regione del Mar Nero",
+   "intro": "La kıymalı pide è una focaccia turca a forma di barca coperta da un sottile strato di manzo macinato mescolato con cipolla, pomodoro e peperone verde tritati finemente e insaporito con peperoncino in fiocchi. Cotta in un forno molto caldo, la carne resta succosa mentre i bordi aperti diventano croccanti e dorati. Si taglia a strisce e si serve con limone, prezzemolo e cipolla a fette.",
+   "history": "La pide è la focaccia al forno a forma di barca della Turchia, strettamente legata alla regione del Mar Nero, dove città come Samsun, Trebisonda e Kastamonu rivendicano ciascuna il proprio stile. Oggi i locali di pide con tanti condimenti diversi si trovano in ogni città turca.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "400 g di farina",
+     "7 g di lievito secco",
+     "1 cucchiaino di sale",
+     "250 ml di acqua tiepida",
+     "300 g di manzo macinato",
+     "1 cipolla, grattugiata",
+     "2 pomodori, tritati finemente",
+     "2 peperoni verdi, tritati finemente",
+     "1 cucchiaino di peperoncino in fiocchi, sale"
+    ],
+    "steps": [
+     "Mescola farina, lievito, sale e acqua tiepida fino a ottenere un impasto morbido, lavoralo per 8 minuti e lascialo lievitare per 1 ora.",
+     "Prepara il condimento: mescola il manzo crudo con cipolla, pomodoro, peperone e spezie.",
+     "Dividi l'impasto in 4, stendi ciascun pezzo in un ovale allungato e distribuisci il condimento al centro.",
+     "Ripiega i bordi sul ripieno e pizzica le estremità per dare la forma di una barca.",
+     "Cuoci a 250 °C per 10–12 minuti finché è dorata."
+    ]
+   },
+   "tips": [
+    "Scegli manzo macinato magro (5–10% di grassi).",
+    "Stendi la carne in uno strato sottile e aggiungi più pomodoro e peperone.",
+    "Servila con tanto prezzemolo, cipolla e limone e rinuncia al pane in più."
+   ]
+  },
+  "el": {
+   "name": "Κιγιμαλί πιντέ (πιντέ με κιμά)",
+   "name_inline": "κιγιμαλί πιντέ",
+   "origin": "Τουρκία · Περιοχή του Εύξεινου Πόντου",
+   "intro": "Η κιγιμαλί πιντέ είναι τουρκική πίτα σε σχήμα βάρκας με ένα λεπτό στρώμα μοσχαρίσιου κιμά ανακατεμένου με ψιλοκομμένο κρεμμύδι, ντομάτα και πράσινη πιπεριά, καρυκευμένου με νιφάδες πιπεριάς. Ψήνεται σε πολύ καυτό φούρνο: ο κιμάς μένει ζουμερός ενώ οι ανοιχτές άκρες γίνονται τραγανές και χρυσαφένιες. Κόβεται σε λωρίδες και σερβίρεται με λεμόνι, μαϊντανό και κρεμμύδι σε φέτες.",
+   "history": "Η πιντέ είναι η ψημένη πίτα της Τουρκίας σε σχήμα βάρκας, στενά συνδεδεμένη με την περιοχή του Εύξεινου Πόντου, όπου πόλεις όπως η Σαμψούντα, η Τραπεζούντα και το Καστάμονου διεκδικούν η καθεμία το δικό της στιλ. Σήμερα μαγαζιά με πιντέ και πολλές γεμίσεις υπάρχουν σε κάθε τουρκική πόλη.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "400 γρ. αλεύρι",
+     "7 γρ. ξηρή μαγιά",
+     "1 κ.γ. αλάτι",
+     "250 ml χλιαρό νερό",
+     "300 γρ. μοσχαρίσιος κιμάς",
+     "1 κρεμμύδι, τριμμένο",
+     "2 ντομάτες, ψιλοκομμένες",
+     "2 πράσινες πιπεριές, ψιλοκομμένες",
+     "1 κ.γ. νιφάδες πιπεριάς, αλάτι"
+    ],
+    "steps": [
+     "Ανακατέψτε το αλεύρι, τη μαγιά, το αλάτι και το χλιαρό νερό σε μαλακή ζύμη, ζυμώστε 8 λεπτά και αφήστε τη να φουσκώσει για 1 ώρα.",
+     "Ετοιμάστε τη γέμιση: ανακατέψτε τον ωμό κιμά με το κρεμμύδι, την ντομάτα, την πιπεριά και τα μπαχαρικά.",
+     "Χωρίστε τη ζύμη σε 4, ανοίξτε κάθε κομμάτι σε μακρύ οβάλ και απλώστε τη γέμιση στη μέση.",
+     "Γυρίστε τις άκρες πάνω από τη γέμιση και πιέστε τις άκρες ώστε να πάρει σχήμα βάρκας.",
+     "Ψήστε στους 250 °C για 10–12 λεπτά μέχρι να ροδίσει."
+    ]
+   },
+   "tips": [
+    "Προτιμήστε άπαχο μοσχαρίσιο κιμά (5–10% λιπαρά).",
+    "Απλώστε τον κιμά σε λεπτό στρώμα και προσθέστε περισσότερη ντομάτα και πιπεριά.",
+    "Σερβίρετε με άφθονο μαϊντανό, κρεμμύδι και λεμόνι και παραλείψτε το επιπλέον ψωμί."
+   ]
+  },
+  "ru": {
+   "name": "Кыймалы пиде (пиде с мясным фаршем)",
+   "origin": "Турция · Район Чёрного моря",
+   "intro": "Кыймалы пиде — турецкая лепёшка в форме лодочки с тонким слоем говяжьего фарша, смешанного с мелко нарезанными луком, помидорами и зелёным перцем и приправленного хлопьями перца. Запечённое в очень горячей духовке, мясо остаётся сочным, а открытые края становятся хрустящими и золотистыми. Его нарезают полосками и подают с лимоном, петрушкой и нарезанным луком.",
+   "history": "Пиде — турецкая запечённая лепёшка в форме лодочки, тесно связанная с регионом Чёрного моря, где такие города, как Самсун, Трабзон и Кастамону, претендуют на собственный стиль. Сегодня пидеджи-салоны с самыми разными начинками есть в каждом турецком городе.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "400 г муки",
+     "7 г сухих дрожжей",
+     "1 ч. л. соли",
+     "250 мл тёплой воды",
+     "300 г говяжьего фарша",
+     "1 луковица, натёртая",
+     "2 помидора, мелко нарезанных",
+     "2 зелёных перца, мелко нарезанных",
+     "1 ч. л. хлопьев перца, соль"
+    ],
+    "steps": [
+     "Замесите из муки, дрожжей, соли и тёплой воды мягкое тесто, месите 8 минут и дайте подняться 1 час.",
+     "Приготовьте начинку: смешайте сырой говяжий фарш с луком, помидором, перцем и специями.",
+     "Разделите тесто на 4 части, раскатайте каждую в длинный овал и выложите начинку по центру.",
+     "Подверните края поверх начинки и защипните концы, придав форму лодочки.",
+     "Выпекайте при 250 °C 10–12 минут до золотистого цвета."
+    ]
+   },
+   "tips": [
+    "Выбирайте нежирный говяжий фарш (5–10% жира).",
+    "Намазывайте мясо тонким слоем и добавьте больше помидоров и перца.",
+    "Подавайте с большим количеством петрушки, лука и лимона и откажитесь от дополнительного хлеба."
+   ],
+   "name_inline": "кыймалы пиде"
+  },
+  "es": {
+   "name": "Kıymalı pide (pide de carne molida)",
+   "origin": "Turquía · región del mar Negro",
+   "intro": "El kıymalı pide es un pan plano turco en forma de barquita, cubierto con una capa fina de carne molida de res mezclada con cebolla, tomate y pimiento verde finamente picados y sazonada con hojuelas de pimiento. Horneado en un horno muy caliente, la carne queda jugosa mientras los bordes abiertos se ponen crujientes y dorados. Se corta en tiras y se sirve con limón, perejil y cebolla en rodajas.",
+   "history": "El pide es el pan plano horneado en forma de barquita de Turquía, muy ligado a la región del mar Negro, donde ciudades como Samsun, Trabzon y Kastamonu reclaman cada una su propio estilo. Hoy hay pidecis con muchos rellenos en todas las ciudades turcas.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "400 g de harina",
+     "7 g de levadura seca",
+     "1 cdta. de sal",
+     "250 ml de agua tibia",
+     "300 g de carne molida de res",
+     "1 cebolla, rallada",
+     "2 tomates, finamente picados",
+     "2 pimientos verdes, finamente picados",
+     "1 cdta. de hojuelas de pimiento, sal"
+    ],
+    "steps": [
+     "Mezcla la harina, la levadura, la sal y el agua tibia hasta formar una masa suave, amasa 8 minutos y deja que leve 1 hora.",
+     "Prepara el relleno: mezcla la carne cruda con la cebolla, el tomate, el pimiento y las especias.",
+     "Divide la masa en 4, estira cada porción en un óvalo largo y extiende el relleno por el centro.",
+     "Dobla los bordes sobre el relleno y une las puntas para formar una barquita.",
+     "Hornea a 250 °C de 10 a 12 minutos hasta que esté dorado."
+    ]
+   },
+   "tips": [
+    "Elige carne molida de res magra (5–10 % de grasa).",
+    "Extiende la carne en capa fina y agrega más tomate y pimiento.",
+    "Sirve con mucho perejil, cebolla y limón y evita el pan adicional."
+   ],
+   "name_inline": "el kıymalı pide"
   }
+ }
 }

@@ -1,172 +1,204 @@
 {
-  "db_key": "bun_cha",
-  "slug": "bun-cha",
-  "emoji": "🍜",
-  "portion_g": 400,
-  "country": "VN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bun_cha",
+ "slug": "bun-cha",
+ "emoji": "🍜",
+ "portion_g": 400,
+ "country": "VN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bún chả",
+   "origin": "Vietnam · Hanoi",
+   "intro": "Bún chả is Hanoi's signature lunch: small pork patties and slices of pork belly grilled over charcoal, served in a bowl of sweet, tangy fish sauce dipping broth, with cool rice vermicelli, lettuce and fresh herbs on the side. Diners dip vermicelli and greens into the broth with the smoky meat. It is charred, sweet, savoury and fresh all at once.",
+   "history": "Bún chả is closely tied to Hanoi, where it has been sold by street vendors for generations and grilled on small charcoal braziers on the pavement. It gained wider fame abroad in 2016, when a US president shared a bowl in Hanoi.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "500 g minced pork",
+     "300 g pork belly, thinly sliced",
+     "400 g rice vermicelli",
+     "4 tbsp fish sauce, 3 tbsp sugar, 4 garlic cloves",
+     "1 shallot, minced",
+     "Lettuce, mint, perilla and coriander",
+     "400 ml warm water, lime or vinegar"
+    ],
+    "steps": [
+     "Marinate the minced pork and pork belly separately with 2 tbsp fish sauce, 1 tbsp sugar, garlic, shallot and pepper for 30 minutes.",
+     "Shape the mince into small flat patties.",
+     "Grill the patties and belly over high heat until charred and cooked through.",
+     "Mix the warm water with the remaining fish sauce and sugar, a little lime and garlic for the dipping broth.",
+     "Put the grilled pork into the broth and serve with vermicelli, lettuce and herbs."
+    ]
+   },
+   "tips": [
+    "Use lean minced pork and skip the belly, or replace it with extra patties.",
+    "Fill up on lettuce and herbs and take a smaller portion of vermicelli.",
+    "Grill rather than pan-fry — the patties need no added oil."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bún chả",
-      "origin": "Vietnam · Hanoi",
-      "intro": "Bún chả is Hanoi's signature lunch: small pork patties and slices of pork belly grilled over charcoal, served in a bowl of sweet, tangy fish sauce dipping broth, with cool rice vermicelli, lettuce and fresh herbs on the side. Diners dip vermicelli and greens into the broth with the smoky meat. It is charred, sweet, savoury and fresh all at once.",
-      "history": "Bún chả is closely tied to Hanoi, where it has been sold by street vendors for generations and grilled on small charcoal braziers on the pavement. It gained wider fame abroad in 2016, when a US president shared a bowl in Hanoi.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "500 g minced pork",
-          "300 g pork belly, thinly sliced",
-          "400 g rice vermicelli",
-          "4 tbsp fish sauce, 3 tbsp sugar, 4 garlic cloves",
-          "1 shallot, minced",
-          "Lettuce, mint, perilla and coriander",
-          "400 ml warm water, lime or vinegar"
-        ],
-        "steps": [
-          "Marinate the minced pork and pork belly separately with 2 tbsp fish sauce, 1 tbsp sugar, garlic, shallot and pepper for 30 minutes.",
-          "Shape the mince into small flat patties.",
-          "Grill the patties and belly over high heat until charred and cooked through.",
-          "Mix the warm water with the remaining fish sauce and sugar, a little lime and garlic for the dipping broth.",
-          "Put the grilled pork into the broth and serve with vermicelli, lettuce and herbs."
-        ]
-      },
-      "tips": [
-        "Use lean minced pork and skip the belly, or replace it with extra patties.",
-        "Fill up on lettuce and herbs and take a smaller portion of vermicelli.",
-        "Grill rather than pan-fry — the patties need no added oil."
-      ]
-    },
-    "ar": {
-      "name": "بون تشا",
-      "origin": "فيتنام · هانوي",
-      "intro": "بون تشا هو غداء هانوي الشهير: أقراص صغيرة من لحم الخنزير المفروم وشرائح من بطن الخنزير تشوى على الفحم، وتقدم في وعاء من مرق صلصة السمك الحلو الحامض، مع نودلز الأرز الباردة والخس والأعشاب الطازجة جانبًا. يغمس الآكلون النودلز والخضار في المرق مع اللحم المدخن. يجمع طعمه بين نكهة الشواء والحلاوة والملوحة والانتعاش في آن واحد.",
-      "history": "يرتبط بون تشا ارتباطًا وثيقًا بهانوي، حيث يبيعه الباعة الجائلون منذ أجيال ويشوونه على مواقد فحم صغيرة على الأرصفة. ونال شهرة أوسع في الخارج عام 2016 حين تناول رئيس أمريكي وعاءً منه في هانوي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "500 غ لحم خنزير مفروم",
-          "300 غ بطن خنزير مقطع شرائح رفيعة",
-          "400 غ نودلز أرز",
-          "4 ملاعق كبيرة صلصة سمك، 3 ملاعق كبيرة سكر، 4 فصوص ثوم",
-          "حبة كراث أندلسي (شالوت) مفرومة",
-          "خس ونعناع وبيريلا وكزبرة",
-          "400 مل ماء دافئ، ليمون أو خل"
-        ],
-        "steps": [
-          "تبّل اللحم المفروم وبطن الخنزير كلًا على حدة بـ 2 ملعقة كبيرة صلصة سمك وملعقة سكر والثوم والشالوت والفلفل لمدة 30 دقيقة.",
-          "شكّل المفروم أقراصًا صغيرة مسطحة.",
-          "اشوِ الأقراص والشرائح على نار قوية حتى تتحمر وتنضج.",
-          "اخلط الماء الدافئ مع بقية صلصة السمك والسكر وقليل من الليمون والثوم لتحضير المرق.",
-          "ضع اللحم المشوي في المرق وقدّمه مع النودلز والخس والأعشاب."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن واستغنِ عن البطن، أو استبدله بأقراص إضافية.",
-        "أكثر من الخس والأعشاب وخذ حصة أصغر من النودلز.",
-        "اشوِ اللحم بدل قليه — فالأقراص لا تحتاج إلى زيت إضافي."
-      ]
-    },
-    "it": {
-      "name": "Bún chả",
-      "origin": "Vietnam · Hanoi",
-      "intro": "Il bún chả è il pranzo simbolo di Hanoi: piccoli medaglioni di maiale e fettine di pancetta di maiale grigliati sulla carbonella, serviti in una ciotola di brodo agrodolce alla salsa di pesce per intingere, con vermicelli di riso freddi, lattuga ed erbe fresche a parte. I commensali intingono vermicelli e verdure nel brodo insieme alla carne affumicata. È abbrustolito, dolce, sapido e fresco allo stesso tempo.",
-      "history": "Il bún chả è strettamente legato ad Hanoi, dove da generazioni lo vendono gli ambulanti, grigliandolo su piccoli bracieri a carbone sul marciapiede. Ha guadagnato più fama all'estero nel 2016, quando un presidente degli Stati Uniti ne ha condiviso una ciotola ad Hanoi.",
-      "name_inline": "bún chả",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "500 g di maiale macinato",
-          "300 g di pancetta di maiale fresca a fettine sottili",
-          "400 g di vermicelli di riso",
-          "4 cucchiai di salsa di pesce, 3 cucchiai di zucchero, 4 spicchi d'aglio",
-          "1 scalogno tritato",
-          "Lattuga, menta, perilla e coriandolo",
-          "400 ml di acqua tiepida, lime o aceto"
-        ],
-        "steps": [
-          "Marina separatamente il macinato e la pancetta con 2 cucchiai di salsa di pesce, 1 cucchiaio di zucchero, aglio, scalogno e pepe per 30 minuti.",
-          "Forma con il macinato dei piccoli medaglioni piatti.",
-          "Griglia i medaglioni e la pancetta a fuoco vivo finché sono abbrustoliti e ben cotti.",
-          "Mescola l'acqua tiepida con il resto della salsa di pesce e dello zucchero, un po' di lime e aglio per il brodo da intingere.",
-          "Metti il maiale grigliato nel brodo e servi con vermicelli, lattuga ed erbe."
-        ]
-      },
-      "tips": [
-        "Usa maiale macinato magro e rinuncia alla pancetta, oppure sostituiscila con altri medaglioni.",
-        "Riempiti di lattuga ed erbe e prendi una porzione più piccola di vermicelli.",
-        "Griglia invece di friggere in padella: i medaglioni non hanno bisogno di olio aggiunto."
-      ]
-    },
-    "el": {
-      "name": "Μπουν τσα",
-      "origin": "Βιετνάμ · Ανόι",
-      "intro": "Το μπουν τσα είναι το χαρακτηριστικό μεσημεριανό του Ανόι: μικρά μπιφτεκάκια χοιρινού και φέτες χοιρινής πανσέτας ψημένα στα κάρβουνα, σερβιρισμένα σε μπολ με γλυκόξινο ζωμό σάλτσας ψαριού για βούτηγμα, με κρύο φιδέ ρυζιού, μαρούλι και φρέσκα μυρωδικά στο πλάι. Οι συνδαιτυμόνες βουτούν το φιδέ και τα πράσινα στον ζωμό μαζί με το καπνιστό κρέας. Είναι καψαλισμένο, γλυκό, αλμυρό και φρέσκο ταυτόχρονα.",
-      "history": "Το μπουν τσα είναι στενά δεμένο με το Ανόι, όπου πωλείται από πλανόδιους εδώ και γενιές και ψήνεται σε μικρά μαγκάλια με κάρβουνα πάνω στο πεζοδρόμιο. Απέκτησε ευρύτερη φήμη στο εξωτερικό το 2016, όταν ένας πρόεδρος των ΗΠΑ μοιράστηκε ένα μπολ στο Ανόι.",
-      "name_inline": "μπουν τσα",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "500 γρ. χοιρινός κιμάς",
-          "300 γρ. χοιρινή πανσέτα, σε λεπτές φέτες",
-          "400 γρ. φιδέ ρυζιού",
-          "4 κ.σ. σάλτσα ψαριού, 3 κ.σ. ζάχαρη, 4 σκελίδες σκόρδο",
-          "1 εσαλότ, ψιλοκομμένο",
-          "Μαρούλι, δυόσμος, περίλα και κόλιανδρος",
-          "400 ml χλιαρό νερό, λάιμ ή ξίδι"
-        ],
-        "steps": [
-          "Μαρινάρετε χωριστά τον κιμά και την πανσέτα με 2 κ.σ. σάλτσα ψαριού, 1 κ.σ. ζάχαρη, σκόρδο, εσαλότ και πιπέρι για 30 λεπτά.",
-          "Πλάστε τον κιμά σε μικρά, επίπεδα μπιφτεκάκια.",
-          "Ψήστε τα μπιφτεκάκια και την πανσέτα σε δυνατή φωτιά μέχρι να καψαλιστούν και να ψηθούν καλά.",
-          "Ανακατέψτε το χλιαρό νερό με την υπόλοιπη σάλτσα ψαριού και ζάχαρη, λίγο λάιμ και σκόρδο για τον ζωμό βουτήγματος.",
-          "Βάλτε το ψητό χοιρινό στον ζωμό και σερβίρετε με φιδέ, μαρούλι και μυρωδικά."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο χοιρινό κιμά και παραλείψτε την πανσέτα ή αντικαταστήστε τη με επιπλέον μπιφτεκάκια.",
-        "Χορτάστε με μαρούλι και μυρωδικά και πάρτε μικρότερη μερίδα φιδέ.",
-        "Ψήστε στη σχάρα αντί να τηγανίσετε — τα μπιφτεκάκια δεν χρειάζονται επιπλέον λάδι."
-      ]
-    },
-    "ru": {
-      "name": "Бун ча",
-      "origin": "Вьетнам · Ханой",
-      "intro": "Бун ча — фирменный ханойский обед: маленькие свиные котлеты и ломтики свиной грудинки, обжаренные на углях, подаются в миске со сладким, пикантным бульоном для макания на основе рыбного соуса, с прохладной рисовой вермишелью, салатом и свежей зеленью на гарнир. Посетители макают вермишель и зелень в бульон вместе с дымным мясом. Это одновременно обугленное, сладкое, пикантное и свежее блюдо.",
-      "history": "Бун ча тесно связан с Ханоем, где его поколениями продают уличные торговцы и жарят на небольших угольных жаровнях прямо на тротуаре. Широкую известность за рубежом он получил в 2016 году, когда президент США разделил миску в Ханое.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "500 г свиного фарша",
-          "300 г свиной грудинки, нарезанной тонко",
-          "400 г рисовой вермишели",
-          "4 ст. л. рыбного соуса, 3 ст. л. сахара, 4 зубчика чеснока",
-          "1 шалот, измельчённый",
-          "Салат, мята, перилла и кинза",
-          "400 мл тёплой воды, лайм или уксус"
-        ],
-        "steps": [
-          "Замаринуйте свиной фарш и свиную грудинку отдельно с 2 ст. л. рыбного соуса, 1 ст. л. сахара, чесноком, шалотом и перцем на 30 минут.",
-          "Сформируйте из фарша небольшие плоские котлеты.",
-          "Обжарьте котлеты и грудинку на сильном огне до обугливания и готовности.",
-          "Смешайте тёплую воду с оставшимся рыбным соусом и сахаром, небольшим количеством лайма и чесноком для бульона для макания.",
-          "Положите жареную свинину в бульон и подавайте с вермишелью, салатом и зеленью."
-        ]
-      },
-      "tips": [
-        "Берите постный свиной фарш и откажитесь от грудинки или замените её дополнительными котлетами.",
-        "Наедайтесь салатом и зеленью и берите меньшую порцию вермишели.",
-        "Жарьте на гриле, а не на сковороде — котлетам не нужно добавленное масло."
-      ],
-      "name_inline": "бун ча"
-    }
+  "ar": {
+   "name": "بون تشا",
+   "origin": "فيتنام · هانوي",
+   "intro": "بون تشا هو غداء هانوي الشهير: أقراص صغيرة من لحم الخنزير المفروم وشرائح من بطن الخنزير تشوى على الفحم، وتقدم في وعاء من مرق صلصة السمك الحلو الحامض، مع نودلز الأرز الباردة والخس والأعشاب الطازجة جانبًا. يغمس الآكلون النودلز والخضار في المرق مع اللحم المدخن. يجمع طعمه بين نكهة الشواء والحلاوة والملوحة والانتعاش في آن واحد.",
+   "history": "يرتبط بون تشا ارتباطًا وثيقًا بهانوي، حيث يبيعه الباعة الجائلون منذ أجيال ويشوونه على مواقد فحم صغيرة على الأرصفة. ونال شهرة أوسع في الخارج عام 2016 حين تناول رئيس أمريكي وعاءً منه في هانوي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "500 غ لحم خنزير مفروم",
+     "300 غ بطن خنزير مقطع شرائح رفيعة",
+     "400 غ نودلز أرز",
+     "4 ملاعق كبيرة صلصة سمك، 3 ملاعق كبيرة سكر، 4 فصوص ثوم",
+     "حبة كراث أندلسي (شالوت) مفرومة",
+     "خس ونعناع وبيريلا وكزبرة",
+     "400 مل ماء دافئ، ليمون أو خل"
+    ],
+    "steps": [
+     "تبّل اللحم المفروم وبطن الخنزير كلًا على حدة بـ 2 ملعقة كبيرة صلصة سمك وملعقة سكر والثوم والشالوت والفلفل لمدة 30 دقيقة.",
+     "شكّل المفروم أقراصًا صغيرة مسطحة.",
+     "اشوِ الأقراص والشرائح على نار قوية حتى تتحمر وتنضج.",
+     "اخلط الماء الدافئ مع بقية صلصة السمك والسكر وقليل من الليمون والثوم لتحضير المرق.",
+     "ضع اللحم المشوي في المرق وقدّمه مع النودلز والخس والأعشاب."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن واستغنِ عن البطن، أو استبدله بأقراص إضافية.",
+    "أكثر من الخس والأعشاب وخذ حصة أصغر من النودلز.",
+    "اشوِ اللحم بدل قليه — فالأقراص لا تحتاج إلى زيت إضافي."
+   ]
+  },
+  "it": {
+   "name": "Bún chả",
+   "origin": "Vietnam · Hanoi",
+   "intro": "Il bún chả è il pranzo simbolo di Hanoi: piccoli medaglioni di maiale e fettine di pancetta di maiale grigliati sulla carbonella, serviti in una ciotola di brodo agrodolce alla salsa di pesce per intingere, con vermicelli di riso freddi, lattuga ed erbe fresche a parte. I commensali intingono vermicelli e verdure nel brodo insieme alla carne affumicata. È abbrustolito, dolce, sapido e fresco allo stesso tempo.",
+   "history": "Il bún chả è strettamente legato ad Hanoi, dove da generazioni lo vendono gli ambulanti, grigliandolo su piccoli bracieri a carbone sul marciapiede. Ha guadagnato più fama all'estero nel 2016, quando un presidente degli Stati Uniti ne ha condiviso una ciotola ad Hanoi.",
+   "name_inline": "bún chả",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "500 g di maiale macinato",
+     "300 g di pancetta di maiale fresca a fettine sottili",
+     "400 g di vermicelli di riso",
+     "4 cucchiai di salsa di pesce, 3 cucchiai di zucchero, 4 spicchi d'aglio",
+     "1 scalogno tritato",
+     "Lattuga, menta, perilla e coriandolo",
+     "400 ml di acqua tiepida, lime o aceto"
+    ],
+    "steps": [
+     "Marina separatamente il macinato e la pancetta con 2 cucchiai di salsa di pesce, 1 cucchiaio di zucchero, aglio, scalogno e pepe per 30 minuti.",
+     "Forma con il macinato dei piccoli medaglioni piatti.",
+     "Griglia i medaglioni e la pancetta a fuoco vivo finché sono abbrustoliti e ben cotti.",
+     "Mescola l'acqua tiepida con il resto della salsa di pesce e dello zucchero, un po' di lime e aglio per il brodo da intingere.",
+     "Metti il maiale grigliato nel brodo e servi con vermicelli, lattuga ed erbe."
+    ]
+   },
+   "tips": [
+    "Usa maiale macinato magro e rinuncia alla pancetta, oppure sostituiscila con altri medaglioni.",
+    "Riempiti di lattuga ed erbe e prendi una porzione più piccola di vermicelli.",
+    "Griglia invece di friggere in padella: i medaglioni non hanno bisogno di olio aggiunto."
+   ]
+  },
+  "el": {
+   "name": "Μπουν τσα",
+   "origin": "Βιετνάμ · Ανόι",
+   "intro": "Το μπουν τσα είναι το χαρακτηριστικό μεσημεριανό του Ανόι: μικρά μπιφτεκάκια χοιρινού και φέτες χοιρινής πανσέτας ψημένα στα κάρβουνα, σερβιρισμένα σε μπολ με γλυκόξινο ζωμό σάλτσας ψαριού για βούτηγμα, με κρύο φιδέ ρυζιού, μαρούλι και φρέσκα μυρωδικά στο πλάι. Οι συνδαιτυμόνες βουτούν το φιδέ και τα πράσινα στον ζωμό μαζί με το καπνιστό κρέας. Είναι καψαλισμένο, γλυκό, αλμυρό και φρέσκο ταυτόχρονα.",
+   "history": "Το μπουν τσα είναι στενά δεμένο με το Ανόι, όπου πωλείται από πλανόδιους εδώ και γενιές και ψήνεται σε μικρά μαγκάλια με κάρβουνα πάνω στο πεζοδρόμιο. Απέκτησε ευρύτερη φήμη στο εξωτερικό το 2016, όταν ένας πρόεδρος των ΗΠΑ μοιράστηκε ένα μπολ στο Ανόι.",
+   "name_inline": "μπουν τσα",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "500 γρ. χοιρινός κιμάς",
+     "300 γρ. χοιρινή πανσέτα, σε λεπτές φέτες",
+     "400 γρ. φιδέ ρυζιού",
+     "4 κ.σ. σάλτσα ψαριού, 3 κ.σ. ζάχαρη, 4 σκελίδες σκόρδο",
+     "1 εσαλότ, ψιλοκομμένο",
+     "Μαρούλι, δυόσμος, περίλα και κόλιανδρος",
+     "400 ml χλιαρό νερό, λάιμ ή ξίδι"
+    ],
+    "steps": [
+     "Μαρινάρετε χωριστά τον κιμά και την πανσέτα με 2 κ.σ. σάλτσα ψαριού, 1 κ.σ. ζάχαρη, σκόρδο, εσαλότ και πιπέρι για 30 λεπτά.",
+     "Πλάστε τον κιμά σε μικρά, επίπεδα μπιφτεκάκια.",
+     "Ψήστε τα μπιφτεκάκια και την πανσέτα σε δυνατή φωτιά μέχρι να καψαλιστούν και να ψηθούν καλά.",
+     "Ανακατέψτε το χλιαρό νερό με την υπόλοιπη σάλτσα ψαριού και ζάχαρη, λίγο λάιμ και σκόρδο για τον ζωμό βουτήγματος.",
+     "Βάλτε το ψητό χοιρινό στον ζωμό και σερβίρετε με φιδέ, μαρούλι και μυρωδικά."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο χοιρινό κιμά και παραλείψτε την πανσέτα ή αντικαταστήστε τη με επιπλέον μπιφτεκάκια.",
+    "Χορτάστε με μαρούλι και μυρωδικά και πάρτε μικρότερη μερίδα φιδέ.",
+    "Ψήστε στη σχάρα αντί να τηγανίσετε — τα μπιφτεκάκια δεν χρειάζονται επιπλέον λάδι."
+   ]
+  },
+  "ru": {
+   "name": "Бун ча",
+   "origin": "Вьетнам · Ханой",
+   "intro": "Бун ча — фирменный ханойский обед: маленькие свиные котлеты и ломтики свиной грудинки, обжаренные на углях, подаются в миске со сладким, пикантным бульоном для макания на основе рыбного соуса, с прохладной рисовой вермишелью, салатом и свежей зеленью на гарнир. Посетители макают вермишель и зелень в бульон вместе с дымным мясом. Это одновременно обугленное, сладкое, пикантное и свежее блюдо.",
+   "history": "Бун ча тесно связан с Ханоем, где его поколениями продают уличные торговцы и жарят на небольших угольных жаровнях прямо на тротуаре. Широкую известность за рубежом он получил в 2016 году, когда президент США разделил миску в Ханое.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "500 г свиного фарша",
+     "300 г свиной грудинки, нарезанной тонко",
+     "400 г рисовой вермишели",
+     "4 ст. л. рыбного соуса, 3 ст. л. сахара, 4 зубчика чеснока",
+     "1 шалот, измельчённый",
+     "Салат, мята, перилла и кинза",
+     "400 мл тёплой воды, лайм или уксус"
+    ],
+    "steps": [
+     "Замаринуйте свиной фарш и свиную грудинку отдельно с 2 ст. л. рыбного соуса, 1 ст. л. сахара, чесноком, шалотом и перцем на 30 минут.",
+     "Сформируйте из фарша небольшие плоские котлеты.",
+     "Обжарьте котлеты и грудинку на сильном огне до обугливания и готовности.",
+     "Смешайте тёплую воду с оставшимся рыбным соусом и сахаром, небольшим количеством лайма и чесноком для бульона для макания.",
+     "Положите жареную свинину в бульон и подавайте с вермишелью, салатом и зеленью."
+    ]
+   },
+   "tips": [
+    "Берите постный свиной фарш и откажитесь от грудинки или замените её дополнительными котлетами.",
+    "Наедайтесь салатом и зеленью и берите меньшую порцию вермишели.",
+    "Жарьте на гриле, а не на сковороде — котлетам не нужно добавленное масло."
+   ],
+   "name_inline": "бун ча"
+  },
+  "es": {
+   "name": "Bún chả",
+   "origin": "Vietnam · Hanói",
+   "intro": "El bún chả es el almuerzo emblemático de Hanói: pequeñas hamburguesas de cerdo y rebanadas de panceta asadas al carbón, servidas en un cuenco de caldo dulce y ácido de salsa de pescado, con fideos de arroz fríos, lechuga y hierbas frescas aparte. Se mojan los fideos y las verduras en el caldo junto con la carne ahumada. Es tostado, dulce, salado y fresco al mismo tiempo.",
+   "history": "El bún chả está muy ligado a Hanói, donde los vendedores callejeros lo preparan desde hace generaciones, asando la carne en pequeñas parrillas de carbón en la acera. Ganó fama en el extranjero en 2016, cuando un presidente de Estados Unidos compartió un tazón en Hanói.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "500 g de carne molida de cerdo",
+     "300 g de panceta de cerdo, en rebanadas finas",
+     "400 g de fideos de arroz",
+     "4 cda. de salsa de pescado, 3 cda. de azúcar, 4 dientes de ajo",
+     "1 chalote, picado",
+     "Lechuga, menta, perilla y cilantro",
+     "400 ml de agua tibia, limón o vinagre"
+    ],
+    "steps": [
+     "Marina por separado la carne molida y la panceta con 2 cda. de salsa de pescado, 1 cda. de azúcar, ajo, chalote y pimienta durante 30 minutos.",
+     "Forma con la carne molida pequeñas hamburguesas planas.",
+     "Asa las hamburguesas y la panceta a fuego alto hasta que estén tostadas y bien cocidas.",
+     "Mezcla el agua tibia con el resto de la salsa de pescado y del azúcar, un poco de limón y ajo para hacer el caldo para mojar.",
+     "Coloca el cerdo asado en el caldo y sirve con los fideos, la lechuga y las hierbas."
+    ]
+   },
+   "tips": [
+    "Usa carne molida de cerdo magra y omite la panceta, o sustitúyela con más hamburguesas.",
+    "Llénate con lechuga y hierbas y toma una porción más pequeña de fideos.",
+    "Asa en lugar de freír en sartén: las hamburguesas no necesitan aceite añadido."
+   ],
+   "name_inline": "el bún chả"
   }
+ }
 }

@@ -1,160 +1,190 @@
 {
-  "db_key": "fava",
-  "slug": "fava",
-  "emoji": "🫘",
-  "portion_g": 150,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fava",
+ "slug": "fava",
+ "emoji": "🫘",
+ "portion_g": 150,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Broad bean purée",
+   "origin": "Eastern Mediterranean",
+   "intro": "This fava is a smooth, chilled purée of broad beans blended with olive oil and lemon juice and finished with plenty of fresh dill. It has a mild, earthy flavour and a soft, spreadable texture. It is served cold as a meze or starter, drizzled with a little extra oil and eaten with raw vegetables.",
+   "history": "Purées of dried broad beans have been eaten around the eastern Mediterranean for a very long time, and today this style is served as a cold meze in Turkey, Greece and neighbouring countries.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "250 g dried split broad beans, soaked overnight",
+     "1 l water",
+     "3 tbsp olive oil",
+     "Juice of 1 lemon",
+     "1 small bunch dill, chopped",
+     "1 tsp salt, ½ tsp sugar"
+    ],
+    "steps": [
+     "Drain the beans and simmer them in fresh water for about 1 hour until very soft.",
+     "Blend with 2 tbsp oil, the lemon juice, salt and sugar until smooth, adding cooking water if needed.",
+     "Pour into a dish and chill for at least 2 hours until set.",
+     "Turn out or slice, top with dill and the remaining oil."
+    ]
+   },
+   "tips": [
+    "Use 1 tbsp oil in the purée and add lemon or cooking water for creaminess.",
+    "Scoop it with cucumber, carrot or pepper sticks.",
+    "A 150 g portion is a filling starter; skip the extra oil drizzle on top."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Broad bean purée",
-      "origin": "Eastern Mediterranean",
-      "intro": "This fava is a smooth, chilled purée of broad beans blended with olive oil and lemon juice and finished with plenty of fresh dill. It has a mild, earthy flavour and a soft, spreadable texture. It is served cold as a meze or starter, drizzled with a little extra oil and eaten with raw vegetables.",
-      "history": "Purées of dried broad beans have been eaten around the eastern Mediterranean for a very long time, and today this style is served as a cold meze in Turkey, Greece and neighbouring countries.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "250 g dried split broad beans, soaked overnight",
-          "1 l water",
-          "3 tbsp olive oil",
-          "Juice of 1 lemon",
-          "1 small bunch dill, chopped",
-          "1 tsp salt, ½ tsp sugar"
-        ],
-        "steps": [
-          "Drain the beans and simmer them in fresh water for about 1 hour until very soft.",
-          "Blend with 2 tbsp oil, the lemon juice, salt and sugar until smooth, adding cooking water if needed.",
-          "Pour into a dish and chill for at least 2 hours until set.",
-          "Turn out or slice, top with dill and the remaining oil."
-        ]
-      },
-      "tips": [
-        "Use 1 tbsp oil in the purée and add lemon or cooking water for creaminess.",
-        "Scoop it with cucumber, carrot or pepper sticks.",
-        "A 150 g portion is a filling starter; skip the extra oil drizzle on top."
-      ]
-    },
-    "ar": {
-      "name": "فافا (هريس الفول)",
-      "origin": "شرق المتوسط",
-      "intro": "الفافا هريس ناعم بارد من الفول المجروش يُخفق مع زيت الزيتون وعصير الليمون ويُزيَّن بالكثير من الشبت الطازج. طعمه خفيف ترابي وقوامه طري قابل للدهن. يُقدَّم بارداً كمازة أو مقبّل، مع رشة إضافية من الزيت، ويؤكل مع الخضار النيئة.",
-      "history": "يؤكل هريس الفول المجفف في شرق المتوسط منذ زمن طويل، واليوم يُقدَّم هذا النوع مازةً باردة في تركيا واليونان والبلدان المجاورة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "250 غ فول مجروش مجفف منقوع ليلة كاملة",
-          "1 لتر ماء",
-          "3 ملاعق كبيرة زيت زيتون",
-          "عصير ليمونة واحدة",
-          "حزمة صغيرة شبت مفروم",
-          "1 ملعقة صغيرة ملح و½ ملعقة صغيرة سكر"
-        ],
-        "steps": [
-          "صفِّ الفول واسلقه في ماء جديد نحو ساعة حتى يلين تماماً.",
-          "اخفقه في الخلاط مع ملعقتي زيت وعصير الليمون والملح والسكر حتى يصبح ناعماً، وأضف من ماء السلق عند الحاجة.",
-          "اسكبه في طبق وبرّده ساعتين على الأقل حتى يتماسك.",
-          "اقلبه أو قطّعه، وزيّنه بالشبت وباقي الزيت."
-        ]
-      },
-      "tips": [
-        "استخدم ملعقة زيت واحدة في الهريس وأضف الليمون أو ماء السلق للنعومة.",
-        "كُله بأصابع الخيار أو الجزر أو الفلفل.",
-        "حصة 150 غ مقبّل مشبع؛ واستغنِ عن رشة الزيت فوقه."
-      ]
-    },
-    "it": {
-      "name": "Purè di fave",
-      "name_inline": "purè di fave",
-      "origin": "Mediterraneo orientale",
-      "intro": "Questa fava è un purè liscio e freddo di fave frullate con olio d'oliva e succo di limone e completato con abbondante aneto fresco. Ha un sapore delicato e terroso e una consistenza morbida e spalmabile. Si serve freddo come meze o antipasto, con un filo d'olio in più, e si mangia con verdure crude.",
-      "history": "I purè di fave secche si mangiano nel Mediterraneo orientale da moltissimo tempo, e oggi questo stile si serve come meze freddo in Turchia, in Grecia e nei paesi vicini.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "250 g di fave secche decorticate, messe in ammollo per una notte",
-          "1 l di acqua",
-          "3 cucchiai di olio d'oliva",
-          "Succo di 1 limone",
-          "1 mazzetto piccolo di aneto tritato",
-          "1 cucchiaino di sale, ½ cucchiaino di zucchero"
-        ],
-        "steps": [
-          "Scola le fave e falle sobbollire in acqua fresca per circa 1 ora, finché sono molto morbide.",
-          "Frullale con 2 cucchiai di olio, il succo di limone, il sale e lo zucchero fino a renderle lisce, aggiungendo acqua di cottura se serve.",
-          "Versa in un piatto e fai raffreddare in frigorifero per almeno 2 ore, finché si rapprende.",
-          "Sformalo o taglialo a fette e completa con l'aneto e il resto dell'olio."
-        ]
-      },
-      "tips": [
-        "Usa 1 cucchiaio di olio nel purè e aggiungi limone o acqua di cottura per renderlo cremoso.",
-        "Raccoglilo con bastoncini di cetriolo, carota o peperone.",
-        "Una porzione da 150 g è un antipasto saziante; evita il filo d'olio in più sopra."
-      ]
-    },
-    "el": {
-      "name": "Πουρές κουκιών",
-      "origin": "Ανατολική Μεσόγειος",
-      "intro": "Αυτή η φάβα είναι ένας λείος, κρύος πουρές από κουκιά χτυπημένα με ελαιόλαδο και χυμό λεμονιού, με άφθονο φρέσκο άνηθο στο τέλος. Έχει ήπια, γήινη γεύση και μαλακή υφή που απλώνεται. Σερβίρεται κρύος ως μεζές ή ορεκτικό, περιχυμένος με λίγο ακόμη λάδι, και τρώγεται με ωμά λαχανικά.",
-      "history": "Οι πουρέδες από ξερά κουκιά τρώγονται γύρω από την ανατολική Μεσόγειο εδώ και πάρα πολύ καιρό, και σήμερα αυτό το στιλ σερβίρεται ως κρύος μεζές στην Τουρκία, την Ελλάδα και τις γειτονικές χώρες.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "250 γρ. ξερά σπασμένα κουκιά, μουλιασμένα από το βράδυ",
-          "1 λίτρο νερό",
-          "3 κ.σ. ελαιόλαδο",
-          "Χυμός από 1 λεμόνι",
-          "1 μικρό ματσάκι άνηθο, ψιλοκομμένο",
-          "1 κ.γ. αλάτι, ½ κ.γ. ζάχαρη"
-        ],
-        "steps": [
-          "Στραγγίξτε τα κουκιά και σιγοβράστε τα σε φρέσκο νερό για περίπου 1 ώρα μέχρι να μαλακώσουν πολύ.",
-          "Χτυπήστε τα με 2 κ.σ. λάδι, τον χυμό λεμονιού, το αλάτι και τη ζάχαρη μέχρι να γίνουν λεία, προσθέτοντας νερό από το βράσιμο αν χρειαστεί.",
-          "Αδειάστε σε σκεύος και βάλτε στο ψυγείο για τουλάχιστον 2 ώρες μέχρι να σφίξει.",
-          "Ξεφορμάρετε ή κόψτε σε φέτες και γαρνίρετε με τον άνηθο και το υπόλοιπο λάδι."
-        ]
-      },
-      "tips": [
-        "Βάλτε 1 κ.σ. λάδι στον πουρέ και προσθέστε λεμόνι ή νερό από το βράσιμο για κρεμώδη υφή.",
-        "Τρώτε τον με στικς αγγουριού, καρότου ή πιπεριάς.",
-        "Μια μερίδα 150 γρ. είναι χορταστικό ορεκτικό· παραλείψτε το επιπλέον λάδι από πάνω."
-      ]
-    },
-    "ru": {
-      "name": "Пюре из бобов",
-      "origin": "Восточное Средиземноморье",
-      "intro": "Эта фава — гладкое охлаждённое пюре из конских бобов, взбитое с оливковым маслом и лимонным соком и щедро приправленное свежим укропом. У неё мягкий землистый вкус и нежная, намазываемая текстура. Её подают холодной как мезе или закуску, сбрызнув немного оливковым маслом, и едят с сырыми овощами.",
-      "history": "Пюре из сушёных конских бобов очень давно едят в восточном Средиземноморье, а сегодня этот вариант подают как холодное мезе в Турции, Греции и соседних странах.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "250 г сушёных колотых конских бобов, замоченных на ночь",
-          "1 л воды",
-          "3 ст. л. оливкового масла",
-          "Сок 1 лимона",
-          "1 небольшой пучок укропа, нарубленный",
-          "1 ч. л. соли, ½ ч. л. сахара"
-        ],
-        "steps": [
-          "Слейте воду с бобов и варите их в свежей воде примерно 1 час до полной мягкости.",
-          "Взбейте блендером с 2 ст. л. масла, лимонным соком, солью и сахаром до однородности, при необходимости добавляя воду от варки.",
-          "Переложите в форму и охлаждайте не менее 2 часов, пока не застынет.",
-          "Выложите или нарежьте, посыпьте укропом и полейте оставшимся маслом."
-        ]
-      },
-      "tips": [
-        "Кладите в пюре 1 ст. л. масла, а для нежности добавьте лимон или воду от варки.",
-        "Подавайте с палочками огурца, моркови или перца.",
-        "Порция 150 г — сытная закуска; не добавляйте сверху лишнее масло."
-      ]
-    }
+  "ar": {
+   "name": "فافا (هريس الفول)",
+   "origin": "شرق المتوسط",
+   "intro": "الفافا هريس ناعم بارد من الفول المجروش يُخفق مع زيت الزيتون وعصير الليمون ويُزيَّن بالكثير من الشبت الطازج. طعمه خفيف ترابي وقوامه طري قابل للدهن. يُقدَّم بارداً كمازة أو مقبّل، مع رشة إضافية من الزيت، ويؤكل مع الخضار النيئة.",
+   "history": "يؤكل هريس الفول المجفف في شرق المتوسط منذ زمن طويل، واليوم يُقدَّم هذا النوع مازةً باردة في تركيا واليونان والبلدان المجاورة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "250 غ فول مجروش مجفف منقوع ليلة كاملة",
+     "1 لتر ماء",
+     "3 ملاعق كبيرة زيت زيتون",
+     "عصير ليمونة واحدة",
+     "حزمة صغيرة شبت مفروم",
+     "1 ملعقة صغيرة ملح و½ ملعقة صغيرة سكر"
+    ],
+    "steps": [
+     "صفِّ الفول واسلقه في ماء جديد نحو ساعة حتى يلين تماماً.",
+     "اخفقه في الخلاط مع ملعقتي زيت وعصير الليمون والملح والسكر حتى يصبح ناعماً، وأضف من ماء السلق عند الحاجة.",
+     "اسكبه في طبق وبرّده ساعتين على الأقل حتى يتماسك.",
+     "اقلبه أو قطّعه، وزيّنه بالشبت وباقي الزيت."
+    ]
+   },
+   "tips": [
+    "استخدم ملعقة زيت واحدة في الهريس وأضف الليمون أو ماء السلق للنعومة.",
+    "كُله بأصابع الخيار أو الجزر أو الفلفل.",
+    "حصة 150 غ مقبّل مشبع؛ واستغنِ عن رشة الزيت فوقه."
+   ]
+  },
+  "it": {
+   "name": "Purè di fave",
+   "name_inline": "purè di fave",
+   "origin": "Mediterraneo orientale",
+   "intro": "Questa fava è un purè liscio e freddo di fave frullate con olio d'oliva e succo di limone e completato con abbondante aneto fresco. Ha un sapore delicato e terroso e una consistenza morbida e spalmabile. Si serve freddo come meze o antipasto, con un filo d'olio in più, e si mangia con verdure crude.",
+   "history": "I purè di fave secche si mangiano nel Mediterraneo orientale da moltissimo tempo, e oggi questo stile si serve come meze freddo in Turchia, in Grecia e nei paesi vicini.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "250 g di fave secche decorticate, messe in ammollo per una notte",
+     "1 l di acqua",
+     "3 cucchiai di olio d'oliva",
+     "Succo di 1 limone",
+     "1 mazzetto piccolo di aneto tritato",
+     "1 cucchiaino di sale, ½ cucchiaino di zucchero"
+    ],
+    "steps": [
+     "Scola le fave e falle sobbollire in acqua fresca per circa 1 ora, finché sono molto morbide.",
+     "Frullale con 2 cucchiai di olio, il succo di limone, il sale e lo zucchero fino a renderle lisce, aggiungendo acqua di cottura se serve.",
+     "Versa in un piatto e fai raffreddare in frigorifero per almeno 2 ore, finché si rapprende.",
+     "Sformalo o taglialo a fette e completa con l'aneto e il resto dell'olio."
+    ]
+   },
+   "tips": [
+    "Usa 1 cucchiaio di olio nel purè e aggiungi limone o acqua di cottura per renderlo cremoso.",
+    "Raccoglilo con bastoncini di cetriolo, carota o peperone.",
+    "Una porzione da 150 g è un antipasto saziante; evita il filo d'olio in più sopra."
+   ]
+  },
+  "el": {
+   "name": "Πουρές κουκιών",
+   "origin": "Ανατολική Μεσόγειος",
+   "intro": "Αυτή η φάβα είναι ένας λείος, κρύος πουρές από κουκιά χτυπημένα με ελαιόλαδο και χυμό λεμονιού, με άφθονο φρέσκο άνηθο στο τέλος. Έχει ήπια, γήινη γεύση και μαλακή υφή που απλώνεται. Σερβίρεται κρύος ως μεζές ή ορεκτικό, περιχυμένος με λίγο ακόμη λάδι, και τρώγεται με ωμά λαχανικά.",
+   "history": "Οι πουρέδες από ξερά κουκιά τρώγονται γύρω από την ανατολική Μεσόγειο εδώ και πάρα πολύ καιρό, και σήμερα αυτό το στιλ σερβίρεται ως κρύος μεζές στην Τουρκία, την Ελλάδα και τις γειτονικές χώρες.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "250 γρ. ξερά σπασμένα κουκιά, μουλιασμένα από το βράδυ",
+     "1 λίτρο νερό",
+     "3 κ.σ. ελαιόλαδο",
+     "Χυμός από 1 λεμόνι",
+     "1 μικρό ματσάκι άνηθο, ψιλοκομμένο",
+     "1 κ.γ. αλάτι, ½ κ.γ. ζάχαρη"
+    ],
+    "steps": [
+     "Στραγγίξτε τα κουκιά και σιγοβράστε τα σε φρέσκο νερό για περίπου 1 ώρα μέχρι να μαλακώσουν πολύ.",
+     "Χτυπήστε τα με 2 κ.σ. λάδι, τον χυμό λεμονιού, το αλάτι και τη ζάχαρη μέχρι να γίνουν λεία, προσθέτοντας νερό από το βράσιμο αν χρειαστεί.",
+     "Αδειάστε σε σκεύος και βάλτε στο ψυγείο για τουλάχιστον 2 ώρες μέχρι να σφίξει.",
+     "Ξεφορμάρετε ή κόψτε σε φέτες και γαρνίρετε με τον άνηθο και το υπόλοιπο λάδι."
+    ]
+   },
+   "tips": [
+    "Βάλτε 1 κ.σ. λάδι στον πουρέ και προσθέστε λεμόνι ή νερό από το βράσιμο για κρεμώδη υφή.",
+    "Τρώτε τον με στικς αγγουριού, καρότου ή πιπεριάς.",
+    "Μια μερίδα 150 γρ. είναι χορταστικό ορεκτικό· παραλείψτε το επιπλέον λάδι από πάνω."
+   ]
+  },
+  "ru": {
+   "name": "Пюре из бобов",
+   "origin": "Восточное Средиземноморье",
+   "intro": "Эта фава — гладкое охлаждённое пюре из конских бобов, взбитое с оливковым маслом и лимонным соком и щедро приправленное свежим укропом. У неё мягкий землистый вкус и нежная, намазываемая текстура. Её подают холодной как мезе или закуску, сбрызнув немного оливковым маслом, и едят с сырыми овощами.",
+   "history": "Пюре из сушёных конских бобов очень давно едят в восточном Средиземноморье, а сегодня этот вариант подают как холодное мезе в Турции, Греции и соседних странах.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "250 г сушёных колотых конских бобов, замоченных на ночь",
+     "1 л воды",
+     "3 ст. л. оливкового масла",
+     "Сок 1 лимона",
+     "1 небольшой пучок укропа, нарубленный",
+     "1 ч. л. соли, ½ ч. л. сахара"
+    ],
+    "steps": [
+     "Слейте воду с бобов и варите их в свежей воде примерно 1 час до полной мягкости.",
+     "Взбейте блендером с 2 ст. л. масла, лимонным соком, солью и сахаром до однородности, при необходимости добавляя воду от варки.",
+     "Переложите в форму и охлаждайте не менее 2 часов, пока не застынет.",
+     "Выложите или нарежьте, посыпьте укропом и полейте оставшимся маслом."
+    ]
+   },
+   "tips": [
+    "Кладите в пюре 1 ст. л. масла, а для нежности добавьте лимон или воду от варки.",
+    "Подавайте с палочками огурца, моркови или перца.",
+    "Порция 150 г — сытная закуска; не добавляйте сверху лишнее масло."
+   ]
+  },
+  "es": {
+   "name": "Fava (puré de habas)",
+   "origin": "Mediterráneo oriental",
+   "intro": "Esta fava es un puré suave y frío de habas secas licuado con aceite de oliva y jugo de limón, terminado con abundante eneldo fresco. Tiene un sabor suave y terroso y una textura tierna y untable. Se sirve frío como meze o entrada, con un chorrito de aceite extra, y se come con verduras crudas.",
+   "history": "Los purés de habas secas se comen desde hace muchísimo tiempo en el Mediterráneo oriental, y hoy este estilo se sirve como meze frío en Turquía, Grecia y países vecinos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "250 g de habas secas peladas y partidas, remojadas toda la noche",
+     "1 l de agua",
+     "3 cdas. de aceite de oliva",
+     "Jugo de 1 limón",
+     "1 manojo pequeño de eneldo, picado",
+     "1 cdta. de sal y ½ cdta. de azúcar"
+    ],
+    "steps": [
+     "Escurre las habas y cuécelas en agua nueva a fuego suave durante 1 hora aproximadamente, hasta que estén muy blandas.",
+     "Licúalas con 2 cdas. de aceite, el jugo de limón, la sal y el azúcar hasta obtener un puré liso, añadiendo agua de cocción si hace falta.",
+     "Vierte en un recipiente y refrigera al menos 2 horas, hasta que cuaje.",
+     "Desmolda o corta en porciones, y cubre con el eneldo y el aceite restante."
+    ]
+   },
+   "tips": [
+    "Usa 1 cda. de aceite en el puré y aporta cremosidad con limón o agua de cocción.",
+    "Acompáñalo con bastones de pepino, zanahoria o pimiento para untar.",
+    "Una porción de 150 g es una entrada saciante; omite el chorrito extra de aceite por encima."
+   ],
+   "name_inline": "la fava"
   }
+ }
 }

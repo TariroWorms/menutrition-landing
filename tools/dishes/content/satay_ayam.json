@@ -1,180 +1,214 @@
 {
-  "db_key": "satay_ayam",
-  "slug": "satay-ayam",
-  "emoji": "🍢",
-  "portion_g": 220,
-  "country": "MY",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "satay_ayam",
+ "slug": "satay-ayam",
+ "emoji": "🍢",
+ "portion_g": 220,
+ "country": "MY",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Satay ayam",
+   "origin": "Malaysia · Malay Peninsula",
+   "intro": "Satay ayam is the Malay name for chicken satay: small cubes of chicken marinated in turmeric, lemongrass and coconut milk, grilled on skewers over charcoal. In Malaysia it is served with a chunky peanut sauce and ketupat, compressed rice cakes cut into cubes, which soak up the sauce and turn the snack into a meal.",
+   "history": "Satay is most closely associated with Java in Indonesia, and it is often suggested that it developed in the 19th century under the influence of kebabs brought by Indian Muslim and Arab traders. It is now a beloved street food across Indonesia, Malaysia, Singapore and Thailand. In Malaysia, the town of Kajang in Selangor is especially famous for its satay.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "600 g boneless chicken thighs, cut into 2–3 cm cubes",
+     "1 tsp ground turmeric",
+     "1 lemongrass stalk, finely chopped",
+     "2 garlic cloves, crushed",
+     "100 ml coconut milk",
+     "1 tsp sugar, salt",
+     "150 g ready peanut sauce",
+     "1 tbsp vegetable oil for brushing",
+     "300 g ketupat (compressed rice cakes), cubed"
+    ],
+    "steps": [
+     "Mix the turmeric, lemongrass, garlic, sugar, salt and half the coconut milk, toss with the meat and marinate for at least 1 hour.",
+     "Soak bamboo skewers in water for 20 minutes, then thread on the meat.",
+     "Grill over hot charcoal or under a hot grill for 8–10 minutes, turning and brushing with oil, until charred at the edges and cooked through.",
+     "Warm the peanut sauce with the remaining coconut milk until smooth.",
+     "Serve the skewers hot with the peanut sauce and the ketupat cubes."
+    ]
+   },
+   "tips": [
+    "The peanut sauce is the richest part: spoon a small portion for dipping rather than pouring it over the skewers.",
+    "Use chicken breast or trim visible fat from the meat for a leaner skewer.",
+    "Pair the satay with sliced cucumber and onion instead of extra rice to keep the plate lighter."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Satay ayam",
-      "origin": "Malaysia · Malay Peninsula",
-      "intro": "Satay ayam is the Malay name for chicken satay: small cubes of chicken marinated in turmeric, lemongrass and coconut milk, grilled on skewers over charcoal. In Malaysia it is served with a chunky peanut sauce and ketupat, compressed rice cakes cut into cubes, which soak up the sauce and turn the snack into a meal.",
-      "history": "Satay is most closely associated with Java in Indonesia, and it is often suggested that it developed in the 19th century under the influence of kebabs brought by Indian Muslim and Arab traders. It is now a beloved street food across Indonesia, Malaysia, Singapore and Thailand. In Malaysia, the town of Kajang in Selangor is especially famous for its satay.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "600 g boneless chicken thighs, cut into 2–3 cm cubes",
-          "1 tsp ground turmeric",
-          "1 lemongrass stalk, finely chopped",
-          "2 garlic cloves, crushed",
-          "100 ml coconut milk",
-          "1 tsp sugar, salt",
-          "150 g ready peanut sauce",
-          "1 tbsp vegetable oil for brushing",
-          "300 g ketupat (compressed rice cakes), cubed"
-        ],
-        "steps": [
-          "Mix the turmeric, lemongrass, garlic, sugar, salt and half the coconut milk, toss with the meat and marinate for at least 1 hour.",
-          "Soak bamboo skewers in water for 20 minutes, then thread on the meat.",
-          "Grill over hot charcoal or under a hot grill for 8–10 minutes, turning and brushing with oil, until charred at the edges and cooked through.",
-          "Warm the peanut sauce with the remaining coconut milk until smooth.",
-          "Serve the skewers hot with the peanut sauce and the ketupat cubes."
-        ]
-      },
-      "tips": [
-        "The peanut sauce is the richest part: spoon a small portion for dipping rather than pouring it over the skewers.",
-        "Use chicken breast or trim visible fat from the meat for a leaner skewer.",
-        "Pair the satay with sliced cucumber and onion instead of extra rice to keep the plate lighter."
-      ]
-    },
-    "ar": {
-      "name": "ساتي أيام (ساتاي الدجاج)",
-      "origin": "ماليزيا · شبه جزيرة الملايو",
-      "intro": "ساتي أيام هو الاسم الملايوي لساتاي الدجاج: مكعبات دجاج صغيرة متبّلة بالكركم وعشب الليمون وحليب جوز الهند، تُشوى على أسياخ فوق الفحم. تُقدَّم في ماليزيا مع صلصة فول سوداني خشنة وكيتوبات، وهي كعكات أرز مضغوطة تُقطَّع مكعبات تتشرّب الصلصة وتجعل الطبق وجبة كاملة.",
-      "history": "يرتبط الساتاي ارتباطاً وثيقاً بجزيرة جاوة في إندونيسيا، ويُرجَّح أنه تطوّر في القرن التاسع عشر بتأثير الكباب الذي جلبه التجار المسلمون الهنود والعرب. وهو اليوم من أحب أطعمة الشارع في إندونيسيا وماليزيا وسنغافورة وتايلاند. وتشتهر بلدة كاجانغ في ولاية سلانغور الماليزية بالساتاي على وجه الخصوص.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "600 غ أفخاذ دجاج منزوعة العظم مقطّعة مكعبات 2–3 سم",
-          "1 ملعقة صغيرة كركم مطحون",
-          "عود عشب ليمون مفروم ناعماً",
-          "فصّا ثوم مهروسان",
-          "100 مل حليب جوز الهند",
-          "1 ملعقة صغيرة سكر، ملح",
-          "150 غ صلصة فول سوداني جاهزة",
-          "1 ملعقة كبيرة زيت نباتي للدهن",
-          "300 غ كيتوبات (كعك أرز مضغوط) مقطّع مكعبات"
-        ],
-        "steps": [
-          "اخلط الكركم وعشب الليمون والثوم والسكر والملح ونصف حليب جوز الهند، وقلّب اللحم فيه واتركه يتتبّل ساعة على الأقل.",
-          "انقع أسياخ الخيزران في الماء 20 دقيقة ثم اشكّ عليها اللحم.",
-          "اشوِ الأسياخ على فحم ساخن أو تحت شواية ساخنة 8–10 دقائق مع التقليب والدهن بالزيت حتى تتحمّر الأطراف وتنضج تماماً.",
-          "سخّن صلصة الفول السوداني مع باقي حليب جوز الهند حتى تصبح ناعمة.",
-          "قدّم الأسياخ ساخنة مع صلصة الفول السوداني ومكعبات الكيتوبات."
-        ]
-      },
-      "tips": [
-        "صلصة الفول السوداني هي الجزء الأغنى بالسعرات: خذ منها كمية صغيرة للتغميس بدلاً من سكبها على الأسياخ.",
-        "استخدم صدر الدجاج أو أزل الدهون الظاهرة من اللحم للحصول على أسياخ أخف.",
-        "قدّم الساتاي مع شرائح الخيار والبصل بدلاً من أرز إضافي ليبقى الطبق أخف."
-      ]
-    },
-    "it": {
-      "name": "Satay ayam",
-      "origin": "Malesia · Penisola malese",
-      "intro": "Satay ayam è il nome malese del satay di pollo: piccoli cubetti di pollo marinati con curcuma, citronella e latte di cocco, grigliati su spiedini sulla brace. In Malesia si serve con una salsa di arachidi corposa e con il ketupat, tortini di riso pressato tagliati a cubetti, che assorbono la salsa e trasformano lo spuntino in un pasto.",
-      "history": "Il satay è legato soprattutto a Giava, in Indonesia, e si ipotizza spesso che si sia sviluppato nel XIX secolo sotto l'influenza dei kebab portati da mercanti musulmani indiani e arabi. Oggi è un cibo di strada amatissimo in Indonesia, Malesia, Singapore e Thailandia. In Malesia la città di Kajang, nel Selangor, è particolarmente famosa per il suo satay.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "600 g di sovracosce di pollo disossate, tagliate a cubetti di 2–3 cm",
-          "1 cucchiaino di curcuma in polvere",
-          "1 gambo di citronella, tritato finemente",
-          "2 spicchi d'aglio, schiacciati",
-          "100 ml di latte di cocco",
-          "1 cucchiaino di zucchero, sale",
-          "150 g di salsa di arachidi pronta",
-          "1 cucchiaio di olio di semi per spennellare",
-          "300 g di ketupat (tortini di riso pressato), a cubetti"
-        ],
-        "steps": [
-          "Mescola curcuma, citronella, aglio, zucchero, sale e metà del latte di cocco, unisci la carne e lascia marinare per almeno 1 ora.",
-          "Metti in ammollo gli spiedini di bambù in acqua per 20 minuti, poi infilzaci la carne.",
-          "Griglia sulla brace ardente o sotto un grill caldo per 8–10 minuti, girando e spennellando d'olio, finché i bordi sono abbrustoliti e la carne è cotta all'interno.",
-          "Scalda la salsa di arachidi con il latte di cocco rimasto finché è liscia.",
-          "Servi gli spiedini caldi con la salsa di arachidi e i cubetti di ketupat."
-        ]
-      },
-      "tips": [
-        "La salsa di arachidi è la parte più ricca: servine una piccola porzione per intingere invece di versarla sugli spiedini.",
-        "Usa petto di pollo o elimina il grasso visibile dalla carne per uno spiedino più magro.",
-        "Abbina il satay a cetriolo e cipolla a fette invece che ad altro riso, per un piatto più leggero."
-      ]
-    },
-    "el": {
-      "name": "Σατέ αγιάμ",
-      "name_inline": "σατέ αγιάμ",
-      "origin": "Μαλαισία · Μαλαισιανή Χερσόνησος",
-      "intro": "Σατέ αγιάμ είναι η μαλαισιανή ονομασία για το σατέ κοτόπουλο: μικροί κύβοι κοτόπουλου μαριναρισμένοι με κουρκουμά, λεμονόχορτο και γάλα καρύδας, ψημένοι σε σουβλάκια στα κάρβουνα. Στη Μαλαισία σερβίρεται με χοντροκομμένη σάλτσα φιστικιού και κετουπάτ, πιεσμένα κέικ ρυζιού κομμένα σε κύβους, που ρουφούν τη σάλτσα και κάνουν το σνακ γεύμα.",
-      "history": "Το σατέ συνδέεται κυρίως με την Ιάβα της Ινδονησίας, και συχνά υποστηρίζεται ότι αναπτύχθηκε τον 19ο αιώνα υπό την επίδραση των κεμπάπ που έφεραν Ινδοί μουσουλμάνοι και Άραβες έμποροι. Σήμερα είναι αγαπημένο φαγητό του δρόμου στην Ινδονησία, τη Μαλαισία, τη Σιγκαπούρη και την Ταϊλάνδη. Στη Μαλαισία, η πόλη Καζάνγκ στο Σελανγκόρ φημίζεται ιδιαίτερα για το σατέ της.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "600 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κύβους 2–3 εκ.",
-          "1 κ.γ. κουρκουμάς σε σκόνη",
-          "1 κοτσάνι λεμονόχορτο, ψιλοκομμένο",
-          "2 σκελίδες σκόρδο, λιωμένες",
-          "100 ml γάλα καρύδας",
-          "1 κ.γ. ζάχαρη, αλάτι",
-          "150 γρ. έτοιμη σάλτσα φιστικιού",
-          "1 κ.σ. φυτικό λάδι για άλειμμα",
-          "300 γρ. κετουπάτ (πιεσμένα κέικ ρυζιού), σε κύβους"
-        ],
-        "steps": [
-          "Ανακατέψτε τον κουρκουμά, το λεμονόχορτο, το σκόρδο, τη ζάχαρη, το αλάτι και το μισό γάλα καρύδας, ανακατέψτε με το κρέας και μαρινάρετε για τουλάχιστον 1 ώρα.",
-          "Μουλιάστε τα ξυλάκια μπαμπού σε νερό για 20 λεπτά και περάστε το κρέας.",
-          "Ψήστε σε αναμμένα κάρβουνα ή κάτω από καυτό γκριλ για 8–10 λεπτά, γυρίζοντας και αλείφοντας με λάδι, μέχρι να καψαλιστούν οι άκρες και να ψηθεί καλά το κρέας.",
-          "Ζεστάνετε τη σάλτσα φιστικιού με το υπόλοιπο γάλα καρύδας μέχρι να γίνει λεία.",
-          "Σερβίρετε τα σουβλάκια ζεστά με τη σάλτσα φιστικιού και τους κύβους κετουπάτ."
-        ]
-      },
-      "tips": [
-        "Η σάλτσα φιστικιού είναι το πιο πλούσιο μέρος: βάλτε μια μικρή μερίδα για βούτηγμα αντί να τη ρίχνετε πάνω στα σουβλάκια.",
-        "Χρησιμοποιήστε στήθος κοτόπουλου ή αφαιρέστε το ορατό λίπος για πιο άπαχο σουβλάκι.",
-        "Συνδυάστε το σατέ με αγγούρι και κρεμμύδι σε φέτες αντί για επιπλέον ρύζι, για πιο ελαφρύ πιάτο."
-      ]
-    },
-    "ru": {
-      "name": "Сате аям",
-      "origin": "Малайзия · Малайский полуостров",
-      "intro": "Сате аям — малайское название куриного сате: маленькие кубики курицы, маринованные в куркуме, лемонграссе и кокосовом молоке, жареные на шпажках над углями. В Малайзии его подают с крупным арахисовым соусом и кетупатом — прессованными рисовыми кубиками, которые впитывают соус и превращают закуску в полноценную еду.",
-      "history": "Сате наиболее тесно связано с Явой в Индонезии, и часто считается, что оно сложилось в XIX веке под влиянием кебабов, привезённых индийскими мусульманскими и арабскими торговцами. Сегодня это любимая уличная еда по всей Индонезии, Малайзии, Сингапуру и Таиланду. В Малайзии город Каджанг в штате Селангор особенно знаменит своим сате.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "600 г куриных бёдер без костей, нарезанных кубиками 2–3 см",
-          "1 ч. л. молотой куркумы",
-          "1 стебель лемонграсса, мелко нарубленный",
-          "2 зубчика чеснока, раздавленных",
-          "100 мл кокосового молока",
-          "1 ч. л. сахара, соль",
-          "150 г готового арахисового соуса",
-          "1 ст. л. растительного масла для смазывания",
-          "300 г кетупата (прессованных рисовых кубиков), нарезанного кубиками"
-        ],
-        "steps": [
-          "Смешайте куркуму, лемонграсс, чеснок, сахар, соль и половину кокосового молока, перемешайте с мясом и мариновайте не менее 1 часа.",
-          "Замочите бамбуковые шпажки в воде на 20 минут, затем нанижите мясо.",
-          "Жарьте над горячими углями или под горячим грилем 8–10 минут, переворачивая и смазывая маслом, пока края не обуглятся, а мясо не станет готовым.",
-          "Подогрейте арахисовый соус с оставшимся кокосовым молоком до гладкости.",
-          "Подавайте горячие шпажки с арахисовым соусом и кубиками кетупата."
-        ]
-      },
-      "tips": [
-        "Арахисовый соус — самая калорийная часть: подавайте небольшую порцию для макания, а не поливайте им шашлычки.",
-        "Используйте куриную грудку или срежьте видимый жир с мяса, чтобы шпажки были постнее.",
-        "Подайте сате с нарезанными огурцом и луком вместо дополнительного риса, чтобы тарелка была легче."
-      ]
-    }
+  "ar": {
+   "name": "ساتي أيام (ساتاي الدجاج)",
+   "origin": "ماليزيا · شبه جزيرة الملايو",
+   "intro": "ساتي أيام هو الاسم الملايوي لساتاي الدجاج: مكعبات دجاج صغيرة متبّلة بالكركم وعشب الليمون وحليب جوز الهند، تُشوى على أسياخ فوق الفحم. تُقدَّم في ماليزيا مع صلصة فول سوداني خشنة وكيتوبات، وهي كعكات أرز مضغوطة تُقطَّع مكعبات تتشرّب الصلصة وتجعل الطبق وجبة كاملة.",
+   "history": "يرتبط الساتاي ارتباطاً وثيقاً بجزيرة جاوة في إندونيسيا، ويُرجَّح أنه تطوّر في القرن التاسع عشر بتأثير الكباب الذي جلبه التجار المسلمون الهنود والعرب. وهو اليوم من أحب أطعمة الشارع في إندونيسيا وماليزيا وسنغافورة وتايلاند. وتشتهر بلدة كاجانغ في ولاية سلانغور الماليزية بالساتاي على وجه الخصوص.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "600 غ أفخاذ دجاج منزوعة العظم مقطّعة مكعبات 2–3 سم",
+     "1 ملعقة صغيرة كركم مطحون",
+     "عود عشب ليمون مفروم ناعماً",
+     "فصّا ثوم مهروسان",
+     "100 مل حليب جوز الهند",
+     "1 ملعقة صغيرة سكر، ملح",
+     "150 غ صلصة فول سوداني جاهزة",
+     "1 ملعقة كبيرة زيت نباتي للدهن",
+     "300 غ كيتوبات (كعك أرز مضغوط) مقطّع مكعبات"
+    ],
+    "steps": [
+     "اخلط الكركم وعشب الليمون والثوم والسكر والملح ونصف حليب جوز الهند، وقلّب اللحم فيه واتركه يتتبّل ساعة على الأقل.",
+     "انقع أسياخ الخيزران في الماء 20 دقيقة ثم اشكّ عليها اللحم.",
+     "اشوِ الأسياخ على فحم ساخن أو تحت شواية ساخنة 8–10 دقائق مع التقليب والدهن بالزيت حتى تتحمّر الأطراف وتنضج تماماً.",
+     "سخّن صلصة الفول السوداني مع باقي حليب جوز الهند حتى تصبح ناعمة.",
+     "قدّم الأسياخ ساخنة مع صلصة الفول السوداني ومكعبات الكيتوبات."
+    ]
+   },
+   "tips": [
+    "صلصة الفول السوداني هي الجزء الأغنى بالسعرات: خذ منها كمية صغيرة للتغميس بدلاً من سكبها على الأسياخ.",
+    "استخدم صدر الدجاج أو أزل الدهون الظاهرة من اللحم للحصول على أسياخ أخف.",
+    "قدّم الساتاي مع شرائح الخيار والبصل بدلاً من أرز إضافي ليبقى الطبق أخف."
+   ]
+  },
+  "it": {
+   "name": "Satay ayam",
+   "origin": "Malesia · Penisola malese",
+   "intro": "Satay ayam è il nome malese del satay di pollo: piccoli cubetti di pollo marinati con curcuma, citronella e latte di cocco, grigliati su spiedini sulla brace. In Malesia si serve con una salsa di arachidi corposa e con il ketupat, tortini di riso pressato tagliati a cubetti, che assorbono la salsa e trasformano lo spuntino in un pasto.",
+   "history": "Il satay è legato soprattutto a Giava, in Indonesia, e si ipotizza spesso che si sia sviluppato nel XIX secolo sotto l'influenza dei kebab portati da mercanti musulmani indiani e arabi. Oggi è un cibo di strada amatissimo in Indonesia, Malesia, Singapore e Thailandia. In Malesia la città di Kajang, nel Selangor, è particolarmente famosa per il suo satay.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "600 g di sovracosce di pollo disossate, tagliate a cubetti di 2–3 cm",
+     "1 cucchiaino di curcuma in polvere",
+     "1 gambo di citronella, tritato finemente",
+     "2 spicchi d'aglio, schiacciati",
+     "100 ml di latte di cocco",
+     "1 cucchiaino di zucchero, sale",
+     "150 g di salsa di arachidi pronta",
+     "1 cucchiaio di olio di semi per spennellare",
+     "300 g di ketupat (tortini di riso pressato), a cubetti"
+    ],
+    "steps": [
+     "Mescola curcuma, citronella, aglio, zucchero, sale e metà del latte di cocco, unisci la carne e lascia marinare per almeno 1 ora.",
+     "Metti in ammollo gli spiedini di bambù in acqua per 20 minuti, poi infilzaci la carne.",
+     "Griglia sulla brace ardente o sotto un grill caldo per 8–10 minuti, girando e spennellando d'olio, finché i bordi sono abbrustoliti e la carne è cotta all'interno.",
+     "Scalda la salsa di arachidi con il latte di cocco rimasto finché è liscia.",
+     "Servi gli spiedini caldi con la salsa di arachidi e i cubetti di ketupat."
+    ]
+   },
+   "tips": [
+    "La salsa di arachidi è la parte più ricca: servine una piccola porzione per intingere invece di versarla sugli spiedini.",
+    "Usa petto di pollo o elimina il grasso visibile dalla carne per uno spiedino più magro.",
+    "Abbina il satay a cetriolo e cipolla a fette invece che ad altro riso, per un piatto più leggero."
+   ]
+  },
+  "el": {
+   "name": "Σατέ αγιάμ",
+   "name_inline": "σατέ αγιάμ",
+   "origin": "Μαλαισία · Μαλαισιανή Χερσόνησος",
+   "intro": "Σατέ αγιάμ είναι η μαλαισιανή ονομασία για το σατέ κοτόπουλο: μικροί κύβοι κοτόπουλου μαριναρισμένοι με κουρκουμά, λεμονόχορτο και γάλα καρύδας, ψημένοι σε σουβλάκια στα κάρβουνα. Στη Μαλαισία σερβίρεται με χοντροκομμένη σάλτσα φιστικιού και κετουπάτ, πιεσμένα κέικ ρυζιού κομμένα σε κύβους, που ρουφούν τη σάλτσα και κάνουν το σνακ γεύμα.",
+   "history": "Το σατέ συνδέεται κυρίως με την Ιάβα της Ινδονησίας, και συχνά υποστηρίζεται ότι αναπτύχθηκε τον 19ο αιώνα υπό την επίδραση των κεμπάπ που έφεραν Ινδοί μουσουλμάνοι και Άραβες έμποροι. Σήμερα είναι αγαπημένο φαγητό του δρόμου στην Ινδονησία, τη Μαλαισία, τη Σιγκαπούρη και την Ταϊλάνδη. Στη Μαλαισία, η πόλη Καζάνγκ στο Σελανγκόρ φημίζεται ιδιαίτερα για το σατέ της.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "600 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κύβους 2–3 εκ.",
+     "1 κ.γ. κουρκουμάς σε σκόνη",
+     "1 κοτσάνι λεμονόχορτο, ψιλοκομμένο",
+     "2 σκελίδες σκόρδο, λιωμένες",
+     "100 ml γάλα καρύδας",
+     "1 κ.γ. ζάχαρη, αλάτι",
+     "150 γρ. έτοιμη σάλτσα φιστικιού",
+     "1 κ.σ. φυτικό λάδι για άλειμμα",
+     "300 γρ. κετουπάτ (πιεσμένα κέικ ρυζιού), σε κύβους"
+    ],
+    "steps": [
+     "Ανακατέψτε τον κουρκουμά, το λεμονόχορτο, το σκόρδο, τη ζάχαρη, το αλάτι και το μισό γάλα καρύδας, ανακατέψτε με το κρέας και μαρινάρετε για τουλάχιστον 1 ώρα.",
+     "Μουλιάστε τα ξυλάκια μπαμπού σε νερό για 20 λεπτά και περάστε το κρέας.",
+     "Ψήστε σε αναμμένα κάρβουνα ή κάτω από καυτό γκριλ για 8–10 λεπτά, γυρίζοντας και αλείφοντας με λάδι, μέχρι να καψαλιστούν οι άκρες και να ψηθεί καλά το κρέας.",
+     "Ζεστάνετε τη σάλτσα φιστικιού με το υπόλοιπο γάλα καρύδας μέχρι να γίνει λεία.",
+     "Σερβίρετε τα σουβλάκια ζεστά με τη σάλτσα φιστικιού και τους κύβους κετουπάτ."
+    ]
+   },
+   "tips": [
+    "Η σάλτσα φιστικιού είναι το πιο πλούσιο μέρος: βάλτε μια μικρή μερίδα για βούτηγμα αντί να τη ρίχνετε πάνω στα σουβλάκια.",
+    "Χρησιμοποιήστε στήθος κοτόπουλου ή αφαιρέστε το ορατό λίπος για πιο άπαχο σουβλάκι.",
+    "Συνδυάστε το σατέ με αγγούρι και κρεμμύδι σε φέτες αντί για επιπλέον ρύζι, για πιο ελαφρύ πιάτο."
+   ]
+  },
+  "ru": {
+   "name": "Сате аям",
+   "origin": "Малайзия · Малайский полуостров",
+   "intro": "Сате аям — малайское название куриного сате: маленькие кубики курицы, маринованные в куркуме, лемонграссе и кокосовом молоке, жареные на шпажках над углями. В Малайзии его подают с крупным арахисовым соусом и кетупатом — прессованными рисовыми кубиками, которые впитывают соус и превращают закуску в полноценную еду.",
+   "history": "Сате наиболее тесно связано с Явой в Индонезии, и часто считается, что оно сложилось в XIX веке под влиянием кебабов, привезённых индийскими мусульманскими и арабскими торговцами. Сегодня это любимая уличная еда по всей Индонезии, Малайзии, Сингапуру и Таиланду. В Малайзии город Каджанг в штате Селангор особенно знаменит своим сате.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "600 г куриных бёдер без костей, нарезанных кубиками 2–3 см",
+     "1 ч. л. молотой куркумы",
+     "1 стебель лемонграсса, мелко нарубленный",
+     "2 зубчика чеснока, раздавленных",
+     "100 мл кокосового молока",
+     "1 ч. л. сахара, соль",
+     "150 г готового арахисового соуса",
+     "1 ст. л. растительного масла для смазывания",
+     "300 г кетупата (прессованных рисовых кубиков), нарезанного кубиками"
+    ],
+    "steps": [
+     "Смешайте куркуму, лемонграсс, чеснок, сахар, соль и половину кокосового молока, перемешайте с мясом и мариновайте не менее 1 часа.",
+     "Замочите бамбуковые шпажки в воде на 20 минут, затем нанижите мясо.",
+     "Жарьте над горячими углями или под горячим грилем 8–10 минут, переворачивая и смазывая маслом, пока края не обуглятся, а мясо не станет готовым.",
+     "Подогрейте арахисовый соус с оставшимся кокосовым молоком до гладкости.",
+     "Подавайте горячие шпажки с арахисовым соусом и кубиками кетупата."
+    ]
+   },
+   "tips": [
+    "Арахисовый соус — самая калорийная часть: подавайте небольшую порцию для макания, а не поливайте им шашлычки.",
+    "Используйте куриную грудку или срежьте видимый жир с мяса, чтобы шпажки были постнее.",
+    "Подайте сате с нарезанными огурцом и луком вместо дополнительного риса, чтобы тарелка была легче."
+   ]
+  },
+  "es": {
+   "name": "Satay ayam",
+   "origin": "Malasia · Península Malaya",
+   "intro": "El satay ayam es el nombre malayo del satay de pollo: pequeños cubos de pollo marinados con cúrcuma, citronela y leche de coco, asados en brochetas sobre carbón. En Malasia se sirve con una salsa de cacahuate con trocitos y con ketupat, pasteles de arroz comprimido cortados en cubos, que absorben la salsa y convierten la botana en una comida.",
+   "history": "El satay se asocia sobre todo con Java, en Indonesia, y a menudo se sugiere que se desarrolló en el siglo XIX bajo la influencia de los kebabs traídos por comerciantes musulmanes indios y árabes. Hoy es una comida callejera muy querida en Indonesia, Malasia, Singapur y Tailandia. En Malasia, la ciudad de Kajang, en Selangor, es especialmente famosa por su satay.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "600 g de muslos de pollo sin hueso, cortados en cubos de 2–3 cm",
+     "1 cdta. de cúrcuma molida",
+     "1 tallo de citronela, finamente picado",
+     "2 dientes de ajo, machacados",
+     "100 ml de leche de coco",
+     "1 cdta. de azúcar y sal",
+     "150 g de salsa de cacahuate ya preparada",
+     "1 cda. de aceite vegetal para pincelar",
+     "300 g de ketupat (pasteles de arroz comprimido), en cubos"
+    ],
+    "steps": [
+     "Mezcla la cúrcuma, la citronela, el ajo, el azúcar, la sal y la mitad de la leche de coco, revuelve con la carne y deja marinar al menos 1 hora.",
+     "Remoja brochetas de bambú en agua durante 20 minutos y luego ensarta la carne.",
+     "Ásalas sobre carbón caliente o bajo un grill caliente de 8 a 10 minutos, volteándolas y pincelándolas con aceite, hasta que estén chamuscadas en los bordes y cocidas por dentro.",
+     "Calienta la salsa de cacahuate con el resto de la leche de coco hasta que quede lisa.",
+     "Sirve las brochetas calientes con la salsa de cacahuate y los cubos de ketupat."
+    ]
+   },
+   "tips": [
+    "La salsa de cacahuate es lo más calórico: sirve una porción pequeña para mojar en lugar de verterla sobre las brochetas.",
+    "Usa pechuga de pollo o quita la grasa visible de la carne para obtener una brocheta más magra.",
+    "Acompaña el satay con pepino y cebolla en rodajas en lugar de más arroz, para un plato más ligero."
+   ],
+   "name_inline": "el satay ayam"
   }
+ }
 }

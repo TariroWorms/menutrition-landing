@@ -1,140 +1,166 @@
 {
-  "db_key": "kopi_susu",
-  "slug": "kopi-susu",
-  "emoji": "☕",
-  "portion_g": 200,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kopi_susu",
+ "slug": "kopi-susu",
+ "emoji": "☕",
+ "portion_g": 200,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kopi Susu",
+   "origin": "Southeast Asia · Malaysia, Singapore & Indonesia",
+   "intro": "Kopi susu is Southeast Asian coffee with milk: strong, dark-roasted coffee poured over sweetened condensed milk, which settles at the bottom of the glass until stirred. The result is rich, sweet and milky with a bold roasted bitterness. It is drunk hot in the morning or poured over ice in the afternoon heat.",
+   "history": "Kopi susu is a fixture of traditional coffee shops (kopitiam) in Malaysia and Singapore and of warung stalls in Indonesia, where sweetened condensed milk is the usual way to add milk and sugar.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "200 ml freshly brewed strong coffee",
+     "30 g sweetened condensed milk",
+     "Ice (optional)"
+    ],
+    "steps": [
+     "Spoon the condensed milk into a glass or cup.",
+     "Pour the hot coffee over it.",
+     "Stir well before drinking, or pour over ice for an iced version."
+    ]
+   },
+   "tips": [
+    "Halve the condensed milk — 1 tbsp is about 60 kcal.",
+    "Order it 'less sweet' (kurang manis or siu dai) at coffee stalls.",
+    "Choose a smaller cup and add ice for volume."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kopi Susu",
-      "origin": "Southeast Asia · Malaysia, Singapore & Indonesia",
-      "intro": "Kopi susu is Southeast Asian coffee with milk: strong, dark-roasted coffee poured over sweetened condensed milk, which settles at the bottom of the glass until stirred. The result is rich, sweet and milky with a bold roasted bitterness. It is drunk hot in the morning or poured over ice in the afternoon heat.",
-      "history": "Kopi susu is a fixture of traditional coffee shops (kopitiam) in Malaysia and Singapore and of warung stalls in Indonesia, where sweetened condensed milk is the usual way to add milk and sugar.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "200 ml freshly brewed strong coffee",
-          "30 g sweetened condensed milk",
-          "Ice (optional)"
-        ],
-        "steps": [
-          "Spoon the condensed milk into a glass or cup.",
-          "Pour the hot coffee over it.",
-          "Stir well before drinking, or pour over ice for an iced version."
-        ]
-      },
-      "tips": [
-        "Halve the condensed milk — 1 tbsp is about 60 kcal.",
-        "Order it 'less sweet' (kurang manis or siu dai) at coffee stalls.",
-        "Choose a smaller cup and add ice for volume."
-      ]
-    },
-    "ar": {
-      "name": "كوبي سوسو",
-      "origin": "جنوب شرق آسيا · ماليزيا وسنغافورة وإندونيسيا",
-      "intro": "كوبي سوسو قهوة جنوب شرق آسيا بالحليب: قهوة قوية داكنة التحميص تُسكب فوق الحليب المكثف المحلى الذي يستقر في قاع الكوب حتى يُقلّب. النتيجة مشروب غني حلو كريمي مع مرارة محمصة واضحة. يُشرب ساخناً صباحاً أو مع الثلج في حر الظهيرة.",
-      "history": "كوبي سوسو من ثوابت المقاهي التقليدية (كوبيتيام) في ماليزيا وسنغافورة وأكشاك الوارونغ في إندونيسيا، حيث يُعدّ الحليب المكثف المحلى الطريقة المعتادة لإضافة الحليب والسكر.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "200 مل قهوة قوية محضرة طازجة",
-          "30 غ حليب مكثف محلى",
-          "ثلج (اختياري)"
-        ],
-        "steps": [
-          "ضع الحليب المكثف في كوب.",
-          "اسكب القهوة الساخنة فوقه.",
-          "قلّب جيداً قبل الشرب، أو اسكبه على الثلج لنسخة باردة."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية الحليب المكثف — ملعقة كبيرة نحو 60 سعرة.",
-        "اطلبه «أقل حلاوة» في المقاهي.",
-        "اختر كوباً أصغر وأضف الثلج لزيادة الحجم."
-      ]
-    },
-    "it": {
-      "name": "Kopi susu",
-      "origin": "Sud-est asiatico · Malesia, Singapore e Indonesia",
-      "intro": "Il kopi susu è il caffè con latte del Sud-est asiatico: caffè forte e a tostatura scura versato sul latte condensato zuccherato, che si deposita sul fondo del bicchiere finché non si mescola. Il risultato è ricco, dolce e lattiginoso, con un deciso amaro tostato. Si beve caldo al mattino o versato sul ghiaccio nella calura del pomeriggio.",
-      "history": "Il kopi susu è un classico delle caffetterie tradizionali (kopitiam) di Malesia e Singapore e dei chioschi warung in Indonesia, dove il latte condensato zuccherato è il modo abituale per aggiungere latte e zucchero.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "200 ml di caffè forte appena preparato",
-          "30 g di latte condensato zuccherato",
-          "Ghiaccio (facoltativo)"
-        ],
-        "steps": [
-          "Metti il latte condensato in un bicchiere o in una tazza.",
-          "Versaci sopra il caffè caldo.",
-          "Mescola bene prima di bere, oppure versalo sul ghiaccio per la versione fredda."
-        ]
-      },
-      "tips": [
-        "Dimezza il latte condensato: 1 cucchiaio sono circa 60 kcal.",
-        "Ai chioschi ordinalo «meno dolce» (kurang manis o siu dai).",
-        "Scegli una tazza più piccola e aggiungi ghiaccio per dare volume."
-      ]
-    },
-    "el": {
-      "name": "Κόπι σούσου",
-      "origin": "Νοτιοανατολική Ασία · Μαλαισία, Σιγκαπούρη και Ινδονησία",
-      "intro": "Ο κόπι σούσου είναι ο καφές με γάλα της Νοτιοανατολικής Ασίας: δυνατός, σκούρα καβουρδισμένος καφές που χύνεται πάνω σε ζαχαρούχο συμπυκνωμένο γάλα, το οποίο μένει στον πάτο του ποτηριού μέχρι να ανακατευτεί. Το αποτέλεσμα είναι πλούσιο, γλυκό και γαλακτερό, με έντονη πικράδα καβουρδίσματος. Πίνεται ζεστός το πρωί ή πάνω σε πάγο στη ζέστη του απογεύματος.",
-      "history": "Ο κόπι σούσου είναι σταθερή αξία στα παραδοσιακά καφενεία (κοπιτιάμ) της Μαλαισίας και της Σιγκαπούρης και στους πάγκους γουαρούνγκ της Ινδονησίας, όπου το ζαχαρούχο συμπυκνωμένο γάλα είναι ο συνηθισμένος τρόπος να προστεθούν γάλα και ζάχαρη.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "200 ml φρεσκοφτιαγμένος δυνατός καφές",
-          "30 γρ. ζαχαρούχο συμπυκνωμένο γάλα",
-          "Πάγος (προαιρετικά)"
-        ],
-        "steps": [
-          "Βάλτε το συμπυκνωμένο γάλα σε ποτήρι ή φλιτζάνι.",
-          "Ρίξτε από πάνω τον ζεστό καφέ.",
-          "Ανακατέψτε καλά πριν τον πιείτε ή ρίξτε τον πάνω σε πάγο για κρύα εκδοχή."
-        ]
-      },
-      "tips": [
-        "Μειώστε το συμπυκνωμένο γάλα στο μισό — 1 κ.σ. έχει περίπου 60 kcal.",
-        "Στους πάγκους παραγγείλτε τον «λιγότερο γλυκό» (κουράνγκ μανίς ή σιου ντάι).",
-        "Διαλέξτε μικρότερο φλιτζάνι και προσθέστε πάγο για όγκο."
-      ]
-    },
-    "ru": {
-      "name": "Копи сусу",
-      "origin": "Юго-Восточная Азия · Малайзия, Сингапур и Индонезия",
-      "intro": "Копи сусу — юго-восточноазиатский кофе с молоком: крепкий тёмной обжарки кофе, налитый на подслащённое сгущённое молоко, которое оседает на дне стакана, пока его не размешают. Получается насыщенный, сладкий и молочный напиток с яркой обжаренной горчинкой. Его пьют горячим утром или со льдом в дневную жару.",
-      "history": "Копи сусу — неотъемлемая часть традиционных кофеен (копитиам) в Малайзии и Сингапуре и варунгов в Индонезии, где подслащённое сгущённое молоко — обычный способ добавить молоко и сахар.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "200 мл свежесваренного крепкого кофе",
-          "30 г подслащённого сгущённого молока",
-          "Лёд (по желанию)"
-        ],
-        "steps": [
-          "Выложите сгущённое молоко ложкой в стакан или чашку.",
-          "Залейте горячим кофе.",
-          "Хорошо размешайте перед употреблением или налейте на лёд для холодной версии."
-        ]
-      },
-      "tips": [
-        "Уменьшите сгущённое молоко вдвое — 1 ст. л. это около 60 ккал.",
-        "Заказывайте «менее сладкий» (курамг манис или сиу дай) в кофейных лавках.",
-        "Выбирайте чашку поменьше и добавьте лёд для объёма."
-      ],
-      "name_inline": "копи сусу"
-    }
+  "ar": {
+   "name": "كوبي سوسو",
+   "origin": "جنوب شرق آسيا · ماليزيا وسنغافورة وإندونيسيا",
+   "intro": "كوبي سوسو قهوة جنوب شرق آسيا بالحليب: قهوة قوية داكنة التحميص تُسكب فوق الحليب المكثف المحلى الذي يستقر في قاع الكوب حتى يُقلّب. النتيجة مشروب غني حلو كريمي مع مرارة محمصة واضحة. يُشرب ساخناً صباحاً أو مع الثلج في حر الظهيرة.",
+   "history": "كوبي سوسو من ثوابت المقاهي التقليدية (كوبيتيام) في ماليزيا وسنغافورة وأكشاك الوارونغ في إندونيسيا، حيث يُعدّ الحليب المكثف المحلى الطريقة المعتادة لإضافة الحليب والسكر.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "200 مل قهوة قوية محضرة طازجة",
+     "30 غ حليب مكثف محلى",
+     "ثلج (اختياري)"
+    ],
+    "steps": [
+     "ضع الحليب المكثف في كوب.",
+     "اسكب القهوة الساخنة فوقه.",
+     "قلّب جيداً قبل الشرب، أو اسكبه على الثلج لنسخة باردة."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية الحليب المكثف — ملعقة كبيرة نحو 60 سعرة.",
+    "اطلبه «أقل حلاوة» في المقاهي.",
+    "اختر كوباً أصغر وأضف الثلج لزيادة الحجم."
+   ]
+  },
+  "it": {
+   "name": "Kopi susu",
+   "origin": "Sud-est asiatico · Malesia, Singapore e Indonesia",
+   "intro": "Il kopi susu è il caffè con latte del Sud-est asiatico: caffè forte e a tostatura scura versato sul latte condensato zuccherato, che si deposita sul fondo del bicchiere finché non si mescola. Il risultato è ricco, dolce e lattiginoso, con un deciso amaro tostato. Si beve caldo al mattino o versato sul ghiaccio nella calura del pomeriggio.",
+   "history": "Il kopi susu è un classico delle caffetterie tradizionali (kopitiam) di Malesia e Singapore e dei chioschi warung in Indonesia, dove il latte condensato zuccherato è il modo abituale per aggiungere latte e zucchero.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "200 ml di caffè forte appena preparato",
+     "30 g di latte condensato zuccherato",
+     "Ghiaccio (facoltativo)"
+    ],
+    "steps": [
+     "Metti il latte condensato in un bicchiere o in una tazza.",
+     "Versaci sopra il caffè caldo.",
+     "Mescola bene prima di bere, oppure versalo sul ghiaccio per la versione fredda."
+    ]
+   },
+   "tips": [
+    "Dimezza il latte condensato: 1 cucchiaio sono circa 60 kcal.",
+    "Ai chioschi ordinalo «meno dolce» (kurang manis o siu dai).",
+    "Scegli una tazza più piccola e aggiungi ghiaccio per dare volume."
+   ]
+  },
+  "el": {
+   "name": "Κόπι σούσου",
+   "origin": "Νοτιοανατολική Ασία · Μαλαισία, Σιγκαπούρη και Ινδονησία",
+   "intro": "Ο κόπι σούσου είναι ο καφές με γάλα της Νοτιοανατολικής Ασίας: δυνατός, σκούρα καβουρδισμένος καφές που χύνεται πάνω σε ζαχαρούχο συμπυκνωμένο γάλα, το οποίο μένει στον πάτο του ποτηριού μέχρι να ανακατευτεί. Το αποτέλεσμα είναι πλούσιο, γλυκό και γαλακτερό, με έντονη πικράδα καβουρδίσματος. Πίνεται ζεστός το πρωί ή πάνω σε πάγο στη ζέστη του απογεύματος.",
+   "history": "Ο κόπι σούσου είναι σταθερή αξία στα παραδοσιακά καφενεία (κοπιτιάμ) της Μαλαισίας και της Σιγκαπούρης και στους πάγκους γουαρούνγκ της Ινδονησίας, όπου το ζαχαρούχο συμπυκνωμένο γάλα είναι ο συνηθισμένος τρόπος να προστεθούν γάλα και ζάχαρη.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "200 ml φρεσκοφτιαγμένος δυνατός καφές",
+     "30 γρ. ζαχαρούχο συμπυκνωμένο γάλα",
+     "Πάγος (προαιρετικά)"
+    ],
+    "steps": [
+     "Βάλτε το συμπυκνωμένο γάλα σε ποτήρι ή φλιτζάνι.",
+     "Ρίξτε από πάνω τον ζεστό καφέ.",
+     "Ανακατέψτε καλά πριν τον πιείτε ή ρίξτε τον πάνω σε πάγο για κρύα εκδοχή."
+    ]
+   },
+   "tips": [
+    "Μειώστε το συμπυκνωμένο γάλα στο μισό — 1 κ.σ. έχει περίπου 60 kcal.",
+    "Στους πάγκους παραγγείλτε τον «λιγότερο γλυκό» (κουράνγκ μανίς ή σιου ντάι).",
+    "Διαλέξτε μικρότερο φλιτζάνι και προσθέστε πάγο για όγκο."
+   ]
+  },
+  "ru": {
+   "name": "Копи сусу",
+   "origin": "Юго-Восточная Азия · Малайзия, Сингапур и Индонезия",
+   "intro": "Копи сусу — юго-восточноазиатский кофе с молоком: крепкий тёмной обжарки кофе, налитый на подслащённое сгущённое молоко, которое оседает на дне стакана, пока его не размешают. Получается насыщенный, сладкий и молочный напиток с яркой обжаренной горчинкой. Его пьют горячим утром или со льдом в дневную жару.",
+   "history": "Копи сусу — неотъемлемая часть традиционных кофеен (копитиам) в Малайзии и Сингапуре и варунгов в Индонезии, где подслащённое сгущённое молоко — обычный способ добавить молоко и сахар.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "200 мл свежесваренного крепкого кофе",
+     "30 г подслащённого сгущённого молока",
+     "Лёд (по желанию)"
+    ],
+    "steps": [
+     "Выложите сгущённое молоко ложкой в стакан или чашку.",
+     "Залейте горячим кофе.",
+     "Хорошо размешайте перед употреблением или налейте на лёд для холодной версии."
+    ]
+   },
+   "tips": [
+    "Уменьшите сгущённое молоко вдвое — 1 ст. л. это около 60 ккал.",
+    "Заказывайте «менее сладкий» (курамг манис или сиу дай) в кофейных лавках.",
+    "Выбирайте чашку поменьше и добавьте лёд для объёма."
+   ],
+   "name_inline": "копи сусу"
+  },
+  "es": {
+   "name": "Kopi susu",
+   "origin": "Sudeste Asiático · Malasia, Singapur e Indonesia",
+   "intro": "El kopi susu es el café con leche del Sudeste Asiático: café fuerte de tueste oscuro vertido sobre leche condensada azucarada, que se asienta en el fondo del vaso hasta que se revuelve. El resultado es rico, dulce y lechoso, con un amargor tostado intenso. Se toma caliente por la mañana o sobre hielo en el calor de la tarde.",
+   "history": "El kopi susu es un clásico de los cafés tradicionales (kopitiam) de Malasia y Singapur y de los puestos warung de Indonesia, donde la leche condensada azucarada es la forma habitual de agregar leche y azúcar.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "200 ml de café fuerte recién preparado",
+     "30 g de leche condensada azucarada",
+     "Hielo (opcional)"
+    ],
+    "steps": [
+     "Vierte la leche condensada con una cuchara en un vaso o una taza.",
+     "Agrega encima el café caliente.",
+     "Revuelve bien antes de beber, o sírvelo sobre hielo para una versión fría."
+    ]
+   },
+   "tips": [
+    "Reduce a la mitad la leche condensada: 1 cda. son unas 60 kcal.",
+    "Pídelo «menos dulce» (kurang manis o siu dai) en los puestos de café.",
+    "Elige una taza más pequeña y agrega hielo para dar volumen."
+   ],
+   "name_inline": "el kopi susu"
   }
+ }
 }

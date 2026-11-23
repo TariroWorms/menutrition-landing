@@ -1,177 +1,210 @@
 {
-  "db_key": "tagine_lamb_prune",
-  "slug": "tagine-lamb-prune",
-  "emoji": "🍲",
-  "portion_g": 350,
-  "country": "MA",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tagine_lamb_prune",
+ "slug": "tagine-lamb-prune",
+ "emoji": "🍲",
+ "portion_g": 350,
+ "country": "MA",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Lamb tagine with prunes",
+   "origin": "Morocco · Fez and Marrakesh",
+   "intro": "Lamb tagine with prunes, known in Morocco as lham bel barkouk, is lamb braised slowly with onion, cinnamon, ginger and saffron, then served with prunes simmered in honey and topped with toasted almonds. The meat is very tender, and the dark, glossy prunes give the sauce deep sweetness. It is a traditional dish for feasts and family gatherings.",
+   "history": "Lamb with prunes is one of the classic sweet tagines of Moroccan city cooking, closely associated with Fez. It is traditionally prepared for weddings, Eid and other celebrations.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.2 kg lamb shoulder, cut into large pieces",
+     "2 onions, grated",
+     "2 tsp ground cinnamon plus 1 cinnamon stick",
+     "1 tsp ground ginger, 1 pinch saffron, salt, pepper",
+     "2 tbsp olive oil",
+     "250 g pitted prunes",
+     "2 tbsp honey",
+     "50 g blanched almonds, toasted"
+    ],
+    "steps": [
+     "Mix the lamb with the onion, ground cinnamon, ginger, saffron, salt, pepper and oil in a tagine or heavy pot.",
+     "Add 500 ml water, cover and simmer over low heat for about 2 hours until the meat is very tender.",
+     "Meanwhile simmer the prunes with the cinnamon stick, honey and a ladle of the cooking liquid for 10–15 minutes until glossy.",
+     "Arrange the prunes around the lamb and spoon the syrup over.",
+     "Scatter with toasted almonds and serve hot."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the lamb before cooking and skim the fat from the sauce.",
+    "The honey and prunes are sweet and calorie-dense: halve the honey and still keep the flavour.",
+    "Toasted almonds are rich — a small spoonful per plate is enough; 10 g of almonds is about 60 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Lamb tagine with prunes",
-      "origin": "Morocco · Fez and Marrakesh",
-      "intro": "Lamb tagine with prunes, known in Morocco as lham bel barkouk, is lamb braised slowly with onion, cinnamon, ginger and saffron, then served with prunes simmered in honey and topped with toasted almonds. The meat is very tender, and the dark, glossy prunes give the sauce deep sweetness. It is a traditional dish for feasts and family gatherings.",
-      "history": "Lamb with prunes is one of the classic sweet tagines of Moroccan city cooking, closely associated with Fez. It is traditionally prepared for weddings, Eid and other celebrations.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.2 kg lamb shoulder, cut into large pieces",
-          "2 onions, grated",
-          "2 tsp ground cinnamon plus 1 cinnamon stick",
-          "1 tsp ground ginger, 1 pinch saffron, salt, pepper",
-          "2 tbsp olive oil",
-          "250 g pitted prunes",
-          "2 tbsp honey",
-          "50 g blanched almonds, toasted"
-        ],
-        "steps": [
-          "Mix the lamb with the onion, ground cinnamon, ginger, saffron, salt, pepper and oil in a tagine or heavy pot.",
-          "Add 500 ml water, cover and simmer over low heat for about 2 hours until the meat is very tender.",
-          "Meanwhile simmer the prunes with the cinnamon stick, honey and a ladle of the cooking liquid for 10–15 minutes until glossy.",
-          "Arrange the prunes around the lamb and spoon the syrup over.",
-          "Scatter with toasted almonds and serve hot."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the lamb before cooking and skim the fat from the sauce.",
-        "The honey and prunes are sweet and calorie-dense: halve the honey and still keep the flavour.",
-        "Toasted almonds are rich — a small spoonful per plate is enough; 10 g of almonds is about 60 kcal."
-      ]
-    },
-    "ar": {
-      "name": "طاجين اللحم بالبرقوق",
-      "origin": "المغرب · فاس ومراكش",
-      "intro": "طاجين اللحم بالبرقوق، المعروف في المغرب باسم «لحم بالبرقوق»، هو لحم خروف يُطهى ببطء مع البصل والقرفة والزنجبيل والزعفران، ثم يُقدَّم مع برقوق مطهو بالعسل ولوز محمص. اللحم طري جداً، والبرقوق الداكن اللامع يمنح الصلصة حلاوة عميقة. وهو طبق تقليدي للأعياد والتجمعات العائلية.",
-      "history": "اللحم بالبرقوق من الطواجن الحلوة الكلاسيكية في المطبخ الحضري المغربي، ويرتبط ارتباطاً وثيقاً بمدينة فاس. ويُحضَّر تقليدياً للأعراس والأعياد وغيرها من المناسبات.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1.2 كغ كتف خروف مقطع قطعاً كبيرة",
-          "2 بصلة مبشورة",
-          "2 ملعقة صغيرة قرفة مطحونة وعود قرفة",
-          "1 ملعقة صغيرة زنجبيل مطحون، رشة زعفران، ملح، فلفل",
-          "2 ملعقة كبيرة زيت زيتون",
-          "250 غ برقوق مجفف منزوع النوى",
-          "2 ملعقة كبيرة عسل",
-          "50 غ لوز مقشر محمص"
-        ],
-        "steps": [
-          "اخلط اللحم مع البصل والقرفة المطحونة والزنجبيل والزعفران والملح والفلفل والزيت في طاجين أو قدر ثقيل.",
-          "أضف 500 مل ماء، وغطّه واتركه على نار هادئة نحو ساعتين حتى يطرى اللحم جداً.",
-          "في الأثناء اطهُ الفاكهة مع عود القرفة والعسل ومغرفة من مرق الطهي 10–15 دقيقة حتى تلمع.",
-          "رتّب الفاكهة حول اللحم واسكب عليها الشراب.",
-          "انثر اللوز المحمص وقدّمه ساخناً."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر من اللحم قبل الطهي واقشط الدهن عن الصلصة.",
-        "العسل والفاكهة حلوان وغنيان بالسعرات: استخدم نصف كمية العسل مع الحفاظ على النكهة.",
-        "اللوز المحمص غني — تكفي ملعقة صغيرة لكل طبق؛ 10 غ من اللوز نحو 60 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Tajine di agnello con prugne",
-      "name_inline": "tajine di agnello con prugne",
-      "origin": "Marocco · Fès e Marrakech",
-      "intro": "La tajine di agnello con prugne, in Marocco lham bel barkouk, è agnello cotto lentamente con cipolla, cannella, zenzero e zafferano, poi servito con prugne cotte nel miele e completato con mandorle tostate. La carne è tenerissima e le prugne scure e lucide danno alla salsa una dolcezza profonda. È un piatto tradizionale per feste e riunioni di famiglia.",
-      "history": "L'agnello con prugne è una delle classiche tajine dolci della cucina cittadina marocchina, strettamente legata a Fès. Tradizionalmente si prepara per matrimoni, Eid e altre celebrazioni.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,2 kg di spalla d'agnello, a pezzi grandi",
-          "2 cipolle, grattugiate",
-          "2 cucchiaini di cannella in polvere più 1 stecca di cannella",
-          "1 cucchiaino di zenzero in polvere, 1 pizzico di zafferano, sale, pepe",
-          "2 cucchiai di olio d'oliva",
-          "250 g di prugne secche denocciolate",
-          "2 cucchiai di miele",
-          "50 g di mandorle pelate, tostate"
-        ],
-        "steps": [
-          "Mescola l'agnello con la cipolla, la cannella in polvere, lo zenzero, lo zafferano, sale, pepe e olio in una tajine o in una pentola dal fondo spesso.",
-          "Aggiungi 500 ml di acqua, copri e fai sobbollire a fuoco basso per circa 2 ore, finché la carne è tenerissima.",
-          "Nel frattempo fai sobbollire le prugne con la stecca di cannella, il miele e un mestolo del liquido di cottura per 10–15 minuti, finché sono lucide.",
-          "Disponi le prugne attorno all'agnello e versaci sopra lo sciroppo.",
-          "Cospargi di mandorle tostate e servi caldo."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dall'agnello prima della cottura e sgrassa la salsa.",
-        "Il miele e le prugne sono dolci e calorici: dimezza il miele e il sapore resta.",
-        "Le mandorle tostate sono ricche: basta una piccola cucchiaiata per piatto; 10 g di mandorle sono circa 60 kcal."
-      ]
-    },
-    "el": {
-      "name": "Ταζίν αρνιού με δαμάσκηνα",
-      "name_inline": "ταζίν αρνιού με δαμάσκηνα",
-      "origin": "Μαρόκο · Φες και Μαρακές",
-      "intro": "Το ταζίν αρνιού με δαμάσκηνα, γνωστό στο Μαρόκο ως λαμ μπελ μπαρκούκ, είναι αρνί μαγειρεμένο αργά με κρεμμύδι, κανέλα, τζίντζερ και σαφράν, που σερβίρεται με δαμάσκηνα σιγοβρασμένα σε μέλι και καβουρδισμένα αμύγδαλα από πάνω. Το κρέας είναι πολύ τρυφερό, και τα σκούρα, γυαλιστερά δαμάσκηνα δίνουν στη σάλτσα βαθιά γλύκα. Είναι παραδοσιακό πιάτο για γιορτές και οικογενειακές συγκεντρώσεις.",
-      "history": "Το αρνί με δαμάσκηνα είναι ένα από τα κλασικά γλυκά ταζίν της μαροκινής αστικής κουζίνας και συνδέεται στενά με τη Φες. Παραδοσιακά ετοιμάζεται για γάμους, το Ιντ και άλλες γιορτές.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,2 κιλό αρνίσια σπάλα, σε μεγάλα κομμάτια",
-          "2 κρεμμύδια, τριμμένα",
-          "2 κ.γ. κανέλα σε σκόνη και 1 ξύλο κανέλας",
-          "1 κ.γ. τζίντζερ σε σκόνη, 1 πρέζα σαφράν, αλάτι, πιπέρι",
-          "2 κ.σ. ελαιόλαδο",
-          "250 γρ. δαμάσκηνα χωρίς κουκούτσι",
-          "2 κ.σ. μέλι",
-          "50 γρ. ασπρισμένα αμύγδαλα, καβουρδισμένα"
-        ],
-        "steps": [
-          "Ανακατέψτε το αρνί με το κρεμμύδι, την κανέλα σε σκόνη, το τζίντζερ, το σαφράν, αλάτι, πιπέρι και λάδι σε ταζίν ή βαριά κατσαρόλα.",
-          "Προσθέστε 500 ml νερό, σκεπάστε και σιγοβράστε σε χαμηλή φωτιά για περίπου 2 ώρες, μέχρι το κρέας να γίνει πολύ τρυφερό.",
-          "Στο μεταξύ σιγοβράστε τα δαμάσκηνα με το ξύλο κανέλας, το μέλι και μια κουτάλα από το υγρό μαγειρέματος για 10–15 λεπτά, μέχρι να γυαλίσουν.",
-          "Τοποθετήστε τα δαμάσκηνα γύρω από το αρνί και περιχύστε με το σιρόπι.",
-          "Πασπαλίστε με τα καβουρδισμένα αμύγδαλα και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το αρνί πριν το μαγείρεμα και ξαφρίστε το λίπος από τη σάλτσα.",
-        "Το μέλι και τα δαμάσκηνα είναι γλυκά και θερμιδικά: μειώστε το μέλι στο μισό και η γεύση παραμένει.",
-        "Τα καβουρδισμένα αμύγδαλα είναι πλούσια — μια μικρή κουταλιά ανά πιάτο αρκεί· 10 γρ. αμύγδαλα είναι περίπου 60 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Тажин с бараниной и черносливом",
-      "origin": "Марокко · Фес и Марракеш",
-      "intro": "Тажин с бараниной и черносливом, в Марокко известный как лхам бель баркук, — баранина, медленно тушённая с луком, корицей, имбирём и шафраном, поданная с черносливом, томлёным в мёде, и посыпанная обжаренным миндалём. Мясо очень нежное, а тёмный глянцевый чернослив придаёт соусу глубокую сладость. Это традиционное блюдо для праздников и семейных встреч.",
-      "history": "Баранина с черносливом — один из классических сладких тажинов марокканской городской кухни, тесно связанный с Фесом. Его традиционно готовят на свадьбы, Ид и другие праздники.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "1,2 кг бараньей лопатки, нарезанной крупными кусками",
-          "2 луковицы, натёртые",
-          "2 ч. л. молотой корицы и 1 палочка корицы",
-          "1 ч. л. молотого имбиря, 1 щепотка шафрана, соль, перец",
-          "2 ст. л. оливкового масла",
-          "250 г чернослива без косточек",
-          "2 ст. л. мёда",
-          "50 г бланшированного миндаля, обжаренного"
-        ],
-        "steps": [
-          "Смешайте баранину с луком, молотой корицей, имбирём, шафраном, солью, перцем и маслом в тажине или толстостенной кастрюле.",
-          "Добавьте 500 мл воды, накройте крышкой и томите на слабом огне около 2 часов, пока мясо не станет очень мягким.",
-          "Тем временем томите чернослив с палочкой корицы, мёдом и половником жидкости от тушения 10–15 минут до глянца.",
-          "Разложите чернослив вокруг баранины и полейте сиропом.",
-          "Посыпьте обжаренным миндалём и подавайте горячим."
-        ]
-      },
-      "tips": [
-        "Срежьте с баранины видимый жир перед приготовлением и снимите жир с соуса.",
-        "Мёд и чернослив сладкие и калорийные: уменьшите мёд вдвое — вкус сохранится.",
-        "Жареный миндаль жирный — достаточно небольшой ложки на тарелку; 10 г миндаля ≈ 60 ккал."
-      ],
-      "name_inline": "тажин с бараниной и черносливом"
-    }
+  "ar": {
+   "name": "طاجين اللحم بالبرقوق",
+   "origin": "المغرب · فاس ومراكش",
+   "intro": "طاجين اللحم بالبرقوق، المعروف في المغرب باسم «لحم بالبرقوق»، هو لحم خروف يُطهى ببطء مع البصل والقرفة والزنجبيل والزعفران، ثم يُقدَّم مع برقوق مطهو بالعسل ولوز محمص. اللحم طري جداً، والبرقوق الداكن اللامع يمنح الصلصة حلاوة عميقة. وهو طبق تقليدي للأعياد والتجمعات العائلية.",
+   "history": "اللحم بالبرقوق من الطواجن الحلوة الكلاسيكية في المطبخ الحضري المغربي، ويرتبط ارتباطاً وثيقاً بمدينة فاس. ويُحضَّر تقليدياً للأعراس والأعياد وغيرها من المناسبات.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1.2 كغ كتف خروف مقطع قطعاً كبيرة",
+     "2 بصلة مبشورة",
+     "2 ملعقة صغيرة قرفة مطحونة وعود قرفة",
+     "1 ملعقة صغيرة زنجبيل مطحون، رشة زعفران، ملح، فلفل",
+     "2 ملعقة كبيرة زيت زيتون",
+     "250 غ برقوق مجفف منزوع النوى",
+     "2 ملعقة كبيرة عسل",
+     "50 غ لوز مقشر محمص"
+    ],
+    "steps": [
+     "اخلط اللحم مع البصل والقرفة المطحونة والزنجبيل والزعفران والملح والفلفل والزيت في طاجين أو قدر ثقيل.",
+     "أضف 500 مل ماء، وغطّه واتركه على نار هادئة نحو ساعتين حتى يطرى اللحم جداً.",
+     "في الأثناء اطهُ الفاكهة مع عود القرفة والعسل ومغرفة من مرق الطهي 10–15 دقيقة حتى تلمع.",
+     "رتّب الفاكهة حول اللحم واسكب عليها الشراب.",
+     "انثر اللوز المحمص وقدّمه ساخناً."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر من اللحم قبل الطهي واقشط الدهن عن الصلصة.",
+    "العسل والفاكهة حلوان وغنيان بالسعرات: استخدم نصف كمية العسل مع الحفاظ على النكهة.",
+    "اللوز المحمص غني — تكفي ملعقة صغيرة لكل طبق؛ 10 غ من اللوز نحو 60 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Tajine di agnello con prugne",
+   "name_inline": "tajine di agnello con prugne",
+   "origin": "Marocco · Fès e Marrakech",
+   "intro": "La tajine di agnello con prugne, in Marocco lham bel barkouk, è agnello cotto lentamente con cipolla, cannella, zenzero e zafferano, poi servito con prugne cotte nel miele e completato con mandorle tostate. La carne è tenerissima e le prugne scure e lucide danno alla salsa una dolcezza profonda. È un piatto tradizionale per feste e riunioni di famiglia.",
+   "history": "L'agnello con prugne è una delle classiche tajine dolci della cucina cittadina marocchina, strettamente legata a Fès. Tradizionalmente si prepara per matrimoni, Eid e altre celebrazioni.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 kg di spalla d'agnello, a pezzi grandi",
+     "2 cipolle, grattugiate",
+     "2 cucchiaini di cannella in polvere più 1 stecca di cannella",
+     "1 cucchiaino di zenzero in polvere, 1 pizzico di zafferano, sale, pepe",
+     "2 cucchiai di olio d'oliva",
+     "250 g di prugne secche denocciolate",
+     "2 cucchiai di miele",
+     "50 g di mandorle pelate, tostate"
+    ],
+    "steps": [
+     "Mescola l'agnello con la cipolla, la cannella in polvere, lo zenzero, lo zafferano, sale, pepe e olio in una tajine o in una pentola dal fondo spesso.",
+     "Aggiungi 500 ml di acqua, copri e fai sobbollire a fuoco basso per circa 2 ore, finché la carne è tenerissima.",
+     "Nel frattempo fai sobbollire le prugne con la stecca di cannella, il miele e un mestolo del liquido di cottura per 10–15 minuti, finché sono lucide.",
+     "Disponi le prugne attorno all'agnello e versaci sopra lo sciroppo.",
+     "Cospargi di mandorle tostate e servi caldo."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dall'agnello prima della cottura e sgrassa la salsa.",
+    "Il miele e le prugne sono dolci e calorici: dimezza il miele e il sapore resta.",
+    "Le mandorle tostate sono ricche: basta una piccola cucchiaiata per piatto; 10 g di mandorle sono circa 60 kcal."
+   ]
+  },
+  "el": {
+   "name": "Ταζίν αρνιού με δαμάσκηνα",
+   "name_inline": "ταζίν αρνιού με δαμάσκηνα",
+   "origin": "Μαρόκο · Φες και Μαρακές",
+   "intro": "Το ταζίν αρνιού με δαμάσκηνα, γνωστό στο Μαρόκο ως λαμ μπελ μπαρκούκ, είναι αρνί μαγειρεμένο αργά με κρεμμύδι, κανέλα, τζίντζερ και σαφράν, που σερβίρεται με δαμάσκηνα σιγοβρασμένα σε μέλι και καβουρδισμένα αμύγδαλα από πάνω. Το κρέας είναι πολύ τρυφερό, και τα σκούρα, γυαλιστερά δαμάσκηνα δίνουν στη σάλτσα βαθιά γλύκα. Είναι παραδοσιακό πιάτο για γιορτές και οικογενειακές συγκεντρώσεις.",
+   "history": "Το αρνί με δαμάσκηνα είναι ένα από τα κλασικά γλυκά ταζίν της μαροκινής αστικής κουζίνας και συνδέεται στενά με τη Φες. Παραδοσιακά ετοιμάζεται για γάμους, το Ιντ και άλλες γιορτές.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 κιλό αρνίσια σπάλα, σε μεγάλα κομμάτια",
+     "2 κρεμμύδια, τριμμένα",
+     "2 κ.γ. κανέλα σε σκόνη και 1 ξύλο κανέλας",
+     "1 κ.γ. τζίντζερ σε σκόνη, 1 πρέζα σαφράν, αλάτι, πιπέρι",
+     "2 κ.σ. ελαιόλαδο",
+     "250 γρ. δαμάσκηνα χωρίς κουκούτσι",
+     "2 κ.σ. μέλι",
+     "50 γρ. ασπρισμένα αμύγδαλα, καβουρδισμένα"
+    ],
+    "steps": [
+     "Ανακατέψτε το αρνί με το κρεμμύδι, την κανέλα σε σκόνη, το τζίντζερ, το σαφράν, αλάτι, πιπέρι και λάδι σε ταζίν ή βαριά κατσαρόλα.",
+     "Προσθέστε 500 ml νερό, σκεπάστε και σιγοβράστε σε χαμηλή φωτιά για περίπου 2 ώρες, μέχρι το κρέας να γίνει πολύ τρυφερό.",
+     "Στο μεταξύ σιγοβράστε τα δαμάσκηνα με το ξύλο κανέλας, το μέλι και μια κουτάλα από το υγρό μαγειρέματος για 10–15 λεπτά, μέχρι να γυαλίσουν.",
+     "Τοποθετήστε τα δαμάσκηνα γύρω από το αρνί και περιχύστε με το σιρόπι.",
+     "Πασπαλίστε με τα καβουρδισμένα αμύγδαλα και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το αρνί πριν το μαγείρεμα και ξαφρίστε το λίπος από τη σάλτσα.",
+    "Το μέλι και τα δαμάσκηνα είναι γλυκά και θερμιδικά: μειώστε το μέλι στο μισό και η γεύση παραμένει.",
+    "Τα καβουρδισμένα αμύγδαλα είναι πλούσια — μια μικρή κουταλιά ανά πιάτο αρκεί· 10 γρ. αμύγδαλα είναι περίπου 60 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Тажин с бараниной и черносливом",
+   "origin": "Марокко · Фес и Марракеш",
+   "intro": "Тажин с бараниной и черносливом, в Марокко известный как лхам бель баркук, — баранина, медленно тушённая с луком, корицей, имбирём и шафраном, поданная с черносливом, томлёным в мёде, и посыпанная обжаренным миндалём. Мясо очень нежное, а тёмный глянцевый чернослив придаёт соусу глубокую сладость. Это традиционное блюдо для праздников и семейных встреч.",
+   "history": "Баранина с черносливом — один из классических сладких тажинов марокканской городской кухни, тесно связанный с Фесом. Его традиционно готовят на свадьбы, Ид и другие праздники.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 кг бараньей лопатки, нарезанной крупными кусками",
+     "2 луковицы, натёртые",
+     "2 ч. л. молотой корицы и 1 палочка корицы",
+     "1 ч. л. молотого имбиря, 1 щепотка шафрана, соль, перец",
+     "2 ст. л. оливкового масла",
+     "250 г чернослива без косточек",
+     "2 ст. л. мёда",
+     "50 г бланшированного миндаля, обжаренного"
+    ],
+    "steps": [
+     "Смешайте баранину с луком, молотой корицей, имбирём, шафраном, солью, перцем и маслом в тажине или толстостенной кастрюле.",
+     "Добавьте 500 мл воды, накройте крышкой и томите на слабом огне около 2 часов, пока мясо не станет очень мягким.",
+     "Тем временем томите чернослив с палочкой корицы, мёдом и половником жидкости от тушения 10–15 минут до глянца.",
+     "Разложите чернослив вокруг баранины и полейте сиропом.",
+     "Посыпьте обжаренным миндалём и подавайте горячим."
+    ]
+   },
+   "tips": [
+    "Срежьте с баранины видимый жир перед приготовлением и снимите жир с соуса.",
+    "Мёд и чернослив сладкие и калорийные: уменьшите мёд вдвое — вкус сохранится.",
+    "Жареный миндаль жирный — достаточно небольшой ложки на тарелку; 10 г миндаля ≈ 60 ккал."
+   ],
+   "name_inline": "тажин с бараниной и черносливом"
+  },
+  "es": {
+   "name": "Tajín de cordero con ciruelas pasas",
+   "origin": "Marruecos · Fez y Marrakech",
+   "intro": "El tajín de cordero con ciruelas pasas, conocido en Marruecos como lham bel barkouk, es cordero cocido lentamente con cebolla, canela, jengibre y azafrán, servido con ciruelas pasas cocidas en miel y cubierto con almendras tostadas. La carne queda muy tierna, y las ciruelas, oscuras y brillantes, dan a la salsa un dulzor profundo. Es un plato tradicional de fiestas y reuniones familiares.",
+   "history": "El cordero con ciruelas pasas es uno de los tajines dulces clásicos de la cocina urbana marroquí, muy asociado con Fez. Se prepara tradicionalmente para bodas, el Eid y otras celebraciones.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "1,2 kg de paleta de cordero, en trozos grandes",
+     "2 cebollas, ralladas",
+     "2 cdta. de canela molida y 1 raja de canela",
+     "1 cdta. de jengibre molido, 1 pizca de azafrán, sal, pimienta",
+     "2 cda. de aceite de oliva",
+     "250 g de ciruelas pasas sin hueso",
+     "2 cda. de miel",
+     "50 g de almendras peladas, tostadas"
+    ],
+    "steps": [
+     "Mezcla el cordero con la cebolla, la canela molida, el jengibre, el azafrán, la sal, la pimienta y el aceite en un tajín o una olla de fondo grueso.",
+     "Añade 500 ml de agua, tapa y cocina a fuego bajo unas 2 horas, hasta que la carne esté muy tierna.",
+     "Mientras tanto, cuece las ciruelas con la raja de canela, la miel y un cucharón del líquido de cocción de 10 a 15 minutos, hasta que estén brillantes.",
+     "Acomoda las ciruelas alrededor del cordero y vierte el almíbar por encima.",
+     "Esparce las almendras tostadas y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible del cordero antes de cocinarlo y retira la grasa de la salsa.",
+    "La miel y las ciruelas son dulces y muy calóricas: reduce la miel a la mitad y el sabor se mantiene.",
+    "Las almendras tostadas son ricas: basta una cucharada pequeña por plato; 10 g de almendras son unas 60 kcal."
+   ],
+   "name_inline": "el tajín de cordero con ciruelas pasas"
   }
+ }
 }

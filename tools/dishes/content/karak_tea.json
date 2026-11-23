@@ -1,162 +1,192 @@
 {
-  "db_key": "karak_tea",
-  "slug": "karak-tea",
-  "emoji": "☕",
-  "portion_g": 200,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "karak_tea",
+ "slug": "karak-tea",
+ "emoji": "☕",
+ "portion_g": 200,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Karak tea",
+   "origin": "Gulf · Arabian Peninsula",
+   "intro": "Karak tea is the Gulf's favourite street drink: strong black tea boiled with cardamom, sugar and evaporated milk, often with a few threads of saffron. The long boil makes it dark, creamy and intensely spiced. It is handed through car windows at roadside cafeterias in small cups and is a fixture of evenings out across the region.",
+   "history": "Karak tea grew out of the spiced milk teas brought to the Gulf by South Asian communities, and the name is usually explained as meaning 'strong'. It has since become part of everyday life in the UAE, Qatar, Kuwait, Bahrain and Oman.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml water",
+     "2 tbsp loose black tea",
+     "4 cardamom pods, crushed",
+     "A few saffron threads",
+     "2 tbsp sugar",
+     "150 ml evaporated milk"
+    ],
+    "steps": [
+     "Boil the water with the cardamom and saffron.",
+     "Add the tea and sugar and boil for 3–4 minutes until dark.",
+     "Pour in the evaporated milk, bring back to the boil and let it rise two or three times.",
+     "Strain into small cups and serve hot."
+    ]
+   },
+   "tips": [
+    "Cut the sugar by half; each teaspoon is about 16 kcal.",
+    "Use light evaporated milk or a splash more water.",
+    "Choose the small cup — a standard serving is around 200 ml."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Karak tea",
-      "origin": "Gulf · Arabian Peninsula",
-      "intro": "Karak tea is the Gulf's favourite street drink: strong black tea boiled with cardamom, sugar and evaporated milk, often with a few threads of saffron. The long boil makes it dark, creamy and intensely spiced. It is handed through car windows at roadside cafeterias in small cups and is a fixture of evenings out across the region.",
-      "history": "Karak tea grew out of the spiced milk teas brought to the Gulf by South Asian communities, and the name is usually explained as meaning 'strong'. It has since become part of everyday life in the UAE, Qatar, Kuwait, Bahrain and Oman.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 ml water",
-          "2 tbsp loose black tea",
-          "4 cardamom pods, crushed",
-          "A few saffron threads",
-          "2 tbsp sugar",
-          "150 ml evaporated milk"
-        ],
-        "steps": [
-          "Boil the water with the cardamom and saffron.",
-          "Add the tea and sugar and boil for 3–4 minutes until dark.",
-          "Pour in the evaporated milk, bring back to the boil and let it rise two or three times.",
-          "Strain into small cups and serve hot."
-        ]
-      },
-      "tips": [
-        "Cut the sugar by half; each teaspoon is about 16 kcal.",
-        "Use light evaporated milk or a splash more water.",
-        "Choose the small cup — a standard serving is around 200 ml."
-      ]
-    },
-    "ar": {
-      "name": "شاي كرك",
-      "origin": "الخليج · شبه الجزيرة العربية",
-      "intro": "شاي الكرك هو المشروب الشعبي المفضل في الخليج: شاي أسود قوي يُغلى مع الهيل والسكر والحليب المبخّر، وغالباً مع بضع شعيرات من الزعفران. يجعله الغليان الطويل داكناً وكريمياً وغنياً بالتوابل. يُناوَل من نوافذ السيارات في الكافتيريات على الطرق في أكواب صغيرة، وهو جزء ثابت من سهرات المنطقة.",
-      "history": "نشأ شاي الكرك من أنواع الشاي بالحليب والتوابل التي حملتها الجاليات القادمة من جنوب آسيا إلى الخليج، ويُفسَّر الاسم عادةً بمعنى «قوي». وقد أصبح جزءاً من الحياة اليومية في الإمارات وقطر والكويت والبحرين وعُمان.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 مل ماء",
-          "2 ملعقة كبيرة شاي أسود سائب",
-          "4 حبات هيل مدقوقة",
-          "بضع شعيرات زعفران",
-          "2 ملعقة كبيرة سكر",
-          "150 مل حليب مبخّر"
-        ],
-        "steps": [
-          "اغلِ الماء مع الهيل والزعفران.",
-          "أضف الشاي والسكر واتركه يغلي 3–4 دقائق حتى يصبح داكناً.",
-          "أضف الحليب المبخّر وأعده إلى الغليان واتركه يفور مرتين أو ثلاثاً.",
-          "صفِّه في أكواب صغيرة وقدّمه ساخناً."
-        ]
-      },
-      "tips": [
-        "خفّف السكر إلى النصف، فكل ملعقة صغيرة تضيف نحو 16 سعرة حرارية.",
-        "استخدم حليباً مبخّراً قليل الدسم أو أضف قليلاً من الماء.",
-        "اختر الكوب الصغير، فالحصة المعتادة نحو 200 مل."
-      ]
-    },
-    "it": {
-      "name": "Tè karak",
-      "name_inline": "tè karak",
-      "origin": "Golfo · Penisola arabica",
-      "intro": "Il tè karak è la bevanda da strada preferita del Golfo: tè nero forte bollito con cardamomo, zucchero e latte evaporato, spesso con qualche pistillo di zafferano. La lunga bollitura lo rende scuro, cremoso e intensamente speziato. Nelle caffetterie lungo le strade viene passato dai finestrini delle auto in piccoli bicchieri ed è una presenza fissa delle serate fuori in tutta la regione.",
-      "history": "Il tè karak è nato dai tè al latte speziati portati nel Golfo dalle comunità dell'Asia meridionale, e il nome viene di solito spiegato come «forte». Da allora è entrato nella vita quotidiana di Emirati Arabi Uniti, Qatar, Kuwait, Bahrein e Oman.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 ml di acqua",
-          "2 cucchiai di tè nero sfuso",
-          "4 baccelli di cardamomo schiacciati",
-          "Qualche pistillo di zafferano",
-          "2 cucchiai di zucchero",
-          "150 ml di latte evaporato"
-        ],
-        "steps": [
-          "Fai bollire l'acqua con cardamomo e zafferano.",
-          "Aggiungi tè e zucchero e fai bollire per 3–4 minuti finché è scuro.",
-          "Versa il latte evaporato, riporta a ebollizione e lascialo salire due o tre volte.",
-          "Filtra in tazzine e servi caldo."
-        ]
-      },
-      "tips": [
-        "Dimezza lo zucchero; ogni cucchiaino apporta circa 16 kcal.",
-        "Usa latte evaporato light o un goccio d'acqua in più.",
-        "Scegli il bicchiere piccolo: una porzione standard è di circa 200 ml."
-      ]
-    },
-    "el": {
-      "name": "Τσάι καράκ",
-      "name_inline": "τσάι καράκ",
-      "origin": "Κόλπος · Αραβική Χερσόνησος",
-      "intro": "Το τσάι καράκ είναι το αγαπημένο ρόφημα του δρόμου στον Κόλπο: δυνατό μαύρο τσάι βρασμένο με κάρδαμο, ζάχαρη και εβαπορέ γάλα, συχνά με λίγες ίνες σαφράν. Το πολύ βράσιμο το κάνει σκούρο, κρεμώδες και έντονα αρωματικό. Στις καφετέριες στην άκρη του δρόμου δίνεται από τα παράθυρα των αυτοκινήτων σε μικρά ποτηράκια και είναι σταθερό κομμάτι των βραδινών εξόδων σε όλη την περιοχή.",
-      "history": "Το τσάι καράκ προήλθε από τα αρωματικά τσάγια με γάλα που έφεραν στον Κόλπο οι κοινότητες της Νότιας Ασίας, και το όνομα συνήθως εξηγείται ως «δυνατό». Από τότε έχει γίνει μέρος της καθημερινής ζωής στα ΗΑΕ, στο Κατάρ, στο Κουβέιτ, στο Μπαχρέιν και στο Ομάν.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 ml νερό",
-          "2 κ.σ. χύμα μαύρο τσάι",
-          "4 κάψουλες κάρδαμο, σπασμένες",
-          "Λίγες ίνες σαφράν",
-          "2 κ.σ. ζάχαρη",
-          "150 ml εβαπορέ γάλα"
-        ],
-        "steps": [
-          "Βράστε το νερό με το κάρδαμο και το σαφράν.",
-          "Προσθέστε το τσάι και τη ζάχαρη και βράστε για 3–4 λεπτά μέχρι να σκουρύνει.",
-          "Ρίξτε το εβαπορέ γάλα, ξαναφέρτε σε βράση και αφήστε το να ανέβει δύο ή τρεις φορές.",
-          "Σουρώστε σε μικρά φλιτζάνια και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Μειώστε τη ζάχαρη στο μισό· κάθε κουταλάκι έχει περίπου 16 kcal.",
-        "Χρησιμοποιήστε ελαφρύ εβαπορέ γάλα ή λίγο περισσότερο νερό.",
-        "Διαλέξτε το μικρό ποτηράκι — μια κανονική μερίδα είναι περίπου 200 ml."
-      ]
-    },
-    "ru": {
-      "name": "Карак-чай",
-      "origin": "Залив · Аравийский полуостров",
-      "intro": "Карак-чай — любимый уличный напиток Залива: крепкий чёрный чай, прокипячённый с кардамоном, сахаром и концентрированным молоком, часто с несколькими нитями шафрана. Долгое кипячение делает его тёмным, кремовым и сильно пряным. Его подают в маленьких чашках через окна машин в придорожных кафетериях, и он — неотъемлемая часть вечерних прогулок по региону.",
-      "history": "Карак-чай вырос из пряных молочных чаёв, привезённых в Залив южноазиатскими общинами, а название обычно объясняют как «крепкий». С тех пор он стал частью повседневной жизни в ОАЭ, Катаре, Кувейте, Бахрейне и Омане.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 мл воды",
-          "2 ст. л. листового чёрного чая",
-          "4 коробочки кардамона, раздавленных",
-          "Несколько нитей шафрана",
-          "2 ст. л. сахара",
-          "150 мл концентрированного молока"
-        ],
-        "steps": [
-          "Вскипятите воду с кардамоном и шафраном.",
-          "Добавьте чай и сахар и кипятите 3–4 минуты, пока чай не станет тёмным.",
-          "Влейте концентрированное молоко, снова доведите до кипения и дайте подняться два-три раза.",
-          "Процедите в маленькие чашки и подавайте горячим."
-        ]
-      },
-      "tips": [
-        "Уменьшите сахар вдвое; каждая чайная ложка — около 16 ккал.",
-        "Используйте лёгкое концентрированное молоко или добавьте больше воды.",
-        "Выбирайте маленькую чашку — стандартная порция составляет около 200 мл."
-      ],
-      "name_inline": "карак-чай"
-    }
+  "ar": {
+   "name": "شاي كرك",
+   "origin": "الخليج · شبه الجزيرة العربية",
+   "intro": "شاي الكرك هو المشروب الشعبي المفضل في الخليج: شاي أسود قوي يُغلى مع الهيل والسكر والحليب المبخّر، وغالباً مع بضع شعيرات من الزعفران. يجعله الغليان الطويل داكناً وكريمياً وغنياً بالتوابل. يُناوَل من نوافذ السيارات في الكافتيريات على الطرق في أكواب صغيرة، وهو جزء ثابت من سهرات المنطقة.",
+   "history": "نشأ شاي الكرك من أنواع الشاي بالحليب والتوابل التي حملتها الجاليات القادمة من جنوب آسيا إلى الخليج، ويُفسَّر الاسم عادةً بمعنى «قوي». وقد أصبح جزءاً من الحياة اليومية في الإمارات وقطر والكويت والبحرين وعُمان.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 مل ماء",
+     "2 ملعقة كبيرة شاي أسود سائب",
+     "4 حبات هيل مدقوقة",
+     "بضع شعيرات زعفران",
+     "2 ملعقة كبيرة سكر",
+     "150 مل حليب مبخّر"
+    ],
+    "steps": [
+     "اغلِ الماء مع الهيل والزعفران.",
+     "أضف الشاي والسكر واتركه يغلي 3–4 دقائق حتى يصبح داكناً.",
+     "أضف الحليب المبخّر وأعده إلى الغليان واتركه يفور مرتين أو ثلاثاً.",
+     "صفِّه في أكواب صغيرة وقدّمه ساخناً."
+    ]
+   },
+   "tips": [
+    "خفّف السكر إلى النصف، فكل ملعقة صغيرة تضيف نحو 16 سعرة حرارية.",
+    "استخدم حليباً مبخّراً قليل الدسم أو أضف قليلاً من الماء.",
+    "اختر الكوب الصغير، فالحصة المعتادة نحو 200 مل."
+   ]
+  },
+  "it": {
+   "name": "Tè karak",
+   "name_inline": "tè karak",
+   "origin": "Golfo · Penisola arabica",
+   "intro": "Il tè karak è la bevanda da strada preferita del Golfo: tè nero forte bollito con cardamomo, zucchero e latte evaporato, spesso con qualche pistillo di zafferano. La lunga bollitura lo rende scuro, cremoso e intensamente speziato. Nelle caffetterie lungo le strade viene passato dai finestrini delle auto in piccoli bicchieri ed è una presenza fissa delle serate fuori in tutta la regione.",
+   "history": "Il tè karak è nato dai tè al latte speziati portati nel Golfo dalle comunità dell'Asia meridionale, e il nome viene di solito spiegato come «forte». Da allora è entrato nella vita quotidiana di Emirati Arabi Uniti, Qatar, Kuwait, Bahrein e Oman.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml di acqua",
+     "2 cucchiai di tè nero sfuso",
+     "4 baccelli di cardamomo schiacciati",
+     "Qualche pistillo di zafferano",
+     "2 cucchiai di zucchero",
+     "150 ml di latte evaporato"
+    ],
+    "steps": [
+     "Fai bollire l'acqua con cardamomo e zafferano.",
+     "Aggiungi tè e zucchero e fai bollire per 3–4 minuti finché è scuro.",
+     "Versa il latte evaporato, riporta a ebollizione e lascialo salire due o tre volte.",
+     "Filtra in tazzine e servi caldo."
+    ]
+   },
+   "tips": [
+    "Dimezza lo zucchero; ogni cucchiaino apporta circa 16 kcal.",
+    "Usa latte evaporato light o un goccio d'acqua in più.",
+    "Scegli il bicchiere piccolo: una porzione standard è di circa 200 ml."
+   ]
+  },
+  "el": {
+   "name": "Τσάι καράκ",
+   "name_inline": "τσάι καράκ",
+   "origin": "Κόλπος · Αραβική Χερσόνησος",
+   "intro": "Το τσάι καράκ είναι το αγαπημένο ρόφημα του δρόμου στον Κόλπο: δυνατό μαύρο τσάι βρασμένο με κάρδαμο, ζάχαρη και εβαπορέ γάλα, συχνά με λίγες ίνες σαφράν. Το πολύ βράσιμο το κάνει σκούρο, κρεμώδες και έντονα αρωματικό. Στις καφετέριες στην άκρη του δρόμου δίνεται από τα παράθυρα των αυτοκινήτων σε μικρά ποτηράκια και είναι σταθερό κομμάτι των βραδινών εξόδων σε όλη την περιοχή.",
+   "history": "Το τσάι καράκ προήλθε από τα αρωματικά τσάγια με γάλα που έφεραν στον Κόλπο οι κοινότητες της Νότιας Ασίας, και το όνομα συνήθως εξηγείται ως «δυνατό». Από τότε έχει γίνει μέρος της καθημερινής ζωής στα ΗΑΕ, στο Κατάρ, στο Κουβέιτ, στο Μπαχρέιν και στο Ομάν.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml νερό",
+     "2 κ.σ. χύμα μαύρο τσάι",
+     "4 κάψουλες κάρδαμο, σπασμένες",
+     "Λίγες ίνες σαφράν",
+     "2 κ.σ. ζάχαρη",
+     "150 ml εβαπορέ γάλα"
+    ],
+    "steps": [
+     "Βράστε το νερό με το κάρδαμο και το σαφράν.",
+     "Προσθέστε το τσάι και τη ζάχαρη και βράστε για 3–4 λεπτά μέχρι να σκουρύνει.",
+     "Ρίξτε το εβαπορέ γάλα, ξαναφέρτε σε βράση και αφήστε το να ανέβει δύο ή τρεις φορές.",
+     "Σουρώστε σε μικρά φλιτζάνια και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Μειώστε τη ζάχαρη στο μισό· κάθε κουταλάκι έχει περίπου 16 kcal.",
+    "Χρησιμοποιήστε ελαφρύ εβαπορέ γάλα ή λίγο περισσότερο νερό.",
+    "Διαλέξτε το μικρό ποτηράκι — μια κανονική μερίδα είναι περίπου 200 ml."
+   ]
+  },
+  "ru": {
+   "name": "Карак-чай",
+   "origin": "Залив · Аравийский полуостров",
+   "intro": "Карак-чай — любимый уличный напиток Залива: крепкий чёрный чай, прокипячённый с кардамоном, сахаром и концентрированным молоком, часто с несколькими нитями шафрана. Долгое кипячение делает его тёмным, кремовым и сильно пряным. Его подают в маленьких чашках через окна машин в придорожных кафетериях, и он — неотъемлемая часть вечерних прогулок по региону.",
+   "history": "Карак-чай вырос из пряных молочных чаёв, привезённых в Залив южноазиатскими общинами, а название обычно объясняют как «крепкий». С тех пор он стал частью повседневной жизни в ОАЭ, Катаре, Кувейте, Бахрейне и Омане.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 мл воды",
+     "2 ст. л. листового чёрного чая",
+     "4 коробочки кардамона, раздавленных",
+     "Несколько нитей шафрана",
+     "2 ст. л. сахара",
+     "150 мл концентрированного молока"
+    ],
+    "steps": [
+     "Вскипятите воду с кардамоном и шафраном.",
+     "Добавьте чай и сахар и кипятите 3–4 минуты, пока чай не станет тёмным.",
+     "Влейте концентрированное молоко, снова доведите до кипения и дайте подняться два-три раза.",
+     "Процедите в маленькие чашки и подавайте горячим."
+    ]
+   },
+   "tips": [
+    "Уменьшите сахар вдвое; каждая чайная ложка — около 16 ккал.",
+    "Используйте лёгкое концентрированное молоко или добавьте больше воды.",
+    "Выбирайте маленькую чашку — стандартная порция составляет около 200 мл."
+   ],
+   "name_inline": "карак-чай"
+  },
+  "es": {
+   "name": "Té karak",
+   "origin": "Golfo · Península Arábiga",
+   "intro": "El té karak es la bebida callejera favorita del Golfo: té negro fuerte hervido con cardamomo, azúcar y leche evaporada, a menudo con unas hebras de azafrán. La cocción prolongada lo vuelve oscuro, cremoso e intensamente especiado. Se entrega por la ventanilla del coche en pequeños vasos en las cafeterías de carretera y es un clásico de las noches de salida en toda la región.",
+   "history": "El té karak surgió de los tés con leche especiados que llevaron al Golfo las comunidades del sur de Asia, y el nombre suele explicarse como «fuerte». Desde entonces forma parte de la vida cotidiana en los Emiratos Árabes Unidos, Catar, Kuwait, Baréin y Omán.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml de agua",
+     "2 cdas. de té negro en hojas",
+     "4 vainas de cardamomo, machacadas",
+     "Unas hebras de azafrán",
+     "2 cdas. de azúcar",
+     "150 ml de leche evaporada"
+    ],
+    "steps": [
+     "Hierve el agua con el cardamomo y el azafrán.",
+     "Añade el té y el azúcar y hierve de 3 a 4 minutos, hasta que oscurezca.",
+     "Vierte la leche evaporada, lleva de nuevo a hervor y deja que suba dos o tres veces.",
+     "Cuela en vasos pequeños y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Reduce el azúcar a la mitad; cada cucharadita aporta unas 16 kcal.",
+    "Usa leche evaporada light o un chorrito más de agua.",
+    "Elige el vaso pequeño: una porción estándar es de unos 200 ml."
+   ],
+   "name_inline": "el té karak"
   }
+ }
 }

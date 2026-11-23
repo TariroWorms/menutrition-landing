@@ -1,175 +1,208 @@
 {
-  "db_key": "chicken_paprikash_hungarian",
-  "slug": "chicken-paprikash-hungarian",
-  "emoji": "🍲",
-  "portion_g": 400,
-  "country": "HU",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "chicken_paprikash_hungarian",
+ "slug": "chicken-paprikash-hungarian",
+ "emoji": "🍲",
+ "portion_g": 400,
+ "country": "HU",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Csirkepaprikás with nokedli",
+   "origin": "Hungary",
+   "intro": "Csirkepaprikás is the traditional Hungarian way of serving chicken paprikash: chicken braised with onion, bell pepper and sweet paprika, enriched with sour cream, alongside nokedli, small soft egg dumplings. The dumplings are chewy and tender and carry the creamy, deep-red sauce. It is a classic Sunday lunch in Hungarian homes.",
+   "history": "Paprika stews became a symbol of Hungarian cooking in the 19th century, and chicken paprikash with nokedli is one of the best-known of them. Nokedli, made by pressing a soft batter into boiling water, are the standard partner for paprikás dishes throughout Hungary.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "800 g chicken pieces",
+     "2 onions, finely chopped",
+     "1 red bell pepper, sliced",
+     "2 tbsp sweet paprika",
+     "200 g sour cream",
+     "For the nokedli: 300 g wheat flour, 2 eggs, about 200 ml water, salt",
+     "2 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Soften the onion in oil, remove from the heat and stir in the paprika.",
+     "Add the chicken, pepper, salt and 300 ml water, cover and simmer for 40 minutes.",
+     "For the nokedli, mix flour, eggs, salt and water into a soft, sticky batter.",
+     "Press or scrape the batter in small pieces into boiling salted water; cook 2–3 minutes until they float, then drain.",
+     "Temper the sour cream with some hot sauce and stir it into the pot without boiling.",
+     "Serve the chicken and sauce with the nokedli."
+    ]
+   },
+   "tips": [
+    "Remove the chicken skin before braising.",
+    "Serve a modest scoop of nokedli and add a cucumber salad dressed with vinegar.",
+    "Thin the sauce with a little broth instead of using all the sour cream."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Csirkepaprikás with nokedli",
-      "origin": "Hungary",
-      "intro": "Csirkepaprikás is the traditional Hungarian way of serving chicken paprikash: chicken braised with onion, bell pepper and sweet paprika, enriched with sour cream, alongside nokedli, small soft egg dumplings. The dumplings are chewy and tender and carry the creamy, deep-red sauce. It is a classic Sunday lunch in Hungarian homes.",
-      "history": "Paprika stews became a symbol of Hungarian cooking in the 19th century, and chicken paprikash with nokedli is one of the best-known of them. Nokedli, made by pressing a soft batter into boiling water, are the standard partner for paprikás dishes throughout Hungary.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "800 g chicken pieces",
-          "2 onions, finely chopped",
-          "1 red bell pepper, sliced",
-          "2 tbsp sweet paprika",
-          "200 g sour cream",
-          "For the nokedli: 300 g wheat flour, 2 eggs, about 200 ml water, salt",
-          "2 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Soften the onion in oil, remove from the heat and stir in the paprika.",
-          "Add the chicken, pepper, salt and 300 ml water, cover and simmer for 40 minutes.",
-          "For the nokedli, mix flour, eggs, salt and water into a soft, sticky batter.",
-          "Press or scrape the batter in small pieces into boiling salted water; cook 2–3 minutes until they float, then drain.",
-          "Temper the sour cream with some hot sauce and stir it into the pot without boiling.",
-          "Serve the chicken and sauce with the nokedli."
-        ]
-      },
-      "tips": [
-        "Remove the chicken skin before braising.",
-        "Serve a modest scoop of nokedli and add a cucumber salad dressed with vinegar.",
-        "Thin the sauce with a little broth instead of using all the sour cream."
-      ]
-    },
-    "ar": {
-      "name": "دجاج بابريكاش مجري مع نوكيدلي",
-      "origin": "المجر",
-      "intro": "تشيركه بابريكاش هو الطريقة المجرية التقليدية لتقديم دجاج البابريكاش: دجاج مطهو مع البصل والفلفل الحلو والبابريكا الحلوة، مُغنى بالقشدة الحامضة، ويرافقه النوكيدلي، وهي زلابية صغيرة طرية مصنوعة بالبيض. تكون الزلابية مطاطية وطرية وتحمل الصلصة الكريمية الحمراء الداكنة، وهو غداء يوم الأحد الكلاسيكي في البيوت المجرية.",
-      "history": "أصبحت يخنات البابريكا رمزاً للمطبخ المجري في القرن التاسع عشر، ويُعد دجاج البابريكاش مع النوكيدلي من أشهرها. والنوكيدلي، التي تُصنع بضغط عجينة طرية في ماء مغلي، هي الرفيق المعتاد لأطباق البابريكاش في أنحاء المجر.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "800 غ قطع دجاج",
-          "2 بصلة مفرومة ناعماً",
-          "1 فلفل أحمر حلو مقطع شرائح",
-          "2 ملعقة كبيرة بابريكا حلوة",
-          "200 غ قشدة حامضة",
-          "للنوكيدلي: 300 غ دقيق قمح، 2 بيضة، نحو 200 مل ماء، ملح",
-          "2 ملعقة كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "ليّن البصل في الزيت، ثم ارفعه عن النار وحرّك البابريكا.",
-          "أضف الدجاج والفلفل والملح و300 مل ماء، وغطِّ القدر واتركه على نار هادئة 40 دقيقة.",
-          "للنوكيدلي، اخلط الدقيق والبيض والملح والماء حتى تحصل على عجينة طرية لزجة.",
-          "اضغط العجينة قطعاً صغيرة في ماء مملح مغلي، واتركها 2–3 دقائق حتى تطفو ثم صفّها.",
-          "اخلط القشدة الحامضة مع قليل من الصلصة الساخنة وحرّكها في القدر دون غليان.",
-          "قدّم الدجاج والصلصة مع النوكيدلي."
-        ]
-      },
-      "tips": [
-        "أزل جلد الدجاج قبل الطهي.",
-        "قدّم مغرفة معتدلة من النوكيدلي وأضف سلطة خيار بالخل.",
-        "خفّف الصلصة بقليل من المرق بدلاً من استخدام كامل القشدة الحامضة."
-      ]
-    },
-    "it": {
-      "name": "Csirkepaprikás con nokedli",
-      "origin": "Ungheria",
-      "intro": "Il csirkepaprikás è il modo tradizionale ungherese di servire il pollo alla paprika: pollo stufato con cipolla, peperone e paprika dolce, arricchito con panna acida, accompagnato dai nokedli, piccoli gnocchetti morbidi all'uovo. Gli gnocchetti sono elastici e teneri e raccolgono la salsa cremosa di un rosso intenso. È un classico pranzo della domenica nelle case ungheresi.",
-      "history": "Gli stufati alla paprika divennero un simbolo della cucina ungherese nell'Ottocento, e il pollo alla paprika con nokedli è uno dei più noti. I nokedli, preparati facendo cadere una pastella morbida nell'acqua bollente, sono l'accompagnamento standard dei piatti paprikás in tutta l'Ungheria.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "800 g di pezzi di pollo",
-          "2 cipolle tritate finemente",
-          "1 peperone rosso a fette",
-          "2 cucchiai di paprika dolce",
-          "200 g di panna acida",
-          "Per i nokedli: 300 g di farina di frumento, 2 uova, circa 200 ml di acqua, sale",
-          "2 cucchiai di olio vegetale"
-        ],
-        "steps": [
-          "Fai appassire la cipolla nell'olio, togli dal fuoco e incorpora la paprika.",
-          "Aggiungi il pollo, il peperone, il sale e 300 ml di acqua, copri e cuoci a fuoco lento per 40 minuti.",
-          "Per i nokedli, mescola farina, uova, sale e acqua fino a ottenere una pastella morbida e appiccicosa.",
-          "Fai cadere la pastella a piccoli pezzi nell'acqua salata bollente, premendola o raschiandola; cuoci 2–3 minuti finché vengono a galla, poi scola.",
-          "Stempera la panna acida con un po' di salsa calda e incorporala nella pentola senza far bollire.",
-          "Servi il pollo e la salsa con i nokedli."
-        ]
-      },
-      "tips": [
-        "Togli la pelle del pollo prima di stufarlo.",
-        "Servi una porzione moderata di nokedli e aggiungi un'insalata di cetrioli condita con aceto.",
-        "Allunga la salsa con un po' di brodo invece di usare tutta la panna acida."
-      ]
-    },
-    "el": {
-      "name": "Τσίρκεπαπρικας με νόκεντλι",
-      "origin": "Ουγγαρία",
-      "intro": "Το τσίρκεπαπρικας (csirkepaprikás) είναι ο παραδοσιακός ουγγρικός τρόπος να σερβίρεται το κοτόπουλο πάπρικας: κοτόπουλο μαγειρεμένο με κρεμμύδι, πιπεριά και γλυκιά πάπρικα, εμπλουτισμένο με ξινή κρέμα, μαζί με νόκεντλι, μικρά μαλακά ζυμαρικά με αυγό. Τα ζυμαρικά είναι μαστιχωτά και τρυφερά και κρατούν την κρεμώδη, βαθυκόκκινη σάλτσα. Είναι κλασικό κυριακάτικο μεσημεριανό στα ουγγρικά σπίτια.",
-      "history": "Τα φαγητά με πάπρικα έγιναν σύμβολο της ουγγρικής κουζίνας τον 19ο αιώνα, και το κοτόπουλο πάπρικας με νόκεντλι είναι από τα πιο γνωστά. Τα νόκεντλι, που φτιάχνονται πιέζοντας μαλακό χυλό μέσα σε βραστό νερό, είναι το καθιερωμένο συνοδευτικό των πιάτων πάπρικας σε όλη την Ουγγαρία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "800 γρ. κομμάτια κοτόπουλου",
-          "2 κρεμμύδια ψιλοκομμένα",
-          "1 κόκκινη πιπεριά σε λωρίδες",
-          "2 κ.σ. γλυκιά πάπρικα",
-          "200 γρ. ξινή κρέμα",
-          "Για τα νόκεντλι: 300 γρ. αλεύρι σίτου, 2 αυγά, περίπου 200 ml νερό, αλάτι",
-          "2 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Μαράνετε το κρεμμύδι στο λάδι, βγάλτε από τη φωτιά και ανακατέψτε την πάπρικα.",
-          "Προσθέστε το κοτόπουλο, την πιπεριά, το αλάτι και 300 ml νερό, σκεπάστε και σιγοβράστε για 40 λεπτά.",
-          "Για τα νόκεντλι, ανακατέψτε αλεύρι, αυγά, αλάτι και νερό ώστε να γίνει ένας μαλακός, κολλώδης χυλός.",
-          "Ρίξτε τον χυλό σε μικρά κομμάτια σε αλατισμένο νερό που βράζει, πιέζοντας ή ξύνοντάς τον· βράστε 2–3 λεπτά μέχρι να ανέβουν στην επιφάνεια και στραγγίξτε.",
-          "Ανακατέψτε την ξινή κρέμα με λίγη καυτή σάλτσα και ρίξτε τη στην κατσαρόλα χωρίς να βράσει.",
-          "Σερβίρετε το κοτόπουλο και τη σάλτσα με τα νόκεντλι."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα του κοτόπουλου πριν το μαγειρέψετε.",
-        "Σερβίρετε μια μέτρια κουταλιά νόκεντλι και προσθέστε σαλάτα αγγουριού με ξίδι.",
-        "Αραιώστε τη σάλτσα με λίγο ζωμό αντί να βάλετε όλη την ξινή κρέμα."
-      ]
-    },
-    "ru": {
-      "name": "Чиркепаприкаш с нокедли",
-      "origin": "Венгрия",
-      "intro": "Чиркепаприкаш — традиционный венгерский способ подачи куриного паприкаша: курица, тушёная с луком, болгарским перцем и сладкой паприкой, обогащённая сметаной, с нокедли — маленькими мягкими яичными клёцками. Клёцки упругие и нежные и впитывают кремовый тёмно-красный соус. Это классический воскресный обед в венгерских домах.",
-      "history": "Паприковые рагу стали символом венгерской кухни в XIX веке, а куриный паприкаш с нокедли — одно из самых известных. Нокедли, которые делают, продавливая мягкое тесто в кипящую воду, — стандартная пара для блюд паприкаш по всей Венгрии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 70,
-        "ingredients": [
-          "800 г кусочков курицы",
-          "2 луковицы, мелко нарубленные",
-          "1 красный болгарский перец, нарезанный",
-          "2 ст. л. сладкой паприки",
-          "200 г сметаны",
-          "Для нокедли: 300 г пшеничной муки, 2 яйца, около 200 мл воды, соль",
-          "2 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Пассеруйте лук в масле, снимите с огня и вмешайте паприку.",
-          "Добавьте курицу, перец, соль и 300 мл воды, накройте и тушите 40 минут.",
-          "Для нокедли смешайте муку, яйца, соль и воду в мягкое липкое тесто.",
-          "Продавливайте или срезайте тесто небольшими кусочками в кипящую подсоленную воду; варите 2–3 минуты до всплытия, затем откиньте.",
-          "Смешайте сметану с небольшим количеством горячего соуса и вмешайте в кастрюлю, не доводя до кипения.",
-          "Подавайте курицу с соусом и нокедли."
-        ]
-      },
-      "tips": [
-        "Снимите кожу с курицы перед тушением.",
-        "Подавайте умеренную порцию нокедли и добавьте салат из огурцов, заправленный уксусом.",
-        "Разведите соус небольшим количеством бульона вместо того, чтобы использовать всю сметану."
-      ],
-      "name_inline": "чиркепаприкаш с нокедли"
-    }
+  "ar": {
+   "name": "دجاج بابريكاش مجري مع نوكيدلي",
+   "origin": "المجر",
+   "intro": "تشيركه بابريكاش هو الطريقة المجرية التقليدية لتقديم دجاج البابريكاش: دجاج مطهو مع البصل والفلفل الحلو والبابريكا الحلوة، مُغنى بالقشدة الحامضة، ويرافقه النوكيدلي، وهي زلابية صغيرة طرية مصنوعة بالبيض. تكون الزلابية مطاطية وطرية وتحمل الصلصة الكريمية الحمراء الداكنة، وهو غداء يوم الأحد الكلاسيكي في البيوت المجرية.",
+   "history": "أصبحت يخنات البابريكا رمزاً للمطبخ المجري في القرن التاسع عشر، ويُعد دجاج البابريكاش مع النوكيدلي من أشهرها. والنوكيدلي، التي تُصنع بضغط عجينة طرية في ماء مغلي، هي الرفيق المعتاد لأطباق البابريكاش في أنحاء المجر.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "800 غ قطع دجاج",
+     "2 بصلة مفرومة ناعماً",
+     "1 فلفل أحمر حلو مقطع شرائح",
+     "2 ملعقة كبيرة بابريكا حلوة",
+     "200 غ قشدة حامضة",
+     "للنوكيدلي: 300 غ دقيق قمح، 2 بيضة، نحو 200 مل ماء، ملح",
+     "2 ملعقة كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "ليّن البصل في الزيت، ثم ارفعه عن النار وحرّك البابريكا.",
+     "أضف الدجاج والفلفل والملح و300 مل ماء، وغطِّ القدر واتركه على نار هادئة 40 دقيقة.",
+     "للنوكيدلي، اخلط الدقيق والبيض والملح والماء حتى تحصل على عجينة طرية لزجة.",
+     "اضغط العجينة قطعاً صغيرة في ماء مملح مغلي، واتركها 2–3 دقائق حتى تطفو ثم صفّها.",
+     "اخلط القشدة الحامضة مع قليل من الصلصة الساخنة وحرّكها في القدر دون غليان.",
+     "قدّم الدجاج والصلصة مع النوكيدلي."
+    ]
+   },
+   "tips": [
+    "أزل جلد الدجاج قبل الطهي.",
+    "قدّم مغرفة معتدلة من النوكيدلي وأضف سلطة خيار بالخل.",
+    "خفّف الصلصة بقليل من المرق بدلاً من استخدام كامل القشدة الحامضة."
+   ]
+  },
+  "it": {
+   "name": "Csirkepaprikás con nokedli",
+   "origin": "Ungheria",
+   "intro": "Il csirkepaprikás è il modo tradizionale ungherese di servire il pollo alla paprika: pollo stufato con cipolla, peperone e paprika dolce, arricchito con panna acida, accompagnato dai nokedli, piccoli gnocchetti morbidi all'uovo. Gli gnocchetti sono elastici e teneri e raccolgono la salsa cremosa di un rosso intenso. È un classico pranzo della domenica nelle case ungheresi.",
+   "history": "Gli stufati alla paprika divennero un simbolo della cucina ungherese nell'Ottocento, e il pollo alla paprika con nokedli è uno dei più noti. I nokedli, preparati facendo cadere una pastella morbida nell'acqua bollente, sono l'accompagnamento standard dei piatti paprikás in tutta l'Ungheria.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "800 g di pezzi di pollo",
+     "2 cipolle tritate finemente",
+     "1 peperone rosso a fette",
+     "2 cucchiai di paprika dolce",
+     "200 g di panna acida",
+     "Per i nokedli: 300 g di farina di frumento, 2 uova, circa 200 ml di acqua, sale",
+     "2 cucchiai di olio vegetale"
+    ],
+    "steps": [
+     "Fai appassire la cipolla nell'olio, togli dal fuoco e incorpora la paprika.",
+     "Aggiungi il pollo, il peperone, il sale e 300 ml di acqua, copri e cuoci a fuoco lento per 40 minuti.",
+     "Per i nokedli, mescola farina, uova, sale e acqua fino a ottenere una pastella morbida e appiccicosa.",
+     "Fai cadere la pastella a piccoli pezzi nell'acqua salata bollente, premendola o raschiandola; cuoci 2–3 minuti finché vengono a galla, poi scola.",
+     "Stempera la panna acida con un po' di salsa calda e incorporala nella pentola senza far bollire.",
+     "Servi il pollo e la salsa con i nokedli."
+    ]
+   },
+   "tips": [
+    "Togli la pelle del pollo prima di stufarlo.",
+    "Servi una porzione moderata di nokedli e aggiungi un'insalata di cetrioli condita con aceto.",
+    "Allunga la salsa con un po' di brodo invece di usare tutta la panna acida."
+   ]
+  },
+  "el": {
+   "name": "Τσίρκεπαπρικας με νόκεντλι",
+   "origin": "Ουγγαρία",
+   "intro": "Το τσίρκεπαπρικας (csirkepaprikás) είναι ο παραδοσιακός ουγγρικός τρόπος να σερβίρεται το κοτόπουλο πάπρικας: κοτόπουλο μαγειρεμένο με κρεμμύδι, πιπεριά και γλυκιά πάπρικα, εμπλουτισμένο με ξινή κρέμα, μαζί με νόκεντλι, μικρά μαλακά ζυμαρικά με αυγό. Τα ζυμαρικά είναι μαστιχωτά και τρυφερά και κρατούν την κρεμώδη, βαθυκόκκινη σάλτσα. Είναι κλασικό κυριακάτικο μεσημεριανό στα ουγγρικά σπίτια.",
+   "history": "Τα φαγητά με πάπρικα έγιναν σύμβολο της ουγγρικής κουζίνας τον 19ο αιώνα, και το κοτόπουλο πάπρικας με νόκεντλι είναι από τα πιο γνωστά. Τα νόκεντλι, που φτιάχνονται πιέζοντας μαλακό χυλό μέσα σε βραστό νερό, είναι το καθιερωμένο συνοδευτικό των πιάτων πάπρικας σε όλη την Ουγγαρία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "800 γρ. κομμάτια κοτόπουλου",
+     "2 κρεμμύδια ψιλοκομμένα",
+     "1 κόκκινη πιπεριά σε λωρίδες",
+     "2 κ.σ. γλυκιά πάπρικα",
+     "200 γρ. ξινή κρέμα",
+     "Για τα νόκεντλι: 300 γρ. αλεύρι σίτου, 2 αυγά, περίπου 200 ml νερό, αλάτι",
+     "2 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Μαράνετε το κρεμμύδι στο λάδι, βγάλτε από τη φωτιά και ανακατέψτε την πάπρικα.",
+     "Προσθέστε το κοτόπουλο, την πιπεριά, το αλάτι και 300 ml νερό, σκεπάστε και σιγοβράστε για 40 λεπτά.",
+     "Για τα νόκεντλι, ανακατέψτε αλεύρι, αυγά, αλάτι και νερό ώστε να γίνει ένας μαλακός, κολλώδης χυλός.",
+     "Ρίξτε τον χυλό σε μικρά κομμάτια σε αλατισμένο νερό που βράζει, πιέζοντας ή ξύνοντάς τον· βράστε 2–3 λεπτά μέχρι να ανέβουν στην επιφάνεια και στραγγίξτε.",
+     "Ανακατέψτε την ξινή κρέμα με λίγη καυτή σάλτσα και ρίξτε τη στην κατσαρόλα χωρίς να βράσει.",
+     "Σερβίρετε το κοτόπουλο και τη σάλτσα με τα νόκεντλι."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα του κοτόπουλου πριν το μαγειρέψετε.",
+    "Σερβίρετε μια μέτρια κουταλιά νόκεντλι και προσθέστε σαλάτα αγγουριού με ξίδι.",
+    "Αραιώστε τη σάλτσα με λίγο ζωμό αντί να βάλετε όλη την ξινή κρέμα."
+   ]
+  },
+  "ru": {
+   "name": "Чиркепаприкаш с нокедли",
+   "origin": "Венгрия",
+   "intro": "Чиркепаприкаш — традиционный венгерский способ подачи куриного паприкаша: курица, тушёная с луком, болгарским перцем и сладкой паприкой, обогащённая сметаной, с нокедли — маленькими мягкими яичными клёцками. Клёцки упругие и нежные и впитывают кремовый тёмно-красный соус. Это классический воскресный обед в венгерских домах.",
+   "history": "Паприковые рагу стали символом венгерской кухни в XIX веке, а куриный паприкаш с нокедли — одно из самых известных. Нокедли, которые делают, продавливая мягкое тесто в кипящую воду, — стандартная пара для блюд паприкаш по всей Венгрии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "800 г кусочков курицы",
+     "2 луковицы, мелко нарубленные",
+     "1 красный болгарский перец, нарезанный",
+     "2 ст. л. сладкой паприки",
+     "200 г сметаны",
+     "Для нокедли: 300 г пшеничной муки, 2 яйца, около 200 мл воды, соль",
+     "2 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Пассеруйте лук в масле, снимите с огня и вмешайте паприку.",
+     "Добавьте курицу, перец, соль и 300 мл воды, накройте и тушите 40 минут.",
+     "Для нокедли смешайте муку, яйца, соль и воду в мягкое липкое тесто.",
+     "Продавливайте или срезайте тесто небольшими кусочками в кипящую подсоленную воду; варите 2–3 минуты до всплытия, затем откиньте.",
+     "Смешайте сметану с небольшим количеством горячего соуса и вмешайте в кастрюлю, не доводя до кипения.",
+     "Подавайте курицу с соусом и нокедли."
+    ]
+   },
+   "tips": [
+    "Снимите кожу с курицы перед тушением.",
+    "Подавайте умеренную порцию нокедли и добавьте салат из огурцов, заправленный уксусом.",
+    "Разведите соус небольшим количеством бульона вместо того, чтобы использовать всю сметану."
+   ],
+   "name_inline": "чиркепаприкаш с нокедли"
+  },
+  "es": {
+   "name": "Csirkepaprikás con nokedli (pollo a la páprika con ñoquis húngaros)",
+   "origin": "Hungría",
+   "intro": "El csirkepaprikás es la forma tradicional húngara de servir el pollo a la páprika: pollo guisado con cebolla, pimiento y páprika dulce, enriquecido con crema ácida y acompañado de nokedli, pequeños ñoquis suaves de huevo. Los ñoquis son tiernos y ligeramente masticables, y se empapan de la salsa cremosa de intenso color rojo. Es un almuerzo clásico de domingo en los hogares húngaros.",
+   "history": "Los guisos con páprika se volvieron un símbolo de la cocina húngara en el siglo XIX, y el pollo a la páprika con nokedli es uno de los más conocidos. Los nokedli, que se hacen pasando una masa blanda por agua hirviendo, son el acompañamiento habitual de los platos paprikás en toda Hungría.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 70,
+    "ingredients": [
+     "800 g de piezas de pollo",
+     "2 cebollas, picadas finas",
+     "1 pimiento rojo, en tiras",
+     "2 cda. de páprika dulce",
+     "200 g de crema ácida",
+     "Para los nokedli: 300 g de harina de trigo, 2 huevos, unos 200 ml de agua, sal",
+     "2 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Sofríe la cebolla en el aceite hasta que se ablande, retira del fuego y mezcla la páprika.",
+     "Agrega el pollo, el pimiento, la sal y 300 ml de agua, tapa y cocina a fuego lento 40 minutos.",
+     "Para los nokedli, mezcla la harina, los huevos, la sal y el agua hasta formar una masa blanda y pegajosa.",
+     "Pasa o raspa la masa en trocitos sobre agua con sal hirviendo; cocina de 2 a 3 minutos, hasta que floten, y escurre.",
+     "Templa la crema ácida con un poco de salsa caliente e incorpórala a la olla sin dejar que hierva.",
+     "Sirve el pollo con su salsa y los nokedli."
+    ]
+   },
+   "tips": [
+    "Quita la piel del pollo antes de guisarlo.",
+    "Sirve una porción moderada de nokedli y acompaña con una ensalada de pepino aderezada con vinagre.",
+    "Aligera la salsa con un poco de caldo en lugar de usar toda la crema ácida."
+   ],
+   "name_inline": "el csirkepaprikás con nokedli"
   }
+ }
 }

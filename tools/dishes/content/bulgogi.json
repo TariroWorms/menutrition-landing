@@ -1,172 +1,204 @@
 {
-  "db_key": "bulgogi",
-  "slug": "bulgogi",
-  "emoji": "🥩",
-  "portion_g": 200,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "bulgogi",
+ "slug": "bulgogi",
+ "emoji": "🥩",
+ "portion_g": 200,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Bulgogi",
+   "origin": "South Korea",
+   "intro": "Bulgogi, 'fire meat', is thinly sliced beef marinated in soy sauce, sugar, sesame oil, garlic and grated Asian pear, then grilled or seared over high heat. The pear tenderises the meat and the sugar caramelises at the edges, giving a sweet-savoury, smoky flavour. It is eaten with rice, often wrapped in lettuce leaves.",
+   "history": "Grilled marinated meat has a long history in Korea, and bulgogi is often traced to an older court dish called neobiani. The modern style became a national favourite in the 20th century and is now one of the best-known Korean dishes abroad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g beef sirloin or ribeye, very thinly sliced",
+     "4 tbsp soy sauce",
+     "2 tbsp sugar",
+     "1 tbsp sesame oil",
+     "4 garlic cloves, grated",
+     "½ Asian pear, grated",
+     "1 onion, sliced, and 2 spring onions"
+    ],
+    "steps": [
+     "Mix the soy sauce, sugar, sesame oil, garlic and pear.",
+     "Toss the beef and onion in the marinade and leave for at least 30 minutes.",
+     "Heat a grill pan or skillet until very hot.",
+     "Cook the beef in batches for 2–3 minutes until browned at the edges.",
+     "Scatter with spring onion and serve with rice and lettuce leaves."
+    ]
+   },
+   "tips": [
+    "Choose a lean cut like sirloin and trim visible fat.",
+    "Use 1 tbsp sugar and let the pear give most of the sweetness.",
+    "Wrap the beef in lettuce and keep the rice to a small bowl."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Bulgogi",
-      "origin": "South Korea",
-      "intro": "Bulgogi, 'fire meat', is thinly sliced beef marinated in soy sauce, sugar, sesame oil, garlic and grated Asian pear, then grilled or seared over high heat. The pear tenderises the meat and the sugar caramelises at the edges, giving a sweet-savoury, smoky flavour. It is eaten with rice, often wrapped in lettuce leaves.",
-      "history": "Grilled marinated meat has a long history in Korea, and bulgogi is often traced to an older court dish called neobiani. The modern style became a national favourite in the 20th century and is now one of the best-known Korean dishes abroad.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 g beef sirloin or ribeye, very thinly sliced",
-          "4 tbsp soy sauce",
-          "2 tbsp sugar",
-          "1 tbsp sesame oil",
-          "4 garlic cloves, grated",
-          "½ Asian pear, grated",
-          "1 onion, sliced, and 2 spring onions"
-        ],
-        "steps": [
-          "Mix the soy sauce, sugar, sesame oil, garlic and pear.",
-          "Toss the beef and onion in the marinade and leave for at least 30 minutes.",
-          "Heat a grill pan or skillet until very hot.",
-          "Cook the beef in batches for 2–3 minutes until browned at the edges.",
-          "Scatter with spring onion and serve with rice and lettuce leaves."
-        ]
-      },
-      "tips": [
-        "Choose a lean cut like sirloin and trim visible fat.",
-        "Use 1 tbsp sugar and let the pear give most of the sweetness.",
-        "Wrap the beef in lettuce and keep the rice to a small bowl."
-      ]
-    },
-    "ar": {
-      "name": "بولغوغي",
-      "origin": "كوريا الجنوبية",
-      "intro": "البولغوغي أو «لحم النار» شرائح رفيعة من لحم البقر تتبّل بصلصة الصويا والسكر وزيت السمسم والثوم والإجاص الآسيوي المبشور، ثم تشوى أو تحمّر على نار قوية. يطرّي الإجاص اللحم ويتكرمل السكر عند الأطراف، فيعطي نكهة حلوة مالحة مدخنة. يؤكل مع الأرز، وغالبًا ملفوفًا بأوراق الخس.",
-      "history": "للحم المتبل المشوي تاريخ طويل في كوريا، وكثيرًا ما يُرد البولغوغي إلى طبق قديم من البلاط الملكي يسمى نوبياني. أصبح أسلوبه الحديث طبقًا وطنيًا محبوبًا في القرن العشرين، وهو اليوم من أشهر الأطباق الكورية في الخارج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 غ لحم بقري (سيرلوين أو ريب آي) مقطع شرائح رفيعة جدًا",
-          "4 ملاعق كبيرة صلصة صويا",
-          "2 ملعقة كبيرة سكر",
-          "1 ملعقة كبيرة زيت سمسم",
-          "4 فصوص ثوم مبشورة",
-          "نصف إجاصة آسيوية مبشورة",
-          "بصلة مقطعة شرائح وعودا بصل أخضر"
-        ],
-        "steps": [
-          "اخلط صلصة الصويا والسكر وزيت السمسم والثوم والإجاص.",
-          "قلّب اللحم والبصل في التتبيلة واتركه 30 دقيقة على الأقل.",
-          "سخّن مقلاة شواء أو مقلاة عادية حتى تصبح ساخنة جدًا.",
-          "اطهُ اللحم على دفعات 2–3 دقائق حتى تتحمر أطرافه.",
-          "رش البصل الأخضر وقدّمه مع الأرز وأوراق الخس."
-        ]
-      },
-      "tips": [
-        "اختر قطعة قليلة الدهن مثل السيرلوين وأزل الدهن الظاهر.",
-        "استخدم ملعقة كبيرة واحدة من السكر ودع الإجاص يعطي معظم الحلاوة.",
-        "لف اللحم بالخس واكتفِ بوعاء صغير من الأرز."
-      ]
-    },
-    "it": {
-      "name": "Bulgogi",
-      "origin": "Corea del Sud",
-      "intro": "Il bulgogi, «carne di fuoco», è manzo tagliato sottile marinato in salsa di soia, zucchero, olio di sesamo, aglio e pera asiatica grattugiata, poi grigliato o scottato a fuoco vivo. La pera intenerisce la carne e lo zucchero caramella ai bordi, dando un sapore dolce-sapido e affumicato. Si mangia con il riso, spesso avvolto in foglie di lattuga.",
-      "history": "La carne marinata alla griglia ha una lunga storia in Corea, e il bulgogi viene spesso fatto risalire a un piatto di corte più antico chiamato neobiani. Lo stile moderno è diventato un piatto nazionale amatissimo nel XX secolo ed è oggi uno dei piatti coreani più conosciuti all'estero.",
-      "name_inline": "bulgogi",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 g di controfiletto o costata di manzo tagliati sottilissimi",
-          "4 cucchiai di salsa di soia",
-          "2 cucchiai di zucchero",
-          "1 cucchiaio di olio di sesamo",
-          "4 spicchi d'aglio grattugiati",
-          "½ pera asiatica grattugiata",
-          "1 cipolla a fette e 2 cipollotti"
-        ],
-        "steps": [
-          "Mescola la salsa di soia, lo zucchero, l'olio di sesamo, l'aglio e la pera.",
-          "Metti il manzo e la cipolla nella marinata e lascia riposare per almeno 30 minuti.",
-          "Scalda una bistecchiera o una padella finché è rovente.",
-          "Cuoci il manzo poco alla volta per 2–3 minuti, finché è dorato ai bordi.",
-          "Cospargi di cipollotto e servi con riso e foglie di lattuga."
-        ]
-      },
-      "tips": [
-        "Scegli un taglio magro come il controfiletto ed elimina il grasso visibile.",
-        "Usa 1 cucchiaio di zucchero e lascia che sia la pera a dare gran parte della dolcezza.",
-        "Avvolgi il manzo nella lattuga e limita il riso a una ciotolina."
-      ]
-    },
-    "el": {
-      "name": "Μπουλγκόγκι",
-      "origin": "Νότια Κορέα",
-      "intro": "Το μπουλγκόγκι, «κρέας της φωτιάς», είναι μοσχάρι σε λεπτές φέτες μαριναρισμένο σε σόγια, ζάχαρη, σησαμέλαιο, σκόρδο και τριμμένο ασιατικό αχλάδι, και έπειτα ψημένο στη σχάρα ή σοταρισμένο σε δυνατή φωτιά. Το αχλάδι μαλακώνει το κρέας και η ζάχαρη καραμελώνει στις άκρες, δίνοντας γλυκιά-αλμυρή, καπνιστή γεύση. Τρώγεται με ρύζι, συχνά τυλιγμένο σε φύλλα μαρουλιού.",
-      "history": "Το μαριναρισμένο ψητό κρέας έχει μακρά ιστορία στην Κορέα, και το μπουλγκόγκι συχνά ανάγεται σε ένα παλαιότερο πιάτο της αυλής που λεγόταν νεομπιάνι. Το σύγχρονο στυλ έγινε εθνικό αγαπημένο τον 20ό αιώνα και σήμερα είναι από τα πιο γνωστά κορεατικά πιάτα στο εξωτερικό.",
-      "name_inline": "μπουλγκόγκι",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 γρ. μοσχαρίσιο κόντρα φιλέτο ή ribeye, σε πολύ λεπτές φέτες",
-          "4 κ.σ. σάλτσα σόγιας",
-          "2 κ.σ. ζάχαρη",
-          "1 κ.σ. σησαμέλαιο",
-          "4 σκελίδες σκόρδο, τριμμένες",
-          "½ ασιατικό αχλάδι, τριμμένο",
-          "1 κρεμμύδι σε φέτες και 2 φρέσκα κρεμμυδάκια"
-        ],
-        "steps": [
-          "Ανακατέψτε τη σόγια, τη ζάχαρη, το σησαμέλαιο, το σκόρδο και το αχλάδι.",
-          "Ανακατέψτε το μοσχάρι και το κρεμμύδι στη μαρινάδα και αφήστε για τουλάχιστον 30 λεπτά.",
-          "Ζεστάνετε μια γκριλιέρα ή ένα τηγάνι μέχρι να κάψει πολύ.",
-          "Ψήστε το μοσχάρι σε δόσεις για 2–3 λεπτά, μέχρι να ροδίσει στις άκρες.",
-          "Πασπαλίστε με φρέσκο κρεμμυδάκι και σερβίρετε με ρύζι και φύλλα μαρουλιού."
-        ]
-      },
-      "tips": [
-        "Προτιμήστε άπαχη κοπή όπως το κόντρα φιλέτο και αφαιρέστε το ορατό λίπος.",
-        "Βάλτε 1 κ.σ. ζάχαρη και αφήστε το αχλάδι να δώσει το μεγαλύτερο μέρος της γλυκύτητας.",
-        "Τυλίξτε το μοσχάρι σε μαρούλι και περιορίστε το ρύζι σε ένα μικρό μπολ."
-      ]
-    },
-    "ru": {
-      "name": "Пулькоги",
-      "origin": "Южная Корея",
-      "intro": "Пулькоги, «огненное мясо», — тонко нарезанная говядина, замаринованная в соевом соусе, сахаре, кунжутном масле, чесноке и тёртой азиатской груше, а затем обжаренная на гриле или на сильном огне. Груша размягчает мясо, а сахар карамелизуется по краям, придавая сладко-пикантный дымный вкус. Его едят с рисом, часто заворачивая в листья салата.",
-      "history": "У жареного маринованного мяса в Корее долгая история, а пулькоги часто возводят к более старому придворному блюду под названием нобиани. Современный стиль стал национальным любимцем в XX веке и сегодня — одно из самых известных корейских блюд за рубежом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 г говяжьей вырезки или рибая, нарезанных очень тонко",
-          "4 ст. л. соевого соуса",
-          "2 ст. л. сахара",
-          "1 ст. л. кунжутного масла",
-          "4 зубчика чеснока, натёртых",
-          "½ азиатской груши, натёртой",
-          "1 луковица, нарезанная, и 2 пера зелёного лука"
-        ],
-        "steps": [
-          "Смешайте соевый соус, сахар, кунжутное масло, чеснок и грушу.",
-          "Перемешайте говядину и лук с маринадом и оставьте не менее чем на 30 минут.",
-          "Сильно разогрейте гриль-сковороду или сковороду.",
-          "Обжаривайте говядину порциями 2–3 минуты, пока она не подрумянится по краям.",
-          "Посыпьте зелёным луком и подавайте с рисом и листьями салата."
-        ]
-      },
-      "tips": [
-        "Выбирайте постный отруб, например вырезку, и срезайте видимый жир.",
-        "Кладите 1 ст. л. сахара и позвольте груше дать большую часть сладости.",
-        "Заворачивайте говядину в салат и держите рис в небольшой миске."
-      ],
-      "name_inline": "пулькоги"
-    }
+  "ar": {
+   "name": "بولغوغي",
+   "origin": "كوريا الجنوبية",
+   "intro": "البولغوغي أو «لحم النار» شرائح رفيعة من لحم البقر تتبّل بصلصة الصويا والسكر وزيت السمسم والثوم والإجاص الآسيوي المبشور، ثم تشوى أو تحمّر على نار قوية. يطرّي الإجاص اللحم ويتكرمل السكر عند الأطراف، فيعطي نكهة حلوة مالحة مدخنة. يؤكل مع الأرز، وغالبًا ملفوفًا بأوراق الخس.",
+   "history": "للحم المتبل المشوي تاريخ طويل في كوريا، وكثيرًا ما يُرد البولغوغي إلى طبق قديم من البلاط الملكي يسمى نوبياني. أصبح أسلوبه الحديث طبقًا وطنيًا محبوبًا في القرن العشرين، وهو اليوم من أشهر الأطباق الكورية في الخارج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 غ لحم بقري (سيرلوين أو ريب آي) مقطع شرائح رفيعة جدًا",
+     "4 ملاعق كبيرة صلصة صويا",
+     "2 ملعقة كبيرة سكر",
+     "1 ملعقة كبيرة زيت سمسم",
+     "4 فصوص ثوم مبشورة",
+     "نصف إجاصة آسيوية مبشورة",
+     "بصلة مقطعة شرائح وعودا بصل أخضر"
+    ],
+    "steps": [
+     "اخلط صلصة الصويا والسكر وزيت السمسم والثوم والإجاص.",
+     "قلّب اللحم والبصل في التتبيلة واتركه 30 دقيقة على الأقل.",
+     "سخّن مقلاة شواء أو مقلاة عادية حتى تصبح ساخنة جدًا.",
+     "اطهُ اللحم على دفعات 2–3 دقائق حتى تتحمر أطرافه.",
+     "رش البصل الأخضر وقدّمه مع الأرز وأوراق الخس."
+    ]
+   },
+   "tips": [
+    "اختر قطعة قليلة الدهن مثل السيرلوين وأزل الدهن الظاهر.",
+    "استخدم ملعقة كبيرة واحدة من السكر ودع الإجاص يعطي معظم الحلاوة.",
+    "لف اللحم بالخس واكتفِ بوعاء صغير من الأرز."
+   ]
+  },
+  "it": {
+   "name": "Bulgogi",
+   "origin": "Corea del Sud",
+   "intro": "Il bulgogi, «carne di fuoco», è manzo tagliato sottile marinato in salsa di soia, zucchero, olio di sesamo, aglio e pera asiatica grattugiata, poi grigliato o scottato a fuoco vivo. La pera intenerisce la carne e lo zucchero caramella ai bordi, dando un sapore dolce-sapido e affumicato. Si mangia con il riso, spesso avvolto in foglie di lattuga.",
+   "history": "La carne marinata alla griglia ha una lunga storia in Corea, e il bulgogi viene spesso fatto risalire a un piatto di corte più antico chiamato neobiani. Lo stile moderno è diventato un piatto nazionale amatissimo nel XX secolo ed è oggi uno dei piatti coreani più conosciuti all'estero.",
+   "name_inline": "bulgogi",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g di controfiletto o costata di manzo tagliati sottilissimi",
+     "4 cucchiai di salsa di soia",
+     "2 cucchiai di zucchero",
+     "1 cucchiaio di olio di sesamo",
+     "4 spicchi d'aglio grattugiati",
+     "½ pera asiatica grattugiata",
+     "1 cipolla a fette e 2 cipollotti"
+    ],
+    "steps": [
+     "Mescola la salsa di soia, lo zucchero, l'olio di sesamo, l'aglio e la pera.",
+     "Metti il manzo e la cipolla nella marinata e lascia riposare per almeno 30 minuti.",
+     "Scalda una bistecchiera o una padella finché è rovente.",
+     "Cuoci il manzo poco alla volta per 2–3 minuti, finché è dorato ai bordi.",
+     "Cospargi di cipollotto e servi con riso e foglie di lattuga."
+    ]
+   },
+   "tips": [
+    "Scegli un taglio magro come il controfiletto ed elimina il grasso visibile.",
+    "Usa 1 cucchiaio di zucchero e lascia che sia la pera a dare gran parte della dolcezza.",
+    "Avvolgi il manzo nella lattuga e limita il riso a una ciotolina."
+   ]
+  },
+  "el": {
+   "name": "Μπουλγκόγκι",
+   "origin": "Νότια Κορέα",
+   "intro": "Το μπουλγκόγκι, «κρέας της φωτιάς», είναι μοσχάρι σε λεπτές φέτες μαριναρισμένο σε σόγια, ζάχαρη, σησαμέλαιο, σκόρδο και τριμμένο ασιατικό αχλάδι, και έπειτα ψημένο στη σχάρα ή σοταρισμένο σε δυνατή φωτιά. Το αχλάδι μαλακώνει το κρέας και η ζάχαρη καραμελώνει στις άκρες, δίνοντας γλυκιά-αλμυρή, καπνιστή γεύση. Τρώγεται με ρύζι, συχνά τυλιγμένο σε φύλλα μαρουλιού.",
+   "history": "Το μαριναρισμένο ψητό κρέας έχει μακρά ιστορία στην Κορέα, και το μπουλγκόγκι συχνά ανάγεται σε ένα παλαιότερο πιάτο της αυλής που λεγόταν νεομπιάνι. Το σύγχρονο στυλ έγινε εθνικό αγαπημένο τον 20ό αιώνα και σήμερα είναι από τα πιο γνωστά κορεατικά πιάτα στο εξωτερικό.",
+   "name_inline": "μπουλγκόγκι",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 γρ. μοσχαρίσιο κόντρα φιλέτο ή ribeye, σε πολύ λεπτές φέτες",
+     "4 κ.σ. σάλτσα σόγιας",
+     "2 κ.σ. ζάχαρη",
+     "1 κ.σ. σησαμέλαιο",
+     "4 σκελίδες σκόρδο, τριμμένες",
+     "½ ασιατικό αχλάδι, τριμμένο",
+     "1 κρεμμύδι σε φέτες και 2 φρέσκα κρεμμυδάκια"
+    ],
+    "steps": [
+     "Ανακατέψτε τη σόγια, τη ζάχαρη, το σησαμέλαιο, το σκόρδο και το αχλάδι.",
+     "Ανακατέψτε το μοσχάρι και το κρεμμύδι στη μαρινάδα και αφήστε για τουλάχιστον 30 λεπτά.",
+     "Ζεστάνετε μια γκριλιέρα ή ένα τηγάνι μέχρι να κάψει πολύ.",
+     "Ψήστε το μοσχάρι σε δόσεις για 2–3 λεπτά, μέχρι να ροδίσει στις άκρες.",
+     "Πασπαλίστε με φρέσκο κρεμμυδάκι και σερβίρετε με ρύζι και φύλλα μαρουλιού."
+    ]
+   },
+   "tips": [
+    "Προτιμήστε άπαχη κοπή όπως το κόντρα φιλέτο και αφαιρέστε το ορατό λίπος.",
+    "Βάλτε 1 κ.σ. ζάχαρη και αφήστε το αχλάδι να δώσει το μεγαλύτερο μέρος της γλυκύτητας.",
+    "Τυλίξτε το μοσχάρι σε μαρούλι και περιορίστε το ρύζι σε ένα μικρό μπολ."
+   ]
+  },
+  "ru": {
+   "name": "Пулькоги",
+   "origin": "Южная Корея",
+   "intro": "Пулькоги, «огненное мясо», — тонко нарезанная говядина, замаринованная в соевом соусе, сахаре, кунжутном масле, чесноке и тёртой азиатской груше, а затем обжаренная на гриле или на сильном огне. Груша размягчает мясо, а сахар карамелизуется по краям, придавая сладко-пикантный дымный вкус. Его едят с рисом, часто заворачивая в листья салата.",
+   "history": "У жареного маринованного мяса в Корее долгая история, а пулькоги часто возводят к более старому придворному блюду под названием нобиани. Современный стиль стал национальным любимцем в XX веке и сегодня — одно из самых известных корейских блюд за рубежом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 г говяжьей вырезки или рибая, нарезанных очень тонко",
+     "4 ст. л. соевого соуса",
+     "2 ст. л. сахара",
+     "1 ст. л. кунжутного масла",
+     "4 зубчика чеснока, натёртых",
+     "½ азиатской груши, натёртой",
+     "1 луковица, нарезанная, и 2 пера зелёного лука"
+    ],
+    "steps": [
+     "Смешайте соевый соус, сахар, кунжутное масло, чеснок и грушу.",
+     "Перемешайте говядину и лук с маринадом и оставьте не менее чем на 30 минут.",
+     "Сильно разогрейте гриль-сковороду или сковороду.",
+     "Обжаривайте говядину порциями 2–3 минуты, пока она не подрумянится по краям.",
+     "Посыпьте зелёным луком и подавайте с рисом и листьями салата."
+    ]
+   },
+   "tips": [
+    "Выбирайте постный отруб, например вырезку, и срезайте видимый жир.",
+    "Кладите 1 ст. л. сахара и позвольте груше дать большую часть сладости.",
+    "Заворачивайте говядину в салат и держите рис в небольшой миске."
+   ],
+   "name_inline": "пулькоги"
+  },
+  "es": {
+   "name": "Bulgogi",
+   "origin": "Corea del Sur",
+   "intro": "El bulgogi, «carne al fuego», es carne de res en láminas finas marinada con salsa de soya, azúcar, aceite de sésamo, ajo y pera asiática rallada, que luego se asa a la parrilla o se sella a fuego muy fuerte. La pera ablanda la carne y el azúcar se carameliza en los bordes, dando un sabor agridulce y ahumado. Se come con arroz, a menudo envuelto en hojas de lechuga.",
+   "history": "En Corea existe una larga tradición de carne marinada a la parrilla, y el bulgogi suele remontarse a un antiguo plato de la corte llamado neobiani. El estilo actual se volvió un favorito nacional en el siglo XX y hoy es uno de los platos coreanos más conocidos en el extranjero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g de lomo o ribeye de res, en láminas muy finas",
+     "4 cdas. de salsa de soya",
+     "2 cdas. de azúcar",
+     "1 cda. de aceite de sésamo",
+     "4 dientes de ajo, rallados",
+     "½ pera asiática, rallada",
+     "1 cebolla en rodajas y 2 cebollines"
+    ],
+    "steps": [
+     "Mezcla la salsa de soya, el azúcar, el aceite de sésamo, el ajo y la pera.",
+     "Envuelve la carne y la cebolla en la marinada y déjalas reposar al menos 30 minutos.",
+     "Calienta una plancha acanalada o un sartén hasta que esté muy caliente.",
+     "Cocina la carne por tandas durante 2–3 minutos, hasta que se dore en los bordes.",
+     "Espolvorea con el cebollín y sirve con arroz y hojas de lechuga."
+    ]
+   },
+   "tips": [
+    "Elige un corte magro como el lomo y retira la grasa visible.",
+    "Usa 1 cda. de azúcar y deja que la pera aporte casi todo el dulzor.",
+    "Envuelve la carne en lechuga y limita el arroz a un bol pequeño."
+   ],
+   "name_inline": "el bulgogi"
   }
+ }
 }

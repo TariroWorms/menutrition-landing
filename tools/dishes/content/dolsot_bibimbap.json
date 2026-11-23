@@ -1,185 +1,220 @@
 {
-  "db_key": "dolsot_bibimbap",
-  "slug": "dolsot-bibimbap",
-  "emoji": "🍲",
-  "portion_g": 450,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dolsot_bibimbap",
+ "slug": "dolsot-bibimbap",
+ "emoji": "🍲",
+ "portion_g": 450,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Dolsot Bibimbap",
+   "origin": "Korea · Jeonju",
+   "intro": "Dolsot bibimbap is rice served in a sizzling hot stone bowl and topped with seasoned vegetables, sautéed beef and a fried egg, with spicy gochujang on the side. The rice in contact with the stone turns into a golden, crackling crust. Everything is mixed at the table so the sauce coats each grain, giving a dish that is crispy, savory and spicy at once.",
+   "history": "Bibimbap is a long-standing Korean mixed-rice dish, and the city of Jeonju is especially known for it. Serving it in a heated stone pot, or dolsot, is a more recent variation, prized for the crisp rice crust it creates.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "300 g cooked short-grain rice",
+     "150 g beef, thinly sliced",
+     "100 g spinach, blanched",
+     "100 g bean sprouts, blanched",
+     "1 carrot, julienned",
+     "1 zucchini, julienned",
+     "2 eggs",
+     "2 tbsp gochujang",
+     "1 tbsp sesame oil",
+     "1 garlic clove, salt"
+    ],
+    "steps": [
+     "Sauté the beef with the garlic and a pinch of salt until browned.",
+     "Season each vegetable lightly with salt and a few drops of sesame oil; sauté the carrot and zucchini briefly.",
+     "Brush two stone bowls with the remaining sesame oil, add the rice and heat on the stove until it crackles, about 5 minutes.",
+     "Arrange the vegetables and beef on top and crown with a fried egg.",
+     "Serve sizzling with gochujang and mix well before eating."
+    ]
+   },
+   "tips": [
+    "Keep the oil in the stone bowl to a thin brushing; 1 tbsp oil ≈ 120 kcal.",
+    "Ask for less rice and more vegetables, or use a lean cut of beef.",
+    "Add gochujang to taste rather than all at once, as it adds sugar and salt."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Dolsot Bibimbap",
-      "origin": "Korea · Jeonju",
-      "intro": "Dolsot bibimbap is rice served in a sizzling hot stone bowl and topped with seasoned vegetables, sautéed beef and a fried egg, with spicy gochujang on the side. The rice in contact with the stone turns into a golden, crackling crust. Everything is mixed at the table so the sauce coats each grain, giving a dish that is crispy, savory and spicy at once.",
-      "history": "Bibimbap is a long-standing Korean mixed-rice dish, and the city of Jeonju is especially known for it. Serving it in a heated stone pot, or dolsot, is a more recent variation, prized for the crisp rice crust it creates.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "300 g cooked short-grain rice",
-          "150 g beef, thinly sliced",
-          "100 g spinach, blanched",
-          "100 g bean sprouts, blanched",
-          "1 carrot, julienned",
-          "1 zucchini, julienned",
-          "2 eggs",
-          "2 tbsp gochujang",
-          "1 tbsp sesame oil",
-          "1 garlic clove, salt"
-        ],
-        "steps": [
-          "Sauté the beef with the garlic and a pinch of salt until browned.",
-          "Season each vegetable lightly with salt and a few drops of sesame oil; sauté the carrot and zucchini briefly.",
-          "Brush two stone bowls with the remaining sesame oil, add the rice and heat on the stove until it crackles, about 5 minutes.",
-          "Arrange the vegetables and beef on top and crown with a fried egg.",
-          "Serve sizzling with gochujang and mix well before eating."
-        ]
-      },
-      "tips": [
-        "Keep the oil in the stone bowl to a thin brushing; 1 tbsp oil ≈ 120 kcal.",
-        "Ask for less rice and more vegetables, or use a lean cut of beef.",
-        "Add gochujang to taste rather than all at once, as it adds sugar and salt."
-      ]
-    },
-    "ar": {
-      "name": "بيبيمباب في قدر حجري",
-      "origin": "كوريا · جونجو",
-      "intro": "البيبيمباب في القدر الحجري أرز يقدم في وعاء حجري ساخن جداً تعلوه خضار متبّلة ولحم بقر مقلّب وبيضة مقلية، مع صلصة الغوتشوجانغ الحارة. الأرز الملامس للحجر يتحول إلى قشرة ذهبية مقرمشة. يُخلط كل شيء على المائدة لتغطي الصلصة كل حبة، فينتج طبق مقرمش وغني بالنكهة وحار في آن واحد.",
-      "history": "البيبيمباب طبق أرز مخلوط كوري قديم، وتشتهر به مدينة جونجو خصوصاً. وتقديمه في قدر حجري مسخّن، أو «دولسوت»، صيغة أحدث تُقدَّر بفضل القشرة المقرمشة التي يكوّنها.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "300 غ أرز قصير الحبة مطهو",
-          "150 غ لحم بقر مقطع شرائح رقيقة",
-          "100 غ سبانخ مسلوقة سريعاً",
-          "100 غ براعم فول مسلوقة سريعاً",
-          "1 جزرة أعواد رفيعة",
-          "1 كوسا أعواد رفيعة",
-          "2 بيضة",
-          "2 ملعقة كبيرة غوتشوجانغ",
-          "1 ملعقة كبيرة زيت سمسم",
-          "1 فص ثوم وملح"
-        ],
-        "steps": [
-          "قلّب اللحم مع الثوم ورشة ملح حتى يتحمّر.",
-          "تبّل كل نوع من الخضار بقليل من الملح وقطرات من زيت السمسم، وقلّب الجزر والكوسا سريعاً.",
-          "ادهن وعاءين حجريين بباقي زيت السمسم وضع الأرز وسخّنه على النار حتى يطقطق، نحو 5 دقائق.",
-          "رتّب الخضار واللحم فوقه وضع البيضة المقلية في الأعلى.",
-          "قدّمه وهو يطقطق مع الغوتشوجانغ واخلطه جيداً قبل الأكل."
-        ]
-      },
-      "tips": [
-        "اكتفِ بدهنة رقيقة من الزيت في الوعاء الحجري؛ ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "اطلب أرزاً أقل وخضاراً أكثر، أو استخدم قطعة لحم قليلة الدهن.",
-        "أضف الغوتشوجانغ حسب الذوق لا دفعة واحدة، فهو يضيف السكر والملح."
-      ]
-    },
-    "it": {
-      "name": "Dolsot bibimbap",
-      "origin": "Corea · Jeonju",
-      "intro": "Il dolsot bibimbap è riso servito in una ciotola di pietra rovente e sfrigolante, coperto di verdure condite, manzo saltato e un uovo fritto, con il piccante gochujang a parte. Il riso a contatto con la pietra forma una crosticina dorata e croccante. Tutto si mescola a tavola in modo che la salsa avvolga ogni chicco, per un piatto croccante, saporito e piccante allo stesso tempo.",
-      "history": "Il bibimbap è un piatto coreano di riso misto di lunga tradizione, e la città di Jeonju è particolarmente famosa per questo. Servirlo in una pentola di pietra riscaldata, il dolsot, è una variante più recente, apprezzata per la crosticina croccante di riso che crea.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "300 g di riso a chicco tondo cotto",
-          "150 g di manzo, a fettine sottili",
-          "100 g di spinaci, sbollentati",
-          "100 g di germogli di soia, sbollentati",
-          "1 carota, a julienne",
-          "1 zucchina, a julienne",
-          "2 uova",
-          "2 cucchiai di gochujang",
-          "1 cucchiaio di olio di sesamo",
-          "1 spicchio d'aglio, sale"
-        ],
-        "steps": [
-          "Salta il manzo con l'aglio e un pizzico di sale finché è rosolato.",
-          "Condisci ogni verdura con poco sale e qualche goccia di olio di sesamo; salta brevemente carota e zucchina.",
-          "Spennella due ciotole di pietra con l'olio di sesamo rimasto, aggiungi il riso e scalda sul fornello finché sfrigola, circa 5 minuti.",
-          "Disponi sopra verdure e manzo e completa con un uovo fritto.",
-          "Servi sfrigolante con il gochujang e mescola bene prima di mangiare."
-        ]
-      },
-      "tips": [
-        "Limita l'olio nella ciotola di pietra a una sottile spennellata; 1 cucchiaio di olio ≈ 120 kcal.",
-        "Chiedi meno riso e più verdure, oppure usa un taglio magro di manzo.",
-        "Aggiungi il gochujang a piacere invece che tutto insieme, perché apporta zucchero e sale."
-      ]
-    },
-    "el": {
-      "name": "Ντολσότ μπιμπιμπάπ",
-      "origin": "Κορέα · Τζονγκτζού",
-      "intro": "Το ντολσότ μπιμπιμπάπ είναι ρύζι σερβιρισμένο σε καυτό, τσιτσιρίζον πέτρινο μπολ, με καρυκευμένα λαχανικά, σοταρισμένο μοσχάρι και ένα τηγανητό αυγό από πάνω, και καυτερό γκοτσουτζάνγκ στο πλάι. Το ρύζι που ακουμπά στην πέτρα σχηματίζει χρυσαφένια, τραγανή κρούστα. Όλα ανακατεύονται στο τραπέζι ώστε η σάλτσα να καλύψει κάθε κόκκο, και το πιάτο γίνεται ταυτόχρονα τραγανό, νόστιμο και καυτερό.",
-      "history": "Το μπιμπιμπάπ είναι παλιό κορεατικό πιάτο ανακατεμένου ρυζιού, και η πόλη Τζονγκτζού είναι ιδιαίτερα γνωστή γι' αυτό. Το σερβίρισμα σε ζεστό πέτρινο σκεύος, το ντολσότ, είναι πιο πρόσφατη παραλλαγή, που εκτιμάται για την τραγανή κρούστα ρυζιού που δημιουργεί.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "300 γρ. μαγειρεμένο ρύζι στρογγυλόσπερμο",
-          "150 γρ. μοσχάρι, σε λεπτές φέτες",
-          "100 γρ. σπανάκι, ζεματισμένο",
-          "100 γρ. φύτρες φασολιών, ζεματισμένες",
-          "1 καρότο, σε λεπτά μπαστουνάκια",
-          "1 κολοκυθάκι, σε λεπτά μπαστουνάκια",
-          "2 αυγά",
-          "2 κ.σ. γκοτσουτζάνγκ",
-          "1 κ.σ. σησαμέλαιο",
-          "1 σκελίδα σκόρδο, αλάτι"
-        ],
-        "steps": [
-          "Σοτάρετε το μοσχάρι με το σκόρδο και μια πρέζα αλάτι μέχρι να ροδίσει.",
-          "Καρυκεύστε κάθε λαχανικό ελαφρά με αλάτι και λίγες σταγόνες σησαμέλαιο· σοτάρετε για λίγο το καρότο και το κολοκυθάκι.",
-          "Αλείψτε δύο πέτρινα μπολ με το υπόλοιπο σησαμέλαιο, βάλτε το ρύζι και ζεστάνετε στο μάτι μέχρι να τσιτσιρίσει, περίπου 5 λεπτά.",
-          "Τοποθετήστε από πάνω τα λαχανικά και το μοσχάρι και στεφανώστε με ένα τηγανητό αυγό.",
-          "Σερβίρετε να τσιτσιρίζει με το γκοτσουτζάνγκ και ανακατέψτε καλά πριν φάτε."
-        ]
-      },
-      "tips": [
-        "Κρατήστε το λάδι στο πέτρινο μπολ σε ένα λεπτό άλειμμα· 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Ζητήστε λιγότερο ρύζι και περισσότερα λαχανικά ή χρησιμοποιήστε άπαχο κομμάτι μοσχαριού.",
-        "Προσθέστε το γκοτσουτζάνγκ σταδιακά, κατά βούληση, γιατί προσθέτει ζάχαρη και αλάτι."
-      ]
-    },
-    "ru": {
-      "name": "Долсот пибимпап",
-      "origin": "Корея · Чонджу",
-      "intro": "Долсот пибимпап — рис, поданный в шипящей раскалённой каменной миске с приправленными овощами, обжаренной говядиной и яйцом-глазуньей, с острым кочуджаном отдельно. Рис, соприкасающийся с камнем, превращается в золотистую хрустящую корочку. Всё перемешивают за столом, чтобы соус покрыл каждое зерно, и получается блюдо одновременно хрустящее, пикантное и острое.",
-      "history": "Пибимпап — давнее корейское блюдо из смешанного риса, и город Чонджу особенно известен им. Подача в нагретом каменном горшке, или долсоте, — более поздний вариант, ценимый за хрустящую рисовую корочку.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "300 г варёного круглозёрного риса",
-          "150 г тонко нарезанной говядины",
-          "100 г шпината, бланшированного",
-          "100 г ростков фасоли, бланшированных",
-          "1 морковь, нарезанная соломкой",
-          "1 цукини, нарезанный соломкой",
-          "2 яйца",
-          "2 ст. л. кочуджана",
-          "1 ст. л. кунжутного масла",
-          "1 зубчик чеснока, соль"
-        ],
-        "steps": [
-          "Обжарьте говядину с чесноком и щепоткой соли до румяности.",
-          "Слегка приправьте каждый овощ солью и несколькими каплями кунжутного масла; морковь и цукини коротко обжарьте.",
-          "Смажьте две каменные миски оставшимся кунжутным маслом, добавьте рис и нагревайте на плите, пока он не затрещит, около 5 минут.",
-          "Выложите сверху овощи и говядину и увенчайте яйцом-глазуньей.",
-          "Подавайте шипящим с кочуджаном и хорошо перемешайте перед едой."
-        ]
-      },
-      "tips": [
-        "Ограничьтесь тонкой смазкой масла в каменной миске; 1 ст. л. масла ≈ 120 ккал.",
-        "Просите меньше риса и больше овощей или берите постный кусок говядины.",
-        "Добавляйте кочуджан по вкусу, а не весь сразу, так как он добавляет сахар и соль."
-      ],
-      "name_inline": "долсот пибимпап"
-    }
+  "ar": {
+   "name": "بيبيمباب في قدر حجري",
+   "origin": "كوريا · جونجو",
+   "intro": "البيبيمباب في القدر الحجري أرز يقدم في وعاء حجري ساخن جداً تعلوه خضار متبّلة ولحم بقر مقلّب وبيضة مقلية، مع صلصة الغوتشوجانغ الحارة. الأرز الملامس للحجر يتحول إلى قشرة ذهبية مقرمشة. يُخلط كل شيء على المائدة لتغطي الصلصة كل حبة، فينتج طبق مقرمش وغني بالنكهة وحار في آن واحد.",
+   "history": "البيبيمباب طبق أرز مخلوط كوري قديم، وتشتهر به مدينة جونجو خصوصاً. وتقديمه في قدر حجري مسخّن، أو «دولسوت»، صيغة أحدث تُقدَّر بفضل القشرة المقرمشة التي يكوّنها.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "300 غ أرز قصير الحبة مطهو",
+     "150 غ لحم بقر مقطع شرائح رقيقة",
+     "100 غ سبانخ مسلوقة سريعاً",
+     "100 غ براعم فول مسلوقة سريعاً",
+     "1 جزرة أعواد رفيعة",
+     "1 كوسا أعواد رفيعة",
+     "2 بيضة",
+     "2 ملعقة كبيرة غوتشوجانغ",
+     "1 ملعقة كبيرة زيت سمسم",
+     "1 فص ثوم وملح"
+    ],
+    "steps": [
+     "قلّب اللحم مع الثوم ورشة ملح حتى يتحمّر.",
+     "تبّل كل نوع من الخضار بقليل من الملح وقطرات من زيت السمسم، وقلّب الجزر والكوسا سريعاً.",
+     "ادهن وعاءين حجريين بباقي زيت السمسم وضع الأرز وسخّنه على النار حتى يطقطق، نحو 5 دقائق.",
+     "رتّب الخضار واللحم فوقه وضع البيضة المقلية في الأعلى.",
+     "قدّمه وهو يطقطق مع الغوتشوجانغ واخلطه جيداً قبل الأكل."
+    ]
+   },
+   "tips": [
+    "اكتفِ بدهنة رقيقة من الزيت في الوعاء الحجري؛ ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "اطلب أرزاً أقل وخضاراً أكثر، أو استخدم قطعة لحم قليلة الدهن.",
+    "أضف الغوتشوجانغ حسب الذوق لا دفعة واحدة، فهو يضيف السكر والملح."
+   ]
+  },
+  "it": {
+   "name": "Dolsot bibimbap",
+   "origin": "Corea · Jeonju",
+   "intro": "Il dolsot bibimbap è riso servito in una ciotola di pietra rovente e sfrigolante, coperto di verdure condite, manzo saltato e un uovo fritto, con il piccante gochujang a parte. Il riso a contatto con la pietra forma una crosticina dorata e croccante. Tutto si mescola a tavola in modo che la salsa avvolga ogni chicco, per un piatto croccante, saporito e piccante allo stesso tempo.",
+   "history": "Il bibimbap è un piatto coreano di riso misto di lunga tradizione, e la città di Jeonju è particolarmente famosa per questo. Servirlo in una pentola di pietra riscaldata, il dolsot, è una variante più recente, apprezzata per la crosticina croccante di riso che crea.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "300 g di riso a chicco tondo cotto",
+     "150 g di manzo, a fettine sottili",
+     "100 g di spinaci, sbollentati",
+     "100 g di germogli di soia, sbollentati",
+     "1 carota, a julienne",
+     "1 zucchina, a julienne",
+     "2 uova",
+     "2 cucchiai di gochujang",
+     "1 cucchiaio di olio di sesamo",
+     "1 spicchio d'aglio, sale"
+    ],
+    "steps": [
+     "Salta il manzo con l'aglio e un pizzico di sale finché è rosolato.",
+     "Condisci ogni verdura con poco sale e qualche goccia di olio di sesamo; salta brevemente carota e zucchina.",
+     "Spennella due ciotole di pietra con l'olio di sesamo rimasto, aggiungi il riso e scalda sul fornello finché sfrigola, circa 5 minuti.",
+     "Disponi sopra verdure e manzo e completa con un uovo fritto.",
+     "Servi sfrigolante con il gochujang e mescola bene prima di mangiare."
+    ]
+   },
+   "tips": [
+    "Limita l'olio nella ciotola di pietra a una sottile spennellata; 1 cucchiaio di olio ≈ 120 kcal.",
+    "Chiedi meno riso e più verdure, oppure usa un taglio magro di manzo.",
+    "Aggiungi il gochujang a piacere invece che tutto insieme, perché apporta zucchero e sale."
+   ]
+  },
+  "el": {
+   "name": "Ντολσότ μπιμπιμπάπ",
+   "origin": "Κορέα · Τζονγκτζού",
+   "intro": "Το ντολσότ μπιμπιμπάπ είναι ρύζι σερβιρισμένο σε καυτό, τσιτσιρίζον πέτρινο μπολ, με καρυκευμένα λαχανικά, σοταρισμένο μοσχάρι και ένα τηγανητό αυγό από πάνω, και καυτερό γκοτσουτζάνγκ στο πλάι. Το ρύζι που ακουμπά στην πέτρα σχηματίζει χρυσαφένια, τραγανή κρούστα. Όλα ανακατεύονται στο τραπέζι ώστε η σάλτσα να καλύψει κάθε κόκκο, και το πιάτο γίνεται ταυτόχρονα τραγανό, νόστιμο και καυτερό.",
+   "history": "Το μπιμπιμπάπ είναι παλιό κορεατικό πιάτο ανακατεμένου ρυζιού, και η πόλη Τζονγκτζού είναι ιδιαίτερα γνωστή γι' αυτό. Το σερβίρισμα σε ζεστό πέτρινο σκεύος, το ντολσότ, είναι πιο πρόσφατη παραλλαγή, που εκτιμάται για την τραγανή κρούστα ρυζιού που δημιουργεί.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "300 γρ. μαγειρεμένο ρύζι στρογγυλόσπερμο",
+     "150 γρ. μοσχάρι, σε λεπτές φέτες",
+     "100 γρ. σπανάκι, ζεματισμένο",
+     "100 γρ. φύτρες φασολιών, ζεματισμένες",
+     "1 καρότο, σε λεπτά μπαστουνάκια",
+     "1 κολοκυθάκι, σε λεπτά μπαστουνάκια",
+     "2 αυγά",
+     "2 κ.σ. γκοτσουτζάνγκ",
+     "1 κ.σ. σησαμέλαιο",
+     "1 σκελίδα σκόρδο, αλάτι"
+    ],
+    "steps": [
+     "Σοτάρετε το μοσχάρι με το σκόρδο και μια πρέζα αλάτι μέχρι να ροδίσει.",
+     "Καρυκεύστε κάθε λαχανικό ελαφρά με αλάτι και λίγες σταγόνες σησαμέλαιο· σοτάρετε για λίγο το καρότο και το κολοκυθάκι.",
+     "Αλείψτε δύο πέτρινα μπολ με το υπόλοιπο σησαμέλαιο, βάλτε το ρύζι και ζεστάνετε στο μάτι μέχρι να τσιτσιρίσει, περίπου 5 λεπτά.",
+     "Τοποθετήστε από πάνω τα λαχανικά και το μοσχάρι και στεφανώστε με ένα τηγανητό αυγό.",
+     "Σερβίρετε να τσιτσιρίζει με το γκοτσουτζάνγκ και ανακατέψτε καλά πριν φάτε."
+    ]
+   },
+   "tips": [
+    "Κρατήστε το λάδι στο πέτρινο μπολ σε ένα λεπτό άλειμμα· 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Ζητήστε λιγότερο ρύζι και περισσότερα λαχανικά ή χρησιμοποιήστε άπαχο κομμάτι μοσχαριού.",
+    "Προσθέστε το γκοτσουτζάνγκ σταδιακά, κατά βούληση, γιατί προσθέτει ζάχαρη και αλάτι."
+   ]
+  },
+  "ru": {
+   "name": "Долсот пибимпап",
+   "origin": "Корея · Чонджу",
+   "intro": "Долсот пибимпап — рис, поданный в шипящей раскалённой каменной миске с приправленными овощами, обжаренной говядиной и яйцом-глазуньей, с острым кочуджаном отдельно. Рис, соприкасающийся с камнем, превращается в золотистую хрустящую корочку. Всё перемешивают за столом, чтобы соус покрыл каждое зерно, и получается блюдо одновременно хрустящее, пикантное и острое.",
+   "history": "Пибимпап — давнее корейское блюдо из смешанного риса, и город Чонджу особенно известен им. Подача в нагретом каменном горшке, или долсоте, — более поздний вариант, ценимый за хрустящую рисовую корочку.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "300 г варёного круглозёрного риса",
+     "150 г тонко нарезанной говядины",
+     "100 г шпината, бланшированного",
+     "100 г ростков фасоли, бланшированных",
+     "1 морковь, нарезанная соломкой",
+     "1 цукини, нарезанный соломкой",
+     "2 яйца",
+     "2 ст. л. кочуджана",
+     "1 ст. л. кунжутного масла",
+     "1 зубчик чеснока, соль"
+    ],
+    "steps": [
+     "Обжарьте говядину с чесноком и щепоткой соли до румяности.",
+     "Слегка приправьте каждый овощ солью и несколькими каплями кунжутного масла; морковь и цукини коротко обжарьте.",
+     "Смажьте две каменные миски оставшимся кунжутным маслом, добавьте рис и нагревайте на плите, пока он не затрещит, около 5 минут.",
+     "Выложите сверху овощи и говядину и увенчайте яйцом-глазуньей.",
+     "Подавайте шипящим с кочуджаном и хорошо перемешайте перед едой."
+    ]
+   },
+   "tips": [
+    "Ограничьтесь тонкой смазкой масла в каменной миске; 1 ст. л. масла ≈ 120 ккал.",
+    "Просите меньше риса и больше овощей или берите постный кусок говядины.",
+    "Добавляйте кочуджан по вкусу, а не весь сразу, так как он добавляет сахар и соль."
+   ],
+   "name_inline": "долсот пибимпап"
+  },
+  "es": {
+   "name": "Dolsot bibimbap",
+   "origin": "Corea · Jeonju",
+   "intro": "El dolsot bibimbap es arroz servido en un cuenco de piedra muy caliente, coronado con verduras sazonadas, carne de res salteada y un huevo frito, con gochujang picante aparte. El arroz que toca la piedra se convierte en una costra dorada y crujiente. Todo se mezcla en la mesa para que la salsa cubra cada grano, y el resultado es un plato crujiente, sabroso y picante a la vez.",
+   "history": "El bibimbap es un plato coreano de arroz mezclado de larga tradición, y la ciudad de Jeonju es especialmente conocida por él. Servirlo en una olla de piedra caliente, o dolsot, es una variante más reciente, apreciada por la costra de arroz crujiente que produce.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "300 g de arroz de grano corto cocido",
+     "150 g de carne de res, en láminas finas",
+     "100 g de espinacas, escaldadas",
+     "100 g de brotes de soya, escaldados",
+     "1 zanahoria, en juliana",
+     "1 calabacita, en juliana",
+     "2 huevos",
+     "2 cda. de gochujang",
+     "1 cda. de aceite de ajonjolí",
+     "1 diente de ajo y sal"
+    ],
+    "steps": [
+     "Saltea la carne con el ajo y una pizca de sal hasta que se dore.",
+     "Sazona cada verdura ligeramente con sal y unas gotas de aceite de ajonjolí; saltea brevemente la zanahoria y la calabacita.",
+     "Pinta dos cuencos de piedra con el aceite de ajonjolí restante, agrega el arroz y caliéntalos en la estufa hasta que el arroz cruja, unos 5 minutos.",
+     "Acomoda las verduras y la carne encima y corona con un huevo frito.",
+     "Sirve chisporroteando con el gochujang y mezcla bien antes de comer."
+    ]
+   },
+   "tips": [
+    "Limita el aceite del cuenco de piedra a una capa fina: 1 cda. de aceite son unas 120 kcal.",
+    "Pide menos arroz y más verduras, o usa un corte magro de res.",
+    "Agrega el gochujang al gusto en lugar de todo de una vez, porque aporta azúcar y sal."
+   ],
+   "name_inline": "el dolsot bibimbap"
   }
+ }
 }

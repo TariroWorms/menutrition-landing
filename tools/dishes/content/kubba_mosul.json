@@ -1,165 +1,196 @@
 {
-  "db_key": "kubba_mosul",
-  "slug": "kubba-mosul",
-  "emoji": "🥟",
-  "portion_g": 250,
-  "country": "IQ",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kubba_mosul",
+ "slug": "kubba-mosul",
+ "emoji": "🥟",
+ "portion_g": 250,
+ "country": "IQ",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kubba mosul",
+   "origin": "Iraq · Mosul",
+   "intro": "Kubba mosul is a large, flat disc of kibbeh from northern Iraq: two very thin layers of bulgur dough sealed around a spiced filling of minced beef, onion and parsley. Instead of being fried, it is usually boiled and then sometimes grilled or pan-browned, which gives a chewy, delicate shell. It is cut into wedges and served warm.",
+   "history": "The dish is named after Mosul, the northern Iraqi city famous for its kubba makers, where rolling the dough paper-thin is considered a real skill. It remains a festive dish in Mosul and across Iraq today.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "300 g fine bulgur",
+     "200 g very lean minced beef (for the dough)",
+     "250 g minced beef (for the filling)",
+     "1 onion, finely chopped",
+     "A handful of parsley, chopped",
+     "1 tsp mixed spices (allspice, cumin, black pepper), salt"
+    ],
+    "steps": [
+     "Soak the bulgur for 20 minutes, squeeze it dry and knead it with the lean beef and salt into a smooth, pliable dough.",
+     "Brown the minced beef with the onion in its own fat, season with the spices and salt, add the parsley and cool.",
+     "Press a ball of dough into a very thin round between two sheets of baking paper. Spread the filling on it, cover with a second thin round and seal the edges.",
+     "Slide the disc into simmering salted water and cook for 10–12 minutes until it floats and firms up.",
+     "Drain, then optionally brown both sides briefly in a dry pan or under the grill. Cut into wedges and serve."
+    ]
+   },
+   "tips": [
+    "Boiling instead of frying keeps the fat low — skip extra oil when browning.",
+    "Use lean beef in the filling and pour off any fat after cooking it.",
+    "One wedge with a salad and pickles makes a satisfying, portion-controlled meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kubba mosul",
-      "origin": "Iraq · Mosul",
-      "intro": "Kubba mosul is a large, flat disc of kibbeh from northern Iraq: two very thin layers of bulgur dough sealed around a spiced filling of minced beef, onion and parsley. Instead of being fried, it is usually boiled and then sometimes grilled or pan-browned, which gives a chewy, delicate shell. It is cut into wedges and served warm.",
-      "history": "The dish is named after Mosul, the northern Iraqi city famous for its kubba makers, where rolling the dough paper-thin is considered a real skill. It remains a festive dish in Mosul and across Iraq today.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "300 g fine bulgur",
-          "200 g very lean minced beef (for the dough)",
-          "250 g minced beef (for the filling)",
-          "1 onion, finely chopped",
-          "A handful of parsley, chopped",
-          "1 tsp mixed spices (allspice, cumin, black pepper), salt"
-        ],
-        "steps": [
-          "Soak the bulgur for 20 minutes, squeeze it dry and knead it with the lean beef and salt into a smooth, pliable dough.",
-          "Brown the minced beef with the onion in its own fat, season with the spices and salt, add the parsley and cool.",
-          "Press a ball of dough into a very thin round between two sheets of baking paper. Spread the filling on it, cover with a second thin round and seal the edges.",
-          "Slide the disc into simmering salted water and cook for 10–12 minutes until it floats and firms up.",
-          "Drain, then optionally brown both sides briefly in a dry pan or under the grill. Cut into wedges and serve."
-        ]
-      },
-      "tips": [
-        "Boiling instead of frying keeps the fat low — skip extra oil when browning.",
-        "Use lean beef in the filling and pour off any fat after cooking it.",
-        "One wedge with a salad and pickles makes a satisfying, portion-controlled meal."
-      ]
-    },
-    "ar": {
-      "name": "كبة موصلية",
-      "origin": "العراق · الموصل",
-      "intro": "كبة الموصل قرص كبير مسطح من الكبة من شمال العراق: طبقتان رقيقتان جدًا من عجينة البرغل تُغلقان على حشو متبّل من لحم البقر المفروم والبصل والبقدونس. بدلًا من القلي تُسلق عادة، ثم تُشوى أحيانًا أو تُحمّر في المقلاة، فتصبح قشرتها مطاطية رقيقة. تُقطّع إلى مثلثات وتُقدَّم دافئة.",
-      "history": "تحمل الكبة اسم مدينة الموصل في شمال العراق، المشهورة بصانعي الكبة، حيث يُعدّ فرد العجينة رقيقة كالورق مهارة حقيقية. ولا تزال طبقًا للمناسبات في الموصل وفي أنحاء العراق اليوم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "300 غ برغل ناعم",
-          "200 غ لحم بقر مفروم قليل الدهن جدًا (للعجينة)",
-          "250 غ لحم بقر مفروم (للحشو)",
-          "1 بصلة مفرومة ناعمًا",
-          "حفنة بقدونس مفروم",
-          "1 ملعقة صغيرة بهارات مشكلة (بهار حلو، كمون، فلفل أسود)، ملح"
-        ],
-        "steps": [
-          "انقع البرغل 20 دقيقة، اعصره جيدًا واعجنه مع اللحم قليل الدهن والملح حتى تتكوّن عجينة ناعمة مرنة.",
-          "حمّر اللحم المفروم مع البصل في دهنه، تبّله بالبهارات والملح، أضف البقدونس واتركه ليبرد.",
-          "افرد كرة من العجينة بين ورقتي خبز حتى تصبح دائرة رقيقة جدًا، وزّع عليها الحشو، غطّها بدائرة رقيقة أخرى وأغلق الأطراف.",
-          "أنزل القرص في ماء مملّح يغلي بهدوء واتركه 10–12 دقيقة حتى يطفو ويتماسك.",
-          "صفّه، ويمكنك تحمير الوجهين قليلًا في مقلاة دون زيت أو تحت الشواية. قطّعه مثلثات وقدّمه."
-        ]
-      },
-      "tips": [
-        "السلق بدل القلي يُبقي الدهون منخفضة — لا تضف زيتًا عند التحمير.",
-        "استخدم لحمًا قليل الدهن في الحشو وتخلّص من الدهن بعد طهيه.",
-        "مثلث واحد مع سلطة ومخللات وجبة مشبعة بحصة محسوبة."
-      ]
-    },
-    "it": {
-      "name": "Kubba mosul",
-      "origin": "Iraq · Mosul",
-      "intro": "Il kubba mosul è un grande disco piatto di kibbeh dell'Iraq settentrionale: due sfoglie sottilissime di impasto di bulgur sigillate attorno a un ripieno speziato di manzo macinato, cipolla e prezzemolo. Invece di essere fritto, di solito viene bollito e talvolta poi grigliato o rosolato in padella, il che gli dà un guscio delicato e leggermente gommoso. Si taglia a spicchi e si serve tiepido.",
-      "history": "Il piatto prende il nome da Mosul, la città del nord dell'Iraq famosa per i suoi maestri di kubba, dove stendere l'impasto sottile come carta è considerata una vera arte. Ancora oggi è un piatto delle feste a Mosul e in tutto l'Iraq.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "300 g di bulgur fine",
-          "200 g di manzo macinato molto magro (per l'impasto)",
-          "250 g di manzo macinato (per il ripieno)",
-          "1 cipolla, tritata finemente",
-          "Una manciata di prezzemolo, tritato",
-          "1 cucchiaino di spezie miste (pimento, cumino, pepe nero), sale"
-        ],
-        "steps": [
-          "Metti a bagno il bulgur per 20 minuti, strizzalo bene e impastalo con la carne magra e il sale fino a ottenere un impasto liscio ed elastico.",
-          "Rosola la carne macinata con la cipolla nel suo stesso grasso, condisci con le spezie e il sale, aggiungi il prezzemolo e lascia raffreddare.",
-          "Schiaccia una palla di impasto tra due fogli di carta forno fino a ottenere un disco sottilissimo. Stendici sopra il ripieno, copri con un secondo disco sottile e sigilla i bordi.",
-          "Fai scivolare il disco in acqua salata che sobbolle e cuoci per 10–12 minuti, finché viene a galla e si rassoda.",
-          "Scolalo e, se vuoi, rosolalo brevemente su entrambi i lati in una padella senza grassi o sotto il grill. Taglialo a spicchi e servi."
-        ]
-      },
-      "tips": [
-        "La bollitura invece della frittura mantiene basso il grasso: non aggiungere olio quando lo rosoli.",
-        "Usa carne magra per il ripieno ed elimina il grasso dopo la cottura.",
-        "Uno spicchio con un'insalata e dei sottaceti è un pasto soddisfacente e con la porzione sotto controllo."
-      ]
-    },
-    "el": {
-      "name": "Κούμπα Μοσούλης",
-      "origin": "Ιράκ · Μοσούλη",
-      "intro": "Το κούμπα Μοσούλης είναι ένας μεγάλος, επίπεδος δίσκος κιμπέ από το βόρειο Ιράκ: δύο πολύ λεπτά φύλλα ζύμης από πλιγούρι κλεισμένα γύρω από αρωματική γέμιση με μοσχαρίσιο κιμά, κρεμμύδι και μαϊντανό. Αντί να τηγανιστεί, συνήθως βράζεται και μερικές φορές στη συνέχεια ψήνεται στη σχάρα ή ροδίζει στο τηγάνι, κάτι που του δίνει ένα λεπτό, ελαστικό περίβλημα. Κόβεται σε τρίγωνα κομμάτια και σερβίρεται ζεστό.",
-      "history": "Το πιάτο πήρε το όνομά του από τη Μοσούλη, την πόλη του βόρειου Ιράκ που φημίζεται για τους τεχνίτες του κούμπα, όπου το άνοιγμα της ζύμης λεπτής σαν χαρτί θεωρείται πραγματική τέχνη. Παραμένει γιορτινό πιάτο στη Μοσούλη και σε όλο το Ιράκ μέχρι σήμερα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "300 γρ. ψιλό πλιγούρι",
-          "200 γρ. πολύ άπαχος μοσχαρίσιος κιμάς (για τη ζύμη)",
-          "250 γρ. μοσχαρίσιος κιμάς (για τη γέμιση)",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "Μια χούφτα μαϊντανός, ψιλοκομμένος",
-          "1 κ.γ. ανάμεικτα μπαχαρικά (μπαχάρι, κύμινο, μαύρο πιπέρι), αλάτι"
-        ],
-        "steps": [
-          "Μουλιάστε το πλιγούρι για 20 λεπτά, στύψτε το καλά και ζυμώστε το με τον άπαχο κιμά και αλάτι σε λεία, εύπλαστη ζύμη.",
-          "Ροδίστε τον κιμά με το κρεμμύδι στο λίπος του, καρυκεύστε με τα μπαχαρικά και αλάτι, προσθέστε τον μαϊντανό και αφήστε να κρυώσει.",
-          "Πιέστε μια μπάλα ζύμης ανάμεσα σε δύο φύλλα λαδόχαρτου σε πολύ λεπτό δίσκο. Απλώστε από πάνω τη γέμιση, σκεπάστε με δεύτερο λεπτό δίσκο και κλείστε τις άκρες.",
-          "Βυθίστε τον δίσκο σε αλατισμένο νερό που σιγοβράζει και μαγειρέψτε για 10–12 λεπτά, μέχρι να ανέβει στην επιφάνεια και να σφίξει.",
-          "Στραγγίξτε και, αν θέλετε, ροδίστε για λίγο και τις δύο πλευρές σε αντικολλητικό τηγάνι χωρίς λάδι ή στο γκριλ. Κόψτε σε κομμάτια και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Το βράσιμο αντί για τηγάνισμα κρατά χαμηλά το λίπος — μην προσθέσετε λάδι όταν το ροδίζετε.",
-        "Χρησιμοποιήστε άπαχο κιμά στη γέμιση και αφαιρέστε το λίπος μετά το μαγείρεμα.",
-        "Ένα κομμάτι με σαλάτα και τουρσιά είναι χορταστικό γεύμα με ελεγχόμενη μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Куббе мосул",
-      "origin": "Ирак · Мосул",
-      "intro": "Куббе мосул — большой плоский диск киббе из северного Ирака: два очень тонких слоя булгурного теста, скреплённые вокруг пряной начинки из говяжьего фарша, лука и петрушки. Его обычно не жарят, а варят, а затем иногда обжаривают на гриле или сковороде, что даёт упругую нежную оболочку. Его нарезают клиньями и подают тёплым.",
-      "history": "Блюдо названо по Мосулу, северному иракскому городу, известному мастерами куббе, где умение раскатать тесто тонко как бумага считается настоящим искусством. Сегодня оно остаётся праздничным блюдом в Мосуле и по всему Ираку.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "300 г мелкого булгура",
-          "200 г очень постного говяжьего фарша (для теста)",
-          "250 г говяжьего фарша (для начинки)",
-          "1 луковица, мелко нарубленная",
-          "Горсть петрушки, нарубленной",
-          "1 ч. л. смеси специй (душистый перец, кумин, чёрный перец), соль"
-        ],
-        "steps": [
-          "Замочите булгур на 20 минут, отожмите и вымесите с постным говяжьим фаршем и солью в гладкое податливое тесто.",
-          "Обжарьте говяжий фарш с луком в собственном жире, приправьте специями и солью, добавьте петрушку и остудите.",
-          "Раскатайте шарик теста в очень тонкий круг между двумя листами бумаги для выпечки. Распределите на нём начинку, накройте вторым тонким кругом и защипните края.",
-          "Опустите диск в кипящую подсоленную воду и варите 10–12 минут, пока он не всплывёт и не затвердеет.",
-          "Слейте воду, затем по желанию коротко обжарьте обе стороны на сухой сковороде или под грилем. Нарежьте клиньями и подавайте."
-        ]
-      },
-      "tips": [
-        "Варка вместо жарки сохраняет низкую жирность — не добавляйте масло при обжаривании.",
-        "Используйте постную говядину в начинке и сливайте жир после готовки.",
-        "Один клин с салатом и солёными овощами — сытный порционный приём пищи."
-      ],
-      "name_inline": "куббе мосул"
-    }
+  "ar": {
+   "name": "كبة موصلية",
+   "origin": "العراق · الموصل",
+   "intro": "كبة الموصل قرص كبير مسطح من الكبة من شمال العراق: طبقتان رقيقتان جدًا من عجينة البرغل تُغلقان على حشو متبّل من لحم البقر المفروم والبصل والبقدونس. بدلًا من القلي تُسلق عادة، ثم تُشوى أحيانًا أو تُحمّر في المقلاة، فتصبح قشرتها مطاطية رقيقة. تُقطّع إلى مثلثات وتُقدَّم دافئة.",
+   "history": "تحمل الكبة اسم مدينة الموصل في شمال العراق، المشهورة بصانعي الكبة، حيث يُعدّ فرد العجينة رقيقة كالورق مهارة حقيقية. ولا تزال طبقًا للمناسبات في الموصل وفي أنحاء العراق اليوم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "300 غ برغل ناعم",
+     "200 غ لحم بقر مفروم قليل الدهن جدًا (للعجينة)",
+     "250 غ لحم بقر مفروم (للحشو)",
+     "1 بصلة مفرومة ناعمًا",
+     "حفنة بقدونس مفروم",
+     "1 ملعقة صغيرة بهارات مشكلة (بهار حلو، كمون، فلفل أسود)، ملح"
+    ],
+    "steps": [
+     "انقع البرغل 20 دقيقة، اعصره جيدًا واعجنه مع اللحم قليل الدهن والملح حتى تتكوّن عجينة ناعمة مرنة.",
+     "حمّر اللحم المفروم مع البصل في دهنه، تبّله بالبهارات والملح، أضف البقدونس واتركه ليبرد.",
+     "افرد كرة من العجينة بين ورقتي خبز حتى تصبح دائرة رقيقة جدًا، وزّع عليها الحشو، غطّها بدائرة رقيقة أخرى وأغلق الأطراف.",
+     "أنزل القرص في ماء مملّح يغلي بهدوء واتركه 10–12 دقيقة حتى يطفو ويتماسك.",
+     "صفّه، ويمكنك تحمير الوجهين قليلًا في مقلاة دون زيت أو تحت الشواية. قطّعه مثلثات وقدّمه."
+    ]
+   },
+   "tips": [
+    "السلق بدل القلي يُبقي الدهون منخفضة — لا تضف زيتًا عند التحمير.",
+    "استخدم لحمًا قليل الدهن في الحشو وتخلّص من الدهن بعد طهيه.",
+    "مثلث واحد مع سلطة ومخللات وجبة مشبعة بحصة محسوبة."
+   ]
+  },
+  "it": {
+   "name": "Kubba mosul",
+   "origin": "Iraq · Mosul",
+   "intro": "Il kubba mosul è un grande disco piatto di kibbeh dell'Iraq settentrionale: due sfoglie sottilissime di impasto di bulgur sigillate attorno a un ripieno speziato di manzo macinato, cipolla e prezzemolo. Invece di essere fritto, di solito viene bollito e talvolta poi grigliato o rosolato in padella, il che gli dà un guscio delicato e leggermente gommoso. Si taglia a spicchi e si serve tiepido.",
+   "history": "Il piatto prende il nome da Mosul, la città del nord dell'Iraq famosa per i suoi maestri di kubba, dove stendere l'impasto sottile come carta è considerata una vera arte. Ancora oggi è un piatto delle feste a Mosul e in tutto l'Iraq.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "300 g di bulgur fine",
+     "200 g di manzo macinato molto magro (per l'impasto)",
+     "250 g di manzo macinato (per il ripieno)",
+     "1 cipolla, tritata finemente",
+     "Una manciata di prezzemolo, tritato",
+     "1 cucchiaino di spezie miste (pimento, cumino, pepe nero), sale"
+    ],
+    "steps": [
+     "Metti a bagno il bulgur per 20 minuti, strizzalo bene e impastalo con la carne magra e il sale fino a ottenere un impasto liscio ed elastico.",
+     "Rosola la carne macinata con la cipolla nel suo stesso grasso, condisci con le spezie e il sale, aggiungi il prezzemolo e lascia raffreddare.",
+     "Schiaccia una palla di impasto tra due fogli di carta forno fino a ottenere un disco sottilissimo. Stendici sopra il ripieno, copri con un secondo disco sottile e sigilla i bordi.",
+     "Fai scivolare il disco in acqua salata che sobbolle e cuoci per 10–12 minuti, finché viene a galla e si rassoda.",
+     "Scolalo e, se vuoi, rosolalo brevemente su entrambi i lati in una padella senza grassi o sotto il grill. Taglialo a spicchi e servi."
+    ]
+   },
+   "tips": [
+    "La bollitura invece della frittura mantiene basso il grasso: non aggiungere olio quando lo rosoli.",
+    "Usa carne magra per il ripieno ed elimina il grasso dopo la cottura.",
+    "Uno spicchio con un'insalata e dei sottaceti è un pasto soddisfacente e con la porzione sotto controllo."
+   ]
+  },
+  "el": {
+   "name": "Κούμπα Μοσούλης",
+   "origin": "Ιράκ · Μοσούλη",
+   "intro": "Το κούμπα Μοσούλης είναι ένας μεγάλος, επίπεδος δίσκος κιμπέ από το βόρειο Ιράκ: δύο πολύ λεπτά φύλλα ζύμης από πλιγούρι κλεισμένα γύρω από αρωματική γέμιση με μοσχαρίσιο κιμά, κρεμμύδι και μαϊντανό. Αντί να τηγανιστεί, συνήθως βράζεται και μερικές φορές στη συνέχεια ψήνεται στη σχάρα ή ροδίζει στο τηγάνι, κάτι που του δίνει ένα λεπτό, ελαστικό περίβλημα. Κόβεται σε τρίγωνα κομμάτια και σερβίρεται ζεστό.",
+   "history": "Το πιάτο πήρε το όνομά του από τη Μοσούλη, την πόλη του βόρειου Ιράκ που φημίζεται για τους τεχνίτες του κούμπα, όπου το άνοιγμα της ζύμης λεπτής σαν χαρτί θεωρείται πραγματική τέχνη. Παραμένει γιορτινό πιάτο στη Μοσούλη και σε όλο το Ιράκ μέχρι σήμερα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "300 γρ. ψιλό πλιγούρι",
+     "200 γρ. πολύ άπαχος μοσχαρίσιος κιμάς (για τη ζύμη)",
+     "250 γρ. μοσχαρίσιος κιμάς (για τη γέμιση)",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "Μια χούφτα μαϊντανός, ψιλοκομμένος",
+     "1 κ.γ. ανάμεικτα μπαχαρικά (μπαχάρι, κύμινο, μαύρο πιπέρι), αλάτι"
+    ],
+    "steps": [
+     "Μουλιάστε το πλιγούρι για 20 λεπτά, στύψτε το καλά και ζυμώστε το με τον άπαχο κιμά και αλάτι σε λεία, εύπλαστη ζύμη.",
+     "Ροδίστε τον κιμά με το κρεμμύδι στο λίπος του, καρυκεύστε με τα μπαχαρικά και αλάτι, προσθέστε τον μαϊντανό και αφήστε να κρυώσει.",
+     "Πιέστε μια μπάλα ζύμης ανάμεσα σε δύο φύλλα λαδόχαρτου σε πολύ λεπτό δίσκο. Απλώστε από πάνω τη γέμιση, σκεπάστε με δεύτερο λεπτό δίσκο και κλείστε τις άκρες.",
+     "Βυθίστε τον δίσκο σε αλατισμένο νερό που σιγοβράζει και μαγειρέψτε για 10–12 λεπτά, μέχρι να ανέβει στην επιφάνεια και να σφίξει.",
+     "Στραγγίξτε και, αν θέλετε, ροδίστε για λίγο και τις δύο πλευρές σε αντικολλητικό τηγάνι χωρίς λάδι ή στο γκριλ. Κόψτε σε κομμάτια και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Το βράσιμο αντί για τηγάνισμα κρατά χαμηλά το λίπος — μην προσθέσετε λάδι όταν το ροδίζετε.",
+    "Χρησιμοποιήστε άπαχο κιμά στη γέμιση και αφαιρέστε το λίπος μετά το μαγείρεμα.",
+    "Ένα κομμάτι με σαλάτα και τουρσιά είναι χορταστικό γεύμα με ελεγχόμενη μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Куббе мосул",
+   "origin": "Ирак · Мосул",
+   "intro": "Куббе мосул — большой плоский диск киббе из северного Ирака: два очень тонких слоя булгурного теста, скреплённые вокруг пряной начинки из говяжьего фарша, лука и петрушки. Его обычно не жарят, а варят, а затем иногда обжаривают на гриле или сковороде, что даёт упругую нежную оболочку. Его нарезают клиньями и подают тёплым.",
+   "history": "Блюдо названо по Мосулу, северному иракскому городу, известному мастерами куббе, где умение раскатать тесто тонко как бумага считается настоящим искусством. Сегодня оно остаётся праздничным блюдом в Мосуле и по всему Ираку.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "300 г мелкого булгура",
+     "200 г очень постного говяжьего фарша (для теста)",
+     "250 г говяжьего фарша (для начинки)",
+     "1 луковица, мелко нарубленная",
+     "Горсть петрушки, нарубленной",
+     "1 ч. л. смеси специй (душистый перец, кумин, чёрный перец), соль"
+    ],
+    "steps": [
+     "Замочите булгур на 20 минут, отожмите и вымесите с постным говяжьим фаршем и солью в гладкое податливое тесто.",
+     "Обжарьте говяжий фарш с луком в собственном жире, приправьте специями и солью, добавьте петрушку и остудите.",
+     "Раскатайте шарик теста в очень тонкий круг между двумя листами бумаги для выпечки. Распределите на нём начинку, накройте вторым тонким кругом и защипните края.",
+     "Опустите диск в кипящую подсоленную воду и варите 10–12 минут, пока он не всплывёт и не затвердеет.",
+     "Слейте воду, затем по желанию коротко обжарьте обе стороны на сухой сковороде или под грилем. Нарежьте клиньями и подавайте."
+    ]
+   },
+   "tips": [
+    "Варка вместо жарки сохраняет низкую жирность — не добавляйте масло при обжаривании.",
+    "Используйте постную говядину в начинке и сливайте жир после готовки.",
+    "Один клин с салатом и солёными овощами — сытный порционный приём пищи."
+   ],
+   "name_inline": "куббе мосул"
+  },
+  "es": {
+   "name": "Kubba de Mosul",
+   "origin": "Irak · Mosul",
+   "intro": "La kubba de Mosul es un disco grande y plano de kibbeh del norte de Irak: dos capas finísimas de masa de trigo bulgur selladas alrededor de un relleno especiado de carne de res molida, cebolla y perejil. En lugar de freírse, suele hervirse y a veces después se asa o se dora en sartén, lo que da una cubierta delicada y masticable. Se corta en porciones triangulares y se sirve tibia.",
+   "history": "El plato lleva el nombre de Mosul, la ciudad del norte de Irak famosa por sus elaboradores de kubba, donde extender la masa casi transparente se considera una verdadera habilidad. Sigue siendo un plato festivo en Mosul y en todo Irak.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "300 g de bulgur fino",
+     "200 g de carne de res molida muy magra (para la masa)",
+     "250 g de carne de res molida (para el relleno)",
+     "1 cebolla, picada fina",
+     "1 puñado de perejil, picado",
+     "1 cdta. de especias mixtas (pimienta de Jamaica, comino, pimienta negra), sal"
+    ],
+    "steps": [
+     "Remoja el bulgur 20 minutos, exprímelo bien y amásalo con la carne magra y sal hasta obtener una masa lisa y maleable.",
+     "Dora la carne molida con la cebolla en su propia grasa, sazona con las especias y la sal, agrega el perejil y deja enfriar.",
+     "Presiona una bola de masa hasta formar un círculo muy fino entre dos hojas de papel para hornear. Extiende el relleno encima, cubre con un segundo círculo fino y sella los bordes.",
+     "Desliza el disco en agua salada a fuego lento y cocina de 10 a 12 minutos, hasta que flote y se firme.",
+     "Escurre y, si quieres, dora ambos lados brevemente en una sartén seca o bajo el grill. Corta en porciones y sirve."
+    ]
+   },
+   "tips": [
+    "Hervir en lugar de freír mantiene baja la grasa: no uses aceite extra para dorar.",
+    "Usa carne magra en el relleno y retira la grasa sobrante después de cocinarla.",
+    "Una porción con ensalada y encurtidos es una comida saciante y de tamaño controlado."
+   ],
+   "name_inline": "la kubba de Mosul"
   }
+ }
 }

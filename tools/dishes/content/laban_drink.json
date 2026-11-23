@@ -1,147 +1,174 @@
 {
-  "db_key": "laban_drink",
-  "slug": "laban-drink",
-  "emoji": "🥛",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "laban_drink",
+ "slug": "laban-drink",
+ "emoji": "🥛",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Laban (salted yogurt drink)",
+   "origin": "Arabian Peninsula · Levant",
+   "intro": "Laban is a chilled drink of cultured yogurt thinned with water and lightly salted. It is smooth, tart and cooling, and in the Gulf it is the classic partner to rice dishes such as kabsa and biryani. It is drunk straight from a glass, very cold, and is sold in cartons in almost every grocery in the region.",
+   "history": "Fermented milk drinks have long been part of life across the Arabian Peninsula and the Levant. Today laban is a staple of Gulf dining tables and is widely sold ready-made.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 5,
+    "ingredients": [
+     "300 g plain yogurt",
+     "200 ml cold water",
+     "¼ tsp salt",
+     "Ice cubes"
+    ],
+    "steps": [
+     "Whisk the yogurt until smooth.",
+     "Gradually whisk in the water and salt.",
+     "Chill well or pour over ice and serve."
+    ]
+   },
+   "tips": [
+    "Choose low-fat yogurt to lighten each glass.",
+    "A 250 ml glass is a sensible portion alongside a rice meal.",
+    "Thin it with more water if you drink it often during the day."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Laban (salted yogurt drink)",
-      "origin": "Arabian Peninsula · Levant",
-      "intro": "Laban is a chilled drink of cultured yogurt thinned with water and lightly salted. It is smooth, tart and cooling, and in the Gulf it is the classic partner to rice dishes such as kabsa and biryani. It is drunk straight from a glass, very cold, and is sold in cartons in almost every grocery in the region.",
-      "history": "Fermented milk drinks have long been part of life across the Arabian Peninsula and the Levant. Today laban is a staple of Gulf dining tables and is widely sold ready-made.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 5,
-        "ingredients": [
-          "300 g plain yogurt",
-          "200 ml cold water",
-          "¼ tsp salt",
-          "Ice cubes"
-        ],
-        "steps": [
-          "Whisk the yogurt until smooth.",
-          "Gradually whisk in the water and salt.",
-          "Chill well or pour over ice and serve."
-        ]
-      },
-      "tips": [
-        "Choose low-fat yogurt to lighten each glass.",
-        "A 250 ml glass is a sensible portion alongside a rice meal.",
-        "Thin it with more water if you drink it often during the day."
-      ]
-    },
-    "ar": {
-      "name": "لبن",
-      "origin": "شبه الجزيرة العربية · بلاد الشام",
-      "intro": "اللبن مشروب بارد من الزبادي المخمّر المخفف بالماء مع قليل من الملح. قوامه ناعم وطعمه حامض منعش، وهو في الخليج الرفيق التقليدي لأطباق الأرز مثل الكبسة والبرياني. يُشرب بارداً جداً من الكوب، ويُباع في عبوات في كل بقالة تقريباً في المنطقة.",
-      "history": "مشروبات الحليب المخمّر جزء قديم من الحياة في شبه الجزيرة العربية وبلاد الشام. واللبن اليوم عنصر ثابت على موائد الخليج ويُباع جاهزاً على نطاق واسع.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 5,
-        "ingredients": [
-          "300 غ زبادي سادة",
-          "200 مل ماء بارد",
-          "¼ ملعقة صغيرة ملح",
-          "مكعبات ثلج"
-        ],
-        "steps": [
-          "اخفق الزبادي حتى يصبح ناعماً.",
-          "أضف الماء والملح تدريجياً مع الخفق.",
-          "برّده جيداً أو اسكبه فوق الثلج وقدّمه."
-        ]
-      },
-      "tips": [
-        "اختر زبادي قليل الدسم لتخفيف كل كوب.",
-        "كوب 250 مل حصة معقولة مع وجبة الأرز.",
-        "خففه بمزيد من الماء إن كنت تشربه كثيراً خلال اليوم."
-      ]
-    },
-    "it": {
-      "name": "Laban (bevanda salata allo yogurt)",
-      "origin": "Penisola arabica · Levante",
-      "intro": "Il laban è una bevanda fredda di yogurt fermentato diluito con acqua e leggermente salato. È vellutato, acidulo e rinfrescante, e nel Golfo è il compagno classico dei piatti di riso come la kabsa e il biryani. Si beve direttamente dal bicchiere, molto freddo, e si vende in brick in quasi tutti i negozi di alimentari della regione.",
-      "history": "Le bevande a base di latte fermentato fanno parte da tempo della vita in tutta la penisola arabica e nel Levante. Oggi il laban è una presenza fissa sulle tavole del Golfo ed è ampiamente venduto già pronto.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 5,
-        "ingredients": [
-          "300 g di yogurt bianco",
-          "200 ml di acqua fredda",
-          "¼ di cucchiaino di sale",
-          "Cubetti di ghiaccio"
-        ],
-        "steps": [
-          "Sbatti lo yogurt finché è liscio.",
-          "Incorpora gradualmente l'acqua e il sale, continuando a sbattere.",
-          "Fai raffreddare bene o versa sul ghiaccio e servi."
-        ]
-      },
-      "tips": [
-        "Scegli yogurt magro per alleggerire ogni bicchiere.",
-        "Un bicchiere da 250 ml è una porzione sensata accanto a un pasto a base di riso.",
-        "Allungalo con più acqua se lo bevi spesso durante la giornata."
-      ],
-      "name_inline": "laban"
-    },
-    "el": {
-      "name": "Λαμπάν (αλμυρό ρόφημα γιαουρτιού)",
-      "origin": "Αραβική Χερσόνησος · Λεβάντε",
-      "intro": "Το λαμπάν είναι κρύο ρόφημα από γιαούρτι αραιωμένο με νερό και ελαφρά αλατισμένο. Είναι βελούδινο, ξινούτσικο και δροσιστικό, και στον Κόλπο είναι η κλασική συνοδεία για πιάτα με ρύζι όπως η κάμπσα και το μπιργιάνι. Πίνεται κατευθείαν από το ποτήρι, πολύ κρύο, και πωλείται σε χάρτινες συσκευασίες σχεδόν σε κάθε μπακάλικο της περιοχής.",
-      "history": "Τα ροφήματα από ζυμωμένο γάλα αποτελούν από παλιά μέρος της ζωής σε όλη την Αραβική Χερσόνησο και το Λεβάντε. Σήμερα το λαμπάν είναι σταθερή παρουσία στα τραπέζια του Κόλπου και πωλείται ευρέως έτοιμο.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 5,
-        "ingredients": [
-          "300 γρ. γιαούρτι",
-          "200 ml κρύο νερό",
-          "¼ κ.γ. αλάτι",
-          "Παγάκια"
-        ],
-        "steps": [
-          "Χτυπήστε το γιαούρτι μέχρι να γίνει λείο.",
-          "Προσθέστε σταδιακά το νερό και το αλάτι, χτυπώντας συνεχώς.",
-          "Κρυώστε το καλά ή σερβίρετε σε ποτήρι με πάγο."
-        ]
-      },
-      "tips": [
-        "Προτιμήστε γιαούρτι με χαμηλά λιπαρά για να ελαφρύνει κάθε ποτήρι.",
-        "Ένα ποτήρι 250 ml είναι λογική μερίδα δίπλα σε ένα γεύμα με ρύζι.",
-        "Αραιώστε το με περισσότερο νερό αν το πίνετε συχνά μέσα στη μέρα."
-      ],
-      "name_inline": "λαμπάν"
-    },
-    "ru": {
-      "name": "Лабан (солёный йогуртовый напиток)",
-      "origin": "Аравийский полуостров · Левант",
-      "intro": "Лабан — охлаждённый напиток из заквашенного йогурта, разбавленного водой и слегка подсоленного. Он гладкий, кисловатый и освежающий, а в Заливе — классическая пара к блюдам из риса вроде кабсы и бирьяни. Его пьют из стакана очень холодным, и продают в упаковках почти в каждом магазине региона.",
-      "history": "Ферментированные молочные напитки издавна — часть жизни на Аравийском полуострове и в Леванте. Сегодня лабан — основа столов Залива, и его широко продают в готовом виде.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 5,
-        "ingredients": [
-          "300 г натурального йогурта",
-          "200 мл холодной воды",
-          "¼ ч. л. соли",
-          "Кубики льда"
-        ],
-        "steps": [
-          "Взбейте йогурт до гладкости.",
-          "Постепенно вмешайте воду и соль.",
-          "Хорошо охладите или налейте на лёд и подавайте."
-        ]
-      },
-      "tips": [
-        "Выбирайте нежирный йогурт, чтобы сделать каждый стакан легче.",
-        "Стакан в 250 мл — разумная порция к блюду из риса.",
-        "Разбавьте большим количеством воды, если пьёте его часто в течение дня."
-      ],
-      "name_inline": "лабан"
-    }
+  "ar": {
+   "name": "لبن",
+   "origin": "شبه الجزيرة العربية · بلاد الشام",
+   "intro": "اللبن مشروب بارد من الزبادي المخمّر المخفف بالماء مع قليل من الملح. قوامه ناعم وطعمه حامض منعش، وهو في الخليج الرفيق التقليدي لأطباق الأرز مثل الكبسة والبرياني. يُشرب بارداً جداً من الكوب، ويُباع في عبوات في كل بقالة تقريباً في المنطقة.",
+   "history": "مشروبات الحليب المخمّر جزء قديم من الحياة في شبه الجزيرة العربية وبلاد الشام. واللبن اليوم عنصر ثابت على موائد الخليج ويُباع جاهزاً على نطاق واسع.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 5,
+    "ingredients": [
+     "300 غ زبادي سادة",
+     "200 مل ماء بارد",
+     "¼ ملعقة صغيرة ملح",
+     "مكعبات ثلج"
+    ],
+    "steps": [
+     "اخفق الزبادي حتى يصبح ناعماً.",
+     "أضف الماء والملح تدريجياً مع الخفق.",
+     "برّده جيداً أو اسكبه فوق الثلج وقدّمه."
+    ]
+   },
+   "tips": [
+    "اختر زبادي قليل الدسم لتخفيف كل كوب.",
+    "كوب 250 مل حصة معقولة مع وجبة الأرز.",
+    "خففه بمزيد من الماء إن كنت تشربه كثيراً خلال اليوم."
+   ]
+  },
+  "it": {
+   "name": "Laban (bevanda salata allo yogurt)",
+   "origin": "Penisola arabica · Levante",
+   "intro": "Il laban è una bevanda fredda di yogurt fermentato diluito con acqua e leggermente salato. È vellutato, acidulo e rinfrescante, e nel Golfo è il compagno classico dei piatti di riso come la kabsa e il biryani. Si beve direttamente dal bicchiere, molto freddo, e si vende in brick in quasi tutti i negozi di alimentari della regione.",
+   "history": "Le bevande a base di latte fermentato fanno parte da tempo della vita in tutta la penisola arabica e nel Levante. Oggi il laban è una presenza fissa sulle tavole del Golfo ed è ampiamente venduto già pronto.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 5,
+    "ingredients": [
+     "300 g di yogurt bianco",
+     "200 ml di acqua fredda",
+     "¼ di cucchiaino di sale",
+     "Cubetti di ghiaccio"
+    ],
+    "steps": [
+     "Sbatti lo yogurt finché è liscio.",
+     "Incorpora gradualmente l'acqua e il sale, continuando a sbattere.",
+     "Fai raffreddare bene o versa sul ghiaccio e servi."
+    ]
+   },
+   "tips": [
+    "Scegli yogurt magro per alleggerire ogni bicchiere.",
+    "Un bicchiere da 250 ml è una porzione sensata accanto a un pasto a base di riso.",
+    "Allungalo con più acqua se lo bevi spesso durante la giornata."
+   ],
+   "name_inline": "laban"
+  },
+  "el": {
+   "name": "Λαμπάν (αλμυρό ρόφημα γιαουρτιού)",
+   "origin": "Αραβική Χερσόνησος · Λεβάντε",
+   "intro": "Το λαμπάν είναι κρύο ρόφημα από γιαούρτι αραιωμένο με νερό και ελαφρά αλατισμένο. Είναι βελούδινο, ξινούτσικο και δροσιστικό, και στον Κόλπο είναι η κλασική συνοδεία για πιάτα με ρύζι όπως η κάμπσα και το μπιργιάνι. Πίνεται κατευθείαν από το ποτήρι, πολύ κρύο, και πωλείται σε χάρτινες συσκευασίες σχεδόν σε κάθε μπακάλικο της περιοχής.",
+   "history": "Τα ροφήματα από ζυμωμένο γάλα αποτελούν από παλιά μέρος της ζωής σε όλη την Αραβική Χερσόνησο και το Λεβάντε. Σήμερα το λαμπάν είναι σταθερή παρουσία στα τραπέζια του Κόλπου και πωλείται ευρέως έτοιμο.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 5,
+    "ingredients": [
+     "300 γρ. γιαούρτι",
+     "200 ml κρύο νερό",
+     "¼ κ.γ. αλάτι",
+     "Παγάκια"
+    ],
+    "steps": [
+     "Χτυπήστε το γιαούρτι μέχρι να γίνει λείο.",
+     "Προσθέστε σταδιακά το νερό και το αλάτι, χτυπώντας συνεχώς.",
+     "Κρυώστε το καλά ή σερβίρετε σε ποτήρι με πάγο."
+    ]
+   },
+   "tips": [
+    "Προτιμήστε γιαούρτι με χαμηλά λιπαρά για να ελαφρύνει κάθε ποτήρι.",
+    "Ένα ποτήρι 250 ml είναι λογική μερίδα δίπλα σε ένα γεύμα με ρύζι.",
+    "Αραιώστε το με περισσότερο νερό αν το πίνετε συχνά μέσα στη μέρα."
+   ],
+   "name_inline": "λαμπάν"
+  },
+  "ru": {
+   "name": "Лабан (солёный йогуртовый напиток)",
+   "origin": "Аравийский полуостров · Левант",
+   "intro": "Лабан — охлаждённый напиток из заквашенного йогурта, разбавленного водой и слегка подсоленного. Он гладкий, кисловатый и освежающий, а в Заливе — классическая пара к блюдам из риса вроде кабсы и бирьяни. Его пьют из стакана очень холодным, и продают в упаковках почти в каждом магазине региона.",
+   "history": "Ферментированные молочные напитки издавна — часть жизни на Аравийском полуострове и в Леванте. Сегодня лабан — основа столов Залива, и его широко продают в готовом виде.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 5,
+    "ingredients": [
+     "300 г натурального йогурта",
+     "200 мл холодной воды",
+     "¼ ч. л. соли",
+     "Кубики льда"
+    ],
+    "steps": [
+     "Взбейте йогурт до гладкости.",
+     "Постепенно вмешайте воду и соль.",
+     "Хорошо охладите или налейте на лёд и подавайте."
+    ]
+   },
+   "tips": [
+    "Выбирайте нежирный йогурт, чтобы сделать каждый стакан легче.",
+    "Стакан в 250 мл — разумная порция к блюду из риса.",
+    "Разбавьте большим количеством воды, если пьёте его часто в течение дня."
+   ],
+   "name_inline": "лабан"
+  },
+  "es": {
+   "name": "Laban (bebida salada de yogur)",
+   "origin": "Península Arábiga · Levante",
+   "intro": "El laban es una bebida fría de yogur fermentado diluido con agua y ligeramente salado. Es suave, ácida y refrescante, y en el Golfo es el acompañante clásico de platos de arroz como el kabsa y el biryani. Se bebe directo del vaso, muy frío, y se vende en cartones en casi todas las tiendas de la región.",
+   "history": "Las bebidas de leche fermentada forman parte de la vida en la Península Arábiga y el Levante desde hace mucho tiempo. Hoy el laban es un básico de las mesas del Golfo y se vende ampliamente ya preparado.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 5,
+    "ingredients": [
+     "300 g de yogur natural",
+     "200 ml de agua fría",
+     "¼ de cdta. de sal",
+     "Cubos de hielo"
+    ],
+    "steps": [
+     "Bate el yogur hasta que quede liso.",
+     "Incorpora poco a poco el agua y la sal sin dejar de batir.",
+     "Enfría bien o sirve sobre hielo."
+    ]
+   },
+   "tips": [
+    "Elige yogur bajo en grasa para aligerar cada vaso.",
+    "Un vaso de 250 ml es una porción razonable para acompañar una comida con arroz.",
+    "Diluye con más agua si lo bebes con frecuencia durante el día."
+   ],
+   "name_inline": "el laban"
   }
+ }
 }

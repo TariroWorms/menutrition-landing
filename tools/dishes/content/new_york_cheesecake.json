@@ -1,175 +1,208 @@
 {
-  "db_key": "new_york_cheesecake",
-  "slug": "new-york-cheesecake",
-  "emoji": "🍰",
-  "portion_g": 125,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "new_york_cheesecake",
+ "slug": "new-york-cheesecake",
+ "emoji": "🍰",
+ "portion_g": 125,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "New York Cheesecake",
+   "origin": "USA · New York City",
+   "intro": "New York cheesecake is a tall, dense baked cheesecake made from cream cheese, sugar, eggs and vanilla on a crisp graham cracker crust, often finished with a layer of sour cream. Its texture is rich, smooth and firm rather than airy, with a gentle tang. It is served chilled in slim wedges, sometimes with fruit.",
+   "history": "Cheesecake has a long European history, but the New York style took shape in the city's delis and restaurants in the early 20th century, after cream cheese became widely available. It is now a classic American dessert served across the country.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "200 g graham crackers, crushed",
+     "80 g butter, melted",
+     "900 g cream cheese, room temperature",
+     "200 g sugar",
+     "4 eggs",
+     "2 tsp vanilla extract",
+     "200 g sour cream",
+     "1 tbsp lemon juice"
+    ],
+    "steps": [
+     "Mix the cracker crumbs with the butter, press into a 23 cm springform tin and bake 10 minutes at 175 °C.",
+     "Beat the cream cheese and sugar until smooth, then add the eggs one at a time with the vanilla and lemon juice.",
+     "Pour over the crust and bake at 160 °C for 60–70 minutes until set at the edges but slightly wobbly in the centre.",
+     "Spread with sour cream mixed with a little sugar and bake 10 minutes more.",
+     "Cool in the oven with the door ajar, then chill for at least 6 hours before slicing."
+    ]
+   },
+   "tips": [
+    "Cut 12–16 slim slices instead of 8 large ones.",
+    "Top with fresh berries rather than syrups or extra sauce.",
+    "Use light cream cheese and sour cream to reduce the fat."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "New York Cheesecake",
-      "origin": "USA · New York City",
-      "intro": "New York cheesecake is a tall, dense baked cheesecake made from cream cheese, sugar, eggs and vanilla on a crisp graham cracker crust, often finished with a layer of sour cream. Its texture is rich, smooth and firm rather than airy, with a gentle tang. It is served chilled in slim wedges, sometimes with fruit.",
-      "history": "Cheesecake has a long European history, but the New York style took shape in the city's delis and restaurants in the early 20th century, after cream cheese became widely available. It is now a classic American dessert served across the country.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "200 g graham crackers, crushed",
-          "80 g butter, melted",
-          "900 g cream cheese, room temperature",
-          "200 g sugar",
-          "4 eggs",
-          "2 tsp vanilla extract",
-          "200 g sour cream",
-          "1 tbsp lemon juice"
-        ],
-        "steps": [
-          "Mix the cracker crumbs with the butter, press into a 23 cm springform tin and bake 10 minutes at 175 °C.",
-          "Beat the cream cheese and sugar until smooth, then add the eggs one at a time with the vanilla and lemon juice.",
-          "Pour over the crust and bake at 160 °C for 60–70 minutes until set at the edges but slightly wobbly in the centre.",
-          "Spread with sour cream mixed with a little sugar and bake 10 minutes more.",
-          "Cool in the oven with the door ajar, then chill for at least 6 hours before slicing."
-        ]
-      },
-      "tips": [
-        "Cut 12–16 slim slices instead of 8 large ones.",
-        "Top with fresh berries rather than syrups or extra sauce.",
-        "Use light cream cheese and sour cream to reduce the fat."
-      ]
-    },
-    "ar": {
-      "name": "تشيز كيك نيويورك",
-      "origin": "الولايات المتحدة · مدينة نيويورك",
-      "intro": "تشيز كيك نيويورك كعكة جبن مخبوزة عالية كثيفة تُحضَّر من الجبن الكريمي والسكر والبيض والفانيلا فوق قاعدة مقرمشة من بسكويت غراهام، وغالبًا ما تُكمَّل بطبقة من الكريمة الحامضة. قوامها غني ناعم متماسك لا هوائي، مع حموضة خفيفة. وتُقدَّم باردة في شرائح رفيعة، أحيانًا مع الفاكهة.",
-      "history": "لكعكة الجبن تاريخ أوروبي طويل، لكن الطراز النيويوركي تشكّل في محلات الأطعمة الجاهزة والمطاعم في المدينة في أوائل القرن العشرين بعد انتشار الجبن الكريمي. وهي اليوم حلوى أمريكية كلاسيكية تُقدَّم في أنحاء البلاد.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "200 غ بسكويت غراهام مطحون",
-          "80 غ زبدة مذابة",
-          "900 غ جبن كريمي بحرارة الغرفة",
-          "200 غ سكر",
-          "4 بيضات",
-          "2 ملعقة صغيرة خلاصة فانيلا",
-          "200 غ كريمة حامضة",
-          "1 ملعقة كبيرة عصير ليمون"
-        ],
-        "steps": [
-          "اخلط فتات البسكويت مع الزبدة، واضغطه في قالب قابل للفتح قطره 23 سم، واخبزه 10 دقائق على 175 °م.",
-          "اخفق الجبن الكريمي مع السكر حتى ينعم، ثم أضف البيض واحدة تلو الأخرى مع الفانيلا وعصير الليمون.",
-          "اسكب الخليط فوق القاعدة واخبزه على 160 °م لمدة 60–70 دقيقة حتى تتماسك الأطراف ويبقى الوسط مهتزًا قليلًا.",
-          "افرد فوقه الكريمة الحامضة المخلوطة بقليل من السكر واخبزه 10 دقائق أخرى.",
-          "اتركه يبرد في الفرن والباب مفتوح قليلًا، ثم برّده 6 ساعات على الأقل قبل التقطيع."
-        ]
-      },
-      "tips": [
-        "قطّعه 12–16 شريحة رفيعة بدل 8 شرائح كبيرة.",
-        "زيّنه بالتوت الطازج بدل الشراب أو الصلصات الإضافية.",
-        "استخدم جبنًا كريميًا وكريمة حامضة خفيفين لتقليل الدهون."
-      ]
-    },
-    "it": {
-      "name": "New York cheesecake",
-      "origin": "Stati Uniti · New York",
-      "intro": "La New York cheesecake è una cheesecake cotta, alta e compatta, fatta con formaggio cremoso spalmabile, zucchero, uova e vaniglia su una base croccante di cracker graham, spesso completata con uno strato di panna acida. La consistenza è ricca, liscia e soda più che ariosa, con una delicata nota acidula. Si serve fredda in spicchi sottili, a volte con frutta.",
-      "history": "La cheesecake ha una lunga storia europea, ma lo stile newyorkese ha preso forma nelle gastronomie e nei ristoranti della città all'inizio del XX secolo, dopo che il formaggio cremoso spalmabile divenne ampiamente disponibile. Oggi è un classico dessert americano servito in tutto il paese.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "200 g di cracker graham, sbriciolati",
-          "80 g di burro, fuso",
-          "900 g di formaggio cremoso spalmabile, a temperatura ambiente",
-          "200 g di zucchero",
-          "4 uova",
-          "2 cucchiaini di estratto di vaniglia",
-          "200 g di panna acida",
-          "1 cucchiaio di succo di limone"
-        ],
-        "steps": [
-          "Mescola le briciole di cracker con il burro, pressale in una tortiera a cerniera da 23 cm e cuoci 10 minuti a 175 °C.",
-          "Lavora formaggio e zucchero finché lisci, poi aggiungi le uova una alla volta con la vaniglia e il succo di limone.",
-          "Versa sulla base e cuoci a 160 °C per 60–70 minuti finché è rappresa ai bordi ma ancora leggermente tremolante al centro.",
-          "Spalma sopra la panna acida mescolata con un po' di zucchero e cuoci altri 10 minuti.",
-          "Lascia raffreddare nel forno con lo sportello socchiuso, poi metti in frigo per almeno 6 ore prima di tagliare."
-        ]
-      },
-      "tips": [
-        "Taglia 12–16 fette sottili invece di 8 grandi.",
-        "Guarnisci con frutti di bosco freschi invece che con sciroppi o salse.",
-        "Usa formaggio spalmabile e panna acida light per ridurre i grassi."
-      ]
-    },
-    "el": {
-      "name": "Τσιζκέικ Νέας Υόρκης",
-      "name_inline": "τσιζκέικ Νέας Υόρκης",
-      "origin": "ΗΠΑ · Νέα Υόρκη",
-      "intro": "Το τσιζκέικ Νέας Υόρκης είναι ψημένο τσιζκέικ, ψηλό και πυκνό, από τυρί κρέμα, ζάχαρη, αυγά και βανίλια πάνω σε τραγανή βάση από μπισκότα graham, συχνά με ένα στρώμα ξινής κρέμας από πάνω. Η υφή του είναι πλούσια, λεία και σφιχτή αντί για αέρινη, με μια απαλή ξινή νότα. Σερβίρεται κρύο σε λεπτά κομμάτια, μερικές φορές με φρούτα.",
-      "history": "Το τσιζκέικ έχει μακρά ευρωπαϊκή ιστορία, αλλά το στιλ της Νέας Υόρκης διαμορφώθηκε στα ντελικατέσεν και τα εστιατόρια της πόλης στις αρχές του 20ού αιώνα, αφού το τυρί κρέμα έγινε ευρέως διαθέσιμο. Σήμερα είναι κλασικό αμερικανικό επιδόρπιο που σερβίρεται σε όλη τη χώρα.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "200 γρ. μπισκότα graham, θρυμματισμένα",
-          "80 γρ. βούτυρο, λιωμένο",
-          "900 γρ. τυρί κρέμα, σε θερμοκρασία δωματίου",
-          "200 γρ. ζάχαρη",
-          "4 αυγά",
-          "2 κ.γ. εκχύλισμα βανίλιας",
-          "200 γρ. ξινή κρέμα",
-          "1 κ.σ. χυμό λεμονιού"
-        ],
-        "steps": [
-          "Ανακατέψτε τα θρυμματισμένα μπισκότα με το βούτυρο, πιέστε τα σε φόρμα με αποσπώμενο τοίχωμα 23 εκ. και ψήστε 10 λεπτά στους 175 °C.",
-          "Χτυπήστε το τυρί κρέμα με τη ζάχαρη μέχρι να γίνει λείο και προσθέστε τα αυγά ένα ένα με τη βανίλια και τον χυμό λεμονιού.",
-          "Ρίξτε το μείγμα πάνω στη βάση και ψήστε στους 160 °C για 60–70 λεπτά μέχρι να σταθεροποιηθεί στις άκρες αλλά να τρέμει ελαφρά στο κέντρο.",
-          "Απλώστε από πάνω την ξινή κρέμα ανακατεμένη με λίγη ζάχαρη και ψήστε άλλα 10 λεπτά.",
-          "Αφήστε να κρυώσει μέσα στον φούρνο με την πόρτα μισάνοιχτη και βάλτε στο ψυγείο για τουλάχιστον 6 ώρες πριν το κόψετε."
-        ]
-      },
-      "tips": [
-        "Κόψτε 12–16 λεπτά κομμάτια αντί για 8 μεγάλα.",
-        "Γαρνίρετε με φρέσκα μούρα αντί για σιρόπια ή επιπλέον σάλτσα.",
-        "Χρησιμοποιήστε light τυρί κρέμα και ξινή κρέμα για λιγότερα λιπαρά."
-      ]
-    },
-    "ru": {
-      "name": "Нью-йоркский чизкейк",
-      "origin": "США · Нью-Йорк",
-      "intro": "Нью-йоркский чизкейк — высокий плотный запечённый чизкейк из сливочного сыра, сахара, яиц и ванили на хрустящей основе из крекеров грэм, часто покрытый слоем сметаны. Его текстура насыщенная, гладкая и плотная, а не воздушная, с лёгкой кислинкой. Подаётся охлаждённым тонкими кусочками, иногда с фруктами.",
-      "history": "У чизкейка долгая европейская история, но нью-йоркский стиль сложился в городских деликатесных лавках и ресторанах в начале XX века, после того как сливочный сыр стал широко доступен. Сегодня это классический американский десерт, который подают по всей стране.",
-      "recipe": {
-        "servings": 12,
-        "time_min": 90,
-        "ingredients": [
-          "200 г крекеров грэм, измельчённых",
-          "80 г сливочного масла, растопленного",
-          "900 г сливочного сыра комнатной температуры",
-          "200 г сахара",
-          "4 яйца",
-          "2 ч. л. ванильного экстракта",
-          "200 г сметаны",
-          "1 ст. л. лимонного сока"
-        ],
-        "steps": [
-          "Смешайте крошку крекеров с маслом, вдавите в разъёмную форму 23 см и выпекайте 10 минут при 175 °C.",
-          "Взбейте сливочный сыр с сахаром до гладкости, затем добавляйте яйца по одному, вмешайте ваниль и лимонный сок.",
-          "Вылейте на основу и выпекайте при 160 °C 60–70 минут, пока края не схватятся, а центр слегка дрожит.",
-          "Покройте сметаной, смешанной с небольшим количеством сахара, и выпекайте ещё 10 минут.",
-          "Остудите в духовке с приоткрытой дверцей, затем охладите не менее 6 часов перед нарезкой."
-        ]
-      },
-      "tips": [
-        "Нарезайте 12–16 тонких кусков вместо 8 больших.",
-        "Украшайте свежими ягодами, а не сиропами или дополнительным соусом.",
-        "Используйте лёгкий сливочный сыр и сметану, чтобы уменьшить жирность."
-      ]
-    }
+  "ar": {
+   "name": "تشيز كيك نيويورك",
+   "origin": "الولايات المتحدة · مدينة نيويورك",
+   "intro": "تشيز كيك نيويورك كعكة جبن مخبوزة عالية كثيفة تُحضَّر من الجبن الكريمي والسكر والبيض والفانيلا فوق قاعدة مقرمشة من بسكويت غراهام، وغالبًا ما تُكمَّل بطبقة من الكريمة الحامضة. قوامها غني ناعم متماسك لا هوائي، مع حموضة خفيفة. وتُقدَّم باردة في شرائح رفيعة، أحيانًا مع الفاكهة.",
+   "history": "لكعكة الجبن تاريخ أوروبي طويل، لكن الطراز النيويوركي تشكّل في محلات الأطعمة الجاهزة والمطاعم في المدينة في أوائل القرن العشرين بعد انتشار الجبن الكريمي. وهي اليوم حلوى أمريكية كلاسيكية تُقدَّم في أنحاء البلاد.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "200 غ بسكويت غراهام مطحون",
+     "80 غ زبدة مذابة",
+     "900 غ جبن كريمي بحرارة الغرفة",
+     "200 غ سكر",
+     "4 بيضات",
+     "2 ملعقة صغيرة خلاصة فانيلا",
+     "200 غ كريمة حامضة",
+     "1 ملعقة كبيرة عصير ليمون"
+    ],
+    "steps": [
+     "اخلط فتات البسكويت مع الزبدة، واضغطه في قالب قابل للفتح قطره 23 سم، واخبزه 10 دقائق على 175 °م.",
+     "اخفق الجبن الكريمي مع السكر حتى ينعم، ثم أضف البيض واحدة تلو الأخرى مع الفانيلا وعصير الليمون.",
+     "اسكب الخليط فوق القاعدة واخبزه على 160 °م لمدة 60–70 دقيقة حتى تتماسك الأطراف ويبقى الوسط مهتزًا قليلًا.",
+     "افرد فوقه الكريمة الحامضة المخلوطة بقليل من السكر واخبزه 10 دقائق أخرى.",
+     "اتركه يبرد في الفرن والباب مفتوح قليلًا، ثم برّده 6 ساعات على الأقل قبل التقطيع."
+    ]
+   },
+   "tips": [
+    "قطّعه 12–16 شريحة رفيعة بدل 8 شرائح كبيرة.",
+    "زيّنه بالتوت الطازج بدل الشراب أو الصلصات الإضافية.",
+    "استخدم جبنًا كريميًا وكريمة حامضة خفيفين لتقليل الدهون."
+   ]
+  },
+  "it": {
+   "name": "New York cheesecake",
+   "origin": "Stati Uniti · New York",
+   "intro": "La New York cheesecake è una cheesecake cotta, alta e compatta, fatta con formaggio cremoso spalmabile, zucchero, uova e vaniglia su una base croccante di cracker graham, spesso completata con uno strato di panna acida. La consistenza è ricca, liscia e soda più che ariosa, con una delicata nota acidula. Si serve fredda in spicchi sottili, a volte con frutta.",
+   "history": "La cheesecake ha una lunga storia europea, ma lo stile newyorkese ha preso forma nelle gastronomie e nei ristoranti della città all'inizio del XX secolo, dopo che il formaggio cremoso spalmabile divenne ampiamente disponibile. Oggi è un classico dessert americano servito in tutto il paese.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "200 g di cracker graham, sbriciolati",
+     "80 g di burro, fuso",
+     "900 g di formaggio cremoso spalmabile, a temperatura ambiente",
+     "200 g di zucchero",
+     "4 uova",
+     "2 cucchiaini di estratto di vaniglia",
+     "200 g di panna acida",
+     "1 cucchiaio di succo di limone"
+    ],
+    "steps": [
+     "Mescola le briciole di cracker con il burro, pressale in una tortiera a cerniera da 23 cm e cuoci 10 minuti a 175 °C.",
+     "Lavora formaggio e zucchero finché lisci, poi aggiungi le uova una alla volta con la vaniglia e il succo di limone.",
+     "Versa sulla base e cuoci a 160 °C per 60–70 minuti finché è rappresa ai bordi ma ancora leggermente tremolante al centro.",
+     "Spalma sopra la panna acida mescolata con un po' di zucchero e cuoci altri 10 minuti.",
+     "Lascia raffreddare nel forno con lo sportello socchiuso, poi metti in frigo per almeno 6 ore prima di tagliare."
+    ]
+   },
+   "tips": [
+    "Taglia 12–16 fette sottili invece di 8 grandi.",
+    "Guarnisci con frutti di bosco freschi invece che con sciroppi o salse.",
+    "Usa formaggio spalmabile e panna acida light per ridurre i grassi."
+   ]
+  },
+  "el": {
+   "name": "Τσιζκέικ Νέας Υόρκης",
+   "name_inline": "τσιζκέικ Νέας Υόρκης",
+   "origin": "ΗΠΑ · Νέα Υόρκη",
+   "intro": "Το τσιζκέικ Νέας Υόρκης είναι ψημένο τσιζκέικ, ψηλό και πυκνό, από τυρί κρέμα, ζάχαρη, αυγά και βανίλια πάνω σε τραγανή βάση από μπισκότα graham, συχνά με ένα στρώμα ξινής κρέμας από πάνω. Η υφή του είναι πλούσια, λεία και σφιχτή αντί για αέρινη, με μια απαλή ξινή νότα. Σερβίρεται κρύο σε λεπτά κομμάτια, μερικές φορές με φρούτα.",
+   "history": "Το τσιζκέικ έχει μακρά ευρωπαϊκή ιστορία, αλλά το στιλ της Νέας Υόρκης διαμορφώθηκε στα ντελικατέσεν και τα εστιατόρια της πόλης στις αρχές του 20ού αιώνα, αφού το τυρί κρέμα έγινε ευρέως διαθέσιμο. Σήμερα είναι κλασικό αμερικανικό επιδόρπιο που σερβίρεται σε όλη τη χώρα.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "200 γρ. μπισκότα graham, θρυμματισμένα",
+     "80 γρ. βούτυρο, λιωμένο",
+     "900 γρ. τυρί κρέμα, σε θερμοκρασία δωματίου",
+     "200 γρ. ζάχαρη",
+     "4 αυγά",
+     "2 κ.γ. εκχύλισμα βανίλιας",
+     "200 γρ. ξινή κρέμα",
+     "1 κ.σ. χυμό λεμονιού"
+    ],
+    "steps": [
+     "Ανακατέψτε τα θρυμματισμένα μπισκότα με το βούτυρο, πιέστε τα σε φόρμα με αποσπώμενο τοίχωμα 23 εκ. και ψήστε 10 λεπτά στους 175 °C.",
+     "Χτυπήστε το τυρί κρέμα με τη ζάχαρη μέχρι να γίνει λείο και προσθέστε τα αυγά ένα ένα με τη βανίλια και τον χυμό λεμονιού.",
+     "Ρίξτε το μείγμα πάνω στη βάση και ψήστε στους 160 °C για 60–70 λεπτά μέχρι να σταθεροποιηθεί στις άκρες αλλά να τρέμει ελαφρά στο κέντρο.",
+     "Απλώστε από πάνω την ξινή κρέμα ανακατεμένη με λίγη ζάχαρη και ψήστε άλλα 10 λεπτά.",
+     "Αφήστε να κρυώσει μέσα στον φούρνο με την πόρτα μισάνοιχτη και βάλτε στο ψυγείο για τουλάχιστον 6 ώρες πριν το κόψετε."
+    ]
+   },
+   "tips": [
+    "Κόψτε 12–16 λεπτά κομμάτια αντί για 8 μεγάλα.",
+    "Γαρνίρετε με φρέσκα μούρα αντί για σιρόπια ή επιπλέον σάλτσα.",
+    "Χρησιμοποιήστε light τυρί κρέμα και ξινή κρέμα για λιγότερα λιπαρά."
+   ]
+  },
+  "ru": {
+   "name": "Нью-йоркский чизкейк",
+   "origin": "США · Нью-Йорк",
+   "intro": "Нью-йоркский чизкейк — высокий плотный запечённый чизкейк из сливочного сыра, сахара, яиц и ванили на хрустящей основе из крекеров грэм, часто покрытый слоем сметаны. Его текстура насыщенная, гладкая и плотная, а не воздушная, с лёгкой кислинкой. Подаётся охлаждённым тонкими кусочками, иногда с фруктами.",
+   "history": "У чизкейка долгая европейская история, но нью-йоркский стиль сложился в городских деликатесных лавках и ресторанах в начале XX века, после того как сливочный сыр стал широко доступен. Сегодня это классический американский десерт, который подают по всей стране.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "200 г крекеров грэм, измельчённых",
+     "80 г сливочного масла, растопленного",
+     "900 г сливочного сыра комнатной температуры",
+     "200 г сахара",
+     "4 яйца",
+     "2 ч. л. ванильного экстракта",
+     "200 г сметаны",
+     "1 ст. л. лимонного сока"
+    ],
+    "steps": [
+     "Смешайте крошку крекеров с маслом, вдавите в разъёмную форму 23 см и выпекайте 10 минут при 175 °C.",
+     "Взбейте сливочный сыр с сахаром до гладкости, затем добавляйте яйца по одному, вмешайте ваниль и лимонный сок.",
+     "Вылейте на основу и выпекайте при 160 °C 60–70 минут, пока края не схватятся, а центр слегка дрожит.",
+     "Покройте сметаной, смешанной с небольшим количеством сахара, и выпекайте ещё 10 минут.",
+     "Остудите в духовке с приоткрытой дверцей, затем охладите не менее 6 часов перед нарезкой."
+    ]
+   },
+   "tips": [
+    "Нарезайте 12–16 тонких кусков вместо 8 больших.",
+    "Украшайте свежими ягодами, а не сиропами или дополнительным соусом.",
+    "Используйте лёгкий сливочный сыр и сметану, чтобы уменьшить жирность."
+   ]
+  },
+  "es": {
+   "name": "Cheesecake de Nueva York",
+   "origin": "Estados Unidos · Nueva York",
+   "intro": "El cheesecake de Nueva York es un pastel de queso horneado, alto y denso, hecho con queso crema, azúcar, huevos y vainilla sobre una base crujiente de galletas graham, a menudo rematado con una capa de crema agria. Su textura es rica, suave y firme, no esponjosa, con un ligero toque ácido. Se sirve frío en rebanadas delgadas, a veces con fruta.",
+   "history": "El pastel de queso tiene una larga historia en Europa, pero el estilo neoyorquino tomó forma en las delicatessen y restaurantes de la ciudad a principios del siglo XX, cuando el queso crema se hizo ampliamente accesible. Hoy es un postre estadounidense clásico que se sirve en todo el país.",
+   "recipe": {
+    "servings": 12,
+    "time_min": 90,
+    "ingredients": [
+     "200 g de galletas graham, trituradas",
+     "80 g de mantequilla, derretida",
+     "900 g de queso crema, a temperatura ambiente",
+     "200 g de azúcar",
+     "4 huevos",
+     "2 cdta. de extracto de vainilla",
+     "200 g de crema agria",
+     "1 cda. de jugo de limón"
+    ],
+    "steps": [
+     "Mezcla las migas de galleta con la mantequilla, presiónalas en un molde desmontable de 23 cm y hornea 10 minutos a 175 °C.",
+     "Bate el queso crema con el azúcar hasta que quede liso y agrega los huevos de uno en uno, junto con la vainilla y el jugo de limón.",
+     "Vierte sobre la base y hornea a 160 °C de 60 a 70 minutos, hasta que los bordes estén firmes pero el centro tiemble ligeramente.",
+     "Cubre con la crema agria mezclada con un poco de azúcar y hornea 10 minutos más.",
+     "Deja enfriar en el horno con la puerta entreabierta y refrigera al menos 6 horas antes de cortar."
+    ]
+   },
+   "tips": [
+    "Corta de 12 a 16 rebanadas delgadas en lugar de 8 grandes.",
+    "Cubre con frutos rojos frescos en lugar de jarabes o salsa extra.",
+    "Usa queso crema y crema agria light para reducir la grasa."
+   ],
+   "name_inline": "el cheesecake de Nueva York"
   }
+ }
 }

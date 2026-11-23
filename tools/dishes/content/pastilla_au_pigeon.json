@@ -1,187 +1,222 @@
 {
-  "db_key": "pastilla_au_pigeon",
-  "slug": "pastilla-au-pigeon",
-  "emoji": "🥧",
-  "portion_g": 200,
-  "country": "MA",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pastilla_au_pigeon",
+ "slug": "pastilla-au-pigeon",
+ "emoji": "🥧",
+ "portion_g": 200,
+ "country": "MA",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pigeon Pastilla (Bastilla)",
+   "origin": "Morocco · Fez",
+   "intro": "Pigeon pastilla is the traditional version of Morocco's celebrated pie: thin, crisp layers of pastry wrapped around pigeon cooked with onions and spices, a layer of soft scrambled egg and a sweet crunch of toasted almonds with sugar and cinnamon. The top is dusted with icing sugar and cinnamon, giving a striking sweet-savoury contrast.",
+   "history": "Pastilla (bastilla or bstilla) is a festive dish of Moroccan cuisine, traditionally served at weddings and celebrations, especially in Fez. Its blend of sweet and savoury is often linked to Andalusian influences brought to Morocco by people who left Iberia, though the exact origins are not documented.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "4 pigeons (or 1 kg poussin), jointed",
+     "2 onions, grated",
+     "1 tsp ground cinnamon, plus extra to dust",
+     "Pinch of saffron, 1 tsp ginger",
+     "5 eggs, beaten",
+     "200 g almonds, toasted and chopped",
+     "4 tbsp sugar, plus icing sugar to dust",
+     "12 sheets phyllo",
+     "4 tbsp oil for brushing"
+    ],
+    "steps": [
+     "Simmer the pigeons with onion, ginger, saffron, cinnamon and a little oil and water for about 1 hour, until tender.",
+     "Lift out the birds and shred the meat, discarding bones.",
+     "Reduce the cooking liquid, then stir in the eggs over low heat until softly set.",
+     "Mix the almonds with sugar and a little cinnamon.",
+     "Layer oiled phyllo in a round tin, add the egg mixture, the meat and the almonds, then fold over and top with more phyllo.",
+     "Brush with oil and bake at 190 °C for 25–30 minutes until golden; dust with icing sugar and cinnamon in a lattice."
+    ]
+   },
+   "tips": [
+    "A slice of about 150–200 g is plenty; serve with a green salad.",
+    "Brush the phyllo lightly: 1 tbsp oil ≈ 120 kcal, so a thin coat goes a long way.",
+    "Halve the almond-sugar layer and skip the icing sugar dusting for a less sweet pie."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pigeon Pastilla (Bastilla)",
-      "origin": "Morocco · Fez",
-      "intro": "Pigeon pastilla is the traditional version of Morocco's celebrated pie: thin, crisp layers of pastry wrapped around pigeon cooked with onions and spices, a layer of soft scrambled egg and a sweet crunch of toasted almonds with sugar and cinnamon. The top is dusted with icing sugar and cinnamon, giving a striking sweet-savoury contrast.",
-      "history": "Pastilla (bastilla or bstilla) is a festive dish of Moroccan cuisine, traditionally served at weddings and celebrations, especially in Fez. Its blend of sweet and savoury is often linked to Andalusian influences brought to Morocco by people who left Iberia, though the exact origins are not documented.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "4 pigeons (or 1 kg poussin), jointed",
-          "2 onions, grated",
-          "1 tsp ground cinnamon, plus extra to dust",
-          "Pinch of saffron, 1 tsp ginger",
-          "5 eggs, beaten",
-          "200 g almonds, toasted and chopped",
-          "4 tbsp sugar, plus icing sugar to dust",
-          "12 sheets phyllo",
-          "4 tbsp oil for brushing"
-        ],
-        "steps": [
-          "Simmer the pigeons with onion, ginger, saffron, cinnamon and a little oil and water for about 1 hour, until tender.",
-          "Lift out the birds and shred the meat, discarding bones.",
-          "Reduce the cooking liquid, then stir in the eggs over low heat until softly set.",
-          "Mix the almonds with sugar and a little cinnamon.",
-          "Layer oiled phyllo in a round tin, add the egg mixture, the meat and the almonds, then fold over and top with more phyllo.",
-          "Brush with oil and bake at 190 °C for 25–30 minutes until golden; dust with icing sugar and cinnamon in a lattice."
-        ]
-      },
-      "tips": [
-        "A slice of about 150–200 g is plenty; serve with a green salad.",
-        "Brush the phyllo lightly: 1 tbsp oil ≈ 120 kcal, so a thin coat goes a long way.",
-        "Halve the almond-sugar layer and skip the icing sugar dusting for a less sweet pie."
-      ]
-    },
-    "ar": {
-      "name": "بسطيلة الحمام",
-      "origin": "المغرب · فاس",
-      "intro": "بسطيلة الحمام هي النسخة التقليدية من الفطيرة المغربية الشهيرة: طبقات رقيقة مقرمشة من العجين تلف لحم الحمام المطهو مع البصل والتوابل، وطبقة من البيض الطري، وطبقة مقرمشة حلوة من اللوز المحمص مع السكر والقرفة. يُرش سطحها بالسكر الناعم والقرفة فيجتمع الحلو والمالح في لقمة واحدة.",
-      "history": "البسطيلة طبق احتفالي من المطبخ المغربي، يُقدَّم تقليدياً في الأعراس والمناسبات، خاصة في فاس. وكثيراً ما يُربط مزجها بين الحلو والمالح بتأثيرات أندلسية حملها إلى المغرب القادمون من شبه الجزيرة الإيبيرية، وإن كانت أصولها الدقيقة غير موثقة.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "4 حمامات (أو 1 كغ فراخ صغيرة) مقطعة",
-          "2 بصلة مبشورة",
-          "1 ملعقة صغيرة قرفة مطحونة وكمية إضافية للرش",
-          "رشة زعفران و1 ملعقة صغيرة زنجبيل",
-          "5 بيضات مخفوقة",
-          "200 غ لوز محمص ومفروم",
-          "4 ملاعق كبيرة سكر وسكر ناعم للرش",
-          "12 ورقة عجين فيلو",
-          "4 ملاعق كبيرة زيت للدهن"
-        ],
-        "steps": [
-          "اطهُ الحمام مع البصل والزنجبيل والزعفران والقرفة وقليل من الزيت والماء نحو ساعة حتى ينضج.",
-          "أخرج الطيور وفتّت اللحم وتخلص من العظم.",
-          "اختزل المرق ثم أضف البيض على نار هادئة وحرّك حتى يتماسك بلطف.",
-          "اخلط اللوز مع السكر وقليل من القرفة.",
-          "رصّ أوراق الفيلو المدهونة في صينية دائرية، وأضف خليط البيض ثم اللحم ثم اللوز، واطوِ الأطراف وغطِّ بمزيد من الفيلو.",
-          "ادهنها بالزيت واخبزها على 190 °م لمدة 25–30 دقيقة حتى تتحمر، ثم زيّنها بالسكر الناعم والقرفة على شكل شبكة."
-        ]
-      },
-      "tips": [
-        "قطعة بوزن 150–200 غ تكفي؛ قدّمها مع سلطة خضراء.",
-        "ادهن الفيلو بخفة: ملعقة كبيرة زيت ≈ 120 سعرة، فالطبقة الرقيقة كافية.",
-        "قلّل طبقة اللوز والسكر إلى النصف واستغنِ عن السكر الناعم لفطيرة أقل حلاوة."
-      ]
-    },
-    "it": {
-      "name": "Pastilla di piccione (bastilla)",
-      "origin": "Marocco · Fès",
-      "intro": "La pastilla di piccione è la versione tradizionale della celebre torta marocchina: sottili strati croccanti di pasta avvolgono piccione cotto con cipolle e spezie, uno strato di morbide uova strapazzate e un croccante dolce di mandorle tostate con zucchero e cannella. La superficie è spolverata di zucchero a velo e cannella, con un sorprendente contrasto dolce-salato.",
-      "history": "La pastilla (bastilla o bstilla) è un piatto festivo della cucina marocchina, tradizionalmente servito a matrimoni e celebrazioni, soprattutto a Fès. Il suo mix di dolce e salato è spesso collegato a influenze andaluse portate in Marocco da chi lasciò la penisola iberica, anche se le origini esatte non sono documentate.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "4 piccioni (o 1 kg di galletto), tagliati a pezzi",
-          "2 cipolle grattugiate",
-          "1 cucchiaino di cannella in polvere, più altra per spolverare",
-          "Un pizzico di zafferano, 1 cucchiaino di zenzero",
-          "5 uova sbattute",
-          "200 g di mandorle tostate e tritate",
-          "4 cucchiai di zucchero, più zucchero a velo per spolverare",
-          "12 fogli di pasta fillo",
-          "4 cucchiai di olio per spennellare"
-        ],
-        "steps": [
-          "Cuoci a fuoco dolce i piccioni con cipolla, zenzero, zafferano, cannella e un po' d'olio e d'acqua per circa 1 ora, finché sono teneri.",
-          "Togli i volatili e sfilaccia la carne, eliminando le ossa.",
-          "Fai restringere il liquido di cottura, poi incorpora le uova a fuoco basso finché si rapprendono morbide.",
-          "Mescola le mandorle con lo zucchero e un po' di cannella.",
-          "Disponi i fogli di fillo unti in una tortiera rotonda, aggiungi il composto di uova, la carne e le mandorle, poi ripiega e copri con altra fillo.",
-          "Spennella d'olio e cuoci a 190 °C per 25–30 minuti finché è dorata; spolvera a griglia con zucchero a velo e cannella."
-        ]
-      },
-      "tips": [
-        "Una fetta di circa 150–200 g è più che sufficiente; servila con un'insalata verde.",
-        "Spennella la fillo con leggerezza: 1 cucchiaio di olio ≈ 120 kcal, quindi un velo sottile basta per molto.",
-        "Dimezza lo strato di mandorle e zucchero ed evita la spolverata di zucchero a velo per una torta meno dolce."
-      ],
-      "name_inline": "pastilla di piccione"
-    },
-    "el": {
-      "name": "Παστίγια με περιστέρι (μπαστίγια)",
-      "origin": "Μαρόκο · Φες",
-      "intro": "Η παστίγια με περιστέρι είναι η παραδοσιακή εκδοχή της περίφημης μαροκινής πίτας: λεπτά, τραγανά φύλλα τυλίγουν περιστέρι μαγειρεμένο με κρεμμύδια και μπαχαρικά, μια στρώση μαλακών χτυπητών αυγών και μια γλυκιά, τραγανή στρώση καβουρδισμένων αμυγδάλων με ζάχαρη και κανέλα. Η επιφάνεια πασπαλίζεται με ζάχαρη άχνη και κανέλα, δίνοντας μια εντυπωσιακή αντίθεση γλυκού και αλμυρού.",
-      "history": "Η παστίγια (μπαστίγια ή μπστίγια) είναι γιορτινό πιάτο της μαροκινής κουζίνας, που παραδοσιακά σερβίρεται σε γάμους και γιορτές, ιδίως στη Φες. Ο συνδυασμός γλυκού και αλμυρού συνδέεται συχνά με ανδαλουσιανές επιρροές που έφεραν στο Μαρόκο όσοι έφυγαν από την Ιβηρική, αν και η ακριβής προέλευση δεν είναι τεκμηριωμένη.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "4 περιστέρια (ή 1 κιλό κοτοπουλάκι), κομμένα σε μερίδες",
-          "2 κρεμμύδια τριμμένα",
-          "1 κ.γ. κανέλα σε σκόνη, συν επιπλέον για πασπάλισμα",
-          "Μια πρέζα σαφράν, 1 κ.γ. τζίντζερ",
-          "5 αυγά χτυπημένα",
-          "200 γρ. αμύγδαλα καβουρδισμένα και χοντροκομμένα",
-          "4 κ.σ. ζάχαρη, συν ζάχαρη άχνη για πασπάλισμα",
-          "12 φύλλα κρούστας",
-          "4 κ.σ. λάδι για άλειμμα"
-        ],
-        "steps": [
-          "Σιγοβράστε τα περιστέρια με το κρεμμύδι, το τζίντζερ, το σαφράν, την κανέλα και λίγο λάδι και νερό για περίπου 1 ώρα, μέχρι να μαλακώσουν.",
-          "Βγάλτε τα πουλιά και ξεφτίστε το κρέας, πετώντας τα κόκαλα.",
-          "Δέστε τον ζωμό του μαγειρέματος και έπειτα ανακατέψτε μέσα τα αυγά σε χαμηλή φωτιά μέχρι να πήξουν απαλά.",
-          "Ανακατέψτε τα αμύγδαλα με τη ζάχαρη και λίγη κανέλα.",
-          "Στρώστε λαδωμένα φύλλα σε στρογγυλή φόρμα, προσθέστε το μείγμα αυγών, το κρέας και τα αμύγδαλα, έπειτα διπλώστε τα φύλλα προς τα μέσα και σκεπάστε με κι άλλα φύλλα.",
-          "Αλείψτε με λάδι και ψήστε στους 190 °C για 25–30 λεπτά μέχρι να ροδίσει· πασπαλίστε με ζάχαρη άχνη και κανέλα σε σχέδιο καφασωτό."
-        ]
-      },
-      "tips": [
-        "Ένα κομμάτι περίπου 150–200 γρ. είναι αρκετό· σερβίρετε με πράσινη σαλάτα.",
-        "Αλείψτε τα φύλλα ελαφρά: 1 κ.σ. λάδι ≈ 120 kcal, οπότε ένα λεπτό στρώμα αρκεί για πολύ.",
-        "Μειώστε στο μισό τη στρώση αμυγδάλου-ζάχαρης και παραλείψτε τη ζάχαρη άχνη για λιγότερο γλυκιά πίτα."
-      ],
-      "name_inline": "παστίγια με περιστέρι"
-    },
-    "ru": {
-      "name": "Пастилья с голубем (бастилья)",
-      "origin": "Марокко · Фес",
-      "intro": "Пастилья с голубем — традиционная версия знаменитого марокканского пирога: тонкие хрустящие слои теста вокруг голубя, приготовленного с луком и специями, слой мягкой яичной болтуньи и сладкий хруст обжаренного миндаля с сахаром и корицей. Верх посыпан сахарной пудрой и корицей, что даёт яркий контраст сладкого и солёного.",
-      "history": "Пастилья (бастилла или бстилла) — праздничное блюдо марокканской кухни, которое традиционно подают на свадьбах и торжествах, особенно в Фесе. Сочетание сладкого и солёного часто связывают с андалусским влиянием, принесённым в Марокко людьми, покинувшими Иберию, хотя точное происхождение не задокументировано.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "4 голубя (или 1 кг цыплят), разделанных на части",
-          "2 луковицы, натёртые",
-          "1 ч. л. молотой корицы, плюс ещё для посыпки",
-          "Щепотка шафрана, 1 ч. л. имбиря",
-          "5 яиц, взбитых",
-          "200 г миндаля, обжаренного и нарубленного",
-          "4 ст. л. сахара, плюс сахарная пудра для посыпки",
-          "12 листов теста фило",
-          "4 ст. л. масла для смазывания"
-        ],
-        "steps": [
-          "Томите голубей с луком, имбирём, шафраном, корицей и небольшим количеством масла и воды около 1 часа до мягкости.",
-          "Выньте птицу и разберите мясо на волокна, отбросив кости.",
-          "Выпарите жидкость от варки, затем на слабом огне вмешайте яйца до мягкой густоты.",
-          "Смешайте миндаль с сахаром и небольшим количеством корицы.",
-          "Выложите смазанное маслом тесто фило слоями в круглую форму, добавьте яичную смесь, мясо и миндаль, затем подверните края и накройте ещё несколькими листами фило.",
-          "Смажьте маслом, выпекайте при 190 °C 25–30 минут до золотистого цвета; посыпьте сахарной пудрой и корицей решёткой."
-        ]
-      },
-      "tips": [
-        "Кусок около 150–200 г вполне достаточен; подавайте с зелёным салатом.",
-        "Смазывайте фило слегка: 1 ст. л. масла ≈ 120 ккал, поэтому тонкий слой даёт многое.",
-        "Уменьшите вдвое слой миндаля с сахаром и откажитесь от посыпки сахарной пудрой, чтобы пирог был менее сладким."
-      ],
-      "name_inline": "пастилья с голубем"
-    }
+  "ar": {
+   "name": "بسطيلة الحمام",
+   "origin": "المغرب · فاس",
+   "intro": "بسطيلة الحمام هي النسخة التقليدية من الفطيرة المغربية الشهيرة: طبقات رقيقة مقرمشة من العجين تلف لحم الحمام المطهو مع البصل والتوابل، وطبقة من البيض الطري، وطبقة مقرمشة حلوة من اللوز المحمص مع السكر والقرفة. يُرش سطحها بالسكر الناعم والقرفة فيجتمع الحلو والمالح في لقمة واحدة.",
+   "history": "البسطيلة طبق احتفالي من المطبخ المغربي، يُقدَّم تقليدياً في الأعراس والمناسبات، خاصة في فاس. وكثيراً ما يُربط مزجها بين الحلو والمالح بتأثيرات أندلسية حملها إلى المغرب القادمون من شبه الجزيرة الإيبيرية، وإن كانت أصولها الدقيقة غير موثقة.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "4 حمامات (أو 1 كغ فراخ صغيرة) مقطعة",
+     "2 بصلة مبشورة",
+     "1 ملعقة صغيرة قرفة مطحونة وكمية إضافية للرش",
+     "رشة زعفران و1 ملعقة صغيرة زنجبيل",
+     "5 بيضات مخفوقة",
+     "200 غ لوز محمص ومفروم",
+     "4 ملاعق كبيرة سكر وسكر ناعم للرش",
+     "12 ورقة عجين فيلو",
+     "4 ملاعق كبيرة زيت للدهن"
+    ],
+    "steps": [
+     "اطهُ الحمام مع البصل والزنجبيل والزعفران والقرفة وقليل من الزيت والماء نحو ساعة حتى ينضج.",
+     "أخرج الطيور وفتّت اللحم وتخلص من العظم.",
+     "اختزل المرق ثم أضف البيض على نار هادئة وحرّك حتى يتماسك بلطف.",
+     "اخلط اللوز مع السكر وقليل من القرفة.",
+     "رصّ أوراق الفيلو المدهونة في صينية دائرية، وأضف خليط البيض ثم اللحم ثم اللوز، واطوِ الأطراف وغطِّ بمزيد من الفيلو.",
+     "ادهنها بالزيت واخبزها على 190 °م لمدة 25–30 دقيقة حتى تتحمر، ثم زيّنها بالسكر الناعم والقرفة على شكل شبكة."
+    ]
+   },
+   "tips": [
+    "قطعة بوزن 150–200 غ تكفي؛ قدّمها مع سلطة خضراء.",
+    "ادهن الفيلو بخفة: ملعقة كبيرة زيت ≈ 120 سعرة، فالطبقة الرقيقة كافية.",
+    "قلّل طبقة اللوز والسكر إلى النصف واستغنِ عن السكر الناعم لفطيرة أقل حلاوة."
+   ]
+  },
+  "it": {
+   "name": "Pastilla di piccione (bastilla)",
+   "origin": "Marocco · Fès",
+   "intro": "La pastilla di piccione è la versione tradizionale della celebre torta marocchina: sottili strati croccanti di pasta avvolgono piccione cotto con cipolle e spezie, uno strato di morbide uova strapazzate e un croccante dolce di mandorle tostate con zucchero e cannella. La superficie è spolverata di zucchero a velo e cannella, con un sorprendente contrasto dolce-salato.",
+   "history": "La pastilla (bastilla o bstilla) è un piatto festivo della cucina marocchina, tradizionalmente servito a matrimoni e celebrazioni, soprattutto a Fès. Il suo mix di dolce e salato è spesso collegato a influenze andaluse portate in Marocco da chi lasciò la penisola iberica, anche se le origini esatte non sono documentate.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "4 piccioni (o 1 kg di galletto), tagliati a pezzi",
+     "2 cipolle grattugiate",
+     "1 cucchiaino di cannella in polvere, più altra per spolverare",
+     "Un pizzico di zafferano, 1 cucchiaino di zenzero",
+     "5 uova sbattute",
+     "200 g di mandorle tostate e tritate",
+     "4 cucchiai di zucchero, più zucchero a velo per spolverare",
+     "12 fogli di pasta fillo",
+     "4 cucchiai di olio per spennellare"
+    ],
+    "steps": [
+     "Cuoci a fuoco dolce i piccioni con cipolla, zenzero, zafferano, cannella e un po' d'olio e d'acqua per circa 1 ora, finché sono teneri.",
+     "Togli i volatili e sfilaccia la carne, eliminando le ossa.",
+     "Fai restringere il liquido di cottura, poi incorpora le uova a fuoco basso finché si rapprendono morbide.",
+     "Mescola le mandorle con lo zucchero e un po' di cannella.",
+     "Disponi i fogli di fillo unti in una tortiera rotonda, aggiungi il composto di uova, la carne e le mandorle, poi ripiega e copri con altra fillo.",
+     "Spennella d'olio e cuoci a 190 °C per 25–30 minuti finché è dorata; spolvera a griglia con zucchero a velo e cannella."
+    ]
+   },
+   "tips": [
+    "Una fetta di circa 150–200 g è più che sufficiente; servila con un'insalata verde.",
+    "Spennella la fillo con leggerezza: 1 cucchiaio di olio ≈ 120 kcal, quindi un velo sottile basta per molto.",
+    "Dimezza lo strato di mandorle e zucchero ed evita la spolverata di zucchero a velo per una torta meno dolce."
+   ],
+   "name_inline": "pastilla di piccione"
+  },
+  "el": {
+   "name": "Παστίγια με περιστέρι (μπαστίγια)",
+   "origin": "Μαρόκο · Φες",
+   "intro": "Η παστίγια με περιστέρι είναι η παραδοσιακή εκδοχή της περίφημης μαροκινής πίτας: λεπτά, τραγανά φύλλα τυλίγουν περιστέρι μαγειρεμένο με κρεμμύδια και μπαχαρικά, μια στρώση μαλακών χτυπητών αυγών και μια γλυκιά, τραγανή στρώση καβουρδισμένων αμυγδάλων με ζάχαρη και κανέλα. Η επιφάνεια πασπαλίζεται με ζάχαρη άχνη και κανέλα, δίνοντας μια εντυπωσιακή αντίθεση γλυκού και αλμυρού.",
+   "history": "Η παστίγια (μπαστίγια ή μπστίγια) είναι γιορτινό πιάτο της μαροκινής κουζίνας, που παραδοσιακά σερβίρεται σε γάμους και γιορτές, ιδίως στη Φες. Ο συνδυασμός γλυκού και αλμυρού συνδέεται συχνά με ανδαλουσιανές επιρροές που έφεραν στο Μαρόκο όσοι έφυγαν από την Ιβηρική, αν και η ακριβής προέλευση δεν είναι τεκμηριωμένη.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "4 περιστέρια (ή 1 κιλό κοτοπουλάκι), κομμένα σε μερίδες",
+     "2 κρεμμύδια τριμμένα",
+     "1 κ.γ. κανέλα σε σκόνη, συν επιπλέον για πασπάλισμα",
+     "Μια πρέζα σαφράν, 1 κ.γ. τζίντζερ",
+     "5 αυγά χτυπημένα",
+     "200 γρ. αμύγδαλα καβουρδισμένα και χοντροκομμένα",
+     "4 κ.σ. ζάχαρη, συν ζάχαρη άχνη για πασπάλισμα",
+     "12 φύλλα κρούστας",
+     "4 κ.σ. λάδι για άλειμμα"
+    ],
+    "steps": [
+     "Σιγοβράστε τα περιστέρια με το κρεμμύδι, το τζίντζερ, το σαφράν, την κανέλα και λίγο λάδι και νερό για περίπου 1 ώρα, μέχρι να μαλακώσουν.",
+     "Βγάλτε τα πουλιά και ξεφτίστε το κρέας, πετώντας τα κόκαλα.",
+     "Δέστε τον ζωμό του μαγειρέματος και έπειτα ανακατέψτε μέσα τα αυγά σε χαμηλή φωτιά μέχρι να πήξουν απαλά.",
+     "Ανακατέψτε τα αμύγδαλα με τη ζάχαρη και λίγη κανέλα.",
+     "Στρώστε λαδωμένα φύλλα σε στρογγυλή φόρμα, προσθέστε το μείγμα αυγών, το κρέας και τα αμύγδαλα, έπειτα διπλώστε τα φύλλα προς τα μέσα και σκεπάστε με κι άλλα φύλλα.",
+     "Αλείψτε με λάδι και ψήστε στους 190 °C για 25–30 λεπτά μέχρι να ροδίσει· πασπαλίστε με ζάχαρη άχνη και κανέλα σε σχέδιο καφασωτό."
+    ]
+   },
+   "tips": [
+    "Ένα κομμάτι περίπου 150–200 γρ. είναι αρκετό· σερβίρετε με πράσινη σαλάτα.",
+    "Αλείψτε τα φύλλα ελαφρά: 1 κ.σ. λάδι ≈ 120 kcal, οπότε ένα λεπτό στρώμα αρκεί για πολύ.",
+    "Μειώστε στο μισό τη στρώση αμυγδάλου-ζάχαρης και παραλείψτε τη ζάχαρη άχνη για λιγότερο γλυκιά πίτα."
+   ],
+   "name_inline": "παστίγια με περιστέρι"
+  },
+  "ru": {
+   "name": "Пастилья с голубем (бастилья)",
+   "origin": "Марокко · Фес",
+   "intro": "Пастилья с голубем — традиционная версия знаменитого марокканского пирога: тонкие хрустящие слои теста вокруг голубя, приготовленного с луком и специями, слой мягкой яичной болтуньи и сладкий хруст обжаренного миндаля с сахаром и корицей. Верх посыпан сахарной пудрой и корицей, что даёт яркий контраст сладкого и солёного.",
+   "history": "Пастилья (бастилла или бстилла) — праздничное блюдо марокканской кухни, которое традиционно подают на свадьбах и торжествах, особенно в Фесе. Сочетание сладкого и солёного часто связывают с андалусским влиянием, принесённым в Марокко людьми, покинувшими Иберию, хотя точное происхождение не задокументировано.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "4 голубя (или 1 кг цыплят), разделанных на части",
+     "2 луковицы, натёртые",
+     "1 ч. л. молотой корицы, плюс ещё для посыпки",
+     "Щепотка шафрана, 1 ч. л. имбиря",
+     "5 яиц, взбитых",
+     "200 г миндаля, обжаренного и нарубленного",
+     "4 ст. л. сахара, плюс сахарная пудра для посыпки",
+     "12 листов теста фило",
+     "4 ст. л. масла для смазывания"
+    ],
+    "steps": [
+     "Томите голубей с луком, имбирём, шафраном, корицей и небольшим количеством масла и воды около 1 часа до мягкости.",
+     "Выньте птицу и разберите мясо на волокна, отбросив кости.",
+     "Выпарите жидкость от варки, затем на слабом огне вмешайте яйца до мягкой густоты.",
+     "Смешайте миндаль с сахаром и небольшим количеством корицы.",
+     "Выложите смазанное маслом тесто фило слоями в круглую форму, добавьте яичную смесь, мясо и миндаль, затем подверните края и накройте ещё несколькими листами фило.",
+     "Смажьте маслом, выпекайте при 190 °C 25–30 минут до золотистого цвета; посыпьте сахарной пудрой и корицей решёткой."
+    ]
+   },
+   "tips": [
+    "Кусок около 150–200 г вполне достаточен; подавайте с зелёным салатом.",
+    "Смазывайте фило слегка: 1 ст. л. масла ≈ 120 ккал, поэтому тонкий слой даёт многое.",
+    "Уменьшите вдвое слой миндаля с сахаром и откажитесь от посыпки сахарной пудрой, чтобы пирог был менее сладким."
+   ],
+   "name_inline": "пастилья с голубем"
+  },
+  "es": {
+   "name": "Pastela de pichón (bastela)",
+   "origin": "Marruecos · Fez",
+   "intro": "La pastela de pichón es la versión tradicional del célebre pastel marroquí: capas finas y crujientes de masa que envuelven pichón cocido con cebolla y especias, una capa de huevo revuelto suave y un crujiente dulce de almendras tostadas con azúcar y canela. La superficie se espolvorea con azúcar glas y canela, lo que crea un llamativo contraste entre dulce y salado.",
+   "history": "La pastela (bastela o bstilla) es un plato festivo de la cocina marroquí, que se sirve tradicionalmente en bodas y celebraciones, sobre todo en Fez. Su mezcla de dulce y salado suele vincularse con influencias andalusíes que llevaron a Marruecos quienes salieron de la península ibérica, aunque no se documenta su origen exacto.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "4 pichones (o 1 kg de pollitos), en piezas",
+     "2 cebollas, ralladas",
+     "1 cdta. de canela molida, más un poco para espolvorear",
+     "Una pizca de azafrán, 1 cdta. de jengibre",
+     "5 huevos, batidos",
+     "200 g de almendras, tostadas y picadas",
+     "4 cda. de azúcar, más azúcar glas para espolvorear",
+     "12 hojas de pasta filo",
+     "4 cda. de aceite para barnizar"
+    ],
+    "steps": [
+     "Cuece los pichones a fuego bajo con la cebolla, el jengibre, el azafrán, la canela y un poco de aceite y agua durante 1 hora, hasta que estén tiernos.",
+     "Saca las aves y deshebra la carne, desechando los huesos.",
+     "Reduce el líquido de cocción y luego incorpora los huevos a fuego bajo hasta que cuajen suavemente.",
+     "Mezcla las almendras con el azúcar y un poco de canela.",
+     "Acomoda en un molde redondo capas de pasta filo untada con aceite, agrega la mezcla de huevo, la carne y las almendras, y luego dobla y cubre con más pasta filo.",
+     "Barniza con aceite y hornea a 190 °C de 25–30 minutos, hasta que dore; espolvorea con azúcar glas y canela formando una celosía."
+    ]
+   },
+   "tips": [
+    "Una rebanada de unos 150–200 g es más que suficiente; sírvela con una ensalada verde.",
+    "Barniza la pasta filo ligeramente: 1 cda. de aceite ≈ 120 kcal, así que una capa fina rinde mucho.",
+    "Reduce a la mitad la capa de almendra con azúcar y omite el azúcar glas para un pastel menos dulce."
+   ],
+   "name_inline": "la pastela de pichón"
   }
+ }
 }

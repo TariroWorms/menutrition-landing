@@ -1,162 +1,192 @@
 {
-  "db_key": "jerk_chicken",
-  "slug": "jerk-chicken",
-  "emoji": "🍗",
-  "portion_g": 250,
-  "country": "JM",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "jerk_chicken",
+ "slug": "jerk-chicken",
+ "emoji": "🍗",
+ "portion_g": 250,
+ "country": "JM",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Jerk chicken",
+   "origin": "Jamaica · Caribbean",
+   "intro": "Jerk chicken is Jamaica's famous smoky, fiery grilled chicken. The meat is marinated in a paste of scotch bonnet chillies, allspice, thyme, scallions, garlic and ginger, then cooked slowly over a grill until charred outside and juicy inside. The heat is strong but fragrant, balanced by the warm, clove-like taste of allspice. It is sold from roadside drum grills and served with rice and peas or festival dumplings.",
+   "history": "Jerk cooking is usually traced to the Maroons, Africans who escaped slavery and lived in Jamaica's mountains, and to earlier Taíno methods of slow-smoking meat. Boston Bay in Portland parish is often named as the home of jerk, and today it is cooked across Jamaica and its diaspora.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1.2 kg chicken legs and thighs",
+     "1–2 scotch bonnet chillies, seeded",
+     "6 scallions, chopped",
+     "4 garlic cloves and a 3 cm piece of ginger",
+     "1 tbsp ground allspice and 1 tbsp fresh thyme leaves",
+     "Juice of 1 lime, 2 tbsp oil, 1 tsp salt"
+    ],
+    "steps": [
+     "Blend the chillies, scallions, garlic, ginger, allspice, thyme, lime juice, oil and salt into a paste. Wear gloves when handling scotch bonnets.",
+     "Cut slashes in the chicken, rub in the paste and marinate for at least 4 hours or overnight in the fridge.",
+     "Grill over medium indirect heat, turning occasionally, for 35–45 minutes until cooked through and charred at the edges. Or roast at 200 °C for 40 minutes.",
+     "Rest for 5 minutes and serve with lime wedges."
+    ]
+   },
+   "tips": [
+    "Remove the skin before marinating for a leaner piece.",
+    "Serve with a big salad or grilled vegetables and a small portion of rice.",
+    "The marinade needs only a little oil; most of the flavour comes from the spices and herbs."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Jerk chicken",
-      "origin": "Jamaica · Caribbean",
-      "intro": "Jerk chicken is Jamaica's famous smoky, fiery grilled chicken. The meat is marinated in a paste of scotch bonnet chillies, allspice, thyme, scallions, garlic and ginger, then cooked slowly over a grill until charred outside and juicy inside. The heat is strong but fragrant, balanced by the warm, clove-like taste of allspice. It is sold from roadside drum grills and served with rice and peas or festival dumplings.",
-      "history": "Jerk cooking is usually traced to the Maroons, Africans who escaped slavery and lived in Jamaica's mountains, and to earlier Taíno methods of slow-smoking meat. Boston Bay in Portland parish is often named as the home of jerk, and today it is cooked across Jamaica and its diaspora.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1.2 kg chicken legs and thighs",
-          "1–2 scotch bonnet chillies, seeded",
-          "6 scallions, chopped",
-          "4 garlic cloves and a 3 cm piece of ginger",
-          "1 tbsp ground allspice and 1 tbsp fresh thyme leaves",
-          "Juice of 1 lime, 2 tbsp oil, 1 tsp salt"
-        ],
-        "steps": [
-          "Blend the chillies, scallions, garlic, ginger, allspice, thyme, lime juice, oil and salt into a paste. Wear gloves when handling scotch bonnets.",
-          "Cut slashes in the chicken, rub in the paste and marinate for at least 4 hours or overnight in the fridge.",
-          "Grill over medium indirect heat, turning occasionally, for 35–45 minutes until cooked through and charred at the edges. Or roast at 200 °C for 40 minutes.",
-          "Rest for 5 minutes and serve with lime wedges."
-        ]
-      },
-      "tips": [
-        "Remove the skin before marinating for a leaner piece.",
-        "Serve with a big salad or grilled vegetables and a small portion of rice.",
-        "The marinade needs only a little oil; most of the flavour comes from the spices and herbs."
-      ]
-    },
-    "ar": {
-      "name": "دجاج جيرك",
-      "origin": "جامايكا · الكاريبي",
-      "intro": "دجاج الجيرك هو الدجاج المشوي الجامايكي الشهير بنكهته المدخّنة وحرارته اللاذعة. يُتبَّل اللحم بمعجون من فلفل سكوتش بونيت الحار والبهار الحلو (الفلفل الإفرنجي) والزعتر والبصل الأخضر والثوم والزنجبيل، ثم يُشوى ببطء حتى يتفحّم من الخارج ويبقى عصيرياً من الداخل. الحرارة قوية لكنها عطرية، يوازنها طعم البهار الحلو الدافئ الشبيه بالقرنفل. يُباع من مشاوي البراميل على جوانب الطرق ويُقدَّم مع طبق «رايس آند بيز» (أرز بالفاصولياء الحمراء) أو فطائر «فستيفال» المقلية.",
-      "history": "يُرجع طهي الجيرك عادةً إلى «المارون»، وهم أفارقة فرّوا من العبودية وعاشوا في جبال جامايكا، وإلى أساليب أقدم لشعب التاينو في تدخين اللحم ببطء. وكثيراً ما يُذكر خليج بوسطن في أبرشية بورتلاند موطناً للجيرك، وهو يُطهى اليوم في كل جامايكا ولدى جالياتها.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1.2 كغ أفخاذ وأوراك دجاج",
-          "1–2 حبة فلفل سكوتش بونيت منزوعة البذور",
-          "6 أعواد بصل أخضر مقطّعة",
-          "4 فصوص ثوم وقطعة زنجبيل 3 سم",
-          "1 ملعقة كبيرة بهار حلو مطحون و1 ملعقة كبيرة أوراق زعتر طازج",
-          "عصير ليمونة خضراء، 2 ملعقة كبيرة زيت، 1 ملعقة صغيرة ملح"
-        ],
-        "steps": [
-          "اخلط الفلفل والبصل الأخضر والثوم والزنجبيل والبهار الحلو والزعتر وعصير الليمون والزيت والملح في الخلاط حتى يصبح معجوناً. ارتدِ قفازين عند لمس الفلفل.",
-          "اصنع شقوقاً في الدجاج وادلكه بالمعجون واتركه في الثلاجة 4 ساعات على الأقل أو طوال الليل.",
-          "اشوِه على حرارة متوسطة غير مباشرة مع التقليب أحياناً 35–45 دقيقة حتى ينضج وتتفحّم أطرافه، أو اخبزه في الفرن على 200 °م مدة 40 دقيقة.",
-          "اتركه يرتاح 5 دقائق وقدّمه مع شرائح الليمون."
-        ]
-      },
-      "tips": [
-        "أزل الجلد قبل التتبيل لقطعة أخف دهناً.",
-        "قدّمه مع سلطة كبيرة أو خضار مشوية وحصة صغيرة من الأرز.",
-        "التتبيلة لا تحتاج إلا قليلاً من الزيت؛ معظم النكهة يأتي من البهارات والأعشاب."
-      ]
-    },
-    "it": {
-      "name": "Pollo jerk",
-      "name_inline": "pollo jerk",
-      "origin": "Giamaica · Caraibi",
-      "intro": "Il pollo jerk è il celebre pollo alla griglia affumicato e piccantissimo della Giamaica. La carne viene marinata in una pasta di peperoncini scotch bonnet, pimento, timo, cipollotti, aglio e zenzero, poi cotta lentamente sulla griglia finché è abbrustolita fuori e succosa dentro. Il piccante è forte ma profumato, bilanciato dal sapore caldo, simile ai chiodi di garofano, del pimento. Si vende dai barili-griglia lungo le strade e si serve con rice and peas o con i festival, frittelle dolciastre.",
-      "history": "La cucina jerk viene di solito ricondotta ai Maroon, africani fuggiti dalla schiavitù che vivevano sulle montagne della Giamaica, e ai metodi più antichi dei Taíno per affumicare lentamente la carne. Boston Bay, nella parrocchia di Portland, viene spesso indicata come la patria del jerk, che oggi si cucina in tutta la Giamaica e nella sua diaspora.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1,2 kg di cosce e sovracosce di pollo",
-          "1–2 peperoncini scotch bonnet, privati dei semi",
-          "6 cipollotti tritati",
-          "4 spicchi d'aglio e un pezzo di zenzero di 3 cm",
-          "1 cucchiaio di pimento in polvere e 1 cucchiaio di foglie di timo fresco",
-          "Succo di 1 lime, 2 cucchiai di olio, 1 cucchiaino di sale"
-        ],
-        "steps": [
-          "Frulla peperoncini, cipollotti, aglio, zenzero, pimento, timo, succo di lime, olio e sale fino a ottenere una pasta. Usa i guanti quando maneggi gli scotch bonnet.",
-          "Pratica dei tagli nel pollo, massaggialo con la pasta e lascialo marinare almeno 4 ore o tutta la notte in frigorifero.",
-          "Griglia a calore medio indiretto, girando di tanto in tanto, per 35–45 minuti finché è cotto all'interno e abbrustolito ai bordi. Oppure arrostisci a 200 °C per 40 minuti.",
-          "Lascia riposare 5 minuti e servi con spicchi di lime."
-        ]
-      },
-      "tips": [
-        "Togli la pelle prima della marinatura per un pezzo più magro.",
-        "Servi con un'abbondante insalata o verdure grigliate e una piccola porzione di riso.",
-        "La marinata richiede poco olio; la maggior parte del sapore viene da spezie ed erbe."
-      ]
-    },
-    "el": {
-      "name": "Κοτόπουλο τζερκ",
-      "name_inline": "κοτόπουλο τζερκ",
-      "origin": "Τζαμάικα · Καραϊβική",
-      "intro": "Το κοτόπουλο τζερκ είναι το διάσημο καπνιστό και πολύ καυτερό ψητό κοτόπουλο της Τζαμάικας. Το κρέας μαρινάρεται σε πάστα από καυτερές πιπεριές σκοτς μπόνετ, μπαχάρι, θυμάρι, φρέσκα κρεμμυδάκια, σκόρδο και τζίντζερ και έπειτα ψήνεται αργά στη σχάρα μέχρι να καψαλιστεί απ' έξω και να μείνει ζουμερό μέσα. Η καυτάδα είναι έντονη αλλά αρωματική, ισορροπημένη από τη ζεστή γεύση του μπαχαριού που θυμίζει γαρίφαλο. Πουλιέται από ψησταριές-βαρέλια στην άκρη του δρόμου και σερβίρεται με ρύζι με φασόλια ή με τηγανητά ζυμαράκια φέστιβαλ.",
-      "history": "Η μαγειρική τζερκ συνήθως ανάγεται στους Μαρούνους, Αφρικανούς που δραπέτευσαν από τη δουλεία και ζούσαν στα βουνά της Τζαμάικας, και σε παλαιότερες μεθόδους των Ταΐνο για αργό κάπνισμα του κρέατος. Ο κόλπος Μπόστον Μπέι στην ενορία Πόρτλαντ αναφέρεται συχνά ως η πατρίδα του τζερκ, που σήμερα μαγειρεύεται σε όλη την Τζαμάικα και τη διασπορά της.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1,2 κιλό κοτόπουλο μπούτια και κομμάτια από τα μπούτια",
-          "1–2 καυτερές πιπεριές σκοτς μπόνετ, χωρίς σπόρους",
-          "6 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
-          "4 σκελίδες σκόρδο και ένα κομμάτι τζίντζερ 3 εκ.",
-          "1 κ.σ. μπαχάρι σε σκόνη και 1 κ.σ. φύλλα φρέσκου θυμαριού",
-          "Χυμός από 1 λάιμ, 2 κ.σ. λάδι, 1 κ.γ. αλάτι"
-        ],
-        "steps": [
-          "Πολτοποιήστε τις πιπεριές, τα κρεμμυδάκια, το σκόρδο, το τζίντζερ, το μπαχάρι, το θυμάρι, τον χυμό λάιμ, το λάδι και το αλάτι σε πάστα. Φορέστε γάντια όταν πιάνετε τις σκοτς μπόνετ.",
-          "Χαράξτε το κοτόπουλο, τρίψτε το με την πάστα και μαρινάρετε τουλάχιστον 4 ώρες ή όλη τη νύχτα στο ψυγείο.",
-          "Ψήστε στη σχάρα σε μέτρια έμμεση φωτιά, γυρίζοντας κατά διαστήματα, για 35–45 λεπτά μέχρι να ψηθεί καλά και να καψαλιστεί στις άκρες. Ή ψήστε στον φούρνο στους 200 °C για 40 λεπτά.",
-          "Αφήστε να ξεκουραστεί 5 λεπτά και σερβίρετε με φέτες λάιμ."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα πριν το μαρινάρισμα για πιο άπαχο κομμάτι.",
-        "Σερβίρετε με μεγάλη σαλάτα ή ψητά λαχανικά και μικρή μερίδα ρυζιού.",
-        "Η μαρινάδα χρειάζεται λίγο μόνο λάδι· η περισσότερη γεύση προέρχεται από τα μπαχαρικά και τα μυρωδικά."
-      ]
-    },
-    "ru": {
-      "name": "Джерк-чикен",
-      "origin": "Ямайка · Карибы",
-      "intro": "Джерк-чикен — знаменитая ямайская курица на гриле с дымком и огнём. Мясо маринуют в пасте из перца скотч-боннет, душистого перца, тимьяна, зелёного лука, чеснока и имбиря, затем медленно готовят на гриле до обугленной корочки снаружи и сочности внутри. Острота сильная, но ароматная, уравновешенная тёплым гвоздичным вкусом душистого перца. Её продают с придорожных грилей из бочек и подают с рисом и бобами или лепёшками фестиваль.",
-      "history": "Приготовление джерк обычно возводят к маронам — африканцам, бежавшим из рабства и жившим в горах Ямайки, и к более ранним методам медленного копчения мяса у таино. Часто родиной джерка называют Бостон-Бей в приходе Портленд, а сегодня его готовят по всей Ямайке и в диаспоре.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1,2 кг куриных ножек и бёдер",
-          "1–2 перца скотч-боннет без семян",
-          "6 стеблей зелёного лука, нарезанных",
-          "4 зубчика чеснока и кусочек имбиря 3 см",
-          "1 ст. л. молотого душистого перца и 1 ст. л. свежих листьев тимьяна",
-          "Сок 1 лайма, 2 ст. л. масла, 1 ч. л. соли"
-        ],
-        "steps": [
-          "Взбейте блендером перец, зелёный лук, чеснок, имбирь, душистый перец, тимьян, сок лайма, масло и соль в пасту. Работая с перцем скотч-боннет, надевайте перчатки.",
-          "Сделайте на курице надрезы, натрите пастой и маринуйте минимум 4 часа или на ночь в холодильнике.",
-          "Жарьте на гриле на среднем непрямом жаре, время от времени переворачивая, 35–45 минут, пока курица не прожарится, а края не обуглятся. Или запекайте при 200 °C 40 минут.",
-          "Дайте постоять 5 минут и подавайте с дольками лайма."
-        ]
-      },
-      "tips": [
-        "Снимите кожу перед маринованием, чтобы кусок был постнее.",
-        "Подавайте с большим салатом или овощами на гриле и небольшой порцией риса.",
-        "Для маринада достаточно немного масла; основной вкус дают специи и травы."
-      ],
-      "name_inline": "джерк-чикен"
-    }
+  "ar": {
+   "name": "دجاج جيرك",
+   "origin": "جامايكا · الكاريبي",
+   "intro": "دجاج الجيرك هو الدجاج المشوي الجامايكي الشهير بنكهته المدخّنة وحرارته اللاذعة. يُتبَّل اللحم بمعجون من فلفل سكوتش بونيت الحار والبهار الحلو (الفلفل الإفرنجي) والزعتر والبصل الأخضر والثوم والزنجبيل، ثم يُشوى ببطء حتى يتفحّم من الخارج ويبقى عصيرياً من الداخل. الحرارة قوية لكنها عطرية، يوازنها طعم البهار الحلو الدافئ الشبيه بالقرنفل. يُباع من مشاوي البراميل على جوانب الطرق ويُقدَّم مع طبق «رايس آند بيز» (أرز بالفاصولياء الحمراء) أو فطائر «فستيفال» المقلية.",
+   "history": "يُرجع طهي الجيرك عادةً إلى «المارون»، وهم أفارقة فرّوا من العبودية وعاشوا في جبال جامايكا، وإلى أساليب أقدم لشعب التاينو في تدخين اللحم ببطء. وكثيراً ما يُذكر خليج بوسطن في أبرشية بورتلاند موطناً للجيرك، وهو يُطهى اليوم في كل جامايكا ولدى جالياتها.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1.2 كغ أفخاذ وأوراك دجاج",
+     "1–2 حبة فلفل سكوتش بونيت منزوعة البذور",
+     "6 أعواد بصل أخضر مقطّعة",
+     "4 فصوص ثوم وقطعة زنجبيل 3 سم",
+     "1 ملعقة كبيرة بهار حلو مطحون و1 ملعقة كبيرة أوراق زعتر طازج",
+     "عصير ليمونة خضراء، 2 ملعقة كبيرة زيت، 1 ملعقة صغيرة ملح"
+    ],
+    "steps": [
+     "اخلط الفلفل والبصل الأخضر والثوم والزنجبيل والبهار الحلو والزعتر وعصير الليمون والزيت والملح في الخلاط حتى يصبح معجوناً. ارتدِ قفازين عند لمس الفلفل.",
+     "اصنع شقوقاً في الدجاج وادلكه بالمعجون واتركه في الثلاجة 4 ساعات على الأقل أو طوال الليل.",
+     "اشوِه على حرارة متوسطة غير مباشرة مع التقليب أحياناً 35–45 دقيقة حتى ينضج وتتفحّم أطرافه، أو اخبزه في الفرن على 200 °م مدة 40 دقيقة.",
+     "اتركه يرتاح 5 دقائق وقدّمه مع شرائح الليمون."
+    ]
+   },
+   "tips": [
+    "أزل الجلد قبل التتبيل لقطعة أخف دهناً.",
+    "قدّمه مع سلطة كبيرة أو خضار مشوية وحصة صغيرة من الأرز.",
+    "التتبيلة لا تحتاج إلا قليلاً من الزيت؛ معظم النكهة يأتي من البهارات والأعشاب."
+   ]
+  },
+  "it": {
+   "name": "Pollo jerk",
+   "name_inline": "pollo jerk",
+   "origin": "Giamaica · Caraibi",
+   "intro": "Il pollo jerk è il celebre pollo alla griglia affumicato e piccantissimo della Giamaica. La carne viene marinata in una pasta di peperoncini scotch bonnet, pimento, timo, cipollotti, aglio e zenzero, poi cotta lentamente sulla griglia finché è abbrustolita fuori e succosa dentro. Il piccante è forte ma profumato, bilanciato dal sapore caldo, simile ai chiodi di garofano, del pimento. Si vende dai barili-griglia lungo le strade e si serve con rice and peas o con i festival, frittelle dolciastre.",
+   "history": "La cucina jerk viene di solito ricondotta ai Maroon, africani fuggiti dalla schiavitù che vivevano sulle montagne della Giamaica, e ai metodi più antichi dei Taíno per affumicare lentamente la carne. Boston Bay, nella parrocchia di Portland, viene spesso indicata come la patria del jerk, che oggi si cucina in tutta la Giamaica e nella sua diaspora.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1,2 kg di cosce e sovracosce di pollo",
+     "1–2 peperoncini scotch bonnet, privati dei semi",
+     "6 cipollotti tritati",
+     "4 spicchi d'aglio e un pezzo di zenzero di 3 cm",
+     "1 cucchiaio di pimento in polvere e 1 cucchiaio di foglie di timo fresco",
+     "Succo di 1 lime, 2 cucchiai di olio, 1 cucchiaino di sale"
+    ],
+    "steps": [
+     "Frulla peperoncini, cipollotti, aglio, zenzero, pimento, timo, succo di lime, olio e sale fino a ottenere una pasta. Usa i guanti quando maneggi gli scotch bonnet.",
+     "Pratica dei tagli nel pollo, massaggialo con la pasta e lascialo marinare almeno 4 ore o tutta la notte in frigorifero.",
+     "Griglia a calore medio indiretto, girando di tanto in tanto, per 35–45 minuti finché è cotto all'interno e abbrustolito ai bordi. Oppure arrostisci a 200 °C per 40 minuti.",
+     "Lascia riposare 5 minuti e servi con spicchi di lime."
+    ]
+   },
+   "tips": [
+    "Togli la pelle prima della marinatura per un pezzo più magro.",
+    "Servi con un'abbondante insalata o verdure grigliate e una piccola porzione di riso.",
+    "La marinata richiede poco olio; la maggior parte del sapore viene da spezie ed erbe."
+   ]
+  },
+  "el": {
+   "name": "Κοτόπουλο τζερκ",
+   "name_inline": "κοτόπουλο τζερκ",
+   "origin": "Τζαμάικα · Καραϊβική",
+   "intro": "Το κοτόπουλο τζερκ είναι το διάσημο καπνιστό και πολύ καυτερό ψητό κοτόπουλο της Τζαμάικας. Το κρέας μαρινάρεται σε πάστα από καυτερές πιπεριές σκοτς μπόνετ, μπαχάρι, θυμάρι, φρέσκα κρεμμυδάκια, σκόρδο και τζίντζερ και έπειτα ψήνεται αργά στη σχάρα μέχρι να καψαλιστεί απ' έξω και να μείνει ζουμερό μέσα. Η καυτάδα είναι έντονη αλλά αρωματική, ισορροπημένη από τη ζεστή γεύση του μπαχαριού που θυμίζει γαρίφαλο. Πουλιέται από ψησταριές-βαρέλια στην άκρη του δρόμου και σερβίρεται με ρύζι με φασόλια ή με τηγανητά ζυμαράκια φέστιβαλ.",
+   "history": "Η μαγειρική τζερκ συνήθως ανάγεται στους Μαρούνους, Αφρικανούς που δραπέτευσαν από τη δουλεία και ζούσαν στα βουνά της Τζαμάικας, και σε παλαιότερες μεθόδους των Ταΐνο για αργό κάπνισμα του κρέατος. Ο κόλπος Μπόστον Μπέι στην ενορία Πόρτλαντ αναφέρεται συχνά ως η πατρίδα του τζερκ, που σήμερα μαγειρεύεται σε όλη την Τζαμάικα και τη διασπορά της.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1,2 κιλό κοτόπουλο μπούτια και κομμάτια από τα μπούτια",
+     "1–2 καυτερές πιπεριές σκοτς μπόνετ, χωρίς σπόρους",
+     "6 φρέσκα κρεμμυδάκια, ψιλοκομμένα",
+     "4 σκελίδες σκόρδο και ένα κομμάτι τζίντζερ 3 εκ.",
+     "1 κ.σ. μπαχάρι σε σκόνη και 1 κ.σ. φύλλα φρέσκου θυμαριού",
+     "Χυμός από 1 λάιμ, 2 κ.σ. λάδι, 1 κ.γ. αλάτι"
+    ],
+    "steps": [
+     "Πολτοποιήστε τις πιπεριές, τα κρεμμυδάκια, το σκόρδο, το τζίντζερ, το μπαχάρι, το θυμάρι, τον χυμό λάιμ, το λάδι και το αλάτι σε πάστα. Φορέστε γάντια όταν πιάνετε τις σκοτς μπόνετ.",
+     "Χαράξτε το κοτόπουλο, τρίψτε το με την πάστα και μαρινάρετε τουλάχιστον 4 ώρες ή όλη τη νύχτα στο ψυγείο.",
+     "Ψήστε στη σχάρα σε μέτρια έμμεση φωτιά, γυρίζοντας κατά διαστήματα, για 35–45 λεπτά μέχρι να ψηθεί καλά και να καψαλιστεί στις άκρες. Ή ψήστε στον φούρνο στους 200 °C για 40 λεπτά.",
+     "Αφήστε να ξεκουραστεί 5 λεπτά και σερβίρετε με φέτες λάιμ."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα πριν το μαρινάρισμα για πιο άπαχο κομμάτι.",
+    "Σερβίρετε με μεγάλη σαλάτα ή ψητά λαχανικά και μικρή μερίδα ρυζιού.",
+    "Η μαρινάδα χρειάζεται λίγο μόνο λάδι· η περισσότερη γεύση προέρχεται από τα μπαχαρικά και τα μυρωδικά."
+   ]
+  },
+  "ru": {
+   "name": "Джерк-чикен",
+   "origin": "Ямайка · Карибы",
+   "intro": "Джерк-чикен — знаменитая ямайская курица на гриле с дымком и огнём. Мясо маринуют в пасте из перца скотч-боннет, душистого перца, тимьяна, зелёного лука, чеснока и имбиря, затем медленно готовят на гриле до обугленной корочки снаружи и сочности внутри. Острота сильная, но ароматная, уравновешенная тёплым гвоздичным вкусом душистого перца. Её продают с придорожных грилей из бочек и подают с рисом и бобами или лепёшками фестиваль.",
+   "history": "Приготовление джерк обычно возводят к маронам — африканцам, бежавшим из рабства и жившим в горах Ямайки, и к более ранним методам медленного копчения мяса у таино. Часто родиной джерка называют Бостон-Бей в приходе Портленд, а сегодня его готовят по всей Ямайке и в диаспоре.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1,2 кг куриных ножек и бёдер",
+     "1–2 перца скотч-боннет без семян",
+     "6 стеблей зелёного лука, нарезанных",
+     "4 зубчика чеснока и кусочек имбиря 3 см",
+     "1 ст. л. молотого душистого перца и 1 ст. л. свежих листьев тимьяна",
+     "Сок 1 лайма, 2 ст. л. масла, 1 ч. л. соли"
+    ],
+    "steps": [
+     "Взбейте блендером перец, зелёный лук, чеснок, имбирь, душистый перец, тимьян, сок лайма, масло и соль в пасту. Работая с перцем скотч-боннет, надевайте перчатки.",
+     "Сделайте на курице надрезы, натрите пастой и маринуйте минимум 4 часа или на ночь в холодильнике.",
+     "Жарьте на гриле на среднем непрямом жаре, время от времени переворачивая, 35–45 минут, пока курица не прожарится, а края не обуглятся. Или запекайте при 200 °C 40 минут.",
+     "Дайте постоять 5 минут и подавайте с дольками лайма."
+    ]
+   },
+   "tips": [
+    "Снимите кожу перед маринованием, чтобы кусок был постнее.",
+    "Подавайте с большим салатом или овощами на гриле и небольшой порцией риса.",
+    "Для маринада достаточно немного масла; основной вкус дают специи и травы."
+   ],
+   "name_inline": "джерк-чикен"
+  },
+  "es": {
+   "name": "Pollo jerk",
+   "origin": "Jamaica · Caribe",
+   "intro": "El pollo jerk es el famoso pollo a la parrilla de Jamaica, ahumado y picante. La carne se marina en una pasta de chile scotch bonnet, pimienta de Jamaica, tomillo, cebollín, ajo y jengibre, y se cocina lentamente a la parrilla hasta quedar carbonizada por fuera y jugosa por dentro. El picante es fuerte pero aromático, equilibrado por el sabor cálido, parecido al clavo, de la pimienta de Jamaica. Se vende en puestos de carretera con parrillas hechas de barriles y se sirve con arroz con gandules o buñuelos festival.",
+   "history": "La cocina jerk suele vincularse con los cimarrones, africanos que escaparon de la esclavitud y vivieron en las montañas de Jamaica, y con los métodos taínos anteriores de ahumar la carne lentamente. Se suele citar Boston Bay, en la parroquia de Portland, como cuna del jerk, y hoy se prepara en toda Jamaica y en su diáspora.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1,2 kg de muslos y contramuslos de pollo",
+     "1–2 chiles scotch bonnet, sin semillas",
+     "6 cebollines, picados",
+     "4 dientes de ajo y un trozo de jengibre de 3 cm",
+     "1 cda. de pimienta de Jamaica molida y 1 cda. de hojas de tomillo fresco",
+     "El jugo de 1 lima, 2 cda. de aceite, 1 cdta. de sal"
+    ],
+    "steps": [
+     "Licúa los chiles, los cebollines, el ajo, el jengibre, la pimienta de Jamaica, el tomillo, el jugo de lima, el aceite y la sal hasta obtener una pasta. Usa guantes al manipular los scotch bonnet.",
+     "Haz cortes en el pollo, frótalo con la pasta y déjalo marinar al menos 4 horas, o toda la noche en el refrigerador.",
+     "Asa a la parrilla a calor medio indirecto, volteando de vez en cuando, durante 35–45 minutos, hasta que esté cocido y carbonizado en los bordes. O hornea a 200 °C durante 40 minutos.",
+     "Deja reposar 5 minutos y sirve con gajos de lima."
+    ]
+   },
+   "tips": [
+    "Retira la piel antes de marinar para obtener una pieza más magra.",
+    "Sírvelo con una ensalada grande o verduras asadas y una porción pequeña de arroz.",
+    "El adobo necesita solo un poco de aceite; casi todo el sabor viene de las especias y las hierbas."
+   ],
+   "name_inline": "el pollo jerk"
   }
+ }
 }

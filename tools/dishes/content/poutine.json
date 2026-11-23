@@ -1,174 +1,207 @@
 {
-  "db_key": "poutine",
-  "slug": "poutine",
-  "emoji": "🍟",
-  "portion_g": 350,
-  "country": "CA",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "poutine",
+ "slug": "poutine",
+ "emoji": "🍟",
+ "portion_g": 350,
+ "country": "CA",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Poutine",
+   "origin": "Canada · Quebec",
+   "intro": "Poutine is Quebec's famous comfort dish: hot, crispy french fries topped with fresh cheese curds and smothered in rich brown gravy. The gravy softens the cheese just enough, so every forkful mixes crisp fries, squeaky curds and savoury sauce. It is served in diners, snack bars and fast-food restaurants across Canada, often as a late-night meal.",
+   "history": "Poutine emerged in rural Quebec in the late 1950s; several towns, including Warwick and Drummondville, claim to have invented it. It spread from local snack bars to become a widely recognised symbol of Québécois and Canadian food.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg floury potatoes, cut into fries",
+     "Oil for frying",
+     "300 g fresh cheese curds, at room temperature",
+     "2 tbsp oil (for the gravy)",
+     "3 tbsp plain flour",
+     "600 ml beef stock",
+     "1 tsp vinegar",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "For the gravy, cook the flour in 2 tbsp oil for 2–3 minutes until light brown.",
+     "Whisk in the beef stock gradually and simmer for 10 minutes until thick and glossy; season with vinegar, salt and pepper and keep hot.",
+     "Rinse and dry the cut potatoes, then fry at 160 °C for 5–6 minutes; drain.",
+     "Fry again at 185 °C for 2–3 minutes until crisp and golden; salt lightly.",
+     "Pile the fries into bowls, scatter over the cheese curds and pour the hot gravy on top. Serve at once."
+    ]
+   },
+   "tips": [
+    "Share a portion or order the small size; poutine is very calorie-dense.",
+    "Bake the fries in the oven with a little oil instead of deep-frying them.",
+    "Use half the cheese curds and add extra gravy for flavour."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Poutine",
-      "origin": "Canada · Quebec",
-      "intro": "Poutine is Quebec's famous comfort dish: hot, crispy french fries topped with fresh cheese curds and smothered in rich brown gravy. The gravy softens the cheese just enough, so every forkful mixes crisp fries, squeaky curds and savoury sauce. It is served in diners, snack bars and fast-food restaurants across Canada, often as a late-night meal.",
-      "history": "Poutine emerged in rural Quebec in the late 1950s; several towns, including Warwick and Drummondville, claim to have invented it. It spread from local snack bars to become a widely recognised symbol of Québécois and Canadian food.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg floury potatoes, cut into fries",
-          "Oil for frying",
-          "300 g fresh cheese curds, at room temperature",
-          "2 tbsp oil (for the gravy)",
-          "3 tbsp plain flour",
-          "600 ml beef stock",
-          "1 tsp vinegar",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "For the gravy, cook the flour in 2 tbsp oil for 2–3 minutes until light brown.",
-          "Whisk in the beef stock gradually and simmer for 10 minutes until thick and glossy; season with vinegar, salt and pepper and keep hot.",
-          "Rinse and dry the cut potatoes, then fry at 160 °C for 5–6 minutes; drain.",
-          "Fry again at 185 °C for 2–3 minutes until crisp and golden; salt lightly.",
-          "Pile the fries into bowls, scatter over the cheese curds and pour the hot gravy on top. Serve at once."
-        ]
-      },
-      "tips": [
-        "Share a portion or order the small size; poutine is very calorie-dense.",
-        "Bake the fries in the oven with a little oil instead of deep-frying them.",
-        "Use half the cheese curds and add extra gravy for flavour."
-      ]
-    },
-    "ar": {
-      "name": "بوتين",
-      "origin": "كندا · كيبك",
-      "intro": "البوتين طبق شهير من كيبك: بطاطس مقلية ساخنة ومقرمشة تُغطّى بقطع الجبن الطازج (خثارة الجبن) وتُغمر بصلصة المرق البنية الغنية (الغريفي). تليّن الصلصة الجبن قليلًا، فتجمع كل لقمة بين البطاطس المقرمشة والجبن المطاطي والصلصة المالحة. يُقدَّم في المطاعم الشعبية ومطاعم الوجبات السريعة في أنحاء كندا، وغالبًا كوجبة في ساعات الليل المتأخرة.",
-      "history": "ظهر البوتين في أرياف كيبك أواخر خمسينيات القرن العشرين، وتدّعي عدة بلدات اختراعه، منها وارويك ودرَموندفيل. وانتقل من مطاعم الوجبات الخفيفة المحلية ليصبح رمزًا معروفًا لمطبخ كيبك وكندا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 كغ بطاطا نشوية مقطعة أصابع",
-          "زيت للقلي",
-          "300 غ خثارة جبن طازجة بحرارة الغرفة",
-          "2 ملعقة كبيرة زيت (للصلصة)",
-          "3 ملاعق كبيرة دقيق أبيض",
-          "600 مل مرق لحم بقر",
-          "1 ملعقة صغيرة خل",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "للصلصة، حمّص الدقيق في ملعقتي الزيت 2–3 دقائق حتى يصبح بنيًا فاتحًا.",
-          "أضف مرق اللحم تدريجيًا مع الخفق، واتركه على نار هادئة 10 دقائق حتى يتكثف ويلمع؛ تبّله بالخل والملح والفلفل وأبقه ساخنًا.",
-          "اغسل أصابع البطاطا وجففها، ثم اقلها على 160 °م لمدة 5–6 دقائق وصفّها.",
-          "اقلها مرة ثانية على 185 °م لمدة 2–3 دقائق حتى تتقرمش وتذهّب، ورشّ قليلًا من الملح.",
-          "ضع البطاطس في أطباق، ووزّع عليها خثارة الجبن، واسكب فوقها الصلصة الساخنة. قدّمها فورًا."
-        ]
-      },
-      "tips": [
-        "تقاسم الحصة مع غيرك أو اطلب الحجم الصغير؛ فالبوتين غني جدًا بالسعرات.",
-        "اخبز البطاطس في الفرن بقليل من الزيت بدل قليها في زيت غزير.",
-        "استخدم نصف كمية الجبن وزد الصلصة للنكهة."
-      ]
-    },
-    "it": {
-      "name": "Poutine",
-      "origin": "Canada · Québec",
-      "intro": "La poutine è il celebre piatto consolatorio del Québec: patatine fritte calde e croccanti coperte di cagliata fresca di formaggio e ricoperte da un ricco sugo scuro. Il sugo ammorbidisce il formaggio quanto basta, così ogni forchettata unisce patatine croccanti, cagliata che «scricchiola» sotto i denti e salsa saporita. Si serve in diner, snack bar e fast food di tutto il Canada, spesso come pasto a tarda notte.",
-      "history": "La poutine nacque nel Québec rurale alla fine degli anni '50; diverse cittadine, tra cui Warwick e Drummondville, ne rivendicano l'invenzione. Dagli snack bar locali si è diffusa fino a diventare un simbolo ampiamente riconosciuto della cucina del Québec e del Canada.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg di patate farinose, tagliate a bastoncini",
-          "Olio per friggere",
-          "300 g di cagliata fresca di formaggio, a temperatura ambiente",
-          "2 cucchiai di olio (per il sugo)",
-          "3 cucchiai di farina 00",
-          "600 ml di brodo di manzo",
-          "1 cucchiaino di aceto",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Per il sugo, cuoci la farina in 2 cucchiai di olio per 2–3 minuti finché è leggermente dorata.",
-          "Aggiungi gradualmente il brodo di manzo mescolando con una frusta e fai sobbollire per 10 minuti finché è denso e lucido; condisci con aceto, sale e pepe e tienilo caldo.",
-          "Sciacqua e asciuga le patate tagliate, poi friggile a 160 °C per 5–6 minuti; scolale.",
-          "Friggile di nuovo a 185 °C per 2–3 minuti finché sono croccanti e dorate; sala leggermente.",
-          "Disponi le patatine nelle ciotole, distribuisci sopra la cagliata e versa il sugo caldo. Servi subito."
-        ]
-      },
-      "tips": [
-        "Dividi una porzione o ordina il formato piccolo: la poutine è molto calorica.",
-        "Cuoci le patatine in forno con un filo d'olio invece di friggerle.",
-        "Usa metà della cagliata e aggiungi più sugo per il sapore."
-      ]
-    },
-    "el": {
-      "name": "Πουτίν",
-      "origin": "Καναδάς · Κεμπέκ",
-      "intro": "Η πουτίν είναι το διάσημο παρηγορητικό πιάτο του Κεμπέκ: ζεστές, τραγανές τηγανητές πατάτες με φρέσκους κόκκους τυριού από πηγμένο γάλα, περιχυμένες με πλούσια σκούρα σάλτσα κρέατος. Η σάλτσα μαλακώνει το τυρί ακριβώς όσο χρειάζεται, ώστε κάθε πιρουνιά να συνδυάζει τραγανές πατάτες, τυρί που «τρίζει» στα δόντια και νόστιμη σάλτσα. Σερβίρεται σε ντάινερ, σνακ μπαρ και εστιατόρια γρήγορου φαγητού σε όλο τον Καναδά, συχνά ως αργό βραδινό γεύμα.",
-      "history": "Η πουτίν εμφανίστηκε στην αγροτική ύπαιθρο του Κεμπέκ στα τέλη της δεκαετίας του 1950· αρκετές πόλεις, ανάμεσά τους το Γουόρικ και το Ντράμοντβιλ, διεκδικούν την επινόησή της. Από τα τοπικά σνακ μπαρ εξαπλώθηκε και έγινε ευρέως αναγνωρισμένο σύμβολο της κουζίνας του Κεμπέκ και του Καναδά.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 κιλό αλευρώδεις πατάτες, κομμένες για τηγανητές",
-          "Λάδι για τηγάνισμα",
-          "300 γρ. φρέσκοι κόκκοι τυριού, σε θερμοκρασία δωματίου",
-          "2 κ.σ. λάδι (για τη σάλτσα)",
-          "3 κ.σ. αλεύρι για όλες τις χρήσεις",
-          "600 ml ζωμός βοδινού",
-          "1 κ.γ. ξίδι",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Για τη σάλτσα, καβουρδίστε το αλεύρι σε 2 κ.σ. λάδι για 2–3 λεπτά μέχρι να πάρει ανοιχτό καφέ χρώμα.",
-          "Προσθέστε σταδιακά τον ζωμό βοδινού ανακατεύοντας με σύρμα και σιγοβράστε για 10 λεπτά μέχρι να πήξει και να γυαλίσει· αρωματίστε με ξίδι, αλάτι και πιπέρι και κρατήστε τη ζεστή.",
-          "Ξεπλύνετε και στεγνώστε τις κομμένες πατάτες, έπειτα τηγανίστε τες στους 160 °C για 5–6 λεπτά· στραγγίξτε τες.",
-          "Τηγανίστε τες ξανά στους 185 °C για 2–3 λεπτά μέχρι να γίνουν τραγανές και χρυσαφένιες· αλατίστε ελαφρά.",
-          "Βάλτε τις πατάτες σε μπολ, σκορπίστε από πάνω το τυρί και περιχύστε με τη ζεστή σάλτσα. Σερβίρετε αμέσως."
-        ]
-      },
-      "tips": [
-        "Μοιραστείτε μια μερίδα ή παραγγείλτε τη μικρή· η πουτίν έχει πολύ υψηλή θερμιδική πυκνότητα.",
-        "Ψήστε τις πατάτες στον φούρνο με λίγο λάδι αντί να τις τηγανίσετε σε άφθονο λάδι.",
-        "Χρησιμοποιήστε τη μισή ποσότητα τυριού και προσθέστε περισσότερη σάλτσα για γεύση."
-      ]
-    },
-    "ru": {
-      "name": "Путин",
-      "origin": "Канада · Квебек",
-      "intro": "Путин — знаменитое утешительное блюдо Квебека: горячий хрустящий картофель фри, посыпанный свежим зерновым сыром и обильно политый насыщенной коричневой подливкой. Подливка размягчает сыр ровно настолько, чтобы в каждом кусочке сочетались хрустящий картофель, скрипучие сырные зёрна и пикантный соус. Его подают в закусочных, снэк-барах и ресторанах быстрого питания по всей Канаде, часто как поздний ужин.",
-      "history": "Путин появился в сельском Квебеке в конце 1950-х годов; несколько городов, включая Уорик и Драммондвиль, претендуют на его изобретение. Из местных снэк-баров он распространился и стал широко узнаваемым символом кухни Квебека и Канады.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 кг рассыпчатого картофеля, нарезанного для фри",
-          "Масло для жарки",
-          "300 г свежего зернового сыра комнатной температуры",
-          "2 ст. л. масла (для подливки)",
-          "3 ст. л. пшеничной муки",
-          "600 мл говяжьего бульона",
-          "1 ч. л. уксуса",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Для подливки обжаривайте муку в 2 ст. л. масла 2–3 минуты до светло-коричневого цвета.",
-          "Постепенно вливайте говяжий бульон, взбивая, и варите 10 минут до густоты и блеска; приправьте уксусом, солью и перцем и держите горячей.",
-          "Промойте и обсушите нарезанный картофель, затем жарьте при 160 °C 5–6 минут; обсушите.",
-          "Жарьте ещё раз при 185 °C 2–3 минуты до хруста и золотистого цвета; слегка посолите.",
-          "Выложите картофель фри горкой в миски, посыпьте сырными зёрнами и полейте горячей подливкой. Подавайте сразу."
-        ]
-      },
-      "tips": [
-        "Делите порцию на двоих или заказывайте маленький размер; путин очень калориен.",
-        "Запекайте картофель в духовке с небольшим количеством масла вместо фритюра.",
-        "Используйте вдвое меньше сырных зёрен и добавьте побольше подливки для вкуса."
-      ]
-    }
+  "ar": {
+   "name": "بوتين",
+   "origin": "كندا · كيبك",
+   "intro": "البوتين طبق شهير من كيبك: بطاطس مقلية ساخنة ومقرمشة تُغطّى بقطع الجبن الطازج (خثارة الجبن) وتُغمر بصلصة المرق البنية الغنية (الغريفي). تليّن الصلصة الجبن قليلًا، فتجمع كل لقمة بين البطاطس المقرمشة والجبن المطاطي والصلصة المالحة. يُقدَّم في المطاعم الشعبية ومطاعم الوجبات السريعة في أنحاء كندا، وغالبًا كوجبة في ساعات الليل المتأخرة.",
+   "history": "ظهر البوتين في أرياف كيبك أواخر خمسينيات القرن العشرين، وتدّعي عدة بلدات اختراعه، منها وارويك ودرَموندفيل. وانتقل من مطاعم الوجبات الخفيفة المحلية ليصبح رمزًا معروفًا لمطبخ كيبك وكندا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 كغ بطاطا نشوية مقطعة أصابع",
+     "زيت للقلي",
+     "300 غ خثارة جبن طازجة بحرارة الغرفة",
+     "2 ملعقة كبيرة زيت (للصلصة)",
+     "3 ملاعق كبيرة دقيق أبيض",
+     "600 مل مرق لحم بقر",
+     "1 ملعقة صغيرة خل",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "للصلصة، حمّص الدقيق في ملعقتي الزيت 2–3 دقائق حتى يصبح بنيًا فاتحًا.",
+     "أضف مرق اللحم تدريجيًا مع الخفق، واتركه على نار هادئة 10 دقائق حتى يتكثف ويلمع؛ تبّله بالخل والملح والفلفل وأبقه ساخنًا.",
+     "اغسل أصابع البطاطا وجففها، ثم اقلها على 160 °م لمدة 5–6 دقائق وصفّها.",
+     "اقلها مرة ثانية على 185 °م لمدة 2–3 دقائق حتى تتقرمش وتذهّب، ورشّ قليلًا من الملح.",
+     "ضع البطاطس في أطباق، ووزّع عليها خثارة الجبن، واسكب فوقها الصلصة الساخنة. قدّمها فورًا."
+    ]
+   },
+   "tips": [
+    "تقاسم الحصة مع غيرك أو اطلب الحجم الصغير؛ فالبوتين غني جدًا بالسعرات.",
+    "اخبز البطاطس في الفرن بقليل من الزيت بدل قليها في زيت غزير.",
+    "استخدم نصف كمية الجبن وزد الصلصة للنكهة."
+   ]
+  },
+  "it": {
+   "name": "Poutine",
+   "origin": "Canada · Québec",
+   "intro": "La poutine è il celebre piatto consolatorio del Québec: patatine fritte calde e croccanti coperte di cagliata fresca di formaggio e ricoperte da un ricco sugo scuro. Il sugo ammorbidisce il formaggio quanto basta, così ogni forchettata unisce patatine croccanti, cagliata che «scricchiola» sotto i denti e salsa saporita. Si serve in diner, snack bar e fast food di tutto il Canada, spesso come pasto a tarda notte.",
+   "history": "La poutine nacque nel Québec rurale alla fine degli anni '50; diverse cittadine, tra cui Warwick e Drummondville, ne rivendicano l'invenzione. Dagli snack bar locali si è diffusa fino a diventare un simbolo ampiamente riconosciuto della cucina del Québec e del Canada.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg di patate farinose, tagliate a bastoncini",
+     "Olio per friggere",
+     "300 g di cagliata fresca di formaggio, a temperatura ambiente",
+     "2 cucchiai di olio (per il sugo)",
+     "3 cucchiai di farina 00",
+     "600 ml di brodo di manzo",
+     "1 cucchiaino di aceto",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Per il sugo, cuoci la farina in 2 cucchiai di olio per 2–3 minuti finché è leggermente dorata.",
+     "Aggiungi gradualmente il brodo di manzo mescolando con una frusta e fai sobbollire per 10 minuti finché è denso e lucido; condisci con aceto, sale e pepe e tienilo caldo.",
+     "Sciacqua e asciuga le patate tagliate, poi friggile a 160 °C per 5–6 minuti; scolale.",
+     "Friggile di nuovo a 185 °C per 2–3 minuti finché sono croccanti e dorate; sala leggermente.",
+     "Disponi le patatine nelle ciotole, distribuisci sopra la cagliata e versa il sugo caldo. Servi subito."
+    ]
+   },
+   "tips": [
+    "Dividi una porzione o ordina il formato piccolo: la poutine è molto calorica.",
+    "Cuoci le patatine in forno con un filo d'olio invece di friggerle.",
+    "Usa metà della cagliata e aggiungi più sugo per il sapore."
+   ]
+  },
+  "el": {
+   "name": "Πουτίν",
+   "origin": "Καναδάς · Κεμπέκ",
+   "intro": "Η πουτίν είναι το διάσημο παρηγορητικό πιάτο του Κεμπέκ: ζεστές, τραγανές τηγανητές πατάτες με φρέσκους κόκκους τυριού από πηγμένο γάλα, περιχυμένες με πλούσια σκούρα σάλτσα κρέατος. Η σάλτσα μαλακώνει το τυρί ακριβώς όσο χρειάζεται, ώστε κάθε πιρουνιά να συνδυάζει τραγανές πατάτες, τυρί που «τρίζει» στα δόντια και νόστιμη σάλτσα. Σερβίρεται σε ντάινερ, σνακ μπαρ και εστιατόρια γρήγορου φαγητού σε όλο τον Καναδά, συχνά ως αργό βραδινό γεύμα.",
+   "history": "Η πουτίν εμφανίστηκε στην αγροτική ύπαιθρο του Κεμπέκ στα τέλη της δεκαετίας του 1950· αρκετές πόλεις, ανάμεσά τους το Γουόρικ και το Ντράμοντβιλ, διεκδικούν την επινόησή της. Από τα τοπικά σνακ μπαρ εξαπλώθηκε και έγινε ευρέως αναγνωρισμένο σύμβολο της κουζίνας του Κεμπέκ και του Καναδά.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 κιλό αλευρώδεις πατάτες, κομμένες για τηγανητές",
+     "Λάδι για τηγάνισμα",
+     "300 γρ. φρέσκοι κόκκοι τυριού, σε θερμοκρασία δωματίου",
+     "2 κ.σ. λάδι (για τη σάλτσα)",
+     "3 κ.σ. αλεύρι για όλες τις χρήσεις",
+     "600 ml ζωμός βοδινού",
+     "1 κ.γ. ξίδι",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Για τη σάλτσα, καβουρδίστε το αλεύρι σε 2 κ.σ. λάδι για 2–3 λεπτά μέχρι να πάρει ανοιχτό καφέ χρώμα.",
+     "Προσθέστε σταδιακά τον ζωμό βοδινού ανακατεύοντας με σύρμα και σιγοβράστε για 10 λεπτά μέχρι να πήξει και να γυαλίσει· αρωματίστε με ξίδι, αλάτι και πιπέρι και κρατήστε τη ζεστή.",
+     "Ξεπλύνετε και στεγνώστε τις κομμένες πατάτες, έπειτα τηγανίστε τες στους 160 °C για 5–6 λεπτά· στραγγίξτε τες.",
+     "Τηγανίστε τες ξανά στους 185 °C για 2–3 λεπτά μέχρι να γίνουν τραγανές και χρυσαφένιες· αλατίστε ελαφρά.",
+     "Βάλτε τις πατάτες σε μπολ, σκορπίστε από πάνω το τυρί και περιχύστε με τη ζεστή σάλτσα. Σερβίρετε αμέσως."
+    ]
+   },
+   "tips": [
+    "Μοιραστείτε μια μερίδα ή παραγγείλτε τη μικρή· η πουτίν έχει πολύ υψηλή θερμιδική πυκνότητα.",
+    "Ψήστε τις πατάτες στον φούρνο με λίγο λάδι αντί να τις τηγανίσετε σε άφθονο λάδι.",
+    "Χρησιμοποιήστε τη μισή ποσότητα τυριού και προσθέστε περισσότερη σάλτσα για γεύση."
+   ]
+  },
+  "ru": {
+   "name": "Путин",
+   "origin": "Канада · Квебек",
+   "intro": "Путин — знаменитое утешительное блюдо Квебека: горячий хрустящий картофель фри, посыпанный свежим зерновым сыром и обильно политый насыщенной коричневой подливкой. Подливка размягчает сыр ровно настолько, чтобы в каждом кусочке сочетались хрустящий картофель, скрипучие сырные зёрна и пикантный соус. Его подают в закусочных, снэк-барах и ресторанах быстрого питания по всей Канаде, часто как поздний ужин.",
+   "history": "Путин появился в сельском Квебеке в конце 1950-х годов; несколько городов, включая Уорик и Драммондвиль, претендуют на его изобретение. Из местных снэк-баров он распространился и стал широко узнаваемым символом кухни Квебека и Канады.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 кг рассыпчатого картофеля, нарезанного для фри",
+     "Масло для жарки",
+     "300 г свежего зернового сыра комнатной температуры",
+     "2 ст. л. масла (для подливки)",
+     "3 ст. л. пшеничной муки",
+     "600 мл говяжьего бульона",
+     "1 ч. л. уксуса",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Для подливки обжаривайте муку в 2 ст. л. масла 2–3 минуты до светло-коричневого цвета.",
+     "Постепенно вливайте говяжий бульон, взбивая, и варите 10 минут до густоты и блеска; приправьте уксусом, солью и перцем и держите горячей.",
+     "Промойте и обсушите нарезанный картофель, затем жарьте при 160 °C 5–6 минут; обсушите.",
+     "Жарьте ещё раз при 185 °C 2–3 минуты до хруста и золотистого цвета; слегка посолите.",
+     "Выложите картофель фри горкой в миски, посыпьте сырными зёрнами и полейте горячей подливкой. Подавайте сразу."
+    ]
+   },
+   "tips": [
+    "Делите порцию на двоих или заказывайте маленький размер; путин очень калориен.",
+    "Запекайте картофель в духовке с небольшим количеством масла вместо фритюра.",
+    "Используйте вдвое меньше сырных зёрен и добавьте побольше подливки для вкуса."
+   ]
+  },
+  "es": {
+   "name": "Poutine",
+   "origin": "Canadá · Quebec",
+   "intro": "La poutine es el reconfortante plato más famoso de Quebec: papas fritas calientes y crujientes cubiertas con cuajada de queso fresco y bañadas en una espesa salsa gravy oscura. La salsa derrite el queso lo justo, de modo que cada bocado combina papas crujientes, queso que chirría y una salsa sabrosa. Se sirve en restaurantes sencillos, locales de comida rápida y casetas de todo Canadá, a menudo como cena tardía.",
+   "history": "La poutine surgió en el Quebec rural a finales de la década de 1950; varios pueblos, entre ellos Warwick y Drummondville, se atribuyen su invención. Pasó de los puestos locales a convertirse en un símbolo muy reconocido de la cocina quebequense y canadiense.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg de papas harinosas, cortadas en bastones",
+     "Aceite para freír",
+     "300 g de cuajada de queso fresca, a temperatura ambiente",
+     "2 cda. de aceite (para la salsa)",
+     "3 cda. de harina de trigo",
+     "600 ml de caldo de res",
+     "1 cdta. de vinagre",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Para la salsa, cocina la harina en 2 cda. de aceite durante 2–3 minutos, hasta que se dore ligeramente.",
+     "Incorpora poco a poco el caldo de res, batiendo, y cocina a fuego lento 10 minutos hasta que espese y quede brillante; sazona con el vinagre, sal y pimienta y mantén caliente.",
+     "Enjuaga y seca las papas cortadas y fríelas a 160 °C durante 5–6 minutos; escúrrelas.",
+     "Fríelas de nuevo a 185 °C durante 2–3 minutos, hasta que estén crujientes y doradas; sala ligeramente.",
+     "Reparte las papas en platos hondos, esparce la cuajada de queso y vierte encima la salsa caliente. Sirve de inmediato."
+    ]
+   },
+   "tips": [
+    "Comparte una porción o pide el tamaño pequeño: la poutine es muy calórica.",
+    "Hornea las papas con un poco de aceite en lugar de freírlas.",
+    "Usa la mitad de la cuajada de queso y más salsa para dar sabor."
+   ],
+   "name_inline": "la poutine"
   }
+ }
 }

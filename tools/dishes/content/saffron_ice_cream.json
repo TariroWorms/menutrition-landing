@@ -1,166 +1,197 @@
 {
-  "db_key": "saffron_ice_cream",
-  "slug": "saffron-ice-cream",
-  "emoji": "🍨",
-  "portion_g": 100,
-  "country": "IR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "saffron_ice_cream",
+ "slug": "saffron-ice-cream",
+ "emoji": "🍨",
+ "portion_g": 100,
+ "country": "IR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Saffron Ice Cream",
+   "origin": "Iran · also the Gulf",
+   "intro": "Saffron ice cream is a rich, golden frozen dessert made from milk, cream and sugar, flavoured with saffron and rosewater and studded with pistachios. It is dense and creamy with a floral aroma, and is served in scoops or between thin wafers. In Iran it is known as bastani sonnati, and it is a staple of dessert shops across the Gulf.",
+   "history": "Saffron and rosewater ice cream is strongly associated with Iran, where it is called bastani sonnati, meaning traditional ice cream; it is often linked to the confectioner Akbar Mashti in Tehran, though details vary. Today it is sold widely in Iran and the Gulf states.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 40,
+    "ingredients": [
+     "500 ml whole milk",
+     "250 ml cream",
+     "150 g sugar",
+     "1 pinch saffron (about 0.3 g)",
+     "1 tbsp rosewater",
+     "40 g pistachios, chopped"
+    ],
+    "steps": [
+     "Grind the saffron and steep it in 2 tbsp hot milk for 10 minutes.",
+     "Warm the rest of the milk with the sugar until dissolved, then cool.",
+     "Stir in the cream, saffron milk and rosewater.",
+     "Churn in an ice-cream machine until thick, or freeze and stir every 30 minutes for 3 hours.",
+     "Fold in the pistachios and freeze until scoopable."
+    ]
+   },
+   "tips": [
+    "Keep to one 100 g scoop and enjoy it slowly.",
+    "Use part semi-skimmed milk instead of cream for a lighter mix.",
+    "Sprinkle a few pistachios rather than a thick layer; nuts add calories fast."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Saffron Ice Cream",
-      "origin": "Iran · also the Gulf",
-      "intro": "Saffron ice cream is a rich, golden frozen dessert made from milk, cream and sugar, flavoured with saffron and rosewater and studded with pistachios. It is dense and creamy with a floral aroma, and is served in scoops or between thin wafers. In Iran it is known as bastani sonnati, and it is a staple of dessert shops across the Gulf.",
-      "history": "Saffron and rosewater ice cream is strongly associated with Iran, where it is called bastani sonnati, meaning traditional ice cream; it is often linked to the confectioner Akbar Mashti in Tehran, though details vary. Today it is sold widely in Iran and the Gulf states.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 40,
-        "ingredients": [
-          "500 ml whole milk",
-          "250 ml cream",
-          "150 g sugar",
-          "1 pinch saffron (about 0.3 g)",
-          "1 tbsp rosewater",
-          "40 g pistachios, chopped"
-        ],
-        "steps": [
-          "Grind the saffron and steep it in 2 tbsp hot milk for 10 minutes.",
-          "Warm the rest of the milk with the sugar until dissolved, then cool.",
-          "Stir in the cream, saffron milk and rosewater.",
-          "Churn in an ice-cream machine until thick, or freeze and stir every 30 minutes for 3 hours.",
-          "Fold in the pistachios and freeze until scoopable."
-        ]
-      },
-      "tips": [
-        "Keep to one 100 g scoop and enjoy it slowly.",
-        "Use part semi-skimmed milk instead of cream for a lighter mix.",
-        "Sprinkle a few pistachios rather than a thick layer; nuts add calories fast."
-      ]
-    },
-    "ar": {
-      "name": "آيس كريم بالزعفران",
-      "origin": "إيران · والخليج",
-      "intro": "آيس كريم الزعفران حلوى مثلجة ذهبية غنية مصنوعة من الحليب والقشطة والسكر، بنكهة الزعفران وماء الورد ومرصّعة بالفستق. قوامها كثيف وكريمي ورائحتها زهرية، وتقدَّم كرات أو بين رقائق البسكويت الرفيعة. تُعرف في إيران باسم بستني سنتي، وهي من أساسيات محلات الحلويات في الخليج.",
-      "history": "يرتبط آيس كريم الزعفران وماء الورد ارتباطًا وثيقًا بإيران حيث يسمى بستني سنتي أي الآيس كريم التقليدي، وكثيرًا ما يُنسب إلى الحلواني أكبر مشتي في طهران وإن اختلفت الروايات. ويباع اليوم على نطاق واسع في إيران ودول الخليج.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 40,
-        "ingredients": [
-          "500 مل حليب كامل الدسم",
-          "250 مل قشطة سائلة",
-          "150 غ سكر",
-          "رشة زعفران (نحو 0.3 غ)",
-          "ملعقة كبيرة ماء ورد",
-          "40 غ فستق مفروم"
-        ],
-        "steps": [
-          "اسحق الزعفران وانقعه في ملعقتين كبيرتين من الحليب الساخن 10 دقائق.",
-          "سخّن باقي الحليب مع السكر حتى يذوب ثم برّده.",
-          "أضف القشطة وحليب الزعفران وماء الورد وقلّب.",
-          "اخفقه في آلة الآيس كريم حتى يتكاثف، أو جمّده مع التقليب كل 30 دقيقة لمدة 3 ساعات.",
-          "أضف الفستق وجمّده حتى يسهل غرفه."
-        ]
-      },
-      "tips": [
-        "اكتفِ بكرة واحدة 100 غ وتناولها ببطء.",
-        "استبدل جزءًا من القشطة بحليب نصف دسم لخليط أخف.",
-        "رشّ قليلًا من الفستق بدل طبقة سميكة؛ فالمكسرات ترفع السعرات بسرعة."
-      ]
-    },
-    "it": {
-      "name": "Gelato allo zafferano",
-      "name_inline": "gelato allo zafferano",
-      "origin": "Iran · anche Golfo",
-      "intro": "Il gelato allo zafferano è un dessert ghiacciato ricco e dorato a base di latte, panna e zucchero, aromatizzato con zafferano e acqua di rose e arricchito con pistacchi. È denso e cremoso, dal profumo floreale, e si serve a palline o tra due cialde sottili. In Iran è noto come bastani sonnati ed è un classico delle gelaterie e pasticcerie di tutto il Golfo.",
-      "history": "Il gelato allo zafferano e acqua di rose è fortemente associato all'Iran, dove si chiama bastani sonnati, cioè «gelato tradizionale»; viene spesso collegato al pasticciere Akbar Mashti di Teheran, anche se i dettagli variano. Oggi è venduto ovunque in Iran e negli stati del Golfo.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 40,
-        "ingredients": [
-          "500 ml di latte intero",
-          "250 ml di panna",
-          "150 g di zucchero",
-          "1 pizzico di zafferano (circa 0,3 g)",
-          "1 cucchiaio di acqua di rose",
-          "40 g di pistacchi, tritati"
-        ],
-        "steps": [
-          "Pesta lo zafferano e mettilo in infusione in 2 cucchiai di latte caldo per 10 minuti.",
-          "Scalda il resto del latte con lo zucchero finché si scioglie, poi lascia raffreddare.",
-          "Incorpora panna, latte allo zafferano e acqua di rose.",
-          "Manteca in una gelatiera finché è denso, oppure metti in freezer e mescola ogni 30 minuti per 3 ore.",
-          "Incorpora i pistacchi e rimetti in freezer finché si può porzionare."
-        ]
-      },
-      "tips": [
-        "Limitati a una pallina da 100 g e gustala con calma.",
-        "Usa in parte latte parzialmente scremato al posto della panna per un composto più leggero.",
-        "Cospargi pochi pistacchi invece di uno strato spesso; la frutta secca fa salire in fretta le calorie."
-      ]
-    },
-    "el": {
-      "name": "Παγωτό σαφράν",
-      "origin": "Ιράν · επίσης Κόλπος",
-      "intro": "Το παγωτό σαφράν είναι πλούσιο, χρυσαφένιο παγωμένο γλυκό από γάλα, κρέμα γάλακτος και ζάχαρη, αρωματισμένο με σαφράν και ροδόνερο και γεμάτο φιστίκια Αιγίνης. Είναι πυκνό και κρεμώδες με λουλουδένιο άρωμα, και σερβίρεται σε μπάλες ή ανάμεσα σε λεπτές γκοφρέτες. Στο Ιράν είναι γνωστό ως μπαστανί σοναττί και είναι βασικό προϊόν στα ζαχαροπλαστεία σε όλο τον Κόλπο.",
-      "history": "Το παγωτό με σαφράν και ροδόνερο συνδέεται έντονα με το Ιράν, όπου λέγεται μπαστανί σοναττί, δηλαδή «παραδοσιακό παγωτό»· συχνά συνδέεται με τον ζαχαροπλάστη Ακμπάρ Μαστί της Τεχεράνης, αν και οι λεπτομέρειες διαφέρουν. Σήμερα πουλιέται ευρέως στο Ιράν και στα κράτη του Κόλπου.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 40,
-        "ingredients": [
-          "500 ml πλήρες γάλα",
-          "250 ml κρέμα γάλακτος",
-          "150 γρ. ζάχαρη",
-          "1 πρέζα σαφράν (περίπου 0,3 γρ.)",
-          "1 κ.σ. ροδόνερο",
-          "40 γρ. φιστίκια Αιγίνης, ψιλοκομμένα"
-        ],
-        "steps": [
-          "Τρίψτε το σαφράν και μουλιάστε το σε 2 κ.σ. ζεστό γάλα για 10 λεπτά.",
-          "Ζεστάνετε το υπόλοιπο γάλα με τη ζάχαρη μέχρι να διαλυθεί και αφήστε να κρυώσει.",
-          "Ανακατέψτε την κρέμα, το γάλα με το σαφράν και το ροδόνερο.",
-          "Βάλτε το σε παγωτομηχανή μέχρι να πήξει ή στην κατάψυξη, ανακατεύοντας κάθε 30 λεπτά για 3 ώρες.",
-          "Ενσωματώστε τα φιστίκια και καταψύξτε μέχρι να μπορεί να σερβιριστεί σε μπάλες."
-        ]
-      },
-      "tips": [
-        "Περιοριστείτε σε μία μπάλα 100 γρ. και απολαύστε τη αργά.",
-        "Αντικαταστήστε μέρος της κρέμας με ημιαποβουτυρωμένο γάλα για πιο ελαφρύ μείγμα.",
-        "Πασπαλίστε λίγα φιστίκια αντί για παχύ στρώμα· οι ξηροί καρποί ανεβάζουν γρήγορα τις θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Шафрановое мороженое",
-      "origin": "Иран · также Персидский залив",
-      "intro": "Шафрановое мороженое — насыщенный золотистый замороженный десерт из молока, сливок и сахара, ароматизированный шафраном и розовой водой, с фисташками внутри. Оно плотное и кремовое с цветочным ароматом, подаётся шариками или между тонкими вафлями. В Иране оно известно как бастани соннати и является основой кондитерских по всему Заливу.",
-      "history": "Мороженое с шафраном и розовой водой тесно связано с Ираном, где оно называется бастани соннати, что значит «традиционное мороженое»; его часто связывают с кондитером Акбаром Маштом в Тегеране, хотя детали различаются. Сегодня его широко продают в Иране и странах Залива.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 40,
-        "ingredients": [
-          "500 мл цельного молока",
-          "250 мл сливок",
-          "150 г сахара",
-          "1 щепотка шафрана (около 0,3 г)",
-          "1 ст. л. розовой воды",
-          "40 г фисташек, рубленых"
-        ],
-        "steps": [
-          "Разотрите шафран и настаивайте его в 2 ст. л. горячего молока 10 минут.",
-          "Подогрейте остальное молоко с сахаром до растворения, затем остудите.",
-          "Вмешайте сливки, шафрановое молоко и розовую воду.",
-          "Взбивайте в мороженице до загустения или заморозьте и перемешивайте каждые 30 минут в течение 3 часов.",
-          "Вмешайте фисташки и заморозьте, пока не станет возможно накладывать шариками."
-        ]
-      },
-      "tips": [
-        "Ограничьтесь одним шариком в 100 г и ешьте его не спеша.",
-        "Используйте часть молока пониженной жирности вместо сливок для более лёгкой смеси.",
-        "Посыпьте несколькими фисташками, а не толстым слоем; орехи быстро добавляют калории."
-      ],
-      "name_inline": "шафрановое мороженое"
-    }
+  "ar": {
+   "name": "آيس كريم بالزعفران",
+   "origin": "إيران · والخليج",
+   "intro": "آيس كريم الزعفران حلوى مثلجة ذهبية غنية مصنوعة من الحليب والقشطة والسكر، بنكهة الزعفران وماء الورد ومرصّعة بالفستق. قوامها كثيف وكريمي ورائحتها زهرية، وتقدَّم كرات أو بين رقائق البسكويت الرفيعة. تُعرف في إيران باسم بستني سنتي، وهي من أساسيات محلات الحلويات في الخليج.",
+   "history": "يرتبط آيس كريم الزعفران وماء الورد ارتباطًا وثيقًا بإيران حيث يسمى بستني سنتي أي الآيس كريم التقليدي، وكثيرًا ما يُنسب إلى الحلواني أكبر مشتي في طهران وإن اختلفت الروايات. ويباع اليوم على نطاق واسع في إيران ودول الخليج.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 40,
+    "ingredients": [
+     "500 مل حليب كامل الدسم",
+     "250 مل قشطة سائلة",
+     "150 غ سكر",
+     "رشة زعفران (نحو 0.3 غ)",
+     "ملعقة كبيرة ماء ورد",
+     "40 غ فستق مفروم"
+    ],
+    "steps": [
+     "اسحق الزعفران وانقعه في ملعقتين كبيرتين من الحليب الساخن 10 دقائق.",
+     "سخّن باقي الحليب مع السكر حتى يذوب ثم برّده.",
+     "أضف القشطة وحليب الزعفران وماء الورد وقلّب.",
+     "اخفقه في آلة الآيس كريم حتى يتكاثف، أو جمّده مع التقليب كل 30 دقيقة لمدة 3 ساعات.",
+     "أضف الفستق وجمّده حتى يسهل غرفه."
+    ]
+   },
+   "tips": [
+    "اكتفِ بكرة واحدة 100 غ وتناولها ببطء.",
+    "استبدل جزءًا من القشطة بحليب نصف دسم لخليط أخف.",
+    "رشّ قليلًا من الفستق بدل طبقة سميكة؛ فالمكسرات ترفع السعرات بسرعة."
+   ]
+  },
+  "it": {
+   "name": "Gelato allo zafferano",
+   "name_inline": "gelato allo zafferano",
+   "origin": "Iran · anche Golfo",
+   "intro": "Il gelato allo zafferano è un dessert ghiacciato ricco e dorato a base di latte, panna e zucchero, aromatizzato con zafferano e acqua di rose e arricchito con pistacchi. È denso e cremoso, dal profumo floreale, e si serve a palline o tra due cialde sottili. In Iran è noto come bastani sonnati ed è un classico delle gelaterie e pasticcerie di tutto il Golfo.",
+   "history": "Il gelato allo zafferano e acqua di rose è fortemente associato all'Iran, dove si chiama bastani sonnati, cioè «gelato tradizionale»; viene spesso collegato al pasticciere Akbar Mashti di Teheran, anche se i dettagli variano. Oggi è venduto ovunque in Iran e negli stati del Golfo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 40,
+    "ingredients": [
+     "500 ml di latte intero",
+     "250 ml di panna",
+     "150 g di zucchero",
+     "1 pizzico di zafferano (circa 0,3 g)",
+     "1 cucchiaio di acqua di rose",
+     "40 g di pistacchi, tritati"
+    ],
+    "steps": [
+     "Pesta lo zafferano e mettilo in infusione in 2 cucchiai di latte caldo per 10 minuti.",
+     "Scalda il resto del latte con lo zucchero finché si scioglie, poi lascia raffreddare.",
+     "Incorpora panna, latte allo zafferano e acqua di rose.",
+     "Manteca in una gelatiera finché è denso, oppure metti in freezer e mescola ogni 30 minuti per 3 ore.",
+     "Incorpora i pistacchi e rimetti in freezer finché si può porzionare."
+    ]
+   },
+   "tips": [
+    "Limitati a una pallina da 100 g e gustala con calma.",
+    "Usa in parte latte parzialmente scremato al posto della panna per un composto più leggero.",
+    "Cospargi pochi pistacchi invece di uno strato spesso; la frutta secca fa salire in fretta le calorie."
+   ]
+  },
+  "el": {
+   "name": "Παγωτό σαφράν",
+   "origin": "Ιράν · επίσης Κόλπος",
+   "intro": "Το παγωτό σαφράν είναι πλούσιο, χρυσαφένιο παγωμένο γλυκό από γάλα, κρέμα γάλακτος και ζάχαρη, αρωματισμένο με σαφράν και ροδόνερο και γεμάτο φιστίκια Αιγίνης. Είναι πυκνό και κρεμώδες με λουλουδένιο άρωμα, και σερβίρεται σε μπάλες ή ανάμεσα σε λεπτές γκοφρέτες. Στο Ιράν είναι γνωστό ως μπαστανί σοναττί και είναι βασικό προϊόν στα ζαχαροπλαστεία σε όλο τον Κόλπο.",
+   "history": "Το παγωτό με σαφράν και ροδόνερο συνδέεται έντονα με το Ιράν, όπου λέγεται μπαστανί σοναττί, δηλαδή «παραδοσιακό παγωτό»· συχνά συνδέεται με τον ζαχαροπλάστη Ακμπάρ Μαστί της Τεχεράνης, αν και οι λεπτομέρειες διαφέρουν. Σήμερα πουλιέται ευρέως στο Ιράν και στα κράτη του Κόλπου.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 40,
+    "ingredients": [
+     "500 ml πλήρες γάλα",
+     "250 ml κρέμα γάλακτος",
+     "150 γρ. ζάχαρη",
+     "1 πρέζα σαφράν (περίπου 0,3 γρ.)",
+     "1 κ.σ. ροδόνερο",
+     "40 γρ. φιστίκια Αιγίνης, ψιλοκομμένα"
+    ],
+    "steps": [
+     "Τρίψτε το σαφράν και μουλιάστε το σε 2 κ.σ. ζεστό γάλα για 10 λεπτά.",
+     "Ζεστάνετε το υπόλοιπο γάλα με τη ζάχαρη μέχρι να διαλυθεί και αφήστε να κρυώσει.",
+     "Ανακατέψτε την κρέμα, το γάλα με το σαφράν και το ροδόνερο.",
+     "Βάλτε το σε παγωτομηχανή μέχρι να πήξει ή στην κατάψυξη, ανακατεύοντας κάθε 30 λεπτά για 3 ώρες.",
+     "Ενσωματώστε τα φιστίκια και καταψύξτε μέχρι να μπορεί να σερβιριστεί σε μπάλες."
+    ]
+   },
+   "tips": [
+    "Περιοριστείτε σε μία μπάλα 100 γρ. και απολαύστε τη αργά.",
+    "Αντικαταστήστε μέρος της κρέμας με ημιαποβουτυρωμένο γάλα για πιο ελαφρύ μείγμα.",
+    "Πασπαλίστε λίγα φιστίκια αντί για παχύ στρώμα· οι ξηροί καρποί ανεβάζουν γρήγορα τις θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Шафрановое мороженое",
+   "origin": "Иран · также Персидский залив",
+   "intro": "Шафрановое мороженое — насыщенный золотистый замороженный десерт из молока, сливок и сахара, ароматизированный шафраном и розовой водой, с фисташками внутри. Оно плотное и кремовое с цветочным ароматом, подаётся шариками или между тонкими вафлями. В Иране оно известно как бастани соннати и является основой кондитерских по всему Заливу.",
+   "history": "Мороженое с шафраном и розовой водой тесно связано с Ираном, где оно называется бастани соннати, что значит «традиционное мороженое»; его часто связывают с кондитером Акбаром Маштом в Тегеране, хотя детали различаются. Сегодня его широко продают в Иране и странах Залива.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 40,
+    "ingredients": [
+     "500 мл цельного молока",
+     "250 мл сливок",
+     "150 г сахара",
+     "1 щепотка шафрана (около 0,3 г)",
+     "1 ст. л. розовой воды",
+     "40 г фисташек, рубленых"
+    ],
+    "steps": [
+     "Разотрите шафран и настаивайте его в 2 ст. л. горячего молока 10 минут.",
+     "Подогрейте остальное молоко с сахаром до растворения, затем остудите.",
+     "Вмешайте сливки, шафрановое молоко и розовую воду.",
+     "Взбивайте в мороженице до загустения или заморозьте и перемешивайте каждые 30 минут в течение 3 часов.",
+     "Вмешайте фисташки и заморозьте, пока не станет возможно накладывать шариками."
+    ]
+   },
+   "tips": [
+    "Ограничьтесь одним шариком в 100 г и ешьте его не спеша.",
+    "Используйте часть молока пониженной жирности вместо сливок для более лёгкой смеси.",
+    "Посыпьте несколькими фисташками, а не толстым слоем; орехи быстро добавляют калории."
+   ],
+   "name_inline": "шафрановое мороженое"
+  },
+  "es": {
+   "name": "Helado de azafrán",
+   "origin": "Irán · también el Golfo",
+   "intro": "El helado de azafrán es un postre helado, rico y dorado, hecho con leche, crema y azúcar, aromatizado con azafrán y agua de rosas y con trocitos de pistacho. Es denso y cremoso, con un aroma floral, y se sirve en bolas o entre dos barquillos finos. En Irán se conoce como bastani sonnati y es un clásico de las heladerías de todo el Golfo.",
+   "history": "El helado de azafrán y agua de rosas se asocia estrechamente con Irán, donde se llama bastani sonnati, que significa «helado tradicional»; a menudo se vincula con el confitero Akbar Mashti, en Teherán, aunque los detalles varían. Hoy se vende ampliamente en Irán y en los países del Golfo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 40,
+    "ingredients": [
+     "500 ml de leche entera",
+     "250 ml de crema para batir",
+     "150 g de azúcar",
+     "1 pizca de azafrán (unos 0.3 g)",
+     "1 cda. de agua de rosas",
+     "40 g de pistaches, picados"
+    ],
+    "steps": [
+     "Muele el azafrán y déjalo infusionar en 2 cda. de leche caliente durante 10 minutos.",
+     "Calienta el resto de la leche con el azúcar hasta que se disuelva y deja enfriar.",
+     "Incorpora la crema, la leche con azafrán y el agua de rosas.",
+     "Bate en una máquina de helado hasta que espese, o congela y remueve cada 30 minutos durante 3 horas.",
+     "Agrega los pistaches y congela hasta que se pueda servir en bolas."
+    ]
+   },
+   "tips": [
+    "Limítate a una bola de 100 g y disfrútala despacio.",
+    "Usa en parte leche semidescremada en lugar de crema para una mezcla más ligera.",
+    "Espolvorea unos pocos pistaches en lugar de una capa gruesa: los frutos secos suman calorías rápido."
+   ],
+   "name_inline": "el helado de azafrán"
   }
+ }
 }

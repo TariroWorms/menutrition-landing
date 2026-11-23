@@ -1,176 +1,209 @@
 {
-  "db_key": "pollo_alla_parmigiana",
-  "slug": "pollo-alla-parmigiana",
-  "emoji": "🧀",
-  "portion_g": 300,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pollo_alla_parmigiana",
+ "slug": "pollo-alla-parmigiana",
+ "emoji": "🧀",
+ "portion_g": 300,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken parmigiana",
+   "origin": "United States · Italian-American cuisine",
+   "intro": "Chicken parmigiana is a breaded chicken cutlet baked under tomato sauce, melted mozzarella and grated parmesan. The crumb coating stays crisp at the edges while the cheese bubbles and browns on top, making a rich, comforting main course. It is served hot, usually with a side of salad or vegetables.",
+   "history": "The dish adapts the southern Italian melanzane alla parmigiana, layered aubergine with tomato and cheese; Italian immigrants in the United States began making it with breaded veal and chicken. Chicken parm is now a fixture of Italian-American restaurants and is also popular in Australia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "4 small chicken breasts (about 600 g), flattened",
+     "2 eggs, beaten",
+     "100 g breadcrumbs",
+     "3 tbsp olive oil",
+     "400 ml tomato passata with 1 garlic clove and basil",
+     "150 g mozzarella, sliced",
+     "40 g parmesan, grated",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Season the chicken, dip in egg and coat in breadcrumbs.",
+     "Fry in the oil 3 minutes per side until golden; place in a baking dish.",
+     "Simmer the passata with garlic and basil for 10 minutes and spoon over the chicken.",
+     "Top with mozzarella and parmesan.",
+     "Bake at 200 °C for 15–20 minutes until the cheese bubbles."
+    ]
+   },
+   "tips": [
+    "Bake the breaded cutlets on a rack instead of frying them to save most of the oil.",
+    "Use half the mozzarella, or a light mozzarella; the parmesan already gives plenty of flavour.",
+    "Serve with a green salad rather than a side of pasta."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken parmigiana",
-      "origin": "United States · Italian-American cuisine",
-      "intro": "Chicken parmigiana is a breaded chicken cutlet baked under tomato sauce, melted mozzarella and grated parmesan. The crumb coating stays crisp at the edges while the cheese bubbles and browns on top, making a rich, comforting main course. It is served hot, usually with a side of salad or vegetables.",
-      "history": "The dish adapts the southern Italian melanzane alla parmigiana, layered aubergine with tomato and cheese; Italian immigrants in the United States began making it with breaded veal and chicken. Chicken parm is now a fixture of Italian-American restaurants and is also popular in Australia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "4 small chicken breasts (about 600 g), flattened",
-          "2 eggs, beaten",
-          "100 g breadcrumbs",
-          "3 tbsp olive oil",
-          "400 ml tomato passata with 1 garlic clove and basil",
-          "150 g mozzarella, sliced",
-          "40 g parmesan, grated",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Season the chicken, dip in egg and coat in breadcrumbs.",
-          "Fry in the oil 3 minutes per side until golden; place in a baking dish.",
-          "Simmer the passata with garlic and basil for 10 minutes and spoon over the chicken.",
-          "Top with mozzarella and parmesan.",
-          "Bake at 200 °C for 15–20 minutes until the cheese bubbles."
-        ]
-      },
-      "tips": [
-        "Bake the breaded cutlets on a rack instead of frying them to save most of the oil.",
-        "Use half the mozzarella, or a light mozzarella; the parmesan already gives plenty of flavour.",
-        "Serve with a green salad rather than a side of pasta."
-      ]
-    },
-    "ar": {
-      "name": "دجاج بارميجانا",
-      "origin": "الولايات المتحدة · المطبخ الإيطالي الأمريكي",
-      "intro": "الدجاج بارميجانا شريحة دجاج مغطاة بالبقسماط تُخبز تحت صلصة الطماطم والموزاريلا الذائبة والبارميزان المبشور. يبقى غلاف البقسماط مقرمشًا عند الأطراف بينما يغلي الجبن ويتحمّر فوقها، فيكون طبقًا رئيسيًا غنيًا ومريحًا. يُقدَّم ساخنًا، عادةً مع سلطة أو خضار.",
-      "history": "الطبق مقتبس من الباذنجان بالبارميجانا في جنوب إيطاليا، وهو طبقات من الباذنجان مع الطماطم والجبن؛ وبدأ المهاجرون الإيطاليون في الولايات المتحدة يحضّرونه بشرائح العجل والدجاج المغطاة بالبقسماط. وأصبح اليوم من ثوابت المطاعم الإيطالية الأمريكية، وهو شائع أيضًا في أستراليا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "4 صدور دجاج صغيرة (نحو 600 غ) مفرودة",
-          "2 بيضة مخفوقة",
-          "100 غ بقسماط",
-          "3 ملاعق كبيرة زيت زيتون",
-          "400 مل صلصة طماطم مصفاة مع فص ثوم وريحان",
-          "150 غ موزاريلا مقطعة شرائح",
-          "40 غ بارميزان مبشور",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "تبّل الدجاج واغمسه في البيض ثم غطّه بالبقسماط.",
-          "اقله في الزيت 3 دقائق لكل جانب حتى يذهب لونه، وضعه في صينية خبز.",
-          "اطهُ صلصة الطماطم مع الثوم والريحان 10 دقائق ووزّعها فوق الدجاج.",
-          "غطّه بالموزاريلا والبارميزان.",
-          "اخبزه على 200 °م لمدة 15–20 دقيقة حتى يغلي الجبن."
-        ]
-      },
-      "tips": [
-        "اخبز الشرائح المغطاة بالبقسماط على شبك بدل قليها لتوفير معظم الزيت.",
-        "استخدم نصف كمية الموزاريلا أو موزاريلا خفيفة، فالبارميزان يكفي للنكهة.",
-        "قدّمه مع سلطة خضراء بدل طبق جانبي من المعكرونة."
-      ]
-    },
-    "it": {
-      "name": "Pollo alla parmigiana (chicken parm)",
-      "name_inline": "pollo alla parmigiana",
-      "origin": "Stati Uniti · Cucina italoamericana",
-      "intro": "Il pollo alla parmigiana è una cotoletta di pollo impanata cotta al forno sotto salsa di pomodoro, mozzarella fusa e parmigiano grattugiato. La panatura resta croccante ai bordi mentre il formaggio sobbolle e si dora in superficie, per un secondo piatto ricco e confortante. Si serve caldo, di solito con un contorno di insalata o verdure.",
-      "history": "Il piatto riprende le melanzane alla parmigiana dell'Italia meridionale, melanzane a strati con pomodoro e formaggio; gli immigrati italiani negli Stati Uniti iniziarono a prepararlo con vitello e pollo impanati. Il «chicken parm» è oggi un punto fermo dei ristoranti italoamericani ed è popolare anche in Australia.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "4 petti di pollo piccoli (circa 600 g), battuti",
-          "2 uova, sbattute",
-          "100 g di pangrattato",
-          "3 cucchiai di olio d'oliva",
-          "400 ml di passata di pomodoro con 1 spicchio d'aglio e basilico",
-          "150 g di mozzarella, a fette",
-          "40 g di parmigiano, grattugiato",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Condisci il pollo, passalo nell'uovo e poi nel pangrattato.",
-          "Friggilo nell'olio 3 minuti per lato finché è dorato; disponilo in una pirofila.",
-          "Fai sobbollire la passata con aglio e basilico per 10 minuti e versala sul pollo.",
-          "Copri con mozzarella e parmigiano.",
-          "Cuoci in forno a 200 °C per 15–20 minuti finché il formaggio fa le bolle."
-        ]
-      },
-      "tips": [
-        "Cuoci le cotolette impanate al forno su una griglia invece di friggerle: risparmi gran parte dell'olio.",
-        "Usa metà mozzarella, o una mozzarella light: il parmigiano dà già molto sapore.",
-        "Servilo con un'insalata verde invece che con un contorno di pasta."
-      ]
-    },
-    "el": {
-      "name": "Κοτόπουλο παρμιτζιάνα",
-      "name_inline": "κοτόπουλο παρμιτζιάνα",
-      "origin": "Ηνωμένες Πολιτείες · Ιταλοαμερικανική κουζίνα",
-      "intro": "Το κοτόπουλο παρμιτζιάνα είναι ένα πανέ φιλέτο κοτόπουλου ψημένο στον φούρνο κάτω από σάλτσα ντομάτας, λιωμένη μοτσαρέλα και τριμμένη παρμεζάνα. Η πανάδα μένει τραγανή στις άκρες ενώ το τυρί κοχλάζει και ροδίζει από πάνω, δίνοντας ένα πλούσιο, παρηγορητικό κυρίως πιάτο. Σερβίρεται ζεστό, συνήθως με σαλάτα ή λαχανικά στο πλάι.",
-      "history": "Το πιάτο προσαρμόζει τις melanzane alla parmigiana της νότιας Ιταλίας, μελιτζάνες σε στρώσεις με ντομάτα και τυρί· οι Ιταλοί μετανάστες στις Ηνωμένες Πολιτείες άρχισαν να το φτιάχνουν με πανέ μοσχαράκι και κοτόπουλο. Το «chicken parm» είναι σήμερα σταθερό πιάτο των ιταλοαμερικανικών εστιατορίων και είναι δημοφιλές και στην Αυστραλία.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "4 μικρά στήθη κοτόπουλου (περίπου 600 γρ.), χτυπημένα λεπτά",
-          "2 αυγά, χτυπημένα",
-          "100 γρ. φρυγανιά τριμμένη",
-          "3 κ.σ. ελαιόλαδο",
-          "400 ml πασάτα ντομάτας με 1 σκελίδα σκόρδο και βασιλικό",
-          "150 γρ. μοτσαρέλα, σε φέτες",
-          "40 γρ. παρμεζάνα, τριμμένη",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Αλατοπιπερώστε το κοτόπουλο, βουτήξτε το στο αυγό και πανάρετέ το με τη φρυγανιά.",
-          "Τηγανίστε στο λάδι 3 λεπτά από κάθε πλευρά μέχρι να ροδίσει· τοποθετήστε το σε ταψάκι.",
-          "Σιγοβράστε την πασάτα με το σκόρδο και τον βασιλικό για 10 λεπτά και ρίξτε τη πάνω στο κοτόπουλο.",
-          "Καλύψτε με μοτσαρέλα και παρμεζάνα.",
-          "Ψήστε στους 200 °C για 15–20 λεπτά μέχρι να κοχλάσει το τυρί."
-        ]
-      },
-      "tips": [
-        "Ψήστε τα πανέ φιλέτα στον φούρνο πάνω σε σχάρα αντί να τα τηγανίσετε, για να γλιτώσετε το περισσότερο λάδι.",
-        "Βάλτε τη μισή μοτσαρέλα ή μοτσαρέλα light· η παρμεζάνα δίνει ήδη άφθονη γεύση.",
-        "Σερβίρετε με πράσινη σαλάτα αντί για ζυμαρικά στο πλάι."
-      ]
-    },
-    "ru": {
-      "name": "Куриная пармиджана",
-      "origin": "США · итало-американская кухня",
-      "intro": "Куриная пармиджана — куриная котлета в панировке, запечённая под томатным соусом, расплавленной моцареллой и тёртым пармезаном. Панировка по краям остаётся хрустящей, пока сыр пузырится и румянится сверху, и получается сытное, уютное основное блюдо. Его подают горячим, обычно с салатом или овощами на гарнир.",
-      "history": "Блюдо — адаптация южноитальянской мелянцане алла пармиджана, баклажанов слоями с томатами и сыром; итальянские иммигранты в США начали готовить его с телятиной и курицей в панировке. Куриная пармиджана теперь неотъемлемая часть итало-американских ресторанов, а также популярна в Австралии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 50,
-        "ingredients": [
-          "4 небольшие куриные грудки (около 600 г), отбитые",
-          "2 яйца, взбитых",
-          "100 г панировочных сухарей",
-          "3 ст. л. оливкового масла",
-          "400 мл томатной пассаты с 1 зубчиком чеснока и базиликом",
-          "150 г моцареллы, нарезанной",
-          "40 г пармезана, тёртого",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Посолите и поперчите курицу, обмакните в яйцо и обваляйте в сухарях.",
-          "Обжаривайте в масле по 3 минуты с каждой стороны до золотистого цвета; переложите в форму для запекания.",
-          "Варите пассату с чесноком и базиликом 10 минут и полейте ею курицу.",
-          "Выложите сверху моцареллу и пармезан.",
-          "Запекайте при 200 °C 15–20 минут, пока сыр не запузырится."
-        ]
-      },
-      "tips": [
-        "Запекайте котлеты в панировке на решётке вместо обжаривания, чтобы сэкономить большую часть масла.",
-        "Используйте вдвое меньше моцареллы или лёгкую моцареллу; пармезан и так даёт много вкуса.",
-        "Подавайте с зелёным салатом, а не с гарниром из пасты."
-      ]
-    }
+  "ar": {
+   "name": "دجاج بارميجانا",
+   "origin": "الولايات المتحدة · المطبخ الإيطالي الأمريكي",
+   "intro": "الدجاج بارميجانا شريحة دجاج مغطاة بالبقسماط تُخبز تحت صلصة الطماطم والموزاريلا الذائبة والبارميزان المبشور. يبقى غلاف البقسماط مقرمشًا عند الأطراف بينما يغلي الجبن ويتحمّر فوقها، فيكون طبقًا رئيسيًا غنيًا ومريحًا. يُقدَّم ساخنًا، عادةً مع سلطة أو خضار.",
+   "history": "الطبق مقتبس من الباذنجان بالبارميجانا في جنوب إيطاليا، وهو طبقات من الباذنجان مع الطماطم والجبن؛ وبدأ المهاجرون الإيطاليون في الولايات المتحدة يحضّرونه بشرائح العجل والدجاج المغطاة بالبقسماط. وأصبح اليوم من ثوابت المطاعم الإيطالية الأمريكية، وهو شائع أيضًا في أستراليا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "4 صدور دجاج صغيرة (نحو 600 غ) مفرودة",
+     "2 بيضة مخفوقة",
+     "100 غ بقسماط",
+     "3 ملاعق كبيرة زيت زيتون",
+     "400 مل صلصة طماطم مصفاة مع فص ثوم وريحان",
+     "150 غ موزاريلا مقطعة شرائح",
+     "40 غ بارميزان مبشور",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "تبّل الدجاج واغمسه في البيض ثم غطّه بالبقسماط.",
+     "اقله في الزيت 3 دقائق لكل جانب حتى يذهب لونه، وضعه في صينية خبز.",
+     "اطهُ صلصة الطماطم مع الثوم والريحان 10 دقائق ووزّعها فوق الدجاج.",
+     "غطّه بالموزاريلا والبارميزان.",
+     "اخبزه على 200 °م لمدة 15–20 دقيقة حتى يغلي الجبن."
+    ]
+   },
+   "tips": [
+    "اخبز الشرائح المغطاة بالبقسماط على شبك بدل قليها لتوفير معظم الزيت.",
+    "استخدم نصف كمية الموزاريلا أو موزاريلا خفيفة، فالبارميزان يكفي للنكهة.",
+    "قدّمه مع سلطة خضراء بدل طبق جانبي من المعكرونة."
+   ]
+  },
+  "it": {
+   "name": "Pollo alla parmigiana (chicken parm)",
+   "name_inline": "pollo alla parmigiana",
+   "origin": "Stati Uniti · Cucina italoamericana",
+   "intro": "Il pollo alla parmigiana è una cotoletta di pollo impanata cotta al forno sotto salsa di pomodoro, mozzarella fusa e parmigiano grattugiato. La panatura resta croccante ai bordi mentre il formaggio sobbolle e si dora in superficie, per un secondo piatto ricco e confortante. Si serve caldo, di solito con un contorno di insalata o verdure.",
+   "history": "Il piatto riprende le melanzane alla parmigiana dell'Italia meridionale, melanzane a strati con pomodoro e formaggio; gli immigrati italiani negli Stati Uniti iniziarono a prepararlo con vitello e pollo impanati. Il «chicken parm» è oggi un punto fermo dei ristoranti italoamericani ed è popolare anche in Australia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "4 petti di pollo piccoli (circa 600 g), battuti",
+     "2 uova, sbattute",
+     "100 g di pangrattato",
+     "3 cucchiai di olio d'oliva",
+     "400 ml di passata di pomodoro con 1 spicchio d'aglio e basilico",
+     "150 g di mozzarella, a fette",
+     "40 g di parmigiano, grattugiato",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Condisci il pollo, passalo nell'uovo e poi nel pangrattato.",
+     "Friggilo nell'olio 3 minuti per lato finché è dorato; disponilo in una pirofila.",
+     "Fai sobbollire la passata con aglio e basilico per 10 minuti e versala sul pollo.",
+     "Copri con mozzarella e parmigiano.",
+     "Cuoci in forno a 200 °C per 15–20 minuti finché il formaggio fa le bolle."
+    ]
+   },
+   "tips": [
+    "Cuoci le cotolette impanate al forno su una griglia invece di friggerle: risparmi gran parte dell'olio.",
+    "Usa metà mozzarella, o una mozzarella light: il parmigiano dà già molto sapore.",
+    "Servilo con un'insalata verde invece che con un contorno di pasta."
+   ]
+  },
+  "el": {
+   "name": "Κοτόπουλο παρμιτζιάνα",
+   "name_inline": "κοτόπουλο παρμιτζιάνα",
+   "origin": "Ηνωμένες Πολιτείες · Ιταλοαμερικανική κουζίνα",
+   "intro": "Το κοτόπουλο παρμιτζιάνα είναι ένα πανέ φιλέτο κοτόπουλου ψημένο στον φούρνο κάτω από σάλτσα ντομάτας, λιωμένη μοτσαρέλα και τριμμένη παρμεζάνα. Η πανάδα μένει τραγανή στις άκρες ενώ το τυρί κοχλάζει και ροδίζει από πάνω, δίνοντας ένα πλούσιο, παρηγορητικό κυρίως πιάτο. Σερβίρεται ζεστό, συνήθως με σαλάτα ή λαχανικά στο πλάι.",
+   "history": "Το πιάτο προσαρμόζει τις melanzane alla parmigiana της νότιας Ιταλίας, μελιτζάνες σε στρώσεις με ντομάτα και τυρί· οι Ιταλοί μετανάστες στις Ηνωμένες Πολιτείες άρχισαν να το φτιάχνουν με πανέ μοσχαράκι και κοτόπουλο. Το «chicken parm» είναι σήμερα σταθερό πιάτο των ιταλοαμερικανικών εστιατορίων και είναι δημοφιλές και στην Αυστραλία.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "4 μικρά στήθη κοτόπουλου (περίπου 600 γρ.), χτυπημένα λεπτά",
+     "2 αυγά, χτυπημένα",
+     "100 γρ. φρυγανιά τριμμένη",
+     "3 κ.σ. ελαιόλαδο",
+     "400 ml πασάτα ντομάτας με 1 σκελίδα σκόρδο και βασιλικό",
+     "150 γρ. μοτσαρέλα, σε φέτες",
+     "40 γρ. παρμεζάνα, τριμμένη",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Αλατοπιπερώστε το κοτόπουλο, βουτήξτε το στο αυγό και πανάρετέ το με τη φρυγανιά.",
+     "Τηγανίστε στο λάδι 3 λεπτά από κάθε πλευρά μέχρι να ροδίσει· τοποθετήστε το σε ταψάκι.",
+     "Σιγοβράστε την πασάτα με το σκόρδο και τον βασιλικό για 10 λεπτά και ρίξτε τη πάνω στο κοτόπουλο.",
+     "Καλύψτε με μοτσαρέλα και παρμεζάνα.",
+     "Ψήστε στους 200 °C για 15–20 λεπτά μέχρι να κοχλάσει το τυρί."
+    ]
+   },
+   "tips": [
+    "Ψήστε τα πανέ φιλέτα στον φούρνο πάνω σε σχάρα αντί να τα τηγανίσετε, για να γλιτώσετε το περισσότερο λάδι.",
+    "Βάλτε τη μισή μοτσαρέλα ή μοτσαρέλα light· η παρμεζάνα δίνει ήδη άφθονη γεύση.",
+    "Σερβίρετε με πράσινη σαλάτα αντί για ζυμαρικά στο πλάι."
+   ]
+  },
+  "ru": {
+   "name": "Куриная пармиджана",
+   "origin": "США · итало-американская кухня",
+   "intro": "Куриная пармиджана — куриная котлета в панировке, запечённая под томатным соусом, расплавленной моцареллой и тёртым пармезаном. Панировка по краям остаётся хрустящей, пока сыр пузырится и румянится сверху, и получается сытное, уютное основное блюдо. Его подают горячим, обычно с салатом или овощами на гарнир.",
+   "history": "Блюдо — адаптация южноитальянской мелянцане алла пармиджана, баклажанов слоями с томатами и сыром; итальянские иммигранты в США начали готовить его с телятиной и курицей в панировке. Куриная пармиджана теперь неотъемлемая часть итало-американских ресторанов, а также популярна в Австралии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "4 небольшие куриные грудки (около 600 г), отбитые",
+     "2 яйца, взбитых",
+     "100 г панировочных сухарей",
+     "3 ст. л. оливкового масла",
+     "400 мл томатной пассаты с 1 зубчиком чеснока и базиликом",
+     "150 г моцареллы, нарезанной",
+     "40 г пармезана, тёртого",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Посолите и поперчите курицу, обмакните в яйцо и обваляйте в сухарях.",
+     "Обжаривайте в масле по 3 минуты с каждой стороны до золотистого цвета; переложите в форму для запекания.",
+     "Варите пассату с чесноком и базиликом 10 минут и полейте ею курицу.",
+     "Выложите сверху моцареллу и пармезан.",
+     "Запекайте при 200 °C 15–20 минут, пока сыр не запузырится."
+    ]
+   },
+   "tips": [
+    "Запекайте котлеты в панировке на решётке вместо обжаривания, чтобы сэкономить большую часть масла.",
+    "Используйте вдвое меньше моцареллы или лёгкую моцареллу; пармезан и так даёт много вкуса.",
+    "Подавайте с зелёным салатом, а не с гарниром из пасты."
+   ]
+  },
+  "es": {
+   "name": "Pollo a la parmesana",
+   "origin": "Estados Unidos · Cocina ítalo-estadounidense",
+   "intro": "El pollo a la parmesana es una milanesa de pollo horneada con salsa de tomate, mozzarella derretida y queso parmesano rallado. El empanizado se mantiene crujiente en los bordes mientras el queso burbujea y se dora por encima, y el resultado es un plato principal reconfortante y contundente. Se sirve caliente, por lo general con una ensalada o verduras.",
+   "history": "El plato es una adaptación de la melanzane alla parmigiana del sur de Italia, de berenjenas en capas con tomate y queso; los inmigrantes italianos en Estados Unidos empezaron a prepararlo con ternera y pollo empanizados. Hoy es un clásico de los restaurantes ítalo-estadounidenses y también es muy popular en Australia.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 50,
+    "ingredients": [
+     "4 pechugas de pollo pequeñas (unos 600 g), aplanadas",
+     "2 huevos, batidos",
+     "100 g de pan molido",
+     "3 cda. de aceite de oliva",
+     "400 ml de pasata de tomate con 1 diente de ajo y albahaca",
+     "150 g de mozzarella, en rebanadas",
+     "40 g de queso parmesano, rallado",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Sazona el pollo, pásalo por huevo y empánalo con el pan molido.",
+     "Fríelo en el aceite 3 minutos por lado, hasta que dore, y colócalo en un molde para hornear.",
+     "Cocina la pasata con el ajo y la albahaca a fuego lento durante 10 minutos y vierte la salsa sobre el pollo.",
+     "Cubre con la mozzarella y el parmesano.",
+     "Hornea a 200 °C durante 15–20 minutos, hasta que el queso burbujee."
+    ]
+   },
+   "tips": [
+    "Hornea las milanesas empanizadas sobre una rejilla en lugar de freírlas y ahorrarás casi todo el aceite.",
+    "Usa la mitad de la mozzarella, o una mozzarella light; el parmesano ya aporta mucho sabor.",
+    "Acompáñalo con una ensalada verde en lugar de pasta."
+   ],
+   "name_inline": "el pollo a la parmesana"
   }
+ }
 }

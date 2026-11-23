@@ -1,161 +1,191 @@
 {
-  "db_key": "shawarma_lamb",
-  "slug": "shawarma-lamb",
-  "emoji": "🌯",
-  "portion_g": 300,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "shawarma_lamb",
+ "slug": "shawarma-lamb",
+ "emoji": "🌯",
+ "portion_g": 300,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Lamb shawarma",
+   "origin": "Levant · Middle East",
+   "intro": "Lamb shawarma is spiced lamb roasted on a vertical spit and carved into thin, crisp-edged slices. It is rolled in pita with tahini sauce, garlic, a squeeze of lemon and pickles, giving a richer, more intense flavour than chicken shawarma. It is served as a wrap or on a plate with the same sauce and pickles.",
+   "history": "Vertical-spit roasting developed in Ottoman lands, probably in the 19th century, and lamb and mutton were among the traditional meats used. The Arabic name comes from the Turkish çevirme, “turning”. Lamb or mixed lamb-and-beef shawarma with tahini remains a classic across Lebanon, Syria, Jordan and Palestine.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g boneless lamb leg, thinly sliced",
+     "Juice of 1 lemon, 3 garlic cloves, 1 tbsp oil, salt",
+     "2 tsp seven-spice mix (allspice, cinnamon, cumin, black pepper, nutmeg, cloves, coriander)",
+     "4 tbsp tahini whisked with lemon juice and water",
+     "4 pita breads",
+     "Pickles, onion and parsley"
+    ],
+    "steps": [
+     "Marinate the lamb with lemon, garlic, oil, spices and salt for at least 3 hours.",
+     "Sear in batches in a very hot pan for 2–3 minutes until browned and slightly crisp.",
+     "Whisk the tahini with lemon juice and water into a pourable sauce.",
+     "Fill each pita with lamb, tahini sauce, pickles, onion and parsley and roll tightly."
+    ]
+   },
+   "tips": [
+    "Lamb leg is leaner than shoulder; trim any visible fat before slicing.",
+    "Use a thin drizzle of tahini sauce rather than a thick layer.",
+    "Pair a smaller wrap with a big parsley-and-onion salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Lamb shawarma",
-      "origin": "Levant · Middle East",
-      "intro": "Lamb shawarma is spiced lamb roasted on a vertical spit and carved into thin, crisp-edged slices. It is rolled in pita with tahini sauce, garlic, a squeeze of lemon and pickles, giving a richer, more intense flavour than chicken shawarma. It is served as a wrap or on a plate with the same sauce and pickles.",
-      "history": "Vertical-spit roasting developed in Ottoman lands, probably in the 19th century, and lamb and mutton were among the traditional meats used. The Arabic name comes from the Turkish çevirme, “turning”. Lamb or mixed lamb-and-beef shawarma with tahini remains a classic across Lebanon, Syria, Jordan and Palestine.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 g boneless lamb leg, thinly sliced",
-          "Juice of 1 lemon, 3 garlic cloves, 1 tbsp oil, salt",
-          "2 tsp seven-spice mix (allspice, cinnamon, cumin, black pepper, nutmeg, cloves, coriander)",
-          "4 tbsp tahini whisked with lemon juice and water",
-          "4 pita breads",
-          "Pickles, onion and parsley"
-        ],
-        "steps": [
-          "Marinate the lamb with lemon, garlic, oil, spices and salt for at least 3 hours.",
-          "Sear in batches in a very hot pan for 2–3 minutes until browned and slightly crisp.",
-          "Whisk the tahini with lemon juice and water into a pourable sauce.",
-          "Fill each pita with lamb, tahini sauce, pickles, onion and parsley and roll tightly."
-        ]
-      },
-      "tips": [
-        "Lamb leg is leaner than shoulder; trim any visible fat before slicing.",
-        "Use a thin drizzle of tahini sauce rather than a thick layer.",
-        "Pair a smaller wrap with a big parsley-and-onion salad."
-      ]
-    },
-    "ar": {
-      "name": "شاورما لحم ضأن",
-      "origin": "بلاد الشام · الشرق الأوسط",
-      "intro": "شاورما الضأن لحم غنم متبل يُشوى على سيخ عمودي ويُقطع شرائح رقيقة مقرمشة الأطراف. يُلف في الخبز العربي مع الطحينة والثوم وعصرة ليمون والمخللات، فيمنح نكهة أغنى وأقوى من شاورما الدجاج. ويُقدَّم سندويشاً أو صحناً مع الصلصة والمخللات نفسها.",
-      "history": "تطوّر الشواء على السيخ العمودي في الأراضي العثمانية، على الأرجح في القرن التاسع عشر، وكان لحم الضأن من اللحوم التقليدية المستخدمة فيه. واسمها مأخوذ من الكلمة التركية «تشويرمه» أي الدوران. ولا تزال شاورما الضأن أو المزيج من الضأن والبقر مع الطحينة طبقاً كلاسيكياً في لبنان وسوريا والأردن وفلسطين.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 غ لحم فخذ ضأن بلا عظم شرائح رقيقة",
-          "عصير ليمونة، 3 فصوص ثوم، 1 ملعقة كبيرة زيت، ملح",
-          "2 ملعقة صغيرة بهارات سبعة (بهار حلو، قرفة، كمون، فلفل أسود، جوزة الطيب، قرنفل، كزبرة)",
-          "4 ملاعق كبيرة طحينة مخفوقة مع الليمون والماء",
-          "4 أرغفة خبز عربي",
-          "مخللات وبصل وبقدونس"
-        ],
-        "steps": [
-          "تبّل اللحم بالليمون والثوم والزيت والبهارات والملح 3 ساعات على الأقل.",
-          "حمّره على دفعات في مقلاة شديدة الحرارة 2–3 دقائق حتى يتحمر ويصبح مقرمشاً قليلاً.",
-          "اخفق الطحينة مع الليمون والماء حتى تصبح صلصة سائلة.",
-          "احشُ كل رغيف باللحم والطحينة والمخللات والبصل والبقدونس ولفّه بإحكام."
-        ]
-      },
-      "tips": [
-        "لحم الفخذ أقل دهناً من الكتف؛ أزل الدهن الظاهر قبل التقطيع.",
-        "استخدم خيطاً رقيقاً من الطحينة بدلاً من طبقة سميكة.",
-        "اجمع سندويشاً أصغر مع سلطة كبيرة من البقدونس والبصل."
-      ]
-    },
-    "it": {
-      "name": "Shawarma di agnello",
-      "name_inline": "shawarma di agnello",
-      "origin": "Levante · Medio Oriente",
-      "intro": "Lo shawarma di agnello è agnello speziato arrostito su uno spiedo verticale e tagliato in fettine sottili dai bordi croccanti. Si arrotola nella pita con salsa tahina, aglio, una spruzzata di limone e sottaceti, con un sapore più ricco e intenso dello shawarma di pollo. Si serve come panino arrotolato o al piatto con la stessa salsa e gli stessi sottaceti.",
-      "history": "La cottura allo spiedo verticale si sviluppò nelle terre ottomane, probabilmente nel XIX secolo, e l'agnello e il montone erano tra le carni tradizionalmente usate. Il nome arabo deriva dal turco çevirme, «girare». Lo shawarma di agnello, o misto di agnello e manzo, con tahina resta un classico in Libano, Siria, Giordania e Palestina.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 g di cosciotto d'agnello disossato, a fettine sottili",
-          "Succo di 1 limone, 3 spicchi d'aglio, 1 cucchiaio di olio, sale",
-          "2 cucchiaini di miscela sette spezie (pimento, cannella, cumino, pepe nero, noce moscata, chiodi di garofano, coriandolo)",
-          "4 cucchiai di tahina sbattuta con succo di limone e acqua",
-          "4 pane pita",
-          "Sottaceti, cipolla e prezzemolo"
-        ],
-        "steps": [
-          "Marina l'agnello con limone, aglio, olio, spezie e sale per almeno 3 ore.",
-          "Rosola poco alla volta in una padella rovente per 2–3 minuti, finché è dorato e leggermente croccante.",
-          "Sbatti la tahina con succo di limone e acqua fino a ottenere una salsa fluida.",
-          "Farcisci ogni pita con agnello, salsa tahina, sottaceti, cipolla e prezzemolo e arrotola ben stretto."
-        ]
-      },
-      "tips": [
-        "Il cosciotto d'agnello è più magro della spalla; elimina il grasso visibile prima di affettarlo.",
-        "Usa un filo sottile di salsa tahina invece di uno strato spesso.",
-        "Abbina un panino più piccolo a una grande insalata di prezzemolo e cipolla."
-      ]
-    },
-    "el": {
-      "name": "Σαουρμάς αρνί",
-      "name_inline": "σαουρμάς αρνί",
-      "origin": "Λεβάντε · Μέση Ανατολή",
-      "intro": "Ο σαουρμάς αρνί είναι μπαχαρένιο αρνί ψημένο σε κάθετη σούβλα και κομμένο σε λεπτές φέτες με τραγανές άκρες. Τυλίγεται σε πίτα με σάλτσα ταχινιού, σκόρδο, λίγο λεμόνι και τουρσιά και έχει πιο πλούσια, πιο έντονη γεύση από τον σαουρμά κοτόπουλο. Σερβίρεται τυλιχτός ή σε πιάτο με την ίδια σάλτσα και τα ίδια τουρσιά.",
-      "history": "Το ψήσιμο σε κάθετη σούβλα αναπτύχθηκε στα οθωμανικά εδάφη, πιθανότατα τον 19ο αιώνα, και το αρνί και το πρόβειο ήταν από τα παραδοσιακά κρέατα που χρησιμοποιούνταν. Η αραβική ονομασία προέρχεται από το τουρκικό çevirme, «γύρισμα». Ο σαουρμάς αρνί ή ανάμεικτος αρνί-μοσχάρι με ταχίνι παραμένει κλασικός σε Λίβανο, Συρία, Ιορδανία και Παλαιστίνη.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 γρ. αρνίσιο μπούτι χωρίς κόκαλο, σε λεπτές φέτες",
-          "Χυμός από 1 λεμόνι, 3 σκελίδες σκόρδο, 1 κ.σ. λάδι, αλάτι",
-          "2 κ.γ. μείγμα επτά μπαχαρικών (μπαχάρι, κανέλα, κύμινο, μαύρο πιπέρι, μοσχοκάρυδο, γαρίφαλο, κόλιανδρος)",
-          "4 κ.σ. ταχίνι χτυπημένο με χυμό λεμονιού και νερό",
-          "4 αραβικές πίτες",
-          "Τουρσιά, κρεμμύδι και μαϊντανός"
-        ],
-        "steps": [
-          "Μαρινάρετε το αρνί με λεμόνι, σκόρδο, λάδι, μπαχαρικά και αλάτι για τουλάχιστον 3 ώρες.",
-          "Σοτάρετε σε δόσεις σε πολύ καυτό τηγάνι για 2–3 λεπτά, μέχρι να ροδίσει και να τραγανίσει ελαφρά.",
-          "Χτυπήστε το ταχίνι με χυμό λεμονιού και νερό σε ρευστή σάλτσα.",
-          "Γεμίστε κάθε πίτα με αρνί, σάλτσα ταχινιού, τουρσιά, κρεμμύδι και μαϊντανό και τυλίξτε σφιχτά."
-        ]
-      },
-      "tips": [
-        "Το αρνίσιο μπούτι είναι πιο άπαχο από τη σπάλα· αφαιρέστε το ορατό λίπος πριν το κόψετε.",
-        "Βάλτε λίγη σάλτσα ταχινιού σε λεπτή γραμμή αντί για παχύ στρώμα.",
-        "Συνδυάστε ένα μικρότερο τυλιχτό με μεγάλη σαλάτα μαϊντανού και κρεμμυδιού."
-      ]
-    },
-    "ru": {
-      "name": "Шаурма из баранины",
-      "origin": "Левант · Ближний Восток",
-      "intro": "Шаурма из баранины — пряная баранина, зажаренная на вертикальном вертеле и нарезанная тонкими ломтиками с хрустящими краями. Её заворачивают в питу с соусом из тахини, чесноком, каплей лимонного сока и маринадами, получая более насыщенный и интенсивный вкус, чем у куриной шаурмы. Подаётся как ролл или на тарелке с тем же соусом и маринадами.",
-      "history": "Жарка на вертикальном вертеле сложилась в османских землях, вероятно, в XIX веке, и баранина была среди традиционных видов мяса. Арабское название происходит от турецкого çevirme, «поворачивание». Шаурма из баранины или из смеси баранины и говядины с тахини остаётся классикой в Ливане, Сирии, Иордании и Палестине.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 г бараньего окорока без костей, нарезанного тонко",
-          "Сок 1 лимона, 3 зубчика чеснока, 1 ст. л. масла, соль",
-          "2 ч. л. смеси семи специй (душистый перец, корица, зира, чёрный перец, мускатный орех, гвоздика, кориандр)",
-          "4 ст. л. тахини, взбитого с лимонным соком и водой",
-          "4 питы",
-          "Маринады, лук и петрушка"
-        ],
-        "steps": [
-          "Мариновайте баранину с лимоном, чесноком, маслом, специями и солью не менее 3 часов.",
-          "Обжаривайте порциями на очень горячей сковороде по 2–3 минуты до румяности и лёгкого хруста.",
-          "Взбейте тахини с лимонным соком и водой до жидкого соуса.",
-          "Наполните каждую питу бараниной, соусом из тахини, маринадами, луком и петрушкой и плотно сверните."
-        ]
-      },
-      "tips": [
-        "Окорок баранины постнее лопатки; срежьте видимый жир перед нарезкой.",
-        "Поливайте тонкой струйкой соуса из тахини, а не накладывайте густой слой.",
-        "Подайте меньший ролл с большим салатом из петрушки и лука."
-      ]
-    }
+  "ar": {
+   "name": "شاورما لحم ضأن",
+   "origin": "بلاد الشام · الشرق الأوسط",
+   "intro": "شاورما الضأن لحم غنم متبل يُشوى على سيخ عمودي ويُقطع شرائح رقيقة مقرمشة الأطراف. يُلف في الخبز العربي مع الطحينة والثوم وعصرة ليمون والمخللات، فيمنح نكهة أغنى وأقوى من شاورما الدجاج. ويُقدَّم سندويشاً أو صحناً مع الصلصة والمخللات نفسها.",
+   "history": "تطوّر الشواء على السيخ العمودي في الأراضي العثمانية، على الأرجح في القرن التاسع عشر، وكان لحم الضأن من اللحوم التقليدية المستخدمة فيه. واسمها مأخوذ من الكلمة التركية «تشويرمه» أي الدوران. ولا تزال شاورما الضأن أو المزيج من الضأن والبقر مع الطحينة طبقاً كلاسيكياً في لبنان وسوريا والأردن وفلسطين.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 غ لحم فخذ ضأن بلا عظم شرائح رقيقة",
+     "عصير ليمونة، 3 فصوص ثوم، 1 ملعقة كبيرة زيت، ملح",
+     "2 ملعقة صغيرة بهارات سبعة (بهار حلو، قرفة، كمون، فلفل أسود، جوزة الطيب، قرنفل، كزبرة)",
+     "4 ملاعق كبيرة طحينة مخفوقة مع الليمون والماء",
+     "4 أرغفة خبز عربي",
+     "مخللات وبصل وبقدونس"
+    ],
+    "steps": [
+     "تبّل اللحم بالليمون والثوم والزيت والبهارات والملح 3 ساعات على الأقل.",
+     "حمّره على دفعات في مقلاة شديدة الحرارة 2–3 دقائق حتى يتحمر ويصبح مقرمشاً قليلاً.",
+     "اخفق الطحينة مع الليمون والماء حتى تصبح صلصة سائلة.",
+     "احشُ كل رغيف باللحم والطحينة والمخللات والبصل والبقدونس ولفّه بإحكام."
+    ]
+   },
+   "tips": [
+    "لحم الفخذ أقل دهناً من الكتف؛ أزل الدهن الظاهر قبل التقطيع.",
+    "استخدم خيطاً رقيقاً من الطحينة بدلاً من طبقة سميكة.",
+    "اجمع سندويشاً أصغر مع سلطة كبيرة من البقدونس والبصل."
+   ]
+  },
+  "it": {
+   "name": "Shawarma di agnello",
+   "name_inline": "shawarma di agnello",
+   "origin": "Levante · Medio Oriente",
+   "intro": "Lo shawarma di agnello è agnello speziato arrostito su uno spiedo verticale e tagliato in fettine sottili dai bordi croccanti. Si arrotola nella pita con salsa tahina, aglio, una spruzzata di limone e sottaceti, con un sapore più ricco e intenso dello shawarma di pollo. Si serve come panino arrotolato o al piatto con la stessa salsa e gli stessi sottaceti.",
+   "history": "La cottura allo spiedo verticale si sviluppò nelle terre ottomane, probabilmente nel XIX secolo, e l'agnello e il montone erano tra le carni tradizionalmente usate. Il nome arabo deriva dal turco çevirme, «girare». Lo shawarma di agnello, o misto di agnello e manzo, con tahina resta un classico in Libano, Siria, Giordania e Palestina.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g di cosciotto d'agnello disossato, a fettine sottili",
+     "Succo di 1 limone, 3 spicchi d'aglio, 1 cucchiaio di olio, sale",
+     "2 cucchiaini di miscela sette spezie (pimento, cannella, cumino, pepe nero, noce moscata, chiodi di garofano, coriandolo)",
+     "4 cucchiai di tahina sbattuta con succo di limone e acqua",
+     "4 pane pita",
+     "Sottaceti, cipolla e prezzemolo"
+    ],
+    "steps": [
+     "Marina l'agnello con limone, aglio, olio, spezie e sale per almeno 3 ore.",
+     "Rosola poco alla volta in una padella rovente per 2–3 minuti, finché è dorato e leggermente croccante.",
+     "Sbatti la tahina con succo di limone e acqua fino a ottenere una salsa fluida.",
+     "Farcisci ogni pita con agnello, salsa tahina, sottaceti, cipolla e prezzemolo e arrotola ben stretto."
+    ]
+   },
+   "tips": [
+    "Il cosciotto d'agnello è più magro della spalla; elimina il grasso visibile prima di affettarlo.",
+    "Usa un filo sottile di salsa tahina invece di uno strato spesso.",
+    "Abbina un panino più piccolo a una grande insalata di prezzemolo e cipolla."
+   ]
+  },
+  "el": {
+   "name": "Σαουρμάς αρνί",
+   "name_inline": "σαουρμάς αρνί",
+   "origin": "Λεβάντε · Μέση Ανατολή",
+   "intro": "Ο σαουρμάς αρνί είναι μπαχαρένιο αρνί ψημένο σε κάθετη σούβλα και κομμένο σε λεπτές φέτες με τραγανές άκρες. Τυλίγεται σε πίτα με σάλτσα ταχινιού, σκόρδο, λίγο λεμόνι και τουρσιά και έχει πιο πλούσια, πιο έντονη γεύση από τον σαουρμά κοτόπουλο. Σερβίρεται τυλιχτός ή σε πιάτο με την ίδια σάλτσα και τα ίδια τουρσιά.",
+   "history": "Το ψήσιμο σε κάθετη σούβλα αναπτύχθηκε στα οθωμανικά εδάφη, πιθανότατα τον 19ο αιώνα, και το αρνί και το πρόβειο ήταν από τα παραδοσιακά κρέατα που χρησιμοποιούνταν. Η αραβική ονομασία προέρχεται από το τουρκικό çevirme, «γύρισμα». Ο σαουρμάς αρνί ή ανάμεικτος αρνί-μοσχάρι με ταχίνι παραμένει κλασικός σε Λίβανο, Συρία, Ιορδανία και Παλαιστίνη.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 γρ. αρνίσιο μπούτι χωρίς κόκαλο, σε λεπτές φέτες",
+     "Χυμός από 1 λεμόνι, 3 σκελίδες σκόρδο, 1 κ.σ. λάδι, αλάτι",
+     "2 κ.γ. μείγμα επτά μπαχαρικών (μπαχάρι, κανέλα, κύμινο, μαύρο πιπέρι, μοσχοκάρυδο, γαρίφαλο, κόλιανδρος)",
+     "4 κ.σ. ταχίνι χτυπημένο με χυμό λεμονιού και νερό",
+     "4 αραβικές πίτες",
+     "Τουρσιά, κρεμμύδι και μαϊντανός"
+    ],
+    "steps": [
+     "Μαρινάρετε το αρνί με λεμόνι, σκόρδο, λάδι, μπαχαρικά και αλάτι για τουλάχιστον 3 ώρες.",
+     "Σοτάρετε σε δόσεις σε πολύ καυτό τηγάνι για 2–3 λεπτά, μέχρι να ροδίσει και να τραγανίσει ελαφρά.",
+     "Χτυπήστε το ταχίνι με χυμό λεμονιού και νερό σε ρευστή σάλτσα.",
+     "Γεμίστε κάθε πίτα με αρνί, σάλτσα ταχινιού, τουρσιά, κρεμμύδι και μαϊντανό και τυλίξτε σφιχτά."
+    ]
+   },
+   "tips": [
+    "Το αρνίσιο μπούτι είναι πιο άπαχο από τη σπάλα· αφαιρέστε το ορατό λίπος πριν το κόψετε.",
+    "Βάλτε λίγη σάλτσα ταχινιού σε λεπτή γραμμή αντί για παχύ στρώμα.",
+    "Συνδυάστε ένα μικρότερο τυλιχτό με μεγάλη σαλάτα μαϊντανού και κρεμμυδιού."
+   ]
+  },
+  "ru": {
+   "name": "Шаурма из баранины",
+   "origin": "Левант · Ближний Восток",
+   "intro": "Шаурма из баранины — пряная баранина, зажаренная на вертикальном вертеле и нарезанная тонкими ломтиками с хрустящими краями. Её заворачивают в питу с соусом из тахини, чесноком, каплей лимонного сока и маринадами, получая более насыщенный и интенсивный вкус, чем у куриной шаурмы. Подаётся как ролл или на тарелке с тем же соусом и маринадами.",
+   "history": "Жарка на вертикальном вертеле сложилась в османских землях, вероятно, в XIX веке, и баранина была среди традиционных видов мяса. Арабское название происходит от турецкого çevirme, «поворачивание». Шаурма из баранины или из смеси баранины и говядины с тахини остаётся классикой в Ливане, Сирии, Иордании и Палестине.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 г бараньего окорока без костей, нарезанного тонко",
+     "Сок 1 лимона, 3 зубчика чеснока, 1 ст. л. масла, соль",
+     "2 ч. л. смеси семи специй (душистый перец, корица, зира, чёрный перец, мускатный орех, гвоздика, кориандр)",
+     "4 ст. л. тахини, взбитого с лимонным соком и водой",
+     "4 питы",
+     "Маринады, лук и петрушка"
+    ],
+    "steps": [
+     "Мариновайте баранину с лимоном, чесноком, маслом, специями и солью не менее 3 часов.",
+     "Обжаривайте порциями на очень горячей сковороде по 2–3 минуты до румяности и лёгкого хруста.",
+     "Взбейте тахини с лимонным соком и водой до жидкого соуса.",
+     "Наполните каждую питу бараниной, соусом из тахини, маринадами, луком и петрушкой и плотно сверните."
+    ]
+   },
+   "tips": [
+    "Окорок баранины постнее лопатки; срежьте видимый жир перед нарезкой.",
+    "Поливайте тонкой струйкой соуса из тахини, а не накладывайте густой слой.",
+    "Подайте меньший ролл с большим салатом из петрушки и лука."
+   ]
+  },
+  "es": {
+   "name": "Shawarma de cordero",
+   "origin": "Levante · Medio Oriente",
+   "intro": "El shawarma de cordero es carne de cordero especiada, asada en un trompo vertical y cortada en lonchas finas de bordes crujientes. Se enrolla en pan pita con salsa de tahini, ajo, un chorrito de limón y pepinillos, y tiene un sabor más intenso y rico que el shawarma de pollo. Se sirve como rollo o en plato, con la misma salsa y los mismos encurtidos.",
+   "history": "El asado en trompo vertical se desarrolló en tierras otomanas, probablemente en el siglo XIX, y el cordero y el carnero estaban entre las carnes tradicionales que se usaban. El nombre árabe viene del turco çevirme, «dar vueltas». El shawarma de cordero, o mixto de cordero y res, con tahini sigue siendo un clásico en Líbano, Siria, Jordania y Palestina.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g de pierna de cordero deshuesada, en lonchas finas",
+     "Jugo de 1 limón, 3 dientes de ajo, 1 cda. de aceite, sal",
+     "2 cdtas. de mezcla de siete especias (pimienta de Jamaica, canela, comino, pimienta negra, nuez moscada, clavo de olor, cilantro)",
+     "4 cdas. de tahini batido con jugo de limón y agua",
+     "4 panes pita",
+     "Pepinillos, cebolla y perejil"
+    ],
+    "steps": [
+     "Marina el cordero con el limón, el ajo, el aceite, las especias y la sal durante al menos 3 horas.",
+     "Sella por tandas en una sartén muy caliente de 2 a 3 minutos, hasta que se dore y quede ligeramente crujiente.",
+     "Bate el tahini con jugo de limón y agua hasta obtener una salsa fluida.",
+     "Rellena cada pita con cordero, salsa de tahini, pepinillos, cebolla y perejil, y enrolla con firmeza."
+    ]
+   },
+   "tips": [
+    "La pierna de cordero es más magra que la paleta; retira la grasa visible antes de cortar.",
+    "Usa un chorrito fino de salsa de tahini en lugar de una capa gruesa.",
+    "Combina un rollo más pequeño con una ensalada grande de perejil y cebolla."
+   ],
+   "name_inline": "el shawarma de cordero"
   }
+ }
 }

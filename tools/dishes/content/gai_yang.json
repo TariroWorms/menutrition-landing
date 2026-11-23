@@ -1,177 +1,210 @@
 {
-  "db_key": "gai_yang",
-  "slug": "gai-yang",
-  "emoji": "🍗",
-  "portion_g": 250,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "gai_yang",
+ "slug": "gai-yang",
+ "emoji": "🍗",
+ "portion_g": 250,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Gai yang (Thai grilled chicken)",
+   "origin": "Thailand · Isan",
+   "intro": "Gai yang is Thai grilled chicken marinated in a paste of lemongrass, garlic, cilantro root, black pepper and fish sauce, then cooked slowly over charcoal until the skin is smoky and lightly charred. The meat stays juicy and fragrant. It is typically eaten with sticky rice, green papaya salad and a sour-spicy dipping sauce of chili and tamarind.",
+   "history": "Gai yang comes from Isan, the north-eastern region of Thailand, where it forms a classic trio with som tam and sticky rice. Vendors from Isan spread it to Bangkok and across the country, and many towns are known for their own style.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg chicken pieces (thighs and legs), or a spatchcocked chicken",
+     "3 lemongrass stalks, finely chopped",
+     "6 garlic cloves",
+     "4 cilantro roots with stems",
+     "1 tsp black peppercorns",
+     "3 tbsp fish sauce",
+     "1 tbsp palm or brown sugar",
+     "1 tbsp oil"
+    ],
+    "steps": [
+     "Pound or blend the lemongrass, garlic, cilantro root and peppercorns into a paste.",
+     "Mix in the fish sauce, sugar and oil and rub the paste all over the chicken.",
+     "Marinate for at least 2 hours, or overnight in the fridge.",
+     "Grill over medium charcoal or under an oven grill for 30–40 minutes, turning often, until cooked through and browned.",
+     "Rest for 5 minutes, then cut into pieces and serve."
+    ]
+   },
+   "tips": [
+    "Remove the skin before eating to cut a large share of the fat.",
+    "Breast meat grills well with this marinade and is leaner than thighs.",
+    "Pair it with green papaya salad and a small portion of sticky rice rather than a large basket."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Gai yang (Thai grilled chicken)",
-      "origin": "Thailand · Isan",
-      "intro": "Gai yang is Thai grilled chicken marinated in a paste of lemongrass, garlic, cilantro root, black pepper and fish sauce, then cooked slowly over charcoal until the skin is smoky and lightly charred. The meat stays juicy and fragrant. It is typically eaten with sticky rice, green papaya salad and a sour-spicy dipping sauce of chili and tamarind.",
-      "history": "Gai yang comes from Isan, the north-eastern region of Thailand, where it forms a classic trio with som tam and sticky rice. Vendors from Isan spread it to Bangkok and across the country, and many towns are known for their own style.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg chicken pieces (thighs and legs), or a spatchcocked chicken",
-          "3 lemongrass stalks, finely chopped",
-          "6 garlic cloves",
-          "4 cilantro roots with stems",
-          "1 tsp black peppercorns",
-          "3 tbsp fish sauce",
-          "1 tbsp palm or brown sugar",
-          "1 tbsp oil"
-        ],
-        "steps": [
-          "Pound or blend the lemongrass, garlic, cilantro root and peppercorns into a paste.",
-          "Mix in the fish sauce, sugar and oil and rub the paste all over the chicken.",
-          "Marinate for at least 2 hours, or overnight in the fridge.",
-          "Grill over medium charcoal or under an oven grill for 30–40 minutes, turning often, until cooked through and browned.",
-          "Rest for 5 minutes, then cut into pieces and serve."
-        ]
-      },
-      "tips": [
-        "Remove the skin before eating to cut a large share of the fat.",
-        "Breast meat grills well with this marinade and is leaner than thighs.",
-        "Pair it with green papaya salad and a small portion of sticky rice rather than a large basket."
-      ]
-    },
-    "ar": {
-      "name": "دجاج مشوي تايلاندي (غاي يانغ)",
-      "origin": "تايلاند · إيسان",
-      "intro": "غاي يانغ دجاج تايلاندي مشوي متبّل بمعجون من عشب الليمون والثوم وجذور الكزبرة والفلفل الأسود وصلصة السمك، ثم يُشوى ببطء على الفحم حتى يكتسب الجلد نكهة مدخّنة ويتحمّر قليلاً. يبقى اللحم عصيرياً عطِراً. يُؤكل عادةً مع الأرز اللزج وسلطة البابايا الخضراء وصلصة تغميس حامضة حارة من الفلفل الحار والتمر الهندي.",
-      "history": "نشأ غاي يانغ في إيسان، الإقليم الشمالي الشرقي من تايلاند، حيث يشكّل ثلاثياً كلاسيكياً مع سلطة سوم تام والأرز اللزج. ونشره باعة من إيسان إلى بانكوك وأنحاء البلاد، وتشتهر مدن كثيرة بأسلوبها الخاص فيه.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 كغ قطع دجاج (أفخاذ وأوراك) أو دجاجة مفتوحة مسطّحة",
-          "3 أعواد عشب ليمون مفرومة ناعماً",
-          "6 فصوص ثوم",
-          "4 جذور كزبرة مع سيقانها",
-          "ملعقة صغيرة حبوب فلفل أسود",
-          "3 ملاعق كبيرة صلصة سمك",
-          "ملعقة كبيرة سكر نخيل أو سكر بني",
-          "ملعقة كبيرة زيت"
-        ],
-        "steps": [
-          "اهرس عشب الليمون والثوم وجذور الكزبرة وحبوب الفلفل حتى تصبح معجوناً.",
-          "اخلط معها صلصة السمك والسكر والزيت وادهن الدجاج بالمعجون جيداً.",
-          "اتركه يتتبّل ساعتين على الأقل، أو ليلة كاملة في الثلاجة.",
-          "اشوِه على فحم متوسط الحرارة أو تحت شواية الفرن 30–40 دقيقة مع التقليب حتى ينضج ويتحمّر.",
-          "اتركه يرتاح 5 دقائق، ثم قطّعه وقدّمه."
-        ]
-      },
-      "tips": [
-        "أزل الجلد قبل الأكل للتخلص من جزء كبير من الدهن.",
-        "صدر الدجاج يُشوى جيداً مع هذه التتبيلة وهو أقل دهناً من الأفخاذ.",
-        "قدّمه مع سلطة البابايا الخضراء وحصة صغيرة من الأرز اللزج بدلاً من سلة كبيرة."
-      ]
-    },
-    "it": {
-      "name": "Gai yang (pollo thailandese alla griglia)",
-      "name_inline": "gai yang",
-      "origin": "Thailandia · Isan",
-      "intro": "Il gai yang è pollo thailandese alla griglia marinato in una pasta di citronella, aglio, radice di coriandolo, pepe nero e salsa di pesce, poi cotto lentamente sulla brace finché la pelle non è affumicata e leggermente abbrustolita. La carne resta succosa e profumata. Di solito si mangia con riso glutinoso, insalata di papaya verde e una salsa agra e piccante di peperoncino e tamarindo.",
-      "history": "Il gai yang viene dall'Isan, la regione nord-orientale della Thailandia, dove forma un classico trio con il som tam e il riso glutinoso. I venditori dell'Isan lo hanno diffuso a Bangkok e in tutto il Paese, e molte città sono note per il proprio stile.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg di pollo a pezzi (cosce e sovracosce) o un pollo aperto a libro",
-          "3 gambi di citronella tritati finemente",
-          "6 spicchi d'aglio",
-          "4 radici di coriandolo con i gambi",
-          "1 cucchiaino di pepe nero in grani",
-          "3 cucchiai di salsa di pesce",
-          "1 cucchiaio di zucchero di palma o di canna",
-          "1 cucchiaio di olio"
-        ],
-        "steps": [
-          "Pesta o frulla citronella, aglio, radice di coriandolo e pepe in grani fino a ottenere una pasta.",
-          "Incorpora la salsa di pesce, lo zucchero e l'olio e massaggia il pollo con la pasta su tutta la superficie.",
-          "Lascia marinare per almeno 2 ore, oppure per tutta la notte in frigorifero.",
-          "Griglia sulla brace a calore medio o sotto il grill del forno per 30–40 minuti, girando spesso, finché non è cotto e dorato.",
-          "Lascia riposare 5 minuti, poi taglia a pezzi e servi."
-        ]
-      },
-      "tips": [
-        "Togli la pelle prima di mangiarlo per eliminare gran parte del grasso.",
-        "Il petto si griglia bene con questa marinata ed è più magro delle cosce.",
-        "Abbinalo all'insalata di papaya verde e a una piccola porzione di riso glutinoso invece di un cestino grande."
-      ]
-    },
-    "el": {
-      "name": "Γκάι γιανγκ (ταϊλανδέζικο ψητό κοτόπουλο)",
-      "name_inline": "γκάι γιανγκ",
-      "origin": "Ταϊλάνδη · Ισάν",
-      "intro": "Το gai yang είναι ταϊλανδέζικο ψητό κοτόπουλο μαριναρισμένο σε πάστα από λεμονόχορτο, σκόρδο, ρίζα κόλιανδρου, μαύρο πιπέρι και σάλτσα ψαριού, που ψήνεται αργά στα κάρβουνα μέχρι η πέτσα να πάρει καπνιστή γεύση και να καψαλιστεί ελαφρά. Το κρέας μένει ζουμερό και αρωματικό. Συνήθως τρώγεται με κολλώδες ρύζι, σαλάτα πράσινης παπάγιας και ξινή-καυτερή σάλτσα από καυτερή πιπεριά και ταμάρινδο.",
-      "history": "Το gai yang προέρχεται από το Ισάν, τη βορειοανατολική περιοχή της Ταϊλάνδης, όπου σχηματίζει μια κλασική τριάδα με το σομ ταμ και το κολλώδες ρύζι. Πωλητές από το Ισάν το διέδωσαν στη Μπανγκόκ και σε όλη τη χώρα, και πολλές πόλεις είναι γνωστές για το δικό τους στιλ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 κιλό κοτόπουλο σε κομμάτια (μπούτια και κοπανάκια) ή ένα κοτόπουλο ανοιγμένο σαν βιβλίο",
-          "3 κοτσάνια λεμονόχορτο ψιλοκομμένα",
-          "6 σκελίδες σκόρδο",
-          "4 ρίζες κόλιανδρου με τα κοτσάνια",
-          "1 κ.γ. μαύρο πιπέρι σε κόκκους",
-          "3 κ.σ. σάλτσα ψαριού",
-          "1 κ.σ. ζάχαρη φοίνικα ή καστανή ζάχαρη",
-          "1 κ.σ. λάδι"
-        ],
-        "steps": [
-          "Κοπανίστε ή χτυπήστε στο μπλέντερ το λεμονόχορτο, το σκόρδο, τη ρίζα κόλιανδρου και το πιπέρι σε πάστα.",
-          "Ανακατέψτε μέσα τη σάλτσα ψαριού, τη ζάχαρη και το λάδι και τρίψτε με την πάστα όλο το κοτόπουλο.",
-          "Αφήστε να μαριναριστεί για τουλάχιστον 2 ώρες ή όλη τη νύχτα στο ψυγείο.",
-          "Ψήστε σε μέτρια κάρβουνα ή στο γκριλ του φούρνου για 30–40 λεπτά, γυρίζοντας συχνά, μέχρι να ψηθεί καλά και να ροδίσει.",
-          "Αφήστε το να ξεκουραστεί 5 λεπτά, κόψτε το σε κομμάτια και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα πριν το φάτε για να κόψετε μεγάλο μέρος του λίπους.",
-        "Το στήθος ψήνεται καλά με αυτή τη μαρινάδα και είναι πιο άπαχο από τα μπούτια.",
-        "Συνδυάστε το με σαλάτα πράσινης παπάγιας και μια μικρή μερίδα κολλώδες ρύζι αντί για ένα μεγάλο καλάθι."
-      ]
-    },
-    "ru": {
-      "name": "Кай янг (тайская курица на гриле)",
-      "origin": "Таиланд · Исан",
-      "intro": "Кай янг — тайская курица на гриле, маринованная в пасте из лемонграсса, чеснока, корня кинзы, чёрного перца и рыбного соуса, затем медленно приготовленная на древесном угле до дымной слегка обугленной кожи. Мясо остаётся сочным и ароматным. Обычно её едят с клейким рисом, салатом из зелёной папайи и кисло-острым соусом для макания из чили и тамаринда.",
-      "history": "Кай янг родом из Исана, северо-восточного региона Таиланда, где он образует классическое трио с сом там и клейким рисом. Торговцы из Исана распространили его в Бангкоке и по всей стране, и многие города известны собственным стилем.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 кг кусков курицы (бёдра и голени) или целая курица, разделанная «бабочкой»",
-          "3 стебля лемонграсса, мелко нарубленных",
-          "6 зубчиков чеснока",
-          "4 корня кинзы со стеблями",
-          "1 ч. л. чёрного перца горошком",
-          "3 ст. л. рыбного соуса",
-          "1 ст. л. пальмового или коричневого сахара",
-          "1 ст. л. масла"
-        ],
-        "steps": [
-          "Растолките или взбейте блендером лемонграсс, чеснок, корень кинзы и перец горошком в пасту.",
-          "Смешайте с рыбным соусом, сахаром и маслом и натрите пастой всю курицу.",
-          "Маринуйте не менее 2 часов или на ночь в холодильнике.",
-          "Жарьте на среднем угле или под духовочным грилем 30–40 минут, часто переворачивая, до готовности и румяности.",
-          "Дайте отдохнуть 5 минут, затем нарежьте кусками и подавайте."
-        ]
-      },
-      "tips": [
-        "Снимайте кожу перед едой, чтобы сократить большую долю жира.",
-        "Грудка хорошо жарится с этим маринадом и постнее бёдер.",
-        "Сочетайте с салатом из зелёной папайи и небольшой порцией клейкого риса, а не с большой корзинкой."
-      ],
-      "name_inline": "кай янг"
-    }
+  "ar": {
+   "name": "دجاج مشوي تايلاندي (غاي يانغ)",
+   "origin": "تايلاند · إيسان",
+   "intro": "غاي يانغ دجاج تايلاندي مشوي متبّل بمعجون من عشب الليمون والثوم وجذور الكزبرة والفلفل الأسود وصلصة السمك، ثم يُشوى ببطء على الفحم حتى يكتسب الجلد نكهة مدخّنة ويتحمّر قليلاً. يبقى اللحم عصيرياً عطِراً. يُؤكل عادةً مع الأرز اللزج وسلطة البابايا الخضراء وصلصة تغميس حامضة حارة من الفلفل الحار والتمر الهندي.",
+   "history": "نشأ غاي يانغ في إيسان، الإقليم الشمالي الشرقي من تايلاند، حيث يشكّل ثلاثياً كلاسيكياً مع سلطة سوم تام والأرز اللزج. ونشره باعة من إيسان إلى بانكوك وأنحاء البلاد، وتشتهر مدن كثيرة بأسلوبها الخاص فيه.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 كغ قطع دجاج (أفخاذ وأوراك) أو دجاجة مفتوحة مسطّحة",
+     "3 أعواد عشب ليمون مفرومة ناعماً",
+     "6 فصوص ثوم",
+     "4 جذور كزبرة مع سيقانها",
+     "ملعقة صغيرة حبوب فلفل أسود",
+     "3 ملاعق كبيرة صلصة سمك",
+     "ملعقة كبيرة سكر نخيل أو سكر بني",
+     "ملعقة كبيرة زيت"
+    ],
+    "steps": [
+     "اهرس عشب الليمون والثوم وجذور الكزبرة وحبوب الفلفل حتى تصبح معجوناً.",
+     "اخلط معها صلصة السمك والسكر والزيت وادهن الدجاج بالمعجون جيداً.",
+     "اتركه يتتبّل ساعتين على الأقل، أو ليلة كاملة في الثلاجة.",
+     "اشوِه على فحم متوسط الحرارة أو تحت شواية الفرن 30–40 دقيقة مع التقليب حتى ينضج ويتحمّر.",
+     "اتركه يرتاح 5 دقائق، ثم قطّعه وقدّمه."
+    ]
+   },
+   "tips": [
+    "أزل الجلد قبل الأكل للتخلص من جزء كبير من الدهن.",
+    "صدر الدجاج يُشوى جيداً مع هذه التتبيلة وهو أقل دهناً من الأفخاذ.",
+    "قدّمه مع سلطة البابايا الخضراء وحصة صغيرة من الأرز اللزج بدلاً من سلة كبيرة."
+   ]
+  },
+  "it": {
+   "name": "Gai yang (pollo thailandese alla griglia)",
+   "name_inline": "gai yang",
+   "origin": "Thailandia · Isan",
+   "intro": "Il gai yang è pollo thailandese alla griglia marinato in una pasta di citronella, aglio, radice di coriandolo, pepe nero e salsa di pesce, poi cotto lentamente sulla brace finché la pelle non è affumicata e leggermente abbrustolita. La carne resta succosa e profumata. Di solito si mangia con riso glutinoso, insalata di papaya verde e una salsa agra e piccante di peperoncino e tamarindo.",
+   "history": "Il gai yang viene dall'Isan, la regione nord-orientale della Thailandia, dove forma un classico trio con il som tam e il riso glutinoso. I venditori dell'Isan lo hanno diffuso a Bangkok e in tutto il Paese, e molte città sono note per il proprio stile.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg di pollo a pezzi (cosce e sovracosce) o un pollo aperto a libro",
+     "3 gambi di citronella tritati finemente",
+     "6 spicchi d'aglio",
+     "4 radici di coriandolo con i gambi",
+     "1 cucchiaino di pepe nero in grani",
+     "3 cucchiai di salsa di pesce",
+     "1 cucchiaio di zucchero di palma o di canna",
+     "1 cucchiaio di olio"
+    ],
+    "steps": [
+     "Pesta o frulla citronella, aglio, radice di coriandolo e pepe in grani fino a ottenere una pasta.",
+     "Incorpora la salsa di pesce, lo zucchero e l'olio e massaggia il pollo con la pasta su tutta la superficie.",
+     "Lascia marinare per almeno 2 ore, oppure per tutta la notte in frigorifero.",
+     "Griglia sulla brace a calore medio o sotto il grill del forno per 30–40 minuti, girando spesso, finché non è cotto e dorato.",
+     "Lascia riposare 5 minuti, poi taglia a pezzi e servi."
+    ]
+   },
+   "tips": [
+    "Togli la pelle prima di mangiarlo per eliminare gran parte del grasso.",
+    "Il petto si griglia bene con questa marinata ed è più magro delle cosce.",
+    "Abbinalo all'insalata di papaya verde e a una piccola porzione di riso glutinoso invece di un cestino grande."
+   ]
+  },
+  "el": {
+   "name": "Γκάι γιανγκ (ταϊλανδέζικο ψητό κοτόπουλο)",
+   "name_inline": "γκάι γιανγκ",
+   "origin": "Ταϊλάνδη · Ισάν",
+   "intro": "Το gai yang είναι ταϊλανδέζικο ψητό κοτόπουλο μαριναρισμένο σε πάστα από λεμονόχορτο, σκόρδο, ρίζα κόλιανδρου, μαύρο πιπέρι και σάλτσα ψαριού, που ψήνεται αργά στα κάρβουνα μέχρι η πέτσα να πάρει καπνιστή γεύση και να καψαλιστεί ελαφρά. Το κρέας μένει ζουμερό και αρωματικό. Συνήθως τρώγεται με κολλώδες ρύζι, σαλάτα πράσινης παπάγιας και ξινή-καυτερή σάλτσα από καυτερή πιπεριά και ταμάρινδο.",
+   "history": "Το gai yang προέρχεται από το Ισάν, τη βορειοανατολική περιοχή της Ταϊλάνδης, όπου σχηματίζει μια κλασική τριάδα με το σομ ταμ και το κολλώδες ρύζι. Πωλητές από το Ισάν το διέδωσαν στη Μπανγκόκ και σε όλη τη χώρα, και πολλές πόλεις είναι γνωστές για το δικό τους στιλ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 κιλό κοτόπουλο σε κομμάτια (μπούτια και κοπανάκια) ή ένα κοτόπουλο ανοιγμένο σαν βιβλίο",
+     "3 κοτσάνια λεμονόχορτο ψιλοκομμένα",
+     "6 σκελίδες σκόρδο",
+     "4 ρίζες κόλιανδρου με τα κοτσάνια",
+     "1 κ.γ. μαύρο πιπέρι σε κόκκους",
+     "3 κ.σ. σάλτσα ψαριού",
+     "1 κ.σ. ζάχαρη φοίνικα ή καστανή ζάχαρη",
+     "1 κ.σ. λάδι"
+    ],
+    "steps": [
+     "Κοπανίστε ή χτυπήστε στο μπλέντερ το λεμονόχορτο, το σκόρδο, τη ρίζα κόλιανδρου και το πιπέρι σε πάστα.",
+     "Ανακατέψτε μέσα τη σάλτσα ψαριού, τη ζάχαρη και το λάδι και τρίψτε με την πάστα όλο το κοτόπουλο.",
+     "Αφήστε να μαριναριστεί για τουλάχιστον 2 ώρες ή όλη τη νύχτα στο ψυγείο.",
+     "Ψήστε σε μέτρια κάρβουνα ή στο γκριλ του φούρνου για 30–40 λεπτά, γυρίζοντας συχνά, μέχρι να ψηθεί καλά και να ροδίσει.",
+     "Αφήστε το να ξεκουραστεί 5 λεπτά, κόψτε το σε κομμάτια και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα πριν το φάτε για να κόψετε μεγάλο μέρος του λίπους.",
+    "Το στήθος ψήνεται καλά με αυτή τη μαρινάδα και είναι πιο άπαχο από τα μπούτια.",
+    "Συνδυάστε το με σαλάτα πράσινης παπάγιας και μια μικρή μερίδα κολλώδες ρύζι αντί για ένα μεγάλο καλάθι."
+   ]
+  },
+  "ru": {
+   "name": "Кай янг (тайская курица на гриле)",
+   "origin": "Таиланд · Исан",
+   "intro": "Кай янг — тайская курица на гриле, маринованная в пасте из лемонграсса, чеснока, корня кинзы, чёрного перца и рыбного соуса, затем медленно приготовленная на древесном угле до дымной слегка обугленной кожи. Мясо остаётся сочным и ароматным. Обычно её едят с клейким рисом, салатом из зелёной папайи и кисло-острым соусом для макания из чили и тамаринда.",
+   "history": "Кай янг родом из Исана, северо-восточного региона Таиланда, где он образует классическое трио с сом там и клейким рисом. Торговцы из Исана распространили его в Бангкоке и по всей стране, и многие города известны собственным стилем.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 кг кусков курицы (бёдра и голени) или целая курица, разделанная «бабочкой»",
+     "3 стебля лемонграсса, мелко нарубленных",
+     "6 зубчиков чеснока",
+     "4 корня кинзы со стеблями",
+     "1 ч. л. чёрного перца горошком",
+     "3 ст. л. рыбного соуса",
+     "1 ст. л. пальмового или коричневого сахара",
+     "1 ст. л. масла"
+    ],
+    "steps": [
+     "Растолките или взбейте блендером лемонграсс, чеснок, корень кинзы и перец горошком в пасту.",
+     "Смешайте с рыбным соусом, сахаром и маслом и натрите пастой всю курицу.",
+     "Маринуйте не менее 2 часов или на ночь в холодильнике.",
+     "Жарьте на среднем угле или под духовочным грилем 30–40 минут, часто переворачивая, до готовности и румяности.",
+     "Дайте отдохнуть 5 минут, затем нарежьте кусками и подавайте."
+    ]
+   },
+   "tips": [
+    "Снимайте кожу перед едой, чтобы сократить большую долю жира.",
+    "Грудка хорошо жарится с этим маринадом и постнее бёдер.",
+    "Сочетайте с салатом из зелёной папайи и небольшой порцией клейкого риса, а не с большой корзинкой."
+   ],
+   "name_inline": "кай янг"
+  },
+  "es": {
+   "name": "Gai yang (pollo asado tailandés)",
+   "origin": "Tailandia · Isan",
+   "intro": "El gai yang es pollo asado tailandés marinado en una pasta de hierba limón, ajo, raíz de cilantro, pimienta negra y salsa de pescado, y cocido lentamente sobre carbón hasta que la piel queda ahumada y ligeramente chamuscada. La carne se mantiene jugosa y aromática. Se come típicamente con arroz glutinoso, ensalada de papaya verde y una salsa para mojar ácida y picante de chile y tamarindo.",
+   "history": "El gai yang proviene de Isan, la región noreste de Tailandia, donde forma un trío clásico con el som tam y el arroz glutinoso. Los vendedores de Isan lo llevaron a Bangkok y a todo el país, y muchas ciudades son conocidas por su propio estilo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg de piezas de pollo (muslos y piernas), o un pollo abierto en mariposa",
+     "3 tallos de hierba limón, picados finos",
+     "6 dientes de ajo",
+     "4 raíces de cilantro con tallos",
+     "1 cdta. de granos de pimienta negra",
+     "3 cda. de salsa de pescado",
+     "1 cda. de azúcar de palma o morena",
+     "1 cda. de aceite"
+    ],
+    "steps": [
+     "Machaca o licúa la hierba limón, el ajo, la raíz de cilantro y los granos de pimienta hasta formar una pasta.",
+     "Incorpora la salsa de pescado, el azúcar y el aceite y frota la pasta por todo el pollo.",
+     "Marina al menos 2 horas, o toda la noche en el refrigerador.",
+     "Asa sobre carbón medio o bajo el gratinador del horno de 30–40 minutos, volteando con frecuencia, hasta que esté bien cocido y dorado.",
+     "Deja reposar 5 minutos, luego corta en piezas y sirve."
+    ]
+   },
+   "tips": [
+    "Quita la piel antes de comer para reducir buena parte de la grasa.",
+    "La pechuga queda muy bien a la parrilla con esta marinada y es más magra que los muslos.",
+    "Acompáñalo con ensalada de papaya verde y una porción pequeña de arroz glutinoso en lugar de una canasta grande."
+   ],
+   "name_inline": "el gai yang"
   }
+ }
 }

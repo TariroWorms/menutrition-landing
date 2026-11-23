@@ -1,171 +1,203 @@
 {
-  "db_key": "sisig",
-  "slug": "sisig",
-  "emoji": "🍳",
-  "portion_g": 200,
-  "country": "PH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "sisig",
+ "slug": "sisig",
+ "emoji": "🍳",
+ "portion_g": 200,
+ "country": "PH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pork Sisig",
+   "origin": "Philippines · Pampanga",
+   "intro": "Sisig is a sizzling Filipino dish of grilled pork cheek chopped finely and tossed with onion, chili and sour calamansi juice, often finished with a raw egg cracked on top and a spoon of mayonnaise. It arrives crackling on a hot plate, crispy, tangy and rich. It is a favourite with rice or as a bar snack.",
+   "history": "Sisig is strongly associated with Angeles City in Pampanga, where the modern sizzling version is usually credited to a roadside cook named Lucia Cunanan in the 1970s. The dish has since spread across the Philippines and to Filipino restaurants abroad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "800 g pork cheek (or pork jowl)",
+     "1 large red onion, finely chopped",
+     "2 red chilies, finely chopped",
+     "4 calamansi (or 1 lime), juiced",
+     "1 egg",
+     "1 tbsp mayonnaise",
+     "Salt and black pepper to taste"
+    ],
+    "steps": [
+     "Simmer the pork cheek in salted water for 45 minutes until tender, then drain and pat dry.",
+     "Grill over high heat until crisp and lightly charred on both sides.",
+     "Chop the pork very finely and toss with onion, chili, calamansi juice, salt and pepper.",
+     "Heat a cast-iron plate or skillet until very hot, add the sisig and let it sizzle.",
+     "Crack the egg on top, add the mayonnaise and stir together at the table."
+    ]
+   },
+   "tips": [
+    "Leave out the mayonnaise or use a teaspoon: 1 tbsp mayonnaise is about 90–100 kcal.",
+    "Trim some of the fat from the pork cheek after boiling.",
+    "Share a plate and add plenty of raw onion and a side salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pork Sisig",
-      "origin": "Philippines · Pampanga",
-      "intro": "Sisig is a sizzling Filipino dish of grilled pork cheek chopped finely and tossed with onion, chili and sour calamansi juice, often finished with a raw egg cracked on top and a spoon of mayonnaise. It arrives crackling on a hot plate, crispy, tangy and rich. It is a favourite with rice or as a bar snack.",
-      "history": "Sisig is strongly associated with Angeles City in Pampanga, where the modern sizzling version is usually credited to a roadside cook named Lucia Cunanan in the 1970s. The dish has since spread across the Philippines and to Filipino restaurants abroad.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "800 g pork cheek (or pork jowl)",
-          "1 large red onion, finely chopped",
-          "2 red chilies, finely chopped",
-          "4 calamansi (or 1 lime), juiced",
-          "1 egg",
-          "1 tbsp mayonnaise",
-          "Salt and black pepper to taste"
-        ],
-        "steps": [
-          "Simmer the pork cheek in salted water for 45 minutes until tender, then drain and pat dry.",
-          "Grill over high heat until crisp and lightly charred on both sides.",
-          "Chop the pork very finely and toss with onion, chili, calamansi juice, salt and pepper.",
-          "Heat a cast-iron plate or skillet until very hot, add the sisig and let it sizzle.",
-          "Crack the egg on top, add the mayonnaise and stir together at the table."
-        ]
-      },
-      "tips": [
-        "Leave out the mayonnaise or use a teaspoon: 1 tbsp mayonnaise is about 90–100 kcal.",
-        "Trim some of the fat from the pork cheek after boiling.",
-        "Share a plate and add plenty of raw onion and a side salad."
-      ]
-    },
-    "ar": {
-      "name": "سيسيغ لحم الخنزير",
-      "origin": "الفلبين · بامبانغا",
-      "intro": "السيسيغ طبق فلبيني يُقدَّم على صفيحة ساخنة: خدود خنزير مشوية تُفرم ناعمًا وتُخلط بالبصل والفلفل الحار وعصير الكالامانسي الحامض، وغالبًا ما تُكسر فوقه بيضة نيئة وتُضاف ملعقة مايونيز. يصل إلى المائدة وهو يطقطق، مقرمشًا وحامضًا وغنيًا. يُؤكل مع الأرز أو كوجبة خفيفة.",
-      "history": "يرتبط السيسيغ ارتباطًا وثيقًا بمدينة أنجلس في بامبانغا، حيث يُنسب الشكل الحديث المقدَّم على الصفيحة الساخنة عادةً إلى طاهية على جانب الطريق تُدعى لوسيا كونانان في سبعينيات القرن العشرين. وقد انتشر منذ ذلك الحين في أنحاء الفلبين والمطاعم الفلبينية في الخارج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "800 غ خدود خنزير",
-          "1 بصلة حمراء كبيرة مفرومة ناعمًا",
-          "2 فلفل أحمر حار مفروم ناعمًا",
-          "عصير 4 حبات كالامانسي (أو ليمونة واحدة)",
-          "1 بيضة",
-          "1 ملعقة كبيرة مايونيز",
-          "ملح وفلفل أسود حسب الرغبة"
-        ],
-        "steps": [
-          "اسلق خدود الخنزير في ماء مملّح 45 دقيقة حتى تطرى، ثم صفّها وجففها.",
-          "اشوِها على نار عالية حتى تصبح مقرمشة ومحمّرة قليلًا من الجهتين.",
-          "افرم اللحم ناعمًا جدًا واخلطه مع البصل والفلفل الحار وعصير الكالامانسي والملح والفلفل.",
-          "سخّن صفيحة حديد زهر أو مقلاة حتى تصبح ساخنة جدًا، وضع السيسيغ عليها ليطقطق.",
-          "اكسر البيضة فوقه وأضف المايونيز وحرّك على المائدة."
-        ]
-      },
-      "tips": [
-        "استغنِ عن المايونيز أو استخدم ملعقة صغيرة: ملعقة كبيرة مايونيز تعادل نحو 90–100 سعرة.",
-        "أزل جزءًا من الدهن من خدود الخنزير بعد السلق.",
-        "تقاسم الطبق وأضف الكثير من البصل النيء وسلطة جانبية."
-      ]
-    },
-    "it": {
-      "name": "Sisig di maiale",
-      "name_inline": "sisig di maiale",
-      "origin": "Filippine · Pampanga",
-      "intro": "Il sisig è un piatto filippino sfrigolante di guancia di maiale grigliata e tritata finemente, condita con cipolla, peperoncino e succo acidulo di calamansi, spesso completata con un uovo crudo rotto sopra e un cucchiaio di maionese. Arriva crepitante su una piastra rovente, croccante, acidulo e ricco. È amatissimo con il riso o come stuzzichino da bar.",
-      "history": "Il sisig è fortemente associato ad Angeles City, nella provincia di Pampanga, dove la versione moderna sfrigolante viene di solito attribuita a una cuoca di un locale lungo la strada, Lucia Cunanan, negli anni Settanta. Da allora il piatto si è diffuso in tutte le Filippine e nei ristoranti filippini all'estero.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "800 g di guancia di maiale (o guanciale)",
-          "1 cipolla rossa grande, tritata finemente",
-          "2 peperoncini rossi, tritati finemente",
-          "4 calamansi (o 1 lime), spremuti",
-          "1 uovo",
-          "1 cucchiaio di maionese",
-          "Sale e pepe nero a piacere"
-        ],
-        "steps": [
-          "Fai sobbollire la guancia di maiale in acqua salata per 45 minuti finché è tenera, poi scolala e asciugala.",
-          "Grigliala a fuoco vivo finché è croccante e leggermente abbrustolita su entrambi i lati.",
-          "Trita il maiale finissimo e mescolalo con cipolla, peperoncino, succo di calamansi, sale e pepe.",
-          "Scalda una piastra o una padella di ghisa finché è rovente, aggiungi il sisig e lascialo sfrigolare.",
-          "Rompi l'uovo sopra, aggiungi la maionese e mescola tutto a tavola."
-        ]
-      },
-      "tips": [
-        "Elimina la maionese o usane un cucchiaino: 1 cucchiaio di maionese sono circa 90–100 kcal.",
-        "Elimina parte del grasso della guancia dopo la bollitura.",
-        "Dividi un piatto in due e aggiungi abbondante cipolla cruda e un'insalata di contorno."
-      ]
-    },
-    "el": {
-      "name": "Σίσιγκ με χοιρινό",
-      "name_inline": "σίσιγκ με χοιρινό",
-      "origin": "Φιλιππίνες · Παμπάνγκα",
-      "intro": "Το σίσιγκ είναι φιλιππινέζικο πιάτο που τσιτσιρίζει: ψητό χοιρινό μάγουλο ψιλοκομμένο και ανακατεμένο με κρεμμύδι, καυτερή πιπεριά και ξινό χυμό καλαμάνσι, συχνά με ένα ωμό αυγό σπασμένο από πάνω και μια κουταλιά μαγιονέζα. Φτάνει στο τραπέζι να τριζοβολά σε καυτή πλάκα, τραγανό, ξινό και πλούσιο. Είναι αγαπημένο με ρύζι ή ως μεζές για το μπαρ.",
-      "history": "Το σίσιγκ συνδέεται στενά με την πόλη Άντζελες στην Παμπάνγκα, όπου η σύγχρονη εκδοχή στην καυτή πλάκα αποδίδεται συνήθως σε μια μαγείρισσα ενός μαγαζιού δίπλα στον δρόμο, τη Lucia Cunanan, τη δεκαετία του 1970. Από τότε το πιάτο διαδόθηκε σε όλες τις Φιλιππίνες και στα φιλιππινέζικα εστιατόρια του εξωτερικού.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "800 γρ. χοιρινό μάγουλο (ή γουανγκιάλε)",
-          "1 μεγάλο κόκκινο κρεμμύδι, ψιλοκομμένο",
-          "2 κόκκινες καυτερές πιπεριές, ψιλοκομμένες",
-          "Χυμός από 4 καλαμάνσι (ή 1 λάιμ)",
-          "1 αυγό",
-          "1 κ.σ. μαγιονέζα",
-          "Αλάτι και μαύρο πιπέρι κατά βούληση"
-        ],
-        "steps": [
-          "Σιγοβράστε το χοιρινό μάγουλο σε αλατισμένο νερό για 45 λεπτά μέχρι να μαλακώσει, έπειτα στραγγίξτε και στεγνώστε το.",
-          "Ψήστε το σε δυνατή φωτιά μέχρι να τραγανίσει και να καψαλιστεί ελαφρά και από τις δύο πλευρές.",
-          "Ψιλοκόψτε πολύ το χοιρινό και ανακατέψτε το με το κρεμμύδι, την πιπεριά, τον χυμό καλαμάνσι, αλάτι και πιπέρι.",
-          "Ζεστάνετε μια μαντεμένια πλάκα ή τηγάνι μέχρι να κάψει, προσθέστε το σίσιγκ και αφήστε το να τσιτσιρίσει.",
-          "Σπάστε το αυγό από πάνω, προσθέστε τη μαγιονέζα και ανακατέψτε στο τραπέζι."
-        ]
-      },
-      "tips": [
-        "Παραλείψτε τη μαγιονέζα ή βάλτε ένα κουταλάκι: 1 κ.σ. μαγιονέζα έχει περίπου 90–100 kcal.",
-        "Αφαιρέστε μέρος του λίπους από το μάγουλο μετά το βράσιμο.",
-        "Μοιραστείτε ένα πιάτο και προσθέστε άφθονο ωμό κρεμμύδι και μια σαλάτα στο πλάι."
-      ]
-    },
-    "ru": {
-      "name": "Сисиг из свинины",
-      "origin": "Филиппины · Пампанга",
-      "intro": "Сисиг — шипящее филиппинское блюдо из свиных щёк на гриле, мелко нарубленных и перемешанных с луком, чили и кислым соком каламанси, часто дополненное сырым яйцом, разбитым сверху, и ложкой майонеза. Оно подаётся потрескивающим на горячей сковороде, хрустящим, пикантным и насыщенным. Это любимое блюдо с рисом или закуска к пиву.",
-      "history": "Сисиг тесно связан с городом Анхелес в Пампанге, а современный шипящий вариант обычно приписывают придорожной повару по имени Лусия Кунанан в 1970-х годах. С тех пор блюдо распространилось по Филиппинам и в филиппинские рестораны за рубежом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "800 г свиных щёк (или подбородка)",
-          "1 крупная красная луковица, мелко нарубленная",
-          "2 красных перца чили, мелко нарубленных",
-          "4 каламанси (или 1 лайм), сок",
-          "1 яйцо",
-          "1 ст. л. майонеза",
-          "Соль и чёрный перец по вкусу"
-        ],
-        "steps": [
-          "Варите свиные щёки в подсоленной воде 45 минут до мягкости, затем слейте воду и обсушите.",
-          "Жарьте на гриле на сильном огне до хруста и лёгкой обугленности с обеих сторон.",
-          "Очень мелко нарубите свинину и перемешайте с луком, чили, соком каламанси, солью и перцем.",
-          "Нагрейте чугунную тарелку или сковороду до очень сильного жара, добавьте сисиг и дайте ему зашипеть.",
-          "Разбейте сверху яйцо, добавьте майонез и перемешайте за столом."
-        ]
-      },
-      "tips": [
-        "Не добавляйте майонез или используйте чайную ложку: 1 ст. л. майонеза около 90–100 ккал.",
-        "Срежьте часть жира со свиных щёк после варки.",
-        "Разделите тарелку и добавьте побольше сырого лука и гарнирный салат."
-      ]
-    }
+  "ar": {
+   "name": "سيسيغ لحم الخنزير",
+   "origin": "الفلبين · بامبانغا",
+   "intro": "السيسيغ طبق فلبيني يُقدَّم على صفيحة ساخنة: خدود خنزير مشوية تُفرم ناعمًا وتُخلط بالبصل والفلفل الحار وعصير الكالامانسي الحامض، وغالبًا ما تُكسر فوقه بيضة نيئة وتُضاف ملعقة مايونيز. يصل إلى المائدة وهو يطقطق، مقرمشًا وحامضًا وغنيًا. يُؤكل مع الأرز أو كوجبة خفيفة.",
+   "history": "يرتبط السيسيغ ارتباطًا وثيقًا بمدينة أنجلس في بامبانغا، حيث يُنسب الشكل الحديث المقدَّم على الصفيحة الساخنة عادةً إلى طاهية على جانب الطريق تُدعى لوسيا كونانان في سبعينيات القرن العشرين. وقد انتشر منذ ذلك الحين في أنحاء الفلبين والمطاعم الفلبينية في الخارج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "800 غ خدود خنزير",
+     "1 بصلة حمراء كبيرة مفرومة ناعمًا",
+     "2 فلفل أحمر حار مفروم ناعمًا",
+     "عصير 4 حبات كالامانسي (أو ليمونة واحدة)",
+     "1 بيضة",
+     "1 ملعقة كبيرة مايونيز",
+     "ملح وفلفل أسود حسب الرغبة"
+    ],
+    "steps": [
+     "اسلق خدود الخنزير في ماء مملّح 45 دقيقة حتى تطرى، ثم صفّها وجففها.",
+     "اشوِها على نار عالية حتى تصبح مقرمشة ومحمّرة قليلًا من الجهتين.",
+     "افرم اللحم ناعمًا جدًا واخلطه مع البصل والفلفل الحار وعصير الكالامانسي والملح والفلفل.",
+     "سخّن صفيحة حديد زهر أو مقلاة حتى تصبح ساخنة جدًا، وضع السيسيغ عليها ليطقطق.",
+     "اكسر البيضة فوقه وأضف المايونيز وحرّك على المائدة."
+    ]
+   },
+   "tips": [
+    "استغنِ عن المايونيز أو استخدم ملعقة صغيرة: ملعقة كبيرة مايونيز تعادل نحو 90–100 سعرة.",
+    "أزل جزءًا من الدهن من خدود الخنزير بعد السلق.",
+    "تقاسم الطبق وأضف الكثير من البصل النيء وسلطة جانبية."
+   ]
+  },
+  "it": {
+   "name": "Sisig di maiale",
+   "name_inline": "sisig di maiale",
+   "origin": "Filippine · Pampanga",
+   "intro": "Il sisig è un piatto filippino sfrigolante di guancia di maiale grigliata e tritata finemente, condita con cipolla, peperoncino e succo acidulo di calamansi, spesso completata con un uovo crudo rotto sopra e un cucchiaio di maionese. Arriva crepitante su una piastra rovente, croccante, acidulo e ricco. È amatissimo con il riso o come stuzzichino da bar.",
+   "history": "Il sisig è fortemente associato ad Angeles City, nella provincia di Pampanga, dove la versione moderna sfrigolante viene di solito attribuita a una cuoca di un locale lungo la strada, Lucia Cunanan, negli anni Settanta. Da allora il piatto si è diffuso in tutte le Filippine e nei ristoranti filippini all'estero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "800 g di guancia di maiale (o guanciale)",
+     "1 cipolla rossa grande, tritata finemente",
+     "2 peperoncini rossi, tritati finemente",
+     "4 calamansi (o 1 lime), spremuti",
+     "1 uovo",
+     "1 cucchiaio di maionese",
+     "Sale e pepe nero a piacere"
+    ],
+    "steps": [
+     "Fai sobbollire la guancia di maiale in acqua salata per 45 minuti finché è tenera, poi scolala e asciugala.",
+     "Grigliala a fuoco vivo finché è croccante e leggermente abbrustolita su entrambi i lati.",
+     "Trita il maiale finissimo e mescolalo con cipolla, peperoncino, succo di calamansi, sale e pepe.",
+     "Scalda una piastra o una padella di ghisa finché è rovente, aggiungi il sisig e lascialo sfrigolare.",
+     "Rompi l'uovo sopra, aggiungi la maionese e mescola tutto a tavola."
+    ]
+   },
+   "tips": [
+    "Elimina la maionese o usane un cucchiaino: 1 cucchiaio di maionese sono circa 90–100 kcal.",
+    "Elimina parte del grasso della guancia dopo la bollitura.",
+    "Dividi un piatto in due e aggiungi abbondante cipolla cruda e un'insalata di contorno."
+   ]
+  },
+  "el": {
+   "name": "Σίσιγκ με χοιρινό",
+   "name_inline": "σίσιγκ με χοιρινό",
+   "origin": "Φιλιππίνες · Παμπάνγκα",
+   "intro": "Το σίσιγκ είναι φιλιππινέζικο πιάτο που τσιτσιρίζει: ψητό χοιρινό μάγουλο ψιλοκομμένο και ανακατεμένο με κρεμμύδι, καυτερή πιπεριά και ξινό χυμό καλαμάνσι, συχνά με ένα ωμό αυγό σπασμένο από πάνω και μια κουταλιά μαγιονέζα. Φτάνει στο τραπέζι να τριζοβολά σε καυτή πλάκα, τραγανό, ξινό και πλούσιο. Είναι αγαπημένο με ρύζι ή ως μεζές για το μπαρ.",
+   "history": "Το σίσιγκ συνδέεται στενά με την πόλη Άντζελες στην Παμπάνγκα, όπου η σύγχρονη εκδοχή στην καυτή πλάκα αποδίδεται συνήθως σε μια μαγείρισσα ενός μαγαζιού δίπλα στον δρόμο, τη Lucia Cunanan, τη δεκαετία του 1970. Από τότε το πιάτο διαδόθηκε σε όλες τις Φιλιππίνες και στα φιλιππινέζικα εστιατόρια του εξωτερικού.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "800 γρ. χοιρινό μάγουλο (ή γουανγκιάλε)",
+     "1 μεγάλο κόκκινο κρεμμύδι, ψιλοκομμένο",
+     "2 κόκκινες καυτερές πιπεριές, ψιλοκομμένες",
+     "Χυμός από 4 καλαμάνσι (ή 1 λάιμ)",
+     "1 αυγό",
+     "1 κ.σ. μαγιονέζα",
+     "Αλάτι και μαύρο πιπέρι κατά βούληση"
+    ],
+    "steps": [
+     "Σιγοβράστε το χοιρινό μάγουλο σε αλατισμένο νερό για 45 λεπτά μέχρι να μαλακώσει, έπειτα στραγγίξτε και στεγνώστε το.",
+     "Ψήστε το σε δυνατή φωτιά μέχρι να τραγανίσει και να καψαλιστεί ελαφρά και από τις δύο πλευρές.",
+     "Ψιλοκόψτε πολύ το χοιρινό και ανακατέψτε το με το κρεμμύδι, την πιπεριά, τον χυμό καλαμάνσι, αλάτι και πιπέρι.",
+     "Ζεστάνετε μια μαντεμένια πλάκα ή τηγάνι μέχρι να κάψει, προσθέστε το σίσιγκ και αφήστε το να τσιτσιρίσει.",
+     "Σπάστε το αυγό από πάνω, προσθέστε τη μαγιονέζα και ανακατέψτε στο τραπέζι."
+    ]
+   },
+   "tips": [
+    "Παραλείψτε τη μαγιονέζα ή βάλτε ένα κουταλάκι: 1 κ.σ. μαγιονέζα έχει περίπου 90–100 kcal.",
+    "Αφαιρέστε μέρος του λίπους από το μάγουλο μετά το βράσιμο.",
+    "Μοιραστείτε ένα πιάτο και προσθέστε άφθονο ωμό κρεμμύδι και μια σαλάτα στο πλάι."
+   ]
+  },
+  "ru": {
+   "name": "Сисиг из свинины",
+   "origin": "Филиппины · Пампанга",
+   "intro": "Сисиг — шипящее филиппинское блюдо из свиных щёк на гриле, мелко нарубленных и перемешанных с луком, чили и кислым соком каламанси, часто дополненное сырым яйцом, разбитым сверху, и ложкой майонеза. Оно подаётся потрескивающим на горячей сковороде, хрустящим, пикантным и насыщенным. Это любимое блюдо с рисом или закуска к пиву.",
+   "history": "Сисиг тесно связан с городом Анхелес в Пампанге, а современный шипящий вариант обычно приписывают придорожной повару по имени Лусия Кунанан в 1970-х годах. С тех пор блюдо распространилось по Филиппинам и в филиппинские рестораны за рубежом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "800 г свиных щёк (или подбородка)",
+     "1 крупная красная луковица, мелко нарубленная",
+     "2 красных перца чили, мелко нарубленных",
+     "4 каламанси (или 1 лайм), сок",
+     "1 яйцо",
+     "1 ст. л. майонеза",
+     "Соль и чёрный перец по вкусу"
+    ],
+    "steps": [
+     "Варите свиные щёки в подсоленной воде 45 минут до мягкости, затем слейте воду и обсушите.",
+     "Жарьте на гриле на сильном огне до хруста и лёгкой обугленности с обеих сторон.",
+     "Очень мелко нарубите свинину и перемешайте с луком, чили, соком каламанси, солью и перцем.",
+     "Нагрейте чугунную тарелку или сковороду до очень сильного жара, добавьте сисиг и дайте ему зашипеть.",
+     "Разбейте сверху яйцо, добавьте майонез и перемешайте за столом."
+    ]
+   },
+   "tips": [
+    "Не добавляйте майонез или используйте чайную ложку: 1 ст. л. майонеза около 90–100 ккал.",
+    "Срежьте часть жира со свиных щёк после варки.",
+    "Разделите тарелку и добавьте побольше сырого лука и гарнирный салат."
+   ]
+  },
+  "es": {
+   "name": "Sisig de cerdo",
+   "origin": "Filipinas · Pampanga",
+   "intro": "El sisig es un plato filipino chisporroteante de cachete de cerdo asado, picado fino y mezclado con cebolla, chile y jugo ácido de calamansi, que a menudo se termina con un huevo crudo encima y una cucharada de mayonesa. Llega crepitando en un plato caliente, crujiente, ácido y rico. Es un favorito con arroz o como botana de bar.",
+   "history": "El sisig se asocia fuertemente con Angeles City, en Pampanga, donde la versión chisporroteante moderna suele atribuirse a una cocinera de la calle llamada Lucia Cunanan en la década de 1970. Desde entonces el plato se ha extendido por Filipinas y a los restaurantes filipinos del extranjero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "800 g de cachete de cerdo (o papada de cerdo)",
+     "1 cebolla morada grande, picada fina",
+     "2 chiles rojos, picados finos",
+     "4 calamansis (o 1 limón verde), su jugo",
+     "1 huevo",
+     "1 cda. de mayonesa",
+     "Sal y pimienta negra al gusto"
+    ],
+    "steps": [
+     "Cuece el cachete de cerdo en agua con sal durante 45 minutos, hasta que esté tierno, luego escúrrelo y sécalo con papel.",
+     "Asa a fuego fuerte hasta que esté crujiente y ligeramente chamuscado por ambos lados.",
+     "Pica el cerdo muy fino y mézclalo con la cebolla, el chile, el jugo de calamansi, la sal y la pimienta.",
+     "Calienta un plato de hierro fundido o una sartén hasta que esté muy caliente, agrega el sisig y deja que chisporrotee.",
+     "Rompe el huevo encima, añade la mayonesa y mezcla todo en la mesa."
+    ]
+   },
+   "tips": [
+    "Omite la mayonesa o usa una cucharadita: 1 cda. de mayonesa son unas 90–100 kcal.",
+    "Retira parte de la grasa del cachete de cerdo después de hervirlo.",
+    "Comparte un plato y agrega mucha cebolla cruda y una ensalada de acompañamiento."
+   ],
+   "name_inline": "el sisig"
   }
+ }
 }

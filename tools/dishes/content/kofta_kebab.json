@@ -1,165 +1,196 @@
 {
-  "db_key": "kofta_kebab",
-  "slug": "kofta-kebab",
-  "emoji": "🍢",
-  "portion_g": 200,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kofta_kebab",
+ "slug": "kofta-kebab",
+ "emoji": "🍢",
+ "portion_g": 200,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kofta Kebab",
+   "origin": "Middle East · Levant & Türkiye",
+   "intro": "Kofta kebab is spiced minced beef mixed with onion, parsley, cumin and coriander, pressed around flat skewers and grilled over high heat. The outside chars while the inside stays juicy and fragrant. It is served with grilled vegetables, salad or rice, and is one of the most common grill orders across the Middle East.",
+   "history": "Minced-meat kebabs of this kind are eaten from the Balkans to South Asia; the name kofta comes from a Persian word for pounded meat. Each region seasons it differently, and the skewered beef version is a fixture of Levantine and Egyptian grills.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g ground beef",
+     "1 onion, grated and squeezed",
+     "20 g parsley, finely chopped",
+     "1 tsp ground cumin",
+     "1 tsp ground coriander",
+     "Salt and black pepper",
+     "1 tsp oil for the grill"
+    ],
+    "steps": [
+     "Mix the beef with onion, parsley, spices and salt; knead for 2–3 minutes until sticky.",
+     "Chill for 15 minutes, then press the mixture around flat skewers.",
+     "Grill over high heat for 8–10 minutes, turning, until charred and cooked through.",
+     "Serve with salad and grilled tomatoes or onions."
+    ]
+   },
+   "tips": [
+    "Choose 10% fat beef — it still grills well and has less fat than standard mince.",
+    "Grill rather than pan-fry so the fat drips away.",
+    "Pair it with a big salad instead of rice to keep the meal lighter."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kofta Kebab",
-      "origin": "Middle East · Levant & Türkiye",
-      "intro": "Kofta kebab is spiced minced beef mixed with onion, parsley, cumin and coriander, pressed around flat skewers and grilled over high heat. The outside chars while the inside stays juicy and fragrant. It is served with grilled vegetables, salad or rice, and is one of the most common grill orders across the Middle East.",
-      "history": "Minced-meat kebabs of this kind are eaten from the Balkans to South Asia; the name kofta comes from a Persian word for pounded meat. Each region seasons it differently, and the skewered beef version is a fixture of Levantine and Egyptian grills.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g ground beef",
-          "1 onion, grated and squeezed",
-          "20 g parsley, finely chopped",
-          "1 tsp ground cumin",
-          "1 tsp ground coriander",
-          "Salt and black pepper",
-          "1 tsp oil for the grill"
-        ],
-        "steps": [
-          "Mix the beef with onion, parsley, spices and salt; knead for 2–3 minutes until sticky.",
-          "Chill for 15 minutes, then press the mixture around flat skewers.",
-          "Grill over high heat for 8–10 minutes, turning, until charred and cooked through.",
-          "Serve with salad and grilled tomatoes or onions."
-        ]
-      },
-      "tips": [
-        "Choose 10% fat beef — it still grills well and has less fat than standard mince.",
-        "Grill rather than pan-fry so the fat drips away.",
-        "Pair it with a big salad instead of rice to keep the meal lighter."
-      ]
-    },
-    "ar": {
-      "name": "كفتة كباب",
-      "origin": "الشرق الأوسط · الشام وتركيا",
-      "intro": "كفتة الكباب لحم بقري مفروم متبل بالبصل والبقدونس والكمون والكزبرة، يُضغط حول أسياخ مسطحة ويُشوى على نار عالية. يتحمص الخارج بينما يبقى الداخل طرياً عطرياً. تُقدم مع خضار مشوية أو سلطة أو أرز، وهي من أكثر طلبات المشاوي شيوعاً في الشرق الأوسط.",
-      "history": "تؤكل أنواع الكباب المفروم من البلقان إلى جنوب آسيا، وكلمة كفتة من أصل فارسي تعني اللحم المدقوق. تختلف التتبيلة من منطقة لأخرى، والكفتة البقرية على السيخ ثابتة في مشاوي الشام ومصر.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 غ لحم بقر مفروم",
-          "1 بصلة مبشورة ومعصورة",
-          "20 غ بقدونس مفروم ناعماً",
-          "1 ملعقة صغيرة كمون مطحون",
-          "1 ملعقة صغيرة كزبرة مطحونة",
-          "ملح وفلفل أسود",
-          "1 ملعقة صغيرة زيت للشواية"
-        ],
-        "steps": [
-          "اخلط اللحم مع البصل والبقدونس والبهارات والملح واعجنه 2–3 دقائق حتى يتماسك.",
-          "برّده 15 دقيقة ثم اضغطه حول أسياخ مسطحة.",
-          "اشوِه على نار عالية 8–10 دقائق مع التقليب حتى يتحمص وينضج.",
-          "قدّمه مع السلطة والطماطم أو البصل المشوي."
-        ]
-      },
-      "tips": [
-        "اختر لحماً بنسبة دهن 10% — يُشوى جيداً ودهنه أقل من المفروم العادي.",
-        "الشواء أفضل من القلي لأن الدهن يسيل بعيداً.",
-        "قدّمه مع طبق سلطة كبير بدل الأرز لوجبة أخف."
-      ]
-    },
-    "it": {
-      "name": "Kofta kebab",
-      "origin": "Medio Oriente · Levante e Turchia",
-      "intro": "Il kofta kebab è carne di manzo macinata speziata, mescolata con cipolla, prezzemolo, cumino e coriandolo, modellata attorno a spiedi piatti e grigliata a fuoco vivo. L'esterno si abbrustolisce mentre l'interno resta succoso e profumato. Si serve con verdure grigliate, insalata o riso ed è una delle ordinazioni alla griglia più comuni in tutto il Medio Oriente.",
-      "history": "Spiedini di carne macinata di questo tipo si mangiano dai Balcani all'Asia meridionale; il nome kofta deriva da una parola persiana che indica la carne pestata. Ogni regione lo insaporisce in modo diverso, e la versione di manzo allo spiedo è un classico delle griglierie levantine ed egiziane.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g di carne di manzo macinata",
-          "1 cipolla grattugiata e strizzata",
-          "20 g di prezzemolo tritato finemente",
-          "1 cucchiaino di cumino in polvere",
-          "1 cucchiaino di coriandolo in polvere",
-          "Sale e pepe nero",
-          "1 cucchiaino di olio per la griglia"
-        ],
-        "steps": [
-          "Mescola il manzo con la cipolla, il prezzemolo, le spezie e il sale; impasta per 2–3 minuti finché il composto non è appiccicoso.",
-          "Lascialo in frigorifero per 15 minuti, poi modellalo attorno agli spiedi piatti.",
-          "Griglia a fuoco vivo per 8–10 minuti, girando, finché non è abbrustolito e cotto all'interno.",
-          "Servi con insalata e pomodori o cipolle grigliati."
-        ]
-      },
-      "tips": [
-        "Scegli manzo al 10% di grassi: si griglia comunque bene e ha meno grassi del macinato normale.",
-        "Grigliali invece di cuocerli in padella, così il grasso cola via.",
-        "Abbinali a una grande insalata invece che al riso per un pasto più leggero."
-      ]
-    },
-    "el": {
-      "name": "Κόφτα κεμπάπ",
-      "origin": "Μέση Ανατολή · Λεβάντε και Τουρκία",
-      "intro": "Το κόφτα κεμπάπ είναι μυρωδάτος μοσχαρίσιος κιμάς ανακατεμένος με κρεμμύδι, μαϊντανό, κύμινο και κόλιανδρο, που πλάθεται γύρω από πλακέ σούβλες και ψήνεται σε δυνατή φωτιά. Απέξω καψαλίζεται, ενώ μέσα μένει ζουμερό και αρωματικό. Σερβίρεται με ψητά λαχανικά, σαλάτα ή ρύζι και είναι μία από τις πιο συνηθισμένες παραγγελίες ψητών σε όλη τη Μέση Ανατολή.",
-      "history": "Κεμπάπ από κιμά αυτού του είδους τρώγονται από τα Βαλκάνια έως τη Νότια Ασία· το όνομα κόφτα προέρχεται από μια περσική λέξη για το κοπανισμένο κρέας. Κάθε περιοχή το καρυκεύει διαφορετικά, και η μοσχαρίσια εκδοχή στη σούβλα είναι σταθερή αξία στα ψητοπωλεία του Λεβάντε και της Αιγύπτου.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 γρ. μοσχαρίσιος κιμάς",
-          "1 κρεμμύδι, τριμμένο και στυμμένο",
-          "20 γρ. μαϊντανός, ψιλοκομμένος",
-          "1 κ.γ. κύμινο",
-          "1 κ.γ. κόλιανδρος σε σκόνη",
-          "Αλάτι και μαύρο πιπέρι",
-          "1 κ.γ. λάδι για τη σχάρα"
-        ],
-        "steps": [
-          "Ανακατέψτε τον κιμά με το κρεμμύδι, τον μαϊντανό, τα μπαχαρικά και το αλάτι· ζυμώστε 2–3 λεπτά μέχρι να γίνει κολλώδες.",
-          "Βάλτε στο ψυγείο 15 λεπτά και έπειτα πλάστε το μείγμα γύρω από τις πλακέ σούβλες.",
-          "Ψήστε σε δυνατή φωτιά 8–10 λεπτά, γυρίζοντας, μέχρι να καψαλιστεί και να ψηθεί καλά.",
-          "Σερβίρετε με σαλάτα και ψητές ντομάτες ή κρεμμύδια."
-        ]
-      },
-      "tips": [
-        "Διαλέξτε μοσχάρι με 10% λιπαρά — ψήνεται εξίσου καλά και έχει λιγότερο λίπος από τον συνηθισμένο κιμά.",
-        "Ψήστε στη σχάρα αντί για το τηγάνι ώστε να στάζει το λίπος.",
-        "Συνδυάστε το με μεγάλη σαλάτα αντί για ρύζι για πιο ελαφρύ γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Кофта-кебаб",
-      "origin": "Ближний Восток · Левант и Турция",
-      "intro": "Кофта-кебаб — пряной говяжий фарш с луком, петрушкой, кумином и кориандром, нанизанный на плоские шпажки и приготовленный на гриле на сильном огне. Снаружи он обугливается, а внутри остаётся сочным и ароматным. Его подают с овощами на гриле, салатом или рисом, и это один из самых частых заказов с гриля на Ближнем Востоке.",
-      "history": "Кебабы из рубленого мяса такого рода едят от Балкан до Южной Азии; название «кофта» происходит от персидского слова, означающего толчёное мясо. В каждом регионе её приправляют по-своему, а версия с говядиной на шпажках — обязательная часть грилей Леванта и Египта.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 г говяжьего фарша",
-          "1 луковица, натёртая и отжатая",
-          "20 г петрушки, мелко нарубленной",
-          "1 ч. л. молотого кумина",
-          "1 ч. л. молотого кориандра",
-          "Соль и чёрный перец",
-          "1 ч. л. масла для гриля"
-        ],
-        "steps": [
-          "Смешайте говядину с луком, петрушкой, специями и солью; вымешивайте 2–3 минуты до липкости.",
-          "Охладите 15 минут, затем обмажьте фаршем плоские шпажки.",
-          "Жарьте на сильном огне 8–10 минут, переворачивая, до румяной корочки и готовности.",
-          "Подавайте с салатом и помидорами или луком на гриле."
-        ]
-      },
-      "tips": [
-        "Выбирайте говядину с 10% жира — она хорошо готовится на гриле, а жира в ней меньше, чем в обычном фарше.",
-        "Готовьте на гриле, а не на сковороде, чтобы жир стекал.",
-        "Сочетайте с большим салатом вместо риса, чтобы приём пищи был легче."
-      ],
-      "name_inline": "кофта-кебаб"
-    }
+  "ar": {
+   "name": "كفتة كباب",
+   "origin": "الشرق الأوسط · الشام وتركيا",
+   "intro": "كفتة الكباب لحم بقري مفروم متبل بالبصل والبقدونس والكمون والكزبرة، يُضغط حول أسياخ مسطحة ويُشوى على نار عالية. يتحمص الخارج بينما يبقى الداخل طرياً عطرياً. تُقدم مع خضار مشوية أو سلطة أو أرز، وهي من أكثر طلبات المشاوي شيوعاً في الشرق الأوسط.",
+   "history": "تؤكل أنواع الكباب المفروم من البلقان إلى جنوب آسيا، وكلمة كفتة من أصل فارسي تعني اللحم المدقوق. تختلف التتبيلة من منطقة لأخرى، والكفتة البقرية على السيخ ثابتة في مشاوي الشام ومصر.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 غ لحم بقر مفروم",
+     "1 بصلة مبشورة ومعصورة",
+     "20 غ بقدونس مفروم ناعماً",
+     "1 ملعقة صغيرة كمون مطحون",
+     "1 ملعقة صغيرة كزبرة مطحونة",
+     "ملح وفلفل أسود",
+     "1 ملعقة صغيرة زيت للشواية"
+    ],
+    "steps": [
+     "اخلط اللحم مع البصل والبقدونس والبهارات والملح واعجنه 2–3 دقائق حتى يتماسك.",
+     "برّده 15 دقيقة ثم اضغطه حول أسياخ مسطحة.",
+     "اشوِه على نار عالية 8–10 دقائق مع التقليب حتى يتحمص وينضج.",
+     "قدّمه مع السلطة والطماطم أو البصل المشوي."
+    ]
+   },
+   "tips": [
+    "اختر لحماً بنسبة دهن 10% — يُشوى جيداً ودهنه أقل من المفروم العادي.",
+    "الشواء أفضل من القلي لأن الدهن يسيل بعيداً.",
+    "قدّمه مع طبق سلطة كبير بدل الأرز لوجبة أخف."
+   ]
+  },
+  "it": {
+   "name": "Kofta kebab",
+   "origin": "Medio Oriente · Levante e Turchia",
+   "intro": "Il kofta kebab è carne di manzo macinata speziata, mescolata con cipolla, prezzemolo, cumino e coriandolo, modellata attorno a spiedi piatti e grigliata a fuoco vivo. L'esterno si abbrustolisce mentre l'interno resta succoso e profumato. Si serve con verdure grigliate, insalata o riso ed è una delle ordinazioni alla griglia più comuni in tutto il Medio Oriente.",
+   "history": "Spiedini di carne macinata di questo tipo si mangiano dai Balcani all'Asia meridionale; il nome kofta deriva da una parola persiana che indica la carne pestata. Ogni regione lo insaporisce in modo diverso, e la versione di manzo allo spiedo è un classico delle griglierie levantine ed egiziane.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g di carne di manzo macinata",
+     "1 cipolla grattugiata e strizzata",
+     "20 g di prezzemolo tritato finemente",
+     "1 cucchiaino di cumino in polvere",
+     "1 cucchiaino di coriandolo in polvere",
+     "Sale e pepe nero",
+     "1 cucchiaino di olio per la griglia"
+    ],
+    "steps": [
+     "Mescola il manzo con la cipolla, il prezzemolo, le spezie e il sale; impasta per 2–3 minuti finché il composto non è appiccicoso.",
+     "Lascialo in frigorifero per 15 minuti, poi modellalo attorno agli spiedi piatti.",
+     "Griglia a fuoco vivo per 8–10 minuti, girando, finché non è abbrustolito e cotto all'interno.",
+     "Servi con insalata e pomodori o cipolle grigliati."
+    ]
+   },
+   "tips": [
+    "Scegli manzo al 10% di grassi: si griglia comunque bene e ha meno grassi del macinato normale.",
+    "Grigliali invece di cuocerli in padella, così il grasso cola via.",
+    "Abbinali a una grande insalata invece che al riso per un pasto più leggero."
+   ]
+  },
+  "el": {
+   "name": "Κόφτα κεμπάπ",
+   "origin": "Μέση Ανατολή · Λεβάντε και Τουρκία",
+   "intro": "Το κόφτα κεμπάπ είναι μυρωδάτος μοσχαρίσιος κιμάς ανακατεμένος με κρεμμύδι, μαϊντανό, κύμινο και κόλιανδρο, που πλάθεται γύρω από πλακέ σούβλες και ψήνεται σε δυνατή φωτιά. Απέξω καψαλίζεται, ενώ μέσα μένει ζουμερό και αρωματικό. Σερβίρεται με ψητά λαχανικά, σαλάτα ή ρύζι και είναι μία από τις πιο συνηθισμένες παραγγελίες ψητών σε όλη τη Μέση Ανατολή.",
+   "history": "Κεμπάπ από κιμά αυτού του είδους τρώγονται από τα Βαλκάνια έως τη Νότια Ασία· το όνομα κόφτα προέρχεται από μια περσική λέξη για το κοπανισμένο κρέας. Κάθε περιοχή το καρυκεύει διαφορετικά, και η μοσχαρίσια εκδοχή στη σούβλα είναι σταθερή αξία στα ψητοπωλεία του Λεβάντε και της Αιγύπτου.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 γρ. μοσχαρίσιος κιμάς",
+     "1 κρεμμύδι, τριμμένο και στυμμένο",
+     "20 γρ. μαϊντανός, ψιλοκομμένος",
+     "1 κ.γ. κύμινο",
+     "1 κ.γ. κόλιανδρος σε σκόνη",
+     "Αλάτι και μαύρο πιπέρι",
+     "1 κ.γ. λάδι για τη σχάρα"
+    ],
+    "steps": [
+     "Ανακατέψτε τον κιμά με το κρεμμύδι, τον μαϊντανό, τα μπαχαρικά και το αλάτι· ζυμώστε 2–3 λεπτά μέχρι να γίνει κολλώδες.",
+     "Βάλτε στο ψυγείο 15 λεπτά και έπειτα πλάστε το μείγμα γύρω από τις πλακέ σούβλες.",
+     "Ψήστε σε δυνατή φωτιά 8–10 λεπτά, γυρίζοντας, μέχρι να καψαλιστεί και να ψηθεί καλά.",
+     "Σερβίρετε με σαλάτα και ψητές ντομάτες ή κρεμμύδια."
+    ]
+   },
+   "tips": [
+    "Διαλέξτε μοσχάρι με 10% λιπαρά — ψήνεται εξίσου καλά και έχει λιγότερο λίπος από τον συνηθισμένο κιμά.",
+    "Ψήστε στη σχάρα αντί για το τηγάνι ώστε να στάζει το λίπος.",
+    "Συνδυάστε το με μεγάλη σαλάτα αντί για ρύζι για πιο ελαφρύ γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Кофта-кебаб",
+   "origin": "Ближний Восток · Левант и Турция",
+   "intro": "Кофта-кебаб — пряной говяжий фарш с луком, петрушкой, кумином и кориандром, нанизанный на плоские шпажки и приготовленный на гриле на сильном огне. Снаружи он обугливается, а внутри остаётся сочным и ароматным. Его подают с овощами на гриле, салатом или рисом, и это один из самых частых заказов с гриля на Ближнем Востоке.",
+   "history": "Кебабы из рубленого мяса такого рода едят от Балкан до Южной Азии; название «кофта» происходит от персидского слова, означающего толчёное мясо. В каждом регионе её приправляют по-своему, а версия с говядиной на шпажках — обязательная часть грилей Леванта и Египта.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 г говяжьего фарша",
+     "1 луковица, натёртая и отжатая",
+     "20 г петрушки, мелко нарубленной",
+     "1 ч. л. молотого кумина",
+     "1 ч. л. молотого кориандра",
+     "Соль и чёрный перец",
+     "1 ч. л. масла для гриля"
+    ],
+    "steps": [
+     "Смешайте говядину с луком, петрушкой, специями и солью; вымешивайте 2–3 минуты до липкости.",
+     "Охладите 15 минут, затем обмажьте фаршем плоские шпажки.",
+     "Жарьте на сильном огне 8–10 минут, переворачивая, до румяной корочки и готовности.",
+     "Подавайте с салатом и помидорами или луком на гриле."
+    ]
+   },
+   "tips": [
+    "Выбирайте говядину с 10% жира — она хорошо готовится на гриле, а жира в ней меньше, чем в обычном фарше.",
+    "Готовьте на гриле, а не на сковороде, чтобы жир стекал.",
+    "Сочетайте с большим салатом вместо риса, чтобы приём пищи был легче."
+   ],
+   "name_inline": "кофта-кебаб"
+  },
+  "es": {
+   "name": "Kebab kofta",
+   "origin": "Medio Oriente · Levante y Turquía",
+   "intro": "El kebab kofta es carne molida de res sazonada con cebolla, perejil, comino y cilantro, presionada alrededor de brochetas planas y asada a fuego fuerte. El exterior se chamusca y el interior queda jugoso y aromático. Se sirve con verduras asadas, ensalada o arroz, y es uno de los pedidos más comunes de la parrilla en todo Medio Oriente.",
+   "history": "Los kebabs de carne molida de este tipo se comen desde los Balcanes hasta el sur de Asia; el nombre kofta viene de una palabra persa que significa «carne machacada». Cada región lo sazona de manera distinta, y la versión de res en brocheta es un clásico de las parrillas del Levante y de Egipto.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g de carne molida de res",
+     "1 cebolla, rallada y exprimida",
+     "20 g de perejil, finamente picado",
+     "1 cdta. de comino molido",
+     "1 cdta. de cilantro molido",
+     "Sal y pimienta negra",
+     "1 cdta. de aceite para la parrilla"
+    ],
+    "steps": [
+     "Mezcla la carne con la cebolla, el perejil, las especias y la sal; amasa de 2 a 3 minutos, hasta que quede pegajosa.",
+     "Refrigera 15 minutos y luego presiona la mezcla alrededor de brochetas planas.",
+     "Ásalos a fuego fuerte de 8 a 10 minutos, volteándolos, hasta que estén chamuscados y cocidos por dentro.",
+     "Sirve con ensalada y tomates o cebollas asados."
+    ]
+   },
+   "tips": [
+    "Elige carne de res con un 10 % de grasa: se asa bien y tiene menos grasa que la molida común.",
+    "Ásalos a la parrilla en lugar de freírlos en sartén, para que la grasa escurra.",
+    "Combínalos con una ensalada grande en lugar de arroz para una comida más ligera."
+   ],
+   "name_inline": "el kebab kofta"
   }
+ }
 }

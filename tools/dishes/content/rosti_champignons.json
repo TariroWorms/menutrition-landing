@@ -1,175 +1,208 @@
 {
-  "db_key": "rosti_champignons",
-  "slug": "rosti-champignons",
-  "emoji": "🍄",
-  "portion_g": 280,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "rosti_champignons",
+ "slug": "rosti-champignons",
+ "emoji": "🍄",
+ "portion_g": 280,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Rösti with Mushrooms",
+   "origin": "Switzerland",
+   "intro": "Rösti with mushrooms tops the crispy Swiss potato cake with mushrooms sautéed in butter and simmered in a little cream with fresh herbs. The crunchy golden potato contrasts with the soft, earthy, creamy sauce. It is a classic vegetarian main course in Swiss restaurants.",
+   "history": "Rösti is traditionally linked to the canton of Bern, where it is often said to have been a farmers' breakfast of grated potatoes fried in butter. It later became a Swiss national dish, and the 'Röstigraben' (rösti ditch) is a popular nickname for the cultural line between German- and French-speaking Switzerland.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g waxy potatoes",
+     "300 g mushrooms, sliced",
+     "100 ml cream",
+     "2 tbsp chopped parsley and chives",
+     "30 g butter",
+     "1 tsp salt",
+     "Black pepper to taste"
+    ],
+    "steps": [
+     "Boil the potatoes in their skins for 10 minutes, cool completely (ideally overnight), then peel and coarsely grate.",
+     "Season the grated potato with salt and pepper.",
+     "Melt half the butter in a 24 cm non-stick pan over medium heat, add the potato and press into a flat cake.",
+     "Cook 12–15 minutes until golden underneath, flip with the help of a plate, add the remaining butter and cook another 10–12 minutes.",
+     "Meanwhile fry the mushrooms in a little butter until browned, add the cream and simmer 3 minutes; season and stir in the herbs.",
+     "Spoon the mushrooms over the rösti and serve."
+    ]
+   },
+   "tips": [
+    "1 tbsp butter ≈ 100 kcal — use a non-stick pan and brush on a thin layer instead of a generous knob.",
+    "Halve the cream to 50 ml and loosen the sauce with a splash of water — the mushrooms keep their flavour.",
+    "Make the mushroom layer generous and the rösti thinner: mushrooms add volume for very few calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Rösti with Mushrooms",
-      "origin": "Switzerland",
-      "intro": "Rösti with mushrooms tops the crispy Swiss potato cake with mushrooms sautéed in butter and simmered in a little cream with fresh herbs. The crunchy golden potato contrasts with the soft, earthy, creamy sauce. It is a classic vegetarian main course in Swiss restaurants.",
-      "history": "Rösti is traditionally linked to the canton of Bern, where it is often said to have been a farmers' breakfast of grated potatoes fried in butter. It later became a Swiss national dish, and the 'Röstigraben' (rösti ditch) is a popular nickname for the cultural line between German- and French-speaking Switzerland.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 g waxy potatoes",
-          "300 g mushrooms, sliced",
-          "100 ml cream",
-          "2 tbsp chopped parsley and chives",
-          "30 g butter",
-          "1 tsp salt",
-          "Black pepper to taste"
-        ],
-        "steps": [
-          "Boil the potatoes in their skins for 10 minutes, cool completely (ideally overnight), then peel and coarsely grate.",
-          "Season the grated potato with salt and pepper.",
-          "Melt half the butter in a 24 cm non-stick pan over medium heat, add the potato and press into a flat cake.",
-          "Cook 12–15 minutes until golden underneath, flip with the help of a plate, add the remaining butter and cook another 10–12 minutes.",
-          "Meanwhile fry the mushrooms in a little butter until browned, add the cream and simmer 3 minutes; season and stir in the herbs.",
-          "Spoon the mushrooms over the rösti and serve."
-        ]
-      },
-      "tips": [
-        "1 tbsp butter ≈ 100 kcal — use a non-stick pan and brush on a thin layer instead of a generous knob.",
-        "Halve the cream to 50 ml and loosen the sauce with a splash of water — the mushrooms keep their flavour.",
-        "Make the mushroom layer generous and the rösti thinner: mushrooms add volume for very few calories."
-      ]
-    },
-    "ar": {
-      "name": "روستي بالفطر",
-      "origin": "سويسرا",
-      "intro": "روستي بالفطر يُغطّى فيه قرص البطاطا السويسري المقرمش بفطر مشوّح بالزبدة ومطهو قليلاً مع القشدة والأعشاب الطازجة. تتباين البطاطا الذهبية المقرمشة مع الصلصة الطرية الكريمية ذات النكهة الترابية. طبق نباتي رئيسي كلاسيكي في المطاعم السويسرية.",
-      "history": "يرتبط الروستي تقليدياً بكانتون برن، حيث يُقال إنه كان فطوراً للمزارعين من البطاطا المبشورة المقلية بالزبدة. ثم صار طبقاً وطنياً سويسرياً، ويُطلق على الحدّ الثقافي بين المناطق الناطقة بالألمانية والفرنسية في سويسرا اسم «خندق الروستي» على سبيل الدعابة.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 غ بطاطا متماسكة",
-          "300 غ فطر مقطع شرائح",
-          "100 مل قشدة",
-          "2 ملعقة كبيرة بقدونس وثوم معمّر مفروم",
-          "30 غ زبدة",
-          "1 ملعقة صغيرة ملح",
-          "فلفل أسود حسب الرغبة"
-        ],
-        "steps": [
-          "اسلق البطاطا بقشرها 10 دقائق، ثم بردها تماماً (ويُفضّل ليلة كاملة)، ثم قشّرها وابشرها بشراً خشناً.",
-          "تبّل البطاطا المبشورة بالملح والفلفل.",
-          "ذوّب نصف الزبدة في مقلاة غير لاصقة قطرها 24 سم على نار متوسطة، وأضف البطاطا واضغطها لتصبح قرصاً مسطحاً.",
-          "اطهها 12–15 دقيقة حتى يصبح أسفلها ذهبياً، ثم اقلبها بمساعدة طبق، وأضف بقية الزبدة واطهها 10–12 دقيقة أخرى.",
-          "في الأثناء، حمّر الفطر في قليل من الزبدة، ثم أضف القشدة واتركه يغلي بهدوء 3 دقائق؛ تبّله وأضف الأعشاب.",
-          "ضع الفطر فوق الروستي وقدّمه."
-        ]
-      },
-      "tips": [
-        "ملعقة كبيرة من الزبدة ≈ 100 سعرة — استخدم مقلاة غير لاصقة وادهنها بطبقة رقيقة بدل كمية كبيرة.",
-        "قلّل القشدة إلى 50 مل وخفّف الصلصة بقليل من الماء — يحتفظ الفطر بنكهته.",
-        "اجعل طبقة الفطر وفيرة والروستي أرقّ: الفطر يضيف حجماً بسعرات قليلة جداً."
-      ]
-    },
-    "it": {
-      "name": "Rösti ai funghi",
-      "origin": "Svizzera",
-      "intro": "Il rösti ai funghi completa il croccante tortino di patate svizzero con funghi saltati nel burro e cotti in un po' di panna con erbe fresche. La patata dorata e croccante contrasta con la salsa morbida, terrosa e cremosa. È un classico piatto principale vegetariano dei ristoranti svizzeri.",
-      "history": "Il rösti è tradizionalmente legato al cantone di Berna, dove si dice spesso che fosse la colazione dei contadini a base di patate grattugiate fritte nel burro. In seguito è diventato un piatto nazionale svizzero, e «Röstigraben» (fossato del rösti) è un soprannome popolare per il confine culturale tra la Svizzera tedesca e quella francese.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 g di patate a pasta soda",
-          "300 g di funghi, affettati",
-          "100 ml di panna",
-          "2 cucchiai di prezzemolo ed erba cipollina tritati",
-          "30 g di burro",
-          "1 cucchiaino di sale",
-          "Pepe nero a piacere"
-        ],
-        "steps": [
-          "Lessa le patate con la buccia per 10 minuti, falle raffreddare completamente (meglio se per una notte), poi pelale e grattugiale grossolanamente.",
-          "Condisci le patate grattugiate con sale e pepe.",
-          "Sciogli metà del burro in una padella antiaderente da 24 cm a fuoco medio, aggiungi le patate e pressale formando un disco piatto.",
-          "Cuoci 12–15 minuti finché il fondo è dorato, giralo aiutandoti con un piatto, aggiungi il burro rimasto e cuoci altri 10–12 minuti.",
-          "Nel frattempo salta i funghi in un po' di burro finché sono rosolati, aggiungi la panna e cuoci a fuoco lento 3 minuti; regola di sale e incorpora le erbe.",
-          "Distribuisci i funghi sul rösti e servi."
-        ]
-      },
-      "tips": [
-        "1 cucchiaio di burro ≈ 100 kcal: usa una padella antiaderente e spennella uno strato sottile invece di una noce generosa.",
-        "Dimezza la panna a 50 ml e allunga la salsa con un goccio d'acqua: i funghi mantengono il loro sapore.",
-        "Abbonda con lo strato di funghi e fai il rösti più sottile: i funghi aggiungono volume con pochissime calorie."
-      ]
-    },
-    "el": {
-      "name": "Ρέστι με μανιτάρια",
-      "origin": "Ελβετία",
-      "intro": "Το ρέστι με μανιτάρια συνδυάζει την τραγανή ελβετική πατατόπιτα με μανιτάρια σοταρισμένα σε βούτυρο και σιγοβρασμένα σε λίγη κρέμα γάλακτος με φρέσκα μυρωδικά. Η τραγανή χρυσαφένια πατάτα έρχεται σε αντίθεση με τη μαλακή, γήινη, κρεμώδη σάλτσα. Είναι κλασικό χορτοφαγικό κυρίως πιάτο στα ελβετικά εστιατόρια.",
-      "history": "Το ρέστι συνδέεται παραδοσιακά με το καντόνι της Βέρνης, όπου λέγεται συχνά ότι ήταν το πρωινό των αγροτών από τριμμένες πατάτες τηγανισμένες σε βούτυρο. Αργότερα έγινε εθνικό πιάτο της Ελβετίας, και το «Röstigraben» (το χαντάκι του ρέστι) είναι δημοφιλές παρατσούκλι για την πολιτισμική διαχωριστική γραμμή ανάμεσα στη γερμανόφωνη και τη γαλλόφωνη Ελβετία.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 γρ. σφιχτές πατάτες",
-          "300 γρ. μανιτάρια, σε φέτες",
-          "100 ml κρέμα γάλακτος",
-          "2 κ.σ. ψιλοκομμένος μαϊντανός και σχοινόπρασο",
-          "30 γρ. βούτυρο",
-          "1 κ.γ. αλάτι",
-          "Μαύρο πιπέρι κατά βούληση"
-        ],
-        "steps": [
-          "Βράστε τις πατάτες με τη φλούδα για 10 λεπτά, αφήστε τες να κρυώσουν εντελώς (ιδανικά όλη τη νύχτα), μετά ξεφλουδίστε τες και τρίψτε τες χοντρά.",
-          "Αλατοπιπερώστε την τριμμένη πατάτα.",
-          "Λιώστε το μισό βούτυρο σε αντικολλητικό τηγάνι 24 εκ. σε μέτρια φωτιά, προσθέστε την πατάτα και πιέστε τη σε επίπεδη πίτα.",
-          "Ψήστε 12–15 λεπτά μέχρι να ροδίσει από κάτω, γυρίστε τη με τη βοήθεια ενός πιάτου, προσθέστε το υπόλοιπο βούτυρο και ψήστε άλλα 10–12 λεπτά.",
-          "Στο μεταξύ, σοτάρετε τα μανιτάρια σε λίγο βούτυρο μέχρι να ροδίσουν, προσθέστε την κρέμα και σιγοβράστε 3 λεπτά· αλατοπιπερώστε και ανακατέψτε τα μυρωδικά.",
-          "Απλώστε τα μανιτάρια πάνω στο ρέστι και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "1 κ.σ. βούτυρο ≈ 100 kcal — χρησιμοποιήστε αντικολλητικό τηγάνι και αλείψτε ένα λεπτό στρώμα αντί για ένα γενναίο κομμάτι.",
-        "Μειώστε την κρέμα στα 50 ml και αραιώστε τη σάλτσα με λίγο νερό — τα μανιτάρια κρατούν τη γεύση τους.",
-        "Κάντε γενναίο το στρώμα των μανιταριών και πιο λεπτό το ρέστι: τα μανιτάρια δίνουν όγκο με ελάχιστες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Рёсти с грибами",
-      "origin": "Швейцария",
-      "intro": "Рёсти с грибами — хрустящая швейцарская картофельная лепёшка, увенчанная грибами, обжаренными на сливочном масле и протушенными в небольшом количестве сливок со свежей зеленью. Хрустящий золотистый картофель контрастирует с мягким, землистым, кремовым соусом. Это классическое вегетарианское основное блюдо в швейцарских ресторанах.",
-      "history": "Рёсти традиционно связывают с кантоном Берн, где, как часто говорят, это был фермерский завтрак из тёртого картофеля, жаренного на масле. Позже оно стало национальным блюдом Швейцарии, а «Рёстиграбен» («ров рёсти») — популярное название культурной границы между немецко- и франкоговорящей Швейцарией.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 45,
-        "ingredients": [
-          "800 г картофеля восковых сортов",
-          "300 г грибов, нарезанных",
-          "100 мл сливок",
-          "2 ст. л. нарубленных петрушки и зелёного лука",
-          "30 г сливочного масла",
-          "1 ч. л. соли",
-          "Чёрный перец по вкусу"
-        ],
-        "steps": [
-          "Отварите картофель в мундире 10 минут, полностью остудите (лучше на ночь), затем очистите и крупно натрите.",
-          "Приправьте тёртый картофель солью и перцем.",
-          "Растопите половину масла в антипригарной сковороде диаметром 24 см на среднем огне, выложите картофель и прижмите в плоскую лепёшку.",
-          "Готовьте 12–15 минут до золотистой корочки снизу, переверните с помощью тарелки, добавьте оставшееся масло и готовьте ещё 10–12 минут.",
-          "Тем временем обжарьте грибы в небольшом количестве масла до румяности, добавьте сливки и томите 3 минуты; приправьте и вмешайте зелень.",
-          "Выложите грибы ложкой на рёсти и подавайте."
-        ]
-      },
-      "tips": [
-        "1 ст. л. сливочного масла ≈ 100 ккал — используйте антипригарную сковороду и смазывайте тонким слоем вместо щедрого куска.",
-        "Уменьшите сливки вдвое, до 50 мл, и разведите соус небольшим количеством воды — грибы сохранят вкус.",
-        "Сделайте слой грибов щедрым, а рёсти тоньше: грибы добавляют объём при очень малом количестве калорий."
-      ],
-      "name_inline": "рёсти с грибами"
-    }
+  "ar": {
+   "name": "روستي بالفطر",
+   "origin": "سويسرا",
+   "intro": "روستي بالفطر يُغطّى فيه قرص البطاطا السويسري المقرمش بفطر مشوّح بالزبدة ومطهو قليلاً مع القشدة والأعشاب الطازجة. تتباين البطاطا الذهبية المقرمشة مع الصلصة الطرية الكريمية ذات النكهة الترابية. طبق نباتي رئيسي كلاسيكي في المطاعم السويسرية.",
+   "history": "يرتبط الروستي تقليدياً بكانتون برن، حيث يُقال إنه كان فطوراً للمزارعين من البطاطا المبشورة المقلية بالزبدة. ثم صار طبقاً وطنياً سويسرياً، ويُطلق على الحدّ الثقافي بين المناطق الناطقة بالألمانية والفرنسية في سويسرا اسم «خندق الروستي» على سبيل الدعابة.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 غ بطاطا متماسكة",
+     "300 غ فطر مقطع شرائح",
+     "100 مل قشدة",
+     "2 ملعقة كبيرة بقدونس وثوم معمّر مفروم",
+     "30 غ زبدة",
+     "1 ملعقة صغيرة ملح",
+     "فلفل أسود حسب الرغبة"
+    ],
+    "steps": [
+     "اسلق البطاطا بقشرها 10 دقائق، ثم بردها تماماً (ويُفضّل ليلة كاملة)، ثم قشّرها وابشرها بشراً خشناً.",
+     "تبّل البطاطا المبشورة بالملح والفلفل.",
+     "ذوّب نصف الزبدة في مقلاة غير لاصقة قطرها 24 سم على نار متوسطة، وأضف البطاطا واضغطها لتصبح قرصاً مسطحاً.",
+     "اطهها 12–15 دقيقة حتى يصبح أسفلها ذهبياً، ثم اقلبها بمساعدة طبق، وأضف بقية الزبدة واطهها 10–12 دقيقة أخرى.",
+     "في الأثناء، حمّر الفطر في قليل من الزبدة، ثم أضف القشدة واتركه يغلي بهدوء 3 دقائق؛ تبّله وأضف الأعشاب.",
+     "ضع الفطر فوق الروستي وقدّمه."
+    ]
+   },
+   "tips": [
+    "ملعقة كبيرة من الزبدة ≈ 100 سعرة — استخدم مقلاة غير لاصقة وادهنها بطبقة رقيقة بدل كمية كبيرة.",
+    "قلّل القشدة إلى 50 مل وخفّف الصلصة بقليل من الماء — يحتفظ الفطر بنكهته.",
+    "اجعل طبقة الفطر وفيرة والروستي أرقّ: الفطر يضيف حجماً بسعرات قليلة جداً."
+   ]
+  },
+  "it": {
+   "name": "Rösti ai funghi",
+   "origin": "Svizzera",
+   "intro": "Il rösti ai funghi completa il croccante tortino di patate svizzero con funghi saltati nel burro e cotti in un po' di panna con erbe fresche. La patata dorata e croccante contrasta con la salsa morbida, terrosa e cremosa. È un classico piatto principale vegetariano dei ristoranti svizzeri.",
+   "history": "Il rösti è tradizionalmente legato al cantone di Berna, dove si dice spesso che fosse la colazione dei contadini a base di patate grattugiate fritte nel burro. In seguito è diventato un piatto nazionale svizzero, e «Röstigraben» (fossato del rösti) è un soprannome popolare per il confine culturale tra la Svizzera tedesca e quella francese.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g di patate a pasta soda",
+     "300 g di funghi, affettati",
+     "100 ml di panna",
+     "2 cucchiai di prezzemolo ed erba cipollina tritati",
+     "30 g di burro",
+     "1 cucchiaino di sale",
+     "Pepe nero a piacere"
+    ],
+    "steps": [
+     "Lessa le patate con la buccia per 10 minuti, falle raffreddare completamente (meglio se per una notte), poi pelale e grattugiale grossolanamente.",
+     "Condisci le patate grattugiate con sale e pepe.",
+     "Sciogli metà del burro in una padella antiaderente da 24 cm a fuoco medio, aggiungi le patate e pressale formando un disco piatto.",
+     "Cuoci 12–15 minuti finché il fondo è dorato, giralo aiutandoti con un piatto, aggiungi il burro rimasto e cuoci altri 10–12 minuti.",
+     "Nel frattempo salta i funghi in un po' di burro finché sono rosolati, aggiungi la panna e cuoci a fuoco lento 3 minuti; regola di sale e incorpora le erbe.",
+     "Distribuisci i funghi sul rösti e servi."
+    ]
+   },
+   "tips": [
+    "1 cucchiaio di burro ≈ 100 kcal: usa una padella antiaderente e spennella uno strato sottile invece di una noce generosa.",
+    "Dimezza la panna a 50 ml e allunga la salsa con un goccio d'acqua: i funghi mantengono il loro sapore.",
+    "Abbonda con lo strato di funghi e fai il rösti più sottile: i funghi aggiungono volume con pochissime calorie."
+   ]
+  },
+  "el": {
+   "name": "Ρέστι με μανιτάρια",
+   "origin": "Ελβετία",
+   "intro": "Το ρέστι με μανιτάρια συνδυάζει την τραγανή ελβετική πατατόπιτα με μανιτάρια σοταρισμένα σε βούτυρο και σιγοβρασμένα σε λίγη κρέμα γάλακτος με φρέσκα μυρωδικά. Η τραγανή χρυσαφένια πατάτα έρχεται σε αντίθεση με τη μαλακή, γήινη, κρεμώδη σάλτσα. Είναι κλασικό χορτοφαγικό κυρίως πιάτο στα ελβετικά εστιατόρια.",
+   "history": "Το ρέστι συνδέεται παραδοσιακά με το καντόνι της Βέρνης, όπου λέγεται συχνά ότι ήταν το πρωινό των αγροτών από τριμμένες πατάτες τηγανισμένες σε βούτυρο. Αργότερα έγινε εθνικό πιάτο της Ελβετίας, και το «Röstigraben» (το χαντάκι του ρέστι) είναι δημοφιλές παρατσούκλι για την πολιτισμική διαχωριστική γραμμή ανάμεσα στη γερμανόφωνη και τη γαλλόφωνη Ελβετία.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 γρ. σφιχτές πατάτες",
+     "300 γρ. μανιτάρια, σε φέτες",
+     "100 ml κρέμα γάλακτος",
+     "2 κ.σ. ψιλοκομμένος μαϊντανός και σχοινόπρασο",
+     "30 γρ. βούτυρο",
+     "1 κ.γ. αλάτι",
+     "Μαύρο πιπέρι κατά βούληση"
+    ],
+    "steps": [
+     "Βράστε τις πατάτες με τη φλούδα για 10 λεπτά, αφήστε τες να κρυώσουν εντελώς (ιδανικά όλη τη νύχτα), μετά ξεφλουδίστε τες και τρίψτε τες χοντρά.",
+     "Αλατοπιπερώστε την τριμμένη πατάτα.",
+     "Λιώστε το μισό βούτυρο σε αντικολλητικό τηγάνι 24 εκ. σε μέτρια φωτιά, προσθέστε την πατάτα και πιέστε τη σε επίπεδη πίτα.",
+     "Ψήστε 12–15 λεπτά μέχρι να ροδίσει από κάτω, γυρίστε τη με τη βοήθεια ενός πιάτου, προσθέστε το υπόλοιπο βούτυρο και ψήστε άλλα 10–12 λεπτά.",
+     "Στο μεταξύ, σοτάρετε τα μανιτάρια σε λίγο βούτυρο μέχρι να ροδίσουν, προσθέστε την κρέμα και σιγοβράστε 3 λεπτά· αλατοπιπερώστε και ανακατέψτε τα μυρωδικά.",
+     "Απλώστε τα μανιτάρια πάνω στο ρέστι και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "1 κ.σ. βούτυρο ≈ 100 kcal — χρησιμοποιήστε αντικολλητικό τηγάνι και αλείψτε ένα λεπτό στρώμα αντί για ένα γενναίο κομμάτι.",
+    "Μειώστε την κρέμα στα 50 ml και αραιώστε τη σάλτσα με λίγο νερό — τα μανιτάρια κρατούν τη γεύση τους.",
+    "Κάντε γενναίο το στρώμα των μανιταριών και πιο λεπτό το ρέστι: τα μανιτάρια δίνουν όγκο με ελάχιστες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Рёсти с грибами",
+   "origin": "Швейцария",
+   "intro": "Рёсти с грибами — хрустящая швейцарская картофельная лепёшка, увенчанная грибами, обжаренными на сливочном масле и протушенными в небольшом количестве сливок со свежей зеленью. Хрустящий золотистый картофель контрастирует с мягким, землистым, кремовым соусом. Это классическое вегетарианское основное блюдо в швейцарских ресторанах.",
+   "history": "Рёсти традиционно связывают с кантоном Берн, где, как часто говорят, это был фермерский завтрак из тёртого картофеля, жаренного на масле. Позже оно стало национальным блюдом Швейцарии, а «Рёстиграбен» («ров рёсти») — популярное название культурной границы между немецко- и франкоговорящей Швейцарией.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 г картофеля восковых сортов",
+     "300 г грибов, нарезанных",
+     "100 мл сливок",
+     "2 ст. л. нарубленных петрушки и зелёного лука",
+     "30 г сливочного масла",
+     "1 ч. л. соли",
+     "Чёрный перец по вкусу"
+    ],
+    "steps": [
+     "Отварите картофель в мундире 10 минут, полностью остудите (лучше на ночь), затем очистите и крупно натрите.",
+     "Приправьте тёртый картофель солью и перцем.",
+     "Растопите половину масла в антипригарной сковороде диаметром 24 см на среднем огне, выложите картофель и прижмите в плоскую лепёшку.",
+     "Готовьте 12–15 минут до золотистой корочки снизу, переверните с помощью тарелки, добавьте оставшееся масло и готовьте ещё 10–12 минут.",
+     "Тем временем обжарьте грибы в небольшом количестве масла до румяности, добавьте сливки и томите 3 минуты; приправьте и вмешайте зелень.",
+     "Выложите грибы ложкой на рёсти и подавайте."
+    ]
+   },
+   "tips": [
+    "1 ст. л. сливочного масла ≈ 100 ккал — используйте антипригарную сковороду и смазывайте тонким слоем вместо щедрого куска.",
+    "Уменьшите сливки вдвое, до 50 мл, и разведите соус небольшим количеством воды — грибы сохранят вкус.",
+    "Сделайте слой грибов щедрым, а рёсти тоньше: грибы добавляют объём при очень малом количестве калорий."
+   ],
+   "name_inline": "рёсти с грибами"
+  },
+  "es": {
+   "name": "Rösti con champiñones",
+   "origin": "Suiza",
+   "intro": "El rösti con champiñones corona el crujiente pastel suizo de papa con champiñones salteados en mantequilla y cocidos a fuego bajo en un poco de crema con hierbas frescas. La papa dorada y crujiente contrasta con la salsa suave, terrosa y cremosa. Es un clásico plato fuerte vegetariano en los restaurantes suizos.",
+   "history": "El rösti se vincula tradicionalmente con el cantón de Berna, donde suele decirse que era un desayuno de campesinos a base de papas ralladas fritas en mantequilla. Más tarde se convirtió en un plato nacional suizo, y el «Röstigraben» (la «zanja del rösti») es un apodo popular para la línea cultural entre la Suiza de habla alemana y la de habla francesa.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 45,
+    "ingredients": [
+     "800 g de papas de pulpa firme",
+     "300 g de champiñones, rebanados",
+     "100 ml de crema",
+     "2 cda. de perejil y cebollín picados",
+     "30 g de mantequilla",
+     "1 cdta. de sal",
+     "Pimienta negra al gusto"
+    ],
+    "steps": [
+     "Hierve las papas con piel 10 minutos, déjalas enfriar por completo (lo ideal es toda la noche), luego pélalas y ralla en tiras gruesas.",
+     "Sazona la papa rallada con sal y pimienta.",
+     "Derrite la mitad de la mantequilla en una sartén antiadherente de 24 cm a fuego medio, agrega la papa y presiónala hasta formar una torta plana.",
+     "Cocina de 12–15 minutos, hasta que esté dorada por debajo, voltéala con ayuda de un plato, agrega el resto de la mantequilla y cocina otros 10–12 minutos.",
+     "Mientras tanto, fríe los champiñones en un poco de mantequilla hasta que doren, agrega la crema y cocina a fuego bajo 3 minutos; sazona e incorpora las hierbas.",
+     "Sirve los champiñones sobre el rösti."
+    ]
+   },
+   "tips": [
+    "1 cda. de mantequilla ≈ 100 kcal: usa una sartén antiadherente y unta una capa fina en lugar de un trozo generoso.",
+    "Reduce la crema a la mitad, a 50 ml, y aligera la salsa con un chorrito de agua; los champiñones conservan su sabor.",
+    "Haz la capa de champiñones generosa y el rösti más delgado: los champiñones dan volumen con muy pocas calorías."
+   ],
+   "name_inline": "el rösti con champiñones"
   }
+ }
 }

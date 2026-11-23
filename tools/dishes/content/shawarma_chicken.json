@@ -1,166 +1,197 @@
 {
-  "db_key": "shawarma_chicken",
-  "slug": "shawarma-chicken",
-  "emoji": "🌯",
-  "portion_g": 300,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "shawarma_chicken",
+ "slug": "shawarma-chicken",
+ "emoji": "🌯",
+ "portion_g": 300,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken shawarma wrap",
+   "origin": "Levant · Middle East",
+   "intro": "This chicken shawarma is dressed the Levantine street way: shaved spiced chicken rolled in pita with tahini sauce, garlic, lemon, pickles and salad. The chicken is juicy with charred edges, the tahini adds a creamy, nutty note and the pickles cut through with sharp acidity. It is eaten as a quick lunch or late-night snack.",
+   "history": "Shawarma developed from the Ottoman vertical-spit roast, and its name comes from the Turkish çevirme, “turning”. Chicken shawarma later became widespread in the Levant and is now sold everywhere from Beirut to the Gulf.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g boneless chicken thighs",
+     "Juice of 1 lemon, 3 garlic cloves, 2 tbsp olive oil",
+     "2 tsp ground cumin, 1 tsp paprika, ½ tsp turmeric, ½ tsp cinnamon, salt",
+     "4 tbsp tahini whisked with lemon juice, garlic and water",
+     "4 pita breads",
+     "Pickled cucumbers and turnips",
+     "Lettuce, tomato and parsley"
+    ],
+    "steps": [
+     "Marinate the chicken in lemon, garlic, oil, spices and salt for at least 2 hours.",
+     "Roast at 220 °C for 25–30 minutes, turning once, until charred at the edges, then slice thinly.",
+     "Whisk the tahini with lemon juice, crushed garlic and water until smooth.",
+     "Fill each pita with chicken, tahini sauce, pickles and salad and roll tightly."
+    ]
+   },
+   "tips": [
+    "Chicken breast is leaner than thigh.",
+    "Tahini is dense — 1 tbsp is about 90 kcal, so thin it well with lemon and water.",
+    "Ask for a plate with extra salad instead of the bread wrap."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken shawarma wrap",
-      "origin": "Levant · Middle East",
-      "intro": "This chicken shawarma is dressed the Levantine street way: shaved spiced chicken rolled in pita with tahini sauce, garlic, lemon, pickles and salad. The chicken is juicy with charred edges, the tahini adds a creamy, nutty note and the pickles cut through with sharp acidity. It is eaten as a quick lunch or late-night snack.",
-      "history": "Shawarma developed from the Ottoman vertical-spit roast, and its name comes from the Turkish çevirme, “turning”. Chicken shawarma later became widespread in the Levant and is now sold everywhere from Beirut to the Gulf.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 g boneless chicken thighs",
-          "Juice of 1 lemon, 3 garlic cloves, 2 tbsp olive oil",
-          "2 tsp ground cumin, 1 tsp paprika, ½ tsp turmeric, ½ tsp cinnamon, salt",
-          "4 tbsp tahini whisked with lemon juice, garlic and water",
-          "4 pita breads",
-          "Pickled cucumbers and turnips",
-          "Lettuce, tomato and parsley"
-        ],
-        "steps": [
-          "Marinate the chicken in lemon, garlic, oil, spices and salt for at least 2 hours.",
-          "Roast at 220 °C for 25–30 minutes, turning once, until charred at the edges, then slice thinly.",
-          "Whisk the tahini with lemon juice, crushed garlic and water until smooth.",
-          "Fill each pita with chicken, tahini sauce, pickles and salad and roll tightly."
-        ]
-      },
-      "tips": [
-        "Chicken breast is leaner than thigh.",
-        "Tahini is dense — 1 tbsp is about 90 kcal, so thin it well with lemon and water.",
-        "Ask for a plate with extra salad instead of the bread wrap."
-      ]
-    },
-    "ar": {
-      "name": "شاورما دجاج",
-      "origin": "بلاد الشام · الشرق الأوسط",
-      "intro": "تُحضَّر شاورما الدجاج هذه على طريقة الشارع الشامي: دجاج متبل مقطّع رقيقاً ملفوف في الخبز العربي مع الطحينة والثوم والليمون والمخللات والسلطة. الدجاج طري مع أطراف محمّرة، والطحينة تضيف قواماً كريمياً ونكهة السمسم، والمخللات تمنح حموضة منعشة. وتؤكل غداءً سريعاً أو وجبة مسائية.",
-      "history": "تطورت الشاورما من الشواء العثماني على السيخ العمودي، واسمها مأخوذ من الكلمة التركية «تشويرمه» أي الدوران. ثم انتشرت شاورما الدجاج في بلاد الشام، وتُباع اليوم في كل مكان من بيروت إلى الخليج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 غ أفخاذ دجاج بلا عظم",
-          "عصير ليمونة، 3 فصوص ثوم، 2 ملعقة كبيرة زيت زيتون",
-          "2 ملعقة صغيرة كمون، 1 ملعقة صغيرة بابريكا، نصف ملعقة صغيرة كركم، نصف ملعقة صغيرة قرفة، ملح",
-          "4 ملاعق كبيرة طحينة مخفوقة مع الليمون والثوم والماء",
-          "4 أرغفة خبز عربي",
-          "مخلل خيار ولفت",
-          "خس وطماطم وبقدونس"
-        ],
-        "steps": [
-          "تبّل الدجاج بالليمون والثوم والزيت والبهارات والملح ساعتين على الأقل.",
-          "اشوِه في الفرن على 220 °م لمدة 25–30 دقيقة مع التقليب مرة حتى تتحمر أطرافه، ثم قطّعه شرائح رقيقة.",
-          "اخفق الطحينة مع عصير الليمون والثوم المهروس والماء حتى تنعم.",
-          "احشُ كل رغيف بالدجاج والطحينة والمخللات والسلطة ولفّه بإحكام."
-        ]
-      },
-      "tips": [
-        "صدر الدجاج أقل دهناً من الفخذ.",
-        "الطحينة كثيفة السعرات، فالملعقة الكبيرة نحو 90 سعرة، لذا خففها جيداً بالليمون والماء.",
-        "اطلب صحناً مع سلطة إضافية بدلاً من لفّة الخبز."
-      ]
-    },
-    "it": {
-      "name": "Wrap di shawarma di pollo",
-      "name_inline": "wrap di shawarma di pollo",
-      "origin": "Levante · Medio Oriente",
-      "intro": "Questo shawarma di pollo è condito alla maniera dello street food levantino: pollo speziato affettato e arrotolato nella pita con salsa tahina, aglio, limone, sottaceti e insalata. Il pollo è succoso con i bordi abbrustoliti, la tahina aggiunge una nota cremosa che sa di sesamo e i sottaceti spezzano tutto con la loro acidità decisa. Si mangia come pranzo veloce o spuntino a tarda notte.",
-      "history": "Lo shawarma nacque dall'arrosto ottomano allo spiedo verticale, e il suo nome deriva dal turco çevirme, «girare». Lo shawarma di pollo si è diffuso in seguito nel Levante e oggi si vende ovunque, da Beirut al Golfo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 g di sovracosce di pollo disossate",
-          "Succo di 1 limone, 3 spicchi d'aglio, 2 cucchiai di olio d'oliva",
-          "2 cucchiaini di cumino in polvere, 1 cucchiaino di paprika, ½ cucchiaino di curcuma, ½ cucchiaino di cannella, sale",
-          "4 cucchiai di tahina sbattuta con succo di limone, aglio e acqua",
-          "4 pane pita",
-          "Cetrioli e rape sottaceto",
-          "Lattuga, pomodoro e prezzemolo"
-        ],
-        "steps": [
-          "Marina il pollo in limone, aglio, olio, spezie e sale per almeno 2 ore.",
-          "Arrostisci a 220 °C per 25–30 minuti, girando una volta, finché è abbrustolito ai bordi, poi affetta sottile.",
-          "Sbatti la tahina con succo di limone, aglio schiacciato e acqua finché è liscia.",
-          "Farcisci ogni pita con pollo, salsa tahina, sottaceti e insalata e arrotola ben stretto."
-        ]
-      },
-      "tips": [
-        "Il petto di pollo è più magro della sovracoscia.",
-        "La tahina è densa: 1 cucchiaio sono circa 90 kcal, quindi allungala bene con limone e acqua.",
-        "Chiedi un piatto con più insalata invece del pane arrotolato."
-      ]
-    },
-    "el": {
-      "name": "Τυλιχτός σαουρμάς κοτόπουλο",
-      "name_inline": "τυλιχτός σαουρμάς κοτόπουλο",
-      "origin": "Λεβάντε · Μέση Ανατολή",
-      "intro": "Αυτός ο σαουρμάς κοτόπουλο ετοιμάζεται όπως στον δρόμο του Λεβάντε: μπαχαρένιο κοτόπουλο σε λεπτές φέτες τυλιγμένο σε πίτα με σάλτσα ταχινιού, σκόρδο, λεμόνι, τουρσιά και σαλάτα. Το κοτόπουλο είναι ζουμερό με καψαλισμένες άκρες, το ταχίνι προσθέτει κρεμώδη νότα ξηρών καρπών και τα τουρσιά σπάνε τη γεύση με την έντονη ξινίλα τους. Τρώγεται ως γρήγορο μεσημεριανό ή βραδινό σνακ.",
-      "history": "Ο σαουρμάς εξελίχθηκε από το οθωμανικό ψητό σε κάθετη σούβλα, και το όνομά του προέρχεται από το τουρκικό çevirme, «γύρισμα». Ο σαουρμάς κοτόπουλο διαδόθηκε αργότερα στο Λεβάντε και σήμερα πωλείται παντού, από τη Βηρυτό μέχρι τον Κόλπο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 γρ. μπούτια κοτόπουλου χωρίς κόκαλο",
-          "Χυμός από 1 λεμόνι, 3 σκελίδες σκόρδο, 2 κ.σ. ελαιόλαδο",
-          "2 κ.γ. κύμινο σε σκόνη, 1 κ.γ. πάπρικα, ½ κ.γ. κουρκουμάς, ½ κ.γ. κανέλα, αλάτι",
-          "4 κ.σ. ταχίνι χτυπημένο με χυμό λεμονιού, σκόρδο και νερό",
-          "4 αραβικές πίτες",
-          "Αγγουράκια και γογγύλια τουρσί",
-          "Μαρούλι, ντομάτα και μαϊντανός"
-        ],
-        "steps": [
-          "Μαρινάρετε το κοτόπουλο σε λεμόνι, σκόρδο, λάδι, μπαχαρικά και αλάτι για τουλάχιστον 2 ώρες.",
-          "Ψήστε στους 220 °C για 25–30 λεπτά, γυρίζοντας μία φορά, μέχρι να καψαλιστούν οι άκρες, και κόψτε σε λεπτές φέτες.",
-          "Χτυπήστε το ταχίνι με χυμό λεμονιού, λιωμένο σκόρδο και νερό μέχρι να γίνει λείο.",
-          "Γεμίστε κάθε πίτα με κοτόπουλο, σάλτσα ταχινιού, τουρσιά και σαλάτα και τυλίξτε σφιχτά."
-        ]
-      },
-      "tips": [
-        "Το στήθος κοτόπουλου είναι πιο άπαχο από το μπούτι.",
-        "Το ταχίνι είναι πυκνό — 1 κ.σ. έχει περίπου 90 kcal, οπότε αραιώστε το καλά με λεμόνι και νερό.",
-        "Ζητήστε πιάτο με επιπλέον σαλάτα αντί για τυλιχτό με ψωμί."
-      ]
-    },
-    "ru": {
-      "name": "Шаурма из курицы",
-      "origin": "Левант · Ближний Восток",
-      "intro": "Эта куриная шаурма заправлена по-левантийски, как на улице: нарезанная пряная курица, завёрнутая в питу с соусом из тахини, чесноком, лимоном, маринадами и салатом. Курица сочная с обугленными краями, тахини добавляет кремовую ореховую ноту, а маринады прорезают резкой кислинкой. Её едят как быстрый обед или ночной перекус.",
-      "history": "Шаурма развилась из османского жаренья на вертикальном вертеле, а её название происходит от турецкого çevirme, «поворачивание». Куриная шаурма позднее получила широкое распространение в Леванте, и сегодня её продают повсюду от Бейрута до Залива.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 г куриных бёдер без костей",
-          "Сок 1 лимона, 3 зубчика чеснока, 2 ст. л. оливкового масла",
-          "2 ч. л. молотой зиры, 1 ч. л. паприки, ½ ч. л. куркумы, ½ ч. л. корицы, соль",
-          "4 ст. л. тахини, взбитого с лимонным соком, чесноком и водой",
-          "4 питы",
-          "Маринованные огурцы и репа",
-          "Салат, помидор и петрушка"
-        ],
-        "steps": [
-          "Мариновайте курицу в лимоне, чесноке, масле, специях и соли не менее 2 часов.",
-          "Запекайте при 220 °C 25–30 минут, один раз перевернув, пока края не обуглятся, затем тонко нарежьте.",
-          "Взбейте тахини с лимонным соком, раздавленным чесноком и водой до гладкости.",
-          "Наполните каждую питу курицей, соусом из тахини, маринадами и салатом и плотно сверните."
-        ]
-      },
-      "tips": [
-        "Куриная грудка постнее бедра.",
-        "Тахини плотный — 1 ст. л. около 90 ккал, поэтому хорошо разбавляйте его лимоном и водой.",
-        "Попросите тарелку с дополнительным салатом вместо ролла в хлебе."
-      ]
-    }
+  "ar": {
+   "name": "شاورما دجاج",
+   "origin": "بلاد الشام · الشرق الأوسط",
+   "intro": "تُحضَّر شاورما الدجاج هذه على طريقة الشارع الشامي: دجاج متبل مقطّع رقيقاً ملفوف في الخبز العربي مع الطحينة والثوم والليمون والمخللات والسلطة. الدجاج طري مع أطراف محمّرة، والطحينة تضيف قواماً كريمياً ونكهة السمسم، والمخللات تمنح حموضة منعشة. وتؤكل غداءً سريعاً أو وجبة مسائية.",
+   "history": "تطورت الشاورما من الشواء العثماني على السيخ العمودي، واسمها مأخوذ من الكلمة التركية «تشويرمه» أي الدوران. ثم انتشرت شاورما الدجاج في بلاد الشام، وتُباع اليوم في كل مكان من بيروت إلى الخليج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 غ أفخاذ دجاج بلا عظم",
+     "عصير ليمونة، 3 فصوص ثوم، 2 ملعقة كبيرة زيت زيتون",
+     "2 ملعقة صغيرة كمون، 1 ملعقة صغيرة بابريكا، نصف ملعقة صغيرة كركم، نصف ملعقة صغيرة قرفة، ملح",
+     "4 ملاعق كبيرة طحينة مخفوقة مع الليمون والثوم والماء",
+     "4 أرغفة خبز عربي",
+     "مخلل خيار ولفت",
+     "خس وطماطم وبقدونس"
+    ],
+    "steps": [
+     "تبّل الدجاج بالليمون والثوم والزيت والبهارات والملح ساعتين على الأقل.",
+     "اشوِه في الفرن على 220 °م لمدة 25–30 دقيقة مع التقليب مرة حتى تتحمر أطرافه، ثم قطّعه شرائح رقيقة.",
+     "اخفق الطحينة مع عصير الليمون والثوم المهروس والماء حتى تنعم.",
+     "احشُ كل رغيف بالدجاج والطحينة والمخللات والسلطة ولفّه بإحكام."
+    ]
+   },
+   "tips": [
+    "صدر الدجاج أقل دهناً من الفخذ.",
+    "الطحينة كثيفة السعرات، فالملعقة الكبيرة نحو 90 سعرة، لذا خففها جيداً بالليمون والماء.",
+    "اطلب صحناً مع سلطة إضافية بدلاً من لفّة الخبز."
+   ]
+  },
+  "it": {
+   "name": "Wrap di shawarma di pollo",
+   "name_inline": "wrap di shawarma di pollo",
+   "origin": "Levante · Medio Oriente",
+   "intro": "Questo shawarma di pollo è condito alla maniera dello street food levantino: pollo speziato affettato e arrotolato nella pita con salsa tahina, aglio, limone, sottaceti e insalata. Il pollo è succoso con i bordi abbrustoliti, la tahina aggiunge una nota cremosa che sa di sesamo e i sottaceti spezzano tutto con la loro acidità decisa. Si mangia come pranzo veloce o spuntino a tarda notte.",
+   "history": "Lo shawarma nacque dall'arrosto ottomano allo spiedo verticale, e il suo nome deriva dal turco çevirme, «girare». Lo shawarma di pollo si è diffuso in seguito nel Levante e oggi si vende ovunque, da Beirut al Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g di sovracosce di pollo disossate",
+     "Succo di 1 limone, 3 spicchi d'aglio, 2 cucchiai di olio d'oliva",
+     "2 cucchiaini di cumino in polvere, 1 cucchiaino di paprika, ½ cucchiaino di curcuma, ½ cucchiaino di cannella, sale",
+     "4 cucchiai di tahina sbattuta con succo di limone, aglio e acqua",
+     "4 pane pita",
+     "Cetrioli e rape sottaceto",
+     "Lattuga, pomodoro e prezzemolo"
+    ],
+    "steps": [
+     "Marina il pollo in limone, aglio, olio, spezie e sale per almeno 2 ore.",
+     "Arrostisci a 220 °C per 25–30 minuti, girando una volta, finché è abbrustolito ai bordi, poi affetta sottile.",
+     "Sbatti la tahina con succo di limone, aglio schiacciato e acqua finché è liscia.",
+     "Farcisci ogni pita con pollo, salsa tahina, sottaceti e insalata e arrotola ben stretto."
+    ]
+   },
+   "tips": [
+    "Il petto di pollo è più magro della sovracoscia.",
+    "La tahina è densa: 1 cucchiaio sono circa 90 kcal, quindi allungala bene con limone e acqua.",
+    "Chiedi un piatto con più insalata invece del pane arrotolato."
+   ]
+  },
+  "el": {
+   "name": "Τυλιχτός σαουρμάς κοτόπουλο",
+   "name_inline": "τυλιχτός σαουρμάς κοτόπουλο",
+   "origin": "Λεβάντε · Μέση Ανατολή",
+   "intro": "Αυτός ο σαουρμάς κοτόπουλο ετοιμάζεται όπως στον δρόμο του Λεβάντε: μπαχαρένιο κοτόπουλο σε λεπτές φέτες τυλιγμένο σε πίτα με σάλτσα ταχινιού, σκόρδο, λεμόνι, τουρσιά και σαλάτα. Το κοτόπουλο είναι ζουμερό με καψαλισμένες άκρες, το ταχίνι προσθέτει κρεμώδη νότα ξηρών καρπών και τα τουρσιά σπάνε τη γεύση με την έντονη ξινίλα τους. Τρώγεται ως γρήγορο μεσημεριανό ή βραδινό σνακ.",
+   "history": "Ο σαουρμάς εξελίχθηκε από το οθωμανικό ψητό σε κάθετη σούβλα, και το όνομά του προέρχεται από το τουρκικό çevirme, «γύρισμα». Ο σαουρμάς κοτόπουλο διαδόθηκε αργότερα στο Λεβάντε και σήμερα πωλείται παντού, από τη Βηρυτό μέχρι τον Κόλπο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 γρ. μπούτια κοτόπουλου χωρίς κόκαλο",
+     "Χυμός από 1 λεμόνι, 3 σκελίδες σκόρδο, 2 κ.σ. ελαιόλαδο",
+     "2 κ.γ. κύμινο σε σκόνη, 1 κ.γ. πάπρικα, ½ κ.γ. κουρκουμάς, ½ κ.γ. κανέλα, αλάτι",
+     "4 κ.σ. ταχίνι χτυπημένο με χυμό λεμονιού, σκόρδο και νερό",
+     "4 αραβικές πίτες",
+     "Αγγουράκια και γογγύλια τουρσί",
+     "Μαρούλι, ντομάτα και μαϊντανός"
+    ],
+    "steps": [
+     "Μαρινάρετε το κοτόπουλο σε λεμόνι, σκόρδο, λάδι, μπαχαρικά και αλάτι για τουλάχιστον 2 ώρες.",
+     "Ψήστε στους 220 °C για 25–30 λεπτά, γυρίζοντας μία φορά, μέχρι να καψαλιστούν οι άκρες, και κόψτε σε λεπτές φέτες.",
+     "Χτυπήστε το ταχίνι με χυμό λεμονιού, λιωμένο σκόρδο και νερό μέχρι να γίνει λείο.",
+     "Γεμίστε κάθε πίτα με κοτόπουλο, σάλτσα ταχινιού, τουρσιά και σαλάτα και τυλίξτε σφιχτά."
+    ]
+   },
+   "tips": [
+    "Το στήθος κοτόπουλου είναι πιο άπαχο από το μπούτι.",
+    "Το ταχίνι είναι πυκνό — 1 κ.σ. έχει περίπου 90 kcal, οπότε αραιώστε το καλά με λεμόνι και νερό.",
+    "Ζητήστε πιάτο με επιπλέον σαλάτα αντί για τυλιχτό με ψωμί."
+   ]
+  },
+  "ru": {
+   "name": "Шаурма из курицы",
+   "origin": "Левант · Ближний Восток",
+   "intro": "Эта куриная шаурма заправлена по-левантийски, как на улице: нарезанная пряная курица, завёрнутая в питу с соусом из тахини, чесноком, лимоном, маринадами и салатом. Курица сочная с обугленными краями, тахини добавляет кремовую ореховую ноту, а маринады прорезают резкой кислинкой. Её едят как быстрый обед или ночной перекус.",
+   "history": "Шаурма развилась из османского жаренья на вертикальном вертеле, а её название происходит от турецкого çevirme, «поворачивание». Куриная шаурма позднее получила широкое распространение в Леванте, и сегодня её продают повсюду от Бейрута до Залива.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 г куриных бёдер без костей",
+     "Сок 1 лимона, 3 зубчика чеснока, 2 ст. л. оливкового масла",
+     "2 ч. л. молотой зиры, 1 ч. л. паприки, ½ ч. л. куркумы, ½ ч. л. корицы, соль",
+     "4 ст. л. тахини, взбитого с лимонным соком, чесноком и водой",
+     "4 питы",
+     "Маринованные огурцы и репа",
+     "Салат, помидор и петрушка"
+    ],
+    "steps": [
+     "Мариновайте курицу в лимоне, чесноке, масле, специях и соли не менее 2 часов.",
+     "Запекайте при 220 °C 25–30 минут, один раз перевернув, пока края не обуглятся, затем тонко нарежьте.",
+     "Взбейте тахини с лимонным соком, раздавленным чесноком и водой до гладкости.",
+     "Наполните каждую питу курицей, соусом из тахини, маринадами и салатом и плотно сверните."
+    ]
+   },
+   "tips": [
+    "Куриная грудка постнее бедра.",
+    "Тахини плотный — 1 ст. л. около 90 ккал, поэтому хорошо разбавляйте его лимоном и водой.",
+    "Попросите тарелку с дополнительным салатом вместо ролла в хлебе."
+   ]
+  },
+  "es": {
+   "name": "Shawarma de pollo en wrap",
+   "origin": "Levante · Medio Oriente",
+   "intro": "Este shawarma de pollo se prepara al estilo callejero del Levante: pollo especiado cortado en láminas finas y enrollado en pan pita con salsa de tahini, ajo, limón, encurtidos y ensalada. El pollo es jugoso y tiene los bordes tostados, el tahini aporta una nota cremosa y de nuez, y los encurtidos cortan con su acidez marcada. Se come como almuerzo rápido o bocadillo nocturno.",
+   "history": "El shawarma se desarrolló a partir del asado otomano en espetón vertical, y su nombre viene del turco çevirme, «dar vueltas». El shawarma de pollo se extendió después por el Levante y hoy se vende en todas partes, de Beirut al Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g de muslos de pollo deshuesados",
+     "Jugo de 1 limón, 3 dientes de ajo, 2 cda. de aceite de oliva",
+     "2 cdta. de comino molido, 1 cdta. de pimentón, ½ cdta. de cúrcuma, ½ cdta. de canela, sal",
+     "4 cda. de tahini batido con jugo de limón, ajo y agua",
+     "4 panes pita",
+     "Pepinillos y nabos encurtidos",
+     "Lechuga, jitomate y perejil"
+    ],
+    "steps": [
+     "Marina el pollo en el limón, el ajo, el aceite, las especias y la sal durante al menos 2 horas.",
+     "Hornea a 220 °C de 25 a 30 minutos, volteándolo una vez, hasta que los bordes estén tostados; luego córtalo en láminas finas.",
+     "Bate el tahini con jugo de limón, ajo machacado y agua hasta que quede suave.",
+     "Rellena cada pan pita con pollo, salsa de tahini, encurtidos y ensalada, y enrolla con firmeza."
+    ]
+   },
+   "tips": [
+    "La pechuga de pollo es más magra que el muslo.",
+    "El tahini es denso: 1 cda. aporta unas 90 kcal, así que aligéralo bien con limón y agua.",
+    "Pide un plato con ensalada extra en lugar del wrap de pan."
+   ],
+   "name_inline": "el shawarma de pollo"
   }
+ }
 }

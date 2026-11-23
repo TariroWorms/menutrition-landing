@@ -1,172 +1,204 @@
 {
-  "db_key": "majboos_fish",
-  "slug": "majboos-fish",
-  "emoji": "🐟",
-  "portion_g": 400,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "majboos_fish",
+ "slug": "majboos-fish",
+ "emoji": "🐟",
+ "portion_g": 400,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fish Majboos",
+   "origin": "Gulf · Arabian Peninsula",
+   "intro": "Fish majboos is a Gulf rice dish in which fish is cooked with rice, onion, turmeric, baharat and loomi (dried black lime). The dried lime gives a distinctive tangy, slightly bitter note, and the rice turns golden and fragrant. It is a coastal family dish, usually served on a large platter with the fish placed over the rice.",
+   "history": "Majboos is the Emirati, Qatari, Bahraini and Kuwaiti name for spiced rice and meat or fish, closely related to Saudi kabsa. Versions with fish are especially common in the coastal towns of the Gulf.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g firm white fish fillets or steaks",
+     "400 g basmati rice, soaked",
+     "2 onions, sliced",
+     "2 loomi, pierced",
+     "1 tsp turmeric",
+     "1 tbsp baharat",
+     "2 tbsp oil",
+     "Salt"
+    ],
+    "steps": [
+     "Season the fish with half the turmeric, half the baharat and salt; sear briefly in 1 tbsp oil and set aside.",
+     "Fry the onions in the remaining oil until golden, add the rest of the spices and the loomi.",
+     "Add 800 ml water and salt, bring to a boil, then add the rice.",
+     "Cook covered over low heat for 15 minutes, lay the fish on top and cook 10 minutes more."
+    ]
+   },
+   "tips": [
+    "Bake or steam the fish instead of searing it to save oil.",
+    "Use 1 tbsp oil in total; 1 tbsp oil ≈ 120 kcal.",
+    "Take a larger share of fish and a smaller share of rice."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fish Majboos",
-      "origin": "Gulf · Arabian Peninsula",
-      "intro": "Fish majboos is a Gulf rice dish in which fish is cooked with rice, onion, turmeric, baharat and loomi (dried black lime). The dried lime gives a distinctive tangy, slightly bitter note, and the rice turns golden and fragrant. It is a coastal family dish, usually served on a large platter with the fish placed over the rice.",
-      "history": "Majboos is the Emirati, Qatari, Bahraini and Kuwaiti name for spiced rice and meat or fish, closely related to Saudi kabsa. Versions with fish are especially common in the coastal towns of the Gulf.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g firm white fish fillets or steaks",
-          "400 g basmati rice, soaked",
-          "2 onions, sliced",
-          "2 loomi, pierced",
-          "1 tsp turmeric",
-          "1 tbsp baharat",
-          "2 tbsp oil",
-          "Salt"
-        ],
-        "steps": [
-          "Season the fish with half the turmeric, half the baharat and salt; sear briefly in 1 tbsp oil and set aside.",
-          "Fry the onions in the remaining oil until golden, add the rest of the spices and the loomi.",
-          "Add 800 ml water and salt, bring to a boil, then add the rice.",
-          "Cook covered over low heat for 15 minutes, lay the fish on top and cook 10 minutes more."
-        ]
-      },
-      "tips": [
-        "Bake or steam the fish instead of searing it to save oil.",
-        "Use 1 tbsp oil in total; 1 tbsp oil ≈ 120 kcal.",
-        "Take a larger share of fish and a smaller share of rice."
-      ]
-    },
-    "ar": {
-      "name": "مجبوس سمك",
-      "origin": "الخليج · شبه الجزيرة العربية",
-      "intro": "مجبوس السمك طبق أرز خليجي يُطهى فيه السمك مع الأرز والبصل والكركم والبهارات واللومي. يمنح اللومي الطبق نكهة حامضة مميزة مع مرارة خفيفة، ويصبح الأرز ذهبيًا عطري الرائحة. وهو طبق عائلي ساحلي يُقدَّم عادةً في صينية كبيرة مع السمك فوق الأرز.",
-      "history": "المجبوس هو الاسم الإماراتي والقطري والبحريني والكويتي للأرز المتبّل مع اللحم أو السمك، وهو قريب جدًا من الكبسة السعودية. وتنتشر نسخ السمك خاصة في المدن الساحلية في الخليج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 غ سمك أبيض متماسك فيليه أو شرائح",
-          "400 غ أرز بسمتي منقوع",
-          "2 بصلة مشرّحة",
-          "2 حبة لومي مثقوبة",
-          "1 ملعقة صغيرة كركم",
-          "1 ملعقة كبيرة بهارات مشكّلة",
-          "2 ملعقة كبيرة زيت",
-          "ملح"
-        ],
-        "steps": [
-          "تبّل السمك بنصف الكركم ونصف البهارات والملح، وحمّره قليلًا في ملعقة زيت ثم ارفعه.",
-          "حمّر البصل في بقية الزيت، وأضف باقي البهارات واللومي.",
-          "أضف 800 مل ماء والملح واتركه يغلي، ثم أضف الأرز.",
-          "اطبخه مغطى على نار هادئة 15 دقيقة، ثم ضع السمك فوقه واطبخه 10 دقائق أخرى."
-        ]
-      },
-      "tips": [
-        "اخبز السمك أو اطبخه على البخار بدل تحميره لتوفير الزيت.",
-        "استخدم ملعقة زيت واحدة إجمالًا؛ ملعقة الزيت ≈ 120 سعرة.",
-        "خذ حصة أكبر من السمك وحصة أصغر من الأرز."
-      ]
-    },
-    "it": {
-      "name": "Majboos di pesce",
-      "origin": "Golfo · Penisola arabica",
-      "intro": "Il majboos di pesce è un piatto di riso del Golfo in cui il pesce viene cotto con riso, cipolla, curcuma, baharat e loomi (lime nero essiccato). Il lime essiccato dà una caratteristica nota acidula e leggermente amara, e il riso diventa dorato e profumato. È un piatto di famiglia delle zone costiere, di solito servito su un grande vassoio con il pesce adagiato sul riso.",
-      "history": "Majboos è il nome emiratino, qatariota, bahreinita e kuwaitiano del riso speziato con carne o pesce, strettamente imparentato con la kabsa saudita. Le versioni con il pesce sono particolarmente diffuse nelle città costiere del Golfo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g di filetti o tranci di pesce bianco sodo",
-          "400 g di riso basmati, in ammollo",
-          "2 cipolle, a fette",
-          "2 loomi, bucherellati",
-          "1 cucchiaino di curcuma",
-          "1 cucchiaio di baharat",
-          "2 cucchiai di olio",
-          "Sale"
-        ],
-        "steps": [
-          "Condisci il pesce con metà della curcuma, metà del baharat e sale; scottalo brevemente in 1 cucchiaio di olio e mettilo da parte.",
-          "Soffriggi le cipolle nell'olio rimasto finché sono dorate, aggiungi il resto delle spezie e i loomi.",
-          "Aggiungi 800 ml di acqua e il sale, porta a ebollizione, poi aggiungi il riso.",
-          "Cuoci coperto a fuoco basso per 15 minuti, adagia il pesce sopra e cuoci altri 10 minuti."
-        ]
-      },
-      "tips": [
-        "Cuoci il pesce al forno o al vapore invece di scottarlo, per risparmiare olio.",
-        "Usa 1 cucchiaio di olio in totale; 1 cucchiaio di olio ≈ 120 kcal.",
-        "Prendi una parte più grande di pesce e una più piccola di riso."
-      ],
-      "name_inline": "majboos di pesce"
-    },
-    "el": {
-      "name": "Ματζμπούς ψάρι",
-      "origin": "Κόλπος · Αραβική Χερσόνησος",
-      "intro": "Το ματζμπούς ψάρι είναι πιάτο ρυζιού του Κόλπου στο οποίο το ψάρι μαγειρεύεται με ρύζι, κρεμμύδι, κουρκουμά, μπαχαράτ και λούμι (αποξηραμένο μαύρο λάιμ). Το αποξηραμένο λάιμ δίνει μια χαρακτηριστική ξινή, ελαφρώς πικρή νότα, και το ρύζι γίνεται χρυσαφένιο και μυρωδάτο. Είναι οικογενειακό πιάτο των παραθαλάσσιων περιοχών, που σερβίρεται συνήθως σε μεγάλη πιατέλα με το ψάρι τοποθετημένο πάνω στο ρύζι.",
-      "history": "Ματζμπούς είναι το όνομα που δίνουν στα Εμιράτα, το Κατάρ, το Μπαχρέιν και το Κουβέιτ στο αρωματικό ρύζι με κρέας ή ψάρι, στενό συγγενή της καμπσά της Σαουδικής Αραβίας. Οι εκδοχές με ψάρι είναι ιδιαίτερα συνηθισμένες στις παραθαλάσσιες πόλεις του Κόλπου.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 γρ. φιλέτα ή φέτες σφιχτού λευκού ψαριού",
-          "400 γρ. ρύζι μπασμάτι, μουλιασμένο",
-          "2 κρεμμύδια, σε φέτες",
-          "2 λούμι, τρυπημένα",
-          "1 κ.γ. κουρκουμάς",
-          "1 κ.σ. μπαχαράτ",
-          "2 κ.σ. λάδι",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Καρυκεύστε το ψάρι με τον μισό κουρκουμά, το μισό μπαχαράτ και αλάτι· σοτάρετέ το για λίγο σε 1 κ.σ. λάδι και αφήστε το στην άκρη.",
-          "Τσιγαρίστε τα κρεμμύδια στο υπόλοιπο λάδι μέχρι να ροδίσουν και προσθέστε τα υπόλοιπα μπαχαρικά και τα λούμι.",
-          "Προσθέστε 800 ml νερό και αλάτι, φέρτε σε βρασμό και έπειτα προσθέστε το ρύζι.",
-          "Μαγειρέψτε σκεπασμένο σε χαμηλή φωτιά για 15 λεπτά, βάλτε το ψάρι από πάνω και μαγειρέψτε άλλα 10 λεπτά."
-        ]
-      },
-      "tips": [
-        "Ψήστε το ψάρι στον φούρνο ή στον ατμό αντί να το σοτάρετε, για να γλιτώσετε λάδι.",
-        "Χρησιμοποιήστε 1 κ.σ. λάδι συνολικά· 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Πάρτε μεγαλύτερη μερίδα ψαριού και μικρότερη ρυζιού."
-      ],
-      "name_inline": "ματζμπούς ψάρι"
-    },
-    "ru": {
-      "name": "Маджбус с рыбой",
-      "origin": "Страны Залива · Аравийский полуостров",
-      "intro": "Маджбус с рыбой — рисовое блюдо стран Залива, в котором рыбу готовят с рисом, луком, куркумой, бахаратом и лоуми (сушёным чёрным лаймом). Сушёный лайм придаёт характерную кисловатую слегка горьковатую нотку, а рис становится золотистым и ароматным. Это прибрежное семейное блюдо, которое обычно подают на большом блюде с рыбой поверх риса.",
-      "history": "Маджбус — эмиратское, катарское, бахрейнское и кувейтское название пряного риса с мясом или рыбой, близкого родственника саудовской кабсы. Варианты с рыбой особенно распространены в прибрежных городах Залива.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 г филе или стейков твёрдой белой рыбы",
-          "400 г риса басмати, замоченного",
-          "2 луковицы, нарезанные",
-          "2 лоуми, проколотых",
-          "1 ч. л. куркумы",
-          "1 ст. л. бахарата",
-          "2 ст. л. масла",
-          "Соль"
-        ],
-        "steps": [
-          "Приправьте рыбу половиной куркумы, половиной бахарата и солью; ненадолго обжарьте в 1 ст. л. масла и отложите.",
-          "Обжарьте лук в оставшемся масле до золотистого цвета, добавьте остальные специи и лоуми.",
-          "Влейте 800 мл воды, посолите, доведите до кипения, затем добавьте рис.",
-          "Готовьте под крышкой на слабом огне 15 минут, выложите рыбу сверху и готовьте ещё 10 минут."
-        ]
-      },
-      "tips": [
-        "Запекайте или готовьте рыбу на пару вместо обжаривания, чтобы сэкономить масло.",
-        "Используйте в общей сложности 1 ст. л. масла; 1 ст. л. масла ≈ 120 ккал.",
-        "Берите больше рыбы и меньше риса."
-      ],
-      "name_inline": "маджбус с рыбой"
-    }
+  "ar": {
+   "name": "مجبوس سمك",
+   "origin": "الخليج · شبه الجزيرة العربية",
+   "intro": "مجبوس السمك طبق أرز خليجي يُطهى فيه السمك مع الأرز والبصل والكركم والبهارات واللومي. يمنح اللومي الطبق نكهة حامضة مميزة مع مرارة خفيفة، ويصبح الأرز ذهبيًا عطري الرائحة. وهو طبق عائلي ساحلي يُقدَّم عادةً في صينية كبيرة مع السمك فوق الأرز.",
+   "history": "المجبوس هو الاسم الإماراتي والقطري والبحريني والكويتي للأرز المتبّل مع اللحم أو السمك، وهو قريب جدًا من الكبسة السعودية. وتنتشر نسخ السمك خاصة في المدن الساحلية في الخليج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 غ سمك أبيض متماسك فيليه أو شرائح",
+     "400 غ أرز بسمتي منقوع",
+     "2 بصلة مشرّحة",
+     "2 حبة لومي مثقوبة",
+     "1 ملعقة صغيرة كركم",
+     "1 ملعقة كبيرة بهارات مشكّلة",
+     "2 ملعقة كبيرة زيت",
+     "ملح"
+    ],
+    "steps": [
+     "تبّل السمك بنصف الكركم ونصف البهارات والملح، وحمّره قليلًا في ملعقة زيت ثم ارفعه.",
+     "حمّر البصل في بقية الزيت، وأضف باقي البهارات واللومي.",
+     "أضف 800 مل ماء والملح واتركه يغلي، ثم أضف الأرز.",
+     "اطبخه مغطى على نار هادئة 15 دقيقة، ثم ضع السمك فوقه واطبخه 10 دقائق أخرى."
+    ]
+   },
+   "tips": [
+    "اخبز السمك أو اطبخه على البخار بدل تحميره لتوفير الزيت.",
+    "استخدم ملعقة زيت واحدة إجمالًا؛ ملعقة الزيت ≈ 120 سعرة.",
+    "خذ حصة أكبر من السمك وحصة أصغر من الأرز."
+   ]
+  },
+  "it": {
+   "name": "Majboos di pesce",
+   "origin": "Golfo · Penisola arabica",
+   "intro": "Il majboos di pesce è un piatto di riso del Golfo in cui il pesce viene cotto con riso, cipolla, curcuma, baharat e loomi (lime nero essiccato). Il lime essiccato dà una caratteristica nota acidula e leggermente amara, e il riso diventa dorato e profumato. È un piatto di famiglia delle zone costiere, di solito servito su un grande vassoio con il pesce adagiato sul riso.",
+   "history": "Majboos è il nome emiratino, qatariota, bahreinita e kuwaitiano del riso speziato con carne o pesce, strettamente imparentato con la kabsa saudita. Le versioni con il pesce sono particolarmente diffuse nelle città costiere del Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g di filetti o tranci di pesce bianco sodo",
+     "400 g di riso basmati, in ammollo",
+     "2 cipolle, a fette",
+     "2 loomi, bucherellati",
+     "1 cucchiaino di curcuma",
+     "1 cucchiaio di baharat",
+     "2 cucchiai di olio",
+     "Sale"
+    ],
+    "steps": [
+     "Condisci il pesce con metà della curcuma, metà del baharat e sale; scottalo brevemente in 1 cucchiaio di olio e mettilo da parte.",
+     "Soffriggi le cipolle nell'olio rimasto finché sono dorate, aggiungi il resto delle spezie e i loomi.",
+     "Aggiungi 800 ml di acqua e il sale, porta a ebollizione, poi aggiungi il riso.",
+     "Cuoci coperto a fuoco basso per 15 minuti, adagia il pesce sopra e cuoci altri 10 minuti."
+    ]
+   },
+   "tips": [
+    "Cuoci il pesce al forno o al vapore invece di scottarlo, per risparmiare olio.",
+    "Usa 1 cucchiaio di olio in totale; 1 cucchiaio di olio ≈ 120 kcal.",
+    "Prendi una parte più grande di pesce e una più piccola di riso."
+   ],
+   "name_inline": "majboos di pesce"
+  },
+  "el": {
+   "name": "Ματζμπούς ψάρι",
+   "origin": "Κόλπος · Αραβική Χερσόνησος",
+   "intro": "Το ματζμπούς ψάρι είναι πιάτο ρυζιού του Κόλπου στο οποίο το ψάρι μαγειρεύεται με ρύζι, κρεμμύδι, κουρκουμά, μπαχαράτ και λούμι (αποξηραμένο μαύρο λάιμ). Το αποξηραμένο λάιμ δίνει μια χαρακτηριστική ξινή, ελαφρώς πικρή νότα, και το ρύζι γίνεται χρυσαφένιο και μυρωδάτο. Είναι οικογενειακό πιάτο των παραθαλάσσιων περιοχών, που σερβίρεται συνήθως σε μεγάλη πιατέλα με το ψάρι τοποθετημένο πάνω στο ρύζι.",
+   "history": "Ματζμπούς είναι το όνομα που δίνουν στα Εμιράτα, το Κατάρ, το Μπαχρέιν και το Κουβέιτ στο αρωματικό ρύζι με κρέας ή ψάρι, στενό συγγενή της καμπσά της Σαουδικής Αραβίας. Οι εκδοχές με ψάρι είναι ιδιαίτερα συνηθισμένες στις παραθαλάσσιες πόλεις του Κόλπου.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 γρ. φιλέτα ή φέτες σφιχτού λευκού ψαριού",
+     "400 γρ. ρύζι μπασμάτι, μουλιασμένο",
+     "2 κρεμμύδια, σε φέτες",
+     "2 λούμι, τρυπημένα",
+     "1 κ.γ. κουρκουμάς",
+     "1 κ.σ. μπαχαράτ",
+     "2 κ.σ. λάδι",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Καρυκεύστε το ψάρι με τον μισό κουρκουμά, το μισό μπαχαράτ και αλάτι· σοτάρετέ το για λίγο σε 1 κ.σ. λάδι και αφήστε το στην άκρη.",
+     "Τσιγαρίστε τα κρεμμύδια στο υπόλοιπο λάδι μέχρι να ροδίσουν και προσθέστε τα υπόλοιπα μπαχαρικά και τα λούμι.",
+     "Προσθέστε 800 ml νερό και αλάτι, φέρτε σε βρασμό και έπειτα προσθέστε το ρύζι.",
+     "Μαγειρέψτε σκεπασμένο σε χαμηλή φωτιά για 15 λεπτά, βάλτε το ψάρι από πάνω και μαγειρέψτε άλλα 10 λεπτά."
+    ]
+   },
+   "tips": [
+    "Ψήστε το ψάρι στον φούρνο ή στον ατμό αντί να το σοτάρετε, για να γλιτώσετε λάδι.",
+    "Χρησιμοποιήστε 1 κ.σ. λάδι συνολικά· 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Πάρτε μεγαλύτερη μερίδα ψαριού και μικρότερη ρυζιού."
+   ],
+   "name_inline": "ματζμπούς ψάρι"
+  },
+  "ru": {
+   "name": "Маджбус с рыбой",
+   "origin": "Страны Залива · Аравийский полуостров",
+   "intro": "Маджбус с рыбой — рисовое блюдо стран Залива, в котором рыбу готовят с рисом, луком, куркумой, бахаратом и лоуми (сушёным чёрным лаймом). Сушёный лайм придаёт характерную кисловатую слегка горьковатую нотку, а рис становится золотистым и ароматным. Это прибрежное семейное блюдо, которое обычно подают на большом блюде с рыбой поверх риса.",
+   "history": "Маджбус — эмиратское, катарское, бахрейнское и кувейтское название пряного риса с мясом или рыбой, близкого родственника саудовской кабсы. Варианты с рыбой особенно распространены в прибрежных городах Залива.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 г филе или стейков твёрдой белой рыбы",
+     "400 г риса басмати, замоченного",
+     "2 луковицы, нарезанные",
+     "2 лоуми, проколотых",
+     "1 ч. л. куркумы",
+     "1 ст. л. бахарата",
+     "2 ст. л. масла",
+     "Соль"
+    ],
+    "steps": [
+     "Приправьте рыбу половиной куркумы, половиной бахарата и солью; ненадолго обжарьте в 1 ст. л. масла и отложите.",
+     "Обжарьте лук в оставшемся масле до золотистого цвета, добавьте остальные специи и лоуми.",
+     "Влейте 800 мл воды, посолите, доведите до кипения, затем добавьте рис.",
+     "Готовьте под крышкой на слабом огне 15 минут, выложите рыбу сверху и готовьте ещё 10 минут."
+    ]
+   },
+   "tips": [
+    "Запекайте или готовьте рыбу на пару вместо обжаривания, чтобы сэкономить масло.",
+    "Используйте в общей сложности 1 ст. л. масла; 1 ст. л. масла ≈ 120 ккал.",
+    "Берите больше рыбы и меньше риса."
+   ],
+   "name_inline": "маджбус с рыбой"
+  },
+  "es": {
+   "name": "Majboos de pescado",
+   "origin": "Golfo · Península Arábiga",
+   "intro": "El majboos de pescado es un plato de arroz del Golfo en el que el pescado se cocina con arroz, cebolla, cúrcuma, baharat y loomi (lima negra seca). La lima seca aporta una nota ácida y ligeramente amarga muy característica, y el arroz se vuelve dorado y aromático. Es un plato familiar costero, que normalmente se sirve en una gran fuente con el pescado sobre el arroz.",
+   "history": "Majboos es el nombre emiratí, catarí, bareiní y kuwaití del arroz especiado con carne o pescado, muy emparentado con la kabsa saudita. Las versiones con pescado son especialmente comunes en los pueblos costeros del Golfo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g de filetes o rodajas de pescado blanco firme",
+     "400 g de arroz basmati, remojado",
+     "2 cebollas, en rodajas",
+     "2 loomi, perforados",
+     "1 cdta. de cúrcuma",
+     "1 cda. de baharat",
+     "2 cda. de aceite",
+     "Sal"
+    ],
+    "steps": [
+     "Sazona el pescado con la mitad de la cúrcuma, la mitad del baharat y sal; dóralo brevemente en 1 cda. de aceite y reserva.",
+     "Sofríe la cebolla en el aceite restante hasta que esté dorada, agrega el resto de las especias y el loomi.",
+     "Añade 800 ml de agua y sal, lleva a ebullición y agrega el arroz.",
+     "Cocina tapado a fuego bajo 15 minutos, coloca el pescado encima y cocina 10 minutos más."
+    ]
+   },
+   "tips": [
+    "Hornea o cocina el pescado al vapor en lugar de dorarlo para ahorrar aceite.",
+    "Usa 1 cda. de aceite en total; 1 cda. de aceite ≈ 120 kcal.",
+    "Toma una mayor proporción de pescado y menos arroz."
+   ],
+   "name_inline": "el majboos de pescado"
   }
+ }
 }

@@ -1,169 +1,201 @@
 {
-  "db_key": "masala_dosa",
-  "slug": "masala-dosa",
-  "emoji": "🥞",
-  "portion_g": 300,
-  "country": "IN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "masala_dosa",
+ "slug": "masala-dosa",
+ "emoji": "🥞",
+ "portion_g": 300,
+ "country": "IN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Masala dosa",
+   "origin": "India · Karnataka",
+   "intro": "Masala dosa is a large, thin, crisp crepe made from a fermented rice and lentil batter, folded around a spiced potato filling with onion, turmeric and curry leaves. It is served on a plate or banana leaf with tomato chutney and a bowl of sambar, a tangy lentil and vegetable stew, for dipping. The crepe is crunchy at the edges and slightly sour.",
+   "history": "Dosa is an old South Indian dish, and the potato-filled masala dosa is usually credited to restaurants in the Udupi and Mysore region of Karnataka in the 20th century. It is now a breakfast and snack staple across India and in Indian restaurants worldwide.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g dosa batter (fermented rice and urad dal batter)",
+     "500 g potatoes, boiled and crushed",
+     "1 onion, sliced",
+     "½ tsp turmeric, 1 tsp mustard seeds, a few curry leaves",
+     "1 green chilli, chopped",
+     "2 tbsp vegetable oil, salt",
+     "Tomato chutney and sambar to serve"
+    ],
+    "steps": [
+     "Heat 1 tbsp oil, fry the mustard seeds and curry leaves, then the onion and chilli until soft.",
+     "Add the turmeric, potatoes and salt and mix into a chunky filling.",
+     "Spread a ladle of batter thinly on a hot griddle and drizzle a few drops of oil around the edge.",
+     "Cook until golden and crisp, add a line of potato filling and fold.",
+     "Serve at once with chutney and sambar."
+    ]
+   },
+   "tips": [
+    "Use a non-stick pan and just a few drops of oil per dosa — 1 tbsp oil ≈ 120 kcal.",
+    "Go lighter on the potato filling and have an extra bowl of sambar.",
+    "Choose tomato or mint chutney over richer chutneys."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Masala dosa",
-      "origin": "India · Karnataka",
-      "intro": "Masala dosa is a large, thin, crisp crepe made from a fermented rice and lentil batter, folded around a spiced potato filling with onion, turmeric and curry leaves. It is served on a plate or banana leaf with tomato chutney and a bowl of sambar, a tangy lentil and vegetable stew, for dipping. The crepe is crunchy at the edges and slightly sour.",
-      "history": "Dosa is an old South Indian dish, and the potato-filled masala dosa is usually credited to restaurants in the Udupi and Mysore region of Karnataka in the 20th century. It is now a breakfast and snack staple across India and in Indian restaurants worldwide.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g dosa batter (fermented rice and urad dal batter)",
-          "500 g potatoes, boiled and crushed",
-          "1 onion, sliced",
-          "½ tsp turmeric, 1 tsp mustard seeds, a few curry leaves",
-          "1 green chilli, chopped",
-          "2 tbsp vegetable oil, salt",
-          "Tomato chutney and sambar to serve"
-        ],
-        "steps": [
-          "Heat 1 tbsp oil, fry the mustard seeds and curry leaves, then the onion and chilli until soft.",
-          "Add the turmeric, potatoes and salt and mix into a chunky filling.",
-          "Spread a ladle of batter thinly on a hot griddle and drizzle a few drops of oil around the edge.",
-          "Cook until golden and crisp, add a line of potato filling and fold.",
-          "Serve at once with chutney and sambar."
-        ]
-      },
-      "tips": [
-        "Use a non-stick pan and just a few drops of oil per dosa — 1 tbsp oil ≈ 120 kcal.",
-        "Go lighter on the potato filling and have an extra bowl of sambar.",
-        "Choose tomato or mint chutney over richer chutneys."
-      ]
-    },
-    "ar": {
-      "name": "ماسالا دوسا",
-      "origin": "الهند · كارناتاكا",
-      "intro": "ماسالا دوسا كريب كبير رقيق ومقرمش من عجينة مخمّرة من الأرز والعدس، يُطوى حول حشوة بطاطس متبّلة بالبصل والكركم وأوراق الكاري. يُقدَّم على صحن أو ورقة موز مع صلصة الطماطم (شتني) ووعاء من السامبار، وهو يخنة حامضة من العدس والخضار، للغمس. أطرافه مقرمشة وطعمه حامض قليلًا.",
-      "history": "الدوسا طبق قديم من جنوب الهند، ويُنسب ماسالا دوسا المحشو بالبطاطس عادةً إلى مطاعم منطقة أودوبي وميسور في كارناتاكا في القرن العشرين. وهو اليوم من أساسيات الفطور والوجبات الخفيفة في أنحاء الهند وفي المطاعم الهندية حول العالم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 غ عجينة دوسا (عجينة مخمّرة من الأرز والعدس الأسود)",
-          "500 غ بطاطس مسلوقة ومهروسة خشنًا",
-          "1 بصلة مقطّعة شرائح",
-          "نصف ملعقة صغيرة كركم، 1 ملعقة صغيرة بذور خردل، بضع أوراق كاري",
-          "1 فلفل أخضر حار مفروم",
-          "2 ملعقة كبيرة زيت نباتي، ملح",
-          "شتني الطماطم والسامبار للتقديم"
-        ],
-        "steps": [
-          "سخّن ملعقة زيت وحمّص بذور الخردل وأوراق الكاري، ثم أضف البصل والفلفل حتى يلينا.",
-          "أضف الكركم والبطاطس والملح واخلطها لتصبح حشوة خشنة.",
-          "افرد مغرفة من العجينة رقيقًا على صاج ساخن ورشّ بضع قطرات زيت حول الأطراف.",
-          "اطهُه حتى يتذهّب ويقرمش، ثم ضع خطًا من حشوة البطاطس واطوِه.",
-          "قدّمه فورًا مع الشتني والسامبار."
-        ]
-      },
-      "tips": [
-        "استخدم مقلاة غير لاصقة وبضع قطرات زيت فقط لكل دوسا — ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "خفّف حشوة البطاطس وتناول وعاءً إضافيًا من السامبار.",
-        "اختر شتني الطماطم أو النعناع بدل الأنواع الأغنى."
-      ]
-    },
-    "it": {
-      "name": "Masala dosa",
-      "origin": "India · Karnataka",
-      "intro": "La masala dosa è una crêpe grande, sottile e croccante fatta con una pastella fermentata di riso e lenticchie, ripiegata attorno a un ripieno di patate speziate con cipolla, curcuma e foglie di curry. Si serve su un piatto o su una foglia di banano con chutney di pomodoro e una ciotola di sambar, uno stufato acidulo di lenticchie e verdure, in cui intingerla. La crêpe è croccante ai bordi e leggermente acidula.",
-      "history": "La dosa è un antico piatto dell'India meridionale, e la masala dosa ripiena di patate viene di solito attribuita ai ristoranti della zona di Udupi e Mysore, nel Karnataka, nel XX secolo. Oggi è un caposaldo di colazioni e spuntini in tutta l'India e nei ristoranti indiani di tutto il mondo.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 g di pastella per dosa (pastella fermentata di riso e urad dal)",
-          "500 g di patate, lessate e schiacciate grossolanamente",
-          "1 cipolla, affettata",
-          "½ cucchiaino di curcuma, 1 cucchiaino di semi di senape, qualche foglia di curry",
-          "1 peperoncino verde, tritato",
-          "2 cucchiai di olio vegetale, sale",
-          "Chutney di pomodoro e sambar per servire"
-        ],
-        "steps": [
-          "Scalda 1 cucchiaio di olio, fai soffriggere i semi di senape e le foglie di curry, poi la cipolla e il peperoncino finché sono morbidi.",
-          "Aggiungi la curcuma, le patate e il sale e mescola fino a ottenere un ripieno grossolano.",
-          "Stendi un mestolo di pastella in uno strato sottile su una piastra calda e versa qualche goccia d'olio lungo il bordo.",
-          "Cuoci finché è dorata e croccante, aggiungi una striscia di ripieno di patate e ripiega.",
-          "Servi subito con il chutney e il sambar."
-        ]
-      },
-      "tips": [
-        "Usa una padella antiaderente e solo qualche goccia d'olio per ogni dosa: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Metti meno ripieno di patate e prendi una ciotola di sambar in più.",
-        "Scegli il chutney di pomodoro o di menta invece di chutney più ricchi."
-      ]
-    },
-    "el": {
-      "name": "Μασάλα ντόσα",
-      "origin": "Ινδία · Καρνατάκα",
-      "intro": "Η μασάλα ντόσα είναι μια μεγάλη, λεπτή, τραγανή κρέπα από ζυμωμένο χυλό ρυζιού και φακής, διπλωμένη γύρω από μια μυρωδάτη γέμιση πατάτας με κρεμμύδι, κουρκουμά και φύλλα κάρι. Σερβίρεται σε πιάτο ή σε φύλλο μπανανιάς με τσάτνεϊ ντομάτας και ένα μπολ σάμπαρ, ένα ξινό φαγητό με φακές και λαχανικά, για βούτηγμα. Η κρέπα είναι τραγανή στις άκρες και ελαφρά ξινή.",
-      "history": "Η ντόσα είναι παλιό πιάτο της Νότιας Ινδίας, και η μασάλα ντόσα με γέμιση πατάτας αποδίδεται συνήθως σε εστιατόρια της περιοχής Ουντούπι και Μάισορ στην Καρνατάκα τον 20ό αιώνα. Σήμερα είναι βασικό πρωινό και σνακ σε όλη την Ινδία και στα ινδικά εστιατόρια σε όλο τον κόσμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 γρ. χυλός για ντόσα (ζυμωμένος χυλός ρυζιού και ουράντ νταλ)",
-          "500 γρ. πατάτες, βρασμένες και χοντρολιωμένες",
-          "1 κρεμμύδι, σε φέτες",
-          "½ κ.γ. κουρκουμάς, 1 κ.γ. σπόροι μουστάρδας, λίγα φύλλα κάρι",
-          "1 πράσινο τσίλι, ψιλοκομμένο",
-          "2 κ.σ. φυτικό λάδι, αλάτι",
-          "Τσάτνεϊ ντομάτας και σάμπαρ για το σερβίρισμα"
-        ],
-        "steps": [
-          "Ζεστάνετε 1 κ.σ. λάδι, τσιγαρίστε τους σπόρους μουστάρδας και τα φύλλα κάρι, μετά το κρεμμύδι και το τσίλι μέχρι να μαλακώσουν.",
-          "Προσθέστε τον κουρκουμά, τις πατάτες και το αλάτι και ανακατέψτε σε μια χοντρή γέμιση.",
-          "Απλώστε μια κουτάλα χυλό σε λεπτό στρώμα πάνω σε ζεστή πλάκα και ρίξτε λίγες σταγόνες λάδι γύρω από την άκρη.",
-          "Ψήστε μέχρι να ροδίσει και να γίνει τραγανή, προσθέστε μια γραμμή γέμισης πατάτας και διπλώστε.",
-          "Σερβίρετε αμέσως με το τσάτνεϊ και το σάμπαρ."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε αντικολλητικό τηγάνι και μόνο λίγες σταγόνες λάδι ανά ντόσα — 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Βάλτε λιγότερη γέμιση πατάτας και πάρτε ένα επιπλέον μπολ σάμπαρ.",
-        "Προτιμήστε τσάτνεϊ ντομάτας ή δυόσμου αντί για πιο πλούσια τσάτνεϊ."
-      ]
-    },
-    "ru": {
-      "name": "Масала-доса",
-      "origin": "Индия · Карнатака",
-      "intro": "Масала-доса — большой тонкий хрустящий блин из ферментированного теста из риса и чечевицы, свёрнутый вокруг пряной картофельной начинки с луком, куркумой и листьями карри. Его подают на тарелке или банановом листе с томатным чатни и миской самбара — кисловатого рагу из чечевицы и овощей, — в который макают блин. По краям блин хрустящий и слегка кисловатый.",
-      "history": "Доса — древнее южноиндийское блюдо, а масала-доса с картофельной начинкой обычно приписывается ресторанам региона Удупи и Майсура в Карнатаке в XX веке. Сегодня это основа завтраков и закусок по всей Индии и в индийских ресторанах мира.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "600 г теста для досы (ферментированное тесто из риса и урад-дала)",
-          "500 г картофеля, отваренного и размятого",
-          "1 луковица, нарезанная",
-          "½ ч. л. куркумы, 1 ч. л. семян горчицы, несколько листьев карри",
-          "1 зелёный перец чили, нарубленный",
-          "2 ст. л. растительного масла, соль",
-          "Томатное чатни и самбар для подачи"
-        ],
-        "steps": [
-          "Разогрейте 1 ст. л. масла, обжарьте семена горчицы и листья карри, затем лук и чили до мягкости.",
-          "Добавьте куркуму, картофель и соль и перемешайте в крупнокусковую начинку.",
-          "Тонко распределите половник теста по горячей сковороде и пролейте несколько капель масла по краю.",
-          "Жарьте до золотистой хрустящей корочки, положите полоску картофельной начинки и сверните.",
-          "Сразу подавайте с чатни и самбаром."
-        ]
-      },
-      "tips": [
-        "Используйте антипригарную сковороду и лишь несколько капель масла на одну досу — 1 ст. л. масла ≈ 120 ккал.",
-        "Кладите меньше картофельной начинки и возьмите добавку самбара.",
-        "Выбирайте томатное или мятное чатни, а не более жирные."
-      ]
-    }
+  "ar": {
+   "name": "ماسالا دوسا",
+   "origin": "الهند · كارناتاكا",
+   "intro": "ماسالا دوسا كريب كبير رقيق ومقرمش من عجينة مخمّرة من الأرز والعدس، يُطوى حول حشوة بطاطس متبّلة بالبصل والكركم وأوراق الكاري. يُقدَّم على صحن أو ورقة موز مع صلصة الطماطم (شتني) ووعاء من السامبار، وهو يخنة حامضة من العدس والخضار، للغمس. أطرافه مقرمشة وطعمه حامض قليلًا.",
+   "history": "الدوسا طبق قديم من جنوب الهند، ويُنسب ماسالا دوسا المحشو بالبطاطس عادةً إلى مطاعم منطقة أودوبي وميسور في كارناتاكا في القرن العشرين. وهو اليوم من أساسيات الفطور والوجبات الخفيفة في أنحاء الهند وفي المطاعم الهندية حول العالم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 غ عجينة دوسا (عجينة مخمّرة من الأرز والعدس الأسود)",
+     "500 غ بطاطس مسلوقة ومهروسة خشنًا",
+     "1 بصلة مقطّعة شرائح",
+     "نصف ملعقة صغيرة كركم، 1 ملعقة صغيرة بذور خردل، بضع أوراق كاري",
+     "1 فلفل أخضر حار مفروم",
+     "2 ملعقة كبيرة زيت نباتي، ملح",
+     "شتني الطماطم والسامبار للتقديم"
+    ],
+    "steps": [
+     "سخّن ملعقة زيت وحمّص بذور الخردل وأوراق الكاري، ثم أضف البصل والفلفل حتى يلينا.",
+     "أضف الكركم والبطاطس والملح واخلطها لتصبح حشوة خشنة.",
+     "افرد مغرفة من العجينة رقيقًا على صاج ساخن ورشّ بضع قطرات زيت حول الأطراف.",
+     "اطهُه حتى يتذهّب ويقرمش، ثم ضع خطًا من حشوة البطاطس واطوِه.",
+     "قدّمه فورًا مع الشتني والسامبار."
+    ]
+   },
+   "tips": [
+    "استخدم مقلاة غير لاصقة وبضع قطرات زيت فقط لكل دوسا — ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "خفّف حشوة البطاطس وتناول وعاءً إضافيًا من السامبار.",
+    "اختر شتني الطماطم أو النعناع بدل الأنواع الأغنى."
+   ]
+  },
+  "it": {
+   "name": "Masala dosa",
+   "origin": "India · Karnataka",
+   "intro": "La masala dosa è una crêpe grande, sottile e croccante fatta con una pastella fermentata di riso e lenticchie, ripiegata attorno a un ripieno di patate speziate con cipolla, curcuma e foglie di curry. Si serve su un piatto o su una foglia di banano con chutney di pomodoro e una ciotola di sambar, uno stufato acidulo di lenticchie e verdure, in cui intingerla. La crêpe è croccante ai bordi e leggermente acidula.",
+   "history": "La dosa è un antico piatto dell'India meridionale, e la masala dosa ripiena di patate viene di solito attribuita ai ristoranti della zona di Udupi e Mysore, nel Karnataka, nel XX secolo. Oggi è un caposaldo di colazioni e spuntini in tutta l'India e nei ristoranti indiani di tutto il mondo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g di pastella per dosa (pastella fermentata di riso e urad dal)",
+     "500 g di patate, lessate e schiacciate grossolanamente",
+     "1 cipolla, affettata",
+     "½ cucchiaino di curcuma, 1 cucchiaino di semi di senape, qualche foglia di curry",
+     "1 peperoncino verde, tritato",
+     "2 cucchiai di olio vegetale, sale",
+     "Chutney di pomodoro e sambar per servire"
+    ],
+    "steps": [
+     "Scalda 1 cucchiaio di olio, fai soffriggere i semi di senape e le foglie di curry, poi la cipolla e il peperoncino finché sono morbidi.",
+     "Aggiungi la curcuma, le patate e il sale e mescola fino a ottenere un ripieno grossolano.",
+     "Stendi un mestolo di pastella in uno strato sottile su una piastra calda e versa qualche goccia d'olio lungo il bordo.",
+     "Cuoci finché è dorata e croccante, aggiungi una striscia di ripieno di patate e ripiega.",
+     "Servi subito con il chutney e il sambar."
+    ]
+   },
+   "tips": [
+    "Usa una padella antiaderente e solo qualche goccia d'olio per ogni dosa: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Metti meno ripieno di patate e prendi una ciotola di sambar in più.",
+    "Scegli il chutney di pomodoro o di menta invece di chutney più ricchi."
+   ]
+  },
+  "el": {
+   "name": "Μασάλα ντόσα",
+   "origin": "Ινδία · Καρνατάκα",
+   "intro": "Η μασάλα ντόσα είναι μια μεγάλη, λεπτή, τραγανή κρέπα από ζυμωμένο χυλό ρυζιού και φακής, διπλωμένη γύρω από μια μυρωδάτη γέμιση πατάτας με κρεμμύδι, κουρκουμά και φύλλα κάρι. Σερβίρεται σε πιάτο ή σε φύλλο μπανανιάς με τσάτνεϊ ντομάτας και ένα μπολ σάμπαρ, ένα ξινό φαγητό με φακές και λαχανικά, για βούτηγμα. Η κρέπα είναι τραγανή στις άκρες και ελαφρά ξινή.",
+   "history": "Η ντόσα είναι παλιό πιάτο της Νότιας Ινδίας, και η μασάλα ντόσα με γέμιση πατάτας αποδίδεται συνήθως σε εστιατόρια της περιοχής Ουντούπι και Μάισορ στην Καρνατάκα τον 20ό αιώνα. Σήμερα είναι βασικό πρωινό και σνακ σε όλη την Ινδία και στα ινδικά εστιατόρια σε όλο τον κόσμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 γρ. χυλός για ντόσα (ζυμωμένος χυλός ρυζιού και ουράντ νταλ)",
+     "500 γρ. πατάτες, βρασμένες και χοντρολιωμένες",
+     "1 κρεμμύδι, σε φέτες",
+     "½ κ.γ. κουρκουμάς, 1 κ.γ. σπόροι μουστάρδας, λίγα φύλλα κάρι",
+     "1 πράσινο τσίλι, ψιλοκομμένο",
+     "2 κ.σ. φυτικό λάδι, αλάτι",
+     "Τσάτνεϊ ντομάτας και σάμπαρ για το σερβίρισμα"
+    ],
+    "steps": [
+     "Ζεστάνετε 1 κ.σ. λάδι, τσιγαρίστε τους σπόρους μουστάρδας και τα φύλλα κάρι, μετά το κρεμμύδι και το τσίλι μέχρι να μαλακώσουν.",
+     "Προσθέστε τον κουρκουμά, τις πατάτες και το αλάτι και ανακατέψτε σε μια χοντρή γέμιση.",
+     "Απλώστε μια κουτάλα χυλό σε λεπτό στρώμα πάνω σε ζεστή πλάκα και ρίξτε λίγες σταγόνες λάδι γύρω από την άκρη.",
+     "Ψήστε μέχρι να ροδίσει και να γίνει τραγανή, προσθέστε μια γραμμή γέμισης πατάτας και διπλώστε.",
+     "Σερβίρετε αμέσως με το τσάτνεϊ και το σάμπαρ."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε αντικολλητικό τηγάνι και μόνο λίγες σταγόνες λάδι ανά ντόσα — 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Βάλτε λιγότερη γέμιση πατάτας και πάρτε ένα επιπλέον μπολ σάμπαρ.",
+    "Προτιμήστε τσάτνεϊ ντομάτας ή δυόσμου αντί για πιο πλούσια τσάτνεϊ."
+   ]
+  },
+  "ru": {
+   "name": "Масала-доса",
+   "origin": "Индия · Карнатака",
+   "intro": "Масала-доса — большой тонкий хрустящий блин из ферментированного теста из риса и чечевицы, свёрнутый вокруг пряной картофельной начинки с луком, куркумой и листьями карри. Его подают на тарелке или банановом листе с томатным чатни и миской самбара — кисловатого рагу из чечевицы и овощей, — в который макают блин. По краям блин хрустящий и слегка кисловатый.",
+   "history": "Доса — древнее южноиндийское блюдо, а масала-доса с картофельной начинкой обычно приписывается ресторанам региона Удупи и Майсура в Карнатаке в XX веке. Сегодня это основа завтраков и закусок по всей Индии и в индийских ресторанах мира.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 г теста для досы (ферментированное тесто из риса и урад-дала)",
+     "500 г картофеля, отваренного и размятого",
+     "1 луковица, нарезанная",
+     "½ ч. л. куркумы, 1 ч. л. семян горчицы, несколько листьев карри",
+     "1 зелёный перец чили, нарубленный",
+     "2 ст. л. растительного масла, соль",
+     "Томатное чатни и самбар для подачи"
+    ],
+    "steps": [
+     "Разогрейте 1 ст. л. масла, обжарьте семена горчицы и листья карри, затем лук и чили до мягкости.",
+     "Добавьте куркуму, картофель и соль и перемешайте в крупнокусковую начинку.",
+     "Тонко распределите половник теста по горячей сковороде и пролейте несколько капель масла по краю.",
+     "Жарьте до золотистой хрустящей корочки, положите полоску картофельной начинки и сверните.",
+     "Сразу подавайте с чатни и самбаром."
+    ]
+   },
+   "tips": [
+    "Используйте антипригарную сковороду и лишь несколько капель масла на одну досу — 1 ст. л. масла ≈ 120 ккал.",
+    "Кладите меньше картофельной начинки и возьмите добавку самбара.",
+    "Выбирайте томатное или мятное чатни, а не более жирные."
+   ]
+  },
+  "es": {
+   "name": "Masala dosa",
+   "origin": "India · Karnataka",
+   "intro": "El masala dosa es una crepa grande, fina y crujiente hecha con una masa fermentada de arroz y lentejas, doblada alrededor de un relleno especiado de papa con cebolla, cúrcuma y hojas de curry. Se sirve en un plato o sobre una hoja de plátano con chutney de jitomate y un tazón de sambar, un guiso ácido de lentejas y verduras, para mojar. La crepa es crujiente en las orillas y ligeramente ácida.",
+   "history": "El dosa es un plato antiguo del sur de la India, y el masala dosa relleno de papa suele atribuirse a restaurantes de la región de Udupi y Mysore, en Karnataka, en el siglo XX. Hoy es un básico del desayuno y la botana en toda la India y en los restaurantes indios del mundo.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "600 g de masa para dosa (masa fermentada de arroz y urad dal)",
+     "500 g de papas, cocidas y machacadas",
+     "1 cebolla, en rodajas",
+     "½ cdta. de cúrcuma, 1 cdta. de semillas de mostaza, unas hojas de curry",
+     "1 chile verde, picado",
+     "2 cda. de aceite vegetal, sal",
+     "Chutney de jitomate y sambar para servir"
+    ],
+    "steps": [
+     "Calienta 1 cda. de aceite, fríe las semillas de mostaza y las hojas de curry, luego la cebolla y el chile hasta que estén suaves.",
+     "Agrega la cúrcuma, las papas y la sal y mezcla hasta formar un relleno con trozos.",
+     "Extiende un cucharón de masa en una capa fina sobre una plancha caliente y rocía unas gotas de aceite por la orilla.",
+     "Cocina hasta que esté dorada y crujiente, agrega una línea de relleno de papa y dobla.",
+     "Sirve de inmediato con el chutney y el sambar."
+    ]
+   },
+   "tips": [
+    "Usa una sartén antiadherente y solo unas gotas de aceite por dosa: 1 cda. de aceite ≈ 120 kcal.",
+    "Pon menos relleno de papa y toma un tazón extra de sambar.",
+    "Elige chutney de jitomate o de menta en lugar de chutneys más ricos."
+   ],
+   "name_inline": "el masala dosa"
   }
+ }
 }

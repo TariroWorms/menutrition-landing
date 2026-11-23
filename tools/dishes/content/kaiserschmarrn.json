@@ -1,170 +1,202 @@
 {
-  "db_key": "kaiserschmarrn",
-  "slug": "kaiserschmarrn",
-  "emoji": "🥞",
-  "portion_g": 250,
-  "country": "AT",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kaiserschmarrn",
+ "slug": "kaiserschmarrn",
+ "emoji": "🥞",
+ "portion_g": 250,
+ "country": "AT",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kaiserschmarrn",
+   "origin": "Austria · Vienna",
+   "intro": "Kaiserschmarrn is an Austrian shredded pancake: a thick, fluffy batter of eggs, milk and flour with raisins is fried in butter, then torn into bite-sized pieces in the pan and caramelised with a little sugar. It is dusted with icing sugar and traditionally served with plum or apple compote, as a dessert or a sweet main course.",
+   "history": "The name means “Emperor's mess”, and it is usually linked to Emperor Franz Joseph I, though the stories of how it got its name vary and are best treated as legend. It is a classic of Austrian and Bavarian mountain huts and cafés.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "120 g flour",
+     "4 eggs, separated",
+     "250 ml milk",
+     "30 g sugar, plus icing sugar to serve",
+     "40 g raisins",
+     "30 g butter",
+     "Pinch of salt"
+    ],
+    "steps": [
+     "Whisk the flour, milk, egg yolks and a pinch of salt into a smooth batter; stir in the raisins.",
+     "Beat the egg whites with half the sugar to stiff peaks and fold into the batter.",
+     "Melt half the butter in a large pan, pour in the batter and cook on medium heat for 4–5 minutes until set underneath.",
+     "Flip in sections, cook 2 minutes, then tear into pieces with two forks.",
+     "Add the rest of the butter and sugar, toss until lightly caramelised and serve dusted with icing sugar."
+    ]
+   },
+   "tips": [
+    "Skip the final caramelising butter and sugar.",
+    "Serve with fresh fruit instead of sweetened compote.",
+    "Use semi-skimmed milk and share one pan between two as a dessert."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kaiserschmarrn",
-      "origin": "Austria · Vienna",
-      "intro": "Kaiserschmarrn is an Austrian shredded pancake: a thick, fluffy batter of eggs, milk and flour with raisins is fried in butter, then torn into bite-sized pieces in the pan and caramelised with a little sugar. It is dusted with icing sugar and traditionally served with plum or apple compote, as a dessert or a sweet main course.",
-      "history": "The name means “Emperor's mess”, and it is usually linked to Emperor Franz Joseph I, though the stories of how it got its name vary and are best treated as legend. It is a classic of Austrian and Bavarian mountain huts and cafés.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "120 g flour",
-          "4 eggs, separated",
-          "250 ml milk",
-          "30 g sugar, plus icing sugar to serve",
-          "40 g raisins",
-          "30 g butter",
-          "Pinch of salt"
-        ],
-        "steps": [
-          "Whisk the flour, milk, egg yolks and a pinch of salt into a smooth batter; stir in the raisins.",
-          "Beat the egg whites with half the sugar to stiff peaks and fold into the batter.",
-          "Melt half the butter in a large pan, pour in the batter and cook on medium heat for 4–5 minutes until set underneath.",
-          "Flip in sections, cook 2 minutes, then tear into pieces with two forks.",
-          "Add the rest of the butter and sugar, toss until lightly caramelised and serve dusted with icing sugar."
-        ]
-      },
-      "tips": [
-        "Skip the final caramelising butter and sugar.",
-        "Serve with fresh fruit instead of sweetened compote.",
-        "Use semi-skimmed milk and share one pan between two as a dessert."
-      ]
-    },
-    "ar": {
-      "name": "كايزرشمارن",
-      "origin": "النمسا · فيينا",
-      "intro": "الكايزرشمارن فطيرة نمساوية ممزّقة: عجينة سميكة هشّة من البيض والحليب والدقيق مع الزبيب تُقلى بالزبدة، ثم تُمزَّق في المقلاة قطعاً صغيرة وتُكرمَل بقليل من السكر. تُرش بالسكر البودرة وتُقدَّم تقليدياً مع كومبوت البرقوق أو التفاح، حلوى أو طبقاً رئيسياً حلواً.",
-      "history": "يعني الاسم «فوضى الإمبراطور»، ويُربط عادة بالإمبراطور فرانز جوزيف الأول، لكن الروايات عن أصل الاسم متعددة ويُستحسن عدّها من الأساطير. وهو طبق كلاسيكي في أكواخ الجبال والمقاهي في النمسا وبافاريا.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "120 غ دقيق",
-          "4 بيضات، صفار وبياض منفصلان",
-          "250 مل حليب",
-          "30 غ سكر، وسكر بودرة للتقديم",
-          "40 غ زبيب",
-          "30 غ زبدة",
-          "رشة ملح"
-        ],
-        "steps": [
-          "اخفق الدقيق والحليب وصفار البيض ورشة الملح حتى تصبح العجينة ناعمة؛ أضف الزبيب.",
-          "اخفق بياض البيض مع نصف السكر حتى يتماسك، وقلّبه برفق في العجينة.",
-          "أذب نصف الزبدة في مقلاة كبيرة، واسكب العجينة واطهها على نار متوسطة 4–5 دقائق حتى تتماسك من الأسفل.",
-          "اقلبها أجزاءً واطهها دقيقتين، ثم مزّقها قطعاً بشوكتين.",
-          "أضف بقية الزبدة والسكر وقلّب حتى تتكرمل قليلاً، وقدّمها مرشوشة بالسكر البودرة."
-        ]
-      },
-      "tips": [
-        "تخلَّ عن الزبدة والسكر في مرحلة الكرملة الأخيرة.",
-        "قدّمها مع فاكهة طازجة بدل الكومبوت المحلّى.",
-        "استخدم حليباً نصف دسم وتقاسم المقلاة بين شخصين كحلوى."
-      ]
-    },
-    "it": {
-      "name": "Kaiserschmarrn",
-      "origin": "Austria · Vienna",
-      "intro": "Il Kaiserschmarrn è una frittella austriaca strappata: una pastella densa e soffice di uova, latte e farina con uvetta viene cotta nel burro, poi strappata a bocconcini nella padella e caramellata con un po' di zucchero. Si spolvera di zucchero a velo e tradizionalmente si serve con composta di prugne o di mele, come dessert o come piatto principale dolce.",
-      "history": "Il nome significa «pasticcio dell'imperatore» ed è di solito collegato all'imperatore Francesco Giuseppe I, anche se le storie su come abbia avuto questo nome variano e vanno prese come leggenda. È un classico dei rifugi di montagna e dei caffè austriaci e bavaresi.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "120 g di farina",
-          "4 uova, tuorli separati dagli albumi",
-          "250 ml di latte",
-          "30 g di zucchero, più zucchero a velo per servire",
-          "40 g di uvetta",
-          "30 g di burro",
-          "Un pizzico di sale"
-        ],
-        "steps": [
-          "Sbatti farina, latte, tuorli e un pizzico di sale fino a ottenere una pastella liscia; incorpora l'uvetta.",
-          "Monta gli albumi a neve ferma con metà dello zucchero e incorporali delicatamente alla pastella.",
-          "Sciogli metà del burro in una padella ampia, versa la pastella e cuoci a fuoco medio per 4–5 minuti finché il fondo si rapprende.",
-          "Gira a sezioni, cuoci 2 minuti, poi strappa a pezzi con due forchette.",
-          "Aggiungi il resto del burro e dello zucchero, salta finché è leggermente caramellato e servi spolverato di zucchero a velo."
-        ]
-      },
-      "tips": [
-        "Salta la caramellatura finale con burro e zucchero.",
-        "Servi con frutta fresca invece che con composta zuccherata.",
-        "Usa latte parzialmente scremato e dividi una padella in due come dessert."
-      ]
-    },
-    "el": {
-      "name": "Κάιζερσμαρν",
-      "origin": "Αυστρία · Βιέννη",
-      "intro": "Το κάιζερσμαρν είναι αυστριακή τηγανίτα κομματιασμένη: ένας πηχτός, αφράτος χυλός από αυγά, γάλα και αλεύρι με σταφίδες ψήνεται σε βούτυρο, έπειτα κόβεται σε μπουκιές μέσα στο τηγάνι και καραμελώνεται με λίγη ζάχαρη. Πασπαλίζεται με ζάχαρη άχνη και παραδοσιακά σερβίρεται με κομπόστα δαμάσκηνου ή μήλου, ως επιδόρπιο ή γλυκό κυρίως πιάτο.",
-      "history": "Το όνομα σημαίνει «το χάος του αυτοκράτορα» και συνήθως συνδέεται με τον αυτοκράτορα Φραγκίσκο Ιωσήφ Α΄, αν και οι ιστορίες για το πώς πήρε το όνομά του ποικίλλουν και καλύτερα να θεωρούνται θρύλος. Είναι κλασικό των ορεινών καταφυγίων και των καφέ της Αυστρίας και της Βαυαρίας.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "120 γρ. αλεύρι",
-          "4 αυγά, με τους κρόκους χωρισμένους από τα ασπράδια",
-          "250 ml γάλα",
-          "30 γρ. ζάχαρη, και ζάχαρη άχνη για το σερβίρισμα",
-          "40 γρ. σταφίδες",
-          "30 γρ. βούτυρο",
-          "Μια πρέζα αλάτι"
-        ],
-        "steps": [
-          "Χτυπήστε το αλεύρι, το γάλα, τους κρόκους και μια πρέζα αλάτι σε λείο χυλό· ανακατέψτε τις σταφίδες.",
-          "Χτυπήστε τα ασπράδια με τη μισή ζάχαρη σε σφιχτή μαρέγκα και ενσωματώστε τα απαλά στον χυλό.",
-          "Λιώστε το μισό βούτυρο σε μεγάλο τηγάνι, ρίξτε τον χυλό και ψήστε σε μέτρια φωτιά για 4–5 λεπτά μέχρι να σφίξει από κάτω.",
-          "Γυρίστε τον σε κομμάτια, ψήστε 2 λεπτά και έπειτα κόψτε τον σε μπουκιές με δύο πιρούνια.",
-          "Προσθέστε το υπόλοιπο βούτυρο και τη ζάχαρη, ανακατέψτε μέχρι να καραμελώσει ελαφρά και σερβίρετε πασπαλισμένο με ζάχαρη άχνη."
-        ]
-      },
-      "tips": [
-        "Παραλείψτε το τελικό καραμέλωμα με βούτυρο και ζάχαρη.",
-        "Σερβίρετε με φρέσκα φρούτα αντί για ζαχαρωμένη κομπόστα.",
-        "Χρησιμοποιήστε ημιαποβουτυρωμένο γάλα και μοιραστείτε ένα τηγάνι στα δύο ως επιδόρπιο."
-      ]
-    },
-    "ru": {
-      "name": "Кайзершмарн",
-      "origin": "Австрия · Вена",
-      "intro": "Кайзершмарн — австрийский рубленый блин: густое пышное тесто из яиц, молока и муки с изюмом обжаривают на масле, затем разрывают на небольшие кусочки прямо в сковороде и карамелизуют с небольшим количеством сахара. Его посыпают сахарной пудрой и традиционно подают со сливовым или яблочным компотом как десерт или сладкое основное блюдо.",
-      "history": "Название означает «императорская мешанина», и его обычно связывают с императором Францем Иосифом I, хотя истории о происхождении названия различаются и их лучше считать легендой. Это классика австрийских и баварских горных хижин и кафе.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "120 г муки",
-          "4 яйца, разделённых на желтки и белки",
-          "250 мл молока",
-          "30 г сахара, плюс сахарная пудра для подачи",
-          "40 г изюма",
-          "30 г сливочного масла",
-          "Щепотка соли"
-        ],
-        "steps": [
-          "Взбейте муку, молоко, желтки и щепотку соли в гладкое тесто; вмешайте изюм.",
-          "Взбейте белки с половиной сахара до плотных пиков и аккуратно вмешайте в тесто.",
-          "Растопите половину масла на большой сковороде, влейте тесто и готовьте на среднем огне 4–5 минут, пока низ не схватится.",
-          "Переверните частями, готовьте 2 минуты, затем разорвите на кусочки двумя вилками.",
-          "Добавьте остальное масло и сахар, перемешайте до лёгкой карамелизации и подавайте, посыпав сахарной пудрой."
-        ]
-      },
-      "tips": [
-        "Откажитесь от заключительного масла и сахара для карамелизации.",
-        "Подавайте со свежими фруктами вместо подслащённого компота.",
-        "Берите молоко пониженной жирности и делите одну сковороду на двоих как десерт."
-      ],
-      "name_inline": "кайзершмарн"
-    }
+  "ar": {
+   "name": "كايزرشمارن",
+   "origin": "النمسا · فيينا",
+   "intro": "الكايزرشمارن فطيرة نمساوية ممزّقة: عجينة سميكة هشّة من البيض والحليب والدقيق مع الزبيب تُقلى بالزبدة، ثم تُمزَّق في المقلاة قطعاً صغيرة وتُكرمَل بقليل من السكر. تُرش بالسكر البودرة وتُقدَّم تقليدياً مع كومبوت البرقوق أو التفاح، حلوى أو طبقاً رئيسياً حلواً.",
+   "history": "يعني الاسم «فوضى الإمبراطور»، ويُربط عادة بالإمبراطور فرانز جوزيف الأول، لكن الروايات عن أصل الاسم متعددة ويُستحسن عدّها من الأساطير. وهو طبق كلاسيكي في أكواخ الجبال والمقاهي في النمسا وبافاريا.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "120 غ دقيق",
+     "4 بيضات، صفار وبياض منفصلان",
+     "250 مل حليب",
+     "30 غ سكر، وسكر بودرة للتقديم",
+     "40 غ زبيب",
+     "30 غ زبدة",
+     "رشة ملح"
+    ],
+    "steps": [
+     "اخفق الدقيق والحليب وصفار البيض ورشة الملح حتى تصبح العجينة ناعمة؛ أضف الزبيب.",
+     "اخفق بياض البيض مع نصف السكر حتى يتماسك، وقلّبه برفق في العجينة.",
+     "أذب نصف الزبدة في مقلاة كبيرة، واسكب العجينة واطهها على نار متوسطة 4–5 دقائق حتى تتماسك من الأسفل.",
+     "اقلبها أجزاءً واطهها دقيقتين، ثم مزّقها قطعاً بشوكتين.",
+     "أضف بقية الزبدة والسكر وقلّب حتى تتكرمل قليلاً، وقدّمها مرشوشة بالسكر البودرة."
+    ]
+   },
+   "tips": [
+    "تخلَّ عن الزبدة والسكر في مرحلة الكرملة الأخيرة.",
+    "قدّمها مع فاكهة طازجة بدل الكومبوت المحلّى.",
+    "استخدم حليباً نصف دسم وتقاسم المقلاة بين شخصين كحلوى."
+   ]
+  },
+  "it": {
+   "name": "Kaiserschmarrn",
+   "origin": "Austria · Vienna",
+   "intro": "Il Kaiserschmarrn è una frittella austriaca strappata: una pastella densa e soffice di uova, latte e farina con uvetta viene cotta nel burro, poi strappata a bocconcini nella padella e caramellata con un po' di zucchero. Si spolvera di zucchero a velo e tradizionalmente si serve con composta di prugne o di mele, come dessert o come piatto principale dolce.",
+   "history": "Il nome significa «pasticcio dell'imperatore» ed è di solito collegato all'imperatore Francesco Giuseppe I, anche se le storie su come abbia avuto questo nome variano e vanno prese come leggenda. È un classico dei rifugi di montagna e dei caffè austriaci e bavaresi.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "120 g di farina",
+     "4 uova, tuorli separati dagli albumi",
+     "250 ml di latte",
+     "30 g di zucchero, più zucchero a velo per servire",
+     "40 g di uvetta",
+     "30 g di burro",
+     "Un pizzico di sale"
+    ],
+    "steps": [
+     "Sbatti farina, latte, tuorli e un pizzico di sale fino a ottenere una pastella liscia; incorpora l'uvetta.",
+     "Monta gli albumi a neve ferma con metà dello zucchero e incorporali delicatamente alla pastella.",
+     "Sciogli metà del burro in una padella ampia, versa la pastella e cuoci a fuoco medio per 4–5 minuti finché il fondo si rapprende.",
+     "Gira a sezioni, cuoci 2 minuti, poi strappa a pezzi con due forchette.",
+     "Aggiungi il resto del burro e dello zucchero, salta finché è leggermente caramellato e servi spolverato di zucchero a velo."
+    ]
+   },
+   "tips": [
+    "Salta la caramellatura finale con burro e zucchero.",
+    "Servi con frutta fresca invece che con composta zuccherata.",
+    "Usa latte parzialmente scremato e dividi una padella in due come dessert."
+   ]
+  },
+  "el": {
+   "name": "Κάιζερσμαρν",
+   "origin": "Αυστρία · Βιέννη",
+   "intro": "Το κάιζερσμαρν είναι αυστριακή τηγανίτα κομματιασμένη: ένας πηχτός, αφράτος χυλός από αυγά, γάλα και αλεύρι με σταφίδες ψήνεται σε βούτυρο, έπειτα κόβεται σε μπουκιές μέσα στο τηγάνι και καραμελώνεται με λίγη ζάχαρη. Πασπαλίζεται με ζάχαρη άχνη και παραδοσιακά σερβίρεται με κομπόστα δαμάσκηνου ή μήλου, ως επιδόρπιο ή γλυκό κυρίως πιάτο.",
+   "history": "Το όνομα σημαίνει «το χάος του αυτοκράτορα» και συνήθως συνδέεται με τον αυτοκράτορα Φραγκίσκο Ιωσήφ Α΄, αν και οι ιστορίες για το πώς πήρε το όνομά του ποικίλλουν και καλύτερα να θεωρούνται θρύλος. Είναι κλασικό των ορεινών καταφυγίων και των καφέ της Αυστρίας και της Βαυαρίας.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "120 γρ. αλεύρι",
+     "4 αυγά, με τους κρόκους χωρισμένους από τα ασπράδια",
+     "250 ml γάλα",
+     "30 γρ. ζάχαρη, και ζάχαρη άχνη για το σερβίρισμα",
+     "40 γρ. σταφίδες",
+     "30 γρ. βούτυρο",
+     "Μια πρέζα αλάτι"
+    ],
+    "steps": [
+     "Χτυπήστε το αλεύρι, το γάλα, τους κρόκους και μια πρέζα αλάτι σε λείο χυλό· ανακατέψτε τις σταφίδες.",
+     "Χτυπήστε τα ασπράδια με τη μισή ζάχαρη σε σφιχτή μαρέγκα και ενσωματώστε τα απαλά στον χυλό.",
+     "Λιώστε το μισό βούτυρο σε μεγάλο τηγάνι, ρίξτε τον χυλό και ψήστε σε μέτρια φωτιά για 4–5 λεπτά μέχρι να σφίξει από κάτω.",
+     "Γυρίστε τον σε κομμάτια, ψήστε 2 λεπτά και έπειτα κόψτε τον σε μπουκιές με δύο πιρούνια.",
+     "Προσθέστε το υπόλοιπο βούτυρο και τη ζάχαρη, ανακατέψτε μέχρι να καραμελώσει ελαφρά και σερβίρετε πασπαλισμένο με ζάχαρη άχνη."
+    ]
+   },
+   "tips": [
+    "Παραλείψτε το τελικό καραμέλωμα με βούτυρο και ζάχαρη.",
+    "Σερβίρετε με φρέσκα φρούτα αντί για ζαχαρωμένη κομπόστα.",
+    "Χρησιμοποιήστε ημιαποβουτυρωμένο γάλα και μοιραστείτε ένα τηγάνι στα δύο ως επιδόρπιο."
+   ]
+  },
+  "ru": {
+   "name": "Кайзершмарн",
+   "origin": "Австрия · Вена",
+   "intro": "Кайзершмарн — австрийский рубленый блин: густое пышное тесто из яиц, молока и муки с изюмом обжаривают на масле, затем разрывают на небольшие кусочки прямо в сковороде и карамелизуют с небольшим количеством сахара. Его посыпают сахарной пудрой и традиционно подают со сливовым или яблочным компотом как десерт или сладкое основное блюдо.",
+   "history": "Название означает «императорская мешанина», и его обычно связывают с императором Францем Иосифом I, хотя истории о происхождении названия различаются и их лучше считать легендой. Это классика австрийских и баварских горных хижин и кафе.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "120 г муки",
+     "4 яйца, разделённых на желтки и белки",
+     "250 мл молока",
+     "30 г сахара, плюс сахарная пудра для подачи",
+     "40 г изюма",
+     "30 г сливочного масла",
+     "Щепотка соли"
+    ],
+    "steps": [
+     "Взбейте муку, молоко, желтки и щепотку соли в гладкое тесто; вмешайте изюм.",
+     "Взбейте белки с половиной сахара до плотных пиков и аккуратно вмешайте в тесто.",
+     "Растопите половину масла на большой сковороде, влейте тесто и готовьте на среднем огне 4–5 минут, пока низ не схватится.",
+     "Переверните частями, готовьте 2 минуты, затем разорвите на кусочки двумя вилками.",
+     "Добавьте остальное масло и сахар, перемешайте до лёгкой карамелизации и подавайте, посыпав сахарной пудрой."
+    ]
+   },
+   "tips": [
+    "Откажитесь от заключительного масла и сахара для карамелизации.",
+    "Подавайте со свежими фруктами вместо подслащённого компота.",
+    "Берите молоко пониженной жирности и делите одну сковороду на двоих как десерт."
+   ],
+   "name_inline": "кайзершмарн"
+  },
+  "es": {
+   "name": "Kaiserschmarrn",
+   "origin": "Austria · Viena",
+   "intro": "El Kaiserschmarrn es un panqué desmenuzado austríaco: una masa espesa y esponjosa de huevos, leche y harina con pasas se fríe en mantequilla, luego se rompe en trozos pequeños en el sartén y se carameliza con un poco de azúcar. Se espolvorea con azúcar glas y se sirve tradicionalmente con compota de ciruela o de manzana, como postre o como plato fuerte dulce.",
+   "history": "El nombre significa «revoltijo del emperador» y suele vincularse con el emperador Francisco José I, aunque las historias sobre cómo recibió el nombre varían y conviene tomarlas como leyenda. Es un clásico de los refugios de montaña y los cafés de Austria y Baviera.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "120 g de harina",
+     "4 huevos, separados",
+     "250 ml de leche",
+     "30 g de azúcar, más azúcar glas para servir",
+     "40 g de pasas",
+     "30 g de mantequilla",
+     "Una pizca de sal"
+    ],
+    "steps": [
+     "Bate la harina, la leche, las yemas y una pizca de sal hasta obtener una masa lisa; incorpora las pasas.",
+     "Monta las claras con la mitad del azúcar hasta picos firmes e intégralas a la masa con movimientos envolventes.",
+     "Derrite la mitad de la mantequilla en un sartén grande, vierte la masa y cocina a fuego medio de 4 a 5 minutos, hasta que cuaje por abajo.",
+     "Voltea por secciones, cocina 2 minutos y luego rompe en trozos con dos tenedores.",
+     "Agrega el resto de la mantequilla y el azúcar, mezcla hasta que se carameliza ligeramente y sirve espolvoreado con azúcar glas."
+    ]
+   },
+   "tips": [
+    "Omite la mantequilla y el azúcar del caramelizado final.",
+    "Sírvelo con fruta fresca en lugar de compota azucarada.",
+    "Usa leche semidescremada y comparte un sartén entre dos como postre."
+   ],
+   "name_inline": "el Kaiserschmarrn"
   }
+ }
 }
