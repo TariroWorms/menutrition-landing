@@ -1,175 +1,208 @@
 {
-  "db_key": "katsudon",
-  "slug": "katsudon",
-  "emoji": "🍚",
-  "portion_g": 450,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "katsudon",
+ "slug": "katsudon",
+ "emoji": "🍚",
+ "portion_g": 450,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Katsudon",
+   "origin": "Japan",
+   "intro": "Katsudon is a Japanese rice bowl topped with a breaded pork cutlet that is simmered briefly with sliced onion in a savoury dashi broth, then bound with lightly set beaten egg. The crisp crumb softens where it meets the broth while staying crunchy on top. It is served in a deep bowl over hot steamed rice and eaten with chopsticks.",
+   "history": "Katsudon is usually credited to Tokyo in the early 20th century, with several eateries and students claimed as its inventor; none of the stories is firmly documented. It belongs to the donburi family of rice bowls. Today it is sold in noodle shops, diners and convenience stores across Japan, and is a traditional pre-exam meal because katsu sounds like the word for winning.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "2 pork cutlets, about 120 g each",
+     "3 eggs",
+     "50 g panko breadcrumbs",
+     "1 onion, thinly sliced",
+     "200 ml dashi",
+     "1 tsp sugar, salt",
+     "400 g cooked short-grain rice",
+     "Oil for frying"
+    ],
+    "steps": [
+     "Season the pork, dip it in one beaten egg and coat it in breadcrumbs.",
+     "Fry the cutlets in oil until golden, about 3–4 minutes per side, then slice.",
+     "Simmer the dashi with sugar, salt and the onion for 4–5 minutes in a small pan.",
+     "Lay one sliced cutlet in the broth, pour over one beaten egg, cover and cook for 1 minute until just set.",
+     "Slide it onto a bowl of rice; repeat for the second bowl."
+    ]
+   },
+   "tips": [
+    "Bake or air-fry the cutlet instead of deep-frying.",
+    "Use a smaller portion of rice and add extra onion to the broth.",
+    "Skip the extra drizzle of oil and keep the egg layer thin."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Katsudon",
-      "origin": "Japan",
-      "intro": "Katsudon is a Japanese rice bowl topped with a breaded pork cutlet that is simmered briefly with sliced onion in a savoury dashi broth, then bound with lightly set beaten egg. The crisp crumb softens where it meets the broth while staying crunchy on top. It is served in a deep bowl over hot steamed rice and eaten with chopsticks.",
-      "history": "Katsudon is usually credited to Tokyo in the early 20th century, with several eateries and students claimed as its inventor; none of the stories is firmly documented. It belongs to the donburi family of rice bowls. Today it is sold in noodle shops, diners and convenience stores across Japan, and is a traditional pre-exam meal because katsu sounds like the word for winning.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "2 pork cutlets, about 120 g each",
-          "3 eggs",
-          "50 g panko breadcrumbs",
-          "1 onion, thinly sliced",
-          "200 ml dashi",
-          "1 tsp sugar, salt",
-          "400 g cooked short-grain rice",
-          "Oil for frying"
-        ],
-        "steps": [
-          "Season the pork, dip it in one beaten egg and coat it in breadcrumbs.",
-          "Fry the cutlets in oil until golden, about 3–4 minutes per side, then slice.",
-          "Simmer the dashi with sugar, salt and the onion for 4–5 minutes in a small pan.",
-          "Lay one sliced cutlet in the broth, pour over one beaten egg, cover and cook for 1 minute until just set.",
-          "Slide it onto a bowl of rice; repeat for the second bowl."
-        ]
-      },
-      "tips": [
-        "Bake or air-fry the cutlet instead of deep-frying.",
-        "Use a smaller portion of rice and add extra onion to the broth.",
-        "Skip the extra drizzle of oil and keep the egg layer thin."
-      ]
-    },
-    "ar": {
-      "name": "كاتسودون",
-      "origin": "اليابان",
-      "intro": "كاتسودون وعاء أرز ياباني تعلوه شريحة لحم خنزير مغطاة بفتات الخبز تُطهى قليلاً مع شرائح البصل في مرق داشي المالح، ثم تُغطى ببيض مخفوق ينضج بخفة. يلين الفتات حيث يلامس المرق ويبقى مقرمشاً من الأعلى. يُقدَّم في وعاء عميق فوق أرز ساخن ويؤكل بعيدان الطعام.",
-      "history": "يُنسب كاتسودون عادةً إلى طوكيو في أوائل القرن العشرين، وتُروى قصص عن عدة مطاعم وطلاب ابتكروه دون توثيق قاطع. وهو من عائلة أطباق الدونبوري. واليوم يُباع في مطاعم النودلز والمطاعم الشعبية والمتاجر في أنحاء اليابان، ويُؤكل تقليدياً قبل الامتحانات لأن كلمة «كاتسو» تشبه كلمة الفوز.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "شريحتا لحم خنزير، نحو 120 غ لكل منهما",
-          "3 بيضات",
-          "50 غ فتات خبز بانكو",
-          "بصلة مقطعة شرائح رفيعة",
-          "200 مل مرق داشي",
-          "ملعقة صغيرة سكر، ملح",
-          "400 غ أرز قصير الحبة مطبوخ",
-          "زيت للقلي"
-        ],
-        "steps": [
-          "تبّل اللحم واغمسه في بيضة مخفوقة ثم غطّه بفتات الخبز.",
-          "اقلِ الشرائح في الزيت حتى يصبح لونها ذهبياً، نحو 3–4 دقائق لكل جانب، ثم قطّعها.",
-          "اطهُ مرق الداشي مع السكر والملح والبصل 4–5 دقائق في مقلاة صغيرة.",
-          "ضع شريحة مقطعة في المرق واسكب فوقها بيضة مخفوقة، وغطِّ واطهُ دقيقة حتى يتماسك البيض.",
-          "انقلها فوق وعاء من الأرز، وكرر للوعاء الثاني."
-        ]
-      },
-      "tips": [
-        "اخبز الشريحة أو حضّرها في المقلاة الهوائية بدلاً من القلي العميق.",
-        "استخدم كمية أصغر من الأرز وأضف مزيداً من البصل إلى المرق.",
-        "تجنب إضافة زيت إضافي واجعل طبقة البيض رقيقة."
-      ]
-    },
-    "it": {
-      "name": "Katsudon",
-      "origin": "Giappone",
-      "intro": "Il katsudon è una ciotola di riso giapponese con sopra una cotoletta di maiale impanata, fatta sobbollire brevemente con cipolla affettata in un saporito brodo dashi e poi legata con uovo sbattuto appena rappreso. La panatura croccante si ammorbidisce dove tocca il brodo ma resta croccante in superficie. Si serve in una ciotola fonda su riso caldo al vapore e si mangia con le bacchette.",
-      "history": "Il katsudon viene di solito attribuito alla Tokyo dell'inizio del XX secolo, e diverse trattorie e studenti ne sono stati indicati come inventori; nessuna di queste storie è documentata con certezza. Appartiene alla famiglia delle ciotole di riso donburi. Oggi si vende in locali di noodle, trattorie e minimarket in tutto il Giappone ed è un pasto tradizionale prima degli esami, perché katsu suona come la parola che significa vincere.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "2 cotolette di maiale da circa 120 g ciascuna",
-          "3 uova",
-          "50 g di pangrattato panko",
-          "1 cipolla affettata sottilmente",
-          "200 ml di dashi",
-          "1 cucchiaino di zucchero, sale",
-          "400 g di riso a chicco corto cotto",
-          "Olio per friggere"
-        ],
-        "steps": [
-          "Condisci il maiale, passalo in un uovo sbattuto e impanalo nel pangrattato.",
-          "Friggi le cotolette nell'olio finché sono dorate, circa 3–4 minuti per lato, poi tagliale a fette.",
-          "Fai sobbollire il dashi con zucchero, sale e cipolla per 4–5 minuti in un pentolino.",
-          "Adagia una cotoletta a fette nel brodo, versaci sopra un uovo sbattuto, copri e cuoci 1 minuto finché è appena rappreso.",
-          "Fallo scivolare su una ciotola di riso; ripeti per la seconda ciotola."
-        ]
-      },
-      "tips": [
-        "Cuoci la cotoletta in forno o nella friggitrice ad aria invece di friggerla in abbondante olio.",
-        "Usa una porzione di riso più piccola e aggiungi più cipolla al brodo.",
-        "Evita il filo d'olio in più e mantieni sottile lo strato di uovo."
-      ]
-    },
-    "el": {
-      "name": "Κατσουντόν",
-      "origin": "Ιαπωνία",
-      "intro": "Το κατσουντόν είναι ιαπωνικό μπολ ρυζιού με ένα πανέ χοιρινό σνίτσελ από πάνω, που σιγοβράζει για λίγο με κρεμμύδι σε φέτες σε γευστικό ζωμό ντάσι και έπειτα δένεται με χτυπημένο αυγό ίσα ίσα πηγμένο. Η τραγανή πανάδα μαλακώνει εκεί που ακουμπά τον ζωμό, αλλά μένει τραγανή από πάνω. Σερβίρεται σε βαθύ μπολ πάνω σε ζεστό ρύζι στον ατμό και τρώγεται με ξυλάκια.",
-      "history": "Το κατσουντόν συνήθως αποδίδεται στο Τόκιο των αρχών του 20ού αιώνα, με αρκετά μαγαζιά και φοιτητές να διεκδικούν την επινόησή του· καμία από τις ιστορίες δεν τεκμηριώνεται με βεβαιότητα. Ανήκει στην οικογένεια των μπολ ρυζιού ντονμπούρι. Σήμερα πουλιέται σε μαγαζιά με νουντλς, εστιατόρια και μίνι μάρκετ σε όλη την Ιαπωνία και είναι παραδοσιακό γεύμα πριν από εξετάσεις, επειδή το κάτσου ακούγεται σαν τη λέξη για τη νίκη.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "2 χοιρινά σνίτσελ, περίπου 120 γρ. το καθένα",
-          "3 αυγά",
-          "50 γρ. φρυγανιά πάνκο",
-          "1 κρεμμύδι, σε λεπτές φέτες",
-          "200 ml ντάσι",
-          "1 κ.γ. ζάχαρη, αλάτι",
-          "400 γρ. μαγειρεμένο κοντόσπυρο ρύζι",
-          "Λάδι για τηγάνισμα"
-        ],
-        "steps": [
-          "Αλατοπιπερώστε το χοιρινό, βουτήξτε το σε ένα χτυπημένο αυγό και πανάρετέ το στη φρυγανιά.",
-          "Τηγανίστε τα σνίτσελ σε λάδι μέχρι να ροδίσουν, περίπου 3–4 λεπτά από κάθε πλευρά, και κόψτε τα σε φέτες.",
-          "Σιγοβράστε το ντάσι με τη ζάχαρη, το αλάτι και το κρεμμύδι για 4–5 λεπτά σε μικρό κατσαρολάκι.",
-          "Τοποθετήστε ένα κομμένο σνίτσελ στον ζωμό, ρίξτε από πάνω ένα χτυπημένο αυγό, σκεπάστε και μαγειρέψτε 1 λεπτό μέχρι να πήξει ίσα ίσα.",
-          "Γλιστρήστε το σε ένα μπολ με ρύζι· επαναλάβετε για το δεύτερο μπολ."
-        ]
-      },
-      "tips": [
-        "Ψήστε το σνίτσελ στον φούρνο ή σε φριτέζα αέρος αντί για βαθύ τηγάνισμα.",
-        "Χρησιμοποιήστε μικρότερη μερίδα ρυζιού και προσθέστε περισσότερο κρεμμύδι στον ζωμό.",
-        "Παραλείψτε το επιπλέον λάδι και κρατήστε λεπτή τη στρώση του αυγού."
-      ]
-    },
-    "ru": {
-      "name": "Кацудон",
-      "origin": "Япония",
-      "intro": "Кацудон — японская миска риса с панированной свиной отбивной, которую коротко тушат с нарезанным луком в пикантном бульоне даси, а затем скрепляют слегка схватившимся взбитым яйцом. Хрустящая панировка размягчается там, где соприкасается с бульоном, но остаётся хрустящей сверху. Подаётся в глубокой миске поверх горячего риса на пару, едят палочками.",
-      "history": "Кацудон обычно приписывают Токио начала XX века, причём изобретателями называют несколько заведений и студентов; ни одна из историй не подтверждена документально. Он относится к семейству рисовых мисок домбури. Сегодня его продают в лапшичных, закусочных и круглосуточных магазинах по всей Японии, и это традиционное блюдо перед экзаменами, потому что «кацу» созвучно слову «побеждать».",
-      "recipe": {
-        "servings": 2,
-        "time_min": 35,
-        "ingredients": [
-          "2 свиные отбивные, около 120 г каждая",
-          "3 яйца",
-          "50 г панировочных сухарей панко",
-          "1 луковица, тонко нарезанная",
-          "200 мл даси",
-          "1 ч. л. сахара, соль",
-          "400 г варёного круглозёрного риса",
-          "Масло для жарки"
-        ],
-        "steps": [
-          "Посолите свинину, окуните в одно взбитое яйцо и обваляйте в сухарях.",
-          "Обжарьте отбивные в масле до золотистого цвета, около 3–4 минут с каждой стороны, затем нарежьте.",
-          "Варите даси с сахаром, солью и луком 4–5 минут в небольшой сковороде.",
-          "Положите один нарезанный кусок отбивной в бульон, залейте одним взбитым яйцом, накройте и готовьте 1 минуту, пока яйцо едва схватится.",
-          "Переложите на миску с рисом; повторите для второй миски."
-        ]
-      },
-      "tips": [
-        "Запекайте или готовьте в аэрогриле отбивную вместо жарки во фритюре.",
-        "Используйте меньшую порцию риса и добавьте больше лука в бульон.",
-        "Не добавляйте масло сверху и делайте слой яйца тонким."
-      ],
-      "name_inline": "кацудон"
-    }
+  "ar": {
+   "name": "كاتسودون",
+   "origin": "اليابان",
+   "intro": "كاتسودون وعاء أرز ياباني تعلوه شريحة لحم خنزير مغطاة بفتات الخبز تُطهى قليلاً مع شرائح البصل في مرق داشي المالح، ثم تُغطى ببيض مخفوق ينضج بخفة. يلين الفتات حيث يلامس المرق ويبقى مقرمشاً من الأعلى. يُقدَّم في وعاء عميق فوق أرز ساخن ويؤكل بعيدان الطعام.",
+   "history": "يُنسب كاتسودون عادةً إلى طوكيو في أوائل القرن العشرين، وتُروى قصص عن عدة مطاعم وطلاب ابتكروه دون توثيق قاطع. وهو من عائلة أطباق الدونبوري. واليوم يُباع في مطاعم النودلز والمطاعم الشعبية والمتاجر في أنحاء اليابان، ويُؤكل تقليدياً قبل الامتحانات لأن كلمة «كاتسو» تشبه كلمة الفوز.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "شريحتا لحم خنزير، نحو 120 غ لكل منهما",
+     "3 بيضات",
+     "50 غ فتات خبز بانكو",
+     "بصلة مقطعة شرائح رفيعة",
+     "200 مل مرق داشي",
+     "ملعقة صغيرة سكر، ملح",
+     "400 غ أرز قصير الحبة مطبوخ",
+     "زيت للقلي"
+    ],
+    "steps": [
+     "تبّل اللحم واغمسه في بيضة مخفوقة ثم غطّه بفتات الخبز.",
+     "اقلِ الشرائح في الزيت حتى يصبح لونها ذهبياً، نحو 3–4 دقائق لكل جانب، ثم قطّعها.",
+     "اطهُ مرق الداشي مع السكر والملح والبصل 4–5 دقائق في مقلاة صغيرة.",
+     "ضع شريحة مقطعة في المرق واسكب فوقها بيضة مخفوقة، وغطِّ واطهُ دقيقة حتى يتماسك البيض.",
+     "انقلها فوق وعاء من الأرز، وكرر للوعاء الثاني."
+    ]
+   },
+   "tips": [
+    "اخبز الشريحة أو حضّرها في المقلاة الهوائية بدلاً من القلي العميق.",
+    "استخدم كمية أصغر من الأرز وأضف مزيداً من البصل إلى المرق.",
+    "تجنب إضافة زيت إضافي واجعل طبقة البيض رقيقة."
+   ]
+  },
+  "it": {
+   "name": "Katsudon",
+   "origin": "Giappone",
+   "intro": "Il katsudon è una ciotola di riso giapponese con sopra una cotoletta di maiale impanata, fatta sobbollire brevemente con cipolla affettata in un saporito brodo dashi e poi legata con uovo sbattuto appena rappreso. La panatura croccante si ammorbidisce dove tocca il brodo ma resta croccante in superficie. Si serve in una ciotola fonda su riso caldo al vapore e si mangia con le bacchette.",
+   "history": "Il katsudon viene di solito attribuito alla Tokyo dell'inizio del XX secolo, e diverse trattorie e studenti ne sono stati indicati come inventori; nessuna di queste storie è documentata con certezza. Appartiene alla famiglia delle ciotole di riso donburi. Oggi si vende in locali di noodle, trattorie e minimarket in tutto il Giappone ed è un pasto tradizionale prima degli esami, perché katsu suona come la parola che significa vincere.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "2 cotolette di maiale da circa 120 g ciascuna",
+     "3 uova",
+     "50 g di pangrattato panko",
+     "1 cipolla affettata sottilmente",
+     "200 ml di dashi",
+     "1 cucchiaino di zucchero, sale",
+     "400 g di riso a chicco corto cotto",
+     "Olio per friggere"
+    ],
+    "steps": [
+     "Condisci il maiale, passalo in un uovo sbattuto e impanalo nel pangrattato.",
+     "Friggi le cotolette nell'olio finché sono dorate, circa 3–4 minuti per lato, poi tagliale a fette.",
+     "Fai sobbollire il dashi con zucchero, sale e cipolla per 4–5 minuti in un pentolino.",
+     "Adagia una cotoletta a fette nel brodo, versaci sopra un uovo sbattuto, copri e cuoci 1 minuto finché è appena rappreso.",
+     "Fallo scivolare su una ciotola di riso; ripeti per la seconda ciotola."
+    ]
+   },
+   "tips": [
+    "Cuoci la cotoletta in forno o nella friggitrice ad aria invece di friggerla in abbondante olio.",
+    "Usa una porzione di riso più piccola e aggiungi più cipolla al brodo.",
+    "Evita il filo d'olio in più e mantieni sottile lo strato di uovo."
+   ]
+  },
+  "el": {
+   "name": "Κατσουντόν",
+   "origin": "Ιαπωνία",
+   "intro": "Το κατσουντόν είναι ιαπωνικό μπολ ρυζιού με ένα πανέ χοιρινό σνίτσελ από πάνω, που σιγοβράζει για λίγο με κρεμμύδι σε φέτες σε γευστικό ζωμό ντάσι και έπειτα δένεται με χτυπημένο αυγό ίσα ίσα πηγμένο. Η τραγανή πανάδα μαλακώνει εκεί που ακουμπά τον ζωμό, αλλά μένει τραγανή από πάνω. Σερβίρεται σε βαθύ μπολ πάνω σε ζεστό ρύζι στον ατμό και τρώγεται με ξυλάκια.",
+   "history": "Το κατσουντόν συνήθως αποδίδεται στο Τόκιο των αρχών του 20ού αιώνα, με αρκετά μαγαζιά και φοιτητές να διεκδικούν την επινόησή του· καμία από τις ιστορίες δεν τεκμηριώνεται με βεβαιότητα. Ανήκει στην οικογένεια των μπολ ρυζιού ντονμπούρι. Σήμερα πουλιέται σε μαγαζιά με νουντλς, εστιατόρια και μίνι μάρκετ σε όλη την Ιαπωνία και είναι παραδοσιακό γεύμα πριν από εξετάσεις, επειδή το κάτσου ακούγεται σαν τη λέξη για τη νίκη.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "2 χοιρινά σνίτσελ, περίπου 120 γρ. το καθένα",
+     "3 αυγά",
+     "50 γρ. φρυγανιά πάνκο",
+     "1 κρεμμύδι, σε λεπτές φέτες",
+     "200 ml ντάσι",
+     "1 κ.γ. ζάχαρη, αλάτι",
+     "400 γρ. μαγειρεμένο κοντόσπυρο ρύζι",
+     "Λάδι για τηγάνισμα"
+    ],
+    "steps": [
+     "Αλατοπιπερώστε το χοιρινό, βουτήξτε το σε ένα χτυπημένο αυγό και πανάρετέ το στη φρυγανιά.",
+     "Τηγανίστε τα σνίτσελ σε λάδι μέχρι να ροδίσουν, περίπου 3–4 λεπτά από κάθε πλευρά, και κόψτε τα σε φέτες.",
+     "Σιγοβράστε το ντάσι με τη ζάχαρη, το αλάτι και το κρεμμύδι για 4–5 λεπτά σε μικρό κατσαρολάκι.",
+     "Τοποθετήστε ένα κομμένο σνίτσελ στον ζωμό, ρίξτε από πάνω ένα χτυπημένο αυγό, σκεπάστε και μαγειρέψτε 1 λεπτό μέχρι να πήξει ίσα ίσα.",
+     "Γλιστρήστε το σε ένα μπολ με ρύζι· επαναλάβετε για το δεύτερο μπολ."
+    ]
+   },
+   "tips": [
+    "Ψήστε το σνίτσελ στον φούρνο ή σε φριτέζα αέρος αντί για βαθύ τηγάνισμα.",
+    "Χρησιμοποιήστε μικρότερη μερίδα ρυζιού και προσθέστε περισσότερο κρεμμύδι στον ζωμό.",
+    "Παραλείψτε το επιπλέον λάδι και κρατήστε λεπτή τη στρώση του αυγού."
+   ]
+  },
+  "ru": {
+   "name": "Кацудон",
+   "origin": "Япония",
+   "intro": "Кацудон — японская миска риса с панированной свиной отбивной, которую коротко тушат с нарезанным луком в пикантном бульоне даси, а затем скрепляют слегка схватившимся взбитым яйцом. Хрустящая панировка размягчается там, где соприкасается с бульоном, но остаётся хрустящей сверху. Подаётся в глубокой миске поверх горячего риса на пару, едят палочками.",
+   "history": "Кацудон обычно приписывают Токио начала XX века, причём изобретателями называют несколько заведений и студентов; ни одна из историй не подтверждена документально. Он относится к семейству рисовых мисок домбури. Сегодня его продают в лапшичных, закусочных и круглосуточных магазинах по всей Японии, и это традиционное блюдо перед экзаменами, потому что «кацу» созвучно слову «побеждать».",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "2 свиные отбивные, около 120 г каждая",
+     "3 яйца",
+     "50 г панировочных сухарей панко",
+     "1 луковица, тонко нарезанная",
+     "200 мл даси",
+     "1 ч. л. сахара, соль",
+     "400 г варёного круглозёрного риса",
+     "Масло для жарки"
+    ],
+    "steps": [
+     "Посолите свинину, окуните в одно взбитое яйцо и обваляйте в сухарях.",
+     "Обжарьте отбивные в масле до золотистого цвета, около 3–4 минут с каждой стороны, затем нарежьте.",
+     "Варите даси с сахаром, солью и луком 4–5 минут в небольшой сковороде.",
+     "Положите один нарезанный кусок отбивной в бульон, залейте одним взбитым яйцом, накройте и готовьте 1 минуту, пока яйцо едва схватится.",
+     "Переложите на миску с рисом; повторите для второй миски."
+    ]
+   },
+   "tips": [
+    "Запекайте или готовьте в аэрогриле отбивную вместо жарки во фритюре.",
+    "Используйте меньшую порцию риса и добавьте больше лука в бульон.",
+    "Не добавляйте масло сверху и делайте слой яйца тонким."
+   ],
+   "name_inline": "кацудон"
+  },
+  "es": {
+   "name": "Katsudon",
+   "origin": "Japón",
+   "intro": "El katsudon es un tazón japonés de arroz coronado con una chuleta de cerdo empanizada que se cuece brevemente con cebolla en rodajas en un caldo dashi sabroso y luego se liga con huevo batido apenas cuajado. El empanizado crujiente se ablanda donde toca el caldo y sigue crocante por encima. Se sirve en un tazón hondo sobre arroz caliente al vapor y se come con palillos.",
+   "history": "El katsudon suele atribuirse a Tokio a principios del siglo XX, con varios restaurantes y estudiantes que se disputan su invención; ninguna de las historias está documentada con certeza. Pertenece a la familia de los donburi, los tazones de arroz. Hoy se vende en locales de fideos, fondas y tiendas de conveniencia de todo Japón, y es una comida tradicional antes de los exámenes porque katsu suena como la palabra para ganar.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 35,
+    "ingredients": [
+     "2 chuletas de cerdo, de unos 120 g cada una",
+     "3 huevos",
+     "50 g de panko",
+     "1 cebolla, en rodajas finas",
+     "200 ml de dashi",
+     "1 cdta. de azúcar y sal",
+     "400 g de arroz de grano corto cocido",
+     "aceite para freír"
+    ],
+    "steps": [
+     "Sazona el cerdo, pásalo por un huevo batido y empanízalo con el panko.",
+     "Fríe las chuletas en aceite hasta que doren, unos 3 o 4 minutos por lado, y córtalas en tiras.",
+     "Cuece a fuego suave el dashi con el azúcar, la sal y la cebolla de 4 a 5 minutos en una sartén pequeña.",
+     "Coloca una chuleta cortada en el caldo, vierte encima un huevo batido, tapa y cocina 1 minuto, hasta que apenas cuaje.",
+     "Desliza todo sobre un tazón de arroz; repite para el segundo tazón."
+    ]
+   },
+   "tips": [
+    "Hornea o fríe en freidora de aire la chuleta en lugar de freírla en abundante aceite.",
+    "Usa una porción menor de arroz y agrega más cebolla al caldo.",
+    "Omite el chorrito extra de aceite y deja la capa de huevo delgada."
+   ],
+   "name_inline": "el katsudon"
   }
+ }
 }

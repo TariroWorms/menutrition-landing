@@ -1,167 +1,198 @@
 {
-  "db_key": "samgyetang",
-  "slug": "samgyetang",
-  "emoji": "🍲",
-  "portion_g": 800,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "samgyetang",
+ "slug": "samgyetang",
+ "emoji": "🍲",
+ "portion_g": 800,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Samgyetang (ginseng chicken soup)",
+   "origin": "South Korea",
+   "intro": "Samgyetang is a whole young chicken stuffed with glutinous rice, garlic, jujubes and a ginseng root, then simmered until the meat falls off the bone. The broth is milky, mild and gently earthy from the ginseng, and the rice inside turns soft and sticky. It is served bubbling in an earthenware pot, one small chicken per person, with salt and pepper to season at the table.",
+   "history": "Chicken and ginseng soups have long been made in Korea, and samgyetang in its present restaurant form became widespread in the second half of the 20th century. It is traditionally eaten on the hottest days of summer, the boknal, following the idea of “fighting heat with heat”.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "2 small chickens (about 500 g each), cleaned",
+     "100 g glutinous rice, soaked for 1 hour",
+     "2 fresh or dried ginseng roots",
+     "12 garlic cloves",
+     "4 dried jujubes",
+     "2 litres water",
+     "Salt, black pepper and sliced spring onion to serve"
+    ],
+    "steps": [
+     "Stuff each chicken with soaked rice, a few garlic cloves, a jujube and a piece of ginseng; cross the legs or tie them to close the cavity.",
+     "Place in a pot with the remaining garlic, ginseng and jujubes and cover with water.",
+     "Bring to the boil, skim, then simmer covered for about 60–70 minutes until very tender.",
+     "Serve each chicken in a bowl of broth with salt, pepper and spring onion on the side."
+    ]
+   },
+   "tips": [
+    "Remove the skin before eating — most of the fat sits there.",
+    "Chill the broth and lift off the layer of fat before reheating.",
+    "Share one chicken between two with a large side of vegetables if you want a smaller portion."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Samgyetang (ginseng chicken soup)",
-      "origin": "South Korea",
-      "intro": "Samgyetang is a whole young chicken stuffed with glutinous rice, garlic, jujubes and a ginseng root, then simmered until the meat falls off the bone. The broth is milky, mild and gently earthy from the ginseng, and the rice inside turns soft and sticky. It is served bubbling in an earthenware pot, one small chicken per person, with salt and pepper to season at the table.",
-      "history": "Chicken and ginseng soups have long been made in Korea, and samgyetang in its present restaurant form became widespread in the second half of the 20th century. It is traditionally eaten on the hottest days of summer, the boknal, following the idea of “fighting heat with heat”.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "2 small chickens (about 500 g each), cleaned",
-          "100 g glutinous rice, soaked for 1 hour",
-          "2 fresh or dried ginseng roots",
-          "12 garlic cloves",
-          "4 dried jujubes",
-          "2 litres water",
-          "Salt, black pepper and sliced spring onion to serve"
-        ],
-        "steps": [
-          "Stuff each chicken with soaked rice, a few garlic cloves, a jujube and a piece of ginseng; cross the legs or tie them to close the cavity.",
-          "Place in a pot with the remaining garlic, ginseng and jujubes and cover with water.",
-          "Bring to the boil, skim, then simmer covered for about 60–70 minutes until very tender.",
-          "Serve each chicken in a bowl of broth with salt, pepper and spring onion on the side."
-        ]
-      },
-      "tips": [
-        "Remove the skin before eating — most of the fat sits there.",
-        "Chill the broth and lift off the layer of fat before reheating.",
-        "Share one chicken between two with a large side of vegetables if you want a smaller portion."
-      ]
-    },
-    "ar": {
-      "name": "سامغيتانغ (شوربة الدجاج بالجينسنغ)",
-      "origin": "كوريا الجنوبية",
-      "intro": "سامغيتانغ دجاجة صغيرة كاملة محشوة بالأرز الدبق والثوم والعنّاب وجذر الجينسنغ، تُطهى على نار هادئة حتى ينفصل اللحم عن العظم. المرق حليبي اللون خفيف الطعم، مع نفحة ترابية لطيفة من الجينسنغ، والأرز في الداخل يصبح طرياً ولزجاً. يُقدَّم وهو يغلي في قدر فخاري، دجاجة صغيرة لكل شخص، مع الملح والفلفل للتتبيل على المائدة.",
-      "history": "تُحضَّر شوربات الدجاج بالجينسنغ في كوريا منذ زمن طويل، وانتشر السامغيتانغ بشكله الحالي في المطاعم خلال النصف الثاني من القرن العشرين. ويُؤكل تقليدياً في أشد أيام الصيف حرارة، المعروفة بـ«بوكنال»، وفق فكرة «مواجهة الحر بالحر».",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "2 دجاجة صغيرة (نحو 500 غ لكل منها) منظفة",
-          "100 غ أرز دبق منقوع لمدة ساعة",
-          "2 جذر جينسنغ طازج أو مجفف",
-          "12 فص ثوم",
-          "4 حبات عنّاب مجففة",
-          "2 لتر ماء",
-          "ملح وفلفل أسود وبصل أخضر مقطع للتقديم"
-        ],
-        "steps": [
-          "احشُ كل دجاجة بالأرز المنقوع وبضعة فصوص ثوم وحبة عنّاب وقطعة جينسنغ، واجمع الساقين أو اربطهما لإغلاق التجويف.",
-          "ضع الدجاج في قدر مع باقي الثوم والجينسنغ والعنّاب، وغطّه بالماء.",
-          "اتركه يغلي وأزل الرغوة، ثم اطهه مغطى على نار هادئة نحو 60–70 دقيقة حتى يصبح طرياً جداً.",
-          "قدّم كل دجاجة في وعاء من المرق مع الملح والفلفل والبصل الأخضر جانباً."
-        ]
-      },
-      "tips": [
-        "أزل الجلد قبل الأكل، فمعظم الدهون فيه.",
-        "برّد المرق وأزل طبقة الدهن قبل إعادة التسخين.",
-        "تقاسم دجاجة واحدة بين شخصين مع طبق كبير من الخضار إذا أردت حصة أصغر."
-      ]
-    },
-    "it": {
-      "name": "Samgyetang (zuppa di pollo al ginseng)",
-      "name_inline": "samgyetang",
-      "origin": "Corea del Sud",
-      "intro": "Il samgyetang è un pollo giovane intero farcito con riso glutinoso, aglio, giuggiole e una radice di ginseng, poi cotto lentamente finché la carne si stacca dall'osso. Il brodo è lattiginoso, delicato e leggermente terroso per il ginseng, e il riso all'interno diventa morbido e appiccicoso. Si serve ribollente in una pentola di terracotta, un pollastrello a persona, con sale e pepe per condire a tavola.",
-      "history": "Le zuppe di pollo e ginseng si preparano da tempo in Corea, e il samgyetang nella sua attuale forma da ristorante si è diffuso nella seconda metà del XX secolo. Tradizionalmente si mangia nei giorni più caldi dell'estate, i boknal, secondo l'idea di «combattere il caldo con il caldo».",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "2 pollastrelli (circa 500 g ciascuno), puliti",
-          "100 g di riso glutinoso, in ammollo per 1 ora",
-          "2 radici di ginseng fresche o essiccate",
-          "12 spicchi d'aglio",
-          "4 giuggiole essiccate",
-          "2 litri di acqua",
-          "Sale, pepe nero e cipollotto a rondelle per servire"
-        ],
-        "steps": [
-          "Farcisci ogni pollo con riso ammollato, qualche spicchio d'aglio, una giuggiola e un pezzo di ginseng; incrocia le cosce o legale per chiudere la cavità.",
-          "Metti in una pentola con l'aglio, il ginseng e le giuggiole rimasti e copri con acqua.",
-          "Porta a ebollizione, schiuma, poi cuoci a fuoco lento con il coperchio per circa 60–70 minuti, finché è molto tenero.",
-          "Servi ogni pollo in una ciotola di brodo con sale, pepe e cipollotto a parte."
-        ]
-      },
-      "tips": [
-        "Togli la pelle prima di mangiare: è lì che si trova la maggior parte del grasso.",
-        "Fai raffreddare il brodo e togli lo strato di grasso prima di riscaldarlo.",
-        "Dividi un pollo in due con un abbondante contorno di verdure se vuoi una porzione più piccola."
-      ]
-    },
-    "el": {
-      "name": "Σαμγκιετάνγκ (κοτόσουπα με τζίνσενγκ)",
-      "name_inline": "σαμγκιετάνγκ",
-      "origin": "Νότια Κορέα",
-      "intro": "Το σαμγκιετάνγκ είναι ένα ολόκληρο νεαρό κοτόπουλο γεμισμένο με κολλώδες ρύζι, σκόρδο, τζίτζιφα και μια ρίζα τζίνσενγκ, σιγοβρασμένο μέχρι το κρέας να φεύγει από το κόκαλο. Ο ζωμός είναι γαλακτερός, ήπιος και ελαφρώς γήινος από το τζίνσενγκ, και το ρύζι μέσα γίνεται μαλακό και κολλώδες. Σερβίρεται κοχλάζον σε πήλινη χύτρα, ένα μικρό κοτόπουλο ανά άτομο, με αλάτι και πιπέρι για να καρυκεύσει ο καθένας στο τραπέζι.",
-      "history": "Σούπες με κοτόπουλο και τζίνσενγκ φτιάχνονται από παλιά στην Κορέα, και το σαμγκιετάνγκ στη σημερινή του μορφή εστιατορίου διαδόθηκε στο δεύτερο μισό του 20ού αιώνα. Παραδοσιακά τρώγεται τις πιο ζεστές μέρες του καλοκαιριού, τις boknal, σύμφωνα με την ιδέα «καταπολεμάμε τη ζέστη με ζέστη».",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "2 μικρά κοτόπουλα (περίπου 500 γρ. το καθένα), καθαρισμένα",
-          "100 γρ. κολλώδες ρύζι, μουλιασμένο για 1 ώρα",
-          "2 φρέσκες ή αποξηραμένες ρίζες τζίνσενγκ",
-          "12 σκελίδες σκόρδο",
-          "4 αποξηραμένα τζίτζιφα",
-          "2 λίτρα νερό",
-          "Αλάτι, μαύρο πιπέρι και φρέσκο κρεμμυδάκι σε ροδέλες για το σερβίρισμα"
-        ],
-        "steps": [
-          "Γεμίστε κάθε κοτόπουλο με μουλιασμένο ρύζι, μερικές σκελίδες σκόρδο, ένα τζίτζιφο και ένα κομμάτι τζίνσενγκ· σταυρώστε ή δέστε τα πόδια για να κλείσει η κοιλότητα.",
-          "Βάλτε τα σε κατσαρόλα με το υπόλοιπο σκόρδο, τζίνσενγκ και τζίτζιφα και καλύψτε με νερό.",
-          "Φέρτε σε βρασμό, ξαφρίστε και σιγοβράστε σκεπασμένα για περίπου 60–70 λεπτά, μέχρι να μαλακώσουν πολύ.",
-          "Σερβίρετε κάθε κοτόπουλο σε μπολ με ζωμό, με αλάτι, πιπέρι και κρεμμυδάκι χωριστά."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα πριν φάτε — εκεί βρίσκεται το μεγαλύτερο μέρος του λίπους.",
-        "Κρυώστε τον ζωμό και αφαιρέστε το στρώμα λίπους πριν τον ξαναζεστάνετε.",
-        "Μοιραστείτε ένα κοτόπουλο στα δύο με μεγάλη μερίδα λαχανικών αν θέλετε μικρότερη μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Самгетан (суп из курицы с женьшенем)",
-      "origin": "Южная Корея",
-      "intro": "Самгетан — целый молодой цыплёнок, фаршированный клейким рисом, чесноком, ююбой и корнем женьшеня, затем томлёный, пока мясо не начнёт отходить от кости. Бульон молочный, мягкий и слегка землистый от женьшеня, а рис внутри становится мягким и липким. Подаётся кипящим в глиняном горшочке, по одному маленькому цыплёнку на человека, с солью и перцем для приправы за столом.",
-      "history": "Супы из курицы и женьшеня издавна готовят в Корее, а самгетан в его нынешнем ресторанном виде получил широкое распространение во второй половине XX века. Его традиционно едят в самые жаркие дни лета, бокнал, следуя идее «бороться с жарой жарой».",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "2 небольших цыплёнка (по 500 г), очищенных",
-          "100 г клейкого риса, замоченного на 1 час",
-          "2 свежих или сушёных корня женьшеня",
-          "12 зубчиков чеснока",
-          "4 сушёных ююбы",
-          "2 литра воды",
-          "Соль, чёрный перец и нарезанный зелёный лук для подачи"
-        ],
-        "steps": [
-          "Нафаршируйте каждого цыплёнка замоченным рисом, несколькими зубчиками чеснока, ююбой и кусочком женьшеня; скрестите ножки или свяжите их, чтобы закрыть полость.",
-          "Положите в кастрюлю с оставшимся чесноком, женьшенем и ююбой и залейте водой.",
-          "Доведите до кипения, снимите пену, затем тушите под крышкой около 60–70 минут до полной мягкости.",
-          "Подавайте каждого цыплёнка в миске с бульоном, соль, перец и зелёный лук — отдельно."
-        ]
-      },
-      "tips": [
-        "Снимайте кожу перед едой — в ней основная часть жира.",
-        "Охладите бульон и снимите слой жира перед разогревом.",
-        "Делите одного цыплёнка на двоих с большим овощным гарниром, если хотите меньшую порцию."
-      ],
-      "name_inline": "самгетан"
-    }
+  "ar": {
+   "name": "سامغيتانغ (شوربة الدجاج بالجينسنغ)",
+   "origin": "كوريا الجنوبية",
+   "intro": "سامغيتانغ دجاجة صغيرة كاملة محشوة بالأرز الدبق والثوم والعنّاب وجذر الجينسنغ، تُطهى على نار هادئة حتى ينفصل اللحم عن العظم. المرق حليبي اللون خفيف الطعم، مع نفحة ترابية لطيفة من الجينسنغ، والأرز في الداخل يصبح طرياً ولزجاً. يُقدَّم وهو يغلي في قدر فخاري، دجاجة صغيرة لكل شخص، مع الملح والفلفل للتتبيل على المائدة.",
+   "history": "تُحضَّر شوربات الدجاج بالجينسنغ في كوريا منذ زمن طويل، وانتشر السامغيتانغ بشكله الحالي في المطاعم خلال النصف الثاني من القرن العشرين. ويُؤكل تقليدياً في أشد أيام الصيف حرارة، المعروفة بـ«بوكنال»، وفق فكرة «مواجهة الحر بالحر».",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "2 دجاجة صغيرة (نحو 500 غ لكل منها) منظفة",
+     "100 غ أرز دبق منقوع لمدة ساعة",
+     "2 جذر جينسنغ طازج أو مجفف",
+     "12 فص ثوم",
+     "4 حبات عنّاب مجففة",
+     "2 لتر ماء",
+     "ملح وفلفل أسود وبصل أخضر مقطع للتقديم"
+    ],
+    "steps": [
+     "احشُ كل دجاجة بالأرز المنقوع وبضعة فصوص ثوم وحبة عنّاب وقطعة جينسنغ، واجمع الساقين أو اربطهما لإغلاق التجويف.",
+     "ضع الدجاج في قدر مع باقي الثوم والجينسنغ والعنّاب، وغطّه بالماء.",
+     "اتركه يغلي وأزل الرغوة، ثم اطهه مغطى على نار هادئة نحو 60–70 دقيقة حتى يصبح طرياً جداً.",
+     "قدّم كل دجاجة في وعاء من المرق مع الملح والفلفل والبصل الأخضر جانباً."
+    ]
+   },
+   "tips": [
+    "أزل الجلد قبل الأكل، فمعظم الدهون فيه.",
+    "برّد المرق وأزل طبقة الدهن قبل إعادة التسخين.",
+    "تقاسم دجاجة واحدة بين شخصين مع طبق كبير من الخضار إذا أردت حصة أصغر."
+   ]
+  },
+  "it": {
+   "name": "Samgyetang (zuppa di pollo al ginseng)",
+   "name_inline": "samgyetang",
+   "origin": "Corea del Sud",
+   "intro": "Il samgyetang è un pollo giovane intero farcito con riso glutinoso, aglio, giuggiole e una radice di ginseng, poi cotto lentamente finché la carne si stacca dall'osso. Il brodo è lattiginoso, delicato e leggermente terroso per il ginseng, e il riso all'interno diventa morbido e appiccicoso. Si serve ribollente in una pentola di terracotta, un pollastrello a persona, con sale e pepe per condire a tavola.",
+   "history": "Le zuppe di pollo e ginseng si preparano da tempo in Corea, e il samgyetang nella sua attuale forma da ristorante si è diffuso nella seconda metà del XX secolo. Tradizionalmente si mangia nei giorni più caldi dell'estate, i boknal, secondo l'idea di «combattere il caldo con il caldo».",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "2 pollastrelli (circa 500 g ciascuno), puliti",
+     "100 g di riso glutinoso, in ammollo per 1 ora",
+     "2 radici di ginseng fresche o essiccate",
+     "12 spicchi d'aglio",
+     "4 giuggiole essiccate",
+     "2 litri di acqua",
+     "Sale, pepe nero e cipollotto a rondelle per servire"
+    ],
+    "steps": [
+     "Farcisci ogni pollo con riso ammollato, qualche spicchio d'aglio, una giuggiola e un pezzo di ginseng; incrocia le cosce o legale per chiudere la cavità.",
+     "Metti in una pentola con l'aglio, il ginseng e le giuggiole rimasti e copri con acqua.",
+     "Porta a ebollizione, schiuma, poi cuoci a fuoco lento con il coperchio per circa 60–70 minuti, finché è molto tenero.",
+     "Servi ogni pollo in una ciotola di brodo con sale, pepe e cipollotto a parte."
+    ]
+   },
+   "tips": [
+    "Togli la pelle prima di mangiare: è lì che si trova la maggior parte del grasso.",
+    "Fai raffreddare il brodo e togli lo strato di grasso prima di riscaldarlo.",
+    "Dividi un pollo in due con un abbondante contorno di verdure se vuoi una porzione più piccola."
+   ]
+  },
+  "el": {
+   "name": "Σαμγκιετάνγκ (κοτόσουπα με τζίνσενγκ)",
+   "name_inline": "σαμγκιετάνγκ",
+   "origin": "Νότια Κορέα",
+   "intro": "Το σαμγκιετάνγκ είναι ένα ολόκληρο νεαρό κοτόπουλο γεμισμένο με κολλώδες ρύζι, σκόρδο, τζίτζιφα και μια ρίζα τζίνσενγκ, σιγοβρασμένο μέχρι το κρέας να φεύγει από το κόκαλο. Ο ζωμός είναι γαλακτερός, ήπιος και ελαφρώς γήινος από το τζίνσενγκ, και το ρύζι μέσα γίνεται μαλακό και κολλώδες. Σερβίρεται κοχλάζον σε πήλινη χύτρα, ένα μικρό κοτόπουλο ανά άτομο, με αλάτι και πιπέρι για να καρυκεύσει ο καθένας στο τραπέζι.",
+   "history": "Σούπες με κοτόπουλο και τζίνσενγκ φτιάχνονται από παλιά στην Κορέα, και το σαμγκιετάνγκ στη σημερινή του μορφή εστιατορίου διαδόθηκε στο δεύτερο μισό του 20ού αιώνα. Παραδοσιακά τρώγεται τις πιο ζεστές μέρες του καλοκαιριού, τις boknal, σύμφωνα με την ιδέα «καταπολεμάμε τη ζέστη με ζέστη».",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "2 μικρά κοτόπουλα (περίπου 500 γρ. το καθένα), καθαρισμένα",
+     "100 γρ. κολλώδες ρύζι, μουλιασμένο για 1 ώρα",
+     "2 φρέσκες ή αποξηραμένες ρίζες τζίνσενγκ",
+     "12 σκελίδες σκόρδο",
+     "4 αποξηραμένα τζίτζιφα",
+     "2 λίτρα νερό",
+     "Αλάτι, μαύρο πιπέρι και φρέσκο κρεμμυδάκι σε ροδέλες για το σερβίρισμα"
+    ],
+    "steps": [
+     "Γεμίστε κάθε κοτόπουλο με μουλιασμένο ρύζι, μερικές σκελίδες σκόρδο, ένα τζίτζιφο και ένα κομμάτι τζίνσενγκ· σταυρώστε ή δέστε τα πόδια για να κλείσει η κοιλότητα.",
+     "Βάλτε τα σε κατσαρόλα με το υπόλοιπο σκόρδο, τζίνσενγκ και τζίτζιφα και καλύψτε με νερό.",
+     "Φέρτε σε βρασμό, ξαφρίστε και σιγοβράστε σκεπασμένα για περίπου 60–70 λεπτά, μέχρι να μαλακώσουν πολύ.",
+     "Σερβίρετε κάθε κοτόπουλο σε μπολ με ζωμό, με αλάτι, πιπέρι και κρεμμυδάκι χωριστά."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα πριν φάτε — εκεί βρίσκεται το μεγαλύτερο μέρος του λίπους.",
+    "Κρυώστε τον ζωμό και αφαιρέστε το στρώμα λίπους πριν τον ξαναζεστάνετε.",
+    "Μοιραστείτε ένα κοτόπουλο στα δύο με μεγάλη μερίδα λαχανικών αν θέλετε μικρότερη μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Самгетан (суп из курицы с женьшенем)",
+   "origin": "Южная Корея",
+   "intro": "Самгетан — целый молодой цыплёнок, фаршированный клейким рисом, чесноком, ююбой и корнем женьшеня, затем томлёный, пока мясо не начнёт отходить от кости. Бульон молочный, мягкий и слегка землистый от женьшеня, а рис внутри становится мягким и липким. Подаётся кипящим в глиняном горшочке, по одному маленькому цыплёнку на человека, с солью и перцем для приправы за столом.",
+   "history": "Супы из курицы и женьшеня издавна готовят в Корее, а самгетан в его нынешнем ресторанном виде получил широкое распространение во второй половине XX века. Его традиционно едят в самые жаркие дни лета, бокнал, следуя идее «бороться с жарой жарой».",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "2 небольших цыплёнка (по 500 г), очищенных",
+     "100 г клейкого риса, замоченного на 1 час",
+     "2 свежих или сушёных корня женьшеня",
+     "12 зубчиков чеснока",
+     "4 сушёных ююбы",
+     "2 литра воды",
+     "Соль, чёрный перец и нарезанный зелёный лук для подачи"
+    ],
+    "steps": [
+     "Нафаршируйте каждого цыплёнка замоченным рисом, несколькими зубчиками чеснока, ююбой и кусочком женьшеня; скрестите ножки или свяжите их, чтобы закрыть полость.",
+     "Положите в кастрюлю с оставшимся чесноком, женьшенем и ююбой и залейте водой.",
+     "Доведите до кипения, снимите пену, затем тушите под крышкой около 60–70 минут до полной мягкости.",
+     "Подавайте каждого цыплёнка в миске с бульоном, соль, перец и зелёный лук — отдельно."
+    ]
+   },
+   "tips": [
+    "Снимайте кожу перед едой — в ней основная часть жира.",
+    "Охладите бульон и снимите слой жира перед разогревом.",
+    "Делите одного цыплёнка на двоих с большим овощным гарниром, если хотите меньшую порцию."
+   ],
+   "name_inline": "самгетан"
+  },
+  "es": {
+   "name": "Samgyetang (sopa coreana de pollo con ginseng)",
+   "origin": "Corea del Sur",
+   "intro": "El samgyetang es un pollito entero relleno de arroz glutinoso, ajo, azufaifos y una raíz de ginseng, cocido a fuego lento hasta que la carne se desprende del hueso. El caldo es lechoso, suave y ligeramente terroso por el ginseng, y el arroz del interior queda suave y pegajoso. Se sirve burbujeante en una olla de barro, un pollo pequeño por persona, con sal y pimienta para sazonar en la mesa.",
+   "history": "En Corea se preparan desde hace mucho sopas de pollo con ginseng, y el samgyetang, tal como se sirve hoy en los restaurantes, se difundió en la segunda mitad del siglo XX. Tradicionalmente se come en los días más calurosos del verano, los boknal, siguiendo la idea de «combatir el calor con calor».",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "2 pollos pequeños (de unos 500 g cada uno), limpios",
+     "100 g de arroz glutinoso, remojado 1 hora",
+     "2 raíces de ginseng, frescas o secas",
+     "12 dientes de ajo",
+     "4 azufaifos secos",
+     "2 litros de agua",
+     "Sal, pimienta negra y cebollín en rodajas para servir"
+    ],
+    "steps": [
+     "Rellena cada pollo con arroz remojado, unos dientes de ajo, un azufaifo y un trozo de ginseng; cruza las patas o átalas para cerrar la cavidad.",
+     "Colócalos en una olla con el ajo, el ginseng y los azufaifos restantes y cubre con agua.",
+     "Lleva a ebullición, espuma y luego cuece tapado a fuego lento unos 60 a 70 minutos, hasta que estén muy tiernos.",
+     "Sirve cada pollo en un tazón con caldo, con la sal, la pimienta y el cebollín aparte."
+    ]
+   },
+   "tips": [
+    "Quita la piel antes de comer: ahí está la mayor parte de la grasa.",
+    "Enfría el caldo y retira la capa de grasa antes de recalentarlo.",
+    "Comparte un pollo entre dos con una guarnición grande de verduras si quieres una porción más pequeña."
+   ],
+   "name_inline": "el samgyetang"
   }
+ }
 }

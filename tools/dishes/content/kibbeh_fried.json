@@ -1,172 +1,204 @@
 {
-  "db_key": "kibbeh_fried",
-  "slug": "kibbeh-fried",
-  "emoji": "🧆",
-  "portion_g": 150,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kibbeh_fried",
+ "slug": "kibbeh-fried",
+ "emoji": "🧆",
+ "portion_g": 150,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fried Beef Kibbeh",
+   "origin": "Levant · Middle East",
+   "intro": "Fried kibbeh made with beef follows the classic shape: a hollow oval shell of fine bulgur kneaded with lean minced beef and onion, filled with minced beef browned with onion, spices and pine nuts, then deep-fried. The shell turns crunchy and deep brown while the inside stays savory and juicy. It is a staple of mezze tables, restaurants and festive trays.",
+   "history": "Beef is widely used for kibbeh across the Levant and in Arab diaspora kitchens, where it is often easier to find than lamb; the dish itself is a pillar of Lebanese and Syrian cooking.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 g fine bulgur",
+     "500 g lean minced beef",
+     "2 onions",
+     "40 g pine nuts",
+     "2 tsp seven-spice (baharat)",
+     "1 tsp salt",
+     "Oil for frying"
+    ],
+    "steps": [
+     "Soak bulgur 15 minutes and squeeze dry.",
+     "Blend bulgur with 300 g beef, 1 onion, salt and half the spices into a smooth paste; chill.",
+     "Brown the remaining beef with the chopped second onion, spices and toasted pine nuts.",
+     "Shape walnut-sized pieces into hollow ovals, fill and seal.",
+     "Deep-fry at 175 °C for 4–5 minutes until deep brown and drain on paper."
+    ]
+   },
+   "tips": [
+    "Air-fry or bake at 200 °C with a light brush of oil instead of deep-frying.",
+    "Choose 5% fat minced beef for both shell and filling.",
+    "Stop at 3 pieces and add a salad with lemon dressing."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fried Beef Kibbeh",
-      "origin": "Levant · Middle East",
-      "intro": "Fried kibbeh made with beef follows the classic shape: a hollow oval shell of fine bulgur kneaded with lean minced beef and onion, filled with minced beef browned with onion, spices and pine nuts, then deep-fried. The shell turns crunchy and deep brown while the inside stays savory and juicy. It is a staple of mezze tables, restaurants and festive trays.",
-      "history": "Beef is widely used for kibbeh across the Levant and in Arab diaspora kitchens, where it is often easier to find than lamb; the dish itself is a pillar of Lebanese and Syrian cooking.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 g fine bulgur",
-          "500 g lean minced beef",
-          "2 onions",
-          "40 g pine nuts",
-          "2 tsp seven-spice (baharat)",
-          "1 tsp salt",
-          "Oil for frying"
-        ],
-        "steps": [
-          "Soak bulgur 15 minutes and squeeze dry.",
-          "Blend bulgur with 300 g beef, 1 onion, salt and half the spices into a smooth paste; chill.",
-          "Brown the remaining beef with the chopped second onion, spices and toasted pine nuts.",
-          "Shape walnut-sized pieces into hollow ovals, fill and seal.",
-          "Deep-fry at 175 °C for 4–5 minutes until deep brown and drain on paper."
-        ]
-      },
-      "tips": [
-        "Air-fry or bake at 200 °C with a light brush of oil instead of deep-frying.",
-        "Choose 5% fat minced beef for both shell and filling.",
-        "Stop at 3 pieces and add a salad with lemon dressing."
-      ]
-    },
-    "ar": {
-      "name": "كبة مقلية باللحم البقري",
-      "origin": "بلاد الشام · الشرق الأوسط",
-      "intro": "تتبع الكبة المقلية باللحم البقري الشكل التقليدي: قشرة بيضاوية مجوفة من البرغل الناعم المعجون بلحم بقري مفروم قليل الدهن والبصل، محشوة بلحم بقري مفروم محمر مع البصل والبهارات والصنوبر، ثم تُقلى. تصبح القشرة مقرمشة بنية داكنة ويبقى الداخل شهياً طرياً. وهي من أساسيات موائد المازة والمطاعم وصواني المناسبات.",
-      "history": "يُستخدم اللحم البقري على نطاق واسع في الكبة في بلاد الشام ومطابخ المغتربين العرب حيث يسهل إيجاده أكثر من الضأن، والكبة نفسها ركن من أركان المطبخين اللبناني والسوري.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 غ برغل ناعم",
-          "500 غ لحم بقري مفروم قليل الدهن",
-          "2 بصلة",
-          "40 غ صنوبر",
-          "2 ملعقة صغيرة بهارات سبعة",
-          "1 ملعقة صغيرة ملح",
-          "زيت للقلي"
-        ],
-        "steps": [
-          "انقع البرغل 15 دقيقة واعصره جيداً.",
-          "افرم البرغل مع 300 غ لحم وبصلة والملح ونصف البهارات حتى تصبح عجينة ناعمة، وبرّدها.",
-          "حمّر بقية اللحم مع البصلة الثانية المفرومة والبهارات والصنوبر المحمص.",
-          "شكّل قطعاً بحجم الجوزة على هيئة بيضاوية مجوفة، واحشها وأغلقها.",
-          "اقلها على 175 °م لمدة 4–5 دقائق حتى تتحمر، وصفّها على ورق."
-        ]
-      },
-      "tips": [
-        "استخدم القلاية الهوائية أو الفرن على 200 °م مع دهن خفيف بالزيت بدل القلي العميق.",
-        "اختر لحماً بقرياً مفروماً بنسبة دهن 5% للقشرة والحشوة.",
-        "اكتفِ بـ 3 أقراص وأضف سلطة بتتبيلة الليمون."
-      ]
-    },
-    "it": {
-      "name": "Kibbeh fritti di manzo",
-      "name_inline": "kibbeh fritti di manzo",
-      "origin": "Levante · Medio Oriente",
-      "intro": "I kibbeh fritti di manzo seguono la forma classica: un guscio ovale cavo di bulgur fine impastato con carne di manzo magra macinata e cipolla, farcito con manzo macinato rosolato con cipolla, spezie e pinoli, poi fritto in abbondante olio. Il guscio diventa croccante e ben brunito, mentre l'interno resta saporito e succoso. Sono un classico delle tavole di mezze, dei ristoranti e dei vassoi delle feste.",
-      "history": "Il manzo è molto usato per il kibbeh in tutto il Levante e nelle cucine della diaspora araba, dove spesso è più facile da trovare dell'agnello; il piatto in sé è un pilastro della cucina libanese e siriana.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 g di bulgur fine",
-          "500 g di carne di manzo magra macinata",
-          "2 cipolle",
-          "40 g di pinoli",
-          "2 cucchiaini di sette spezie (baharat)",
-          "1 cucchiaino di sale",
-          "Olio per friggere"
-        ],
-        "steps": [
-          "Metti il bulgur in ammollo per 15 minuti e strizzalo bene.",
-          "Frulla il bulgur con 300 g di manzo, 1 cipolla, il sale e metà delle spezie fino a ottenere una pasta liscia; mettila in frigorifero.",
-          "Rosola il manzo rimasto con la seconda cipolla tritata, le spezie e i pinoli tostati.",
-          "Forma con pezzi grandi come una noce degli ovali cavi, riempili e chiudili.",
-          "Friggi in abbondante olio a 175 °C per 4–5 minuti finché non sono ben bruniti e scolali su carta assorbente."
-        ]
-      },
-      "tips": [
-        "Invece di friggerli, cuocili nella friggitrice ad aria o in forno a 200 °C con una leggera spennellata d'olio.",
-        "Scegli manzo macinato al 5% di grassi sia per il guscio sia per il ripieno.",
-        "Fermati a 3 pezzi e aggiungi un'insalata condita con limone."
-      ]
-    },
-    "el": {
-      "name": "Τηγανητά κίμπε με μοσχάρι",
-      "name_inline": "τηγανητά κίμπε με μοσχάρι",
-      "origin": "Λεβάντε · Μέση Ανατολή",
-      "intro": "Τα τηγανητά κίμπε με μοσχάρι ακολουθούν το κλασικό σχήμα: κούφιο οβάλ κέλυφος από ψιλό πλιγούρι ζυμωμένο με άπαχο μοσχαρίσιο κιμά και κρεμμύδι, γεμισμένο με μοσχαρίσιο κιμά σοταρισμένο με κρεμμύδι, μπαχαρικά και κουκουνάρια, που τηγανίζεται σε άφθονο λάδι. Το κέλυφος γίνεται τραγανό και σκούρο καφέ, ενώ το εσωτερικό μένει νόστιμο και ζουμερό. Είναι βασικό στοιχείο στα τραπέζια με μεζέδες, στα εστιατόρια και στις γιορτινές πιατέλες.",
-      "history": "Το μοσχάρι χρησιμοποιείται ευρέως για κίμπε σε όλο το Λεβάντε και στις κουζίνες της αραβικής διασποράς, όπου συχνά βρίσκεται πιο εύκολα από το αρνί· το ίδιο το πιάτο είναι πυλώνας της λιβανέζικης και της συριακής κουζίνας.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 γρ. ψιλό πλιγούρι",
-          "500 γρ. άπαχος μοσχαρίσιος κιμάς",
-          "2 κρεμμύδια",
-          "40 γρ. κουκουνάρια",
-          "2 κ.γ. επτά μπαχαρικά (μπαχαράτ)",
-          "1 κ.γ. αλάτι",
-          "Λάδι για το τηγάνισμα"
-        ],
-        "steps": [
-          "Μουλιάστε το πλιγούρι 15 λεπτά και στύψτε το καλά.",
-          "Πολτοποιήστε το πλιγούρι με 300 γρ. μοσχάρι, 1 κρεμμύδι, το αλάτι και τα μισά μπαχαρικά σε λεία πάστα· βάλτε στο ψυγείο.",
-          "Σοτάρετε το υπόλοιπο μοσχάρι με το δεύτερο ψιλοκομμένο κρεμμύδι, τα μπαχαρικά και τα καβουρδισμένα κουκουνάρια.",
-          "Πλάστε κομμάτια σε μέγεθος καρυδιού σε κούφια οβάλ, γεμίστε και κλείστε τα.",
-          "Τηγανίστε σε άφθονο λάδι στους 175 °C για 4–5 λεπτά μέχρι να γίνουν σκούρα καφέ και στραγγίξτε σε χαρτί."
-        ]
-      },
-      "tips": [
-        "Ψήστε τα στο air fryer ή στον φούρνο στους 200 °C με ελαφρύ άλειμμα λαδιού αντί να τα τηγανίσετε.",
-        "Διαλέξτε μοσχαρίσιο κιμά με 5% λιπαρά και για το κέλυφος και για τη γέμιση.",
-        "Σταματήστε στα 3 κομμάτια και προσθέστε μια σαλάτα με σάλτσα λεμονιού."
-      ]
-    },
-    "ru": {
-      "name": "Жареное говяжье киббе",
-      "origin": "Левант · Ближний Восток",
-      "intro": "Жареное киббе с говядиной сохраняет классическую форму: полая овальная оболочка из мелкого булгура, вымешанного с постным говяжьим фаршем и луком, с начинкой из говяжьего фарша, обжаренного с луком, специями и кедровыми орешками, а затем жаренная во фритюре. Оболочка становится хрустящей и тёмно-коричневой, а внутри остаётся пикантной и сочной. Это основа столов с мезе, ресторанов и праздничных подносов.",
-      "history": "Говядину широко используют для киббе по всему Леванту и на кухнях арабской диаспоры, где её часто найти проще, чем баранину; само блюдо — одна из опор ливанской и сирийской кухни.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "250 г мелкого булгура",
-          "500 г постного говяжьего фарша",
-          "2 луковицы",
-          "40 г кедровых орешков",
-          "2 ч. л. смеси семи специй (бахарат)",
-          "1 ч. л. соли",
-          "Масло для жарки"
-        ],
-        "steps": [
-          "Замочите булгур на 15 минут и отожмите.",
-          "Измельчите в блендере булгур с 300 г говядины, 1 луковицей, солью и половиной специй в гладкую пасту; охладите.",
-          "Обжарьте оставшуюся говядину с нарубленной второй луковицей, специями и поджаренными кедровыми орешками.",
-          "Сформуйте из кусочков размером с грецкий орех полые овалы, наполните и защипните.",
-          "Жарьте во фритюре при 175 °C 4–5 минут до тёмно-коричневого цвета и обсушите на бумаге."
-        ]
-      },
-      "tips": [
-        "Приготовьте в аэрогриле или запеките при 200 °C, слегка смазав маслом, вместо жарки во фритюре.",
-        "Выбирайте говяжий фарш с 5% жира и для оболочки, и для начинки.",
-        "Остановитесь на 3 штуках и добавьте салат с лимонной заправкой."
-      ],
-      "name_inline": "жареное говяжье киббе"
-    }
+  "ar": {
+   "name": "كبة مقلية باللحم البقري",
+   "origin": "بلاد الشام · الشرق الأوسط",
+   "intro": "تتبع الكبة المقلية باللحم البقري الشكل التقليدي: قشرة بيضاوية مجوفة من البرغل الناعم المعجون بلحم بقري مفروم قليل الدهن والبصل، محشوة بلحم بقري مفروم محمر مع البصل والبهارات والصنوبر، ثم تُقلى. تصبح القشرة مقرمشة بنية داكنة ويبقى الداخل شهياً طرياً. وهي من أساسيات موائد المازة والمطاعم وصواني المناسبات.",
+   "history": "يُستخدم اللحم البقري على نطاق واسع في الكبة في بلاد الشام ومطابخ المغتربين العرب حيث يسهل إيجاده أكثر من الضأن، والكبة نفسها ركن من أركان المطبخين اللبناني والسوري.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 غ برغل ناعم",
+     "500 غ لحم بقري مفروم قليل الدهن",
+     "2 بصلة",
+     "40 غ صنوبر",
+     "2 ملعقة صغيرة بهارات سبعة",
+     "1 ملعقة صغيرة ملح",
+     "زيت للقلي"
+    ],
+    "steps": [
+     "انقع البرغل 15 دقيقة واعصره جيداً.",
+     "افرم البرغل مع 300 غ لحم وبصلة والملح ونصف البهارات حتى تصبح عجينة ناعمة، وبرّدها.",
+     "حمّر بقية اللحم مع البصلة الثانية المفرومة والبهارات والصنوبر المحمص.",
+     "شكّل قطعاً بحجم الجوزة على هيئة بيضاوية مجوفة، واحشها وأغلقها.",
+     "اقلها على 175 °م لمدة 4–5 دقائق حتى تتحمر، وصفّها على ورق."
+    ]
+   },
+   "tips": [
+    "استخدم القلاية الهوائية أو الفرن على 200 °م مع دهن خفيف بالزيت بدل القلي العميق.",
+    "اختر لحماً بقرياً مفروماً بنسبة دهن 5% للقشرة والحشوة.",
+    "اكتفِ بـ 3 أقراص وأضف سلطة بتتبيلة الليمون."
+   ]
+  },
+  "it": {
+   "name": "Kibbeh fritti di manzo",
+   "name_inline": "kibbeh fritti di manzo",
+   "origin": "Levante · Medio Oriente",
+   "intro": "I kibbeh fritti di manzo seguono la forma classica: un guscio ovale cavo di bulgur fine impastato con carne di manzo magra macinata e cipolla, farcito con manzo macinato rosolato con cipolla, spezie e pinoli, poi fritto in abbondante olio. Il guscio diventa croccante e ben brunito, mentre l'interno resta saporito e succoso. Sono un classico delle tavole di mezze, dei ristoranti e dei vassoi delle feste.",
+   "history": "Il manzo è molto usato per il kibbeh in tutto il Levante e nelle cucine della diaspora araba, dove spesso è più facile da trovare dell'agnello; il piatto in sé è un pilastro della cucina libanese e siriana.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 g di bulgur fine",
+     "500 g di carne di manzo magra macinata",
+     "2 cipolle",
+     "40 g di pinoli",
+     "2 cucchiaini di sette spezie (baharat)",
+     "1 cucchiaino di sale",
+     "Olio per friggere"
+    ],
+    "steps": [
+     "Metti il bulgur in ammollo per 15 minuti e strizzalo bene.",
+     "Frulla il bulgur con 300 g di manzo, 1 cipolla, il sale e metà delle spezie fino a ottenere una pasta liscia; mettila in frigorifero.",
+     "Rosola il manzo rimasto con la seconda cipolla tritata, le spezie e i pinoli tostati.",
+     "Forma con pezzi grandi come una noce degli ovali cavi, riempili e chiudili.",
+     "Friggi in abbondante olio a 175 °C per 4–5 minuti finché non sono ben bruniti e scolali su carta assorbente."
+    ]
+   },
+   "tips": [
+    "Invece di friggerli, cuocili nella friggitrice ad aria o in forno a 200 °C con una leggera spennellata d'olio.",
+    "Scegli manzo macinato al 5% di grassi sia per il guscio sia per il ripieno.",
+    "Fermati a 3 pezzi e aggiungi un'insalata condita con limone."
+   ]
+  },
+  "el": {
+   "name": "Τηγανητά κίμπε με μοσχάρι",
+   "name_inline": "τηγανητά κίμπε με μοσχάρι",
+   "origin": "Λεβάντε · Μέση Ανατολή",
+   "intro": "Τα τηγανητά κίμπε με μοσχάρι ακολουθούν το κλασικό σχήμα: κούφιο οβάλ κέλυφος από ψιλό πλιγούρι ζυμωμένο με άπαχο μοσχαρίσιο κιμά και κρεμμύδι, γεμισμένο με μοσχαρίσιο κιμά σοταρισμένο με κρεμμύδι, μπαχαρικά και κουκουνάρια, που τηγανίζεται σε άφθονο λάδι. Το κέλυφος γίνεται τραγανό και σκούρο καφέ, ενώ το εσωτερικό μένει νόστιμο και ζουμερό. Είναι βασικό στοιχείο στα τραπέζια με μεζέδες, στα εστιατόρια και στις γιορτινές πιατέλες.",
+   "history": "Το μοσχάρι χρησιμοποιείται ευρέως για κίμπε σε όλο το Λεβάντε και στις κουζίνες της αραβικής διασποράς, όπου συχνά βρίσκεται πιο εύκολα από το αρνί· το ίδιο το πιάτο είναι πυλώνας της λιβανέζικης και της συριακής κουζίνας.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 γρ. ψιλό πλιγούρι",
+     "500 γρ. άπαχος μοσχαρίσιος κιμάς",
+     "2 κρεμμύδια",
+     "40 γρ. κουκουνάρια",
+     "2 κ.γ. επτά μπαχαρικά (μπαχαράτ)",
+     "1 κ.γ. αλάτι",
+     "Λάδι για το τηγάνισμα"
+    ],
+    "steps": [
+     "Μουλιάστε το πλιγούρι 15 λεπτά και στύψτε το καλά.",
+     "Πολτοποιήστε το πλιγούρι με 300 γρ. μοσχάρι, 1 κρεμμύδι, το αλάτι και τα μισά μπαχαρικά σε λεία πάστα· βάλτε στο ψυγείο.",
+     "Σοτάρετε το υπόλοιπο μοσχάρι με το δεύτερο ψιλοκομμένο κρεμμύδι, τα μπαχαρικά και τα καβουρδισμένα κουκουνάρια.",
+     "Πλάστε κομμάτια σε μέγεθος καρυδιού σε κούφια οβάλ, γεμίστε και κλείστε τα.",
+     "Τηγανίστε σε άφθονο λάδι στους 175 °C για 4–5 λεπτά μέχρι να γίνουν σκούρα καφέ και στραγγίξτε σε χαρτί."
+    ]
+   },
+   "tips": [
+    "Ψήστε τα στο air fryer ή στον φούρνο στους 200 °C με ελαφρύ άλειμμα λαδιού αντί να τα τηγανίσετε.",
+    "Διαλέξτε μοσχαρίσιο κιμά με 5% λιπαρά και για το κέλυφος και για τη γέμιση.",
+    "Σταματήστε στα 3 κομμάτια και προσθέστε μια σαλάτα με σάλτσα λεμονιού."
+   ]
+  },
+  "ru": {
+   "name": "Жареное говяжье киббе",
+   "origin": "Левант · Ближний Восток",
+   "intro": "Жареное киббе с говядиной сохраняет классическую форму: полая овальная оболочка из мелкого булгура, вымешанного с постным говяжьим фаршем и луком, с начинкой из говяжьего фарша, обжаренного с луком, специями и кедровыми орешками, а затем жаренная во фритюре. Оболочка становится хрустящей и тёмно-коричневой, а внутри остаётся пикантной и сочной. Это основа столов с мезе, ресторанов и праздничных подносов.",
+   "history": "Говядину широко используют для киббе по всему Леванту и на кухнях арабской диаспоры, где её часто найти проще, чем баранину; само блюдо — одна из опор ливанской и сирийской кухни.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 г мелкого булгура",
+     "500 г постного говяжьего фарша",
+     "2 луковицы",
+     "40 г кедровых орешков",
+     "2 ч. л. смеси семи специй (бахарат)",
+     "1 ч. л. соли",
+     "Масло для жарки"
+    ],
+    "steps": [
+     "Замочите булгур на 15 минут и отожмите.",
+     "Измельчите в блендере булгур с 300 г говядины, 1 луковицей, солью и половиной специй в гладкую пасту; охладите.",
+     "Обжарьте оставшуюся говядину с нарубленной второй луковицей, специями и поджаренными кедровыми орешками.",
+     "Сформуйте из кусочков размером с грецкий орех полые овалы, наполните и защипните.",
+     "Жарьте во фритюре при 175 °C 4–5 минут до тёмно-коричневого цвета и обсушите на бумаге."
+    ]
+   },
+   "tips": [
+    "Приготовьте в аэрогриле или запеките при 200 °C, слегка смазав маслом, вместо жарки во фритюре.",
+    "Выбирайте говяжий фарш с 5% жира и для оболочки, и для начинки.",
+    "Остановитесь на 3 штуках и добавьте салат с лимонной заправкой."
+   ],
+   "name_inline": "жареное говяжье киббе"
+  },
+  "es": {
+   "name": "Kibbe frito de res",
+   "origin": "Levante · Medio Oriente",
+   "intro": "El kibbe frito de res sigue la forma clásica: una cáscara ovalada y hueca de burgol fino amasado con carne molida magra y cebolla, rellena de carne molida dorada con cebolla, especias y piñones, y luego frita en abundante aceite. La cáscara queda crujiente y de color café intenso, mientras que el interior sigue sabroso y jugoso. Es un clásico de las mesas de mezze, los restaurantes y las bandejas festivas.",
+   "history": "La res se usa mucho para el kibbe en todo el Levante y en las cocinas de la diáspora árabe, donde suele ser más fácil de conseguir que el cordero; el plato en sí es un pilar de la cocina libanesa y siria.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "250 g de burgol fino",
+     "500 g de carne molida magra de res",
+     "2 cebollas",
+     "40 g de piñones",
+     "2 cdta. de siete especias (baharat)",
+     "1 cdta. de sal",
+     "aceite para freír"
+    ],
+    "steps": [
+     "Remoja el burgol 15 minutos y exprímelo bien.",
+     "Procesa el burgol con 300 g de carne, 1 cebolla, sal y la mitad de las especias hasta obtener una pasta lisa; refrigera.",
+     "Dora el resto de la carne con la segunda cebolla picada, las especias y los piñones tostados.",
+     "Forma bolitas del tamaño de una nuez, ahuécalas en forma ovalada, rellénalas y séllalas.",
+     "Fríe en abundante aceite a 175 °C de 4 a 5 minutos, hasta que estén bien doradas, y escurre sobre papel."
+    ]
+   },
+   "tips": [
+    "Hornea o usa freidora de aire a 200 °C con un poco de aceite en lugar de freír en abundante aceite.",
+    "Elige carne molida con 5 % de grasa para la cáscara y el relleno.",
+    "Quédate en 3 piezas y acompaña con una ensalada aderezada con limón."
+   ],
+   "name_inline": "el kibbe frito"
   }
+ }
 }

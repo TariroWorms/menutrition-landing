@@ -1,170 +1,202 @@
 {
-  "db_key": "fondue_echalotes",
-  "slug": "fondue-echalotes",
-  "emoji": "🧀",
-  "portion_g": 200,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fondue_echalotes",
+ "slug": "fondue-echalotes",
+ "emoji": "🧀",
+ "portion_g": 200,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Shallot Fondue",
+   "origin": "Switzerland",
+   "intro": "Shallot fondue is a Swiss-style cheese fondue in which finely chopped shallots are softened in the pot before the wine and cheese go in. The shallots melt into the sauce and give it a gentle, sweet onion note that balances the sharp cheese. It is served bubbling in a communal pot at the table, with potatoes and vegetables for dipping.",
+   "history": "Swiss cheese fondue is a dish of the Alpine regions of Switzerland and neighbouring France and Italy. It was popularised as a Swiss national dish in the 20th century, notably through promotion by the Swiss Cheese Union from the 1930s.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g mixed Swiss cheese (e.g. Gruyère and Emmental), grated",
+     "300 ml dry white wine",
+     "1 garlic clove, halved",
+     "3 shallots, finely chopped",
+     "1 tbsp cornstarch",
+     "Black pepper and nutmeg to taste",
+     "Boiled small potatoes and raw vegetables for dipping"
+    ],
+    "steps": [
+     "Rub the inside of a fondue pot with the cut garlic, then leave the garlic in the pot.",
+     "Add a few drops of water and the shallots and cook gently for 5 minutes until soft and translucent.",
+     "Add the wine and warm over medium heat until steaming, without boiling.",
+     "Toss the cheese with the cornstarch and add it by handfuls, stirring in a figure-eight until each addition melts.",
+     "Season with pepper and nutmeg, set the pot over a burner at the table and dip potatoes and vegetables on long forks."
+    ]
+   },
+   "tips": [
+    "Dip mostly vegetables such as broccoli, peppers, cherry tomatoes and mushrooms instead of loading up on potatoes.",
+    "Fondue is dense: decide on your share before you start — about 150–200 g of the melted cheese is a realistic single serving.",
+    "Serve it with a large green salad dressed with vinegar and a little oil so the cheese is not the whole meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Shallot Fondue",
-      "origin": "Switzerland",
-      "intro": "Shallot fondue is a Swiss-style cheese fondue in which finely chopped shallots are softened in the pot before the wine and cheese go in. The shallots melt into the sauce and give it a gentle, sweet onion note that balances the sharp cheese. It is served bubbling in a communal pot at the table, with potatoes and vegetables for dipping.",
-      "history": "Swiss cheese fondue is a dish of the Alpine regions of Switzerland and neighbouring France and Italy. It was popularised as a Swiss national dish in the 20th century, notably through promotion by the Swiss Cheese Union from the 1930s.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g mixed Swiss cheese (e.g. Gruyère and Emmental), grated",
-          "300 ml dry white wine",
-          "1 garlic clove, halved",
-          "3 shallots, finely chopped",
-          "1 tbsp cornstarch",
-          "Black pepper and nutmeg to taste",
-          "Boiled small potatoes and raw vegetables for dipping"
-        ],
-        "steps": [
-          "Rub the inside of a fondue pot with the cut garlic, then leave the garlic in the pot.",
-          "Add a few drops of water and the shallots and cook gently for 5 minutes until soft and translucent.",
-          "Add the wine and warm over medium heat until steaming, without boiling.",
-          "Toss the cheese with the cornstarch and add it by handfuls, stirring in a figure-eight until each addition melts.",
-          "Season with pepper and nutmeg, set the pot over a burner at the table and dip potatoes and vegetables on long forks."
-        ]
-      },
-      "tips": [
-        "Dip mostly vegetables such as broccoli, peppers, cherry tomatoes and mushrooms instead of loading up on potatoes.",
-        "Fondue is dense: decide on your share before you start — about 150–200 g of the melted cheese is a realistic single serving.",
-        "Serve it with a large green salad dressed with vinegar and a little oil so the cheese is not the whole meal."
-      ]
-    },
-    "ar": {
-      "name": "فوندو بالشالوت",
-      "origin": "سويسرا",
-      "intro": "فوندو الشالوت فوندو جبن على الطريقة السويسرية، يُطهى فيه الشالوت المفروم ناعمًا في القدر قبل إضافة النبيذ والجبن. يذوب الشالوت في الصلصة ويمنحها نكهة بصل حلوة لطيفة توازن حدّة الجبن. يُقدَّم ساخنًا في قدر مشترك على المائدة مع البطاطس والخضار للتغميس.",
-      "history": "الفوندو بالجبن طبق من مناطق جبال الألب في سويسرا وما يجاورها من فرنسا وإيطاليا. وقد انتشر بوصفه طبقًا وطنيًا سويسريًا في القرن العشرين، خاصة بفضل الترويج له منذ ثلاثينياته.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 غ جبن سويسري مشكّل (مثل الغرويير والإيمنتال)، مبشور",
-          "300 مل نبيذ أبيض جاف",
-          "1 فص ثوم، مقسوم إلى نصفين",
-          "3 حبات شالوت، مفرومة ناعمًا",
-          "1 ملعقة كبيرة نشا الذرة",
-          "فلفل أسود وجوزة الطيب حسب الرغبة",
-          "بطاطس صغيرة مسلوقة وخضار نيئة للتغميس"
-        ],
-        "steps": [
-          "افرك داخل قدر الفوندو بفص الثوم المقطوع، ثم اتركه في القدر.",
-          "أضف بضع قطرات من الماء والشالوت واطهه على نار هادئة 5 دقائق حتى يلين ويصبح شفافًا.",
-          "أضف النبيذ وسخّنه على نار متوسطة حتى يتصاعد البخار دون أن يغلي.",
-          "اخلط الجبن مع النشا وأضفه حفنة بعد حفنة مع التحريك على شكل رقم ثمانية حتى تذوب كل دفعة.",
-          "تبّل بالفلفل وجوزة الطيب، وضع القدر على موقد فوق المائدة، وغمّس البطاطس والخضار بالشوك الطويلة."
-        ]
-      },
-      "tips": [
-        "غمّس الخضار غالبًا، مثل البروكلي والفلفل والطماطم الكرزية والفطر، بدلًا من الإكثار من البطاطس.",
-        "الفوندو كثيف: حدّد حصتك قبل البدء — نحو 150–200 غ من الجبن المذاب حصة واقعية لشخص واحد.",
-        "قدّمه مع سلطة خضراء كبيرة متبلة بالخل وقليل من الزيت حتى لا يكون الجبن هو الوجبة كلها."
-      ]
-    },
-    "it": {
-      "name": "Fonduta allo scalogno",
-      "origin": "Svizzera",
-      "intro": "La fonduta allo scalogno è una fonduta di formaggio in stile svizzero in cui lo scalogno tritato finemente viene ammorbidito nel caquelon prima di aggiungere vino e formaggio. Lo scalogno si scioglie nella salsa e le dà una delicata nota dolce di cipolla che bilancia il formaggio sapido. Si serve sobbollente in un caquelon comune in tavola, con patate e verdure da intingere.",
-      "history": "La fonduta svizzera di formaggio è un piatto delle regioni alpine della Svizzera e delle vicine Francia e Italia. È stata resa popolare come piatto nazionale svizzero nel XX secolo, in particolare grazie alla promozione dell'Unione svizzera del formaggio a partire dagli anni '30.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g di formaggi svizzeri misti (ad es. Gruyère ed Emmental) grattugiati",
-          "300 ml di vino bianco secco",
-          "1 spicchio d'aglio tagliato a metà",
-          "3 scalogni tritati finemente",
-          "1 cucchiaio di amido di mais",
-          "Pepe nero e noce moscata q.b.",
-          "Patate novelle lesse e verdure crude da intingere"
-        ],
-        "steps": [
-          "Strofina l'interno del caquelon con l'aglio tagliato, poi lascia l'aglio nel caquelon.",
-          "Aggiungi qualche goccia d'acqua e gli scalogni e cuoci dolcemente per 5 minuti, finché non sono morbidi e traslucidi.",
-          "Aggiungi il vino e scalda a fuoco medio finché non fuma, senza farlo bollire.",
-          "Mescola il formaggio con l'amido e aggiungilo a manciate, mescolando a forma di otto finché ogni aggiunta non si scioglie.",
-          "Condisci con pepe e noce moscata, metti il caquelon su un fornelletto in tavola e intingi patate e verdure con le forchette lunghe."
-        ]
-      },
-      "tips": [
-        "Intingi soprattutto verdure come broccoli, peperoni, pomodorini e funghi invece di abbondare con le patate.",
-        "La fonduta è densa: decidi la tua porzione prima di iniziare — circa 150–200 g di formaggio fuso sono una porzione singola realistica.",
-        "Servila con una grande insalata verde condita con aceto e poco olio, così il formaggio non è l'intero pasto."
-      ]
-    },
-    "el": {
-      "name": "Φοντί με εσαλότ",
-      "origin": "Ελβετία",
-      "intro": "Η φοντί με εσαλότ είναι φοντί τυριών ελβετικού τύπου, στην οποία ψιλοκομμένα εσαλότ μαλακώνουν στο σκεύος πριν μπουν το κρασί και το τυρί. Τα εσαλότ λιώνουν μέσα στη σάλτσα και της δίνουν μια απαλή, γλυκιά νότα κρεμμυδιού που ισορροπεί το έντονο τυρί. Σερβίρεται να κοχλάζει σε κοινό σκεύος στο τραπέζι, με πατάτες και λαχανικά για βούτηγμα.",
-      "history": "Η ελβετική φοντί τυριών είναι πιάτο των αλπικών περιοχών της Ελβετίας και των γειτονικών Γαλλίας και Ιταλίας. Έγινε δημοφιλής ως εθνικό πιάτο της Ελβετίας τον 20ό αιώνα, κυρίως χάρη στην προώθηση από την Ελβετική Ένωση Τυριού από τη δεκαετία του 1930.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 γρ. ανάμεικτα ελβετικά τυριά (π.χ. γκρυέρ και έμενταλ) τριμμένα",
-          "300 ml ξηρό λευκό κρασί",
-          "1 σκελίδα σκόρδο κομμένη στη μέση",
-          "3 εσαλότ ψιλοκομμένα",
-          "1 κ.σ. κορν φλάουρ",
-          "Μαύρο πιπέρι και μοσχοκάρυδο κατά βούληση",
-          "Βραστές μικρές πατάτες και ωμά λαχανικά για βούτηγμα"
-        ],
-        "steps": [
-          "Τρίψτε το εσωτερικό του σκεύους φοντί με το κομμένο σκόρδο και αφήστε το σκόρδο μέσα.",
-          "Προσθέστε λίγες σταγόνες νερό και τα εσαλότ και μαγειρέψτε σε χαμηλή φωτιά για 5 λεπτά, μέχρι να μαλακώσουν και να γίνουν διάφανα.",
-          "Προσθέστε το κρασί και ζεστάνετε σε μέτρια φωτιά μέχρι να αχνίσει, χωρίς να βράσει.",
-          "Ανακατέψτε το τυρί με το κορν φλάουρ και ρίξτε το μια χούφτα τη φορά, ανακατεύοντας σε σχήμα οκτώ μέχρι να λιώσει κάθε προσθήκη.",
-          "Καρυκεύστε με πιπέρι και μοσχοκάρυδο, βάλτε το σκεύος σε καμινέτο στο τραπέζι και βουτήξτε πατάτες και λαχανικά με μακριά πιρούνια."
-        ]
-      },
-      "tips": [
-        "Βουτήξτε κυρίως λαχανικά όπως μπρόκολο, πιπεριές, ντοματίνια και μανιτάρια αντί να φορτώνεστε πατάτες.",
-        "Η φοντί είναι πυκνή: αποφασίστε τη μερίδα σας πριν ξεκινήσετε — περίπου 150–200 γρ. λιωμένο τυρί είναι μια ρεαλιστική ατομική μερίδα.",
-        "Σερβίρετέ τη με μια μεγάλη πράσινη σαλάτα με ξίδι και λίγο λάδι, ώστε το τυρί να μην είναι όλο το γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Фондю с шалотом",
-      "origin": "Швейцария",
-      "intro": "Фондю с шалотом — сырное фондю по-швейцарски, в котором мелко нарубленный шалот предварительно обжаривают в котелке перед добавлением вина и сыра. Шалот растворяется в соусе и придаёт ему мягкую сладкую луковую нотку, уравновешивающую острый сыр. Его подают кипящим в общем котелке на столе, с картофелем и овощами для макания.",
-      "history": "Швейцарское сырное фондю — блюдо альпийских регионов Швейцарии и соседних Франции и Италии. В XX веке оно получило известность как национальное блюдо Швейцарии, в частности благодаря продвижению Швейцарским сырным союзом с 1930-х годов.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 г смеси швейцарских сыров (например, грюйер и эмменталь), тёртых",
-          "300 мл сухого белого вина",
-          "1 зубчик чеснока, разрезанный пополам",
-          "3 шалота, мелко нарубленных",
-          "1 ст. л. кукурузного крахмала",
-          "Чёрный перец и мускатный орех по вкусу",
-          "Отварной мелкий картофель и сырые овощи для макания"
-        ],
-        "steps": [
-          "Натрите внутреннюю поверхность котелка для фондю разрезанным чесноком, затем оставьте чеснок в котелке.",
-          "Добавьте несколько капель воды и шалот и аккуратно готовьте 5 минут до мягкости и прозрачности.",
-          "Влейте вино и нагрейте на среднем огне до появления пара, не доводя до кипения.",
-          "Перемешайте сыр с крахмалом и добавляйте по горсти, помешивая восьмёрками, пока каждая порция не растает.",
-          "Приправьте перцем и мускатным орехом, поставьте котелок на горелку на столе и макайте картофель и овощи на длинных вилках."
-        ]
-      },
-      "tips": [
-        "Макайте в основном овощи — брокколи, перец, помидоры черри и грибы, а не налегайте на картофель.",
-        "Фондю плотное: решите заранее, сколько съедите, — около 150–200 г расплавленного сыра на одну порцию вполне реально.",
-        "Подавайте с большим зелёным салатом, заправленным уксусом и небольшим количеством масла, чтобы сыр не был единственным блюдом трапезы."
-      ],
-      "name_inline": "фондю с шалотом"
-    }
+  "ar": {
+   "name": "فوندو بالشالوت",
+   "origin": "سويسرا",
+   "intro": "فوندو الشالوت فوندو جبن على الطريقة السويسرية، يُطهى فيه الشالوت المفروم ناعمًا في القدر قبل إضافة النبيذ والجبن. يذوب الشالوت في الصلصة ويمنحها نكهة بصل حلوة لطيفة توازن حدّة الجبن. يُقدَّم ساخنًا في قدر مشترك على المائدة مع البطاطس والخضار للتغميس.",
+   "history": "الفوندو بالجبن طبق من مناطق جبال الألب في سويسرا وما يجاورها من فرنسا وإيطاليا. وقد انتشر بوصفه طبقًا وطنيًا سويسريًا في القرن العشرين، خاصة بفضل الترويج له منذ ثلاثينياته.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 غ جبن سويسري مشكّل (مثل الغرويير والإيمنتال)، مبشور",
+     "300 مل نبيذ أبيض جاف",
+     "1 فص ثوم، مقسوم إلى نصفين",
+     "3 حبات شالوت، مفرومة ناعمًا",
+     "1 ملعقة كبيرة نشا الذرة",
+     "فلفل أسود وجوزة الطيب حسب الرغبة",
+     "بطاطس صغيرة مسلوقة وخضار نيئة للتغميس"
+    ],
+    "steps": [
+     "افرك داخل قدر الفوندو بفص الثوم المقطوع، ثم اتركه في القدر.",
+     "أضف بضع قطرات من الماء والشالوت واطهه على نار هادئة 5 دقائق حتى يلين ويصبح شفافًا.",
+     "أضف النبيذ وسخّنه على نار متوسطة حتى يتصاعد البخار دون أن يغلي.",
+     "اخلط الجبن مع النشا وأضفه حفنة بعد حفنة مع التحريك على شكل رقم ثمانية حتى تذوب كل دفعة.",
+     "تبّل بالفلفل وجوزة الطيب، وضع القدر على موقد فوق المائدة، وغمّس البطاطس والخضار بالشوك الطويلة."
+    ]
+   },
+   "tips": [
+    "غمّس الخضار غالبًا، مثل البروكلي والفلفل والطماطم الكرزية والفطر، بدلًا من الإكثار من البطاطس.",
+    "الفوندو كثيف: حدّد حصتك قبل البدء — نحو 150–200 غ من الجبن المذاب حصة واقعية لشخص واحد.",
+    "قدّمه مع سلطة خضراء كبيرة متبلة بالخل وقليل من الزيت حتى لا يكون الجبن هو الوجبة كلها."
+   ]
+  },
+  "it": {
+   "name": "Fonduta allo scalogno",
+   "origin": "Svizzera",
+   "intro": "La fonduta allo scalogno è una fonduta di formaggio in stile svizzero in cui lo scalogno tritato finemente viene ammorbidito nel caquelon prima di aggiungere vino e formaggio. Lo scalogno si scioglie nella salsa e le dà una delicata nota dolce di cipolla che bilancia il formaggio sapido. Si serve sobbollente in un caquelon comune in tavola, con patate e verdure da intingere.",
+   "history": "La fonduta svizzera di formaggio è un piatto delle regioni alpine della Svizzera e delle vicine Francia e Italia. È stata resa popolare come piatto nazionale svizzero nel XX secolo, in particolare grazie alla promozione dell'Unione svizzera del formaggio a partire dagli anni '30.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g di formaggi svizzeri misti (ad es. Gruyère ed Emmental) grattugiati",
+     "300 ml di vino bianco secco",
+     "1 spicchio d'aglio tagliato a metà",
+     "3 scalogni tritati finemente",
+     "1 cucchiaio di amido di mais",
+     "Pepe nero e noce moscata q.b.",
+     "Patate novelle lesse e verdure crude da intingere"
+    ],
+    "steps": [
+     "Strofina l'interno del caquelon con l'aglio tagliato, poi lascia l'aglio nel caquelon.",
+     "Aggiungi qualche goccia d'acqua e gli scalogni e cuoci dolcemente per 5 minuti, finché non sono morbidi e traslucidi.",
+     "Aggiungi il vino e scalda a fuoco medio finché non fuma, senza farlo bollire.",
+     "Mescola il formaggio con l'amido e aggiungilo a manciate, mescolando a forma di otto finché ogni aggiunta non si scioglie.",
+     "Condisci con pepe e noce moscata, metti il caquelon su un fornelletto in tavola e intingi patate e verdure con le forchette lunghe."
+    ]
+   },
+   "tips": [
+    "Intingi soprattutto verdure come broccoli, peperoni, pomodorini e funghi invece di abbondare con le patate.",
+    "La fonduta è densa: decidi la tua porzione prima di iniziare — circa 150–200 g di formaggio fuso sono una porzione singola realistica.",
+    "Servila con una grande insalata verde condita con aceto e poco olio, così il formaggio non è l'intero pasto."
+   ]
+  },
+  "el": {
+   "name": "Φοντί με εσαλότ",
+   "origin": "Ελβετία",
+   "intro": "Η φοντί με εσαλότ είναι φοντί τυριών ελβετικού τύπου, στην οποία ψιλοκομμένα εσαλότ μαλακώνουν στο σκεύος πριν μπουν το κρασί και το τυρί. Τα εσαλότ λιώνουν μέσα στη σάλτσα και της δίνουν μια απαλή, γλυκιά νότα κρεμμυδιού που ισορροπεί το έντονο τυρί. Σερβίρεται να κοχλάζει σε κοινό σκεύος στο τραπέζι, με πατάτες και λαχανικά για βούτηγμα.",
+   "history": "Η ελβετική φοντί τυριών είναι πιάτο των αλπικών περιοχών της Ελβετίας και των γειτονικών Γαλλίας και Ιταλίας. Έγινε δημοφιλής ως εθνικό πιάτο της Ελβετίας τον 20ό αιώνα, κυρίως χάρη στην προώθηση από την Ελβετική Ένωση Τυριού από τη δεκαετία του 1930.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 γρ. ανάμεικτα ελβετικά τυριά (π.χ. γκρυέρ και έμενταλ) τριμμένα",
+     "300 ml ξηρό λευκό κρασί",
+     "1 σκελίδα σκόρδο κομμένη στη μέση",
+     "3 εσαλότ ψιλοκομμένα",
+     "1 κ.σ. κορν φλάουρ",
+     "Μαύρο πιπέρι και μοσχοκάρυδο κατά βούληση",
+     "Βραστές μικρές πατάτες και ωμά λαχανικά για βούτηγμα"
+    ],
+    "steps": [
+     "Τρίψτε το εσωτερικό του σκεύους φοντί με το κομμένο σκόρδο και αφήστε το σκόρδο μέσα.",
+     "Προσθέστε λίγες σταγόνες νερό και τα εσαλότ και μαγειρέψτε σε χαμηλή φωτιά για 5 λεπτά, μέχρι να μαλακώσουν και να γίνουν διάφανα.",
+     "Προσθέστε το κρασί και ζεστάνετε σε μέτρια φωτιά μέχρι να αχνίσει, χωρίς να βράσει.",
+     "Ανακατέψτε το τυρί με το κορν φλάουρ και ρίξτε το μια χούφτα τη φορά, ανακατεύοντας σε σχήμα οκτώ μέχρι να λιώσει κάθε προσθήκη.",
+     "Καρυκεύστε με πιπέρι και μοσχοκάρυδο, βάλτε το σκεύος σε καμινέτο στο τραπέζι και βουτήξτε πατάτες και λαχανικά με μακριά πιρούνια."
+    ]
+   },
+   "tips": [
+    "Βουτήξτε κυρίως λαχανικά όπως μπρόκολο, πιπεριές, ντοματίνια και μανιτάρια αντί να φορτώνεστε πατάτες.",
+    "Η φοντί είναι πυκνή: αποφασίστε τη μερίδα σας πριν ξεκινήσετε — περίπου 150–200 γρ. λιωμένο τυρί είναι μια ρεαλιστική ατομική μερίδα.",
+    "Σερβίρετέ τη με μια μεγάλη πράσινη σαλάτα με ξίδι και λίγο λάδι, ώστε το τυρί να μην είναι όλο το γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Фондю с шалотом",
+   "origin": "Швейцария",
+   "intro": "Фондю с шалотом — сырное фондю по-швейцарски, в котором мелко нарубленный шалот предварительно обжаривают в котелке перед добавлением вина и сыра. Шалот растворяется в соусе и придаёт ему мягкую сладкую луковую нотку, уравновешивающую острый сыр. Его подают кипящим в общем котелке на столе, с картофелем и овощами для макания.",
+   "history": "Швейцарское сырное фондю — блюдо альпийских регионов Швейцарии и соседних Франции и Италии. В XX веке оно получило известность как национальное блюдо Швейцарии, в частности благодаря продвижению Швейцарским сырным союзом с 1930-х годов.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 г смеси швейцарских сыров (например, грюйер и эмменталь), тёртых",
+     "300 мл сухого белого вина",
+     "1 зубчик чеснока, разрезанный пополам",
+     "3 шалота, мелко нарубленных",
+     "1 ст. л. кукурузного крахмала",
+     "Чёрный перец и мускатный орех по вкусу",
+     "Отварной мелкий картофель и сырые овощи для макания"
+    ],
+    "steps": [
+     "Натрите внутреннюю поверхность котелка для фондю разрезанным чесноком, затем оставьте чеснок в котелке.",
+     "Добавьте несколько капель воды и шалот и аккуратно готовьте 5 минут до мягкости и прозрачности.",
+     "Влейте вино и нагрейте на среднем огне до появления пара, не доводя до кипения.",
+     "Перемешайте сыр с крахмалом и добавляйте по горсти, помешивая восьмёрками, пока каждая порция не растает.",
+     "Приправьте перцем и мускатным орехом, поставьте котелок на горелку на столе и макайте картофель и овощи на длинных вилках."
+    ]
+   },
+   "tips": [
+    "Макайте в основном овощи — брокколи, перец, помидоры черри и грибы, а не налегайте на картофель.",
+    "Фондю плотное: решите заранее, сколько съедите, — около 150–200 г расплавленного сыра на одну порцию вполне реально.",
+    "Подавайте с большим зелёным салатом, заправленным уксусом и небольшим количеством масла, чтобы сыр не был единственным блюдом трапезы."
+   ],
+   "name_inline": "фондю с шалотом"
+  },
+  "es": {
+   "name": "Fondue de chalotes",
+   "origin": "Suiza",
+   "intro": "La fondue de chalotes es una fondue de queso al estilo suizo en la que los chalotes finamente picados se ablandan en la olla antes de añadir el vino y el queso. Los chalotes se funden en la salsa y le dan una suave nota de cebolla dulce que equilibra el queso intenso. Se sirve burbujeante en una olla compartida en la mesa, con papas y verduras para mojar.",
+   "history": "La fondue suiza de queso es un plato de las regiones alpinas de Suiza y de la vecina Francia e Italia. Se popularizó como plato nacional suizo en el siglo XX, sobre todo gracias a la promoción de la Unión Suiza del Queso desde la década de 1930.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g de queso suizo variado (por ejemplo, gruyer y emmental), rallado",
+     "300 ml de vino blanco seco",
+     "1 diente de ajo, partido por la mitad",
+     "3 chalotes, finamente picados",
+     "1 cda. de fécula de maíz",
+     "Pimienta negra y nuez moscada al gusto",
+     "Papas pequeñas hervidas y verduras crudas para mojar"
+    ],
+    "steps": [
+     "Frota el interior de una olla de fondue con el ajo cortado y deja el ajo en la olla.",
+     "Añade unas gotas de agua y los chalotes y cocina suavemente durante 5 minutos hasta que estén blandos y translúcidos.",
+     "Agrega el vino y calienta a fuego medio hasta que humee, sin hervir.",
+     "Mezcla el queso con la fécula y añádelo por puñados, removiendo en forma de ocho hasta que cada adición se funda.",
+     "Sazona con pimienta y nuez moscada, coloca la olla sobre un quemador en la mesa y moja papas y verduras con tenedores largos."
+    ]
+   },
+   "tips": [
+    "Moja sobre todo verduras como brócoli, pimientos, jitomates cherry y champiñones en lugar de llenarte de papas.",
+    "La fondue es densa: decide tu porción antes de empezar; unos 150–200 g de queso fundido son una porción individual realista.",
+    "Sírvela con una ensalada verde grande aliñada con vinagre y un poco de aceite para que el queso no sea toda la comida."
+   ],
+   "name_inline": "la fondue de chalotes"
   }
+ }
 }

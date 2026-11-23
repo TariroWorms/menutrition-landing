@@ -1,165 +1,196 @@
 {
-  "db_key": "philly_cheesesteak",
-  "slug": "philly-cheesesteak",
-  "emoji": "🥖",
-  "portion_g": 300,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "philly_cheesesteak",
+ "slug": "philly-cheesesteak",
+ "emoji": "🥖",
+ "portion_g": 300,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Philly cheesesteak",
+   "origin": "United States · Philadelphia",
+   "intro": "The Philly cheesesteak is a hot sandwich of thinly sliced beef cooked on a griddle with onions, often bell peppers, and melted provolone, piled into a long, soft hoagie roll. The meat is tender and juicy, the onions sweet, and the cheese binds everything into a rich, gooey filling. It is eaten hot, straight from the grill.",
+   "history": "The cheesesteak is usually credited to Pat and Harry Olivieri, who are said to have sold a steak sandwich from their Philadelphia hot-dog stand in the 1930s; cheese was added later. It has since become the city's best-known food, and rival shops still argue over the best version.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g beef ribeye, very thinly sliced",
+     "2 onions, sliced",
+     "1 green bell pepper, sliced",
+     "8 slices provolone",
+     "4 hoagie rolls",
+     "2 tbsp oil",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Heat 1 tbsp oil on a griddle or large pan and cook the onions and pepper until soft and lightly browned; set aside.",
+     "Add the remaining oil and sear the beef over high heat for 2–3 minutes, chopping it with a spatula; season.",
+     "Mix the vegetables back in, divide into 4 portions and lay provolone on top to melt.",
+     "Slide each portion into a split roll and serve hot."
+    ]
+   },
+   "tips": [
+    "Use a lean cut such as sirloin and trim visible fat.",
+    "One slice of provolone per sandwich instead of two noticeably reduces fat.",
+    "Add extra peppers and onions and pull out some of the soft bread from the roll."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Philly cheesesteak",
-      "origin": "United States · Philadelphia",
-      "intro": "The Philly cheesesteak is a hot sandwich of thinly sliced beef cooked on a griddle with onions, often bell peppers, and melted provolone, piled into a long, soft hoagie roll. The meat is tender and juicy, the onions sweet, and the cheese binds everything into a rich, gooey filling. It is eaten hot, straight from the grill.",
-      "history": "The cheesesteak is usually credited to Pat and Harry Olivieri, who are said to have sold a steak sandwich from their Philadelphia hot-dog stand in the 1930s; cheese was added later. It has since become the city's best-known food, and rival shops still argue over the best version.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g beef ribeye, very thinly sliced",
-          "2 onions, sliced",
-          "1 green bell pepper, sliced",
-          "8 slices provolone",
-          "4 hoagie rolls",
-          "2 tbsp oil",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Heat 1 tbsp oil on a griddle or large pan and cook the onions and pepper until soft and lightly browned; set aside.",
-          "Add the remaining oil and sear the beef over high heat for 2–3 minutes, chopping it with a spatula; season.",
-          "Mix the vegetables back in, divide into 4 portions and lay provolone on top to melt.",
-          "Slide each portion into a split roll and serve hot."
-        ]
-      },
-      "tips": [
-        "Use a lean cut such as sirloin and trim visible fat.",
-        "One slice of provolone per sandwich instead of two noticeably reduces fat.",
-        "Add extra peppers and onions and pull out some of the soft bread from the roll."
-      ]
-    },
-    "ar": {
-      "name": "فيلي تشيز ستيك",
-      "origin": "الولايات المتحدة · فيلادلفيا",
-      "intro": "فيلي تشيز ستيك شطيرة ساخنة من شرائح لحم البقر الرقيقة المطهوة على الصاج مع البصل، وغالبًا الفلفل الحلو، وجبن البروفولون الذائب، توضع في خبز «هوجي» طويل وطري. اللحم طري وعصيري، والبصل حلو، والجبن يربط كل شيء في حشوة غنية ذائبة. تُؤكل ساخنة مباشرة من الشواية.",
-      "history": "يُنسب التشيز ستيك عادة إلى الأخوين بات وهاري أوليفييري اللذين يُقال إنهما باعا شطيرة ستيك من كشك النقانق الخاص بهما في فيلادلفيا في ثلاثينيات القرن العشرين، وأُضيف الجبن لاحقًا. وأصبحت منذ ذلك الحين أشهر أكلات المدينة، ولا تزال المحلات المتنافسة تتجادل حول أفضل نسخة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 غ لحم بقري (ريب آي) مقطع شرائح رقيقة جدًا",
-          "2 بصلة مشرحة",
-          "1 فلفل أخضر حلو مشرح",
-          "8 شرائح جبن بروفولون",
-          "4 خبز هوجي",
-          "2 ملعقة كبيرة زيت",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "سخّن ملعقة كبيرة من الزيت على صاج أو مقلاة كبيرة واطهُ البصل والفلفل حتى يطريا ويتحمّرا قليلًا، ثم ارفعهما.",
-          "أضف بقية الزيت واشوِ اللحم على نار عالية 2–3 دقائق مع تقطيعه بالملعقة المسطحة، وتبّل.",
-          "أعد الخضار واخلط، وقسّم الخليط إلى 4 حصص وضع البروفولون فوقها ليذوب.",
-          "ضع كل حصة في خبزة مشقوقة وقدّمها ساخنة."
-        ]
-      },
-      "tips": [
-        "استخدم قطعة لحم قليلة الدهن مثل السيرلوين وأزل الدهن الظاهر.",
-        "شريحة بروفولون واحدة لكل شطيرة بدل اثنتين تقلل الدهون بوضوح.",
-        "زِد الفلفل والبصل وأزل جزءًا من لب الخبز الطري."
-      ]
-    },
-    "it": {
-      "name": "Philly cheesesteak",
-      "origin": "Stati Uniti · Filadelfia",
-      "intro": "Il Philly cheesesteak è un panino caldo con manzo tagliato sottilissimo cotto su piastra con cipolle, spesso peperoni, e provolone fuso, il tutto in un lungo e morbido panino hoagie. La carne è tenera e succosa, le cipolle dolci e il formaggio lega tutto in un ripieno ricco e filante. Si mangia caldo, appena tolto dalla piastra.",
-      "history": "Il cheesesteak viene di solito attribuito a Pat e Harry Olivieri, che negli anni Trenta avrebbero venduto un panino con la bistecca dal loro chiosco di hot dog a Filadelfia; il formaggio fu aggiunto in seguito. Da allora è diventato il cibo più famoso della città, e i locali rivali discutono ancora su quale sia la versione migliore.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g di costata di manzo (ribeye) tagliata sottilissima",
-          "2 cipolle affettate",
-          "1 peperone verde affettato",
-          "8 fette di provolone",
-          "4 panini hoagie",
-          "2 cucchiai di olio",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Scalda 1 cucchiaio di olio su una piastra o in una padella grande e cuoci cipolle e peperone finché sono morbidi e leggermente dorati; mettili da parte.",
-          "Aggiungi l'olio rimasto e rosola la carne a fuoco vivo per 2–3 minuti, sminuzzandola con la spatola; condisci.",
-          "Rimetti le verdure, dividi in 4 porzioni e adagia sopra il provolone perché si sciolga.",
-          "Fai scivolare ogni porzione in un panino aperto e servi caldo."
-        ]
-      },
-      "tips": [
-        "Usa un taglio magro come il controfiletto ed elimina il grasso visibile.",
-        "Una fetta di provolone per panino invece di due riduce sensibilmente i grassi.",
-        "Aggiungi più peperoni e cipolle e togli un po' di mollica dal panino."
-      ]
-    },
-    "el": {
-      "name": "Φίλι τσιζστέικ",
-      "origin": "Ηνωμένες Πολιτείες · Φιλαδέλφεια",
-      "intro": "Το Φίλι τσιζστέικ είναι ζεστό σάντουιτς με μοσχάρι κομμένο σε πολύ λεπτές φέτες, ψημένο σε πλάκα με κρεμμύδια, συχνά πιπεριές, και λιωμένο προβολόνε, μέσα σε ένα μακρύ, μαλακό ψωμάκι χόαγκι. Το κρέας είναι τρυφερό και ζουμερό, τα κρεμμύδια γλυκά, και το τυρί δένει τα πάντα σε μια πλούσια, κολλώδη γέμιση. Τρώγεται ζεστό, κατευθείαν από την πλάκα.",
-      "history": "Το τσιζστέικ αποδίδεται συνήθως στους Pat και Harry Olivieri, οι οποίοι λέγεται ότι πουλούσαν σάντουιτς με μπριζόλα από το περίπτερό τους με χοτ ντογκ στη Φιλαδέλφεια τη δεκαετία του 1930· το τυρί προστέθηκε αργότερα. Από τότε έχει γίνει το πιο γνωστό φαγητό της πόλης, και τα αντίπαλα μαγαζιά διαφωνούν ακόμη για την καλύτερη εκδοχή.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 γρ. μοσχαρίσιο ριμπάι (ribeye) σε πολύ λεπτές φέτες",
-          "2 κρεμμύδια σε φέτες",
-          "1 πράσινη πιπεριά σε λωρίδες",
-          "8 φέτες προβολόνε",
-          "4 ψωμάκια χόαγκι",
-          "2 κ.σ. λάδι",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Ζεστάνετε 1 κ.σ. λάδι σε πλάκα ή μεγάλο τηγάνι και μαγειρέψτε τα κρεμμύδια και την πιπεριά μέχρι να μαλακώσουν και να ροδίσουν ελαφρά· βάλτε τα στην άκρη.",
-          "Προσθέστε το υπόλοιπο λάδι και σοτάρετε το μοσχάρι σε δυνατή φωτιά για 2–3 λεπτά, ψιλοκόβοντάς το με τη σπάτουλα· αλατοπιπερώστε.",
-          "Ξαναρίξτε τα λαχανικά, χωρίστε σε 4 μερίδες και βάλτε από πάνω το προβολόνε να λιώσει.",
-          "Βάλτε κάθε μερίδα σε ένα ανοιγμένο ψωμάκι και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχη κοπή, όπως κόντρα φιλέτο, και αφαιρέστε το ορατό λίπος.",
-        "Μία φέτα προβολόνε ανά σάντουιτς αντί για δύο μειώνει αισθητά το λίπος.",
-        "Προσθέστε επιπλέον πιπεριές και κρεμμύδια και αφαιρέστε λίγη ψίχα από το ψωμάκι."
-      ]
-    },
-    "ru": {
-      "name": "Филадельфийский чизстейк",
-      "origin": "Соединённые Штаты · Филадельфия",
-      "intro": "Филадельфийский чизстейк — горячий сэндвич из тонко нарезанной говядины, приготовленной на гриле с луком, часто с болгарским перцем и расплавленным проволоне, уложенный в длинную мягкую булку хоаги. Мясо нежное и сочное, лук сладкий, а сыр связывает всё в насыщенную тягучую начинку. Едят горячим, прямо с гриля.",
-      "history": "Чизстейк обычно приписывают Пэту и Гарри Оливьери, которые, как говорят, продавали сэндвич со стейком из своего хот-дог-киоска в Филадельфии в 1930-х годах; сыр добавили позже. С тех пор он стал самым известным блюдом города, а конкурирующие лавки до сих пор спорят о лучшей версии.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 г говяжьей рибай, нарезанной очень тонко",
-          "2 луковицы, нарезанные",
-          "1 зелёный болгарский перец, нарезанный",
-          "8 ломтиков проволоне",
-          "4 булки хоаги",
-          "2 ст. л. масла",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Разогрейте 1 ст. л. масла на гриле или большой сковороде и готовьте лук и перец до мягкости и лёгкой румяности; отложите.",
-          "Добавьте оставшееся масло и обжарьте говядину на сильном огне 2–3 минуты, измельчая лопаткой; приправьте.",
-          "Верните овощи, разделите на 4 порции и положите сверху проволоне, чтобы он расплавился.",
-          "Выложите каждую порцию в разрезанную булку и подавайте горячими."
-        ]
-      },
-      "tips": [
-        "Берите нежирный отруб, например филей, и срезайте видимый жир.",
-        "Один ломтик проволоне на сэндвич вместо двух заметно сокращает жир.",
-        "Добавьте больше перцев и лука и выньте часть мякиша из булки."
-      ],
-      "name_inline": "филадельфийский чизстейк"
-    }
+  "ar": {
+   "name": "فيلي تشيز ستيك",
+   "origin": "الولايات المتحدة · فيلادلفيا",
+   "intro": "فيلي تشيز ستيك شطيرة ساخنة من شرائح لحم البقر الرقيقة المطهوة على الصاج مع البصل، وغالبًا الفلفل الحلو، وجبن البروفولون الذائب، توضع في خبز «هوجي» طويل وطري. اللحم طري وعصيري، والبصل حلو، والجبن يربط كل شيء في حشوة غنية ذائبة. تُؤكل ساخنة مباشرة من الشواية.",
+   "history": "يُنسب التشيز ستيك عادة إلى الأخوين بات وهاري أوليفييري اللذين يُقال إنهما باعا شطيرة ستيك من كشك النقانق الخاص بهما في فيلادلفيا في ثلاثينيات القرن العشرين، وأُضيف الجبن لاحقًا. وأصبحت منذ ذلك الحين أشهر أكلات المدينة، ولا تزال المحلات المتنافسة تتجادل حول أفضل نسخة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 غ لحم بقري (ريب آي) مقطع شرائح رقيقة جدًا",
+     "2 بصلة مشرحة",
+     "1 فلفل أخضر حلو مشرح",
+     "8 شرائح جبن بروفولون",
+     "4 خبز هوجي",
+     "2 ملعقة كبيرة زيت",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "سخّن ملعقة كبيرة من الزيت على صاج أو مقلاة كبيرة واطهُ البصل والفلفل حتى يطريا ويتحمّرا قليلًا، ثم ارفعهما.",
+     "أضف بقية الزيت واشوِ اللحم على نار عالية 2–3 دقائق مع تقطيعه بالملعقة المسطحة، وتبّل.",
+     "أعد الخضار واخلط، وقسّم الخليط إلى 4 حصص وضع البروفولون فوقها ليذوب.",
+     "ضع كل حصة في خبزة مشقوقة وقدّمها ساخنة."
+    ]
+   },
+   "tips": [
+    "استخدم قطعة لحم قليلة الدهن مثل السيرلوين وأزل الدهن الظاهر.",
+    "شريحة بروفولون واحدة لكل شطيرة بدل اثنتين تقلل الدهون بوضوح.",
+    "زِد الفلفل والبصل وأزل جزءًا من لب الخبز الطري."
+   ]
+  },
+  "it": {
+   "name": "Philly cheesesteak",
+   "origin": "Stati Uniti · Filadelfia",
+   "intro": "Il Philly cheesesteak è un panino caldo con manzo tagliato sottilissimo cotto su piastra con cipolle, spesso peperoni, e provolone fuso, il tutto in un lungo e morbido panino hoagie. La carne è tenera e succosa, le cipolle dolci e il formaggio lega tutto in un ripieno ricco e filante. Si mangia caldo, appena tolto dalla piastra.",
+   "history": "Il cheesesteak viene di solito attribuito a Pat e Harry Olivieri, che negli anni Trenta avrebbero venduto un panino con la bistecca dal loro chiosco di hot dog a Filadelfia; il formaggio fu aggiunto in seguito. Da allora è diventato il cibo più famoso della città, e i locali rivali discutono ancora su quale sia la versione migliore.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g di costata di manzo (ribeye) tagliata sottilissima",
+     "2 cipolle affettate",
+     "1 peperone verde affettato",
+     "8 fette di provolone",
+     "4 panini hoagie",
+     "2 cucchiai di olio",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Scalda 1 cucchiaio di olio su una piastra o in una padella grande e cuoci cipolle e peperone finché sono morbidi e leggermente dorati; mettili da parte.",
+     "Aggiungi l'olio rimasto e rosola la carne a fuoco vivo per 2–3 minuti, sminuzzandola con la spatola; condisci.",
+     "Rimetti le verdure, dividi in 4 porzioni e adagia sopra il provolone perché si sciolga.",
+     "Fai scivolare ogni porzione in un panino aperto e servi caldo."
+    ]
+   },
+   "tips": [
+    "Usa un taglio magro come il controfiletto ed elimina il grasso visibile.",
+    "Una fetta di provolone per panino invece di due riduce sensibilmente i grassi.",
+    "Aggiungi più peperoni e cipolle e togli un po' di mollica dal panino."
+   ]
+  },
+  "el": {
+   "name": "Φίλι τσιζστέικ",
+   "origin": "Ηνωμένες Πολιτείες · Φιλαδέλφεια",
+   "intro": "Το Φίλι τσιζστέικ είναι ζεστό σάντουιτς με μοσχάρι κομμένο σε πολύ λεπτές φέτες, ψημένο σε πλάκα με κρεμμύδια, συχνά πιπεριές, και λιωμένο προβολόνε, μέσα σε ένα μακρύ, μαλακό ψωμάκι χόαγκι. Το κρέας είναι τρυφερό και ζουμερό, τα κρεμμύδια γλυκά, και το τυρί δένει τα πάντα σε μια πλούσια, κολλώδη γέμιση. Τρώγεται ζεστό, κατευθείαν από την πλάκα.",
+   "history": "Το τσιζστέικ αποδίδεται συνήθως στους Pat και Harry Olivieri, οι οποίοι λέγεται ότι πουλούσαν σάντουιτς με μπριζόλα από το περίπτερό τους με χοτ ντογκ στη Φιλαδέλφεια τη δεκαετία του 1930· το τυρί προστέθηκε αργότερα. Από τότε έχει γίνει το πιο γνωστό φαγητό της πόλης, και τα αντίπαλα μαγαζιά διαφωνούν ακόμη για την καλύτερη εκδοχή.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 γρ. μοσχαρίσιο ριμπάι (ribeye) σε πολύ λεπτές φέτες",
+     "2 κρεμμύδια σε φέτες",
+     "1 πράσινη πιπεριά σε λωρίδες",
+     "8 φέτες προβολόνε",
+     "4 ψωμάκια χόαγκι",
+     "2 κ.σ. λάδι",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Ζεστάνετε 1 κ.σ. λάδι σε πλάκα ή μεγάλο τηγάνι και μαγειρέψτε τα κρεμμύδια και την πιπεριά μέχρι να μαλακώσουν και να ροδίσουν ελαφρά· βάλτε τα στην άκρη.",
+     "Προσθέστε το υπόλοιπο λάδι και σοτάρετε το μοσχάρι σε δυνατή φωτιά για 2–3 λεπτά, ψιλοκόβοντάς το με τη σπάτουλα· αλατοπιπερώστε.",
+     "Ξαναρίξτε τα λαχανικά, χωρίστε σε 4 μερίδες και βάλτε από πάνω το προβολόνε να λιώσει.",
+     "Βάλτε κάθε μερίδα σε ένα ανοιγμένο ψωμάκι και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχη κοπή, όπως κόντρα φιλέτο, και αφαιρέστε το ορατό λίπος.",
+    "Μία φέτα προβολόνε ανά σάντουιτς αντί για δύο μειώνει αισθητά το λίπος.",
+    "Προσθέστε επιπλέον πιπεριές και κρεμμύδια και αφαιρέστε λίγη ψίχα από το ψωμάκι."
+   ]
+  },
+  "ru": {
+   "name": "Филадельфийский чизстейк",
+   "origin": "Соединённые Штаты · Филадельфия",
+   "intro": "Филадельфийский чизстейк — горячий сэндвич из тонко нарезанной говядины, приготовленной на гриле с луком, часто с болгарским перцем и расплавленным проволоне, уложенный в длинную мягкую булку хоаги. Мясо нежное и сочное, лук сладкий, а сыр связывает всё в насыщенную тягучую начинку. Едят горячим, прямо с гриля.",
+   "history": "Чизстейк обычно приписывают Пэту и Гарри Оливьери, которые, как говорят, продавали сэндвич со стейком из своего хот-дог-киоска в Филадельфии в 1930-х годах; сыр добавили позже. С тех пор он стал самым известным блюдом города, а конкурирующие лавки до сих пор спорят о лучшей версии.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 г говяжьей рибай, нарезанной очень тонко",
+     "2 луковицы, нарезанные",
+     "1 зелёный болгарский перец, нарезанный",
+     "8 ломтиков проволоне",
+     "4 булки хоаги",
+     "2 ст. л. масла",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Разогрейте 1 ст. л. масла на гриле или большой сковороде и готовьте лук и перец до мягкости и лёгкой румяности; отложите.",
+     "Добавьте оставшееся масло и обжарьте говядину на сильном огне 2–3 минуты, измельчая лопаткой; приправьте.",
+     "Верните овощи, разделите на 4 порции и положите сверху проволоне, чтобы он расплавился.",
+     "Выложите каждую порцию в разрезанную булку и подавайте горячими."
+    ]
+   },
+   "tips": [
+    "Берите нежирный отруб, например филей, и срезайте видимый жир.",
+    "Один ломтик проволоне на сэндвич вместо двух заметно сокращает жир.",
+    "Добавьте больше перцев и лука и выньте часть мякиша из булки."
+   ],
+   "name_inline": "филадельфийский чизстейк"
+  },
+  "es": {
+   "name": "Philly cheesesteak",
+   "origin": "Estados Unidos · Filadelfia",
+   "intro": "El Philly cheesesteak es un sándwich caliente de carne de res en rebanadas finas cocinada en plancha con cebolla, a menudo pimiento, y queso provolone derretido, todo en un pan hoagie largo y suave. La carne es tierna y jugosa, la cebolla dulce, y el queso une todo en un relleno sustancioso y fundido. Se come caliente, directo de la parrilla.",
+   "history": "El cheesesteak suele atribuirse a Pat y Harry Olivieri, que se dice que vendieron un sándwich de bistec en su puesto de hot dogs de Filadelfia en la década de 1930; el queso se añadió después. Desde entonces se ha convertido en la comida más conocida de la ciudad, y los locales rivales aún discuten cuál es la mejor versión.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g de ribeye de res, en rebanadas muy finas",
+     "2 cebollas, en rodajas",
+     "1 pimiento verde, en rodajas",
+     "8 rebanadas de provolone",
+     "4 panes hoagie",
+     "2 cdas. de aceite",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Calienta 1 cda. de aceite en una plancha o sartén grande y cocina la cebolla y el pimiento hasta que estén suaves y ligeramente dorados; reserva.",
+     "Agrega el aceite restante y sella la carne a fuego alto de 2 a 3 minutos, picándola con una espátula; sazona.",
+     "Regresa las verduras, divide en 4 porciones y coloca el provolone encima para que se derrita.",
+     "Desliza cada porción en un pan abierto y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Usa un corte magro como el sirloin y retira la grasa visible.",
+    "Una rebanada de provolone por sándwich en lugar de dos reduce notablemente la grasa.",
+    "Añade más pimientos y cebolla y retira parte del migajón del pan."
+   ],
+   "name_inline": "el Philly cheesesteak"
   }
+ }
 }

@@ -1,187 +1,222 @@
 {
-  "db_key": "pastilla_seafood",
-  "slug": "pastilla-seafood",
-  "emoji": "🦐",
-  "portion_g": 200,
-  "country": "MA",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "pastilla_seafood",
+ "slug": "pastilla-seafood",
+ "emoji": "🦐",
+ "portion_g": 200,
+ "country": "MA",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Seafood Pastilla",
+   "origin": "Morocco",
+   "intro": "Seafood pastilla is a savoury, non-sweet take on the Moroccan pie: crisp warqa pastry filled with shrimp and white fish, thin vermicelli and egg, all seasoned with garlic, herbs, paprika and cumin. It is baked until golden and cut into wedges, often appearing as a starter at weddings and family gatherings.",
+   "history": "Seafood pastilla is generally regarded as a more recent variation on the traditional pigeon pastilla and is especially popular in Morocco's coastal cities. Today it appears regularly on celebration menus and in restaurants across the country.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "300 g white fish fillet, cubed",
+     "300 g peeled shrimp",
+     "100 g thin vermicelli",
+     "2 eggs, beaten",
+     "3 garlic cloves, chopped",
+     "1 bunch parsley and coriander, chopped",
+     "1 tsp paprika, 1 tsp cumin",
+     "Juice of 1 lemon",
+     "10 sheets warqa pastry",
+     "3 tbsp oil"
+    ],
+    "steps": [
+     "Cook the vermicelli in boiling water, drain well.",
+     "Sauté garlic in 1 tbsp oil, add fish, shrimp, paprika and cumin and cook for 4–5 minutes; drain off liquid.",
+     "Mix the seafood with vermicelli, herbs and lemon juice, then stir in most of the beaten egg.",
+     "Line an oiled tin with warqa sheets, add the filling, fold in and top with more sheets.",
+     "Brush with the remaining egg and oil and bake at 190 °C for 25–30 minutes until golden."
+    ]
+   },
+   "tips": [
+    "Use more seafood and less vermicelli for a higher-protein filling.",
+    "Drain the seafood mixture well so less oil is needed to crisp the pastry.",
+    "Serve one wedge with a large salad of tomato, cucumber and herbs."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Seafood Pastilla",
-      "origin": "Morocco",
-      "intro": "Seafood pastilla is a savoury, non-sweet take on the Moroccan pie: crisp warqa pastry filled with shrimp and white fish, thin vermicelli and egg, all seasoned with garlic, herbs, paprika and cumin. It is baked until golden and cut into wedges, often appearing as a starter at weddings and family gatherings.",
-      "history": "Seafood pastilla is generally regarded as a more recent variation on the traditional pigeon pastilla and is especially popular in Morocco's coastal cities. Today it appears regularly on celebration menus and in restaurants across the country.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "300 g white fish fillet, cubed",
-          "300 g peeled shrimp",
-          "100 g thin vermicelli",
-          "2 eggs, beaten",
-          "3 garlic cloves, chopped",
-          "1 bunch parsley and coriander, chopped",
-          "1 tsp paprika, 1 tsp cumin",
-          "Juice of 1 lemon",
-          "10 sheets warqa pastry",
-          "3 tbsp oil"
-        ],
-        "steps": [
-          "Cook the vermicelli in boiling water, drain well.",
-          "Sauté garlic in 1 tbsp oil, add fish, shrimp, paprika and cumin and cook for 4–5 minutes; drain off liquid.",
-          "Mix the seafood with vermicelli, herbs and lemon juice, then stir in most of the beaten egg.",
-          "Line an oiled tin with warqa sheets, add the filling, fold in and top with more sheets.",
-          "Brush with the remaining egg and oil and bake at 190 °C for 25–30 minutes until golden."
-        ]
-      },
-      "tips": [
-        "Use more seafood and less vermicelli for a higher-protein filling.",
-        "Drain the seafood mixture well so less oil is needed to crisp the pastry.",
-        "Serve one wedge with a large salad of tomato, cucumber and herbs."
-      ]
-    },
-    "ar": {
-      "name": "بسطيلة ثمار البحر",
-      "origin": "المغرب",
-      "intro": "بسطيلة ثمار البحر نسخة مالحة غير حلوة من الفطيرة المغربية: عجينة الورقة المقرمشة محشوة بالروبيان والسمك الأبيض والشعيرية الرفيعة والبيض، متبلة بالثوم والأعشاب والبابريكا والكمون. تُخبز حتى تتحمر وتُقطع، وكثيراً ما تُقدَّم مقبلاً في الأعراس والتجمعات العائلية.",
-      "history": "تُعدّ بسطيلة ثمار البحر عموماً تنويعاً أحدث على بسطيلة الحمام التقليدية، وتشتهر خاصة في المدن الساحلية المغربية. وهي اليوم حاضرة بانتظام في قوائم الحفلات والمطاعم في أنحاء البلاد.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "300 غ فيليه سمك أبيض مكعبات",
-          "300 غ روبيان مقشر",
-          "100 غ شعيرية رفيعة",
-          "2 بيضة مخفوقة",
-          "3 فصوص ثوم مفرومة",
-          "حزمة بقدونس وكزبرة مفرومة",
-          "1 ملعقة صغيرة بابريكا و1 ملعقة صغيرة كمون",
-          "عصير ليمونة واحدة",
-          "10 أوراق عجينة الورقة",
-          "3 ملاعق كبيرة زيت"
-        ],
-        "steps": [
-          "اسلق الشعيرية في ماء مغلي وصفّها جيداً.",
-          "شوّح الثوم في ملعقة كبيرة زيت، وأضف السمك والروبيان والبابريكا والكمون واطهها 4–5 دقائق، ثم صفِّ السائل.",
-          "اخلط ثمار البحر مع الشعيرية والأعشاب وعصير الليمون، وأضف معظم البيض المخفوق.",
-          "بطّن صينية مدهونة بأوراق الورقة، وضع الحشوة، واطوِ الأطراف وغطِّها بمزيد من الأوراق.",
-          "ادهنها ببقية البيض والزيت واخبزها على 190 °م لمدة 25–30 دقيقة حتى تتحمر."
-        ]
-      },
-      "tips": [
-        "زِد ثمار البحر وقلّل الشعيرية لحشوة أغنى بالبروتين.",
-        "صفِّ خليط ثمار البحر جيداً لتحتاج زيتاً أقل لتقرمش العجين.",
-        "قدّم قطعة واحدة مع سلطة كبيرة من الطماطم والخيار والأعشاب."
-      ]
-    },
-    "it": {
-      "name": "Pastilla di mare",
-      "origin": "Marocco",
-      "intro": "La pastilla di mare è una versione salata, non dolce, della torta marocchina: croccante pasta warqa farcita con gamberi e pesce bianco, vermicelli sottili e uova, il tutto insaporito con aglio, erbe aromatiche, paprika e cumino. Si cuoce in forno finché è dorata e si taglia a spicchi, e compare spesso come antipasto a matrimoni e riunioni di famiglia.",
-      "history": "La pastilla di mare è generalmente considerata una variante più recente della tradizionale pastilla di piccione ed è particolarmente popolare nelle città costiere del Marocco. Oggi compare regolarmente nei menu delle feste e nei ristoranti di tutto il paese.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "300 g di filetto di pesce bianco a cubetti",
-          "300 g di gamberi sgusciati",
-          "100 g di vermicelli sottili",
-          "2 uova sbattute",
-          "3 spicchi d'aglio tritati",
-          "1 mazzetto di prezzemolo e coriandolo, tritati",
-          "1 cucchiaino di paprika, 1 cucchiaino di cumino",
-          "Succo di 1 limone",
-          "10 fogli di pasta warqa",
-          "3 cucchiai di olio"
-        ],
-        "steps": [
-          "Cuoci i vermicelli in acqua bollente e scolali bene.",
-          "Soffriggi l'aglio in 1 cucchiaio di olio, aggiungi pesce, gamberi, paprika e cumino e cuoci per 4–5 minuti; scola il liquido.",
-          "Mescola i frutti di mare con i vermicelli, le erbe e il succo di limone, poi incorpora gran parte dell'uovo sbattuto.",
-          "Fodera una tortiera unta con i fogli di warqa, aggiungi il ripieno, ripiega e copri con altri fogli.",
-          "Spennella con l'uovo rimasto e l'olio e cuoci a 190 °C per 25–30 minuti finché è dorata."
-        ]
-      },
-      "tips": [
-        "Usa più frutti di mare e meno vermicelli per un ripieno più ricco di proteine.",
-        "Scola bene il composto di frutti di mare, così serve meno olio per rendere croccante la pasta.",
-        "Servi uno spicchio con una grande insalata di pomodori, cetrioli ed erbe."
-      ],
-      "name_inline": "pastilla di mare"
-    },
-    "el": {
-      "name": "Παστίγια με θαλασσινά",
-      "origin": "Μαρόκο",
-      "intro": "Η παστίγια με θαλασσινά είναι μια αλμυρή, όχι γλυκιά, εκδοχή της μαροκινής πίτας: τραγανά φύλλα ουάρκα γεμισμένα με γαρίδες και λευκό ψάρι, λεπτό φιδέ και αυγό, όλα αρωματισμένα με σκόρδο, μυρωδικά, πάπρικα και κύμινο. Ψήνεται μέχρι να ροδίσει και κόβεται σε κομμάτια, και συχνά σερβίρεται ως ορεκτικό σε γάμους και οικογενειακές συγκεντρώσεις.",
-      "history": "Η παστίγια με θαλασσινά θεωρείται γενικά πιο πρόσφατη παραλλαγή της παραδοσιακής παστίγιας με περιστέρι και είναι ιδιαίτερα δημοφιλής στις παραθαλάσσιες πόλεις του Μαρόκου. Σήμερα εμφανίζεται συχνά σε γιορτινά μενού και σε εστιατόρια σε όλη τη χώρα.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "300 γρ. φιλέτο λευκού ψαριού σε κύβους",
-          "300 γρ. καθαρισμένες γαρίδες",
-          "100 γρ. λεπτό φιδέ",
-          "2 αυγά χτυπημένα",
-          "3 σκελίδες σκόρδο ψιλοκομμένες",
-          "1 ματσάκι μαϊντανός και κόλιανδρος, ψιλοκομμένα",
-          "1 κ.γ. πάπρικα, 1 κ.γ. κύμινο",
-          "Χυμός από 1 λεμόνι",
-          "10 φύλλα ουάρκα",
-          "3 κ.σ. λάδι"
-        ],
-        "steps": [
-          "Βράστε το φιδέ σε νερό που βράζει και στραγγίξτε καλά.",
-          "Σοτάρετε το σκόρδο σε 1 κ.σ. λάδι, προσθέστε το ψάρι, τις γαρίδες, την πάπρικα και το κύμινο και μαγειρέψτε για 4–5 λεπτά· στραγγίξτε το υγρό.",
-          "Ανακατέψτε τα θαλασσινά με το φιδέ, τα μυρωδικά και τον χυμό λεμονιού και έπειτα προσθέστε το μεγαλύτερο μέρος του χτυπημένου αυγού.",
-          "Στρώστε μια λαδωμένη φόρμα με φύλλα ουάρκα, προσθέστε τη γέμιση, διπλώστε τα φύλλα προς τα μέσα και σκεπάστε με κι άλλα φύλλα.",
-          "Αλείψτε με το υπόλοιπο αυγό και λάδι και ψήστε στους 190 °C για 25–30 λεπτά μέχρι να ροδίσει."
-        ]
-      },
-      "tips": [
-        "Βάλτε περισσότερα θαλασσινά και λιγότερο φιδέ για γέμιση με περισσότερη πρωτεΐνη.",
-        "Στραγγίξτε καλά το μείγμα θαλασσινών, ώστε να χρειαστεί λιγότερο λάδι για να τραγανίσουν τα φύλλα.",
-        "Σερβίρετε ένα κομμάτι με μια μεγάλη σαλάτα από ντομάτα, αγγούρι και μυρωδικά."
-      ],
-      "name_inline": "παστίγια με θαλασσινά"
-    },
-    "ru": {
-      "name": "Пастилья с морепродуктами",
-      "origin": "Марокко",
-      "intro": "Пастилья с морепродуктами — солёная, не сладкая вариация марокканского пирога: хрустящее тесто уорка с начинкой из креветок и белой рыбы, тонкой вермишели и яйца, приправленной чесноком, травами, паприкой и зирой. Её запекают до золотистого цвета и нарезают клиньями; она часто появляется как закуска на свадьбах и семейных встречах.",
-      "history": "Пастилья с морепродуктами обычно считается более поздним вариантом традиционной пастильи с голубем и особенно популярна в прибрежных городах Марокко. Сегодня она регулярно встречается в праздничных меню и ресторанах по всей стране.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 90,
-        "ingredients": [
-          "300 г филе белой рыбы, нарезанного кубиками",
-          "300 г очищенных креветок",
-          "100 г тонкой вермишели",
-          "2 яйца, взбитых",
-          "3 зубчика чеснока, нарубленных",
-          "1 пучок петрушки и кинзы, нарубленных",
-          "1 ч. л. паприки, 1 ч. л. зиры",
-          "Сок 1 лимона",
-          "10 листов теста уорка",
-          "3 ст. л. масла"
-        ],
-        "steps": [
-          "Отварите вермишель в кипящей воде и хорошо слейте.",
-          "Обжарьте чеснок в 1 ст. л. масла, добавьте рыбу, креветки, паприку и зиру и готовьте 4–5 минут; слейте жидкость.",
-          "Смешайте морепродукты с вермишелью, зеленью и лимонным соком, затем вмешайте большую часть взбитого яйца.",
-          "Выстелите смазанную маслом форму листами уорка, добавьте начинку, подверните края и накройте ещё листами.",
-          "Смажьте оставшимся яйцом и маслом и выпекайте при 190 °C 25–30 минут до золотистого цвета."
-        ]
-      },
-      "tips": [
-        "Берите больше морепродуктов и меньше вермишели — начинка будет богаче белком.",
-        "Хорошо отцеживайте смесь с морепродуктами, чтобы для хруста теста потребовалось меньше масла.",
-        "Подавайте один клин с большим салатом из помидоров, огурцов и зелени."
-      ],
-      "name_inline": "пастилья с морепродуктами"
-    }
+  "ar": {
+   "name": "بسطيلة ثمار البحر",
+   "origin": "المغرب",
+   "intro": "بسطيلة ثمار البحر نسخة مالحة غير حلوة من الفطيرة المغربية: عجينة الورقة المقرمشة محشوة بالروبيان والسمك الأبيض والشعيرية الرفيعة والبيض، متبلة بالثوم والأعشاب والبابريكا والكمون. تُخبز حتى تتحمر وتُقطع، وكثيراً ما تُقدَّم مقبلاً في الأعراس والتجمعات العائلية.",
+   "history": "تُعدّ بسطيلة ثمار البحر عموماً تنويعاً أحدث على بسطيلة الحمام التقليدية، وتشتهر خاصة في المدن الساحلية المغربية. وهي اليوم حاضرة بانتظام في قوائم الحفلات والمطاعم في أنحاء البلاد.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "300 غ فيليه سمك أبيض مكعبات",
+     "300 غ روبيان مقشر",
+     "100 غ شعيرية رفيعة",
+     "2 بيضة مخفوقة",
+     "3 فصوص ثوم مفرومة",
+     "حزمة بقدونس وكزبرة مفرومة",
+     "1 ملعقة صغيرة بابريكا و1 ملعقة صغيرة كمون",
+     "عصير ليمونة واحدة",
+     "10 أوراق عجينة الورقة",
+     "3 ملاعق كبيرة زيت"
+    ],
+    "steps": [
+     "اسلق الشعيرية في ماء مغلي وصفّها جيداً.",
+     "شوّح الثوم في ملعقة كبيرة زيت، وأضف السمك والروبيان والبابريكا والكمون واطهها 4–5 دقائق، ثم صفِّ السائل.",
+     "اخلط ثمار البحر مع الشعيرية والأعشاب وعصير الليمون، وأضف معظم البيض المخفوق.",
+     "بطّن صينية مدهونة بأوراق الورقة، وضع الحشوة، واطوِ الأطراف وغطِّها بمزيد من الأوراق.",
+     "ادهنها ببقية البيض والزيت واخبزها على 190 °م لمدة 25–30 دقيقة حتى تتحمر."
+    ]
+   },
+   "tips": [
+    "زِد ثمار البحر وقلّل الشعيرية لحشوة أغنى بالبروتين.",
+    "صفِّ خليط ثمار البحر جيداً لتحتاج زيتاً أقل لتقرمش العجين.",
+    "قدّم قطعة واحدة مع سلطة كبيرة من الطماطم والخيار والأعشاب."
+   ]
+  },
+  "it": {
+   "name": "Pastilla di mare",
+   "origin": "Marocco",
+   "intro": "La pastilla di mare è una versione salata, non dolce, della torta marocchina: croccante pasta warqa farcita con gamberi e pesce bianco, vermicelli sottili e uova, il tutto insaporito con aglio, erbe aromatiche, paprika e cumino. Si cuoce in forno finché è dorata e si taglia a spicchi, e compare spesso come antipasto a matrimoni e riunioni di famiglia.",
+   "history": "La pastilla di mare è generalmente considerata una variante più recente della tradizionale pastilla di piccione ed è particolarmente popolare nelle città costiere del Marocco. Oggi compare regolarmente nei menu delle feste e nei ristoranti di tutto il paese.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "300 g di filetto di pesce bianco a cubetti",
+     "300 g di gamberi sgusciati",
+     "100 g di vermicelli sottili",
+     "2 uova sbattute",
+     "3 spicchi d'aglio tritati",
+     "1 mazzetto di prezzemolo e coriandolo, tritati",
+     "1 cucchiaino di paprika, 1 cucchiaino di cumino",
+     "Succo di 1 limone",
+     "10 fogli di pasta warqa",
+     "3 cucchiai di olio"
+    ],
+    "steps": [
+     "Cuoci i vermicelli in acqua bollente e scolali bene.",
+     "Soffriggi l'aglio in 1 cucchiaio di olio, aggiungi pesce, gamberi, paprika e cumino e cuoci per 4–5 minuti; scola il liquido.",
+     "Mescola i frutti di mare con i vermicelli, le erbe e il succo di limone, poi incorpora gran parte dell'uovo sbattuto.",
+     "Fodera una tortiera unta con i fogli di warqa, aggiungi il ripieno, ripiega e copri con altri fogli.",
+     "Spennella con l'uovo rimasto e l'olio e cuoci a 190 °C per 25–30 minuti finché è dorata."
+    ]
+   },
+   "tips": [
+    "Usa più frutti di mare e meno vermicelli per un ripieno più ricco di proteine.",
+    "Scola bene il composto di frutti di mare, così serve meno olio per rendere croccante la pasta.",
+    "Servi uno spicchio con una grande insalata di pomodori, cetrioli ed erbe."
+   ],
+   "name_inline": "pastilla di mare"
+  },
+  "el": {
+   "name": "Παστίγια με θαλασσινά",
+   "origin": "Μαρόκο",
+   "intro": "Η παστίγια με θαλασσινά είναι μια αλμυρή, όχι γλυκιά, εκδοχή της μαροκινής πίτας: τραγανά φύλλα ουάρκα γεμισμένα με γαρίδες και λευκό ψάρι, λεπτό φιδέ και αυγό, όλα αρωματισμένα με σκόρδο, μυρωδικά, πάπρικα και κύμινο. Ψήνεται μέχρι να ροδίσει και κόβεται σε κομμάτια, και συχνά σερβίρεται ως ορεκτικό σε γάμους και οικογενειακές συγκεντρώσεις.",
+   "history": "Η παστίγια με θαλασσινά θεωρείται γενικά πιο πρόσφατη παραλλαγή της παραδοσιακής παστίγιας με περιστέρι και είναι ιδιαίτερα δημοφιλής στις παραθαλάσσιες πόλεις του Μαρόκου. Σήμερα εμφανίζεται συχνά σε γιορτινά μενού και σε εστιατόρια σε όλη τη χώρα.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "300 γρ. φιλέτο λευκού ψαριού σε κύβους",
+     "300 γρ. καθαρισμένες γαρίδες",
+     "100 γρ. λεπτό φιδέ",
+     "2 αυγά χτυπημένα",
+     "3 σκελίδες σκόρδο ψιλοκομμένες",
+     "1 ματσάκι μαϊντανός και κόλιανδρος, ψιλοκομμένα",
+     "1 κ.γ. πάπρικα, 1 κ.γ. κύμινο",
+     "Χυμός από 1 λεμόνι",
+     "10 φύλλα ουάρκα",
+     "3 κ.σ. λάδι"
+    ],
+    "steps": [
+     "Βράστε το φιδέ σε νερό που βράζει και στραγγίξτε καλά.",
+     "Σοτάρετε το σκόρδο σε 1 κ.σ. λάδι, προσθέστε το ψάρι, τις γαρίδες, την πάπρικα και το κύμινο και μαγειρέψτε για 4–5 λεπτά· στραγγίξτε το υγρό.",
+     "Ανακατέψτε τα θαλασσινά με το φιδέ, τα μυρωδικά και τον χυμό λεμονιού και έπειτα προσθέστε το μεγαλύτερο μέρος του χτυπημένου αυγού.",
+     "Στρώστε μια λαδωμένη φόρμα με φύλλα ουάρκα, προσθέστε τη γέμιση, διπλώστε τα φύλλα προς τα μέσα και σκεπάστε με κι άλλα φύλλα.",
+     "Αλείψτε με το υπόλοιπο αυγό και λάδι και ψήστε στους 190 °C για 25–30 λεπτά μέχρι να ροδίσει."
+    ]
+   },
+   "tips": [
+    "Βάλτε περισσότερα θαλασσινά και λιγότερο φιδέ για γέμιση με περισσότερη πρωτεΐνη.",
+    "Στραγγίξτε καλά το μείγμα θαλασσινών, ώστε να χρειαστεί λιγότερο λάδι για να τραγανίσουν τα φύλλα.",
+    "Σερβίρετε ένα κομμάτι με μια μεγάλη σαλάτα από ντομάτα, αγγούρι και μυρωδικά."
+   ],
+   "name_inline": "παστίγια με θαλασσινά"
+  },
+  "ru": {
+   "name": "Пастилья с морепродуктами",
+   "origin": "Марокко",
+   "intro": "Пастилья с морепродуктами — солёная, не сладкая вариация марокканского пирога: хрустящее тесто уорка с начинкой из креветок и белой рыбы, тонкой вермишели и яйца, приправленной чесноком, травами, паприкой и зирой. Её запекают до золотистого цвета и нарезают клиньями; она часто появляется как закуска на свадьбах и семейных встречах.",
+   "history": "Пастилья с морепродуктами обычно считается более поздним вариантом традиционной пастильи с голубем и особенно популярна в прибрежных городах Марокко. Сегодня она регулярно встречается в праздничных меню и ресторанах по всей стране.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "300 г филе белой рыбы, нарезанного кубиками",
+     "300 г очищенных креветок",
+     "100 г тонкой вермишели",
+     "2 яйца, взбитых",
+     "3 зубчика чеснока, нарубленных",
+     "1 пучок петрушки и кинзы, нарубленных",
+     "1 ч. л. паприки, 1 ч. л. зиры",
+     "Сок 1 лимона",
+     "10 листов теста уорка",
+     "3 ст. л. масла"
+    ],
+    "steps": [
+     "Отварите вермишель в кипящей воде и хорошо слейте.",
+     "Обжарьте чеснок в 1 ст. л. масла, добавьте рыбу, креветки, паприку и зиру и готовьте 4–5 минут; слейте жидкость.",
+     "Смешайте морепродукты с вермишелью, зеленью и лимонным соком, затем вмешайте большую часть взбитого яйца.",
+     "Выстелите смазанную маслом форму листами уорка, добавьте начинку, подверните края и накройте ещё листами.",
+     "Смажьте оставшимся яйцом и маслом и выпекайте при 190 °C 25–30 минут до золотистого цвета."
+    ]
+   },
+   "tips": [
+    "Берите больше морепродуктов и меньше вермишели — начинка будет богаче белком.",
+    "Хорошо отцеживайте смесь с морепродуктами, чтобы для хруста теста потребовалось меньше масла.",
+    "Подавайте один клин с большим салатом из помидоров, огурцов и зелени."
+   ],
+   "name_inline": "пастилья с морепродуктами"
+  },
+  "es": {
+   "name": "Pastilla de mariscos",
+   "origin": "Marruecos",
+   "intro": "La pastilla de mariscos es una versión salada, sin dulce, del pastel marroquí: masa warqa crujiente rellena de camarones y pescado blanco, fideos finos y huevo, sazonados con ajo, hierbas, pimentón y comino. Se hornea hasta dorar y se corta en porciones triangulares; es habitual como entrada en bodas y reuniones familiares.",
+   "history": "La pastilla de mariscos se considera en general una variante más reciente de la pastilla tradicional de pichón y es especialmente popular en las ciudades costeras de Marruecos. Hoy aparece con frecuencia en los menús de celebración y en los restaurantes de todo el país.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 90,
+    "ingredients": [
+     "300 g de filete de pescado blanco, en cubos",
+     "300 g de camarones pelados",
+     "100 g de fideos finos",
+     "2 huevos, batidos",
+     "3 dientes de ajo, picados",
+     "1 manojo de perejil y cilantro, picados",
+     "1 cdta. de pimentón, 1 cdta. de comino",
+     "Jugo de 1 limón",
+     "10 hojas de masa warqa",
+     "3 cda. de aceite"
+    ],
+    "steps": [
+     "Cuece los fideos en agua hirviendo y escúrrelos bien.",
+     "Sofríe el ajo en 1 cda. de aceite, agrega el pescado, los camarones, el pimentón y el comino y cuece de 4 a 5 minutos; escurre el líquido.",
+     "Mezcla los mariscos con los fideos, las hierbas y el jugo de limón, luego incorpora la mayor parte del huevo batido.",
+     "Forra un molde engrasado con hojas de warqa, agrega el relleno, dobla los bordes y cubre con más hojas.",
+     "Barniza con el huevo restante y el aceite y hornea a 190 °C de 25 a 30 minutos, hasta que esté dorada."
+    ]
+   },
+   "tips": [
+    "Usa más mariscos y menos fideos para un relleno con más proteína.",
+    "Escurre bien la mezcla de mariscos para necesitar menos aceite al dorar la masa.",
+    "Sirve una porción con una ensalada grande de tomate, pepino y hierbas."
+   ],
+   "name_inline": "la pastilla de mariscos"
   }
+ }
 }

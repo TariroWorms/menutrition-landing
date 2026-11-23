@@ -1,165 +1,196 @@
 {
-  "db_key": "tavuk_sis",
-  "slug": "tavuk-sis",
-  "emoji": "🍢",
-  "portion_g": 250,
-  "country": "TR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tavuk_sis",
+ "slug": "tavuk-sis",
+ "emoji": "🍢",
+ "portion_g": 250,
+ "country": "TR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken shish (tavuk şiş)",
+   "origin": "Turkey",
+   "intro": "Tavuk şiş is Turkish chicken shish kebab: cubes of chicken marinated in yogurt, paprika, grated onion and black pepper, threaded on skewers and grilled over charcoal until charred at the edges and juicy inside. The yogurt tenderises the meat. It is served with grilled peppers, tomatoes, onion salad and rice or flatbread.",
+   "history": "'Şiş' simply means skewer in Turkish. Chicken shish is a staple of Turkish kebab houses and is eaten across the Middle East, where it is known as shish tawook.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g boneless chicken, cubed",
+     "150 g plain yogurt",
+     "1 onion, grated, juice only",
+     "1 tbsp sweet paprika",
+     "1 tsp black pepper",
+     "1 tbsp oil",
+     "Salt"
+    ],
+    "steps": [
+     "Mix yogurt, onion juice, paprika, pepper, oil and salt.",
+     "Coat the chicken and marinate for at least 2 hours.",
+     "Thread onto skewers.",
+     "Grill over high heat for 10–12 minutes, turning, until cooked through and charred."
+    ]
+   },
+   "tips": [
+    "Use chicken breast for the leanest skewers.",
+    "Serve with grilled vegetables and salad instead of a large bed of rice.",
+    "The yogurt marinade needs only a little oil — 1 tbsp oil ≈ 120 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken shish (tavuk şiş)",
-      "origin": "Turkey",
-      "intro": "Tavuk şiş is Turkish chicken shish kebab: cubes of chicken marinated in yogurt, paprika, grated onion and black pepper, threaded on skewers and grilled over charcoal until charred at the edges and juicy inside. The yogurt tenderises the meat. It is served with grilled peppers, tomatoes, onion salad and rice or flatbread.",
-      "history": "'Şiş' simply means skewer in Turkish. Chicken shish is a staple of Turkish kebab houses and is eaten across the Middle East, where it is known as shish tawook.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 g boneless chicken, cubed",
-          "150 g plain yogurt",
-          "1 onion, grated, juice only",
-          "1 tbsp sweet paprika",
-          "1 tsp black pepper",
-          "1 tbsp oil",
-          "Salt"
-        ],
-        "steps": [
-          "Mix yogurt, onion juice, paprika, pepper, oil and salt.",
-          "Coat the chicken and marinate for at least 2 hours.",
-          "Thread onto skewers.",
-          "Grill over high heat for 10–12 minutes, turning, until cooked through and charred."
-        ]
-      },
-      "tips": [
-        "Use chicken breast for the leanest skewers.",
-        "Serve with grilled vegetables and salad instead of a large bed of rice.",
-        "The yogurt marinade needs only a little oil — 1 tbsp oil ≈ 120 kcal."
-      ]
-    },
-    "ar": {
-      "name": "شيش طاووق",
-      "origin": "تركيا",
-      "intro": "شيش طاووق هو كباب الدجاج التركي: مكعبات دجاج متبلة باللبن والبابريكا وعصير البصل والفلفل الأسود، تُشك في أسياخ وتُشوى على الفحم حتى تتحمّر أطرافها ويبقى داخلها طريًا. اللبن يطرّي اللحم. يُقدَّم مع الفلفل والطماطم المشوية وسلطة البصل والأرز أو الخبز.",
-      "history": "كلمة «شيش» تعني السيخ بالتركية. وشيش الدجاج من أساسيات مطاعم الكباب التركية، ويُؤكل في أنحاء الشرق الأوسط باسم شيش طاووق.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 غ دجاج بلا عظم مكعبات",
-          "150 غ لبن زبادي",
-          "1 بصلة مبشورة (العصير فقط)",
-          "1 ملعقة كبيرة بابريكا حلوة",
-          "1 ملعقة صغيرة فلفل أسود",
-          "1 ملعقة كبيرة زيت",
-          "ملح"
-        ],
-        "steps": [
-          "اخلط اللبن وعصير البصل والبابريكا والفلفل والزيت والملح.",
-          "غلّف الدجاج بالتتبيلة واتركه ساعتين على الأقل.",
-          "اشكه في الأسياخ.",
-          "اشوه على نار عالية 10–12 دقيقة مع التقليب حتى ينضج ويتحمّر."
-        ]
-      },
-      "tips": [
-        "استخدم صدر الدجاج لأخف أسياخ.",
-        "قدّمه مع خضار مشوية وسلطة بدل كمية كبيرة من الأرز.",
-        "تتبيلة اللبن تحتاج قليلًا من الزيت فقط؛ ملعقة كبيرة زيت ≈ 120 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Spiedini di pollo (tavuk şiş)",
-      "origin": "Turchia",
-      "intro": "Il tavuk şiş è lo shish kebab di pollo turco: cubetti di pollo marinati in yogurt, paprika, cipolla grattugiata e pepe nero, infilzati su spiedi e grigliati sulla brace finché sono abbrustoliti ai bordi e succosi all'interno. Lo yogurt rende la carne tenera. Si serve con peperoni e pomodori grigliati, insalata di cipolle e riso o pane piatto.",
-      "history": "«Şiş» in turco significa semplicemente spiedo. Gli spiedini di pollo sono un classico delle kebaberie turche e si mangiano in tutto il Medio Oriente, dove sono conosciuti come shish tawook.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 g di pollo disossato a cubetti",
-          "150 g di yogurt bianco",
-          "1 cipolla grattugiata, solo il succo",
-          "1 cucchiaio di paprika dolce",
-          "1 cucchiaino di pepe nero",
-          "1 cucchiaio di olio",
-          "Sale"
-        ],
-        "steps": [
-          "Mescola yogurt, succo di cipolla, paprika, pepe, olio e sale.",
-          "Ricopri il pollo con la marinata e lascialo marinare per almeno 2 ore.",
-          "Infilza i pezzi sugli spiedi.",
-          "Griglia a fuoco vivo per 10–12 minuti, girando, finché è cotto all'interno e abbrustolito."
-        ]
-      },
-      "tips": [
-        "Usa petto di pollo per gli spiedini più magri.",
-        "Servili con verdure grigliate e insalata invece che su un grande letto di riso.",
-        "La marinata allo yogurt richiede pochissimo olio: 1 cucchiaio di olio ≈ 120 kcal."
-      ]
-    },
-    "el": {
-      "name": "Σουβλάκι κοτόπουλο (ταβούκ σις)",
-      "origin": "Τουρκία",
-      "intro": "Το ταβούκ σις είναι το τουρκικό σις κεμπάπ κοτόπουλο: κύβοι κοτόπουλου μαριναρισμένοι σε γιαούρτι, πάπρικα, τριμμένο κρεμμύδι και μαύρο πιπέρι, περασμένοι σε σουβλάκια και ψημένοι στα κάρβουνα μέχρι να καψαλιστούν στις άκρες και να μείνουν ζουμεροί μέσα. Το γιαούρτι μαλακώνει το κρέας. Σερβίρεται με ψητές πιπεριές, ντομάτες, σαλάτα κρεμμυδιού και ρύζι ή πίτα.",
-      "history": "«Σις» σημαίνει απλώς σούβλα στα τουρκικά. Το σουβλάκι κοτόπουλο είναι βασικό πιάτο των τουρκικών κεμπαπτζίδικων και τρώγεται σε όλη τη Μέση Ανατολή, όπου είναι γνωστό ως σις ταούκ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 γρ. κοτόπουλο χωρίς κόκαλα, σε κύβους",
-          "150 γρ. γιαούρτι",
-          "1 κρεμμύδι, τριμμένο, μόνο ο χυμός",
-          "1 κ.σ. γλυκιά πάπρικα",
-          "1 κ.γ. μαύρο πιπέρι",
-          "1 κ.σ. λάδι",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Ανακατέψτε το γιαούρτι, τον χυμό κρεμμυδιού, την πάπρικα, το πιπέρι, το λάδι και το αλάτι.",
-          "Αλείψτε καλά το κοτόπουλο και αφήστε το να μαριναριστεί για τουλάχιστον 2 ώρες.",
-          "Περάστε τα κομμάτια σε σουβλάκια.",
-          "Ψήστε σε δυνατή φωτιά για 10–12 λεπτά, γυρίζοντας, μέχρι να ψηθούν καλά και να καψαλιστούν."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε στήθος κοτόπουλο για τα πιο άπαχα σουβλάκια.",
-        "Σερβίρετε με ψητά λαχανικά και σαλάτα αντί για μεγάλη μερίδα ρύζι.",
-        "Η μαρινάδα με γιαούρτι θέλει ελάχιστο λάδι — 1 κ.σ. λάδι ≈ 120 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Куриный шиш (тавук шиш)",
-      "origin": "Турция",
-      "intro": "Тавук шиш — турецкий куриный шиш-кебаб: кубики курицы, маринованные в йогурте, паприке, натёртом луке и чёрном перце, нанизанные на шпажки и жаренные на углях до подрумянивания по краям и сочности внутри. Йогурт делает мясо нежным. Подаётся с жареными перцами, помидорами, луковым салатом и рисом или лепёшкой.",
-      "history": "«Шиш» по-турецки просто означает шпажку. Куриный шиш — основа турецких кебабных, его едят по всему Ближнему Востоку, где он известен как шиш-таук.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 г курицы без костей, нарезанной кубиками",
-          "150 г натурального йогурта",
-          "1 луковица, натёртая, только сок",
-          "1 ст. л. сладкой паприки",
-          "1 ч. л. чёрного перца",
-          "1 ст. л. масла",
-          "Соль"
-        ],
-        "steps": [
-          "Смешайте йогурт, луковый сок, паприку, перец, масло и соль.",
-          "Обваляйте курицу в маринаде и мариновайте не менее 2 часов.",
-          "Нанижите на шпажки.",
-          "Жарьте на сильном огне 10–12 минут, переворачивая, до готовности и подрумянивания."
-        ]
-      },
-      "tips": [
-        "Берите куриную грудку для самых нежирных шпажек.",
-        "Подавайте с овощами-гриль и салатом вместо большой порции риса.",
-        "Для йогуртового маринада достаточно немного масла — 1 ст. л. масла ≈ 120 ккал."
-      ],
-      "name_inline": "куриный шиш"
-    }
+  "ar": {
+   "name": "شيش طاووق",
+   "origin": "تركيا",
+   "intro": "شيش طاووق هو كباب الدجاج التركي: مكعبات دجاج متبلة باللبن والبابريكا وعصير البصل والفلفل الأسود، تُشك في أسياخ وتُشوى على الفحم حتى تتحمّر أطرافها ويبقى داخلها طريًا. اللبن يطرّي اللحم. يُقدَّم مع الفلفل والطماطم المشوية وسلطة البصل والأرز أو الخبز.",
+   "history": "كلمة «شيش» تعني السيخ بالتركية. وشيش الدجاج من أساسيات مطاعم الكباب التركية، ويُؤكل في أنحاء الشرق الأوسط باسم شيش طاووق.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 غ دجاج بلا عظم مكعبات",
+     "150 غ لبن زبادي",
+     "1 بصلة مبشورة (العصير فقط)",
+     "1 ملعقة كبيرة بابريكا حلوة",
+     "1 ملعقة صغيرة فلفل أسود",
+     "1 ملعقة كبيرة زيت",
+     "ملح"
+    ],
+    "steps": [
+     "اخلط اللبن وعصير البصل والبابريكا والفلفل والزيت والملح.",
+     "غلّف الدجاج بالتتبيلة واتركه ساعتين على الأقل.",
+     "اشكه في الأسياخ.",
+     "اشوه على نار عالية 10–12 دقيقة مع التقليب حتى ينضج ويتحمّر."
+    ]
+   },
+   "tips": [
+    "استخدم صدر الدجاج لأخف أسياخ.",
+    "قدّمه مع خضار مشوية وسلطة بدل كمية كبيرة من الأرز.",
+    "تتبيلة اللبن تحتاج قليلًا من الزيت فقط؛ ملعقة كبيرة زيت ≈ 120 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Spiedini di pollo (tavuk şiş)",
+   "origin": "Turchia",
+   "intro": "Il tavuk şiş è lo shish kebab di pollo turco: cubetti di pollo marinati in yogurt, paprika, cipolla grattugiata e pepe nero, infilzati su spiedi e grigliati sulla brace finché sono abbrustoliti ai bordi e succosi all'interno. Lo yogurt rende la carne tenera. Si serve con peperoni e pomodori grigliati, insalata di cipolle e riso o pane piatto.",
+   "history": "«Şiş» in turco significa semplicemente spiedo. Gli spiedini di pollo sono un classico delle kebaberie turche e si mangiano in tutto il Medio Oriente, dove sono conosciuti come shish tawook.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g di pollo disossato a cubetti",
+     "150 g di yogurt bianco",
+     "1 cipolla grattugiata, solo il succo",
+     "1 cucchiaio di paprika dolce",
+     "1 cucchiaino di pepe nero",
+     "1 cucchiaio di olio",
+     "Sale"
+    ],
+    "steps": [
+     "Mescola yogurt, succo di cipolla, paprika, pepe, olio e sale.",
+     "Ricopri il pollo con la marinata e lascialo marinare per almeno 2 ore.",
+     "Infilza i pezzi sugli spiedi.",
+     "Griglia a fuoco vivo per 10–12 minuti, girando, finché è cotto all'interno e abbrustolito."
+    ]
+   },
+   "tips": [
+    "Usa petto di pollo per gli spiedini più magri.",
+    "Servili con verdure grigliate e insalata invece che su un grande letto di riso.",
+    "La marinata allo yogurt richiede pochissimo olio: 1 cucchiaio di olio ≈ 120 kcal."
+   ]
+  },
+  "el": {
+   "name": "Σουβλάκι κοτόπουλο (ταβούκ σις)",
+   "origin": "Τουρκία",
+   "intro": "Το ταβούκ σις είναι το τουρκικό σις κεμπάπ κοτόπουλο: κύβοι κοτόπουλου μαριναρισμένοι σε γιαούρτι, πάπρικα, τριμμένο κρεμμύδι και μαύρο πιπέρι, περασμένοι σε σουβλάκια και ψημένοι στα κάρβουνα μέχρι να καψαλιστούν στις άκρες και να μείνουν ζουμεροί μέσα. Το γιαούρτι μαλακώνει το κρέας. Σερβίρεται με ψητές πιπεριές, ντομάτες, σαλάτα κρεμμυδιού και ρύζι ή πίτα.",
+   "history": "«Σις» σημαίνει απλώς σούβλα στα τουρκικά. Το σουβλάκι κοτόπουλο είναι βασικό πιάτο των τουρκικών κεμπαπτζίδικων και τρώγεται σε όλη τη Μέση Ανατολή, όπου είναι γνωστό ως σις ταούκ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 γρ. κοτόπουλο χωρίς κόκαλα, σε κύβους",
+     "150 γρ. γιαούρτι",
+     "1 κρεμμύδι, τριμμένο, μόνο ο χυμός",
+     "1 κ.σ. γλυκιά πάπρικα",
+     "1 κ.γ. μαύρο πιπέρι",
+     "1 κ.σ. λάδι",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Ανακατέψτε το γιαούρτι, τον χυμό κρεμμυδιού, την πάπρικα, το πιπέρι, το λάδι και το αλάτι.",
+     "Αλείψτε καλά το κοτόπουλο και αφήστε το να μαριναριστεί για τουλάχιστον 2 ώρες.",
+     "Περάστε τα κομμάτια σε σουβλάκια.",
+     "Ψήστε σε δυνατή φωτιά για 10–12 λεπτά, γυρίζοντας, μέχρι να ψηθούν καλά και να καψαλιστούν."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε στήθος κοτόπουλο για τα πιο άπαχα σουβλάκια.",
+    "Σερβίρετε με ψητά λαχανικά και σαλάτα αντί για μεγάλη μερίδα ρύζι.",
+    "Η μαρινάδα με γιαούρτι θέλει ελάχιστο λάδι — 1 κ.σ. λάδι ≈ 120 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Куриный шиш (тавук шиш)",
+   "origin": "Турция",
+   "intro": "Тавук шиш — турецкий куриный шиш-кебаб: кубики курицы, маринованные в йогурте, паприке, натёртом луке и чёрном перце, нанизанные на шпажки и жаренные на углях до подрумянивания по краям и сочности внутри. Йогурт делает мясо нежным. Подаётся с жареными перцами, помидорами, луковым салатом и рисом или лепёшкой.",
+   "history": "«Шиш» по-турецки просто означает шпажку. Куриный шиш — основа турецких кебабных, его едят по всему Ближнему Востоку, где он известен как шиш-таук.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 г курицы без костей, нарезанной кубиками",
+     "150 г натурального йогурта",
+     "1 луковица, натёртая, только сок",
+     "1 ст. л. сладкой паприки",
+     "1 ч. л. чёрного перца",
+     "1 ст. л. масла",
+     "Соль"
+    ],
+    "steps": [
+     "Смешайте йогурт, луковый сок, паприку, перец, масло и соль.",
+     "Обваляйте курицу в маринаде и мариновайте не менее 2 часов.",
+     "Нанижите на шпажки.",
+     "Жарьте на сильном огне 10–12 минут, переворачивая, до готовности и подрумянивания."
+    ]
+   },
+   "tips": [
+    "Берите куриную грудку для самых нежирных шпажек.",
+    "Подавайте с овощами-гриль и салатом вместо большой порции риса.",
+    "Для йогуртового маринада достаточно немного масла — 1 ст. л. масла ≈ 120 ккал."
+   ],
+   "name_inline": "куриный шиш"
+  },
+  "es": {
+   "name": "Pollo shish (tavuk şiş)",
+   "origin": "Turquía",
+   "intro": "El tavuk şiş es el kebab turco de pollo en brocheta: cubos de pollo marinados en yogur, pimentón, cebolla rallada y pimienta negra, ensartados en brochetas y asados sobre carbón hasta que los bordes quedan chamuscados y el interior jugoso. El yogur ablanda la carne. Se sirve con pimientos y tomates asados, ensalada de cebolla y arroz o pan plano.",
+   "history": "«Şiş» significa simplemente brocheta en turco. El pollo shish es un básico de los restaurantes de kebab turcos y se come en todo Medio Oriente, donde se conoce como shish tawook.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g de pollo sin hueso, en cubos",
+     "150 g de yogur natural",
+     "1 cebolla, rallada, solo el jugo",
+     "1 cda. de pimentón dulce",
+     "1 cdta. de pimienta negra",
+     "1 cda. de aceite",
+     "Sal"
+    ],
+    "steps": [
+     "Mezcla el yogur, el jugo de cebolla, el pimentón, la pimienta, el aceite y la sal.",
+     "Cubre el pollo con la mezcla y deja marinar al menos 2 horas.",
+     "Ensarta en brochetas.",
+     "Asa a fuego alto de 10 a 12 minutos, dando vuelta, hasta que esté cocido y chamuscado."
+    ]
+   },
+   "tips": [
+    "Usa pechuga de pollo para obtener las brochetas más magras.",
+    "Sirve con verduras asadas y ensalada en lugar de una gran cama de arroz.",
+    "La marinada de yogur necesita poco aceite: 1 cda. de aceite ≈ 120 kcal."
+   ],
+   "name_inline": "el tavuk şiş"
   }
+ }
 }

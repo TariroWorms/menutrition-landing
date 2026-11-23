@@ -1,170 +1,202 @@
 {
-  "db_key": "kafta_bil_sanieh",
-  "slug": "kafta-bil-sanieh",
-  "emoji": "🥘",
-  "portion_g": 350,
-  "country": "LB",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kafta_bil_sanieh",
+ "slug": "kafta-bil-sanieh",
+ "emoji": "🥘",
+ "portion_g": 350,
+ "country": "LB",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Kafta bil sanieh",
+   "origin": "Lebanon · Levant",
+   "intro": "Kafta bil sanieh is a Levantine tray bake of seasoned minced lamb mixed with parsley and onion, pressed into patties and arranged with sliced potatoes and tomatoes. Everything bakes in a light tomato sauce until the meat is juicy and the potatoes are soft and full of flavour. It is a simple, hearty family dinner, often served with a fresh salad.",
+   "history": "Sanieh means “tray” in Levantine Arabic, and dishes baked this way in a round tray are typical of home cooking in Lebanon, Syria, Palestine and Jordan. Kafta bil sanieh remains an everyday family dish across the region.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 g minced lamb",
+     "1 onion, grated",
+     "30 g parsley, chopped",
+     "3 potatoes, sliced",
+     "3 tomatoes, sliced",
+     "300 ml tomato sauce mixed with 200 ml water",
+     "1 tbsp oil",
+     "1 tsp seven-spice or allspice, salt and pepper"
+    ],
+    "steps": [
+     "Mix the lamb with the onion, parsley, spices and salt; shape into flat patties.",
+     "Lightly brush the potato slices with oil and bake at 200 °C for 15 minutes.",
+     "Arrange the patties, potatoes and tomatoes in rows in a tray.",
+     "Pour the tomato sauce over, cover with foil and bake for 30 minutes, then uncover and bake for 10 more minutes."
+    ]
+   },
+   "tips": [
+    "Use lean minced lamb or mix it with lean beef.",
+    "Bake the potatoes instead of frying them, as in this recipe.",
+    "Replace part of the potatoes with zucchini or eggplant slices."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Kafta bil sanieh",
-      "origin": "Lebanon · Levant",
-      "intro": "Kafta bil sanieh is a Levantine tray bake of seasoned minced lamb mixed with parsley and onion, pressed into patties and arranged with sliced potatoes and tomatoes. Everything bakes in a light tomato sauce until the meat is juicy and the potatoes are soft and full of flavour. It is a simple, hearty family dinner, often served with a fresh salad.",
-      "history": "Sanieh means “tray” in Levantine Arabic, and dishes baked this way in a round tray are typical of home cooking in Lebanon, Syria, Palestine and Jordan. Kafta bil sanieh remains an everyday family dish across the region.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 g minced lamb",
-          "1 onion, grated",
-          "30 g parsley, chopped",
-          "3 potatoes, sliced",
-          "3 tomatoes, sliced",
-          "300 ml tomato sauce mixed with 200 ml water",
-          "1 tbsp oil",
-          "1 tsp seven-spice or allspice, salt and pepper"
-        ],
-        "steps": [
-          "Mix the lamb with the onion, parsley, spices and salt; shape into flat patties.",
-          "Lightly brush the potato slices with oil and bake at 200 °C for 15 minutes.",
-          "Arrange the patties, potatoes and tomatoes in rows in a tray.",
-          "Pour the tomato sauce over, cover with foil and bake for 30 minutes, then uncover and bake for 10 more minutes."
-        ]
-      },
-      "tips": [
-        "Use lean minced lamb or mix it with lean beef.",
-        "Bake the potatoes instead of frying them, as in this recipe.",
-        "Replace part of the potatoes with zucchini or eggplant slices."
-      ]
-    },
-    "ar": {
-      "name": "كفتة بالصينية",
-      "origin": "لبنان · بلاد الشام",
-      "intro": "الكفتة بالصينية طبق شامي يُخبز في الصينية، فيه لحم ضأن مفروم متبّل ممزوج بالبقدونس والبصل، يُشكَّل أقراصاً ويُرتَّب مع شرائح البطاطا والطماطم. يُخبز كل شيء في صلصة طماطم خفيفة حتى يصبح اللحم طرياً عصيرياً والبطاطا لينة غنية بالنكهة. إنه عشاء عائلي بسيط ومشبع، يُقدَّم غالباً مع سلطة طازجة.",
-      "history": "تعني «الصينية» في اللهجة الشامية الصحن المعدني المستدير، والأطباق المخبوزة بهذه الطريقة سمة من سمات الطبخ المنزلي في لبنان وسوريا وفلسطين والأردن. ولا تزال الكفتة بالصينية طبقاً عائلياً يومياً في المنطقة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 غ لحم ضأن مفروم",
-          "1 بصلة، مبشورة",
-          "30 غ بقدونس، مفروم",
-          "3 حبات بطاطا، شرائح",
-          "3 حبات طماطم، شرائح",
-          "300 مل صلصة طماطم ممزوجة بـ200 مل ماء",
-          "1 ملعقة كبيرة زيت",
-          "1 ملعقة صغيرة سبع بهارات أو بهار حلو، ملح وفلفل"
-        ],
-        "steps": [
-          "اخلط اللحم بالبصل والبقدونس والبهارات والملح، وشكّله أقراصاً مسطحة.",
-          "ادهن شرائح البطاطا بقليل من الزيت واخبزها على 200 درجة مئوية 15 دقيقة.",
-          "رتّب أقراص الكفتة والبطاطا والطماطم صفوفاً في الصينية.",
-          "اسكب صلصة الطماطم فوقها، وغطِّها بورق الألمنيوم واخبزها 30 دقيقة، ثم اكشفها واخبزها 10 دقائق أخرى."
-        ]
-      },
-      "tips": [
-        "استخدم لحم ضأن مفروماً قليل الدهن أو اخلطه بلحم بقري قليل الدهن.",
-        "اخبز البطاطا بدل قليها كما في هذه الوصفة.",
-        "استبدل جزءاً من البطاطا بشرائح الكوسا أو الباذنجان."
-      ]
-    },
-    "it": {
-      "name": "Kafta bil sanieh",
-      "origin": "Libano · Levante",
-      "intro": "La kafta bil sanieh è una teglia al forno levantina di agnello macinato insaporito con prezzemolo e cipolla, modellato in polpette schiacciate e disposto con fette di patate e pomodori. Il tutto cuoce in una leggera salsa di pomodoro finché la carne è succosa e le patate sono morbide e piene di sapore. È una cena di famiglia semplice e sostanziosa, spesso servita con un'insalata fresca.",
-      "history": "Sanieh nell'arabo levantino significa «teglia», e i piatti cotti così in una teglia rotonda sono tipici della cucina casalinga di Libano, Siria, Palestina e Giordania. La kafta bil sanieh resta un piatto di famiglia di tutti i giorni in tutta la regione.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 g di agnello macinato",
-          "1 cipolla grattugiata",
-          "30 g di prezzemolo tritato",
-          "3 patate a fette",
-          "3 pomodori a fette",
-          "300 ml di salsa di pomodoro mescolata con 200 ml di acqua",
-          "1 cucchiaio di olio",
-          "1 cucchiaino di sette spezie o pimento, sale e pepe"
-        ],
-        "steps": [
-          "Mescola l'agnello con cipolla, prezzemolo, spezie e sale; forma delle polpette schiacciate.",
-          "Spennella leggermente d'olio le fette di patate e cuocile in forno a 200 °C per 15 minuti.",
-          "Disponi polpette, patate e pomodori a file in una teglia.",
-          "Versa sopra la salsa di pomodoro, copri con alluminio e cuoci per 30 minuti, poi scopri e cuoci altri 10 minuti."
-        ]
-      },
-      "tips": [
-        "Usa agnello macinato magro o mescolalo con manzo magro.",
-        "Cuoci le patate in forno invece di friggerle, come in questa ricetta.",
-        "Sostituisci parte delle patate con fette di zucchina o melanzana."
-      ]
-    },
-    "el": {
-      "name": "Κάφτα μπιλ σανίγιε",
-      "origin": "Λίβανος · Λεβάντε",
-      "intro": "Η κάφτα μπιλ σανίγιε είναι φαγητό ταψιού του Λεβάντε με καρυκευμένο αρνίσιο κιμά ανακατεμένο με μαϊντανό και κρεμμύδι, πλασμένο σε πλακέ μπιφτέκια και στρωμένο με φέτες πατάτας και ντομάτας. Όλα ψήνονται σε ελαφριά σάλτσα ντομάτας μέχρι το κρέας να γίνει ζουμερό και οι πατάτες μαλακές και γεμάτες γεύση. Είναι απλό, χορταστικό οικογενειακό δείπνο, που σερβίρεται συχνά με φρέσκια σαλάτα.",
-      "history": "Σανίγιε στα αραβικά του Λεβάντε σημαίνει «ταψί», και τα φαγητά που ψήνονται έτσι σε στρογγυλό ταψί είναι χαρακτηριστικά της σπιτικής κουζίνας στον Λίβανο, τη Συρία, την Παλαιστίνη και την Ιορδανία. Η κάφτα μπιλ σανίγιε παραμένει καθημερινό οικογενειακό φαγητό σε όλη την περιοχή.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 γρ. αρνίσιος κιμάς",
-          "1 κρεμμύδι, τριμμένο",
-          "30 γρ. μαϊντανός, ψιλοκομμένος",
-          "3 πατάτες, σε φέτες",
-          "3 ντομάτες, σε φέτες",
-          "300 ml σάλτσα ντομάτας ανακατεμένη με 200 ml νερό",
-          "1 κ.σ. λάδι",
-          "1 κ.γ. επτά μπαχαρικά ή μπαχάρι, αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Ανακατέψτε το αρνί με το κρεμμύδι, τον μαϊντανό, τα μπαχαρικά και το αλάτι· πλάστε πλακέ μπιφτέκια.",
-          "Αλείψτε ελαφρά τις φέτες πατάτας με λάδι και ψήστε στους 200 °C για 15 λεπτά.",
-          "Στρώστε τα μπιφτέκια, τις πατάτες και τις ντομάτες σε σειρές σε ταψί.",
-          "Ρίξτε από πάνω τη σάλτσα ντομάτας, σκεπάστε με αλουμινόχαρτο και ψήστε για 30 λεπτά, έπειτα ξεσκεπάστε και ψήστε για 10 λεπτά ακόμη."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο αρνίσιο κιμά ή ανακατέψτε τον με άπαχο μοσχαρίσιο.",
-        "Ψήστε τις πατάτες στον φούρνο αντί να τις τηγανίσετε, όπως σε αυτή τη συνταγή.",
-        "Αντικαταστήστε μέρος των πατατών με φέτες κολοκυθιού ή μελιτζάνας."
-      ]
-    },
-    "ru": {
-      "name": "Кафта биль саниех",
-      "origin": "Ливан · Левант",
-      "intro": "Кафта биль саниех — левантийская запеканка на противне из приправленного бараньего фарша с петрушкой и луком, сформированного в котлеты и уложенного с ломтиками картофеля и помидоров. Всё запекается в лёгком томатном соусе, пока мясо не станет сочным, а картофель мягким и насыщенным вкусом. Это простой сытный семейный ужин, часто с свежим салатом.",
-      "history": "Саниех означает «противень» в левантийском арабском, а блюда, запекаемые таким образом на круглом противне, типичны для домашней кухни Ливана, Сирии, Палестины и Иордании. Кафта биль саниех остаётся повседневным семейным блюдом по всему региону.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 75,
-        "ingredients": [
-          "600 г бараньего фарша",
-          "1 луковица, натёртая",
-          "30 г петрушки, нарезанной",
-          "3 картофелины, ломтиками",
-          "3 помидора, ломтиками",
-          "300 мл томатного соуса, смешанного с 200 мл воды",
-          "1 ст. л. масла",
-          "1 ч. л. смеси семи специй или душистого перца, соль и перец"
-        ],
-        "steps": [
-          "Смешайте баранину с луком, петрушкой, специями и солью; сформируйте плоские котлеты.",
-          "Слегка смажьте ломтики картофеля маслом и запекайте при 200 °C 15 минут.",
-          "Выложите котлеты, картофель и помидоры рядами на противень.",
-          "Залейте томатным соусом, накройте фольгой и запекайте 30 минут, затем снимите фольгу и запекайте ещё 10 минут."
-        ]
-      },
-      "tips": [
-        "Берите постный бараний фарш или смешайте его с постной говядиной.",
-        "Запекайте картофель вместо жарки, как в этом рецепте.",
-        "Замените часть картофеля ломтиками цукини или баклажана."
-      ],
-      "name_inline": "кафта биль саниех"
-    }
+  "ar": {
+   "name": "كفتة بالصينية",
+   "origin": "لبنان · بلاد الشام",
+   "intro": "الكفتة بالصينية طبق شامي يُخبز في الصينية، فيه لحم ضأن مفروم متبّل ممزوج بالبقدونس والبصل، يُشكَّل أقراصاً ويُرتَّب مع شرائح البطاطا والطماطم. يُخبز كل شيء في صلصة طماطم خفيفة حتى يصبح اللحم طرياً عصيرياً والبطاطا لينة غنية بالنكهة. إنه عشاء عائلي بسيط ومشبع، يُقدَّم غالباً مع سلطة طازجة.",
+   "history": "تعني «الصينية» في اللهجة الشامية الصحن المعدني المستدير، والأطباق المخبوزة بهذه الطريقة سمة من سمات الطبخ المنزلي في لبنان وسوريا وفلسطين والأردن. ولا تزال الكفتة بالصينية طبقاً عائلياً يومياً في المنطقة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 غ لحم ضأن مفروم",
+     "1 بصلة، مبشورة",
+     "30 غ بقدونس، مفروم",
+     "3 حبات بطاطا، شرائح",
+     "3 حبات طماطم، شرائح",
+     "300 مل صلصة طماطم ممزوجة بـ200 مل ماء",
+     "1 ملعقة كبيرة زيت",
+     "1 ملعقة صغيرة سبع بهارات أو بهار حلو، ملح وفلفل"
+    ],
+    "steps": [
+     "اخلط اللحم بالبصل والبقدونس والبهارات والملح، وشكّله أقراصاً مسطحة.",
+     "ادهن شرائح البطاطا بقليل من الزيت واخبزها على 200 درجة مئوية 15 دقيقة.",
+     "رتّب أقراص الكفتة والبطاطا والطماطم صفوفاً في الصينية.",
+     "اسكب صلصة الطماطم فوقها، وغطِّها بورق الألمنيوم واخبزها 30 دقيقة، ثم اكشفها واخبزها 10 دقائق أخرى."
+    ]
+   },
+   "tips": [
+    "استخدم لحم ضأن مفروماً قليل الدهن أو اخلطه بلحم بقري قليل الدهن.",
+    "اخبز البطاطا بدل قليها كما في هذه الوصفة.",
+    "استبدل جزءاً من البطاطا بشرائح الكوسا أو الباذنجان."
+   ]
+  },
+  "it": {
+   "name": "Kafta bil sanieh",
+   "origin": "Libano · Levante",
+   "intro": "La kafta bil sanieh è una teglia al forno levantina di agnello macinato insaporito con prezzemolo e cipolla, modellato in polpette schiacciate e disposto con fette di patate e pomodori. Il tutto cuoce in una leggera salsa di pomodoro finché la carne è succosa e le patate sono morbide e piene di sapore. È una cena di famiglia semplice e sostanziosa, spesso servita con un'insalata fresca.",
+   "history": "Sanieh nell'arabo levantino significa «teglia», e i piatti cotti così in una teglia rotonda sono tipici della cucina casalinga di Libano, Siria, Palestina e Giordania. La kafta bil sanieh resta un piatto di famiglia di tutti i giorni in tutta la regione.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 g di agnello macinato",
+     "1 cipolla grattugiata",
+     "30 g di prezzemolo tritato",
+     "3 patate a fette",
+     "3 pomodori a fette",
+     "300 ml di salsa di pomodoro mescolata con 200 ml di acqua",
+     "1 cucchiaio di olio",
+     "1 cucchiaino di sette spezie o pimento, sale e pepe"
+    ],
+    "steps": [
+     "Mescola l'agnello con cipolla, prezzemolo, spezie e sale; forma delle polpette schiacciate.",
+     "Spennella leggermente d'olio le fette di patate e cuocile in forno a 200 °C per 15 minuti.",
+     "Disponi polpette, patate e pomodori a file in una teglia.",
+     "Versa sopra la salsa di pomodoro, copri con alluminio e cuoci per 30 minuti, poi scopri e cuoci altri 10 minuti."
+    ]
+   },
+   "tips": [
+    "Usa agnello macinato magro o mescolalo con manzo magro.",
+    "Cuoci le patate in forno invece di friggerle, come in questa ricetta.",
+    "Sostituisci parte delle patate con fette di zucchina o melanzana."
+   ]
+  },
+  "el": {
+   "name": "Κάφτα μπιλ σανίγιε",
+   "origin": "Λίβανος · Λεβάντε",
+   "intro": "Η κάφτα μπιλ σανίγιε είναι φαγητό ταψιού του Λεβάντε με καρυκευμένο αρνίσιο κιμά ανακατεμένο με μαϊντανό και κρεμμύδι, πλασμένο σε πλακέ μπιφτέκια και στρωμένο με φέτες πατάτας και ντομάτας. Όλα ψήνονται σε ελαφριά σάλτσα ντομάτας μέχρι το κρέας να γίνει ζουμερό και οι πατάτες μαλακές και γεμάτες γεύση. Είναι απλό, χορταστικό οικογενειακό δείπνο, που σερβίρεται συχνά με φρέσκια σαλάτα.",
+   "history": "Σανίγιε στα αραβικά του Λεβάντε σημαίνει «ταψί», και τα φαγητά που ψήνονται έτσι σε στρογγυλό ταψί είναι χαρακτηριστικά της σπιτικής κουζίνας στον Λίβανο, τη Συρία, την Παλαιστίνη και την Ιορδανία. Η κάφτα μπιλ σανίγιε παραμένει καθημερινό οικογενειακό φαγητό σε όλη την περιοχή.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 γρ. αρνίσιος κιμάς",
+     "1 κρεμμύδι, τριμμένο",
+     "30 γρ. μαϊντανός, ψιλοκομμένος",
+     "3 πατάτες, σε φέτες",
+     "3 ντομάτες, σε φέτες",
+     "300 ml σάλτσα ντομάτας ανακατεμένη με 200 ml νερό",
+     "1 κ.σ. λάδι",
+     "1 κ.γ. επτά μπαχαρικά ή μπαχάρι, αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Ανακατέψτε το αρνί με το κρεμμύδι, τον μαϊντανό, τα μπαχαρικά και το αλάτι· πλάστε πλακέ μπιφτέκια.",
+     "Αλείψτε ελαφρά τις φέτες πατάτας με λάδι και ψήστε στους 200 °C για 15 λεπτά.",
+     "Στρώστε τα μπιφτέκια, τις πατάτες και τις ντομάτες σε σειρές σε ταψί.",
+     "Ρίξτε από πάνω τη σάλτσα ντομάτας, σκεπάστε με αλουμινόχαρτο και ψήστε για 30 λεπτά, έπειτα ξεσκεπάστε και ψήστε για 10 λεπτά ακόμη."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο αρνίσιο κιμά ή ανακατέψτε τον με άπαχο μοσχαρίσιο.",
+    "Ψήστε τις πατάτες στον φούρνο αντί να τις τηγανίσετε, όπως σε αυτή τη συνταγή.",
+    "Αντικαταστήστε μέρος των πατατών με φέτες κολοκυθιού ή μελιτζάνας."
+   ]
+  },
+  "ru": {
+   "name": "Кафта биль саниех",
+   "origin": "Ливан · Левант",
+   "intro": "Кафта биль саниех — левантийская запеканка на противне из приправленного бараньего фарша с петрушкой и луком, сформированного в котлеты и уложенного с ломтиками картофеля и помидоров. Всё запекается в лёгком томатном соусе, пока мясо не станет сочным, а картофель мягким и насыщенным вкусом. Это простой сытный семейный ужин, часто с свежим салатом.",
+   "history": "Саниех означает «противень» в левантийском арабском, а блюда, запекаемые таким образом на круглом противне, типичны для домашней кухни Ливана, Сирии, Палестины и Иордании. Кафта биль саниех остаётся повседневным семейным блюдом по всему региону.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 г бараньего фарша",
+     "1 луковица, натёртая",
+     "30 г петрушки, нарезанной",
+     "3 картофелины, ломтиками",
+     "3 помидора, ломтиками",
+     "300 мл томатного соуса, смешанного с 200 мл воды",
+     "1 ст. л. масла",
+     "1 ч. л. смеси семи специй или душистого перца, соль и перец"
+    ],
+    "steps": [
+     "Смешайте баранину с луком, петрушкой, специями и солью; сформируйте плоские котлеты.",
+     "Слегка смажьте ломтики картофеля маслом и запекайте при 200 °C 15 минут.",
+     "Выложите котлеты, картофель и помидоры рядами на противень.",
+     "Залейте томатным соусом, накройте фольгой и запекайте 30 минут, затем снимите фольгу и запекайте ещё 10 минут."
+    ]
+   },
+   "tips": [
+    "Берите постный бараний фарш или смешайте его с постной говядиной.",
+    "Запекайте картофель вместо жарки, как в этом рецепте.",
+    "Замените часть картофеля ломтиками цукини или баклажана."
+   ],
+   "name_inline": "кафта биль саниех"
+  },
+  "es": {
+   "name": "Kafta bil sanieh",
+   "origin": "Líbano · Levante",
+   "intro": "La kafta bil sanieh es un plato levantino al horno, hecho con cordero molido sazonado, mezclado con perejil y cebolla, formado en hamburguesas y acomodado en una charola con rodajas de papa y tomate. Todo se hornea en una salsa de tomate ligera hasta que la carne queda jugosa y las papas suaves y llenas de sabor. Es una cena familiar sencilla y sustanciosa, que a menudo se sirve con una ensalada fresca.",
+   "history": "Sanieh significa «charola» en árabe levantino, y los platos horneados así en una charola redonda son típicos de la cocina casera de Líbano, Siria, Palestina y Jordania. La kafta bil sanieh sigue siendo un plato familiar cotidiano en toda la región.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 75,
+    "ingredients": [
+     "600 g de cordero molido",
+     "1 cebolla, rallada",
+     "30 g de perejil, picado",
+     "3 papas, en rodajas",
+     "3 tomates, en rodajas",
+     "300 ml de salsa de tomate mezclada con 200 ml de agua",
+     "1 cda. de aceite",
+     "1 cdta. de siete especias o pimienta de Jamaica, sal y pimienta"
+    ],
+    "steps": [
+     "Mezcla el cordero con la cebolla, el perejil, las especias y la sal; forma hamburguesas planas.",
+     "Barniza ligeramente las rodajas de papa con aceite y hornéalas a 200 °C durante 15 minutos.",
+     "Acomoda en hileras las hamburguesas, las papas y los tomates en una charola.",
+     "Vierte la salsa de tomate, cubre con papel aluminio y hornea 30 minutos; luego destapa y hornea 10 minutos más."
+    ]
+   },
+   "tips": [
+    "Usa cordero molido magro o mézclalo con res magra.",
+    "Hornea las papas en lugar de freírlas, como en esta receta.",
+    "Sustituye parte de las papas por rodajas de calabacita o berenjena."
+   ],
+   "name_inline": "la kafta bil sanieh"
   }
+ }
 }

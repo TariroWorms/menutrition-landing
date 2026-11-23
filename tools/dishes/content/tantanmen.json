@@ -1,180 +1,214 @@
 {
-  "db_key": "tantanmen",
-  "slug": "tantanmen",
-  "emoji": "🍜",
-  "portion_g": 550,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tantanmen",
+ "slug": "tantanmen",
+ "emoji": "🍜",
+ "portion_g": 550,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tantanmen",
+   "origin": "Japan · adapted from Sichuan, China",
+   "intro": "Tantanmen is a Japanese ramen bowl of wheat noodles in a rich, nutty broth built on sesame paste and spiked with chili oil. It is topped with savoury minced pork and quickly blanched bok choy. The soup is creamy, spicy and slightly sweet, and the noodles soak up the sesame flavour. It is served piping hot in a deep bowl.",
+   "history": "Tantanmen is the Japanese take on Sichuan dandan noodles, which were traditionally sold by street vendors from a carrying pole. The Japanese version is usually credited to Chinese chefs working in Japan in the mid-20th century, who turned the dish into a soup to suit local tastes. Today it is a standard item in ramen shops across Japan.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "200 g fresh wheat ramen noodles",
+     "200 g minced pork",
+     "3 tbsp sesame paste",
+     "1–2 tbsp chili oil",
+     "800 ml water or unsalted meat stock",
+     "2 heads bok choy, halved",
+     "2 garlic cloves and 1 tsp grated ginger",
+     "1 spring onion, sliced",
+     "Salt and a pinch of sugar"
+    ],
+    "steps": [
+     "Fry the pork in a dry pan with the garlic and ginger until browned and crumbly; season with salt.",
+     "Whisk the sesame paste with a little hot stock until smooth, then add the rest of the stock, sugar and salt and bring to a simmer.",
+     "Blanch the bok choy for 1 minute and cook the noodles according to the packet.",
+     "Divide the noodles between bowls and pour over the hot sesame broth.",
+     "Top with pork, bok choy, spring onion and chili oil to taste."
+    ]
+   },
+   "tips": [
+    "Sesame paste is calorie-dense — 1 tbsp is roughly 90 kcal — so use 2 tbsp instead of 3 for a lighter broth.",
+    "Drain the fat from the fried pork and drizzle the chili oil sparingly, as 1 tbsp of oil adds about 120 kcal.",
+    "Double the bok choy and take a smaller nest of noodles to keep the bowl filling with fewer calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tantanmen",
-      "origin": "Japan · adapted from Sichuan, China",
-      "intro": "Tantanmen is a Japanese ramen bowl of wheat noodles in a rich, nutty broth built on sesame paste and spiked with chili oil. It is topped with savoury minced pork and quickly blanched bok choy. The soup is creamy, spicy and slightly sweet, and the noodles soak up the sesame flavour. It is served piping hot in a deep bowl.",
-      "history": "Tantanmen is the Japanese take on Sichuan dandan noodles, which were traditionally sold by street vendors from a carrying pole. The Japanese version is usually credited to Chinese chefs working in Japan in the mid-20th century, who turned the dish into a soup to suit local tastes. Today it is a standard item in ramen shops across Japan.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "200 g fresh wheat ramen noodles",
-          "200 g minced pork",
-          "3 tbsp sesame paste",
-          "1–2 tbsp chili oil",
-          "800 ml water or unsalted meat stock",
-          "2 heads bok choy, halved",
-          "2 garlic cloves and 1 tsp grated ginger",
-          "1 spring onion, sliced",
-          "Salt and a pinch of sugar"
-        ],
-        "steps": [
-          "Fry the pork in a dry pan with the garlic and ginger until browned and crumbly; season with salt.",
-          "Whisk the sesame paste with a little hot stock until smooth, then add the rest of the stock, sugar and salt and bring to a simmer.",
-          "Blanch the bok choy for 1 minute and cook the noodles according to the packet.",
-          "Divide the noodles between bowls and pour over the hot sesame broth.",
-          "Top with pork, bok choy, spring onion and chili oil to taste."
-        ]
-      },
-      "tips": [
-        "Sesame paste is calorie-dense — 1 tbsp is roughly 90 kcal — so use 2 tbsp instead of 3 for a lighter broth.",
-        "Drain the fat from the fried pork and drizzle the chili oil sparingly, as 1 tbsp of oil adds about 120 kcal.",
-        "Double the bok choy and take a smaller nest of noodles to keep the bowl filling with fewer calories."
-      ]
-    },
-    "ar": {
-      "name": "تانتانمن",
-      "origin": "اليابان · مقتبس من سيتشوان، الصين",
-      "intro": "التانتانمن طبق رامن ياباني من نودلز القمح في مرق غني بطعم مكسرات أساسه معجون السمسم ومنكّه بزيت الفلفل الحار. يُزيَّن بلحم خنزير مفروم متبّل وبوك تشوي مسلوق سريعًا. المرق كريمي حار وحلو قليلًا، وتتشرب النودلز نكهة السمسم. يُقدَّم ساخنًا جدًا في وعاء عميق.",
-      "history": "التانتانمن هو النسخة اليابانية من نودلز دان دان السيتشوانية التي كان الباعة الجوالون يبيعونها من عصا محمولة على الكتف. يُنسب الطبق عادةً إلى طهاة صينيين عملوا في اليابان في منتصف القرن العشرين، فحوّلوه إلى حساء يناسب الذوق المحلي. وهو اليوم طبق ثابت في مطاعم الرامن في أنحاء اليابان.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "200 غ نودلز رامن قمح طازجة",
-          "200 غ لحم خنزير مفروم",
-          "3 ملاعق كبيرة معجون سمسم",
-          "1–2 ملعقة كبيرة زيت فلفل حار",
-          "800 مل ماء أو مرق لحم غير مملح",
-          "2 رأس بوك تشوي، مقسومان",
-          "2 فص ثوم و1 ملعقة صغيرة زنجبيل مبشور",
-          "1 بصل أخضر، مقطع",
-          "ملح ورشة سكر"
-        ],
-        "steps": [
-          "حمّر اللحم في مقلاة جافة مع الثوم والزنجبيل حتى يتفتت ويتحمر، وتبّله بالملح.",
-          "اخفق معجون السمسم مع قليل من المرق الساخن حتى يصبح ناعمًا، ثم أضف باقي المرق والسكر والملح واتركه يغلي بهدوء.",
-          "اسلق البوك تشوي دقيقة واحدة واطبخ النودلز حسب تعليمات العبوة.",
-          "وزّع النودلز على الأوعية واسكب فوقها مرق السمسم الساخن.",
-          "زيّن باللحم والبوك تشوي والبصل الأخضر وزيت الفلفل حسب الرغبة."
-        ]
-      },
-      "tips": [
-        "معجون السمسم غني بالسعرات — الملعقة الكبيرة نحو 90 سعرة — فاستخدم ملعقتين بدل ثلاث لمرق أخف.",
-        "صفِّ دهن اللحم بعد قليه وأضف زيت الفلفل بحذر، فملعقة الزيت الكبيرة تضيف نحو 120 سعرة.",
-        "ضاعف كمية البوك تشوي وقلّل النودلز ليبقى الطبق مشبعًا بسعرات أقل."
-      ]
-    },
-    "it": {
-      "name": "Tantanmen",
-      "origin": "Giappone · adattato dal Sichuan, Cina",
-      "intro": "Il tantanmen è una ciotola di ramen giapponese con noodles di frumento in un brodo ricco e dal sapore di frutta secca a base di pasta di sesamo, ravvivato con olio al peperoncino. È guarnito con saporito maiale macinato e bok choy scottato velocemente. La zuppa è cremosa, piccante e leggermente dolce, e i noodles assorbono il sapore del sesamo. Si serve fumante in una ciotola profonda.",
-      "history": "Il tantanmen è la versione giapponese dei dandan noodles del Sichuan, che tradizionalmente erano venduti dagli ambulanti con un bilanciere in spalla. La versione giapponese viene di solito attribuita a cuochi cinesi che lavoravano in Giappone a metà del XX secolo e che trasformarono il piatto in una zuppa per adattarlo ai gusti locali. Oggi è una proposta standard nei ramen shop di tutto il Giappone.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "200 g di noodles ramen di frumento freschi",
-          "200 g di carne macinata di maiale",
-          "3 cucchiai di pasta di sesamo",
-          "1–2 cucchiai di olio al peperoncino",
-          "800 ml di acqua o brodo di carne non salato",
-          "2 cespi di bok choy, tagliati a metà",
-          "2 spicchi d'aglio e 1 cucchiaino di zenzero grattugiato",
-          "1 cipollotto, affettato",
-          "Sale e un pizzico di zucchero"
-        ],
-        "steps": [
-          "Rosola il maiale in una padella asciutta con l'aglio e lo zenzero finché è dorato e sgranato; sala.",
-          "Sbatti la pasta di sesamo con un po' di brodo caldo finché è liscia, poi aggiungi il resto del brodo, lo zucchero e il sale e porta a leggero bollore.",
-          "Scotta il bok choy per 1 minuto e cuoci i noodles secondo le indicazioni della confezione.",
-          "Dividi i noodles nelle ciotole e versaci sopra il brodo caldo al sesamo.",
-          "Completa con il maiale, il bok choy, il cipollotto e olio al peperoncino a piacere."
-        ]
-      },
-      "tips": [
-        "La pasta di sesamo è molto calorica (1 cucchiaio sono circa 90 kcal), quindi usane 2 cucchiai invece di 3 per un brodo più leggero.",
-        "Scola il grasso del maiale rosolato e versa l'olio al peperoncino con parsimonia, perché 1 cucchiaio di olio aggiunge circa 120 kcal.",
-        "Raddoppia il bok choy e prendi un nido di noodles più piccolo, così la ciotola resta saziante con meno calorie."
-      ]
-    },
-    "el": {
-      "name": "Ταντανμέν",
-      "origin": "Ιαπωνία · προσαρμογή από το Σετσουάν της Κίνας",
-      "intro": "Το ταντανμέν είναι ιαπωνικό μπολ ράμεν με νουντλς σιταριού σε πλούσιο ζωμό με γεύση ξηρών καρπών, φτιαγμένο με πάστα σουσαμιού και ενισχυμένο με λάδι τσίλι. Από πάνω μπαίνει νόστιμος χοιρινός κιμάς και μποκ τσόι ζεματισμένο για λίγο. Η σούπα είναι κρεμώδης, πικάντικη και ελαφρώς γλυκιά, και τα νουντλς απορροφούν τη γεύση του σουσαμιού. Σερβίρεται καυτό σε βαθύ μπολ.",
-      "history": "Το ταντανμέν είναι η ιαπωνική εκδοχή των νουντλς ντανταν του Σετσουάν, που παραδοσιακά τα πουλούσαν πλανόδιοι κουβαλώντας τα σε ζυγό στον ώμο. Η ιαπωνική εκδοχή αποδίδεται συνήθως σε Κινέζους μάγειρες που δούλευαν στην Ιαπωνία στα μέσα του 20ού αιώνα και μετέτρεψαν το πιάτο σε σούπα για να ταιριάξει στις τοπικές προτιμήσεις. Σήμερα είναι σταθερή επιλογή στα μαγαζιά ράμεν σε όλη την Ιαπωνία.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "200 γρ. φρέσκα νουντλς ράμεν σιταριού",
-          "200 γρ. κιμάς χοιρινός",
-          "3 κ.σ. πάστα σουσαμιού",
-          "1–2 κ.σ. λάδι τσίλι",
-          "800 ml νερό ή ανάλατος ζωμός κρέατος",
-          "2 κεφάλια μποκ τσόι, κομμένα στη μέση",
-          "2 σκελίδες σκόρδο και 1 κ.γ. τριμμένο τζίντζερ",
-          "1 φρέσκο κρεμμυδάκι, σε ροδέλες",
-          "Αλάτι και μια πρέζα ζάχαρη"
-        ],
-        "steps": [
-          "Σοτάρετε τον κιμά σε στεγνό τηγάνι με το σκόρδο και το τζίντζερ μέχρι να ροδίσει και να γίνει τρίμματα· αλατίστε.",
-          "Χτυπήστε την πάστα σουσαμιού με λίγο ζεστό ζωμό μέχρι να γίνει λεία, μετά προσθέστε τον υπόλοιπο ζωμό, τη ζάχαρη και το αλάτι και φέρτε σε σιγανό βρασμό.",
-          "Ζεματίστε το μποκ τσόι για 1 λεπτό και βράστε τα νουντλς σύμφωνα με τις οδηγίες της συσκευασίας.",
-          "Μοιράστε τα νουντλς στα μπολ και περιχύστε τα με τον καυτό ζωμό σουσαμιού.",
-          "Βάλτε από πάνω τον κιμά, το μποκ τσόι, το κρεμμυδάκι και λάδι τσίλι κατά βούληση."
-        ]
-      },
-      "tips": [
-        "Η πάστα σουσαμιού είναι πολύ θερμιδική — 1 κ.σ. είναι περίπου 90 kcal — οπότε βάλτε 2 κ.σ. αντί για 3 για πιο ελαφρύ ζωμό.",
-        "Στραγγίξτε το λίπος από τον σοταρισμένο κιμά και ρίξτε το λάδι τσίλι με φειδώ, καθώς 1 κ.σ. λάδι προσθέτει περίπου 120 kcal.",
-        "Διπλασιάστε το μποκ τσόι και πάρτε μικρότερη φωλιά νουντλς ώστε το μπολ να μένει χορταστικό με λιγότερες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Тантанмен",
-      "origin": "Япония · адаптация сычуаньского блюда, Китай",
-      "intro": "Тантанмен — японский рамен: пшеничная лапша в насыщенном ореховом бульоне на основе кунжутной пасты, приправленном острым масляным чили. Сверху кладут пряный свиной фарш и быстро бланшированный бок-чой. Суп получается сливочным, острым и слегка сладким, а лапша впитывает кунжутный вкус. Подают его очень горячим в глубокой миске.",
-      "history": "Тантанмен — японская версия сычуаньской лапши дан-дан, которую традиционно продавали уличные торговцы с коромыслом. Японский вариант обычно приписывают китайским поварам, работавшим в Японии в середине XX века, которые превратили блюдо в суп по местным вкусам. Сегодня это обычная позиция в рамен-лавках по всей Японии.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "200 г свежей пшеничной лапши для рамена",
-          "200 г свиного фарша",
-          "3 ст. л. кунжутной пасты",
-          "1–2 ст. л. масла чили",
-          "800 мл воды или несолёного мясного бульона",
-          "2 кочанчика бок-чоя, разрезанных пополам",
-          "2 зубчика чеснока и 1 ч. л. натёртого имбиря",
-          "1 стебель зелёного лука, нарезанный",
-          "Соль и щепотка сахара"
-        ],
-        "steps": [
-          "Обжарьте фарш на сухой сковороде с чесноком и имбирём до румяности и рассыпчатости; посолите.",
-          "Размешайте кунжутную пасту с небольшим количеством горячего бульона до однородности, затем добавьте остальной бульон, сахар и соль и доведите до слабого кипения.",
-          "Бланшируйте бок-чой 1 минуту и сварите лапшу по инструкции на упаковке.",
-          "Разделите лапшу по мискам и залейте горячим кунжутным бульоном.",
-          "Сверху выложите фарш, бок-чой, зелёный лук и добавьте масло чили по вкусу."
-        ]
-      },
-      "tips": [
-        "Кунжутная паста калорийна — 1 ст. л. примерно 90 ккал, — поэтому возьмите 2 ст. л. вместо 3 для более лёгкого бульона.",
-        "Слейте жир с обжаренного фарша и добавляйте масло чили понемногу, так как 1 ст. л. масла добавляет около 120 ккал.",
-        "Удвойте бок-чой и возьмите меньше лапши, чтобы миска оставалась сытной при меньшем количестве калорий."
-      ],
-      "name_inline": "тантанмен"
-    }
+  "ar": {
+   "name": "تانتانمن",
+   "origin": "اليابان · مقتبس من سيتشوان، الصين",
+   "intro": "التانتانمن طبق رامن ياباني من نودلز القمح في مرق غني بطعم مكسرات أساسه معجون السمسم ومنكّه بزيت الفلفل الحار. يُزيَّن بلحم خنزير مفروم متبّل وبوك تشوي مسلوق سريعًا. المرق كريمي حار وحلو قليلًا، وتتشرب النودلز نكهة السمسم. يُقدَّم ساخنًا جدًا في وعاء عميق.",
+   "history": "التانتانمن هو النسخة اليابانية من نودلز دان دان السيتشوانية التي كان الباعة الجوالون يبيعونها من عصا محمولة على الكتف. يُنسب الطبق عادةً إلى طهاة صينيين عملوا في اليابان في منتصف القرن العشرين، فحوّلوه إلى حساء يناسب الذوق المحلي. وهو اليوم طبق ثابت في مطاعم الرامن في أنحاء اليابان.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "200 غ نودلز رامن قمح طازجة",
+     "200 غ لحم خنزير مفروم",
+     "3 ملاعق كبيرة معجون سمسم",
+     "1–2 ملعقة كبيرة زيت فلفل حار",
+     "800 مل ماء أو مرق لحم غير مملح",
+     "2 رأس بوك تشوي، مقسومان",
+     "2 فص ثوم و1 ملعقة صغيرة زنجبيل مبشور",
+     "1 بصل أخضر، مقطع",
+     "ملح ورشة سكر"
+    ],
+    "steps": [
+     "حمّر اللحم في مقلاة جافة مع الثوم والزنجبيل حتى يتفتت ويتحمر، وتبّله بالملح.",
+     "اخفق معجون السمسم مع قليل من المرق الساخن حتى يصبح ناعمًا، ثم أضف باقي المرق والسكر والملح واتركه يغلي بهدوء.",
+     "اسلق البوك تشوي دقيقة واحدة واطبخ النودلز حسب تعليمات العبوة.",
+     "وزّع النودلز على الأوعية واسكب فوقها مرق السمسم الساخن.",
+     "زيّن باللحم والبوك تشوي والبصل الأخضر وزيت الفلفل حسب الرغبة."
+    ]
+   },
+   "tips": [
+    "معجون السمسم غني بالسعرات — الملعقة الكبيرة نحو 90 سعرة — فاستخدم ملعقتين بدل ثلاث لمرق أخف.",
+    "صفِّ دهن اللحم بعد قليه وأضف زيت الفلفل بحذر، فملعقة الزيت الكبيرة تضيف نحو 120 سعرة.",
+    "ضاعف كمية البوك تشوي وقلّل النودلز ليبقى الطبق مشبعًا بسعرات أقل."
+   ]
+  },
+  "it": {
+   "name": "Tantanmen",
+   "origin": "Giappone · adattato dal Sichuan, Cina",
+   "intro": "Il tantanmen è una ciotola di ramen giapponese con noodles di frumento in un brodo ricco e dal sapore di frutta secca a base di pasta di sesamo, ravvivato con olio al peperoncino. È guarnito con saporito maiale macinato e bok choy scottato velocemente. La zuppa è cremosa, piccante e leggermente dolce, e i noodles assorbono il sapore del sesamo. Si serve fumante in una ciotola profonda.",
+   "history": "Il tantanmen è la versione giapponese dei dandan noodles del Sichuan, che tradizionalmente erano venduti dagli ambulanti con un bilanciere in spalla. La versione giapponese viene di solito attribuita a cuochi cinesi che lavoravano in Giappone a metà del XX secolo e che trasformarono il piatto in una zuppa per adattarlo ai gusti locali. Oggi è una proposta standard nei ramen shop di tutto il Giappone.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "200 g di noodles ramen di frumento freschi",
+     "200 g di carne macinata di maiale",
+     "3 cucchiai di pasta di sesamo",
+     "1–2 cucchiai di olio al peperoncino",
+     "800 ml di acqua o brodo di carne non salato",
+     "2 cespi di bok choy, tagliati a metà",
+     "2 spicchi d'aglio e 1 cucchiaino di zenzero grattugiato",
+     "1 cipollotto, affettato",
+     "Sale e un pizzico di zucchero"
+    ],
+    "steps": [
+     "Rosola il maiale in una padella asciutta con l'aglio e lo zenzero finché è dorato e sgranato; sala.",
+     "Sbatti la pasta di sesamo con un po' di brodo caldo finché è liscia, poi aggiungi il resto del brodo, lo zucchero e il sale e porta a leggero bollore.",
+     "Scotta il bok choy per 1 minuto e cuoci i noodles secondo le indicazioni della confezione.",
+     "Dividi i noodles nelle ciotole e versaci sopra il brodo caldo al sesamo.",
+     "Completa con il maiale, il bok choy, il cipollotto e olio al peperoncino a piacere."
+    ]
+   },
+   "tips": [
+    "La pasta di sesamo è molto calorica (1 cucchiaio sono circa 90 kcal), quindi usane 2 cucchiai invece di 3 per un brodo più leggero.",
+    "Scola il grasso del maiale rosolato e versa l'olio al peperoncino con parsimonia, perché 1 cucchiaio di olio aggiunge circa 120 kcal.",
+    "Raddoppia il bok choy e prendi un nido di noodles più piccolo, così la ciotola resta saziante con meno calorie."
+   ]
+  },
+  "el": {
+   "name": "Ταντανμέν",
+   "origin": "Ιαπωνία · προσαρμογή από το Σετσουάν της Κίνας",
+   "intro": "Το ταντανμέν είναι ιαπωνικό μπολ ράμεν με νουντλς σιταριού σε πλούσιο ζωμό με γεύση ξηρών καρπών, φτιαγμένο με πάστα σουσαμιού και ενισχυμένο με λάδι τσίλι. Από πάνω μπαίνει νόστιμος χοιρινός κιμάς και μποκ τσόι ζεματισμένο για λίγο. Η σούπα είναι κρεμώδης, πικάντικη και ελαφρώς γλυκιά, και τα νουντλς απορροφούν τη γεύση του σουσαμιού. Σερβίρεται καυτό σε βαθύ μπολ.",
+   "history": "Το ταντανμέν είναι η ιαπωνική εκδοχή των νουντλς ντανταν του Σετσουάν, που παραδοσιακά τα πουλούσαν πλανόδιοι κουβαλώντας τα σε ζυγό στον ώμο. Η ιαπωνική εκδοχή αποδίδεται συνήθως σε Κινέζους μάγειρες που δούλευαν στην Ιαπωνία στα μέσα του 20ού αιώνα και μετέτρεψαν το πιάτο σε σούπα για να ταιριάξει στις τοπικές προτιμήσεις. Σήμερα είναι σταθερή επιλογή στα μαγαζιά ράμεν σε όλη την Ιαπωνία.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "200 γρ. φρέσκα νουντλς ράμεν σιταριού",
+     "200 γρ. κιμάς χοιρινός",
+     "3 κ.σ. πάστα σουσαμιού",
+     "1–2 κ.σ. λάδι τσίλι",
+     "800 ml νερό ή ανάλατος ζωμός κρέατος",
+     "2 κεφάλια μποκ τσόι, κομμένα στη μέση",
+     "2 σκελίδες σκόρδο και 1 κ.γ. τριμμένο τζίντζερ",
+     "1 φρέσκο κρεμμυδάκι, σε ροδέλες",
+     "Αλάτι και μια πρέζα ζάχαρη"
+    ],
+    "steps": [
+     "Σοτάρετε τον κιμά σε στεγνό τηγάνι με το σκόρδο και το τζίντζερ μέχρι να ροδίσει και να γίνει τρίμματα· αλατίστε.",
+     "Χτυπήστε την πάστα σουσαμιού με λίγο ζεστό ζωμό μέχρι να γίνει λεία, μετά προσθέστε τον υπόλοιπο ζωμό, τη ζάχαρη και το αλάτι και φέρτε σε σιγανό βρασμό.",
+     "Ζεματίστε το μποκ τσόι για 1 λεπτό και βράστε τα νουντλς σύμφωνα με τις οδηγίες της συσκευασίας.",
+     "Μοιράστε τα νουντλς στα μπολ και περιχύστε τα με τον καυτό ζωμό σουσαμιού.",
+     "Βάλτε από πάνω τον κιμά, το μποκ τσόι, το κρεμμυδάκι και λάδι τσίλι κατά βούληση."
+    ]
+   },
+   "tips": [
+    "Η πάστα σουσαμιού είναι πολύ θερμιδική — 1 κ.σ. είναι περίπου 90 kcal — οπότε βάλτε 2 κ.σ. αντί για 3 για πιο ελαφρύ ζωμό.",
+    "Στραγγίξτε το λίπος από τον σοταρισμένο κιμά και ρίξτε το λάδι τσίλι με φειδώ, καθώς 1 κ.σ. λάδι προσθέτει περίπου 120 kcal.",
+    "Διπλασιάστε το μποκ τσόι και πάρτε μικρότερη φωλιά νουντλς ώστε το μπολ να μένει χορταστικό με λιγότερες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Тантанмен",
+   "origin": "Япония · адаптация сычуаньского блюда, Китай",
+   "intro": "Тантанмен — японский рамен: пшеничная лапша в насыщенном ореховом бульоне на основе кунжутной пасты, приправленном острым масляным чили. Сверху кладут пряный свиной фарш и быстро бланшированный бок-чой. Суп получается сливочным, острым и слегка сладким, а лапша впитывает кунжутный вкус. Подают его очень горячим в глубокой миске.",
+   "history": "Тантанмен — японская версия сычуаньской лапши дан-дан, которую традиционно продавали уличные торговцы с коромыслом. Японский вариант обычно приписывают китайским поварам, работавшим в Японии в середине XX века, которые превратили блюдо в суп по местным вкусам. Сегодня это обычная позиция в рамен-лавках по всей Японии.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "200 г свежей пшеничной лапши для рамена",
+     "200 г свиного фарша",
+     "3 ст. л. кунжутной пасты",
+     "1–2 ст. л. масла чили",
+     "800 мл воды или несолёного мясного бульона",
+     "2 кочанчика бок-чоя, разрезанных пополам",
+     "2 зубчика чеснока и 1 ч. л. натёртого имбиря",
+     "1 стебель зелёного лука, нарезанный",
+     "Соль и щепотка сахара"
+    ],
+    "steps": [
+     "Обжарьте фарш на сухой сковороде с чесноком и имбирём до румяности и рассыпчатости; посолите.",
+     "Размешайте кунжутную пасту с небольшим количеством горячего бульона до однородности, затем добавьте остальной бульон, сахар и соль и доведите до слабого кипения.",
+     "Бланшируйте бок-чой 1 минуту и сварите лапшу по инструкции на упаковке.",
+     "Разделите лапшу по мискам и залейте горячим кунжутным бульоном.",
+     "Сверху выложите фарш, бок-чой, зелёный лук и добавьте масло чили по вкусу."
+    ]
+   },
+   "tips": [
+    "Кунжутная паста калорийна — 1 ст. л. примерно 90 ккал, — поэтому возьмите 2 ст. л. вместо 3 для более лёгкого бульона.",
+    "Слейте жир с обжаренного фарша и добавляйте масло чили понемногу, так как 1 ст. л. масла добавляет около 120 ккал.",
+    "Удвойте бок-чой и возьмите меньше лапши, чтобы миска оставалась сытной при меньшем количестве калорий."
+   ],
+   "name_inline": "тантанмен"
+  },
+  "es": {
+   "name": "Tantanmen",
+   "origin": "Japón · adaptado de Sichuan, China",
+   "intro": "El tantanmen es un tazón de ramen japonés con fideos de trigo en un caldo rico y con sabor a nuez, a base de pasta de ajonjolí y avivado con aceite de chile. Se corona con cerdo molido sazonado y pak choi apenas blanqueado. La sopa es cremosa, picante y ligeramente dulce, y los fideos absorben el sabor del ajonjolí. Se sirve muy caliente en un tazón hondo.",
+   "history": "El tantanmen es la versión japonesa de los fideos dandan de Sichuan, que tradicionalmente vendían ambulantes con una vara al hombro. Suele atribuirse a cocineros chinos que trabajaban en Japón a mediados del siglo XX, quienes lo convirtieron en sopa para adaptarlo al gusto local. Hoy es un plato habitual en las ramenyas de todo Japón.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "200 g de fideos de ramen de trigo frescos",
+     "200 g de cerdo molido",
+     "3 cda. de pasta de ajonjolí",
+     "1–2 cda. de aceite de chile",
+     "800 ml de agua o caldo de carne sin sal",
+     "2 pak choi, partidos por la mitad",
+     "2 dientes de ajo y 1 cdta. de jengibre rallado",
+     "1 cebollita de cambray en rodajas",
+     "Sal y una pizca de azúcar"
+    ],
+    "steps": [
+     "Fríe el cerdo en una sartén seca con el ajo y el jengibre hasta que dore y quede desmenuzado; sazona con sal.",
+     "Bate la pasta de ajonjolí con un poco de caldo caliente hasta que quede lisa, luego añade el resto del caldo, el azúcar y la sal y lleva a hervor suave.",
+     "Blanquea el pak choi durante 1 minuto y cuece los fideos según el paquete.",
+     "Reparte los fideos en los tazones y vierte el caldo caliente de ajonjolí.",
+     "Corona con el cerdo, el pak choi, la cebollita y aceite de chile al gusto."
+    ]
+   },
+   "tips": [
+    "La pasta de ajonjolí es muy calórica (1 cda. son unas 90 kcal), así que usa 2 cda. en lugar de 3 para un caldo más ligero.",
+    "Escurre la grasa del cerdo frito y agrega el aceite de chile con moderación, pues 1 cda. de aceite suma unas 120 kcal.",
+    "Duplica el pak choi y toma un nido de fideos más pequeño para que el tazón siga siendo saciante con menos calorías."
+   ],
+   "name_inline": "el tantanmen"
   }
+ }
 }

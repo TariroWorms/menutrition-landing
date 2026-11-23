@@ -1,165 +1,196 @@
 {
-  "db_key": "fondue_chinoise",
-  "slug": "fondue-chinoise",
-  "emoji": "🫕",
-  "portion_g": 250,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fondue_chinoise",
+ "slug": "fondue-chinoise",
+ "emoji": "🫕",
+ "portion_g": 250,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fondue Chinoise",
+   "origin": "Switzerland · nationwide",
+   "intro": "Fondue chinoise is a Swiss-style hot pot: paper-thin slices of beef are cooked at the table in a simmering, lightly seasoned broth, then dipped into a selection of sauces. Vegetables cook in the same pot, and at the end the enriched broth is often drunk as a soup. It is light, tender and sociable, and a favourite for Christmas and New Year's Eve in Switzerland.",
+   "history": "As the name suggests, it is inspired by Chinese hot pot, and it became popular in Switzerland and France during the 20th century. Today it is one of the most common festive meals in Swiss homes.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g beef fillet or rump, very thinly sliced",
+     "1.5 l beef or vegetable broth",
+     "1 carrot, 1 leek and 1 onion, sliced",
+     "2 bay leaves",
+     "Mushrooms, broccoli and peppers to cook in the broth",
+     "Assorted dipping sauces"
+    ],
+    "steps": [
+     "Simmer the broth with the carrot, leek, onion and bay leaves for 20 minutes.",
+     "Arrange the beef on plates and the vegetables in bowls.",
+     "Pour the broth into a fondue pot over a table burner.",
+     "Each diner cooks beef slices for 20–60 seconds and vegetables a little longer.",
+     "Dip into sauces and finish by serving the broth as a soup."
+    ]
+   },
+   "tips": [
+    "Pick lean cuts like fillet or rump and keep to about 150–200 g per person.",
+    "Choose light sauces such as tomato or herb-based ones and use them sparingly.",
+    "Load up on vegetables cooked in the broth and drink the broth at the end."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fondue Chinoise",
-      "origin": "Switzerland · nationwide",
-      "intro": "Fondue chinoise is a Swiss-style hot pot: paper-thin slices of beef are cooked at the table in a simmering, lightly seasoned broth, then dipped into a selection of sauces. Vegetables cook in the same pot, and at the end the enriched broth is often drunk as a soup. It is light, tender and sociable, and a favourite for Christmas and New Year's Eve in Switzerland.",
-      "history": "As the name suggests, it is inspired by Chinese hot pot, and it became popular in Switzerland and France during the 20th century. Today it is one of the most common festive meals in Swiss homes.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 g beef fillet or rump, very thinly sliced",
-          "1.5 l beef or vegetable broth",
-          "1 carrot, 1 leek and 1 onion, sliced",
-          "2 bay leaves",
-          "Mushrooms, broccoli and peppers to cook in the broth",
-          "Assorted dipping sauces"
-        ],
-        "steps": [
-          "Simmer the broth with the carrot, leek, onion and bay leaves for 20 minutes.",
-          "Arrange the beef on plates and the vegetables in bowls.",
-          "Pour the broth into a fondue pot over a table burner.",
-          "Each diner cooks beef slices for 20–60 seconds and vegetables a little longer.",
-          "Dip into sauces and finish by serving the broth as a soup."
-        ]
-      },
-      "tips": [
-        "Pick lean cuts like fillet or rump and keep to about 150–200 g per person.",
-        "Choose light sauces such as tomato or herb-based ones and use them sparingly.",
-        "Load up on vegetables cooked in the broth and drink the broth at the end."
-      ]
-    },
-    "ar": {
-      "name": "فوندو شينواز",
-      "origin": "سويسرا · جميع المناطق",
-      "intro": "فوندو شينواز قدر ساخن على الطريقة السويسرية: تُطهى شرائح رقيقة كالورق من لحم البقر على المائدة في مرق يغلي بهدوء ومتبّل بخفة، ثم تُغمس في تشكيلة من الصلصات. تُطهى الخضار في القدر نفسه، وفي النهاية يُشرب المرق الغني غالبًا كشوربة. وهو خفيف وطري واجتماعي، ومن الأطباق المفضلة في عيد الميلاد وليلة رأس السنة في سويسرا.",
-      "history": "كما يوحي اسمه، استُلهم من القدر الساخن الصيني، وانتشر في سويسرا وفرنسا خلال القرن العشرين. وهو اليوم من أكثر الوجبات الاحتفالية شيوعًا في البيوت السويسرية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 غ فيليه أو لحم ردف بقري مقطّع شرائح رقيقة جدًا",
-          "1.5 لتر مرق لحم أو خضار",
-          "1 جزرة و1 كراث و1 بصلة مقطعة شرائح",
-          "2 ورقة غار",
-          "فطر وبروكلي وفلفل للطهي في المرق",
-          "صلصات غمس متنوعة"
-        ],
-        "steps": [
-          "اطهُ المرق مع الجزر والكراث والبصل وورق الغار على نار هادئة 20 دقيقة.",
-          "رتّب اللحم في أطباق والخضار في أوعية.",
-          "اسكب المرق في قدر الفوندو فوق موقد المائدة.",
-          "يطهو كل شخص شرائح اللحم 20–60 ثانية والخضار مدة أطول قليلًا.",
-          "اغمسها في الصلصات، وقدّم المرق في النهاية كشوربة."
-        ]
-      },
-      "tips": [
-        "اختر قطعًا قليلة الدهن مثل الفيليه أو الردف والتزم بنحو 150–200 غ للشخص.",
-        "اختر صلصات خفيفة مثل صلصات الطماطم أو الأعشاب واستخدمها باعتدال.",
-        "أكثِر من الخضار المطهوة في المرق واشرب المرق في النهاية."
-      ]
-    },
-    "it": {
-      "name": "Fondue chinoise",
-      "origin": "Svizzera · tutto il Paese",
-      "intro": "La fondue chinoise è una hot pot in stile svizzero: fettine sottilissime di manzo si cuociono in tavola in un brodo sobbollente e leggermente condito, poi si intingono in una selezione di salse. Nella stessa pentola si cuociono anche le verdure e, alla fine, il brodo arricchito viene spesso bevuto come zuppa. È leggera, tenera e conviviale, ed è una delle preferite per Natale e Capodanno in Svizzera.",
-      "history": "Come suggerisce il nome, si ispira alla hot pot cinese ed è diventata popolare in Svizzera e in Francia nel corso del XX secolo. Oggi è uno dei pasti delle feste più comuni nelle case svizzere.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 g di filetto o scamone di manzo tagliato a fettine sottilissime",
-          "1,5 l di brodo di manzo o vegetale",
-          "1 carota, 1 porro e 1 cipolla affettati",
-          "2 foglie di alloro",
-          "Funghi, broccoli e peperoni da cuocere nel brodo",
-          "Salse assortite da intingere"
-        ],
-        "steps": [
-          "Fai sobbollire il brodo con carota, porro, cipolla e alloro per 20 minuti.",
-          "Disponi il manzo sui piatti e le verdure nelle ciotole.",
-          "Versa il brodo in un caquelon su un fornelletto in tavola.",
-          "Ogni commensale cuoce le fettine di manzo per 20–60 secondi e le verdure un po' più a lungo.",
-          "Intingi nelle salse e concludi servendo il brodo come zuppa."
-        ]
-      },
-      "tips": [
-        "Scegli tagli magri come filetto o scamone e limitati a circa 150–200 g a persona.",
-        "Preferisci salse leggere, ad esempio al pomodoro o alle erbe, e usale con moderazione.",
-        "Abbonda con le verdure cotte nel brodo e bevi il brodo alla fine."
-      ]
-    },
-    "el": {
-      "name": "Φοντί σινουάζ",
-      "origin": "Ελβετία · σε όλη τη χώρα",
-      "intro": "Η φοντί σινουάζ είναι ένα hot pot ελβετικού τύπου: φέτες μοσχαριού λεπτές σαν χαρτί μαγειρεύονται στο τραπέζι σε ζωμό που σιγοβράζει, ελαφρά καρυκευμένο, και έπειτα βουτιούνται σε διάφορες σάλτσες. Στο ίδιο σκεύος μαγειρεύονται και λαχανικά, και στο τέλος ο εμπλουτισμένος ζωμός συχνά πίνεται ως σούπα. Είναι ελαφριά, τρυφερή και κοινωνική, και αγαπημένη για τα Χριστούγεννα και την παραμονή της Πρωτοχρονιάς στην Ελβετία.",
-      "history": "Όπως δείχνει το όνομα, είναι εμπνευσμένη από το κινεζικό hot pot, και έγινε δημοφιλής στην Ελβετία και τη Γαλλία κατά τον 20ό αιώνα. Σήμερα είναι ένα από τα πιο συνηθισμένα γιορτινά γεύματα στα ελβετικά σπίτια.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 γρ. μοσχαρίσιο φιλέτο ή κιλότο σε πολύ λεπτές φέτες",
-          "1,5 λίτρο ζωμός μοσχαριού ή λαχανικών",
-          "1 καρότο, 1 πράσο και 1 κρεμμύδι σε φέτες",
-          "2 φύλλα δάφνης",
-          "Μανιτάρια, μπρόκολο και πιπεριές για μαγείρεμα στον ζωμό",
-          "Διάφορες σάλτσες για βούτηγμα"
-        ],
-        "steps": [
-          "Σιγοβράστε τον ζωμό με το καρότο, το πράσο, το κρεμμύδι και τη δάφνη για 20 λεπτά.",
-          "Απλώστε το μοσχάρι σε πιάτα και τα λαχανικά σε μπολ.",
-          "Χύστε τον ζωμό σε σκεύος φοντί πάνω σε καμινέτο στο τραπέζι.",
-          "Κάθε συνδαιτυμόνας μαγειρεύει τις φέτες μοσχαριού για 20–60 δευτερόλεπτα και τα λαχανικά λίγο περισσότερο.",
-          "Βουτήξτε στις σάλτσες και τελειώστε σερβίροντας τον ζωμό ως σούπα."
-        ]
-      },
-      "tips": [
-        "Διαλέξτε άπαχα κομμάτια όπως φιλέτο ή κιλότο και περιοριστείτε σε περίπου 150–200 γρ. το άτομο.",
-        "Προτιμήστε ελαφριές σάλτσες, όπως με βάση τη ντομάτα ή τα μυρωδικά, και χρησιμοποιήστε τες με μέτρο.",
-        "Φορτώστε το πιάτο με λαχανικά μαγειρεμένα στον ζωμό και πιείτε τον ζωμό στο τέλος."
-      ]
-    },
-    "ru": {
-      "name": "Фондю шинуаз",
-      "origin": "Швейцария · по всей стране",
-      "intro": "Фондю шинуаз — хот-пот по-швейцарски: тончайшие, как бумага, ломтики говядины готовят за столом в кипящем слегка приправленном бульоне, а затем макают в разные соусы. В том же котелке готовятся овощи, а в конце обогащённый бульон часто выпивают как суп. Оно лёгкое, нежное и общительное, а в Швейцарии — любимое блюдо на Рождество и в новогоднюю ночь.",
-      "history": "Как следует из названия, оно вдохновлено китайским хот-потом и стало популярным в Швейцарии и Франции в XX веке. Сегодня это одна из самых распространённых праздничных трапез в швейцарских домах.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "800 г говяжьей вырезки или огузка, очень тонко нарезанных",
-          "1,5 л говяжьего или овощного бульона",
-          "1 морковь, 1 порей и 1 луковица, нарезанные",
-          "2 лавровых листа",
-          "Грибы, брокколи и перец для варки в бульоне",
-          "Ассорти соусов для макания"
-        ],
-        "steps": [
-          "Варите бульон с морковью, пореем, луком и лавровым листом на слабом огне 20 минут.",
-          "Разложите говядину по тарелкам, а овощи — по мискам.",
-          "Влейте бульон в котелок для фондю на настольной горелке.",
-          "Каждый гость готовит ломтики говядины 20–60 секунд, а овощи — немного дольше.",
-          "Макайте в соусы и закончите, подав бульон как суп."
-        ]
-      },
-      "tips": [
-        "Выбирайте постные куски, например вырезку или огузок, и ограничьтесь примерно 150–200 г на человека.",
-        "Выбирайте лёгкие соусы, например томатные или на травах, и используйте их понемногу.",
-        "Налегайте на овощи, приготовленные в бульоне, и выпейте бульон в конце."
-      ],
-      "name_inline": "фондю шинуаз"
-    }
+  "ar": {
+   "name": "فوندو شينواز",
+   "origin": "سويسرا · جميع المناطق",
+   "intro": "فوندو شينواز قدر ساخن على الطريقة السويسرية: تُطهى شرائح رقيقة كالورق من لحم البقر على المائدة في مرق يغلي بهدوء ومتبّل بخفة، ثم تُغمس في تشكيلة من الصلصات. تُطهى الخضار في القدر نفسه، وفي النهاية يُشرب المرق الغني غالبًا كشوربة. وهو خفيف وطري واجتماعي، ومن الأطباق المفضلة في عيد الميلاد وليلة رأس السنة في سويسرا.",
+   "history": "كما يوحي اسمه، استُلهم من القدر الساخن الصيني، وانتشر في سويسرا وفرنسا خلال القرن العشرين. وهو اليوم من أكثر الوجبات الاحتفالية شيوعًا في البيوت السويسرية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 غ فيليه أو لحم ردف بقري مقطّع شرائح رقيقة جدًا",
+     "1.5 لتر مرق لحم أو خضار",
+     "1 جزرة و1 كراث و1 بصلة مقطعة شرائح",
+     "2 ورقة غار",
+     "فطر وبروكلي وفلفل للطهي في المرق",
+     "صلصات غمس متنوعة"
+    ],
+    "steps": [
+     "اطهُ المرق مع الجزر والكراث والبصل وورق الغار على نار هادئة 20 دقيقة.",
+     "رتّب اللحم في أطباق والخضار في أوعية.",
+     "اسكب المرق في قدر الفوندو فوق موقد المائدة.",
+     "يطهو كل شخص شرائح اللحم 20–60 ثانية والخضار مدة أطول قليلًا.",
+     "اغمسها في الصلصات، وقدّم المرق في النهاية كشوربة."
+    ]
+   },
+   "tips": [
+    "اختر قطعًا قليلة الدهن مثل الفيليه أو الردف والتزم بنحو 150–200 غ للشخص.",
+    "اختر صلصات خفيفة مثل صلصات الطماطم أو الأعشاب واستخدمها باعتدال.",
+    "أكثِر من الخضار المطهوة في المرق واشرب المرق في النهاية."
+   ]
+  },
+  "it": {
+   "name": "Fondue chinoise",
+   "origin": "Svizzera · tutto il Paese",
+   "intro": "La fondue chinoise è una hot pot in stile svizzero: fettine sottilissime di manzo si cuociono in tavola in un brodo sobbollente e leggermente condito, poi si intingono in una selezione di salse. Nella stessa pentola si cuociono anche le verdure e, alla fine, il brodo arricchito viene spesso bevuto come zuppa. È leggera, tenera e conviviale, ed è una delle preferite per Natale e Capodanno in Svizzera.",
+   "history": "Come suggerisce il nome, si ispira alla hot pot cinese ed è diventata popolare in Svizzera e in Francia nel corso del XX secolo. Oggi è uno dei pasti delle feste più comuni nelle case svizzere.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g di filetto o scamone di manzo tagliato a fettine sottilissime",
+     "1,5 l di brodo di manzo o vegetale",
+     "1 carota, 1 porro e 1 cipolla affettati",
+     "2 foglie di alloro",
+     "Funghi, broccoli e peperoni da cuocere nel brodo",
+     "Salse assortite da intingere"
+    ],
+    "steps": [
+     "Fai sobbollire il brodo con carota, porro, cipolla e alloro per 20 minuti.",
+     "Disponi il manzo sui piatti e le verdure nelle ciotole.",
+     "Versa il brodo in un caquelon su un fornelletto in tavola.",
+     "Ogni commensale cuoce le fettine di manzo per 20–60 secondi e le verdure un po' più a lungo.",
+     "Intingi nelle salse e concludi servendo il brodo come zuppa."
+    ]
+   },
+   "tips": [
+    "Scegli tagli magri come filetto o scamone e limitati a circa 150–200 g a persona.",
+    "Preferisci salse leggere, ad esempio al pomodoro o alle erbe, e usale con moderazione.",
+    "Abbonda con le verdure cotte nel brodo e bevi il brodo alla fine."
+   ]
+  },
+  "el": {
+   "name": "Φοντί σινουάζ",
+   "origin": "Ελβετία · σε όλη τη χώρα",
+   "intro": "Η φοντί σινουάζ είναι ένα hot pot ελβετικού τύπου: φέτες μοσχαριού λεπτές σαν χαρτί μαγειρεύονται στο τραπέζι σε ζωμό που σιγοβράζει, ελαφρά καρυκευμένο, και έπειτα βουτιούνται σε διάφορες σάλτσες. Στο ίδιο σκεύος μαγειρεύονται και λαχανικά, και στο τέλος ο εμπλουτισμένος ζωμός συχνά πίνεται ως σούπα. Είναι ελαφριά, τρυφερή και κοινωνική, και αγαπημένη για τα Χριστούγεννα και την παραμονή της Πρωτοχρονιάς στην Ελβετία.",
+   "history": "Όπως δείχνει το όνομα, είναι εμπνευσμένη από το κινεζικό hot pot, και έγινε δημοφιλής στην Ελβετία και τη Γαλλία κατά τον 20ό αιώνα. Σήμερα είναι ένα από τα πιο συνηθισμένα γιορτινά γεύματα στα ελβετικά σπίτια.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 γρ. μοσχαρίσιο φιλέτο ή κιλότο σε πολύ λεπτές φέτες",
+     "1,5 λίτρο ζωμός μοσχαριού ή λαχανικών",
+     "1 καρότο, 1 πράσο και 1 κρεμμύδι σε φέτες",
+     "2 φύλλα δάφνης",
+     "Μανιτάρια, μπρόκολο και πιπεριές για μαγείρεμα στον ζωμό",
+     "Διάφορες σάλτσες για βούτηγμα"
+    ],
+    "steps": [
+     "Σιγοβράστε τον ζωμό με το καρότο, το πράσο, το κρεμμύδι και τη δάφνη για 20 λεπτά.",
+     "Απλώστε το μοσχάρι σε πιάτα και τα λαχανικά σε μπολ.",
+     "Χύστε τον ζωμό σε σκεύος φοντί πάνω σε καμινέτο στο τραπέζι.",
+     "Κάθε συνδαιτυμόνας μαγειρεύει τις φέτες μοσχαριού για 20–60 δευτερόλεπτα και τα λαχανικά λίγο περισσότερο.",
+     "Βουτήξτε στις σάλτσες και τελειώστε σερβίροντας τον ζωμό ως σούπα."
+    ]
+   },
+   "tips": [
+    "Διαλέξτε άπαχα κομμάτια όπως φιλέτο ή κιλότο και περιοριστείτε σε περίπου 150–200 γρ. το άτομο.",
+    "Προτιμήστε ελαφριές σάλτσες, όπως με βάση τη ντομάτα ή τα μυρωδικά, και χρησιμοποιήστε τες με μέτρο.",
+    "Φορτώστε το πιάτο με λαχανικά μαγειρεμένα στον ζωμό και πιείτε τον ζωμό στο τέλος."
+   ]
+  },
+  "ru": {
+   "name": "Фондю шинуаз",
+   "origin": "Швейцария · по всей стране",
+   "intro": "Фондю шинуаз — хот-пот по-швейцарски: тончайшие, как бумага, ломтики говядины готовят за столом в кипящем слегка приправленном бульоне, а затем макают в разные соусы. В том же котелке готовятся овощи, а в конце обогащённый бульон часто выпивают как суп. Оно лёгкое, нежное и общительное, а в Швейцарии — любимое блюдо на Рождество и в новогоднюю ночь.",
+   "history": "Как следует из названия, оно вдохновлено китайским хот-потом и стало популярным в Швейцарии и Франции в XX веке. Сегодня это одна из самых распространённых праздничных трапез в швейцарских домах.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 г говяжьей вырезки или огузка, очень тонко нарезанных",
+     "1,5 л говяжьего или овощного бульона",
+     "1 морковь, 1 порей и 1 луковица, нарезанные",
+     "2 лавровых листа",
+     "Грибы, брокколи и перец для варки в бульоне",
+     "Ассорти соусов для макания"
+    ],
+    "steps": [
+     "Варите бульон с морковью, пореем, луком и лавровым листом на слабом огне 20 минут.",
+     "Разложите говядину по тарелкам, а овощи — по мискам.",
+     "Влейте бульон в котелок для фондю на настольной горелке.",
+     "Каждый гость готовит ломтики говядины 20–60 секунд, а овощи — немного дольше.",
+     "Макайте в соусы и закончите, подав бульон как суп."
+    ]
+   },
+   "tips": [
+    "Выбирайте постные куски, например вырезку или огузок, и ограничьтесь примерно 150–200 г на человека.",
+    "Выбирайте лёгкие соусы, например томатные или на травах, и используйте их понемногу.",
+    "Налегайте на овощи, приготовленные в бульоне, и выпейте бульон в конце."
+   ],
+   "name_inline": "фондю шинуаз"
+  },
+  "es": {
+   "name": "Fondue chinoise",
+   "origin": "Suiza · todo el país",
+   "intro": "La fondue chinoise es una olla caliente al estilo suizo: láminas finísimas de carne de res se cocinan en la mesa en un caldo suave y ligeramente sazonado, y luego se mojan en una selección de salsas. Las verduras se cocinan en la misma olla y, al final, el caldo enriquecido suele tomarse como sopa. Es ligera, tierna y sociable, y una favorita para Navidad y Nochevieja en Suiza.",
+   "history": "Como indica su nombre, se inspira en la olla caliente china y se hizo popular en Suiza y Francia durante el siglo XX. Hoy es una de las comidas festivas más comunes en los hogares suizos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "800 g de filete o cuadril de res, en láminas muy finas",
+     "1,5 l de caldo de res o de verduras",
+     "1 zanahoria, 1 puerro y 1 cebolla, en rodajas",
+     "2 hojas de laurel",
+     "Hongos, brócoli y pimientos para cocinar en el caldo",
+     "Salsas variadas para mojar"
+    ],
+    "steps": [
+     "Cocina a fuego lento el caldo con la zanahoria, el puerro, la cebolla y el laurel durante 20 minutos.",
+     "Acomoda la carne en platos y las verduras en cuencos.",
+     "Vierte el caldo en una olla de fondue sobre un calentador de mesa.",
+     "Cada comensal cocina las láminas de carne de 20 a 60 segundos y las verduras un poco más.",
+     "Moja en las salsas y termina sirviendo el caldo como sopa."
+    ]
+   },
+   "tips": [
+    "Elige cortes magros como el filete o el cuadril y limítate a unos 150–200 g por persona.",
+    "Escoge salsas ligeras, como las de tomate o de hierbas, y úsalas con moderación.",
+    "Carga el plato de verduras cocidas en el caldo y toma el caldo al final."
+   ],
+   "name_inline": "la fondue chinoise"
   }
+ }
 }

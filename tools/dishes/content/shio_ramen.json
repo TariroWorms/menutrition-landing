@@ -1,170 +1,202 @@
 {
-  "db_key": "shio_ramen",
-  "slug": "shio-ramen",
-  "emoji": "🍜",
-  "portion_g": 550,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "shio_ramen",
+ "slug": "shio-ramen",
+ "emoji": "🍜",
+ "portion_g": 550,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Shio ramen",
+   "origin": "Japan · Hokkaido",
+   "intro": "Shio ramen is the lightest of the classic ramen styles: wheat noodles in a clear, salt-seasoned chicken broth, topped with sliced chicken, a soft-boiled egg, bamboo shoots and scallion. The broth is delicate and clean-tasting rather than rich, letting the chicken flavour come through.",
+   "history": "Ramen arrived in Japan from China in the late 19th and early 20th centuries, and shio (salt) is often said to be one of its oldest seasonings. Hakodate in Hokkaido is especially known for shio ramen. Today it is served across Japan alongside shoyu, miso and tonkotsu styles.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "600 g chicken wings or carcass, plus 200 g chicken breast",
+     "1.5 l water, 1 piece ginger, 2 garlic cloves",
+     "1 tsp salt (to taste) for the broth",
+     "2 portions fresh wheat ramen noodles (about 250 g)",
+     "2 eggs",
+     "60 g bamboo shoots",
+     "2 scallions, sliced"
+    ],
+    "steps": [
+     "Simmer the chicken wings with ginger and garlic in the water for 60–75 minutes, skimming often; poach the breast in the broth for the last 15 minutes.",
+     "Strain the broth and season it with salt.",
+     "Boil the eggs for 6½ minutes, cool in cold water and peel.",
+     "Cook the noodles according to the packet and drain.",
+     "Put the noodles in bowls, pour over the hot broth and top with sliced chicken, halved egg, bamboo shoots and scallion."
+    ]
+   },
+   "tips": [
+    "Skim the fat from the broth once it has cooled.",
+    "Use a smaller portion of noodles and add more bamboo shoots and greens.",
+    "Leave some of the broth in the bowl — it carries much of the salt."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Shio ramen",
-      "origin": "Japan · Hokkaido",
-      "intro": "Shio ramen is the lightest of the classic ramen styles: wheat noodles in a clear, salt-seasoned chicken broth, topped with sliced chicken, a soft-boiled egg, bamboo shoots and scallion. The broth is delicate and clean-tasting rather than rich, letting the chicken flavour come through.",
-      "history": "Ramen arrived in Japan from China in the late 19th and early 20th centuries, and shio (salt) is often said to be one of its oldest seasonings. Hakodate in Hokkaido is especially known for shio ramen. Today it is served across Japan alongside shoyu, miso and tonkotsu styles.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "600 g chicken wings or carcass, plus 200 g chicken breast",
-          "1.5 l water, 1 piece ginger, 2 garlic cloves",
-          "1 tsp salt (to taste) for the broth",
-          "2 portions fresh wheat ramen noodles (about 250 g)",
-          "2 eggs",
-          "60 g bamboo shoots",
-          "2 scallions, sliced"
-        ],
-        "steps": [
-          "Simmer the chicken wings with ginger and garlic in the water for 60–75 minutes, skimming often; poach the breast in the broth for the last 15 minutes.",
-          "Strain the broth and season it with salt.",
-          "Boil the eggs for 6½ minutes, cool in cold water and peel.",
-          "Cook the noodles according to the packet and drain.",
-          "Put the noodles in bowls, pour over the hot broth and top with sliced chicken, halved egg, bamboo shoots and scallion."
-        ]
-      },
-      "tips": [
-        "Skim the fat from the broth once it has cooled.",
-        "Use a smaller portion of noodles and add more bamboo shoots and greens.",
-        "Leave some of the broth in the bowl — it carries much of the salt."
-      ]
-    },
-    "ar": {
-      "name": "رامن شيو",
-      "origin": "اليابان · هوكايدو",
-      "intro": "رامن شيو أخف أنواع الرامن الكلاسيكية: نودلز قمح في مرق دجاج صافٍ متبل بالملح، تعلوه شرائح الدجاج وبيضة مسلوقة طرية وبراعم الخيزران والبصل الأخضر. المرق رقيق ونظيف الطعم لا دسم، فتظهر فيه نكهة الدجاج بوضوح.",
-      "history": "وصل الرامن إلى اليابان من الصين في أواخر القرن التاسع عشر وأوائل القرن العشرين، ويُقال كثيراً إن الملح (شيو) من أقدم توابله. وتشتهر مدينة هاكوداته في هوكايدو برامن الشيو خاصة. واليوم يُقدَّم في أنحاء اليابان إلى جانب أنواع الشويو والميسو والتونكوتسو.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "600 غ أجنحة أو هيكل دجاج، و200 غ صدر دجاج",
-          "1.5 لتر ماء، قطعة زنجبيل، فصّا ثوم",
-          "1 ملعقة صغيرة ملح للمرق (حسب الذوق)",
-          "حصتان من نودلز الرامن الطازجة (نحو 250 غ)",
-          "بيضتان",
-          "60 غ براعم خيزران",
-          "عودا بصل أخضر مقطعان"
-        ],
-        "steps": [
-          "اطبخ أجنحة الدجاج مع الزنجبيل والثوم في الماء على نار هادئة 60–75 دقيقة مع إزالة الرغوة، وأضف الصدر في آخر 15 دقيقة.",
-          "صفِّ المرق وتبّله بالملح.",
-          "اسلق البيض 6 دقائق ونصف، ثم برّده في ماء بارد وقشّره.",
-          "اطبخ النودلز حسب التعليمات وصفّها.",
-          "ضع النودلز في الأوعية واسكب فوقها المرق الساخن، وزيّنها بشرائح الدجاج ونصف البيضة وبراعم الخيزران والبصل الأخضر."
-        ]
-      },
-      "tips": [
-        "أزل الدهن عن سطح المرق بعد أن يبرد.",
-        "قلّل حصة النودلز وأضف مزيداً من براعم الخيزران والخضار الورقية.",
-        "اترك جزءاً من المرق في الوعاء، فمعظم الملح فيه."
-      ]
-    },
-    "it": {
-      "name": "Shio ramen",
-      "origin": "Giappone · Hokkaido",
-      "intro": "Lo shio ramen è il più leggero tra gli stili classici di ramen: noodle di frumento in un brodo di pollo limpido insaporito con sale, guarnito con pollo a fette, un uovo bazzotto, germogli di bambù e cipollotto. Il brodo è delicato e pulito più che ricco, e lascia emergere il sapore del pollo.",
-      "history": "Il ramen arrivò in Giappone dalla Cina tra la fine del XIX e l'inizio del XX secolo, e lo shio (sale) è spesso considerato uno dei suoi condimenti più antichi. Hakodate, in Hokkaido, è particolarmente nota per lo shio ramen. Oggi si serve in tutto il Giappone accanto agli stili shoyu, miso e tonkotsu.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "600 g di ali o carcassa di pollo, più 200 g di petto di pollo",
-          "1,5 l di acqua, 1 pezzo di zenzero, 2 spicchi d'aglio",
-          "1 cucchiaino di sale (a piacere) per il brodo",
-          "2 porzioni di noodle ramen freschi di frumento (circa 250 g)",
-          "2 uova",
-          "60 g di germogli di bambù",
-          "2 cipollotti, affettati"
-        ],
-        "steps": [
-          "Fai sobbollire le ali di pollo con zenzero e aglio nell'acqua per 60–75 minuti, schiumando spesso; cuoci il petto nel brodo negli ultimi 15 minuti.",
-          "Filtra il brodo e insaporiscilo con il sale.",
-          "Lessa le uova per 6 minuti e mezzo, raffreddale in acqua fredda e sgusciale.",
-          "Cuoci i noodle secondo le indicazioni della confezione e scolali.",
-          "Metti i noodle nelle ciotole, versa sopra il brodo caldo e guarnisci con pollo a fette, uovo a metà, germogli di bambù e cipollotto."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso dal brodo una volta raffreddato.",
-        "Usa una porzione più piccola di noodle e aggiungi più germogli di bambù e verdure.",
-        "Lascia un po' di brodo nella ciotola: contiene gran parte del sale."
-      ]
-    },
-    "el": {
-      "name": "Σίο ράμεν",
-      "name_inline": "σίο ράμεν",
-      "origin": "Ιαπωνία · Χοκάιντο",
-      "intro": "Το σίο ράμεν είναι το πιο ελαφρύ από τα κλασικά στιλ ράμεν: νουντλς σιταριού σε διαυγή ζωμό κοτόπουλου καρυκευμένο με αλάτι, με φέτες κοτόπουλου, ένα μελάτο αυγό, βλαστούς μπαμπού και φρέσκο κρεμμυδάκι από πάνω. Ο ζωμός είναι λεπτός και καθαρός στη γεύση και όχι βαρύς, αφήνοντας να ξεχωρίσει η γεύση του κοτόπουλου.",
-      "history": "Το ράμεν έφτασε στην Ιαπωνία από την Κίνα στα τέλη του 19ου και τις αρχές του 20ού αιώνα, και το σίο (αλάτι) λέγεται συχνά ότι είναι ένα από τα παλαιότερα καρυκεύματά του. Το Χακοντάτε στο Χοκάιντο είναι ιδιαίτερα γνωστό για το σίο ράμεν. Σήμερα σερβίρεται σε όλη την Ιαπωνία μαζί με τα στιλ σογιού, μίσο και τονκότσου.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "600 γρ. φτερούγες ή σκελετός κοτόπουλου, συν 200 γρ. στήθος κοτόπουλου",
-          "1,5 λίτρο νερό, 1 κομμάτι τζίντζερ, 2 σκελίδες σκόρδο",
-          "1 κ.γ. αλάτι (κατά βούληση) για τον ζωμό",
-          "2 μερίδες φρέσκα νουντλς ράμεν σιταριού (περίπου 250 γρ.)",
-          "2 αυγά",
-          "60 γρ. βλαστοί μπαμπού",
-          "2 φρέσκα κρεμμυδάκια, σε φέτες"
-        ],
-        "steps": [
-          "Σιγοβράστε τις φτερούγες με το τζίντζερ και το σκόρδο στο νερό για 60–75 λεπτά, ξαφρίζοντας συχνά· ποσάρετε το στήθος στον ζωμό τα τελευταία 15 λεπτά.",
-          "Σουρώστε τον ζωμό και αλατίστε τον.",
-          "Βράστε τα αυγά για 6½ λεπτά, κρυώστε τα σε κρύο νερό και ξεφλουδίστε τα.",
-          "Βράστε τα νουντλς σύμφωνα με τις οδηγίες της συσκευασίας και στραγγίξτε.",
-          "Βάλτε τα νουντλς σε μπολ, περιχύστε με τον ζεστό ζωμό και προσθέστε από πάνω φέτες κοτόπουλου, μισό αυγό, βλαστούς μπαμπού και κρεμμυδάκι."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το λίπος από τον ζωμό αφού κρυώσει.",
-        "Βάλτε μικρότερη μερίδα νουντλς και προσθέστε περισσότερους βλαστούς μπαμπού και πράσινα λαχανικά.",
-        "Αφήστε λίγο ζωμό στο μπολ — περιέχει μεγάλο μέρος του αλατιού."
-      ]
-    },
-    "ru": {
-      "name": "Сио-рамен",
-      "origin": "Япония · Хоккайдо",
-      "intro": "Сио-рамен — самый лёгкий из классических стилей рамена: пшеничная лапша в прозрачном курином бульоне, приправленном солью, с ломтиками курицы, яйцом всмятку, побегами бамбука и зелёным луком. Бульон тонкий и чистый на вкус, а не насыщенный, позволяющий проявиться вкусу курицы.",
-      "history": "Рамен пришёл в Японию из Китая в конце XIX и начале XX века, и сио (соль) часто называют одной из старейших его приправ. Хакодате на Хоккайдо особенно известен сио-раменом. Сегодня его подают по всей Японии наряду со стилями сёю, мисо и тонкоцу.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 90,
-        "ingredients": [
-          "600 г куриных крылышек или каркаса и 200 г куриной грудки",
-          "1,5 л воды, 1 кусочек имбиря, 2 зубчика чеснока",
-          "1 ч. л. соли (по вкусу) для бульона",
-          "2 порции свежей пшеничной лапши для рамена (около 250 г)",
-          "2 яйца",
-          "60 г побегов бамбука",
-          "2 стебля зелёного лука, нарезанных"
-        ],
-        "steps": [
-          "Варите куриные крылышки с имбирём и чесноком в воде 60–75 минут, часто снимая пену; грудку отварите в бульоне последние 15 минут.",
-          "Процедите бульон и приправьте солью.",
-          "Варите яйца 6½ минут, остудите в холодной воде и очистите.",
-          "Отварите лапшу согласно инструкции на упаковке и слейте воду.",
-          "Разложите лапшу по мискам, залейте горячим бульоном и сверху выложите нарезанную курицу, яйцо пополам, побеги бамбука и зелёный лук."
-        ]
-      },
-      "tips": [
-        "Снимите жир с бульона, когда он остынет.",
-        "Возьмите меньшую порцию лапши и добавьте больше побегов бамбука и зелени.",
-        "Оставьте часть бульона в миске — в нём основная часть соли."
-      ]
-    }
+  "ar": {
+   "name": "رامن شيو",
+   "origin": "اليابان · هوكايدو",
+   "intro": "رامن شيو أخف أنواع الرامن الكلاسيكية: نودلز قمح في مرق دجاج صافٍ متبل بالملح، تعلوه شرائح الدجاج وبيضة مسلوقة طرية وبراعم الخيزران والبصل الأخضر. المرق رقيق ونظيف الطعم لا دسم، فتظهر فيه نكهة الدجاج بوضوح.",
+   "history": "وصل الرامن إلى اليابان من الصين في أواخر القرن التاسع عشر وأوائل القرن العشرين، ويُقال كثيراً إن الملح (شيو) من أقدم توابله. وتشتهر مدينة هاكوداته في هوكايدو برامن الشيو خاصة. واليوم يُقدَّم في أنحاء اليابان إلى جانب أنواع الشويو والميسو والتونكوتسو.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "600 غ أجنحة أو هيكل دجاج، و200 غ صدر دجاج",
+     "1.5 لتر ماء، قطعة زنجبيل، فصّا ثوم",
+     "1 ملعقة صغيرة ملح للمرق (حسب الذوق)",
+     "حصتان من نودلز الرامن الطازجة (نحو 250 غ)",
+     "بيضتان",
+     "60 غ براعم خيزران",
+     "عودا بصل أخضر مقطعان"
+    ],
+    "steps": [
+     "اطبخ أجنحة الدجاج مع الزنجبيل والثوم في الماء على نار هادئة 60–75 دقيقة مع إزالة الرغوة، وأضف الصدر في آخر 15 دقيقة.",
+     "صفِّ المرق وتبّله بالملح.",
+     "اسلق البيض 6 دقائق ونصف، ثم برّده في ماء بارد وقشّره.",
+     "اطبخ النودلز حسب التعليمات وصفّها.",
+     "ضع النودلز في الأوعية واسكب فوقها المرق الساخن، وزيّنها بشرائح الدجاج ونصف البيضة وبراعم الخيزران والبصل الأخضر."
+    ]
+   },
+   "tips": [
+    "أزل الدهن عن سطح المرق بعد أن يبرد.",
+    "قلّل حصة النودلز وأضف مزيداً من براعم الخيزران والخضار الورقية.",
+    "اترك جزءاً من المرق في الوعاء، فمعظم الملح فيه."
+   ]
+  },
+  "it": {
+   "name": "Shio ramen",
+   "origin": "Giappone · Hokkaido",
+   "intro": "Lo shio ramen è il più leggero tra gli stili classici di ramen: noodle di frumento in un brodo di pollo limpido insaporito con sale, guarnito con pollo a fette, un uovo bazzotto, germogli di bambù e cipollotto. Il brodo è delicato e pulito più che ricco, e lascia emergere il sapore del pollo.",
+   "history": "Il ramen arrivò in Giappone dalla Cina tra la fine del XIX e l'inizio del XX secolo, e lo shio (sale) è spesso considerato uno dei suoi condimenti più antichi. Hakodate, in Hokkaido, è particolarmente nota per lo shio ramen. Oggi si serve in tutto il Giappone accanto agli stili shoyu, miso e tonkotsu.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "600 g di ali o carcassa di pollo, più 200 g di petto di pollo",
+     "1,5 l di acqua, 1 pezzo di zenzero, 2 spicchi d'aglio",
+     "1 cucchiaino di sale (a piacere) per il brodo",
+     "2 porzioni di noodle ramen freschi di frumento (circa 250 g)",
+     "2 uova",
+     "60 g di germogli di bambù",
+     "2 cipollotti, affettati"
+    ],
+    "steps": [
+     "Fai sobbollire le ali di pollo con zenzero e aglio nell'acqua per 60–75 minuti, schiumando spesso; cuoci il petto nel brodo negli ultimi 15 minuti.",
+     "Filtra il brodo e insaporiscilo con il sale.",
+     "Lessa le uova per 6 minuti e mezzo, raffreddale in acqua fredda e sgusciale.",
+     "Cuoci i noodle secondo le indicazioni della confezione e scolali.",
+     "Metti i noodle nelle ciotole, versa sopra il brodo caldo e guarnisci con pollo a fette, uovo a metà, germogli di bambù e cipollotto."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso dal brodo una volta raffreddato.",
+    "Usa una porzione più piccola di noodle e aggiungi più germogli di bambù e verdure.",
+    "Lascia un po' di brodo nella ciotola: contiene gran parte del sale."
+   ]
+  },
+  "el": {
+   "name": "Σίο ράμεν",
+   "name_inline": "σίο ράμεν",
+   "origin": "Ιαπωνία · Χοκάιντο",
+   "intro": "Το σίο ράμεν είναι το πιο ελαφρύ από τα κλασικά στιλ ράμεν: νουντλς σιταριού σε διαυγή ζωμό κοτόπουλου καρυκευμένο με αλάτι, με φέτες κοτόπουλου, ένα μελάτο αυγό, βλαστούς μπαμπού και φρέσκο κρεμμυδάκι από πάνω. Ο ζωμός είναι λεπτός και καθαρός στη γεύση και όχι βαρύς, αφήνοντας να ξεχωρίσει η γεύση του κοτόπουλου.",
+   "history": "Το ράμεν έφτασε στην Ιαπωνία από την Κίνα στα τέλη του 19ου και τις αρχές του 20ού αιώνα, και το σίο (αλάτι) λέγεται συχνά ότι είναι ένα από τα παλαιότερα καρυκεύματά του. Το Χακοντάτε στο Χοκάιντο είναι ιδιαίτερα γνωστό για το σίο ράμεν. Σήμερα σερβίρεται σε όλη την Ιαπωνία μαζί με τα στιλ σογιού, μίσο και τονκότσου.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "600 γρ. φτερούγες ή σκελετός κοτόπουλου, συν 200 γρ. στήθος κοτόπουλου",
+     "1,5 λίτρο νερό, 1 κομμάτι τζίντζερ, 2 σκελίδες σκόρδο",
+     "1 κ.γ. αλάτι (κατά βούληση) για τον ζωμό",
+     "2 μερίδες φρέσκα νουντλς ράμεν σιταριού (περίπου 250 γρ.)",
+     "2 αυγά",
+     "60 γρ. βλαστοί μπαμπού",
+     "2 φρέσκα κρεμμυδάκια, σε φέτες"
+    ],
+    "steps": [
+     "Σιγοβράστε τις φτερούγες με το τζίντζερ και το σκόρδο στο νερό για 60–75 λεπτά, ξαφρίζοντας συχνά· ποσάρετε το στήθος στον ζωμό τα τελευταία 15 λεπτά.",
+     "Σουρώστε τον ζωμό και αλατίστε τον.",
+     "Βράστε τα αυγά για 6½ λεπτά, κρυώστε τα σε κρύο νερό και ξεφλουδίστε τα.",
+     "Βράστε τα νουντλς σύμφωνα με τις οδηγίες της συσκευασίας και στραγγίξτε.",
+     "Βάλτε τα νουντλς σε μπολ, περιχύστε με τον ζεστό ζωμό και προσθέστε από πάνω φέτες κοτόπουλου, μισό αυγό, βλαστούς μπαμπού και κρεμμυδάκι."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το λίπος από τον ζωμό αφού κρυώσει.",
+    "Βάλτε μικρότερη μερίδα νουντλς και προσθέστε περισσότερους βλαστούς μπαμπού και πράσινα λαχανικά.",
+    "Αφήστε λίγο ζωμό στο μπολ — περιέχει μεγάλο μέρος του αλατιού."
+   ]
+  },
+  "ru": {
+   "name": "Сио-рамен",
+   "origin": "Япония · Хоккайдо",
+   "intro": "Сио-рамен — самый лёгкий из классических стилей рамена: пшеничная лапша в прозрачном курином бульоне, приправленном солью, с ломтиками курицы, яйцом всмятку, побегами бамбука и зелёным луком. Бульон тонкий и чистый на вкус, а не насыщенный, позволяющий проявиться вкусу курицы.",
+   "history": "Рамен пришёл в Японию из Китая в конце XIX и начале XX века, и сио (соль) часто называют одной из старейших его приправ. Хакодате на Хоккайдо особенно известен сио-раменом. Сегодня его подают по всей Японии наряду со стилями сёю, мисо и тонкоцу.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "600 г куриных крылышек или каркаса и 200 г куриной грудки",
+     "1,5 л воды, 1 кусочек имбиря, 2 зубчика чеснока",
+     "1 ч. л. соли (по вкусу) для бульона",
+     "2 порции свежей пшеничной лапши для рамена (около 250 г)",
+     "2 яйца",
+     "60 г побегов бамбука",
+     "2 стебля зелёного лука, нарезанных"
+    ],
+    "steps": [
+     "Варите куриные крылышки с имбирём и чесноком в воде 60–75 минут, часто снимая пену; грудку отварите в бульоне последние 15 минут.",
+     "Процедите бульон и приправьте солью.",
+     "Варите яйца 6½ минут, остудите в холодной воде и очистите.",
+     "Отварите лапшу согласно инструкции на упаковке и слейте воду.",
+     "Разложите лапшу по мискам, залейте горячим бульоном и сверху выложите нарезанную курицу, яйцо пополам, побеги бамбука и зелёный лук."
+    ]
+   },
+   "tips": [
+    "Снимите жир с бульона, когда он остынет.",
+    "Возьмите меньшую порцию лапши и добавьте больше побегов бамбука и зелени.",
+    "Оставьте часть бульона в миске — в нём основная часть соли."
+   ]
+  },
+  "es": {
+   "name": "Shio ramen",
+   "origin": "Japón · Hokkaido",
+   "intro": "El shio ramen es el más ligero de los estilos clásicos de ramen: fideos de trigo en un caldo claro de pollo sazonado con sal, con rebanadas de pollo, un huevo medio cocido, brotes de bambú y cebollín. El caldo es delicado y de sabor limpio, más que denso, y deja que destaque el sabor del pollo.",
+   "history": "El ramen llegó a Japón desde China a finales del siglo XIX y principios del XX, y suele decirse que el shio (sal) es uno de sus condimentos más antiguos. Hakodate, en Hokkaido, es especialmente conocida por su shio ramen. Hoy se sirve en todo Japón junto a los estilos shoyu, miso y tonkotsu.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 90,
+    "ingredients": [
+     "600 g de alitas o carcasa de pollo, más 200 g de pechuga de pollo",
+     "1,5 l de agua, 1 trozo de jengibre, 2 dientes de ajo",
+     "1 cdta. de sal (al gusto) para el caldo",
+     "2 porciones de fideos frescos de trigo para ramen (unos 250 g)",
+     "2 huevos",
+     "60 g de brotes de bambú",
+     "2 cebollines, en rodajas"
+    ],
+    "steps": [
+     "Cuece a fuego lento las alitas con el jengibre y el ajo en el agua de 60 a 75 minutos, espumando con frecuencia; escalfa la pechuga en el caldo durante los últimos 15 minutos.",
+     "Cuela el caldo y sazónalo con la sal.",
+     "Cuece los huevos 6½ minutos, enfríalos en agua fría y pélalos.",
+     "Cuece los fideos según las instrucciones del paquete y escúrrelos.",
+     "Pon los fideos en los tazones, vierte el caldo caliente y cubre con el pollo en rebanadas, el huevo partido por la mitad, los brotes de bambú y el cebollín."
+    ]
+   },
+   "tips": [
+    "Quita la grasa del caldo cuando se haya enfriado.",
+    "Usa una porción más pequeña de fideos y agrega más brotes de bambú y verduras.",
+    "Deja parte del caldo en el tazón: ahí se concentra gran parte de la sal."
+   ],
+   "name_inline": "el shio ramen"
   }
+ }
 }

@@ -1,186 +1,221 @@
 {
-  "db_key": "dak_doritang",
-  "slug": "dak-doritang",
-  "emoji": "🍲",
-  "portion_g": 400,
-  "country": "KR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "dak_doritang",
+ "slug": "dak-doritang",
+ "emoji": "🍲",
+ "portion_g": 400,
+ "country": "KR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Spicy braised chicken (dak-dori-tang)",
+   "origin": "South Korea",
+   "intro": "Dak-dori-tang, also called dakbokkeumtang, is chicken on the bone braised with chunky potatoes, carrots and onion in a red, spicy sauce of Korean chili flakes, soy sauce and garlic. The potatoes soak up the sauce and thicken it, and the chicken falls off the bone. It is a hearty family dish served in a shared pot with rice.",
+   "history": "Dak-dori-tang is a long-standing Korean home dish. The origin of the word “dori” is debated, and the National Institute of Korean Language has recommended the alternative name dakbokkeumtang. It remains a comfort food across South Korea.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg chicken pieces on the bone",
+     "3 potatoes, cut into large chunks",
+     "1 carrot, cut into chunks",
+     "1 onion, cut into wedges",
+     "3 tbsp gochugaru (Korean chili flakes)",
+     "4 tbsp soy sauce",
+     "5 garlic cloves, crushed",
+     "1 tbsp sugar",
+     "500 ml water",
+     "2 scallions, sliced"
+    ],
+    "steps": [
+     "Blanch the chicken in boiling water for 3 minutes, drain and rinse.",
+     "Mix the gochugaru, soy sauce, garlic and sugar into a paste.",
+     "Put the chicken, paste and water in a pot, bring to the boil and simmer covered for 15 minutes.",
+     "Add the potatoes, carrot and onion and simmer for 20–25 minutes until the potatoes are soft and the sauce has thickened.",
+     "Top with scallions and serve with rice."
+    ]
+   },
+   "tips": [
+    "Remove the chicken skin before braising and skim fat from the sauce.",
+    "Swap one potato for more carrot or onion.",
+    "Serve a smaller scoop of rice, since the potatoes already add starch."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Spicy braised chicken (dak-dori-tang)",
-      "origin": "South Korea",
-      "intro": "Dak-dori-tang, also called dakbokkeumtang, is chicken on the bone braised with chunky potatoes, carrots and onion in a red, spicy sauce of Korean chili flakes, soy sauce and garlic. The potatoes soak up the sauce and thicken it, and the chicken falls off the bone. It is a hearty family dish served in a shared pot with rice.",
-      "history": "Dak-dori-tang is a long-standing Korean home dish. The origin of the word “dori” is debated, and the National Institute of Korean Language has recommended the alternative name dakbokkeumtang. It remains a comfort food across South Korea.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg chicken pieces on the bone",
-          "3 potatoes, cut into large chunks",
-          "1 carrot, cut into chunks",
-          "1 onion, cut into wedges",
-          "3 tbsp gochugaru (Korean chili flakes)",
-          "4 tbsp soy sauce",
-          "5 garlic cloves, crushed",
-          "1 tbsp sugar",
-          "500 ml water",
-          "2 scallions, sliced"
-        ],
-        "steps": [
-          "Blanch the chicken in boiling water for 3 minutes, drain and rinse.",
-          "Mix the gochugaru, soy sauce, garlic and sugar into a paste.",
-          "Put the chicken, paste and water in a pot, bring to the boil and simmer covered for 15 minutes.",
-          "Add the potatoes, carrot and onion and simmer for 20–25 minutes until the potatoes are soft and the sauce has thickened.",
-          "Top with scallions and serve with rice."
-        ]
-      },
-      "tips": [
-        "Remove the chicken skin before braising and skim fat from the sauce.",
-        "Swap one potato for more carrot or onion.",
-        "Serve a smaller scoop of rice, since the potatoes already add starch."
-      ]
-    },
-    "ar": {
-      "name": "دجاج كوري مطهو بالصلصة الحارة (داك دوري تانغ)",
-      "origin": "كوريا الجنوبية",
-      "intro": "داك دوري تانغ، ويسمى أيضاً داك بوكوم تانغ، دجاج بالعظم مطهو ببطء مع قطع كبيرة من البطاطس والجزر والبصل في صلصة حمراء حارة من رقائق الفلفل الكوري وصلصة الصويا والثوم. تمتص البطاطس الصلصة وتكثّفها، ويصبح الدجاج طرياً ينفصل عن العظم. طبق عائلي مشبع يُقدَّم في قدر مشترك مع الأرز.",
-      "history": "داك دوري تانغ طبق منزلي كوري قديم. وأصل كلمة «دوري» موضع جدل، وقد أوصى المعهد الوطني للغة الكورية بالاسم البديل داك بوكوم تانغ. ولا يزال طبقاً مريحاً محبوباً في أنحاء كوريا الجنوبية.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 كغ قطع دجاج بالعظم",
-          "3 حبات بطاطس مقطّعة قطعاً كبيرة",
-          "1 جزرة مقطّعة قطعاً",
-          "1 بصلة مقطّعة أرباعاً",
-          "3 ملاعق كبيرة غوتشوغارو (رقائق فلفل كوري)",
-          "4 ملاعق كبيرة صلصة صويا",
-          "5 فصوص ثوم مهروسة",
-          "1 ملعقة كبيرة سكر",
-          "500 مل ماء",
-          "2 عود بصل أخضر مفروم"
-        ],
-        "steps": [
-          "اسلق الدجاج في ماء مغلي 3 دقائق، ثم صفّه واشطفه.",
-          "اخلط الغوتشوغارو وصلصة الصويا والثوم والسكر لتحصل على معجون.",
-          "ضع الدجاج والمعجون والماء في قدر، واتركه يغلي ثم اطهه مغطى على نار هادئة 15 دقيقة.",
-          "أضف البطاطس والجزر والبصل واطهه 20–25 دقيقة حتى تلين البطاطس وتتكثف الصلصة.",
-          "زيّنه بالبصل الأخضر وقدّمه مع الأرز."
-        ]
-      },
-      "tips": [
-        "أزل جلد الدجاج قبل الطهي وأزل الدهون عن سطح الصلصة.",
-        "استبدل حبة بطاطس بمزيد من الجزر أو البصل.",
-        "قدّم حصة أصغر من الأرز، فالبطاطس تضيف النشويات أصلاً."
-      ]
-    },
-    "it": {
-      "name": "Pollo brasato piccante (dak-dori-tang)",
-      "name_inline": "pollo brasato piccante",
-      "origin": "Corea del Sud",
-      "intro": "Il dak-dori-tang, chiamato anche dakbokkeumtang, è pollo con l'osso brasato con grossi pezzi di patate, carote e cipolla in una salsa rossa e piccante di peperoncino coreano in fiocchi, salsa di soia e aglio. Le patate assorbono la salsa e la addensano, e il pollo si stacca dall'osso. È un piatto di famiglia sostanzioso, servito in una pentola comune con il riso.",
-      "history": "Il dak-dori-tang è un piatto casalingo coreano di lunga tradizione. L'origine della parola «dori» è discussa, e l'Istituto nazionale della lingua coreana ha raccomandato il nome alternativo dakbokkeumtang. Resta un comfort food in tutta la Corea del Sud.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 kg di pollo a pezzi con l'osso",
-          "3 patate a pezzi grossi",
-          "1 carota a tocchetti",
-          "1 cipolla a spicchi",
-          "3 cucchiai di gochugaru (peperoncino coreano in fiocchi)",
-          "4 cucchiai di salsa di soia",
-          "5 spicchi d'aglio schiacciati",
-          "1 cucchiaio di zucchero",
-          "500 ml d'acqua",
-          "2 cipollotti a rondelle"
-        ],
-        "steps": [
-          "Sbollenta il pollo in acqua bollente per 3 minuti, scolalo e sciacqualo.",
-          "Mescola il gochugaru, la salsa di soia, l'aglio e lo zucchero fino a ottenere una pasta.",
-          "Metti in una pentola il pollo, la pasta e l'acqua, porta a bollore e cuoci coperto a fuoco dolce per 15 minuti.",
-          "Aggiungi le patate, la carota e la cipolla e cuoci a fuoco dolce per 20–25 minuti, finché le patate sono morbide e la salsa si è addensata.",
-          "Completa con i cipollotti e servi con il riso."
-        ]
-      },
-      "tips": [
-        "Togli la pelle al pollo prima di brasarlo ed elimina il grasso dalla salsa.",
-        "Sostituisci una patata con più carota o cipolla.",
-        "Servi una porzione più piccola di riso, perché le patate aggiungono già amido."
-      ]
-    },
-    "el": {
-      "name": "Πικάντικο κοκκινιστό κοτόπουλο (ντακ-ντορι-τανγκ)",
-      "name_inline": "πικάντικο κοκκινιστό κοτόπουλο",
-      "origin": "Νότια Κορέα",
-      "intro": "Το ντακ-ντορι-τανγκ, γνωστό και ως ντακμποκεουμτανγκ, είναι κοτόπουλο με κόκαλο σιγομαγειρεμένο με μεγάλα κομμάτια πατάτας, καρότα και κρεμμύδι σε κόκκινη, καυτερή σάλτσα από κορεατικές νιφάδες τσίλι, σάλτσα σόγιας και σκόρδο. Οι πατάτες ρουφούν τη σάλτσα και τη δένουν, και το κοτόπουλο ξεκολλάει από το κόκαλο. Είναι χορταστικό οικογενειακό φαγητό που σερβίρεται σε κοινή κατσαρόλα με ρύζι.",
-      "history": "Το ντακ-ντορι-τανγκ είναι παλιό σπιτικό κορεατικό φαγητό. Η προέλευση της λέξης «ντορι» αμφισβητείται, και το Εθνικό Ινστιτούτο Κορεατικής Γλώσσας έχει προτείνει την εναλλακτική ονομασία ντακμποκεουμτανγκ. Παραμένει παρηγορητικό φαγητό σε όλη τη Νότια Κορέα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 κιλό κοτόπουλο σε κομμάτια με κόκαλο",
-          "3 πατάτες σε μεγάλα κομμάτια",
-          "1 καρότο σε κομμάτια",
-          "1 κρεμμύδι σε κομμάτια",
-          "3 κ.σ. γκοτσουγκαρού (κορεατικές νιφάδες τσίλι)",
-          "4 κ.σ. σάλτσα σόγιας",
-          "5 σκελίδες σκόρδο, λιωμένες",
-          "1 κ.σ. ζάχαρη",
-          "500 ml νερό",
-          "2 φρέσκα κρεμμυδάκια σε ροδέλες"
-        ],
-        "steps": [
-          "Ζεματίστε το κοτόπουλο σε βραστό νερό για 3 λεπτά, σουρώστε και ξεπλύνετε.",
-          "Ανακατέψτε το γκοτσουγκαρού, τη σάλτσα σόγιας, το σκόρδο και τη ζάχαρη σε πάστα.",
-          "Βάλτε σε κατσαρόλα το κοτόπουλο, την πάστα και το νερό, φέρτε σε βρασμό και σιγοβράστε σκεπασμένο 15 λεπτά.",
-          "Προσθέστε τις πατάτες, το καρότο και το κρεμμύδι και σιγοβράστε 20–25 λεπτά, μέχρι να μαλακώσουν οι πατάτες και να δέσει η σάλτσα.",
-          "Πασπαλίστε με τα κρεμμυδάκια και σερβίρετε με ρύζι."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε την πέτσα του κοτόπουλου πριν από το μαγείρεμα και ξαφρίστε το λίπος από τη σάλτσα.",
-        "Αντικαταστήστε μία πατάτα με περισσότερο καρότο ή κρεμμύδι.",
-        "Σερβίρετε μικρότερη μερίδα ρυζιού, αφού οι πατάτες δίνουν ήδη άμυλο."
-      ]
-    },
-    "ru": {
-      "name": "Острая тушёная курица (дак-дори-тан)",
-      "origin": "Южная Корея",
-      "intro": "Дак-дори-тан, также называемый дакпокыммтан, — курица на кости, тушёная с крупными кусками картофеля, морковью и луком в красном остром соусе из корейских хлопьев чили, соевого соуса и чеснока. Картофель впитывает соус и загущает его, а курица отходит от кости. Это сытное семейное блюдо, которое подают в общем котле с рисом.",
-      "history": "Дак-дори-тан — давнее корейское домашнее блюдо. Происхождение слова «дори» оспаривается, а Национальный институт корейского языка рекомендовал альтернативное название дакпокыммтан. Оно остаётся домашней едой по всей Южной Корее.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 60,
-        "ingredients": [
-          "1 кг кусков курицы на кости",
-          "3 картофелины, нарезанные крупными кусками",
-          "1 морковь, нарезанная кусками",
-          "1 луковица, нарезанная дольками",
-          "3 ст. л. кочукару (корейских хлопьев чили)",
-          "4 ст. л. соевого соуса",
-          "5 зубчиков чеснока, раздавленных",
-          "1 ст. л. сахара",
-          "500 мл воды",
-          "2 стебля зелёного лука, нарезанных"
-        ],
-        "steps": [
-          "Бланшируйте курицу в кипящей воде 3 минуты, слейте воду и ополосните.",
-          "Смешайте кочукару, соевый соус, чеснок и сахар в пасту.",
-          "Выложите в кастрюлю курицу, пасту и воду, доведите до кипения и тушите под крышкой 15 минут.",
-          "Добавьте картофель, морковь и лук и тушите 20–25 минут, пока картофель не станет мягким, а соус не загустеет.",
-          "Посыпьте зелёным луком и подавайте с рисом."
-        ]
-      },
-      "tips": [
-        "Снимите с курицы кожу перед тушением и удалите жир с соуса.",
-        "Замените одну картофелину большим количеством моркови или лука.",
-        "Подавайте меньшую порцию риса, так как картофель уже добавляет крахмал."
-      ]
-    }
+  "ar": {
+   "name": "دجاج كوري مطهو بالصلصة الحارة (داك دوري تانغ)",
+   "origin": "كوريا الجنوبية",
+   "intro": "داك دوري تانغ، ويسمى أيضاً داك بوكوم تانغ، دجاج بالعظم مطهو ببطء مع قطع كبيرة من البطاطس والجزر والبصل في صلصة حمراء حارة من رقائق الفلفل الكوري وصلصة الصويا والثوم. تمتص البطاطس الصلصة وتكثّفها، ويصبح الدجاج طرياً ينفصل عن العظم. طبق عائلي مشبع يُقدَّم في قدر مشترك مع الأرز.",
+   "history": "داك دوري تانغ طبق منزلي كوري قديم. وأصل كلمة «دوري» موضع جدل، وقد أوصى المعهد الوطني للغة الكورية بالاسم البديل داك بوكوم تانغ. ولا يزال طبقاً مريحاً محبوباً في أنحاء كوريا الجنوبية.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 كغ قطع دجاج بالعظم",
+     "3 حبات بطاطس مقطّعة قطعاً كبيرة",
+     "1 جزرة مقطّعة قطعاً",
+     "1 بصلة مقطّعة أرباعاً",
+     "3 ملاعق كبيرة غوتشوغارو (رقائق فلفل كوري)",
+     "4 ملاعق كبيرة صلصة صويا",
+     "5 فصوص ثوم مهروسة",
+     "1 ملعقة كبيرة سكر",
+     "500 مل ماء",
+     "2 عود بصل أخضر مفروم"
+    ],
+    "steps": [
+     "اسلق الدجاج في ماء مغلي 3 دقائق، ثم صفّه واشطفه.",
+     "اخلط الغوتشوغارو وصلصة الصويا والثوم والسكر لتحصل على معجون.",
+     "ضع الدجاج والمعجون والماء في قدر، واتركه يغلي ثم اطهه مغطى على نار هادئة 15 دقيقة.",
+     "أضف البطاطس والجزر والبصل واطهه 20–25 دقيقة حتى تلين البطاطس وتتكثف الصلصة.",
+     "زيّنه بالبصل الأخضر وقدّمه مع الأرز."
+    ]
+   },
+   "tips": [
+    "أزل جلد الدجاج قبل الطهي وأزل الدهون عن سطح الصلصة.",
+    "استبدل حبة بطاطس بمزيد من الجزر أو البصل.",
+    "قدّم حصة أصغر من الأرز، فالبطاطس تضيف النشويات أصلاً."
+   ]
+  },
+  "it": {
+   "name": "Pollo brasato piccante (dak-dori-tang)",
+   "name_inline": "pollo brasato piccante",
+   "origin": "Corea del Sud",
+   "intro": "Il dak-dori-tang, chiamato anche dakbokkeumtang, è pollo con l'osso brasato con grossi pezzi di patate, carote e cipolla in una salsa rossa e piccante di peperoncino coreano in fiocchi, salsa di soia e aglio. Le patate assorbono la salsa e la addensano, e il pollo si stacca dall'osso. È un piatto di famiglia sostanzioso, servito in una pentola comune con il riso.",
+   "history": "Il dak-dori-tang è un piatto casalingo coreano di lunga tradizione. L'origine della parola «dori» è discussa, e l'Istituto nazionale della lingua coreana ha raccomandato il nome alternativo dakbokkeumtang. Resta un comfort food in tutta la Corea del Sud.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg di pollo a pezzi con l'osso",
+     "3 patate a pezzi grossi",
+     "1 carota a tocchetti",
+     "1 cipolla a spicchi",
+     "3 cucchiai di gochugaru (peperoncino coreano in fiocchi)",
+     "4 cucchiai di salsa di soia",
+     "5 spicchi d'aglio schiacciati",
+     "1 cucchiaio di zucchero",
+     "500 ml d'acqua",
+     "2 cipollotti a rondelle"
+    ],
+    "steps": [
+     "Sbollenta il pollo in acqua bollente per 3 minuti, scolalo e sciacqualo.",
+     "Mescola il gochugaru, la salsa di soia, l'aglio e lo zucchero fino a ottenere una pasta.",
+     "Metti in una pentola il pollo, la pasta e l'acqua, porta a bollore e cuoci coperto a fuoco dolce per 15 minuti.",
+     "Aggiungi le patate, la carota e la cipolla e cuoci a fuoco dolce per 20–25 minuti, finché le patate sono morbide e la salsa si è addensata.",
+     "Completa con i cipollotti e servi con il riso."
+    ]
+   },
+   "tips": [
+    "Togli la pelle al pollo prima di brasarlo ed elimina il grasso dalla salsa.",
+    "Sostituisci una patata con più carota o cipolla.",
+    "Servi una porzione più piccola di riso, perché le patate aggiungono già amido."
+   ]
+  },
+  "el": {
+   "name": "Πικάντικο κοκκινιστό κοτόπουλο (ντακ-ντορι-τανγκ)",
+   "name_inline": "πικάντικο κοκκινιστό κοτόπουλο",
+   "origin": "Νότια Κορέα",
+   "intro": "Το ντακ-ντορι-τανγκ, γνωστό και ως ντακμποκεουμτανγκ, είναι κοτόπουλο με κόκαλο σιγομαγειρεμένο με μεγάλα κομμάτια πατάτας, καρότα και κρεμμύδι σε κόκκινη, καυτερή σάλτσα από κορεατικές νιφάδες τσίλι, σάλτσα σόγιας και σκόρδο. Οι πατάτες ρουφούν τη σάλτσα και τη δένουν, και το κοτόπουλο ξεκολλάει από το κόκαλο. Είναι χορταστικό οικογενειακό φαγητό που σερβίρεται σε κοινή κατσαρόλα με ρύζι.",
+   "history": "Το ντακ-ντορι-τανγκ είναι παλιό σπιτικό κορεατικό φαγητό. Η προέλευση της λέξης «ντορι» αμφισβητείται, και το Εθνικό Ινστιτούτο Κορεατικής Γλώσσας έχει προτείνει την εναλλακτική ονομασία ντακμποκεουμτανγκ. Παραμένει παρηγορητικό φαγητό σε όλη τη Νότια Κορέα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 κιλό κοτόπουλο σε κομμάτια με κόκαλο",
+     "3 πατάτες σε μεγάλα κομμάτια",
+     "1 καρότο σε κομμάτια",
+     "1 κρεμμύδι σε κομμάτια",
+     "3 κ.σ. γκοτσουγκαρού (κορεατικές νιφάδες τσίλι)",
+     "4 κ.σ. σάλτσα σόγιας",
+     "5 σκελίδες σκόρδο, λιωμένες",
+     "1 κ.σ. ζάχαρη",
+     "500 ml νερό",
+     "2 φρέσκα κρεμμυδάκια σε ροδέλες"
+    ],
+    "steps": [
+     "Ζεματίστε το κοτόπουλο σε βραστό νερό για 3 λεπτά, σουρώστε και ξεπλύνετε.",
+     "Ανακατέψτε το γκοτσουγκαρού, τη σάλτσα σόγιας, το σκόρδο και τη ζάχαρη σε πάστα.",
+     "Βάλτε σε κατσαρόλα το κοτόπουλο, την πάστα και το νερό, φέρτε σε βρασμό και σιγοβράστε σκεπασμένο 15 λεπτά.",
+     "Προσθέστε τις πατάτες, το καρότο και το κρεμμύδι και σιγοβράστε 20–25 λεπτά, μέχρι να μαλακώσουν οι πατάτες και να δέσει η σάλτσα.",
+     "Πασπαλίστε με τα κρεμμυδάκια και σερβίρετε με ρύζι."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε την πέτσα του κοτόπουλου πριν από το μαγείρεμα και ξαφρίστε το λίπος από τη σάλτσα.",
+    "Αντικαταστήστε μία πατάτα με περισσότερο καρότο ή κρεμμύδι.",
+    "Σερβίρετε μικρότερη μερίδα ρυζιού, αφού οι πατάτες δίνουν ήδη άμυλο."
+   ]
+  },
+  "ru": {
+   "name": "Острая тушёная курица (дак-дори-тан)",
+   "origin": "Южная Корея",
+   "intro": "Дак-дори-тан, также называемый дакпокыммтан, — курица на кости, тушёная с крупными кусками картофеля, морковью и луком в красном остром соусе из корейских хлопьев чили, соевого соуса и чеснока. Картофель впитывает соус и загущает его, а курица отходит от кости. Это сытное семейное блюдо, которое подают в общем котле с рисом.",
+   "history": "Дак-дори-тан — давнее корейское домашнее блюдо. Происхождение слова «дори» оспаривается, а Национальный институт корейского языка рекомендовал альтернативное название дакпокыммтан. Оно остаётся домашней едой по всей Южной Корее.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 кг кусков курицы на кости",
+     "3 картофелины, нарезанные крупными кусками",
+     "1 морковь, нарезанная кусками",
+     "1 луковица, нарезанная дольками",
+     "3 ст. л. кочукару (корейских хлопьев чили)",
+     "4 ст. л. соевого соуса",
+     "5 зубчиков чеснока, раздавленных",
+     "1 ст. л. сахара",
+     "500 мл воды",
+     "2 стебля зелёного лука, нарезанных"
+    ],
+    "steps": [
+     "Бланшируйте курицу в кипящей воде 3 минуты, слейте воду и ополосните.",
+     "Смешайте кочукару, соевый соус, чеснок и сахар в пасту.",
+     "Выложите в кастрюлю курицу, пасту и воду, доведите до кипения и тушите под крышкой 15 минут.",
+     "Добавьте картофель, морковь и лук и тушите 20–25 минут, пока картофель не станет мягким, а соус не загустеет.",
+     "Посыпьте зелёным луком и подавайте с рисом."
+    ]
+   },
+   "tips": [
+    "Снимите с курицы кожу перед тушением и удалите жир с соуса.",
+    "Замените одну картофелину большим количеством моркови или лука.",
+    "Подавайте меньшую порцию риса, так как картофель уже добавляет крахмал."
+   ]
+  },
+  "es": {
+   "name": "Pollo guisado picante (dak-dori-tang)",
+   "origin": "Corea del Sur",
+   "intro": "El dak-dori-tang, también llamado dakbokkeumtang, es pollo con hueso guisado con papas grandes, zanahoria y cebolla en una salsa roja y picante de hojuelas de chile coreano, salsa de soya y ajo. Las papas absorben la salsa y la espesan, y el pollo se deshace del hueso. Es un plato familiar contundente que se sirve en una olla compartida con arroz.",
+   "history": "El dak-dori-tang es un plato casero coreano de larga data. El origen de la palabra «dori» se discute, y el Instituto Nacional de la Lengua Coreana ha recomendado el nombre alternativo dakbokkeumtang. Sigue siendo una comida reconfortante en toda Corea del Sur.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 60,
+    "ingredients": [
+     "1 kg de pollo en trozos, con hueso",
+     "3 papas, en trozos grandes",
+     "1 zanahoria, en trozos",
+     "1 cebolla, en gajos",
+     "3 cda. de gochugaru (hojuelas de chile coreano)",
+     "4 cda. de salsa de soya",
+     "5 dientes de ajo, machacados",
+     "1 cda. de azúcar",
+     "500 ml de agua",
+     "2 cebollines, en rodajas"
+    ],
+    "steps": [
+     "Escalda el pollo en agua hirviendo 3 minutos, escúrrelo y enjuágalo.",
+     "Mezcla el gochugaru, la salsa de soya, el ajo y el azúcar hasta formar una pasta.",
+     "Pon el pollo, la pasta y el agua en una olla, lleva a ebullición y cocina tapado a fuego suave 15 minutos.",
+     "Agrega las papas, la zanahoria y la cebolla y cocina de 20 a 25 minutos, hasta que las papas estén suaves y la salsa espese.",
+     "Cubre con el cebollín y sirve con arroz."
+    ]
+   },
+   "tips": [
+    "Quita la piel del pollo antes de guisarlo y retira la grasa de la salsa.",
+    "Cambia una papa por más zanahoria o cebolla.",
+    "Sirve una porción menor de arroz, pues las papas ya aportan almidón."
+   ],
+   "name_inline": "el dak-dori-tang"
   }
+ }
 }

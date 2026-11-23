@@ -1,160 +1,190 @@
 {
-  "db_key": "unadon",
-  "slug": "unadon",
-  "emoji": "🍱",
-  "portion_g": 350,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "unadon",
+ "slug": "unadon",
+ "emoji": "🍱",
+ "portion_g": 350,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Unadon",
+   "origin": "Japan · Tokyo (Edo)",
+   "intro": "Unadon is a bowl of hot steamed rice topped with charcoal-grilled eel glazed in tare, a sweet, glossy sauce of soy, mirin and sugar. The eel is tender and rich, with caramelized edges, and the sauce soaks into the rice. It is finished with a pinch of sansho pepper, whose citrusy tingle cuts the richness.",
+   "history": "Grilling eel over charcoal and glazing it with a sweet soy-based sauce became popular in Edo (today's Tokyo) in the 18th–19th centuries. Eating eel on the midsummer Day of the Ox is a custom still widely kept in Japan. Serving the eel over rice in a bowl is usually traced to the early 19th century.",
+   "recipe": {
+    "ingredients": [
+     "400 g eel fillets",
+     "600 g cooked short-grain rice",
+     "60 ml soy sauce",
+     "60 ml mirin",
+     "30 g sugar",
+     "Sansho pepper, to taste"
+    ],
+    "steps": [
+     "Simmer soy sauce, mirin and sugar for 8–10 minutes until syrupy to make the tare.",
+     "Grill the eel skin-side down over high heat for 4–5 minutes, then flip and grill 2–3 minutes more.",
+     "Brush with tare and grill for 1 minute; repeat the glazing two or three times.",
+     "Spoon a little tare over hot rice in bowls, top with the eel and sprinkle with sansho."
+    ],
+    "servings": 2,
+    "time_min": 40
+   },
+   "tips": [
+    "Use a smaller rice portion (about 120 g) and add a side of cucumber or pickled vegetables.",
+    "Brush on the tare instead of pouring it — the sauce is mostly sugar and soy.",
+    "Eel is rich in fat; a 70–80 g piece is a satisfying single serving."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Unadon",
-      "origin": "Japan · Tokyo (Edo)",
-      "intro": "Unadon is a bowl of hot steamed rice topped with charcoal-grilled eel glazed in tare, a sweet, glossy sauce of soy, mirin and sugar. The eel is tender and rich, with caramelized edges, and the sauce soaks into the rice. It is finished with a pinch of sansho pepper, whose citrusy tingle cuts the richness.",
-      "history": "Grilling eel over charcoal and glazing it with a sweet soy-based sauce became popular in Edo (today's Tokyo) in the 18th–19th centuries. Eating eel on the midsummer Day of the Ox is a custom still widely kept in Japan. Serving the eel over rice in a bowl is usually traced to the early 19th century.",
-      "recipe": {
-        "ingredients": [
-          "400 g eel fillets",
-          "600 g cooked short-grain rice",
-          "60 ml soy sauce",
-          "60 ml mirin",
-          "30 g sugar",
-          "Sansho pepper, to taste"
-        ],
-        "steps": [
-          "Simmer soy sauce, mirin and sugar for 8–10 minutes until syrupy to make the tare.",
-          "Grill the eel skin-side down over high heat for 4–5 minutes, then flip and grill 2–3 minutes more.",
-          "Brush with tare and grill for 1 minute; repeat the glazing two or three times.",
-          "Spoon a little tare over hot rice in bowls, top with the eel and sprinkle with sansho."
-        ],
-        "servings": 2,
-        "time_min": 40
-      },
-      "tips": [
-        "Use a smaller rice portion (about 120 g) and add a side of cucumber or pickled vegetables.",
-        "Brush on the tare instead of pouring it — the sauce is mostly sugar and soy.",
-        "Eel is rich in fat; a 70–80 g piece is a satisfying single serving."
-      ]
-    },
-    "ar": {
-      "name": "أونادون",
-      "origin": "اليابان · طوكيو (إيدو)",
-      "intro": "الأونادون وعاء من الأرز الساخن يعلوه ثعبان البحر المشوي على الفحم والمزجج بصلصة التاري، وهي صلصة لامعة حلوة من الصويا والميرين والسكر. لحم الثعبان طري وغني بحواف مكرملة، وتتشرب الصلصة في الأرز. ويُختم برشة من فلفل السانشو الذي يوازن الغنى بنكهته الحمضية اللاذعة.",
-      "history": "انتشر شيّ ثعبان البحر على الفحم وتزجيجه بصلصة الصويا الحلوة في إيدو (طوكيو اليوم) خلال القرنين الثامن عشر والتاسع عشر. ولا يزال تناول الثعبان في «يوم الثور» منتصف الصيف عادة شائعة في اليابان. ويُنسب تقديم الثعبان فوق الأرز في وعاء عادةً إلى أوائل القرن التاسع عشر.",
-      "recipe": {
-        "ingredients": [
-          "400 غ فيليه ثعبان البحر",
-          "600 غ أرز ياباني قصير الحبة مطبوخ",
-          "60 مل صلصة صويا",
-          "60 مل ميرين",
-          "30 غ سكر",
-          "فلفل سانشو حسب الرغبة"
-        ],
-        "steps": [
-          "اطهُ صلصة الصويا والميرين والسكر على نار هادئة 8–10 دقائق حتى تتكثف لتحضير صلصة التاري.",
-          "اشوِ الثعبان على جهة الجلد على نار عالية 4–5 دقائق، ثم اقلبه واشوِه 2–3 دقائق أخرى.",
-          "ادهنه بالتاري واشوِه دقيقة واحدة، وكرر التزجيج مرتين أو ثلاثًا.",
-          "ضع قليلًا من التاري على الأرز الساخن في الأطباق، ثم أضف الثعبان ورشّ السانشو."
-        ],
-        "servings": 2,
-        "time_min": 40
-      },
-      "tips": [
-        "قلّل كمية الأرز إلى نحو 120 غ وأضف طبقًا جانبيًا من الخيار أو الخضار المخللة.",
-        "ادهن صلصة التاري بالفرشاة بدل سكبها، فهي في معظمها سكر وصويا.",
-        "الثعبان غني بالدهون، وقطعة من 70–80 غ تكفي حصة واحدة مشبعة."
-      ]
-    },
-    "it": {
-      "name": "Unadon",
-      "origin": "Giappone · Tokyo (Edo)",
-      "intro": "L'unadon è una ciotola di riso caldo al vapore coperta di anguilla grigliata sulla brace e glassata con la tare, una salsa dolce e lucida di soia, mirin e zucchero. L'anguilla è tenera e ricca, con i bordi caramellati, e la salsa impregna il riso. Si completa con un pizzico di pepe sansho, il cui pizzicore agrumato smorza la ricchezza.",
-      "history": "Grigliare l'anguilla sulla brace e glassarla con una salsa dolce a base di soia divenne popolare a Edo (l'attuale Tokyo) tra il XVIII e il XIX secolo. Mangiare l'anguilla nel giorno del Bue di piena estate è un'usanza ancora molto diffusa in Giappone. Servire l'anguilla sul riso in una ciotola viene di solito fatto risalire all'inizio del XIX secolo.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 g di filetti di anguilla",
-          "600 g di riso a chicco corto cotto",
-          "60 ml di salsa di soia",
-          "60 ml di mirin",
-          "30 g di zucchero",
-          "Pepe sansho, a piacere"
-        ],
-        "steps": [
-          "Fai sobbollire salsa di soia, mirin e zucchero per 8–10 minuti finché diventano sciropposi, per preparare la tare.",
-          "Griglia l'anguilla dal lato della pelle a fuoco vivo per 4–5 minuti, poi girala e grigliala per altri 2–3 minuti.",
-          "Spennella con la tare e griglia per 1 minuto; ripeti la glassatura due o tre volte.",
-          "Versa un po' di tare sul riso caldo nelle ciotole, adagia sopra l'anguilla e cospargi con il sansho."
-        ]
-      },
-      "tips": [
-        "Usa una porzione di riso più piccola (circa 120 g) e aggiungi un contorno di cetriolo o verdure in salamoia.",
-        "Spennella la tare invece di versarla: la salsa è fatta soprattutto di zucchero e soia.",
-        "L'anguilla è ricca di grassi; un pezzo da 70–80 g è una porzione singola che sazia."
-      ]
-    },
-    "el": {
-      "name": "Ουνάντον",
-      "origin": "Ιαπωνία · Τόκιο (Έντο)",
-      "intro": "Το ουνάντον είναι ένα μπολ με ζεστό ρύζι στον ατμό και χέλι ψημένο στα κάρβουνα, γλασαρισμένο με τάρε, μια γλυκιά, γυαλιστερή σάλτσα από σόγια, μιρίν και ζάχαρη. Το χέλι είναι τρυφερό και πλούσιο, με καραμελωμένες άκρες, και η σάλτσα ποτίζει το ρύζι. Τελειώνει με μια πρέζα πιπέρι σάνσο, του οποίου το εσπεριδοειδές τσίμπημα ισορροπεί τη βαρύτητα.",
-      "history": "Το ψήσιμο του χελιού στα κάρβουνα με γλάσο από γλυκιά σάλτσα σόγιας έγινε δημοφιλές στο Έντο (το σημερινό Τόκιο) τον 18ο–19ο αιώνα. Η κατανάλωση χελιού την ημέρα του Βοδιού στο κατακαλόκαιρο είναι έθιμο που τηρείται ακόμη ευρέως στην Ιαπωνία. Το σερβίρισμα του χελιού πάνω σε ρύζι σε μπολ ανάγεται συνήθως στις αρχές του 19ου αιώνα.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 γρ. φιλέτα χελιού",
-          "600 γρ. μαγειρεμένο ρύζι κοντόσπυρο",
-          "60 ml σάλτσα σόγιας",
-          "60 ml μιρίν",
-          "30 γρ. ζάχαρη",
-          "Πιπέρι σάνσο, κατά βούληση"
-        ],
-        "steps": [
-          "Σιγοβράστε τη σάλτσα σόγιας, το μιρίν και τη ζάχαρη για 8–10 λεπτά μέχρι να γίνουν σιρόπι, για να φτιάξετε το τάρε.",
-          "Ψήστε το χέλι με την πέτσα προς τα κάτω σε δυνατή φωτιά για 4–5 λεπτά, μετά γυρίστε το και ψήστε για άλλα 2–3 λεπτά.",
-          "Αλείψτε με τάρε και ψήστε για 1 λεπτό· επαναλάβετε το γλασάρισμα δύο ή τρεις φορές.",
-          "Ρίξτε λίγο τάρε πάνω στο ζεστό ρύζι στα μπολ, βάλτε από πάνω το χέλι και πασπαλίστε με σάνσο."
-        ]
-      },
-      "tips": [
-        "Βάλτε μικρότερη μερίδα ρυζιού (περίπου 120 γρ.) και προσθέστε αγγούρι ή τουρσί λαχανικών στο πλάι.",
-        "Αλείψτε το τάρε αντί να το ρίχνετε — η σάλτσα είναι κυρίως ζάχαρη και σόγια.",
-        "Το χέλι είναι πλούσιο σε λιπαρά· ένα κομμάτι 70–80 γρ. είναι μια χορταστική ατομική μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Унадон",
-      "origin": "Япония · Токио (Эдо)",
-      "intro": "Унадон — миска горячего риса на пару с угрём, жаренным на углях и глазированным таре, сладким блестящим соусом из сои, мирина и сахара. Угорь нежный и жирный, с карамелизованными краями, а соус пропитывает рис. Блюдо завершается щепоткой перца сансё, цитрусовое покалывание которого смягчает жирность.",
-      "history": "Жарка угря на углях с глазированием сладким соевым соусом стала популярной в Эдо (нынешнем Токио) в XVIII–XIX веках. Обычай есть угря в середине лета в День Быка до сих пор широко соблюдается в Японии. Подача угря на рисе в миске обычно возводится к началу XIX века.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 40,
-        "ingredients": [
-          "400 г филе угря",
-          "600 г варёного круглозёрного риса",
-          "60 мл соевого соуса",
-          "60 мл мирина",
-          "30 г сахара",
-          "Перец сансё по вкусу"
-        ],
-        "steps": [
-          "Варите соевый соус, мирин и сахар 8–10 минут до сиропообразной консистенции, чтобы получить таре.",
-          "Жарьте угря кожей вниз на сильном огне 4–5 минут, затем переверните и жарьте ещё 2–3 минуты.",
-          "Смажьте таре и жарьте 1 минуту; повторите глазирование два или три раза.",
-          "Полейте горячий рис в мисках небольшим количеством таре, выложите сверху угря и посыпьте сансё."
-        ]
-      },
-      "tips": [
-        "Берите меньшую порцию риса (около 120 г) и добавьте гарнир из огурца или маринованных овощей.",
-        "Смазывайте таре кисточкой, а не поливайте — соус в основном состоит из сахара и сои.",
-        "Угорь жирный; кусок 70–80 г — вполне сытная одна порция."
-      ],
-      "name_inline": "унадон"
-    }
+  "ar": {
+   "name": "أونادون",
+   "origin": "اليابان · طوكيو (إيدو)",
+   "intro": "الأونادون وعاء من الأرز الساخن يعلوه ثعبان البحر المشوي على الفحم والمزجج بصلصة التاري، وهي صلصة لامعة حلوة من الصويا والميرين والسكر. لحم الثعبان طري وغني بحواف مكرملة، وتتشرب الصلصة في الأرز. ويُختم برشة من فلفل السانشو الذي يوازن الغنى بنكهته الحمضية اللاذعة.",
+   "history": "انتشر شيّ ثعبان البحر على الفحم وتزجيجه بصلصة الصويا الحلوة في إيدو (طوكيو اليوم) خلال القرنين الثامن عشر والتاسع عشر. ولا يزال تناول الثعبان في «يوم الثور» منتصف الصيف عادة شائعة في اليابان. ويُنسب تقديم الثعبان فوق الأرز في وعاء عادةً إلى أوائل القرن التاسع عشر.",
+   "recipe": {
+    "ingredients": [
+     "400 غ فيليه ثعبان البحر",
+     "600 غ أرز ياباني قصير الحبة مطبوخ",
+     "60 مل صلصة صويا",
+     "60 مل ميرين",
+     "30 غ سكر",
+     "فلفل سانشو حسب الرغبة"
+    ],
+    "steps": [
+     "اطهُ صلصة الصويا والميرين والسكر على نار هادئة 8–10 دقائق حتى تتكثف لتحضير صلصة التاري.",
+     "اشوِ الثعبان على جهة الجلد على نار عالية 4–5 دقائق، ثم اقلبه واشوِه 2–3 دقائق أخرى.",
+     "ادهنه بالتاري واشوِه دقيقة واحدة، وكرر التزجيج مرتين أو ثلاثًا.",
+     "ضع قليلًا من التاري على الأرز الساخن في الأطباق، ثم أضف الثعبان ورشّ السانشو."
+    ],
+    "servings": 2,
+    "time_min": 40
+   },
+   "tips": [
+    "قلّل كمية الأرز إلى نحو 120 غ وأضف طبقًا جانبيًا من الخيار أو الخضار المخللة.",
+    "ادهن صلصة التاري بالفرشاة بدل سكبها، فهي في معظمها سكر وصويا.",
+    "الثعبان غني بالدهون، وقطعة من 70–80 غ تكفي حصة واحدة مشبعة."
+   ]
+  },
+  "it": {
+   "name": "Unadon",
+   "origin": "Giappone · Tokyo (Edo)",
+   "intro": "L'unadon è una ciotola di riso caldo al vapore coperta di anguilla grigliata sulla brace e glassata con la tare, una salsa dolce e lucida di soia, mirin e zucchero. L'anguilla è tenera e ricca, con i bordi caramellati, e la salsa impregna il riso. Si completa con un pizzico di pepe sansho, il cui pizzicore agrumato smorza la ricchezza.",
+   "history": "Grigliare l'anguilla sulla brace e glassarla con una salsa dolce a base di soia divenne popolare a Edo (l'attuale Tokyo) tra il XVIII e il XIX secolo. Mangiare l'anguilla nel giorno del Bue di piena estate è un'usanza ancora molto diffusa in Giappone. Servire l'anguilla sul riso in una ciotola viene di solito fatto risalire all'inizio del XIX secolo.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 g di filetti di anguilla",
+     "600 g di riso a chicco corto cotto",
+     "60 ml di salsa di soia",
+     "60 ml di mirin",
+     "30 g di zucchero",
+     "Pepe sansho, a piacere"
+    ],
+    "steps": [
+     "Fai sobbollire salsa di soia, mirin e zucchero per 8–10 minuti finché diventano sciropposi, per preparare la tare.",
+     "Griglia l'anguilla dal lato della pelle a fuoco vivo per 4–5 minuti, poi girala e grigliala per altri 2–3 minuti.",
+     "Spennella con la tare e griglia per 1 minuto; ripeti la glassatura due o tre volte.",
+     "Versa un po' di tare sul riso caldo nelle ciotole, adagia sopra l'anguilla e cospargi con il sansho."
+    ]
+   },
+   "tips": [
+    "Usa una porzione di riso più piccola (circa 120 g) e aggiungi un contorno di cetriolo o verdure in salamoia.",
+    "Spennella la tare invece di versarla: la salsa è fatta soprattutto di zucchero e soia.",
+    "L'anguilla è ricca di grassi; un pezzo da 70–80 g è una porzione singola che sazia."
+   ]
+  },
+  "el": {
+   "name": "Ουνάντον",
+   "origin": "Ιαπωνία · Τόκιο (Έντο)",
+   "intro": "Το ουνάντον είναι ένα μπολ με ζεστό ρύζι στον ατμό και χέλι ψημένο στα κάρβουνα, γλασαρισμένο με τάρε, μια γλυκιά, γυαλιστερή σάλτσα από σόγια, μιρίν και ζάχαρη. Το χέλι είναι τρυφερό και πλούσιο, με καραμελωμένες άκρες, και η σάλτσα ποτίζει το ρύζι. Τελειώνει με μια πρέζα πιπέρι σάνσο, του οποίου το εσπεριδοειδές τσίμπημα ισορροπεί τη βαρύτητα.",
+   "history": "Το ψήσιμο του χελιού στα κάρβουνα με γλάσο από γλυκιά σάλτσα σόγιας έγινε δημοφιλές στο Έντο (το σημερινό Τόκιο) τον 18ο–19ο αιώνα. Η κατανάλωση χελιού την ημέρα του Βοδιού στο κατακαλόκαιρο είναι έθιμο που τηρείται ακόμη ευρέως στην Ιαπωνία. Το σερβίρισμα του χελιού πάνω σε ρύζι σε μπολ ανάγεται συνήθως στις αρχές του 19ου αιώνα.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 γρ. φιλέτα χελιού",
+     "600 γρ. μαγειρεμένο ρύζι κοντόσπυρο",
+     "60 ml σάλτσα σόγιας",
+     "60 ml μιρίν",
+     "30 γρ. ζάχαρη",
+     "Πιπέρι σάνσο, κατά βούληση"
+    ],
+    "steps": [
+     "Σιγοβράστε τη σάλτσα σόγιας, το μιρίν και τη ζάχαρη για 8–10 λεπτά μέχρι να γίνουν σιρόπι, για να φτιάξετε το τάρε.",
+     "Ψήστε το χέλι με την πέτσα προς τα κάτω σε δυνατή φωτιά για 4–5 λεπτά, μετά γυρίστε το και ψήστε για άλλα 2–3 λεπτά.",
+     "Αλείψτε με τάρε και ψήστε για 1 λεπτό· επαναλάβετε το γλασάρισμα δύο ή τρεις φορές.",
+     "Ρίξτε λίγο τάρε πάνω στο ζεστό ρύζι στα μπολ, βάλτε από πάνω το χέλι και πασπαλίστε με σάνσο."
+    ]
+   },
+   "tips": [
+    "Βάλτε μικρότερη μερίδα ρυζιού (περίπου 120 γρ.) και προσθέστε αγγούρι ή τουρσί λαχανικών στο πλάι.",
+    "Αλείψτε το τάρε αντί να το ρίχνετε — η σάλτσα είναι κυρίως ζάχαρη και σόγια.",
+    "Το χέλι είναι πλούσιο σε λιπαρά· ένα κομμάτι 70–80 γρ. είναι μια χορταστική ατομική μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Унадон",
+   "origin": "Япония · Токио (Эдо)",
+   "intro": "Унадон — миска горячего риса на пару с угрём, жаренным на углях и глазированным таре, сладким блестящим соусом из сои, мирина и сахара. Угорь нежный и жирный, с карамелизованными краями, а соус пропитывает рис. Блюдо завершается щепоткой перца сансё, цитрусовое покалывание которого смягчает жирность.",
+   "history": "Жарка угря на углях с глазированием сладким соевым соусом стала популярной в Эдо (нынешнем Токио) в XVIII–XIX веках. Обычай есть угря в середине лета в День Быка до сих пор широко соблюдается в Японии. Подача угря на рисе в миске обычно возводится к началу XIX века.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 г филе угря",
+     "600 г варёного круглозёрного риса",
+     "60 мл соевого соуса",
+     "60 мл мирина",
+     "30 г сахара",
+     "Перец сансё по вкусу"
+    ],
+    "steps": [
+     "Варите соевый соус, мирин и сахар 8–10 минут до сиропообразной консистенции, чтобы получить таре.",
+     "Жарьте угря кожей вниз на сильном огне 4–5 минут, затем переверните и жарьте ещё 2–3 минуты.",
+     "Смажьте таре и жарьте 1 минуту; повторите глазирование два или три раза.",
+     "Полейте горячий рис в мисках небольшим количеством таре, выложите сверху угря и посыпьте сансё."
+    ]
+   },
+   "tips": [
+    "Берите меньшую порцию риса (около 120 г) и добавьте гарнир из огурца или маринованных овощей.",
+    "Смазывайте таре кисточкой, а не поливайте — соус в основном состоит из сахара и сои.",
+    "Угорь жирный; кусок 70–80 г — вполне сытная одна порция."
+   ],
+   "name_inline": "унадон"
+  },
+  "es": {
+   "name": "Unadon",
+   "origin": "Japón · Tokio (Edo)",
+   "intro": "El unadon es un tazón de arroz al vapor caliente cubierto con anguila asada al carbón y glaseada con tare, una salsa dulce y brillante de soya, mirin y azúcar. La anguila es tierna y rica, con los bordes caramelizados, y la salsa empapa el arroz. Se termina con una pizca de pimienta sansho, cuyo cosquilleo cítrico equilibra la untuosidad.",
+   "history": "Asar la anguila al carbón y glasearla con una salsa dulce a base de soya se hizo popular en Edo (hoy Tokio) entre los siglos XVIII y XIX. Comer anguila en el Día del Buey de pleno verano es una costumbre que aún se mantiene ampliamente en Japón. Servir la anguila sobre arroz en un tazón suele remontarse a principios del siglo XIX.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 40,
+    "ingredients": [
+     "400 g de filetes de anguila",
+     "600 g de arroz de grano corto, cocido",
+     "60 ml de salsa de soya",
+     "60 ml de mirin",
+     "30 g de azúcar",
+     "Pimienta sansho, al gusto"
+    ],
+    "steps": [
+     "Cuece a fuego bajo la salsa de soya, el mirin y el azúcar de 8 a 10 minutos, hasta que quede como jarabe; este es el tare.",
+     "Asa la anguila con la piel hacia abajo a fuego alto de 4 a 5 minutos, luego voltea y asa de 2 a 3 minutos más.",
+     "Barniza con el tare y asa 1 minuto; repite el glaseado dos o tres veces.",
+     "Pon un poco de tare sobre el arroz caliente en los tazones, coloca encima la anguila y espolvorea con sansho."
+    ]
+   },
+   "tips": [
+    "Usa una porción de arroz más pequeña (unos 120 g) y acompaña con pepino o verduras encurtidas.",
+    "Barniza el tare en lugar de verterlo; la salsa es sobre todo azúcar y soya.",
+    "La anguila es rica en grasa: una pieza de 70 a 80 g es una porción satisfactoria."
+   ],
+   "name_inline": "el unadon"
   }
+ }
 }

@@ -1,171 +1,203 @@
 {
-  "db_key": "shakshuka_egyptian",
-  "slug": "shakshuka-egyptian",
-  "emoji": "🍳",
-  "portion_g": 250,
-  "country": "EG",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "shakshuka_egyptian",
+ "slug": "shakshuka-egyptian",
+ "emoji": "🍳",
+ "portion_g": 250,
+ "country": "EG",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Egyptian Shakshuka",
+   "origin": "Egypt",
+   "intro": "Egyptian shakshuka is a quick breakfast pan of eggs stirred into a spiced sauce of tomato, onion and green or red peppers until softly scrambled. Seasoned with cumin and chili, it is saucy, soft and slightly runny. It is eaten straight from the pan at breakfast, often alongside other morning dishes.",
+   "history": "In Egypt shakshuka is often made with the eggs stirred through the sauce rather than poached whole, and it is a familiar home and café breakfast across the country.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 eggs",
+     "3 tomatoes, diced",
+     "1 onion, chopped",
+     "1 bell pepper, diced",
+     "1 tsp ground cumin",
+     "½ tsp chili flakes",
+     "1 tbsp oil",
+     "Salt and pepper"
+    ],
+    "steps": [
+     "Heat the oil and soften the onion and pepper for 5 minutes.",
+     "Add the tomatoes, cumin and chili and cook 5–7 minutes until saucy.",
+     "Beat the eggs lightly, pour into the pan and stir gently until just set.",
+     "Season and serve hot."
+    ]
+   },
+   "tips": [
+    "Use 1 tsp of oil instead of 1 tbsp — 1 tbsp oil is about 120 kcal.",
+    "Replace one egg with extra tomatoes and peppers for more volume.",
+    "Cook in a non-stick pan so very little oil is needed."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Egyptian Shakshuka",
-      "origin": "Egypt",
-      "intro": "Egyptian shakshuka is a quick breakfast pan of eggs stirred into a spiced sauce of tomato, onion and green or red peppers until softly scrambled. Seasoned with cumin and chili, it is saucy, soft and slightly runny. It is eaten straight from the pan at breakfast, often alongside other morning dishes.",
-      "history": "In Egypt shakshuka is often made with the eggs stirred through the sauce rather than poached whole, and it is a familiar home and café breakfast across the country.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 eggs",
-          "3 tomatoes, diced",
-          "1 onion, chopped",
-          "1 bell pepper, diced",
-          "1 tsp ground cumin",
-          "½ tsp chili flakes",
-          "1 tbsp oil",
-          "Salt and pepper"
-        ],
-        "steps": [
-          "Heat the oil and soften the onion and pepper for 5 minutes.",
-          "Add the tomatoes, cumin and chili and cook 5–7 minutes until saucy.",
-          "Beat the eggs lightly, pour into the pan and stir gently until just set.",
-          "Season and serve hot."
-        ]
-      },
-      "tips": [
-        "Use 1 tsp of oil instead of 1 tbsp — 1 tbsp oil is about 120 kcal.",
-        "Replace one egg with extra tomatoes and peppers for more volume.",
-        "Cook in a non-stick pan so very little oil is needed."
-      ]
-    },
-    "ar": {
-      "name": "شكشوكة مصرية",
-      "origin": "مصر",
-      "intro": "الشكشوكة المصرية مقلاة فطور سريعة يُقلَّب فيها البيض في صلصة متبّلة من الطماطم والبصل والفلفل الأخضر أو الأحمر حتى ينضج طرياً. تُنكَّه بالكمون والفلفل الحار، وقوامها طري وغني بالصلصة وسائل قليلاً. تُؤكل من المقلاة مباشرة في الفطور، وغالباً إلى جانب أطباق الصباح الأخرى.",
-      "history": "في مصر تُحضَّر الشكشوكة غالباً بتقليب البيض في الصلصة بدل طهيه كاملاً، وهي فطور مألوف في البيوت والمقاهي في أنحاء البلاد.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 بيضات",
-          "3 حبات طماطم مقطّعة",
-          "بصلة مفرومة",
-          "فلفل حلو مقطّع",
-          "ملعقة صغيرة كمون مطحون",
-          "نصف ملعقة صغيرة فلفل حار مجروش",
-          "ملعقة كبيرة زيت",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "سخّن الزيت واطبخ البصل والفلفل 5 دقائق حتى يذبلا.",
-          "أضف الطماطم والكمون والفلفل الحار واطبخ 5–7 دقائق حتى تتكوّن الصلصة.",
-          "اخفق البيض خفيفاً واسكبه في المقلاة وقلّبه برفق حتى ينضج.",
-          "تبّله وقدّمه ساخناً."
-        ]
-      },
-      "tips": [
-        "استخدم ملعقة صغيرة من الزيت بدل الكبيرة — ملعقة كبيرة من الزيت ≈ 120 سعرة.",
-        "استبدل بيضة بمزيد من الطماطم والفلفل لحجم أكبر.",
-        "اطبخها في مقلاة غير لاصقة لتحتاج زيتاً قليلاً جداً."
-      ]
-    },
-    "it": {
-      "name": "Shakshuka egiziana",
-      "name_inline": "shakshuka egiziana",
-      "origin": "Egitto",
-      "intro": "La shakshuka egiziana è una veloce padella da colazione di uova mescolate in una salsa speziata di pomodoro, cipolla e peperoni verdi o rossi, fino a ottenere un morbido strapazzato. Insaporita con cumino e peperoncino, è sugosa, morbida e leggermente cremosa. Si mangia direttamente dalla padella a colazione, spesso insieme ad altri piatti del mattino.",
-      "history": "In Egitto la shakshuka si prepara spesso mescolando le uova nella salsa invece di cuocerle intere in camicia, ed è una colazione familiare nelle case e nei caffè di tutto il Paese.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 uova",
-          "3 pomodori, a dadini",
-          "1 cipolla, tritata",
-          "1 peperone, a dadini",
-          "1 cucchiaino di cumino in polvere",
-          "½ cucchiaino di peperoncino in fiocchi",
-          "1 cucchiaio di olio",
-          "Sale e pepe"
-        ],
-        "steps": [
-          "Scalda l'olio e fai appassire cipolla e peperone per 5 minuti.",
-          "Aggiungi pomodori, cumino e peperoncino e cuoci 5–7 minuti finché si forma un sugo.",
-          "Sbatti leggermente le uova, versale nella padella e mescola delicatamente finché sono appena rapprese.",
-          "Regola di sale e pepe e servi caldo."
-        ]
-      },
-      "tips": [
-        "Usa 1 cucchiaino d'olio invece di 1 cucchiaio: 1 cucchiaio d'olio sono circa 120 kcal.",
-        "Sostituisci un uovo con altri pomodori e peperoni per avere più volume.",
-        "Cuoci in una padella antiaderente, così serve pochissimo olio."
-      ]
-    },
-    "el": {
-      "name": "Αιγυπτιακή σακσούκα",
-      "name_inline": "αιγυπτιακή σακσούκα",
-      "origin": "Αίγυπτος",
-      "intro": "Η αιγυπτιακή σακσούκα είναι ένα γρήγορο πρωινό τηγάνι με αυγά ανακατεμένα σε πικάντικη σάλτσα από ντομάτα, κρεμμύδι και πράσινες ή κόκκινες πιπεριές, μέχρι να γίνουν μαλακή στραπατσάδα. Καρυκευμένη με κύμινο και καυτερή πιπεριά, είναι ζουμερή, μαλακή και ελαφρώς ρευστή. Τρώγεται κατευθείαν από το τηγάνι στο πρωινό, συχνά μαζί με άλλα πρωινά πιάτα.",
-      "history": "Στην Αίγυπτο η σακσούκα συχνά φτιάχνεται με τα αυγά ανακατεμένα μέσα στη σάλτσα αντί να ψήνονται ολόκληρα, και είναι οικείο πρωινό σε σπίτια και καφέ σε όλη τη χώρα.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 αυγά",
-          "3 ντομάτες, σε κυβάκια",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1 πιπεριά, σε κυβάκια",
-          "1 κ.γ. κύμινο σε σκόνη",
-          "½ κ.γ. νιφάδες καυτερής πιπεριάς",
-          "1 κ.σ. λάδι",
-          "Αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Ζεστάνετε το λάδι και μαλακώστε το κρεμμύδι και την πιπεριά για 5 λεπτά.",
-          "Προσθέστε τις ντομάτες, το κύμινο και την καυτερή πιπεριά και μαγειρέψτε 5–7 λεπτά μέχρι να γίνει σάλτσα.",
-          "Χτυπήστε ελαφρά τα αυγά, ρίξτε τα στο τηγάνι και ανακατέψτε απαλά μέχρι να μόλις πήξουν.",
-          "Αλατοπιπερώστε και σερβίρετε ζεστό."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε 1 κ.γ. λάδι αντί για 1 κ.σ. — 1 κ.σ. λάδι έχει περίπου 120 kcal.",
-        "Αντικαταστήστε ένα αυγό με επιπλέον ντομάτες και πιπεριές για περισσότερο όγκο.",
-        "Μαγειρέψτε σε αντικολλητικό τηγάνι ώστε να χρειάζεται ελάχιστο λάδι."
-      ]
-    },
-    "ru": {
-      "name": "Египетская шакшука",
-      "origin": "Египет",
-      "intro": "Египетская шакшука — быстрая завтрак-сковорода, в которой яйца вмешивают в пряный соус из помидоров, лука и зелёного или красного перца до мягкой консистенции скрэмбла. Приправленная зирой и чили, она соусная, мягкая и слегка жидкая. Её едят прямо со сковороды на завтрак, часто вместе с другими утренними блюдами.",
-      "history": "В Египте шакшуку часто готовят, вмешивая яйца в соус, а не варя их целиком, и это привычный домашний и кафейный завтрак по всей стране.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 20,
-        "ingredients": [
-          "4 яйца",
-          "3 помидора, нарезанных кубиками",
-          "1 луковица, нарубленная",
-          "1 болгарский перец, нарезанный кубиками",
-          "1 ч. л. молотой зиры",
-          "½ ч. л. хлопьев чили",
-          "1 ст. л. масла",
-          "Соль и перец"
-        ],
-        "steps": [
-          "Разогрейте масло и обжарьте лук и перец до мягкости 5 минут.",
-          "Добавьте помидоры, зиру и чили и готовьте 5–7 минут до образования соуса.",
-          "Слегка взбейте яйца, вылейте на сковороду и аккуратно помешивайте, пока они не схватятся.",
-          "Приправьте и подавайте горячей."
-        ]
-      },
-      "tips": [
-        "Используйте 1 ч. л. масла вместо 1 ст. л. — 1 ст. л. масла около 120 ккал.",
-        "Замените одно яйцо дополнительными помидорами и перцем для объёма.",
-        "Готовьте на сковороде с антипригарным покрытием, чтобы требовалось совсем немного масла."
-      ]
-    }
+  "ar": {
+   "name": "شكشوكة مصرية",
+   "origin": "مصر",
+   "intro": "الشكشوكة المصرية مقلاة فطور سريعة يُقلَّب فيها البيض في صلصة متبّلة من الطماطم والبصل والفلفل الأخضر أو الأحمر حتى ينضج طرياً. تُنكَّه بالكمون والفلفل الحار، وقوامها طري وغني بالصلصة وسائل قليلاً. تُؤكل من المقلاة مباشرة في الفطور، وغالباً إلى جانب أطباق الصباح الأخرى.",
+   "history": "في مصر تُحضَّر الشكشوكة غالباً بتقليب البيض في الصلصة بدل طهيه كاملاً، وهي فطور مألوف في البيوت والمقاهي في أنحاء البلاد.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 بيضات",
+     "3 حبات طماطم مقطّعة",
+     "بصلة مفرومة",
+     "فلفل حلو مقطّع",
+     "ملعقة صغيرة كمون مطحون",
+     "نصف ملعقة صغيرة فلفل حار مجروش",
+     "ملعقة كبيرة زيت",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "سخّن الزيت واطبخ البصل والفلفل 5 دقائق حتى يذبلا.",
+     "أضف الطماطم والكمون والفلفل الحار واطبخ 5–7 دقائق حتى تتكوّن الصلصة.",
+     "اخفق البيض خفيفاً واسكبه في المقلاة وقلّبه برفق حتى ينضج.",
+     "تبّله وقدّمه ساخناً."
+    ]
+   },
+   "tips": [
+    "استخدم ملعقة صغيرة من الزيت بدل الكبيرة — ملعقة كبيرة من الزيت ≈ 120 سعرة.",
+    "استبدل بيضة بمزيد من الطماطم والفلفل لحجم أكبر.",
+    "اطبخها في مقلاة غير لاصقة لتحتاج زيتاً قليلاً جداً."
+   ]
+  },
+  "it": {
+   "name": "Shakshuka egiziana",
+   "name_inline": "shakshuka egiziana",
+   "origin": "Egitto",
+   "intro": "La shakshuka egiziana è una veloce padella da colazione di uova mescolate in una salsa speziata di pomodoro, cipolla e peperoni verdi o rossi, fino a ottenere un morbido strapazzato. Insaporita con cumino e peperoncino, è sugosa, morbida e leggermente cremosa. Si mangia direttamente dalla padella a colazione, spesso insieme ad altri piatti del mattino.",
+   "history": "In Egitto la shakshuka si prepara spesso mescolando le uova nella salsa invece di cuocerle intere in camicia, ed è una colazione familiare nelle case e nei caffè di tutto il Paese.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 uova",
+     "3 pomodori, a dadini",
+     "1 cipolla, tritata",
+     "1 peperone, a dadini",
+     "1 cucchiaino di cumino in polvere",
+     "½ cucchiaino di peperoncino in fiocchi",
+     "1 cucchiaio di olio",
+     "Sale e pepe"
+    ],
+    "steps": [
+     "Scalda l'olio e fai appassire cipolla e peperone per 5 minuti.",
+     "Aggiungi pomodori, cumino e peperoncino e cuoci 5–7 minuti finché si forma un sugo.",
+     "Sbatti leggermente le uova, versale nella padella e mescola delicatamente finché sono appena rapprese.",
+     "Regola di sale e pepe e servi caldo."
+    ]
+   },
+   "tips": [
+    "Usa 1 cucchiaino d'olio invece di 1 cucchiaio: 1 cucchiaio d'olio sono circa 120 kcal.",
+    "Sostituisci un uovo con altri pomodori e peperoni per avere più volume.",
+    "Cuoci in una padella antiaderente, così serve pochissimo olio."
+   ]
+  },
+  "el": {
+   "name": "Αιγυπτιακή σακσούκα",
+   "name_inline": "αιγυπτιακή σακσούκα",
+   "origin": "Αίγυπτος",
+   "intro": "Η αιγυπτιακή σακσούκα είναι ένα γρήγορο πρωινό τηγάνι με αυγά ανακατεμένα σε πικάντικη σάλτσα από ντομάτα, κρεμμύδι και πράσινες ή κόκκινες πιπεριές, μέχρι να γίνουν μαλακή στραπατσάδα. Καρυκευμένη με κύμινο και καυτερή πιπεριά, είναι ζουμερή, μαλακή και ελαφρώς ρευστή. Τρώγεται κατευθείαν από το τηγάνι στο πρωινό, συχνά μαζί με άλλα πρωινά πιάτα.",
+   "history": "Στην Αίγυπτο η σακσούκα συχνά φτιάχνεται με τα αυγά ανακατεμένα μέσα στη σάλτσα αντί να ψήνονται ολόκληρα, και είναι οικείο πρωινό σε σπίτια και καφέ σε όλη τη χώρα.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 αυγά",
+     "3 ντομάτες, σε κυβάκια",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1 πιπεριά, σε κυβάκια",
+     "1 κ.γ. κύμινο σε σκόνη",
+     "½ κ.γ. νιφάδες καυτερής πιπεριάς",
+     "1 κ.σ. λάδι",
+     "Αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Ζεστάνετε το λάδι και μαλακώστε το κρεμμύδι και την πιπεριά για 5 λεπτά.",
+     "Προσθέστε τις ντομάτες, το κύμινο και την καυτερή πιπεριά και μαγειρέψτε 5–7 λεπτά μέχρι να γίνει σάλτσα.",
+     "Χτυπήστε ελαφρά τα αυγά, ρίξτε τα στο τηγάνι και ανακατέψτε απαλά μέχρι να μόλις πήξουν.",
+     "Αλατοπιπερώστε και σερβίρετε ζεστό."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε 1 κ.γ. λάδι αντί για 1 κ.σ. — 1 κ.σ. λάδι έχει περίπου 120 kcal.",
+    "Αντικαταστήστε ένα αυγό με επιπλέον ντομάτες και πιπεριές για περισσότερο όγκο.",
+    "Μαγειρέψτε σε αντικολλητικό τηγάνι ώστε να χρειάζεται ελάχιστο λάδι."
+   ]
+  },
+  "ru": {
+   "name": "Египетская шакшука",
+   "origin": "Египет",
+   "intro": "Египетская шакшука — быстрая завтрак-сковорода, в которой яйца вмешивают в пряный соус из помидоров, лука и зелёного или красного перца до мягкой консистенции скрэмбла. Приправленная зирой и чили, она соусная, мягкая и слегка жидкая. Её едят прямо со сковороды на завтрак, часто вместе с другими утренними блюдами.",
+   "history": "В Египте шакшуку часто готовят, вмешивая яйца в соус, а не варя их целиком, и это привычный домашний и кафейный завтрак по всей стране.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 яйца",
+     "3 помидора, нарезанных кубиками",
+     "1 луковица, нарубленная",
+     "1 болгарский перец, нарезанный кубиками",
+     "1 ч. л. молотой зиры",
+     "½ ч. л. хлопьев чили",
+     "1 ст. л. масла",
+     "Соль и перец"
+    ],
+    "steps": [
+     "Разогрейте масло и обжарьте лук и перец до мягкости 5 минут.",
+     "Добавьте помидоры, зиру и чили и готовьте 5–7 минут до образования соуса.",
+     "Слегка взбейте яйца, вылейте на сковороду и аккуратно помешивайте, пока они не схватятся.",
+     "Приправьте и подавайте горячей."
+    ]
+   },
+   "tips": [
+    "Используйте 1 ч. л. масла вместо 1 ст. л. — 1 ст. л. масла около 120 ккал.",
+    "Замените одно яйцо дополнительными помидорами и перцем для объёма.",
+    "Готовьте на сковороде с антипригарным покрытием, чтобы требовалось совсем немного масла."
+   ]
+  },
+  "es": {
+   "name": "Shakshuka egipcia",
+   "origin": "Egipto",
+   "intro": "La shakshuka egipcia es un desayuno rápido en sartén: huevos mezclados en una salsa especiada de jitomate, cebolla y pimientos verdes o rojos hasta que cuajan como revueltos suaves. Sazonada con comino y chile, es jugosa, suave y ligeramente líquida. Se come directamente de la sartén en el desayuno, a menudo junto con otros platos matutinos.",
+   "history": "En Egipto la shakshuka suele hacerse con los huevos revueltos en la salsa en lugar de escalfados enteros, y es un desayuno familiar en casas y cafés de todo el país.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 20,
+    "ingredients": [
+     "4 huevos",
+     "3 jitomates, en cubos",
+     "1 cebolla, picada",
+     "1 pimiento morrón, en cubos",
+     "1 cdta. de comino molido",
+     "½ cdta. de hojuelas de chile",
+     "1 cda. de aceite",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Calienta el aceite y acitrona la cebolla y el pimiento durante 5 minutos.",
+     "Agrega los jitomates, el comino y el chile y cocina de 5 a 7 minutos, hasta que esté jugoso.",
+     "Bate ligeramente los huevos, viértelos en la sartén y mezcla con suavidad hasta que apenas cuajen.",
+     "Sazona y sirve caliente."
+    ]
+   },
+   "tips": [
+    "Usa 1 cdta. de aceite en lugar de 1 cda.: 1 cda. de aceite tiene unas 120 kcal.",
+    "Sustituye un huevo por más jitomate y pimiento para dar más volumen.",
+    "Cocina en una sartén antiadherente para usar muy poco aceite."
+   ],
+   "name_inline": "la shakshuka egipcia"
   }
+ }
 }

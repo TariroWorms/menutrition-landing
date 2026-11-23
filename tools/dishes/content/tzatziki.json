@@ -1,165 +1,196 @@
 {
-  "db_key": "tzatziki",
-  "slug": "tzatziki",
-  "emoji": "🥒",
-  "portion_g": 80,
-  "country": "GR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tzatziki",
+ "slug": "tzatziki",
+ "emoji": "🥒",
+ "portion_g": 80,
+ "country": "GR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tzatziki",
+   "origin": "Greece",
+   "intro": "Tzatziki is a cool Greek dip of thick strained yogurt mixed with grated, squeezed cucumber, garlic, olive oil and fresh dill. It is creamy, tangy and refreshing, with a clear garlic bite. It is served as a meze with raw vegetables, and as a sauce for souvlaki, gyros and grilled meat or fish.",
+   "history": "Tzatziki is a staple of Greek tavernas and is related to similar yogurt-and-cucumber dishes across the eastern Mediterranean, such as Turkish cacık. Its name is usually traced to the Turkish word for that dish.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 15,
+    "ingredients": [
+     "500 g strained (Greek-style) yogurt",
+     "1 cucumber",
+     "2 garlic cloves, crushed",
+     "1 tbsp olive oil",
+     "1 tbsp lemon juice",
+     "2 tbsp chopped dill",
+     "Salt"
+    ],
+    "steps": [
+     "Grate the cucumber, salt it lightly and squeeze out as much liquid as possible.",
+     "Mix the yogurt with the garlic, lemon juice and olive oil.",
+     "Stir in the cucumber and dill and season with salt.",
+     "Chill for at least 30 minutes before serving."
+    ]
+   },
+   "tips": [
+    "Use low-fat strained yogurt for a lighter dip with the same thickness.",
+    "Serve with cucumber, pepper and carrot sticks for dipping.",
+    "Use tzatziki in place of richer creamy sauces with grilled meat."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tzatziki",
-      "origin": "Greece",
-      "intro": "Tzatziki is a cool Greek dip of thick strained yogurt mixed with grated, squeezed cucumber, garlic, olive oil and fresh dill. It is creamy, tangy and refreshing, with a clear garlic bite. It is served as a meze with raw vegetables, and as a sauce for souvlaki, gyros and grilled meat or fish.",
-      "history": "Tzatziki is a staple of Greek tavernas and is related to similar yogurt-and-cucumber dishes across the eastern Mediterranean, such as Turkish cacık. Its name is usually traced to the Turkish word for that dish.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 15,
-        "ingredients": [
-          "500 g strained (Greek-style) yogurt",
-          "1 cucumber",
-          "2 garlic cloves, crushed",
-          "1 tbsp olive oil",
-          "1 tbsp lemon juice",
-          "2 tbsp chopped dill",
-          "Salt"
-        ],
-        "steps": [
-          "Grate the cucumber, salt it lightly and squeeze out as much liquid as possible.",
-          "Mix the yogurt with the garlic, lemon juice and olive oil.",
-          "Stir in the cucumber and dill and season with salt.",
-          "Chill for at least 30 minutes before serving."
-        ]
-      },
-      "tips": [
-        "Use low-fat strained yogurt for a lighter dip with the same thickness.",
-        "Serve with cucumber, pepper and carrot sticks for dipping.",
-        "Use tzatziki in place of richer creamy sauces with grilled meat."
-      ]
-    },
-    "ar": {
-      "name": "تزاتزيكي",
-      "origin": "اليونان",
-      "intro": "التزاتزيكي صلصة يونانية باردة من الزبادي المصفّى الكثيف ممزوجاً بالخيار المبشور المعصور والثوم وزيت الزيتون والشبت الطازج. طعمها كريمي ولاذع ومنعش، مع نكهة ثوم واضحة. تُقدَّم مقبلاً مع الخضار النيئة، وصلصةً للسوفلاكي والجيروس واللحوم أو الأسماك المشوية.",
-      "history": "التزاتزيكي من الأصناف الأساسية في المطاعم اليونانية الشعبية، وهو قريب من أطباق الزبادي والخيار المشابهة في شرق المتوسط مثل الجاجيك التركي. ويُرجَع اسمه عادة إلى الكلمة التركية لذلك الطبق.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 15,
-        "ingredients": [
-          "500 غ زبادي مصفّى (يوناني)",
-          "خيارة واحدة",
-          "فصّا ثوم مهروسان",
-          "ملعقة كبيرة زيت زيتون",
-          "ملعقة كبيرة عصير ليمون",
-          "ملعقتان كبيرتان شبت مفروم",
-          "ملح"
-        ],
-        "steps": [
-          "ابشر الخيار وملّحه قليلاً واعصره لإخراج أكبر قدر من الماء.",
-          "اخلط الزبادي مع الثوم وعصير الليمون وزيت الزيتون.",
-          "أضف الخيار والشبت وتبّل بالملح.",
-          "برّده 30 دقيقة على الأقل قبل التقديم."
-        ]
-      },
-      "tips": [
-        "استعمل زبادي مصفّى قليل الدسم لصلصة أخف بنفس الكثافة.",
-        "قدّمه مع أصابع الخيار والفلفل والجزر للغمس.",
-        "استعمل التزاتزيكي بدلاً من الصلصات الكريمية الأثقل مع اللحوم المشوية."
-      ]
-    },
-    "it": {
-      "name": "Tzatziki",
-      "origin": "Grecia",
-      "intro": "Lo tzatziki è una fresca salsa greca di yogurt colato denso mescolato con cetriolo grattugiato e strizzato, aglio, olio d'oliva e aneto fresco. È cremoso, acidulo e rinfrescante, con un deciso sapore d'aglio. Si serve come meze con verdure crude e come salsa per souvlaki, gyros e carne o pesce alla griglia.",
-      "history": "Lo tzatziki è un classico delle taverne greche ed è imparentato con preparazioni simili a base di yogurt e cetriolo in tutto il Mediterraneo orientale, come il cacık turco. Il suo nome viene di solito ricondotto alla parola turca che indica quel piatto.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 15,
-        "ingredients": [
-          "500 g di yogurt colato (tipo greco)",
-          "1 cetriolo",
-          "2 spicchi d'aglio, schiacciati",
-          "1 cucchiaio di olio d'oliva",
-          "1 cucchiaio di succo di limone",
-          "2 cucchiai di aneto tritato",
-          "Sale"
-        ],
-        "steps": [
-          "Grattugia il cetriolo, salalo leggermente e strizzalo per eliminare quanto più liquido possibile.",
-          "Mescola lo yogurt con l'aglio, il succo di limone e l'olio d'oliva.",
-          "Incorpora il cetriolo e l'aneto e regola di sale.",
-          "Lascia in frigorifero per almeno 30 minuti prima di servire."
-        ]
-      },
-      "tips": [
-        "Usa yogurt colato magro per una salsa più leggera con la stessa densità.",
-        "Servilo con bastoncini di cetriolo, peperone e carota da intingere.",
-        "Usa lo tzatziki al posto di salse cremose più ricche con la carne alla griglia."
-      ]
-    },
-    "el": {
-      "name": "Τζατζίκι",
-      "origin": "Ελλάδα",
-      "intro": "Το τζατζίκι είναι δροσερό ελληνικό ντιπ από παχύ στραγγιστό γιαούρτι ανακατεμένο με τριμμένο, στυμμένο αγγούρι, σκόρδο, ελαιόλαδο και φρέσκο άνηθο. Είναι κρεμώδες, ξινούτσικο και δροσιστικό, με καθαρή γεύση σκόρδου. Σερβίρεται ως μεζές με ωμά λαχανικά και ως σάλτσα για σουβλάκι, γύρο και ψητό κρέας ή ψάρι.",
-      "history": "Το τζατζίκι είναι βασικό πιάτο των ελληνικών ταβερνών και συγγενεύει με παρόμοια πιάτα με γιαούρτι και αγγούρι σε όλη την ανατολική Μεσόγειο, όπως το τουρκικό τζατζίκ (cacık). Το όνομά του συνήθως ανάγεται στην τουρκική λέξη για αυτό το πιάτο.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 15,
-        "ingredients": [
-          "500 γρ. στραγγιστό γιαούρτι",
-          "1 αγγούρι",
-          "2 σκελίδες σκόρδο, λιωμένες",
-          "1 κ.σ. ελαιόλαδο",
-          "1 κ.σ. χυμός λεμονιού",
-          "2 κ.σ. ψιλοκομμένος άνηθος",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Τρίψτε το αγγούρι, αλατίστε το ελαφρά και στύψτε το για να βγάλει όσο περισσότερο υγρό γίνεται.",
-          "Ανακατέψτε το γιαούρτι με το σκόρδο, τον χυμό λεμονιού και το ελαιόλαδο.",
-          "Προσθέστε το αγγούρι και τον άνηθο και αλατίστε.",
-          "Βάλτε στο ψυγείο για τουλάχιστον 30 λεπτά πριν σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε στραγγιστό γιαούρτι με χαμηλά λιπαρά για ένα πιο ελαφρύ ντιπ με την ίδια πυκνότητα.",
-        "Σερβίρετε με στικς αγγουριού, πιπεριάς και καρότου για βούτηγμα.",
-        "Χρησιμοποιήστε τζατζίκι στη θέση πιο βαριών κρεμωδών σαλτσών με το ψητό κρέας."
-      ]
-    },
-    "ru": {
-      "name": "Дзадзики",
-      "origin": "Греция",
-      "intro": "Дзадзики — прохладный греческий дип из густого процеженного йогурта, смешанного с тёртым отжатым огурцом, чесноком, оливковым маслом и свежим укропом. Он кремовый, кисловатый и освежающий, с ярким чесночным вкусом. Подаётся как мезе с сырыми овощами, а также как соус к сувлаки, гирос и мясу или рыбе на гриле.",
-      "history": "Дзадзики — неотъемлемая часть греческих таверн и родственный подобным блюдам из йогурта и огурца по всему восточному Средиземноморью, например турецкому джаджику. Его название обычно возводят к турецкому названию этого блюда.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 15,
-        "ingredients": [
-          "500 г процеженного (греческого) йогурта",
-          "1 огурец",
-          "2 зубчика чеснока, раздавленных",
-          "1 ст. л. оливкового масла",
-          "1 ст. л. лимонного сока",
-          "2 ст. л. рубленого укропа",
-          "Соль"
-        ],
-        "steps": [
-          "Натрите огурец, слегка посолите и отожмите как можно больше жидкости.",
-          "Смешайте йогурт с чесноком, лимонным соком и оливковым маслом.",
-          "Добавьте огурец и укроп и посолите по вкусу.",
-          "Охладите не менее 30 минут перед подачей."
-        ]
-      },
-      "tips": [
-        "Используйте обезжиренный процеженный йогурт — дип получится легче и такой же густой.",
-        "Подавайте с палочками из огурца, перца и моркови для макания.",
-        "Используйте дзадзики вместо более жирных сливочных соусов к мясу на гриле."
-      ],
-      "name_inline": "дзадзики"
-    }
+  "ar": {
+   "name": "تزاتزيكي",
+   "origin": "اليونان",
+   "intro": "التزاتزيكي صلصة يونانية باردة من الزبادي المصفّى الكثيف ممزوجاً بالخيار المبشور المعصور والثوم وزيت الزيتون والشبت الطازج. طعمها كريمي ولاذع ومنعش، مع نكهة ثوم واضحة. تُقدَّم مقبلاً مع الخضار النيئة، وصلصةً للسوفلاكي والجيروس واللحوم أو الأسماك المشوية.",
+   "history": "التزاتزيكي من الأصناف الأساسية في المطاعم اليونانية الشعبية، وهو قريب من أطباق الزبادي والخيار المشابهة في شرق المتوسط مثل الجاجيك التركي. ويُرجَع اسمه عادة إلى الكلمة التركية لذلك الطبق.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 15,
+    "ingredients": [
+     "500 غ زبادي مصفّى (يوناني)",
+     "خيارة واحدة",
+     "فصّا ثوم مهروسان",
+     "ملعقة كبيرة زيت زيتون",
+     "ملعقة كبيرة عصير ليمون",
+     "ملعقتان كبيرتان شبت مفروم",
+     "ملح"
+    ],
+    "steps": [
+     "ابشر الخيار وملّحه قليلاً واعصره لإخراج أكبر قدر من الماء.",
+     "اخلط الزبادي مع الثوم وعصير الليمون وزيت الزيتون.",
+     "أضف الخيار والشبت وتبّل بالملح.",
+     "برّده 30 دقيقة على الأقل قبل التقديم."
+    ]
+   },
+   "tips": [
+    "استعمل زبادي مصفّى قليل الدسم لصلصة أخف بنفس الكثافة.",
+    "قدّمه مع أصابع الخيار والفلفل والجزر للغمس.",
+    "استعمل التزاتزيكي بدلاً من الصلصات الكريمية الأثقل مع اللحوم المشوية."
+   ]
+  },
+  "it": {
+   "name": "Tzatziki",
+   "origin": "Grecia",
+   "intro": "Lo tzatziki è una fresca salsa greca di yogurt colato denso mescolato con cetriolo grattugiato e strizzato, aglio, olio d'oliva e aneto fresco. È cremoso, acidulo e rinfrescante, con un deciso sapore d'aglio. Si serve come meze con verdure crude e come salsa per souvlaki, gyros e carne o pesce alla griglia.",
+   "history": "Lo tzatziki è un classico delle taverne greche ed è imparentato con preparazioni simili a base di yogurt e cetriolo in tutto il Mediterraneo orientale, come il cacık turco. Il suo nome viene di solito ricondotto alla parola turca che indica quel piatto.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 15,
+    "ingredients": [
+     "500 g di yogurt colato (tipo greco)",
+     "1 cetriolo",
+     "2 spicchi d'aglio, schiacciati",
+     "1 cucchiaio di olio d'oliva",
+     "1 cucchiaio di succo di limone",
+     "2 cucchiai di aneto tritato",
+     "Sale"
+    ],
+    "steps": [
+     "Grattugia il cetriolo, salalo leggermente e strizzalo per eliminare quanto più liquido possibile.",
+     "Mescola lo yogurt con l'aglio, il succo di limone e l'olio d'oliva.",
+     "Incorpora il cetriolo e l'aneto e regola di sale.",
+     "Lascia in frigorifero per almeno 30 minuti prima di servire."
+    ]
+   },
+   "tips": [
+    "Usa yogurt colato magro per una salsa più leggera con la stessa densità.",
+    "Servilo con bastoncini di cetriolo, peperone e carota da intingere.",
+    "Usa lo tzatziki al posto di salse cremose più ricche con la carne alla griglia."
+   ]
+  },
+  "el": {
+   "name": "Τζατζίκι",
+   "origin": "Ελλάδα",
+   "intro": "Το τζατζίκι είναι δροσερό ελληνικό ντιπ από παχύ στραγγιστό γιαούρτι ανακατεμένο με τριμμένο, στυμμένο αγγούρι, σκόρδο, ελαιόλαδο και φρέσκο άνηθο. Είναι κρεμώδες, ξινούτσικο και δροσιστικό, με καθαρή γεύση σκόρδου. Σερβίρεται ως μεζές με ωμά λαχανικά και ως σάλτσα για σουβλάκι, γύρο και ψητό κρέας ή ψάρι.",
+   "history": "Το τζατζίκι είναι βασικό πιάτο των ελληνικών ταβερνών και συγγενεύει με παρόμοια πιάτα με γιαούρτι και αγγούρι σε όλη την ανατολική Μεσόγειο, όπως το τουρκικό τζατζίκ (cacık). Το όνομά του συνήθως ανάγεται στην τουρκική λέξη για αυτό το πιάτο.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 15,
+    "ingredients": [
+     "500 γρ. στραγγιστό γιαούρτι",
+     "1 αγγούρι",
+     "2 σκελίδες σκόρδο, λιωμένες",
+     "1 κ.σ. ελαιόλαδο",
+     "1 κ.σ. χυμός λεμονιού",
+     "2 κ.σ. ψιλοκομμένος άνηθος",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Τρίψτε το αγγούρι, αλατίστε το ελαφρά και στύψτε το για να βγάλει όσο περισσότερο υγρό γίνεται.",
+     "Ανακατέψτε το γιαούρτι με το σκόρδο, τον χυμό λεμονιού και το ελαιόλαδο.",
+     "Προσθέστε το αγγούρι και τον άνηθο και αλατίστε.",
+     "Βάλτε στο ψυγείο για τουλάχιστον 30 λεπτά πριν σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε στραγγιστό γιαούρτι με χαμηλά λιπαρά για ένα πιο ελαφρύ ντιπ με την ίδια πυκνότητα.",
+    "Σερβίρετε με στικς αγγουριού, πιπεριάς και καρότου για βούτηγμα.",
+    "Χρησιμοποιήστε τζατζίκι στη θέση πιο βαριών κρεμωδών σαλτσών με το ψητό κρέας."
+   ]
+  },
+  "ru": {
+   "name": "Дзадзики",
+   "origin": "Греция",
+   "intro": "Дзадзики — прохладный греческий дип из густого процеженного йогурта, смешанного с тёртым отжатым огурцом, чесноком, оливковым маслом и свежим укропом. Он кремовый, кисловатый и освежающий, с ярким чесночным вкусом. Подаётся как мезе с сырыми овощами, а также как соус к сувлаки, гирос и мясу или рыбе на гриле.",
+   "history": "Дзадзики — неотъемлемая часть греческих таверн и родственный подобным блюдам из йогурта и огурца по всему восточному Средиземноморью, например турецкому джаджику. Его название обычно возводят к турецкому названию этого блюда.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 15,
+    "ingredients": [
+     "500 г процеженного (греческого) йогурта",
+     "1 огурец",
+     "2 зубчика чеснока, раздавленных",
+     "1 ст. л. оливкового масла",
+     "1 ст. л. лимонного сока",
+     "2 ст. л. рубленого укропа",
+     "Соль"
+    ],
+    "steps": [
+     "Натрите огурец, слегка посолите и отожмите как можно больше жидкости.",
+     "Смешайте йогурт с чесноком, лимонным соком и оливковым маслом.",
+     "Добавьте огурец и укроп и посолите по вкусу.",
+     "Охладите не менее 30 минут перед подачей."
+    ]
+   },
+   "tips": [
+    "Используйте обезжиренный процеженный йогурт — дип получится легче и такой же густой.",
+    "Подавайте с палочками из огурца, перца и моркови для макания.",
+    "Используйте дзадзики вместо более жирных сливочных соусов к мясу на гриле."
+   ],
+   "name_inline": "дзадзики"
+  },
+  "es": {
+   "name": "Tzatziki",
+   "origin": "Grecia",
+   "intro": "El tzatziki es un dip griego fresco de yogur espeso colado mezclado con pepino rallado y exprimido, ajo, aceite de oliva y eneldo fresco. Es cremoso, ácido y refrescante, con un claro toque de ajo. Se sirve como meze con verduras crudas y como salsa para souvlaki, gyros y carne o pescado a la parrilla.",
+   "history": "El tzatziki es un básico de las tavernas griegas y está emparentado con platos similares de yogur y pepino del Mediterráneo oriental, como el cacık turco. Su nombre suele atribuirse a la palabra turca de ese plato.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 15,
+    "ingredients": [
+     "500 g de yogur griego, colado",
+     "1 pepino",
+     "2 dientes de ajo, machacados",
+     "1 cda. de aceite de oliva",
+     "1 cda. de jugo de limón",
+     "2 cdas. de eneldo picado",
+     "Sal"
+    ],
+    "steps": [
+     "Ralla el pepino, sálalo ligeramente y exprímelo para sacar todo el líquido posible.",
+     "Mezcla el yogur con el ajo, el jugo de limón y el aceite de oliva.",
+     "Incorpora el pepino y el eneldo y sazona con sal.",
+     "Refrigera al menos 30 minutos antes de servir."
+    ]
+   },
+   "tips": [
+    "Usa yogur colado bajo en grasa para un dip más ligero con la misma espesura.",
+    "Sirve con bastones de pepino, pimiento y zanahoria para mojar.",
+    "Usa el tzatziki en lugar de salsas cremosas más ricas con carne a la parrilla."
+   ],
+   "name_inline": "el tzatziki"
   }
+ }
 }

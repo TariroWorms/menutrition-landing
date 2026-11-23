@@ -1,180 +1,214 @@
 {
-  "db_key": "kabsa_lamb_yemeni",
-  "slug": "kabsa-lamb-yemeni",
-  "emoji": "🍖",
-  "portion_g": 400,
-  "country": "YE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "kabsa_lamb_yemeni",
+ "slug": "kabsa-lamb-yemeni",
+ "emoji": "🍖",
+ "portion_g": 400,
+ "country": "YE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Yemeni lamb kabsa",
+   "origin": "Yemen · Arabian Peninsula",
+   "intro": "Yemeni lamb kabsa is a one-pot rice dish in which lamb is slow-simmered with onion, tomato and whole spices, and the rice is then cooked in the rich, aromatic broth. Cardamom, cinnamon and dried lime give it a warm, slightly tangy perfume. The tender meat is served on top of the rice on a large shared platter.",
+   "history": "Kabsa-style rice and meat dishes are cooked across the Arabian Peninsula, and Yemeni cooks prepare their own versions with lamb and local spice blends. Today it is a common dish for family lunches and gatherings in Yemen and among Yemeni communities abroad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "800 g lamb on the bone, in pieces",
+     "400 g long-grain rice, rinsed",
+     "2 onions, chopped",
+     "3 tomatoes, grated",
+     "2 dried limes, pierced",
+     "5 cardamom pods and 1 cinnamon stick",
+     "2 tbsp oil",
+     "Salt and black pepper",
+     "1.2 l water"
+    ],
+    "steps": [
+     "Brown the onion in oil, add the lamb and sear on all sides.",
+     "Add the tomatoes, cardamom, cinnamon, dried limes, salt and pepper, cover with water and simmer for about 1.5 hours until the lamb is tender.",
+     "Lift out the meat; measure about 800 ml of the broth back into the pot.",
+     "Add the rice, bring to a boil, then cover and cook on low heat for 20 minutes.",
+     "Serve the rice on a platter with the lamb on top."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the lamb and skim the fat off the broth before adding the rice.",
+    "Use 1 tbsp oil instead of 2 — 1 tbsp oil ≈ 120 kcal.",
+    "Serve a smaller rice portion with a large tomato and cucumber salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Yemeni lamb kabsa",
-      "origin": "Yemen · Arabian Peninsula",
-      "intro": "Yemeni lamb kabsa is a one-pot rice dish in which lamb is slow-simmered with onion, tomato and whole spices, and the rice is then cooked in the rich, aromatic broth. Cardamom, cinnamon and dried lime give it a warm, slightly tangy perfume. The tender meat is served on top of the rice on a large shared platter.",
-      "history": "Kabsa-style rice and meat dishes are cooked across the Arabian Peninsula, and Yemeni cooks prepare their own versions with lamb and local spice blends. Today it is a common dish for family lunches and gatherings in Yemen and among Yemeni communities abroad.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "800 g lamb on the bone, in pieces",
-          "400 g long-grain rice, rinsed",
-          "2 onions, chopped",
-          "3 tomatoes, grated",
-          "2 dried limes, pierced",
-          "5 cardamom pods and 1 cinnamon stick",
-          "2 tbsp oil",
-          "Salt and black pepper",
-          "1.2 l water"
-        ],
-        "steps": [
-          "Brown the onion in oil, add the lamb and sear on all sides.",
-          "Add the tomatoes, cardamom, cinnamon, dried limes, salt and pepper, cover with water and simmer for about 1.5 hours until the lamb is tender.",
-          "Lift out the meat; measure about 800 ml of the broth back into the pot.",
-          "Add the rice, bring to a boil, then cover and cook on low heat for 20 minutes.",
-          "Serve the rice on a platter with the lamb on top."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the lamb and skim the fat off the broth before adding the rice.",
-        "Use 1 tbsp oil instead of 2 — 1 tbsp oil ≈ 120 kcal.",
-        "Serve a smaller rice portion with a large tomato and cucumber salad."
-      ]
-    },
-    "ar": {
-      "name": "كبسة لحم يمنية",
-      "origin": "اليمن · شبه الجزيرة العربية",
-      "intro": "الكبسة اليمنية باللحم طبق أرز يُطهى في قدر واحد، إذ يُطهى لحم الضأن ببطء مع البصل والطماطم والبهارات الكاملة، ثم يُطهى الأرز في المرق الغني العطري. يمنحها الهيل والقرفة واللومي نكهة دافئة مع حموضة خفيفة. يُقدَّم اللحم الطري فوق الأرز في صحن كبير مشترك.",
-      "history": "تُطهى أطباق الأرز واللحم على طريقة الكبسة في أنحاء شبه الجزيرة العربية، ويُعدّ الطهاة اليمنيون نسخهم الخاصة بلحم الضأن وخلطات البهارات المحلية. وهي اليوم طبق شائع في غداء العائلة والتجمعات في اليمن ولدى الجاليات اليمنية في الخارج.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "800 غ لحم ضأن بالعظم، قطع",
-          "400 غ أرز طويل الحبة، مغسول",
-          "2 بصلة، مفرومة",
-          "3 حبات طماطم، مبشورة",
-          "2 حبة لومي، مثقوبة",
-          "5 حبات هيل وعود قرفة",
-          "2 ملعقة كبيرة زيت",
-          "ملح وفلفل أسود",
-          "1.2 لتر ماء"
-        ],
-        "steps": [
-          "حمّر البصل في الزيت، ثم أضف اللحم وحمّره من جميع الجهات.",
-          "أضف الطماطم والهيل والقرفة واللومي والملح والفلفل، واغمره بالماء واتركه يغلي على نار هادئة نحو ساعة ونصف حتى ينضج اللحم.",
-          "ارفع اللحم وأعد نحو 800 مل من المرق إلى القدر.",
-          "أضف الأرز واتركه يغلي، ثم غطِّه واطهه على نار هادئة 20 دقيقة.",
-          "قدّم الأرز في صحن مع اللحم فوقه."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر من اللحم وانزع الدهن عن سطح المرق قبل إضافة الأرز.",
-        "استخدم ملعقة كبيرة واحدة من الزيت بدل اثنتين — ملعقة الزيت ≈ 120 سعرة.",
-        "قدّم حصة أصغر من الأرز مع طبق كبير من سلطة الطماطم والخيار."
-      ]
-    },
-    "it": {
-      "name": "Kabsa yemenita di agnello",
-      "origin": "Yemen · Penisola arabica",
-      "intro": "La kabsa yemenita di agnello è un piatto unico di riso in cui l'agnello cuoce lentamente con cipolla, pomodoro e spezie intere, e il riso viene poi cotto nel brodo ricco e aromatico. Cardamomo, cannella e lime essiccato le danno un profumo caldo e leggermente acidulo. La carne tenera si serve sopra il riso su un grande vassoio condiviso.",
-      "history": "Piatti di riso e carne in stile kabsa si cucinano in tutta la Penisola arabica, e i cuochi yemeniti ne preparano proprie versioni con l'agnello e miscele di spezie locali. Oggi è un piatto comune nei pranzi di famiglia e nelle riunioni in Yemen e tra le comunità yemenite all'estero.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "800 g di agnello con l'osso, a pezzi",
-          "400 g di riso a chicco lungo, sciacquato",
-          "2 cipolle tritate",
-          "3 pomodori grattugiati",
-          "2 lime essiccati, bucherellati",
-          "5 baccelli di cardamomo e 1 stecca di cannella",
-          "2 cucchiai di olio",
-          "Sale e pepe nero",
-          "1,2 l di acqua"
-        ],
-        "steps": [
-          "Rosola la cipolla nell'olio, aggiungi l'agnello e scottalo su tutti i lati.",
-          "Aggiungi pomodori, cardamomo, cannella, lime essiccati, sale e pepe, copri d'acqua e lascia sobbollire per circa 1 ora e mezza finché l'agnello è tenero.",
-          "Togli la carne; rimetti nella pentola circa 800 ml di brodo misurato.",
-          "Aggiungi il riso, porta a ebollizione, poi copri e cuoci a fuoco basso per 20 minuti.",
-          "Servi il riso su un vassoio con l'agnello sopra."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dall'agnello e sgrassa il brodo prima di aggiungere il riso.",
-        "Usa 1 cucchiaio di olio invece di 2: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Servi una porzione di riso più piccola con un'abbondante insalata di pomodori e cetrioli."
-      ]
-    },
-    "el": {
-      "name": "Υεμενίτικη κάμπσα με αρνί",
-      "origin": "Υεμένη · Αραβική Χερσόνησος",
-      "intro": "Η υεμενίτικη κάμπσα με αρνί είναι πιάτο μίας κατσαρόλας με ρύζι, όπου το αρνί σιγοβράζει αργά με κρεμμύδι, ντομάτα και ολόκληρα μπαχαρικά και έπειτα το ρύζι μαγειρεύεται στον πλούσιο, αρωματικό ζωμό. Το κάρδαμο, η κανέλα και το αποξηραμένο λάιμ της δίνουν ζεστό, ελαφρά ξινό άρωμα. Το τρυφερό κρέας σερβίρεται πάνω στο ρύζι σε μεγάλη κοινή πιατέλα.",
-      "history": "Πιάτα με ρύζι και κρέας τύπου κάμπσα μαγειρεύονται σε όλη την Αραβική Χερσόνησο, και οι Υεμενίτες μάγειρες φτιάχνουν τις δικές τους εκδοχές με αρνί και τοπικά μείγματα μπαχαρικών. Σήμερα είναι συνηθισμένο πιάτο για οικογενειακά γεύματα και συγκεντρώσεις στην Υεμένη και στις υεμενίτικες κοινότητες του εξωτερικού.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "800 γρ. αρνί με κόκαλο, σε κομμάτια",
-          "400 γρ. μακρύκοκκο ρύζι, ξεπλυμένο",
-          "2 κρεμμύδια, ψιλοκομμένα",
-          "3 ντομάτες, τριμμένες",
-          "2 αποξηραμένα λάιμ, τρυπημένα",
-          "5 κάψουλες κάρδαμο και 1 ξύλο κανέλας",
-          "2 κ.σ. λάδι",
-          "Αλάτι και μαύρο πιπέρι",
-          "1,2 λίτρα νερό"
-        ],
-        "steps": [
-          "Τσιγαρίστε το κρεμμύδι στο λάδι, προσθέστε το αρνί και σοτάρετέ το από όλες τις πλευρές.",
-          "Προσθέστε τις ντομάτες, το κάρδαμο, την κανέλα, τα αποξηραμένα λάιμ, αλάτι και πιπέρι, καλύψτε με νερό και σιγοβράστε για περίπου 1,5 ώρα μέχρι να μαλακώσει το αρνί.",
-          "Βγάλτε το κρέας· μετρήστε και ξαναβάλτε στην κατσαρόλα περίπου 800 ml ζωμό.",
-          "Προσθέστε το ρύζι, αφήστε να πάρει βράση, έπειτα σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά για 20 λεπτά.",
-          "Σερβίρετε το ρύζι σε πιατέλα με το αρνί από πάνω."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το αρνί και το λίπος από τον ζωμό πριν προσθέσετε το ρύζι.",
-        "Χρησιμοποιήστε 1 κ.σ. λάδι αντί για 2 — 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Σερβίρετε μικρότερη μερίδα ρυζιού με μεγάλη σαλάτα από ντομάτα και αγγούρι."
-      ]
-    },
-    "ru": {
-      "name": "Йеменская кабса с бараниной",
-      "origin": "Йемен · Аравийский полуостров",
-      "intro": "Йеменская кабса с бараниной — рисовое блюдо в одном горшке, в котором баранину медленно тушат с луком, помидорами и целыми специями, а затем варят рис в насыщенном ароматном бульоне. Кардамон, корица и сушёный лайм придают тёплый, слегка кисловатый аромат. Нежное мясо подают поверх риса на большом общем блюде.",
-      "history": "Блюда из риса и мяса в стиле кабса готовят по всему Аравийскому полуострову, а йеменские повара делают свои версии с бараниной и местными смесями специй. Сегодня это обычное блюдо для семейных обедов и встреч в Йемене и среди йеменских общин за рубежом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 120,
-        "ingredients": [
-          "800 г баранины на кости, кусками",
-          "400 г длиннозёрного риса, промытого",
-          "2 луковицы, нарезанные",
-          "3 помидора, натёртых",
-          "2 сушёных лайма, проколотых",
-          "5 коробочек кардамона и 1 палочка корицы",
-          "2 ст. л. масла",
-          "Соль и чёрный перец",
-          "1,2 л воды"
-        ],
-        "steps": [
-          "Обжарьте лук в масле, добавьте баранину и обжарьте со всех сторон.",
-          "Добавьте помидоры, кардамон, корицу, сушёные лаймы, соль и перец, залейте водой и тушите около 1,5 часа, пока баранина не станет мягкой.",
-          "Выньте мясо; отмерьте около 800 мл бульона обратно в кастрюлю.",
-          "Добавьте рис, доведите до кипения, затем накройте и готовьте на слабом огне 20 минут.",
-          "Подавайте рис на блюде с бараниной сверху."
-        ]
-      },
-      "tips": [
-        "Срежьте с баранины видимый жир и снимите жир с бульона перед добавлением риса.",
-        "Используйте 1 ст. л. масла вместо 2 — 1 ст. л. масла ≈ 120 ккал.",
-        "Подавайте меньшую порцию риса с большим салатом из помидоров и огурцов."
-      ],
-      "name_inline": "йеменская кабса с бараниной"
-    }
+  "ar": {
+   "name": "كبسة لحم يمنية",
+   "origin": "اليمن · شبه الجزيرة العربية",
+   "intro": "الكبسة اليمنية باللحم طبق أرز يُطهى في قدر واحد، إذ يُطهى لحم الضأن ببطء مع البصل والطماطم والبهارات الكاملة، ثم يُطهى الأرز في المرق الغني العطري. يمنحها الهيل والقرفة واللومي نكهة دافئة مع حموضة خفيفة. يُقدَّم اللحم الطري فوق الأرز في صحن كبير مشترك.",
+   "history": "تُطهى أطباق الأرز واللحم على طريقة الكبسة في أنحاء شبه الجزيرة العربية، ويُعدّ الطهاة اليمنيون نسخهم الخاصة بلحم الضأن وخلطات البهارات المحلية. وهي اليوم طبق شائع في غداء العائلة والتجمعات في اليمن ولدى الجاليات اليمنية في الخارج.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "800 غ لحم ضأن بالعظم، قطع",
+     "400 غ أرز طويل الحبة، مغسول",
+     "2 بصلة، مفرومة",
+     "3 حبات طماطم، مبشورة",
+     "2 حبة لومي، مثقوبة",
+     "5 حبات هيل وعود قرفة",
+     "2 ملعقة كبيرة زيت",
+     "ملح وفلفل أسود",
+     "1.2 لتر ماء"
+    ],
+    "steps": [
+     "حمّر البصل في الزيت، ثم أضف اللحم وحمّره من جميع الجهات.",
+     "أضف الطماطم والهيل والقرفة واللومي والملح والفلفل، واغمره بالماء واتركه يغلي على نار هادئة نحو ساعة ونصف حتى ينضج اللحم.",
+     "ارفع اللحم وأعد نحو 800 مل من المرق إلى القدر.",
+     "أضف الأرز واتركه يغلي، ثم غطِّه واطهه على نار هادئة 20 دقيقة.",
+     "قدّم الأرز في صحن مع اللحم فوقه."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر من اللحم وانزع الدهن عن سطح المرق قبل إضافة الأرز.",
+    "استخدم ملعقة كبيرة واحدة من الزيت بدل اثنتين — ملعقة الزيت ≈ 120 سعرة.",
+    "قدّم حصة أصغر من الأرز مع طبق كبير من سلطة الطماطم والخيار."
+   ]
+  },
+  "it": {
+   "name": "Kabsa yemenita di agnello",
+   "origin": "Yemen · Penisola arabica",
+   "intro": "La kabsa yemenita di agnello è un piatto unico di riso in cui l'agnello cuoce lentamente con cipolla, pomodoro e spezie intere, e il riso viene poi cotto nel brodo ricco e aromatico. Cardamomo, cannella e lime essiccato le danno un profumo caldo e leggermente acidulo. La carne tenera si serve sopra il riso su un grande vassoio condiviso.",
+   "history": "Piatti di riso e carne in stile kabsa si cucinano in tutta la Penisola arabica, e i cuochi yemeniti ne preparano proprie versioni con l'agnello e miscele di spezie locali. Oggi è un piatto comune nei pranzi di famiglia e nelle riunioni in Yemen e tra le comunità yemenite all'estero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "800 g di agnello con l'osso, a pezzi",
+     "400 g di riso a chicco lungo, sciacquato",
+     "2 cipolle tritate",
+     "3 pomodori grattugiati",
+     "2 lime essiccati, bucherellati",
+     "5 baccelli di cardamomo e 1 stecca di cannella",
+     "2 cucchiai di olio",
+     "Sale e pepe nero",
+     "1,2 l di acqua"
+    ],
+    "steps": [
+     "Rosola la cipolla nell'olio, aggiungi l'agnello e scottalo su tutti i lati.",
+     "Aggiungi pomodori, cardamomo, cannella, lime essiccati, sale e pepe, copri d'acqua e lascia sobbollire per circa 1 ora e mezza finché l'agnello è tenero.",
+     "Togli la carne; rimetti nella pentola circa 800 ml di brodo misurato.",
+     "Aggiungi il riso, porta a ebollizione, poi copri e cuoci a fuoco basso per 20 minuti.",
+     "Servi il riso su un vassoio con l'agnello sopra."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dall'agnello e sgrassa il brodo prima di aggiungere il riso.",
+    "Usa 1 cucchiaio di olio invece di 2: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Servi una porzione di riso più piccola con un'abbondante insalata di pomodori e cetrioli."
+   ]
+  },
+  "el": {
+   "name": "Υεμενίτικη κάμπσα με αρνί",
+   "origin": "Υεμένη · Αραβική Χερσόνησος",
+   "intro": "Η υεμενίτικη κάμπσα με αρνί είναι πιάτο μίας κατσαρόλας με ρύζι, όπου το αρνί σιγοβράζει αργά με κρεμμύδι, ντομάτα και ολόκληρα μπαχαρικά και έπειτα το ρύζι μαγειρεύεται στον πλούσιο, αρωματικό ζωμό. Το κάρδαμο, η κανέλα και το αποξηραμένο λάιμ της δίνουν ζεστό, ελαφρά ξινό άρωμα. Το τρυφερό κρέας σερβίρεται πάνω στο ρύζι σε μεγάλη κοινή πιατέλα.",
+   "history": "Πιάτα με ρύζι και κρέας τύπου κάμπσα μαγειρεύονται σε όλη την Αραβική Χερσόνησο, και οι Υεμενίτες μάγειρες φτιάχνουν τις δικές τους εκδοχές με αρνί και τοπικά μείγματα μπαχαρικών. Σήμερα είναι συνηθισμένο πιάτο για οικογενειακά γεύματα και συγκεντρώσεις στην Υεμένη και στις υεμενίτικες κοινότητες του εξωτερικού.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "800 γρ. αρνί με κόκαλο, σε κομμάτια",
+     "400 γρ. μακρύκοκκο ρύζι, ξεπλυμένο",
+     "2 κρεμμύδια, ψιλοκομμένα",
+     "3 ντομάτες, τριμμένες",
+     "2 αποξηραμένα λάιμ, τρυπημένα",
+     "5 κάψουλες κάρδαμο και 1 ξύλο κανέλας",
+     "2 κ.σ. λάδι",
+     "Αλάτι και μαύρο πιπέρι",
+     "1,2 λίτρα νερό"
+    ],
+    "steps": [
+     "Τσιγαρίστε το κρεμμύδι στο λάδι, προσθέστε το αρνί και σοτάρετέ το από όλες τις πλευρές.",
+     "Προσθέστε τις ντομάτες, το κάρδαμο, την κανέλα, τα αποξηραμένα λάιμ, αλάτι και πιπέρι, καλύψτε με νερό και σιγοβράστε για περίπου 1,5 ώρα μέχρι να μαλακώσει το αρνί.",
+     "Βγάλτε το κρέας· μετρήστε και ξαναβάλτε στην κατσαρόλα περίπου 800 ml ζωμό.",
+     "Προσθέστε το ρύζι, αφήστε να πάρει βράση, έπειτα σκεπάστε και μαγειρέψτε σε χαμηλή φωτιά για 20 λεπτά.",
+     "Σερβίρετε το ρύζι σε πιατέλα με το αρνί από πάνω."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το αρνί και το λίπος από τον ζωμό πριν προσθέσετε το ρύζι.",
+    "Χρησιμοποιήστε 1 κ.σ. λάδι αντί για 2 — 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Σερβίρετε μικρότερη μερίδα ρυζιού με μεγάλη σαλάτα από ντομάτα και αγγούρι."
+   ]
+  },
+  "ru": {
+   "name": "Йеменская кабса с бараниной",
+   "origin": "Йемен · Аравийский полуостров",
+   "intro": "Йеменская кабса с бараниной — рисовое блюдо в одном горшке, в котором баранину медленно тушат с луком, помидорами и целыми специями, а затем варят рис в насыщенном ароматном бульоне. Кардамон, корица и сушёный лайм придают тёплый, слегка кисловатый аромат. Нежное мясо подают поверх риса на большом общем блюде.",
+   "history": "Блюда из риса и мяса в стиле кабса готовят по всему Аравийскому полуострову, а йеменские повара делают свои версии с бараниной и местными смесями специй. Сегодня это обычное блюдо для семейных обедов и встреч в Йемене и среди йеменских общин за рубежом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "800 г баранины на кости, кусками",
+     "400 г длиннозёрного риса, промытого",
+     "2 луковицы, нарезанные",
+     "3 помидора, натёртых",
+     "2 сушёных лайма, проколотых",
+     "5 коробочек кардамона и 1 палочка корицы",
+     "2 ст. л. масла",
+     "Соль и чёрный перец",
+     "1,2 л воды"
+    ],
+    "steps": [
+     "Обжарьте лук в масле, добавьте баранину и обжарьте со всех сторон.",
+     "Добавьте помидоры, кардамон, корицу, сушёные лаймы, соль и перец, залейте водой и тушите около 1,5 часа, пока баранина не станет мягкой.",
+     "Выньте мясо; отмерьте около 800 мл бульона обратно в кастрюлю.",
+     "Добавьте рис, доведите до кипения, затем накройте и готовьте на слабом огне 20 минут.",
+     "Подавайте рис на блюде с бараниной сверху."
+    ]
+   },
+   "tips": [
+    "Срежьте с баранины видимый жир и снимите жир с бульона перед добавлением риса.",
+    "Используйте 1 ст. л. масла вместо 2 — 1 ст. л. масла ≈ 120 ккал.",
+    "Подавайте меньшую порцию риса с большим салатом из помидоров и огурцов."
+   ],
+   "name_inline": "йеменская кабса с бараниной"
+  },
+  "es": {
+   "name": "Kabsa yemení de cordero",
+   "origin": "Yemen · Península arábiga",
+   "intro": "La kabsa yemení de cordero es un arroz de una sola olla en el que el cordero se cuece lentamente con cebolla, tomate y especias enteras, y luego el arroz se cocina en el caldo rico y aromático. El cardamomo, la canela y la lima seca le dan un perfume cálido y ligeramente ácido. La carne tierna se sirve sobre el arroz, en una gran fuente para compartir.",
+   "history": "Los platos de arroz y carne al estilo kabsa se cocinan en toda la península arábiga, y los cocineros yemeníes preparan sus propias versiones con cordero y mezclas de especias locales. Hoy es un plato habitual en los almuerzos y reuniones familiares en Yemen y entre las comunidades yemeníes en el extranjero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 120,
+    "ingredients": [
+     "800 g de cordero con hueso, en trozos",
+     "400 g de arroz de grano largo, enjuagado",
+     "2 cebollas, picadas",
+     "3 tomates, rallados",
+     "2 limas secas, perforadas",
+     "5 vainas de cardamomo y 1 rama de canela",
+     "2 cdas. de aceite",
+     "Sal y pimienta negra",
+     "1,2 l de agua"
+    ],
+    "steps": [
+     "Dora la cebolla en el aceite, añade el cordero y séllalo por todos lados.",
+     "Agrega los tomates, el cardamomo, la canela, las limas secas, la sal y la pimienta, cubre con agua y cocina a fuego lento cerca de 1,5 horas, hasta que el cordero esté tierno.",
+     "Saca la carne; devuelve a la olla unos 800 ml del caldo, medidos.",
+     "Añade el arroz, lleva a hervor, tapa y cocina a fuego bajo 20 minutos.",
+     "Sirve el arroz en una fuente con el cordero encima."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible del cordero y retira la grasa del caldo antes de añadir el arroz.",
+    "Usa 1 cda. de aceite en lugar de 2: 1 cda. de aceite tiene unas 120 kcal.",
+    "Sirve una porción más pequeña de arroz con una ensalada grande de tomate y pepino."
+   ],
+   "name_inline": "la kabsa yemení de cordero"
   }
+ }
 }

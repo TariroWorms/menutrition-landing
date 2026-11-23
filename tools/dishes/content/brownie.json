@@ -1,167 +1,198 @@
 {
-  "db_key": "brownie",
-  "slug": "brownie",
-  "emoji": "🍫",
-  "portion_g": 70,
-  "country": "US",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "brownie",
+ "slug": "brownie",
+ "emoji": "🍫",
+ "portion_g": 70,
+ "country": "US",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chocolate brownie",
+   "origin": "United States",
+   "intro": "A brownie is a dense chocolate bake made from dark chocolate, butter, sugar, eggs and a little flour, cut into squares. A good one has a thin, shiny, crackly top and a fudgy, almost molten centre. It is served on its own with coffee, warm with a scoop of ice cream in cafés, or packed as a lunchbox treat.",
+   "history": "Brownies are an American invention; one popular story credits the kitchen of the Palmer House hotel in Chicago with an early version made for the 1893 World's Fair. Recipes under the name 'brownies' appeared in American cookbooks in the early 20th century and quickly became a home-baking classic.",
+   "recipe": {
+    "servings": 16,
+    "time_min": 45,
+    "ingredients": [
+     "200 g dark chocolate (70%), chopped",
+     "150 g butter",
+     "250 g sugar",
+     "3 eggs",
+     "80 g plain flour",
+     "Pinch of salt"
+    ],
+    "steps": [
+     "Heat the oven to 180 °C and line a 20 × 20 cm tin with baking paper.",
+     "Melt the chocolate and butter together over low heat or in short bursts in the microwave; cool slightly.",
+     "Whisk the eggs and sugar for 2–3 minutes until pale and thick, then fold in the chocolate mixture.",
+     "Sift in the flour with the salt and fold gently until just combined.",
+     "Bake for 22–25 minutes until the top is crackly and a skewer comes out with moist crumbs. Cool completely before cutting into 16 squares."
+    ]
+   },
+   "tips": [
+    "Cut the tray into 25 small squares instead of 16 — each is then about 150 kcal.",
+    "Have it with fresh berries instead of ice cream.",
+    "Freeze the rest individually so one piece is a planned treat, not a whole tray."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chocolate brownie",
-      "origin": "United States",
-      "intro": "A brownie is a dense chocolate bake made from dark chocolate, butter, sugar, eggs and a little flour, cut into squares. A good one has a thin, shiny, crackly top and a fudgy, almost molten centre. It is served on its own with coffee, warm with a scoop of ice cream in cafés, or packed as a lunchbox treat.",
-      "history": "Brownies are an American invention; one popular story credits the kitchen of the Palmer House hotel in Chicago with an early version made for the 1893 World's Fair. Recipes under the name 'brownies' appeared in American cookbooks in the early 20th century and quickly became a home-baking classic.",
-      "recipe": {
-        "servings": 16,
-        "time_min": 45,
-        "ingredients": [
-          "200 g dark chocolate (70%), chopped",
-          "150 g butter",
-          "250 g sugar",
-          "3 eggs",
-          "80 g plain flour",
-          "Pinch of salt"
-        ],
-        "steps": [
-          "Heat the oven to 180 °C and line a 20 × 20 cm tin with baking paper.",
-          "Melt the chocolate and butter together over low heat or in short bursts in the microwave; cool slightly.",
-          "Whisk the eggs and sugar for 2–3 minutes until pale and thick, then fold in the chocolate mixture.",
-          "Sift in the flour with the salt and fold gently until just combined.",
-          "Bake for 22–25 minutes until the top is crackly and a skewer comes out with moist crumbs. Cool completely before cutting into 16 squares."
-        ]
-      },
-      "tips": [
-        "Cut the tray into 25 small squares instead of 16 — each is then about 150 kcal.",
-        "Have it with fresh berries instead of ice cream.",
-        "Freeze the rest individually so one piece is a planned treat, not a whole tray."
-      ]
-    },
-    "ar": {
-      "name": "براوني",
-      "origin": "الولايات المتحدة",
-      "intro": "البراوني حلوى شوكولاتة كثيفة مخبوزة من الشوكولاتة الداكنة والزبدة والسكر والبيض وقليل من الدقيق، تُقطَّع مربعات. البراوني الجيد له سطح رقيق لامع متشقق ووسط طري يكاد يذوب. يُقدَّم وحده مع القهوة، أو دافئاً مع كرة آيس كريم في المقاهي، أو في علبة الغداء.",
-      "history": "البراوني اختراع أمريكي؛ وتنسب رواية شائعة نسخة مبكرة منه إلى مطبخ فندق بالمر هاوس في شيكاغو لمعرض العالم عام 1893. وظهرت وصفات باسم «براونيز» في كتب الطبخ الأمريكية في أوائل القرن العشرين وسرعان ما أصبحت من كلاسيكيات الخَبز المنزلي.",
-      "recipe": {
-        "servings": 16,
-        "time_min": 45,
-        "ingredients": [
-          "200 غ شوكولاتة داكنة (70%) مقطعة",
-          "150 غ زبدة",
-          "250 غ سكر",
-          "3 بيضات",
-          "80 غ دقيق أبيض",
-          "رشة ملح"
-        ],
-        "steps": [
-          "سخّن الفرن إلى 180 °م وبطّن قالباً مقاسه 20 × 20 سم بورق الخبز.",
-          "ذوّب الشوكولاتة والزبدة معاً على نار هادئة أو على فترات قصيرة في الميكروويف، واتركها تبرد قليلاً.",
-          "اخفق البيض مع السكر 2–3 دقائق حتى يصبح فاتحاً وكثيفاً، ثم أضف مزيج الشوكولاتة بلطف.",
-          "انخل الدقيق مع الملح فوق المزيج وقلّب بلطف حتى يمتزج فقط.",
-          "اخبزه 22–25 دقيقة حتى يتشقق السطح ويخرج العود ببعض الفتات الرطب. اتركه يبرد تماماً قبل تقطيعه 16 مربعاً."
-        ]
-      },
-      "tips": [
-        "قطّع الصينية 25 مربعاً صغيراً بدل 16 — فتصبح كل قطعة نحو 150 سعرة.",
-        "تناوله مع توت طازج بدل الآيس كريم.",
-        "جمّد الباقي قطعاً منفصلة لتكون القطعة الواحدة متعة مخططة لا صينية كاملة."
-      ]
-    },
-    "it": {
-      "name": "Brownie al cioccolato",
-      "origin": "Stati Uniti",
-      "intro": "Il brownie è un dolce al cioccolato denso, preparato con cioccolato fondente, burro, zucchero, uova e poca farina, tagliato a quadrotti. Un buon brownie ha una superficie sottile, lucida e screpolata e un cuore fondente, quasi morbido. Si serve da solo con il caffè, caldo con una pallina di gelato nei caffè, o messo nel portapranzo come dolcetto.",
-      "history": "I brownies sono un'invenzione americana; una storia molto diffusa attribuisce alla cucina dell'hotel Palmer House di Chicago una prima versione preparata per l'Esposizione universale del 1893. Ricette con il nome «brownies» comparvero nei ricettari americani all'inizio del XX secolo e divennero presto un classico della pasticceria casalinga.",
-      "name_inline": "brownie al cioccolato",
-      "recipe": {
-        "servings": 16,
-        "time_min": 45,
-        "ingredients": [
-          "200 g di cioccolato fondente (70%) tritato",
-          "150 g di burro",
-          "250 g di zucchero",
-          "3 uova",
-          "80 g di farina 00",
-          "Un pizzico di sale"
-        ],
-        "steps": [
-          "Scalda il forno a 180 °C e fodera una teglia da 20 × 20 cm con carta da forno.",
-          "Sciogli insieme il cioccolato e il burro a fuoco basso o a brevi intervalli nel microonde; lascia intiepidire.",
-          "Sbatti le uova con lo zucchero per 2–3 minuti finché sono chiare e spumose, poi incorpora il composto al cioccolato.",
-          "Setaccia la farina con il sale e mescola delicatamente solo finché è amalgamata.",
-          "Cuoci per 22–25 minuti, finché la superficie è screpolata e uno stecchino esce con briciole umide. Lascia raffreddare completamente prima di tagliare in 16 quadrotti."
-        ]
-      },
-      "tips": [
-        "Taglia la teglia in 25 quadrotti piccoli invece di 16: ognuno vale così circa 150 kcal.",
-        "Mangialo con frutti di bosco freschi invece che con il gelato.",
-        "Congela il resto in porzioni singole, così un pezzo è un dolce programmato e non una teglia intera."
-      ]
-    },
-    "el": {
-      "name": "Μπράουνι σοκολάτας",
-      "origin": "Ηνωμένες Πολιτείες",
-      "intro": "Το μπράουνι είναι ένα πυκνό γλυκό σοκολάτας από μαύρη σοκολάτα, βούτυρο, ζάχαρη, αυγά και λίγο αλεύρι, κομμένο σε τετράγωνα. Ένα καλό μπράουνι έχει λεπτή, γυαλιστερή, σκασμένη επιφάνεια και υγρό, σχεδόν λιωμένο κέντρο. Σερβίρεται σκέτο με καφέ, ζεστό με μια μπάλα παγωτό στα καφέ ή στο κουτί φαγητού ως λιχουδιά.",
-      "history": "Τα μπράουνι είναι αμερικανική επινόηση· μια δημοφιλής ιστορία αποδίδει στην κουζίνα του ξενοδοχείου Palmer House στο Σικάγο μια πρώιμη εκδοχή που φτιάχτηκε για την Παγκόσμια Έκθεση του 1893. Συνταγές με το όνομα «brownies» εμφανίστηκαν σε αμερικανικά βιβλία μαγειρικής στις αρχές του 20ού αιώνα και έγιναν γρήγορα κλασικό της σπιτικής ζαχαροπλαστικής.",
-      "name_inline": "μπράουνι σοκολάτας",
-      "recipe": {
-        "servings": 16,
-        "time_min": 45,
-        "ingredients": [
-          "200 γρ. μαύρη σοκολάτα (70%), ψιλοκομμένη",
-          "150 γρ. βούτυρο",
-          "250 γρ. ζάχαρη",
-          "3 αυγά",
-          "80 γρ. αλεύρι για όλες τις χρήσεις",
-          "Μια πρέζα αλάτι"
-        ],
-        "steps": [
-          "Προθερμάνετε τον φούρνο στους 180 °C και στρώστε ένα ταψάκι 20 × 20 εκ. με λαδόχαρτο.",
-          "Λιώστε μαζί τη σοκολάτα και το βούτυρο σε χαμηλή φωτιά ή σε σύντομα διαστήματα στον φούρνο μικροκυμάτων· αφήστε να κρυώσει λίγο.",
-          "Χτυπήστε τα αυγά με τη ζάχαρη για 2–3 λεπτά μέχρι να ασπρίσουν και να πήξουν, και ενσωματώστε απαλά το μείγμα σοκολάτας.",
-          "Κοσκινίστε από πάνω το αλεύρι με το αλάτι και ανακατέψτε απαλά μόνο μέχρι να ενωθούν.",
-          "Ψήστε για 22–25 λεπτά, μέχρι η επιφάνεια να σκάσει και ένα καλαμάκι να βγαίνει με υγρά ψίχουλα. Αφήστε να κρυώσει εντελώς πριν κόψετε σε 16 τετράγωνα."
-        ]
-      },
-      "tips": [
-        "Κόψτε το ταψί σε 25 μικρά τετράγωνα αντί για 16 — το καθένα έχει τότε περίπου 150 kcal.",
-        "Φάτε το με φρέσκα μούρα αντί για παγωτό.",
-        "Καταψύξτε τα υπόλοιπα ένα ένα, ώστε ένα κομμάτι να είναι προγραμματισμένη λιχουδιά και όχι ολόκληρο ταψί."
-      ]
-    },
-    "ru": {
-      "name": "Шоколадный брауни",
-      "origin": "США",
-      "intro": "Брауни — плотная шоколадная выпечка из тёмного шоколада, масла, сахара, яиц и небольшого количества муки, нарезанная квадратами. У хорошего брауни тонкая блестящая хрустящая корочка сверху и тягучая, почти жидкая середина. Его подают сам по себе с кофе, тёплым с шариком мороженого в кафе или берут с собой в качестве лакомства в ланч-бокс.",
-      "history": "Брауни — американское изобретение; по одной из популярных историй, раннюю версию придумали на кухне отеля «Палмер-хаус» в Чикаго для Всемирной выставки 1893 года. Рецепты под названием «брауни» появились в американских кулинарных книгах в начале XX века и быстро стали классикой домашней выпечки.",
-      "recipe": {
-        "servings": 16,
-        "time_min": 45,
-        "ingredients": [
-          "200 г тёмного шоколада (70%), нарубленного",
-          "150 г сливочного масла",
-          "250 г сахара",
-          "3 яйца",
-          "80 г пшеничной муки",
-          "Щепотка соли"
-        ],
-        "steps": [
-          "Разогрейте духовку до 180 °C и застелите форму 20 × 20 см бумагой для выпечки.",
-          "Растопите шоколад с маслом на слабом огне или короткими интервалами в микроволновке; слегка остудите.",
-          "Взбивайте яйца с сахаром 2–3 минуты до светлой густой массы, затем вмешайте шоколадную смесь.",
-          "Просейте муку с солью и аккуратно вмешайте до однородности.",
-          "Выпекайте 22–25 минут, пока верх не станет хрустящим, а шпажка не выйдет с влажными крошками. Полностью остудите, прежде чем нарезать на 16 квадратов."
-        ]
-      },
-      "tips": [
-        "Нарежьте противень на 25 маленьких квадратов вместо 16 — каждый будет около 150 ккал.",
-        "Ешьте со свежими ягодами вместо мороженого.",
-        "Заморозьте остальное порциями, чтобы один кусок был запланированным лакомством, а не целым противнем."
-      ],
-      "name_inline": "брауни"
-    }
+  "ar": {
+   "name": "براوني",
+   "origin": "الولايات المتحدة",
+   "intro": "البراوني حلوى شوكولاتة كثيفة مخبوزة من الشوكولاتة الداكنة والزبدة والسكر والبيض وقليل من الدقيق، تُقطَّع مربعات. البراوني الجيد له سطح رقيق لامع متشقق ووسط طري يكاد يذوب. يُقدَّم وحده مع القهوة، أو دافئاً مع كرة آيس كريم في المقاهي، أو في علبة الغداء.",
+   "history": "البراوني اختراع أمريكي؛ وتنسب رواية شائعة نسخة مبكرة منه إلى مطبخ فندق بالمر هاوس في شيكاغو لمعرض العالم عام 1893. وظهرت وصفات باسم «براونيز» في كتب الطبخ الأمريكية في أوائل القرن العشرين وسرعان ما أصبحت من كلاسيكيات الخَبز المنزلي.",
+   "recipe": {
+    "servings": 16,
+    "time_min": 45,
+    "ingredients": [
+     "200 غ شوكولاتة داكنة (70%) مقطعة",
+     "150 غ زبدة",
+     "250 غ سكر",
+     "3 بيضات",
+     "80 غ دقيق أبيض",
+     "رشة ملح"
+    ],
+    "steps": [
+     "سخّن الفرن إلى 180 °م وبطّن قالباً مقاسه 20 × 20 سم بورق الخبز.",
+     "ذوّب الشوكولاتة والزبدة معاً على نار هادئة أو على فترات قصيرة في الميكروويف، واتركها تبرد قليلاً.",
+     "اخفق البيض مع السكر 2–3 دقائق حتى يصبح فاتحاً وكثيفاً، ثم أضف مزيج الشوكولاتة بلطف.",
+     "انخل الدقيق مع الملح فوق المزيج وقلّب بلطف حتى يمتزج فقط.",
+     "اخبزه 22–25 دقيقة حتى يتشقق السطح ويخرج العود ببعض الفتات الرطب. اتركه يبرد تماماً قبل تقطيعه 16 مربعاً."
+    ]
+   },
+   "tips": [
+    "قطّع الصينية 25 مربعاً صغيراً بدل 16 — فتصبح كل قطعة نحو 150 سعرة.",
+    "تناوله مع توت طازج بدل الآيس كريم.",
+    "جمّد الباقي قطعاً منفصلة لتكون القطعة الواحدة متعة مخططة لا صينية كاملة."
+   ]
+  },
+  "it": {
+   "name": "Brownie al cioccolato",
+   "origin": "Stati Uniti",
+   "intro": "Il brownie è un dolce al cioccolato denso, preparato con cioccolato fondente, burro, zucchero, uova e poca farina, tagliato a quadrotti. Un buon brownie ha una superficie sottile, lucida e screpolata e un cuore fondente, quasi morbido. Si serve da solo con il caffè, caldo con una pallina di gelato nei caffè, o messo nel portapranzo come dolcetto.",
+   "history": "I brownies sono un'invenzione americana; una storia molto diffusa attribuisce alla cucina dell'hotel Palmer House di Chicago una prima versione preparata per l'Esposizione universale del 1893. Ricette con il nome «brownies» comparvero nei ricettari americani all'inizio del XX secolo e divennero presto un classico della pasticceria casalinga.",
+   "name_inline": "brownie al cioccolato",
+   "recipe": {
+    "servings": 16,
+    "time_min": 45,
+    "ingredients": [
+     "200 g di cioccolato fondente (70%) tritato",
+     "150 g di burro",
+     "250 g di zucchero",
+     "3 uova",
+     "80 g di farina 00",
+     "Un pizzico di sale"
+    ],
+    "steps": [
+     "Scalda il forno a 180 °C e fodera una teglia da 20 × 20 cm con carta da forno.",
+     "Sciogli insieme il cioccolato e il burro a fuoco basso o a brevi intervalli nel microonde; lascia intiepidire.",
+     "Sbatti le uova con lo zucchero per 2–3 minuti finché sono chiare e spumose, poi incorpora il composto al cioccolato.",
+     "Setaccia la farina con il sale e mescola delicatamente solo finché è amalgamata.",
+     "Cuoci per 22–25 minuti, finché la superficie è screpolata e uno stecchino esce con briciole umide. Lascia raffreddare completamente prima di tagliare in 16 quadrotti."
+    ]
+   },
+   "tips": [
+    "Taglia la teglia in 25 quadrotti piccoli invece di 16: ognuno vale così circa 150 kcal.",
+    "Mangialo con frutti di bosco freschi invece che con il gelato.",
+    "Congela il resto in porzioni singole, così un pezzo è un dolce programmato e non una teglia intera."
+   ]
+  },
+  "el": {
+   "name": "Μπράουνι σοκολάτας",
+   "origin": "Ηνωμένες Πολιτείες",
+   "intro": "Το μπράουνι είναι ένα πυκνό γλυκό σοκολάτας από μαύρη σοκολάτα, βούτυρο, ζάχαρη, αυγά και λίγο αλεύρι, κομμένο σε τετράγωνα. Ένα καλό μπράουνι έχει λεπτή, γυαλιστερή, σκασμένη επιφάνεια και υγρό, σχεδόν λιωμένο κέντρο. Σερβίρεται σκέτο με καφέ, ζεστό με μια μπάλα παγωτό στα καφέ ή στο κουτί φαγητού ως λιχουδιά.",
+   "history": "Τα μπράουνι είναι αμερικανική επινόηση· μια δημοφιλής ιστορία αποδίδει στην κουζίνα του ξενοδοχείου Palmer House στο Σικάγο μια πρώιμη εκδοχή που φτιάχτηκε για την Παγκόσμια Έκθεση του 1893. Συνταγές με το όνομα «brownies» εμφανίστηκαν σε αμερικανικά βιβλία μαγειρικής στις αρχές του 20ού αιώνα και έγιναν γρήγορα κλασικό της σπιτικής ζαχαροπλαστικής.",
+   "name_inline": "μπράουνι σοκολάτας",
+   "recipe": {
+    "servings": 16,
+    "time_min": 45,
+    "ingredients": [
+     "200 γρ. μαύρη σοκολάτα (70%), ψιλοκομμένη",
+     "150 γρ. βούτυρο",
+     "250 γρ. ζάχαρη",
+     "3 αυγά",
+     "80 γρ. αλεύρι για όλες τις χρήσεις",
+     "Μια πρέζα αλάτι"
+    ],
+    "steps": [
+     "Προθερμάνετε τον φούρνο στους 180 °C και στρώστε ένα ταψάκι 20 × 20 εκ. με λαδόχαρτο.",
+     "Λιώστε μαζί τη σοκολάτα και το βούτυρο σε χαμηλή φωτιά ή σε σύντομα διαστήματα στον φούρνο μικροκυμάτων· αφήστε να κρυώσει λίγο.",
+     "Χτυπήστε τα αυγά με τη ζάχαρη για 2–3 λεπτά μέχρι να ασπρίσουν και να πήξουν, και ενσωματώστε απαλά το μείγμα σοκολάτας.",
+     "Κοσκινίστε από πάνω το αλεύρι με το αλάτι και ανακατέψτε απαλά μόνο μέχρι να ενωθούν.",
+     "Ψήστε για 22–25 λεπτά, μέχρι η επιφάνεια να σκάσει και ένα καλαμάκι να βγαίνει με υγρά ψίχουλα. Αφήστε να κρυώσει εντελώς πριν κόψετε σε 16 τετράγωνα."
+    ]
+   },
+   "tips": [
+    "Κόψτε το ταψί σε 25 μικρά τετράγωνα αντί για 16 — το καθένα έχει τότε περίπου 150 kcal.",
+    "Φάτε το με φρέσκα μούρα αντί για παγωτό.",
+    "Καταψύξτε τα υπόλοιπα ένα ένα, ώστε ένα κομμάτι να είναι προγραμματισμένη λιχουδιά και όχι ολόκληρο ταψί."
+   ]
+  },
+  "ru": {
+   "name": "Шоколадный брауни",
+   "origin": "США",
+   "intro": "Брауни — плотная шоколадная выпечка из тёмного шоколада, масла, сахара, яиц и небольшого количества муки, нарезанная квадратами. У хорошего брауни тонкая блестящая хрустящая корочка сверху и тягучая, почти жидкая середина. Его подают сам по себе с кофе, тёплым с шариком мороженого в кафе или берут с собой в качестве лакомства в ланч-бокс.",
+   "history": "Брауни — американское изобретение; по одной из популярных историй, раннюю версию придумали на кухне отеля «Палмер-хаус» в Чикаго для Всемирной выставки 1893 года. Рецепты под названием «брауни» появились в американских кулинарных книгах в начале XX века и быстро стали классикой домашней выпечки.",
+   "recipe": {
+    "servings": 16,
+    "time_min": 45,
+    "ingredients": [
+     "200 г тёмного шоколада (70%), нарубленного",
+     "150 г сливочного масла",
+     "250 г сахара",
+     "3 яйца",
+     "80 г пшеничной муки",
+     "Щепотка соли"
+    ],
+    "steps": [
+     "Разогрейте духовку до 180 °C и застелите форму 20 × 20 см бумагой для выпечки.",
+     "Растопите шоколад с маслом на слабом огне или короткими интервалами в микроволновке; слегка остудите.",
+     "Взбивайте яйца с сахаром 2–3 минуты до светлой густой массы, затем вмешайте шоколадную смесь.",
+     "Просейте муку с солью и аккуратно вмешайте до однородности.",
+     "Выпекайте 22–25 минут, пока верх не станет хрустящим, а шпажка не выйдет с влажными крошками. Полностью остудите, прежде чем нарезать на 16 квадратов."
+    ]
+   },
+   "tips": [
+    "Нарежьте противень на 25 маленьких квадратов вместо 16 — каждый будет около 150 ккал.",
+    "Ешьте со свежими ягодами вместо мороженого.",
+    "Заморозьте остальное порциями, чтобы один кусок был запланированным лакомством, а не целым противнем."
+   ],
+   "name_inline": "брауни"
+  },
+  "es": {
+   "name": "Brownie de chocolate",
+   "origin": "Estados Unidos",
+   "intro": "El brownie es un horneado denso de chocolate hecho con chocolate amargo, mantequilla, azúcar, huevos y un poco de harina, que se corta en cuadros. Un buen brownie tiene una cubierta fina, brillante y agrietada, y un centro suave, casi derretido. Se sirve solo con café, tibio con una bola de helado en las cafeterías, o como golosina en la lonchera.",
+   "history": "Los brownies son un invento estadounidense; una historia popular atribuye a la cocina del hotel Palmer House de Chicago una versión temprana preparada para la Exposición Universal de 1893. Las recetas con el nombre de «brownies» aparecieron en libros de cocina estadounidenses a principios del siglo XX y pronto se volvieron un clásico de la repostería casera.",
+   "recipe": {
+    "servings": 16,
+    "time_min": 45,
+    "ingredients": [
+     "200 g de chocolate amargo (70 %), picado",
+     "150 g de mantequilla",
+     "250 g de azúcar",
+     "3 huevos",
+     "80 g de harina común",
+     "Una pizca de sal"
+    ],
+    "steps": [
+     "Precalienta el horno a 180 °C y forra un molde de 20 × 20 cm con papel para hornear.",
+     "Derrite el chocolate con la mantequilla a fuego bajo o en el microondas en tandas cortas; deja enfriar un poco.",
+     "Bate los huevos con el azúcar de 2 a 3 minutos, hasta que estén pálidos y espesos, e incorpora la mezcla de chocolate con movimientos envolventes.",
+     "Tamiza la harina con la sal y mezcla con suavidad, solo hasta integrar.",
+     "Hornea de 22 a 25 minutos, hasta que la superficie esté agrietada y un palillo salga con migas húmedas. Deja enfriar por completo antes de cortar en 16 cuadros."
+    ]
+   },
+   "tips": [
+    "Corta el molde en 25 cuadros pequeños en lugar de 16: cada uno tendrá unas 150 kcal.",
+    "Acompáñalo con frutos rojos frescos en lugar de helado.",
+    "Congela el resto en porciones individuales para que una pieza sea un gusto planeado y no una charola entera."
+   ],
+   "name_inline": "el brownie"
   }
+ }
 }

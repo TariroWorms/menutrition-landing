@@ -1,182 +1,216 @@
 {
-  "db_key": "ga_kho_gung",
-  "slug": "ga-kho-gung",
-  "emoji": "🍗",
-  "portion_g": 250,
-  "country": "VN",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "ga_kho_gung",
+ "slug": "ga-kho-gung",
+ "emoji": "🍗",
+ "portion_g": 250,
+ "country": "VN",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Gà kho gừng (Vietnamese ginger chicken)",
+   "origin": "Vietnam",
+   "intro": "Gà kho gừng is Vietnamese chicken braised with plenty of fresh ginger in a dark caramel and fish sauce glaze. The sugar is cooked to a deep amber first, then the chicken simmers in it until the sauce reduces to a sticky, salty-sweet coating with a warming ginger bite. It is finished with scallions and served with steamed rice.",
+   "history": "Kho, slow braising in caramel and fish sauce, is a core technique of home cooking across Vietnam, used for pork, fish and chicken. The ginger chicken version is a common family meal, especially on cool or rainy days.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g boneless chicken thighs, cut into pieces",
+     "50 g fresh ginger, cut into thin matchsticks",
+     "3 tbsp sugar",
+     "3 tbsp fish sauce",
+     "2 shallots or 1 small onion, sliced",
+     "1 tbsp vegetable oil",
+     "150 ml water",
+     "3 scallions, sliced",
+     "Black pepper"
+    ],
+    "steps": [
+     "Marinate the chicken with 1 tbsp fish sauce, half the ginger and pepper for 15 minutes.",
+     "Melt the sugar with 2 tbsp water in a heavy pot until it turns deep amber.",
+     "Add the oil, shallots and remaining ginger, then the chicken, and stir to coat in the caramel.",
+     "Pour in the rest of the fish sauce and the water, cover and simmer for 20 minutes.",
+     "Uncover and reduce until the sauce is thick and glossy; sprinkle with scallions and pepper."
+    ]
+   },
+   "tips": [
+    "Use skinless thighs or breast and trim visible fat to lower the energy of each portion.",
+    "Cut the sugar to 2 tbsp — the ginger and fish sauce keep the dish full of flavour.",
+    "Serve with a modest scoop of rice and plenty of steamed greens."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Gà kho gừng (Vietnamese ginger chicken)",
-      "origin": "Vietnam",
-      "intro": "Gà kho gừng is Vietnamese chicken braised with plenty of fresh ginger in a dark caramel and fish sauce glaze. The sugar is cooked to a deep amber first, then the chicken simmers in it until the sauce reduces to a sticky, salty-sweet coating with a warming ginger bite. It is finished with scallions and served with steamed rice.",
-      "history": "Kho, slow braising in caramel and fish sauce, is a core technique of home cooking across Vietnam, used for pork, fish and chicken. The ginger chicken version is a common family meal, especially on cool or rainy days.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 g boneless chicken thighs, cut into pieces",
-          "50 g fresh ginger, cut into thin matchsticks",
-          "3 tbsp sugar",
-          "3 tbsp fish sauce",
-          "2 shallots or 1 small onion, sliced",
-          "1 tbsp vegetable oil",
-          "150 ml water",
-          "3 scallions, sliced",
-          "Black pepper"
-        ],
-        "steps": [
-          "Marinate the chicken with 1 tbsp fish sauce, half the ginger and pepper for 15 minutes.",
-          "Melt the sugar with 2 tbsp water in a heavy pot until it turns deep amber.",
-          "Add the oil, shallots and remaining ginger, then the chicken, and stir to coat in the caramel.",
-          "Pour in the rest of the fish sauce and the water, cover and simmer for 20 minutes.",
-          "Uncover and reduce until the sauce is thick and glossy; sprinkle with scallions and pepper."
-        ]
-      },
-      "tips": [
-        "Use skinless thighs or breast and trim visible fat to lower the energy of each portion.",
-        "Cut the sugar to 2 tbsp — the ginger and fish sauce keep the dish full of flavour.",
-        "Serve with a modest scoop of rice and plenty of steamed greens."
-      ]
-    },
-    "ar": {
-      "name": "دجاج بالزنجبيل على الطريقة الفيتنامية (غا كو غونغ)",
-      "origin": "فيتنام",
-      "intro": "غا كو غونغ دجاج فيتنامي مطهو ببطء مع كمية وفيرة من الزنجبيل الطازج في صلصة كراميل داكنة وصلصة السمك. يُطهى السكر أولاً حتى يصبح كهرمانياً داكناً، ثم يُطهى الدجاج فيه حتى تتكاثف الصلصة إلى طبقة لزجة مالحة حلوة مع لسعة دافئة من الزنجبيل. يُزيَّن بالبصل الأخضر ويُقدَّم مع الأرز المطهو بالبخار.",
-      "history": "الطهي بأسلوب «كو»، أي الطهي البطيء في الكراميل وصلصة السمك، من أساسيات المطبخ المنزلي في أنحاء فيتنام، ويُستخدم مع اللحم والسمك والدجاج. ونسخة الدجاج بالزنجبيل وجبة عائلية شائعة، خاصة في الأيام الباردة أو الممطرة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 غ أفخاذ دجاج منزوعة العظم مقطعة",
-          "50 غ زنجبيل طازج مقطع أعواداً رفيعة",
-          "3 ملاعق كبيرة سكر",
-          "3 ملاعق كبيرة صلصة سمك",
-          "2 بصل شالوت أو بصلة صغيرة مقطعة شرائح",
-          "ملعقة كبيرة زيت نباتي",
-          "150 مل ماء",
-          "3 أعواد بصل أخضر مقطعة",
-          "فلفل أسود"
-        ],
-        "steps": [
-          "تبّل الدجاج بملعقة كبيرة من صلصة السمك ونصف الزنجبيل والفلفل واتركه 15 دقيقة.",
-          "ذوّب السكر مع ملعقتين كبيرتين من الماء في قدر سميك حتى يصبح كهرمانياً داكناً.",
-          "أضف الزيت والشالوت وباقي الزنجبيل، ثم الدجاج، وقلّب ليتغطى بالكراميل.",
-          "أضف باقي صلصة السمك والماء، وغطِّ القدر واتركه على نار هادئة 20 دقيقة.",
-          "اكشف الغطاء واترك الصلصة تتكاثف وتلمع، ثم رشّ البصل الأخضر والفلفل."
-        ]
-      },
-      "tips": [
-        "استخدم أفخاذاً منزوعة الجلد أو صدور دجاج وأزل الدهن الظاهر لتخفيف الحصة.",
-        "قلّل السكر إلى ملعقتين كبيرتين، فالزنجبيل وصلصة السمك يحافظان على النكهة.",
-        "قدّمه مع مغرفة معتدلة من الأرز وكمية وفيرة من الخضار الورقية المطهوة بالبخار."
-      ]
-    },
-    "it": {
-      "name": "Gà kho gừng (pollo vietnamita allo zenzero)",
-      "name_inline": "gà kho gừng",
-      "origin": "Vietnam",
-      "intro": "Il gà kho gừng è pollo vietnamita brasato con abbondante zenzero fresco in una glassa scura di caramello e salsa di pesce. Prima si cuoce lo zucchero fino a un ambra intenso, poi il pollo vi sobbolle finché la salsa non si riduce in una copertura appiccicosa, dolce-salata, con il calore pungente dello zenzero. Si completa con cipollotti e si serve con riso al vapore.",
-      "history": "Il kho, la brasatura lenta nel caramello e nella salsa di pesce, è una tecnica fondamentale della cucina casalinga in tutto il Vietnam, usata per maiale, pesce e pollo. La versione con pollo e zenzero è un pasto di famiglia comune, soprattutto nelle giornate fresche o piovose.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 g di cosce di pollo disossate, tagliate a pezzi",
-          "50 g di zenzero fresco tagliato a fiammiferi sottili",
-          "3 cucchiai di zucchero",
-          "3 cucchiai di salsa di pesce",
-          "2 scalogni o 1 cipolla piccola affettati",
-          "1 cucchiaio di olio di semi",
-          "150 ml di acqua",
-          "3 cipollotti affettati",
-          "Pepe nero"
-        ],
-        "steps": [
-          "Marina il pollo con 1 cucchiaio di salsa di pesce, metà dello zenzero e il pepe per 15 minuti.",
-          "Sciogli lo zucchero con 2 cucchiai d'acqua in una pentola dal fondo spesso finché non diventa di un ambra intenso.",
-          "Aggiungi l'olio, gli scalogni e lo zenzero rimasto, poi il pollo, e mescola per avvolgerlo nel caramello.",
-          "Versa il resto della salsa di pesce e l'acqua, copri e lascia sobbollire per 20 minuti.",
-          "Scopri e fai ridurre finché la salsa non è densa e lucida; cospargi di cipollotti e pepe."
-        ]
-      },
-      "tips": [
-        "Usa cosce senza pelle o petto ed elimina il grasso visibile per ridurre l'energia di ogni porzione.",
-        "Riduci lo zucchero a 2 cucchiai: zenzero e salsa di pesce mantengono il piatto ricco di sapore.",
-        "Servilo con una porzione moderata di riso e tante verdure a foglia al vapore."
-      ]
-    },
-    "el": {
-      "name": "Γκα κο γκουνγκ (βιετναμέζικο κοτόπουλο με τζίντζερ)",
-      "name_inline": "γκα κο γκουνγκ",
-      "origin": "Βιετνάμ",
-      "intro": "Το gà kho gừng είναι βιετναμέζικο κοτόπουλο κοκκινιστό με άφθονο φρέσκο τζίντζερ σε σκούρο γλάσο από καραμέλα και σάλτσα ψαριού. Η ζάχαρη καραμελώνεται πρώτα σε βαθύ κεχριμπαρένιο χρώμα και μετά το κοτόπουλο σιγοβράζει μέσα της, μέχρι η σάλτσα να δέσει σε κολλώδη, γλυκοαλμυρή επικάλυψη με το ζεστό τσίμπημα του τζίντζερ. Ολοκληρώνεται με φρέσκα κρεμμυδάκια και σερβίρεται με ρύζι στον ατμό.",
-      "history": "Το kho, το αργό κοκκίνισμα σε καραμέλα και σάλτσα ψαριού, είναι βασική τεχνική της σπιτικής μαγειρικής σε όλο το Βιετνάμ και χρησιμοποιείται για χοιρινό, ψάρι και κοτόπουλο. Η εκδοχή με κοτόπουλο και τζίντζερ είναι συνηθισμένο οικογενειακό γεύμα, ιδίως τις δροσερές ή βροχερές μέρες.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κομμάτια",
-          "50 γρ. φρέσκο τζίντζερ σε λεπτά σπιρτόξυλα",
-          "3 κ.σ. ζάχαρη",
-          "3 κ.σ. σάλτσα ψαριού",
-          "2 εσαλότ ή 1 μικρό κρεμμύδι σε φέτες",
-          "1 κ.σ. φυτικό λάδι",
-          "150 ml νερό",
-          "3 φρέσκα κρεμμυδάκια σε ροδέλες",
-          "Μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Μαρινάρετε το κοτόπουλο με 1 κ.σ. σάλτσα ψαριού, το μισό τζίντζερ και πιπέρι για 15 λεπτά.",
-          "Λιώστε τη ζάχαρη με 2 κ.σ. νερό σε βαριά κατσαρόλα μέχρι να πάρει βαθύ κεχριμπαρένιο χρώμα.",
-          "Προσθέστε το λάδι, τα εσαλότ και το υπόλοιπο τζίντζερ και μετά το κοτόπουλο, και ανακατέψτε για να πάρει την καραμέλα.",
-          "Ρίξτε την υπόλοιπη σάλτσα ψαριού και το νερό, σκεπάστε και σιγοβράστε για 20 λεπτά.",
-          "Ξεσκεπάστε και αφήστε να μειωθεί μέχρι η σάλτσα να γίνει πηχτή και γυαλιστερή· πασπαλίστε με κρεμμυδάκια και πιπέρι."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε μπούτια χωρίς πέτσα ή στήθος και αφαιρέστε το ορατό λίπος για να μειώσετε την ενέργεια κάθε μερίδας.",
-        "Μειώστε τη ζάχαρη σε 2 κ.σ. — το τζίντζερ και η σάλτσα ψαριού κρατούν το πιάτο γεμάτο γεύση.",
-        "Σερβίρετε με μια μέτρια κουτάλα ρύζι και άφθονα πράσινα λαχανικά στον ατμό."
-      ]
-    },
-    "ru": {
-      "name": "Га кхо гынг (вьетнамская курица с имбирём)",
-      "origin": "Вьетнам",
-      "intro": "Га кхо гынг — вьетнамская курица, тушёная с большим количеством свежего имбиря в тёмной карамельной глазури с рыбным соусом. Сначала сахар доводят до глубокого янтарного цвета, затем курица томится в нём, пока соус не уварится до липкой солёно-сладкой глазури с согревающей имбирной остротой. Блюдо завершают зелёным луком и подают с рисом на пару.",
-      "history": "Кхо — медленное тушение в карамели и рыбном соусе — основной приём домашней кухни по всему Вьетнаму, его применяют для свинины, рыбы и курицы. Вариант с имбирём — обычная семейная еда, особенно в прохладные или дождливые дни.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "700 г куриных бёдер без костей, нарезанных кусками",
-          "50 г свежего имбиря, нарезанного тонкой соломкой",
-          "3 ст. л. сахара",
-          "3 ст. л. рыбного соуса",
-          "2 шалота или 1 небольшая луковица, нарезанные",
-          "1 ст. л. растительного масла",
-          "150 мл воды",
-          "3 стебля зелёного лука, нарезанных",
-          "Чёрный перец"
-        ],
-        "steps": [
-          "Замаринуйте курицу с 1 ст. л. рыбного соуса, половиной имбиря и перцем на 15 минут.",
-          "Растопите сахар с 2 ст. л. воды в толстостенной кастрюле до глубокого янтарного цвета.",
-          "Добавьте масло, шалот и оставшийся имбирь, затем курицу и перемешайте, чтобы покрыть карамелью.",
-          "Влейте остальной рыбный соус и воду, накройте крышкой и томите 20 минут.",
-          "Снимите крышку и уварите до густого глянцевого соуса; посыпьте зелёным луком и перцем."
-        ]
-      },
-      "tips": [
-        "Используйте бёдра без кожи или грудку и срежьте видимый жир, чтобы снизить калорийность каждой порции.",
-        "Сократите сахар до 2 ст. л. — имбирь и рыбный соус сохранят блюдо насыщенным по вкусу.",
-        "Подавайте с небольшой порцией риса и большим количеством овощей на пару."
-      ],
-      "name_inline": "га кхо гынг"
-    }
+  "ar": {
+   "name": "دجاج بالزنجبيل على الطريقة الفيتنامية (غا كو غونغ)",
+   "origin": "فيتنام",
+   "intro": "غا كو غونغ دجاج فيتنامي مطهو ببطء مع كمية وفيرة من الزنجبيل الطازج في صلصة كراميل داكنة وصلصة السمك. يُطهى السكر أولاً حتى يصبح كهرمانياً داكناً، ثم يُطهى الدجاج فيه حتى تتكاثف الصلصة إلى طبقة لزجة مالحة حلوة مع لسعة دافئة من الزنجبيل. يُزيَّن بالبصل الأخضر ويُقدَّم مع الأرز المطهو بالبخار.",
+   "history": "الطهي بأسلوب «كو»، أي الطهي البطيء في الكراميل وصلصة السمك، من أساسيات المطبخ المنزلي في أنحاء فيتنام، ويُستخدم مع اللحم والسمك والدجاج. ونسخة الدجاج بالزنجبيل وجبة عائلية شائعة، خاصة في الأيام الباردة أو الممطرة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 غ أفخاذ دجاج منزوعة العظم مقطعة",
+     "50 غ زنجبيل طازج مقطع أعواداً رفيعة",
+     "3 ملاعق كبيرة سكر",
+     "3 ملاعق كبيرة صلصة سمك",
+     "2 بصل شالوت أو بصلة صغيرة مقطعة شرائح",
+     "ملعقة كبيرة زيت نباتي",
+     "150 مل ماء",
+     "3 أعواد بصل أخضر مقطعة",
+     "فلفل أسود"
+    ],
+    "steps": [
+     "تبّل الدجاج بملعقة كبيرة من صلصة السمك ونصف الزنجبيل والفلفل واتركه 15 دقيقة.",
+     "ذوّب السكر مع ملعقتين كبيرتين من الماء في قدر سميك حتى يصبح كهرمانياً داكناً.",
+     "أضف الزيت والشالوت وباقي الزنجبيل، ثم الدجاج، وقلّب ليتغطى بالكراميل.",
+     "أضف باقي صلصة السمك والماء، وغطِّ القدر واتركه على نار هادئة 20 دقيقة.",
+     "اكشف الغطاء واترك الصلصة تتكاثف وتلمع، ثم رشّ البصل الأخضر والفلفل."
+    ]
+   },
+   "tips": [
+    "استخدم أفخاذاً منزوعة الجلد أو صدور دجاج وأزل الدهن الظاهر لتخفيف الحصة.",
+    "قلّل السكر إلى ملعقتين كبيرتين، فالزنجبيل وصلصة السمك يحافظان على النكهة.",
+    "قدّمه مع مغرفة معتدلة من الأرز وكمية وفيرة من الخضار الورقية المطهوة بالبخار."
+   ]
+  },
+  "it": {
+   "name": "Gà kho gừng (pollo vietnamita allo zenzero)",
+   "name_inline": "gà kho gừng",
+   "origin": "Vietnam",
+   "intro": "Il gà kho gừng è pollo vietnamita brasato con abbondante zenzero fresco in una glassa scura di caramello e salsa di pesce. Prima si cuoce lo zucchero fino a un ambra intenso, poi il pollo vi sobbolle finché la salsa non si riduce in una copertura appiccicosa, dolce-salata, con il calore pungente dello zenzero. Si completa con cipollotti e si serve con riso al vapore.",
+   "history": "Il kho, la brasatura lenta nel caramello e nella salsa di pesce, è una tecnica fondamentale della cucina casalinga in tutto il Vietnam, usata per maiale, pesce e pollo. La versione con pollo e zenzero è un pasto di famiglia comune, soprattutto nelle giornate fresche o piovose.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g di cosce di pollo disossate, tagliate a pezzi",
+     "50 g di zenzero fresco tagliato a fiammiferi sottili",
+     "3 cucchiai di zucchero",
+     "3 cucchiai di salsa di pesce",
+     "2 scalogni o 1 cipolla piccola affettati",
+     "1 cucchiaio di olio di semi",
+     "150 ml di acqua",
+     "3 cipollotti affettati",
+     "Pepe nero"
+    ],
+    "steps": [
+     "Marina il pollo con 1 cucchiaio di salsa di pesce, metà dello zenzero e il pepe per 15 minuti.",
+     "Sciogli lo zucchero con 2 cucchiai d'acqua in una pentola dal fondo spesso finché non diventa di un ambra intenso.",
+     "Aggiungi l'olio, gli scalogni e lo zenzero rimasto, poi il pollo, e mescola per avvolgerlo nel caramello.",
+     "Versa il resto della salsa di pesce e l'acqua, copri e lascia sobbollire per 20 minuti.",
+     "Scopri e fai ridurre finché la salsa non è densa e lucida; cospargi di cipollotti e pepe."
+    ]
+   },
+   "tips": [
+    "Usa cosce senza pelle o petto ed elimina il grasso visibile per ridurre l'energia di ogni porzione.",
+    "Riduci lo zucchero a 2 cucchiai: zenzero e salsa di pesce mantengono il piatto ricco di sapore.",
+    "Servilo con una porzione moderata di riso e tante verdure a foglia al vapore."
+   ]
+  },
+  "el": {
+   "name": "Γκα κο γκουνγκ (βιετναμέζικο κοτόπουλο με τζίντζερ)",
+   "name_inline": "γκα κο γκουνγκ",
+   "origin": "Βιετνάμ",
+   "intro": "Το gà kho gừng είναι βιετναμέζικο κοτόπουλο κοκκινιστό με άφθονο φρέσκο τζίντζερ σε σκούρο γλάσο από καραμέλα και σάλτσα ψαριού. Η ζάχαρη καραμελώνεται πρώτα σε βαθύ κεχριμπαρένιο χρώμα και μετά το κοτόπουλο σιγοβράζει μέσα της, μέχρι η σάλτσα να δέσει σε κολλώδη, γλυκοαλμυρή επικάλυψη με το ζεστό τσίμπημα του τζίντζερ. Ολοκληρώνεται με φρέσκα κρεμμυδάκια και σερβίρεται με ρύζι στον ατμό.",
+   "history": "Το kho, το αργό κοκκίνισμα σε καραμέλα και σάλτσα ψαριού, είναι βασική τεχνική της σπιτικής μαγειρικής σε όλο το Βιετνάμ και χρησιμοποιείται για χοιρινό, ψάρι και κοτόπουλο. Η εκδοχή με κοτόπουλο και τζίντζερ είναι συνηθισμένο οικογενειακό γεύμα, ιδίως τις δροσερές ή βροχερές μέρες.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 γρ. μπούτια κοτόπουλου χωρίς κόκαλο, σε κομμάτια",
+     "50 γρ. φρέσκο τζίντζερ σε λεπτά σπιρτόξυλα",
+     "3 κ.σ. ζάχαρη",
+     "3 κ.σ. σάλτσα ψαριού",
+     "2 εσαλότ ή 1 μικρό κρεμμύδι σε φέτες",
+     "1 κ.σ. φυτικό λάδι",
+     "150 ml νερό",
+     "3 φρέσκα κρεμμυδάκια σε ροδέλες",
+     "Μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Μαρινάρετε το κοτόπουλο με 1 κ.σ. σάλτσα ψαριού, το μισό τζίντζερ και πιπέρι για 15 λεπτά.",
+     "Λιώστε τη ζάχαρη με 2 κ.σ. νερό σε βαριά κατσαρόλα μέχρι να πάρει βαθύ κεχριμπαρένιο χρώμα.",
+     "Προσθέστε το λάδι, τα εσαλότ και το υπόλοιπο τζίντζερ και μετά το κοτόπουλο, και ανακατέψτε για να πάρει την καραμέλα.",
+     "Ρίξτε την υπόλοιπη σάλτσα ψαριού και το νερό, σκεπάστε και σιγοβράστε για 20 λεπτά.",
+     "Ξεσκεπάστε και αφήστε να μειωθεί μέχρι η σάλτσα να γίνει πηχτή και γυαλιστερή· πασπαλίστε με κρεμμυδάκια και πιπέρι."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε μπούτια χωρίς πέτσα ή στήθος και αφαιρέστε το ορατό λίπος για να μειώσετε την ενέργεια κάθε μερίδας.",
+    "Μειώστε τη ζάχαρη σε 2 κ.σ. — το τζίντζερ και η σάλτσα ψαριού κρατούν το πιάτο γεμάτο γεύση.",
+    "Σερβίρετε με μια μέτρια κουτάλα ρύζι και άφθονα πράσινα λαχανικά στον ατμό."
+   ]
+  },
+  "ru": {
+   "name": "Га кхо гынг (вьетнамская курица с имбирём)",
+   "origin": "Вьетнам",
+   "intro": "Га кхо гынг — вьетнамская курица, тушёная с большим количеством свежего имбиря в тёмной карамельной глазури с рыбным соусом. Сначала сахар доводят до глубокого янтарного цвета, затем курица томится в нём, пока соус не уварится до липкой солёно-сладкой глазури с согревающей имбирной остротой. Блюдо завершают зелёным луком и подают с рисом на пару.",
+   "history": "Кхо — медленное тушение в карамели и рыбном соусе — основной приём домашней кухни по всему Вьетнаму, его применяют для свинины, рыбы и курицы. Вариант с имбирём — обычная семейная еда, особенно в прохладные или дождливые дни.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 г куриных бёдер без костей, нарезанных кусками",
+     "50 г свежего имбиря, нарезанного тонкой соломкой",
+     "3 ст. л. сахара",
+     "3 ст. л. рыбного соуса",
+     "2 шалота или 1 небольшая луковица, нарезанные",
+     "1 ст. л. растительного масла",
+     "150 мл воды",
+     "3 стебля зелёного лука, нарезанных",
+     "Чёрный перец"
+    ],
+    "steps": [
+     "Замаринуйте курицу с 1 ст. л. рыбного соуса, половиной имбиря и перцем на 15 минут.",
+     "Растопите сахар с 2 ст. л. воды в толстостенной кастрюле до глубокого янтарного цвета.",
+     "Добавьте масло, шалот и оставшийся имбирь, затем курицу и перемешайте, чтобы покрыть карамелью.",
+     "Влейте остальной рыбный соус и воду, накройте крышкой и томите 20 минут.",
+     "Снимите крышку и уварите до густого глянцевого соуса; посыпьте зелёным луком и перцем."
+    ]
+   },
+   "tips": [
+    "Используйте бёдра без кожи или грудку и срежьте видимый жир, чтобы снизить калорийность каждой порции.",
+    "Сократите сахар до 2 ст. л. — имбирь и рыбный соус сохранят блюдо насыщенным по вкусу.",
+    "Подавайте с небольшой порцией риса и большим количеством овощей на пару."
+   ],
+   "name_inline": "га кхо гынг"
+  },
+  "es": {
+   "name": "Gà kho gừng (pollo vietnamita con jengibre)",
+   "origin": "Vietnam",
+   "intro": "El gà kho gừng es pollo vietnamita braseado con abundante jengibre fresco en un glaseado oscuro de caramelo y salsa de pescado. El azúcar se cocina primero hasta un ámbar intenso y luego el pollo se cuece a fuego lento en él hasta que la salsa se reduce a una cobertura pegajosa y agridulce con un toque cálido de jengibre. Se termina con cebollitas de cambray y se sirve con arroz al vapor.",
+   "history": "El kho, el braseado lento en caramelo y salsa de pescado, es una técnica esencial de la cocina casera de todo Vietnam, usada para el cerdo, el pescado y el pollo. La versión de pollo con jengibre es una comida familiar habitual, sobre todo en los días fríos o lluviosos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "700 g de muslos de pollo sin hueso, en trozos",
+     "50 g de jengibre fresco, en bastoncitos finos",
+     "3 cda. de azúcar",
+     "3 cda. de salsa de pescado",
+     "2 chalotes o 1 cebolla pequeña, en rodajas",
+     "1 cda. de aceite vegetal",
+     "150 ml de agua",
+     "3 cebollitas de cambray, en rodajas",
+     "Pimienta negra"
+    ],
+    "steps": [
+     "Marina el pollo con 1 cda. de salsa de pescado, la mitad del jengibre y pimienta durante 15 minutos.",
+     "Derrite el azúcar con 2 cda. de agua en una olla gruesa hasta que tome un color ámbar intenso.",
+     "Añade el aceite, los chalotes y el resto del jengibre, luego el pollo, y mezcla para cubrirlo con el caramelo.",
+     "Vierte el resto de la salsa de pescado y el agua, tapa y cuece a fuego lento durante 20 minutos.",
+     "Destapa y reduce hasta que la salsa esté espesa y brillante; espolvorea con las cebollitas y la pimienta."
+    ]
+   },
+   "tips": [
+    "Usa muslos sin piel o pechuga y retira la grasa visible para bajar la energía de cada porción.",
+    "Reduce el azúcar a 2 cda.: el jengibre y la salsa de pescado mantienen el plato lleno de sabor.",
+    "Sirve con una porción moderada de arroz y muchas verduras al vapor."
+   ],
+   "name_inline": "el gà kho gừng"
   }
+ }
 }

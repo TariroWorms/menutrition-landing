@@ -1,170 +1,202 @@
 {
-  "db_key": "curry_udon",
-  "slug": "curry-udon",
-  "emoji": "🍜",
-  "portion_g": 450,
-  "country": "JP",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "curry_udon",
+ "slug": "curry-udon",
+ "emoji": "🍜",
+ "portion_g": 450,
+ "country": "JP",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Curry udon",
+   "origin": "Japan",
+   "intro": "Curry udon is a bowl of thick, chewy wheat noodles in a glossy Japanese curry broth with thin slices of pork and fresh scallion. The curry is mild, slightly sweet and thick enough to cling to every noodle. It is a warming everyday dish served in noodle shops and made at home with leftover curry.",
+   "history": "Curry reached Japan from Britain in the late 19th century and became a national comfort food. Curry udon, which pairs it with thick wheat noodles, is now a standard of Japanese noodle shops and home cooking.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 portions udon noodles (about 400 g cooked)",
+     "150 g thinly sliced pork",
+     "50 g Japanese curry roux",
+     "1 onion, sliced",
+     "700 ml water",
+     "2 scallions, sliced",
+     "1 tsp vegetable oil"
+    ],
+    "steps": [
+     "Fry the onion in the oil for 3 minutes, add the pork and cook until no longer pink.",
+     "Pour in the water, bring to a simmer and cook for 5 minutes.",
+     "Turn off the heat, dissolve the curry roux, then simmer for 3–4 minutes until thickened.",
+     "Cook the udon according to the packet, drain and divide between bowls.",
+     "Ladle the curry broth over the noodles and top with scallions."
+    ]
+   },
+   "tips": [
+    "Use lean pork loin and skim any fat from the surface of the broth.",
+    "Use a little less roux and more water for a thinner, lighter broth.",
+    "Add extra onion or other vegetables to the broth so a smaller portion of noodles still fills the bowl."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Curry udon",
-      "origin": "Japan",
-      "intro": "Curry udon is a bowl of thick, chewy wheat noodles in a glossy Japanese curry broth with thin slices of pork and fresh scallion. The curry is mild, slightly sweet and thick enough to cling to every noodle. It is a warming everyday dish served in noodle shops and made at home with leftover curry.",
-      "history": "Curry reached Japan from Britain in the late 19th century and became a national comfort food. Curry udon, which pairs it with thick wheat noodles, is now a standard of Japanese noodle shops and home cooking.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 portions udon noodles (about 400 g cooked)",
-          "150 g thinly sliced pork",
-          "50 g Japanese curry roux",
-          "1 onion, sliced",
-          "700 ml water",
-          "2 scallions, sliced",
-          "1 tsp vegetable oil"
-        ],
-        "steps": [
-          "Fry the onion in the oil for 3 minutes, add the pork and cook until no longer pink.",
-          "Pour in the water, bring to a simmer and cook for 5 minutes.",
-          "Turn off the heat, dissolve the curry roux, then simmer for 3–4 minutes until thickened.",
-          "Cook the udon according to the packet, drain and divide between bowls.",
-          "Ladle the curry broth over the noodles and top with scallions."
-        ]
-      },
-      "tips": [
-        "Use lean pork loin and skim any fat from the surface of the broth.",
-        "Use a little less roux and more water for a thinner, lighter broth.",
-        "Add extra onion or other vegetables to the broth so a smaller portion of noodles still fills the bowl."
-      ]
-    },
-    "ar": {
-      "name": "أودون بالكاري",
-      "origin": "اليابان",
-      "intro": "أودون بالكاري وعاء من نودلز القمح السميكة المطاطية في مرق كاري ياباني لامع مع شرائح رقيقة من لحم الخنزير وبصل أخضر طازج. الكاري معتدل الحرارة مائل للحلاوة وكثيف بما يكفي ليلتصق بكل خيط من النودلز. طبق يومي دافئ يُقدَّم في مطاعم النودلز ويُحضَّر في البيوت من بقايا الكاري.",
-      "history": "وصل الكاري إلى اليابان من بريطانيا في أواخر القرن التاسع عشر وأصبح من الأطعمة الشعبية المحبوبة. أما أودون بالكاري، الذي يجمعه بنودلز القمح السميكة، فهو اليوم طبق أساسي في مطاعم النودلز اليابانية وفي المطبخ المنزلي.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "حصتان من نودلز الأودون (نحو 400 غ مطبوخة)",
-          "150 غ لحم خنزير مقطّع شرائح رقيقة",
-          "50 غ مكعبات كاري ياباني",
-          "1 بصلة مقطّعة شرائح",
-          "700 مل ماء",
-          "2 عود بصل أخضر مفروم",
-          "1 ملعقة صغيرة زيت نباتي"
-        ],
-        "steps": [
-          "اقلِ البصل في الزيت 3 دقائق، ثم أضف اللحم واطهه حتى يتغير لونه.",
-          "أضف الماء واتركه على نار هادئة 5 دقائق.",
-          "أطفئ النار وذوّب مكعبات الكاري، ثم اطهه 3–4 دقائق حتى يتكثف.",
-          "اسلق الأودون حسب تعليمات العبوة وصفّه ووزّعه في الأوعية.",
-          "اسكب مرق الكاري فوق النودلز وزيّنه بالبصل الأخضر."
-        ]
-      },
-      "tips": [
-        "استخدم لحم خنزير قليل الدهن وأزل الدهون الطافية عن المرق.",
-        "قلّل مكعبات الكاري وزد الماء للحصول على مرق أخف.",
-        "أضف مزيداً من البصل أو الخضار إلى المرق لتملأ حصة أصغر من النودلز الوعاء."
-      ]
-    },
-    "it": {
-      "name": "Curry udon",
-      "origin": "Giappone",
-      "intro": "Il curry udon è una ciotola di spaghettoni di grano spessi ed elastici in un brodo lucido di curry giapponese, con fettine sottili di maiale e cipollotto fresco. Il curry è delicato, leggermente dolce e abbastanza denso da avvolgere ogni spaghettone. È un piatto quotidiano che scalda, servito nei locali di noodle e preparato in casa con il curry avanzato.",
-      "history": "Il curry arrivò in Giappone dalla Gran Bretagna alla fine del XIX secolo e divenne un comfort food nazionale. Il curry udon, che lo abbina agli spessi noodle di frumento, è oggi un classico dei locali di noodle giapponesi e della cucina di casa.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 porzioni di udon (circa 400 g cotti)",
-          "150 g di maiale a fettine sottili",
-          "50 g di roux per curry giapponese",
-          "1 cipolla affettata",
-          "700 ml d'acqua",
-          "2 cipollotti a rondelle",
-          "1 cucchiaino di olio vegetale"
-        ],
-        "steps": [
-          "Rosola la cipolla nell'olio per 3 minuti, aggiungi il maiale e cuoci finché non è più rosa.",
-          "Versa l'acqua, porta a sobbollire e cuoci per 5 minuti.",
-          "Spegni il fuoco, sciogli il roux di curry, poi cuoci a fuoco dolce per 3–4 minuti finché si addensa.",
-          "Cuoci gli udon secondo le istruzioni della confezione, scolali e dividili nelle ciotole.",
-          "Versa il brodo di curry sui noodle e completa con i cipollotti."
-        ]
-      },
-      "tips": [
-        "Usa lonza di maiale magra ed elimina il grasso dalla superficie del brodo.",
-        "Usa un po' meno roux e più acqua per un brodo più fluido e leggero.",
-        "Aggiungi più cipolla o altre verdure al brodo, così anche una porzione più piccola di noodle riempie la ciotola."
-      ]
-    },
-    "el": {
-      "name": "Κάρι ουντόν",
-      "origin": "Ιαπωνία",
-      "intro": "Το κάρι ουντόν είναι ένα μπολ με χοντρά, ελαστικά νουντλς σιταριού σε γυαλιστερό ζωμό ιαπωνικού κάρι, με λεπτές φέτες χοιρινό και φρέσκο κρεμμυδάκι. Το κάρι είναι ήπιο, ελαφρώς γλυκό και αρκετά πηχτό ώστε να τυλίγει κάθε νουντλ. Είναι ζεστό καθημερινό πιάτο που σερβίρεται σε μαγαζιά με νουντλς και φτιάχνεται στο σπίτι με περισσεύματα κάρι.",
-      "history": "Το κάρι έφτασε στην Ιαπωνία από τη Βρετανία στα τέλη του 19ου αιώνα και έγινε εθνικό παρηγορητικό φαγητό. Το κάρι ουντόν, που το συνδυάζει με χοντρά νουντλς σιταριού, είναι σήμερα κλασικό στα ιαπωνικά μαγαζιά με νουντλς και στη σπιτική μαγειρική.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 μερίδες νουντλς ουντόν (περίπου 400 γρ. βρασμένα)",
-          "150 γρ. χοιρινό σε λεπτές φέτες",
-          "50 γρ. ιαπωνικό ρου για κάρι",
-          "1 κρεμμύδι σε φέτες",
-          "700 ml νερό",
-          "2 φρέσκα κρεμμυδάκια σε ροδέλες",
-          "1 κ.γ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Σοτάρετε το κρεμμύδι στο λάδι για 3 λεπτά, προσθέστε το χοιρινό και μαγειρέψτε μέχρι να μην είναι πια ροζ.",
-          "Ρίξτε το νερό, φέρτε σε σιγανό βρασμό και μαγειρέψτε 5 λεπτά.",
-          "Κλείστε τη φωτιά, διαλύστε το ρου κάρι και σιγοβράστε 3–4 λεπτά μέχρι να πήξει.",
-          "Βράστε τα ουντόν σύμφωνα με τη συσκευασία, σουρώστε και μοιράστε τα στα μπολ.",
-          "Ρίξτε τον ζωμό κάρι πάνω στα νουντλς και πασπαλίστε με τα κρεμμυδάκια."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο χοιρινό φιλέτο και ξαφρίστε το λίπος από την επιφάνεια του ζωμού.",
-        "Βάλτε λίγο λιγότερο ρου και περισσότερο νερό για πιο αραιό, ελαφρύ ζωμό.",
-        "Προσθέστε περισσότερο κρεμμύδι ή άλλα λαχανικά στον ζωμό, ώστε και μικρότερη μερίδα νουντλς να γεμίζει το μπολ."
-      ]
-    },
-    "ru": {
-      "name": "Карри-удон",
-      "origin": "Япония",
-      "intro": "Карри-удон — миска толстой упругой пшеничной лапши в глянцевом японском бульоне с карри, с тонкими ломтиками свинины и свежим зелёным луком. Карри мягкий, слегка сладкий и достаточно густой, чтобы облепить каждую лапшинку. Это согревающее повседневное блюдо, которое подают в лапшичных и готовят дома из остатков карри.",
-      "history": "Карри попало в Японию из Британии в конце XIX века и стало национальной домашней едой. Карри-удон, где оно сочетается с толстой пшеничной лапшой, теперь — стандарт японских лапшичных и домашней кухни.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 30,
-        "ingredients": [
-          "2 порции лапши удон (около 400 г в готовом виде)",
-          "150 г тонко нарезанной свинины",
-          "50 г японского брикета карри",
-          "1 луковица, нарезанная",
-          "700 мл воды",
-          "2 стебля зелёного лука, нарезанных",
-          "1 ч. л. растительного масла"
-        ],
-        "steps": [
-          "Обжаривайте лук в масле 3 минуты, добавьте свинину и готовьте, пока она не перестанет быть розовой.",
-          "Влейте воду, доведите до кипения и варите 5 минут.",
-          "Выключите огонь, растворите брикет карри, затем варите 3–4 минуты до загустения.",
-          "Сварите удон по инструкции на упаковке, слейте воду и разложите по мискам.",
-          "Полейте лапшу бульоном с карри и посыпьте зелёным луком."
-        ]
-      },
-      "tips": [
-        "Берите постную свиную вырезку и снимайте жир с поверхности бульона.",
-        "Возьмите чуть меньше брикета и больше воды для более жидкого и лёгкого бульона.",
-        "Добавьте в бульон больше лука или других овощей, чтобы миска наполнялась и при меньшей порции лапши."
-      ],
-      "name_inline": "карри-удон"
-    }
+  "ar": {
+   "name": "أودون بالكاري",
+   "origin": "اليابان",
+   "intro": "أودون بالكاري وعاء من نودلز القمح السميكة المطاطية في مرق كاري ياباني لامع مع شرائح رقيقة من لحم الخنزير وبصل أخضر طازج. الكاري معتدل الحرارة مائل للحلاوة وكثيف بما يكفي ليلتصق بكل خيط من النودلز. طبق يومي دافئ يُقدَّم في مطاعم النودلز ويُحضَّر في البيوت من بقايا الكاري.",
+   "history": "وصل الكاري إلى اليابان من بريطانيا في أواخر القرن التاسع عشر وأصبح من الأطعمة الشعبية المحبوبة. أما أودون بالكاري، الذي يجمعه بنودلز القمح السميكة، فهو اليوم طبق أساسي في مطاعم النودلز اليابانية وفي المطبخ المنزلي.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "حصتان من نودلز الأودون (نحو 400 غ مطبوخة)",
+     "150 غ لحم خنزير مقطّع شرائح رقيقة",
+     "50 غ مكعبات كاري ياباني",
+     "1 بصلة مقطّعة شرائح",
+     "700 مل ماء",
+     "2 عود بصل أخضر مفروم",
+     "1 ملعقة صغيرة زيت نباتي"
+    ],
+    "steps": [
+     "اقلِ البصل في الزيت 3 دقائق، ثم أضف اللحم واطهه حتى يتغير لونه.",
+     "أضف الماء واتركه على نار هادئة 5 دقائق.",
+     "أطفئ النار وذوّب مكعبات الكاري، ثم اطهه 3–4 دقائق حتى يتكثف.",
+     "اسلق الأودون حسب تعليمات العبوة وصفّه ووزّعه في الأوعية.",
+     "اسكب مرق الكاري فوق النودلز وزيّنه بالبصل الأخضر."
+    ]
+   },
+   "tips": [
+    "استخدم لحم خنزير قليل الدهن وأزل الدهون الطافية عن المرق.",
+    "قلّل مكعبات الكاري وزد الماء للحصول على مرق أخف.",
+    "أضف مزيداً من البصل أو الخضار إلى المرق لتملأ حصة أصغر من النودلز الوعاء."
+   ]
+  },
+  "it": {
+   "name": "Curry udon",
+   "origin": "Giappone",
+   "intro": "Il curry udon è una ciotola di spaghettoni di grano spessi ed elastici in un brodo lucido di curry giapponese, con fettine sottili di maiale e cipollotto fresco. Il curry è delicato, leggermente dolce e abbastanza denso da avvolgere ogni spaghettone. È un piatto quotidiano che scalda, servito nei locali di noodle e preparato in casa con il curry avanzato.",
+   "history": "Il curry arrivò in Giappone dalla Gran Bretagna alla fine del XIX secolo e divenne un comfort food nazionale. Il curry udon, che lo abbina agli spessi noodle di frumento, è oggi un classico dei locali di noodle giapponesi e della cucina di casa.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 porzioni di udon (circa 400 g cotti)",
+     "150 g di maiale a fettine sottili",
+     "50 g di roux per curry giapponese",
+     "1 cipolla affettata",
+     "700 ml d'acqua",
+     "2 cipollotti a rondelle",
+     "1 cucchiaino di olio vegetale"
+    ],
+    "steps": [
+     "Rosola la cipolla nell'olio per 3 minuti, aggiungi il maiale e cuoci finché non è più rosa.",
+     "Versa l'acqua, porta a sobbollire e cuoci per 5 minuti.",
+     "Spegni il fuoco, sciogli il roux di curry, poi cuoci a fuoco dolce per 3–4 minuti finché si addensa.",
+     "Cuoci gli udon secondo le istruzioni della confezione, scolali e dividili nelle ciotole.",
+     "Versa il brodo di curry sui noodle e completa con i cipollotti."
+    ]
+   },
+   "tips": [
+    "Usa lonza di maiale magra ed elimina il grasso dalla superficie del brodo.",
+    "Usa un po' meno roux e più acqua per un brodo più fluido e leggero.",
+    "Aggiungi più cipolla o altre verdure al brodo, così anche una porzione più piccola di noodle riempie la ciotola."
+   ]
+  },
+  "el": {
+   "name": "Κάρι ουντόν",
+   "origin": "Ιαπωνία",
+   "intro": "Το κάρι ουντόν είναι ένα μπολ με χοντρά, ελαστικά νουντλς σιταριού σε γυαλιστερό ζωμό ιαπωνικού κάρι, με λεπτές φέτες χοιρινό και φρέσκο κρεμμυδάκι. Το κάρι είναι ήπιο, ελαφρώς γλυκό και αρκετά πηχτό ώστε να τυλίγει κάθε νουντλ. Είναι ζεστό καθημερινό πιάτο που σερβίρεται σε μαγαζιά με νουντλς και φτιάχνεται στο σπίτι με περισσεύματα κάρι.",
+   "history": "Το κάρι έφτασε στην Ιαπωνία από τη Βρετανία στα τέλη του 19ου αιώνα και έγινε εθνικό παρηγορητικό φαγητό. Το κάρι ουντόν, που το συνδυάζει με χοντρά νουντλς σιταριού, είναι σήμερα κλασικό στα ιαπωνικά μαγαζιά με νουντλς και στη σπιτική μαγειρική.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 μερίδες νουντλς ουντόν (περίπου 400 γρ. βρασμένα)",
+     "150 γρ. χοιρινό σε λεπτές φέτες",
+     "50 γρ. ιαπωνικό ρου για κάρι",
+     "1 κρεμμύδι σε φέτες",
+     "700 ml νερό",
+     "2 φρέσκα κρεμμυδάκια σε ροδέλες",
+     "1 κ.γ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Σοτάρετε το κρεμμύδι στο λάδι για 3 λεπτά, προσθέστε το χοιρινό και μαγειρέψτε μέχρι να μην είναι πια ροζ.",
+     "Ρίξτε το νερό, φέρτε σε σιγανό βρασμό και μαγειρέψτε 5 λεπτά.",
+     "Κλείστε τη φωτιά, διαλύστε το ρου κάρι και σιγοβράστε 3–4 λεπτά μέχρι να πήξει.",
+     "Βράστε τα ουντόν σύμφωνα με τη συσκευασία, σουρώστε και μοιράστε τα στα μπολ.",
+     "Ρίξτε τον ζωμό κάρι πάνω στα νουντλς και πασπαλίστε με τα κρεμμυδάκια."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο χοιρινό φιλέτο και ξαφρίστε το λίπος από την επιφάνεια του ζωμού.",
+    "Βάλτε λίγο λιγότερο ρου και περισσότερο νερό για πιο αραιό, ελαφρύ ζωμό.",
+    "Προσθέστε περισσότερο κρεμμύδι ή άλλα λαχανικά στον ζωμό, ώστε και μικρότερη μερίδα νουντλς να γεμίζει το μπολ."
+   ]
+  },
+  "ru": {
+   "name": "Карри-удон",
+   "origin": "Япония",
+   "intro": "Карри-удон — миска толстой упругой пшеничной лапши в глянцевом японском бульоне с карри, с тонкими ломтиками свинины и свежим зелёным луком. Карри мягкий, слегка сладкий и достаточно густой, чтобы облепить каждую лапшинку. Это согревающее повседневное блюдо, которое подают в лапшичных и готовят дома из остатков карри.",
+   "history": "Карри попало в Японию из Британии в конце XIX века и стало национальной домашней едой. Карри-удон, где оно сочетается с толстой пшеничной лапшой, теперь — стандарт японских лапшичных и домашней кухни.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 порции лапши удон (около 400 г в готовом виде)",
+     "150 г тонко нарезанной свинины",
+     "50 г японского брикета карри",
+     "1 луковица, нарезанная",
+     "700 мл воды",
+     "2 стебля зелёного лука, нарезанных",
+     "1 ч. л. растительного масла"
+    ],
+    "steps": [
+     "Обжаривайте лук в масле 3 минуты, добавьте свинину и готовьте, пока она не перестанет быть розовой.",
+     "Влейте воду, доведите до кипения и варите 5 минут.",
+     "Выключите огонь, растворите брикет карри, затем варите 3–4 минуты до загустения.",
+     "Сварите удон по инструкции на упаковке, слейте воду и разложите по мискам.",
+     "Полейте лапшу бульоном с карри и посыпьте зелёным луком."
+    ]
+   },
+   "tips": [
+    "Берите постную свиную вырезку и снимайте жир с поверхности бульона.",
+    "Возьмите чуть меньше брикета и больше воды для более жидкого и лёгкого бульона.",
+    "Добавьте в бульон больше лука или других овощей, чтобы миска наполнялась и при меньшей порции лапши."
+   ],
+   "name_inline": "карри-удон"
+  },
+  "es": {
+   "name": "Curry udon",
+   "origin": "Japón",
+   "intro": "El curry udon es un tazón de fideos de trigo gruesos y masticables en un brillante caldo de curry japonés, con finas lonjas de cerdo y cebollín fresco. El curry es suave, ligeramente dulce y lo bastante espeso para adherirse a cada fideo. Es un plato cotidiano reconfortante que se sirve en las fideerías y se prepara en casa con curry sobrante.",
+   "history": "El curry llegó a Japón desde Gran Bretaña a finales del siglo XIX y se convirtió en una comida reconfortante nacional. El curry udon, que lo combina con fideos gruesos de trigo, es hoy un clásico de las fideerías japonesas y de la cocina casera.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 30,
+    "ingredients": [
+     "2 porciones de fideos udon (unos 400 g cocidos)",
+     "150 g de cerdo en lonjas finas",
+     "50 g de roux de curry japonés",
+     "1 cebolla, en rodajas",
+     "700 ml de agua",
+     "2 cebollines, en rodajas",
+     "1 cdta. de aceite vegetal"
+    ],
+    "steps": [
+     "Sofríe la cebolla en el aceite durante 3 minutos, agrega el cerdo y cocina hasta que pierda el color rosado.",
+     "Vierte el agua, lleva a un hervor suave y cocina 5 minutos.",
+     "Apaga el fuego, disuelve el roux de curry y luego cuece a fuego lento de 3 a 4 minutos hasta que espese.",
+     "Cuece los udon según el paquete, escúrrelos y repártelos en los tazones.",
+     "Sirve el caldo de curry sobre los fideos y adorna con cebollín."
+    ]
+   },
+   "tips": [
+    "Usa lomo de cerdo magro y retira la grasa de la superficie del caldo.",
+    "Usa un poco menos de roux y más agua para un caldo más ligero.",
+    "Añade más cebolla u otras verduras al caldo para que una porción menor de fideos llene igual el tazón."
+   ],
+   "name_inline": "el curry udon"
   }
+ }
 }

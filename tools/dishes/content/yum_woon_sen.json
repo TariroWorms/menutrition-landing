@@ -1,170 +1,202 @@
 {
-  "db_key": "yum_woon_sen",
-  "slug": "yum-woon-sen",
-  "emoji": "🍜",
-  "portion_g": 250,
-  "country": "TH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "yum_woon_sen",
+ "slug": "yum-woon-sen",
+ "emoji": "🍜",
+ "portion_g": 250,
+ "country": "TH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Yum woon sen (Thai glass noodle salad)",
+   "origin": "Thailand",
+   "intro": "Yum woon sen is a Thai salad of glass noodles tossed warm with poached shrimp and minced pork in a sharp dressing of lime juice, fish sauce and fresh chili. Chinese celery adds crunch and a fresh, herbal note. The noodles are slippery and light, and the flavour is sour, salty and spicy all at once. It is served at room temperature as a starter or light meal.",
+   "history": "Yum is the Thai word for a family of tossed salads with a lime, fish sauce and chili dressing, and woon sen are glass noodles, which came to Thailand from Chinese cooking. Yum woon sen is a popular everyday dish at Thai street stalls and restaurants.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "100 g dried glass noodles",
+     "150 g peeled shrimp",
+     "100 g minced pork",
+     "2 sticks celery or Chinese celery, sliced",
+     "2–3 fresh chilies, chopped",
+     "Juice of 2 limes",
+     "2 tbsp fish sauce and 1 tsp sugar",
+     "Fresh coriander"
+    ],
+    "steps": [
+     "Soak the noodles in warm water for 10 minutes, then cook in boiling water for 1–2 minutes and drain.",
+     "Poach the pork in a little water for 3 minutes, breaking it up, then add the shrimp and cook 2 minutes more; drain.",
+     "Mix lime juice, fish sauce, sugar and chili for the dressing.",
+     "Toss the warm noodles, pork, shrimp and celery with the dressing and coriander, and serve."
+    ]
+   },
+   "tips": [
+    "Use more shrimp and less pork for a leaner salad.",
+    "Add extra celery or other crunchy vegetables to bulk up the plate.",
+    "Measure the dry noodles — 50 g per person is a sensible portion."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Yum woon sen (Thai glass noodle salad)",
-      "origin": "Thailand",
-      "intro": "Yum woon sen is a Thai salad of glass noodles tossed warm with poached shrimp and minced pork in a sharp dressing of lime juice, fish sauce and fresh chili. Chinese celery adds crunch and a fresh, herbal note. The noodles are slippery and light, and the flavour is sour, salty and spicy all at once. It is served at room temperature as a starter or light meal.",
-      "history": "Yum is the Thai word for a family of tossed salads with a lime, fish sauce and chili dressing, and woon sen are glass noodles, which came to Thailand from Chinese cooking. Yum woon sen is a popular everyday dish at Thai street stalls and restaurants.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "100 g dried glass noodles",
-          "150 g peeled shrimp",
-          "100 g minced pork",
-          "2 sticks celery or Chinese celery, sliced",
-          "2–3 fresh chilies, chopped",
-          "Juice of 2 limes",
-          "2 tbsp fish sauce and 1 tsp sugar",
-          "Fresh coriander"
-        ],
-        "steps": [
-          "Soak the noodles in warm water for 10 minutes, then cook in boiling water for 1–2 minutes and drain.",
-          "Poach the pork in a little water for 3 minutes, breaking it up, then add the shrimp and cook 2 minutes more; drain.",
-          "Mix lime juice, fish sauce, sugar and chili for the dressing.",
-          "Toss the warm noodles, pork, shrimp and celery with the dressing and coriander, and serve."
-        ]
-      },
-      "tips": [
-        "Use more shrimp and less pork for a leaner salad.",
-        "Add extra celery or other crunchy vegetables to bulk up the plate.",
-        "Measure the dry noodles — 50 g per person is a sensible portion."
-      ]
-    },
-    "ar": {
-      "name": "يام وون سين (سلطة الشعيرية الزجاجية التايلاندية)",
-      "origin": "تايلاند",
-      "intro": "يام وون سين سلطة تايلاندية من الشعيرية الزجاجية تُقلب دافئة مع الروبيان المسلوق ولحم الخنزير المفروم في تتبيلة حادة من عصير الليمون الأخضر وصلصة السمك والفلفل الحار الطازج. ويضيف الكرفس قرمشة ونكهة عشبية منعشة. الشعيرية ناعمة خفيفة، والطعم حامض ومالح وحار معًا. تُقدَّم بدرجة حرارة الغرفة كمقبلات أو وجبة خفيفة.",
-      "history": "«يام» كلمة تايلاندية تطلق على عائلة من السلطات المقلبة بتتبيلة الليمون الأخضر وصلصة السمك والفلفل الحار، و«وون سين» هي الشعيرية الزجاجية التي وصلت إلى تايلاند من المطبخ الصيني. ويام وون سين طبق يومي شائع في أكشاك الشوارع والمطاعم التايلاندية.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "100 غ شعيرية زجاجية جافة",
-          "150 غ روبيان مقشر",
-          "100 غ لحم خنزير مفروم",
-          "2 عود كرفس أو كرفس صيني مقطع",
-          "2–3 حبات فلفل حار طازج مفرومة",
-          "عصير 2 ليمونة خضراء",
-          "2 ملعقة كبيرة صلصة سمك و1 ملعقة صغيرة سكر",
-          "كزبرة طازجة"
-        ],
-        "steps": [
-          "انقع الشعيرية في ماء دافئ 10 دقائق، ثم اسلقها في ماء مغلي 1–2 دقيقة وصفّها.",
-          "اسلق اللحم في قليل من الماء 3 دقائق مع تفكيكه، ثم أضف الروبيان واطهه دقيقتين أخريين وصفّه.",
-          "اخلط عصير الليمون وصلصة السمك والسكر والفلفل الحار للتتبيلة.",
-          "قلّب الشعيرية الدافئة واللحم والروبيان والكرفس مع التتبيلة والكزبرة، وقدّمها."
-        ]
-      },
-      "tips": [
-        "زد الروبيان وقلل لحم الخنزير لسلطة أخف.",
-        "أضف مزيدًا من الكرفس أو خضارًا مقرمشة أخرى لزيادة حجم الطبق.",
-        "قِس الشعيرية الجافة، فـ50 غ للشخص حصة معقولة."
-      ]
-    },
-    "it": {
-      "name": "Yum woon sen (insalata thailandese di spaghetti di soia)",
-      "origin": "Thailandia",
-      "intro": "Lo yum woon sen è un'insalata thailandese di spaghetti di soia (glass noodles) conditi ancora tiepidi con gamberi e carne di maiale macinata scottati, in un condimento deciso di succo di lime, salsa di pesce e peperoncino fresco. Il sedano cinese aggiunge croccantezza e una nota fresca ed erbacea. Gli spaghetti sono scivolosi e leggeri, e il sapore è insieme aspro, salato e piccante. Si serve a temperatura ambiente come antipasto o pasto leggero.",
-      "history": "Yum è la parola thailandese per una famiglia di insalate condite con lime, salsa di pesce e peperoncino, e woon sen sono gli spaghetti di soia, arrivati in Thailandia dalla cucina cinese. Lo yum woon sen è un piatto quotidiano molto diffuso nelle bancarelle di strada e nei ristoranti thailandesi.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "100 g di spaghetti di soia secchi",
-          "150 g di gamberi sgusciati",
-          "100 g di carne di maiale macinata",
-          "2 coste di sedano o sedano cinese, affettate",
-          "2–3 peperoncini freschi, tritati",
-          "Succo di 2 lime",
-          "2 cucchiai di salsa di pesce e 1 cucchiaino di zucchero",
-          "Coriandolo fresco"
-        ],
-        "steps": [
-          "Metti a bagno gli spaghetti in acqua tiepida per 10 minuti, poi cuocili in acqua bollente per 1–2 minuti e scolali.",
-          "Scotta il maiale in poca acqua per 3 minuti, sgranandolo, poi aggiungi i gamberi e cuoci altri 2 minuti; scola.",
-          "Mescola succo di lime, salsa di pesce, zucchero e peperoncino per il condimento.",
-          "Condisci gli spaghetti tiepidi, il maiale, i gamberi e il sedano con il condimento e il coriandolo, e servi."
-        ]
-      },
-      "tips": [
-        "Usa più gamberi e meno maiale per un'insalata più magra.",
-        "Aggiungi altro sedano o altre verdure croccanti per riempire il piatto.",
-        "Pesa gli spaghetti secchi: 50 g a persona è una porzione ragionevole."
-      ]
-    },
-    "el": {
-      "name": "Γιαμ γουν σεν (ταϊλανδέζικη σαλάτα με γυάλινα νουντλς)",
-      "origin": "Ταϊλάνδη",
-      "intro": "Το γιαμ γουν σεν είναι ταϊλανδέζικη σαλάτα με γυάλινα νουντλς ανακατεμένα ζεστά με ποσέ γαρίδες και χοιρινό κιμά σε ένα έντονο ντρέσινγκ από χυμό λάιμ, σάλτσα ψαριού και φρέσκο τσίλι. Το κινέζικο σέλινο προσθέτει τραγανότητα και μια φρέσκια, αρωματική νότα. Τα νουντλς είναι γλιστερά και ελαφριά, και η γεύση είναι ταυτόχρονα ξινή, αλμυρή και πικάντικη. Σερβίρεται σε θερμοκρασία δωματίου ως ορεκτικό ή ελαφρύ γεύμα.",
-      "history": "Γιαμ είναι η ταϊλανδέζικη λέξη για μια οικογένεια ανακατεμένων σαλατών με ντρέσινγκ από λάιμ, σάλτσα ψαριού και τσίλι, και γουν σεν είναι τα γυάλινα νουντλς, που έφτασαν στην Ταϊλάνδη από την κινέζικη κουζίνα. Το γιαμ γουν σεν είναι δημοφιλές καθημερινό πιάτο στους πάγκους του δρόμου και στα εστιατόρια της Ταϊλάνδης.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "100 γρ. ξερά γυάλινα νουντλς",
-          "150 γρ. καθαρισμένες γαρίδες",
-          "100 γρ. χοιρινός κιμάς",
-          "2 κοτσάνια σέλινο ή κινέζικο σέλινο, σε φέτες",
-          "2–3 φρέσκα τσίλι, ψιλοκομμένα",
-          "Χυμός από 2 λάιμ",
-          "2 κ.σ. σάλτσα ψαριού και 1 κ.γ. ζάχαρη",
-          "Φρέσκος κόλιανδρος"
-        ],
-        "steps": [
-          "Μουλιάστε τα νουντλς σε χλιαρό νερό για 10 λεπτά, βράστε τα σε νερό που βράζει για 1–2 λεπτά και στραγγίστε.",
-          "Βράστε τον κιμά σε λίγο νερό για 3 λεπτά, διαλύοντάς τον, προσθέστε τις γαρίδες και μαγειρέψτε 2 λεπτά ακόμη· στραγγίστε.",
-          "Ανακατέψτε χυμό λάιμ, σάλτσα ψαριού, ζάχαρη και τσίλι για το ντρέσινγκ.",
-          "Ανακατέψτε τα ζεστά νουντλς, τον κιμά, τις γαρίδες και το σέλινο με το ντρέσινγκ και τον κόλιανδρο και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Βάλτε περισσότερες γαρίδες και λιγότερο χοιρινό για πιο άπαχη σαλάτα.",
-        "Προσθέστε επιπλέον σέλινο ή άλλα τραγανά λαχανικά για να γεμίσει το πιάτο.",
-        "Ζυγίστε τα ξερά νουντλς — 50 γρ. ανά άτομο είναι μια λογική μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Ям вунсен (тайский салат из стеклянной лапши)",
-      "origin": "Таиланд",
-      "intro": "Ям вунсен — тайский салат из стеклянной лапши, смешанной тёплой с отварными креветками и свиным фаршем в острой заправке из лаймового сока, рыбного соуса и свежего перца чили. Китайский сельдерей добавляет хруст и свежую травяную ноту. Лапша скользкая и лёгкая, а вкус одновременно кислый, солёный и острый. Подаётся при комнатной температуре как закуска или лёгкая трапеза.",
-      "history": "Ям — тайское слово для семейства смешанных салатов с заправкой из лайма, рыбного соуса и перца чили, а вунсен — стеклянная лапша, пришедшая в Таиланд из китайской кухни. Ям вунсен — популярное повседневное блюдо на тайских уличных лотках и в ресторанах.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "100 г сухой стеклянной лапши",
-          "150 г очищенных креветок",
-          "100 г свиного фарша",
-          "2 стебля сельдерея или китайского сельдерея, нарезанных",
-          "2–3 свежих перца чили, нарубленных",
-          "Сок 2 лаймов",
-          "2 ст. л. рыбного соуса и 1 ч. л. сахара",
-          "Свежая кинза"
-        ],
-        "steps": [
-          "Замочите лапшу в тёплой воде на 10 минут, затем варите в кипящей воде 1–2 минуты и слейте воду.",
-          "Отварите свинину в небольшом количестве воды 3 минуты, разбивая её, затем добавьте креветки и варите ещё 2 минуты; слейте воду.",
-          "Смешайте лаймовый сок, рыбный соус, сахар и перец чили для заправки.",
-          "Перемешайте тёплую лапшу, свинину, креветки и сельдерей с заправкой и кинзой и подавайте."
-        ]
-      },
-      "tips": [
-        "Используйте больше креветок и меньше свинины для более постного салата.",
-        "Добавьте больше сельдерея или других хрустящих овощей, чтобы увеличить объём тарелки.",
-        "Отмеряйте сухую лапшу — 50 г на человека — разумная порция."
-      ],
-      "name_inline": "ям вунсен"
-    }
+  "ar": {
+   "name": "يام وون سين (سلطة الشعيرية الزجاجية التايلاندية)",
+   "origin": "تايلاند",
+   "intro": "يام وون سين سلطة تايلاندية من الشعيرية الزجاجية تُقلب دافئة مع الروبيان المسلوق ولحم الخنزير المفروم في تتبيلة حادة من عصير الليمون الأخضر وصلصة السمك والفلفل الحار الطازج. ويضيف الكرفس قرمشة ونكهة عشبية منعشة. الشعيرية ناعمة خفيفة، والطعم حامض ومالح وحار معًا. تُقدَّم بدرجة حرارة الغرفة كمقبلات أو وجبة خفيفة.",
+   "history": "«يام» كلمة تايلاندية تطلق على عائلة من السلطات المقلبة بتتبيلة الليمون الأخضر وصلصة السمك والفلفل الحار، و«وون سين» هي الشعيرية الزجاجية التي وصلت إلى تايلاند من المطبخ الصيني. ويام وون سين طبق يومي شائع في أكشاك الشوارع والمطاعم التايلاندية.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "100 غ شعيرية زجاجية جافة",
+     "150 غ روبيان مقشر",
+     "100 غ لحم خنزير مفروم",
+     "2 عود كرفس أو كرفس صيني مقطع",
+     "2–3 حبات فلفل حار طازج مفرومة",
+     "عصير 2 ليمونة خضراء",
+     "2 ملعقة كبيرة صلصة سمك و1 ملعقة صغيرة سكر",
+     "كزبرة طازجة"
+    ],
+    "steps": [
+     "انقع الشعيرية في ماء دافئ 10 دقائق، ثم اسلقها في ماء مغلي 1–2 دقيقة وصفّها.",
+     "اسلق اللحم في قليل من الماء 3 دقائق مع تفكيكه، ثم أضف الروبيان واطهه دقيقتين أخريين وصفّه.",
+     "اخلط عصير الليمون وصلصة السمك والسكر والفلفل الحار للتتبيلة.",
+     "قلّب الشعيرية الدافئة واللحم والروبيان والكرفس مع التتبيلة والكزبرة، وقدّمها."
+    ]
+   },
+   "tips": [
+    "زد الروبيان وقلل لحم الخنزير لسلطة أخف.",
+    "أضف مزيدًا من الكرفس أو خضارًا مقرمشة أخرى لزيادة حجم الطبق.",
+    "قِس الشعيرية الجافة، فـ50 غ للشخص حصة معقولة."
+   ]
+  },
+  "it": {
+   "name": "Yum woon sen (insalata thailandese di spaghetti di soia)",
+   "origin": "Thailandia",
+   "intro": "Lo yum woon sen è un'insalata thailandese di spaghetti di soia (glass noodles) conditi ancora tiepidi con gamberi e carne di maiale macinata scottati, in un condimento deciso di succo di lime, salsa di pesce e peperoncino fresco. Il sedano cinese aggiunge croccantezza e una nota fresca ed erbacea. Gli spaghetti sono scivolosi e leggeri, e il sapore è insieme aspro, salato e piccante. Si serve a temperatura ambiente come antipasto o pasto leggero.",
+   "history": "Yum è la parola thailandese per una famiglia di insalate condite con lime, salsa di pesce e peperoncino, e woon sen sono gli spaghetti di soia, arrivati in Thailandia dalla cucina cinese. Lo yum woon sen è un piatto quotidiano molto diffuso nelle bancarelle di strada e nei ristoranti thailandesi.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "100 g di spaghetti di soia secchi",
+     "150 g di gamberi sgusciati",
+     "100 g di carne di maiale macinata",
+     "2 coste di sedano o sedano cinese, affettate",
+     "2–3 peperoncini freschi, tritati",
+     "Succo di 2 lime",
+     "2 cucchiai di salsa di pesce e 1 cucchiaino di zucchero",
+     "Coriandolo fresco"
+    ],
+    "steps": [
+     "Metti a bagno gli spaghetti in acqua tiepida per 10 minuti, poi cuocili in acqua bollente per 1–2 minuti e scolali.",
+     "Scotta il maiale in poca acqua per 3 minuti, sgranandolo, poi aggiungi i gamberi e cuoci altri 2 minuti; scola.",
+     "Mescola succo di lime, salsa di pesce, zucchero e peperoncino per il condimento.",
+     "Condisci gli spaghetti tiepidi, il maiale, i gamberi e il sedano con il condimento e il coriandolo, e servi."
+    ]
+   },
+   "tips": [
+    "Usa più gamberi e meno maiale per un'insalata più magra.",
+    "Aggiungi altro sedano o altre verdure croccanti per riempire il piatto.",
+    "Pesa gli spaghetti secchi: 50 g a persona è una porzione ragionevole."
+   ]
+  },
+  "el": {
+   "name": "Γιαμ γουν σεν (ταϊλανδέζικη σαλάτα με γυάλινα νουντλς)",
+   "origin": "Ταϊλάνδη",
+   "intro": "Το γιαμ γουν σεν είναι ταϊλανδέζικη σαλάτα με γυάλινα νουντλς ανακατεμένα ζεστά με ποσέ γαρίδες και χοιρινό κιμά σε ένα έντονο ντρέσινγκ από χυμό λάιμ, σάλτσα ψαριού και φρέσκο τσίλι. Το κινέζικο σέλινο προσθέτει τραγανότητα και μια φρέσκια, αρωματική νότα. Τα νουντλς είναι γλιστερά και ελαφριά, και η γεύση είναι ταυτόχρονα ξινή, αλμυρή και πικάντικη. Σερβίρεται σε θερμοκρασία δωματίου ως ορεκτικό ή ελαφρύ γεύμα.",
+   "history": "Γιαμ είναι η ταϊλανδέζικη λέξη για μια οικογένεια ανακατεμένων σαλατών με ντρέσινγκ από λάιμ, σάλτσα ψαριού και τσίλι, και γουν σεν είναι τα γυάλινα νουντλς, που έφτασαν στην Ταϊλάνδη από την κινέζικη κουζίνα. Το γιαμ γουν σεν είναι δημοφιλές καθημερινό πιάτο στους πάγκους του δρόμου και στα εστιατόρια της Ταϊλάνδης.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "100 γρ. ξερά γυάλινα νουντλς",
+     "150 γρ. καθαρισμένες γαρίδες",
+     "100 γρ. χοιρινός κιμάς",
+     "2 κοτσάνια σέλινο ή κινέζικο σέλινο, σε φέτες",
+     "2–3 φρέσκα τσίλι, ψιλοκομμένα",
+     "Χυμός από 2 λάιμ",
+     "2 κ.σ. σάλτσα ψαριού και 1 κ.γ. ζάχαρη",
+     "Φρέσκος κόλιανδρος"
+    ],
+    "steps": [
+     "Μουλιάστε τα νουντλς σε χλιαρό νερό για 10 λεπτά, βράστε τα σε νερό που βράζει για 1–2 λεπτά και στραγγίστε.",
+     "Βράστε τον κιμά σε λίγο νερό για 3 λεπτά, διαλύοντάς τον, προσθέστε τις γαρίδες και μαγειρέψτε 2 λεπτά ακόμη· στραγγίστε.",
+     "Ανακατέψτε χυμό λάιμ, σάλτσα ψαριού, ζάχαρη και τσίλι για το ντρέσινγκ.",
+     "Ανακατέψτε τα ζεστά νουντλς, τον κιμά, τις γαρίδες και το σέλινο με το ντρέσινγκ και τον κόλιανδρο και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Βάλτε περισσότερες γαρίδες και λιγότερο χοιρινό για πιο άπαχη σαλάτα.",
+    "Προσθέστε επιπλέον σέλινο ή άλλα τραγανά λαχανικά για να γεμίσει το πιάτο.",
+    "Ζυγίστε τα ξερά νουντλς — 50 γρ. ανά άτομο είναι μια λογική μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Ям вунсен (тайский салат из стеклянной лапши)",
+   "origin": "Таиланд",
+   "intro": "Ям вунсен — тайский салат из стеклянной лапши, смешанной тёплой с отварными креветками и свиным фаршем в острой заправке из лаймового сока, рыбного соуса и свежего перца чили. Китайский сельдерей добавляет хруст и свежую травяную ноту. Лапша скользкая и лёгкая, а вкус одновременно кислый, солёный и острый. Подаётся при комнатной температуре как закуска или лёгкая трапеза.",
+   "history": "Ям — тайское слово для семейства смешанных салатов с заправкой из лайма, рыбного соуса и перца чили, а вунсен — стеклянная лапша, пришедшая в Таиланд из китайской кухни. Ям вунсен — популярное повседневное блюдо на тайских уличных лотках и в ресторанах.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "100 г сухой стеклянной лапши",
+     "150 г очищенных креветок",
+     "100 г свиного фарша",
+     "2 стебля сельдерея или китайского сельдерея, нарезанных",
+     "2–3 свежих перца чили, нарубленных",
+     "Сок 2 лаймов",
+     "2 ст. л. рыбного соуса и 1 ч. л. сахара",
+     "Свежая кинза"
+    ],
+    "steps": [
+     "Замочите лапшу в тёплой воде на 10 минут, затем варите в кипящей воде 1–2 минуты и слейте воду.",
+     "Отварите свинину в небольшом количестве воды 3 минуты, разбивая её, затем добавьте креветки и варите ещё 2 минуты; слейте воду.",
+     "Смешайте лаймовый сок, рыбный соус, сахар и перец чили для заправки.",
+     "Перемешайте тёплую лапшу, свинину, креветки и сельдерей с заправкой и кинзой и подавайте."
+    ]
+   },
+   "tips": [
+    "Используйте больше креветок и меньше свинины для более постного салата.",
+    "Добавьте больше сельдерея или других хрустящих овощей, чтобы увеличить объём тарелки.",
+    "Отмеряйте сухую лапшу — 50 г на человека — разумная порция."
+   ],
+   "name_inline": "ям вунсен"
+  },
+  "es": {
+   "name": "Yum woon sen (ensalada tailandesa de fideos transparentes)",
+   "origin": "Tailandia",
+   "intro": "El yum woon sen es una ensalada tailandesa de fideos transparentes mezclados todavía tibios con camarones escalfados y carne molida de cerdo, en un aderezo picante de jugo de limón, salsa de pescado y chile fresco. El apio chino aporta frescura y un toque herbal. Los fideos son resbalosos y ligeros, y el sabor es ácido, salado y picante a la vez. Se sirve a temperatura ambiente como entrada o comida ligera.",
+   "history": "Yum es la palabra tailandesa para una familia de ensaladas aderezadas con limón, salsa de pescado y chile, y woon sen son los fideos transparentes, que llegaron a Tailandia desde la cocina china. El yum woon sen es un plato cotidiano muy popular en los puestos callejeros y restaurantes tailandeses.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "100 g de fideos transparentes, secos",
+     "150 g de camarones pelados",
+     "100 g de carne molida de cerdo",
+     "2 tallos de apio o de apio chino, en rodajas",
+     "2 o 3 chiles frescos, picados",
+     "Jugo de 2 limones",
+     "2 cdas. de salsa de pescado y 1 cdta. de azúcar",
+     "Cilantro fresco"
+    ],
+    "steps": [
+     "Remoja los fideos en agua tibia 10 minutos, cuécelos en agua hirviendo de 1 a 2 minutos y escúrrelos.",
+     "Cuece el cerdo en un poco de agua 3 minutos, deshaciéndolo; añade los camarones y cocina 2 minutos más; escurre.",
+     "Mezcla el jugo de limón, la salsa de pescado, el azúcar y el chile para el aderezo.",
+     "Mezcla los fideos tibios, el cerdo, los camarones y el apio con el aderezo y el cilantro, y sirve."
+    ]
+   },
+   "tips": [
+    "Usa más camarones y menos cerdo para una ensalada más magra.",
+    "Añade más apio u otras verduras crujientes para llenar el plato.",
+    "Mide los fideos secos: 50 g por persona es una porción razonable."
+   ],
+   "name_inline": "el yum woon sen"
   }
+ }
 }

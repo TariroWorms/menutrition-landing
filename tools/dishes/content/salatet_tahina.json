@@ -1,162 +1,192 @@
 {
-  "db_key": "salatet_tahina",
-  "slug": "salatet-tahina",
-  "emoji": "🥣",
-  "portion_g": 60,
-  "country": "EG",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "salatet_tahina",
+ "slug": "salatet-tahina",
+ "emoji": "🥣",
+ "portion_g": 60,
+ "country": "EG",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tahini salad (salatet tahina)",
+   "origin": "Egypt",
+   "intro": "Salatet tahina is the Egyptian tahini sauce served with grills: sesame paste whisked with lemon juice, garlic, cumin and a spoon of yogurt until smooth and pourable, then finished with chopped parsley. It is nutty, tangy and garlicky with a thin, creamy texture. It is eaten with bread, kofta, grilled chicken and falafel.",
+   "history": "Tahini-based sauces have long been part of Egyptian and Levantine cooking; in Egypt salatet tahina is a standard side served with grills and street food.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "100 g tahini",
+     "Juice of 1 lemon",
+     "1 garlic clove, crushed",
+     "1/2 tsp ground cumin",
+     "2 tbsp plain yogurt",
+     "60–80 ml cold water",
+     "2 tbsp chopped parsley, salt"
+    ],
+    "steps": [
+     "Whisk the tahini with lemon juice, garlic and cumin; it will thicken at first.",
+     "Add the water a little at a time, whisking, until smooth and pourable.",
+     "Stir in the yogurt and salt, then the parsley, and serve."
+    ]
+   },
+   "tips": [
+    "Tahini is dense in calories, so serve 2–3 tbsp as a dip rather than a full bowl.",
+    "Thin it with more water and lemon so the same amount covers more food.",
+    "Use it instead of a creamier dressing on salads and grilled vegetables."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tahini salad (salatet tahina)",
-      "origin": "Egypt",
-      "intro": "Salatet tahina is the Egyptian tahini sauce served with grills: sesame paste whisked with lemon juice, garlic, cumin and a spoon of yogurt until smooth and pourable, then finished with chopped parsley. It is nutty, tangy and garlicky with a thin, creamy texture. It is eaten with bread, kofta, grilled chicken and falafel.",
-      "history": "Tahini-based sauces have long been part of Egyptian and Levantine cooking; in Egypt salatet tahina is a standard side served with grills and street food.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "100 g tahini",
-          "Juice of 1 lemon",
-          "1 garlic clove, crushed",
-          "1/2 tsp ground cumin",
-          "2 tbsp plain yogurt",
-          "60–80 ml cold water",
-          "2 tbsp chopped parsley, salt"
-        ],
-        "steps": [
-          "Whisk the tahini with lemon juice, garlic and cumin; it will thicken at first.",
-          "Add the water a little at a time, whisking, until smooth and pourable.",
-          "Stir in the yogurt and salt, then the parsley, and serve."
-        ]
-      },
-      "tips": [
-        "Tahini is dense in calories, so serve 2–3 tbsp as a dip rather than a full bowl.",
-        "Thin it with more water and lemon so the same amount covers more food.",
-        "Use it instead of a creamier dressing on salads and grilled vegetables."
-      ]
-    },
-    "ar": {
-      "name": "سلطة طحينة",
-      "origin": "مصر",
-      "intro": "سلطة الطحينة هي صلصة الطحينة المصرية التي تُقدَّم مع المشاوي: طحينة السمسم تُخفق مع عصير الليمون والثوم والكمون وملعقة لبن حتى تصبح ناعمة سائلة، ثم يُضاف البقدونس المفروم. طعمها جوزي حامض بنكهة الثوم وقوامها كريمي خفيف. تؤكل مع الخبز والكفتة والدجاج المشوي والطعمية.",
-      "history": "الصلصات القائمة على الطحينة جزء قديم من المطبخين المصري والشامي، وفي مصر تُعدّ سلطة الطحينة طبقاً جانبياً أساسياً مع المشاوي وأكلات الشارع.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "100 غ طحينة",
-          "عصير ليمونة واحدة",
-          "1 فص ثوم مهروس",
-          "نصف ملعقة صغيرة كمون مطحون",
-          "2 ملعقة كبيرة لبن زبادي",
-          "60–80 مل ماء بارد",
-          "2 ملعقة كبيرة بقدونس مفروم، ملح"
-        ],
-        "steps": [
-          "اخفق الطحينة مع الليمون والثوم والكمون؛ ستتكثف في البداية.",
-          "أضف الماء تدريجياً مع الخفق حتى تصبح ناعمة سائلة.",
-          "أضف اللبن والملح ثم البقدونس وقدّمها."
-        ]
-      },
-      "tips": [
-        "الطحينة غنية بالسعرات، فقدّم 2–3 ملاعق كبيرة للغمس بدل طبق كامل.",
-        "خفّفها بمزيد من الماء والليمون لتكفي الكمية نفسها طعاماً أكثر.",
-        "استخدمها بدل الصلصات الأدسم على السلطات والخضار المشوية."
-      ]
-    },
-    "it": {
-      "name": "Insalata di tahina (salatet tahina)",
-      "name_inline": "salatet tahina",
-      "origin": "Egitto",
-      "intro": "La salatet tahina è la salsa egiziana di tahina servita con le grigliate: pasta di sesamo sbattuta con succo di limone, aglio, cumino e un cucchiaio di yogurt finché diventa liscia e fluida, poi completata con prezzemolo tritato. Ha un sapore che ricorda la frutta secca, acidulo e agliato, con una consistenza cremosa e leggera. Si mangia con pane, kofta, pollo alla griglia e falafel.",
-      "history": "Le salse a base di tahina fanno parte da tempo della cucina egiziana e levantina; in Egitto la salatet tahina è un contorno standard servito con grigliate e cibo di strada.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "100 g di tahina",
-          "Succo di 1 limone",
-          "1 spicchio d'aglio, schiacciato",
-          "1/2 cucchiaino di cumino in polvere",
-          "2 cucchiai di yogurt bianco",
-          "60–80 ml di acqua fredda",
-          "2 cucchiai di prezzemolo tritato, sale"
-        ],
-        "steps": [
-          "Sbatti la tahina con succo di limone, aglio e cumino; all'inizio si addenserà.",
-          "Aggiungi l'acqua poco alla volta, continuando a sbattere, finché diventa liscia e fluida.",
-          "Incorpora lo yogurt e il sale, poi il prezzemolo, e servi."
-        ]
-      },
-      "tips": [
-        "La tahina è molto calorica, quindi servine 2–3 cucchiai come salsa anziché una ciotola intera.",
-        "Allungala con più acqua e limone, così la stessa quantità condisce più cibo.",
-        "Usala al posto di un condimento più cremoso su insalate e verdure grigliate."
-      ]
-    },
-    "el": {
-      "name": "Σαλάτα ταχίνι (salatet tahina)",
-      "name_inline": "σαλάτα ταχίνι",
-      "origin": "Αίγυπτος",
-      "intro": "Η salatet tahina είναι η αιγυπτιακή σάλτσα ταχινιού που σερβίρεται με τα ψητά: πάστα σουσαμιού χτυπημένη με χυμό λεμονιού, σκόρδο, κύμινο και μια κουταλιά γιαούρτι μέχρι να γίνει λεία και ρευστή, με ψιλοκομμένο μαϊντανό στο τέλος. Έχει γεύση ξηρών καρπών, ξινή και σκορδάτη, με λεπτόρρευστη, κρεμώδη υφή. Τρώγεται με ψωμί, κεφτέ κόφτα, ψητό κοτόπουλο και φαλάφελ.",
-      "history": "Οι σάλτσες με βάση το ταχίνι είναι από παλιά μέρος της αιγυπτιακής κουζίνας και της κουζίνας του Λεβάντε· στην Αίγυπτο η salatet tahina είναι βασικό συνοδευτικό στα ψητά και στο φαγητό του δρόμου.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "100 γρ. ταχίνι",
-          "Χυμός από 1 λεμόνι",
-          "1 σκελίδα σκόρδο, λιωμένη",
-          "1/2 κ.γ. κύμινο σε σκόνη",
-          "2 κ.σ. γιαούρτι σκέτο",
-          "60–80 ml κρύο νερό",
-          "2 κ.σ. ψιλοκομμένος μαϊντανός, αλάτι"
-        ],
-        "steps": [
-          "Χτυπήστε το ταχίνι με τον χυμό λεμονιού, το σκόρδο και το κύμινο· στην αρχή θα πήξει.",
-          "Προσθέστε το νερό λίγο λίγο, χτυπώντας, μέχρι να γίνει λείο και ρευστό.",
-          "Ανακατέψτε το γιαούρτι και το αλάτι, μετά τον μαϊντανό, και σερβίρετε."
-        ]
-      },
-      "tips": [
-        "Το ταχίνι έχει πολλές θερμίδες, οπότε σερβίρετε 2–3 κ.σ. για βούτηγμα αντί για γεμάτο μπολ.",
-        "Αραιώστε το με περισσότερο νερό και λεμόνι, ώστε η ίδια ποσότητα να καλύπτει περισσότερο φαγητό.",
-        "Χρησιμοποιήστε το αντί για πιο κρεμώδη σάλτσα σε σαλάτες και ψητά λαχανικά."
-      ]
-    },
-    "ru": {
-      "name": "Салат тахина (салатет тахина)",
-      "origin": "Египет",
-      "intro": "Салатет тахина — египетский соус из тахини, который подают к блюдам-гриль: кунжутная паста, взбитая с лимонным соком, чесноком, зирой и ложкой йогурта до гладкости и текучести, затем посыпанная рубленой петрушкой. Он ореховый, кисловатый и чесночный, с жидкой кремовой текстурой. Его едят с хлебом, кофтой, курицей-гриль и фалафелем.",
-      "history": "Соусы на основе тахини издавна входят в египетскую и левантийскую кухню; в Египте салатет тахина — стандартный гарнир к блюдам-гриль и уличной еде.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 10,
-        "ingredients": [
-          "100 г тахини",
-          "Сок 1 лимона",
-          "1 зубчик чеснока, раздавленный",
-          "1/2 ч. л. молотой зиры",
-          "2 ст. л. натурального йогурта",
-          "60–80 мл холодной воды",
-          "2 ст. л. рубленой петрушки, соль"
-        ],
-        "steps": [
-          "Взбейте тахини с лимонным соком, чесноком и зирой; сначала масса загустеет.",
-          "Добавляйте воду понемногу, взбивая, до гладкости и текучести.",
-          "Вмешайте йогурт и соль, затем петрушку и подавайте."
-        ]
-      },
-      "tips": [
-        "Тахини очень калориен, поэтому подавайте 2–3 ст. л. как соус для макания, а не полную миску.",
-        "Разбавьте его большим количеством воды и лимона, чтобы то же количество покрывало больше еды.",
-        "Используйте его вместо более жирной заправки для салатов и овощей-гриль."
-      ],
-      "name_inline": "салатет тахина"
-    }
+  "ar": {
+   "name": "سلطة طحينة",
+   "origin": "مصر",
+   "intro": "سلطة الطحينة هي صلصة الطحينة المصرية التي تُقدَّم مع المشاوي: طحينة السمسم تُخفق مع عصير الليمون والثوم والكمون وملعقة لبن حتى تصبح ناعمة سائلة، ثم يُضاف البقدونس المفروم. طعمها جوزي حامض بنكهة الثوم وقوامها كريمي خفيف. تؤكل مع الخبز والكفتة والدجاج المشوي والطعمية.",
+   "history": "الصلصات القائمة على الطحينة جزء قديم من المطبخين المصري والشامي، وفي مصر تُعدّ سلطة الطحينة طبقاً جانبياً أساسياً مع المشاوي وأكلات الشارع.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "100 غ طحينة",
+     "عصير ليمونة واحدة",
+     "1 فص ثوم مهروس",
+     "نصف ملعقة صغيرة كمون مطحون",
+     "2 ملعقة كبيرة لبن زبادي",
+     "60–80 مل ماء بارد",
+     "2 ملعقة كبيرة بقدونس مفروم، ملح"
+    ],
+    "steps": [
+     "اخفق الطحينة مع الليمون والثوم والكمون؛ ستتكثف في البداية.",
+     "أضف الماء تدريجياً مع الخفق حتى تصبح ناعمة سائلة.",
+     "أضف اللبن والملح ثم البقدونس وقدّمها."
+    ]
+   },
+   "tips": [
+    "الطحينة غنية بالسعرات، فقدّم 2–3 ملاعق كبيرة للغمس بدل طبق كامل.",
+    "خفّفها بمزيد من الماء والليمون لتكفي الكمية نفسها طعاماً أكثر.",
+    "استخدمها بدل الصلصات الأدسم على السلطات والخضار المشوية."
+   ]
+  },
+  "it": {
+   "name": "Insalata di tahina (salatet tahina)",
+   "name_inline": "salatet tahina",
+   "origin": "Egitto",
+   "intro": "La salatet tahina è la salsa egiziana di tahina servita con le grigliate: pasta di sesamo sbattuta con succo di limone, aglio, cumino e un cucchiaio di yogurt finché diventa liscia e fluida, poi completata con prezzemolo tritato. Ha un sapore che ricorda la frutta secca, acidulo e agliato, con una consistenza cremosa e leggera. Si mangia con pane, kofta, pollo alla griglia e falafel.",
+   "history": "Le salse a base di tahina fanno parte da tempo della cucina egiziana e levantina; in Egitto la salatet tahina è un contorno standard servito con grigliate e cibo di strada.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "100 g di tahina",
+     "Succo di 1 limone",
+     "1 spicchio d'aglio, schiacciato",
+     "1/2 cucchiaino di cumino in polvere",
+     "2 cucchiai di yogurt bianco",
+     "60–80 ml di acqua fredda",
+     "2 cucchiai di prezzemolo tritato, sale"
+    ],
+    "steps": [
+     "Sbatti la tahina con succo di limone, aglio e cumino; all'inizio si addenserà.",
+     "Aggiungi l'acqua poco alla volta, continuando a sbattere, finché diventa liscia e fluida.",
+     "Incorpora lo yogurt e il sale, poi il prezzemolo, e servi."
+    ]
+   },
+   "tips": [
+    "La tahina è molto calorica, quindi servine 2–3 cucchiai come salsa anziché una ciotola intera.",
+    "Allungala con più acqua e limone, così la stessa quantità condisce più cibo.",
+    "Usala al posto di un condimento più cremoso su insalate e verdure grigliate."
+   ]
+  },
+  "el": {
+   "name": "Σαλάτα ταχίνι (salatet tahina)",
+   "name_inline": "σαλάτα ταχίνι",
+   "origin": "Αίγυπτος",
+   "intro": "Η salatet tahina είναι η αιγυπτιακή σάλτσα ταχινιού που σερβίρεται με τα ψητά: πάστα σουσαμιού χτυπημένη με χυμό λεμονιού, σκόρδο, κύμινο και μια κουταλιά γιαούρτι μέχρι να γίνει λεία και ρευστή, με ψιλοκομμένο μαϊντανό στο τέλος. Έχει γεύση ξηρών καρπών, ξινή και σκορδάτη, με λεπτόρρευστη, κρεμώδη υφή. Τρώγεται με ψωμί, κεφτέ κόφτα, ψητό κοτόπουλο και φαλάφελ.",
+   "history": "Οι σάλτσες με βάση το ταχίνι είναι από παλιά μέρος της αιγυπτιακής κουζίνας και της κουζίνας του Λεβάντε· στην Αίγυπτο η salatet tahina είναι βασικό συνοδευτικό στα ψητά και στο φαγητό του δρόμου.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "100 γρ. ταχίνι",
+     "Χυμός από 1 λεμόνι",
+     "1 σκελίδα σκόρδο, λιωμένη",
+     "1/2 κ.γ. κύμινο σε σκόνη",
+     "2 κ.σ. γιαούρτι σκέτο",
+     "60–80 ml κρύο νερό",
+     "2 κ.σ. ψιλοκομμένος μαϊντανός, αλάτι"
+    ],
+    "steps": [
+     "Χτυπήστε το ταχίνι με τον χυμό λεμονιού, το σκόρδο και το κύμινο· στην αρχή θα πήξει.",
+     "Προσθέστε το νερό λίγο λίγο, χτυπώντας, μέχρι να γίνει λείο και ρευστό.",
+     "Ανακατέψτε το γιαούρτι και το αλάτι, μετά τον μαϊντανό, και σερβίρετε."
+    ]
+   },
+   "tips": [
+    "Το ταχίνι έχει πολλές θερμίδες, οπότε σερβίρετε 2–3 κ.σ. για βούτηγμα αντί για γεμάτο μπολ.",
+    "Αραιώστε το με περισσότερο νερό και λεμόνι, ώστε η ίδια ποσότητα να καλύπτει περισσότερο φαγητό.",
+    "Χρησιμοποιήστε το αντί για πιο κρεμώδη σάλτσα σε σαλάτες και ψητά λαχανικά."
+   ]
+  },
+  "ru": {
+   "name": "Салат тахина (салатет тахина)",
+   "origin": "Египет",
+   "intro": "Салатет тахина — египетский соус из тахини, который подают к блюдам-гриль: кунжутная паста, взбитая с лимонным соком, чесноком, зирой и ложкой йогурта до гладкости и текучести, затем посыпанная рубленой петрушкой. Он ореховый, кисловатый и чесночный, с жидкой кремовой текстурой. Его едят с хлебом, кофтой, курицей-гриль и фалафелем.",
+   "history": "Соусы на основе тахини издавна входят в египетскую и левантийскую кухню; в Египте салатет тахина — стандартный гарнир к блюдам-гриль и уличной еде.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "100 г тахини",
+     "Сок 1 лимона",
+     "1 зубчик чеснока, раздавленный",
+     "1/2 ч. л. молотой зиры",
+     "2 ст. л. натурального йогурта",
+     "60–80 мл холодной воды",
+     "2 ст. л. рубленой петрушки, соль"
+    ],
+    "steps": [
+     "Взбейте тахини с лимонным соком, чесноком и зирой; сначала масса загустеет.",
+     "Добавляйте воду понемногу, взбивая, до гладкости и текучести.",
+     "Вмешайте йогурт и соль, затем петрушку и подавайте."
+    ]
+   },
+   "tips": [
+    "Тахини очень калориен, поэтому подавайте 2–3 ст. л. как соус для макания, а не полную миску.",
+    "Разбавьте его большим количеством воды и лимона, чтобы то же количество покрывало больше еды.",
+    "Используйте его вместо более жирной заправки для салатов и овощей-гриль."
+   ],
+   "name_inline": "салатет тахина"
+  },
+  "es": {
+   "name": "Ensalada de tahini (salatet tahina)",
+   "origin": "Egipto",
+   "intro": "La salatet tahina es la salsa egipcia de tahini que acompaña las carnes asadas: pasta de ajonjolí batida con jugo de limón, ajo, comino y una cucharada de yogur hasta quedar lisa y fácil de verter, y terminada con perejil picado. Sabe a nuez, es ácida y con mucho ajo, con una textura delgada y cremosa. Se come con pan, kofta, pollo asado y falafel.",
+   "history": "Las salsas a base de tahini forman parte desde hace mucho de la cocina egipcia y levantina; en Egipto, la salatet tahina es un acompañamiento habitual de las carnes asadas y de la comida callejera.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 10,
+    "ingredients": [
+     "100 g de tahini",
+     "Jugo de 1 limón",
+     "1 diente de ajo, machacado",
+     "½ cdta. de comino molido",
+     "2 cda. de yogur natural",
+     "60 a 80 ml de agua fría",
+     "2 cda. de perejil picado, sal"
+    ],
+    "steps": [
+     "Bate el tahini con el jugo de limón, el ajo y el comino; al principio se espesará.",
+     "Agrega el agua poco a poco, batiendo, hasta que quede lisa y fácil de verter.",
+     "Incorpora el yogur y la sal, luego el perejil, y sirve."
+    ]
+   },
+   "tips": [
+    "El tahini es muy calórico, así que sirve 2 o 3 cda. como dip en lugar de un tazón completo.",
+    "Aligéralo con más agua y limón para que la misma cantidad cubra más comida.",
+    "Úsalo en lugar de un aderezo más cremoso en ensaladas y verduras asadas."
+   ],
+   "name_inline": "la salatet tahina"
   }
+ }
 }

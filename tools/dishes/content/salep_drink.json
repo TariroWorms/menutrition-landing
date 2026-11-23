@@ -1,152 +1,180 @@
 {
-  "db_key": "salep_drink",
-  "slug": "salep-drink",
-  "emoji": "☕",
-  "portion_g": 250,
-  "country": "",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "salep_drink",
+ "slug": "salep-drink",
+ "emoji": "☕",
+ "portion_g": 250,
+ "country": "",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Sahlab (hot orchid milk)",
+   "origin": "Levant · Turkey",
+   "intro": "Sahlab is a hot, creamy milk drink thickened with salep, the flour of dried orchid tubers, and sweetened with sugar. It has a smooth, velvety body and a delicate floral sweetness. It is served steaming in a large cup with a generous dusting of cinnamon, and in winter it is a favourite at cafés and street stalls from Istanbul to Cairo.",
+   "history": "Drinks thickened with orchid flour have been made for centuries across the former Ottoman lands, and sahlab remains a popular winter drink in Turkey, the Levant and Egypt. Many modern versions use cornflour because real salep is scarce and costly.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml milk",
+     "2 tsp salep powder",
+     "2 tbsp sugar",
+     "1 tsp ground cinnamon"
+    ],
+    "steps": [
+     "Mix the salep powder and sugar together.",
+     "Whisk into the cold milk in a saucepan.",
+     "Heat gently, stirring all the time, until the drink thickens, about 8 minutes.",
+     "Pour into large cups and dust with cinnamon."
+    ]
+   },
+   "tips": [
+    "Use semi-skimmed milk instead of whole milk.",
+    "Sweeten lightly: 1 tsp sugar ≈ 16 kcal.",
+    "A small cup of about 150 ml is enough to feel warm and satisfied."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Sahlab (hot orchid milk)",
-      "origin": "Levant · Turkey",
-      "intro": "Sahlab is a hot, creamy milk drink thickened with salep, the flour of dried orchid tubers, and sweetened with sugar. It has a smooth, velvety body and a delicate floral sweetness. It is served steaming in a large cup with a generous dusting of cinnamon, and in winter it is a favourite at cafés and street stalls from Istanbul to Cairo.",
-      "history": "Drinks thickened with orchid flour have been made for centuries across the former Ottoman lands, and sahlab remains a popular winter drink in Turkey, the Levant and Egypt. Many modern versions use cornflour because real salep is scarce and costly.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 ml milk",
-          "2 tsp salep powder",
-          "2 tbsp sugar",
-          "1 tsp ground cinnamon"
-        ],
-        "steps": [
-          "Mix the salep powder and sugar together.",
-          "Whisk into the cold milk in a saucepan.",
-          "Heat gently, stirring all the time, until the drink thickens, about 8 minutes.",
-          "Pour into large cups and dust with cinnamon."
-        ]
-      },
-      "tips": [
-        "Use semi-skimmed milk instead of whole milk.",
-        "Sweeten lightly: 1 tsp sugar ≈ 16 kcal.",
-        "A small cup of about 150 ml is enough to feel warm and satisfied."
-      ]
-    },
-    "ar": {
-      "name": "سحلب",
-      "origin": "بلاد الشام · تركيا",
-      "intro": "السحلب مشروب حليب ساخن كريمي يُكثَّف بمسحوق درنات الأوركيد المجففة ويُحلّى بالسكر. قوامه ناعم مخملي وحلاوته رقيقة بنفحة زهرية. يُقدَّم ساخناً في كوب كبير مع رشة سخية من القرفة، وهو في الشتاء من المشروبات المفضلة في المقاهي والأكشاك من إسطنبول إلى القاهرة.",
-      "history": "تُحضَّر المشروبات المكثفة بمسحوق الأوركيد منذ قرون في الأراضي العثمانية السابقة، ولا يزال السحلب مشروباً شتوياً شائعاً في تركيا وبلاد الشام ومصر. وتعتمد كثير من النسخ الحديثة على نشا الذرة لندرة السحلب الأصلي وغلائه.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 مل حليب",
-          "2 ملعقة صغيرة مسحوق سحلب",
-          "2 ملعقة كبيرة سكر",
-          "1 ملعقة صغيرة قرفة مطحونة"
-        ],
-        "steps": [
-          "اخلط مسحوق السحلب مع السكر.",
-          "اخفقه في الحليب البارد داخل قدر.",
-          "سخّنه بهدوء مع التحريك المستمر حتى يتكثف، نحو 8 دقائق.",
-          "اسكبه في أكواب كبيرة ورشّ عليه القرفة."
-        ]
-      },
-      "tips": [
-        "استخدم حليباً نصف دسم بدل كامل الدسم.",
-        "خفّف التحلية: ملعقة صغيرة سكر ≈ 16 سعرة.",
-        "يكفي كوب صغير نحو 150 مل للشعور بالدفء والشبع."
-      ]
-    },
-    "it": {
-      "name": "Sahlab (latte caldo all'orchidea)",
-      "name_inline": "sahlab",
-      "origin": "Levante · Turchia",
-      "intro": "Il sahlab è una bevanda calda e cremosa a base di latte, addensata con il salep, la farina dei tuberi essiccati di orchidea, e addolcita con zucchero. Ha una consistenza liscia e vellutata e una delicata dolcezza floreale. Si serve fumante in una grande tazza con una generosa spolverata di cannella, e d'inverno è uno dei preferiti nei caffè e nelle bancarelle da Istanbul al Cairo.",
-      "history": "Bevande addensate con farina di orchidea si preparano da secoli in tutte le ex terre ottomane, e il sahlab resta una bevanda invernale popolare in Turchia, nel Levante e in Egitto. Molte versioni moderne usano amido di mais, perché il vero salep è raro e costoso.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 ml di latte",
-          "2 cucchiaini di polvere di salep",
-          "2 cucchiai di zucchero",
-          "1 cucchiaino di cannella in polvere"
-        ],
-        "steps": [
-          "Mescola insieme la polvere di salep e lo zucchero.",
-          "Incorporali al latte freddo in un pentolino, sbattendo con una frusta.",
-          "Scalda a fuoco dolce, mescolando continuamente, finché la bevanda si addensa, circa 8 minuti.",
-          "Versa in tazze grandi e spolvera di cannella."
-        ]
-      },
-      "tips": [
-        "Usa latte parzialmente scremato invece di latte intero.",
-        "Dolcifica poco: 1 cucchiaino di zucchero ≈ 16 kcal.",
-        "Una tazza piccola da circa 150 ml basta per sentirsi scaldati e soddisfatti."
-      ]
-    },
-    "el": {
-      "name": "Σαχλάμπ (ζεστό γάλα με σαλέπι)",
-      "name_inline": "σαχλάμπ",
-      "origin": "Λεβάντε · Τουρκία",
-      "intro": "Το σαχλάμπ είναι ζεστό, κρεμώδες ρόφημα γάλακτος που πήζει με σαλέπι, το αλεύρι από αποξηραμένους κονδύλους ορχιδέας, και γλυκαίνεται με ζάχαρη. Έχει λεία, βελούδινη υφή και διακριτική λουλουδένια γλύκα. Σερβίρεται αχνιστό σε μεγάλο φλιτζάνι με γενναίο πασπάλισμα κανέλας και τον χειμώνα είναι αγαπημένο σε καφέ και πάγκους από την Κωνσταντινούπολη ως το Κάιρο.",
-      "history": "Ροφήματα που πήζουν με αλεύρι ορχιδέας φτιάχνονται εδώ και αιώνες σε όλα τα πρώην οθωμανικά εδάφη, και το σαχλάμπ παραμένει δημοφιλές χειμωνιάτικο ρόφημα στην Τουρκία, το Λεβάντε και την Αίγυπτο. Πολλές σύγχρονες εκδοχές χρησιμοποιούν κορν φλάουρ, επειδή το γνήσιο σαλέπι είναι σπάνιο και ακριβό.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 ml γάλα",
-          "2 κ.γ. σκόνη σαλεπιού",
-          "2 κ.σ. ζάχαρη",
-          "1 κ.γ. κανέλα σε σκόνη"
-        ],
-        "steps": [
-          "Ανακατέψτε μαζί τη σκόνη σαλεπιού και τη ζάχαρη.",
-          "Ρίξτε τα στο κρύο γάλα σε κατσαρολάκι, χτυπώντας με σύρμα.",
-          "Ζεστάνετε σε χαμηλή φωτιά, ανακατεύοντας συνεχώς, μέχρι να πήξει το ρόφημα, περίπου 8 λεπτά.",
-          "Αδειάστε σε μεγάλα φλιτζάνια και πασπαλίστε με κανέλα."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε ημιαποβουτυρωμένο γάλα αντί για πλήρες.",
-        "Γλυκάνετε ελαφρά: 1 κ.γ. ζάχαρη ≈ 16 kcal.",
-        "Ένα μικρό φλιτζάνι περίπου 150 ml αρκεί για να ζεσταθείτε και να χορτάσετε."
-      ]
-    },
-    "ru": {
-      "name": "Сахлаб (горячее молоко с салепом)",
-      "origin": "Левант · Турция",
-      "intro": "Сахлаб — горячий кремовый молочный напиток, загущённый салепом (мукой из сушёных клубней орхидеи) и подслащённый сахаром. У него гладкое бархатистое тело и тонкая цветочная сладость. Его подают дымящимся в большой чашке, щедро посыпав корицей, и зимой он — любимец кафе и уличных лотков от Стамбула до Каира.",
-      "history": "Напитки, загущённые мукой орхидеи, готовят веками по всем бывшим османским землям, и сахлаб остаётся популярным зимним напитком в Турции, Леванте и Египте. Во многих современных версиях используют кукурузный крахмал, поскольку настоящий салеп редок и дорог.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 15,
-        "ingredients": [
-          "500 мл молока",
-          "2 ч. л. порошка салепа",
-          "2 ст. л. сахара",
-          "1 ч. л. молотой корицы"
-        ],
-        "steps": [
-          "Смешайте порошок салепа и сахар.",
-          "Вмешайте в холодное молоко в кастрюле.",
-          "Осторожно нагревайте, постоянно помешивая, пока напиток не загустеет, около 8 минут.",
-          "Разлейте по большим чашкам и посыпьте корицей."
-        ]
-      },
-      "tips": [
-        "Используйте молоко пониженной жирности вместо цельного.",
-        "Подслащивайте слегка: 1 ч. л. сахара ≈ 16 ккал.",
-        "Небольшой чашки около 150 мл достаточно, чтобы согреться и почувствовать сытость."
-      ],
-      "name_inline": "сахлаб"
-    }
+  "ar": {
+   "name": "سحلب",
+   "origin": "بلاد الشام · تركيا",
+   "intro": "السحلب مشروب حليب ساخن كريمي يُكثَّف بمسحوق درنات الأوركيد المجففة ويُحلّى بالسكر. قوامه ناعم مخملي وحلاوته رقيقة بنفحة زهرية. يُقدَّم ساخناً في كوب كبير مع رشة سخية من القرفة، وهو في الشتاء من المشروبات المفضلة في المقاهي والأكشاك من إسطنبول إلى القاهرة.",
+   "history": "تُحضَّر المشروبات المكثفة بمسحوق الأوركيد منذ قرون في الأراضي العثمانية السابقة، ولا يزال السحلب مشروباً شتوياً شائعاً في تركيا وبلاد الشام ومصر. وتعتمد كثير من النسخ الحديثة على نشا الذرة لندرة السحلب الأصلي وغلائه.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 مل حليب",
+     "2 ملعقة صغيرة مسحوق سحلب",
+     "2 ملعقة كبيرة سكر",
+     "1 ملعقة صغيرة قرفة مطحونة"
+    ],
+    "steps": [
+     "اخلط مسحوق السحلب مع السكر.",
+     "اخفقه في الحليب البارد داخل قدر.",
+     "سخّنه بهدوء مع التحريك المستمر حتى يتكثف، نحو 8 دقائق.",
+     "اسكبه في أكواب كبيرة ورشّ عليه القرفة."
+    ]
+   },
+   "tips": [
+    "استخدم حليباً نصف دسم بدل كامل الدسم.",
+    "خفّف التحلية: ملعقة صغيرة سكر ≈ 16 سعرة.",
+    "يكفي كوب صغير نحو 150 مل للشعور بالدفء والشبع."
+   ]
+  },
+  "it": {
+   "name": "Sahlab (latte caldo all'orchidea)",
+   "name_inline": "sahlab",
+   "origin": "Levante · Turchia",
+   "intro": "Il sahlab è una bevanda calda e cremosa a base di latte, addensata con il salep, la farina dei tuberi essiccati di orchidea, e addolcita con zucchero. Ha una consistenza liscia e vellutata e una delicata dolcezza floreale. Si serve fumante in una grande tazza con una generosa spolverata di cannella, e d'inverno è uno dei preferiti nei caffè e nelle bancarelle da Istanbul al Cairo.",
+   "history": "Bevande addensate con farina di orchidea si preparano da secoli in tutte le ex terre ottomane, e il sahlab resta una bevanda invernale popolare in Turchia, nel Levante e in Egitto. Molte versioni moderne usano amido di mais, perché il vero salep è raro e costoso.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml di latte",
+     "2 cucchiaini di polvere di salep",
+     "2 cucchiai di zucchero",
+     "1 cucchiaino di cannella in polvere"
+    ],
+    "steps": [
+     "Mescola insieme la polvere di salep e lo zucchero.",
+     "Incorporali al latte freddo in un pentolino, sbattendo con una frusta.",
+     "Scalda a fuoco dolce, mescolando continuamente, finché la bevanda si addensa, circa 8 minuti.",
+     "Versa in tazze grandi e spolvera di cannella."
+    ]
+   },
+   "tips": [
+    "Usa latte parzialmente scremato invece di latte intero.",
+    "Dolcifica poco: 1 cucchiaino di zucchero ≈ 16 kcal.",
+    "Una tazza piccola da circa 150 ml basta per sentirsi scaldati e soddisfatti."
+   ]
+  },
+  "el": {
+   "name": "Σαχλάμπ (ζεστό γάλα με σαλέπι)",
+   "name_inline": "σαχλάμπ",
+   "origin": "Λεβάντε · Τουρκία",
+   "intro": "Το σαχλάμπ είναι ζεστό, κρεμώδες ρόφημα γάλακτος που πήζει με σαλέπι, το αλεύρι από αποξηραμένους κονδύλους ορχιδέας, και γλυκαίνεται με ζάχαρη. Έχει λεία, βελούδινη υφή και διακριτική λουλουδένια γλύκα. Σερβίρεται αχνιστό σε μεγάλο φλιτζάνι με γενναίο πασπάλισμα κανέλας και τον χειμώνα είναι αγαπημένο σε καφέ και πάγκους από την Κωνσταντινούπολη ως το Κάιρο.",
+   "history": "Ροφήματα που πήζουν με αλεύρι ορχιδέας φτιάχνονται εδώ και αιώνες σε όλα τα πρώην οθωμανικά εδάφη, και το σαχλάμπ παραμένει δημοφιλές χειμωνιάτικο ρόφημα στην Τουρκία, το Λεβάντε και την Αίγυπτο. Πολλές σύγχρονες εκδοχές χρησιμοποιούν κορν φλάουρ, επειδή το γνήσιο σαλέπι είναι σπάνιο και ακριβό.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml γάλα",
+     "2 κ.γ. σκόνη σαλεπιού",
+     "2 κ.σ. ζάχαρη",
+     "1 κ.γ. κανέλα σε σκόνη"
+    ],
+    "steps": [
+     "Ανακατέψτε μαζί τη σκόνη σαλεπιού και τη ζάχαρη.",
+     "Ρίξτε τα στο κρύο γάλα σε κατσαρολάκι, χτυπώντας με σύρμα.",
+     "Ζεστάνετε σε χαμηλή φωτιά, ανακατεύοντας συνεχώς, μέχρι να πήξει το ρόφημα, περίπου 8 λεπτά.",
+     "Αδειάστε σε μεγάλα φλιτζάνια και πασπαλίστε με κανέλα."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε ημιαποβουτυρωμένο γάλα αντί για πλήρες.",
+    "Γλυκάνετε ελαφρά: 1 κ.γ. ζάχαρη ≈ 16 kcal.",
+    "Ένα μικρό φλιτζάνι περίπου 150 ml αρκεί για να ζεσταθείτε και να χορτάσετε."
+   ]
+  },
+  "ru": {
+   "name": "Сахлаб (горячее молоко с салепом)",
+   "origin": "Левант · Турция",
+   "intro": "Сахлаб — горячий кремовый молочный напиток, загущённый салепом (мукой из сушёных клубней орхидеи) и подслащённый сахаром. У него гладкое бархатистое тело и тонкая цветочная сладость. Его подают дымящимся в большой чашке, щедро посыпав корицей, и зимой он — любимец кафе и уличных лотков от Стамбула до Каира.",
+   "history": "Напитки, загущённые мукой орхидеи, готовят веками по всем бывшим османским землям, и сахлаб остаётся популярным зимним напитком в Турции, Леванте и Египте. Во многих современных версиях используют кукурузный крахмал, поскольку настоящий салеп редок и дорог.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 мл молока",
+     "2 ч. л. порошка салепа",
+     "2 ст. л. сахара",
+     "1 ч. л. молотой корицы"
+    ],
+    "steps": [
+     "Смешайте порошок салепа и сахар.",
+     "Вмешайте в холодное молоко в кастрюле.",
+     "Осторожно нагревайте, постоянно помешивая, пока напиток не загустеет, около 8 минут.",
+     "Разлейте по большим чашкам и посыпьте корицей."
+    ]
+   },
+   "tips": [
+    "Используйте молоко пониженной жирности вместо цельного.",
+    "Подслащивайте слегка: 1 ч. л. сахара ≈ 16 ккал.",
+    "Небольшой чашки около 150 мл достаточно, чтобы согреться и почувствовать сытость."
+   ],
+   "name_inline": "сахлаб"
+  },
+  "es": {
+   "name": "Sahlab (leche caliente de orquídea)",
+   "origin": "Levante · Turquía",
+   "intro": "El sahlab es una bebida caliente y cremosa de leche espesada con salep, la harina de tubérculos secos de orquídea, y endulzada con azúcar. Tiene un cuerpo suave y aterciopelado y una delicada dulzura floral. Se sirve humeante en una taza grande con abundante canela espolvoreada y, en invierno, es un favorito de cafés y puestos callejeros desde Estambul hasta El Cairo.",
+   "history": "Las bebidas espesadas con harina de orquídea se preparan desde hace siglos en las antiguas tierras otomanas, y el sahlab sigue siendo una bebida popular de invierno en Turquía, el Levante y Egipto. Muchas versiones modernas usan fécula de maíz porque el verdadero salep es escaso y caro.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 15,
+    "ingredients": [
+     "500 ml de leche",
+     "2 cdta. de salep en polvo",
+     "2 cda. de azúcar",
+     "1 cdta. de canela molida"
+    ],
+    "steps": [
+     "Mezcla el salep en polvo con el azúcar.",
+     "Incorpóralo batiendo a la leche fría en una cacerola.",
+     "Calienta a fuego suave, removiendo sin parar, hasta que la bebida espese, unos 8 minutos.",
+     "Sirve en tazas grandes y espolvorea con canela."
+    ]
+   },
+   "tips": [
+    "Usa leche semidescremada en lugar de leche entera.",
+    "Endulza ligeramente: 1 cdta. de azúcar ≈ 16 kcal.",
+    "Una taza pequeña de unos 150 ml basta para sentirse calentito y satisfecho."
+   ],
+   "name_inline": "el sahlab"
   }
+ }
 }

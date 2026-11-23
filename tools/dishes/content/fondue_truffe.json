@@ -1,175 +1,208 @@
 {
-  "db_key": "fondue_truffe",
-  "slug": "fondue-truffe",
-  "emoji": "🧀",
-  "portion_g": 200,
-  "country": "CH",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fondue_truffe",
+ "slug": "fondue-truffe",
+ "emoji": "🧀",
+ "portion_g": 200,
+ "country": "CH",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Truffle Fondue",
+   "origin": "Switzerland",
+   "intro": "Truffle fondue is a luxurious take on Swiss cheese fondue: the cheese is melted with white wine and garlic, then perfumed with grated or shaved truffle and a few drops of truffle oil. The result is creamy and rich with a deep, earthy aroma. It is served at the table from a shared pot, with potatoes and vegetables for dipping.",
+   "history": "Truffle fondue is a modern, restaurant-style variation of Swiss cheese fondue, served today in Swiss ski resorts and city restaurants, especially in winter.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g mixed Swiss cheese (e.g. Gruyère and Emmental), grated",
+     "300 ml dry white wine",
+     "1 garlic clove, halved",
+     "15 g black truffle, grated or thinly shaved",
+     "1 tsp truffle oil",
+     "1 tbsp cornstarch",
+     "Black pepper and nutmeg to taste",
+     "Boiled small potatoes and raw vegetables for dipping"
+    ],
+    "steps": [
+     "Rub the inside of a fondue pot with the cut garlic, then leave the garlic in the pot.",
+     "Prepare the truffle and keep it aside; it goes in only after the cheese has melted.",
+     "Add the wine and warm over medium heat until steaming, without boiling.",
+     "Toss the cheese with the cornstarch and add it by handfuls, stirring in a figure-eight until each addition melts.",
+     "Stir in the truffle and truffle oil, season with pepper and nutmeg, set the pot over a burner at the table and dip potatoes and vegetables on long forks."
+    ]
+   },
+   "tips": [
+    "Dip mostly vegetables such as broccoli, peppers, cherry tomatoes and mushrooms instead of loading up on potatoes.",
+    "Fondue is dense: decide on your share before you start — about 150–200 g of the melted cheese is a realistic single serving.",
+    "Truffle oil is mostly fat (1 tsp ≈ 40 kcal), so add it a few drops at a time — the fresh truffle carries most of the aroma."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Truffle Fondue",
-      "origin": "Switzerland",
-      "intro": "Truffle fondue is a luxurious take on Swiss cheese fondue: the cheese is melted with white wine and garlic, then perfumed with grated or shaved truffle and a few drops of truffle oil. The result is creamy and rich with a deep, earthy aroma. It is served at the table from a shared pot, with potatoes and vegetables for dipping.",
-      "history": "Truffle fondue is a modern, restaurant-style variation of Swiss cheese fondue, served today in Swiss ski resorts and city restaurants, especially in winter.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g mixed Swiss cheese (e.g. Gruyère and Emmental), grated",
-          "300 ml dry white wine",
-          "1 garlic clove, halved",
-          "15 g black truffle, grated or thinly shaved",
-          "1 tsp truffle oil",
-          "1 tbsp cornstarch",
-          "Black pepper and nutmeg to taste",
-          "Boiled small potatoes and raw vegetables for dipping"
-        ],
-        "steps": [
-          "Rub the inside of a fondue pot with the cut garlic, then leave the garlic in the pot.",
-          "Prepare the truffle and keep it aside; it goes in only after the cheese has melted.",
-          "Add the wine and warm over medium heat until steaming, without boiling.",
-          "Toss the cheese with the cornstarch and add it by handfuls, stirring in a figure-eight until each addition melts.",
-          "Stir in the truffle and truffle oil, season with pepper and nutmeg, set the pot over a burner at the table and dip potatoes and vegetables on long forks."
-        ]
-      },
-      "tips": [
-        "Dip mostly vegetables such as broccoli, peppers, cherry tomatoes and mushrooms instead of loading up on potatoes.",
-        "Fondue is dense: decide on your share before you start — about 150–200 g of the melted cheese is a realistic single serving.",
-        "Truffle oil is mostly fat (1 tsp ≈ 40 kcal), so add it a few drops at a time — the fresh truffle carries most of the aroma."
-      ]
-    },
-    "ar": {
-      "name": "فوندو بالكمأة",
-      "origin": "سويسرا",
-      "intro": "فوندو الكمأة نسخة فاخرة من فوندو الجبن السويسري: يُذاب الجبن مع النبيذ الأبيض والثوم، ثم يُعطَّر بالكمأة المبشورة أو الشرائح الرقيقة منها وبضع قطرات من زيت الكمأة. والنتيجة صلصة كريمية غنية برائحة ترابية عميقة. يُقدَّم على المائدة في قدر مشترك مع البطاطس والخضار للتغميس.",
-      "history": "فوندو الكمأة تنويعة حديثة على فوندو الجبن السويسري تقدمها المطاعم، وتُقدَّم اليوم في منتجعات التزلج والمطاعم السويسرية، خاصة في الشتاء.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 غ جبن سويسري مشكّل (مثل الغرويير والإيمنتال)، مبشور",
-          "300 مل نبيذ أبيض جاف",
-          "1 فص ثوم، مقسوم إلى نصفين",
-          "15 غ كمأة سوداء، مبشورة أو مقطعة شرائح رقيقة",
-          "1 ملعقة صغيرة زيت الكمأة",
-          "1 ملعقة كبيرة نشا الذرة",
-          "فلفل أسود وجوزة الطيب حسب الرغبة",
-          "بطاطس صغيرة مسلوقة وخضار نيئة للتغميس"
-        ],
-        "steps": [
-          "افرك داخل قدر الفوندو بفص الثوم المقطوع، ثم اتركه في القدر.",
-          "جهّز الكمأة واتركها جانبًا، فهي تُضاف فقط بعد ذوبان الجبن.",
-          "أضف النبيذ وسخّنه على نار متوسطة حتى يتصاعد البخار دون أن يغلي.",
-          "اخلط الجبن مع النشا وأضفه حفنة بعد حفنة مع التحريك على شكل رقم ثمانية حتى تذوب كل دفعة.",
-          "أضف الكمأة وزيتها وقلّب، ثم تبّل بالفلفل وجوزة الطيب، وضع القدر على موقد فوق المائدة، وغمّس البطاطس والخضار بالشوك الطويلة."
-        ]
-      },
-      "tips": [
-        "غمّس الخضار غالبًا، مثل البروكلي والفلفل والطماطم الكرزية والفطر، بدلًا من الإكثار من البطاطس.",
-        "الفوندو كثيف: حدّد حصتك قبل البدء — نحو 150–200 غ من الجبن المذاب حصة واقعية لشخص واحد.",
-        "زيت الكمأة دهون في معظمه (1 ملعقة صغيرة ≈ 40 سعرة حرارية)، فأضفه قطرات قليلة في كل مرة، إذ تحمل الكمأة الطازجة معظم الرائحة."
-      ]
-    },
-    "it": {
-      "name": "Fonduta al tartufo",
-      "origin": "Svizzera",
-      "intro": "La fonduta al tartufo è una versione lussuosa della fonduta svizzera di formaggio: il formaggio si scioglie con vino bianco e aglio, poi si profuma con tartufo grattugiato o a lamelle e qualche goccia di olio al tartufo. Il risultato è cremoso e ricco, con un aroma profondo e terroso. Si serve in tavola da un caquelon comune, con patate e verdure da intingere.",
-      "history": "La fonduta al tartufo è una variante moderna, in stile ristorante, della fonduta svizzera di formaggio, servita oggi nelle stazioni sciistiche e nei ristoranti cittadini svizzeri, soprattutto d'inverno.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g di formaggi svizzeri misti (ad es. Gruyère ed Emmental) grattugiati",
-          "300 ml di vino bianco secco",
-          "1 spicchio d'aglio tagliato a metà",
-          "15 g di tartufo nero grattugiato o tagliato a lamelle sottili",
-          "1 cucchiaino di olio al tartufo",
-          "1 cucchiaio di amido di mais",
-          "Pepe nero e noce moscata q.b.",
-          "Patate novelle lesse e verdure crude da intingere"
-        ],
-        "steps": [
-          "Strofina l'interno del caquelon con l'aglio tagliato, poi lascia l'aglio nel caquelon.",
-          "Prepara il tartufo e tienilo da parte: va aggiunto solo dopo che il formaggio si è sciolto.",
-          "Aggiungi il vino e scalda a fuoco medio finché non fuma, senza farlo bollire.",
-          "Mescola il formaggio con l'amido e aggiungilo a manciate, mescolando a forma di otto finché ogni aggiunta non si scioglie.",
-          "Incorpora il tartufo e l'olio al tartufo, condisci con pepe e noce moscata, metti il caquelon su un fornelletto in tavola e intingi patate e verdure con le forchette lunghe."
-        ]
-      },
-      "tips": [
-        "Intingi soprattutto verdure come broccoli, peperoni, pomodorini e funghi invece di abbondare con le patate.",
-        "La fonduta è densa: decidi la tua porzione prima di iniziare — circa 150–200 g di formaggio fuso sono una porzione singola realistica.",
-        "L'olio al tartufo è quasi tutto grasso (1 cucchiaino ≈ 40 kcal), quindi aggiungilo poche gocce alla volta: è il tartufo fresco a dare gran parte dell'aroma."
-      ]
-    },
-    "el": {
-      "name": "Φοντί με τρούφα",
-      "origin": "Ελβετία",
-      "intro": "Η φοντί με τρούφα είναι μια πολυτελής εκδοχή της ελβετικής φοντί τυριών: το τυρί λιώνει με λευκό κρασί και σκόρδο και έπειτα αρωματίζεται με τριμμένη ή λεπτοκομμένη τρούφα και λίγες σταγόνες τρουφέλαιο. Το αποτέλεσμα είναι κρεμώδες και πλούσιο, με βαθύ, γήινο άρωμα. Σερβίρεται στο τραπέζι από κοινό σκεύος, με πατάτες και λαχανικά για βούτηγμα.",
-      "history": "Η φοντί με τρούφα είναι μια σύγχρονη παραλλαγή της ελβετικής φοντί τυριών σε στιλ εστιατορίου, που σερβίρεται σήμερα σε ελβετικά χιονοδρομικά θέρετρα και εστιατόρια των πόλεων, ιδίως τον χειμώνα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 γρ. ανάμεικτα ελβετικά τυριά (π.χ. γκρυέρ και έμενταλ) τριμμένα",
-          "300 ml ξηρό λευκό κρασί",
-          "1 σκελίδα σκόρδο κομμένη στη μέση",
-          "15 γρ. μαύρη τρούφα τριμμένη ή σε λεπτές φέτες",
-          "1 κ.γ. τρουφέλαιο",
-          "1 κ.σ. κορν φλάουρ",
-          "Μαύρο πιπέρι και μοσχοκάρυδο κατά βούληση",
-          "Βραστές μικρές πατάτες και ωμά λαχανικά για βούτηγμα"
-        ],
-        "steps": [
-          "Τρίψτε το εσωτερικό του σκεύους φοντί με το κομμένο σκόρδο και αφήστε το σκόρδο μέσα.",
-          "Ετοιμάστε την τρούφα και κρατήστε τη στην άκρη· μπαίνει μόνο αφού λιώσει το τυρί.",
-          "Προσθέστε το κρασί και ζεστάνετε σε μέτρια φωτιά μέχρι να αχνίσει, χωρίς να βράσει.",
-          "Ανακατέψτε το τυρί με το κορν φλάουρ και ρίξτε το μια χούφτα τη φορά, ανακατεύοντας σε σχήμα οκτώ μέχρι να λιώσει κάθε προσθήκη.",
-          "Ενσωματώστε την τρούφα και το τρουφέλαιο, καρυκεύστε με πιπέρι και μοσχοκάρυδο, βάλτε το σκεύος σε καμινέτο στο τραπέζι και βουτήξτε πατάτες και λαχανικά με μακριά πιρούνια."
-        ]
-      },
-      "tips": [
-        "Βουτήξτε κυρίως λαχανικά όπως μπρόκολο, πιπεριές, ντοματίνια και μανιτάρια αντί να φορτώνεστε πατάτες.",
-        "Η φοντί είναι πυκνή: αποφασίστε τη μερίδα σας πριν ξεκινήσετε — περίπου 150–200 γρ. λιωμένο τυρί είναι μια ρεαλιστική ατομική μερίδα.",
-        "Το τρουφέλαιο είναι σχεδόν όλο λιπαρά (1 κ.γ. ≈ 40 kcal), οπότε προσθέστε το λίγες σταγόνες τη φορά — το μεγαλύτερο μέρος του αρώματος το δίνει η φρέσκια τρούφα."
-      ]
-    },
-    "ru": {
-      "name": "Трюфельное фондю",
-      "origin": "Швейцария",
-      "intro": "Трюфельное фондю — роскошный вариант швейцарского сырного фондю: сыр плавят с белым вином и чесноком, а затем ароматизируют тёртым или тонко нарезанным трюфелем и несколькими каплями трюфельного масла. Получается кремовое насыщенное блюдо с глубоким землистым ароматом. Его подают на столе из общего котелка, с картофелем и овощами для макания.",
-      "history": "Трюфельное фондю — современная ресторанная вариация швейцарского сырного фондю, которую сегодня подают на швейцарских горнолыжных курортах и в городских ресторанах, особенно зимой.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 г смеси швейцарских сыров (например, грюйер и эмменталь), тёртых",
-          "300 мл сухого белого вина",
-          "1 зубчик чеснока, разрезанный пополам",
-          "15 г чёрного трюфеля, тёртого или тонко нарезанного",
-          "1 ч. л. трюфельного масла",
-          "1 ст. л. кукурузного крахмала",
-          "Чёрный перец и мускатный орех по вкусу",
-          "Отварной мелкий картофель и сырые овощи для макания"
-        ],
-        "steps": [
-          "Натрите внутреннюю поверхность котелка для фондю разрезанным чесноком, затем оставьте чеснок в котелке.",
-          "Подготовьте трюфель и отложите; его добавляют только после того, как сыр растает.",
-          "Влейте вино и нагрейте на среднем огне до появления пара, не доводя до кипения.",
-          "Перемешайте сыр с крахмалом и добавляйте по горсти, помешивая восьмёрками, пока каждая порция не растает.",
-          "Вмешайте трюфель и трюфельное масло, приправьте перцем и мускатным орехом, поставьте котелок на горелку на столе и макайте картофель и овощи на длинных вилках."
-        ]
-      },
-      "tips": [
-        "Макайте в основном овощи — брокколи, перец, помидоры черри и грибы, а не налегайте на картофель.",
-        "Фондю плотное: решите заранее, сколько съедите, — около 150–200 г расплавленного сыра на одну порцию вполне реально.",
-        "Трюфельное масло — это в основном жир (1 ч. л. ≈ 40 ккал), поэтому добавляйте его по несколько капель — основную часть аромата даёт свежий трюфель."
-      ],
-      "name_inline": "трюфельное фондю"
-    }
+  "ar": {
+   "name": "فوندو بالكمأة",
+   "origin": "سويسرا",
+   "intro": "فوندو الكمأة نسخة فاخرة من فوندو الجبن السويسري: يُذاب الجبن مع النبيذ الأبيض والثوم، ثم يُعطَّر بالكمأة المبشورة أو الشرائح الرقيقة منها وبضع قطرات من زيت الكمأة. والنتيجة صلصة كريمية غنية برائحة ترابية عميقة. يُقدَّم على المائدة في قدر مشترك مع البطاطس والخضار للتغميس.",
+   "history": "فوندو الكمأة تنويعة حديثة على فوندو الجبن السويسري تقدمها المطاعم، وتُقدَّم اليوم في منتجعات التزلج والمطاعم السويسرية، خاصة في الشتاء.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 غ جبن سويسري مشكّل (مثل الغرويير والإيمنتال)، مبشور",
+     "300 مل نبيذ أبيض جاف",
+     "1 فص ثوم، مقسوم إلى نصفين",
+     "15 غ كمأة سوداء، مبشورة أو مقطعة شرائح رقيقة",
+     "1 ملعقة صغيرة زيت الكمأة",
+     "1 ملعقة كبيرة نشا الذرة",
+     "فلفل أسود وجوزة الطيب حسب الرغبة",
+     "بطاطس صغيرة مسلوقة وخضار نيئة للتغميس"
+    ],
+    "steps": [
+     "افرك داخل قدر الفوندو بفص الثوم المقطوع، ثم اتركه في القدر.",
+     "جهّز الكمأة واتركها جانبًا، فهي تُضاف فقط بعد ذوبان الجبن.",
+     "أضف النبيذ وسخّنه على نار متوسطة حتى يتصاعد البخار دون أن يغلي.",
+     "اخلط الجبن مع النشا وأضفه حفنة بعد حفنة مع التحريك على شكل رقم ثمانية حتى تذوب كل دفعة.",
+     "أضف الكمأة وزيتها وقلّب، ثم تبّل بالفلفل وجوزة الطيب، وضع القدر على موقد فوق المائدة، وغمّس البطاطس والخضار بالشوك الطويلة."
+    ]
+   },
+   "tips": [
+    "غمّس الخضار غالبًا، مثل البروكلي والفلفل والطماطم الكرزية والفطر، بدلًا من الإكثار من البطاطس.",
+    "الفوندو كثيف: حدّد حصتك قبل البدء — نحو 150–200 غ من الجبن المذاب حصة واقعية لشخص واحد.",
+    "زيت الكمأة دهون في معظمه (1 ملعقة صغيرة ≈ 40 سعرة حرارية)، فأضفه قطرات قليلة في كل مرة، إذ تحمل الكمأة الطازجة معظم الرائحة."
+   ]
+  },
+  "it": {
+   "name": "Fonduta al tartufo",
+   "origin": "Svizzera",
+   "intro": "La fonduta al tartufo è una versione lussuosa della fonduta svizzera di formaggio: il formaggio si scioglie con vino bianco e aglio, poi si profuma con tartufo grattugiato o a lamelle e qualche goccia di olio al tartufo. Il risultato è cremoso e ricco, con un aroma profondo e terroso. Si serve in tavola da un caquelon comune, con patate e verdure da intingere.",
+   "history": "La fonduta al tartufo è una variante moderna, in stile ristorante, della fonduta svizzera di formaggio, servita oggi nelle stazioni sciistiche e nei ristoranti cittadini svizzeri, soprattutto d'inverno.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g di formaggi svizzeri misti (ad es. Gruyère ed Emmental) grattugiati",
+     "300 ml di vino bianco secco",
+     "1 spicchio d'aglio tagliato a metà",
+     "15 g di tartufo nero grattugiato o tagliato a lamelle sottili",
+     "1 cucchiaino di olio al tartufo",
+     "1 cucchiaio di amido di mais",
+     "Pepe nero e noce moscata q.b.",
+     "Patate novelle lesse e verdure crude da intingere"
+    ],
+    "steps": [
+     "Strofina l'interno del caquelon con l'aglio tagliato, poi lascia l'aglio nel caquelon.",
+     "Prepara il tartufo e tienilo da parte: va aggiunto solo dopo che il formaggio si è sciolto.",
+     "Aggiungi il vino e scalda a fuoco medio finché non fuma, senza farlo bollire.",
+     "Mescola il formaggio con l'amido e aggiungilo a manciate, mescolando a forma di otto finché ogni aggiunta non si scioglie.",
+     "Incorpora il tartufo e l'olio al tartufo, condisci con pepe e noce moscata, metti il caquelon su un fornelletto in tavola e intingi patate e verdure con le forchette lunghe."
+    ]
+   },
+   "tips": [
+    "Intingi soprattutto verdure come broccoli, peperoni, pomodorini e funghi invece di abbondare con le patate.",
+    "La fonduta è densa: decidi la tua porzione prima di iniziare — circa 150–200 g di formaggio fuso sono una porzione singola realistica.",
+    "L'olio al tartufo è quasi tutto grasso (1 cucchiaino ≈ 40 kcal), quindi aggiungilo poche gocce alla volta: è il tartufo fresco a dare gran parte dell'aroma."
+   ]
+  },
+  "el": {
+   "name": "Φοντί με τρούφα",
+   "origin": "Ελβετία",
+   "intro": "Η φοντί με τρούφα είναι μια πολυτελής εκδοχή της ελβετικής φοντί τυριών: το τυρί λιώνει με λευκό κρασί και σκόρδο και έπειτα αρωματίζεται με τριμμένη ή λεπτοκομμένη τρούφα και λίγες σταγόνες τρουφέλαιο. Το αποτέλεσμα είναι κρεμώδες και πλούσιο, με βαθύ, γήινο άρωμα. Σερβίρεται στο τραπέζι από κοινό σκεύος, με πατάτες και λαχανικά για βούτηγμα.",
+   "history": "Η φοντί με τρούφα είναι μια σύγχρονη παραλλαγή της ελβετικής φοντί τυριών σε στιλ εστιατορίου, που σερβίρεται σήμερα σε ελβετικά χιονοδρομικά θέρετρα και εστιατόρια των πόλεων, ιδίως τον χειμώνα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 γρ. ανάμεικτα ελβετικά τυριά (π.χ. γκρυέρ και έμενταλ) τριμμένα",
+     "300 ml ξηρό λευκό κρασί",
+     "1 σκελίδα σκόρδο κομμένη στη μέση",
+     "15 γρ. μαύρη τρούφα τριμμένη ή σε λεπτές φέτες",
+     "1 κ.γ. τρουφέλαιο",
+     "1 κ.σ. κορν φλάουρ",
+     "Μαύρο πιπέρι και μοσχοκάρυδο κατά βούληση",
+     "Βραστές μικρές πατάτες και ωμά λαχανικά για βούτηγμα"
+    ],
+    "steps": [
+     "Τρίψτε το εσωτερικό του σκεύους φοντί με το κομμένο σκόρδο και αφήστε το σκόρδο μέσα.",
+     "Ετοιμάστε την τρούφα και κρατήστε τη στην άκρη· μπαίνει μόνο αφού λιώσει το τυρί.",
+     "Προσθέστε το κρασί και ζεστάνετε σε μέτρια φωτιά μέχρι να αχνίσει, χωρίς να βράσει.",
+     "Ανακατέψτε το τυρί με το κορν φλάουρ και ρίξτε το μια χούφτα τη φορά, ανακατεύοντας σε σχήμα οκτώ μέχρι να λιώσει κάθε προσθήκη.",
+     "Ενσωματώστε την τρούφα και το τρουφέλαιο, καρυκεύστε με πιπέρι και μοσχοκάρυδο, βάλτε το σκεύος σε καμινέτο στο τραπέζι και βουτήξτε πατάτες και λαχανικά με μακριά πιρούνια."
+    ]
+   },
+   "tips": [
+    "Βουτήξτε κυρίως λαχανικά όπως μπρόκολο, πιπεριές, ντοματίνια και μανιτάρια αντί να φορτώνεστε πατάτες.",
+    "Η φοντί είναι πυκνή: αποφασίστε τη μερίδα σας πριν ξεκινήσετε — περίπου 150–200 γρ. λιωμένο τυρί είναι μια ρεαλιστική ατομική μερίδα.",
+    "Το τρουφέλαιο είναι σχεδόν όλο λιπαρά (1 κ.γ. ≈ 40 kcal), οπότε προσθέστε το λίγες σταγόνες τη φορά — το μεγαλύτερο μέρος του αρώματος το δίνει η φρέσκια τρούφα."
+   ]
+  },
+  "ru": {
+   "name": "Трюфельное фондю",
+   "origin": "Швейцария",
+   "intro": "Трюфельное фондю — роскошный вариант швейцарского сырного фондю: сыр плавят с белым вином и чесноком, а затем ароматизируют тёртым или тонко нарезанным трюфелем и несколькими каплями трюфельного масла. Получается кремовое насыщенное блюдо с глубоким землистым ароматом. Его подают на столе из общего котелка, с картофелем и овощами для макания.",
+   "history": "Трюфельное фондю — современная ресторанная вариация швейцарского сырного фондю, которую сегодня подают на швейцарских горнолыжных курортах и в городских ресторанах, особенно зимой.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 г смеси швейцарских сыров (например, грюйер и эмменталь), тёртых",
+     "300 мл сухого белого вина",
+     "1 зубчик чеснока, разрезанный пополам",
+     "15 г чёрного трюфеля, тёртого или тонко нарезанного",
+     "1 ч. л. трюфельного масла",
+     "1 ст. л. кукурузного крахмала",
+     "Чёрный перец и мускатный орех по вкусу",
+     "Отварной мелкий картофель и сырые овощи для макания"
+    ],
+    "steps": [
+     "Натрите внутреннюю поверхность котелка для фондю разрезанным чесноком, затем оставьте чеснок в котелке.",
+     "Подготовьте трюфель и отложите; его добавляют только после того, как сыр растает.",
+     "Влейте вино и нагрейте на среднем огне до появления пара, не доводя до кипения.",
+     "Перемешайте сыр с крахмалом и добавляйте по горсти, помешивая восьмёрками, пока каждая порция не растает.",
+     "Вмешайте трюфель и трюфельное масло, приправьте перцем и мускатным орехом, поставьте котелок на горелку на столе и макайте картофель и овощи на длинных вилках."
+    ]
+   },
+   "tips": [
+    "Макайте в основном овощи — брокколи, перец, помидоры черри и грибы, а не налегайте на картофель.",
+    "Фондю плотное: решите заранее, сколько съедите, — около 150–200 г расплавленного сыра на одну порцию вполне реально.",
+    "Трюфельное масло — это в основном жир (1 ч. л. ≈ 40 ккал), поэтому добавляйте его по несколько капель — основную часть аромата даёт свежий трюфель."
+   ],
+   "name_inline": "трюфельное фондю"
+  },
+  "es": {
+   "name": "Fondue de trufa",
+   "origin": "Suiza",
+   "intro": "La fondue de trufa es una versión lujosa de la fondue suiza de queso: el queso se derrite con vino blanco y ajo, y se perfuma con trufa rallada o en láminas y unas gotas de aceite de trufa. El resultado es cremoso e intenso, con un aroma profundo y terroso. Se sirve en la mesa en una olla para compartir, con papas y verduras para mojar.",
+   "history": "La fondue de trufa es una variante moderna, de estilo restaurantero, de la fondue suiza de queso, que hoy se sirve en las estaciones de esquí y en los restaurantes de las ciudades suizas, sobre todo en invierno.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g de queso suizo mezclado (por ejemplo gruyère y emmental), rallado",
+     "300 ml de vino blanco seco",
+     "1 diente de ajo, partido por la mitad",
+     "15 g de trufa negra, rallada o en láminas finas",
+     "1 cdta. de aceite de trufa",
+     "1 cda. de fécula de maíz",
+     "Pimienta negra y nuez moscada al gusto",
+     "Papitas cocidas y verduras crudas para mojar"
+    ],
+    "steps": [
+     "Frota el interior de la olla de fondue con el ajo cortado y deja el ajo dentro.",
+     "Prepara la trufa y resérvala; solo se agrega cuando el queso ya se haya derretido.",
+     "Añade el vino y calienta a fuego medio hasta que humee, sin que hierva.",
+     "Mezcla el queso con la fécula de maíz y agrégalo por puñados, moviendo en forma de ocho hasta que cada porción se derrita.",
+     "Incorpora la trufa y el aceite de trufa, sazona con pimienta y nuez moscada, coloca la olla sobre el calentador en la mesa y moja las papas y las verduras con tenedores largos."
+    ]
+   },
+   "tips": [
+    "Moja sobre todo verduras como brócoli, pimientos, jitomates cherry y champiñones, en vez de llenarte de papas.",
+    "La fondue es densa: decide tu porción antes de empezar; unos 150 a 200 g del queso derretido son una porción individual realista.",
+    "El aceite de trufa es casi pura grasa (1 cdta. ≈ 40 kcal), así que agrégalo unas gotas a la vez: la trufa fresca aporta casi todo el aroma."
+   ],
+   "name_inline": "la fondue de trufa"
   }
+ }
 }
