@@ -1,166 +1,197 @@
 {
-  "db_key": "piquillos_rellenos",
-  "slug": "piquillos-rellenos",
-  "emoji": "🫑",
-  "portion_g": 200,
-  "country": "ES",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "piquillos_rellenos",
+ "slug": "piquillos-rellenos",
+ "emoji": "🫑",
+ "portion_g": 200,
+ "country": "ES",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Piquillo peppers stuffed with salt cod",
+   "origin": "Spain · Navarre",
+   "intro": "Pimientos del piquillo rellenos de bacalao are sweet roasted piquillo peppers filled with a creamy mixture of salt cod and béchamel, topped with breadcrumbs and baked. The peppers are tender and slightly smoky, the filling soft and savoury, and the top lightly crisp. They are served warm as a tapa or starter.",
+   "history": "Piquillo peppers are grown around Lodosa in Navarre, northern Spain, and are traditionally roasted over wood and peeled by hand. Filling them with salt cod is a classic of Navarrese and Basque cooking, where bacalao has long been a staple.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "12 roasted piquillo peppers",
+     "250 g salt cod, desalted for 24–36 hours",
+     "Béchamel: 30 g butter, 30 g flour, 300 ml milk",
+     "1 small onion, finely chopped, and 1 tbsp olive oil",
+     "2 tbsp breadcrumbs",
+     "Salt and white pepper"
+    ],
+    "steps": [
+     "Poach the desalted cod for 5 minutes, then drain and flake it, removing skin and bones.",
+     "Soften the onion in the olive oil, add the cod and cook for 2 minutes.",
+     "Make a béchamel: melt the butter, stir in the flour for 1 minute, whisk in the milk and simmer until thick.",
+     "Mix two-thirds of the béchamel with the cod, season and fill the peppers.",
+     "Lay them in a dish, spoon over the rest of the béchamel, sprinkle with breadcrumbs and bake at 200 °C for 15 minutes."
+    ]
+   },
+   "tips": [
+    "Use skimmed milk for the béchamel.",
+    "Use more cod and less béchamel in the filling.",
+    "Serve 2–3 peppers as a starter with a green salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Piquillo peppers stuffed with salt cod",
-      "origin": "Spain · Navarre",
-      "intro": "Pimientos del piquillo rellenos de bacalao are sweet roasted piquillo peppers filled with a creamy mixture of salt cod and béchamel, topped with breadcrumbs and baked. The peppers are tender and slightly smoky, the filling soft and savoury, and the top lightly crisp. They are served warm as a tapa or starter.",
-      "history": "Piquillo peppers are grown around Lodosa in Navarre, northern Spain, and are traditionally roasted over wood and peeled by hand. Filling them with salt cod is a classic of Navarrese and Basque cooking, where bacalao has long been a staple.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "12 roasted piquillo peppers",
-          "250 g salt cod, desalted for 24–36 hours",
-          "Béchamel: 30 g butter, 30 g flour, 300 ml milk",
-          "1 small onion, finely chopped, and 1 tbsp olive oil",
-          "2 tbsp breadcrumbs",
-          "Salt and white pepper"
-        ],
-        "steps": [
-          "Poach the desalted cod for 5 minutes, then drain and flake it, removing skin and bones.",
-          "Soften the onion in the olive oil, add the cod and cook for 2 minutes.",
-          "Make a béchamel: melt the butter, stir in the flour for 1 minute, whisk in the milk and simmer until thick.",
-          "Mix two-thirds of the béchamel with the cod, season and fill the peppers.",
-          "Lay them in a dish, spoon over the rest of the béchamel, sprinkle with breadcrumbs and bake at 200 °C for 15 minutes."
-        ]
-      },
-      "tips": [
-        "Use skimmed milk for the béchamel.",
-        "Use more cod and less béchamel in the filling.",
-        "Serve 2–3 peppers as a starter with a green salad."
-      ]
-    },
-    "ar": {
-      "name": "فلفل بيكيو محشو بسمك القد المملح",
-      "origin": "إسبانيا · نافارا",
-      "intro": "فلفل بيكيو المحشو بالقد المملح طبق إسباني من الفلفل الأحمر الحلو المشوي، يُحشى بمزيج كريمي من سمك القد المملح وصلصة البشاميل، ثم يُرش بفتات الخبز ويُخبز. يكون الفلفل طرياً بلمسة دخانية، والحشو ناعماً غنياً، والسطح مقرمشاً قليلاً. يُقدَّم دافئاً كطبق تاباس أو مقبلات.",
-      "history": "يُزرع فلفل بيكيو حول لودوسا في نافارا شمال إسبانيا، ويُشوى تقليدياً على الحطب ويُقشر يدوياً. وحشوه بالقد المملح من كلاسيكيات مطبخ نافارا والباسك، حيث كان «البكالاو» غذاء أساسياً منذ زمن طويل.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "12 حبة فلفل بيكيو مشوي",
-          "250 غ قد مملح منقوع لإزالة الملح 24–36 ساعة",
-          "البشاميل: 30 غ زبدة، 30 غ دقيق، 300 مل حليب",
-          "بصلة صغيرة مفرومة ناعماً وملعقة كبيرة زيت زيتون",
-          "ملعقتان كبيرتان فتات خبز",
-          "ملح وفلفل أبيض"
-        ],
-        "steps": [
-          "اسلق القد المنقوع برفق 5 دقائق، ثم صفّه وفتّته وأزل الجلد والشوك.",
-          "اطهُ البصل في زيت الزيتون حتى يلين، وأضف القد واطهه دقيقتين.",
-          "حضّر البشاميل: أذب الزبدة، وقلّب فيها الدقيق دقيقة، ثم أضف الحليب مع الخفق واتركه حتى يتكثف.",
-          "اخلط ثلثي البشاميل مع القد، وتبّل واحشُ الفلفل.",
-          "رصّ الفلفل في صينية، وضع فوقه باقي البشاميل ورشّه بفتات الخبز، واخبزه على 200 °م لمدة 15 دقيقة."
-        ]
-      },
-      "tips": [
-        "استخدم حليباً خالي الدسم للبشاميل.",
-        "زِد كمية القد وقلّل البشاميل في الحشو.",
-        "قدّم 2–3 حبات كمقبلات مع سلطة خضراء."
-      ]
-    },
-    "it": {
-      "name": "Peperoni piquillo ripieni di baccalà",
-      "origin": "Spagna · Navarra",
-      "intro": "I pimientos del piquillo rellenos de bacalao sono dolci peperoni piquillo arrostiti, farciti con un composto cremoso di baccalà e besciamella, cosparsi di pangrattato e cotti al forno. I peperoni sono teneri e leggermente affumicati, il ripieno è morbido e saporito e la superficie leggermente croccante. Si servono tiepidi come tapa o antipasto.",
-      "history": "I peperoni piquillo si coltivano attorno a Lodosa, in Navarra, nel nord della Spagna, e tradizionalmente vengono arrostiti sul fuoco di legna e pelati a mano. Farcirli con il baccalà è un classico della cucina navarrese e basca, dove il bacalao è da sempre un alimento base.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "12 peperoni piquillo arrostiti",
-          "250 g di baccalà, dissalato per 24–36 ore",
-          "Besciamella: 30 g di burro, 30 g di farina, 300 ml di latte",
-          "1 cipolla piccola, tritata finemente, e 1 cucchiaio di olio d'oliva",
-          "2 cucchiai di pangrattato",
-          "Sale e pepe bianco"
-        ],
-        "steps": [
-          "Cuoci il baccalà dissalato in acqua appena fremente per 5 minuti, poi scolalo e sfaldalo, eliminando pelle e lische.",
-          "Fai appassire la cipolla nell'olio d'oliva, aggiungi il baccalà e cuoci per 2 minuti.",
-          "Prepara la besciamella: sciogli il burro, aggiungi la farina mescolando per 1 minuto, unisci il latte con la frusta e fai sobbollire finché si addensa.",
-          "Mescola due terzi della besciamella con il baccalà, regola di sale e pepe e farcisci i peperoni.",
-          "Disponili in una pirofila, coprili con il resto della besciamella, cospargi di pangrattato e cuoci a 200 °C per 15 minuti."
-        ]
-      },
-      "tips": [
-        "Usa latte scremato per la besciamella.",
-        "Metti più baccalà e meno besciamella nel ripieno.",
-        "Servi 2–3 peperoni come antipasto con un'insalata verde."
-      ]
-    },
-    "el": {
-      "name": "Πιπεριές πικίγιο γεμιστές με μπακαλιάρο",
-      "name_inline": "πιπεριές πικίγιο γεμιστές με μπακαλιάρο",
-      "origin": "Ισπανία · Ναβάρρα",
-      "intro": "Τα pimientos del piquillo rellenos de bacalao είναι γλυκές ψητές πιπεριές πικίγιο γεμιστές με ένα κρεμώδες μείγμα αλίπαστου μπακαλιάρου και μπεσαμέλ, πασπαλισμένες με φρυγανιά και ψημένες στον φούρνο. Οι πιπεριές είναι τρυφερές και ελαφρώς καπνιστές, η γέμιση μαλακή και νόστιμη και η επιφάνεια ελαφρά τραγανή. Σερβίρονται ζεστές ως τάπα ή ορεκτικό.",
-      "history": "Οι πιπεριές πικίγιο καλλιεργούνται γύρω από τη Λοδόσα στη Ναβάρρα της βόρειας Ισπανίας και παραδοσιακά ψήνονται σε ξύλα και ξεφλουδίζονται με το χέρι. Το γέμισμά τους με μπακαλιάρο είναι κλασικό της κουζίνας της Ναβάρρας και των Βάσκων, όπου ο μπακαλιάρος (bacalao) είναι από παλιά βασικό τρόφιμο.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "12 ψητές πιπεριές πικίγιο",
-          "250 γρ. αλίπαστος μπακαλιάρος, ξαρμυρισμένος για 24–36 ώρες",
-          "Μπεσαμέλ: 30 γρ. βούτυρο, 30 γρ. αλεύρι, 300 ml γάλα",
-          "1 μικρό κρεμμύδι, ψιλοκομμένο, και 1 κ.σ. ελαιόλαδο",
-          "2 κ.σ. φρυγανιά τριμμένη",
-          "Αλάτι και λευκό πιπέρι"
-        ],
-        "steps": [
-          "Ποσάρετε τον ξαρμυρισμένο μπακαλιάρο για 5 λεπτά, έπειτα στραγγίξτε και θρυμματίστε τον, αφαιρώντας πέτσα και κόκαλα.",
-          "Μαλακώστε το κρεμμύδι στο ελαιόλαδο, προσθέστε τον μπακαλιάρο και μαγειρέψτε 2 λεπτά.",
-          "Φτιάξτε μπεσαμέλ: λιώστε το βούτυρο, ανακατέψτε μέσα το αλεύρι για 1 λεπτό, προσθέστε το γάλα χτυπώντας με σύρμα και σιγοβράστε μέχρι να πήξει.",
-          "Ανακατέψτε τα δύο τρίτα της μπεσαμέλ με τον μπακαλιάρο, καρυκεύστε και γεμίστε τις πιπεριές.",
-          "Τοποθετήστε τες σε ταψάκι, απλώστε από πάνω την υπόλοιπη μπεσαμέλ, πασπαλίστε με φρυγανιά και ψήστε στους 200 °C για 15 λεπτά."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε αποβουτυρωμένο γάλα για τη μπεσαμέλ.",
-        "Βάλτε περισσότερο μπακαλιάρο και λιγότερη μπεσαμέλ στη γέμιση.",
-        "Σερβίρετε 2–3 πιπεριές ως ορεκτικό με πράσινη σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Перцы пикильо, фаршированные соленой треской",
-      "origin": "Испания · Наварра",
-      "intro": "Пименто дель пикильо рельенос де бакалао — сладкие запечённые перцы пикильо с кремовой начинкой из солёной трески и бешамеля, посыпанные сухарями и запечённые. Перцы нежные и слегка дымные, начинка мягкая и пряная, а верх слегка хрустит. Подаются тёплыми как тапас или закуска.",
-      "history": "Перцы пикильо выращивают вокруг Лодосы в Наварре на севере Испании, их традиционно обжигают на дровах и очищают вручную. Фарширование их солёной треской — классика наваррской и баскской кухни, где бакалао издавна является основным продуктом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 90,
-        "ingredients": [
-          "12 запечённых перцев пикильо",
-          "250 г солёной трески, вымоченной 24–36 часов",
-          "Бешамель: 30 г сливочного масла, 30 г муки, 300 мл молока",
-          "1 небольшая луковица, мелко нарезанная, и 1 ст. л. оливкового масла",
-          "2 ст. л. панировочных сухарей",
-          "Соль и белый перец"
-        ],
-        "steps": [
-          "Варите вымоченную треску 5 минут, затем слейте воду и разберите на волокна, удалив кожу и кости.",
-          "Обжарьте лук в оливковом масле, добавьте треску и готовьте 2 минуты.",
-          "Приготовьте бешамель: растопите масло, помешивайте с мукой 1 минуту, вмешайте молоко и варите до загустения.",
-          "Смешайте две трети бешамеля с треской, приправьте и наполните перцы.",
-          "Выложите в форму, полейте остатком бешамеля, посыпьте сухарями и запекайте при 200 °C 15 минут."
-        ]
-      },
-      "tips": [
-        "Используйте обезжиренное молоко для бешамеля.",
-        "Берите в начинку больше трески и меньше бешамеля.",
-        "Подавайте 2–3 перца как закуску с зелёным салатом."
-      ],
-      "name_inline": "перцы пикильо, фаршированные треской"
-    }
+  "ar": {
+   "name": "فلفل بيكيو محشو بسمك القد المملح",
+   "origin": "إسبانيا · نافارا",
+   "intro": "فلفل بيكيو المحشو بالقد المملح طبق إسباني من الفلفل الأحمر الحلو المشوي، يُحشى بمزيج كريمي من سمك القد المملح وصلصة البشاميل، ثم يُرش بفتات الخبز ويُخبز. يكون الفلفل طرياً بلمسة دخانية، والحشو ناعماً غنياً، والسطح مقرمشاً قليلاً. يُقدَّم دافئاً كطبق تاباس أو مقبلات.",
+   "history": "يُزرع فلفل بيكيو حول لودوسا في نافارا شمال إسبانيا، ويُشوى تقليدياً على الحطب ويُقشر يدوياً. وحشوه بالقد المملح من كلاسيكيات مطبخ نافارا والباسك، حيث كان «البكالاو» غذاء أساسياً منذ زمن طويل.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "12 حبة فلفل بيكيو مشوي",
+     "250 غ قد مملح منقوع لإزالة الملح 24–36 ساعة",
+     "البشاميل: 30 غ زبدة، 30 غ دقيق، 300 مل حليب",
+     "بصلة صغيرة مفرومة ناعماً وملعقة كبيرة زيت زيتون",
+     "ملعقتان كبيرتان فتات خبز",
+     "ملح وفلفل أبيض"
+    ],
+    "steps": [
+     "اسلق القد المنقوع برفق 5 دقائق، ثم صفّه وفتّته وأزل الجلد والشوك.",
+     "اطهُ البصل في زيت الزيتون حتى يلين، وأضف القد واطهه دقيقتين.",
+     "حضّر البشاميل: أذب الزبدة، وقلّب فيها الدقيق دقيقة، ثم أضف الحليب مع الخفق واتركه حتى يتكثف.",
+     "اخلط ثلثي البشاميل مع القد، وتبّل واحشُ الفلفل.",
+     "رصّ الفلفل في صينية، وضع فوقه باقي البشاميل ورشّه بفتات الخبز، واخبزه على 200 °م لمدة 15 دقيقة."
+    ]
+   },
+   "tips": [
+    "استخدم حليباً خالي الدسم للبشاميل.",
+    "زِد كمية القد وقلّل البشاميل في الحشو.",
+    "قدّم 2–3 حبات كمقبلات مع سلطة خضراء."
+   ]
+  },
+  "it": {
+   "name": "Peperoni piquillo ripieni di baccalà",
+   "origin": "Spagna · Navarra",
+   "intro": "I pimientos del piquillo rellenos de bacalao sono dolci peperoni piquillo arrostiti, farciti con un composto cremoso di baccalà e besciamella, cosparsi di pangrattato e cotti al forno. I peperoni sono teneri e leggermente affumicati, il ripieno è morbido e saporito e la superficie leggermente croccante. Si servono tiepidi come tapa o antipasto.",
+   "history": "I peperoni piquillo si coltivano attorno a Lodosa, in Navarra, nel nord della Spagna, e tradizionalmente vengono arrostiti sul fuoco di legna e pelati a mano. Farcirli con il baccalà è un classico della cucina navarrese e basca, dove il bacalao è da sempre un alimento base.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "12 peperoni piquillo arrostiti",
+     "250 g di baccalà, dissalato per 24–36 ore",
+     "Besciamella: 30 g di burro, 30 g di farina, 300 ml di latte",
+     "1 cipolla piccola, tritata finemente, e 1 cucchiaio di olio d'oliva",
+     "2 cucchiai di pangrattato",
+     "Sale e pepe bianco"
+    ],
+    "steps": [
+     "Cuoci il baccalà dissalato in acqua appena fremente per 5 minuti, poi scolalo e sfaldalo, eliminando pelle e lische.",
+     "Fai appassire la cipolla nell'olio d'oliva, aggiungi il baccalà e cuoci per 2 minuti.",
+     "Prepara la besciamella: sciogli il burro, aggiungi la farina mescolando per 1 minuto, unisci il latte con la frusta e fai sobbollire finché si addensa.",
+     "Mescola due terzi della besciamella con il baccalà, regola di sale e pepe e farcisci i peperoni.",
+     "Disponili in una pirofila, coprili con il resto della besciamella, cospargi di pangrattato e cuoci a 200 °C per 15 minuti."
+    ]
+   },
+   "tips": [
+    "Usa latte scremato per la besciamella.",
+    "Metti più baccalà e meno besciamella nel ripieno.",
+    "Servi 2–3 peperoni come antipasto con un'insalata verde."
+   ]
+  },
+  "el": {
+   "name": "Πιπεριές πικίγιο γεμιστές με μπακαλιάρο",
+   "name_inline": "πιπεριές πικίγιο γεμιστές με μπακαλιάρο",
+   "origin": "Ισπανία · Ναβάρρα",
+   "intro": "Τα pimientos del piquillo rellenos de bacalao είναι γλυκές ψητές πιπεριές πικίγιο γεμιστές με ένα κρεμώδες μείγμα αλίπαστου μπακαλιάρου και μπεσαμέλ, πασπαλισμένες με φρυγανιά και ψημένες στον φούρνο. Οι πιπεριές είναι τρυφερές και ελαφρώς καπνιστές, η γέμιση μαλακή και νόστιμη και η επιφάνεια ελαφρά τραγανή. Σερβίρονται ζεστές ως τάπα ή ορεκτικό.",
+   "history": "Οι πιπεριές πικίγιο καλλιεργούνται γύρω από τη Λοδόσα στη Ναβάρρα της βόρειας Ισπανίας και παραδοσιακά ψήνονται σε ξύλα και ξεφλουδίζονται με το χέρι. Το γέμισμά τους με μπακαλιάρο είναι κλασικό της κουζίνας της Ναβάρρας και των Βάσκων, όπου ο μπακαλιάρος (bacalao) είναι από παλιά βασικό τρόφιμο.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "12 ψητές πιπεριές πικίγιο",
+     "250 γρ. αλίπαστος μπακαλιάρος, ξαρμυρισμένος για 24–36 ώρες",
+     "Μπεσαμέλ: 30 γρ. βούτυρο, 30 γρ. αλεύρι, 300 ml γάλα",
+     "1 μικρό κρεμμύδι, ψιλοκομμένο, και 1 κ.σ. ελαιόλαδο",
+     "2 κ.σ. φρυγανιά τριμμένη",
+     "Αλάτι και λευκό πιπέρι"
+    ],
+    "steps": [
+     "Ποσάρετε τον ξαρμυρισμένο μπακαλιάρο για 5 λεπτά, έπειτα στραγγίξτε και θρυμματίστε τον, αφαιρώντας πέτσα και κόκαλα.",
+     "Μαλακώστε το κρεμμύδι στο ελαιόλαδο, προσθέστε τον μπακαλιάρο και μαγειρέψτε 2 λεπτά.",
+     "Φτιάξτε μπεσαμέλ: λιώστε το βούτυρο, ανακατέψτε μέσα το αλεύρι για 1 λεπτό, προσθέστε το γάλα χτυπώντας με σύρμα και σιγοβράστε μέχρι να πήξει.",
+     "Ανακατέψτε τα δύο τρίτα της μπεσαμέλ με τον μπακαλιάρο, καρυκεύστε και γεμίστε τις πιπεριές.",
+     "Τοποθετήστε τες σε ταψάκι, απλώστε από πάνω την υπόλοιπη μπεσαμέλ, πασπαλίστε με φρυγανιά και ψήστε στους 200 °C για 15 λεπτά."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε αποβουτυρωμένο γάλα για τη μπεσαμέλ.",
+    "Βάλτε περισσότερο μπακαλιάρο και λιγότερη μπεσαμέλ στη γέμιση.",
+    "Σερβίρετε 2–3 πιπεριές ως ορεκτικό με πράσινη σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Перцы пикильо, фаршированные соленой треской",
+   "origin": "Испания · Наварра",
+   "intro": "Пименто дель пикильо рельенос де бакалао — сладкие запечённые перцы пикильо с кремовой начинкой из солёной трески и бешамеля, посыпанные сухарями и запечённые. Перцы нежные и слегка дымные, начинка мягкая и пряная, а верх слегка хрустит. Подаются тёплыми как тапас или закуска.",
+   "history": "Перцы пикильо выращивают вокруг Лодосы в Наварре на севере Испании, их традиционно обжигают на дровах и очищают вручную. Фарширование их солёной треской — классика наваррской и баскской кухни, где бакалао издавна является основным продуктом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "12 запечённых перцев пикильо",
+     "250 г солёной трески, вымоченной 24–36 часов",
+     "Бешамель: 30 г сливочного масла, 30 г муки, 300 мл молока",
+     "1 небольшая луковица, мелко нарезанная, и 1 ст. л. оливкового масла",
+     "2 ст. л. панировочных сухарей",
+     "Соль и белый перец"
+    ],
+    "steps": [
+     "Варите вымоченную треску 5 минут, затем слейте воду и разберите на волокна, удалив кожу и кости.",
+     "Обжарьте лук в оливковом масле, добавьте треску и готовьте 2 минуты.",
+     "Приготовьте бешамель: растопите масло, помешивайте с мукой 1 минуту, вмешайте молоко и варите до загустения.",
+     "Смешайте две трети бешамеля с треской, приправьте и наполните перцы.",
+     "Выложите в форму, полейте остатком бешамеля, посыпьте сухарями и запекайте при 200 °C 15 минут."
+    ]
+   },
+   "tips": [
+    "Используйте обезжиренное молоко для бешамеля.",
+    "Берите в начинку больше трески и меньше бешамеля.",
+    "Подавайте 2–3 перца как закуску с зелёным салатом."
+   ],
+   "name_inline": "перцы пикильо, фаршированные треской"
+  },
+  "es": {
+   "name": "Pimientos del piquillo rellenos de bacalao",
+   "origin": "España · Navarra",
+   "intro": "Los pimientos del piquillo rellenos de bacalao son pimientos asados y dulces, rellenos de una mezcla cremosa de bacalao y bechamel, cubiertos de pan rallado y gratinados al horno. Los pimientos quedan tiernos y ligeramente ahumados, el relleno suave y sabroso, y la superficie apenas crujiente. Se sirven calientes como tapa o entrada.",
+   "history": "Los pimientos del piquillo se cultivan en torno a Lodosa, en Navarra, al norte de España, y tradicionalmente se asan a la leña y se pelan a mano. Rellenarlos con bacalao es un clásico de la cocina navarra y vasca, donde el bacalao es desde hace mucho un alimento básico.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 90,
+    "ingredients": [
+     "12 pimientos del piquillo asados",
+     "250 g de bacalao, desalado durante 24–36 horas",
+     "Bechamel: 30 g de mantequilla, 30 g de harina, 300 ml de leche",
+     "1 cebolla pequeña, finamente picada, y 1 cda. de aceite de oliva",
+     "2 cda. de pan rallado",
+     "Sal y pimienta blanca"
+    ],
+    "steps": [
+     "Escalfa el bacalao desalado durante 5 minutos, escúrrelo y desmenúzalo, quitando la piel y las espinas.",
+     "Sofríe la cebolla en el aceite de oliva, añade el bacalao y cocina 2 minutos.",
+     "Prepara la bechamel: derrite la mantequilla, incorpora la harina y cocina 1 minuto, bate con la leche y cocina hasta que espese.",
+     "Mezcla dos tercios de la bechamel con el bacalao, sazona y rellena los pimientos.",
+     "Colócalos en una fuente, cubre con el resto de la bechamel, espolvorea con pan rallado y hornea a 200 °C durante 15 minutos."
+    ]
+   },
+   "tips": [
+    "Usa leche descremada para la bechamel.",
+    "Pon más bacalao y menos bechamel en el relleno.",
+    "Sirve 2–3 pimientos como entrada, con una ensalada verde."
+   ],
+   "name_inline": "los pimientos del piquillo rellenos de bacalao"
   }
+ }
 }

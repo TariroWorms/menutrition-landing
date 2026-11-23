@@ -1,170 +1,202 @@
 {
-  "db_key": "horchata_mexicana",
-  "slug": "horchata-mexicana",
-  "emoji": "🥛",
-  "portion_g": 350,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "horchata_mexicana",
+ "slug": "horchata-mexicana",
+ "emoji": "🥛",
+ "portion_g": 350,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mexican Horchata",
+   "origin": "Mexico",
+   "intro": "Mexican horchata is a chilled, milky drink made from rice soaked with cinnamon, then blended, strained and sweetened with sugar and vanilla. This version adds milk for a creamier body. It tastes sweet and gently spiced, with a smooth, slightly starchy texture, and is served over ice alongside tacos and spicy dishes.",
+   "history": "Horchata came to Mexico from Spain, where the original drink is made from tiger nuts; in Mexico rice became the standard base. Today it is one of the classic aguas frescas sold at markets, taquerias and street stalls across the country.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "150 g long-grain white rice",
+     "1 cinnamon stick",
+     "1 litre water",
+     "250 ml milk",
+     "80 g sugar",
+     "1 tsp vanilla extract",
+     "Ice to serve"
+    ],
+    "steps": [
+     "Rinse the rice and soak it with the cinnamon stick in 500 ml warm water for at least 4 hours or overnight.",
+     "Blend the rice, cinnamon and soaking water until very smooth.",
+     "Strain through a fine sieve or cloth, pressing out the liquid.",
+     "Stir in the remaining water, milk, sugar and vanilla until the sugar dissolves.",
+     "Chill and serve over ice with a pinch of ground cinnamon."
+    ]
+   },
+   "tips": [
+    "Cut the sugar in half and lean on cinnamon and vanilla for flavour; 1 tbsp sugar ≈ 48 kcal.",
+    "Use skimmed milk or replace part of the milk with water for a lighter glass.",
+    "Pour a smaller 200 ml glass with plenty of ice instead of a large cup."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mexican Horchata",
-      "origin": "Mexico",
-      "intro": "Mexican horchata is a chilled, milky drink made from rice soaked with cinnamon, then blended, strained and sweetened with sugar and vanilla. This version adds milk for a creamier body. It tastes sweet and gently spiced, with a smooth, slightly starchy texture, and is served over ice alongside tacos and spicy dishes.",
-      "history": "Horchata came to Mexico from Spain, where the original drink is made from tiger nuts; in Mexico rice became the standard base. Today it is one of the classic aguas frescas sold at markets, taquerias and street stalls across the country.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "150 g long-grain white rice",
-          "1 cinnamon stick",
-          "1 litre water",
-          "250 ml milk",
-          "80 g sugar",
-          "1 tsp vanilla extract",
-          "Ice to serve"
-        ],
-        "steps": [
-          "Rinse the rice and soak it with the cinnamon stick in 500 ml warm water for at least 4 hours or overnight.",
-          "Blend the rice, cinnamon and soaking water until very smooth.",
-          "Strain through a fine sieve or cloth, pressing out the liquid.",
-          "Stir in the remaining water, milk, sugar and vanilla until the sugar dissolves.",
-          "Chill and serve over ice with a pinch of ground cinnamon."
-        ]
-      },
-      "tips": [
-        "Cut the sugar in half and lean on cinnamon and vanilla for flavour; 1 tbsp sugar ≈ 48 kcal.",
-        "Use skimmed milk or replace part of the milk with water for a lighter glass.",
-        "Pour a smaller 200 ml glass with plenty of ice instead of a large cup."
-      ]
-    },
-    "ar": {
-      "name": "أورتشاتا مكسيكية",
-      "origin": "المكسيك",
-      "intro": "الأورتشاتا المكسيكية مشروب بارد حليبي يُحضَّر من الأرز المنقوع مع القرفة، ثم يُخلط ويُصفّى ويُحلّى بالسكر والفانيليا. تضيف هذه النسخة الحليب لقوام أكثر كريمية. طعمها حلو بلمسة توابل خفيفة وقوامها ناعم نشوي قليلاً، وتُقدَّم مع الثلج إلى جانب التاكو والأطباق الحارة.",
-      "history": "وصلت الأورتشاتا إلى المكسيك من إسبانيا، حيث يُصنع المشروب الأصلي من حب العزيز، وفي المكسيك أصبح الأرز هو الأساس المعتاد. وهي اليوم من أشهر مشروبات «أغواس فريسكاس» التي تُباع في الأسواق ومطاعم التاكو وأكشاك الشوارع في أنحاء البلاد.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "150 غ أرز أبيض طويل الحبة",
-          "عود قرفة واحد",
-          "1 لتر ماء",
-          "250 مل حليب",
-          "80 غ سكر",
-          "1 ملعقة صغيرة خلاصة فانيليا",
-          "ثلج للتقديم"
-        ],
-        "steps": [
-          "اغسل الأرز وانقعه مع عود القرفة في 500 مل ماء دافئ لمدة 4 ساعات على الأقل أو طوال الليل.",
-          "اخلط الأرز والقرفة مع ماء النقع حتى يصبح ناعماً تماماً.",
-          "صفِّ الخليط بمصفاة دقيقة أو قطعة قماش مع العصر لاستخراج السائل.",
-          "أضف بقية الماء والحليب والسكر والفانيليا وقلّب حتى يذوب السكر.",
-          "برّد المشروب وقدّمه مع الثلج ورشة قرفة مطحونة."
-        ]
-      },
-      "tips": [
-        "قلّل السكر إلى النصف واعتمد على القرفة والفانيليا للنكهة؛ ملعقة كبيرة سكر ≈ 48 سعرة.",
-        "استخدم حليباً خالي الدسم أو استبدل جزءاً من الحليب بالماء لكوب أخف.",
-        "اسكب كوباً أصغر بحجم 200 مل مع الكثير من الثلج بدلاً من كوب كبير."
-      ]
-    },
-    "it": {
-      "name": "Horchata messicana",
-      "origin": "Messico",
-      "intro": "L'horchata messicana è una bevanda fredda e lattiginosa preparata con riso messo in ammollo con la cannella, poi frullato, filtrato e addolcito con zucchero e vaniglia. Questa versione aggiunge latte per un corpo più cremoso. Ha un sapore dolce e delicatamente speziato, con una consistenza liscia e leggermente amidacea, e si serve con ghiaccio insieme a tacos e piatti piccanti.",
-      "history": "L'horchata è arrivata in Messico dalla Spagna, dove la bevanda originale si fa con lo zigolo dolce; in Messico il riso è diventato la base standard. Oggi è una delle classiche aguas frescas vendute nei mercati, nelle taquerías e nelle bancarelle di tutto il paese.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "150 g di riso bianco a chicco lungo",
-          "1 stecca di cannella",
-          "1 l di acqua",
-          "250 ml di latte",
-          "80 g di zucchero",
-          "1 cucchiaino di estratto di vaniglia",
-          "Ghiaccio per servire"
-        ],
-        "steps": [
-          "Sciacqua il riso e mettilo in ammollo con la stecca di cannella in 500 ml di acqua tiepida per almeno 4 ore o per una notte.",
-          "Frulla riso, cannella e acqua di ammollo finché è liscissimo.",
-          "Filtra attraverso un colino fine o un telo, spremendo il liquido.",
-          "Incorpora l'acqua rimasta, il latte, lo zucchero e la vaniglia finché lo zucchero si scioglie.",
-          "Raffredda e servi con ghiaccio e un pizzico di cannella in polvere."
-        ]
-      },
-      "tips": [
-        "Dimezza lo zucchero e affidati a cannella e vaniglia per il sapore; 1 cucchiaio di zucchero ≈ 48 kcal.",
-        "Usa latte scremato o sostituisci parte del latte con acqua per un bicchiere più leggero.",
-        "Versane un bicchiere più piccolo da 200 ml con molto ghiaccio invece di una tazza grande."
-      ]
-    },
-    "el": {
-      "name": "Μεξικάνικη ορτσάτα",
-      "origin": "Μεξικό",
-      "intro": "Η μεξικάνικη ορτσάτα είναι κρύο, γαλακτερό ρόφημα από ρύζι μουλιασμένο με κανέλα, που μετά πολτοποιείται, σουρώνεται και γλυκαίνεται με ζάχαρη και βανίλια. Αυτή η εκδοχή προσθέτει γάλα για πιο κρεμώδες σώμα. Έχει γλυκιά, απαλά μπαχαρένια γεύση και λεία, ελαφρώς αμυλώδη υφή, και σερβίρεται με πάγο μαζί με τάκος και πικάντικα πιάτα.",
-      "history": "Η ορτσάτα ήρθε στο Μεξικό από την Ισπανία, όπου το αρχικό ρόφημα φτιάχνεται από κύπερη· στο Μεξικό βάση έγινε το ρύζι. Σήμερα είναι ένα από τα κλασικά agua fresca που πωλούνται σε αγορές, τακερίες και πάγκους του δρόμου σε όλη τη χώρα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "150 γρ. λευκό μακρύκοκκο ρύζι",
-          "1 ξύλο κανέλας",
-          "1 λίτρο νερό",
-          "250 ml γάλα",
-          "80 γρ. ζάχαρη",
-          "1 κ.γ. εκχύλισμα βανίλιας",
-          "Πάγος για το σερβίρισμα"
-        ],
-        "steps": [
-          "Ξεπλύνετε το ρύζι και μουλιάστε το με το ξύλο κανέλας σε 500 ml χλιαρό νερό για τουλάχιστον 4 ώρες ή όλη τη νύχτα.",
-          "Πολτοποιήστε το ρύζι, την κανέλα και το νερό του μουλιάσματος μέχρι να γίνουν πολύ λεία.",
-          "Σουρώστε από ψιλό σουρωτήρι ή πανί, πιέζοντας για να βγει το υγρό.",
-          "Ανακατέψτε το υπόλοιπο νερό, το γάλα, τη ζάχαρη και τη βανίλια μέχρι να διαλυθεί η ζάχαρη.",
-          "Κρυώστε και σερβίρετε με πάγο και μια πρέζα κανέλα."
-        ]
-      },
-      "tips": [
-        "Μειώστε τη ζάχαρη στο μισό και αφήστε την κανέλα και τη βανίλια να δώσουν τη γεύση· 1 κ.σ. ζάχαρη ≈ 48 kcal.",
-        "Χρησιμοποιήστε αποβουτυρωμένο γάλα ή αντικαταστήστε μέρος του γάλακτος με νερό για πιο ελαφρύ ποτήρι.",
-        "Βάλτε ένα μικρότερο ποτήρι 200 ml με άφθονο πάγο αντί για μεγάλη κούπα."
-      ]
-    },
-    "ru": {
-      "name": "Мексиканская орчата",
-      "origin": "Мексика",
-      "intro": "Мексиканская орчата — охлаждённый молочный напиток из риса, замоченного с корицей, затем измельчённого, процеженного и подслащённого сахаром и ванилью. В эту версию добавлено молоко для более кремовой консистенции. Он на вкус сладкий и слегка пряный, с гладкой, слегка крахмалистой текстурой, и его подают со льдом к тако и острым блюдам.",
-      "history": "Орчата попала в Мексику из Испании, где оригинальный напиток делают из земляного миндаля; в Мексике основой стал рис. Сегодня это одна из классических агуа фреска, которые продают на рынках, в такерию и на уличных лотках по всей стране.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "150 г длиннозёрного белого риса",
-          "1 палочка корицы",
-          "1 литр воды",
-          "250 мл молока",
-          "80 г сахара",
-          "1 ч. л. ванильного экстракта",
-          "Лёд для подачи"
-        ],
-        "steps": [
-          "Промойте рис и замочите с палочкой корицы в 500 мл тёплой воды не менее чем на 4 часа или на ночь.",
-          "Измельчите рис, корицу и воду от замачивания в блендере до очень гладкой массы.",
-          "Процедите через мелкое сито или ткань, отжимая жидкость.",
-          "Вмешайте оставшуюся воду, молоко, сахар и ваниль до растворения сахара.",
-          "Охладите и подавайте со льдом, посыпав щепоткой молотой корицы."
-        ]
-      },
-      "tips": [
-        "Сократите сахар вдвое и опирайтесь на корицу и ваниль для вкуса; 1 ст. л. сахара ≈ 48 ккал.",
-        "Используйте обезжиренное молоко или замените часть молока водой для более лёгкого напитка.",
-        "Наливайте меньший стакан 200 мл с большим количеством льда вместо большой чашки."
-      ],
-      "name_inline": "мексиканская орчата"
-    }
+  "ar": {
+   "name": "أورتشاتا مكسيكية",
+   "origin": "المكسيك",
+   "intro": "الأورتشاتا المكسيكية مشروب بارد حليبي يُحضَّر من الأرز المنقوع مع القرفة، ثم يُخلط ويُصفّى ويُحلّى بالسكر والفانيليا. تضيف هذه النسخة الحليب لقوام أكثر كريمية. طعمها حلو بلمسة توابل خفيفة وقوامها ناعم نشوي قليلاً، وتُقدَّم مع الثلج إلى جانب التاكو والأطباق الحارة.",
+   "history": "وصلت الأورتشاتا إلى المكسيك من إسبانيا، حيث يُصنع المشروب الأصلي من حب العزيز، وفي المكسيك أصبح الأرز هو الأساس المعتاد. وهي اليوم من أشهر مشروبات «أغواس فريسكاس» التي تُباع في الأسواق ومطاعم التاكو وأكشاك الشوارع في أنحاء البلاد.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "150 غ أرز أبيض طويل الحبة",
+     "عود قرفة واحد",
+     "1 لتر ماء",
+     "250 مل حليب",
+     "80 غ سكر",
+     "1 ملعقة صغيرة خلاصة فانيليا",
+     "ثلج للتقديم"
+    ],
+    "steps": [
+     "اغسل الأرز وانقعه مع عود القرفة في 500 مل ماء دافئ لمدة 4 ساعات على الأقل أو طوال الليل.",
+     "اخلط الأرز والقرفة مع ماء النقع حتى يصبح ناعماً تماماً.",
+     "صفِّ الخليط بمصفاة دقيقة أو قطعة قماش مع العصر لاستخراج السائل.",
+     "أضف بقية الماء والحليب والسكر والفانيليا وقلّب حتى يذوب السكر.",
+     "برّد المشروب وقدّمه مع الثلج ورشة قرفة مطحونة."
+    ]
+   },
+   "tips": [
+    "قلّل السكر إلى النصف واعتمد على القرفة والفانيليا للنكهة؛ ملعقة كبيرة سكر ≈ 48 سعرة.",
+    "استخدم حليباً خالي الدسم أو استبدل جزءاً من الحليب بالماء لكوب أخف.",
+    "اسكب كوباً أصغر بحجم 200 مل مع الكثير من الثلج بدلاً من كوب كبير."
+   ]
+  },
+  "it": {
+   "name": "Horchata messicana",
+   "origin": "Messico",
+   "intro": "L'horchata messicana è una bevanda fredda e lattiginosa preparata con riso messo in ammollo con la cannella, poi frullato, filtrato e addolcito con zucchero e vaniglia. Questa versione aggiunge latte per un corpo più cremoso. Ha un sapore dolce e delicatamente speziato, con una consistenza liscia e leggermente amidacea, e si serve con ghiaccio insieme a tacos e piatti piccanti.",
+   "history": "L'horchata è arrivata in Messico dalla Spagna, dove la bevanda originale si fa con lo zigolo dolce; in Messico il riso è diventato la base standard. Oggi è una delle classiche aguas frescas vendute nei mercati, nelle taquerías e nelle bancarelle di tutto il paese.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "150 g di riso bianco a chicco lungo",
+     "1 stecca di cannella",
+     "1 l di acqua",
+     "250 ml di latte",
+     "80 g di zucchero",
+     "1 cucchiaino di estratto di vaniglia",
+     "Ghiaccio per servire"
+    ],
+    "steps": [
+     "Sciacqua il riso e mettilo in ammollo con la stecca di cannella in 500 ml di acqua tiepida per almeno 4 ore o per una notte.",
+     "Frulla riso, cannella e acqua di ammollo finché è liscissimo.",
+     "Filtra attraverso un colino fine o un telo, spremendo il liquido.",
+     "Incorpora l'acqua rimasta, il latte, lo zucchero e la vaniglia finché lo zucchero si scioglie.",
+     "Raffredda e servi con ghiaccio e un pizzico di cannella in polvere."
+    ]
+   },
+   "tips": [
+    "Dimezza lo zucchero e affidati a cannella e vaniglia per il sapore; 1 cucchiaio di zucchero ≈ 48 kcal.",
+    "Usa latte scremato o sostituisci parte del latte con acqua per un bicchiere più leggero.",
+    "Versane un bicchiere più piccolo da 200 ml con molto ghiaccio invece di una tazza grande."
+   ]
+  },
+  "el": {
+   "name": "Μεξικάνικη ορτσάτα",
+   "origin": "Μεξικό",
+   "intro": "Η μεξικάνικη ορτσάτα είναι κρύο, γαλακτερό ρόφημα από ρύζι μουλιασμένο με κανέλα, που μετά πολτοποιείται, σουρώνεται και γλυκαίνεται με ζάχαρη και βανίλια. Αυτή η εκδοχή προσθέτει γάλα για πιο κρεμώδες σώμα. Έχει γλυκιά, απαλά μπαχαρένια γεύση και λεία, ελαφρώς αμυλώδη υφή, και σερβίρεται με πάγο μαζί με τάκος και πικάντικα πιάτα.",
+   "history": "Η ορτσάτα ήρθε στο Μεξικό από την Ισπανία, όπου το αρχικό ρόφημα φτιάχνεται από κύπερη· στο Μεξικό βάση έγινε το ρύζι. Σήμερα είναι ένα από τα κλασικά agua fresca που πωλούνται σε αγορές, τακερίες και πάγκους του δρόμου σε όλη τη χώρα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "150 γρ. λευκό μακρύκοκκο ρύζι",
+     "1 ξύλο κανέλας",
+     "1 λίτρο νερό",
+     "250 ml γάλα",
+     "80 γρ. ζάχαρη",
+     "1 κ.γ. εκχύλισμα βανίλιας",
+     "Πάγος για το σερβίρισμα"
+    ],
+    "steps": [
+     "Ξεπλύνετε το ρύζι και μουλιάστε το με το ξύλο κανέλας σε 500 ml χλιαρό νερό για τουλάχιστον 4 ώρες ή όλη τη νύχτα.",
+     "Πολτοποιήστε το ρύζι, την κανέλα και το νερό του μουλιάσματος μέχρι να γίνουν πολύ λεία.",
+     "Σουρώστε από ψιλό σουρωτήρι ή πανί, πιέζοντας για να βγει το υγρό.",
+     "Ανακατέψτε το υπόλοιπο νερό, το γάλα, τη ζάχαρη και τη βανίλια μέχρι να διαλυθεί η ζάχαρη.",
+     "Κρυώστε και σερβίρετε με πάγο και μια πρέζα κανέλα."
+    ]
+   },
+   "tips": [
+    "Μειώστε τη ζάχαρη στο μισό και αφήστε την κανέλα και τη βανίλια να δώσουν τη γεύση· 1 κ.σ. ζάχαρη ≈ 48 kcal.",
+    "Χρησιμοποιήστε αποβουτυρωμένο γάλα ή αντικαταστήστε μέρος του γάλακτος με νερό για πιο ελαφρύ ποτήρι.",
+    "Βάλτε ένα μικρότερο ποτήρι 200 ml με άφθονο πάγο αντί για μεγάλη κούπα."
+   ]
+  },
+  "ru": {
+   "name": "Мексиканская орчата",
+   "origin": "Мексика",
+   "intro": "Мексиканская орчата — охлаждённый молочный напиток из риса, замоченного с корицей, затем измельчённого, процеженного и подслащённого сахаром и ванилью. В эту версию добавлено молоко для более кремовой консистенции. Он на вкус сладкий и слегка пряный, с гладкой, слегка крахмалистой текстурой, и его подают со льдом к тако и острым блюдам.",
+   "history": "Орчата попала в Мексику из Испании, где оригинальный напиток делают из земляного миндаля; в Мексике основой стал рис. Сегодня это одна из классических агуа фреска, которые продают на рынках, в такерию и на уличных лотках по всей стране.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "150 г длиннозёрного белого риса",
+     "1 палочка корицы",
+     "1 литр воды",
+     "250 мл молока",
+     "80 г сахара",
+     "1 ч. л. ванильного экстракта",
+     "Лёд для подачи"
+    ],
+    "steps": [
+     "Промойте рис и замочите с палочкой корицы в 500 мл тёплой воды не менее чем на 4 часа или на ночь.",
+     "Измельчите рис, корицу и воду от замачивания в блендере до очень гладкой массы.",
+     "Процедите через мелкое сито или ткань, отжимая жидкость.",
+     "Вмешайте оставшуюся воду, молоко, сахар и ваниль до растворения сахара.",
+     "Охладите и подавайте со льдом, посыпав щепоткой молотой корицы."
+    ]
+   },
+   "tips": [
+    "Сократите сахар вдвое и опирайтесь на корицу и ваниль для вкуса; 1 ст. л. сахара ≈ 48 ккал.",
+    "Используйте обезжиренное молоко или замените часть молока водой для более лёгкого напитка.",
+    "Наливайте меньший стакан 200 мл с большим количеством льда вместо большой чашки."
+   ],
+   "name_inline": "мексиканская орчата"
+  },
+  "es": {
+   "name": "Horchata mexicana",
+   "origin": "México",
+   "intro": "La horchata mexicana es una bebida fría y lechosa hecha con arroz remojado con canela, licuado, colado y endulzado con azúcar y vainilla. Esta versión lleva leche para darle un cuerpo más cremoso. Es dulce y ligeramente especiada, de textura suave y un poco almidonada, y se sirve con hielo para acompañar tacos y platillos picantes.",
+   "history": "La horchata llegó a México desde España, donde la bebida original se prepara con chufas; en México el arroz se volvió la base habitual. Hoy es una de las aguas frescas clásicas que se venden en mercados, taquerías y puestos callejeros de todo el país.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "150 g de arroz blanco de grano largo",
+     "1 raja de canela",
+     "1 litro de agua",
+     "250 ml de leche",
+     "80 g de azúcar",
+     "1 cdta. de extracto de vainilla",
+     "Hielo para servir"
+    ],
+    "steps": [
+     "Enjuaga el arroz y remójalo con la raja de canela en 500 ml de agua tibia durante al menos 4 horas, o toda la noche.",
+     "Licúa el arroz, la canela y el agua del remojo hasta que quede muy lisa.",
+     "Cuela por un colador fino o una tela, exprimiendo bien el líquido.",
+     "Agrega el resto del agua, la leche, el azúcar y la vainilla, y mezcla hasta que el azúcar se disuelva.",
+     "Refrigera y sirve con hielo y una pizca de canela molida."
+    ]
+   },
+   "tips": [
+    "Reduce el azúcar a la mitad y deja que la canela y la vainilla pongan el sabor; 1 cda. de azúcar ≈ 48 kcal.",
+    "Usa leche descremada o sustituye parte de la leche por agua para un vaso más ligero.",
+    "Sirve un vaso más chico de 200 ml con mucho hielo, en lugar de un vaso grande."
+   ],
+   "name_inline": "la horchata mexicana"
   }
+ }
 }

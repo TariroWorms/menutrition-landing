@@ -1,72 +1,102 @@
 {
-  "db_key": "mojito",
-  "slug": "mojito",
-  "emoji": "🍹",
-  "portion_g": 220,
-  "country": "CU",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "mojito",
+ "slug": "mojito",
+ "emoji": "🍹",
+ "portion_g": 220,
+ "country": "CU",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Mojito",
+   "origin": "Cuba · Havana",
+   "intro": "The mojito is a Cuban highball of white rum, fresh mint, lime juice and sugar, topped with soda water and served over crushed ice. The mint and lime are gently muddled to release their oils, giving a drink that is sweet, sour and very refreshing. It is served in a tall glass with a sprig of mint and a lime wedge.",
+   "history": "The mojito is associated with Havana, and its roots are usually traced to earlier Cuban mixes of rum or cane spirit with lime, sugar and mint. The origin of the name is uncertain, and the stories linking the drink to famous visitors are best treated as legend. Today it is one of the most widely ordered cocktails in the world.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "50 ml white rum",
+     "10 fresh mint leaves",
+     "25 ml fresh lime juice",
+     "2 tsp sugar",
+     "100 ml soda water",
+     "Crushed ice, lime wedge"
+    ],
+    "steps": [
+     "Put the mint, sugar and lime juice in a tall glass.",
+     "Press gently with a muddler to bruise the mint without shredding it.",
+     "Fill the glass with crushed ice and pour in the rum.",
+     "Top with soda water, stir from the bottom and garnish with mint and lime."
+    ]
+   },
+   "tips": [
+    "Halve the sugar or use a zero-calorie sweetener; 1 tsp sugar ≈ 16 kcal.",
+    "Use more soda water and less rum for a longer, lighter drink.",
+    "For an alcohol-free version, skip the rum and add extra lime and soda."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Mojito",
-      "origin": "Cuba · Havana",
-      "intro": "The mojito is a Cuban highball of white rum, fresh mint, lime juice and sugar, topped with soda water and served over crushed ice. The mint and lime are gently muddled to release their oils, giving a drink that is sweet, sour and very refreshing. It is served in a tall glass with a sprig of mint and a lime wedge.",
-      "history": "The mojito is associated with Havana, and its roots are usually traced to earlier Cuban mixes of rum or cane spirit with lime, sugar and mint. The origin of the name is uncertain, and the stories linking the drink to famous visitors are best treated as legend. Today it is one of the most widely ordered cocktails in the world.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "50 ml white rum",
-          "10 fresh mint leaves",
-          "25 ml fresh lime juice",
-          "2 tsp sugar",
-          "100 ml soda water",
-          "Crushed ice, lime wedge"
-        ],
-        "steps": [
-          "Put the mint, sugar and lime juice in a tall glass.",
-          "Press gently with a muddler to bruise the mint without shredding it.",
-          "Fill the glass with crushed ice and pour in the rum.",
-          "Top with soda water, stir from the bottom and garnish with mint and lime."
-        ]
-      },
-      "tips": [
-        "Halve the sugar or use a zero-calorie sweetener; 1 tsp sugar ≈ 16 kcal.",
-        "Use more soda water and less rum for a longer, lighter drink.",
-        "For an alcohol-free version, skip the rum and add extra lime and soda."
-      ]
-    },
-    "ar": {
-      "name": "موهيتو",
-      "origin": "كوبا · هافانا",
-      "intro": "الموهيتو مشروب كوبي طويل من الروم الأبيض والنعناع الطازج وعصير الليمون والسكر، يُكمَّل بالماء الغازي ويقدم على ثلج مجروش. يُهرس النعناع والليمون برفق لإطلاق زيوتهما، فيكون المشروب حلواً وحامضاً ومنعشاً جداً. يقدم في كأس طويلة مع غصن نعناع وشريحة ليمون.",
-      "history": "يرتبط الموهيتو بمدينة هافانا، وتُرجع جذوره عادة إلى خلطات كوبية أقدم من الروم أو عرق القصب مع الليمون والسكر والنعناع. أصل الاسم غير مؤكد، والحكايات التي تربطه بزوار مشاهير أقرب إلى الأسطورة. وهو اليوم من أكثر المشروبات المخلوطة طلباً في العالم.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "50 مل روم أبيض",
-          "10 أوراق نعناع طازج",
-          "25 مل عصير ليمون طازج",
-          "2 ملعقة صغيرة سكر",
-          "100 مل ماء غازي",
-          "ثلج مجروش، شريحة ليمون"
-        ],
-        "steps": [
-          "ضع النعناع والسكر وعصير الليمون في كأس طويلة.",
-          "اضغط عليها برفق بأداة الهرس لتكسير النعناع دون تمزيقه.",
-          "املأ الكأس بالثلج المجروش وأضف الروم.",
-          "أكمل بالماء الغازي وحرّك من الأسفل وزيّن بالنعناع والليمون."
-        ]
-      },
-      "tips": [
-        "قلّل السكر إلى النصف أو استخدم محلياً بلا سعرات؛ ملعقة صغيرة سكر ≈ 16 سعرة.",
-        "زد الماء الغازي وقلّل الروم لمشروب أطول وأخف.",
-        "لنسخة بلا كحول، استغنِ عن الروم وأضف مزيداً من الليمون والماء الغازي."
-      ]
-    }
+  "ar": {
+   "name": "موهيتو",
+   "origin": "كوبا · هافانا",
+   "intro": "الموهيتو مشروب كوبي طويل من الروم الأبيض والنعناع الطازج وعصير الليمون والسكر، يُكمَّل بالماء الغازي ويقدم على ثلج مجروش. يُهرس النعناع والليمون برفق لإطلاق زيوتهما، فيكون المشروب حلواً وحامضاً ومنعشاً جداً. يقدم في كأس طويلة مع غصن نعناع وشريحة ليمون.",
+   "history": "يرتبط الموهيتو بمدينة هافانا، وتُرجع جذوره عادة إلى خلطات كوبية أقدم من الروم أو عرق القصب مع الليمون والسكر والنعناع. أصل الاسم غير مؤكد، والحكايات التي تربطه بزوار مشاهير أقرب إلى الأسطورة. وهو اليوم من أكثر المشروبات المخلوطة طلباً في العالم.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "50 مل روم أبيض",
+     "10 أوراق نعناع طازج",
+     "25 مل عصير ليمون طازج",
+     "2 ملعقة صغيرة سكر",
+     "100 مل ماء غازي",
+     "ثلج مجروش، شريحة ليمون"
+    ],
+    "steps": [
+     "ضع النعناع والسكر وعصير الليمون في كأس طويلة.",
+     "اضغط عليها برفق بأداة الهرس لتكسير النعناع دون تمزيقه.",
+     "املأ الكأس بالثلج المجروش وأضف الروم.",
+     "أكمل بالماء الغازي وحرّك من الأسفل وزيّن بالنعناع والليمون."
+    ]
+   },
+   "tips": [
+    "قلّل السكر إلى النصف أو استخدم محلياً بلا سعرات؛ ملعقة صغيرة سكر ≈ 16 سعرة.",
+    "زد الماء الغازي وقلّل الروم لمشروب أطول وأخف.",
+    "لنسخة بلا كحول، استغنِ عن الروم وأضف مزيداً من الليمون والماء الغازي."
+   ]
+  },
+  "es": {
+   "name": "Mojito",
+   "origin": "Cuba · La Habana",
+   "intro": "El mojito es un highball cubano de ron blanco, hierbabuena fresca, jugo de limón y azúcar, completado con agua con gas y servido sobre hielo picado. La hierbabuena y el limón se machacan suavemente para liberar sus aceites, y resulta una bebida dulce, ácida y muy refrescante. Se sirve en un vaso alto con una ramita de hierbabuena y un gajo de limón.",
+   "history": "El mojito se asocia con La Habana, y sus raíces suelen rastrearse hasta mezclas cubanas más antiguas de ron o aguardiente de caña con limón, azúcar y hierbabuena. El origen del nombre es incierto, y las historias que vinculan la bebida con visitantes famosos conviene tomarlas como leyenda. Hoy es uno de los cócteles más pedidos del mundo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "50 ml de ron blanco",
+     "10 hojas de hierbabuena fresca",
+     "25 ml de jugo de limón fresco",
+     "2 cdtas. de azúcar",
+     "100 ml de agua con gas",
+     "Hielo picado, gajo de limón"
+    ],
+    "steps": [
+     "Pon la hierbabuena, el azúcar y el jugo de limón en un vaso alto.",
+     "Presiona suavemente con un mortero de bar para machacar la hierbabuena sin desmenuzarla.",
+     "Llena el vaso con hielo picado y vierte el ron.",
+     "Completa con agua con gas, revuelve desde el fondo y decora con hierbabuena y limón."
+    ]
+   },
+   "tips": [
+    "Reduce el azúcar a la mitad o usa un endulzante sin calorías; 1 cdta. de azúcar ≈ 16 kcal.",
+    "Usa más agua con gas y menos ron para una bebida más larga y liviana.",
+    "Para una versión sin alcohol, omite el ron y agrega más limón y agua con gas."
+   ],
+   "name_inline": "el mojito"
   }
+ }
 }

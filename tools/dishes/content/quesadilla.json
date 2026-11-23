@@ -1,176 +1,209 @@
 {
-  "db_key": "quesadilla",
-  "slug": "quesadilla",
-  "emoji": "🌮",
-  "portion_g": 200,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "quesadilla",
+ "slug": "quesadilla",
+ "emoji": "🌮",
+ "portion_g": 200,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Chicken Quesadilla",
+   "origin": "Mexico",
+   "intro": "A quesadilla is a tortilla folded around melted cheese and toasted on a griddle until crisp. This version adds shredded chicken, sautéed bell pepper and onion, so it works as a full meal. It is cut into wedges and served hot, often with salsa or guacamole on the side.",
+   "history": "Quesadillas come from central Mexico and became possible once cheese-making arrived with the Spanish. Flour-tortilla versions with chicken and peppers are especially popular in northern Mexico and the United States.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 large flour tortillas",
+     "150 g cooked chicken breast, shredded",
+     "100 g grated cheese",
+     "1 bell pepper, sliced",
+     "1 onion, sliced",
+     "1 tsp oil",
+     "½ tsp cumin",
+     "Salt, pepper"
+    ],
+    "steps": [
+     "Sauté pepper and onion in the oil for 5–6 minutes until soft; season with cumin, salt and pepper.",
+     "Add the chicken and warm through.",
+     "Scatter half the cheese over half of each tortilla, top with filling and the rest of the cheese, then fold.",
+     "Toast in a dry pan 2–3 minutes per side until golden and the cheese melts.",
+     "Cut into wedges and serve with salsa."
+    ]
+   },
+   "tips": [
+    "Use half the cheese and add more peppers and onion for volume.",
+    "Toast in a dry pan instead of brushing with oil — 1 tbsp oil ≈ 120 kcal.",
+    "Serve with fresh salsa instead of sour cream."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Chicken Quesadilla",
-      "origin": "Mexico",
-      "intro": "A quesadilla is a tortilla folded around melted cheese and toasted on a griddle until crisp. This version adds shredded chicken, sautéed bell pepper and onion, so it works as a full meal. It is cut into wedges and served hot, often with salsa or guacamole on the side.",
-      "history": "Quesadillas come from central Mexico and became possible once cheese-making arrived with the Spanish. Flour-tortilla versions with chicken and peppers are especially popular in northern Mexico and the United States.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 large flour tortillas",
-          "150 g cooked chicken breast, shredded",
-          "100 g grated cheese",
-          "1 bell pepper, sliced",
-          "1 onion, sliced",
-          "1 tsp oil",
-          "½ tsp cumin",
-          "Salt, pepper"
-        ],
-        "steps": [
-          "Sauté pepper and onion in the oil for 5–6 minutes until soft; season with cumin, salt and pepper.",
-          "Add the chicken and warm through.",
-          "Scatter half the cheese over half of each tortilla, top with filling and the rest of the cheese, then fold.",
-          "Toast in a dry pan 2–3 minutes per side until golden and the cheese melts.",
-          "Cut into wedges and serve with salsa."
-        ]
-      },
-      "tips": [
-        "Use half the cheese and add more peppers and onion for volume.",
-        "Toast in a dry pan instead of brushing with oil — 1 tbsp oil ≈ 120 kcal.",
-        "Serve with fresh salsa instead of sour cream."
-      ]
-    },
-    "ar": {
-      "name": "كاساديا بالدجاج",
-      "origin": "المكسيك",
-      "intro": "الكاساديا تورتيلا تُطوى حول جبن مذاب وتُحمّص على الصاج حتى تصبح مقرمشة. تضيف هذه النسخة دجاجًا مقطّعًا وفلفلًا رومياً وبصلًا مقليًا قليلًا، فتصبح وجبة كاملة. تُقطّع مثلثات وتُقدّم ساخنة مع الصلصة أو الغواكامولي.",
-      "history": "تعود الكاساديا إلى وسط المكسيك، وقد ظهرت بعد أن أدخل الإسبان صناعة الجبن. والنسخ المصنوعة من تورتيلا القمح مع الدجاج والفلفل شائعة خصوصًا في شمال المكسيك والولايات المتحدة.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 تورتيلا قمح كبيرة",
-          "150 غ صدر دجاج مطبوخ ومقطّع",
-          "100 غ جبن مبشور",
-          "1 فلفل رومي شرائح",
-          "1 بصلة شرائح",
-          "1 ملعقة صغيرة زيت",
-          "½ ملعقة صغيرة كمون",
-          "ملح وفلفل"
-        ],
-        "steps": [
-          "شوّح الفلفل والبصل في الزيت 5–6 دقائق حتى يطريا، وتبّل بالكمون والملح والفلفل.",
-          "أضف الدجاج وسخّنه.",
-          "وزّع نصف الجبن على نصف كل تورتيلا، ثم الحشوة وبقية الجبن، واطوها.",
-          "حمّصها في مقلاة جافة 2–3 دقائق لكل جهة حتى تذهب ويذوب الجبن.",
-          "قطّعها مثلثات وقدّمها مع الصلصة."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية الجبن وزد الفلفل والبصل لزيادة الحجم.",
-        "حمّصها في مقلاة جافة بدل دهنها بالزيت — ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "قدّمها مع صلصة طازجة بدل القشدة الحامضة."
-      ]
-    },
-    "it": {
-      "name": "Quesadilla di pollo",
-      "name_inline": "quesadilla di pollo",
-      "origin": "Messico",
-      "intro": "La quesadilla è una tortilla piegata attorno a formaggio fuso e tostata sulla piastra finché è croccante. Questa versione aggiunge pollo sfilacciato, peperone e cipolla saltati, così diventa un pasto completo. Si taglia a spicchi e si serve calda, spesso con salsa o guacamole a parte.",
-      "history": "Le quesadillas vengono dal Messico centrale e sono diventate possibili quando la produzione di formaggio arrivò con gli spagnoli. Le versioni con tortilla di farina, pollo e peperoni sono particolarmente popolari nel Messico settentrionale e negli Stati Uniti.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 tortillas di farina grandi",
-          "150 g di petto di pollo cotto, sfilacciato",
-          "100 g di formaggio grattugiato",
-          "1 peperone, affettato",
-          "1 cipolla, affettata",
-          "1 cucchiaino di olio",
-          "½ cucchiaino di cumino",
-          "Sale, pepe"
-        ],
-        "steps": [
-          "Salta peperone e cipolla nell'olio per 5–6 minuti finché sono morbidi; condisci con cumino, sale e pepe.",
-          "Aggiungi il pollo e scaldalo bene.",
-          "Distribuisci metà del formaggio su metà di ogni tortilla, aggiungi il ripieno e il resto del formaggio, poi piega.",
-          "Tosta in una padella asciutta per 2–3 minuti per lato finché è dorata e il formaggio si scioglie.",
-          "Taglia a spicchi e servi con la salsa."
-        ]
-      },
-      "tips": [
-        "Usa metà del formaggio e aggiungi più peperoni e cipolla per dare volume.",
-        "Tosta in una padella asciutta invece di spennellare d'olio — 1 cucchiaio di olio ≈ 120 kcal.",
-        "Servila con salsa fresca invece che con panna acida."
-      ]
-    },
-    "el": {
-      "name": "Κεσαδίγια κοτόπουλο",
-      "name_inline": "κεσαδίγια κοτόπουλο",
-      "origin": "Μεξικό",
-      "intro": "Η κεσαδίγια είναι μια τορτίγια διπλωμένη γύρω από λιωμένο τυρί και ψημένη στο πλατό μέχρι να γίνει τραγανή. Αυτή η εκδοχή προσθέτει ξεφτισμένο κοτόπουλο και σοταρισμένη πιπεριά και κρεμμύδι, ώστε να αποτελεί πλήρες γεύμα. Κόβεται σε τρίγωνα και σερβίρεται ζεστή, συχνά με σάλσα ή γκουακαμόλε στο πλάι.",
-      "history": "Οι κεσαδίγιες προέρχονται από το κεντρικό Μεξικό και έγιναν δυνατές όταν η τυροκομία έφτασε με τους Ισπανούς. Οι εκδοχές με τορτίγια από αλεύρι σίτου, κοτόπουλο και πιπεριές είναι ιδιαίτερα δημοφιλείς στο βόρειο Μεξικό και στις Ηνωμένες Πολιτείες.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 μεγάλες τορτίγιες από αλεύρι σίτου",
-          "150 γρ. ψημένο στήθος κοτόπουλου, ξεφτισμένο",
-          "100 γρ. τριμμένο τυρί",
-          "1 πιπεριά, σε λωρίδες",
-          "1 κρεμμύδι, σε φέτες",
-          "1 κ.γ. λάδι",
-          "½ κ.γ. κύμινο",
-          "Αλάτι, πιπέρι"
-        ],
-        "steps": [
-          "Σοτάρετε την πιπεριά και το κρεμμύδι στο λάδι για 5–6 λεπτά μέχρι να μαλακώσουν· αρωματίστε με κύμινο, αλάτι και πιπέρι.",
-          "Προσθέστε το κοτόπουλο και ζεστάνετέ το καλά.",
-          "Σκορπίστε το μισό τυρί στο μισό κάθε τορτίγιας, βάλτε από πάνω τη γέμιση και το υπόλοιπο τυρί και διπλώστε.",
-          "Ψήστε σε στεγνό τηγάνι 2–3 λεπτά από κάθε πλευρά μέχρι να ροδίσει και να λιώσει το τυρί.",
-          "Κόψτε σε τρίγωνα και σερβίρετε με σάλσα."
-        ]
-      },
-      "tips": [
-        "Βάλτε το μισό τυρί και περισσότερες πιπεριές και κρεμμύδι για όγκο.",
-        "Ψήστε σε στεγνό τηγάνι αντί να την αλείψετε με λάδι — 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Σερβίρετε με φρέσκια σάλσα αντί για ξινή κρέμα."
-      ]
-    },
-    "ru": {
-      "name": "Кесадилья с курицей",
-      "origin": "Мексика",
-      "intro": "Кесадилья — тортилья, сложенная вокруг расплавленного сыра и подрумяненная на плоской сковороде до хруста. В этом варианте добавлены рваная курица, обжаренный болгарский перец и лук, поэтому она подходит как полноценный обед. Её нарезают треугольниками и подают горячей, часто с сальсой или гуакамоле на гарнир.",
-      "history": "Кесадильи родом из центральной Мексики и стали возможны после того, как с испанцами пришло сыроделие. Варианты из пшеничных тортилий с курицей и перцем особенно популярны на севере Мексики и в США.",
-      "recipe": {
-        "servings": 2,
-        "time_min": 25,
-        "ingredients": [
-          "2 большие пшеничные тортильи",
-          "150 г отварной куриной грудки, разобранной на волокна",
-          "100 г тёртого сыра",
-          "1 болгарский перец, нарезанный",
-          "1 луковица, нарезанная",
-          "1 ч. л. масла",
-          "½ ч. л. зиры",
-          "Соль, перец"
-        ],
-        "steps": [
-          "Обжарьте перец и лук в масле 5–6 минут до мягкости; приправьте зирой, солью и перцем.",
-          "Добавьте курицу и прогрейте.",
-          "Посыпьте половиной сыра половину каждой тортильи, выложите начинку и остальной сыр, затем сложите.",
-          "Подрумяньте на сухой сковороде по 2–3 минуты с каждой стороны, пока тортилья не станет золотистой, а сыр не расплавится.",
-          "Нарежьте треугольниками и подавайте с сальсой."
-        ]
-      },
-      "tips": [
-        "Используйте вдвое меньше сыра и добавьте больше перца и лука для объёма.",
-        "Подрумянивайте на сухой сковороде, не смазывая маслом — 1 ст. л. масла ≈ 120 ккал.",
-        "Подавайте со свежей сальсой вместо сметаны."
-      ]
-    }
+  "ar": {
+   "name": "كاساديا بالدجاج",
+   "origin": "المكسيك",
+   "intro": "الكاساديا تورتيلا تُطوى حول جبن مذاب وتُحمّص على الصاج حتى تصبح مقرمشة. تضيف هذه النسخة دجاجًا مقطّعًا وفلفلًا رومياً وبصلًا مقليًا قليلًا، فتصبح وجبة كاملة. تُقطّع مثلثات وتُقدّم ساخنة مع الصلصة أو الغواكامولي.",
+   "history": "تعود الكاساديا إلى وسط المكسيك، وقد ظهرت بعد أن أدخل الإسبان صناعة الجبن. والنسخ المصنوعة من تورتيلا القمح مع الدجاج والفلفل شائعة خصوصًا في شمال المكسيك والولايات المتحدة.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 تورتيلا قمح كبيرة",
+     "150 غ صدر دجاج مطبوخ ومقطّع",
+     "100 غ جبن مبشور",
+     "1 فلفل رومي شرائح",
+     "1 بصلة شرائح",
+     "1 ملعقة صغيرة زيت",
+     "½ ملعقة صغيرة كمون",
+     "ملح وفلفل"
+    ],
+    "steps": [
+     "شوّح الفلفل والبصل في الزيت 5–6 دقائق حتى يطريا، وتبّل بالكمون والملح والفلفل.",
+     "أضف الدجاج وسخّنه.",
+     "وزّع نصف الجبن على نصف كل تورتيلا، ثم الحشوة وبقية الجبن، واطوها.",
+     "حمّصها في مقلاة جافة 2–3 دقائق لكل جهة حتى تذهب ويذوب الجبن.",
+     "قطّعها مثلثات وقدّمها مع الصلصة."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية الجبن وزد الفلفل والبصل لزيادة الحجم.",
+    "حمّصها في مقلاة جافة بدل دهنها بالزيت — ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "قدّمها مع صلصة طازجة بدل القشدة الحامضة."
+   ]
+  },
+  "it": {
+   "name": "Quesadilla di pollo",
+   "name_inline": "quesadilla di pollo",
+   "origin": "Messico",
+   "intro": "La quesadilla è una tortilla piegata attorno a formaggio fuso e tostata sulla piastra finché è croccante. Questa versione aggiunge pollo sfilacciato, peperone e cipolla saltati, così diventa un pasto completo. Si taglia a spicchi e si serve calda, spesso con salsa o guacamole a parte.",
+   "history": "Le quesadillas vengono dal Messico centrale e sono diventate possibili quando la produzione di formaggio arrivò con gli spagnoli. Le versioni con tortilla di farina, pollo e peperoni sono particolarmente popolari nel Messico settentrionale e negli Stati Uniti.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 tortillas di farina grandi",
+     "150 g di petto di pollo cotto, sfilacciato",
+     "100 g di formaggio grattugiato",
+     "1 peperone, affettato",
+     "1 cipolla, affettata",
+     "1 cucchiaino di olio",
+     "½ cucchiaino di cumino",
+     "Sale, pepe"
+    ],
+    "steps": [
+     "Salta peperone e cipolla nell'olio per 5–6 minuti finché sono morbidi; condisci con cumino, sale e pepe.",
+     "Aggiungi il pollo e scaldalo bene.",
+     "Distribuisci metà del formaggio su metà di ogni tortilla, aggiungi il ripieno e il resto del formaggio, poi piega.",
+     "Tosta in una padella asciutta per 2–3 minuti per lato finché è dorata e il formaggio si scioglie.",
+     "Taglia a spicchi e servi con la salsa."
+    ]
+   },
+   "tips": [
+    "Usa metà del formaggio e aggiungi più peperoni e cipolla per dare volume.",
+    "Tosta in una padella asciutta invece di spennellare d'olio — 1 cucchiaio di olio ≈ 120 kcal.",
+    "Servila con salsa fresca invece che con panna acida."
+   ]
+  },
+  "el": {
+   "name": "Κεσαδίγια κοτόπουλο",
+   "name_inline": "κεσαδίγια κοτόπουλο",
+   "origin": "Μεξικό",
+   "intro": "Η κεσαδίγια είναι μια τορτίγια διπλωμένη γύρω από λιωμένο τυρί και ψημένη στο πλατό μέχρι να γίνει τραγανή. Αυτή η εκδοχή προσθέτει ξεφτισμένο κοτόπουλο και σοταρισμένη πιπεριά και κρεμμύδι, ώστε να αποτελεί πλήρες γεύμα. Κόβεται σε τρίγωνα και σερβίρεται ζεστή, συχνά με σάλσα ή γκουακαμόλε στο πλάι.",
+   "history": "Οι κεσαδίγιες προέρχονται από το κεντρικό Μεξικό και έγιναν δυνατές όταν η τυροκομία έφτασε με τους Ισπανούς. Οι εκδοχές με τορτίγια από αλεύρι σίτου, κοτόπουλο και πιπεριές είναι ιδιαίτερα δημοφιλείς στο βόρειο Μεξικό και στις Ηνωμένες Πολιτείες.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 μεγάλες τορτίγιες από αλεύρι σίτου",
+     "150 γρ. ψημένο στήθος κοτόπουλου, ξεφτισμένο",
+     "100 γρ. τριμμένο τυρί",
+     "1 πιπεριά, σε λωρίδες",
+     "1 κρεμμύδι, σε φέτες",
+     "1 κ.γ. λάδι",
+     "½ κ.γ. κύμινο",
+     "Αλάτι, πιπέρι"
+    ],
+    "steps": [
+     "Σοτάρετε την πιπεριά και το κρεμμύδι στο λάδι για 5–6 λεπτά μέχρι να μαλακώσουν· αρωματίστε με κύμινο, αλάτι και πιπέρι.",
+     "Προσθέστε το κοτόπουλο και ζεστάνετέ το καλά.",
+     "Σκορπίστε το μισό τυρί στο μισό κάθε τορτίγιας, βάλτε από πάνω τη γέμιση και το υπόλοιπο τυρί και διπλώστε.",
+     "Ψήστε σε στεγνό τηγάνι 2–3 λεπτά από κάθε πλευρά μέχρι να ροδίσει και να λιώσει το τυρί.",
+     "Κόψτε σε τρίγωνα και σερβίρετε με σάλσα."
+    ]
+   },
+   "tips": [
+    "Βάλτε το μισό τυρί και περισσότερες πιπεριές και κρεμμύδι για όγκο.",
+    "Ψήστε σε στεγνό τηγάνι αντί να την αλείψετε με λάδι — 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Σερβίρετε με φρέσκια σάλσα αντί για ξινή κρέμα."
+   ]
+  },
+  "ru": {
+   "name": "Кесадилья с курицей",
+   "origin": "Мексика",
+   "intro": "Кесадилья — тортилья, сложенная вокруг расплавленного сыра и подрумяненная на плоской сковороде до хруста. В этом варианте добавлены рваная курица, обжаренный болгарский перец и лук, поэтому она подходит как полноценный обед. Её нарезают треугольниками и подают горячей, часто с сальсой или гуакамоле на гарнир.",
+   "history": "Кесадильи родом из центральной Мексики и стали возможны после того, как с испанцами пришло сыроделие. Варианты из пшеничных тортилий с курицей и перцем особенно популярны на севере Мексики и в США.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 большие пшеничные тортильи",
+     "150 г отварной куриной грудки, разобранной на волокна",
+     "100 г тёртого сыра",
+     "1 болгарский перец, нарезанный",
+     "1 луковица, нарезанная",
+     "1 ч. л. масла",
+     "½ ч. л. зиры",
+     "Соль, перец"
+    ],
+    "steps": [
+     "Обжарьте перец и лук в масле 5–6 минут до мягкости; приправьте зирой, солью и перцем.",
+     "Добавьте курицу и прогрейте.",
+     "Посыпьте половиной сыра половину каждой тортильи, выложите начинку и остальной сыр, затем сложите.",
+     "Подрумяньте на сухой сковороде по 2–3 минуты с каждой стороны, пока тортилья не станет золотистой, а сыр не расплавится.",
+     "Нарежьте треугольниками и подавайте с сальсой."
+    ]
+   },
+   "tips": [
+    "Используйте вдвое меньше сыра и добавьте больше перца и лука для объёма.",
+    "Подрумянивайте на сухой сковороде, не смазывая маслом — 1 ст. л. масла ≈ 120 ккал.",
+    "Подавайте со свежей сальсой вместо сметаны."
+   ]
+  },
+  "es": {
+   "name": "Quesadilla de pollo",
+   "origin": "México",
+   "intro": "La quesadilla es una tortilla doblada sobre queso derretido y dorada en el comal hasta quedar crujiente. Esta versión lleva pollo deshebrado, pimiento morrón y cebolla salteados, por lo que funciona como una comida completa. Se corta en triángulos y se sirve caliente, a menudo con salsa o guacamole aparte.",
+   "history": "Las quesadillas vienen del centro de México y fueron posibles cuando la elaboración de queso llegó con los españoles. Las versiones con tortilla de harina, pollo y pimientos son especialmente populares en el norte de México y en Estados Unidos.",
+   "recipe": {
+    "servings": 2,
+    "time_min": 25,
+    "ingredients": [
+     "2 tortillas de harina grandes",
+     "150 g de pechuga de pollo cocida, deshebrada",
+     "100 g de queso rallado",
+     "1 pimiento morrón en tiras",
+     "1 cebolla en rodajas",
+     "1 cdta. de aceite",
+     "½ cdta. de comino",
+     "Sal y pimienta"
+    ],
+    "steps": [
+     "Saltea el pimiento y la cebolla en el aceite de 5 a 6 minutos, hasta que estén suaves; sazona con comino, sal y pimienta.",
+     "Agrega el pollo y caliéntalo.",
+     "Reparte la mitad del queso sobre la mitad de cada tortilla, cubre con el relleno y el resto del queso, y dobla.",
+     "Dora en una sartén seca de 2 a 3 minutos por lado, hasta que estén doradas y el queso se derrita.",
+     "Corta en triángulos y sirve con salsa."
+    ]
+   },
+   "tips": [
+    "Usa la mitad del queso y agrega más pimiento y cebolla para dar volumen.",
+    "Dora en una sartén seca en lugar de untar aceite: 1 cda. de aceite ≈ 120 kcal.",
+    "Sírvela con salsa fresca en lugar de crema agria."
+   ],
+   "name_inline": "la quesadilla de pollo"
   }
+ }
 }

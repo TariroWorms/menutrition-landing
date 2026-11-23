@@ -1,166 +1,197 @@
 {
-  "db_key": "ceviche_mixto",
-  "slug": "ceviche-mixto",
-  "emoji": "🦐",
-  "portion_g": 250,
-  "country": "PE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "ceviche_mixto",
+ "slug": "ceviche-mixto",
+ "emoji": "🦐",
+ "portion_g": 250,
+ "country": "PE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Ceviche mixto",
+   "origin": "Peru · Pacific coast",
+   "intro": "Ceviche mixto is the seafood version of Peruvian ceviche: cubes of raw white fish, shrimp and rings of squid marinated in lime juice with hot rocoto pepper and thin slices of red onion. The mix of textures — tender fish, springy shrimp and squid — makes it a favourite at cevicherías, where it is served cold as a starter or light lunch.",
+   "history": "Mixed seafood ceviche is a staple of Peruvian cevicherías along the coast, especially in Lima, where the shrimp and squid are often briefly blanched before marinating.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 g very fresh white fish fillet, cubed",
+     "200 g peeled shrimp",
+     "200 g squid, cut into rings",
+     "Juice of 10 limes (about 200 ml)",
+     "1 red onion, thinly sliced",
+     "1 rocoto or hot red chili, finely chopped",
+     "Salt"
+    ],
+    "steps": [
+     "Blanch the shrimp and squid in boiling salted water for 1 minute, then cool them in iced water and drain.",
+     "Season the fish with salt and chili in a cold glass bowl.",
+     "Add the shrimp and squid, pour over the lime juice and stir; leave for 3–5 minutes.",
+     "Rinse the onion in cold water, drain, add to the bowl and serve immediately."
+    ]
+   },
+   "tips": [
+    "All the seafood here is lean, so the dish fits most budgets on its own; watch the portions of sides.",
+    "Skip fried corn or fried squid toppings that are sometimes added in restaurants.",
+    "Pair it with a green salad to make a full, light meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Ceviche mixto",
-      "origin": "Peru · Pacific coast",
-      "intro": "Ceviche mixto is the seafood version of Peruvian ceviche: cubes of raw white fish, shrimp and rings of squid marinated in lime juice with hot rocoto pepper and thin slices of red onion. The mix of textures — tender fish, springy shrimp and squid — makes it a favourite at cevicherías, where it is served cold as a starter or light lunch.",
-      "history": "Mixed seafood ceviche is a staple of Peruvian cevicherías along the coast, especially in Lima, where the shrimp and squid are often briefly blanched before marinating.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 g very fresh white fish fillet, cubed",
-          "200 g peeled shrimp",
-          "200 g squid, cut into rings",
-          "Juice of 10 limes (about 200 ml)",
-          "1 red onion, thinly sliced",
-          "1 rocoto or hot red chili, finely chopped",
-          "Salt"
-        ],
-        "steps": [
-          "Blanch the shrimp and squid in boiling salted water for 1 minute, then cool them in iced water and drain.",
-          "Season the fish with salt and chili in a cold glass bowl.",
-          "Add the shrimp and squid, pour over the lime juice and stir; leave for 3–5 minutes.",
-          "Rinse the onion in cold water, drain, add to the bowl and serve immediately."
-        ]
-      },
-      "tips": [
-        "All the seafood here is lean, so the dish fits most budgets on its own; watch the portions of sides.",
-        "Skip fried corn or fried squid toppings that are sometimes added in restaurants.",
-        "Pair it with a green salad to make a full, light meal."
-      ]
-    },
-    "ar": {
-      "name": "سيفيتشي ميكستو",
-      "origin": "بيرو · ساحل المحيط الهادئ",
-      "intro": "سيفيتشي ميكستو هو نسخة المأكولات البحرية من السيفيتشي البيروفي: مكعبات سمك أبيض نيء وروبيان وحلقات حبار منقوعة في عصير الليمون مع فلفل الروكوتو الحار وشرائح البصل الأحمر الرقيقة. يجعله تنوع القوام بين السمك الطري والروبيان والحبار المطاطي طبقًا مفضلًا في محلات السيفيتشي، حيث يُقدّم باردًا كمقبلات أو غداء خفيف.",
-      "history": "سيفيتشي المأكولات البحرية المختلطة طبق أساسي في محلات السيفيتشي على ساحل بيرو، وخاصة في ليما، حيث يُسلق الروبيان والحبار غالبًا سلقًا سريعًا قبل النقع.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 غ فيليه سمك أبيض طازج جدًا مقطع مكعبات",
-          "200 غ روبيان مقشر",
-          "200 غ حبار مقطع حلقات",
-          "عصير 10 ليمونات (نحو 200 مل)",
-          "بصلة حمراء مقطعة شرائح رفيعة",
-          "حبة روكوتو أو فلفل أحمر حار مفرومة ناعمًا",
-          "ملح"
-        ],
-        "steps": [
-          "اسلق الروبيان والحبار في ماء مملح يغلي لمدة دقيقة، ثم بردهما في ماء مثلج وصفّهما.",
-          "تبّل السمك بالملح والفلفل الحار في وعاء زجاجي بارد.",
-          "أضف الروبيان والحبار واسكب عصير الليمون وقلّب، واتركه 3–5 دقائق.",
-          "اغسل البصل بماء بارد وصفّه، ثم أضفه إلى الوعاء وقدّم فورًا."
-        ]
-      },
-      "tips": [
-        "كل المأكولات البحرية هنا قليلة الدهون، فالطبق يناسب معظم الحميات وحده؛ انتبه لكميات الأطباق الجانبية.",
-        "تجنّب الإضافات المقلية التي تقدمها بعض المطاعم فوقه.",
-        "قدّمه مع سلطة خضراء لوجبة كاملة خفيفة."
-      ]
-    },
-    "it": {
-      "name": "Ceviche mixto",
-      "origin": "Perù · Costa del Pacifico",
-      "intro": "Il ceviche mixto è la versione con frutti di mare del ceviche peruviano: cubetti di pesce bianco crudo, gamberi e anelli di calamaro marinati nel succo di lime con il piccante peperoncino rocoto e sottili fette di cipolla rossa. Il mix di consistenze (pesce tenero, gamberi e calamari elastici) lo rende uno dei preferiti nelle cevicherías, dove si serve freddo come antipasto o pranzo leggero.",
-      "name_inline": "ceviche mixto",
-      "history": "Il ceviche misto di frutti di mare è un piatto base delle cevicherías peruviane lungo la costa, soprattutto a Lima, dove gamberi e calamari vengono spesso sbollentati brevemente prima della marinatura.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 g di filetto di pesce bianco freschissimo a cubetti",
-          "200 g di gamberi sgusciati",
-          "200 g di calamari ad anelli",
-          "Succo di 10 lime (circa 200 ml)",
-          "1 cipolla rossa affettata sottile",
-          "1 rocoto o peperoncino rosso piccante tritato finemente",
-          "Sale"
-        ],
-        "steps": [
-          "Sbollenta i gamberi e i calamari in acqua bollente salata per 1 minuto, poi raffreddali in acqua ghiacciata e scolali.",
-          "Condisci il pesce con sale e peperoncino in una ciotola di vetro fredda.",
-          "Aggiungi i gamberi e i calamari, versa il succo di lime e mescola; lascia riposare per 3–5 minuti.",
-          "Sciacqua la cipolla in acqua fredda, scolala, aggiungila nella ciotola e servi subito."
-        ]
-      },
-      "tips": [
-        "Tutti i frutti di mare qui sono magri, quindi il piatto da solo rientra nella maggior parte dei budget; fai attenzione alle porzioni dei contorni.",
-        "Evita il mais fritto o i calamari fritti che a volte si aggiungono al ristorante.",
-        "Abbinalo a un'insalata verde per un pasto completo e leggero."
-      ]
-    },
-    "el": {
-      "name": "Σεβίτσε μίξτο",
-      "origin": "Περού · Ακτή του Ειρηνικού",
-      "intro": "Το σεβίτσε μίξτο είναι η εκδοχή με θαλασσινά του περουβιανού σεβίτσε: κύβοι ωμού λευκού ψαριού, γαρίδες και δαχτυλίδια καλαμαριού μαριναρισμένα σε χυμό λάιμ με καυτερή πιπεριά ροκότο και λεπτές φέτες κόκκινου κρεμμυδιού. Ο συνδυασμός υφών — τρυφερό ψάρι, ελαστικές γαρίδες και καλαμάρι — το κάνει αγαπημένο στις σεβιτσερίες, όπου σερβίρεται κρύο ως ορεκτικό ή ελαφρύ μεσημεριανό.",
-      "history": "Το ανάμεικτο σεβίτσε θαλασσινών είναι βασικό πιάτο των περουβιανών σεβιτσεριών κατά μήκος της ακτής, ιδίως στη Λίμα, όπου οι γαρίδες και τα καλαμάρια συχνά ζεματίζονται για λίγο πριν το μαρινάρισμα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 γρ. πολύ φρέσκο φιλέτο λευκού ψαριού, σε κύβους",
-          "200 γρ. καθαρισμένες γαρίδες",
-          "200 γρ. καλαμάρι, σε δαχτυλίδια",
-          "Χυμός από 10 λάιμ (περίπου 200 ml)",
-          "1 κόκκινο κρεμμύδι, σε λεπτές φέτες",
-          "1 ροκότο ή καυτερή κόκκινη πιπεριά, ψιλοκομμένη",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Ζεματίστε τις γαρίδες και το καλαμάρι σε αλατισμένο νερό που βράζει για 1 λεπτό, μετά κρυώστε τα σε παγωμένο νερό και στραγγίξτε.",
-          "Καρυκεύστε το ψάρι με αλάτι και πιπεριά σε κρύο γυάλινο μπολ.",
-          "Προσθέστε τις γαρίδες και το καλαμάρι, ρίξτε από πάνω τον χυμό λάιμ και ανακατέψτε· αφήστε 3–5 λεπτά.",
-          "Ξεπλύνετε το κρεμμύδι σε κρύο νερό, στραγγίξτε, προσθέστε το στο μπολ και σερβίρετε αμέσως."
-        ]
-      },
-      "tips": [
-        "Όλα τα θαλασσινά εδώ είναι άπαχα, οπότε το πιάτο από μόνο του χωράει στα περισσότερα πλάνα· προσέξτε τις μερίδες των συνοδευτικών.",
-        "Παραλείψτε το τηγανητό καλαμπόκι ή το τηγανητό καλαμάρι που καμιά φορά προστίθενται στα εστιατόρια.",
-        "Συνδυάστε το με πράσινη σαλάτα για ένα πλήρες, ελαφρύ γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Севиче микто",
-      "origin": "Перу · Тихоокеанское побережье",
-      "intro": "Севиче микто — версия перуанского севиче с морепродуктами: кубики сырой белой рыбы, креветки и кольца кальмара, замаринованные в соке лайма с острым перцем рокото и тонкими ломтиками красного лука. Сочетание текстур — нежная рыба, упругие креветки и кальмар — делает его любимым блюдом в севичериях, где его подают холодным как закуску или лёгкий обед.",
-      "history": "Севиче из смеси морепродуктов — основа перуанских севичерий вдоль побережья, особенно в Лиме, где креветок и кальмара часто ненадолго бланшируют перед маринованием.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "300 г очень свежего филе белой рыбы, кубиками",
-          "200 г очищенных креветок",
-          "200 г кальмара, нарезанного кольцами",
-          "Сок 10 лаймов (около 200 мл)",
-          "1 красная луковица, тонко нарезанная",
-          "1 рокото или острый красный чили, мелко нарубленный",
-          "Соль"
-        ],
-        "steps": [
-          "Бланшируйте креветок и кальмара в кипящей подсоленной воде 1 минуту, затем остудите в ледяной воде и обсушите.",
-          "Приправьте рыбу солью и чили в холодной стеклянной миске.",
-          "Добавьте креветок и кальмара, залейте соком лайма и перемешайте; оставьте на 3–5 минут.",
-          "Промойте лук холодной водой, отцедите, добавьте в миску и сразу подавайте."
-        ]
-      },
-      "tips": [
-        "Все морепродукты здесь постные, поэтому блюдо само по себе вписывается в большинство бюджетов; следите за порциями гарниров.",
-        "Откажитесь от жареной кукурузы или жареного кальмара, которые иногда добавляют в ресторанах.",
-        "Сочетайте с зелёным салатом, чтобы получилась полноценная лёгкая еда."
-      ],
-      "name_inline": "севиче микто"
-    }
+  "ar": {
+   "name": "سيفيتشي ميكستو",
+   "origin": "بيرو · ساحل المحيط الهادئ",
+   "intro": "سيفيتشي ميكستو هو نسخة المأكولات البحرية من السيفيتشي البيروفي: مكعبات سمك أبيض نيء وروبيان وحلقات حبار منقوعة في عصير الليمون مع فلفل الروكوتو الحار وشرائح البصل الأحمر الرقيقة. يجعله تنوع القوام بين السمك الطري والروبيان والحبار المطاطي طبقًا مفضلًا في محلات السيفيتشي، حيث يُقدّم باردًا كمقبلات أو غداء خفيف.",
+   "history": "سيفيتشي المأكولات البحرية المختلطة طبق أساسي في محلات السيفيتشي على ساحل بيرو، وخاصة في ليما، حيث يُسلق الروبيان والحبار غالبًا سلقًا سريعًا قبل النقع.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 غ فيليه سمك أبيض طازج جدًا مقطع مكعبات",
+     "200 غ روبيان مقشر",
+     "200 غ حبار مقطع حلقات",
+     "عصير 10 ليمونات (نحو 200 مل)",
+     "بصلة حمراء مقطعة شرائح رفيعة",
+     "حبة روكوتو أو فلفل أحمر حار مفرومة ناعمًا",
+     "ملح"
+    ],
+    "steps": [
+     "اسلق الروبيان والحبار في ماء مملح يغلي لمدة دقيقة، ثم بردهما في ماء مثلج وصفّهما.",
+     "تبّل السمك بالملح والفلفل الحار في وعاء زجاجي بارد.",
+     "أضف الروبيان والحبار واسكب عصير الليمون وقلّب، واتركه 3–5 دقائق.",
+     "اغسل البصل بماء بارد وصفّه، ثم أضفه إلى الوعاء وقدّم فورًا."
+    ]
+   },
+   "tips": [
+    "كل المأكولات البحرية هنا قليلة الدهون، فالطبق يناسب معظم الحميات وحده؛ انتبه لكميات الأطباق الجانبية.",
+    "تجنّب الإضافات المقلية التي تقدمها بعض المطاعم فوقه.",
+    "قدّمه مع سلطة خضراء لوجبة كاملة خفيفة."
+   ]
+  },
+  "it": {
+   "name": "Ceviche mixto",
+   "origin": "Perù · Costa del Pacifico",
+   "intro": "Il ceviche mixto è la versione con frutti di mare del ceviche peruviano: cubetti di pesce bianco crudo, gamberi e anelli di calamaro marinati nel succo di lime con il piccante peperoncino rocoto e sottili fette di cipolla rossa. Il mix di consistenze (pesce tenero, gamberi e calamari elastici) lo rende uno dei preferiti nelle cevicherías, dove si serve freddo come antipasto o pranzo leggero.",
+   "name_inline": "ceviche mixto",
+   "history": "Il ceviche misto di frutti di mare è un piatto base delle cevicherías peruviane lungo la costa, soprattutto a Lima, dove gamberi e calamari vengono spesso sbollentati brevemente prima della marinatura.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 g di filetto di pesce bianco freschissimo a cubetti",
+     "200 g di gamberi sgusciati",
+     "200 g di calamari ad anelli",
+     "Succo di 10 lime (circa 200 ml)",
+     "1 cipolla rossa affettata sottile",
+     "1 rocoto o peperoncino rosso piccante tritato finemente",
+     "Sale"
+    ],
+    "steps": [
+     "Sbollenta i gamberi e i calamari in acqua bollente salata per 1 minuto, poi raffreddali in acqua ghiacciata e scolali.",
+     "Condisci il pesce con sale e peperoncino in una ciotola di vetro fredda.",
+     "Aggiungi i gamberi e i calamari, versa il succo di lime e mescola; lascia riposare per 3–5 minuti.",
+     "Sciacqua la cipolla in acqua fredda, scolala, aggiungila nella ciotola e servi subito."
+    ]
+   },
+   "tips": [
+    "Tutti i frutti di mare qui sono magri, quindi il piatto da solo rientra nella maggior parte dei budget; fai attenzione alle porzioni dei contorni.",
+    "Evita il mais fritto o i calamari fritti che a volte si aggiungono al ristorante.",
+    "Abbinalo a un'insalata verde per un pasto completo e leggero."
+   ]
+  },
+  "el": {
+   "name": "Σεβίτσε μίξτο",
+   "origin": "Περού · Ακτή του Ειρηνικού",
+   "intro": "Το σεβίτσε μίξτο είναι η εκδοχή με θαλασσινά του περουβιανού σεβίτσε: κύβοι ωμού λευκού ψαριού, γαρίδες και δαχτυλίδια καλαμαριού μαριναρισμένα σε χυμό λάιμ με καυτερή πιπεριά ροκότο και λεπτές φέτες κόκκινου κρεμμυδιού. Ο συνδυασμός υφών — τρυφερό ψάρι, ελαστικές γαρίδες και καλαμάρι — το κάνει αγαπημένο στις σεβιτσερίες, όπου σερβίρεται κρύο ως ορεκτικό ή ελαφρύ μεσημεριανό.",
+   "history": "Το ανάμεικτο σεβίτσε θαλασσινών είναι βασικό πιάτο των περουβιανών σεβιτσεριών κατά μήκος της ακτής, ιδίως στη Λίμα, όπου οι γαρίδες και τα καλαμάρια συχνά ζεματίζονται για λίγο πριν το μαρινάρισμα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 γρ. πολύ φρέσκο φιλέτο λευκού ψαριού, σε κύβους",
+     "200 γρ. καθαρισμένες γαρίδες",
+     "200 γρ. καλαμάρι, σε δαχτυλίδια",
+     "Χυμός από 10 λάιμ (περίπου 200 ml)",
+     "1 κόκκινο κρεμμύδι, σε λεπτές φέτες",
+     "1 ροκότο ή καυτερή κόκκινη πιπεριά, ψιλοκομμένη",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Ζεματίστε τις γαρίδες και το καλαμάρι σε αλατισμένο νερό που βράζει για 1 λεπτό, μετά κρυώστε τα σε παγωμένο νερό και στραγγίξτε.",
+     "Καρυκεύστε το ψάρι με αλάτι και πιπεριά σε κρύο γυάλινο μπολ.",
+     "Προσθέστε τις γαρίδες και το καλαμάρι, ρίξτε από πάνω τον χυμό λάιμ και ανακατέψτε· αφήστε 3–5 λεπτά.",
+     "Ξεπλύνετε το κρεμμύδι σε κρύο νερό, στραγγίξτε, προσθέστε το στο μπολ και σερβίρετε αμέσως."
+    ]
+   },
+   "tips": [
+    "Όλα τα θαλασσινά εδώ είναι άπαχα, οπότε το πιάτο από μόνο του χωράει στα περισσότερα πλάνα· προσέξτε τις μερίδες των συνοδευτικών.",
+    "Παραλείψτε το τηγανητό καλαμπόκι ή το τηγανητό καλαμάρι που καμιά φορά προστίθενται στα εστιατόρια.",
+    "Συνδυάστε το με πράσινη σαλάτα για ένα πλήρες, ελαφρύ γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Севиче микто",
+   "origin": "Перу · Тихоокеанское побережье",
+   "intro": "Севиче микто — версия перуанского севиче с морепродуктами: кубики сырой белой рыбы, креветки и кольца кальмара, замаринованные в соке лайма с острым перцем рокото и тонкими ломтиками красного лука. Сочетание текстур — нежная рыба, упругие креветки и кальмар — делает его любимым блюдом в севичериях, где его подают холодным как закуску или лёгкий обед.",
+   "history": "Севиче из смеси морепродуктов — основа перуанских севичерий вдоль побережья, особенно в Лиме, где креветок и кальмара часто ненадолго бланшируют перед маринованием.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 г очень свежего филе белой рыбы, кубиками",
+     "200 г очищенных креветок",
+     "200 г кальмара, нарезанного кольцами",
+     "Сок 10 лаймов (около 200 мл)",
+     "1 красная луковица, тонко нарезанная",
+     "1 рокото или острый красный чили, мелко нарубленный",
+     "Соль"
+    ],
+    "steps": [
+     "Бланшируйте креветок и кальмара в кипящей подсоленной воде 1 минуту, затем остудите в ледяной воде и обсушите.",
+     "Приправьте рыбу солью и чили в холодной стеклянной миске.",
+     "Добавьте креветок и кальмара, залейте соком лайма и перемешайте; оставьте на 3–5 минут.",
+     "Промойте лук холодной водой, отцедите, добавьте в миску и сразу подавайте."
+    ]
+   },
+   "tips": [
+    "Все морепродукты здесь постные, поэтому блюдо само по себе вписывается в большинство бюджетов; следите за порциями гарниров.",
+    "Откажитесь от жареной кукурузы или жареного кальмара, которые иногда добавляют в ресторанах.",
+    "Сочетайте с зелёным салатом, чтобы получилась полноценная лёгкая еда."
+   ],
+   "name_inline": "севиче микто"
+  },
+  "es": {
+   "name": "Ceviche mixto",
+   "origin": "Perú · Costa del Pacífico",
+   "intro": "El ceviche mixto es la versión con mariscos del ceviche peruano: cubos de pescado blanco crudo, camarones y anillos de calamar marinados en jugo de limón con rocoto picante y rodajas finas de cebolla morada. La mezcla de texturas, con pescado tierno y camarones y calamares elásticos, lo convierte en favorito de las cevicherías, donde se sirve frío como entrada o almuerzo ligero.",
+   "history": "El ceviche mixto de mariscos es un clásico de las cevicherías peruanas de la costa, en especial en Lima, donde los camarones y los calamares suelen sancocharse brevemente antes de marinarlos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "300 g de filete de pescado blanco muy fresco, en cubos",
+     "200 g de camarones pelados",
+     "200 g de calamares, cortados en anillos",
+     "Jugo de 10 limones (unos 200 ml)",
+     "1 cebolla morada, en rodajas finas",
+     "1 rocoto o ají rojo picante, picado finamente",
+     "Sal"
+    ],
+    "steps": [
+     "Sancocha los camarones y los calamares en agua hirviendo con sal durante 1 minuto, enfríalos en agua con hielo y escúrrelos.",
+     "Sazona el pescado con sal y ají en un bol de vidrio frío.",
+     "Agrega los camarones y los calamares, vierte el jugo de limón y revuelve; deja reposar de 3 a 5 minutos.",
+     "Enjuaga la cebolla con agua fría, escúrrela, añádela al bol y sirve de inmediato."
+    ]
+   },
+   "tips": [
+    "Todos los mariscos de este plato son magros, así que por sí solo cabe en casi cualquier presupuesto; cuida las porciones de las guarniciones.",
+    "Evita los toppings de maíz frito o calamares fritos que a veces se agregan en los restaurantes.",
+    "Acompáñalo con una ensalada verde para armar una comida completa y ligera."
+   ],
+   "name_inline": "el ceviche mixto"
   }
+ }
 }

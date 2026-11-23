@@ -1,181 +1,215 @@
 {
-  "db_key": "picadillo_cubano",
-  "slug": "picadillo-cubano",
-  "emoji": "🍲",
-  "portion_g": 250,
-  "country": "CU",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "picadillo_cubano",
+ "slug": "picadillo-cubano",
+ "emoji": "🍲",
+ "portion_g": 250,
+ "country": "CU",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Cuban Picadillo",
+   "origin": "Cuba · Caribbean",
+   "intro": "Cuban picadillo is a homestyle hash of ground beef simmered in a tomato sauce with cumin, briny green olives, sweet raisins and small cubes of potato. The result is savory, slightly sweet and a little tangy, with a loose, spoonable texture. It is usually served with white rice and black beans, and sometimes fried ripe plantains.",
+   "history": "Picadillo, from the Spanish picar ('to chop'), is a dish found across Spain and Latin America, and the Cuban version is known for its olives and raisins. It is a fixture of Cuban home cooking and of Cuban-American kitchens in Miami.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 g ground beef",
+     "2 potatoes (300 g), diced small",
+     "1 onion and 1 green bell pepper, chopped",
+     "3 garlic cloves",
+     "400 g crushed tomatoes",
+     "60 g green olives, sliced",
+     "40 g raisins",
+     "1 tsp ground cumin, salt, pepper",
+     "1 tbsp oil"
+    ],
+    "steps": [
+     "Fry the diced potato in the oil until golden, then set aside.",
+     "Sauté onion, pepper and garlic until soft.",
+     "Add the beef and brown it, breaking it up, then pour off excess fat.",
+     "Stir in tomatoes, cumin, olives and raisins and simmer for 15 minutes.",
+     "Return the potatoes, cook 5 more minutes and season."
+    ]
+   },
+   "tips": [
+    "Use lean ground beef (5–10% fat) and drain the fat after browning.",
+    "Roast the potatoes in the oven instead of frying them.",
+    "Serve with a smaller portion of rice and a big salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Cuban Picadillo",
-      "origin": "Cuba · Caribbean",
-      "intro": "Cuban picadillo is a homestyle hash of ground beef simmered in a tomato sauce with cumin, briny green olives, sweet raisins and small cubes of potato. The result is savory, slightly sweet and a little tangy, with a loose, spoonable texture. It is usually served with white rice and black beans, and sometimes fried ripe plantains.",
-      "history": "Picadillo, from the Spanish picar ('to chop'), is a dish found across Spain and Latin America, and the Cuban version is known for its olives and raisins. It is a fixture of Cuban home cooking and of Cuban-American kitchens in Miami.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 g ground beef",
-          "2 potatoes (300 g), diced small",
-          "1 onion and 1 green bell pepper, chopped",
-          "3 garlic cloves",
-          "400 g crushed tomatoes",
-          "60 g green olives, sliced",
-          "40 g raisins",
-          "1 tsp ground cumin, salt, pepper",
-          "1 tbsp oil"
-        ],
-        "steps": [
-          "Fry the diced potato in the oil until golden, then set aside.",
-          "Sauté onion, pepper and garlic until soft.",
-          "Add the beef and brown it, breaking it up, then pour off excess fat.",
-          "Stir in tomatoes, cumin, olives and raisins and simmer for 15 minutes.",
-          "Return the potatoes, cook 5 more minutes and season."
-        ]
-      },
-      "tips": [
-        "Use lean ground beef (5–10% fat) and drain the fat after browning.",
-        "Roast the potatoes in the oven instead of frying them.",
-        "Serve with a smaller portion of rice and a big salad."
-      ]
-    },
-    "ar": {
-      "name": "بيكاديو كوبي",
-      "origin": "كوبا · الكاريبي",
-      "intro": "البيكاديو الكوبي طبق منزلي من اللحم البقري المفروم المطهو في صلصة الطماطم مع الكمون والزيتون الأخضر المالح والزبيب الحلو ومكعبات صغيرة من البطاطس. النتيجة طعم مالح بلمسة حلوة وحموضة خفيفة وقوام طري يُغرف بالملعقة. يُقدَّم عادةً مع الأرز الأبيض والفاصوليا السوداء، وأحيانًا مع موز الجنة المقلي.",
-      "history": "اسم البيكاديو مشتق من الفعل الإسباني picar أي «يفرم»، وهو طبق منتشر في إسبانيا وأمريكا اللاتينية، وتتميز النسخة الكوبية بالزيتون والزبيب. وهو من ثوابت المطبخ المنزلي الكوبي ومطابخ الكوبيين الأمريكيين في ميامي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 غ لحم بقري مفروم",
-          "2 حبة بطاطس (300 غ) مقطعة مكعبات صغيرة",
-          "بصلة وفلفل أخضر رومي مفرومان",
-          "3 فصوص ثوم",
-          "400 غ طماطم مهروسة",
-          "60 غ زيتون أخضر مقطع",
-          "40 غ زبيب",
-          "1 ملعقة صغيرة كمون مطحون، ملح، فلفل",
-          "1 ملعقة كبيرة زيت"
-        ],
-        "steps": [
-          "اقلِ مكعبات البطاطس في الزيت حتى يصبح لونها ذهبيًا ثم ارفعها جانبًا.",
-          "شوّح البصل والفلفل والثوم حتى تلين.",
-          "أضف اللحم وحمّره مع تفتيته، ثم تخلّص من الدهن الزائد.",
-          "أضف الطماطم والكمون والزيتون والزبيب واتركه يغلي بهدوء 15 دقيقة.",
-          "أعد البطاطس واطهُ 5 دقائق أخرى ثم تبّل."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن (5–10%) وصفِّ الدهن بعد التحمير.",
-        "اشوِ البطاطس في الفرن بدل قليها.",
-        "قدّمه مع حصة أصغر من الأرز وطبق سلطة كبير."
-      ]
-    },
-    "it": {
-      "name": "Picadillo cubano",
-      "origin": "Cuba · Caraibi",
-      "intro": "Il picadillo cubano è un trito casalingo di manzo macinato cotto in salsa di pomodoro con cumino, olive verdi sapide, uvetta dolce e piccoli cubetti di patata. Il risultato è sapido, leggermente dolce e un po' acidulo, con una consistenza morbida da mangiare al cucchiaio. Di solito si serve con riso bianco e fagioli neri, e a volte con platano maturo fritto.",
-      "history": "Il picadillo, dallo spagnolo picar («tritare»), è un piatto diffuso in Spagna e in tutta l'America Latina, e la versione cubana è nota per le olive e l'uvetta. È un punto fermo della cucina casalinga cubana e delle cucine cubano-americane di Miami.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 g di manzo macinato",
-          "2 patate (300 g), a cubetti piccoli",
-          "1 cipolla e 1 peperone verde, tritati",
-          "3 spicchi d'aglio",
-          "400 g di pomodori frantumati",
-          "60 g di olive verdi, a rondelle",
-          "40 g di uvetta",
-          "1 cucchiaino di cumino in polvere, sale, pepe",
-          "1 cucchiaio di olio"
-        ],
-        "steps": [
-          "Friggi i cubetti di patata nell'olio finché sono dorati, poi mettili da parte.",
-          "Fai appassire cipolla, peperone e aglio finché sono morbidi.",
-          "Aggiungi il manzo e rosolalo sgranandolo, poi elimina il grasso in eccesso.",
-          "Unisci pomodori, cumino, olive e uvetta e fai sobbollire per 15 minuti.",
-          "Rimetti le patate, cuoci altri 5 minuti e regola di sale e pepe."
-        ]
-      },
-      "tips": [
-        "Usa manzo macinato magro (5–10% di grassi) ed elimina il grasso dopo la rosolatura.",
-        "Cuoci le patate al forno invece di friggerle.",
-        "Servilo con una porzione più piccola di riso e una grande insalata."
-      ]
-    },
-    "el": {
-      "name": "Κουβανέζικο πικαντίγιο",
-      "name_inline": "κουβανέζικο πικαντίγιο",
-      "origin": "Κούβα · Καραϊβική",
-      "intro": "Το κουβανέζικο πικαντίγιο είναι ένα σπιτικό φαγητό με μοσχαρίσιο κιμά σιγοβρασμένο σε σάλτσα ντομάτας με κύμινο, αλμυρές πράσινες ελιές, γλυκές σταφίδες και μικρά κυβάκια πατάτας. Το αποτέλεσμα είναι αλμυρό, ελαφρώς γλυκό και λίγο ξινό, με χαλαρή υφή που τρώγεται με το κουτάλι. Συνήθως σερβίρεται με λευκό ρύζι και μαύρα φασόλια, και μερικές φορές με τηγανητές ώριμες μπανάνες πλατάνο.",
-      "history": "Το πικαντίγιο, από το ισπανικό picar («ψιλοκόβω»), είναι πιάτο που συναντάται σε όλη την Ισπανία και τη Λατινική Αμερική, και η κουβανέζικη εκδοχή είναι γνωστή για τις ελιές και τις σταφίδες της. Είναι σταθερό πιάτο της κουβανέζικης σπιτικής κουζίνας και των κουβανοαμερικανικών κουζινών στο Μαϊάμι.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 γρ. μοσχαρίσιος κιμάς",
-          "2 πατάτες (300 γρ.), σε μικρά κυβάκια",
-          "1 κρεμμύδι και 1 πράσινη πιπεριά, ψιλοκομμένα",
-          "3 σκελίδες σκόρδο",
-          "400 γρ. ντομάτα θρυμματισμένη",
-          "60 γρ. πράσινες ελιές, σε ροδέλες",
-          "40 γρ. σταφίδες",
-          "1 κ.γ. κύμινο σε σκόνη, αλάτι, πιπέρι",
-          "1 κ.σ. λάδι"
-        ],
-        "steps": [
-          "Τηγανίστε τα κυβάκια πατάτας στο λάδι μέχρι να ροδίσουν και βάλτε τα στην άκρη.",
-          "Σοτάρετε το κρεμμύδι, την πιπεριά και το σκόρδο μέχρι να μαλακώσουν.",
-          "Προσθέστε τον κιμά και ροδίστε τον, σπάζοντάς τον, και μετά αφαιρέστε το περιττό λίπος.",
-          "Προσθέστε τις ντομάτες, το κύμινο, τις ελιές και τις σταφίδες και σιγοβράστε για 15 λεπτά.",
-          "Ξαναβάλτε τις πατάτες, μαγειρέψτε άλλα 5 λεπτά και καρυκεύστε."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (5–10% λιπαρά) και αφαιρέστε το λίπος μετά το ρόδισμα.",
-        "Ψήστε τις πατάτες στον φούρνο αντί να τις τηγανίσετε.",
-        "Σερβίρετε με μικρότερη μερίδα ρύζι και μια μεγάλη σαλάτα."
-      ]
-    },
-    "ru": {
-      "name": "Кубинское пикадильо",
-      "origin": "Куба · Карибы",
-      "intro": "Кубинское пикадильо — домашнее блюдо из говяжьего фарша, тушёного в томатном соусе с зирой, солоноватыми зелёными оливками, сладким изюмом и небольшими кубиками картофеля. Получается пряно, слегка сладко и немного кисловато, с рассыпчатой текстурой, которую удобно есть ложкой. Его обычно подают с белым рисом и чёрной фасолью, иногда с жареными спелыми плантанами.",
-      "history": "Пикадильо, от испанского picar («рубить»), — блюдо, распространённое по всей Испании и Латинской Америке, а кубинская версия известна оливками и изюмом. Это неотъемлемая часть кубинской домашней кухни и кубино-американских кухонь Майами.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 45,
-        "ingredients": [
-          "500 г говяжьего фарша",
-          "2 картофелины (300 г), нарезанные мелкими кубиками",
-          "1 луковица и 1 зелёный болгарский перец, нарубленные",
-          "3 зубчика чеснока",
-          "400 г протёртых томатов",
-          "60 г зелёных оливок, нарезанных",
-          "40 г изюма",
-          "1 ч. л. молотой зиры, соль, перец",
-          "1 ст. л. масла"
-        ],
-        "steps": [
-          "Обжарьте нарезанный картофель в масле до золотистого цвета и отложите.",
-          "Обжарьте лук, перец и чеснок до мягкости.",
-          "Добавьте говядину и обжаривайте, разбивая комки, затем слейте лишний жир.",
-          "Вмешайте томаты, зиру, оливки и изюм и томите 15 минут.",
-          "Верните картофель, готовьте ещё 5 минут и приправьте."
-        ]
-      },
-      "tips": [
-        "Берите нежирный говяжий фарш (5–10% жира) и сливайте жир после обжарки.",
-        "Запекайте картофель в духовке вместо жарки.",
-        "Подавайте с меньшей порцией риса и большим салатом."
-      ],
-      "name_inline": "пикадильо"
-    }
+  "ar": {
+   "name": "بيكاديو كوبي",
+   "origin": "كوبا · الكاريبي",
+   "intro": "البيكاديو الكوبي طبق منزلي من اللحم البقري المفروم المطهو في صلصة الطماطم مع الكمون والزيتون الأخضر المالح والزبيب الحلو ومكعبات صغيرة من البطاطس. النتيجة طعم مالح بلمسة حلوة وحموضة خفيفة وقوام طري يُغرف بالملعقة. يُقدَّم عادةً مع الأرز الأبيض والفاصوليا السوداء، وأحيانًا مع موز الجنة المقلي.",
+   "history": "اسم البيكاديو مشتق من الفعل الإسباني picar أي «يفرم»، وهو طبق منتشر في إسبانيا وأمريكا اللاتينية، وتتميز النسخة الكوبية بالزيتون والزبيب. وهو من ثوابت المطبخ المنزلي الكوبي ومطابخ الكوبيين الأمريكيين في ميامي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 غ لحم بقري مفروم",
+     "2 حبة بطاطس (300 غ) مقطعة مكعبات صغيرة",
+     "بصلة وفلفل أخضر رومي مفرومان",
+     "3 فصوص ثوم",
+     "400 غ طماطم مهروسة",
+     "60 غ زيتون أخضر مقطع",
+     "40 غ زبيب",
+     "1 ملعقة صغيرة كمون مطحون، ملح، فلفل",
+     "1 ملعقة كبيرة زيت"
+    ],
+    "steps": [
+     "اقلِ مكعبات البطاطس في الزيت حتى يصبح لونها ذهبيًا ثم ارفعها جانبًا.",
+     "شوّح البصل والفلفل والثوم حتى تلين.",
+     "أضف اللحم وحمّره مع تفتيته، ثم تخلّص من الدهن الزائد.",
+     "أضف الطماطم والكمون والزيتون والزبيب واتركه يغلي بهدوء 15 دقيقة.",
+     "أعد البطاطس واطهُ 5 دقائق أخرى ثم تبّل."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن (5–10%) وصفِّ الدهن بعد التحمير.",
+    "اشوِ البطاطس في الفرن بدل قليها.",
+    "قدّمه مع حصة أصغر من الأرز وطبق سلطة كبير."
+   ]
+  },
+  "it": {
+   "name": "Picadillo cubano",
+   "origin": "Cuba · Caraibi",
+   "intro": "Il picadillo cubano è un trito casalingo di manzo macinato cotto in salsa di pomodoro con cumino, olive verdi sapide, uvetta dolce e piccoli cubetti di patata. Il risultato è sapido, leggermente dolce e un po' acidulo, con una consistenza morbida da mangiare al cucchiaio. Di solito si serve con riso bianco e fagioli neri, e a volte con platano maturo fritto.",
+   "history": "Il picadillo, dallo spagnolo picar («tritare»), è un piatto diffuso in Spagna e in tutta l'America Latina, e la versione cubana è nota per le olive e l'uvetta. È un punto fermo della cucina casalinga cubana e delle cucine cubano-americane di Miami.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 g di manzo macinato",
+     "2 patate (300 g), a cubetti piccoli",
+     "1 cipolla e 1 peperone verde, tritati",
+     "3 spicchi d'aglio",
+     "400 g di pomodori frantumati",
+     "60 g di olive verdi, a rondelle",
+     "40 g di uvetta",
+     "1 cucchiaino di cumino in polvere, sale, pepe",
+     "1 cucchiaio di olio"
+    ],
+    "steps": [
+     "Friggi i cubetti di patata nell'olio finché sono dorati, poi mettili da parte.",
+     "Fai appassire cipolla, peperone e aglio finché sono morbidi.",
+     "Aggiungi il manzo e rosolalo sgranandolo, poi elimina il grasso in eccesso.",
+     "Unisci pomodori, cumino, olive e uvetta e fai sobbollire per 15 minuti.",
+     "Rimetti le patate, cuoci altri 5 minuti e regola di sale e pepe."
+    ]
+   },
+   "tips": [
+    "Usa manzo macinato magro (5–10% di grassi) ed elimina il grasso dopo la rosolatura.",
+    "Cuoci le patate al forno invece di friggerle.",
+    "Servilo con una porzione più piccola di riso e una grande insalata."
+   ]
+  },
+  "el": {
+   "name": "Κουβανέζικο πικαντίγιο",
+   "name_inline": "κουβανέζικο πικαντίγιο",
+   "origin": "Κούβα · Καραϊβική",
+   "intro": "Το κουβανέζικο πικαντίγιο είναι ένα σπιτικό φαγητό με μοσχαρίσιο κιμά σιγοβρασμένο σε σάλτσα ντομάτας με κύμινο, αλμυρές πράσινες ελιές, γλυκές σταφίδες και μικρά κυβάκια πατάτας. Το αποτέλεσμα είναι αλμυρό, ελαφρώς γλυκό και λίγο ξινό, με χαλαρή υφή που τρώγεται με το κουτάλι. Συνήθως σερβίρεται με λευκό ρύζι και μαύρα φασόλια, και μερικές φορές με τηγανητές ώριμες μπανάνες πλατάνο.",
+   "history": "Το πικαντίγιο, από το ισπανικό picar («ψιλοκόβω»), είναι πιάτο που συναντάται σε όλη την Ισπανία και τη Λατινική Αμερική, και η κουβανέζικη εκδοχή είναι γνωστή για τις ελιές και τις σταφίδες της. Είναι σταθερό πιάτο της κουβανέζικης σπιτικής κουζίνας και των κουβανοαμερικανικών κουζινών στο Μαϊάμι.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 γρ. μοσχαρίσιος κιμάς",
+     "2 πατάτες (300 γρ.), σε μικρά κυβάκια",
+     "1 κρεμμύδι και 1 πράσινη πιπεριά, ψιλοκομμένα",
+     "3 σκελίδες σκόρδο",
+     "400 γρ. ντομάτα θρυμματισμένη",
+     "60 γρ. πράσινες ελιές, σε ροδέλες",
+     "40 γρ. σταφίδες",
+     "1 κ.γ. κύμινο σε σκόνη, αλάτι, πιπέρι",
+     "1 κ.σ. λάδι"
+    ],
+    "steps": [
+     "Τηγανίστε τα κυβάκια πατάτας στο λάδι μέχρι να ροδίσουν και βάλτε τα στην άκρη.",
+     "Σοτάρετε το κρεμμύδι, την πιπεριά και το σκόρδο μέχρι να μαλακώσουν.",
+     "Προσθέστε τον κιμά και ροδίστε τον, σπάζοντάς τον, και μετά αφαιρέστε το περιττό λίπος.",
+     "Προσθέστε τις ντομάτες, το κύμινο, τις ελιές και τις σταφίδες και σιγοβράστε για 15 λεπτά.",
+     "Ξαναβάλτε τις πατάτες, μαγειρέψτε άλλα 5 λεπτά και καρυκεύστε."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (5–10% λιπαρά) και αφαιρέστε το λίπος μετά το ρόδισμα.",
+    "Ψήστε τις πατάτες στον φούρνο αντί να τις τηγανίσετε.",
+    "Σερβίρετε με μικρότερη μερίδα ρύζι και μια μεγάλη σαλάτα."
+   ]
+  },
+  "ru": {
+   "name": "Кубинское пикадильо",
+   "origin": "Куба · Карибы",
+   "intro": "Кубинское пикадильо — домашнее блюдо из говяжьего фарша, тушёного в томатном соусе с зирой, солоноватыми зелёными оливками, сладким изюмом и небольшими кубиками картофеля. Получается пряно, слегка сладко и немного кисловато, с рассыпчатой текстурой, которую удобно есть ложкой. Его обычно подают с белым рисом и чёрной фасолью, иногда с жареными спелыми плантанами.",
+   "history": "Пикадильо, от испанского picar («рубить»), — блюдо, распространённое по всей Испании и Латинской Америке, а кубинская версия известна оливками и изюмом. Это неотъемлемая часть кубинской домашней кухни и кубино-американских кухонь Майами.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 г говяжьего фарша",
+     "2 картофелины (300 г), нарезанные мелкими кубиками",
+     "1 луковица и 1 зелёный болгарский перец, нарубленные",
+     "3 зубчика чеснока",
+     "400 г протёртых томатов",
+     "60 г зелёных оливок, нарезанных",
+     "40 г изюма",
+     "1 ч. л. молотой зиры, соль, перец",
+     "1 ст. л. масла"
+    ],
+    "steps": [
+     "Обжарьте нарезанный картофель в масле до золотистого цвета и отложите.",
+     "Обжарьте лук, перец и чеснок до мягкости.",
+     "Добавьте говядину и обжаривайте, разбивая комки, затем слейте лишний жир.",
+     "Вмешайте томаты, зиру, оливки и изюм и томите 15 минут.",
+     "Верните картофель, готовьте ещё 5 минут и приправьте."
+    ]
+   },
+   "tips": [
+    "Берите нежирный говяжий фарш (5–10% жира) и сливайте жир после обжарки.",
+    "Запекайте картофель в духовке вместо жарки.",
+    "Подавайте с меньшей порцией риса и большим салатом."
+   ],
+   "name_inline": "пикадильо"
+  },
+  "es": {
+   "name": "Picadillo cubano",
+   "origin": "Cuba · Caribe",
+   "intro": "El picadillo cubano es un guiso casero de carne molida de res cocida en salsa de tomate con comino, aceitunas verdes salobres, pasas dulces y pequeños cubos de papa. Resulta sabroso, ligeramente dulce y un poco ácido, con una textura suelta que se come con cuchara. Se sirve normalmente con arroz blanco y frijoles negros, y a veces con plátanos maduros fritos.",
+   "history": "El picadillo, de picar, es un plato presente en toda España y Latinoamérica, y la versión cubana es conocida por sus aceitunas y pasas. Es un clásico de la cocina casera cubana y de las cocinas cubanoamericanas de Miami.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 45,
+    "ingredients": [
+     "500 g de carne molida de res",
+     "2 papas (300 g), en cubitos",
+     "1 cebolla y 1 pimiento verde, picados",
+     "3 dientes de ajo",
+     "400 g de tomates triturados",
+     "60 g de aceitunas verdes, en rodajas",
+     "40 g de pasas",
+     "1 cdta. de comino molido, sal, pimienta",
+     "1 cda. de aceite"
+    ],
+    "steps": [
+     "Fríe las papas en cubitos en el aceite hasta que estén doradas y resérvalas.",
+     "Sofríe la cebolla, el pimiento y el ajo hasta que se ablanden.",
+     "Agrega la carne y dórala deshaciéndola con una cuchara, luego retira el exceso de grasa.",
+     "Incorpora los tomates, el comino, las aceitunas y las pasas y cuece a fuego suave 15 minutos.",
+     "Regresa las papas, cocina 5 minutos más y sazona."
+    ]
+   },
+   "tips": [
+    "Usa carne molida magra (5–10 % de grasa) y escurre la grasa después de dorarla.",
+    "Asa las papas en el horno en lugar de freírlas.",
+    "Sírvelo con una porción más pequeña de arroz y una ensalada grande."
+   ],
+   "name_inline": "el picadillo cubano"
   }
+ }
 }

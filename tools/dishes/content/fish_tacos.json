@@ -1,176 +1,209 @@
 {
-  "db_key": "fish_tacos",
-  "slug": "fish-tacos",
-  "emoji": "🌮",
-  "portion_g": 250,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "fish_tacos",
+ "slug": "fish-tacos",
+ "emoji": "🌮",
+ "portion_g": 250,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Fish tacos",
+   "origin": "Mexico · Baja California",
+   "intro": "Fish tacos are soft tortillas filled with pieces of white fish, crunchy shredded cabbage, fresh cilantro, a squeeze of lime and a spoonful of sour cream. This version grills the fish, so it is smoky and tender against the cool, tangy toppings. They are eaten by hand, two or three per serving, often with a spicy salsa on the side.",
+   "history": "Fish tacos are strongly associated with the Pacific coast of Baja California, especially Ensenada, where they are sold at street stands. From there they spread across Mexico and to the United States.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g white fish fillets",
+     "8 small tortillas",
+     "200 g white cabbage, finely shredded",
+     "2 limes",
+     "A handful of cilantro",
+     "100 g sour cream",
+     "1 tsp chili powder, 1 tsp cumin",
+     "1 tbsp oil, salt"
+    ],
+    "steps": [
+     "Rub the fish with oil, chili powder, cumin, salt and the juice of half a lime.",
+     "Grill or cook in a hot griddle pan for 3–4 minutes per side, then flake into pieces.",
+     "Mix the sour cream with a squeeze of lime and a pinch of salt.",
+     "Warm the tortillas in a dry pan.",
+     "Fill each tortilla with cabbage and fish, top with lime sour cream and cilantro, and serve with lime wedges."
+    ]
+   },
+   "tips": [
+    "Use half the sour cream or thin it with lime juice.",
+    "Pile on extra cabbage to make each taco more filling.",
+    "Stick to two tacos and add a side salad."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Fish tacos",
-      "origin": "Mexico · Baja California",
-      "intro": "Fish tacos are soft tortillas filled with pieces of white fish, crunchy shredded cabbage, fresh cilantro, a squeeze of lime and a spoonful of sour cream. This version grills the fish, so it is smoky and tender against the cool, tangy toppings. They are eaten by hand, two or three per serving, often with a spicy salsa on the side.",
-      "history": "Fish tacos are strongly associated with the Pacific coast of Baja California, especially Ensenada, where they are sold at street stands. From there they spread across Mexico and to the United States.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 g white fish fillets",
-          "8 small tortillas",
-          "200 g white cabbage, finely shredded",
-          "2 limes",
-          "A handful of cilantro",
-          "100 g sour cream",
-          "1 tsp chili powder, 1 tsp cumin",
-          "1 tbsp oil, salt"
-        ],
-        "steps": [
-          "Rub the fish with oil, chili powder, cumin, salt and the juice of half a lime.",
-          "Grill or cook in a hot griddle pan for 3–4 minutes per side, then flake into pieces.",
-          "Mix the sour cream with a squeeze of lime and a pinch of salt.",
-          "Warm the tortillas in a dry pan.",
-          "Fill each tortilla with cabbage and fish, top with lime sour cream and cilantro, and serve with lime wedges."
-        ]
-      },
-      "tips": [
-        "Use half the sour cream or thin it with lime juice.",
-        "Pile on extra cabbage to make each taco more filling.",
-        "Stick to two tacos and add a side salad."
-      ]
-    },
-    "ar": {
-      "name": "تاكو السمك",
-      "origin": "المكسيك · باها كاليفورنيا",
-      "intro": "تاكو السمك خبز تورتيا طري يُحشى بقطع السمك الأبيض والملفوف المبشور المقرمش والكزبرة الطازجة وعصرة ليم وملعقة من القشدة الحامضة. في هذه النسخة يُشوى السمك فيكون مدخّنًا طريًا مقابل الإضافات الباردة المنعشة. يؤكل باليد، اثنتان أو ثلاث قطع للشخص، وغالبًا مع صلصة حارة جانبية.",
-      "history": "يرتبط تاكو السمك ارتباطًا وثيقًا بساحل باها كاليفورنيا على المحيط الهادئ، ولا سيما إنسينادا حيث يُباع في أكشاك الشوارع. ومن هناك انتشر في المكسيك والولايات المتحدة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 غ فيليه سمك أبيض",
-          "8 أرغفة تورتيا صغيرة",
-          "200 غ ملفوف أبيض مبشور ناعمًا",
-          "حبتا ليم",
-          "حفنة كزبرة",
-          "100 غ قشدة حامضة",
-          "ملعقة صغيرة فلفل أحمر مطحون، ملعقة صغيرة كمون",
-          "ملعقة كبيرة زيت، ملح"
-        ],
-        "steps": [
-          "افرك السمك بالزيت والفلفل والكمون والملح وعصير نصف ليمة.",
-          "اشوه أو اطهه في مقلاة شواء ساخنة 3–4 دقائق لكل جهة، ثم فتّته قطعًا.",
-          "اخلط القشدة الحامضة مع عصرة ليم ورشة ملح.",
-          "سخّن التورتيا في مقلاة جافة.",
-          "احشُ كل تورتيا بالملفوف والسمك، وأضف قشدة الليم والكزبرة، وقدّمها مع شرائح الليم."
-        ]
-      },
-      "tips": [
-        "استخدم نصف كمية القشدة الحامضة أو خفّفها بعصير الليم.",
-        "أكثر من الملفوف لتصبح كل قطعة أكثر إشباعًا.",
-        "اكتفِ بقطعتين وأضف سلطة جانبية."
-      ]
-    },
-    "it": {
-      "name": "Tacos di pesce",
-      "name_inline": "tacos di pesce",
-      "origin": "Messico · Bassa California",
-      "intro": "I tacos di pesce sono tortillas morbide farcite con pezzi di pesce bianco, cavolo tagliato fine e croccante, coriandolo fresco, una spruzzata di lime e un cucchiaio di panna acida. In questa versione il pesce è grigliato, quindi è affumicato e tenero, a contrasto con i condimenti freschi e aciduli. Si mangiano con le mani, due o tre a porzione, spesso con una salsa piccante a parte.",
-      "history": "I tacos di pesce sono fortemente associati alla costa pacifica della Bassa California, in particolare a Ensenada, dove si vendono nei chioschi di strada. Da lì si sono diffusi in tutto il Messico e negli Stati Uniti.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 g di filetti di pesce bianco",
-          "8 tortillas piccole",
-          "200 g di cavolo bianco tagliato finemente",
-          "2 lime",
-          "Una manciata di coriandolo fresco",
-          "100 g di panna acida",
-          "1 cucchiaino di peperoncino in polvere, 1 cucchiaino di cumino",
-          "1 cucchiaio di olio, sale"
-        ],
-        "steps": [
-          "Strofina il pesce con olio, peperoncino in polvere, cumino, sale e il succo di mezzo lime.",
-          "Griglialo o cuocilo su una bistecchiera rovente per 3–4 minuti per lato, poi spezzettalo.",
-          "Mescola la panna acida con una spruzzata di lime e un pizzico di sale.",
-          "Scalda le tortillas in una padella asciutta.",
-          "Farcisci ogni tortilla con cavolo e pesce, completa con la panna acida al lime e il coriandolo e servi con spicchi di lime."
-        ]
-      },
-      "tips": [
-        "Usa metà della panna acida oppure allungala con succo di lime.",
-        "Aggiungi più cavolo per rendere ogni taco più saziante.",
-        "Limitati a due tacos e aggiungi un'insalata a parte."
-      ]
-    },
-    "el": {
-      "name": "Τάκος με ψάρι",
-      "origin": "Μεξικό · Μπάχα Καλιφόρνια",
-      "intro": "Τα τάκος με ψάρι είναι μαλακές τορτίγιες γεμισμένες με κομμάτια λευκού ψαριού, τραγανό ψιλοκομμένο λάχανο, φρέσκο κόλιανδρο, λίγο λάιμ και μια κουταλιά ξινή κρέμα. Σε αυτή την εκδοχή το ψάρι ψήνεται στη σχάρα, οπότε είναι καπνιστό και τρυφερό σε αντίθεση με τα δροσερά, ξινά υλικά από πάνω. Τρώγονται με τα χέρια, δύο ή τρία ανά μερίδα, συχνά με μια πικάντικη σάλσα στο πλάι.",
-      "history": "Τα τάκος με ψάρι συνδέονται στενά με την ακτή του Ειρηνικού στη Μπάχα Καλιφόρνια, ιδίως με την Ενσενάδα, όπου πωλούνται σε πάγκους του δρόμου. Από εκεί διαδόθηκαν σε όλο το Μεξικό και στις Ηνωμένες Πολιτείες.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 γρ. φιλέτα λευκού ψαριού",
-          "8 μικρές τορτίγιες",
-          "200 γρ. λευκό λάχανο, ψιλοκομμένο",
-          "2 λάιμ",
-          "Μια χούφτα κόλιανδρο",
-          "100 γρ. ξινή κρέμα",
-          "1 κ.γ. τσίλι σε σκόνη, 1 κ.γ. κύμινο",
-          "1 κ.σ. λάδι, αλάτι"
-        ],
-        "steps": [
-          "Τρίψτε το ψάρι με λάδι, τσίλι σε σκόνη, κύμινο, αλάτι και τον χυμό από μισό λάιμ.",
-          "Ψήστε το στη σχάρα ή σε καυτή γκριλιέρα για 3–4 λεπτά από κάθε πλευρά και έπειτα χωρίστε το σε κομμάτια.",
-          "Ανακατέψτε την ξινή κρέμα με λίγο λάιμ και μια πρέζα αλάτι.",
-          "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
-          "Γεμίστε κάθε τορτίγια με λάχανο και ψάρι, βάλτε από πάνω την ξινή κρέμα με λάιμ και κόλιανδρο και σερβίρετε με φέτες λάιμ."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε τη μισή ξινή κρέμα ή αραιώστε τη με χυμό λάιμ.",
-        "Βάλτε άφθονο λάχανο για να γίνει κάθε τάκο πιο χορταστικό.",
-        "Περιοριστείτε σε δύο τάκος και προσθέστε μια σαλάτα στο πλάι."
-      ]
-    },
-    "ru": {
-      "name": "Такос с рыбой",
-      "origin": "Мексика · Нижняя Калифорния",
-      "intro": "Такос с рыбой — мягкие лепёшки тортильи с кусочками белой рыбы, хрустящей нашинкованной капустой, свежей кинзой, соком лайма и ложкой сметаны. В этом варианте рыбу готовят на гриле, поэтому она дымная и нежная на фоне прохладной кисловатой начинки. Их едят руками, по два-три на порцию, часто с острой сальсой.",
-      "history": "Такос с рыбой тесно связаны с тихоокеанским побережьем Нижней Калифорнии, особенно Энсенадой, где их продают на уличных лотках. Оттуда они распространились по Мексике и в США.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "500 г филе белой рыбы",
-          "8 маленьких тортилий",
-          "200 г белокочанной капусты, мелко нашинкованной",
-          "2 лайма",
-          "Горсть кинзы",
-          "100 г сметаны",
-          "1 ч. л. порошка чили, 1 ч. л. тмина",
-          "1 ст. л. масла, соль"
-        ],
-        "steps": [
-          "Натрите рыбу маслом, порошком чили, тмином, солью и соком половины лайма.",
-          "Готовьте на гриле или на горячей сковороде-гриль по 3–4 минуты с каждой стороны, затем разделите на кусочки.",
-          "Смешайте сметану с соком лайма и щепоткой соли.",
-          "Разогрейте тортильи на сухой сковороде.",
-          "Наполните каждую тортилью капустой и рыбой, добавьте сметану с лаймом и кинзу и подавайте с дольками лайма."
-        ]
-      },
-      "tips": [
-        "Используйте вдвое меньше сметаны или разбавьте её соком лайма.",
-        "Добавьте побольше капусты, чтобы каждое тако было сытнее.",
-        "Ограничьтесь двумя тако и добавьте гарнир из салата."
-      ],
-      "name_inline": "такос с рыбой"
-    }
+  "ar": {
+   "name": "تاكو السمك",
+   "origin": "المكسيك · باها كاليفورنيا",
+   "intro": "تاكو السمك خبز تورتيا طري يُحشى بقطع السمك الأبيض والملفوف المبشور المقرمش والكزبرة الطازجة وعصرة ليم وملعقة من القشدة الحامضة. في هذه النسخة يُشوى السمك فيكون مدخّنًا طريًا مقابل الإضافات الباردة المنعشة. يؤكل باليد، اثنتان أو ثلاث قطع للشخص، وغالبًا مع صلصة حارة جانبية.",
+   "history": "يرتبط تاكو السمك ارتباطًا وثيقًا بساحل باها كاليفورنيا على المحيط الهادئ، ولا سيما إنسينادا حيث يُباع في أكشاك الشوارع. ومن هناك انتشر في المكسيك والولايات المتحدة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 غ فيليه سمك أبيض",
+     "8 أرغفة تورتيا صغيرة",
+     "200 غ ملفوف أبيض مبشور ناعمًا",
+     "حبتا ليم",
+     "حفنة كزبرة",
+     "100 غ قشدة حامضة",
+     "ملعقة صغيرة فلفل أحمر مطحون، ملعقة صغيرة كمون",
+     "ملعقة كبيرة زيت، ملح"
+    ],
+    "steps": [
+     "افرك السمك بالزيت والفلفل والكمون والملح وعصير نصف ليمة.",
+     "اشوه أو اطهه في مقلاة شواء ساخنة 3–4 دقائق لكل جهة، ثم فتّته قطعًا.",
+     "اخلط القشدة الحامضة مع عصرة ليم ورشة ملح.",
+     "سخّن التورتيا في مقلاة جافة.",
+     "احشُ كل تورتيا بالملفوف والسمك، وأضف قشدة الليم والكزبرة، وقدّمها مع شرائح الليم."
+    ]
+   },
+   "tips": [
+    "استخدم نصف كمية القشدة الحامضة أو خفّفها بعصير الليم.",
+    "أكثر من الملفوف لتصبح كل قطعة أكثر إشباعًا.",
+    "اكتفِ بقطعتين وأضف سلطة جانبية."
+   ]
+  },
+  "it": {
+   "name": "Tacos di pesce",
+   "name_inline": "tacos di pesce",
+   "origin": "Messico · Bassa California",
+   "intro": "I tacos di pesce sono tortillas morbide farcite con pezzi di pesce bianco, cavolo tagliato fine e croccante, coriandolo fresco, una spruzzata di lime e un cucchiaio di panna acida. In questa versione il pesce è grigliato, quindi è affumicato e tenero, a contrasto con i condimenti freschi e aciduli. Si mangiano con le mani, due o tre a porzione, spesso con una salsa piccante a parte.",
+   "history": "I tacos di pesce sono fortemente associati alla costa pacifica della Bassa California, in particolare a Ensenada, dove si vendono nei chioschi di strada. Da lì si sono diffusi in tutto il Messico e negli Stati Uniti.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g di filetti di pesce bianco",
+     "8 tortillas piccole",
+     "200 g di cavolo bianco tagliato finemente",
+     "2 lime",
+     "Una manciata di coriandolo fresco",
+     "100 g di panna acida",
+     "1 cucchiaino di peperoncino in polvere, 1 cucchiaino di cumino",
+     "1 cucchiaio di olio, sale"
+    ],
+    "steps": [
+     "Strofina il pesce con olio, peperoncino in polvere, cumino, sale e il succo di mezzo lime.",
+     "Griglialo o cuocilo su una bistecchiera rovente per 3–4 minuti per lato, poi spezzettalo.",
+     "Mescola la panna acida con una spruzzata di lime e un pizzico di sale.",
+     "Scalda le tortillas in una padella asciutta.",
+     "Farcisci ogni tortilla con cavolo e pesce, completa con la panna acida al lime e il coriandolo e servi con spicchi di lime."
+    ]
+   },
+   "tips": [
+    "Usa metà della panna acida oppure allungala con succo di lime.",
+    "Aggiungi più cavolo per rendere ogni taco più saziante.",
+    "Limitati a due tacos e aggiungi un'insalata a parte."
+   ]
+  },
+  "el": {
+   "name": "Τάκος με ψάρι",
+   "origin": "Μεξικό · Μπάχα Καλιφόρνια",
+   "intro": "Τα τάκος με ψάρι είναι μαλακές τορτίγιες γεμισμένες με κομμάτια λευκού ψαριού, τραγανό ψιλοκομμένο λάχανο, φρέσκο κόλιανδρο, λίγο λάιμ και μια κουταλιά ξινή κρέμα. Σε αυτή την εκδοχή το ψάρι ψήνεται στη σχάρα, οπότε είναι καπνιστό και τρυφερό σε αντίθεση με τα δροσερά, ξινά υλικά από πάνω. Τρώγονται με τα χέρια, δύο ή τρία ανά μερίδα, συχνά με μια πικάντικη σάλσα στο πλάι.",
+   "history": "Τα τάκος με ψάρι συνδέονται στενά με την ακτή του Ειρηνικού στη Μπάχα Καλιφόρνια, ιδίως με την Ενσενάδα, όπου πωλούνται σε πάγκους του δρόμου. Από εκεί διαδόθηκαν σε όλο το Μεξικό και στις Ηνωμένες Πολιτείες.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 γρ. φιλέτα λευκού ψαριού",
+     "8 μικρές τορτίγιες",
+     "200 γρ. λευκό λάχανο, ψιλοκομμένο",
+     "2 λάιμ",
+     "Μια χούφτα κόλιανδρο",
+     "100 γρ. ξινή κρέμα",
+     "1 κ.γ. τσίλι σε σκόνη, 1 κ.γ. κύμινο",
+     "1 κ.σ. λάδι, αλάτι"
+    ],
+    "steps": [
+     "Τρίψτε το ψάρι με λάδι, τσίλι σε σκόνη, κύμινο, αλάτι και τον χυμό από μισό λάιμ.",
+     "Ψήστε το στη σχάρα ή σε καυτή γκριλιέρα για 3–4 λεπτά από κάθε πλευρά και έπειτα χωρίστε το σε κομμάτια.",
+     "Ανακατέψτε την ξινή κρέμα με λίγο λάιμ και μια πρέζα αλάτι.",
+     "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
+     "Γεμίστε κάθε τορτίγια με λάχανο και ψάρι, βάλτε από πάνω την ξινή κρέμα με λάιμ και κόλιανδρο και σερβίρετε με φέτες λάιμ."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε τη μισή ξινή κρέμα ή αραιώστε τη με χυμό λάιμ.",
+    "Βάλτε άφθονο λάχανο για να γίνει κάθε τάκο πιο χορταστικό.",
+    "Περιοριστείτε σε δύο τάκος και προσθέστε μια σαλάτα στο πλάι."
+   ]
+  },
+  "ru": {
+   "name": "Такос с рыбой",
+   "origin": "Мексика · Нижняя Калифорния",
+   "intro": "Такос с рыбой — мягкие лепёшки тортильи с кусочками белой рыбы, хрустящей нашинкованной капустой, свежей кинзой, соком лайма и ложкой сметаны. В этом варианте рыбу готовят на гриле, поэтому она дымная и нежная на фоне прохладной кисловатой начинки. Их едят руками, по два-три на порцию, часто с острой сальсой.",
+   "history": "Такос с рыбой тесно связаны с тихоокеанским побережьем Нижней Калифорнии, особенно Энсенадой, где их продают на уличных лотках. Оттуда они распространились по Мексике и в США.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 г филе белой рыбы",
+     "8 маленьких тортилий",
+     "200 г белокочанной капусты, мелко нашинкованной",
+     "2 лайма",
+     "Горсть кинзы",
+     "100 г сметаны",
+     "1 ч. л. порошка чили, 1 ч. л. тмина",
+     "1 ст. л. масла, соль"
+    ],
+    "steps": [
+     "Натрите рыбу маслом, порошком чили, тмином, солью и соком половины лайма.",
+     "Готовьте на гриле или на горячей сковороде-гриль по 3–4 минуты с каждой стороны, затем разделите на кусочки.",
+     "Смешайте сметану с соком лайма и щепоткой соли.",
+     "Разогрейте тортильи на сухой сковороде.",
+     "Наполните каждую тортилью капустой и рыбой, добавьте сметану с лаймом и кинзу и подавайте с дольками лайма."
+    ]
+   },
+   "tips": [
+    "Используйте вдвое меньше сметаны или разбавьте её соком лайма.",
+    "Добавьте побольше капусты, чтобы каждое тако было сытнее.",
+    "Ограничьтесь двумя тако и добавьте гарнир из салата."
+   ],
+   "name_inline": "такос с рыбой"
+  },
+  "es": {
+   "name": "Tacos de pescado",
+   "origin": "México · Baja California",
+   "intro": "Los tacos de pescado son tortillas suaves rellenas de trozos de pescado blanco, col rallada crujiente, cilantro fresco, un chorrito de limón y una cucharada de crema. Esta versión asa el pescado, así que queda ahumado y tierno frente a los ingredientes frescos y ácidos. Se comen con la mano, dos o tres por porción, a menudo con una salsa picante aparte.",
+   "history": "Los tacos de pescado están muy asociados a la costa del Pacífico de Baja California, especialmente a Ensenada, donde se venden en puestos callejeros. Desde allí se extendieron por México y Estados Unidos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "500 g de filetes de pescado blanco",
+     "8 tortillas pequeñas",
+     "200 g de col blanca, finamente rallada",
+     "2 limones",
+     "Un puñado de cilantro",
+     "100 g de crema",
+     "1 cdta. de chile en polvo, 1 cdta. de comino",
+     "1 cda. de aceite, sal"
+    ],
+    "steps": [
+     "Unta el pescado con aceite, chile en polvo, comino, sal y el jugo de medio limón.",
+     "Ásalo o cocínalo en una plancha caliente de 3 a 4 minutos por lado y desmenúzalo en trozos.",
+     "Mezcla la crema con un chorrito de limón y una pizca de sal.",
+     "Calienta las tortillas en una sartén seca.",
+     "Rellena cada tortilla con col y pescado, cubre con la crema con limón y el cilantro, y sirve con gajos de limón."
+    ]
+   },
+   "tips": [
+    "Usa la mitad de la crema o aclárala con jugo de limón.",
+    "Añade más col para que cada taco sea más saciante.",
+    "Quédate con dos tacos y añade una ensalada de acompañamiento."
+   ],
+   "name_inline": "los tacos de pescado"
   }
+ }
 }

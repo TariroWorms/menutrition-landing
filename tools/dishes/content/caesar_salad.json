@@ -1,155 +1,183 @@
 {
-  "db_key": "caesar_salad",
-  "slug": "caesar-salad",
-  "emoji": "🥗",
-  "portion_g": 250,
-  "related": [
-    "spaghetti_alla_amatriciana",
-    "borscht"
-  ],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "caesar_salad",
+ "slug": "caesar-salad",
+ "emoji": "🥗",
+ "portion_g": 250,
+ "related": [
+  "spaghetti_alla_amatriciana",
+  "borscht"
+ ],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Caesar salad",
+   "origin": "Mexico · Tijuana",
+   "intro": "Caesar salad is crisp romaine lettuce tossed with a creamy dressing of egg yolk, lemon, garlic, Worcestershire sauce and olive oil, with croutons and plenty of parmesan. Many versions add anchovies to the dressing, and grilled chicken turns it into a main course.",
+   "history": "The salad is usually credited to Caesar Cardini, an Italian-born restaurateur whose restaurant in Tijuana, Mexico, was popular with Americans during Prohibition; the story dates it to 1924. Cardini's original is said to have had no anchovies — the hint of fish came from Worcestershire sauce. Within a few decades the Caesar was on menus across the United States and Europe.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "2 heads romaine lettuce",
+     "2 thick slices of day-old bread, cubed",
+     "2 tbsp olive oil for the croutons",
+     "50 g parmesan, half grated, half shaved",
+     "Dressing: 1 pasteurised egg yolk, 1 garlic clove, 2 anchovy fillets, 1 tbsp lemon juice, 1 tsp Worcestershire sauce, 80 ml olive oil, black pepper"
+    ],
+    "steps": [
+     "Toss the bread with the oil and bake at 200 °C for 8–10 minutes until golden.",
+     "Mash the garlic and anchovies, whisk in the yolk, lemon juice and Worcestershire, then the oil in a thin stream. Stir in the grated parmesan and pepper.",
+     "Tear the lettuce, toss with the dressing and top with croutons and parmesan shavings. Serve straight away."
+    ]
+   },
+   "tips": [
+    "Most of the calories are in the dressing — two tablespoons are about 150 kcal. Ask for it on the side.",
+    "Add 100 g of grilled chicken breast for about 165 kcal and 31 g of protein.",
+    "Fewer croutons, more lettuce: the volume stays, the calories drop."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Caesar salad",
-      "origin": "Mexico · Tijuana",
-      "intro": "Caesar salad is crisp romaine lettuce tossed with a creamy dressing of egg yolk, lemon, garlic, Worcestershire sauce and olive oil, with croutons and plenty of parmesan. Many versions add anchovies to the dressing, and grilled chicken turns it into a main course.",
-      "history": "The salad is usually credited to Caesar Cardini, an Italian-born restaurateur whose restaurant in Tijuana, Mexico, was popular with Americans during Prohibition; the story dates it to 1924. Cardini's original is said to have had no anchovies — the hint of fish came from Worcestershire sauce. Within a few decades the Caesar was on menus across the United States and Europe.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "2 heads romaine lettuce",
-          "2 thick slices of day-old bread, cubed",
-          "2 tbsp olive oil for the croutons",
-          "50 g parmesan, half grated, half shaved",
-          "Dressing: 1 pasteurised egg yolk, 1 garlic clove, 2 anchovy fillets, 1 tbsp lemon juice, 1 tsp Worcestershire sauce, 80 ml olive oil, black pepper"
-        ],
-        "steps": [
-          "Toss the bread with the oil and bake at 200 °C for 8–10 minutes until golden.",
-          "Mash the garlic and anchovies, whisk in the yolk, lemon juice and Worcestershire, then the oil in a thin stream. Stir in the grated parmesan and pepper.",
-          "Tear the lettuce, toss with the dressing and top with croutons and parmesan shavings. Serve straight away."
-        ]
-      },
-      "tips": [
-        "Most of the calories are in the dressing — two tablespoons are about 150 kcal. Ask for it on the side.",
-        "Add 100 g of grilled chicken breast for about 165 kcal and 31 g of protein.",
-        "Fewer croutons, more lettuce: the volume stays, the calories drop."
-      ]
-    },
-    "ru": {
-      "name": "Салат «Цезарь»",
-      "origin": "Мексика · Тихуана",
-      "intro": "«Цезарь» — хрустящий салат ромэн с кремовой заправкой из желтка, лимона, чеснока, вустерширского соуса и оливкового масла, с гренками и большим количеством пармезана. Во многих вариантах в заправку добавляют анчоусы, а с курицей-гриль салат становится полноценным обедом.",
-      "history": "Автором салата обычно называют Цезаря Кардини — ресторатора итальянского происхождения, чей ресторан в мексиканской Тихуане был популярен у американцев во времена сухого закона; по легенде, это был 1924 год. Говорят, в оригинале не было анчоусов — рыбную нотку давал вустерширский соус. За несколько десятилетий «Цезарь» появился в меню по всей Америке и Европе.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "2 кочана салата ромэн",
-          "2 толстых ломтика вчерашнего хлеба, нарезать кубиками",
-          "2 ст. л. оливкового масла для гренок",
-          "50 г пармезана: половину натереть, половину нарезать стружкой",
-          "Заправка: 1 пастеризованный желток, 1 зубчик чеснока, 2 филе анчоуса, 1 ст. л. лимонного сока, 1 ч. л. вустерширского соуса, 80 мл оливкового масла, чёрный перец"
-        ],
-        "steps": [
-          "Перемешайте хлеб с маслом и запекайте при 200 °C 8–10 минут до золотистого цвета.",
-          "Разомните чеснок с анчоусами, вмешайте желток, лимонный сок и вустерширский соус, затем тонкой струйкой масло. Добавьте тёртый пармезан и перец.",
-          "Порвите салат руками, перемешайте с заправкой, сверху — гренки и стружка пармезана. Подавайте сразу."
-        ]
-      },
-      "tips": [
-        "Больше всего калорий в заправке — две столовые ложки дают около 150 ккал. Просите её отдельно.",
-        "100 г куриной грудки-гриль добавят около 165 ккал и 31 г белка.",
-        "Меньше гренок, больше листьев: объём тот же, калорий меньше."
-      ],
-      "name_inline": "салат «Цезарь»"
-    },
-    "ar": {
-      "name": "سلطة سيزر",
-      "origin": "المكسيك · تيخوانا",
-      "intro": "سلطة سيزر خس روماني مقرمش يُقلَّب في صلصة كريمية من صفار البيض والليمون والثوم وصلصة ورشستر وزيت الزيتون، مع مكعبات الخبز المحمص وكثير من البارميزان. تضيف نسخ كثيرة الأنشوجة إلى الصلصة، ويحوّلها الدجاج المشوي إلى طبق رئيسي.",
-      "history": "تُنسب السلطة عادة إلى سيزر كارديني، وهو صاحب مطعم إيطالي المولد كان مطعمه في تيخوانا بالمكسيك مقصداً للأمريكيين في زمن حظر الكحول؛ وتؤرخها الرواية بعام 1924. ويُقال إن وصفة كارديني الأصلية لم تحتوِ على الأنشوجة، وإن نكهة السمك جاءت من صلصة ورشستر. وخلال عقود قليلة انتشرت سلطة سيزر في قوائم المطاعم في الولايات المتحدة وأوروبا.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "2 رأس خس روماني",
-          "2 شريحة سميكة من خبز اليوم السابق، مقطعة مكعبات",
-          "2 ملعقة كبيرة زيت زيتون لمكعبات الخبز",
-          "50 غ بارميزان، نصفه مبشور ونصفه رقائق",
-          "الصلصة: 1 صفار بيض مبستر، 1 فص ثوم، 2 شريحة أنشوجة، 1 ملعقة كبيرة عصير ليمون، 1 ملعقة صغيرة صلصة ورشستر، 80 مل زيت زيتون، فلفل أسود"
-        ],
-        "steps": [
-          "قلّب الخبز مع الزيت واخبزه على 200 °م لمدة 8–10 دقائق حتى يصبح ذهبياً.",
-          "اهرس الثوم والأنشوجة، واخفق معهما الصفار وعصير الليمون وصلصة ورشستر، ثم أضف الزيت في خيط رفيع. أضف البارميزان المبشور والفلفل.",
-          "قطّع الخس بيدك، وقلّبه مع الصلصة، وزيّنه بمكعبات الخبز ورقائق البارميزان. قدّمها فوراً."
-        ]
-      },
-      "tips": [
-        "معظم السعرات في الصلصة — ملعقتان كبيرتان نحو 150 سعرة. اطلبها في وعاء منفصل.",
-        "أضف 100 غ صدر دجاج مشوي مقابل نحو 165 سعرة و31 غ بروتين.",
-        "مكعبات خبز أقل وخس أكثر: يبقى الحجم وتقل السعرات."
-      ]
-    },
-    "it": {
-      "name": "Insalata Caesar",
-      "origin": "Messico · Tijuana",
-      "intro": "L'insalata Caesar è lattuga romana croccante condita con una salsa cremosa di tuorlo, limone, aglio, salsa Worcestershire e olio d'oliva, con crostini e abbondante parmigiano. Molte versioni aggiungono acciughe al condimento, e il pollo alla griglia la trasforma in un piatto unico.",
-      "history": "L'insalata viene di solito attribuita a Caesar Cardini, ristoratore di origine italiana il cui locale a Tijuana, in Messico, era frequentato dagli americani durante il Proibizionismo; la storia la data al 1924. Si dice che l'originale di Cardini non avesse acciughe: la nota di pesce veniva dalla salsa Worcestershire. Nel giro di pochi decenni la Caesar era nei menu di tutti gli Stati Uniti e dell'Europa.",
-      "name_inline": "insalata Caesar",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "2 cespi di lattuga romana",
-          "2 fette spesse di pane raffermo a cubetti",
-          "2 cucchiai di olio d'oliva per i crostini",
-          "50 g di parmigiano, metà grattugiato e metà a scaglie",
-          "Condimento: 1 tuorlo pastorizzato, 1 spicchio d'aglio, 2 filetti d'acciuga, 1 cucchiaio di succo di limone, 1 cucchiaino di salsa Worcestershire, 80 ml di olio d'oliva, pepe nero"
-        ],
-        "steps": [
-          "Condisci il pane con l'olio e cuocilo in forno a 200 °C per 8–10 minuti finché è dorato.",
-          "Schiaccia l'aglio e le acciughe, incorpora con la frusta il tuorlo, il succo di limone e la Worcestershire, poi l'olio a filo. Aggiungi il parmigiano grattugiato e il pepe.",
-          "Spezzetta la lattuga, condiscila con la salsa e completa con crostini e scaglie di parmigiano. Servi subito."
-        ]
-      },
-      "tips": [
-        "Gran parte delle calorie è nel condimento: due cucchiai valgono circa 150 kcal. Chiedilo a parte.",
-        "Aggiungi 100 g di petto di pollo alla griglia per circa 165 kcal e 31 g di proteine.",
-        "Meno crostini, più lattuga: il volume resta e le calorie scendono."
-      ]
-    },
-    "el": {
-      "name": "Σαλάτα Σίζαρ",
-      "origin": "Μεξικό · Τιχουάνα",
-      "intro": "Η σαλάτα Σίζαρ είναι τραγανό μαρούλι ρομάνα ανακατεμένο με κρεμώδη σάλτσα από κρόκο αυγού, λεμόνι, σκόρδο, σάλτσα Worcestershire και ελαιόλαδο, με κρουτόν και άφθονη παρμεζάνα. Πολλές εκδοχές προσθέτουν αντζούγιες στη σάλτσα, και το ψητό κοτόπουλο τη μετατρέπει σε κυρίως πιάτο.",
-      "history": "Η σαλάτα αποδίδεται συνήθως στον Σίζαρ Καρντίνι, ιταλικής καταγωγής εστιάτορα του οποίου το εστιατόριο στην Τιχουάνα του Μεξικού ήταν δημοφιλές στους Αμερικανούς την εποχή της Ποτοαπαγόρευσης· η ιστορία τη χρονολογεί στο 1924. Λέγεται ότι η αρχική συνταγή του Καρντίνι δεν είχε αντζούγιες — η νότα ψαριού προερχόταν από τη σάλτσα Worcestershire. Μέσα σε λίγες δεκαετίες η Σίζαρ βρισκόταν σε μενού σε όλες τις Ηνωμένες Πολιτείες και την Ευρώπη.",
-      "name_inline": "σαλάτα Σίζαρ",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "2 μαρούλια ρομάνα",
-          "2 χοντρές φέτες μπαγιάτικο ψωμί, σε κύβους",
-          "2 κ.σ. ελαιόλαδο για τα κρουτόν",
-          "50 γρ. παρμεζάνα, μισή τριμμένη, μισή σε φλοίδες",
-          "Σάλτσα: 1 παστεριωμένος κρόκος αυγού, 1 σκελίδα σκόρδο, 2 φιλέτα αντζούγιας, 1 κ.σ. χυμός λεμονιού, 1 κ.γ. σάλτσα Worcestershire, 80 ml ελαιόλαδο, μαύρο πιπέρι"
-        ],
-        "steps": [
-          "Ανακατέψτε το ψωμί με το λάδι και ψήστε στους 200 °C για 8–10 λεπτά μέχρι να ροδίσει.",
-          "Λιώστε το σκόρδο και τις αντζούγιες, ενσωματώστε με σύρμα τον κρόκο, τον χυμό λεμονιού και τη Worcestershire και έπειτα το λάδι σε λεπτή ροή. Ανακατέψτε την τριμμένη παρμεζάνα και το πιπέρι.",
-          "Κόψτε το μαρούλι με τα χέρια, ανακατέψτε με τη σάλτσα και βάλτε από πάνω τα κρουτόν και τις φλοίδες παρμεζάνας. Σερβίρετε αμέσως."
-        ]
-      },
-      "tips": [
-        "Οι περισσότερες θερμίδες βρίσκονται στη σάλτσα — δύο κουταλιές έχουν περίπου 150 kcal. Ζητήστε τη χωριστά.",
-        "Προσθέστε 100 γρ. ψητό στήθος κοτόπουλου για περίπου 165 kcal και 31 γρ. πρωτεΐνη.",
-        "Λιγότερα κρουτόν, περισσότερο μαρούλι: ο όγκος μένει, οι θερμίδες πέφτουν."
-      ]
-    }
+  "ru": {
+   "name": "Салат «Цезарь»",
+   "origin": "Мексика · Тихуана",
+   "intro": "«Цезарь» — хрустящий салат ромэн с кремовой заправкой из желтка, лимона, чеснока, вустерширского соуса и оливкового масла, с гренками и большим количеством пармезана. Во многих вариантах в заправку добавляют анчоусы, а с курицей-гриль салат становится полноценным обедом.",
+   "history": "Автором салата обычно называют Цезаря Кардини — ресторатора итальянского происхождения, чей ресторан в мексиканской Тихуане был популярен у американцев во времена сухого закона; по легенде, это был 1924 год. Говорят, в оригинале не было анчоусов — рыбную нотку давал вустерширский соус. За несколько десятилетий «Цезарь» появился в меню по всей Америке и Европе.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "2 кочана салата ромэн",
+     "2 толстых ломтика вчерашнего хлеба, нарезать кубиками",
+     "2 ст. л. оливкового масла для гренок",
+     "50 г пармезана: половину натереть, половину нарезать стружкой",
+     "Заправка: 1 пастеризованный желток, 1 зубчик чеснока, 2 филе анчоуса, 1 ст. л. лимонного сока, 1 ч. л. вустерширского соуса, 80 мл оливкового масла, чёрный перец"
+    ],
+    "steps": [
+     "Перемешайте хлеб с маслом и запекайте при 200 °C 8–10 минут до золотистого цвета.",
+     "Разомните чеснок с анчоусами, вмешайте желток, лимонный сок и вустерширский соус, затем тонкой струйкой масло. Добавьте тёртый пармезан и перец.",
+     "Порвите салат руками, перемешайте с заправкой, сверху — гренки и стружка пармезана. Подавайте сразу."
+    ]
+   },
+   "tips": [
+    "Больше всего калорий в заправке — две столовые ложки дают около 150 ккал. Просите её отдельно.",
+    "100 г куриной грудки-гриль добавят около 165 ккал и 31 г белка.",
+    "Меньше гренок, больше листьев: объём тот же, калорий меньше."
+   ],
+   "name_inline": "салат «Цезарь»"
   },
-  "country": "MX"
+  "ar": {
+   "name": "سلطة سيزر",
+   "origin": "المكسيك · تيخوانا",
+   "intro": "سلطة سيزر خس روماني مقرمش يُقلَّب في صلصة كريمية من صفار البيض والليمون والثوم وصلصة ورشستر وزيت الزيتون، مع مكعبات الخبز المحمص وكثير من البارميزان. تضيف نسخ كثيرة الأنشوجة إلى الصلصة، ويحوّلها الدجاج المشوي إلى طبق رئيسي.",
+   "history": "تُنسب السلطة عادة إلى سيزر كارديني، وهو صاحب مطعم إيطالي المولد كان مطعمه في تيخوانا بالمكسيك مقصداً للأمريكيين في زمن حظر الكحول؛ وتؤرخها الرواية بعام 1924. ويُقال إن وصفة كارديني الأصلية لم تحتوِ على الأنشوجة، وإن نكهة السمك جاءت من صلصة ورشستر. وخلال عقود قليلة انتشرت سلطة سيزر في قوائم المطاعم في الولايات المتحدة وأوروبا.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "2 رأس خس روماني",
+     "2 شريحة سميكة من خبز اليوم السابق، مقطعة مكعبات",
+     "2 ملعقة كبيرة زيت زيتون لمكعبات الخبز",
+     "50 غ بارميزان، نصفه مبشور ونصفه رقائق",
+     "الصلصة: 1 صفار بيض مبستر، 1 فص ثوم، 2 شريحة أنشوجة، 1 ملعقة كبيرة عصير ليمون، 1 ملعقة صغيرة صلصة ورشستر، 80 مل زيت زيتون، فلفل أسود"
+    ],
+    "steps": [
+     "قلّب الخبز مع الزيت واخبزه على 200 °م لمدة 8–10 دقائق حتى يصبح ذهبياً.",
+     "اهرس الثوم والأنشوجة، واخفق معهما الصفار وعصير الليمون وصلصة ورشستر، ثم أضف الزيت في خيط رفيع. أضف البارميزان المبشور والفلفل.",
+     "قطّع الخس بيدك، وقلّبه مع الصلصة، وزيّنه بمكعبات الخبز ورقائق البارميزان. قدّمها فوراً."
+    ]
+   },
+   "tips": [
+    "معظم السعرات في الصلصة — ملعقتان كبيرتان نحو 150 سعرة. اطلبها في وعاء منفصل.",
+    "أضف 100 غ صدر دجاج مشوي مقابل نحو 165 سعرة و31 غ بروتين.",
+    "مكعبات خبز أقل وخس أكثر: يبقى الحجم وتقل السعرات."
+   ]
+  },
+  "it": {
+   "name": "Insalata Caesar",
+   "origin": "Messico · Tijuana",
+   "intro": "L'insalata Caesar è lattuga romana croccante condita con una salsa cremosa di tuorlo, limone, aglio, salsa Worcestershire e olio d'oliva, con crostini e abbondante parmigiano. Molte versioni aggiungono acciughe al condimento, e il pollo alla griglia la trasforma in un piatto unico.",
+   "history": "L'insalata viene di solito attribuita a Caesar Cardini, ristoratore di origine italiana il cui locale a Tijuana, in Messico, era frequentato dagli americani durante il Proibizionismo; la storia la data al 1924. Si dice che l'originale di Cardini non avesse acciughe: la nota di pesce veniva dalla salsa Worcestershire. Nel giro di pochi decenni la Caesar era nei menu di tutti gli Stati Uniti e dell'Europa.",
+   "name_inline": "insalata Caesar",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "2 cespi di lattuga romana",
+     "2 fette spesse di pane raffermo a cubetti",
+     "2 cucchiai di olio d'oliva per i crostini",
+     "50 g di parmigiano, metà grattugiato e metà a scaglie",
+     "Condimento: 1 tuorlo pastorizzato, 1 spicchio d'aglio, 2 filetti d'acciuga, 1 cucchiaio di succo di limone, 1 cucchiaino di salsa Worcestershire, 80 ml di olio d'oliva, pepe nero"
+    ],
+    "steps": [
+     "Condisci il pane con l'olio e cuocilo in forno a 200 °C per 8–10 minuti finché è dorato.",
+     "Schiaccia l'aglio e le acciughe, incorpora con la frusta il tuorlo, il succo di limone e la Worcestershire, poi l'olio a filo. Aggiungi il parmigiano grattugiato e il pepe.",
+     "Spezzetta la lattuga, condiscila con la salsa e completa con crostini e scaglie di parmigiano. Servi subito."
+    ]
+   },
+   "tips": [
+    "Gran parte delle calorie è nel condimento: due cucchiai valgono circa 150 kcal. Chiedilo a parte.",
+    "Aggiungi 100 g di petto di pollo alla griglia per circa 165 kcal e 31 g di proteine.",
+    "Meno crostini, più lattuga: il volume resta e le calorie scendono."
+   ]
+  },
+  "el": {
+   "name": "Σαλάτα Σίζαρ",
+   "origin": "Μεξικό · Τιχουάνα",
+   "intro": "Η σαλάτα Σίζαρ είναι τραγανό μαρούλι ρομάνα ανακατεμένο με κρεμώδη σάλτσα από κρόκο αυγού, λεμόνι, σκόρδο, σάλτσα Worcestershire και ελαιόλαδο, με κρουτόν και άφθονη παρμεζάνα. Πολλές εκδοχές προσθέτουν αντζούγιες στη σάλτσα, και το ψητό κοτόπουλο τη μετατρέπει σε κυρίως πιάτο.",
+   "history": "Η σαλάτα αποδίδεται συνήθως στον Σίζαρ Καρντίνι, ιταλικής καταγωγής εστιάτορα του οποίου το εστιατόριο στην Τιχουάνα του Μεξικού ήταν δημοφιλές στους Αμερικανούς την εποχή της Ποτοαπαγόρευσης· η ιστορία τη χρονολογεί στο 1924. Λέγεται ότι η αρχική συνταγή του Καρντίνι δεν είχε αντζούγιες — η νότα ψαριού προερχόταν από τη σάλτσα Worcestershire. Μέσα σε λίγες δεκαετίες η Σίζαρ βρισκόταν σε μενού σε όλες τις Ηνωμένες Πολιτείες και την Ευρώπη.",
+   "name_inline": "σαλάτα Σίζαρ",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "2 μαρούλια ρομάνα",
+     "2 χοντρές φέτες μπαγιάτικο ψωμί, σε κύβους",
+     "2 κ.σ. ελαιόλαδο για τα κρουτόν",
+     "50 γρ. παρμεζάνα, μισή τριμμένη, μισή σε φλοίδες",
+     "Σάλτσα: 1 παστεριωμένος κρόκος αυγού, 1 σκελίδα σκόρδο, 2 φιλέτα αντζούγιας, 1 κ.σ. χυμός λεμονιού, 1 κ.γ. σάλτσα Worcestershire, 80 ml ελαιόλαδο, μαύρο πιπέρι"
+    ],
+    "steps": [
+     "Ανακατέψτε το ψωμί με το λάδι και ψήστε στους 200 °C για 8–10 λεπτά μέχρι να ροδίσει.",
+     "Λιώστε το σκόρδο και τις αντζούγιες, ενσωματώστε με σύρμα τον κρόκο, τον χυμό λεμονιού και τη Worcestershire και έπειτα το λάδι σε λεπτή ροή. Ανακατέψτε την τριμμένη παρμεζάνα και το πιπέρι.",
+     "Κόψτε το μαρούλι με τα χέρια, ανακατέψτε με τη σάλτσα και βάλτε από πάνω τα κρουτόν και τις φλοίδες παρμεζάνας. Σερβίρετε αμέσως."
+    ]
+   },
+   "tips": [
+    "Οι περισσότερες θερμίδες βρίσκονται στη σάλτσα — δύο κουταλιές έχουν περίπου 150 kcal. Ζητήστε τη χωριστά.",
+    "Προσθέστε 100 γρ. ψητό στήθος κοτόπουλου για περίπου 165 kcal και 31 γρ. πρωτεΐνη.",
+    "Λιγότερα κρουτόν, περισσότερο μαρούλι: ο όγκος μένει, οι θερμίδες πέφτουν."
+   ]
+  },
+  "es": {
+   "name": "Ensalada César",
+   "origin": "México · Tijuana",
+   "intro": "La ensalada César es lechuga romana crujiente mezclada con un aderezo cremoso de yema de huevo, limón, ajo, salsa Worcestershire y aceite de oliva, con crutones y abundante parmesano. Muchas versiones añaden anchoas al aderezo, y con pollo a la parrilla se convierte en plato principal.",
+   "history": "La ensalada suele atribuirse a Caesar Cardini, un restaurantero nacido en Italia cuyo restaurante en Tijuana, México, era muy popular entre los estadounidenses durante la Ley Seca; la historia la fecha en 1924. Se dice que la receta original de Cardini no llevaba anchoas: el toque de pescado venía de la salsa Worcestershire. En pocas décadas la César estaba en las cartas de todo Estados Unidos y Europa.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "2 lechugas romanas",
+     "2 rebanadas gruesas de pan del día anterior, en cubos",
+     "2 cda. de aceite de oliva para los crutones",
+     "50 g de parmesano, la mitad rallado y la mitad en láminas",
+     "Aderezo: 1 yema de huevo pasteurizada, 1 diente de ajo, 2 filetes de anchoa, 1 cda. de jugo de limón, 1 cdta. de salsa Worcestershire, 80 ml de aceite de oliva, pimienta negra"
+    ],
+    "steps": [
+     "Mezcla el pan con el aceite y hornea a 200 °C de 8 a 10 minutos hasta que esté dorado.",
+     "Machaca el ajo y las anchoas, bate con la yema, el jugo de limón y la salsa Worcestershire, y luego añade el aceite en un hilo fino. Incorpora el parmesano rallado y la pimienta.",
+     "Trocea la lechuga, mézclala con el aderezo y cubre con los crutones y las láminas de parmesano. Sirve de inmediato."
+    ]
+   },
+   "tips": [
+    "La mayoría de las calorías están en el aderezo: dos cucharadas son unas 150 kcal. Pídelo aparte.",
+    "Añade 100 g de pechuga de pollo a la parrilla por unas 165 kcal y 31 g de proteína.",
+    "Menos crutones y más lechuga: el volumen se mantiene y bajan las calorías."
+   ],
+   "name_inline": "la ensalada César"
+  }
+ },
+ "country": "MX"
 }

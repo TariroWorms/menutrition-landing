@@ -1,160 +1,190 @@
 {
-  "db_key": "elote_en_vaso",
-  "slug": "elote-en-vaso",
-  "emoji": "🌽",
-  "portion_g": 200,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "elote_en_vaso",
+ "slug": "elote-en-vaso",
+ "emoji": "🌽",
+ "portion_g": 200,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Esquites (Elote en Vaso)",
+   "origin": "Mexico",
+   "intro": "Elote en vaso, also called esquites, is corn served in a cup: tender kernels cut from the cob are boiled, then mixed with mayonnaise, grated cheese, lime juice and chilli powder. It is creamy, tangy and spicy, and easier to eat than corn on the cob. Street vendors spoon it into cups to be eaten with a spoon.",
+   "history": "Corn in a cup is a popular street snack across Mexico, sold from the same carts as elote; the name esquites comes from the Nahuatl word izquitl.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "600 g corn kernels (fresh or frozen)",
+     "3 tbsp mayonnaise",
+     "50 g grated cheese",
+     "1 lime, juiced",
+     "1 tsp chilli powder",
+     "Salt"
+    ],
+    "steps": [
+     "Boil the corn kernels in salted water for 5–8 minutes until tender, then drain.",
+     "While warm, stir in the mayonnaise and lime juice.",
+     "Spoon into cups and top with grated cheese and chilli powder.",
+     "Serve warm with an extra lime wedge."
+    ]
+   },
+   "tips": [
+    "Cut the mayonnaise to 1 tsp per cup and add more lime juice for creaminess and tang.",
+    "Use a small cup (about 150 g) as a snack portion.",
+    "Choose a light mayonnaise and a finely grated cheese, which spreads further."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Esquites (Elote en Vaso)",
-      "origin": "Mexico",
-      "intro": "Elote en vaso, also called esquites, is corn served in a cup: tender kernels cut from the cob are boiled, then mixed with mayonnaise, grated cheese, lime juice and chilli powder. It is creamy, tangy and spicy, and easier to eat than corn on the cob. Street vendors spoon it into cups to be eaten with a spoon.",
-      "history": "Corn in a cup is a popular street snack across Mexico, sold from the same carts as elote; the name esquites comes from the Nahuatl word izquitl.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "600 g corn kernels (fresh or frozen)",
-          "3 tbsp mayonnaise",
-          "50 g grated cheese",
-          "1 lime, juiced",
-          "1 tsp chilli powder",
-          "Salt"
-        ],
-        "steps": [
-          "Boil the corn kernels in salted water for 5–8 minutes until tender, then drain.",
-          "While warm, stir in the mayonnaise and lime juice.",
-          "Spoon into cups and top with grated cheese and chilli powder.",
-          "Serve warm with an extra lime wedge."
-        ]
-      },
-      "tips": [
-        "Cut the mayonnaise to 1 tsp per cup and add more lime juice for creaminess and tang.",
-        "Use a small cup (about 150 g) as a snack portion.",
-        "Choose a light mayonnaise and a finely grated cheese, which spreads further."
-      ]
-    },
-    "ar": {
-      "name": "ذرة في كوب (إسكيتيس)",
-      "origin": "المكسيك",
-      "intro": "الإلوتي إن باسو، ويسمى أيضاً إسكيتيس، ذرة تُقدّم في كوب: حبات ذرة طرية مفصولة عن الكوز تُسلق ثم تُخلط بالمايونيز والجبن المبشور وعصير الليمون ومسحوق الفلفل الحار. طعمها كريمي وحامض وحار، وأكلها أسهل من الكوز. يغرفها الباعة في أكواب لتؤكل بالملعقة.",
-      "history": "الذرة في الكوب وجبة شارع خفيفة شائعة في أنحاء المكسيك، تُباع من عربات الإلوتي نفسها، واسم «إسكيتيس» مأخوذ من كلمة «إسكيتل» في لغة الناواتل.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "600 غ حبات ذرة (طازجة أو مجمدة)",
-          "3 ملاعق كبيرة مايونيز",
-          "50 غ جبن مبشور",
-          "1 ليمونة معصورة",
-          "1 ملعقة صغيرة مسحوق فلفل حار",
-          "ملح"
-        ],
-        "steps": [
-          "اسلق حبات الذرة في ماء مملّح 5–8 دقائق حتى تطرى ثم صفّها.",
-          "وهي دافئة، أضف المايونيز وعصير الليمون وقلّب.",
-          "وزّعها في أكواب وزيّنها بالجبن المبشور والفلفل الحار.",
-          "قدّمها دافئة مع قطعة ليمون إضافية."
-        ]
-      },
-      "tips": [
-        "قلّل المايونيز إلى ملعقة صغيرة لكل كوب وأضف عصير ليمون أكثر.",
-        "اعتمد كوباً صغيراً (نحو 150 غ) حصةً للوجبة الخفيفة.",
-        "اختر مايونيز خفيفاً وجبناً مبشوراً ناعماً يغطي مساحة أكبر."
-      ]
-    },
-    "it": {
-      "name": "Esquites (elote en vaso)",
-      "origin": "Messico",
-      "intro": "L'elote en vaso, detto anche esquites, è mais servito in un bicchiere: chicchi teneri staccati dalla pannocchia vengono lessati e poi mescolati con maionese, formaggio grattugiato, succo di lime e peperoncino in polvere. È cremoso, acidulo e piccante, e più facile da mangiare della pannocchia. I venditori ambulanti lo versano in bicchieri da mangiare con il cucchiaio.",
-      "history": "Il mais nel bicchiere è uno snack di strada molto popolare in tutto il Messico, venduto dagli stessi carretti dell'elote; il nome esquites deriva dalla parola nahuatl izquitl.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "600 g di chicchi di mais (freschi o surgelati)",
-          "3 cucchiai di maionese",
-          "50 g di formaggio grattugiato",
-          "1 lime, spremuto",
-          "1 cucchiaino di peperoncino in polvere",
-          "Sale"
-        ],
-        "steps": [
-          "Lessa i chicchi di mais in acqua salata per 5–8 minuti finché sono teneri, poi scolali.",
-          "Ancora caldi, incorpora la maionese e il succo di lime.",
-          "Versa nei bicchieri e completa con formaggio grattugiato e peperoncino in polvere.",
-          "Servi caldo con uno spicchio di lime in più."
-        ]
-      },
-      "tips": [
-        "Riduci la maionese a 1 cucchiaino per bicchiere e aggiungi più succo di lime per cremosità e acidità.",
-        "Usa un bicchiere piccolo (circa 150 g) come porzione da spuntino.",
-        "Scegli una maionese light e un formaggio grattugiato finemente, che si distribuisce meglio."
-      ]
-    },
-    "el": {
-      "name": "Εσκίτες (ελότε εν βάσο)",
-      "origin": "Μεξικό",
-      "intro": "Το ελότε εν βάσο, που λέγεται και εσκίτες, είναι καλαμπόκι σε ποτήρι: τρυφεροί κόκκοι κομμένοι από το κοτσάνι βράζονται και ανακατεύονται με μαγιονέζα, τριμμένο τυρί, χυμό λάιμ και τσίλι σε σκόνη. Είναι κρεμώδες, ξινό και πικάντικο, και τρώγεται πιο εύκολα από το καλαμπόκι στο κοτσάνι. Οι πλανόδιοι πωλητές το βάζουν σε ποτήρια για να τρώγεται με κουτάλι.",
-      "history": "Το καλαμπόκι σε ποτήρι είναι δημοφιλές σνακ δρόμου σε όλο το Μεξικό και πουλιέται από τα ίδια καροτσάκια με το ελότε· το όνομα εσκίτες προέρχεται από τη λέξη izquitl της γλώσσας νάουατλ.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "600 γρ. κόκκοι καλαμποκιού (φρέσκοι ή κατεψυγμένοι)",
-          "3 κ.σ. μαγιονέζα",
-          "50 γρ. τριμμένο τυρί",
-          "Ο χυμός από 1 λάιμ",
-          "1 κ.γ. τσίλι σε σκόνη",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Βράστε τους κόκκους καλαμποκιού σε αλατισμένο νερό για 5–8 λεπτά μέχρι να μαλακώσουν και σουρώστε.",
-          "Όσο είναι ζεστοί, ανακατέψτε μέσα τη μαγιονέζα και τον χυμό λάιμ.",
-          "Μοιράστε σε ποτήρια και πασπαλίστε με τριμμένο τυρί και τσίλι σε σκόνη.",
-          "Σερβίρετε ζεστό με μια επιπλέον φέτα λάιμ."
-        ]
-      },
-      "tips": [
-        "Μειώστε τη μαγιονέζα σε 1 κ.γ. ανά ποτήρι και προσθέστε περισσότερο χυμό λάιμ για κρεμώδη υφή και ξινή νότα.",
-        "Χρησιμοποιήστε ένα μικρό ποτήρι (περίπου 150 γρ.) ως μερίδα σνακ.",
-        "Διαλέξτε μαγιονέζα light και ψιλοτριμμένο τυρί, που απλώνεται περισσότερο."
-      ]
-    },
-    "ru": {
-      "name": "Эскитес (элоте эн васо)",
-      "origin": "Мексика",
-      "intro": "Элоте эн васо, также называемый эскитес, — кукуруза, поданная в стаканчике: нежные зёрна, срезанные с початка, отваривают, затем смешивают с майонезом, тёртым сыром, соком лайма и порошком чили. Она сливочная, пикантная и острая, и есть её проще, чем кукурузу в початке. Уличные торговцы накладывают её ложкой в стаканчики, и её едят ложкой.",
-      "history": "Кукуруза в стаканчике — популярная уличная закуска по всей Мексике, её продают с тех же тележек, что и элоте; название эскитес происходит от слова науатль izquitl.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 20,
-        "ingredients": [
-          "600 г кукурузных зёрен (свежих или замороженных)",
-          "3 ст. л. майонеза",
-          "50 г тёртого сыра",
-          "Сок 1 лайма",
-          "1 ч. л. порошка чили",
-          "Соль"
-        ],
-        "steps": [
-          "Варите кукурузные зёрна в подсоленной воде 5–8 минут до мягкости, затем слейте воду.",
-          "Пока тёплые, вмешайте майонез и сок лайма.",
-          "Разложите ложкой по стаканчикам и посыпьте тёртым сыром и порошком чили.",
-          "Подавайте тёплыми с дополнительной долькой лайма."
-        ]
-      },
-      "tips": [
-        "Сократите майонез до 1 ч. л. на стаканчик и добавьте больше сока лайма для сливочности и пикантности.",
-        "Берите маленький стаканчик (около 150 г) как порцию перекуса.",
-        "Выбирайте лёгкий майонез и мелко тёртый сыр, который распределяется дальше."
-      ],
-      "name_inline": "эскитес"
-    }
+  "ar": {
+   "name": "ذرة في كوب (إسكيتيس)",
+   "origin": "المكسيك",
+   "intro": "الإلوتي إن باسو، ويسمى أيضاً إسكيتيس، ذرة تُقدّم في كوب: حبات ذرة طرية مفصولة عن الكوز تُسلق ثم تُخلط بالمايونيز والجبن المبشور وعصير الليمون ومسحوق الفلفل الحار. طعمها كريمي وحامض وحار، وأكلها أسهل من الكوز. يغرفها الباعة في أكواب لتؤكل بالملعقة.",
+   "history": "الذرة في الكوب وجبة شارع خفيفة شائعة في أنحاء المكسيك، تُباع من عربات الإلوتي نفسها، واسم «إسكيتيس» مأخوذ من كلمة «إسكيتل» في لغة الناواتل.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "600 غ حبات ذرة (طازجة أو مجمدة)",
+     "3 ملاعق كبيرة مايونيز",
+     "50 غ جبن مبشور",
+     "1 ليمونة معصورة",
+     "1 ملعقة صغيرة مسحوق فلفل حار",
+     "ملح"
+    ],
+    "steps": [
+     "اسلق حبات الذرة في ماء مملّح 5–8 دقائق حتى تطرى ثم صفّها.",
+     "وهي دافئة، أضف المايونيز وعصير الليمون وقلّب.",
+     "وزّعها في أكواب وزيّنها بالجبن المبشور والفلفل الحار.",
+     "قدّمها دافئة مع قطعة ليمون إضافية."
+    ]
+   },
+   "tips": [
+    "قلّل المايونيز إلى ملعقة صغيرة لكل كوب وأضف عصير ليمون أكثر.",
+    "اعتمد كوباً صغيراً (نحو 150 غ) حصةً للوجبة الخفيفة.",
+    "اختر مايونيز خفيفاً وجبناً مبشوراً ناعماً يغطي مساحة أكبر."
+   ]
+  },
+  "it": {
+   "name": "Esquites (elote en vaso)",
+   "origin": "Messico",
+   "intro": "L'elote en vaso, detto anche esquites, è mais servito in un bicchiere: chicchi teneri staccati dalla pannocchia vengono lessati e poi mescolati con maionese, formaggio grattugiato, succo di lime e peperoncino in polvere. È cremoso, acidulo e piccante, e più facile da mangiare della pannocchia. I venditori ambulanti lo versano in bicchieri da mangiare con il cucchiaio.",
+   "history": "Il mais nel bicchiere è uno snack di strada molto popolare in tutto il Messico, venduto dagli stessi carretti dell'elote; il nome esquites deriva dalla parola nahuatl izquitl.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "600 g di chicchi di mais (freschi o surgelati)",
+     "3 cucchiai di maionese",
+     "50 g di formaggio grattugiato",
+     "1 lime, spremuto",
+     "1 cucchiaino di peperoncino in polvere",
+     "Sale"
+    ],
+    "steps": [
+     "Lessa i chicchi di mais in acqua salata per 5–8 minuti finché sono teneri, poi scolali.",
+     "Ancora caldi, incorpora la maionese e il succo di lime.",
+     "Versa nei bicchieri e completa con formaggio grattugiato e peperoncino in polvere.",
+     "Servi caldo con uno spicchio di lime in più."
+    ]
+   },
+   "tips": [
+    "Riduci la maionese a 1 cucchiaino per bicchiere e aggiungi più succo di lime per cremosità e acidità.",
+    "Usa un bicchiere piccolo (circa 150 g) come porzione da spuntino.",
+    "Scegli una maionese light e un formaggio grattugiato finemente, che si distribuisce meglio."
+   ]
+  },
+  "el": {
+   "name": "Εσκίτες (ελότε εν βάσο)",
+   "origin": "Μεξικό",
+   "intro": "Το ελότε εν βάσο, που λέγεται και εσκίτες, είναι καλαμπόκι σε ποτήρι: τρυφεροί κόκκοι κομμένοι από το κοτσάνι βράζονται και ανακατεύονται με μαγιονέζα, τριμμένο τυρί, χυμό λάιμ και τσίλι σε σκόνη. Είναι κρεμώδες, ξινό και πικάντικο, και τρώγεται πιο εύκολα από το καλαμπόκι στο κοτσάνι. Οι πλανόδιοι πωλητές το βάζουν σε ποτήρια για να τρώγεται με κουτάλι.",
+   "history": "Το καλαμπόκι σε ποτήρι είναι δημοφιλές σνακ δρόμου σε όλο το Μεξικό και πουλιέται από τα ίδια καροτσάκια με το ελότε· το όνομα εσκίτες προέρχεται από τη λέξη izquitl της γλώσσας νάουατλ.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "600 γρ. κόκκοι καλαμποκιού (φρέσκοι ή κατεψυγμένοι)",
+     "3 κ.σ. μαγιονέζα",
+     "50 γρ. τριμμένο τυρί",
+     "Ο χυμός από 1 λάιμ",
+     "1 κ.γ. τσίλι σε σκόνη",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Βράστε τους κόκκους καλαμποκιού σε αλατισμένο νερό για 5–8 λεπτά μέχρι να μαλακώσουν και σουρώστε.",
+     "Όσο είναι ζεστοί, ανακατέψτε μέσα τη μαγιονέζα και τον χυμό λάιμ.",
+     "Μοιράστε σε ποτήρια και πασπαλίστε με τριμμένο τυρί και τσίλι σε σκόνη.",
+     "Σερβίρετε ζεστό με μια επιπλέον φέτα λάιμ."
+    ]
+   },
+   "tips": [
+    "Μειώστε τη μαγιονέζα σε 1 κ.γ. ανά ποτήρι και προσθέστε περισσότερο χυμό λάιμ για κρεμώδη υφή και ξινή νότα.",
+    "Χρησιμοποιήστε ένα μικρό ποτήρι (περίπου 150 γρ.) ως μερίδα σνακ.",
+    "Διαλέξτε μαγιονέζα light και ψιλοτριμμένο τυρί, που απλώνεται περισσότερο."
+   ]
+  },
+  "ru": {
+   "name": "Эскитес (элоте эн васо)",
+   "origin": "Мексика",
+   "intro": "Элоте эн васо, также называемый эскитес, — кукуруза, поданная в стаканчике: нежные зёрна, срезанные с початка, отваривают, затем смешивают с майонезом, тёртым сыром, соком лайма и порошком чили. Она сливочная, пикантная и острая, и есть её проще, чем кукурузу в початке. Уличные торговцы накладывают её ложкой в стаканчики, и её едят ложкой.",
+   "history": "Кукуруза в стаканчике — популярная уличная закуска по всей Мексике, её продают с тех же тележек, что и элоте; название эскитес происходит от слова науатль izquitl.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "600 г кукурузных зёрен (свежих или замороженных)",
+     "3 ст. л. майонеза",
+     "50 г тёртого сыра",
+     "Сок 1 лайма",
+     "1 ч. л. порошка чили",
+     "Соль"
+    ],
+    "steps": [
+     "Варите кукурузные зёрна в подсоленной воде 5–8 минут до мягкости, затем слейте воду.",
+     "Пока тёплые, вмешайте майонез и сок лайма.",
+     "Разложите ложкой по стаканчикам и посыпьте тёртым сыром и порошком чили.",
+     "Подавайте тёплыми с дополнительной долькой лайма."
+    ]
+   },
+   "tips": [
+    "Сократите майонез до 1 ч. л. на стаканчик и добавьте больше сока лайма для сливочности и пикантности.",
+    "Берите маленький стаканчик (около 150 г) как порцию перекуса.",
+    "Выбирайте лёгкий майонез и мелко тёртый сыр, который распределяется дальше."
+   ],
+   "name_inline": "эскитес"
+  },
+  "es": {
+   "name": "Esquites (elote en vaso)",
+   "origin": "México",
+   "intro": "El elote en vaso, también llamado esquites, es maíz servido en un vaso: los granos tiernos, desgranados de la mazorca, se cuecen y se mezclan con mayonesa, queso rallado, jugo de limón y chile en polvo. Es cremoso, ácido y picante, y más fácil de comer que la mazorca. Los vendedores ambulantes lo sirven con cuchara en vasitos.",
+   "history": "El maíz en vaso es un antojito callejero popular en todo México, que se vende en los mismos puestos que el elote; el nombre esquites viene de la palabra náhuatl izquitl.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 20,
+    "ingredients": [
+     "600 g de granos de maíz (frescos o congelados)",
+     "3 cda. de mayonesa",
+     "50 g de queso rallado",
+     "1 limón, su jugo",
+     "1 cdta. de chile en polvo",
+     "Sal"
+    ],
+    "steps": [
+     "Cuece los granos de maíz en agua con sal de 5 a 8 minutos hasta que estén tiernos y escúrrelos.",
+     "Estando tibios, mézclalos con la mayonesa y el jugo de limón.",
+     "Sirve en vasitos y cubre con el queso rallado y el chile en polvo.",
+     "Sirve caliente con un gajo extra de limón."
+    ]
+   },
+   "tips": [
+    "Reduce la mayonesa a 1 cdta. por vaso y agrega más jugo de limón para dar cremosidad y acidez.",
+    "Usa un vasito pequeño (unos 150 g) como porción de botana.",
+    "Elige una mayonesa light y un queso rallado fino, que rinde más."
+   ],
+   "name_inline": "los esquites"
   }
+ }
 }

@@ -1,171 +1,203 @@
 {
-  "db_key": "ceviche_clasico",
-  "slug": "ceviche-clasico",
-  "emoji": "🐟",
-  "portion_g": 250,
-  "country": "PE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "ceviche_clasico",
+ "slug": "ceviche-clasico",
+ "emoji": "🐟",
+ "portion_g": 250,
+ "country": "PE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Classic ceviche",
+   "origin": "Peru · Pacific coast",
+   "intro": "Classic ceviche is raw white fish cut into cubes and \"cooked\" in fresh lime juice for just a few minutes. Thin slices of red onion, chopped cilantro and fiery rocoto pepper give it bite, while a slice of boiled sweet potato on the side softens the acidity. The result is bright, tangy and very fresh, served cold as a starter.",
+   "history": "Ceviche is closely tied to the Peruvian coast, where fish marinated in acidic juices has been eaten for a long time; limes arrived with the Spanish and became the standard marinade. Peru declared ceviche part of its national cultural heritage in 2004, and it is celebrated there with a national ceviche day.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g very fresh white fish fillet (sea bass or sole)",
+     "Juice of 10–12 limes (about 200 ml)",
+     "1 red onion, thinly sliced",
+     "1 rocoto or other hot red chili, finely chopped",
+     "2 tbsp chopped cilantro",
+     "1 sweet potato (about 300 g)",
+     "Salt"
+    ],
+    "steps": [
+     "Boil the sweet potato in its skin for 25 minutes until tender, cool, peel and slice.",
+     "Rinse the sliced onion in cold water and drain well.",
+     "Cut the fish into 2 cm cubes, place in a cold glass bowl and season with salt and the chili.",
+     "Pour over the lime juice, stir and leave for 2–5 minutes until the surface of the fish turns opaque.",
+     "Add the onion and cilantro, toss and serve at once with the sweet potato slices."
+    ]
+   },
+   "tips": [
+    "Ceviche itself is lean; most extra calories come from the sides, so keep the sweet potato to one or two slices.",
+    "Add more red onion and cilantro for volume rather than larger fish portions if you are counting.",
+    "Serve it as a starter before a lighter main to keep the whole meal within budget."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Classic ceviche",
-      "origin": "Peru · Pacific coast",
-      "intro": "Classic ceviche is raw white fish cut into cubes and \"cooked\" in fresh lime juice for just a few minutes. Thin slices of red onion, chopped cilantro and fiery rocoto pepper give it bite, while a slice of boiled sweet potato on the side softens the acidity. The result is bright, tangy and very fresh, served cold as a starter.",
-      "history": "Ceviche is closely tied to the Peruvian coast, where fish marinated in acidic juices has been eaten for a long time; limes arrived with the Spanish and became the standard marinade. Peru declared ceviche part of its national cultural heritage in 2004, and it is celebrated there with a national ceviche day.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g very fresh white fish fillet (sea bass or sole)",
-          "Juice of 10–12 limes (about 200 ml)",
-          "1 red onion, thinly sliced",
-          "1 rocoto or other hot red chili, finely chopped",
-          "2 tbsp chopped cilantro",
-          "1 sweet potato (about 300 g)",
-          "Salt"
-        ],
-        "steps": [
-          "Boil the sweet potato in its skin for 25 minutes until tender, cool, peel and slice.",
-          "Rinse the sliced onion in cold water and drain well.",
-          "Cut the fish into 2 cm cubes, place in a cold glass bowl and season with salt and the chili.",
-          "Pour over the lime juice, stir and leave for 2–5 minutes until the surface of the fish turns opaque.",
-          "Add the onion and cilantro, toss and serve at once with the sweet potato slices."
-        ]
-      },
-      "tips": [
-        "Ceviche itself is lean; most extra calories come from the sides, so keep the sweet potato to one or two slices.",
-        "Add more red onion and cilantro for volume rather than larger fish portions if you are counting.",
-        "Serve it as a starter before a lighter main to keep the whole meal within budget."
-      ]
-    },
-    "ar": {
-      "name": "سيفيتشي كلاسيكي",
-      "origin": "بيرو · ساحل المحيط الهادئ",
-      "intro": "السيفيتشي الكلاسيكي هو سمك أبيض نيء يُقطّع مكعبات و\"يُطهى\" في عصير الليمون الطازج لبضع دقائق فقط. تمنحه شرائح البصل الأحمر الرقيقة والكزبرة المفرومة وفلفل الروكوتو الحار نكهة لاذعة، بينما تخفف شريحة البطاطا الحلوة المسلوقة إلى جانبه من الحموضة. والنتيجة طبق منعش حامض يُقدّم باردًا كمقبلات.",
-      "history": "يرتبط السيفيتشي ارتباطًا وثيقًا بساحل بيرو، حيث يؤكل السمك المنقوع في العصائر الحامضة منذ زمن طويل، وقد وصل الليمون مع الإسبان فأصبح النقيع المعتاد. وأعلنت بيرو السيفيتشي جزءًا من تراثها الثقافي الوطني عام 2004، ويُحتفى به هناك بيوم وطني خاص.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 غ فيليه سمك أبيض طازج جدًا (قاروص أو سمك موسى)",
-          "عصير 10–12 ليمونة (نحو 200 مل)",
-          "بصلة حمراء مقطعة شرائح رفيعة",
-          "حبة روكوتو أو فلفل أحمر حار مفروم ناعمًا",
-          "ملعقتان كبيرتان كزبرة مفرومة",
-          "حبة بطاطا حلوة (نحو 300 غ)",
-          "ملح"
-        ],
-        "steps": [
-          "اسلق البطاطا الحلوة بقشرها 25 دقيقة حتى تنضج، ثم بردها وقشرها وقطعها شرائح.",
-          "اغسل شرائح البصل بماء بارد وصفّها جيدًا.",
-          "قطّع السمك مكعبات بحجم 2 سم، وضعه في وعاء زجاجي بارد وتبّله بالملح والفلفل الحار.",
-          "اسكب عصير الليمون وقلّب واتركه 2–5 دقائق حتى يصبح سطح السمك معتمًا.",
-          "أضف البصل والكزبرة وقلّب وقدّمه فورًا مع شرائح البطاطا الحلوة."
-        ]
-      },
-      "tips": [
-        "السيفيتشي نفسه قليل الدهون، ومعظم السعرات الإضافية تأتي من الأطباق الجانبية، فاكتفِ بشريحة أو شريحتين من البطاطا الحلوة.",
-        "زِد البصل الأحمر والكزبرة لزيادة الحجم بدلًا من زيادة كمية السمك إن كنت تحسب السعرات.",
-        "قدّمه كمقبلات قبل طبق رئيسي خفيف ليبقى مجموع الوجبة ضمن الحد."
-      ]
-    },
-    "it": {
-      "name": "Ceviche classico",
-      "origin": "Perù · Costa del Pacifico",
-      "intro": "Il ceviche classico è pesce bianco crudo tagliato a cubetti e «cotto» nel succo di lime fresco per pochi minuti. Sottili fette di cipolla rossa, coriandolo tritato e il piccantissimo peperoncino rocoto gli danno carattere, mentre una fetta di patata dolce lessa servita a parte ne ammorbidisce l'acidità. Il risultato è vivace, acidulo e freschissimo, servito freddo come antipasto.",
-      "name_inline": "ceviche classico",
-      "history": "Il ceviche è strettamente legato alla costa peruviana, dove da tempo si mangia pesce marinato in succhi acidi; i lime arrivarono con gli spagnoli e divennero la marinata standard. Nel 2004 il Perù ha dichiarato il ceviche parte del suo patrimonio culturale nazionale, e lì lo si celebra con una giornata nazionale del ceviche.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 g di filetto di pesce bianco freschissimo (spigola o sogliola)",
-          "Succo di 10–12 lime (circa 200 ml)",
-          "1 cipolla rossa affettata sottile",
-          "1 rocoto o altro peperoncino rosso piccante tritato finemente",
-          "2 cucchiai di coriandolo tritato",
-          "1 patata dolce (circa 300 g)",
-          "Sale"
-        ],
-        "steps": [
-          "Lessa la patata dolce con la buccia per 25 minuti finché è tenera, lasciala raffreddare, pelala e affettala.",
-          "Sciacqua la cipolla affettata in acqua fredda e scolala bene.",
-          "Taglia il pesce a cubetti di 2 cm, mettilo in una ciotola di vetro fredda e condiscilo con sale e peperoncino.",
-          "Versa il succo di lime, mescola e lascia riposare per 2–5 minuti finché la superficie del pesce diventa opaca.",
-          "Aggiungi la cipolla e il coriandolo, mescola e servi subito con le fette di patata dolce."
-        ]
-      },
-      "tips": [
-        "Il ceviche in sé è magro; la maggior parte delle calorie in più viene dai contorni, quindi limita la patata dolce a una o due fette.",
-        "Se conti le calorie, aggiungi più cipolla rossa e coriandolo per dare volume invece di porzioni di pesce più grandi.",
-        "Servilo come antipasto prima di un secondo più leggero per mantenere tutto il pasto nel budget."
-      ]
-    },
-    "el": {
-      "name": "Κλασικό σεβίτσε",
-      "origin": "Περού · Ακτή του Ειρηνικού",
-      "intro": "Το κλασικό σεβίτσε είναι ωμό λευκό ψάρι κομμένο σε κύβους και «μαγειρεμένο» σε φρέσκο χυμό λάιμ για λίγα μόνο λεπτά. Λεπτές φέτες κόκκινου κρεμμυδιού, ψιλοκομμένος κόλιανδρος και η καυτερή πιπεριά ροκότο του δίνουν ένταση, ενώ μια φέτα βραστής γλυκοπατάτας στο πλάι μαλακώνει την οξύτητα. Το αποτέλεσμα είναι ζωηρό, ξινό και πολύ φρέσκο, και σερβίρεται κρύο ως ορεκτικό.",
-      "history": "Το σεβίτσε συνδέεται στενά με τις ακτές του Περού, όπου ψάρι μαριναρισμένο σε ξινούς χυμούς τρώγεται εδώ και πολύ καιρό· τα λάιμ ήρθαν με τους Ισπανούς και έγιναν η βασική μαρινάδα. Το 2004 το Περού ανακήρυξε το σεβίτσε μέρος της εθνικής πολιτιστικής του κληρονομιάς, και εκεί γιορτάζεται με μια εθνική ημέρα σεβίτσε.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 γρ. πολύ φρέσκο φιλέτο λευκού ψαριού (λαβράκι ή γλώσσα)",
-          "Χυμός από 10–12 λάιμ (περίπου 200 ml)",
-          "1 κόκκινο κρεμμύδι, σε λεπτές φέτες",
-          "1 ροκότο ή άλλη καυτερή κόκκινη πιπεριά, ψιλοκομμένη",
-          "2 κ.σ. ψιλοκομμένος κόλιανδρος",
-          "1 γλυκοπατάτα (περίπου 300 γρ.)",
-          "Αλάτι"
-        ],
-        "steps": [
-          "Βράστε τη γλυκοπατάτα με τη φλούδα για 25 λεπτά μέχρι να μαλακώσει, αφήστε την να κρυώσει, ξεφλουδίστε και κόψτε τη σε φέτες.",
-          "Ξεπλύνετε το κρεμμύδι σε κρύο νερό και στραγγίξτε το καλά.",
-          "Κόψτε το ψάρι σε κύβους 2 εκ., βάλτε το σε κρύο γυάλινο μπολ και καρυκεύστε με αλάτι και την πιπεριά.",
-          "Ρίξτε από πάνω τον χυμό λάιμ, ανακατέψτε και αφήστε 2–5 λεπτά μέχρι η επιφάνεια του ψαριού να γίνει αδιαφανής.",
-          "Προσθέστε το κρεμμύδι και τον κόλιανδρο, ανακατέψτε και σερβίρετε αμέσως με τις φέτες γλυκοπατάτας."
-        ]
-      },
-      "tips": [
-        "Το ίδιο το σεβίτσε είναι άπαχο· οι περισσότερες επιπλέον θερμίδες έρχονται από τα συνοδευτικά, οπότε κρατήστε τη γλυκοπατάτα σε μία ή δύο φέτες.",
-        "Αν μετράτε θερμίδες, προσθέστε περισσότερο κόκκινο κρεμμύδι και κόλιανδρο για όγκο αντί για μεγαλύτερες μερίδες ψαριού.",
-        "Σερβίρετέ το ως ορεκτικό πριν από ένα πιο ελαφρύ κυρίως πιάτο, ώστε όλο το γεύμα να μένει μέσα στο πλάνο."
-      ]
-    },
-    "ru": {
-      "name": "Классическое севиче",
-      "origin": "Перу · Тихоокеанское побережье",
-      "intro": "Классическое севиче — сырая белая рыба, нарезанная кубиками и «приготовленная» в свежем соке лайма всего за несколько минут. Тонкие ломтики красного лука, рубленая кинза и острый перец рокото придают ему остроту, а ломтик варёного батата сбоку смягчает кислотность. Получается яркое, пикантное и очень свежее блюдо, которое подают холодным как закуску.",
-      "history": "Севиче тесно связано с перуанским побережьем, где рыбу, замаринованную в кислых соках, едят давно; лаймы пришли с испанцами и стали стандартным маринадом. Перу объявило севиче частью национального культурного наследия в 2004 году, и там отмечают национальный день севиче.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 30,
-        "ingredients": [
-          "600 г очень свежего филе белой рыбы (сибас или морской язык)",
-          "Сок 10–12 лаймов (около 200 мл)",
-          "1 красная луковица, тонко нарезанная",
-          "1 рокото или другой острый красный чили, мелко нарубленный",
-          "2 ст. л. нарубленной кинзы",
-          "1 батат (около 300 г)",
-          "Соль"
-        ],
-        "steps": [
-          "Отварите батат в кожуре 25 минут до мягкости, остудите, очистите и нарежьте.",
-          "Промойте нарезанный лук холодной водой и хорошо отцедите.",
-          "Нарежьте рыбу кубиками по 2 см, положите в холодную стеклянную миску и посолите, добавив чили.",
-          "Залейте соком лайма, перемешайте и оставьте на 2–5 минут, пока поверхность рыбы не станет непрозрачной.",
-          "Добавьте лук и кинзу, перемешайте и сразу подавайте с ломтиками батата."
-        ]
-      },
-      "tips": [
-        "Само севиче постное; большая часть лишних калорий идёт от гарниров, поэтому ограничьтесь одним-двумя ломтиками батата.",
-        "Добавьте больше красного лука и кинзы для объёма, а не увеличивайте порцию рыбы, если вы считаете калории.",
-        "Подавайте как закуску перед более лёгким основным блюдом, чтобы вся трапеза уложилась в бюджет."
-      ],
-      "name_inline": "классическое севиче"
-    }
+  "ar": {
+   "name": "سيفيتشي كلاسيكي",
+   "origin": "بيرو · ساحل المحيط الهادئ",
+   "intro": "السيفيتشي الكلاسيكي هو سمك أبيض نيء يُقطّع مكعبات و\"يُطهى\" في عصير الليمون الطازج لبضع دقائق فقط. تمنحه شرائح البصل الأحمر الرقيقة والكزبرة المفرومة وفلفل الروكوتو الحار نكهة لاذعة، بينما تخفف شريحة البطاطا الحلوة المسلوقة إلى جانبه من الحموضة. والنتيجة طبق منعش حامض يُقدّم باردًا كمقبلات.",
+   "history": "يرتبط السيفيتشي ارتباطًا وثيقًا بساحل بيرو، حيث يؤكل السمك المنقوع في العصائر الحامضة منذ زمن طويل، وقد وصل الليمون مع الإسبان فأصبح النقيع المعتاد. وأعلنت بيرو السيفيتشي جزءًا من تراثها الثقافي الوطني عام 2004، ويُحتفى به هناك بيوم وطني خاص.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 غ فيليه سمك أبيض طازج جدًا (قاروص أو سمك موسى)",
+     "عصير 10–12 ليمونة (نحو 200 مل)",
+     "بصلة حمراء مقطعة شرائح رفيعة",
+     "حبة روكوتو أو فلفل أحمر حار مفروم ناعمًا",
+     "ملعقتان كبيرتان كزبرة مفرومة",
+     "حبة بطاطا حلوة (نحو 300 غ)",
+     "ملح"
+    ],
+    "steps": [
+     "اسلق البطاطا الحلوة بقشرها 25 دقيقة حتى تنضج، ثم بردها وقشرها وقطعها شرائح.",
+     "اغسل شرائح البصل بماء بارد وصفّها جيدًا.",
+     "قطّع السمك مكعبات بحجم 2 سم، وضعه في وعاء زجاجي بارد وتبّله بالملح والفلفل الحار.",
+     "اسكب عصير الليمون وقلّب واتركه 2–5 دقائق حتى يصبح سطح السمك معتمًا.",
+     "أضف البصل والكزبرة وقلّب وقدّمه فورًا مع شرائح البطاطا الحلوة."
+    ]
+   },
+   "tips": [
+    "السيفيتشي نفسه قليل الدهون، ومعظم السعرات الإضافية تأتي من الأطباق الجانبية، فاكتفِ بشريحة أو شريحتين من البطاطا الحلوة.",
+    "زِد البصل الأحمر والكزبرة لزيادة الحجم بدلًا من زيادة كمية السمك إن كنت تحسب السعرات.",
+    "قدّمه كمقبلات قبل طبق رئيسي خفيف ليبقى مجموع الوجبة ضمن الحد."
+   ]
+  },
+  "it": {
+   "name": "Ceviche classico",
+   "origin": "Perù · Costa del Pacifico",
+   "intro": "Il ceviche classico è pesce bianco crudo tagliato a cubetti e «cotto» nel succo di lime fresco per pochi minuti. Sottili fette di cipolla rossa, coriandolo tritato e il piccantissimo peperoncino rocoto gli danno carattere, mentre una fetta di patata dolce lessa servita a parte ne ammorbidisce l'acidità. Il risultato è vivace, acidulo e freschissimo, servito freddo come antipasto.",
+   "name_inline": "ceviche classico",
+   "history": "Il ceviche è strettamente legato alla costa peruviana, dove da tempo si mangia pesce marinato in succhi acidi; i lime arrivarono con gli spagnoli e divennero la marinata standard. Nel 2004 il Perù ha dichiarato il ceviche parte del suo patrimonio culturale nazionale, e lì lo si celebra con una giornata nazionale del ceviche.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g di filetto di pesce bianco freschissimo (spigola o sogliola)",
+     "Succo di 10–12 lime (circa 200 ml)",
+     "1 cipolla rossa affettata sottile",
+     "1 rocoto o altro peperoncino rosso piccante tritato finemente",
+     "2 cucchiai di coriandolo tritato",
+     "1 patata dolce (circa 300 g)",
+     "Sale"
+    ],
+    "steps": [
+     "Lessa la patata dolce con la buccia per 25 minuti finché è tenera, lasciala raffreddare, pelala e affettala.",
+     "Sciacqua la cipolla affettata in acqua fredda e scolala bene.",
+     "Taglia il pesce a cubetti di 2 cm, mettilo in una ciotola di vetro fredda e condiscilo con sale e peperoncino.",
+     "Versa il succo di lime, mescola e lascia riposare per 2–5 minuti finché la superficie del pesce diventa opaca.",
+     "Aggiungi la cipolla e il coriandolo, mescola e servi subito con le fette di patata dolce."
+    ]
+   },
+   "tips": [
+    "Il ceviche in sé è magro; la maggior parte delle calorie in più viene dai contorni, quindi limita la patata dolce a una o due fette.",
+    "Se conti le calorie, aggiungi più cipolla rossa e coriandolo per dare volume invece di porzioni di pesce più grandi.",
+    "Servilo come antipasto prima di un secondo più leggero per mantenere tutto il pasto nel budget."
+   ]
+  },
+  "el": {
+   "name": "Κλασικό σεβίτσε",
+   "origin": "Περού · Ακτή του Ειρηνικού",
+   "intro": "Το κλασικό σεβίτσε είναι ωμό λευκό ψάρι κομμένο σε κύβους και «μαγειρεμένο» σε φρέσκο χυμό λάιμ για λίγα μόνο λεπτά. Λεπτές φέτες κόκκινου κρεμμυδιού, ψιλοκομμένος κόλιανδρος και η καυτερή πιπεριά ροκότο του δίνουν ένταση, ενώ μια φέτα βραστής γλυκοπατάτας στο πλάι μαλακώνει την οξύτητα. Το αποτέλεσμα είναι ζωηρό, ξινό και πολύ φρέσκο, και σερβίρεται κρύο ως ορεκτικό.",
+   "history": "Το σεβίτσε συνδέεται στενά με τις ακτές του Περού, όπου ψάρι μαριναρισμένο σε ξινούς χυμούς τρώγεται εδώ και πολύ καιρό· τα λάιμ ήρθαν με τους Ισπανούς και έγιναν η βασική μαρινάδα. Το 2004 το Περού ανακήρυξε το σεβίτσε μέρος της εθνικής πολιτιστικής του κληρονομιάς, και εκεί γιορτάζεται με μια εθνική ημέρα σεβίτσε.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 γρ. πολύ φρέσκο φιλέτο λευκού ψαριού (λαβράκι ή γλώσσα)",
+     "Χυμός από 10–12 λάιμ (περίπου 200 ml)",
+     "1 κόκκινο κρεμμύδι, σε λεπτές φέτες",
+     "1 ροκότο ή άλλη καυτερή κόκκινη πιπεριά, ψιλοκομμένη",
+     "2 κ.σ. ψιλοκομμένος κόλιανδρος",
+     "1 γλυκοπατάτα (περίπου 300 γρ.)",
+     "Αλάτι"
+    ],
+    "steps": [
+     "Βράστε τη γλυκοπατάτα με τη φλούδα για 25 λεπτά μέχρι να μαλακώσει, αφήστε την να κρυώσει, ξεφλουδίστε και κόψτε τη σε φέτες.",
+     "Ξεπλύνετε το κρεμμύδι σε κρύο νερό και στραγγίξτε το καλά.",
+     "Κόψτε το ψάρι σε κύβους 2 εκ., βάλτε το σε κρύο γυάλινο μπολ και καρυκεύστε με αλάτι και την πιπεριά.",
+     "Ρίξτε από πάνω τον χυμό λάιμ, ανακατέψτε και αφήστε 2–5 λεπτά μέχρι η επιφάνεια του ψαριού να γίνει αδιαφανής.",
+     "Προσθέστε το κρεμμύδι και τον κόλιανδρο, ανακατέψτε και σερβίρετε αμέσως με τις φέτες γλυκοπατάτας."
+    ]
+   },
+   "tips": [
+    "Το ίδιο το σεβίτσε είναι άπαχο· οι περισσότερες επιπλέον θερμίδες έρχονται από τα συνοδευτικά, οπότε κρατήστε τη γλυκοπατάτα σε μία ή δύο φέτες.",
+    "Αν μετράτε θερμίδες, προσθέστε περισσότερο κόκκινο κρεμμύδι και κόλιανδρο για όγκο αντί για μεγαλύτερες μερίδες ψαριού.",
+    "Σερβίρετέ το ως ορεκτικό πριν από ένα πιο ελαφρύ κυρίως πιάτο, ώστε όλο το γεύμα να μένει μέσα στο πλάνο."
+   ]
+  },
+  "ru": {
+   "name": "Классическое севиче",
+   "origin": "Перу · Тихоокеанское побережье",
+   "intro": "Классическое севиче — сырая белая рыба, нарезанная кубиками и «приготовленная» в свежем соке лайма всего за несколько минут. Тонкие ломтики красного лука, рубленая кинза и острый перец рокото придают ему остроту, а ломтик варёного батата сбоку смягчает кислотность. Получается яркое, пикантное и очень свежее блюдо, которое подают холодным как закуску.",
+   "history": "Севиче тесно связано с перуанским побережьем, где рыбу, замаринованную в кислых соках, едят давно; лаймы пришли с испанцами и стали стандартным маринадом. Перу объявило севиче частью национального культурного наследия в 2004 году, и там отмечают национальный день севиче.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 г очень свежего филе белой рыбы (сибас или морской язык)",
+     "Сок 10–12 лаймов (около 200 мл)",
+     "1 красная луковица, тонко нарезанная",
+     "1 рокото или другой острый красный чили, мелко нарубленный",
+     "2 ст. л. нарубленной кинзы",
+     "1 батат (около 300 г)",
+     "Соль"
+    ],
+    "steps": [
+     "Отварите батат в кожуре 25 минут до мягкости, остудите, очистите и нарежьте.",
+     "Промойте нарезанный лук холодной водой и хорошо отцедите.",
+     "Нарежьте рыбу кубиками по 2 см, положите в холодную стеклянную миску и посолите, добавив чили.",
+     "Залейте соком лайма, перемешайте и оставьте на 2–5 минут, пока поверхность рыбы не станет непрозрачной.",
+     "Добавьте лук и кинзу, перемешайте и сразу подавайте с ломтиками батата."
+    ]
+   },
+   "tips": [
+    "Само севиче постное; большая часть лишних калорий идёт от гарниров, поэтому ограничьтесь одним-двумя ломтиками батата.",
+    "Добавьте больше красного лука и кинзы для объёма, а не увеличивайте порцию рыбы, если вы считаете калории.",
+    "Подавайте как закуску перед более лёгким основным блюдом, чтобы вся трапеза уложилась в бюджет."
+   ],
+   "name_inline": "классическое севиче"
+  },
+  "es": {
+   "name": "Ceviche clásico",
+   "origin": "Perú · Costa del Pacífico",
+   "intro": "El ceviche clásico es pescado blanco crudo cortado en cubos y «cocido» en jugo de limón fresco durante solo unos minutos. Rodajas finas de cebolla morada, cilantro picado y ají rocoto bien picante le dan carácter, mientras que una rodaja de camote cocido al lado suaviza la acidez. El resultado es fresco, brillante y ácido, y se sirve frío como entrada.",
+   "history": "El ceviche está muy ligado a la costa peruana, donde se come desde hace mucho pescado marinado en jugos ácidos; los limones llegaron con los españoles y se volvieron el adobo estándar. Perú declaró el ceviche patrimonio cultural de la nación en 2004, y allí se celebra con un Día Nacional del Ceviche.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 30,
+    "ingredients": [
+     "600 g de filete de pescado blanco muy fresco (lubina o lenguado)",
+     "Jugo de 10 a 12 limones (unos 200 ml)",
+     "1 cebolla morada, en rodajas finas",
+     "1 rocoto u otro ají rojo picante, picado finamente",
+     "2 cdas. de cilantro picado",
+     "1 camote (unos 300 g)",
+     "Sal"
+    ],
+    "steps": [
+     "Hierve el camote con cáscara 25 minutos hasta que esté tierno; deja enfriar, pela y corta en rodajas.",
+     "Enjuaga la cebolla en rodajas con agua fría y escúrrela bien.",
+     "Corta el pescado en cubos de 2 cm, ponlo en un bol de vidrio frío y sazona con sal y el ají.",
+     "Vierte el jugo de limón, revuelve y deja reposar de 2 a 5 minutos, hasta que la superficie del pescado se vuelva opaca.",
+     "Añade la cebolla y el cilantro, mezcla y sirve de inmediato con las rodajas de camote."
+    ]
+   },
+   "tips": [
+    "El ceviche en sí es magro; la mayoría de las calorías extra vienen de las guarniciones, así que limita el camote a una o dos rodajas.",
+    "Suma más cebolla morada y cilantro para dar volumen, en lugar de porciones más grandes de pescado, si estás contando calorías.",
+    "Sírvelo como entrada antes de un plato principal más ligero para que toda la comida se ajuste a tu presupuesto."
+   ],
+   "name_inline": "el ceviche clásico"
   }
+ }
 }

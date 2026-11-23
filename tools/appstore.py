@@ -28,7 +28,7 @@ _CTX = {
  "ar": "تناولت {name}؟ سجّله خلال 3 ثوانٍ: صوّر طبقك فقط.",
  "it": "{name}: registralo in 3 secondi — scatta una foto al piatto.",
  "el": "{name}: καταγράψτε το σε 3 δευτερόλεπτα — φωτογραφίστε το πιάτο σας.",
- "es": "{name}: regístralo en 3 segundos — haz una foto a tu plato.",
+ "es": "{name}: regístralo en 3 segundos — toma una foto a tu plato.",
  "de": "{name}: in 3 Sekunden eintragen — fotografiere einfach deinen Teller."
 }
 

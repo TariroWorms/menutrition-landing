@@ -1,175 +1,208 @@
 {
-  "db_key": "cocido_madrileno",
-  "slug": "cocido-madrileno",
-  "emoji": "🍲",
-  "portion_g": 450,
-  "country": "ES",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "cocido_madrileno",
+ "slug": "cocido-madrileno",
+ "emoji": "🍲",
+ "portion_g": 450,
+ "country": "ES",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Cocido madrileño",
+   "origin": "Spain · Madrid",
+   "intro": "Cocido madrileño is Madrid's great chickpea stew, simmered slowly with beef, chorizo, morcilla blood sausage, cabbage and potatoes. It is rich and deeply savoury, with soft chickpeas soaking up the paprika-tinted broth. Traditionally it is eaten in stages, or vuelcos: first the broth as a soup, then the chickpeas and vegetables, and finally the meats.",
+   "history": "Cocido is often linked to adafina, the slow-cooked chickpea stew of Spain's Sephardic Jews, though its exact origins are debated. It has long been one of Madrid's signature dishes and remains a classic winter lunch in the city's taverns.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "400 g dried chickpeas, soaked overnight",
+     "600 g beef shank or brisket",
+     "1 chorizo (about 150 g)",
+     "1 morcilla (about 150 g)",
+     "½ small cabbage, cut into wedges",
+     "4 medium potatoes",
+     "2 carrots, 1 onion, 2 garlic cloves",
+     "Salt, 1 tbsp olive oil"
+    ],
+    "steps": [
+     "Put the beef in a large pot with 3 litres of water, bring to the boil and skim.",
+     "Add the drained chickpeas (in a net if you like), carrots and onion; simmer gently for 2 hours.",
+     "Add the chorizo and potatoes and cook for 30 minutes more; season with salt.",
+     "Meanwhile boil the cabbage and morcilla separately for 20 minutes so they do not cloud the broth, then fry the drained cabbage briefly with garlic in the oil.",
+     "Serve the broth first, then the chickpeas and vegetables, then the sliced meats."
+    ]
+   },
+   "tips": [
+    "Chill the broth and lift off the solidified fat before serving.",
+    "Go light on chorizo and morcilla, which are the fattiest parts, and take more chickpeas, cabbage and beef.",
+    "Make the broth course a meal on its own with a few chickpeas and vegetables."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Cocido madrileño",
-      "origin": "Spain · Madrid",
-      "intro": "Cocido madrileño is Madrid's great chickpea stew, simmered slowly with beef, chorizo, morcilla blood sausage, cabbage and potatoes. It is rich and deeply savoury, with soft chickpeas soaking up the paprika-tinted broth. Traditionally it is eaten in stages, or vuelcos: first the broth as a soup, then the chickpeas and vegetables, and finally the meats.",
-      "history": "Cocido is often linked to adafina, the slow-cooked chickpea stew of Spain's Sephardic Jews, though its exact origins are debated. It has long been one of Madrid's signature dishes and remains a classic winter lunch in the city's taverns.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "400 g dried chickpeas, soaked overnight",
-          "600 g beef shank or brisket",
-          "1 chorizo (about 150 g)",
-          "1 morcilla (about 150 g)",
-          "½ small cabbage, cut into wedges",
-          "4 medium potatoes",
-          "2 carrots, 1 onion, 2 garlic cloves",
-          "Salt, 1 tbsp olive oil"
-        ],
-        "steps": [
-          "Put the beef in a large pot with 3 litres of water, bring to the boil and skim.",
-          "Add the drained chickpeas (in a net if you like), carrots and onion; simmer gently for 2 hours.",
-          "Add the chorizo and potatoes and cook for 30 minutes more; season with salt.",
-          "Meanwhile boil the cabbage and morcilla separately for 20 minutes so they do not cloud the broth, then fry the drained cabbage briefly with garlic in the oil.",
-          "Serve the broth first, then the chickpeas and vegetables, then the sliced meats."
-        ]
-      },
-      "tips": [
-        "Chill the broth and lift off the solidified fat before serving.",
-        "Go light on chorizo and morcilla, which are the fattiest parts, and take more chickpeas, cabbage and beef.",
-        "Make the broth course a meal on its own with a few chickpeas and vegetables."
-      ]
-    },
-    "ar": {
-      "name": "كوسيدو مدريلينيو",
-      "origin": "إسبانيا · مدريد",
-      "intro": "كوسيدو مدريلينيو يخنة الحمص الشهيرة في مدريد، تُطهى ببطء مع لحم البقر وسجق الكوريزو والمورسيا (السجق الدموي) والملفوف والبطاطس. طعمها غني وعميق، والحمص الطري يتشرب المرق الملون بالبابريكا. تُؤكل تقليديًا على مراحل: المرق أولًا كحساء، ثم الحمص والخضار، وأخيرًا اللحوم.",
-      "history": "كثيرًا ما يُربط الكوسيدو بـ«الأدافينا»، يخنة الحمص المطهوة ببطء لدى اليهود السفارديين في إسبانيا، وإن كان أصله الدقيق موضع جدل. وهو منذ زمن طويل من أشهر أطباق مدريد، وما زال غداءً شتويًا كلاسيكيًا في حانات المدينة.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "400 غ حمص مجفف منقوع ليلة كاملة",
-          "600 غ لحم بقر (موزة أو صدر)",
-          "1 كوريزو (نحو 150 غ)",
-          "1 مورسيا (نحو 150 غ)",
-          "نصف ملفوفة صغيرة مقطعة أرباعًا",
-          "4 حبات بطاطس متوسطة",
-          "2 جزرة، 1 بصلة، 2 فص ثوم",
-          "ملح، 1 ملعقة كبيرة زيت زيتون"
-        ],
-        "steps": [
-          "ضع اللحم في قدر كبيرة مع 3 لترات ماء، واتركه يغلي وأزل الرغوة.",
-          "أضف الحمص المصفى (في كيس شبكي إن شئت) والجزر والبصل، واتركه على نار هادئة ساعتين.",
-          "أضف الكوريزو والبطاطس واطبخ 30 دقيقة أخرى، ثم تبّل بالملح.",
-          "في الأثناء اسلق الملفوف والمورسيا منفصلين 20 دقيقة كي لا يعكّرا المرق، ثم شوّح الملفوف المصفى قليلًا مع الثوم في الزيت.",
-          "قدّم المرق أولًا، ثم الحمص والخضار، ثم اللحوم مقطعة."
-        ]
-      },
-      "tips": [
-        "برّد المرق وأزل الدهن المتجمد عن سطحه قبل التقديم.",
-        "قلّل الكوريزو والمورسيا لأنهما أكثر الأجزاء دهنًا، وأكثر من الحمص والملفوف ولحم البقر.",
-        "اجعل طبق المرق مع قليل من الحمص والخضار وجبة كاملة بحد ذاتها."
-      ]
-    },
-    "it": {
-      "name": "Cocido madrileño",
-      "origin": "Spagna · Madrid",
-      "intro": "Il cocido madrileño è il grande stufato di ceci di Madrid, cotto lentamente con manzo, chorizo, morcilla (sanguinaccio), cavolo e patate. È ricco e molto saporito, con i ceci morbidi che assorbono il brodo colorato dalla paprika. Tradizionalmente si mangia a tappe, i vuelcos: prima il brodo come zuppa, poi i ceci e le verdure e infine le carni.",
-      "history": "Il cocido viene spesso collegato all'adafina, lo stufato di ceci a cottura lenta degli ebrei sefarditi di Spagna, anche se le sue origini esatte sono discusse. È da tempo uno dei piatti simbolo di Madrid e resta un classico pranzo invernale nelle taverne della città.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "400 g di ceci secchi, ammollati per una notte",
-          "600 g di stinco o punta di petto di manzo",
-          "1 chorizo (circa 150 g)",
-          "1 morcilla (circa 150 g)",
-          "½ cavolo piccolo tagliato a spicchi",
-          "4 patate medie",
-          "2 carote, 1 cipolla, 2 spicchi d'aglio",
-          "Sale, 1 cucchiaio di olio d'oliva"
-        ],
-        "steps": [
-          "Metti il manzo in una pentola capiente con 3 litri di acqua, porta a bollore e schiuma.",
-          "Aggiungi i ceci scolati (in una retina, se vuoi), le carote e la cipolla; cuoci a fuoco dolce per 2 ore.",
-          "Aggiungi il chorizo e le patate e cuoci per altri 30 minuti; regola di sale.",
-          "Nel frattempo lessa a parte il cavolo e la morcilla per 20 minuti perché non intorbidiscano il brodo, poi ripassa brevemente il cavolo scolato con l'aglio nell'olio.",
-          "Servi prima il brodo, poi i ceci e le verdure, poi le carni affettate."
-        ]
-      },
-      "tips": [
-        "Raffredda il brodo ed elimina il grasso solidificato prima di servire.",
-        "Vai piano con chorizo e morcilla, le parti più grasse, e prendi più ceci, cavolo e manzo.",
-        "Fai del brodo un pasto a sé con qualche cece e un po' di verdure."
-      ]
-    },
-    "el": {
-      "name": "Κοθίδο μαδριλένιο",
-      "origin": "Ισπανία · Μαδρίτη",
-      "intro": "Το κοθίδο μαδριλένιο (cocido madrileño) είναι το μεγάλο φαγητό κατσαρόλας της Μαδρίτης με ρεβίθια, που σιγοβράζει με μοσχάρι, τσορίθο, μορθίγια (λουκάνικο αίματος), λάχανο και πατάτες. Είναι πλούσιο και βαθιά γευστικό, με τα μαλακά ρεβίθια να ρουφούν τον ζωμό που έχει χρωματιστεί από την πάπρικα. Παραδοσιακά τρώγεται σε στάδια, τα vuelcos: πρώτα ο ζωμός ως σούπα, μετά τα ρεβίθια και τα λαχανικά και τέλος τα κρέατα.",
-      "history": "Το κοθίδο συνδέεται συχνά με την αδαφίνα, το αργομαγειρεμένο φαγητό με ρεβίθια των Σεφαραδιτών Εβραίων της Ισπανίας, αν και η ακριβής προέλευσή του συζητείται. Είναι εδώ και πολύ καιρό ένα από τα εμβληματικά πιάτα της Μαδρίτης και παραμένει κλασικό χειμωνιάτικο μεσημεριανό στις ταβέρνες της πόλης.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "400 γρ. ξερά ρεβίθια, μουλιασμένα από το βράδυ",
-          "600 γρ. μοσχαρίσιο κότσι ή ψαχνό στήθος",
-          "1 τσορίθο (περίπου 150 γρ.)",
-          "1 μορθίγια (περίπου 150 γρ.)",
-          "½ μικρό λάχανο κομμένο σε φέτες",
-          "4 μέτριες πατάτες",
-          "2 καρότα, 1 κρεμμύδι, 2 σκελίδες σκόρδο",
-          "Αλάτι, 1 κ.σ. ελαιόλαδο"
-        ],
-        "steps": [
-          "Βάλτε το μοσχάρι σε μεγάλη κατσαρόλα με 3 λίτρα νερό, αφήστε να πάρει βράση και ξαφρίστε.",
-          "Προσθέστε τα στραγγισμένα ρεβίθια (σε διχτάκι αν θέλετε), τα καρότα και το κρεμμύδι· σιγοβράστε για 2 ώρες.",
-          "Προσθέστε το τσορίθο και τις πατάτες και μαγειρέψτε άλλα 30 λεπτά· αλατίστε.",
-          "Στο μεταξύ βράστε χωριστά το λάχανο και τη μορθίγια για 20 λεπτά ώστε να μη θολώσουν τον ζωμό, και σοτάρετε για λίγο το στραγγισμένο λάχανο με σκόρδο στο λάδι.",
-          "Σερβίρετε πρώτα τον ζωμό, μετά τα ρεβίθια και τα λαχανικά και στο τέλος τα κρέατα σε φέτες."
-        ]
-      },
-      "tips": [
-        "Κρυώστε τον ζωμό και αφαιρέστε το λίπος που πήζει πριν σερβίρετε.",
-        "Βάλτε λίγο τσορίθο και μορθίγια, που είναι τα πιο λιπαρά μέρη, και πάρτε περισσότερα ρεβίθια, λάχανο και μοσχάρι.",
-        "Κάντε τον ζωμό ένα γεύμα από μόνο του με λίγα ρεβίθια και λαχανικά."
-      ]
-    },
-    "ru": {
-      "name": "Кошидо мадрильеньо",
-      "origin": "Испания · Мадрид",
-      "intro": "Кошидо мадрильеньо — великое мадридское рагу из нута, медленно томлёного с говядиной, чоризо, кровяной колбасой морсилья, капустой и картофелем. Оно насыщенное и глубоко пикантное, с мягким нутом, пропитанным бульоном с оттенком паприки. Традиционно его едят в несколько приёмов, или vuelcos: сначала бульон как суп, затем нут и овощи и, наконец, мясо.",
-      "history": "Кошидо часто связывают с адафиной — медленно томлёным рагу из нута сефардских евреев Испании, хотя его точное происхождение обсуждается. Оно давно считается одним из фирменных блюд Мадрида и остаётся классическим зимним обедом в тавернах города.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 180,
-        "ingredients": [
-          "400 г сухого нута, замоченного на ночь",
-          "600 г говяжьей голяшки или грудинки",
-          "1 чоризо (около 150 г)",
-          "1 морсилья (около 150 г)",
-          "1/2 небольшого кочана капусты, дольками",
-          "4 средние картофелины",
-          "2 моркови, 1 луковица, 2 зубчика чеснока",
-          "Соль, 1 ст. л. оливкового масла"
-        ],
-        "steps": [
-          "Положите говядину в большую кастрюлю с 3 литрами воды, доведите до кипения и снимите пену.",
-          "Добавьте откинутый нут (при желании в сетке), морковь и лук; варите на слабом огне 2 часа.",
-          "Добавьте чоризо и картофель и готовьте ещё 30 минут; посолите.",
-          "Тем временем отдельно варите капусту и морсилью 20 минут, чтобы они не помутнили бульон, затем кратко обжарьте откинутую капусту с чесноком в масле.",
-          "Сначала подайте бульон, затем нут и овощи, затем нарезанное мясо."
-        ]
-      },
-      "tips": [
-        "Охладите бульон и снимите застывший жир перед подачей.",
-        "Берите поменьше чоризо и морсильи — это самые жирные части — и больше нута, капусты и говядины.",
-        "Сделайте бульон отдельным блюдом с несколькими горошинами нута и овощами."
-      ],
-      "name_inline": "кошидо мадрильеньо"
-    }
+  "ar": {
+   "name": "كوسيدو مدريلينيو",
+   "origin": "إسبانيا · مدريد",
+   "intro": "كوسيدو مدريلينيو يخنة الحمص الشهيرة في مدريد، تُطهى ببطء مع لحم البقر وسجق الكوريزو والمورسيا (السجق الدموي) والملفوف والبطاطس. طعمها غني وعميق، والحمص الطري يتشرب المرق الملون بالبابريكا. تُؤكل تقليديًا على مراحل: المرق أولًا كحساء، ثم الحمص والخضار، وأخيرًا اللحوم.",
+   "history": "كثيرًا ما يُربط الكوسيدو بـ«الأدافينا»، يخنة الحمص المطهوة ببطء لدى اليهود السفارديين في إسبانيا، وإن كان أصله الدقيق موضع جدل. وهو منذ زمن طويل من أشهر أطباق مدريد، وما زال غداءً شتويًا كلاسيكيًا في حانات المدينة.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "400 غ حمص مجفف منقوع ليلة كاملة",
+     "600 غ لحم بقر (موزة أو صدر)",
+     "1 كوريزو (نحو 150 غ)",
+     "1 مورسيا (نحو 150 غ)",
+     "نصف ملفوفة صغيرة مقطعة أرباعًا",
+     "4 حبات بطاطس متوسطة",
+     "2 جزرة، 1 بصلة، 2 فص ثوم",
+     "ملح، 1 ملعقة كبيرة زيت زيتون"
+    ],
+    "steps": [
+     "ضع اللحم في قدر كبيرة مع 3 لترات ماء، واتركه يغلي وأزل الرغوة.",
+     "أضف الحمص المصفى (في كيس شبكي إن شئت) والجزر والبصل، واتركه على نار هادئة ساعتين.",
+     "أضف الكوريزو والبطاطس واطبخ 30 دقيقة أخرى، ثم تبّل بالملح.",
+     "في الأثناء اسلق الملفوف والمورسيا منفصلين 20 دقيقة كي لا يعكّرا المرق، ثم شوّح الملفوف المصفى قليلًا مع الثوم في الزيت.",
+     "قدّم المرق أولًا، ثم الحمص والخضار، ثم اللحوم مقطعة."
+    ]
+   },
+   "tips": [
+    "برّد المرق وأزل الدهن المتجمد عن سطحه قبل التقديم.",
+    "قلّل الكوريزو والمورسيا لأنهما أكثر الأجزاء دهنًا، وأكثر من الحمص والملفوف ولحم البقر.",
+    "اجعل طبق المرق مع قليل من الحمص والخضار وجبة كاملة بحد ذاتها."
+   ]
+  },
+  "it": {
+   "name": "Cocido madrileño",
+   "origin": "Spagna · Madrid",
+   "intro": "Il cocido madrileño è il grande stufato di ceci di Madrid, cotto lentamente con manzo, chorizo, morcilla (sanguinaccio), cavolo e patate. È ricco e molto saporito, con i ceci morbidi che assorbono il brodo colorato dalla paprika. Tradizionalmente si mangia a tappe, i vuelcos: prima il brodo come zuppa, poi i ceci e le verdure e infine le carni.",
+   "history": "Il cocido viene spesso collegato all'adafina, lo stufato di ceci a cottura lenta degli ebrei sefarditi di Spagna, anche se le sue origini esatte sono discusse. È da tempo uno dei piatti simbolo di Madrid e resta un classico pranzo invernale nelle taverne della città.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "400 g di ceci secchi, ammollati per una notte",
+     "600 g di stinco o punta di petto di manzo",
+     "1 chorizo (circa 150 g)",
+     "1 morcilla (circa 150 g)",
+     "½ cavolo piccolo tagliato a spicchi",
+     "4 patate medie",
+     "2 carote, 1 cipolla, 2 spicchi d'aglio",
+     "Sale, 1 cucchiaio di olio d'oliva"
+    ],
+    "steps": [
+     "Metti il manzo in una pentola capiente con 3 litri di acqua, porta a bollore e schiuma.",
+     "Aggiungi i ceci scolati (in una retina, se vuoi), le carote e la cipolla; cuoci a fuoco dolce per 2 ore.",
+     "Aggiungi il chorizo e le patate e cuoci per altri 30 minuti; regola di sale.",
+     "Nel frattempo lessa a parte il cavolo e la morcilla per 20 minuti perché non intorbidiscano il brodo, poi ripassa brevemente il cavolo scolato con l'aglio nell'olio.",
+     "Servi prima il brodo, poi i ceci e le verdure, poi le carni affettate."
+    ]
+   },
+   "tips": [
+    "Raffredda il brodo ed elimina il grasso solidificato prima di servire.",
+    "Vai piano con chorizo e morcilla, le parti più grasse, e prendi più ceci, cavolo e manzo.",
+    "Fai del brodo un pasto a sé con qualche cece e un po' di verdure."
+   ]
+  },
+  "el": {
+   "name": "Κοθίδο μαδριλένιο",
+   "origin": "Ισπανία · Μαδρίτη",
+   "intro": "Το κοθίδο μαδριλένιο (cocido madrileño) είναι το μεγάλο φαγητό κατσαρόλας της Μαδρίτης με ρεβίθια, που σιγοβράζει με μοσχάρι, τσορίθο, μορθίγια (λουκάνικο αίματος), λάχανο και πατάτες. Είναι πλούσιο και βαθιά γευστικό, με τα μαλακά ρεβίθια να ρουφούν τον ζωμό που έχει χρωματιστεί από την πάπρικα. Παραδοσιακά τρώγεται σε στάδια, τα vuelcos: πρώτα ο ζωμός ως σούπα, μετά τα ρεβίθια και τα λαχανικά και τέλος τα κρέατα.",
+   "history": "Το κοθίδο συνδέεται συχνά με την αδαφίνα, το αργομαγειρεμένο φαγητό με ρεβίθια των Σεφαραδιτών Εβραίων της Ισπανίας, αν και η ακριβής προέλευσή του συζητείται. Είναι εδώ και πολύ καιρό ένα από τα εμβληματικά πιάτα της Μαδρίτης και παραμένει κλασικό χειμωνιάτικο μεσημεριανό στις ταβέρνες της πόλης.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "400 γρ. ξερά ρεβίθια, μουλιασμένα από το βράδυ",
+     "600 γρ. μοσχαρίσιο κότσι ή ψαχνό στήθος",
+     "1 τσορίθο (περίπου 150 γρ.)",
+     "1 μορθίγια (περίπου 150 γρ.)",
+     "½ μικρό λάχανο κομμένο σε φέτες",
+     "4 μέτριες πατάτες",
+     "2 καρότα, 1 κρεμμύδι, 2 σκελίδες σκόρδο",
+     "Αλάτι, 1 κ.σ. ελαιόλαδο"
+    ],
+    "steps": [
+     "Βάλτε το μοσχάρι σε μεγάλη κατσαρόλα με 3 λίτρα νερό, αφήστε να πάρει βράση και ξαφρίστε.",
+     "Προσθέστε τα στραγγισμένα ρεβίθια (σε διχτάκι αν θέλετε), τα καρότα και το κρεμμύδι· σιγοβράστε για 2 ώρες.",
+     "Προσθέστε το τσορίθο και τις πατάτες και μαγειρέψτε άλλα 30 λεπτά· αλατίστε.",
+     "Στο μεταξύ βράστε χωριστά το λάχανο και τη μορθίγια για 20 λεπτά ώστε να μη θολώσουν τον ζωμό, και σοτάρετε για λίγο το στραγγισμένο λάχανο με σκόρδο στο λάδι.",
+     "Σερβίρετε πρώτα τον ζωμό, μετά τα ρεβίθια και τα λαχανικά και στο τέλος τα κρέατα σε φέτες."
+    ]
+   },
+   "tips": [
+    "Κρυώστε τον ζωμό και αφαιρέστε το λίπος που πήζει πριν σερβίρετε.",
+    "Βάλτε λίγο τσορίθο και μορθίγια, που είναι τα πιο λιπαρά μέρη, και πάρτε περισσότερα ρεβίθια, λάχανο και μοσχάρι.",
+    "Κάντε τον ζωμό ένα γεύμα από μόνο του με λίγα ρεβίθια και λαχανικά."
+   ]
+  },
+  "ru": {
+   "name": "Кошидо мадрильеньо",
+   "origin": "Испания · Мадрид",
+   "intro": "Кошидо мадрильеньо — великое мадридское рагу из нута, медленно томлёного с говядиной, чоризо, кровяной колбасой морсилья, капустой и картофелем. Оно насыщенное и глубоко пикантное, с мягким нутом, пропитанным бульоном с оттенком паприки. Традиционно его едят в несколько приёмов, или vuelcos: сначала бульон как суп, затем нут и овощи и, наконец, мясо.",
+   "history": "Кошидо часто связывают с адафиной — медленно томлёным рагу из нута сефардских евреев Испании, хотя его точное происхождение обсуждается. Оно давно считается одним из фирменных блюд Мадрида и остаётся классическим зимним обедом в тавернах города.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "400 г сухого нута, замоченного на ночь",
+     "600 г говяжьей голяшки или грудинки",
+     "1 чоризо (около 150 г)",
+     "1 морсилья (около 150 г)",
+     "1/2 небольшого кочана капусты, дольками",
+     "4 средние картофелины",
+     "2 моркови, 1 луковица, 2 зубчика чеснока",
+     "Соль, 1 ст. л. оливкового масла"
+    ],
+    "steps": [
+     "Положите говядину в большую кастрюлю с 3 литрами воды, доведите до кипения и снимите пену.",
+     "Добавьте откинутый нут (при желании в сетке), морковь и лук; варите на слабом огне 2 часа.",
+     "Добавьте чоризо и картофель и готовьте ещё 30 минут; посолите.",
+     "Тем временем отдельно варите капусту и морсилью 20 минут, чтобы они не помутнили бульон, затем кратко обжарьте откинутую капусту с чесноком в масле.",
+     "Сначала подайте бульон, затем нут и овощи, затем нарезанное мясо."
+    ]
+   },
+   "tips": [
+    "Охладите бульон и снимите застывший жир перед подачей.",
+    "Берите поменьше чоризо и морсильи — это самые жирные части — и больше нута, капусты и говядины.",
+    "Сделайте бульон отдельным блюдом с несколькими горошинами нута и овощами."
+   ],
+   "name_inline": "кошидо мадрильеньо"
+  },
+  "es": {
+   "name": "Cocido madrileño",
+   "origin": "España · Madrid",
+   "intro": "El cocido madrileño es el gran guiso de garbanzos de Madrid, cocinado lentamente con carne de res, chorizo, morcilla, repollo y papas. Es sustancioso y muy sabroso, con garbanzos suaves que absorben el caldo teñido de pimentón. Tradicionalmente se come en «vuelcos», por etapas: primero el caldo como sopa, luego los garbanzos y las verduras, y al final las carnes.",
+   "history": "Suele relacionarse el cocido con la adafina, el guiso de garbanzos de cocción lenta de los judíos sefardíes de España, aunque su origen exacto se discute. Es desde hace mucho uno de los platos emblemáticos de Madrid y sigue siendo un clásico almuerzo de invierno en las tabernas de la ciudad.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 180,
+    "ingredients": [
+     "400 g de garbanzos secos, remojados desde la noche anterior",
+     "600 g de chamorro o falda de res",
+     "1 chorizo (unos 150 g)",
+     "1 morcilla (unos 150 g)",
+     "½ repollo pequeño, en gajos",
+     "4 papas medianas",
+     "2 zanahorias, 1 cebolla, 2 dientes de ajo",
+     "Sal, 1 cda. de aceite de oliva"
+    ],
+    "steps": [
+     "Pon la carne de res en una olla grande con 3 litros de agua, llévala a ebullición y retira la espuma.",
+     "Agrega los garbanzos escurridos (si quieres, en una redecilla), las zanahorias y la cebolla; cocina a fuego lento durante 2 horas.",
+     "Añade el chorizo y las papas y cocina 30 minutos más; sazona con sal.",
+     "Mientras tanto, hierve el repollo y la morcilla por separado durante 20 minutos para que no enturbien el caldo, y luego saltea brevemente el repollo escurrido con ajo en el aceite.",
+     "Sirve primero el caldo, luego los garbanzos y las verduras, y por último las carnes en rebanadas."
+    ]
+   },
+   "tips": [
+    "Enfría el caldo y retira la grasa solidificada antes de servir.",
+    "Ve ligero con el chorizo y la morcilla, que son lo más graso, y toma más garbanzos, repollo y carne de res.",
+    "Convierte el caldo en una comida completa con unos cuantos garbanzos y verduras."
+   ],
+   "name_inline": "el cocido madrileño"
   }
+ }
 }

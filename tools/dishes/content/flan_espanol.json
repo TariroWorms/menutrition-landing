@@ -1,176 +1,209 @@
 {
-  "db_key": "flan_espanol",
-  "slug": "flan-espanol",
-  "emoji": "🍮",
-  "portion_g": 120,
-  "country": "ES",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "flan_espanol",
+ "slug": "flan-espanol",
+ "emoji": "🍮",
+ "portion_g": 120,
+ "country": "ES",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Spanish Flan",
+   "origin": "Spain · nationwide",
+   "intro": "Spanish flan is a chilled baked custard of eggs, milk, sugar and vanilla set over liquid caramel. The custard is smooth and firm enough to slice, while the caramel melts into a thin, glossy sauce once the flan is turned out. It is one of the most common desserts on Spanish menus, often offered as 'flan casero' when made in-house.",
+   "history": "Caramel custards spread through Spain over several centuries and travelled with Spanish cooks to Latin America and the Philippines, where local versions developed. Today it remains a staple of the Spanish 'menú del día'.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "4 eggs",
+     "2 egg yolks",
+     "500 ml whole milk",
+     "130 g sugar (for the custard)",
+     "100 g sugar (for the caramel)",
+     "1 tsp vanilla extract",
+     "2 tbsp water"
+    ],
+    "steps": [
+     "Cook 100 g sugar with the water until it turns a deep amber caramel and pour it into a mould.",
+     "Heat the milk with the vanilla until steaming.",
+     "Whisk the eggs, yolks and 130 g sugar, then pour in the hot milk while whisking.",
+     "Strain the mixture over the set caramel.",
+     "Bake in a water bath at 160 °C for about 50 minutes until set with a slight wobble.",
+     "Chill for at least 4 hours before unmoulding."
+    ]
+   },
+   "tips": [
+    "Skip the extra yolks and use whole eggs only for a lighter custard.",
+    "Cut the flan into 8 slices instead of 6 for a smaller serving.",
+    "Pair a slice with fresh berries rather than a second helping."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Spanish Flan",
-      "origin": "Spain · nationwide",
-      "intro": "Spanish flan is a chilled baked custard of eggs, milk, sugar and vanilla set over liquid caramel. The custard is smooth and firm enough to slice, while the caramel melts into a thin, glossy sauce once the flan is turned out. It is one of the most common desserts on Spanish menus, often offered as 'flan casero' when made in-house.",
-      "history": "Caramel custards spread through Spain over several centuries and travelled with Spanish cooks to Latin America and the Philippines, where local versions developed. Today it remains a staple of the Spanish 'menú del día'.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "4 eggs",
-          "2 egg yolks",
-          "500 ml whole milk",
-          "130 g sugar (for the custard)",
-          "100 g sugar (for the caramel)",
-          "1 tsp vanilla extract",
-          "2 tbsp water"
-        ],
-        "steps": [
-          "Cook 100 g sugar with the water until it turns a deep amber caramel and pour it into a mould.",
-          "Heat the milk with the vanilla until steaming.",
-          "Whisk the eggs, yolks and 130 g sugar, then pour in the hot milk while whisking.",
-          "Strain the mixture over the set caramel.",
-          "Bake in a water bath at 160 °C for about 50 minutes until set with a slight wobble.",
-          "Chill for at least 4 hours before unmoulding."
-        ]
-      },
-      "tips": [
-        "Skip the extra yolks and use whole eggs only for a lighter custard.",
-        "Cut the flan into 8 slices instead of 6 for a smaller serving.",
-        "Pair a slice with fresh berries rather than a second helping."
-      ]
-    },
-    "ar": {
-      "name": "فلان إسباني",
-      "origin": "إسبانيا · جميع المناطق",
-      "intro": "الفلان الإسباني كاسترد مخبوز يُقدَّم باردًا، مصنوع من البيض والحليب والسكر والفانيليا فوق طبقة كراميل سائلة. قوامه ناعم ومتماسك بما يكفي للتقطيع، بينما يذوب الكراميل إلى صلصة رقيقة لامعة عند قلبه. وهو من أكثر الحلويات شيوعًا في قوائم المطاعم الإسبانية، وغالبًا ما يُسمّى «فلان منزلي» عند تحضيره في المطعم.",
-      "history": "انتشر الكاسترد بالكراميل في إسبانيا على مدى قرون، وانتقل مع الطهاة الإسبان إلى أمريكا اللاتينية والفلبين حيث نشأت نسخ محلية منه. ولا يزال حتى اليوم من أساسيات «قائمة اليوم» في إسبانيا.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "4 بيضات",
-          "2 صفار بيض",
-          "500 مل حليب كامل الدسم",
-          "130 غ سكر (للكاسترد)",
-          "100 غ سكر (للكراميل)",
-          "1 ملعقة صغيرة خلاصة فانيليا",
-          "2 ملعقة كبيرة ماء"
-        ],
-        "steps": [
-          "اطهُ 100 غ من السكر مع الماء حتى يصبح كراميلًا كهرمانيًا داكنًا واسكبه في القالب.",
-          "سخّن الحليب مع الفانيليا حتى يتصاعد البخار.",
-          "اخفق البيض والصفار و130 غ من السكر، ثم أضف الحليب الساخن مع الخفق.",
-          "صفِّ الخليط فوق الكراميل المتماسك.",
-          "اخبزه في حمّام مائي على 160 °م نحو 50 دقيقة حتى يتماسك مع اهتزاز خفيف.",
-          "برّده 4 ساعات على الأقل قبل قلبه من القالب."
-        ]
-      },
-      "tips": [
-        "استغنِ عن الصفار الإضافي واستخدم البيض الكامل فقط لكاسترد أخف.",
-        "قسّم الفلان إلى 8 قطع بدلًا من 6 لحصة أصغر.",
-        "قدّم القطعة مع توت طازج بدلًا من حصة ثانية."
-      ]
-    },
-    "it": {
-      "name": "Flan spagnolo",
-      "name_inline": "flan spagnolo",
-      "origin": "Spagna · tutto il paese",
-      "intro": "Il flan spagnolo è un budino freddo cotto al forno a base di uova, latte, zucchero e vaniglia, rappreso sopra un caramello liquido. La crema è liscia e abbastanza soda da tagliare, mentre il caramello si scioglie in una salsa sottile e lucida quando il flan viene sformato. È uno dei dessert più comuni nei menu spagnoli, spesso proposto come «flan casero» quando è fatto in casa.",
-      "history": "I budini al caramello si sono diffusi in Spagna nel corso di diversi secoli e hanno viaggiato con i cuochi spagnoli in America Latina e nelle Filippine, dove si sono sviluppate versioni locali. Oggi resta un classico del «menú del día» spagnolo.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "4 uova",
-          "2 tuorli",
-          "500 ml di latte intero",
-          "130 g di zucchero (per la crema)",
-          "100 g di zucchero (per il caramello)",
-          "1 cucchiaino di estratto di vaniglia",
-          "2 cucchiai di acqua"
-        ],
-        "steps": [
-          "Cuoci 100 g di zucchero con l'acqua finché diventa un caramello ambrato scuro e versalo in uno stampo.",
-          "Scalda il latte con la vaniglia finché fuma.",
-          "Sbatti le uova, i tuorli e 130 g di zucchero, poi versa il latte caldo continuando a sbattere.",
-          "Filtra il composto sopra il caramello rappreso.",
-          "Cuoci a bagnomaria a 160 °C per circa 50 minuti, finché è rappreso ma tremola leggermente.",
-          "Fai raffreddare in frigorifero per almeno 4 ore prima di sformare."
-        ]
-      },
-      "tips": [
-        "Elimina i tuorli extra e usa solo uova intere per una crema più leggera.",
-        "Taglia il flan in 8 fette invece di 6 per una porzione più piccola.",
-        "Abbina una fetta a frutti di bosco freschi invece di prenderne una seconda."
-      ]
-    },
-    "el": {
-      "name": "Ισπανικό φλαν",
-      "origin": "Ισπανία · σε όλη τη χώρα",
-      "intro": "Το ισπανικό φλαν είναι μια κρύα ψημένη κρέμα από αυγά, γάλα, ζάχαρη και βανίλια, που σφίγγει πάνω σε υγρή καραμέλα. Η κρέμα είναι λεία και αρκετά σφιχτή για να κόβεται σε φέτες, ενώ η καραμέλα λιώνει σε λεπτή, γυαλιστερή σάλτσα όταν το φλαν ξεφορμάρεται. Είναι από τα πιο συνηθισμένα επιδόρπια στους ισπανικούς καταλόγους, συχνά ως «flan casero» όταν φτιάχνεται στο μαγαζί.",
-      "history": "Οι κρέμες με καραμέλα διαδόθηκαν στην Ισπανία μέσα σε αρκετούς αιώνες και ταξίδεψαν με τους Ισπανούς μάγειρες στη Λατινική Αμερική και τις Φιλιππίνες, όπου αναπτύχθηκαν τοπικές εκδοχές. Σήμερα παραμένει βασικό στοιχείο του ισπανικού «menú del día».",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "4 αυγά",
-          "2 κρόκοι αυγών",
-          "500 ml πλήρες γάλα",
-          "130 γρ. ζάχαρη (για την κρέμα)",
-          "100 γρ. ζάχαρη (για την καραμέλα)",
-          "1 κ.γ. εκχύλισμα βανίλιας",
-          "2 κ.σ. νερό"
-        ],
-        "steps": [
-          "Μαγειρέψτε 100 γρ. ζάχαρη με το νερό μέχρι να γίνει σκούρα κεχριμπαρένια καραμέλα και ρίξτε τη σε φόρμα.",
-          "Ζεστάνετε το γάλα με τη βανίλια μέχρι να αχνίζει.",
-          "Χτυπήστε τα αυγά, τους κρόκους και 130 γρ. ζάχαρη, έπειτα ρίξτε το ζεστό γάλα χτυπώντας.",
-          "Σουρώστε το μείγμα πάνω από την καραμέλα που έχει σφίξει.",
-          "Ψήστε σε μπεν μαρί στους 160 °C για περίπου 50 λεπτά, μέχρι να σφίξει αλλά να τρέμει ελαφρά.",
-          "Βάλτε στο ψυγείο για τουλάχιστον 4 ώρες πριν το ξεφορμάρετε."
-        ]
-      },
-      "tips": [
-        "Παραλείψτε τους επιπλέον κρόκους και χρησιμοποιήστε μόνο ολόκληρα αυγά για πιο ελαφριά κρέμα.",
-        "Κόψτε το φλαν σε 8 κομμάτια αντί για 6 για μικρότερη μερίδα.",
-        "Συνδυάστε ένα κομμάτι με φρέσκα μούρα αντί για δεύτερη μερίδα."
-      ]
-    },
-    "ru": {
-      "name": "Испанский флан",
-      "origin": "Испания · по всей стране",
-      "intro": "Испанский флан — охлаждённый запечённый заварной крем из яиц, молока, сахара и ванили, застывший поверх жидкой карамели. Крем гладкий и достаточно плотный, чтобы резаться, а карамель превращается в тонкий глянцевый соус, когда флан выкладывают из формы. Это один из самых распространённых десертов в испанских меню, который часто называют «flan casero», если его готовят на месте.",
-      "history": "Карамельные кремы распространились по Испании на протяжении нескольких столетий и вместе с испанскими поварами добрались до Латинской Америки и Филиппин, где развились местные версии. Сегодня он остаётся основой испанского «menú del día».",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "4 яйца",
-          "2 яичных желтка",
-          "500 мл цельного молока",
-          "130 г сахара (для крема)",
-          "100 г сахара (для карамели)",
-          "1 ч. л. ванильного экстракта",
-          "2 ст. л. воды"
-        ],
-        "steps": [
-          "Варите 100 г сахара с водой до глубокого янтарного цвета карамели и вылейте в форму.",
-          "Нагрейте молоко с ванилью до появления пара.",
-          "Взбейте яйца, желтки и 130 г сахара, затем влейте горячее молоко, продолжая взбивать.",
-          "Процедите смесь поверх застывшей карамели.",
-          "Выпекайте на водяной бане при 160 °C около 50 минут, пока не схватится, слегка дрожа.",
-          "Охлаждайте не менее 4 часов перед тем, как вынуть из формы."
-        ]
-      },
-      "tips": [
-        "Исключите дополнительные желтки и используйте только цельные яйца для более лёгкого крема.",
-        "Нарежьте флан на 8 кусков вместо 6 для меньшей порции.",
-        "Сочетайте кусок со свежими ягодами, а не берите вторую порцию."
-      ],
-      "name_inline": "испанский флан"
-    }
+  "ar": {
+   "name": "فلان إسباني",
+   "origin": "إسبانيا · جميع المناطق",
+   "intro": "الفلان الإسباني كاسترد مخبوز يُقدَّم باردًا، مصنوع من البيض والحليب والسكر والفانيليا فوق طبقة كراميل سائلة. قوامه ناعم ومتماسك بما يكفي للتقطيع، بينما يذوب الكراميل إلى صلصة رقيقة لامعة عند قلبه. وهو من أكثر الحلويات شيوعًا في قوائم المطاعم الإسبانية، وغالبًا ما يُسمّى «فلان منزلي» عند تحضيره في المطعم.",
+   "history": "انتشر الكاسترد بالكراميل في إسبانيا على مدى قرون، وانتقل مع الطهاة الإسبان إلى أمريكا اللاتينية والفلبين حيث نشأت نسخ محلية منه. ولا يزال حتى اليوم من أساسيات «قائمة اليوم» في إسبانيا.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "4 بيضات",
+     "2 صفار بيض",
+     "500 مل حليب كامل الدسم",
+     "130 غ سكر (للكاسترد)",
+     "100 غ سكر (للكراميل)",
+     "1 ملعقة صغيرة خلاصة فانيليا",
+     "2 ملعقة كبيرة ماء"
+    ],
+    "steps": [
+     "اطهُ 100 غ من السكر مع الماء حتى يصبح كراميلًا كهرمانيًا داكنًا واسكبه في القالب.",
+     "سخّن الحليب مع الفانيليا حتى يتصاعد البخار.",
+     "اخفق البيض والصفار و130 غ من السكر، ثم أضف الحليب الساخن مع الخفق.",
+     "صفِّ الخليط فوق الكراميل المتماسك.",
+     "اخبزه في حمّام مائي على 160 °م نحو 50 دقيقة حتى يتماسك مع اهتزاز خفيف.",
+     "برّده 4 ساعات على الأقل قبل قلبه من القالب."
+    ]
+   },
+   "tips": [
+    "استغنِ عن الصفار الإضافي واستخدم البيض الكامل فقط لكاسترد أخف.",
+    "قسّم الفلان إلى 8 قطع بدلًا من 6 لحصة أصغر.",
+    "قدّم القطعة مع توت طازج بدلًا من حصة ثانية."
+   ]
+  },
+  "it": {
+   "name": "Flan spagnolo",
+   "name_inline": "flan spagnolo",
+   "origin": "Spagna · tutto il paese",
+   "intro": "Il flan spagnolo è un budino freddo cotto al forno a base di uova, latte, zucchero e vaniglia, rappreso sopra un caramello liquido. La crema è liscia e abbastanza soda da tagliare, mentre il caramello si scioglie in una salsa sottile e lucida quando il flan viene sformato. È uno dei dessert più comuni nei menu spagnoli, spesso proposto come «flan casero» quando è fatto in casa.",
+   "history": "I budini al caramello si sono diffusi in Spagna nel corso di diversi secoli e hanno viaggiato con i cuochi spagnoli in America Latina e nelle Filippine, dove si sono sviluppate versioni locali. Oggi resta un classico del «menú del día» spagnolo.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "4 uova",
+     "2 tuorli",
+     "500 ml di latte intero",
+     "130 g di zucchero (per la crema)",
+     "100 g di zucchero (per il caramello)",
+     "1 cucchiaino di estratto di vaniglia",
+     "2 cucchiai di acqua"
+    ],
+    "steps": [
+     "Cuoci 100 g di zucchero con l'acqua finché diventa un caramello ambrato scuro e versalo in uno stampo.",
+     "Scalda il latte con la vaniglia finché fuma.",
+     "Sbatti le uova, i tuorli e 130 g di zucchero, poi versa il latte caldo continuando a sbattere.",
+     "Filtra il composto sopra il caramello rappreso.",
+     "Cuoci a bagnomaria a 160 °C per circa 50 minuti, finché è rappreso ma tremola leggermente.",
+     "Fai raffreddare in frigorifero per almeno 4 ore prima di sformare."
+    ]
+   },
+   "tips": [
+    "Elimina i tuorli extra e usa solo uova intere per una crema più leggera.",
+    "Taglia il flan in 8 fette invece di 6 per una porzione più piccola.",
+    "Abbina una fetta a frutti di bosco freschi invece di prenderne una seconda."
+   ]
+  },
+  "el": {
+   "name": "Ισπανικό φλαν",
+   "origin": "Ισπανία · σε όλη τη χώρα",
+   "intro": "Το ισπανικό φλαν είναι μια κρύα ψημένη κρέμα από αυγά, γάλα, ζάχαρη και βανίλια, που σφίγγει πάνω σε υγρή καραμέλα. Η κρέμα είναι λεία και αρκετά σφιχτή για να κόβεται σε φέτες, ενώ η καραμέλα λιώνει σε λεπτή, γυαλιστερή σάλτσα όταν το φλαν ξεφορμάρεται. Είναι από τα πιο συνηθισμένα επιδόρπια στους ισπανικούς καταλόγους, συχνά ως «flan casero» όταν φτιάχνεται στο μαγαζί.",
+   "history": "Οι κρέμες με καραμέλα διαδόθηκαν στην Ισπανία μέσα σε αρκετούς αιώνες και ταξίδεψαν με τους Ισπανούς μάγειρες στη Λατινική Αμερική και τις Φιλιππίνες, όπου αναπτύχθηκαν τοπικές εκδοχές. Σήμερα παραμένει βασικό στοιχείο του ισπανικού «menú del día».",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "4 αυγά",
+     "2 κρόκοι αυγών",
+     "500 ml πλήρες γάλα",
+     "130 γρ. ζάχαρη (για την κρέμα)",
+     "100 γρ. ζάχαρη (για την καραμέλα)",
+     "1 κ.γ. εκχύλισμα βανίλιας",
+     "2 κ.σ. νερό"
+    ],
+    "steps": [
+     "Μαγειρέψτε 100 γρ. ζάχαρη με το νερό μέχρι να γίνει σκούρα κεχριμπαρένια καραμέλα και ρίξτε τη σε φόρμα.",
+     "Ζεστάνετε το γάλα με τη βανίλια μέχρι να αχνίζει.",
+     "Χτυπήστε τα αυγά, τους κρόκους και 130 γρ. ζάχαρη, έπειτα ρίξτε το ζεστό γάλα χτυπώντας.",
+     "Σουρώστε το μείγμα πάνω από την καραμέλα που έχει σφίξει.",
+     "Ψήστε σε μπεν μαρί στους 160 °C για περίπου 50 λεπτά, μέχρι να σφίξει αλλά να τρέμει ελαφρά.",
+     "Βάλτε στο ψυγείο για τουλάχιστον 4 ώρες πριν το ξεφορμάρετε."
+    ]
+   },
+   "tips": [
+    "Παραλείψτε τους επιπλέον κρόκους και χρησιμοποιήστε μόνο ολόκληρα αυγά για πιο ελαφριά κρέμα.",
+    "Κόψτε το φλαν σε 8 κομμάτια αντί για 6 για μικρότερη μερίδα.",
+    "Συνδυάστε ένα κομμάτι με φρέσκα μούρα αντί για δεύτερη μερίδα."
+   ]
+  },
+  "ru": {
+   "name": "Испанский флан",
+   "origin": "Испания · по всей стране",
+   "intro": "Испанский флан — охлаждённый запечённый заварной крем из яиц, молока, сахара и ванили, застывший поверх жидкой карамели. Крем гладкий и достаточно плотный, чтобы резаться, а карамель превращается в тонкий глянцевый соус, когда флан выкладывают из формы. Это один из самых распространённых десертов в испанских меню, который часто называют «flan casero», если его готовят на месте.",
+   "history": "Карамельные кремы распространились по Испании на протяжении нескольких столетий и вместе с испанскими поварами добрались до Латинской Америки и Филиппин, где развились местные версии. Сегодня он остаётся основой испанского «menú del día».",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "4 яйца",
+     "2 яичных желтка",
+     "500 мл цельного молока",
+     "130 г сахара (для крема)",
+     "100 г сахара (для карамели)",
+     "1 ч. л. ванильного экстракта",
+     "2 ст. л. воды"
+    ],
+    "steps": [
+     "Варите 100 г сахара с водой до глубокого янтарного цвета карамели и вылейте в форму.",
+     "Нагрейте молоко с ванилью до появления пара.",
+     "Взбейте яйца, желтки и 130 г сахара, затем влейте горячее молоко, продолжая взбивать.",
+     "Процедите смесь поверх застывшей карамели.",
+     "Выпекайте на водяной бане при 160 °C около 50 минут, пока не схватится, слегка дрожа.",
+     "Охлаждайте не менее 4 часов перед тем, как вынуть из формы."
+    ]
+   },
+   "tips": [
+    "Исключите дополнительные желтки и используйте только цельные яйца для более лёгкого крема.",
+    "Нарежьте флан на 8 кусков вместо 6 для меньшей порции.",
+    "Сочетайте кусок со свежими ягодами, а не берите вторую порцию."
+   ],
+   "name_inline": "испанский флан"
+  },
+  "es": {
+   "name": "Flan español",
+   "origin": "España",
+   "intro": "El flan español es una natilla horneada y fría de huevos, leche, azúcar y vainilla, cuajada sobre caramelo líquido. La crema es lisa y lo bastante firme para cortarla, mientras que el caramelo se convierte en una salsa fina y brillante al desmoldar el flan. Es uno de los postres más comunes en los menús españoles, que a menudo se ofrece como «flan casero» cuando se prepara en la casa.",
+   "history": "Los flanes con caramelo se extendieron por España a lo largo de varios siglos y viajaron con los cocineros españoles a América Latina y Filipinas, donde surgieron versiones locales. Hoy sigue siendo un básico del «menú del día» español.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "4 huevos",
+     "2 yemas de huevo",
+     "500 ml de leche entera",
+     "130 g de azúcar (para el flan)",
+     "100 g de azúcar (para el caramelo)",
+     "1 cdta. de extracto de vainilla",
+     "2 cda. de agua"
+    ],
+    "steps": [
+     "Cocina 100 g de azúcar con el agua hasta que se vuelva un caramelo ámbar intenso y viértelo en un molde.",
+     "Calienta la leche con la vainilla hasta que humee.",
+     "Bate los huevos, las yemas y 130 g de azúcar, y luego vierte la leche caliente mientras bates.",
+     "Cuela la mezcla sobre el caramelo ya cuajado.",
+     "Hornea a baño María a 160 °C unos 50 minutos, hasta que cuaje con un ligero temblor.",
+     "Refrigera al menos 4 horas antes de desmoldar."
+    ]
+   },
+   "tips": [
+    "Omite las yemas extra y usa solo huevos enteros para una crema más ligera.",
+    "Corta el flan en 8 rebanadas en lugar de 6 para una porción más pequeña.",
+    "Acompaña una rebanada con frutos rojos frescos en lugar de repetir."
+   ],
+   "name_inline": "el flan español"
   }
+ }
 }

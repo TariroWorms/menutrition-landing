@@ -1,170 +1,202 @@
 {
-  "db_key": "tacos_de_lengua",
-  "slug": "tacos-de-lengua",
-  "emoji": "🌮",
-  "portion_g": 200,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tacos_de_lengua",
+ "slug": "tacos-de-lengua",
+ "emoji": "🌮",
+ "portion_g": 200,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Beef tongue tacos (tacos de lengua)",
+   "origin": "Mexico · nationwide",
+   "intro": "Tacos de lengua are soft corn tortillas filled with slow-braised beef tongue, diced and then crisped briefly on a griddle. The meat is remarkably tender and rich, almost buttery in texture. They are topped with chopped white onion and cilantro, finished with a squeeze of lime and a spoonful of tangy green salsa verde.",
+   "history": "Beef tongue has long been a prized cut at Mexican taquerías and street stalls, where cheaper offal cuts became beloved fillings. Today tacos de lengua are a standard on taco stand menus across Mexico and in Mexican communities in the United States.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 200,
+    "ingredients": [
+     "1 beef tongue (about 1 kg)",
+     "1 onion, halved, plus 1 onion finely chopped",
+     "3 garlic cloves, 2 bay leaves, salt",
+     "12 small corn tortillas",
+     "1 bunch cilantro, chopped",
+     "250 ml salsa verde",
+     "2 limes, cut into wedges"
+    ],
+    "steps": [
+     "Put the tongue in a pot with the halved onion, garlic, bay leaves and salt, cover with water and simmer for about 3 hours until tender.",
+     "While still warm, peel off the tough outer skin and dice the meat.",
+     "Sear the diced tongue on a hot griddle for a few minutes until lightly browned at the edges.",
+     "Warm the tortillas on a dry pan.",
+     "Fill each tortilla with meat, top with chopped onion, cilantro and salsa verde and serve with lime."
+    ]
+   },
+   "tips": [
+    "Two tacos instead of three already trims the plate noticeably.",
+    "Pile on onion, cilantro, lime and salsa — they add a lot of flavour for very few calories.",
+    "Warm the tortillas on a dry pan instead of frying them in oil; 1 tbsp oil ≈ 120 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Beef tongue tacos (tacos de lengua)",
-      "origin": "Mexico · nationwide",
-      "intro": "Tacos de lengua are soft corn tortillas filled with slow-braised beef tongue, diced and then crisped briefly on a griddle. The meat is remarkably tender and rich, almost buttery in texture. They are topped with chopped white onion and cilantro, finished with a squeeze of lime and a spoonful of tangy green salsa verde.",
-      "history": "Beef tongue has long been a prized cut at Mexican taquerías and street stalls, where cheaper offal cuts became beloved fillings. Today tacos de lengua are a standard on taco stand menus across Mexico and in Mexican communities in the United States.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 200,
-        "ingredients": [
-          "1 beef tongue (about 1 kg)",
-          "1 onion, halved, plus 1 onion finely chopped",
-          "3 garlic cloves, 2 bay leaves, salt",
-          "12 small corn tortillas",
-          "1 bunch cilantro, chopped",
-          "250 ml salsa verde",
-          "2 limes, cut into wedges"
-        ],
-        "steps": [
-          "Put the tongue in a pot with the halved onion, garlic, bay leaves and salt, cover with water and simmer for about 3 hours until tender.",
-          "While still warm, peel off the tough outer skin and dice the meat.",
-          "Sear the diced tongue on a hot griddle for a few minutes until lightly browned at the edges.",
-          "Warm the tortillas on a dry pan.",
-          "Fill each tortilla with meat, top with chopped onion, cilantro and salsa verde and serve with lime."
-        ]
-      },
-      "tips": [
-        "Two tacos instead of three already trims the plate noticeably.",
-        "Pile on onion, cilantro, lime and salsa — they add a lot of flavour for very few calories.",
-        "Warm the tortillas on a dry pan instead of frying them in oil; 1 tbsp oil ≈ 120 kcal."
-      ]
-    },
-    "ar": {
-      "name": "تاكو لسان البقر (تاكوس دي لينغوا)",
-      "origin": "المكسيك · في أنحاء البلاد",
-      "intro": "تاكوس دي لينغوا هي تورتيلا ذرة طرية محشوة بلسان بقري مطهو ببطء، يُقطّع مكعبات ثم يُحمّر قليلاً على الصاج. اللحم طري جداً وغني بقوام يكاد يذوب في الفم. يُزيَّن بالبصل الأبيض المفروم والكزبرة، ويُعصر عليه الليمون وتُضاف ملعقة من صلصة السالسا الخضراء الحامضة.",
-      "history": "لطالما كان لسان البقر قطعة مرغوبة في محلات التاكو وأكشاك الشوارع المكسيكية، حيث تحولت القطع الأرخص إلى حشوات محبوبة. واليوم تاكوس دي لينغوا من الأصناف الثابتة في قوائم أكشاك التاكو في المكسيك وفي المجتمعات المكسيكية في الولايات المتحدة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 200,
-        "ingredients": [
-          "لسان بقري واحد (نحو 1 كغ)",
-          "بصلة مقسومة نصفين، وبصلة مفرومة ناعماً",
-          "3 فصوص ثوم، ورقتا غار، ملح",
-          "12 تورتيلا ذرة صغيرة",
-          "حزمة كزبرة مفرومة",
-          "250 مل سالسا خضراء",
-          "2 ليمونة مقطعة شرائح"
-        ],
-        "steps": [
-          "ضع اللسان في قدر مع نصفي البصلة والثوم والغار والملح، وغطّه بالماء واتركه يغلي على نار هادئة نحو 3 ساعات حتى يطرى.",
-          "وهو ما زال دافئاً، انزع الجلد الخارجي القاسي وقطّع اللحم مكعبات.",
-          "حمّر مكعبات اللسان على صاج ساخن بضع دقائق حتى تتحمر الأطراف قليلاً.",
-          "سخّن التورتيلا في مقلاة جافة.",
-          "احشُ كل تورتيلا باللحم، وزيّنها بالبصل المفروم والكزبرة والسالسا الخضراء، وقدّمها مع الليمون."
-        ]
-      },
-      "tips": [
-        "تناول تاكوين بدلاً من ثلاثة يخفف الطبق بوضوح.",
-        "أكثِر من البصل والكزبرة والليمون والصلصة، فهي تضيف نكهة كبيرة بسعرات قليلة جداً.",
-        "سخّن التورتيلا في مقلاة جافة بدلاً من قليها بالزيت؛ ملعقة كبيرة من الزيت ≈ 120 سعرة."
-      ]
-    },
-    "it": {
-      "name": "Tacos di lingua di manzo (tacos de lengua)",
-      "origin": "Messico · tutto il paese",
-      "intro": "I tacos de lengua sono morbide tortillas di mais farcite con lingua di manzo brasata a lungo, tagliata a dadini e poi resa croccante per poco sulla piastra. La carne è straordinariamente tenera e ricca, dalla consistenza quasi burrosa. Si completano con cipolla bianca tritata e coriandolo, una spruzzata di lime e una cucchiaiata di acidula salsa verde.",
-      "history": "La lingua di manzo è da tempo un taglio pregiato nelle taquerías e nei banchetti di strada messicani, dove le frattaglie più economiche sono diventate ripieni amatissimi. Oggi i tacos de lengua sono un classico nei menu dei chioschi di tacos in tutto il Messico e nelle comunità messicane degli Stati Uniti.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 200,
-        "ingredients": [
-          "1 lingua di manzo (circa 1 kg)",
-          "1 cipolla tagliata a metà, più 1 cipolla tritata finemente",
-          "3 spicchi d'aglio, 2 foglie di alloro, sale",
-          "12 tortillas di mais piccole",
-          "1 mazzo di coriandolo, tritato",
-          "250 ml di salsa verde",
-          "2 lime, a spicchi"
-        ],
-        "steps": [
-          "Metti la lingua in una pentola con la cipolla tagliata a metà, l'aglio, l'alloro e il sale, coprila d'acqua e fai sobbollire per circa 3 ore finché è tenera.",
-          "Quando è ancora tiepida, elimina la pelle esterna dura e taglia la carne a dadini.",
-          "Rosola la lingua a dadini su una piastra ben calda per qualche minuto, finché è leggermente dorata ai bordi.",
-          "Scalda le tortillas in una padella asciutta.",
-          "Farcisci ogni tortilla con la carne, completa con cipolla tritata, coriandolo e salsa verde e servi con il lime."
-        ]
-      },
-      "tips": [
-        "Due tacos invece di tre alleggeriscono già il piatto in modo evidente.",
-        "Abbonda con cipolla, coriandolo, lime e salsa: danno molto sapore con pochissime calorie.",
-        "Scalda le tortillas in una padella asciutta invece di friggerle nell'olio; 1 cucchiaio di olio ≈ 120 kcal."
-      ]
-    },
-    "el": {
-      "name": "Τάκος με μοσχαρίσια γλώσσα (τάκος δε λένγκουα)",
-      "origin": "Μεξικό · σε όλη τη χώρα",
-      "intro": "Τα τάκος δε λένγκουα είναι μαλακές τορτίγιες καλαμποκιού γεμισμένες με μοσχαρίσια γλώσσα μαγειρεμένη αργά, κομμένη σε κυβάκια και μετά τραγανισμένη για λίγο στο πλατό. Το κρέας είναι εξαιρετικά τρυφερό και πλούσιο, σχεδόν βουτυράτο στην υφή. Συμπληρώνονται με ψιλοκομμένο λευκό κρεμμύδι και κόλιαντρο, λίγο χυμό λάιμ και μια κουταλιά ξινή πράσινη σάλσα βέρδε.",
-      "history": "Η μοσχαρίσια γλώσσα είναι από παλιά περιζήτητη κοπή στις μεξικάνικες τακερίες και στους πάγκους του δρόμου, όπου τα φθηνότερα εντόσθια έγιναν αγαπημένες γεμίσεις. Σήμερα τα τάκος δε λένγκουα είναι σταθερή επιλογή στους καταλόγους των πάγκων τάκος σε όλο το Μεξικό και στις μεξικανικές κοινότητες των Ηνωμένων Πολιτειών.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 200,
-        "ingredients": [
-          "1 μοσχαρίσια γλώσσα (περίπου 1 κιλό)",
-          "1 κρεμμύδι κομμένο στη μέση, και 1 κρεμμύδι ψιλοκομμένο",
-          "3 σκελίδες σκόρδο, 2 φύλλα δάφνης, αλάτι",
-          "12 μικρές τορτίγιες καλαμποκιού",
-          "1 ματσάκι κόλιαντρο, ψιλοκομμένο",
-          "250 ml σάλσα βέρδε",
-          "2 λάιμ, σε φέτες"
-        ],
-        "steps": [
-          "Βάλτε τη γλώσσα σε κατσαρόλα με το μισοκομμένο κρεμμύδι, το σκόρδο, τη δάφνη και αλάτι, καλύψτε με νερό και σιγοβράστε για περίπου 3 ώρες μέχρι να μαλακώσει.",
-          "Όσο είναι ακόμη ζεστή, αφαιρέστε τη σκληρή εξωτερική πέτσα και κόψτε το κρέας σε κυβάκια.",
-          "Σοτάρετε τη γλώσσα σε καυτό πλατό για λίγα λεπτά μέχρι να ροδίσει ελαφρά στις άκρες.",
-          "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
-          "Γεμίστε κάθε τορτίγια με κρέας, βάλτε από πάνω ψιλοκομμένο κρεμμύδι, κόλιαντρο και σάλσα βέρδε και σερβίρετε με λάιμ."
-        ]
-      },
-      "tips": [
-        "Δύο τάκος αντί για τρία ήδη ελαφραίνουν αισθητά το πιάτο.",
-        "Βάλτε άφθονο κρεμμύδι, κόλιαντρο, λάιμ και σάλσα — δίνουν πολλή γεύση με ελάχιστες θερμίδες.",
-        "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι αντί να τις τηγανίσετε σε λάδι· 1 κ.σ. λάδι ≈ 120 kcal."
-      ]
-    },
-    "ru": {
-      "name": "Тако с говяжьим языком (тако де ленгуа)",
-      "origin": "Мексика · по всей стране",
-      "intro": "Тако де ленгуа — мягкие кукурузные тортильи с медленно тушённым говяжьим языком, нарезанным кубиками, а затем ненадолго обжаренным на сковороде до хруста. Мясо удивительно нежное и насыщенное, почти маслянистое по текстуре. Сверху кладут нарубленный белый лук и кинзу, завершая выжатым лаймом и ложкой пикантной зелёной сальсы верде.",
-      "history": "Говяжий язык давно считается ценным отрубом в мексиканских такерия и на уличных лотках, где более дешёвые субпродукты стали любимыми начинками. Сегодня тако де ленгуа — стандарт в меню тако-стендов по всей Мексике и в мексиканских общинах в США.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 200,
-        "ingredients": [
-          "1 говяжий язык (около 1 кг)",
-          "1 луковица, разрезанная пополам, плюс 1 луковица, мелко нарубленная",
-          "3 зубчика чеснока, 2 лавровых листа, соль",
-          "12 небольших кукурузных тортилий",
-          "1 пучок кинзы, нарубленный",
-          "250 мл сальсы верде",
-          "2 лайма, нарезанных дольками"
-        ],
-        "steps": [
-          "Положите язык в кастрюлю с половинкой лука, чесноком, лавровыми листьями и солью, залейте водой и томите около 3 часов до мягкости.",
-          "Пока он ещё тёплый, снимите жёсткую внешнюю кожицу и нарежьте мясо кубиками.",
-          "Обжарьте нарезанный язык на горячей сковороде несколько минут до лёгкой румяности по краям.",
-          "Подогрейте тортильи на сухой сковороде.",
-          "Наполните каждую тортилью мясом, посыпьте нарубленным луком, кинзой и сальсой верде и подавайте с лаймом."
-        ]
-      },
-      "tips": [
-        "Два тако вместо трёх уже заметно уменьшают порцию.",
-        "Накладывайте побольше лука, кинзы, лайма и сальсы: они дают много вкуса при малом количестве калорий.",
-        "Подогревайте тортильи на сухой сковороде, а не жарьте в масле: 1 ст. л. масла ≈ 120 ккал."
-      ],
-      "name_inline": "тако де ленгуа"
-    }
+  "ar": {
+   "name": "تاكو لسان البقر (تاكوس دي لينغوا)",
+   "origin": "المكسيك · في أنحاء البلاد",
+   "intro": "تاكوس دي لينغوا هي تورتيلا ذرة طرية محشوة بلسان بقري مطهو ببطء، يُقطّع مكعبات ثم يُحمّر قليلاً على الصاج. اللحم طري جداً وغني بقوام يكاد يذوب في الفم. يُزيَّن بالبصل الأبيض المفروم والكزبرة، ويُعصر عليه الليمون وتُضاف ملعقة من صلصة السالسا الخضراء الحامضة.",
+   "history": "لطالما كان لسان البقر قطعة مرغوبة في محلات التاكو وأكشاك الشوارع المكسيكية، حيث تحولت القطع الأرخص إلى حشوات محبوبة. واليوم تاكوس دي لينغوا من الأصناف الثابتة في قوائم أكشاك التاكو في المكسيك وفي المجتمعات المكسيكية في الولايات المتحدة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 200,
+    "ingredients": [
+     "لسان بقري واحد (نحو 1 كغ)",
+     "بصلة مقسومة نصفين، وبصلة مفرومة ناعماً",
+     "3 فصوص ثوم، ورقتا غار، ملح",
+     "12 تورتيلا ذرة صغيرة",
+     "حزمة كزبرة مفرومة",
+     "250 مل سالسا خضراء",
+     "2 ليمونة مقطعة شرائح"
+    ],
+    "steps": [
+     "ضع اللسان في قدر مع نصفي البصلة والثوم والغار والملح، وغطّه بالماء واتركه يغلي على نار هادئة نحو 3 ساعات حتى يطرى.",
+     "وهو ما زال دافئاً، انزع الجلد الخارجي القاسي وقطّع اللحم مكعبات.",
+     "حمّر مكعبات اللسان على صاج ساخن بضع دقائق حتى تتحمر الأطراف قليلاً.",
+     "سخّن التورتيلا في مقلاة جافة.",
+     "احشُ كل تورتيلا باللحم، وزيّنها بالبصل المفروم والكزبرة والسالسا الخضراء، وقدّمها مع الليمون."
+    ]
+   },
+   "tips": [
+    "تناول تاكوين بدلاً من ثلاثة يخفف الطبق بوضوح.",
+    "أكثِر من البصل والكزبرة والليمون والصلصة، فهي تضيف نكهة كبيرة بسعرات قليلة جداً.",
+    "سخّن التورتيلا في مقلاة جافة بدلاً من قليها بالزيت؛ ملعقة كبيرة من الزيت ≈ 120 سعرة."
+   ]
+  },
+  "it": {
+   "name": "Tacos di lingua di manzo (tacos de lengua)",
+   "origin": "Messico · tutto il paese",
+   "intro": "I tacos de lengua sono morbide tortillas di mais farcite con lingua di manzo brasata a lungo, tagliata a dadini e poi resa croccante per poco sulla piastra. La carne è straordinariamente tenera e ricca, dalla consistenza quasi burrosa. Si completano con cipolla bianca tritata e coriandolo, una spruzzata di lime e una cucchiaiata di acidula salsa verde.",
+   "history": "La lingua di manzo è da tempo un taglio pregiato nelle taquerías e nei banchetti di strada messicani, dove le frattaglie più economiche sono diventate ripieni amatissimi. Oggi i tacos de lengua sono un classico nei menu dei chioschi di tacos in tutto il Messico e nelle comunità messicane degli Stati Uniti.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 200,
+    "ingredients": [
+     "1 lingua di manzo (circa 1 kg)",
+     "1 cipolla tagliata a metà, più 1 cipolla tritata finemente",
+     "3 spicchi d'aglio, 2 foglie di alloro, sale",
+     "12 tortillas di mais piccole",
+     "1 mazzo di coriandolo, tritato",
+     "250 ml di salsa verde",
+     "2 lime, a spicchi"
+    ],
+    "steps": [
+     "Metti la lingua in una pentola con la cipolla tagliata a metà, l'aglio, l'alloro e il sale, coprila d'acqua e fai sobbollire per circa 3 ore finché è tenera.",
+     "Quando è ancora tiepida, elimina la pelle esterna dura e taglia la carne a dadini.",
+     "Rosola la lingua a dadini su una piastra ben calda per qualche minuto, finché è leggermente dorata ai bordi.",
+     "Scalda le tortillas in una padella asciutta.",
+     "Farcisci ogni tortilla con la carne, completa con cipolla tritata, coriandolo e salsa verde e servi con il lime."
+    ]
+   },
+   "tips": [
+    "Due tacos invece di tre alleggeriscono già il piatto in modo evidente.",
+    "Abbonda con cipolla, coriandolo, lime e salsa: danno molto sapore con pochissime calorie.",
+    "Scalda le tortillas in una padella asciutta invece di friggerle nell'olio; 1 cucchiaio di olio ≈ 120 kcal."
+   ]
+  },
+  "el": {
+   "name": "Τάκος με μοσχαρίσια γλώσσα (τάκος δε λένγκουα)",
+   "origin": "Μεξικό · σε όλη τη χώρα",
+   "intro": "Τα τάκος δε λένγκουα είναι μαλακές τορτίγιες καλαμποκιού γεμισμένες με μοσχαρίσια γλώσσα μαγειρεμένη αργά, κομμένη σε κυβάκια και μετά τραγανισμένη για λίγο στο πλατό. Το κρέας είναι εξαιρετικά τρυφερό και πλούσιο, σχεδόν βουτυράτο στην υφή. Συμπληρώνονται με ψιλοκομμένο λευκό κρεμμύδι και κόλιαντρο, λίγο χυμό λάιμ και μια κουταλιά ξινή πράσινη σάλσα βέρδε.",
+   "history": "Η μοσχαρίσια γλώσσα είναι από παλιά περιζήτητη κοπή στις μεξικάνικες τακερίες και στους πάγκους του δρόμου, όπου τα φθηνότερα εντόσθια έγιναν αγαπημένες γεμίσεις. Σήμερα τα τάκος δε λένγκουα είναι σταθερή επιλογή στους καταλόγους των πάγκων τάκος σε όλο το Μεξικό και στις μεξικανικές κοινότητες των Ηνωμένων Πολιτειών.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 200,
+    "ingredients": [
+     "1 μοσχαρίσια γλώσσα (περίπου 1 κιλό)",
+     "1 κρεμμύδι κομμένο στη μέση, και 1 κρεμμύδι ψιλοκομμένο",
+     "3 σκελίδες σκόρδο, 2 φύλλα δάφνης, αλάτι",
+     "12 μικρές τορτίγιες καλαμποκιού",
+     "1 ματσάκι κόλιαντρο, ψιλοκομμένο",
+     "250 ml σάλσα βέρδε",
+     "2 λάιμ, σε φέτες"
+    ],
+    "steps": [
+     "Βάλτε τη γλώσσα σε κατσαρόλα με το μισοκομμένο κρεμμύδι, το σκόρδο, τη δάφνη και αλάτι, καλύψτε με νερό και σιγοβράστε για περίπου 3 ώρες μέχρι να μαλακώσει.",
+     "Όσο είναι ακόμη ζεστή, αφαιρέστε τη σκληρή εξωτερική πέτσα και κόψτε το κρέας σε κυβάκια.",
+     "Σοτάρετε τη γλώσσα σε καυτό πλατό για λίγα λεπτά μέχρι να ροδίσει ελαφρά στις άκρες.",
+     "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
+     "Γεμίστε κάθε τορτίγια με κρέας, βάλτε από πάνω ψιλοκομμένο κρεμμύδι, κόλιαντρο και σάλσα βέρδε και σερβίρετε με λάιμ."
+    ]
+   },
+   "tips": [
+    "Δύο τάκος αντί για τρία ήδη ελαφραίνουν αισθητά το πιάτο.",
+    "Βάλτε άφθονο κρεμμύδι, κόλιαντρο, λάιμ και σάλσα — δίνουν πολλή γεύση με ελάχιστες θερμίδες.",
+    "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι αντί να τις τηγανίσετε σε λάδι· 1 κ.σ. λάδι ≈ 120 kcal."
+   ]
+  },
+  "ru": {
+   "name": "Тако с говяжьим языком (тако де ленгуа)",
+   "origin": "Мексика · по всей стране",
+   "intro": "Тако де ленгуа — мягкие кукурузные тортильи с медленно тушённым говяжьим языком, нарезанным кубиками, а затем ненадолго обжаренным на сковороде до хруста. Мясо удивительно нежное и насыщенное, почти маслянистое по текстуре. Сверху кладут нарубленный белый лук и кинзу, завершая выжатым лаймом и ложкой пикантной зелёной сальсы верде.",
+   "history": "Говяжий язык давно считается ценным отрубом в мексиканских такерия и на уличных лотках, где более дешёвые субпродукты стали любимыми начинками. Сегодня тако де ленгуа — стандарт в меню тако-стендов по всей Мексике и в мексиканских общинах в США.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 200,
+    "ingredients": [
+     "1 говяжий язык (около 1 кг)",
+     "1 луковица, разрезанная пополам, плюс 1 луковица, мелко нарубленная",
+     "3 зубчика чеснока, 2 лавровых листа, соль",
+     "12 небольших кукурузных тортилий",
+     "1 пучок кинзы, нарубленный",
+     "250 мл сальсы верде",
+     "2 лайма, нарезанных дольками"
+    ],
+    "steps": [
+     "Положите язык в кастрюлю с половинкой лука, чесноком, лавровыми листьями и солью, залейте водой и томите около 3 часов до мягкости.",
+     "Пока он ещё тёплый, снимите жёсткую внешнюю кожицу и нарежьте мясо кубиками.",
+     "Обжарьте нарезанный язык на горячей сковороде несколько минут до лёгкой румяности по краям.",
+     "Подогрейте тортильи на сухой сковороде.",
+     "Наполните каждую тортилью мясом, посыпьте нарубленным луком, кинзой и сальсой верде и подавайте с лаймом."
+    ]
+   },
+   "tips": [
+    "Два тако вместо трёх уже заметно уменьшают порцию.",
+    "Накладывайте побольше лука, кинзы, лайма и сальсы: они дают много вкуса при малом количестве калорий.",
+    "Подогревайте тортильи на сухой сковороде, а не жарьте в масле: 1 ст. л. масла ≈ 120 ккал."
+   ],
+   "name_inline": "тако де ленгуа"
+  },
+  "es": {
+   "name": "Tacos de lengua",
+   "origin": "México · todo el país",
+   "intro": "Los tacos de lengua son tortillas de maíz suaves rellenas de lengua de res cocida lentamente, picada y luego dorada brevemente en el comal. La carne es notablemente tierna y rica, de textura casi mantecosa. Se cubren con cebolla blanca picada y cilantro, y se terminan con un chorrito de limón y una cucharada de salsa verde ácida.",
+   "history": "La lengua de res ha sido desde hace mucho un corte apreciado en las taquerías y los puestos callejeros mexicanos, donde las vísceras, más baratas, se volvieron rellenos muy queridos. Hoy los tacos de lengua son un clásico en los menús de los puestos de tacos de todo México y de las comunidades mexicanas en Estados Unidos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 200,
+    "ingredients": [
+     "1 lengua de res (de unos 1 kg)",
+     "1 cebolla, partida por la mitad, más 1 cebolla finamente picada",
+     "3 dientes de ajo, 2 hojas de laurel, sal",
+     "12 tortillas de maíz pequeñas",
+     "1 manojo de cilantro picado",
+     "250 ml de salsa verde",
+     "2 limones, en gajos"
+    ],
+    "steps": [
+     "Pon la lengua en una olla con la cebolla partida, el ajo, el laurel y sal, cubre con agua y cuece a fuego bajo unas 3 horas, hasta que esté suave.",
+     "Mientras esté tibia, retira la piel dura exterior y pica la carne en cubitos.",
+     "Sella la lengua picada en un comal caliente unos minutos, hasta que se dore ligeramente en los bordes.",
+     "Calienta las tortillas en una sartén seca.",
+     "Rellena cada tortilla con carne, cubre con cebolla picada, cilantro y salsa verde, y sirve con limón."
+    ]
+   },
+   "tips": [
+    "Dos tacos en lugar de tres ya reducen notablemente el plato.",
+    "Agrega mucha cebolla, cilantro, limón y salsa: aportan mucho sabor con muy pocas calorías.",
+    "Calienta las tortillas en una sartén seca en lugar de freírlas en aceite; 1 cda. de aceite ≈ 120 kcal."
+   ],
+   "name_inline": "los tacos de lengua"
   }
+ }
 }

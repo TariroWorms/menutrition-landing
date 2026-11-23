@@ -1,171 +1,203 @@
 {
-  "db_key": "carnitas_taco",
-  "slug": "carnitas-taco",
-  "emoji": "🌮",
-  "portion_g": 150,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "carnitas_taco",
+ "slug": "carnitas-taco",
+ "emoji": "🌮",
+ "portion_g": 150,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Carnitas tacos",
+   "origin": "Mexico · Michoacán",
+   "intro": "Carnitas tacos are tortillas filled with slow-cooked pork that is tender inside and crisp at the edges, topped simply with chopped white onion, fresh cilantro and a squeeze of lime. Salsa is added to taste. They are a staple of Mexican street food and taquerias, usually eaten two or three at a time.",
+   "history": "Carnitas originate in Michoacán, and tacos are the most common way they are eaten across Mexico and in Mexican restaurants abroad.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 kg pork shoulder, cut into chunks",
+     "12 small tortillas",
+     "1 white onion, finely chopped",
+     "A bunch of cilantro, chopped",
+     "2 limes, cut into wedges",
+     "1 orange, 3 garlic cloves, 1 tsp cumin, 2 bay leaves, salt",
+     "2 tbsp vegetable oil"
+    ],
+    "steps": [
+     "Put the pork in a pot with the orange juice, garlic, cumin, bay leaves, salt and water to half cover; simmer about 2 hours until tender and the liquid has evaporated.",
+     "Add the oil and let the pork fry in its own fat, turning, until golden and crisp at the edges.",
+     "Shred or chop the pork.",
+     "Warm the tortillas in a dry pan.",
+     "Fill with pork, top with onion and cilantro and serve with lime."
+    ]
+   },
+   "tips": [
+    "Count your tacos: two tacos with plenty of onion and cilantro make a satisfying portion.",
+    "Drain the pork well on paper before filling the tortillas.",
+    "Use small tortillas rather than large ones."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Carnitas tacos",
-      "origin": "Mexico · Michoacán",
-      "intro": "Carnitas tacos are tortillas filled with slow-cooked pork that is tender inside and crisp at the edges, topped simply with chopped white onion, fresh cilantro and a squeeze of lime. Salsa is added to taste. They are a staple of Mexican street food and taquerias, usually eaten two or three at a time.",
-      "history": "Carnitas originate in Michoacán, and tacos are the most common way they are eaten across Mexico and in Mexican restaurants abroad.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 kg pork shoulder, cut into chunks",
-          "12 small tortillas",
-          "1 white onion, finely chopped",
-          "A bunch of cilantro, chopped",
-          "2 limes, cut into wedges",
-          "1 orange, 3 garlic cloves, 1 tsp cumin, 2 bay leaves, salt",
-          "2 tbsp vegetable oil"
-        ],
-        "steps": [
-          "Put the pork in a pot with the orange juice, garlic, cumin, bay leaves, salt and water to half cover; simmer about 2 hours until tender and the liquid has evaporated.",
-          "Add the oil and let the pork fry in its own fat, turning, until golden and crisp at the edges.",
-          "Shred or chop the pork.",
-          "Warm the tortillas in a dry pan.",
-          "Fill with pork, top with onion and cilantro and serve with lime."
-        ]
-      },
-      "tips": [
-        "Count your tacos: two tacos with plenty of onion and cilantro make a satisfying portion.",
-        "Drain the pork well on paper before filling the tortillas.",
-        "Use small tortillas rather than large ones."
-      ]
-    },
-    "ar": {
-      "name": "تاكو كارنيتاس",
-      "origin": "المكسيك · ميتشواكان",
-      "intro": "تاكو الكارنيتاس تورتيلا محشوة بلحم خنزير مطهو ببطء، طري من الداخل ومقرمش الأطراف، يُزيَّن ببساطة بالبصل الأبيض المفروم والكزبرة الطازجة وعصرة ليمون. تُضاف الصلصة حسب الرغبة. هو من أساسيات طعام الشارع المكسيكي ومطاعم التاكو، ويؤكل عادةً اثنين أو ثلاثة في المرة.",
-      "history": "تعود الكارنيتاس إلى ميتشواكان، والتاكو هو أشهر طريقة لتناولها في أنحاء المكسيك وفي المطاعم المكسيكية خارجها.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 كغ كتف خنزير مقطّع قطعًا",
-          "12 تورتيلا صغيرة",
-          "1 بصلة بيضاء مفرومة ناعمًا",
-          "حزمة كزبرة مفرومة",
-          "2 ليمونة مقطّعة شرائح",
-          "1 برتقالة و3 فصوص ثوم و1 ملعقة صغيرة كمون و2 ورقة غار وملح",
-          "2 ملعقة كبيرة زيت نباتي"
-        ],
-        "steps": [
-          "ضع اللحم في قدر مع عصير البرتقال والثوم والكمون وورق الغار والملح وماء يغطي نصفه، واتركه يغلي بهدوء نحو ساعتين حتى يطرى ويتبخر السائل.",
-          "أضف الزيت واترك اللحم يُقلى في دهنه مع التقليب حتى يصبح ذهبيًا مقرمش الأطراف.",
-          "مزّق اللحم أو افرمه.",
-          "سخّن التورتيلا في مقلاة جافة.",
-          "احشُها باللحم وزيّنها بالبصل والكزبرة وقدّمها مع الليمون."
-        ]
-      },
-      "tips": [
-        "احسب عدد قطع التاكو: قطعتان مع كثير من البصل والكزبرة حصة مشبعة.",
-        "صفِّ اللحم جيدًا على ورق قبل حشو التورتيلا.",
-        "استخدم تورتيلا صغيرة بدل الكبيرة."
-      ]
-    },
-    "it": {
-      "name": "Tacos di carnitas",
-      "origin": "Messico · Michoacán",
-      "intro": "I tacos di carnitas sono tortillas farcite con maiale cotto lentamente, tenero dentro e croccante ai bordi, completate semplicemente con cipolla bianca tritata, coriandolo fresco e una spruzzata di lime. La salsa si aggiunge a piacere. Sono un caposaldo dello street food messicano e delle taquerías, e di solito se ne mangiano due o tre alla volta.",
-      "name_inline": "tacos di carnitas",
-      "history": "Le carnitas sono originarie del Michoacán, e i tacos sono il modo più comune di mangiarle in tutto il Messico e nei ristoranti messicani all'estero.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 kg di spalla di maiale a pezzi",
-          "12 tortillas piccole",
-          "1 cipolla bianca tritata finemente",
-          "Un mazzo di coriandolo tritato",
-          "2 lime tagliati a spicchi",
-          "1 arancia, 3 spicchi d'aglio, 1 cucchiaino di cumino, 2 foglie di alloro, sale",
-          "2 cucchiai di olio vegetale"
-        ],
-        "steps": [
-          "Metti il maiale in una pentola con il succo d'arancia, l'aglio, il cumino, l'alloro, il sale e acqua fino a coprirlo a metà; fai sobbollire circa 2 ore finché è tenero e il liquido è evaporato.",
-          "Aggiungi l'olio e lascia friggere il maiale nel suo grasso, girandolo, finché è dorato e croccante ai bordi.",
-          "Sfilaccia o trita il maiale.",
-          "Scalda le tortillas in una padella asciutta.",
-          "Farciscile con il maiale, completa con cipolla e coriandolo e servi con il lime."
-        ]
-      },
-      "tips": [
-        "Conta i tacos: due tacos con abbondante cipolla e coriandolo sono una porzione soddisfacente.",
-        "Scola bene il maiale su carta assorbente prima di farcire le tortillas.",
-        "Usa tortillas piccole invece di quelle grandi."
-      ]
-    },
-    "el": {
-      "name": "Τάκος με καρνίτας",
-      "origin": "Μεξικό · Μιτσοακάν",
-      "intro": "Τα τάκος με καρνίτας είναι τορτίγιες γεμισμένες με αργομαγειρεμένο χοιρινό, τρυφερό μέσα και τραγανό στις άκρες, με απλώς ψιλοκομμένο λευκό κρεμμύδι, φρέσκο κόλιανδρο και λίγο χυμό λάιμ από πάνω. Η σάλσα προστίθεται κατά βούληση. Είναι βασικό στοιχείο του μεξικανικού φαγητού του δρόμου και των τακερίας, και συνήθως τρώγονται δύο ή τρία τη φορά.",
-      "history": "Τα καρνίτας κατάγονται από το Μιτσοακάν, και τα τάκος είναι ο πιο συνηθισμένος τρόπος να τρώγονται σε όλο το Μεξικό και στα μεξικανικά εστιατόρια του εξωτερικού.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 κιλό χοιρινή σπάλα, σε κομμάτια",
-          "12 μικρές τορτίγιες",
-          "1 λευκό κρεμμύδι, ψιλοκομμένο",
-          "Ένα ματσάκι κόλιανδρος, ψιλοκομμένος",
-          "2 λάιμ, σε κομμάτια",
-          "1 πορτοκάλι, 3 σκελίδες σκόρδο, 1 κ.γ. κύμινο, 2 φύλλα δάφνης, αλάτι",
-          "2 κ.σ. φυτικό λάδι"
-        ],
-        "steps": [
-          "Βάλτε το χοιρινό σε κατσαρόλα με τον χυμό πορτοκαλιού, το σκόρδο, το κύμινο, τη δάφνη, το αλάτι και νερό ώστε να το καλύπτει μέχρι τη μέση· σιγοβράστε περίπου 2 ώρες μέχρι να μαλακώσει και να εξατμιστεί το υγρό.",
-          "Προσθέστε το λάδι και αφήστε το χοιρινό να τηγανιστεί στο λίπος του, γυρίζοντάς το, μέχρι να ροδίσει και να γίνει τραγανό στις άκρες.",
-          "Ξεφτίστε ή ψιλοκόψτε το χοιρινό.",
-          "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
-          "Γεμίστε με χοιρινό, προσθέστε κρεμμύδι και κόλιανδρο και σερβίρετε με λάιμ."
-        ]
-      },
-      "tips": [
-        "Μετρήστε τα τάκος σας: δύο τάκος με άφθονο κρεμμύδι και κόλιανδρο είναι μια χορταστική μερίδα.",
-        "Στραγγίξτε καλά το χοιρινό σε χαρτί πριν γεμίσετε τις τορτίγιες.",
-        "Χρησιμοποιήστε μικρές τορτίγιες αντί για μεγάλες."
-      ]
-    },
-    "ru": {
-      "name": "Тако с карнитас",
-      "origin": "Мексика · Мичоакан",
-      "intro": "Тако с карнитас — лепёшки с начинкой из медленно приготовленной свинины, нежной внутри и хрустящей по краям, посыпанные просто нарубленным белым луком, свежей кинзой и каплей лайма. Сальсу добавляют по вкусу. Это основа мексиканской уличной еды и такерий, их обычно едят по два-три за раз.",
-      "history": "Карнитас происходят из Мичоакана, а тако — самый распространённый способ их употребления по всей Мексике и в мексиканских ресторанах за рубежом.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 180,
-        "ingredients": [
-          "1 кг свиной лопатки, нарезанной кусками",
-          "12 маленьких лепёшек",
-          "1 белая луковица, мелко нарубленная",
-          "Пучок кинзы, нарубленной",
-          "2 лайма, нарезанных дольками",
-          "1 апельсин, 3 зубчика чеснока, 1 ч. л. зиры, 2 лавровых листа, соль",
-          "2 ст. л. растительного масла"
-        ],
-        "steps": [
-          "Положите свинину в кастрюлю с апельсиновым соком, чесноком, зирой, лавровым листом, солью и водой, чтобы покрыть наполовину; варите около 2 часов до мягкости, пока жидкость не выпарится.",
-          "Добавьте масло и дайте свинине обжариваться в собственном жире, переворачивая, до золотистого цвета и хруста по краям.",
-          "Разберите свинину на волокна или нарубите.",
-          "Прогрейте лепёшки на сухой сковороде.",
-          "Заполните свининой, посыпьте луком и кинзой и подавайте с лаймом."
-        ]
-      },
-      "tips": [
-        "Считайте тако: два тако с большим количеством лука и кинзы — сытная порция.",
-        "Хорошо обсушите свинину на бумаге перед заполнением лепёшек.",
-        "Берите маленькие лепёшки, а не большие."
-      ],
-      "name_inline": "тако с карнитас"
-    }
+  "ar": {
+   "name": "تاكو كارنيتاس",
+   "origin": "المكسيك · ميتشواكان",
+   "intro": "تاكو الكارنيتاس تورتيلا محشوة بلحم خنزير مطهو ببطء، طري من الداخل ومقرمش الأطراف، يُزيَّن ببساطة بالبصل الأبيض المفروم والكزبرة الطازجة وعصرة ليمون. تُضاف الصلصة حسب الرغبة. هو من أساسيات طعام الشارع المكسيكي ومطاعم التاكو، ويؤكل عادةً اثنين أو ثلاثة في المرة.",
+   "history": "تعود الكارنيتاس إلى ميتشواكان، والتاكو هو أشهر طريقة لتناولها في أنحاء المكسيك وفي المطاعم المكسيكية خارجها.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 كغ كتف خنزير مقطّع قطعًا",
+     "12 تورتيلا صغيرة",
+     "1 بصلة بيضاء مفرومة ناعمًا",
+     "حزمة كزبرة مفرومة",
+     "2 ليمونة مقطّعة شرائح",
+     "1 برتقالة و3 فصوص ثوم و1 ملعقة صغيرة كمون و2 ورقة غار وملح",
+     "2 ملعقة كبيرة زيت نباتي"
+    ],
+    "steps": [
+     "ضع اللحم في قدر مع عصير البرتقال والثوم والكمون وورق الغار والملح وماء يغطي نصفه، واتركه يغلي بهدوء نحو ساعتين حتى يطرى ويتبخر السائل.",
+     "أضف الزيت واترك اللحم يُقلى في دهنه مع التقليب حتى يصبح ذهبيًا مقرمش الأطراف.",
+     "مزّق اللحم أو افرمه.",
+     "سخّن التورتيلا في مقلاة جافة.",
+     "احشُها باللحم وزيّنها بالبصل والكزبرة وقدّمها مع الليمون."
+    ]
+   },
+   "tips": [
+    "احسب عدد قطع التاكو: قطعتان مع كثير من البصل والكزبرة حصة مشبعة.",
+    "صفِّ اللحم جيدًا على ورق قبل حشو التورتيلا.",
+    "استخدم تورتيلا صغيرة بدل الكبيرة."
+   ]
+  },
+  "it": {
+   "name": "Tacos di carnitas",
+   "origin": "Messico · Michoacán",
+   "intro": "I tacos di carnitas sono tortillas farcite con maiale cotto lentamente, tenero dentro e croccante ai bordi, completate semplicemente con cipolla bianca tritata, coriandolo fresco e una spruzzata di lime. La salsa si aggiunge a piacere. Sono un caposaldo dello street food messicano e delle taquerías, e di solito se ne mangiano due o tre alla volta.",
+   "name_inline": "tacos di carnitas",
+   "history": "Le carnitas sono originarie del Michoacán, e i tacos sono il modo più comune di mangiarle in tutto il Messico e nei ristoranti messicani all'estero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 kg di spalla di maiale a pezzi",
+     "12 tortillas piccole",
+     "1 cipolla bianca tritata finemente",
+     "Un mazzo di coriandolo tritato",
+     "2 lime tagliati a spicchi",
+     "1 arancia, 3 spicchi d'aglio, 1 cucchiaino di cumino, 2 foglie di alloro, sale",
+     "2 cucchiai di olio vegetale"
+    ],
+    "steps": [
+     "Metti il maiale in una pentola con il succo d'arancia, l'aglio, il cumino, l'alloro, il sale e acqua fino a coprirlo a metà; fai sobbollire circa 2 ore finché è tenero e il liquido è evaporato.",
+     "Aggiungi l'olio e lascia friggere il maiale nel suo grasso, girandolo, finché è dorato e croccante ai bordi.",
+     "Sfilaccia o trita il maiale.",
+     "Scalda le tortillas in una padella asciutta.",
+     "Farciscile con il maiale, completa con cipolla e coriandolo e servi con il lime."
+    ]
+   },
+   "tips": [
+    "Conta i tacos: due tacos con abbondante cipolla e coriandolo sono una porzione soddisfacente.",
+    "Scola bene il maiale su carta assorbente prima di farcire le tortillas.",
+    "Usa tortillas piccole invece di quelle grandi."
+   ]
+  },
+  "el": {
+   "name": "Τάκος με καρνίτας",
+   "origin": "Μεξικό · Μιτσοακάν",
+   "intro": "Τα τάκος με καρνίτας είναι τορτίγιες γεμισμένες με αργομαγειρεμένο χοιρινό, τρυφερό μέσα και τραγανό στις άκρες, με απλώς ψιλοκομμένο λευκό κρεμμύδι, φρέσκο κόλιανδρο και λίγο χυμό λάιμ από πάνω. Η σάλσα προστίθεται κατά βούληση. Είναι βασικό στοιχείο του μεξικανικού φαγητού του δρόμου και των τακερίας, και συνήθως τρώγονται δύο ή τρία τη φορά.",
+   "history": "Τα καρνίτας κατάγονται από το Μιτσοακάν, και τα τάκος είναι ο πιο συνηθισμένος τρόπος να τρώγονται σε όλο το Μεξικό και στα μεξικανικά εστιατόρια του εξωτερικού.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 κιλό χοιρινή σπάλα, σε κομμάτια",
+     "12 μικρές τορτίγιες",
+     "1 λευκό κρεμμύδι, ψιλοκομμένο",
+     "Ένα ματσάκι κόλιανδρος, ψιλοκομμένος",
+     "2 λάιμ, σε κομμάτια",
+     "1 πορτοκάλι, 3 σκελίδες σκόρδο, 1 κ.γ. κύμινο, 2 φύλλα δάφνης, αλάτι",
+     "2 κ.σ. φυτικό λάδι"
+    ],
+    "steps": [
+     "Βάλτε το χοιρινό σε κατσαρόλα με τον χυμό πορτοκαλιού, το σκόρδο, το κύμινο, τη δάφνη, το αλάτι και νερό ώστε να το καλύπτει μέχρι τη μέση· σιγοβράστε περίπου 2 ώρες μέχρι να μαλακώσει και να εξατμιστεί το υγρό.",
+     "Προσθέστε το λάδι και αφήστε το χοιρινό να τηγανιστεί στο λίπος του, γυρίζοντάς το, μέχρι να ροδίσει και να γίνει τραγανό στις άκρες.",
+     "Ξεφτίστε ή ψιλοκόψτε το χοιρινό.",
+     "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
+     "Γεμίστε με χοιρινό, προσθέστε κρεμμύδι και κόλιανδρο και σερβίρετε με λάιμ."
+    ]
+   },
+   "tips": [
+    "Μετρήστε τα τάκος σας: δύο τάκος με άφθονο κρεμμύδι και κόλιανδρο είναι μια χορταστική μερίδα.",
+    "Στραγγίξτε καλά το χοιρινό σε χαρτί πριν γεμίσετε τις τορτίγιες.",
+    "Χρησιμοποιήστε μικρές τορτίγιες αντί για μεγάλες."
+   ]
+  },
+  "ru": {
+   "name": "Тако с карнитас",
+   "origin": "Мексика · Мичоакан",
+   "intro": "Тако с карнитас — лепёшки с начинкой из медленно приготовленной свинины, нежной внутри и хрустящей по краям, посыпанные просто нарубленным белым луком, свежей кинзой и каплей лайма. Сальсу добавляют по вкусу. Это основа мексиканской уличной еды и такерий, их обычно едят по два-три за раз.",
+   "history": "Карнитас происходят из Мичоакана, а тако — самый распространённый способ их употребления по всей Мексике и в мексиканских ресторанах за рубежом.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 кг свиной лопатки, нарезанной кусками",
+     "12 маленьких лепёшек",
+     "1 белая луковица, мелко нарубленная",
+     "Пучок кинзы, нарубленной",
+     "2 лайма, нарезанных дольками",
+     "1 апельсин, 3 зубчика чеснока, 1 ч. л. зиры, 2 лавровых листа, соль",
+     "2 ст. л. растительного масла"
+    ],
+    "steps": [
+     "Положите свинину в кастрюлю с апельсиновым соком, чесноком, зирой, лавровым листом, солью и водой, чтобы покрыть наполовину; варите около 2 часов до мягкости, пока жидкость не выпарится.",
+     "Добавьте масло и дайте свинине обжариваться в собственном жире, переворачивая, до золотистого цвета и хруста по краям.",
+     "Разберите свинину на волокна или нарубите.",
+     "Прогрейте лепёшки на сухой сковороде.",
+     "Заполните свининой, посыпьте луком и кинзой и подавайте с лаймом."
+    ]
+   },
+   "tips": [
+    "Считайте тако: два тако с большим количеством лука и кинзы — сытная порция.",
+    "Хорошо обсушите свинину на бумаге перед заполнением лепёшек.",
+    "Берите маленькие лепёшки, а не большие."
+   ],
+   "name_inline": "тако с карнитас"
+  },
+  "es": {
+   "name": "Tacos de carnitas",
+   "origin": "México · Michoacán",
+   "intro": "Los tacos de carnitas son tortillas rellenas de cerdo cocido despacio, tierno por dentro y crujiente en los bordes, cubiertos sencillamente con cebolla blanca picada, cilantro fresco y un chorrito de limón. La salsa se añade al gusto. Son un clásico de la comida callejera y las taquerías de México, y normalmente se comen de dos o tres a la vez.",
+   "history": "Las carnitas son originarias de Michoacán, y los tacos son la forma más común de comerlas en todo México y en los restaurantes mexicanos del extranjero.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 180,
+    "ingredients": [
+     "1 kg de paleta de cerdo, en trozos",
+     "12 tortillas pequeñas",
+     "1 cebolla blanca, finamente picada",
+     "Un manojo de cilantro, picado",
+     "2 limones, en gajos",
+     "1 naranja, 3 dientes de ajo, 1 cdta. de comino, 2 hojas de laurel, sal",
+     "2 cda. de aceite vegetal"
+    ],
+    "steps": [
+     "Pon el cerdo en una olla con el jugo de naranja, el ajo, el comino, el laurel, la sal y agua hasta cubrir la mitad; cocina a fuego lento unas 2 horas hasta que esté tierno y el líquido se haya evaporado.",
+     "Añade el aceite y deja que el cerdo se fría en su propia grasa, volteándolo, hasta que esté dorado y crujiente en los bordes.",
+     "Deshebra o pica el cerdo.",
+     "Calienta las tortillas en una sartén seca.",
+     "Rellénalas con el cerdo, cubre con cebolla y cilantro y sirve con limón."
+    ]
+   },
+   "tips": [
+    "Cuenta tus tacos: dos tacos con mucha cebolla y cilantro son una porción satisfactoria.",
+    "Escurre bien el cerdo sobre papel antes de rellenar las tortillas.",
+    "Usa tortillas pequeñas en lugar de grandes."
+   ],
+   "name_inline": "los tacos de carnitas"
   }
+ }
 }

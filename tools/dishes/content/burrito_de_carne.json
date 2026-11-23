@@ -1,187 +1,222 @@
 {
-  "db_key": "burrito_de_carne",
-  "slug": "burrito-de-carne",
-  "emoji": "🌯",
-  "portion_g": 300,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "burrito_de_carne",
+ "slug": "burrito-de-carne",
+ "emoji": "🌯",
+ "portion_g": 300,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Burrito de carne",
+   "origin": "Mexico · Northern Mexico",
+   "intro": "Burrito de carne is a flour tortilla rolled around seasoned beef, rice, beans, cheese, tomato salsa and creamy guacamole. The beef is the star, cooked with onion, garlic and cumin until savoury and tender, while the guacamole and salsa add freshness. It is a hearty, hand-held meal, often toasted so the tortilla turns lightly crisp.",
+   "history": "Burritos are associated with northern Mexico, especially Chihuahua and Sonora, where wheat flour tortillas are common. Beef-filled versions are typical of the cattle-raising north and spread widely through Mexican-American cooking in the United States.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "4 large flour tortillas",
+     "150 g long-grain rice",
+     "500 g beef steak, finely diced",
+     "1 onion and 2 garlic cloves, chopped",
+     "1 tsp ground cumin",
+     "300 g cooked pinto beans",
+     "80 g grated cheese",
+     "150 g tomato salsa",
+     "1 ripe avocado mashed with lime juice and salt (guacamole)",
+     "1 tbsp vegetable oil, salt and pepper"
+    ],
+    "steps": [
+     "Cook the rice. Brown the beef with onion, garlic, cumin, salt and pepper for 8–10 minutes.",
+     "Warm the beans with a splash of water and lightly mash some of them.",
+     "Warm the tortillas in a dry pan so they fold without tearing.",
+     "Lay out each tortilla and fill the centre with rice, beans, beef, cheese, salsa and guacamole.",
+     "Fold in the sides, roll up tightly and toast seam-side down in the pan for 1–2 minutes per side."
+    ]
+   },
+   "tips": [
+    "Use lean beef such as sirloin and trim fat before dicing.",
+    "Halve the cheese and keep the guacamole to 1–2 tbsp per burrito, since avocado is energy-dense.",
+    "Choose a smaller tortilla and add lettuce and peppers for volume."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Burrito de carne",
-      "origin": "Mexico · Northern Mexico",
-      "intro": "Burrito de carne is a flour tortilla rolled around seasoned beef, rice, beans, cheese, tomato salsa and creamy guacamole. The beef is the star, cooked with onion, garlic and cumin until savoury and tender, while the guacamole and salsa add freshness. It is a hearty, hand-held meal, often toasted so the tortilla turns lightly crisp.",
-      "history": "Burritos are associated with northern Mexico, especially Chihuahua and Sonora, where wheat flour tortillas are common. Beef-filled versions are typical of the cattle-raising north and spread widely through Mexican-American cooking in the United States.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "4 large flour tortillas",
-          "150 g long-grain rice",
-          "500 g beef steak, finely diced",
-          "1 onion and 2 garlic cloves, chopped",
-          "1 tsp ground cumin",
-          "300 g cooked pinto beans",
-          "80 g grated cheese",
-          "150 g tomato salsa",
-          "1 ripe avocado mashed with lime juice and salt (guacamole)",
-          "1 tbsp vegetable oil, salt and pepper"
-        ],
-        "steps": [
-          "Cook the rice. Brown the beef with onion, garlic, cumin, salt and pepper for 8–10 minutes.",
-          "Warm the beans with a splash of water and lightly mash some of them.",
-          "Warm the tortillas in a dry pan so they fold without tearing.",
-          "Lay out each tortilla and fill the centre with rice, beans, beef, cheese, salsa and guacamole.",
-          "Fold in the sides, roll up tightly and toast seam-side down in the pan for 1–2 minutes per side."
-        ]
-      },
-      "tips": [
-        "Use lean beef such as sirloin and trim fat before dicing.",
-        "Halve the cheese and keep the guacamole to 1–2 tbsp per burrito, since avocado is energy-dense.",
-        "Choose a smaller tortilla and add lettuce and peppers for volume."
-      ]
-    },
-    "ar": {
-      "name": "بوريتو باللحم البقري (بوريتو دي كارني)",
-      "origin": "المكسيك · شمال المكسيك",
-      "intro": "بوريتو دي كارني تورتيلا من الدقيق تُلف حول لحم بقري متبّل وأرز وفاصوليا وجبن وسالسا طماطم وغواكامولي كريمي. اللحم هو البطل، يُطهى مع البصل والثوم والكمون حتى يصبح طريًا ولذيذًا، بينما يضيف الغواكامولي والسالسا الانتعاش. وهو وجبة مشبعة تؤكل باليد، وغالبًا تُحمَّص لتصبح التورتيلا مقرمشة قليلًا.",
-      "history": "يرتبط البوريتو بشمال المكسيك، وخاصة ولايتي تشيواوا وسونورا حيث تنتشر تورتيلا القمح. والنسخ المحشوة باللحم البقري نموذجية لشمال البلاد المعروف بتربية المواشي، وقد انتشرت على نطاق واسع عبر المطبخ المكسيكي الأمريكي في الولايات المتحدة.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "4 تورتيلا دقيق كبيرة",
-          "150 غ أرز طويل الحبة",
-          "500 غ ستيك بقري مقطع مكعبات صغيرة",
-          "بصلة وفصّا ثوم مفرومة",
-          "ملعقة صغيرة كمون مطحون",
-          "300 غ فاصوليا بينتو مطبوخة",
-          "80 غ جبن مبشور",
-          "150 غ سالسا طماطم",
-          "حبة أفوكادو ناضجة مهروسة مع عصير الليمون والملح (غواكامولي)",
-          "ملعقة كبيرة زيت نباتي، ملح وفلفل"
-        ],
-        "steps": [
-          "اطبخ الأرز. حمّر اللحم مع البصل والثوم والكمون والملح والفلفل 8–10 دقائق.",
-          "سخّن الفاصوليا مع قليل من الماء واهرس جزءًا منها.",
-          "سخّن التورتيلا في مقلاة جافة لتنطوي دون أن تتمزق.",
-          "افرد كل تورتيلا واملأ وسطها بالأرز والفاصوليا واللحم والجبن والسالسا والغواكامولي.",
-          "اطوِ الجانبين ولفّها بإحكام، ثم حمّصها في المقلاة 1–2 دقيقة لكل جانب بدءًا من جهة الطيّة."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا قليل الدهن مثل السرلوين وأزل الدهن قبل التقطيع.",
-        "قلّل الجبن إلى النصف واكتفِ بملعقة أو ملعقتين كبيرتين من الغواكامولي لكل بوريتو، فالأفوكادو غني بالطاقة.",
-        "اختر تورتيلا أصغر وأضف الخس والفلفل لزيادة الحجم."
-      ]
-    },
-    "it": {
-      "name": "Burrito de carne",
-      "origin": "Messico · Messico settentrionale",
-      "intro": "Il burrito de carne è una tortilla di farina di frumento arrotolata attorno a manzo speziato, riso, fagioli, formaggio, salsa di pomodoro e guacamole cremoso. La protagonista è la carne, cotta con cipolla, aglio e cumino finché è saporita e tenera, mentre guacamole e salsa aggiungono freschezza. È un pasto sostanzioso da mangiare con le mani, spesso tostato perché la tortilla diventi leggermente croccante.",
-      "history": "I burritos sono associati al Messico settentrionale, in particolare a Chihuahua e Sonora, dove le tortillas di farina di frumento sono comuni. Le versioni ripiene di manzo sono tipiche del nord dedito all'allevamento e si sono diffuse ampiamente attraverso la cucina messicano-americana negli Stati Uniti.",
-      "name_inline": "burrito de carne",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "4 tortillas grandi di farina di frumento",
-          "150 g di riso a chicco lungo",
-          "500 g di bistecca di manzo a dadini piccoli",
-          "1 cipolla e 2 spicchi d'aglio tritati",
-          "1 cucchiaino di cumino in polvere",
-          "300 g di fagioli pinto cotti",
-          "80 g di formaggio grattugiato",
-          "150 g di salsa di pomodoro fresca (salsa messicana)",
-          "1 avocado maturo schiacciato con succo di lime e sale (guacamole)",
-          "1 cucchiaio di olio vegetale, sale e pepe"
-        ],
-        "steps": [
-          "Cuoci il riso. Rosola il manzo con cipolla, aglio, cumino, sale e pepe per 8–10 minuti.",
-          "Scalda i fagioli con un goccio d'acqua e schiacciane leggermente una parte.",
-          "Scalda le tortillas in una padella asciutta, così si piegano senza rompersi.",
-          "Stendi ogni tortilla e riempi il centro con riso, fagioli, manzo, formaggio, salsa e guacamole.",
-          "Ripiega i lati verso l'interno, arrotola stretto e tosta in padella con la chiusura verso il basso per 1–2 minuti per lato."
-        ]
-      },
-      "tips": [
-        "Usa manzo magro come il controfiletto ed elimina il grasso prima di tagliarlo a dadini.",
-        "Dimezza il formaggio e limita il guacamole a 1–2 cucchiai per burrito, perché l'avocado è molto energetico.",
-        "Scegli una tortilla più piccola e aggiungi lattuga e peperoni per dare volume."
-      ]
-    },
-    "el": {
-      "name": "Μπουρίτο ντε κάρνε",
-      "origin": "Μεξικό · Βόρειο Μεξικό",
-      "intro": "Το burrito de carne είναι τορτίγια από αλεύρι σίτου τυλιγμένη γύρω από καρυκευμένο μοσχάρι, ρύζι, φασόλια, τυρί, σάλσα ντομάτας και κρεμώδες γουακαμόλε. Πρωταγωνιστής είναι το μοσχάρι, μαγειρεμένο με κρεμμύδι, σκόρδο και κύμινο μέχρι να γίνει νόστιμο και τρυφερό, ενώ το γουακαμόλε και η σάλσα προσθέτουν φρεσκάδα. Είναι χορταστικό γεύμα που τρώγεται με το χέρι, συχνά ψημένο ώστε η τορτίγια να γίνει ελαφρά τραγανή.",
-      "history": "Τα μπουρίτο συνδέονται με το βόρειο Μεξικό, ιδίως την Τσιουάουα και τη Σονόρα, όπου οι τορτίγιες από αλεύρι σίτου είναι συνηθισμένες. Οι εκδοχές με μοσχάρι είναι χαρακτηριστικές του κτηνοτροφικού βορρά και διαδόθηκαν ευρέως μέσω της μεξικανοαμερικανικής κουζίνας στις Ηνωμένες Πολιτείες.",
-      "name_inline": "μπουρίτο ντε κάρνε",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "4 μεγάλες τορτίγιες αλευριού",
-          "150 γρ. ρύζι μακρύκοκκο",
-          "500 γρ. μοσχαρίσια μπριζόλα, σε πολύ μικρά κυβάκια",
-          "1 κρεμμύδι και 2 σκελίδες σκόρδο, ψιλοκομμένα",
-          "1 κ.γ. κύμινο",
-          "300 γρ. βρασμένα φασόλια πίντο",
-          "80 γρ. τριμμένο τυρί",
-          "150 γρ. σάλσα ντομάτας",
-          "1 ώριμο αβοκάντο λιωμένο με χυμό λάιμ και αλάτι (γουακαμόλε)",
-          "1 κ.σ. φυτικό λάδι, αλάτι και πιπέρι"
-        ],
-        "steps": [
-          "Μαγειρέψτε το ρύζι. Σοτάρετε το μοσχάρι με κρεμμύδι, σκόρδο, κύμινο, αλάτι και πιπέρι για 8–10 λεπτά.",
-          "Ζεστάνετε τα φασόλια με λίγο νερό και λιώστε ελαφρά ένα μέρος τους.",
-          "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι ώστε να διπλώνουν χωρίς να σκίζονται.",
-          "Απλώστε κάθε τορτίγια και γεμίστε το κέντρο με ρύζι, φασόλια, μοσχάρι, τυρί, σάλσα και γουακαμόλε.",
-          "Διπλώστε τις πλευρές προς τα μέσα, τυλίξτε σφιχτά και ψήστε στο τηγάνι με τη ραφή προς τα κάτω για 1–2 λεπτά από κάθε πλευρά."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχάρι όπως κόντρα φιλέτο και αφαιρέστε το λίπος πριν το κόψετε.",
-        "Μειώστε στο μισό το τυρί και περιορίστε το γουακαμόλε σε 1–2 κ.σ. ανά μπουρίτο, αφού το αβοκάντο έχει πολλή ενέργεια.",
-        "Διαλέξτε μικρότερη τορτίγια και προσθέστε μαρούλι και πιπεριές για όγκο."
-      ]
-    },
-    "ru": {
-      "name": "Буррито де карне",
-      "origin": "Мексика · Северная Мексика",
-      "intro": "Буррито де карне — пшеничная лепёшка, свёрнутая вокруг приправленной говядины, риса, фасоли, сыра, томатной сальсы и кремового гуакамоле. Говядина здесь главная звезда: её готовят с луком, чесноком и зирой до пикантной нежности, а гуакамоле и сальса добавляют свежести. Это сытная еда, которую едят руками, часто подсушенная, чтобы лепёшка слегка хрустела.",
-      "history": "Буррито связывают с севером Мексики, особенно с Чиуауа и Соноро, где распространены пшеничные лепёшки. Версии с говядиной характерны для скотоводческого севера и широко распространились в мексикано-американской кухне в Соединённых Штатах.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "4 большие пшеничные лепёшки",
-          "150 г длиннозёрного риса",
-          "500 г говяжьего стейка, мелко нарезанного",
-          "1 луковица и 2 зубчика чеснока, нарубленные",
-          "1 ч. л. молотой зиры",
-          "300 г отварной фасоли пинто",
-          "80 г тёртого сыра",
-          "150 г томатной сальсы",
-          "1 спелый авокадо, размятый с соком лайма и солью (гуакамоле)",
-          "1 ст. л. растительного масла, соль и перец"
-        ],
-        "steps": [
-          "Отварите рис. Обжарьте говядину с луком, чесноком, зирой, солью и перцем 8–10 минут.",
-          "Прогрейте фасоль с небольшим количеством воды и слегка разомните часть.",
-          "Прогрейте лепёшки на сухой сковороде, чтобы они сворачивались без разрывов.",
-          "Разложите каждую лепёшку и выложите в центр рис, фасоль, говядину, сыр, сальсу и гуакамоле.",
-          "Подверните края, плотно сверните и подсушите швом вниз на сковороде по 1–2 минуты с каждой стороны."
-        ]
-      },
-      "tips": [
-        "Берите постную говядину, например вырезку, и срезайте жир перед нарезкой.",
-        "Сократите сыр вдвое и ограничьте гуакамоле 1–2 ст. л. на буррито, так как авокадо калорийно.",
-        "Выберите лепёшку поменьше и добавьте салат и перцы для объёма."
-      ],
-      "name_inline": "буррито де карне"
-    }
+  "ar": {
+   "name": "بوريتو باللحم البقري (بوريتو دي كارني)",
+   "origin": "المكسيك · شمال المكسيك",
+   "intro": "بوريتو دي كارني تورتيلا من الدقيق تُلف حول لحم بقري متبّل وأرز وفاصوليا وجبن وسالسا طماطم وغواكامولي كريمي. اللحم هو البطل، يُطهى مع البصل والثوم والكمون حتى يصبح طريًا ولذيذًا، بينما يضيف الغواكامولي والسالسا الانتعاش. وهو وجبة مشبعة تؤكل باليد، وغالبًا تُحمَّص لتصبح التورتيلا مقرمشة قليلًا.",
+   "history": "يرتبط البوريتو بشمال المكسيك، وخاصة ولايتي تشيواوا وسونورا حيث تنتشر تورتيلا القمح. والنسخ المحشوة باللحم البقري نموذجية لشمال البلاد المعروف بتربية المواشي، وقد انتشرت على نطاق واسع عبر المطبخ المكسيكي الأمريكي في الولايات المتحدة.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "4 تورتيلا دقيق كبيرة",
+     "150 غ أرز طويل الحبة",
+     "500 غ ستيك بقري مقطع مكعبات صغيرة",
+     "بصلة وفصّا ثوم مفرومة",
+     "ملعقة صغيرة كمون مطحون",
+     "300 غ فاصوليا بينتو مطبوخة",
+     "80 غ جبن مبشور",
+     "150 غ سالسا طماطم",
+     "حبة أفوكادو ناضجة مهروسة مع عصير الليمون والملح (غواكامولي)",
+     "ملعقة كبيرة زيت نباتي، ملح وفلفل"
+    ],
+    "steps": [
+     "اطبخ الأرز. حمّر اللحم مع البصل والثوم والكمون والملح والفلفل 8–10 دقائق.",
+     "سخّن الفاصوليا مع قليل من الماء واهرس جزءًا منها.",
+     "سخّن التورتيلا في مقلاة جافة لتنطوي دون أن تتمزق.",
+     "افرد كل تورتيلا واملأ وسطها بالأرز والفاصوليا واللحم والجبن والسالسا والغواكامولي.",
+     "اطوِ الجانبين ولفّها بإحكام، ثم حمّصها في المقلاة 1–2 دقيقة لكل جانب بدءًا من جهة الطيّة."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا قليل الدهن مثل السرلوين وأزل الدهن قبل التقطيع.",
+    "قلّل الجبن إلى النصف واكتفِ بملعقة أو ملعقتين كبيرتين من الغواكامولي لكل بوريتو، فالأفوكادو غني بالطاقة.",
+    "اختر تورتيلا أصغر وأضف الخس والفلفل لزيادة الحجم."
+   ]
+  },
+  "it": {
+   "name": "Burrito de carne",
+   "origin": "Messico · Messico settentrionale",
+   "intro": "Il burrito de carne è una tortilla di farina di frumento arrotolata attorno a manzo speziato, riso, fagioli, formaggio, salsa di pomodoro e guacamole cremoso. La protagonista è la carne, cotta con cipolla, aglio e cumino finché è saporita e tenera, mentre guacamole e salsa aggiungono freschezza. È un pasto sostanzioso da mangiare con le mani, spesso tostato perché la tortilla diventi leggermente croccante.",
+   "history": "I burritos sono associati al Messico settentrionale, in particolare a Chihuahua e Sonora, dove le tortillas di farina di frumento sono comuni. Le versioni ripiene di manzo sono tipiche del nord dedito all'allevamento e si sono diffuse ampiamente attraverso la cucina messicano-americana negli Stati Uniti.",
+   "name_inline": "burrito de carne",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "4 tortillas grandi di farina di frumento",
+     "150 g di riso a chicco lungo",
+     "500 g di bistecca di manzo a dadini piccoli",
+     "1 cipolla e 2 spicchi d'aglio tritati",
+     "1 cucchiaino di cumino in polvere",
+     "300 g di fagioli pinto cotti",
+     "80 g di formaggio grattugiato",
+     "150 g di salsa di pomodoro fresca (salsa messicana)",
+     "1 avocado maturo schiacciato con succo di lime e sale (guacamole)",
+     "1 cucchiaio di olio vegetale, sale e pepe"
+    ],
+    "steps": [
+     "Cuoci il riso. Rosola il manzo con cipolla, aglio, cumino, sale e pepe per 8–10 minuti.",
+     "Scalda i fagioli con un goccio d'acqua e schiacciane leggermente una parte.",
+     "Scalda le tortillas in una padella asciutta, così si piegano senza rompersi.",
+     "Stendi ogni tortilla e riempi il centro con riso, fagioli, manzo, formaggio, salsa e guacamole.",
+     "Ripiega i lati verso l'interno, arrotola stretto e tosta in padella con la chiusura verso il basso per 1–2 minuti per lato."
+    ]
+   },
+   "tips": [
+    "Usa manzo magro come il controfiletto ed elimina il grasso prima di tagliarlo a dadini.",
+    "Dimezza il formaggio e limita il guacamole a 1–2 cucchiai per burrito, perché l'avocado è molto energetico.",
+    "Scegli una tortilla più piccola e aggiungi lattuga e peperoni per dare volume."
+   ]
+  },
+  "el": {
+   "name": "Μπουρίτο ντε κάρνε",
+   "origin": "Μεξικό · Βόρειο Μεξικό",
+   "intro": "Το burrito de carne είναι τορτίγια από αλεύρι σίτου τυλιγμένη γύρω από καρυκευμένο μοσχάρι, ρύζι, φασόλια, τυρί, σάλσα ντομάτας και κρεμώδες γουακαμόλε. Πρωταγωνιστής είναι το μοσχάρι, μαγειρεμένο με κρεμμύδι, σκόρδο και κύμινο μέχρι να γίνει νόστιμο και τρυφερό, ενώ το γουακαμόλε και η σάλσα προσθέτουν φρεσκάδα. Είναι χορταστικό γεύμα που τρώγεται με το χέρι, συχνά ψημένο ώστε η τορτίγια να γίνει ελαφρά τραγανή.",
+   "history": "Τα μπουρίτο συνδέονται με το βόρειο Μεξικό, ιδίως την Τσιουάουα και τη Σονόρα, όπου οι τορτίγιες από αλεύρι σίτου είναι συνηθισμένες. Οι εκδοχές με μοσχάρι είναι χαρακτηριστικές του κτηνοτροφικού βορρά και διαδόθηκαν ευρέως μέσω της μεξικανοαμερικανικής κουζίνας στις Ηνωμένες Πολιτείες.",
+   "name_inline": "μπουρίτο ντε κάρνε",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "4 μεγάλες τορτίγιες αλευριού",
+     "150 γρ. ρύζι μακρύκοκκο",
+     "500 γρ. μοσχαρίσια μπριζόλα, σε πολύ μικρά κυβάκια",
+     "1 κρεμμύδι και 2 σκελίδες σκόρδο, ψιλοκομμένα",
+     "1 κ.γ. κύμινο",
+     "300 γρ. βρασμένα φασόλια πίντο",
+     "80 γρ. τριμμένο τυρί",
+     "150 γρ. σάλσα ντομάτας",
+     "1 ώριμο αβοκάντο λιωμένο με χυμό λάιμ και αλάτι (γουακαμόλε)",
+     "1 κ.σ. φυτικό λάδι, αλάτι και πιπέρι"
+    ],
+    "steps": [
+     "Μαγειρέψτε το ρύζι. Σοτάρετε το μοσχάρι με κρεμμύδι, σκόρδο, κύμινο, αλάτι και πιπέρι για 8–10 λεπτά.",
+     "Ζεστάνετε τα φασόλια με λίγο νερό και λιώστε ελαφρά ένα μέρος τους.",
+     "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι ώστε να διπλώνουν χωρίς να σκίζονται.",
+     "Απλώστε κάθε τορτίγια και γεμίστε το κέντρο με ρύζι, φασόλια, μοσχάρι, τυρί, σάλσα και γουακαμόλε.",
+     "Διπλώστε τις πλευρές προς τα μέσα, τυλίξτε σφιχτά και ψήστε στο τηγάνι με τη ραφή προς τα κάτω για 1–2 λεπτά από κάθε πλευρά."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχάρι όπως κόντρα φιλέτο και αφαιρέστε το λίπος πριν το κόψετε.",
+    "Μειώστε στο μισό το τυρί και περιορίστε το γουακαμόλε σε 1–2 κ.σ. ανά μπουρίτο, αφού το αβοκάντο έχει πολλή ενέργεια.",
+    "Διαλέξτε μικρότερη τορτίγια και προσθέστε μαρούλι και πιπεριές για όγκο."
+   ]
+  },
+  "ru": {
+   "name": "Буррито де карне",
+   "origin": "Мексика · Северная Мексика",
+   "intro": "Буррито де карне — пшеничная лепёшка, свёрнутая вокруг приправленной говядины, риса, фасоли, сыра, томатной сальсы и кремового гуакамоле. Говядина здесь главная звезда: её готовят с луком, чесноком и зирой до пикантной нежности, а гуакамоле и сальса добавляют свежести. Это сытная еда, которую едят руками, часто подсушенная, чтобы лепёшка слегка хрустела.",
+   "history": "Буррито связывают с севером Мексики, особенно с Чиуауа и Соноро, где распространены пшеничные лепёшки. Версии с говядиной характерны для скотоводческого севера и широко распространились в мексикано-американской кухне в Соединённых Штатах.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "4 большие пшеничные лепёшки",
+     "150 г длиннозёрного риса",
+     "500 г говяжьего стейка, мелко нарезанного",
+     "1 луковица и 2 зубчика чеснока, нарубленные",
+     "1 ч. л. молотой зиры",
+     "300 г отварной фасоли пинто",
+     "80 г тёртого сыра",
+     "150 г томатной сальсы",
+     "1 спелый авокадо, размятый с соком лайма и солью (гуакамоле)",
+     "1 ст. л. растительного масла, соль и перец"
+    ],
+    "steps": [
+     "Отварите рис. Обжарьте говядину с луком, чесноком, зирой, солью и перцем 8–10 минут.",
+     "Прогрейте фасоль с небольшим количеством воды и слегка разомните часть.",
+     "Прогрейте лепёшки на сухой сковороде, чтобы они сворачивались без разрывов.",
+     "Разложите каждую лепёшку и выложите в центр рис, фасоль, говядину, сыр, сальсу и гуакамоле.",
+     "Подверните края, плотно сверните и подсушите швом вниз на сковороде по 1–2 минуты с каждой стороны."
+    ]
+   },
+   "tips": [
+    "Берите постную говядину, например вырезку, и срезайте жир перед нарезкой.",
+    "Сократите сыр вдвое и ограничьте гуакамоле 1–2 ст. л. на буррито, так как авокадо калорийно.",
+    "Выберите лепёшку поменьше и добавьте салат и перцы для объёма."
+   ],
+   "name_inline": "буррито де карне"
+  },
+  "es": {
+   "name": "Burrito de carne",
+   "origin": "México · Norte de México",
+   "intro": "El burrito de carne es una tortilla de harina enrollada alrededor de carne de res sazonada, arroz, frijoles, queso, salsa de jitomate y cremoso guacamole. La carne es la protagonista, cocinada con cebolla, ajo y comino hasta quedar sabrosa y tierna, mientras el guacamole y la salsa aportan frescura. Es una comida contundente que se come con la mano, a menudo dorada para que la tortilla quede ligeramente crujiente.",
+   "history": "Los burritos se asocian con el norte de México, sobre todo con Chihuahua y Sonora, donde son comunes las tortillas de harina de trigo. Las versiones rellenas de carne son típicas del norte ganadero y se difundieron ampliamente en la cocina méxico-americana de Estados Unidos.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "4 tortillas de harina grandes",
+     "150 g de arroz de grano largo",
+     "500 g de bistec de res, en cubitos finos",
+     "1 cebolla y 2 dientes de ajo, picados",
+     "1 cdta. de comino molido",
+     "300 g de frijoles pintos cocidos",
+     "80 g de queso rallado",
+     "150 g de salsa de jitomate",
+     "1 aguacate maduro machacado con jugo de limón y sal (guacamole)",
+     "1 cda. de aceite vegetal, sal y pimienta"
+    ],
+    "steps": [
+     "Cuece el arroz. Dora la carne con la cebolla, el ajo, el comino, la sal y la pimienta de 8 a 10 minutos.",
+     "Calienta los frijoles con un chorrito de agua y machaca ligeramente una parte.",
+     "Calienta las tortillas en una sartén seca para que se doblen sin romperse.",
+     "Extiende cada tortilla y rellena el centro con arroz, frijoles, carne, queso, salsa y guacamole.",
+     "Dobla los lados, enrolla con firmeza y dora con el doblez hacia abajo en la sartén de 1 a 2 minutos por lado."
+    ]
+   },
+   "tips": [
+    "Usa carne magra, como solomillo, y quita la grasa antes de cortarla en cubitos.",
+    "Reduce el queso a la mitad y limita el guacamole a 1–2 cda. por burrito, ya que el aguacate es muy energético.",
+    "Elige una tortilla más pequeña y añade lechuga y pimientos para dar volumen."
+   ],
+   "name_inline": "el burrito de carne"
   }
+ }
 }

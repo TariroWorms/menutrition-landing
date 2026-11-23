@@ -1,176 +1,209 @@
 {
-  "db_key": "tamales",
-  "slug": "tamales",
-  "emoji": "🫔",
-  "portion_g": 200,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tamales",
+ "slug": "tamales",
+ "emoji": "🫔",
+ "portion_g": 200,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Pork Tamales",
+   "origin": "Mexico",
+   "intro": "Tamales are parcels of corn masa dough wrapped around a filling and steamed inside dried corn husks. This classic version is filled with tender shredded pork simmered in red chili sauce. The masa turns soft and fluffy while the filling stays juicy and gently spicy. They are unwrapped at the table and eaten warm, often at breakfast, holidays and family gatherings.",
+   "history": "Tamales date back to pre-Columbian Mesoamerica, where corn dough cooked in leaves was eaten long before the Spanish arrived. Pork became a common filling after the conquest, and today tamales are a festive staple across Mexico, especially around Christmas and Candelaria in early February.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "500 g masa harina (nixtamalised corn)",
+     "600 ml warm stock or water",
+     "80 ml neutral oil",
+     "1 tsp salt",
+     "1 tsp baking powder",
+     "500 g pork shoulder",
+     "300 ml red chili sauce",
+     "18 dried corn husks"
+    ],
+    "steps": [
+     "Soak the corn husks in hot water for 30 minutes until pliable.",
+     "Simmer the pork in salted water for about 1.5 hours until tender, then shred it and mix with the chili sauce.",
+     "Beat the masa harina with oil, salt, baking powder and warm stock into a soft, spreadable dough.",
+     "Spread 2–3 tbsp of masa on each husk, add a spoonful of pork, fold the sides in and the bottom up.",
+     "Stand the tamales upright in a steamer and steam for 60–75 minutes, until the dough pulls away from the husk."
+    ]
+   },
+   "tips": [
+    "Trim visible fat from the pork before simmering to keep the filling leaner.",
+    "Use less oil in the masa: 1 tbsp oil ≈ 120 kcal.",
+    "Pair one or two tamales with a fresh salad or salsa instead of rice and beans."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Pork Tamales",
-      "origin": "Mexico",
-      "intro": "Tamales are parcels of corn masa dough wrapped around a filling and steamed inside dried corn husks. This classic version is filled with tender shredded pork simmered in red chili sauce. The masa turns soft and fluffy while the filling stays juicy and gently spicy. They are unwrapped at the table and eaten warm, often at breakfast, holidays and family gatherings.",
-      "history": "Tamales date back to pre-Columbian Mesoamerica, where corn dough cooked in leaves was eaten long before the Spanish arrived. Pork became a common filling after the conquest, and today tamales are a festive staple across Mexico, especially around Christmas and Candelaria in early February.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "500 g masa harina (nixtamalised corn)",
-          "600 ml warm stock or water",
-          "80 ml neutral oil",
-          "1 tsp salt",
-          "1 tsp baking powder",
-          "500 g pork shoulder",
-          "300 ml red chili sauce",
-          "18 dried corn husks"
-        ],
-        "steps": [
-          "Soak the corn husks in hot water for 30 minutes until pliable.",
-          "Simmer the pork in salted water for about 1.5 hours until tender, then shred it and mix with the chili sauce.",
-          "Beat the masa harina with oil, salt, baking powder and warm stock into a soft, spreadable dough.",
-          "Spread 2–3 tbsp of masa on each husk, add a spoonful of pork, fold the sides in and the bottom up.",
-          "Stand the tamales upright in a steamer and steam for 60–75 minutes, until the dough pulls away from the husk."
-        ]
-      },
-      "tips": [
-        "Trim visible fat from the pork before simmering to keep the filling leaner.",
-        "Use less oil in the masa: 1 tbsp oil ≈ 120 kcal.",
-        "Pair one or two tamales with a fresh salad or salsa instead of rice and beans."
-      ]
-    },
-    "ar": {
-      "name": "تاماليس بلحم الخنزير",
-      "origin": "المكسيك",
-      "intro": "التاماليس لفائف من عجينة الذرة (ماسا) تُحشى وتُطهى على البخار داخل قشور الذرة المجففة. هذه النسخة الكلاسيكية محشوة بلحم الخنزير المفتّت المطهو في صلصة الفلفل الأحمر. تصبح العجينة طرية وهشة بينما تبقى الحشوة عصارية وحارة قليلاً. تُفتح على المائدة وتؤكل دافئة، غالباً على الفطور وفي الأعياد والتجمعات العائلية.",
-      "history": "تعود التاماليس إلى أمريكا الوسطى قبل كولومبوس، حيث كانت عجينة الذرة المطهوة في الأوراق تؤكل قبل وصول الإسبان بزمن طويل. أصبح لحم الخنزير حشوة شائعة بعد الغزو، واليوم تُعد التاماليس طبقاً احتفالياً في أنحاء المكسيك، خاصة في عيد الميلاد وعيد كانديلاريا مطلع فبراير.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "500 غ دقيق ذرة ماسا",
-          "600 مل مرق دافئ أو ماء",
-          "80 مل زيت نباتي",
-          "1 ملعقة صغيرة ملح",
-          "1 ملعقة صغيرة بيكنج باودر",
-          "500 غ كتف لحم خنزير",
-          "300 مل صلصة فلفل أحمر",
-          "18 قشرة ذرة مجففة"
-        ],
-        "steps": [
-          "انقع قشور الذرة في ماء ساخن 30 دقيقة حتى تلين.",
-          "اسلق اللحم في ماء مملح نحو ساعة ونصف حتى يطرى، ثم فتّته واخلطه بصلصة الفلفل.",
-          "اخفق دقيق الماسا مع الزيت والملح والبيكنج باودر والمرق الدافئ حتى تتكون عجينة طرية قابلة للدهن.",
-          "افرد 2–3 ملاعق كبيرة من العجينة على كل قشرة، وأضف ملعقة من اللحم، واطوِ الجانبين ثم الطرف السفلي.",
-          "ضع التاماليس واقفة في قدر البخار واطهها 60–75 دقيقة حتى تنفصل العجينة عن القشرة."
-        ]
-      },
-      "tips": [
-        "أزل الدهن الظاهر من اللحم قبل السلق لحشوة أخف.",
-        "قلّل الزيت في العجينة: ملعقة كبيرة زيت ≈ 120 سعرة.",
-        "قدّم حبة أو حبتين مع سلطة طازجة أو صلصة بدل الأرز والفاصوليا."
-      ]
-    },
-    "it": {
-      "name": "Tamales di maiale",
-      "name_inline": "tamales di maiale",
-      "origin": "Messico",
-      "intro": "I tamales sono fagottini di impasto di mais (masa) avvolti attorno a un ripieno e cotti al vapore dentro foglie secche di pannocchia. Questa versione classica è ripiena di tenero maiale sfilacciato cotto in salsa rossa al peperoncino. La masa diventa morbida e soffice mentre il ripieno resta succoso e leggermente piccante. Si scartano a tavola e si mangiano caldi, spesso a colazione, nelle feste e nelle riunioni di famiglia.",
-      "history": "I tamales risalgono alla Mesoamerica precolombiana, dove l'impasto di mais cotto nelle foglie si mangiava molto prima dell'arrivo degli spagnoli. Il maiale divenne un ripieno comune dopo la conquista, e oggi i tamales sono un piatto festivo in tutto il Messico, soprattutto intorno a Natale e alla Candelaria, all'inizio di febbraio.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "500 g di masa harina (mais nixtamalizzato)",
-          "600 ml di brodo o acqua tiepidi",
-          "80 ml di olio di semi",
-          "1 cucchiaino di sale",
-          "1 cucchiaino di lievito in polvere",
-          "500 g di spalla di maiale",
-          "300 ml di salsa rossa al peperoncino",
-          "18 foglie secche di pannocchia"
-        ],
-        "steps": [
-          "Metti a bagno le foglie di pannocchia in acqua calda per 30 minuti, finché sono flessibili.",
-          "Fai sobbollire il maiale in acqua salata per circa 1 ora e mezza finché è tenero, poi sfilaccialo e mescolalo con la salsa al peperoncino.",
-          "Lavora la masa harina con olio, sale, lievito e brodo tiepido fino a ottenere un impasto morbido e spalmabile.",
-          "Spalma 2–3 cucchiai di masa su ogni foglia, aggiungi una cucchiaiata di maiale, ripiega i lati verso l'interno e il fondo verso l'alto.",
-          "Sistema i tamales in piedi in una vaporiera e cuoci al vapore per 60–75 minuti, finché l'impasto si stacca dalla foglia."
-        ]
-      },
-      "tips": [
-        "Elimina il grasso visibile dal maiale prima della cottura per un ripieno più magro.",
-        "Usa meno olio nella masa: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Abbina uno o due tamales a un'insalata fresca o a una salsa invece che a riso e fagioli."
-      ]
-    },
-    "el": {
-      "name": "Ταμάλες με χοιρινό",
-      "name_inline": "ταμάλες με χοιρινό",
-      "origin": "Μεξικό",
-      "intro": "Τα ταμάλες είναι πακετάκια από ζύμη καλαμποκιού (μάσα) τυλιγμένα γύρω από μια γέμιση και μαγειρεμένα στον ατμό μέσα σε αποξηραμένα φύλλα καλαμποκιού. Αυτή η κλασική εκδοχή γεμίζεται με τρυφερό ξεφτισμένο χοιρινό σιγοβρασμένο σε κόκκινη σάλτσα τσίλι. Η μάσα γίνεται μαλακή και αφράτη, ενώ η γέμιση μένει ζουμερή και ελαφρά πικάντικη. Ξετυλίγονται στο τραπέζι και τρώγονται ζεστά, συχνά στο πρωινό, στις γιορτές και στις οικογενειακές συγκεντρώσεις.",
-      "history": "Τα ταμάλες χρονολογούνται από την προκολομβιανή Μεσοαμερική, όπου η ζύμη καλαμποκιού μαγειρεμένη σε φύλλα τρωγόταν πολύ πριν φτάσουν οι Ισπανοί. Το χοιρινό έγινε συνηθισμένη γέμιση μετά την κατάκτηση, και σήμερα τα ταμάλες είναι βασικό γιορτινό φαγητό σε όλο το Μεξικό, ιδίως γύρω στα Χριστούγεννα και την Καντελάρια στις αρχές Φεβρουαρίου.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "500 γρ. μάσα αρίνα (νιξταμαλοποιημένο καλαμπόκι)",
-          "600 ml χλιαρός ζωμός ή νερό",
-          "80 ml ουδέτερο λάδι",
-          "1 κ.γ. αλάτι",
-          "1 κ.γ. μπέικιν πάουντερ",
-          "500 γρ. χοιρινή σπάλα",
-          "300 ml κόκκινη σάλτσα τσίλι",
-          "18 αποξηραμένα φύλλα καλαμποκιού"
-        ],
-        "steps": [
-          "Μουλιάστε τα φύλλα καλαμποκιού σε ζεστό νερό για 30 λεπτά, μέχρι να γίνουν εύκαμπτα.",
-          "Σιγοβράστε το χοιρινό σε αλατισμένο νερό για περίπου 1,5 ώρα μέχρι να μαλακώσει, μετά ξεφτίστε το και ανακατέψτε το με τη σάλτσα τσίλι.",
-          "Χτυπήστε τη μάσα αρίνα με λάδι, αλάτι, μπέικιν πάουντερ και χλιαρό ζωμό σε μαλακή ζύμη που απλώνεται.",
-          "Απλώστε 2–3 κ.σ. μάσα σε κάθε φύλλο, προσθέστε μια κουταλιά χοιρινό, διπλώστε τις πλευρές προς τα μέσα και τον πάτο προς τα πάνω.",
-          "Στήστε τα ταμάλες όρθια σε ατμομάγειρα και μαγειρέψτε στον ατμό για 60–75 λεπτά, μέχρι η ζύμη να ξεκολλά από το φύλλο."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το ορατό λίπος από το χοιρινό πριν το βράσιμο για πιο άπαχη γέμιση.",
-        "Βάλτε λιγότερο λάδι στη μάσα: 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Συνδυάστε ένα ή δύο ταμάλες με φρέσκια σαλάτα ή σάλσα αντί για ρύζι και φασόλια."
-      ]
-    },
-    "ru": {
-      "name": "Тамале со свининой",
-      "origin": "Мексика",
-      "intro": "Тамале — это свёртки из кукурузного теста маса с начинкой, приготовленные на пару в сушёных кукурузных листьях. Эта классическая версия начинена нежной рваной свининой, томлёной в красном соусе чили. Маса становится мягкой и пышной, а начинка остаётся сочной и слегка острой. Их разворачивают за столом и едят тёплыми, часто на завтрак, на праздники и семейные встречи.",
-      "history": "Тамале восходят к доколумбовой Мезоамерике, где кукурузное тесто, приготовленное в листьях, ели задолго до прихода испанцев. После конкисты свинина стала распространённой начинкой, а сегодня тамале — праздничное блюдо по всей Мексике, особенно на Рождество и в День Канделарии в начале февраля.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 150,
-        "ingredients": [
-          "500 г муки маса арина (обработанной щёлочью кукурузной)",
-          "600 мл тёплого бульона или воды",
-          "80 мл нейтрального масла",
-          "1 ч. л. соли",
-          "1 ч. л. разрыхлителя",
-          "500 г свиной лопатки",
-          "300 мл красного соуса чили",
-          "18 сушёных кукурузных листьев"
-        ],
-        "steps": [
-          "Замочите кукурузные листья в горячей воде на 30 минут, пока не станут гибкими.",
-          "Варите свинину в подсоленной воде около 1,5 часов до мягкости, затем разберите на волокна и смешайте с соусом чили.",
-          "Взбейте муку маса арина с маслом, солью, разрыхлителем и тёплым бульоном в мягкое тесто, которое легко намазывается.",
-          "Намажьте на каждый лист 2–3 ст. л. масы, добавьте ложку свинины, подверните бока и загните нижний край.",
-          "Поставьте тамале вертикально в пароварку и готовьте на пару 60–75 минут, пока тесто не станет отставать от листа."
-        ]
-      },
-      "tips": [
-        "Перед варкой срежьте со свинины видимый жир, чтобы начинка была менее жирной.",
-        "Кладите в масу меньше масла: 1 ст. л. масла ≈ 120 ккал.",
-        "Подайте одно-два тамале со свежим салатом или сальсой вместо риса и фасоли."
-      ]
-    }
+  "ar": {
+   "name": "تاماليس بلحم الخنزير",
+   "origin": "المكسيك",
+   "intro": "التاماليس لفائف من عجينة الذرة (ماسا) تُحشى وتُطهى على البخار داخل قشور الذرة المجففة. هذه النسخة الكلاسيكية محشوة بلحم الخنزير المفتّت المطهو في صلصة الفلفل الأحمر. تصبح العجينة طرية وهشة بينما تبقى الحشوة عصارية وحارة قليلاً. تُفتح على المائدة وتؤكل دافئة، غالباً على الفطور وفي الأعياد والتجمعات العائلية.",
+   "history": "تعود التاماليس إلى أمريكا الوسطى قبل كولومبوس، حيث كانت عجينة الذرة المطهوة في الأوراق تؤكل قبل وصول الإسبان بزمن طويل. أصبح لحم الخنزير حشوة شائعة بعد الغزو، واليوم تُعد التاماليس طبقاً احتفالياً في أنحاء المكسيك، خاصة في عيد الميلاد وعيد كانديلاريا مطلع فبراير.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "500 غ دقيق ذرة ماسا",
+     "600 مل مرق دافئ أو ماء",
+     "80 مل زيت نباتي",
+     "1 ملعقة صغيرة ملح",
+     "1 ملعقة صغيرة بيكنج باودر",
+     "500 غ كتف لحم خنزير",
+     "300 مل صلصة فلفل أحمر",
+     "18 قشرة ذرة مجففة"
+    ],
+    "steps": [
+     "انقع قشور الذرة في ماء ساخن 30 دقيقة حتى تلين.",
+     "اسلق اللحم في ماء مملح نحو ساعة ونصف حتى يطرى، ثم فتّته واخلطه بصلصة الفلفل.",
+     "اخفق دقيق الماسا مع الزيت والملح والبيكنج باودر والمرق الدافئ حتى تتكون عجينة طرية قابلة للدهن.",
+     "افرد 2–3 ملاعق كبيرة من العجينة على كل قشرة، وأضف ملعقة من اللحم، واطوِ الجانبين ثم الطرف السفلي.",
+     "ضع التاماليس واقفة في قدر البخار واطهها 60–75 دقيقة حتى تنفصل العجينة عن القشرة."
+    ]
+   },
+   "tips": [
+    "أزل الدهن الظاهر من اللحم قبل السلق لحشوة أخف.",
+    "قلّل الزيت في العجينة: ملعقة كبيرة زيت ≈ 120 سعرة.",
+    "قدّم حبة أو حبتين مع سلطة طازجة أو صلصة بدل الأرز والفاصوليا."
+   ]
+  },
+  "it": {
+   "name": "Tamales di maiale",
+   "name_inline": "tamales di maiale",
+   "origin": "Messico",
+   "intro": "I tamales sono fagottini di impasto di mais (masa) avvolti attorno a un ripieno e cotti al vapore dentro foglie secche di pannocchia. Questa versione classica è ripiena di tenero maiale sfilacciato cotto in salsa rossa al peperoncino. La masa diventa morbida e soffice mentre il ripieno resta succoso e leggermente piccante. Si scartano a tavola e si mangiano caldi, spesso a colazione, nelle feste e nelle riunioni di famiglia.",
+   "history": "I tamales risalgono alla Mesoamerica precolombiana, dove l'impasto di mais cotto nelle foglie si mangiava molto prima dell'arrivo degli spagnoli. Il maiale divenne un ripieno comune dopo la conquista, e oggi i tamales sono un piatto festivo in tutto il Messico, soprattutto intorno a Natale e alla Candelaria, all'inizio di febbraio.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "500 g di masa harina (mais nixtamalizzato)",
+     "600 ml di brodo o acqua tiepidi",
+     "80 ml di olio di semi",
+     "1 cucchiaino di sale",
+     "1 cucchiaino di lievito in polvere",
+     "500 g di spalla di maiale",
+     "300 ml di salsa rossa al peperoncino",
+     "18 foglie secche di pannocchia"
+    ],
+    "steps": [
+     "Metti a bagno le foglie di pannocchia in acqua calda per 30 minuti, finché sono flessibili.",
+     "Fai sobbollire il maiale in acqua salata per circa 1 ora e mezza finché è tenero, poi sfilaccialo e mescolalo con la salsa al peperoncino.",
+     "Lavora la masa harina con olio, sale, lievito e brodo tiepido fino a ottenere un impasto morbido e spalmabile.",
+     "Spalma 2–3 cucchiai di masa su ogni foglia, aggiungi una cucchiaiata di maiale, ripiega i lati verso l'interno e il fondo verso l'alto.",
+     "Sistema i tamales in piedi in una vaporiera e cuoci al vapore per 60–75 minuti, finché l'impasto si stacca dalla foglia."
+    ]
+   },
+   "tips": [
+    "Elimina il grasso visibile dal maiale prima della cottura per un ripieno più magro.",
+    "Usa meno olio nella masa: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Abbina uno o due tamales a un'insalata fresca o a una salsa invece che a riso e fagioli."
+   ]
+  },
+  "el": {
+   "name": "Ταμάλες με χοιρινό",
+   "name_inline": "ταμάλες με χοιρινό",
+   "origin": "Μεξικό",
+   "intro": "Τα ταμάλες είναι πακετάκια από ζύμη καλαμποκιού (μάσα) τυλιγμένα γύρω από μια γέμιση και μαγειρεμένα στον ατμό μέσα σε αποξηραμένα φύλλα καλαμποκιού. Αυτή η κλασική εκδοχή γεμίζεται με τρυφερό ξεφτισμένο χοιρινό σιγοβρασμένο σε κόκκινη σάλτσα τσίλι. Η μάσα γίνεται μαλακή και αφράτη, ενώ η γέμιση μένει ζουμερή και ελαφρά πικάντικη. Ξετυλίγονται στο τραπέζι και τρώγονται ζεστά, συχνά στο πρωινό, στις γιορτές και στις οικογενειακές συγκεντρώσεις.",
+   "history": "Τα ταμάλες χρονολογούνται από την προκολομβιανή Μεσοαμερική, όπου η ζύμη καλαμποκιού μαγειρεμένη σε φύλλα τρωγόταν πολύ πριν φτάσουν οι Ισπανοί. Το χοιρινό έγινε συνηθισμένη γέμιση μετά την κατάκτηση, και σήμερα τα ταμάλες είναι βασικό γιορτινό φαγητό σε όλο το Μεξικό, ιδίως γύρω στα Χριστούγεννα και την Καντελάρια στις αρχές Φεβρουαρίου.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "500 γρ. μάσα αρίνα (νιξταμαλοποιημένο καλαμπόκι)",
+     "600 ml χλιαρός ζωμός ή νερό",
+     "80 ml ουδέτερο λάδι",
+     "1 κ.γ. αλάτι",
+     "1 κ.γ. μπέικιν πάουντερ",
+     "500 γρ. χοιρινή σπάλα",
+     "300 ml κόκκινη σάλτσα τσίλι",
+     "18 αποξηραμένα φύλλα καλαμποκιού"
+    ],
+    "steps": [
+     "Μουλιάστε τα φύλλα καλαμποκιού σε ζεστό νερό για 30 λεπτά, μέχρι να γίνουν εύκαμπτα.",
+     "Σιγοβράστε το χοιρινό σε αλατισμένο νερό για περίπου 1,5 ώρα μέχρι να μαλακώσει, μετά ξεφτίστε το και ανακατέψτε το με τη σάλτσα τσίλι.",
+     "Χτυπήστε τη μάσα αρίνα με λάδι, αλάτι, μπέικιν πάουντερ και χλιαρό ζωμό σε μαλακή ζύμη που απλώνεται.",
+     "Απλώστε 2–3 κ.σ. μάσα σε κάθε φύλλο, προσθέστε μια κουταλιά χοιρινό, διπλώστε τις πλευρές προς τα μέσα και τον πάτο προς τα πάνω.",
+     "Στήστε τα ταμάλες όρθια σε ατμομάγειρα και μαγειρέψτε στον ατμό για 60–75 λεπτά, μέχρι η ζύμη να ξεκολλά από το φύλλο."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το ορατό λίπος από το χοιρινό πριν το βράσιμο για πιο άπαχη γέμιση.",
+    "Βάλτε λιγότερο λάδι στη μάσα: 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Συνδυάστε ένα ή δύο ταμάλες με φρέσκια σαλάτα ή σάλσα αντί για ρύζι και φασόλια."
+   ]
+  },
+  "ru": {
+   "name": "Тамале со свининой",
+   "origin": "Мексика",
+   "intro": "Тамале — это свёртки из кукурузного теста маса с начинкой, приготовленные на пару в сушёных кукурузных листьях. Эта классическая версия начинена нежной рваной свининой, томлёной в красном соусе чили. Маса становится мягкой и пышной, а начинка остаётся сочной и слегка острой. Их разворачивают за столом и едят тёплыми, часто на завтрак, на праздники и семейные встречи.",
+   "history": "Тамале восходят к доколумбовой Мезоамерике, где кукурузное тесто, приготовленное в листьях, ели задолго до прихода испанцев. После конкисты свинина стала распространённой начинкой, а сегодня тамале — праздничное блюдо по всей Мексике, особенно на Рождество и в День Канделарии в начале февраля.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "500 г муки маса арина (обработанной щёлочью кукурузной)",
+     "600 мл тёплого бульона или воды",
+     "80 мл нейтрального масла",
+     "1 ч. л. соли",
+     "1 ч. л. разрыхлителя",
+     "500 г свиной лопатки",
+     "300 мл красного соуса чили",
+     "18 сушёных кукурузных листьев"
+    ],
+    "steps": [
+     "Замочите кукурузные листья в горячей воде на 30 минут, пока не станут гибкими.",
+     "Варите свинину в подсоленной воде около 1,5 часов до мягкости, затем разберите на волокна и смешайте с соусом чили.",
+     "Взбейте муку маса арина с маслом, солью, разрыхлителем и тёплым бульоном в мягкое тесто, которое легко намазывается.",
+     "Намажьте на каждый лист 2–3 ст. л. масы, добавьте ложку свинины, подверните бока и загните нижний край.",
+     "Поставьте тамале вертикально в пароварку и готовьте на пару 60–75 минут, пока тесто не станет отставать от листа."
+    ]
+   },
+   "tips": [
+    "Перед варкой срежьте со свинины видимый жир, чтобы начинка была менее жирной.",
+    "Кладите в масу меньше масла: 1 ст. л. масла ≈ 120 ккал.",
+    "Подайте одно-два тамале со свежим салатом или сальсой вместо риса и фасоли."
+   ]
+  },
+  "es": {
+   "name": "Tamales de cerdo",
+   "origin": "México",
+   "intro": "Los tamales son paquetitos de masa de maíz envueltos alrededor de un relleno y cocidos al vapor dentro de hojas secas de maíz. Esta versión clásica lleva cerdo deshebrado, tierno, cocido en salsa roja de chile. La masa queda suave y esponjosa, mientras que el relleno se mantiene jugoso y ligeramente picante. Se desenvuelven en la mesa y se comen calientes, a menudo en el desayuno, en fiestas y en reuniones familiares.",
+   "history": "Los tamales se remontan a la Mesoamérica precolombina, donde la masa de maíz cocida en hojas se comía mucho antes de la llegada de los españoles. El cerdo se volvió un relleno común después de la conquista, y hoy los tamales son un básico festivo en todo México, sobre todo en Navidad y en el Día de la Candelaria, a principios de febrero.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 150,
+    "ingredients": [
+     "500 g de masa harina (maíz nixtamalizado)",
+     "600 ml de caldo tibio o agua",
+     "80 ml de aceite neutro",
+     "1 cdta. de sal",
+     "1 cdta. de polvo para hornear",
+     "500 g de espaldilla de cerdo",
+     "300 ml de salsa roja de chile",
+     "18 hojas secas de maíz"
+    ],
+    "steps": [
+     "Remoja las hojas de maíz en agua caliente durante 30 minutos, hasta que estén flexibles.",
+     "Cuece el cerdo en agua con sal unas 1.5 horas, hasta que esté suave; luego deshébralo y mézclalo con la salsa de chile.",
+     "Bate la masa harina con el aceite, la sal, el polvo para hornear y el caldo tibio hasta obtener una masa suave y fácil de untar.",
+     "Unta de 2 a 3 cdas. de masa en cada hoja, agrega una cucharada de cerdo, dobla los lados y luego la parte de abajo hacia arriba.",
+     "Coloca los tamales parados en una vaporera y cuece al vapor de 60 a 75 minutos, hasta que la masa se separe de la hoja."
+    ]
+   },
+   "tips": [
+    "Quita la grasa visible del cerdo antes de cocerlo para que el relleno sea más magro.",
+    "Usa menos aceite en la masa: 1 cda. de aceite ≈ 120 kcal.",
+    "Acompaña uno o dos tamales con una ensalada fresca o salsa en lugar de arroz y frijoles."
+   ],
+   "name_inline": "los tamales de cerdo"
   }
+ }
 }

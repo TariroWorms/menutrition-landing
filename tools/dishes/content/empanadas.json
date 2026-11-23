@@ -1,182 +1,216 @@
 {
-  "db_key": "empanadas",
-  "slug": "empanadas",
-  "emoji": "🥟",
-  "portion_g": 150,
-  "country": "AR",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "empanadas",
+ "slug": "empanadas",
+ "emoji": "🥟",
+ "portion_g": 150,
+ "country": "AR",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Beef empanadas",
+   "origin": "Argentina · Latin America",
+   "intro": "Empanadas are hand-sized pastry turnovers baked until golden and flaky. This classic Argentine-style filling combines seasoned ground beef with softened onion, green olives and chopped hard-boiled egg. The edges are folded into a decorative braid called a repulgue, and empanadas are eaten by hand as a snack, starter or party food.",
+   "history": "Filled pastries of this kind came to Latin America with Spanish settlers, and the word comes from the Spanish verb empanar, “to wrap in bread”. Today almost every Argentine province has its own style of filling and folding.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "500 g plain flour",
+     "120 ml vegetable oil",
+     "200 ml warm water",
+     "1 tsp salt",
+     "400 g ground beef",
+     "2 onions, finely chopped",
+     "60 g green olives, sliced",
+     "2 hard-boiled eggs, chopped, plus 1 egg for brushing",
+     "1 tsp ground cumin, 1 tsp sweet paprika"
+    ],
+    "steps": [
+     "Mix flour, salt, oil and water into a smooth dough; rest it covered for 30 minutes.",
+     "Soften the onions in 1 tbsp oil, add the beef and spices and cook until browned; cool, then stir in olives and chopped egg.",
+     "Roll the dough thinly and cut 12 cm rounds.",
+     "Place a spoonful of filling on each round, fold and crimp the edges.",
+     "Brush with beaten egg and bake at 200 °C for 18–20 minutes until golden."
+    ]
+   },
+   "tips": [
+    "Use lean ground beef (5% fat) and drain the fat from the pan after browning.",
+    "Roll the dough thinner and fill generously so each bite has more meat and less pastry.",
+    "Count empanadas, not plates: one is a snack, two with a salad make a meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Beef empanadas",
-      "origin": "Argentina · Latin America",
-      "intro": "Empanadas are hand-sized pastry turnovers baked until golden and flaky. This classic Argentine-style filling combines seasoned ground beef with softened onion, green olives and chopped hard-boiled egg. The edges are folded into a decorative braid called a repulgue, and empanadas are eaten by hand as a snack, starter or party food.",
-      "history": "Filled pastries of this kind came to Latin America with Spanish settlers, and the word comes from the Spanish verb empanar, “to wrap in bread”. Today almost every Argentine province has its own style of filling and folding.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "500 g plain flour",
-          "120 ml vegetable oil",
-          "200 ml warm water",
-          "1 tsp salt",
-          "400 g ground beef",
-          "2 onions, finely chopped",
-          "60 g green olives, sliced",
-          "2 hard-boiled eggs, chopped, plus 1 egg for brushing",
-          "1 tsp ground cumin, 1 tsp sweet paprika"
-        ],
-        "steps": [
-          "Mix flour, salt, oil and water into a smooth dough; rest it covered for 30 minutes.",
-          "Soften the onions in 1 tbsp oil, add the beef and spices and cook until browned; cool, then stir in olives and chopped egg.",
-          "Roll the dough thinly and cut 12 cm rounds.",
-          "Place a spoonful of filling on each round, fold and crimp the edges.",
-          "Brush with beaten egg and bake at 200 °C for 18–20 minutes until golden."
-        ]
-      },
-      "tips": [
-        "Use lean ground beef (5% fat) and drain the fat from the pan after browning.",
-        "Roll the dough thinner and fill generously so each bite has more meat and less pastry.",
-        "Count empanadas, not plates: one is a snack, two with a salad make a meal."
-      ]
-    },
-    "ar": {
-      "name": "إمبانادا باللحم",
-      "origin": "الأرجنتين · أمريكا اللاتينية",
-      "intro": "الإمبانادا فطائر صغيرة بحجم الكف تُخبز حتى تصبح ذهبية ومقرمشة. تجمع هذه الحشوة على الطريقة الأرجنتينية بين لحم البقر المفروم المتبّل والبصل الطري والزيتون الأخضر والبيض المسلوق المفروم. تُطوى الحواف في ضفيرة مزخرفة تُسمى ريبولغي، وتُؤكل باليد كوجبة خفيفة أو مقبلات أو في الحفلات.",
-      "history": "وصلت المعجنات المحشوة من هذا النوع إلى أمريكا اللاتينية مع المستوطنين الإسبان، والاسم مشتق من الفعل الإسباني empanar أي «يلفّ بالخبز». واليوم تكاد كل مقاطعة أرجنتينية تنفرد بأسلوبها في الحشو والطيّ.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "500 غ دقيق أبيض",
-          "120 مل زيت نباتي",
-          "200 مل ماء دافئ",
-          "1 ملعقة صغيرة ملح",
-          "400 غ لحم بقر مفروم",
-          "2 بصلة مفرومة ناعمًا",
-          "60 غ زيتون أخضر مقطّع شرائح",
-          "2 بيضة مسلوقة مفرومة وبيضة للدهن",
-          "1 ملعقة صغيرة كمون مطحون و1 ملعقة صغيرة بابريكا حلوة"
-        ],
-        "steps": [
-          "اخلط الدقيق والملح والزيت والماء حتى تتكوّن عجينة ناعمة، واتركها مغطاة 30 دقيقة.",
-          "شوِّح البصل في ملعقة كبيرة زيت، ثم أضف اللحم والتوابل حتى يتحمّر؛ اتركه يبرد وأضف الزيتون والبيض المفروم.",
-          "افرد العجينة رقيقة واقطع دوائر بقطر 12 سم.",
-          "ضع ملعقة من الحشوة على كل دائرة، واطوِها واضغط الحواف.",
-          "ادهنها بالبيض المخفوق واخبزها على 200 °م لمدة 18–20 دقيقة حتى تصبح ذهبية."
-        ]
-      },
-      "tips": [
-        "استخدم لحمًا مفرومًا قليل الدهن (5%) وتخلّص من الدهن بعد التحمير.",
-        "افرد العجينة أرق واملأها جيدًا ليكون في كل قضمة لحم أكثر وعجين أقل.",
-        "احسبها بالقطعة: واحدة وجبة خفيفة، واثنتان مع سلطة وجبة كاملة."
-      ]
-    },
-    "it": {
-      "name": "Empanadas di manzo",
-      "name_inline": "empanadas di manzo",
-      "origin": "Argentina · America Latina",
-      "intro": "Le empanadas sono fagottini di pasta grandi quanto una mano, cotti al forno finché sono dorati e friabili. Questo classico ripieno all'argentina unisce manzo macinato condito, cipolla stufata, olive verdi e uovo sodo tritato. I bordi si ripiegano in una treccia decorativa chiamata repulgue, e le empanadas si mangiano con le mani come snack, antipasto o cibo da festa.",
-      "history": "Fagottini ripieni di questo tipo sono arrivati in America Latina con i coloni spagnoli, e la parola deriva dal verbo spagnolo empanar, «avvolgere nel pane». Oggi quasi ogni provincia argentina ha il proprio stile di ripieno e di chiusura.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "500 g di farina 00",
-          "120 ml di olio vegetale",
-          "200 ml di acqua tiepida",
-          "1 cucchiaino di sale",
-          "400 g di manzo macinato",
-          "2 cipolle, tritate finemente",
-          "60 g di olive verdi, a rondelle",
-          "2 uova sode, tritate, più 1 uovo per spennellare",
-          "1 cucchiaino di cumino macinato, 1 cucchiaino di paprika dolce"
-        ],
-        "steps": [
-          "Impasta farina, sale, olio e acqua fino a ottenere un impasto liscio; lascialo riposare coperto per 30 minuti.",
-          "Fai appassire le cipolle in 1 cucchiaio di olio, aggiungi il manzo e le spezie e cuoci finché è rosolato; lascia raffreddare, poi incorpora olive e uovo tritato.",
-          "Stendi l'impasto sottile e ritaglia dischi da 12 cm.",
-          "Metti una cucchiaiata di ripieno su ogni disco, ripiega e pizzica i bordi.",
-          "Spennella con uovo sbattuto e cuoci a 200 °C per 18–20 minuti finché sono dorate."
-        ]
-      },
-      "tips": [
-        "Usa manzo macinato magro (5% di grassi) ed elimina il grasso dalla padella dopo la rosolatura.",
-        "Stendi l'impasto più sottile e farcisci abbondantemente, così ogni morso ha più carne e meno pasta.",
-        "Conta le empanadas, non i piatti: una è uno snack, due con un'insalata fanno un pasto."
-      ]
-    },
-    "el": {
-      "name": "Εμπανάδας με μοσχάρι",
-      "name_inline": "εμπανάδας με μοσχάρι",
-      "origin": "Αργεντινή · Λατινική Αμερική",
-      "intro": "Οι εμπανάδας είναι πιτάκια στο μέγεθος της παλάμης, ψημένα μέχρι να γίνουν χρυσαφένια και αφράτα. Αυτή η κλασική αργεντίνικη γέμιση συνδυάζει καρυκευμένο μοσχαρίσιο κιμά με μαλακωμένο κρεμμύδι, πράσινες ελιές και ψιλοκομμένο βραστό αυγό. Οι άκρες διπλώνονται σε διακοσμητική πλεξούδα που λέγεται ρεπούλγκε, και οι εμπανάδας τρώγονται με το χέρι ως σνακ, ορεκτικό ή φαγητό για πάρτι.",
-      "history": "Τέτοια γεμιστά πιτάκια έφτασαν στη Λατινική Αμερική με τους Ισπανούς αποίκους, και η λέξη προέρχεται από το ισπανικό ρήμα empanar, «τυλίγω σε ψωμί». Σήμερα σχεδόν κάθε επαρχία της Αργεντινής έχει το δικό της στιλ γέμισης και διπλώματος.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "500 γρ. αλεύρι για όλες τις χρήσεις",
-          "120 ml φυτικό λάδι",
-          "200 ml χλιαρό νερό",
-          "1 κ.γ. αλάτι",
-          "400 γρ. μοσχαρίσιος κιμάς",
-          "2 κρεμμύδια, ψιλοκομμένα",
-          "60 γρ. πράσινες ελιές, σε ροδέλες",
-          "2 βραστά αυγά, ψιλοκομμένα, συν 1 αυγό για άλειμμα",
-          "1 κ.γ. κύμινο, 1 κ.γ. γλυκιά πάπρικα"
-        ],
-        "steps": [
-          "Ανακατέψτε το αλεύρι, το αλάτι, το λάδι και το νερό σε λεία ζύμη· αφήστε τη σκεπασμένη να ξεκουραστεί 30 λεπτά.",
-          "Μαλακώστε τα κρεμμύδια σε 1 κ.σ. λάδι, προσθέστε τον κιμά και τα μπαχαρικά και μαγειρέψτε μέχρι να ροδίσει· αφήστε να κρυώσει και ανακατέψτε μέσα τις ελιές και το ψιλοκομμένο αυγό.",
-          "Ανοίξτε τη ζύμη λεπτή και κόψτε δίσκους 12 εκ.",
-          "Βάλτε μια κουταλιά γέμιση σε κάθε δίσκο, διπλώστε και πιέστε τις άκρες.",
-          "Αλείψτε με χτυπημένο αυγό και ψήστε στους 200 °C για 18–20 λεπτά μέχρι να ροδίσουν."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (5% λιπαρά) και στραγγίστε το λίπος από το τηγάνι μετά το σοτάρισμα.",
-        "Ανοίξτε τη ζύμη πιο λεπτή και γεμίστε γενναιόδωρα, ώστε κάθε μπουκιά να έχει περισσότερο κρέας και λιγότερη ζύμη.",
-        "Μετράτε εμπανάδας, όχι πιάτα: μία είναι σνακ, δύο με σαλάτα κάνουν γεύμα."
-      ]
-    },
-    "ru": {
-      "name": "Эмпанады с говядиной",
-      "origin": "Аргентина · Латинская Америка",
-      "intro": "Эмпанады — пирожки размером с ладонь, запечённые до золотистой слоёной корочки. Эта классическая начинка в аргентинском стиле сочетает приправленный говяжий фарш с обжаренным луком, зелёными оливками и рубленым яйцом вкрутую. Края сворачивают в декоративную косичку, называемую репульге, и эмпанады едят руками как закуску, первое блюдо или угощение на вечеринке.",
-      "history": "Подобные пирожки с начинкой пришли в Латинскую Америку с испанскими поселенцами, а слово происходит от испанского глагола empanar — «заворачивать в хлеб». Сегодня почти в каждой аргентинской провинции свой стиль начинки и защипывания.",
-      "recipe": {
-        "servings": 6,
-        "time_min": 75,
-        "ingredients": [
-          "500 г пшеничной муки",
-          "120 мл растительного масла",
-          "200 мл тёплой воды",
-          "1 ч. л. соли",
-          "400 г говяжьего фарша",
-          "2 луковицы, мелко нарубленные",
-          "60 г зелёных оливок, нарезанных",
-          "2 яйца вкрутую, нарубленные, и ещё 1 яйцо для смазывания",
-          "1 ч. л. молотой зиры, 1 ч. л. сладкой паприки"
-        ],
-        "steps": [
-          "Замесите муку, соль, масло и воду в гладкое тесто; оставьте под крышкой на 30 минут.",
-          "Обжарьте лук в 1 ст. л. масла, добавьте говядину и специи и готовьте до румяности; остудите, затем вмешайте оливки и рубленое яйцо.",
-          "Тонко раскатайте тесто и вырежьте круги диаметром 12 см.",
-          "Положите ложку начинки на каждый круг, сложите и защипните края.",
-          "Смажьте взбитым яйцом и выпекайте при 200 °C 18–20 минут до золотистого цвета."
-        ]
-      },
-      "tips": [
-        "Берите постный говяжий фарш (5% жира) и сливайте жир со сковороды после обжаривания.",
-        "Раскатывайте тесто тоньше и кладите больше начинки — в каждом куске будет больше мяса и меньше теста.",
-        "Считайте эмпанады, а не тарелки: одна — закуска, две с салатом — полноценная еда."
-      ],
-      "name_inline": "эмпанады с говядиной"
-    }
+  "ar": {
+   "name": "إمبانادا باللحم",
+   "origin": "الأرجنتين · أمريكا اللاتينية",
+   "intro": "الإمبانادا فطائر صغيرة بحجم الكف تُخبز حتى تصبح ذهبية ومقرمشة. تجمع هذه الحشوة على الطريقة الأرجنتينية بين لحم البقر المفروم المتبّل والبصل الطري والزيتون الأخضر والبيض المسلوق المفروم. تُطوى الحواف في ضفيرة مزخرفة تُسمى ريبولغي، وتُؤكل باليد كوجبة خفيفة أو مقبلات أو في الحفلات.",
+   "history": "وصلت المعجنات المحشوة من هذا النوع إلى أمريكا اللاتينية مع المستوطنين الإسبان، والاسم مشتق من الفعل الإسباني empanar أي «يلفّ بالخبز». واليوم تكاد كل مقاطعة أرجنتينية تنفرد بأسلوبها في الحشو والطيّ.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "500 غ دقيق أبيض",
+     "120 مل زيت نباتي",
+     "200 مل ماء دافئ",
+     "1 ملعقة صغيرة ملح",
+     "400 غ لحم بقر مفروم",
+     "2 بصلة مفرومة ناعمًا",
+     "60 غ زيتون أخضر مقطّع شرائح",
+     "2 بيضة مسلوقة مفرومة وبيضة للدهن",
+     "1 ملعقة صغيرة كمون مطحون و1 ملعقة صغيرة بابريكا حلوة"
+    ],
+    "steps": [
+     "اخلط الدقيق والملح والزيت والماء حتى تتكوّن عجينة ناعمة، واتركها مغطاة 30 دقيقة.",
+     "شوِّح البصل في ملعقة كبيرة زيت، ثم أضف اللحم والتوابل حتى يتحمّر؛ اتركه يبرد وأضف الزيتون والبيض المفروم.",
+     "افرد العجينة رقيقة واقطع دوائر بقطر 12 سم.",
+     "ضع ملعقة من الحشوة على كل دائرة، واطوِها واضغط الحواف.",
+     "ادهنها بالبيض المخفوق واخبزها على 200 °م لمدة 18–20 دقيقة حتى تصبح ذهبية."
+    ]
+   },
+   "tips": [
+    "استخدم لحمًا مفرومًا قليل الدهن (5%) وتخلّص من الدهن بعد التحمير.",
+    "افرد العجينة أرق واملأها جيدًا ليكون في كل قضمة لحم أكثر وعجين أقل.",
+    "احسبها بالقطعة: واحدة وجبة خفيفة، واثنتان مع سلطة وجبة كاملة."
+   ]
+  },
+  "it": {
+   "name": "Empanadas di manzo",
+   "name_inline": "empanadas di manzo",
+   "origin": "Argentina · America Latina",
+   "intro": "Le empanadas sono fagottini di pasta grandi quanto una mano, cotti al forno finché sono dorati e friabili. Questo classico ripieno all'argentina unisce manzo macinato condito, cipolla stufata, olive verdi e uovo sodo tritato. I bordi si ripiegano in una treccia decorativa chiamata repulgue, e le empanadas si mangiano con le mani come snack, antipasto o cibo da festa.",
+   "history": "Fagottini ripieni di questo tipo sono arrivati in America Latina con i coloni spagnoli, e la parola deriva dal verbo spagnolo empanar, «avvolgere nel pane». Oggi quasi ogni provincia argentina ha il proprio stile di ripieno e di chiusura.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "500 g di farina 00",
+     "120 ml di olio vegetale",
+     "200 ml di acqua tiepida",
+     "1 cucchiaino di sale",
+     "400 g di manzo macinato",
+     "2 cipolle, tritate finemente",
+     "60 g di olive verdi, a rondelle",
+     "2 uova sode, tritate, più 1 uovo per spennellare",
+     "1 cucchiaino di cumino macinato, 1 cucchiaino di paprika dolce"
+    ],
+    "steps": [
+     "Impasta farina, sale, olio e acqua fino a ottenere un impasto liscio; lascialo riposare coperto per 30 minuti.",
+     "Fai appassire le cipolle in 1 cucchiaio di olio, aggiungi il manzo e le spezie e cuoci finché è rosolato; lascia raffreddare, poi incorpora olive e uovo tritato.",
+     "Stendi l'impasto sottile e ritaglia dischi da 12 cm.",
+     "Metti una cucchiaiata di ripieno su ogni disco, ripiega e pizzica i bordi.",
+     "Spennella con uovo sbattuto e cuoci a 200 °C per 18–20 minuti finché sono dorate."
+    ]
+   },
+   "tips": [
+    "Usa manzo macinato magro (5% di grassi) ed elimina il grasso dalla padella dopo la rosolatura.",
+    "Stendi l'impasto più sottile e farcisci abbondantemente, così ogni morso ha più carne e meno pasta.",
+    "Conta le empanadas, non i piatti: una è uno snack, due con un'insalata fanno un pasto."
+   ]
+  },
+  "el": {
+   "name": "Εμπανάδας με μοσχάρι",
+   "name_inline": "εμπανάδας με μοσχάρι",
+   "origin": "Αργεντινή · Λατινική Αμερική",
+   "intro": "Οι εμπανάδας είναι πιτάκια στο μέγεθος της παλάμης, ψημένα μέχρι να γίνουν χρυσαφένια και αφράτα. Αυτή η κλασική αργεντίνικη γέμιση συνδυάζει καρυκευμένο μοσχαρίσιο κιμά με μαλακωμένο κρεμμύδι, πράσινες ελιές και ψιλοκομμένο βραστό αυγό. Οι άκρες διπλώνονται σε διακοσμητική πλεξούδα που λέγεται ρεπούλγκε, και οι εμπανάδας τρώγονται με το χέρι ως σνακ, ορεκτικό ή φαγητό για πάρτι.",
+   "history": "Τέτοια γεμιστά πιτάκια έφτασαν στη Λατινική Αμερική με τους Ισπανούς αποίκους, και η λέξη προέρχεται από το ισπανικό ρήμα empanar, «τυλίγω σε ψωμί». Σήμερα σχεδόν κάθε επαρχία της Αργεντινής έχει το δικό της στιλ γέμισης και διπλώματος.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "500 γρ. αλεύρι για όλες τις χρήσεις",
+     "120 ml φυτικό λάδι",
+     "200 ml χλιαρό νερό",
+     "1 κ.γ. αλάτι",
+     "400 γρ. μοσχαρίσιος κιμάς",
+     "2 κρεμμύδια, ψιλοκομμένα",
+     "60 γρ. πράσινες ελιές, σε ροδέλες",
+     "2 βραστά αυγά, ψιλοκομμένα, συν 1 αυγό για άλειμμα",
+     "1 κ.γ. κύμινο, 1 κ.γ. γλυκιά πάπρικα"
+    ],
+    "steps": [
+     "Ανακατέψτε το αλεύρι, το αλάτι, το λάδι και το νερό σε λεία ζύμη· αφήστε τη σκεπασμένη να ξεκουραστεί 30 λεπτά.",
+     "Μαλακώστε τα κρεμμύδια σε 1 κ.σ. λάδι, προσθέστε τον κιμά και τα μπαχαρικά και μαγειρέψτε μέχρι να ροδίσει· αφήστε να κρυώσει και ανακατέψτε μέσα τις ελιές και το ψιλοκομμένο αυγό.",
+     "Ανοίξτε τη ζύμη λεπτή και κόψτε δίσκους 12 εκ.",
+     "Βάλτε μια κουταλιά γέμιση σε κάθε δίσκο, διπλώστε και πιέστε τις άκρες.",
+     "Αλείψτε με χτυπημένο αυγό και ψήστε στους 200 °C για 18–20 λεπτά μέχρι να ροδίσουν."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο μοσχαρίσιο κιμά (5% λιπαρά) και στραγγίστε το λίπος από το τηγάνι μετά το σοτάρισμα.",
+    "Ανοίξτε τη ζύμη πιο λεπτή και γεμίστε γενναιόδωρα, ώστε κάθε μπουκιά να έχει περισσότερο κρέας και λιγότερη ζύμη.",
+    "Μετράτε εμπανάδας, όχι πιάτα: μία είναι σνακ, δύο με σαλάτα κάνουν γεύμα."
+   ]
+  },
+  "ru": {
+   "name": "Эмпанады с говядиной",
+   "origin": "Аргентина · Латинская Америка",
+   "intro": "Эмпанады — пирожки размером с ладонь, запечённые до золотистой слоёной корочки. Эта классическая начинка в аргентинском стиле сочетает приправленный говяжий фарш с обжаренным луком, зелёными оливками и рубленым яйцом вкрутую. Края сворачивают в декоративную косичку, называемую репульге, и эмпанады едят руками как закуску, первое блюдо или угощение на вечеринке.",
+   "history": "Подобные пирожки с начинкой пришли в Латинскую Америку с испанскими поселенцами, а слово происходит от испанского глагола empanar — «заворачивать в хлеб». Сегодня почти в каждой аргентинской провинции свой стиль начинки и защипывания.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "500 г пшеничной муки",
+     "120 мл растительного масла",
+     "200 мл тёплой воды",
+     "1 ч. л. соли",
+     "400 г говяжьего фарша",
+     "2 луковицы, мелко нарубленные",
+     "60 г зелёных оливок, нарезанных",
+     "2 яйца вкрутую, нарубленные, и ещё 1 яйцо для смазывания",
+     "1 ч. л. молотой зиры, 1 ч. л. сладкой паприки"
+    ],
+    "steps": [
+     "Замесите муку, соль, масло и воду в гладкое тесто; оставьте под крышкой на 30 минут.",
+     "Обжарьте лук в 1 ст. л. масла, добавьте говядину и специи и готовьте до румяности; остудите, затем вмешайте оливки и рубленое яйцо.",
+     "Тонко раскатайте тесто и вырежьте круги диаметром 12 см.",
+     "Положите ложку начинки на каждый круг, сложите и защипните края.",
+     "Смажьте взбитым яйцом и выпекайте при 200 °C 18–20 минут до золотистого цвета."
+    ]
+   },
+   "tips": [
+    "Берите постный говяжий фарш (5% жира) и сливайте жир со сковороды после обжаривания.",
+    "Раскатывайте тесто тоньше и кладите больше начинки — в каждом куске будет больше мяса и меньше теста.",
+    "Считайте эмпанады, а не тарелки: одна — закуска, две с салатом — полноценная еда."
+   ],
+   "name_inline": "эмпанады с говядиной"
+  },
+  "es": {
+   "name": "Empanadas de carne",
+   "origin": "Argentina · América Latina",
+   "intro": "Las empanadas son pastelitos del tamaño de la mano, horneados hasta quedar dorados y hojaldrados. Este relleno clásico de estilo argentino combina carne de res molida sazonada con cebolla acitronada, aceitunas verdes y huevo duro picado. Los bordes se doblan en una trenza decorativa llamada repulgue, y las empanadas se comen con la mano como botana, entrada o comida de fiesta.",
+   "history": "Este tipo de masas rellenas llegó a América Latina con los colonos españoles, y la palabra viene del verbo español empanar, «envolver en pan». Hoy casi todas las provincias argentinas tienen su propio estilo de relleno y de repulgue.",
+   "recipe": {
+    "servings": 6,
+    "time_min": 75,
+    "ingredients": [
+     "500 g de harina de trigo",
+     "120 ml de aceite vegetal",
+     "200 ml de agua tibia",
+     "1 cdta. de sal",
+     "400 g de carne de res molida",
+     "2 cebollas finamente picadas",
+     "60 g de aceitunas verdes en rodajas",
+     "2 huevos duros picados, más 1 huevo para barnizar",
+     "1 cdta. de comino molido, 1 cdta. de pimentón dulce"
+    ],
+    "steps": [
+     "Mezcla la harina, la sal, el aceite y el agua hasta obtener una masa lisa; déjala reposar tapada 30 minutos.",
+     "Acitrona las cebollas en 1 cda. de aceite, agrega la carne y las especias y cocina hasta que se dore; deja enfriar y luego incorpora las aceitunas y el huevo picado.",
+     "Extiende la masa en una capa delgada y corta círculos de 12 cm.",
+     "Pon una cucharada de relleno en cada círculo, dobla y presiona los bordes.",
+     "Barniza con huevo batido y hornea a 200 °C de 18 a 20 minutos, hasta que estén doradas."
+    ]
+   },
+   "tips": [
+    "Usa carne molida magra (5 % de grasa) y escurre la grasa de la sartén después de dorarla.",
+    "Extiende la masa más delgada y rellena generosamente para que cada bocado tenga más carne y menos masa.",
+    "Cuenta empanadas, no platos: una es una botana, dos con una ensalada forman una comida."
+   ],
+   "name_inline": "las empanadas de carne"
   }
+ }
 }

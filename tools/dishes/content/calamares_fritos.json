@@ -1,157 +1,186 @@
 {
-  "db_key": "calamares_fritos",
-  "slug": "calamares-fritos",
-  "emoji": "🦑",
-  "portion_g": 150,
-  "country": "ES",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "calamares_fritos",
+ "slug": "calamares-fritos",
+ "emoji": "🦑",
+ "portion_g": 150,
+ "country": "ES",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Calamares fritos",
+   "origin": "Spain",
+   "intro": "Calamares fritos are squid rings tossed in seasoned flour and deep-fried until crisp and golden, a staple of Spanish tapas bars and beach restaurants. The thin, dry coating crackles while the squid stays tender. They are piled onto a plate with lemon wedges and eaten hot, often with a cold drink.",
+   "history": "Fried squid is eaten all along the coasts of Spain, from Andalusian freidurías that fry fish and seafood to order to tapas bars in Madrid.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "500 g cleaned squid, cut into rings",
+     "100 g plain flour",
+     "Oil for frying",
+     "1 tsp salt",
+     "1 lemon, cut into wedges"
+    ],
+    "steps": [
+     "Dry the squid rings well.",
+     "Mix the flour with the salt and toss the rings until evenly coated; shake off the excess.",
+     "Fry in hot oil (about 180 °C) in small batches for 1–2 minutes until golden.",
+     "Drain on paper towels, sprinkle with a little salt and serve with lemon."
+    ]
+   },
+   "tips": [
+    "Order a half portion (media ración) and share it.",
+    "Let the rings drain well on paper — less oil on the plate.",
+    "Pair with a tomato salad instead of fried potatoes."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Calamares fritos",
-      "origin": "Spain",
-      "intro": "Calamares fritos are squid rings tossed in seasoned flour and deep-fried until crisp and golden, a staple of Spanish tapas bars and beach restaurants. The thin, dry coating crackles while the squid stays tender. They are piled onto a plate with lemon wedges and eaten hot, often with a cold drink.",
-      "history": "Fried squid is eaten all along the coasts of Spain, from Andalusian freidurías that fry fish and seafood to order to tapas bars in Madrid.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "500 g cleaned squid, cut into rings",
-          "100 g plain flour",
-          "Oil for frying",
-          "1 tsp salt",
-          "1 lemon, cut into wedges"
-        ],
-        "steps": [
-          "Dry the squid rings well.",
-          "Mix the flour with the salt and toss the rings until evenly coated; shake off the excess.",
-          "Fry in hot oil (about 180 °C) in small batches for 1–2 minutes until golden.",
-          "Drain on paper towels, sprinkle with a little salt and serve with lemon."
-        ]
-      },
-      "tips": [
-        "Order a half portion (media ración) and share it.",
-        "Let the rings drain well on paper — less oil on the plate.",
-        "Pair with a tomato salad instead of fried potatoes."
-      ]
-    },
-    "ar": {
-      "name": "كالاماريس فريتوس",
-      "origin": "إسبانيا",
-      "intro": "كالاماريس فريتوس حلقات حبار تُقلَّب في دقيق متبّل ثم تُقلى في زيت غزير حتى تصبح مقرمشة ذهبية، وهي من أساسيات حانات التاباس والمطاعم الشاطئية في إسبانيا. الغلاف الرقيق الجاف يتقرمش بينما يبقى الحبار طرياً. تُكدَّس في طبق مع أقماع الليمون وتؤكل ساخنة.",
-      "history": "يُؤكل الحبار المقلي على امتداد سواحل إسبانيا، من محلات القلي في الأندلس التي تقلي السمك والمأكولات البحرية حسب الطلب إلى حانات التاباس في مدريد.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "500 غ حبار منظف مقطع حلقات",
-          "100 غ دقيق أبيض",
-          "زيت للقلي",
-          "1 ملعقة صغيرة ملح",
-          "1 ليمونة مقطعة أقماعاً"
-        ],
-        "steps": [
-          "جفّف حلقات الحبار جيداً.",
-          "اخلط الدقيق بالملح وقلّب فيه الحلقات حتى تتغلف بالتساوي، وانفض الزائد.",
-          "اقلها في زيت ساخن (نحو 180 °م) على دفعات صغيرة دقيقة أو دقيقتين حتى تصبح ذهبية.",
-          "صفّها على ورق مطبخ، ورشّ عليها قليلاً من الملح، وقدّمها مع الليمون."
-        ]
-      },
-      "tips": [
-        "اطلب نصف حصة وتقاسمها.",
-        "اترك الحلقات تتصفى جيداً على الورق — زيت أقل في الطبق.",
-        "قدّمها مع سلطة طماطم بدل البطاطس المقلية."
-      ]
-    },
-    "it": {
-      "name": "Calamares fritos",
-      "origin": "Spagna",
-      "intro": "I calamares fritos sono anelli di calamaro passati nella farina insaporita e fritti in abbondante olio finché sono croccanti e dorati, un classico dei bar di tapas e dei ristoranti sulla spiaggia in Spagna. La panatura sottile e asciutta scrocchia mentre il calamaro resta tenero. Si servono ammucchiati su un piatto con spicchi di limone e si mangiano caldi, spesso con una bevanda fresca.",
-      "history": "Il calamaro fritto si mangia lungo tutte le coste spagnole, dalle freidurías andaluse, che friggono pesce e frutti di mare al momento, ai bar di tapas di Madrid.",
-      "name_inline": "calamares fritos",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "500 g di calamari puliti tagliati ad anelli",
-          "100 g di farina 00",
-          "Olio per friggere",
-          "1 cucchiaino di sale",
-          "1 limone a spicchi"
-        ],
-        "steps": [
-          "Asciuga bene gli anelli di calamaro.",
-          "Mescola la farina con il sale e passaci gli anelli finché sono ricoperti in modo uniforme; scuoti via l'eccesso.",
-          "Friggili nell'olio caldo (circa 180 °C) pochi alla volta per 1–2 minuti, finché sono dorati.",
-          "Scolali su carta assorbente, cospargili con un pizzico di sale e servili con il limone."
-        ]
-      },
-      "tips": [
-        "Ordina una mezza porzione (media ración) e dividila.",
-        "Lascia sgocciolare bene gli anelli sulla carta: meno olio nel piatto.",
-        "Abbinali a un'insalata di pomodori invece che a patate fritte."
-      ]
-    },
-    "el": {
-      "name": "Καλαμάρες φρίτος",
-      "origin": "Ισπανία",
-      "intro": "Οι calamares fritos είναι ροδέλες καλαμαριού περασμένες από καρυκευμένο αλεύρι και τηγανισμένες σε άφθονο λάδι μέχρι να γίνουν τραγανές και χρυσαφένιες, βασικό πιάτο στα μπαρ τάπας και στα εστιατόρια της παραλίας στην Ισπανία. Η λεπτή, στεγνή επικάλυψη τραγανίζει ενώ το καλαμάρι μένει τρυφερό. Σερβίρονται στοιβαγμένες σε πιάτο με κομμάτια λεμονιού και τρώγονται ζεστές, συχνά με ένα δροσερό ποτό.",
-      "history": "Το τηγανητό καλαμάρι τρώγεται σε όλες τις ακτές της Ισπανίας, από τις ανδαλουσιανές freidurías που τηγανίζουν ψάρια και θαλασσινά την ώρα της παραγγελίας μέχρι τα μπαρ τάπας της Μαδρίτης.",
-      "name_inline": "καλαμάρες φρίτος",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "500 γρ. καθαρισμένα καλαμάρια, σε ροδέλες",
-          "100 γρ. αλεύρι για όλες τις χρήσεις",
-          "Λάδι για τηγάνισμα",
-          "1 κ.γ. αλάτι",
-          "1 λεμόνι, σε κομμάτια"
-        ],
-        "steps": [
-          "Στεγνώστε καλά τις ροδέλες καλαμαριού.",
-          "Ανακατέψτε το αλεύρι με το αλάτι και περάστε τις ροδέλες μέχρι να καλυφθούν ομοιόμορφα· τινάξτε το περιττό αλεύρι.",
-          "Τηγανίστε σε καυτό λάδι (περίπου 180 °C) σε μικρές δόσεις για 1–2 λεπτά, μέχρι να ροδίσουν.",
-          "Στραγγίξτε σε απορροφητικό χαρτί, πασπαλίστε με λίγο αλάτι και σερβίρετε με λεμόνι."
-        ]
-      },
-      "tips": [
-        "Παραγγείλτε μισή μερίδα (media ración) και μοιραστείτε τη.",
-        "Αφήστε τις ροδέλες να στραγγίξουν καλά στο χαρτί — λιγότερο λάδι στο πιάτο.",
-        "Συνδυάστε τες με ντοματοσαλάτα αντί για τηγανητές πατάτες."
-      ]
-    },
-    "ru": {
-      "name": "Каламарес фритос",
-      "origin": "Испания",
-      "intro": "Каламарес фритос — кольца кальмара, обвалянные в приправленной муке и обжаренные во фритюре до хруста и золотистого цвета, основа испанских баров с тапас и пляжных ресторанов. Тонкая сухая панировка хрустит, а кальмар остаётся нежным. Их горкой выкладывают на тарелку с дольками лимона и едят горячими, часто с холодным напитком.",
-      "history": "Жареного кальмара едят по всему побережью Испании, от андалусийских фрейдурий, где рыбу и морепродукты жарят на заказ, до баров с тапас в Мадриде.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 25,
-        "ingredients": [
-          "500 г очищенных кальмаров, нарезанных кольцами",
-          "100 г пшеничной муки",
-          "Масло для жарки",
-          "1 ч. л. соли",
-          "1 лимон, нарезанный дольками"
-        ],
-        "steps": [
-          "Хорошо обсушите кольца кальмара.",
-          "Смешайте муку с солью и обваляйте кольца до равномерного покрытия; стряхните излишки.",
-          "Жарьте в горячем масле (около 180 °C) небольшими порциями 1–2 минуты до золотистого цвета.",
-          "Обсушите на бумажных полотенцах, слегка посолите и подавайте с лимоном."
-        ]
-      },
-      "tips": [
-        "Закажите половинную порцию (медиа рационь) и разделите её.",
-        "Дайте кольцам хорошо стечь на бумаге — на тарелке будет меньше масла.",
-        "Подавайте с салатом из помидоров вместо жареного картофеля."
-      ],
-      "name_inline": "каламарес фритос"
-    }
+  "ar": {
+   "name": "كالاماريس فريتوس",
+   "origin": "إسبانيا",
+   "intro": "كالاماريس فريتوس حلقات حبار تُقلَّب في دقيق متبّل ثم تُقلى في زيت غزير حتى تصبح مقرمشة ذهبية، وهي من أساسيات حانات التاباس والمطاعم الشاطئية في إسبانيا. الغلاف الرقيق الجاف يتقرمش بينما يبقى الحبار طرياً. تُكدَّس في طبق مع أقماع الليمون وتؤكل ساخنة.",
+   "history": "يُؤكل الحبار المقلي على امتداد سواحل إسبانيا، من محلات القلي في الأندلس التي تقلي السمك والمأكولات البحرية حسب الطلب إلى حانات التاباس في مدريد.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "500 غ حبار منظف مقطع حلقات",
+     "100 غ دقيق أبيض",
+     "زيت للقلي",
+     "1 ملعقة صغيرة ملح",
+     "1 ليمونة مقطعة أقماعاً"
+    ],
+    "steps": [
+     "جفّف حلقات الحبار جيداً.",
+     "اخلط الدقيق بالملح وقلّب فيه الحلقات حتى تتغلف بالتساوي، وانفض الزائد.",
+     "اقلها في زيت ساخن (نحو 180 °م) على دفعات صغيرة دقيقة أو دقيقتين حتى تصبح ذهبية.",
+     "صفّها على ورق مطبخ، ورشّ عليها قليلاً من الملح، وقدّمها مع الليمون."
+    ]
+   },
+   "tips": [
+    "اطلب نصف حصة وتقاسمها.",
+    "اترك الحلقات تتصفى جيداً على الورق — زيت أقل في الطبق.",
+    "قدّمها مع سلطة طماطم بدل البطاطس المقلية."
+   ]
+  },
+  "it": {
+   "name": "Calamares fritos",
+   "origin": "Spagna",
+   "intro": "I calamares fritos sono anelli di calamaro passati nella farina insaporita e fritti in abbondante olio finché sono croccanti e dorati, un classico dei bar di tapas e dei ristoranti sulla spiaggia in Spagna. La panatura sottile e asciutta scrocchia mentre il calamaro resta tenero. Si servono ammucchiati su un piatto con spicchi di limone e si mangiano caldi, spesso con una bevanda fresca.",
+   "history": "Il calamaro fritto si mangia lungo tutte le coste spagnole, dalle freidurías andaluse, che friggono pesce e frutti di mare al momento, ai bar di tapas di Madrid.",
+   "name_inline": "calamares fritos",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "500 g di calamari puliti tagliati ad anelli",
+     "100 g di farina 00",
+     "Olio per friggere",
+     "1 cucchiaino di sale",
+     "1 limone a spicchi"
+    ],
+    "steps": [
+     "Asciuga bene gli anelli di calamaro.",
+     "Mescola la farina con il sale e passaci gli anelli finché sono ricoperti in modo uniforme; scuoti via l'eccesso.",
+     "Friggili nell'olio caldo (circa 180 °C) pochi alla volta per 1–2 minuti, finché sono dorati.",
+     "Scolali su carta assorbente, cospargili con un pizzico di sale e servili con il limone."
+    ]
+   },
+   "tips": [
+    "Ordina una mezza porzione (media ración) e dividila.",
+    "Lascia sgocciolare bene gli anelli sulla carta: meno olio nel piatto.",
+    "Abbinali a un'insalata di pomodori invece che a patate fritte."
+   ]
+  },
+  "el": {
+   "name": "Καλαμάρες φρίτος",
+   "origin": "Ισπανία",
+   "intro": "Οι calamares fritos είναι ροδέλες καλαμαριού περασμένες από καρυκευμένο αλεύρι και τηγανισμένες σε άφθονο λάδι μέχρι να γίνουν τραγανές και χρυσαφένιες, βασικό πιάτο στα μπαρ τάπας και στα εστιατόρια της παραλίας στην Ισπανία. Η λεπτή, στεγνή επικάλυψη τραγανίζει ενώ το καλαμάρι μένει τρυφερό. Σερβίρονται στοιβαγμένες σε πιάτο με κομμάτια λεμονιού και τρώγονται ζεστές, συχνά με ένα δροσερό ποτό.",
+   "history": "Το τηγανητό καλαμάρι τρώγεται σε όλες τις ακτές της Ισπανίας, από τις ανδαλουσιανές freidurías που τηγανίζουν ψάρια και θαλασσινά την ώρα της παραγγελίας μέχρι τα μπαρ τάπας της Μαδρίτης.",
+   "name_inline": "καλαμάρες φρίτος",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "500 γρ. καθαρισμένα καλαμάρια, σε ροδέλες",
+     "100 γρ. αλεύρι για όλες τις χρήσεις",
+     "Λάδι για τηγάνισμα",
+     "1 κ.γ. αλάτι",
+     "1 λεμόνι, σε κομμάτια"
+    ],
+    "steps": [
+     "Στεγνώστε καλά τις ροδέλες καλαμαριού.",
+     "Ανακατέψτε το αλεύρι με το αλάτι και περάστε τις ροδέλες μέχρι να καλυφθούν ομοιόμορφα· τινάξτε το περιττό αλεύρι.",
+     "Τηγανίστε σε καυτό λάδι (περίπου 180 °C) σε μικρές δόσεις για 1–2 λεπτά, μέχρι να ροδίσουν.",
+     "Στραγγίξτε σε απορροφητικό χαρτί, πασπαλίστε με λίγο αλάτι και σερβίρετε με λεμόνι."
+    ]
+   },
+   "tips": [
+    "Παραγγείλτε μισή μερίδα (media ración) και μοιραστείτε τη.",
+    "Αφήστε τις ροδέλες να στραγγίξουν καλά στο χαρτί — λιγότερο λάδι στο πιάτο.",
+    "Συνδυάστε τες με ντοματοσαλάτα αντί για τηγανητές πατάτες."
+   ]
+  },
+  "ru": {
+   "name": "Каламарес фритос",
+   "origin": "Испания",
+   "intro": "Каламарес фритос — кольца кальмара, обвалянные в приправленной муке и обжаренные во фритюре до хруста и золотистого цвета, основа испанских баров с тапас и пляжных ресторанов. Тонкая сухая панировка хрустит, а кальмар остаётся нежным. Их горкой выкладывают на тарелку с дольками лимона и едят горячими, часто с холодным напитком.",
+   "history": "Жареного кальмара едят по всему побережью Испании, от андалусийских фрейдурий, где рыбу и морепродукты жарят на заказ, до баров с тапас в Мадриде.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "500 г очищенных кальмаров, нарезанных кольцами",
+     "100 г пшеничной муки",
+     "Масло для жарки",
+     "1 ч. л. соли",
+     "1 лимон, нарезанный дольками"
+    ],
+    "steps": [
+     "Хорошо обсушите кольца кальмара.",
+     "Смешайте муку с солью и обваляйте кольца до равномерного покрытия; стряхните излишки.",
+     "Жарьте в горячем масле (около 180 °C) небольшими порциями 1–2 минуты до золотистого цвета.",
+     "Обсушите на бумажных полотенцах, слегка посолите и подавайте с лимоном."
+    ]
+   },
+   "tips": [
+    "Закажите половинную порцию (медиа рационь) и разделите её.",
+    "Дайте кольцам хорошо стечь на бумаге — на тарелке будет меньше масла.",
+    "Подавайте с салатом из помидоров вместо жареного картофеля."
+   ],
+   "name_inline": "каламарес фритос"
+  },
+  "es": {
+   "name": "Calamares fritos",
+   "origin": "España",
+   "intro": "Los calamares fritos son aros de calamar pasados por harina sazonada y fritos hasta quedar crujientes y dorados, un clásico de los bares de tapas y los restaurantes de playa de España. La cobertura fina y seca cruje mientras el calamar se mantiene tierno. Se amontonan en un plato con gajos de limón y se comen calientes, a menudo con una bebida bien fría.",
+   "history": "El pescado frito se come a lo largo de todas las costas de España, desde las freidurías andaluzas, que fríen pescados y mariscos al momento, hasta los bares de tapas de Madrid.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 25,
+    "ingredients": [
+     "500 g de calamares limpios, en aros",
+     "100 g de harina de trigo",
+     "Aceite para freír",
+     "1 cdta. de sal",
+     "1 limón en gajos"
+    ],
+    "steps": [
+     "Seca bien los aros de calamar.",
+     "Mezcla la harina con la sal y reboza los aros hasta cubrirlos de manera uniforme; sacude el exceso.",
+     "Fríelos en aceite caliente (a unos 180 °C) en tandas pequeñas, de 1 a 2 minutos, hasta que estén dorados.",
+     "Escúrrelos sobre papel absorbente, espolvorea con un poco de sal y sirve con limón."
+    ]
+   },
+   "tips": [
+    "Pide media ración y compártela.",
+    "Deja que los aros escurran bien sobre papel: así queda menos aceite en el plato.",
+    "Acompáñalos con una ensalada de tomate en lugar de papas fritas."
+   ],
+   "name_inline": "los calamares fritos"
   }
+ }
 }

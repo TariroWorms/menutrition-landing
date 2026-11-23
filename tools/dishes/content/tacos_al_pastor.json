@@ -1,185 +1,220 @@
 {
-  "db_key": "tacos_al_pastor",
-  "slug": "tacos-al-pastor",
-  "emoji": "🌮",
-  "portion_g": 200,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tacos_al_pastor",
+ "slug": "tacos-al-pastor",
+ "emoji": "🌮",
+ "portion_g": 200,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Tacos al Pastor",
+   "origin": "Mexico · Mexico City",
+   "intro": "Tacos al pastor are filled with thin slices of chili-marinated pork that is roasted on a vertical spit and shaved off to order. Each small tortilla is topped with the juicy, smoky-red pork, a sliver of roasted pineapple, chopped onion and cilantro. The meat is tangy and lightly spicy, and the pineapple adds a sweet contrast; lime and salsa are served on the side.",
+   "history": "Tacos al pastor are usually credited to Lebanese immigrants in Mexico, whose spit-roasted shawarma was adapted in the 20th century using pork and Mexican chili marinades. Today they are one of the signature street foods of Mexico City.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g pork shoulder, thinly sliced",
+     "3 dried guajillo chilies, soaked",
+     "2 tbsp achiote paste or paprika",
+     "3 tbsp pineapple juice",
+     "2 tbsp vinegar",
+     "2 garlic cloves",
+     "200 g fresh pineapple, sliced",
+     "12 small tortillas",
+     "1 onion, finely chopped",
+     "1 bunch cilantro, chopped"
+    ],
+    "steps": [
+     "Blend chilies, achiote, pineapple juice, vinegar, garlic and salt into a marinade.",
+     "Coat the pork and marinate for at least 2 hours.",
+     "Grill or pan-sear the pork in batches until charred, then chop finely; grill the pineapple slices.",
+     "Warm the tortillas in a dry pan.",
+     "Fill with pork, pineapple, onion and cilantro and serve with lime."
+    ]
+   },
+   "tips": [
+    "Use lean pork loin and trim visible fat.",
+    "Count your tacos — two or three make a satisfying portion.",
+    "Add plenty of onion, cilantro and fresh salsa, which add volume for few calories."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Tacos al Pastor",
-      "origin": "Mexico · Mexico City",
-      "intro": "Tacos al pastor are filled with thin slices of chili-marinated pork that is roasted on a vertical spit and shaved off to order. Each small tortilla is topped with the juicy, smoky-red pork, a sliver of roasted pineapple, chopped onion and cilantro. The meat is tangy and lightly spicy, and the pineapple adds a sweet contrast; lime and salsa are served on the side.",
-      "history": "Tacos al pastor are usually credited to Lebanese immigrants in Mexico, whose spit-roasted shawarma was adapted in the 20th century using pork and Mexican chili marinades. Today they are one of the signature street foods of Mexico City.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 g pork shoulder, thinly sliced",
-          "3 dried guajillo chilies, soaked",
-          "2 tbsp achiote paste or paprika",
-          "3 tbsp pineapple juice",
-          "2 tbsp vinegar",
-          "2 garlic cloves",
-          "200 g fresh pineapple, sliced",
-          "12 small tortillas",
-          "1 onion, finely chopped",
-          "1 bunch cilantro, chopped"
-        ],
-        "steps": [
-          "Blend chilies, achiote, pineapple juice, vinegar, garlic and salt into a marinade.",
-          "Coat the pork and marinate for at least 2 hours.",
-          "Grill or pan-sear the pork in batches until charred, then chop finely; grill the pineapple slices.",
-          "Warm the tortillas in a dry pan.",
-          "Fill with pork, pineapple, onion and cilantro and serve with lime."
-        ]
-      },
-      "tips": [
-        "Use lean pork loin and trim visible fat.",
-        "Count your tacos — two or three make a satisfying portion.",
-        "Add plenty of onion, cilantro and fresh salsa, which add volume for few calories."
-      ]
-    },
-    "ar": {
-      "name": "تاكو آل باستور",
-      "origin": "المكسيك · مكسيكو سيتي",
-      "intro": "تُحشى تاكو آل باستور بشرائح رقيقة من لحم الخنزير المتبّل بالفلفل الحار، يُشوى على سيخ عمودي ويُقطَّع عند الطلب. وتُزيَّن كل تورتيلا صغيرة باللحم الأحمر المدخّن الغني بالعصارة وشريحة من الأناناس المشوي والبصل المفروم والكزبرة. اللحم لاذع وحار قليلًا، ويضيف الأناناس تباينًا حلوًا، ويُقدَّم الليمون الأخضر والسالسا جانبًا.",
-      "history": "يُنسب تاكو آل باستور عادة إلى المهاجرين اللبنانيين في المكسيك، إذ جرى تكييف الشاورما المشوية على السيخ في القرن العشرين باستخدام لحم الخنزير وتتبيلات الفلفل المكسيكية. وهو اليوم من أشهر أطعمة الشارع في مكسيكو سيتي.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 غ كتف خنزير مقطع شرائح رقيقة",
-          "3 حبات فلفل غواخيو مجفف منقوع",
-          "2 ملعقة كبيرة معجون أشيوتي أو بابريكا",
-          "3 ملاعق كبيرة عصير أناناس",
-          "2 ملعقة كبيرة خل",
-          "2 فص ثوم",
-          "200 غ أناناس طازج مقطع شرائح",
-          "12 تورتيلا صغيرة",
-          "1 بصلة مفرومة ناعمًا",
-          "1 حزمة كزبرة مفرومة"
-        ],
-        "steps": [
-          "اخلط الفلفل والأشيوتي وعصير الأناناس والخل والثوم والملح في الخلاط لصنع التتبيلة.",
-          "غطِّ اللحم بالتتبيلة واتركه ساعتين على الأقل.",
-          "اشوِ اللحم أو حمّره في المقلاة على دفعات حتى يتفحّم قليلًا ثم قطّعه ناعمًا، واشوِ شرائح الأناناس.",
-          "سخّن التورتيلا في مقلاة جافة.",
-          "احشُها باللحم والأناناس والبصل والكزبرة وقدّمها مع الليمون الأخضر."
-        ]
-      },
-      "tips": [
-        "استخدم لحم خنزير قليل الدهن من الظهر وأزل الدهون الظاهرة.",
-        "احسب عدد قطع التاكو — اثنتان أو ثلاث حصة مُشبعة.",
-        "أكثر من البصل والكزبرة والسالسا الطازجة فهي تزيد الحجم بسعرات قليلة."
-      ]
-    },
-    "it": {
-      "name": "Tacos al pastor",
-      "origin": "Messico · Città del Messico",
-      "intro": "I tacos al pastor sono farciti con sottili fette di maiale marinato al peperoncino, arrostito su uno spiedo verticale e tagliato al momento. Ogni piccola tortilla è guarnita con il maiale succoso, rosso e affumicato, una fettina di ananas arrostito, cipolla tritata e coriandolo. La carne è acidula e leggermente piccante, e l'ananas aggiunge un contrasto dolce; lime e salsa si servono a parte.",
-      "history": "I tacos al pastor vengono di solito attribuiti agli immigrati libanesi in Messico, il cui shawarma allo spiedo fu adattato nel XX secolo con carne di maiale e marinate messicane al peperoncino. Oggi sono uno dei cibi di strada simbolo di Città del Messico.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 g di spalla di maiale, a fette sottili",
-          "3 peperoncini guajillo secchi, ammollati",
-          "2 cucchiai di pasta di achiote o paprika",
-          "3 cucchiai di succo d'ananas",
-          "2 cucchiai di aceto",
-          "2 spicchi d'aglio",
-          "200 g di ananas fresco, a fette",
-          "12 tortillas piccole",
-          "1 cipolla, tritata finemente",
-          "1 mazzo di coriandolo, tritato"
-        ],
-        "steps": [
-          "Frulla peperoncini, achiote, succo d'ananas, aceto, aglio e sale per ottenere una marinata.",
-          "Ricopri il maiale e lascialo marinare per almeno 2 ore.",
-          "Griglia o rosola in padella il maiale a più riprese finché è abbrustolito, poi tritalo finemente; griglia le fette di ananas.",
-          "Scalda le tortillas in una padella asciutta.",
-          "Farciscile con maiale, ananas, cipolla e coriandolo e servi con il lime."
-        ]
-      },
-      "tips": [
-        "Usa lonza di maiale magra ed elimina il grasso visibile.",
-        "Conta i tacos: due o tre sono una porzione appagante.",
-        "Aggiungi abbondante cipolla, coriandolo e salsa fresca, che danno volume con poche calorie."
-      ]
-    },
-    "el": {
-      "name": "Τάκος αλ παστόρ",
-      "origin": "Μεξικό · Πόλη του Μεξικού",
-      "intro": "Τα τάκος αλ παστόρ γεμίζονται με λεπτές φέτες χοιρινού μαριναρισμένου σε τσίλι, που ψήνεται σε κάθετη σούβλα και κόβεται τη στιγμή της παραγγελίας. Κάθε μικρή τορτίγια συμπληρώνεται με το ζουμερό, καπνιστό κόκκινο χοιρινό, μια λεπτή φέτα ψητού ανανά, ψιλοκομμένο κρεμμύδι και κόλιαντρο. Το κρέας είναι ξινούτσικο και ελαφρώς πικάντικο, και ο ανανάς προσθέτει γλυκιά αντίθεση· λάιμ και σάλτσα σερβίρονται στο πλάι.",
-      "history": "Τα τάκος αλ παστόρ αποδίδονται συνήθως σε Λιβανέζους μετανάστες στο Μεξικό, των οποίων το σαουάρμα σούβλας προσαρμόστηκε τον 20ό αιώνα με χοιρινό και μεξικάνικες μαρινάδες τσίλι. Σήμερα είναι ένα από τα εμβληματικά φαγητά του δρόμου της Πόλης του Μεξικού.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 γρ. χοιρινή σπάλα, σε λεπτές φέτες",
-          "3 ξερές πιπεριές τσίλι γκουαχίγιο, μουλιασμένες",
-          "2 κ.σ. πάστα ατσιότε ή πάπρικα",
-          "3 κ.σ. χυμός ανανά",
-          "2 κ.σ. ξίδι",
-          "2 σκελίδες σκόρδο",
-          "200 γρ. φρέσκος ανανάς, σε φέτες",
-          "12 μικρές τορτίγιες",
-          "1 κρεμμύδι, ψιλοκομμένο",
-          "1 ματσάκι κόλιαντρο, ψιλοκομμένο"
-        ],
-        "steps": [
-          "Χτυπήστε στο μπλέντερ τα τσίλι, το ατσιότε, τον χυμό ανανά, το ξίδι, το σκόρδο και αλάτι για μαρινάδα.",
-          "Αλείψτε το χοιρινό και μαρινάρετε για τουλάχιστον 2 ώρες.",
-          "Ψήστε στη σχάρα ή σοτάρετε στο τηγάνι το χοιρινό σε δόσεις μέχρι να καψαλιστεί και μετά ψιλοκόψτε το· ψήστε τις φέτες ανανά στη σχάρα.",
-          "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
-          "Γεμίστε με χοιρινό, ανανά, κρεμμύδι και κόλιαντρο και σερβίρετε με λάιμ."
-        ]
-      },
-      "tips": [
-        "Χρησιμοποιήστε άπαχο χοιρινό φιλέτο και αφαιρέστε το ορατό λίπος.",
-        "Μετρήστε τα τάκος σας — δύο ή τρία είναι μια χορταστική μερίδα.",
-        "Προσθέστε άφθονο κρεμμύδι, κόλιαντρο και φρέσκια σάλτσα, που δίνουν όγκο με λίγες θερμίδες."
-      ]
-    },
-    "ru": {
-      "name": "Тако аль пастор",
-      "origin": "Мексика · Мехико",
-      "intro": "Тако аль пастор готовят с тонкими ломтиками свинины, маринованной с чили, которую жарят на вертикальном вертеле и срезают по заказу. На каждую небольшую тортилью кладут сочную дымчато-красную свинину, ломтик печёного ананаса, нарубленный лук и кинзу. Мясо пикантное и слегка острое, а ананас добавляет сладкий контраст; лайм и сальсу подают отдельно.",
-      "history": "Создание тако аль пастор обычно приписывают ливанским иммигрантам в Мексике, чья шаурма на вертеле была адаптирована в XX веке с использованием свинины и мексиканских маринадов из чили. Сегодня это одна из визитных карточек уличной еды Мехико.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 40,
-        "ingredients": [
-          "600 г свиной лопатки, тонко нарезанной",
-          "3 сушёных чили гуахильо, замоченных",
-          "2 ст. л. пасты ачиоте или паприки",
-          "3 ст. л. ананасового сока",
-          "2 ст. л. уксуса",
-          "2 зубчика чеснока",
-          "200 г свежего ананаса, нарезанного",
-          "12 небольших тортилий",
-          "1 луковица, мелко нарубленная",
-          "1 пучок кинзы, нарубленный"
-        ],
-        "steps": [
-          "Взбейте блендером чили, ачиоте, ананасовый сок, уксус, чеснок и соль в маринад.",
-          "Обваляйте свинину и маринуйте не менее 2 часов.",
-          "Обжарьте свинину на гриле или сковороде порциями до румяной корочки, затем мелко нарубите; обжарьте ломтики ананаса на гриле.",
-          "Подогрейте тортильи на сухой сковороде.",
-          "Наполните свининой, ананасом, луком и кинзой и подавайте с лаймом."
-        ]
-      },
-      "tips": [
-        "Берите постную свиную корейку и срезайте видимый жир.",
-        "Считайте тако: две-три штуки составляют сытную порцию.",
-        "Добавьте много лука, кинзы и свежей сальсы, которые дают объём при малом количестве калорий."
-      ],
-      "name_inline": "тако аль пастор"
-    }
+  "ar": {
+   "name": "تاكو آل باستور",
+   "origin": "المكسيك · مكسيكو سيتي",
+   "intro": "تُحشى تاكو آل باستور بشرائح رقيقة من لحم الخنزير المتبّل بالفلفل الحار، يُشوى على سيخ عمودي ويُقطَّع عند الطلب. وتُزيَّن كل تورتيلا صغيرة باللحم الأحمر المدخّن الغني بالعصارة وشريحة من الأناناس المشوي والبصل المفروم والكزبرة. اللحم لاذع وحار قليلًا، ويضيف الأناناس تباينًا حلوًا، ويُقدَّم الليمون الأخضر والسالسا جانبًا.",
+   "history": "يُنسب تاكو آل باستور عادة إلى المهاجرين اللبنانيين في المكسيك، إذ جرى تكييف الشاورما المشوية على السيخ في القرن العشرين باستخدام لحم الخنزير وتتبيلات الفلفل المكسيكية. وهو اليوم من أشهر أطعمة الشارع في مكسيكو سيتي.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 غ كتف خنزير مقطع شرائح رقيقة",
+     "3 حبات فلفل غواخيو مجفف منقوع",
+     "2 ملعقة كبيرة معجون أشيوتي أو بابريكا",
+     "3 ملاعق كبيرة عصير أناناس",
+     "2 ملعقة كبيرة خل",
+     "2 فص ثوم",
+     "200 غ أناناس طازج مقطع شرائح",
+     "12 تورتيلا صغيرة",
+     "1 بصلة مفرومة ناعمًا",
+     "1 حزمة كزبرة مفرومة"
+    ],
+    "steps": [
+     "اخلط الفلفل والأشيوتي وعصير الأناناس والخل والثوم والملح في الخلاط لصنع التتبيلة.",
+     "غطِّ اللحم بالتتبيلة واتركه ساعتين على الأقل.",
+     "اشوِ اللحم أو حمّره في المقلاة على دفعات حتى يتفحّم قليلًا ثم قطّعه ناعمًا، واشوِ شرائح الأناناس.",
+     "سخّن التورتيلا في مقلاة جافة.",
+     "احشُها باللحم والأناناس والبصل والكزبرة وقدّمها مع الليمون الأخضر."
+    ]
+   },
+   "tips": [
+    "استخدم لحم خنزير قليل الدهن من الظهر وأزل الدهون الظاهرة.",
+    "احسب عدد قطع التاكو — اثنتان أو ثلاث حصة مُشبعة.",
+    "أكثر من البصل والكزبرة والسالسا الطازجة فهي تزيد الحجم بسعرات قليلة."
+   ]
+  },
+  "it": {
+   "name": "Tacos al pastor",
+   "origin": "Messico · Città del Messico",
+   "intro": "I tacos al pastor sono farciti con sottili fette di maiale marinato al peperoncino, arrostito su uno spiedo verticale e tagliato al momento. Ogni piccola tortilla è guarnita con il maiale succoso, rosso e affumicato, una fettina di ananas arrostito, cipolla tritata e coriandolo. La carne è acidula e leggermente piccante, e l'ananas aggiunge un contrasto dolce; lime e salsa si servono a parte.",
+   "history": "I tacos al pastor vengono di solito attribuiti agli immigrati libanesi in Messico, il cui shawarma allo spiedo fu adattato nel XX secolo con carne di maiale e marinate messicane al peperoncino. Oggi sono uno dei cibi di strada simbolo di Città del Messico.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g di spalla di maiale, a fette sottili",
+     "3 peperoncini guajillo secchi, ammollati",
+     "2 cucchiai di pasta di achiote o paprika",
+     "3 cucchiai di succo d'ananas",
+     "2 cucchiai di aceto",
+     "2 spicchi d'aglio",
+     "200 g di ananas fresco, a fette",
+     "12 tortillas piccole",
+     "1 cipolla, tritata finemente",
+     "1 mazzo di coriandolo, tritato"
+    ],
+    "steps": [
+     "Frulla peperoncini, achiote, succo d'ananas, aceto, aglio e sale per ottenere una marinata.",
+     "Ricopri il maiale e lascialo marinare per almeno 2 ore.",
+     "Griglia o rosola in padella il maiale a più riprese finché è abbrustolito, poi tritalo finemente; griglia le fette di ananas.",
+     "Scalda le tortillas in una padella asciutta.",
+     "Farciscile con maiale, ananas, cipolla e coriandolo e servi con il lime."
+    ]
+   },
+   "tips": [
+    "Usa lonza di maiale magra ed elimina il grasso visibile.",
+    "Conta i tacos: due o tre sono una porzione appagante.",
+    "Aggiungi abbondante cipolla, coriandolo e salsa fresca, che danno volume con poche calorie."
+   ]
+  },
+  "el": {
+   "name": "Τάκος αλ παστόρ",
+   "origin": "Μεξικό · Πόλη του Μεξικού",
+   "intro": "Τα τάκος αλ παστόρ γεμίζονται με λεπτές φέτες χοιρινού μαριναρισμένου σε τσίλι, που ψήνεται σε κάθετη σούβλα και κόβεται τη στιγμή της παραγγελίας. Κάθε μικρή τορτίγια συμπληρώνεται με το ζουμερό, καπνιστό κόκκινο χοιρινό, μια λεπτή φέτα ψητού ανανά, ψιλοκομμένο κρεμμύδι και κόλιαντρο. Το κρέας είναι ξινούτσικο και ελαφρώς πικάντικο, και ο ανανάς προσθέτει γλυκιά αντίθεση· λάιμ και σάλτσα σερβίρονται στο πλάι.",
+   "history": "Τα τάκος αλ παστόρ αποδίδονται συνήθως σε Λιβανέζους μετανάστες στο Μεξικό, των οποίων το σαουάρμα σούβλας προσαρμόστηκε τον 20ό αιώνα με χοιρινό και μεξικάνικες μαρινάδες τσίλι. Σήμερα είναι ένα από τα εμβληματικά φαγητά του δρόμου της Πόλης του Μεξικού.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 γρ. χοιρινή σπάλα, σε λεπτές φέτες",
+     "3 ξερές πιπεριές τσίλι γκουαχίγιο, μουλιασμένες",
+     "2 κ.σ. πάστα ατσιότε ή πάπρικα",
+     "3 κ.σ. χυμός ανανά",
+     "2 κ.σ. ξίδι",
+     "2 σκελίδες σκόρδο",
+     "200 γρ. φρέσκος ανανάς, σε φέτες",
+     "12 μικρές τορτίγιες",
+     "1 κρεμμύδι, ψιλοκομμένο",
+     "1 ματσάκι κόλιαντρο, ψιλοκομμένο"
+    ],
+    "steps": [
+     "Χτυπήστε στο μπλέντερ τα τσίλι, το ατσιότε, τον χυμό ανανά, το ξίδι, το σκόρδο και αλάτι για μαρινάδα.",
+     "Αλείψτε το χοιρινό και μαρινάρετε για τουλάχιστον 2 ώρες.",
+     "Ψήστε στη σχάρα ή σοτάρετε στο τηγάνι το χοιρινό σε δόσεις μέχρι να καψαλιστεί και μετά ψιλοκόψτε το· ψήστε τις φέτες ανανά στη σχάρα.",
+     "Ζεστάνετε τις τορτίγιες σε στεγνό τηγάνι.",
+     "Γεμίστε με χοιρινό, ανανά, κρεμμύδι και κόλιαντρο και σερβίρετε με λάιμ."
+    ]
+   },
+   "tips": [
+    "Χρησιμοποιήστε άπαχο χοιρινό φιλέτο και αφαιρέστε το ορατό λίπος.",
+    "Μετρήστε τα τάκος σας — δύο ή τρία είναι μια χορταστική μερίδα.",
+    "Προσθέστε άφθονο κρεμμύδι, κόλιαντρο και φρέσκια σάλτσα, που δίνουν όγκο με λίγες θερμίδες."
+   ]
+  },
+  "ru": {
+   "name": "Тако аль пастор",
+   "origin": "Мексика · Мехико",
+   "intro": "Тако аль пастор готовят с тонкими ломтиками свинины, маринованной с чили, которую жарят на вертикальном вертеле и срезают по заказу. На каждую небольшую тортилью кладут сочную дымчато-красную свинину, ломтик печёного ананаса, нарубленный лук и кинзу. Мясо пикантное и слегка острое, а ананас добавляет сладкий контраст; лайм и сальсу подают отдельно.",
+   "history": "Создание тако аль пастор обычно приписывают ливанским иммигрантам в Мексике, чья шаурма на вертеле была адаптирована в XX веке с использованием свинины и мексиканских маринадов из чили. Сегодня это одна из визитных карточек уличной еды Мехико.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 г свиной лопатки, тонко нарезанной",
+     "3 сушёных чили гуахильо, замоченных",
+     "2 ст. л. пасты ачиоте или паприки",
+     "3 ст. л. ананасового сока",
+     "2 ст. л. уксуса",
+     "2 зубчика чеснока",
+     "200 г свежего ананаса, нарезанного",
+     "12 небольших тортилий",
+     "1 луковица, мелко нарубленная",
+     "1 пучок кинзы, нарубленный"
+    ],
+    "steps": [
+     "Взбейте блендером чили, ачиоте, ананасовый сок, уксус, чеснок и соль в маринад.",
+     "Обваляйте свинину и маринуйте не менее 2 часов.",
+     "Обжарьте свинину на гриле или сковороде порциями до румяной корочки, затем мелко нарубите; обжарьте ломтики ананаса на гриле.",
+     "Подогрейте тортильи на сухой сковороде.",
+     "Наполните свининой, ананасом, луком и кинзой и подавайте с лаймом."
+    ]
+   },
+   "tips": [
+    "Берите постную свиную корейку и срезайте видимый жир.",
+    "Считайте тако: две-три штуки составляют сытную порцию.",
+    "Добавьте много лука, кинзы и свежей сальсы, которые дают объём при малом количестве калорий."
+   ],
+   "name_inline": "тако аль пастор"
+  },
+  "es": {
+   "name": "Tacos al pastor",
+   "origin": "México · Ciudad de México",
+   "intro": "Los tacos al pastor se rellenan con rebanadas finas de cerdo marinado en chile, asado en un trompo vertical y cortado al momento. Cada tortilla pequeña lleva la carne jugosa y de un rojo ahumado, una lasca de piña asada, cebolla picada y cilantro. La carne es ácida y ligeramente picante, y la piña aporta un contraste dulce; se sirven con limón y salsa aparte.",
+   "history": "Los tacos al pastor suelen atribuirse a los inmigrantes libaneses en México, cuyo shawarma asado en trompo se adaptó en el siglo XX con cerdo y adobos de chile mexicanos. Hoy son una de las comidas callejeras emblemáticas de la Ciudad de México.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 40,
+    "ingredients": [
+     "600 g de espaldilla de cerdo en rebanadas finas",
+     "3 chiles guajillo secos, remojados",
+     "2 cdas. de pasta de achiote o pimentón",
+     "3 cdas. de jugo de piña",
+     "2 cdas. de vinagre",
+     "2 dientes de ajo",
+     "200 g de piña fresca en rebanadas",
+     "12 tortillas pequeñas",
+     "1 cebolla finamente picada",
+     "1 manojo de cilantro picado"
+    ],
+    "steps": [
+     "Licúa los chiles, el achiote, el jugo de piña, el vinagre, el ajo y sal para hacer el adobo.",
+     "Unta el cerdo con el adobo y déjalo marinar por lo menos 2 horas.",
+     "Asa o sella el cerdo por tandas hasta que se chamusque y pícalo finamente; asa también las rebanadas de piña.",
+     "Calienta las tortillas en una sartén seca.",
+     "Rellena con cerdo, piña, cebolla y cilantro, y sirve con limón."
+    ]
+   },
+   "tips": [
+    "Usa lomo de cerdo magro y quita la grasa visible.",
+    "Cuenta tus tacos: dos o tres son una porción satisfactoria.",
+    "Agrega mucha cebolla, cilantro y salsa fresca, que dan volumen con pocas calorías."
+   ],
+   "name_inline": "los tacos al pastor"
   }
+ }
 }

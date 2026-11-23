@@ -1,176 +1,209 @@
 {
-  "db_key": "papa_a_la_huancaina",
-  "slug": "papa-a-la-huancaina",
-  "emoji": "🥔",
-  "portion_g": 250,
-  "country": "PE",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "papa_a_la_huancaina",
+ "slug": "papa-a-la-huancaina",
+ "emoji": "🥔",
+ "portion_g": 250,
+ "country": "PE",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Papa a la huancaína",
+   "origin": "Peru · Huancayo / Lima",
+   "intro": "Papa a la huancaína is a Peruvian starter of sliced boiled potatoes covered in a creamy, bright-yellow sauce. The sauce is blended from fresh cheese, ají amarillo chillies, milk and a few crackers that thicken it, and it is mildly spicy, salty and smooth. The dish is served cold, often on lettuce leaves, as an appetizer or side.",
+   "history": "The name refers to Huancayo, a city in the central Andes of Peru, though the exact origin of the dish is uncertain and several stories circulate. It is built on two Andean staples, potatoes and ají amarillo. Today it is one of the best-known Peruvian starters, served at home and in restaurants across the country.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "800 g yellow or waxy potatoes",
+     "200 g queso fresco",
+     "3 ají amarillo chillies, seeded (or 3 tbsp ají amarillo paste)",
+     "150 ml milk",
+     "4 salted crackers",
+     "1 tbsp vegetable oil",
+     "Salt",
+     "Lettuce leaves to serve"
+    ],
+    "steps": [
+     "Boil the potatoes in salted water until tender, cool and slice thickly.",
+     "Briefly sauté the chillies in the oil to soften them.",
+     "Blend the chillies, queso fresco, milk and crackers until smooth and creamy; adjust salt.",
+     "Arrange the potatoes on lettuce and pour the sauce over.",
+     "Serve cold."
+    ]
+   },
+   "tips": [
+    "Thin the sauce with a little more milk so a smaller amount covers the potatoes.",
+    "Use a lean fresh cheese and keep the oil to 1 tbsp — 1 tbsp oil ≈ 120 kcal.",
+    "Serve it as a starter with grilled protein instead of as a full meal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Papa a la huancaína",
-      "origin": "Peru · Huancayo / Lima",
-      "intro": "Papa a la huancaína is a Peruvian starter of sliced boiled potatoes covered in a creamy, bright-yellow sauce. The sauce is blended from fresh cheese, ají amarillo chillies, milk and a few crackers that thicken it, and it is mildly spicy, salty and smooth. The dish is served cold, often on lettuce leaves, as an appetizer or side.",
-      "history": "The name refers to Huancayo, a city in the central Andes of Peru, though the exact origin of the dish is uncertain and several stories circulate. It is built on two Andean staples, potatoes and ají amarillo. Today it is one of the best-known Peruvian starters, served at home and in restaurants across the country.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "800 g yellow or waxy potatoes",
-          "200 g queso fresco",
-          "3 ají amarillo chillies, seeded (or 3 tbsp ají amarillo paste)",
-          "150 ml milk",
-          "4 salted crackers",
-          "1 tbsp vegetable oil",
-          "Salt",
-          "Lettuce leaves to serve"
-        ],
-        "steps": [
-          "Boil the potatoes in salted water until tender, cool and slice thickly.",
-          "Briefly sauté the chillies in the oil to soften them.",
-          "Blend the chillies, queso fresco, milk and crackers until smooth and creamy; adjust salt.",
-          "Arrange the potatoes on lettuce and pour the sauce over.",
-          "Serve cold."
-        ]
-      },
-      "tips": [
-        "Thin the sauce with a little more milk so a smaller amount covers the potatoes.",
-        "Use a lean fresh cheese and keep the oil to 1 tbsp — 1 tbsp oil ≈ 120 kcal.",
-        "Serve it as a starter with grilled protein instead of as a full meal."
-      ]
-    },
-    "ar": {
-      "name": "بابا آلا وانكاينا",
-      "origin": "بيرو · وانكايو / ليما",
-      "intro": "بابا آلا وانكاينا مقبّلات بيروفية من شرائح البطاطا المسلوقة مغطاة بصلصة كريمية صفراء زاهية. تُخلط الصلصة من الجبن الطازج وفلفل أجي أماريلو والحليب وبعض البسكويت المالح الذي يكثّفها، وطعمها حار قليلًا ومالح وناعم. يُقدَّم الطبق باردًا، غالبًا على أوراق الخس، كمقبّلات أو طبق جانبي.",
-      "history": "يشير الاسم إلى مدينة وانكايو في جبال الأنديز الوسطى في بيرو، مع أن الأصل الدقيق للطبق غير مؤكد وتتداول حوله عدة روايات. ويقوم على مكوّنين أساسيين من الأنديز هما البطاطا وفلفل أجي أماريلو. وهو اليوم من أشهر المقبّلات البيروفية في البيوت والمطاعم.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "800 غ بطاطا صفراء",
-          "200 غ جبن طازج (كيسو فريسكو)",
-          "3 حبات فلفل أجي أماريلو منزوعة البذور (أو 3 ملاعق كبيرة معجون أجي أماريلو)",
-          "150 مل حليب",
-          "4 قطع بسكويت مالح",
-          "1 ملعقة كبيرة زيت نباتي",
-          "ملح",
-          "أوراق خس للتقديم"
-        ],
-        "steps": [
-          "اسلق البطاطا في ماء مملّح حتى تنضج ثم بردها وقطّعها شرائح سميكة.",
-          "شوّح الفلفل قليلًا في الزيت ليطرى.",
-          "اخلط الفلفل والجبن والحليب والبسكويت في الخلاط حتى تصبح الصلصة ناعمة وكريمية، واضبط الملح.",
-          "رتّب البطاطا على الخس واسكب الصلصة فوقها.",
-          "قدّمه باردًا."
-        ]
-      },
-      "tips": [
-        "خفّف الصلصة بقليل من الحليب لتكفي كمية أقل لتغطية البطاطا.",
-        "استخدم جبنًا طازجًا قليل الدسم واكتفِ بملعقة زيت واحدة — ملعقة زيت كبيرة ≈ 120 سعرة.",
-        "قدّمه كمقبّلات مع بروتين مشوي بدل أن يكون وجبة كاملة."
-      ]
-    },
-    "it": {
-      "name": "Papa a la huancaína",
-      "origin": "Perù · Huancayo / Lima",
-      "intro": "La papa a la huancaína è un antipasto peruviano di patate lesse a fette ricoperte da una salsa cremosa giallo acceso. La salsa si frulla con formaggio fresco, peperoncini ají amarillo, latte e qualche cracker che la addensa, ed è leggermente piccante, sapida e liscia. Il piatto si serve freddo, spesso su foglie di lattuga, come antipasto o contorno.",
-      "history": "Il nome si riferisce a Huancayo, una città delle Ande centrali del Perù, anche se l'origine esatta del piatto è incerta e circolano diverse storie. Si basa su due prodotti fondamentali delle Ande, le patate e l'ají amarillo. Oggi è uno degli antipasti peruviani più conosciuti, servito in casa e nei ristoranti di tutto il paese.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "800 g di patate gialle o a pasta soda",
-          "200 g di queso fresco",
-          "3 peperoncini ají amarillo senza semi (o 3 cucchiai di pasta di ají amarillo)",
-          "150 ml di latte",
-          "4 cracker salati",
-          "1 cucchiaio di olio di semi",
-          "Sale",
-          "Foglie di lattuga per servire"
-        ],
-        "steps": [
-          "Lessa le patate in acqua salata finché sono tenere, lasciale raffreddare e tagliale a fette spesse.",
-          "Salta brevemente i peperoncini nell'olio per ammorbidirli.",
-          "Frulla peperoncini, queso fresco, latte e cracker fino a ottenere una salsa liscia e cremosa; regola di sale.",
-          "Disponi le patate sulla lattuga e versaci sopra la salsa.",
-          "Servi freddo."
-        ]
-      },
-      "tips": [
-        "Allunga la salsa con un po' più di latte, così una quantità minore basta a coprire le patate.",
-        "Usa un formaggio fresco magro e limita l'olio a 1 cucchiaio: 1 cucchiaio di olio ≈ 120 kcal.",
-        "Servila come antipasto insieme a proteine alla griglia invece che come pasto completo."
-      ],
-      "name_inline": "papa a la huancaína"
-    },
-    "el": {
-      "name": "Πάπα α λα ουανκαΐνα",
-      "origin": "Περού · Ουανκάγιο / Λίμα",
-      "intro": "Η πάπα α λα ουανκαΐνα είναι περουβιανό ορεκτικό με φέτες βραστής πατάτας σκεπασμένες με μια κρεμώδη, έντονα κίτρινη σάλτσα. Η σάλτσα γίνεται στο μπλέντερ με φρέσκο τυρί, πιπεριές τσίλι αχί αμαρίγιο, γάλα και μερικά κράκερ που τη δένουν, και είναι ελαφρώς καυτερή, αλμυρή και βελούδινη. Το πιάτο σερβίρεται κρύο, συχνά πάνω σε φύλλα μαρουλιού, ως ορεκτικό ή συνοδευτικό.",
-      "history": "Το όνομα παραπέμπει στο Ουανκάγιο, πόλη στις κεντρικές Άνδεις του Περού, αν και η ακριβής προέλευση του πιάτου είναι αβέβαιη και κυκλοφορούν διάφορες ιστορίες. Βασίζεται σε δύο βασικά προϊόντα των Άνδεων, την πατάτα και το αχί αμαρίγιο. Σήμερα είναι ένα από τα πιο γνωστά περουβιανά ορεκτικά και σερβίρεται σε σπίτια και εστιατόρια σε όλη τη χώρα.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "800 γρ. κίτρινες ή σφιχτές πατάτες",
-          "200 γρ. κέσο φρέσκο (φρέσκο τυρί)",
-          "3 τσίλι αχί αμαρίγιο χωρίς σπόρους (ή 3 κ.σ. πάστα αχί αμαρίγιο)",
-          "150 ml γάλα",
-          "4 αλμυρά κράκερ",
-          "1 κ.σ. φυτικό λάδι",
-          "Αλάτι",
-          "Φύλλα μαρουλιού για το σερβίρισμα"
-        ],
-        "steps": [
-          "Βράστε τις πατάτες σε αλατισμένο νερό μέχρι να μαλακώσουν, αφήστε τις να κρυώσουν και κόψτε τις σε χοντρές φέτες.",
-          "Σοτάρετε για λίγο τις πιπεριές στο λάδι για να μαλακώσουν.",
-          "Χτυπήστε στο μπλέντερ τις πιπεριές, το τυρί, το γάλα και τα κράκερ μέχρι να γίνουν λεία και κρεμώδη· διορθώστε το αλάτι.",
-          "Βάλτε τις πατάτες πάνω στο μαρούλι και περιχύστε με τη σάλτσα.",
-          "Σερβίρετε κρύο."
-        ]
-      },
-      "tips": [
-        "Αραιώστε τη σάλτσα με λίγο ακόμη γάλα, ώστε μικρότερη ποσότητα να σκεπάζει τις πατάτες.",
-        "Χρησιμοποιήστε άπαχο φρέσκο τυρί και περιορίστε το λάδι σε 1 κ.σ. — 1 κ.σ. λάδι ≈ 120 kcal.",
-        "Σερβίρετέ το ως ορεκτικό μαζί με ψητή πρωτεΐνη αντί για πλήρες γεύμα."
-      ],
-      "name_inline": "πάπα α λα ουανκαΐνα"
-    },
-    "ru": {
-      "name": "Папа а ла уанкаина",
-      "origin": "Перу · Уанкайо / Лима",
-      "intro": "Папа а ла уанкаина — перуанская закуска из нарезанного отварного картофеля под кремовым ярко-жёлтым соусом. Соус взбивают из свежего сыра, перца ахи амарильо, молока и нескольких крекеров, которые его загущают; он слегка острый, солёный и гладкий. Блюдо подают холодным, часто на листьях салата, как закуску или гарнир.",
-      "history": "Название отсылает к Уанкайо, городу в центральных Андах Перу, хотя точное происхождение блюда неизвестно и ходит несколько историй. В его основе два андских продукта — картофель и ахи амарильо. Сегодня это одна из самых известных перуанских закусок, её подают дома и в ресторанах по всей стране.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 35,
-        "ingredients": [
-          "800 г жёлтого или плотного картофеля",
-          "200 г свежего сыра кесо фреско",
-          "3 перца ахи амарильо без семян (или 3 ст. л. пасты ахи амарильо)",
-          "150 мл молока",
-          "4 солёных крекера",
-          "1 ст. л. растительного масла",
-          "Соль",
-          "Листья салата для подачи"
-        ],
-        "steps": [
-          "Отварите картофель в подсоленной воде до мягкости, остудите и нарежьте толстыми кружками.",
-          "Ненадолго обжарьте перцы в масле, чтобы они смягчились.",
-          "Взбейте перцы, кесо фреско, молоко и крекеры до гладкого кремового состояния; досолите по вкусу.",
-          "Выложите картофель на листья салата и полейте соусом.",
-          "Подавайте холодным."
-        ]
-      },
-      "tips": [
-        "Разбавьте соус немного большим количеством молока, чтобы меньшего объёма хватило на весь картофель.",
-        "Берите нежирный свежий сыр и ограничьтесь 1 ст. л. масла — 1 ст. л. масла ≈ 120 ккал.",
-        "Подавайте как закуску с белком на гриле, а не как полноценный обед."
-      ]
-    }
+  "ar": {
+   "name": "بابا آلا وانكاينا",
+   "origin": "بيرو · وانكايو / ليما",
+   "intro": "بابا آلا وانكاينا مقبّلات بيروفية من شرائح البطاطا المسلوقة مغطاة بصلصة كريمية صفراء زاهية. تُخلط الصلصة من الجبن الطازج وفلفل أجي أماريلو والحليب وبعض البسكويت المالح الذي يكثّفها، وطعمها حار قليلًا ومالح وناعم. يُقدَّم الطبق باردًا، غالبًا على أوراق الخس، كمقبّلات أو طبق جانبي.",
+   "history": "يشير الاسم إلى مدينة وانكايو في جبال الأنديز الوسطى في بيرو، مع أن الأصل الدقيق للطبق غير مؤكد وتتداول حوله عدة روايات. ويقوم على مكوّنين أساسيين من الأنديز هما البطاطا وفلفل أجي أماريلو. وهو اليوم من أشهر المقبّلات البيروفية في البيوت والمطاعم.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "800 غ بطاطا صفراء",
+     "200 غ جبن طازج (كيسو فريسكو)",
+     "3 حبات فلفل أجي أماريلو منزوعة البذور (أو 3 ملاعق كبيرة معجون أجي أماريلو)",
+     "150 مل حليب",
+     "4 قطع بسكويت مالح",
+     "1 ملعقة كبيرة زيت نباتي",
+     "ملح",
+     "أوراق خس للتقديم"
+    ],
+    "steps": [
+     "اسلق البطاطا في ماء مملّح حتى تنضج ثم بردها وقطّعها شرائح سميكة.",
+     "شوّح الفلفل قليلًا في الزيت ليطرى.",
+     "اخلط الفلفل والجبن والحليب والبسكويت في الخلاط حتى تصبح الصلصة ناعمة وكريمية، واضبط الملح.",
+     "رتّب البطاطا على الخس واسكب الصلصة فوقها.",
+     "قدّمه باردًا."
+    ]
+   },
+   "tips": [
+    "خفّف الصلصة بقليل من الحليب لتكفي كمية أقل لتغطية البطاطا.",
+    "استخدم جبنًا طازجًا قليل الدسم واكتفِ بملعقة زيت واحدة — ملعقة زيت كبيرة ≈ 120 سعرة.",
+    "قدّمه كمقبّلات مع بروتين مشوي بدل أن يكون وجبة كاملة."
+   ]
+  },
+  "it": {
+   "name": "Papa a la huancaína",
+   "origin": "Perù · Huancayo / Lima",
+   "intro": "La papa a la huancaína è un antipasto peruviano di patate lesse a fette ricoperte da una salsa cremosa giallo acceso. La salsa si frulla con formaggio fresco, peperoncini ají amarillo, latte e qualche cracker che la addensa, ed è leggermente piccante, sapida e liscia. Il piatto si serve freddo, spesso su foglie di lattuga, come antipasto o contorno.",
+   "history": "Il nome si riferisce a Huancayo, una città delle Ande centrali del Perù, anche se l'origine esatta del piatto è incerta e circolano diverse storie. Si basa su due prodotti fondamentali delle Ande, le patate e l'ají amarillo. Oggi è uno degli antipasti peruviani più conosciuti, servito in casa e nei ristoranti di tutto il paese.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "800 g di patate gialle o a pasta soda",
+     "200 g di queso fresco",
+     "3 peperoncini ají amarillo senza semi (o 3 cucchiai di pasta di ají amarillo)",
+     "150 ml di latte",
+     "4 cracker salati",
+     "1 cucchiaio di olio di semi",
+     "Sale",
+     "Foglie di lattuga per servire"
+    ],
+    "steps": [
+     "Lessa le patate in acqua salata finché sono tenere, lasciale raffreddare e tagliale a fette spesse.",
+     "Salta brevemente i peperoncini nell'olio per ammorbidirli.",
+     "Frulla peperoncini, queso fresco, latte e cracker fino a ottenere una salsa liscia e cremosa; regola di sale.",
+     "Disponi le patate sulla lattuga e versaci sopra la salsa.",
+     "Servi freddo."
+    ]
+   },
+   "tips": [
+    "Allunga la salsa con un po' più di latte, così una quantità minore basta a coprire le patate.",
+    "Usa un formaggio fresco magro e limita l'olio a 1 cucchiaio: 1 cucchiaio di olio ≈ 120 kcal.",
+    "Servila come antipasto insieme a proteine alla griglia invece che come pasto completo."
+   ],
+   "name_inline": "papa a la huancaína"
+  },
+  "el": {
+   "name": "Πάπα α λα ουανκαΐνα",
+   "origin": "Περού · Ουανκάγιο / Λίμα",
+   "intro": "Η πάπα α λα ουανκαΐνα είναι περουβιανό ορεκτικό με φέτες βραστής πατάτας σκεπασμένες με μια κρεμώδη, έντονα κίτρινη σάλτσα. Η σάλτσα γίνεται στο μπλέντερ με φρέσκο τυρί, πιπεριές τσίλι αχί αμαρίγιο, γάλα και μερικά κράκερ που τη δένουν, και είναι ελαφρώς καυτερή, αλμυρή και βελούδινη. Το πιάτο σερβίρεται κρύο, συχνά πάνω σε φύλλα μαρουλιού, ως ορεκτικό ή συνοδευτικό.",
+   "history": "Το όνομα παραπέμπει στο Ουανκάγιο, πόλη στις κεντρικές Άνδεις του Περού, αν και η ακριβής προέλευση του πιάτου είναι αβέβαιη και κυκλοφορούν διάφορες ιστορίες. Βασίζεται σε δύο βασικά προϊόντα των Άνδεων, την πατάτα και το αχί αμαρίγιο. Σήμερα είναι ένα από τα πιο γνωστά περουβιανά ορεκτικά και σερβίρεται σε σπίτια και εστιατόρια σε όλη τη χώρα.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "800 γρ. κίτρινες ή σφιχτές πατάτες",
+     "200 γρ. κέσο φρέσκο (φρέσκο τυρί)",
+     "3 τσίλι αχί αμαρίγιο χωρίς σπόρους (ή 3 κ.σ. πάστα αχί αμαρίγιο)",
+     "150 ml γάλα",
+     "4 αλμυρά κράκερ",
+     "1 κ.σ. φυτικό λάδι",
+     "Αλάτι",
+     "Φύλλα μαρουλιού για το σερβίρισμα"
+    ],
+    "steps": [
+     "Βράστε τις πατάτες σε αλατισμένο νερό μέχρι να μαλακώσουν, αφήστε τις να κρυώσουν και κόψτε τις σε χοντρές φέτες.",
+     "Σοτάρετε για λίγο τις πιπεριές στο λάδι για να μαλακώσουν.",
+     "Χτυπήστε στο μπλέντερ τις πιπεριές, το τυρί, το γάλα και τα κράκερ μέχρι να γίνουν λεία και κρεμώδη· διορθώστε το αλάτι.",
+     "Βάλτε τις πατάτες πάνω στο μαρούλι και περιχύστε με τη σάλτσα.",
+     "Σερβίρετε κρύο."
+    ]
+   },
+   "tips": [
+    "Αραιώστε τη σάλτσα με λίγο ακόμη γάλα, ώστε μικρότερη ποσότητα να σκεπάζει τις πατάτες.",
+    "Χρησιμοποιήστε άπαχο φρέσκο τυρί και περιορίστε το λάδι σε 1 κ.σ. — 1 κ.σ. λάδι ≈ 120 kcal.",
+    "Σερβίρετέ το ως ορεκτικό μαζί με ψητή πρωτεΐνη αντί για πλήρες γεύμα."
+   ],
+   "name_inline": "πάπα α λα ουανκαΐνα"
+  },
+  "ru": {
+   "name": "Папа а ла уанкаина",
+   "origin": "Перу · Уанкайо / Лима",
+   "intro": "Папа а ла уанкаина — перуанская закуска из нарезанного отварного картофеля под кремовым ярко-жёлтым соусом. Соус взбивают из свежего сыра, перца ахи амарильо, молока и нескольких крекеров, которые его загущают; он слегка острый, солёный и гладкий. Блюдо подают холодным, часто на листьях салата, как закуску или гарнир.",
+   "history": "Название отсылает к Уанкайо, городу в центральных Андах Перу, хотя точное происхождение блюда неизвестно и ходит несколько историй. В его основе два андских продукта — картофель и ахи амарильо. Сегодня это одна из самых известных перуанских закусок, её подают дома и в ресторанах по всей стране.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "800 г жёлтого или плотного картофеля",
+     "200 г свежего сыра кесо фреско",
+     "3 перца ахи амарильо без семян (или 3 ст. л. пасты ахи амарильо)",
+     "150 мл молока",
+     "4 солёных крекера",
+     "1 ст. л. растительного масла",
+     "Соль",
+     "Листья салата для подачи"
+    ],
+    "steps": [
+     "Отварите картофель в подсоленной воде до мягкости, остудите и нарежьте толстыми кружками.",
+     "Ненадолго обжарьте перцы в масле, чтобы они смягчились.",
+     "Взбейте перцы, кесо фреско, молоко и крекеры до гладкого кремового состояния; досолите по вкусу.",
+     "Выложите картофель на листья салата и полейте соусом.",
+     "Подавайте холодным."
+    ]
+   },
+   "tips": [
+    "Разбавьте соус немного большим количеством молока, чтобы меньшего объёма хватило на весь картофель.",
+    "Берите нежирный свежий сыр и ограничьтесь 1 ст. л. масла — 1 ст. л. масла ≈ 120 ккал.",
+    "Подавайте как закуску с белком на гриле, а не как полноценный обед."
+   ]
+  },
+  "es": {
+   "name": "Papa a la huancaína",
+   "origin": "Perú · Huancayo / Lima",
+   "intro": "La papa a la huancaína es una entrada peruana de rodajas de papa cocida cubiertas con una salsa cremosa de un amarillo intenso. La salsa se licúa con queso fresco, ají amarillo, leche y unas galletas de soda que la espesan; es de picante suave, salada y sedosa. Se sirve fría, a menudo sobre hojas de lechuga, como entrada o acompañamiento.",
+   "history": "El nombre alude a Huancayo, una ciudad de los Andes centrales de Perú, aunque el origen exacto del plato es incierto y circulan varias historias. Se basa en dos productos básicos andinos, la papa y el ají amarillo. Hoy es una de las entradas peruanas más conocidas, y se sirve en casas y restaurantes de todo el país.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 35,
+    "ingredients": [
+     "800 g de papa amarilla o de pulpa firme",
+     "200 g de queso fresco",
+     "3 ajíes amarillos, sin semillas (o 3 cdas. de pasta de ají amarillo)",
+     "150 ml de leche",
+     "4 galletas de soda",
+     "1 cda. de aceite vegetal",
+     "Sal",
+     "Hojas de lechuga para servir"
+    ],
+    "steps": [
+     "Hierve las papas en agua con sal hasta que estén tiernas, deja enfriar y corta en rodajas gruesas.",
+     "Saltea brevemente los ajíes en el aceite para ablandarlos.",
+     "Licúa los ajíes, el queso fresco, la leche y las galletas hasta obtener una salsa lisa y cremosa; ajusta la sal.",
+     "Acomoda las papas sobre la lechuga y baña con la salsa.",
+     "Sirve frío."
+    ]
+   },
+   "tips": [
+    "Aligera la salsa con un poco más de leche para que una cantidad menor cubra las papas.",
+    "Usa un queso fresco magro y limita el aceite a 1 cda.: 1 cda. de aceite son unas 120 kcal.",
+    "Sírvela como entrada con una proteína a la plancha, en lugar de como comida completa."
+   ],
+   "name_inline": "la papa a la huancaína"
   }
+ }
 }

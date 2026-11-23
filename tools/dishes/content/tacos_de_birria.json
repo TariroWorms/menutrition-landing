@@ -1,185 +1,220 @@
 {
-  "db_key": "tacos_de_birria",
-  "slug": "tacos-de-birria",
-  "emoji": "🌮",
-  "portion_g": 250,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "tacos_de_birria",
+ "slug": "tacos-de-birria",
+ "emoji": "🌮",
+ "portion_g": 250,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Birria Tacos",
+   "origin": "Mexico · Jalisco",
+   "intro": "Birria tacos are filled with beef braised for hours in a deep-red broth of dried chilies, onion and spices until it shreds easily. Corn tortillas are dipped in the fat skimmed from the broth, griddled with the meat until crisp, and served with chopped onion, cilantro and a cup of the hot consommé for dunking. They are rich, smoky and messy in the best way.",
+   "history": "Birria originated in the state of Jalisco, where it was traditionally made with goat and served at celebrations. The beef taco version, often called quesabirria when cheese is added, spread from Tijuana and became a worldwide trend in the late 2010s.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1 kg beef chuck or short rib",
+     "4 dried guajillo chilies",
+     "2 dried ancho chilies",
+     "1 onion",
+     "4 garlic cloves",
+     "1 tsp ground cumin",
+     "2 bay leaves",
+     "1.2 l water",
+     "12 corn tortillas",
+     "1 bunch cilantro, chopped"
+    ],
+    "steps": [
+     "Toast and soak the chilies, then blend with half the onion, garlic, cumin and some water.",
+     "Put beef, chili sauce, bay leaves, salt and the remaining water in a pot; simmer covered for 3 hours.",
+     "Shred the beef and keep the broth hot as consommé.",
+     "Dip tortillas in the fat from the top of the broth, fill with beef and griddle until crisp.",
+     "Serve with chopped onion, cilantro and a cup of consommé."
+    ]
+   },
+   "tips": [
+    "Skim most of the fat off the broth and warm the tortillas without dipping them.",
+    "Fill tacos with more onion and cilantro and a little less meat.",
+    "Sip a small cup of consommé rather than a large bowl."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Birria Tacos",
-      "origin": "Mexico · Jalisco",
-      "intro": "Birria tacos are filled with beef braised for hours in a deep-red broth of dried chilies, onion and spices until it shreds easily. Corn tortillas are dipped in the fat skimmed from the broth, griddled with the meat until crisp, and served with chopped onion, cilantro and a cup of the hot consommé for dunking. They are rich, smoky and messy in the best way.",
-      "history": "Birria originated in the state of Jalisco, where it was traditionally made with goat and served at celebrations. The beef taco version, often called quesabirria when cheese is added, spread from Tijuana and became a worldwide trend in the late 2010s.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1 kg beef chuck or short rib",
-          "4 dried guajillo chilies",
-          "2 dried ancho chilies",
-          "1 onion",
-          "4 garlic cloves",
-          "1 tsp ground cumin",
-          "2 bay leaves",
-          "1.2 l water",
-          "12 corn tortillas",
-          "1 bunch cilantro, chopped"
-        ],
-        "steps": [
-          "Toast and soak the chilies, then blend with half the onion, garlic, cumin and some water.",
-          "Put beef, chili sauce, bay leaves, salt and the remaining water in a pot; simmer covered for 3 hours.",
-          "Shred the beef and keep the broth hot as consommé.",
-          "Dip tortillas in the fat from the top of the broth, fill with beef and griddle until crisp.",
-          "Serve with chopped onion, cilantro and a cup of consommé."
-        ]
-      },
-      "tips": [
-        "Skim most of the fat off the broth and warm the tortillas without dipping them.",
-        "Fill tacos with more onion and cilantro and a little less meat.",
-        "Sip a small cup of consommé rather than a large bowl."
-      ]
-    },
-    "ar": {
-      "name": "تاكو بيريا",
-      "origin": "المكسيك · خاليسكو",
-      "intro": "تُحشى تاكو البيريا بلحم بقر يُطهى ساعات في مرق أحمر داكن من الفلفل المجفف والبصل والبهارات حتى يتفتت بسهولة. تُغمس تورتيلا الذرة في الدهن المأخوذ من سطح المرق، وتُحمَّر مع اللحم على الصاج حتى تقرمش، ثم تُقدَّم مع البصل المفروم والكزبرة وكوب من المرق الساخن للتغميس. وهي غنية مدخّنة وفوضوية بأجمل طريقة.",
-      "history": "نشأت البيريا في ولاية خاليسكو حيث كانت تُحضَّر تقليديًا بلحم الماعز وتُقدَّم في المناسبات. أما نسخة التاكو بلحم البقر فانتشرت من تيخوانا وأصبحت صيحة عالمية في أواخر العقد الثاني من القرن الحادي والعشرين.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1 كغ لحم بقر من الكتف أو الأضلاع",
-          "4 حبات فلفل غواخيو مجفف",
-          "2 حبة فلفل أنشو مجفف",
-          "1 بصلة",
-          "4 فصوص ثوم",
-          "1 ملعقة صغيرة كمون مطحون",
-          "2 ورقة غار",
-          "1.2 لتر ماء",
-          "12 تورتيلا ذرة",
-          "1 حزمة كزبرة مفرومة"
-        ],
-        "steps": [
-          "حمّص الفلفل المجفف وانقعه، ثم اخلطه في الخلاط مع نصف البصلة والثوم والكمون وقليل من الماء.",
-          "ضع اللحم وصلصة الفلفل وورق الغار والملح وبقية الماء في قدر، واتركه يغلي بهدوء مغطى 3 ساعات.",
-          "نسّل اللحم وأبقِ المرق ساخنًا للتقديم.",
-          "اغمس التورتيلا في الدهن من سطح المرق واحشُها باللحم وحمّرها على الصاج حتى تقرمش.",
-          "قدّمها مع البصل المفروم والكزبرة وكوب من المرق."
-        ]
-      },
-      "tips": [
-        "أزل معظم الدهن عن المرق وسخّن التورتيلا دون غمسها.",
-        "احشُ التاكو بمزيد من البصل والكزبرة وكمية أقل قليلًا من اللحم.",
-        "اكتفِ بكوب صغير من المرق بدل وعاء كبير."
-      ]
-    },
-    "it": {
-      "name": "Tacos de birria",
-      "origin": "Messico · Jalisco",
-      "intro": "I tacos de birria sono farciti con manzo brasato per ore in un brodo rosso intenso di peperoncini secchi, cipolla e spezie, finché si sfilaccia facilmente. Le tortillas di mais vengono intinte nel grasso raccolto dalla superficie del brodo, cotte sulla piastra con la carne finché sono croccanti e servite con cipolla tritata, coriandolo e una tazza di consommé caldo in cui intingerle. Sono ricchi, affumicati e deliziosamente da mangiare con le mani.",
-      "history": "La birria è nata nello stato di Jalisco, dove tradizionalmente si preparava con carne di capra e si serviva nelle feste. La versione in taco con il manzo, spesso chiamata quesabirria quando si aggiunge il formaggio, si è diffusa da Tijuana ed è diventata una tendenza mondiale alla fine degli anni 2010.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1 kg di reale o costine di manzo",
-          "4 peperoncini guajillo secchi",
-          "2 peperoncini ancho secchi",
-          "1 cipolla",
-          "4 spicchi d'aglio",
-          "1 cucchiaino di cumino in polvere",
-          "2 foglie di alloro",
-          "1,2 l di acqua",
-          "12 tortillas di mais",
-          "1 mazzo di coriandolo, tritato"
-        ],
-        "steps": [
-          "Tosta e ammolla i peperoncini, poi frullali con metà della cipolla, l'aglio, il cumino e un po' d'acqua.",
-          "Metti in una pentola manzo, salsa di peperoncino, alloro, sale e l'acqua rimasta; fai sobbollire con il coperchio per 3 ore.",
-          "Sfilaccia il manzo e tieni caldo il brodo come consommé.",
-          "Intingi le tortillas nel grasso in superficie del brodo, farciscile con il manzo e cuocile sulla piastra finché sono croccanti.",
-          "Servi con cipolla tritata, coriandolo e una tazza di consommé."
-        ]
-      },
-      "tips": [
-        "Elimina la maggior parte del grasso dal brodo e scalda le tortillas senza intingerle.",
-        "Farcisci i tacos con più cipolla e coriandolo e un po' meno carne.",
-        "Sorseggia una tazzina di consommé invece di una ciotola grande."
-      ]
-    },
-    "el": {
-      "name": "Τάκος μπίρια",
-      "origin": "Μεξικό · Χαλίσκο",
-      "intro": "Τα τάκος μπίρια γεμίζονται με μοσχάρι μαγειρεμένο για ώρες σε βαθυκόκκινο ζωμό από ξερές πιπεριές τσίλι, κρεμμύδι και μπαχαρικά, μέχρι να ξεφτίζει εύκολα. Οι τορτίγιες καλαμποκιού βουτιούνται στο λίπος που μαζεύεται από την επιφάνεια του ζωμού, ψήνονται με το κρέας στο πλατό μέχρι να γίνουν τραγανές και σερβίρονται με ψιλοκομμένο κρεμμύδι, κόλιαντρο και ένα φλιτζάνι ζεστό κονσομέ για βούτηγμα. Είναι πλούσια, καπνιστά και υπέροχα μουτζουρωτά.",
-      "history": "Η μπίρια γεννήθηκε στην πολιτεία Χαλίσκο, όπου παραδοσιακά φτιαχνόταν με κατσικίσιο κρέας και σερβιριζόταν σε γιορτές. Η εκδοχή σε τάκος με μοσχάρι, που συχνά λέγεται κεσαμπίρια όταν προστίθεται τυρί, διαδόθηκε από την Τιχουάνα και έγινε παγκόσμια τάση στα τέλη της δεκαετίας του 2010.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1 κιλό μοσχαρίσια σπάλα ή πλευρά",
-          "4 ξερές πιπεριές τσίλι γκουαχίγιο",
-          "2 ξερές πιπεριές τσίλι άντσο",
-          "1 κρεμμύδι",
-          "4 σκελίδες σκόρδο",
-          "1 κ.γ. κύμινο σε σκόνη",
-          "2 φύλλα δάφνης",
-          "1,2 λίτρα νερό",
-          "12 τορτίγιες καλαμποκιού",
-          "1 ματσάκι κόλιαντρο, ψιλοκομμένο"
-        ],
-        "steps": [
-          "Καβουρδίστε και μουλιάστε τις πιπεριές τσίλι και μετά χτυπήστε τες στο μπλέντερ με το μισό κρεμμύδι, το σκόρδο, το κύμινο και λίγο νερό.",
-          "Βάλτε σε κατσαρόλα το μοσχάρι, τη σάλτσα τσίλι, τη δάφνη, αλάτι και το υπόλοιπο νερό· σιγοβράστε σκεπασμένο για 3 ώρες.",
-          "Ξεφτίστε το μοσχάρι και κρατήστε τον ζωμό ζεστό ως κονσομέ.",
-          "Βουτήξτε τις τορτίγιες στο λίπος της επιφάνειας του ζωμού, γεμίστε τες με μοσχάρι και ψήστε τες στο πλατό μέχρι να γίνουν τραγανές.",
-          "Σερβίρετε με ψιλοκομμένο κρεμμύδι, κόλιαντρο και ένα φλιτζάνι κονσομέ."
-        ]
-      },
-      "tips": [
-        "Αφαιρέστε το μεγαλύτερο μέρος του λίπους από τον ζωμό και ζεστάνετε τις τορτίγιες χωρίς να τις βουτήξετε.",
-        "Γεμίστε τα τάκος με περισσότερο κρεμμύδι και κόλιαντρο και λίγο λιγότερο κρέας.",
-        "Πιείτε ένα μικρό φλιτζάνι κονσομέ αντί για ένα μεγάλο μπολ."
-      ]
-    },
-    "ru": {
-      "name": "Тако бирья",
-      "origin": "Мексика · Халиско",
-      "intro": "Тако бирья наполняют говядиной, которую часами тушат в густо-красном бульоне из сушёных чили, лука и специй, пока она легко не разбирается на волокна. Кукурузные тортильи окунают в жир, снятый с бульона, обжаривают с мясом на сковороде до хруста и подают с нарубленным луком, кинзой и чашкой горячего консоме для макания. Они насыщенные, дымные и пачкающие руки в самом лучшем смысле.",
-      "history": "Бирья возникла в штате Халиско, где её традиционно готовили из козлятины и подавали на праздниках. Версия с говядиной в тако, часто называемая кесабирья, когда добавляют сыр, распространилась из Тихуаны и стала мировым трендом в конце 2010-х годов.",
-      "recipe": {
-        "servings": 4,
-        "time_min": 210,
-        "ingredients": [
-          "1 кг говяжьей лопатки или рёбрышек",
-          "4 сушёных чили гуахильо",
-          "2 сушёных чили анчо",
-          "1 луковица",
-          "4 зубчика чеснока",
-          "1 ч. л. молотой зиры",
-          "2 лавровых листа",
-          "1,2 л воды",
-          "12 кукурузных тортилий",
-          "1 пучок кинзы, нарубленный"
-        ],
-        "steps": [
-          "Подсушите и замочите чили, затем взбейте блендером с половиной лука, чесноком, зирой и небольшим количеством воды.",
-          "Положите говядину, соус из чили, лавровые листья, соль и оставшуюся воду в кастрюлю; томите под крышкой 3 часа.",
-          "Разберите говядину на волокна и держите бульон горячим как консоме.",
-          "Окуните тортильи в жир с поверхности бульона, наполните говядиной и обжарьте на сковороде до хруста.",
-          "Подавайте с нарубленным луком, кинзой и чашкой консоме."
-        ]
-      },
-      "tips": [
-        "Снимите большую часть жира с бульона и подогрейте тортильи, не макая их.",
-        "Наполняйте тако большим количеством лука и кинзы и немного меньшим количеством мяса.",
-        "Пейте небольшую чашку консоме, а не большую миску."
-      ],
-      "name_inline": "тако бирья"
-    }
+  "ar": {
+   "name": "تاكو بيريا",
+   "origin": "المكسيك · خاليسكو",
+   "intro": "تُحشى تاكو البيريا بلحم بقر يُطهى ساعات في مرق أحمر داكن من الفلفل المجفف والبصل والبهارات حتى يتفتت بسهولة. تُغمس تورتيلا الذرة في الدهن المأخوذ من سطح المرق، وتُحمَّر مع اللحم على الصاج حتى تقرمش، ثم تُقدَّم مع البصل المفروم والكزبرة وكوب من المرق الساخن للتغميس. وهي غنية مدخّنة وفوضوية بأجمل طريقة.",
+   "history": "نشأت البيريا في ولاية خاليسكو حيث كانت تُحضَّر تقليديًا بلحم الماعز وتُقدَّم في المناسبات. أما نسخة التاكو بلحم البقر فانتشرت من تيخوانا وأصبحت صيحة عالمية في أواخر العقد الثاني من القرن الحادي والعشرين.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1 كغ لحم بقر من الكتف أو الأضلاع",
+     "4 حبات فلفل غواخيو مجفف",
+     "2 حبة فلفل أنشو مجفف",
+     "1 بصلة",
+     "4 فصوص ثوم",
+     "1 ملعقة صغيرة كمون مطحون",
+     "2 ورقة غار",
+     "1.2 لتر ماء",
+     "12 تورتيلا ذرة",
+     "1 حزمة كزبرة مفرومة"
+    ],
+    "steps": [
+     "حمّص الفلفل المجفف وانقعه، ثم اخلطه في الخلاط مع نصف البصلة والثوم والكمون وقليل من الماء.",
+     "ضع اللحم وصلصة الفلفل وورق الغار والملح وبقية الماء في قدر، واتركه يغلي بهدوء مغطى 3 ساعات.",
+     "نسّل اللحم وأبقِ المرق ساخنًا للتقديم.",
+     "اغمس التورتيلا في الدهن من سطح المرق واحشُها باللحم وحمّرها على الصاج حتى تقرمش.",
+     "قدّمها مع البصل المفروم والكزبرة وكوب من المرق."
+    ]
+   },
+   "tips": [
+    "أزل معظم الدهن عن المرق وسخّن التورتيلا دون غمسها.",
+    "احشُ التاكو بمزيد من البصل والكزبرة وكمية أقل قليلًا من اللحم.",
+    "اكتفِ بكوب صغير من المرق بدل وعاء كبير."
+   ]
+  },
+  "it": {
+   "name": "Tacos de birria",
+   "origin": "Messico · Jalisco",
+   "intro": "I tacos de birria sono farciti con manzo brasato per ore in un brodo rosso intenso di peperoncini secchi, cipolla e spezie, finché si sfilaccia facilmente. Le tortillas di mais vengono intinte nel grasso raccolto dalla superficie del brodo, cotte sulla piastra con la carne finché sono croccanti e servite con cipolla tritata, coriandolo e una tazza di consommé caldo in cui intingerle. Sono ricchi, affumicati e deliziosamente da mangiare con le mani.",
+   "history": "La birria è nata nello stato di Jalisco, dove tradizionalmente si preparava con carne di capra e si serviva nelle feste. La versione in taco con il manzo, spesso chiamata quesabirria quando si aggiunge il formaggio, si è diffusa da Tijuana ed è diventata una tendenza mondiale alla fine degli anni 2010.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1 kg di reale o costine di manzo",
+     "4 peperoncini guajillo secchi",
+     "2 peperoncini ancho secchi",
+     "1 cipolla",
+     "4 spicchi d'aglio",
+     "1 cucchiaino di cumino in polvere",
+     "2 foglie di alloro",
+     "1,2 l di acqua",
+     "12 tortillas di mais",
+     "1 mazzo di coriandolo, tritato"
+    ],
+    "steps": [
+     "Tosta e ammolla i peperoncini, poi frullali con metà della cipolla, l'aglio, il cumino e un po' d'acqua.",
+     "Metti in una pentola manzo, salsa di peperoncino, alloro, sale e l'acqua rimasta; fai sobbollire con il coperchio per 3 ore.",
+     "Sfilaccia il manzo e tieni caldo il brodo come consommé.",
+     "Intingi le tortillas nel grasso in superficie del brodo, farciscile con il manzo e cuocile sulla piastra finché sono croccanti.",
+     "Servi con cipolla tritata, coriandolo e una tazza di consommé."
+    ]
+   },
+   "tips": [
+    "Elimina la maggior parte del grasso dal brodo e scalda le tortillas senza intingerle.",
+    "Farcisci i tacos con più cipolla e coriandolo e un po' meno carne.",
+    "Sorseggia una tazzina di consommé invece di una ciotola grande."
+   ]
+  },
+  "el": {
+   "name": "Τάκος μπίρια",
+   "origin": "Μεξικό · Χαλίσκο",
+   "intro": "Τα τάκος μπίρια γεμίζονται με μοσχάρι μαγειρεμένο για ώρες σε βαθυκόκκινο ζωμό από ξερές πιπεριές τσίλι, κρεμμύδι και μπαχαρικά, μέχρι να ξεφτίζει εύκολα. Οι τορτίγιες καλαμποκιού βουτιούνται στο λίπος που μαζεύεται από την επιφάνεια του ζωμού, ψήνονται με το κρέας στο πλατό μέχρι να γίνουν τραγανές και σερβίρονται με ψιλοκομμένο κρεμμύδι, κόλιαντρο και ένα φλιτζάνι ζεστό κονσομέ για βούτηγμα. Είναι πλούσια, καπνιστά και υπέροχα μουτζουρωτά.",
+   "history": "Η μπίρια γεννήθηκε στην πολιτεία Χαλίσκο, όπου παραδοσιακά φτιαχνόταν με κατσικίσιο κρέας και σερβιριζόταν σε γιορτές. Η εκδοχή σε τάκος με μοσχάρι, που συχνά λέγεται κεσαμπίρια όταν προστίθεται τυρί, διαδόθηκε από την Τιχουάνα και έγινε παγκόσμια τάση στα τέλη της δεκαετίας του 2010.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1 κιλό μοσχαρίσια σπάλα ή πλευρά",
+     "4 ξερές πιπεριές τσίλι γκουαχίγιο",
+     "2 ξερές πιπεριές τσίλι άντσο",
+     "1 κρεμμύδι",
+     "4 σκελίδες σκόρδο",
+     "1 κ.γ. κύμινο σε σκόνη",
+     "2 φύλλα δάφνης",
+     "1,2 λίτρα νερό",
+     "12 τορτίγιες καλαμποκιού",
+     "1 ματσάκι κόλιαντρο, ψιλοκομμένο"
+    ],
+    "steps": [
+     "Καβουρδίστε και μουλιάστε τις πιπεριές τσίλι και μετά χτυπήστε τες στο μπλέντερ με το μισό κρεμμύδι, το σκόρδο, το κύμινο και λίγο νερό.",
+     "Βάλτε σε κατσαρόλα το μοσχάρι, τη σάλτσα τσίλι, τη δάφνη, αλάτι και το υπόλοιπο νερό· σιγοβράστε σκεπασμένο για 3 ώρες.",
+     "Ξεφτίστε το μοσχάρι και κρατήστε τον ζωμό ζεστό ως κονσομέ.",
+     "Βουτήξτε τις τορτίγιες στο λίπος της επιφάνειας του ζωμού, γεμίστε τες με μοσχάρι και ψήστε τες στο πλατό μέχρι να γίνουν τραγανές.",
+     "Σερβίρετε με ψιλοκομμένο κρεμμύδι, κόλιαντρο και ένα φλιτζάνι κονσομέ."
+    ]
+   },
+   "tips": [
+    "Αφαιρέστε το μεγαλύτερο μέρος του λίπους από τον ζωμό και ζεστάνετε τις τορτίγιες χωρίς να τις βουτήξετε.",
+    "Γεμίστε τα τάκος με περισσότερο κρεμμύδι και κόλιαντρο και λίγο λιγότερο κρέας.",
+    "Πιείτε ένα μικρό φλιτζάνι κονσομέ αντί για ένα μεγάλο μπολ."
+   ]
+  },
+  "ru": {
+   "name": "Тако бирья",
+   "origin": "Мексика · Халиско",
+   "intro": "Тако бирья наполняют говядиной, которую часами тушат в густо-красном бульоне из сушёных чили, лука и специй, пока она легко не разбирается на волокна. Кукурузные тортильи окунают в жир, снятый с бульона, обжаривают с мясом на сковороде до хруста и подают с нарубленным луком, кинзой и чашкой горячего консоме для макания. Они насыщенные, дымные и пачкающие руки в самом лучшем смысле.",
+   "history": "Бирья возникла в штате Халиско, где её традиционно готовили из козлятины и подавали на праздниках. Версия с говядиной в тако, часто называемая кесабирья, когда добавляют сыр, распространилась из Тихуаны и стала мировым трендом в конце 2010-х годов.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1 кг говяжьей лопатки или рёбрышек",
+     "4 сушёных чили гуахильо",
+     "2 сушёных чили анчо",
+     "1 луковица",
+     "4 зубчика чеснока",
+     "1 ч. л. молотой зиры",
+     "2 лавровых листа",
+     "1,2 л воды",
+     "12 кукурузных тортилий",
+     "1 пучок кинзы, нарубленный"
+    ],
+    "steps": [
+     "Подсушите и замочите чили, затем взбейте блендером с половиной лука, чесноком, зирой и небольшим количеством воды.",
+     "Положите говядину, соус из чили, лавровые листья, соль и оставшуюся воду в кастрюлю; томите под крышкой 3 часа.",
+     "Разберите говядину на волокна и держите бульон горячим как консоме.",
+     "Окуните тортильи в жир с поверхности бульона, наполните говядиной и обжарьте на сковороде до хруста.",
+     "Подавайте с нарубленным луком, кинзой и чашкой консоме."
+    ]
+   },
+   "tips": [
+    "Снимите большую часть жира с бульона и подогрейте тортильи, не макая их.",
+    "Наполняйте тако большим количеством лука и кинзы и немного меньшим количеством мяса.",
+    "Пейте небольшую чашку консоме, а не большую миску."
+   ],
+   "name_inline": "тако бирья"
+  },
+  "es": {
+   "name": "Tacos de birria",
+   "origin": "México · Jalisco",
+   "intro": "Los tacos de birria se rellenan con res cocida durante horas en un caldo rojo intenso de chiles secos, cebolla y especias, hasta que se deshebra con facilidad. Las tortillas de maíz se bañan en la grasa que se retira del caldo, se doran en el comal con la carne hasta quedar crujientes y se sirven con cebolla picada, cilantro y una taza del consomé caliente para mojar. Son sustanciosos, ahumados y deliciosamente escurridos.",
+   "history": "La birria nació en el estado de Jalisco, donde tradicionalmente se preparaba con cabrito y se servía en celebraciones. La versión de res en taco, a menudo llamada quesabirria cuando se le añade queso, se extendió desde Tijuana y se convirtió en tendencia mundial a finales de la década de 2010.",
+   "recipe": {
+    "servings": 4,
+    "time_min": 210,
+    "ingredients": [
+     "1 kg de aguja o costilla de res",
+     "4 chiles guajillo secos",
+     "2 chiles anchos secos",
+     "1 cebolla",
+     "4 dientes de ajo",
+     "1 cdta. de comino molido",
+     "2 hojas de laurel",
+     "1.2 l de agua",
+     "12 tortillas de maíz",
+     "1 manojo de cilantro picado"
+    ],
+    "steps": [
+     "Tuesta y remoja los chiles, y lícualos con la mitad de la cebolla, el ajo, el comino y un poco de agua.",
+     "Pon la carne, la salsa de chile, el laurel, sal y el resto del agua en una olla; cuece tapado 3 horas.",
+     "Deshebra la carne y mantén el caldo caliente como consomé.",
+     "Moja las tortillas en la grasa de la superficie del caldo, rellénalas con carne y dóralas en el comal hasta que estén crujientes.",
+     "Sirve con cebolla picada, cilantro y una taza de consomé."
+    ]
+   },
+   "tips": [
+    "Retira casi toda la grasa del caldo y calienta las tortillas sin mojarlas.",
+    "Rellena los tacos con más cebolla y cilantro y un poco menos de carne.",
+    "Toma una taza pequeña de consomé en lugar de un plato hondo grande."
+   ],
+   "name_inline": "los tacos de birria"
   }
+ }
 }

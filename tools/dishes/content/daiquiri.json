@@ -1,70 +1,99 @@
 {
-  "db_key": "daiquiri",
-  "slug": "daiquiri",
-  "emoji": "🍸",
-  "portion_g": 120,
-  "country": "CU",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "daiquiri",
+ "slug": "daiquiri",
+ "emoji": "🍸",
+ "portion_g": 120,
+ "country": "CU",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Daiquiri",
+   "origin": "Cuba",
+   "intro": "The classic daiquiri is a short cocktail of white rum, fresh lime juice and sugar, shaken hard with ice and strained into a chilled coupe. It is bright, sharp and clean, with the sweetness just softening the lime. It is served straight up, without ice, and should be drunk while very cold.",
+   "history": "The drink takes its name from Daiquirí, a beach and mining area near Santiago de Cuba. Its creation is usually credited to American mining engineer Jennings Cox around 1900, though rum, lime and sugar were mixed in Cuba long before. Havana's El Floridita bar later made it world-famous.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "60 ml white rum",
+     "25 ml fresh lime juice",
+     "15 ml simple syrup (equal parts sugar and water)",
+     "Ice cubes",
+     "Lime wheel to garnish"
+    ],
+    "steps": [
+     "Chill a coupe glass in the freezer or with ice water.",
+     "Pour the rum, lime juice and syrup into a shaker.",
+     "Fill with ice and shake hard for 10–15 seconds.",
+     "Strain into the chilled glass and garnish with a lime wheel."
+    ]
+   },
+   "tips": [
+    "Cut the syrup to 10 ml for a sharper, slightly lighter drink.",
+    "Avoid frozen or premixed versions, which usually carry far more sugar.",
+    "Alternate each cocktail with a glass of water or sparkling water with lime."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Daiquiri",
-      "origin": "Cuba",
-      "intro": "The classic daiquiri is a short cocktail of white rum, fresh lime juice and sugar, shaken hard with ice and strained into a chilled coupe. It is bright, sharp and clean, with the sweetness just softening the lime. It is served straight up, without ice, and should be drunk while very cold.",
-      "history": "The drink takes its name from Daiquirí, a beach and mining area near Santiago de Cuba. Its creation is usually credited to American mining engineer Jennings Cox around 1900, though rum, lime and sugar were mixed in Cuba long before. Havana's El Floridita bar later made it world-famous.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "60 ml white rum",
-          "25 ml fresh lime juice",
-          "15 ml simple syrup (equal parts sugar and water)",
-          "Ice cubes",
-          "Lime wheel to garnish"
-        ],
-        "steps": [
-          "Chill a coupe glass in the freezer or with ice water.",
-          "Pour the rum, lime juice and syrup into a shaker.",
-          "Fill with ice and shake hard for 10–15 seconds.",
-          "Strain into the chilled glass and garnish with a lime wheel."
-        ]
-      },
-      "tips": [
-        "Cut the syrup to 10 ml for a sharper, slightly lighter drink.",
-        "Avoid frozen or premixed versions, which usually carry far more sugar.",
-        "Alternate each cocktail with a glass of water or sparkling water with lime."
-      ]
-    },
-    "ar": {
-      "name": "دايكيري",
-      "origin": "كوبا",
-      "intro": "الدايكيري الكلاسيكي كوكتيل قصير من الروم الأبيض وعصير الليمون الأخضر الطازج والسكر، يُرجّ بقوة مع الثلج ويُصفّى في كأس كوبيه مبرّدة. طعمه منعش وحاد ونقي، والحلاوة تلطّف حموضة الليمون فقط. يُقدَّم بلا ثلج في الكأس ويُشرب وهو شديد البرودة.",
-      "history": "يحمل المشروب اسم دايكيري، وهي منطقة شاطئية ومنجمية قرب سانتياغو دي كوبا. ويُنسب ابتكاره عادةً إلى مهندس التعدين الأمريكي جينينغز كوكس نحو عام 1900، مع أن الروم والليمون والسكر كانت تُمزج في كوبا قبل ذلك بكثير. ثم جعله بار إل فلوريديتا في هافانا مشهوراً عالمياً.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "60 مل روم أبيض",
-          "25 مل عصير ليمون أخضر طازج",
-          "15 مل شراب سكر (سكر وماء بكميات متساوية)",
-          "مكعبات ثلج",
-          "شريحة ليمون للتزيين"
-        ],
-        "steps": [
-          "برّد كأس الكوبيه في الفريزر أو بماء مثلج.",
-          "اسكب الروم وعصير الليمون وشراب السكر في الشيكر.",
-          "املأه بالثلج ورجّه بقوة 10–15 ثانية.",
-          "صفّه في الكأس المبرّدة وزيّنه بشريحة ليمون."
-        ]
-      },
-      "tips": [
-        "قلّل شراب السكر إلى 10 مل لمشروب أحدّ وأخف قليلاً.",
-        "تجنّب النسخ المثلّجة أو الجاهزة التي تحتوي عادة على سكر أكثر بكثير.",
-        "تناوب بين كل كأس وكأس ماء أو ماء فوّار مع الليمون."
-      ]
-    }
+  "ar": {
+   "name": "دايكيري",
+   "origin": "كوبا",
+   "intro": "الدايكيري الكلاسيكي كوكتيل قصير من الروم الأبيض وعصير الليمون الأخضر الطازج والسكر، يُرجّ بقوة مع الثلج ويُصفّى في كأس كوبيه مبرّدة. طعمه منعش وحاد ونقي، والحلاوة تلطّف حموضة الليمون فقط. يُقدَّم بلا ثلج في الكأس ويُشرب وهو شديد البرودة.",
+   "history": "يحمل المشروب اسم دايكيري، وهي منطقة شاطئية ومنجمية قرب سانتياغو دي كوبا. ويُنسب ابتكاره عادةً إلى مهندس التعدين الأمريكي جينينغز كوكس نحو عام 1900، مع أن الروم والليمون والسكر كانت تُمزج في كوبا قبل ذلك بكثير. ثم جعله بار إل فلوريديتا في هافانا مشهوراً عالمياً.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "60 مل روم أبيض",
+     "25 مل عصير ليمون أخضر طازج",
+     "15 مل شراب سكر (سكر وماء بكميات متساوية)",
+     "مكعبات ثلج",
+     "شريحة ليمون للتزيين"
+    ],
+    "steps": [
+     "برّد كأس الكوبيه في الفريزر أو بماء مثلج.",
+     "اسكب الروم وعصير الليمون وشراب السكر في الشيكر.",
+     "املأه بالثلج ورجّه بقوة 10–15 ثانية.",
+     "صفّه في الكأس المبرّدة وزيّنه بشريحة ليمون."
+    ]
+   },
+   "tips": [
+    "قلّل شراب السكر إلى 10 مل لمشروب أحدّ وأخف قليلاً.",
+    "تجنّب النسخ المثلّجة أو الجاهزة التي تحتوي عادة على سكر أكثر بكثير.",
+    "تناوب بين كل كأس وكأس ماء أو ماء فوّار مع الليمون."
+   ]
+  },
+  "es": {
+   "name": "Daiquirí",
+   "origin": "Cuba",
+   "intro": "El daiquirí clásico es un cóctel corto de ron blanco, jugo de limón fresco y azúcar, agitado con fuerza con hielo y colado en una copa coupé bien fría. Es vivo, ácido y limpio, con el dulzor justo para suavizar el limón. Se sirve sin hielo y conviene tomarlo bien frío.",
+   "history": "La bebida toma su nombre de Daiquirí, una zona de playa y minas cerca de Santiago de Cuba. Su creación suele atribuirse al ingeniero de minas estadounidense Jennings Cox, hacia 1900, aunque en Cuba se mezclaban ron, limón y azúcar desde mucho antes. El bar El Floridita de La Habana lo hizo famoso en todo el mundo.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "60 ml de ron blanco",
+     "25 ml de jugo de limón fresco",
+     "15 ml de almíbar simple (partes iguales de azúcar y agua)",
+     "Cubos de hielo",
+     "Rodaja de limón para decorar"
+    ],
+    "steps": [
+     "Enfría una copa coupé en el congelador o con agua con hielo.",
+     "Vierte el ron, el jugo de limón y el almíbar en una coctelera.",
+     "Llénala de hielo y agita con fuerza de 10 a 15 segundos.",
+     "Cuela en la copa fría y decora con una rodaja de limón."
+    ]
+   },
+   "tips": [
+    "Reduce el almíbar a 10 ml para una bebida más ácida y algo más liviana.",
+    "Evita las versiones congeladas o premezcladas, que suelen llevar mucha más azúcar.",
+    "Alterna cada cóctel con un vaso de agua o de agua con gas y limón."
+   ],
+   "name_inline": "el daiquirí"
   }
+ }
 }

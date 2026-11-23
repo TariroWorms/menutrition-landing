@@ -1,70 +1,99 @@
 {
-  "db_key": "michelada",
-  "slug": "michelada",
-  "emoji": "🍺",
-  "portion_g": 350,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "michelada",
+ "slug": "michelada",
+ "emoji": "🍺",
+ "portion_g": 350,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Michelada",
+   "origin": "Mexico",
+   "intro": "A michelada is a Mexican beer cocktail: cold lager mixed with fresh lime juice, tomato juice and hot sauce, served over ice in a glass with a salt-and-chili rim. It is tangy, savoury, spicy and very refreshing, somewhere between a beer and a light tomato drink. It is a popular choice on hot afternoons and with snacks.",
+   "history": "The michelada is Mexican, but its origin is unclear and several stories compete for the name; it is often said that the simplest version, beer with lime and salt, came first, with tomato juice and hot sauce added later. Today it is served in bars across Mexico and the United States.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "330 ml cold lager",
+     "Juice of 1 lime",
+     "60 ml tomato juice",
+     "1–2 tsp hot sauce",
+     "Coarse salt and chili powder for the rim",
+     "Ice"
+    ],
+    "steps": [
+     "Rub the rim of a tall glass with lime and dip it in salt mixed with chili powder.",
+     "Add ice, the lime juice, tomato juice and hot sauce.",
+     "Top up slowly with the cold beer, stir gently and serve."
+    ]
+   },
+   "tips": [
+    "Use a light lager to save calories.",
+    "Add more tomato juice and ice and less beer.",
+    "Keep it to one glass: every extra 330 ml of beer adds roughly 140 kcal."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Michelada",
-      "origin": "Mexico",
-      "intro": "A michelada is a Mexican beer cocktail: cold lager mixed with fresh lime juice, tomato juice and hot sauce, served over ice in a glass with a salt-and-chili rim. It is tangy, savoury, spicy and very refreshing, somewhere between a beer and a light tomato drink. It is a popular choice on hot afternoons and with snacks.",
-      "history": "The michelada is Mexican, but its origin is unclear and several stories compete for the name; it is often said that the simplest version, beer with lime and salt, came first, with tomato juice and hot sauce added later. Today it is served in bars across Mexico and the United States.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "330 ml cold lager",
-          "Juice of 1 lime",
-          "60 ml tomato juice",
-          "1–2 tsp hot sauce",
-          "Coarse salt and chili powder for the rim",
-          "Ice"
-        ],
-        "steps": [
-          "Rub the rim of a tall glass with lime and dip it in salt mixed with chili powder.",
-          "Add ice, the lime juice, tomato juice and hot sauce.",
-          "Top up slowly with the cold beer, stir gently and serve."
-        ]
-      },
-      "tips": [
-        "Use a light lager to save calories.",
-        "Add more tomato juice and ice and less beer.",
-        "Keep it to one glass: every extra 330 ml of beer adds roughly 140 kcal."
-      ]
-    },
-    "ar": {
-      "name": "ميتشيلادا",
-      "origin": "المكسيك",
-      "intro": "الميتشيلادا كوكتيل بيرة مكسيكي: بيرة لاغر باردة ممزوجة بعصير الليم الطازج وعصير الطماطم والصلصة الحارة، تُقدَّم مع الثلج في كأس حافّته مغطاة بالملح والفلفل الحار. طعمها حامض ومالح وحار ومنعش جداً، بين البيرة ومشروب الطماطم الخفيف. وهي خيار شائع في الأمسيات الحارة ومع المقبلات.",
-      "history": "الميتشيلادا مكسيكية، لكن أصلها غير واضح وتتنافس عدة روايات على تفسير اسمها؛ ويُقال كثيراً إن النسخة الأبسط من البيرة مع الليم والملح ظهرت أولاً، ثم أُضيف عصير الطماطم والصلصة الحارة لاحقاً. واليوم تُقدَّم في الحانات في أنحاء المكسيك والولايات المتحدة.",
-      "recipe": {
-        "servings": 1,
-        "time_min": 5,
-        "ingredients": [
-          "330 مل بيرة لاغر باردة",
-          "عصير ليمة واحدة",
-          "60 مل عصير طماطم",
-          "1–2 ملعقة صغيرة صلصة حارة",
-          "ملح خشن ومسحوق فلفل حار للحافة",
-          "ثلج"
-        ],
-        "steps": [
-          "امسح حافة كأس طويلة بالليم واغمسها في الملح الممزوج بالفلفل الحار.",
-          "أضف الثلج وعصير الليم وعصير الطماطم والصلصة الحارة.",
-          "أكمل ببطء بالبيرة الباردة، وحرّك برفق وقدّمها."
-        ]
-      },
-      "tips": [
-        "استخدم بيرة لاغر خفيفة لتوفير السعرات.",
-        "أضف عصير طماطم وثلجاً أكثر وبيرة أقل.",
-        "اكتفِ بكأس واحدة: كل 330 مل إضافية من البيرة تضيف نحو 140 سعرة."
-      ]
-    }
+  "ar": {
+   "name": "ميتشيلادا",
+   "origin": "المكسيك",
+   "intro": "الميتشيلادا كوكتيل بيرة مكسيكي: بيرة لاغر باردة ممزوجة بعصير الليم الطازج وعصير الطماطم والصلصة الحارة، تُقدَّم مع الثلج في كأس حافّته مغطاة بالملح والفلفل الحار. طعمها حامض ومالح وحار ومنعش جداً، بين البيرة ومشروب الطماطم الخفيف. وهي خيار شائع في الأمسيات الحارة ومع المقبلات.",
+   "history": "الميتشيلادا مكسيكية، لكن أصلها غير واضح وتتنافس عدة روايات على تفسير اسمها؛ ويُقال كثيراً إن النسخة الأبسط من البيرة مع الليم والملح ظهرت أولاً، ثم أُضيف عصير الطماطم والصلصة الحارة لاحقاً. واليوم تُقدَّم في الحانات في أنحاء المكسيك والولايات المتحدة.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "330 مل بيرة لاغر باردة",
+     "عصير ليمة واحدة",
+     "60 مل عصير طماطم",
+     "1–2 ملعقة صغيرة صلصة حارة",
+     "ملح خشن ومسحوق فلفل حار للحافة",
+     "ثلج"
+    ],
+    "steps": [
+     "امسح حافة كأس طويلة بالليم واغمسها في الملح الممزوج بالفلفل الحار.",
+     "أضف الثلج وعصير الليم وعصير الطماطم والصلصة الحارة.",
+     "أكمل ببطء بالبيرة الباردة، وحرّك برفق وقدّمها."
+    ]
+   },
+   "tips": [
+    "استخدم بيرة لاغر خفيفة لتوفير السعرات.",
+    "أضف عصير طماطم وثلجاً أكثر وبيرة أقل.",
+    "اكتفِ بكأس واحدة: كل 330 مل إضافية من البيرة تضيف نحو 140 سعرة."
+   ]
+  },
+  "es": {
+   "name": "Michelada",
+   "origin": "México",
+   "intro": "La michelada es un coctel mexicano con cerveza: cerveza clara bien fría mezclada con jugo de limón fresco, jugo de jitomate y salsa picante, servida con hielo en un vaso con el borde escarchado de sal y chile. Es ácida, sabrosa, picante y muy refrescante, a medio camino entre una cerveza y una bebida ligera de jitomate. Es una opción popular en las tardes calurosas y para acompañar botanas.",
+   "history": "La michelada es mexicana, pero su origen no está claro y varias historias se disputan el nombre; suele decirse que primero surgió la versión más sencilla, cerveza con limón y sal, y que el jugo de jitomate y la salsa picante se añadieron después. Hoy se sirve en bares de todo México y de Estados Unidos.",
+   "recipe": {
+    "servings": 1,
+    "time_min": 5,
+    "ingredients": [
+     "330 ml de cerveza clara bien fría",
+     "El jugo de 1 limón",
+     "60 ml de jugo de jitomate",
+     "1–2 cdtas. de salsa picante",
+     "Sal gruesa y chile en polvo para el borde",
+     "Hielo"
+    ],
+    "steps": [
+     "Frota el borde de un vaso alto con limón y pásalo por sal mezclada con chile en polvo.",
+     "Agrega hielo, el jugo de limón, el jugo de jitomate y la salsa picante.",
+     "Completa despacio con la cerveza fría, mezcla con suavidad y sirve."
+    ]
+   },
+   "tips": [
+    "Usa una cerveza clara ligera para ahorrar calorías.",
+    "Agrega más jugo de jitomate y hielo, y menos cerveza.",
+    "Limítate a un vaso: cada 330 ml extra de cerveza suman unas 140 kcal."
+   ],
+   "name_inline": "la michelada"
   }
+ }
 }

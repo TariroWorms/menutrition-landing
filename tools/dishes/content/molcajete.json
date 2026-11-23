@@ -1,169 +1,201 @@
 {
-  "db_key": "molcajete",
-  "slug": "molcajete",
-  "emoji": "🥘",
-  "portion_g": 450,
-  "country": "MX",
-  "related": [],
-  "review": {
-    "status": "checked",
-    "facts_checked": true
+ "db_key": "molcajete",
+ "slug": "molcajete",
+ "emoji": "🥘",
+ "portion_g": 450,
+ "country": "MX",
+ "related": [],
+ "review": {
+  "status": "checked",
+  "facts_checked": true
+ },
+ "i18n": {
+  "en": {
+   "name": "Molcajete mixto",
+   "origin": "Mexico",
+   "intro": "A molcajete mixto is a sizzling Mexican platter served in the heavy volcanic-stone mortar it is named after. Strips of grilled steak and chicken, chorizo, grilled nopal cactus and slices of melted cheese sit in a bubbling red salsa made from roasted tomatoes and chilies. The stone keeps everything hot at the table, and it is usually shared between two or more people.",
+   "history": "The molcajete, a basalt mortar, has been used in Mexico since pre-Hispanic times to grind chilies and make salsas. Serving a mixed grill bubbling inside a heated molcajete is a much more modern restaurant style, popular today in Mexico and in Mexican restaurants in the United States.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 45,
+    "ingredients": [
+     "300 g beef flank or skirt steak",
+     "300 g chicken breast",
+     "150 g chorizo",
+     "2 nopal pads, cleaned",
+     "150 g fresh melting cheese (queso fresco or panela), sliced",
+     "4 tomatoes, 2 dried guajillo chilies, 1 garlic clove, 1/4 onion for the salsa",
+     "1 tbsp oil, salt"
+    ],
+    "steps": [
+     "Roast the tomatoes, onion, garlic and soaked chilies, then blend with salt into a salsa.",
+     "Season and grill the steak, chicken, chorizo and nopal, then slice into strips.",
+     "Heat the molcajete in the oven at 250 °C for 20 minutes (or use a cast-iron pan).",
+     "Pour in the hot salsa, arrange the meats and nopal, and top with the cheese.",
+     "Serve sizzling at the table."
+    ]
+   },
+   "tips": [
+    "Skip the chorizo or use less of it; it is the fattiest part of the platter.",
+    "Use more nopal and grilled vegetables and less cheese.",
+    "Share one molcajete between three people and log your share of the meat."
+   ]
   },
-  "i18n": {
-    "en": {
-      "name": "Molcajete mixto",
-      "origin": "Mexico",
-      "intro": "A molcajete mixto is a sizzling Mexican platter served in the heavy volcanic-stone mortar it is named after. Strips of grilled steak and chicken, chorizo, grilled nopal cactus and slices of melted cheese sit in a bubbling red salsa made from roasted tomatoes and chilies. The stone keeps everything hot at the table, and it is usually shared between two or more people.",
-      "history": "The molcajete, a basalt mortar, has been used in Mexico since pre-Hispanic times to grind chilies and make salsas. Serving a mixed grill bubbling inside a heated molcajete is a much more modern restaurant style, popular today in Mexico and in Mexican restaurants in the United States.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 45,
-        "ingredients": [
-          "300 g beef flank or skirt steak",
-          "300 g chicken breast",
-          "150 g chorizo",
-          "2 nopal pads, cleaned",
-          "150 g fresh melting cheese (queso fresco or panela), sliced",
-          "4 tomatoes, 2 dried guajillo chilies, 1 garlic clove, 1/4 onion for the salsa",
-          "1 tbsp oil, salt"
-        ],
-        "steps": [
-          "Roast the tomatoes, onion, garlic and soaked chilies, then blend with salt into a salsa.",
-          "Season and grill the steak, chicken, chorizo and nopal, then slice into strips.",
-          "Heat the molcajete in the oven at 250 °C for 20 minutes (or use a cast-iron pan).",
-          "Pour in the hot salsa, arrange the meats and nopal, and top with the cheese.",
-          "Serve sizzling at the table."
-        ]
-      },
-      "tips": [
-        "Skip the chorizo or use less of it; it is the fattiest part of the platter.",
-        "Use more nopal and grilled vegetables and less cheese.",
-        "Share one molcajete between three people and log your share of the meat."
-      ]
-    },
-    "ar": {
-      "name": "مولكاخيتي مشكل",
-      "origin": "المكسيك",
-      "intro": "المولكاخيتي المشكل طبق مكسيكي يُقدَّم وهو يئز داخل الهاون الثقيل المصنوع من الحجر البركاني الذي سُمّي باسمه. شرائح لحم بقري ودجاج مشوي وتشوريزو وألواح صبار النوبال المشوية وشرائح جبن ذائب، تستقر في صلصة حمراء تغلي من الطماطم المشوية والفلفل الحار. يحافظ الحجر على حرارة الطعام على المائدة، وعادة يتشاركه شخصان أو أكثر.",
-      "history": "يُستخدم المولكاخيتي، وهو هاون من حجر البازلت، في المكسيك منذ ما قبل وصول الإسبان لطحن الفلفل وتحضير الصلصات. أما تقديم المشويات المشكلة وهي تغلي داخله فأسلوب مطاعم حديث، منتشر اليوم في المكسيك والمطاعم المكسيكية في الولايات المتحدة.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 45,
-        "ingredients": [
-          "300 غ شريحة لحم بقري (فلانك أو سكيرت)",
-          "300 غ صدر دجاج",
-          "150 غ تشوريزو",
-          "2 لوح نوبال منظف",
-          "150 غ جبن طري قابل للذوبان، مقطع شرائح",
-          "4 طماطم، 2 فلفل غواخيو مجفف، فص ثوم، ربع بصلة للصلصة",
-          "1 ملعقة كبيرة زيت، ملح"
-        ],
-        "steps": [
-          "اشوِ الطماطم والبصل والثوم والفلفل المنقوع، ثم اخلطها مع الملح لصنع الصلصة.",
-          "تبّل اللحم والدجاج والتشوريزو والنوبال واشوِها، ثم قطّعها شرائح.",
-          "سخّن المولكاخيتي في الفرن على 250 °م لمدة 20 دقيقة (أو استخدم مقلاة حديد زهر).",
-          "اسكب الصلصة الساخنة فيه ورتّب اللحوم والنوبال وضع الجبن فوقها.",
-          "قدّمه وهو يئز على المائدة."
-        ]
-      },
-      "tips": [
-        "استغنِ عن التشوريزو أو قلّله؛ فهو أكثر مكونات الطبق دهوناً.",
-        "أكثر من النوبال والخضار المشوية وقلّل الجبن.",
-        "تقاسم الطبق بين ثلاثة أشخاص وسجّل حصتك من اللحم."
-      ]
-    },
-    "it": {
-      "name": "Molcajete mixto",
-      "origin": "Messico",
-      "intro": "Il molcajete mixto è un piatto messicano sfrigolante servito nel pesante mortaio di pietra vulcanica da cui prende il nome. Strisce di bistecca e pollo alla griglia, chorizo, nopal (fico d'India) grigliato e fette di formaggio fuso stanno immerse in una salsa rossa gorgogliante fatta con pomodori e peperoncini arrostiti. La pietra mantiene tutto caldo in tavola e di solito il piatto si divide tra due o più persone.",
-      "history": "Il molcajete, un mortaio di basalto, si usa in Messico fin dall'epoca preispanica per macinare i peperoncini e preparare le salse. Servire una grigliata mista che ribolle in un molcajete riscaldato è invece uno stile di ristorante molto più moderno, oggi popolare in Messico e nei ristoranti messicani degli Stati Uniti.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 45,
-        "ingredients": [
-          "300 g di bavetta o diaframma di manzo",
-          "300 g di petto di pollo",
-          "150 g di chorizo",
-          "2 pale di nopal, pulite",
-          "150 g di formaggio fresco filante (queso fresco o panela), a fette",
-          "4 pomodori, 2 peperoncini guajillo secchi, 1 spicchio d'aglio, 1/4 di cipolla per la salsa",
-          "1 cucchiaio di olio, sale"
-        ],
-        "steps": [
-          "Arrostisci pomodori, cipolla, aglio e peperoncini ammollati, poi frullali con il sale per ottenere la salsa.",
-          "Condisci e griglia bistecca, pollo, chorizo e nopal, poi tagliali a strisce.",
-          "Scalda il molcajete in forno a 250 °C per 20 minuti (oppure usa una padella di ghisa).",
-          "Versa la salsa calda, disponi le carni e il nopal e copri con il formaggio.",
-          "Servi sfrigolante in tavola."
-        ]
-      },
-      "tips": [
-        "Evita il chorizo o usane meno: è la parte più grassa del piatto.",
-        "Usa più nopal e verdure grigliate e meno formaggio.",
-        "Dividi un molcajete in tre persone e registra la tua parte di carne."
-      ]
-    },
-    "el": {
-      "name": "Μολκαχέτε μίξτο",
-      "origin": "Μεξικό",
-      "intro": "Το μολκαχέτε μίξτο είναι μεξικάνικη πιατέλα που τσιτσιρίζει, σερβιρισμένη μέσα στο βαρύ γουδί από ηφαιστειακή πέτρα από το οποίο πήρε το όνομά του. Λωρίδες ψητής μοσχαρίσιας μπριζόλας και κοτόπουλου, τσορίθο, ψητός κάκτος νοπάλ και φέτες λιωμένου τυριού κάθονται μέσα σε κόκκινη σάλτσα που κοχλάζει, φτιαγμένη από ψητές ντομάτες και καυτερές πιπεριές. Η πέτρα κρατά τα πάντα ζεστά στο τραπέζι, και συνήθως το μοιράζονται δύο ή περισσότερα άτομα.",
-      "history": "Το μολκαχέτε, ένα γουδί από βασάλτη, χρησιμοποιείται στο Μεξικό από την προϊσπανική εποχή για να αλέθονται πιπεριές και να φτιάχνονται σάλτσες. Το σερβίρισμα ανάμεικτων ψητών που κοχλάζουν μέσα σε ζεσταμένο μολκαχέτε είναι πολύ πιο σύγχρονο στιλ εστιατορίου, δημοφιλές σήμερα στο Μεξικό και στα μεξικάνικα εστιατόρια των Ηνωμένων Πολιτειών.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 45,
-        "ingredients": [
-          "300 γρ. μοσχαρίσια φαλτσέτα ή διάφραγμα",
-          "300 γρ. στήθος κοτόπουλου",
-          "150 γρ. τσορίθο",
-          "2 φύλλα κάκτου νοπάλ, καθαρισμένα",
-          "150 γρ. φρέσκο τυρί που λιώνει (κέσο φρέσκο ή πανέλα), σε φέτες",
-          "4 ντομάτες, 2 αποξηραμένες πιπεριές γουαχίγιο, 1 σκελίδα σκόρδο, 1/4 κρεμμύδι για τη σάλτσα",
-          "1 κ.σ. λάδι, αλάτι"
-        ],
-        "steps": [
-          "Ψήστε τις ντομάτες, το κρεμμύδι, το σκόρδο και τις μουλιασμένες πιπεριές και χτυπήστε τα στο μπλέντερ με αλάτι για να γίνει σάλτσα.",
-          "Καρυκεύστε και ψήστε τη μπριζόλα, το κοτόπουλο, το τσορίθο και το νοπάλ και κόψτε τα σε λωρίδες.",
-          "Ζεστάνετε το μολκαχέτε στον φούρνο στους 250 °C για 20 λεπτά (ή χρησιμοποιήστε μαντεμένιο τηγάνι).",
-          "Ρίξτε την καυτή σάλτσα, τοποθετήστε τα κρέατα και το νοπάλ και σκεπάστε με το τυρί.",
-          "Σερβίρετε στο τραπέζι ενώ τσιτσιρίζει."
-        ]
-      },
-      "tips": [
-        "Παραλείψτε το τσορίθο ή βάλτε λιγότερο· είναι το πιο λιπαρό μέρος της πιατέλας.",
-        "Βάλτε περισσότερο νοπάλ και ψητά λαχανικά και λιγότερο τυρί.",
-        "Μοιραστείτε ένα μολκαχέτε ανάμεσα σε τρία άτομα και καταγράψτε το δικό σας μερίδιο κρέατος."
-      ]
-    },
-    "ru": {
-      "name": "Молькахете микс",
-      "origin": "Мексика",
-      "intro": "Молькахете микс — шипящее мексиканское блюдо, которое подают в тяжёлой ступке из вулканического камня, давшей ему название. Полоски стейка и курицы на гриле, чоризо, нопаль на гриле и ломтики расплавленного сыра лежат в пузырящейся красной сальсе из запечённых помидоров и чили. Камень сохраняет всё горячим за столом, и обычно блюдо делят двое и более человек.",
-      "history": "Молькахете, базальтовая ступка, использовалась в Мексике ещё в доиспанские времена для растирания чили и приготовления сальс. Подача мешаного гриля, пузырящегося в нагретой молькахете, — гораздо более современный ресторанный стиль, популярный сегодня в Мексике и в мексиканских ресторанах США.",
-      "recipe": {
-        "servings": 3,
-        "time_min": 45,
-        "ingredients": [
-          "300 г говяжьего бавета или фланка",
-          "300 г куриной грудки",
-          "150 г чоризо",
-          "2 листа нопаля, очищенных",
-          "150 г свежего плавящегося сыра (кесо фреско или панела), нарезанного",
-          "4 помидора, 2 сушёных чили гуахильо, 1 зубчик чеснока, ¼ луковицы для сальсы",
-          "1 ст. л. масла, соль"
-        ],
-        "steps": [
-          "Запеките помидоры, лук, чеснок и замоченные чили, затем взбейте с солью в сальсу.",
-          "Приправьте и обжарьте на гриле стейк, курицу, чоризо и нопаль, затем нарежьте полосками.",
-          "Разогрейте молькахете в духовке при 250 °C 20 минут (или используйте чугунную сковороду).",
-          "Влейте горячую сальсу, выложите мясо и нопаль и покройте сыром.",
-          "Подавайте шипящим за столом."
-        ]
-      },
-      "tips": [
-        "Откажитесь от чоризо или используйте его меньше; это самая жирная часть блюда.",
-        "Берите больше нопаля и овощей на гриле и меньше сыра.",
-        "Делите одну молькахете на троих и записывайте свою долю мяса."
-      ]
-    }
+  "ar": {
+   "name": "مولكاخيتي مشكل",
+   "origin": "المكسيك",
+   "intro": "المولكاخيتي المشكل طبق مكسيكي يُقدَّم وهو يئز داخل الهاون الثقيل المصنوع من الحجر البركاني الذي سُمّي باسمه. شرائح لحم بقري ودجاج مشوي وتشوريزو وألواح صبار النوبال المشوية وشرائح جبن ذائب، تستقر في صلصة حمراء تغلي من الطماطم المشوية والفلفل الحار. يحافظ الحجر على حرارة الطعام على المائدة، وعادة يتشاركه شخصان أو أكثر.",
+   "history": "يُستخدم المولكاخيتي، وهو هاون من حجر البازلت، في المكسيك منذ ما قبل وصول الإسبان لطحن الفلفل وتحضير الصلصات. أما تقديم المشويات المشكلة وهي تغلي داخله فأسلوب مطاعم حديث، منتشر اليوم في المكسيك والمطاعم المكسيكية في الولايات المتحدة.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 45,
+    "ingredients": [
+     "300 غ شريحة لحم بقري (فلانك أو سكيرت)",
+     "300 غ صدر دجاج",
+     "150 غ تشوريزو",
+     "2 لوح نوبال منظف",
+     "150 غ جبن طري قابل للذوبان، مقطع شرائح",
+     "4 طماطم، 2 فلفل غواخيو مجفف، فص ثوم، ربع بصلة للصلصة",
+     "1 ملعقة كبيرة زيت، ملح"
+    ],
+    "steps": [
+     "اشوِ الطماطم والبصل والثوم والفلفل المنقوع، ثم اخلطها مع الملح لصنع الصلصة.",
+     "تبّل اللحم والدجاج والتشوريزو والنوبال واشوِها، ثم قطّعها شرائح.",
+     "سخّن المولكاخيتي في الفرن على 250 °م لمدة 20 دقيقة (أو استخدم مقلاة حديد زهر).",
+     "اسكب الصلصة الساخنة فيه ورتّب اللحوم والنوبال وضع الجبن فوقها.",
+     "قدّمه وهو يئز على المائدة."
+    ]
+   },
+   "tips": [
+    "استغنِ عن التشوريزو أو قلّله؛ فهو أكثر مكونات الطبق دهوناً.",
+    "أكثر من النوبال والخضار المشوية وقلّل الجبن.",
+    "تقاسم الطبق بين ثلاثة أشخاص وسجّل حصتك من اللحم."
+   ]
+  },
+  "it": {
+   "name": "Molcajete mixto",
+   "origin": "Messico",
+   "intro": "Il molcajete mixto è un piatto messicano sfrigolante servito nel pesante mortaio di pietra vulcanica da cui prende il nome. Strisce di bistecca e pollo alla griglia, chorizo, nopal (fico d'India) grigliato e fette di formaggio fuso stanno immerse in una salsa rossa gorgogliante fatta con pomodori e peperoncini arrostiti. La pietra mantiene tutto caldo in tavola e di solito il piatto si divide tra due o più persone.",
+   "history": "Il molcajete, un mortaio di basalto, si usa in Messico fin dall'epoca preispanica per macinare i peperoncini e preparare le salse. Servire una grigliata mista che ribolle in un molcajete riscaldato è invece uno stile di ristorante molto più moderno, oggi popolare in Messico e nei ristoranti messicani degli Stati Uniti.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 45,
+    "ingredients": [
+     "300 g di bavetta o diaframma di manzo",
+     "300 g di petto di pollo",
+     "150 g di chorizo",
+     "2 pale di nopal, pulite",
+     "150 g di formaggio fresco filante (queso fresco o panela), a fette",
+     "4 pomodori, 2 peperoncini guajillo secchi, 1 spicchio d'aglio, 1/4 di cipolla per la salsa",
+     "1 cucchiaio di olio, sale"
+    ],
+    "steps": [
+     "Arrostisci pomodori, cipolla, aglio e peperoncini ammollati, poi frullali con il sale per ottenere la salsa.",
+     "Condisci e griglia bistecca, pollo, chorizo e nopal, poi tagliali a strisce.",
+     "Scalda il molcajete in forno a 250 °C per 20 minuti (oppure usa una padella di ghisa).",
+     "Versa la salsa calda, disponi le carni e il nopal e copri con il formaggio.",
+     "Servi sfrigolante in tavola."
+    ]
+   },
+   "tips": [
+    "Evita il chorizo o usane meno: è la parte più grassa del piatto.",
+    "Usa più nopal e verdure grigliate e meno formaggio.",
+    "Dividi un molcajete in tre persone e registra la tua parte di carne."
+   ]
+  },
+  "el": {
+   "name": "Μολκαχέτε μίξτο",
+   "origin": "Μεξικό",
+   "intro": "Το μολκαχέτε μίξτο είναι μεξικάνικη πιατέλα που τσιτσιρίζει, σερβιρισμένη μέσα στο βαρύ γουδί από ηφαιστειακή πέτρα από το οποίο πήρε το όνομά του. Λωρίδες ψητής μοσχαρίσιας μπριζόλας και κοτόπουλου, τσορίθο, ψητός κάκτος νοπάλ και φέτες λιωμένου τυριού κάθονται μέσα σε κόκκινη σάλτσα που κοχλάζει, φτιαγμένη από ψητές ντομάτες και καυτερές πιπεριές. Η πέτρα κρατά τα πάντα ζεστά στο τραπέζι, και συνήθως το μοιράζονται δύο ή περισσότερα άτομα.",
+   "history": "Το μολκαχέτε, ένα γουδί από βασάλτη, χρησιμοποιείται στο Μεξικό από την προϊσπανική εποχή για να αλέθονται πιπεριές και να φτιάχνονται σάλτσες. Το σερβίρισμα ανάμεικτων ψητών που κοχλάζουν μέσα σε ζεσταμένο μολκαχέτε είναι πολύ πιο σύγχρονο στιλ εστιατορίου, δημοφιλές σήμερα στο Μεξικό και στα μεξικάνικα εστιατόρια των Ηνωμένων Πολιτειών.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 45,
+    "ingredients": [
+     "300 γρ. μοσχαρίσια φαλτσέτα ή διάφραγμα",
+     "300 γρ. στήθος κοτόπουλου",
+     "150 γρ. τσορίθο",
+     "2 φύλλα κάκτου νοπάλ, καθαρισμένα",
+     "150 γρ. φρέσκο τυρί που λιώνει (κέσο φρέσκο ή πανέλα), σε φέτες",
+     "4 ντομάτες, 2 αποξηραμένες πιπεριές γουαχίγιο, 1 σκελίδα σκόρδο, 1/4 κρεμμύδι για τη σάλτσα",
+     "1 κ.σ. λάδι, αλάτι"
+    ],
+    "steps": [
+     "Ψήστε τις ντομάτες, το κρεμμύδι, το σκόρδο και τις μουλιασμένες πιπεριές και χτυπήστε τα στο μπλέντερ με αλάτι για να γίνει σάλτσα.",
+     "Καρυκεύστε και ψήστε τη μπριζόλα, το κοτόπουλο, το τσορίθο και το νοπάλ και κόψτε τα σε λωρίδες.",
+     "Ζεστάνετε το μολκαχέτε στον φούρνο στους 250 °C για 20 λεπτά (ή χρησιμοποιήστε μαντεμένιο τηγάνι).",
+     "Ρίξτε την καυτή σάλτσα, τοποθετήστε τα κρέατα και το νοπάλ και σκεπάστε με το τυρί.",
+     "Σερβίρετε στο τραπέζι ενώ τσιτσιρίζει."
+    ]
+   },
+   "tips": [
+    "Παραλείψτε το τσορίθο ή βάλτε λιγότερο· είναι το πιο λιπαρό μέρος της πιατέλας.",
+    "Βάλτε περισσότερο νοπάλ και ψητά λαχανικά και λιγότερο τυρί.",
+    "Μοιραστείτε ένα μολκαχέτε ανάμεσα σε τρία άτομα και καταγράψτε το δικό σας μερίδιο κρέατος."
+   ]
+  },
+  "ru": {
+   "name": "Молькахете микс",
+   "origin": "Мексика",
+   "intro": "Молькахете микс — шипящее мексиканское блюдо, которое подают в тяжёлой ступке из вулканического камня, давшей ему название. Полоски стейка и курицы на гриле, чоризо, нопаль на гриле и ломтики расплавленного сыра лежат в пузырящейся красной сальсе из запечённых помидоров и чили. Камень сохраняет всё горячим за столом, и обычно блюдо делят двое и более человек.",
+   "history": "Молькахете, базальтовая ступка, использовалась в Мексике ещё в доиспанские времена для растирания чили и приготовления сальс. Подача мешаного гриля, пузырящегося в нагретой молькахете, — гораздо более современный ресторанный стиль, популярный сегодня в Мексике и в мексиканских ресторанах США.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 45,
+    "ingredients": [
+     "300 г говяжьего бавета или фланка",
+     "300 г куриной грудки",
+     "150 г чоризо",
+     "2 листа нопаля, очищенных",
+     "150 г свежего плавящегося сыра (кесо фреско или панела), нарезанного",
+     "4 помидора, 2 сушёных чили гуахильо, 1 зубчик чеснока, ¼ луковицы для сальсы",
+     "1 ст. л. масла, соль"
+    ],
+    "steps": [
+     "Запеките помидоры, лук, чеснок и замоченные чили, затем взбейте с солью в сальсу.",
+     "Приправьте и обжарьте на гриле стейк, курицу, чоризо и нопаль, затем нарежьте полосками.",
+     "Разогрейте молькахете в духовке при 250 °C 20 минут (или используйте чугунную сковороду).",
+     "Влейте горячую сальсу, выложите мясо и нопаль и покройте сыром.",
+     "Подавайте шипящим за столом."
+    ]
+   },
+   "tips": [
+    "Откажитесь от чоризо или используйте его меньше; это самая жирная часть блюда.",
+    "Берите больше нопаля и овощей на гриле и меньше сыра.",
+    "Делите одну молькахете на троих и записывайте свою долю мяса."
+   ]
+  },
+  "es": {
+   "name": "Molcajete mixto",
+   "origin": "México",
+   "intro": "El molcajete mixto es un platillo mexicano que llega burbujeante a la mesa en el pesado mortero de piedra volcánica que le da nombre. Tiras de bistec y pollo asados, chorizo, nopal asado y rebanadas de queso derretido reposan sobre una salsa roja hirviente de jitomates y chiles asados. La piedra mantiene todo caliente en la mesa, y suele compartirse entre dos o más personas.",
+   "history": "El molcajete, un mortero de basalto, se usa en México desde la época prehispánica para moler chiles y preparar salsas. Servir una parrillada mixta hirviendo dentro de un molcajete calentado es un estilo de restaurante mucho más moderno, popular hoy en México y en los restaurantes mexicanos de Estados Unidos.",
+   "recipe": {
+    "servings": 3,
+    "time_min": 45,
+    "ingredients": [
+     "300 g de arrachera o falda de res",
+     "300 g de pechuga de pollo",
+     "150 g de chorizo",
+     "2 nopales limpios",
+     "150 g de queso fresco para freír (queso fresco o panela), en rebanadas",
+     "4 jitomates, 2 chiles guajillo secos, 1 diente de ajo y ¼ de cebolla para la salsa",
+     "1 cda. de aceite, sal"
+    ],
+    "steps": [
+     "Asa los jitomates, la cebolla, el ajo y los chiles remojados, y lícualos con sal para hacer una salsa.",
+     "Sazona y asa el bistec, el pollo, el chorizo y el nopal, y córtalos en tiras.",
+     "Calienta el molcajete en el horno a 250 °C durante 20 minutos (o usa una sartén de hierro fundido).",
+     "Vierte la salsa caliente, acomoda las carnes y el nopal, y cubre con el queso.",
+     "Sirve chisporroteando en la mesa."
+    ]
+   },
+   "tips": [
+    "Omite el chorizo o usa menos; es la parte más grasosa del platillo.",
+    "Usa más nopal y verduras asadas, y menos queso.",
+    "Comparte un molcajete entre tres personas y registra tu parte de carne."
+   ],
+   "name_inline": "el molcajete mixto"
   }
+ }
 }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- "What can I cook?" page (/dishes/cook/). Styles come from template.html; logic in cook.py. -->
+<html lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="apple-itunes-app" content="app-id=6767123368, affiliate-data=pt=128869855&amp;ct=banner-cook" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>¿Qué cocino? Platos con los ingredientes que tienes — Me Nutrition</title>
+<meta name="description" content="Elige los ingredientes que tienes en el refrigerador, la forma de cocción, el sabor y la cocina, y encuentra platos entre 4909 recetas de todo el mundo, con calorías y macros." />
+<link rel="canonical" href="https://menutrition.app/es/dishes/cook/" />
+<link rel="alternate" hreflang="en" href="https://menutrition.app/dishes/cook/" />
+<link rel="alternate" hreflang="ru" href="https://menutrition.app/ru/dishes/cook/" />
+<link rel="alternate" hreflang="ar" href="https://menutrition.app/ar/dishes/cook/" />
+<link rel="alternate" hreflang="it" href="https://menutrition.app/it/dishes/cook/" />
+<link rel="alternate" hreflang="el" href="https://menutrition.app/el/dishes/cook/" />
+<link rel="alternate" hreflang="es" href="https://menutrition.app/es/dishes/cook/" />
+<link rel="icon" type="image/png" href="/appicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/dishes/dish.css?v=a51c83cb" />
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="/es/"><img src="/appicon.png" alt="" width="32" height="32"><span class="bn"><span class="me">Me</span><span class="bn-gap"> </span><span class="nu">Nutrition</span></span></a>
+  <nav class="hnav"><details class="langbox"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>ES</summary><div class="lm"><a href="/dishes/cook/" hreflang="en">English</a><a href="/ru/dishes/cook/" hreflang="ru">Русский</a><a href="/ar/dishes/cook/" hreflang="ar">العربية</a><a href="/it/dishes/cook/" hreflang="it">Italiano</a><a href="/el/dishes/cook/" hreflang="el">Ελληνικά</a><a href="/es/dishes/cook/" hreflang="es" class="on">Español</a></div></details>
+  <a class="dl" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=dishes-hdr-es&amp;mt=8" target="_blank" rel="noopener">Descargar</a></nav>
+</div></header>
+<nav class="snav" aria-label="Sections"><div class="wrap"><a href="/es/app/">App</a><a href="/es/dishes/">Platos</a><a href="/es/dishes/cook/" class="on" aria-current="page">Qué cocinar</a><a href="/es/foods/">Alimentos</a><a href="/es/guides/">Dietas y alergias</a><a href="/calculators/">Calculadoras</a><a href="/es/weight-loss-plan/">Plan para adelgazar</a></div></nav><div class="scrb" id="scrb" aria-hidden="true"><button type="button" data-d="-1" aria-label="Top">↑</button><button type="button" data-d="1" aria-label="Bottom">↓</button></div><script>(function(){var b=document.getElementById("scrb"),t;if(!b)return;function u(){var y=scrollY,h=document.documentElement.scrollHeight-innerHeight;if(h<innerHeight*1.5){b.classList.remove("on");return}b.children[0].style.visibility=y>200?"":"hidden";b.children[1].style.visibility=y<h-200?"":"hidden";b.classList.add("on");clearTimeout(t);t=setTimeout(function(){b.classList.remove("on")},2000)}addEventListener("scroll",u,{passive:true});b.onclick=function(e){var d=e.target.dataset.d;if(d)scrollTo({top:d<0?0:document.documentElement.scrollHeight,behavior:"smooth"})}})();</script>
+<main class="wrap">
+  <nav class="crumbs"><a href="/es/">Inicio</a> › <a href="/es/dishes/">Platos</a></nav>
+  <div class="cook"><h1>¿Qué cocino?</h1><p class="intro">Marca lo que tienes en el refrigerador y cómo lo quieres: frito u horneado, picante o dulce, italiano o de cualquier cocina. Te mostramos todos los platos que encajan, con sus calorías.</p><h2>Ingredientes que tienes</h2><input class="search" id="prod" type="search" autocomplete="off" placeholder="Escribe un ingrediente: pollo, arroz, berenjena…" aria-label="Ingredientes que tienes"><div class="pick" id="sug"></div><div class="pick" id="chips"></div><p class="note">Populares:</p><div class="pick" id="pop"><button type="button" class="pc" data-k="egg">huevo</button><button type="button" class="pc" data-k="tomato">jitomate (tomate)</button><button type="button" class="pc" data-k="potato">papa</button><button type="button" class="pc" data-k="rice">arroz</button><button type="button" class="pc" data-k="chicken">pollo</button><button type="button" class="pc" data-k="beef">carne de res</button><button type="button" class="pc" data-k="pork">carne de cerdo</button><button type="button" class="pc" data-k="carrot">zanahoria</button><button type="button" class="pc" data-k="lamb">cordero</button><button type="button" class="pc" data-k="yogurt">yogur</button><button type="button" class="pc" data-k="bell_pepper">pimiento morrón</button><button type="button" class="pc" data-k="cheese">queso</button><button type="button" class="pc" data-k="shrimp">camarón</button><button type="button" class="pc" data-k="bread">pan</button><button type="button" class="pc" data-k="coconut_milk">leche de coco</button><button type="button" class="pc" data-k="ground_beef">carne molida de res</button><button type="button" class="pc" data-k="scallions">cebollitas de cambray</button><button type="button" class="pc" data-k="sour_cream">crema agria</button></div><div class="filters"><div><label for="fm">Forma de cocción</label><select id="fm"><option value="">Cualquiera</option><option value="fried">A la sartén</option><option value="deep_fried">Frito en aceite abundante</option><option value="baked">Al horno / asado</option><option value="grilled">A la parrilla</option><option value="stewed">Guisado / estofado</option><option value="boiled">Hervido</option><option value="steamed">Al vapor</option><option value="raw">Crudo / sin cocción</option></select></div><div><label for="ft">Sabor</label><select id="ft"><option value="">Cualquiera</option><option value="spicy">Picante</option><option value="sweet">Dulce</option><option value="sour">Ácido</option><option value="creamy">Cremoso / con queso</option><option value="smoky">Ahumado</option><option value="savory">Salado / contundente</option><option value="herby">Aromático / con hierbas</option><option value="crispy">Crujiente</option><option value="fresh">Fresco / ligero</option></select></div><div><label for="fy">Tipo de plato</label><select id="fy"><option value="">Cualquiera</option><option value="main">Plato fuerte</option><option value="soup">Sopa</option><option value="salad">Ensalada</option><option value="snack">Entrada / botana</option><option value="breakfast">Desayuno</option><option value="side">Guarnición</option><option value="bread">Pan / masas</option><option value="dessert">Postre</option><option value="drink">Bebida</option></select></div><div><label for="fc">Cocina</label><select id="fc"><option value="">Cualquiera</option></select></div></div><div class="bar"><h2>Platos que encajan<small id="cnt"></small></h2><button type="button" class="pc" id="reset">Borrar</button></div><div id="res"><noscript>Elige un ingrediente o un filtro para ver platos.</noscript></div><div id="close"></div><p class="note"><a href="/es/dishes/with/">Platos por ingrediente →</a></p></div>
+</main>
+<footer><div class="wrap">
+  <a href="/es/">Inicio</a><a href="/privacy">Privacidad</a><a href="/terms">Términos</a>
+  <details class="langbox up"><summary aria-label="Language"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9S14.5 18.4 12 21c-2.5-2.6-3.8-5.7-3.8-9S9.5 5.6 12 3Z"/></svg>Español</summary><div class="lm"><a href="/dishes/cook/" hreflang="en">English</a><a href="/ru/dishes/cook/" hreflang="ru">Русский</a><a href="/ar/dishes/cook/" hreflang="ar">العربية</a><a href="/it/dishes/cook/" hreflang="it">Italiano</a><a href="/el/dishes/cook/" hreflang="el">Ελληνικά</a><a href="/es/dishes/cook/" hreflang="es">Español</a></div></details>
+  <p class="cite">© Me Nutrition. Se permite citar con un enlace a esta página.</p>
+</div></footer>
+<style>.cook .pick{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.cook .pc{font:inherit;cursor:pointer;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:14px;font-weight:600;color:inherit}.cook .pc.on{background:var(--teal-soft);color:var(--teal);border-color:transparent}.cook .pc small{color:var(--muted)}.cook .pc.more{margin-top:14px}.cook .intro+h2{margin-top:22px}.cook .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}.cook label{display:block;font-size:13px;font-weight:700;color:var(--muted)}.cook select{-webkit-appearance:none;appearance:none;width:100%;height:46px;margin-top:6px;padding:0 38px 0 14px;border-radius:14px;border:1px solid var(--line);background:var(--card) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%23777' stroke-width='2'%3E%3Cpath d='M1 1l5 5 5-5'/%3E%3C/svg%3E") no-repeat right 15px center;font:inherit;font-size:15px;color:inherit;cursor:pointer}[dir=rtl] .cook select{padding:0 14px 0 38px;background-position:left 15px center}.cook h2 small{color:var(--muted);font-weight:600;margin-inline-start:6px}.cook .bar{display:flex;justify-content:space-between;align-items:center;gap:10px}</style><script type="application/json" id="cook-ui">{"kcal": "kcal / 100 g", "none": "Ningún plato lleva todo esto. Quita un ingrediente o un filtro.", "close": "Opciones parecidas", "swap": "con {b} en vez de {a}", "missing": "sin {a}", "more": "Ver más", "start": "Elige un ingrediente o un filtro para ver platos.", "med": "Mediterránea", "cn": {"Peru": "Perú", "Mexico": "México", "Colombia": "Colombia", "Spain": "España", "Argentina": "Argentina", "Chile": "Chile", "France": "Francia", "Cuba": "Cuba"}}</script><script>
+(function(){
+var L=document.documentElement.lang, U=JSON.parse(document.getElementById('cook-ui').textContent), D, sel=[], f={m:'',t:'',y:'',c:''};
+var $=function(i){return document.getElementById(i)}, box=$('chips'), inp=$('prod'), sug=$('sug'), out=$('res'), close=$('close');
+var nm=function(k){var g=D.g[k];return (g&&g.n&&(g.n[L]||g.n.en))||k.replace(/_/g,' ')};
+var norm=function(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ًͯ-ْ]/g,'')};
+var has=function(d,k){var w='_'+k+'_';return d.i.some(function(x){return x===k||('_'+x+'_').indexOf(w)>=0})};
+var swapOf=function(k){for(var i=0;i<D.s.length;i++)if(D.s[i].indexOf(k)>=0)return D.s[i].filter(function(x){return x!==k});return []};
+var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var href=function(u){return (L==='en'?'/':'/'+L+'/')+'dishes/'+u+'/'};
+var card=function(d,note){var n=d.n[L]||d.n.en;return '<a href="'+href(d.u)+'">'+(d.p?'<img class="th" src="'+d.p+'" width="56" height="56" alt="" loading="lazy">':'<span class="em">'+d.e+'</span>')+'<div>'+esc(n)+'<span>'+d.k+' '+esc(U.kcal)+(note?' · '+esc(note):'')+'</span></div></a>'};
+var okF=function(d){return (!f.m||d.m===f.m)&&(!f.t||d.t.indexOf(f.t)>=0)&&(!f.y||d.y===f.y)&&(!f.c||(f.c==='__med'?D.med.indexOf(d.c)>=0:d.c===f.c))};
+function render(){
+  [].forEach.call(document.querySelectorAll('#pop button'),function(b){b.classList.toggle('on',sel.indexOf(b.dataset.k)>=0)});
+  box.innerHTML=sel.map(function(k){return '<button type="button" class="pc on" data-k="'+k+'">'+esc(nm(k))+' ✕</button>'}).join('');
+  var st=new URLSearchParams();if(sel.length)st.set('p',sel.join(','));['m','t','y','c'].forEach(function(x){if(f[x])st.set(x,f[x])});
+  history.replaceState(null,'',location.pathname+(st.toString()?'?'+st:''));
+  if(!sel.length&&!f.m&&!f.t&&!f.y&&!f.c){out.innerHTML='<p class="note">'+esc(U.start)+'</p>';close.innerHTML='';$('cnt').textContent='';return}
+  var base=D.d.filter(okF), full=base.filter(function(d){return sel.every(function(k){return has(d,k)})});
+  $('cnt').textContent=full.length;
+  var lim=60;out.innerHTML=full.length?'<div class="related">'+full.slice(0,lim).map(function(d){return card(d)}).join('')+'</div>'+(full.length>lim?'<button type="button" class="pc more" id="more">'+esc(U.more)+' ('+(full.length-lim)+')</button>':''):'<p class="note">'+esc(U.none)+'</p>';
+  var mb=$('more');if(mb)mb.onclick=function(){out.querySelector('.related').innerHTML=full.map(function(d){return card(d)}).join('');mb.remove()};
+  var cl=[];
+  if(sel.length&&full.length<12){
+    var seen={};full.forEach(function(d){seen[d.u]=1});
+    sel.forEach(function(a){
+      var rest=sel.filter(function(x){return x!==a});
+      swapOf(a).forEach(function(b){base.forEach(function(d){if(!seen[d.u]&&has(d,b)&&rest.every(function(k){return has(d,k)})){seen[d.u]=1;cl.push([d,U.swap.replace('{a}',nm(a)).replace('{b}',nm(b))])}})});
+    });
+    if(sel.length>1)sel.forEach(function(a){var rest=sel.filter(function(x){return x!==a});base.forEach(function(d){if(!seen[d.u]&&rest.every(function(k){return has(d,k)})){seen[d.u]=1;cl.push([d,U.missing.replace('{a}',nm(a))])}})});
+  }
+  close.innerHTML=cl.length?'<h2>'+esc(U.close)+'</h2><div class="related">'+cl.slice(0,24).map(function(x){return card(x[0],x[1])}).join('')+'</div>':'';
+}
+function add(k){if(k&&sel.indexOf(k)<0)sel.push(k);inp.value='';sug.innerHTML='';render()}
+box.onclick=function(e){var b=e.target.closest('button');if(b){sel=sel.filter(function(x){return x!==b.dataset.k});render()}};
+$('pop').onclick=function(e){var b=e.target.closest('button');if(b)add(b.dataset.k)};
+inp.oninput=function(){var v=norm(inp.value.trim());if(!v){sug.innerHTML='';return}
+  var r=Object.keys(D.g).filter(function(k){var g=D.g[k];return norm(g.n[L]||'').indexOf(v)>=0||norm(g.n.en||'').indexOf(v)>=0||k.indexOf(v.replace(/ /g,'_'))>=0}).sort(function(a,b){var sc=function(k){var n=norm(D.g[k].n[L]||D.g[k].n.en||k);return (n===v?0:n.indexOf(v)===0&&k.indexOf('_')<0?1:n.indexOf(v)===0?2:3)};return sc(a)-sc(b)||D.g[b].c-D.g[a].c}).slice(0,10);
+  sug.innerHTML=r.map(function(k){return '<button type="button" class="pc" data-k="'+k+'">'+esc(nm(k))+' <small>'+D.g[k].c+'</small></button>'}).join('')};
+sug.onclick=function(e){var b=e.target.closest('button');if(b)add(b.dataset.k)};
+inp.onkeydown=function(e){if(e.key==='Enter'){e.preventDefault();var b=sug.querySelector('button');if(b)add(b.dataset.k)}};
+['m','t','y','c'].forEach(function(x){$('f'+x).onchange=function(){f[x]=this.value;render()}});
+$('reset').onclick=function(){sel=[];f={m:'',t:'',y:'',c:''};['m','t','y','c'].forEach(function(x){$('f'+x).value=''});render()};
+fetch('/dishes/cook.json').then(function(r){return r.json()}).then(function(j){D=j;
+  var q=new URLSearchParams(location.search);sel=(q.get('p')||'').split(',').filter(function(k){return D.g[k]});
+  (q.get('q')||'').split(/[,;]+|\s+и\s+|\s+and\s+/).forEach(function(w){w=norm(w.trim());if(!w)return;
+    var best=null,bs=9;Object.keys(D.g).forEach(function(k){var g=D.g[k],a=norm(g.n[L]||''),b=norm(g.n.en||''),s=(a===w||b===w)?0:((a.indexOf(w)===0||b.indexOf(w)===0)&&k.indexOf('_')<0)?1:(a.indexOf(w)===0||b.indexOf(w)===0)?2:9;
+      if(s<bs||(s===bs&&best&&g.c>D.g[best].c)){bs=s;best=k}});if(best&&bs<9&&sel.indexOf(best)<0)sel.push(best)});
+  ['m','t','y','c'].forEach(function(x){var v=q.get(x)||'';f[x]=v;$('f'+x).value=v});
+  var cs={};D.d.forEach(function(d){if(d.c)cs[d.c]=(cs[d.c]||0)+1});
+  var opts=Object.keys(cs).sort(function(a,b){return cs[b]-cs[a]});
+  $('fc').insertAdjacentHTML('beforeend','<option value="__med">'+esc(U.med)+'</option>'+opts.map(function(c){return '<option value="'+esc(c)+'">'+esc((U.cn&&U.cn[c])||c)+' ('+cs[c]+')</option>'}).join(''));
+  $('fc').value=f.c;render()});
+})();
+</script>
+<script>document.addEventListener("click",function(e){document.querySelectorAll(".langbox").forEach(function(d){if(d.open&&!d.contains(e.target))d.open=false})});</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dab6447bdaac4f67b7e2016c2698b9dd"}'></script><!-- End Cloudflare Web Analytics --><script defer src="/android.js"></script>
+</body>
+</html>
