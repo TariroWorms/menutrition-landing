@@ -31,6 +31,8 @@ SRC_URL = {'sr': 'https://fdc.nal.usda.gov/', 'fd': 'https://fdc.nal.usda.gov/',
 
 _FP = Path(__file__).parent / 'food_photos.json'
 FOOD_PHOTOS = json.load(open(_FP, encoding='utf-8')) if _FP.exists() else {}
+_SO = Path(__file__).parent / 'seo_overrides.json'
+SEO_OVERRIDES = json.load(open(_SO, encoding='utf-8')) if _SO.exists() else {}   # {"<lang>/<slug>": {"title", "meta"}}; the template adds the brand suffix
 CAT_EMOJI = {'meat': '🥩', 'vegetables': '🥦', 'meals-fast-food': '🍔', 'bread-bakery': '🍞', 'sweets-snacks': '🍫',
              'eggs-dairy': '🥚', 'grains-pasta': '🌾', 'fish-seafood': '🐟', 'legumes-nuts': '🥜', 'soups-sauces-spices': '🥣',
              'beverages': '🥤', 'poultry': '🍗', 'fruits': '🍎', 'fats-oils': '🫒', 'other': '🍽️'}
@@ -193,6 +195,8 @@ class Builder:
         script = f'<script src="/foods/food.js?v={self.cssv}" defer></script>'
         desc = s['meta'].format(name=name, kcal=nf(lang, k, 0), p=n1(f['protein']), f=n1(f['fat']), c=n1(f['carbs']))
         title = s['title'].format(name=name, kcal=nf(lang, k, 0))
+        ov = SEO_OVERRIDES.get(f"{lang}/{f['slug']}", {})
+        title, desc = ov.get('title', title), ov.get('meta', desc)
         url = fpath(lang, f['slug'])
         html = self.shell(lang, title, desc, url, lambda l: fpath(l, f['slug']), main,
                           self.ld(lang, [(s['foods'], fpath(lang)), (s['cats'][cat], fpath(lang, cat)), (name, url)]) + self.nutrition_ld(lang, f, name, desc, url), script)
