@@ -8,4 +8,4 @@
 - Keep the same data shape (ingredients, cooking method, texture/taste, tags, kcal/macros, i18n texts, photo).
 
 ## After any build
-Run `python3 tools/footer_links.py` after the builders: it adds the «For dietitians» footer link to every page (idempotent).
+Run `python3 tools/site_chrome.py` after the builders: one shared footer and the «For dietitians» header button on every page (idempotent).

@@ -36,7 +36,7 @@ CSS = '''<style>
 .dt .btn{display:inline-block;width:100%;height:50px;border:0;border-radius:999px;background:#1d1b19;color:#fff;font:inherit;font-weight:800;font-size:16px;cursor:pointer;margin-top:14px;text-align:center;line-height:50px;text-decoration:none}
 .dt .cta{width:auto;padding:0 26px}
 .dt .msg{margin-top:12px;padding:12px;border-radius:12px;background:var(--teal-soft);color:var(--teal);font-weight:600}
-.dt .msg[hidden]{display:none}.dt .hp{position:absolute;left:-9999px}
+.dt .msg[hidden]{display:none}.dt .hp{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);opacity:0;pointer-events:none}
 </style>'''
 
 
