@@ -19,108 +19,7 @@ from build_dishes import SITE, esc  # noqa: E402
 
 FORM = json.loads((HERE / 'dietitians_form.json').read_text(encoding='utf-8'))
 
-T = {
- 'en': {
-  'title': 'Me Nutrition for dietitians: client food diaries with photos',
-  'desc': 'Your clients log meals by photo; you get a clear PDF food diary with grams, calories, protein, fat, carbs and water for every day. Apply for a dietitian account.',
-  'h1': 'For dietitians', 'home': 'Home',
-  'intro': 'Your clients snap their meals with Me Nutrition. Calories, protein, fat and carbs are counted for every dish, and with one tap the client sends you a clear food diary for the days you need to review.',
-  'cta': 'Apply for an account',
-  'pain_h': 'Why food diaries are hard to work with',
-  'pain': ['Clients forget to write meals down, or fill the diary in from memory at the end of the day.',
-           'Portions are guessed: “a plate of pasta”, “some nuts”.',
-           'Records arrive as screenshots, voice messages and notes in different formats.',
-           'You spend part of every consultation putting the picture together instead of working with it.'],
-  'how_h': 'How Me Nutrition helps your clients',
-  'how': [('📸', 'Photo logging', 'The client photographs a meal; every dish on the plate is recognised separately with its weight, calories, protein, fat and carbs.'),
-          ('🎙️', 'Voice, text and barcode', 'When a photo is not possible, a meal can be logged by voice, by typing or by scanning a barcode.'),
-          ('💧', 'Water and weight', 'Water intake and body weight are logged in the same place, weight even by photographing the scale.'),
-          ('⚠️', 'Allergens and diets', 'Allergens and diet fit (vegan, gluten-free and others) are shown for every dish.')],
-  'flow_h': 'How the diary gets to you',
-  'flow': ['The client logs meals in Me Nutrition as usual.',
-           'Before a consultation, the client taps “Send to dietitian” and chooses the period.',
-           'The app creates a PDF food diary and the client sends it to you by email or messenger.',
-           'You open one tidy document instead of a pile of messages.'],
-  'pdf_h': 'What is in the PDF diary',
-  'pdf': ['Every day on its own page, meal by meal.',
-          'Each dish with its photo, weight in grams, calories, protein, fat and carbs.',
-          'Daily totals for calories and macros, with progress towards the daily target.',
-          'Water intake for the day.',
-          'Available in the client’s app language.'],
-  'gain_h': 'What you get',
-  'gain': ['Accurate data with weights instead of recollections.',
-           'Photos that show what was really on the plate.',
-           'Less time collecting information, more time for advice.',
-           'Easy to see where and when the plan goes off track.'],
-  'privacy_h': 'Privacy',
-  'privacy': 'The client decides what to share and when: the diary reaches you only if the client sends it. Me Nutrition does not give anyone access to a client’s data.',
-  'login_h': 'Dietitian sign-in', 'email': 'Email', 'password': 'Password', 'signin': 'Sign in',
-  'login_msg': 'Dietitian accounts open after your application is approved. Please apply below — no password is needed yet.',
-  'no_acc': 'No account yet?', 'apply_link': 'Apply for access',
-  'form_h': 'Apply for a dietitian account',
-  'form_p': 'We are opening a dietitian area where you can receive and review your clients’ diaries. Leave your details and we will contact you.',
-  'f': {'first': 'First name', 'last': 'Last name', 'mail': 'Email', 'country': 'Country', 'spec': 'Specialisation (e.g. clinical, sports, weight management)',
-        'clients': 'How many clients do you see per month?', 'now': 'How do clients send you their food diaries now?', 'note': 'Comment (optional)'},
-  'clients_opts': ['Fewer than 10', '10–30', '30–100', 'More than 100'],
-  'consent': 'I agree that Me Nutrition may contact me about the dietitian area.',
-  'send': 'Send application', 'sent': 'Thank you! Your application has been sent. We will contact you by email.',
-  'err': 'Could not send. Please check your connection and try again.',
-  'faq_h': 'Questions',
-  'faq': [('Does my client need anything special?', 'Only the Me Nutrition app on iPhone. The diary is created in the app and sent like any other file.'),
-          ('Do I need to install the app?', 'No. You receive a PDF that opens on any computer or phone.'),
-          ('What happens after I apply?', 'We will email you when the dietitian area is ready and set up your account.')],
- },
- 'es': {
-  'title': 'Me Nutrition para nutricionistas: diarios de comidas con fotos',
-  'desc': 'Tus pacientes registran sus comidas con una foto y tú recibes un diario en PDF con gramos, calorías, proteínas, grasas, carbohidratos y agua de cada día. Solicita tu cuenta.',
-  'h1': 'Para nutricionistas', 'home': 'Inicio',
-  'intro': 'Tus pacientes fotografían sus comidas con Me Nutrition. Las calorías, proteínas, grasas y carbohidratos se calculan para cada plato y, con un toque, el paciente te envía un diario claro de los días que quieres revisar.',
-  'cta': 'Solicitar una cuenta',
-  'pain_h': 'Por qué cuesta trabajar con diarios de comidas',
-  'pain': ['Los pacientes olvidan anotar las comidas o llenan el diario de memoria al final del día.',
-           'Las porciones se calculan a ojo: «un plato de pasta», «unas nueces».',
-           'Los registros llegan como capturas, audios y notas en formatos distintos.',
-           'Parte de cada consulta se va en reconstruir el panorama en lugar de trabajar con él.'],
-  'how_h': 'Cómo ayuda Me Nutrition a tus pacientes',
-  'how': [('📸', 'Registro con foto', 'El paciente fotografía la comida y cada plato se reconoce por separado, con su peso, calorías, proteínas, grasas y carbohidratos.'),
-          ('🎙️', 'Voz, texto y código de barras', 'Cuando no se puede tomar una foto, la comida se registra por voz, escribiendo o escaneando el código de barras.'),
-          ('💧', 'Agua y peso', 'El agua y el peso corporal se registran en el mismo lugar; el peso, incluso con una foto de la báscula.'),
-          ('⚠️', 'Alérgenos y dietas', 'Cada plato muestra sus alérgenos y si encaja en una dieta (vegana, sin gluten y otras).')],
-  'flow_h': 'Cómo te llega el diario',
-  'flow': ['El paciente registra sus comidas en Me Nutrition como siempre.',
-           'Antes de la consulta, toca «Enviar al nutricionista» y elige el periodo.',
-           'La app crea un diario en PDF y el paciente te lo envía por correo o mensajería.',
-           'Abres un solo documento ordenado en lugar de un montón de mensajes.'],
-  'pdf_h': 'Qué incluye el diario en PDF',
-  'pdf': ['Cada día en su propia página, comida por comida.',
-          'Cada plato con su foto, peso en gramos, calorías, proteínas, grasas y carbohidratos.',
-          'Totales diarios de calorías y macros, con el avance hacia la meta del día.',
-          'El agua del día.',
-          'En el idioma de la app del paciente.'],
-  'gain_h': 'Qué ganas tú',
-  'gain': ['Datos precisos con pesos en lugar de recuerdos.',
-           'Fotos que muestran lo que realmente había en el plato.',
-           'Menos tiempo reuniendo información y más tiempo para aconsejar.',
-           'Se ve con facilidad dónde y cuándo se sale del plan.'],
-  'privacy_h': 'Privacidad',
-  'privacy': 'El paciente decide qué compartir y cuándo: el diario te llega solo si él te lo envía. Me Nutrition no da a nadie acceso a los datos del paciente.',
-  'login_h': 'Acceso para nutricionistas', 'email': 'Correo electrónico', 'password': 'Contraseña', 'signin': 'Entrar',
-  'login_msg': 'Las cuentas para nutricionistas se abren cuando se aprueba tu solicitud. Envíala abajo; todavía no necesitas contraseña.',
-  'no_acc': '¿Aún no tienes cuenta?', 'apply_link': 'Solicitar acceso',
-  'form_h': 'Solicita tu cuenta de nutricionista',
-  'form_p': 'Estamos abriendo un área para nutricionistas donde podrás recibir y revisar los diarios de tus pacientes. Déjanos tus datos y te contactaremos.',
-  'f': {'first': 'Nombre', 'last': 'Apellido', 'mail': 'Correo electrónico', 'country': 'País', 'spec': 'Especialidad (p. ej., clínica, deportiva, control de peso)',
-        'clients': '¿Cuántos pacientes atiendes al mes?', 'now': '¿Cómo te envían hoy tus pacientes su diario de comidas?', 'note': 'Comentario (opcional)'},
-  'clients_opts': ['Menos de 10', '10–30', '30–100', 'Más de 100'],
-  'consent': 'Acepto que Me Nutrition me contacte sobre el área para nutricionistas.',
-  'send': 'Enviar solicitud', 'sent': '¡Gracias! Tu solicitud se ha enviado. Te escribiremos por correo.',
-  'err': 'No se pudo enviar. Revisa tu conexión e inténtalo de nuevo.',
-  'faq_h': 'Preguntas',
-  'faq': [('¿Mi paciente necesita algo especial?', 'Solo la app Me Nutrition en iPhone. El diario se crea en la app y se envía como cualquier otro archivo.'),
-          ('¿Tengo que instalar la app?', 'No. Recibes un PDF que se abre en cualquier computadora o teléfono.'),
-          ('¿Qué pasa después de enviar la solicitud?', 'Te escribiremos cuando el área para nutricionistas esté lista y configuraremos tu cuenta.')],
- },
-}
+T = json.loads((HERE / 'dietitians.json').read_text(encoding='utf-8'))
 
 CSS = '''<style>
 .dt .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:12px 0}
@@ -200,8 +99,9 @@ f.onsubmit=function(e){e.preventDefault();
  var req=[f.first,f.last,f.mail,f.country,document.getElementById("d9")],ok=true;
  req.forEach(function(x){var bad=x.type==="checkbox"?!x.checked:!x.value.trim()||(x.type==="email"&&!/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(x.value));x.style.borderColor=bad?"#c0392b":"";if(bad)ok=false});
  if(!ok)return;
- var d=new URLSearchParams();Object.keys(F.fields).forEach(function(k){if(f[k])d.append(F.fields[k],f[k].value.trim())});
- if(F.fields.lang)d.append(F.fields.lang,lang);if(F.fields.page)d.append(F.fields.page,location.pathname);
+ var d=new URLSearchParams(),v=function(n){return f[n].value.trim().replace(/[|]/g,"/")};
+ d.append(F.email,v("mail"));d.append(F.page,location.pathname);d.append(F.lang,lang);
+ d.append(F.src,["dietitian",v("first"),v("last"),v("country"),v("spec"),v("clients"),v("now"),v("note")].join(" | "));
  var b=f.querySelector("button");b.disabled=true;
  fetch(F.action,{method:"POST",mode:"no-cors",body:d}).then(function(){f.querySelectorAll("label,input,select,textarea,button").forEach(function(x){if(x.id!=="dfmsg")x.style.display="none"});m.textContent=L.sent;m.hidden=false})
  .catch(function(){b.disabled=false;m.textContent=L.err;m.hidden=false});
@@ -214,7 +114,7 @@ f.onsubmit=function(e){e.preventDefault();
     alt = ''.join(f'<link rel="alternate" hreflang="{l}" href="{SITE}{"" if l == "en" else "/" + l}/for-dietitians/" />\n' for l in T)
     alt += f'<link rel="alternate" hreflang="x-default" href="{SITE}/for-dietitians/" />\n'
     html = html.replace('</head>', alt + '</head>', 1)
-    html = re.sub(r'<title>.*?</title>', f'<title>{esc(t["title"])} — Me Nutrition</title>', html, count=1)
+    html = re.sub(r'<title>.*?</title>', f'<title>{esc(t["title"])}' + ('' if 'Me Nutrition' in t['title'] else ' — Me Nutrition') + '</title>', html, count=1)
     html = re.sub(r'<meta name="description" content="[^"]*"', f'<meta name="description" content="{esc(t["desc"])}"', html, count=1)
     html = re.sub(r'<link rel="canonical" href="[^"]*"', f'<link rel="canonical" href="{SITE + path}"', html, count=1)
     html = re.sub(r'<details class="langbox">.*?</details>', '', html, count=1, flags=re.S)

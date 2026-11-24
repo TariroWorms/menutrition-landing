@@ -237,6 +237,9 @@ def write_sitemap(langs):
             f'\n    <priority>{"1.0" if l == "en" else "0.9"}</priority>{alts}\n  </url>' for l in langs]
     urls += [f'  <url>\n    <loc>{SITE}{p}</loc>\n    <lastmod>{today}</lastmod>\n    <priority>0.3</priority>\n  </url>'
              for p in ('privacy', 'terms', 'press/', 'widgets/')]
+    dl = json.loads((ROOT / 'tools' / 'pages' / 'dietitians.json').read_text(encoding='utf-8'))
+    urls += [f'  <url>\n    <loc>{SITE}{"" if l == "en" else l + "/"}for-dietitians/</loc>\n    <lastmod>{today}</lastmod>\n    <priority>0.5</priority>\n  </url>'
+             for l in dl]
     (ROOT / 'sitemap.xml').write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
