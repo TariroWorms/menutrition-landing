@@ -136,6 +136,8 @@ def put_dishes(doc, lang):
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-foods-link', lambda m: f'href="{foods}"{m.group(1) or ""} data-foods-link', doc)
     guides = f'/{lang}/guides/' if lang != 'en' and (ROOT / lang / 'guides' / 'index.html').exists() else '/guides/'
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-guides-link', lambda m: f'href="{guides}"{m.group(1) or ""} data-guides-link', doc)
+    dtl = '/for-dietitians/' if lang == 'en' else f'/{lang}/for-dietitians/'
+    doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-dt-link', lambda m: f'href="{dtl}"{m.group(1) or ""} data-dt-link', doc)
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-method-link', lambda m: f'href="{method}"{m.group(1) or ""} data-method-link', doc)
     doc = re.sub(r'(ct=home-[a-z]+)-en', lambda m: f'{m.group(1)}-{lang}', doc)   # App Store campaign token: which language page the tap came from
     return re.sub(r'href="[^"]*"( class="[^"]*")? data-dishes-link', lambda m: f'href="{index}"{m.group(1) or ""} data-dishes-link', doc)
