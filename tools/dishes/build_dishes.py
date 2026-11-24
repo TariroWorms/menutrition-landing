@@ -145,7 +145,6 @@ def origin_link(lang, c, t):
     return f'<a href="{path(lang, "cuisine/" + cu)}">{esc(country.strip())}</a>' + (f' · {esc(rest.strip())}' if sep else '')
 
 PHOTOS = {}
-VARIANT_B = set()   # CTR test (title_b/meta_b) ended 2026-11; its pages now use seo_overrides.json
 _SO = Path(__file__).resolve().parent / 'seo_overrides.json'
 SEO_OVERRIDES = json.load(open(_SO, encoding='utf-8')) if _SO.exists() else {}   # {"<lang>/<slug>": {"title", "meta"}}, from Search Console CTR work
 UTM = 'utm_source=menutrition&utm_medium=referral'
@@ -259,9 +258,6 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
     url = SITE + path(lang, c['slug'])
     title = U['title'].format(name=t['name'], kcal100=round(dish['kcal']))
     description = U['meta'].format(name=t['name'], kcal100=round(dish['kcal']), kcalPortion=kcal_p, portion=portion)
-    if c['slug'] in VARIANT_B and 'title_b' in U:   # CTR test: no ready-made number in the snippet, a reason to click instead
-        title = U['title_b'].format(name=t['name'])
-        description = U['meta_b'].format(name=t['name'])
     if ml:
         description = description.replace(f'{portion} g', f'{portion} ml').replace(f'{portion} г', f'{portion} мл').replace(f'({portion} غ)', f'({portion} مل)')
     ov = SEO_OVERRIDES.get(f'{lang}/{c["slug"]}', {})
