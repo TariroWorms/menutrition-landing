@@ -103,7 +103,7 @@ def build():
     for lang in langs:
         t = T[lang]
         d5, fd, cl = _pre(lang, D5), _pre(lang, FOODS), _pre(lang, CALC)
-        app_page = '/app/' if lang == 'en' else f'/{lang}/app/'
+        app_page = f'/{lang}/app/' if lang != 'en' and (ROOT / lang / 'app' / 'index.html').exists() else '/app/'
         tiles = [('📱', t['app'], t['app_d'], app_page),
                  ('🍽️', t['dishes'], t['dishes_d'].format(n=fmt(len(dishes))), d5 + 'dishes/'),
                  ('🧊', t['cook'], t['cook_d'], d5 + 'dishes/cook/'),
