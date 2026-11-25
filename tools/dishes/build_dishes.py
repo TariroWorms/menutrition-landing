@@ -280,7 +280,7 @@ def dish_page(lang, c, dish, info, ui, contents, langs, db, template):
             '@context': 'https://schema.org', '@type': 'Recipe', 'name': t['name'], 'description': t['intro'],
             'copyrightHolder': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE}, 'creditText': 'Me Nutrition (menutrition.app)', 'usageInfo': SITE + '/terms#citation', 
             'inLanguage': lang, 'url': url, 'recipeCuisine': t['origin'], 'recipeYield': str(r['servings']),
-            'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': [x[:200] for x in r['ingredients']],
+            'totalTime': f'PT{r["time_min"]}M', 'recipeIngredient': ld_ingredients(r['ingredients']),
             'recipeInstructions': [{'@type': 'HowToStep', 'text': s} for s in r['steps']],
             'nutrition': nutrition, 'author': {'@type': 'Organization', 'name': 'Me Nutrition', 'url': SITE + '/'},
             'image': [photo_url(ph, 1200, 1200), photo_url(ph, 1200, 900), photo_url(ph, 1200, 675)] if not ph.get('src') else [photo_url(ph, 960)],
@@ -349,6 +349,18 @@ cpath = lambda lang, a: path(lang, 'country/' + a)
 CATEGORY_ORDER = [('soup', 'Soup'), ('salad', 'Salad'), ('dessert', 'Dessert'), ('drink', 'Drink'), ('breakfast', 'Breakfast'),
                   ('bread', 'Bread'), ('appetizer', 'Appetizer'), ('snack', 'Snack'), ('side', 'Side dish'), ('street_food', 'Street food'),
                   ('sweet', 'Dessert')]
+
+
+def ld_ingredients(xs):
+    """JSON-LD ingredients: a long 'Sauce: a, b, c' line becomes one item per ingredient (Google flags over-long values)."""
+    out = []
+    for x in xs:
+        if len(x) > 90 and ':' in x[:40]:
+            head, rest = x.split(':', 1)
+            out += [f'{p.strip()} ({head.strip()})' for p in rest.split(',') if p.strip()]
+        else:
+            out.append(x[:200])
+    return out
 
 
 def recipe_category(dish):
