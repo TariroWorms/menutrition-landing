@@ -63,9 +63,15 @@ document.addEventListener('click',function(e){var C=F.clicks;if(!C||!C.action)re
  b.append(C.section,p[0]);b.append(C.place,p.slice(1,-1).join('-'));b.append(C.lang,p[p.length-1]);b.append(C.page,location.pathname);b.append(C.kind,(android?'android':ios?'ios':'desktop')+(/play\.google\.com/.test(h)?'-play':''));
  try{fetch(C.action,{method:'POST',mode:'no-cors',keepalive:true,body:b});}catch(x){}},true);
 document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a');if(!a||a.classList.contains('mna-open'))return;
- var apple=/apps\.apple\.com/.test(a.getAttribute('href')||'');
- if(a.hasAttribute('data-android')||(android&&a.hasAttribute('data-getapp'))){e.preventDefault();e.stopImmediatePropagation();goPlay(ctOf(a)||section()+'-android-btn');}
- else if(desktop&&apple){e.preventDefault();e.stopImmediatePropagation();show(a,'qr');}},true);
+ var h=a.getAttribute('href')||'',apple=/apps\.apple\.com/.test(h),gp=/play\.google\.com/.test(h),get=a.hasAttribute('data-getapp');
+ /* a store badge (App Store / Google Play picture) always opens that store, on any device.
+    a generic «Download» button picks by device: Android -> Google Play; iPhone -> App Store; computer -> the QR card */
+ if(a.querySelector('img,svg')&&(apple||gp))return;
+ if(android&&(a.hasAttribute('data-android')||get)){e.preventDefault();e.stopImmediatePropagation();goPlay(ctOf(a)||section()+'-android-btn');}
+ else if(ios&&get){e.preventDefault();e.stopImmediatePropagation();window.open(F.store+'?pt='+F.pt+'&ct='+section()+'-getapp-'+lang()+'&mt=8','_blank','noopener');}
+ else if(desktop&&(apple||gp||get||a.hasAttribute('data-android'))){e.preventDefault();e.stopImmediatePropagation();
+  document.querySelectorAll('.amodal.open').forEach(function(m){m.classList.remove('open');m.setAttribute('aria-hidden','true');});show(a,'qr');}
+ else if(a.hasAttribute('data-android')){e.preventDefault();e.stopImmediatePropagation();goPlay(ctOf(a)||section()+'-android-btn');}},true);
 /* iPhone: a slim bar at the bottom of content pages once the visitor has read about half of the page (not blocking, dismissible for 3 days) */
 (function(){
  if(!ios)return;var sec=section();if(sec==='home'||sec==='other'||document.documentElement.classList.contains('embed'))return;
