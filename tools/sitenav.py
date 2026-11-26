@@ -66,7 +66,7 @@ def sitenav(lang, here=''):
 
 
 CSS = ('.snav{border-bottom:1px solid var(--line);background:var(--bg,#f8f6f1)}'
-       '.snav .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:6px;padding-bottom:6px;-webkit-overflow-scrolling:touch}'
+       '.snav .wrap{display:flex;flex-wrap:wrap;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:6px;padding-bottom:6px;-webkit-overflow-scrolling:touch}'
        '.snav .wrap::-webkit-scrollbar{display:none}'
        '.snav a{flex:none;padding:7px 12px;border-radius:999px;font-size:14px;font-weight:700;text-decoration:none;color:inherit;white-space:nowrap}'
        '.snav a:hover,.snav a.on{background:var(--teal-soft);color:var(--teal)}'

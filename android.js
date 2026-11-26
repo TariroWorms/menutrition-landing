@@ -86,6 +86,25 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
  function check(){if(el)return;var h=document.documentElement,max=h.scrollHeight-innerHeight;if(max>0&&(window.pageYOffset||h.scrollTop)/max>0.4)make();}
  addEventListener('scroll',check,{passive:true});setTimeout(function(){if(!el)make();},25000);
 })();
+/* one language across the site: the language the visitor picked in a language switcher, else the language of the page they came in on
+   (remembered; with nothing remembered, the phone/computer language).
+   On a move inside the site, a page in another language is swapped for its version in that language when one exists (rel=alternate hreflang).
+   Visitors arriving from search or a shared link see the page they asked for. */
+(function(){
+ var KEY='mn_lang',cur=(document.documentElement.lang||'en').toLowerCase().split('-')[0];
+ function get(){try{return localStorage.getItem(KEY)||'';}catch(e){return '';}}
+ function set(l){try{localStorage.setItem(KEY,l);}catch(e){}}
+ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[hreflang]');if(a)set((a.getAttribute('hreflang')||'').toLowerCase().split('-')[0]);},true);
+ var internal=false;try{internal=!!document.referrer&&new URL(document.referrer).host===location.host;}catch(e){}
+ if(!internal){if(!get())set(cur);return;}
+ if(/[?&]lang=keep/.test(location.search))return;
+ var want=get();if(!want){want=((navigator.languages&&navigator.languages[0])||navigator.language||'en').toLowerCase().split('-')[0];}
+ if(!want||want===cur)return;
+ var alt=document.querySelector('link[rel=alternate][hreflang="'+want+'"]');
+ if(alt&&alt.href&&alt.href.replace(/^https?:\/\/[^/]+/,'')!==location.pathname)location.replace(alt.href.replace(/^https?:\/\/[^/]+/,'')+location.hash);
+})();
+/* section menu (.snav): every section always visible — the pills wrap onto a second line instead of hiding off-screen */
+(function(){var s=document.createElement('style');s.textContent='.snav .wrap{flex-wrap:wrap;overflow:visible!important;row-gap:4px}@media(max-width:700px){.snav .wrap{justify-content:center}.snav .wrap{gap:0 2px;padding-top:4px;padding-bottom:4px}.snav a{padding:5px 8px;font-size:13px}}';document.head.appendChild(s);})();
 window.MNAndroid={open:function(){goPlay();}};
 if(location.hash==='#android-waitlist'&&android)location.replace(play(section()+'-waitlist-link'));
 })();
