@@ -140,6 +140,8 @@ def put_dishes(doc, lang):
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-dt-link', lambda m: f'href="{dtl}"{m.group(1) or ""} data-dt-link', doc)
     doc = re.sub(r'href="[^"]*"( class="[^"]*")? data-method-link', lambda m: f'href="{method}"{m.group(1) or ""} data-method-link', doc)
     doc = re.sub(r'(ct=home-[a-z]+)-en', lambda m: f'{m.group(1)}-{lang}', doc)   # App Store campaign token: which language page the tap came from
+    doc = re.sub(r'(utm_campaign%3Dhome-[a-z]+)-en', lambda m: f'{m.group(1)}-{lang}', doc)   # same token for Google Play
+    doc = put_gp_badge(doc, lang)
     return re.sub(r'href="[^"]*"( class="[^"]*")? data-dishes-link', lambda m: f'href="{index}"{m.group(1) or ""} data-dishes-link', doc)
 
 
@@ -149,6 +151,45 @@ SNAV_CSS = ('<style>:root{--line:rgba(39,35,32,.12);--teal:#0f7f6c;--teal-soft:#
             # one frame for the whole site: same column width as the dishes/foods/calculators pages
             '.max-w-6xl,.max-w-5xl,.max-w-7xl{max-width:760px!important}'
             'header nav.max-w-6xl{padding-left:20px!important;padding-right:20px!important}</style>')
+
+
+# Official Google Play badge (play.google.com/intl/en_us/badges), localized. Google's file names differ
+# from our language codes for a few languages. The English, Arabic and Hebrew images carry extra
+# transparent padding on all sides (class "w" crops it), the rest only above and below.
+GP_FILE = {'pt': 'pt-br', 'he': 'iw', 'zh': 'zh-cn', 'uk': 'ua'}
+GP_WIDE = {'en', 'ar', 'he'}
+GP_ALT = {
+    'en': 'Get it on Google Play',
+    'ru': 'Скачать из Google Play',
+    'ar': 'احصل عليه من Google Play',
+    'it': 'Disponibile su Google Play',
+    'el': 'Διαθέσιμο στο Google Play',
+    'es': 'Disponible en Google Play',
+    'de': 'Jetzt bei Google Play',
+    'fr': 'Disponible sur Google Play',
+    'pt': 'Disponível no Google Play',
+    'pl': 'Pobierz z Google Play',
+    'nl': 'Ontdek het op Google Play',
+    'sv': 'Ladda ned på Google Play',
+    'tr': "Google Play'den alın",
+    'uk': 'Завантажте з Google Play',
+    'he': 'זמין ב-Google Play',
+    'hi': 'Google Play पर पाएं',
+    'id': 'Temukan di Google Play',
+    'vi': 'Tải nội dung trên Google Play',
+    'th': 'รับได้บน Google Play',
+    'zh': '下载应用，请到 Google Play',
+    'ja': 'Google Play で手に入れよう',
+    'ko': 'Google Play에서 다운로드'
+}
+
+
+def put_gp_badge(doc, lang):
+    code = GP_FILE.get(lang, lang)
+    cls = 'badge-gp w' if lang in GP_WIDE else 'badge-gp'
+    doc = doc.replace('badges/en_badge_web_generic.png', f'badges/{code}_badge_web_generic.png')
+    doc = doc.replace('alt="Get it on Google Play"', f'alt="{html.escape(GP_ALT.get(lang, GP_ALT["en"]), quote=True)}"')
+    return doc.replace('class="badge-gp w"', f'class="{cls}"')
 
 
 def put_snav(doc, lang):

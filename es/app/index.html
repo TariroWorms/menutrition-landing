@@ -243,10 +243,13 @@ a.try-row:hover{border-color:#2E7A6F}
 .amodal .stores{margin-top:20px}
 .amodal .get-free{margin-top:6px;font-weight:700;color:#272320}
 .amodal .badge-as img{height:48px}
+.amodal .badge-gp{height:48px}
 .amodal .and-btn{height:48px;padding:0 14px 0 11px;gap:8px}.amodal .and-btn svg{width:28px;height:28px}.amodal .and-btn b{font-size:18px}.amodal .and-btn small{font-size:10.5px}
 #download .badge-as img{height:48px}
+#download .badge-gp{height:48px}
 #download .and-btn{height:48px;padding:0 14px 0 11px;gap:8px}#download .and-btn svg{width:28px;height:28px}#download .and-btn b{font-size:18px}#download .and-btn small{font-size:10.5px}
-.badge-as{display:block;line-height:0;transition:transform .2s}.badge-as img{display:block;height:52px;width:auto}
+.badge-as{display:block;line-height:0;transition:transform .2s}
+.badge-gp{position:relative;display:block;height:52px;aspect-ratio:564/168;overflow:hidden;border-radius:9px;transition:transform .2s}.badge-gp img{position:absolute;top:-15.1%;left:0;height:130.21%;width:auto;max-width:none}.badge-gp.w img{top:-24.4%;left:-7.27%;height:148.81%}.badge-gp:hover{transform:translateY(-2px)}.badge-as img{display:block;height:52px;width:auto}
 .and-btn{display:inline-flex;align-items:center;gap:9px;height:52px;box-sizing:border-box;padding:0 16px 0 12px;border-radius:9px;background:#000;color:#fff;border:1px solid #A6A6A6;text-decoration:none;font-family:-apple-system,"SF Pro Text","Helvetica Neue",Arial,sans-serif;transition:transform .2s}
 .and-btn svg{width:30px;height:30px;flex:none}
 .and-btn .tx{display:flex;flex-direction:column;align-items:flex-start;line-height:1.05;text-align:left}
@@ -722,7 +725,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
     <div class="absolute -bottom-24 -left-10 w-80 h-80 rounded-full bg-gold-500/20 blob"></div>
     <div class="relative">
       <h2 class="font-serif text-4xl sm:text-5xl tracking-tight" data-i18n="dl_h">Empieza gratis hoy.</h2>
-      <div class="mt-9 flex justify-center"><div class="stores"><a class="badge-as" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=home-cta-es&amp;mt=8" target="_blank" rel="noopener"><img src="/badges/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a><a class="and-btn" href="#android" data-android><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#3DDC84" d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22a11.4 11.4 0 0 0-9.84 0L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span class="tx"><small data-i18n="and_top">Muy pronto en</small><b>Android</b></span></a></div></div>
+      <div class="mt-9 flex justify-center"><div class="stores"><a class="badge-as" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=home-cta-es&amp;mt=8" target="_blank" rel="noopener"><img src="/badges/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a><a class="badge-gp" href="https://play.google.com/store/apps/details?id=com.menutrition.scan&amp;referrer=utm_source%3Dmenutrition.app%26utm_medium%3Dsite%26utm_campaign%3Dhome-cta-es" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play" width="646" height="250" loading="lazy"></a></div></div>
       <p class="mt-6 text-sm text-paper/60" data-i18n="dl_note">Suscripción opcional que puedes cancelar cuando quieras en los ajustes del App Store.</p>
     </div>
   </div>
@@ -810,11 +813,11 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
     <button type="button" class="amodal-x" aria-label="Close">&times;</button>
     <h3 id="gmTitle" data-i18n="get_h">Descarga Me Nutrition</h3>
     <p data-i18n="get_p">Elige tu plataforma.</p>
-    <div class="stores"><a class="badge-as" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=home-modal-es&amp;mt=8" target="_blank" rel="noopener"><img src="/badges/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a><a class="and-btn" href="#android" data-android><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#3DDC84" d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22a11.4 11.4 0 0 0-9.84 0L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg><span class="tx"><small data-i18n="and_top">Muy pronto en</small><b>Android</b></span></a></div>
+    <div class="stores"><a class="badge-as" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=home-modal-es&amp;mt=8" target="_blank" rel="noopener"><img src="/badges/app-store-badge.svg" alt="Download on the App Store" width="156" height="52"></a><a class="badge-gp" href="https://play.google.com/store/apps/details?id=com.menutrition.scan&amp;referrer=utm_source%3Dmenutrition.app%26utm_medium%3Dsite%26utm_campaign%3Dhome-modal-es" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/es_badge_web_generic.png" alt="Disponible en Google Play" width="646" height="250" loading="lazy"></a></div>
   </div>
 </div>
 
-<!-- Android: no app yet — Google Play opens a waitlist request by email (04.10.2026, like tradeasduck) -->
+<!-- Android waitlist (unused since the Google Play launch, 26.11.2026; kept for the [data-android] handler) -->
 <div class="amodal" id="androidModal" role="dialog" aria-modal="true" aria-labelledby="amTitle" aria-hidden="true">
   <div class="amodal-card">
     <button type="button" class="amodal-x" aria-label="Close">&times;</button>
