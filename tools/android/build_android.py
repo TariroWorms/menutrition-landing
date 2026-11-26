@@ -21,7 +21,7 @@ import segno
 SECTIONS = ['home', 'dish', 'food', 'guide', 'calc', 'feat', 'other']
 QR = {}
 for sec in SECTIONS:
-    url = f"{cfg['store']}?pt={cfg['pt']}&ct=qr-{sec}&mt=8"
+    url = f"https://menutrition.app/get/?ct=qr-{sec}"   # /get/ sends iPhone to the App Store, Android to Google Play
     QR[sec] = segno.make(url, error='m').svg_inline(scale=4, border=2, dark='#272320', light='#ffffff', omitsize=True, svgclass=None, lineclass=None)
 js = js.replace('/*QR*/{}', json.dumps(QR, separators=(',', ':')))
 js = js.replace('/*FORM*/{}', json.dumps(cfg, separators=(',', ':')))
