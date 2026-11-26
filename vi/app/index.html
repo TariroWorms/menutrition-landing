@@ -411,7 +411,7 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
         <button data-setlang="ko" class="lang-item">한국어</button>
         </div>
       </div>
-      <div class="stores nav-stores"><a class="hdt" href="/vi/for-dietitians/#signin"><span aria-hidden="true">🩺</span><span class="t">Dành cho chuyên gia dinh dưỡng</span></a><a class="nav-dl" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=home-nav-vi&amp;mt=8" target="_blank" rel="noopener" data-getapp data-i18n="nav_dl">Tải về</a></div>
+      <div class="stores nav-stores"><a class="hdt" href="/for-dietitians/#signin"><span aria-hidden="true">🩺</span><span class="t">For dietitians</span></a><a class="nav-dl" href="https://apps.apple.com/app/id6767123368?pt=128869855&amp;ct=home-nav-vi&amp;mt=8" target="_blank" rel="noopener" data-getapp data-i18n="nav_dl">Tải về</a></div>
     </div>
   </nav>
 </header>
@@ -817,17 +817,6 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
   </div>
 </div>
 
-<!-- Android waitlist (unused since the Google Play launch, 26.11.2026; kept for the [data-android] handler) -->
-<div class="amodal" id="androidModal" role="dialog" aria-modal="true" aria-labelledby="amTitle" aria-hidden="true">
-  <div class="amodal-card">
-    <button type="button" class="amodal-x" aria-label="Close">&times;</button>
-    <h3 id="amTitle" data-i18n-html="and_h">Me Nutrition đã có trên iPhone.<br>Tiếp theo là Android.</h3>
-    <p data-i18n="and_p">Gửi yêu cầu và chúng tôi sẽ email cho bạn ngay ngày phiên bản Android ra mắt.</p>
-    <a class="amodal-cta" id="amCta" href="mailto:support@menutrition.app" data-i18n="and_cta">Báo tôi đầu tiên</a>
-    <p class="amodal-note" data-i18n="and_note">Chỉ một email khi ra mắt Android. Không gì khác.</p>
-    <span id="amBody" hidden data-i18n="and_mail">Xin chào! Hãy gửi email cho tôi khi Me Nutrition có trên Android.</span>
-  </div>
-</div>
 
 <script>
   // Language-dependent extras for the v2 blocks: the halal item in the feature
@@ -857,8 +846,6 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
     if (ld) { try { ld.textContent = new Date().toLocaleDateString(lang, {weekday: 'long', month: 'long', day: 'numeric'}); } catch (e) {} }
     var lw = document.getElementById('laWater');
     if (lw && MN_IMPERIAL) lw.textContent = '42 fl oz';
-    var cta = document.getElementById('amCta'), body = document.getElementById('amBody');
-    if (cta && body) cta.href = 'mailto:support@menutrition.app?subject=' + encodeURIComponent('Me Nutrition for Android') + '&body=' + encodeURIComponent(body.textContent);
   };
 </script>
 <script>
@@ -877,9 +864,9 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
 })();
 </script>
 <script>
-// Header «Download» opens the store picker (like DuckWise); Android buttons open the waitlist card.
+// Header «Download» opens the store picker (App Store and Google Play).
 (function(){
-  var ids = ['getModal', 'androidModal'];
+  var ids = ['getModal'];
   function show(id){
     ids.forEach(function(x){
       var m = document.getElementById(x); if (!m) return;
@@ -887,7 +874,6 @@ h1[data-i18n="slogan"],h2[data-i18n="slogan"]{text-wrap:balance}
     });
   }
   document.addEventListener('click', function(e){
-    if (e.target.closest('[data-android]')) { e.preventDefault(); show('androidModal'); return; }
     if (e.target.closest('[data-getapp]')) { e.preventDefault(); show('getModal'); return; }
     if (ids.indexOf(e.target.id) >= 0 || e.target.closest('.amodal-x')) show(null);
   });
