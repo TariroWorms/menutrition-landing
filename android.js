@@ -105,6 +105,16 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
 })();
 /* section menu (.snav): every section always visible — the pills wrap onto a second line instead of hiding off-screen */
 (function(){var s=document.createElement('style');s.textContent='.snav .wrap{flex-wrap:wrap;overflow:visible!important;row-gap:4px}@media(max-width:700px){.snav .wrap{justify-content:center}.snav .wrap{gap:0 2px;padding-top:4px;padding-bottom:4px}.snav a{padding:5px 8px;font-size:13px}}';document.head.appendChild(s);})();
+/* language switcher: all 22 site languages. A language this page has no version in opens that language's home page
+   (menus, calculators and the app page are in every language; untranslated sections stay in English). */
+(function(){
+ var N={en:'English',ru:'Русский',es:'Español',de:'Deutsch',fr:'Français',it:'Italiano',pt:'Português',nl:'Nederlands',pl:'Polski',sv:'Svenska',tr:'Türkçe',uk:'Українська',he:'עברית',ar:'العربية',hi:'हिन्दी',id:'Bahasa Indonesia',vi:'Tiếng Việt',th:'ไทย',zh:'中文',ja:'日本語',ko:'한국어',el:'Ελληνικά'};
+ function fill(){document.querySelectorAll('details.langbox .lm').forEach(function(m){
+  var have={};m.querySelectorAll('a[hreflang]').forEach(function(a){have[a.getAttribute('hreflang').split('-')[0]]=1;});
+  Object.keys(N).forEach(function(l){if(have[l])return;var a=document.createElement('a');a.href=l==='en'?'/':'/'+l+'/';a.setAttribute('hreflang',l);a.textContent=N[l];m.appendChild(a);});
+  m.style.maxHeight='min(70vh,460px)';m.style.overflowY='auto';});}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fill);else fill();
+})();
 window.MNAndroid={open:function(){goPlay();}};
 if(location.hash==='#android-waitlist'&&android)location.replace(play(section()+'-waitlist-link'));
 })();
