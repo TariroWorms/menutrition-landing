@@ -110,7 +110,27 @@ jobs:
                   print('git diff failed:', diff.stderr.strip())
                   urls = [u for f in ('sitemap.xml', 'sitemap-dishes.xml', 'sitemap-features.xml', 'sitemap-calculators.xml', 'sitemap-foods-en.xml', 'sitemap-foods-ru.xml', 'sitemap-foods-ar.xml', 'sitemap-foods-it.xml', 'sitemap-foods-el.xml', 'sitemap-foods-es.xml', 'sitemap-foods-de.xml') for u in re.findall(r'<loc>([^<]+)</loc>', open(f).read())]
               else:
-                  urls = [site + '/' + (f[:-len('index.html')]) for f in diff.stdout.split() if f.endswith('index.html')]
+                  files = [f for f in diff.stdout.split() if f.endswith('index.html')]
+                  # Submit only pages whose content changed: a footer/header/style-only change (site-wide chrome) is not news for Bing
+                  def core(b):
+                      t = b.decode('utf-8', 'ignore')
+                      t = re.sub(r'<footer\b.*?</footer>|<header\b.*?</header>|<style\b.*?</style>', '', t, flags=re.S)
+                      return t
+                  cat = subprocess.Popen(['git', 'cat-file', '--batch'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+                  def blob(rev, f):
+                      cat.stdin.write(f'{rev}:{f}\n'.encode()); cat.stdin.flush()
+                      hdr = cat.stdout.readline().split()
+                      if len(hdr) < 3 or hdr[1] == b'missing':
+                          return None
+                      data = cat.stdout.read(int(hdr[2])); cat.stdout.read(1)
+                      return data
+                  keep = []
+                  for f in files:
+                      a = blob(os.environ['BEFORE'], f)
+                      if a is None or core(a) != core(blob('HEAD', f)):
+                          keep.append(f)
+                  print(len(files), 'changed pages,', len(keep), 'with content changes')
+                  urls = [site + '/' + f[:-len('index.html')] for f in keep]
           urls = sorted(set(urls))
           print(len(urls), 'URLs')
           for i in range(0, len(urls), 10000):
